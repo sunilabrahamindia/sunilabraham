@@ -120,6 +120,15 @@ footer {
   text-decoration: underline;
 }
 
+/* Hide Cayman's default large header and adjust spacing */
+.page-header {
+  display: none;
+}
+
+.main-content {
+  padding-top: 1.5rem;
+}
+
 
 /* =========================================================
    © Sunil Abraham | Licensed under CC BY-SA 4.0
