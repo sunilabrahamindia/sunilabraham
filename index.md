@@ -1,4 +1,16 @@
 <link rel="stylesheet" href="style.css">
+<header class="site-header">
+  <h1>Sunil Abraham Project</h1>
+  <p>Open Source Documentation and Research</p>
+</header>
+
+<nav class="navbar">
+  <a href="/">Home</a>
+  <a href="projects">Projects</a>
+  <a href="publications">Publications</a>
+  <a href="contact">Contact</a>
+</nav>
+
 <nav class="navbar">
   <a href="/">Home</a>
   <a href="projects">Projects</a>
