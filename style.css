@@ -99,6 +99,27 @@ footer {
     padding: 0 10px 60px;
   }
 }
+/* Navigation bar */
+.navbar {
+  background: #0366d6;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: centre;
+  gap: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.navbar a {
+  colour: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
 
 /* =========================================================
    © Sunil Abraham | Licensed under CC BY-SA 4.0
