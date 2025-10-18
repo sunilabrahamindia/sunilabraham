@@ -11,13 +11,6 @@
   <a href="contact">Contact</a>
 </nav>
 
-<nav class="navbar">
-  <a href="/">Home</a>
-  <a href="projects">Projects</a>
-  <a href="publications">Publications</a>
-  <a href="contact">Contact</a>
-</nav>
-
 
 # Sunil Abraham Documentation Project
 
