@@ -43,14 +43,14 @@ body {
 }
 
 .site-header p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #444;
   margin: 0;
   opacity: 0.9;
 }
 
 /* =============================================
-   Blogger-style Tabs (Stylish Navbar)
+   Tabs (Stylish Navbar)
    ============================================= */
 .navbar {
   background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
@@ -207,48 +207,6 @@ section:hover, article:hover {
   }
 }
 
-/* =============================================
-   Google Translate dropdown (navbar integration)
-   ============================================= */
-
-/* Place the translator on the right of navbar */
-#google_translate_element {
-  margin-left: auto;
-  padding: 0.6rem 1rem;
-  display: flex;
-  align-items: center;
-}
-
-#google_translate_element select {
-  background: #2a3f72;
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 6px;
-  padding: 0.3rem 0.6rem;
-  font-size: 0.9rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-#google_translate_element select:hover {
-  background: #ffcc33;
-  color: #0a2e57;
-  border-color: #ffcc33;
-}
-
-/* On mobile: move translator below tabs */
-@media (max-width: 768px) {
-  #google_translate_element {
-    margin: 0.5rem auto 0;
-    justify-content: center;
-  }
-}
-
-/* =========================================================
-   Hidden Note: Adjust includedLanguages list in header.html
-   to change available languages.
-   ========================================================= */
 
 /* =========================================================
    © Sunil Abraham | Licensed under CC BY-SA 4.0
