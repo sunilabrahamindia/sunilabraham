@@ -1,3 +1,6 @@
+---
+title: Contact
+---
 {% include header.html %}
 
 <section class="main-content">
