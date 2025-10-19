@@ -4,7 +4,6 @@ Welcome to the documentation portal of **Sunil Abraham**.
 
 This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
 
-### Biography of Sunil Abraham  
 
 **Sunil Abraham** is an Indian internet researcher, public policy advocate, and social entrepreneur known for his pioneering work at the intersection of technology, society, and governance.  
 
