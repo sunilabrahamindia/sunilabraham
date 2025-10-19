@@ -1,16 +1,4 @@
-<link rel="stylesheet" href="style.css">
-<header class="site-header">
-  <h1>Sunil Abraham Project</h1>
-  <p>Open Source Documentation and Research</p>
-</header>
-
-<nav class="navbar">
-  <a href="/">Home</a>
-  <a href="projects">Projects</a>
-  <a href="publications">Publications</a>
-  <a href="contact">Contact</a>
-</nav>
-
+{% include header.html %}
 
 Welcome to the documentation portal of **Sunil Abraham**.  
 This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
