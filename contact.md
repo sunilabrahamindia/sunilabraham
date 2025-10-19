@@ -1,15 +1,4 @@
-<link rel="stylesheet" href="style.css">
-<header class="site-header">
-  <h1>Contact</h1>
-  <p>Get in touch with Sunil Abraham</p>
-</header>
-
-<nav class="navbar">
-  <a href="/">Home</a>
-  <a href="projects">Projects</a>
-  <a href="publications">Publications</a>
-  <a href="contact" class="active">Contact</a>
-</nav>
+{% include header.html %}
 
 <section class="main-content">
   <p>
