@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css">
 <header class="site-header">
   <h1>Sunil Abraham Project</h1>
   <p>Open Source Documentation and Research</p>
