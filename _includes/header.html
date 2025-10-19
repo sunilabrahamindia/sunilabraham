@@ -1,13 +1,27 @@
-<link rel="stylesheet" href="/style.css">
-
 <header class="site-header">
-  <h1><a href="/" class="site-title">Sunil Abraham Project</a></h1>
-  <p class="site-subtitle">Open Source Documentation and Research</p>
+  <h1>Sunil Abraham Project</h1>
+  <p>Open Source Documentation and Research</p>
 </header>
 
 <nav class="navbar">
-  <a href="/">Home</a>
-  <a href="/projects">Projects</a>
-  <a href="/publications">Publications</a>
-  <a href="/contact">Contact</a>
+  <div class="nav-left">
+    <a href="/">Home</a>
+    <a href="/projects">Projects</a>
+    <a href="/publications">Publications</a>
+    <a href="/contact">Contact</a>
+  </div>
+
+  <div class="nav-right" id="google_translate_element"></div>
 </nav>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      includedLanguages: 'ml,hi,ta,te,kn,fr,de,es,zh,ja',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
