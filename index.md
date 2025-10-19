@@ -12,8 +12,6 @@
 </nav>
 
 
-# Sunil Abraham Documentation Project
-
 Welcome to the documentation portal of **Sunil Abraham**.  
 This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
 
