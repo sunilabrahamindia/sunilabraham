@@ -1,11 +1,9 @@
 ---
 title: Contact
 ---
-
 {% include header.html %}
 
 # Contact
-
 <section class="main-content">
   <p>
     Thank you for your interest in our work.  
