@@ -14,6 +14,7 @@ In **1998**, he founded **Mahiti Infotech**, a social enterprise designed to mak
 Sunil was elected an **Ashoka Fellow** in **1999** for exploring the democratic potential of the internet and later received the **Sarai FLOSS Fellowship** in **2003**. Between **2004 and 2007**, he managed the **International Open Source Network (IOSN)**, a UNDP initiative promoting FOSS across the Asia-Pacific, and later coordinated **ENRAP**, linking rural development projects through ICT.  
 
 His contributions extend to advising governments, UN agencies, and advocacy groups on **open standards**, **internet policy**, and **digital rights**. A frequent lecturer and writer, Sunil’s work highlights issues of **openness**, **equity**, and **accountability** in technology. His lifelong mission remains to ensure that innovation strengthens **democracy** and **social inclusion** rather than deepening inequality.
+
 ---
 
 ## About
