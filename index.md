@@ -1,6 +1,11 @@
 {% include header.html %}
 
 Welcome to the documentation portal of **Sunil Abraham**.  
+
+Sunil Abraham is an Indian internet policy, oper source and open knowledge advocate and technology researcher.
+
+He has worked for decades on digital rights, open standards, and governance reform. Founder of the Centre for Internet and Society, he has advised governments and civil bodies on tech regulation. His research bridges policy, innovation, and ethics in digital ecosystems.
+
 This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
 
 ---
@@ -8,7 +13,7 @@ This open source project collects and publishes notes, essays, and documentation
 ## About
 
 This site is designed to:
-- Maintain documentation using Markdown.  
+- Maintain documentation (using Markdown).  
 - Follow open source principles of transparency and accessibility.  
 - Stay free to host and maintain using GitHub Pages.  
 - Allow readers to learn, reference, and contribute easily.
