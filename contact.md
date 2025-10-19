@@ -16,8 +16,8 @@ You can reach us directly at
 
 ## Notes
 
-I personally read all messages sent to the email above, though replies may take a few days depending on the nature of the enquiry.  
-For detailed or technical discussions, please include relevant links or background context so I can respond effectively.
+We regularly read the messages sent to the email above, though replies may take a few days depending on the nature of the enquiry.  
+For detailed or technical discussions, please include relevant links or background context so we can respond effectively.
 
 ---
 
