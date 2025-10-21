@@ -1,8 +1,7 @@
 ---
+layout: default
 title: Versions
 ---
-{% include header.html %}
-
 
 # Versions
 
@@ -20,6 +19,4 @@ It currently includes the following sections:
 
 ✅ **Status:** Completed — Version 0.1 is live.  
 📅 **Completion Date:** 19 October 2025  
-🗃️ **Internet Archive:** [Archived Snapshot (21 Oct 2025)](https://web.archive.org/web/20251021024650/https://www.sunilabraham.in/)
-
-{% include footer.html %}
+🗃️ **Internet Archive:** [Archived Snapshot (21 Oct 2025)](https://web.archive.org/web/20251021024650/https://www.sunilabraham.in/) 
