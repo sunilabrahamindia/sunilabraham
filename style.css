@@ -146,15 +146,47 @@ a:hover, a:focus {
   color: #0366d6;
 }
 
-/* Footer */
-footer {
-  margin-top: 60px;
+/* =============================================
+   Stylish Footer
+   ============================================= */
+.site-footer {
+  margin-top: 4rem;
+  background: linear-gradient(to bottom right, #0a2e57, #1a3f6b);
+  color: #f5f7fa;
   text-align: center;
-  font-size: 0.9em;
-  color: #555;
-  border-top: 1px solid #eaecef;
-  padding-top: 20px;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  animation: fadeUp 0.8s ease-in-out;
 }
+
+.site-footer a {
+  color: #b9e3ff;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.site-footer .footer-top {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.site-footer .footer-links,
+.site-footer .footer-meta {
+  margin: 0.6rem 0;
+  font-size: 0.95em;
+}
+
+.site-footer p {
+  margin: 0.4rem 0;
+  line-height: 1.6;
+}
+
 
 /* Hover effect for cards/sections */
 section, article, div {
