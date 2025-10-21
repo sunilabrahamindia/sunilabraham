@@ -30,22 +30,5 @@
     {% include footer.html %}
 
   </div>
-  <script>
-  (function() {
-    var btn = document.getElementById('menu-toggle');
-    var nav = document.getElementById('main-nav');
-    if (!btn || !nav) return;
-    btn.addEventListener('click', function(e) {
-      nav.classList.toggle('show');
-    });
-    // Optional: close menu when clicking outside
-    document.addEventListener('click', function(e) {
-      if (!nav.contains(e.target) && !btn.contains(e.target)) {
-        nav.classList.remove('show');
-      }
-    });
-  })();
-</script>
-
 </body>
 </html>
