@@ -25,11 +25,12 @@ body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Header */
+/* =========================================================
+   Header
+   ========================================================= */
 .site-header {
   text-align: center;
   margin: 3rem 0 1.5rem;
-  border-left: none; /* optional: remove side border if you had one */
   padding-left: 0;
 }
 
@@ -50,9 +51,9 @@ body {
   text-align: center;
 }
 
-/* =============================================
-   Tabs (Stylish Navbar)
-   ============================================= */
+/* =========================================================
+   Stylish Navbar
+   ========================================================= */
 .navbar {
   background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
   border-radius: 8px;
@@ -94,7 +95,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* ✅ Green matching active tab */
+/* ✅ Active tab */
 .navbar a.active {
   background: linear-gradient(to bottom, #2f9e9e 0%, #237373 100%);
   color: #fff;
@@ -106,9 +107,9 @@ body {
   border-right: none;
 }
 
-/* =============================================
-   Content styling
-   ============================================= */
+/* =========================================================
+   Main Content
+   ========================================================= */
 .main-content {
   background: #fff;
   border-radius: 12px;
@@ -147,7 +148,9 @@ a:hover, a:focus {
   color: #0366d6;
 }
 
-/* Footer */
+/* =========================================================
+   Footer
+   ========================================================= */
 footer {
   margin-top: 60px;
   padding: 20px 10px;
@@ -156,7 +159,7 @@ footer {
   color: #555;
   border-top: 1px solid #eaecef;
   line-height: 1.6;
-  background: #fafafa; /* subtle background for separation */
+  background: #fafafa;
 }
 
 /* Footer links */
@@ -176,7 +179,14 @@ footer p {
   margin: 8px 0;
 }
 
-/* Responsive tweaks */
+/* Ensure consistent size for all footer links */
+footer p,
+footer p a {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* Mobile footer layout */
 @media (max-width: 600px) {
   footer {
     font-size: 0.85em;
@@ -190,32 +200,18 @@ footer p {
   footer a {
     margin: 2px 6px;
   }
-}
 
-/* Optional: smooth hover for all clickable items */
-a, button {
-  transition: color 0.15s ease, background-color 0.15s ease;
-}
-/* Ensure consistent size for all footer links */
-footer p,
-footer p a {
-  font-size: 0.95em;
-  line-height: 1.6;
-}
-
-/* Make footer links equal weight on mobile */
-@media (max-width: 600px) {
   footer p,
   footer p a {
     display: inline-block;
-    font-size: 1em; /* bump slightly for readability */
+    font-size: 1em;
     margin: 3px 6px;
   }
 }
 
-
-
-/* Animations */
+/* =========================================================
+   Animations
+   ========================================================= */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
@@ -231,7 +227,9 @@ footer p a {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive */
+/* =========================================================
+   Responsive (Mobile & Tablet)
+   ========================================================= */
 @media (max-width: 768px) {
   body {
     padding: 0 1rem 3rem;
@@ -241,21 +239,33 @@ footer p a {
     font-size: 2rem;
   }
 
+  /* ✅ Horizontal scrolling navbar (fix) */
   .navbar ul {
-    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .navbar li {
+    flex: 0 0 auto;
   }
 
   .navbar a {
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
     text-align: center;
+    padding: 0.8rem 1rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none;
   }
 
   .main-content {
     padding: 1.5rem;
   }
 }
-
 
 /* =========================================================
    © Sunil Abraham | Licensed under CC BY-SA 4.0
