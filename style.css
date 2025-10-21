@@ -1,6 +1,6 @@
 /* =========================================================
    Sunil Abraham Project
-   Professional Open Source Documentation Theme 
+   Professional Open Source Documentation Theme (Refined + Blogger Tabs)
    Licence: Creative Commons Attribution–ShareAlike 4.0 (CC BY-SA 4.0)
    ========================================================= */
 
@@ -146,27 +146,73 @@ a:hover, a:focus {
   color: #0366d6;
 }
 
-/* Simple clean footer */
+/* Footer */
 footer {
-  margin-top: 40px;
-  padding-top: 15px;
-  border-top: 1px solid #ccc;
+  margin-top: 60px;
+  padding: 20px 10px;
   text-align: center;
-  font-size: 1em;
-  color: #333;
+  font-size: 0.9em;
+  color: #555;
+  border-top: 1px solid #eaecef;
   line-height: 1.6;
+  background: #fafafa; /* subtle background for separation */
 }
 
+/* Footer links */
 footer a {
   color: #0366d6;
   text-decoration: none;
   margin: 0 4px;
-  font-size: inherit;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:focus {
   text-decoration: underline;
 }
+
+/* Make icon text (like 📦 🕓 🛡️) slightly aligned */
+footer p {
+  margin: 8px 0;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.85em;
+    padding: 15px 8px;
+  }
+
+  footer p {
+    margin: 6px 0;
+  }
+
+  footer a {
+    display: inline-block;
+    margin: 2px 6px;
+  }
+}
+
+/* Optional: smooth hover for all clickable items */
+a, button {
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+/* Ensure consistent size for all footer links */
+footer p,
+footer p a {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* Make footer links equal weight on mobile */
+@media (max-width: 600px) {
+  footer p,
+  footer p a {
+    display: inline-block;
+    font-size: 1em; /* bump slightly for readability */
+    margin: 3px 6px;
+  }
+}
+
 
 
 /* Animations */
@@ -209,3 +255,8 @@ footer a:hover {
     padding: 1.5rem;
   }
 }
+
+
+/* =========================================================
+   © Sunil Abraham | Licensed under CC BY-SA 4.0
+   ========================================================= */
