@@ -4,7 +4,7 @@ title: Versions
 {% include header.html %}
 
 
-# Sunil Abraham Project — Versions
+# Versions
 
 ## Version 0.1
 
