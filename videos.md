@@ -23,7 +23,4 @@ allowfullscreen></iframe>
 
 ---
 
-<footer>
-  © Sunil Abraham. Licensed under CC BY-SA 4.0.  
-  Built with Markdown and GitHub Pages.
-</footer>
+{% include footer.html %}
