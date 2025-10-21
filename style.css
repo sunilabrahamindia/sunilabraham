@@ -146,65 +146,27 @@ a:hover, a:focus {
   color: #0366d6;
 }
 
-/* ===========================
-   Footer (Unified & Responsive)
-   =========================== */
+/* Simple clean footer */
 footer {
-  margin-top: 60px;
-  padding: 20px 10px;
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
   text-align: center;
-  font-size: 0.95em;
-  color: #444;
-  border-top: 1px solid #eaecef;
-  background: #fafafa;
+  font-size: 1em;
+  color: #333;
   line-height: 1.6;
 }
 
-/* Paragraphs inside footer */
-footer p {
-  margin: 8px 0;
-}
-
-/* Footer links — uniform and readable */
 footer a {
   color: #0366d6;
   text-decoration: none;
-  margin: 0 6px;
+  margin: 0 4px;
   font-size: inherit;
-  line-height: inherit;
-  display: inline-block;
-  vertical-align: middle;
-  transition: color 0.2s ease;
 }
 
-footer a:hover,
-footer a:focus {
+footer a:hover {
   text-decoration: underline;
 }
-
-/* Fix for long or special links */
-footer a[href*="github.io"],
-footer a[href*="web.archive.org"] {
-  word-break: break-word;
-}
-
-/* Mobile adjustments */
-@media (max-width: 600px) {
-  footer {
-    font-size: 1em;
-    padding: 15px 8px;
-  }
-
-  footer p {
-    margin: 6px 0;
-  }
-
-  footer a {
-    display: inline-block;
-    margin: 3px 6px;
-  }
-}
-
 
 
 /* Animations */
