@@ -14,7 +14,7 @@ It currently includes the following sections:
 
 - **Home** – Overview of the project and its purpose.  
 - **Projects** – Current work, including documentation on *A. M. Abraham Aryookuzhiel* and *Artificial Intelligence*.  
-- **Publications** – Based on your résumé, listing selected writings and research interests.  
+- **Publications** – Listing selected writings and research interests.  
 - **Videos** – Embedded playlist of talks, lectures, and interviews.  
 - **Contact** – Direct email link and collaboration note.
 
