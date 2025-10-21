@@ -50,64 +50,58 @@ body {
 }
 
 /* =========================================================
-   NAVBAR (For direct <a> tags, not list)
+   NAVBAR (Simple Tab Style)
    ========================================================= */
 .navbar {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 0;
-  overflow-x: auto;
-  white-space: nowrap;
-  background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-  margin: 1rem 0 2rem;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-
-.navbar::-webkit-scrollbar {
-  display: none;
+  flex-wrap: wrap;
+  background: #0a2e57;
+  border-radius: 6px;
+  margin: 1.5rem 0 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
 }
 
 .navbar a {
-  flex: 0 0 auto;
-  display: inline-block;
-  padding: 0.9rem 1.4rem;
-  font-weight: 600;
+  flex: 1;
+  text-align: center;
+  padding: 0.9rem 1rem;
   color: #fff;
   text-decoration: none;
-  letter-spacing: 0.4px;
-  border-right: 1px solid rgba(255, 255, 255, 0.15);
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.navbar a:last-child {
-  border-right: none;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .navbar a:hover {
-  background: linear-gradient(to bottom, #287c7c 0%, #1f5f5f 100%);
-  transform: translateY(-2px);
+  background: #154b91;
+  color: #fff;
 }
 
 .navbar a.active {
-  background: linear-gradient(to bottom, #2f9e9e 0%, #237373 100%);
-  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+  background: #1b5cb8;
+  color: #fff;
 }
 
-/* Responsive tweak */
+/* Mobile adjustments */
 @media (max-width: 768px) {
   .navbar {
-    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 8px;
   }
 
   .navbar a {
-    padding: 0.8rem 1rem;
-    font-size: 0.95rem;
+    padding: 0.85rem;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar a:last-child {
+    border-bottom: none;
   }
 }
+
 
 /* =========================================================
    Main Content
