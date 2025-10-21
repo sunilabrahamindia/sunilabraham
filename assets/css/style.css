@@ -137,9 +137,10 @@ body {
   /* ensure links stay compact and readable */
   .navbar a {
     display: block;
-    padding: 0.45rem 0.65rem;
+    padding: 0.25rem 0.45rem;
     white-space: nowrap;
     border-right: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 80%;
   }
 
   /* optional: remove last border for a cleaner end */
