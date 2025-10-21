@@ -84,7 +84,4 @@ His lectures often combine policy, technology, and ethics — addressing how ope
 
 ---
 
-<footer>
-  © Sunil Abraham. Licensed under CC BY-SA 4.0.  
-  Built with Markdown and GitHub Pages.
-</footer>
+{% include footer.html %}
