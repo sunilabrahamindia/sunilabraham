@@ -212,6 +212,29 @@ footer p a {
     margin: 3px 6px;
   }
 }
+/* Footer uniform link sizing fix */
+footer a {
+  font-size: inherit !important;   /* keep same size as parent text */
+  word-break: break-word;          /* prevent overflow on long URLs */
+  display: inline-block;           /* keeps alignment stable */
+  vertical-align: middle;          /* aligns all links evenly */
+  padding: 2px 4px;                /* gives breathing space */
+}
+
+/* Specific fix for the Internet Archive link */
+footer a[href*="web.archive.org"] {
+  font-size: inherit !important;
+  word-break: break-all;
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+  footer a {
+    font-size: 1em;  /* ensure readability on smaller screens */
+    display: inline-block;
+    margin: 2px 0;
+  }
+}
 
 
 
