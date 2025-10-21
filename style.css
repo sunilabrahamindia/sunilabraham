@@ -176,28 +176,6 @@ footer span {
   margin: 8px 0;
 }
 
-/* === Footer Links === */
-footer a {
-  color: #0366d6;
-  text-decoration: none;
-  margin: 0 6px;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: inherit;
-  word-break: break-word;
-  padding: 2px 4px;
-  transition: color 0.15s ease;
-}
-
-footer a:hover,
-footer a:focus {
-  text-decoration: underline;
-}
-
-/* Specific fix for long Internet Archive link */
-footer a[href*="web.archive.org"] {
-  word-break: break-all;
-}
 
 /* === Mobile Optimisation === */
 @media (max-width: 600px) {
