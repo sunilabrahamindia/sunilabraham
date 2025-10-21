@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default =
 title: Home
 ---
 
@@ -11,7 +11,7 @@ This open source project collects and publishes notes, essays, and documentation
 
 ## About
 
-This site is designed to:
+This project is designed to:
 - Maintain documentation (using Markdown).  
 - Follow open source principles of transparency and accessibility.  
 - Stay free to host and maintain using GitHub Pages.  
