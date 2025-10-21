@@ -146,7 +146,7 @@ a:hover, a:focus {
   color: #0366d6;
 }
 
-/* Footer */
+/* === Footer === */
 footer {
   margin-top: 60px;
   padding: 20px 10px;
@@ -158,11 +158,17 @@ footer {
   background: #fafafa; /* subtle background for separation */
 }
 
-/* Footer links */
+/* === Footer links === */
 footer a {
   color: #0366d6;
   text-decoration: none;
-  margin: 0 4px;
+  margin: 0 6px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: inherit;
+  word-break: break-word;
+  padding: 2px 4px;
+  transition: color 0.15s ease, background-color 0.15s ease;
 }
 
 footer a:hover,
@@ -170,62 +176,33 @@ footer a:focus {
   text-decoration: underline;
 }
 
-/* Make icon text (like 📦 🕓 🛡️) slightly aligned */
+/* Specific fix for the Internet Archive link */
+footer a[href*="web.archive.org"] {
+  word-break: break-all;
+}
+
+/* Paragraph spacing */
 footer p {
   margin: 8px 0;
 }
 
-/* Responsive tweaks */
+/* === Responsive tweaks === */
 @media (max-width: 600px) {
   footer {
-    font-size: 0.85em;
+    font-size: 0.95em; /* slightly larger for readability */
     padding: 15px 8px;
+  }
+
+  footer a {
+    margin: 3px 6px;
+    font-size: 1em;
   }
 
   footer p {
     margin: 6px 0;
   }
-
-  footer a {
-    display: inline-block;
-    margin: 2px 6px;
-  }
 }
 
-/* Optional: smooth hover for all clickable items */
-a, button {
-  transition: color 0.15s ease, background-color 0.15s ease;
-}
-/* Ensure consistent size for all footer links */
-footer p,
-footer p a {
-  font-size: 0.95em;
-  line-height: 1.6;
-}
-
-/* Make footer links equal weight on mobile */
-@media (max-width: 600px) {
-  footer p,
-  footer p a {
-    display: inline-block;
-    font-size: 1em; /* bump slightly for readability */
-    margin: 3px 6px;
-  }
-}
-/* Footer uniform link sizing fix */
-footer a {
-  font-size: inherit !important;   /* keep same size as parent text */
-  word-break: break-word;          /* prevent overflow on long URLs */
-  display: inline-block;           /* keeps alignment stable */
-  vertical-align: middle;          /* aligns all links evenly */
-  padding: 2px 4px;                /* gives breathing space */
-}
-
-/* Specific fix for the Internet Archive link */
-footer a[href*="web.archive.org"] {
-  font-size: inherit !important;
-  word-break: break-all;
-}
 
 /* Mobile adjustment */
 @media (max-width: 768px) {
