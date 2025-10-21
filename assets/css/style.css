@@ -104,6 +104,26 @@ body {
 .navbar li:last-child a {
   border-right: none;
 }
+/* Mobile adjustments (Horizontal Scroll) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar (Firefox) */
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar (Chrome/Safari) */
+  }
+
+  .navbar a {
+    flex: 0 0 auto;
+    padding: 0.85rem 1rem;
+    white-space: nowrap;
+  }
+}
+
 
 /* =========================================================
    Main Content
