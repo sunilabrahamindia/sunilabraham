@@ -1,24 +1,20 @@
 ---
 title: Contact
+layout: default
 ---
-
-{% include header.html %}
 
 # Contact
 
-Thank you for your interest in our work.  
-Whether you have a question about a project, wish to collaborate, or simply want to share a thought, we welcome meaningful conversations related to open documentation, research, and technology.
+Thank you for your interest in my work.  
+Whether you wish to discuss a project, explore collaboration, or share an idea, I welcome thoughtful exchanges related to open documentation, research, and technology.
 
 ## Email
 
-You can reach us directly at  
+You can write to  
 [sunilabraham@proton.me](mailto:sunilabraham@proton.me)
 
-## Notes
+## Note
 
-We regularly read the messages sent to the email above, though replies may take a few days depending on the nature of the enquiry.  
-For detailed or technical discussions, please include relevant links or background context so we can respond effectively.
-
----
-
-{% include footer.html %}
+All messages sent to the above address are read personally.  
+Replies may take a few days, depending on the nature of the enquiry.  
+If your message involves technical or research details, please include any useful links or references to help with a precise response.
