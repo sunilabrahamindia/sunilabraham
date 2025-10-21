@@ -1,9 +1,7 @@
 ---
+layout: default
 title: Videos
 ---
-
-{% include header.html %}
-
 # Videos
 
 This page features a curated collection of **lectures, speeches, talks, and interviews** by **Sunil Abraham**.  
@@ -19,8 +17,4 @@ You can browse and play the complete series below, or open it directly on YouTub
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/videoseries?list=PL-vXI1Y21nLWU_yCR5nX-oun7JzxJraXq"
 title="Sunil Abraham Lectures, Speeches and Talks" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
----
-
-{% include footer.html %}
+allowfullscreen></iframe> 
