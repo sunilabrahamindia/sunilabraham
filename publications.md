@@ -82,6 +82,4 @@ Sunil has lectured at universities and international conferences, including:
 
 His lectures often combine policy, technology, and ethics — addressing how open systems and free software shape social progress.
 
----
-
 {% include footer.html %}
