@@ -166,16 +166,9 @@ footer {
   font-size: 0.9em;
   color: #555;
   border-top: 1px solid #eaecef;
-  background: #fafafa;
-  line-height: 1.6;
+  background: #fae5b0;
+  line-height: 1.2;
 }
-
-/* === Footer Items === */
-footer span {
-  display: block;
-  margin: 8px 0;
-}
-
 
 
 
