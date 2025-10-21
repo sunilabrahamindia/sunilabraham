@@ -196,6 +196,23 @@ footer p {
 a, button {
   transition: color 0.15s ease, background-color 0.15s ease;
 }
+/* Ensure consistent size for all footer links */
+footer p,
+footer p a {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+/* Make footer links equal weight on mobile */
+@media (max-width: 600px) {
+  footer p,
+  footer p a {
+    display: inline-block;
+    font-size: 1em; /* bump slightly for readability */
+    margin: 3px 6px;
+  }
+}
+
 
 
 /* Animations */
