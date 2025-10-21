@@ -1,6 +1,6 @@
 /* =========================================================
    Sunil Abraham Project
-   Professional Open Source Documentation Theme (Refined + Blogger Tabs)
+   Professional Open Source Documentation Theme 
    Licence: Creative Commons Attribution–ShareAlike 4.0 (CC BY-SA 4.0)
    ========================================================= */
 
@@ -146,57 +146,28 @@ a:hover, a:focus {
   color: #0366d6;
 }
 
-/* =============================================
-   Stylish Footer
-   ============================================= */
-.site-footer {
-  margin-top: 4rem;
-  background: linear-gradient(to bottom right, #0a2e57, #1a3f6b);
-  color: #f5f7fa;
+/* Simple clean footer */
+footer {
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
   text-align: center;
-  border-radius: 12px;
-  padding: 2rem 1rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-  animation: fadeUp 0.8s ease-in-out;
-}
-
-.site-footer a {
-  color: #b9e3ff;
-  text-decoration: none;
-  transition: color 0.3s ease, transform 0.2s ease;
-}
-
-.site-footer a:hover {
-  color: #ffffff;
-  transform: scale(1.05);
-}
-
-.site-footer .footer-top {
-  font-weight: 600;
-  margin-bottom: 0.8rem;
-}
-
-.site-footer .footer-links,
-.site-footer .footer-meta {
-  margin: 0.6rem 0;
-  font-size: 0.95em;
-}
-
-.site-footer p {
-  margin: 0.4rem 0;
+  font-size: 1em;
+  color: #333;
   line-height: 1.6;
 }
 
-
-/* Hover effect for cards/sections */
-section, article, div {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+footer a {
+  color: #0366d6;
+  text-decoration: none;
+  margin: 0 4px;
+  font-size: inherit;
 }
 
-section:hover, article:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+footer a:hover {
+  text-decoration: underline;
 }
+
 
 /* Animations */
 @keyframes fadeIn {
@@ -238,8 +209,3 @@ section:hover, article:hover {
     padding: 1.5rem;
   }
 }
-
-
-/* =========================================================
-   © Sunil Abraham | Licensed under CC BY-SA 4.0
-   ========================================================= */
