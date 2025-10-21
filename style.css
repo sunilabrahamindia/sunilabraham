@@ -146,28 +146,63 @@ a:hover, a:focus {
   color: #0366d6;
 }
 
-/* Footer */
+/* ===========================
+   Footer (Unified & Responsive)
+   =========================== */
 footer {
   margin-top: 60px;
   padding: 20px 10px;
   text-align: center;
-  font-size: 0.9em;
-  color: #555;
+  font-size: 0.95em;
+  color: #444;
   border-top: 1px solid #eaecef;
+  background: #fafafa;
   line-height: 1.6;
-  background: #fafafa; /* subtle background for separation */
 }
 
-/* === Footer Base === */
-footer {
-  margin-top: 60px;
-  padding: 20px 10px;
-  text-align: center;
-  font-size: 0.9em;
-  color: #555;
-  border-top: 1px solid #eaecef;
-  background: #fae5b0;
-  line-height: 1.2;
+/* Paragraphs inside footer */
+footer p {
+  margin: 8px 0;
+}
+
+/* Footer links — uniform and readable */
+footer a {
+  color: #0366d6;
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: inherit;
+  line-height: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color 0.2s ease;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
+}
+
+/* Fix for long or special links */
+footer a[href*="github.io"],
+footer a[href*="web.archive.org"] {
+  word-break: break-word;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  footer {
+    font-size: 1em;
+    padding: 15px 8px;
+  }
+
+  footer p {
+    margin: 6px 0;
+  }
+
+  footer a {
+    display: inline-block;
+    margin: 3px 6px;
+  }
 }
 
 
