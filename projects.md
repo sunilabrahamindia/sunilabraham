@@ -1,8 +1,7 @@
 ---
+layout: default
 title: Projects
 ---
-
-{% include header.html %}
 
 # Projects
 
@@ -30,6 +29,3 @@ Through writing and documentation, this project explores how AI transforms learn
 
 Further work will include research documentation, field notes, and essays on science, art, and digital culture.  
 Each project will be written, refined, and published here — keeping the spirit of open knowledge alive.
-
-
-{% include footer.html %}
