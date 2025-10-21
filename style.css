@@ -1,216 +1,209 @@
 /* =========================================================
    Sunil Abraham Project
-   Professional Open Source Documentation Theme 
-   Licence: Creative Commons Attribution–ShareAlike 4.0 (CC BY-SA 4.0)
+   Elegant Documentation Theme
+   Licence: CC BY-SA 4.0
    ========================================================= */
 
-/* Hide default GitHub Pages banner */
-#banner, .page-header, .site-footer {
-  display: none !important;
+/* ========== Base Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Base layout */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #1a1a1a;
-  background: linear-gradient(180deg, #fdfdfd 0%, #f8fafc 100%);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  color: #222;
+  background-color: #fcfcfc;
+  line-height: 1.75;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 0 1.5rem 4rem;
-  max-width: 1000px;
-  line-height: 1.8;
-  transition: background 0.3s ease, color 0.3s ease;
+  padding: 2rem 1rem 5rem;
 }
 
-/* Header */
+/* ========== Header ========== */
 .site-header {
-  text-align: left;
-  margin: 3rem 0 1.5rem;
-  border-left: 5px solid #0a2e57;
-  padding-left: 1rem;
-  animation: fadeIn 1s ease-in-out;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.8rem;
 }
 
 .site-header h1 {
-  font-size: 2.6rem;
-  font-weight: 800;
+  font-size: 2.3rem;
+  font-weight: 700;
   color: #0a2e57;
-  margin: 0 0 0.4rem;
-  letter-spacing: 0.3px;
 }
 
 .site-header p {
-  font-size: 1.1rem;
-  color: #444;
-  margin: 0;
-  opacity: 0.9;
+  font-size: 1.05rem;
+  color: #555;
+  margin-top: 0.3rem;
 }
 
-/* =============================================
-   Tabs (Stylish Navbar)
-   ============================================= */
+/* ========== Navbar ========== */
 .navbar {
-  background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-  margin: 1rem 0 2rem;
-  padding: 0;
+  margin: 1.5rem 0 2.5rem;
+  background: #0a2e57;
+  border-radius: 6px;
   overflow: hidden;
-  animation: slideDown 0.8s ease;
 }
 
 .navbar ul {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  list-style: none;
 }
 
 .navbar li {
-  margin: 0;
-  padding: 0;
+  flex: 1;
+  text-align: center;
 }
 
 .navbar a {
-  display: inline-block;
-  padding: 0.9rem 1.4rem;
-  font-weight: 600;
+  display: block;
+  padding: 0.9rem;
   color: #fff;
   text-decoration: none;
-  letter-spacing: 0.4px;
-  border-right: 1px solid rgba(255, 255, 255, 0.15);
-  transition: background 0.3s ease, transform 0.2s ease;
+  font-weight: 500;
+  transition: background 0.3s ease;
 }
 
-/* Hover + active effects */
-.navbar a:hover {
-  background: linear-gradient(to bottom, #287c7c 0%, #1f5f5f 100%);
-  color: #fff;
-  transform: translateY(-2px);
-}
-
-/* ✅ Green matching active tab */
+.navbar a:hover,
 .navbar a.active {
-  background: linear-gradient(to bottom, #2f9e9e 0%, #237373 100%);
-  color: #fff;
-  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+  background: #124b93;
 }
 
-/* Remove right border on last tab */
-.navbar li:last-child a {
-  border-right: none;
-}
-
-/* =============================================
-   Content styling
-   ============================================= */
+/* ========== Main Content ========== */
 .main-content {
   background: #fff;
-  border-radius: 12px;
-  padding: 2.2rem;
-  margin-top: 2rem;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-  animation: fadeUp 1s ease-in-out;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
 }
 
-/* Headings */
-h1, h2, h3, h4 {
-  font-weight: 600;
+h1,
+h2,
+h3 {
   color: #0a2e57;
+  margin: 1.5rem 0 0.8rem;
   line-height: 1.4;
 }
 
 h1 {
-  border-bottom: 2px solid #eaecef;
-  padding-bottom: 0.3em;
-  margin-top: 0;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.4rem;
 }
 
 h2 {
-  margin-top: 2.5rem;
+  font-size: 1.4rem;
+}
+
+p,
+ul,
+ol {
+  margin-bottom: 1rem;
 }
 
 /* Links */
 a {
-  color: #005cc5;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover, a:focus {
-  text-decoration: underline;
   color: #0366d6;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-/* Simple clean footer */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul {
+  list-style: disc inside;
+  margin-left: 1rem;
+}
+
+/* Code blocks and inline code */
+code {
+  font-family: "Courier New", monospace;
+  background: #f6f8fa;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+/* ========== Footer ========== */
 footer {
-  margin-top: 40px;
-  padding-top: 15px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ddd;
+  margin-top: 60px;
+  padding-top: 20px;
   text-align: center;
-  font-size: 1em;
-  color: #333;
-  line-height: 1.6;
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.7;
 }
 
 footer a {
   color: #0366d6;
   text-decoration: none;
-  margin: 0 4px;
-  font-size: inherit;
+  margin: 0 5px;
 }
 
 footer a:hover {
   text-decoration: underline;
 }
 
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+footer p {
+  margin: 6px 0;
 }
 
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideDown {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Responsive */
+/* ========== Responsive Design ========== */
 @media (max-width: 768px) {
   body {
-    padding: 0 1rem 3rem;
-  }
-
-  .site-header h1 {
-    font-size: 2rem;
+    font-size: 16px;
+    padding: 1.5rem 1rem 4rem;
   }
 
   .navbar ul {
     flex-direction: column;
   }
 
+  .navbar li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
   .navbar a {
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
+    text-align: left;
+    padding-left: 1.2rem;
   }
 
   .main-content {
     padding: 1.5rem;
   }
+
+  footer {
+    font-size: 0.9em;
+  }
 }
 
+/* ========== Smooth Animation ========== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-/* =========================================================
-   © Sunil Abraham | Licensed under CC BY-SA 4.0
-   ========================================================= */
+.main-content {
+  animation: fadeIn 0.6s ease-out;
+}
