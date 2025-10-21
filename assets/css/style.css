@@ -104,23 +104,47 @@ body {
 .navbar li:last-child a {
   border-right: none;
 }
-/* Mobile adjustments (Horizontal Scroll) */
+/* =========================================================
+   Mobile Navbar (Horizontal Scroll Fix)
+   ========================================================= */
 @media (max-width: 768px) {
+  /* allow scroll on small screens */
   .navbar {
-    flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Hide scrollbar (Firefox) */
+    scrollbar-width: none; /* Firefox */
   }
 
+  /* hide scrollbar visually */
   .navbar::-webkit-scrollbar {
-    display: none; /* Hide scrollbar (Chrome/Safari) */
+    display: none; /* Chrome/Safari */
   }
 
-  .navbar a {
+  /* make all tabs stay in one row */
+  .navbar ul {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* prevent each tab from shrinking/wrapping */
+  .navbar li {
     flex: 0 0 auto;
+    list-style: none;
+  }
+
+  /* ensure links stay compact and readable */
+  .navbar a {
+    display: block;
     padding: 0.85rem 1rem;
     white-space: nowrap;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  /* optional: remove last border for a cleaner end */
+  .navbar li:last-child a {
+    border-right: none;
   }
 }
 
