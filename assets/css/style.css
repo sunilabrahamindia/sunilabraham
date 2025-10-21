@@ -1,6 +1,6 @@
 /* =========================================================
    Sunil Abraham Project
-   Professional Theme with Responsive Hamburger Navbar
+   Simple Professional Theme (Optimised for Direct <a> Navbar)
    Licence: CC BY-SA 4.0
    ========================================================= */
 
@@ -31,125 +31,81 @@ body {
    Header
    ========================================================= */
 .site-header {
-  margin: 2.5rem 0 1.5rem;
-  text-align:center;
+  text-align: center;
+  margin: 3rem 0 1.5rem;
 }
 
-.brand h1 {
-  font-size: 2.4rem;
+.site-header h1 {
+  font-size: 2.6rem;
   font-weight: 800;
   color: #0a2e57;
-  margin: 0;
+  margin: 0 0 0.4rem;
 }
 
-.brand p {
+.site-header p {
   font-size: 1rem;
   color: #444;
-  margin: 0.2rem 0 0;
+  margin: 0;
   opacity: 0.9;
 }
 
 /* =========================================================
-   Responsive Navbar (Hamburger Menu)
+   NAVBAR (For direct <a> tags, not list)
    ========================================================= */
-.nav-row {
+.navbar {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-/* Site title link */
-.site-title {
-  color: #0a2e57;
-  text-decoration: none;
-  font-weight: 800;
-}
-
-/* Hamburger toggle */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-  color: #333;
-  padding: 0.4rem 0.6rem;
-}
-
-/* Navbar base */
-.main-nav {
-  display: flex;
   gap: 0;
-  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  margin: 1rem 0 2rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
 
-.main-nav a {
+.navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar a {
+  flex: 0 0 auto;
   display: inline-block;
   padding: 0.9rem 1.4rem;
+  font-weight: 600;
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
-  background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
-  border-right: 1px solid rgba(255,255,255,0.15);
-  transition: background 0.2s ease, transform 0.15s ease;
+  letter-spacing: 0.4px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.main-nav a:last-child {
+.navbar a:last-child {
   border-right: none;
 }
 
-.main-nav a:hover {
+.navbar a:hover {
   background: linear-gradient(to bottom, #287c7c 0%, #1f5f5f 100%);
   transform: translateY(-2px);
 }
 
-.main-nav a.active {
+.navbar a.active {
   background: linear-gradient(to bottom, #2f9e9e 0%, #237373 100%);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
-/* =========================================================
-   Mobile View
-   ========================================================= */
+/* Responsive tweak */
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
+  .navbar {
+    justify-content: flex-start;
   }
 
-  .main-nav {
-    display: none;
-    position: absolute;
-    right: 1rem;
-    top: 80px;
-    flex-direction: column;
-    background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
-    border-radius: 8px;
-    padding: 0.25rem;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-    z-index: 999;
-  }
-
-  .main-nav.show {
-    display: flex;
-  }
-
-  .main-nav a {
-    padding: 0.9rem 1.2rem;
-    border-right: none;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-  }
-
-  .main-nav a:last-child {
-    border-bottom: none;
-  }
-
-  .brand h1 {
-    font-size: 1.8rem;
-  }
-
-  body {
-    padding: 0 1rem 3rem;
+  .navbar a {
+    padding: 0.8rem 1rem;
+    font-size: 0.95rem;
   }
 }
 
@@ -181,9 +137,7 @@ h2 {
   margin-top: 2.5rem;
 }
 
-/* =========================================================
-   Links
-   ========================================================= */
+/* Links */
 a {
   color: #005cc5;
   text-decoration: none;
@@ -223,7 +177,7 @@ footer p {
 }
 
 /* =========================================================
-   Animation
+   Animations
    ========================================================= */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(20px); }
@@ -231,5 +185,18 @@ footer p {
 }
 
 /* =========================================================
-   © Sunil Abraham | CC BY-SA 4.0
+   Responsive Adjustments
    ========================================================= */
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem 3rem;
+  }
+
+  .site-header h1 {
+    font-size: 2rem;
+  }
+
+  .main-content {
+    padding: 1.5rem;
+  }
+}
