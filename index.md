@@ -37,7 +37,6 @@ You are free to share and adapt this material with proper attribution.
 
 [Learn more about the licence](https://creativecommons.org/licenses/by-sa/4.0/)
 
----
 
 {% include footer.html %}
 
