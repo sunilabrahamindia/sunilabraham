@@ -1,6 +1,6 @@
 /* =========================================================
    Sunil Abraham Project
-   Professional Open Source Documentation Theme (Refined + Blogger Tabs)
+   Professional Open Source Documentation Theme
    Licence: Creative Commons Attribution–ShareAlike 4.0 (CC BY-SA 4.0)
    ========================================================= */
 
@@ -43,7 +43,7 @@ body {
 }
 
 .site-header p {
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   color: #444;
   margin: 0;
   opacity: 0.9;
@@ -187,7 +187,6 @@ footer p {
   }
 
   footer a {
-    display: inline-block;
     margin: 2px 6px;
   }
 }
