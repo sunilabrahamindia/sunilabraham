@@ -1,4 +1,7 @@
-{% include header.html %}
+---
+layout: default
+title: Home
+---
 
 Welcome to the documentation portal of **Sunil Abraham**.
 
@@ -16,7 +19,6 @@ This site is designed to:
 
 ---
 
-
 Sunil Abraham (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his pioneering work at the intersection of technology, society, and governance.  
 
 Sunil is the founder and executive director of the [Centre for Internet and Society (CIS)](https://cis-india.org/), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.  
@@ -32,5 +34,3 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 ## Licence
 
 All content are released under the [Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.
-
-{% include footer.html %}
