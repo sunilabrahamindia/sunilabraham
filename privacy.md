@@ -1,8 +1,7 @@
 ---
+layout: default
 title: Privacy Policy
 ---
-
-{% include header.html %}
 
 # Privacy Policy
 
@@ -50,5 +49,3 @@ The version date above always shows the latest update.
 ---
 
 If you have any questions about this policy, you can contact **Sunil Abraham** directly using the email address listed on the [Contact](/contact) page.
-
-{% include footer.html %}
