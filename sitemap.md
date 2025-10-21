@@ -3,8 +3,6 @@ layout: default
 title: Index
 ---
 
-{% include header.html %}
-
 # Sitemap
 
 Here’s a list of all public pages and posts on this site.
@@ -24,5 +22,3 @@ Here’s a list of all public pages and posts on this site.
   <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: "%B %Y" }}</li>
 {% endfor %}
 </ul>
-
-{% include footer.html %}
