@@ -33,7 +33,4 @@ Each project will be written, refined, and published here — keeping the spirit
 
 ---
 
-<footer>
-  © Sunil Abraham. Licensed under CC BY-SA 4.0.  
-  Built with Markdown and GitHub Pages.
-</footer>
+{% include footer.html %}
