@@ -39,7 +39,5 @@ You are free to share and adapt this material with proper attribution.
 
 ---
 
-<footer>
-  © Sunil Abraham. Licensed under CC BY-SA 4.0.  
-  Built with Markdown and GitHub Pages.
-</footer>
+{% include footer.html %}
+
