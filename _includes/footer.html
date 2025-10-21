@@ -1,11 +1,24 @@
-<footer>
-  <p>© {{ site.time | date: "%Y" }} Sunil Abraham. Licensed under 
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.<br/>
-    Find Sunil Abraham on:
-    <a href="https://www.facebook.com/abrahamsunil">Facebook</a> ·
-    <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a> ·
-    <a href="https://x.com/sunil_abraham">𝕏</a><br/>
-    <a href="https://web.archive.org/web/*/{{ site.url }}{{ page.url }}">Internet Archive Backup</a> of this page.
-    <a href="https://github.com/sunilabrahamindia/sunilabraham">🗂️ GitHub Repository</a>  <a href="versions">🕓 Versions</a> <a href="privacy">🛡️ Privacy policy</a>
-  </p>
+<footer class="site-footer">
+  <div class="footer-top">
+    <p>© {{ site.time | date: "%Y" }} <strong>Sunil Abraham</strong> · 
+      Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+    </p>
+  </div>
+
+  <div class="footer-links">
+    <p>
+      <a href="https://www.facebook.com/abrahamsunil">Facebook</a> ·
+      <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a> ·
+      <a href="https://x.com/sunil_abraham">𝕏</a> ·
+      <a href="https://github.com/sunilabrahamindia/sunilabraham">GitHub</a>
+    </p>
+  </div>
+
+  <div class="footer-meta">
+    <p>
+      <a href="https://web.archive.org/web/*/{{ site.url }}{{ page.url }}">📦 Internet Archive Backup</a> ·
+      <a href="/versions">🕓 Versions</a> ·
+      <a href="/privacy">🛡️ Privacy Policy</a>
+    </p>
+  </div>
 </footer>
