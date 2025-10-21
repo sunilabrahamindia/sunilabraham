@@ -31,8 +31,6 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 
 ## Licence
 
-All content are released under the  
-[Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) licence, unless otherwise stated.  
-You are free to share and adapt this material with proper attribution.
+All content are released under the [Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.
 
 {% include footer.html %}
