@@ -177,23 +177,6 @@ footer span {
 }
 
 
-/* === Mobile Optimisation === */
-@media (max-width: 600px) {
-  footer {
-    font-size: 0.95em;
-    padding: 15px 8px;
-  }
-
-  footer span {
-    margin: 6px 0;
-  }
-
-  footer a {
-    font-size: 1em;
-    margin: 3px 6px;
-  }
-}
-
 
 
 /* Animations */
