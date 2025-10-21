@@ -21,7 +21,4 @@ For detailed or technical discussions, please include relevant links or backgrou
 
 ---
 
-<footer>
-  © Sunil Abraham. Licensed under CC BY-SA 4.0.  
-  Built with Markdown and GitHub Pages.
-</footer>
+{% include footer.html %}
