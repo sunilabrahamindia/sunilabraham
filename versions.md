@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Versions
 ---
+{% include header.html %}
+
 
 # Sunil Abraham Project — Versions
 ---
@@ -22,4 +23,4 @@ It currently includes the following sections:
 📅 **Completion Date:** 19 October 2025  
 🗃️ **Internet Archive:** [Archived Snapshot (21 Oct 2025)](https://web.archive.org/web/20251021024650/https://www.sunilabraham.in/)
 
----
+{% include footer.html %}
