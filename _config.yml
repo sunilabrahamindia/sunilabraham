@@ -1,5 +1,29 @@
 title: "Sunil Abraham Documentation Project"
 description: "Open source documentation and notes by Sunil Abraham"
-theme: null
 markdown: kramdown
 show_downloads: false
+
+# Theme disabled since using a custom layout
+theme: null
+
+# =====================================================
+# Plugins (these require GitHub Actions build enabled)
+# =====================================================
+plugins:
+  - jekyll-toc       # Generates Table of Contents
+  - jekyll-seo-tag   # Adds SEO meta tags
+  - jekyll-sitemap   # Creates sitemap.xml
+
+# =====================================================
+# Optional: Table of Contents settings
+# =====================================================
+toc:
+  min_level: 2       # start from H2
+  max_level: 4       # include up to H4
+  ordered_list: false
+
+# =====================================================
+# Markdown and URL settings
+# =====================================================
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: pretty
