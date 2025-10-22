@@ -154,7 +154,7 @@ body {
    Main Content
    ========================================================= */
 .main-content {
-  background: transparent; /* Was #fff; */
+  background: #fff;
   border-radius: 12px;
   padding: 2.2rem;
   margin-top: 2rem;
@@ -240,4 +240,13 @@ footer p {
   .main-content {
     padding: 1.5rem;
   }
+}
+
+/* === Allow full-page background colour changes === */
+html, body, .main-content {
+  transition: background-color 0.4s ease !important;
+}
+
+.main-content {
+  background: transparent !important;
 }
