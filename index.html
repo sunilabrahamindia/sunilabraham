@@ -484,36 +484,39 @@ if (savedBg) {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 9999;
-    background: linear-gradient(to right, #87ceeb, #a3d2f2, #b7dbf6, #c1def8, #d9ecfc, #e9f5fe, #f7fbfe, #ffffff);
-    border-bottom: 1px solid #eee;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: linear-gradient(to right, #3b5998, #2a3f72); /* matches navbar */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 8px;
     padding: 6px 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     transition: top 0.3s ease;
   }
 
   #sc-share-bar button {
-    background: none;
+    background: linear-gradient(to bottom, #2f9e9e, #237373); /* teal-green active tone */
     border: none;
     cursor: pointer;
-    padding: 4px;
-    transition: transform 0.2s ease, opacity 0.2s ease;
-  }
-
-  #sc-share-bar button img {
-    width: 22px;
-    height: 22px;
-    display: block;
+    border-radius: 6px;
+    padding: 5px;
+    transition: transform 0.2s ease, opacity 0.2s ease, background 0.3s ease;
   }
 
   #sc-share-bar button:hover {
-    transform: scale(1.2);
-    opacity: 0.85;
+    background: linear-gradient(to bottom, #287c7c, #1f5f5f); /* hover tone */
+    transform: translateY(-2px);
+    opacity: 0.95;
+  }
+
+  #sc-share-bar button img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    filter: brightness(100%) invert(0%); /* keep natural icon tone */
   }
 
   #sc-share-close {
@@ -539,19 +542,18 @@ if (savedBg) {
     display: none;
   }
 
-  /* Search input inline */
   #sc-share-bar input.search-inline {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 6px 10px;
     font-size: 14px;
     outline: none;
-    transition: box-shadow 0.2s ease;
     margin-left: 8px;
+    transition: box-shadow 0.2s ease;
   }
 
   #sc-share-bar input.search-inline:focus {
-    box-shadow: 0 0 8px rgba(142,36,170,0.4);
+    box-shadow: 0 0 8px rgba(47,158,158,0.6);
   }
 
   #sc-share-bar .search-close-btn {
@@ -560,26 +562,26 @@ if (savedBg) {
     font-size: 16px;
     cursor: pointer;
     margin-left: 6px;
-    color: #8e24aa;
+    color: #2f9e9e;
   }
 
-  /* Close (red cross) */
   #sc-share-close img {
-    filter: invert(27%) sepia(91%) saturate(7492%) hue-rotate(345deg) brightness(94%) contrast(101%);
+    filter: invert(20%) sepia(90%) saturate(5500%) hue-rotate(345deg) brightness(95%) contrast(100%);
   }
 
   #sc-share-close:hover img {
     filter: brightness(0.8);
   }
 
-  /* Adjust body offset for fixed bar */
   @media (max-width: 768px) {
-    body { padding-top: 20px !important; }
+    body { padding-top: 40px !important; }
   }
+
   @media (min-width: 769px) {
-    body { padding-top: 20px; }
+    body { padding-top: 40px; }
   }
 </style>
+
 
 <!-- =========================================================
      Script
