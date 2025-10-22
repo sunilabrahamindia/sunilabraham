@@ -242,14 +242,23 @@ footer p {
     padding: 1.5rem;
   }
 
-  /* Hidden Note:
-     Fixes images overflowing on small screens.
-     This ensures Markdown and inline images stay within mobile width. */
+  /* ✅ Full-proof image scaling fix for Markdown/GitHub Pages */
+  .main-content img,
   .content img,
-  .main-content img {
-    max-width: 100%;
-    height: auto;
+  p img,
+  article img,
+  section img {
+    max-width: 100% !important; /* override inline or container limits */
+    width: 100% !important;     /* ensures it shrinks with screen */
+    height: auto !important;    /* keeps proportions */
     display: block;
     margin: 1rem auto;
+    border-radius: 8px;
+  }
+
+  /* Optional: reduce huge hero images slightly on mobile */
+  .content img[alt*="Sunil Abraham"],
+  .main-content img[alt*="Sunil Abraham"] {
+    width: 95% !important;
   }
 }
