@@ -75,10 +75,10 @@
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 9999;
-    background: rgba(248, 250, 252, 0.9); /* soft bluish tone */
+    background: rgba(248, 250, 252, 0.9); /* subtle bluish tone */
     backdrop-filter: blur(6px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,19 +89,19 @@
     transition: top 0.3s ease, background 0.4s ease;
   }
 
-  /* Buttons now match navbar */
+  /* Muted navy buttons */
   #sc-share-bar button {
-    background: linear-gradient(to bottom, #3b5998, #2a3f72);
+    background: linear-gradient(to bottom, #334d70, #283d5c);
     border: none;
-    cursor: pointer;
     border-radius: 6px;
     padding: 5px;
+    cursor: pointer;
     transition: transform 0.2s ease, opacity 0.2s ease, background 0.3s ease;
   }
 
   #sc-share-bar button:hover {
-    background: linear-gradient(to bottom, #324c91, #233864);
-    transform: translateY(-2px);
+    background: linear-gradient(to bottom, #39567e, #2e4369);
+    transform: translateY(-1px);
     opacity: 0.95;
   }
 
@@ -109,7 +109,7 @@
     width: 20px;
     height: 20px;
     display: block;
-    filter: brightness(100%) invert(0%);
+    filter: brightness(0.92); /* softens bright icons slightly */
   }
 
   #sc-share-close {
@@ -135,10 +135,10 @@
     display: none;
   }
 
-  /* Search box — soft background and blue border */
+  /* Search field — calm, blue-bordered */
   #sc-share-bar input.search-inline {
     background: rgba(255,255,255,0.95);
-    border: 1px solid #3b5998;
+    border: 1px solid #334d70;
     border-radius: 6px;
     padding: 6px 10px;
     font-size: 14px;
@@ -149,7 +149,7 @@
 
   #sc-share-bar input.search-inline:focus {
     background: #fff;
-    box-shadow: 0 0 8px rgba(59,89,152,0.5);
+    box-shadow: 0 0 8px rgba(51,77,112,0.4);
   }
 
   #sc-share-bar .search-close-btn {
@@ -162,7 +162,7 @@
   }
 
   #sc-share-close img {
-    filter: invert(20%) sepia(30%) saturate(900%) hue-rotate(200deg);
+    filter: invert(20%) sepia(20%) saturate(600%) hue-rotate(200deg);
   }
 
   #sc-share-close:hover img {
@@ -175,7 +175,7 @@
 
   @media (min-width: 769px) {
     body { padding-top: 40px; }
-  } 
+  }
 </style>
 
 
