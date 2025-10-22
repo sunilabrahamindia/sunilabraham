@@ -32,7 +32,7 @@ body {
    ========================================================= */
 .site-header {
   text-align: center;
-  margin: 3rem 0 1.5rem;
+  margin: 2rem 0 0.8rem; /* reduced spacing for better compactness */
 }
 
 .site-header h1 {
@@ -49,14 +49,14 @@ body {
   opacity: 0.9;
 }
 
-/* =============================================
-   Tabs (Stylish Navbar)
-   ============================================= */
+/* =========================================================
+   Navbar (Stylish Tabs)
+   ========================================================= */
 .navbar {
   background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
   border-radius: 8px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-  margin: 1rem 0 2rem;
+  margin: 0.4rem 0 2rem; /* tighter top spacing */
   padding: 0;
   overflow: hidden;
   animation: slideDown 0.8s ease;
@@ -104,23 +104,21 @@ body {
 .navbar li:last-child a {
   border-right: none;
 }
+
 /* =========================================================
    Mobile Navbar (Horizontal Scroll Fix)
    ========================================================= */
 @media (max-width: 768px) {
-  /* allow scroll on small screens */
   .navbar {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none; /* Firefox */
   }
 
-  /* hide scrollbar visually */
   .navbar::-webkit-scrollbar {
     display: none; /* Chrome/Safari */
   }
 
-  /* make all tabs stay in one row */
   .navbar ul {
     display: flex;
     flex-wrap: nowrap;
@@ -128,27 +126,23 @@ body {
     padding: 0;
   }
 
-  /* prevent each tab from shrinking/wrapping */
   .navbar li {
     flex: 0 0 auto;
     list-style: none;
   }
 
-  /* ensure links stay compact and readable */
   .navbar a {
     display: block;
     padding: 0.25rem 0.45rem;
     white-space: nowrap;
     border-right: 1px solid rgba(255, 255, 255, 0.15);
-  font-size: 80%;
+    font-size: 80%;
   }
 
-  /* optional: remove last border for a cleaner end */
   .navbar li:last-child a {
     border-right: none;
   }
 }
-
 
 /* =========================================================
    Main Content
