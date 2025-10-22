@@ -388,6 +388,272 @@ if (savedBg) {
 });
 </script>
 <!-- End Utility Toolbox -->
+<!-- =========================================================
+     Sunil Abraham Project
+     Top Share Bar (GitHub Pages Compatible)
+     Licence: CC BY-SA 4.0
+     ========================================================= -->
+
+<!-- SC: Top Share Bar with Icons -->
+<div id="sc-share-bar">
+  <!-- Search button -->
+  <button id="sc-search-btn" title="Search this site">
+    <img src="https://cdn-icons-png.flaticon.com/128/622/622669.png" alt="Search" />
+  </button>
+
+  <!-- Visible share buttons -->
+  <div class="sc-share-buttons" id="sc-visible-buttons">
+    <button onclick="scShare('facebook')" title="Share on Facebook">
+      <img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" alt="Facebook" />
+    </button>
+    <button onclick="scShare('x')" title="Post on X">
+      <img src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png" alt="X Logo" />
+    </button>
+    <button onclick="scShare('linkedin')" title="Share on LinkedIn">
+      <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="LinkedIn" />
+    </button>
+    <button onclick="scShare('email')" title="Share via Email">
+      <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Email" />
+    </button>
+    <button onclick="scShare('print')" title="Print this page">
+      <img src="https://cdn-icons-png.flaticon.com/128/337/337946.png" alt="Print PDF" />
+    </button>
+    <button id="sc-more-toggle" title="More share options">
+      <img src="https://cdn-icons-png.flaticon.com/128/32/32195.png" alt="More" />
+    </button>
+  </div>
+
+  <!-- Hidden buttons -->
+  <div class="sc-share-buttons" id="sc-hidden-buttons">
+    <button onclick="scShare('whatsapp')" title="Share on WhatsApp">
+      <img src="https://cdn-icons-png.flaticon.com/128/733/733585.png" alt="WhatsApp" />
+    </button>
+    <button onclick="scShare('telegram')" title="Send via Telegram">
+      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111646.png" alt="Telegram" />
+    </button>
+    <button onclick="scShare('reddit')" title="Share on Reddit">
+      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111589.png" alt="Reddit" />
+    </button>
+    <button onclick="scShare('pinterest')" title="Share on Pinterest">
+      <img src="https://cdn-icons-png.flaticon.com/128/145/145808.png" alt="Pinterest" />
+    </button>
+    <button onclick="scShare('skype')" title="Share on Skype">
+      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111670.png" alt="Skype" />
+    </button>
+    <button onclick="scShare('viber')" title="Share on Viber">
+      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111716.png" alt="Viber" />
+    </button>
+    <button onclick="scShare('signal')" title="Share on Signal">
+      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111363.png" alt="Signal" />
+    </button>
+    <button onclick="scShare('copy')" title="Copy page link">
+      <img src="https://cdn-icons-png.flaticon.com/128/60/60577.png" alt="Copy Link" />
+    </button>
+  </div>
+
+  <!-- Close bar button -->
+  <button id="sc-share-close" title="Close bar">
+    <img src="https://cdn-icons-png.flaticon.com/128/1828/1828774.png" alt="Close" />
+  </button>
+</div>
+
+<!-- =========================================================
+     Style
+     ========================================================= -->
+<style>
+  #sc-share-bar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 9999;
+    background: linear-gradient(to right, #87ceeb, #a3d2f2, #b7dbf6, #c1def8, #d9ecfc, #e9f5fe, #f7fbfe, #ffffff);
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 6px 10px;
+    font-family: 'Inter', sans-serif;
+    transition: top 0.3s ease;
+  }
+
+  #sc-share-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  #sc-share-bar button img {
+    width: 22px;
+    height: 22px;
+    display: block;
+  }
+
+  #sc-share-bar button:hover {
+    transform: scale(1.2);
+    opacity: 0.85;
+  }
+
+  #sc-share-close {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+  }
+
+  #sc-search-btn {
+    position: absolute;
+    left: 8px;
+    top: 6px;
+  }
+
+  .sc-share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  #sc-hidden-buttons {
+    display: none;
+  }
+
+  /* Search input inline */
+  #sc-share-bar input.search-inline {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 14px;
+    outline: none;
+    transition: box-shadow 0.2s ease;
+    margin-left: 8px;
+  }
+
+  #sc-share-bar input.search-inline:focus {
+    box-shadow: 0 0 8px rgba(142,36,170,0.4);
+  }
+
+  #sc-share-bar .search-close-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 6px;
+    color: #8e24aa;
+  }
+
+  /* Close (red cross) */
+  #sc-share-close img {
+    filter: invert(27%) sepia(91%) saturate(7492%) hue-rotate(345deg) brightness(94%) contrast(101%);
+  }
+
+  #sc-share-close:hover img {
+    filter: brightness(0.8);
+  }
+
+  /* Adjust body offset for fixed bar */
+  @media (max-width: 768px) {
+    body { padding-top: 60px !important; }
+  }
+  @media (min-width: 769px) {
+    body { padding-top: 60px; }
+  }
+</style>
+
+<!-- =========================================================
+     Script
+     ========================================================= -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function scShare(type) {
+    const url = encodeURIComponent(window.location.href);
+    const title = encodeURIComponent(document.title);
+
+    const targets = {
+      facebook: `https://www.facebook.com/sharer/sharer.php?u=${url}`,
+      x: `https://twitter.com/intent/tweet?text=${title}&url=${url}`,
+      linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${url}`,
+      email: `mailto:?subject=${title}&body=${title}%0A${url}`,
+      whatsapp: `https://wa.me/?text=${title}%20${url}`,
+      telegram: `https://t.me/share/url?url=${url}&text=${title}`,
+      reddit: `https://www.reddit.com/submit?url=${url}&title=${title}`,
+      pinterest: `https://pinterest.com/pin/create/button/?url=${url}&description=${title}`,
+      skype: `https://web.skype.com/share?url=${url}&text=${title}`,
+      viber: `viber://forward?text=${title}%20${url}`,
+      signal: `sgnl://send?text=${title}%20${url}`,
+      print: null,
+      copy: null
+    };
+
+    if (type === 'copy') {
+      navigator.clipboard.writeText(window.location.href).catch(()=>{});
+      alert('Link copied!');
+    } else if (type === 'print') {
+      const post = document.querySelector('main, article, .content, .page-content');
+      if (post) {
+        const w = window.open('', '', 'width=800,height=600');
+        w.document.write('<html><head><title>' + document.title + '</title><style>body{font-family:sans-serif;padding:20px;}img{max-width:100%;}</style></head><body>' + post.innerHTML + '</body></html>');
+        w.document.close(); w.focus(); w.print(); w.close();
+      }
+    } else if (targets[type]) {
+      window.open(targets[type], '_blank');
+    }
+  }
+
+  window.scShare = scShare;
+
+  // Toggle hidden buttons
+  document.getElementById('sc-more-toggle').onclick = function() {
+    const hidden = document.getElementById('sc-hidden-buttons');
+    hidden.style.display = hidden.style.display === 'flex' ? 'none' : 'flex';
+  };
+
+  // Close bar
+  document.getElementById('sc-share-close').onclick = function() {
+    document.getElementById('sc-share-bar').style.display = 'none';
+  };
+
+  // Search bar (DuckDuckGo site search)
+  document.getElementById('sc-search-btn').onclick = function() {
+    if (document.querySelector('.search-inline')) return;
+
+    const form = document.createElement('form');
+    form.action = 'https://duckduckgo.com/';
+    form.method = 'get';
+    form.style.display = 'inline-flex';
+    form.style.alignItems = 'center';
+
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.name = 'q';
+    input.className = 'search-inline';
+    input.placeholder = 'Search this site...';
+
+    const hidden = document.createElement('input');
+    hidden.type = 'hidden';
+    hidden.name = 'sites';
+    hidden.value = window.location.hostname;
+    form.appendChild(hidden);
+
+    const closeBtn = document.createElement('button');
+    closeBtn.type = 'button';
+    closeBtn.className = 'search-close-btn';
+    closeBtn.innerHTML = '×';
+    closeBtn.onclick = () => form.remove();
+
+    form.appendChild(input);
+    form.appendChild(closeBtn);
+    document.getElementById('sc-share-bar').appendChild(form);
+    input.focus();
+
+    input.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') form.remove();
+    });
+  };
+});
+</script>
 
 </body>
 </html>
