@@ -372,8 +372,12 @@ bgSelect.onchange = function () {
 };
 
 function applyBackground(bg) {
+  // Apply to full page and main containers
   body.style.setProperty("background-color", bg, "important");
   document.documentElement.style.setProperty("background-color", bg, "important");
+  document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => {
+    el.style.setProperty("background-color", bg, "important");
+  });
   body.style.transition = "background-color 0.4s ease";
 }
 
