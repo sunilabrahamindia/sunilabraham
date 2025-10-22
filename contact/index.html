@@ -363,15 +363,26 @@ window.addEventListener("load", function () {
     fontColorSelect.value = savedFontColor;
   }
 
-  // Background colour
-  const bgSelect = document.getElementById("bgColorSelect");
-  bgSelect.onchange = function () {
-    body.style.transition = "background 0.3s ease";
-    body.style.backgroundColor = this.value || "";
-    localStorage.setItem("bgColor", this.value || "");
-  };
-  const savedBg = localStorage.getItem("bgColor");
-  if (savedBg) { body.style.backgroundColor = savedBg; bgSelect.value = savedBg; }
+// Background colour
+const bgSelect = document.getElementById("bgColorSelect");
+bgSelect.onchange = function () {
+  const bg = this.value || "";
+  localStorage.setItem("bgColor", bg);
+  applyBackground(bg);
+};
+
+function applyBackground(bg) {
+  body.style.setProperty("background-color", bg, "important");
+  document.documentElement.style.setProperty("background-color", bg, "important");
+  body.style.transition = "background-color 0.4s ease";
+}
+
+const savedBg = localStorage.getItem("bgColor");
+if (savedBg) {
+  applyBackground(savedBg);
+  bgSelect.value = savedBg;
+}
+
 
   // Sidebar toggle
   const sidebarBtn = document.getElementById("sidebarToggleBtn");
