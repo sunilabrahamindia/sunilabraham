@@ -194,13 +194,36 @@ a:hover, a:focus {
    Images (Responsive Fix)
    ========================================================= */
 
-img {
-  max-width: 100%;   /* Prevents image from exceeding screen width */
-  height: auto;      /* Maintains correct aspect ratio */
-  display: block;    /* Removes inline spacing issues */
-  margin: 1.5rem auto; /* Centers image and adds spacing */
-  border-radius: 8px;  /* Optional: adds gentle rounded corners */
+/* =========================================================
+   Images (Responsive Fix)
+   ========================================================= */
+
+/* Responsive images inside all main content areas */
+img,
+.content img,
+.main-content img,
+.post-content img {
+  max-width: 100% !important;   /* Fit within screen width */
+  width: 100%;
+  height: auto !important;      /* Keep proportions */
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;           /* Optional aesthetic */
+  object-fit: contain;
 }
+
+/* Prevent any parent from forcing overflow on mobile */
+.content,
+.main-content,
+.post-content {
+  overflow-x: hidden;
+}
+
+/* (Hidden Note)
+   This applies to all Markdown and HTML images automatically,
+   ensuring they resize properly on mobile devices.
+*/
+
 
 /* =========================================================
    Footer
