@@ -191,6 +191,18 @@ a:hover, a:focus {
 }
 
 /* =========================================================
+   Images (Responsive Fix)
+   ========================================================= */
+
+img {
+  max-width: 100%;   /* Prevents image from exceeding screen width */
+  height: auto;      /* Maintains correct aspect ratio */
+  display: block;    /* Removes inline spacing issues */
+  margin: 1.5rem auto; /* Centers image and adds spacing */
+  border-radius: 8px;  /* Optional: adds gentle rounded corners */
+}
+
+/* =========================================================
    Footer
    ========================================================= */
 footer {
