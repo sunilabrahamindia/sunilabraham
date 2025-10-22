@@ -25,11 +25,13 @@ This documentation evolves over time, not as a static archive, but as a continuo
 
 
 ---
+<!--
 <div class="image-container">
   <img 
     src="/assets/images/Sunil%20Abraham%202017%20June.jpg" 
     alt="Sunil Abraham gesturing while speaking during a workshop, June 2017">
 </div>
+-->
 
 Sunil Abraham (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his pioneering work at the intersection of technology, society, and governance.  
 
