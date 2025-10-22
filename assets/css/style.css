@@ -228,8 +228,6 @@ footer p {
 /* =========================================================
    Responsive Adjustments
    ========================================================= */
-
-/* Tablet & Mobile adjustments */
 @media (max-width: 768px) {
   body {
     padding: 0 1rem 3rem;
@@ -242,78 +240,4 @@ footer p {
   .main-content {
     padding: 1.5rem;
   }
-
-  /* Navbar: horizontal scroll fix */
-  .navbar {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Firefox */
-  }
-
-  .navbar::-webkit-scrollbar {
-    display: none; /* Chrome/Safari */
-  }
-
-  .navbar ul {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
-  }
-
-  .navbar li {
-    flex: 0 0 auto;
-    list-style: none;
-  }
-
-  .navbar a {
-    display: block;
-    padding: 0.25rem 0.45rem;
-    white-space: nowrap;
-    border-right: 1px solid rgba(255, 255, 255, 0.15);
-    font-size: 80%;
-  }
-
-  .navbar li:last-child a {
-    border-right: none;
-  }
-
-  /* =========================================================
-     Image Handling on Mobile (Works for Markdown + HTML)
-     ========================================================= */
-  img,
-  p > img,
-  .content img,
-  .main-content img,
-  .image-container img {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    display: block;
-    margin: 1rem auto;
-    border-radius: 8px;
-  }
-
-  .image-container {
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    text-align: center;
-  }
 }
-
-/* Optional: for very small phones */
-@media (max-width: 480px) {
-  .site-header h1 {
-    font-size: 1.8rem;
-  }
-
-  body {
-    font-size: 0.95rem;
-  }
-
-  .main-content {
-    padding: 1.2rem;
-  }
-}
-
