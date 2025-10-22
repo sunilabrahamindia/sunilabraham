@@ -12,6 +12,24 @@
   <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/favicon.png' | relative_url }}">
+  
+  <!-- Subdomain redirect -->
+  <script>
+(function() {
+  const host = window.location.hostname;
+  const subdomain = host.split('.')[0];
+  const site = 'https://sunilabraham.in';
+
+  // Redirect if Bengali subdomain
+  if (subdomain === 'bn') {
+    const redirectUrl = `https://translate.google.com/translate?hl=bn&sl=en&u=${encodeURIComponent(site + window.location.pathname)}`;
+    if (window.location.href !== redirectUrl) {
+      window.location.replace(redirectUrl);
+    }
+  }
+})();
+</script>
+
 </head>
 
 
