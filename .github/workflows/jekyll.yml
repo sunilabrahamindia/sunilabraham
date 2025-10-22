@@ -6,19 +6,26 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: write       # allows pushing to gh-pages
+  pages: write          # required for Pages deploy
+  id-token: write       # recommended for modern Pages security
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.2'
           bundler-cache: true
 
       - name: Install dependencies
@@ -26,8 +33,10 @@ jobs:
           gem install bundler
           bundle install
 
-      - name: Build site
+      - name: Build site with Jekyll
         run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
