@@ -105,5 +105,324 @@ It currently includes the following sections:</p>
 
 
   </div>
+  
+  <!-- Utility Toolbox -->
+<style>
+/* Hide sidebar when wide mode is active */
+body.wide-mode .site-sidebar {
+  display: none !important;
+}
+
+/* Expand main content when sidebar hidden */
+body.wide-mode .page-content,
+body.wide-mode main,
+body.wide-mode .wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  float: none !important;
+  padding-right: 0 !important;
+}
+
+/* Toolbox container */
+#utilityToolboxContainer {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  z-index: 99999;
+  font-family: sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Toolbox toggle button */
+#toggleToolbox {
+  background: #2d4d7a;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Toolbox panel */
+#toolboxContent {
+  display: none;
+  margin-top: 8px;
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+  background: #fff;
+  padding: 14px;
+  border-radius: 8px;
+  color: #2c3e50;
+  width: 240px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+#toolboxContent div[style*="font-weight:bold"] {
+  color: #005b96;
+}
+
+.utility-button, .utility-select {
+  background: #e6f2ff;
+  color: #1e2a38;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.utility-select {
+  padding: 8px 12px;
+  width: 100%;
+}
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 35px;
+  left: 10px;
+  background: #2d4d7a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 99997;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  display: none;
+}
+</style>
+
+<div id="utilityToolboxContainer">
+  <button id="toggleToolbox" title="Toggle Utilities">⚙️ Utilities</button>
+  <div id="toolboxContent" title="Accessibility and View Tools">
+
+    <div style="text-align:center;font-weight:bold;font-size:16px;margin-bottom:8px;color:#002d62;">
+      Utilities
+    </div>
+
+    <!-- Font Size -->
+    <div>
+      <div style="font-weight:bold;margin-bottom:6px;">Font size</div>
+      <button id="textZoomIn" class="utility-button">A+</button>
+      <button id="textZoomOut" class="utility-button">A−</button>
+      <button id="textZoomReset" class="utility-button">🔁</button>
+    </div>
+
+    <!-- Line Height -->
+    <div>
+      <div style="font-weight:bold;margin-bottom:6px;">Line height</div>
+      <button id="lineHeightIncrease" class="utility-button">⬆️</button>
+      <button id="lineHeightDecrease" class="utility-button">⬇️</button>
+      <button id="lineHeightReset" class="utility-button">🔁</button>
+    </div>
+
+    <!-- Background Colour -->
+    <div>
+      <div style="font-weight:bold;margin-bottom:6px;">🎨 Background</div>
+      <select id="bgColorSelect" class="utility-select">
+        <option value="">Default</option>
+        <option value="aliceblue">Alice Blue</option>
+        <option value="beige">Beige</option>
+        <option value="floralwhite">Floral White</option>
+        <option value="honeydew">Mint</option>
+        <option value="ivory">Ivory</option>
+        <option value="lavenderblush">Lavender</option>
+        <option value="lemonchiffon">Lemon</option>
+        <option value="lightgrey">Light Grey</option>
+        <option value="mintcream">Mint Cream</option>
+        <option value="whitesmoke">White Smoke</option>
+      </select>
+    </div>
+
+    <!-- Font Colour -->
+    <div>
+      <div style="font-weight:bold;margin-bottom:6px;">🖍 Font colour</div>
+      <select id="fontColorSelect" class="utility-select">
+        <option value="">Default</option>
+        <option value="darkgreen">Dark Green</option>
+        <option value="darkred">Dark Red</option>
+        <option value="indigo">Indigo</option>
+        <option value="maroon">Maroon</option>
+        <option value="midnightblue">Midnight Blue</option>
+        <option value="saddlebrown">Saddle Brown</option>
+      </select>
+    </div>
+
+    <!-- Font Type -->
+    <div>
+      <div style="font-weight:bold;margin-bottom:6px;">Font type</div>
+      <select id="fontSelector" class="utility-select">
+        <option value="">Default</option>
+        <option value="arial">Arial</option>
+        <option value="georgia">Georgia</option>
+        <option value="opensans">Open Sans</option>
+        <option value="merriweather">Merriweather</option>
+        <option value="roboto">Roboto</option>
+        <option value="playfair">Playfair Display</option>
+        <option value="courier">Courier New</option>
+      </select>
+    </div>
+
+    <!-- Sidebar Toggle -->
+    <div id="sidebarToggleBlock">
+      <div style="font-weight:bold;margin-bottom:6px;">🧭 Sidebar</div>
+      <button id="sidebarToggleBtn" class="utility-button" style="width:100%;">Hide Sidebar</button>
+    </div>
+
+    <!-- Reset -->
+    <div style="text-align:center;">
+      <button id="resetAllBtn" style="background:#c62828;color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:14px;">
+        🔄 Reset All
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Back to Top -->
+<button id="backToTopBtn" title="Back to Top">⬆️</button>
+
+<script>
+window.addEventListener("load", function () {
+  const body = document.body;
+  const toggleBtn = document.getElementById("toggleToolbox");
+  const toolbox = document.getElementById("toolboxContent");
+
+  toggleBtn.onclick = () => {
+    const expanded = toolbox.style.display === "flex";
+    toolbox.style.display = expanded ? "none" : "flex";
+    toggleBtn.textContent = expanded ? "⚙️ Utilities" : "❌ Close";
+  };
+
+  // Font size
+  let fontSize = parseFloat(localStorage.getItem("zoomFontSize")) || 100;
+  function applyFontSize() {
+    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.fontSize = fontSize + "%");
+    localStorage.setItem("zoomFontSize", fontSize);
+  }
+  document.getElementById("textZoomIn").onclick = () => { if (fontSize < 200) { fontSize += 10; applyFontSize(); }};
+  document.getElementById("textZoomOut").onclick = () => { if (fontSize > 60) { fontSize -= 10; applyFontSize(); }};
+  document.getElementById("textZoomReset").onclick = () => { fontSize = 100; applyFontSize(); };
+  applyFontSize();
+
+  // Line height
+  let lineHeight = parseFloat(localStorage.getItem("customLineHeight")) || 1.6;
+  function applyLineHeight() {
+    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.lineHeight = lineHeight);
+    localStorage.setItem("customLineHeight", lineHeight);
+  }
+  document.getElementById("lineHeightIncrease").onclick = () => { if (lineHeight < 3) { lineHeight = Math.round((lineHeight + 0.1) * 10) / 10; applyLineHeight(); }};
+  document.getElementById("lineHeightDecrease").onclick = () => { if (lineHeight > 1) { lineHeight = Math.round((lineHeight - 0.1) * 10) / 10; applyLineHeight(); }};
+  document.getElementById("lineHeightReset").onclick = () => { lineHeight = 1.6; applyLineHeight(); };
+  applyLineHeight();
+
+  // Fonts (Google Fonts)
+  const fontLinks = [
+    'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap',
+    'https://fonts.googleapis.com/css2?family=Merriweather&display=swap',
+    'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap',
+    'https://fonts.googleapis.com/css2?family=Roboto&display=swap'
+  ];
+  fontLinks.forEach(link => {
+    const l = document.createElement('link');
+    l.href = link;
+    l.rel = 'stylesheet';
+    document.head.appendChild(l);
+  });
+
+  const fontSelector = document.getElementById("fontSelector");
+  const fontMap = {
+    arial: "Arial, sans-serif",
+    courier: "'Courier New', monospace",
+    georgia: "Georgia, serif",
+    opensans: "'Open Sans', sans-serif",
+    merriweather: "'Merriweather', serif",
+    playfair: "'Playfair Display', serif",
+    roboto: "'Roboto', sans-serif"
+  };
+
+  function applyFontFamily(key) {
+    const val = fontMap[key];
+    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.fontFamily = val || "");
+    localStorage.setItem("fontFamily", key || "");
+  }
+
+  fontSelector.onchange = () => applyFontFamily(fontSelector.value);
+  const savedFont = localStorage.getItem("fontFamily");
+  if (savedFont) { fontSelector.value = savedFont; applyFontFamily(savedFont); }
+
+  // Font colour
+  const fontColorSelect = document.getElementById("fontColorSelect");
+  fontColorSelect.onchange = function () {
+    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.color = this.value || "");
+    localStorage.setItem("fontColor", this.value || "");
+  };
+  const savedFontColor = localStorage.getItem("fontColor");
+  if (savedFontColor) {
+    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.color = savedFontColor);
+    fontColorSelect.value = savedFontColor;
+  }
+
+  // Background colour
+  const bgSelect = document.getElementById("bgColorSelect");
+  bgSelect.onchange = function () {
+    body.style.transition = "background 0.3s ease";
+    body.style.backgroundColor = this.value || "";
+    localStorage.setItem("bgColor", this.value || "");
+  };
+  const savedBg = localStorage.getItem("bgColor");
+  if (savedBg) { body.style.backgroundColor = savedBg; bgSelect.value = savedBg; }
+
+  // Sidebar toggle
+  const sidebarBtn = document.getElementById("sidebarToggleBtn");
+  let sidebarHidden = localStorage.getItem("sidebarHidden") === "true";
+  function applySidebarState() {
+    if (window.innerWidth > 768) {
+      if (sidebarHidden) {
+        body.classList.add("wide-mode");
+        sidebarBtn.textContent = "Show Sidebar";
+      } else {
+        body.classList.remove("wide-mode");
+        sidebarBtn.textContent = "Hide Sidebar";
+      }
+    }
+  }
+  if (window.innerWidth > 768) {
+    sidebarBtn.onclick = () => {
+      sidebarHidden = !sidebarHidden;
+      localStorage.setItem("sidebarHidden", sidebarHidden);
+      applySidebarState();
+    };
+    applySidebarState();
+  } else {
+    document.getElementById("sidebarToggleBlock").style.display = "none";
+  }
+
+  // Reset all
+  document.getElementById("resetAllBtn").onclick = () => {
+    ["zoomFontSize", "customLineHeight", "fontFamily", "fontColor", "bgColor", "sidebarHidden"].forEach(k => localStorage.removeItem(k));
+    fontSize = 100; lineHeight = 1.6; sidebarHidden = false;
+    body.classList.remove("wide-mode");
+    applyFontSize(); applyLineHeight(); applySidebarState();
+    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => {
+      el.style.fontFamily = ""; el.style.color = "";
+    });
+    body.style.backgroundColor = "";
+    fontSelector.value = ""; fontColorSelect.value = ""; bgSelect.value = "";
+  };
+
+  // Back to top
+  const topBtn = document.getElementById("backToTopBtn");
+  window.addEventListener("scroll", () => topBtn.style.display = window.scrollY > 300 ? "block" : "none");
+  topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+});
+</script>
+<!-- End Utility Toolbox -->
+
 </body>
 </html>
