@@ -206,6 +206,21 @@ body.wide-mode .wrapper {
     <div style="text-align:center;font-weight:bold;font-size:16px;margin-bottom:8px;color:#002d62;">
       Utilities
     </div>
+    
+   <!-- Font Type -->
+    <div>
+      <div style="font-weight:bold;margin-bottom:6px;">Font type</div>
+      <select id="fontSelector" class="utility-select">
+        <option value="">Default</option>
+        <option value="arial">Arial</option>
+        <option value="georgia">Georgia</option>
+        <option value="opensans">Open Sans</option>
+        <option value="merriweather">Merriweather</option>
+        <option value="roboto">Roboto</option>
+        <option value="playfair">Playfair Display</option>
+        <option value="courier">Courier New</option>
+      </select>
+    </div>
 
     <!-- Font Size -->
     <div>
@@ -221,6 +236,20 @@ body.wide-mode .wrapper {
       <button id="lineHeightIncrease" class="utility-button">⬆️</button>
       <button id="lineHeightDecrease" class="utility-button">⬇️</button>
       <button id="lineHeightReset" class="utility-button">🔁</button>
+    </div>
+    
+    <!-- Font Colour -->
+    <div>
+      <div style="font-weight:bold;margin-bottom:6px;">🖍 Font colour</div>
+      <select id="fontColorSelect" class="utility-select">
+        <option value="">Default</option>
+        <option value="darkgreen">Dark Green</option>
+        <option value="darkred">Dark Red</option>
+        <option value="indigo">Indigo</option>
+        <option value="maroon">Maroon</option>
+        <option value="midnightblue">Midnight Blue</option>
+        <option value="saddlebrown">Saddle Brown</option>
+      </select>
     </div>
 
     <!-- Background Colour -->
@@ -239,41 +268,6 @@ body.wide-mode .wrapper {
         <option value="mintcream">Mint Cream</option>
         <option value="whitesmoke">White Smoke</option>
       </select>
-    </div>
-
-    <!-- Font Colour -->
-    <div>
-      <div style="font-weight:bold;margin-bottom:6px;">🖍 Font colour</div>
-      <select id="fontColorSelect" class="utility-select">
-        <option value="">Default</option>
-        <option value="darkgreen">Dark Green</option>
-        <option value="darkred">Dark Red</option>
-        <option value="indigo">Indigo</option>
-        <option value="maroon">Maroon</option>
-        <option value="midnightblue">Midnight Blue</option>
-        <option value="saddlebrown">Saddle Brown</option>
-      </select>
-    </div>
-
-    <!-- Font Type -->
-    <div>
-      <div style="font-weight:bold;margin-bottom:6px;">Font type</div>
-      <select id="fontSelector" class="utility-select">
-        <option value="">Default</option>
-        <option value="arial">Arial</option>
-        <option value="georgia">Georgia</option>
-        <option value="opensans">Open Sans</option>
-        <option value="merriweather">Merriweather</option>
-        <option value="roboto">Roboto</option>
-        <option value="playfair">Playfair Display</option>
-        <option value="courier">Courier New</option>
-      </select>
-    </div>
-
-    <!-- Sidebar Toggle -->
-    <div id="sidebarToggleBlock">
-      <div style="font-weight:bold;margin-bottom:6px;">🧭 Sidebar</div>
-      <button id="sidebarToggleBtn" class="utility-button" style="width:100%;">Hide Sidebar</button>
     </div>
 
     <!-- Reset -->
@@ -392,32 +386,6 @@ if (savedBg) {
   applyBackground(savedBg);
   bgSelect.value = savedBg;
 }
-
-
-  // Sidebar toggle
-  const sidebarBtn = document.getElementById("sidebarToggleBtn");
-  let sidebarHidden = localStorage.getItem("sidebarHidden") === "true";
-  function applySidebarState() {
-    if (window.innerWidth > 768) {
-      if (sidebarHidden) {
-        body.classList.add("wide-mode");
-        sidebarBtn.textContent = "Show Sidebar";
-      } else {
-        body.classList.remove("wide-mode");
-        sidebarBtn.textContent = "Hide Sidebar";
-      }
-    }
-  }
-  if (window.innerWidth > 768) {
-    sidebarBtn.onclick = () => {
-      sidebarHidden = !sidebarHidden;
-      localStorage.setItem("sidebarHidden", sidebarHidden);
-      applySidebarState();
-    };
-    applySidebarState();
-  } else {
-    document.getElementById("sidebarToggleBlock").style.display = "none";
-  }
 
   // Reset all
   document.getElementById("resetAllBtn").onclick = () => {
