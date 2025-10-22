@@ -484,7 +484,7 @@ if (savedBg) {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 9999;
-    background: rgba(248, 250, 252, 0.9); /* subtle bluish tone */
+    background: rgba(248, 250, 252, 0.95); /* same calm tone as site background */
     backdrop-filter: blur(6px);
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
@@ -498,27 +498,26 @@ if (savedBg) {
     transition: top 0.3s ease, background 0.4s ease;
   }
 
-  /* Muted navy buttons */
+  /* Buttons blend with background */
   #sc-share-bar button {
-    background: linear-gradient(to bottom, #334d70, #283d5c);
+    background: transparent;
     border: none;
     border-radius: 6px;
     padding: 5px;
     cursor: pointer;
-    transition: transform 0.2s ease, opacity 0.2s ease, background 0.3s ease;
+    transition: transform 0.2s ease, opacity 0.2s ease;
   }
 
   #sc-share-bar button:hover {
-    background: linear-gradient(to bottom, #39567e, #2e4369);
     transform: translateY(-1px);
-    opacity: 0.95;
+    opacity: 0.85;
   }
 
   #sc-share-bar button img {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     display: block;
-    filter: brightness(0.92); /* softens bright icons slightly */
+    filter: brightness(0.95);
   }
 
   #sc-share-close {
@@ -544,10 +543,10 @@ if (savedBg) {
     display: none;
   }
 
-  /* Search field — calm, blue-bordered */
+  /* Search field matches same tone */
   #sc-share-bar input.search-inline {
-    background: rgba(255,255,255,0.95);
-    border: 1px solid #334d70;
+    background: rgba(255,255,255,0.9);
+    border: 1px solid #d0d7de;
     border-radius: 6px;
     padding: 6px 10px;
     font-size: 14px;
@@ -558,7 +557,7 @@ if (savedBg) {
 
   #sc-share-bar input.search-inline:focus {
     background: #fff;
-    box-shadow: 0 0 8px rgba(51,77,112,0.4);
+    box-shadow: 0 0 8px rgba(51,77,112,0.2);
   }
 
   #sc-share-bar .search-close-btn {
@@ -585,6 +584,8 @@ if (savedBg) {
   @media (min-width: 769px) {
     body { padding-top: 40px; }
   }
+</style>
+
 </style>
 
 
