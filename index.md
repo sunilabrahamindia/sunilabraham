@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-**Welcome** to the learning/knowledge sharing and documentation portal of **Sunil Abraham**. This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
+**Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
 
 ---
 ## About
