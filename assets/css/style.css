@@ -154,7 +154,7 @@ body {
    Main Content
    ========================================================= */
 .main-content {
-  background: #fff; /* Was #fff; */
+  background: transparent; /* Was #fff; */
   border-radius: 12px;
   padding: 2.2rem;
   margin-top: 2rem;
