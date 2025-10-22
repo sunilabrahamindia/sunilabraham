@@ -226,7 +226,7 @@ footer p {
 }
 
 /* =========================================================
-   Responsive Adjustments (mobile)
+   Responsive Adjustments
    ========================================================= */
 @media (max-width: 768px) {
   body {
@@ -237,41 +237,19 @@ footer p {
     font-size: 2rem;
   }
 
-  .main-content {
+  .main-content,
+  .content {
     padding: 1.5rem;
   }
 
-  /* =========================================================
-     Mobile image rules — integrated here so they apply only on small screens
-     (Targets plain <img>, and images inside your main content wrappers)
-     ========================================================= */
-  img,
+  /* Hidden Note:
+     Fixes images overflowing on small screens.
+     This ensures Markdown and inline images stay within mobile width. */
   .content img,
-  .main-content img,
-  .post-content img {
-    max-width: 100% !important;    /* never exceed available width */
-    width: auto !important;        /* avoid forced stretching beyond natural size */
-    height: auto !important;       /* preserve aspect ratio */
-    display: block;                /* remove inline gaps */
-    margin: 1rem auto;             /* centre and add vertical spacing */
-    box-sizing: border-box;        /* ensure padding doesn't cause overflow */
-    border-radius: 8px;            /* optional: keeps rounded corners on mobile */
-    object-fit: contain;
-    -webkit-touch-callout: none;   /* minor touch nicety on iOS */
+  .main-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
   }
-
-  /* prevent parent containers from causing horizontal scroll */
-  .content,
-  .main-content,
-  .post-content {
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  /* (Hidden Note)
-     Placing image rules inside the mobile media query makes sure
-     images are handled specifically for small screens without
-     unexpectedly changing desktop behaviour.
-  */
 }
-
