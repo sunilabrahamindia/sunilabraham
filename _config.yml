@@ -3,7 +3,7 @@ description: "Open source documentation and notes by Sunil Abraham"
 markdown: kramdown
 show_downloads: false
 
-# Theme disabled since using a custom layout
+# Theme disabled since using a custom layout currently
 theme: null
 
 # =====================================================
