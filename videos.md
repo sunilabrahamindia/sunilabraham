@@ -13,7 +13,7 @@ They represent years of work and dialogue across research, policy, and advocacy 
 
 ## YouTube Playlist
 
-You can browse and play the complete series below, or open it directly on YouTube for a wider view.
+You can browse and play the complete series below, or [Watch on YouTube](https://www.youtube.com/playlist?list=PL-vXI1Y21nLWU_yCR5nX-oun7JzxJraXq) for a wider view.
 
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/videoseries?list=PL-vXI1Y21nLWU_yCR5nX-oun7JzxJraXq"
 title="Sunil Abraham Lectures, Speeches and Talks" frameborder="0"
