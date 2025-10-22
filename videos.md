@@ -5,7 +5,7 @@ title: Videos
 
 # Videos
 
-This page features a curated collection of lectures, speeches, talks, and interviews by Sunil Abraham.  
+This video page features a curated collection of lectures, speeches, talks, and interviews by Sunil Abraham.  
 These recordings explore open knowledge, Internet governance, free and open-source software, technology policy, and related themes.  
 They represent years of work and dialogue across research, policy, and advocacy domains.
 
@@ -22,7 +22,7 @@ allowfullscreen></iframe>
 
 ---
 
-## Table of Contents
+## Videos
 - [2011](#2011)
 - [2012](#2012)
 - [2013](#2013)
