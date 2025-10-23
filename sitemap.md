@@ -5,7 +5,7 @@ title: Index
 
 # Sitemap
 
-Here’s a list of all public pages and posts on this site.
+Here's a list of all public pages and posts on this site.
 
 ## Pages
 <ul>
