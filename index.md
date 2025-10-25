@@ -9,8 +9,7 @@ title: Home
 ## About
 
 This project serves as a living documentation space for research, writing, and reflection.  
-It is built to create, organise, and publish documentation in a structured yet flexible manner,  
-enabling continuous learning and open exchange of ideas.
+This is built to create, organise, and publish documentation in a structured yet flexible manner, enabling continuous learning and open exchange of ideas.
 
 It aims to:
 
