@@ -23,6 +23,8 @@ allowfullscreen></iframe>
 ---
 
 ## Videos
+- [2009](2009)
+- [2010](#2010)
 - [2011](#2011)
 - [2012](#2012)
 - [2013](#2013)
@@ -31,6 +33,51 @@ allowfullscreen></iframe>
 - [2016](#2016)
 - [2018](#2018)
 - [2019](#2019)
+
+### 2009
+
+<iframe width="100%" height="480"
+src="https://www.youtube.com/embed/S--mHMswxRA?autoplay=0"
+title="Part III — Housing The Democratic City, Torino April 26, 2009"
+frameborder="0"
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
+Part III — Housing The Democratic City, Torino April 26, 2009
+</p>
+
+<iframe width="100%" height="480"
+src="https://www.youtube.com/embed/d2O4CGkIyOs?autoplay=0"
+title="Internet and Deliberative Democracy Torino, April 25, 2009"
+frameborder="0"
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
+Internet and Deliberative Democracy Torino, April 25, 2009
+</p>
+
+### 2010
+
+<iframe width="100%" height="480"
+src="https://www.youtube.com/embed/wM7oJ_iDLRw?autoplay=0"
+title="The Potential of Open Development for Canada and Abroad — Panel discussion"
+frameborder="0"
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
+The Potential of Open Development for Canada and Abroad — Panel discussion
+</p>
+
+<iframe width="100%" height="480"
+src="https://www.youtube.com/embed/m81WgMIXWIU?autoplay=0"
+title="Internet at Liberty — Day One, Part One"
+frameborder="0"
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
+Internet at Liberty — Day One, Part One
+</p>
+
 
 ### 2011
 
