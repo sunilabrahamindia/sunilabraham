@@ -37,7 +37,7 @@ Version 0.2 of the **Sunil Abraham Project** website continues to refine structu
 This update focuses on strengthening the site’s foundational layout, consistency across pages, and transparency documentation.  
 Key additions and improvements include:
 
-- **General Design Improvement** — Generar design improvement, top share bar etc.
+- **General Design Improvement** — General design improvement, top share bar etc.
 - **Footer Template** – A default footer has been created under `_includes`, allowing uniform use across all pages.  
 - **Disclaimer Page** – Introduced to clarify authorship, delegation, and the possibility of occasional errors.  
 - **Layout (default)** – Basic layout implemented and synchronised across pages for visual consistency.  
