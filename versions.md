@@ -5,8 +5,14 @@ title: Versions
 
 # Versions
 
+This page serves as a version log for the **Sunil Abraham Project** website.  
+Each entry documents updates, milestones, and improvements across different releases — helping track design, structure, and content evolution over time.
+
 <div align="center" style="width:63%; margin:auto;">
-  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" alt="Every Sun New Version Banner" style="width:100%; height:auto; max-width:480px;">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
+    alt="Psychedelic poster for The Sunil Abraham Project with large text: 'Every Sun, New Version'" 
+    style="width:100%; height:auto; max-width:480px;">
 </div>
 
 ## Version 0.1
