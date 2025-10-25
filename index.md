@@ -23,6 +23,13 @@ This documentation evolves over time, not as a static archive, but as a continuo
 
 ---
 
+<div align="center" style="width:85%; margin:auto;">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20Colour%20Nature.jpg?raw=true" 
+    alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
+    style="width:90%; height:auto; max-width:800px; border-radius:8px;">
+</div>
+
 Sunil Abraham (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his pioneering work at the intersection of technology, society, and governance.  
 
 Sunil is the founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.  
