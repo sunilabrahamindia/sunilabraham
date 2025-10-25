@@ -5,6 +5,12 @@ title: Versions
 
 # Versions
 
+<div align="center" style="width:40%; margin:auto;">
+  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" alt="Every Sun New Version Banner" style="width:100%; height:auto; max-width:200px;">
+</div>
+
+
+
 ## Version 0.1
 
 Version 0.1 of the **Sunil Abraham Project** website is now live at [sunilabraham.in](https://www.sunilabraham.in/).  
