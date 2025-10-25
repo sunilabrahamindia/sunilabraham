@@ -5,8 +5,7 @@ title: Versions
 
 # Versions
 
-This page serves as a version log for the **Sunil Abraham Project** website.  
-Each entry documents updates, milestones, and improvements across different releases — helping track design, structure, and content evolution over time.
+This page serves as a version log for the **Sunil Abraham Project** website. Each entry documents updates, milestones, and improvements across different releases — helping track design, structure, and content evolution over time.
 
 <div align="center" style="width:63%; margin:auto;">
   <img 
