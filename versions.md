@@ -5,11 +5,9 @@ title: Versions
 
 # Versions
 
-<div align="center" style="width:60%; margin:auto;">
-  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" alt="Every Sun New Version Banner" style="width:100%; height:auto; max-width:450px;">
+<div align="center" style="width:63%; margin:auto;">
+  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" alt="Every Sun New Version Banner" style="width:100%; height:auto; max-width:480px;">
 </div>
-
-
 
 ## Version 0.1
 
