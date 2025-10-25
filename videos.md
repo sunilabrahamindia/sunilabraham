@@ -29,6 +29,8 @@ allowfullscreen></iframe>
 - [2014](#2014)
 - [2015](#2015)
 - [2016](#2016)
+- [2018](#2018)
+- [2019](#2019)
 
 ### 2011
 
@@ -233,10 +235,46 @@ allowfullscreen></iframe>
 W5 - IG Issues | Sunil Abraham, CIS | inSIG 2016
 </p>
 
+### 2018
+<iframe width="100%" height="480"
+src="https://www.youtube.com/embed/RFd4sCSZwM8?autoplay=0"
+title="Data use models and data protection — Sunil Abraham"
+frameborder="0"
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
+Data use models and data protection — Sunil Abraham
+</p>
 
+<iframe width="100%" height="480"
+src="https://www.youtube.com/embed/PNlMSn26RRA?autoplay=0"
+title="Episode 68: Sunil Abraham — Executive Director at Centre for Internet and Society"
+frameborder="0"
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
+Episode 68: Sunil Abraham — Executive Director at Centre for Internet and Society
+</p>
 
+<iframe width="100%" height="480"
+src="https://www.youtube.com/embed/uB88Wi9MeRY?autoplay=0"
+title="Platform Society | Panel Discussion"
+frameborder="0"
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
+Platform Society | Panel Discussion
+</p>
 
-
-
+### 2019
+<iframe width="100%" height="480"
+src="https://www.youtube.com/embed/NgQBAxsyAcQ?autoplay=0"
+title="Regulatory Challenges for Artificial Intelligence"
+frameborder="0"
+allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+<p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
+Regulatory Challenges for Artificial Intelligence
+</p>
 
 
