@@ -50,3 +50,6 @@ Welcome to the sandbox! This page is for testing purposes only.
 ```python
 def hello_world():
     print("Hello from sandbox!")
+
+
+{% include page-metadata.html %}
