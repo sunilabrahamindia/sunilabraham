@@ -14,7 +14,6 @@
   <link rel="shortcut icon" href="{{ '/assets/favicon.png' | relative_url }}">
 </head>
 
-
 <body>
   <div class="site-wrapper">
 
@@ -24,6 +23,8 @@
     <!-- Main Content -->
     <main class="content">
       {{ content }}
+      <!-- Page metadata -->
+  {% include page-metadata.html %}
     </main>
 
     <!-- Footer include -->
