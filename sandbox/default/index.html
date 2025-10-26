@@ -42,7 +42,7 @@
       <!-- under-construction.html -->
 <div class="under-construction">
   🚧 <strong>Under construction:</strong>
-  This page is currently being developed or expanded. Please check back soon.
+  This page is being developed or expanded. Please check back soon. You may see the Versions log <a href="https://sunilabraham.in/versions/">here</a>.
 </div>
 
 <style>
@@ -54,14 +54,18 @@
   border-radius: 6px;
   font-size: 1rem;
   line-height: 1.4;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  text-align: center;           /* centre all text */
+  display: block;               /* remove flex for proper centring */
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   margin: 1.2rem 0;
 }
 .under-construction strong {
   color: #a66c00;  /* darker gold text for emphasis */
+}
+.under-construction a {
+  color: #0a2e57;  /* link colour matching your site */
+  text-decoration: underline;
+  margin-left: 4px;
 }
 </style>
 
