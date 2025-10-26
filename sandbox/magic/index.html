@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sitemap | Sunil Abraham Documentation Project</title>
+  <title>Magic | Sunil Abraham Documentation Project</title>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
@@ -39,65 +39,276 @@
 
     <!-- Main Content -->
     <main class="content">
-      <h1 id="sitemap">Sitemap</h1>
+      <h1 id="jekyll-liquid-sandbox">Jekyll Liquid Sandbox</h1>
 
-<p>Here’s a list of all public pages and posts on this site.</p>
+<p>This page demonstrates <strong>all common page and site variables</strong>, filters, and usage.</p>
 
-<h2 id="pages">Pages</h2>
-<ul>
+<hr />
 
-  
-    <li><a href="/contact/">Contact</a></li>
-  
+<h2 id="page-variables-page">Page Variables (<code class="language-plaintext highlighter-rouge">page</code>)</h2>
 
-  
-    <li><a href="/sandbox/default/">Sandbox Test Page</a></li>
-  
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Output</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.title</code></td>
+      <td>Magic</td>
+      <td>Title from front matter</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.date</code></td>
+      <td>26 October 2025</td>
+      <td>Creation date</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.last_modified_at</code></td>
+      <td>26 October 2025</td>
+      <td>Last modification date</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.url</code></td>
+      <td>/sandbox/magic/</td>
+      <td>Relative URL</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.path</code></td>
+      <td>sandbox/magic.md</td>
+      <td>Path to source file</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.layout</code></td>
+      <td>default</td>
+      <td>Layout used</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.categories</code></td>
+      <td>sandboxtest</td>
+      <td>Categories array</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.tags</code></td>
+      <td>jekyllliquidvariables</td>
+      <td>Tags array</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.author</code></td>
+      <td>Sunil Abraham</td>
+      <td>Author from front matter</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">page.content</code></td>
+      <td># Jekyll Liquid Sandbox</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
-  
-    <li><a href="/disclaimer/">Disclaimer</a></li>
-  
+<table>
+  <tbody>
+    <tr>
+      <td>This page demonstrates…</td>
+      <td>Page HTML content, stripped &amp; truncated</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><code class="language-plaintext highlighter-rouge">page.excerpt</code></td>
+      <td> </td>
+      <td>First paragraph/excerpt</td>
+    </tr>
+  </tbody>
+</table>
 
-  
+<hr />
 
-  
-    <li><a href="/sandbox/magic/">Magic</a></li>
-  
+<h2 id="site-variables-site">Site Variables (<code class="language-plaintext highlighter-rouge">site</code>)</h2>
 
-  
-    <li><a href="/privacy/">Privacy Policy</a></li>
-  
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Output</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.title</code></td>
+      <td>Sunil Abraham Documentation Project</td>
+      <td>Site title from <code class="language-plaintext highlighter-rouge">_config.yml</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.description</code></td>
+      <td>Open source documentation and notes by Sunil Abraham</td>
+      <td>Site description</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.url</code></td>
+      <td> </td>
+      <td>Base URL</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.baseurl</code></td>
+      <td> </td>
+      <td>Base path if hosted in subfolder</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.time</code></td>
+      <td>26 October 2025 01:40:47</td>
+      <td>Build time</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.posts</code></td>
+      <td> </td>
+      <td>List all posts</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.pages</code></td>
+      <td>Contact Sandbox Test Page Disclaimer Home Magic Privacy Policy Projects Publications Sitemap Versions Videos</td>
+      <td>List all pages</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.categories</code></td>
+      <td> </td>
+      <td>Categories dictionary</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.tags</code></td>
+      <td> </td>
+      <td>Tags dictionary</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.author</code></td>
+      <td> </td>
+      <td>Global author info</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">site.data</code></td>
+      <td> </td>
+      <td>Custom data from <code class="language-plaintext highlighter-rouge">_data/*.yml</code></td>
+    </tr>
+  </tbody>
+</table>
 
-  
-    <li><a href="/projects/">Projects</a></li>
-  
+<hr />
 
-  
-    <li><a href="/publications/">Publications</a></li>
-  
+<h2 id="common-filters">Common Filters</h2>
 
-  
-    <li><a href="/sitemap/">Sitemap</a></li>
-  
+<table>
+  <thead>
+    <tr>
+      <th>Filter</th>
+      <th>Example</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">date</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Sunday, 26 October 2025</code></td>
+      <td>Sunday, 26 October 2025</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">upcase</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MAGIC</code></td>
+      <td>MAGIC</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">downcase</code></td>
+      <td><code class="language-plaintext highlighter-rouge">magic</code></td>
+      <td>magic</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">capitalize</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Magic</code></td>
+      <td>Magic</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">strip_html</code></td>
+      <td>`# Jekyll Liquid Sandbox</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
-  
-    <li><a href="/versions/">Versions</a></li>
-  
+<table>
+  <tbody>
+    <tr>
+      <td>This page demonstrates…`</td>
+      <td># Jekyll Liquid Sandbox</td>
+    </tr>
+  </tbody>
+</table>
 
-  
-    <li><a href="/videos/">Videos</a></li>
-  
+<table>
+  <tbody>
+    <tr>
+      <td>This page demonstrates…</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><code class="language-plaintext highlighter-rouge">replace</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Magic</code></td>
+      <td>Magic</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><code class="language-plaintext highlighter-rouge">truncate</code></td>
+      <td>`# Jekyll Liquid Sandbox</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
 
-  
+<table>
+  <tbody>
+    <tr>
+      <td>Th…`</td>
+      <td># Jekyll Liquid Sandbox</td>
+    </tr>
+  </tbody>
+</table>
 
-  
+<table>
+  <tbody>
+    <tr>
+      <td>Th…</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><code class="language-plaintext highlighter-rouge">default</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Sunil Abraham</code></td>
+      <td>Sunil Abraham</td>
+    </tr>
+  </tbody>
+</table>
 
-</ul>
+<hr />
 
-<h2 id="posts">Posts</h2>
-<ul>
+<h2 id="example-usage">Example Usage</h2>
 
-</ul>
+<p>```liquid</p>
+<p>Title: Magic</p>
+<p>URL: /sandbox/magic/</p>
+<p>Published: 26 October 2025</p>
+<p>Last updated: 26 October 2025</p>
+<p>Site: Sunil Abraham Documentation Project ()</p>
+<p>Author: Sunil Abraham</p>
+<p>Categories: sandbox, test</p>
+<p>Tags: jekyll, liquid, variables</p>
 
     </main>
 
@@ -109,7 +320,7 @@
 
   <p>
     🗄️ Internet Archive: 
-    <a href="https://web.archive.org/web/*//sitemap/">
+    <a href="https://web.archive.org/web/*//sandbox/magic/">
       Archived versions of this page
     </a>
   </p>
