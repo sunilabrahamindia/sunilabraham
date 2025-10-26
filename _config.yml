@@ -4,7 +4,7 @@ markdown: kramdown
 show_downloads: false
 
 # Theme disabled since using a custom layout
-theme: null
+theme: minimal
 
 # =====================================================
 # Optional: Table of Contents settings (if you still use jekyll-toc locally)
