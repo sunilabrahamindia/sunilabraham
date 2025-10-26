@@ -1,0 +1,54 @@
+<!-- Back to Top Include -->
+<style>
+/* Back to Top Bar */
+#backToTopBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5dc; /* same light tan as your bar */
+  text-align: center;
+  padding: 0.5rem 0;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none; /* hidden initially */
+}
+
+#backToTopBar a {
+  text-decoration: none;
+  color: #0a2e57; /* same as header/nav */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease;
+}
+
+#backToTopBar a:hover {
+  background-color: #153c81; /* slightly darker hover */
+  color: #fff;
+}
+</style>
+
+<div id="backToTopBar">
+  <a href="#" id="backToTop" title="Back to Top">&#8679; Back to Top</a>
+</div>
+
+<script>
+// Show the back-to-top bar after scrolling down 150px
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const bar = document.getElementById("backToTopBar");
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    bar.style.display = "block";
+  } else {
+    bar.style.display = "none";
+  }
+}
+
+// Smooth scroll to top
+document.getElementById("backToTop").addEventListener("click", function(e){
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
