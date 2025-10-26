@@ -1,0 +1,48 @@
+name: Update Page Edit Counts
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-edits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Update edits count
+        run: |
+          # Find all Markdown files in repo
+          find . -name '*.md' | while read file; do
+            # Skip files in _site or other build folders
+            [[ $file == *"_site"* ]] && continue
+
+            # Count commits for the file
+            count=$(git log --oneline "$file" | wc -l | xargs)
+
+            # Check if edits field exists
+            if grep -q "^edits:" "$file"; then
+              # Replace existing edits value
+              sed -i "s/^edits: .*/edits: $count/" "$file"
+            else
+              # Add edits field after first line of front matter
+              sed -i "2i edits: $count" "$file"
+            fi
+          done
+
+      - name: Commit changes
+        run: |
+          git add .
+          git diff --quiet || git commit -m "Update edits count [skip ci]"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
