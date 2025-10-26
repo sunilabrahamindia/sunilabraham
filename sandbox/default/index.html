@@ -71,7 +71,61 @@
 
 <h1 id="sandbox-test-page">Sandbox Test Page</h1>
 
-<p>Welcome to the sandbox! This page is for testing purposes only.</p>
+<p>Welcome to the sandbox! This page is for testing purposes only.
+<!-- Back to Top Include --></p>
+<style>
+/* Back to Top Bar */
+#backToTopBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5dc; /* same light tan as your bar */
+  text-align: center;
+  padding: 0.5rem 0;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none; /* hidden initially */
+}
+
+#backToTopBar a {
+  text-decoration: none;
+  color: #0a2e57; /* same as header/nav */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease;
+}
+
+#backToTopBar a:hover {
+  background-color: #153c81; /* slightly darker hover */
+  color: #fff;
+}
+</style>
+
+<div id="backToTopBar">
+  <a href="#" id="backToTop" title="Back to Top">&#8679; Back to Top</a>
+</div>
+
+<script>
+// Show the back-to-top bar after scrolling down 150px
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const bar = document.getElementById("backToTopBar");
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    bar.style.display = "block";
+  } else {
+    bar.style.display = "none";
+  }
+}
+
+// Smooth scroll to top
+document.getElementById("backToTop").addEventListener("click", function(e){
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
 
 <hr />
 
@@ -82,8 +136,62 @@
   <li><strong>Bold text</strong></li>
   <li><em>Italic text</em></li>
   <li><del>Strikethrough</del></li>
-  <li><code class="language-plaintext highlighter-rouge">Inline code</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Inline code</code>
+<!-- Back to Top Include --></li>
 </ul>
+<style>
+/* Back to Top Bar */
+#backToTopBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5dc; /* same light tan as your bar */
+  text-align: center;
+  padding: 0.5rem 0;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none; /* hidden initially */
+}
+
+#backToTopBar a {
+  text-decoration: none;
+  color: #0a2e57; /* same as header/nav */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease;
+}
+
+#backToTopBar a:hover {
+  background-color: #153c81; /* slightly darker hover */
+  color: #fff;
+}
+</style>
+
+<div id="backToTopBar">
+  <a href="#" id="backToTop" title="Back to Top">&#8679; Back to Top</a>
+</div>
+
+<script>
+// Show the back-to-top bar after scrolling down 150px
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const bar = document.getElementById("backToTopBar");
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    bar.style.display = "block";
+  } else {
+    bar.style.display = "none";
+  }
+}
+
+// Smooth scroll to top
+document.getElementById("backToTop").addEventListener("click", function(e){
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
 
 <h3 id="headings">Headings</h3>
 <h1 id="h1-heading">H1 Heading</h1>
@@ -106,8 +214,62 @@
 <h3 id="links">Links</h3>
 <ul>
   <li><a href="https://sunilabraham.in">Sunil Abraham Project</a></li>
-  <li><a href="https://github.com">GitHub</a></li>
+  <li><a href="https://github.com">GitHub</a>
+<!-- Back to Top Include --></li>
 </ul>
+<style>
+/* Back to Top Bar */
+#backToTopBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5dc; /* same light tan as your bar */
+  text-align: center;
+  padding: 0.5rem 0;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none; /* hidden initially */
+}
+
+#backToTopBar a {
+  text-decoration: none;
+  color: #0a2e57; /* same as header/nav */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease;
+}
+
+#backToTopBar a:hover {
+  background-color: #153c81; /* slightly darker hover */
+  color: #fff;
+}
+</style>
+
+<div id="backToTopBar">
+  <a href="#" id="backToTop" title="Back to Top">&#8679; Back to Top</a>
+</div>
+
+<script>
+// Show the back-to-top bar after scrolling down 150px
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const bar = document.getElementById("backToTopBar");
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    bar.style.display = "block";
+  } else {
+    bar.style.display = "none";
+  }
+}
+
+// Smooth scroll to top
+document.getElementById("backToTop").addEventListener("click", function(e){
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+</script>
 
 <h3 id="images">Images</h3>
 <h3 id="images-1">Images</h3>
