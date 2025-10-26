@@ -358,7 +358,7 @@ if (savedBg) {
   bgSelect.value = savedBg;
 }
 
-  // Reset all
+  // Reset all 
   document.getElementById("resetAllBtn").onclick = () => {
     ["zoomFontSize", "customLineHeight", "fontFamily", "fontColor", "bgColor", "sidebarHidden"].forEach(k => localStorage.removeItem(k));
     fontSize = 100; lineHeight = 1.6; sidebarHidden = false;
