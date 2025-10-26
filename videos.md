@@ -56,6 +56,10 @@ allowfullscreen></iframe>
 Internet and Deliberative Democracy Torino, April 25, 2009
 </p>
 
+{% include back-to-top.html %}
+
+---
+
 ### 2010
 
 <iframe width="100%" height="480"
@@ -118,6 +122,10 @@ allowfullscreen></iframe>
 Generation Open — We are the Optimistic Generation!
 </p>
 
+{% include back-to-top.html %}
+
+---
+
 ### 2011
 
 <iframe width="100%" height="480"
@@ -150,6 +158,8 @@ allowfullscreen></iframe>
 <p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
 Sunil Abraham — Canadian Science Policy Centre 2011/2012 video (short)
 </p>
+
+{% include back-to-top.html %}
 
 ---
 
@@ -184,6 +194,8 @@ allowfullscreen></iframe>
 <p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
 SecureIT 2012 Interviews — Sunil Abraham
 </p>
+
+{% include back-to-top.html %}
 
 ---
 
@@ -249,6 +261,10 @@ allowfullscreen></iframe>
 Freedom Continuum — Sunil Abraham
 </p>
 
+{% include back-to-top.html %}
+
+---
+
 ### 2014
 <iframe width="100%" height="480"
 src="https://www.youtube.com/embed/WcfkSYxEOW0?autoplay=0"
@@ -259,6 +275,10 @@ allowfullscreen></iframe>
 <p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
 IAMCR 2014 — Governing Digital Space — Sunil Abraham
 </p>
+
+{% include back-to-top.html %}
+
+---
 
 ### 2015
 <iframe width="100%" height="480"
@@ -289,6 +309,10 @@ allowfullscreen></iframe>
 <p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
 Sunil Abraham – Big Data in the Global South International Workshop
 </p>
+
+{% include back-to-top.html %}
+
+---
 
 ### 2016
 
@@ -332,6 +356,10 @@ allowfullscreen></iframe>
 W5 - IG Issues | Sunil Abraham, CIS | inSIG 2016
 </p>
 
+{% include back-to-top.html %}
+
+---
+
 ### 2018
 <iframe width="100%" height="480"
 src="https://www.youtube.com/embed/RFd4sCSZwM8?autoplay=0"
@@ -363,6 +391,10 @@ allowfullscreen></iframe>
 Platform Society | Panel Discussion
 </p>
 
+{% include back-to-top.html %}
+
+---
+
 ### 2019
 <iframe width="100%" height="480"
 src="https://www.youtube.com/embed/NgQBAxsyAcQ?autoplay=0"
@@ -373,5 +405,8 @@ allowfullscreen></iframe>
 <p style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.3rem;">
 Regulatory Challenges for Artificial Intelligence
 </p>
+
+{% include back-to-top.html %}
+
 
 
