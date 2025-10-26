@@ -23,11 +23,11 @@ This documentation evolves over time, not as a static archive, but as a continuo
 
 ---
 
-<div align="center" style="width:85%; margin:auto;">
+<div align="center" style="width:75%; margin:auto;">
   <img 
     src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20Colour%20Nature.jpg?raw=true" 
     alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
-    style="width:90%; height:auto; max-width:800px; border-radius:8px;">
+    style="width:90%; height:auto; max-width:600px; border-radius:8px;">
 </div>
 
 Sunil Abraham (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his pioneering work at the intersection of technology, society, and governance.  
