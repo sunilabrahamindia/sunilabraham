@@ -8,6 +8,7 @@ title: Sandbox Test Page
 # Sandbox Test Page
 
 Welcome to the sandbox! This page is for testing purposes only.
+{% include back-to-top.html %}
 
 ---
 
@@ -18,6 +19,7 @@ Welcome to the sandbox! This page is for testing purposes only.
 - _Italic text_
 - ~~Strikethrough~~
 - `Inline code`
+{% include back-to-top.html %}
 
 ### Headings
 # H1 Heading
@@ -35,6 +37,7 @@ Welcome to the sandbox! This page is for testing purposes only.
 ### Links
 - [Sunil Abraham Project](https://sunilabraham.in)
 - [GitHub](https://github.com)
+{% include back-to-top.html %}
 
 ### Images
 ### Images
