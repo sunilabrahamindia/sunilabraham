@@ -9,7 +9,7 @@ description: Biography of Sunil Abraham (born 1973), Indian technologist, social
 # Sunil Abraham
 
 
-**Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian technologist, internet researcher, open source advocate and public policy researcher. Sunil is the founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. His research and advocacy have focused on openness, privacy, accessibility, and the social impact of digital technologies across the Global South.
+**Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian technologist, internet researcher, open source advocate and public policy researcher. Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. His research and advocacy have focused on openness, privacy, accessibility, and the social impact of digital technologies across the Global South.
 
 ---
 
@@ -35,7 +35,7 @@ His father, [A. M. A. Ayrookuzhiel](https://sunilabraham.in/amaa/) (1933–1996)
 
 ### Mahiti (1998)
 
-In 1998, Sunil founded [Mahiti](https://mahiti.org/), an information technology company that provides affordable digital solutions for non-governmental organisations and civil society groups. Mahiti's projects emphasised the use of open-source tools, multilingual interfaces, and participatory design. By the early 2000s, Mahiti had established itself as one of India’s leading technology partners for non-profits, working on web platforms, intranet systems, and training programmes that made digital infrastructure more accessible to grassroots organisations. He served as Director at Mahiti Infotech Pvt Ltd before moving into full-time policy and research work.
+In 1998, Sunil co-founded [Mahiti](https://mahiti.org/), an information technology company that provides affordable digital solutions for non-governmental organisations and civil society groups. Mahiti's projects emphasised the use of open-source tools, multilingual interfaces, and participatory design. By the early 2000s, Mahiti had established itself as one of India’s leading technology partners for non-profits, working on web platforms, intranet systems, and training programmes that made digital infrastructure more accessible to grassroots organisations. He served as Director at Mahiti Infotech Pvt Ltd before moving into full-time policy and research work.
 
 ### International Open Source Network (2004–2007)
 
@@ -44,7 +44,7 @@ From 2004 to 2007, Sunil managed the [International Open Source Network (IOSN)](
 ### Centre for Internet and Society (2008–2019)
 
 
-In 2008, Sunil founded the [Centre for Internet and Society (CIS)](https://cis-india.org/), an independent research organisation based in Bangalore that examines the relationship between the Internet, technology, and society. He served as the organisation’s Executive Director from May 2008 to November 2019. Under his leadership, CIS became a key platform for research and advocacy in areas such as Internet governance, accessibility, privacy, open data, and digital cultures. The centre’s work combined academic study with policy engagement and public dialogue, contributing to national and international debates on digital rights and governance.
+In 2008, Sunil co-founded the [Centre for Internet and Society (CIS)](https://cis-india.org/), an independent research organisation based in Bangalore that examines the relationship between the Internet, technology, and society. He served as the organisation’s Executive Director from May 2008 to November 2019. Under his leadership, CIS became a key platform for research and advocacy in areas such as Internet governance, accessibility, privacy, open data, and digital cultures. The centre’s work combined academic study with policy engagement and public dialogue, contributing to national and international debates on digital rights and governance.
 
 <div align="center" style="margin:1.5rem auto; max-width:720px;">
   <img 
