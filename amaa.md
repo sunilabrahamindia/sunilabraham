@@ -93,7 +93,7 @@ Over the course of his career, Rev. Ayrookuzhiel wrote and edited several books 
 - *Dalit and Hindu Religious Identity* — Unpublished manuscript, incomplete at the time of his death (1996)
 
 
-At the time of his death, he was preparing a manuscript titled Dalit and Hindu Religious Identity, which was intended to explore the relationship between caste identity and faith traditions in India.
+At the time of his death, he was preparing a manuscript titled *Dalit and Hindu Religious Identity*, which was intended to explore the relationship between caste identity and faith traditions in India.
 
 In addition to books, he contributed numerous essays to journals, presented papers at international forums, and edited research volumes that connected theological thought with grassroots realities.
 
