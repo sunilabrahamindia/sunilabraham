@@ -7,7 +7,7 @@ description: Biography of Rev. Athanasius Mathen Abraham Ayrookuzhiel (A. M. A. 
 
 # Athanasius Mathen Abraham Ayrookuzhiel
 
-**Athanasius Mathen Abraham Ayrookuzhiel** (known as **Reverend A. M. A. Ayrookuzhiel**) was (1933–1996) was an Indian theologian, priest, and scholar who contributed significantly to the fields of contextual theology, Dalit studies, and the sociology of religion. A committed churchman and academic, he combined spiritual reflection with social analysis, situating faith within the lived experiences of the marginalised. His work at the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) (CISRS) and his writings on caste, religion, and identity positioned him among the key thinkers of India'ss liberation theology movement.
+**Athanasius Mathen Abraham Ayrookuzhiel** (known as **Reverend A. M. A. Ayrookuzhiel**) was (1933–1996) was an Indian theologian, priest, and scholar who contributed significantly to the fields of contextual theology, Dalit studies, and the sociology of religion. A committed churchman and academic, he combined spiritual reflection with social analysis, situating faith within the lived experiences of the marginalised. His work at the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) (CISRS) and his writings on caste, religion, and identity positioned him among the key thinkers of India's liberation theology movement.
 
 ## Contents
 1. [Early Life and Education](#early-life-and-education)
@@ -61,7 +61,7 @@ At CISRS, he explored how theology could engage with the lived experiences of Da
 
 ## Theological Perspective
 
-Rev. Ayrookuzhiel’s writings often bridged theology, sociology, and political thought. He questioned inherited hierarchies within both religion and society, arguing that spiritual liberation must be accompanied by social emancipation.
+Rev. Ayrookuzhiel's writings often bridged theology, sociology, and political thought. He questioned inherited hierarchies within both religion and society, arguing that spiritual liberation must be accompanied by social emancipation.
 
 His theological outlook combined a respect for Indian religiosity with a critical awareness of caste structures and economic disparities. He sought to interpret Christian theology through the lens of the oppressed, and to reimagine religious identity in a pluralistic and hierarchical society.
 
