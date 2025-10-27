@@ -23,7 +23,7 @@ description: Biography of Rev. Athanasius Mathen Abraham Ayrookuzhiel (A. M. A. 
 
 ## Early Life and Education
 
-Athanasius Mathen Abraham Ayrookuzhiel was born in in 1933 in Chengannur, a small town in the Alappuzha district of Kerala, into a family rooted in the Christian traditions of the region. He spent his childhood in Puthenkavu, a village known for its church heritage, and completed his early schooling in Katanam and Bharanikavu. His formative years were marked by an interest in moral questions, faith, and the social realities of rural Kerala.
+Athanasius Mathen Abraham Ayrookuzhiel was born in in 1933 in Chengannur, a small town in the Alappuzha district of Kerala, India, into a family rooted in the Christian traditions of the region. He spent his childhood in Puthenkavu, a village known for its church heritage, and completed his early schooling in Katanam and Bharanikavu. His formative years were marked by an interest in moral questions, faith, and the social realities of rural Kerala.
 
 Feeling a strong sense of vocation, he joined a seminary in Thiruvananthapuram, where he began his spiritual training as a novice of the Order of Ordine Imitationis Christi. His theological curiosity and dedication to disciplined study shaped his intellectual life. During these years, he became deeply influenced by the ideas of social responsibility and equality, themes that would later appear throughout his writings.
 
