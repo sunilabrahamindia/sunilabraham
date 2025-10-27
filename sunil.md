@@ -79,6 +79,17 @@ In 1999, Sunil was awarded the [Ashoka Fellowship](https://www.ashoka.org/en-in/
 
 Sunil has been actively involved in designing and leading collaborative events that connect technology practitioners, researchers, and activists. He co-organised Asia Source in 2005 and 2007, and the Asia Commons conference, which focused on knowledge sharing and the digital commons. He has spoken at the [Internet Governance Forum](https://www.intgovforum.org/), the Open World Forum, and various academic institutions in India and abroad. His public engagements often combine technical workshops with discussions on law, ethics, and social justice in the digital age.
 
+<div align="center" style="margin:1.5rem auto; max-width:720px;">
+  <video controls style="width:100%; height:auto; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);">
+    <source src="https://upload.wikimedia.org/wikipedia/commons/0/00/Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    <em>Sunil Abraham as a key listener at the Wikimedia Summit 2019.</em><br>
+    Credit: Anna Rees (WMDE), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via 
+    <a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm">Wikimedia Commons</a>.
+  </p>
+</div>
 ---
 
 ## Personal life
