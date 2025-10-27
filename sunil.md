@@ -43,6 +43,17 @@ From 2004 to 2007, Sunil managed the [International Open Source Network (IOSN)](
 
 ### Centre for Internet and Society (2008–2019)
 
+<div style="float:right; width:220px; margin:0 0 1rem 1rem;">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20birthday%20at%20CIS%202017.jpg?raw=true" 
+    alt="Sunil Abraham cutting a birthday cake with colleagues at the Centre for Internet and Society, Bangalore, 2017" 
+    style="width:100%; border-radius:6px; box-shadow:0 0 6px rgba(0,0,0,0.15);">
+  <p style="font-size:0.8rem; text-align:center; color:#555; margin-top:0.4rem;">
+    Sunil Abraham's birthday celebration at the Centre for Internet and Society, 2017
+  </p>
+</div>
+
+
 In 2008, Sunil founded the [Centre for Internet and Society (CIS)](https://cis-india.org/), an independent research organisation based in Bangalore that examines the relationship between the Internet, technology, and society. He served as the organisation’s Executive Director from May 2008 to November 2019. Under his leadership, CIS became a key platform for research and advocacy in areas such as Internet governance, accessibility, privacy, open data, and digital cultures. The centre’s work combined academic study with policy engagement and public dialogue, contributing to national and international debates on digital rights and governance.
 
 ### Meta India (2020–present)
