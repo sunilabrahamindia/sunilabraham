@@ -75,10 +75,6 @@ Over the course of his career, Rev. Ayrookuzhiel wrote and edited several books 
 
 ### Selected Bibliography
 
-<div style="overflow-x:auto;">
-
-<!-- leave one empty line below -->
-
 | Year | Title | Role | Publisher / Institution | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | 1983 | *The Sacred in Popular Hinduism – An Empirical Study in Chirakkal, North Malabar* | Author | Christian Literature Society (for CISRS) | A sociological study exploring folk religious practices and beliefs among Hindu communities in North Kerala. |
@@ -87,10 +83,6 @@ Over the course of his career, Rev. Ayrookuzhiel wrote and edited several books 
 | 1992 | *Dalit Kavithakal: Oru Padanam* (Dalit Poems: A Study) | Co-editor | Asian Trading Corporation | Co-edited with M. Sathyaprakasham and Paul Chirakarodu; documents the rise of Dalit poetry as a form of cultural resistance. |
 | 1995 | *Dalit Sahityam* (Dalit Literature: A Study) | Co-author | Asian Trading Corporation | Co-authored with Paul Chirakarodu; analyses Dalit literature as an emerging tradition of liberation writing. |
 | 2006 | *Essays on Dalits, Religion, and Liberation* | Author | Asian Trading Corporation | A posthumous collection of Ayrookuzhiel’s essays on religion, social justice, and liberation theology. |
-
-<!-- leave one empty line above -->
-
-</div>
 
 ### Key Articles and Unpublished Works
 
