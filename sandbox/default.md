@@ -5,8 +5,6 @@ title: Sandbox Test Page
 
 {% include under-construction.html %}
 
-{% toc %}
-
 # Sandbox Test Page
 
 Welcome to the sandbox! This page is for testing purposes only.
