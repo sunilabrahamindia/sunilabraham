@@ -32,7 +32,7 @@ This documentation evolves over time, not as a static archive, but as a continuo
 
 Sunil Abraham (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his pioneering work at the intersection of technology, society, and governance.  
 
-Sunil is the founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.  
+Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.  
 
 In 1998, he founded Mahiti Infotech, a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.  
 
