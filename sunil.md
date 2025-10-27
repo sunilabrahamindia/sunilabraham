@@ -43,18 +43,18 @@ From 2004 to 2007, Sunil managed the [International Open Source Network (IOSN)](
 
 ### Centre for Internet and Society (2008–2019)
 
-<div style="float:right; width:220px; margin:0 0 1rem 1rem;">
+
+In 2008, Sunil founded the [Centre for Internet and Society (CIS)](https://cis-india.org/), an independent research organisation based in Bangalore that examines the relationship between the Internet, technology, and society. He served as the organisation’s Executive Director from May 2008 to November 2019. Under his leadership, CIS became a key platform for research and advocacy in areas such as Internet governance, accessibility, privacy, open data, and digital cultures. The centre’s work combined academic study with policy engagement and public dialogue, contributing to national and international debates on digital rights and governance.
+
+<div align="center" style="margin:1.5rem auto; max-width:720px;">
   <img 
     src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20birthday%20at%20CIS%202017.jpg?raw=true" 
     alt="Sunil Abraham cutting a birthday cake with colleagues at the Centre for Internet and Society, Bangalore, 2017" 
-    style="width:100%; border-radius:6px; box-shadow:0 0 6px rgba(0,0,0,0.15);">
-  <p style="font-size:0.8rem; text-align:center; color:#555; margin-top:0.4rem;">
-    Sunil Abraham's birthday celebration at the Centre for Internet and Society, 2017
+    style="width:100%; height:auto; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);">
+  <p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Sunil Abraham cutting a birthday cake with colleagues at the Centre for Internet and Society, Bangalore, 2017.
   </p>
 </div>
-
-
-In 2008, Sunil founded the [Centre for Internet and Society (CIS)](https://cis-india.org/), an independent research organisation based in Bangalore that examines the relationship between the Internet, technology, and society. He served as the organisation’s Executive Director from May 2008 to November 2019. Under his leadership, CIS became a key platform for research and advocacy in areas such as Internet governance, accessibility, privacy, open data, and digital cultures. The centre’s work combined academic study with policy engagement and public dialogue, contributing to national and international debates on digital rights and governance.
 
 ### Meta India (2020–present)
 
@@ -63,6 +63,16 @@ In 2020, Sunil joined [Meta](https://www.meta.com/) (Facebook India) as Public P
 ### Other activities
 
 After leaving CIS in 2019, Sunil worked with the [Open Society Foundations](https://www.opensocietyfoundations.org/), focusing on digital governance, openness, and technology policy. He has also served as a consultant and adviser to several international organisations, including [UNDP](https://www.undp.org/), [UNESCO](https://www.unesco.org/), and the [International Development Research Centre (IDRC)](https://idrc-crdi.ca/). His assignments have ranged from open standards and localisation policy to digital inclusion and governance. He has contributed to projects in Asia, Africa, and Eastern Europe that connect technology policy with issues of equity, participation, and sustainable development.
+
+<div align="center" style="margin:1.5rem auto; max-width:720px;">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraraham%20HasGeek%202018.jpg?raw=true" 
+    alt="Sunil Abraham presenting on intermediaries in a data protection regime at the 50p conference organised by HasGeek, 2018" 
+    style="width:100%; height:auto; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);">
+  <p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Sunil presenting on intermediaries in a data protection regime at #50p, 2018.
+  </p>
+</div>
 
 ---
 
