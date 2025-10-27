@@ -74,6 +74,7 @@ Influenced by thinkers such as [M. M. Thomas](https://en.wikipedia.org/wiki/M._M
 Over the course of his career, Rev. Ayrookuzhiel wrote and edited several books and articles that examined religion from social and cultural perspectives. His major publications include:
 
 ### Selected Bibliography
+<div style="overflow-x:auto;">
 
 | Year | Title | Role | Publisher / Institution | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -83,6 +84,8 @@ Over the course of his career, Rev. Ayrookuzhiel wrote and edited several books 
 | 1992 | *Dalit Kavithakal: Oru Padanam* (Dalit Poems: A Study) | Co-editor | Asian Trading Corporation | Co-edited with M. Sathyaprakasham and Paul Chirakarodu; documents the rise of Dalit poetry as a form of cultural resistance. |
 | 1995 | *Dalit Sahityam* (Dalit Literature: A Study) | Co-author | Asian Trading Corporation | Co-authored with Paul Chirakarodu; analyses Dalit literature as an emerging tradition of liberation writing. |
 | 2006 | *Essays on Dalits, Religion, and Liberation* | Author | Asian Trading Corporation | A posthumous collection of Ayrookuzhiel’s essays on religion, social justice, and liberation theology. |
+
+</div>
 
 ### Key Articles and Unpublished Works
 
