@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Magic | Sunil Abraham Documentation Project</title>
+  <title>Sunil Abraham | Sunil Abraham Documentation Project</title>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
@@ -39,276 +39,103 @@
 
     <!-- Main Content -->
     <main class="content">
-      <h1 id="jekyll-liquid-sandbox">Jekyll Liquid Sandbox</h1>
+      <!-- under-construction.html -->
+<div class="under-construction">
+  🚧 <strong>Under construction:</strong>
+  This page is being developed or expanded. Please check back soon. You may see the <a href="https://sunilabraham.in/versions/">Versions log</a>.
+</div>
 
-<p>This page demonstrates <strong>all common page and site variables</strong>, filters, and usage.</p>
+<style>
+.under-construction {
+  background-color: #fff8d5;   /* soft yellow background */
+  border: 1px solid #f2c200;   /* matching yellow border */
+  color: #444;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;           /* centre all text */
+  display: block;               /* remove flex for proper centring */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin: 1.2rem 0;
+}
+.under-construction strong {
+  color: #a66c00;  /* darker gold text for emphasis */
+}
+.under-construction a {
+  color: #0a2e57;  /* link colour matching your site */
+  text-decoration: underline;
+  margin-left: 4px;
+}
+</style>
 
-<hr />
+<h1 id="sunil-abraham">Sunil Abraham</h1>
 
-<h2 id="page-variables-page">Page Variables (<code class="language-plaintext highlighter-rouge">page</code>)</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Output</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.title</code></td>
-      <td>Magic</td>
-      <td>Title from front matter</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.date</code></td>
-      <td>26 October 2025</td>
-      <td>Creation date</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.last_modified_at</code></td>
-      <td>26 October 2025</td>
-      <td>Last modification date</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.url</code></td>
-      <td>/sandbox/magic/</td>
-      <td>Relative URL</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.path</code></td>
-      <td>sandbox/magic.md</td>
-      <td>Path to source file</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.layout</code></td>
-      <td>default</td>
-      <td>Layout used</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.categories</code></td>
-      <td>sandboxtest</td>
-      <td>Categories array</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.tags</code></td>
-      <td>jekyllliquidvariables</td>
-      <td>Tags array</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.author</code></td>
-      <td>Sunil Abraham</td>
-      <td>Author from front matter</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">page.content</code></td>
-      <td># Jekyll Liquid Sandbox</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <tbody>
-    <tr>
-      <td>This page demonstrates…</td>
-      <td>Page HTML content, stripped &amp; truncated</td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><code class="language-plaintext highlighter-rouge">page.excerpt</code></td>
-      <td> </td>
-      <td>First paragraph/excerpt</td>
-    </tr>
-  </tbody>
-</table>
+<p><strong>Sunil Abraham</strong> (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian technologist, internet researcher, open source advocate and public policy researcher. Sunil is the founder and former executive director of the <a href="https://cis-india.org/">Centre for Internet and Society</a> (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. His research and advocacy have focused on openness, privacy, accessibility, and the social impact of digital technologies across the Global South.</p>
 
 <hr />
 
-<h2 id="site-variables-site">Site Variables (<code class="language-plaintext highlighter-rouge">site</code>)</h2>
+<h2 id="early-life-and-education">Early life and education</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Output</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.title</code></td>
-      <td>Sunil Abraham Documentation Project</td>
-      <td>Site title from <code class="language-plaintext highlighter-rouge">_config.yml</code></td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.description</code></td>
-      <td>Open source documentation and notes by Sunil Abraham</td>
-      <td>Site description</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.url</code></td>
-      <td> </td>
-      <td>Base URL</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.baseurl</code></td>
-      <td> </td>
-      <td>Base path if hosted in subfolder</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.time</code></td>
-      <td>27 October 2025 10:29:21</td>
-      <td>Build time</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.posts</code></td>
-      <td> </td>
-      <td>List all posts</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.pages</code></td>
-      <td>A. M. A. Ayrookuzhiel Contact Sandbox Test Page Disclaimer Home Magic Privacy Policy Projects Publications Sitemap Sunil Abraham Versions Videos</td>
-      <td>List all pages</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.categories</code></td>
-      <td> </td>
-      <td>Categories dictionary</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.tags</code></td>
-      <td> </td>
-      <td>Tags dictionary</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.author</code></td>
-      <td> </td>
-      <td>Global author info</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">site.data</code></td>
-      <td> </td>
-      <td>Custom data from <code class="language-plaintext highlighter-rouge">_data/*.yml</code></td>
-    </tr>
-  </tbody>
-</table>
+<p>Sunil Abraham was born on 17 June 1973 in India. He attended Clarence High School, Bangalore, completing his schooling in 1989. He later studied industrial engineering and management at Dayananda Sagar College of Engineering, graduating in 1995. After completing his degree, he worked briefly in the private sector before moving into the non-profit field, where he began exploring how technology could support social and development goals. His early work with the voluntary organisation Samuha introduced him to the possibilities of using low-cost, open technologies to improve communication and coordination in rural contexts. This experience shaped his later commitment to open knowledge and the democratisation of technology.</p>
+
+<p>His father, <a href="https://sunilabraham.in/amaa/">A. M. A. Ayrookuzhiel</a> (1933–1996), was a theologian and educator, and his mother is Ponnamma Abraham (née Thekedath).</p>
 
 <hr />
 
-<h2 id="common-filters">Common Filters</h2>
+<h2 id="career">Career</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Filter</th>
-      <th>Example</th>
-      <th>Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">date</code></td>
-      <td><code class="language-plaintext highlighter-rouge">Sunday, 26 October 2025</code></td>
-      <td>Sunday, 26 October 2025</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">upcase</code></td>
-      <td><code class="language-plaintext highlighter-rouge">MAGIC</code></td>
-      <td>MAGIC</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">downcase</code></td>
-      <td><code class="language-plaintext highlighter-rouge">magic</code></td>
-      <td>magic</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">capitalize</code></td>
-      <td><code class="language-plaintext highlighter-rouge">Magic</code></td>
-      <td>Magic</td>
-    </tr>
-    <tr>
-      <td><code class="language-plaintext highlighter-rouge">strip_html</code></td>
-      <td>`# Jekyll Liquid Sandbox</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<h3 id="mahiti-1998">Mahiti (1998)</h3>
 
-<table>
-  <tbody>
-    <tr>
-      <td>This page demonstrates…`</td>
-      <td># Jekyll Liquid Sandbox</td>
-    </tr>
-  </tbody>
-</table>
+<p>In 1998, Sunil founded <a href="https://mahiti.org/">Mahiti</a>, an information technology company that provides affordable digital solutions for non-governmental organisations and civil society groups. Mahiti’s projects emphasised the use of open-source tools, multilingual interfaces, and participatory design. By the early 2000s, Mahiti had established itself as one of India’s leading technology partners for non-profits, working on web platforms, intranet systems, and training programmes that made digital infrastructure more accessible to grassroots organisations. He served as Director at Mahiti Infotech Pvt Ltd before moving into full-time policy and research work.</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>This page demonstrates…</td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><code class="language-plaintext highlighter-rouge">replace</code></td>
-      <td><code class="language-plaintext highlighter-rouge">Magic</code></td>
-      <td>Magic</td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><code class="language-plaintext highlighter-rouge">truncate</code></td>
-      <td>`# Jekyll Liquid Sandbox</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<h3 id="international-open-source-network-20042007">International Open Source Network (2004–2007)</h3>
 
-<table>
-  <tbody>
-    <tr>
-      <td>Th…`</td>
-      <td># Jekyll Liquid Sandbox</td>
-    </tr>
-  </tbody>
-</table>
+<p>From 2004 to 2007, Sunil managed the <a href="https://www.apdip.net/">International Open Source Network (IOSN)</a>, a joint initiative of the <a href="https://www.undp.org/">United Nations Development Programme (UNDP)</a> and the <a href="https://www.apdip.net/">Asia-Pacific Development Information Programme (APDIP)</a>. The project aimed to promote open-source software, open standards, and open content across the Asia–Pacific region. In this role, he collaborated with governments, universities, and development agencies to develop regional capacity in open technologies and to encourage policy adoption that favoured openness and shared knowledge.</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>Th…</td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><code class="language-plaintext highlighter-rouge">default</code></td>
-      <td><code class="language-plaintext highlighter-rouge">Sunil Abraham</code></td>
-      <td>Sunil Abraham</td>
-    </tr>
-  </tbody>
-</table>
+<h3 id="centre-for-internet-and-society-20082019">Centre for Internet and Society (2008–2019)</h3>
+
+<p>In 2008, Sunil founded the <a href="https://cis-india.org/">Centre for Internet and Society (CIS)</a>, an independent research organisation based in Bangalore that examines the relationship between the Internet, technology, and society. He served as the organisation’s Executive Director from May 2008 to November 2019. Under his leadership, CIS became a key platform for research and advocacy in areas such as Internet governance, accessibility, privacy, open data, and digital cultures. The centre’s work combined academic study with policy engagement and public dialogue, contributing to national and international debates on digital rights and governance.</p>
+
+<h3 id="meta-2020present">Meta (2020–present)</h3>
+
+<p>In 2020, Sunil joined <a href="https://www.meta.com/">Meta</a> (Facebook India) as Public Policy Director for Data Economy and Emerging Technologies in India. In this role, he works on technology governance, data regulation, and innovation policy, engaging with government, industry, and research institutions on issues related to emerging technologies and the digital economy.</p>
+
+<h3 id="other-activities">Other activities</h3>
+
+<p>After leaving CIS in 2019, Sunil worked with the <a href="https://www.opensocietyfoundations.org/">Open Society Foundations</a>, focusing on digital governance, openness, and technology policy. He has also served as a consultant and adviser to several international organisations, including <a href="https://www.undp.org/">UNDP</a>, <a href="https://www.unesco.org/">UNESCO</a>, and the <a href="https://idrc-crdi.ca/">International Development Research Centre (IDRC)</a>. His assignments have ranged from open standards and localisation policy to digital inclusion and governance. He has contributed to projects in Asia, Africa, and Eastern Europe that connect technology policy with issues of equity, participation, and sustainable development.</p>
 
 <hr />
 
-<h2 id="example-usage">Example Usage</h2>
+<h2 id="publications-and-research">Publications and research</h2>
 
-<p>```liquid</p>
-<p>Title: Magic</p>
-<p>URL: /sandbox/magic/</p>
-<p>Published: 26 October 2025</p>
-<p>Last updated: 26 October 2025</p>
-<p>Site: Sunil Abraham Documentation Project ()</p>
-<p>Author: Sunil Abraham</p>
-<p>Categories: sandbox, test</p>
-<p>Tags: jekyll, liquid, variables</p>
+<p>Abraham has written and edited a number of works on open technologies, digital policy, and Internet governance. His edited volumes for the UNDP’s APDIP programme cover themes such as FOSS in education, localisation, open standards, and public policy. He co-authored <em>Digital Natives with a Cause?</em> (with Nishant Shah, 2009) and contributed to reports including <em>Open Government Data in India</em>. His writings often combine technical insight with policy analysis, reflecting on how openness and collaboration can support innovation and inclusion in developing contexts.</p>
+
+<p>In addition to research papers and reports, Abraham has contributed opinion pieces and essays to several newspapers and journals, including <em>The Hindu</em>, <em>Livemint</em>, <em>DNA India</em>, <em>Outlook</em>, and the <em>Wall Street Journal (India)</em>. His articles have discussed privacy, surveillance, digital monopolies, and the public interest in technology regulation.</p>
+
+<hr />
+
+<h2 id="views">Views</h2>
+
+<p>Sunil’s approach combines advocacy for openness with a pragmatic understanding of governance and economics. He argues that open-source software, open data, and open standards are essential for democratic participation and transparency, particularly in developing countries. At the same time, he has written critically about the limits of openness when it is detached from local realities or when market concentration undermines public interest. His work reflects a balance between technological optimism and institutional critique.</p>
+
+<hr />
+
+<h2 id="recognition">Recognition</h2>
+
+<p>In 1999, Sunil was awarded the <a href="https://www.ashoka.org/en-in/fellow/sunil-abraham">Ashoka Fellowship</a> for his efforts to promote open and participatory uses of the Internet in India. In 2003, he received the Sarai FLOSS Fellowship for his contributions to the free and open-source software movement within the voluntary sector. His work has been cited in policy reports and international forums concerned with Internet rights, information access, and innovation in public systems.</p>
+
+<hr />
+
+<h2 id="events-and-outreach">Events and outreach</h2>
+
+<p>Sunil has been actively involved in designing and leading collaborative events that connect technology practitioners, researchers, and activists. He co-organised Asia Source in 2005 and 2007, and the Asia Commons conference, which focused on knowledge sharing and the digital commons. He has spoken at the <a href="https://www.intgovforum.org/">Internet Governance Forum</a>, the Open World Forum, and various academic institutions in India and abroad. His public engagements often combine technical workshops with discussions on law, ethics, and social justice in the digital age.</p>
+
+<hr />
+
+<h2 id="personal-life">Personal life</h2>
+
+<p>Sunil Abraham is from Bangalore, India, and currently (as of October 2025) lives in Gurgaon. He married Esmeralda Davis on 10 January 2002 at Wesley English Church, Bangalore. He continues to work on issues related to digital policy, open knowledge, and Internet governance through the Centre for Internet and Society and partner organisations.</p>
 
     </main>
 
@@ -359,7 +186,7 @@
 
   <p>
     🗄️ Internet Archive: 
-    <a href="https://web.archive.org/https://www./sandbox/magic/">
+    <a href="https://web.archive.org/https://www./sunil/">
       Archived versions of this page
     </a>
   </p>
