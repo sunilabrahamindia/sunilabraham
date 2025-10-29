@@ -38,7 +38,7 @@
   
 <!-- =========================================================
      Section Header Link Script
-     Purpose: Shows a 🔗 icon on hover and copies the full URL when clicked
+     Purpose: Adds a small link icon beside headers and copies link on click
      ========================================================= -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
@@ -47,23 +47,23 @@ document.addEventListener("DOMContentLoaded", () => {
     link.className = "header-link";
     link.href = "#" + header.id;
     link.title = "Copy link to this section";
-    link.textContent = "🔗"; // icon shown
+    link.innerHTML = "🔗"; // You can replace this with an inline SVG if preferred
 
-    // 👇 Copy full URL (including #section) when clicked
     link.addEventListener("click", (e) => {
       e.preventDefault();
       const fullURL = window.location.origin + window.location.pathname + "#" + header.id;
       navigator.clipboard.writeText(fullURL).then(() => {
-        link.textContent = "✅"; // show success tick
-        setTimeout(() => (link.textContent = "🔗"), 1200); // revert back
+        link.innerHTML = "✅";
+        setTimeout(() => (link.innerHTML = "🔗"), 1200);
       });
     });
 
-    // 👇 Insert the icon at the start of the heading
-    header.prepend(link);
+    // 👇 Add the link icon after the heading text (to the right)
+    header.appendChild(link);
   });
 });
 </script>
+
 
 </body>
 </html>
