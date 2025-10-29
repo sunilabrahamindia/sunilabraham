@@ -343,7 +343,7 @@ html, body, .main-content {
 }
 
 /* =========================================================
-   Section Header Link Icons (copyable URLs)
+   Section Header Link Icons (copyable URLs) – Right-side style
    ========================================================= */
 
 h2[id], h3[id], h4[id], h5[id], h6[id] {
@@ -352,14 +352,15 @@ h2[id], h3[id], h4[id], h5[id], h6[id] {
 
 .header-link {
   position: absolute;
-  left: -1.2em;
-  top: 50%;
+  right: -1.4em;               /* Float slightly outside the heading text */
+  top: 50%;                    /* Vertically centre it */
   transform: translateY(-50%);
-  opacity: 0;
+  opacity: 0;                  /* Hidden until hover */
   font-size: 0.9em;
   text-decoration: none;
   color: #888;
   transition: opacity 0.2s ease, color 0.2s ease;
+  padding-left: 6px;
 }
 
 h2:hover .header-link,
@@ -373,3 +374,4 @@ h6:hover .header-link {
 .header-link:hover {
   color: #007acc;
 }
+
