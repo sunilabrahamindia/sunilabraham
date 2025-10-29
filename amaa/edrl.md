@@ -9,7 +9,7 @@ description: A posthumous collection of essays by Rev. A. M. A. Ayrookuzhiel (19
 
 As noted in K. C. Abraham's foreword, Ayrookuzhiel's work stands out for its originality, depth, and rootedness in the social context of India's Dalits. Abraham describes the essays as "a continuation of his lifelong project to make theology an instrument of human liberation."
 
-**Contents**
+## Contents
 - [Summary](#summary)
   - [Religious Colonisation and Deconstruction](#1-religious-colonisation-and-deconstruction)
   - [Reconstruction of Authentic Dalit Culture](#2-reconstruction-of-authentic-dalit-culture)
