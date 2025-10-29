@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Videos
+description: "A curated video archive featuring lectures, talks, and interviews by Sunil Abraham on open knowledge, Internet governance, and technology policy."
 ---
 
 # Videos
