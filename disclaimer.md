@@ -4,8 +4,6 @@ title: Disclaimer
 description: "Disclaimer outlining the accuracy, scope, and responsibility of content published under the Sunil Abraham Project, clarifying that materials are for general informational purposes only."
 ---
 
-# Disclaimer
-
 This website and its related projects are part of the **Sunil Abraham Project**. While **Sunil Abraham** is actively involved in its vision, direction, and oversight, much of the content is created, edited, or contributed by associates, collaborators, and friends.
 
 We make every effort to ensure that the information published on this site is accurate, reliable, and up to date. However, despite our best intentions, there may occasionally be **errors, inaccuracies, outdated information, or unintentional omissions**.
