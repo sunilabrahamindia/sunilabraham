@@ -6,8 +6,6 @@ description: Biography of Sunil Abraham (born 1973), Indian technologist, social
 
 {% include under-construction.html %}
 
-# Sunil Abraham
-
 
 **Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian technologist, internet researcher, open source advocate and public policy researcher. Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. His research and advocacy have focused on openness, privacy, accessibility, and the social impact of digital technologies across the Global South.
 
