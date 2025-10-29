@@ -24,6 +24,15 @@ As noted in K. C. Abraham's foreword, Ayrookuzhiel's work stands out for its ori
 ---
 
 ## Summary
+<div style="float:right; width:200px; margin:0 1rem 1rem 0;">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/EDRL%20front%20cover.png?raw=true" 
+    alt="Front cover of the book 'Essays on Dalits, Religion and Liberation' by A. M. Abraham Ayrookuzhiel" 
+    style="width:100%; border-radius:6px; box-shadow:0 0 6px rgba(0,0,0,0.15);">
+  <p style="font-size:0.8rem; text-align:center; color:#555; margin-top:0.4rem;">
+    Front cover of <em>Essays on Dalits, Religion and Liberation</em> (2006)
+  </p>
+</div>
 
 The collection provides a framework for understanding the role of religion as both a system of domination and a source of resistance for India's marginalised communities. Across these essays, Ayrookuzhiel weaves together theology, anthropology, and social critique to reveal how the cultural world of Dalits contains both wounds and wisdom.
 
