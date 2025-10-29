@@ -50,7 +50,7 @@ This reconstruction is not a nostalgic exercise but a political and theological 
 
 ### Subversive Language of Theology
 
-Another significant insight of the book is Ayrookuzhiel’s recognition of the subversive language of theology — the non-institutional, cultural forms through which the oppressed articulate faith. Rather than academic discourse, this theology speaks through story, song, humour, and satire.  
+Another significant insight of the book is Ayrookuzhiel's recognition of the subversive language of theology — the non-institutional, cultural forms through which the oppressed articulate faith. Rather than academic discourse, this theology speaks through story, song, humour, and satire.  
 
 A striking example is his analysis of the folk ritual *Pottan Theyyam* from Kerala. The figure of Pottan, a divine protester, challenges caste hierarchies and mocks oppressive images of divinity. Ayrookuzhiel interprets this ritual as a theological drama in which the divine takes the side of the oppressed. Such acts, he argues, reveal that true theology happens not in books but in people’s struggles for justice.
 
