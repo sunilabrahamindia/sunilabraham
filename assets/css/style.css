@@ -353,21 +353,374 @@ html, body, .main-content {
    • Safe for wrapped headings and all screen sizes
    ========================================================= */
 
+/* =========================================================
+   Sunil Abraham Project
+   Simple Professional Theme (Optimised for Direct <a> Navbar)
+   Licence: CC BY-SA 4.0
+   ========================================================= */
+
+/* Hide default GitHub Pages banner */
+#banner, .page-header, .site-footer {
+  display: none !important;
+}
+
+/* =========================================================
+   Base Layout
+   ========================================================= */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a1a;
+  background: linear-gradient(180deg, #fdfdfd 0%, #f8fafc 100%);
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+  max-width: 1000px;
+  line-height: 1.8;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* =========================================================
+   Header
+   ========================================================= */
+.site-header {
+  text-align: center;
+  margin: 2rem 0 0.8rem; /* reduced spacing for better compactness */
+}
+
+.site-header h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #0a2e57;
+  margin: 0 0 0.4rem;
+}
+
+.site-header p {
+  font-size: 1rem;
+  color: #444;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* =========================================================
+   Navbar (Stylish Tabs)
+   ========================================================= */
+.navbar {
+  background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  margin: 0.4rem 0 2rem; /* tighter top spacing */
+  padding: 0;
+  overflow: hidden;
+  animation: slideDown 0.8s ease;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.4px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover + active effects */
+.navbar a:hover {
+  background: linear-gradient(to bottom, #287c7c 0%, #1f5f5f 100%);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ✅ Green matching active tab */
+.navbar a.active {
+  background: linear-gradient(to bottom, #2f9e9e 0%, #237373 100%);
+  color: #fff;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* Remove right border on last tab */
+.navbar li:last-child a {
+  border-right: none;
+}
+
+/* =========================================================
+   Mobile Navbar (Horizontal Scroll Fix)
+   ========================================================= */
+@media (max-width: 768px) {
+  .navbar {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li {
+    flex: 0 0 auto;
+    list-style: none;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 0.25rem 0.45rem;
+    white-space: nowrap;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 80%;
+  }
+
+  .navbar li:last-child a {
+    border-right: none;
+  }
+}
+
+/* =========================================================
+   Main Content
+   ========================================================= */
+.main-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2.2rem;
+  margin-top: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  animation: fadeUp 1s ease-in-out;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #0a2e57;
+  line-height: 1.4;
+}
+
+h1 {
+  border-bottom: 2px solid #eaecef;
+  padding-bottom: 0.3em;
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 2.5rem;
+}
+
+/* Links */
+a {
+  color: #005cc5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #0366d6;
+}
+
+/* =========================================================
+   Footer (Optimised for Compact Layout)
+   ========================================================= */
+footer {
+  margin-top: 60px;
+  padding: 24px 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  border-top: 1px solid #eaecef;
+  background: #fafafa;
+  line-height: 1.6;
+}
+
+/* Paragraph groups inside footer */
+footer p {
+  margin: 6px 0 8px;
+  padding: 0;
+}
+
+/* Links inside footer */
+footer a {
+  color: #0366d6;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 3px; /* tighter spacing between links */
+  white-space: nowrap; /* keep short links on one line */
+  transition: color 0.25s ease, text-decoration 0.25s ease;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #024b9a;
+  text-decoration: underline;
+}
+
+/* Icons + text alignment */
+footer p::before {
+  margin-right: 4px;
+}
+
+/* Compact layout for multiple <a> tags in a single <p> */
+footer p a:first-of-type {
+  margin-left: 0;
+}
+
+footer p a:last-of-type {
+  margin-right: 0;
+}
+
+/* Subtle fade-in animation */
+footer {
+  opacity: 0;
+  animation: fadeInFooter 0.8s ease-in forwards;
+}
+
+@keyframes fadeInFooter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================================
+   Responsive Footer Adjustments
+   ========================================================= */
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.85em;
+    padding: 18px 8px;
+  }
+
+  footer p {
+    margin: 4px 0 6px;
+  }
+
+  footer a {
+    margin: 0 2px;
+  }
+}
+
+/* =========================================================
+   Animations
+   ========================================================= */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================================
+   Tables 
+   ========================================================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  overflow: hidden;
+  display: block;
+  overflow-x: auto; /* Makes table scroll horizontally on small screens */
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+  color: #333;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover td {
+  background-color: #f9f9f9;
+}
+
+/* Optional: make text wrap properly on small screens */
+td, th {
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+
+/* =========================================================
+   Responsive Adjustments
+   ========================================================= */
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem 3rem;
+  }
+
+  .site-header h1 {
+    font-size: 2rem;
+  }
+
+  .main-content {
+    padding: 1.5rem;
+  }
+}
+
+/* === Allow full-page background colour changes === */
+html, body, .main-content {
+  transition: background-color 0.4s ease !important;
+}
+
+.main-content {
+  background: transparent !important;
+}
+/* =========================================================
+   Section Header Link Icons (copyable URLs) – beside heading
+   ---------------------------------------------------------
+   Purpose:
+   • Adds a small 🔗 icon beside headings (H2–H6)
+   • Icon appears only on hover
+   • Keeps headings block-level to preserve normal spacing
+   • Works cleanly on mobile and with wrapped headings
+   ========================================================= */
+
 h2[id], h3[id], h4[id], h5[id], h6[id] {
   position: relative;
-  display: inline-flex;          /* Allow the icon to sit neatly beside text */
-  align-items: center;
-  gap: 0.35em;                   /* Small space between text and icon */
+  display: block;                 /* ✅ restore normal block behaviour */
+  margin-top: 2rem;               /* consistent spacing above */
+  margin-bottom: 1rem;            /* consistent spacing below */
+  line-height: 1.4;
 }
 
 .header-link {
-  opacity: 0;                    /* Hidden until hover */
+  margin-left: 0.35em;            /* small space between text and icon */
+  opacity: 0;                     /* hidden until hover */
   font-size: 0.9em;
   text-decoration: none;
   color: #888;
   transition: opacity 0.2s ease, color 0.2s ease;
-  display: inline-flex;
-  align-items: center;
 }
 
 h2:hover .header-link,
@@ -375,10 +728,10 @@ h3:hover .header-link,
 h4:hover .header-link,
 h5:hover .header-link,
 h6:hover .header-link {
-  opacity: 1;                    /* Reveal icon on hover */
+  opacity: 1;                     /* show icon on hover */
 }
 
 .header-link:hover {
-  color: #007acc;                /* Slight blue tint on hover */
+  color: #007acc;                 /* slight blue tint on hover */
 }
 
