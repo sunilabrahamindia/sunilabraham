@@ -4,8 +4,6 @@ title: Projects
 description: "Overview of ongoing and future projects under the Sunil Abraham Project, documenting open research, creative work, and reflections on technology, society, and culture."
 ---
 
-# Projects
-
 The **Sunil Abraham Project** documents, studies, and archives a range of open research and creative work.  
 Documentation is central to this effort — it preserves knowledge, captures the process behind ideas, and makes insights accessible to others.  
 By maintaining structured, open documentation, projects remain transparent, collaborative, and easy to extend.
