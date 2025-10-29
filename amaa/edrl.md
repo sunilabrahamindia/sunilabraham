@@ -31,7 +31,7 @@ The collection provides a framework for understanding the role of religion as bo
   <img 
     src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/EDRL%20front%20cover.png?raw=true" 
     alt="Front cover of the book 'Essays on Dalits, Religion and Liberation' by A. M. Abraham Ayrookuzhiel, published by the Christian Institute for the Study of Religion and Society in 2006" 
-    style="width:60%; height:auto; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);">
+    style="width:45%; height:auto; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);">
   <p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
     Front cover of <em>Essays on Dalits, Religion and Liberation</em> by A. M. Abraham Ayrookuzhiel (CISRS / ATC, 2006).
   </p>
