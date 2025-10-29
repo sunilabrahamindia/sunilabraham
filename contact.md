@@ -4,8 +4,6 @@ title: Contact
 description: "Get in touch with Sunil Abraham for questions, collaborations, or discussions related to open documentation, research, and technology."
 ---
 
-# Contact
-
 Thank you for your interest in our work.  
 Whether you have a question about a project, wish to collaborate, or simply want to share a thought, we welcome meaningful conversations related to open documentation, research, and technology.
 
