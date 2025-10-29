@@ -4,8 +4,6 @@ title: Privacy Policy
 description: "Privacy Policy outlining how sunilabraham.in respects user privacy by avoiding data collection, tracking, or information sharing, ensuring transparency and trust."
 ---
 
-# Privacy Policy
-
 _Last updated: October 2025_
 
 This website, **sunilabraham.in**, is maintained as part of the **Sunil Abraham Project**.  
