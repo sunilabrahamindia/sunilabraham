@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Prevents scrollbars on the main page, letting the chart handle pan/zoom */
+}
+
+#family-tree-container {
+    width: 100vw; /* Use the full viewport width */
+    height: 100vh; /* Use the full viewport height */
+    overflow: hidden; 
+    /* This line improves mobile touch/pan interaction: */
+    touch-action: pan-y; 
+}
