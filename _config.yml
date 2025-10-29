@@ -3,15 +3,15 @@ description: "Open source documentation and notes by Sunil Abraham"
 markdown: kramdown
 show_downloads: false
 
-# Theme disabled since using a custom layout
+# No default GitHub theme — using your own custom layout
 theme: null
 
 # =====================================================
-# Optional: Table of Contents settings (if you still use jekyll-toc locally)
+# Table of Contents settings (optional)
 # =====================================================
 toc:
-  min_level: 2       # start from H2
-  max_level: 4       # include up to H4
+  min_level: 2
+  max_level: 4
   ordered_list: false
 
 # =====================================================
@@ -19,3 +19,36 @@ toc:
 # =====================================================
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: pretty
+
+# =====================================================
+# Plugins — all GitHub Pages safe
+# =====================================================
+plugins:
+  - jekyll-sitemap        # generates sitemap.xml automatically
+  - jekyll-feed           # generates Atom/RSS feed.xml
+  - jekyll-seo-tag        # adds SEO meta and Open Graph tags
+  - jekyll-paginate       # for paginated lists (use in collections or blog)
+  - jekyll-redirect-from  # to redirect old URLs
+
+# =====================================================
+# Site URL (for sitemap and SEO)
+# =====================================================
+url: "https://sunilabraham.in"
+
+# =====================================================
+# Excluded folders/files
+# =====================================================
+exclude:
+  - sandbox/
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# =====================================================
+# Pagination (optional settings)
+# =====================================================
+paginate: 10
+paginate_path: "/page:num"
