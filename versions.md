@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Versions
+description: "Version history of the Sunil Abraham Project website, documenting updates, milestones, and design improvements."
 ---
 
 # Versions
