@@ -15,15 +15,16 @@ description: Biography of Sunil Abraham (born 1973), Indian technologist, social
 
 ## Early life and education
 
-<div style="float:right; width:180px; margin:0 1rem 1rem 0;">
+<div style="float:right; width:185px; margin:0 1rem 1rem 0;">
   <img 
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20image%2001.jpg?raw=true" 
-    alt="Sunil Abraham portrait" 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/EDRL%20front%20cover.png?raw=true" 
+    alt="Front cover of the book 'Essays on Dalits, Religion and Liberation' by A. M. Abraham Ayrookuzhiel" 
     style="width:100%; border-radius:6px; box-shadow:0 0 6px rgba(0,0,0,0.15);">
   <p style="font-size:0.8rem; text-align:center; color:#555; margin-top:0.4rem;">
-    Sunil Abraham
+    Front cover of <em>Essays on Dalits, Religion and Liberation</em> (2006)
   </p>
 </div>
+
 
 Sunil Abraham was born on 17 June 1973 in India. He attended Clarence High School, Bangalore, completing his schooling in 1989. He later studied industrial engineering and management at Dayananda Sagar College of Engineering, graduating in 1995. After completing his degree, he worked briefly in the private sector before moving into the non-profit field, where he began exploring how technology could support social and development goals. His early work with the voluntary organisation Samuha introduced him to the possibilities of using low-cost, open technologies to improve communication and coordination in rural contexts. This experience shaped his later commitment to open knowledge and the democratisation of technology.
 
