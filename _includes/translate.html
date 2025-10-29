@@ -1,64 +1,59 @@
-<!-- translate.html -->
-<div id="translate-toggle" title="Translate this page">🌐</div>
-<div id="google_translate_element" class="translate-box"></div>
-
+<!-- Translation Globe (auto next to first heading) -->
 <style>
-#translate-toggle {
-  position: fixed;
-  bottom: 90px;
-  right: 15px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  padding: 10px 12px;
-  font-size: 20px;
+.translate-globe {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
   cursor: pointer;
-  z-index: 9999;
-  transition: all 0.2s ease;
+  font-size: 18px;
+  transition: transform 0.2s ease;
 }
-#translate-toggle:hover {
-  transform: scale(1.05);
+.translate-globe:hover {
+  transform: scale(1.2);
 }
-
-.translate-box {
+.translate-select {
   display: none;
-  position: fixed;
-  bottom: 140px;
-  right: 10px;
-  background: #fff;
-  border-radius: 10px;
-  padding: 8px;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
-  z-index: 9999;
-}
-
-@media (max-width: 768px) {
-  #translate-toggle {
-    bottom: 80px;
-    right: 10px;
-  }
-  .translate-box {
-    bottom: 130px;
-    right: 10px;
-  }
+  margin-left: 8px;
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 6px;
 }
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const toggle = document.getElementById('translate-toggle');
-  const box = document.getElementById('google_translate_element');
-  toggle.addEventListener('click', () => {
-    box.style.display = box.style.display === 'none' ? 'block' : 'none';
-  });
-});
+document.addEventListener("DOMContentLoaded", function() {
+  const heading = document.querySelector("h1, h2");
+  if (!heading) return;
 
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    includedLanguages: 'bn,en,hi,ml,ta',
-    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
-  }, 'google_translate_element');
-}
+  const globe = document.createElement("span");
+  globe.className = "translate-globe";
+  globe.title = "Translate this page";
+  globe.textContent = "🌐";
+
+  const select = document.createElement("select");
+  select.className = "translate-select";
+  select.innerHTML = `
+    <option value="">Select language</option>
+    <option value="en">English</option>
+    <option value="bn">বাংলা</option>
+    <option value="ml">Malayalam</option>
+    <option value="hi">Hindi</option>
+    <option value="ta">Tamil</option>
+  `;
+
+  globe.onclick = () => {
+    select.style.display = select.style.display === "inline-block" ? "none" : "inline-block";
+  };
+
+  select.onchange = function() {
+    const lang = this.value;
+    if (!lang) return;
+    const newUrl = `https://translate.google.com/translate?hl=${lang}&sl=auto&u=${encodeURIComponent(window.location.href)}`;
+    window.open(newUrl, "_self");
+  };
+
+  heading.appendChild(globe);
+  heading.appendChild(select);
+});
 </script>
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- End Translate Globe -->
