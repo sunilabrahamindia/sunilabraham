@@ -1,4 +1,4 @@
-<!-- Translation Globe (auto next to first heading) -->
+<!-- Translation Globe (manual placement, no auto script) -->
 <style>
 .translate-globe {
   display: inline-flex;
@@ -20,26 +20,20 @@
 }
 </style>
 
+<span class="translate-globe" title="Translate this page">🌐</span>
+<select class="translate-select">
+  <option value="">Select language</option>
+  <option value="en">English</option>
+  <option value="bn">বাংলা</option>
+  <option value="ml">Malayalam</option>
+  <option value="hi">Hindi</option>
+  <option value="ta">Tamil</option>
+</select>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const heading = document.querySelector("h1, h2");
-  if (!heading) return;
-
-  const globe = document.createElement("span");
-  globe.className = "translate-globe";
-  globe.title = "Translate this page";
-  globe.textContent = "🌐";
-
-  const select = document.createElement("select");
-  select.className = "translate-select";
-  select.innerHTML = `
-    <option value="">Select language</option>
-    <option value="en">English</option>
-    <option value="bn">বাংলা</option>
-    <option value="ml">Malayalam</option>
-    <option value="hi">Hindi</option>
-    <option value="ta">Tamil</option>
-  `;
+  const globe = document.querySelector(".translate-globe");
+  const select = document.querySelector(".translate-select");
 
   globe.onclick = () => {
     select.style.display = select.style.display === "inline-block" ? "none" : "inline-block";
@@ -51,9 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const newUrl = `https://translate.google.com/translate?hl=${lang}&sl=auto&u=${encodeURIComponent(window.location.href)}`;
     window.open(newUrl, "_self");
   };
-
-  heading.appendChild(globe);
-  heading.appendChild(select);
 });
 </script>
 <!-- End Translate Globe -->
