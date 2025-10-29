@@ -1,38 +1,63 @@
 <!-- translate.html -->
-<div id="google_translate_element" class="translate-float"></div>
+<div id="translate-toggle" title="Translate this page">🌐</div>
+<div id="google_translate_element" class="translate-box"></div>
 
 <style>
-.translate-float {
+#translate-toggle {
   position: fixed;
-  bottom: 90px; /* just above the Utilities button */
+  bottom: 90px;
   right: 15px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  padding: 10px 12px;
+  font-size: 20px;
+  cursor: pointer;
   z-index: 9999;
-  background: white;
-  border-radius: 50px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  padding: 6px 10px;
-  font-size: 13px;
+  transition: all 0.2s ease;
+}
+#translate-toggle:hover {
+  transform: scale(1.05);
 }
 
-.goog-te-gadget {
-  height: 26px !important;
+.translate-box {
+  display: none;
+  position: fixed;
+  bottom: 140px;
+  right: 10px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 9999;
 }
 
 @media (max-width: 768px) {
-  .translate-float {
+  #translate-toggle {
     bottom: 80px;
     right: 10px;
-    transform: scale(0.9);
+  }
+  .translate-box {
+    bottom: 130px;
+    right: 10px;
   }
 }
 </style>
 
 <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.getElementById('translate-toggle');
+  const box = document.getElementById('google_translate_element');
+  toggle.addEventListener('click', () => {
+    box.style.display = box.style.display === 'none' ? 'block' : 'none';
+  });
+});
+
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({
     pageLanguage: 'en',
-    includedLanguages: 'bn,en,hi',
-    layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+    includedLanguages: 'bn,en,hi,ml,ta',
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
   }, 'google_translate_element');
 }
 </script>
