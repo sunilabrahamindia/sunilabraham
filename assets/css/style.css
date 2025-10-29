@@ -343,26 +343,29 @@ html, body, .main-content {
 }
 
 /* =========================================================
-   Section Header Link Icons (copyable URLs) – Right-side style
+   Section Header Link Icons (copyable URLs) – beside heading
    ========================================================= */
 
+/* 👇 Ensure headings can contain absolutely positioned elements */
 h2[id], h3[id], h4[id], h5[id], h6[id] {
   position: relative;
+  display: inline-flex;          /* Allow the icon to sit neatly beside text */
+  align-items: center;
+  gap: 0.35em;                   /* Small space between text and icon */
 }
 
+/* 👇 Small link icon hidden until hover */
 .header-link {
-  position: absolute;
-  right: -1.4em;               /* Float slightly outside the heading text */
-  top: 50%;                    /* Vertically centre it */
-  transform: translateY(-50%);
-  opacity: 0;                  /* Hidden until hover */
+  opacity: 0;
   font-size: 0.9em;
   text-decoration: none;
   color: #888;
   transition: opacity 0.2s ease, color 0.2s ease;
-  padding-left: 6px;
+  display: inline-flex;
+  align-items: center;
 }
 
+/* 👇 Fade in icon when hovering heading */
 h2:hover .header-link,
 h3:hover .header-link,
 h4:hover .header-link,
@@ -371,7 +374,7 @@ h6:hover .header-link {
   opacity: 1;
 }
 
+/* 👇 Slight blue tint when hovering icon */
 .header-link:hover {
   color: #007acc;
 }
-
