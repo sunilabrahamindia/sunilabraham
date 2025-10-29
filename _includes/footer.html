@@ -1,6 +1,8 @@
 <footer>
   <style>
-    /* Footer container */
+    /* =========================================================
+       Footer container
+       ========================================================= */
     footer {
       margin-top: 60px;
       padding: 20px 10px;
@@ -13,13 +15,13 @@
 
     /* Paragraph spacing */
     footer p {
-      margin: 0.2rem 0;   /* tighter spacing between paragraphs */
-      line-height: 1.4;   /* slightly tighter lines */
+      margin: 0.2rem 0; /* tighter spacing between paragraphs */
+      line-height: 1.4;
     }
 
     /* Links inside footer */
     footer a {
-      color: #0a2e57;     /* match your header/theme colour */
+      color: #0a2e57; /* match your header/theme colour */
       text-decoration: none;
       margin: 0 1px;
       transition: color 0.3s ease;
@@ -27,54 +29,67 @@
 
     footer a:hover {
       text-decoration: underline;
-      color: #237373;      /* subtle hover colour */
+      color: #237373; /* subtle hover colour */
     }
 
-    /* Optional: smaller spacing for bullet separators (·) */
+    /* Optional: bullet separator (·) between links */
     footer p a + a::before {
       content: "·";
       margin: 0 4px;
       color: #555;
     }
+
+    /* =========================================================
+       Footer Version Tag
+       ========================================================= */
+    footer .version-tag {
+      font-size: 0.85em;
+      color: #777;
+      margin-top: 0.2rem;
+      opacity: 0.9;
+      display: block;
+    }
   </style>
+
+  <p><b>The Sunil Abraham Project</b></p>
+  <p class="version-tag">Version 0.2</p>
 
   <p>© {{ site.time | date: "%Y" }} Licensed under 
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> unless otherwise stated.
   </p>
   
-    <p>
+  <p>
     🌐 Connect with Sunil:
     <a href="https://www.facebook.com/abrahamsunil">Facebook</a>
     <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a>
     <a href="https://x.com/sunil_abraham">𝕏</a>
   </p>
   
-    <p>
-    🔗 Quick links: 
+  <p>
+    🔗 Quick links:
     <a href="https://www.sunilabraham.in/versions">Versions</a>
     <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
-    <a href="https://www.sunilabraham.in/sitemap">Sitemap</a> (<a href="https://www.sunilabraham.in/sitemap">XML</a>)
+    <a href="https://www.sunilabraham.in/sitemap">Sitemap</a> (<a href="https://www.sunilabraham.in/sitemap.xml">XML</a>)
     <a href="https://www.sunilabraham.in/privacy">Privacy Policy</a>
     <a href="https://www.sunilabraham.in/disclaimer">Disclaimer</a>
   </p>
 
   <p>
-    🗄️ Internet Archive: 
+    🗄️ Internet Archive:
     <a href="https://web.archive.org/https://www.{{ site.url | remove: 'https://' | remove: 'www.' }}{{ page.url | relative_url }}">
       Archived versions of this page
     </a>
   </p>
 
   <p>
-    👁 WAVE WebAIM: 
-  <a id="accessibility-link" href="#" aria-label="Check this page's accessibility report on WAVE WebAIM">
-    See accessibility score
-  </a>
+    👁 WAVE WebAIM:
+    <a id="accessibility-link" href="#" aria-label="Check this page's accessibility report on WAVE WebAIM">
+      See accessibility score
+    </a>
   </p>
 
-<script>
-  const currentURL = encodeURIComponent(window.location.href);
-  document.getElementById('accessibility-link').href = 'https://wave.webaim.org/report#/' + currentURL;
-</script>
-
+  <script>
+    const currentURL = encodeURIComponent(window.location.href);
+    document.getElementById('accessibility-link').href = 'https://wave.webaim.org/report#/' + currentURL;
+  </script>
 </footer>
