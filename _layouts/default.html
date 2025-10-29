@@ -35,6 +35,35 @@
 
   <!-- Utility Toolbox -->
 {% include utility-toolbox.html %}
+  
+<!-- =========================================================
+     Section Header Link Script
+     Purpose: Shows a 🔗 icon on hover and copies the full URL when clicked
+     ========================================================= -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]").forEach(header => {
+    const link = document.createElement("a");
+    link.className = "header-link";
+    link.href = "#" + header.id;
+    link.title = "Copy link to this section";
+    link.textContent = "🔗"; // icon shown
+
+    // 👇 Copy full URL (including #section) when clicked
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const fullURL = window.location.origin + window.location.pathname + "#" + header.id;
+      navigator.clipboard.writeText(fullURL).then(() => {
+        link.textContent = "✅"; // show success tick
+        setTimeout(() => (link.textContent = "🔗"), 1200); // revert back
+      });
+    });
+
+    // 👇 Insert the icon at the start of the heading
+    header.prepend(link);
+  });
+});
+</script>
 
 </body>
 </html>
