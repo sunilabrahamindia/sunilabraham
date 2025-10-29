@@ -1,15 +1,12 @@
----
-layout: default
-title: Family Tree
-description: Interactive Treant-based family tree of the Abraham–Ayrookuzhiel family
----
+<h1>Family Tree</h1>
+<p>This page displays a simple visual hierarchy of the Abraham–Ayrookuzhiel family.</p>
 
-<link rel="stylesheet" href="/assets/css/treant.css" />
+<!-- ===== Treant setup ===== -->
+<link rel="stylesheet" href="https://sunilabraham.in/assets/css/Treant.css">
+<script src="https://sunilabraham.in/assets/js/raphael.min.js"></script>
+<script src="https://sunilabraham.in/assets/js/treant.min.js"></script> 
 
 <div id="tree-simple" class="Treant"></div>
-
-<script src="/assets/js/raphael.min.js"></script>
-<script src="/assets/js/treant.min.js"></script>
 
 <script>
 const familyTreeConfig = {
@@ -17,14 +14,8 @@ const familyTreeConfig = {
     container: "#tree-simple",
     rootOrientation: "NORTH",
     nodeAlign: "BOTTOM",
-    scrollbar: "fancy",
-    connectors: {
-      type: "step",
-      style: { "stroke-width": 2, "stroke": "#0a2e57" }
-    },
-    node: {
-      HTMLclass: "familyNode"
-    }
+    connectors: { type: "step", style: { "stroke-width": 2, "stroke": "#0a2e57" } },
+    node: { HTMLclass: "familyNode" }
   },
   nodeStructure: {
     text: { name: "Abraham", title: "(1820–1895)" },
@@ -46,11 +37,19 @@ const familyTreeConfig = {
     ]
   }
 };
-
 new Treant(familyTreeConfig);
 </script>
 
 <style>
+/* Container size and layout */
+#tree-simple {
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/* Node styling */
 .familyNode {
   border: 2px solid #0a2e57;
   border-radius: 10px;
@@ -59,9 +58,22 @@ new Treant(familyTreeConfig);
   color: #0a2e57;
   font-weight: 600;
   text-align: center;
+  font-size: 0.9rem;
+  width: 140px;
+  transition: 0.3s;
 }
+
 .familyNode:hover {
   background-color: #0a2e57;
   color: #fff;
+}
+
+/* Mobile scaling */
+@media (max-width: 768px) {
+  #tree-simple {
+    transform: scale(0.8);
+    transform-origin: top center;
+    height: 90vh;
+  }
 }
 </style>
