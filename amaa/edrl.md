@@ -12,9 +12,9 @@ As noted in K. C. Abraham's foreword, Ayrookuzhiel's work stands out for its ori
 
 **Contents**
 - [Summary](#summary)
-  - [1. Religious Colonisation and Deconstruction](#1-religious-colonisation-and-deconstruction)
-  - [2. Reconstruction of Authentic Dalit Culture](#2-reconstruction-of-authentic-dalit-culture)
-  - [3. Subversive Language of Theology](#3-subversive-language-of-theology)
+  - [Religious Colonisation and Deconstruction](#1-religious-colonisation-and-deconstruction)
+  - [Reconstruction of Authentic Dalit Culture](#2-reconstruction-of-authentic-dalit-culture)
+  - [Subversive Language of Theology](#3-subversive-language-of-theology)
 - [Chapters](#chapters)
 - [Publication History](#publication-history)
 - [Critical Reception](#critical-reception)
@@ -37,19 +37,19 @@ The collection provides a framework for understanding the role of religion as bo
   </p>
 </div>
 
-### 1. Religious Colonisation and Deconstruction
+### Religious Colonisation and Deconstruction
 
-A central theme in the collection is the idea of the “Hindu colonisation of Dalits.” Ayrookuzhiel argues that the socio-economic subjugation of Dalits was reinforced by a religious process that appropriated their gods, myths, and rituals into a Brahmanical order. This “religious colonisation” deprived Dalits of their independent identity, transforming their faith into what he calls *opus alienum* — another’s work.  
+A central theme in the collection is the idea of the "Hindu colonisation of Dalits." Ayrookuzhiel argues that the socio-economic subjugation of Dalits was reinforced by a religious process that appropriated their gods, myths, and rituals into a Brahmanical order. This “religious colonisation” deprived Dalits of their independent identity, transforming their faith into what he calls *opus alienum* — another’s work.  
 
 His analysis calls for a radical deconstruction of this inherited religious identity. He insists that theology must expose how religion has been used to legitimise caste oppression and reclaim the suppressed narratives of the oppressed.
 
-### 2. Reconstruction of Authentic Dalit Culture
+### Reconstruction of Authentic Dalit Culture
 
 In contrast to deconstruction, Ayrookuzhiel also develops a constructive method — the reconstruction of authentic Dalit history and culture. Drawing on fieldwork, oral traditions, and performance studies, he identifies fragments of Dalit self-expression that have survived centuries of suppression. By interpreting these cultural acts, he recovers the creative agency of Dalit communities and their enduring search for dignity.  
 
 This reconstruction is not a nostalgic exercise but a political and theological act. It aims to affirm Dalit cultural sovereignty and re-establish their sense of belonging within the broader religious landscape of India.
 
-### 3. Subversive Language of Theology
+### Subversive Language of Theology
 
 Another significant insight of the book is Ayrookuzhiel’s recognition of the subversive language of theology — the non-institutional, cultural forms through which the oppressed articulate faith. Rather than academic discourse, this theology speaks through story, song, humour, and satire.  
 
