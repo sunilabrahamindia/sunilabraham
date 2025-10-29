@@ -1,0 +1,17 @@
+{
+    "rootId": "person1",
+    "persons": [
+        { "id": "person1", "name": "Dad", "gender": "male", "born": 1960 },
+        { "id": "person2", "name": "Mom", "gender": "female", "born": 1965 },
+        { "id": "person3", "name": "Child 1", "gender": "male", "born": 1990 },
+        { "id": "person4", "name": "Child 2", "gender": "female", "born": 1992 }
+    ],
+    "families": [
+        {
+            "id": "fam1",
+            "p1": "person1", 
+            "p2": "person2",
+            "children": ["person3", "person4"]
+        }
+    ]
+}
