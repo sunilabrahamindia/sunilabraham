@@ -1,0 +1,116 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Tree | Sunil Abraham</title>
+<link rel="stylesheet" href="/style.css">
+<style>
+  body { font-family: system-ui, sans-serif; background:#fff; margin:0; padding:0; }
+  #tree-container { width: 100%; height: 100vh; overflow: hidden; }
+  svg { width: 100%; height: 100%; }
+  .node rect {
+    fill: #e6f0ff;
+    stroke: #0a2e57;
+    stroke-width: 1.5px;
+    rx: 6;
+    ry: 6;
+  }
+  .node text {
+    font-size: 14px;
+    fill: #0a2e57;
+    pointer-events: none;
+  }
+  .link {
+    fill: none;
+    stroke: #aaa;
+    stroke-width: 1.5px;
+  }
+</style>
+</head>
+<body>
+<div id="tree-container"></div>
+
+<script src="d3.min.js"></script>
+<script>
+const width = document.body.clientWidth;
+const dx = 20, dy = 180;
+const tree = d3.tree().nodeSize([dx, dy]);
+const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+
+fetch("family.json")
+  .then(res => res.json())
+  .then(data => {
+    const root = d3.hierarchy(data);
+    root.x0 = 0; root.y0 = 0;
+    root.descendants().forEach((d, i) => { d.id = i; d._children = d.children; if (d.depth && d.children) d.children = null; });
+    const svg = d3.select("#tree-container").append("svg")
+      .attr("viewBox", [-dy / 3, -dx, width, dx * 20])
+      .style("font", "12px sans-serif");
+
+    const gLink = svg.append("g").attr("fill", "none").attr("stroke", "#555").attr("stroke-opacity", 0.4).attr("stroke-width", 1.5);
+    const gNode = svg.append("g").attr("cursor", "pointer");
+
+    function update(source) {
+      const nodes = root.descendants().reverse();
+      const links = root.links();
+      tree(root);
+      let left = root, right = root;
+      root.eachBefore(n => { if (n.x < left.x) left = n; if (n.x > right.x) right = n; });
+      const height = right.x - left.x + dx * 2;
+      const transition = svg.transition().duration(500)
+        .attr("viewBox", [-dy / 3, left.x - dx, width, height]);
+
+      const node = gNode.selectAll("g").data(nodes, d => d.id);
+      const nodeEnter = node.enter().append("g")
+        .attr("transform", d => `translate(${source.y0},${source.x0})`)
+        .on("click", (event, d) => {
+          d.children = d.children ? null : d._children;
+          update(d);
+        });
+
+      nodeEnter.append("rect")
+        .attr("x", -70).attr("y", -10).attr("width", 140).attr("height", 20)
+        .attr("rx", 6).attr("ry", 6);
+
+      nodeEnter.append("text")
+        .attr("text-anchor", "middle")
+        .attr("dy", "0.32em")
+        .text(d => d.data.name);
+
+      const nodeUpdate = nodeEnter.merge(node);
+      nodeUpdate.transition(transition)
+        .attr("transform", d => `translate(${d.y},${d.x})`);
+
+      const nodeExit = node.exit().transition(transition).remove()
+        .attr("transform", d => `translate(${source.y},${source.x})`)
+        .attr("opacity", 0);
+
+      const link = gLink.selectAll("path").data(links, d => d.target.id);
+      const linkEnter = link.enter().append("path")
+        .attr("d", d => {
+          const o = {x: source.x0, y: source.y0};
+          return diagonal({source: o, target: o});
+        });
+
+      link.merge(linkEnter).transition(transition)
+        .attr("d", diagonal);
+
+      link.exit().transition(transition).remove()
+        .attr("d", d => {
+          const o = {x: source.x, y: source.y};
+          return diagonal({source: o, target: o});
+        });
+
+      root.eachBefore(d => { d.x0 = d.x; d.y0 = d.y; });
+    }
+
+    update(root);
+  });
+</script>
+</body>
+</html>
