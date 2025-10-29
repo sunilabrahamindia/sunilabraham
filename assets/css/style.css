@@ -344,3 +344,28 @@ h6:hover .header-link {
 .header-link:hover {
   color: #007acc;
 }
+
+/* =========================================================
+   Breadcrumb Navigation
+   ========================================================= */
+.breadcrumb {
+  font-size: 0.9rem;
+  margin: 1rem 0 2rem;
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.6rem;
+}
+
+.breadcrumb a {
+  color: #005cc5;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+  color: #0366d6;
+}
+
+.breadcrumb span {
+  color: #666;
+}
