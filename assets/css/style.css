@@ -185,30 +185,82 @@ a:hover, a:focus {
 }
 
 /* =========================================================
-   Footer
+   Footer (Optimised for Compact Layout)
    ========================================================= */
 footer {
   margin-top: 60px;
-  padding: 20px 10px;
+  padding: 24px 10px;
   text-align: center;
   font-size: 0.9em;
   color: #555;
   border-top: 1px solid #eaecef;
   background: #fafafa;
+  line-height: 1.6;
 }
 
+/* Paragraph groups inside footer */
+footer p {
+  margin: 6px 0 8px;
+  padding: 0;
+}
+
+/* Links inside footer */
 footer a {
   color: #0366d6;
   text-decoration: none;
-  margin: 0 4px;
+  display: inline-block;
+  margin: 0 3px; /* tighter spacing between links */
+  white-space: nowrap; /* keep short links on one line */
+  transition: color 0.25s ease, text-decoration 0.25s ease;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:focus {
+  color: #024b9a;
   text-decoration: underline;
 }
 
-footer p {
-  margin: 8px 0;
+/* Icons + text alignment */
+footer p::before {
+  margin-right: 4px;
+}
+
+/* Compact layout for multiple <a> tags in a single <p> */
+footer p a:first-of-type {
+  margin-left: 0;
+}
+
+footer p a:last-of-type {
+  margin-right: 0;
+}
+
+/* Subtle fade-in animation */
+footer {
+  opacity: 0;
+  animation: fadeInFooter 0.8s ease-in forwards;
+}
+
+@keyframes fadeInFooter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================================
+   Responsive Footer Adjustments
+   ========================================================= */
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.85em;
+    padding: 18px 8px;
+  }
+
+  footer p {
+    margin: 4px 0 6px;
+  }
+
+  footer a {
+    margin: 0 2px;
+  }
 }
 
 /* =========================================================
