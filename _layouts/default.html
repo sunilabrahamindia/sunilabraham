@@ -24,17 +24,27 @@
 <main class="content">
   {% if page.title %}
     <h1>{{ page.title }}</h1>
+<!-- Breadcrumb Navigation -->
+<nav class="breadcrumb">
+  <a href="{{ site.baseurl }}/">Home</a>
+  {% assign parts = page.url | split: '/' %}
+  {% assign current_path = '' %}
 
-    <!-- Breadcrumb Navigation -->
-    <nav class="breadcrumb">
-      <a href="{{ site.baseurl }}/">Home</a>
-      {% if page.categories %}
-        {% for category in page.categories %}
-          › <a href="{{ site.baseurl }}/{{ category | downcase }}/">{{ category }}</a>
-        {% endfor %}
-      {% endif %}
-      › <span>{{ page.title }}</span>
-    </nav>
+  {% for part in parts %}
+    {% if part != '' and forloop.last == false %}
+      {% assign current_path = current_path | append: '/' | append: part %}
+      › <a href="{{ site.baseurl }}{{ current_path }}/">
+        {% case part %}
+          {% when 'amaa' %}A. M. A. Ayrookuzhiel
+          {% else %}{{ part | replace:'-',' ' | capitalize }}
+        {% endcase %}
+      </a>
+    {% endif %}
+  {% endfor %}
+
+  › <span>{{ page.title }}</span>
+</nav>
+
   {% endif %}
 
   {{ content }}
