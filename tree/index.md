@@ -196,15 +196,27 @@ This visual family tree shows key generations of the Abraham–Ayrookuzhiel fami
 
 /* Mobile adjustments */
 @media (max-width: 600px) {
-  .tree li {
-    display: block;
-    float: none;
-    padding: 10px 0;
+  .tree {
+    overflow-x: scroll;
+    overflow-y: visible;
+    white-space: nowrap;
   }
+
+  .tree ul {
+    display: inline-block;
+  }
+
+  .tree li {
+    display: inline-block;
+    float: none;
+    padding: 20px 10px;
+  }
+
+  /* Keep lines visible */
   .tree ul ul::before,
   .tree li::before,
   .tree li::after {
-    display: none;
+    display: block;
   }
 }
 </style>
