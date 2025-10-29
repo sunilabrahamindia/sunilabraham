@@ -344,9 +344,15 @@ html, body, .main-content {
 
 /* =========================================================
    Section Header Link Icons (copyable URLs) – beside heading
+   ---------------------------------------------------------
+   Purpose:
+   • Adds a small 🔗 icon just beside headings (H2–H6)
+   • Icon appears only on hover
+   • Inline-flex ensures icon sits neatly next to text
+   • No absolute positioning — avoids mobile overflow
+   • Safe for wrapped headings and all screen sizes
    ========================================================= */
 
-/* 👇 Ensure headings can contain absolutely positioned elements */
 h2[id], h3[id], h4[id], h5[id], h6[id] {
   position: relative;
   display: inline-flex;          /* Allow the icon to sit neatly beside text */
@@ -354,9 +360,8 @@ h2[id], h3[id], h4[id], h5[id], h6[id] {
   gap: 0.35em;                   /* Small space between text and icon */
 }
 
-/* 👇 Small link icon hidden until hover */
 .header-link {
-  opacity: 0;
+  opacity: 0;                    /* Hidden until hover */
   font-size: 0.9em;
   text-decoration: none;
   color: #888;
@@ -365,16 +370,15 @@ h2[id], h3[id], h4[id], h5[id], h6[id] {
   align-items: center;
 }
 
-/* 👇 Fade in icon when hovering heading */
 h2:hover .header-link,
 h3:hover .header-link,
 h4:hover .header-link,
 h5:hover .header-link,
 h6:hover .header-link {
-  opacity: 1;
+  opacity: 1;                    /* Reveal icon on hover */
 }
 
-/* 👇 Slight blue tint when hovering icon */
 .header-link:hover {
-  color: #007acc;
+  color: #007acc;                /* Slight blue tint on hover */
 }
+
