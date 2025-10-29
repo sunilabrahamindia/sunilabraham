@@ -1,11 +1,10 @@
 ---
 layout: default
-title: A. M. A. Ayrookuzhiel
+title: Athanasius Mathen Abraham Ayrookuzhiel
 description: Biography of Rev. Athanasius Mathen Abraham Ayrookuzhiel (A. M. A. Ayrookuzhiel) (1933–1996), Indian theologian and scholar who advanced Dalit theology and contextual Christian thought through his work at the Christian Institute for the Study of Religion and Society.
 ---
 {% include under-construction.html %}
 
-# Athanasius Mathen Abraham Ayrookuzhiel
 
 **Athanasius Mathen Abraham Ayrookuzhiel** (known as **Reverend A. M. A. Ayrookuzhiel**) was (1933–1996) was an Indian theologian, priest, and scholar who contributed significantly to the fields of contextual theology, Dalit studies, and the sociology of religion. A committed churchman and academic, he combined spiritual reflection with social analysis, situating faith within the lived experiences of the marginalised. His work at the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) (CISRS) and his writings on caste, religion, and identity positioned him among the key thinkers of India's liberation theology movement.
 
