@@ -4,8 +4,6 @@ title: Versions
 description: "Version history of the Sunil Abraham Project website, documenting updates, milestones, and design improvements."
 ---
 
-# Versions
-
 This page serves as a version log for the **Sunil Abraham Project** website. Each entry documents updates, milestones, and improvements across different releases — helping track design, structure, and content evolution over time.
 
 <div align="center" style="width:75%; margin:auto;">
