@@ -42,50 +42,115 @@
       <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>My Family Tree</title>
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/family-chart/dist/family-chart.css">
-    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <script src="https://cdn.jsdelivr.net/npm/family-chart"></script>
-    
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Tree | Sunil Abraham</title>
+<style>
+/* ===== Wikipedia-style Family Tree ===== */
+.treechart {
+  border-collapse: collapse;
+  margin: 2rem auto;
+  text-align: center;
+}
+.treechart td {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  padding: 0;
+}
+
+/* Person box */
+.treechart .box {
+  border: 2px solid #0a2e57;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #f9fafb;
+  font-weight: 600;
+  color: #0a2e57;
+  line-height: 1.3;
+}
+.treechart .box small {
+  display: block;
+  font-size: 0.8em;
+  color: #555;
+  font-weight: normal;
+}
+
+/* Lines */
+.treechart .line-down {
+  border-left: 2px solid #aaa;
+}
+.treechart .line-right {
+  border-top: 2px solid #aaa;
+}
+.treechart .line-left {
+  border-top: 2px solid #aaa;
+}
+.treechart .line-down.center {
+  border-left: 2px solid #aaa;
+  margin: 0 auto;
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+  .treechart {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+    font-size: 0.9em;
+  }
+  .treechart td {
+    width: 90px;
+    height: 40px;
+  }
+}
+</style>
 </head>
 <body>
-    <div id="family-tree-container"></div>
-    <script>
-        fetch('family-data.json') // Corrected file name
-            .then(response => {
-                if (!response.ok) {
-                    // Log a clear error if the file can't be found
-                    console.error('Failed to load JSON file. Check path:', response.status, response.statusText);
-                    return Promise.reject('JSON load error');
-                }
-                return response.json();
-            })
-            .then(data => {
-                const container = document.getElementById('family-tree-container');
-                
-                const options = {
-                    nodeBinding: (d) => ({
-                        id: d.id,
-                        text: d.name,
-                        // Display the birth year below the name
-                        extra: d.born ? `(${d.born})` : '' 
-                    }),
-                    tree: { 
-                        zoom: true, 
-                        startX: 0, 
-                        startY: 0 
-                    },
-                    rootId: data.rootId 
-                };
-                const familyChart = new FamilyChart(container, options, data.persons, data.families);
-                familyChart.render();
-            })
-            .catch(error => console.error('An error occurred:', error));
-    </script>
+<h1 style="text-align:center">Family Tree</h1>
+
+<table class="treechart">
+  <!-- top connector -->
+  <tr>
+    <td></td>
+    <td class="line-down"></td>
+    <td></td>
+  </tr>
+
+  <!-- root person -->
+  <tr>
+    <td></td>
+    <td class="box">Abraham<br><small>Patriarch</small></td>
+    <td></td>
+  </tr>
+
+  <!-- connecting horizontal lines -->
+  <tr>
+    <td class="line-right"></td>
+    <td></td>
+    <td class="line-left"></td>
+  </tr>
+
+  <!-- two children -->
+  <tr>
+    <td class="box">Mathen Abraham<br><small>1905–1980</small></td>
+    <td></td>
+    <td class="box">John Abraham<br><small>1910–1988</small></td>
+  </tr>
+
+  <!-- down connector -->
+  <tr>
+    <td colspan="3" class="line-down center"></td>
+  </tr>
+
+  <!-- next generation -->
+  <tr>
+    <td colspan="3" class="box">A. M. A. Ayrookuzhiel<br><small>1933–1996</small></td>
+  </tr>
+</table>
+
 </body>
 </html>
 
