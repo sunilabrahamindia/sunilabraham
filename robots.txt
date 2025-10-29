@@ -1,0 +1,14 @@
+---
+layout: none
+---
+# robots.txt for https://sunilabraham.in/
+# Prevents search engines from indexing the sandbox directory
+
+User-agent: *
+Disallow: /sandbox/
+
+# Allow everything else
+Allow: /
+
+# Optional sitemap reference (recommended for SEO)
+Sitemap: https://sunilabraham.in/sitemap.xml
