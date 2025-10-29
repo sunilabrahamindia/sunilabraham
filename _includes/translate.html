@@ -1,26 +1,28 @@
-<!-- Translation Globe (manual placement, no auto script) -->
+<!-- =========================================================
+     Translation Dropdown (direct display, no globe toggle)
+     For use inside Utility Toolbox
+     Licence: CC BY-SA 4.0
+     ========================================================= -->
+
 <style>
-.translate-globe {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 10px;
-  cursor: pointer;
-  font-size: 18px;
-  transition: transform 0.2s ease;
-}
-.translate-globe:hover {
-  transform: scale(1.2);
-}
 .translate-select {
-  display: none;
-  margin-left: 8px;
+  display: inline-block;
+  margin-top: 4px;
   font-size: 14px;
-  padding: 4px;
+  padding: 6px 8px;
   border-radius: 6px;
+  background: #e6f2ff;
+  color: #1e2a38;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.translate-select:hover {
+  background: #d0e8ff;
 }
 </style>
 
-<span class="translate-globe" title="Translate this page">🌐</span>
+<div style="font-weight:bold;margin-bottom:6px;">🌐 Translate</div>
 <select class="translate-select">
   <option value="">Select language</option>
   <option value="en">English</option>
@@ -32,13 +34,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const globe = document.querySelector(".translate-globe");
   const select = document.querySelector(".translate-select");
-
-  globe.onclick = () => {
-    select.style.display = select.style.display === "inline-block" ? "none" : "inline-block";
-  };
-
   select.onchange = function() {
     const lang = this.value;
     if (!lang) return;
@@ -47,4 +43,4 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 });
 </script>
-<!-- End Translate Globe -->
+<!-- End Translation Dropdown -->
