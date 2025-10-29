@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>My Family Tree</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/family-chart/dist/family-chart.css">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/family-chart"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="family-tree-container"></div>
+
+    <script>
+        // Use Fetch to load the family data from your JSON file
+        fetch('family-data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Initialize the Family Chart
+                const container = document.getElementById('family-tree-container');
+                
+                // Set the initial zoom and enable pan/zoom for mobile
+                const options = {
+                    nodeBinding: (d) => ({
+                        // Define what is displayed in the person's box (name, dates, etc.)
+                        id: d.id,
+                        text: d.name,
+                        // Add more fields as needed...
+                    }),
+                    // This is key for interactivity on small screens
+                    tree: { 
+                        zoom: true, 
+                        // You may want to set an initial position
+                        startX: 0, 
+                        startY: 0 
+                    },
+                    // Optional: set the main person to focus the tree
+                    rootId: data.rootId 
+                };
+
+                const familyChart = new FamilyChart(container, options, data.persons, data.families);
+                familyChart.render();
+            })
+            .catch(error => console.error('Error loading the family data:', error));
+    </script>
+</body>
+</html>
