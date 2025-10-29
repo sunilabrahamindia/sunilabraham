@@ -3,16 +3,11 @@ description: "Open source documentation and notes by Sunil Abraham"
 markdown: kramdown
 show_downloads: false
 
-# No default GitHub theme — using your own custom layout
+# =====================================================
+# Theme
+# =====================================================
+# Using a fully custom layout (no default theme)
 theme: null
-
-# =====================================================
-# Table of Contents settings (optional)
-# =====================================================
-toc:
-  min_level: 2
-  max_level: 4
-  ordered_list: false
 
 # =====================================================
 # Markdown and URL settings
@@ -21,23 +16,30 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: pretty
 
 # =====================================================
-# Plugins — all GitHub Pages safe
+# Table of Contents (optional)
+# =====================================================
+toc:
+  min_level: 2
+  max_level: 4
+  ordered_list: false
+
+# =====================================================
+# Plugins — All supported by GitHub Pages
 # =====================================================
 plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-paginate
-
+  - jekyll-sitemap          # Generates sitemap.xml
+  - jekyll-feed             # Generates feed.xml
+  - jekyll-seo-tag          # Adds SEO and Open Graph tags
+  - jekyll-redirect-from    # Redirects old URLs
+  - jekyll-paginate         # Pagination for lists/blogs
 
 # =====================================================
-# Site URL (for sitemap and SEO)
+# Site URL (for SEO, sitemap, and canonical links)
 # =====================================================
 url: "https://sunilabraham.in"
 
 # =====================================================
-# Excluded folders/files
+# Excluded files and folders (not built or indexed)
 # =====================================================
 exclude:
   - sandbox/
@@ -47,9 +49,18 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor/
+  - .github/
+  - .gitignore
 
 # =====================================================
-# Pagination (optional settings)
+# Pagination Settings
 # =====================================================
 paginate: 10
 paginate_path: "/page:num"
+
+# =====================================================
+# Build Settings
+# =====================================================
+future: true
+lsi: false
+safe: true
