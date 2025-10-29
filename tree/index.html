@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sitemap | Sunil Abraham Documentation Project</title>
+  <title>Family Tree | Sunil Abraham Documentation Project</title>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
@@ -39,73 +39,211 @@
 
     <!-- Main Content -->
     <main class="content">
-      <h1 id="sitemap">Sitemap</h1>
+      <h1 id="family-tree">Family Tree</h1>
 
-<p>Here’s a list of all public pages and posts on this site.</p>
+<p>This visual family tree shows key generations of the Abraham–Ayrookuzhiel family.</p>
 
-<h2 id="pages">Pages</h2>
-<ul>
+<div class="tree">
+  <ul>
+    <li>
+      <a href="#">
+        <img src="/assets/images/abraham.jpg" alt="Abraham" />
+        <div class="name">Abraham</div>
+        <div class="years">(1820–1895)</div>
+      </a>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="/assets/images/mathen.jpg" alt="Mathen Abraham" />
+            <div class="name">Mathen Abraham</div>
+            <div class="years">(1850–1920)</div>
+          </a>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="/assets/images/amaa.jpg" alt="A. M. A. Ayrookuzhiel" />
+                <div class="name">A. M. A. Ayrookuzhiel</div>
+                <div class="years">(1933–1996)</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/assets/images/george.jpg" alt="A. M. B. George" />
+                <div class="name">A. M. B. George</div>
+                <div class="years">(1938– )</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/assets/images/john.jpg" alt="John Abraham" />
+            <div class="name">John Abraham</div>
+            <div class="years">(1855–1925)</div>
+          </a>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="/assets/images/paul.jpg" alt="Paul John" />
+                <div class="name">Paul John</div>
+                <div class="years">(1890–1965)</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/assets/images/sara.jpg" alt="Sara Paul" />
+                <div class="name">Sara Paul</div>
+                <div class="years">(1895–1970)</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
-  
-    <li><a href="/contact/">Contact</a></li>
-  
+<style>
+/* =========================================================
+   Simple CSS Family Tree (Responsive, with photos)
+   Works inside Markdown + Jekyll default layout
+   ========================================================= */
+.tree {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 2rem;
+  text-align: center;
+}
 
-  
-    <li><a href="/sandbox/default/">Sandbox Test Page</a></li>
-  
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  transition: all 0.5s;
+  display: inline-block;
+}
 
-  
-    <li><a href="/disclaimer/">Disclaimer</a></li>
-  
+.tree li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+  transition: all 0.5s;
+}
 
-  
-    <li><a href="/amaa/">A. M. A. Ayrookuzhiel</a></li>
-  
+/* Connectors */
+.tree li::before,
+.tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 2px solid #ccc;
+  width: 50%;
+  height: 20px;
+}
 
-  
-    <li><a href="/tree/">Family Tree</a></li>
-  
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 2px solid #ccc;
+}
 
-  
-    <li><a href="/sunil/">Sunil Abraham</a></li>
-  
+.tree li:only-child::after,
+.tree li:only-child::before {
+  display: none;
+}
 
-  
+.tree li:only-child {
+  padding-top: 0;
+}
 
-  
-    <li><a href="/sandbox/magic/">Magic</a></li>
-  
+.tree li:first-child::before,
+.tree li:last-child::after {
+  border: 0 none;
+}
 
-  
-    <li><a href="/privacy/">Privacy Policy</a></li>
-  
+.tree li:last-child::before {
+  border-right: 2px solid #ccc;
+  border-radius: 0 5px 0 0;
+}
 
-  
-    <li><a href="/projects/">Projects</a></li>
-  
+.tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+}
 
-  
-    <li><a href="/publications/">Publications</a></li>
-  
+.tree ul ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid #ccc;
+  width: 0;
+  height: 20px;
+}
 
-  
-    <li><a href="/sitemap/">Sitemap</a></li>
-  
+/* Node cards */
+.tree a {
+  border: 2px solid #0a2e57;
+  padding: 10px;
+  text-decoration: none;
+  color: #0a2e57;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all 0.3s;
+  background: #f9fafb;
+  width: 130px;
+}
 
-  
-    <li><a href="/versions/">Versions</a></li>
-  
+.tree a:hover {
+  background: #0a2e57;
+  color: #fff;
+  border-color: #0a2e57;
+}
 
-  
-    <li><a href="/videos/">Videos</a></li>
-  
+.tree a img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #0a2e57;
+  margin-bottom: 8px;
+}
 
-</ul>
+.tree a .name {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
 
-<h2 id="posts">Posts</h2>
-<ul>
+.tree a .years {
+  font-size: 0.8rem;
+  color: #555;
+  font-weight: 400;
+}
 
-</ul>
+/* Clearfix */
+.tree ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .tree li {
+    display: block;
+    float: none;
+    padding: 10px 0;
+  }
+  .tree ul ul::before,
+  .tree li::before,
+  .tree li::after {
+    display: none;
+  }
+}
+</style>
+
 
     </main>
 
@@ -156,7 +294,7 @@
 
   <p>
     🗄️ Internet Archive: 
-    <a href="https://web.archive.org/https://www./sitemap/">
+    <a href="https://web.archive.org/https://www./tree/">
       Archived versions of this page
     </a>
   </p>
