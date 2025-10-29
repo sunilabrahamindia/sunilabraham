@@ -115,11 +115,14 @@
     filter: brightness(0.95);
   }
 
-  #sc-share-close {
-    position: absolute;
-    top: 6px;
-    right: 8px;
-  }
+#sc-share-close {
+  position: absolute;
+  bottom: 6px;  /* moved from top to bottom */
+  right: 8px;
+  width: 14px;  /* make smaller */
+  height: 14px;
+  cursor: pointer;
+}
 
   #sc-search-btn {
     position: absolute;
@@ -164,13 +167,17 @@
     color: #0a2e57;
   }
 
-  #sc-share-close img {
-    filter: invert(20%) sepia(20%) saturate(600%) hue-rotate(200deg);
-  }
+#sc-share-close img {
+  width: 100%;
+  height: 100%;
+  filter: invert(20%) sepia(20%) saturate(600%) hue-rotate(200deg);
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
 
-  #sc-share-close:hover img {
-    filter: brightness(0.7);
-  }
+#sc-share-close img:hover {
+  opacity: 1;
+}
 
   @media (max-width: 768px) {
     body { padding-top: 40px !important; }
