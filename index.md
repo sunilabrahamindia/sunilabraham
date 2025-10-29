@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: "Knowledge sharing and documentation portal of Sunil Abraham: notes, essays, and research on internet policy, technology and digital rights."
 ---
 
 **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
