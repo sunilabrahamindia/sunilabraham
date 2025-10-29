@@ -17,9 +17,10 @@ description: Biography of Rev. Athanasius Mathen Abraham Ayrookuzhiel (A. M. A. 
 5. [Publications and Research](#publications-and-research)
     1. [Selected Bibliography](#selected-bibliography)
     2. [Key Articles and Unpublished Works](#key-articles-and-unpublished-works)
-6. [Death](#death)
-7. [References](#references)
-8. [External links](#external-links)
+6. [Personal Life](#personal-life)
+7. [Death](#death)
+8. [References](#references)
+9. [External links](#external-links)
 
 ---
 
@@ -110,6 +111,18 @@ At the time of his death, he was preparing a manuscript titled *Dalit and Hindu 
 In addition to books, he contributed numerous essays to journals, presented papers at international forums, and edited research volumes that connected theological thought with grassroots realities.
 
 Many of his essays, first published in journals such as Religion and Society, were later reissued in the commemorative volume *Essays on Dalits, Religion, and Liberation* (Asian Trading Corporation, 2006). The collection was released by CISRS on the occasion of its Golden Jubilee and the tenth anniversary of Ayrookuzhiel’s death. The publication also acknowledges the contribution of his family and colleagues in preserving his manuscripts and research papers, underscoring his enduring influence on later theological scholarship.
+
+{% include back-to-top.html %}
+
+---
+
+## Personal Life
+
+During his years in the United Kingdom, Rev. A. M. A. Ayrookuzhiel married Ponnamma Thekedath. The marriage took place while he was serving as a curate at St. Paul High Anglican Church, Wokingham, Berkshire, between 1970 and 1973.  
+
+The couple later settled in Bangalore, where Ayrookuzhiel continued his research and teaching work with the Christian Institute for the Study of Religion and Society (CISRS). They had three sons — [Sunil Abraham](https://sunilabraham.in/sunil/), Matthew Abraham, and Jacob Abraham. Sunil, the eldest, was born on 17 June 1973. The family home became a quiet centre of study and conversation, reflecting Ayrookuzhiel’s lifelong commitment to ideas and community.  
+
+Although deeply engaged in academic and ecclesial life, he maintained close family bonds, often referring in his letters to the balance between scholarship and family life as part of his vocation.
 
 {% include back-to-top.html %}
 
