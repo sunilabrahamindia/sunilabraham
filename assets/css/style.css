@@ -341,3 +341,35 @@ html, body, .main-content {
 .main-content {
   background: transparent !important;
 }
+
+/* =========================================================
+   Section Header Link Icons (copyable URLs)
+   ========================================================= */
+
+h2[id], h3[id], h4[id], h5[id], h6[id] {
+  position: relative;
+}
+
+.header-link {
+  position: absolute;
+  left: -1.2em;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #888;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
+}
+
+.header-link:hover {
+  color: #007acc;
+}
