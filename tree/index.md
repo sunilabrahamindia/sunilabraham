@@ -1,132 +1,50 @@
----
-layout: default
-title: Family Tree
-description: Hierarchical family structure of the Abraham–Ayrookuzhiel family
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>My Family Tree</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/family-chart/dist/family-chart.css">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/family-chart"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="family-tree-container"></div>
 
-# Family Tree
+    <script>
+        // Use Fetch to load the family data from your JSON file
+        fetch('family-data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Initialize the Family Chart
+                const container = document.getElementById('family-tree-container');
+                
+                // Set the initial zoom and enable pan/zoom for mobile
+                const options = {
+                    nodeBinding: (d) => ({
+                        // Define what is displayed in the person's box (name, dates, etc.)
+                        id: d.id,
+                        text: d.name,
+                        // Add more fields as needed...
+                    }),
+                    // This is key for interactivity on small screens
+                    tree: { 
+                        zoom: true, 
+                        // You may want to set an initial position
+                        startX: 0, 
+                        startY: 0 
+                    },
+                    // Optional: set the main person to focus the tree
+                    rootId: data.rootId 
+                };
 
-This page presents the Abraham–Ayrookuzhiel family hierarchy in a simple visual form.  
-Each box represents a person, connected by lines to parents and children.
-
-<div class="tree">
-  <ul>
-    <li>
-      <a href="#">Abraham (1820–1895)</a>
-      <ul>
-        <li>
-          <a href="#">Mathen Abraham (1850–1920)</a>
-          <ul>
-            <li><a href="#">A. M. A. Ayrookuzhiel (1933–1996)</a></li>
-            <li><a href="#">A. M. B. George (1938– )</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">John Abraham (1855–1925)</a>
-          <ul>
-            <li><a href="#">Paul John (1890–1965)</a></li>
-            <li><a href="#">Sara Paul (1895–1970)</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</div>
-
-<style>
-/* =========================================================
-   Sunil Abraham Project — Responsive CSS Family Tree
-   Works well on mobile, tablet and desktop
-   ========================================================= */
-.tree {
-  width: 100%;
-  overflow-x: auto;
-  padding: 1rem 0 3rem;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-/* Base list layout */
-.tree ul {
-  padding-top: 20px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-.tree li {
-  display: inline-block;
-  list-style-type: none;
-  position: relative;
-  padding: 20px 5px 0 5px;
-  vertical-align: top;
-}
-
-/* Connectors between nodes */
-.tree li::before,
-.tree li::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  border-top: 2px solid #ccc;
-  width: 50%;
-  height: 20px;
-}
-.tree li::before { right: 50%; border-right: 2px solid #ccc; }
-.tree li::after { left: 50%; border-left: 2px solid #ccc; }
-
-.tree li:only-child::before,
-.tree li:only-child::after {
-  display: none;
-}
-.tree li:only-child { padding-top: 0; }
-
-.tree li:first-child::before { border: 0 none; }
-.tree li:last-child::after { border: 0 none; }
-
-.tree ul ul::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  border-left: 2px solid #ccc;
-  height: 20px;
-}
-
-/* Person box */
-.tree a {
-  display: inline-block;
-  padding: 8px 12px;
-  border: 2px solid #0a2e57;
-  border-radius: 10px;
-  background: #f9fafb;
-  color: #0a2e57;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-  min-width: 140px;
-  transition: all 0.3s;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-.tree a:hover {
-  background: #0a2e57;
-  color: #fff;
-}
-
-/* Responsive tweaks */
-@media (max-width: 768px) {
-  .tree ul,
-  .tree li {
-    display: block;
-    text-align: center;
-  }
-  .tree li::before,
-  .tree li::after,
-  .tree ul ul::before {
-    display: none;
-  }
-  .tree a {
-    display: block;
-    margin: 10px auto;
-  }
-}
-</style>
+                const familyChart = new FamilyChart(container, options, data.persons, data.families);
+                familyChart.render();
+            })
+            .catch(error => console.error('Error loading the family data:', error));
+    </script>
+</body>
+</html>
