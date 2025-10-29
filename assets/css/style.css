@@ -356,6 +356,10 @@ h6:hover .header-link {
   padding-bottom: 0.6rem;
 }
 
+.breadcrumb + * {
+  margin-top: 0 !important;
+}
+
 .breadcrumb a {
   color: #005cc5;
   text-decoration: none;
