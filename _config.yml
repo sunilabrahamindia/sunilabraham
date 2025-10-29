@@ -24,11 +24,12 @@ permalink: pretty
 # Plugins — all GitHub Pages safe
 # =====================================================
 plugins:
-  - jekyll-sitemap        # generates sitemap.xml automatically
-  - jekyll-feed           # generates Atom/RSS feed.xml
-  - jekyll-seo-tag        # adds SEO meta and Open Graph tags
-  - jekyll-paginate       # for paginated lists (use in collections or blog)
-  - jekyll-redirect-from  # to redirect old URLs
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-paginate
+
 
 # =====================================================
 # Site URL (for sitemap and SEO)
