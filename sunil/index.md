@@ -76,7 +76,7 @@ After leaving CIS in 2019, Sunil worked with the [Open Society Foundations](http
 
 ## Publications and research
 
-Sun has written and edited a number of works on open technologies, digital policy, and Internet governance. His edited volumes for the UNDP’s APDIP programme cover themes such as FOSS in education, localisation, open standards, and public policy. He co-authored *Digital Natives with a Cause?* (with Nishant Shah, 2009) and contributed to reports including *Open Government Data in India*. His writings often combine technical insight with policy analysis, reflecting on how openness and collaboration can support innovation and inclusion in developing contexts.
+Sunil has written and edited a number of works on open technologies, digital policy, and Internet governance. His edited volumes for the UNDP’s APDIP programme cover themes such as FOSS in education, localisation, open standards, and public policy. He co-authored *Digital Natives with a Cause?* (with Nishant Shah, 2009) and contributed to reports including *Open Government Data in India*. His writings often combine technical insight with policy analysis, reflecting on how openness and collaboration can support innovation and inclusion in developing contexts.
 
 In addition to research papers and reports, Abraham has contributed opinion pieces and essays to several newspapers and journals, including *The Hindu*, *Livemint*, *DNA India*, *Outlook*, and the *Wall Street Journal (India)*. His articles have discussed privacy, surveillance, digital monopolies, and the public interest in technology regulation.
 
