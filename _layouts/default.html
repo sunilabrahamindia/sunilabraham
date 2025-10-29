@@ -22,9 +22,13 @@
     {% include header.html %}
 
     <!-- Main Content -->
-    <main class="content">
-      {{ content }}
-    </main>
+ <main class="content">
+  <div class="page-header" style="display:flex;align-items:center;justify-content:space-between;">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include translate.html %}
+  </div>
+  {{ content }}
+</main>
 
     <!-- Footer include -->
     {% include footer.html %}
