@@ -1,40 +1,135 @@
 ---
 layout: default
 title: Family Tree
-description: Interactive family tree of the Abraham–Ayrookuzhiel family
+description: Hierarchical family structure of the Abraham–Ayrookuzhiel family
 ---
 
-<div class="content">
-  <h1>Family Tree</h1>
-  <p>This interactive visualisation shows multiple generations of the Abraham–Ayrookuzhiel family.</p>
-  <div id="tree"></div>
+<h1>Family Tree</h1>
+<p>This visual family tree shows key generations of the Abraham–Ayrookuzhiel family.</p>
+
+<div class="tree">
+  <ul>
+    <li>
+      <a href="#">Abraham (Patriarch)</a>
+      <ul>
+        <li>
+          <a href="#">Mathen Abraham</a>
+          <ul>
+            <li><a href="#">A. M. A. Ayrookuzhiel</a></li>
+            <li><a href="#">A. M. B. George</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">John Abraham</a>
+          <ul>
+            <li><a href="#">Paul John</a></li>
+            <li><a href="#">Sara Paul</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </div>
 
-<!-- D3.js CDN -->
-<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+/* ===== Simple CSS Family Tree ===== */
+.tree ul {
+  padding-top: 20px; 
+  position: relative;
+  transition: all 0.5s;
+}
 
-<!-- Inline script to render tree -->
-<script>
-const width = Math.min(window.innerWidth, 900);
-const dx = 20;
-const dy = width / 6;
-const tree = d3.tree().nodeSize([dx, dy]);
-const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+.tree li {
+  float: left; 
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+  transition: all 0.5s;
+}
 
-d3.json("family.json").then(data => {
-  const root = d3.hierarchy(data);
-  root.x0 = dy / 2;
-  root.y0 = 0;
-  root.descendants().forEach((d, i) => {
-    d.id = i;
-    d._children = d.children;
-    if (d.depth && d.data.name.length !== 7) d.children = null;
-  });
+.tree li::before, .tree li::after {
+  content: '';
+  position: absolute; 
+  top: 0; 
+  right: 50%;
+  border-top: 2px solid #ccc;
+  width: 50%; 
+  height: 20px;
+}
+.tree li::after {
+  right: auto; 
+  left: 50%;
+  border-left: 2px solid #ccc;
+}
 
-  const svg = d3.select("#tree").append("svg")
-    .attr("viewBox", [-dy / 3, -dx, width, dx * 30])
-    .style("font", "12px sans-serif")
-    .style("user-select", "none");
+.tree li:only-child::after, 
+.tree li:only-child::before {
+  display: none;
+}
+.tree li:only-child {
+  padding-top: 0;
+}
 
-  const gLink = svg.append("g").attr("fill", "none").attr("stroke", "#555").attr("stroke-opacity", 0.4).attr("stroke-width", 1.5);
-  const gNode = svg.append("g").attr("cursor", "pointer
+.tree li:first-child::before, 
+.tree li:last-child::after {
+  border: 0 none;
+}
+.tree li:last-child::before {
+  border-right: 2px solid #ccc;
+  border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after {
+  border-radius: 5px 0 0 0;
+}
+
+.tree ul ul::before {
+  content: '';
+  position: absolute; 
+  top: 0; 
+  left: 50%;
+  border-left: 2px solid #ccc;
+  width: 0; 
+  height: 20px;
+}
+
+.tree a {
+  border: 2px solid #0a2e57;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #0a2e57;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 8px;
+  transition: all 0.3s;
+  background: #f9fafb;
+}
+
+.tree a:hover, .tree a:focus {
+  background: #0a2e57;
+  color: #fff;
+  border-color: #0a2e57;
+}
+
+.tree {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 2rem;
+}
+.tree ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .tree li {
+    display: block;
+    float: none;
+    padding: 10px 0;
+  }
+  .tree ul ul::before, .tree li::before, .tree li::after {
+    display: none;
+  }
+}
+</style>
