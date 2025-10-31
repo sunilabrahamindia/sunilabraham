@@ -56,7 +56,7 @@ body {
   background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
   border-radius: 8px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-  margin: 0.4rem 0 0.6rem;
+  margin: 1.2rem 0 0.6rem;
   padding: 0;
   overflow: hidden;
   animation: slideDown 0.8s ease;
