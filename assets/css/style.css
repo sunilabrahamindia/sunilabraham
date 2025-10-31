@@ -21,8 +21,8 @@ body {
   color: #1a1a1a;
   background: linear-gradient(180deg, #fdfdfd 0%, #f8fafc 100%);
   margin: 0 auto;
-  padding: 0 1.5rem 0.5rem;
-  max-width: 1000px;
+  padding: 0 1.5rem 0 1.5rem; /* Change 0.5rem to 0 */
+   max-width: 1000px;
   line-height: 1.8;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
