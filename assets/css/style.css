@@ -1,9 +1,6 @@
 /* =========================================================
    Sunil Abraham Project
-   Simple Professional Theme (Optimised for Direct <a> Navbar)
-   Licence: CC BY-SA 4.0
    ========================================================= */
-
 /* Hide default GitHub Pages banner */
 #banner, .page-header, .site-footer {
   display: none !important;
@@ -30,14 +27,12 @@ body {
 /* =========================================================
    Header
    ========================================================= */
-/* =========================================================
-   Animated Gradient Behind Header
-   ========================================================= */
 .site-header {
   position: relative;
   overflow: hidden;
   text-align: center;
-  margin: 2rem 0 0.8rem;
+  margin: 0.2rem 0 0.8rem;
+  padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   border-bottom: 2px solid #eaecef;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
@@ -454,6 +449,5 @@ h6:hover .header-link {
 .btn:hover {
   background-color: #006837;
 }
-
 
 
