@@ -1,26 +1,24 @@
 <!-- =========================================================
-     Videos Year Tabs Include
+     Videos Year Tabs Include (Mobile-Optimised, 4 per line)
      ========================================================= -->
 
 <style>
 .year-tabs {
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  justify-content: center; /* centers all tabs */
   gap: 0.5rem;
   background: #f8f8f8;
   border-bottom: 1px solid #ddd;
-  padding: 0.6rem 0.8rem;
-  scrollbar-width: thin;
+  padding: 0.6rem 0.8rem 1.2rem 0.8rem; /* extra bottom padding */
 }
 
 .year-tabs a {
-  flex: 0 0 auto;
   text-decoration: none;
   color: #333;
   background: #fff;
   border: 1px solid #ccc;
-  padding: 0.4rem 0.8rem;
+  padding: 0.45rem 0.9rem;
   border-radius: 20px;
   font-size: 0.95rem;
   transition: all 0.25s ease;
@@ -39,12 +37,16 @@
   font-weight: 600;
 }
 
-.year-tabs::-webkit-scrollbar {
-  height: 6px;
-}
-.year-tabs::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 10px;
+/* Mobile-friendly behaviour */
+@media (max-width: 600px) {
+  .year-tabs {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .year-tabs a {
+    flex: 0 1 22%; /* roughly 4 per line with gaps */
+    text-align: center;
+  }
 }
 </style>
 
