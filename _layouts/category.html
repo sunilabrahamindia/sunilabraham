@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{% assign category_name = page.title %}
+{% assign category_name = page.title | remove: "Category:" | strip %}
 {% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
 
 <div class="category-page">
-  <h2>Pages in category "{{ category_name }}"</h2>
+  <h2><strong>Category:</strong> {{ category_name }}</h2>
   <p>{{ page.description }}</p>
 
   {% if category_pages.size > 0 %}
