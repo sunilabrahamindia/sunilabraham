@@ -9,8 +9,6 @@ This video page is the index for a curated collection of lectures, speeches, tal
 These recordings explore open knowledge, Internet governance, free and open-source software, technology policy, and related themes.  
 They represent years of work and dialogue across research, policy, and advocacy domains.
 
----
-
 ## YouTube playlist
 
 You can browse and play the complete series below, or [watch on YouTube](https://www.youtube.com/playlist?list=PL-vXI1Y21nLWU_yCR5nX-oun7JzxJraXq).
@@ -20,8 +18,6 @@ src="https://www.youtube.com/embed/videoseries?list=PL-vXI1Y21nLWU_yCR5nX-oun7Jz
 title="Sunil Abraham Lectures, Speeches and Talks" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
-
----
 
 ## Browse by year
 
