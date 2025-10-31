@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Athanasius Mathen Abraham Ayrookuzhiel
+categories: [Biographies]
 description: Biography of Rev. Athanasius Mathen Abraham Ayrookuzhiel (A. M. A. Ayrookuzhiel) (1933–1996), Indian theologian and scholar who advanced Dalit theology and contextual Christian thought through his work at the Christian Institute for the Study of Religion and Society.
 ---
 {% include under-construction.html %}
