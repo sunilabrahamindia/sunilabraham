@@ -1,0 +1,71 @@
+<!-- =========================================================
+     Year Tabs Include
+     Self-contained, no external CSS dependency
+     ========================================================= -->
+
+<style>
+.year-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 0.5rem;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 0.6rem 0.8rem;
+  scrollbar-width: thin;
+}
+
+.year-tabs a {
+  flex: 0 0 auto;
+  text-decoration: none;
+  color: #333;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+.year-tabs a:hover {
+  background: #e0f3e0;
+  border-color: #8cc98c;
+  color: #000;
+}
+
+.year-tabs a.active {
+  background: #64b464;
+  border-color: #64b464;
+  color: #fff;
+  font-weight: 600;
+}
+
+.year-tabs::-webkit-scrollbar {
+  height: 6px;
+}
+.year-tabs::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+</style>
+
+<nav class="year-tabs">
+  <a href="/videos/2009">2009</a>
+  <a href="/videos/2010">2010</a>
+  <a href="/videos/2011">2011</a>
+  <a href="/videos/2012">2012</a>
+  <a href="/videos/2013">2013</a>
+  <a href="/videos/2014">2014</a>
+  <a href="/videos/2015">2015</a>
+  <a href="/videos/2016">2016</a>
+  <a href="/videos/2018">2018</a>
+  <a href="/videos/2019">2019</a>
+</nav>
+
+<script>
+  // Highlight current tab automatically based on URL
+  const current = window.location.pathname.split('/').pop();
+  document.querySelectorAll('.year-tabs a').forEach(link => {
+    if (link.href.endsWith(current)) link.classList.add('active');
+  });
+</script>
