@@ -6,12 +6,10 @@ layout: default
 {% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
 
 <div class="category-page">
-  <h2>
-    <strong class="category-label">
-      <a href="{{ '/categories/' | relative_url }}">Categories</a>:
-    </strong>
-    {{ category_name }}
+  <h2 class="category-heading">
+    <a href="https://sunilabraham.in/categories/" class="category-link">Categories</a>: {{ category_name }}
   </h2>
+
   <p>{{ page.description }}</p>
 
   {% if category_pages.size > 0 %}
@@ -38,34 +36,32 @@ layout: default
   margin-top: 1.5em;
 }
 
-.category-page h2 {
+/* Heading and link styling */
+.category-heading {
   font-size: 1.3em;
   margin-bottom: 0.5em;
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.3em;
 }
 
-.category-page .category-label {
-  font-weight: 900 !important;
-  color: #000 !important;
-  display: inline-block;
-}
-
-.category-page .category-label a {
+.category-link {
+  font-weight: 900;
   color: #000;
   text-decoration: none;
 }
 
-.category-page .category-label a:hover {
+.category-link:hover {
   text-decoration: underline;
 }
 
+/* Subheadings (A–Z) */
 .category-page h3 {
   font-size: 1.1em;
   margin-top: 1em;
   color: #333;
 }
 
+/* List styling */
 .category-page ul {
   list-style: none;
   padding-left: 1em;
