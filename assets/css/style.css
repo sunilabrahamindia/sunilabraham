@@ -25,7 +25,7 @@ body {
 }
 
 /* =========================================================
-   Header
+   Header (Enhanced Animated Gradient)
    ========================================================= */
 .site-header {
   position: relative;
@@ -36,12 +36,21 @@ body {
   padding-bottom: 0.8rem;
   border-bottom: 2px solid #eaecef;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-  background: linear-gradient(270deg, #f9f9ff, #f1f7ff, #fff8f8, #f9fff9);
-  background-size: 600% 600%;
-  animation: headerGradient 18s ease infinite;
+
+  /* Brighter, balanced gradient */
+  background: linear-gradient(
+    270deg,
+    #e8f1ff,
+    #f5e8ff,
+    #fff0e8,
+    #e8fff0,
+    #e8f8ff
+  );
+  background-size: 800% 800%;
+  animation: headerGradient 20s ease infinite;
 }
 
-/* Keyframes for moving gradient */
+/* Keyframes for smooth looping color flow */
 @keyframes headerGradient {
   0% {
     background-position: 0% 50%;
@@ -53,7 +62,6 @@ body {
     background-position: 0% 50%;
   }
 }
-
 
 .site-header h1 {
   font-size: 2.6rem;
