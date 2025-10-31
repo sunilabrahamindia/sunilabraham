@@ -6,7 +6,7 @@ layout: default
 {% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
 
 <div class="category-page">
-  <h2><strong>Category:</strong> {{ category_name }}</h2>
+  <h2><b>Category:</b> {{ category_name }}</h2>
   <p>{{ page.description }}</p>
 
   {% if category_pages.size > 0 %}
@@ -37,6 +37,9 @@ layout: default
   margin-bottom: 0.5em;
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.3em;
+}
+.category-page h2 b {
+  color: #000;
 }
 .category-page h3 {
   font-size: 1.1em;
