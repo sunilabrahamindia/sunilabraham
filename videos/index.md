@@ -26,15 +26,6 @@ allowfullscreen></iframe>
 
 Each year links to a dedicated page with that year's videos.
 
-- [2009](./2009/)
-- [2010](./2010/)
-- [2011](./2011/)
-- [2012](./2012/)
-- [2013](./2013/)
-- [2014](./2014/)
-- [2015](./2015/)
-- [2016](./2016/)
-- [2018](./2018/)
-- [2019](./2019/)
+{% include videos-tabs.html %}
 
 {% include back-to-top.html %}
