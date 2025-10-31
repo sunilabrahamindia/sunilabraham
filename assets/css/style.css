@@ -30,13 +30,35 @@ body {
 /* =========================================================
    Header
    ========================================================= */
+/* =========================================================
+   Animated Gradient Behind Header
+   ========================================================= */
 .site-header {
+  position: relative;
+  overflow: hidden;
   text-align: center;
   margin: 2rem 0 0.8rem;
   padding-bottom: 0.8rem;
   border-bottom: 2px solid #eaecef;
- box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  background: linear-gradient(270deg, #f9f9ff, #f1f7ff, #fff8f8, #f9fff9);
+  background-size: 600% 600%;
+  animation: headerGradient 18s ease infinite;
 }
+
+/* Keyframes for moving gradient */
+@keyframes headerGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 .site-header h1 {
   font-size: 2.6rem;
