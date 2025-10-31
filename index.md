@@ -31,7 +31,7 @@ This documentation evolves over time, not as a static archive, but as a continuo
 ---
 
 ## Featured article
-**Rev. Athanasius Mathen Abraham Ayrookuzhiel (1933–1996)** was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
+**Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
 
 After returning to India, he joined the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) in Bangalore, where he became Associate Director. Working closely with theologian M. M. Thomas, he explored how Christian thought could engage with caste and class through the lived experiences of Dalit communities. His research on folk religion, ritual, and oral traditions offered new ways of understanding theology as a form of cultural expression and resistance.
 
