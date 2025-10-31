@@ -6,15 +6,6 @@ description: "Knowledge sharing and documentation portal of Sunil Abraham: notes
 
 **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
 
-## Contents
-1. [About](#about)
-2. [Featured article](#featured-article)
-3. [Sunil Abraham](#sunil-abraham)
-4. [Licence](#licence)
-
----
-## About
-
 This project serves as a living documentation space for research, writing, and reflection.  
 This is built to create, organise, and publish documentation in a structured yet flexible manner, enabling continuous learning and open exchange of ideas.
 
@@ -27,6 +18,11 @@ It aims to:
 - Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.  
 
 This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
+
+## Contents
+1. [Featured article](#featured-article)
+2. [Sunil Abraham](#sunil-abraham)
+3. [Licence](#licence)
 
 ---
 
