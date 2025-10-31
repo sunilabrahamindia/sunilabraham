@@ -1,13 +1,59 @@
----
-layout: default
----
+<!-- =========================================================
+     Wikipedia-style Category Listing
+     ========================================================= -->
+{% assign category_name = page.title %}
+{% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
 
-<h1>Category: {{ page.title }}</h1>
+<div class="category-page">
+  <h2>Pages in category "{{ category_name }}"</h2>
+  <p>{{ page.description }}</p>
 
-<ul>
-  {% for post in site.pages %}
-    {% if post.categories contains page.title %}
-      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
+  {% if category_pages.size > 0 %}
+    {% assign grouped = category_pages | group_by_exp: "p", "p.title | slice: 0, 1" %}
+    {% for group in grouped %}
+      <h3>{{ group.name | upcase }}</h3>
+      <ul>
+        {% for p in group.items %}
+          <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  {% else %}
+    <p>No pages in this category yet.</p>
+  {% endif %}
+</div>
+
+<style>
+.category-page {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1.2em;
+  background: #f9f9f9;
+  margin-top: 1.5em;
+}
+.category-page h2 {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3em;
+}
+.category-page h3 {
+  font-size: 1.1em;
+  margin-top: 1em;
+  color: #333;
+}
+.category-page ul {
+  list-style: none;
+  padding-left: 1em;
+}
+.category-page li {
+  margin: 0.2em 0;
+}
+.category-page a {
+  color: #0645ad;
+  text-decoration: none;
+}
+.category-page a:hover {
+  text-decoration: underline;
+}
+</style>
