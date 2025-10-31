@@ -7,8 +7,6 @@ description: "Collection of published works, papers, and writings by Sunil Abrah
 The **Sunil Abraham Project** curates and archives the published works, papers, and writings of **Sunil Abraham**, focusing on open knowledge, digital culture, and the social impact of technology.  
 These publications reflect years of engagement in Free and Open Source Software (FOSS), Internet governance, and open access movements.
 
----
-
 ## Papers and Reports
 
 - **Report on Open Government Data in India** — Co-authored with Nishant Shah, Pranesh Prakash, and Glover Wright.  
@@ -28,8 +26,6 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **Who’s Afraid of the Old Fox** — *Information for Development*, CSDMS, May 2003.  
   *An early essay on information politics and technology access.*
 
----
-
 ## Edited Volumes
 
 Sunil Abraham has edited several handbooks in the **FOSS series** published by **APDIP–UNDP** and **Elsevier**, including:
@@ -44,8 +40,6 @@ Sunil Abraham has edited several handbooks in the **FOSS series** published by *
 
 These works provide practical and policy-level insights into open source adoption, licensing, and knowledge-sharing infrastructures across Asia.
 
----
-
 ## Articles and Commentary
 
 Sunil has written widely for major Indian and international publications including *The Hindu*, *DNA*, *Outlook*, *Wall Street Journal*, *Livemint*, and *Global Post*.  
@@ -57,8 +51,6 @@ His articles address digital rights, privacy, transparency, and Internet policy.
 - *‘Newspapers Should Empower Citizen Journalism’* — *DNA*  
 - *‘Open Is the Future’* — *Open World Forum, Paris*  
 
----
-
 ## Media and Documentary Work
 
 - Featured in **“When Copyright Goes Bad”**, a film by Ben Cato Clough and Luke Upchurch.  
@@ -66,8 +58,6 @@ His articles address digital rights, privacy, transparency, and Internet policy.
 
 - Lead interviewer and script consultant for the **UNDP–UNESCO–IDRC FOSS Documentary**, aired on BBC World (2006).  
   *Documenting the rise of open source and collaborative development across Asia.*
-
----
 
 ## Lectures and Presentations
 
