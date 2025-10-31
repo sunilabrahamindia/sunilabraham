@@ -391,27 +391,3 @@ h6:hover .header-link {
 .btn:hover {
   background-color: #006837;
 }
-
-/* =========================================================
-   Header SVG Background (Wave)
-   ========================================================= */
-.site-header {
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-  text-align: center;
-  margin: 2rem 0 0.8rem;
-  min-height: 200px; /* ensures the SVG shows */
-}
-
-.header-bg {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: url('https://sunilabraham.in/assets/images/header-bg.svg') no-repeat center / cover;
-  background-size: cover;
-  opacity: 0.96;
-  pointer-events: none;
-  border-radius: inherit;
-}
-
