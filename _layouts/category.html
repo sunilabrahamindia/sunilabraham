@@ -1,6 +1,11 @@
 <!-- =========================================================
      Wikipedia-style Category Listing
      ========================================================= -->
+
+---
+layout: default
+---
+
 {% assign category_name = page.title %}
 {% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
 
