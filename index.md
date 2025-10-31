@@ -6,6 +6,12 @@ description: "Knowledge sharing and documentation portal of Sunil Abraham: notes
 
 **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This open source project collects and publishes notes, essays, and documentation in a clean, accessible format.
 
+## Contents
+1. [About](#about)
+2. [Featured article](#featured-article)
+3. [Sunil Abraham](#sunil-abraham)
+4. [Licence](#licence)
+
 ---
 ## About
 
@@ -31,10 +37,13 @@ After returning to India, he joined the [Christian Institute for the Study of Re
 
 Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, and the posthumous *Essays on Dalits, Religion, and Liberation*. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised—a vision that continues to shape Indian Christian and social thought.
 
-<p><a href="https://sunilabraham.in/sunil/" class="btn">Full article...</a></p>
+<div align="right">
+  <a href="https://sunilabraham.in/sunil/" class="btn">Full article...</a>
+</div>
 
 ---
 
+## Sunil Abraham
 <div align="center" style="width:75%; margin:auto;">
   <img 
     src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20Colour%20Nature.jpg?raw=true" 
@@ -50,7 +59,9 @@ In 1998, he founded [Mahiti Infotech](https://mahiti.org/), a social enterprise 
 
 His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.
 
-<p><a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a></p>
+<div align="right">
+  <a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a>
+</div>
 
 ---
 
