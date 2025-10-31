@@ -10,8 +10,6 @@ description: Biography of Sunil Abraham (born 1973), Indian technologist, social
 
 **Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian technologist, internet researcher, open source advocate and public policy researcher. Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. His research and advocacy have focused on openness, privacy, accessibility, and the social impact of digital technologies across the Global South.
 
----
-
 ## Early life and education
 
 <div style="float:right; width:180px; margin:0 1rem 1rem 0;">
@@ -27,8 +25,6 @@ description: Biography of Sunil Abraham (born 1973), Indian technologist, social
 Sunil Abraham was born on 17 June 1973 in India. He attended Clarence High School, Bangalore, completing his schooling in 1989. He later studied industrial engineering and management at Dayananda Sagar College of Engineering, graduating in 1995. After completing his degree, he worked briefly in the private sector before moving into the non-profit field, where he began exploring how technology could support social and development goals. His early work with the voluntary organisation Samuha introduced him to the possibilities of using low-cost, open technologies to improve communication and coordination in rural contexts. This experience shaped his later commitment to open knowledge and the democratisation of technology.
 
 His father, [A. M. A. Ayrookuzhiel](https://sunilabraham.in/amaa/) (1933–1996), was a theologian and educator, and his mother is Ponnamma Abraham (née Thekedath).
-
----
 
 ## Career
 
@@ -73,27 +69,19 @@ After leaving CIS in 2019, Sunil worked with the [Open Society Foundations](http
   </p>
 </div>
 
----
-
 ## Publications and research
 
 Sunil has written and edited a number of works on open technologies, digital policy, and Internet governance. His edited volumes for the UNDP’s APDIP programme cover themes such as FOSS in education, localisation, open standards, and public policy. He co-authored *Digital Natives with a Cause?* (with Nishant Shah, 2009) and contributed to reports including *Open Government Data in India*. His writings often combine technical insight with policy analysis, reflecting on how openness and collaboration can support innovation and inclusion in developing contexts.
 
 In addition to research papers and reports, Abraham has contributed opinion pieces and essays to several newspapers and journals, including *The Hindu*, *Livemint*, *DNA India*, *Outlook*, and the *Wall Street Journal (India)*. His articles have discussed privacy, surveillance, digital monopolies, and the public interest in technology regulation.
 
----
-
 ## Views
 
 Sunil's approach combines advocacy for openness with a pragmatic understanding of governance and economics. He argues that open-source software, open data, and open standards are essential for democratic participation and transparency, particularly in developing countries. At the same time, he has written critically about the limits of openness when it is detached from local realities or when market concentration undermines public interest. His work reflects a balance between technological optimism and institutional critique.
 
----
-
 ## Recognition
 
 In 1999, Sunil was awarded the [Ashoka Fellowship](https://www.ashoka.org/en-in/fellow/sunil-abraham) for his efforts to promote open and participatory uses of the Internet in India. In 2003, he received the Sarai FLOSS Fellowship for his contributions to the free and open-source software movement within the voluntary sector. His work has been cited in policy reports and international forums concerned with Internet rights, information access, and innovation in public systems.
-
----
 
 ## Events and outreach
 
@@ -111,8 +99,6 @@ Sunil has been actively involved in designing and leading collaborative events t
     <a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm">Wikimedia Commons</a>.
   </p>
 </div>
-
----
 
 ## Personal life
 
