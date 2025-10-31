@@ -59,7 +59,7 @@ Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth:
 
 Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.  
 
-In 1998, he founded [Mahiti Infotech](https://mahiti.org/), a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.  
+In 1998, he co-founded [Mahiti Infotech](https://mahiti.org/), a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.  
 
 His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.
 
