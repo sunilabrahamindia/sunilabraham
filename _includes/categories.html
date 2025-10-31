@@ -1,32 +1,63 @@
 <!-- =========================================================
-     Categories Box (Wikipedia-style)
+     Categories (Wikipedia-style)
      ========================================================= -->
 {% if page.categories %}
 <style>
-.categories-box {
-  margin-top: 2em;
-  padding: 0.8em 1em;
-  border-top: 1px solid #ddd;
+#catlinks {
+  margin-top: 1.5em;
+  padding-top: 0.6em;
+  border-top: 1px solid #ccc;
   font-size: 0.9em;
-  color: #555;
+  color: #202122;
 }
 
-.category-link {
+#mw-normal-catlinks {
+  display: inline;
+}
+
+#mw-normal-catlinks a {
+  color: #0645ad;
   text-decoration: none;
-  color: var(--link-color, #0073aa);
 }
 
-.category-link:hover {
+#mw-normal-catlinks a:hover {
   text-decoration: underline;
+}
+
+#mw-normal-catlinks ul {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#mw-normal-catlinks ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#mw-normal-catlinks li::after {
+  content: ", ";
+}
+
+#mw-normal-catlinks li:last-child::after {
+  content: "";
 }
 </style>
 
-<div class="categories-box">
-  <strong>Categories:</strong>
-  {% for category in page.categories %}
-    <a class="category-link" href="{{ site.baseurl }}/categories/{{ category | slugify }}/">
-      {{ category }}
-    </a>{% unless forloop.last %}, {% endunless %}
-  {% endfor %}
+<div id="catlinks" class="catlinks">
+  <div id="mw-normal-catlinks" class="mw-normal-catlinks">
+    <a href="{{ site.baseurl }}/categories/">Categories</a>:
+    <ul>
+      {% for category in page.categories %}
+        <li>
+          <a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">
+            {{ category }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 {% endif %}
