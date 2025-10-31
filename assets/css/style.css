@@ -339,7 +339,7 @@ td, th {
 h2[id], h3[id], h4[id], h5[id], h6[id] {
   position: relative;
   display: block;
-  margin: 2.5rem 0 1rem;
+  margin: 1.2rem 0 0.6rem;
   line-height: 1.4;
 }
 
