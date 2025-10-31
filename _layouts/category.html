@@ -6,8 +6,8 @@ layout: default
 {% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
 
 <div class="category-page">
-<h2><strong class="category-label"><a href="https://sunilabraham.in/categories/">Categories:</a></strong> {{ category_name }}</h2>
-<p>{{ page.description }}</p>
+  <h2><strong class="category-label">Category:</strong> {{ category_name }}</h2>
+  <p>{{ page.description }}</p>
 
   {% if category_pages.size > 0 %}
     {% assign grouped = category_pages | group_by_exp: "p", "p.title | slice: 0, 1" %}
