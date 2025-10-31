@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Essays on Dalits, Religion and Liberation
-categories: [Biographies]
+categories: [Books]
 description: A posthumous collection of essays by Rev. A. M. A. Ayrookuzhiel (1933–1996), published by the Christian Institute for the Study of Religion and Society (CISRS), exploring the intersections of religion, caste, and liberation in India.
 ---
 
