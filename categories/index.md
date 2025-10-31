@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Categories"
+categories: [Project pages]
 description: "Index of all content categories on sunilabraham.in, including Videos, Books, Biographies, and more."
 permalink: /categories/
 ---
