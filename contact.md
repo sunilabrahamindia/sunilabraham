@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+categories: [Project pages]
 description: "Get in touch with Sunil Abraham for questions, collaborations, or discussions related to open documentation, research, and technology."
 ---
 
