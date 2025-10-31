@@ -42,7 +42,7 @@ After returning to India, he joined the [Christian Institute for the Study of Re
 Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, and the posthumous *Essays on Dalits, Religion, and Liberation*. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised—a vision that continues to shape Indian Christian and social thought.
 
 <div align="right">
-  <a href="https://sunilabraham.in/sunil/" class="btn">Full article...</a>
+  <a href="https://sunilabraham.in/sunil/" class="btn">Read full article...</a>
 </div>
 
 ---
