@@ -5,7 +5,9 @@ description: "Index of all content categories on sunilabraham.in, including Vide
 permalink: /categories/
 ---
 
-<h2>All Categories</h2>
+This section serves as a directory of all content categories published on <strong>sunilabraham.in</strong>. Browse through collections of videos, books, biographies, and project pages to explore related material and archived work.
+
+## All Categories
 <ul>
   {% assign all_categories = "" | split: "" %}
 
