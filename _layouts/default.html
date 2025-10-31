@@ -91,29 +91,31 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
-  <!-- Lightbox JS -->
-  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Wrap all images automatically in a lightbox link
-      document.querySelectorAll('img').forEach(function(img) {
-        // Skip if already inside a link
-        if (img.closest('a')) return;
 
-        // ✅ Skip very small images (like icons or badges)
-        if (img.width < 100 || img.height < 100) return;
+<!-- Lightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  window.addEventListener("load", function() {
+    // Wrap all images automatically in a lightbox link
+    document.querySelectorAll('img').forEach(function(img) {
+      // Skip if already inside a link
+      if (img.closest('a')) return;
 
-        const link = document.createElement('a');
-        link.href = img.src;
-        link.classList.add('lightbox');
-        img.parentNode.insertBefore(link, img);
-        link.appendChild(img);
-      });
+      // Optional: skip very small images (like icons)
+      if (img.width < 100 || img.height < 100) return;
 
-      // Initialise GLightbox
-      GLightbox({ selector: '.lightbox' });
+      const link = document.createElement('a');
+      link.href = img.src;
+      link.classList.add('lightbox');
+      img.parentNode.insertBefore(link, img);
+      link.appendChild(img);
     });
-  </script>
+
+    // Initialise GLightbox
+    GLightbox({ selector: '.lightbox' });
+  });
+</script>
+
 
 </body>
 </html>
