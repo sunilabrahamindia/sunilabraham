@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Sitemap
-categories: [Project pages]
 description: "Complete list of all public pages and posts on sunilabraham.in, organised and linked for easy navigation and reference."
 ---
 
@@ -12,12 +11,17 @@ Here's a list of all public pages and posts on this site.
 {% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
   {% if page.title and page.url != '/' %}
-    {% assign cats = page.categories | join: ',' %}
-    {% if cats == "" or cats == "Project pages" %}
+    {% assign path = page.path %}
+    {% assign is_category = path contains 'categories/' %}
+    {% assign is_video = path contains 'videos/' %}
+    {% if is_category == false and is_video == false %}
       <li>
         <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
         {% if page.description %}
           <br><small>{{ page.description }}</small>
+        {% endif %}
+        {% if page.categories and page.categories.size > 0 %}
+          <br><small>Category: {{ page.categories | join: ', ' }}</small>
         {% endif %}
       </li>
     {% endif %}
@@ -29,14 +33,12 @@ Here's a list of all public pages and posts on this site.
 <ul>
 {% assign category_pages = site.pages | sort: "title" %}
 {% for page in category_pages %}
-  {% assign cats = page.categories | join: ',' %}
-  {% if cats != "" and cats != "Project pages" %}
+  {% if page.path contains 'categories/' %}
     <li>
       <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
       {% if page.description %}
         <br><small>{{ page.description }}</small>
       {% endif %}
-      <br><small>Category: {{ page.categories | join: ', ' }}</small>
     </li>
   {% endif %}
 {% endfor %}
