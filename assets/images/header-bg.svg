@@ -1,35 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" role="img" aria-label="Decorative geometric wave header background">
-  <defs>
-    <!-- Gradient: matches navbar blue-teal range -->
-    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3b5998" />
-      <stop offset="40%" stop-color="#2a3f72" />
-      <stop offset="100%" stop-color="#287c7c" />
-    </linearGradient>
+<!-- Save as /assets/images/header-network.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" role="img" aria-label="Network of concepts: research, documentation, openness, innovation, ideas, archive">
+  <!-- White background -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
 
-    <!-- Soft vignette for focus and readability -->
-    <radialGradient id="lightVignette" cx="50%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="rgba(255,255,255,0.08)" />
-      <stop offset="100%" stop-color="rgba(0,0,0,0.15)" />
-    </radialGradient>
+  <!-- Lines (three colour groups for variety) -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-opacity="0.95">
+    <!-- navy group -->
+    <g stroke="#0a2e57" stroke-width="1.6">
+      <path d="M120 60 L220 40 L320 90 L420 78 L520 120"/>
+      <path d="M220 40 L260 140 L320 90"/>
+      <path d="M420 78 L480 30 L560 70"/>
+    </g>
 
-    <!-- Optional subtle noise pattern for texture -->
-    <filter id="textureNoise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
-      <feColorMatrix type="saturate" values="0"/>
-      <feBlend in="SourceGraphic" in2="noise" mode="overlay"/>
-    </filter>
-  </defs>
+    <!-- teal group -->
+    <g stroke="#287c7c" stroke-width="1.4">
+      <path d="M600 100 L680 60 L760 110 L840 90 L920 130"/>
+      <path d="M680 60 L700 180 L760 110"/>
+      <path d="M840 90 L980 40 L1060 96"/>
+    </g>
 
-  <!-- Layer 1: main blue–teal gradient background -->
-  <rect width="100%" height="100%" fill="url(#headerGradient)"></rect>
+    <!-- maroon group -->
+    <g stroke="#8b1f1f" stroke-width="1.6">
+      <path d="M40 200 L140 180 L220 220 L300 200 L380 260"/>
+      <path d="M140 180 L200 120 L220 220"/>
+      <path d="M300 200 L420 160 L520 200"/>
+    </g>
 
-  <!-- Layer 2: elegant wave form (teal overlay) -->
-  <path fill="rgba(255,255,255,0.08)" d="M0,224L60,208C120,192,240,160,360,149.3C480,139,600,149,720,170.7C840,192,960,224,1080,234.7C1200,245,1320,235,1380,224L1440,213V320H0Z"></path>
+    <!-- cross-connections -->
+    <g stroke="#546e7a" stroke-width="1.1">
+      <path d="M320 90 L600 100"/>
+      <path d="M520 120 L680 60"/>
+      <path d="M420 78 L760 110"/>
+      <path d="M220 220 L420 160"/>
+      <path d="M560 70 L700 180"/>
+      <path d="M760 110 L980 40"/>
+      <path d="M920 130 L1060 96"/>
+    </g>
+  </g>
 
-  <!-- Layer 3: secondary curved overlay for depth -->
-  <path fill="rgba(255,255,255,0.04)" d="M0,192L80,181.3C160,171,320,149,480,138.7C640,128,800,128,960,149.3C1120,171,1280,213,1360,234.7L1440,256V0H0Z"></path>
+  <!-- Nodes (small dots) -->
+  <g fill="#4a4a4a">
+    <!-- research -->
+    <circle cx="320" cy="90" r="3.8" fill="#0a2e57"/>
+    <!-- documentation -->
+    <circle cx="520" cy="120" r="3.8" fill="#287c7c"/>
+    <!-- openness -->
+    <circle cx="680" cy="60" r="3.8" fill="#8b1f1f"/>
+    <!-- innovation -->
+    <circle cx="760" cy="110" r="3.8" fill="#0a2e57"/>
+    <!-- ideas -->
+    <circle cx="980" cy="40" r="3.8" fill="#287c7c"/>
+    <!-- archive -->
+    <circle cx="220" cy="220" r="3.8" fill="#8b1f1f"/>
+  </g>
 
-  <!-- Layer 4: light vignette overlay for readability -->
-  <rect width="100%" height="100%" fill="url(#lightVignette)" filter="url(#textureNoise)"></rect>
+  <!-- Labels -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#333333" font-weight="600">
+    <text x="335" y="85" dominant-baseline="middle">research</text>
+    <text x="535" y="116" dominant-baseline="middle">documentation</text>
+    <text x="695" y="56" dominant-baseline="middle">openness</text>
+    <text x="775" y="106" dominant-baseline="middle">innovation</text>
+    <text x="995" y="36" dominant-baseline="middle">ideas</text>
+    <text x="235" y="216" dominant-baseline="middle">archive</text>
+  </g>
+
+  <!-- Subtle anchor points for visual balance (faint) -->
+  <g stroke="#dfe6e9" stroke-width="0.9" opacity="0.7" fill="none">
+    <path d="M0,24 L60,24 120,60 180,48 240,80 300,64 360,92 420,76 480,40 540,56 600,96 660,56 720,128 780,96 840,80 900,100 960,72 1020,96 1080,88 1140,64 1200,72 1260,88 1320,56 1380,88 1440,72"/>
+  </g>
 </svg>
