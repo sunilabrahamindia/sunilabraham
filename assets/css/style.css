@@ -148,7 +148,7 @@ body {
   background: #fff;
   border-radius: 12px;
   padding: 2.2rem;
-  margin-top: 2rem;
+  margin-top: 0.6rem;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
   animation: fadeUp 1s ease-in-out;
   transition: background-color 0.4s ease;
@@ -369,10 +369,10 @@ h6:hover .header-link {
    ========================================================= */
 .breadcrumb {
   font-size: 0.9rem;
-  margin: 1rem 0 2rem;
-  color: #555;
+  margin: 0.5rem 0 0.8rem;
+  padding-bottom: 0.2rem;
+   color: #555;
   border-bottom: 1px solid #eee;
-  padding-bottom: 0.4rem;
 }
 
 .breadcrumb + * {
