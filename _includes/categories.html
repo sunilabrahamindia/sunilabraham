@@ -1,11 +1,11 @@
 <!-- =========================================================
-     Categories (Wikipedia-style)
+     Categories (Wikipedia-style, no external links)
      ========================================================= -->
 {% if page.categories %}
 <style>
 #catlinks {
   margin-top: 1.5em;
-  padding-top: 0.6em;
+  padding: 0.6em 0 0 0;
   border-top: 1px solid #ccc;
   font-size: 0.9em;
   color: #202122;
@@ -15,15 +15,6 @@
   display: inline;
 }
 
-#mw-normal-catlinks a {
-  color: #0645ad;
-  text-decoration: none;
-}
-
-#mw-normal-catlinks a:hover {
-  text-decoration: underline;
-}
-
 #mw-normal-catlinks ul {
   display: inline;
   list-style: none;
@@ -31,7 +22,7 @@
   padding: 0;
 }
 
-#mw-normal-catlinks ul li {
+#mw-normal-catlinks li {
   display: inline;
   margin: 0;
   padding: 0;
@@ -48,14 +39,10 @@
 
 <div id="catlinks" class="catlinks">
   <div id="mw-normal-catlinks" class="mw-normal-catlinks">
-    <a href="{{ site.baseurl }}/categories/">Categories</a>:
+    <strong>Categories:</strong>
     <ul>
       {% for category in page.categories %}
-        <li>
-          <a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">
-            {{ category }}
-          </a>
-        </li>
+        <li>{{ category }}</li>
       {% endfor %}
     </ul>
   </div>
