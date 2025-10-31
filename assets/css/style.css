@@ -35,7 +35,7 @@ body {
   margin: 2rem 0 0.8rem;
   padding-bottom: 0.8rem;
   border-bottom: 2px solid #eaecef;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .site-header h1 {
