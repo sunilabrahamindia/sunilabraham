@@ -17,7 +17,6 @@ Whether you are a researcher, student, practitioner, or reader exploring questio
 3. [Sunil Abraham](#sunil-abraham)
 4. [Licence](#licence)
 
----
 ## About
 
 This project serves as a living documentation space for research, writing, and reflection.  
@@ -33,8 +32,6 @@ It aims to:
 
 This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
 
----
-
 ## Featured article
 **Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
 
@@ -45,8 +42,6 @@ Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth:
 <div align="right">
   <a href="https://sunilabraham.in/amaa/" class="btn">Read full article...</a>
 </div>
-
----
 
 ## Sunil Abraham
 <div align="center" style="width:75%; margin:auto;">
@@ -67,8 +62,6 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 <div align="right">
   <a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a>
 </div>
-
----
 
 ## Licence
 
