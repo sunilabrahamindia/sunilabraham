@@ -17,6 +17,9 @@ A dedicated project to **document the life, writings, and contributions of A. M.
 This includes compiling biographical information, unpublished writings, and reflections on his legacy.  
 The aim is to build a lasting digital record that highlights his thought, work, and influence.
 
+<p><a href="https://sunilabraham.in/amaa/" class="btn">Visit Project Page</a></p>
+
+
 ### Artificial Intelligence
 A continuing study of **ideas, reflections, and observations on Artificial Intelligence**.  
 The focus is not only on technology but also on the human, ethical, and creative dimensions of AI.  
