@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Categories"
-categories: [Project pages]
 description: "Index of all content categories on sunilabraham.in, including Videos, Books, Biographies, and more."
 permalink: /categories/
 ---
@@ -22,9 +21,13 @@ permalink: /categories/
     {% endif %}
   {% endfor %}
 
+  {% comment %}
+    Build correct links: slugify the category name first, then append to '/categories/'.
+  {% endcomment %}
   {% for cat in all_categories %}
+    {% assign cat_slug = cat | slugify %}
     <li>
-      <a href="{{ '/categories/' | append: cat | slugify | append: '/' | relative_url }}">
+      <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}">
         {{ cat | capitalize }}
       </a>
       ({{ site.pages | where_exp: "p", "p.categories contains cat" | size }} items)
