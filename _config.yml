@@ -1,7 +1,7 @@
 title: "Sunil Abraham Documentation Project"
-description: "Open source documentation and notes by Sunil Abraham"
+description: "Research • Innovation • Documentation"
 markdown: kramdown
-show_downloads: false
+show_downloads: true
 
 # =====================================================
 # Theme
