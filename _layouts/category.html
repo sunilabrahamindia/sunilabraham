@@ -6,7 +6,12 @@ layout: default
 {% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
 
 <div class="category-page">
-  <h2><strong class="category-label">Category:</strong> {{ category_name }}</h2>
+  <h2>
+    <strong class="category-label">
+      <a href="{{ '/categories/' | relative_url }}">Categories</a>:
+    </strong>
+    {{ category_name }}
+  </h2>
   <p>{{ page.description }}</p>
 
   {% if category_pages.size > 0 %}
@@ -41,9 +46,18 @@ layout: default
 }
 
 .category-page .category-label {
-  font-weight: 900 !important; /* Ensures strong bold */
-  color: #000 !important; /* Dark black */
-  display: inline-block; /* Breaks font-weight inheritance */
+  font-weight: 900 !important;
+  color: #000 !important;
+  display: inline-block;
+}
+
+.category-page .category-label a {
+  color: #000;
+  text-decoration: none;
+}
+
+.category-page .category-label a:hover {
+  text-decoration: underline;
 }
 
 .category-page h3 {
