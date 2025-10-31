@@ -1,7 +1,7 @@
 title: "Sunil Abraham Documentation Project"
 description: "Research • Innovation • Documentation"
 markdown: kramdown
-show_downloads: true
+show_downloads: false
 
 # =====================================================
 # Theme
