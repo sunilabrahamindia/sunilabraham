@@ -24,7 +24,7 @@ body {
   padding: 0 1.5rem 4rem;
   max-width: 1000px;
   line-height: 1.8;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* =========================================================
@@ -83,13 +83,18 @@ body {
   text-decoration: none;
   letter-spacing: 0.4px;
   border-right: 1px solid rgba(255, 255, 255, 0.15);
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
 .navbar a:hover {
   background: linear-gradient(to bottom, #287c7c 0%, #1f5f5f 100%);
   color: #fff;
   transform: translateY(-2px);
+}
+
+.navbar a:focus {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
 }
 
 .navbar a.active {
@@ -125,7 +130,7 @@ body {
   }
 
   .navbar a {
-    padding: 0.25rem 0.45rem;
+    padding: 0.5rem 0.7rem;
     white-space: nowrap;
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     font-size: 80%;
@@ -199,6 +204,7 @@ footer {
   line-height: 1.6;
   opacity: 0;
   animation: fadeInFooter 0.8s ease-in forwards;
+  will-change: opacity, transform;
 }
 
 footer p {
@@ -255,12 +261,18 @@ footer p::before {
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* =========================================================
    Tables
    ========================================================= */
 table {
   width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
   margin: 1.5rem 0;
   font-size: 0.95rem;
   background: #fff;
@@ -269,6 +281,13 @@ table {
   overflow: hidden;
   display: block;
   overflow-x: auto;
+}
+
+thead:first-child tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+thead:first-child tr:first-child th:last-child {
+  border-top-right-radius: 6px;
 }
 
 th, td {
@@ -381,7 +400,7 @@ h6:hover .header-link {
   display: inline-block;
   background-color: #004b23;
   color: #fff;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
