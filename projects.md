@@ -9,8 +9,6 @@ The **Sunil Abraham Project** documents, studies, and archives a range of open r
 Documentation is central to this effort — it preserves knowledge, captures the process behind ideas, and makes insights accessible to others.  
 By maintaining structured, open documentation, projects remain transparent, collaborative, and easy to extend.
 
----
-
 ## Current Projects
 
 ### A. M. Abraham Aryookuzhiel
@@ -25,8 +23,6 @@ The aim is to build a lasting digital record that highlights his thought, work, 
 A continuing study of **ideas, reflections, and observations on Artificial Intelligence**.  
 The focus is not only on technology but also on the human, ethical, and creative dimensions of AI.  
 Through writing and documentation, this project explores how AI transforms learning, work, and creativity.
-
----
 
 ## Future Projects
 
