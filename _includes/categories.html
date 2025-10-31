@@ -1,0 +1,13 @@
+<!-- =========================================================
+     Categories Box (Wikipedia-style)
+     ========================================================= -->
+{% if page.categories %}
+<div class="categories-box">
+  <strong>Categories:</strong>
+  {% for category in page.categories %}
+    <a class="category-link" href="{{ site.baseurl }}/categories/{{ category | slugify }}/">
+      {{ category }}
+    </a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+</div>
+{% endif %}
