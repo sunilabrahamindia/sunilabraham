@@ -373,3 +373,21 @@ h6:hover .header-link {
 .breadcrumb span {
   color: #666;
 }
+
+/* =========================================================
+   Button
+   ========================================================= */
+.btn {
+  display: inline-block;
+  background-color: #004b23;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #006837;
+}
