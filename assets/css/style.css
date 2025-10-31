@@ -1,72 +1,393 @@
----
-layout: default
----
+/* =========================================================
+   Sunil Abraham Project
+   Simple Professional Theme (Optimised for Direct <a> Navbar)
+   Licence: CC BY-SA 4.0
+   ========================================================= */
 
-{% assign category_name = page.title | remove: "Category:" | strip %}
-{% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
-
-<div class="category-page">
-  <h2><strong class="category-label">Category:</strong> {{ category_name }}</h2>
-  <p>{{ page.description }}</p>
-
-  {% if category_pages.size > 0 %}
-    {% assign grouped = category_pages | group_by_exp: "p", "p.title | slice: 0, 1" %}
-    {% for group in grouped %}
-      <h3>{{ group.name | upcase }}</h3>
-      <ul>
-        {% for p in group.items %}
-          <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-        {% endfor %}
-      </ul>
-    {% endfor %}
-  {% else %}
-    <p>No pages in this category yet.</p>
-  {% endif %}
-</div>
-
-<style>
-.category-page {
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 1.2em;
-  background: #f9f9f9;
-  margin-top: 1.5em;
+/* Hide default GitHub Pages banner */
+#banner, .page-header, .site-footer {
+  display: none !important;
 }
 
-.category-page h2 {
-  font-size: 1.3em;
-  margin-bottom: 0.5em;
-  border-bottom: 1px solid #ddd;
+/* =========================================================
+   Base Layout
+   ========================================================= */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a1a;
+  background: linear-gradient(180deg, #fdfdfd 0%, #f8fafc 100%);
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+  max-width: 1000px;
+  line-height: 1.8;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* =========================================================
+   Header
+   ========================================================= */
+.site-header {
+  text-align: center;
+  margin: 2rem 0 0.8rem;
+}
+
+.site-header h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #0a2e57;
+  margin: 0 0 0.4rem;
+}
+
+.site-header p {
+  font-size: 1rem;
+  color: #444;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* =========================================================
+   Navbar (Stylish Tabs)
+   ========================================================= */
+.navbar {
+  background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  margin: 0.4rem 0 2rem;
+  padding: 0;
+  overflow: hidden;
+  animation: slideDown 0.8s ease;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.4px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.navbar a:hover {
+  background: linear-gradient(to bottom, #287c7c 0%, #1f5f5f 100%);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.navbar a.active {
+  background: linear-gradient(to bottom, #2f9e9e 0%, #237373 100%);
+  color: #fff;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.navbar li:last-child a {
+  border-right: none;
+}
+
+/* =========================================================
+   Mobile Navbar (Horizontal Scroll Fix)
+   ========================================================= */
+@media (max-width: 768px) {
+  .navbar {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navbar ul {
+    flex-wrap: nowrap;
+  }
+
+  .navbar li {
+    flex: 0 0 auto;
+  }
+
+  .navbar a {
+    padding: 0.25rem 0.45rem;
+    white-space: nowrap;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 80%;
+  }
+
+  .navbar li:last-child a {
+    border-right: none;
+  }
+}
+
+/* =========================================================
+   Main Content
+   ========================================================= */
+.main-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2.2rem;
+  margin-top: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  animation: fadeUp 1s ease-in-out;
+  transition: background-color 0.4s ease;
+}
+
+/* =========================================================
+   Typography
+   ========================================================= */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #0a2e57;
+  line-height: 1.4;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid #eaecef;
   padding-bottom: 0.3em;
+  margin-top: 0;
 }
 
-.category-page .category-label {
-  font-weight: 900 !important; /* Ensures strong bold */
-  color: #000 !important; /* Dark black */
-  display: inline-block; /* Breaks font-weight inheritance */
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.9rem; }
+
+/* Links */
+a {
+  color: #005cc5;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.category-page h3 {
-  font-size: 1.1em;
-  margin-top: 1em;
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #0366d6;
+}
+
+/* =========================================================
+   Footer (Compact Layout)
+   ========================================================= */
+footer {
+  margin-top: 60px;
+  padding: 24px 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  border-top: 1px solid #eaecef;
+  background: #fafafa;
+  line-height: 1.6;
+  opacity: 0;
+  animation: fadeInFooter 0.8s ease-in forwards;
+}
+
+footer p {
+  margin: 6px 0 8px;
+  padding: 0;
+}
+
+footer a {
+  color: #0366d6;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 3px;
+  white-space: nowrap;
+  transition: color 0.25s ease, text-decoration 0.25s ease;
+}
+
+footer a:hover, footer a:focus {
+  color: #024b9a;
+  text-decoration: underline;
+}
+
+footer p::before {
+  margin-right: 4px;
+}
+
+@keyframes fadeInFooter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================================
+   Responsive Footer Adjustments
+   ========================================================= */
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.85em;
+    padding: 18px 8px;
+  }
+
+  footer p {
+    margin: 4px 0 6px;
+  }
+
+  footer a {
+    margin: 0 2px;
+  }
+}
+
+/* =========================================================
+   Animations
+   ========================================================= */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================================
+   Tables
+   ========================================================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  overflow: hidden;
+  display: block;
+  overflow-x: auto;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: 600;
   color: #333;
 }
 
-.category-page ul {
-  list-style: none;
-  padding-left: 1em;
+tr:last-child td {
+  border-bottom: none;
 }
 
-.category-page li {
-  margin: 0.2em 0;
+tr:hover td {
+  background-color: #f9f9f9;
 }
 
-.category-page a {
-  color: #0645ad;
+td, th {
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+/* =========================================================
+   Responsive Adjustments
+   ========================================================= */
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem 3rem;
+  }
+
+  .site-header h1 {
+    font-size: 2rem;
+  }
+
+  .main-content {
+    padding: 1.5rem;
+  }
+}
+
+/* =========================================================
+   Section Header Permalinks (🔗 beside headings)
+   ========================================================= */
+h2[id], h3[id], h4[id], h5[id], h6[id] {
+  position: relative;
+  display: block;
+  margin: 2.5rem 0 1rem;
+  line-height: 1.4;
+}
+
+.header-link {
+  margin-left: 0.35em;
+  opacity: 0;
+  font-size: 0.9em;
+  color: #888;
+  text-decoration: none;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
+}
+
+.header-link:hover {
+  color: #007acc;
+}
+
+/* =========================================================
+   Breadcrumb Navigation
+   ========================================================= */
+.breadcrumb {
+  font-size: 0.9rem;
+  margin: 1rem 0 2rem;
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.6rem;
+}
+
+.breadcrumb + * {
+  margin-top: 0 !important;
+}
+
+.breadcrumb a {
+  color: #005cc5;
   text-decoration: none;
 }
 
-.category-page a:hover {
+.breadcrumb a:hover {
   text-decoration: underline;
+  color: #0366d6;
 }
-</style>
+
+.breadcrumb span {
+  color: #666;
+}
+
+/* =========================================================
+   Button
+   ========================================================= */
+.btn {
+  display: inline-block;
+  background-color: #004b23;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #006837;
+}
