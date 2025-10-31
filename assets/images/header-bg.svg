@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" role="img" aria-label="Decorative geometric wave header background">
+  <defs>
+    <!-- Gradient: matches navbar blue-teal range -->
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b5998" />
+      <stop offset="40%" stop-color="#2a3f72" />
+      <stop offset="100%" stop-color="#287c7c" />
+    </linearGradient>
+
+    <!-- Soft vignette for focus and readability -->
+    <radialGradient id="lightVignette" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.15)" />
+    </radialGradient>
+
+    <!-- Optional subtle noise pattern for texture -->
+    <filter id="textureNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" in2="noise" mode="overlay"/>
+    </filter>
+  </defs>
+
+  <!-- Layer 1: main blue–teal gradient background -->
+  <rect width="100%" height="100%" fill="url(#headerGradient)"></rect>
+
+  <!-- Layer 2: elegant wave form (teal overlay) -->
+  <path fill="rgba(255,255,255,0.08)" d="M0,224L60,208C120,192,240,160,360,149.3C480,139,600,149,720,170.7C840,192,960,224,1080,234.7C1200,245,1320,235,1380,224L1440,213V320H0Z"></path>
+
+  <!-- Layer 3: secondary curved overlay for depth -->
+  <path fill="rgba(255,255,255,0.04)" d="M0,192L80,181.3C160,171,320,149,480,138.7C640,128,800,128,960,149.3C1120,171,1280,213,1360,234.7L1440,256V0H0Z"></path>
+
+  <!-- Layer 4: light vignette overlay for readability -->
+  <rect width="100%" height="100%" fill="url(#lightVignette)" filter="url(#textureNoise)"></rect>
+</svg>
