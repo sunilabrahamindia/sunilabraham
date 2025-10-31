@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sitemap
-categories: [Project pages]
+permalink: /sitemap/
 description: "Complete list of all public pages and posts on sunilabraham.in, organised and linked for easy navigation and reference."
 ---
 
@@ -11,7 +11,7 @@ Here's a list of all public pages and posts on this site.
 <ul>
 {% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
-  {% if page.title and page.url != '/' and page.categories == nil %}
+  {% if page.title and page.url != '/' %}
     <li>
       <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
       {% if page.description %}
@@ -19,26 +19,6 @@ Here's a list of all public pages and posts on this site.
       {% endif %}
     </li>
   {% endif %}
-{% endfor %}
-</ul>
-
-## Categories
-<ul>
-{% assign all_categories = site.categories | sort %}
-{% for category in all_categories %}
-  <li>
-    <strong>Category: {{ category[0] }}</strong>
-    <ul>
-      {% for post in category[1] %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          {% if post.description %}
-            <br><small>{{ post.description }}</small>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </li>
 {% endfor %}
 </ul>
 
