@@ -5,7 +5,6 @@ categories: [Books]
 description: A posthumous collection of essays by Rev. A. M. A. Ayrookuzhiel (1933–1996), published by the Christian Institute for the Study of Religion and Society (CISRS), exploring the intersections of religion, caste, and liberation in India.
 ---
 
-
 ***Essays on Dalits, Religion and Liberation*** (2006) is a seminal collection of scholarly articles by the Indian theologian and sociologist Reverend [Athanasius Mathen Abraham Ayrookuzhiel](https://sunilabraham.in/amaa/) (A. M. A. Ayrookuzhiel) (1933–1996). The volume gathers his most significant writings, which critically explore the intersection of religion, culture, caste, and social justice in the context of the Dalit liberation struggle in India. The book is considered a foundational text for the development of Dalit theology and contextual Christian thought.
 
 As noted in K. C. Abraham's foreword, Ayrookuzhiel's work stands out for its originality, depth, and rootedness in the social context of India's Dalits. Abraham describes the essays as "a continuation of his lifelong project to make theology an instrument of human liberation."
@@ -20,8 +19,6 @@ As noted in K. C. Abraham's foreword, Ayrookuzhiel's work stands out for its ori
 - [Critical Reception](#critical-reception)
 - [References](#references)
 - [External Links](#external-links)
-
----
 
 ## Summary
 
@@ -57,8 +54,6 @@ A striking example is his analysis of the folk ritual *Pottan Theyyam* from Kera
 
 {% include back-to-top.html %}
 
----
-
 ## Chapters
 
 The essays in this collection span theology, sociology, and history. Selected chapters include:
@@ -76,8 +71,6 @@ The essays in this collection span theology, sociology, and history. Selected ch
 
 {% include back-to-top.html %}
 
----
-
 ## Publication History
 
 The book was posthumously published in 2006 by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS). Its release marked the tenth anniversary of Ayrookuzhiel's death on 29 November 1996 and coincided with the Golden Jubilee of CISRS, serving as both a memorial tribute and a reaffirmation of the institute's long-standing commitment to liberation-oriented theology.  
@@ -88,8 +81,6 @@ The volume includes a foreword by Dr. Godwin Shiri and an introduction by theolo
 
 {% include back-to-top.html %}
 
----
-
 ## Critical Reception
 
 Scholars and theologians have described *Essays on Dalits, Religion and Liberation* as a landmark in Indian theological thought. The collection bridges academic research and lived experience, combining sociological rigour with theological imagination.  
@@ -98,8 +89,6 @@ It remains a key reference in courses on Dalit theology, contextual theology, an
 
 {% include back-to-top.html %}
 
----
-
 ## References
 
 - K. C. Abraham, *Foreword to Essays on Dalits, Religion and Liberation* (Bangalore: CISRS / Asian Trading Corporation, 2006).  
@@ -107,8 +96,6 @@ It remains a key reference in courses on Dalit theology, contextual theology, an
 - Publications and archival materials of the Christian Institute for the Study of Religion and Society (CISRS).  
 - Secondary sources in Dalit Theology and Indian Christian Studies archives.
 
----
-
 ## External Links
 
-- [Essays on Dalits, Religion and Liberation ](https://books.google.co.in/books/about/Essays_on_Dalits_Religion_and_Liberation.html?id=slAKAQAAMAAJ&redir_esc=y) on Google Books
+- [Essays on Dalits, Religion and Liberation](https://books.google.co.in/books/about/Essays_on_Dalits_Religion_and_Liberation.html?id=slAKAQAAMAAJ&redir_esc=y) on Google Books
