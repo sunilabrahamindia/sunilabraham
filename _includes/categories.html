@@ -2,6 +2,25 @@
      Categories Box (Wikipedia-style)
      ========================================================= -->
 {% if page.categories %}
+<style>
+.categories-box {
+  margin-top: 2em;
+  padding: 0.8em 1em;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.category-link {
+  text-decoration: none;
+  color: var(--link-color, #0073aa);
+}
+
+.category-link:hover {
+  text-decoration: underline;
+}
+</style>
+
 <div class="categories-box">
   <strong>Categories:</strong>
   {% for category in page.categories %}
