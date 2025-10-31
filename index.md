@@ -41,6 +41,8 @@ Sunil was elected an Ashoka Fellow in 1999 for exploring the democratic potentia
 
 His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.
 
+... **[Read full biography](https://sunilabraham.in/sunil/)**
+
 ---
 
 ## Licence
