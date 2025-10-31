@@ -172,7 +172,19 @@ h1 {
   margin-top: 0;
 }
 
-h2 { font-size: 1.8rem; }
+/* Automatic underline for H2 (Wikipedia-style) */
+h2 {
+  font-size: 1.8rem;
+  border-bottom: 1px solid #d8dee4; /* soft grey underline */
+  padding-bottom: 0.25em;           /* space between text and line */
+  margin-bottom: 0.8em;             /* space below line */
+}
+
+/* Optional hover effect for subtle emphasis */
+h2:hover {
+  border-bottom-color: #b6c2d2;
+}
+
 h3 { font-size: 1.4rem; }
 h4 { font-size: 1.2rem; }
 h5 { font-size: 1rem; }
