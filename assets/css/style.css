@@ -395,8 +395,21 @@ h6:hover .header-link {
 /* =========================================================
    Header SVG Background (Wave)
    ========================================================= */
-.header-background {
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%233b5998" fill-opacity="0.25" d="M0,160L48,186.7C96,213,192,267,288,277.3C384,288,480,256,576,224C672,192,768,160,864,165.3C960,171,1056,213,1152,224C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"/></svg>') no-repeat center bottom;
+.site-header {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  text-align: center;
+  margin: 2rem 0 0.8rem;
+}
+
+.header-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: url('{{ "/assets/images/header-bg.svg" | relative_url }}') no-repeat center / cover;
   background-size: cover;
-  padding-bottom: 1rem;
+  opacity: 0.96;
+  pointer-events: none;
+  border-radius: inherit;
 }
