@@ -7,12 +7,24 @@ permalink: /categories/
 
 <h2>All Categories</h2>
 <ul>
-  {% for category in site.categories %}
+  {% assign all_categories = "" | split: "" %}
+
+  {% for page in site.pages %}
+    {% if page.categories %}
+      {% for cat in page.categories %}
+        {% unless all_categories contains cat %}
+          {% assign all_categories = all_categories | push: cat %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% for cat in all_categories %}
     <li>
-      <a href="{{ '/categories/' | append: category[0] | slugify | append: '/' | relative_url }}">
-        {{ category[0] | capitalize }}
+      <a href="{{ '/categories/' | append: cat | slugify | append: '/' | relative_url }}">
+        {{ cat | capitalize }}
       </a>
-      ({{ category[1].size }} items)
+      ({{ site.pages | where_exp: "p", "p.categories contains cat" | size }} items)
     </li>
   {% endfor %}
 </ul>
