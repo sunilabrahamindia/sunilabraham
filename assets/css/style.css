@@ -368,7 +368,7 @@ td, th {
    ========================================================= */
 @media (max-width: 768px) {
   body {
-    padding: 0 1rem 3rem;
+    padding: 0 0rem 1rem;
   }
 
   .site-header h1 {
