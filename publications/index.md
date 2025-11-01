@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Publications
+categories: [Project pages]
 description: "Collection of published works, papers, and writings by Sunil Abraham on open knowledge, digital culture, and the social impact of technology, including reports, articles, and edited volumes."
 ---
 
