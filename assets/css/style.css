@@ -368,7 +368,7 @@ td, th {
    ========================================================= */
 @media (max-width: 768px) {
   body {
-    padding: 0 0rem 1rem;
+    padding: 0 1rem 3rem;
   }
 
   .site-header h1 {
@@ -457,5 +457,4 @@ h6:hover .header-link {
 .btn:hover {
   background-color: #006837;
 }
-
 
