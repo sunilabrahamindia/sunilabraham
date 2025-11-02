@@ -11,6 +11,8 @@ The project reflects years of engagement with digital rights, open technology, a
 
 Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.
 
+{% include back-to-top.html %}
+
 ## Contents
 1. [About](#about)
 2. [Featured article](#featured-article)
@@ -32,6 +34,8 @@ It aims to:
 
 This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
 
+{% include back-to-top.html %}
+
 ## Featured article
 **Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
 
@@ -40,6 +44,8 @@ After returning to India, he joined the [Christian Institute for the Study of Re
 Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, and the posthumous *Essays on Dalits, Religion, and Liberation*. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised—a vision that continues to shape Indian Christian and social thought.
 
 <a href="https://sunilabraham.in/amaa/" class="btn">Read full article...</a>
+
+{% include back-to-top.html %}
 
 ## Sunil Abraham
 <div align="center" style="width:75%; margin:auto;">
@@ -58,6 +64,8 @@ In 1998, he co-founded [Mahiti Infotech](https://mahiti.org/), a social enterpri
 His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.
 
 <a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a>
+
+{% include back-to-top.html %}
 
 ## Licence
 
