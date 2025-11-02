@@ -10,7 +10,7 @@ categories: [Sunil Abraham]
 {% include stub %}
 
 
-**Students for Peace** was a brief, grassroots student movement in Bangalore, India, launched in early 1993 as a response to the escalating communal violence triggered by the demolition of the Babri Masjid in Ayodhya and the ensuing riots in Bombay (now Mumbai). Organised by engineering student Sunil Abraham, the initiative aimed to create an apolitical space for youth to advocate for peace and secular values, culminating in a large-scale candlelight demonstration that drew thousands of participants. Though short-lived, it exemplified early efforts by urban students to counter national unrest through non-violent solidarity.
+**Students for Peace** was a brief, grassroots student movement in Bangalore, India, launched in early 1993 as a response to the escalating communal violence triggered by the demolition of the Babri Masjid in Ayodhya and the ensuing riots in Bombay (now Mumbai). Organised by engineering student [Sunil Abraham](https://sunilabraham.in/sunil), the initiative aimed to create an apolitical space for youth to advocate for peace and secular values, culminating in a large-scale candlelight demonstration that drew thousands of participants. Though short-lived, it exemplified early efforts by urban students to counter national unrest through non-violent solidarity.
 
 ## Background
 
