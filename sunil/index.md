@@ -26,6 +26,15 @@ Sunil Abraham was born on 17 June 1973 in India. He attended Clarence High Schoo
 
 His father, [A. M. A. Ayrookuzhiel](https://sunilabraham.in/amaa/) (1933–1996), was a theologian and educator, and his mother is Ponnamma Abraham (née Thekedath).
 
+### Students for Peace (1993)
+
+During the second year of his engineering studies in 1993, Sunil Abraham founded and coordinated an independent, secular, and non-partisan student platform called Students for Peace. The initiative emerged in response to the communal tensions and violence following the Ayodhya and Bombay riots. 
+
+Under his leadership, Students for Peace organised a candlelight demonstration on M. G. Road, Bangalore, bringing together nearly 5,000 college and school students from diverse communities. The activity aimed to promote unity, dialogue, and non-violence among young people at a time of widespread division. 
+
+This early experience in civic engagement and collective action influenced Abraham’s later interest in the social dimensions of technology, governance, and public participation.
+
+
 ## Career
 
 ### Mahiti (1998)
@@ -51,11 +60,17 @@ In 2008, Sunil co-founded the [Centre for Internet and Society (CIS)](https://ci
   </p>
 </div>
 
+### Academic positions (2019)
+
+In October 2019, Sunil Abraham joined the ArtEZ University of the Arts (ArtEZ Hogeschool voor de Kunsten) in Arnhem, the Netherlands, as an endowed professor (lector). His appointment at ArtEZ focuses on the intersection of art, design, technology, and society, with an emphasis on how creative practices can respond to questions of digital governance and social justice.
+
+At ArtEZ, he has developed research and teaching initiatives that explore the cultural and political dimensions of digital infrastructures. His work there brings together students, artists, and policy thinkers to examine how openness, access, and critical design can influence public understanding of technology.
+
 ### Meta India (2020–present)
 
 In 2020, Sunil joined [Meta](https://www.meta.com/) (Facebook India) as Public Policy Director for Data Economy and Emerging Technologies in India. In this role, he works on technology governance, data regulation, and innovation policy, engaging with government, industry, and research institutions on issues related to emerging technologies and the digital economy.
 
-### Other activities
+## Other activities
 
 After leaving CIS in 2019, Sunil worked with the [Open Society Foundations](https://www.opensocietyfoundations.org/), focusing on digital governance, openness, and technology policy. He has also served as a consultant and adviser to several international organisations, including [UNDP](https://www.undp.org/), [UNESCO](https://www.unesco.org/), and the [International Development Research Centre (IDRC)](https://idrc-crdi.ca/). His assignments have ranged from open standards and localisation policy to digital inclusion and governance. He has contributed to projects in Asia, Africa, and Eastern Europe that connect technology policy with issues of equity, participation, and sustainable development.
 
