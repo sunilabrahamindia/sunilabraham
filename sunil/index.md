@@ -28,6 +28,11 @@ His father, [A. M. A. Ayrookuzhiel](https://sunilabraham.in/amaa/) (1933–1996)
 
 ### Students for Peace (1993)
 
+{% include main-article.html 
+   title="Students for Peace (1993)" 
+   link="/articles/students-for-peace/" 
+%}
+
 During the second year of his engineering studies in 1993, Sunil Abraham founded and coordinated an independent, secular, and non-partisan student platform called Students for Peace. The initiative emerged in response to the communal tensions and violence following the Ayodhya and Bombay riots. 
 
 Under his leadership, Students for Peace organised a candlelight demonstration on M. G. Road, Bangalore, bringing together nearly 5,000 college and school students from diverse communities. The activity aimed to promote unity, dialogue, and non-violence among young people at a time of widespread division. 
