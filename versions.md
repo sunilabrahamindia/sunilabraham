@@ -46,3 +46,33 @@ Key additions and improvements include:
 ✅ **Status:** Completed — Version 0.2 deployed.  
 📅 **Completion Date:** 25 October 2025  
 🗃️ **Internet Archive:** [Archived Snapshot (25 Oct 2025)](https://web.archive.org/web/20251025131339/https://sunilabraham.in/)
+
+## Version 0.3
+
+Version 0.3 of the **Sunil Abraham Project** website focuses on visual refinement, structural balance, and accessibility improvements.  
+This release improves readability, layout consistency, and ease of navigation while keeping the design simple and functional.
+
+**Sandbox Creation** – A new `/sandbox` subdirectory created for experimentation and safe testing of new features or layouts.  
+  Note: included page; any error might disrupt default layout and other structure.  
+- **robots.txt Setup** – Implemented to manage search engine visibility.  
+  The `/sandbox` directory is excluded from indexing.  
+- **Sitemap (XML) Creation** – Automatic sitemap generated at [https://sunilabraham.in/sitemap.xml](https://sunilabraham.in/sitemap.xml).  
+  The `Sitemap.md` page improved with description and alphabetical sorting.  
+- **Documentation Directory** – Work started on a dedicated `/doc` (or `/docs`) section for structured documentation and internal reference materials.  
+- **A. M. Abraham Aryookuzhiel Biography Article** – First draft completed, one book article added.
+- **Sunil Bio Compilation (First Draft)** – Compilation of Sunil Abraham’s biography begun, collecting key references, timelines, and curated notes.  
+- **Categorisation** – Initiated categorisation of pages and articles for easier navigation.  
+- **Template Development** –  
+  - Back to Top button.  
+  - Under Construction label.  
+  - Under Construction percentage indicator (in progress).  
+- **Videos Page Restructure** – Videos split into multiple yearly pages such as `/videos/2009`, `/videos/2010`, etc.  
+- **Image Expansion Feature** – Planned feature to allow image enlargement when clicked (lightbox-style view).  
+
+✅ **Status:** Completed — Version 0.3 completed.  
+📅 **Completion Date:** 2 November 2025  
+🗃️ **Internet Archive:** [Archived Snapshot (2 Nov 2025)](https://web.archive.org/web/20251102024245/https://sunilabraham.in/)
+
+
+
+
