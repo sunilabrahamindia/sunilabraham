@@ -22,7 +22,7 @@ description: Biography of Sunil Abraham (born 1973), Indian technologist, social
   </p>
 </div>
 
-Sunil Abraham was born on 17 June 1973 in India. He attended Clarence High School, Bangalore, completing his schooling in 1989. He later studied industrial engineering and management at Dayananda Sagar College of Engineering, graduating in 1995. After completing his degree, he worked briefly in the private sector before moving into the non-profit field, where he began exploring how technology could support social and development goals. His early work with the voluntary organisation Samuha introduced him to the possibilities of using low-cost, open technologies to improve communication and coordination in rural contexts. This experience shaped his later commitment to open knowledge and the democratisation of technology.
+Sunil Abraham was born on 17 June 1973 in India. He attended Clarence High School, Bangalore, completing his schooling in 1989. HHe later studied industrial engineering and management at Dayananda Sagar College of Engineering, affiliated with Bangalore University, and graduated in 1995. After completing his degree, he worked briefly in the private sector before moving into the non-profit field, where he began exploring how technology could support social and development goals. His early work with the voluntary organisation Samuha introduced him to the possibilities of using low-cost, open technologies to improve communication and coordination in rural contexts. This experience shaped his later commitment to open knowledge and the democratisation of technology.
 
 His father, [A. M. A. Ayrookuzhiel](https://sunilabraham.in/amaa/) (1933–1996), was a theologian and educator, and his mother is Ponnamma Abraham (née Thekedath).
 
@@ -39,11 +39,20 @@ This early experience in civic engagement and collective action influenced Abrah
 
 ### Mahiti (1998)
 
-In 1998, Sunil co-founded [Mahiti](https://mahiti.org/), an information technology company that provides affordable digital solutions for non-governmental organisations and civil society groups. Mahiti's projects emphasised the use of open-source tools, multilingual interfaces, and participatory design. By the early 2000s, Mahiti had established itself as one of India’s leading technology partners for non-profits, working on web platforms, intranet systems, and training programmes that made digital infrastructure more accessible to grassroots organisations. He served as Director at Mahiti Infotech Pvt Ltd before moving into full-time policy and research work.
+### Mahiti (1998)
+
+In 1998, Sunil co-founded [Mahiti](https://mahiti.org/), an information technology company that provides affordable digital solutions for non-governmental organisations and civil society groups in areas such as health, education, disability, and rural development. Mahiti’s projects emphasised the use of open-source tools, multilingual interfaces, and participatory design. 
+
+By the early 2000s, Mahiti had established itself as one of India’s leading technology partners for non-profits, working on web platforms, intranet systems, and training programmes that made digital infrastructure more accessible to grassroots organisations. Mahiti also conducted capacity-building workshops for non-profit staff, focusing on free and open-source software (FOSS) adoption and content management systems. 
+
+He served as Director at Mahiti Infotech Private Limited from 1998 to 2004 before moving into full-time policy and research work.
 
 ### International Open Source Network (2004–2007)
 
-From 2004 to 2007, Sunil managed the [International Open Source Network (IOSN)](https://www.apdip.net/), a joint initiative of the [United Nations Development Programme (UNDP)](https://www.undp.org/) and the [Asia-Pacific Development Information Programme (APDIP)](https://www.apdip.net/). The project aimed to promote open-source software, open standards, and open content across the Asia–Pacific region. In this role, he collaborated with governments, universities, and development agencies to develop regional capacity in open technologies and to encourage policy adoption that favoured openness and shared knowledge.
+From 2004 to 2007, Sunil served as Manager of the [International Open Source Network (IOSN)](https://www.apdip.net/), a joint initiative of the [United Nations Development Programme (UNDP)](https://www.undp.org/) and the [Asia-Pacific Development Information Programme (APDIP)](https://www.apdip.net/). The project aimed to promote open-source software, open standards, and open content across the Asia–Pacific region, with a focus on South and Southeast Asia.
+
+In this role, he collaborated with governments, universities, and development agencies to develop regional capacity in open technologies and to encourage policy adoption that favoured openness and shared knowledge. He coordinated regional training programmes, produced toolkits and policy guides on Free and Open Source Software (FOSS), and worked with national governments to integrate open standards into e-governance strategies. The IOSN secretariat operated from UNDP’s Asia-Pacific office in Kuala Lumpur, where Abraham was based during this period.
+
 
 ### Centre for Internet and Society (2008–2019)
 
