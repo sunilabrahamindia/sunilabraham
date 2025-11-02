@@ -29,7 +29,7 @@ His father, [A. M. A. Ayrookuzhiel](https://sunilabraham.in/amaa/) (1933–1996)
 ### Students for Peace (1993)
 
 {% include main-article.html 
-   title="Students for Peace (1993)" 
+   title="Students for Peace" 
    link="/articles/students-for-peace/" 
 %}
 
