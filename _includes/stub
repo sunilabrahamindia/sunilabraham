@@ -1,0 +1,28 @@
+<div class="stub-notice">
+  📝 <strong>Stub:</strong>
+  This page is currently very short and incomplete. More information, sources, or images will be added gradually.
+</div>
+
+<style>
+.stub-notice {
+  background-color: #e8f4ff;      /* soft blue background for gentle contrast */
+  border: 1px solid #69a7e0;      /* subtle blue border */
+  color: #333;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+  display: block;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin: 1.2rem 0;
+}
+.stub-notice strong {
+  color: #004a80;  /* dark blue text for emphasis */
+}
+.stub-notice a {
+  color: #0a2e57;
+  text-decoration: underline;
+  margin-left: 4px;
+}
+</style>
