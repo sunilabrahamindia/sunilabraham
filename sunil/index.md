@@ -39,8 +39,6 @@ This early experience in civic engagement and collective action influenced Abrah
 
 ### Mahiti (1998)
 
-### Mahiti (1998)
-
 In 1998, Sunil co-founded [Mahiti](https://mahiti.org/), an information technology company that provides affordable digital solutions for non-governmental organisations and civil society groups in areas such as health, education, disability, and rural development. Mahiti’s projects emphasised the use of open-source tools, multilingual interfaces, and participatory design. 
 
 By the early 2000s, Mahiti had established itself as one of India’s leading technology partners for non-profits, working on web platforms, intranet systems, and training programmes that made digital infrastructure more accessible to grassroots organisations. Mahiti also conducted capacity-building workshops for non-profit staff, focusing on free and open-source software (FOSS) adoption and content management systems. 
