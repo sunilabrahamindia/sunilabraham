@@ -10,7 +10,14 @@ permalink: /publications/indias-contribution-to-internet-governance-debates/
 pdf: /publications/files/indias-contribution-to-internet-governance-debates.pdf
 ---
 
-This paper examines how India has shaped and responded to key debates on Internet governance at the global level. It traces the country's engagement across multistakeholder and intergovernmental forums, situating these interventions within broader national and international developments. Co-authored by Sunil Abraham, Mukta Batra, Geetha Hariharan, Swaraj Barooah and Akriti Bopanna, the work offers a grounded understanding of India’s evolving digital diplomacy and its implications for global governance structures.
+**India's Contribution to Internet Governance Debates** is a research paper written by Sunil Abraham, Mukta Batra, Geetha Hariharan, Swaraj Barooah, and Akriti Bopanna, and published in the *Student Law Journal* of the National Law University Delhi in 2018. The paper examines how India has shaped and responded to key debates on Internet governance at the global level. It traces the country’s engagement across multistakeholder and intergovernmental forums, situating these interventions within broader national and international developments. The study offers a grounded understanding of India's evolving digital diplomacy and its implications for global governance structures.
+## Contents
+- [Publication Details](#publication-details)
+- [Abstract](#abstract)
+- [Context and Background](#context-and-background)
+- [Key Themes or Findings](#key-themes-or-findings)
+- [Full Text](#full-text)
+- [Citation](#citation)
 
 ## Publication Details
 
@@ -20,17 +27,19 @@ This paper examines how India has shaped and responded to key debates on Interne
 **Type:** Research Article  
 [Download PDF](/publications/files/indias-contribution-to-internet-governance-debates.pdf)
 
-
 ## Abstract
 
-The study explores India’s approach to Internet governance through a review of major events and policy positions from 2010 to 2018. It analyses how India has balanced its domestic priorities of security, sovereignty and economic development with the global principles of openness and collaboration. The paper highlights India’s participation at venues such as the Internet Governance Forum (IGF), the World Summit on the Information Society (WSIS), and NETmundial, evaluating how these engagements reflect an ongoing evolution in policy thinking. 
+The study explores India’s approach to Internet governance through a review of major events and policy positions from 2010 to 2018. It analyses how India has balanced its domestic priorities of security, sovereignty and economic development with the global principles of openness and collaboration. The paper highlights India’s participation at venues such as the Internet Governance Forum (IGF), the World Summit on the Information Society (WSIS), and NETmundial, evaluating how these engagements reflect an ongoing evolution in policy thinking.
 
+{% include back-to-top.html %}
 
 ## Context
 
 The discourse on Internet governance has expanded rapidly over the past two decades, driven by issues such as data protection, cyber security, and global digital trade. For India, a country with one of the world’s largest online populations, participation in these debates is both a diplomatic and developmental priority. The paper situates India’s policy trajectory within the wider global movement towards inclusive governance models and multistakeholderism. It notes that India’s initial cautious engagement gradually gave way to a more proactive stance as the Internet became central to economic and political life.
 
-## Key Themes
+{% include back-to-top.html %}
+
+## Key Themes or Findings
 
 - **Shifting Policy Stance:** India’s early positions were guided by concerns of sovereignty and state control, but these later expanded to include citizen rights, openness and innovation.  
 - **Multistakeholder Engagement:** The country’s increasing presence in IGF and WSIS processes demonstrates an ongoing acceptance of participatory governance.  
@@ -38,7 +47,9 @@ The discourse on Internet governance has expanded rapidly over the past two deca
 - **Institutional Gaps:** Despite progress, the authors identify limited coordination across ministries and the absence of a cohesive national Internet governance framework.  
 - **Balancing Competing Interests:** The research underscores India’s effort to navigate tensions between security imperatives, economic growth, and global collaboration.
 
-## Read 
+{% include back-to-top.html %}
+
+## Full Text
 <div class="pdf-container">
   <!-- Desktop & large screens -->
   <iframe
@@ -50,11 +61,13 @@ The discourse on Internet governance has expanded rapidly over the past two deca
 
   <!-- Fallback download link -->
   <p class="pdf-download">
-    📄 <a href="/publications/files/indias-contribution-to-internet-governance-debates.pdf" download>
-      Download Full Text (PDF)
-    </a>
+<a class="btn" href="/publications/files/indias-contribution-to-internet-governance-debates.pdf" download>
+  📄 Download Full Text (PDF)
+</a>
   </p>
 </div>
+
+{% include back-to-top.html %}
 
 <style>
 .pdf-container {
@@ -81,4 +94,36 @@ The discourse on Internet governance has expanded rapidly over the past two deca
 }
 </style>
 
+## Citation
+If you wish to reference or cite this publication, you may use one of the following standard citation formats.
+
+**APA style:**
+
+```
+Abraham, S., Batra, M., Hariharan, G., Barooah, S., & Bopanna, A. (2018).
+India's Contribution to Internet Governance Debates.
+Student Law Journal, National Law University Delhi.
+https://sunilabraham.in/publications/indias-contribution-to-internet-governance-debates/
+```
+
+**BibTeX style**
+```
+@article{abraham2018,
+  author    = {Abraham, Sunil and Batra, Mukta and Hariharan, Geetha and Barooah, Swaraj and Bopanna, Akriti},
+  title     = {India's Contribution to Internet Governance Debates},
+  journal   = {Student Law Journal},
+  institution = {National Law University Delhi},
+  year      = {2018},
+  url       = {https://sunilabraham.in/publications/indias-contribution-to-internet-governance-debates/}
+}
+```
+
+**MLA style**
+```
+Abraham, Sunil, et al. "India's Contribution to Internet Governance Debates."
+Student Law Journal, National Law University Delhi, 2018.
+https://sunilabraham.in/publications/indias-contribution-to-internet-governance-debates/
+```
+
+{% include back-to-top.html %}
 
