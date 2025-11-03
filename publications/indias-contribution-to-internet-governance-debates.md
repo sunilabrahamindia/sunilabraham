@@ -87,8 +87,6 @@ The study explores India’s approach to Internet governance through a review of
 
 The discourse on Internet governance has expanded rapidly over the past two decades, driven by issues such as data protection, cyber security, and global digital trade. For India, a country with one of the world’s largest online populations, participation in these debates is both a diplomatic and developmental priority. The paper situates India’s policy trajectory within the wider global movement towards inclusive governance models and multistakeholderism. It notes that India’s initial cautious engagement gradually gave way to a more proactive stance as the Internet became central to economic and political life.
 
-{% include back-to-top.html %}
-
 ## Key Themes or Findings
 
 - **Shifting Policy Stance:** India’s early positions were guided by concerns of sovereignty and state control, but these later expanded to include citizen rights, openness and innovation.  
