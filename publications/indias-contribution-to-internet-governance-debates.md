@@ -177,5 +177,39 @@ pre {
 }
 </style>
 
+<script>
+document.querySelectorAll('pre > code').forEach(block => {
+  const button = document.createElement('button');
+  button.textContent = 'Copy';
+  button.className = 'copy-btn';
+  block.parentNode.style.position = 'relative';
+  block.parentNode.appendChild(button);
+
+  button.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(block.innerText);
+    button.textContent = 'Copied!';
+    setTimeout(() => (button.textContent = 'Copy'), 1500);
+  });
+});
+</script>
+
+<style>
+.copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.copy-btn:hover {
+  background: #e5e5e5;
+}
+</style>
+
+
 {% include back-to-top.html %}
 
