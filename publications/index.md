@@ -8,65 +8,314 @@ description: "Collection of published works, papers, and writings by Sunil Abrah
 The **Sunil Abraham Project** curates and archives the published works, papers, and writings of **Sunil Abraham**, focusing on open knowledge, digital culture, and the social impact of technology.  
 These publications reflect years of engagement in Free and Open Source Software (FOSS), Internet governance, and open access movements.
 
-## Papers and Reports
+## Books and Book Chapters
 
-- **Report on Open Government Data in India** — Co-authored with Nishant Shah, Pranesh Prakash, and Glover Wright.  
-  Presented at the TAI Donors’ Conclave, San Francisco.  
-  *A study on transparency and data sharing within India’s public institutions.*
+### Books
 
-- **Digital Natives with a Cause? A Knowledge Survey and Framework** — Co-authored with Nishant Shah.  
-  Published by CIS and Hivos, 2009.  
-  *An exploration of youth, identity, and digital activism.*
+- **Agency and Enterprise Handbook for ICT in the Indian Small Scale Sector** — Co-authored with Dr. Richard Heeks and Dr. Richard Duncombe.  
+  *Institute for Development Policy and Management, University of Manchester, May 2004.*  
+  _Guidelines for applying information and communication technologies in small-scale industries in India._
 
-- **IOSN: Building a Global Resource** — *Information for Development*, CSDMS, October 2005.  
-  *A reflection on building networks and resources for open source collaboration.*
+### Book Chapters
 
-- **Agency and Enterprise Handbook for ICT in the Indian Small Scale Sector** — Co-authored with Dr. Richard Heeks and Dr. Richard Duncombe, University of Manchester, 2004.  
-  *Guidelines on leveraging ICT for small-scale enterprises in India.*
+- **"Surveillance Project"** — In *Dissent on Aadhaar: Big Data Meets Big Brother*, edited by Reetika Khera.  
+  *Orient Blackswan, 2018.*  
+  _A critical analysis of the Aadhaar programme and its implications for surveillance and citizen rights._  
+  [Publisher link](https://www.orientblackswan.com/details?id=9789352875429)
 
-- **Who’s Afraid of the Old Fox** — *Information for Development*, CSDMS, May 2003.  
-  *An early essay on information politics and technology access.*
+- **"First Among Equals? The Role of the State in Facilitating Internet Access and Protecting the Freedom of Expression Online in the Global South"** — In *Just Security in an Undergoverned World*, edited by William Durch, Joris Larik and Richard Ponzio.  
+  *Oxford University Press, 2018.*  
+  _Examines the state’s dual responsibility to expand access and uphold free expression._
 
-## Edited Volumes
+- **"The Digital Protection of Traditional Knowledge: Questions Raised by the Traditional Knowledge Digital Library in India"** — Co-authored with Vidushi Marda.  
+  In *Global Information Society Watch 2016*.  
+  *Association for Progressive Communications, 2016.*  
+  _Explores policy dilemmas around digital preservation and ownership of traditional knowledge._  
+  [Full text (PDF)](https://giswatch.org/sites/default/files/giswatch2016_web.pdf)
 
-Sunil Abraham has edited several handbooks in the **FOSS series** published by **APDIP–UNDP** and **Elsevier**, including:
+- **"Eavesdropping on the Freedom of Expression in India"** — In *Free Speech and Censorship around the Globe*, edited by Peter Molnar.  
+  *Central European University Press, 2015.*  
+  _Discusses surveillance, censorship, and freedom of expression in India’s digital context._  
+  [Publisher link](http://ceupress.com/book/free-speech-and-censorship-around-globe)
 
-- *FOSS: Education* by Tan Wooi Tong  
-- *FOSS: Government Policy* by Kenneth Wong  
-- *FOSS: Localization* by Anousak Souphavanh and Theppitak Karoonboonyanan  
-- *FOSS: Open Standards* by Nah Soo Hoe  
-- *FOSS: Licensing* by Shun Ling Chen  
-- *FOSS: Network Infrastructure and Security* by Gaurab Raj Upadhaya  
-- *FOSS: Open Content* by Lawrence Liang  
+- **"Open Standards"** — In *Global Information Society Watch 2008*.  
+  *Association for Progressive Communications, 2008.*  
+  _Reviews policy and advocacy developments around open standards in ICT governance._  
+  [Access (PDF)](http://www.academia.edu/download/44489222/gisw2008.pdf#page=20)
 
-These works provide practical and policy-level insights into open source adoption, licensing, and knowledge-sharing infrastructures across Asia.
+## Journal Articles
 
-## Articles and Commentary
+- **"India's Contribution to Internet Governance Debates"** — with Mukta Batra, Geetha Hariharan, Swaraj Barooah and Akriti Bopanna.  
+  *Student Law Journal, National Law University Delhi, 2018.*  
+  _Analyses India’s evolving role in global Internet governance processes._  
+  [Read online](https://cis-india.org/internet-governance/files/indias-contribution-to-internet-governance-debates/view)
 
-Sunil has written widely for major Indian and international publications including *The Hindu*, *DNA*, *Outlook*, *Wall Street Journal*, *Livemint*, and *Global Post*.  
-His articles address digital rights, privacy, transparency, and Internet policy. Selected writings include:
+- **"Security: Privacy, Transparency and Technology"** — with Elonnai Hickok and Tarun Krishnakumar.  
+  *Digital Debates 2015: CyFy Journal, Volume 2, Observer Research Foundation.*  
+  _Examines the tension between privacy rights, transparency, and technological security in governance._  
+  [Read online](https://cis-india.org/internet-governance/blog/security-privacy-transparency-and-technology)
 
-- *‘Piracy is Now a Mainstream Political Phenomenon’* — *The Hindu*  
-- *‘Wiki’s Worth, on a Different Turf’* — *Livemint*  
-- *‘Change Is Coming Thanks to the Mobile’* — *DNA*  
-- *‘Newspapers Should Empower Citizen Journalism’* — *DNA*  
-- *‘Open Is the Future’* — *Open World Forum, Paris*  
+- **"Shreya Singhal and 66A"**  
+  *Economic and Political Weekly, Vol. L, No. 15, April 2015.*  
+  _A reflection on the landmark Supreme Court judgment striking down Section 66A of the IT Act._  
+  [Read online](https://cis-india.org/internet-governance/blog/economic-and-political-weekly-sunil-abraham-april-11-2015-shreya-singhal-and-66a)
+
+- **"Who Governs the Internet? Implications for Freedom and National Security"**  
+  *Yojana, Government of India, April 2014 Issue.*  
+  _Discusses the intersection of governance, sovereignty, and Internet freedom in India._  
+  [Read PDF](https://cis-india.org/internet-governance/blog/yojana-april-2014-who-governs-the-internet.pdf)
+
+- **"Government Access to Private-Sector Data in India"** — with Elonnai Hickok.  
+  *International Data Privacy Law, 2012.*  
+  _Analyses legal and institutional mechanisms governing government access to private-sector data._  
+  [Full text (PDF)](https://academic.oup.com/idpl/article-pdf/2/4/302/1972429/ips028.pdf)
+
+- **"The Fight for Digital Sovereignty"**  
+  *Economic & Political Weekly, Vol. XLVIII, No. 42, October 19, 2013.*  
+  _Explores national policy choices in digital infrastructure and Internet control._  
+  [Read online](https://cis-india.org/a2k/blogs/epw-vol-xlviii-42-october-19-2013-sunil-abraham-the-fight-for-digital-sovereignty)
+
+## Research Reports and Policy Papers
+
+### Major Reports
+
+- **"Report on Open Government Data in India"** — with Glover Wright, Pranesh Prakash and Nishant Shah.  
+  *Centre for Internet and Society (CIS), 2012.*  
+  _A comprehensive study of transparency, data-sharing practices, and open data policy in Indian public institutions._  
+  [Report link](https://cis-india.org/openness/publications/open-government.pdf)
+
+- **"Digital Natives with a Cause?"** — with Nishant Shah.  
+  *Hivos Knowledge Programme Report, 2009.*  
+  _Explores the intersections of youth, identity, and digital activism in emerging economies._
+
+- **"Big Data in Governance in India: Case Studies"**  
+  *CIS Research Report, 2017.*  
+  _Investigates how large-scale data systems are shaping governance and accountability mechanisms in India._  
+  [Report link](https://cis-india.org/internet-governance/files/big-data-compilation.pdf)
+
+- **"Regulating the Internet: The Government of India and Standards Development at the IETF"** — with Aayush Rathi and Gurshabad Grover.  
+  *CIS Internet Governance Report, 2018.*  
+  _Analyses India’s participation and influence in the Internet Engineering Task Force (IETF) standards process._  
+  [Report link](https://cis-india.org/internet-governance/blog/regulating-the-internet-the-government-of-india-standards-development-at-the-ietf)
+
+- **"Economic, Social and Cultural Rights in India: Access to Mobile Technology"** — with Vidushi Marda.  
+  *Association for Progressive Communications (APC), 2016.*  
+  _Examines how access to mobile technologies advances or limits social and economic rights._  
+  [Download PDF](https://cis-india.org/openness/files/economic-social-and-cultural-rights-in-india-opportunities-for-advocacy-in-intellectual-property-rights-access-to-mobile-technology/at_download/file)
+
+- **"Economic, Social and Cultural Rights in India: Free and Open Source Software (FOSS) and Open Standards"** — with Vidushi Marda.  
+  *Association for Progressive Communications (APC), 2016.*  
+  _Explores FOSS and open standards as enablers for inclusive technological ecosystems._  
+  [Download PDF](https://cis-india.org/openness/files/economic-social-and-cultural-rights-in-india-opportunities-for-advocacy-in-intellectual-property-rights-access-to-mobile-technology/at_download/file)
+
+### Policy Briefs and Submissions
+
+- **"Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC)"** — with Vidushi Marda.  
+  *CIS Submission to the United Nations CSTD WGEC, 2014.*  
+  _Presents civil society perspectives on enhanced cooperation in global Internet governance._  
+  [Read online](https://cis-india.org/internet-governance/blog/cis-inputs-to-the-working-group-on-enhanced-cooperation-on-public-policy-issues-pertaining-to-the-internet-wgec)
+
+- **"Unlicensed Spectrum Policy Brief for Government of India"**  
+  *CIS Telecom Policy Paper, 2013.*  
+  _Recommends liberalised approaches to spectrum allocation to promote innovation and rural connectivity._  
+  [Read online](https://cis-india.org/telecom/unlicensed-spectrum-brief.doc/view)
+
+- **"Availability and Accessibility of Government Information in the Public Domain"** — with Nirmita Narasimhan, Beliappa, and Anandhi Viswanathan.  
+  *CIS Policy Brief, 2012.*  
+  _Assesses the accessibility of government information for persons with disabilities._  
+  [Download PDF](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
+
+- **"NITI Aayog Discussion Paper: An Aspirational Step Towards India’s AI Policy"** — with Elonnai Hickok, Amber Sinha, Swaraj Barooah, and others.  
+  *CIS Blog and Policy Response, 2018.*  
+  _Evaluates India’s AI policy framework and its implications for ethics, privacy, and innovation._  
+  [Read online](https://cis-india.org/internet-governance/blog/niti-aayog-discussion-paper-an-aspirational-step-towards-india2019s-ai-policy)
+
+
+## Monograph Series (Edited Volumes)
+
+### FOSS Series (APDIP–UNDP / Elsevier)
+
+Sunil Abraham served as **Series Editor** for the *Free and Open Source Software (FOSS) Primers*, published jointly by **APDIP–UNDP** and **Elsevier** between 2004 and 2007.  
+These handbooks offer foundational insights into FOSS implementation, policy, and education across Asia and the Pacific.
+
+- **FOSS: Education** — by Tan Wooi Tong.  
+  *Elsevier / APDIP–UNDP, 2004.*  
+  [Read online](https://en.wikibooks.org/wiki/FOSS_Education)
+
+- **FOSS: Government Policy** — by Kenneth Wong.  
+  *Elsevier / APDIP–UNDP, 2004.*  
+  [Read online](https://en.wikibooks.org/wiki/FOSS_Government_Policy)
+
+- **FOSS: Localization** — by Anousak Souphavanh and Theppitak Karoonboonyanan.  
+  *Elsevier / APDIP–UNDP, 2005.*  
+  [Read online](https://en.wikibooks.org/wiki/FOSS_Localization)
+
+- **FOSS: Open Standards** — by Nah Soo Hoe.  
+  *Elsevier / APDIP–UNDP, 2006.*  
+  [Read online](https://en.wikibooks.org/wiki/FOSS_Open_Standards)
+
+- **FOSS: Licensing** — by Shun Ling Chen.  
+  *Elsevier / APDIP–UNDP, 2006.*  
+  [Read online](https://en.wikibooks.org/wiki/FOSS_Licensing)
+
+- **FOSS: Network Infrastructure and Security** — by Gaurab Raj Upadhaya.  
+  *Elsevier / APDIP–UNDP, 2007.*  
+  [Read online](https://en.wikibooks.org/wiki/FOSS_Network_Infrastructure_and_Security)
+
+- **FOSS: Open Content** — by Lawrence Liang.  
+  *Elsevier / APDIP–UNDP, 2007.*  
+  [Read online](https://en.wikibooks.org/wiki/FOSS_Open_Content)
+
+## Media Articles and Commentaries
+
+Sunil Abraham has written widely for both Indian and international media, contributing opinion pieces and analytical essays on technology policy, privacy, and open knowledge.
+
+### Indian Publications
+
+- *"Fixing Aadhaar: Security Developers’ Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
+  [Read online](https://www.business-standard.com/article/opinion/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach-118010901281_1.html)
+
+- *"Data Protection: We Can Innovate, Leapfrog"* — *Deccan Herald*, 2018.  
+  [Read online](https://www.deccanherald.com/content/655018/data-protection-we-can-innovate.html)
+
+- *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
+  [Read online](https://www.business-standard.com/article/opinion/registering-for-aadhaar-in-2019-119010201018_1.html)
+
+- *"The Free Basics Debate: TRAI Has a Point in Imposing Temporary Ban on Net Neutrality"* — *Firstpost*, 2016.  
+  [Read online](https://www.firstpost.com/india/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics-2558884.html)
+
+- *"Wiki’s Worth, on a Different Turf"* — *Livemint*, 2015.  
+  [Read online](https://cis-india.org/news/wiki-worth-different-turf)
+
+- *"Newspapers Should Empower Citizen Journalism"* — *DNA India*, 2009.  
+  [Read online](https://cis-india.org/news/newspapers-should-empower-citizen-journalism)
+
+- *"Fear, Uncertainty and Doubt"* — *Deccan Chronicle*, 2015.  
+  [Read online](https://cis-india.org/internet-governance/blog/deccan-chronicle-march-26-2015-sunil-abraham-fear-uncertainty-doubt)
+
+- *"India’s Digital Check"* — *DNA India*, 2015.  
+  [Read online](https://www.dnaindia.com/analysis/column-india-s-digital-check-2102575)
+
+- *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
+  [Read online](https://cis-india.org/internet-governance/blog/deccan-chronicle-september-9-2013-sunil-abraham-privacy-law-must-fit-the-bill)
+
+- *"Very Big Brother"* — *Council for Responsible Genetics*, 2014.  
+  [Read online](https://cis-india.org/internet-governance/blog/council-for-responsible-genetics-april-2014-sunil-abraham-very-big-brother)
+
+### International Publications
+
+- *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global reposts*, 2018.  
+  [Read online](https://www.business-standard.com/article/economy-policy/cambridge-analytica-scandal-how-india-can-save-democracy-from-facebook-118032800146_1.html)
+
+- *"A Trust Deficit Between Advertisers and Publishers Is Leading to Fake News"* — *Hindustan Times*, 2018.  
+  [Read online](https://www.hindustantimes.com/analysis/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news/story-SVNH9ot3KD50XRltbwOyEO.html)
+
+- *"Facebook’s Fall from Grace: Arab Spring to Indian Winter"* — *Firstpost*, 2016.  
+  [Read online](https://www.firstpost.com/tech/news-analysis/facebooks-fall-from-grace-arab-spring-to-indian-winter-3676797.html)
+
+- *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
+  _An essay on the global evolution of openness and free software movements._
+
+- *"Piracy Is Now a Mainstream Political Phenomenon"* — *The Hindu*, 2009.  
+  _A commentary on digital rights, access to culture, and new forms of online activism._
+
+## Blog Entries and Online Essays
+
+Sunil Abraham has contributed extensively to the **Centre for Internet and Society (CIS)** blog and other online platforms, writing on privacy, openness, data governance, and digital rights.  
+These essays often serve as short policy commentaries or exploratory analyses of ongoing regulatory debates.
+
+- **"India’s Draft Privacy Bill: The Illusion of Control"** — *CIS Blog, 2018.*  
+  _Critiques the structure of India’s proposed data protection law and the limitations of consent-based models._  
+  [Read online](https://cis-india.org/internet-governance/blog/indias-draft-privacy-bill-the-illusion-of-control)
+
+- **"Data Protection Framework: Gaps in Accountability"** — with Elonnai Hickok. *CIS Blog, 2018.*  
+  _Examines institutional weaknesses in India’s proposed data protection regime._  
+  [Read online](https://cis-india.org/internet-governance/blog/data-protection-framework-gaps-in-accountability)
+
+- **"Privacy, Security and Trust in the Digital Economy"** — *CIS Blog, 2017.*  
+  _Analyses the challenges of building public trust in data-driven systems._  
+  [Read online](https://cis-india.org/internet-governance/blog/privacy-security-and-trust-in-the-digital-economy)
+
+- **"Algorithmic Transparency and the Future of Governance"** — *CIS Blog, 2016.*  
+  _Discusses algorithmic decision-making and the demand for transparency in automated governance._  
+  [Read online](https://cis-india.org/internet-governance/blog/algorithmic-transparency-and-the-future-of-governance)
+
+- **"India’s Position on Net Neutrality"** — *CIS Blog, 2015.*  
+  _Explains India’s regulatory and civil society advocacy for network neutrality._  
+  [Read online](https://cis-india.org/telecom/blog/indias-position-on-net-neutrality)
+
+- **"Digital Privacy and the Aadhaar Ecosystem"** — *CIS Blog, 2013.*  
+  _Explores privacy challenges arising from India’s biometric identity infrastructure._  
+  [Read online](https://cis-india.org/internet-governance/blog/digital-privacy-and-the-aadhaar-ecosystem)
+
+## Presentations and Lectures
+
+Sunil Abraham has presented lectures and keynote talks at universities, research institutions, and international conferences, combining perspectives from technology, law, and policy.  
+His talks often focus on openness, ethics, and governance in digital systems.
+
+### Academic Conferences
+
+- **International School on Digital Transformation**, Porto, Portugal.  
+  _Lecture on digital governance, open data, and global Internet policy._  
+
+- **Open World Forum**, Paris.  
+  _Session on open source policy and global knowledge-sharing frameworks._
+
+- **CyFy: The India Conference on Cyber Security and Internet Governance**, New Delhi.  
+  _Panel on privacy, transparency, and the politics of data._
+
+- **Internet Governance Forum (IGF)** — multiple years.  
+  _Participation in global multistakeholder dialogues on digital rights._
+
+### University Lectures
+
+- **University of Hyderabad** — Lecture on *Open Access and Digital Knowledge Commons.*  
+- **Tata Institute of Social Sciences (TISS), Mumbai** — Lecture on *Technology, Policy, and Social Change.*  
+- **National Law School of India University (NLSIU), Bengaluru** — Guest seminar on *Internet Governance and Legal Frameworks.*  
+- **Jawaharlal Nehru University (JNU)** — Lecture on *Digital Sovereignty and Global Internet Politics.*
+
+### Workshops and Seminars
+
+- **CATFOSS Workshop**, Ernakulam.  
+  _Interactive session on the evolution of Free and Open Source Software (FOSS) in India._
+
+- **UNESCO Workshop on Open Educational Resources**, New Delhi.  
+  _Facilitated session on licensing, policy frameworks, and implementation._
+
+- **APC Regional Workshop on Internet Rights**, Jakarta.  
+  _Led discussions on privacy and freedom of expression in the Global South._
+
+- **ICANN–NIXI Seminar on DNS Policy and Security**, New Delhi.  
+  _Presentation on governance models and open standards in Internet infrastructure._
+
+## Events and Panels Participated
+
+Sunil Abraham has been invited to a wide range of international and national events as a **speaker, panellist, or moderator**, engaging with policymakers, technologists, and civil society actors on issues of openness, privacy, and governance.
+
+- **UN Internet Governance Forum (IGF)** — Regular participant and panellist on topics of openness, privacy, and access to knowledge.  
+  _Spoke on themes including net neutrality, global governance reform, and the digital commons._
+
+- **RightsCon** — Panellist in multiple editions hosted by Access Now.  
+  _Discussed privacy frameworks, data protection, and intermediary liability in the Global South._
+
+- **Open World Forum**, Paris.  
+  _Session chair on “Open Innovation and Development”._
+
+- **ITU World Summit on the Information Society (WSIS)**.  
+  _Represented Indian civil society perspectives on open source and public policy._
+
+- **APC Global Meeting on Internet Rights and Principles**, Bali.  
+  _Facilitated regional discussion on Internet rights and governance reform._
+
+- **National Consultation on Privacy and Surveillance**, organised by CIS and the Internet Democracy Project, New Delhi.  
+  _Delivered remarks on balancing transparency with privacy in Indian governance._
 
 ## Media and Documentary Work
 
-- Featured in **“When Copyright Goes Bad”**, a film by Ben Cato Clough and Luke Upchurch.  
-  *Exploring the cultural and consumer impact of copyright in the digital age.*
+- **"When Copyright Goes Bad"** — Documentary by Ben Cato Clough and Luke Upchurch.  
+  _Sunil Abraham featured as an expert voice examining the cultural and consumer impact of restrictive copyright regimes._  
+  *Screened at international film festivals and broadcast on select networks.*
 
-- Lead interviewer and script consultant for the **UNDP–UNESCO–IDRC FOSS Documentary**, aired on BBC World (2006).  
-  *Documenting the rise of open source and collaborative development across Asia.*
-
-## Lectures and Presentations
-
-Sunil has lectured at universities and international conferences, including:
-
-- University of Hyderabad  
-- Tata Institute of Social Sciences (TISS), Mumbai  
-- International School on Digital Transformation, Porto, Portugal  
-- CATFOSS, Ernakulam  
-
-His lectures often combine policy, technology, and ethics — addressing how open systems and free software shape social progress.
+- **UNDP–UNESCO–IDRC FOSS Documentary** (2006) — *BBC World broadcast.*  
+  _Served as lead interviewer and script consultant._  
+  _Documentary chronicling the rise of open source software and collaborative developm_
