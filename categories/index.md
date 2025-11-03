@@ -11,19 +11,21 @@ permalink: /categories/
 <h2>All Categories</h2>
 
 <ul>
-  {% assign category_names = "" | split: "" %}
+  {% assign all_categories = "" | split: "" %}
 
   {% for page in site.pages %}
     {% if page.categories %}
       {% for cat in page.categories %}
-        {% assign category_names = category_names | push: cat %}
+        {% unless all_categories contains cat %}
+          {% assign all_categories = all_categories | push: cat %}
+        {% endunless %}
       {% endfor %}
     {% endif %}
   {% endfor %}
 
-  {% assign unique_categories = category_names | uniq | sort %}
+  {% assign sorted_categories = all_categories | sort %}
 
-  {% for cat in unique_categories %}
+  {% for cat in sorted_categories %}
     {% assign cat_slug = cat | slugify %}
     {% assign formatted_name = cat | split: " " | map: "capitalize" | join: " " %}
     <li>
