@@ -39,31 +39,46 @@ The discourse on Internet governance has expanded rapidly over the past two deca
 - **Balancing Competing Interests:** The research underscores India’s effort to navigate tensions between security imperatives, economic growth, and global collaboration.
 
 ## Read 
-<div class="pdf-viewer">
-  <iframe src="/publications/files/indias-contribution-to-internet-governance-debates.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;">
-  </iframe>
-  <p style="text-align: center; margin-top: 0.5rem;">
-    <a href="/publications/files/indias-contribution-to-internet-governance-debates.pdf" download>
-      📄 Download Full Text (PDF)
+<div class="pdf-container">
+  <!-- Desktop & large screens -->
+  <iframe
+    src="https://docs.google.com/gview?url=https://sunilabraham.in/publications/files/indias-contribution-to-internet-governance-debates.pdf&embedded=true"
+    frameborder="0"
+    class="pdf-frame"
+    title="Embedded PDF Viewer"
+  ></iframe>
+
+  <!-- Fallback download link -->
+  <p class="pdf-download">
+    📄 <a href="/publications/files/indias-contribution-to-internet-governance-debates.pdf" download>
+      Download Full Text (PDF)
     </a>
   </p>
 </div>
 
 <style>
-.pdf-viewer iframe {
+.pdf-container {
+  margin: 1.2rem 0;
+  text-align: center;
+}
+
+.pdf-frame {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   border: 1px solid #ccc;
   border-radius: 8px;
 }
 
+.pdf-download {
+  margin-top: 0.6rem;
+  font-size: 1rem;
+}
+
 @media (max-width: 768px) {
-  .pdf-viewer iframe {
-    height: 60vh;
-  }
-  .pdf-viewer a {
-    font-size: 1rem;
+  .pdf-frame {
+    height: 65vh;
   }
 }
 </style>
+
 
