@@ -9,19 +9,27 @@ permalink: /categories/
 <p>This section serves as a directory of all content categories published on <strong>sunilabraham.in</strong>. Browse through collections of videos, books, biographies, and project pages to explore related material and archived work.</p>
 
 <h2>All Categories</h2>
-
 <ul>
-  {% comment %}
-    Collect all categories from pages
-  {% endcomment %}
-  {% assign all_cats = site.pages | map: "categories" | compact | join: "," | split: "," | uniq | sort %}
+  {% assign all_categories = "" | split: "" %}
 
-  {% for cat in all_cats %}
+  {% for page in site.pages %}
+    {% if page.categories %}
+      {% for cat in page.categories %}
+        {% unless all_categories contains cat %}
+          {% assign all_categories = all_categories | push: cat %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% comment %}
+    Build correct links: slugify the category name first, then append to '/categories/'.
+  {% endcomment %}
+  {% for cat in all_categories %}
     {% assign cat_slug = cat | slugify %}
-    {% assign formatted_name = cat | split: " " | map: "capitalize" | join: " " %}
     <li>
       <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}">
-        {{ formatted_name }}
+        {{ cat | capitalize }}
       </a>
       ({{ site.pages | where_exp: "p", "p.categories contains cat" | size }} items)
     </li>
