@@ -21,11 +21,59 @@ pdf: /publications/files/indias-contribution-to-internet-governance-debates.pdf
 
 ## Publication Details
 
-**Authors:** Sunil Abraham, Mukta Batra, Geetha Hariharan, Swaraj Barooah, and Akriti Bopanna  
-**Published in:** *Student Law Journal, National Law University Delhi*  
-**Date:** 2018  
-**Type:** Research Article  
-[Download PDF](/publications/files/indias-contribution-to-internet-governance-debates.pdf)
+<dl class="pub-details">
+  <dt>👤 Authors:</dt>
+  <dd>Sunil Abraham, Mukta Batra, Geetha Hariharan, Swaraj Barooah, and Akriti Bopanna</dd>
+
+  <dt>🏛️ Published in:</dt>
+  <dd><em>Student Law Journal, National Law University Delhi</em></dd>
+
+  <dt>📅 Date:</dt>
+  <dd>2018</dd>
+
+  <dt>📘 Type:</dt>
+  <dd>Research Article</dd>
+
+  <dt>📄 Access:</dt>
+  <dd><a class="btn" href="/publications/files/indias-contribution-to-internet-governance-debates.pdf" download>Download PDF</a></dd>
+</dl>
+
+<style>
+.pub-details {
+  background: #f9fbfe;
+  border: 1px solid #d8e2f0;
+  border-radius: 10px;
+  padding: 1.2rem 1.4rem;
+  max-width: 700px;
+  margin: 1.2rem auto;
+  font-size: 0.96rem;
+  line-height: 1.5;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+.pub-details dt {
+  font-weight: 600;
+  color: #1b2a49;
+  margin-top: 0.7rem;
+}
+.pub-details dd {
+  margin: 0 0 0.3rem 0.3rem;
+  color: #555;
+}
+.pub-details a.btn {
+  display: inline-block;
+  background: #3278d6;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+.pub-details a.btn:hover {
+  background: #255ea9;
+}
+</style>
 
 ## Abstract
 
