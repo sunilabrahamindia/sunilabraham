@@ -181,10 +181,13 @@ https://sunilabraham.in/publications/indias-contribution-to-internet-governance-
 }
 
 .pdf-frame {
+  display: block;
   width: 100%;
+  max-width: 100%;
   height: 80vh;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 8px;
+  margin: 0 auto;
 }
 
 .pdf-download {
