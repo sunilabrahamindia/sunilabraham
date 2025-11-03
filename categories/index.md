@@ -31,7 +31,7 @@ permalink: /categories/
       <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}">
         {{ cat }}
       </a>
-      ({{ site.pages | where_exp: "p", "p.categories contains cat" | size }} items)
+      ({{ site.pages | where_exp: "p", "p.categories contains cat" | size }} pages)
     </li>
   {% endfor %}
 </ul>
