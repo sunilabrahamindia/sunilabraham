@@ -40,12 +40,13 @@ body {
 /* Brighter, balanced gradient */
 background: linear-gradient(
   270deg,
-  #d9d9d9, /* light grey from #343434 */
-  #cfe1f5, /* soft blue from #86aad8 */
-  #eaf0b2, /* soft lime from #c2ce4e */
-  #f3f6cd, /* pale yellow-green from #dbe28f */
-  #f5b2a9, /* soft coral from #e07c70 */
-  #bdf0c3  /* light mint from #6fce7a */
+  #e8f1ff,  /* light blue */
+  #f5e8ff,  /* lavender */
+  #fff0e8,  /* peach */
+  #fff8e8,  /* soft yellow */
+  #ffe8e8,  /* pale red */
+  #e8fff0,  /* mint green */
+  #e8f8ff   /* icy blue */
 );
 
   background-size: 800% 800%;
