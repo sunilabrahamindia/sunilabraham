@@ -29,7 +29,7 @@ permalink: /categories/
     {% assign cat_slug = cat | slugify %}
     <li>
       <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}">
-        {{ cat | capitalize }}
+        {{ cat }}
       </a>
       ({{ site.pages | where_exp: "p", "p.categories contains cat" | size }} items)
     </li>
