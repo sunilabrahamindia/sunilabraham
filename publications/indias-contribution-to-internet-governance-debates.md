@@ -105,6 +105,7 @@ The discourse on Internet governance has expanded rapidly over the past two deca
     frameborder="0"
     class="pdf-frame"
     title="Embedded PDF Viewer"
+    loading="lazy"
   ></iframe>
 
   <!-- Fallback download link -->
