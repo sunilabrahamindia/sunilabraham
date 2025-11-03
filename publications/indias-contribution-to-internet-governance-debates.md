@@ -125,5 +125,57 @@ Student Law Journal, National Law University Delhi, 2018.
 https://sunilabraham.in/publications/indias-contribution-to-internet-governance-debates/
 ```
 
+<style>
+.pdf-container {
+  margin: 1.2rem 0;
+  text-align: center;
+}
+
+.pdf-frame {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.pdf-download {
+  margin-top: 0.6rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .pdf-frame {
+    height: 65vh;
+  }
+}
+
+/* =============================
+   Responsive Citation Blocks
+   ============================= */
+pre, code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+}
+
+pre {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  pre {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+}
+</style>
+
 {% include back-to-top.html %}
 
