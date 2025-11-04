@@ -85,7 +85,7 @@ This article explores the dynamic relationship between security, privacy, and tr
 
 ## Context and Background
 
-The authors draw on five years of research and advocacy in privacy and data protection. Their work includes participation in the **Justice A.P. Shah Committee**, which shaped the draft Privacy Bill being developed by the Department of Personnel and Training (DoPT). They also led the organisation of **eleven multistakeholder roundtables** across India to discuss a shadow Privacy Bill drafted by the Centre for Internet and Society (CIS), with contributions from privacy commissioners and data protection authorities from Europe and Canada.
+The authors draw on five years of research and advocacy in privacy and data protection. Their work includes participation in the Justice A.P. Shah Committee, which shaped the draft Privacy Bill being developed by the Department of Personnel and Training (DoPT). They also led the organisation of eleven multistakeholder roundtables across India to discuss a shadow Privacy Bill drafted by the Centre for Internet and Society (CIS), with contributions from privacy commissioners and data protection authorities from Europe and Canada.
 
 Through these engagements, the paper situates India's privacy debate in a global policy context, emphasising the importance of participatory dialogue in shaping technology governance. The authors note that transparency and accountability must evolve alongside security measures to maintain public trust.
 
