@@ -55,7 +55,7 @@ Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth:
     style="width:90%; height:auto; max-width:600px; border-radius:8px;">
 </div>
 
-**Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his pioneering work at the intersection of technology, society, and governance.  
+**Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his work at the intersection of technology, society, and governance.  
 
 Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.  
 
