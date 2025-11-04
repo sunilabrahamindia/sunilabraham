@@ -5,6 +5,8 @@ categories: [Project pages, Publications]
 description: "Collection of published works, papers, and writings by Sunil Abraham on open knowledge, digital culture, and the social impact of technology, including reports, articles, and edited volumes."
 ---
 
+{% include under-construction.html %}
+
 The **Sunil Abraham Project** curates and archives the published works, papers, and writings of **Sunil Abraham**, focusing on open knowledge, digital culture, and the social impact of technology.  
 These publications reflect years of engagement in Free and Open Source Software (FOSS), Internet governance, and open access movements.
 
@@ -267,55 +269,3 @@ His talks often focus on openness, ethics, and governance in digital systems.
 - **Internet Governance Forum (IGF)** — multiple years.  
   _Participation in global multistakeholder dialogues on digital rights._
 
-### University Lectures
-
-- **University of Hyderabad** — Lecture on *Open Access and Digital Knowledge Commons.*  
-- **Tata Institute of Social Sciences (TISS), Mumbai** — Lecture on *Technology, Policy, and Social Change.*  
-- **National Law School of India University (NLSIU), Bengaluru** — Guest seminar on *Internet Governance and Legal Frameworks.*  
-- **Jawaharlal Nehru University (JNU)** — Lecture on *Digital Sovereignty and Global Internet Politics.*
-
-### Workshops and Seminars
-
-- **CATFOSS Workshop**, Ernakulam.  
-  _Interactive session on the evolution of Free and Open Source Software (FOSS) in India._
-
-- **UNESCO Workshop on Open Educational Resources**, New Delhi.  
-  _Facilitated session on licensing, policy frameworks, and implementation._
-
-- **APC Regional Workshop on Internet Rights**, Jakarta.  
-  _Led discussions on privacy and freedom of expression in the Global South._
-
-- **ICANN–NIXI Seminar on DNS Policy and Security**, New Delhi.  
-  _Presentation on governance models and open standards in Internet infrastructure._
-
-## Events and Panels Participated
-
-Sunil Abraham has been invited to a wide range of international and national events as a **speaker, panellist, or moderator**, engaging with policymakers, technologists, and civil society actors on issues of openness, privacy, and governance.
-
-- **UN Internet Governance Forum (IGF)** — Regular participant and panellist on topics of openness, privacy, and access to knowledge.  
-  _Spoke on themes including net neutrality, global governance reform, and the digital commons._
-
-- **RightsCon** — Panellist in multiple editions hosted by Access Now.  
-  _Discussed privacy frameworks, data protection, and intermediary liability in the Global South._
-
-- **Open World Forum**, Paris.  
-  _Session chair on “Open Innovation and Development”._
-
-- **ITU World Summit on the Information Society (WSIS)**.  
-  _Represented Indian civil society perspectives on open source and public policy._
-
-- **APC Global Meeting on Internet Rights and Principles**, Bali.  
-  _Facilitated regional discussion on Internet rights and governance reform._
-
-- **National Consultation on Privacy and Surveillance**, organised by CIS and the Internet Democracy Project, New Delhi.  
-  _Delivered remarks on balancing transparency with privacy in Indian governance._
-
-## Media and Documentary Work
-
-- **"When Copyright Goes Bad"** — Documentary by Ben Cato Clough and Luke Upchurch.  
-  _Sunil Abraham featured as an expert voice examining the cultural and consumer impact of restrictive copyright regimes._  
-  *Screened at international film festivals and broadcast on select networks.*
-
-- **UNDP–UNESCO–IDRC FOSS Documentary** (2006) — *BBC World broadcast.*  
-  _Served as lead interviewer and script consultant._  
-  _Documentary chronicling the rise of open source software and collaborative developm_
