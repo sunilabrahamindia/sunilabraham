@@ -37,10 +37,8 @@ description: "Complete list of all public pages, categories, and posts on sunila
 {% for cat in category_pages %}
   {% if cat.title %}
     {% assign cat_name = cat.title | remove: 'Category:' | strip %}
-    {% assign cat_count = site.pages | where_exp: "p", "p.categories contains cat_name" | size %}
     <li>
       <a href="{{ cat.url | relative_url }}">{{ cat_name }}</a>
-      <span class="count">({{ cat_count }})</span>
       {% if cat.description %}
         <br><small>{{ cat.description }}</small>
       {% endif %}
