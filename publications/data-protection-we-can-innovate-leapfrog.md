@@ -2,7 +2,7 @@
 layout: default
 title: "Data Protection: We can innovate, leapfrog"
 description: "An opinion column by Sunil Abraham in Deccan Herald outlining India's opportunity to innovate on data protection through novel intermediary models and accountability mechanisms."
-categories: [Media, Newspaper, Publications]
+categories: [Media, Publications]
 date: 2018-01-20
 authors: ["Sunil Abraham"]
 source: "Deccan Herald"
@@ -36,7 +36,7 @@ The column explores how India can design innovative, accountable, and citizen-ce
 
   <dt>📰 Newspaper Link:</dt>
   <dd>
-    <a class="btn" href="{{ page.newspaper }}" target="_blank">
+    <a class="btn" href="https://www.deccanherald.com/content/655018/data-protection-we-can-innovate.html">
       Read Online
     </a>
   </dd>
