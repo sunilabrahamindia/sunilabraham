@@ -41,8 +41,6 @@ Link unavailable
 ## Full Text
 
 <div class="highlighted-text" id="fulltext">
-  <p>The article was originally published in <em>GeneWatch</em> (January–April 2014) issue.</p>
-
   <p>Why should an organisation that focuses on the Internet be invited to such a committee? There are some obvious reasons related to data protection and big data. CIS had previously served on the Justice A. P. Shah committee that was tasked by the Planning Commission to make recommendations on the draft Privacy Bill in 2012. There are also some less obvious connections, such as academic research into cyborgs wherein the distinction between human and machine or technology is blurred; where an insulin pump makes one realise that the Internet of Things could include the Internet of Body Parts. But for this note I will focus on biometrics — quantifiable data related to individual human characteristics — and their gate-keeping function on the Internet.</p>
 
   <p>The bouquet of biometric options available to technologists is steadily expanding — fingerprint, palm print, face recognition, DNA, iris, retina, scent, typing rhythm, gait, and voice. Biometrics could be used as authentication or identification to ensure security and privacy. However, biometrics are different from other types of authentication and identification factors in three important ways that have implications for human rights in information societies and the Internet.</p>
@@ -67,9 +65,6 @@ Link unavailable
 ## Context and Background
 
 This article, written during the debates around India's proposed Human DNA Profiling Bill, connects biometric data practices to broader Internet governance concerns. Sunil Abraham calls for embedding transparency and accountability into technology through free software, open standards, and open hardware — ensuring that the march toward digital governance respects human rights.
-
-{% include back-to-top.html %}
-
 
 <style>
 .media-details {
