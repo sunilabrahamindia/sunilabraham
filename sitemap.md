@@ -9,7 +9,7 @@ description: "Complete list of all public pages, categories, and posts on sunila
 <p>Below is the complete sitemap of <strong>sunilabraham.in</strong>, divided into <em>Pages</em>, <em>Categories</em>, and <em>Posts</em> for easy browsing.</p>
 
 <!-- =========================================================
-     Pages (excluding category and system pages)
+     Pages (excluding categories and system pages) 
      ========================================================= -->
 <h2>Pages</h2>
 <ol class="sitemap-list">
