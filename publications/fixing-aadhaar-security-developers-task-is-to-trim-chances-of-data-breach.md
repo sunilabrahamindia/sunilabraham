@@ -43,6 +43,7 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 </figure>
 
 ## Full Text
+
 <div class="highlighted-text" id="fulltext">
 I feel no joy when my prophecies about digital identity systems come true. This is because from a Popperian perspective these are low-risk prophecies. I had said that all centralised identity databases will be breached in the future. That may or may not happen within my lifetime, so I can go to my grave without worries about being proven wrong. Therefore, the task before a security developer is not only to reduce the probability but, more importantly, to eliminate the possibility of certain occurrences.
 
