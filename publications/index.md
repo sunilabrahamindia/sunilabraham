@@ -199,10 +199,10 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/indias-digital-check/){: .btn}
 
 - *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
-  [Read online](https://cis-india.org/internet-governance/blog/deccan-chronicle-september-9-2013-sunil-abraham-privacy-law-must-fit-the-bill)
+  [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
 
 - *"Very Big Brother"* — *Council for Responsible Genetics*, 2014.  
-  [Read online](https://cis-india.org/internet-governance/blog/council-for-responsible-genetics-april-2014-sunil-abraham-very-big-brother)
+  [Read here](/publications/very-big-brother){: .btn}
 
 ### International Publications
 
