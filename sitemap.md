@@ -38,9 +38,15 @@ description: "Complete list of all public pages, categories, and posts on sunila
   {% if cat.title %}
     {% assign cat_name = cat.title | remove: 'Category:' | strip %}
     {% assign cat_count = site.pages | where_exp: "p", "p.categories contains cat_name" | size %}
-    {% if cat_count == 0 and cat.url contains '/categories/' and cat.url endswith '/categories/' %}
+
+    {%- comment -%}
+      Fix: The main Categories index.md page (/categories/) should show 
+      the total number of category pages, not zero.
+    {%- endcomment -%}
+    {% if cat_count == 0 and cat.url == '/categories/' %}
       {% assign cat_count = category_pages.size %}
     {% endif %}
+
     <li>
       <a href="{{ cat.url | relative_url }}">{{ cat_name }}</a>
       <span class="count">({{ cat_count }})</span>
@@ -51,6 +57,7 @@ description: "Complete list of all public pages, categories, and posts on sunila
   {% endif %}
 {% endfor %}
 </ol>
+
 
 <!-- =========================================================
      Posts (with publication date)
