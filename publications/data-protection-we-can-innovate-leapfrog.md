@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Data Protection: We can innovate, leapfrog"
+title: "Data Protection: We Can Innovate, Leapfrog"
 description: "An opinion column by Sunil Abraham in Deccan Herald outlining India's opportunity to innovate on data protection through novel intermediary models and accountability mechanisms."
 categories: [Media articles, Publications]
 date: 2018-01-20
@@ -9,7 +9,7 @@ source: "Deccan Herald"
 permalink: /publications/data-protection-we-can-innovate-leapfrog/
 ---
 
-**Data Protection: We can innovate, leapfrog** is an opinion article by Sunil Abraham, published in *Deccan Herald* on 20 January 2018.  
+**Data Protection: We Can Innovate, Leapfrog** is an opinion article by Sunil Abraham, published in *Deccan Herald* on 20 January 2018.  
 The column explores how India can design innovative, accountable, and citizen-centric data protection frameworks rather than merely copying the European Union’s GDPR model.  
 
 ## Contents
@@ -51,7 +51,7 @@ The column explores how India can design innovative, accountable, and citizen-ce
 
   <p>Unlike the European Union, which has more than 37 years of experience with data protection law, India is starting afresh after the Supreme Court confirmed privacy as a constitutionally guaranteed fundamental right in the *Puttaswamy* judgement. While maintaining compatibility with the EU’s General Data Protection Regulation (GDPR) is important, India now has the opportunity to leapfrog and innovate in its data protection framework.</p>
 
-  <p>This article introduces three intermediary models emerging within India’s data protection debate — each designed to enhance accountability — and concludes with a proposal from the Centre for Internet and Society.</p>
+  <p>This article introduces three intermediary models emerging within India's data protection debate — each designed to enhance accountability — and concludes with a proposal from the Centre for Internet and Society.</p>
 
   <p><strong>Account Aggregators:</strong> The ‘India Stack’ ecosystem first proposed intermediaries called Account Aggregators to manage consent artefacts. India Stack has traditionally been described as having four layers — presenceless, paperless, cashless, and consent. The consent layer would feature these Aggregators. For example, when a user seeks an insurance policy, the portal collects personal information and consent, which is shared with multiple insurance companies that respond with personalised bids. However, while Account Aggregators make it easier to give and harvest consent, they do not simplify revocation.</p>
 
