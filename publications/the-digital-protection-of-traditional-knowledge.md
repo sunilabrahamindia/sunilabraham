@@ -116,7 +116,7 @@ The chapter situates the TKDL within India’s long-standing struggle to balance
 
 {% include back-to-top.html %}
 
-## Full Text
+## Full Book
 <div class="pdf-container">
   <iframe
     src="https://docs.google.com/gview?url=https://sunilabraham.in/publications/files/the-digital-protection-of-traditional-knowledge.pdf&embedded=true"
@@ -128,7 +128,7 @@ The chapter situates the TKDL within India’s long-standing struggle to balance
 
   <p class="pdf-download">
     <a class="btn" href="/publications/files/the-digital-protection-of-traditional-knowledge.pdf" download>
-      📄 Download Full Chapter (PDF)
+      📄 Download Full Book (PDF)
     </a>
   </p>
 </div>
