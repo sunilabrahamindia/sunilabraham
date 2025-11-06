@@ -2,7 +2,7 @@
 layout: default
 title: "Surveillance Project"
 description: "A critical analysis of the Aadhaar programme and its implications for surveillance, privacy, and citizen rights in India."
-categories: [Publications, Book Chapters]
+categories: [Book chapters, Publications]
 date: 2018-01-01
 authors: ["Sunil Abraham"]
 book: "Dissent on Aadhaar: Big Data Meets Big Brother"
@@ -195,3 +195,94 @@ Orient Blackswan, 2018, pp. 45–62. e-edition: First Published 2019,
 eISBN 978-93-5287-627-3.
 https://sunilabraham.in/publications/surveillance-project/
 ```
+
+<style>
+.pdf-container {
+  margin: 1.2rem 0;
+  text-align: center;
+}
+
+.pdf-frame {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 80vh;
+  border: none;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.pdf-download {
+  margin-top: 0.6rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .pdf-frame {
+    height: 65vh;
+  }
+}
+
+/* =============================
+   Responsive Citation Blocks
+   ============================= */
+pre, code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+}
+
+pre {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  pre {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+}
+</style>
+
+<script>
+document.querySelectorAll('pre > code').forEach(block => {
+  const button = document.createElement('button');
+  button.textContent = 'Copy';
+  button.className = 'copy-btn';
+  block.parentNode.style.position = 'relative';
+  block.parentNode.appendChild(button);
+
+  button.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(block.innerText);
+    button.textContent = 'Copied!';
+    setTimeout(() => (button.textContent = 'Copy'), 1500);
+  });
+});
+</script>
+
+<style>
+.copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.copy-btn:hover {
+  background: #e5e5e5;
+}
+</style>
+
+{% include back-to-top.html %}
+
