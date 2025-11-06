@@ -448,16 +448,35 @@ h6:hover .header-link {
    ========================================================= */
 .btn {
   display: inline-block;
-  background-color: #004b23;
+  background-color: #004b23;   /* Normal state: dark green */
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
+/* Slightly brighter on hover for feedback */
 .btn:hover {
+  background-color: #00854d;   /* Hover state: accessible green */
+  transform: translateY(-1px); /* Subtle lift effect for interactivity */
+}
+
+/* Ensure buttons are not affected by normal link hover styles */
+a.btn,
+a.btn:hover,
+a.btn:focus {
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+/* Optional: active/focus state for accessibility */
+.btn:active,
+.btn:focus {
   background-color: #006837;
+  box-shadow: 0 0 0 3px rgba(0, 133, 77, 0.3);
 }
 
