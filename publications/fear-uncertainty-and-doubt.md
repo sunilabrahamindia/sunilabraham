@@ -16,7 +16,6 @@ permalink: /publications/fear-uncertainty-and-doubt/
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
 3. [Context and Background](#context-and-background)  
-4. [External Link](#external-link)
 
 ## Article Details
 
