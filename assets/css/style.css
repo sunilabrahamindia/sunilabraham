@@ -129,11 +129,49 @@ background: linear-gradient(
   }
 }
 
+/* =========================================================
+   Site Description Animation (Subtle, Calm, Accessible)
+   ========================================================= */
 .site-header p {
   font-size: 1rem;
   color: #444;
   margin: 0;
-  opacity: 0.9;
+  opacity: 0;
+  letter-spacing: 0.2px;
+  animation:
+    fadeInDescription 1.4s ease-out 0.4s forwards,
+    breatheDescription 10s ease-in-out 1.8s infinite;
+}
+
+/* Fade in with slight letter-spacing expansion */
+@keyframes fadeInDescription {
+  0% {
+    opacity: 0;
+    letter-spacing: 1.2px;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    letter-spacing: 0.2px;
+    transform: translateY(0);
+  }
+}
+
+/* Gentle breathing opacity cycle */
+@keyframes breatheDescription {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.93;
+  }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .site-header p {
+    animation: fadeInDescription 1.4s ease-out 0.4s forwards;
+  }
 }
 
 /* =========================================================
