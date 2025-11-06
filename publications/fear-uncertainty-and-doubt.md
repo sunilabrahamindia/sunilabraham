@@ -85,6 +85,11 @@ Sunil Abraham clarifies that several other legal provisions — including those 
 {% include back-to-top.html %}
 
 <style>
+/* ===============================
+   Media Article Styles (Unified)
+   =============================== */
+
+/* --- Article Details Box --- */
 .media-details {
   background: #f9fbfe;
   border: 1px solid #d8e2f0;
@@ -106,6 +111,39 @@ Sunil Abraham clarifies that several other legal provisions — including those 
   margin: 0 0 0.3rem 0.3rem;
   color: #555;
 }
+
+/* --- Responsive Newspaper Image --- */
+.media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 720px;
+  width: 100%;
+}
+.media-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  object-fit: contain;
+}
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+}
+@media (max-width: 768px) {
+  .media-image {
+    margin: 1rem auto;
+  }
+  .media-image img {
+    border-radius: 6px;
+  }
+}
+
+/* --- Highlighted Full Text Box --- */
 .highlighted-text {
   background-color: #fffbea;
   border-left: 4px solid #f2ce61;
@@ -119,6 +157,8 @@ Sunil Abraham clarifies that several other legal provisions — including those 
 .highlighted-text p {
   margin-bottom: 1rem;
 }
+
+/* --- Copy Full Text Button --- */
 .copy-btn-full {
   display: inline-block;
   background: #f1f1f1;
@@ -133,6 +173,8 @@ Sunil Abraham clarifies that several other legal provisions — including those 
 .copy-btn-full:hover {
   background: #e5e5e5;
 }
+
+/* --- Generic Button (for Newspaper Links etc.) --- */
 a.btn {
   display: inline-block;
   background: #3278d6;
