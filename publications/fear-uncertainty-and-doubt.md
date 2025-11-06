@@ -36,13 +36,14 @@ permalink: /publications/fear-uncertainty-and-doubt/
   <dt>📰 Newspaper Link:</dt>
   <dd>
     Not available
-    </a>
   </dd>
 </dl>
 
 <figure class="media-image">
-  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/fear-uncertainty-and-doubt.md.png"
-       alt="Newspaper scan of the article 'Fear, Uncertainty and Doubt' by Sunil Abraham, published in Deccan Chronicle on 26 March 2015.">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/fear-uncertainty-and-doubt.md.png">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/fear-uncertainty-and-doubt.md.png"
+         alt="Newspaper scan of the article 'Fear, Uncertainty and Doubt' by Sunil Abraham, published in Deccan Chronicle on 26 March 2015.">
+  </a>
   <figcaption>Scan of the original article as published in <em>Deccan Chronicle</em> (26 March 2015).</figcaption>
 </figure>
 
