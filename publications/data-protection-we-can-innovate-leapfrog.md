@@ -63,7 +63,6 @@ The column explores how India can design innovative, accountable, and citizen-ce
 
   <p>The need of the hour is to produce regulatory innovations and robust discussion around all nine privacy principles outlined by the Justice A. P. Shah Committee — notice, choice and consent, collection limitation, purpose limitation, access and correction, disclosure, security, openness, and accountability.</p>
 
-  <p><em>The writer is Executive Director, Centre for Internet and Society, Bengaluru.</em></p>
 </div>
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
@@ -72,7 +71,7 @@ The column explores how India can design innovative, accountable, and citizen-ce
 
 ## Context and Background
 
-This column was published in the months following India’s landmark *Puttaswamy* privacy judgement, during the drafting of the country’s first data protection bill.
+This column was published in the months following India's landmark *Puttaswamy* privacy judgement, during the drafting of the country’s first data protection bill.
 
 Sunil Abraham positions India’s regulatory infancy as an opportunity to leapfrog — by creating novel accountability intermediaries that blend innovation with citizen rights protection.
 
