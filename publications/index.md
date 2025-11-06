@@ -186,17 +186,17 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics* — *Firstpost*, 2016.  
   [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
 
-- *"Wiki’s Worth, on a Different Turf"* — *Livemint*, 2015.  
+- *"Wiki's Worth, on a Different Turf"* — *Livemint*, 2015.  
   [Read online](https://cis-india.org/news/wiki-worth-different-turf)
 
 - *"Newspapers Should Empower Citizen Journalism"* — *DNA India*, 2009.  
   [Read online](https://cis-india.org/news/newspapers-should-empower-citizen-journalism)
 
 - *"Fear, Uncertainty and Doubt"* — *Deccan Chronicle*, 2015.  
-  [Read online](https://cis-india.org/internet-governance/blog/deccan-chronicle-march-26-2015-sunil-abraham-fear-uncertainty-doubt)
+  [Read here](/publications/fear-uncertainty-and-doubt/){: .btn}
 
-- *"India’s Digital Check"* — *DNA India*, 2015.  
-  [Read online](https://www.dnaindia.com/analysis/column-india-s-digital-check-2102575)
+- *"India's Digital Check"* — *DNA India*, 2015.  
+  [Read here](/publications/indias-digital-check/){: .btn}
 
 - *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
   [Read online](https://cis-india.org/internet-governance/blog/deccan-chronicle-september-9-2013-sunil-abraham-privacy-law-must-fit-the-bill)
