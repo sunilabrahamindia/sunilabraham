@@ -9,20 +9,20 @@ description: "Complete list of all public pages, categories, and posts on sunila
 <p>Below is the complete sitemap of <strong>sunilabraham.in</strong>, divided into <em>Pages</em>, <em>Categories</em>, and <em>Posts</em> for easy browsing.</p>
 
 <!-- =========================================================
-     Pages (excluding categories)
+     Pages (excluding categories, layouts, templates)
      ========================================================= -->
 <h2>Pages</h2>
 <ol class="sitemap-list">
 {% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
-  {% comment %}
-    Show only real content pages:
-    - Must have a title
-    - Not the home page
-    - Not category pages
-    - Not 404 or layout/test pages
-  {% endcomment %}
-  {% if page.title and page.url != '/' and page.path contains 'categories/' == false and page.path contains 'templates/' == false and page.path contains '404' == false %}
+  {% assign path = page.path %}
+  {% if page.title and page.url != '/' 
+        and path contains 'categories/' == false
+        and path contains '_layouts' == false
+        and path contains '_includes' == false
+        and path contains '_templates' == false
+        and path contains '404' == false
+        and path contains 'sitemap' == false %}
     <li>
       <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
       {% if page.description %}
