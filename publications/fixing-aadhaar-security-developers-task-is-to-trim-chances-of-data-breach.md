@@ -45,19 +45,15 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 ## Full Text
 
 <div class="highlighted-text" id="fulltext">
-I feel no joy when my prophecies about digital identity systems come true. This is because from a Popperian perspective these are low-risk prophecies. I had said that all centralised identity databases will be breached in the future. That may or may not happen within my lifetime, so I can go to my grave without worries about being proven wrong. Therefore, the task before a security developer is not only to reduce the probability but, more importantly, to eliminate the possibility of certain occurrences.
+  <p>I feel no joy when my prophecies about digital identity systems come true. This is because from a Popperian perspective these are low-risk prophecies. I had said that all centralised identity databases will be breached in the future. That may or may not happen within my lifetime, so I can go to my grave without worries about being proven wrong. Therefore, the task before a security developer is not only to reduce the probability but, more importantly, to eliminate the possibility of certain occurrences.</p>
 
-The blame for fragility in digital identity systems today can be partially laid on a World Bank document titled *Ten Principles on Identification for Sustainable Development*, which has contributed to the harmonisation of approaches across jurisdictions. Principle three says, “Establishing a robust — unique, secure, and accurate — identity.” The keyword here is “a”. Like *The Lord of the Rings*, the World Bank wants “one digital ID to rule them all”. For Indians, this approach must be epistemologically repugnant as ours is a land which has recognised the multiplicity of truth since ancient times.
+  <p>The blame for fragility in digital identity systems today can be partially laid on a World Bank document titled <em>Ten Principles on Identification for Sustainable Development</em>, which has contributed to the harmonisation of approaches across jurisdictions. Principle three says, "Establishing a robust — unique, secure, and accurate — identity." The keyword here is "a". Like <em>The Lord of the Rings</em>, the World Bank wants "one digital ID to rule them all". For Indians, this approach must be epistemologically repugnant as ours is a land which has recognised the multiplicity of truth since ancient times.</p>
 
-In *Identities Research Project: Final Report* funded by the Omidyar Network and published by Caribou Digital, the number one finding is “people have always had, and managed, multiple personal identities”. And the fourth finding is “people select and combine identity elements for transactions during the course of everyday life”. As researchers they have employed indirect language; for laypersons, the key takeaway is that a single national ID for all persons and all purposes is an ahistorical and unworkable solution.
+  <p>In <em>Identities Research Project: Final Report</em>, funded by the Omidyar Network and published by Caribou Digital, the first key finding is that people have always had, and managed, multiple personal identities. Another finding shows that people select and combine different identity elements for everyday transactions. For laypersons, the essential takeaway is that a single national ID for all persons and all purposes is not only unworkable but also historically inaccurate.</p>
 
-There are many ways in which such an identity monoculture can be prevented. The traditional approach is followed in the United States — you could have multiple documents that are accepted as valid ID. Or you could have multiple identity providers issuing ID artefacts using an interoperable framework as they do in the United Kingdom. Another approach is tokenisation.
+  <p>To prevent an identity monoculture, nations can explore several models. The United States follows a traditional approach with multiple valid identification documents, while the United Kingdom uses a system of interoperable identity providers. India could adopt tokenisation — a process where each Authentication User Agency (AUA) and KYC User Agency (KUA) receives a cryptographically unique identifier, preventing cross-database correlation. This method was first proposed in the 2016 IIT Delhi paper <em>Privacy and Security of Aadhaar: A Computer Science Perspective</em> by Shweta Agrawal, Subhashis Banerjee, and Subodh Sharma.</p>
 
-The first time tokenisation was suggested in the Aadhaar context was in an academic paper published in August 2016 by Shweta Agrawal, Subhashis Banerjee and Subodh Sharma from IIT Delhi titled *Privacy and Security of Aadhaar: A Computer Science Perspective*. The paper, in its fourth key recommendation, says “cryptographically embed Aadhaar ID into Authentication User Agency (AUAs) and KYC User Agency (KUAs)–specific IDs making correlation impossible”. The paper considers several designs for such local identifiers.
-
-*Revoke all Aadhaar numbers that have been compromised, breached, leaked, illegally published or inadvertently disclosed, and regenerate new global identifiers.*
-
-There are many ways to prevent an identity monoculture. Tokenisation and multiple identity providers offer systemic resilience — they trim, if not eliminate, the chances of identity data breach. The challenge before security developers is not just to make Aadhaar harder to hack, but to re-architect it so that no single breach can ever compromise an entire nation’s data.
+  <p><em>Revoke all Aadhaar numbers that have been compromised, breached, leaked, illegally published, or inadvertently disclosed, and regenerate new global identifiers.</em> Tokenisation and multiple identity providers offer systemic resilience. They not only trim the chances of identity data breach but can eliminate the possibility of a nationwide compromise. The challenge before India's security developers is therefore not just to make Aadhaar harder to hack, but to re-architect it so that no single breach can ever expose the entire population's data.</p>
 </div>
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
@@ -76,7 +72,7 @@ Sunil Abraham's argument anticipates many of the recommendations later echoed in
   Security developers must design to *eliminate* breaches, not merely reduce their probability.  
 
 - **Global development frameworks often promote monocultures.**  
-  The World Bank’s “one ID to rule them all” approach ignores cultural and epistemological diversity.  
+  The World Bank’s "one ID to rule them all" approach ignores cultural and epistemological diversity.  
 
 - **India’s identity system should recognise multiplicity.**  
   People manage multiple identities in practice; digital policy should reflect this lived reality.  
@@ -133,19 +129,48 @@ Sunil Abraham's argument anticipates many of the recommendations later echoed in
   color: #555;
   margin-top: 0.5rem;
 }
+.highlighted-text {
+  background-color: #fffbea;
+  border-left: 4px solid #f2ce61;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  line-height: 1.65;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
+}
+.highlighted-text p {
+  margin-bottom: 1rem;
+}
+.copy-btn-full {
+  display: inline-block;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-bottom: 1.5rem;
+}
+.copy-btn-full:hover {
+  background: #e5e5e5;
+}
 </style>
 
 <script>
-document.querySelectorAll('.copy-btn-full').forEach(button => {
-  button.addEventListener('click', async () => {
-    const targetSelector = button.getAttribute('data-copytarget');
-    const targetElement = document.querySelector(targetSelector);
-    if (targetElement) {
-      const text = targetElement.innerText.trim();
-      await navigator.clipboard.writeText(text);
-      button.textContent = 'Copied!';
-      setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
-    }
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.copy-btn-full').forEach(button => {
+    button.addEventListener('click', async () => {
+      const targetSelector = button.getAttribute('data-copytarget');
+      const targetElement = document.querySelector(targetSelector);
+      if (targetElement) {
+        const text = targetElement.innerText.trim();
+        await navigator.clipboard.writeText(text);
+        button.textContent = 'Copied!';
+        setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
+      }
+    });
   });
 });
 </script>
