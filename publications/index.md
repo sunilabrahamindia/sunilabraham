@@ -33,7 +33,7 @@ These publications reflect years of engagement in Free and Open Source Software 
   In *Global Information Society Watch 2016*.  
   *Association for Progressive Communications, 2016.*  
   _Explores policy dilemmas around digital preservation and ownership of traditional knowledge._  
-  [Full text (PDF)](https://giswatch.org/sites/default/files/giswatch2016_web.pdf)
+  [Read here](/publications/the-digital-protection-of-traditional-knowledge/){: .btn}
 
 - **"Eavesdropping on the Freedom of Expression in India"** — In *Free Speech and Censorship around the Globe*, edited by Peter Molnar.  
   *Central European University Press, 2015.*  
