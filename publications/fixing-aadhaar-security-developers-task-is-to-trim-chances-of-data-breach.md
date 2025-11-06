@@ -9,7 +9,7 @@ source: "Business Standard"
 permalink: /publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/
 ---
 
-**Fixing Aadhaar: Security developers' task is to trim chances of data breach** is an opinion piece by **Sunil Abraham**, originally published in *Business Standard* on **10 January 2018**.  
+**Fixing Aadhaar: Security developers' task is to trim chances of data breach** is an opinion piece by Sunil Abraham, originally published in *Business Standard* on 10 January 2018.  
 The column analyses the fragility of centralised identity systems like Aadhaar and argues for systemic design changes such as tokenisation and multi-identifier frameworks to eliminate the possibility of large-scale breaches.
 
 ## Contents
@@ -43,7 +43,7 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 </figure>
 
 ## Full Text
-
+<div class="highlighted-text" id="fulltext">
 I feel no joy when my prophecies about digital identity systems come true. This is because from a Popperian perspective these are low-risk prophecies. I had said that all centralised identity databases will be breached in the future. That may or may not happen within my lifetime, so I can go to my grave without worries about being proven wrong. Therefore, the task before a security developer is not only to reduce the probability but, more importantly, to eliminate the possibility of certain occurrences.
 
 The blame for fragility in digital identity systems today can be partially laid on a World Bank document titled *Ten Principles on Identification for Sustainable Development*, which has contributed to the harmonisation of approaches across jurisdictions. Principle three says, “Establishing a robust — unique, secure, and accurate — identity.” The keyword here is “a”. Like *The Lord of the Rings*, the World Bank wants “one digital ID to rule them all”. For Indians, this approach must be epistemologically repugnant as ours is a land which has recognised the multiplicity of truth since ancient times.
@@ -57,6 +57,9 @@ The first time tokenisation was suggested in the Aadhaar context was in an acade
 *Revoke all Aadhaar numbers that have been compromised, breached, leaked, illegally published or inadvertently disclosed, and regenerate new global identifiers.*
 
 There are many ways to prevent an identity monoculture. Tokenisation and multiple identity providers offer systemic resilience — they trim, if not eliminate, the chances of identity data breach. The challenge before security developers is not just to make Aadhaar harder to hack, but to re-architect it so that no single breach can ever compromise an entire nation’s data.
+</div>
+
+<button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
 {% include back-to-top.html %}
 
@@ -87,12 +90,9 @@ Sunil Abraham's argument anticipates many of the recommendations later echoed in
 
 ## External Link
 
-<p><strong>Read on Business Standard:</strong>  
-<a href="https://www.business-standard.com/article/opinion/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach-118010901281_1.html">https://www.business-standard.com/article/opinion/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach-118010901281_1.html</a></p>
+- [Read on Business Standard](https://www.business-standard.com/article/opinion/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach-118010901281_1.html)
 
 {% include back-to-top.html %}
-
----
 
 <style>
 .media-details {
@@ -133,3 +133,18 @@ Sunil Abraham's argument anticipates many of the recommendations later echoed in
   margin-top: 0.5rem;
 }
 </style>
+
+<script>
+document.querySelectorAll('.copy-btn-full').forEach(button => {
+  button.addEventListener('click', async () => {
+    const targetSelector = button.getAttribute('data-copytarget');
+    const targetElement = document.querySelector(targetSelector);
+    if (targetElement) {
+      const text = targetElement.innerText.trim();
+      await navigator.clipboard.writeText(text);
+      button.textContent = 'Copied!';
+      setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
+    }
+  });
+});
+</script>
