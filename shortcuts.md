@@ -18,10 +18,9 @@ These shortcuts are designed for accessibility, allowing easier navigation by ke
 | [`/a`](https://sunilabraham.in/a) | [`/about/`](https://sunilabraham.in/about/) | About Sunil Abraham |
 | [`/c`](https://sunilabraham.in/c) | [`/contact/`](https://sunilabraham.in/contact/) | Contact information |
 | [`/h`](https://sunilabraham.in/h) | [`/`](https://sunilabraham.in/) | Home page |
-| [`/p`](https://sunilabraham.in/p) | [`/projects/`](https://sunilabraham.in/projects/) | Research projects |
-| [`/s`](https://sunilabraham.in/s) | [`/speeches/`](https://sunilabraham.in/speeches/) | Speeches and talks |
+| [`/p`](https://sunilabraham.in/p) | [`/projects/`](https://sunilabraham.in/projects/) | Projects |
 | [`/u`](https://sunilabraham.in/u) | [`/publications/`](https://sunilabraham.in/publications/) | Publications, articles, and book chapters |
-| [`/v`](https://sunilabraham.in/v) | [`/videos/`](https://sunilabraham.in/videos/) | Recorded talks and media |
+| [`/v`](https://sunilabraham.in/v) | [`/videos/`](https://sunilabraham.in/videos/) | Videos |
 
 ---
 
