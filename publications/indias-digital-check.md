@@ -9,8 +9,7 @@ source: "DNA (Daily News & Analysis)"
 permalink: /publications/indias-digital-check/
 ---
 
-**India's Digital Check** is an opinion column by Sunil Abraham, published in *DNA (Daily News & Analysis)* on 8 July 2015.  
-The article critically examines the government’s *Digital India* initiative, analysing each of its nine pillars and providing recommendations on broadband policy, open data, free software, and education reform to strengthen digital transformation.
+**India's Digital Check** is an opinion column by Sunil Abraham, published in *DNA (Daily News & Analysis)* on 8 July 2015. The article critically examines the government’s *Digital India* initiative, analysing each of its nine pillars and providing recommendations on broadband policy, open data, free software, and education reform to strengthen digital transformation.
 
 ## Contents
 
