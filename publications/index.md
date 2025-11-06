@@ -50,32 +50,32 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **"India's Contribution to Internet Governance Debates"** — with Mukta Batra, Geetha Hariharan, Swaraj Barooah and Akriti Bopanna.  
   *Student Law Journal, National Law University Delhi, 2018.*  
   _Analyses India’s evolving role in global Internet governance processes._  
-  [Read online](https://cis-india.org/internet-governance/files/indias-contribution-to-internet-governance-debates/view)
+  [Read online](/publications/indias-contribution-to-internet-governance-debates)
 
 - **"Security: Privacy, Transparency and Technology"** — with Elonnai Hickok and Tarun Krishnakumar.  
   *Digital Debates 2015: CyFy Journal, Volume 2, Observer Research Foundation.*  
   _Examines the tension between privacy rights, transparency, and technological security in governance._  
-  [Read online](https://cis-india.org/internet-governance/blog/security-privacy-transparency-and-technology)
+  [Read online](/publications/security-privacy-transparency-and-technology)
 
 - **"Shreya Singhal and 66A"**  
   *Economic and Political Weekly, Vol. L, No. 15, April 2015.*  
   _A reflection on the landmark Supreme Court judgment striking down Section 66A of the IT Act._  
-  [Read online](https://cis-india.org/internet-governance/blog/economic-and-political-weekly-sunil-abraham-april-11-2015-shreya-singhal-and-66a)
+  [Read online](/publications/shreya-singhal-and-66a)
 
 - **"Who Governs the Internet? Implications for Freedom and National Security"**  
   *Yojana, Government of India, April 2014 Issue.*  
   _Discusses the intersection of governance, sovereignty, and Internet freedom in India._  
-  [Read PDF](https://cis-india.org/internet-governance/blog/yojana-april-2014-who-governs-the-internet.pdf)
+  [Read PDF](/publications/who-governs-the-internet)
 
 - **"Government Access to Private-Sector Data in India"** — with Elonnai Hickok.  
   *International Data Privacy Law, 2012.*  
   _Analyses legal and institutional mechanisms governing government access to private-sector data._  
-  [Full text (PDF)](https://academic.oup.com/idpl/article-pdf/2/4/302/1972429/ips028.pdf)
+  [Full text (PDF)](/publications/government-access-to-private-sector-data-in-india)
 
 - **"The Fight for Digital Sovereignty"**  
   *Economic & Political Weekly, Vol. XLVIII, No. 42, October 19, 2013.*  
   _Explores national policy choices in digital infrastructure and Internet control._  
-  [Read online](https://cis-india.org/a2k/blogs/epw-vol-xlviii-42-october-19-2013-sunil-abraham-the-fight-for-digital-sovereignty)
+  [Read online](/publications/the-fight-for-digital-sovereignty)
 
 ## Research Reports and Policy Papers
 
@@ -83,8 +83,8 @@ These publications reflect years of engagement in Free and Open Source Software 
 
 - **"Report on Open Government Data in India"** — with Glover Wright, Pranesh Prakash and Nishant Shah.  
   *Centre for Internet and Society (CIS), 2012.*  
-  _A comprehensive study of transparency, data-sharing practices, and open data policy in Indian public institutions._  
-  [Report link](https://cis-india.org/openness/publications/open-government.pdf)
+  _A comprehensive study of transparency, data-sharing practices, and open-data policy in Indian public institutions._  
+  [Report link](/publications/open-government-data-study-india)
 
 - **"Digital Natives with a Cause?"** — with Nishant Shah.  
   *Hivos Knowledge Programme Report, 2009.*  
@@ -268,4 +268,88 @@ His talks often focus on openness, ethics, and governance in digital systems.
 
 - **Internet Governance Forum (IGF)** — multiple years.  
   _Participation in global multistakeholder dialogues on digital rights._
+
+<style>
+/* =========================================================
+   Publications Page Styling
+   ========================================================= */
+
+/* Base text adjustments */
+main, article, section {
+  color: #222;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+h2, h3 {
+  font-weight: 600;
+  color: #1a5276;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  border-bottom: 2px solid #cfd8dc;
+  padding-bottom: 0.4rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #1565c0;
+}
+
+/* Section background alternation */
+section, .publication-group {
+  background: linear-gradient(135deg, #f7f9fc, #eef3f8);
+  border-left: 4px solid #4a90e2;
+  border-radius: 10px;
+  padding: 1.4rem 1.6rem;
+  margin: 1.6rem 0;
+}
+
+/* Publication list formatting */
+ul, ol {
+  padding-left: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+/* Inline formatting within list items */
+li strong {
+  color: #0b3d91;
+}
+
+em {
+  color: #444;
+}
+
+/* Links */
+a {
+  color: #0056a3;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover, a:focus {
+  color: #003366;
+  text-decoration: none;
+}
+
+/* Accessibility: focus outlines */
+a:focus, button:focus {
+  outline: 2px solid #003366;
+  outline-offset: 2px;
+}
+
+/* Responsive text alignment */
+@media (max-width: 768px) {
+  main, article {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+}
+</style>
 
