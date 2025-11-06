@@ -9,27 +9,22 @@ description: "Complete list of all public pages, categories, and posts on sunila
 <p>Below is the complete sitemap of <strong>sunilabraham.in</strong>, divided into <em>Pages</em>, <em>Categories</em>, and <em>Posts</em> for easy browsing.</p>
 
 <!-- =========================================================
-     Pages (excluding categories, layouts, templates)
+     Pages (excluding category and system pages)
      ========================================================= -->
 <h2>Pages</h2>
 <ol class="sitemap-list">
 {% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
-  {% assign path = page.path %}
-  {% if page.title and page.url != '/' 
-        and path contains 'categories/' == false
-        and path contains '_layouts' == false
-        and path contains '_includes' == false
-        and path contains '_templates' == false
-        and path contains '404' == false
-        and path contains 'sitemap' == false %}
-    <li>
-      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-      {% if page.description %}
-        <br><small>{{ page.description }}</small>
-      {% endif %}
-    </li>
-  {% endif %}
+  {% unless page.url == '/' or page.path contains 'categories/' or page.path contains '_layouts' or page.path contains '_includes' or page.path contains '_templates' or page.path contains '404' or page.path contains 'sitemap' %}
+    {% if page.title %}
+      <li>
+        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+        {% if page.description %}
+          <br><small>{{ page.description }}</small>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endunless %}
 {% endfor %}
 </ol>
 
