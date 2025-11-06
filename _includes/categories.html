@@ -31,11 +31,13 @@
 }
 
 #mw-normal-catlinks li::after {
-  content: ", ";
+  content: ",";         /* removed space before comma */
+  margin-right: 0.3em;  /* small space after comma */
 }
 
 #mw-normal-catlinks li:last-child::after {
   content: "";
+  margin: 0;
 }
 
 #mw-normal-catlinks a {
