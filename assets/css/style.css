@@ -66,11 +66,67 @@ background: linear-gradient(
   }
 }
 
+/* =========================================================
+   Site Title Enhanced Animation (Accessible & Subtle)
+   ========================================================= */
 .site-header h1 {
+  position: relative;
+  display: inline-block;
   font-size: 2.6rem;
   font-weight: 800;
-  color: #0a2e57;
   margin: 0 0 0.4rem;
+  background: linear-gradient(
+    90deg,
+    #0a2e57,
+    #287c7c,
+    #0a2e57
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation:
+    fadeUpTitle 1.2s ease-out,
+    shimmerTitle 15s ease-in-out infinite;
+}
+
+/* Soft hover glow */
+.site-header h1:hover {
+  text-shadow: 0 0 8px rgba(40, 124, 124, 0.25);
+  transform: translateY(-1px);
+  transition: text-shadow 0.4s ease, transform 0.3s ease;
+}
+
+/* Fade-up on load */
+@keyframes fadeUpTitle {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slow gradient shimmer through the text */
+@keyframes shimmerTitle {
+  0% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+  100% {
+    background-position: 0% center;
+  }
+}
+
+/* Respect reduced-motion user preferences */
+@media (prefers-reduced-motion: reduce) {
+  .site-header h1 {
+    animation: fadeUpTitle 1.2s ease-out;
+    background-position: center;
+  }
 }
 
 .site-header p {
