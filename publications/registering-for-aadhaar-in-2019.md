@@ -2,7 +2,7 @@
 layout: default
 title: "Registering for Aadhaar in 2019"
 description: "An opinion article by Sunil Abraham analysing the evolution of Aadhaar’s architecture and privacy-by-design reforms introduced through the offline Aadhaar mechanism."
-categories: [Publications, Media]
+categories: [Media, Publications]
 date: 2019-01-02
 authors: ["Sunil Abraham"]
 source: "Business Standard"
