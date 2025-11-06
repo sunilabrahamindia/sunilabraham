@@ -175,11 +175,11 @@ Sunil Abraham has written widely for both Indian and international media, contri
 ### Indian Publications
 
 - *"Fixing Aadhaar: Security Developers’ Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
-  [Read online](https://www.business-standard.com/article/opinion/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach-118010901281_1.html)
+  [Read here](/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/){: .btn}
 
 - *"Data Protection: We Can Innovate, Leapfrog"* — *Deccan Herald*, 2018.  
-  [Read online](https://www.deccanherald.com/content/655018/data-protection-we-can-innovate.html)
-
+  [Read here](/publications/data-protection-we-can-innovate-leapfrog/){: .btn}
+  
 - *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
   [Read online](https://www.business-standard.com/article/opinion/registering-for-aadhaar-in-2019-119010201018_1.html)
 
