@@ -181,7 +181,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/data-protection-we-can-innovate-leapfrog/){: .btn}
   
 - *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
-  [Read online](https://www.business-standard.com/article/opinion/registering-for-aadhaar-in-2019-119010201018_1.html)
+  [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
 
 - *"The Free Basics Debate: TRAI Has a Point in Imposing Temporary Ban on Net Neutrality"* — *Firstpost*, 2016.  
   [Read online](https://www.firstpost.com/india/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics-2558884.html)
