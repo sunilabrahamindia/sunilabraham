@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "The net neutrality debate: Trai has a point in imposing temporary ban on Free Basics"
+title: "The Net Neutrality dDbate: TRAI Has a Point in Imposing Temporary Ban on Free Basics"
 description: "An opinion article by Sunil Abraham analysing TRAI’s temporary prohibition of Facebook’s Free Basics in India and advocating for principle-based net neutrality regulation."
 categories: [Media articles, Publications]
 date: 2015-12-25
@@ -9,8 +9,7 @@ source: "Firstpost"
 permalink: /publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/
 ---
 
-**The net neutrality debate: Trai has a point in imposing temporary ban on Free Basics** is an opinion column by Sunil Abraham, published in *Firstpost* on 25 December 2015.  
-The article argues that while evidence-based regulation is important, principle-based policymaking — grounded in non-discrimination, transparency, and fairness — is essential in ensuring equitable access and innovation on the Internet.
+**The Net Neutrality dDbate: TRAI Has a Point in Imposing Temporary Ban on Free Basics** is an opinion column by Sunil Abraham, published in *Firstpost* on 25 December 2015. The article argues that while evidence-based regulation is important, principle-based policymaking — grounded in non-discrimination, transparency, and fairness — is essential in ensuring equitable access and innovation on the Internet.
 
 ## Contents
 
