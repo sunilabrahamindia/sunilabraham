@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Category: Media"
+title: "Category: Media articles"
 description: "Media and newspaper articles written and published by Sunil Abraham, including opinion columns, interviews, and features."
-permalink: /categories/media/
+permalink: /categories/media-articles/
 ---
