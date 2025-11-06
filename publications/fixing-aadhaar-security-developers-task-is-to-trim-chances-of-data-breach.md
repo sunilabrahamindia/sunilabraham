@@ -37,7 +37,7 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 </dl>
 
 <figure class="media-image">
-  <img src="/publications/images/aadhaar-verification-queue.jpg" 
+  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/Aadhaar%20verification%20queue.jpg"
        alt="People queueing for Aadhaar registration, illustrating digital identity enrolment in India.">
   <figcaption>File photo of Aadhaar registration being done.</figcaption>
 </figure>
@@ -54,7 +54,7 @@ There are many ways in which such an identity monoculture can be prevented. The 
 
 The first time tokenisation was suggested in the Aadhaar context was in an academic paper published in August 2016 by Shweta Agrawal, Subhashis Banerjee and Subodh Sharma from IIT Delhi titled *Privacy and Security of Aadhaar: A Computer Science Perspective*. The paper, in its fourth key recommendation, says “cryptographically embed Aadhaar ID into Authentication User Agency (AUAs) and KYC User Agency (KUAs)–specific IDs making correlation impossible”. The paper considers several designs for such local identifiers.
 
-**Revoke all Aadhaar numbers that have been compromised, breached, leaked, illegally published or inadvertently disclosed, and regenerate new global identifiers.**
+*Revoke all Aadhaar numbers that have been compromised, breached, leaked, illegally published or inadvertently disclosed, and regenerate new global identifiers.*
 
 There are many ways to prevent an identity monoculture. Tokenisation and multiple identity providers offer systemic resilience — they trim, if not eliminate, the chances of identity data breach. The challenge before security developers is not just to make Aadhaar harder to hack, but to re-architect it so that no single breach can ever compromise an entire nation’s data.
 
@@ -64,7 +64,7 @@ There are many ways to prevent an identity monoculture. Tokenisation and multipl
 
 This article was written in the aftermath of early Aadhaar-related data breach reports and public debates on privacy and surveillance in India. At that time, civil society experts and technologists were raising concerns about the structural design of the Aadhaar ecosystem — particularly the risks of using a single, centralised identifier for billions of citizens.  
 
-Sunil Abraham’s argument anticipates many of the recommendations later echoed in privacy and digital identity policy circles, emphasising the need for tokenisation, revocation of compromised IDs, and plural identity frameworks.
+Sunil Abraham's argument anticipates many of the recommendations later echoed in privacy and digital identity policy circles, emphasising the need for tokenisation, revocation of compromised IDs, and plural identity frameworks.
 
 ## Key Points
 
