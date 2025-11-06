@@ -34,9 +34,7 @@ permalink: /publications/very-big-brother/
 
   <dt>📰 Publication Link:</dt>
   <dd>
-    <a class="btn" href="#">
-      Read Online (Link unavailable)
-    </a>
+Link unavailable
   </dd>
 </dl>
 
