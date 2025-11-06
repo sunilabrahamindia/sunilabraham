@@ -6,7 +6,10 @@ layout: default
 {% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
 
 <div class="category-page">
-  <h2><strong class="category-label">Category:</strong>{{ category_name }}</h2>
+  <h2>
+    <strong class="category-label">Category:</strong> {{ category_name }}
+    <span class="count">({{ category_pages.size }})</span>
+  </h2>
   <p>{{ page.description }}</p>
 
   {% if category_pages.size > 0 %}
@@ -43,9 +46,15 @@ layout: default
 .category-page .category-label {
   font-weight: 900 !important;
   color: #000 !important;
-  display: inline; /* <— changed from inline-block */
+  display: inline;
 }
 
+.category-page .count {
+  color: #555;
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-left: 0.4em;
+}
 
 .category-page h3 {
   font-size: 1.1em;
@@ -54,8 +63,8 @@ layout: default
 }
 
 .category-page ul {
-  list-style-type: disc;  /* show normal bullets */
-  padding-left: 1.5em;    /* small indent for readability */
+  list-style-type: disc;
+  padding-left: 1.5em;
   margin-top: 0.4em;
 }
 
