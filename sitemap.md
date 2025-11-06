@@ -15,7 +15,14 @@ description: "Complete list of all public pages, categories, and posts on sunila
 <ol class="sitemap-list">
 {% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
-  {% if page.title and page.url != '/' and page.path contains 'categories' == false %}
+  {% comment %}
+    Show only real content pages:
+    - Must have a title
+    - Not the home page
+    - Not category pages
+    - Not 404 or layout/test pages
+  {% endcomment %}
+  {% if page.title and page.url != '/' and page.path contains 'categories/' == false and page.path contains 'templates/' == false and page.path contains '404' == false %}
     <li>
       <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
       {% if page.description %}
@@ -27,17 +34,20 @@ description: "Complete list of all public pages, categories, and posts on sunila
 </ol>
 
 <!-- =========================================================
-     Categories (only category pages)
+     Categories (only category pages, with page counts)
      ========================================================= -->
 <h2>Categories</h2>
 <ol class="sitemap-list">
 {% assign category_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" | sort: "title" %}
-{% for page in category_pages %}
-  {% if page.title %}
+{% for cat in category_pages %}
+  {% if cat.title %}
+    {% assign cat_name = cat.title | remove: 'Category:' | strip %}
+    {% assign cat_count = site.pages | where_exp: "p", "p.categories contains cat_name" | size %}
     <li>
-      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-      {% if page.description %}
-        <br><small>{{ page.description }}</small>
+      <a href="{{ cat.url | relative_url }}">{{ cat_name }}</a>
+      <span class="count">({{ cat_count }})</span>
+      {% if cat.description %}
+        <br><small>{{ cat.description }}</small>
       {% endif %}
     </li>
   {% endif %}
@@ -45,7 +55,7 @@ description: "Complete list of all public pages, categories, and posts on sunila
 </ol>
 
 <!-- =========================================================
-     Posts (with date)
+     Posts (with publication date)
      ========================================================= -->
 <h2>Posts</h2>
 <ol class="sitemap-list">
@@ -66,12 +76,11 @@ description: "Complete list of all public pages, categories, and posts on sunila
   padding-left: 1.5em;
   margin-top: 0.8em;
   margin-bottom: 1.5em;
-  counter-reset: section;
 }
 
 .sitemap-list li {
   margin: 0.4em 0;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .sitemap-list a {
@@ -86,6 +95,13 @@ description: "Complete list of all public pages, categories, and posts on sunila
 .sitemap-list small {
   color: #555;
   font-size: 0.9em;
+}
+
+.count {
+  color: #444;
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-left: 0.3em;
 }
 
 .date {
