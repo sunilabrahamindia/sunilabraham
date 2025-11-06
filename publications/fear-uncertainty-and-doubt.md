@@ -35,8 +35,7 @@ permalink: /publications/fear-uncertainty-and-doubt/
 
   <dt>📰 Newspaper Link:</dt>
   <dd>
-    <a class="btn" href="https://www.deccanchronicle.com/150326/commentary-columnists/article/fear-uncertainty-and-doubt">
-      Read Online
+    Not available
     </a>
   </dd>
 </dl>
@@ -50,9 +49,7 @@ permalink: /publications/fear-uncertainty-and-doubt/
 ## Full Text
 
 <div class="highlighted-text" id="fulltext">
-  <p>Much confusion has resulted from the Section 66A verdict. Some people are convinced that online speech is now without any reasonable restrictions under Article 19 (2) of the Constitution. This is completely false.</p>
-
-  <p>There are many other provisions within the IT Act that still regulate speech online, for example the section on obscenity (Sec. 67) and also the data protection provision (Sec. 43A). Additionally, there are provisions within the Indian Penal Code and other Acts that regulate speech both online and offline. For example, defamation remains a criminal offence under the IPC (Sec. 499), and disclosing information about children in a manner that lowers their reputation or infringes their privacy is also prohibited under the Protection of Children from Sexual Offences Act, 2012 (Sec. 23).</p>
+  <p>Much confusion has resulted from the Section 66A verdict. Some people are convinced that online speech is now without any reasonable restrictions under Article 19 (2) of the Constitution. This is completely false. There are many other provisions within the IT Act that still regulate speech online, for example the section on obscenity (Sec. 67) and also the data protection provision (Sec. 43A). Additionally, there are provisions within the Indian Penal Code and other Acts that regulate speech both online and offline. For example, defamation remains a criminal offence under the IPC (Sec. 499), and disclosing information about children in a manner that lowers their reputation or infringes their privacy is also prohibited under the Protection of Children from Sexual Offences Act, 2012 (Sec. 23).</p>
 
   <p>Others are afraid that the striking down of Section 66A results in a regulatory vacuum where it will be possible for bad actors to wreak havoc online because the following has been left unaddressed by the IT Act.</p>
 
@@ -75,12 +72,6 @@ permalink: /publications/fear-uncertainty-and-doubt/
 
 Following the Supreme Court’s landmark judgment striking down Section 66A of the IT Act, many assumed that online speech was now unrestricted.  
 Sunil Abraham clarifies that several other legal provisions — including those covering defamation, obscenity, child protection, and impersonation — continue to regulate online expression, while urging for participatory lawmaking to avoid future confusion.
-
-{% include back-to-top.html %}
-
-## External Link
-
-- [Read on Deccan Chronicle](https://www.deccanchronicle.com/150326/commentary-columnists/article/fear-uncertainty-and-doubt)
 
 {% include back-to-top.html %}
 
