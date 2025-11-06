@@ -50,32 +50,32 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **"India's Contribution to Internet Governance Debates"** — with Mukta Batra, Geetha Hariharan, Swaraj Barooah and Akriti Bopanna.  
   *Student Law Journal, National Law University Delhi, 2018.*  
   _Analyses India’s evolving role in global Internet governance processes._  
-  [Read online](/publications/indias-contribution-to-internet-governance-debates)
+  [Read online](/publications/indias-contribution-to-internet-governance-debates){: .btn}
 
 - **"Security: Privacy, Transparency and Technology"** — with Elonnai Hickok and Tarun Krishnakumar.  
   *Digital Debates 2015: CyFy Journal, Volume 2, Observer Research Foundation.*  
   _Examines the tension between privacy rights, transparency, and technological security in governance._  
-  [Read online](/publications/security-privacy-transparency-and-technology)
+  [Read online](/publications/security-privacy-transparency-and-technology){: .btn}
 
 - **"Shreya Singhal and 66A"**  
   *Economic and Political Weekly, Vol. L, No. 15, April 2015.*  
   _A reflection on the landmark Supreme Court judgment striking down Section 66A of the IT Act._  
-  [Read online](/publications/shreya-singhal-and-66a)
+  [Read online](/publications/shreya-singhal-and-66a){: .btn}
 
 - **"Who Governs the Internet? Implications for Freedom and National Security"**  
   *Yojana, Government of India, April 2014 Issue.*  
   _Discusses the intersection of governance, sovereignty, and Internet freedom in India._  
-  [Read PDF](/publications/who-governs-the-internet)
+  [Read PDF](/publications/who-governs-the-internet){: .btn}
 
 - **"Government Access to Private-Sector Data in India"** — with Elonnai Hickok.  
   *International Data Privacy Law, 2012.*  
   _Analyses legal and institutional mechanisms governing government access to private-sector data._  
-  [Full text (PDF)](/publications/government-access-to-private-sector-data-in-india)
+  [Full text (PDF)](/publications/government-access-to-private-sector-data-in-india){: .btn}
 
 - **"The Fight for Digital Sovereignty"**  
   *Economic & Political Weekly, Vol. XLVIII, No. 42, October 19, 2013.*  
   _Explores national policy choices in digital infrastructure and Internet control._  
-  [Read online](/publications/the-fight-for-digital-sovereignty)
+  [Read online](/publications/the-fight-for-digital-sovereignty){: .btn}
 
 ## Research Reports and Policy Papers
 
@@ -84,7 +84,7 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **"Report on Open Government Data in India"** — with Glover Wright, Pranesh Prakash and Nishant Shah.  
   *Centre for Internet and Society (CIS), 2012.*  
   _A comprehensive study of transparency, data-sharing practices, and open-data policy in Indian public institutions._  
-  [Report link](/publications/open-government-data-study-india)
+  [Report link](/publications/open-government-data-study-india){: .btn}
 
 - **"Digital Natives with a Cause?"** — with Nishant Shah.  
   *Hivos Knowledge Programme Report, 2009.*  
@@ -329,7 +329,7 @@ em {
 /* Links */
 a {
   color: #0056a3;
-  text-decoration: underline;
+  text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
