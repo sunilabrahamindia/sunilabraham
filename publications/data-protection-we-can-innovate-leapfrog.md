@@ -76,3 +76,34 @@ Sunil Abraham positions India’s regulatory infancy as an opportunity to leapfr
 - [Read on Deccan Herald](https://www.deccanherald.com/content/655018/data-protection-we-can-innovate.html)
 
 {% include back-to-top.html %}
+
+<style>
+.highlighted-text {
+  background-color: #fffbea;
+  border-left: 4px solid #f2ce61;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  line-height: 1.65;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
+}
+.highlighted-text p {
+  margin-bottom: 1rem;
+}
+.copy-btn-full {
+  display: inline-block;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-bottom: 1.5rem;
+}
+.copy-btn-full:hover {
+  background: #e5e5e5;
+}
+</style>
+
