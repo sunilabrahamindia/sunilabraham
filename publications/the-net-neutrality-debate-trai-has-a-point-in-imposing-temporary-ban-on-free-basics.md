@@ -66,8 +66,6 @@ permalink: /publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-
 This article was written at the height of India’s net neutrality debate, following TRAI’s decision to suspend Facebook’s Free Basics programme.  
 Sunil Abraham argues for principle-based regulation rooted in fairness, non-discrimination, and transparency — highlighting that temporary restrictions are justified when evidence alone cannot protect the public interest.
 
-{% include back-to-top.html %}
-
 ## External Link
 
 - [Read on Firstpost](https://www.firstpost.com/india/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics-2558884.html)
