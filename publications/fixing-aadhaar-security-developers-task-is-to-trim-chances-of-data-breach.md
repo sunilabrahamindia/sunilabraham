@@ -17,7 +17,6 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
 3. [Context and Background](#context-and-background)  
-4. [Key Points](#key-points)  
 5. [External Link](#external-link)
 
 ## Article Details
@@ -65,23 +64,6 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 This article was written in the aftermath of early Aadhaar-related data breach reports and public debates on privacy and surveillance in India. At that time, civil society experts and technologists were raising concerns about the structural design of the Aadhaar ecosystem — particularly the risks of using a single, centralised identifier for billions of citizens.  
 
 Sunil Abraham's argument anticipates many of the recommendations later echoed in privacy and digital identity policy circles, emphasising the need for tokenisation, revocation of compromised IDs, and plural identity frameworks.
-
-## Key Points
-
-- **Centralised identity systems are inherently fragile.**  
-  Security developers must design to *eliminate* breaches, not merely reduce their probability.  
-
-- **Global development frameworks often promote monocultures.**  
-  The World Bank’s "one ID to rule them all" approach ignores cultural and epistemological diversity.  
-
-- **India’s identity system should recognise multiplicity.**  
-  People manage multiple identities in practice; digital policy should reflect this lived reality.  
-
-- **Tokenisation offers a viable technical fix.**  
-  Embedding cryptographic IDs for each AUA or KUA can prevent correlation and systemic data leaks.  
-
-- **Compromised Aadhaar numbers should be revoked and reissued.**  
-  This measure would rebuild trust and ensure long-term data integrity.
 
 {% include back-to-top.html %}
 
