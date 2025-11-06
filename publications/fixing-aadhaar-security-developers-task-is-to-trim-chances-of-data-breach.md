@@ -2,7 +2,7 @@
 layout: default
 title: "Fixing Aadhaar: Security developers' task is to trim chances of data breach"
 description: "An opinion column by Sunil Abraham on Aadhaar security design, highlighting the need for tokenisation and multiple identity systems to prevent nationwide data breaches."
-categories: [Publications, Media]
+categories: [Media, Publications]
 date: 2018-01-10
 authors: ["Sunil Abraham"]
 source: "Business Standard"
