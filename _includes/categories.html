@@ -31,13 +31,11 @@
 }
 
 #mw-normal-catlinks li::after {
-  content: ",";         /* removed space before comma */
-  margin-right: 0.3em;  /* small space after comma */
+  content: ",";         /* comma immediately after text */
 }
 
 #mw-normal-catlinks li:last-child::after {
-  content: "";
-  margin: 0;
+  content: "";           /* no comma after last item */
 }
 
 #mw-normal-catlinks a {
@@ -53,15 +51,7 @@
 <div id="catlinks" class="catlinks">
   <div id="mw-normal-catlinks" class="mw-normal-catlinks">
     <a href="https://sunilabraham.in/categories/">Categories</a>:
-    <ul>
-      {% for category in page.categories %}
-        <li>
-          <a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">
-            {{ category }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+    <ul>{% for category in page.categories %}<li><a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">{{ category }}</a></li>{% endfor %}</ul>
   </div>
 </div>
 {% endif %}
