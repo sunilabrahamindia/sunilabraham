@@ -86,19 +86,20 @@ He notes that while proprietary systems obscure their inner workings, free softw
 - **Sovereignty and Human Rights:** Digital sovereignty is not absolute; it must coexist with human rights principles. Abraham notes that regulation may sometimes restrict technological freedom — for instance, requiring visible or audible alerts in recording devices to prevent misuse.
 
 ## Full Text
-<div class="highlighted-text">
-  It is time to incorporate free software principles to address the issue of privacy. Thanks to the revelations of Edward Snowden, a former contractor to the United States (US) National Security Agency (NSA) who leaked secrets about the agency’s surveillance programmes, a 24-year-old movement aimed at protecting the rights of software users and developers has received renewed attention from policymakers.
 
-  The free and open source software movement (often collectively labelled as FOSS or sometimes FLOSS, with the “l” standing for “libre”) guarantees four freedoms through a copyright licence – the freedom to use for any purpose, the freedom to study the code, the freedom to modify it and the freedom to distribute the modified code gratis or for a fee. Free software principles have spread globally in movements advocating open standards, open content, open access and open data. Of these, the freedom to study the code is the most vital in an open society. Privacy, security and integrity are best achieved through the transparency guaranteed by free software rather than the opacity of proprietary software.
+<div class="highlighted-text" id="fulltext">
+  <p>The free and open source software movement (often collectively labelled as FOSS or sometimes FLOSS, with the “l” standing for “libre”) guarantees four freedoms through a copyright licence – the freedom to use for any purpose, the freedom to study the code, the freedom to modify it and the freedom to distribute the modified code gratis or for a fee. Free software principles have spread globally in movements advocating open standards, open content, open access and open data. Of these, the freedom to study the code is the most vital in an open society. Privacy, security and integrity are best achieved through the transparency guaranteed by free software rather than the opacity of proprietary software.</p>
 
-  Free software is directly useful in deciding on the software required for device operating systems and applications. NSA’s surveillance programme covered operating system vendors like Microsoft and Apple, and application vendors like Skype. Concerns raised by such surveillance are best addressed by shifting to free software. This transition is increasingly feasible with the availability of Android derivatives that exclude Google’s data collection and through GNU/Linux distributions such as Ubuntu. Ideally, this should be mandated in government and public infrastructure wherever viable alternatives exist. Two complementary policy tools — code escrow and independent audits — can help where proprietary systems remain. Firms willing to share code with the government should be preferred in procurement, creating pressure on others to follow suit. Code escrow also strengthens the quality of audit.
+  <p>Free software is directly useful in deciding on the software required for device operating systems and applications. NSA’s surveillance programme covered operating system vendors like Microsoft and Apple, and application vendors like Skype. Concerns raised by such surveillance are best addressed by shifting to free software. This transition is increasingly feasible with the availability of Android derivatives that exclude Google’s data collection and through GNU/Linux distributions such as Ubuntu. Ideally, this should be mandated in government and public infrastructure wherever viable alternatives exist. Two complementary policy tools — code escrow and independent audits — can help where proprietary systems remain. Firms willing to share code with the government should be preferred in procurement, creating pressure on others to follow suit. Code escrow also strengthens the quality of audit.</p>
 
-  Open hardware, though still marginal in market share, reflects similar principles. India cannot easily impose bans on foreign hardware as some Western nations have done, but it can support domestic research to reverse-engineer and verify both imported and indigenous products for security risks. For example, government-funded initiatives could test whether devices manufactured abroad transmit data covertly over Indian networks.
+  <p>Open hardware, though still marginal in market share, reflects similar principles. India cannot easily impose bans on foreign hardware as some Western nations have done, but it can support domestic research to reverse-engineer and verify both imported and indigenous products for security risks. For example, government-funded initiatives could test whether devices manufactured abroad transmit data covertly over Indian networks.</p>
 
-  Cloud and online service dependence introduces further risks to privacy and security. These can be mitigated through the use of free software and open standards. Abraham recommends that government officials avoid corporate email platforms and adopt strong encryption for all sensitive communications. Rather than relying exclusively on a single national infrastructure like that of the National Informatics Centre, the state should support multiple, interoperable, open-source systems to prevent single points of failure. This approach would also strengthen domestic competence in cybersecurity and network management.
+  <p>Cloud and online service dependence introduces further risks to privacy and security. These can be mitigated through the use of free software and open standards. Abraham recommends that government officials avoid corporate email platforms and adopt strong encryption for all sensitive communications. Rather than relying exclusively on a single national infrastructure like that of the National Informatics Centre, the state should support multiple, interoperable, open-source systems to prevent single points of failure. This approach would also strengthen domestic competence in cybersecurity and network management.</p>
 
-  Ultimately, digital sovereignty means control over software, hardware, cloud and network infrastructure. Yet, as Abraham notes, sovereignty is not absolute. Law enforcement and national security may necessitate limited surveillance, and human rights protections may require certain technological constraints. The example of South Korea’s legal requirement for visible or audible alerts on recording devices illustrates how privacy and technology can coexist through thoughtful regulation. However, when software or hardware design itself becomes a means of resisting or enforcing law, technology turns into a site of struggle — a battleground for sovereignty between the free software developer and the state.
+  <p>Ultimately, digital sovereignty means control over software, hardware, cloud and network infrastructure. Yet, as Abraham notes, sovereignty is not absolute. Law enforcement and national security may necessitate limited surveillance, and human rights protections may require certain technological constraints. The example of South Korea’s legal requirement for visible or audible alerts on recording devices illustrates how privacy and technology can coexist through thoughtful regulation. However, when software or hardware design itself becomes a means of resisting or enforcing law, technology turns into a site of struggle — a battleground for sovereignty between the free software developer and the state.</p>
 </div>
+
+<button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
 <style>
 .highlighted-text {
@@ -106,9 +107,27 @@ He notes that while proprietary systems obscure their inner workings, free softw
   border-left: 4px solid #f2ce61; /* muted yellow border */
   padding: 1rem 1.2rem;
   border-radius: 8px;
-  line-height: 1.6;
+  line-height: 1.65;
   color: #333;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
+}
+.highlighted-text p {
+  margin-bottom: 1rem;
+}
+.copy-btn-full {
+  display: inline-block;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-bottom: 1.5rem;
+}
+.copy-btn-full:hover {
+  background: #e5e5e5;
 }
 @media (max-width: 768px) {
   .highlighted-text {
@@ -116,6 +135,21 @@ He notes that while proprietary systems obscure their inner workings, free softw
   }
 }
 </style>
+
+<script>
+document.querySelectorAll('.copy-btn-full').forEach(button => {
+  button.addEventListener('click', async () => {
+    const targetSelector = button.getAttribute('data-copytarget');
+    const targetElement = document.querySelector(targetSelector);
+    if (targetElement) {
+      const text = targetElement.innerText.trim();
+      await navigator.clipboard.writeText(text);
+      button.textContent = 'Copied!';
+      setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
+    }
+  });
+});
+</script>
 
 {% include back-to-top.html %}
 
