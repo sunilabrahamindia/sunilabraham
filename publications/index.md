@@ -43,7 +43,7 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **"Open Standards"** — In *Global Information Society Watch 2008*.  
   *Association for Progressive Communications, 2008.*  
   _Reviews policy and advocacy developments around open standards in ICT governance._  
-  [Access (PDF)](http://www.academia.edu/download/44489222/gisw2008.pdf#page=20)
+  [Read here](/publications/open-standards/){: .btn}
 
 ## Journal Articles
 
