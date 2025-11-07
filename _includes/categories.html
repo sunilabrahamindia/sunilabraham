@@ -50,8 +50,7 @@
 
 <div id="catlinks" class="catlinks">
   <div id="mw-normal-catlinks" class="mw-normal-catlinks">
-    <a href="https://sunilabraham.in/categories/">Categories</a>:
-    <ul>{% for category in page.categories %}<li><a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">{{ category }}</a></li>{% endfor %}</ul>
+    <a href="https://sunilabraham.in/categories/">Categories</a>:<ul>{% for category in page.categories %}<li><a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">{{ category }}</a></li>{% endfor %}</ul>
   </div>
 </div>
 {% endif %}
