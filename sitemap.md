@@ -8,8 +8,7 @@ description: "Complete list of all public pages, categories, and posts on sunila
 
 Below is the complete sitemap of <strong>sunilabraham.in</strong>, divided into <em>Pages</em>, <em>Categories</em>, and <em>Posts</em> for easy browsing.
 
-As of {{ site.time | date: "%d %B %Y" }}, the site contains {{ site.pages | size }} pages, {{ site.posts | size }} posts, and {{ site.static_files | size }} total files including assets and stylesheets, organised under {{ site.categories | size }} categories and {{ site.collections | size }} collections.
-
+As of {{ site.time | date: "%-d %B %Y" }}, the site contains {{ site.pages | size }} mainspace articles and {{ site.posts | size }} blog posts. This does not include support files such as PDFs, images, scripts, or stylesheets.
 
 <!-- =========================================================
      Pages (excluding categories and system pages) 
