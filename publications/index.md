@@ -38,7 +38,7 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **"Eavesdropping on the Freedom of Expression in India"** — In *Free Speech and Censorship around the Globe*, edited by Peter Molnar.  
   *Central European University Press, 2015.*  
   _Discusses surveillance, censorship, and freedom of expression in India’s digital context._  
-  [Publisher link](http://ceupress.com/book/free-speech-and-censorship-around-globe)
+  [Read here](/publications/eavesdropping-on-the-freedom-of-expression-in-india){: .btn}
 
 - **"Open Standards"** — In *Global Information Society Watch 2008*.  
   *Association for Progressive Communications, 2008.*  
