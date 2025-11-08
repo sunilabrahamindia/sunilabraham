@@ -15,7 +15,7 @@ This title also serves as a modest homage to *Ideas and Opinions* by Albert Eins
 
 <div align="center" style="width:75%; margin:auto;">
   <img 
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/TSAPino.jpg?raw=true" 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/TSAPInO.png?raw=true" 
     alt="A bright, Ghibli-style illustration features Sunil Abraham, a professional man with dark hair and subtle grey temples, writing at a desk in a library. Above his head, a thought bubble titled IDEAS AND OPINIONS contains icons representing his work: a salt shaker for surveillance, a fingerprint for biometrics, and scales for transparency and privacy. Surrounding him are words and symbols like Internet, Privacy, Openness, Open Source, Open Access, and Surveillance. A colourful ribbon illustrates the AI as a spectrum of regulation, showing Permissibility to Prohibition. The image visually encapsulates Sunil Abraham's key conceptual contributions in digital rights and public-interest technology." 
     style="width:90%; height:auto; max-width:600px; border-radius:8px;">
 </div>
@@ -23,8 +23,8 @@ This title also serves as a modest homage to *Ideas and Opinions* by Albert Eins
 {% include notice.html message="Each idea listed here may be expanded into a separate article or subpage with supporting context, examples, and policy relevance." %}
 
 ### Surveillance is like salt
-Surveillance is comparable to salt in cooking — essential in small quantities but counterproductive even if slightly in excess.  
-The right balance ensures safety and accountability; too much erodes freedom, trust, and democratic integrity.
+- Surveillance is comparable to salt in cooking — essential in small quantities but counterproductive even if slightly in excess.  
+- The right balance ensures safety and accountability; too much erodes freedom, trust, and democratic integrity.
 
 ### Biometrics and consent
 - Biometric systems are covert, remote, and non-consensual forms of identification.  
