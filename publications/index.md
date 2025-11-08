@@ -91,7 +91,8 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
 
 - **"Digital Natives with a Cause?"** — with Nishant Shah.  
   *Hivos Knowledge Programme Report, 2009.*  
-  _Explores the intersections of youth, identity, and digital activism in emerging economies._  
+  _Explores the intersections of youth, identity, and digital activism in emerging economies._
+  [Read here](/publications/digital-natives-with-a-cause){: .btn}
 
 - **"Big Data in Governance in India: Case Studies"**  
   *CIS Research Report, 2017.*  
