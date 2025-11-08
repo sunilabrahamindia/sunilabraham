@@ -91,12 +91,12 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
 
 - **"Digital Natives with a Cause?"** — with Nishant Shah.  
   *Hivos Knowledge Programme Report, 2009.*  
-  _Explores the intersections of youth, identity, and digital activism in emerging economies._
+  _Explores the intersections of youth, identity, and digital activism in emerging economies._  
 
 - **"Big Data in Governance in India: Case Studies"**  
   *CIS Research Report, 2017.*  
   _Investigates how large-scale data systems are shaping governance and accountability mechanisms in India._  
-  [Report link](https://cis-india.org/internet-governance/files/big-data-compilation.pdf)
+  [Read here](/publications/big-data-in-governance-india/){: .btn}
 
 - **"Regulating the Internet: The Government of India and Standards Development at the IETF"** — with Aayush Rathi and Gurshabad Grover.  
   *CIS Internet Governance Report, 2018.*  
