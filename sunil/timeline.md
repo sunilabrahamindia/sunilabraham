@@ -48,8 +48,8 @@ This page presents a **timeline biography** — a strictly chronological record 
 }
 .timeline-portrait {
   width: 180px;
-  max-width: 36%;
-  min-width: 120px;
+  max-width: 46%;
+  min-width: 150px;
   border-radius: 8px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   object-fit: cover;
