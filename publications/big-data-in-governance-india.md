@@ -77,7 +77,7 @@ The report offers one of the earliest comprehensive overviews of how big data te
 
 This interdisciplinary report explores the application of big data systems in Indian governance, focusing on the intersection between technology, policy, and citizen rights. Each case study examines a distinct policy area where large-scale data collection, processing, and analytics are deployed by state or corporate actors — from predictive policing and financial credit scoring to smart infrastructure and digital identity systems.  
 
-Through this comparative approach, the report identifies both efficiency gains and structural risks — including bias, exclusion, surveillance, and data opacity — that accompany data-driven governance. The findings argue for stronger regulatory frameworks, ethical design principles, and **privacy protections** to ensure that data practices serve public interest without eroding democratic accountability.
+Through this comparative approach, the report identifies both efficiency gains and structural risks — including bias, exclusion, surveillance, and data opacity — that accompany data-driven governance. The findings argue for stronger regulatory frameworks, ethical design principles, and privacy protections to ensure that data practices serve public interest without eroding democratic accountability.
 
 {% include back-to-top.html %}
 
