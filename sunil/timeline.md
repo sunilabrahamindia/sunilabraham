@@ -9,8 +9,6 @@ description: "A chronological timeline of Sunil Abraham’s life, education, and
 
 This page presents a **timeline biography** — a strictly chronological record of key life events and milestones.
 
----
-
 <!-- Intro section with centred image -->
 <div class="timeline-intro">
   <img 
@@ -20,8 +18,6 @@ This page presents a **timeline biography** — a strictly chronological record 
   <p><strong>Below is a chronological overview</strong> of Sunil Abraham’s life and work. Dates appear in DMY format; where exact dates are known, the weekday is shown.</p>
 </div>
 
----
-
 ## Table of Contents
 - [Early Life and Education](#early-life)
 - [Civic and Professional Career](#career)
@@ -29,8 +25,6 @@ This page presents a **timeline biography** — a strictly chronological record 
 - [Recognition and Fellowships](#recognition)
 - [Personal Life](#personal)
 - [Ongoing Work](#ongoing)
-
----
 
 <style>
 /* Page wrapper */
