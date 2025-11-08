@@ -16,7 +16,7 @@ These publications reflect years of engagement in Free and Open Source Software 
 
 - **Agency and Enterprise Handbook for ICT in the Indian Small Scale Sector** — Co-authored with Dr. Richard Heeks and Dr. Richard Duncombe.  
   *Institute for Development Policy and Management, University of Manchester, May 2004.*  
-  _Guidelines for applying information and communication technologies in small-scale industries in India._
+  _Guidelines for applying information and communication technologies in small-scale industries in India._  
   [Read here](/publications/ecommerce-for-small-enterprise-development/){: .btn}
 
 ### Book Chapters
@@ -24,7 +24,7 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **"Surveillance Project"** — In *Dissent on Aadhaar: Big Data Meets Big Brother*, edited by Reetika Khera.  
   *Orient Blackswan, 2018.*  
   _A critical analysis of the Aadhaar programme and its implications for surveillance and citizen rights._  
-  [Read here](/publications/surveillance-project/){: .btn}
+  [Read here](/publications/ecommerce-for-small-enterprise-development/){: .btn}
 
 - **"First Among Equals? The Role of the State in Facilitating Internet Access and Protecting the Freedom of Expression Online in the Global South"** — In *Just Security in an Undergoverned World*, edited by William Durch, Joris Larik and Richard Ponzio.  
   *Oxford University Press, 2018.*  
