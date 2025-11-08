@@ -10,7 +10,8 @@ permalink: /publications/big-data-in-governance-india/
 pdf: /publications/files/big-data-in-governance-india.pdf
 ---
 
-**Big Data in Governance in India: Case Studies** is a major research report edited by Elonnai Hickok, Sumandro Chattapadhyay, and Sunil Abraham, and published by the **Centre for Internet and Society (CIS)** with support from the **John D. and Catherine T. MacArthur Foundation**.  
+**Big Data in Governance in India: Case Studies** is a major research report edited by Elonnai Hickok, Sumandro Chattapadhyay, and Sunil Abraham, and published by the Centre for Internet and Society (CIS) with support from the John D. and Catherine T. MacArthur Foundation.  
+
 The report offers one of the earliest comprehensive overviews of how big data technologies are integrated into governance mechanisms in India, through detailed analysis of five case studies — *Predictive Policing, the Unique Identity (Aadhaar) Project, Big Data in Credit Scoring, Smart Meters and Big Data, and Intelligent Transport Systems*.
 
 ## Contents
