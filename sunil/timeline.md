@@ -75,7 +75,7 @@ This page presents a **timeline biography** — a strictly chronological record 
 .timeline::before {
   content: "";
   position: absolute;
-  left: 18px;
+  left: 22px;
   top: 0;
   bottom: 0;
   width: 3px;
@@ -87,34 +87,38 @@ This page presents a **timeline biography** — a strictly chronological record 
 /* Items */
 .timeline-item {
   position: relative;
-  margin: 1.25rem 0 1.75rem 0;
-  padding: 0.9rem 1rem;
+  margin: 2.5rem 0 2.5rem 3.5rem; /* added more left margin for safe spacing */
+  padding: 1rem 1.2rem;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(12, 35, 47, 0.06);
   transition: transform .16s ease, box-shadow .16s ease;
 }
-.timeline-date {
-  position: absolute;
-  left: -120px;
-  width: 110px;
-  text-align: right;
-  font-weight: 600;
-  color: #004d59;
-  font-size: 0.9rem;
-  top: 14px;
-}
+
+/* Dot now placed consistently along the vertical line */
 .timeline-dot {
   position: absolute;
-  left: 6px;
-  top: 18px;
-  width: 22px;
-  height: 22px;
+  left: -47px;
+  top: 22px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background: linear-gradient(180deg, #00c1df, #007a9a);
   border: 3px solid #fff;
   box-shadow: 0 6px 14px rgba(0,0,0,0.08);
 }
+
+/* Date now static within card header area for consistency */
+.timeline-date {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  color: #007089;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+/* Text elements */
 .timeline-item h3 {
   margin: 0 0 0.25rem 0;
   font-size: 1.02rem;
@@ -129,32 +133,49 @@ This page presents a **timeline biography** — a strictly chronological record 
   margin: 0.5rem 0 0 1.1rem;
 }
 
-/* Visual section headings (small, separate from timeline) */
+/* Hover interaction */
+.timeline-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(12,35,47,0.12);
+}
+
+/* Headings */
 h2 {
   color: #004d59;
   border-bottom: 2px solid #e6f5f7;
   padding-bottom: 0.4rem;
   margin-top: 2.6rem;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 /* Responsive */
-@media (max-width: 760px) {
+@media (max-width: 960px) {
   .timeline {
     padding-left: 0;
   }
-  .timeline::before { left: 12px; }
-  .timeline-date {
-    position: relative;
-    left: 0;
-    width: auto;
-    text-align: left;
-    margin-bottom: 0.45rem;
-    font-size: 0.95rem;
+  .timeline::before {
+    left: 14px;
   }
-  .timeline-item { padding-left: 3.5rem; }
-  .timeline-dot { left: 8px; top: 22px; }
-  .timeline-portrait { width: 34%; min-width: 120px; }
+  .timeline-item {
+    margin: 1.5rem 0 1.75rem 2.5rem;
+    padding-left: 2.5rem;
+  }
+  .timeline-dot {
+    left: -30px;
+    top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .timeline::before {
+    left: 12px;
+  }
+  .timeline-item {
+    margin-left: 0;
+    padding-left: 3.5rem;
+  }
+  .timeline-dot {
+    left: 8px;
+  }
 }
 
 /* Reduced motion */
@@ -162,6 +183,7 @@ h2 {
   .timeline-item { transition: none; transform: none; }
 }
 </style>
+
 
 <div class="timeline-page">
 
