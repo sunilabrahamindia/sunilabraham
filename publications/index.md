@@ -17,6 +17,7 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **Agency and Enterprise Handbook for ICT in the Indian Small Scale Sector** — Co-authored with Dr. Richard Heeks and Dr. Richard Duncombe.  
   *Institute for Development Policy and Management, University of Manchester, May 2004.*  
   _Guidelines for applying information and communication technologies in small-scale industries in India._
+  [Read here](/publications/ecommerce-for-small-enterprise-development/){: .btn}
 
 ### Book Chapters
 
