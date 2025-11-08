@@ -183,7 +183,7 @@ h2 {
   <div class="timeline-dot" aria-hidden="true"></div>
   <div class="timeline-date">1995</div>
   <h3>Graduation</h3>
-  <p>Graduated in Industrial Engineering and Management from Dayananda Sagar College of Engineering, Bengaluru University.</p>
+  <p>Graduated in Industrial Engineering and Management from Dayananda Sagar College of Engineering, University of Bangalore, Karnataka.</p>
 </div>
 
 </div> <!-- .timeline -->
