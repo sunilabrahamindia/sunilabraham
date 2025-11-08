@@ -107,7 +107,7 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
 - **"Economic, Social and Cultural Rights in India: Access to Mobile Technology"** — with Vidushi Marda.  
   *Association for Progressive Communications (APC), 2016.*  
   _Examines how access to mobile technologies advances or limits social and economic rights._  
-  [Download PDF](https://cis-india.org/openness/files/economic-social-and-cultural-rights-in-india-opportunities-for-advocacy-in-intellectual-property-rights-access-to-mobile-technology/at_download/file)
+  [Read here](/publications/economic-social-cultural-rights-india){: .btn}
 
 - **"Economic, Social and Cultural Rights in India: Free and Open Source Software (FOSS) and Open Standards"** — with Vidushi Marda.  
   *Association for Progressive Communications (APC), 2016.*  
