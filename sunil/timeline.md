@@ -1,4 +1,4 @@
----
+timeline-portrait---
 layout: default
 title: "Sunil Abraham Timeline"
 categories: [Biographies, Sunil Abraham]
@@ -8,15 +8,6 @@ description: "A chronological timeline of Sunil Abraham’s life, education, and
 **Sunil Abraham** (born 17 June 1973) is an Indian technologist, researcher and public policy leader known for his work on open technologies, digital rights and Internet governance.  
 
 This page presents a **timeline biography** — a strictly chronological record of key life events and milestones.
-
-<!-- Intro section with centred image -->
-<div class="timeline-intro">
-  <img 
-    src="/assets/images/Sunil Abraham image 01.jpg"
-    alt="Sunil Abraham portrait"
-    class="timeline-portrait">
-  <p><strong>Below is a chronological overview</strong> of Sunil Abraham’s life and work. Dates appear in DMY format; where exact dates are known, the weekday is shown.</p>
-</div>
 
 ## Table of Contents
 - [Early Life and Education](#early-life)
@@ -35,24 +26,6 @@ This page presents a **timeline biography** — a strictly chronological record 
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #1a1a1a;
   line-height: 1.55;
-}
-
-/* Intro */
-.timeline-intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 0.9rem;
-  margin: 1.25rem auto;
-}
-.timeline-portrait {
-  width: 180px;
-  max-width: 46%;
-  min-width: 150px;
-  border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  object-fit: cover;
 }
 
 /* Ensure headings used by TOC aren't hidden behind fixed header */
