@@ -129,7 +129,10 @@ These themes point to a plural, practice-centred understanding of digital civic 
 If you wish to reference or cite this chapter, please use one of the following formats:
 
 **APA**
-<pre><code>Shah, N. (Ed.). (2010). Digital Natives with a Cause? Position Papers. Hivos Knowledge Programme / Centre for Internet and Society. https://sunilabraham.in/publications/digital-natives-with-a-cause/
+<pre><code>Shah, N. (Ed.). (2010). 
+Digital Natives with a Cause? Position Papers. 
+Hivos Knowledge Programme / Centre for Internet and Society. 
+https://sunilabraham.in/publications/digital-natives-with-a-cause/
 </code></pre>
 
 **BibTeX**
@@ -143,7 +146,9 @@ If you wish to reference or cite this chapter, please use one of the following f
 </code></pre>
 
 **MLA**
-<pre><code>Shah, Nishant, editor. *Digital Natives with a Cause? Position Papers*. Hivos Knowledge Programme and Centre for Internet and Society, 2010.
+<pre><code>Shah, Nishant, editor. 
+*Digital Natives with a Cause? Position Papers*. 
+Hivos Knowledge Programme and Centre for Internet and Society, 2010.
 https://sunilabraham.in/publications/digital-natives-with-a-cause/
 </code></pre>
 
