@@ -10,28 +10,27 @@ categories: [Project pages]
 This page allows you to browse all publications by author.  
 Select an author from the dropdown below to view their associated works.
 
-{% raw %}
 <div class="authors-directory">
 
-  <select id="author-select" aria-label="Select Author">
-    <option value="">-- Select an Author --</option>
-    {% assign all_authors = "" | split: "" %}
-    {% for page in site.pages %}
-      {% if page.categories contains "Publications" and page.authors %}
-        {% for author in page.authors %}
-          {% unless all_authors contains author %}
-            {% assign all_authors = all_authors | push: author %}
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-    {% assign sorted_authors = all_authors | sort %}
-    {% for author in sorted_authors %}
-      <option value="{{ author | slugify }}">{{ author }}</option>
-    {% endfor %}
-  </select>
+<select id="author-select" aria-label="Select Author">
+  <option value="">-- Select an Author --</option>
+  {% assign all_authors = "" | split: "" %}
+  {% for page in site.pages %}
+    {% if page.categories contains "Publications" and page.authors %}
+      {% for author in page.authors %}
+        {% unless all_authors contains author %}
+          {% assign all_authors = all_authors | push: author %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  {% assign sorted_authors = all_authors | sort %}
+  {% for author in sorted_authors %}
+  <option value="{{ author | slugify }}">{{ author }}</option>
+  {% endfor %}
+</select>
 
-  <div id="author-publications" aria-live="polite"></div>
+<div id="author-publications" aria-live="polite"></div>
 
 </div>
 
@@ -132,4 +131,3 @@ Select an author from the dropdown below to view their associated works.
   }
 }
 </style>
-{% endraw %}
