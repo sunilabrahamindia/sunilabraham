@@ -213,5 +213,3 @@ pre {
 }
 @media (max-width: 768px) { pre { font-size: 0.85rem; padding: 0.6rem; } }
 </style>
-
-{% include back-to-top.html %}
