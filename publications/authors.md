@@ -7,8 +7,11 @@ categories: [Project pages]
 
 ## Authors Directory
 
-This page allows you to browse all publications by author.  
-Select an author from the dropdown below to view their associated works.
+This directory lists authors who have collaborated with **Sunil Abraham** in various publications featured on this site.  
+Each name below represents a co-author, contributor, or editor who has worked with Sunil on research papers, essays, or collaborative projects.  
+Please note that this list includes only works associated with the **Sunil Abraham Project** — it does **not** represent the complete publication record of the individual authors.
+
+Select an author from the dropdown below to view the publications where they and Sunil Abraham have written or collaborated together.
 
 <div class="authors-directory">
 
@@ -41,6 +44,7 @@ Select an author from the dropdown below to view their associated works.
         {
           title: "{{ page.title | escape }}",
           url: "{{ page.url }}",
+          description: "{{ page.description | escape }}",
           authors: [{% for author in page.authors %}"{{ author | slugify }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
         }{% unless forloop.last %},{% endunless %}
       {% endif %}
@@ -52,22 +56,30 @@ Select an author from the dropdown below to view their associated works.
 
   dropdown.addEventListener('change', function() {
     const selected = this.value;
+    const selectedText = this.options[this.selectedIndex].text;
     output.innerHTML = "";
 
     if (!selected) return;
 
     const matches = publications.filter(pub => pub.authors.includes(selected));
 
+    const intro = document.createElement('p');
+    intro.innerHTML = `<strong>Sunil Abraham</strong> and <strong>${selectedText}</strong> have collaborated or co-authored the following works:`;
+    output.appendChild(intro);
+
     if (matches.length > 0) {
-      const list = document.createElement('ul');
+      const list = document.createElement('ol');
       matches.forEach(pub => {
         const li = document.createElement('li');
-        li.innerHTML = `<a href="${pub.url}">${pub.title}</a>`;
+        li.innerHTML = `
+          <a href="${pub.url}">${pub.title}</a>
+          <ul><li>${pub.description || 'No description available.'}</li></ul>
+        `;
         list.appendChild(li);
       });
       output.appendChild(list);
     } else {
-      output.innerHTML = "<p>No publications found for this author.</p>";
+      output.innerHTML += "<p>No publications found for this author.</p>";
     }
   });
 </script>
@@ -95,19 +107,26 @@ Select an author from the dropdown below to view their associated works.
 
 #author-publications {
   width: 100%;
-  margin-top: 1em;
+  margin-top: 1.5em;
   font-size: 1rem;
+}
+
+#author-publications ol {
+  margin-left: 1.5em;
+  padding-left: 0.5em;
 }
 
 #author-publications ul {
   list-style-type: disc;
-  margin-left: 1.5em;
-  padding-left: 0.5em;
+  margin-left: 1.2em;
+  color: #333;
+  font-size: 0.95em;
 }
 
 #author-publications a {
   text-decoration: none;
   color: #0056b3;
+  font-weight: 500;
 }
 
 #author-publications a:hover,
@@ -126,8 +145,12 @@ Select an author from the dropdown below to view their associated works.
     font-size: 0.95em;
   }
 
-  #author-publications ul {
+  #author-publications ol {
     margin-left: 1em;
+  }
+
+  #author-publications a {
+    font-size: 1em;
   }
 }
 </style>
