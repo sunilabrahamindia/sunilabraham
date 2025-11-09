@@ -93,7 +93,6 @@ This version emphasises content development, modular template creation, and user
 
 **Accesskey and Shortcuts**
 - Introduced keyboard shortcuts (accesskeys) for major navigation areas to enhance accessibility for users with mobility or visual impairments.  
-  - Example: `Alt + H` for Home, `Alt + U` for Publications, `Alt + P` for Projects, etc.  
 - Ensured compatibility across major browsers and assistive technologies.
 
 **🧱 Structural and Ongoing Improvements**
