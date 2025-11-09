@@ -80,11 +80,11 @@ You can select a name below to view their shared works with Sunil Abraham.
       matches.forEach(pub => {
         const li = document.createElement('li');
         li.innerHTML = `
-          <a href="${pub.url}">${pub.title}</a>
-          ${pub.year ? ` <span class="pub-year">(${pub.year})</span>` : ""}
-          <ul>
-            ${pub.description ? `<li>${pub.description}</li>` : "<li><em>No description available.</em></li>"}
-          </ul>
+          <div class="pub-entry">
+            <a href="${pub.url}">${pub.title}</a>
+            ${pub.year ? ` <span class="pub-year">(${pub.year})</span>` : ""}
+            ${pub.description ? `<div class="pub-description">• ${pub.description}</div>` : ""}
+          </div>
         `;
         list.appendChild(li);
       });
@@ -131,16 +131,20 @@ You can select a name below to view their shared works with Sunil Abraham.
   margin-bottom: 1em;
 }
 
-#author-publications ul {
-  list-style-type: disc;
-  margin-left: 1.5em;
-  color: #333;
-  font-size: 0.95em;
+.pub-entry {
+  line-height: 1.4;
 }
 
 .pub-year {
   color: #666;
   font-size: 0.9em;
+}
+
+.pub-description {
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+  font-size: 0.95em;
+  color: #333;
 }
 
 #author-publications a {
@@ -167,6 +171,11 @@ You can select a name below to view their shared works with Sunil Abraham.
 
   #author-publications ol {
     margin-left: 1em;
+  }
+
+  .pub-description {
+    margin-left: 0.25em;
+    font-size: 0.95em;
   }
 
   #author-publications a {
