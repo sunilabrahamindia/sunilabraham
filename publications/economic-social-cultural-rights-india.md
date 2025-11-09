@@ -134,9 +134,13 @@ Overall, the report argues that equitable access to mobile technologies is integ
 {% include back-to-top.html %}
 
 ## Citation
+If you wish to reference or cite this publication, you may use one of the following formats.
 
 **APA**
-<pre><code>Abraham, S., & Marda, V. (2016). Economic, Social and Cultural Rights in India: Access to Mobile Technology. Association for Progressive Communications (APC). https://sunilabraham.in/publications/economic-social-cultural-rights-india/
+<pre><code>Abraham, S., & Marda, V. (2016). 
+Economic, Social and Cultural Rights in India: Access to Mobile Technology. 
+Association for Progressive Communications (APC). 
+https://sunilabraham.in/publications/economic-social-cultural-rights-india/
 </code></pre>
 
 **BibTeX**
@@ -150,7 +154,10 @@ Overall, the report argues that equitable access to mobile technologies is integ
 </code></pre>
 
 **MLA**
-<pre><code>Abraham, Sunil, and Vidushi Marda. "Economic, Social and Cultural Rights in India: Access to Mobile Technology." Association for Progressive Communications (APC), 2016. https://sunilabraham.in/publications/economic-social-cultural-rights-india/
+<pre><code>Abraham, Sunil, and Vidushi Marda. 
+"Economic, Social and Cultural Rights in India: Access to Mobile Technology." 
+Association for Progressive Communications (APC), 2016. 
+https://sunilabraham.in/publications/economic-social-cultural-rights-india/
 </code></pre>
 
 {% include back-to-top.html %}
@@ -210,5 +217,3 @@ pre {
   pre { font-size: 0.85rem; padding: 0.6rem; }
 }
 </style>
-
-{% include back-to-top.html %}
