@@ -102,8 +102,8 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
 - **"Regulating the Internet: The Government of India and Standards Development at the IETF"**  
  — with Aayush Rathi and Gurshabad Grover.  
   *CIS Internet Governance Report, 2018.*  
-  _Analyses India’s participation and influence in the Internet Engineering Task Force (IETF) standards process._  
-  [Read here](/publications/regulating-the-internet-india-ietf.md){: .btn}
+  _Analyses India's participation and influence in the Internet Engineering Task Force (IETF) standards process._  
+  [Read here](/publications/regulating-the-internet-india-ietf){: .btn}
 
 - **"Economic, Social and Cultural Rights in India: Access to Mobile Technology"** — with Vidushi Marda.   
   *Association for Progressive Communications (APC), 2016.*  
@@ -116,7 +116,7 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
  — with Vidushi Marda.  
   *CIS Submission to the United Nations CSTD WGEC, 2014.*  
   _Presents civil society perspectives on enhanced cooperation in global Internet governance._  
-  [Read online](https://cis-india.org/internet-governance/blog/cis-inputs-to-the-working-group-on-enhanced-cooperation-on-public-policy-issues-pertaining-to-the-internet-wgec)
+  [Read here](/publications/inputs-to-wgec){: .btn}
 
 - **"Unlicensed Spectrum Policy Brief for Government of India"**  
   *CIS Telecom Policy Paper, 2013.*  
