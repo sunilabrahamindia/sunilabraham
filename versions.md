@@ -87,16 +87,16 @@ This version emphasises content development, modular template creation, and user
 - **File management:** New PDFs were uploaded to `/files/` and linked properly to their respective pages, ensuring consistent naming and SEO-friendly URLs (e.g., `/publications/digital-natives-with-a-cause/`).  
 - **Accessibility and readability:** Enhanced layout consistency, alt-text coverage, and improved paragraph flow for better screen reader interpretation.
 
-### 🧩 Template Creation and Refinement
+**🧩 Template Creation and Refinement**
 - **Stub Template:** Introduced a new `stub.html` template for in-progress or partially completed pages, visually indicating a page under development.  
 - **Notice Template:** Implemented the following include for dynamic notices that can display contextual information across multiple pages:
 
-### ♿ Accesskey and Shortcuts
+**Accesskey and Shortcuts**
 - Introduced keyboard shortcuts (accesskeys) for major navigation areas to enhance accessibility for users with mobility or visual impairments.  
-  - Example: `Alt + 1` for Home, `Alt + 2` for Publications, `Alt + 3` for Projects, etc.  
+  - Example: `Alt + H` for Home, `Alt + U` for Publications, `Alt + P` for Projects, etc.  
 - Ensured compatibility across major browsers and assistive technologies.
 
-### 🧱 Structural and Ongoing Improvements
+**🧱 Structural and Ongoing Improvements**
 - Internal consistency check for article front matter (`layout`, `title`, `description`, `categories`, and `date` fields).  
 - Preparations started for integrating accessibility guidelines into future style.scss modularisation (refer to Version 0.3 roadmap).  
 - Minor style adjustments for better mobile responsiveness in new article templates.  
