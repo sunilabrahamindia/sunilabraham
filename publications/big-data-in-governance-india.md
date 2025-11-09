@@ -132,6 +132,7 @@ Across these cases, the report concludes that while datafication enhances state 
 {% include back-to-top.html %}
 
 ## Citation
+If you wish to reference or cite this publication, you may use one of the following formats.
 
 **APA Style**
 <pre><code>Hickok, E., Chattapadhyay, S., & Abraham, S. (2016).
