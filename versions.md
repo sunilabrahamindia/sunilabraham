@@ -74,5 +74,39 @@ This release improves readability, layout consistency, and ease of navigation wh
 🗃️ **Internet Archive:** [Archived Snapshot (2 Nov 2025)](https://web.archive.org/web/20251102024245/https://sunilabraham.in/)
 
 
+## Version 0.3.1
+
+Version 0.3.1 of the **Sunil Abraham Project** marks a major expansion in the **Publications** section and continued refinement of the website’s structural and accessibility frameworks.  
+
+This version emphasises content development, modular template creation, and user accessibility through shortcuts and keyboard navigation.
+
+### 🧾 Publications Section Expansion
+- **Major Update of the Week:** The Publications section underwent a comprehensive expansion, adding 20 new first-version articles across various themes such as open knowledge, digital culture, governance, and rights.  
+- Each publication now follows a standardised seven-part structure — including *Lead section*, *Publication details*, *Abstract/Summary*, *Context and Background*, *Key Themes or Findings*, *Collaborators and Acknowledgements*, and *Related Publications*.  
+- **Improved linking system:** Articles now include embedded links to related pages, PDFs, and cross-references within the site.  
+- **File management:** New PDFs were uploaded to `/files/` and linked properly to their respective pages, ensuring consistent naming and SEO-friendly URLs (e.g., `/publications/digital-natives-with-a-cause/`).  
+- **Accessibility and readability:** Enhanced layout consistency, alt-text coverage, and improved paragraph flow for better screen reader interpretation.
+
+### 🧩 Template Creation and Refinement
+- **Stub Template:** Introduced a new `stub.html` template for in-progress or partially completed pages, visually indicating a page under development.  
+- **Notice Template:** Implemented `{% include notice.html message="..." %}` for dynamic notices that can display contextual information across multiple pages.  
+- **Main Article Template:** Added `{% include main-article.html link="..." title="..." %}` — providing consistent reference to related main content at the top of supporting articles.  
+  These templates streamline site-wide consistency, reduce code redundancy, and improve long-term maintainability.
+
+### ♿ Accesskey and Shortcuts
+- Introduced keyboard shortcuts (accesskeys) for major navigation areas to enhance accessibility for users with mobility or visual impairments.  
+  - Example: `Alt + 1` for Home, `Alt + 2` for Publications, `Alt + 3` for Projects, etc.  
+- Ensured compatibility across major browsers and assistive technologies.
+
+### 🧱 Structural and Ongoing Improvements
+- Internal consistency check for article front matter (`layout`, `title`, `description`, `categories`, and `date` fields).  
+- Preparations started for integrating accessibility guidelines into future style.scss modularisation (refer to Version 0.3 roadmap).  
+- Minor style adjustments for better mobile responsiveness in new article templates.  
+- Archive verification for `/publications/` directory and newly added article pages.
+
+✅ **Status:** Completed — Version 0.3.1 deployed.  
+📅 **Completion Date:** 9 November 2025  
+🗃️ **Internet Archive:** [Archived Snapshot (9 Nov 2025)](https://web.archive.org/web/20251109062755/https://sunilabraham.in/)
+
 
 
