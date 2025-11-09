@@ -2,7 +2,7 @@
 layout: default
 title: "Inputs to the Working Group on Enhanced Cooperation (WGEC)"
 description: "Policy submission by the Centre for Internet and Society on enhanced cooperation in international Internet governance, responding to the United Nations Working Group on Enhanced Cooperation (WGEC)."
-categories: [Policy Briefs and Submissions]
+categories: [Policy Briefs and Submissions, Publications]
 date: 2016-12-15
 authors: ["Sunil Abraham", "Vidushi Marda", "Pranesh Prakash"]
 source: "The Centre for Internet and Society (CIS)"
