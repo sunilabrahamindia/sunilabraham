@@ -99,24 +99,21 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
   _Investigates how large-scale data systems are shaping governance and accountability mechanisms in India._  
   [Read here](/publications/big-data-in-governance-india/){: .btn}
 
-- **"Regulating the Internet: The Government of India and Standards Development at the IETF"** — with Aayush Rathi and Gurshabad Grover.  
+- **"Regulating the Internet: The Government of India and Standards Development at the IETF"**  
+ — with Aayush Rathi and Gurshabad Grover.  
   *CIS Internet Governance Report, 2018.*  
   _Analyses India’s participation and influence in the Internet Engineering Task Force (IETF) standards process._  
-  [Report link](https://cis-india.org/internet-governance/blog/regulating-the-internet-the-government-of-india-standards-development-at-the-ietf)
+  [Read here](/publications/regulating-the-internet-india-ietf.md){: .btn}
 
-- **"Economic, Social and Cultural Rights in India: Access to Mobile Technology"** — with Vidushi Marda.  
+- **"Economic, Social and Cultural Rights in India: Access to Mobile Technology"** — with Vidushi Marda.   
   *Association for Progressive Communications (APC), 2016.*  
   _Examines how access to mobile technologies advances or limits social and economic rights._  
   [Read here](/publications/economic-social-cultural-rights-india){: .btn}
 
-- **"Economic, Social and Cultural Rights in India: Free and Open Source Software (FOSS) and Open Standards"** — with Vidushi Marda.  
-  *Association for Progressive Communications (APC), 2016.*  
-  _Explores FOSS and open standards as enablers for inclusive technological ecosystems._  
-  [Download PDF](https://cis-india.org/openness/files/economic-social-and-cultural-rights-in-india-opportunities-for-advocacy-in-intellectual-property-rights-access-to-mobile-technology/at_download/file)
-
 ### Policy Briefs and Submissions
 
-- **"Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC)"** — with Vidushi Marda.  
+- **"Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC)"**
+ — with Vidushi Marda.  
   *CIS Submission to the United Nations CSTD WGEC, 2014.*  
   _Presents civil society perspectives on enhanced cooperation in global Internet governance._  
   [Read online](https://cis-india.org/internet-governance/blog/cis-inputs-to-the-working-group-on-enhanced-cooperation-on-public-policy-issues-pertaining-to-the-internet-wgec)
@@ -126,7 +123,8 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
   _Recommends liberalised approaches to spectrum allocation to promote innovation and rural connectivity._  
   [Read online](https://cis-india.org/telecom/unlicensed-spectrum-brief.doc/view)
 
-- **"Availability and Accessibility of Government Information in the Public Domain"** — with Nirmita Narasimhan, Beliappa, and Anandhi Viswanathan.  
+- **"Availability and Accessibility of Government Information in the Public Domain"**
+ — with Nirmita Narasimhan, Beliappa, and Anandhi Viswanathan.  
   *CIS Policy Brief, 2012.*  
   _Assesses the accessibility of government information for persons with disabilities._  
   [Download PDF](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
