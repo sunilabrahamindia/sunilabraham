@@ -153,6 +153,7 @@ https://sunilabraham.in/publications/inputs-to-wgec/
   margin-bottom: 0.8rem;
 }
 .highlighted-text p { margin-bottom: 1rem; }
+
 .copy-btn-full {
   display: inline-block;
   background: #f1f1f1;
@@ -165,19 +166,80 @@ https://sunilabraham.in/publications/inputs-to-wgec/
   margin-bottom: 1.5rem;
 }
 .copy-btn-full:hover { background: #e5e5e5; }
+
+.copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.copy-btn:hover { background: #e8e8e8; }
+
+pre, code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+}
+pre {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  pre { font-size: 0.85rem; padding: 0.6rem; }
+}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+  // Copy Full Text button
   document.querySelectorAll('.copy-btn-full').forEach(button => {
     button.addEventListener('click', async () => {
       const targetSelector = button.getAttribute('data-copytarget');
       const targetElement = document.querySelector(targetSelector);
       if (targetElement) {
-        const text = targetElement.innerText.trim();
-        await navigator.clipboard.writeText(text);
+        try {
+          const text = targetElement.innerText.trim();
+          await navigator.clipboard.writeText(text);
+          button.textContent = 'Copied!';
+          setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
+        } catch (e) {
+          button.textContent = 'Error';
+          setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
+        }
+      }
+    });
+  });
+
+  // Add copy buttons to citation blocks
+  document.querySelectorAll('pre > code').forEach(block => {
+    const wrapper = block.parentNode;
+    wrapper.style.position = 'relative';
+
+    const button = document.createElement('button');
+    button.textContent = 'Copy';
+    button.className = 'copy-btn';
+    wrapper.appendChild(button);
+
+    button.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(block.innerText.trim());
         button.textContent = 'Copied!';
-        setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
+        setTimeout(() => (button.textContent = 'Copy'), 1500);
+      } catch (err) {
+        button.textContent = 'Error';
+        setTimeout(() => (button.textContent = 'Copy'), 1500);
       }
     });
   });
