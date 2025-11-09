@@ -247,5 +247,3 @@ document.querySelectorAll('pre > code').forEach(block => {
   background: #e5e5e5;
 }
 </style>
-
-{% include back-to-top.html %}
