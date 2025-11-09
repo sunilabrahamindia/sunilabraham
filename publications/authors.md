@@ -7,11 +7,10 @@ categories: [Project pages]
 
 ## Authors Directory
 
-This directory lists authors who have collaborated with **Sunil Abraham** in various publications featured on this site.  
-Each name below represents a co-author, contributor, or editor who has worked with Sunil on research papers, essays, or collaborative projects.  
-Please note that this list includes only works associated with the **Sunil Abraham Project** — it does **not** represent the complete publication record of the individual authors.
-
-Select an author from the dropdown below to view the publications where they and Sunil Abraham have written or collaborated together.
+This directory highlights authors who have collaborated with **Sunil Abraham** on various publications featured within this project.  
+Each author listed below has contributed to one or more works — as co-author, collaborator, or editor.  
+Please note that this directory represents collaborations and not the authors’ complete body of work.  
+You can select a name below to view their shared works with Sunil Abraham.
 
 <div class="authors-directory">
 
@@ -45,6 +44,8 @@ Select an author from the dropdown below to view the publications where they and
           title: "{{ page.title | escape }}",
           url: "{{ page.url }}",
           description: "{{ page.description | escape }}",
+          date: "{{ page.date | date: '%-d %B %Y' }}",
+          year: "{{ page.date | date: '%Y' }}",
           authors: [{% for author in page.authors %}"{{ author | slugify }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
         }{% unless forloop.last %},{% endunless %}
       {% endif %}
@@ -63,8 +64,15 @@ Select an author from the dropdown below to view the publications where they and
 
     const matches = publications.filter(pub => pub.authors.includes(selected));
 
+    let introText = "";
+    if (selectedText.toLowerCase() === "sunil abraham") {
+      introText = `<strong>The following works are authored by Sunil Abraham.</strong>`;
+    } else {
+      introText = `<strong>Sunil Abraham</strong> and <strong>${selectedText}</strong> have collaborated or co-authored the following works:`;
+    }
+
     const intro = document.createElement('p');
-    intro.innerHTML = `<strong>Sunil Abraham</strong> and <strong>${selectedText}</strong> have collaborated or co-authored the following works:`;
+    intro.innerHTML = introText;
     output.appendChild(intro);
 
     if (matches.length > 0) {
@@ -73,7 +81,10 @@ Select an author from the dropdown below to view the publications where they and
         const li = document.createElement('li');
         li.innerHTML = `
           <a href="${pub.url}">${pub.title}</a>
-          <ul><li>${pub.description || 'No description available.'}</li></ul>
+          ${pub.year ? ` <span class="pub-year">(${pub.year})</span>` : ""}
+          <ul>
+            ${pub.description ? `<li>${pub.description}</li>` : "<li><em>No description available.</em></li>"}
+          </ul>
         `;
         list.appendChild(li);
       });
@@ -116,11 +127,20 @@ Select an author from the dropdown below to view the publications where they and
   padding-left: 0.5em;
 }
 
+#author-publications ol li {
+  margin-bottom: 1em;
+}
+
 #author-publications ul {
   list-style-type: disc;
-  margin-left: 1.2em;
+  margin-left: 1.5em;
   color: #333;
   font-size: 0.95em;
+}
+
+.pub-year {
+  color: #666;
+  font-size: 0.9em;
 }
 
 #author-publications a {
