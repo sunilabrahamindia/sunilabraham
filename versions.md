@@ -89,9 +89,7 @@ This version emphasises content development, modular template creation, and user
 
 ### 🧩 Template Creation and Refinement
 - **Stub Template:** Introduced a new `stub.html` template for in-progress or partially completed pages, visually indicating a page under development.  
-- **Notice Template:** Implemented `{% include notice.html message="..." %}` for dynamic notices that can display contextual information across multiple pages.  
-- **Main Article Template:** Added `{% include main-article.html link="..." title="..." %}` — providing consistent reference to related main content at the top of supporting articles.  
-  These templates streamline site-wide consistency, reduce code redundancy, and improve long-term maintainability.
+- **Notice Template:** Implemented the following include for dynamic notices that can display contextual information across multiple pages:
 
 ### ♿ Accesskey and Shortcuts
 - Introduced keyboard shortcuts (accesskeys) for major navigation areas to enhance accessibility for users with mobility or visual impairments.  
