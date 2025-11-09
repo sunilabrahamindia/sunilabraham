@@ -5,12 +5,10 @@ description: "Browse all authors contributing to publications within the Sunil A
 categories: [Project pages]
 ---
 
-## Authors Directory
-
 This directory highlights authors who have collaborated with **Sunil Abraham** on various publications featured within this project.  
-Each author listed below has contributed to one or more works — as co-author, collaborator, or editor.  
-Please note that this directory represents collaborations and not the authors’ complete body of work.  
-You can select a name below to view their shared works with Sunil Abraham.
+- Each author listed below has contributed to one or more works — as co-author, collaborator, or editor.  
+- Please note that this directory represents collaborations and not the authors’ complete body of work.  
+- You can select a name below to view their shared works with Sunil Abraham.
 
 <div class="authors-directory">
 
