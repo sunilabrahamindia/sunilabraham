@@ -137,6 +137,7 @@ If you wish to reference or cite this publication, you may use one of the follow
 {% include back-to-top.html %}
 
 ## Citation
+If you wish to reference or cite this publication, you may use one of the following formats.
 
 **APA**
 <pre><code>Rathi, A., Grover, G., & Abraham, S. (2018). 
