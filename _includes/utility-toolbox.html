@@ -1,301 +1,143 @@
 <style>
-/* =========================================================
-   Sunil Abraham Project - Improved Utility Toolbox
-   Licence: CC BY-SA 4.0
-   ========================================================= */
-
+/* --- CSS VARIABLES FOR CONSISTENCY --- */
 :root {
-  --toolbox-primary: #2d4d7a;
-  --toolbox-secondary: #e6f2ff;
-  --toolbox-text: #1e2a38;
-  --toolbox-heading: #005b96;
-  --toolbox-danger: #c62828;
-  --toolbox-shadow: rgba(0, 0, 0, 0.15);
-  --toolbox-z-index: 1000;
+  --util-primary: #2d4d7a;
+  --util-secondary: #e6f2ff;
+  --util-text: #1e2a38;
+  --util-danger: #c62828;
 }
 
-/* Wide mode styles */
+/* Hide sidebar when wide mode is active */
 body.wide-mode .site-sidebar {
-  display: none;
+  display: none !important;
 }
 
+/* Expand main content when sidebar hidden */
 body.wide-mode .page-content,
 body.wide-mode main,
 body.wide-mode .wrapper {
-  width: 100%;
-  max-width: 100%;
-  float: none;
-  padding-right: 0;
+  width: 100% !important;
+  max-width: 100% !important;
+  float: none !important;
+  padding-right: 0 !important;
 }
 
 /* Toolbox container */
-.utility-toolbox {
+#utilityToolboxContainer {
   position: fixed;
   bottom: 35px;
   right: 20px;
-  z-index: var(--toolbox-z-index);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  z-index: 99999;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; /* Cleaner font stack */
   font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-/* Toggle button */
-.toolbox-toggle {
-  background: var(--toolbox-primary);
+/* Toolbox toggle button */
+#toggleToolbox {
+  background: var(--util-primary);
   color: #fff;
   border: none;
   padding: 10px 16px;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
-  box-shadow: 0 2px 8px var(--toolbox-shadow);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.toolbox-toggle:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px var(--toolbox-shadow);
-}
-
-.toolbox-toggle:focus {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
-}
-
-/* Panel */
-.toolbox-panel {
+/* Toolbox panel */
+#toolboxContent {
   display: none;
   margin-top: 8px;
   flex-direction: column;
   gap: 12px;
+  align-items: stretch;
   background: #fff;
-  padding: 16px;
+  padding: 14px;
   border-radius: 8px;
-  width: 260px;
+  color: #2c3e50;
+  width: 240px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  max-height: 80vh;
-  overflow-y: auto;
 }
 
-.toolbox-panel.active {
-  display: flex;
+/* Style for section headings */
+#toolboxContent div[style*="font-weight:bold"] {
+  color: #005b96;
+  font-size: 13px; /* Ensure consistency */
 }
 
-.toolbox-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 16px;
-  margin-bottom: 8px;
-  color: #002d62;
-}
-
-.toolbox-section {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.toolbox-label {
-  font-weight: 600;
-  color: var(--toolbox-heading);
-  font-size: 13px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.toolbox-button,
-.toolbox-select {
-  background: var(--toolbox-secondary);
-  color: var(--toolbox-text);
+.utility-button, .utility-select {
+  background: var(--util-secondary);
+  color: var(--util-text);
   border: 1px solid #d0e4f7;
   padding: 8px 12px;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
-  transition: background 0.2s, transform 0.1s;
-}
-
-.toolbox-button:hover {
-  background: #d0e4f7;
-  transform: scale(1.02);
-}
-
-.toolbox-button:active {
-  transform: scale(0.98);
-}
-
-.toolbox-button:focus,
-.toolbox-select:focus {
-  outline: 2px solid var(--toolbox-primary);
-  outline-offset: 2px;
-}
-
-.toolbox-select {
-  width: 100%;
-  cursor: pointer;
-}
-
-.button-group {
-  display: flex;
-  gap: 6px;
-}
-
-.button-group .toolbox-button {
-  flex: 1;
-}
-
-.value-display {
-  font-size: 12px;
-  color: #666;
-  text-align: center;
-  padding: 4px;
-  background: #f5f5f5;
-  border-radius: 4px;
-}
-
-.reset-button {
-  background: var(--toolbox-danger);
-  color: #fff;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 600;
-  margin-top: 8px;
   transition: background 0.2s;
 }
 
-.reset-button:hover {
-  background: #a02020;
+.utility-button:hover, .utility-select:hover {
+  background: #d0e4f7;
 }
 
-/* Back to top */
-.back-to-top {
+.utility-select {
+  width: 100%;
+}
+
+.utility-button-group {
+  display: flex;
+  gap: 4px;
+}
+
+.utility-button-group .utility-button {
+  flex-grow: 1;
+}
+
+#resetAllBtn {
+  background: var(--util-danger) !important;
+  color: #fff !important;
+  margin-top: 8px;
+}
+#resetAllBtn:hover {
+  background: #a02020 !important;
+}
+
+#backToTopBtn {
   position: fixed;
   bottom: 35px;
-  left: 20px;
-  background: var(--toolbox-primary);
+  left: 20px; /* Moved slightly for balance */
+  background: var(--util-primary);
   color: #fff;
   border: none;
   border-radius: 6px;
-  padding: 10px 14px;
+  padding: 10px 14px; /* Larger padding for better hit area */
   font-size: 18px;
   cursor: pointer;
-  z-index: calc(var(--toolbox-z-index) - 2);
-  box-shadow: 0 2px 8px var(--toolbox-shadow);
+  z-index: 99997;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   display: none;
-  transition: transform 0.2s, opacity 0.2s;
-}
-
-.back-to-top.visible {
-  display: block;
-  animation: fadeInUp 0.3s;
-}
-
-.back-to-top:hover {
-  transform: translateY(-3px);
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .utility-toolbox {
-    right: 10px;
-    bottom: 20px;
-  }
-  
-  .toolbox-panel {
-    width: calc(100vw - 40px);
-    max-width: 280px;
-  }
-  
-  .back-to-top {
-    left: 10px;
-    bottom: 20px;
-  }
-}
-
-/* Scrollbar styling for toolbox */
-.toolbox-panel::-webkit-scrollbar {
-  width: 6px;
-}
-
-.toolbox-panel::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 3px;
-}
-
-.toolbox-panel::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 3px;
-}
-
-.toolbox-panel::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }
 </style>
 
-<div class="utility-toolbox">
-  <button 
-    class="toolbox-toggle" 
-    id="toggleToolbox"
-    aria-expanded="false"
-    aria-controls="toolboxPanel"
-    title="Toggle accessibility utilities">
+<div id="utilityToolboxContainer">
+  <button id="toggleToolbox" title="Toggle Utilities" aria-expanded="false" aria-controls="toolboxContent">
     ⚙️ Utilities
   </button>
-  
-  <div 
-    class="toolbox-panel" 
-    id="toolboxPanel"
-    role="dialog"
-    aria-label="Accessibility and view controls">
-    
-    <div class="toolbox-title">Utilities</div>
-    
-        <div class="toolbox-section">
-      <label class="toolbox-label" for="fontSizeDisplay">
-        📏 Font Size
-      </label>
-      <div class="value-display" id="fontSizeDisplay" aria-live="polite">100%</div>
-      <div class="button-group">
-        <button class="toolbox-button" id="textZoomIn" aria-label="Increase font size">A+</button>
-        <button class="toolbox-button" id="textZoomOut" aria-label="Decrease font size">A−</button>
-        <button class="toolbox-button" id="textZoomReset" aria-label="Reset font size">Reset</button>
-      </div>
-    </div>
+  <div id="toolboxContent" role="dialog" aria-label="Accessibility and View Tools">
 
-        <div class="toolbox-section">
-      <label class="toolbox-label" for="lineHeightDisplay">
-        📐 Line Height
-      </label>
-      <div class="value-display" id="lineHeightDisplay" aria-live="polite">1.6</div>
-      <div class="button-group">
-        <button class="toolbox-button" id="lineHeightIncrease" aria-label="Increase line height">⬆️</button>
-        <button class="toolbox-button" id="lineHeightDecrease" aria-label="Decrease line height">⬇️</button>
-        <button class="toolbox-button" id="lineHeightReset" aria-label="Reset line height">Reset</button>
-      </div>
+    <div style="text-align:center;font-weight:bold;font-size:16px;margin-bottom:8px;color:#002d62;">
+      Utilities
     </div>
-
-        <div class="toolbox-section">
-      <label class="toolbox-label" for="fontSelector">
-        🔤 Font Type
-      </label>
-      <select id="fontSelector" class="toolbox-select" aria-label="Select font family">
+       
+   <div style="font-weight:bold;margin-bottom:6px;">Translate</div>
+       {% include translate.html %}
+    
+        <div>
+      <div style="font-weight:bold;margin-bottom:6px;">🔤 Font type</div>
+      <select id="fontSelector" class="utility-select" aria-label="Select font family">
         <option value="">Default</option>
         <option value="arial">Arial</option>
         <option value="georgia">Georgia</option>
@@ -307,26 +149,40 @@ body.wide-mode .wrapper {
       </select>
     </div>
 
-        <div class="toolbox-section">
-      <label class="toolbox-label" for="fontColorSelect">
-        🖍️ Text Color
-      </label>
-      <select id="fontColorSelect" class="toolbox-select" aria-label="Select text color">
+        <div>
+      <div style="font-weight:bold;margin-bottom:6px;">📏 Font size</div>
+      <div class="utility-button-group">
+        <button id="textZoomIn" class="utility-button" aria-label="Increase font size">A+</button>
+        <button id="textZoomOut" class="utility-button" aria-label="Decrease font size">A−</button>
+        <button id="textZoomReset" class="utility-button" aria-label="Reset font size">🔁</button>
+      </div>
+    </div>
+
+        <div>
+      <div style="font-weight:bold;margin-bottom:6px;">📐 Line height</div>
+      <div class="utility-button-group">
+        <button id="lineHeightIncrease" class="utility-button" aria-label="Increase line height">⬆️</button>
+        <button id="lineHeightDecrease" class="utility-button" aria-label="Decrease line height">⬇️</button>
+        <button id="lineHeightReset" class="utility-button" aria-label="Reset line height">🔁</button>
+      </div>
+    </div>
+    
+        <div>
+      <div style="font-weight:bold;margin-bottom:6px;">🖍 Font colour</div>
+      <select id="fontColorSelect" class="utility-select" aria-label="Select font colour">
         <option value="">Default</option>
         <option value="darkgreen">Dark Green</option>
         <option value="darkred">Dark Red</option>
         <option value="indigo">Indigo</option>
         <option value="maroon">Maroon</option>
         <option value="midnightblue">Midnight Blue</option>
-        <option value="saddlebrown">Brown</option>
+        <option value="saddlebrown">Saddle Brown</option>
       </select>
     </div>
 
-        <div class="toolbox-section">
-      <label class="toolbox-label" for="bgColorSelect">
-        🎨 Background
-      </label>
-      <select id="bgColorSelect" class="toolbox-select" aria-label="Select background color">
+        <div>
+      <div style="font-weight:bold;margin-bottom:6px;">🎨 Background</div>
+      <select id="bgColorSelect" class="utility-select" aria-label="Select background colour">
         <option value="">Default</option>
         <option value="aliceblue">Alice Blue</option>
         <option value="beige">Beige</option>
@@ -341,300 +197,177 @@ body.wide-mode .wrapper {
       </select>
     </div>
 
-        <button class="reset-button" id="resetAllBtn" aria-label="Reset all settings to default">
-      🔄 Reset All
-    </button>
+        <div style="text-align:center;">
+      <button id="resetAllBtn" aria-label="Reset all settings to default">
+        🔄 Reset All
+      </button>
+    </div>
   </div>
 </div>
 
-<button 
-  class="back-to-top" 
-  id="backToTopBtn"
-  aria-label="Scroll to top of page"
-  title="Back to Top">
-  ⬆️
-</button>
+<button id="backToTopBtn" title="Back to Top" aria-label="Scroll to top of page">⬆️</button>
 
 <script>
-(function() {
-  'use strict';
-  
-  // Configuration
-  const CONFIG = {
-    FONT_SIZE_STEP: 10,
-    FONT_SIZE_MIN: 60,
-    FONT_SIZE_MAX: 200,
-    LINE_HEIGHT_STEP: 0.1,
-    LINE_HEIGHT_MIN: 1.0,
-    LINE_HEIGHT_MAX: 3.0,
-    SCROLL_THRESHOLD: 300
+window.addEventListener("load", function () {
+  const body = document.body;
+  const toggleBtn = document.getElementById("toggleToolbox");
+  const toolbox = document.getElementById("toolboxContent");
+  const contentSelectors = "main, article, .page-content, .wrapper"; // Elements to apply content styles to
+
+  // --- Toolbox Toggle ---
+  toggleBtn.onclick = () => {
+    const expanded = toolbox.style.display === "flex";
+    toolbox.style.display = expanded ? "none" : "flex";
+    toggleBtn.setAttribute('aria-expanded', !expanded);
+    toggleBtn.textContent = expanded ? "⚙️ Utilities" : "❌ Close";
   };
 
-  // Utility functions
-  const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
-  const round = (value, decimals = 1) => Math.round(value * Math.pow(10, decimals)) / Math.pow(10, decimals);
-  
-  // Storage wrapper with error handling
-  const storage = {
-    get: (key, defaultValue) => {
-      try {
-        const value = localStorage.getItem(key);
-        return value !== null ? value : defaultValue;
-      } catch (e) {
-        console.warn('localStorage get failed:', e);
-        return defaultValue;
-      }
-    },
-    set: (key, value) => {
-      try {
-        localStorage.setItem(key, value);
-      } catch (e) {
-        console.warn('localStorage set failed:', e);
-      }
-    },
-    remove: (key) => {
-      try {
-        localStorage.removeItem(key);
-      } catch (e) {
-        console.warn('localStorage remove failed:', e);
-      }
+  // --- Font Size ---
+  let fontSize = parseFloat(localStorage.getItem("zoomFontSize")) || 100;
+  function applyFontSize() {
+    // Apply to body to affect all elements consistently
+    body.style.setProperty("font-size", fontSize + "%", "important");
+    localStorage.setItem("zoomFontSize", fontSize);
+  }
+  document.getElementById("textZoomIn").onclick = () => { if (fontSize < 200) { fontSize += 10; applyFontSize(); }};
+  document.getElementById("textZoomOut").onclick = () => { if (fontSize > 60) { fontSize -= 10; applyFontSize(); }};
+  document.getElementById("textZoomReset").onclick = () => { fontSize = 100; applyFontSize(); };
+  applyFontSize();
+
+  // --- Line Height ---
+  let lineHeight = parseFloat(localStorage.getItem("customLineHeight")) || 1.6;
+  function applyLineHeight() {
+    // Apply line-height to main content areas
+    document.querySelectorAll(contentSelectors).forEach(el => el.style.setProperty("line-height", lineHeight, "important"));
+    localStorage.setItem("customLineHeight", lineHeight);
+  }
+  // Math.round to fix floating point arithmetic issues
+  document.getElementById("lineHeightIncrease").onclick = () => { if (lineHeight < 3) { lineHeight = Math.round((lineHeight + 0.1) * 10) / 10; applyLineHeight(); }};
+  document.getElementById("lineHeightDecrease").onclick = () => { if (lineHeight > 1) { lineHeight = Math.round((lineHeight - 0.1) * 10) / 10; applyLineHeight(); }};
+  document.getElementById("lineHeightReset").onclick = () => { lineHeight = 1.6; applyLineHeight(); };
+  applyLineHeight();
+
+  // --- Font Family (Lazy Loading Google Fonts) ---
+  const fontSelector = document.getElementById("fontSelector");
+  const fontMap = {
+    arial: "Arial, sans-serif",
+    courier: "'Courier New', monospace",
+    georgia: "Georgia, serif",
+    opensans: "'Open Sans', sans-serif",
+    merriweather: "'Merriweather', serif",
+    playfair: "'Playfair Display', serif",
+    roboto: "'Roboto', sans-serif"
+  };
+  const googleFontUrls = {
+    opensans: 'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap',
+    merriweather: 'https://fonts.googleapis.com/css2?family=Merriweather&display=swap',
+    playfair: 'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap',
+    roboto: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap'
+  };
+  
+  function loadGoogleFont(key) {
+    const url = googleFontUrls[key];
+    if (url && !document.querySelector(`link[href="${url}"]`)) {
+      const link = document.createElement('link');
+      link.href = url;
+      link.rel = 'stylesheet';
+      document.head.appendChild(link);
     }
+  }
+
+  function applyFontFamily(key) {
+    if (googleFontUrls[key]) {
+      loadGoogleFont(key);
+    }
+    const val = fontMap[key] || "";
+    document.querySelectorAll(contentSelectors).forEach(el => el.style.setProperty("font-family", val, "important"));
+    localStorage.setItem("fontFamily", key || "");
+  }
+
+  fontSelector.onchange = () => applyFontFamily(fontSelector.value);
+  const savedFont = localStorage.getItem("fontFamily");
+  if (savedFont) { 
+    fontSelector.value = savedFont; 
+    applyFontFamily(savedFont); // Initial load applies font and lazy-loads if needed
+  }
+
+  // --- Font Colour ---
+  const fontColorSelect = document.getElementById("fontColorSelect");
+  const applyFontColor = (color) => {
+    document.querySelectorAll(contentSelectors).forEach(el => el.style.setProperty("color", color, "important"));
+    localStorage.setItem("fontColor", color || "");
   };
 
-  // DOM element cache
-  const elements = {
-    toggle: document.getElementById('toggleToolbox'),
-    panel: document.getElementById('toolboxPanel'),
-    backToTop: document.getElementById('backToTopBtn'),
-    fontSizeDisplay: document.getElementById('fontSizeDisplay'),
-    lineHeightDisplay: document.getElementById('lineHeightDisplay'),
-    targets: null // Will be set after DOM ready
+  fontColorSelect.onchange = () => applyFontColor(fontColorSelect.value);
+  const savedFontColor = localStorage.getItem("fontColor");
+  if (savedFontColor) {
+    applyFontColor(savedFontColor);
+    fontColorSelect.value = savedFontColor;
+  }
+
+  // --- Background Colour ---
+  const bgSelect = document.getElementById("bgColorSelect");
+  const applyBackground = (bg) => {
+    // Apply to body and html for full coverage
+    body.style.setProperty("background-color", bg || "", "important");
+    document.documentElement.style.setProperty("background-color", bg || "", "important");
+    
+    // Apply to content wrappers to handle nested elements/theme colours
+    document.querySelectorAll(contentSelectors).forEach(el => {
+      el.style.setProperty("background-color", bg || "", "important");
+    });
+    body.style.transition = "background-color 0.4s ease";
   };
 
-  // Cache target elements
-  function cacheTargets() {
-    // These are the elements that will receive accessibility styling (font size, line height, etc.)
-    // Customise this selector based on your site's main content area structure.
-    elements.targets = document.querySelectorAll('main, article, .page-content, .wrapper');
+  bgSelect.onchange = () => applyBackground(bgSelect.value);
+  const savedBg = localStorage.getItem("bgColor");
+  if (savedBg) {
+    applyBackground(savedBg);
+    bgSelect.value = savedBg;
   }
 
-  // Initialize after DOM load
-  window.addEventListener('load', function() {
-    cacheTargets();
-    
-    // Toolbox toggle
-    elements.toggle.addEventListener('click', toggleToolbox);
-    
-    // Close on Escape key
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape' && elements.panel.classList.contains('active')) {
-        toggleToolbox();
-      }
+  // --- Reset all --- 
+  document.getElementById("resetAllBtn").onclick = () => {
+    ["zoomFontSize", "customLineHeight", "fontFamily", "fontColor", "bgColor", "sidebarHidden"].forEach(k => localStorage.removeItem(k));
+    
+    // Reset variables to defaults
+    fontSize = 100; lineHeight = 1.6;
+    
+    // Clear all inline styles
+    body.classList.remove("wide-mode");
+    body.style.removeProperty("font-size");
+    body.style.removeProperty("background-color");
+    document.documentElement.style.removeProperty("background-color");
+    document.querySelectorAll(contentSelectors).forEach(el => {
+      el.style.removeProperty("line-height");
+      el.style.removeProperty("font-family");
+      el.style.removeProperty("color");
+      el.style.removeProperty("background-color");
     });
-    
-    // Initialize features
-    initFontSize();
-    initLineHeight();
-    initFontFamily();
-    initFontColor();
-    initBackgroundColor();
-    initResetButton();
-    initBackToTop();
-  });
+    
+    // Reset dropdowns
+    fontSelector.value = ""; 
+    fontColorSelect.value = ""; 
+    bgSelect.value = "";
 
-  // Toggle toolbox
-  function toggleToolbox() {
-    const isExpanded = elements.panel.classList.toggle('active');
-    elements.toggle.setAttribute('aria-expanded', isExpanded);
-    elements.toggle.textContent = isExpanded ? '❌ Close' : '⚙️ Utilities';
-  }
-
-  // Font Size
-  function initFontSize() {
-    let fontSize = parseFloat(storage.get('zoomFontSize', '100'));
-    
-    const applyFontSize = () => {
-      fontSize = clamp(fontSize, CONFIG.FONT_SIZE_MIN, CONFIG.FONT_SIZE_MAX);
-      elements.targets.forEach(el => el.style.fontSize = fontSize + '%');
-      elements.fontSizeDisplay.textContent = fontSize + '%';
-      storage.set('zoomFontSize', fontSize);
-    };
-    
-    document.getElementById('textZoomIn').addEventListener('click', () => {
-      fontSize += CONFIG.FONT_SIZE_STEP;
-      applyFontSize();
-    });
-    
-    document.getElementById('textZoomOut').addEventListener('click', () => {
-      fontSize -= CONFIG.FONT_SIZE_STEP;
-      applyFontSize();
-    });
-    
-    document.getElementById('textZoomReset').addEventListener('click', () => {
-      fontSize = 100;
-      applyFontSize();
-    });
-    
-    applyFontSize();
-  }
-
-  // Line Height
-  function initLineHeight() {
-    let lineHeight = parseFloat(storage.get('customLineHeight', '1.6'));
-    
-    const applyLineHeight = () => {
-      lineHeight = clamp(lineHeight, CONFIG.LINE_HEIGHT_MIN, CONFIG.LINE_HEIGHT_MAX);
-      lineHeight = round(lineHeight, 1);
-      elements.targets.forEach(el => el.style.lineHeight = lineHeight);
-      elements.lineHeightDisplay.textContent = lineHeight.toFixed(1);
-      storage.set('customLineHeight', lineHeight);
-    };
-    
-    document.getElementById('lineHeightIncrease').addEventListener('click', () => {
-      lineHeight += CONFIG.LINE_HEIGHT_STEP;
-      applyLineHeight();
-    });
-    
-    document.getElementById('lineHeightDecrease').addEventListener('click', () => {
-      lineHeight -= CONFIG.LINE_HEIGHT_STEP;
-      applyLineHeight();
-    });
-    
-    document.getElementById('lineHeightReset').addEventListener('click', () => {
-      lineHeight = 1.6;
-      applyLineHeight();
-    });
-    
+    // Reapply defaults from local storage (which is now empty, so defaults run)
+    applyFontSize(); 
     applyLineHeight();
-  }
+  };
 
-  // Font Family
-  function initFontFamily() {
-    const fontSelector = document.getElementById('fontSelector');
-    const fontMap = {
-      arial: "Arial, sans-serif",
-      courier: "'Courier New', monospace",
-      georgia: "Georgia, serif",
-      opensans: "'Open Sans', sans-serif",
-      merriweather: "'Merriweather', serif",
-      playfair: "'Playfair Display', serif",
-      roboto: "'Roboto', sans-serif"
-    };
-
-    // Lazy load Google Fonts
-    const loadFont = (fontKey) => {
-      const fontUrls = {
-        opensans: 'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap',
-        merriweather: 'https://fonts.googleapis.com/css2?family=Merriweather&display=swap',
-        playfair: 'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap',
-        roboto: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap'
-      };
-      
-      if (fontUrls[fontKey] && !document.querySelector(`link[href="${fontUrls[fontKey]}"]`)) {
-        const link = document.createElement('link');
-        link.href = fontUrls[fontKey];
-        link.rel = 'stylesheet';
-        document.head.appendChild(link);
-      }
-    };
-
-    const applyFont = (key) => {
-      if (key) loadFont(key);
-      const fontFamily = fontMap[key] || "";
-      elements.targets.forEach(el => el.style.fontFamily = fontFamily);
-      storage.set('fontFamily', key);
-    };
-
-    fontSelector.addEventListener('change', () => applyFont(fontSelector.value));
-    
-    const savedFont = storage.get('fontFamily', '');
-    if (savedFont) {
-      fontSelector.value = savedFont;
-      applyFont(savedFont);
-    }
-  }
-
-  // Font Color
-  function initFontColor() {
-    const fontColorSelect = document.getElementById('fontColorSelect');
-    
-    const applyColor = (color) => {
-      elements.targets.forEach(el => el.style.color = color);
-      storage.set('fontColor', color);
-    };
-    
-    fontColorSelect.addEventListener('change', () => applyColor(fontColorSelect.value));
-    
-    const savedColor = storage.get('fontColor', '');
-    if (savedColor) {
-      fontColorSelect.value = savedColor;
-      applyColor(savedColor);
-    }
-  }
-
-  // Background Color
-  function initBackgroundColor() {
-    const bgSelect = document.getElementById('bgColorSelect');
-    
-    const applyBackground = (color) => {
-      document.body.style.backgroundColor = color;
-      document.documentElement.style.backgroundColor = color;
-      elements.targets.forEach(el => el.style.backgroundColor = color);
-      storage.set('bgColor', color);
-    };
-    
-    bgSelect.addEventListener('change', () => applyBackground(bgSelect.value));
-    
-    const savedBg = storage.get('bgColor', '');
-    if (savedBg) {
-      bgSelect.value = savedBg;
-      applyBackground(savedBg);
-    }
-  }
-
-  // Reset All
-  function initResetButton() {
-    document.getElementById('resetAllBtn').addEventListener('click', () => {
-      ['zoomFontSize', 'customLineHeight', 'fontFamily', 'fontColor', 'bgColor'].forEach(k => storage.remove(k));
-      
-      elements.targets.forEach(el => {
-        el.style.fontSize = '';
-        el.style.lineHeight = '';
-        el.style.fontFamily = '';
-        el.style.color = '';
-        el.style.backgroundColor = '';
+  // --- Back to top ---
+  const topBtn = document.getElementById("backToTopBtn");
+  // Use requestAnimationFrame for smoother scroll checks
+  let ticking = false;
+  window.addEventListener("scroll", () => {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        topBtn.style.display = window.scrollY > 300 ? "block" : "none";
+        ticking = false;
       });
-      
-      document.body.style.backgroundColor = '';
-      document.documentElement.style.backgroundColor = '';
-      
-      document.getElementById('fontSelector').value = '';
-      document.getElementById('fontColorSelect').value = '';
-      document.getElementById('bgColorSelect').value = '';
-      
-      // Reinitialize to apply defaults
-      initFontSize();
-      initLineHeight();
-    });
-  }
-
-  // Back to Top
-  function initBackToTop() {
-    let ticking = false;
-    
-    window.addEventListener('scroll', () => {
-      if (!ticking) {
-        window.requestAnimationFrame(() => {
-          elements.backToTop.classList.toggle('visible', window.scrollY > CONFIG.SCROLL_THRESHOLD);
-          ticking = false;
-        });
-        ticking = true;
-      }
-    });
-    
-    elements.backToTop.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  }
-})();
+      ticking = true;
+    }
+  });
+  topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+});
 </script>
