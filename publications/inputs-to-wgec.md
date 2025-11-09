@@ -9,8 +9,7 @@ source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/inputs-to-wgec/
 ---
 
-**Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC)** was submitted by the Centre for Internet and Society (CIS) on 15 December 2016.  
-The submission responds to the Working Group’s invitation for inputs on two key questions guiding its January 2017 meeting: the high-level characteristics of enhanced cooperation, and possible recommendations building on the Tunis Agenda for the Information Society (paragraphs 69–71).
+**Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC)** was submitted by the Centre for Internet and Society (CIS) on 15 December 2016. The submission responds to the Working Group’s invitation for inputs on two key questions guiding its January 2017 meeting: the high-level characteristics of enhanced cooperation, and possible recommendations building on the Tunis Agenda for the Information Society (paragraphs 69–71).
 
 The paper outlines how enhanced cooperation should be conceptualised, implemented, and distributed among relevant international actors — governments, international organisations, technical bodies, civil society, and the private sector.
 
@@ -57,7 +56,7 @@ The paper outlines how enhanced cooperation should be conceptualised, implemente
 
 ## Abstract
 
-This submission addresses the evolving discourse on "enhanced cooperation" within global Internet governance. It traces the origins of the concept in the **Tunis Agenda (2005)** and clarifies how enhanced cooperation differs from the **Internet Governance Forum (IGF)**.  
+This submission addresses the evolving discourse on "enhanced cooperation" within global Internet governance. It traces the origins of the concept in the Tunis Agenda (2005) and clarifies how enhanced cooperation differs from the Internet Governance Forum (IGF).  
 
 CIS argues that enhanced cooperation should not be a single centralised mechanism, but rather a distributed, flexible framework across governments, multilateral bodies, private sector actors, and civil society. It proposes that enhanced cooperation should encompass:
 - the development of international law and norms by governments through existing or new multilateral fora,  
@@ -77,7 +76,7 @@ In this submission, CIS analyses the Tunis Agenda’s intent and applies it to c
 - should exclude day-to-day operational and national policy matters (e.g. national security, intellectual property enforcement),  
 - and should ensure that both multilateral and multistakeholder approaches are contextually employed.
 
-Enhanced cooperation is described as a **complement** to the IGF’s deliberative functions, serving as a *governance* mechanism rather than a *learning* forum. CIS recommends creating parallel spaces — akin to ICANN’s participatory model — where different stakeholder constituencies can develop and enforce their own self-regulatory norms while maintaining public transparency.
+Enhanced cooperation is described as a complement** to the IGF's deliberative functions, serving as a *governance* mechanism rather than a *learning* forum. CIS recommends creating parallel spaces — akin to ICANN's participatory model — where different stakeholder constituencies can develop and enforce their own self-regulatory norms while maintaining public transparency.
 
 {% include back-to-top.html %}
 
@@ -114,8 +113,13 @@ December 2016.</p>
 
 ## Citation
 
+If you wish to reference or cite this publication, you may use one of the following formats.
+
 **APA**
-<pre><code>Abraham, S., Marda, V., & Prakash, P. (2016). Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC). The Centre for Internet and Society (CIS). https://sunilabraham.in/publications/inputs-to-wgec/
+<pre><code>Abraham, S., Marda, V., & Prakash, P. (2016). 
+Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC). 
+The Centre for Internet and Society (CIS). 
+https://sunilabraham.in/publications/inputs-to-wgec/
 </code></pre>
 
 **BibTeX**
@@ -129,7 +133,10 @@ December 2016.</p>
 </code></pre>
 
 **MLA**
-<pre><code>Abraham, Sunil, Vidushi Marda, and Pranesh Prakash. "Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC)." The Centre for Internet and Society (CIS), 2016. https://sunilabraham.in/publications/inputs-to-wgec/
+<pre><code>Abraham, Sunil, Vidushi Marda, and Pranesh Prakash. 
+"Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC)." 
+The Centre for Internet and Society (CIS), 2016. 
+https://sunilabraham.in/publications/inputs-to-wgec/
 </code></pre>
 
 {% include back-to-top.html %}
