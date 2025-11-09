@@ -104,6 +104,8 @@ At the same time, security agencies in the United States and United Kingdom have
 
 ## Full Text
 
+If you wish to reference or cite this publication, you may use one of the following formats.
+
 <div class="pdf-container">
   <iframe
     src="https://docs.google.com/gview?url=https://sunilabraham.in/publications/files/regulating-the-internet-india-ietf.pdf&embedded=true"
@@ -137,7 +139,10 @@ At the same time, security agencies in the United States and United Kingdom have
 ## Citation
 
 **APA**
-<pre><code>Rathi, A., Grover, G., & Abraham, S. (2018). Regulating the Internet: The Government of India and Standards Development at the IETF. The Centre for Internet and Society (CIS). https://sunilabraham.in/publications/regulating-the-internet-india-ietf/
+<pre><code>Rathi, A., Grover, G., & Abraham, S. (2018). 
+  Regulating the Internet: The Government of India and Standards Development at the IETF. 
+  The Centre for Internet and Society (CIS). 
+  https://sunilabraham.in/publications/regulating-the-internet-india-ietf/
 </code></pre>
 
 **BibTeX**
@@ -151,7 +156,10 @@ At the same time, security agencies in the United States and United Kingdom have
 </code></pre>
 
 **MLA**
-<pre><code>Rathi, Aayush, Gurshabad Grover, and Sunil Abraham. "Regulating the Internet: The Government of India and Standards Development at the IETF." The Centre for Internet and Society (CIS), 2018. https://sunilabraham.in/publications/regulating-the-internet-india-ietf/
+<pre><code>Rathi, Aayush, Gurshabad Grover, and Sunil Abraham. 
+  "Regulating the Internet: The Government of India and Standards Development at the IETF." 
+  The Centre for Internet and Society (CIS), 2018. 
+  https://sunilabraham.in/publications/regulating-the-internet-india-ietf/
 </code></pre>
 
 {% include back-to-top.html %}
