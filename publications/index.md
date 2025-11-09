@@ -272,5 +272,5 @@ His talks often focus on openness, ethics, and governance in digital systems.
   _Participation in global multistakeholder dialogues on digital rights._
 
 ## See also
--   [Authors directory](/publications/authors{: .btn}, highlights authors who have collaborated with Sunil Abraham on various publications featured within this project
+-   [Authors directory](/publications/authors){: .btn}, highlights authors who have collaborated with Sunil Abraham on various publications featured within this project
 
