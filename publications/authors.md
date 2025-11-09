@@ -10,25 +10,30 @@ categories: [Project pages]
 This page allows you to browse all publications by author.  
 Select an author from the dropdown below to view their associated works.
 
-<select id="author-select" aria-label="Select Author">
-  <option value="">-- Select an Author --</option>
-  {% assign all_authors = "" | split: "" %}
-  {% for page in site.pages %}
-    {% if page.categories contains "Publications" and page.authors %}
-      {% for author in page.authors %}
-        {% unless all_authors contains author %}
-          {% assign all_authors = all_authors | push: author %}
-        {% endunless %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-  {% assign sorted_authors = all_authors | sort %}
-  {% for author in sorted_authors %}
-    <option value="{{ author | slugify }}">{{ author }}</option>
-  {% endfor %}
-</select>
+{% raw %}
+<div class="authors-directory">
 
-<div id="author-publications" aria-live="polite"></div>
+  <select id="author-select" aria-label="Select Author">
+    <option value="">-- Select an Author --</option>
+    {% assign all_authors = "" | split: "" %}
+    {% for page in site.pages %}
+      {% if page.categories contains "Publications" and page.authors %}
+        {% for author in page.authors %}
+          {% unless all_authors contains author %}
+            {% assign all_authors = all_authors | push: author %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% assign sorted_authors = all_authors | sort %}
+    {% for author in sorted_authors %}
+      <option value="{{ author | slugify }}">{{ author }}</option>
+    {% endfor %}
+  </select>
+
+  <div id="author-publications" aria-live="polite"></div>
+
+</div>
 
 <script>
   const publications = [
@@ -70,11 +75,18 @@ Select an author from the dropdown below to view their associated works.
 
 <style>
 /* --- Author Directory Styling --- */
+.authors-directory {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+}
+
 #author-select {
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   padding: 0.6em;
-  margin: 1em 0;
   font-size: 1em;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -83,7 +95,8 @@ Select an author from the dropdown below to view their associated works.
 }
 
 #author-publications {
-  margin-top: 1.5em;
+  width: 100%;
+  margin-top: 1em;
   font-size: 1rem;
 }
 
@@ -103,7 +116,12 @@ Select an author from the dropdown below to view their associated works.
   text-decoration: underline;
 }
 
+/* --- Responsive adjustments --- */
 @media (max-width: 600px) {
+  .authors-directory {
+    align-items: stretch;
+  }
+
   #author-select {
     width: 100%;
     font-size: 0.95em;
@@ -112,9 +130,6 @@ Select an author from the dropdown below to view their associated works.
   #author-publications ul {
     margin-left: 1em;
   }
-
-  #author-publications a {
-    font-size: 1em;
-  }
 }
 </style>
+{% endraw %}
