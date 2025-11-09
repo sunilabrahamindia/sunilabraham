@@ -80,7 +80,7 @@ Version 0.3.1 of the **Sunil Abraham Project** marks a major expansion in the **
 
 This version emphasises content development, modular template creation, and user accessibility through shortcuts and keyboard navigation.
 
-### 🧾 Publications Section Expansion
+**🧾 Publications Section Expansion**
 - **Major Update of the Week:** The Publications section underwent a comprehensive expansion, adding 20 new first-version articles across various themes such as open knowledge, digital culture, governance, and rights.  
 - Each publication now follows a standardised seven-part structure — including *Lead section*, *Publication details*, *Abstract/Summary*, *Context and Background*, *Key Themes or Findings*, *Collaborators and Acknowledgements*, and *Related Publications*.  
 - **Improved linking system:** Articles now include embedded links to related pages, PDFs, and cross-references within the site.  
