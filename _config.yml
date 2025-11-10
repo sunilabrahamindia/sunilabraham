@@ -42,7 +42,6 @@ url: "https://sunilabraham.in"
 # Excluded files and folders (not built or indexed)
 # =====================================================
 exclude:
-  - sandbox/
   - README.md
   - LICENSE
   - Gemfile
