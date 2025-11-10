@@ -71,3 +71,12 @@ paginate_path: "/page:num"
 future: true
 lsi: false
 safe: true
+
+# =====================================================
+# Exclude sandbox pages from sitemap
+# =====================================================
+defaults:
+  - scope:
+      path: "sandbox"
+    values:
+      sitemap: false
