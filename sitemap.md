@@ -17,7 +17,14 @@ As of {{ site.time | date: "%-d %B %Y" }}, the site contains {{ site.pages | siz
 <ol class="sitemap-list">
 {% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
-  {% unless page.url == '/' or page.path contains 'categories/' or page.path contains '_layouts' or page.path contains '_includes' or page.path contains '_templates' or page.path contains '404' or page.path contains 'sitemap' %}
+{% unless page.url == '/' 
+      or page.path contains 'categories/' 
+      or page.path contains '_layouts' 
+      or page.path contains '_includes' 
+      or page.path contains '_templates' 
+      or page.path contains '404' 
+      or page.path contains 'sitemap' 
+      or page.path contains 'sandbox/' %}
     {% if page.title %}
       <li>
         <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
