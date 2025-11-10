@@ -27,7 +27,7 @@ toc:
 # Plugins — All supported by GitHub Pages
 # =====================================================
 plugins:
-#  - jekyll-sitemap          # Generates sitemap.xml
+  - jekyll-sitemap          # Generates sitemap.xml
   - jekyll-feed             # Generates feed.xml
   - jekyll-seo-tag          # Adds SEO and Open Graph tags
   - jekyll-redirect-from    # Redirects old URLs
