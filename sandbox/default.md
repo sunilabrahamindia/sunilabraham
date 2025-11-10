@@ -1,7 +1,12 @@
 ---
 layout: default
-title: Sandbox Test Page
+title: "Sandbox Test Page"
+permalink: /sandbox/default/
+sitemap: false
 ---
+
+This is a test page inside the sandbox directory.
+
 
 {% include under-construction.html %}
 
