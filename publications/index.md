@@ -194,6 +194,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
   [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
 
+- *"Intermediary liability law needs updating"* — *Business Standard*, 2019.  
+  [Read here](/publications/intermediary-liability-law-needs-updating/){: .btn}
+
 - *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics* — *Firstpost*, 2016.  
   [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
 
