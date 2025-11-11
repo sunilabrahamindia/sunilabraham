@@ -121,7 +121,7 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
 - **"Unlicensed Spectrum Policy Brief for Government of India"**  
   *CIS Telecom Policy Paper, 2013.*  
   _Recommends liberalised approaches to spectrum allocation to promote innovation and rural connectivity._  
-  [Read online](https://cis-india.org/telecom/unlicensed-spectrum-brief.doc/view)
+  [Read here](/publications/unlicensed-spectrum-policy){: .btn}
 
 - **"Availability and Accessibility of Government Information in the Public Domain"**
  — with Nirmita Narasimhan, Beliappa, and Anandhi Viswanathan.  
