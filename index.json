@@ -1,0 +1,13 @@
+---
+layout: none
+---
+
+[
+  {% for page in site.pages %}
+    {
+      "title": {{ page.title | jsonify }},
+      "url": "{{ page.url | relative_url }}",
+      "content": {{ page.content | strip_html | jsonify }}
+    }{% if forloop.last == false %},{% endif %}
+  {% endfor %}
+]
