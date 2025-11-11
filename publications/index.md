@@ -212,10 +212,10 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read online](https://www.business-standard.com/article/economy-policy/cambridge-analytica-scandal-how-india-can-save-democracy-from-facebook-118032800146_1.html)
 
 - *"A Trust Deficit Between Advertisers and Publishers Is Leading to Fake News"* — *Hindustan Times*, 2018.  
-  [Read here](/publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news.md){: .btn}
+  [Read here](/publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news){: .btn}
 
-- *"Facebook’s Fall from Grace: Arab Spring to Indian Winter"* — *Firstpost*, 2016.  
-  [Read online](https://www.firstpost.com/tech/news-analysis/facebooks-fall-from-grace-arab-spring-to-indian-winter-3676797.html)
+- *"Facebook's Fall from Grace: Arab Spring to Indian Winter"* — *Firstpost*, 2016.  
+  [Read here](/publications/facebooks-fall-from-grace-arab-spring-to-indian-winter){: .btn}
 
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
   _An essay on the global evolution of openness and free software movements._
