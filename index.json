@@ -3,11 +3,32 @@ layout: none
 ---
 
 [
-  {% for page in site.pages %}
-    {
-      "title": {{ page.title | jsonify }},
-      "url": "{{ page.url | relative_url }}",
-      "content": {{ page.content | strip_html | jsonify }}
-    }{% if forloop.last == false %},{% endif %}
-  {% endfor %}
+  {% assign excluded = "_layouts,_includes,_sass,_data,_site,404,sitemap,robots,short,sandbox" | split: "," %}
+
+  {%- comment -%}
+  Include only normal site pages that are not in excluded folders
+  {%- endcomment -%}
+  {% assign filtered_pages = site.pages | where_exp: "page", "excluded contains page.path | not" %}
+
+  {%- for page in filtered_pages -%}
+    {%- if page.title and page.content and page.content != "" -%}
+      {
+        "title": {{ page.title | jsonify }},
+        "url": "{{ page.url | relative_url }}",
+        "content": {{ page.content | strip_html | strip_newlines | jsonify }}
+      }{% unless forloop.last or site.posts.size > 0 %},{% endunless %}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if site.posts and site.posts.size > 0 -%}
+    {%- for post in site.posts -%}
+      {% if post.title and post.content %}
+        {
+          "title": {{ post.title | jsonify }},
+          "url": "{{ post.url | relative_url }}",
+          "content": {{ post.content | strip_html | strip_newlines | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {%- endfor -%}
+  {%- endif -%}
 ]
