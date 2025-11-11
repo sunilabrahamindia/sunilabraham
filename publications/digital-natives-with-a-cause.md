@@ -4,7 +4,7 @@ title: "Digital Natives with a Cause? — Position Papers (Thinkathon 2010)"
 description: "Conference booklet and position papers from the 'Digital Natives with a Cause?' Thinkathon (The Hague, 6–8 December 2010) — essays and case studies on youth, technology and social change."
 categories: [Publications]
 date: 2010-12-06
-authors: ["Nishant Shah""]
+authors: ["Nishant Shah"]
 permalink: /publications/digital-natives-with-a-cause/
 pdf: /publications/files/digital-natives-with-a-cause.pdf
 ---
