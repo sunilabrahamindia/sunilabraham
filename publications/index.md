@@ -132,9 +132,8 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
 - **"NITI Aayog Discussion Paper: An Aspirational Step Towards India's AI Policy"**
 - — with Elonnai Hickok, Amber Sinha, Swaraj Barooah, and others.  
   *CIS Blog and Policy Response, 2018.*  
-  _Evaluates India’s AI policy framework and its implications for ethics, privacy, and innovation._  
-  [Read online](https://cis-india.org/internet-governance/blog/niti-aayog-discussion-paper-an-aspirational-step-towards-india2019s-ai-policy)
-
+  _Evaluates India's AI policy framework and its implications for ethics, privacy, and innovation._  
+  [Read here](/publications/niti-aayog-discussion-paper-ai-policy){: .btn}
 
 ## Monograph Series (Edited Volumes)
 
