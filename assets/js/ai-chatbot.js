@@ -1,44 +1,47 @@
 // ai-chatbot.js
-import { pipeline } from "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.6.0";
 
-// Load multilingual QA model (supports Hindi, English, Tamil, etc.)
-const qa = await pipeline("question-answering", "Xenova/distilbert-base-multilingual-cased-distilled-squad");
+// Load the Transformers.js library safely
+(async () => {
+  // Load the Transformers.js library dynamically
+  const { pipeline } = await import("https://cdn.jsdelivr.net/npm/@xenova/transformers@2.6.0/dist/transformers.min.js");
 
-async function initAIChatbot() {
-  const response = await fetch("/index.json");
-  const pages = await response.json();
+  // Load a multilingual question-answering model
+  const qa = await pipeline("question-answering", "Xenova/distilbert-base-multilingual-cased-distilled-squad");
 
-  const input = document.querySelector("#chat-input");
-  const output = document.querySelector("#chat-output");
-  const form = document.querySelector("#chat-form");
+  // Wait until the DOM is ready
+  document.addEventListener("DOMContentLoaded", initAIChatbot);
 
-  function addMessage(sender, text) {
-    output.innerHTML += `<div class="${sender}-msg"><strong>${sender === "user" ? "You" : "Bot"}:</strong> ${text}</div>`;
-    output.scrollTop = output.scrollHeight;
-  }
+  async function initAIChatbot() {
+    const response = await fetch("/index.json");
+    const pages = await response.json();
 
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const question = input.value.trim();
-    if (!question) return;
-    addMessage("user", question);
-    input.value = "";
+    const input = document.querySelector("#chat-input");
+    const output = document.querySelector("#chat-output");
+    const form = document.querySelector("#chat-form");
 
-    addMessage("bot", "Thinking...");
-
-    // Pick the most relevant page by keyword (simple filter)
-    const relevant = pages.find(p => p.content.toLowerCase().includes("sunil")) || pages[0];
-
-    try {
-      // Run question-answering on the relevant content
-      const answer = await qa(question, relevant.content);
-      const reply = answer.answer ? answer.answer : "Sorry, I could not find a clear answer.";
-      output.lastElementChild.innerHTML = `<strong>Bot:</strong> ${reply}`;
-    } catch (err) {
-      output.lastElementChild.innerHTML = `<strong>Bot:</strong> Sorry, I ran into a small error.`;
-      console.error(err);
+    function addMessage(sender, text) {
+      output.innerHTML += `<div class="${sender}-msg"><strong>${sender === "user" ? "You" : "Bot"}:</strong> ${text}</div>`;
+      output.scrollTop = output.scrollHeight;
     }
-  });
-}
 
-document.addEventListener("DOMContentLoaded", initAIChatbot);
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault(); // stops refresh
+      const question = input.value.trim();
+      if (!question) return;
+      addMessage("user", question);
+      input.value = "";
+      addMessage("bot", "Thinking...");
+
+      try {
+        // For now, use the About page as context (later we’ll expand)
+        const relevant = pages.find(p => p.title && p.title.toLowerCase().includes("about")) || pages[0];
+        const answer = await qa(question, relevant.content);
+        const reply = answer.answer ? answer.answer : "Sorry, I could not find an answer.";
+        output.lastElementChild.innerHTML = `<strong>Bot:</strong> ${reply}`;
+      } catch (err) {
+        console.error(err);
+        output.lastElementChild.innerHTML = `<strong>Bot:</strong> I ran into a small issue processing your question.`;
+      }
+    });
+  }
+})();
