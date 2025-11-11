@@ -127,9 +127,10 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
  — with Nirmita Narasimhan, Beliappa, and Anandhi Viswanathan.  
   *CIS Policy Brief, 2012.*  
   _Assesses the accessibility of government information for persons with disabilities._  
-  [Download PDF](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
+  [Read here](/publications/availability-accessibility-government-information){: .btn}
 
-- **"NITI Aayog Discussion Paper: An Aspirational Step Towards India’s AI Policy"** — with Elonnai Hickok, Amber Sinha, Swaraj Barooah, and others.  
+- **"NITI Aayog Discussion Paper: An Aspirational Step Towards India's AI Policy"**
+- — with Elonnai Hickok, Amber Sinha, Swaraj Barooah, and others.  
   *CIS Blog and Policy Response, 2018.*  
   _Evaluates India’s AI policy framework and its implications for ethics, privacy, and innovation._  
   [Read online](https://cis-india.org/internet-governance/blog/niti-aayog-discussion-paper-an-aspirational-step-towards-india2019s-ai-policy)
