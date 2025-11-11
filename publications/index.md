@@ -187,6 +187,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 
 - *"Data Protection: We Can Innovate, Leapfrog"* — *Deccan Herald*, 2018.  
   [Read here](/publications/data-protection-we-can-innovate-leapfrog/){: .btn}
+
+- *"Linking Aadhaar with social media or ending encryption is counterproductive"* — *Prime Time*, 2019.  
+  [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
   
 - *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
   [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
