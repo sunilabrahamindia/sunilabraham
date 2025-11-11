@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "A trust deficit between advertisers and publishers is leading to fake news"
+title: "A Trust Deficit Between Advertisers and Publishers is Leading to Fake News"
 description: "Opinion column by Sunil Abraham in Hindustan Times exploring how the trust gap between advertisers and publishers has contributed to the rise of fake news and what transparency and commons-based solutions might help."
 categories: [Media articles, Publications]
 date: 2018-09-24
@@ -9,7 +9,7 @@ source: "Hindustan Times"
 permalink: /publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news/
 ---
 
-**A trust deficit between advertisers and publishers is leading to fake news** is an opinion column by Sunil Abraham, first published in *Hindustan Times* on 24 September 2018.
+**A Trust Deficit Between Advertisers and Publishers is Leading to Fake News** is an opinion column by Sunil Abraham, first published in *Hindustan Times* on 24 September 2018.
 
 The column argues that the advertising-driven business model of major platforms has hollowed out funding for quality news, created a trust deficit between advertisers and publishers and incentivised viral and low-quality content — and that transparency, portability, interoperability and commons-based solutions can help correct this market failure.
 
