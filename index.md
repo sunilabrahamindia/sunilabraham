@@ -49,8 +49,6 @@ Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth:
 
 {% include back-to-top.html %}
 
-{% include back-to-top.html %}
-
 ## Sunil Abraham
 <div align="center" style="width:75%; margin:auto;">
   <img 
