@@ -192,8 +192,20 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
   [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
 
+- *"Freedom from Monitoring: India Inc Should Push for Privacy Laws"* — *Forbes India*, 2013.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/forbesindia-article-august-21-2013-sunil-abraham-freedom-from-monitoring)  
+  [Read on Forbes India](http://www.forbesindia.com/article/recliner/freedom-from-monitoring-india-inc-should-push-for-privacy-laws/35911/1)
+
 - *"Very Big Brother"* — *Council for Responsible Genetics*, 2014.  
   [Read here](/publications/very-big-brother){: .btn}
+
+- *"Privacy worries cloud Facebook's WhatsApp Deal"* — *Economic Times*, 2014.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/economic-times-march-14-2014-sunil-abraham-privacy-worries-cloud-facebook-whatsapp-deal)  
+  [Read on Economic Times](https://economictimes.indiatimes.com/industry/telecom/telecom-news/privacy-worries-cloud-facebooks-whatsapp-deal/articleshow/31938985.cms)
+
+- *"Net Freedom Campaign Loses its Way"* — *The Hindu Business Line*, 2014.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/the-hindu-business-line-may-10-2014-sunil-abraham-net-freedom-campaign-loses-its-way) 
+  [Read online](https://www.thehindubusinessline.com/todays-paper/tp-opinion/Net-freedom-campaign-loses-its-way/article20768939.ece)
 
 - *"Wiki's Worth, on a Different Turf"* — *Livemint*, 2015.  
   [Read online](https://cis-india.org/news/wiki-worth-different-turf)
@@ -204,11 +216,54 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"India's Digital Check"* — *DNA India*, 2015.  
   [Read here](/publications/indias-digital-check/){: .btn}
 
+- *"The Generation of e-Emergency"* — *Livemint*, 2015.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/livemint-june-22-2015-sunil-abraham-the-generation-of-e-emergency)  
+  [Read online](https://www.livemint.com/Politics/pL8oDtSth36hkoDvIjILLJ/The-generation-of-eEmergency.html)
+
+- *"Multiple Aspects Need to be Addressed as the Clamour Grows for Network Neutrality"* — *DNA India*, 2015.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/dna-april-16-2015-sunil-abraham-multiple-aspects-need-to-be-addressed-as-the-clamour-grows-for-network-neutrality)  
+  [Read online](https://www.dnaindia.com/analysis/column-multiple-aspects-need-to-be-addressed-as-the-clamour-grows-for-network-neutrality-2077796)
+
+- *"Big Win for Freedom of Speech. Really?"* — *Bangalore Mirror*, 2015.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/bangalore-mirror-march-29-2015-sunil-abraham-big-win-for-freedom-of-speech-really)  
+  [Read online](https://bangaloremirror.indiatimes.com/opinion/views/freedom-of-speech/articleshow/46730694.cms)
+
+- *"Internet Censorship Will Continue in Opaque Fashion"* — *The Times of India*, 2015.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/the-times-of-india-march-25-2015-sunil-abraham-internet-censorship-will-continue-in-opaque-fashion)  
+  [Read online](https://timesofindia.indiatimes.com/city/bengaluru/Internet-censorship-will-continue-in-opaque-fashion/articleshow/46681490.cms)
+
+- *"Connected Trouble"* — *The Week*, 2015.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/the-week-november-1-2015-sunil-abraham-connected-trouble)  
+  [Read online](https://www.theweek.in/columns/guest-columns/connected-trouble.html)
+
+- *"Hits and Misses With the Draft Encryption Policy"* — *The Wire*, 2015.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/the-wire-26-09-2015-sunil-abraham-hits-and-misses-with-draft-encryption-policy)  
+  [Read online](https://thewire.in/2015/09/26/hits-and-misses-with-the-draft-encryption-policy-11708)
+
 - *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics"* — *Firstpost*, 2016.  
   [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
 
+- *"Free Basics: Negating Net Parity"* — *Deccan Herald*, 2016.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/deccan-herald-january-3-2016-sunil-abraham-free-basics-negating-net-parity)  
+  [Read online](https://www.deccanherald.com/content/520860/free-basics-negating-net-parity.html)
+
+- *"Facebook Shares 10 Key Facts about Free Basics. Here's What's Wrong with All 10 of Them."* — *Catch News*, 2016.  
+  [Read on CIS](https://cis-india.org/internet-governance/news/facebook-shares-10-key-facts-about-free-basics-heres-whats-wrong-with-all-10-of-them) 
+  [Read online](http://www.catchnews.com/tech-news/should-facebook-become-internet-s-gatekeeper-or-free-basics-must-comply-with-net-neutrality-sunil-abraham-has-some-thoughts-1450954347.html)
+
 - *"Facebook's Fall from Grace: Arab Spring to Indian Winter"* — *Firstpost*, 2016.  
   [Read here](/publications/facebooks-fall-from-grace-arab-spring-to-indian-winter){: .btn}
+
+- *"Services Like TwitterSeva Aren’t the Silver Bullets They Are Made Out to Be"* — *FactorDaily*, 2016.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/factordaily-sunil-abraham-october-6-2016-services-like-twitterseva-are-not-the-silver-bullets-they-are-made-out-to-be)
+
+- *"How Aadhaar Compromises Privacy? And How to Fix It?"* — *The Hindu*, 2017.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/hindu-op-ed-sunil-abraham-march-31-2017-how-aadhaar-compromises-privacy-and-how-to-fix-it)  
+  [Read online](https://www.thehindu.com/opinion/op-ed/is-aadhaar-a-breach-of-privacy/article17745615.ece)
+
+- *"It’s the Technology, Stupid"* — *The Hindu Business Line*, 2017.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/the-hindu-businessline-march-31-2017-sunil-abraham-its-the-technology-stupid)  
+  [Read online](https://www.thehindubusinessline.com/blink/cover/its-the-technology-stupid/article21943923.ece)
 
 - *"Fixing Aadhaar: Security Developers’ Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
   [Read here](/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/){: .btn}
@@ -216,20 +271,42 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Data Protection: We Can Innovate, Leapfrog"* — *Deccan Herald*, 2018.  
   [Read here](/publications/data-protection-we-can-innovate-leapfrog/){: .btn}
 
+- *"Why NPCI and Facebook Need Urgent Regulatory Attention"* — *Economic Times*, 2018.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/economic-times-june-10-2018-sunil-abraham-why-npci-and-facebook-need-urgent-regulatory-attention)  
+  [Read online](https://economictimes.indiatimes.com/industry/banking/finance/banking/why-npci-and-facebook-need-urgent-regulatory-attention/articleshow/64522587.cms)
+
+- *"Lining Up the Data on the Srikrishna Privacy Draft Bill"* — *Economic Times*, 2018.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/economic-times-july-30-2018-sunil-abraham-lining-up-data-on-srikrishna-privacy-draft-bill)  
+  [Read online](https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/lining-up-the-data-on-the-srikrishna-privacy-draft-bill/articleshow/65192296.cms)
+
+- *"Spreading Unhappiness Equally Around"* — *Business Standard*, 2018.  
+  [Read on CIS](https://cis-india.org/internet-governance/blog/business-standard-july-31-2018-sunil-abraham-spreading-unhappiness-equally-around)  
+  [Read online](https://www.business-standard.com/article/opinion/spreading-unhappiness-equally-around-118073100008_1.html)
+
+- *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global Reposts*, 2018.  
+  [Read here](/publications/cambridge-analytica-scandal-how-india-can-save-democracy-from-facebook/){: .btn}
+
 - *"A Trust Deficit Between Advertisers and Publishers Is Leading to Fake News"* — *Hindustan Times*, 2018.  
   [Read here](/publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news){: .btn}
 
-- *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global reposts*, 2018.  
-  [Read online](https://www.business-standard.com/article/economy-policy/cambridge-analytica-scandal-how-india-can-save-democracy-from-facebook-118032800146_1.html)
-
-- *"Linking Aadhaar with social media or ending encryption is counterproductive"* — *Prime Time*, 2019.  
-  [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
+- *"Analysis of ICANN Revenue Shows Ambiguity in Their Records: Financials from 2012–2016"* — *CIS Blog*, 2018.  
+  [Read online](https://cis-india.org/internet-governance/blog/analysis-of-icann-financials-from-2012-2016)
 
 - *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
   [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
 
-- *"Intermediary liability law needs updating"* — *Business Standard*, 2019.  
+- *"Intermediary Liability Law Needs Updating"* — *Business Standard*, 2019.  
   [Read here](/publications/intermediary-liability-law-needs-updating/){: .btn}
+
+- *"Linking Aadhaar with Social Media or Ending Encryption Is Counterproductive"* — *Prime Time*, 2019.  
+  [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
+
+- *"Availability and Accessibility of Government Information in the Public Domain"* — *CIS Policy Brief*.  
+  [Read online](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
+
+- *"Privacy vs. Transparency: An Attempt at Resolving the Dichotomy"* — *CIS / New Internationalist*.  
+  [Read online](https://newint.org/features/2015/01/01/privacy-transparency/)
+
 
 ## Blog Entries and Online Essays
 
