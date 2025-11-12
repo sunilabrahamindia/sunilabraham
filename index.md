@@ -71,10 +71,10 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 
 ## Did you know?
 
-- ... that the concept of [religious colonisation](/books/essays-on-dalits-religion-and-liberation/#religious-colonisation-and-deconstruction) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
-- ... that the movement [Students for Peace](/sunil/students-for-peace/#formation-and-activities) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?
-- ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/#context-and-background) — making citizens visible to the state while keeping the state opaque?
-- ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/#key-themes-or-arguments) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
+- ... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
+- ... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?
+- ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
+- ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
 {% include back-to-top.html %}
 
 ## Licence
