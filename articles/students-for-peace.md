@@ -9,6 +9,16 @@ categories: [Sunil Abraham]
 
 **Students for Peace** was a brief, grassroots student movement in Bangalore, India, launched in early 1993 as a response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the subsequent riots in Bombay (now Mumbai). Organised by engineering student [Sunil Abraham](https://sunilabraham.in/sunil) together with convener Ravindra Walters, the initiative sought to create an apolitical platform where young people could stand together for peace and secular values. It culminated in a candlelight demonstration on 13 February 1993 along Mahatma Gandhi Road, drawing around 5,000 students from schools and colleges across the city.
 
+## Contents
+
+1. [Background](#background)
+2. [Formation and aims](#formation-and-aims)
+3. [The demonstration (13 February 1993)](#the-demonstration-13-february-1993)
+4. [Scale and scope](#scale-and-scope)
+5. [Organisation and conduct](#organisation-and-conduct)
+6. [Reception](#reception)
+7. [References](#references)
+
 ## Background
 
 The early 1990s were a turbulent period in India. On 6 December 1992, the Babri Masjid was demolished in Ayodhya, sparking violent clashes across the country. In January 1993, Bombay experienced especially severe rioting with extensive loss of life and property. These events unsettled communities even in southern cities such as Bangalore, which, though spared large-scale violence, felt the strain of political polarisation and inter-community mistrust.  
@@ -63,7 +73,7 @@ The demonstration brought together around 5,000 students drawn from dozens of sc
 
 Students for Peace operated on self-discipline.  Volunteers wore white T-shirts and maintained order throughout the event, acting as marshals to ensure safety and unobstructed traffic.  No speeches were made, and there were no banners or party symbols—only candles and hand-drawn placards.  The emphasis was on quiet participation rather than protest.
 
-## Reception and immediate legacy
+## Reception
 
 Spectators described the evening as moving and unexpectedly serene.  Newspapers noted the sincerity of the young organisers, quoting a twelve-year-old participant who said simply, 'We don't want any more war'.  A few observers pointed out that the slogans were largely in English, limiting accessibility, but the general response was one of appreciation.  
 
@@ -71,12 +81,9 @@ Students for Peace dissolved soon after the demonstration, having achieved its i
 
 ## References
 
-- Conveners' letter to principals, Students for Peace (13 February 1993).  
-  [Download PDF](/articles/docs/students-for-peace-conveners-letter-1993.pdf)
-- *Deccan Herald*, 14 February 1993 — 'Holding a candle for peace'.  
-  [Download PDF](/articles/docs/students-for-peace-holding-a-candle-for-peace.pdf)
-- *In the City Today* — local newspaper column reporting eyewitness reactions to the demonstration.  
-  [Download PDF](/articles/docs/students-for-peace-in-the-city-today.pdf)
+- *Deccan Herald*, 14 February 1993 — 'Holding a candle for peace'. [Download PDF](/articles/docs/students-for-peace-holding-a-candle-for-peace.pdf)
+- *In the City Today* — local newspaper column reporting eyewitness reactions to the demonstration. [Download PDF](/articles/docs/students-for-peace-in-the-city-today.pdf)
+- Conveners' letter to principals, Students for Peace (13 February 1993). [Download PDF](/articles/docs/students-for-peace-conveners-letter-1993.pdf)
 
 <style>
 .pdf-container {
