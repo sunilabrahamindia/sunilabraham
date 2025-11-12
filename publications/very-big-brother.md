@@ -5,7 +5,7 @@ description: "An article by Sunil Abraham in GeneWatch analysing the human right
 categories: [Media articles, Publications]
 date: 2014-04-01
 authors: ["Sunil Abraham"]
-source: "GeneWatch (January–April 2014)"
+source: "GeneWatch"
 permalink: /publications/very-big-brother/
 ---
 
