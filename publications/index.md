@@ -193,8 +193,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
 
 - *"Freedom from Monitoring: India Inc Should Push for Privacy Laws"* — *Forbes India*, 2013.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/forbesindia-article-august-21-2013-sunil-abraham-freedom-from-monitoring)  
-  [Read on Forbes India](http://www.forbesindia.com/article/recliner/freedom-from-monitoring-india-inc-should-push-for-privacy-laws/35911/1)
+  [Read here](/publications/freedom-from-monitoring-india-inc-should-push-for-privacy-laws){: .btn}
 
 - *"Very Big Brother"* — *Council for Responsible Genetics*, 2014.  
   [Read here](/publications/very-big-brother){: .btn}
