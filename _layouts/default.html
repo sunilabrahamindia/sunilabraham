@@ -5,6 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
 
+  <!-- Meta Tags for SEO and Social Sharing -->
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | truncate: 150 }}">
+  <meta name="author" content="{{ site.author | default: 'Sunil Abraham' }}">
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | truncate: 150 }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ site.url }}/assets/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | truncate: 150 }}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/og-image.png">
+
   <!-- Stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
@@ -12,8 +30,24 @@
   <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/favicon.png' | relative_url }}">
+
   <!-- Lightbox CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site.title | escape }}",
+    "url": "{{ site.url }}",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ site.url }}/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 </head>
 
 <body>
