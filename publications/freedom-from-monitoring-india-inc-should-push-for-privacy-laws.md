@@ -9,10 +9,7 @@ source: "Forbes India"
 permalink: /publications/freedom-from-monitoring-india-inc-should-push-for-privacy-laws/
 ---
 
-**Freedom from Monitoring: India Inc Should Push For Privacy Laws** is an opinion article by Sunil Abraham, published in *Forbes India* on 21 August 2013.  
-The piece argues that blanket surveillance weakens security and that Indian industry should support a modern, horizontal privacy law to protect enterprise and citizen interests.
-
-> Full text sourced from the uploaded PDF provided by the user. :contentReference[oaicite:0]{index=0}
+**Freedom from Monitoring: India Inc Should Push For Privacy Laws** is an opinion article by Sunil Abraham, published in *Forbes India* on 21 August 2013. The piece argues that blanket surveillance weakens security and that Indian industry should support a modern, horizontal privacy law to protect enterprise and citizen interests.
 
 ## Contents
 
