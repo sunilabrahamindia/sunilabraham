@@ -180,37 +180,14 @@ These handbooks offer foundational insights into FOSS implementation, policy, an
 
 Sunil Abraham has written widely for both Indian and international media, contributing opinion pieces and analytical essays on technology policy, privacy, and open knowledge.
 
-### Indian Publications
-
-- *"Fixing Aadhaar: Security Developers’ Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
-  [Read here](/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/){: .btn}
-
-- *"Data Protection: We Can Innovate, Leapfrog"* — *Deccan Herald*, 2018.  
-  [Read here](/publications/data-protection-we-can-innovate-leapfrog/){: .btn}
-
-- *"Linking Aadhaar with social media or ending encryption is counterproductive"* — *Prime Time*, 2019.  
-  [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
-  
-- *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
-  [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
-
-- *"Intermediary liability law needs updating"* — *Business Standard*, 2019.  
-  [Read here](/publications/intermediary-liability-law-needs-updating/){: .btn}
-
-- *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics* — *Firstpost*, 2016.  
-  [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
-
-- *"Wiki's Worth, on a Different Turf"* — *Livemint*, 2015.  
-  [Read online](https://cis-india.org/news/wiki-worth-different-turf)
-
 - *"Newspapers Should Empower Citizen Journalism"* — *DNA India*, 2009.  
   [Read online](https://cis-india.org/news/newspapers-should-empower-citizen-journalism)
 
-- *"Fear, Uncertainty and Doubt"* — *Deccan Chronicle*, 2015.  
-  [Read here](/publications/fear-uncertainty-and-doubt/){: .btn}
+- *"Piracy Is Now a Mainstream Political Phenomenon"* — *The Hindu*, 2009.  
+  _A commentary on digital rights, access to culture, and new forms of online activism._
 
-- *"India's Digital Check"* — *DNA India*, 2015.  
-  [Read here](/publications/indias-digital-check/){: .btn}
+- *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
+  _An essay on the global evolution of openness and free software movements._
 
 - *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
   [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
@@ -218,22 +195,41 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Very Big Brother"* — *Council for Responsible Genetics*, 2014.  
   [Read here](/publications/very-big-brother){: .btn}
 
-### International Publications
+- *"Wiki's Worth, on a Different Turf"* — *Livemint*, 2015.  
+  [Read online](https://cis-india.org/news/wiki-worth-different-turf)
 
-- *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global reposts*, 2018.  
-  [Read online](https://www.business-standard.com/article/economy-policy/cambridge-analytica-scandal-how-india-can-save-democracy-from-facebook-118032800146_1.html)
+- *"Fear, Uncertainty and Doubt"* — *Deccan Chronicle*, 2015.  
+  [Read here](/publications/fear-uncertainty-and-doubt/){: .btn}
 
-- *"A Trust Deficit Between Advertisers and Publishers Is Leading to Fake News"* — *Hindustan Times*, 2018.  
-  [Read here](/publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news){: .btn}
+- *"India's Digital Check"* — *DNA India*, 2015.  
+  [Read here](/publications/indias-digital-check/){: .btn}
+
+- *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics"* — *Firstpost*, 2016.  
+  [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
 
 - *"Facebook's Fall from Grace: Arab Spring to Indian Winter"* — *Firstpost*, 2016.  
   [Read here](/publications/facebooks-fall-from-grace-arab-spring-to-indian-winter){: .btn}
 
-- *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
-  _An essay on the global evolution of openness and free software movements._
+- *"Fixing Aadhaar: Security Developers’ Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
+  [Read here](/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/){: .btn}
 
-- *"Piracy Is Now a Mainstream Political Phenomenon"* — *The Hindu*, 2009.  
-  _A commentary on digital rights, access to culture, and new forms of online activism._
+- *"Data Protection: We Can Innovate, Leapfrog"* — *Deccan Herald*, 2018.  
+  [Read here](/publications/data-protection-we-can-innovate-leapfrog/){: .btn}
+
+- *"A Trust Deficit Between Advertisers and Publishers Is Leading to Fake News"* — *Hindustan Times*, 2018.  
+  [Read here](/publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news){: .btn}
+
+- *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global reposts*, 2018.  
+  [Read online](https://www.business-standard.com/article/economy-policy/cambridge-analytica-scandal-how-india-can-save-democracy-from-facebook-118032800146_1.html)
+
+- *"Linking Aadhaar with social media or ending encryption is counterproductive"* — *Prime Time*, 2019.  
+  [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
+
+- *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
+  [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
+
+- *"Intermediary liability law needs updating"* — *Business Standard*, 2019.  
+  [Read here](/publications/intermediary-liability-law-needs-updating/){: .btn}
 
 ## Blog Entries and Online Essays
 
