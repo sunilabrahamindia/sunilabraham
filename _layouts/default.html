@@ -57,27 +57,6 @@
 
   {{ content }}
   {% include categories.html %}
-  {% if page.date or page.last_modified_at %}
-  <div class="page-meta">
-    <p>
-      {% if page.date %}
-        This page was created on 
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
-        {% if page.last_modified_at %}
-          and last updated on 
-          <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%-d %B %Y" }}</time>.
-        {% else %}
-          .
-        {% endif %}
-      {% else %}
-        {% if page.last_modified_at %}
-          This page was last updated on 
-          <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%-d %B %Y" }}</time>.
-        {% endif %}
-      {% endif %}
-    </p>
-  </div>
-  {% endif %}
 </main>
     
     <!-- Footer -->
