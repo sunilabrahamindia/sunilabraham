@@ -16,9 +16,9 @@ This directory groups **media articles and commentaries** by **Sunil Abraham** a
   <option value="">-- Select a Media Outlet --</option>
   {% assign all_outlets = "" | split: "" %}
   {% for page in site.pages %}
-    {% if page.categories contains "Media Articles" and page.outlet %}
-      {% unless all_outlets contains page.outlet %}
-        {% assign all_outlets = all_outlets | push: page.outlet %}
+    {% if page.categories contains "Media articles" and page.source %}
+      {% unless all_outlets contains page.source %}
+        {% assign all_outlets = all_outlets | push: page.source %}
       {% endunless %}
     {% endif %}
   {% endfor %}
@@ -35,14 +35,14 @@ This directory groups **media articles and commentaries** by **Sunil Abraham** a
 <script>
   const mediaArticles = [
     {% for page in site.pages %}
-      {% if page.categories contains "Media Articles" and page.outlet %}
+      {% if page.categories contains "Media articles" and page.source %}
         {
           title: "{{ page.title | escape }}",
           url: "{{ page.url }}",
           description: "{{ page.description | escape }}",
           date: "{{ page.date | date: '%-d %B %Y' }}",
           year: "{{ page.date | date: '%Y' }}",
-          outlet: "{{ page.outlet | slugify }}"
+          source: "{{ page.source | slugify }}"
         }{% unless forloop.last %},{% endunless %}
       {% endif %}
     {% endfor %}
@@ -58,7 +58,7 @@ This directory groups **media articles and commentaries** by **Sunil Abraham** a
 
     if (!selected) return;
 
-    const matches = mediaArticles.filter(pub => pub.outlet === selected);
+    const matches = mediaArticles.filter(pub => pub.source === selected);
 
     const intro = document.createElement('p');
     intro.innerHTML = `<strong>Articles by Sunil Abraham published in ${selectedText}:</strong>`;
@@ -108,3 +108,67 @@ This directory groups **media articles and commentaries** by **Sunil Abraham** a
 #media-articles {
   width: 100%;
   margin-top: 1.5em;
+  font-size: 1rem;
+}
+
+#media-articles ol {
+  margin-left: 1.5em;
+  padding-left: 0.5em;
+}
+
+#media-articles ol li {
+  margin-bottom: 1em;
+}
+
+.pub-entry {
+  line-height: 1.4;
+}
+
+.pub-year {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.pub-description {
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+  font-size: 0.95em;
+  color: #333;
+}
+
+#media-articles a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: 500;
+}
+
+#media-articles a:hover,
+#media-articles a:focus {
+  text-decoration: underline;
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 600px) {
+  .media-directory {
+    align-items: stretch;
+  }
+
+  #media-select {
+    width: 100%;
+    font-size: 0.95em;
+  }
+
+  #media-articles ol {
+    margin-left: 1em;
+  }
+
+  .pub-description {
+    margin-left: 0.25em;
+    font-size: 0.95em;
+  }
+
+  #media-articles a {
+    font-size: 1em;
+  }
+}
+</style>
