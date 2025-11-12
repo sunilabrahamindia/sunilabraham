@@ -199,15 +199,13 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/very-big-brother){: .btn}
 
 - *"Privacy worries cloud Facebook's WhatsApp Deal"* — *Economic Times*, 2014.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/economic-times-march-14-2014-sunil-abraham-privacy-worries-cloud-facebook-whatsapp-deal)  
-  [Read on Economic Times](https://economictimes.indiatimes.com/industry/telecom/telecom-news/privacy-worries-cloud-facebooks-whatsapp-deal/articleshow/31938985.cms)
+  [Read here](/publications/privacy-worries-cloud-facebooks-whatsapp-deal){: .btn}
 
 - *"Net Freedom Campaign Loses its Way"* — *The Hindu Business Line*, 2014.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/the-hindu-business-line-may-10-2014-sunil-abraham-net-freedom-campaign-loses-its-way) 
-  [Read online](https://www.thehindubusinessline.com/todays-paper/tp-opinion/Net-freedom-campaign-loses-its-way/article20768939.ece)
+  [Read here](/publications/net-freedom-campaign-loses-its-way){: .btn}
 
 - *"Wiki's Worth, on a Different Turf"* — *Livemint*, 2015.  
-  [Read online](https://cis-india.org/news/wiki-worth-different-turf)
+  [Read here](/publications/wikis-worth-on-a-different-turf){: .btn}
 
 - *"Fear, Uncertainty and Doubt"* — *Deccan Chronicle*, 2015.  
   [Read here](/publications/fear-uncertainty-and-doubt/){: .btn}
