@@ -24,13 +24,12 @@ These publications reflect years of engagement in Free and Open Source Software 
 - **"Surveillance Project"** — In *Dissent on Aadhaar: Big Data Meets Big Brother*, edited by Reetika Khera.  
   *Orient Blackswan, 2018.*  
   _A critical analysis of the Aadhaar programme and its implications for surveillance and citizen rights._  
-  [Read here](/publications/ecommerce-for-small-enterprise-development/){: .btn}
+  [Read here](/publications/surveillance-project/){: .btn}
 
 - **"First Among Equals? The Role of the State in Facilitating Internet Access and Protecting the Freedom of Expression Online in the Global South"** — In *Just Security in an Undergoverned World*, edited by William Durch, Joris Larik and Richard Ponzio.  
   *Oxford University Press, 2018.*  
 _Examines the state’s dual responsibility to expand access and uphold free expression._  
 [Read here](/publications/first-among-equals){: .btn}
-
 
 - **"The Digital Protection of Traditional Knowledge: Questions Raised by the Traditional Knowledge Digital Library in India"** — Co-authored with Vidushi Marda.  
   In *Global Information Society Watch 2016*.  
