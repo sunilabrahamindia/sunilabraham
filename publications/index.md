@@ -204,7 +204,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Net Freedom Campaign Loses its Way"* — *The Hindu Business Line*, 2014.  
   [Read here](/publications/net-freedom-campaign-loses-its-way){: .btn}
 
-- *"Wiki's Worth, on a Different Turf"* — *Livemint*, 2015.  
+- *"Wiki's Worth, on a Different Turf"* — *Mint*, 2015.  
   [Read here](/publications/wikis-worth-on-a-different-turf){: .btn}
 
 - *"Fear, Uncertainty and Doubt"* — *Deccan Chronicle*, 2015.  
@@ -213,25 +213,20 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"India's Digital Check"* — *DNA India*, 2015.  
   [Read here](/publications/indias-digital-check/){: .btn}
 
-- *"The Generation of e-Emergency"* — *Livemint*, 2015.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/livemint-june-22-2015-sunil-abraham-the-generation-of-e-emergency)  
-  [Read online](https://www.livemint.com/Politics/pL8oDtSth36hkoDvIjILLJ/The-generation-of-eEmergency.html)
-
+- *"The Generation of e-Emergency"* — *Mint*, 2015.  
+  [Read here](/publications/the-generation-of-e-emergency/){: .btn}
+  
 - *"Multiple Aspects Need to be Addressed as the Clamour Grows for Network Neutrality"* — *DNA India*, 2015.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/dna-april-16-2015-sunil-abraham-multiple-aspects-need-to-be-addressed-as-the-clamour-grows-for-network-neutrality)  
-  [Read online](https://www.dnaindia.com/analysis/column-multiple-aspects-need-to-be-addressed-as-the-clamour-grows-for-network-neutrality-2077796)
+  [Read here](/publications/multiple-aspects-need-to-be-addressed-network-neutrality/){: .btn}
 
 - *"Big Win for Freedom of Speech. Really?"* — *Bangalore Mirror*, 2015.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/bangalore-mirror-march-29-2015-sunil-abraham-big-win-for-freedom-of-speech-really)  
-  [Read online](https://bangaloremirror.indiatimes.com/opinion/views/freedom-of-speech/articleshow/46730694.cms)
+  [Read here](/publications/big-win-for-freedom-of-speech-really/){: .btn}
 
 - *"Internet Censorship Will Continue in Opaque Fashion"* — *The Times of India*, 2015.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/the-times-of-india-march-25-2015-sunil-abraham-internet-censorship-will-continue-in-opaque-fashion)  
-  [Read online](https://timesofindia.indiatimes.com/city/bengaluru/Internet-censorship-will-continue-in-opaque-fashion/articleshow/46681490.cms)
+  [Read here](/publications/internet-censorship-will-continue-in-opaque-fashion){: .btn}
 
 - *"Connected Trouble"* — *The Week*, 2015.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/the-week-november-1-2015-sunil-abraham-connected-trouble)  
-  [Read online](https://www.theweek.in/columns/guest-columns/connected-trouble.html)
+  [Read here](/publications/connected-trouble){: .btn}
 
 - *"Hits and Misses With the Draft Encryption Policy"* — *The Wire*, 2015.  
   [Read on CIS](https://cis-india.org/internet-governance/blog/the-wire-26-09-2015-sunil-abraham-hits-and-misses-with-draft-encryption-policy)  
