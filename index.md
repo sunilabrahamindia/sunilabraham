@@ -17,7 +17,9 @@ Whether you are a researcher, student, practitioner, or reader exploring questio
 1. [About](#about)
 2. [Featured article](#featured-article)
 3. [Sunil Abraham](#sunil-abraham)
-4. [Licence](#licence)
+4. [Did you know?](#did-you-know)
+5. [Licence](#licence)
+
 
 ## About
 
@@ -47,6 +49,8 @@ Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth:
 
 {% include back-to-top.html %}
 
+{% include back-to-top.html %}
+
 ## Sunil Abraham
 <div align="center" style="width:75%; margin:auto;">
   <img 
@@ -64,6 +68,18 @@ In 1998, he co-founded [Mahiti Infotech](https://mahiti.org/), a social enterpri
 His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.
 
 <a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a>
+
+{% include back-to-top.html %}
+
+## Did you know?
+
+- ... that the concept of [religious colonisation](/books/essays-on-dalits-religion-and-liberation/#religious-colonisation-and-deconstruction) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
+
+- ... that the movement [Students for Peace](/sunil/students-for-peace/#formation-and-activities) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?
+
+- ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/#context-and-background) — making citizens visible to the state while keeping the state opaque?
+
+- ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/#key-themes-or-arguments) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
 
 {% include back-to-top.html %}
 
