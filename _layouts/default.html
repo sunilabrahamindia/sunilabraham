@@ -13,115 +13,120 @@
   <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/favicon.png' | relative_url }}">
   <!-- Lightbox CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 </head>
 
 <body>
   <div class="site-wrapper">
 
-   <!-- Header -->
-    {% include header.html %}
+    <!-- Header -->
+    <header role="banner">
+      {% include header.html %}
+    </header>
 
     <!-- Navbar -->
-{% include navbar.html %}
+    <nav role="navigation" aria-label="Main navigation">
+      {% include navbar.html %}
+    </nav>
 
-<!-- Main Content -->
-<main class="content">
-  {% if page.title %}
-    <h1>
-    {{ page.title }}
-    </h1>
-  
-<!-- Breadcrumb Navigation -->
-<nav class="breadcrumb">
-  <a href="{{ site.baseurl }}/">Home</a>
-  {% assign parts = page.url | split: '/' %}
-  {% assign current_path = '' %}
+    <!-- Main Content -->
+    <main id="maincontent" role="main" class="content">
+      {% if page.title %}
+        <h1>{{ page.title }}</h1>
 
-  {% for part in parts %}
-    {% if part != '' and forloop.last == false %}
-      {% assign current_path = current_path | append: '/' | append: part %}
-      › <a href="{{ site.baseurl }}{{ current_path }}/">
-        {% case part %}
-          {% when 'amaa' %}A. M. A. Ayrookuzhiel
-          {% else %}{{ part | replace:'-',' ' | capitalize }}
-        {% endcase %}
-      </a>
-    {% endif %}
-  {% endfor %}
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb" role="navigation" aria-label="Breadcrumb">
+          <a href="{{ site.baseurl }}/">Home</a>
+          {% assign parts = page.url | split: '/' %}
+          {% assign current_path = '' %}
 
-  › <span>{{ page.title }}</span>
-</nav>
+          {% for part in parts %}
+            {% if part != '' and forloop.last == false %}
+              {% assign current_path = current_path | append: '/' | append: part %}
+              › <a href="{{ site.baseurl }}{{ current_path }}/">
+                {% case part %}
+                  {% when 'amaa' %}A. M. A. Ayrookuzhiel
+                  {% else %}{{ part | replace:'-',' ' | capitalize }}
+                {% endcase %}
+              </a>
+            {% endif %}
+          {% endfor %}
+          › <span>{{ page.title }}</span>
+        </nav>
+      {% endif %}
 
-  {% endif %}
-
-  {{ content }}
-  {% include categories.html %}
-</main>
+      {{ content }}
+      {% include categories.html %}
+    </main>
     
     <!-- Footer -->
-    {% include footer.html %}
+    <footer role="contentinfo">
+      {% include footer.html %}
+    </footer>
 
   </div>
 
   <!-- Share Bar -->
-  {% include share-bar.html %}
+  <aside role="complementary" aria-label="Share options">
+    {% include share-bar.html %}
+  </aside>
 
   <!-- Utility Toolbox -->
-{% include utility-toolbox.html %}
+  <aside role="complementary" aria-label="Utility toolbox">
+    {% include utility-toolbox.html %}
+  </aside>
   
-<!-- =========================================================
-     Section Header Link Script
-     Purpose: Adds a small link icon beside headers and copies link on click
-       ========================================================= -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]").forEach(header => {
-    const link = document.createElement("a");
-    link.className = "header-link";
-    link.href = "#" + header.id;
-    link.title = "Copy link to this section";
-    link.innerHTML = "🔗"; // You can replace this with an inline SVG if preferred
+  <!-- =========================================================
+       Section Header Link Script
+       Purpose: Adds a small link icon beside headers and copies link on click
+  ========================================================= -->
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]").forEach(header => {
+      const link = document.createElement("a");
+      link.className = "header-link";
+      link.href = "#" + header.id;
+      link.title = "Copy link to this section";
+      link.innerHTML = "🔗"; 
 
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      const fullURL = window.location.origin + window.location.pathname + "#" + header.id;
-      navigator.clipboard.writeText(fullURL).then(() => {
-        link.innerHTML = "✅";
-        setTimeout(() => (link.innerHTML = "🔗"), 1200);
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const fullURL = window.location.origin + window.location.pathname + "#" + header.id;
+        navigator.clipboard.writeText(fullURL).then(() => {
+          link.innerHTML = "✅";
+          setTimeout(() => (link.innerHTML = "🔗"), 1200);
+        });
       });
+
+      //  Add the link icon after the heading text (to the right)
+      header.appendChild(link);
     });
-
-    // 👇 Add the link icon after the heading text (to the right)
-    header.appendChild(link);
   });
-});
-</script>
+  </script>
 
-<!-- Lightbox JS -->
-<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-<script>
-  window.addEventListener("load", function() {
-    // Wrap all images automatically in a lightbox link
-    document.querySelectorAll('img').forEach(function(img) {
-      // Skip if already inside a link
-      if (img.closest('a')) return;
+  <!-- Lightbox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <script>
+    window.addEventListener("load", function() {
+      // Wrap all images automatically in a lightbox link
+      document.querySelectorAll('img').forEach(function(img) {
+        // Skip if already inside a link
+        if (img.closest('a')) return;
 
-      // Optional: skip very small images (like icons)
-      if (img.width < 100 || img.height < 100) return;
+        // Optional: skip very small images (like icons)
+        if (img.width < 100 || img.height < 100) return;
 
-      const link = document.createElement('a');
-      link.href = img.src;
-      link.classList.add('lightbox');
-      img.parentNode.insertBefore(link, img);
-      link.appendChild(img);
+        const link = document.createElement('a');
+        link.href = img.src;
+        link.classList.add('lightbox');
+        img.parentNode.insertBefore(link, img);
+        link.appendChild(img);
+      });
+
+      // Initialise GLightbox
+      GLightbox({ selector: '.lightbox' });
     });
-
-    // Initialise GLightbox
-    GLightbox({ selector: '.lightbox' });
-  });
-</script>
-
+  </script>
 
 </body>
 </html>
