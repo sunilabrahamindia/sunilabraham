@@ -119,3 +119,20 @@ Sunil Abraham positions India’s regulatory infancy as an opportunity to leapfr
 }
 </style>
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.copy-btn-full').forEach(button => {
+    button.addEventListener('click', async () => {
+      const targetSelector = button.getAttribute('data-copytarget');
+      const targetElement = document.querySelector(targetSelector);
+      if (targetElement) {
+        const text = targetElement.innerText.trim();
+        await navigator.clipboard.writeText(text);
+        button.textContent = 'Copied!';
+        setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
+      }
+    });
+  });
+});
+</script>
+
