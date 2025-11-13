@@ -44,6 +44,13 @@ The column explores how India can design innovative, accountable, and citizen-ce
 
 ## Full Text
 
+<div align="center" style="width:80%; margin:auto;">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/publications/images/data-protection-we-can-innovate-leapfrog-newspaper-clipping.jpg?raw=true" 
+    alt="Newspaper clipping of the article Data Protection: We Can Innovate, Leapfrog by Sunil Abraham published in Deccan Herald." 
+    style="width:90%; height:auto; max-width:800px; border-radius:8px;">
+</div>
+
 <div class="highlighted-text" id="fulltext">
   <p>About 27% of India's population is still illiterate or barely literate. Most privacy policies and terms of service for web and mobile applications are in English, and therefore it is only around 10% of us who can actually read them before providing our consent. Even if we can read them, few have the necessary legal training to understand them.</p>
 
