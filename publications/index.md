@@ -274,7 +274,6 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read online](https://www.business-standard.com/article/opinion/spreading-unhappiness-equally-around-118073100008_1.html)
 
 - *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global Reposts*, 2018.  
-  [Read here](/publications/cambridge-analytica-scandal-how-india-can-save-democracy-from-facebook/){: .btn}
 
 - *"A Trust Deficit Between Advertisers and Publishers Is Leading to Fake News"* — *Hindustan Times*, 2018.  
   [Read here](/publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news){: .btn}
