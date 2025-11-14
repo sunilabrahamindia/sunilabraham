@@ -237,8 +237,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/free-basics-negating-net-parity){: .btn}
 
 - *"Facebook Shares 10 Key Facts about Free Basics. Here's What's Wrong with All 10 of Them."* — *Catch News*, 2016.  
-  [Read on CIS](https://cis-india.org/internet-governance/news/facebook-shares-10-key-facts-about-free-basics-heres-whats-wrong-with-all-10-of-them) 
-  [Read online](http://www.catchnews.com/tech-news/should-facebook-become-internet-s-gatekeeper-or-free-basics-must-comply-with-net-neutrality-sunil-abraham-has-some-thoughts-1450954347.html)
+  [Read here](/publications/facebook-shares-10-key-facts-free-basics-wrong-with-all-10){: .btn}
 
 - *"Facebook's Fall from Grace: Arab Spring to Indian Winter"* — *Firstpost*, 2016.  
   [Read here](/publications/facebooks-fall-from-grace-arab-spring-to-indian-winter){: .btn}
