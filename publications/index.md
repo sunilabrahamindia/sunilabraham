@@ -234,8 +234,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
 
 - *"Free Basics: Negating Net Parity"* — *Deccan Herald*, 2016.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/deccan-herald-january-3-2016-sunil-abraham-free-basics-negating-net-parity)  
-  [Read online](https://www.deccanherald.com/content/520860/free-basics-negating-net-parity.html)
+  [Read here](/publications/free-basics-negating-net-parity){: .btn}
 
 - *"Facebook Shares 10 Key Facts about Free Basics. Here's What's Wrong with All 10 of Them."* — *Catch News*, 2016.  
   [Read on CIS](https://cis-india.org/internet-governance/news/facebook-shares-10-key-facts-about-free-basics-heres-whats-wrong-with-all-10-of-them) 
