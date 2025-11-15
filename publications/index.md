@@ -187,6 +187,10 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Piracy Is Now a Mainstream Political Phenomenon"* — *The Hindu*, 2009.  
   _A commentary on digital rights, access to culture, and new forms of online activism._
 
+### 2011
+- *"Big Brother Is Watching You"* — *Deccan Herald*, 2011.  
+  [Read here](/publications/big-brother-is-watching-you/){: .btn}
+
 ### 2012
 
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
