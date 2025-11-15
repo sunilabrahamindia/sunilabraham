@@ -45,7 +45,7 @@ permalink: /publications/cambridge-analytica-scandal/
 
 <div class="highlighted-text" id="fulltext">
 
-*Hegemonic incumbents like Google and Facebook need to be tackled with regulation; govt should use procurement power to fund open source alternatives*
+<p><i>Hegemonic incumbents like Google and Facebook need to be tackled with regulation; govt should use procurement power to fund open source alternatives</i></p>
 
 <p>The Cambridge Analytica scandal came to light when whistleblower Wylie accused Cambridge Analytica of gathering details of 50 million Facebook users. Cambridge Analytica used this data to psychologically profile these users and manipulated their opinion in favour of Donald Trump. BJP and Congress have accused each other of using the services of Cambridge Analytica in India as well. How can India safeguard the democratic process against such intervention? The author tries to answer this question in this Business Standard Special.</p>
 
