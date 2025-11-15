@@ -281,6 +281,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/spreading-unhappiness-equally-around/){: .btn}
 
 - *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global Reposts*, 2018.  
+  [Read here](/publications/cambridge-analytica-scandal/){: .btn}
 
 - *"A Trust Deficit Between Advertisers and Publishers Is Leading to Fake News"* — *Hindustan Times*, 2018.  
   [Read here](/publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news){: .btn}
@@ -299,7 +300,6 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
 
 ### Needs to be relocated
-
 - *"Availability and Accessibility of Government Information in the Public Domain"* — *CIS Policy Brief*.  
   [Read online](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
 
