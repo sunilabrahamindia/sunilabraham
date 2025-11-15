@@ -32,16 +32,14 @@
       color: #237373; /* subtle hover colour */
     }
 
-    /* Optional: bullet separator (·) between links */
+    /* Bullet separator (·) between links */
     footer p a + a::before {
       content: "·";
-      margin: 0 4px;
+      margin: 0 1px;
       color: #555;
     }
 
-    /* =========================================================
-       Footer Version Tag
-       ========================================================= */
+    /* Footer Version Tag */
     footer .version-tag {
       font-size: 0.85em;
       color: #777;
@@ -52,17 +50,17 @@
   </style>
 
   <p><b><a href="https://sunilabraham.in/articles/sunil-abraham-project/">Sunil Abraham Project</a></b></p>
-  <p class="version-tag">Version 0.3.1</p>
+  <p class="version-tag">Version 0.3.2</p>
 
   <p>© {{ site.time | date: "%Y" }} Licensed under 
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> unless otherwise stated.
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a> unless otherwise stated.
   </p>
   
   <p>
     🌐 Connect with Sunil:
-    <a href="https://www.facebook.com/abrahamsunil">Facebook</a>
-    <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a>
-    <a href="https://x.com/sunil_abraham">𝕏</a>
+    <a href="https://www.facebook.com/abrahamsunil" aria-label="Sunil on Facebook">Facebook</a>
+    <a href="https://www.linkedin.com/in/sunilaabraham/" aria-label="Sunil on LinkedIn">LinkedIn</a>
+    <a href="https://x.com/sunil_abraham" aria-label="Sunil on X (Twitter)">𝕏</a>
   </p>
   
   <p>
@@ -91,6 +89,7 @@
 
   <script>
     const currentURL = encodeURIComponent(window.location.href);
-    document.getElementById('accessibility-link').href = 'https://wave.webaim.org/report#/' + currentURL;
+    document.getElementById('accessibility-link').href =
+      'https://wave.webaim.org/report#/' + currentURL;
   </script>
 </footer>
