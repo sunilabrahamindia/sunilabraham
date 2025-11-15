@@ -242,26 +242,24 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Facebook's Fall from Grace: Arab Spring to Indian Winter"* — *Firstpost*, 2016.  
   [Read here](/publications/facebooks-fall-from-grace-arab-spring-to-indian-winter){: .btn}
 
-- *"Services Like TwitterSeva Aren’t the Silver Bullets They Are Made Out to Be"* — *FactorDaily*, 2016.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/factordaily-sunil-abraham-october-6-2016-services-like-twitterseva-are-not-the-silver-bullets-they-are-made-out-to-be)
-
+- *"Services Like TwitterSeva Aren't the Silver Bullets They Are Made Out to Be"* — *FactorDaily*, 2016.  
+  [Read here](/publications/services-like-twitterseva-arent-the-silver-bullets){: .btn}
+  
 - *"How Aadhaar Compromises Privacy? And How to Fix It?"* — *The Hindu*, 2017.  
   [Read on CIS](https://cis-india.org/internet-governance/blog/hindu-op-ed-sunil-abraham-march-31-2017-how-aadhaar-compromises-privacy-and-how-to-fix-it)  
   [Read online](https://www.thehindu.com/opinion/op-ed/is-aadhaar-a-breach-of-privacy/article17745615.ece)
 
-- *"It’s the Technology, Stupid"* — *The Hindu Business Line*, 2017.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/the-hindu-businessline-march-31-2017-sunil-abraham-its-the-technology-stupid)  
-  [Read online](https://www.thehindubusinessline.com/blink/cover/its-the-technology-stupid/article21943923.ece)
+- *"It's the Technology, Stupid"* — *The Hindu Business Line*, 2017.  
+  [Read here](/publications/its-the-technology-stupid/){: .btn}
 
-- *"Fixing Aadhaar: Security Developers’ Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
+- *"Fixing Aadhaar: Security Developers' Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
   [Read here](/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/){: .btn}
 
 - *"Data Protection: We Can Innovate, Leapfrog"* — *Deccan Herald*, 2018.  
   [Read here](/publications/data-protection-we-can-innovate-leapfrog/){: .btn}
 
 - *"Why NPCI and Facebook Need Urgent Regulatory Attention"* — *Economic Times*, 2018.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/economic-times-june-10-2018-sunil-abraham-why-npci-and-facebook-need-urgent-regulatory-attention)  
-  [Read online](https://economictimes.indiatimes.com/industry/banking/finance/banking/why-npci-and-facebook-need-urgent-regulatory-attention/articleshow/64522587.cms)
+  [Read here](/publications/why-npci-and-facebook-need-urgent-regulatory-attention/){: .btn}
 
 - *"Lining Up the Data on the Srikrishna Privacy Draft Bill"* — *Economic Times*, 2018.  
   [Read on CIS](https://cis-india.org/internet-governance/blog/economic-times-july-30-2018-sunil-abraham-lining-up-data-on-srikrishna-privacy-draft-bill)  
