@@ -179,21 +179,27 @@ These handbooks offer foundational insights into FOSS implementation, policy, an
 
 Sunil Abraham has written widely for both Indian and international media, contributing opinion pieces and analytical essays on technology policy, privacy, and open knowledge.
 
+### 2009
+
 - *"Newspapers Should Empower Citizen Journalism"* — *DNA India*, 2009.  
   [Read online](https://cis-india.org/news/newspapers-should-empower-citizen-journalism)
 
 - *"Piracy Is Now a Mainstream Political Phenomenon"* — *The Hindu*, 2009.  
   _A commentary on digital rights, access to culture, and new forms of online activism._
 
+### 2012
+
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
   _An essay on the global evolution of openness and free software movements._
 
+### 2013
 - *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
   [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
 
 - *"Freedom from Monitoring: India Inc Should Push for Privacy Laws"* — *Forbes India*, 2013.  
   [Read here](/publications/freedom-from-monitoring-india-inc-should-push-for-privacy-laws){: .btn}
 
+### 2014
 - *"Very Big Brother"* — *Council for Responsible Genetics*, 2014.  
   [Read here](/publications/very-big-brother){: .btn}
 
@@ -203,6 +209,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Net Freedom Campaign Loses its Way"* — *The Hindu Business Line*, 2014.  
   [Read here](/publications/net-freedom-campaign-loses-its-way){: .btn}
 
+### 2015
 - *"Privacy vs Transparency"* — *New Internationalist*, 2015.  
   [Read here](/publications/privacy-vs-transparency/){: .btn}
 
@@ -233,6 +240,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Hits and Misses With the Draft Encryption Policy"* — *The Wire*, 2015.  
   [Read here](/publications/connected-trouble){: .btn}
 
+### 2016
 - *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics"* — *Firstpost*, 2016.  
   [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
 
@@ -247,7 +255,8 @@ Sunil Abraham has written widely for both Indian and international media, contri
 
 - *"Services Like TwitterSeva Aren't the Silver Bullets They Are Made Out to Be"* — *FactorDaily*, 2016.  
   [Read here](/publications/services-like-twitterseva-arent-the-silver-bullets){: .btn}
-  
+
+### 2017
 - *"How Aadhaar Compromises Privacy? And How to Fix It?"* — *The Hindu*, 2017.  
   [Read on CIS](https://cis-india.org/internet-governance/blog/hindu-op-ed-sunil-abraham-march-31-2017-how-aadhaar-compromises-privacy-and-how-to-fix-it)  
   [Read online](https://www.thehindu.com/opinion/op-ed/is-aadhaar-a-breach-of-privacy/article17745615.ece)
@@ -255,6 +264,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"It's the Technology, Stupid"* — *The Hindu Business Line*, 2017.  
   [Read here](/publications/its-the-technology-stupid/){: .btn}
 
+### 2018
 - *"Fixing Aadhaar: Security Developers' Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
   [Read here](/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/){: .btn}
 
@@ -278,6 +288,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Analysis of ICANN Revenue Shows Ambiguity in Their Records: Financials from 2012–2016"* — *CIS Blog*, 2018.  
   [Read online](https://cis-india.org/internet-governance/blog/analysis-of-icann-financials-from-2012-2016)
 
+### 2019
 - *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
   [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
 
@@ -286,6 +297,8 @@ Sunil Abraham has written widely for both Indian and international media, contri
 
 - *"Linking Aadhaar with Social Media or Ending Encryption Is Counterproductive"* — *Prime Time*, 2019.  
   [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
+
+### Needs to be relocated
 
 - *"Availability and Accessibility of Government Information in the Public Domain"* — *CIS Policy Brief*.  
   [Read online](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
