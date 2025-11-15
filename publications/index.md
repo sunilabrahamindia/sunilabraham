@@ -191,6 +191,10 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Big Brother Is Watching You"* — *Deccan Herald*, 2011.  
   [Read here](/publications/big-brother-is-watching-you/){: .btn}
 
+- *"Do You Want to Be Watched?"* — *Pragati*, 2011.  
+  [Read here](/publications/do-you-want-to-be-watched/){: .btn}
+
+
 ### 2012
 
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
