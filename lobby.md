@@ -13,7 +13,7 @@ categories: [Project pages]
 */
 
 :root{
-  --lobby-image: url("https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/TSAP%20Lobby.png");
+  --lobby-image: url("https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/TSAP%20Lobby.png?raw=true");
   --overlay-bg: rgba(0,0,0,0.5);
   --accent: #0b5ed7;
   --muted: #6b6b6b;
