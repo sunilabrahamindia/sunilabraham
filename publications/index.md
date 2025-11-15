@@ -203,6 +203,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Net Freedom Campaign Loses its Way"* — *The Hindu Business Line*, 2014.  
   [Read here](/publications/net-freedom-campaign-loses-its-way){: .btn}
 
+- *"Privacy vs Transparency"* — *New Internationalist*, 2015.  
+  [Read here](/publications/privacy-vs-transparency/){: .btn}
+
 - *"Wiki's Worth, on a Different Turf"* — *Mint*, 2015.  
   [Read here](/publications/wikis-worth-on-a-different-turf){: .btn}
 
@@ -286,9 +289,6 @@ Sunil Abraham has written widely for both Indian and international media, contri
 
 - *"Availability and Accessibility of Government Information in the Public Domain"* — *CIS Policy Brief*.  
   [Read online](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
-
-- *"Privacy vs. Transparency: An Attempt at Resolving the Dichotomy"* — *CIS / New Internationalist*.  
-  [Read online](https://newint.org/features/2015/01/01/privacy-transparency/)
 
 
 ## Blog Entries and Online Essays
