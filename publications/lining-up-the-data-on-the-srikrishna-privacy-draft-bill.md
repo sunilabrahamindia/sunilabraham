@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lining Up the Data on the Srikrishna Privacy Draft Bill"
-description: "An article by Sunil Abraham analysing the implications of non-consensual processing in the Srikrishna Committee’s draft data protection bill."
+description: "An article by Sunil Abraham analysing the implications of non-consensual processing in the Srikrishna Committee's draft data protection bill."
 categories: [Media articles, Publications]
 date: 2018-07-30
 authors: ["Sunil Abraham"]
@@ -16,6 +16,7 @@ permalink: /publications/lining-up-the-data-on-the-srikrishna-privacy-draft-bill
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
 3. [Context and Background](#context-and-background)
+4. [External Link](#external-link)
 
 ## Article Details
 
