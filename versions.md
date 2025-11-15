@@ -7,6 +7,14 @@ description: "Version history of the Sunil Abraham Project website, documenting 
 
 This page serves as a version log for the **Sunil Abraham Project** website. Each entry documents updates, milestones, and improvements across different releases — helping track design, structure, and content evolution over time.
 
+## Contents
+1. [Version 0.1](#version-01)
+2. [Version 0.2](#version-02)
+3. [Version 0.3](#version-03)
+4. [Version 0.3.1](#version-031)
+5. [Version 0.3.2](#version-032)
+
+
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
     alt="Psychedelic poster for The Sunil Abraham Project with large text: 'Every Sun, New Version'" 
@@ -101,9 +109,45 @@ This version emphasises content development, modular template creation, and user
 - Minor style adjustments for better mobile responsiveness in new article templates.  
 - Archive verification for `/publications/` directory and newly added article pages.
 
-✅ **Status:** Completed — Version 0.3.1 deployed.  
+✅ **Status:** Completed — Version 0.3.1 completed.  
 📅 **Completion Date:** 9 November 2025  
 🗃️ **Internet Archive:** [Archived Snapshot (9 Nov 2025)](https://web.archive.org/web/20251109062755/https://sunilabraham.in/)
 
+## Version 0.3.2
+
+Version 0.3.2 continues the major content-building phase of the **Sunil Abraham Project**, with a strong focus on expanding the Publications section, improving navigation, and strengthening the website’s organisational structure.
+
+**📚 Publications Expansion (Major Focus)**  
+- The Publications section remained the top priority this week.  
+- **At least 10 new articles were added**, bringing the total to 82 articles, of which 57 fall under the Publications category.  
+- Versions 0.3.1 and 0.3.2 together represent a significant leap in content development, especially in standardising templates, improving metadata, and ensuring internal consistency.
+
+**👥 Collaboration & Author Pages**  
+- **Author (Collaboration) page created** to help readers discover authors connected to the project or those who may collaborate in the future.  
+- A dedicated Authors Directory page added to support collaboration visibility and cross-site navigation.
+
+**📰 Media Directory**  
+- A comprehensive Media Directory has been created to classify and list media articles, improving browsing for visitors and organising long-term archives.
+
+**🔍 Google Search Console Integration**  
+- Google Search Console account created.  
+- XML sitemap successfully submitted for indexing.  
+- This ensures improved SEO visibility, indexing accuracy, and long-term search performance.
+
+**🧪 Sandbox Restructure**  
+- The `/sandbox/` page was restructured to allow safe experiments to go live without being indexed.  
+- Sandbox is now publicly accessible but excluded from sitemap and disallowed in robots.txt, ensuring experiments do not appear in search results.
+
+**🌍 Content Enhancements**  
+- Major expansion of the Students for Peace article with improved structure and detail.  
+- Added a Did You Know (DYK) section on the Home page to increase engagement and highlight interesting facts.
+
+**🧱 Additional Improvements**  
+- Internal consistency updates across new pages.  
+- Confirmed placement of collaboration and directory sections for long-term site organisation.
+
+✅ **Status:** Completed — Version 0.3.2 done.  
+📅 **Completion Date:** 16 November 2025  
+🗃️ **Internet Archive:** [Archived Snapshot (16 Nov 2025)](https://web.archive.org/web/20251115231351/https://sunilabraham.in/)
 
 
