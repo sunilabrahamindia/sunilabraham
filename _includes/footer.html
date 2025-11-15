@@ -1,104 +1,51 @@
-<footer role="contentinfo">
+<footer>
   <style>
     /* =========================================================
-       Footer base container
+       Footer container
        ========================================================= */
     footer {
       margin-top: 0;
       padding: 40px 10px;
       text-align: center;
-      font-size: 0.92em;
+      font-size: 0.9em;
       color: #555;
-      border-top: 1px solid #e0e0e0;
+      border-top: 1px solid #eaecef;
       background: #fafafa;
-      letter-spacing: 0.2px;
-      -webkit-font-smoothing: antialiased;
     }
 
-    /* =========================================================
-       Paragraph spacing and section grouping
-       ========================================================= */
+    /* Paragraph spacing */
     footer p {
-      margin: 0.35rem 0;
-      line-height: 1.45;
+      margin: 0.2rem 0; /* tighter spacing between paragraphs */
+      line-height: 1.4;
     }
 
-    /* Additional vertical spacing between sections */
-    footer p + p {
-      margin-top: 0.65rem;
-    }
-
-    /* =========================================================
-       Footer links
-       ========================================================= */
+    /* Links inside footer */
     footer a {
-      color: #0a2e57;
+      color: #0a2e57; /* match your header/theme colour */
       text-decoration: none;
-      margin: 0 2px;
-      padding: 1px 2px;
-      border-radius: 4px;
-      transition: 
-        color 0.25s ease,
-        background 0.25s ease;
+      margin: 0 1px;
+      transition: color 0.3s ease;
     }
 
     footer a:hover {
-      background: #e8f2ff;        /* subtle background highlight */
-      color: #205c73;             /* refined hover colour */
-      text-decoration: underline; 
+      text-decoration: underline;
+      color: #237373; /* subtle hover colour */
     }
 
-    /* Bullet separator (·) between adjacent links */
+    /* Bullet separator (·) between links */
     footer p a + a::before {
       content: "·";
-      margin: 0 4px;
-      color: #777;
-      font-size: 0.85em;
-      opacity: 0.7;
+      margin: 0 1px;
+      color: #555;
     }
 
-    /* =========================================================
-       Version tag styling
-       ========================================================= */
+    /* Footer Version Tag */
     footer .version-tag {
       font-size: 0.85em;
-      color: #333;
-      background: #eef3f8;
-      padding: 3px 8px;
-      border-radius: 6px;
-      display: inline-block;
-      margin-top: 0.4rem;
-      opacity: 0.95;
-      letter-spacing: 0.3px;
-    }
-
-    /* =========================================================
-       Mobile optimisation
-       ========================================================= */
-    @media (max-width: 600px) {
-      footer {
-        padding: 28px 12px;
-        font-size: 0.86em;
-      }
-      footer a {
-        padding: 2px 3px;
-      }
-    }
-
-    /* =========================================================
-       High-contrast accessibility mode (OS setting)
-       ========================================================= */
-    @media (prefers-contrast: more) {
-      footer {
-        background: #ffffff;
-        color: #222;
-      }
-      footer a {
-        color: #003366;
-      }
-      footer a:hover {
-        background: #ccdfff;
-      }
+      color: #777;
+      margin-top: 0.2rem;
+      opacity: 0.9;
+      display: block;
     }
   </style>
 
@@ -128,7 +75,7 @@
 
   <p>
     🗄️ Internet Archive:
-    <a class="archive-link" href="#">
+    <a href="https://web.archive.org/https://www.{{ site.url | remove: 'https://' | remove: 'www.' }}{{ page.url | relative_url }}">
       Archived versions of this page
     </a>
   </p>
@@ -142,14 +89,7 @@
 
   <script>
     const currentURL = encodeURIComponent(window.location.href);
-
     document.getElementById('accessibility-link').href =
       'https://wave.webaim.org/report#/' + currentURL;
-
-    document.querySelectorAll('.archive-link').forEach(a => {
-      a.href = 'https://web.archive.org/https://www.' +
-               window.location.host.replace('www.', '') +
-               window.location.pathname;
-    });
   </script>
 </footer>
