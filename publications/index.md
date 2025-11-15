@@ -265,7 +265,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/lining-up-the-data-on-the-srikrishna-privacy-draft-bill/){: .btn}
 
 - *"Spreading Unhappiness Equally Around"* — *Business Standard*, 2018.  
-  [Read here](/publications/spreading-unhappiness-equally-around)/{: .btn}
+  [Read here](/publications/spreading-unhappiness-equally-around/){: .btn}
 
 - *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global Reposts*, 2018.  
 
