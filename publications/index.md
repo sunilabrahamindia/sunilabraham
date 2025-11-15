@@ -262,8 +262,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/why-npci-and-facebook-need-urgent-regulatory-attention/){: .btn}
 
 - *"Lining Up the Data on the Srikrishna Privacy Draft Bill"* — *Economic Times*, 2018.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/economic-times-july-30-2018-sunil-abraham-lining-up-data-on-srikrishna-privacy-draft-bill)  
-  [Read online](https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/lining-up-the-data-on-the-srikrishna-privacy-draft-bill/articleshow/65192296.cms)
+  [Read here](/publications/lining-up-the-data-on-the-srikrishna-privacy-draft-bill){: .btn}
 
 - *"Spreading Unhappiness Equally Around"* — *Business Standard*, 2018.  
   [Read on CIS](https://cis-india.org/internet-governance/blog/business-standard-july-31-2018-sunil-abraham-spreading-unhappiness-equally-around)  
