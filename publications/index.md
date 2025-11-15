@@ -194,6 +194,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Do You Want to Be Watched?"* — *Pragati*, 2011.  
   [Read here](/publications/do-you-want-to-be-watched/){: .btn}
 
+- *"Snooping Can Lead to Data Abuse"* — *Mail Today*, 2011.  
+  [Read here](/publications/snooping-can-lead-to-data-abuse/){: .btn}
+
 
 ### 2012
 
