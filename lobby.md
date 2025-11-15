@@ -13,7 +13,7 @@ categories: [Project pages]
 */
 
 :root{
-  --lobby-image: url("https://chatgpt.com/backend-api/estuary/content?id=file_00000000502c71fa9aedebfbf12e129c&ts=489790&p=fs&cid=1&sig=80befe7f356239b1101cb1ac77f8181ecae94ad2297a217c67e9f0d6d51f46cc&v=0");
+  --lobby-image: url("https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/TSAP%20Lobby.png");
   --overlay-bg: rgba(0,0,0,0.5);
   --accent: #0b5ed7;
   --muted: #6b6b6b;
@@ -216,7 +216,6 @@ categories: [Project pages]
       <div style="font-weight:600; color:#3e2b25;">Interactive lobby</div>
       <div style="color:var(--muted); font-size:0.95rem;">Click objects to open short notes or links.</div>
     </div>
-    <div class="legend-right">Image provided by user — will be moved to /assets/images/lobby/ when finalised.</div>
   </div>
 
   {% include back-to-top.html %}
