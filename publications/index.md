@@ -262,11 +262,10 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/why-npci-and-facebook-need-urgent-regulatory-attention/){: .btn}
 
 - *"Lining Up the Data on the Srikrishna Privacy Draft Bill"* — *Economic Times*, 2018.  
-  [Read here](/publications/lining-up-the-data-on-the-srikrishna-privacy-draft-bill){: .btn}
+  [Read here](/publications/lining-up-the-data-on-the-srikrishna-privacy-draft-bill/){: .btn}
 
 - *"Spreading Unhappiness Equally Around"* — *Business Standard*, 2018.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/business-standard-july-31-2018-sunil-abraham-spreading-unhappiness-equally-around)  
-  [Read online](https://www.business-standard.com/article/opinion/spreading-unhappiness-equally-around-118073100008_1.html)
+  [Read here](/publications/spreading-unhappiness-equally-around)/{: .btn}
 
 - *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global Reposts*, 2018.  
 
