@@ -33,7 +33,7 @@ permalink: /publications/online-censorship-how-government-should-approach-regula
   <dd>Opinion Article</dd>
 
   <dt>📰 Newspaper Link:</dt>
-  <dd>No longer available online</dd>
+  <dd>Not available</dd>
 </dl>
 
 ## Full Text
