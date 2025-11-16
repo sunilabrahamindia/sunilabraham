@@ -92,4 +92,12 @@
     document.getElementById('accessibility-link').href =
       'https://wave.webaim.org/report#/' + currentURL;
   </script>
+  <script>
+document.addEventListener('keydown', function (e) {
+  if (e.altKey && e.shiftKey && e.key === 'X') {
+    window.location.href = '/random/';
+  }
+});
+</script>
+
 </footer>
