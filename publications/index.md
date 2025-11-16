@@ -180,12 +180,15 @@ These handbooks offer foundational insights into FOSS implementation, policy, an
 Sunil Abraham has written widely for both Indian and international media, contributing opinion pieces and analytical essays on technology policy, privacy, and open knowledge.
 
 ### 2009
-
 - *"Newspapers Should Empower Citizen Journalism"* — *DNA India*, 2009.  
   [Read online](https://cis-india.org/news/newspapers-should-empower-citizen-journalism)
 
 - *"Piracy Is Now a Mainstream Political Phenomenon"* — *The Hindu*, 2009.  
   _A commentary on digital rights, access to culture, and new forms of online activism._
+
+### 2010
+- *"Wherever You Are, Whatever You Do"* — *Indian Express*, 2010.  
+  [Read here](/publications/wherever-you-are-whatever-you-do/){: .btn}
 
 ### 2011
 - *"Big Brother Is Watching You"* — *Deccan Herald*, 2011.  
@@ -196,6 +199,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 
 - *"Snooping Can Lead to Data Abuse"* — *Mail Today*, 2011.  
   [Read here](/publications/snooping-can-lead-to-data-abuse/){: .btn}
+
+- *"Privacy and Security Can Co-exist"* — *Mail Today*, 2011.  
+  [Read here](/publications/privacy-and-security-can-co-exist/){: .btn}
 
 
 ### 2012
