@@ -10,7 +10,6 @@ sitemap: true
 This page lists all assigned short URL paths and keyboard shortcuts that provide quick access to main sections of the website.  
 These shortcuts are designed to improve accessibility for keyboard users, screen reader users, and power users.
 
----
 
 # URL Shortcuts
 
@@ -27,7 +26,11 @@ Each uses a compliant HTML meta refresh redirect.
 | [`/u`](https://sunilabraham.in/u) | [`/publications/`](https://sunilabraham.in/publications/) | Publications, articles, and book chapters |
 | [`/v`](https://sunilabraham.in/v) | [`/videos/`](https://sunilabraham.in/videos/) | Videos |
 
----
+
+# Keyboard Shortcuts
+
+Keyboard shortcuts work everywhere on the site and provide instant navigation without using the mouse.  
+These are implemented using lightweight, accessible JavaScript in the site footer.
 
 # Keyboard Shortcuts
 
@@ -36,9 +39,9 @@ These are implemented using lightweight, accessible JavaScript in the site foote
 
 | Keys | Action | Description |
 |------|--------|-------------|
+| **Alt + Shift + G** | Open GitHub source | Opens the GitHub repository page for the exact source file of the current page |
 | **Alt + Shift + X** | Load a random page | Takes you to `/random/`, which instantly redirects to a random page across the site |
 
----
 
 ## Accessibility Notes
 
