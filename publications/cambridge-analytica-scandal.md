@@ -9,7 +9,7 @@ source: "Business Standard"
 permalink: /publications/cambridge-analytica-scandal/
 ---
 
-**Cambridge Analytica Scandal: How India Can Save Democracy from Facebook** is a Business Standard Special by Sunil Abraham published on 28 March 2018. This long-form analysis examines how the Cambridge Analytica episode reveals systemic weaknesses in data protection, competition frameworks, and platform regulation, and outlines principles and regulatory options for India to safeguard democratic processes.
+**Cambridge Analytica Scandal: How India Can Save Democracy from Facebook** is a Business Standard Special by Sunil Abraham published on 28 March 2018. The article uses the Cambridge Analytica episode to argue for stronger data minimisation, meaningful consent, a right to explanation, and renewed competition law principles. Abraham also proposes procurement-based strategies and structural remedies to reduce platform dominance.
 
 ## Contents
 
