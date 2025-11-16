@@ -7,6 +7,7 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/sunrise.css' | relative_url }}">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
@@ -128,5 +129,12 @@
     });
   </script>
 
+ <script>
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('theme') === 'sunrise') {
+    document.body.classList.add('sunrise');
+  }
+</script>
+ 
 </body>
 </html>
