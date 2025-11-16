@@ -219,6 +219,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Freedom from Monitoring: India Inc Should Push for Privacy Laws"* — *Forbes India*, 2013.  
   [Read here](/publications/freedom-from-monitoring-india-inc-should-push-for-privacy-laws){: .btn}
 
+- *"TV versus Social Media: The Rights and Wrongs"* — *The Tribune*, 2013.  
+  [Read here](/publications/tv-versus-social-media/){: .btn}
+
 ### 2014
 - *"Very Big Brother"* — *Council for Responsible Genetics*, 2014.  
   [Read here](/publications/very-big-brother){: .btn}
