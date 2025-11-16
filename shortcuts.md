@@ -1,16 +1,21 @@
 ---
 layout: default
 title: "Keyboard and URL Shortcuts"
-description: "A directory of assigned short URLs for faster and more accessible navigation on sunilabraham.in."
+description: "A directory of assigned short URLs and keyboard shortcuts for fast and accessible navigation on sunilabraham.in."
 categories: [Project pages]
 permalink: /shortcuts/
 sitemap: true
 ---
 
-# Keyboard and URL Shortcuts
+This page lists all assigned short URL paths and keyboard shortcuts that provide quick access to main sections of the website.  
+These shortcuts are designed to improve accessibility for keyboard users, screen reader users, and power users.
 
-This page lists all assigned short URL paths that provide quick access to main sections of the website.  
-These shortcuts are designed for accessibility, allowing easier navigation by keyboard users and screen reader users.
+---
+
+# URL Shortcuts
+
+These are normal, accessible URLs (not JavaScript shortcuts).  
+Each uses a compliant HTML meta refresh redirect.
 
 | Shortcut | Redirects to | Description |
 |-----------|---------------|--------------|
@@ -24,12 +29,24 @@ These shortcuts are designed for accessibility, allowing easier navigation by ke
 
 ---
 
+# Keyboard Shortcuts
+
+Keyboard shortcuts work everywhere on the site and provide instant navigation without using the mouse.  
+These are implemented using lightweight, accessible JavaScript in the site footer.
+
+| Keys | Action | Description |
+|------|--------|-------------|
+| **Alt + Shift + X** | Load a random page | Takes you to `/random/`, which instantly redirects to a random page across the site |
+
+---
+
 ## Accessibility Notes
 
-- These shortcuts are normal, accessible URLs — not JavaScript-based keyboard shortcuts.  
-- They provide quick, predictable access to key pages.  
-- Each uses a compliant HTML `<meta http-equiv="refresh">` redirect for full compatibility with GitHub Pages.  
-- Shortcut pages are **not** listed in the sitemap to avoid SEO duplication, but this directory **is**.
+- URL shortcuts are simple, predictable, and compatible with all browsers and assistive technologies.  
+- Keyboard shortcuts are designed to avoid conflicts with common browser shortcuts.  
+- The `Alt + Shift` modifier combination follows accessibility guidelines used by MediaWiki (Wikipedia) for cross-browser compatibility.  
+- Shortcut pages use compliant HTML redirects.  
+- This directory **is** listed in the sitemap, but the individual shortcut pages are **not**, to avoid SEO duplication.
 
 <style>
 table {
@@ -73,4 +90,3 @@ tr:nth-child(even) {
   }
 }
 </style>
-
