@@ -215,6 +215,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"The Five Monkeys and Ice-Cold Water"* — *Deccan Chronicle*, 2012.  
   [Read here](/publications/the-five-monkeys-and-ice-cold-water/){: .btn}
 
+- *"The Quixotic Fight to Clean up the Web"* — *Tehelka Magazine*, 2012.  
+  [Read here](/publications/the-quixotic-fight-to-clean-up-the-web/){: .btn}
+
 ### 2013
 - *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
   [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
