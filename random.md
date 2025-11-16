@@ -5,7 +5,7 @@ permalink: /random/
 sitemap: false
 ---
 
-Loading a random page...
+Loading a random page from the Sunil Abraham Project...
 
 <script>
   // Auto-collect all pages except /random/ and _short/ redirects
