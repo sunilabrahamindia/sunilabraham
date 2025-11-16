@@ -1,0 +1,128 @@
+/* ============================================================
+   Ubuntu Theme (activated when body has class "theme-ubuntu")
+   Designed for accessibility, mobile support, and Ubuntu-style UI
+   ============================================================ */
+
+/* --------- GLOBAL RESET FOR UBUNTU THEME --------- */
+body.theme-ubuntu {
+  font-family: "Ubuntu", sans-serif;
+  background: #2c001e;   /* Ubuntu aubergine */
+  margin: 0;
+  padding: 0;
+  colour: #f7f7f7;
+}
+
+/* --------- PAGE CONTAINER --------- */
+body.theme-ubuntu .container,
+body.theme-ubuntu main,
+body.theme-ubuntu .content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #3d0a34;   /* lighter aubergine */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* --------- TEXT --------- */
+body.theme-ubuntu h1,
+body.theme-ubuntu h2,
+body.theme-ubuntu h3,
+body.theme-ubuntu h4 {
+  colour: #ffdd72;    /* Ubuntu yellow/orange */
+  font-weight: 600;
+}
+
+body.theme-ubuntu p,
+body.theme-ubuntu li {
+  colour: #f0e6f0;
+  line-height: 1.6;
+}
+
+/* --------- LINKS --------- */
+body.theme-ubuntu a {
+  colour: #e95420;   /* Ubuntu orange */
+  text-decoration: none;
+}
+
+body.theme-ubuntu a:hover {
+  text-decoration: underline;
+}
+
+/* --------- HEADER / NAV BAR --------- */
+body.theme-ubuntu header,
+body.theme-ubuntu nav {
+  background: #2c001e;
+  padding: 15px;
+  border-bottom: 2px solid #4b1138;
+  colour: #fff;
+}
+
+body.theme-ubuntu nav a {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+/* --------- FOOTER --------- */
+body.theme-ubuntu footer {
+  background: #2c001e;
+  padding: 20px;
+  text-align: centre;
+  margin-top: 40px;
+  border-top: 2px solid #4b1138;
+  colour: #e5d9e5;
+}
+
+/* --------- UBUNTU WINDOW LOOK (OPTIONAL) --------- */
+body.theme-ubuntu .ubuntu-window {
+  background: #3d0a34;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+  margin-bottom: 30px;
+}
+
+/* Title bar mimic */
+body.theme-ubuntu .ubuntu-titlebar {
+  display: flex;
+  align-items: centre;
+  gap: 8px;
+  background: #4b1138;
+  padding: 8px 12px;
+  border-radius: 12px 12px 0 0;
+  colour: #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+/* Window buttons */
+body.theme-ubuntu .btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+body.theme-ubuntu .btn.close { background: #e95420; }
+body.theme-ubuntu .btn.minimise { background: #f7d154; }
+body.theme-ubuntu .btn.maximise { background: #4ab84a; }
+
+/* --------- MOBILE RESPONSIVE --------- */
+@media (max-width: 700px) {
+  body.theme-ubuntu .container,
+  body.theme-ubuntu main,
+  body.theme-ubuntu .content,
+  body.theme-ubuntu .ubuntu-window {
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  body.theme-ubuntu nav a {
+    margin-right: 10px;
+    font-size: 0.95em;
+  }
+
+  body.theme-ubuntu .ubuntu-titlebar {
+    padding: 6px 10px;
+  }
+}
