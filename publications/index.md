@@ -209,6 +209,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
   _An essay on the global evolution of openness and free software movements._
 
+- *"Online Censorship: How Government Should Approach Regulation of Speech"* — *The Economic Times*, 2012.  
+  [Read here](/publications/online-censorship-how-government-should-approach-regulation-of-speech/){: .btn}
+
 - *"The Five Monkeys and Ice-Cold Water"* — *Deccan Chronicle*, 2012.  
   [Read here](/publications/the-five-monkeys-and-ice-cold-water/){: .btn}
 
