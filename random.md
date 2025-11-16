@@ -5,16 +5,19 @@ permalink: /random/
 sitemap: false
 ---
 
-Loading a random page from the Sunil Abraham Project...
+Loading a random page...
 
 <script>
-  // Auto-collect all pages except /random/ and _short/ redirects
-  const allPages = {{ site.pages
-      | where_exp:"p","p.url != '/random/'"
-      | where_exp:"p","p.url !contains '/_short/'"
-      | map:"url"
-      | jsonify
-  }};
+  // Build the page list using Liquid
+  const allPages = [
+    {% for p in site.pages %}
+      {% unless p.url == "/random/" %}
+        {% unless p.url contains "/_short/" %}
+          "{{ p.url }}",
+        {% endunless %}
+      {% endunless %}
+    {% endfor %}
+  ];
 
   const randomPage = allPages[Math.floor(Math.random() * allPages.length)];
   window.location.href = randomPage;
