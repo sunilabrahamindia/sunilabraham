@@ -1,0 +1,186 @@
+/* ============================================================
+   SUNRISE THEME (elegant, soft, minimal)
+   Apply this stylesheet only when using the sunrise layout.
+   Fully mobile-friendly and accessibility-conscious.
+   ------------------------------------------------------------
+   DESIGN NOTES:
+   - Soft warm accent colours inspired by early sunrise
+   - Clean whites + gentle greys for high readability
+   - Light shadows like morning light
+   - Large breathing space, elegant spacing scale
+   ============================================================ */
+
+/* -------------------------------
+   COLOUR VARIABLES
+--------------------------------*/
+:root {
+  --sun-bg: #fffdfb;                 /* soft sunrise white */
+  --sun-surface: #ffffff;            /* pure white card */
+  --sun-text: #333333;               /* readable dark grey */
+  --sun-text-light: #555555;
+
+  --sun-accent: #f2a97a;             /* peach sunrise highlight */
+  --sun-accent-light: #f7c8a0;
+  --sun-accent-soft: #fbe7d4;
+
+  --sun-border: #ecdcd2;             /* warm neutral border */
+  --sun-shadow: rgba(0, 0, 0, 0.06); /* soft morning shadow */
+}
+
+/* -------------------------------
+   GLOBAL
+--------------------------------*/
+body.sunrise {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background: var(--sun-bg);
+  colour: var(--sun-text);
+  line-height: 1.75;
+  font-size: 17px;
+}
+
+/* Content wrapper (centered card) */
+.sunrise-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: var(--sun-surface);
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px var(--sun-shadow);
+  border: 1px solid var(--sun-border);
+}
+
+/* -------------------------------
+   HEADER
+--------------------------------*/
+.sunrise-header {
+  background: linear-gradient(
+    135deg,
+    #ffe9d6 0%,
+    #fce0d1 40%,
+    #f5d9d8 100%
+  );
+  padding: 20px 30px;
+  border-bottom: 1px solid var(--sun-border);
+}
+
+.sunrise-header h1,
+.sunrise-header .site-title {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 650;
+  colour: var(--sun-text);
+}
+
+/* -------------------------------
+   NAVIGATION
+--------------------------------*/
+.sunrise-nav {
+  padding: 12px 30px;
+  background: #ffffffaa;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--sun-border);
+}
+
+.sunrise-nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  colour: var(--sun-text-light);
+}
+
+.sunrise-nav a:hover {
+  colour: var(--sun-accent);
+}
+
+/* -------------------------------
+   TYPOGRAPHY
+--------------------------------*/
+.sunrise h1,
+.sunrise-container h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-top: 0;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--sun-accent);
+  colour: var(--sun-text);
+}
+
+.sunrise h2 {
+  font-size: 1.6rem;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  colour: var(--sun-text);
+}
+
+.sunrise h3 {
+  font-size: 1.3rem;
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+.sunrise p {
+  margin-bottom: 1.2rem;
+}
+
+/* -------------------------------
+   LINKS
+--------------------------------*/
+.sunrise a {
+  colour: var(--sun-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sunrise a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------------
+   CARDS (for details, related items, etc.)
+--------------------------------*/
+.sunrise-card {
+  background: var(--sun-accent-soft);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--sun-border);
+  margin: 25px 0;
+}
+
+/* -------------------------------
+   FOOTER
+--------------------------------*/
+.sunrise-footer {
+  text-align: centre;
+  padding: 25px;
+  font-size: 0.9rem;
+  colour: var(--sun-text-light);
+  margin-top: 40px;
+  border-top: 1px solid var(--sun-border);
+}
+
+/* -------------------------------
+   MOBILE RESPONSIVE
+--------------------------------*/
+@media (max-width: 700px) {
+  .sunrise-container {
+    margin: 15px;
+    padding: 22px;
+    border-radius: 12px;
+  }
+
+  .sunrise-nav {
+    padding: 12px 20px;
+  }
+
+  .sunrise-header {
+    padding: 18px 20px;
+  }
+
+  .sunrise-nav a {
+    display: inline-block;
+    margin-right: 14px;
+    font-size: 0.95rem;
+  }
+}
