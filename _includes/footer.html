@@ -87,17 +87,39 @@
     </a>
   </p>
 
-  <script>
-    const currentURL = encodeURIComponent(window.location.href);
-    document.getElementById('accessibility-link').href =
-      'https://wave.webaim.org/report#/' + currentURL;
-  </script>
-  <script>
-document.addEventListener('keydown', function (e) {
-  if (e.altKey && e.shiftKey && e.key === 'X') {
-    window.location.href = '/random/';
-  }
-});
+<!-- WAVE Accessibility Checker link updater -->
+<script>
+  // Take the current page URL and pass it to the WAVE scanner
+  const currentURL = encodeURIComponent(window.location.href);
+  document.getElementById('accessibility-link').href =
+    'https://wave.webaim.org/report#/' + currentURL;
+</script>
+
+<!-- Alt + Shift + X → Load a random page -->
+<script>
+  // Keyboard shortcut to trigger the /random/ redirect page
+  document.addEventListener('keydown', function (e) {
+    if (e.altKey && e.shiftKey && e.key === 'X') {
+      window.location.href = '/random/';
+    }
+  });
+</script>
+
+<!-- Alt + Shift + G → Open this page's GitHub source -->
+<script>
+  // Build GitHub edit URL dynamically using the Jekyll page.path variable
+  const githubEditURL =
+    "https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}";
+
+  document.addEventListener('keydown', function (e) {
+    // Ignore if typing inside input or textarea
+    if (['INPUT','TEXTAREA'].includes(e.target.tagName)) return;
+
+    // Keyboard shortcut to jump to GitHub source of current page
+    if (e.altKey && e.shiftKey && e.key === 'G') {
+      window.location.href = githubEditURL;
+    }
+  });
 </script>
 
 </footer>
