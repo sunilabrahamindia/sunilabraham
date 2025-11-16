@@ -7,6 +7,8 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- UBUNTU THEME: second stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/ubuntu.css' | relative_url }}"> <!-- loads Ubuntu theme (only activates when body has class theme-ubuntu) -->
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
@@ -98,7 +100,6 @@
         });
       });
 
-      //  Add the link icon after the heading text (to the right)
       header.appendChild(link);
     });
   });
@@ -108,12 +109,8 @@
   <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
   <script>
     window.addEventListener("load", function() {
-      // Wrap all images automatically in a lightbox link
       document.querySelectorAll('img').forEach(function(img) {
-        // Skip if already inside a link
         if (img.closest('a')) return;
-
-        // Optional: skip very small images (like icons)
         if (img.width < 100 || img.height < 100) return;
 
         const link = document.createElement('a');
@@ -123,10 +120,20 @@
         link.appendChild(img);
       });
 
-      // Initialise GLightbox
       GLightbox({ selector: '.lightbox' });
     });
   </script>
+
+  <!-- UBUNTU THEME SWITCHER -->
+  <script>
+    // Checks if URL has ?theme=ubuntu
+    // If yes → activates Ubuntu theme by adding class to <body>
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('theme') === 'ubuntu') {
+      document.body.classList.add('theme-ubuntu');  // triggers ubuntu.css
+    }
+  </script>
+  <!-- END UBUNTU THEME -->
 
 </body>
 </html>
