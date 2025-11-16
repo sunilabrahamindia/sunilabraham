@@ -18,10 +18,12 @@ As of {{ site.time | date: "%-d %B %Y" }}, the site contains {{ site.pages | siz
 {% assign sorted_pages = site.pages | sort: "title" %}
 {% for page in sorted_pages %}
 {% unless page.url == '/' 
+      or page.url == '/random/'
       or page.path contains 'categories/' 
       or page.path contains '_layouts' 
       or page.path contains '_includes' 
       or page.path contains '_templates' 
+      or page.path contains '_short/' 
       or page.path contains '404' 
       or page.path contains 'sitemap' 
       or page.path contains 'sandbox/' %}
@@ -36,6 +38,7 @@ As of {{ site.time | date: "%-d %B %Y" }}, the site contains {{ site.pages | siz
   {% endunless %}
 {% endfor %}
 </ol>
+
 
 <!-- =========================================================
      Categories (only category pages, with page counts)
