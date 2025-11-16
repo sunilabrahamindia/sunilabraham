@@ -69,7 +69,7 @@ This column argues that the "principle of equivalence" — treating social media
 
 ## External Link
 
-- [Read on The Tribune (mirror)](http://www.tribuneindia.com/2013/20130120/edit.htm#2)
+- [Read on The Tribune](http://www.tribuneindia.com/2013/20130120/edit.htm#2)
 
 <style>
 .media-details {
