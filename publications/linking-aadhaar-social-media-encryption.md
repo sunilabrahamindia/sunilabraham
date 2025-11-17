@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Linking Aadhaar with social media or ending encryption is counterproductive"
+title: "Linking Aadhaar with Social Media or Ending Encryption is Counterproductive"
 description: "An opinion article by Sunil Abraham in Prime Time examining the debate on linking Aadhaar with social media accounts and the implications of weakening encryption for national security and privacy."
 categories: [Media articles, Publications]
 date: 2019-08-26
@@ -9,7 +9,7 @@ source: "Prime Time"
 permalink: /publications/linking-aadhaar-social-media-encryption/
 ---
 
-**Linking Aadhaar with social media or ending encryption is counterproductive** is an opinion column by Sunil Abraham, published in *Prime Time* on 26 August 2019. The article analyses the policy debate surrounding the linking of Aadhaar numbers with social media accounts and the potential consequences of curbing encryption. Abraham argues that such moves would undermine privacy, national security, and technological sovereignty.
+**Linking Aadhaar with Social Media or Ending Encryption is Counterproductive** is an opinion column by Sunil Abraham, published in *Prime Time* on 26 August 2019. The article analyses the policy debate surrounding the linking of Aadhaar numbers with social media accounts and the potential consequences of curbing encryption. Sunil Abraham argues that such moves would undermine privacy, national security, and technological sovereignty.
 
 ## Contents
 
@@ -79,6 +79,7 @@ permalink: /publications/linking-aadhaar-social-media-encryption/
 ## Context and Background
 
 This article was published at a time when the Indian government and courts were debating whether to link Aadhaar to social media accounts and whether to allow law enforcement access to encrypted messages.  
+
 Sunil Abraham argues that weakening encryption or linking Aadhaar would erode privacy and national sovereignty, and that instead, India should invest in privacy-preserving surveillance mechanisms and open, participatory policy design.
 
 {% include back-to-top.html %}
