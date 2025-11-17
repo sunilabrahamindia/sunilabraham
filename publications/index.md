@@ -203,6 +203,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Privacy and Security Can Co-exist"* — *Mail Today*, 2011.  
   [Read here](/publications/privacy-and-security-can-co-exist/){: .btn}
 
+- *"We Are Anonymous, We Are Legion"* — *The Hindu*, 2011.  
+  [Read here](/publications/we-are-anonymous-we-are-legion/){: .btn}
+
 
 ### 2012
 
