@@ -209,6 +209,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 
 ### 2012
 
+- *"Censoring the Internet: A Brief Manual"* — *Tehelka Magazine*, 2012.  
+  [Read here](/publications/censoring-the-internet-a-brief-manual/){: .btn}
+
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
   _An essay on the global evolution of openness and free software movements._
 
