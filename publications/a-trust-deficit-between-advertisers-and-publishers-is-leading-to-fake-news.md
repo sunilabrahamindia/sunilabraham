@@ -65,8 +65,6 @@ The column argues that the advertising-driven business model of major platforms 
 
   <p>The real solution lies elsewhere. Google and Facebook are primarily advertising networks. They have successfully managed to destroy the business model for real news and replace it with a business model for fake news by taking away most of the advertising revenues from traditional and new news media companies. They were able to do this because there was a trust deficit between advertisers and publishers. Perhaps this trust deficit could be solved by a commons-based solutions based on free software, open standards and collective action by all Indian new media companies.</p>
 
-  <p>Sunil Abraham is executive director, Centre for Internet and Society</p>
-
   <p>The views expressed are personal</p>
 </div>
 
@@ -77,6 +75,7 @@ The column argues that the advertising-driven business model of major platforms 
 ## Context and Background
 
 This column was written during an intensifying global discussion about platform responsibility, intermediary liability, algorithmic transparency and the economics of news. In India, debates about data localisation, intermediary regulation and political advertising transparency were prominent in 2018.  
+
 Sunil Abraham highlights structural causes — advertising-driven platform economics and advertiser–publisher trust deficits — and calls for transparency, portability and commons-based approaches as remedies.
 
 {% include back-to-top.html %}
