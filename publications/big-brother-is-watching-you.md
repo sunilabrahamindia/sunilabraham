@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Big Brother Is Watching You"
+title: "Big Brother is Watching You"
 description: "A Deccan Herald opinion column by Sunil Abraham discussing India's expanding surveillance regime, cybercafe logging, ISP data retention, encryption controls, and the implications of the IT Act 2008."
 categories: [Media articles, Publications]
 date: 2011-05-31
@@ -9,7 +9,7 @@ source: "Deccan Herald"
 permalink: /publications/big-brother-is-watching-you/
 ---
 
-**Big Brother Is Watching You** is an opinion article by Sunil Abraham published in *Deccan Herald* on 31 May 2011. This column critiques India's expanding surveillance architecture, including cybercafe rules, ISP monitoring, encryption restrictions and the implications of the IT Act (Amendment 2008) for civil liberties, journalism, businesses and privacy.
+**Big Brother is Watching You** is an opinion article by Sunil Abraham published in *Deccan Herald* on 31 May 2011. This column critiques India's expanding surveillance architecture, including cybercafe rules, ISP monitoring, encryption restrictions and the implications of the IT Act (Amendment 2008) for civil liberties, journalism, businesses and privacy.
 
 ## Contents
 
