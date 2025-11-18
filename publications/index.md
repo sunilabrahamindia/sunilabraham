@@ -221,6 +221,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"The Quixotic Fight to Clean up the Web"* — *Tehelka Magazine*, 2012.  
   [Read here](/publications/the-quixotic-fight-to-clean-up-the-web/){: .btn}
 
+- *"To Regulate Net Intermediaries or Not Is the Question"* — *Deccan Herald*, 2012.  
+  [Read here](/publications/to-regulate-net-intermediaries-or-not-is-the-question/){: .btn}
+
 ### 2013
 - *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
   [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
