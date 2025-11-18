@@ -206,11 +206,13 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"We Are Anonymous, We Are Legion"* — *The Hindu*, 2011.  
   [Read here](/publications/we-are-anonymous-we-are-legion/){: .btn}
 
-
 ### 2012
 
 - *"Censoring the Internet: A Brief Manual"* — *Tehelka Magazine*, 2012.  
   [Read here](/publications/censoring-the-internet-a-brief-manual/){: .btn}
+
+- *"Copyright Amendment: Bad, but Could Have Been Much Worse"* — *Business Standard*, 2012.  
+  [Read here](/publications/copyright-amendment-bad-but-could-have-been-much-worse/){: .btn}
 
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
   _An essay on the global evolution of openness and free software movements._
@@ -392,4 +394,5 @@ His talks often focus on openness, ethics, and governance in digital systems.
 
 ## See also
 -   [Authors directory](/publications/authors){: .btn}, highlights authors who have collaborated with Sunil Abraham on various publications featured within this project
+-   [Media directory](/publications/media){: .btn}, a directory of the newspaper or media outlet where they appeared
 
