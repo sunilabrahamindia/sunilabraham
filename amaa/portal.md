@@ -218,44 +218,64 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 .bio-note-button:hover { background: #f0d98e; box-shadow: 0 2px 4px rgba(0,0,0,0.15); }
 
-/* Collapsible wrapper */
-.collapse-box { max-width: 720px; margin: 1.2rem auto; }
+/* Collapsible wrapper — match sticky-note card width & feel */
+.collapse-box {
+  max-width: 720px;
+  margin: 1.4rem auto;                 /* same spacing as sticky-note */
+  background: #fff;                    /* clean card background */
+  border: 1px solid #d8e2f0;           /* light border (same family) */
+  border-radius: 12px;                 /* same round corners as sticky-note */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08); /* same soft shadow */
+  overflow: hidden;                    /* ensures rounded corners look clean */
+}
 
 /* Header */
 .collapse-header {
   background: #eef3fa;
-  border: 1px solid #d8e2f0;
   padding: 0.7rem 1rem;
   font-weight: 600;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px;
   color: #1b2a49;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
   user-select: none;
+  border-bottom: 1px solid #d8e2f0;   /* clean separation */
+  border-radius: 0;                    /* header must not round (wrapper handles it) */
 }
+
 .collapse-header:hover { background: #e7edf7; }
-.collapse-header:focus { outline: 3px solid rgba(50,120,214,0.18); outline-offset: 2px; }
+
+.collapse-header:focus {
+  outline: 3px solid rgba(50,120,214,0.18);
+  outline-offset: 2px;
+}
 
 /* Arrow */
-.collapse-header .arrow { transition: transform 0.25s ease; }
+.collapse-header .arrow {
+  transition: transform 0.25s ease;
+}
 
 /* Content panel */
-.collapse-content { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
-.collapse-content.open { max-height: 2000px; }
+.collapse-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+  background: #f9fbfe;   /* same soft colour as earlier */
+}
 
+/* When opened */
+.collapse-content.open {
+  max-height: 2000px;
+}
+  
 /* Bio details */
 .bio-details {
   background: #f9fbfe;
-  border: 1px solid #d8e2f0;
-  border-radius: 10px;
   padding: 1.2rem 1.4rem;
   font-size: 0.96rem;
   line-height: 1.5;
   color: #333;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
 .bio-details dt { font-weight: 600; color: #1b2a49; margin-top: 0.7rem; }
 .bio-details dd { margin: 0 0 0.3rem 0.3rem; color: #555; }
