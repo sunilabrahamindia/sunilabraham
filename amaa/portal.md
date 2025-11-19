@@ -102,6 +102,17 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
   <a href="/amaa/edrl" class="bio-note-button">See full entry →</a>
 </div>
 
+## Related Articles
+
+<div class="bio-note-card" role="region" aria-label="Related article: CISRS overview">
+  <div class="bio-note-pin" aria-hidden="true">📌</div>
+  <p>
+    <strong>Christian Institute for the Study of Religion and Society (CISRS)</strong>  
+    A research centre in Bengaluru where A. M. A. Ayrookuzhiel carried out part of his work on caste, religion and culture. CISRS studies how belief, society and public life intersect in India, and its early research on Dalits, Adivasis and inter-faith engagement informed several themes he explored in his writing.
+  </p>
+  <a href="/articles/cisrs/" class="bio-note-button">Read the CISRS article →</a>
+</div>
+
 ## Gallery
 <!-- Extra flower trigger above gallery -->
 <div class="amaa-gallery-flower" role="button" tabindex="0" aria-label="Flower effect">
