@@ -164,6 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
   background: rgba(0,0,0,0.35);
   border-radius: 6px;
   text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  white-space: nowrap; 
 }
 
 /* Compact height on desktop, without clipping the border */
