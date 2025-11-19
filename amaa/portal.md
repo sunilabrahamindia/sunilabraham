@@ -247,7 +247,6 @@ document.addEventListener('DOMContentLoaded', () => {
   width: 100%;
   max-width: 100%;
   margin: 0 auto 1.5rem;
-  padding-bottom: 12px;   /* adds clean space below the flower */
 }
 
 /* Banner image */
@@ -454,7 +453,7 @@ main h1:first-child {
 /* Flower trigger button */
 .amaa-banner-flower {
   position: absolute;
-  top: calc(50% + 40px);          /* sits just below banner text */
+  top: calc(50% + 52px);          /* sits just below banner text */
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.9rem;              /* slightly larger flower */
@@ -471,7 +470,7 @@ main h1:first-child {
 /* Mobile: reduce gap so flower stays inside banner */
 @media (max-width: 600px) {
   .amaa-banner-flower {
-    top: calc(50% + 28px);
+    top: calc(50% + 32px);
     font-size: 1.6rem;            /* adjusted mobile size */
   }
 }
