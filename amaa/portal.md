@@ -22,9 +22,7 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
 
 The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. This serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
 
-<div class="section-box">
-  <h2>Biography</h2>
-</div>
+## Biography
 
 <!-- Collapsible quick facts -->
 <div class="collapse-box" aria-hidden="false">
@@ -588,22 +586,5 @@ main h1:first-child {
     ) rotate(720deg) scale(calc(var(--scale) * 0.6));
     opacity: 0;
   }
-}
-/* Boxed H2 headings (Wikipedia-style) */
-.section-box {
-  background: #eef3fa;
-  border: 1px solid #d8e2f0;
-  border-radius: 10px;
-  padding: 0.6rem 0.9rem;
-  margin: 1.8rem auto 1rem auto;
-  max-width: 720px;      /* match your portal card width */
-  color: #1b2a49;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
-}
-.section-box h2 {
-  margin: 0;
-  font-size: 1.35rem;
-  line-height: 1.3;
-  font-weight: 700;
 }
 </style>
