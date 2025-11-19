@@ -18,65 +18,74 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
 
 The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. It serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
 
-<dl class="bio-details">
-  <dt>🧍 Full Name:</dt>
-  <dd>Athanasius Mathen Abraham Ayrookuzhiel</dd>
+<div class="collapse-box">
+  <div class="collapse-header" onclick="this.nextElementSibling.classList.toggle('open')">
+    <span>📁 Biography Details</span>
+    <span class="arrow">▾</span>
+  </div>
 
-  <dt>📆 Born:</dt>
-  <dd>1933, Chengannur, Kerala, India</dd>
+  <div class="collapse-content">
+    <dl class="bio-details">
+      <dt>🧍 Full Name:</dt>
+      <dd>Athanasius Mathen Abraham Ayrookuzhiel</dd>
 
-  <dt>✝️ Died:</dt>
-  <dd>Friday, 29 November 1996</dd>
+      <dt>📆 Born:</dt>
+      <dd>1933, Chengannur, Kerala, India</dd>
 
-  <dt>🌍 Nationality:</dt>
-  <dd>Indian</dd>
+      <dt>✝️ Died:</dt>
+      <dd>Friday, 29 November 1996</dd>
 
-  <dt>🎓 Roles:</dt>
-  <dd>Theologian, Priest, Scholar</dd>
+      <dt>🌍 Nationality:</dt>
+      <dd>Indian</dd>
 
-  <dt>🏛️ Institutions:</dt>
-  <dd>
-    <ul>
-      <li>CISRS, Bangalore</li>
-      <li>St Paul High Anglican Church, Wokingham</li>
-      <li>Order of Ordine Imitationis Christi</li>
-    </ul>
-  </dd>
+      <dt>🎓 Roles:</dt>
+      <dd>Theologian, Priest, Scholar</dd>
 
-  <dt>📚 Areas of Work:</dt>
-  <dd>
-    <ul>
-      <li>Dalit Theology</li>
-      <li>Contextual Theology</li>
-      <li>Sociology of Religion</li>
-      <li>Cultural Studies</li>
-    </ul>
-  </dd>
+      <dt>🏛️ Institutions:</dt>
+      <dd>
+        <ul>
+          <li>CISRS, Bangalore</li>
+          <li>St Paul High Anglican Church, Wokingham</li>
+          <li>Order of Ordine Imitationis Christi</li>
+        </ul>
+      </dd>
 
-  <dt>📘 Major Publications:</dt>
-  <dd>
-  <ul>
-  <li><em>The Sacred in Popular Hinduism</em> (1983)</li>
-  <li><em>Swami Anand Thirth</em> (1987)</li>
-  <li><em>The Dalit Desiyata</em> (1990)</li>
-  <li><em>Dalit Kavithakal</em> (1992)</li>
-  <li><em>Dalit Sahityam</em> (1995)</li>
-  <li><em>Essays on Dalits, Religion and Liberation</em> (2006)</li>
-  </ul>
-  </dd>
+      <dt>📚 Areas of Work:</dt>
+      <dd>
+        <ul>
+          <li>Dalit Theology</li>
+          <li>Contextual Theology</li>
+          <li>Sociology of Religion</li>
+          <li>Cultural Studies</li>
+        </ul>
+      </dd>
 
-  <dt>👰‍♀️ Spouse:</dt>
-  <dd>Ponnamma Thekedath</dd>
+      <dt>📘 Major Publications:</dt>
+      <dd>
+        <ul>
+          <li><em>The Sacred in Popular Hinduism</em> (1983)</li>
+          <li><em>Swami Anand Thirth</em> (1987)</li>
+          <li><em>The Dalit Desiyata</em> (1990)</li>
+          <li><em>Dalit Kavithakal</em> (1992)</li>
+          <li><em>Dalit Sahityam</em> (1995)</li>
+          <li><em>Essays on Dalits, Religion and Liberation</em> (2006)</li>
+        </ul>
+      </dd>
 
-  <dt>👥 Children:</dt>
-  <dd>
-    <ul>
-      <li>Sunil Abraham (born Sunday, 17 June 1973)</li>
-      <li>Matthew Abraham</li>
-      <li>Jacob Abraham</li>
-    </ul>
-  </dd>
-</dl>
+      <dt>👰‍♀️ Spouse:</dt>
+      <dd>Ponnamma Thekedath</dd>
+
+      <dt>👥 Children:</dt>
+      <dd>
+        <ul>
+          <li>Sunil Abraham (born Sunday, 17 June 1973)</li>
+          <li>Matthew Abraham</li>
+          <li>Jacob Abraham</li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+</div>
 
 ## Biography
 Rev. A. M. A. Ayrookuzhiel (1933–1996) was an Indian theologian who linked faith with the social realities of marginalised communities. Born in Kerala and trained in seminaries in India and Europe, he developed an interest in how belief, justice, and everyday life come together. His years in the United Kingdom, where he served as a curate in Wokingham and married Ponnamma Thekedath, broadened his understanding of the church’s role in a changing world. The couple returned to India in 1973, where he began shaping a theology rooted in local experience.
@@ -89,6 +98,18 @@ Across books, essays, and edited volumes, he explored caste, culture, and religi
 ## Major works
 *Essays on Dalits, Religion and Liberation* (2006) brings together Rev. A. M. A. Ayrookuzhiel’s most important writings on caste, culture, and the role of religion in shaping social life. The essays show how he approached theology from the viewpoint of Dalit experience rather than formal doctrine. Drawing on fieldwork, oral traditions, and community practices, he examined how rituals, stories, and symbols carried both memories of oppression and sources of strength. A recurring theme in the book is his idea of religious colonisation, where dominant groups absorbed Dalit traditions into a system that denied their independent identity. At the same time, he highlighted the creative ways Dalit communities preserved their own cultural expressions. The collection traces his effort to make theology a tool for dignity and liberation. Published a decade after his death, the volume remains a key resource for understanding Indian contextual and Dalit theology.  
 [Read more](/amaa/essays-on-dalits-religion-and-liberation/){: .btn }
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.collapse-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const box = header.nextElementSibling;
+      box.classList.toggle('open');
+      header.classList.toggle('open');
+    });
+  });
+});
+</script>
 
 <style>
 /* ===== Local CSS: A. M. A. Ayrookuzhiel Portal Banner ===== */
@@ -185,5 +206,54 @@ Across books, essays, and edited volumes, he explored caste, culture, and religi
 .bio-details ul li {
   margin-bottom: 0.2rem;
 }
+
+  /* ===== Collapsible Box Wrapper ===== */
+.collapse-box {
+  max-width: 700px;
+  margin: 1.2rem auto;
+}
+
+/* ===== Header Bar ===== */
+.collapse-header {
+  background: #eef3fa;
+  border: 1px solid #d8e2f0;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  color: #1b2a49;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  user-select: none;
+}
+
+.collapse-header:hover {
+  background: #e7edf7;
+}
+
+/* Arrow icon */
+.collapse-header .arrow {
+  transition: transform 0.25s ease;
+}
+
+.collapse-content.open + .collapse-header .arrow,
+.collapse-header.open .arrow {
+  transform: rotate(180deg);
+}
+
+/* ===== Collapsible Content ===== */
+.collapse-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+.collapse-content.open {
+  max-height: 2000px; /* enough for content */
+}
+
+/* ===== Existing bio-details styling stays unchanged ===== */
 </style>
 
