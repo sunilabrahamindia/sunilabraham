@@ -90,8 +90,6 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 </div>
 
 ## Major Works
-### Essays on Dalits, Religion and Liberation (2006)
-
 <div class="bio-note-card" role="region" aria-label="Summary of the book 'Essays on Dalits, Religion and Liberation'">
   <div class="bio-note-pin" aria-hidden="true">📌</div>
   <p>
@@ -101,9 +99,6 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 </div>
 
 ## Gallery
-
-## Gallery
-
 <div class="amaa-gallery">
 
   <figure class="gallery-item">
