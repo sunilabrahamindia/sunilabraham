@@ -18,6 +18,59 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
 
 The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. It serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
 
+<dl class="bio-details">
+  <dt>📛 Full Name:</dt>
+  <dd>Athanasius Mathen Abraham Ayrookuzhiel</dd>
+
+  <dt>📆 Born:</dt>
+  <dd>1933, Chengannur, Kerala, India</dd>
+
+  <dt>📅 Died:</dt>
+  <dd>29 November 1996</dd>
+
+  <dt>🏳️ Nationality:</dt>
+  <dd>Indian</dd>
+
+  <dt>👤 Roles:</dt>
+  <dd>Theologian, Priest, Scholar</dd>
+
+  <dt>🏢 Institutions:</dt>
+  <dd>
+    - CISRS, Bangalore  
+    - St Paul High Anglican Church, Wokingham  
+    - Order of Ordine Imitationis Christi  
+  </dd>
+
+  <dt>📚 Areas of Work:</dt>
+  <dd>
+    - Dalit Theology  
+    - Contextual Theology  
+    - Sociology of Religion  
+    - Cultural Studies  
+  </dd>
+
+  <dt>📘 Major Publications:</dt>
+  <dd>
+    - *The Sacred in Popular Hinduism* (1983)  
+    - *Swami Anand Thirth* (1987)  
+    - *The Dalit Desiyata* (1990)  
+    - *Dalit Kavithakal* (1992)  
+    - *Dalit Sahityam* (1995)  
+    - *Essays on Dalits, Religion and Liberation* (2006)  
+  </dd>
+
+  <dt>👩‍🦳 Spouse:</dt>
+  <dd>Ponnamma Thekedath</dd>
+
+  <dt>👥 Children:</dt>
+  <dd>
+    - Sunil Abraham  
+    - Matthew Abraham  
+    - Jacob Abraham  
+  </dd>
+</dl>
+
+
 ## Biography
 Rev. A. M. A. Ayrookuzhiel (1933–1996) was an Indian theologian who linked faith with the social realities of marginalised communities. Born in Kerala and trained in seminaries in India and Europe, he developed an interest in how belief, justice, and everyday life come together. His years in the United Kingdom, where he served as a curate in Wokingham and married Ponnamma Thekedath, broadened his understanding of the church’s role in a changing world. The couple returned to India in 1973, where he began shaping a theology rooted in local experience.
 
