@@ -14,13 +14,16 @@ robots: noindex
   width: 100%;
   max-width: 100%;
   margin: 0 auto 1.5rem auto;
+  overflow: hidden;
 }
 
+/* Mobile-first image styles */
 .amaa-banner img {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 6px;
+  object-fit: cover;
 }
 
 .amaa-banner-text {
@@ -39,13 +42,28 @@ robots: noindex
   line-height: 1.3;
 }
 
+/* Mobile text adjustments */
 @media (max-width: 600px) {
   .amaa-banner-text {
     font-size: 1.4rem;
     padding: 0.4rem 0.8rem;
   }
 }
+
+/* Desktop: limit banner height */
+@media (min-width: 900px) {
+  .amaa-banner {
+    max-height: 260px; /* Adjust height here */
+  }
+
+  .amaa-banner img {
+    height: 260px; /* Same value as max-height */
+    width: 100%;
+    object-fit: cover;
+  }
+}
 </style>
+
 
 <div class="amaa-banner">
   <img 
