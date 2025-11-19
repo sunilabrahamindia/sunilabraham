@@ -18,6 +18,8 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
 
 The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. It serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
 
+## Biography
+
 <div class="collapse-box">
   <div class="collapse-header" role="button" tabindex="0" aria-expanded="false">
     <span class="collapse-text">Show Biography Details</span>
@@ -87,7 +89,6 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
   </div>
 </div>
 
-## Biography
 Rev. A. M. A. Ayrookuzhiel (1933–1996) was an Indian theologian who linked faith with the social realities of marginalised communities. Born in Kerala and trained in seminaries in India and Europe, he developed an interest in how belief, justice, and everyday life come together. His years in the United Kingdom, where he served as a curate in Wokingham and married Ponnamma Thekedath, broadened his understanding of the church’s role in a changing world. The couple returned to India in 1973, where he began shaping a theology rooted in local experience.
 
 At the Christian Institute for the Study of Religion and Society (CISRS) in Bangalore, Ayrookuzhiel helped shift attention towards the struggles of Dalits and other oppressed groups. He argued that theology should grow from people’s lived realities rather than abstract debate. His research drew on field studies and cultural traditions, showing how stories, songs, and rituals expressed both suffering and resistance. These insights contributed to the early formation of Dalit Theology in India.
