@@ -12,7 +12,7 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
     src="/amaa/images/amaa-portal-banner.png" 
     alt="Portal banner for A. M. A. Ayrookuzhiel">
   <div class="amaa-banner-text">
-    Portal:A. M. A. Ayrookuzhiel
+    Portal: A. M. A. Ayrookuzhiel
   </div>
     <!-- Flower trigger -->
   <div class="amaa-banner-flower" role="button" tabindex="0" aria-label="Flower effect">
