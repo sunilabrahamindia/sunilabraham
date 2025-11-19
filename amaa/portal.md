@@ -102,39 +102,33 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 <div class="amaa-gallery">
 
   <figure class="gallery-item">
-    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2001.jpeg"
-         alt="A young man in graduation robes and cap, standing formally and looking slightly to the side.">
-    <figcaption>Graduation portrait</figcaption>
-  </figure>
-
-  <figure class="gallery-item">
-    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2002.jpeg"
-         alt="Indoor scene with a man leaning forward, a woman behind him, and another man with a long beard looking at the camera.">
-    <figcaption>Early ministry gathering</figcaption>
-  </figure>
-
-  <figure class="gallery-item">
-    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2003.jpeg"
-         alt="A young man in graduation robes standing beside an older woman in a religious habit.">
-    <figcaption>Graduation portrait with mentor</figcaption>
-  </figure>
-
-  <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2004.jpeg"
          alt="Studio portrait of a young man in a suit, smiling warmly at the camera.">
     <figcaption>Early studio portrait</figcaption>
   </figure>
 
   <figure class="gallery-item">
-    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2005.jpeg"
-         alt="Old family group photograph with adults and children, showing significant wear and fading.">
-    <figcaption>Family group photograph</figcaption>
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2001.jpeg"
+         alt="A young man in graduation robes and cap, standing formally and looking slightly to the side.">
+    <figcaption>Graduation portrait</figcaption>
   </figure>
 
-  <figure class="gallery-item">
+    <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2006.jpeg"
          alt="A man in a suit standing beside a woman in a wedding sari and veil, both smiling.">
     <figcaption>Wedding portrait</figcaption>
+  </figure>
+  
+    <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2002.jpeg"
+         alt="Indoor scene with a man leaning forward, a woman behind him, and another man with a long beard looking at the camera.">
+    <figcaption>Early ministry gathering</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2005.jpeg"
+         alt="Old family group photograph with adults and children, showing significant wear and fading.">
+    <figcaption>Family group photograph</figcaption>
   </figure>
 
   <figure class="gallery-item">
