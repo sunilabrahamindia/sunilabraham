@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
   transition: transform 0.25s ease;
 }
 
-.collapse-content.open + .collapse-header .arrow,
+/* Rotate arrow when header is opened */
 .collapse-header.open .arrow {
   transform: rotate(180deg);
 }
