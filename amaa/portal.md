@@ -19,12 +19,12 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
 The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. It serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
 
 <div class="collapse-box">
-  <div class="collapse-header" onclick="this.nextElementSibling.classList.toggle('open')">
-    <span>📁 Biography Details</span>
-    <span class="arrow">▾</span>
+  <div class="collapse-header" role="button" tabindex="0" aria-expanded="false">
+    <span class="collapse-text">Show Biography Details</span>
+    <span class="arrow" aria-hidden="true">▾</span>
   </div>
 
-  <div class="collapse-content">
+  <div class="collapse-content" aria-hidden="true">
     <dl class="bio-details">
       <dt>🧍 Full Name:</dt>
       <dd>Athanasius Mathen Abraham Ayrookuzhiel</dd>
@@ -100,16 +100,43 @@ Across books, essays, and edited volumes, he explored caste, culture, and religi
 [Read more](/amaa/essays-on-dalits-religion-and-liberation/){: .btn }
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.collapse-header').forEach(header => {
-    header.addEventListener('click', () => {
-      const box = header.nextElementSibling;
-      box.classList.toggle('open');
-      header.classList.toggle('open');
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".collapse-header").forEach(header => {
+    const content = header.nextElementSibling;
+    const textSpan = header.querySelector(".collapse-text");
+    const arrow = header.querySelector(".arrow");
+
+    function toggle() {
+      const isOpen = content.classList.toggle("open");
+      header.classList.toggle("open");
+
+      // accessibility attributes
+      header.setAttribute("aria-expanded", String(isOpen));
+      content.setAttribute("aria-hidden", String(!isOpen));
+
+      // update text + arrow
+      if (isOpen) {
+        textSpan.textContent = "Hide Biography Details";
+        arrow.textContent = "▴";
+      } else {
+        textSpan.textContent = "Show Biography Details";
+        arrow.textContent = "▾";
+      }
+    }
+
+    header.addEventListener("click", toggle);
+
+    // keyboard support: Enter and Space
+    header.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+        e.preventDefault();
+        toggle();
+      }
     });
   });
 });
 </script>
+
 
 <style>
 /* ===== Local CSS: A. M. A. Ayrookuzhiel Portal Banner ===== */
@@ -208,12 +235,13 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
   /* ===== Collapsible Box Wrapper ===== */
+/* Collapse container */
 .collapse-box {
   max-width: 700px;
   margin: 1.2rem auto;
 }
 
-/* ===== Header Bar ===== */
+/* Header */
 .collapse-header {
   background: #eef3fa;
   border: 1px solid #d8e2f0;
@@ -233,17 +261,12 @@ document.addEventListener('DOMContentLoaded', () => {
   background: #e7edf7;
 }
 
-/* Arrow icon */
+/* Arrow */
 .collapse-header .arrow {
   transition: transform 0.25s ease;
 }
 
-/* Rotate arrow when header is opened */
-.collapse-header.open .arrow {
-  transform: rotate(180deg);
-}
-
-/* ===== Collapsible Content ===== */
+/* Content panel */
 .collapse-content {
   max-height: 0;
   overflow: hidden;
@@ -251,9 +274,11 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 .collapse-content.open {
-  max-height: 2000px; /* enough for content */
+  max-height: 2000px;
 }
-
-/* ===== Existing bio-details styling stays unchanged ===== */
+.collapse-header:focus {
+  outline: 3px solid rgba(50,120,214,0.18);
+  outline-offset: 2px;
+}
 </style>
 
