@@ -214,12 +214,12 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.appendChild(flower);
 
       // extended lifetime for slower animation
-      setTimeout(() => flower.remove(), 4500);
+      setTimeout(() => flower.remove(), 6000);
     }
 
     function burst() {
-      for (let i = 0; i < 26; i++) {       // more petals for powerful effect
-        setTimeout(spawnFlower, i * 60);   // smoother stagger timing
+      for (let i = 0; i < 80; i++) {         // ⬅️ TRIPLED FLOWERS
+        setTimeout(spawnFlower, i * 35);    // ⬅️ Faster stagger, premium effect
       }
     }
 
@@ -231,7 +231,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 </script>
-
 <style>
 /* Banner container */
 .amaa-banner {
@@ -473,7 +472,7 @@ main h1:first-child {
   position: absolute;
   font-size: 1.8rem;
   pointer-events: none;
-  animation: flowerFloat 2s ease-out forwards;
+ animation: flowerFloat 5s ease-out forwards;
   opacity: 0.9;
 }
   
