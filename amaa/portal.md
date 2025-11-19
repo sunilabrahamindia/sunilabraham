@@ -257,6 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
   border-radius: 6px;
   object-fit: cover;
   border: 4px ridge rgba(0,0,0,0.35);
+  pointer-events: none;
 }
 
 /* Banner text */
@@ -501,6 +502,35 @@ main h1:first-child {
 .amaa-banner-flower:hover::after {
   opacity: 1;
 }
+/* Tooltip for gallery flower */
+.amaa-gallery-flower::after {
+  content: "Click the flower";
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.amaa-gallery-flower:hover::after {
+  opacity: 1;
+}
+  
+/* Disable tooltips on mobile/touch */
+@media (max-width: 700px) {
+  .amaa-banner-flower::after,
+  .amaa-gallery-flower::after {
+    display: none !important;
+  }
+}
 
 /* Floating flower effect (unchanged) */
 .floating-flower {
@@ -512,6 +542,7 @@ main h1:first-child {
 }
 /* Gallery flower button (separate from banner flower) */
 .amaa-gallery-flower {
+  position: relative;       /* IMPORTANT — missing */
   display: block;
   text-align: center;
   font-size: 1.7rem;
@@ -526,7 +557,6 @@ main h1:first-child {
   transform: scale(1.25);
 }
 
-  
 @keyframes flowerFloat {
   0% {
     transform: translate(0, 0) scale(var(--scale));
