@@ -19,57 +19,64 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
 The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. It serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
 
 <dl class="bio-details">
-  <dt>📛 Full Name:</dt>
+  <dt>🧍 Full Name:</dt>
   <dd>Athanasius Mathen Abraham Ayrookuzhiel</dd>
 
   <dt>📆 Born:</dt>
   <dd>1933, Chengannur, Kerala, India</dd>
 
-  <dt>📅 Died:</dt>
-  <dd>29 November 1996</dd>
+  <dt>✝️ Died:</dt>
+  <dd>Friday, 29 November 1996</dd>
 
-  <dt>🏳️ Nationality:</dt>
+  <dt>🌍 Nationality:</dt>
   <dd>Indian</dd>
 
-  <dt>👤 Roles:</dt>
+  <dt>🎓 Roles:</dt>
   <dd>Theologian, Priest, Scholar</dd>
 
-  <dt>🏢 Institutions:</dt>
+  <dt>🏛️ Institutions:</dt>
   <dd>
-    - CISRS, Bangalore  
-    - St Paul High Anglican Church, Wokingham  
-    - Order of Ordine Imitationis Christi  
+    <ul>
+      <li>CISRS, Bangalore</li>
+      <li>St Paul High Anglican Church, Wokingham</li>
+      <li>Order of Ordine Imitationis Christi</li>
+    </ul>
   </dd>
 
   <dt>📚 Areas of Work:</dt>
   <dd>
-    - Dalit Theology  
-    - Contextual Theology  
-    - Sociology of Religion  
-    - Cultural Studies  
+    <ul>
+      <li>Dalit Theology</li>
+      <li>Contextual Theology</li>
+      <li>Sociology of Religion</li>
+      <li>Cultural Studies</li>
+    </ul>
   </dd>
 
   <dt>📘 Major Publications:</dt>
   <dd>
-    - *The Sacred in Popular Hinduism* (1983)  
-    - *Swami Anand Thirth* (1987)  
-    - *The Dalit Desiyata* (1990)  
-    - *Dalit Kavithakal* (1992)  
-    - *Dalit Sahityam* (1995)  
-    - *Essays on Dalits, Religion and Liberation* (2006)  
+    <ul>
+      <li>The Sacred in Popular Hinduism* (1983)</li>
+      <li>Swami Anand Thirth* (1987)</li>
+      <li>The Dalit Desiyata* (1990)</li>
+      <li>Dalit Kavithakal* (1992)</li>
+      <li>Dalit Sahityam* (1995)</li>
+      <li>Essays on Dalits, Religion and Liberation* (2006)</li>
+    </ul>
   </dd>
 
-  <dt>👩‍🦳 Spouse:</dt>
+  <dt>👰‍♀️ Spouse:</dt>
   <dd>Ponnamma Thekedath</dd>
 
   <dt>👥 Children:</dt>
   <dd>
-    - Sunil Abraham  
-    - Matthew Abraham  
-    - Jacob Abraham  
+    <ul>
+      <li>Sunil Abraham (born Sunday, 17 June 1973)</li>
+      <li>Matthew Abraham</li>
+      <li>Jacob Abraham</li>
+    </ul>
   </dd>
 </dl>
-
 
 ## Biography
 Rev. A. M. A. Ayrookuzhiel (1933–1996) was an Indian theologian who linked faith with the social realities of marginalised communities. Born in Kerala and trained in seminaries in India and Europe, he developed an interest in how belief, justice, and everyday life come together. His years in the United Kingdom, where he served as a curate in Wokingham and married Ponnamma Thekedath, broadened his understanding of the church’s role in a changing world. The couple returned to India in 1973, where he began shaping a theology rooted in local experience.
@@ -141,6 +148,42 @@ Across books, essays, and edited volumes, he explored caste, culture, and religi
     width: 100%;
     object-fit: cover;
   }
+}
+
+  /* ===== Biography Details Box (same styling as media-details) ===== */
+
+.bio-details {
+  background: #f9fbfe;
+  border: 1px solid #d8e2f0;
+  border-radius: 10px;
+  padding: 1.2rem 1.4rem;
+  max-width: 700px;
+  margin: 1.2rem auto;
+  font-size: 0.96rem;
+  line-height: 1.5;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.bio-details dt {
+  font-weight: 600;
+  color: #1b2a49;
+  margin-top: 0.7rem;
+}
+
+.bio-details dd {
+  margin: 0 0 0.3rem 0.3rem;
+  color: #555;
+}
+
+/* Bullet list support inside dd */
+.bio-details ul {
+  margin: 0.2rem 0 0.6rem 0.6rem;
+  padding-left: 0;
+}
+
+.bio-details ul li {
+  margin-bottom: 0.2rem;
 }
 </style>
 
