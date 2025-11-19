@@ -189,8 +189,12 @@ document.addEventListener('DOMContentLoaded', () => {
   -----------------------*/
   const flowerTrigger = document.querySelector('.amaa-banner-flower');
   if (flowerTrigger) {
-    const flowers = ["🌸","🌺","🌼","🌷","🌻","💐"];
-
+const flowers = [
+  "🌸","🌺","🌼","🌷","🌻","💐",
+  "🌹","🥀","💮","🏵️",
+  "🌾","🌿","🍃","🍂","🍀","🌱",
+  "✨"
+];
     function spawnFlower() {
       const flower = document.createElement('div');
       flower.className = 'floating-flower';
@@ -468,17 +472,20 @@ main h1:first-child {
   animation: flowerFloat 2s ease-out forwards;
   opacity: 0.9;
 }
-
+  
 @keyframes flowerFloat {
   0% {
     transform: translate(0, 0) scale(1);
     opacity: 1;
   }
+  60% {
+    opacity: 1; /* stay visible longer */
+  }
   100% {
     transform: translate(
-      calc(-200px + 400px * var(--rand-x)),   /* moves across full screen width */
-      calc(-200px - 600px * var(--rand-y))    /* moves high up the screen */
-    ) rotate(360deg) scale(0.5);
+      calc(-400px + 800px * var(--rand-x)),   /* huge horizontal travel */
+      calc(-400px - 1200px * var(--rand-y))   /* huge upward travel */
+    ) rotate(720deg) scale(0.5);
     opacity: 0;
   }
 }
