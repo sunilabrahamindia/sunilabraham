@@ -53,11 +53,11 @@ robots: noindex
 /* Desktop: limit banner height */
 @media (min-width: 900px) {
   .amaa-banner {
-    max-height: 260px; /* Adjust height here */
+    max-height: 200px; /* Adjust height here */
   }
 
   .amaa-banner img {
-    height: 260px; /* Same value as max-height */
+    height: 200px; /* Same value as max-height */
     width: 100%;
     object-fit: cover;
   }
