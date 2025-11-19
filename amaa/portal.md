@@ -453,7 +453,7 @@ main h1:first-child {
 /* Flower trigger button */
 .amaa-banner-flower {
   position: absolute;
-  top: calc(50% + 52px);          /* sits just below banner text */
+  top: calc(50% + 25px);          /* sits just below banner text */
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.9rem;              /* slightly larger flower */
