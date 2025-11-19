@@ -33,7 +33,7 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 
   <div id="bio-facts" class="collapse-content" aria-hidden="true">
     <dl class="bio-details">
-      <dt>🧍 Full name:</dt>
+      <dt>🌟 Full name:</dt>
       <dd>Athanasius Mathen Abraham Ayrookuzhiel</dd>
 
       <dt>📆 Born:</dt>
@@ -444,38 +444,64 @@ flower.style.top = (window.innerHeight / 2 + window.scrollY) + 'px';
 main h1:first-child {
   display: none !important;
 }
-
-  /* Flower trigger button */
+/* Flower trigger button */
 .amaa-banner-flower {
   position: absolute;
-  top: calc(50% + 32px);   /* sits just below banner text */
+  top: calc(50% + 32px);          /* sits just below banner text */
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.5rem;
+  font-size: 1.9rem;              /* slightly larger flower */
   cursor: pointer;
   user-select: none;
-  transition: transform 0.2s ease;
+  transition: transform 0.25s ease;
   z-index: 9;
+
+  /* soft glow — safe, does NOT block content */
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.85))
+          drop-shadow(0 0 10px rgba(255,255,255,0.5));
 }
 
 /* Mobile: reduce gap so flower stays inside banner */
 @media (max-width: 600px) {
   .amaa-banner-flower {
     top: calc(50% + 22px);
-    font-size: 1.3rem;
+    font-size: 1.6rem;            /* adjusted mobile size */
   }
 }
 
+/* hover enlarge — safe, no layout change */
 .amaa-banner-flower:hover {
-  transform: translateX(-50%) scale(1.2);
+  transform: translateX(-50%) scale(1.3);
 }
 
-/* Floating flower effect */
+/* tooltip — absolutely positioned, cannot break layout */
+.amaa-banner-flower::after {
+  content: "Click the flower";
+  position: absolute;
+  top: 150%;                      /* below the emoji */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.amaa-banner-flower:hover::after {
+  opacity: 1;
+}
+
+/* Floating flower effect (unchanged) */
 .floating-flower {
   position: absolute;
   font-size: 1.8rem;
   pointer-events: none;
- animation: flowerFloat 8s ease-out forwards;
+  animation: flowerFloat 8s ease-out forwards;
   opacity: 0.9;
 }
   
