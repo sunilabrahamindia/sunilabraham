@@ -105,7 +105,7 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 ## Gallery
 <!-- Extra flower trigger above gallery -->
 <div class="amaa-gallery-flower" role="button" tabindex="0" aria-label="Flower effect">
-  🌼
+  🌺
 </div>  
 <div class="amaa-gallery">
 
@@ -247,6 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
   width: 100%;
   max-width: 100%;
   margin: 0 auto 1.5rem;
+  padding-bottom: 12px;   /* adds clean space below the flower */
 }
 
 /* Banner image */
