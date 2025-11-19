@@ -12,11 +12,11 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
     src="/amaa/images/amaa-portal-banner.png" 
     alt="Portal banner for A. M. A. Ayrookuzhiel">
   <div class="amaa-banner-text">
-    Portal: A. M. A. Ayrookuzhiel
+    Portal:A. M. A. Ayrookuzhiel
   </div>
 </div>
 
-The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. It serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
+The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. This serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
 
 ## Biography
 
