@@ -261,8 +261,4 @@ document.addEventListener('DOMContentLoaded', () => {
 .bio-details ul { margin: 0.2rem 0 0.6rem 0.6rem; padding-left: 0; }
 .bio-details ul li { margin-bottom: 0.2rem; }
 
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  .amaa-banner-text { font-size: 1.4rem; padding: 0.4rem 0.8rem; }
-}
 </style>
