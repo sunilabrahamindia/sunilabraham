@@ -48,6 +48,7 @@ Across books, essays, and edited volumes, he explored caste, culture, and religi
   display: block;
   border-radius: 6px;
   object-fit: cover;
+  border: 2px solid rgba(0,0,0,0.35);
 }
 
 .amaa-banner-text {
