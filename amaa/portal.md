@@ -341,10 +341,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* Each card */
 .gallery-item {
-  height: 240px;                 /* consistent card height */
-  display: flex;
-  align-items: flex-start;       /* keep image at the top */
-  justify-content: center;
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
@@ -352,27 +348,14 @@ document.addEventListener('DOMContentLoaded', () => {
   box-shadow: 0 3px 6px rgba(0,0,0,0.06);
 }
 
-/* Images inside the card */
+/* Image */
 .gallery-item img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;             /* no stretching */
-  object-position: top;          /* keeps head visible in portraits */
+  height: auto;          /* allow natural proportions */
+  max-height: 240px;     /* keeps grid tidy */
+  object-fit: cover;     /* still crops neatly if needed */
+  object-position: top;  /* keeps heads visible in portraits */
   display: block;
-}
-@media (max-width: 600px) {
-  .gallery-item {
-    height: auto;                /* allow full portrait images */
-  }
-
-  .gallery-item img {
-    height: auto;
-    max-height: 320px;
-    object-fit: contain;
-    object-position: center;
-    background: #f0f4f8;
-    padding: 0.4rem;
-  }
 }
 
 /* Caption */
