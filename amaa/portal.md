@@ -20,18 +20,6 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 
 ## Biography
 
-<!-- Sticky-note summary (short, non-duplicative) -->
-<div class="bio-note-card" role="region" aria-label="Short biography summary">
-  <div class="bio-note-pin" aria-hidden="true">📌</div>
-  <p>
-    Rev. A. M. A. Ayrookuzhiel (1933–1996) was a theologian who tried to bring faith closer to
-    the everyday struggles of marginalised communities. At CISRS in Bangalore he helped shape
-    early Dalit Theology by drawing on stories, fieldwork and local practice rather than abstract
-    theory. His writing and teaching continue to influence debates on justice, culture and belief.
-  </p>
-  <a href="/amaa/" class="bio-note-button">Read full biography →</a>
-</div>
-
 <!-- Collapsible quick facts -->
 <div class="collapse-box" aria-hidden="false">
   <div class="collapse-header" role="button" tabindex="0" aria-expanded="false" aria-controls="bio-facts">
@@ -88,6 +76,19 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
     </dl>
   </div>
 </div>
+
+<!-- Sticky-note summary -->
+<div class="bio-note-card" role="region" aria-label="Short biography summary">
+  <div class="bio-note-pin" aria-hidden="true">📌</div>
+  <p>
+    Rev. A. M. A. Ayrookuzhiel (1933–1996) was a theologian who tried to bring faith closer to
+    the everyday struggles of marginalised communities. At CISRS in Bangalore he helped shape
+    early Dalit Theology by drawing on stories, fieldwork and local practice rather than abstract
+    theory. His writing and teaching continue to influence debates on justice, culture and belief.
+  </p>
+  <a href="/amaa/" class="bio-note-button">Read full biography →</a>
+</div>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
