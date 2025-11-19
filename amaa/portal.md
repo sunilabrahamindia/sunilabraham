@@ -209,11 +209,12 @@ document.addEventListener('DOMContentLoaded', () => {
   text-align: center;
   padding: 0.5rem 1rem;
   max-width: 90%;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 60, 255, 0.30); /* NEW royal blue transparent background */
   border-radius: 6px;
   text-shadow: 0 0 10px rgba(0,0,0,0.7);
-  white-space: nowrap; 
+  white-space: nowrap;
 }
+
 
 /* Compact height on desktop, without clipping the border */
 @media (min-width: 900px) {
