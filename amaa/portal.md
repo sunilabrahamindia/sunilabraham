@@ -259,22 +259,55 @@ document.addEventListener('DOMContentLoaded', () => {
   border: 2px solid rgba(0,0,0,0.35);
 }
 
-/* Banner text */
+/* Banner text with glitter effect */
+/* Note: .amaa-banner-text is positioned so ::before and ::after can layer correctly */
 .amaa-banner-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;                 /* ensures text sits above pseudo layers */
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
   padding: 0.5rem 1rem;
   max-width: 90%;
-  background: rgba(0, 60, 255, 0.30); /* NEW royal blue transparent background */
   border-radius: 6px;
   text-shadow: 0 0 10px rgba(0,0,0,0.7);
   white-space: nowrap;
+  overflow: hidden;           /* clip pseudo-elements to rounded box */
+}
+
+/* Glitter layer (middle) */
+.amaa-banner-text::before {
+  content: "";
+  position: absolute;
+  inset: 0;                   /* full coverage of the text box */
+  z-index: 1;                 /* above background, below text */
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.45), transparent 60%),
+    radial-gradient(circle at 80% 70%, rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.25), transparent 70%);
+  animation: sparkleMove 6s ease-in-out infinite alternate;
+  border-radius: inherit;
+}
+
+/* Solid / translucent background layer (bottom) */
+.amaa-banner-text::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;                 /* bottom-most layer inside the box */
+  background: rgba(0, 60, 255, 0.30); /* royal blue transparent */
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+@keyframes sparkleMove {
+  0%   { transform: translateY(-3px); opacity: 0.8; }
+  100% { transform: translateY(3px);  opacity: 1; }
 }
 
 /* Compact height on desktop, without clipping the border */
@@ -295,6 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
     padding: 0.35rem 0.6rem;
   }
 }
+  
 /* Sticky-note biography card */
 .bio-note-card {
   background: #fff8dc;
