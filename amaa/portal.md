@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
   display: block;
   border-radius: 6px;
   object-fit: cover;
-  border: 2px solid rgba(0,0,0,0.35);
+  border: 4px ridge rgba(0,0,0,0.35);
 }
 
 /* Banner text */
