@@ -184,9 +184,6 @@ document.addEventListener('DOMContentLoaded', () => {
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ----------------------
-     FLOWER BURST EFFECT
-  -----------------------*/
   const flowerTrigger = document.querySelector('.amaa-banner-flower');
   if (flowerTrigger) {
 
@@ -194,32 +191,38 @@ document.addEventListener('DOMContentLoaded', () => {
       "🌸","🌺","🌼","🌷","🌻","💐",
       "🌹","🥀","💮","🏵️",
       "🌾","🌿","🍃","🍂","🍀","🌱",
-      "✨"
+      "✨","💫","⭐","❇️"
     ];
 
     function spawnFlower() {
       const flower = document.createElement('div');
       flower.className = 'floating-flower';
+
+      // random emoji
       flower.textContent = flowers[Math.floor(Math.random() * flowers.length)];
 
-      // start near trigger
-      const bbox = flowerTrigger.getBoundingClientRect();
-      flower.style.left = (bbox.left + bbox.width/2) + 'px';
-      flower.style.top = (bbox.top + window.scrollY + bbox.height/2) + 'px';
+// start at true screen centre (not the narrow column)
+flower.style.left = (window.innerWidth / 2) + 'px';
+flower.style.top = (window.innerHeight / 2 + window.scrollY) + 'px';
 
-      // full-direction randomisation (-1 to +1)
+      // full 360° random directions
       flower.style.setProperty('--rand-x', (Math.random() * 2 - 1));
       flower.style.setProperty('--rand-y', (Math.random() * 2 - 1));
 
+      // random size boost
+      const size = 1.2 + Math.random() * 1.2;
+      flower.style.setProperty('--scale', size);
+
       document.body.appendChild(flower);
 
-      // extended lifetime for slower animation
-      setTimeout(() => flower.remove(), 6000);
+      // lifetime extended
+      setTimeout(() => flower.remove(), 8000);
     }
 
     function burst() {
-      for (let i = 0; i < 80; i++) {         // ⬅️ TRIPLED FLOWERS
-        setTimeout(spawnFlower, i * 35);    // ⬅️ Faster stagger, premium effect
+      // SUPER BURST: massive amount, instant firing
+      for (let i = 0; i < 220; i++) {
+        setTimeout(spawnFlower, i * 10);
       }
     }
 
@@ -472,29 +475,37 @@ main h1:first-child {
   position: absolute;
   font-size: 1.8rem;
   pointer-events: none;
- animation: flowerFloat 5s ease-out forwards;
+ animation: flowerFloat 8s ease-out forwards;
   opacity: 0.9;
 }
   
 @keyframes flowerFloat {
   0% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(var(--scale));
     opacity: 1;
   }
 
-  40% {
+  35% {
     transform: translate(
-      calc((-150px + 300px * var(--rand-x))),
-      calc((-150px + 300px * var(--rand-y)))
-    ) rotate(180deg) scale(1.15);
+      calc(250px * var(--rand-x)),
+      calc(250px * var(--rand-y))
+    ) rotate(180deg) scale(calc(var(--scale) * 1.25));
     opacity: 1;
+  }
+
+  70% {
+    transform: translate(
+      calc(600px * var(--rand-x)),
+      calc(600px * var(--rand-y))
+    ) rotate(360deg) scale(calc(var(--scale) * 0.9));
+    opacity: 0.9;
   }
 
   100% {
     transform: translate(
-      calc((-400px + 800px * var(--rand-x))),
-      calc((-400px + 800px * var(--rand-y)))
-    ) rotate(540deg) scale(0.8);
+      calc(900px * var(--rand-x)),
+      calc(900px * var(--rand-y))
+    ) rotate(720deg) scale(calc(var(--scale) * 0.6));
     opacity: 0;
   }
 }
