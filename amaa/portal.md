@@ -189,33 +189,37 @@ document.addEventListener('DOMContentLoaded', () => {
   -----------------------*/
   const flowerTrigger = document.querySelector('.amaa-banner-flower');
   if (flowerTrigger) {
-const flowers = [
-  "🌸","🌺","🌼","🌷","🌻","💐",
-  "🌹","🥀","💮","🏵️",
-  "🌾","🌿","🍃","🍂","🍀","🌱",
-  "✨"
-];
+
+    const flowers = [
+      "🌸","🌺","🌼","🌷","🌻","💐",
+      "🌹","🥀","💮","🏵️",
+      "🌾","🌿","🍃","🍂","🍀","🌱",
+      "✨"
+    ];
+
     function spawnFlower() {
       const flower = document.createElement('div');
       flower.className = 'floating-flower';
       flower.textContent = flowers[Math.floor(Math.random() * flowers.length)];
 
-      // random starting position near trigger
+      // start near trigger
       const bbox = flowerTrigger.getBoundingClientRect();
       flower.style.left = (bbox.left + bbox.width/2) + 'px';
       flower.style.top = (bbox.top + window.scrollY + bbox.height/2) + 'px';
 
-flower.style.setProperty('--rand-x', Math.random());
-flower.style.setProperty('--rand-y', Math.random());
-document.body.appendChild(flower);
+      // full-direction randomisation (-1 to +1)
+      flower.style.setProperty('--rand-x', (Math.random() * 2 - 1));
+      flower.style.setProperty('--rand-y', (Math.random() * 2 - 1));
 
-      // remove after animation
-      setTimeout(() => flower.remove(), 2000);
+      document.body.appendChild(flower);
+
+      // extended lifetime for slower animation
+      setTimeout(() => flower.remove(), 4500);
     }
 
     function burst() {
-      for (let i = 0; i < 18; i++) {
-        setTimeout(spawnFlower, i * 50);
+      for (let i = 0; i < 26; i++) {       // more petals for powerful effect
+        setTimeout(spawnFlower, i * 60);   // smoother stagger timing
       }
     }
 
@@ -478,14 +482,20 @@ main h1:first-child {
     transform: translate(0, 0) scale(1);
     opacity: 1;
   }
-  60% {
-    opacity: 1; /* stay visible longer */
+
+  40% {
+    transform: translate(
+      calc((-150px + 300px * var(--rand-x))),
+      calc((-150px + 300px * var(--rand-y)))
+    ) rotate(180deg) scale(1.15);
+    opacity: 1;
   }
+
   100% {
     transform: translate(
-      calc(-400px + 800px * var(--rand-x)),   /* huge horizontal travel */
-      calc(-400px - 1200px * var(--rand-y))   /* huge upward travel */
-    ) rotate(720deg) scale(0.5);
+      calc((-400px + 800px * var(--rand-x))),
+      calc((-400px + 800px * var(--rand-y)))
+    ) rotate(540deg) scale(0.8);
     opacity: 0;
   }
 }
