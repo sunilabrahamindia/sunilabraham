@@ -55,14 +55,14 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 
   <dt>📘 Major Publications:</dt>
   <dd>
-    <ul>
-      <li>The Sacred in Popular Hinduism* (1983)</li>
-      <li>Swami Anand Thirth* (1987)</li>
-      <li>The Dalit Desiyata* (1990)</li>
-      <li>Dalit Kavithakal* (1992)</li>
-      <li>Dalit Sahityam* (1995)</li>
-      <li>Essays on Dalits, Religion and Liberation* (2006)</li>
-    </ul>
+  <ul>
+  <li><em>The Sacred in Popular Hinduism</em> (1983)</li>
+  <li><em>Swami Anand Thirth</em> (1987)</li>
+  <li><em>The Dalit Desiyata</em> (1990)</li>
+  <li><em>Dalit Kavithakal</em> (1992)</li>
+  <li><em>Dalit Sahityam</em> (1995)</li>
+  <li><em>Essays on Dalits, Religion and Liberation</em> (2006)</li>
+  </ul>
   </dd>
 
   <dt>👰‍♀️ Spouse:</dt>
