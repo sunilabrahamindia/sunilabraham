@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Christian Institute for the Study of Religion and Society (CISRS)
-categories: [Institutions, Christianity in India, Research]
+categories: [A. M. A. Ayrookuzhiel]
 description: An encyclopaedic overview of the Christian Institute for the Study of Religion and Society (CISRS), its origins, intellectual contributions, research traditions and legacy.
 permalink: /articles/cisrs/
 ---
