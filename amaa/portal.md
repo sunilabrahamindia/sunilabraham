@@ -476,8 +476,8 @@ main h1:first-child {
   }
   100% {
     transform: translate(
-      calc(-50px + 100px * var(--rand-x)),
-      calc(-80px - 80px * var(--rand-y))
+      calc(-200px + 400px * var(--rand-x)),   /* moves across full screen width */
+      calc(-200px - 600px * var(--rand-y))    /* moves high up the screen */
     ) rotate(360deg) scale(0.5);
     opacity: 0;
   }
