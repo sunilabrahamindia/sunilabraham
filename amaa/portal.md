@@ -215,7 +215,6 @@ document.addEventListener('DOMContentLoaded', () => {
   white-space: nowrap;
 }
 
-
 /* Compact height on desktop, without clipping the border */
 @media (min-width: 900px) {
   .amaa-banner {
@@ -352,8 +351,10 @@ document.addEventListener('DOMContentLoaded', () => {
 /* Image */
 .gallery-item img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  height: auto;          /* allow natural proportions */
+  max-height: 240px;     /* keeps grid tidy */
+  object-fit: cover;     /* still crops neatly if needed */
+  object-position: top;  /* keeps heads visible in portraits */
   display: block;
 }
 
