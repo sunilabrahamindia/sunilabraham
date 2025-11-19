@@ -104,9 +104,9 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 
 ## Gallery
 <!-- Extra flower trigger above gallery -->
-<div class="amaa-banner-flower" role="button" tabindex="0" aria-label="Flower effect">
+<div class="amaa-gallery-flower" role="button" tabindex="0" aria-label="Flower effect">
   🌼
-</div>
+</div>  
 <div class="amaa-gallery">
 
   <figure class="gallery-item">
@@ -188,53 +188,55 @@ document.addEventListener('DOMContentLoaded', () => {
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
-  const flowerTrigger = document.querySelector('.amaa-banner-flower');
-  if (flowerTrigger) {
+  const flowerTriggers = document.querySelectorAll('.amaa-banner-flower, .amaa-gallery-flower');
+  if (!flowerTriggers.length) return;
 
-    const flowers = [
-      "🌸","🌺","🌼","🌷","🌻","💐",
-      "🌹","🥀","💮","🏵️",
-      "🌾","🌿","🍃","🍂","🍀","🌱",
-      "✨","💫","⭐","❇️"
-    ];
+  const flowers = [
+    "🌸","🌺","🌼","🌷","🌻","💐",
+    "🌹","🥀","💮","🏵️",
+    "🌾","🌿","🍃","🍂","🍀","🌱",
+    "✨","💫","⭐","❇️"
+  ];
 
-    function spawnFlower() {
-      const flower = document.createElement('div');
-      flower.className = 'floating-flower';
+  function spawnFlower() {
+    const flower = document.createElement('div');
+    flower.className = 'floating-flower';
 
-      // random emoji
-      flower.textContent = flowers[Math.floor(Math.random() * flowers.length)];
+    // random emoji
+    flower.textContent = flowers[Math.floor(Math.random() * flowers.length)];
 
-// start at true screen centre (not the narrow column)
-flower.style.left = (window.innerWidth / 2) + 'px';
-flower.style.top = (window.innerHeight / 2 + window.scrollY) + 'px';
+    // start at true screen centre
+    flower.style.left = (window.innerWidth / 2) + 'px';
+    flower.style.top = (window.innerHeight / 2 + window.scrollY) + 'px';
 
-      // full 360° random directions
-      flower.style.setProperty('--rand-x', (Math.random() * 2 - 1));
-      flower.style.setProperty('--rand-y', (Math.random() * 2 - 1));
+    // random direction vector
+    flower.style.setProperty('--rand-x', Math.random() * 2 - 1);
+    flower.style.setProperty('--rand-y', Math.random() * 2 - 1);
 
-      // random size boost
-      const size = 1.2 + Math.random() * 1.2;
-      flower.style.setProperty('--scale', size);
+    // random size
+    const size = 1.2 + Math.random() * 1.2;
+    flower.style.setProperty('--scale', size);
 
-      document.body.appendChild(flower);
+    document.body.appendChild(flower);
 
-      // lifetime extended
-      setTimeout(() => flower.remove(), 8000);
-    }
-
-    function burst() {
-      // SUPER BURST: massive amount, instant firing
-      for (let i = 0; i < 220; i++) {
-        setTimeout(spawnFlower, i * 10);
-      }
-    }
-
-    flowerTrigger.addEventListener('click', burst);
-    flowerTrigger.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') burst();
-    });
+    setTimeout(() => flower.remove(), 8000);
   }
+
+  function burst() {
+    for (let i = 0; i < 220; i++) {
+      setTimeout(spawnFlower, i * 10);
+    }
+  }
+
+  flowerTriggers.forEach(trigger => {
+    trigger.addEventListener('click', burst);
+    trigger.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        burst();
+      }
+    });
+  });
 
 });
 </script>
@@ -508,6 +510,22 @@ main h1:first-child {
   animation: flowerFloat 8s ease-out forwards;
   opacity: 0.9;
 }
+/* Gallery flower button (separate from banner flower) */
+.amaa-gallery-flower {
+  display: block;
+  text-align: center;
+  font-size: 1.7rem;
+  cursor: pointer;
+  user-select: none;
+  margin: 1.2rem 0;
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.6));
+  transition: transform 0.25s ease;
+}
+
+.amaa-gallery-flower:hover {
+  transform: scale(1.25);
+}
+
   
 @keyframes flowerFloat {
   0% {
