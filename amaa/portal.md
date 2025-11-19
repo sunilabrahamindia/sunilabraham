@@ -14,6 +14,10 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
   <div class="amaa-banner-text">
     Portal:A. M. A. Ayrookuzhiel
   </div>
+    <!-- Flower trigger -->
+  <div class="amaa-banner-flower" role="button" tabindex="0" aria-label="Flower effect">
+    🌼
+  </div>
 </div>
 
 The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. This serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
@@ -175,6 +179,48 @@ document.addEventListener('DOMContentLoaded', () => {
       toggle();
     }
   });
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* ----------------------
+     FLOWER BURST EFFECT
+  -----------------------*/
+  const flowerTrigger = document.querySelector('.amaa-banner-flower');
+  if (flowerTrigger) {
+    const flowers = ["🌸","🌺","🌼","🌷","🌻","💐"];
+
+    function spawnFlower() {
+      const flower = document.createElement('div');
+      flower.className = 'floating-flower';
+      flower.textContent = flowers[Math.floor(Math.random() * flowers.length)];
+
+      // random starting position near trigger
+      const bbox = flowerTrigger.getBoundingClientRect();
+      flower.style.left = (bbox.left + bbox.width/2) + 'px';
+      flower.style.top = (bbox.top + window.scrollY + bbox.height/2) + 'px';
+
+flower.style.setProperty('--rand-x', Math.random());
+flower.style.setProperty('--rand-y', Math.random());
+document.body.appendChild(flower);
+
+      // remove after animation
+      setTimeout(() => flower.remove(), 2000);
+    }
+
+    function burst() {
+      for (let i = 0; i < 18; i++) {
+        setTimeout(spawnFlower, i * 50);
+      }
+    }
+
+    flowerTrigger.addEventListener('click', burst);
+    flowerTrigger.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') burst();
+    });
+  }
+
 });
 </script>
 
@@ -387,5 +433,45 @@ document.addEventListener('DOMContentLoaded', () => {
 /* Hide the auto-generated page title for this page only */
 main h1:first-child {
   display: none !important;
+}
+
+  /* Flower trigger button */
+.amaa-banner-flower {
+  position: absolute;
+  top: calc(50% + 45px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+   z-index: 9;
+}
+
+.amaa-banner-flower:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+/* Floating flower effect */
+.floating-flower {
+  position: absolute;
+  font-size: 1.8rem;
+  pointer-events: none;
+  animation: flowerFloat 2s ease-out forwards;
+  opacity: 0.9;
+}
+
+@keyframes flowerFloat {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(
+      calc(-50px + 100px * var(--rand-x)),
+      calc(-80px - 80px * var(--rand-y))
+    ) rotate(360deg) scale(0.5);
+    opacity: 0;
+  }
 }
 </style>
