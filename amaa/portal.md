@@ -100,6 +100,46 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
   <a href="/amaa/edrl" class="bio-note-button">See full entry →</a>
 </div>
 
+## Gallery
+
+<div class="amaa-gallery">
+
+  <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2001.jpeg"
+         alt="Photograph of A. M. A. Ayrookuzhiel 01">
+    <figcaption>Photograph 01</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2002.jpeg"
+         alt="Photograph of A. M. A. Ayrookuzhiel 02">
+    <figcaption>Photograph 02</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2003.jpeg"
+         alt="Photograph of A. M. A. Ayrookuzhiel 03">
+    <figcaption>Photograph 03</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2004.jpeg"
+         alt="Photograph of A. M. A. Ayrookuzhiel 04">
+    <figcaption>Photograph 04</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2005.jpeg"
+         alt="Photograph of A. M. A. Ayrookuzhiel 05">
+    <figcaption>Photograph 05</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2006.jpeg"
+         alt="Photograph of A. M. A. Ayrookuzhiel 06">
+    <figcaption>Photograph 06</figcaption>
+  </figure>
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
@@ -293,4 +333,56 @@ document.addEventListener('DOMContentLoaded', () => {
 .bio-details ul { margin: 0.2rem 0 0.6rem 0.6rem; padding-left: 0; }
 .bio-details ul li { margin-bottom: 0.2rem; }
 
+/* Gallery layout */
+.amaa-gallery {
+  max-width: 720px;
+  margin: 1.6rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+
+/* Each card */
+.gallery-item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+}
+
+/* Image */
+.gallery-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Caption */
+.gallery-item figcaption {
+  padding: 0.45rem 0.6rem;
+  font-size: 0.85rem;
+  color: #333;
+  text-align: center;
+  background: #fafafa;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+/* Tablet: 2 columns */
+@media (max-width: 900px) {
+  .amaa-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 600px) {
+  .amaa-gallery {
+    grid-template-columns: 1fr;
+  }
+  .gallery-item img {
+    height: 240px;
+  }
+}
 </style>
