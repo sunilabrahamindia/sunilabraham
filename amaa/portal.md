@@ -103,6 +103,10 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 </div>
 
 ## Gallery
+<!-- Extra flower trigger above gallery -->
+<div class="amaa-banner-flower" role="button" tabindex="0" aria-label="Flower effect">
+  🌼
+</div>
 <div class="amaa-gallery">
 
   <figure class="gallery-item">
@@ -447,7 +451,7 @@ main h1:first-child {
 /* Flower trigger button */
 .amaa-banner-flower {
   position: absolute;
-  top: calc(50% + 32px);          /* sits just below banner text */
+  top: calc(50% + 40px);          /* sits just below banner text */
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.9rem;              /* slightly larger flower */
@@ -464,7 +468,7 @@ main h1:first-child {
 /* Mobile: reduce gap so flower stays inside banner */
 @media (max-width: 600px) {
   .amaa-banner-flower {
-    top: calc(50% + 22px);
+    top: calc(50% + 28px);
     font-size: 1.6rem;            /* adjusted mobile size */
   }
 }
