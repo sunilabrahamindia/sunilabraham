@@ -102,42 +102,50 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 
 ## Gallery
 
+## Gallery
+
 <div class="amaa-gallery">
 
   <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2001.jpeg"
-         alt="Photograph of A. M. A. Ayrookuzhiel 01">
-    <figcaption>Photograph 01</figcaption>
+         alt="A young man in graduation robes and cap, standing formally and looking slightly to the side.">
+    <figcaption>Graduation portrait</figcaption>
   </figure>
 
   <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2002.jpeg"
-         alt="Photograph of A. M. A. Ayrookuzhiel 02">
-    <figcaption>Photograph 02</figcaption>
+         alt="Indoor scene with a man leaning forward, a woman behind him, and another man with a long beard looking at the camera.">
+    <figcaption>Early ministry gathering</figcaption>
   </figure>
 
   <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2003.jpeg"
-         alt="Photograph of A. M. A. Ayrookuzhiel 03">
-    <figcaption>Photograph 03</figcaption>
+         alt="A young man in graduation robes standing beside an older woman in a religious habit.">
+    <figcaption>Graduation portrait with mentor</figcaption>
   </figure>
 
   <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2004.jpeg"
-         alt="Photograph of A. M. A. Ayrookuzhiel 04">
-    <figcaption>Photograph 04</figcaption>
+         alt="Studio portrait of a young man in a suit, smiling warmly at the camera.">
+    <figcaption>Early studio portrait</figcaption>
   </figure>
 
   <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2005.jpeg"
-         alt="Photograph of A. M. A. Ayrookuzhiel 05">
-    <figcaption>Photograph 05</figcaption>
+         alt="Old family group photograph with adults and children, showing significant wear and fading.">
+    <figcaption>Family group photograph</figcaption>
   </figure>
 
   <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2006.jpeg"
-         alt="Photograph of A. M. A. Ayrookuzhiel 06">
-    <figcaption>Photograph 06</figcaption>
+         alt="A man in a suit standing beside a woman in a wedding sari and veil, both smiling.">
+    <figcaption>Wedding portrait</figcaption>
+  </figure>
+
+  <figure class="gallery-item">
+    <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png"
+         alt="Illustration-style black-and-white portrait of a man wearing glasses.">
+    <figcaption>Illustrated portrait</figcaption>
   </figure>
 </div>
 
