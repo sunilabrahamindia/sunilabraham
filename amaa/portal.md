@@ -445,67 +445,40 @@ main h1:first-child {
   display: none !important;
 }
 
-/* Flower trigger button */
+  /* Flower trigger button */
 .amaa-banner-flower {
   position: absolute;
-  top: calc(50% + 32px);
+  top: calc(50% + 32px);   /* sits just below banner text */
   left: 50%;
   transform: translateX(-50%);
-  font-size: 2rem; /* larger flower */
+  font-size: 1.5rem;
   cursor: pointer;
   user-select: none;
-  transition: transform 0.25s ease;
+  transition: transform 0.2s ease;
   z-index: 9;
-
-  /* NEW: background circle for visibility */
-  background: rgba(0, 0, 0, 0.35);
-  padding: 8px 12px;
-  border-radius: 50%;
-  backdrop-filter: blur(4px);
-
-  /* NEW: hover tooltip text */
-  position: relative;
 }
 
-.amaa-banner-flower:hover {
-  transform: translateX(-50%) scale(1.35);
-}
-
-/* Tooltip */
-.amaa-banner-flower:hover::after {
-  content: "Please click the flower";
-  position: absolute;
-  top: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(0,0,0,0.75);
-  color: #fff;
-  padding: 4px 8px;
-  border-radius: 6px;
-  font-size: 0.75rem;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 1;
-}
-
-/* Mobile: smaller + stays inside */
+/* Mobile: reduce gap so flower stays inside banner */
 @media (max-width: 600px) {
   .amaa-banner-flower {
     top: calc(50% + 22px);
-    font-size: 1.7rem;
-    padding: 6px 10px;
+    font-size: 1.3rem;
   }
 }
 
-/* Floating flower effect (required for animations) */
+.amaa-banner-flower:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+/* Floating flower effect */
 .floating-flower {
   position: absolute;
   font-size: 1.8rem;
   pointer-events: none;
-  animation: flowerFloat 8s ease-out forwards;
+ animation: flowerFloat 8s ease-out forwards;
   opacity: 0.9;
 }
-
+  
 @keyframes flowerFloat {
   0% {
     transform: translate(0, 0) scale(var(--scale));
