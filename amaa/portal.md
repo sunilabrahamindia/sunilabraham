@@ -438,14 +438,22 @@ main h1:first-child {
   /* Flower trigger button */
 .amaa-banner-flower {
   position: absolute;
-  top: calc(50% + 45px);
+  top: calc(50% + 32px);   /* sits just below banner text */
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.5rem;
   cursor: pointer;
   user-select: none;
   transition: transform 0.2s ease;
-   z-index: 9;
+  z-index: 9;
+}
+
+/* Mobile: reduce gap so flower stays inside banner */
+@media (max-width: 600px) {
+  .amaa-banner-flower {
+    top: calc(50% + 22px);
+    font-size: 1.3rem;
+  }
 }
 
 .amaa-banner-flower:hover {
