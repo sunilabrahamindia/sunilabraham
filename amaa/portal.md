@@ -388,4 +388,8 @@ document.addEventListener('DOMContentLoaded', () => {
     height: 240px;
   }
 }
+/* Hide the auto-generated page title for this page only */
+main h1:first-child {
+  display: none !important;
+}
 </style>
