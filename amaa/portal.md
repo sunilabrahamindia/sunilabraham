@@ -131,8 +131,13 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <style>
-/* Banner: remove overflow to avoid clipping image border */
-.amaa-banner { position: relative; width: 100%; max-width: 100%; margin: 0 auto 1.5rem; }
+/* Banner container */
+.amaa-banner {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 1.5rem;
+}
 
 /* Banner image */
 .amaa-banner img {
@@ -149,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
@@ -161,6 +166,24 @@ document.addEventListener('DOMContentLoaded', () => {
   text-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 
+/* Compact height on desktop, without clipping the border */
+@media (min-width: 900px) {
+  .amaa-banner {
+    max-height: 150px;
+  }
+  .amaa-banner img {
+    height: 150px;
+    object-fit: cover;
+  }
+}
+
+/* Keep banner title in a single line on mobile */
+@media (max-width: 600px) {
+  .amaa-banner-text {
+    font-size: 1.25rem;
+    padding: 0.35rem 0.6rem;
+  }
+}
 /* Sticky-note biography card */
 .bio-note-card {
   background: #fff8dc;
@@ -195,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
 .bio-note-button:hover { background: #f0d98e; box-shadow: 0 2px 4px rgba(0,0,0,0.15); }
 
 /* Collapsible wrapper */
-.collapse-box { max-width: 700px; margin: 1.2rem auto; }
+.collapse-box { max-width: 720px; margin: 1.2rem auto; }
 
 /* Header */
 .collapse-header {
