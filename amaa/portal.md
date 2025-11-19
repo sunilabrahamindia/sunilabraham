@@ -89,6 +89,17 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
   <a href="/amaa/" class="bio-note-button">Read full biography →</a>
 </div>
 
+## Major Works
+### Essays on Dalits, Religion and Liberation (2006)
+
+<div class="bio-note-card" role="region" aria-label="Summary of the book 'Essays on Dalits, Religion and Liberation'">
+  <div class="bio-note-pin" aria-hidden="true">📌</div>
+  <p>
+    <strong>Essays on Dalits, Religion and Liberation</strong> gathers A. M. A. Ayrookuzhiel's most important writings on caste, culture and faith. Across these essays he traces how religion has shaped Dalit life — at times as a tool of control, and at other times as a source of resilience and creativity. Drawing on stories, fieldwork and lived experience, the book reflects his lifelong effort to ground theology in the struggles and hopes of the oppressed.
+  </p>
+  <a href="/amaa/books/essays-on-dalits-religion-and-liberation/" class="bio-note-button">See full entry →</a>
+</div>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
