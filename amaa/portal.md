@@ -146,7 +146,6 @@ document.addEventListener("DOMContentLoaded", () => {
   width: 100%;
   max-width: 100%;
   margin: 0 auto 1.5rem auto;
-  overflow: hidden;
 }
 
 /* Mobile-first image styles */
