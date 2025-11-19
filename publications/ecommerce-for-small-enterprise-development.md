@@ -89,13 +89,13 @@ pdf: /publications/files/ecommerce-for-small-enterprises.pdf
 
 ## Abstract
 
-The handbook introduces the concept of eCommerce for small and micro-enterprises (MSEs) in developing countries. It explains how businesses can benefit from digital technologies in marketing, communication, and transactions. The authors propose a six-step ‘eCommerce ladder’ that starts from basic connectivity and communication, leading to full online transactions and integrated systems. The book provides practical guidance through advice sheets covering connectivity, email, website development, marketing, logistics, and legal issues. It also presents case studies demonstrating how small enterprises in Africa and Asia successfully use eCommerce tools to reach new markets.
+The handbook introduces the concept of eCommerce for small and micro-enterprises (MSEs) in developing countries. It explains how businesses can benefit from digital technologies in marketing, communication, and transactions. The authors propose a six-step 'eCommerce ladder' that starts from basic connectivity and communication, leading to full online transactions and integrated systems. The book provides practical guidance through advice sheets covering connectivity, email, website development, marketing, logistics, and legal issues. It also presents case studies demonstrating how small enterprises in Africa and Asia successfully use eCommerce tools to reach new markets.
 
 {% include back-to-top.html %}
 
 ## Context and Background
 
-Developed as part of the eComm4Dev initiative supported by DFID’s Building Digital Opportunities (BDO) programme, the handbook was designed to provide practical, context-specific information for entrepreneurs and business support agencies. It builds on research by IDPM on ICTs for development and small enterprise digital strategies. The publication aims to make eCommerce accessible to small business owners operating in low-resource settings, using real examples and simple frameworks.
+Developed as part of the eComm4Dev initiative supported by DFID's Building Digital Opportunities (BDO) programme, the handbook was designed to provide practical, context-specific information for entrepreneurs and business support agencies. It builds on research by IDPM on ICTs for development and small enterprise digital strategies. The publication aims to make eCommerce accessible to small business owners operating in low-resource settings, using real examples and simple frameworks.
 
 ## Key Themes or Arguments
 
