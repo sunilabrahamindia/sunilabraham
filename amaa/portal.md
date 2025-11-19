@@ -542,13 +542,13 @@ main h1:first-child {
 }
 /* Gallery flower button (separate from banner flower) */
 .amaa-gallery-flower {
-  position: relative;       /* IMPORTANT — missing */
+  position: relative;
   display: block;
   text-align: center;
   font-size: 1.7rem;
   cursor: pointer;
   user-select: none;
-  margin: 1.2rem 0;
+  margin: 1.2rem 0 0.4rem 0;  /* reduce bottom margin */
   filter: drop-shadow(0 0 5px rgba(255,255,255,0.6));
   transition: transform 0.25s ease;
 }
