@@ -1,4 +1,4 @@
-# Sunil Abraham Documentation Project
+# The Sunil Abraham Project
 
 Welcome to the documentation repository of Sunil Abraham.  
 This project serves as an open collection of notes, essays, research material, and documentation, presented in a clear and accessible format.
