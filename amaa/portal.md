@@ -297,20 +297,20 @@ document.addEventListener('DOMContentLoaded', () => {
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
   text-align: center;
   padding: 0.6rem 1.2rem;
   max-width: 90%;
+  white-space: nowrap;
 
-  /* sky blue, subtle */
-  background: rgba(80, 160, 255, 0.35);
+  /* lighter, jolly, autumn-morning sky blue */
+  background: rgba(150, 210, 255, 0.45);
 
   /* soft oval shape */
   border-radius: 40px;
 
   /* gentle glow for readability */
   box-shadow: 0 0 12px rgba(0,0,0,0.35);
-
   text-shadow: 0 0 8px rgba(0,0,0,0.6);
 }
 
@@ -333,6 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
     white-space: nowrap; 
     border-radius: 999px;
     max-width: 95%;
+    line-height: 1.3;
   }
 }
   
