@@ -401,6 +401,9 @@ document.addEventListener('DOMContentLoaded', () => {
 /* Arrow */
 .collapse-header .arrow {
   transition: transform 0.25s ease;
+  font-size: 1.3rem;   /* larger arrow */
+  line-height: 1;      /* prevents header height from increasing */
+  display: inline-block; /* stabilises alignment */
 }
 
 /* Content panel */
