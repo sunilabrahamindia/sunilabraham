@@ -620,18 +620,18 @@ main h1:first-child {
 
 /* Assign different tilts per card */
 .bio-note-card:nth-of-type(1) {
-  --note-tilt: -2.5deg;
+  --note-tilt: -0.5deg;
 }
 .bio-note-card:nth-of-type(2) {
-  --note-tilt: 2.8deg;
+  --note-tilt: 0.8deg;
 }
 .bio-note-card:nth-of-type(3) {
-  --note-tilt: -3.6deg;
+  --note-tilt: -0.6deg;
 }
 .bio-note-card:nth-of-type(4) {
-  --note-tilt: 2.2deg;
+  --note-tilt: 0.2deg;
 }
 .bio-note-card:nth-of-type(5) {
-  --note-tilt: -1.8deg;
+  --note-tilt: -0.8deg;
 }
 </style>
