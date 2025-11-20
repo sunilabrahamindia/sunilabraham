@@ -608,7 +608,7 @@ main h1:first-child {
   }
 }
 
-/* Enhanced sticky-note look */
+/* Refined sticky-note look */
 .bio-note-card {
   position: relative;
   background: #fff8dc;
@@ -632,18 +632,17 @@ main h1:first-child {
   box-shadow: 0 8px 14px rgba(0,0,0,0.18);
 }
 
-/* Tape effect at the top */
-.bio-note-card::before {
+/* Subtle paper curl shadow at bottom */
+.bio-note-card::after {
   content: "";
   position: absolute;
-  top: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90px;
-  height: 22px;
-  background: rgba(255, 244, 150, 0.85);
-  border-radius: 3px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  bottom: -6px;
+  left: 12%;
+  width: 76%;
+  height: 10px;
+  background: rgba(0,0,0,0.12);
+  filter: blur(6px);
+  border-radius: 50%;
   pointer-events: none;
 }
 </style>
