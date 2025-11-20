@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Christian Institute for the Study of Religion and Society (CISRS)
+title: Christian Institute for the Study of Religion and Society
 categories: [A. M. A. Ayrookuzhiel]
 description: An encyclopaedic overview of the Christian Institute for the Study of Religion and Society (CISRS), its origins, intellectual contributions, research traditions and legacy.
 permalink: /articles/cisrs/
@@ -31,7 +31,7 @@ Over time, commentators have described the Institute's work as moving towards wh
 
 ## Inter-Faith Dialogue
 
-Scholars associated with CISRS, including P. D. Devanandan, examined the development of modern Hindu movements and emerging religious trends in India. The Institute's work in this area emphasised engagement based on shared civic concerns instead of doctrinal comparisons. This approach influenced what later came to be termed the “dialogue of life”, focusing on everyday coexistence between communities.
+Scholars associated with CISRS, including P. D. Devanandan, examined the development of modern Hindu movements and emerging religious trends in India. The Institute's work in this area emphasised engagement based on shared civic concerns instead of doctrinal comparisons. This approach influenced what later came to be termed the "dialogue of life", focusing on everyday coexistence between communities.
 
 ## Dalit Theology and Caste Studies
 
