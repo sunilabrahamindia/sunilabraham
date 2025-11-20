@@ -285,8 +285,12 @@ document.addEventListener('DOMContentLoaded', () => {
   display: block;
   border-radius: 6px;
   object-fit: cover;
-  border: 4px ridge rgba(0,0,0,0.35);
-  pointer-events: none; !important;
+  border: 1px solid rgba(255,255,255,0.35);
+  box-shadow:
+      inset 0 0 6px rgba(0,0,0,0.28),
+      0 0 8px rgba(0,0,0,0.18);
+
+  pointer-events: none !important;
 }
 
 /* Banner text */
