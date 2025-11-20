@@ -6,7 +6,7 @@ categories: [A. M. A. Ayrookuzhiel]
 description: Overview of the 1966 paper presented at the Gregorian University on the motives of Mar Ivanios for reunion with the Catholic Church.
 ---
 
-**The Motives of Mar Ivanios for the Reunion with the Catholic Church** is a paper presented in 1966 to the Institute of Spiritual Theology of the Gregorian University. It was submitted in partial fulfilment of the requirements for a Diploma in Spiritual Science, under the direction of Rev. Fr. J. Masson for Bereme. The work examines the question of reunion as understood and articulated by Mar Ivanios, drawing together historical notes, theological points and spiritual reflections recorded in the study.
+**The Motives of Mar Ivanios for the Reunion with the Catholic Church**, written by Rev. A. M. A. Ayrookuzhiel, is a paper presented in 1966 to the Institute of Spiritual Theology of the Gregorian University. It was submitted in partial fulfilment of the requirements for a Diploma in Spiritual Science, under the direction of Rev. Fr. J. Masson for Bereme. The work examines the question of reunion as understood and articulated by Mar Ivanios, drawing together historical notes, theological points and spiritual reflections recorded in the study.
 
 The paper brings together material on the circumstances surrounding the Reunion Movement, the foundation of the Bethany Ashram, and the reasons identified by the author under historical, theological and spiritual headings. It is not a book-length narrative but a structured academic submission reflecting the author's attempt to present the motives that, according to the study, guided Mar Ivanios toward reunion with the Catholic Church.
 
