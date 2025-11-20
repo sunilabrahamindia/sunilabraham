@@ -607,4 +607,31 @@ main h1:first-child {
     opacity: 0;
   }
 }
+/* Slight rotation for sticky note cards */
+.bio-note-card {
+  transform: rotate(var(--note-tilt, 0deg));
+  transition: transform 0.25s ease;
+}
+
+/* Slight hover straighten */
+.bio-note-card:hover {
+  transform: rotate(0deg);
+}
+
+/* Assign different tilts per card */
+.bio-note-card:nth-of-type(1) {
+  --note-tilt: -2.5deg;
+}
+.bio-note-card:nth-of-type(2) {
+  --note-tilt: 2.8deg;
+}
+.bio-note-card:nth-of-type(3) {
+  --note-tilt: -3.6deg;
+}
+.bio-note-card:nth-of-type(4) {
+  --note-tilt: 2.2deg;
+}
+.bio-note-card:nth-of-type(5) {
+  --note-tilt: -1.8deg;
+}
 </style>
