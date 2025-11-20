@@ -20,7 +20,9 @@ description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrooku
   </div>
 </div>
 
-The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the life and work of Rev. A. M. A. Ayrookuzhiel. This serves as a single place to explore his biography, writings, research contributions, and the wider conversations his work shaped. This page links to primary texts, related articles, family archives, and other resources that help readers understand his ideas and the world he engaged with.
+The **A. M. A. Ayrookuzhiel Portal** serves as a central space for accessing all material related to his life, research and public work. It brings together biographical information, writings, archival resources and studies that help readers understand the themes and questions he engaged with over several decades. The portal is designed to make it easier for researchers, students and family members to explore his contributions without needing to search across different pages or categories.
+
+Beyond linking to individual publications, the portal also provides short summaries, context notes and curated references that highlight the areas he worked on, such as caste, culture, religion and social analysis. It functions as a structured guide to the available material, allowing readers to navigate his ideas, major texts and the wider conversations connected to his work in a clear and accessible manner.
 
 ## Biography
 
@@ -105,20 +107,19 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
 <div class="bio-note-card" role="region" aria-label="Summary of the book 'Swami Anand Thirth: Untouchability, Gandhian Solution on Trial'">
   <div class="bio-note-pin" aria-hidden="true">📌</div>
   <p>
-    <strong>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</strong> offers a clear and unromantic account of Swami Anand Thirth’s long struggle against caste discrimination in Kerala. Using the Swami’s own memoirs and personal papers, A. M. A. Ayrookuzhiel traces how Anand Thirth confronted exclusion in temples, markets and public life, and how these experiences tested the limits of Gandhian reform. The book presents a grounded picture of a reformer who worked with conviction, even as he learned that deep-rooted prejudice required more than goodwill or moral appeal to overcome.
+    <strong>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</strong> is a 1987 monograph written by A. M. A. Ayrookuzhiel. The book draws on Swami Anand Thirth's memoirs and personal papers to examine his decades of work challenging caste discrimination in Kerala. Ayrookuzhiel traces how the Swami confronted exclusion in temples, markets and public spaces, showing how these experiences revealed both the possibilities and the limits of Gandhian reform. The study offers a steady, evidence-based portrait of a reformer shaped by conviction and by the social realities he faced.
   </p>
   <a href="/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/" class="bio-note-button">See full entry →</a>
 </div>
 
 ## Related Articles
 
-<div class="bio-note-card" role="region" aria-label="Related article: CISRS overview">
+<div class="bio-note-card" role="region" aria-label="Summary of the institution 'Christian Institute for the Study of Religion and Society (CISRS)'">
   <div class="bio-note-pin" aria-hidden="true">📌</div>
   <p>
-    <strong>Christian Institute for the Study of Religion and Society (CISRS)</strong>  
-    A research centre in Bengaluru where A. M. A. Ayrookuzhiel carried out part of his work on caste, religion and culture. CISRS studies how belief, society and public life intersect in India, and its early research on Dalits, Adivasis and inter-faith engagement informed several themes he explored in his writing.
+    <strong>Christian Institute for the Study of Religion and Society (CISRS)</strong> is an ecumenical research centre that examines how religion, social life and public policy intersect in India. Since its founding in 1957, the Institute has brought together scholars, church leaders and activists to study issues such as caste, democracy, inter-faith relations and the experiences of marginalised communities. Its work combines theological reflection with social analysis, and has shaped conversations on political theology, Dalit studies and contemporary Christian engagement with public life.
   </p>
-  <a href="/articles/cisrs/" class="bio-note-button">Read the CISRS article →</a>
+  <a href="/articles/cisrs/" class="bio-note-button">See full entry →</a>
 </div>
 
 ## Gallery
