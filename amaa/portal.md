@@ -302,10 +302,20 @@ document.addEventListener('DOMContentLoaded', () => {
   padding: 0.6rem 1.2rem;
   max-width: 90%;
   white-space: nowrap;
-  background: #6EC6FF;
+
+  /* blue + gentle glitter */
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.6) 2px, transparent 3px),
+    radial-gradient(circle at 70% 60%, rgba(255,255,255,0.5) 2px, transparent 3px),
+    radial-gradient(circle at 40% 80%, rgba(255,255,255,0.5) 1.5px, transparent 3px),
+    radial-gradient(circle at 85% 25%, rgba(255,255,255,0.4) 2px, transparent 3px),
+    #6EC6FF;
+
+  background-size: 100% 100%;
+
   border-radius: 40px;
-  border: 1px solid rgba(255,255,255,0.4);  /* soft rim, looks premium */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.22);    /* crisp, not dreamy */
+  border: 1px solid rgba(255,255,255,0.4);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.22);
   text-shadow: 0 0 8px rgba(0,0,0,0.6);
 }
 
