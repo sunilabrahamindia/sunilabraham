@@ -3,17 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>{{ page.title }} | {{ site.title }}</title>
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- SEO -->
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-  <!-- Favicon -->
+  <!-- Open Graph (social sharing) -->
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {% else %}
+  <meta property="og:image" content="{{ '/assets/images/social-share-default.png' | absolute_url }}">
+  {% endif %}
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:site" content="@sunil_abraham">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/favicon.png' | relative_url }}">
-  <!-- Lightbox CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+<!-- Structured Data: WebSite + Organization + Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "The Sunil Abraham Project",
+  "alternateName": ["TSAP", "Sunil Abraham Project"],
+  "url": "https://sunilabraham.in/",
+  "publisher": {
+    "@type": "Person",
+    "name": "Sunil Abraham"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "The Sunil Abraham Project",
+  "url": "https://sunilabraham.in/",
+  "logo": "https://sunilabraham.in/assets/favicon.png",
+  "founder": {
+    "@type": "Person",
+    "name": "Sunil Abraham"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sunil Abraham",
+  "alternateName": ["S. Abraham", "Sunil A. Abraham"],
+  "url": "https://sunilabraham.in/",
+  "description": "Researcher and technologist, founder of The Sunil Abraham Project.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sunilabraham.in/"
+  },
+  "officialWebsite": "https://sunilabraham.in/",
+  "sameAs": [
+    "https://x.com/sunil_abraham",
+    "https://www.facebook.com/abrahamsunil",
+    "https://www.linkedin.com/in/sunilaabraham/"
+  ]
+}
+</script>
 </head>
 
 <body>
