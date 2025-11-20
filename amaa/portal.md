@@ -102,6 +102,14 @@ The **A. M. A. Ayrookuzhiel Portal** brings together all material related to the
   <a href="/amaa/edrl" class="bio-note-button">See full entry →</a>
 </div>
 
+<div class="bio-note-card" role="region" aria-label="Summary of the book 'Swami Anand Thirth: Untouchability, Gandhian Solution on Trial'">
+  <div class="bio-note-pin" aria-hidden="true">📌</div>
+  <p>
+    <strong>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</strong> offers a clear and unromantic account of Swami Anand Thirth’s long struggle against caste discrimination in Kerala. Using the Swami’s own memoirs and personal papers, A. M. A. Ayrookuzhiel traces how Anand Thirth confronted exclusion in temples, markets and public life, and how these experiences tested the limits of Gandhian reform. The book presents a grounded picture of a reformer who worked with conviction, even as he learned that deep-rooted prejudice required more than goodwill or moral appeal to overcome.
+  </p>
+  <a href="/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/" class="bio-note-button">See full entry →</a>
+</div>
+
 ## Related Articles
 
 <div class="bio-note-card" role="region" aria-label="Related article: CISRS overview">
