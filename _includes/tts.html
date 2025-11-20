@@ -1,0 +1,129 @@
+<!-- TTS LISTEN BUTTON -->
+<div class="tts-listen-box">
+  <button id="tts-button" class="tts-button" aria-label="Play or pause article audio">
+    🔊 Listen to this article
+  </button>
+</div>
+
+<style>
+/* Button container */
+.tts-listen-box {
+  margin: 0.5rem 0 1rem;
+}
+
+/* TTS Button */
+.tts-button {
+  background: #eef3fa;
+  border: 1px solid #cdd9e8;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.tts-button:hover { background: #e2e9f4; }
+
+/* Highlighting */
+.tts-highlight {
+  background: #fff3a3;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("tts-button");
+  if (!btn) return;
+
+  let utterance = null;
+  let isPlaying = false;
+  let sentences = [];
+  let currentIndex = -1;
+
+  // Basic sentence detection
+  function splitIntoSentences(text) {
+    return text.match(/[^\.!\?]+[\.!\?]+|\S+/g) || [];
+  }
+
+  function prepareText() {
+    const main = document.querySelector("main");
+    if (!main) return;
+
+    const text = main.innerText.trim();
+    sentences = splitIntoSentences(text);
+
+    // Wrap each sentence
+    const html = sentences
+      .map((s, i) => `<span class="tts-sentence" data-index="${i}">${s}</span>`)
+      .join(" ");
+
+    main.dataset.original = main.innerHTML; // store original for cleanup
+    main.innerHTML = html;
+  }
+
+  function highlightSentence(index) {
+    const all = document.querySelectorAll(".tts-sentence");
+    all.forEach(s => s.classList.remove("tts-highlight"));
+    const target = document.querySelector(`.tts-sentence[data-index="${index}"]`);
+    if (target) {
+      target.classList.add("tts-highlight");
+      target.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }
+
+  function restorePage() {
+    const main = document.querySelector("main");
+    if (main && main.dataset.original) {
+      main.innerHTML = main.dataset.original;
+    }
+  }
+
+  function startTTS() {
+    prepareText();
+    currentIndex = 0;
+
+    utterance = new SpeechSynthesisUtterance(sentences.join(" "));
+    utterance.lang = "en-IN";
+    utterance.rate = 1;
+
+    utterance.onboundary = (event) => {
+      if (event.name === "word") {
+        const spoken = utterance.text.substring(0, event.charIndex);
+        const approxIndex = splitIntoSentences(spoken).length - 1;
+
+        if (approxIndex !== currentIndex && approxIndex < sentences.length) {
+          currentIndex = approxIndex;
+          highlightSentence(currentIndex);
+        }
+      }
+    };
+
+    utterance.onend = () => {
+      btn.textContent = "🔊 Listen to this article";
+      isPlaying = false;
+      restorePage();
+    };
+
+    speechSynthesis.speak(utterance);
+    highlightSentence(0);
+  }
+
+  function stopTTS() {
+    speechSynthesis.cancel();
+    isPlaying = false;
+    btn.textContent = "🔊 Listen to this article";
+    restorePage();
+  }
+
+  btn.addEventListener("click", () => {
+    if (!isPlaying) {
+      isPlaying = true;
+      btn.textContent = "⏸ Pause reading";
+      startTTS();
+    } else {
+      stopTTS();
+    }
+  });
+});
+</script>
