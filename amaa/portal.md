@@ -112,6 +112,15 @@ Beyond linking to individual publications, the portal also provides short summar
   <a href="/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/" class="bio-note-button">See full entry →</a>
 </div>
 
+## Other Works
+<div class="bio-note-card" role="region" aria-label="Summary of the paper 'The Motives of Mar Ivanios for the Reunion with the Catholic Church'">
+  <div class="bio-note-pin" aria-hidden="true">📌</div>
+  <p>
+    <strong>The Motives of Mar Ivanios for the Reunion with the Catholic Church</strong> is a 1966 paper submitted to the Institute of Spiritual Theology at the Gregorian University. It outlines the historical, theological and spiritual reasons that, according to the study, shaped Mar Ivanios’ approach to the Reunion Movement. The paper presents these points under clearly defined headings without attempting a full historical narrative.
+  </p>
+  <a href="/amaa/mar-ivanios-reunion-motives/" class="bio-note-button">See full entry →</a>
+</div>
+
 ## Related Articles
 
 <div class="bio-note-card" role="region" aria-label="Summary of the institution 'Christian Institute for the Study of Religion and Society (CISRS)'">
