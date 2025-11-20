@@ -645,4 +645,55 @@ main h1:first-child {
   border-radius: 50%;
   pointer-events: none;
 }
+
+/* ---------------------------------------------
+   ELEGANT, MOBILE-SAFE GALLERY ENHANCEMENTS
+   --------------------------------------------- */
+
+/* Improve gallery card styling */
+.gallery-item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.10);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.07);
+  transition: box-shadow 0.18s ease;
+}
+
+/* Better captions */
+.gallery-item figcaption {
+  padding: 0.55rem 0.6rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #444;
+  background: #fafafa;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+/* Desktop-only hover effects */
+@media (hover: hover) and (pointer: fine) {
+  .gallery-item {
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+  }
+  .gallery-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    border-color: rgba(0,0,0,0.15);
+  }
+  .gallery-item img {
+    transition: transform 0.25s ease;
+  }
+  .gallery-item:hover img {
+    transform: scale(1.03);
+  }
+}
+
+/* Mobile behavior (no zoom, no lift) */
+@media (hover: none) and (pointer: coarse) {
+  .gallery-item:hover,
+  .gallery-item img:hover {
+    transform: none !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.07) !important;
+  }
+}
 </style>
