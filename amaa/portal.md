@@ -607,31 +607,43 @@ main h1:first-child {
     opacity: 0;
   }
 }
-/* Slight rotation for sticky note cards */
+
+/* Enhanced sticky-note look */
 .bio-note-card {
-  transform: rotate(var(--note-tilt, 0deg));
-  transition: transform 0.25s ease;
+  position: relative;
+  background: #fff8dc;
+  border: 1px solid #e1d4a8;
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  max-width: 720px;
+  margin: 1.4rem auto;
+  font-size: 0.97rem;
+  line-height: 1.55;
+  color: #3b3b3b;
+
+  /* Soft float and lift */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12),
+              0 1px 3px rgba(0,0,0,0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* Slight hover straighten */
 .bio-note-card:hover {
-  transform: rotate(0deg);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 14px rgba(0,0,0,0.18);
 }
 
-/* Assign different tilts per card */
-.bio-note-card:nth-of-type(1) {
-  --note-tilt: -0.5deg;
-}
-.bio-note-card:nth-of-type(2) {
-  --note-tilt: 0.8deg;
-}
-.bio-note-card:nth-of-type(3) {
-  --note-tilt: -0.6deg;
-}
-.bio-note-card:nth-of-type(4) {
-  --note-tilt: 0.2deg;
-}
-.bio-note-card:nth-of-type(5) {
-  --note-tilt: -0.8deg;
+/* Tape effect at the top */
+.bio-note-card::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 22px;
+  background: rgba(255, 244, 150, 0.85);
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  pointer-events: none;
 }
 </style>
