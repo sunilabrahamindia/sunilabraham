@@ -299,12 +299,19 @@ document.addEventListener('DOMContentLoaded', () => {
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   max-width: 90%;
-  background: rgba(0, 60, 255, 0.30); /* NEW royal blue transparent background */
-  border-radius: 6px;
-  text-shadow: 0 0 10px rgba(0,0,0,0.7);
-  white-space: nowrap;
+
+  /* sky blue, subtle */
+  background: rgba(80, 160, 255, 0.35);
+
+  /* soft oval shape */
+  border-radius: 40px;
+
+  /* gentle glow for readability */
+  box-shadow: 0 0 12px rgba(0,0,0,0.35);
+
+  text-shadow: 0 0 8px rgba(0,0,0,0.6);
 }
 
 /* Compact height on desktop, without clipping the border */
