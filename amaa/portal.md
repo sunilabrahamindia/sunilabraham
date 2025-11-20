@@ -328,10 +328,14 @@ document.addEventListener('DOMContentLoaded', () => {
 /* Keep banner title in a single line on mobile */
 @media (max-width: 600px) {
   .amaa-banner-text {
-    font-size: 1.25rem;
-    padding: 0.35rem 0.6rem;
+    font-size: 1.1rem;
+    padding: 0.28rem 0.65rem;
+    white-space: nowrap; 
+    border-radius: 999px;
+    max-width: 95%;
   }
 }
+  
 /* Sticky-note biography card */
 .bio-note-card {
   background: #fff8dc;
