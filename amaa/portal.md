@@ -302,15 +302,10 @@ document.addEventListener('DOMContentLoaded', () => {
   padding: 0.6rem 1.2rem;
   max-width: 90%;
   white-space: nowrap;
-
-  /* lighter, jolly, autumn-morning sky blue */
-  background: rgba(150, 210, 255, 0.45);
-
-  /* soft oval shape */
+  background: #6EC6FF;
   border-radius: 40px;
-
-  /* gentle glow for readability */
-  box-shadow: 0 0 12px rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.4);  /* soft rim, looks premium */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.22);    /* crisp, not dreamy */
   text-shadow: 0 0 8px rgba(0,0,0,0.6);
 }
 
