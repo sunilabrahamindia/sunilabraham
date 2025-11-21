@@ -147,13 +147,13 @@ Beyond linking to individual publications, the portal also provides short summar
   <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2001.jpeg"
          alt="A young man in graduation robes and cap, standing formally and looking slightly to the side.">
-    <figcaption>Graduation portrait</figcaption>
+    <figcaption>Graduation photograph</figcaption>
   </figure>
 
     <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2006.jpeg"
          alt="A man in a suit standing beside a woman in a wedding sari and veil, both smiling.">
-    <figcaption>Wedding portrait</figcaption>
+    <figcaption>Wedding photograph</figcaption>
   </figure>
   
     <figure class="gallery-item">
@@ -165,7 +165,7 @@ Beyond linking to individual publications, the portal also provides short summar
   <figure class="gallery-item">
     <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2005.jpeg"
          alt="Old family group photograph with adults and children, showing significant wear and fading.">
-    <figcaption>Family group photograph</figcaption>
+    <figcaption>Group photograph</figcaption>
   </figure>
 
   <figure class="gallery-item">
