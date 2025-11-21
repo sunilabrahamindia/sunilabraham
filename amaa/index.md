@@ -105,7 +105,9 @@ Many of his essays, first published in journals such as Religion and Society, we
 
 During his years in the United Kingdom, Rev. A. M. A. Ayrookuzhiel married Ponnamma Thekedath. The marriage took place while he was serving as a curate at St. Paul High Anglican Church, Wokingham, Berkshire, between 1970 and 1973.  
 
-The couple later settled in Bangalore, where Ayrookuzhiel continued his research and teaching work with the Christian Institute for the Study of Religion and Society (CISRS). They had three sons — [Sunil Abraham](https://sunilabraham.in/sunil/), Matthew Abraham, and Jacob Abraham. Sunil, the eldest, was born on 17 June 1973. The family home became a quiet centre of study and conversation, reflecting Ayrookuzhiel’s lifelong commitment to ideas and community.  
+The couple later settled in Bangalore, where Ayrookuzhiel continued his research and teaching work with the Christian Institute for the Study of Religion and Society (CISRS). They had three sons — [Sunil Abraham](https://sunilabraham.in/sunil/), Matthew Abraham, and Jacob Abraham. Sunil, the eldest, was born on 17 June 1973. Jacob Abraham was born on 5 March 1980 and married Vini Susan on 7 January 2012. 
+
+The family home became a quiet centre of study and conversation, reflecting Ayrookuzhiel's lifelong commitment to ideas and community.  
 
 Although deeply engaged in academic and ecclesial life, he maintained close family bonds, often referring in his letters to the balance between scholarship and family life as part of his vocation.
 
