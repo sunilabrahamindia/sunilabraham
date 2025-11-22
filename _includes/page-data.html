@@ -1,20 +1,15 @@
-<div class="page-info">
-  <p>
-    This page was created on 
-    <strong>{{ page.created | date: "%-d %B %Y" }}</strong>.  
-    You may <a href="https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}">view this page on GitHub</a> 
-    or see its <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/{{ page.path }}">raw source</a>.
-  </p>
-</div>
+<p class="page-info">
+  This page was created on 
+  <strong>{{ page.created | date: "%-d %B %Y" }}</strong>.  
+  You may <a href="https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}">view this page on GitHub</a> 
+  or see its <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/{{ page.path }}">raw source</a>.
+</p>
 
 <style>
 .page-info {
-  margin-top: 2em;
-  padding: 1em;
-  background: #f4f6f7;
-  border: 1px solid #ccd3d9;
-  border-radius: 8px;
-  font-size: 0.95em;
+  margin-top: 1em; /* smaller spacing */
+  font-size: 90%;
+  color: #333;
 }
 
 .page-info a {
