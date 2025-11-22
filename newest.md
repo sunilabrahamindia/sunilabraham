@@ -7,13 +7,15 @@ description: "Browse the latest website pages added to sunilabraham.in, sorted b
 created: 2025-11-22
 ---
 
-Welcome to the Newest Pages index for sunilabraham.in. This page helps you explore the most recently added content across the site, organised neatly by their actual creation date.  
+Welcome to the Newest Pages index for sunilabraham.in. This page helps you explore the most recently added content across the site, organised neatly by their actual creation date.
 
-As you continue adding `created:` dates to pages, this list will automatically grow and stay up to date. Use the sorting and month filters below to quickly browse the freshest additions.
+As you continue adding `created:` dates to pages, this list will automatically grow and stay up to date. Use the sorting and filter tools below to browse the freshest additions.
 
 ## Sort & Filter
 
 <div class="controls-box">
+
+  <!-- SORT -->
   <div class="sort-section">
     <span class="label">Sort by:</span>
     <button data-sort="newest">Newest</button>
@@ -22,11 +24,34 @@ As you continue adding `created:` dates to pages, this list will automatically g
     <button data-sort="random">Random</button>
   </div>
 
-  <div class="month-filter">
+  <!-- CATEGORY FILTER -->
+  <div class="category-filter" style="margin-top:1em;">
+    <label for="cat-select" class="label">Filter by Category:</label>
+    <select id="cat-select">
+      <option value="all">All Categories</option>
+
+      {% assign filtered = site.pages | where_exp: "p", "p.created" %}
+      {% assign catlist = "" | split: "," %}
+      {% for page in filtered %}
+        {% for c in page.categories %}
+          {% unless catlist contains c %}
+            {% assign catlist = catlist | push: c %}
+          {% endunless %}
+        {% endfor %}
+      {% endfor %}
+
+      {% assign sorted_cats = catlist | sort %}
+      {% for c in sorted_cats %}
+        <option value="{{ c | downcase }}">{{ c }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <!-- MONTH FILTER -->
+  <div class="month-filter" style="margin-top:1em;">
     <label for="month-select" class="label">Filter by Month:</label>
     <select id="month-select">
       <option value="all">All Months</option>
-      {% assign filtered = site.pages | where_exp: "p", "p.created" %}
       {% assign months = "" | split: "," %}
       {% for page in filtered %}
         {% assign m = page.created | date: "%Y-%m" %}
@@ -40,6 +65,7 @@ As you continue adding `created:` dates to pages, this list will automatically g
       {% endfor %}
     </select>
   </div>
+
 </div>
 
 ## Pages
@@ -48,10 +74,11 @@ As you continue adding `created:` dates to pages, this list will automatically g
 {% assign sorted = filtered | sort: "created" | reverse %}
 {% for page in sorted %}
   <li 
-    class="page-item" 
-    data-title="{{ page.title | downcase }}" 
-    data-created="{{ page.created }}" 
+    class="page-item"
+    data-title="{{ page.title | downcase }}"
+    data-created="{{ page.created }}"
     data-month="{{ page.created | date: "%Y-%m" }}"
+    data-cats="{{ page.categories | join: ',' | downcase }}"
   >
     <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
     <span class="created-date"> — {{ page.created | date: "%d %B %Y" }}</span>
@@ -60,7 +87,6 @@ As you continue adding `created:` dates to pages, this list will automatically g
 </ol>
 
 <style>
-/* Container styling */
 .controls-box {
   background: #eef2f7;
   border: 1px solid #cad2dd;
@@ -74,7 +100,6 @@ As you continue adding `created:` dates to pages, this list will automatically g
   margin-right: 0.5em;
 }
 
-/* Buttons */
 .sort-section button {
   margin-right: 0.5em;
   padding: 0.35em 0.75em;
@@ -90,11 +115,7 @@ As you continue adding `created:` dates to pages, this list will automatically g
   border-color: #0645ad;
 }
 
-/* Month filter */
-.month-filter {
-  margin-top: 1em;
-}
-
+#cat-select,
 #month-select {
   padding: 0.35em;
   border-radius: 6px;
@@ -102,17 +123,16 @@ As you continue adding `created:` dates to pages, this list will automatically g
   cursor: pointer;
   transition: 0.25s ease;
 }
+#cat-select:hover,
 #month-select:hover {
   border-color: #0645ad;
 }
 
-/* Pages list */
 .created-pages {
   padding-left: 1.4em;
   line-height: 1.6;
 }
 
-/* Animation for items */
 .page-item {
   opacity: 0;
   transform: translateY(5px);
@@ -120,8 +140,8 @@ As you continue adding `created:` dates to pages, this list will automatically g
 }
 
 .page-item a {
-  text-decoration: none;
   color: #0645ad;
+  text-decoration: none;
 }
 
 .page-item a:hover {
@@ -133,7 +153,6 @@ As you continue adding `created:` dates to pages, this list will automatically g
   font-size: 0.9em;
 }
 
-/* Fade-in animation */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
@@ -169,6 +188,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll('.sort-section button').forEach(btn => {
     btn.addEventListener('click', () => sortList(btn.dataset.sort));
+  });
+
+  /* CATEGORY FILTER */
+  const catSelect = document.getElementById('cat-select');
+  catSelect.addEventListener('change', () => {
+    const selected = catSelect.value;
+    items.forEach(item => {
+      const cats = item.dataset.cats.split(',');
+      if (selected === "all" || cats.includes(selected)) {
+        item.style.display = "";
+      } else {
+        item.style.display = "none";
+      }
+    });
   });
 
   /* MONTH FILTER */
