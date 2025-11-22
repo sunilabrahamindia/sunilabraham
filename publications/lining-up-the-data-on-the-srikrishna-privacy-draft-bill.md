@@ -7,7 +7,7 @@ date: 2018-07-30
 authors: ["Sunil Abraham"]
 source: "The Economic Times"
 permalink: /publications/lining-up-the-data-on-the-srikrishna-privacy-draft-bill/
-created: 2025-11-22
+created: 2025-11-15
 ---
 
 **Lining Up the Data on the Srikrishna Privacy Draft Bill** is an article by Sunil Abraham, published in *The Economic Times* on 30 July 2018. This article discusses the definitions of consent, necessity, proportionality and state exemptions in the Srikrishna Committee's draft data protection bill.
