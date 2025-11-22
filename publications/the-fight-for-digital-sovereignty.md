@@ -8,6 +8,7 @@ authors: ["Sunil Abraham"]
 source: "Economic & Political Weekly, Vol. XLVIII No. 42"
 permalink: /publications/the-fight-for-digital-sovereignty/
 pdf: 
+created: 2025-11-06
 ---
 
 **The Fight for Digital Sovereignty** was written by Sunil Abraham and published in the *Economic & Political Weekly* (Vol. XLVIII No. 42, 19 October 2013). The article argues that India must incorporate the principles of free and open source software into its governance and technology policies to protect privacy and maintain autonomy in the digital domain. Drawing from the global debate that followed Edward Snowden’s revelations about mass surveillance, Abraham explores how transparency in code, infrastructure, and standards can strengthen both freedom and security.
