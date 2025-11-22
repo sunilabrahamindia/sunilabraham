@@ -4,6 +4,7 @@ title: Christian Institute for the Study of Religion and Society
 categories: [A. M. A. Ayrookuzhiel]
 description: An encyclopaedic overview of the Christian Institute for the Study of Religion and Society (CISRS), its origins, intellectual contributions, research traditions and legacy.
 permalink: /articles/cisrs/
+created: 2025-11-20
 ---
 
 The **Christian Institute for the Study of Religion and Society** (CISRS) is an ecumenical research centre focused on the study of religion and its interaction with public life in India. Its work examines how belief systems, social structures and political processes shape one another, particularly in the areas of caste, democracy, inter-faith relations and marginalised communities. The Institute was founded in 1957 in Bengaluru with support from the National Council of Churches in India (NCCI).
