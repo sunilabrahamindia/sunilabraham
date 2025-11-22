@@ -7,6 +7,7 @@ date: 2015-01-01
 authors: ["Sunil Abraham"]
 source: "New Internationalist"
 permalink: /publications/privacy-vs-transparency/
+created: 2025-11-15
 ---
 
 **Privacy vs Transparency** is an article by Sunil Abraham published in *New Internationalist* on 1 January 2015. The article discusses the apparent conflict between the right to privacy and the right to transparency, arguing that the two are fully compatible when assessed through power asymmetries.
