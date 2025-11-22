@@ -7,6 +7,7 @@ date: 2010-01-12
 authors: ["Sunil Abraham"]
 source: "Mint"
 permalink: /publications/wikis-worth-on-a-different-turf/
+created: 2025-11-12
 ---
 
 **Wiki's Worth, on a Different Turf** is an article by Sunil Abraham, published in *Mint* on 12 January 2010. The piece discusses the emergence of Wikipedia research in India, focusing on Kiran Jonnalagadda and Hans Varghese Mathews' development of "Wiki Analysis", a tool to identify coordinated editing and expose astroturfing on Wikipedia. It examines global efforts to preserve neutrality and transparency in online collaborative platforms.
