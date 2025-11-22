@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Nirmita Narasimhan", "Beliappa", "Anandhi Vishwanath
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/availability-accessibility-government-information/
 pdf: /publications/files/availability-accessibility-government-information.pdf
+created: 2025-11-11
 ---
 
 **Availability and Accessibility of Government Information in the Public Domain** is a policy brief authored by Sunil Abraham**, Nirmita Narasimhan, Beliappa, and Anandhi Vishwanath, with inputs from Dipendra Manocha, Saksham, and Deepak Maheshwari (Symantec).  
