@@ -7,6 +7,7 @@ date: 2015-06-22
 authors: ["Sunil Abraham"]
 source: "Mint"
 permalink: /publications/the-generation-of-e-emergency/
+created: 2025-11-13
 ---
 
 **The Generation of e-Emergency** is an opinion article by Sunil Abraham, published in *Mint* on 22 June 2015. The column surveys contemporary censorship and surveillance techniques — from mass metadata collection to real-time content manipulation — and argues that democracies must recognise and resist next-generation controls that subvert open debate and public accountability.
