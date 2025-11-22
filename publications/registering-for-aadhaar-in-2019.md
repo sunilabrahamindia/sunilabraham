@@ -7,6 +7,7 @@ date: 2019-01-02
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/registering-for-aadhaar-in-2019/
+created: 2025-11-06
 ---
 
 **Registering for Aadhaar in 2019** is an opinion article by Sunil Abraham, published in *Business Standard* on 2 January 2019.  
