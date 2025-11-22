@@ -7,6 +7,7 @@ date: 2011-06-21
 authors: ["Sunil Abraham"]
 source: "Mail Today"
 permalink: /publications/privacy-and-security-can-co-exist/
+created: 2025-11-16
 ---
 
 **Privacy and Security Can Co-exist** is an opinion article by Sunil Abraham published in *Mail Today* on 21 June 2011. The column argues that privacy is not the enemy of security, but a prerequisite for it, and critiques the blanket surveillance enabled by the IT Act amendments and cybercafe rules. Abraham explains how excessive data retention and suspicion-driven systems undermine trust, weaken real security, and expose citizens and institutions to systemic vulnerabilities.
