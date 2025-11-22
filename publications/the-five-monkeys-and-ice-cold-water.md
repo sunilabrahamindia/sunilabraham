@@ -7,6 +7,7 @@ date: 2012-09-16
 authors: ["Sunil Abraham"]
 source: "Deccan Chronicle"
 permalink: /publications/the-five-monkeys-and-ice-cold-water/
+created: 2025-11-16
 ---
 
 **The Five Monkeys and Ice-Cold Water** is a newspaper column by Sunil Abraham published in *Deccan Chronicle* on 16 September 2012. The article contrasts India's global leadership on access-to-knowledge issues with its poor record on freedom of expression, highlighting how KYC mandates, data retention, real-time interception systems and overbroad IT Rules erode anonymity and chill legitimate speech. Abraham concludes with the ‘five monkeys’ parable to illustrate how surveillance and censorship norms become internalised, leading citizens to police themselves even without direct coercion.
