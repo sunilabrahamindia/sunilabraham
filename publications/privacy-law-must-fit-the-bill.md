@@ -7,6 +7,7 @@ date: 2013-09-09
 authors: ["Sunil Abraham"]
 source: "Deccan Chronicle"
 permalink: /publications/privacy-law-must-fit-the-bill/
+created: 2025-11-06
 ---
 
 **Privacy Law Must Fit the Bill** is an opinion column by Sunil Abraham, published in *Deccan Chronicle* on 9 September 2013.  
