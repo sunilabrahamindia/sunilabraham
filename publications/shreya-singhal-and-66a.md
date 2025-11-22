@@ -8,6 +8,7 @@ authors: ["Sunil Abraham"]
 source: "Economic & Political Weekly, Vol L, No 15"
 permalink: /publications/shreya-singhal-and-66a/
 pdf: /publications/files/shreya-singhal-and-66a.pdf
+created: 2025-11-04
 ---
 
 **Shreya Singhal and 66A: A Cup Half Full and Half Empty** is a detailed commentary by Sunil Abraham, published in the *Economic & Political Weekly* on 11 April 2015. The article critically examines the Supreme Court’s judgment in *Shreya Singhal vs Union of India (2015)* — a landmark case that struck down Section 66A of the Information Technology Act, 2000. It analyses how the judgment reshapes the contours of free speech online, the limits of state regulation, and the legal responsibilities of intermediaries in India’s digital ecosystem.
