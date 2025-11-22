@@ -4,6 +4,7 @@ title: "Swami Anand Thirth: Untouchability, Gandhian Solution on Trial"
 permalink: /amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/
 categories: [A. M. A. Ayrookuzhiel, Books]
 description: "A critical study by Rev. A. M. A. Ayrookuzhiel (1933–1996), examining the reform work of Swami Anand Thirth and evaluating the limits of the Gandhian model of eradicating untouchability in India."
+created: 2025-11-12
 ---
 
 ***Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*** (1987) is a scholarly monograph by Reverend [Athanasius Mathen Abraham Ayrookuzhiel](https://sunilabraham.in/amaa/) (A. M. A. Ayrookuzhiel) that analyses the social reform work of the Kerala-based Hindu monk Swami Anand Thirth. Published for the Christian Institute for the Study of Religion and Society (CISRS) by ISPCK, the book reconstructs Anand Thirth's lifelong struggle against untouchability and examines how his experiences reveal both the promise and the limits of the Gandhian approach to social reform.
