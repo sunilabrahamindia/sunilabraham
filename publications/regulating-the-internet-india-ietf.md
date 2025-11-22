@@ -8,6 +8,7 @@ authors: ["Aayush Rathi", "Gurshabad Grover", "Sunil Abraham"]
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/regulating-the-internet-india-ietf/
 pdf: /publications/files/regulating-the-internet-india-ietf.pdf
+created: 2025-11-09
 ---
 
 **Regulating the Internet: The Government of India and Standards Development at the IETF** is a detailed policy brief authored by Aayush Rathi, Gurshabad Grover, and Sunil Abraham, published by the Centre for Internet and Society (CIS), India, in November 2018 (updated December 2018).  
