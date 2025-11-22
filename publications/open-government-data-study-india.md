@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Glover Wright", "Pranesh Prakash", "Nishant Shah"]
 source: "Centre for Internet and Society (CIS)"
 permalink: /publications/open-government-data-study-india/
 pdf: /publications/files/open-government-data-study-india.pdf
+created: 2025-11-04
 ---
 
 **Report on Open Government Data in India** is a major policy study co-authored by Sunil Abraham, Glover Wright, Pranesh Prakash, and Nishant Shah, and published by the Centre for Internet and Society (CIS). The report provides an in-depth assessment of India’s open data ecosystem, analysing government initiatives, institutional practices, and the legal and policy frameworks that shape access to public data.
