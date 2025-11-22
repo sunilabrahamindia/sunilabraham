@@ -3,6 +3,7 @@ layout: default
 title: Ideas and Opinions
 categories: [Project pages, Ideas and Opinions]
 description: "Collection of key ideas and conceptual insights by Sunil Abraham on digital rights, technology regulation, and open knowledge. These short statements summarise emerging frameworks and positions developed through years of research and public engagement."
+created: 2025-11-08
 ---
 
 The **Ideas and Opinions** section presents a collection of key conceptual contributions by Sunil Abraham, expressed through short, accessible statements.  
