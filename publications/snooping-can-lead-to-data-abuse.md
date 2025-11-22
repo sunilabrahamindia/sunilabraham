@@ -8,6 +8,7 @@ authors: ["Sunil Abraham"]
 source: "Mail Today"
 permalink: /publications/snooping-can-lead-to-data-abuse/
 pdf: /publications/files/snooping-can-lead-to-data-abuse.pdf
+created: 2025-11-16
 ---
 
 **Snooping Can Lead to Data Abuse** is an article by Sunil Abraham published in *Mail Today* on 9 June 2011. It critiques NATGRID's blanket-surveillance design and argues that merging 21 government databases undermines, rather than strengthens, national security.
