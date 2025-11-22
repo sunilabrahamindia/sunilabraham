@@ -11,6 +11,7 @@ publisher: "Association for Progressive Communications (APC)"
 pages: "pp. 20–22"
 permalink: /publications/open-standards/
 pdf: /publications/files/open-standards.pdf
+created: 2025-11-07
 ---
 
 **Open Standards** is a chapter by Sunil Abraham published in *Global Information Society Watch 2008* (APC, 2008). It reviews policy and advocacy developments around open standards in ICT governance, arguing that open, royalty-free standards are essential to digital inclusion, innovation, and citizen autonomy.
