@@ -3,6 +3,7 @@ layout: default
 title: Disclaimer
 categories: [Project pages]
 description: "Disclaimer outlining the accuracy, scope, and responsibility of content published under the Sunil Abraham Project, clarifying that materials are for general informational purposes only."
+created: 2025-10-21
 ---
 
 This website and its related projects are part of the **Sunil Abraham Project**. While **Sunil Abraham** is actively involved in its vision, direction, and oversight, much of the content is created, edited, or contributed by associates, collaborators, and friends.
