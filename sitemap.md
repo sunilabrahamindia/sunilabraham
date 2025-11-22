@@ -7,9 +7,11 @@ description: "Complete list of all public pages, categories, and posts on sunila
 created: 2025-10-21
 ---
 
-Below is the complete sitemap of <strong>sunilabraham.in</strong>, divided into <em>Pages</em>, <em>Categories</em>, and <em>Posts</em> for easy browsing.
+Below is the complete sitemap of the <strong>Sunil Abraham Project</strong>, divided into <em>Pages</em>, <em>Categories</em>, and <em>Posts</em> for easy browsing.
 
 As of {{ site.time | date: "%-d %B %Y" }}, the site contains {{ site.pages | size }} pages and {{ site.posts | size }} blog posts. This does not include support files such as PDFs, images, scripts.
+
+To explore the newest pages on the site, open the [Newest Pages](/newest/){: .btn } list.
 
 <!-- =========================================================
      Pages (excluding categories and system pages) 
