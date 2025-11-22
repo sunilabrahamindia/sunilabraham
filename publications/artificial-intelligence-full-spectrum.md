@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Shweta Mohandas", "Mira Swaminathan", "Shweta Reddy"
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/artificial-intelligence-full-spectrum/
 pdf: /publications/files/artificial-intelligence-full-spectrum.pdf
+created: 2025-11-11
 ---
 
 **Artificial Intelligence: A Full-Spectrum Regulatory Challenge** is a policy brief authored by Sunil Abraham, with research contributions from Shweta Mohandas, Mira Swaminathan, and Shweta Reddy. Published by the Centre for Internet and Society (CIS) in October 2019, it presents a structured, domain-specific approach to regulating Artificial Intelligence (AI) in India and beyond.  
