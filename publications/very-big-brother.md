@@ -7,6 +7,7 @@ date: 2014-04-01
 authors: ["Sunil Abraham"]
 source: "GeneWatch"
 permalink: /publications/very-big-brother/
+created: 2025-11-06
 ---
 
 **Very Big Brother** is an article by Sunil Abraham, originally published in *GeneWatch* (January–April 2014). The piece explores the growing use of biometric technologies and their implications for privacy, accountability, and transparency in law enforcement and governance. It argues that robust privacy safeguards and open technological standards are essential to protect human rights in an age of machine-mediated decision-making.
