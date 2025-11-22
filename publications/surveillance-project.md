@@ -11,6 +11,7 @@ publisher: "Orient Blackswan"
 pages: "pp. 45–62"
 permalink: /publications/surveillance-project/
 pdf: /publications/files/surveillance-project.pdf
+created: 2025-11-06
 ---
 
 **Surveillance Project** is a book chapter by Sunil Abraham, published in *Dissent on Aadhaar: Big Data Meets Big Brother*, edited by Reetika Khera and published by Orient Blackswan in 2018. The chapter critically analyses the Aadhaar programme, arguing that its technological and legal architecture turns a welfare initiative into a mass surveillance project with deep implications for privacy, security, and equality.
