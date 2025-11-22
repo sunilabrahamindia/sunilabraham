@@ -203,6 +203,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Privacy and Security Can Co-exist"* — *Mail Today*, 2011.  
   [Read here](/publications/privacy-and-security-can-co-exist/){: .btn}
 
+- *"US Clampdown Worse than the Great Firewall"* — *Tehelka*, 2011.  
+  [Read here](/publications/us-clampdown-worse-than-the-great-firewall/){: .btn}
+
 - *"We Are Anonymous, We Are Legion"* — *The Hindu*, 2011.  
   [Read here](/publications/we-are-anonymous-we-are-legion/){: .btn}
 
@@ -225,6 +228,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 
 - *"Smartphones, Tablets and the Patent Wars"* — *The Economic Times*, 2012.  
   [Read here](/publications/smartphones-tablets-and-the-patent-wars/){: .btn}
+
+- *"Sense and Censorship"* — *Indian Express*, 2012.  
+  [Read here](/publications/sense-and-censorship/){: .btn}
 
 - *"The Five Monkeys and Ice-Cold Water"* — *Deccan Chronicle*, 2012.  
   [Read here](/publications/the-five-monkeys-and-ice-cold-water/){: .btn}
