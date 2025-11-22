@@ -7,6 +7,7 @@ date: 2011-04-18
 authors: ["Sunil Abraham"]
 source: "The Hindu"
 permalink: /publications/we-are-anonymous-we-are-legion/
+created: 2025-11-17
 ---
 
 **We Are Anonymous, We Are Legion** is an opinion article by Sunil Abraham published in *The Hindu* on 18 April 2011. This column argues that online anonymity is essential for democratic governance, whistle-blower protections, artistic freedom, investigative journalism, and resistance to surveillance.
