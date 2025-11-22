@@ -7,6 +7,7 @@ date: 2018-01-10
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/
+created: 2025-11-06
 ---
 
 **Fixing Aadhaar: Security developers' task is to trim chances of data breach** is an opinion piece by Sunil Abraham, originally published in *Business Standard* on 10 January 2018.  
