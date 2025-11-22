@@ -3,6 +3,7 @@ layout: default
 title: Projects
 categories: [Project pages]
 description: "Overview of ongoing and future projects under the Sunil Abraham Project, documenting open research, creative work, and reflections on technology, society, and culture."
+created: 2025-10-19
 ---
 
 The **Sunil Abraham Project** documents, studies, and archives a range of open research and creative work.  
