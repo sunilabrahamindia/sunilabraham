@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Elonnai Hickok", "Amber Sinha", "Swaraj Barooah", "S
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/niti-aayog-discussion-paper-ai-policy/
 pdf: /publications/files/niti-aayog-discussion-paper-ai-policy.pdf
+created: 2025-11-11
 ---
 
 **NITI Aayog Discussion Paper: An Aspirational Step Towards India's AI Policy** is a policy commentary authored by Sunil Abraham, Elonnai Hickok, Amber Sinha, Swaraj Barooah, Shweta Mohandas, Pranav M. Bidare, Swagam Dasgupta, Vishnu Ramachandran, and Senthil Kumar at the Centre for Internet and Society (CIS).  
