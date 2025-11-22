@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "That's the Unkindest Cut, Mr Sibal"
+title: "That's the Unkindest Cut, Mr. Sibal"
 description: "A Deccan Chronicle commentary by Sunil Abraham analysing pre-screening demands, intermediary liability, Section 66A, takedown abuse, constitutional limits, and the resilience of online speech."
 categories: [Media articles, Publications]
 date: 2011-12-11
@@ -10,7 +10,7 @@ permalink: /publications/thats-the-unkindest-cut-mr-sibal/
 created: 2025-11-22
 ---
 
-**That's the Unkindest Cut, Mr Sibal** is a commentary by Sunil Abraham published in the *Deccan Chronicle* on 11 December 2011. The article examines ministerial pressure on social media platforms to pre-screen user content, situates these demands within the framework of the IT Act and its amendments, and argues that online speech in India will endure despite escalating regulatory pressures.
+**That's the Unkindest Cut, Mr. Sibal** is a commentary by Sunil Abraham published in the *Deccan Chronicle* on 11 December 2011. The article examines ministerial pressure on social media platforms to pre-screen user content, situates these demands within the framework of the IT Act and its amendments, and argues that online speech in India will endure despite escalating regulatory pressures.
 
 ## Contents
 
@@ -45,21 +45,21 @@ created: 2025-11-22
 
 <p>Thanks to leaked reports about unpublicised meetings that communications minister Kapil Sibal had with social media operators – or Internet intermediaries, to use legalese — such as Facebook, Google and Indiatimes.com, censorship policy in India has gained public attention, and caused massive outrage.</p>
 
-<p>According to The New York Times India Ink reportage, quoting unnamed sources from the Internet intermediaries, Mr Sibal demanded proactive and pre-emptive screening of posts that people make on social media sites, ostensibly to filter out or remove “offensive” content and hate speech. In a television interview, however, the minister denied he wanted to censor what Indians thought and shared with others online.</p>
+<p>According to The New York Times India Ink reportage, quoting unnamed sources from the Internet intermediaries, Mr. Sibal demanded proactive and pre-emptive screening of posts that people make on social media sites, ostensibly to filter out or remove “offensive” content and hate speech. In a television interview, however, the minister denied he wanted to censor what Indians thought and shared with others online.</p>
 
 <p>One is tempted to believe him. He was, after all, the amicus for the landmark People’s Union of Civil Liberties (PUCL) wiretapping judgment of 1996, which is pivotal to protecting our civil liberties when using communication technology in India.</p>
 
-<p>Last week, though, Mr Sibal came out in public with his demands, saying that there was a lot of content that risked hurting the sensibilities of people and could lead to violence. “It was brought to my notice some of the images and content on platforms like Facebook, Twitter and Google are extremely offensive to the religious sentiments of people ...”We will not allow Indian sentiments and religious sentiments of large sections of the community to be hurt,” he said.</p>
+<p>Last week, though, Mr. Sibal came out in public with his demands, saying that there was a lot of content that risked hurting the sensibilities of people and could lead to violence. “It was brought to my notice some of the images and content on platforms like Facebook, Twitter and Google are extremely offensive to the religious sentiments of people ...”We will not allow Indian sentiments and religious sentiments of large sections of the community to be hurt,” he said.</p>
 
 <p>There was even a threat of state action if Internet companies did not comply with demands to screen content before it was posted online.</p>
 
-<p>The NYT blogpost said, however, quoting executives from the Internet companies Mr Sibal had reportedly met, that the minister showed them a Facebook page that maligned Congress president Sonia Gandhi and told them, “This is unacceptable.”</p>
+<p>The NYT blogpost said, however, quoting executives from the Internet companies Mr. Sibal had reportedly met, that the minister showed them a Facebook page that maligned Congress president Sonia Gandhi and told them, “This is unacceptable.”</p>
 
-<p>Google responded to Mr Sibal by releasing its Transparency Report, saying that out of 358 items that it had been requested to remove between January and June 2011, only eight requests pertained to hate speech, while as many as 255 complaints were against “government criticism”.</p>
+<p>Google responded to Mr. Sibal by releasing its Transparency Report, saying that out of 358 items that it had been requested to remove between January and June 2011, only eight requests pertained to hate speech, while as many as 255 complaints were against “government criticism”.</p>
 
-<p>Indian netizens raged against Mr Sibal, and very quickly #IdiotKapil Sibal was ‘trending’ on Twitter, with thousands posting comments against attempts to ‘censor’ Internet content. Much has changed, in Mr Sibal’s reckoning, between 1996 and 2011.</p>
+<p>Indian netizens raged against Mr. Sibal, and very quickly #IdiotKapil Sibal was ‘trending’ on Twitter, with thousands posting comments against attempts to ‘censor’ Internet content. Much has changed, in Mr. Sibal’s reckoning, between 1996 and 2011.</p>
 
-<p>So, what's all the fuss over 'pre-screening' and what's at stake here? Critics of Mr Sibal say, our freedom of speech and expression is under threat. They see a pattern in the way the government has sought to impose rules and restrictions on Internet and telecommunications players, with demands on BlackBerry-maker RIM to give it access to its users’ email and messenger content, on telecom players to install electronic surveillance equipment and let the government eavesdrop as it sees fit, and on the likes of Google and Yahoo to part with email content and users’ details.</p>
+<p>So, what's all the fuss over 'pre-screening' and what's at stake here? Critics of Mr. Sibal say, our freedom of speech and expression is under threat. They see a pattern in the way the government has sought to impose rules and restrictions on Internet and telecommunications players, with demands on BlackBerry-maker RIM to give it access to its users’ email and messenger content, on telecom players to install electronic surveillance equipment and let the government eavesdrop as it sees fit, and on the likes of Google and Yahoo to part with email content and users’ details.</p>
 
 <p>It all started with the amendments to the Information Tech-nology Act 2000 in 2008. Together, they constitute damaging consequences for citizens, including the creation of a multi-tier blanket surveillance regime, inappropriate security recommendations, and undermining freedom of speech and expression.</p>
 
@@ -89,7 +89,7 @@ created: 2025-11-22
 
 <p>In the single exception to the rule, one e-commerce portal refused to act upon a take-down notice trying to prevent the sale of diapers on the grounds that it was “harmful to minors”, rightly dismissing the notice as frivolous. But that exception simply proved a rule: Private intermediaries use their best lawyers to protect their commercial interests, but are highly risk-averse and do not value freedom of expression, unless it affects their bottomline.</p>
 
-<p>Proactive and pre-emptive screening of social media content, as Mr Sibal has demanded, will only further compromise online civil liberties in what’s already a dismal situation. In short, we move from a post-facto to a pre-emptive censorship regime.</p>
+<p>Proactive and pre-emptive screening of social media content, as Mr. Sibal has demanded, will only further compromise online civil liberties in what’s already a dismal situation. In short, we move from a post-facto to a pre-emptive censorship regime.</p>
 
 <p>In fact, given the magnitude of the task of pre-screening in a nation with a 100 million Internet users and growing, such an intense censorship regime will mean not only that what Indian citizens say or post will be censored by private companies, but those private companies will, in turn, use machines to screen what humans are saying and doing! After all, otherwise, companies would require armies of human censors to screen the millions of posts that are made on Twitter and Facebook every minute.</p>
 
@@ -99,7 +99,7 @@ created: 2025-11-22
 
 <p>Draconian crackdown on certain types of fringe content is likely to have the counterproductive result of the general society developing an unhealthy obsession for exactly such content. Despite the comprehensive censorship controls in Saudi Arabia, for instance, pornography consumption is rampant, usually accessed via pirated satellite TV and circulated using personal computing devices and mobile phones.</p>
 
-<p>But all is not lost yet, perhaps. Faced with the barrage of criticism, Mr Sibal has now called for public consultations on the issue of pre-screening content. There’s hope yet for freedom of speech and expression in India. Thanks to the Internet, a throwback to 1975 simply does not look possible.</p>
+<p>But all is not lost yet, perhaps. Faced with the barrage of criticism, Mr. Sibal has now called for public consultations on the issue of pre-screening content. There’s hope yet for freedom of speech and expression in India. Thanks to the Internet, a throwback to 1975 simply does not look possible.</p>
 
 </div>
 
