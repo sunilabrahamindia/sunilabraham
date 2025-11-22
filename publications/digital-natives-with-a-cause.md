@@ -7,6 +7,7 @@ date: 2010-12-06
 authors: ["Nishant Shah"]
 permalink: /publications/digital-natives-with-a-cause/
 pdf: /publications/files/digital-natives-with-a-cause.pdf
+created: 2025-11-08
 ---
 
 **Digital Natives with a Cause? — *Position Papers*** collects short, practice-rooted essays and case studies produced for the Thinkathon (6–8 December 2010) and edited by Nishant Shah with partners at Hivos. The booklet brings together contributions from scholars and practitioners across Asia, Africa and beyond to rethink the meaning of "digital native" and to document how young technology users pursue causes, make change, and sustain action in local and networked public spaces.
