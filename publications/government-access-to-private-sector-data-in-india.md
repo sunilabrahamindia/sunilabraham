@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Elonnai Hickok"]
 source: "International Data Privacy Law, Oxford University Press"
 permalink: /publications/government-access-to-private-sector-data-in-india/
 pdf: /publications/files/government-access-to-private-sector-data-in-india.pdf
+created: 2025-11-06
 ---
 
 **Government Access to Private-Sector Data in India** is a co-authored research paper by Sunil Abraham and Elonnai Hickok, published in *International Data Privacy Law* (Oxford University Press, Vol. 2, No. 4, 2012). The paper provides a comprehensive analysis of the legal and policy mechanisms through which the Indian government accesses data stored or managed by private organisations. It explores the tension between national security imperatives, privacy protection, and regulatory gaps within India’s evolving information ecosystem.
