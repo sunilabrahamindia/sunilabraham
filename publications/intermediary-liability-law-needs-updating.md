@@ -7,6 +7,7 @@ date: 2019-02-09
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/intermediary-liability-law-needs-updating/
+created: 2025-11-11
 ---
 
 **Intermediary Liability Law Needs Updating** is an opinion article by Sunil Abraham, published in *Business Standard* on 9 February 2019.  
