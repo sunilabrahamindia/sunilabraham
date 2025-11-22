@@ -133,7 +133,6 @@ The commentary therefore calls for a rights-based AI policy that aligns India’
 
 In summary, the NITI Aayog paper is an ambitious and valuable milestone — but to build an inclusive, ethical, and rights-respecting AI ecosystem, India’s AI strategy must evolve beyond aspiration to accountability.
 
-
 {% include back-to-top.html %}
 
 ## Full Text
