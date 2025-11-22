@@ -7,6 +7,7 @@ date: 2012-06-10
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/copyright-amendment-bad-but-could-have-been-much-worse/
+created: 2025-11-18
 ---
 
 **Copyright Amendment: Bad, but Could Have Been Much Worse** is an opinion article by Sunil Abraham published in *Business Standard* on 10 June 2012. The piece evaluates the Copyright (Amendment) Act, 2012, highlighting strong gains for accessibility, partial improvements in fair dealing, and several problematic provisions that restrict creativity, weaken online free speech and overprotect copyright holders.
