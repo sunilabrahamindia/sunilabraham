@@ -11,6 +11,7 @@ publisher: "Association for Progressive Communications"
 pages: "pp. 134–140"
 permalink: /publications/the-digital-protection-of-traditional-knowledge/
 pdf: /publications/files/the-digital-protection-of-traditional-knowledge.pdf
+created: 2025-11-06
 ---
 
 **The Digital Protection of Traditional Knowledge: Questions Raised by the Traditional Knowledge Digital Library in India** is a chapter co-authored by Sunil Abraham and Vidushi Marda, published in *Global Information Society Watch 2016* by the Association for Progressive Communications. The chapter examines the intersection between digital technologies, intellectual property regimes, and traditional knowledge systems — focusing on how India's Traditional Knowledge Digital Library (TKDL) attempts to preserve indigenous knowledge while raising new policy dilemmas around access, ownership, and data sovereignty.
