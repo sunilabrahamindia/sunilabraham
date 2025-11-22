@@ -7,6 +7,7 @@ date: 2014-03-14
 authors: ["Sunil Abraham"]
 source: "The Economic Times"
 permalink: /publications/privacy-worries-cloud-facebooks-whatsapp-deal/
+created: 2025-11-12
 ---
 
 **Privacy Worries Cloud Facebook's WhatsApp Deal** is an article by Sunil Abraham, published in *The Economic Times* on 14 March 2014.  
