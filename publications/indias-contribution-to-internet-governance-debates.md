@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Mukta Batra", "Geetha Hariharan", "Swaraj Barooah", 
 source: "Student Law Journal, National Law University Delhi"
 permalink: /publications/indias-contribution-to-internet-governance-debates/
 pdf: /publications/files/indias-contribution-to-internet-governance-debates.pdf
+created: 2025-11-03
 ---
 
 **India's Contribution to Internet Governance Debates** is a research paper written by Sunil Abraham, Mukta Batra, Geetha Hariharan, Swaraj Barooah, and Akriti Bopanna, and published in the *Student Law Journal* of the National Law University Delhi in 2018. The paper examines how India has shaped and responded to key debates on Internet governance at the global level. It traces the country’s engagement across multistakeholder and intergovernmental forums, situating these interventions within broader national and international developments. The study offers a grounded understanding of India's evolving digital diplomacy and its implications for global governance structures.
