@@ -3,6 +3,7 @@ layout: default
 title: "Sunil Abraham Timeline"
 categories: [Biographies, Sunil Abraham]
 description: "A chronological timeline of Sunil Abraham’s life, education, and professional milestones."
+created: 2025-11-08
 ---
 
 **Sunil Abraham** (born 17 June 1973) is an Indian technologist, researcher and public policy leader known for his work on open technologies, digital rights and Internet governance.  
