@@ -7,6 +7,7 @@ date: 2012-01-20
 authors: ["Sunil Abraham"]
 source: "Indian Express"
 permalink: /publications/sense-and-censorship/
+created: 2025-11-22
 ---
 
 **Sense and Censorship** is a commentary by Sunil Abraham published in the *Indian Express* on 20 January 2012. The article critiques SOPA and PIPA within the broader context of intellectual property enforcement, trade priorities, Internet governance, and intermediary regulation in India and the United States.
