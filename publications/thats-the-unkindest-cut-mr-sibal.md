@@ -7,6 +7,7 @@ date: 2011-12-11
 authors: ["Sunil Abraham"]
 source: "Deccan Chronicle"
 permalink: /publications/thats-the-unkindest-cut-mr-sibal/
+created: 2025-11-22
 ---
 
 **That's the Unkindest Cut, Mr Sibal** is a commentary by Sunil Abraham published in the *Deccan Chronicle* on 11 December 2011. The article examines ministerial pressure on social media platforms to pre-screen user content, situates these demands within the framework of the IT Act and its amendments, and argues that online speech in India will endure despite escalating regulatory pressures.
