@@ -7,6 +7,7 @@ date: 2019-08-26
 authors: ["Sunil Abraham"]
 source: "Prime Time"
 permalink: /publications/linking-aadhaar-social-media-encryption/
+created: 2025-11-11
 ---
 
 **Linking Aadhaar with Social Media or Ending Encryption is Counterproductive** is an opinion column by Sunil Abraham, published in *Prime Time* on 26 August 2019. The article analyses the policy debate surrounding the linking of Aadhaar numbers with social media accounts and the potential consequences of curbing encryption. Sunil Abraham argues that such moves would undermine privacy, national security, and technological sovereignty.
