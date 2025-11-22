@@ -4,6 +4,7 @@ title: Sitemap
 categories: [Project pages]
 permalink: /sitemap/
 description: "Complete list of all public pages, categories, and posts on sunilabraham.in, organised and linked for easy navigation and reference."
+created: 2025-10-21
 ---
 
 Below is the complete sitemap of <strong>sunilabraham.in</strong>, divided into <em>Pages</em>, <em>Categories</em>, and <em>Posts</em> for easy browsing.
