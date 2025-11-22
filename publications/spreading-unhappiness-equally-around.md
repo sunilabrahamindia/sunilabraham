@@ -7,6 +7,7 @@ date: 2018-07-31
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/spreading-unhappiness-equally-around/
+created: 2025-11-15
 ---
 
 **Spreading Unhappiness Equally Around** is an opinion article by Sunil Abraham, published in *Business Standard* on 31 July 2018. This column reviews reactions to the B. N. Srikrishna committee’s draft Personal Data Protection Bill, highlighting where civil society, industry and rights groups remain dissatisfied.
