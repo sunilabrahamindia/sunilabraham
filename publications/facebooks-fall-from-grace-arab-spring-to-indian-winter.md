@@ -7,6 +7,7 @@ date: 2016-02-09
 authors: ["Sunil Abraham"]
 source: "Firstpost"
 permalink: /publications/facebooks-fall-from-grace-arab-spring-to-indian-winter/
+created: 2025-11-11
 ---
 
 **Facebook's Fall From Grace: Arab Spring To Indian Winter** is an opinion column by Sunil Abraham, first published in *Firstpost* on 9 February 2016.  
