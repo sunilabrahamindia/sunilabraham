@@ -7,6 +7,7 @@ date: 2015-12-25
 authors: ["Sunil Abraham"]
 source: "Firstpost"
 permalink: /publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/
+created: 2025-11-06
 ---
 
 **The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics** is an opinion column by Sunil Abraham, published in *Firstpost* on 25 December 2015. The article argues that while evidence-based regulation is important, principle-based policymaking — grounded in non-discrimination, transparency, and fairness — is essential in ensuring equitable access and innovation on the Internet.
