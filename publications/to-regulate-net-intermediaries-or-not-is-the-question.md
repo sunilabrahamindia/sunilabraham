@@ -7,6 +7,7 @@ date: 2012-08-25
 authors: ["Sunil Abraham"]
 source: "Deccan Herald"
 permalink: /publications/to-regulate-net-intermediaries-or-not-is-the-question/
+created: 2025-11-18
 ---
 
 **To Regulate Net Intermediaries or Not Is the Question** is an opinion article by Sunil Abraham published in *Deccan Herald* on 25 August 2012. Written in the aftermath of the mass exodus of North-Eastern citizens from Indian cities, the article examines how censorship was implemented, what regulation of intermediaries is justified, and where existing laws already provide sufficient protection.
