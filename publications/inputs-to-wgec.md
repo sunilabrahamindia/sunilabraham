@@ -7,6 +7,7 @@ date: 2016-12-15
 authors: ["Sunil Abraham", "Vidushi Marda", "Pranesh Prakash"]
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/inputs-to-wgec/
+created: 2025-11-09
 ---
 
 **Inputs to the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet (WGEC)** was submitted by the Centre for Internet and Society (CIS) on 15 December 2016. The submission responds to the Working Group's invitation for inputs on two key questions guiding its January 2017 meeting: the high-level characteristics of enhanced cooperation, and possible recommendations building on the Tunis Agenda for the Information Society (paragraphs 69–71).
