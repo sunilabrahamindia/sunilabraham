@@ -7,6 +7,7 @@ date: 2015-03-26
 authors: ["Sunil Abraham"]
 source: "Deccan Chronicle"
 permalink: /publications/fear-uncertainty-and-doubt/
+created: 2025-11-06
 ---
 
 **Fear, Uncertainty and Doubt** is an opinion column by Sunil Abraham, published in *Deccan Chronicle* on 26 March 2015. The article addresses misconceptions following the Supreme Court’s Section 66A verdict, explaining that online speech in India continues to be regulated under several other laws, and highlighting the need for better drafting and participatory legislative processes.
