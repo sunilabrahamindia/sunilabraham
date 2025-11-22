@@ -7,6 +7,7 @@ date: 2014-05-10
 authors: ["Sunil Abraham"]
 source: "The Hindu Business Line"
 permalink: /publications/net-freedom-campaign-loses-its-way/
+created: 2025-11-12
 ---
 
 **Net Freedom Campaign Loses Its Way** is an article by Sunil Abraham, published in *The Hindu Business Line* on 10 May 2014. The piece critiques the outcomes of the global NetMundial conference, arguing that despite its participatory promise, the event fell short on protecting digital rights, curbing surveillance, and upholding principles of open and democratic Internet governance.
