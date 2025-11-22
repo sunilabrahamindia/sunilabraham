@@ -7,7 +7,7 @@ date: 2018-09-24
 authors: ["Sunil Abraham"]
 source: "Hindustan Times"
 permalink: /publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news/
-created: 2024-11-11
+created: 2025-11-11
 ---
 
 **A Trust Deficit Between Advertisers and Publishers is Leading to Fake News** is an opinion column by Sunil Abraham, first published in *Hindustan Times* on 24 September 2018.
