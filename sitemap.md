@@ -11,7 +11,7 @@ Below is the complete sitemap of the <strong>Sunil Abraham Project</strong>, div
 
 As of {{ site.time | date: "%-d %B %Y" }}, the site contains {{ site.pages | size }} pages and {{ site.posts | size }} blog posts. This does not include support files such as PDFs, images, scripts.
 
-To explore the newest pages on the site, open the [Newest Pages](/newest/){: .btn } list.
+To explore the newest pages on the site, please visit the [Newest Pages](/newest/){: .btn } list.
 
 <!-- =========================================================
      Pages (excluding categories and system pages) 
