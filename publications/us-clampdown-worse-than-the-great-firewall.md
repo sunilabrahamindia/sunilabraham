@@ -9,6 +9,7 @@ source: "Tehelka Magazine"
 volume: "Volume 8"
 issue: "Issue 50"
 permalink: /publications/us-clampdown-worse-than-the-great-firewall/
+created: 2025-11-22
 ---
 
 **US Clampdown Worse than the Great Firewall** is a commentary by Sunil Abraham published in *Tehelka Magazine*, Volume 8, Issue 50, on 17 December 2011. The article contrasts Chinese censorship with the global implications of proposed US legislation and argues that SOPA and PROTECT-IP would extend American control over Internet infrastructure with far-reaching effects for users, companies and jurisdictions worldwide.
