@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Vidushi Marda"]
 source: "Association for Progressive Communications (APC)"
 permalink: /publications/economic-social-cultural-rights-india/
 pdf: /publications/files/economic-social-cultural-rights-india.pdf
+created: 2025-11-08
 ---
 
 **Economic, Social and Cultural Rights in India: Access to Mobile Technology** is a policy research report co-authored by Sunil Abraham and Vidushi Marda, published by the Association for Progressive Communications (APC) in December 2016 as part of its three-year research project *Connecting Your Rights: Economic, Social and Cultural Rights (ESCRs) and the Internet*, supported by the International Development Research Centre (IDRC).  
