@@ -7,6 +7,7 @@ date: 2012-08-23
 authors: ["Sunil Abraham"]
 source: "Tehelka Magazine"
 permalink: /publications/censoring-the-internet-a-brief-manual/
+created: 2025-11-16
 ---
 
 **Censoring the Internet: A Brief Manual** is an article by Sunil Abraham published in *Tehelka* on 23 August 2012. Written during the period of concern around misinformation, communal tension and mass exodus of North-Eastern citizens, the article explains when and how speech should be restricted, why censorship must follow natural justice, and how intermediary liability rules often overreach.
