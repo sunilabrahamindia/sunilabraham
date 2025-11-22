@@ -8,6 +8,7 @@ authors: ["Elonnai Hickok", "Sumandro Chattapadhyay", "Sunil Abraham"]
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/big-data-in-governance-india/
 pdf: /publications/files/big-data-in-governance-india.pdf
+created: 2025-11-08
 ---
 
 **Big Data in Governance in India: Case Studies** is a major research report edited by Elonnai Hickok, Sumandro Chattapadhyay, and Sunil Abraham, and published by the Centre for Internet and Society (CIS) with support from the John D. and Catherine T. MacArthur Foundation.  
