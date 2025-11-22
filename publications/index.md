@@ -214,11 +214,17 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Copyright Amendment: Bad, but Could Have Been Much Worse"* — *Business Standard*, 2012.  
   [Read here](/publications/copyright-amendment-bad-but-could-have-been-much-worse/){: .btn}
 
+- *"Do We Need the Aadhar Scheme?"* — *Business Standard*, 2012.  
+  [Read here](/publications/do-we-need-the-aadhar-scheme/){: .btn}
+
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
   _An essay on the global evolution of openness and free software movements._
 
 - *"Online Censorship: How Government Should Approach Regulation of Speech"* — *The Economic Times*, 2012.  
   [Read here](/publications/online-censorship-how-government-should-approach-regulation-of-speech/){: .btn}
+
+- *"Smartphones, Tablets and the Patent Wars"* — *The Economic Times*, 2012.  
+  [Read here](/publications/smartphones-tablets-and-the-patent-wars/){: .btn}
 
 - *"The Five Monkeys and Ice-Cold Water"* — *Deccan Chronicle*, 2012.  
   [Read here](/publications/the-five-monkeys-and-ice-cold-water/){: .btn}
