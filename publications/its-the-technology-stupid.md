@@ -7,6 +7,7 @@ date: 2018-03-10
 authors: ["Sunil Abraham"]
 source: "The Hindu BusinessLine"
 permalink: /publications/its-the-technology-stupid/
+created: 2025-11-15
 ---
 
 **It's the Technology, Stupid** is an article by Sunil Abraham, published in *The Hindu BusinessLine* on 10 March 2018. The article appears with the subheading "11 reasons why Aadhaar is not just non-smart but also insecure", outlining structural flaws in Aadhaar's biometric design and explaining why biometrics are unsuitable for secure, citizen-centric e-governance systems.
