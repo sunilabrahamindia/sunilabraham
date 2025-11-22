@@ -3,6 +3,7 @@ layout: default
 title: "Authors Directory"
 description: "Browse all authors contributing to publications within the Sunil Abraham Project."
 categories: [Project pages]
+created: 2025-11-09
 ---
 
 This directory highlights authors who have collaborated with **Sunil Abraham** on various publications featured within this project.  
