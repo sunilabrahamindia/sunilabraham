@@ -8,6 +8,7 @@ authors: ["Satya N. Gupta", "Sunil Abraham", "Yelena Gyulkhandanyan"]
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/unlicensed-spectrum-policy/
 pdf: /publications/files/unlicensed-spectrum-policy.pdf
+created: 2025-11-11
 ---
 
 **Unlicensed Spectrum Policy for Government of India** is a telecom policy paper co-authored by Satya N. Gupta, Sunil Abraham, and Yelena Gyulkhandanyan, published under the CIS Telecom Policy Paper Series (2013).  
