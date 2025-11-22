@@ -7,6 +7,7 @@ date: 2012-01-28
 authors: ["Sunil Abraham"]
 source: "Tehelka Magazine"
 permalink: /publications/the-quixotic-fight-to-clean-up-the-web/
+created: 2025-11-16
 ---
 
 **The Quixotic Fight to Clean up the Web** is an opinion article by Sunil Abraham published in *Tehelka Magazine* (Vol 9, Issue 04) on 28 January 2012. This article critiques attempts to pre-screen online content, explores intermediary liability under the IT Act, and discusses why censorship drives users toward circumvention tools and criminal networks.
