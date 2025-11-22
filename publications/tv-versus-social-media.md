@@ -7,6 +7,7 @@ date: 2013-01-20
 authors: ["Sunil Abraham"]
 source: "The Tribune"
 permalink: /publications/tv-versus-social-media/
+created: 2025-11-16
 ---
 
 **TV versus Social Media: The Rights and Wrongs** is a guest column by Sunil Abraham published in *The Tribune* on 20 January 2013. The column examines arguments for regulating social media like broadcast television, critiques the 'principle of equivalence', and discusses the differing harms and regulatory needs for speech by public figures and ordinary citizens.
