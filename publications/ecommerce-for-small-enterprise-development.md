@@ -9,6 +9,7 @@ publisher: "Institute for Development Policy and Management (IDPM), University o
 pages: "Approx. 40 pages"
 permalink: /publications/ecommerce-for-small-enterprise-development/
 pdf: /publications/files/ecommerce-for-small-enterprises.pdf
+created: 2025-11-08
 ---
 
 **eCommerce for Small Enterprise Development** is a handbook authored by Richard Duncombe and Richard Heeks, with contributions from Robert Kintu, Barbara Nakangu and Sunil Abraham. Published by the Institute for Development Policy and Management (IDPM), University of Manchester in 2006, it serves as a guide for small and micro-enterprises in developing countries to understand and adopt eCommerce. The handbook presents a six-step 'eCommerce ladder', practical advice sheets, and case studies illustrating how digital tools can improve business performance and market access.
