@@ -7,6 +7,7 @@ date: 2010-08-23
 authors: ["Sunil Abraham"]
 source: "Indian Express"
 permalink: /publications/wherever-you-are-whatever-you-do/
+created: 2025-11-16
 ---
 
 **Wherever You Are, Whatever You Do** is a newspaper column by Sunil Abraham published in *Indian Express* on 23 August 2010. The article examines Facebook's launch of the location-based service Places and uses it to highlight wider concerns around geo-location tracking in India. Sunil Abraham contrasts telecom-based location logs, GPS systems and social networking platforms, and explains how weak privacy safeguards and intrusive defaults can expose citizens to profiling, surveillance, stalking and misuse.
