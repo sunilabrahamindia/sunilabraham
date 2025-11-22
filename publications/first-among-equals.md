@@ -12,6 +12,7 @@ pages: "pp. 352–388"
 isbn: "978-0-19-880537-3"
 permalink: /publications/first-among-equals/
 pdf: /publications/files/first-among-equals.pdf
+created: 2025-11-07
 ---
 
 **First Among Equals? The Role of the State in Facilitating Internet Access and Protecting the Freedom of Expression Online in the Global South** is a chapter by Sunil Abraham that assesses the state’s twin obligations: to foster affordable, inclusive Internet access and to protect freedom of expression online. Drawing on empirical studies, policy reports and legal developments, the chapter argues that while the state is necessary (and often indispensable) for expanding access in the Global South, it must act with restraint and robust safeguards when regulating speech and deploying surveillance.
