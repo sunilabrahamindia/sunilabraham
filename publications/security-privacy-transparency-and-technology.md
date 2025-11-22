@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Elonnai Hickok", "Tarun Krishnakumar"]
 source: "Digital Debates 2015: CyFy Journal, Volume 2, Observer Research Foundation"
 permalink: /publications/security-privacy-transparency-and-technology/
 pdf: /publications/files/security-privacy-transparency-and-technology.pdf
+created: 2025-11-04
 ---
 
 **Security: Privacy, Transparency and Technology** is a co-authored article by Sunil Abraham, Elonnai Hickok, and Tarun Krishnakumar. It was published in *Digital Debates 2015: CyFy Journal, Volume 2* by the Observer Research Foundation. The piece examines how governments, institutions, and private actors can achieve a balance between three core governance objectives — privacy, transparency, and security — in an era of rapid technological change.
