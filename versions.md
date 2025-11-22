@@ -14,7 +14,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 3. [Version 0.3](#version-03)
 4. [Version 0.3.1](#version-031)
 5. [Version 0.3.2](#version-032)
-
+6. [Version 0.4](#version-04)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -151,4 +151,49 @@ Version 0.3.2 continues the major content-building phase of the **Sunil Abraham 
 📅 **Completion Date:** 16 November 2025  
 🗃️ **Internet Archive:** [Archived Snapshot (16 Nov 2025)](https://web.archive.org/web/20251115231351/https://sunilabraham.in/)
 
+## Version 0.4
+
+Version 0.4 of the **Sunil Abraham Project** website continues the steady phase of expansion, refinement, and structural strengthening across key areas of the site. This release focuses on completing remaining publication entries, enhancing navigation tools, improving search visibility, and beginning a major new portal initiative.
+
+**🔢 Article and Page Milestone**
+- The site now contains 100 mainspace articles and 125 total pages.
+- This marks a notable growth point in the project's documentation and publishing phases.
+
+**📚 Publications Completion and Formatting**
+- Work progressed on adding the remaining publication entries and aligning earlier articles with the standard seven-part structure now used across the section.
+- Metadata cleanup continued, ensuring each article includes consistent formatting, clear descriptions, accurate categories, and full styling alignment.
+- Internal layout adjustments improved readability and visual flow across long-form publication pages.
+
+**🎲 Random Page Generator**
+- A new random-page generator was introduced, offering visitors an easy way to discover content from across the site.
+- Optional filters now allow selection from publications, portals, or media entries.
+- This feature supports browsing variety and increases engagement with lesser-visited pages.
+
+**🔎 Search Visibility and Indexing**
+- The updated sitemap.xml was submitted to Bing Webmaster Tools.
+- Indexing checks were performed to confirm coverage of both new and existing pages.
+- This marks another step in strengthening long-term search discoverability beyond Google alone.
+
+**🧱 Layout Enhancements and Structured Data**
+- The default layout was reinforced through the addition of structured data elements.
+- Canonical tags, Open Graph tags, Twitter cards, and a unified JSON-LD block were prepared and added to improve consistent presentation across search and social platforms.
+- These improvements lay the groundwork for better link previews and metadata uniformity.
+
+**📜 A. M. A. Ayrookuzhiel Portal Development**
+- Initial planning began for the A. M. A. Ayrookuzhiel Portal in advance of the 29 November 2025 commemoration.
+- Work included outlining structural sections, drafting page components, and preparing collapsible areas for readability.
+- Image galleries, related article clusters, and the broader navigational design framework were also initiated.
+- This effort will continue into the following week as content and layout expand.
+
+**📧 Email Setup**
+- The sitewide contact address using *sunilabraham@duck.com* was configured and confirmed operational.
+
+**🆕 Newest Pages Feature**
+- The Newest Pages system was refined to ensure accurate sorting by creation date.
+- Smooth animation behaviour, monthly filtering, and consistent metadata handling were implemented.
+- These improvements support tracking of new additions as the site continues to grow.
+
+✅ **Status:** Completed — Version 0.4 completed.  
+📅 **Completion Date:** 23 November 2025  
+🗃️ **Internet Archive:** [Archived Snapshot (22 Nov 2025)](https://web.archive.org/web/20251122201527/https://sunilabraham.in/)
 
