@@ -110,5 +110,9 @@ All content are released under the [Creative Commons Attribution–ShareAlike 4.
   display: block;
   pointer-events: none;
 }
-
+/* Hide title and breadcrumb ONLY on this page */
+main h1,
+main nav.breadcrumb {
+  display: none !important;
+}
 </style>
