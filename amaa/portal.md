@@ -40,7 +40,7 @@ Beyond linking to individual publications, the portal also provides short summar
       <dd>Athanasius Mathen Abraham Ayrookuzhiel</dd>
 
       <dt>📆 Born:</dt>
-      <dd>1933, Chengannur, Kerala, India</dd>
+      <dd>18 September 1933, Chengannur, Kerala, India</dd>
 
       <dt>✝️ Died:</dt>
       <dd>29 November 1996</dd>
