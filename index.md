@@ -1,7 +1,6 @@
 <div class="home-wrapper">
 <!-- 🔵 HERO SECTION -->
 <div class="hero-box">
-  <h1>Welcome to the knowledge sharing and documentation portal of Sunil Abraham</h1>
 
   **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.  
 
