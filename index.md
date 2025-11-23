@@ -5,10 +5,35 @@ description: "Knowledge sharing and documentation portal of Sunil Abraham: notes
 categories: [Project pages]
 created: 2025-10-19
 ---
-<div class="tsap-banner">
-  <img 
-    src="/assets/images/tsap-welcome-banner.png" 
-    alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
+<div class="tsap-banner tsap-banner--curved"
+     role="img"
+     aria-label="Graffiti-style banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless device, pendrive, laptop and communication tower on a brick wall.">
+
+  <!-- SVG curve definition -->
+  <svg width="0" height="0" aria-hidden="true">
+    <defs>
+      <clipPath id="tsap-curve" clipPathUnits="objectBoundingBox">
+        <path d="M0,0.12 C0.20,0.00 0.80,0.24 1,0.12 L1,1 L0,1 Z" />
+      </clipPath>
+    </defs>
+  </svg>
+
+  <!-- Banner image (must use class tsap-image) -->
+  <img class="tsap-image"
+       src="/assets/images/tsap-welcome-banner.png"
+       alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
+
+  <!-- Optional overlay -->
+  <svg class="tsap-overlay" viewBox="0 0 1000 180" preserveAspectRatio="none" aria-hidden="true">
+    <defs>
+      <linearGradient id="tsap-grad" x1="0" x2="1">
+        <stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/>
+        <stop offset="1" stop-color="#000000" stop-opacity="0.06"/>
+      </linearGradient>
+    </defs>
+    <path d="M0,0 C250,40 750,-10 1000,30 L1000,180 L0,180 Z" fill="url(#tsap-grad)" />
+  </svg>
+
 </div>
 
 **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.  
@@ -91,24 +116,43 @@ All content are released under the [Creative Commons Attribution–ShareAlike 4.
   /* =========================================================
    TSAP Home Banner (image only)
    ========================================================= */
+/* Curved TSAP Home Banner */
 .tsap-banner {
   position: relative;
   width: 100%;
   max-width: 100%;
   margin: 0 auto 1.5rem;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow:
+    inset 0 0 6px rgba(0,0,0,0.18),
+    0 0 10px rgba(0,0,0,0.12);
 }
 
-/* Banner image */
-.tsap-banner img {
+/* Image with curved clipPath */
+.tsap-image {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 6px;
   object-fit: cover;
-  border: 1px solid rgba(255,255,255,0.35);
-  box-shadow:
-      inset 0 0 6px rgba(0,0,0,0.28),
-      0 0 8px rgba(0,0,0,0.18);
+  -webkit-clip-path: url(#tsap-curve);
+  clip-path: url(#tsap-curve);
   pointer-events: none !important;
+}
+
+/* Overlay on top */
+.tsap-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 18%;
+  pointer-events: none;
+}
+
+@media (max-width: 700px) {
+  .tsap-overlay {
+    height: 20%;
+  }
 }
 </style>
