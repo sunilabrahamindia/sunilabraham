@@ -7,6 +7,7 @@ date: 2011-12-06
 authors: ["Financial Times (beyondbrics)", "Quotes: Sunil Abraham"]
 source: "Financial Times"
 permalink: /publications/indias-dreams-of-web-censorship/
+created: 2025-11-23
 ---
 
 **India's Dreams of Web Censorship** is a Financial Times beyondbrics blog post published on 6 December 2011, quoting Sunil Abraham on the feasibility and implications of proposed pre-screening of online content in India. The post addresses ministerial demands for proactive censorship, the scale of social media usage, and the risks posed by ambiguous restrictions on speech.
