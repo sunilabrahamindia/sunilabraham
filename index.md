@@ -5,6 +5,17 @@ description: "Knowledge sharing and documentation portal of Sunil Abraham: notes
 categories: [Project pages]
 created: 2025-10-19
 ---
+
+<div class="tsap-banner"
+     role="img"
+     aria-label="Graffiti-style banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless device, pendrive, laptop and communication tower on a brick wall.">
+  
+  <img class="tsap-image"
+       src="/assets/images/tsap-welcome-banner.png"
+       alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
+
+</div>
+
 **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.  
 
 The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.
@@ -80,3 +91,23 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 ## Licence
 
 All content are released under the [Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.
+
+<style>
+  /* Clean rectangle TSAP homepage banner */
+.tsap-banner {
+  width: 100%;
+  margin: 0 auto 1.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow:
+    inset 0 0 6px rgba(0,0,0,0.18),
+    0 0 10px rgba(0,0,0,0.12);
+}
+
+.tsap-banner img.tsap-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}
+</style>
