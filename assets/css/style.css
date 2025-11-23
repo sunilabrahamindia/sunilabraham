@@ -573,4 +573,15 @@ a.btn:focus {
   background-color: #006837;
   box-shadow: 0 0 0 3px rgba(0, 133, 77, 0.3);
 }
+/* Remove title + breadcrumb gap ONLY on homepage */
+.home main h1,
+.home main .breadcrumb {
+  display: none !important;
+}
+
+/* Also remove leftover margin where they were */
+.home main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 
