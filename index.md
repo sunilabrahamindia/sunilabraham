@@ -96,7 +96,7 @@ All content are released under the [Creative Commons Attribution–ShareAlike 4.
   /* Clean rectangle TSAP homepage banner */
 .tsap-banner {
   width: 100%;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 0.5rem;
   border-radius: 6px;
   overflow: hidden;
   box-shadow:
@@ -109,5 +109,11 @@ All content are released under the [Creative Commons Attribution–ShareAlike 4.
   height: auto;
   display: block;
   pointer-events: none;
+}
+@media (max-width: 600px) {
+  .tsap-banner img.tsap-image {
+    height: 180px;
+    object-fit: cover;
+  }
 }
 </style>
