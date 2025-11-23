@@ -198,8 +198,14 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Do You Want to Be Watched?"* — *Pragati*, 2011.  
   [Read here](/publications/do-you-want-to-be-watched/){: .btn}
 
+ - *"India's Dreams of Web Censorship"* — *Financial Times – beyondbrics*, 2011.  
+  [Read here](/publications/indias-dreams-of-web-censorship/){: .btn}
+
 - *"Snooping Can Lead to Data Abuse"* — *Mail Today*, 2011.  
   [Read here](/publications/snooping-can-lead-to-data-abuse/){: .btn}
+
+ - *"Photocopying the Past"* — *Indian Express*, 2011.  
+  [Read here](/publications/photocopying-the-past/){: .btn}
 
 - *"Privacy and Security Can Co-exist"* — *Mail Today*, 2011.  
   [Read here](/publications/privacy-and-security-can-co-exist/){: .btn}
