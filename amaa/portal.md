@@ -76,7 +76,7 @@ Beyond linking to individual publications, the portal also provides short summar
       <dd>
         <ul>
           <li>Sunil Abraham (born 17 June 1973)</li>
-          <li>Matthew Abraham</li>
+          <li>Matthew Abraham (born 3 January 1976)</li>
           <li>Jacob Abraham (born 5 March 1980)</li>
         </ul>
       </dd>
