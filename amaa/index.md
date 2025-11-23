@@ -6,7 +6,7 @@ description: Biography of Rev. Athanasius Mathen Abraham Ayrookuzhiel (A. M. A. 
 created: 2025-10-27
 ---
 
-**Athanasius Mathen Abraham Ayrookuzhiel** (known as **Reverend A. M. A. Ayrookuzhiel**) was (1933–1996) was an Indian theologian, priest, and scholar who contributed significantly to the fields of contextual theology, Dalit studies, and the sociology of religion. A committed churchman and academic, he combined spiritual reflection with social analysis, situating faith within the lived experiences of the marginalised. His work at the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) (CISRS) and his writings on caste, religion, and identity positioned him among the key thinkers of India's liberation theology movement.
+**Athanasius Mathen Abraham Ayrookuzhiel** (known as **Reverend A. M. A. Ayrookuzhiel**) was (18 September 1933 – 29 November 1996) was an Indian theologian, priest, and scholar who contributed significantly to the fields of contextual theology, Dalit studies, and the sociology of religion. A committed churchman and academic, he combined spiritual reflection with social analysis, situating faith within the lived experiences of the marginalised. His work at the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) (CISRS) and his writings on caste, religion, and identity positioned him among the key thinkers of India's liberation theology movement.
 
 ## Contents
 1. [Early Life and Education](#early-life-and-education)
@@ -23,7 +23,7 @@ created: 2025-10-27
 
 ## Early Life and Education
 
-Athanasius Mathen Abraham Ayrookuzhiel was born in in 1933 in Chengannur, a small town in the Alappuzha district of Kerala, India, into a family rooted in the Christian traditions of the region. He spent his childhood in Puthenkavu, a village known for its church heritage, and completed his early schooling in Katanam and Bharanikavu. His formative years were marked by an interest in moral questions, faith, and the social realities of rural Kerala.
+Athanasius Mathen Abraham Ayrookuzhiel was born in in 18 September 1933 in Chengannur, a small town in the Alappuzha district of Kerala, India, into a family rooted in the Christian traditions of the region. He spent his childhood in Puthenkavu, a village known for its church heritage, and completed his early schooling in Katanam and Bharanikavu. His formative years were marked by an interest in moral questions, faith, and the social realities of rural Kerala.
 
 Feeling a strong sense of vocation, he joined a seminary in Thiruvananthapuram, where he began his spiritual training as a novice of the Order of Ordine Imitationis Christi. His theological curiosity and dedication to disciplined study shaped his intellectual life. During these years, he became deeply influenced by the ideas of social responsibility and equality, themes that would later appear throughout his writings.
 
@@ -106,11 +106,7 @@ Many of his essays, first published in journals such as Religion and Society, we
 
 During his years in the United Kingdom, Rev. A. M. A. Ayrookuzhiel married Ponnamma Thekedath. The marriage took place while he was serving as a curate at St. Paul High Anglican Church, Wokingham, Berkshire, between 1970 and 1973.  
 
-The couple later settled in Bangalore, where Ayrookuzhiel continued his research and teaching work with the Christian Institute for the Study of Religion and Society (CISRS). They had three sons — [Sunil Abraham](https://sunilabraham.in/sunil/), Matthew Abraham, and Jacob Abraham. Sunil, the eldest, was born on 17 June 1973. Jacob Abraham was born on 5 March 1980 and married Vini Susan on 7 January 2012. 
-
-The family home became a quiet centre of study and conversation, reflecting Ayrookuzhiel's lifelong commitment to ideas and community.  
-
-Although deeply engaged in academic and ecclesial life, he maintained close family bonds, often referring in his letters to the balance between scholarship and family life as part of his vocation.
+The couple later settled in Bangalore, where Ayrookuzhiel continued his research and teaching work with the Christian Institute for the Study of Religion and Society (CISRS). They had three sons — [Sunil Abraham](https://sunilabraham.in/sunil/), Matthew Abraham, and Jacob Abraham. Sunil, the eldest, was born on 17 June 1973. The second son, Matthew, was born on 3 January 1976. Jacob Abraham was born on 5 March 1980 and married Vini Susan on 7 January 2012.
 
 {% include back-to-top.html %}
 
