@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Multiple Aspects Need To Be Addressed As The Clamour Grows For Network Neutrality"
+title: "Multiple Aspects Need to Be Addressed as the Clamour Grows for Network Neutrality"
 description: "An article by Sunil Abraham in DNA India outlining key violations, harms, and regulatory principles around network neutrality, and proposing balanced solutions for telecom policy reform."
 categories: [Media articles, Publications]
 date: 2015-04-16
@@ -10,7 +10,7 @@ permalink: /publications/multiple-aspects-need-to-be-addressed-network-neutralit
 created: 2025-11-13
 ---
 
-**Multiple Aspects Need To Be Addressed As The Clamour Grows For Network Neutrality** is an article by Sunil Abraham, published in *DNA India* on 16 April 2015. The piece explains the key forms of network neutrality violations, their social and economic harms, and how India can develop fair regulatory principles to safeguard competition, innovation, and user choice.
+**Multiple Aspects Need to Be Addressed as the Clamour Grows for Network Neutrality** is an article by Sunil Abraham, published in *DNA India* on 16 April 2015. The piece explains the key forms of network neutrality violations, their social and economic harms, and how India can develop fair regulatory principles to safeguard competition, innovation, and user choice.
 
 ## Contents
 
