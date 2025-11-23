@@ -3,7 +3,7 @@ layout: default
 title: Home
 description: "Knowledge sharing and documentation portal of Sunil Abraham: notes, essays, and research on internet policy, technology and digital rights."
 categories: [Project pages]
-image: /assets/images/Sunil Abraham Colour Nature.jpg
+image: /assets/images/Sunil%20Abraham%20Colour%20Nature.jpg
 created: 2025-10-19
 ---
 
@@ -115,5 +115,12 @@ All content are released under the [Creative Commons Attribution–ShareAlike 4.
 main h1,
 main nav.breadcrumb {
   display: none !important;
+}
+/* Reduce banner height on desktop only */
+@media (min-width: 900px) {
+  .tsap-banner img.tsap-image {
+    height: 220px;   /* Try 200–250 until it feels right */
+    object-fit: cover;
+  }
 }
 </style>
