@@ -1,13 +1,16 @@
-<div class="home-wrapper">
-<!-- 🔵 HERO SECTION -->
-<div class="hero-box">
+---
+layout: default
+title: Home
+description: "Knowledge sharing and documentation portal of Sunil Abraham: notes, essays, and research on internet policy, technology and digital rights."
+categories: [Project pages]
+created: 2025-10-19
+---
 
-  **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.  
+**Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.  
 
-  The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.
+The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.
 
-  Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.
-</div>
+Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.
 
 {% include back-to-top.html %}
 
@@ -18,8 +21,6 @@
 4. [Did you know?](#did-you-know)
 5. [Licence](#licence)
 
-<!-- 🟦 ABOUT SECTION -->
-<div id="about" class="card">
 
 ## About
 
@@ -36,15 +37,9 @@ It aims to:
 
 This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
 
-</div>
-
 {% include back-to-top.html %}
 
-<!-- ⭐ FEATURED ARTICLE -->
-<div id="featured-article" class="featured-strip">
-
 ## Featured article
-
 **Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
 
 After returning to India, he joined the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) in Bangalore, where he became Associate Director. Working closely with theologian M. M. Thomas, he explored how Christian thought could engage with caste and class through the lived experiences of Dalit communities. His research on folk religion, ritual, and oral traditions offered new ways of understanding theology as a form of cultural expression and resistance.
@@ -53,19 +48,14 @@ Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth:
 
 <a href="https://sunilabraham.in/amaa/" class="btn">Read full article...</a>
 
-</div>
-
 {% include back-to-top.html %}
 
-<!-- 👤 SUNIL ABRAHAM -->
-<div id="sunil-abraham" class="card">
-
 ## Sunil Abraham
-
-<div class="media-center">
+<div align="center" style="width:75%; margin:auto;">
   <img 
     src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20Colour%20Nature.jpg?raw=true" 
-    alt="Illustration of Sunil Abraham pointing upward">
+    alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
+    style="width:90%; height:auto; max-width:600px; border-radius:8px;">
 </div>
 
 **Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his work at the intersection of technology, society, and governance.  
@@ -78,121 +68,16 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 
 <a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a>
 
-</div>
-
 {% include back-to-top.html %}
-
-<!-- 💡 DID YOU KNOW -->
-<div id="did-you-know">
 
 ## Did you know?
 
-<div class="fact-card">
-... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
-</div>
-
-<div class="fact-card">
-... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence?
-</div>
-
-<div class="fact-card">
-... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
-</div>
-
-<div class="fact-card">
-... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require online platforms to remove content within 36 hours of a complaint?
-</div>
-
-</div>
-
+- ... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
+- ... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?
+- ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
+- ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
 {% include back-to-top.html %}
-
-<!-- 🔖 LICENCE -->
-<div id="licence" class="licence-box">
 
 ## Licence
 
-All content are released under the  
-[Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)  
-(CC BY-SA 4.0) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.
-
-</div>
-
-</div>
-<style>
-/* ----- GLOBAL WRAPPER ----- */
-.home-wrapper {
-  max-width: 820px;
-  margin: 0 auto;
-  padding: 1rem;
-  line-height: 1.6;
-  color: #111;
-  font-family: system-ui, sans-serif;
-}
-
-/* ----- 1. HERO SECTION ----- */
-.hero-box {
-  background: #f6f9ff;
-  border: 1px solid #d8e2f0;
-  border-radius: 10px;
-  padding: 1.2rem 1.2rem;
-  margin-bottom: 1.2rem;
-}
-.hero-box h1 {
-  font-size: 1.18rem;
-  margin-top: 0;
-  margin-bottom: 0.6rem;
-  color: #0f4fa2;
-}
-
-/* ----- 2. GENERIC CARD FOR SECTIONS ----- */
-.card {
-  background: #ffffff;
-  border: 1px solid #e3e7ef;
-  border-radius: 10px;
-  padding: 1.2rem;
-  margin-bottom: 1.2rem;
-}
-
-/* ----- 3. FEATURED ARTICLE STRIP ----- */
-.featured-strip {
-  border-top: 4px solid #0f4fa2;
-  background: #ffffff;
-  border-radius: 8px;
-  padding: 1.2rem;
-  margin-bottom: 1.2rem;
-  border-left: 1px solid #e2e6ef;
-  border-right: 1px solid #e2e6ef;
-  border-bottom: 1px solid #e2e6ef;
-}
-
-/* ----- 4. IMAGE CENTER ----- */
-.media-center {
-  text-align: center;
-  margin: 0.8rem 0;
-}
-.media-center img {
-  width: 90%;
-  max-width: 600px;
-  border-radius: 8px;
-  border: 1px solid #e4e4e4;
-}
-
-/* ----- 5. DID YOU KNOW CARDS ----- */
-.fact-card {
-  background: #f7fdfa;
-  border: 1px solid #cfe9df;
-  border-radius: 8px;
-  padding: 0.7rem 0.9rem;
-  margin-bottom: 0.6rem;
-}
-
-/* ----- 6. LICENCE ----- */
-.licence-box {
-  border-top: 2px solid #d8e2f0;
-  padding-top: 0.8rem;
-  margin-top: 1.2rem;
-  color: #444;
-  font-size: 0.95rem;
-}
-</style>
+All content are released under the [Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.
