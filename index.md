@@ -119,7 +119,7 @@ main nav.breadcrumb {
 /* Reduce banner height on desktop only */
 @media (min-width: 900px) {
   .tsap-banner img.tsap-image {
-    height: 220px;   /* Try 200–250 until it feels right */
+    height: 150px;   /* Try 200–250 until it feels right */
     object-fit: cover;
   }
 }
