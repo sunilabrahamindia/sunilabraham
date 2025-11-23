@@ -9,7 +9,7 @@ created: 2025-11-22
 
 Welcome to the Newest Pages index for sunilabraham.in. This page helps you explore the most recently added content across the site, organised neatly by their actual creation date.
 
-As you continue adding `created:` dates to pages, this list will automatically grow and stay up to date. Use the sorting, category/month filters, and search box to browse the freshest content.
+Please use the sorting, category/month filters, and search box to browse the freshest content.
 
 ## Sort & Filter
 
