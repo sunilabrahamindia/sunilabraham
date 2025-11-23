@@ -1,277 +1,83 @@
-<style>
-:root{
-  --page-max-width: 980px;
-  --content-width: 720px;
-  --space: 1rem;
-  --bg: #ffffff;
-  --muted: #6b7280;
-  --text: #111827;
-  --accent: #0f4fa2;
-  --accent-2: #0aa5a0;
-  --warm: #f4e5a6;
-  --card-bg: #ffffff;
-  --card-border: rgba(11,23,44,0.06);
-  --shadow: 0 6px 18px rgba(13, 26, 50, 0.06);
-  --radius: 12px;
-  --line: rgba(15,79,162,0.08);
-}
+---
+layout: default
+title: Home
+description: "Knowledge sharing and documentation portal of Sunil Abraham: notes, essays, and research on internet policy, technology and digital rights."
+categories: [Project pages]
+created: 2025-10-19
+---
 
-main { padding: var(--space); display:flex; justify-content:center; }
-.page-inner { width:100%; max-width:var(--page-max-width); }
+**Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.  
 
-/* HERO */
-.hero {
-  max-width: var(--content-width);
-  margin: 0 auto 1.3rem;
-  padding: 1.1rem;
-  border-radius: var(--radius);
-  background: linear-gradient(180deg, rgba(15,79,162,0.04), rgba(10,165,160,0.02));
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-.hero-grid { display:grid; grid-template-columns:1fr; gap:1rem; }
-.hero h1 { font-size:1.28rem; margin:0; color:var(--accent); }
-.hero p { font-size:0.98rem; line-height:1.55; margin-top:0.6rem; }
+The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.
 
-.hero-cta { margin-top:0.8rem; display:flex; gap:0.6rem; flex-wrap:wrap; }
+Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.
 
-.stats {
-  background: rgba(15,79,162,0.05);
-  padding:0.28rem 0.6rem;
-  border-radius:999px;
-  border:1px solid rgba(15,79,162,0.10);
-  font-size:0.9rem;
-  color:var(--accent);
-  font-weight:600;
-}
+{% include back-to-top.html %}
 
-.btn {
-  padding:0.48rem 0.85rem;
-  border-radius:10px;
-  text-decoration:none;
-  font-weight:600;
-  font-size:0.95rem;
-  background:white;
-  color:var(--accent);
-  border:1px solid var(--card-border);
-}
-.btn-primary {
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  color:white;
-}
-
-/* CARD SYSTEM */
-.section-list {
-  max-width:var(--content-width);
-  margin:0 auto;
-  display:grid;
-  gap:1rem;
-}
-.card {
-  background:var(--card-bg);
-  border-radius:var(--radius);
-  padding:1rem;
-  border:1px solid var(--card-border);
-  box-shadow:0 4px 12px rgba(6,16,32,0.04);
-}
-
-.card-head {
-  display:flex;
-  gap:0.55rem;
-  align-items:center;
-  margin-bottom:0.6rem;
-}
-.card-head h2 {
-  margin:0;
-  color:var(--accent);
-  font-size:1.05rem;
-  font-weight:700;
-}
-.card-head .icon { font-size:1.2rem; }
-
-.card p, .card li {
-  font-size:0.97rem;
-  line-height:1.6;
-  color:#1f2937;
-}
-
-/* Centered image */
-.media-center img {
-  width:90%;
-  max-width:600px;
-  border-radius:8px;
-  margin:0.4rem auto 0.8rem;
-  display:block;
-  border:1px solid rgba(11,23,44,0.06);
-}
-
-/* Did you know cards */
-.knowledge-card {
-  background:rgba(10,165,160,0.03);
-  padding:0.7rem;
-  border:1px solid rgba(10,165,160,0.06);
-  border-radius:10px;
-  margin-bottom:0.5rem;
-  font-size:0.95rem;
-}
-
-.licence { font-size:0.92rem; color:var(--muted); }
-
-@media (min-width: 740px) {
-  .hero-grid { grid-template-columns: 1fr 260px; }
-  .hero h1 { font-size:1.45rem; }
-}
-</style>
+## Contents
+1. [About](#about)
+2. [Featured article](#featured-article)
+3. [Sunil Abraham](#sunil-abraham)
+4. [Did you know?](#did-you-know)
+5. [Licence](#licence)
 
 
-<main class="home-main">
-  <div class="page-inner">
+## About
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-grid">
+This project serves as a living documentation space for research, writing, and reflection.  
+This is built to create, organise, and publish documentation in a structured yet flexible manner, enabling continuous learning and open exchange of ideas.
 
-        <!-- LEFT (Markdown text) -->
-        <div>
-          <h1>Welcome to the knowledge sharing and documentation portal of Sunil Abraham</h1>
+It aims to:
 
-          <!-- Everything below is Markdown -->
-          <p><strong>Welcome</strong> to the knowledge sharing and documentation portal of <strong>Sunil Abraham</strong>. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.</p>
+- Create and maintain documentation — capture insights, notes, essays, and drafts across themes and disciplines.  
+- Encourage knowledge sharing — make ideas accessible, referenceable, and adaptable for wider audiences.  
+- Support learning and reflection — develop patterns of learning, synthesis, and critical thought through open writing.  
+- Enable collaboration and contribution — allow others to engage with, remix, and build upon existing materials.  
+- Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.  
 
-          <p>The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.</p>
+This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
 
-          <p>Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.</p>
+{% include back-to-top.html %}
 
-          <div class="hero-cta">
-            <a href="#about" class="btn btn-primary">Explore the project →</a>
-            <span class="stats">📄 100 articles · 📁 12 pages</span>
-          </div>
-        </div>
+## Featured article
+**Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
 
-        <!-- RIGHT side card (Markdown inside allowed) -->
-        <div class="card">
-          <div class="card-head">
-            <span class="icon">📚</span>
-            <h2>About this project</h2>
-          </div>
+After returning to India, he joined the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) in Bangalore, where he became Associate Director. Working closely with theologian M. M. Thomas, he explored how Christian thought could engage with caste and class through the lived experiences of Dalit communities. His research on folk religion, ritual, and oral traditions offered new ways of understanding theology as a form of cultural expression and resistance.
 
-          <p>This space brings together long-term reflections on technology, society, equity, and digital transformation, designed for clarity, reuse and open access.</p>
+Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, and the posthumous *Essays on Dalits, Religion, and Liberation*. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised—a vision that continues to shape Indian Christian and social thought.
 
-          <a href="#about" class="btn">Read more</a>
-        </div>
+<a href="https://sunilabraham.in/amaa/" class="btn">Read full article...</a>
 
-      </div>
-    </section>
+{% include back-to-top.html %}
 
-    <!-- CONTENT CARDS -->
-    <section class="section-list">
+## Sunil Abraham
+<div align="center" style="width:75%; margin:auto;">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20Colour%20Nature.jpg?raw=true" 
+    alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
+    style="width:90%; height:auto; max-width:600px; border-radius:8px;">
+</div>
 
-      <!-- ABOUT -->
-      <div id="about" class="card">
-        <div class="card-head">
-          <span class="icon">ℹ️</span>
-          <h2>About</h2>
-        </div>
+**Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his work at the intersection of technology, society, and governance.  
 
-        This project serves as a living documentation space for research, writing, and reflection.  
-        This is built to create, organise, and publish documentation in a structured yet flexible manner, enabling continuous learning and open exchange of ideas.
+Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.  
 
-        It aims to:
+In 1998, he co-founded [Mahiti Infotech](https://mahiti.org/), a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.  
 
-        - Create and maintain documentation — capture insights, notes, essays, and drafts across themes and disciplines.
-        - Encourage knowledge sharing — make ideas accessible, referenceable, and adaptable for wider audiences.
-        - Support learning and reflection — develop patterns of learning, synthesis, and critical thought through open writing.
-        - Enable collaboration and contribution — allow others to engage with, remix, and build upon existing materials.
-        - Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.
+His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.
 
-        This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
+<a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a>
 
-        {% include back-to-top.html %}
-      </div>
+{% include back-to-top.html %}
 
-      <!-- FEATURED ARTICLE -->
-      <div id="featured-article" class="card">
-        <div class="card-head">
-          <span class="icon">⭐</span>
-          <h2>Featured article</h2>
-        </div>
+## Did you know?
 
-        **Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people.
+- ... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
+- ... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?
+- ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
+- ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
+{% include back-to-top.html %}
 
-        After returning to India, he joined the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) in Bangalore, where he became Associate Director. Working closely with theologian M. M. Thomas, he explored how Christian thought could engage with caste and class through the lived experiences of Dalit communities.
+## Licence
 
-        Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, and *Essays on Dalits, Religion, and Liberation*. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised.
-
-        <a href="https://sunilabraham.in/amaa/" class="btn">Read full article...</a>
-
-        {% include back-to-top.html %}
-      </div>
-
-      <!-- SUNIL ABRAHAM -->
-      <div id="sunil-abraham" class="card">
-        <div class="card-head">
-          <span class="icon">👤</span>
-          <h2>Sunil Abraham</h2>
-        </div>
-
-        <div class="media-center">
-          <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20Colour%20Nature.jpg?raw=true"
-               alt="Illustration of Sunil Abraham pointing upward in a colourful cartoon landscape">
-        </div>
-
-        **Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his work at the intersection of technology, society, and governance.
-
-        Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008.
-
-        He also co-founded [Mahiti Infotech](https://mahiti.org/), supporting civil society organisations with FOSS-based digital solutions.
-
-        <a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a>
-
-        {% include back-to-top.html %}
-      </div>
-
-      <!-- DID YOU KNOW -->
-      <div id="did-you-know" class="card">
-        <div class="card-head">
-          <span class="icon">💡</span>
-          <h2>Did you know?</h2>
-        </div>
-
-        <div class="knowledge-card">
-          ... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
-        </div>
-
-        <div class="knowledge-card">
-          ... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest after the Ayodhya and Bombay riots?
-        </div>
-
-        <div class="knowledge-card">
-          ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
-        </div>
-
-        <div class="knowledge-card">
-          ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require platforms to remove content within 36 hours of a complaint?
-        </div>
-
-        {% include back-to-top.html %}
-      </div>
-
-      <!-- LICENCE -->
-      <div id="licence" class="card">
-        <div class="card-head">
-          <span class="icon">🔖</span>
-          <h2>Licence</h2>
-        </div>
-
-        <p class="licence">
-        All content are released under the  
-        [Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0) licence.
-        </p>
-
-        {% include back-to-top.html %}
-      </div>
-
-    </section>
-
-  </div>
-</main>
+All content are released under the [Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.
