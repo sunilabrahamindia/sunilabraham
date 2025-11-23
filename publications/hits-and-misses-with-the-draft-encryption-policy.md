@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hits And Misses With The Draft Encryption Policy"
+title: "Hits and Misses with the Draft Encryption Policy"
 description: "An article by Sunil Abraham in The Wire analysing India's draft encryption policy, its technical flaws, and the tension between surveillance objectives and information security principles."
 categories: [Media articles, Publications]
 date: 2015-09-26
@@ -10,7 +10,7 @@ permalink: /publications/hits-and-misses-with-the-draft-encryption-policy/
 created: 2025-11-13
 ---
 
-**Hits And Misses With The Draft Encryption Policy** is an article by Sunil Abraham, published in *The Wire* on 26 September 2015. The article examines India's draft encryption policy, highlighting its contradictory mandates, impractical compliance requirements, and failure to protect user privacy or promote open standards.
+**Hits and Misses with the Draft Encryption Policy** is an article by Sunil Abraham, published in *The Wire* on 26 September 2015. The article examines India's draft encryption policy, highlighting its contradictory mandates, impractical compliance requirements, and failure to protect user privacy or promote open standards.
 
 ## Contents
 
