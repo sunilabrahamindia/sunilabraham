@@ -143,7 +143,8 @@ All content are released under the [Creative Commons Attribution–ShareAlike 4.
 /* Overlay on top */
 .tsap-overlay {
   position: absolute;
-  top: 0;
+  bottom: 0;
+  top: auto;
   left: 0;
   width: 100%;
   height: 18%;
