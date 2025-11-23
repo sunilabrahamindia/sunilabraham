@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Facebook Shares 10 Key Facts About Free Basics: What's Wrong With All 10"
+title: "Facebook Shares 10 Key Facts About Free Basics: What's Wrong with All 10"
 description: "An interview published by Catch News in which Sunil Abraham responds to Facebook’s ‘10 key facts’ about Free Basics, explaining why each claim misrepresents the principles of net neutrality."
 categories: [Media articles, Publications]
 date: 2015-12-24
@@ -10,7 +10,7 @@ permalink: /publications/facebook-shares-10-key-facts-free-basics-wrong-with-all
 created: 2025-11-14
 ---
 
-**Facebook Shares 10 Key Facts About Free Basics: What's Wrong With All 10** is an interview with Sunil Abraham published in *Catch News* on 24 December 2015. In this piece, Sunil Abraham responds point-by-point to Facebook's advertisement titled *"What Net Neutrality Activists Won't Tell You"*, countering each of the platform's claims about Free Basics.
+**Facebook Shares 10 Key Facts About Free Basics: What's Wrong with All 10** is an interview with Sunil Abraham published in *Catch News* on 24 December 2015. In this piece, Sunil Abraham responds point-by-point to Facebook's advertisement titled *"What Net Neutrality Activists Won't Tell You"*, countering each of the platform's claims about Free Basics.
 
 ## Contents
 
