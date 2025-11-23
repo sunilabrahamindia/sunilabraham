@@ -7,7 +7,7 @@ date: 2011-09-02
 authors: ["Sunil Abraham"]
 source: "Indian Express"
 permalink: /publications/photocopying-the-past/
-created:2025-11-23
+created: 2025-11-23
 ---
 
 **Photocopying the Past** is a commentary by Sunil Abraham published in *The Indian Express* on 2 September 2011. The article discusses the complexity of intellectual property positions, the implications of copyright amendments, the role of public interest in IP policy, and the importance of access to books and educational materials.
