@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "NITI Aayog Discussion Paper: An Aspirational Step Towards India's AI Policy"
+title: "NITI Aayog Discussion Paper: An Aspirational Step towards India's AI Policy"
 description: "Policy analysis by the Centre for Internet and Society (CIS) examining the NITI Aayog's 2018 discussion paper on India's National Strategy for Artificial Intelligence, highlighting its strengths, gaps, and recommendations for a rights-respecting AI ecosystem."
 categories: [Policy Briefs and Submissions, Publications]
 date: 2018-06-01
@@ -11,7 +11,7 @@ pdf: /publications/files/niti-aayog-discussion-paper-ai-policy.pdf
 created: 2025-11-11
 ---
 
-**NITI Aayog Discussion Paper: An Aspirational Step Towards India's AI Policy** is a policy commentary authored by Sunil Abraham, Elonnai Hickok, Amber Sinha, Swaraj Barooah, Shweta Mohandas, Pranav M. Bidare, Swagam Dasgupta, Vishnu Ramachandran, and Senthil Kumar at the Centre for Internet and Society (CIS).  
+**NITI Aayog Discussion Paper: An Aspirational Step towards India's AI Policy** is a policy commentary authored by Sunil Abraham, Elonnai Hickok, Amber Sinha, Swaraj Barooah, Shweta Mohandas, Pranav M. Bidare, Swagam Dasgupta, Vishnu Ramachandran, and Senthil Kumar at the Centre for Internet and Society (CIS).  
 
 The brief analyses NITI Aayog's 2018 discussion paper on India's National Strategy for Artificial Intelligence, assessing its ambitions, policy directions, and critical omissions. It commends the initiative as a significant step toward a national AI strategy while identifying areas where the paper falls short — particularly on issues of privacy, ethics, fairness, accessibility, and accountability.
 
@@ -173,7 +173,7 @@ If you wish to reference or cite this publication, you may use one of the follow
 
 **APA**
 <pre><code>Abraham, S., Hickok, E., Sinha, A., Barooah, S., Mohandas, S., Bidare, P. M., Dasgupta, S., Ramachandran, V., & Kumar, S. (2018).
-NITI Aayog Discussion Paper: An Aspirational Step Towards India's AI Policy.
+NITI Aayog Discussion Paper: An Aspirational Step towards India's AI Policy.
 The Centre for Internet and Society (CIS).
 https://sunilabraham.in/publications/niti-aayog-discussion-paper-ai-policy/
 </code></pre>
@@ -181,7 +181,7 @@ https://sunilabraham.in/publications/niti-aayog-discussion-paper-ai-policy/
 **BibTeX**
 <pre><code>@misc{abraham2018niti,
   author = {Abraham, Sunil and Hickok, Elonnai and Sinha, Amber and Barooah, Swaraj and Mohandas, Shweta and Bidare, Pranav M. and Dasgupta, Swagam and Ramachandran, Vishnu and Kumar, Senthil},
-  title = {NITI Aayog Discussion Paper: An Aspirational Step Towards India's AI Policy},
+  title = {NITI Aayog Discussion Paper: An Aspirational Step towards India's AI Policy},
   year = {2018},
   howpublished = {The Centre for Internet and Society (CIS)},
   url = {https://sunilabraham.in/publications/niti-aayog-discussion-paper-ai-policy/}
@@ -190,7 +190,7 @@ https://sunilabraham.in/publications/niti-aayog-discussion-paper-ai-policy/
 
 **MLA**
 <pre><code>Abraham, Sunil, Elonnai Hickok, Amber Sinha, Swaraj Barooah, Shweta Mohandas, Pranav M. Bidare, Swagam Dasgupta, Vishnu Ramachandran, and Senthil Kumar.
-"NITI Aayog Discussion Paper: An Aspirational Step Towards India's AI Policy."
+"NITI Aayog Discussion Paper: An Aspirational Step towards India's AI Policy."
 The Centre for Internet and Society (CIS), June 2018.
 https://sunilabraham.in/publications/niti-aayog-discussion-paper-ai-policy/
 </code></pre>
