@@ -6,11 +6,14 @@ categories: [Project pages]
 created: 2025-10-19
 ---
 
+<div class="home-lead">
 **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.  
 
 The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.
 
 Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.
+
+</div>
 
 {% include back-to-top.html %}
 
@@ -81,3 +84,15 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 ## Licence
 
 All content are released under the [Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.
+
+<style>
+  /* Home Lead (Welcome section) */
+.home-lead {
+  background: #ffffff;
+  border: 1px solid #dfe5ec;
+  border-radius: 10px;
+  padding: 1.2rem 1.3rem;
+  margin-bottom: 1.4rem;
+  line-height: 1.65;
+}
+</style>
