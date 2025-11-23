@@ -188,6 +188,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
   _A commentary on digital rights, access to culture, and new forms of online activism._
 
 ### 2010
+- *"Does the Government Want to Enter Our Homes?"* — *Pune Mirror*, 2010.  
+  [Read here](/publications/does-the-government-want-to-enter-our-homes/){: .btn}
+
 - *"Wherever You Are, Whatever You Do"* — *Indian Express*, 2010.  
   [Read here](/publications/wherever-you-are-whatever-you-do/){: .btn}
 
