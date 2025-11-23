@@ -110,10 +110,5 @@ All content are released under the [Creative Commons Attribution–ShareAlike 4.
   display: block;
   pointer-events: none;
 }
-@media (max-width: 600px) {
-  .tsap-banner img.tsap-image {
-    height: 180px;
-    object-fit: cover;
-  }
-}
+
 </style>
