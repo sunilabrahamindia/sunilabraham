@@ -252,6 +252,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/to-regulate-net-intermediaries-or-not-is-the-question/){: .btn}
 
 ### 2013
+- *"Don't SLAPP Free Speech"* — *Tehelka Magazine*, 2013.  
+  [Read here](/publications/dont-slapp-free-speech/){: .btn}
+
 - *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
   [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
 
