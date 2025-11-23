@@ -27,3 +27,14 @@ The Sunil Abraham Project is developed on the Jekyll static site generator and h
 Page layouts across the site follow a defined pattern that balances readability and order. Most entries include sections such as Publication Details, Abstract, Context and Background, Key Themes or Findings, and External Links. This arrangement provides a uniform reading experience while allowing each document to retain its original context. Category and metadata tags link related pages together, forming an internal network of materials that can be browsed or indexed with ease.
 
 In appearance, the site maintains a plain and accessible design. Text is prioritised over decorative elements, and layout decisions focus on spacing, type clarity, and colour contrast to support users with varied reading conditions. The visual approach remains consistent with accessibility guidelines and avoids unnecessary complexity. Files are organised within a category structure that separates different kinds of content, including Publications, Biographies, Media, and Project Pages. The site is automatically rebuilt with every update, using GitHub Pages to ensure version control and transparency in publication.
+
+## Timeline
+
+- **27 September 2025 (Saturday)** — Domain name `sunilabraham.in` purchased from BigRock.
+- **2 October 2025 (Thursday)** — The project was officially launched on this date, which coincides with the birth anniversaries of Mahatma Gandhi and Lal Bahadur Shastri. The day is also the birthday of Swapna Dutta (1953–2025), mother of Tito Dutta, the main editor and one of the two foundation planners of the project.
+- **19 October 2025 (Sunday)** — The first four pages of the site were deployed on GitHub, marking the initial public build of the project. These included the Home page, the Publications index, the Projects overview, and the Contact page.
+- **13 November 2025 (Thursday)** — Sunil Abraham announced the launch of the project on [Facebook](https://www.facebook.com/abrahamsunil/posts/pfbid0h6kgb9kCKtHYmaWbyE7yNnmkS1hpdyz2yrghmA51dYMUotqQUCocrwvvRkB93CHil), [LinkedIn](https://www.linkedin.com/posts/sunilaabraham_sunil-abraham-project-activity-7394691115444174848) and [X](https://x.com/sunil_abraham/status/1988926639162683485).
+- **23 November 2025 (Sunday)** — The Sunil Abraham Project reached the milestone of 100 articles with the publication of [*Sense and Censorship*](https://sunilabraham.in/publications/sense-and-censorship/)
+
+
+
