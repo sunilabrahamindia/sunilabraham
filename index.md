@@ -13,7 +13,7 @@ created: 2025-10-19
   <svg width="0" height="0" aria-hidden="true">
     <defs>
       <clipPath id="tsap-curve" clipPathUnits="objectBoundingBox">
-<path d="M0,0.02 C0.25,0.00 0.75,0.05 1,0.02 L1,1 L0,1 Z" />
+<path d="M0,0.12 C0.20,0.00 0.80,0.24 1,0.12 L1,1 L0,1 Z" />
       </clipPath>
     </defs>
   </svg>
