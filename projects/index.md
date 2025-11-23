@@ -17,7 +17,7 @@ A dedicated project to **document the life, writings, and contributions of A. M.
 This includes compiling biographical information, unpublished writings, and reflections on his legacy.  
 The aim is to build a lasting digital record that highlights his thought, work, and influence.
 
-<p><a href="https://sunilabraham.in/amaa/" class="btn">Visit Project Page</a></p>
+<p><a href="https://sunilabraham.in/amaa/portal" class="btn">Visit Portal Page</a></p>
 
 
 ### Artificial Intelligence
