@@ -17,11 +17,11 @@ created: 2025-10-19
 
 **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished. 
 
-{% include shortcut.html shortcuts="/h::/h" %}
-
 The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.
 
 Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.
+
+{% include shortcut.html shortcuts="/h::/h" %}
 
 <nav class="tsap-contents">
   <h2>Contents</h2>
