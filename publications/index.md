@@ -233,6 +233,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Do We Need the Aadhar Scheme?"* — *Business Standard*, 2012.  
   [Read here](/publications/do-we-need-the-aadhar-scheme/){: .btn}
 
+  - *"Facebook, Privacy and India"* — *Mint (formerly Livemint)*, 2010.  
+  [Read here](/publications/facebook-privacy-and-india/){: .btn}
+
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
   _An essay on the global evolution of openness and free software movements._
 
