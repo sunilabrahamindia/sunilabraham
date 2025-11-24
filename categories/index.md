@@ -4,6 +4,7 @@ title: "Categories"
 categories: [Project pages]
 description: "Index of all content categories on sunilabraham.in, including Videos, Books, Biographies, and more."
 permalink: /categories/
+created: 2025-10-31
 ---
 
 <p>This section serves as a directory of all content categories published on <strong>sunilabraham.in</strong>. Browse through collections of videos, books, biographies, and project pages to explore related material and archived work.</p>
