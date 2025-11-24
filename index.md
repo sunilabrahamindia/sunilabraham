@@ -195,7 +195,7 @@ main nav.breadcrumb {
 /* Mobile: full width but still left aligned */
 @media (max-width: 800px) {
   .tsap-contents {
-    max-width: 100%;
+    max-width: 98%;
     margin: 1.5rem 0;
   }
 }
