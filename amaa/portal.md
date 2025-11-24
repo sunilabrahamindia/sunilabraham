@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Portal:A. M. A. Ayrookuzhiel
+title: Portal: A. M. A. Ayrookuzhiel
 permalink: /amaa/portal/
 categories: [A. M. A. Ayrookuzhiel, Portals, Project pages]
 description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrookuzhiel, bringing together his biography, writings, research contributions, and related materials.
+image: /amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2001.jpeg
 created: 2025-11-19
 ---
 {% include under-construction.html %}
