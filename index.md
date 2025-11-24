@@ -127,7 +127,7 @@ main nav.breadcrumb {
 /* Adjust banner height on mobile only */
 @media (max-width: 600px) {
   .tsap-banner img.tsap-image {
-    height: 60px;   /* choose 160 / 180 / 200 depending on your taste */
+    height: 45px;   /* choose 160 / 180 / 200 depending on your taste */
     object-fit: cover;
   }
 }
