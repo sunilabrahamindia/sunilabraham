@@ -573,3 +573,30 @@ a.btn:focus {
   background-color: #006837;
   box-shadow: 0 0 0 3px rgba(0, 133, 77, 0.3);
 }
+/* =========================================================
+   Collapsible H2 Sections
+   ========================================================= */
+.h2-collapsible {
+  cursor: pointer;
+  position: relative;
+  padding-right: 1.4rem;
+}
+
+.h2-caret {
+  position: absolute;
+  right: 0;
+  top: 0.15rem;
+  font-size: 1.2rem;
+  color: #444;
+  transition: transform 0.25s ease;
+}
+
+.h2-collapsible[aria-expanded="false"] .h2-caret {
+  transform: rotate(-90deg); /* ▸ pointing right */
+}
+
+/* The content wrapper */
+.h2-content {
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
