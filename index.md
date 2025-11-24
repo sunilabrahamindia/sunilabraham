@@ -21,8 +21,6 @@ The project reflects years of engagement with digital rights, open technology, a
 
 Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.
 
-{% include shortcut.html shortcuts="/h::/h" %}
-
 <nav class="tsap-contents">
   <h2>Contents</h2>
   <ol>
