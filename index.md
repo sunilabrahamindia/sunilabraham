@@ -25,18 +25,16 @@ Whether you are a researcher, student, practitioner, or reader exploring questio
 
 {% include back-to-top.html %}
 
-<div class="tsap-contents-band">
-  <nav class="tsap-contents">
-    <h2>Contents</h2>
-    <ol>
-      <li><a href="#about">About</a></li>
-      <li><a href="#featured-article">Featured article</a></li>
-      <li><a href="#sunil-abraham">Sunil Abraham</a></li>
-      <li><a href="#did-you-know">Did you know?</a></li>
-      <li><a href="#licence">Licence</a></li>
-    </ol>
-  </nav>
-</div>
+<nav class="tsap-contents">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#about">About</a></li>
+    <li><a href="#featured-article">Featured article</a></li>
+    <li><a href="#sunil-abraham">Sunil Abraham</a></li>
+    <li><a href="#did-you-know">Did you know?</a></li>
+    <li><a href="#licence">Licence</a></li>
+  </ol>
+</nav>
 
 ## About
 
@@ -197,24 +195,6 @@ main nav.breadcrumb {
   color: #0a2e57;
   text-decoration: underline;
 }
-
-/* Full-width background band behind Contents box */
-.tsap-contents-band {
-  width: 100vw;               /* full screen width */
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;         /* pull it out of center container */
-  margin-right: -50vw;
-  background: #f0f4fa;        /* choose your colour */
-  padding: 1.5rem 0;          /* top & bottom padding */
-}
-
-/* Keep the inner box centered properly */
-.tsap-contents {
-  margin: 0 auto;
-}
-
 
 /* Mobile: full width but still left aligned */
 @media (max-width: 800px) {
