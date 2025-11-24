@@ -1,0 +1,42 @@
+<div class="shortcut-box">
+  {% if include.shortcuts %}
+    {% for item in include.shortcuts %}
+      <a href="{{ item.url | relative_url }}">{{ item.code }}</a><br>
+    {% endfor %}
+  {% endif %}
+</div>
+
+/* ================================
+   Shortcut Box (Wikipedia-style)
+   ================================ */
+.shortcut-box {
+  float: right;
+  clear: right;
+  background: #f2f6fa;            /* soft research-like blue-grey */
+  border: 1px solid #d0d7de;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 0 0 0.5rem 1rem;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  text-align: right;
+  min-width: 48px;
+}
+
+.shortcut-box a {
+  color: #0a2e57;
+  text-decoration: none;
+}
+
+.shortcut-box a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile: place shortcut below title, not floating */
+@media (max-width: 600px) {
+  .shortcut-box {
+    float: none;
+    text-align: left;
+    margin: 0.3rem 0 0.8rem 0;
+  }
+}
