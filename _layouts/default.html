@@ -195,6 +195,62 @@
       GLightbox({ selector: '.lightbox' });
     });
   </script>
+  <!-- H2 collapse JS -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const headers = document.querySelectorAll("main h2");
 
+  headers.forEach(h2 => {
+    h2.classList.add("h2-collapsible");
+
+    // Inline Show/Hide + arrow
+    const toggle = document.createElement("span");
+    toggle.className = "h2-toggle-inline";
+
+    const t = document.createElement("span");
+    t.className = "toggle-text";
+    t.textContent = "Hide";
+
+    const a = document.createElement("span");
+    a.className = "toggle-arrow";
+    a.textContent = "▾";
+
+    toggle.appendChild(t);
+    toggle.appendChild(a);
+    h2.appendChild(toggle);
+
+    // Wrap content under H2
+    const wrap = document.createElement("div");
+    wrap.className = "h2-content";
+
+    let next = h2.nextElementSibling;
+    while (next && next.tagName !== "H2") {
+      const temp = next.nextElementSibling;
+      wrap.appendChild(next);
+      next = temp;
+    }
+
+    h2.parentNode.insertBefore(wrap, next);
+
+    // Default: expanded
+    wrap.style.maxHeight = wrap.scrollHeight + "px";
+    let isOpen = true;
+
+    // Toggle
+    h2.addEventListener("click", function () {
+      isOpen = !isOpen;
+      if (isOpen) {
+        wrap.style.maxHeight = wrap.scrollHeight + "px";
+        t.textContent = "Hide";
+        a.textContent = "▾";
+      } else {
+        wrap.style.maxHeight = "0";
+        t.textContent = "Show";
+        a.textContent = "▸";
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>
