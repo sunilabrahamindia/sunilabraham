@@ -24,30 +24,13 @@ Whether you are a researcher, student, practitioner, or reader exploring questio
 <nav class="tsap-contents">
   <h2>Contents</h2>
   <ol>
-    <li><a href="#about">About</a></li>
     <li><a href="#featured-article">Featured article</a></li>
     <li><a href="#sunil-abraham">Sunil Abraham</a></li>
     <li><a href="#did-you-know">Did you know?</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#licence">Licence</a></li>
   </ol>
 </nav>
-
-## About
-
-This project serves as a living documentation space for research, writing, and reflection.  
-This is built to create, organise, and publish documentation in a structured yet flexible manner, enabling continuous learning and open exchange of ideas.
-
-It aims to:
-
-- Create and maintain documentation — capture insights, notes, essays, and drafts across themes and disciplines.  
-- Encourage knowledge sharing — make ideas accessible, referenceable, and adaptable for wider audiences.  
-- Support learning and reflection — develop patterns of learning, synthesis, and critical thought through open writing.  
-- Enable collaboration and contribution — allow others to engage with, remix, and build upon existing materials.  
-- Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.  
-
-This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
-
-{% include back-to-top.html %}
 
 ## Featured article
 **Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
@@ -86,6 +69,23 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 - ... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?
 - ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
 - ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
+{% include back-to-top.html %}
+
+## About
+
+This project serves as a living documentation space for research, writing, and reflection.  
+This is built to create, organise, and publish documentation in a structured yet flexible manner, enabling continuous learning and open exchange of ideas.
+
+It aims to:
+
+- Create and maintain documentation — capture insights, notes, essays, and drafts across themes and disciplines.  
+- Encourage knowledge sharing — make ideas accessible, referenceable, and adaptable for wider audiences.  
+- Support learning and reflection — develop patterns of learning, synthesis, and critical thought through open writing.  
+- Enable collaboration and contribution — allow others to engage with, remix, and build upon existing materials.  
+- Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.  
+
+This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
+
 {% include back-to-top.html %}
 
 ## Licence
