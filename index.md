@@ -286,37 +286,40 @@ main nav.breadcrumb {
 document.addEventListener("DOMContentLoaded", () => {
 
 const greetings = [
-  "[ar] السلام عليكم",  // Arabic
-  "[as] নমস্কাৰ",        // Assamese
-  "[bn] নমস্কার",        // Bangla
-  "[de] Hallo",          // German
-  "[en] Hello",          // English
-  "[es] Hola",           // Spanish
-  "[fr] Bonjour",        // French
-  "[gu] નમસ્તે",          // Gujarati
-  "[he] שלום",           // Hebrew
-  "[hi] नमस्ते",          // Hindi
-  "[id] Halo",           // Indonesian
-  "[it] Ciao",           // Italian
-  "[ja] こんにちは",        // Japanese
-  "[kn] ನಮಸ್ಕಾರ",         // Kannada
-  "[ko] 안녕하세요",        // Korean
-  "[ml] നമസ്കാരം",        // Malayalam
-  "[mr] नमस्कार",          // Marathi
-  "[pa] ਸਤ ਸ੍ਰੀ ਅਕਾਲ",      // Punjabi
-  "[pt] Olá",            // Portuguese
-  "[ru] Привет",         // Russian
-  "[sa] स्वागतम्",         // Sanskrit
-  "[ta] நமஸ்காரம்",        // Tamil
-  "[te] నమస్కారం",         // Telugu
-  "[tr] Merhaba",        // Turkish
-  "[ur] السلام عليكم",      // Urdu
-  "[zh] 你好"             // Mandarin Chinese
+  "[kn] ನಮಸ್ಕಾರ",        // Kannada  (FIRST one)
+  "[ar] السلام عليكم",    // Arabic
+  "[as] নমস্কাৰ",          // Assamese
+  "[bn] নমস্কার",          // Bangla
+  "[de] Hallo",            // German
+  "[en] Hello",            // English
+  "[es] Hola",             // Spanish
+  "[fr] Bonjour",          // French
+  "[gu] નમસ્તે",            // Gujarati
+  "[he] שלום",             // Hebrew
+  "[hi] नमस्ते",            // Hindi
+  "[id] Halo",             // Indonesian
+  "[it] Ciao",             // Italian
+  "[ja] こんにちは",          // Japanese
+  "[ko] 안녕하세요",          // Korean
+  "[ml] നമസ്കാരം",          // Malayalam
+  "[mr] नमस्कार",            // Marathi
+  "[pa] ਸਤ ਸ੍ਰੀ ਅਕਾਲ",        // Punjabi
+  "[pt] Olá",              // Portuguese
+  "[ru] Привет",           // Russian
+  "[sa] स्वागतम्",           // Sanskrit
+  "[ta] நமஸ்காரம்",          // Tamil
+  "[te] నమస్కారం",           // Telugu
+  "[tr] Merhaba",          // Turkish
+  "[ur] السلام عليكم",        // Urdu
+  "[zh] 你好"               // Mandarin Chinese
 ];
 
   const banner = document.querySelector(".tsap-banner");
   const textEl = document.querySelector(".tsap-banner-hover-text");
   if (!banner || !textEl) return;
+
+  // FIX: Preload first greeting (Kannada)
+  textEl.textContent = greetings[0];
 
   let i = 0;
   let interval;
@@ -328,14 +331,11 @@ function randomisePosition() {
   const textW = textEl.offsetWidth;
   const textH = textEl.offsetHeight;
 
-  // Safe zone margins (just a few px so it doesn't touch walls)
-  const margin = 4;
+  const margin = 4; // minimal safe zone
 
-  // Maximum allowed movement area
   const maxX = Math.max(0, rect.width  - textW - margin);
   const maxY = Math.max(0, rect.height - textH - margin);
 
-  // Random positions inside safe bounds
   const x = Math.random() * maxX + margin / 2;
   const y = Math.random() * maxY + margin / 2;
 
@@ -357,37 +357,22 @@ function randomisePosition() {
   function stopRotation() {
     clearInterval(interval);
     i = 0;
-    textEl.textContent = greetings[0];
+    textEl.textContent = greetings[0]; // reset to Kannada
     textEl.style.opacity = "0";
   }
 
-  /** -------------------------------
-   * DESKTOP (hover)
-   * ------------------------------ */
-  banner.addEventListener("mouseenter", () => {
-    startRotation();
-  });
+  /* Desktop hover */
+  banner.addEventListener("mouseenter", () => startRotation());
+  banner.addEventListener("mouseleave", () => stopRotation());
 
-  banner.addEventListener("mouseleave", () => {
-    stopRotation();
-  });
-
-  /** -------------------------------
-   * MOBILE (tap)
-   * ------------------------------ */
+  /* Mobile tap */
   banner.addEventListener("click", () => {
-    // If already running, restart
     stopRotation();
     startRotation();
 
-    // Stop after 12 seconds on mobile
     clearTimeout(mobileTimer);
-    mobileTimer = setTimeout(() => {
-      stopRotation();
-    }, 12000);
+    mobileTimer = setTimeout(() => stopRotation(), 12000); // 12 seconds
   });
 
 });
 </script>
-
-
