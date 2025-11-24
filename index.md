@@ -285,85 +285,101 @@ main nav.breadcrumb {
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
-const greetings = [
-  "[kn] ನಮಸ್ಕಾರ",        // Kannada  (FIRST one)
-  "[ar] السلام عليكم",    // Arabic
-  "[as] নমস্কাৰ",          // Assamese
-  "[bn] নমস্কার",          // Bangla
-  "[de] Hallo",            // German
-  "[en] Hello",            // English
-  "[es] Hola",             // Spanish
-  "[fr] Bonjour",          // French
-  "[gu] નમસ્તે",            // Gujarati
-  "[he] שלום",             // Hebrew
-  "[hi] नमस्ते",            // Hindi
-  "[id] Halo",             // Indonesian
-  "[it] Ciao",             // Italian
-  "[ja] こんにちは",          // Japanese
-  "[ko] 안녕하세요",          // Korean
-  "[ml] നമസ്കാരം",          // Malayalam
-  "[mr] नमस्कार",            // Marathi
-  "[pa] ਸਤ ਸ੍ਰੀ ਅਕਾਲ",        // Punjabi
-  "[pt] Olá",              // Portuguese
-  "[ru] Привет",           // Russian
-  "[sa] स्वागतम्",           // Sanskrit
-  "[ta] நமஸ்காரம்",          // Tamil
-  "[te] నమస్కారం",           // Telugu
-  "[tr] Merhaba",          // Turkish
-  "[ur] السلام عليكم",        // Urdu
-  "[zh] 你好"               // Mandarin Chinese
-];
+  /* 1) Fixed first entry + remaining greetings */
+  const firstGreeting = "[kn] ನಮಸ್ಕಾರ";  // always first
+
+  const otherGreetings = [
+    "[ar] السلام عليكم",
+    "[as] নমস্কাৰ",
+    "[bn] নমস্কার",
+    "[de] Hallo",
+    "[en] Hello",
+    "[es] Hola",
+    "[fr] Bonjour",
+    "[gu] નમસ્તે",
+    "[he] שלום",
+    "[hi] नमस्ते",
+    "[id] Halo",
+    "[it] Ciao",
+    "[ja] こんにちは",
+    "[ko] 안녕하세요",
+    "[ml] നമസ്കാരം",
+    "[mr] नमस्कार",
+    "[pa] ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+    "[pt] Olá",
+    "[ru] Привет",
+    "[sa] स्वागतम्",
+    "[ta] நமஸ்காரம்",
+    "[te] నమస్కారం",
+    "[tr] Merhaba",
+    "[ur] السلام عليكم",
+    "[zh] 你好"
+  ];
 
   const banner = document.querySelector(".tsap-banner");
   const textEl = document.querySelector(".tsap-banner-hover-text");
   if (!banner || !textEl) return;
 
-  // FIX: Preload first greeting (Kannada)
-  textEl.textContent = greetings[0];
+  /* preload Kannada */
+  textEl.textContent = firstGreeting;
 
-  let i = 0;
   let interval;
   let mobileTimer;
 
-function randomisePosition() {
-  const rect = banner.getBoundingClientRect();
-  
-  const textW = textEl.offsetWidth;
-  const textH = textEl.offsetHeight;
+  /* Fisher–Yates shuffle */
+  function shuffle(array) {
+    let a = array.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
 
-  const margin = 4; // minimal safe zone
+  /* Randomised safe placement */
+  function randomisePosition() {
+    const rect = banner.getBoundingClientRect();
 
-  const maxX = Math.max(0, rect.width  - textW - margin);
-  const maxY = Math.max(0, rect.height - textH - margin);
+    const textW = textEl.offsetWidth;
+    const textH = textEl.offsetHeight;
 
-  const x = Math.random() * maxX + margin / 2;
-  const y = Math.random() * maxY + margin / 2;
+    const margin = 4;
+    const maxX = Math.max(0, rect.width  - textW - margin);
+    const maxY = Math.max(0, rect.height - textH - margin);
 
-  textEl.style.left = `${x}px`;
-  textEl.style.top  = `${y}px`;
-}
+    const x = Math.random() * maxX + margin / 2;
+    const y = Math.random() * maxY + margin / 2;
+
+    textEl.style.left = `${x}px`;
+    textEl.style.top  = `${y}px`;
+  }
 
   function startRotation() {
+
     textEl.style.opacity = "1";
     randomisePosition();
 
+    /* Create new random order each time */
+    const sequence = [firstGreeting, ...shuffle(otherGreetings)];
+
+    let i = 0;
+
     interval = setInterval(() => {
-      i = (i + 1) % greetings.length;
-      textEl.textContent = greetings[i];
+      i = (i + 1) % sequence.length;
+      textEl.textContent = sequence[i];
       randomisePosition();
     }, 1400);
   }
 
   function stopRotation() {
     clearInterval(interval);
-    i = 0;
-    textEl.textContent = greetings[0]; // reset to Kannada
+    textEl.textContent = firstGreeting;  // reset to Kannada
     textEl.style.opacity = "0";
   }
 
   /* Desktop hover */
-  banner.addEventListener("mouseenter", () => startRotation());
-  banner.addEventListener("mouseleave", () => stopRotation());
+  banner.addEventListener("mouseenter", startRotation);
+  banner.addEventListener("mouseleave", stopRotation);
 
   /* Mobile tap */
   banner.addEventListener("click", () => {
@@ -371,7 +387,7 @@ function randomisePosition() {
     startRotation();
 
     clearTimeout(mobileTimer);
-    mobileTimer = setTimeout(() => stopRotation(), 14000); // 14 seconds
+    mobileTimer = setTimeout(stopRotation, 14000); // 14s
   });
 
 });
