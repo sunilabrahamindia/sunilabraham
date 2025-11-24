@@ -2,9 +2,9 @@
 layout: default
 title: "India's Dreams of Web Censorship"
 description: "A Financial Times beyondbrics blog post quoting Sunil Abraham on Kapil Sibal's proposals for pre-screening online content and the technical impossibility of large-scale censorship."
-categories: [Media articles, Publications]
+categories: [Media articles, Media mentions, Publications]
 date: 2011-12-06
-authors: ["Financial Times (beyondbrics)", "Quotes: Sunil Abraham"]
+authors: ["Sunil Abraham"]
 source: "Financial Times"
 permalink: /publications/indias-dreams-of-web-censorship/
 created: 2025-11-23
