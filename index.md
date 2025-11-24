@@ -6,8 +6,6 @@ categories: [Project pages]
 image: /assets/images/Sunil%20Abraham%20Colour%20Nature.jpg
 created: 2025-10-19
 ---
-{% include shortcut.html shortcuts="[{ 'code': '/h', 'url': '/' }]" %}
-
 <div class="tsap-banner"
      role="img"
      aria-label="Graffiti-style banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless device, pendrive, laptop and communication tower on a brick wall.">
@@ -15,8 +13,8 @@ created: 2025-10-19
   <img class="tsap-image"
        src="/assets/images/tsap-welcome-banner.png"
        alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
-
 </div>
+{% include shortcut.html shortcuts="[{ 'code': '/h', 'url': '/' }]" %}
 
 **Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished.  
 
