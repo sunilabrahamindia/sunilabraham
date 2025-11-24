@@ -368,11 +368,11 @@ function randomisePosition() {
     stopRotation();
     startRotation();
 
-    // Stop after 5 seconds on mobile
+    // Stop after 8 seconds on mobile
     clearTimeout(mobileTimer);
     mobileTimer = setTimeout(() => {
       stopRotation();
-    }, 5000);
+    }, 8000);
   });
 
 });
