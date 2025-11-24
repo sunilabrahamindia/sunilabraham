@@ -4,11 +4,14 @@
     <a href="https://github.com/sunilabrahamindia/sunilabraham/commits/main/{{ page.path }}"
        class="created-link"
        rel="nofollow">
-      {{ page.created | date: "%-d %B %Y" }}
-    </a>. 
-    On GitHub, you may 
-    <a href="https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}"
-       rel="nofollow">view this page</a> 
+      {{ page.created | date: "%-d %B %Y" }}</a>. On GitHub, you may 
+    <a href="https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}" 
+       rel="nofollow"
+       class="github-preview"
+       aria-label="Preview this page on GitHub (shortcut: Alt+Shift+G)">
+       preview this page
+       <span class="tooltip">Tip: Press Alt+Shift+G</span>
+    </a> 
     or see its 
     <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/{{ page.path }}"
        rel="nofollow">raw source</a>.
