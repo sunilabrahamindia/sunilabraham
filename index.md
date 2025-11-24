@@ -117,14 +117,14 @@ main nav.breadcrumb {
 /* Reduce banner height on desktop only */
 @media (min-width: 900px) {
   .tsap-banner img.tsap-image {
-    height: 125px;   /* your chosen desktop height */
+    height: 150px;   /* your chosen desktop height */
     object-fit: cover;
   }
 }
 /* Adjust banner height on mobile only */
 @media (max-width: 600px) {
   .tsap-banner img.tsap-image {
-    height: 45px;   /* choose 160 / 180 / 200 depending on your taste */
+    height: 55px;   /* choose 160 / 180 / 200 depending on your taste */
     object-fit: cover;
   }
 }
