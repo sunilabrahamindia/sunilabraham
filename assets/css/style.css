@@ -573,25 +573,3 @@ a.btn:focus {
   background-color: #006837;
   box-shadow: 0 0 0 3px rgba(0, 133, 77, 0.3);
 }
-/* Collapsible H2 — inline Show/Hide + arrow on same line */
-.h2-collapsible {
-  position: relative;
-  padding-right: 4.5rem; /* space for text + arrow */
-  cursor: pointer;
-}
-
-.h2-toggle-inline {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 0.95rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  color: #444;
-  user-select: none;
-}
-
-.h2-toggle-inline .toggle-arrow {
-  font-size: 1.4rem; /* large arrow */
-}
