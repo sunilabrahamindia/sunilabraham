@@ -270,8 +270,8 @@ main nav.breadcrumb {
 
   /* Optional: slightly larger text on small screens */
   .tsap-banner-hover-text {
-    font-size: 1.05rem;
-    padding: 7px 14px;
+    font-size: 0.75rem;
+    padding: 3px 6px;
   }
 }
 
