@@ -124,7 +124,7 @@ main nav.breadcrumb {
 /* Adjust banner height on mobile only */
 @media (max-width: 600px) {
   .tsap-banner img.tsap-image {
-    height: 55px;   /* choose 160 / 180 / 200 depending on your taste */
+    height: 50px;   /* choose 160 / 180 / 200 depending on your taste */
     object-fit: cover;
   }
 }
@@ -195,7 +195,7 @@ main nav.breadcrumb {
 /* Mobile: full width but still left aligned */
 @media (max-width: 800px) {
   .tsap-contents {
-    max-width: 98%;
+    max-width: 100%;
     margin: 1.5rem 0;
   }
 }
