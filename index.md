@@ -104,7 +104,6 @@ All content are released under the [Creative Commons Attribution–ShareAlike 4.
     inset 0 0 6px rgba(0,0,0,0.18),
     0 0 10px rgba(0,0,0,0.12);
 }
-
 .tsap-banner img.tsap-image {
   width: 100%;
   height: auto;
@@ -123,7 +122,6 @@ main nav.breadcrumb {
     object-fit: cover;
   }
 }
-
 /* Adjust banner height on mobile only */
 @media (max-width: 600px) {
   .tsap-banner img.tsap-image {
@@ -131,4 +129,11 @@ main nav.breadcrumb {
     object-fit: cover;
   }
 }
+/* Hide banner entirely on very small phones */
+@media (max-width: 400px) {
+  .tsap-banner {
+    display: none !important;
+  }
+}
+
 </style>
