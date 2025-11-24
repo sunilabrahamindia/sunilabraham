@@ -84,7 +84,7 @@ In 2020, Sunil joined [Meta](https://www.meta.com/) (Facebook India) as Public P
 
 ## Other activities
 
-After leaving CIS in 2019, Sunil worked with the [Open Society Foundations](https://www.opensocietyfoundations.org/), focusing on digital governance, openness, and technology policy. He has also served as a consultant and adviser to several international organisations, including [UNDP](https://www.undp.org/), [UNESCO](https://www.unesco.org/), and the [International Development Research Centre (IDRC)](https://idrc-crdi.ca/). His assignments have ranged from open standards and localisation policy to digital inclusion and governance. He has contributed to projects in Asia, Africa, and Eastern Europe that connect technology policy with issues of equity, participation, and sustainable development.
+Sunil has served as a consultant and adviser to several international organisations, including [UNDP](https://www.undp.org/), [UNESCO](https://www.unesco.org/), and the [International Development Research Centre (IDRC)](https://idrc-crdi.ca/). His assignments have ranged from open standards and localisation policy to digital inclusion and governance. He has contributed to projects in Asia, Africa, and Eastern Europe that connect technology policy with issues of equity, participation, and sustainable development.
 
 <div align="center" style="margin:1.5rem auto; max-width:720px;">
   <img 
