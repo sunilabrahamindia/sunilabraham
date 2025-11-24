@@ -139,11 +139,9 @@ main nav.breadcrumb {
   }
 }
 /* ===============================
-   Vertical Contents Sidebar
+   Vertical Contents Box (Clean)
    =============================== */
 .tsap-contents {
-  position: sticky;
-  top: 100px;                /* stays in view when scrolling */
   padding: 1.2rem 1.4rem;
   border-left: 4px solid #0a2e57;
   background: #f7f9fc;
@@ -151,26 +149,30 @@ main nav.breadcrumb {
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   max-width: 260px;
   font-size: 0.96rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem auto; /* centered, with spacing above & below */
 }
 
+/* “Contents” heading */
 .tsap-contents h2 {
   margin: 0 0 0.8rem;
   font-size: 1.2rem;
   color: #0a2e57;
-  border-bottom: none;
+  border-bottom: none;  /* remove automatic H2 underline */
 }
 
+/* Remove list bullet spacing */
 .tsap-contents ol {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
+/* Space between items */
 .tsap-contents li {
   margin: 0.4rem 0;
 }
 
+/* Link styling */
 .tsap-contents a {
   color: #005cc5;
   text-decoration: none;
@@ -179,6 +181,7 @@ main nav.breadcrumb {
   display: block;
 }
 
+/* Small arrow indicator */
 .tsap-contents a::before {
   content: "▸";
   position: absolute;
@@ -187,15 +190,17 @@ main nav.breadcrumb {
   font-size: 0.9rem;
 }
 
+/* Hover style */
 .tsap-contents a:hover {
   color: #0a2e57;
   text-decoration: underline;
 }
+
+/* Mobile behavior — full width, same style */
 @media (max-width: 800px) {
   .tsap-contents {
-    position: relative;
-    top: 0;
     max-width: 100%;
+    margin: 1.5rem 0;
   }
 }
 </style>
