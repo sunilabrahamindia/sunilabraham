@@ -6,6 +6,7 @@ categories: [Project pages]
 image: /assets/images/Sunil%20Abraham%20Colour%20Nature.jpg
 created: 2025-10-19
 ---
+{% include shortcut.html shortcuts="[{ 'code': '/h', 'url': '/' }]" %}
 
 <div class="tsap-banner"
      role="img"
