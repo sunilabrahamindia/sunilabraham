@@ -25,13 +25,16 @@ Whether you are a researcher, student, practitioner, or reader exploring questio
 
 {% include back-to-top.html %}
 
-## Contents
-1. [About](#about)
-2. [Featured article](#featured-article)
-3. [Sunil Abraham](#sunil-abraham)
-4. [Did you know?](#did-you-know)
-5. [Licence](#licence)
-
+<nav class="tsap-contents">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#about">About</a></li>
+    <li><a href="#featured-article">Featured article</a></li>
+    <li><a href="#sunil-abraham">Sunil Abraham</a></li>
+    <li><a href="#did-you-know">Did you know?</a></li>
+    <li><a href="#licence">Licence</a></li>
+  </ol>
+</nav>
 
 ## About
 
@@ -133,6 +136,66 @@ main nav.breadcrumb {
 @media (max-width: 280px) {
   .tsap-banner {
     display: none !important;
+  }
+}
+/* ===============================
+   Vertical Contents Sidebar
+   =============================== */
+.tsap-contents {
+  position: sticky;
+  top: 100px;                /* stays in view when scrolling */
+  padding: 1.2rem 1.4rem;
+  border-left: 4px solid #0a2e57;
+  background: #f7f9fc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  max-width: 260px;
+  font-size: 0.96rem;
+  margin-bottom: 1.5rem;
+}
+
+.tsap-contents h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.2rem;
+  color: #0a2e57;
+  border-bottom: none;
+}
+
+.tsap-contents ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.tsap-contents li {
+  margin: 0.4rem 0;
+}
+
+.tsap-contents a {
+  color: #005cc5;
+  text-decoration: none;
+  position: relative;
+  padding-left: 14px;
+  display: block;
+}
+
+.tsap-contents a::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #0a2e57;
+  font-size: 0.9rem;
+}
+
+.tsap-contents a:hover {
+  color: #0a2e57;
+  text-decoration: underline;
+}
+@media (max-width: 800px) {
+  .tsap-contents {
+    position: relative;
+    top: 0;
+    max-width: 100%;
   }
 }
 </style>
