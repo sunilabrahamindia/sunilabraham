@@ -199,14 +199,36 @@ main nav.breadcrumb {
     margin: 1.5rem 0;
   }
 }
-/* Banner Hover Text — Rotating Greetings */
+/* ===============================
+   TSAP Banner Container
+   =============================== */
 .tsap-banner {
-  position: relative;
+  width: 100%;
+  margin: 0 auto 0.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative; /* required for overlay */
+  box-shadow:
+    inset 0 0 6px rgba(0,0,0,0.18),
+    0 0 10px rgba(0,0,0,0.12);
 }
 
+/* Banner Image */
+.tsap-banner img.tsap-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================================
+   Hover / Tap Floating Text (Greetings)
+   ========================================= */
 .tsap-banner-hover-text {
   position: absolute;
-  left: 50%;
+  left: 50%;           /* start in centre — JS moves later */
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 6px 12px;
@@ -218,49 +240,135 @@ main nav.breadcrumb {
   transition: opacity 0.25s ease;
   text-align: center;
   white-space: nowrap;
+  pointer-events: none; /* allows taps to reach banner */
+  z-index: 2;
 }
 
-/* show on hover only on desktop */
-@media (hover: hover) and (pointer: fine) {
-  .tsap-banner:hover .tsap-banner-hover-text {
-    opacity: 1;
+/* Desktop hover support */
+.tsap-banner:hover .tsap-banner-hover-text {
+  opacity: 1;
+}
+
+/* =========================================
+   Responsive Banner Height
+   ========================================= */
+
+/* Desktop */
+@media (min-width: 900px) {
+  .tsap-banner img.tsap-image {
+    height: 150px;
+    object-fit: cover;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .tsap-banner img.tsap-image {
+    height: 50px;
+    object-fit: cover;
+  }
+
+  /* Optional: slightly larger text on small screens */
+  .tsap-banner-hover-text {
+    font-size: 1.05rem;
+    padding: 7px 14px;
+  }
+}
+
+/* Hide banner on ultra-small devices */
+@media (max-width: 280px) {
+  .tsap-banner {
+    display: none !important;
   }
 }
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+
   const greetings = [
-    "Hello",
-    "নমস্কাৰ",       // Assamese
-    "হেলো",          // Bangla
-    "नमस्ते",        // Hindi
-    "નમસ્તે",        // Gujarati
-    "ನಮಸ್ಕಾರ",      // Kannada
-    "നമസ്കാരം",     // Malayalam
-    "நமஸ்காரம்",    // Tamil
-    "నమస్కారం",      // Telugu
-    "ਸਤ ਸ੍ਰੀ ਅਕਾਲ"   // Punjabi
+    "নমস্কাৰ",          // Assamese
+    "নমস্কার",          // Bangla
+    "प्रणाम",           // Bhojpuri
+    "નમસ્તે",           // Gujarati
+    "नमस्ते",           // Hindi
+    "ನಮಸ್ಕಾರ",         // Kannada
+    "നമസ്കാരം",        // Malayalam
+    "नमस्कार",          // Marathi
+    "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",      // Punjabi
+    "नमः",              // Sanskrit
+    "நமஸ்காரம்",        // Tamil
+    "నమస్కారం",         // Telugu
+    "السلام عليكم"       // Urdu
   ];
 
+  const banner = document.querySelector(".tsap-banner");
   const textEl = document.querySelector(".tsap-banner-hover-text");
-  if (!textEl) return;
+  if (!banner || !textEl) return;
 
   let i = 0;
-  textEl.textContent = greetings[0];
+  let interval;
+  let mobileTimer;
 
-  // Rotate greetings only on hover
-  document.querySelector(".tsap-banner").addEventListener("mouseenter", () => {
-    let interval = setInterval(() => {
+  function randomisePosition() {
+    const rect = banner.getBoundingClientRect();
+    const margin = 20;
+
+    const maxX = rect.width - textEl.offsetWidth - margin;
+    const maxY = rect.height - textEl.offsetHeight - margin;
+
+    const x = Math.random() * maxX + margin / 2;
+    const y = Math.random() * maxY + margin / 2;
+
+    textEl.style.left = `${x}px`;
+    textEl.style.top = `${y}px`;
+  }
+
+  function startRotation() {
+    textEl.style.opacity = "1";
+    randomisePosition();
+
+    interval = setInterval(() => {
       i = (i + 1) % greetings.length;
       textEl.textContent = greetings[i];
-    }, 1200);
+      randomisePosition();
+    }, 1400);
+  }
 
-    // stop rotation when mouse leaves banner
-    document.querySelector(".tsap-banner").addEventListener("mouseleave", () => {
-      clearInterval(interval);
-      textEl.textContent = greetings[0];  // reset to Hello
-    }, { once: true });
+  function stopRotation() {
+    clearInterval(interval);
+    i = 0;
+    textEl.textContent = greetings[0];
+    textEl.style.opacity = "0";
+  }
+
+  /** -------------------------------
+   * DESKTOP (hover)
+   * ------------------------------ */
+  banner.addEventListener("mouseenter", () => {
+    startRotation();
   });
+
+  banner.addEventListener("mouseleave", () => {
+    stopRotation();
+  });
+
+
+  /** -------------------------------
+   * MOBILE (tap)
+   * ------------------------------ */
+  banner.addEventListener("click", () => {
+    // If already running, restart
+    stopRotation();
+    startRotation();
+
+    // Stop after 5 seconds on mobile
+    clearTimeout(mobileTimer);
+    mobileTimer = setTimeout(() => {
+      stopRotation();
+    }, 5000);
+  });
+
 });
 </script>
+
 
