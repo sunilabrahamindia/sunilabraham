@@ -58,6 +58,8 @@ created: 2025-11-24
 
 <p>"The biggest message we have heard recently is that people want easier control over their information. Simply put, many of you thought our controls were too complex. Our intention was to give you lots of granular controls; but that may not have been what many of you wanted. We just missed the mark,"said Zuckerberg.</p>
 
+</div>
+
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
 {% include back-to-top.html %}
