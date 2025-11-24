@@ -16,8 +16,10 @@ created: 2025-11-24
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
+   2.1 [Video](#video)  
 3. [Context and Background](#context-and-background)  
 4. [External Link](#external-link)
+
 
 ## Article Details
 
@@ -71,6 +73,21 @@ created: 2025-11-24
 </div>
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
+
+### Video
+
+Sunil Abraham was a speaker along with Cynthia Wong, Mohamed El Dahshan and Dunja Mijatovic in Plenary IV Debate 3 at the Internet at Liberty 2012 event organised by Google on 24 May 2012.
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/9YMte4hdYu0" 
+  title="Internet at Liberty 2012 – Plenary IV Debate 3"
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+[View the video on YouTube](https://www.youtube.com/watch?v=9YMte4hdYu0)
 
 {% include back-to-top.html %}
 
