@@ -60,10 +60,17 @@
       content: none !important;
     }
 
+    /* NEW: restore bullet AFTER the bracketed group */
+    footer .no-separator + a::before {
+      content: "·";
+      margin: 0 4px;
+      color: #777;
+    }
+
     /* Footer Version Tag – ACCESSIBLE */
     footer .version-tag {
       font-size: 0.86em;
-      color: #444; /* meets WCAG AA contrast on #fafafa */
+      color: #444;
       margin-top: 0.25rem;
       display: block;
       letter-spacing: 0.3px;
@@ -89,8 +96,12 @@
     <a href="https://www.sunilabraham.in/versions">Versions</a>
     <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
     <a href="https://www.sunilabraham.in/sitemap">Sitemap</a>
-    (<span class="no-separator"><a href="https://www.sunilabraham.in/newest">Newest pages</a>,
-      <a href="https://www.sunilabraham.in/sitemap.xml">XML</a></span>)
+
+    ( <span class="no-separator">
+        <a href="https://www.sunilabraham.in/newest">Newest pages</a>,
+        <a href="https://www.sunilabraham.in/sitemap.xml">XML</a>
+      </span> )
+
     <a href="https://www.sunilabraham.in/privacy">Privacy Policy</a>
     <a href="https://www.sunilabraham.in/disclaimer">Disclaimer</a>
     <a href="https://www.sunilabraham.in/shortcuts">Shortcuts</a>
@@ -110,33 +121,33 @@
     </a>
   </p>
 
-<!-- WAVE Accessibility Checker link updater -->
-<script>
-  const currentURL = encodeURIComponent(window.location.href);
-  document.getElementById('accessibility-link').href =
-    'https://wave.webaim.org/report#/' + currentURL;
-</script>
+  <!-- WAVE Accessibility Checker link updater -->
+  <script>
+    const currentURL = encodeURIComponent(window.location.href);
+    document.getElementById('accessibility-link').href =
+      'https://wave.webaim.org/report#/' + currentURL;
+  </script>
 
-<!-- Alt + Shift + X → Load a random page -->
-<script>
-  document.addEventListener('keydown', function (e) {
-    if (e.altKey && e.shiftKey && e.key === 'X') {
-      window.location.href = '/random/';
-    }
-  });
-</script>
+  <!-- Alt + Shift + X → Load a random page -->
+  <script>
+    document.addEventListener('keydown', function (e) {
+      if (e.altKey && e.shiftKey && e.key === 'X') {
+        window.location.href = '/random/';
+      }
+    });
+  </script>
 
-<!-- Alt + Shift + G → Open this page's GitHub source -->
-<script>
-  const githubEditURL =
-    "https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}";
+  <!-- Alt + Shift + G → Open this page's GitHub source -->
+  <script>
+    const githubEditURL =
+      "https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}";
 
-  document.addEventListener('keydown', function (e) {
-    if (['INPUT','TEXTAREA'].includes(e.target.tagName)) return;
-    if (e.altKey && e.shiftKey && e.key === 'G') {
-      window.location.href = githubEditURL;
-    }
-  });
-</script>
+    document.addEventListener('keydown', function (e) {
+      if (['INPUT','TEXTAREA'].includes(e.target.tagName)) return;
+      if (e.altKey && e.shiftKey && e.key === 'G') {
+        window.location.href = githubEditURL;
+      }
+    });
+  </script>
 
 </footer>
