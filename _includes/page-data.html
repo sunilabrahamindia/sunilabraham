@@ -4,8 +4,7 @@
     <a href="https://github.com/sunilabrahamindia/sunilabraham/commits/main/{{ page.path }}"
        class="created-link"
        rel="nofollow">
-      {{ page.created | date: "%-d %B %Y" }}
-    </a>. 
+      {{ page.created | date: "%-d %B %Y" }}</a>. 
     
     It has approximately 
     {{ page.content | number_of_words }} words 
@@ -26,3 +25,82 @@
        rel="nofollow">raw source</a>.
   </em>
 </p>
+<style>
+/* Page data line */
+.page-data {
+  margin-top: 0.8em;
+  font-size: 0.9em;
+  color: #333;
+  font-style: italic;
+}
+
+/* Links */
+.page-data a {
+  color: #0645ad;
+  text-decoration: none;
+}
+.page-data a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------------------
+   Tooltip Container
+--------------------------------------------------------- */
+.github-preview {
+  position: relative;
+}
+
+/* Default tooltip (desktop) */
+.github-preview .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  white-space: nowrap;
+  z-index: 20;
+  transition: opacity 0.25s ease;
+}
+
+/* Tooltip arrow */
+.github-preview .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* ---------------------------------------------------------
+   Desktop only: show tooltip
+--------------------------------------------------------- */
+@media (hover: hover) and (pointer: fine) {
+  .github-preview:hover .tooltip,
+  .github-preview:focus .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+/* ---------------------------------------------------------
+   MOBILE: completely disable tooltip
+   Works on:
+   - iOS Safari
+   - Android Chrome
+   - Tablets
+--------------------------------------------------------- */
+@media (hover: none) and (pointer: coarse), (max-width: 768px) {
+  .github-preview .tooltip {
+    display: none !important;
+  }
+}
+</style>
