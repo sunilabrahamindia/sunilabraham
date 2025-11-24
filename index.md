@@ -371,7 +371,7 @@ function randomisePosition() {
     startRotation();
 
     clearTimeout(mobileTimer);
-    mobileTimer = setTimeout(() => stopRotation(), 12000); // 12 seconds
+    mobileTimer = setTimeout(() => stopRotation(), 14000); // 14 seconds
   });
 
 });
