@@ -306,7 +306,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/connected-trouble){: .btn}
 
 - *"Hits and Misses With the Draft Encryption Policy"* — *The Wire*, 2015.  
-  [Read here](/publications/connected-trouble){: .btn}
+  [Read here](/publications/hits-and-misses-with-the-draft-encryption-policy){: .btn}
 
 ### 2016
 - *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics"* — *Firstpost*, 2016.  
