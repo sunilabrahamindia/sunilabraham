@@ -1,38 +1,55 @@
-<div class="shortcut-box">
-  {% assign items = include.shortcuts | split: "}," %}
+<div class="mw-shortcut">
+  {% assign items = include.shortcuts | split: "," %}
 
   {% for item in items %}
-    {% assign clean = item | replace: "[{ ", "" | replace: " }]", "" %}
-    {% assign code = clean | split: "'" | slice: 1 %}
-    {% assign url  = clean | split: "'" | slice: 3 %}
+    {% assign pair = item | strip | split: "::" %}
+    {% assign code = pair[0] %}
+    {% assign url  = pair[1] %}
 
-    <a href="{{ url }}" class="shortcut-item">{{ code }}</a>
+    <div class="mw-shortcut-item">
+      <a href="{{ url }}">{{ code }}</a>
+    </div>
   {% endfor %}
 </div>
 
 <style>
-.shortcut-box {
+/* Shortcut box – clean Wikipedia-style */
+.mw-shortcut {
   float: right;
-  background: #f7f9fc;
-  border: 1px solid #d0d7de;
-  padding: 6px 10px;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  margin: 0 0 0.6rem 1rem;
+  clear: right;
+  margin: 0 0 0.5em 1em;
+  padding: 4px 8px;
+  border: 1px solid #c8ccd1;
+  background: #f8f9fa;
+  border-radius: 4px;
   font-size: 0.85rem;
-  width: auto;
+  line-height: 1.3;
   display: inline-block;
+  width: auto;
 }
 
-.shortcut-item {
-  display: block;
-  color: #0a2e57;
+/* each shortcut line */
+.mw-shortcut-item {
+  margin: 2px 0;
+}
+
+/* link styling */
+.mw-shortcut-item a {
+  color: #0645ad;
   text-decoration: none;
-  font-weight: 600;
-  padding: 2px 0;
+  font-weight: bold;
 }
 
-.shortcut-item:hover {
+.mw-shortcut-item a:hover {
   text-decoration: underline;
+}
+
+/* tiny screens only */
+@media (max-width: 360px) {
+  .mw-shortcut {
+    float: none;
+    margin: 0 0 0.8rem 0;
+    display: block;
+  }
 }
 </style>
