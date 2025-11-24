@@ -574,31 +574,28 @@ a.btn:focus {
   box-shadow: 0 0 0 3px rgba(0, 133, 77, 0.3);
 }
 /* =========================================================
-   Collapsible H2: Show / Hide toggle
+   Collapsible H2 Sections
    ========================================================= */
-.h2-toggle-line {
-  font-size: 0.95rem;
-  color: #444;
-  margin-top: -0.4rem;      /* keeps toggle close to H2 */
-  margin-bottom: 0.6rem;
+.h2-collapsible {
   cursor: pointer;
-  user-select: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
+  position: relative;
+  padding-right: 1.4rem;
 }
 
-.h2-toggle-line span.toggle-text {
-  font-weight: 600;
-}
-
-.h2-toggle-line span.toggle-arrow {
-  font-size: 1.4rem;       /* Larger arrow as requested */
-  line-height: 1;
-  display: inline-block;
+.h2-caret {
+  position: absolute;
+  right: 0;
+  top: 0.15rem;
+  font-size: 1.2rem;
+  color: #444;
   transition: transform 0.25s ease;
 }
 
+.h2-collapsible[aria-expanded="false"] .h2-caret {
+  transform: rotate(-90deg); /* ▸ pointing right */
+}
+
+/* The content wrapper */
 .h2-content {
   overflow: hidden;
   transition: max-height 0.35s ease;
