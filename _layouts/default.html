@@ -195,6 +195,55 @@
       GLightbox({ selector: '.lightbox' });
     });
   </script>
+ // Make H2 section collapsible
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const headings = document.querySelectorAll("main h2");
 
+  headings.forEach(h2 => {
+    // Create caret
+    const caret = document.createElement("span");
+    caret.className = "h2-caret";
+    caret.textContent = "▾";
+
+    // Make H2 clickable & accessible
+    h2.classList.add("h2-collapsible");
+    h2.setAttribute("tabindex", "0");
+    h2.setAttribute("role", "button");
+    h2.setAttribute("aria-expanded", "true");
+    h2.appendChild(caret);
+
+    // Wrap content until next H2
+    let wrapper = document.createElement("div");
+    wrapper.className = "h2-content";
+
+    let next = h2.nextElementSibling;
+    while (next && next.tagName !== "H2") {
+      let temp = next.nextElementSibling;
+      wrapper.appendChild(next);
+      next = temp;
+    }
+
+    h2.parentNode.insertBefore(wrapper, next);
+
+    // Default expanded
+    wrapper.style.maxHeight = wrapper.scrollHeight + "px";
+
+    // Toggle function
+    function toggle() {
+      const expanded = h2.getAttribute("aria-expanded") === "true";
+      h2.setAttribute("aria-expanded", !expanded);
+      caret.textContent = expanded ? "▸" : "▾";
+      wrapper.style.maxHeight = expanded ? "0px" : wrapper.scrollHeight + "px";
+    }
+
+    // Click + keyboard support
+    h2.addEventListener("click", toggle);
+    h2.addEventListener("keypress", e => {
+      if (e.key === "Enter" || e.key === " ") toggle();
+    });
+  });
+});
+</script>
 </body>
 </html>
