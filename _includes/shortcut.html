@@ -1,41 +1,38 @@
 <div class="shortcut-box">
-  {% if include.shortcuts %}
-    {% for item in include.shortcuts %}
-      <a href="{{ item.url | relative_url }}">{{ item.code }}</a><br>
-    {% endfor %}
-  {% endif %}
+  {% assign items = include.shortcuts | split: "}," %}
+
+  {% for item in items %}
+    {% assign clean = item | replace: "[{ ", "" | replace: " }]", "" %}
+    {% assign code = clean | split: "'" | slice: 1 %}
+    {% assign url  = clean | split: "'" | slice: 3 %}
+
+    <a href="{{ url }}" class="shortcut-item">{{ code }}</a>
+  {% endfor %}
 </div>
 
 <style>
 .shortcut-box {
   float: right;
-  clear: right;
-  background: #f2f6fa;            /* soft research-like blue-grey */
+  background: #f7f9fc;
   border: 1px solid #d0d7de;
-  border-radius: 4px;
-  padding: 4px 8px;
-  margin: 0 0 0.5rem 1rem;
-  font-size: 0.78rem;
-  line-height: 1.25;
-  text-align: right;
-  min-width: 48px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  margin: 0 0 0.6rem 1rem;
+  font-size: 0.85rem;
+  width: auto;
+  display: inline-block;
 }
 
-.shortcut-box a {
+.shortcut-item {
+  display: block;
   color: #0a2e57;
   text-decoration: none;
+  font-weight: 600;
+  padding: 2px 0;
 }
 
-.shortcut-box a:hover {
+.shortcut-item:hover {
   text-decoration: underline;
-}
-
-/* Mobile: place shortcut below title, not floating */
-@media (max-width: 600px) {
-  .shortcut-box {
-    float: none;
-    text-align: left;
-    margin: 0.3rem 0 0.8rem 0;
-  }
 }
 </style>
