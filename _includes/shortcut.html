@@ -1,4 +1,7 @@
+<!-- Shortcut box (Wikipedia style) -->
 <div class="mw-shortcut">
+  <div class="mw-shortcut-label">Shortcut</div>
+
   {% assign items = include.shortcuts | split: "," %}
 
   {% for item in items %}
@@ -13,42 +16,51 @@
 </div>
 
 <style>
-/* Shortcut box – clean Wikipedia-style */
+/* Wrapper box */
 .mw-shortcut {
   float: right;
   clear: right;
   margin: 0 0 0.5em 1em;
-  padding: 4px 8px;
-  border: 1px solid #c8ccd1;
-  background: #f8f9fa;
-  border-radius: 4px;
+  padding: 6px 10px;
+  border: 1px solid #d0d7de;
+  background: #f7f9fc;
+  border-radius: 6px;
   font-size: 0.85rem;
   line-height: 1.3;
   display: inline-block;
   width: auto;
 }
 
-/* each shortcut line */
+/* Small label above the codes */
+.mw-shortcut-label {
+  font-size: 0.75rem;
+  color: #555;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Individual shortcut items */
 .mw-shortcut-item {
   margin: 2px 0;
 }
 
-/* link styling */
+/* Shortcut link (NOT bold) */
 .mw-shortcut-item a {
   color: #0645ad;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .mw-shortcut-item a:hover {
   text-decoration: underline;
 }
 
-/* tiny screens only */
+/* Tiny screens only */
 @media (max-width: 360px) {
   .mw-shortcut {
     float: none;
-    margin: 0 0 0.8rem 0;
+    margin: 0.5rem 0 0.8rem 0;
     display: block;
   }
 }
