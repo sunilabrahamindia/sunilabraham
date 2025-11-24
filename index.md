@@ -286,12 +286,9 @@ main nav.breadcrumb {
 document.addEventListener("DOMContentLoaded", () => {
 
 const greetings = [
-  "[am] ሰላም",          // Amharic
   "[ar] السلام عليكم",  // Arabic
   "[as] নমস্কাৰ",        // Assamese
   "[bn] নমস্কার",        // Bangla
-  "[bo] བཀྲོང",          // Tibetan
-  "[bho] प्रणाम",        // Bhojpuri
   "[de] Hallo",          // German
   "[en] Hello",          // English
   "[es] Hola",           // Spanish
@@ -306,16 +303,12 @@ const greetings = [
   "[ko] 안녕하세요",        // Korean
   "[ml] നമസ്കാരം",        // Malayalam
   "[mr] नमस्कार",          // Marathi
-  "[ne] नमस्कार",          // Nepali
   "[pa] ਸਤ ਸ੍ਰੀ ਅਕਾਲ",      // Punjabi
   "[pt] Olá",            // Portuguese
   "[ru] Привет",         // Russian
   "[sa] स्वागतम्",         // Sanskrit
-  "[si] ආයුබෝවන්",        // Sinhala
-  "[sw] Jambo",          // Swahili
   "[ta] நமஸ்காரம்",        // Tamil
   "[te] నమస్కారం",         // Telugu
-  "[th] สวัสดี",          // Thai
   "[tr] Merhaba",        // Turkish
   "[ur] السلام عليكم",      // Urdu
   "[zh] 你好"             // Mandarin Chinese
