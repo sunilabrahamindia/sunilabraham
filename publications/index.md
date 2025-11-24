@@ -236,6 +236,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
   _An essay on the global evolution of openness and free software movements._
 
+- *"Open Letter to Hillary Clinton on Internet Freedom"* — *Thinking Aloud*, 2012.  
+  [Read here](/publications/open-letter-to-hillary-clinton-on-internet-freedom/){: .btn}
+
 - *"Online Censorship: How Government Should Approach Regulation of Speech"* — *The Economic Times*, 2012.  
   [Read here](/publications/online-censorship-how-government-should-approach-regulation-of-speech/){: .btn}
 
