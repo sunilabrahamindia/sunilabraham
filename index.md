@@ -309,19 +309,26 @@ document.addEventListener("DOMContentLoaded", () => {
   let interval;
   let mobileTimer;
 
-  function randomisePosition() {
-    const rect = banner.getBoundingClientRect();
-    const margin = 20;
+function randomisePosition() {
+  const rect = banner.getBoundingClientRect();
+  
+  const textW = textEl.offsetWidth;
+  const textH = textEl.offsetHeight;
 
-    const maxX = rect.width - textEl.offsetWidth - margin;
-    const maxY = rect.height - textEl.offsetHeight - margin;
+  // Safe zone margins (just a few px so it doesn't touch walls)
+  const margin = 4;
 
-    const x = Math.random() * maxX + margin / 2;
-    const y = Math.random() * maxY + margin / 2;
+  // Maximum allowed movement area
+  const maxX = Math.max(0, rect.width  - textW - margin);
+  const maxY = Math.max(0, rect.height - textH - margin);
 
-    textEl.style.left = `${x}px`;
-    textEl.style.top = `${y}px`;
-  }
+  // Random positions inside safe bounds
+  const x = Math.random() * maxX + margin / 2;
+  const y = Math.random() * maxY + margin / 2;
+
+  textEl.style.left = `${x}px`;
+  textEl.style.top  = `${y}px`;
+}
 
   function startRotation() {
     textEl.style.opacity = "1";
