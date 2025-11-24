@@ -9,7 +9,7 @@ created: 2025-10-19
 <div class="tsap-banner"
      role="img"
      aria-label="Graffiti-style banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless device, pendrive, laptop and communication tower on a brick wall.">
-  
+<span class="tsap-banner-hover-text"></span>
   <img class="tsap-image"
        src="/assets/images/tsap-welcome-banner.png"
        alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
@@ -199,4 +199,68 @@ main nav.breadcrumb {
     margin: 1.5rem 0;
   }
 }
+/* Banner Hover Text — Rotating Greetings */
+.tsap-banner {
+  position: relative;
+}
+
+.tsap-banner-hover-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 6px 12px;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* show on hover only on desktop */
+@media (hover: hover) and (pointer: fine) {
+  .tsap-banner:hover .tsap-banner-hover-text {
+    opacity: 1;
+  }
+}
 </style>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const greetings = [
+    "Hello",
+    "নমস্কাৰ",       // Assamese
+    "হেলো",          // Bangla
+    "नमस्ते",        // Hindi
+    "નમસ્તે",        // Gujarati
+    "ನಮಸ್ಕಾರ",      // Kannada
+    "നമസ്കാരം",     // Malayalam
+    "நமஸ்காரம்",    // Tamil
+    "నమస్కారం",      // Telugu
+    "ਸਤ ਸ੍ਰੀ ਅਕਾਲ"   // Punjabi
+  ];
+
+  const textEl = document.querySelector(".tsap-banner-hover-text");
+  if (!textEl) return;
+
+  let i = 0;
+  textEl.textContent = greetings[0];
+
+  // Rotate greetings only on hover
+  document.querySelector(".tsap-banner").addEventListener("mouseenter", () => {
+    let interval = setInterval(() => {
+      i = (i + 1) % greetings.length;
+      textEl.textContent = greetings[i];
+    }, 1200);
+
+    // stop rotation when mouse leaves banner
+    document.querySelector(".tsap-banner").addEventListener("mouseleave", () => {
+      clearInterval(interval);
+      textEl.textContent = greetings[0];  // reset to Hello
+    }, { once: true });
+  });
+});
+</script>
+
