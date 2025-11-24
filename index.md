@@ -139,7 +139,7 @@ main nav.breadcrumb {
   }
 }
 /* ===============================
-   Vertical Contents Box (Clean)
+   Vertical Contents Box (Left)
    =============================== */
 .tsap-contents {
   padding: 1.2rem 1.4rem;
@@ -149,7 +149,7 @@ main nav.breadcrumb {
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   max-width: 260px;
   font-size: 0.96rem;
-  margin: 1.5rem auto; /* centered, with spacing above & below */
+  margin: 1.5rem 0;  /* left aligned, normal flow */
 }
 
 /* “Contents” heading */
@@ -196,7 +196,7 @@ main nav.breadcrumb {
   text-decoration: underline;
 }
 
-/* Mobile behavior — full width, same style */
+/* Mobile: full width but still left aligned */
 @media (max-width: 800px) {
   .tsap-contents {
     max-width: 100%;
