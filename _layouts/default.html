@@ -195,52 +195,73 @@
       GLightbox({ selector: '.lightbox' });
     });
   </script>
- // Make H2 section collapsible
+// Make H2 section collapsible
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const headings = document.querySelectorAll("main h2");
+  const sections = document.querySelectorAll("main h2");
 
-  headings.forEach(h2 => {
-    // Create caret
-    const caret = document.createElement("span");
-    caret.className = "h2-caret";
-    caret.textContent = "▾";
+  sections.forEach(h2 => {
+    // Create toggle line
+    const toggle = document.createElement("div");
+    toggle.className = "h2-toggle-line";
+    toggle.setAttribute("tabindex", "0");
+    toggle.setAttribute("role", "button");
+    toggle.setAttribute("aria-expanded", "true");
 
-    // Make H2 clickable & accessible
-    h2.classList.add("h2-collapsible");
-    h2.setAttribute("tabindex", "0");
-    h2.setAttribute("role", "button");
-    h2.setAttribute("aria-expanded", "true");
-    h2.appendChild(caret);
+    // Inner text: Show/Hide + arrow
+    const text = document.createElement("span");
+    text.className = "toggle-text";
+    text.textContent = "Hide";
 
-    // Wrap content until next H2
-    let wrapper = document.createElement("div");
+    const arrow = document.createElement("span");
+    arrow.className = "toggle-arrow";
+    arrow.textContent = "▾";  // Expanded arrow
+
+    toggle.appendChild(text);
+    toggle.appendChild(arrow);
+
+    // Insert toggle line under the H2
+    h2.insertAdjacentElement("afterend", toggle);
+
+    // Wrap everything until next H2 into a collapsible wrapper
+    const wrapper = document.createElement("div");
     wrapper.className = "h2-content";
 
-    let next = h2.nextElementSibling;
+    let next = toggle.nextElementSibling;
     while (next && next.tagName !== "H2") {
-      let temp = next.nextElementSibling;
+      const temp = next.nextElementSibling;
       wrapper.appendChild(next);
       next = temp;
     }
 
-    h2.parentNode.insertBefore(wrapper, next);
+    toggle.parentNode.insertBefore(wrapper, next);
 
     // Default expanded
     wrapper.style.maxHeight = wrapper.scrollHeight + "px";
 
-    // Toggle function
-    function toggle() {
-      const expanded = h2.getAttribute("aria-expanded") === "true";
-      h2.setAttribute("aria-expanded", !expanded);
-      caret.textContent = expanded ? "▸" : "▾";
-      wrapper.style.maxHeight = expanded ? "0px" : wrapper.scrollHeight + "px";
+    // Toggle behaviour
+    function toggleSection() {
+      const expanded = toggle.getAttribute("aria-expanded") === "true";
+
+      if (expanded) {
+        // Collapse
+        wrapper.style.maxHeight = "0px";
+        toggle.setAttribute("aria-expanded", "false");
+        text.textContent = "Show";
+        arrow.textContent = "▸"; // Right arrow
+      } else {
+        // Expand
+        wrapper.style.maxHeight = wrapper.scrollHeight + "px";
+        toggle.setAttribute("aria-expanded", "true");
+        text.textContent = "Hide";
+        arrow.textContent = "▾"; // Down arrow
+      }
     }
 
-    // Click + keyboard support
-    h2.addEventListener("click", toggle);
-    h2.addEventListener("keypress", e => {
-      if (e.key === "Enter" || e.key === " ") toggle();
+    // Click and keyboard
+    toggle.addEventListener("click", toggleSection);
+    toggle.addEventListener("keypress", e => {
+      if (e.key === "Enter" || e.key === " ") toggleSection();
     });
   });
 });
