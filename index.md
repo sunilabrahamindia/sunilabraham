@@ -130,10 +130,9 @@ main nav.breadcrumb {
   }
 }
 /* Hide banner entirely on very small phones */
-@media (max-width: 400px) {
+@media (max-width: 280px) {
   .tsap-banner {
     display: none !important;
   }
 }
-
 </style>
