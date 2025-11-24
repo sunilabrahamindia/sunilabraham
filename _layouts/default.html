@@ -224,11 +224,12 @@ document.addEventListener("DOMContentLoaded", function () {
     wrap.className = "h2-content";
 
     let next = h2.nextElementSibling;
-    while (next && next.tagName !== "H2") {
-      const temp = next.nextElementSibling;
-      wrap.appendChild(next);
-      next = temp;
-    }
+  while (next && !(next.tagName && next.tagName.match(/^H[1-6]$/))) {
+  const temp = next.nextSibling;   // IMPORTANT: nextSibling, not nextElementSibling
+  wrapper.appendChild(next);
+  next = temp;
+}
+
 
     h2.parentNode.insertBefore(wrap, next);
 
