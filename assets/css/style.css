@@ -573,30 +573,25 @@ a.btn:focus {
   background-color: #006837;
   box-shadow: 0 0 0 3px rgba(0, 133, 77, 0.3);
 }
-/* =========================================================
-   Collapsible H2 Sections
-   ========================================================= */
+/* Collapsible H2 — inline Show/Hide + arrow on same line */
 .h2-collapsible {
-  cursor: pointer;
   position: relative;
-  padding-right: 1.4rem;
+  padding-right: 4.5rem; /* space for text + arrow */
+  cursor: pointer;
 }
 
-.h2-caret {
+.h2-toggle-inline {
   position: absolute;
+  top: 0;
   right: 0;
-  top: 0.15rem;
-  font-size: 1.2rem;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
   color: #444;
-  transition: transform 0.25s ease;
+  user-select: none;
 }
 
-.h2-collapsible[aria-expanded="false"] .h2-caret {
-  transform: rotate(-90deg); /* ▸ pointing right */
-}
-
-/* The content wrapper */
-.h2-content {
-  overflow: hidden;
-  transition: max-height 0.35s ease;
+.h2-toggle-inline .toggle-arrow {
+  font-size: 1.4rem; /* large arrow */
 }
