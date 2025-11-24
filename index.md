@@ -285,21 +285,41 @@ main nav.breadcrumb {
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
-  const greetings = [
-    "নমস্কাৰ",          // Assamese
-    "নমস্কার",          // Bangla
-    "प्रणाम",           // Bhojpuri
-    "નમસ્તે",           // Gujarati
-    "नमस्ते",           // Hindi
-    "ನಮಸ್ಕಾರ",         // Kannada
-    "നമസ്കാരം",        // Malayalam
-    "नमस्कार",          // Marathi
-    "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",      // Punjabi
-    "नमः",              // Sanskrit
-    "நமஸ்காரம்",        // Tamil
-    "నమస్కారం",         // Telugu
-    "السلام عليكم"       // Urdu
-  ];
+const greetings = [
+  "[am] ሰላም",          // Amharic
+  "[ar] السلام عليكم",  // Arabic
+  "[as] নমস্কাৰ",        // Assamese
+  "[bn] নমস্কার",        // Bangla
+  "[bo] བཀྲོང",          // Tibetan
+  "[bho] प्रणाम",        // Bhojpuri
+  "[de] Hallo",          // German
+  "[en] Hello",          // English
+  "[es] Hola",           // Spanish
+  "[fr] Bonjour",        // French
+  "[gu] નમસ્તે",          // Gujarati
+  "[he] שלום",           // Hebrew
+  "[hi] नमस्ते",          // Hindi
+  "[id] Halo",           // Indonesian
+  "[it] Ciao",           // Italian
+  "[ja] こんにちは",        // Japanese
+  "[kn] ನಮಸ್ಕಾರ",         // Kannada
+  "[ko] 안녕하세요",        // Korean
+  "[ml] നമസ്കാരം",        // Malayalam
+  "[mr] नमस्कार",          // Marathi
+  "[ne] नमस्कार",          // Nepali
+  "[pa] ਸਤ ਸ੍ਰੀ ਅਕਾਲ",      // Punjabi
+  "[pt] Olá",            // Portuguese
+  "[ru] Привет",         // Russian
+  "[sa] स्वागतम्",         // Sanskrit
+  "[si] ආයුබෝවන්",        // Sinhala
+  "[sw] Jambo",          // Swahili
+  "[ta] நமஸ்காரம்",        // Tamil
+  "[te] నమస్కారం",         // Telugu
+  "[th] สวัสดี",          // Thai
+  "[tr] Merhaba",        // Turkish
+  "[ur] السلام عليكم",      // Urdu
+  "[zh] 你好"             // Mandarin Chinese
+];
 
   const banner = document.querySelector(".tsap-banner");
   const textEl = document.querySelector(".tsap-banner-hover-text");
@@ -359,7 +379,6 @@ function randomisePosition() {
     stopRotation();
   });
 
-
   /** -------------------------------
    * MOBILE (tap)
    * ------------------------------ */
@@ -368,11 +387,11 @@ function randomisePosition() {
     stopRotation();
     startRotation();
 
-    // Stop after 8 seconds on mobile
+    // Stop after 12 seconds on mobile
     clearTimeout(mobileTimer);
     mobileTimer = setTimeout(() => {
       stopRotation();
-    }, 8000);
+    }, 12000);
   });
 
 });
