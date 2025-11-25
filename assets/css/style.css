@@ -19,7 +19,7 @@ body {
   background: linear-gradient(180deg, #fdfdfd 0%, #f8fafc 100%);
   margin: 0 auto;
   padding: 0 1.5rem 0 1.5rem; /* Change 0.5rem to 0 */
-  max-width: min(100%, 1600px); /* was 1000px; */
+  max-width: min(92%, 1280px); /* was 1000px; */
   line-height: 1.8;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
