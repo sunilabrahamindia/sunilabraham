@@ -122,7 +122,7 @@ created: 2025-10-19
 {% include back-to-top.html %}
 
 <section class="content-section" id="did-you-know">
-  <h2 class="section-title">Did you know?</h2>
+  <h2 class="section-title">Did you know...</h2>
   <div class="facts-grid">
     <div class="fact-item">
       <span class="fact-marker">•</span>
