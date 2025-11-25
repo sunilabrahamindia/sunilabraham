@@ -165,7 +165,13 @@ created: 2025-10-19
 
     <p><strong>It aims to:</strong></p>
 
-    <p>Create and maintain documentation — capture insights, notes, essays, and drafts across themes and disciplines. Encourage knowledge sharing — make ideas accessible, referenceable, and adaptable for wider audiences. Support learning and reflection — develop patterns of learning, synthesis, and critical thought through open writing. Enable collaboration and contribution — allow others to engage with, remix, and build upon existing materials. Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.</p>
+<ul>
+  <li>Create and maintain documentation — capture insights, notes, essays, and drafts across themes and disciplines.</li>
+  <li>Encourage knowledge sharing — make ideas accessible, referenceable, and adaptable for wider audiences.</li>
+  <li>Support learning and reflection — develop patterns of learning, synthesis, and critical thought through open writing.</li>
+  <li>Enable collaboration and contribution — allow others to engage with, remix, and build upon existing materials.</li>
+  <li>Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.</li>
+</ul>
 
     <p>This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.</p>
 
