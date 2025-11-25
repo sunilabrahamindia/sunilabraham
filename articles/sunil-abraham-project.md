@@ -20,6 +20,11 @@ The project gained momentum following a series of detailed WhatsApp exchanges be
 
 The Sunil Abraham Project was formally founded in October 2025, marking the beginning of its public development and the transition from concept to implementation.
 
+### Announcement
+On 13 November 2025 (Thursday), Sunil Abraham announced the launch of the project across his social platforms — sharing the update on [Facebook](https://www.facebook.com/abrahamsunil/posts/pfbid0h6kgb9kCKtHYmaWbyE7yNnmkS1hpdyz2yrghmA51dYMUotqQUCocrwvvRkB93CHil), posting it on [LinkedIn](https://www.linkedin.com/posts/sunilaabraham_sunil-abraham-project-activity-7394691115444174848-2qbV/) and publishing a note on [𝕏](https://x.com/sunil_abraham/status/1988926639162683485) to mark the public launch of the initiative. The Facebook post received 138 likes and 5 shares, and the LinkedIn post drew even more attention with 183 likes. In contrast, the update on 𝕏 did not attract much engagement.
+
+Several colleagues and long-time well-wishers also shared thoughtful responses. On Facebook, Ajai Narendran wrote that the project was "long due and much needed", describing it as a documentation effort that continues to inspire him with deep admiration and gratitude. Usha Raman commented that the initiative looked very interesting, and Ashish Kotamkar added that it was lovely and overdue. On LinkedIn, Shanty Mathew congratulated Sunil and noted that the project offered a useful repository and timeline of his public work. Anivar A Aravind recalled earlier moments from their shared professional journey — including meetings at IGF 2008 — and said it was encouraging to see the material brought together in one place.
+
 ## Design and Structure
 
 The Sunil Abraham Project is developed on the Jekyll static site generator and hosted through GitHub Pages. The repository contains the complete build and configuration files. Using a static framework keeps the system straightforward: all content is generated from plain text files, managed through GitHub's version control, and published without the need for databases or dynamic scripts.
@@ -33,7 +38,7 @@ In appearance, the site maintains a plain and accessible design. Text is priorit
 - **27 September 2025 (Saturday)** — Domain name `sunilabraham.in` purchased from BigRock.
 - **2 October 2025 (Thursday)** — The project was officially launched on this date, which coincides with the birth anniversaries of Mahatma Gandhi and Lal Bahadur Shastri. The day is also the birthday of Swapna Dutta (1953–2025), mother of Tito Dutta, the main editor and one of the two foundation planners of the project.
 - **19 October 2025 (Sunday)** — The first four pages of the site were deployed on GitHub, marking the initial public build of the project. These included the Home page, the Publications index, the Projects overview, and the Contact page.
-- **13 November 2025 (Thursday)** — Sunil Abraham announced the launch of the project on [Facebook](https://www.facebook.com/abrahamsunil/posts/pfbid0h6kgb9kCKtHYmaWbyE7yNnmkS1hpdyz2yrghmA51dYMUotqQUCocrwvvRkB93CHil), [LinkedIn](https://www.linkedin.com/posts/sunilaabraham_sunil-abraham-project-activity-7394691115444174848) and [𝕏](https://x.com/sunil_abraham/status/1988926639162683485).
+- **13 November 2025 (Thursday)** — Sunil Abraham announced the launch of the project on [Facebook](https://www.facebook.com/abrahamsunil/posts/pfbid0h6kgb9kCKtHYmaWbyE7yNnmkS1hpdyz2yrghmA51dYMUotqQUCocrwvvRkB93CHil), [LinkedIn](https://www.linkedin.com/posts/sunilaabraham_sunil-abraham-project-activity-7394691115444174848-2qbV/) and [𝕏](https://x.com/sunil_abraham/status/1988926639162683485).
 - **23 November 2025 (Sunday)** — The Sunil Abraham Project reached the milestone of 100 articles with the publication of [*Sense and Censorship*](https://sunilabraham.in/publications/sense-and-censorship/)
 
 
