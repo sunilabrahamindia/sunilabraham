@@ -7,9 +7,9 @@ description: "Browse the latest website pages added to sunilabraham.in, sorted b
 created: 2025-11-22
 ---
 
-Welcome to the Newest Pages index for the **Sunil Abraham Project** This page helps you explore the most recently added content across the site, organised neatly by their actual creation date.  
+Welcome to the Newest Pages index for the **Sunil Abraham Project** This page helps you explore the most recently added content across the site, organised neatly by their actual creation date.
 
-Please use the sorting, category/month filters, and search box to browse the freshest content of the project.
+Please use the sorting, category/month filters, and search box to browse the freshest content.
 
 ## Sort & Filter
 
@@ -36,9 +36,7 @@ Please use the sorting, category/month filters, and search box to browse the fre
     <select id="cat-select">
       <option value="all">All Categories</option>
 
-{% assign filtered = site.pages 
-   | where_exp: "p", "p.created"
-   | where_exp: "p", "p.url contains '/sandbox/' == false"
+      {% assign filtered = site.pages | where_exp: "p", "p.created" %}
       {% assign catlist = "" | split: "," %}
       {% for page in filtered %}
         {% for c in page.categories %}
