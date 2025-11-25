@@ -323,7 +323,6 @@ main nav.breadcrumb {
   align-items: center;
   gap: 0.75rem;
   padding: 1.25rem 1.5rem;
-  background: linear-gradient(135deg, #f7f9fc 0%, #e8f0fe 100%);
   border: 2px solid transparent;
   border-radius: 12px;
   text-decoration: none;
@@ -480,7 +479,6 @@ main nav.breadcrumb {
 }
 
 .fact-item {
-  background: linear-gradient(135deg, #f7f9fc 0%, #e8f0fe 100%);
   padding: 1.5rem;
   border-radius: 12px;
   display: flex;
@@ -488,6 +486,54 @@ main nav.breadcrumb {
   box-shadow: 0 2px 10px rgba(0,0,0,0.06);
   transition: all 0.3s ease;
   border-left: 4px solid #005cc5;
+}
+
+/* 1 */
+.fact-item:nth-child(1) {
+  background: linear-gradient(135deg, #fff9e6 0%, #fff4d1 100%);
+  border-left-color: #f4c430;
+}
+
+/* 2 */
+.fact-item:nth-child(2) {
+  background: linear-gradient(135deg, #e6f7ff 0%, #d1edff 100%);
+  border-left-color: #40a9ff;
+}
+
+/* 3 */
+.fact-item:nth-child(3) {
+  background: linear-gradient(135deg, #e6ffe6 0%, #d1ffd1 100%);
+  border-left-color: #52c41a;
+}
+
+/* 4 */
+.fact-item:nth-child(4) {
+  background: linear-gradient(135deg, #ffe6f0 0%, #ffd1e6 100%);
+  border-left-color: #eb2f96;
+}
+
+/* 5 */
+.fact-item:nth-child(5) {
+  background: linear-gradient(135deg, #f0e6ff 0%, #e6d1ff 100%);
+  border-left-color: #722ed1;
+}
+
+/* 6 */
+.fact-item:nth-child(6) {
+  background: linear-gradient(135deg, #e6fff9 0%, #d1fff0 100%);
+  border-left-color: #13c2c2;
+}
+
+/* 7 */
+.fact-item:nth-child(7) {
+  background: linear-gradient(135deg, #fff0e6 0%, #ffe6d1 100%);
+  border-left-color: #fa8c16;
+}
+
+/* 8 */
+.fact-item:nth-child(8) {
+  background: linear-gradient(135deg, #e8ffe6 0%, #d6ffd1 100%);
+  border-left-color: #389e0d;
 }
 
 .fact-item:hover {
