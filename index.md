@@ -63,6 +63,28 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 
 {% include back-to-top.html %}
 
+## Featured media
+
+<div class="tsap-media-block">
+
+  <div class="tsap-media-video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/Y9uOBAqjIMg" 
+      title="Aadhaar by Numbers by Sunil Abraham"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <p class="tsap-media-caption">
+    <strong>Aadhaar by Numbers — Sunil Abraham</strong><br>
+    This talk explores Aadhaar from a technical angle. It discusses how biometrics work as identification and authentication tools, examines the UIDAI’s claims of openness, and suggests alternative identity system designs that could deliver the benefits of digital identity without the risks of centralised biometric databases.
+  </p>
+
+</div>
+
+{% include back-to-top.html %}
+
 ## Did you know?
 
 - ... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
@@ -285,6 +307,49 @@ main nav.breadcrumb {
   .tsap-banner {
     display: none !important;
   }
+}
+/* =======================================
+   Featured Media Block + Caption
+   ======================================= */
+.tsap-media-block {
+  margin: 2rem 0;
+  background: #f7f9fc;
+  border-left: 4px solid #0a2e57;
+  padding: 1.2rem 1.4rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* Responsive video */
+.tsap-media-video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  background: #000;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+.tsap-media-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Caption */
+.tsap-media-caption {
+  font-size: 0.97rem;
+  color: #333;
+  margin: 0;
+  line-height: 1.55;
+}
+.tsap-media-caption strong {
+  color: #0a2e57;
 }
 </style>
 <script>
