@@ -38,7 +38,7 @@ Please use the sorting, category/month filters, and search box to browse the fre
 
 {% assign filtered = site.pages 
    | where_exp: "p", "p.created"
-   | where_exp: "p", "p.url !contains '/sandbox/'" %}
+   | where_exp: "p", "p.url contains '/sandbox/' == false"
       {% assign catlist = "" | split: "," %}
       {% for page in filtered %}
         {% for c in page.categories %}
