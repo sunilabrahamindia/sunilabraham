@@ -78,13 +78,9 @@ Sunil argues that India must modernise its intermediary liability laws (Section 
 This article was written during a period of major global scrutiny over the role of online intermediaries in shaping speech and democracy.  
 Abraham critiques Section 79 of India's IT Act, describing it as a form of "private censorship", and urges that future reforms ensure transparency, constitutional restraint, and procedural safeguards against overbroad takedown powers.
 
-{% include back-to-top.html %}
-
 ## External Link
 
 - [Read on Business Standard](https://www.business-standard.com/article/opinion/intermediary-liability-law-needs-updating-119020900705_1.html) (Subscription required)
-
-{% include back-to-top.html %}
 
 <style>
 .media-details {
