@@ -25,6 +25,7 @@ Whether you are a researcher, student, practitioner, or reader exploring questio
   <h2>Contents</h2>
   <ol>
     <li><a href="#featured-article">Featured article</a></li>
+    <li><a href="#featured-media">Featured media</a></li>
     <li><a href="#sunil-abraham">Sunil Abraham</a></li>
     <li><a href="#did-you-know">Did you know?</a></li>
     <li><a href="#about">About</a></li>
@@ -309,33 +310,44 @@ main nav.breadcrumb {
   }
 }
 /* =======================================
-   Featured Media Block + Caption
+   Featured Media Block + Caption (CENTRED)
    ======================================= */
+
 .tsap-media-block {
-  margin: 2rem 0;
   background: #f7f9fc;
   border-left: 4px solid #0a2e57;
   padding: 1.2rem 1.4rem;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin: 2rem auto;       /* <-- centres the block */
+  
+  max-width: 720px;        /* <-- not full width on desktop */
+  width: 100%;             /* responsive base */
+}
+
+/* Mobile: full width */
+@media (max-width: 800px) {
+  .tsap-media-block {
+    max-width: 100%;
+  }
 }
 
 /* Responsive video */
 .tsap-media-video-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;  /* 16:9 */
   height: 0;
   overflow: hidden;
   background: #000;
   border-radius: 8px;
-  margin-bottom: 0.8rem;
+  margin: 0 auto 0.8rem auto; /* <-- centre video too */
 }
 
 .tsap-media-video-wrapper iframe {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0; 
   width: 100%;
   height: 100%;
   border: 0;
@@ -347,7 +359,9 @@ main nav.breadcrumb {
   color: #333;
   margin: 0;
   line-height: 1.55;
+  text-align: center;     /* <-- centred caption text */
 }
+
 .tsap-media-caption strong {
   color: #0a2e57;
 }
