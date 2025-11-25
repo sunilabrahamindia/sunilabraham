@@ -328,7 +328,7 @@ main nav.breadcrumb {
 /* Mobile: full width */
 @media (max-width: 800px) {
   .tsap-media-block {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
 
