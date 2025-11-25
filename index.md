@@ -2,7 +2,7 @@
 layout: default
 title: Home
 description: "Knowledge sharing and documentation portal of Sunil Abraham: notes, essays, and research on internet policy, technology and digital rights."
-image: /assets/images/Sunil%20Abraham%20Colour%20Nature.jpg
+image: /assets/images/sunil-abraham-colour-nature.jpg
 categories: [Project pages]
 created: 2025-10-19
 ---
@@ -46,7 +46,7 @@ Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth:
 ## Sunil Abraham
 <div align="center" style="width:75%; margin:auto;">
   <img 
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20Colour%20Nature.jpg?raw=true" 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/sunil-abraham-colour-nature.jpg?raw=true" 
     alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
     style="width:90%; height:auto; max-width:600px; border-radius:8px;">
 </div>
@@ -69,6 +69,11 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 - ... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?
 - ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
 - ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
+- ... that the [Shreya Singhal judgment](/publications/shreya-singhal-and-66a/) (2015) marked a significant doctrinal shift in Indian law, moving from a 'tendency' test to an 'imminence' test when judging if speech incites violence?
+- ... that [intermediary liability law](/publications/intermediary-liability-law-needs-updating/) has been described as a form of 'private censorship', since platforms can decide what stays online without clear legal transparency requirements?
+- ... that the policy brief [Artificial Intelligence: A Full-Spectrum Regulatory Challenge](/publications/artificial-intelligence-full-spectrum/) (2019) rejects one-size-fits-all AI ethics and instead proposes context-specific regulation based on who uses the technology and the harm it can cause?
+
+
 {% include back-to-top.html %}
 
 ## About
