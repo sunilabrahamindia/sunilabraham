@@ -55,6 +55,12 @@ created: 2025-10-19
 <section class="content-section" id="featured-article">
   <h2 class="section-title">Featured article</h2>
   <div class="article-card">
+<div class="ama-image-wrapper">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png?raw=true"
+    alt="Photograph of Rev. A. M. A. Ayrookuzhiel, Indian theologian and scholar known for his work on Dalit theology and popular Hinduism."
+    class="ama-image">
+</div>
     <p><strong>Rev. Athanasius Mathen Abraham Ayrookuzhiel</strong> (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.</p>
 
     <p>After returning to India, he joined the <a href="https://cisrs.in/">Christian Institute for the Study of Religion and Society</a> in Bangalore, where he became Associate Director. Working closely with theologian M. M. Thomas, he explored how Christian thought could engage with caste and class through the lived experiences of Dalit communities. His research on folk religion, ritual, and oral traditions offered new ways of understanding theology as a form of cultural expression and resistance.</p>
@@ -605,6 +611,33 @@ a:hover {
   
   .link-icon {
     font-size: 1.25rem;
+  }
+}
+/* A.M.A featured article image */
+.ama-image-wrapper {
+  float: right;
+  width: 35%;
+  max-width: 260px;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.ama-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .ama-image-wrapper {
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
   }
 }
 </style>
