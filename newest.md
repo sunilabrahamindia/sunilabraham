@@ -36,7 +36,9 @@ Please use the sorting, category/month filters, and search box to browse the fre
     <select id="cat-select">
       <option value="all">All Categories</option>
 
-      {% assign filtered = site.pages | where_exp: "p", "p.created" %}
+{% assign filtered = site.pages 
+   | where_exp: "p", "p.created"
+   | where_exp: "p", "p.url !contains '/sandbox/'" %}
       {% assign catlist = "" | split: "," %}
       {% for page in filtered %}
         {% for c in page.categories %}
