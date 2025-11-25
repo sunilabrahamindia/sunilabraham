@@ -6,6 +6,7 @@ image: /assets/images/sunil-abraham-colour-nature.jpg
 categories: [Project pages]
 created: 2025-10-19
 ---
+
 <div class="tsap-banner"
      role="img"
      aria-label="Graffiti-style banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless device, pendrive, laptop and communication tower on a brick wall.">
@@ -15,233 +16,181 @@ created: 2025-10-19
        alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
 </div>
 
-**Welcome** to the knowledge sharing and documentation portal of **Sunil Abraham**. This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights that might otherwise remain scattered or unpublished. 
-
-The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.
-
-Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.
+<div class="hero-intro">
+  <p><strong>Welcome</strong> to the <strong>Sunil Abraham Project</strong> (TSAP). This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights.</p>
+  
+  <p>The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.</p>
+</div>
 
 <nav class="tsap-contents">
   <h2>Contents</h2>
-  <ol>
-    <li><a href="#featured-article">Featured article</a></li>
-    <li><a href="#featured-media">Featured media</a></li>
-    <li><a href="#sunil-abraham">Sunil Abraham</a></li>
-    <li><a href="#did-you-know">Did you know?</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#licence">Licence</a></li>
-  </ol>
+  <div class="contents-grid">
+    <a href="#featured-article" class="content-link">
+      <span class="link-icon">📄</span>
+      <span>Featured article</span>
+    </a>
+    <a href="#sunil-abraham" class="content-link">
+      <span class="link-icon">👤</span>
+      <span>Sunil Abraham</span>
+    </a>
+    <a href="#featured-media" class="content-link">
+      <span class="link-icon">🎥</span>
+      <span>Featured media</span>
+    </a>
+    <a href="#did-you-know" class="content-link">
+      <span class="link-icon">💡</span>
+      <span>Did you know?</span>
+    </a>
+    <a href="#about" class="content-link">
+      <span class="link-icon">ℹ️</span>
+      <span>About</span>
+    </a>
+    <a href="#licence" class="content-link">
+      <span class="link-icon">⚖️</span>
+      <span>Licence</span>
+    </a>
+  </div>
 </nav>
 
-## Featured article
-**Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
+<section class="content-section" id="featured-article">
+  <h2 class="section-title">Featured article</h2>
+  <div class="article-card">
+    <p><strong>Rev. Athanasius Mathen Abraham Ayrookuzhiel</strong> (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.</p>
 
-After returning to India, he joined the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) in Bangalore, where he became Associate Director. Working closely with theologian M. M. Thomas, he explored how Christian thought could engage with caste and class through the lived experiences of Dalit communities. His research on folk religion, ritual, and oral traditions offered new ways of understanding theology as a form of cultural expression and resistance.
+    <p>After returning to India, he joined the <a href="https://cisrs.in/">Christian Institute for the Study of Religion and Society</a> in Bangalore, where he became Associate Director. Working closely with theologian M. M. Thomas, he explored how Christian thought could engage with caste and class through the lived experiences of Dalit communities. His research on folk religion, ritual, and oral traditions offered new ways of understanding theology as a form of cultural expression and resistance.</p>
 
-Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, and the posthumous *Essays on Dalits, Religion, and Liberation*. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised—a vision that continues to shape Indian Christian and social thought.
+    <p>Among his major works are <em>The Sacred in Popular Hinduism</em>, <em>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</em>, and the posthumous <em>Essays on Dalits, Religion, and Liberation</em>. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised—a vision that continues to shape Indian Christian and social thought.</p>
 
-<a href="https://sunilabraham.in/amaa/" class="btn">Read full article...</a>
-
-{% include back-to-top.html %}
-
-## Sunil Abraham
-<div align="center" style="width:75%; margin:auto;">
-  <img 
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/sunil-abraham-colour-nature.jpg?raw=true" 
-    alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
-    style="width:90%; height:auto; max-width:600px; border-radius:8px;">
-</div>
-
-**Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his work at the intersection of technology, society, and governance.  
-
-Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.  
-
-In 1998, he co-founded [Mahiti Infotech](https://mahiti.org/), a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.  
-
-His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.
-
-<a href="https://sunilabraham.in/sunil/" class="btn">Read full biography...</a>
-
-{% include back-to-top.html %}
-
-## Featured media
-
-<div class="tsap-media-block">
-
-  <div class="tsap-media-video-wrapper">
-    <iframe 
-      src="https://www.youtube.com/embed/Y9uOBAqjIMg" 
-      title="Aadhaar by Numbers by Sunil Abraham"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
+    <a href="https://sunilabraham.in/amaa/" class="btn-primary">Read full article...</a>
   </div>
-
-<p class="tsap-media-caption">
-  <strong>Aadhaar by Numbers — Sunil Abraham</strong><br>
-  This talk explores Aadhaar from a technical angle. It examines how biometrics work as identification and authentication tools, looks at the UIDAI's claims of openness, and discusses alternative identity system designs that could offer the benefits of digital identity without the risks of centralised biometric databases.<br>
-  Sunil <a href="https://x.com/sunil_abraham/status/788018356209197058">posted this video on 𝕏</a> (<i>then known as Twitter</i>) on 17 October 2016 with the note: "Dear <span style="color:#005cc5;">#FriendWithoutAadhaar</span> — If you have an hour to waste. Please watch this:". It has remained pinned since then, as the debate around Aadhaar continues to be relevant and important.<br>
-</p>
-</div>
+</section>
 
 {% include back-to-top.html %}
 
-## Did you know?
+<section class="content-section" id="sunil-abraham">
+  <h2 class="section-title">Sunil Abraham</h2>
+  <div class="bio-card">
+    <div class="bio-image-wrapper">
+      <img 
+        src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/sunil-abraham-colour-nature.jpg?raw=true" 
+        alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
+        class="bio-image">
+    </div>
 
-- ... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
-- ... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?
-- ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
-- ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
-- ... that the [Shreya Singhal judgment](/publications/shreya-singhal-and-66a/) (2015) marked a significant doctrinal shift in Indian law, moving from a 'tendency' test to an 'imminence' test when judging if speech incites violence?
-- ... that [intermediary liability law](/publications/intermediary-liability-law-needs-updating/) has been described as a form of 'private censorship', since platforms can decide what stays online without clear legal transparency requirements?
-- ... that the policy brief [Artificial Intelligence: A Full-Spectrum Regulatory Challenge](/publications/artificial-intelligence-full-spectrum/) (2019) rejects one-size-fits-all AI ethics and instead proposes context-specific regulation based on who uses the technology and the harm it can cause?
+    <div class="bio-content">
+      <p><strong>Sunil Abraham</strong> (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his work at the intersection of technology, society, and governance.</p>
 
+      <p>Sunil is a co-founder and former executive director of the <a href="https://cis-india.org/">Centre for Internet and Society</a> (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.</p>
 
-{% include back-to-top.html %}
+      <p>In 1998, he co-founded <a href="https://mahiti.org/">Mahiti Infotech</a>, a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.</p>
 
-## About
+      <p>His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.</p>
 
-This project serves as a living documentation space for research, writing, and reflection.  
-This is built to create, organise, and publish documentation in a structured yet flexible manner, enabling continuous learning and open exchange of ideas.
-
-It aims to:
-
-- Create and maintain documentation — capture insights, notes, essays, and drafts across themes and disciplines.  
-- Encourage knowledge sharing — make ideas accessible, referenceable, and adaptable for wider audiences.  
-- Support learning and reflection — develop patterns of learning, synthesis, and critical thought through open writing.  
-- Enable collaboration and contribution — allow others to engage with, remix, and build upon existing materials.  
-- Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.  
-
-This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.
+      <a href="https://sunilabraham.in/sunil/" class="btn-primary">Read full biography...</a>
+    </div>
+  </div>
+</section>
 
 {% include back-to-top.html %}
 
-## Licence
+<section class="content-section" id="featured-media">
+  <h2 class="section-title">Featured media</h2>
+  
+  <div class="media-card">
+    <div class="media-video-wrapper">
+      <iframe 
+        src="https://www.youtube.com/embed/Y9uOBAqjIMg" 
+        title="Aadhaar by Numbers by Sunil Abraham"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
 
-All content are released under the [Creative Commons Attribution–ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.
+    <div class="media-caption">
+      <h3>Aadhaar by Numbers </h3>
+      <p>This talk explores Aadhaar from a technical angle. It examines how biometrics work as identification and authentication tools, looks at the UIDAI's claims of openness, and discusses alternative identity system designs that could offer the benefits of digital identity without the risks of centralised biometric databases.</p>
+      <p>Sunil <a href="https://x.com/sunil_abraham/status/788018356209197058">posted this video on 𝕏</a> (<em>then known as Twitter</em>) on 17 October 2016 with the note: "Dear <span style="color:#005cc5;">#FriendWithoutAadhaar</span> — If you have an hour to waste. Please watch this:". It has remained pinned since then, as the debate around Aadhaar continues to be relevant and important.</p>
+    </div>
+  </div>
+</section>
+
+{% include back-to-top.html %}
+
+<section class="content-section" id="did-you-know">
+  <h2 class="section-title">Did you know?</h2>
+  <div class="facts-grid">
+    <div class="fact-item">
+      <span class="fact-marker">•</span>
+      <p>... that the concept of <a href="/amaa/edrl/">religious colonisation</a> was used by theologian <a href="/amaa">A. M. A. Ayrookuzhiel</a> to describe how Dalit gods and myths were absorbed into a Brahmanical order?</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-marker">•</span>
+      <p>... that the movement <a href="/articles/students-for-peace/">Students for Peace</a> (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-marker">•</span>
+      <p>... that <a href="/publications/surveillance-project/">Aadhaar reverses the logic of transparency</a> — making citizens visible to the state while keeping the state opaque?</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-marker">•</span>
+      <p>... that <a href="/publications/eavesdropping-on-the-freedom-of-expression-in-india/">India's 2011 Intermediaries Guidelines</a> require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-marker">•</span>
+      <p>... that the <a href="/publications/shreya-singhal-and-66a/">Shreya Singhal judgment</a> (2015) marked a significant doctrinal shift in Indian law, moving from a 'tendency' test to an 'imminence' test when judging if speech incites violence?</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-marker">•</span>
+      <p>... that <a href="/publications/intermediary-liability-law-needs-updating/">intermediary liability law</a> has been described as a form of 'private censorship', since platforms can decide what stays online without clear legal transparency requirements?</p>
+    </div>
+    <div class="fact-item">
+      <span class="fact-marker">•</span>
+      <p>... that the policy brief <a href="/publications/artificial-intelligence-full-spectrum/">Artificial Intelligence: A Full-Spectrum Regulatory Challenge</a> (2019) rejects one-size-fits-all AI ethics and instead proposes context-specific regulation based on who uses the technology and the harm it can cause?</p>
+    </div>
+  </div>
+</section>
+
+{% include back-to-top.html %}
+
+<section class="content-section" id="about">
+  <h2 class="section-title">About</h2>
+  <div class="about-card">
+    <p>This project serves as a living documentation space for research, writing, and reflection. This is built to create, organise, and publish documentation in a structured yet flexible manner, enabling continuous learning and open exchange of ideas.</p>
+
+    <p><strong>It aims to:</strong></p>
+
+    <p>Create and maintain documentation — capture insights, notes, essays, and drafts across themes and disciplines. Encourage knowledge sharing — make ideas accessible, referenceable, and adaptable for wider audiences. Support learning and reflection — develop patterns of learning, synthesis, and critical thought through open writing. Enable collaboration and contribution — allow others to engage with, remix, and build upon existing materials. Host brainstorming and ideation — serve as a space for developing and refining emerging ideas and projects.</p>
+
+    <p>This documentation evolves over time, not as a static archive, but as a continuous process of thinking, writing, and sharing.</p>
+
+    <p>Whether you are a researcher, student, practitioner, or reader exploring questions of openness, equity, and digital transformation, this documentation offers a growing archive of material to study, share, and build upon.</p>
+
+  <a href="https://sunilabraham.in/articles/sunil-abraham-project/" class="btn-primary">Read more...</a>
+  </div>
+</section>
+
+{% include back-to-top.html %}
+
+<section class="content-section" id="licence">
+  <h2 class="section-title">Licence</h2>
+  <div class="licence-card">
+    <p>Content are released under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution–ShareAlike 4.0 International</a> (CC BY-SA 4.0) licence, unless otherwise stated. You are free to share and adapt this material with proper attribution.</p>
+  </div>
+</section>
 
 <style>
-  /* Clean rectangle TSAP homepage banner */
+/* ========================================
+   BANNER 
+   ======================================== */
 .tsap-banner {
   width: 100%;
-  margin: 0 auto 0.5rem;
-  border-radius: 6px;
+  margin: 0 auto 1rem;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow:
-    inset 0 0 6px rgba(0,0,0,0.18),
-    0 0 10px rgba(0,0,0,0.12);
-}
-.tsap-banner img.tsap-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  pointer-events: none;
-}
-/* Hide title and breadcrumb ONLY on this page */
-main h1,
-main nav.breadcrumb {
-  display: none !important;
-}
-/* Reduce banner height on desktop only */
-@media (min-width: 900px) {
-  .tsap-banner img.tsap-image {
-    height: 150px;   /* your chosen desktop height */
-    object-fit: cover;
-  }
-}
-/* Adjust banner height on mobile only */
-@media (max-width: 600px) {
-  .tsap-banner img.tsap-image {
-    height: 50px;   /* choose 160 / 180 / 200 depending on your taste */
-    object-fit: cover;
-  }
-}
-/* Hide banner entirely on very small phones */
-@media (max-width: 280px) {
-  .tsap-banner {
-    display: none !important;
-  }
-}
-/* ===============================
-   Vertical Contents Box (Left)
-   =============================== */
-.tsap-contents {
-  padding: 1.2rem 1.4rem;
-  border-left: 4px solid #0a2e57;
-  background: #f7f9fc;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  max-width: 260px;
-  font-size: 0.96rem;
-  margin: 1.5rem 0;  /* left aligned, normal flow */
-}
-
-/* “Contents” heading */
-.tsap-contents h2 {
-  margin: 0 0 0.8rem;
-  font-size: 1.2rem;
-  color: #0a2e57;
-  border-bottom: none;  /* remove automatic H2 underline */
-}
-
-/* Remove list bullet spacing */
-.tsap-contents ol {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-/* Space between items */
-.tsap-contents li {
-  margin: 0.4rem 0;
-}
-
-/* Link styling */
-.tsap-contents a {
-  color: #005cc5;
-  text-decoration: none;
   position: relative;
-  padding-left: 14px;
-  display: block;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
 }
 
-/* Small arrow indicator */
-.tsap-contents a::before {
-  content: "▸";
-  position: absolute;
-  left: 0;
-  color: #0a2e57;
-  font-size: 0.9rem;
-}
-
-/* Hover style */
-.tsap-contents a:hover {
-  color: #0a2e57;
-  text-decoration: underline;
-}
-
-/* Mobile: full width but still left aligned */
-@media (max-width: 800px) {
-  .tsap-contents {
-    max-width: 100%;
-    margin: 1.5rem 0;
-  }
-}
-/* ===============================
-   TSAP Banner Container
-   =============================== */
-.tsap-banner {
-  width: 100%;
-  margin: 0 auto 0.5rem;
-  border-radius: 6px;
-  overflow: hidden;
-  position: relative; /* required for overlay */
-  box-shadow:
-    inset 0 0 6px rgba(0,0,0,0.18),
-    0 0 10px rgba(0,0,0,0.12);
-}
-
-/* Banner Image */
 .tsap-banner img.tsap-image {
   width: 100%;
   height: auto;
@@ -251,37 +200,35 @@ main nav.breadcrumb {
   z-index: 1;
 }
 
-/* =========================================
-   Hover / Tap Floating Text (Greetings)
-   ========================================= */
 .tsap-banner-hover-text {
   position: absolute;
-  left: 50%;           /* start in centre — JS moves later */
+  left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  padding: 6px 12px;
+  padding: 8px 16px;
   font-size: 1rem;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(10, 46, 87, 0.9);
   color: #fff;
-  border-radius: 4px;
+  border-radius: 6px;
   opacity: 0;
   transition: opacity 0.25s ease;
   text-align: center;
   white-space: nowrap;
-  pointer-events: none; /* allows taps to reach banner */
+  pointer-events: none;
   z-index: 2;
+  font-weight: 500;
 }
 
-/* Desktop hover support */
 .tsap-banner:hover .tsap-banner-hover-text {
   opacity: 1;
 }
 
-/* =========================================
-   Responsive Banner Height
-   ========================================= */
+/* Hide title and breadcrumb */
+main h1,
+main nav.breadcrumb {
+  display: none !important;
+}
 
-/* Desktop */
 @media (min-width: 900px) {
   .tsap-banner img.tsap-image {
     height: 150px;
@@ -289,83 +236,379 @@ main nav.breadcrumb {
   }
 }
 
-/* Mobile */
 @media (max-width: 600px) {
   .tsap-banner img.tsap-image {
     height: 50px;
     object-fit: cover;
   }
-
-  /* Optional: slightly larger text on small screens */
   .tsap-banner-hover-text {
     font-size: 0.75rem;
-    padding: 3px 6px;
+    padding: 4px 8px;
   }
 }
 
-/* Hide banner on ultra-small devices */
 @media (max-width: 280px) {
   .tsap-banner {
     display: none !important;
   }
 }
-/* =======================================
-   Featured Media Block + Caption (CENTRED)
-   ======================================= */
 
-.tsap-media-block {
-  background: #f7f9fc;
-  border-left: 4px solid #0a2e57;
-  padding: 1.2rem 1.4rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  margin: 2rem auto;       /* <-- centres the block */
-  
-  max-width: 720px;        /* <-- not full width on desktop */
-  width: 100%;             /* responsive base */
+/* ========================================
+   MODERN REDESIGN
+   ======================================== */
+
+/* Hero intro section */
+.hero-intro {
+  background: #fff;         /* Plain white */
+  color: #0a2e57;           /* Dark accessible text */
+  padding: 0.5rem 2.5rem;
+  border-radius: 16px;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  /*border-left: 5px solid #005cc5;   visual anchor, optional */
 }
 
-/* Mobile: full width */
-@media (max-width: 800px) {
-  .tsap-media-block {
-    max-width: 90%;
+.hero-intro p {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.hero-intro strong {
+  font-weight: 600;
+  color: #0a2e57;
+}
+
+/* Navigation grid */
+.tsap-contents {
+  padding: 0;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 100%;
+  margin: 3rem 0;
+}
+
+.tsap-contents h2 {
+  font-size: 2rem;
+  color: #0a2e57;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  border-bottom: 3px solid #005cc5;
+  padding-bottom: 0.5rem;
+}
+
+.contents-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 0;
+}
+
+.content-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, #f7f9fc 0%, #e8f0fe 100%);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #0a2e57;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.content-link:hover {
+  transform: translateY(-2px);
+  border-color: #005cc5;
+  box-shadow: 0 4px 16px rgba(0,92,197,0.2);
+  background: linear-gradient(135deg, #e8f0fe 0%, #d6e7ff 100%);
+}
+
+.link-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+/* Content sections */
+.content-section {
+  margin: 0 0 1.25rem 0; 
+}
+
+.section-title {
+  font-size: 2.2rem;
+  color: #0a2e57;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  border-bottom: 3px solid #005cc5;
+  padding-bottom: 0.5rem;
+}
+
+/* Card styles */
+.article-card,
+.about-card,
+.licence-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-left: 5px solid #005cc5;
+}
+
+.article-card p,
+.about-card p,
+.licence-card p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Bio card */
+.bio-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-left: 5px solid #005cc5;
+}
+
+.bio-image-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.bio-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.bio-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+
+  .bio-card {
+    display: block; /* remove grid */
+    position: relative;
+  }
+
+  .bio-image-wrapper {
+    float: right;
+    width: 40%;
+    max-width: 350px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .bio-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
   }
 }
 
-/* Responsive video */
-.tsap-media-video-wrapper {
+/* Media card */
+.media-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-left: 5px solid #005cc5;
+}
+
+.media-video-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;  /* 16:9 */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   background: #000;
-  border-radius: 8px;
-  margin: 0 auto 0.8rem auto; /* <-- centre video too */
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
-.tsap-media-video-wrapper iframe {
+.media-video-wrapper iframe {
   position: absolute;
   top: 0;
-  left: 0; 
+  left: 0;
   width: 100%;
   height: 100%;
   border: 0;
 }
 
-/* Caption */
-.tsap-media-caption {
-  font-size: 0.97rem;
-  color: #333;
-  margin: 0;
-  line-height: 1.55;
-  text-align: center;     /* <-- centred caption text */
+.media-caption h3 {
+  color: #0a2e57;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
-.tsap-media-caption strong {
+.media-caption p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Facts grid */
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.fact-item {
+  background: linear-gradient(135deg, #f7f9fc 0%, #e8f0fe 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  gap: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+  border-left: 4px solid #005cc5;
+}
+
+.fact-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,92,197,0.15);
+}
+
+.fact-marker {
+  color: #005cc5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.fact-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* Button styles */
+.btn-primary {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  background: linear-gradient(135deg, #005cc5 0%, #0a2e57 100%);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,92,197,0.3);
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,92,197,0.4);
+  background: linear-gradient(135deg, #0047a0 0%, #051d3b 100%);
+}
+/* Keep button text white on hover everywhere */
+a.btn-primary,
+a.btn-primary:hover,
+a.btn-primary:focus,
+a.btn-primary:active {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* Links */
+a {
+  color: #005cc5;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
   color: #0a2e57;
+  text-decoration: underline;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .hero-intro {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .tsap-contents h2 {
+    font-size: 1.6rem;
+  }
+  
+  .contents-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .content-link {
+    padding: 1rem 1.25rem;
+  }
+  
+  .article-card,
+  .bio-card,
+  .media-card,
+  .about-card,
+  .licence-card {
+    padding: 1.5rem;
+  }
+  
+  .facts-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .fact-item {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-intro {
+    padding: 1.25rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .article-card,
+  .bio-card,
+  .media-card,
+  .about-card,
+  .licence-card {
+    padding: 1.25rem;
+  }
+  
+  .content-link {
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .link-icon {
+    font-size: 1.25rem;
+  }
 }
 </style>
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
