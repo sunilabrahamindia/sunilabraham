@@ -34,17 +34,13 @@ Whether you are a researcher, student, practitioner, or reader exploring questio
 </nav>
 
 ## Featured article
-<div class="tsap-featured-article">
-
 **Rev. Athanasius Mathen Abraham Ayrookuzhiel** (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.
 
 After returning to India, he joined the [Christian Institute for the Study of Religion and Society](https://cisrs.in/) in Bangalore, where he became Associate Director. Working closely with theologian M. M. Thomas, he explored how Christian thought could engage with caste and class through the lived experiences of Dalit communities. His research on folk religion, ritual, and oral traditions offered new ways of understanding theology as a form of cultural expression and resistance.
 
-Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, and the posthumous *Essays on Dalits, Religion, and Liberation*. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised — a vision that continues to shape Indian Christian and social thought.
+Among his major works are *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, and the posthumous *Essays on Dalits, Religion, and Liberation*. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised—a vision that continues to shape Indian Christian and social thought.
 
 <a href="https://sunilabraham.in/amaa/" class="btn">Read full article...</a>
-
-</div>
 
 {% include back-to-top.html %}
 
@@ -313,30 +309,6 @@ main nav.breadcrumb {
     display: none !important;
   }
 }
-/* =======================================
-   Featured Article Block 
-   ======================================= */
-
-.tsap-featured-article {
-  background: #f7f9fc;
-  border-left: 4px solid #0a2e57;
-  padding: 1.2rem 1.4rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  margin: 2rem auto;
-  width: 100%;
-}
-
-.tsap-featured-article strong {
-  color: #0a2e57;
-}
-
-/* Optional: centre the "Read full article" button */
-.tsap-featured-article .btn {
-  display: inline-block;
-  margin-top: 1rem;
-}
-
 /* =======================================
    Featured Media Block + Caption (CENTRED)
    ======================================= */
