@@ -4,7 +4,6 @@ title: Home
 description: "Knowledge sharing and documentation portal of Sunil Abraham: notes, essays, and research on internet policy, technology and digital rights."
 image: /assets/images/sunil-abraham-colour-nature.jpg
 categories: [Project pages]
-created: 2025-10-19
 ---
 <div class="tsap-banner"
      role="img"
