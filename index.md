@@ -54,14 +54,6 @@ created: 2025-10-19
 
 <section class="content-section" id="featured-article">
   <h2 class="section-title">Featured article</h2>
-  <div class="bio-card">
-<div class="bio-image-wrapper">
-  <img
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png?raw=true"
-    alt="Low-resolution archival portrait of Rev. A. M. A. Ayrookuzhiel, wearing glasses and looking to the side."
-    class="bio-image">
-</div>
-    </div>
   <div class="article-card">
     <p><strong>Rev. Athanasius Mathen Abraham Ayrookuzhiel</strong> (1933–1996) was an Indian theologian, priest, and scholar whose work bridged faith, culture, and social justice. Educated in philosophy and theology in Pune, Rome, and Oxford, he combined pastoral life with a deep interest in the moral and social struggles of ordinary people. His ministry in the Church of England and later in India reflected a conviction that religion must respond to the realities of oppression and inequality.</p>
 
