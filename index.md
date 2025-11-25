@@ -79,8 +79,8 @@ His contributions extend to advising governments, UN agencies, and advocacy grou
 
 <p class="tsap-media-caption">
   <strong>Aadhaar by Numbers — Sunil Abraham</strong><br>
-  This talk explores Aadhaar from a technical angle. It examines how biometrics work as identification and authentication tools, looks at the UIDAI's claims of openness, and discusses alternative identity system designs that could offer the benefits of digital identity without the risks of centralised biometric databases.<br><br>
-  Sunil <a href="https://x.com/sunil_abraham/status/788018356209197058">posted this video on 𝕏</a> (<i>then known as Twitter</i>) on 17 October 2016 with the note: "Dear #FriendWithoutAadhaar - If you have an hour to waste. Please watch this:". It has remained pinned since then, as the debate around Aadhaar continues to be relevant and important.<br>
+  This talk explores Aadhaar from a technical angle. It examines how biometrics work as identification and authentication tools, looks at the UIDAI's claims of openness, and discusses alternative identity system designs that could offer the benefits of digital identity without the risks of centralised biometric databases.<br>
+  Sunil <a href="https://x.com/sunil_abraham/status/788018356209197058">posted this video on 𝕏</a> (<i>then known as Twitter</i>) on 17 October 2016 with the note: "Dear <span style="color:#005cc5;">#FriendWithoutAadhaar</span> — If you have an hour to waste. Please watch this:". It has remained pinned since then, as the debate around Aadhaar continues to be relevant and important.<br>
 </p>
 </div>
 
