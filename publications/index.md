@@ -81,6 +81,11 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
   _Explores national policy choices in digital infrastructure and Internet control._  
   [Read here](/publications/the-fight-for-digital-sovereignty){: .btn}
 
+- **"Unified Payment Interface: Towards Greater Cyber Sovereignty"**  
+  *Observer Research Foundation, Issue Brief No. 380, July 2020.*  
+  _An analysis of UPI’s architecture, governance, privacy risks and its significance for India’s digital sovereignty._  
+  [Read here](/publications/unified-payment-interface-towards-greater-cyber-sovereignty/){: .btn}
+
 ## Research Reports and Policy Papers
 
 ### Major Reports
