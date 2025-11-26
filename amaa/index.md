@@ -23,11 +23,13 @@ created: 2025-10-27
 
 ## Early Life and Education
 
-Athanasius Mathen Abraham Ayrookuzhiel was born in in 18 September 1933 in Chengannur, a small town in the Alappuzha district of Kerala, India, into a family rooted in the Christian traditions of the region. He spent his childhood in Puthenkavu, a village known for its church heritage, and completed his early schooling in Katanam and Bharanikavu. His formative years were marked by an interest in moral questions, faith, and the social realities of rural Kerala.
+Athanasius Mathen Abraham Ayrookuzhiel was born on 18 September 1933 in Chengannur, a town in the Alappuzha district of Kerala. He was the son of Ayrookuzhiel Koruthu Mathen and Mariamma Mathen, and grew up in the Ayrookuzhiel family home at Pallath, Puthen Cave in Alleppy. He belonged to a large household, with siblings Mariamma A. M., Pennamma A. M., A. M. Varghese, A. M. Chaco (Babycheyan), A. M. Thomas, A. M. George, and A. M. Joseph (Anian). The rhythms of family life, church activity, and village community shaped much of his early worldview.
 
-Feeling a strong sense of vocation, he joined a seminary in Thiruvananthapuram, where he began his spiritual training as a novice of the Order of Ordine Imitationis Christi. His theological curiosity and dedication to disciplined study shaped his intellectual life. During these years, he became deeply influenced by the ideas of social responsibility and equality, themes that would later appear throughout his writings.
+His childhood was spent in Puthenkavu, an area known for its deep Christian heritage, where he completed his early schooling in Katanam and Bharanikavu. These years exposed him to the everyday concerns of rural Kerala and nurtured a growing interest in questions of faith, justice, and human dignity.
 
-After completing his seminary formation, he pursued higher studies in Philosophy and Theology at the Pontificium Athenaeum Pooneuse in Pune, Maharashtra where he was ordained as a priest in 1963. His quest for knowledge led him to continue advanced studies in Rome and the United Kingdom, where he broadened his understanding of theology and social thought in a global context.
+With a sense of vocation that emerged early, he entered the seminary in Thiruvananthapuram as a novice of the Order of Ordine Imitationis Christi. Seminary life introduced him to disciplined prayer, study, and reflection, and it opened up theological questions that would guide his later work. He became increasingly attentive to the links between religious belief and social responsibility.
+
+After completing his initial formation, he undertook higher studies in Philosophy and Theology at the Pontificium Athenaeum Pooneuse in Pune, Maharashtra, where he was ordained a priest in 1963. His academic journey later continued in Rome and the United Kingdom, allowing him to engage with wider debates in theology and social thought and giving him a broader perspective that informed his writing and teaching in the years that followed.
 
 {% include back-to-top.html %}
 
@@ -104,9 +106,11 @@ Many of his essays, first published in journals such as Religion and Society, we
 
 ## Personal Life
 
-During his years in the United Kingdom, Rev. A. M. A. Ayrookuzhiel married Ponnamma Thekedath. The marriage took place while he was serving as a curate at St. Paul High Anglican Church, Wokingham, Berkshire, between 1970 and 1973.  
+Rev. A. M. A. Ayrookuzhiel married Ponnamma Thekedath on 20 April 1971 at the Catholic Church in Königsdorf, near Munich in what was then West Germany. The wedding took place during the years when he was serving as a curate at St Paul High Anglican Church in Wokingham, Berkshire.
 
-The couple later settled in Bangalore, where Ayrookuzhiel continued his research and teaching work with the Christian Institute for the Study of Religion and Society (CISRS). They had three sons — [Sunil Abraham](https://sunilabraham.in/sunil/), Matthew Abraham, and Jacob Abraham. Sunil, the eldest, was born on 17 June 1973. The second son, Matthew, was born on 3 January 1976. Jacob Abraham was born on 5 March 1980 and married Vini Susan on 7 January 2012.
+After their marriage, the couple moved to Bangalore, where Ayrookuzhiel continued his work with the Christian Institute for the Study of Religion and Society (CISRS). Their home gradually became a meeting place for colleagues, students, and friends who were often drawn into long conversations about his research and teaching.
+
+They had three sons— Sunil Abraham (born 17 June 1973), Matthew Abraham (born 3 January 1976), and Jacob Abraham (born 5 March 1980). Jacob later married Vini Susan on 7 January 2012. The family remained closely connected to both Kerala and Bangalore, keeping links with relatives, congregations, and the communities where Ayrookuzhiel had lived and worked.
 
 {% include back-to-top.html %}
 
