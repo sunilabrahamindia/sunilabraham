@@ -15,12 +15,17 @@ created: 2025-11-26
 
 ## Contents
 
+## Contents
+
 1. [Publication Details](#publication-details)
 2. [Abstract](#abstract)
 3. [Context and Background](#context-and-background)
-4. [Key Themes and Findings](#key-themes-or-findings)
-5. [Full Text](#full-text)
-6. [Citation](#citation)
+4. [Key Themes or Findings](#key-themes-or-findings)
+5. [Read](#read)
+   - [Full Text (Excerpt)](#full-text-excerpt)
+   - [PDF](#pdf)
+6. [External links](#external-links)
+7. [Citation](#citation)
 
 ## Publication Details
 
@@ -113,8 +118,14 @@ The paper contrasts India's approach with more market-led systems elsewhere, arg
 
 {% include back-to-top.html %}
 
-## Full Text
+## Read
+### Full Text (Excerpt)
 
+On 1 July 2020, the Ministry of Electronics and Information Technology (MeitY) of India celebrated #5YearsOfDigitalIndia. Given the recent call by the prime minister for Atmanirbhar Bharat ('self-reliant India') the IT minister found the occasion apt for trumpeting a crowning jewel of Digital India — the Unified Payment Interface that was launched almost four years ago. This indigenous innovation has prepared India for both the restrictions on movement required by the pandemic and also more prohibitions against foreign technologies like the ban against China-made apps. This brief outlines the lessons from India’s UPI experience that can be emulated by other countries aiming to provide affordable, ubiquitous and quality digital payment services to their public. While many other countries are still waiting for the magic of the market, the interventionist approach and private-public partnerships fostered by the Indian government has paid off. Course corrections are required, however, to protect the UPI.
+
+[Read full text](/publications/unified-payment-interface-towards-greater-cyber-sovereignty-full-text/){: .btn }
+
+### PDF
 <div class="pdf-container">
   <iframe
     src="https://docs.google.com/gview?url=https://sunilabraham.in/publications/files/unified-payment-interface-towards-greater-cyber-sovereignty.pdf&embedded=true"
@@ -130,6 +141,9 @@ The paper contrasts India's approach with more market-led systems elsewhere, arg
     </a>
   </p>
 </div>
+
+## External link
+- [Read this paper](https://www.orfonline.org/research/unified-payment-interface){: .btn } on *Observer Research Foundation* website
 
 <style>
 .pdf-container {
