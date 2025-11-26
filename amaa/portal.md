@@ -43,10 +43,47 @@ Beyond linking to individual publications, the portal also provides short summar
       <dt>📆 Born:</dt>
       <dd>18 September 1933, Chengannur, Kerala, India</dd>
 
+      <dt>👨 Father:</dt>
+      <dd>Ayrookuzhiel Koruthu Mathen</dd>
+
+      <dt>👩 Mother:</dt>
+      <dd>Mariamma Mathen</dd>
+
       <dt>✝️ Died:</dt>
       <dd>29 November 1996</dd>
+      
+      <dt>🏠 Family home:</dt>
+      <dd>Ayrookuzhiel Pallath, Puthen Cave, Alleppy (Alappuzha), Kerala</dd>
 
-      <dt>🎓 Roles:</dt>
+      <dt>👫 Siblings:</dt>
+      <dd>
+        <ul>
+          <li>Mariamma A. M.</li>
+          <li>Pennamma A. M.</li>
+          <li>A. M. Varghese</li>
+          <li>A. M. Chaco <em>(Babycheyan)</em></li>
+          <li>A. M. Thomas</li>
+          <li>A. M. George</li>
+          <li>A. M. Joseph <em>(Anian)</em></li>
+        </ul>
+      </dd>
+
+      <dt>💍 Date of marriage:</dt>
+      <dd>20 April 1971, at Catholic Church, Königsdorf near Munich, West Germany</dd>
+
+      <dt>👰 Spouse:</dt>
+      <dd>Ponnamma Thekedath</dd>
+
+      <dt>👥 Children:</dt>
+      <dd>
+        <ul>
+          <li>Sunil Abraham (born 17 June 1973)</li>
+          <li>Matthew Abraham (born 3 January 1976)</li>
+          <li>Jacob Abraham (born 5 March 1980)</li>
+        </ul>
+      </dd>
+
+     <dt>🎓 Roles:</dt>
       <dd>Theologian, priest, scholar</dd>
 
       <dt>🏛️ Institutions:</dt>
@@ -67,18 +104,6 @@ Beyond linking to individual publications, the portal also provides short summar
           <li><em>Dalit Kavithakal</em> (1992)</li>
           <li><em>Dalit Sahityam</em> (1995)</li>
           <li><em>Essays on Dalits, Religion and Liberation</em> (2006)</li>
-        </ul>
-      </dd>
-
-      <dt>👰 Spouse:</dt>
-      <dd>Ponnamma Thekedath</dd>
-
-      <dt>👥 Children:</dt>
-      <dd>
-        <ul>
-          <li>Sunil Abraham (born 17 June 1973)</li>
-          <li>Matthew Abraham (born 3 January 1976)</li>
-          <li>Jacob Abraham (born 5 March 1980)</li>
         </ul>
       </dd>
     </dl>
