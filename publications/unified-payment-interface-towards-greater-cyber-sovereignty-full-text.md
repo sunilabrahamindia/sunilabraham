@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Full text: Unified Payment Interface: Towards Greater Cyber Sovereignty'
+title: 'Full Text: Unified Payment Interface: Towards Greater Cyber Sovereignty'
 description: 'Complete full-text version of Sunil Abraham’s ORF Issue Brief No. 380 (July 2020).'
 permalink: /publications/unified-payment-interface-towards-greater-cyber-sovereignty-full-text/
 categories: [Full text, Publications]
@@ -10,7 +10,7 @@ date: 2020-07-01
 created: 2025-11-26
 ---
 
-{% include notice.html message="This is the full text of the article *Unified Payment Interface: Towards Greater Cyber Sovereignty*. To read the main article with abstract, publication details, key findings and citation formats, please visit the main page: <a class='btn' href='/publications/unified-payment-interface-towards-greater-cyber-sovereignty/'>Main Article</a>." %}
+{% include notice.html message="This is the full text of the article <em>Unified Payment Interface: Towards Greater Cyber Sovereignty</em>.<br/>To read the main article with abstract, publication details, key findings and citation formats, please visit the <a href='/publications/unified-payment-interface-towards-greater-cyber-sovereignty/'><strong>main article</strong></a>." %}
 
 *On 1 July 2020, the Ministry of Electronics and Information Technology (MeitY) of India celebrated #5YearsOfDigitalIndia. Given the recent call by the prime minister for Atmanirbhar Bharat ('self-reliant India') the IT minister found the occasion apt for trumpeting a crowning jewel of Digital India — the Unified Payment Interface that was launched almost four years ago. This indigenous innovation has prepared India for both the restrictions on movement required by the pandemic and also more prohibitions against foreign technologies like the ban against China-made apps. This brief outlines the lessons from India’s UPI experience that can be emulated by other countries aiming to provide affordable, ubiquitous and quality digital payment services to their public. While many other countries are still waiting for the magic of the market, the interventionist approach and private-public partnerships fostered by the Indian government has paid off. Course corrections are required, however, to protect the UPI.*
 
