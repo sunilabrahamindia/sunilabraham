@@ -15,8 +15,6 @@ created: 2025-11-26
 
 ## Contents
 
-## Contents
-
 1. [Publication Details](#publication-details)
 2. [Abstract](#abstract)
 3. [Context and Background](#context-and-background)
