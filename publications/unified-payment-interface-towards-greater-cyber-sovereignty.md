@@ -22,8 +22,8 @@ created: 2025-11-26
 5. [Read](#read)
    - [Full Text (Excerpt)](#full-text-excerpt)
    - [PDF](#pdf)
-6. [External links](#external-links)
-7. [Citation](#citation)
+6. [Citation](#citation)
+7. [External links](#external-links)
 
 ## Publication Details
 
@@ -140,9 +140,6 @@ On 1 July 2020, the Ministry of Electronics and Information Technology (MeitY) o
   </p>
 </div>
 
-## External link
-- [Read this paper](https://www.orfonline.org/research/unified-payment-interface){: .btn } on *Observer Research Foundation* website
-
 <style>
 .pdf-container {
   margin: 1.2rem 0;
@@ -197,6 +194,9 @@ Abraham, Sunil. "Unified Payment Interface: Towards Greater Cyber Sovereignty."
 Observer Research Foundation, Issue Brief No. 380, July 2020.
 https://sunilabraham.in/publications/unified-payment-interface-towards-greater-cyber-sovereignty/
 ```
+
+## External link
+- [Read this paper](https://www.orfonline.org/research/unified-payment-interface){: .btn } on *Observer Research Foundation* website
 
 <style>
 .pdf-container {
