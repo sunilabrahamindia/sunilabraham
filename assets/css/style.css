@@ -232,6 +232,11 @@ background: linear-gradient(
   border-right: none;
 }
 
+/* Hide mobile menu button on desktop */
+.navbar-toggle {
+  display: none;
+}
+
 /* =========================================================
    Mobile Dropdown Navbar
    ========================================================= */
