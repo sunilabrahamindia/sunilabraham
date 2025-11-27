@@ -7,7 +7,7 @@ description: "A. M. A. Ayrookuzhiel's study of the Pulaya Tottam of Pottan Teyya
 created: 2025-11-27
 ---
 
-{% include under-construction.html}
+{% include under-construction.html %}
 
 ***Chinnapulayan: The Dalit Teacher of Sankaracharya*** is a paper (essay) by A. M. Abraham Ayrookuzhiel that reproduces and closely interprets the Pulaya ritual song (the *Tottam* of Pottan Teyyam) alongside a Brahminised variant that inserts Sankaracharya into the encounter. The essay treats the *Tottam* as both ritual memory and argumentative text, documenting how the Pulaya version advances a material, experience-based critique of caste through images drawn from labour, food, wounds and shared dwelling. By placing this against the later Brahminised retelling — where a doctrinal Advaitic exchange replaces the original social confrontation — Ayrookuzhiel shows how the force of a Dalit protest poem can be preserved in form yet redirected in meaning. All quotations and page references below are taken directly from the source document.
 
