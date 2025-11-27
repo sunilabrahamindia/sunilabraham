@@ -238,37 +238,22 @@ background: linear-gradient(
 }
 
 /* =========================================================
-   Mobile Dropdown Navbar
+   Mobile Dropdown Navbar (Compact & Blogger-style)
    ========================================================= */
 
 @media (max-width: 768px) {
 
-  .navbar-toggle {
-    display: block;
-    width: 100%;
-    padding: 0.9rem 1.2rem;
-    background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
-    color: #fff;
-    font-weight: 700;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    text-align: left;
-  }
-
-  .navbar-toggle[aria-expanded="false"]::after { content: " ▾"; }
-  .navbar-toggle[aria-expanded="true"]::after { content: " ▴"; }
-
+  /* hide desktop nav layout */
   .navbar ul {
     display: none;
     flex-direction: column;
     background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
-    border-radius: 0 0 8px 8px;
     margin: 0;
     padding: 0;
+    border-radius: 0 0 6px 6px;
     overflow: hidden;
     max-height: 0;
-    transition: max-height 0.4s ease;
+    transition: max-height 0.35s ease;
   }
 
   .navbar ul.open {
@@ -276,14 +261,41 @@ background: linear-gradient(
     max-height: 600px;
   }
 
+  /* compact top toggle button */
+  .navbar-toggle {
+    display: block;
+    width: 100%;
+    padding: 0.6rem 1rem;     /* smaller = less tall */
+    background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
+    color: #fff;
+    font-size: 0.95rem;       /* slightly smaller text */
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;       /* tighter radius */
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .navbar-toggle[aria-expanded="false"]::after { content: " ▾"; }
+  .navbar-toggle[aria-expanded="true"]::after  { content: " ▴"; }
+
+  /* compact dropdown links */
   .navbar a {
-    padding: 0.9rem 1.2rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 0.7rem 1rem;      /* smaller = neat fit */
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
     white-space: normal;
   }
 
   .navbar li:last-child a {
     border-bottom: none;
+  }
+
+  /* overall navbar box tighter */
+  .navbar {
+    margin: 0.5rem 0;          /* much smaller */
+    border-radius: 6px;
+    padding: 0;
   }
 }
 
