@@ -383,19 +383,6 @@ document.addEventListener('DOMContentLoaded', () => {
 }
   
 /* Sticky-note biography card */
-.bio-note-card {
-  background: #fff8dc;
-  border: 1px solid #e1d4a8;
-  border-radius: 12px;
-  padding: 1.2rem 1.4rem;
-  max-width: 720px;
-  margin: 1.4rem auto;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
-  position: relative;
-  font-size: 0.97rem;
-  line-height: 1.55;
-  color: #3b3b3b;
-}
 
 .bio-note-pin { position: absolute; top: -12px; left: 18px; font-size: 1.4rem; }
 
