@@ -157,6 +157,14 @@ Beyond linking to individual publications, the portal also provides short summar
   <a href="/amaa/mar-ivanios-reunion-motives/" class="bio-note-button">See full entry →</a>
 </div>
 
+<div class="bio-note-card" role="region" aria-label="Summary of the paper 'Chinnapulayan: The Dalit Teacher of Sankaracharya'">
+  <div class="bio-note-pin" aria-hidden="true">📌</div>
+  <p>
+    <strong><em>Chinnapulayan: The Dalit Teacher of Sankaracharya</em></strong> is A. M. A. Ayrookuzhiel's study of the Pulaya ritual song known as the Tottam of Pottan Teyyam and a later Brahminised version that introduces Sankaracharya into the encounter. The paper reproduces both versions and examines how each frames caste, ritual memory and argumentative purpose through their contrasting narratives.
+  </p>
+  <a href="/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/" class="bio-note-button">See full entry →</a>
+</div>
+
 ## Related Articles
 
 <div class="bio-note-card" role="region" aria-label="Summary of the institution 'Christian Institute for the Study of Religion and Society (CISRS)'">
