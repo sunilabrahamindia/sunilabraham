@@ -25,7 +25,7 @@ created: 2025-11-27
 
 ## Summary
 
-A. M. A. Ayrookuzhiel presents the *Pottan Teyyam* (also called the *Tottam of Pottan Teyyam*) as a Pulaya ritual-poem that functions rhetorically as a sustained repudiation of caste-based exclusion. The essay reproduces the Pulaya version of the *Tottam*, offers a line-by-line reading of its argumentative moves, and then contrasts this with a Brahminised reworking in which Sankaracharya is the antagonist. The Pulaya song builds its critique from common life — food, labour, wounds, trees, boats — to insist on shared humanity; the Brahminised narrative reframes the episode as a spiritual teaching about non-duality, thereby neutralising the poem’s direct social critique. All quotations and page references below are taken from the source document.
+A. M. A. Ayrookuzhiel presents the *Pottan Teyyam* (also called the *Tottam of Pottan Teyyam*) as a Pulaya ritual-poem that functions rhetorically as a sustained repudiation of caste-based exclusion. The essay reproduces the Pulaya version of the *Tottam*, offers a line-by-line reading of its argumentative moves, and then contrasts this with a Brahminised reworking in which Sankaracharya is the antagonist. The Pulaya song builds its critique from common life — food, labour, wounds, trees, boats — to insist on shared humanity; the Brahminised narrative reframes the episode as a spiritual teaching about non-duality, thereby neutralising the poem's direct social critique. All quotations and page references below are taken from the source document.
 
 ## Introduction and method
 
