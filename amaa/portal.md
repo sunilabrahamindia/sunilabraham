@@ -667,8 +667,6 @@ main h1:first-child {
 /* Refined sticky-note look */
 .bio-note-card {
   position: relative;
-  background: #fff8dc;
-  border: 1px solid #e1d4a8;
   border-radius: 12px;
   padding: 1.2rem 1.4rem;
   max-width: 720px;
@@ -682,6 +680,49 @@ main h1:first-child {
               0 1px 3px rgba(0,0,0,0.08);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
+
+/* Rotating pastel backgrounds for AMA cards */
+.bio-note-card:nth-of-type(4n+1) {
+  background: #fff8dc;   /* soft parchment */
+  border: 1px solid #e1d4a8;
+}
+
+.bio-note-card:nth-of-type(4n+2) {
+  background: #f3f8ff;   /* pale blue */
+  border: 1px solid #cdddf2;
+}
+
+.bio-note-card:nth-of-type(4n+3) {
+  background: #f7fff4;   /* gentle mint */
+  border: 1px solid #d3eadf;
+}
+
+.bio-note-card:nth-of-type(4n+4) {
+  background: #fff4f7;   /* blush pink */
+  border: 1px solid #efccd7;
+}
+
+/* Match buttons to cards */
+.bio-note-card:nth-of-type(4n+1) .bio-note-button {
+  background: #f4e5a6;
+  border-color: #d5c78b;
+}
+
+.bio-note-card:nth-of-type(4n+2) .bio-note-button {
+  background: #dde8fa;
+  border-color: #b8cbea;
+}
+
+.bio-note-card:nth-of-type(4n+3) .bio-note-button {
+  background: #def5e5;
+  border-color: #b9ddc8;
+}
+
+.bio-note-card:nth-of-type(4n+4) .bio-note-button {
+  background: #f5dbe3;
+  border-color: #e1b8c4;
+}
+
 
 .bio-note-card:hover {
   transform: translateY(-3px);
