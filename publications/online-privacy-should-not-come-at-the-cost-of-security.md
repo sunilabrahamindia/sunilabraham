@@ -110,6 +110,22 @@ The conversation highlights three threads that would become central to India's d
   margin: 0 0 0.3rem 0.3rem;
   color: #555;
 }
+.media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 720px;
+}
+.media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
 .highlighted-text {
   background-color: #fffbea;
   border-left: 4px solid #f2ce61;
@@ -118,6 +134,7 @@ The conversation highlights three threads that would become central to India's d
   line-height: 1.65;
   color: #333;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
 }
 .highlighted-text p {
   margin-bottom: 1rem;
@@ -136,35 +153,19 @@ The conversation highlights three threads that would become central to India's d
 .copy-btn-full:hover {
   background: #e5e5e5;
 }
-a.btn {
-  display: inline-block;
-  background: #3278d6;
-  color: #fff !important;
-  text-decoration: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  transition: background 0.2s ease;
-}
-a.btn:hover {
-  background: #255ea9;
-}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.copy-btn-full').forEach(btn => {
-    btn.addEventListener('click', async () => {
-      const target = document.querySelector(btn.getAttribute('data-copytarget'));
-      if (!target) return;
-      try {
-        await navigator.clipboard.writeText(target.innerText.trim());
-        const original = btn.textContent;
-        btn.textContent = 'Copied!';
-        setTimeout(() => (btn.textContent = original), 1500);
-      } catch (e) {
-        btn.textContent = 'Copy failed';
-        setTimeout(() => (btn.textContent = 'Copy Full Text'), 1500);
+  document.querySelectorAll('.copy-btn-full').forEach(button => {
+    button.addEventListener('click', async () => {
+      const targetSelector = button.getAttribute('data-copytarget');
+      const targetElement = document.querySelector(targetSelector);
+      if (targetElement) {
+        const text = targetElement.innerText.trim();
+        await navigator.clipboard.writeText(text);
+        button.textContent = 'Copied!';
+        setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
       }
     });
   });
