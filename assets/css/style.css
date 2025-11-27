@@ -271,7 +271,7 @@ background: linear-gradient(
   .navbar ul {
     display: none;
     flex-direction: column;
-    background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
+    background: linear-gradient(to bottom, #8fa6f0 0%, #6e8ce6 100%);
     margin: 0;
     padding: 0;
     border-radius: 0 0 6px 6px;
