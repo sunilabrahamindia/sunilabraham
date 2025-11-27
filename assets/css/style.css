@@ -238,7 +238,7 @@ background: linear-gradient(
 }
 
 /* =========================================================
-   Mobile Dropdown Navbar — Light Blue Frosted Glass
+   Mobile Dropdown Navbar (Refined, Stylish, Accessible)
    ========================================================= */
 
 @media (max-width: 768px) {
@@ -246,21 +246,20 @@ background: linear-gradient(
   .navbar {
     margin: 0.5rem 0;
     padding: 0;
-    border-radius: 10px;
-    overflow: hidden;
+    border-radius: 6px;
   }
 
-  /* Toggle button */
+  /* Toggle button (header of dropdown) */
   .navbar-toggle {
     display: block;
     width: 100%;
-    padding: 0.7rem 1rem;
+    padding: 0.6rem 1rem;
     background: linear-gradient(to bottom, #6e8ce6 0%, #4c6cc4 100%);
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 700;
     border: none;
-    border-radius: 10px;
+    border-radius: 6px;
     text-align: left;
     cursor: pointer;
     letter-spacing: 0.2px;
@@ -269,69 +268,53 @@ background: linear-gradient(
   .navbar-toggle[aria-expanded="false"]::after { content: " ▾"; }
   .navbar-toggle[aria-expanded="true"]::after  { content: " ▴"; }
 
-
-  /* Dropdown container — frosted glass */
+  /* Dropdown container */
   .navbar ul {
     display: none;
     flex-direction: column;
 
-    /* LIGHT BLUE FROSTED GLASS */
-    background: rgba(140, 170, 240, 0.28); /* light blue tint */
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-
-    border: 1px solid rgba(255,255,255,0.35);
-    border-top: none;
-    border-radius: 0 0 10px 10px;
+    /* lighter drawer that matches toggle button family */
+    background: linear-gradient(to bottom, #8fa6f0 0%, #6e8ce6 100%);
 
     margin: 0;
     padding: 0;
+    border-radius: 0 0 6px 6px;
     overflow: hidden;
     max-height: 0;
 
-    /* fade + slide */
+    /* smooth slide + fade */
     opacity: 0;
-    transition: max-height 0.35s ease, opacity 0.28s ease;
+    transition: max-height 0.35s ease, opacity 0.25s ease;
   }
 
   .navbar ul.open {
     display: flex;
     max-height: 600px;
     opacity: 1;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12); /* soft shadow */
   }
 
-
-  /* Menu items — clean and premium */
+  /* Individual menu items */
   .navbar a {
-    padding: 0.9rem 1.2rem;
-    font-size: 0.95rem;
-    font-weight: 600;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
     white-space: normal;
-
-    color: #fff; /* works best on frosted glass */
-
     border-right: none !important;
-    border-bottom: 1px solid rgba(255,255,255,0.18);
+    border-bottom: 1px solid rgba(255,255,255,0.25);
 
-    /* subtle spacing */
+    /* subtle spacing like iOS menus */
     margin: 1px 0;
-    border-radius: 6px;
-
-    /* soft hover / tap glow */
+    border-radius: 4px;
+    backdrop-filter: blur(0px); /* keeps clean edges */
     transition: background 0.2s ease;
   }
 
-  .navbar a:hover {
-    background: rgba(255,255,255,0.18);
-  }
-
   .navbar a:active {
-    background: rgba(255,255,255,0.28);
+    background: rgba(255,255,255,0.20); /* tap feedback */
   }
 
   .navbar a:focus {
-    outline: 2px solid rgba(255,255,255,0.75);
+    outline: 2px solid rgba(255,255,255,0.7);
     outline-offset: -2px;
   }
 
@@ -343,8 +326,6 @@ background: linear-gradient(
   @media (prefers-reduced-motion: reduce) {
     .navbar ul {
       transition: none;
-      backdrop-filter: none;
-      -webkit-backdrop-filter: none;
     }
   }
 }
