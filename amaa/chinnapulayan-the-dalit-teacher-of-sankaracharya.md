@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chinnapulayan: The Dalit Teacher of Sankaracharya"
-permalink: /amaa/chinnapulayan-dalit-teacher-of-sankaracharya/
+permalink: /amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/
 categories: [A. M. A. Ayrookuzhiel, AMAA, Publications]
 description: "A. M. A. Ayrookuzhiel's study of the Pulaya Tottam of Pottan Teyyam and its Brahminised Sankaracharya variant, examining how the two versions frame caste, ritual memory, and argument."
 created: 2025-11-27
