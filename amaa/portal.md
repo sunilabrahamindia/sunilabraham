@@ -126,7 +126,7 @@ Beyond linking to individual publications, the portal also provides short summar
 <div class="bio-note-card" role="region" aria-label="Summary of the book 'Essays on Dalits, Religion and Liberation'">
   <div class="bio-note-pin" aria-hidden="true">📌</div>
   <p>
-    <strong>Essays on Dalits, Religion and Liberation</strong> gathers A. M. A. Ayrookuzhiel's most important writings on caste, culture and faith. Across these essays he traces how religion has shaped Dalit life — at times as a tool of control, and at other times as a source of resilience and creativity. Drawing on stories, fieldwork and lived experience, the book reflects his lifelong effort to ground theology in the struggles and hopes of the oppressed.
+    <strong><em>Essays on Dalits, Religion and Liberation</em></strong> (2006) gathers A. M. A. Ayrookuzhiel's most important writings on caste, culture and faith. Across these essays he traces how religion has shaped Dalit life — at times as a tool of control, and at other times as a source of resilience and creativity. Drawing on stories, fieldwork and lived experience, the book reflects his lifelong effort to ground theology in the struggles and hopes of the oppressed.
   </p>
   <a href="/amaa/edrl" class="bio-note-button">See full entry →</a>
 </div>
@@ -134,16 +134,25 @@ Beyond linking to individual publications, the portal also provides short summar
 <div class="bio-note-card" role="region" aria-label="Summary of the book 'Swami Anand Thirth: Untouchability, Gandhian Solution on Trial'">
   <div class="bio-note-pin" aria-hidden="true">📌</div>
   <p>
-    <strong>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</strong> is a 1987 monograph written by A. M. A. Ayrookuzhiel. The book draws on Swami Anand Thirth's memoirs and personal papers to examine his decades of work challenging caste discrimination in Kerala. Ayrookuzhiel traces how the Swami confronted exclusion in temples, markets and public spaces, showing how these experiences revealed both the possibilities and the limits of Gandhian reform. The study offers a steady, evidence-based portrait of a reformer shaped by conviction and by the social realities he faced.
+    <strong><em>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</em></strong> is a 1987 monograph written by A. M. A. Ayrookuzhiel. The book draws on Swami Anand Thirth's memoirs and personal papers to examine his decades of work challenging caste discrimination in Kerala. Ayrookuzhiel traces how the Swami confronted exclusion in temples, markets and public spaces, showing how these experiences revealed both the possibilities and the limits of Gandhian reform. The study offers a steady, evidence-based portrait of a reformer shaped by conviction and by the social realities he faced.
   </p>
   <a href="/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/" class="bio-note-button">See full entry →</a>
 </div>
+
+<div class="bio-note-card" role="region" aria-label="Summary of the book 'The Sacred in Popular Hinduism: An Empirical Study in Chirakkal, North Malabar'">
+  <div class="bio-note-pin" aria-hidden="true">📌</div>
+  <p>
+    <strong><em>The Sacred in Popular Hinduism: An Empirical Study in Chirakkal, North Malabar</em></strong> (1983) is a study by A. M. Abraham Ayrookuzhiel, published by the Christian Literature Society for the Christian Institute for the Study of Religion and Society (CISRS), Bangalore. The book documents local and popular Hindu religious practices in the Chirakkal area of North Malabar, and includes design credits to Venkatachalam and a painting of Gulikan's mask by K. C. Narayanan Namboodiri. The volume carries the author's dedication "In memory of my beloved parents," naming Ayrookuzhiel Koruthu Mathen and Mariamma Mathen.
+  </p>
+  <a href="/amaa/the-sacred-in-popular-hinduism-chirakkal-north-malabar/" class="bio-note-button">See full entry →</a>
+</div>
+
 
 ## Other Works
 <div class="bio-note-card" role="region" aria-label="Summary of the paper 'The Motives of Mar Ivanios for the Reunion with the Catholic Church'">
   <div class="bio-note-pin" aria-hidden="true">📌</div>
   <p>
-    <strong>The Motives of Mar Ivanios for the Reunion with the Catholic Church</strong> is a 1966 paper submitted to the Institute of Spiritual Theology at the Gregorian University. It outlines the historical, theological and spiritual reasons that, according to the study, shaped Mar Ivanios’ approach to the Reunion Movement. The paper presents these points under clearly defined headings without attempting a full historical narrative.
+    <strong><em>The Motives of Mar Ivanios for the Reunion with the Catholic Church</em></strong> is a 1966 paper submitted to the Institute of Spiritual Theology at the Gregorian University. It outlines the historical, theological and spiritual reasons that, according to the study, shaped Mar Ivanios' approach to the Reunion Movement. The paper presents these points under clearly defined headings without attempting a full historical narrative.
   </p>
   <a href="/amaa/mar-ivanios-reunion-motives/" class="bio-note-button">See full entry →</a>
 </div>
@@ -747,7 +756,6 @@ main h1:first-child {
     transform: scale(1.03);
   }
 }
-
 /* Mobile behavior (no zoom, no lift) */
 @media (hover: none) and (pointer: coarse) {
   .gallery-item:hover,
