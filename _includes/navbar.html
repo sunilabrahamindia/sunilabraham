@@ -1,20 +1,30 @@
 <!-- =========================================================
-     Navbar Include
-     Appears below the site title and subtitle
+     Navbar Include (Desktop + Mobile Dropdown)
      ========================================================= -->
 <nav class="navbar" aria-label="Main navigation">
-  <ul>
-    <li><a href="/" accesskey="h" 
-      title="Alt+Shift+H (Linux/Windows) or Control+Option+H (Mac)">🏠 Home</a></li>
-    <li><a href="/projects/" accesskey="p" 
-      title="Alt+Shift+P (Linux/Windows) or Control+Option+P (Mac)">🧩 Projects</a></li>
-    <li><a href="/publications/" accesskey="u" 
-      title="Alt+Shift+U (Linux/Windows) or Control+Option+U (Mac)">📖 Publications</a></li>
-    <li><a href="/videos/" accesskey="v" 
-      title="Alt+Shift+V (Linux/Windows) or Control+Option+V (Mac)">▶️ Videos</a></li>
-    <li><a href="/contact/" accesskey="c" 
-      title="Alt+Shift+C (Linux/Windows) or Control+Option+C (Mac)">✉️ Contact</a></li>
+  
+  <!-- Mobile menu toggle -->
+  <button class="navbar-toggle" aria-expanded="false" aria-controls="navbar-menu">
+    ☰ Menu
+  </button>
+
+  <ul id="navbar-menu">
+    <li><a href="/" accesskey="h">🏠 Home</a></li>
+    <li><a href="/projects/" accesskey="p">🧩 Projects</a></li>
+    <li><a href="/publications/" accesskey="u">📖 Publications</a></li>
+    <li><a href="/videos/" accesskey="v">▶️ Videos</a></li>
+    <li><a href="/contact/" accesskey="c">✉️ Contact</a></li>
   </ul>
+
 </nav>
 
+<script>
+  const toggle = document.querySelector('.navbar-toggle');
+  const menu = document.querySelector('#navbar-menu');
 
+  toggle.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', !expanded);
+    menu.classList.toggle('open');
+  });
+</script>
