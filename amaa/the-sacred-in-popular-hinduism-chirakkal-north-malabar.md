@@ -2,7 +2,7 @@
 layout: default
 title: "The Sacred in Popular Hinduism: An Empirical Study in Chirakkal, North Malabar"
 permalink: /amaa/the-sacred-in-popular-hinduism-chirakkal-north-malabar/
-categories: [A. M. A. Aayrookuzhiel, Books]
+categories: [A. M. A. Ayrookuzhiel, Books]
 description: "A 1983 empirical study book by A. M. A. Ayrookuzhiel examining lived Hindu religious practices, folk rituals, and local deities in Chirakkal, North Malabar."
 created: 2025-11-27
 ---
