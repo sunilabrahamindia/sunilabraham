@@ -67,7 +67,7 @@ created: 2025-10-19
 
     <p>Among his major works are <em>The Sacred in Popular Hinduism</em>, <em>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</em>, and the posthumous <em>Essays on Dalits, Religion, and Liberation</em>. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised—a vision that continues to shape Indian Christian and social thought.</p>
 
-    <a href="https://sunilabraham.in/amaa/" class="btn-primary">Read full article...</a> or <a href="https://sunilabraham.in/amaa/portal" class="btn-primary">Visit the portal...</a>
+    <a href="https://sunilabraham.in/amaa/" class="btn-primary">Read full article...</a> <a href="https://sunilabraham.in/amaa/portal" class="btn-primary">Visit the portal...</a>
 
   </div>
 </section>
