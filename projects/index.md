@@ -13,17 +13,12 @@ By maintaining structured, open documentation, projects remain transparent, coll
 ## Current Projects
 
 ### A. M. Abraham Aryookuzhiel
-A dedicated project to **document the life, writings, and contributions of A. M. Abraham Aryookuzhiel**.  
-This includes compiling biographical information, unpublished writings, and reflections on his legacy.  
-The aim is to build a lasting digital record that highlights his thought, work, and influence.
+A dedicated project to **document the life, writings, and contributions of A. M. Abraham Aryookuzhiel**. This includes compiling biographical information, unpublished writings, and reflections on his legacy. The aim is to build a lasting digital record that highlights his thought, work, and influence.
 
 <p><a href="https://sunilabraham.in/amaa/portal" class="btn">Visit Portal Page</a></p>
 
-
 ### Artificial Intelligence
-A continuing study of **ideas, reflections, and observations on Artificial Intelligence**.  
-The focus is not only on technology but also on the human, ethical, and creative dimensions of AI.  
-Through writing and documentation, this project explores how AI transforms learning, work, and creativity.
+A continuing study of **ideas, reflections, and observations on Artificial Intelligence**. The focus is not only on technology but also on the human, ethical, and creative dimensions of AI. Through writing and documentation, this project explores how AI transforms learning, work, and creativity.
 
 ## Future Projects
 
