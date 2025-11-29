@@ -21,7 +21,7 @@ created: 2025-10-19
   
   <p>The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.</p>
 
-  <p>As of {{ site.time | date: "%-d %B %Y" }},, the Sunil Abraham Project contains {{ site.pages | size }} pages.</p>
+  <p>As of {{ site.time | date: "%-d %B %Y" }}, the Sunil Abraham Project contains {{ site.pages | size }} pages.</p>
 </div>
 
 <nav class="tsap-contents">
