@@ -10,7 +10,7 @@ permalink: /publications/online-privacy-should-not-come-at-the-cost-of-security/
 created: 2025-11-27
 ---
 
-**Online Privacy Should Not Come at the Cost of Security: Sunil Abraham** is a 2013 Mint interview in which Sunil Abraham, then Executive Director of the Centre for Internet and Society (CIS), discusses the complex relationship between privacy, security, and Internet governance in India. The conversation explores the shortcomings of the Information Technology Act, the need for a comprehensive privacy law, and the challenges of increasing Internet penetration in a rapidly digitising society.
+**Online Privacy Should Not Come at the Cost of Security** is a 2013 Mint interview in which Sunil Abraham, then Executive Director of the Centre for Internet and Society (CIS), discusses the complex relationship between privacy, security, and Internet governance in India. The conversation explores the shortcomings of the Information Technology Act, the need for a comprehensive privacy law, and the challenges of increasing Internet penetration in a rapidly digitising society.
 
 ## Contents
 
@@ -39,9 +39,6 @@ created: 2025-11-27
 </dl>
 
 ## Full Text
-
-<div class="highlighted-text" id="fulltext">
-
 <figure class="media-image" style="text-align: center; margin: 1.5rem auto;">
   <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/sunil/images/sunil-abraham-mint-2013.png"
        alt="Sunil Abraham smiling while seated indoors, wearing glasses and a light-coloured shirt, photographed against a doorway and brick wall.">
@@ -49,6 +46,8 @@ created: 2025-11-27
     For CIS, one of the biggest achievements over the past five years was being part of the policy framework for the government of India's draft national policy on open standards for e-governance, says Abraham. Photo: Hemant Mishra/Mint (Hemant Mishra/Mint)
   </figcaption>
 </figure>
+
+<div class="highlighted-text" id="fulltext">
 
 <p>Bangalore: The Centre for Internet and Society (CIS), a research thinktank that primarily focuses on issues of Internet governance, is pushing to revise the provisions of the Information Technology (IT) Act and make a stronger case for privacy laws and free speech in India, an issue that has caused widespread concern after the government tried to restrict access to more than a 100 websites last year with little justification.</p>
 
@@ -86,7 +85,7 @@ The conversation highlights three threads that would become central to India's d
 
 ## External Link
 
-- <a href="https://www.livemint.com/Industry/xcmVySyl90ivZknOK9YIBI/Online-privacy-should-not-come-at-the-cost-of-security-Suni.html">Online Privacy Should Not Come at the Cost of Security: Sunil Abraham (Mint)</a>
+- <a href="https://www.livemint.com/Industry/xcmVySyl90ivZknOK9YIBI/Online-privacy-should-not-come-at-the-cost-of-security-Suni.html">Online Privacy Should Not Come at the Cost of Security: Sunil Abraham</a> (Mint)
 
 <style>
 .media-details {
