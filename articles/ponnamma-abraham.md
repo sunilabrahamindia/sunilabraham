@@ -12,7 +12,7 @@ created: 2025-11-29
 
 ## Early life and Education
 
-Ponnamma Abraham (née Ponnamma Thekedath) was born on Saturday, 17 June 1944, India. In 1965, she went to Bonn Venusberg to pursue additional nursing training at the Universitätskliniken.
+Ponnamma Abraham (née Ponnamma Thekedath) was born on Saturday, 17 June 1944. In 1965, she went to Bonn Venusberg to pursue additional nursing training at the Universitätskliniken.
 
 It was around the end of 1965 or sometime in 1966 that she met Athanasius Mathen Abraham Ayrookuzhiel for the first time in Bonn. He was travelling from Rome to England for further studies and had stopped in Bonn to apply for a visa. He sent her a telegram saying he would be arriving, and she went to the railway station to meet him, accompanied by someone who came along to help. By then, he had already spent about two years in Rome.
 
