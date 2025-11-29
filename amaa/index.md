@@ -106,9 +106,9 @@ Many of his essays, first published in journals such as Religion and Society, we
 
 ## Personal Life
 
-Rev. A. M. A. Ayrookuzhiel married Ponnamma Thekedath on 20 April 1971 at the Catholic Church in Königsdorf, near Munich in what was then West Germany. The wedding took place during the years when he was serving as a curate at St Paul High Anglican Church in Wokingham, Berkshire.
+Rev. A. M. A. Ayrookuzhiel married Ponnamma Thekedath on 20 April 1971 at the Catholic Church in Königsdorf, near Munich in what was then West Germany. Their engagement had taken place several months earlier, in September 1970, at the Werner Lehmann family home in the Black Forest (Schwarzwald). The two had first met in Bonn in late 1965 or early 1966, when he was travelling from Rome to England for further studies and had stopped in Bonn to apply for a visa. He sent her a telegram about his arrival, and she went to the railway station to meet him, accompanied by someone who came along to help. By that time, he had already spent about two years studying in Rome.
 
-After their marriage, the couple moved to Bangalore, where Ayrookuzhiel continued his work with the Christian Institute for the Study of Religion and Society (CISRS). Their home gradually became a meeting place for colleagues, students, and friends who were often drawn into long conversations about his research and teaching.
+The wedding occurred during the years when Ayrookuzhiel was serving as a curate at St Paul High Anglican Church in Wokingham, Berkshire. After their marriage, the couple moved to Bangalore, where he continued his work with the Christian Institute for the Study of Religion and Society (CISRS). Their home gradually became a gathering place for colleagues, students, and friends, many of whom visited regularly and often found themselves drawn into long conversations about his research, teaching, and wider questions in theology and society.
 
 They had three sons— Sunil Abraham (born 17 June 1973), Matthew Abraham (born 3 January 1976), and Jacob Abraham (born 5 March 1980). Jacob later married Vini Susan on 7 January 2012. The family remained closely connected to both Kerala and Bangalore, keeping links with relatives, congregations, and the communities where Ayrookuzhiel had lived and worked.
 
