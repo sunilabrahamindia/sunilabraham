@@ -8,7 +8,7 @@ created: 2025-11-07
 
 The **Sunil Abraham Project** (abbreviated as **TSAP**) is a digital publishing, documenting, and archiving initiative founded by internet researcher and social entrepreneur Sunil Abraham in October 2025. Conceived as both a documentation framework and an experimental space, the project explores the scope of innovation in web-based archiving, accessible design, and content organisation. It was named by Tito Dutta, a former colleague and junior associate of Abraham, whose proposal aligned the title with the project's long-term vision of sustainability and digital continuity.
 
-As of {{ site.time | date: "%B %Y" }}, the Sunil Abraham Project contains {{ site.pages | size }} pages.
+As of {{ site.time | date: "%-d %B %Y" }}, the Sunil Abraham Project contains {{ site.pages | size }} pages.
 
 ## History
 
