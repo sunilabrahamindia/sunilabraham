@@ -8,7 +8,7 @@ created: 2025-11-29
 ---
 {% include notice.html message="This page is new and currently under development. You can read it as it stands, but it will be expanded substantially in the coming days. Please revisit after 15 December 2025 for a more comprehensive version." %}
 
-**Ponnamma Abraham** is an Indian nurse. She was born on 17 June 1944, and her birth name was Ponnamma Thekedath. She spent her early years in Bangalore, Karnataka, where she attended the United Theological College Nursery School. On 20 April 1971, she married Athanasius Mathen Abraham Ayrookuzhiel (A. M. A. Ayrookuzhiel) at the Catholic Church in Königsdorf, near Munich in what was then West Germany.
+**Ponnamma Abraham** is an Indian nurse. She was born on 17 June 1944, and her birth name was Ponnamma Thekedath. She spent her early years in Bangalore, Karnataka, where she attended the United Theological College Nursery School. She served at the Royal Berkshire Hospital in Reading and later at Mints Hospital in Reading. On 20 April 1971, she married A. M. A. Ayrookuzhiel) at the Catholic Church in Königsdorf, near Munich in what was then West Germany. Currently she is resides in Bangalore.
 
 ## Early life and Education
 
