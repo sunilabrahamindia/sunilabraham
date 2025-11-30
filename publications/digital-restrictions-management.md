@@ -48,7 +48,7 @@ created: 2025-11-30
 </figure>
 
 ### Kannada (Original)
-
+<div class="highlighted-text">
 <div id="fulltext-kn" lang="kn" class="kannada-text">
 
 ಕಾಪಿ ರೈಟ್ ಹೊಂದಿರುವವನಿಗೆ ಬಳಕೆದಾರನ ಹಾರ್ಡ್‌ವೇರ್, ಸಾಫ್ಟ್‌ವೇರ್ ಮತ್ತು ಅದರಲ್ಲಿ ನೋಡುವ, ಆಲಿಸುವ ಮತ್ತು ಓದುವ ವಸ್ತು-ವಿಷಯದ ಮೇಲೆಯೂ ನಿಯಂತ್ರಣ ಹೇರುವ ಅನೈತಿಕ ಅಧಿಕಾರವನ್ನು ಕೊಟ್ಟು ಬಿಡುತ್ತದೆ ಎಂಬುದು ಸ್ಟಾಲ್‌ಮನ್ ಅವರ ಅಭಿಪ್ರಾಯ.
@@ -75,14 +75,15 @@ created: 2025-11-30
 
 ಹಾಗೆಯೇ ಬಳಕೆದಾರರು ತಮ್ಮ ಪರಿವರ್ತಿಸುವ ಹಕ್ಕನ್ನು ಚಲಾಯಿಸಲು ಅಗತ್ಯವಿರುವ ಸವಲತ್ತು ಒದಗಿಸುವುದಕ್ಕೆ ಕಾಪಿರೈಟ್ ಮಾಲೀಕರನ್ನು ಬಾಧ್ಯಸ್ಥರನ್ನಾಗಿಸಿಲ್ಲ. ಅಂದರೆ ಬಳಕೆದಾರನಿಗೆ ಹಕ್ಕಿದೆ. ಆದರೆ ಅದನ್ನು ಚಲಾಯಿಸುವ ಅವಕಾಶದ ಬಗ್ಗೆ ಮಾತ್ರ ಖಾತರಿ ಇಲ್ಲ ಎಂಬ ಸ್ಥಿತಿ ಇದೆ.
 
-ಲೇಖಕರು ಸೆಂಟರ್ ಫಾರ್ ಇಂಟರ್‌ನೆಟ್‌ಅಂಡ್ ಸೊಸೈಟಿಯ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರು.
+ಲೇಖಕರು ಸೆಂಟರ್ ಫಾರ್ ಇಂಟರ್‌ನೆಟ್‌ಅಂಡ್ ಸೊಸೈಟಿಯ ಕಾರ್ಯನಿರ್ವಾಹಕ ನಿರ್ದೇಶಕರು.  
 
 <button class="copy-btn-full" data-copytarget="#fulltext-kn">Copy Kannada Text</button>
-
+</div>
 </div>
 
 ### English (Translation)
 
+<div class="highlighted-text">
 <div id="fulltext-en" lang="en" class="english-text">
 
 As Richard Stallman the founder of the Free Software movement puts it the correct expansion of the acronym DRM is Digital Restrictions Management and not Digital Rights Management. According to his analysis DRM is used to limit the rights of consumers and enables rights-holders to exercise unethical control over the consumer's hardware, software and content.
@@ -102,7 +103,7 @@ Suppose the very same movie studio also ensured that the DRM on its DVDs prevent
 Suppose a security researcher suspected the DRM technology in network enabled gaming console contained spy-ware. He would have the right to circumvent the DRM and reverse engineer the source code of the console in order to audit the code for the existence of back-doors. This exception will also be used by law enforcement agencies and military/intelligence organisations to purge our supply-chain of electronic infrastructure of spy-ware.
 
 Finally assume a young entrepreneur from Bengaluru wanted to make a competing and yet interoperable product based on an existing product with global market penetration. Assume that the developers of the existing product used DRM to keep their source code and file format inaccessible to competitors. Again under the latest amendment our friend would have the right to circumvent the DRM as long as the code he write is not copied from the existing product.
-
+</div>
 </div>
 
 <button class="copy-btn-full" data-copytarget="#fulltext-en">Copy English Text</button>
