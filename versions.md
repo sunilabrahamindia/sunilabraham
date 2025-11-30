@@ -15,6 +15,8 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 4. [Version 0.3.1](#version-031)
 5. [Version 0.3.2](#version-032)
 6. [Version 0.4](#version-04)
+7. [Version 0.5](#version-05)
+
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -36,7 +38,6 @@ It currently includes the following sections:
 
 ✅ **Status:** Completed — Version 0.1 is live.  
 📅 **Completion Date:** 19 October 2025  
-🗃️ **Internet Archive:** [Archived Snapshot (21 Oct 2025)](https://web.archive.org/web/20251021024650/https://www.sunilabraham.in/) 
 
 ## Version 0.2
 
@@ -54,14 +55,13 @@ Key additions and improvements include:
 
 ✅ **Status:** Completed — Version 0.2 deployed.  
 📅 **Completion Date:** 25 October 2025  
-🗃️ **Internet Archive:** [Archived Snapshot (25 Oct 2025)](https://web.archive.org/web/20251025131339/https://sunilabraham.in/)
 
 ## Version 0.3
 
 Version 0.3 of the **Sunil Abraham Project** website focuses on visual refinement, structural balance, and accessibility improvements.  
 This release improves readability, layout consistency, and ease of navigation while keeping the design simple and functional.
 
-**Sandbox Creation** – A new `/sandbox` subdirectory created for experimentation and safe testing of new features or layouts.  
+- **Sandbox Creation** – A new `/sandbox` subdirectory created for experimentation and safe testing of new features or layouts.  
   Note: included page; any error might disrupt default layout and other structure.  
 - **robots.txt Setup** – Implemented to manage search engine visibility.  
   The `/sandbox` directory is excluded from indexing.  
@@ -80,8 +80,6 @@ This release improves readability, layout consistency, and ease of navigation wh
 
 ✅ **Status:** Completed — Version 0.3 completed.  
 📅 **Completion Date:** 2 November 2025  
-🗃️ **Internet Archive:** [Archived Snapshot (2 Nov 2025)](https://web.archive.org/web/20251102024245/https://sunilabraham.in/)
-
 
 ## Version 0.3.1
 
@@ -112,7 +110,6 @@ This version emphasises content development, modular template creation, and user
 
 ✅ **Status:** Completed — Version 0.3.1 completed.  
 📅 **Completion Date:** 9 November 2025  
-🗃️ **Internet Archive:** [Archived Snapshot (9 Nov 2025)](https://web.archive.org/web/20251109062755/https://sunilabraham.in/)
 
 ## Version 0.3.2
 
@@ -149,7 +146,6 @@ Version 0.3.2 continues the major content-building phase of the **Sunil Abraham 
 
 ✅ **Status:** Completed — Version 0.3.2 done.  
 📅 **Completion Date:** 16 November 2025  
-🗃️ **Internet Archive:** [Archived Snapshot (16 Nov 2025)](https://web.archive.org/web/20251115231351/https://sunilabraham.in/)
 
 ## Version 0.4
 
@@ -162,7 +158,6 @@ Version 0.4 of the **Sunil Abraham Project** website continues the steady phase 
 **📚 Publications Completion and Formatting**
 - Work progressed on adding the remaining publication entries and aligning earlier articles with the standard seven-part structure now used across the section.
 - Metadata cleanup continued, ensuring each article includes consistent formatting, clear descriptions, accurate categories, and full styling alignment.
-- Internal layout adjustments improved readability and visual flow across long-form publication pages.
 
 **🎲 Random Page Generator**
 - A new random-page generator was introduced, offering visitors an easy way to discover content from across the site.
@@ -195,5 +190,39 @@ Version 0.4 of the **Sunil Abraham Project** website continues the steady phase 
 
 ✅ **Status:** Completed — Version 0.4 completed.  
 📅 **Completion Date:** 23 November 2025  
-🗃️ **Internet Archive:** [Archived Snapshot (23 Nov 2025)](https://web.archive.org/web/20251122201527/https://sunilabraham.in/)
 
+## Version 0.5
+
+Version 0.5 marks a week of steady but important progress across the **A. M. A. Ayrookuzhiel Portal**, **Publications**, and the early stages of the **homepage redesign**. This release blends content development with structural improvements, ensuring the project continues to grow in depth as well as usability.
+
+**📜 A. M. A. Ayrookuzhiel Portal Development**  
+- Work on the commemorative portal continued in preparation for the 29th death anniversary on 29 November 2025.  
+- Additional articles were drafted and integrated into the portal structure.  
+- The internal layout received adjustments to improve readability and narrative flow, with more refinements planned for the next update.
+
+**📚 Publications and Media Expansion**  
+- Progress continued on expanding the Publications section, with new entries planned and several drafts initiated.  
+- Media articles and media mentions were also prepared, supporting the goal of building a complete and reliable long-term archive.  
+- These updates strengthen the documentation base that has been growing through recent versions.
+
+**🏠 Homepage Redesign (Initial Phase)**  
+- Initial work began on redesigning the main page.  
+- The focus this week was on planning the structure and rethinking how information should be organised and presented.  
+- Full implementation will take place in later versions.
+
+**📱 Navigation and Mobile Improvements**  
+- The mobile navigation system was significantly improved.  
+- The earlier horizontal-scroll menu was replaced with a compact dropdown similar to Blogger's mobile navigation.  
+- The toggle button now appears only on small screens.  
+- Dropdown items were cleaned up, made smaller, and stripped of unnecessary right-side borders.  
+- Desktop navigation remains the same, but minor styling fixes were made to keep the layout consistent and lighter.
+
+**🖋️ Biographical Writing and Documentation Tools**  
+- Work started on the first draft of the Ponnamma Abraham article.  
+- A central working file titled Biographical Article Datapoints was created to guide future biographical writing.  
+- The document outlines essential data fields covering personal details, family background, education, career, personal life, and later years.  
+- An Editorial Note explains how the questionnaire should be used: it must not be sent in full to anyone, questions should be customised, some fields should be pre-filled by the team, and information may need to be collected across different channels based on individual comfort.  
+- A short two-line summary was added to clarify the document's purpose.
+- 
+✅ **Status:** Completed — Version 0.5 completed.  
+📅 **Completion Date:** 30 November 2025 
