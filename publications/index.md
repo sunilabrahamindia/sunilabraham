@@ -230,6 +230,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 
 ### 2012
 
+- *"ಡಿಜಿಟಲ್ ನಿರ್ಬಂಧಗಳ ನಿರ್ವಹಣೆ (Digital Restrictions Management)"* — *Prajavani*, 2012.  
+  [Read here](/publications/digital-restrictions-management/){: .btn}
+
 - *"Censoring the Internet: A Brief Manual"* — *Tehelka Magazine*, 2012.  
   [Read here](/publications/censoring-the-internet-a-brief-manual/){: .btn}
 
