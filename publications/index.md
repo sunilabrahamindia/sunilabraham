@@ -382,6 +382,10 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Linking Aadhaar with Social Media or Ending Encryption Is Counterproductive"* — *Prime Time*, 2019.  
   [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
 
+- *"When Governments Tag You on Social Media"* — *Business Standard*, 2019.  
+  [Read here](/publications/when-governments-tag-you-on-social-media/){: .btn}
+
+
 ### Needs to be relocated
 - *"Availability and Accessibility of Government Information in the Public Domain"* — *CIS Policy Brief*.  
   [Read online](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
