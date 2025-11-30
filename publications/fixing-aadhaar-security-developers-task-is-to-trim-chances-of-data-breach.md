@@ -51,6 +51,12 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 
 ## Full Text
 
+<figure class="media-image">
+  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/fixing-aadhaar-newspaper-copy.jpg"
+       alt="Newspaper clipping showing Sunil Abraham's article titled Fixing Aadhaar, featuring a column of text, a portrait of the author, and a photograph of people standing around an Aadhaar enrolment or authentication machine.">
+  <figcaption>Newspaper copy of the article Fixing Aadhaar.</figcaption>
+</figure>
+
 <div class="highlighted-text" id="fulltext">
   <p>I feel no joy when my prophecies about digital identity systems come true. This is because from a Popperian perspective these are low-risk prophecies. I had said that all centralised identity databases will be breached in the future. That may or may not happen within my lifetime, so I can go to my grave without worries about being proven wrong. Therefore, the task before a security developer is not only to reduce the probability but, more importantly, to eliminate the possibility of certain occurrences.</p>
 
