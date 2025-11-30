@@ -54,7 +54,7 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 <figure class="media-image">
   <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/fixing-aadhaar-newspaper-copy.jpg"
        alt="Newspaper clipping showing Sunil Abraham's article titled Fixing Aadhaar, featuring a column of text, a portrait of the author, and a photograph of people standing around an Aadhaar enrolment or authentication machine.">
-  <figcaption>Newspaper copy of the article Fixing Aadhaar.</figcaption>
+  <figcaption>Newspaper copy of the article.</figcaption>
 </figure>
 
 <div class="highlighted-text" id="fulltext">
