@@ -124,15 +124,46 @@ This article from *Prajavani* (June 2012) introduces DRM from the perspective of
   font-size: 0.96rem;
   line-height: 1.5;
   color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
-
-.kannada-text, .english-text {
-  line-height: 1.7;
-  margin-bottom: 1.2rem;
+.media-details dt {
+  font-weight: 600;
+  color: #1b2a49;
+  margin-top: 0.7rem;
 }
-
-.highlighted-text p { margin-bottom: 1rem; }
-
+.media-details dd {
+  margin: 0 0 0.3rem 0.3rem;
+  color: #555;
+}
+.media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 720px;
+}
+.media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+.highlighted-text {
+  background-color: #fffbea;
+  border-left: 4px solid #f2ce61;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  line-height: 1.65;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
+}
+.highlighted-text p {
+  margin-bottom: 1rem;
+}
 .copy-btn-full {
   display: inline-block;
   background: #f1f1f1;
@@ -144,7 +175,9 @@ This article from *Prajavani* (June 2012) introduces DRM from the perspective of
   transition: background 0.2s ease;
   margin-bottom: 1.5rem;
 }
-.copy-btn-full:hover { background: #e5e5e5; }
+.copy-btn-full:hover {
+  background: #e5e5e5;
+}
 </style>
 
 <script>
