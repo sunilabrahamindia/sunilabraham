@@ -637,3 +637,22 @@ a.btn:focus {
   background-color: #006837;
   box-shadow: 0 0 0 3px rgba(0, 133, 77, 0.3);
 }
+
+/* =========================================================
+   FIX: Dark Mode Headings (Constitution Project)
+   ========================================================= */
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4,
+html.dark-mode h5,
+html.dark-mode h6 {
+  color: #e7edf5 !important; /* same tone as navbar dark text */
+  border-color: #2a3542 !important; /* fixes page-title underline */
+}
+
+/* Page title underline (main h1) */
+html.dark-mode main h1 {
+  border-bottom-color: #2a3542 !important;
+}
+
