@@ -16,12 +16,13 @@ This page brings together all articles stored directly under `/articles/`, provi
 Below is an automatically generated list of all articles located in the `/articles/` directory. The list is alphabetically sorted by title.
 
 <ul>
-{% assign articles_list = site.pages | where_exp: "p", "p.path contains '/articles/'" | sort: "title" %}
+{% assign articles_list = site.pages 
+     | where_exp: "p", "p.path contains 'articles/'" 
+     | where_exp: "p", "p.path ends_with '.md'" 
+     | sort: "title" %}
 {% for page in articles_list %}
-  {% if page.path != 'articles/index.md' %}
-    <li>
-      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-    </li>
-  {% endif %}
+  {% unless page.path == 'articles/index.md' %}
+    <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+  {% endunless %}
 {% endfor %}
 </ul>
