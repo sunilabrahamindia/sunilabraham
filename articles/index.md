@@ -17,9 +17,10 @@ Below is an automatically generated list of all articles located in the `/articl
 
 <ul>
 {% assign articles_list = site.pages 
-     | where_exp: "p", "p.path contains 'articles/'" 
-     | where_exp: "p", "p.path ends_with '.md'" 
-     | sort: "title" %}
+     | where_exp: "p", "p.path contains 'articles/'"
+     | where_exp: "p", "p.path =~ '\\.md$'"
+     | sort: 'title' %}
+
 {% for page in articles_list %}
   {% unless page.path == 'articles/index.md' %}
     <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
