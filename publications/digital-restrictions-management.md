@@ -41,12 +41,6 @@ created: 2025-11-30
 
 ## Full Text
 
-<figure class="media-image">
-  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/digital-restrictions-management-kannada-newspaper.jpg"
-       alt="Newspaper clipping in Kannada featuring Sunil Abraham's article on digital restrictions, showing the title, text columns, and a portrait of the author.">
-  <figcaption>Newspaper copy of the article.</figcaption>
-</figure>
-
 ### Kannada (Original)
 <div class="highlighted-text">
 <div id="fulltext-kn" lang="kn" class="kannada-text">
