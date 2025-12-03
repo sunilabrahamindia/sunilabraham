@@ -71,8 +71,6 @@ created: 2025-12-03
 
 <p>വേ റെ ഏതൊ രു സാ ഹചര്യ ത്തിലും പൗ രനു ഭരണകൂ ടത്തിന്റെ നി രീ ക്ഷണവലയത്തിനു പു റത്തു നി ൽക്കാ വു ന്നതാ ണ്.</p>
 
-<p>(ബെം ഗളൂ രു വി ലെ സെ ന്റർ ഫോ ർ ഇന്റർനെ റ്റ് ആൻഡ് സൊ സൈ റ്റി എക്സി ക്യൂ ട്ടീവ് ഡയറക്ടറാ ണ് ലേ ഖകൻ)</p>
-
 </div>
 </div>
 
@@ -94,8 +92,6 @@ created: 2025-12-03
 <p>At the same time, reasonable restrictions may apply to the fundamental right to privacy in matters related to national integrity, security of the state, relations with foreign states, public order, morality, contempt of court, defamation, and incitement to commit offences.</p>
 
 <p>In all other circumstances, citizens must be able to remain outside the surveillance net of the state.</p>
-
-<p>(The author is Executive Director of the Centre for Internet and Society, Bengaluru.)</p>
 
 </div>
 </div>
