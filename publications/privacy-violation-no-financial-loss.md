@@ -54,7 +54,7 @@ created: 2025-12-04
   <figcaption>Newspaper copy of the article.</figcaption>
 </figure>
 
-{% include notice.html message="The Malayalam text on this page may contain extraction errors. Please refer to the newspaper screenshot for comparison. If you notice any mistakes in the Malayalam text and can help with corrections, please [contact us](/contact/)." %}
+{% include notice.html message="The Malayalam text on this page may contain extraction errors. Please refer to the newspaper screenshot for comparison. If you notice any mistakes in the Malayalam text and can help with corrections, please <a href='/contact/'>contact us</a>." %}
 
 <div class="highlighted-text">
 <div id="fulltext-ml" lang="ml" class="malayalam-text">
@@ -182,15 +182,19 @@ This article from *Malayala Manorama* (August 2017) contextualises the Supreme C
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.copy-btn-full').forEach(button => {
+    const originalText = button.textContent; // store each button's label separately
+
     button.addEventListener('click', async () => {
       const targetSelector = button.getAttribute('data-copytarget');
       const targetElement = document.querySelector(targetSelector);
-      if (targetElement) {
-        const text = targetElement.innerText.trim();
-        await navigator.clipboard.writeText(text);
-        button.textContent = 'Copied!';
-        setTimeout(() => (button.textContent = 'Copy Full Text'), 1500);
-      }
+      if (!targetElement) return;
+
+      await navigator.clipboard.writeText(targetElement.innerText.trim());
+
+      button.textContent = 'Copied!';
+      setTimeout(() => {
+        button.textContent = originalText; // restore correct label
+      }, 1500);
     });
   });
 });
