@@ -327,6 +327,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/hits-and-misses-with-the-draft-encryption-policy){: .btn}
 
 ### 2016
+- *"Aadhaar is Actually Surveillance Tech"* — *Business Standard*, 2016.  
+  [Read here](/publications/aadhaar-is-actually-surveillance-tech/){: .btn}
+
 - *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics"* — *Firstpost*, 2016.  
   [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
 
@@ -402,7 +405,7 @@ Sunil Abraham has written widely for both Indian and international media, contri
 Sunil Abraham has contributed extensively to the **Centre for Internet and Society (CIS)** blog and other online platforms, writing on privacy, openness, data governance, and digital rights.  
 These essays often serve as short policy commentaries or exploratory analyses of ongoing regulatory debates.
 
-- **"India’s Draft Privacy Bill: The Illusion of Control"** — *CIS Blog, 2018.*  
+- **"India's Draft Privacy Bill: The Illusion of Control"** — *CIS Blog, 2018.*  
   _Critiques the structure of India’s proposed data protection law and the limitations of consent-based models._  
   [Read online](https://cis-india.org/internet-governance/blog/indias-draft-privacy-bill-the-illusion-of-control)
 
