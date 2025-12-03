@@ -15,9 +15,6 @@ Sunil Abraham has spoken at, presented in, moderated, trained at, or participate
 - 27–30 January 2001: Advocacy in the Internet Age: Way Forward for Civil Society from South Asia (Bangalore). Sunil Abraham participated in this multi-day civil society consultation.
 - 10–11 July 2001: Use of Information and Communications Technologies for Social Empowerment and Economic Development (Bangalore). Sunil Abraham participated in discussions on ICTs and development.
 
-## 2002
-<!-- No events listed for this year in the résumé -->
-
 ## 2003
 - 2–8 November 2003: Workshop for Asian Women Journalists (Bangalore). Sunil Abraham contributed to training sessions and programme discussions. 
 
