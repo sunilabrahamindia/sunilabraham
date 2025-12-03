@@ -343,6 +343,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read here](/publications/services-like-twitterseva-arent-the-silver-bullets){: .btn}
 
 ### 2017
+- *"സ്വകാര്യതാലംഘനം: ധനനഷ്ടമില്ലെങ്കിലും കേസിനു പോകാം (Privacy Violation: Even Without Financial Loss You Can Sue)"* — *Malayala Manorama*, 2017.  
+  [Read here](/publications/privacy-violation-even-without-financial-loss-you-can-sue/){: .btn}
+
 - *"How Aadhaar Compromises Privacy? And How to Fix It?"* — *The Hindu*, 2017.  
   [Read on CIS](https://cis-india.org/internet-governance/blog/hindu-op-ed-sunil-abraham-march-31-2017-how-aadhaar-compromises-privacy-and-how-to-fix-it)  
   [Read online](https://www.thehindu.com/opinion/op-ed/is-aadhaar-a-breach-of-privacy/article17745615.ece)
