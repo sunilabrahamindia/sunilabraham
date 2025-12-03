@@ -74,7 +74,7 @@ Sunil Abraham has organised, co-organised, or advised a wide range of events on 
 - 8 January 2017: Rankathon on Digital Rights (CIS office, New Delhi).
 
 ## 2018
-- 19 January 2018: null Bangalore Meet: Special Session on Digital Identity and Privacy (CIS, Bengaluru). Sunil Abraham gave a talk.
+- 19 January 2018: Bangalore Meet: Special Session on Digital Identity and Privacy (CIS, Bengaluru). Sunil Abraham gave a talk.
 
 ## See also
 - [Events Participated by Sunil Abraham](/sunil/events-participated)
