@@ -7,7 +7,7 @@ permalink: /sunil/events-organised
 created: 2025-12-03
 ---
 
-{% include under-construction.html %}
+{% include notice.html message="This is a dynamic list, and its contents may change as the page is updated." %}
 
 Sunil Abraham has organised, co-organised, or advised a wide range of events on digital rights, privacy, free and open-source software, internet governance and technology policy. This page lists these events chronologically, starting from the earliest available records.
 
