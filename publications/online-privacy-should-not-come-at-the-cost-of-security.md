@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Online Privacy Should Not Come at the Cost of Security: Sunil Abraham"
+title: "Online Privacy Should Not Come at the Cost of Security"
 description: "A Mint interview with Sunil Abraham discussing privacy laws, the IT Act, surveillance, and the future of Internet governance in India."
 categories: [Media articles, Interviews, Publications]
 date: 2013-05-19
@@ -85,7 +85,7 @@ The conversation highlights three threads that would become central to India's d
 
 ## External Link
 
-- <a href="https://www.livemint.com/Industry/xcmVySyl90ivZknOK9YIBI/Online-privacy-should-not-come-at-the-cost-of-security-Suni.html">Online Privacy Should Not Come at the Cost of Security: Sunil Abraham</a> (Mint)
+- <a href="https://www.livemint.com/Industry/xcmVySyl90ivZknOK9YIBI/Online-privacy-should-not-come-at-the-cost-of-security-Suni.html">Online Privacy Should Not Come at the Cost of Security/a> (Mint)
 
 <style>
 .media-details {
