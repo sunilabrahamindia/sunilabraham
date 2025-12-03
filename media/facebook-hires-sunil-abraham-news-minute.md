@@ -44,6 +44,12 @@ created: 2025-12-03
 
 ## Full Text
 
+<figure class="media-image">
+  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/media/images/sunil-abraham-news-minute-2020.jpg"
+       alt="A man with short curly hair and glasses smiling warmly, seated indoors against a softly lit background with cream-coloured walls.">
+  <figcaption>Photo of Sunil Abraham used in coverage of the News Minute report.</figcaption>
+</figure>
+
 <div class="highlighted-text" id="fulltext">
 
 <p>Facebook announced on Friday that Sunil Abraham has been appointed as the Public Policy, Director for Data and Emerging Tech. He is the co-founder and former Executive Director of the Centre for Internet and Society.</p>
@@ -98,6 +104,22 @@ This report came at a moment when global technology companies were under increas
   margin: 0 0 0.3rem 0.3rem;
   color: #555;
 }
+.media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 720px;
+}
+.media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
 .highlighted-text {
   background-color: #fffbea;
   border-left: 4px solid #f2ce61;
@@ -106,6 +128,7 @@ This report came at a moment when global technology companies were under increas
   line-height: 1.65;
   color: #333;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
 }
 .highlighted-text p {
   margin-bottom: 1rem;
@@ -123,19 +146,6 @@ This report came at a moment when global technology companies were under increas
 }
 .copy-btn-full:hover {
   background: #e5e5e5;
-}
-a.btn {
-  display: inline-block;
-  background: #3278d6;
-  color: #fff !important;
-  text-decoration: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  transition: background 0.2s ease;
-}
-a.btn:hover {
-  background: #255ea9;
 }
 </style>
 
