@@ -39,7 +39,6 @@ Under his leadership, Students for Peace organised a candlelight demonstration o
 
 This early experience in civic engagement and collective action influenced Abraham’s later interest in the social dimensions of technology, governance, and public participation.
 
-
 ## Career
 
 ### Mahiti (1998)
@@ -58,7 +57,6 @@ In this role, he collaborated with governments, universities, and development ag
 
 
 ### Centre for Internet and Society (2008–2019)
-
 
 In 2008, Sunil co-founded the [Centre for Internet and Society (CIS)](https://cis-india.org/), an independent research organisation based in Bangalore that examines the relationship between the Internet, technology, and society. He served as the organisation’s Executive Director from May 2008 to November 2019. Under his leadership, CIS became a key platform for research and advocacy in areas such as Internet governance, accessibility, privacy, open data, and digital cultures. The centre’s work combined academic study with policy engagement and public dialogue, contributing to national and international debates on digital rights and governance.
 
@@ -111,6 +109,11 @@ Sunil's approach combines advocacy for openness with a pragmatic understanding o
 In 1999, Sunil was awarded the [Ashoka Fellowship](https://www.ashoka.org/en-in/fellow/sunil-abraham) for his efforts to promote open and participatory uses of the Internet in India. In 2003, he received the Sarai FLOSS Fellowship for his contributions to the free and open-source software movement within the voluntary sector. His work has been cited in policy reports and international forums concerned with Internet rights, information access, and innovation in public systems.
 
 ## Events and outreach
+
+{% include main-article.html 
+   title="Events Organised by Sunil Abraham" 
+   link="/sunil/events-organised" 
+%}
 
 Sunil has been actively involved in designing and leading collaborative events that connect technology practitioners, researchers, and activists. He co-organised Asia Source in 2005 and 2007, and the Asia Commons conference, which focused on knowledge sharing and the digital commons. He has spoken at the [Internet Governance Forum](https://www.intgovforum.org/), the Open World Forum, and various academic institutions in India and abroad. His public engagements often combine technical workshops with discussions on law, ethics, and social justice in the digital age.
 
