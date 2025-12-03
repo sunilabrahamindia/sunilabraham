@@ -7,7 +7,7 @@ date: 2017-08-26
 authors: ["Sunil Abraham"]
 source: "Malayala Manorama"
 permalink: /publications/privacy-violation-even-without-financial-loss-you-can-sue/
-created: 2025-12-04
+created: 2025-12-03
 ---
 
 **സ്വകാര്യതാലംഘനം: ധനനഷ്ടമില്ലെങ്കിലും കേസിനു പോകാം** (English: **Privacy Violation: Even Without Financial Loss You Can Sue**) is a Malayalam newspaper article by Sunil Abraham published in *Malayala Manorama* on 26 August 2017. The article discusses the Supreme Court ruling on privacy as a fundamental right, the implications for data protection, and how privacy violations can now be challenged even without material or financial loss.
