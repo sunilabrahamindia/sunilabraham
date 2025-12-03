@@ -106,7 +106,7 @@ This article from *Malayala Manorama* (August 2017) contextualises the Supreme C
 
 ## External Link
 
-- [Read on Malayala Manorama](https://www.manoramaonline.com/news/editorial/2017/08/25/lp-sunil-abraham.html)
+- [Read on Malayala Manorama](https://www.manoramaonline.com/news/editorial/2017/08/25/lp-sunil-abraham.html) (in Malayalam)
 
 <style>
 .media-details {
