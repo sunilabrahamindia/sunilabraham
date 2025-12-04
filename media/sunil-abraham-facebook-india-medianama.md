@@ -62,8 +62,6 @@ created: 2025-12-04
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
-:contentReference[oaicite:0]{index=0}
-
 {% include back-to-top.html %}
 
 ## Context and Background
