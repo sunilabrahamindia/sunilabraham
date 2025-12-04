@@ -221,8 +221,6 @@ Version 0.5 marks a week of steady but important progress across the **A. M. A. 
 - Work started on the first draft of the Ponnamma Abraham article.  
 - A central working file titled Biographical Article Datapoints was created to guide future biographical writing.  
 - The document outlines essential data fields covering personal details, family background, education, career, personal life, and later years.  
-- An Editorial Note explains how the questionnaire should be used: it must not be sent in full to anyone, questions should be customised, some fields should be pre-filled by the team, and information may need to be collected across different channels based on individual comfort.  
-- A short two-line summary was added to clarify the document's purpose.
- 
+
 ✅ **Status:** Completed — Version 0.5 completed.  
 📅 **Completion Date:** 30 November 2025 
