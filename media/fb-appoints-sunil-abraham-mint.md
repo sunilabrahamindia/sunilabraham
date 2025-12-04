@@ -46,9 +46,6 @@ created: 2025-12-04
 
 <div class="highlighted-text" id="fulltext">
 
-
-<p>Hedge funds have adored Facebook, Apple, Amazon, Netflix, and Alphabet's Google (FAANGs) for so long it's no wonder that two of them — Apple Inc. and Facebook Inc. — are losing their appeal. Photo: Reuters</p>
-
 <p>Facebook on Monday announced the appointment of Sunil Abraham as the director-public policy for data and emerging tech. He will lead the company's stance on tech policy issues in India.</p>
 
 <p>Reporting to Ankhi Das, public policy director, Facebook-India, South & Central Asia, Abraham will be responsible for building partnerships and engagements with key stakeholders in public policy area of data privacy, consumer protection, and AI-led innovation for new products and services.</p>
