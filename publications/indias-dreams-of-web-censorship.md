@@ -6,7 +6,7 @@ categories: [Media articles, Media mentions, Publications]
 date: 2011-12-06
 authors: ["Sunil Abraham"]
 source: "Financial Times"
-permalink: /publications/indias-dreams-of-web-censorship/
+permalink: /media/indias-dreams-of-web-censorship/
 created: 2025-11-23
 ---
 
@@ -41,7 +41,7 @@ created: 2025-11-23
 
 <div class="highlighted-text" id="fulltext">
 
-<p>If you are offended by this post, please contact Kapil Sibal, India’s telecoms and IT minister, and he will make sure it is promptly taken down.</p>
+<p>If you are offended by this post, please contact Kapil Sibal, India's telecoms and IT minister, and he will make sure it is promptly taken down.</p>
 
 <p>Actually, if Sibal has his way and you are offended by this post, the armies of people to be employed by internet companies operating in India to monitor their sites for potentially offensive material – whether it originates in India or abroad – will ensure that it is removed before it can even be published. And good luck to all of them with that.</p>
 
@@ -57,7 +57,7 @@ created: 2025-11-23
 
 <p>Sibal first approached the companies on September 5, giving them four weeks to present proposals for how they might comply with his request, he said. With no response by October 19, the ministry sent a reminder. On November 29, Sibal again met with the IT execs. They responded on Monday, saying they could not comply.</p>
 
-<p>An Indian employee of one foreign tech company, when asked about Sibal’s demand that each outfit set up dedicated teams to monitor content in real time, let out an extended, almost hysterical laugh, before regaining composure and asking: "Do you know how many users we have?"</p>
+<p>An Indian employee of one foreign tech company, when asked about Sibal's demand that each outfit set up dedicated teams to monitor content in real time, let out an extended, almost hysterical laugh, before regaining composure and asking: "Do you know how many users we have?"</p>
 
 <p>Indeed, even in a country with low internet penetration like India – 100m people regularly use the internet, less than 10 per cent of India’s 1.2bn population – the task of monitoring real-time content generated on millions of sites opens up legal wormholes and is technically impossible, Sunil Abraham, executive director of the Bangalore-based Centre for Internet & Society, told beyondbrics.</p>
 
