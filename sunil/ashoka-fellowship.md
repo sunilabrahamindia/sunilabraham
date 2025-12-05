@@ -33,19 +33,19 @@ At this stage, Sunil contributed to structured discussions with other evaluators
 
 ## Media
 
-<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1); margin:1.5rem 0;">
-  <iframe 
-    src="https://www.youtube.com/embed/QprvyCtY1DU" 
-    title="Google Hangout with Ashoka Fellow Sunil Abraham (2012)"
-    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
-    allowfullscreen>
-  </iframe>
+<div style="max-width:720px; margin:1.5rem auto;">
+  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.12);">
+    <iframe 
+      src="https://www.youtube.com/embed/QprvyCtY1DU" 
+      title="Google Hangout with Ashoka Fellow Sunil Abraham (2012)"
+      style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p style="font-size:0.85rem; color:#555; margin-top:0.4rem; text-align:center;">
+    <em>Google Hangout with Ashoka Fellow Sunil Abraham, 2012.</em>
+  </p>
 </div>
-
-<p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-  <em>Google Hangout with Ashoka Fellow Sunil Abraham, 2012.</em>
-</p>
-
 
 ## External link
 
