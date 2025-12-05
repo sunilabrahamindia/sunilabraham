@@ -13,7 +13,7 @@ This page brings together all related media articles in one consolidated, easy-t
 
 ## 📚 Articles in This Cluster
 
-<div class="cluster-list">
+<div class="cluster-list" markdown="1">
 
 ### **1. News Minute**  
 *Facebook Hires Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
