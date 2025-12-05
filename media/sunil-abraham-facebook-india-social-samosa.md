@@ -6,7 +6,7 @@ categories: [Media mentions]
 date: 2020-10-12
 source: "Social Samosa"
 permalink: /media/sunil-abraham-facebook-india-social-samosa/
-created: 2025-12-04
+created: 2025-12-05
 ---
 
 **Sunil Abraham to Lead Public Policy for Data and Emerging Tech at Facebook India** is a Social Samosa article published on 12 October 2020. It reports on Sunil Abraham's appointment as Facebook India's Public Policy Director for Data and Emerging Technology, outlining his role, responsibilities, and long-standing background in technology policy, open-source advocacy, and institution building.
