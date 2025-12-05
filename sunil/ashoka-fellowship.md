@@ -27,7 +27,7 @@ The fellowship enabled him to expand collaborations, explore new applications of
   <p style="font-size:1rem; line-height:1.55; color:#222; margin:0;">
     <em>"24 years ago Gananath SN, Manisha Gupta and Bill Carter took a bet on me with this fellowship. It enabled Mahiti to achieve many things that would have been much more difficult without the credibility. After almost ten years of serving as a second opinion interviewer, I got to work on my first Indian panel with four candidates. Very grateful to Bill Drayton, Ashoka staff and the global fellowship for these transformative experiences."</em>
   </p>
-  <p style="font-size:0.85rem; color:#555; margin-top:0.7rem;">
+<p style="text-align:right; font-size:0.85rem; color:#555;">
     — Sunil Abraham, 19 May 2024<br>
     <a href="https://www.facebook.com/abrahamsunil/posts/pfbid0adJ9U9Ce2YXynMVCY24WGuvXd5CaPrqg2sWhasNbpJYGz2NMoqmG9ti9myDAKHN2l" style="color:#0b66d1; text-decoration:none;">Facebook post</a>
   </p>
@@ -54,6 +54,16 @@ At this stage, Sunil contributed to structured discussions with other evaluators
   </div>
   <p style="font-size:0.85rem; color:#555; margin-top:0.4rem; text-align:center;">
     <em>Google Hangout with Ashoka Fellow Sunil Abraham, 2012.</em>
+  </p>
+</div>
+
+<div style="max-width:720px; margin:1.5rem auto; text-align:center;">
+  <img 
+    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/sunil/images/sunil-ashoka-fellowship-1999-cheque.jpg?raw=true" 
+    alt="A scanned copy of a December 1999 letter from the Ashoka Foundation addressed to Sunil Abraham, enclosing a fellowship cheque for the months of November and December 1999." 
+    style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+  <p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    <em>Ashoka Foundation letter enclosing Sunil Abraham's fellowship cheque, December 1999.</em>
   </p>
 </div>
 
