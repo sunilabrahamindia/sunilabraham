@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Media Coverage: Sunil Abraham’s Appointment at Facebook India (2020)"
+title: "Media Coverage: Sunil Abraham's Appointment at Facebook India (2020)"
 description: "A curated collection of media reports covering Sunil Abraham's appointment as Facebook India's Public Policy Director for Data and Emerging Technology."
-permalink: /media/facebook-appointment-2020/
+categories: [Clusters, Media mentions]
+permalink: /cluster/facebook-appointment-2020/
 created: 2025-12-05
 ---
 
@@ -11,7 +12,7 @@ In October 2020, several national news organisations reported on Facebook India'
 This page brings together all related media articles in one consolidated, easy-to-navigate collection for archival and research purposes.
 
 
-## 📚 Articles in This Cluster
+## 📚 Articles
 
 <div class="cluster-list" markdown="1">
 
