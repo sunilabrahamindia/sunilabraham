@@ -7,7 +7,7 @@ date: 2020-10-12
 authors: ["Moneycontrol"]
 source: "Moneycontrol"
 permalink: /media/facebook-india-appoints-sunil-abraham-moneycontrol/
-created: 2025-12-04
+created: 2025-12-05
 ---
 
 **Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech** is a Moneycontrol article published on 12 October 2020. The report outlines Sunil Abraham's role in leading Facebook India’s public policy work on data, privacy, consumer protection, and emerging technologies, as well as his background in technology policy, open-source advocacy, and institution-building.
