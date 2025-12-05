@@ -6,7 +6,7 @@ categories: [Media articles, Media mentions, Publications]
 date: 2010-05-24
 authors: ["Sunil Abraham"]
 source: "Mint (formerly Livemint)"
-permalink: /publications/facebook-privacy-and-india/
+permalink: /media/facebook-privacy-and-india/
 created: 2025-11-24
 ---
 
