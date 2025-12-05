@@ -23,6 +23,16 @@ Sunil Abraham was inducted as an Ashoka Fellow in 1999. The fellowship citation 
 
 The fellowship enabled him to expand collaborations, explore new applications of openness within governance, and take part in broader conversations on technology and public interest.
 
+<div style="max-width:720px; margin:1.5rem auto; padding:1rem 1.2rem; border-left:4px solid #0b66d1; background:#f7f9fc; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+  <p style="font-size:1rem; line-height:1.55; color:#222; margin:0;">
+    <em>"24 years ago Gananath SN, Manisha Gupta and Bill Carter took a bet on me with this fellowship. It enabled Mahiti to achieve many things that would have been much more difficult without the credibility. After almost ten years of serving as a second opinion interviewer, I got to work on my first Indian panel with four candidates. Very grateful to Bill Drayton, Ashoka staff and the global fellowship for these transformative experiences."</em>
+  </p>
+  <p style="font-size:0.85rem; color:#555; margin-top:0.7rem;">
+    — Sunil Abraham, 19 May 2024<br>
+    <a href="https://www.facebook.com/abrahamsunil/posts/pfbid0adJ9U9Ce2YXynMVCY24WGuvXd5CaPrqg2sWhasNbpJYGz2NMoqmG9ti9myDAKHN2l" style="color:#0b66d1; text-decoration:none;">Facebook post</a>
+  </p>
+</div>
+
 ## Role as Second Opinion Reviewer (Second Op)
 
 During the fellowship, Sunil Abraham later served as a Second Opinion Reviewer in Ashoka's global search and selection programme. The Second Op stage provided an independent assessment of a candidate’s idea, method, and potential for long-term impact.
