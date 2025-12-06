@@ -35,7 +35,7 @@ created: 2025-12-06
 
   <dt>📰 Newspaper Link:</dt>
   <dd>
-    <a class="btn" href="https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-alliance-network-expands-to-shape-a-shared-ai-future/articleshow/125710613.cms">
+    <a class="btn" href="https://economictimes.indiatimes.com/tech/internet/facebook-india-appoints-sunil-abraham-as-public-policy-director-for-data-and-emerging-tech/articleshow/78621556.cms">
       Read Online
     </a>
   </dd>
@@ -76,7 +76,7 @@ Sunil Abraham's appointment was framed as strengthening Facebook India's public 
 
 ## External Link
 
-- <a href="https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-alliance-network-expands-to-shape-a-shared-ai-future/articleshow/125710613.cms">Read on The Economic Times</a>
+- <a href="https://economictimes.indiatimes.com/tech/internet/facebook-india-appoints-sunil-abraham-as-public-policy-director-for-data-and-emerging-tech/articleshow/78621556.cms">Read on The Economic Times</a>
 
 <style>
 .media-details {
