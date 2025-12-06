@@ -239,8 +239,8 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"Copyright Amendment: Bad, but Could Have Been Much Worse"* — *Business Standard*, 2012.  
   [Read here](/publications/copyright-amendment-bad-but-could-have-been-much-worse/){: .btn}
 
-- *"Do We Need the Aadhar Scheme?"* — *Business Standard*, 2012.  
-  [Read here](/publications/do-we-need-the-aadhar-scheme/){: .btn}
+- *"Do We Need the Aadhaar Scheme?"* — *Business Standard*, 2012.  
+  [Read here](/publications/do-we-need-the-aadhaar-scheme/){: .btn}
 
 - *"Facebook, Privacy and India"* — *Mint (formerly Livemint)*, 2010.  
   [Read here](/publications/facebook-privacy-and-india/){: .btn}
