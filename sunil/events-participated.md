@@ -131,8 +131,8 @@ Sunil Abraham has spoken at, presented in, moderated, trained at, or participate
 - 5–7 November 2017: Multinational Cyber Security Forum (University of Haifa, Israel; organised by Center for Cyber, Law and Policy in collaboration with the Hewlett Foundation Cyber Initiative). Sunil Abraham participated in the meeting.
 
 ## 2020
-- 13 August 2020: NIPFP Webinar – Talk by Sunil Abraham - "Unified Payments Interface: Towards Greater Cybersovereignty", discussant: Ajay Shah  
-
+- 18 June 2020: Identity North – Building Trust: Lessons from Canada's Approach to Digital Identity. Sunil participated as a speaker. Please see his [Facebook post](https://www.facebook.com/abrahamsunil/posts/pfbid02wcLHQgi2Bhe8pxtuWF9w7AhdZ2Ty7EsjEM2Kd7Fz3rEd2L6tif5Nrc2kU668D4QMl)
+- 13 August 2020: NIPFP Webinar – Talk by Sunil Abraham - "Unified Payments Interface: Towards Greater Cybersovereignty", discussant: Ajay Shah. Read Sunil's [Facebook post](https://www.facebook.com/abrahamsunil/posts/pfbid0QbRbtKyRfuNkYFsAeTxkx3y48BxxF2tjpwHDT6Vfs4GhCUHc5PJAezJacfoFL9fQl).   
 
 ## See also
 - [Events Organised by Sunil Abraham](/sunil/events-organised)
