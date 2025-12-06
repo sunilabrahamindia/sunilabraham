@@ -11,24 +11,43 @@ Over the years, Sunil Abraham's work in technology policy, digital rights, inter
 
 To keep the site organised, all media-related material is stored inside the **`/media/`** directory. This includes coverage from newspapers, magazines, online newsrooms, and specialist technology publications. Each article reproduced here follows a consistent archival format: contextual introduction, publication details, and the full text from the original source, whenever available.
 
-## Media Mentions (Alphabetical List)
+## Media Mentions (Sorted by Year – Newest First)
 
-Below is an automatically generated list of all media mention pages located in the `/media/` directory. The list is alphabetically sorted by title.
+Sort by:  
+[Year (Newest First)](/media/?sort=year_desc) · 
+[Year (Oldest First)](/media/?sort=year_asc) · 
+[Alphabetical](/media/?sort=alpha)
 
-<ul>
+{% assign sort_param = page.sort | default: site.params.sort | default: 'year_desc' %}
+
+{% comment %}
+Collect media pages
+{% endcomment %}
 {% assign media_list = site.pages 
      | where_exp: "p", "p.path contains 'media/'" 
-     | sort: 'title' %}
+%}
 
+{% comment %}
+Remove index.md
+{% endcomment %}
+{% assign media_list = media_list | where_exp: "p", "p.path != 'media/index.md'" %}
+
+{% if sort_param == 'alpha' %}
+  {% assign media_list = media_list | sort: 'title' %}
+{% elsif sort_param == 'year_asc' %}
+  {% assign media_list = media_list | sort: 'date' %}
+{% else %}
+  {%- assign media_list = media_list | sort: 'date' | reverse -%}
+{% endif %}
+
+<ul>
 {% for page in media_list %}
-  {% unless page.path == 'media/index.md' %}
-    <li>
-      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-      <br>
-      <span style="font-size: 0.9rem; color: #555;">
-        {{ page.source }} • {{ page.date | date: "%Y" }}
-      </span>
-    </li>
-  {% endunless %}
+  <li>
+    <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+    <br>
+    <span style="font-size: 0.9rem; color: #555;">
+      {{ page.source }} • {{ page.date | date: "%Y" }}
+    </span>
+  </li>
 {% endfor %}
 </ul>
