@@ -22,7 +22,13 @@ Below is an automatically generated list of all media mention pages located in t
 
 {% for page in media_list %}
   {% unless page.path == 'media/index.md' %}
-    <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+    <li>
+      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+      <br>
+      <span style="font-size: 0.9rem; color: #555;">
+        {{ page.source }} • {{ page.date | date: "%Y" }}
+      </span>
+    </li>
   {% endunless %}
 {% endfor %}
 </ul>
