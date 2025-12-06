@@ -130,5 +130,9 @@ Sunil Abraham has spoken at, presented in, moderated, trained at, or participate
 - 25–27 July 2017: Cybersecurity Workshop – Spotlight on GCCS 2017 (Global Partners Digital, CCG–NLU Delhi, Digital Empowerment Foundation, Digital Asia Hub and Open Net Korea; Bangkok). Sunil Abraham was a speaker.
 - 5–7 November 2017: Multinational Cyber Security Forum (University of Haifa, Israel; organised by Center for Cyber, Law and Policy in collaboration with the Hewlett Foundation Cyber Initiative). Sunil Abraham participated in the meeting.
 
+## 2020
+- 13 August 2020: NIPFP Webinar – Talk by Sunil Abraham - "Unified Payments Interface: Towards Greater Cybersovereignty", discussant: Ajay Shah  
+
+
 ## See also
 - [Events Organised by Sunil Abraham](/sunil/events-organised)
