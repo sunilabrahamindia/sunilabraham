@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "Do We Need the Aadhar Scheme?"
+title: "Do We Need the Aadhaar Scheme?"
 description: "A Business Standard commentary by Sunil Abraham examining decentralisation, biometrics, digital signatures, authentication models, privacy asymmetry, and the risks embedded in UID infrastructure."
 categories: [Media articles, Publications]
 date: 2012-02-01
 authors: ["Sunil Abraham"]
 source: "Business Standard"
-permalink: /publications/do-we-need-the-aadhar-scheme/
+permalink: /publications/do-we-need-the-aadhaar-scheme/
 created: 2025-11-22
 ---
 
-**Do We Need the Aadhar Scheme?** is a Business Standard commentary by Sunil Abraham published on 1 February 2012. The article argues that India already possesses a scalable authentication model based on digital signatures, and warns that biometrics introduce insecurity, power asymmetry, and structural vulnerabilities into identity systems.
+**Do We Need the Aadhaar Scheme?** is a Business Standard commentary by Sunil Abraham published on 1 February 2012. The article argues that India already possesses a scalable authentication model based on digital signatures, and warns that biometrics introduce insecurity, power asymmetry, and structural vulnerabilities into identity systems.
 
 ## Contents
 
@@ -41,7 +41,7 @@ created: 2025-11-22
 
 <div class="highlighted-text" id="fulltext">
 
-<p>We don't need Aadhar because we already have a much more robust identity management and authentication system based on digital signatures that has a proven track record of working at a "billions-of-users" scale on the internet with reasonable security. The Unique Identification (UID) project based on the so-called “infallibility of biometrics” is deeply flawed in design. These design disasters waiting to happen cannot be permanently thwarted by band-aid policies.</p>
+<p>We don't need Aadhaar because we already have a much more robust identity management and authentication system based on digital signatures that has a proven track record of working at a "billions-of-users" scale on the internet with reasonable security. The Unique Identification (UID) project based on the so-called “infallibility of biometrics” is deeply flawed in design. These design disasters waiting to happen cannot be permanently thwarted by band-aid policies.</p>
 
 <p>Biometrics are poor authentication factors because once they are compromised they cannot be re-secured unlike digital signatures. Additionally, an individual’s biometrics can be harvested remotely without his or her conscious cooperation. The iris can be captured remotely without a person’s knowledge using a high-res digital camera.</p>
 
