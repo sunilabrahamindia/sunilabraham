@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Clusters"
-categories: [Project pages]
+categories: [Clusters, Project pages]
 description: "A directory of thematic clusters used across the Sunil Abraham Project to organise related articles, media mentions, and archival material."
 permalink: /clusters/
 created: 2025-12-06
