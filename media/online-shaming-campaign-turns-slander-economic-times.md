@@ -46,7 +46,7 @@ created: 2025-12-07
 
 <div class="highlighted-text" id="fulltext">
 
-<p><strong>Snyopsis:</strong> Abraham pointed out to when the city-based Blank Noise project encouraged women to upload snapshots of their 'harassers' but were forced to blur the images.
+<p><strong>Snyopsis:</strong> Abraham pointed out to when the city-based Blank Noise project encouraged women to upload snapshots of their 'harassers' but were forced to blur the images.</p>
 
 <p><strong>BENGALURU:</strong> Two recent events Monica Lewinsky's TED Talk about her online shaming and Welsh writer Jon Ronson's upcoming book 'So You've Been Publicly Shamed' have brought 'shaming' to the crux of global cyberspace debates. Closer home, Bengaluru's techsavvy citizens have made shaming their most powerful tool outraged digital mobs ridiculed police commissioner MN Reddi for saying bureaucrat DK Ravi's death by hanging appeared to be a case of suicide; the city also saw the launch of the local chapter of the 'Shame the Rapist' campaign recently triggering dialogue on where the line is be tween slander and shaming for good.</p>
 
