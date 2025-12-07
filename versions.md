@@ -16,7 +16,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 5. [Version 0.3.2](#version-032)
 6. [Version 0.4](#version-04)
 7. [Version 0.5](#version-05)
-
+8. [Version 0.6](#version-06)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -224,3 +224,34 @@ Version 0.5 marks a week of steady but important progress across the **A. M. A. 
 
 ✅ **Status:** Completed — Version 0.5 completed.  
 📅 **Completion Date:** 30 November 2025 
+
+## Version 0.6
+
+Version 0.6 reflects steady progress across TSAP, with work focused on content expansion, thematic organisation, and the early setup of event-related pages.
+
+**📄 TSAP Content Expansion**  
+- 20 new pages were added this week.  
+- TSAP now includes 150 mainspace pages.  
+- Page structure and metadata were kept consistent across additions.
+
+**📚 Publications and Indian Language Articles**  
+- More Publications entries were drafted for upcoming releases.  
+- Work began on Indian language material, starting with ಡಿಜಿಟಲ್ ನಿರ್ಬಂಧಗಳ ನಿರ್ವಹಣೆ (a 2012 *Prajavani* article).  
+- This introduces multilingual coverage into the Publications section.
+
+**📰 Media Mentions Section**  
+- The Media Mentions section was initiated.  
+- Initial items will be added and expanded through the coming week.
+
+**🗂️ Clusters (Thematic Groupings)**  
+- Early work started on Clusters to group related pages under shared themes.  
+- These will improve navigation and help readers find connected content.
+
+**🎤 Events Pages**  
+- Two new pages were created: `Events Organised` and `Events Participated`.  
+- These lists will be expanded gradually as more entries are prepared.
+
+**📅 Status and Completion**  
+✅ **Status:** Completed — Version 0.6 completed  
+📅 **Completion Date:** 7 December 2025
+
