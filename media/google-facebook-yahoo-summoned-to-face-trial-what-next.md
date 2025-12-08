@@ -7,7 +7,7 @@ date: 2011-12-25
 source: "The Economic Times"
 authors: ["Jayadevan PK", "Srividya Iyer"]
 permalink: /media/google-facebook-yahoo-summoned-to-face-trial-what-next/
-created: 2025-12-09
+created: 2025-12-08
 ---
 
 **Google, Facebook, Yahoo Summoned to Face Trial: What Next?** is an *Economic Times* report published on 25 December 2011. The article examines the legal and policy implications of an Indian court summoning 21 internet companies — including Google, Facebook and Yahoo — to face trial for allegedly hosting and promoting offensive material. The report highlights broader debates around internet censorship, intermediary liability and freedom of expression in India, with commentary from Sunil Abraham and other experts.
