@@ -123,6 +123,12 @@ Sunil Abraham's comments highlight a recurring concern: that legal and regulator
   margin-bottom: 1.5rem;
 }
 .copy-btn-full:hover { background: #e5e5e5; }
+
+.highlighted-text hr {
+  border: none;
+  border-top: 1px solid #e0c556; /* accessible golden shade */
+  margin: 1rem 0;
+}
 </style>
 
 <script>
