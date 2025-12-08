@@ -10,7 +10,7 @@ permalink: /media/google-tabs-sneak-advertisements-inbox/
 created: 2025-12-08
 ---
 
-**Google Brings Tabs to Sneak Advertisements into Your Inbox** is an *Economic Times* report published on 30 July 2013. It discusses Google's redesign of its Gmail interface, where advertisements appear alongside promotional emails in the Promotions tab. The article includes observations from ad-industry analysts and privacy concerns raised by Sunil Abraham.
+**Google Brings Tabs to Sneak Advertisements into Your Inbox** is an *Economic Times* report published on 30 July 2013. It discusses Google's redesign of its Gmail interface, where advertisements appear alongside promotional emails in the Promotions tab. The article includes observations from ad-industry analysts and privacy concerns raised by Sunil Abraham. 
 
 ## Contents
 
