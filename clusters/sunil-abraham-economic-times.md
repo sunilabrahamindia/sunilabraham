@@ -69,11 +69,6 @@ This cluster brings together all **publications** and **media mentions** connect
 {% endfor %}
 </ol>
 
-{% include back-to-top.html %}
-<a href="/publications/" class="btn" style="margin-top:1rem;">← Back to Publications</a>
-
-<a href="/media/" class="btn" style="margin-top:1rem;">← Back to Media Index</a>
-
 <style>
 
 /* ---------------------------------------------------------
