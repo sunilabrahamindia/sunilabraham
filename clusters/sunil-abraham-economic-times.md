@@ -7,9 +7,9 @@ permalink: /clusters/sunil-abraham-economic-times/
 created: 2025-12-08
 ---
 
-***The Economic Times*** is one of India's largest financial newspapers, reporting on policy, markets, technology, industry regulation, and economic governance. Over the years, **Sunil Abraham** has engaged with the publication in multiple ways. He has written opinion pieces, contributed analysis on technology policy, and has also been quoted across a range of stories covering digital rights, privacy, platform governance, and emerging technologies.
+The Economic Times is one of India's largest financial newspapers, reporting on policy, markets, technology, industry regulation, and economic governance. Over the years, **Sunil Abraham** has engaged with the publication in multiple ways. He has written opinion pieces, contributed analysis on technology policy, and has also been quoted across a range of stories covering digital rights, privacy, platform governance, and emerging technologies.
 
-This cluster brings together all **published writings** and **media mentions** connected to *The Economic Times*. It serves as a single, easy-to-use reference point for researchers, students, and readers following Sunil Abraham's work on technology and public policy.
+This cluster brings together all **published writings** and **media mentions** connected to The Economic Times. It serves as a single, easy-to-use reference point for researchers, students, and readers following Sunil Abraham's work on technology and public policy.
 
 ## Publications
 Articles authored by Sunil Abraham in *The Economic Times*.
@@ -22,11 +22,14 @@ Articles authored by Sunil Abraham in *The Economic Times*.
 </div>
 
 <ol class="cluster-list" id="pub-list">
-{% assign pub_items = site.publications | where: "source", "The Economic Times" %}
+{% assign pub_items = site.pages 
+  | where_exp:"p","p.categories contains 'Publications'" 
+  | where:"source","The Economic Times" 
+%}
 {% assign pub_sorted = pub_items | sort: "title" %}
 {% for item in pub_sorted %}
   <li>
-    <strong><a href="{{ item.permalink }}">{{ item.title }}</a></strong>  
+    <strong><a href="{{ item.permalink }}">{{ item.title }}</a></strong>
     <span class="cluster-date">({{ item.date | date: "%Y-%m-%d" }})</span>
   </li>
 {% endfor %}
@@ -45,11 +48,14 @@ Media reports in *The Economic Times* quoting or featuring Sunil Abraham.
 </div>
 
 <ol class="cluster-list" id="media-list">
-{% assign media_items = site.pages | where: "categories", "Media mentions" | where: "source", "The Economic Times" %}
+{% assign media_items = site.pages 
+  | where_exp:"p","p.categories contains 'Media mentions'" 
+  | where:"source","The Economic Times" 
+%}
 {% assign media_sorted = media_items | sort: "title" %}
 {% for item in media_sorted %}
   <li>
-    <strong><a href="{{ item.permalink }}">{{ item.title }}</a></strong>  
+    <strong><a href="{{ item.permalink }}">{{ item.title }}</a></strong>
     <span class="cluster-date">({{ item.date | date: "%Y-%m-%d" }})</span>
   </li>
 {% endfor %}
