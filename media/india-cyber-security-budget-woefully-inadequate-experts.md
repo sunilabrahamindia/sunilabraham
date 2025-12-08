@@ -51,7 +51,7 @@ The country has proposed to set up a national cyber coordination centre (NCCC) w
 
 <p><strong>NEW DELHI | BENGALURU:</strong> India's cyber-security budget was more than doubled last year. Yet, it is "woefully inadequate" in the wake of revelations made by US National Security Agency contractor Edward Snowden and increasing cyber-attacks on government infrastructure, according to experts.</p>
 
-<p>In 2014-15, the Department of IT has set aside Rs 116 crore for cyber security. The country has proposed to set up a national cyber coordination centre (NCCC) with a separate budget of Rs 1,000 crore. The coordination centre is still awaiting Cabinet clearance. "Allocation is woefully inadequate given Snowden's revelations - we need at least 10 times that amount," said Sunil Abraham, executive director at Center for Internet and Society.</p>
+<p>In 2014–15, the Department of IT has set aside Rs 116 crore for cyber security. The country has proposed to set up a national cyber coordination centre (NCCC) with a separate budget of Rs 1,000 crore. The coordination centre is still awaiting Cabinet clearance. "Allocation is woefully inadequate given Snowden's revelations - we need at least 10 times that amount," said Sunil Abraham, executive director at Center for Internet and Society.</p>
 
 <p>According to the Computer Emergency Response Team-India (CERT-In), reported attacks on Indian websites have increased nearly five times in the past four years. Until mid-2014, CERT-In recorded more than 60,000 incidents.</p>
 
