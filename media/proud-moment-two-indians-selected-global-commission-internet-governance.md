@@ -6,7 +6,7 @@ categories: [Media mentions]
 date: 2014-03-20
 source: "The Economic Times"
 authors: ["ET Bureau"]
-permalink: /media/two-indians-selected-global-commission-internet-governance/
+permalink: /media/proud-moment-two-indians-selected-global-commission-internet-governance/
 created: 2025-12-08
 ---
 
