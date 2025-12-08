@@ -11,7 +11,7 @@ created: 2025-12-08
 
 This cluster brings together all **publications** and **media mentions** connected to *The Economic Times*, providing a clean, unified reference point for researchers, students, and anyone following Sunil Abraham's work.
 
-## Publications
+## ✍️ Publications {#publications}
 
 ### Sort by:
 <div class="cluster-sort">
@@ -40,7 +40,7 @@ This cluster brings together all **publications** and **media mentions** connect
 {% endfor %}
 </ol>
 
-## Media Mentions
+## 📣 Media Mentions {#media}
 
 ### Sort by:
 <div class="cluster-sort">
