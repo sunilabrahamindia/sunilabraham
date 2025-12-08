@@ -70,7 +70,7 @@ This cluster brings together all **publications** and **media mentions** connect
 </ol>
 
 ## External links
-- [Sunil Abraham](https://economictimes.indiatimes.com/topic/Sunil-Abraham) on ''The Economic Times'' (Topic)
+- [Sunil Abraham](https://economictimes.indiatimes.com/topic/Sunil-Abraham) on *The Economic Times* (Topic)
 
 <style>
 
