@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and The Economic Times"
 description: "A consolidated archive of Sunil Abraham's writings for The Economic Times and media coverage featuring his commentary."
-categories: [Clusters]
+categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-economic-times/
 created: 2025-12-08
 ---
@@ -70,6 +70,7 @@ This cluster brings together all **publications** and **media mentions** connect
 </ol>
 
 {% include back-to-top.html %}
+<a href="/publications/" class="btn" style="margin-top:1rem;">← Back to Publications</a>
 
 <a href="/media/" class="btn" style="margin-top:1rem;">← Back to Media Index</a>
 
@@ -81,7 +82,6 @@ This cluster brings together all **publications** and **media mentions** connect
 .cluster-list {
   margin: 0.8rem 0 1.6rem 0;
   padding-left: 1.1rem;
-  max-width: 760px;
 }
 
 .cluster-list li {
