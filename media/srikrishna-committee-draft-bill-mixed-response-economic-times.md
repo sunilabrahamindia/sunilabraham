@@ -10,7 +10,7 @@ permalink: /media/srikrishna-committee-draft-bill-mixed-response-economic-times/
 created: 2025-12-06
 ---
 
-**Srikrishna Committee Report: Draft Bill Gets Mixed Response from Experts** is an Economic Times article published on 28 July 2018. The report captures early reactions to the Srikrishna Committee's draft data protection bill, highlighting both its strengths and areas of concern. Experts quoted in the article — including Sunil Abraham, Vrinda Bhandari and Amba Kak — discuss issues such as GDPR alignment, non-consensual data processing, surveillance reform, Aadhaar metadata, and broad government exemptions.
+**Srikrishna Committee Report: Draft Bill Gets Mixed Response from Experts** is an *Economic Times* article published on 28 July 2018. The report captures early reactions to the Srikrishna Committee's draft data protection bill, highlighting both its strengths and areas of concern. Experts quoted in the article — including Sunil Abraham, Vrinda Bhandari and Amba Kak — discuss issues such as GDPR alignment, non-consensual data processing, surveillance reform, Aadhaar metadata, and broad government exemptions.
 
 ## Contents
 
@@ -74,7 +74,7 @@ created: 2025-12-06
 
 ## Context and Background
 
-This Economic Times report appeared shortly after the release of the Srikrishna Committee's draft data protection bill, one of India's earliest attempts to articulate a comprehensive privacy and data-governance framework. The article presents a range of expert responses — from constitutional law, civil liberties, and technology policy — highlighting tensions between GDPR-inspired safeguards and wide government exemptions, including non-consensual processing and surveillance powers.
+This *Economic Times* report appeared shortly after the release of the Srikrishna Committee's draft data protection bill, one of India's earliest attempts to articulate a comprehensive privacy and data-governance framework. The article presents a range of expert responses — from constitutional law, civil liberties, and technology policy — highlighting tensions between GDPR-inspired safeguards and wide government exemptions, including non-consensual processing and surveillance powers.
 
 Sunil Abraham's comments underscore concerns about dilution of privacy protections, disproportionate impacts on the poor, and permissive processing grounds for both government and employers.
 
