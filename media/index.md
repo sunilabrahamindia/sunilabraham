@@ -28,7 +28,7 @@ Collect media pages
      | where_exp: "p", "p.path != 'media/index.md'" 
 %}
 
-<ul id="media-list">
+<ol id="media-list">
 {% for page in media_list %}
   <li data-title="{{ page.title | downcase }}"
       data-year="{{ page.date | date: '%Y' }}">
@@ -37,7 +37,7 @@ Collect media pages
     <span class="meta">{{ page.source }} • {{ page.date | date: "%Y" }}</span>
   </li>
 {% endfor %}
-</ul>
+</ol>
 
 <style>
 .sort-controls {
