@@ -85,3 +85,68 @@ Sunil Abraham's comments underscore a structural problem: India's cyber security
 
 - <a href="https://economictimes.indiatimes.com/tech/internet/indias-cyber-security-budget-woefully-inadequate-experts/articleshow/46036354.cms">Read on The Economic Times</a>
 
+<style>
+.media-details {
+  background: #f9fbfe;
+  border: 1px solid #d8e2f0;
+  border-radius: 10px;
+  padding: 1.2rem 1.4rem;
+  max-width: 700px;
+  margin: 1.2rem auto;
+  font-size: 0.96rem;
+  line-height: 1.5;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+.media-details dt {
+  font-weight: 600;
+  color: #1b2a49;
+  margin-top: 0.7rem;
+}
+.media-details dd {
+  margin: 0 0 0.3rem 0.3rem;
+  color: #555;
+}
+.highlighted-text {
+  background-color: #fffbea;
+  border-left: 4px solid #f2ce61;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  line-height: 1.65;
+  color: #333;
+  margin-bottom: 0.8rem;
+}
+.highlighted-text p { margin-bottom: 1rem; }
+.copy-btn-full {
+  display: inline-block;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-bottom: 1.5rem;
+}
+.copy-btn-full:hover { background: #e5e5e5; }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.copy-btn-full').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const target = document.querySelector(btn.getAttribute('data-copytarget'));
+      if (!target) return;
+      try {
+        await navigator.clipboard.writeText(target.innerText.trim());
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => (btn.textContent = original), 1500);
+      } catch (e) {
+        btn.textContent = 'Copy failed';
+        setTimeout(() => (btn.textContent = 'Copy Full Text'), 1500);
+      }
+    });
+  });
+});
+</script>
