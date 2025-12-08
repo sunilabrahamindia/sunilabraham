@@ -48,7 +48,7 @@ created: 2025-12-09
 
 <p><strong>Synopsis:</strong><br>
 The debate, on what gets to stay online and what does not, has been heating up in India with the government's recent attempts to censor the internet.</p>
-
+<hr/>
 <p>Three of the world's largest Internet companies — Google, Facebook, Yahoo — and 18 other companies have been summoned to face trial in January by the Patiala court for "willfully promoting and publicising offensive material for commercial gains". The debate, on what gets to stay online and what does not, has been heating up in India with the government's recent attempts to censor the internet.</p>
 
 <p><strong>What does this mean to the openness of internet?</strong></p>
