@@ -7,174 +7,182 @@ permalink: /clusters/sunil-abraham-economic-times/
 created: 2025-12-08
 ---
 
-***The Economic Times*** is one of India's largest financial newspapers, reporting on policy, markets, technology, regulation, and economic governance. Over the years, **Sunil Abraham** has engaged with the publication in many ways. He has contributed opinion pieces, written analytical commentary, and has also been quoted in stories on digital rights, privacy, platform governance, cybersecurity, and emerging technologies.
+***The Economic Times*** is one of India's most widely read financial newspapers, covering markets, policy, regulation, industry, and technology. Over the years, **Sunil Abraham** has contributed several articles to the publication and has also been quoted across its reporting on digital rights, privacy, platform governance, and technology policy.
 
-This cluster brings together all **published writings** and **media mentions** associated with *The Economic Times*. It is intended as a clear, well-organised reference point for readers and researchers following Sunil Abraham's work in technology and public policy.
+This cluster brings together all **publications** and **media mentions** connected to *The Economic Times*, providing a clean, unified reference point for researchers, students, and anyone following Sunil Abraham's work.
 
 ## Publications
-Articles authored by Sunil Abraham in *The Economic Times*.
 
+### Sort by:
 <div class="cluster-sort">
-  <span class="sort-label">Sort by:</span>
-  <button class="sort-btn" data-sort="alpha">Alphabetical</button>
-  <button class="sort-btn" data-sort="newest">Newest</button>
-  <button class="sort-btn" data-sort="oldest">Oldest</button>
+  <button data-sort="alpha">Alphabetical</button>
+  <button data-sort="newest">Newest First</button>
+  <button data-sort="oldest">Oldest First</button>
 </div>
 
-<ol class="cluster-list" id="pub-list">
 {% assign pub_items = site.pages 
-  | where_exp:"p","p.categories contains 'Publications'" 
-  | where:"source","The Economic Times" 
+     | where_exp:"p","p.categories contains 'Publications'"
+     | where:"source","The Economic Times" 
 %}
-{% assign pub_sorted = pub_items | sort: "title" %}
+{% assign pub_sorted = pub_items | sort:"title" %}
+
+<ol id="pub-list" class="cluster-list">
 {% for item in pub_sorted %}
-  <li class="cluster-item">
-    <a href="{{ item.permalink }}" class="cluster-link">{{ item.title }}</a>
-    <span class="cluster-date">{{ item.date | date: "%d %b %Y" }}</span>
+  <li data-title="{{ item.title | downcase }}"
+      data-date="{{ item.date | date: '%Y-%m-%d' }}">
+    <a href="{{ item.permalink }}">{{ item.title }}</a>
+    <br>
+    <span class="meta">*The Economic Times* • {{ item.date | date: "%d %b %Y" }}</span>
   </li>
 {% endfor %}
 </ol>
 
-## Media mentions
-Media reports in *The Economic Times* quoting or featuring Sunil Abraham.
+## Media Mentions
 
+### Sort by:
 <div class="cluster-sort">
-  <span class="sort-label">Sort by:</span>
-  <button class="sort-btn" data-sort="alpha">Alphabetical</button>
-  <button class="sort-btn" data-sort="newest">Newest</button>
-  <button class="sort-btn" data-sort="oldest">Oldest</button>
+  <button data-sort="alpha">Alphabetical</button>
+  <button data-sort="newest">Newest First</button>
+  <button data-sort="oldest">Oldest First</button>
 </div>
 
-<ol class="cluster-list" id="media-list">
 {% assign media_items = site.pages 
-  | where_exp:"p","p.categories contains 'Media mentions'" 
-  | where:"source","The Economic Times" 
+     | where_exp:"p","p.categories contains 'Media mentions'"
+     | where:"source","The Economic Times" 
 %}
-{% assign media_sorted = media_items | sort: "title" %}
+{% assign media_sorted = media_items | sort:"title" %}
+
+<ol id="media-list" class="cluster-list">
 {% for item in media_sorted %}
-  <li class="cluster-item">
-    <a href="{{ item.permalink }}" class="cluster-link">{{ item.title }}</a>
-    <span class="cluster-date">{{ item.date | date: "%d %b %Y" }}</span>
+  <li data-title="{{ item.title | downcase }}"
+      data-date="{{ item.date | date: '%Y-%m-%d' }}">
+    <a href="{{ item.permalink }}">{{ item.title }}</a>
+    <br>
+    <span class="meta">*The Economic Times* • {{ item.date | date: "%d %b %Y" }}</span>
   </li>
 {% endfor %}
 </ol>
 
 {% include back-to-top.html %}
 
-<a href="/media/" class="btn" style="margin-top: 1rem;">← Back to Media Index</a>
+<a href="/media/" class="btn" style="margin-top:1rem;">← Back to Media Index</a>
 
 <style>
 
-/* ---------------------------------------------
-   General List Style
----------------------------------------------- */
+/* ---------------------------------------------------------
+   LIST DESIGN (inspired by /media/, but cleaner)
+--------------------------------------------------------- */
 .cluster-list {
-  margin: 1.2rem 0;
-  padding-left: 1.2rem;
+  margin: 0.8rem 0 1.6rem 0;
+  padding-left: 1.1rem;
   max-width: 760px;
 }
 
-.cluster-item {
-  margin-bottom: 0.75rem;
-  padding: 0.25rem 0;
-  animation: fadeIn 0.4s ease;
+.cluster-list li {
+  margin-bottom: 0.75rem; /* tighter like media index */
+  animation: fadeUp 0.25s ease;
 }
 
-.cluster-link {
+/* Blue link as per your site default */
+.cluster-list a {
   text-decoration: none;
-  font-weight: 400; /* Not bold */
-  color: #0f1720;
 }
 
-.cluster-link:hover {
+.cluster-list a:hover {
   text-decoration: underline;
-  color: #0b66d1;
 }
 
-.cluster-date {
-  display: inline-block;
-  margin-left: 0.4rem;
-  font-size: 0.85rem;
-  color: #66748a;
-}
-
-/* ---------------------------------------------
-   Sort Buttons
----------------------------------------------- */
-.cluster-sort {
-  margin: 0.8rem 0 0.6rem 0;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.sort-label {
+.meta {
   font-size: 0.9rem;
-  color: #556072;
+  color: #555;
 }
 
-/* Beautiful pill buttons */
-.sort-btn {
-  padding: 0.3rem 0.75rem;
-  font-size: 0.85rem;
-  border: 1px solid #cfd6e3;
-  background: #f7f9fc;
-  border-radius: 20px;
+/* ---------------------------------------------------------
+   SORT BUTTONS (media-inspired but more elegant)
+--------------------------------------------------------- */
+.cluster-sort {
+  margin: 0.6rem 0 1rem 0;
+}
+
+.cluster-sort button {
+  background: #eef3fa;
+  border: 1px solid #cdd7e5;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.45rem;
+  border-radius: 6px;
   cursor: pointer;
-  transition: all 0.25s ease;
+  font-size: 0.88rem;
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 
-.sort-btn:hover {
-  background: #e6eef8;
-  border-color: #b9c4d6;
+.cluster-sort button:hover {
+  background: #dbe6f5;
 }
 
-.sort-btn:focus {
-  outline: 2px solid #0b66d1;
-  outline-offset: 2px;
+.cluster-sort button.active-sort {
+  background: #3278d6;
+  color: #fff;
+  border-color: #3278d6;
 }
 
-/* ---------------------------------------------
-   Animation
----------------------------------------------- */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(4px); }
+/* ---------------------------------------------------------
+   Clean fade animation
+--------------------------------------------------------- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(3px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 </style>
 
 <script>
-// Generic cluster sorting
-function sortList(listId, mode) {
-  const list = document.getElementById(listId);
-  const items = Array.from(list.querySelectorAll("li"));
+document.addEventListener("DOMContentLoaded", () => {
 
-  items.sort((a, b) => {
-    const titleA = a.querySelector(".cluster-link").innerText.trim().toLowerCase();
-    const titleB = b.querySelector(".cluster-link").innerText.trim().toLowerCase();
-    const dateA = new Date(a.querySelector(".cluster-date").innerText);
-    const dateB = new Date(b.querySelector(".cluster-date").innerText);
+  function attachSort(sectionId) {
+    const list = document.getElementById(sectionId);
+    const items = Array.from(list.querySelectorAll("li"));
+    const buttons = list.previousElementSibling.querySelectorAll("button");
 
-    if (mode === "alpha") return titleA.localeCompare(titleB);
-    if (mode === "newest") return dateB - dateA;
-    if (mode === "oldest") return dateA - dateB;
+    function sortList(type) {
+      let sorted = [...items];
 
-    return 0;
-  });
+      if (type === "alpha") {
+        sorted.sort((a, b) =>
+          a.dataset.title.localeCompare(b.dataset.title)
+        );
+      } 
+      else if (type === "newest") {
+        sorted.sort((a, b) =>
+          b.dataset.date.localeCompare(a.dataset.date)
+        );
+      } 
+      else if (type === "oldest") {
+        sorted.sort((a, b) =>
+          a.dataset.date.localeCompare(b.dataset.date)
+        );
+      }
 
-  list.innerHTML = "";
-  items.forEach(i => list.appendChild(i));
-}
+      list.innerHTML = "";
+      sorted.forEach(li => list.appendChild(li));
 
-document.querySelectorAll(".sort-btn").forEach(btn => {
-  btn.addEventListener("click", function(e) {
-    e.preventDefault();
-    const mode = this.dataset.sort;
+      buttons.forEach(btn => btn.classList.remove("active-sort"));
+      document.querySelector(`#${sectionId}`)
+        .previousElementSibling
+        .querySelector(`[data-sort="${type}"]`)
+        .classList.add("active-sort");
+    }
 
-    const section = this.closest(".cluster-sort").nextElementSibling.id;
-    sortList(section, mode);
-  });
+    /* Default sort: alphabetical */
+    sortList("alpha");
+
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        sortList(btn.dataset.sort);
+      });
+    });
+  }
+
+  attachSort("pub-list");
+  attachSort("media-list");
 });
 </script>
