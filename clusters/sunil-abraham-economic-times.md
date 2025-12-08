@@ -32,7 +32,10 @@ This cluster brings together all **publications** and **media mentions** connect
       data-date="{{ item.date | date: '%Y-%m-%d' }}">
     <a href="{{ item.permalink }}">{{ item.title }}</a>
     <br>
-    <span class="meta">*The Economic Times* • {{ item.date | date: "%d %b %Y" }}</span>
+    <span class="meta">{{ item.date | date: "%d %b %Y" }}</span>
+    {% if item.description %}
+      <div class="desc">{{ item.description }}</div>
+    {% endif %}
   </li>
 {% endfor %}
 </ol>
@@ -58,7 +61,10 @@ This cluster brings together all **publications** and **media mentions** connect
       data-date="{{ item.date | date: '%Y-%m-%d' }}">
     <a href="{{ item.permalink }}">{{ item.title }}</a>
     <br>
-    <span class="meta">*The Economic Times* • {{ item.date | date: "%d %b %Y" }}</span>
+    <span class="meta">{{ item.date | date: "%d %b %Y" }}</span>
+    {% if item.description %}
+      <div class="desc">{{ item.description }}</div>
+    {% endif %}
   </li>
 {% endfor %}
 </ol>
