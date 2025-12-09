@@ -855,7 +855,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-  /* SNOWFALL */
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const canvas = document.getElementById("snow-canvas");
