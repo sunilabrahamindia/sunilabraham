@@ -47,7 +47,7 @@ created: 2025-12-09
 <p><strong>Synopsis:</strong><br>
 The new approach by the ministry of communications and information technology mirrors the system adopted by developed countries, government officials said.</p>
 
-<p><strong>NEW DELHI:</strong> International partnerships, including with the global police network Interpol, could be the basis for India’s strategy to counter child pornography after the government’s move to ban websites peddling smut backfired last month. 
+<p><strong>NEW DELHI:</strong> International partnerships, including with the global police network Interpol, could be the basis for India’s strategy to counter child pornography after the government’s move to ban websites peddling smut backfired last month.</p>
   
 <p>The new approach by the ministry of communications and information technology mirrors the system adopted by developed countries, government officials said, representing a targeted attack on child pornography instead of the recent fiasco when the authorities backtracked in the face of protests after banning 857 websites.</p>
 
