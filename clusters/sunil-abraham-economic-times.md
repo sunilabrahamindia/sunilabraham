@@ -87,7 +87,7 @@ This cluster brings together all **publications** and **media mentions** connect
   animation: fadeUp 0.25s ease;
 }
 
-/* Blue link as per your site default */
+/* Blue link */
 .cluster-list a {
   text-decoration: none;
 }
