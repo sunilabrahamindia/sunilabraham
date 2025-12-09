@@ -15,17 +15,17 @@ robots: noindex
        alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
 </div>
 
+  <!-- Snowfall toggle -->
+<div id="snow-toggle" class="snow-toggle" role="switch" aria-checked="false" tabindex="0">
+  ❄ Snowfall: OFF
+</div>
+
 <div class="hero-intro">
   <p><strong>Welcome</strong> to the <strong>Sunil Abraham Project</strong> (TSAP). This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights.</p>
   
   <p>The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.</p>
 
   <p>As of {{ site.time | date: "%-d %B %Y" }}, the Sunil Abraham Project contains {{ site.pages | size }} pages.</p>
-
-  <!-- Snowfall toggle -->
-<div id="snow-toggle" class="snow-toggle" role="switch" aria-checked="false" tabindex="0">
-  ❄ Snowfall: OFF
-</div>
 
 <!-- Snowfall canvas -->
 <canvas id="snow-canvas"></canvas>
@@ -703,27 +703,25 @@ a:hover {
 }
 
 /* ---------------------------------------------------
-   Snowfall canvas behind hero
+   Snowfall
 --------------------------------------------------- */
 #snow-canvas {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   pointer-events: none;
-  z-index: 1; /* under hero content */
+  z-index: 0; /* behind everything */
 }
 
-/* ensure hero sits above canvas */
-.hero-intro {
+/* Ensure content stays above canvas */
+body, main {
   position: relative;
   z-index: 2;
 }
 
-/* ---------------------------------------------------
-   Toggle button inside hero
---------------------------------------------------- */
+/* Toggle button (same as before) */
 .snow-toggle {
   position: absolute;
   right: 1rem;
@@ -737,12 +735,6 @@ a:hover {
   user-select: none;
   box-shadow: 0 2px 8px rgba(0,0,0,0.18);
   transition: background 0.25s ease;
-}
-
-.snow-toggle:hover,
-.snow-toggle:focus {
-  background: #003f85;
-  outline: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -863,30 +855,27 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
+  /* SNOWFALL */
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const canvas = document.getElementById("snow-canvas");
   const toggle = document.getElementById("snow-toggle");
-  const hero = document.querySelector(".hero-intro");
   const ctx = canvas.getContext("2d");
 
   let snowflakes = [];
   let animationId;
   let enabled = false;
 
-  /* Respect reduced motion */
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* Restore saved preference */
   if (!reducedMotion) {
     enabled = localStorage.getItem("snowfall") === "on";
   }
 
-  /* Resize canvas to hero */
+  /* Fullscreen canvas */
   function resizeCanvas() {
-    const rect = hero.getBoundingClientRect();
-    canvas.width = rect.width;
-    canvas.height = rect.height;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
   }
   resizeCanvas();
   window.addEventListener("resize", resizeCanvas);
@@ -894,13 +883,13 @@ document.addEventListener("DOMContentLoaded", () => {
   /* Create snowflakes */
   function createSnowflakes() {
     snowflakes = [];
-    const count = 120; // low load, smooth on mobile
+    const count = 180; // visible across full page
     for (let i = 0; i < count; i++) {
       snowflakes.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         r: Math.random() * 2 + 1,
-        speed: Math.random() * 0.7 + 0.4,
+        speed: Math.random() * 0.8 + 0.5,
         drift: Math.random() * 0.6 - 0.3
       });
     }
@@ -911,7 +900,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = "rgba(255,255,255,0.9)";
 
-    for (let f of snowflakes) {
+    snowflakes.forEach(f => {
       ctx.beginPath();
       ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2);
       ctx.fill();
@@ -922,12 +911,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (f.y > canvas.height) f.y = -5;
       if (f.x > canvas.width) f.x = 0;
       if (f.x < 0) f.x = canvas.width;
-    }
+    });
 
     animationId = requestAnimationFrame(draw);
   }
 
-  /* Start snowfall */
   function startSnow() {
     resizeCanvas();
     createSnowflakes();
@@ -935,31 +923,24 @@ document.addEventListener("DOMContentLoaded", () => {
     canvas.style.display = "block";
   }
 
-  /* Stop snowfall */
   function stopSnow() {
     cancelAnimationFrame(animationId);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     canvas.style.display = "none";
   }
 
-  /* UI Update */
   function updateToggleUI() {
     toggle.textContent = enabled ? "❄ Snowfall: ON" : "❄ Snowfall: OFF";
     toggle.setAttribute("aria-checked", enabled);
   }
 
-  /* Activate initial state */
   if (!reducedMotion && enabled) startSnow();
   updateToggleUI();
 
-  /* Toggle behaviour */
   function toggleSnow() {
     enabled = !enabled;
     localStorage.setItem("snowfall", enabled ? "on" : "off");
-
-    if (enabled) startSnow();
-    else stopSnow();
-
+    enabled ? startSnow() : stopSnow();
     updateToggleUI();
   }
 
