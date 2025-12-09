@@ -11,7 +11,7 @@ Over the years, Sunil Abraham's work in technology policy, digital rights, inter
 
 To keep the site organised, all media-related material is stored inside the **`/media/`** directory. This includes coverage from newspapers, magazines, online newsrooms, and specialist technology publications. Each article reproduced here follows a consistent archival format: contextual introduction, publication details, and the full text from the original source, whenever available.
 
-## Media Mentions
+## List
 
 ### Sort by:
 <div class="sort-controls">
