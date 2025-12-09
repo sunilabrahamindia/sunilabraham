@@ -11,7 +11,7 @@ The Sunil Abraham Project includes a growing collection of articles that documen
 
 This page brings together all articles stored directly under `/articles/`, providing a single place to browse and access them. As with the rest of the project, new material will continue to be added as research progresses and archival work expands.
 
-## Articles (Alphabetical List)
+## Alphabetical List
 
 Below is an automatically generated list of all articles located in the `/articles/` directory. The list is alphabetically sorted by title.
 
