@@ -7,7 +7,7 @@ date: 2011-09-20
 source: "The Economic Times"
 authors: ["Vikas Kumar"]
 permalink: /media/planning-commission-census-2011-india-post-social-media/
-created: 2025-12-09
+created: 2025-12-10
 ---
 
 **Planning Commission, Census 2011 and India Post Using Social Media to Understand People's Pulse Better** is a report published in *The Economic Times* on 20 September 2011. It documents how several Indian government departments—most prominently the Planning Commission, the Census organisation, and India Post—were early adopters of social media for public outreach. The article includes perspectives from Sunil Abraham on the opportunities and risks of governmental social media use, particularly around privacy, data management and public accountability frameworks.
