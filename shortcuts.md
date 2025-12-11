@@ -19,7 +19,6 @@ Each uses a compliant HTML meta refresh redirect.
 | Shortcut | Redirects to | Description |
 |-----------|---------------|--------------|
 | [`/1`](https://sunilabraham.in/1) | [`/`](https://sunilabraham.in/) | Home page |
-| [`/a`](https://sunilabraham.in/a) | [`/about/`](https://sunilabraham.in/about/) | About Sunil Abraham |
 | [`/c`](https://sunilabraham.in/c) | [`/contact/`](https://sunilabraham.in/contact/) | Contact information |
 | [`/h`](https://sunilabraham.in/h) | [`/`](https://sunilabraham.in/) | Home page |
 | [`/p`](https://sunilabraham.in/p) | [`/projects/`](https://sunilabraham.in/projects/) | Projects |
