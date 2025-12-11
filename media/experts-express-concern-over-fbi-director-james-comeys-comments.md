@@ -73,6 +73,8 @@ Encryption can be understood as the practice of scrambling data to make it unint
 
 <p>"Surveillance is like salt in cooking," said Sunil Abraham, executive director at Centre of Internet Society. "You need it in essential and tiny quantities. We can maybe "pickle ourselves" or have a higher level of salt, but we cannot make surveillance a 100%," he added.</p>
 
+</div>
+
 ## Context and Background
 
 The article appears at a moment when debates on encryption and lawful access were intensifying across the world. James Comey's remarks in the United States were part of a broader push by law enforcement agencies to reopen long-standing arguments about whether companies should design systems that remain accessible to the state, even when strong encryption is used. Although the discussion was triggered by a US Senate hearing, it had immediate relevance for India. Policymakers here were already grappling with similar questions, as seen in the quickly withdrawn draft encryption policy that briefly required individuals to retain decrypted communications.
