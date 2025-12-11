@@ -6,13 +6,6 @@ sitemap: false
 robots: noindex
 ---
 
----
-layout: default
-title: "Metadata Search"
-permalink: /sandbox/metadata-search/
-created: 2025-12-11
----
-
 <!--
   Metadata Search — polished single-file prototype
   - Uses site pages metadata exported as JSON by Liquid
