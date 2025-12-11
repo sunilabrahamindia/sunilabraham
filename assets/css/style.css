@@ -130,52 +130,57 @@ background: linear-gradient(
 }
 
 /* =========================================================
-   Winter Snowfall Effect (Behind Header)
+   Christmas Snowfall Effect (Real Falling Flakes)
+   Header Only – CSS-only
    ========================================================= */
 
-/* Snow layer in FRONT of gradient but behind text */
 .site-header {
   position: relative;
   overflow: hidden;
   z-index: 0;
 }
 
-.site-header::before {
+/* Container for falling flakes */
+.site-header::after {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
+  z-index: 2; /* Above gradient, below text */
 
   background-image:
-    radial-gradient(circle, rgba(255,255,255,0.7) 3px, transparent 4px),
-    radial-gradient(circle, rgba(255,255,255,0.55) 3px, transparent 4px),
-    radial-gradient(circle, rgba(255,255,255,0.45) 3px, transparent 4px);
+    radial-gradient(circle, rgba(255,255,255,0.9) 4px, transparent 5px),
+    radial-gradient(circle, rgba(255,255,255,0.85) 3px, transparent 4px),
+    radial-gradient(circle, rgba(255,255,255,0.8) 5px, transparent 6px);
 
-  background-size: 8px 8px, 10px 10px, 12px 12px;
-  background-position: 0 0, 50px -20px, -30px 10px;
+  /* Different flake distributions */
+  background-size: 120px 120px, 90px 90px, 150px 150px;
 
-  animation: snowfallDrift 15s linear infinite;
-  filter: drop-shadow(0 0 2px rgba(255,255,255,0.6));
-  opacity: 0.85;
-
-  z-index: 1; /* this makes snow visible */
+  animation: christmasSnow 12s linear infinite;
+  filter: drop-shadow(0 0 4px rgba(255,255,255,0.7));
 }
 
-/* Soft downward drift */
-@keyframes snowfallDrift {
+/* Real falling + drifting motion */
+@keyframes christmasSnow {
   0% {
-    background-position: 0 0, 50px -20px, -30px 10px;
+    background-position:
+      0 0,
+      -30px -50px,
+      50px -100px;
   }
   100% {
-    background-position: 0 600px, 50px 580px, -30px 610px;
+    background-position:
+      0 800px,     /* falls straight */
+      -30px 760px, /* slight left drift */
+      50px 820px;  /* slight right drift */
   }
 }
 
-/* Accessibility: Disable snowfall for reduced-motion users */
+/* Reduced motion accessibility */
 @media (prefers-reduced-motion: reduce) {
-  .site-header::before {
+  .site-header::after {
     animation: none;
-    opacity: 0; /* completely hides it */
+    opacity: 0;
   }
 }
 /* =========================================================
