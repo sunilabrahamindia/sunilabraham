@@ -130,8 +130,8 @@ background: linear-gradient(
 }
 
 /* =========================================================
-   Christmas Snowfall Effect (Real Falling Flakes)
-   Header Only – CSS-only
+   Winter Swirling Snowfall — Header Only
+   CSS-only, natural drifting flakes
    ========================================================= */
 
 .site-header {
@@ -140,39 +140,70 @@ background: linear-gradient(
   z-index: 0;
 }
 
-/* Container for falling flakes */
+/* Snow layer */
 .site-header::after {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 2; /* Above gradient, below text */
+  z-index: 2;
 
   background-image:
-    radial-gradient(circle, rgba(255,255,255,0.9) 4px, transparent 5px),
-    radial-gradient(circle, rgba(255,255,255,0.85) 3px, transparent 4px),
-    radial-gradient(circle, rgba(255,255,255,0.8) 5px, transparent 6px);
+    radial-gradient(circle, rgba(255,255,255,0.90) 3px, transparent 4px),
+    radial-gradient(circle, rgba(255,255,255,0.75) 2px, transparent 3px),
+    radial-gradient(circle, rgba(255,255,255,0.65) 4px, transparent 5px);
 
-  /* Different flake distributions */
-  background-size: 120px 120px, 90px 90px, 150px 150px;
+  /* dispersed, not grid-like */
+  background-size:
+    120px 180px,
+    160px 240px,
+    200px 300px;
 
-  animation: christmasSnow 12s linear infinite;
-  filter: drop-shadow(0 0 4px rgba(255,255,255,0.7));
+  /* initial offsets to avoid pattern alignment */
+  background-position:
+    10px -40px,
+    -60px -80px,
+    40px -120px;
+
+  animation: swirlSnow 14s linear infinite;
+  filter: drop-shadow(0 0 4px rgba(255,255,255,0.6));
 }
 
-/* Real falling + drifting motion */
-@keyframes christmasSnow {
+/* Natural drifting + falling motion */
+@keyframes swirlSnow {
   0% {
     background-position:
-      0 0,
-      -30px -50px,
-      50px -100px;
+      10px -40px,
+      -60px -80px,
+      40px -120px;
   }
+
+  25% {
+    background-position:
+      30px 100px,     /* drift right + fall */
+      -80px 60px,     /* drift left + fall */
+      20px 0px;       /* slower layer */
+  }
+
+  50% {
+    background-position:
+      0px 260px,      /* drift back left */
+      -20px 220px,
+      -40px 140px;
+  }
+
+  75% {
+    background-position:
+      30px 420px,
+      -70px 380px,
+      30px 300px;
+  }
+
   100% {
     background-position:
-      0 800px,     /* falls straight */
-      -30px 760px, /* slight left drift */
-      50px 820px;  /* slight right drift */
+      10px 600px,
+      -60px 580px,
+      40px 520px;
   }
 }
 
