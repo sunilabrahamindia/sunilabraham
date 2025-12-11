@@ -17,6 +17,7 @@ created: 2025-11-16
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
 3. [Context and Background](#context-and-background)
+4. [External Link](#external-link)
 
 ## Article Details
 
@@ -34,8 +35,11 @@ created: 2025-11-16
   <dd>Opinion Article</dd>
 
   <dt>📰 Newspaper Link:</dt>
-  <dd>Not available</dd>
-</dl>
+  <dd>
+    <a class="btn" href="https://economictimes.indiatimes.com/news/company/corporate-trends/anant-ambani-receives-the-global-humanitarian-award-and-vantara-draws-international-attention-for-its-conservation-model/articleshow/125840666.cms">
+      Read Online
+    </a>
+  </dd></dl>
 
 ## Full Text
 
@@ -92,6 +96,10 @@ Regulation of speech also cannot be confused with cyber war or security. Speech 
 ## Context and Background
 
 This article explains how governments often misunderstand the nature of online speech and why blunt censorship tools tend to produce harmful, unintended consequences. Abraham argues that speech is primarily governed by social norms, not law; that harm depends on a speaker’s power and context; and that censorship often backfires through effects like the Streisand Effect or user migration to harder-to-monitor platforms. He advocates proportional, thoughtful, and minimal regulation, emphasising 'more speech' rather than censorship.
+
+## External Link
+
+- [Read on The Economic Times](https://economictimes.indiatimes.com/news/company/corporate-trends/anant-ambani-receives-the-global-humanitarian-award-and-vantara-draws-international-attention-for-its-conservation-model/articleshow/125840666.cms)
 
 <style>
 .media-details {
