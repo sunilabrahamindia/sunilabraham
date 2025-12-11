@@ -55,7 +55,7 @@ The unbridling of the power of the social media was undoubtedly a top, if not no
 
 <p>The networking tool that's now a weapon</p>
 
-<p>Finance minister P Chidambaram recently tried to sum up the phenomenon by likening social media-driven snap protests to a flash-mob phenomenon. "Flash mob is a new phenomenon... sometimes they gather to dance and sing. But sometimes they gather to protest... I don't think we are fully prepared to deal with it." Going by the last fortnight, when the government fumbled in dealing with widespread protests over Nirbhaya, the minister's admission was an understatement. Let alone being "fully prepared", they didn't have a clue.</p>
+<p>Finance minister P. Chidambaram recently tried to sum up the phenomenon by likening social media-driven snap protests to a flash-mob phenomenon. "Flash mob is a new phenomenon... sometimes they gather to dance and sing. But sometimes they gather to protest... I don't think we are fully prepared to deal with it." Going by the last fortnight, when the government fumbled in dealing with widespread protests over Nirbhaya, the minister's admission was an understatement. Let alone being "fully prepared", they didn't have a clue.</p>
 
 <p>The unbridling of the power of the social media was undoubtedly a top, if not no. 1, trend of 2012 in India. In many cases, it set the agenda of public discourse. As in Palghar, where young Shaheen Dhada's Facebook comment on the shutdown of Mumbai after Bal Thackeray's death kicked off a storm, the virtual world triggered several real-world controversies.</p>
 
