@@ -93,7 +93,7 @@ The unbridling of the power of the social media was undoubtedly a top, if not no
 
 This article marks a pivotal moment in India's digital history. The year 2012 demonstrated that social media had matured into a decisive instrument capable of shaping debates, amplifying dissent, and mobilising both solidarity and panic. The widespread adoption of smartphones, combined with a young, urban and politically expressive online population, created unprecedented pathways for public participation.
 
-Yet the story also foreshadows complexities that would dominate later years: misinformation, rumour-driven violence, blurred boundaries between online and offline activism, and the challenge for institutions to keep pace with public sentiment circulating at digital speed. Sunil Abraham's observations situate these developments within a broader understanding of how technology interacts with social dynamics rather than determining them outright.
+The story also foreshadows complexities that would dominate later years: misinformation, rumour-driven violence, blurred boundaries between online and offline activism, and the challenge for institutions to keep pace with public sentiment circulating at digital speed. Sunil Abraham's observations situate these developments within a broader understanding of how technology interacts with social dynamics rather than determining them outright.
 
 ## External Link
 
