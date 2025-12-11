@@ -130,6 +130,53 @@ background: linear-gradient(
 }
 
 /* =========================================================
+   Winter Snowfall Effect (Behind Header)
+   ========================================================= */
+
+.site-header {
+  position: relative;
+  overflow: hidden; /* ensures flakes do not spill outside */
+}
+
+/* Snow layer behind header */
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none; /* make sure it never blocks clicks */
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.45) 2px, transparent 3px),
+    radial-gradient(circle, rgba(255,255,255,0.35) 2px, transparent 3px),
+    radial-gradient(circle, rgba(255,255,255,0.25) 2px, transparent 3px);
+  background-size: 4px 4px, 5px 5px, 6px 6px;
+  background-position: 0 0, 50px -20px, -30px 10px;
+  z-index: -1; /* stays behind everything */
+  animation: snowfallDrift 15s linear infinite;
+  opacity: 0.5; /* subtle */
+}
+
+/* Soft downward drift */
+@keyframes snowfallDrift {
+  0% {
+    background-position: 0 0, 50px -20px, -30px 10px;
+  }
+  100% {
+    background-position: 0 600px, 50px 580px, -30px 610px;
+  }
+}
+
+/* Accessibility: Disable snowfall for reduced-motion users */
+@media (prefers-reduced-motion: reduce) {
+  .site-header::before {
+    animation: none;
+    opacity: 0; /* completely hides it */
+  }
+}
+/* =========================================================
+   Winter Snowfall Effect Ends Here
+   ========================================================= */
+
+/* =========================================================
    Site Description Animation (Subtle, Calm, Accessible)
    ========================================================= */
 .site-header p {
