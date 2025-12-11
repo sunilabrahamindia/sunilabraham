@@ -51,7 +51,7 @@ Sushma Swaraj had on Wednesday tweeted that India visas for Amazon executives ma
 
 <p>That's the view of industry observers and lawyers familiar with internal business practices and regulation.</p>
 
-<p>India's External Affairs Minister <strong>Sushma Swaraj</strong> had on Wednesday tweeted that India visas for <strong>Amazon</strong> executives may be withdrawn unless the America headquartered ecommerce giant apologised for its Canadian site selling doormats in India flag colours.</p>
+<p>India's External Affairs Minister Sushma Swaraj had on Wednesday tweeted that India visas for Amazon executives may be withdrawn unless the America headquartered ecommerce giant apologised for its Canadian site selling doormats in India flag colours.</p>
 
 <p>The point, lawyers and experts say, is that Indian law itself protects Amazon from being prosecuted in this case. India recognises companies like Amazon (whether in India or Canada), as intermediaries, who are exempt from liability under the IT (Information Technology) Act, because a third-party seller was selling those doormats.</p>
 
