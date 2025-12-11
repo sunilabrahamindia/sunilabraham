@@ -59,9 +59,9 @@ A day after communications and IT minister Ravi Shankar Prasad said India will s
 
 <p>The multistakeholder model involves all stakeholders such as businesses, civil society, governments, research institutions and non-governmental organisations in the dialogue, decision-making and implementation of policymaking and governance.</p>
 
-<p>The external affairs ministry, telecom department and the department of electronics and IT have long held divergent views on issues of internet governance, with no clear stand being made at international platforms. While welcoming the announcement, Sunil Abraham, executive director at the Centre for Internet and Society, said the minister could have explained in greater detail, especially the ongoing transition of internet governance control from US government to a multistakeholder model.</p>
+<p>The external affairs ministry, telecom department and the department of electronics and IT have long held divergent views on issues of internet governance, with no clear stand being made at international platforms. While welcoming the announcement, Sunil Abraham, executive director at the Centre for Internet and Society, said the minister could have explained in greater detail, especially the ongoing transition of internet governance control from the US government to a multistakeholder model.</p>
 
-<p>"He also spoke about government being responsible for security and human rights over the internet, which adds to the confusion over whether India will really let the internet be a fair and free medium," he said.</p>
+<p>"He also spoke about the government being responsible for security and human rights over the internet, which adds to the confusion over whether India will really let the internet be a fair and free medium," he said.</p>
 
 <p>Prasanth Sugathan, counsel for the Software Freedom Law Centre, said the government should seek the views of other stakeholders as well on the issue. "When you talk of multistakeholderism, it should not be only at an international level. It should also happen at a national level. The government should have other parties also contributing to issues of internet governance," he said.</p>
 
