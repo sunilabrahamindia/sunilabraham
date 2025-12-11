@@ -44,30 +44,30 @@ created: 2025-12-11
 
 <div class="highlighted-text" id="fulltext">
 
-**Synopsis**  
-EU's GDPR bestows several rights on the EU residents to protect their personal information and imposes restrictions to how companies keep data on them.
+<p><strong>Synopsis</strong><br>
+EU's GDPR bestows several rights on the EU residents to protect their personal information and imposes restrictions to how companies keep data on them.</p>
 
-**BENGALURU:** The Justice Srikrishna committee report on data protection submitted on Friday draws a lot of inspiration from the European Union’s data protection norms.
+<p><strong>BENGALURU:</strong> The Justice Srikrishna committee report on data protection submitted on Friday draws a lot of inspiration from the European Union's data protection norms.</p>
 
-The General Data Protection Regulation (GDPR) that took effect in EU on May 25 bestows several rights on the EU residents to protect their personal information and imposes restrictions to how companies keep data on them.
+<p>The General Data Protection Regulation (GDPR) that took effect in EU on May 25 bestows several rights on the EU residents to protect their personal information and imposes restrictions to how companies keep data on them.</p>
 
-The Srikrishna Committee's proposed draft data protection law has adopted principles like right to access and correction, right to portability, right to be forgotten, but the extent of an individual's rights is limited compared with the EU law.
+<p>The Srikrishna Committee's proposed draft data protection law has adopted principles like right to access and correction, right to portability, right to be forgotten, but the extent of an individual's rights is limited compared with the EU law.</p>
 
-"Critical personal data is not defined, and it is left to the central government to determine what constitutes critical personal data," said Nehaa Chaudhari privacy lawyer with technology law firm TRA Law.
+<p>"Critical personal data is not defined, and it is left to the central government to determine what constitutes critical personal data," said Nehaa Chaudhari privacy lawyer with technology law firm TRA Law.</p>
 
-The proposed law imposes different data localisation requirements for different kinds of data. It mandates absolute localisation – that is, complete storage and processing – of critical personal data in India.
+<p>The proposed law imposes different data localisation requirements for different kinds of data. It mandates absolute localisation – that is, complete storage and processing – of critical personal data in India.</p>
 
-The law also mandates 'mirroring' of data, which requires a copy of an entity's personal information to be kept in a server or data centre in India.
+<p>The law also mandates ‘mirroring' of data, which requires a copy of an entity's personal information to be kept in a server or data centre in India.</p>
 
-EU's GDPR allows data controllers and processors to transfer data outside the EU if they fulfil certain conditions.
+<p>EU's GDPR allows data controllers and processors to transfer data outside the EU if they fulfil certain conditions.</p>
 
-"GDPR only requires you to have a local representative, which is a better approach," said Sunil Abraham, executive director at Center for internet and Society. "Then you can arrest the representative if FB (Facebook) doesn't give you data, which is a better way for the government to force corporations to submit data."
+<p>"GDPR only requires you to have a local representative, which is a better approach," said Sunil Abraham, executive director at Center for internet and Society. "Then you can arrest the representative if FB (Facebook) doesn't give you data, which is a better way for the government to force corporations to submit data."</p>
 
-While GDPR prescribes a fine of up to EUR 20 million, or 4% of the total worldwide annual turnover in case of a company, for infringement of the law, the Srikrishna committee draft law prescribes both civil penalties and criminal offences.
+<p>While GDPR prescribes a fine of up to EUR 20 million, or 4% of the total worldwide annual turnover in case of a company, for infringement of the law, the Srikrishna committee draft law prescribes both civil penalties and criminal offences.</p>
 
-For the misuse of personal data, the draft law punishes non-compliant parties with a jail term of three years or a fine of up to Rs 2 lakh, or both.
+<p>For the misuse of personal data, the draft law punishes non-compliant parties with a jail term of three years or a fine of up to Rs 2 lakh, or both.</p>
 
-Just like the GDPR, the draft bill prescribes differing ranges of penalties for contravention of different provisions. "For some contraventions, max penalty is Rs 5 crore, or up to 2% of the global turnover of a company in the previous year, whichever is higher," said Chaudhari of TRA Law. "For some other contraventions, including contravening the provisions on cross-border transfers, consent and grounds of processing, penalties extend to Rs 15 crore or 4% of the global turnover in the previous financial year, whichever was higher."
+<p>Just like the GDPR, the draft bill prescribes differing ranges of penalties for contravention of different provisions. "For some contraventions, max penalty is Rs 5 crore, or up to 2% of the global turnover of a company in the previous year, whichever is higher," said Chaudhari of TRA Law. "For some other contraventions, including contravening the provisions on cross-border transfers, consent and grounds of processing, penalties extend to Rs 15 crore or 4% of the global turnover in the previous financial year, whichever was higher."</p>
 
 </div>
 
@@ -81,12 +81,12 @@ The article appears at a key moment in India's evolving data governance landscap
 
 - **Individual rights were narrower**, limiting the power of citizens to meaningfully control their information.  
 - **Localisation and mirroring requirements** suggested a state-centric approach to data custody rather than a rights-based one.  
-- **Ambiguity around terms such as ‘critical personal data’** created uncertainty for industry and civil society.  
+- **Ambiguity around terms such as ‘critical personal data'** created uncertainty for industry and civil society.  
 - **Penalties differed in structure and rationale**, mixing civil and criminal liability in ways that diverged from international practice.
 
-Sunil Abraham's comments underline a deeper policy argument: strict localisation does not necessarily enhance state capacity or public accountability. Instead, mechanisms like the GDPR’s local-representative requirement can sometimes provide more predictable and enforceable outcomes.
+Sunil Abraham's comments underline a deeper policy argument: strict localisation does not necessarily enhance state capacity or public accountability. Instead, mechanisms like the GDPR's local-representative requirement can sometimes provide more predictable and enforceable outcomes.
 
-The article therefore serves both as a snapshot of India’s early data protection debates and as an illustration of how global frameworks like GDPR shaped domestic policymaking.
+The article therefore serves both as a snapshot of India's early data protection debates and as an illustration of how global frameworks like GDPR shaped domestic policymaking.
 
 ## External Link
 
