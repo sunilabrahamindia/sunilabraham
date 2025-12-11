@@ -486,4 +486,3 @@ document.getElementById('clearBuilder').addEventListener('click',()=>{ STATE.bui
 restoreFromURL(); renderBuilder(); refreshChips(); if(STATE.q||STATE.authors.length||STATE.sources.length||STATE.categories.length||STATE.years.length) runQuery();
 
 </script>
-
