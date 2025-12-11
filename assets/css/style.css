@@ -143,16 +143,17 @@ background: linear-gradient(
   content: "";
   position: absolute;
   inset: 0;
-  pointer-events: none; /* make sure it never blocks clicks */
+  pointer-events: none;
   background-image:
-    radial-gradient(circle, rgba(255,255,255,0.45) 2px, transparent 3px),
-    radial-gradient(circle, rgba(255,255,255,0.35) 2px, transparent 3px),
-    radial-gradient(circle, rgba(255,255,255,0.25) 2px, transparent 3px);
-  background-size: 4px 4px, 5px 5px, 6px 6px;
+    radial-gradient(circle, rgba(255,255,255,0.7) 3px, transparent 4px),
+    radial-gradient(circle, rgba(255,255,255,0.55) 3px, transparent 4px),
+    radial-gradient(circle, rgba(255,255,255,0.45) 3px, transparent 4px);
+  background-size: 8px 8px, 10px 10px, 12px 12px;
   background-position: 0 0, 50px -20px, -30px 10px;
-  z-index: -1; /* stays behind everything */
+  z-index: -1;
   animation: snowfallDrift 15s linear infinite;
-  opacity: 0.5; /* subtle */
+  filter: drop-shadow(0 0 2px rgba(255,255,255,0.6));
+  opacity: 0.85;
 }
 
 /* Soft downward drift */
