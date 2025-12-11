@@ -40,6 +40,9 @@ In appearance, the site maintains a plain and accessible design. Text is priorit
 - **19 October 2025 (Sunday)** — The first four pages of the site were deployed on GitHub, marking the initial public build of the project. These included the Home page, the Publications index, the Projects overview, and the Contact page.
 - **13 November 2025 (Thursday)** — Sunil Abraham announced the launch of the project on [Facebook](https://www.facebook.com/abrahamsunil/posts/pfbid0h6kgb9kCKtHYmaWbyE7yNnmkS1hpdyz2yrghmA51dYMUotqQUCocrwvvRkB93CHil), [LinkedIn](https://www.linkedin.com/posts/sunilaabraham_sunil-abraham-project-activity-7394691115444174848-2qbV/) and [𝕏](https://x.com/sunil_abraham/status/1988926639162683485).
 - **23 November 2025 (Sunday)** — The Sunil Abraham Project reached the milestone of 100 articles with the publication of [*Sense and Censorship*](https://sunilabraham.in/publications/sense-and-censorship/)
+- **29 November 2025 (Saturday)** — The 29th death anniversary of A. M. A. Ayrookuzhiel was observed. As part of the commemoration, the [A. M. A. Ayrookuzhiel Portal](amaa/portal) was launched on the site. Sunil Abraham also marked the day with a [personal note on Facebook](https://www.facebook.com/abrahamsunil/posts/pfbid02YPZGi2o2QfCqandnBYq9qLnozMEETXJMEZVnMcrT5xtmd4HQuo5do4LTgCHMbrjsl), reflecting on his father's life and legacy.
+- **11 December 2025 (Thursday)** — The Sunil Abraham Project reached the milestone of 200 articles with the publication of [*2012: The Year Social Media Came of Age in India*](https://sunilabraham.in/media/2012-the-year-social-media-came-of-age-in-india/).
+
 
 
 
