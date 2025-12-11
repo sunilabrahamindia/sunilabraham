@@ -133,27 +133,32 @@ background: linear-gradient(
    Winter Snowfall Effect (Behind Header)
    ========================================================= */
 
+/* Snow layer in FRONT of gradient but behind text */
 .site-header {
   position: relative;
-  overflow: hidden; /* ensures flakes do not spill outside */
+  overflow: hidden;
+  z-index: 0;
 }
 
-/* Snow layer behind header */
 .site-header::before {
   content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
+
   background-image:
     radial-gradient(circle, rgba(255,255,255,0.7) 3px, transparent 4px),
     radial-gradient(circle, rgba(255,255,255,0.55) 3px, transparent 4px),
     radial-gradient(circle, rgba(255,255,255,0.45) 3px, transparent 4px);
+
   background-size: 8px 8px, 10px 10px, 12px 12px;
   background-position: 0 0, 50px -20px, -30px 10px;
-  z-index: -1;
+
   animation: snowfallDrift 15s linear infinite;
   filter: drop-shadow(0 0 2px rgba(255,255,255,0.6));
   opacity: 0.85;
+
+  z-index: 1; /* this makes snow visible */
 }
 
 /* Soft downward drift */
