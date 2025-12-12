@@ -40,7 +40,7 @@ This cluster brings together all **media mentions** connected to *The New York T
 </ol>
 
 ## External links
-- <a href="https://www.nytimes.com/search?query=Sunil%20Abraham">Sunil Abraham on *The New York Times*</a>
+<a href="https://www.nytimes.com/search?query=%22Sunil%20Abraham%22">"Sunil Abraham" on *The New York Times*</a>
 
 <style>
 
