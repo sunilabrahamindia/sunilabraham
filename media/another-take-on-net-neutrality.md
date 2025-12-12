@@ -5,6 +5,7 @@ description: "A New York Times report examining India's net neutrality debate, t
 categories: [Media mentions]
 date: 2015-04-15
 source: "The New York Times"
+authors: ["Manu Joseph"]
 permalink: /media/another-take-on-net-neutrality/
 created: 2025-12-12
 ---
@@ -26,6 +27,9 @@ created: 2025-12-12
 
   <dt>📅 Date:</dt>
   <dd>15 April 2015</dd>
+
+  <dt>👤 Author:</dt>
+  <dd>Manu Joseph</dd>
 
   <dt>📄 Type:</dt>
   <dd>News Report</dd>
