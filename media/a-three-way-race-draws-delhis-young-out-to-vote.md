@@ -4,7 +4,7 @@ title: "A Three-Way Race Draws Delhi's Young, and Everyone Else, Out to Vote"
 description: "A New York Times India Ink report by Betwa Sharma on the 2013 Delhi state elections, the unprecedented youth turnout, and how corruption, safety, and the rise of the Aam Aadmi Party shaped voter behaviour. Includes commentary from Sunil Abraham on social media's influence on political discourse."
 categories: [Media mentions]
 date: 2013-12-04
-source: "The New York Times (India Ink)"
+source: "The New York Times"
 authors: ["Betwa Sharma"]
 permalink: /media/a-three-way-race-draws-delhis-young-out-to-vote/
 created: 2025-12-12
