@@ -7,7 +7,7 @@ date: 2012-08-21
 source: "The New York Times"
 authors: ["Vikas Bajaj"]
 permalink: /media/internet-analysts-question-indias-efforts-stem-panic/
-created: 2025-12-12
+created: 2025-12-13
 ---
 
 **Internet Analysts Question India's Efforts to Stem Panic** is a report published in *The New York Times* on 21 August 2012, written by Vikas Bajaj. The article examines the Indian government's response to ethnic tensions targeting northeastern migrants through aggressive internet censorship and communication restrictions, featuring critical commentary from Sunil Abraham on the impractically broad directives issued to intermediaries and the government's failure to employ effective counter-messaging strategies alongside content removal efforts.
