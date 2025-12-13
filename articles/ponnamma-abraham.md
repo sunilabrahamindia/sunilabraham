@@ -6,7 +6,6 @@ categories: [A. M. A. Ayrookuzhiel, Biographies, Sunil Abraham]
 permalink: /articles/ponnamma-abraham/
 created: 2025-11-29
 ---
-{% include notice.html message="This page is new and currently under development. You can read it as it stands, but it will be expanded substantially in the coming days. Please revisit after 15 December 2025 for a more comprehensive version." %}
 
 **Ponnamma Abraham** (born 17 June 1944) is an Indian nurse and a teacher. She undertook nursing training at the Universitätskliniken in Bonn Venusberg. She worked in hospitals in Reading before returning to India in 1973 to join the United Theological College Nursery School, where she eventually retired as Principal. She married Rev. A. M. A. Ayrookuzhiel in 1971, and they have three sons.
 
