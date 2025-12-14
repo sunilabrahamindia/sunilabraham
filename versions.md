@@ -17,6 +17,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 6. [Version 0.4](#version-04)
 7. [Version 0.5](#version-05)
 8. [Version 0.6](#version-06)
+9. [Version 0.6.1](#version-061)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -255,3 +256,30 @@ Version 0.6 reflects steady progress across TSAP, with work focused on content e
 ✅ **Status:** Completed — Version 0.6 completed  
 📅 **Completion Date:** 7 December 2025
 
+## Version 0.6.1
+
+Version 0.6.1 represents a high-output week focused primarily on consolidating the **Media Mentions** archive, expanding historical coverage, and beginning structured clustering around major publications. The emphasis during this period was on accuracy, completeness, and long-term archival value rather than visual or layout changes.
+
+**📰 Media Mentions Expansion (Primary Focus)**  
+- Work this week concentrated heavily on the Media Mentions section.  
+- A total of 53 new media articles** were created between 7 December and 13 December 2025.  
+- Each entry followed a consistent structure, with careful attention to dates, authorship, source attribution, and verbatim full text where available.  
+- Older articles were handled with the same rigor as recent ones, ensuring historical continuity.
+
+**🗞️ The Economic Times Cluster**  
+- Work began on *The Economic Times cluster*, bringing together all related publications and media mentions under a single thematic grouping.  
+- This cluster serves as a unified reference point for articles written by, featuring, or substantially engaging with Sunil Abraham in *The Economic Times*.  
+- The clustering approach improves discoverability while preserving the independence of individual article pages.
+
+**📰 The New York Times Cluster**  
+- A separate cluster for *he New York Times* was initiated.  
+- Relevant articles were identified and prepared for inclusion under this grouping.  
+- This marks the start of source-based clustering for international publications.
+
+**🧱 Structural Consistency**  
+- All newly added pages adhered to the established metadata and layout conventions.  
+- No experimental templates were introduced during this version, helping maintain stability while content volume increased rapidly.
+
+**📅 Status and Completion**  
+✅ **Status:** Completed — Version 0.6.1 completed  
+📅 **Completion Period:** 14 December 2025
