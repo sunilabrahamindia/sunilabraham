@@ -10,13 +10,14 @@ permalink: /publications/privacy-worries-cloud-facebooks-whatsapp-deal/
 created: 2025-11-12
 ---
 
-**Privacy Worries Cloud Facebook's WhatsApp Deal** is an article by Sunil Abraham, published in *The Economic Times* on 14 March 2014. The piece examines global and Indian responses to Facebook’s acquisition of WhatsApp, highlighting the absence of comprehensive data protection in India and warning that users’ privacy will remain vulnerable until national regulation and enforcement mechanisms are in place.
+**Privacy Worries Cloud Facebook's WhatsApp Deal** is an article by Sunil Abraham, published in *The Economic Times* on 14 March 2014. The piece examines global and Indian responses to Facebook’s acquisition of WhatsApp, highlighting the absence of comprehensive data protection in India and warning that users' privacy will remain vulnerable until national regulation and enforcement mechanisms are in place.
 
 ## Contents
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
 3. [Context and Background](#context-and-background)  
+4. [External Link](#external-link)
 
 ## Article Details
 
@@ -34,9 +35,7 @@ created: 2025-11-12
   <dd>Opinion Article</dd>
 
   <dt>📰 Publication Link:</dt>
-  <dd>
-    Link unavailable (archived source referenced)
-  </dd>
+    <a class="btn" href="https://economictimes.indiatimes.com/tech/internet/privacy-worries-cloud-facebooks-whatsapp-deal/articleshow/31970166.cms>Read Online</a>
 </dl>
 
 ## Full Text
@@ -81,7 +80,19 @@ created: 2025-11-12
 
 ## Context and Background
 
-This article was written shortly after Facebook announced its acquisition of WhatsApp in early 2014. Sunil Abraham situates the debate within a global context of rising concern over digital surveillance and platform monopolies. He warns that India’s absence of a dedicated privacy regulator leaves citizens and businesses unprotected, and that network neutrality debates must consider stages of market development alongside user welfare.
+This article was written in March 2014, shortly after Facebook announced its acquisition of WhatsApp for USD 19 billion, one of the largest technology deals at the time. Globally, the acquisition triggered concern among regulators and civil society groups, particularly in the United States and Europe, about data consolidation, surveillance, and the erosion of user privacy across platforms.
+
+Sunil Abraham situates the Indian debate within this broader international context while drawing attention to India's specific institutional gaps. Unlike the US Federal Trade Commission or European data protection authorities, India’s Competition Commission lacked jurisdiction to examine privacy harms arising from corporate mergers. This regulatory blind spot meant that even large-scale data consolidation affecting millions of Indian users could proceed without meaningful scrutiny.
+
+The article also reflects early recognition of the "walled garden" phenomenon in emerging markets, where first-time internet users often access the digital world exclusively through a single platform, typically bundled with telecom services. In such environments, platforms like Facebook function not merely as services but as gatekeepers to the internet itself, shaping user behaviour, expectations, and data flows from the outset.
+
+Sunil Abraham's critique of network neutrality debates is deliberately nuanced. Rather than adopting a purely ideological position, he argues that policy choices must be sensitive to stages of internet adoption and local market realities. However, this flexibility is coupled with a clear warning: without a strong, independent privacy regulator and enforceable data protection law, Indian users remain exposed to global platforms whose incentives are misaligned with local consumer welfare.
+
+The article predates India's later privacy and data protection initiatives by several years, yet many of its concerns proved prescient. Subsequent debates around data localisation, platform dominance, surveillance, and user consent echoed the institutional vacuum Abraham identified in 2014, underscoring the article’s continued relevance in India's digital policy discourse.
+
+## External Link
+
+- <a href="https://economictimes.indiatimes.com/tech/internet/privacy-worries-cloud-facebooks-whatsapp-deal/articleshow/31970166.cms">Read on The Economic Times</a>
 
 {% include back-to-top.html %}
 
