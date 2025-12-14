@@ -17,7 +17,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 6. [Version 0.4](#version-04)
 7. [Version 0.5](#version-05)
 8. [Version 0.6](#version-06)
-9. [Version 0.6.1](#version-061)
+9. [Version 0.7](#version-07)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -256,9 +256,9 @@ Version 0.6 reflects steady progress across TSAP, with work focused on content e
 ✅ **Status:** Completed — Version 0.6 completed  
 📅 **Completion Date:** 7 December 2025
 
-## Version 0.6.1
+## Version 0.7
 
-Version 0.6.1 represents a high-output week focused primarily on consolidating the **Media Mentions** archive, expanding historical coverage, and beginning structured clustering around major publications. The emphasis during this period was on accuracy, completeness, and long-term archival value rather than visual or layout changes.
+Version 0.7 represents a high-output week focused primarily on consolidating the **Media Mentions** archive, expanding historical coverage, and beginning structured clustering around major publications. The emphasis during this period was on accuracy, completeness, and long-term archival value rather than visual or layout changes.
 
 **📰 Media Mentions Expansion (Primary Focus)**  
 - Work this week concentrated heavily on the Media Mentions section.  
@@ -281,5 +281,5 @@ Version 0.6.1 represents a high-output week focused primarily on consolidating t
 - No experimental templates were introduced during this version, helping maintain stability while content volume increased rapidly.
 
 **📅 Status and Completion**  
-✅ **Status:** Completed — Version 0.6.1 completed  
+✅ **Status:** Completed — Version 0.7 completed  
 📅 **Completion Period:** 14 December 2025
