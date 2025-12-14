@@ -3,14 +3,14 @@ layout: default
 title: "Google Aims to Win 40% of India with Android One"
 description: "An Economic Times report on Google's Android One launch strategy in India, featuring native Hindi language support and partnerships with local manufacturers, with expert analysis from Sunil Abraham on open-source implications and the push for broader Indic computing adoption."
 categories: [Media mentions]
-date: 2014-09-12
+date: 2014-09-11
 source: "The Economic Times"
 authors: ["Varun Aggarwal"]
 permalink: /media/google-aims-to-win-40-of-india-with-android-one/
 created: 2025-12-15
 ---
 
-**Google Aims to Win 40% of India with Android One** is a report published in *The Economic Times* on 12 September 2014. The article examines Google's strategy to capture India's non-English speaking market through Android One devices, which featured integrated Hindi language support and were manufactured in partnership with Indian companies Micromax, Spice, and Karbonn. The piece includes commentary from Sunil Abraham on open-source considerations and Venkatesh Hariharan on the significance of comprehensive vernacular computing solutions.
+**Google Aims to Win 40% of India with Android One** is a report published in *The Economic Times* on 11 September 2014. The article examines Google's strategy to capture India's non-English speaking market through Android One devices, which featured integrated Hindi language support and were manufactured in partnership with Indian companies Micromax, Spice, and Karbonn. The piece includes commentary from Sunil Abraham on open-source considerations and Venkatesh Hariharan on the significance of comprehensive vernacular computing solutions.
 
 ## Contents
 
@@ -29,7 +29,7 @@ created: 2025-12-15
   <dd>Varun Aggarwal</dd>
 
   <dt>📅 Date:</dt>
-  <dd>12 September 2014</dd>
+  <dd>11 September 2014</dd>
 
   <dt>📄 Type:</dt>
   <dd>News Report</dd>
