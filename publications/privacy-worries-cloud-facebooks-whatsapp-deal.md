@@ -10,8 +10,7 @@ permalink: /publications/privacy-worries-cloud-facebooks-whatsapp-deal/
 created: 2025-11-12
 ---
 
-**Privacy Worries Cloud Facebook's WhatsApp Deal** is an article by Sunil Abraham, published in *The Economic Times* on 14 March 2014.  
-The piece examines global and Indian responses to Facebook’s acquisition of WhatsApp, highlighting the absence of comprehensive data protection in India and warning that users’ privacy will remain vulnerable until national regulation and enforcement mechanisms are in place.
+**Privacy Worries Cloud Facebook's WhatsApp Deal** is an article by Sunil Abraham, published in *The Economic Times* on 14 March 2014. The piece examines global and Indian responses to Facebook’s acquisition of WhatsApp, highlighting the absence of comprehensive data protection in India and warning that users’ privacy will remain vulnerable until national regulation and enforcement mechanisms are in place.
 
 ## Contents
 
