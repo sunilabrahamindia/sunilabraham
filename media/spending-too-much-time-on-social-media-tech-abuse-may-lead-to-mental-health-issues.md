@@ -110,10 +110,12 @@ Educational institutions' involvement reflected tensions between technology as p
 
 ## Footnotes
 
-<p id="fn-1">
-  <sup>1</sup> TSAP editor's note: Corrected from a typographical error in the archived PDF ("todayccessed by children").
-  <a href="#fnref-1">↩</a>
-</p>
+<ol>
+  <li id="fn-1">
+    TSAP editor's note: Corrected from a typographical error in the archived PDF ("todayccessed by children").
+    <a href="#fnref-1">↩</a>
+  </li>
+</ol>
 
 ## External Link
 
