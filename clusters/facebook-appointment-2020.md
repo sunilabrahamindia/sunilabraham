@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Media Coverage: Sunil Abraham's Appointment at Facebook India (2020)"
-description: "A curated collection of media reports covering Sunil Abraham's appointment as Facebook India's Public Policy Director for Data and Emerging Technology."
+description: "A curated collection of media reports covering Sunil Abraham's appointment as Facebook India's (Meta India) Public Policy Director for Data and Emerging Technology."
 categories: [Clusters, Media mentions]
 permalink: /clusters/facebook-appointment-2020/
 created: 2025-12-05
 ---
 
-In October 2020, several national news organisations reported on Facebook India (the Indian subsidiary of Facebook, now Meta) announcing the appointment of **Sunil Abraham as Public Policy Director for Data and Emerging Technology**. The appointment came at a time of heightened public attention on platform governance, privacy regulation, AI-led product development, and debates on political bias and misinformation on social media.
+In October 2020, several national news organisations reported on **Facebook India** (the Indian subsidiary of Facebook, now **Meta**) announcing the appointment of **Sunil Abraham as Public Policy Director for Data and Emerging Technology**. The appointment came at a time of heightened public attention on platform governance, privacy regulation, AI-led product development, and debates on political bias and misinformation on social media.
 
 This page brings together all related media articles in one consolidated, easy-to-navigate collection for archival and research purposes.
 
