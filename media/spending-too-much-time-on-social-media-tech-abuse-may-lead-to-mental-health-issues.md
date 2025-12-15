@@ -86,7 +86,7 @@ Eight out of 10 technology addiction cases are related to online gaming.</p>
 
 <p>Sunil Abraham, executive director, The Centre for Internet and Society, told ET that parents must understand the concept of introducing incremental screen time to avoid addiction. This means, children between ages 1 and 3 must have zero screen time, those between 3 and 9 must have one hour of screen time every day, while adolescents between 9 and 15 years of age can access internet only for two hours daily.</p>
 
-<p>"Parents today need to ensure that devices accessed by children are kept in common areas like the living room," said Abraham,[^1] stressing that parents should never use gadgets to distract children or keep them busy.</p>
+<p>"Parents today need to ensure that devices accessed by children are kept in common areas like the living room," said Abraham,<sup id="fnref-1"><a href="#fn-1">1</a></sup> stressing that parents should never use gadgets to distract children or keep them busy.</p>
 
 <p>Tejaswi Uthappa agrees. According to her, open lines of communication about internet usage and cyberspace helps people seek help. "Our initiative, for instance, started with just me. But now, there are over a thousand adults — parents, working professionals or homemakers - who come on-board the moment they hear that we combat internet addiction. Only our intent and not our method, matters to them," she said. "So it is a question of stakeholders acknowledging that this as a problem and coming together to find ways to solve it."</p>
 
@@ -109,7 +109,11 @@ The grassroots "Time Out from Plugins" initiative demonstrated community-led res
 Educational institutions' involvement reflected tensions between technology as pedagogical tool and potential harm. Delhi Public School's acknowledgement that excessive early device exposure correlated with reduced concentration and learning capacity challenged assumptions that digital literacy required constant technology access. Schools' plans to increase cyber literacy whilst moderating device use illustrated efforts to balance digital competence with healthy usage patterns.
 
 ## Footnotes
-[^1]: TSAP editor's note: Corrected from a typographical error in the archived PDF ("todayccessed by children").
+
+<p id="fn-1">
+  <sup>1</sup> TSAP editor's note: Corrected from a typographical error in the archived PDF ("todayccessed by children").
+  <a href="#fnref-1">↩</a>
+</p>
 
 ## External Link
 
