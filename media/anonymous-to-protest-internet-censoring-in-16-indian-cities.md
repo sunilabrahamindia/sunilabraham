@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Anonymous to protest internet censoring in 16 Indian cities, threaten to bring down government websites"
+title: "Anonymous to Protest Internet Censoring in 16 Indian Cities, Threaten to Bring Down Government Websites"
 description: "A report from June 2012 detailing the hacktivist group Anonymous's plans to organise physical protests across India while threatening cyberattacks on government infrastructure. The article features a caution from Sunil Abraham regarding the legal risks associated with these digital forms of protest."
 categories: [Media mentions]
 date: 2012-06-09
@@ -10,7 +10,7 @@ permalink: /media/anonymous-to-protest-internet-censoring-in-16-indian-cities-th
 created: 2025-12-15
 ---
 
-**Anonymous to protest internet censoring in 16 Indian cities, threaten to bring down government websites** is a report published in *The Economic Times* on 9 June 2012, written by Lison Joseph with inputs from Indu Nandakumar. The article covers a coordinated mobilization by the hacktivist collective 'Anonymous' to protest state-imposed internet restrictions through both physical demonstrations and threats of cyberattacks. It highlights the group's rationale for viewing DDoS attacks as legitimate civil disobedience, while contrasting this with legal perspectives, including a warning from Sunil Abraham about the potential criminal liability protesters faced under Indian law.
+**Anonymous to Protest Internet Censoring in 16 Indian Cities, Threaten to Bring Down Government Websites** is a report published in *The Economic Times* on 9 June 2012, written by Lison Joseph with inputs from Indu Nandakumar. The article covers a coordinated mobilization by the hacktivist collective 'Anonymous' to protest state-imposed internet restrictions through both physical demonstrations and threats of cyberattacks. It highlights the group's rationale for viewing DDoS attacks as legitimate civil disobedience, while contrasting this with legal perspectives, including a warning from Sunil Abraham about the potential criminal liability protesters faced under Indian law.
 
 ## Contents
 
