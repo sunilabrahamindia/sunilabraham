@@ -54,7 +54,7 @@ created: 2025-12-18
 
 <p>A year ago, nobody really cared about Sanyal. Today, the Tehelka journalist has all the support she needs. So what happened in between to bring about this radical change?</p>
 
-<p>It was the rape — and subsequent death — of a young physiotherapist. On December 16, 2012, the young woman was brutally raped and assaulted in a moving bus. It evoked a groundswell of support for her, and condemnation for the criminals. Thousands and thousands of women came out on the streets that winter. The protests led to the formulation of a new law based on the recommendations of the Justice J.S. Verma committee, set up after the incident, which redefined rape and spelled out stringent punishment for the act.</p>
+<p>It was the rape — and subsequent death — of a young physiotherapist. On December 16, 2012, the young woman was brutally raped and assaulted in a moving bus. It evoked a groundswell of support for her, and condemnation for the criminals. Thousands and thousands of women came out on the streets that winter. The protests led to the formulation of a new law based on the recommendations of the Justice J. S. Verma committee, set up after the incident, which redefined rape and spelled out stringent punishment for the act.</p>
 
 <p>'People have been angry for a long time, but it is only now, after December 16, that they are voicing their anger,' Nivedita Menon, professor at the Jawaharlal Nehru University, Delhi, stresses. 'There is a heightened awareness of sexual violence and women are willing to come forward and raise their voices.'</p>
 
