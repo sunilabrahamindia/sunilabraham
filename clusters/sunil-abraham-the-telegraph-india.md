@@ -24,7 +24,7 @@ This cluster brings together all **media mentions** connected to *The Telegraph 
 
 {% assign media_items = site.pages 
      | where_exp:"p","p.categories contains 'Media mentions'"
-     | where:"source","The Telegraph"
+     | where_exp:"p","p.source contains 'The Telegraph'"
 %}
 {% assign media_sorted = media_items | sort:"title" %}
 
