@@ -120,7 +120,7 @@ created: 2025-12-18
 
 <hr class="article-separator">
 
-### Bollywood's Bane
+<h3>Bollywood's Bane</h3>
 
 <ul class="timeline-list">
 <li><strong>2011:</strong> Payal Rohatgi accused director Dibakar Banerjee of inappropriate behaviour during the filming of <em>Shanghai</em>. Her allegation was brushed aside.</li>
@@ -131,8 +131,8 @@ created: 2025-12-18
 <li><strong>1986:</strong> Sabeeha, daughter of yesteryear actress Ameeta, accused Rajesh Khanna of lewd conduct during the filming of <em>Anokha Rishta</em>. Nothing came of the allegations.</li>
 </ul>
 
-### One Step Forward, One Step Back
-**A few landmark cases of sexual harassment**
+<h3>One Step Forward, One Step Back</h3>
+<p><strong>A few landmark cases of sexual harassment</strong></p>
 
 <ul class="timeline-list">
 <li><strong>1994:</strong> Doordarshan's M. Sailaja Suman filed a sexual harassment case against the organisation's director P.L. Chawla. She was transferred to Lucknow and at present is the director of Doordarshan Kendra, Hyderabad. On record she has said she no longer harbours any hard feelings.</li>
@@ -143,8 +143,8 @@ created: 2025-12-18
 <li><strong>2013 (September):</strong> Pavitra Bhardwaj died after setting herself on fire in Delhi. The sacked employee of a Delhi University college had alleged sexual harassment by its principal.</li>
 </ul>
 
-### Flirting or Hurting?
-**Highlights of a survey on workplace behaviour conducted on 385 respondents in Delhi, Mumbai, Bangalore and Pune in November 2012 — a month before a young physiotherapist in Delhi was raped and killed**
+<h3>Flirting or Hurting?</h3>
+<p><strong>Highlights of a survey on workplace behaviour conducted on 385 respondents in Delhi, Mumbai, Bangalore and Pune in November 2012 — a month before a young physiotherapist in Delhi was raped and killed</strong></p>
 
 <table>
 <thead>
