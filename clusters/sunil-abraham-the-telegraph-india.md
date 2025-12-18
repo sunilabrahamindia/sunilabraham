@@ -41,9 +41,10 @@ This cluster brings together all **media mentions** connected to *The Telegraph 
 {% endfor %}
 </ol>
 
+<!-- NO SEARCH LINK FOUND ON THE TELEGRAPH'S OFFICIAL WEBSITE
 ## External links
 - <a href="https://www.telegraphindia.com/search?search=Sunil%20Abraham">Sunil Abraham on *The Telegraph (India)*</a>
-
+-->
 <style>
 
 /* ---------------------------------------------------------
