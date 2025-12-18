@@ -32,7 +32,7 @@ created: 2025-12-18
   <dd>20 June 2012</dd>
 
   <dt>📄 Type:</dt>
-  <dd>News Report</dd>
+  <dd>Opinion</dd>
 
   <dt>📰 Newspaper Link:</dt>
   <dd>
