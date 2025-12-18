@@ -146,13 +146,42 @@ created: 2025-12-18
 ### Flirting or Hurting?
 **Highlights of a survey on workplace behaviour conducted on 385 respondents in Delhi, Mumbai, Bangalore and Pune in November 2012 — a month before a young physiotherapist in Delhi was raped and killed**
 
-| **Behaviour** | **Says it's sexual harassment** | **Says it's flirtation** |
-|---------------|--------------------------------|--------------------------|
-| Sending provocative SMS to a colleague of opposite gender | 17% | 44% |
-| Asking for sexual favours from a colleague with promise of promotion | 54% | 8% |
-| Complimenting a colleague on his/her looks | 18% | 44% |
-| Cracking vulgar jokes in front of a colleague of opposite gender | 23% | 25% |
-| Use of foul/explicit language in front of a colleague of opposite gender | 23% | 27% |
+<table>
+<thead>
+<tr>
+<th><strong>Behaviour</strong></th>
+<th><strong>Says it's sexual harassment</strong></th>
+<th><strong>Says it's flirtation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sending provocative SMS to a colleague of opposite gender</td>
+<td>17%</td>
+<td>44%</td>
+</tr>
+<tr>
+<td>Asking for sexual favours from a colleague with promise of promotion</td>
+<td>54%</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>Complimenting a colleague on his/her looks</td>
+<td>18%</td>
+<td>44%</td>
+</tr>
+<tr>
+<td>Cracking vulgar jokes in front of a colleague of opposite gender</td>
+<td>23%</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Use of foul/explicit language in front of a colleague of opposite gender</td>
+<td>23%</td>
+<td>27%</td>
+</tr>
+</tbody>
+</table>
 
 <p><em>With reports by Varuna Verma in Bangalore, Kavitha Shanmugam in Chennai, Sonia Sarkar, V. Kumaraswamy and Smitha Verma in Delhi, Hemchhaya De and Sharmistha Das in Calcutta, and Reena Martins in Mumbai</em></p>
 
