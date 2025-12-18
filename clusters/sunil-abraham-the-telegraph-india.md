@@ -7,11 +7,11 @@ permalink: /clusters/sunil-abraham-the-telegraph-india/
 created: 2025-12-18
 ---
 
-***The Telegraph (India)*** has been one of the country’s prominent English-language newspapers engaging with debates around technology, regulation, civil liberties and public accountability. Its coverage has frequently intersected with questions of internet governance, digital rights, censorship, surveillance and the societal impact of emerging technologies.
+***The Telegraph (India)*** has been one of the country’s prominent English-language newspapers to consistently engage with debates around technology, regulation, civil liberties and public accountability. Its reporting has often intersected with questions of internet governance, digital rights, censorship, surveillance and the wider social consequences of technological change.
 
-Across this body of reporting, **Sunil Abraham** appears as a recurring commentator, offering analysis that situates technical developments within broader legal, policy and constitutional frameworks. His interventions often bridge the gap between technology design and public interest, helping readers understand how digital systems affect rights, governance and democratic practice in India.
+Within this coverage, **Sunil Abraham** appears as a recurring voice, contributing analysis that helps frame technical and policy developments within broader legal, constitutional and institutional contexts. His commentary frequently connects the design and deployment of digital systems with their real-world implications for rights, governance and democratic practice.
 
-This cluster brings together all **media mentions** connected to *The Telegraph (India)*, providing a consolidated archive for researchers, students and policy audiences interested in tracing these themes over time.
+This cluster brings together all **media mentions** associated with *The Telegraph (India)*, offering a consolidated archive for researchers, students and policy audiences seeking to trace how these issues — and Abraham’s public interventions — have evolved over time.
 
 ## 📣 Media Mentions {#media}
 
