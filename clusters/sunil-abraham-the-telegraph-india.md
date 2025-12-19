@@ -33,7 +33,7 @@ This cluster brings together all **media mentions** associated with *The Telegra
   <li data-title="{{ item.title | downcase }}"
       data-date="{{ item.date | date: '%Y-%m-%d' }}">
     <a href="{{ item.permalink }}">{{ item.title }}</a><br>
-    <span class="meta">{{ item.date | date: "%d %b %Y" }}</span>
+    <span class="meta">{{ item.date | date: "%d %B %Y" }}</span>
     {% if item.description %}
       <div class="desc">{{ item.description }}</div>
     {% endif %}
