@@ -72,6 +72,12 @@
       display: block;
       letter-spacing: 0.3px;
     }
+/* Footer time */
+  footer .footer-time {
+  font-size: 0.9em; /* same as footer */
+  color: #666;
+  margin-top: 0.2rem;
+}
 
   /* 250 Celebration line */
 footer .celebrate-250 {
@@ -94,6 +100,10 @@ footer .celebrate-250 a:hover {
 
   <p><b><a href="https://sunilabraham.in/articles/sunil-abraham-project/">The Sunil Abraham Project</a></b></p>
   <p class="version-tag">Version 0.7</p>
+
+  <p class="footer-time" aria-live="off">
+🕒 Current time: <span id="footer-datetime"></span>  
+  </p>
 
   <p class="celebrate-250">
   🎉 Celebrating <b>250th article</b> —
@@ -166,5 +176,32 @@ footer .celebrate-250 a:hover {
       }
     });
   </script>
+
+  <script>
+  (function () {
+    const el = document.getElementById('footer-datetime');
+    if (!el) return;
+
+    const now = new Date();
+
+    const options = {
+      weekday: 'long',
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false,
+      timeZone: 'Asia/Kolkata'
+    };
+
+    const formatted = new Intl.DateTimeFormat('en-IN', options)
+      .format(now)
+      .replace(',', '');
+
+    el.textContent = formatted + ' IST (UTC+05:30 hours)';
+  })();
+</script>
+
 
 </footer>
