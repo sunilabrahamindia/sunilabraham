@@ -263,7 +263,7 @@ Version 0.7 represents a high-output week focused primarily on consolidating the
 
 **📰 Media Mentions Expansion (Primary Focus)**  
 - Work this week concentrated heavily on the Media Mentions section.  
-- A total of 53 new media articles** were created between 7 December and 13 December 2025.  
+- A total of 53 new media articles were created between 7 December and 13 December 2025.  
 - Each entry followed a consistent structure, with careful attention to dates, authorship, source attribution, and verbatim full text where available.  
 - Older articles were handled with the same rigor as recent ones, ensuring historical continuity.
 
