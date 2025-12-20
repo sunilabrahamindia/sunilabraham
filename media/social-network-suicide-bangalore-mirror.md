@@ -30,7 +30,7 @@ created: 2025-12-20
   <dt>📄 Type:</dt>
   <dd>Sunday Read feature</dd>
 
-  <dt>📰 Article Link:</dt>
+  <dt>📰 Newspaper Link:</dt>
   <dd>
     <a class="btn" href="https://bangaloremirror.indiatimes.com/opinion/sunday-read/social-network-suicide/articleshow/21684432.cms">Read Online</a>
   </dd>
