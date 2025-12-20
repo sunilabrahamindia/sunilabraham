@@ -7,38 +7,28 @@ permalink: /clusters/
 created: 2025-12-06
 ---
 
-<div class="clusters-intro">
-
 The Sunil Abraham Project contains material that spans people, organisations, debates, policies, and historical moments. Some subjects attract sustained attention across multiple articles and media mentions.
 
 To keep this work coherent and readable, the project uses **clusters** — focused thematic groupings that bring together related pieces of writing or coverage under a single, navigable heading.
 
 Each cluster functions as a small curated archive. Rather than scattering related items across the site, a cluster page pulls them together, provides background context, and offers a structured way to move between them.
 
+<div class="clusters-note">
+This page lists all clusters stored inside the <code>/clusters/</code> directory. As research expands and more thematic collections are created, new entries will appear here automatically.
 </div>
 
-<details class="clusters-explainer">
-  <summary>How clusters differ from portals</summary>
+## How Clusters Differ from Portals
 
-  <p>
-  While <strong>portals</strong> and <strong>clusters</strong> both organise content, they serve different purposes.
-  </p>
+While **portals** and **clusters** both organise content, they serve different purposes.
 
-  <ul>
-    <li>
-      <strong>Portals</strong> are broad, long-term sections of the site — often dedicated to a person, organisation, or major theme. They may include timelines, biographies, galleries, and multiple subpages.
-    </li>
-    <li>
-      <strong>Clusters</strong> are smaller and more focused. They bring together related articles or media mentions around a specific event, appointment, controversy, campaign, or policy moment.
-    </li>
-  </ul>
+- **Portals** are broad, long-term sections of the site — often dedicated to a person, organisation, or major theme. They may include timelines, biographies, galleries, and multiple subpages.
+- **Clusters** are smaller and more focused. They bring together related articles or media mentions around a specific event, appointment, controversy, campaign, or policy moment.
 
-  <p>
-  In short: portals are comprehensive spaces; clusters are concise thematic collections.
-  </p>
-</details>
+In short:  
+**Portals** are comprehensive spaces.  
+**Clusters** are concise thematic collections.
 
-<h2 class="clusters-heading">All Clusters</h2>
+## All Clusters
 
 <ul class="cluster-list">
 {% assign cluster_pages = site.pages 
@@ -64,43 +54,20 @@ Each cluster functions as a small curated archive. Rather than scattering relate
    Clusters Index – Scoped Styles
    ========================================================= */
 
-/* Intro text */
-.clusters-intro {
-  max-width: 65ch;
-  margin-bottom: 1.75rem;
-  font-size: 1.05rem;
-  line-height: 1.6;
-  color: #3a3a3a;
+/* General text width: wider than essay pages */
+.page-content,
+main {
+  max-width: 90ch;
 }
 
-/* Explainer block */
-.clusters-explainer {
-  max-width: 65ch;
-  margin-bottom: 2.5rem;
-}
-
-.clusters-explainer summary {
-  cursor: pointer;
-  font-weight: 600;
-  color: #0a4a7a;
-  margin-bottom: 0.5rem;
-}
-
-.clusters-explainer summary:focus {
-  outline: 2px solid #0a4a7a;
-  outline-offset: 2px;
-}
-
-.clusters-explainer p,
-.clusters-explainer li {
-  line-height: 1.6;
+/* Subtle note box */
+.clusters-note {
+  margin: 1.25rem 0 2rem 0;
+  padding: 0.9rem 1rem;
+  background: #f6f8fa;
+  border-left: 4px solid #0a4a7a;
   color: #333;
-}
-
-/* Section heading */
-.clusters-heading {
-  margin-top: 2.5rem;
-  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
 }
 
 /* Cluster list */
@@ -110,8 +77,9 @@ Each cluster functions as a small curated archive. Rather than scattering relate
   margin: 0;
 }
 
+/* Individual cluster item */
 .cluster-item {
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.9rem;
   border: 1px solid #e3e3e3;
   border-radius: 8px;
   background-color: #fafafa;
@@ -120,7 +88,7 @@ Each cluster functions as a small curated archive. Rather than scattering relate
 /* Cluster link */
 .cluster-link {
   display: block;
-  padding: 1rem 1.1rem;
+  padding: 1.05rem 1.15rem;
   text-decoration: none;
   color: inherit;
   transition: background-color 0.15s ease;
@@ -132,18 +100,19 @@ Each cluster functions as a small curated archive. Rather than scattering relate
   outline: none;
 }
 
-/* Title and description */
+/* Cluster title */
 .cluster-title {
   display: block;
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   color: #1a1a1a;
 }
 
+/* Optional description */
 .cluster-description {
   display: block;
-  margin-top: 0.3rem;
-  font-size: 0.95rem;
+  margin-top: 0.35rem;
+  font-size: 0.96rem;
   color: #555;
 }
 </style>
