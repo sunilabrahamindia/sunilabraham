@@ -10,7 +10,7 @@ permalink: /media/we-the-goondas-bangalore-mirror/
 created: 2025-12-20
 ---
 
-**We the Goondas** is a cover story by Shyam Prasad S published by Bangalore Mirror on 4 August 2014. The report examines Karnataka's Goonda Act amendment that brings offences under the Information Technology Act and the Indian Copyright Act within the scope of preventive detention, raising concerns about its impact on ordinary smartphone users.
+**We the Goondas** is a cover story by Shyam Prasad S published by *Bangalore Mirror* on 4 August 2014. The report examines Karnataka's Goonda Act amendment that brings offences under the Information Technology Act and the Indian Copyright Act within the scope of preventive detention, raising concerns about its impact on ordinary smartphone users.
 
 ## Contents
 
