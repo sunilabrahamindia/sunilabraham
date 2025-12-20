@@ -16,7 +16,7 @@ This cluster brings together all **publications** and **media mentions** connect
 
 ## ✍️ Publications
 
-<ul class="cluster-list">
+<ol class="cluster-list">
 {% assign pub_items = site.pages 
      | where_exp:"p","p.categories contains 'Publications'"
      | where:"source","Bangalore Mirror"
@@ -32,11 +32,11 @@ This cluster brings together all **publications** and **media mentions** connect
     {% endif %}
   </li>
 {% endfor %}
-</ul>
+</ol>
 
 ## 📣 Media Mentions
 
-<ul class="cluster-list">
+<ol class="cluster-list">
 {% assign media_items = site.pages 
      | where_exp:"p","p.categories contains 'Media mentions'"
      | where:"source","Bangalore Mirror"
@@ -52,7 +52,7 @@ This cluster brings together all **publications** and **media mentions** connect
     {% endif %}
   </li>
 {% endfor %}
-</ul>
+</ol>
 
 <style>
 /* ---------------------------------------------------------
