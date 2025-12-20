@@ -33,7 +33,7 @@ created: 2025-12-20
   <dt>📄 Type:</dt>
   <dd>News report</dd>
 
-  <dt>📰 Article Link:</dt>
+  <dt>📰 Newspaper Link:</dt>
   <dd>
     <a class="btn" href="https://www.aljazeera.com/news/2010/12/4/india-and-pakistan-in-cyber-war">Read Online</a>
   </dd>
