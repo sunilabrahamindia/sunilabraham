@@ -13,10 +13,6 @@ To keep this work coherent and readable, the project uses **clusters** — focus
 
 Each cluster functions as a small curated archive. Rather than scattering related items across the site, a cluster page pulls them together, provides background context, and offers a structured way to move between them.
 
-<div class="clusters-note">
-This page lists all clusters stored inside the <code>/clusters/</code> directory. As research expands and more thematic collections are created, new entries will appear here automatically.
-</div>
-
 ## How Clusters Differ from Portals
 
 While **portals** and **clusters** both organise content, they serve different purposes.
@@ -51,15 +47,6 @@ In short:
 
 <style>
 /* Informational note box */
-.clusters-note {
-  margin: 1.25rem 0 2rem 0;
-  padding: 0.9rem 1rem;
-  background-color: #f6f8fa;
-  border-left: 4px solid #0a4a7a;
-  color: #333;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
 
 /* Cluster list reset */
 .cluster-list {
