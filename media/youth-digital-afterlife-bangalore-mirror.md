@@ -34,7 +34,7 @@ created: 2025-12-20
   <dt>📄 Type:</dt>
   <dd>News report</dd>
 
-  <dt>📰 Article Link:</dt>
+  <dt>📰 Newspaper Link:</dt>
   <dd>
     <a class="btn" href="https://bangaloremirror.indiatimes.com/bangalore/cover-story/digital-afterlife-jayaram-securesafe-yahoo-accounts-data-facebook/heroesshow/47941439.cms">Read Online</a>
   </dd>
