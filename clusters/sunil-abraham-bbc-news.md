@@ -40,7 +40,8 @@ This cluster brings together all available **media mentions** of Sunil Abraham o
 </ol>
 
 ## External links
-- <a href="https://www.bbc.co.uk/search?q=Sunil+Abraham">Sunil Abraham on *BBC News*</a>
+- [Official website](https://www.bbc.co.uk/)
+
 
 <style>
 
