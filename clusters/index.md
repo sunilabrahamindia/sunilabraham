@@ -50,33 +50,50 @@ In short:
 </ul>
 
 <style>
-/* =========================================================
-   Clusters Index – Scoped Styles
-   ========================================================= */
-
-/* Subtle note box */
+/* Informational note box */
 .clusters-note {
   margin: 1.25rem 0 2rem 0;
   padding: 0.9rem 1rem;
-  background: #f6f8fa;
+  background-color: #f6f8fa;
   border-left: 4px solid #0a4a7a;
   color: #333;
   font-size: 0.95rem;
+  line-height: 1.6;
 }
 
-/* Cluster list */
+/* Cluster list reset */
 .cluster-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* Individual cluster item */
+/* Individual cluster item (structure only) */
 .cluster-item {
   margin-bottom: 0.9rem;
-  border: 1px solid #e3e3e3;
+  border: 1px solid #e2e6ea;
   border-radius: 8px;
-  background-color: #fafafa;
+}
+
+/* Accessible colours – repeat every 5 */
+.cluster-item:nth-child(5n + 1) {
+  background-color: #fffdf8; /* warm paper */
+}
+
+.cluster-item:nth-child(5n + 2) {
+  background-color: #f2f8ff; /* pale scholarly blue */
+}
+
+.cluster-item:nth-child(5n + 3) {
+  background-color: #fff7f1; /* soft parchment */
+}
+
+.cluster-item:nth-child(5n + 4) {
+  background-color: #f4fbf7; /* archival mint */
+}
+
+.cluster-item:nth-child(5n + 5) {
+  background-color: #f7f3ff; /* lavender tint */
 }
 
 /* Cluster link */
@@ -88,10 +105,17 @@ In short:
   transition: background-color 0.15s ease;
 }
 
+/* Hover and focus states */
 .cluster-link:hover,
 .cluster-link:focus {
   background-color: #f1f6fb;
   outline: none;
+}
+
+/* Keyboard focus visibility */
+.cluster-link:focus-visible {
+  outline: 2px solid #0a4a7a;
+  outline-offset: 2px;
 }
 
 /* Cluster title */
@@ -102,11 +126,12 @@ In short:
   color: #1a1a1a;
 }
 
-/* Optional description */
+/* Optional cluster description */
 .cluster-description {
   display: block;
   margin-top: 0.35rem;
   font-size: 0.96rem;
   color: #555;
+  line-height: 1.5;
 }
 </style>
