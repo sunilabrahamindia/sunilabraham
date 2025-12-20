@@ -10,7 +10,7 @@ permalink: /media/youth-digital-afterlife-bangalore-mirror/
 created: 2025-12-20
 ---
 
-**Youth Plan Ahead to Make Sure They Live On in Digital Afterlife** is a news report published by Bangalore Mirror on 5 July 2015, written by Apurva Venkat of the Bangalore Mirror Bureau. The article describes how young professionals in Bengaluru are using digital wills to pass on access to email, social media, and creative work, and includes comments from Sunil Abraham on why some people treat digital assets like property while others worry about privacy when sharing passwords.
+**Youth Plan Ahead to Make Sure They Live On in Digital Afterlife** is a news report published by *Bangalore Mirror* on 5 July 2015, written by Apurva Venkat of the Bangalore Mirror Bureau. The article describes how young professionals in Bengaluru are using digital wills to pass on access to email, social media, and creative work, and includes comments from Sunil Abraham on why some people treat digital assets like property while others worry about privacy when sharing passwords.
 
 ## Contents
 
