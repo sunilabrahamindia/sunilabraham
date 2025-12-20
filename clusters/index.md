@@ -54,12 +54,6 @@ In short:
    Clusters Index – Scoped Styles
    ========================================================= */
 
-/* General text width: wider than essay pages */
-.page-content,
-main {
-  max-width: 90ch;
-}
-
 /* Subtle note box */
 .clusters-note {
   margin: 1.25rem 0 2rem 0;
