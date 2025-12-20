@@ -18,6 +18,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 7. [Version 0.5](#version-05)
 8. [Version 0.6](#version-06)
 9. [Version 0.7](#version-07)
+10. [Version 0.8](#version-08)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -282,4 +283,44 @@ Version 0.7 represents a high-output week focused primarily on consolidating the
 
 **📅 Status and Completion**  
 ✅ **Status:** Completed — Version 0.7 completed  
-📅 **Completion Period:** 14 December 2025
+📅 **Completion Date:** 14 December 2025
+
+## Version 0.8
+
+Version 0.8 marks another intensive content-building phase, building directly on the momentum of Version 0.7. The primary focus remained on expanding and refining the **Media Mentions** archive, completing major publication clusters, and improving the overall structural coherence of cluster pages. This phase combined high-volume archival work with careful corrective and housekeeping updates.
+
+**📰 Media Mentions Expansion (Ongoing Core Work)**  
+- Work continued steadily on the Media Mentions section throughout the period.  
+- A total of 63 new pages were created between 14 December and 20 December 2025.  
+- Each article followed the established archival standards: accurate publication dates, correct authorship, source attribution, and verbatim full text where available.  
+- Older and historically significant articles received the same level of care as more recent coverage, maintaining consistency across the archive.
+
+**🗞️ The Economic Times Cluster (Completion Phase)**  
+- Work on [*The Economic Times* cluster](/clusters/sunil-abraham-economic-times/) was completed during this version.  
+- All identified articles were consolidated under a single, coherent cluster page.  
+- The cluster now functions as a comprehensive reference point while preserving individual article integrity and permalinks.
+
+**📰 New Publication Clusters Initiated**  
+- Work began on additional source-based clusters, including:  
+  - [*The Telegraph (India)* cluster](/clusters/sunil-abraham-the-telegraph-india)  
+  - [*Bangalore Mirror* cluster](/clusters/sunil-abraham-bangalore-mirror)  
+- Relevant articles were identified, prepared, and structured for inclusion.  
+- These efforts further extended the source-based clustering model introduced earlier, especially for Indian print and digital media.
+
+**🧩 Related Articles and Cross-Linking**  
+- Related articles were added where appropriate to improve contextual navigation between media pages and clusters.  
+- This strengthened internal linking without altering the independence or archival nature of individual articles.
+
+**🧱 Clusters Page Redesign**  
+- The main [Clusters](/clusters/) page was redesigned to improve clarity, readability, and navigation.  
+- Structural refinements were made to better accommodate the growing number of clusters and to present them in a more organised, scannable format.  
+
+**🛠️ General Fixes and Housekeeping**  
+- Footer template received general fixes and refinements.  
+- Link properties across footer and cluster pages were reviewed and corrected where needed.  
+- Experiments were carried out with footer timestamps and date display formats.  
+
+**📅 Status and Completion**  
+✅ **Status:** Completed — Version 0.8 completed  
+📅 **Completion Date:** 21 December 2025
+
