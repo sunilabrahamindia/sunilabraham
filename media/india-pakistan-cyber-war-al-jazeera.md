@@ -9,7 +9,7 @@ permalink: /media/india-pakistan-cyber-war-al-jazeera/
 created: 2025-12-20
 ---
 
-**India and Pakistan in Cyber War** is a news report published by Al Jazeera on 4 December 2010. The article covers the hacking of India's Central Bureau of Investigation (CBI) website by a group calling itself the "Pakistani Cyber Army", which claimed the attack was in retaliation for Indian cyber assaults on Pakistani websites. It includes commentary from Sunil Abraham on gaps in cyber security awareness and investment within the Indian government.
+**India and Pakistan in Cyber War** is a news report published by *Al Jazeera* on 4 December 2010. The article covers the hacking of India's Central Bureau of Investigation (CBI) website by a group calling itself the "Pakistani Cyber Army", which claimed the attack was in retaliation for Indian cyber assaults on Pakistani websites. It includes commentary from Sunil Abraham on gaps in cyber security awareness and investment within the Indian government.
 
 ## Contents
 
