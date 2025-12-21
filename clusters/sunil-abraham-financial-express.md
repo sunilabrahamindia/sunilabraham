@@ -4,7 +4,7 @@ title: "Sunil Abraham and Financial Express"
 description: "A curated cluster of Financial Express reporting that features commentary from Sunil Abraham on technology policy, digital regulation, privacy and internet governance in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-financial-express/
-created: 2025-12-20
+created: 2025-12-21
 ---
 
 ***Financial Express*** is a leading Indian business daily with a strong focus on economic policy, regulation, markets, and public affairs. Its reporting frequently examines how technology intersects with governance, industry, and the wider economy.
