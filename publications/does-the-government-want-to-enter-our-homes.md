@@ -118,7 +118,7 @@ created: 2025-11-23
 
 ## Context and Background
 
-This article was written at a moment when the Indian government was demanding access to encrypted communications on BlackBerry devices. Abraham situates this within broader global surveillance trends and warns of the dangers of unchecked state power. The analysis underscores the importance of encryption, judicial oversight, and resisting the normalisation of intrusive monitoring.
+This article was written at a moment when the Indian government was demanding access to encrypted communications on BlackBerry devices. Sunil Abraham situates this within broader global surveillance trends and warns of the dangers of unchecked state power. The analysis underscores the importance of encryption, judicial oversight, and resisting the normalisation of intrusive monitoring.
 
 <style>
 .media-details {
