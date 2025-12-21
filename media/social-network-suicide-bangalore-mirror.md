@@ -9,7 +9,7 @@ permalink: /media/social-network-suicide-bangalore-mirror/
 created: 2025-12-20
 ---
 
-**Social Network Suicide** is a Sunday Read feature published by Bangalore Mirror on 6 February 2011. The article looks at why some social media users in India deactivate their accounts or use apps to wipe their online profiles, and includes comments from Sunil Abraham on privacy risks, harassment and the limited "real world" returns that many people see from constant networking.
+**Social Network Suicide** is a Sunday Read feature published by *Bangalore Mirror* on 6 February 2011. The article looks at why some social media users in India deactivate their accounts or use apps to wipe their online profiles, and includes comments from Sunil Abraham on privacy risks, harassment and the limited "real world" returns that many people see from constant networking.
 
 ## Contents
 
