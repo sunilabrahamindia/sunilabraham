@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Sunil Abraham and Financial Express"
-description: "A curated cluster of Financial Express reporting that features commentary from Sunil Abraham on technology policy, digital regulation, privacy and internet governance in India."
+title: "Sunil Abraham and The Financial Express"
+description: "A curated cluster of reporting from The Financial Express that features commentary from Sunil Abraham on technology policy, digital regulation, privacy and internet governance in India."
 categories: [Clusters, Media mentions]
-permalink: /clusters/sunil-abraham-financial-express/
-created: 2025-12-21
+permalink: /clusters/sunil-abraham-the-financial-express/
+created: 2025-12-20
 ---
 
-***Financial Express*** is a leading Indian business daily with a strong focus on economic policy, regulation, markets, and public affairs. Its reporting frequently examines how technology intersects with governance, industry, and the wider economy.
+***The Financial Express*** is a leading Indian business daily with a strong focus on economic policy, regulation, markets, and public affairs. Its reporting frequently examines how technology intersects with governance, industry, and the wider economy.
 
-Within this coverage, **Sunil Abraham** appears as an expert voice on questions related to digital policy, platform regulation, data protection, and the societal impact of emerging technologies. His comments typically provide context on how regulatory choices and institutional frameworks shape technology adoption and public outcomes in India.
+Within this coverage, **Sunil Abraham** appears as an expert voice on issues related to digital policy, platform regulation, data protection, and the social impact of emerging technologies. His commentary often provides context on how regulatory choices and institutional frameworks influence technology adoption and public outcomes in India.
 
-This cluster brings together all available **media mentions** of Sunil Abraham published in *Financial Express*, offering a consolidated view of how his perspectives have featured in business and policy journalism.
+This cluster brings together all available **media mentions** of Sunil Abraham published in *The Financial Express*, offering a consolidated reference point for readers following technology and policy debates in business journalism.
 
 ## 📣 Media Mentions {#media}
 
@@ -24,7 +24,7 @@ This cluster brings together all available **media mentions** of Sunil Abraham p
 
 {% assign media_items = site.pages 
      | where_exp:"p","p.categories contains 'Media mentions'"
-     | where:"source","Financial Express"
+     | where:"source","The Financial Express"
 %}
 {% assign media_sorted = media_items | sort:"title" %}
 
