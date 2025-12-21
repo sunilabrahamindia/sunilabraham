@@ -9,7 +9,7 @@ permalink: /media/facebook-my-boyfriend-is-lousy-bangalore-mirror/
 created: 2025-12-20
 ---
 
-**Facebook, My Boyfriend is Lousy** is a Sunday Read piece from Bangalore Mirror dated 24 July 2011. It probes why young Indians overshare personal gripes and milestones on platforms like Facebook and Twitter, often sparking rows or worse, alongside expert takes on the trend.
+**Facebook, My Boyfriend is Lousy** is a Sunday Read piece from *Bangalore Mirror* dated 24 July 2011. It probes why young Indians overshare personal gripes and milestones on platforms like Facebook and Twitter, often sparking rows or worse, alongside expert takes on the trend.
 
 ## Contents
 
