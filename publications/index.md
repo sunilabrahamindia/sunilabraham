@@ -382,6 +382,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
   [Read online](https://cis-india.org/internet-governance/blog/analysis-of-icann-financials-from-2012-2016)
 
 ### 2019
+- *"A Scanner Darkly"* — *Mumbai Mirror*, 2019.  
+  [Read here](/publications/a-scanner-darkly-mumbai-mirror/){: .btn}
+
 - *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
   [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
 
@@ -449,6 +452,6 @@ His talks often focus on openness, ethics, and governance in digital systems.
   _Participation in global multistakeholder dialogues on digital rights._
 
 ## See also
--   [Authors directory](/publications/authors){: .btn}, highlights authors who have collaborated with Sunil Abraham on various publications featured within this project
--   [Media directory](/publications/media){: .btn}, a directory of the newspaper or media outlet where they appeared
+-   [Authors directory](/publications/authors), highlights authors who have collaborated with Sunil Abraham on various publications featured within this project
+-   [Media directory](/publications/media), a directory of the newspaper or media outlet where they appeared
 
