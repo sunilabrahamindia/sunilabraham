@@ -51,8 +51,8 @@ created: 2025-12-21
 ## Full Text
 
 <div class="highlighted-text" id="fulltext">
-
-<p>Implementation of strong anti-surveillance laws is the only solution to spyware like Pegasus being exploited by authoritarian entities to snoop on citizens.</p>
+<p><strong>Synopsis</strong><br>
+Implementation of strong anti-surveillance laws is the only solution to spyware like Pegasus being exploited by authoritarian entities to snoop on citizens.</p>
 
 <hr class="article-separator">
 
