@@ -42,7 +42,7 @@ This cluster brings together all available **media mentions** of Sunil Abraham i
 </ol>
 
 ## External links
-- [Official website](https://www.washingtonpost.com/) (Subscription required)
+- [Official website](https://www.washingtonpost.com/)
 
 <style>
 /* ---------------------------------------------------------
