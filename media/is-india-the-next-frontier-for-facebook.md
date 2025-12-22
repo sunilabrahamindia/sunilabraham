@@ -36,7 +36,7 @@ created: 2025-12-22
 
   <dt>📰 Newspaper link:</dt>
   <dd>
-    <a class="btn" href="https://www.washingtonpost.com/world/is-india-the-next-frontier-for-facebook/2014/10/09/8b256ea0-d5d6-4996-aafe-8e0e776c9915_story.html">Read Online (Subscription needed)</a>
+    <a class="btn" href="https://www.washingtonpost.com/world/is-india-the-next-frontier-for-facebook/2014/10/09/8b256ea0-d5d6-4996-aafe-8e0e776c9915_story.html">Read Online</a> (Subscription needed)
   </dd>
 </dl>
 
