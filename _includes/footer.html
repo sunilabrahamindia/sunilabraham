@@ -194,9 +194,18 @@ footer .celebrate-300 a:hover {
       timeZone: 'Asia/Kolkata'
     };
 
-    const formatted = new Intl.DateTimeFormat('en-IN', options)
-      .format(now)
-      .replace(',', '');
+let formatted = new Intl.DateTimeFormat('en-IN', options).format(now);
+
+/* Normalize format:
+   "Monday 22 December 2025 at 20:35"
+   → "Monday, 22 December 2025, 20:35"
+*/
+formatted = formatted
+  .replace(' at ', ', ')
+  .replace(/^([A-Za-z]+)\s/, '$1, ');
+
+el.textContent = formatted + ' IST (UTC+05:30 hours)';
+
 
     el.textContent = formatted + ' IST (UTC+05:30 hours)';
   })();
