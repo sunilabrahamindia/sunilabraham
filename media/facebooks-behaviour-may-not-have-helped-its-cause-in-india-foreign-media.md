@@ -10,7 +10,7 @@ permalink: /media/facebooks-behaviour-may-not-have-helped-its-cause-in-india-for
 created: 2025-12-22
 ---
 
-**Facebook's Behaviour May Not Have Helped Its Cause In India: Foreign Media** is a report published by *NDTV* on 8 February 2016, syndicated from *The Washington Post* and written by Annie Gowen. The article describes how the Telecom Regulatory Authority of India barred discriminatory tariffs for data services, effectively ending Facebook's Free Basics zero-rating programme in India on net neutrality grounds. It also examines how Facebook's aggressive public campaign and automated support messages alienated regulators, with Sunil Abraham arguing that the company had gone "overboard with its propaganda" and could not be trusted with responsible stewardship of India's information society.
+**Facebook's Behaviour May Not Have Helped Its Cause In India: Foreign Media** is a report published by *NDTV* on 8 February 2016, syndicated from [*The Washington Post*](/media/india-bans-facebooks-free-internet-for-the-poor/) and written by Annie Gowen. The article describes how the Telecom Regulatory Authority of India barred discriminatory tariffs for data services, effectively ending Facebook's Free Basics zero-rating programme in India on net neutrality grounds. It also examines how Facebook's aggressive public campaign and automated support messages alienated regulators, with Sunil Abraham arguing that the company had gone "overboard with its propaganda" and could not be trusted with responsible stewardship of India's information society.
 
 ## Contents
 
