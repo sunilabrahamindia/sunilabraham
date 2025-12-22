@@ -36,7 +36,7 @@ created: 2025-12-22
 
   <dt>📰 Newspaper link:</dt>
   <dd>
-    <a class="btn" href="https://www.washingtonpost.com/world/asia_pacific/india-egypt-say-no-thanks-to-free-internet-from-facebook/2016/01/28/cd180bcc-b58c-11e5-8abc-d09392edc612_story.html">Read Online (Subscription needed)</a>
+    <a class="btn" href="https://www.washingtonpost.com/world/asia_pacific/india-egypt-say-no-thanks-to-free-internet-from-facebook/2016/01/28/cd180bcc-b58c-11e5-8abc-d09392edc612_story.html">Read Online</a> (Subscription needed)
   </dd>
 </dl>
 
