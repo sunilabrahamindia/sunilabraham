@@ -36,7 +36,7 @@ created: 2025-12-22
 
   <dt>📰 Newspaper link:</dt>
   <dd>
-    <a class="btn" href="https://www.washingtonpost.com/world/indias-supreme-court-strikes-down-law-that-led-to-facebook-arrests/2015/03/24/9ca54e3c-608f-46d7-a32a-57918fdd9c35_story.html">Read Online (Subscription needed)</a>
+    <a class="btn" href="https://www.washingtonpost.com/world/indias-supreme-court-strikes-down-law-that-led-to-facebook-arrests/2015/03/24/9ca54e3c-608f-46d7-a32a-57918fdd9c35_story.html">Read Online</a> (Subscription needed)
   </dd>
 </dl>
 
