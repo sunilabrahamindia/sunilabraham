@@ -11,7 +11,7 @@ created: 2025-12-23
 
 Across a number of news reports and explanatory pieces, **Sunil Abraham** appears as a mentioned voice offering perspective on internet regulation, data governance, online speech, and the societal implications of platform-led change. These mentions typically surface at moments of regulatory transition or public debate, where technical policy questions enter mainstream discussion.
 
-This cluster brings together all available **media mentions** of Sunil Abraham in *The Times of India*. Viewed collectively, the articles trace how complex technology policy issues were translated for a broad national readership during key phases of India’s digital evolution.
+This cluster brings together all available **media mentions** of Sunil Abraham in *The Times of India*. Viewed collectively, the articles trace how complex technology policy issues were translated for a broad national readership during key phases of India's digital evolution.
 
 ## 📣 Media Mentions {#media}
 
