@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Internet users enraged over US online spying"
+title: "Internet Users Enraged Over US Online Spying"
 description: "A Times of India feature on Indian reactions to Edward Snowden's NSA surveillance revelations, including policy recommendations from Sunil Abraham on privacy legislation, encryption and regulatory enforcement against platforms sharing user data with foreign agencies."
 categories: [Media mentions]
 date: 2013-06-29
@@ -10,7 +10,7 @@ permalink: /media/internet-users-enraged-over-us-online-spying/
 created: 2025-12-23
 ---
 
-**Internet users enraged over US online spying** is a feature published by *The Times of India* on 29 June 2013, written by Maitreyee Boruah. The article examines Indian responses to revelations about NSA surveillance programmes exposed by Edward Snowden. It includes commentary from Sunil Abraham on legislative gaps in India's privacy framework and policy measures needed to protect citizens from foreign intelligence access to personal data held by internet companies.
+**Internet Users Enraged Over US Online Spying** is a feature published by *The Times of India* on 29 June 2013, written by Maitreyee Boruah. The article examines Indian responses to revelations about NSA surveillance programmes exposed by Edward Snowden. It includes commentary from Sunil Abraham on legislative gaps in India's privacy framework and policy measures needed to protect citizens from foreign intelligence access to personal data held by internet companies.
 
 ## Contents
 
