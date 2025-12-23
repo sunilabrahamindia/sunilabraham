@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "India to create free access to scientific work online"
+title: "India to Create Free Access to Scientific Work Online"
 description: "The Times of India report on India's draft open access policy requiring publicly funded research to be deposited in online repositories, featuring Sunil Abraham's commentary on preventing taxpayers from paying twice to access research funded by public money."
 categories: [Media mentions]
 date: 2014-07-22
@@ -10,7 +10,7 @@ permalink: /media/india-create-free-access-scientific-work-online-times-of-india
 created: 2025-12-23
 ---
 
-**India to create free access to scientific work online** is a news report published by *The Times of India* on 22 July 2014, written by Sandhya Soman. The article covers the draft open access policy issued by the Department of Biotechnology and Department of Science and Technology requiring researchers receiving government funding to deposit their work in institutional or centralised repositories. It includes commentary from Sunil Abraham on the rationale for preventing taxpayers from being charged twice for access to publicly funded research.
+**India to Create Free Access to Scientific Work Online** is a news report published by *The Times of India* on 22 July 2014, written by Sandhya Soman. The article covers the draft open access policy issued by the Department of Biotechnology and Department of Science and Technology requiring researchers receiving government funding to deposit their work in institutional or centralised repositories. It includes commentary from Sunil Abraham on the rationale for preventing taxpayers from being charged twice for access to publicly funded research.
 
 ## Contents
 
