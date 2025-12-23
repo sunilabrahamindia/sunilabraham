@@ -1,15 +1,15 @@
 ---
 layout: default
 title: "Facebook India appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech"
-description: "A Times of India report on Facebook India's appointment of Sunil Abraham as Public Policy Director for Data and Emerging Technology, outlining his role in shaping policy engagement on data protection, privacy and emerging technologies."
+description: "The Times of India report on Facebook India's appointment of Sunil Abraham as Public Policy Director for Data and Emerging Technology, outlining his role in shaping policy engagement on data protection, privacy and emerging technologies."
 categories: [Media mentions]
 date: 2020-10-12
-source: "Times of India"
+source: "The Times of India"
 permalink: /media/facebook-india-appoints-sunil-abraham-public-policy-director/
 created: 2025-12-23
 ---
 
-**Facebook India appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech** is a news report published by *Times of India* on 12 October 2020, distributed by Press Trust of India (PTI). The article announces Abraham's appointment to lead Facebook India's policy positions on data privacy, consumer protection, and artificial intelligence. He was tasked with building stakeholder partnerships across South Asia and contributing to regional policy development on emerging technologies.
+**Facebook India appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech** is a news report published by *The Times of India* on 12 October 2020, distributed by Press Trust of India (PTI). The article announces Abraham's appointment to lead Facebook India's policy positions on data privacy, consumer protection, and artificial intelligence. He was tasked with building stakeholder partnerships across South Asia and contributing to regional policy development on emerging technologies.
 
 ## Contents
 
@@ -22,7 +22,7 @@ created: 2025-12-23
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>Times of India</em></dd>
+  <dd><em>The Times of India</em></dd>
 
   <dt>✍️ Author:</dt>
   <dd>PTI</dd>
@@ -73,7 +73,7 @@ The creation of a dedicated role focused on data and emerging technology signall
 
 ## External Link
 
-- <a href="https://timesofindia.indiatimes.com/facebook-india-appoints-sunil-abraham-as-public-policy-director-for-data-and-emerging-tech/articleshow/78621396.cms">Read on Times of India</a>
+- <a href="https://timesofindia.indiatimes.com/facebook-india-appoints-sunil-abraham-as-public-policy-director-for-data-and-emerging-tech/articleshow/78621396.cms">Read on The Times of India</a>
 
 <style>
 .media-details {
