@@ -10,7 +10,7 @@ permalink: /media/fear-data-misuse-google-privacy-policy-hackles/
 created: 2025-12-08
 ---
 
-**Fear of Data Misuse: Google's Privacy Policy Raises Hackles** is an *Economic Times* report published on 26 January 2012. The article discusses Google's new unified privacy policy that aggregates user data across services such as Search, Gmail, Google+, YouTube and others. While Google argues that the change will provide a simpler, more personalised experience, privacy experts — including Sunil Abraham — raise concerns about data misuse, long-term retention and the lack of user opt-out options.
+**Fear of Data Misuse: Google's Privacy Policy Raises Hackles** is an *Economic Times* report published on 26 January 2012. The article discusses Google's new unified privacy policy that aggregates user data across services such as Search, Gmail, Google+, YouTube and others. While Google argues that the change will provide a simpler, more personalised experience, privacy experts — including Sunil Abraham — raise concerns about data misuse, long-term retention and the lack of user opt-out options. The article was also published on [*The Economic Times*](/media/googles-privacy-policy-raises-hackles-times-of-india) on the same date.
 
 ## Contents
 
