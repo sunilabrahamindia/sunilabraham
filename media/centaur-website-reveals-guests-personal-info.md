@@ -10,7 +10,7 @@ permalink: /media/centaur-website-reveals-guests-personal-info/
 created: 2025-12-10
 ---
 
-**Centaur Website Reveals Guests' Personal Info** is a report published in *The Economic Times* on 20 June 2011. The story highlights a significant lapse in data security on the Centaur Hotels website, which exposed sensitive personal information including passports, driving licences, PAN numbers and credit card details of guests. The article also includes expert comments from Sunil Abraham, who explains the privacy implications and liabilities under Section 43 of the IT Act.
+**Centaur Website Reveals Guests' Personal Info** is a report published in *The Economic Times* on 20 June 2011. The story highlights a significant lapse in data security on the Centaur Hotels website, which exposed sensitive personal information including passports, driving licences, PAN numbers and credit card details of guests. The article also includes expert comments from Sunil Abraham, who explains the privacy implications and liabilities under Section 43 of the IT Act. This *Economic Times* article story originally appeared in [*The Times of India*](/media/centaur-website-reveals-guests-personal-info-times-of-india/) on the same date.
 
 ## Contents
 
