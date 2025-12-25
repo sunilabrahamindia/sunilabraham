@@ -12,6 +12,8 @@ created: 2025-12-17
 
 **Crowdsourced Innovation for Government Projects and Services Is Easier Said Than Done** is a feature article published in *The Economic Times* on 3 February 2017, written by Kunal Talgeri. The article examines cultural misalignment between India's developer community and government digital initiatives through HasGeek's 50p payment conference, featuring Zainab Bawa's observation that technology is not necessarily the solution whilst developers must have their ears to the ground, Kiran Jonnalagadda's criticism that mobile app security models assume goodwill representing shitty way to do technology when government wants an app, Sunil Abraham's warning that UPI infrastructure will become monopoly in welfare-scheme transactions reflecting Aadhaar Mafia school of thought, and Bawa's finding that common service centres employed middlemen to operate computer systems defeating engineering intent of e-governance.
 
+This article was also published on [*The Times of India*](/media/crowdsourced-innovation-government-projects-easier-said-than-done-times-of-india) on the same date.
+
 ## Contents
 
 1. [Article Details](#article-details)  
