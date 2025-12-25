@@ -10,7 +10,8 @@ permalink: /media/much-at-stake-tech-sector-uid-project/
 created: 2025-12-08
 ---
 
-**Much at Stake for Tech Sector in UID Project** is an *Economic Times* report published on 12 December 2011. The article discusses how the Parliamentary Standing Committee's objections to the National Identification Authority of India (NIAI) Bill may slow down the UID (Aadhaar) programme, affecting associated technology contracts and market expectations. It includes expert commentary from Sunil Abraham on biometric security issues and potential design changes.
+**Much at Stake for Tech Sector in UID Project** is an *Economic Times* report published on 12 December 2011. The article discusses how the Parliamentary Standing Committee's objections to the National Identification Authority of India (NIAI) Bill may slow down the UID (Aadhaar) programme, affecting associated technology contracts and market expectations. It includes expert commentary from Sunil Abraham on biometric security issues and potential design changes. The article was also published on [*The Times of India*](/media/much-at-stake-for-tech-sector-in-uid-project-times-of-india) on the same date.
+
 
 ## Contents
 
