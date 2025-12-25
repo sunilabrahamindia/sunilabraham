@@ -7,14 +7,16 @@ categories: [Project pages]
 created: 2025-10-19
 ---
 
-<div class="tsap-banner"
+<!-- <div class="tsap-banner"
      role="img"
      aria-label="Graffiti-style banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless device, pendrive, laptop and communication tower on a brick wall.">
 <span class="tsap-banner-hover-text"></span>
   <img class="tsap-image"
        src="/assets/images/tsap-welcome-banner.png"
        alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
-</div>
+</div> -->
+
+{% include v1.html %}
 
 <div class="hero-intro">
   <p><strong>Welcome</strong> to the <strong>Sunil Abraham Project</strong> (TSAP). This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights.</p>
@@ -23,8 +25,6 @@ created: 2025-10-19
 
   <p>As of {{ site.time | date: "%-d %B %Y" }}, the Sunil Abraham Project contains {{ site.pages | size }} pages.</p>
 </div>
-
-{% include v1.html %}
 
 <nav class="tsap-contents">
   <h2>Contents</h2>
