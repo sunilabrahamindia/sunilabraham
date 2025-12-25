@@ -1,5 +1,8 @@
-
-<div class="launch-countdown">
+<div class="launch-countdown" id="countdownBanner">
+  <button class="countdown-close-btn" onclick="document.getElementById('countdownBanner').style.display='none';" aria-label="Close countdown banner">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  
   <div class="countdown-header">
     <h2 class="countdown-title">🚀 Version 1.0 Launching Soon</h2>
     <p class="countdown-subtitle">The Sunil Abraham Project (TSAP) Version 1.0 launches on <strong>Thursday, 1 January 2026, 8:00 AM IST</strong></p>
@@ -31,9 +34,10 @@
     <p>🎉 <strong>Version 1.0 is now live!</strong> Explore the enhanced features and content.</p>
   </div>
 </div>
+
 <style>
 /* ========================================
-   LAUNCH COUNTDOWN - COMPACT VERSION
+   LAUNCH COUNTDOWN - COMPACT VERSION WITH CLOSE BUTTON
    ======================================== */
 .launch-countdown {
   background: linear-gradient(135deg, #0a2e57 0%, #005cc5 100%);
@@ -45,6 +49,45 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+/* Close button */
+.countdown-close-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  padding: 0;
+}
+
+.countdown-close-btn:hover {
+  background: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+}
+
+.countdown-close-btn:active {
+  transform: scale(0.95);
+}
+
+.countdown-close-btn span {
+  display: block;
+  line-height: 0.85;
+  margin-top: -2px;
 }
 
 /* Animated background effect */
@@ -74,6 +117,7 @@
   position: relative;
   z-index: 1;
   margin-bottom: 1.25rem;
+  padding-right: 2rem; /* Space for close button */
 }
 
 .countdown-title {
@@ -189,6 +233,18 @@
     margin: 1.25rem 0 1.75rem 0;
   }
 
+  .countdown-close-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    top: 0.65rem;
+    right: 0.65rem;
+  }
+
+  .countdown-header {
+    padding-right: 1.75rem;
+  }
+
   .countdown-title {
     font-size: 1.35rem;
   }
@@ -227,6 +283,18 @@
   .launch-countdown {
     padding: 1rem 1rem;
     margin: 1rem 0 1.5rem 0;
+  }
+
+  .countdown-close-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 1.5rem;
+    top: 0.6rem;
+    right: 0.6rem;
+  }
+
+  .countdown-header {
+    padding-right: 1.5rem;
   }
 
   .countdown-title {
@@ -273,6 +341,14 @@
     padding: 0.85rem 0.85rem;
   }
 
+  .countdown-close-btn {
+    width: 26px;
+    height: 26px;
+    font-size: 1.4rem;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
   .time-unit {
     min-width: 52px;
     padding: 0.6rem 0.65rem;
@@ -297,7 +373,7 @@
 </style>
 
 <script>
-  /* ========================================
+/* ========================================
    COUNTDOWN TIMER
    ======================================== */
 (function() {
@@ -346,5 +422,4 @@
   // Update every second
   const countdownInterval = setInterval(updateCountdown, 1000);
 })();
-
 </script>
