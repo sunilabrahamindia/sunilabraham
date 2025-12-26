@@ -90,8 +90,6 @@ Jeremy Corbyn's observation about the forum being defined by opposition rather t
 
 The forum took place against the backdrop of the Iraq War, which had begun in March 2003, and ongoing protests against neoliberal economic policies in various parts of the Global South. The diversity described in the article—from tribal land rights activists in Rajasthan to Korean health campaigners—illustrated the breadth of grievances that converged under the anti-globalisation banner, even as the movement struggled to articulate coherent alternatives to the systems it opposed.
 
-Abraham's participation represented an attempt to position software freedom within this broader political context, arguing that Microsoft's dominance exemplified the same concentration of corporate power that activists challenged in other sectors. This framing would later inform his work at the Centre for Internet and Society, where questions of platform monopolies, data ownership and algorithmic governance would be understood not merely as technical concerns but as manifestations of deeper political-economic structures.
-
 ## External Link
 
 - [Read on The Times of India](https://timesofindia.indiatimes.com/city/mumbai/rainbow-coalition-leans-left-for-rights/articleshow/430112.cms)
