@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Sunil Abraham and The Quaint"
-description: "A curated cluster of reporting and essays from The Quaint that reference Sunil Abraham's perspectives on digital culture, internet governance, platform power, and the social consequences of technology in India."
+title: "Sunil Abraham and The Quint"
+description: "A curated cluster of reporting and essays from The Quint that reference Sunil Abraham's perspectives on digital culture, internet governance, platform power, and the social consequences of technology in India."
 categories: [Clusters, Media mentions]
-permalink: /clusters/sunil-abraham-the-quaint/
+permalink: /clusters/sunil-abraham-the-Quint/
 created: 2025-12-26
 ---
 
-***The Quaint*** is an Indian digital publication known for its long-form journalism, cultural criticism, and analysis of contemporary social and political issues. Its reporting often explores how technology intersects with everyday life, identity, power, and governance, particularly in urban and online spaces.
+***The Quint*** is an Indian digital publication known for its long-form journalism, cultural criticism, and analysis of contemporary social and political issues. Its reporting often explores how technology intersects with everyday life, identity, power, and governance, particularly in urban and online spaces.
 
 Within this coverage, **Sunil Abraham** appears as a referenced voice offering analytical context on questions of internet governance, platform accountability, surveillance, and the social implications of digital systems. These mentions are typically embedded within broader narratives that examine how technological change reshapes public discourse and civic life, rather than as standalone commentary.
 
-This cluster brings together all available **media mentions** of Sunil Abraham published in *The Quaint*. Read together, these articles illustrate how digital rights and technology policy debates have been framed within India’s independent, culture-focused digital media landscape.
+This cluster brings together all available **media mentions** of Sunil Abraham published in *The Quint*. Read together, these articles illustrate how digital rights and technology policy debates have been framed within India’s independent, culture-focused digital media landscape.
 
 ## 📣 Media Mentions {#media}
 
@@ -24,7 +24,7 @@ This cluster brings together all available **media mentions** of Sunil Abraham p
 
 {% assign media_items = site.pages
      | where_exp:"p","p.categories contains 'Media mentions'"
-     | where:"source","The Quaint"
+     | where:"source","The Quint"
 %}
 {% assign media_sorted = media_items | sort:"title" %}
 
@@ -42,7 +42,7 @@ This cluster brings together all available **media mentions** of Sunil Abraham p
 </ol>
 
 ## External links
-- [Official website](https://www.thequaint.com/)
+- [Official website](https://www.theQuint.com/)
 
 <style>
 
