@@ -21,6 +21,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 8. [Version 0.6](#version-06)
 9. [Version 0.7](#version-07)
 10. [Version 0.8](#version-08)
+11. [Version 0.9](#version-09)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -325,4 +326,36 @@ Version 0.8 marks another intensive content-building phase, building directly on
 **📅 Status and Completion**  
 ✅ **Status:** Completed — Version 0.8 completed  
 📅 **Completion Date:** 21 December 2025
+
+## Version 0.9
+
+Version 0.9 represents the single most productive week in the history of TSAP so far. The focus was squarely on **Media Mentions expansion**, accelerating progress across multiple publications and preparing the ground for the milestone Version 1.0 release.
+
+**📰 Media Mentions — Highest Weekly Growth**
+- **75 new media articles** were added this week — the largest weekly increase so far.
+- This growth strengthened coverage across Indian and international news sources.
+- The surge reflects renewed emphasis on completeness and archival accuracy.
+
+**🧩 New Source-Based Clusters Planned**
+- Several new clusters are being prepared for upcoming release, including:
+  - [Sunil Abraham and *The Washington Post*](/clusters/sunil-abraham-washington-post/)
+  - [Sunil Abraham and *Mumbai Mirror*](/clusters/sunil-abraham-mumbai-mirror/)
+  - [Sunil Abraham and *Moneycontrol*](/clusters/sunil-abraham-moneycontrol/)
+  - [Sunil Abraham and *NDTV*](/clusters/sunil-abraham-ndtv/)
+  - [Sunil Abraham and *The Quint*](/clusters/sunil-abraham-the-quint/)
+  - [Sunil Abraham and *The Times of India*](/clusters/sunil-abraham-times-of-india/)
+- These clusters will help to navigate content by media source and theme.
+
+**🎯 Preparing for the Version 1.0 Milestone**
+- Version **1.0** is targeted for release on Thursday, 1 January 2026.
+- While TSAP typically aligns major changes with Sundays, this is a planned exception for two reasons:
+  1. The release date aligns with **1 January — first day of the new year**.
+  2. Version **1.0** marks a major milestone in TSAP’s evolution.
+
+This period builds momentum for the launch of a more refined public structure, stronger navigation options, and stable long-term content strategy.
+
+**📅 Status and Completion**  
+✅ **Status:** Completed — Version 0.9 completed  
+📅 **Completion Date:** 28 December 2025
+
 
