@@ -331,8 +331,8 @@ Version 0.8 marks another intensive content-building phase, building directly on
 
 Version 0.9 represents the single most productive week in the history of TSAP so far. The focus was squarely on **Media Mentions expansion**, accelerating progress across multiple publications and preparing the ground for the milestone Version 1.0 release.
 
-**📰 Media Mentions — Highest Weekly Growth**
-- **75 new media articles** were added this week — the largest weekly increase so far.
+**📰 Highest Weekly Growth**
+- 75 new  articles were added this week — the largest weekly increase so far.
 - This growth strengthened coverage across Indian and international news sources.
 - The surge reflects renewed emphasis on completeness and archival accuracy.
 
@@ -347,10 +347,10 @@ Version 0.9 represents the single most productive week in the history of TSAP so
 - These clusters will help to navigate content by media source and theme.
 
 **🎯 Preparing for the Version 1.0 Milestone**
-- Version **1.0** is targeted for release on Thursday, 1 January 2026.
+- Version 1.0 is targeted for release on Thursday, 1 January 2026.
 - While TSAP typically aligns major changes with Sundays, this is a planned exception for two reasons:
-  1. The release date aligns with **1 January — first day of the new year**.
-  2. Version **1.0** marks a major milestone in TSAP’s evolution.
+  1. The release date aligns with 1 January — first day of the new year.
+  2. Version 1.0 marks a major milestone in TSAP’s evolution.
 
 This period builds momentum for the launch of a more refined public structure, stronger navigation options, and stable long-term content strategy.
 
