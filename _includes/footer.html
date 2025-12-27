@@ -1,422 +1,225 @@
 <footer>
   <style>
     /* =========================================================
-       Modern Footer Design for The Sunil Abraham Project
-       Clean, accessible, content-first approach
+       Footer container
        ========================================================= */
-    
     footer {
-      margin-top: 3rem;
-      padding: 3rem 1.5rem 2rem;
-      background: linear-gradient(to bottom, #fafafa 0%, #f5f5f5 100%);
-      border-top: 2px solid #e1e4e8;
-      font-size: 0.9rem;
-      color: #444;
-      line-height: 1.6;
-    }
-
-    /* Footer Grid Layout */
-    .footer-container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .footer-header {
+      margin-top: 0;
+      padding: 42px 12px;
       text-align: center;
-      margin-bottom: 2.5rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid #e1e4e8;
+      font-size: 0.9em;
+      color: #555;
+      border-top: 1px solid #dfe3e6;
+      background: #fafafa;
     }
 
-    .footer-header h3 {
-      margin: 0 0 0.5rem;
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: #0a2e57;
-      letter-spacing: 0.3px;
+    /* Paragraph spacing */
+    footer p {
+      margin: 0.1rem 0;
+      line-height: 1.45;
     }
 
-    .footer-version {
-      display: inline-block;
-      padding: 0.25rem 0.75rem;
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      font-size: 0.8rem;
-      color: #666;
-      margin-top: 0.5rem;
-    }
-
-    /* Celebration Banner */
-    .footer-celebration {
-      text-align: center;
-      margin: 1.5rem 0;
-      padding: 1rem 1.5rem;
-      background: linear-gradient(135deg, #fff9f0 0%, #ffe8d6 100%);
-      border-left: 4px solid #ff8c42;
-      border-radius: 6px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-
-    .footer-celebration strong {
-      color: #c65102;
-    }
-
-    .footer-celebration a {
-      color: #0a2e57;
-      font-weight: 500;
-      text-decoration: underline;
-      text-decoration-color: transparent;
-      transition: text-decoration-color 0.25s ease;
-    }
-
-    .footer-celebration a:hover {
-      text-decoration-color: #0a2e57;
-    }
-
-    /* Footer Sections */
-    .footer-section {
-      margin: 1.5rem 0;
-      padding: 0.75rem 0;
-    }
-
-    .footer-section-title {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      color: #666;
-      margin-bottom: 0.75rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .footer-section-title::before {
-      content: '';
-      display: inline-block;
-      width: 3px;
-      height: 14px;
-      background: #0a2e57;
-      border-radius: 2px;
-    }
-
-    /* Links Grid */
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem 1.25rem;
-      margin-top: 0.5rem;
-    }
-
+    /* Links inside footer */
     footer a {
       color: #0a2e57;
       text-decoration: none;
       position: relative;
-      transition: all 0.2s ease;
-      padding-bottom: 2px;
+      transition: color 0.22s ease;
     }
 
+    /* Underline slide animation */
     footer a::after {
       content: "";
       position: absolute;
       left: 0;
-      bottom: 0;
-      width: 0;
-      height: 1.5px;
-      background: #0a2e57;
-      transition: width 0.25s ease;
+      bottom: -2px;
+      width: 0%;
+      height: 1px;
+      background: currentColor;
+      transition: width 0.22s ease;
     }
 
     footer a:hover {
-      color: #000;
+      color: #111;
     }
 
     footer a:hover::after {
       width: 100%;
     }
 
-    footer a:focus {
-      outline: 2px solid #0a2e57;
-      outline-offset: 2px;
-      border-radius: 2px;
+    /* Bullet separator (·) between links */
+    footer p a + a::before {
+      content: "·";
+      color: #777;
     }
 
-    /* Social Links - Special Styling */
-    .footer-social {
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      margin: 1.5rem 0;
-      flex-wrap: wrap;
+    /* Disable separators inside bracketed link group */
+    footer .no-separator a + a::before {
+      content: none !important;
     }
 
-    .footer-social a {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.5rem 1rem;
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      font-size: 0.9rem;
-      transition: all 0.25s ease;
+    /* NEW: restore bullet AFTER the bracketed group */
+    footer .no-separator + a::before {
+      content: "·";
+      color: #777;
     }
 
-    .footer-social a::after {
-      display: none;
+    /* Footer Version Tag – ACCESSIBLE */
+    footer .version-tag {
+      font-size: 0.86em;
+      color: #444;
+      margin-top: 0.25rem;
+      display: block;
+      letter-spacing: 0.3px;
     }
+/* Footer time */
+  footer .footer-time {
+  font-size: 0.9em; /* same as footer */
+  color: #444;
+  margin-top: 0.2rem;
+}
 
-    .footer-social a:hover {
-      background: #0a2e57;
-      color: #fff;
-      border-color: #0a2e57;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(10, 46, 87, 0.15);
-    }
-
-    /* Time Display */
-    .footer-time {
-      text-align: center;
-      margin: 1.5rem 0;
-      padding: 0.75rem;
-      background: #fff;
-      border-radius: 6px;
-      border: 1px solid #e1e4e8;
-      font-size: 0.88rem;
-      color: #555;
-    }
-
-    .footer-time-value {
-      font-weight: 500;
-      color: #0a2e57;
-    }
-
-    /* Legal & Meta Info */
-    .footer-legal {
-      text-align: center;
-      margin-top: 2rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid #e1e4e8;
-      font-size: 0.85rem;
-      color: #666;
-    }
-
-    .footer-legal p {
-      margin: 0.4rem 0;
-    }
-
-    /* Utility Sections */
-    .footer-utility {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-      margin: 1.5rem 0;
-    }
-
-    .footer-utility-item {
-      padding: 1rem;
-      background: #fff;
-      border: 1px solid #e1e4e8;
-      border-radius: 6px;
-      font-size: 0.88rem;
-    }
-
-    .footer-utility-item strong {
-      color: #0a2e57;
-      font-weight: 600;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      footer {
-        padding: 2rem 1rem 1.5rem;
-      }
-
-      .footer-links {
-        flex-direction: column;
-        gap: 0.75rem;
-      }
-
-      .footer-social {
-        flex-direction: column;
-        align-items: stretch;
-      }
-
-      .footer-social a {
-        justify-content: center;
-      }
-
-      .footer-utility {
-        grid-template-columns: 1fr;
-      }
-
-      .footer-celebration {
-        padding: 0.875rem 1rem;
-        font-size: 0.9rem;
-      }
-    }
-
-    /* Accessibility Enhancements */
-    @media (prefers-reduced-motion: reduce) {
-      footer a,
-      footer a::after,
-      .footer-social a {
-        transition: none;
-      }
-    }
-
-    @media (prefers-contrast: high) {
-      footer {
-        border-top-width: 3px;
-        border-top-color: #000;
-      }
-      
-      footer a {
-        text-decoration: underline;
-      }
-    }
+/* 300 Celebration line */
+footer .celebrate-300 {
+  padding: 2px 10px;
+  background: #fff1e6; /* Soft light orange */
+  color: #7a3b00;      /* Muted brown-orange for readability */
+  border-radius: 6px;
+  display: inline-block;
+}
+footer .celebrate-300 a {
+  color: #0a2e57; /* Keep site-standard link colour */
+  font-weight: 500;
+}
+footer .celebrate-300 a:hover {
+  color: #000;
+}
+/* 300 Celebration line ends */
   </style>
 
-  <div class="footer-container">
-    <!-- Header Section -->
-    <div class="footer-header">
-      <h3><a href="https://sunilabraham.in/articles/sunil-abraham-project/">The Sunil Abraham Project</a></h3>
-      <span class="footer-version">Version 0.8</span>
-    </div>
+  <p><b><a href="https://sunilabraham.in/articles/sunil-abraham-project/">The Sunil Abraham Project</a></b></p>
+  <p class="version-tag">Version 0.8</p>
 
-    <!-- Celebration Banner -->
-    <div class="footer-celebration" role="complementary">
-      🎉 Celebrating <strong>300th article</strong> — 
-      <a href="https://sunilabraham.in/media/india-debates-limits-to-freedom-of-expression/">
-        <em>India Debates Limits to Freedom of Expression</em>
-      </a>
-    </div>
+  <p class="footer-time" aria-live="off">
+🕒 Current time: <span id="footer-datetime"></span>  
+  </p>
 
-    <!-- Current Time -->
-    <div class="footer-time" role="status" aria-live="off">
-      🕒 <span class="footer-time-value" id="footer-datetime"></span>
-    </div>
+<p class="celebrate-300">
+  🎉 Celebrating <b>300th article</b> —
+  <a href="https://sunilabraham.in/media/india-debates-limits-to-freedom-of-expression/">
+    <i>India Debates Limits to Freedom of Expression</i>
+  </a>
+</p>
 
-    <!-- Social Media Section -->
-    <div class="footer-section">
-      <div class="footer-section-title">Connect with Sunil</div>
-      <div class="footer-social">
-        <a href="https://www.facebook.com/abrahamsunil" aria-label="Sunil on Facebook">
-          Facebook
-        </a>
-        <a href="https://www.linkedin.com/in/sunilaabraham/" aria-label="Sunil on LinkedIn">
-          LinkedIn
-        </a>
-        <a href="https://x.com/sunil_abraham" aria-label="Sunil on X (Twitter)">
-          𝕏 (Twitter)
-        </a>
-      </div>
-    </div>
+  <p>© {{ site.time | date: "%Y" }} Licensed under 
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a> unless otherwise stated.
+  </p>
+  
+  <p>
+    🌐 Connect with Sunil:
+    <a href="https://www.facebook.com/abrahamsunil" aria-label="Sunil on Facebook">Facebook</a>
+    <a href="https://www.linkedin.com/in/sunilaabraham/" aria-label="Sunil on LinkedIn">LinkedIn</a>
+    <a href="https://x.com/sunil_abraham" aria-label="Sunil on X (Twitter)">𝕏</a>
+  </p>
+  
+  <p>
+    🔗 Quick links:
+    <a href="https://www.sunilabraham.in/versions">Versions</a>
+    <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
+    <a href="https://www.sunilabraham.in/sitemap">Sitemap</a>
 
-    <!-- Navigation Links -->
-    <div class="footer-section">
-      <div class="footer-section-title">Quick Links</div>
-      <div class="footer-links">
-        <a href="https://www.sunilabraham.in/versions">Versions</a>
-        <a href="https://www.sunilabraham.in/sitemap">Sitemap</a>
-        <a href="https://www.sunilabraham.in/newest">Newest Pages</a>
-        <a href="https://www.sunilabraham.in/sitemap.xml">XML Sitemap</a>
-        <a href="https://www.sunilabraham.in/random">Random Article</a>
-        <a href="https://www.sunilabraham.in/shortcuts">Shortcuts</a>
-      </div>
-    </div>
+    (<span class="no-separator"><a href="https://www.sunilabraham.in/newest">Newest pages</a>,
+        <a href="https://www.sunilabraham.in/sitemap.xml">XML</a></span>)
 
-    <!-- Utility Grid -->
-    <div class="footer-utility">
-      <!-- Archive Links -->
-      <div class="footer-utility-item">
-        <strong>🏛️ Archived Snapshots:</strong><br>
-        <a href="https://web.archive.org/https://{{ clean_domain }}{{ page.url }}">Wayback Machine</a> · 
-        <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">Archive.today</a>
-      </div>
+    <a href="https://www.sunilabraham.in/privacy">Privacy Policy</a>
+    <a href="https://www.sunilabraham.in/disclaimer">Disclaimer</a>
+    <a href="https://www.sunilabraham.in/random">Random article</a>
+    <a href="https://www.sunilabraham.in/shortcuts">Shortcuts</a>
+  </p>
 
-      <!-- Accessibility -->
-      <div class="footer-utility-item">
-        <strong>👁 Accessibility:</strong><br>
-        <a id="accessibility-link" href="#" aria-label="Check this page's accessibility report on WAVE WebAIM">
-          WAVE WebAIM Report
-        </a>
-      </div>
+{% assign clean_domain = site.url 
+  | remove: 'http://' 
+  | remove: 'https://' 
+  | remove: 'www.' 
+%}
 
-      <!-- Repository -->
-      <div class="footer-utility-item">
-        <strong>💻 Repository:</strong><br>
-        <a href="https://github.com/sunilabrahamindia/sunilabraham">View on GitHub</a>
-      </div>
-    </div>
+<p>
+  🏛️ Archived snapshots of this page:
+  <a href="https://web.archive.org/https://{{ clean_domain }}{{ page.url }}">
+    Wayback Machine
+  </a>
+  and
+  <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
+    Archive.today
+  </a>
+</p>
 
-    <!-- Legal Section -->
-    <div class="footer-legal">
-      <p>
-        © {{ site.time | date: "%Y" }} Licensed under 
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a> 
-        unless otherwise stated.
-      </p>
-      <p>
-        <a href="https://www.sunilabraham.in/privacy">Privacy Policy</a> · 
-        <a href="https://www.sunilabraham.in/disclaimer">Disclaimer</a>
-      </p>
-    </div>
-  </div>
+  <p>
+    👁 WAVE WebAIM:
+    <a id="accessibility-link" href="#" aria-label="Check this page's accessibility report on WAVE WebAIM">
+      See accessibility score
+    </a>
+  </p>
 
-  <!-- Scripts -->
   <script>
-    {% assign clean_domain = site.url 
-      | remove: 'http://' 
-      | remove: 'https://' 
-      | remove: 'www.' 
-    %}
-
-    // Accessibility link
     const currentURL = encodeURIComponent(window.location.href);
     document.getElementById('accessibility-link').href =
       'https://wave.webaim.org/report#/' + currentURL;
+  </script>
 
-    // Random page shortcut (Alt+Shift+X)
+  <script>
     document.addEventListener('keydown', function (e) {
       if (e.altKey && e.shiftKey && e.key === 'X') {
         window.location.href = '/random/';
       }
     });
+  </script>
 
-    // GitHub edit shortcut (Alt+Shift+G)
-    const githubEditURL = "https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}";
+  <script>
+    const githubEditURL =
+      "https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}";
+
     document.addEventListener('keydown', function (e) {
       if (['INPUT','TEXTAREA'].includes(e.target.tagName)) return;
       if (e.altKey && e.shiftKey && e.key === 'G') {
         window.location.href = githubEditURL;
       }
     });
-
-    // Footer datetime
-    (function () {
-      const el = document.getElementById('footer-datetime');
-      if (!el) return;
-
-      const now = new Date();
-      const options = {
-        weekday: 'long',
-        day: '2-digit',
-        month: 'long',
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false,
-        timeZone: 'Asia/Kolkata'
-      };
-
-      let formatted = new Intl.DateTimeFormat('en-IN', options).format(now);
-      formatted = formatted
-        .replace(' at ', ', ')
-        .replace(/^([A-Za-z]+)\s/, '$1, ');
-
-      el.textContent = formatted + ' IST (UTC+05:30)';
-    })();
   </script>
+
+  <script>
+  (function () {
+    const el = document.getElementById('footer-datetime');
+    if (!el) return;
+
+    const now = new Date();
+
+    const options = {
+      weekday: 'long',
+      day: '2-digit',
+      month: 'long',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false,
+      timeZone: 'Asia/Kolkata'
+    };
+
+let formatted = new Intl.DateTimeFormat('en-IN', options).format(now);
+
+/* Normalize format:
+   "Monday 22 December 2025 at 20:35"
+   → "Monday, 22 December 2025, 20:35"
+*/
+formatted = formatted
+  .replace(' at ', ', ')
+  .replace(/^([A-Za-z]+)\s/, '$1, ');
+
+el.textContent = formatted + ' IST (UTC+05:30 hours)';
+
+
+    el.textContent = formatted + ' IST (UTC+05:30 hours)';
+  })();
+</script>
+
 </footer>
