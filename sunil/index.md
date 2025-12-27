@@ -22,7 +22,7 @@ created: 2025-10-27
   </p>
 </div>
 
-Sunil Abraham was born on 17 June 1973 in India. He attended Clarence High School, Bangalore, completing his schooling in 1989. He later studied industrial engineering and management at Dayananda Sagar College of Engineering, affiliated with Bangalore University, and graduated in 1995. After completing his degree, he worked briefly in the private sector before moving into the non-profit field, where he began exploring how technology could support social and development goals. His early work with the voluntary organisation Samuha introduced him to the possibilities of using low-cost, open technologies to improve communication and coordination in rural contexts. This experience shaped his later commitment to open knowledge and the democratisation of technology.
+Sunil Abraham was born on 17 June 1973 in Alappuzha, Kerala, India. He attended Clarence High School, Bangalore, completing his schooling in 1989. He later studied industrial engineering and management at Dayananda Sagar College of Engineering, affiliated with Bangalore University, and graduated in 1995. After completing his degree, he worked briefly in the private sector before moving into the non-profit field, where he began exploring how technology could support social and development goals. His early work with the voluntary organisation Samuha introduced him to the possibilities of using low-cost, open technologies to improve communication and coordination in rural contexts. This experience shaped his later commitment to open knowledge and the democratisation of technology.
 
 His father, [A. M. A. Ayrookuzhiel](https://sunilabraham.in/amaa/) (1933–1996), was a theologian and educator, and his mother is Ponnamma Abraham (née Thekedath).
 
