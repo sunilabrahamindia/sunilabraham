@@ -136,12 +136,25 @@ footer .celebrate-300 a:hover {
     <a href="https://www.sunilabraham.in/shortcuts">Shortcuts</a>
   </p>
 
-  <p>
-    🗄️ Internet Archive:
-    <a href="https://web.archive.org/https://www.{{ site.url | remove: 'https://' | remove: 'www.' }}{{ page.url | relative_url }}">
-      Archived versions of this page
-    </a>
-  </p>
+{% assign clean_domain = site.url 
+  | remove: 'http://' 
+  | remove: 'https://' 
+  | remove: 'www.' 
+%}
+
+<p>
+  🏛️ Internet Archive:
+  <a href="https://web.archive.org/https://{{ clean_domain }}{{ page.url }}">
+    Archived versions of this page
+  </a>
+</p>
+
+<p>
+  📌 Archive.today:
+  <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
+    Webpage captures
+  </a>
+</p>
 
   <p>
     👁 WAVE WebAIM:
