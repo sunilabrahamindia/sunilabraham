@@ -4,7 +4,7 @@ title: "Sunil Abraham and Deccan Herald"
 description: "A curated cluster of Deccan Herald reporting that references Sunil Abraham’s commentary on technology policy, internet regulation, digital rights, and the governance of online platforms in the Indian context."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-deccan-herald/
-created: 2025-12-24
+created: 2025-12-27
 ---
 
 ***Deccan Herald*** is a long-established English-language newspaper based in Bengaluru, Karnataka, known for its coverage of public policy, law, technology, and civic issues. Its reporting often bridges national debates with regional perspectives, particularly on governance, regulation, and social change in India.
