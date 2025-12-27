@@ -91,7 +91,6 @@ Abraham and Prakash's criticism reflected broader concerns within India's techno
 
 ## Footnotes
 <section class="editorial-notes">
-  <hr>
   <ol>
     <li id="fn-tsap-1">
       <strong>TSAP Editorial Note:</strong>
