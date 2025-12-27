@@ -3,7 +3,7 @@ layout: default
 title: "Sunil Abraham and The Quint"
 description: "A curated cluster of reporting and essays from The Quint that reference Sunil Abraham's perspectives on digital culture, internet governance, platform power, and the social consequences of technology in India."
 categories: [Clusters, Media mentions]
-permalink: /clusters/sunil-abraham-the-Quint/
+permalink: /clusters/sunil-abraham-the-quint/
 created: 2025-12-26
 ---
 
@@ -42,7 +42,7 @@ This cluster brings together all available **media mentions** of Sunil Abraham p
 </ol>
 
 ## External links
-- [Official website](https://www.theQuint.com/)
+- [Official website](https://www.thequint.com/)
 
 <style>
 
