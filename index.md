@@ -126,47 +126,7 @@ created: 2025-10-19
 
 {% include back-to-top.html %}
 
-<section class="content-section" id="did-you-know">
-  <h2 class="section-title">Did you know...</h2>
-  <div class="facts-grid">
-    <div class="fact-item">
-      <span class="fact-marker">•</span>
-      <p>... that the concept of <a href="/amaa/edrl/">religious colonisation</a> was used by theologian <a href="/amaa">A. M. A. Ayrookuzhiel</a> to describe how Dalit gods and myths were absorbed into a Brahmanical order?</p>
-    </div>
-    <div class="fact-item">
-      <span class="fact-marker">•</span>
-      <p>... that the movement <a href="/articles/students-for-peace/">Students for Peace</a> (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?</p>
-    </div>
-<div class="fact-item">
-  <span class="fact-marker">•</span>
-  <p>... that a 2004 <a href="/media/rainbow-coalition-leans-left-for-rights-times-of-india/"><em>The Times of India</em> article</a> wrote that Sunil Abraham could well be a poster boy for "India Shining"?</p>
-</div>
-     <div class="fact-item">
-  <span class="fact-marker">•</span>
-     <p>... that when Sunil finished an engineering degree in 1995 and began job hunting in Bangalore, the internet was something he had heard of but never worked with, <a href="/media/fighting-battles-online-the-hindu/">pushing him towards the non-profit sector</a>?</p>
-   </div>
-    <div class="fact-item">
-      <span class="fact-marker">•</span>
-      <p>... that <a href="/publications/surveillance-project/">Aadhaar reverses the logic of transparency</a> — making citizens visible to the state while keeping the state opaque?</p>
-    </div>
-    <div class="fact-item">
-      <span class="fact-marker">•</span>
-      <p>... that <a href="/publications/eavesdropping-on-the-freedom-of-expression-in-india/">India's 2011 Intermediaries Guidelines</a> require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?</p>
-    </div>
-    <div class="fact-item">
-      <span class="fact-marker">•</span>
-      <p>... that the <a href="/publications/shreya-singhal-and-66a/">Shreya Singhal judgment</a> (2015) marked a significant doctrinal shift in Indian law, moving from a 'tendency' test to an 'imminence' test when judging if speech incites violence?</p>
-    </div>
-    <div class="fact-item">
-      <span class="fact-marker">•</span>
-      <p>... that <a href="/publications/intermediary-liability-law-needs-updating/">intermediary liability law</a> has been described as a form of 'private censorship', since platforms can decide what stays online without clear legal transparency requirements?</p>
-    </div>
-    <div class="fact-item">
-      <span class="fact-marker">•</span>
-      <p>... that the policy brief <a href="/publications/artificial-intelligence-full-spectrum/">Artificial Intelligence: A Full-Spectrum Regulatory Challenge</a> (2019) rejects one-size-fits-all AI ethics and instead proposes context-specific regulation based on who uses the technology and the harm it can cause?</p>
-    </div>
-  </div>
-</section>
+{% include dyk.html %}
 
 {% include back-to-top.html %}
 
@@ -484,91 +444,6 @@ main nav.breadcrumb {
   color: #333;
 }
 
-/* Facts grid */
-.facts-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-}
-
-.fact-item {
-  padding: 1.5rem;
-  border-radius: 12px;
-  display: flex;
-  gap: 1rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-  transition: all 0.3s ease;
-  border-left: 4px solid #005cc5;
-}
-
-/* 1 */
-.fact-item:nth-child(1) {
-  background: linear-gradient(135deg, #fff9e6 0%, #fff4d1 100%);
-  border-left-color: #f4c430;
-}
-
-/* 2 */
-.fact-item:nth-child(2) {
-  background: linear-gradient(135deg, #e6f7ff 0%, #d1edff 100%);
-  border-left-color: #40a9ff;
-}
-
-/* 3 */
-.fact-item:nth-child(3) {
-  background: linear-gradient(135deg, #e6ffe6 0%, #d1ffd1 100%);
-  border-left-color: #52c41a;
-}
-
-/* 4 */
-.fact-item:nth-child(4) {
-  background: linear-gradient(135deg, #ffe6f0 0%, #ffd1e6 100%);
-  border-left-color: #eb2f96;
-}
-
-/* 5 */
-.fact-item:nth-child(5) {
-  background: linear-gradient(135deg, #f0e6ff 0%, #e6d1ff 100%);
-  border-left-color: #722ed1;
-}
-
-/* 6 */
-.fact-item:nth-child(6) {
-  background: linear-gradient(135deg, #e6fff9 0%, #d1fff0 100%);
-  border-left-color: #13c2c2;
-}
-
-/* 7 */
-.fact-item:nth-child(7) {
-  background: linear-gradient(135deg, #fff0e6 0%, #ffe6d1 100%);
-  border-left-color: #fa8c16;
-}
-
-/* 8 */
-.fact-item:nth-child(8) {
-  background: linear-gradient(135deg, #e8ffe6 0%, #d6ffd1 100%);
-  border-left-color: #389e0d;
-}
-
-.fact-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0,92,197,0.15);
-}
-
-.fact-marker {
-  color: #005cc5;
-  font-size: 1.5rem;
-  font-weight: 700;
-  flex-shrink: 0;
-  line-height: 1;
-}
-
-.fact-item p {
-  margin: 0;
-  line-height: 1.6;
-  color: #333;
-  font-size: 0.95rem;
-}
-
 /* Button styles */
 .btn-primary {
   display: inline-block;
@@ -639,15 +514,6 @@ a:hover {
   .about-card,
   .licence-card {
     padding: 1.5rem;
-  }
-  
-  .facts-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  
-  .fact-item {
-    padding: 1.25rem;
   }
 }
 
