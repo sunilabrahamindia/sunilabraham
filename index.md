@@ -137,6 +137,10 @@ created: 2025-10-19
       <span class="fact-marker">•</span>
       <p>... that the movement <a href="/articles/students-for-peace/">Students for Peace</a> (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots?</p>
     </div>
+<div class="fact-item">
+  <span class="fact-marker">•</span>
+  <p>... that a 2004 <a href="/media/rainbow-coalition-leans-left-for-rights-times-of-india/"><em>The Times of India</em> article</a> wrote that Sunil Abraham could well be a poster boy for "India Shining"?</p>
+</div>
      <div class="fact-item">
   <span class="fact-marker">•</span>
      <p>... that when Sunil finished an engineering degree in 1995 and began job hunting in Bangalore, the internet was something he had heard of but never worked with, <a href="/media/fighting-battles-online-the-hindu/">pushing him towards the non-profit sector</a>?</p>
