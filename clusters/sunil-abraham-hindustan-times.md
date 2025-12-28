@@ -4,7 +4,7 @@ title: "Sunil Abraham and Hindustan Times"
 description: "A consolidated archive of Sunil Abraham’s contributions to Hindustan Times and news coverage that references his views on technology, digital rights, platform governance, and public policy in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-hindustan-times/
-created: 2025-12-24
+created: 2025-12-28
 ---
 
 ***Hindustan Times*** is one of India’s most widely circulated English-language newspapers, with strong national coverage spanning politics, law, technology, society, and public affairs. Its reporting frequently engages with how technological change affects governance, civil liberties, and everyday life.
