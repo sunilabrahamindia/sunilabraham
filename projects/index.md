@@ -16,10 +16,7 @@ The **Sunil Abraham Project** documents, studies, and archives a range of open r
     <h3>A. M. Abraham Aryookuzhiel</h3>
 
     <p>
-      A dedicated project to document the life, writings, and contributions of
-      A. M. Abraham Aryookuzhiel. This includes biographical material, unpublished
-      writings, and reflections on his legacy, aimed at building a lasting
-      digital record of his thought and influence.
+      A dedicated project to document the life, writings, and contributions of A. M. Abraham Aryookuzhiel. This includes biographical material, unpublished writings, and reflections on his legacy, aimed at building a lasting digital record of his thought and influence.
     </p>
 
     <p class="project-action">
@@ -31,9 +28,7 @@ The **Sunil Abraham Project** documents, studies, and archives a range of open r
     <h3>Artificial Intelligence</h3>
 
     <p>
-      A continuing study of ideas, reflections, and observations on Artificial
-      Intelligence, with emphasis on ethical, human, and creative dimensions.
-      This project explores how AI reshapes learning, work, and expression.
+      A continuing study of ideas, reflections, and observations on Artificial Intelligence, with emphasis on ethical, human, and creative dimensions. This project explores how AI reshapes learning, work, and expression.
     </p>
 
     <p class="project-note">
@@ -45,11 +40,9 @@ The **Sunil Abraham Project** documents, studies, and archives a range of open r
 
 ## Future Projects
 
-Further work will include structured research notes, essays, and long-form
-documentation on science, art, and digital culture.
+Further work will include structured research notes, essays, and long-form documentation on science, art, and digital culture.
 
-These projects will be developed gradually and published here, maintaining
-the project’s commitment to openness, clarity, and careful documentation.
+These projects will be developed gradually and published here, maintaining the project's commitment to openness, clarity, and careful documentation.
 
 <style>
 /* Mobile-first layout */
