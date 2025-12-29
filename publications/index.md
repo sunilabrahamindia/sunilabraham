@@ -186,220 +186,44 @@ These handbooks offer foundational insights into FOSS implementation, policy, an
 
 Sunil Abraham has written widely for both Indian and international media, contributing opinion pieces and analytical essays on technology policy, privacy, and open knowledge.
 
-### 2009
-- *"Newspapers Should Empower Citizen Journalism"* — *DNA India*, 2009.  
-  [Read online](https://cis-india.org/news/newspapers-should-empower-citizen-journalism)
-
-- *"Piracy Is Now a Mainstream Political Phenomenon"* — *The Hindu*, 2009.  
-  _A commentary on digital rights, access to culture, and new forms of online activism._
-
-### 2010
-- *"Does the Government Want to Enter Our Homes?"* — *Pune Mirror*, 2010.  
-  [Read here](/publications/does-the-government-want-to-enter-our-homes/){: .btn}
-
-- *"Wherever You Are, Whatever You Do"* — *Indian Express*, 2010.  
-  [Read here](/publications/wherever-you-are-whatever-you-do/){: .btn}
-
-### 2011
-- *"Big Brother Is Watching You"* — *Deccan Herald*, 2011.  
-  [Read here](/publications/big-brother-is-watching-you/){: .btn}
-
-- *"Do You Want to Be Watched?"* — *Pragati*, 2011.  
-  [Read here](/publications/do-you-want-to-be-watched/){: .btn}
-
- - *"India's Dreams of Web Censorship"* — *Financial Times – beyondbrics*, 2011.  
-  [Read here](/publications/indias-dreams-of-web-censorship/){: .btn}
-
-- *"Snooping Can Lead to Data Abuse"* — *Mail Today*, 2011.  
-  [Read here](/publications/snooping-can-lead-to-data-abuse/){: .btn}
-
- - *"Photocopying the Past"* — *Indian Express*, 2011.  
-  [Read here](/publications/photocopying-the-past/){: .btn}
-
-- *"Privacy and Security Can Co-exist"* — *Mail Today*, 2011.  
-  [Read here](/publications/privacy-and-security-can-co-exist/){: .btn}
-
-- *"That's the Unkindest Cut, Mr Sibal"* — *Deccan Chronicle*, 2011.  
-  [Read here](/publications/thats-the-unkindest-cut-mr-sibal/){: .btn}
-
-- *"US Clampdown Worse than the Great Firewall"* — *Tehelka*, 2011.  
-  [Read here](/publications/us-clampdown-worse-than-the-great-firewall/){: .btn}
-
-- *"We Are Anonymous, We Are Legion"* — *The Hindu*, 2011.  
-  [Read here](/publications/we-are-anonymous-we-are-legion/){: .btn}
-
-### 2012
-
-- *"ಡಿಜಿಟಲ್ ನಿರ್ಬಂಧಗಳ ನಿರ್ವಹಣೆ (Digital Restrictions Management)"* — *Prajavani*, 2012.  
-  [Read here](/publications/digital-restrictions-management/){: .btn}
-
-- *"Censoring the Internet: A Brief Manual"* — *Tehelka Magazine*, 2012.  
-  [Read here](/publications/censoring-the-internet-a-brief-manual/){: .btn}
-
-- *"Copyright Amendment: Bad, but Could Have Been Much Worse"* — *Business Standard*, 2012.  
-  [Read here](/publications/copyright-amendment-bad-but-could-have-been-much-worse/){: .btn}
-
-- *"Do We Need the Aadhaar Scheme?"* — *Business Standard*, 2012.  
-  [Read here](/publications/do-we-need-the-aadhaar-scheme/){: .btn}
-
-- *"Facebook, Privacy and India"* — *Mint (formerly Livemint)*, 2010.  
-  [Read here](/publications/facebook-privacy-and-india/){: .btn}
-
-- *"Open Is the Future"* — *Open World Forum, Paris*, 2012.  
-  _An essay on the global evolution of openness and free software movements._
-
-- *"Open Letter to Hillary Clinton on Internet Freedom"* — *Thinking Aloud*, 2012.  
-  [Read here](/publications/open-letter-to-hillary-clinton-on-internet-freedom/){: .btn}
-
-- *"Online Censorship: How Government Should Approach Regulation of Speech"* — *The Economic Times*, 2012.  
-  [Read here](/publications/online-censorship-how-government-should-approach-regulation-of-speech/){: .btn}
-
-- *"Smartphones, Tablets and the Patent Wars"* — *The Economic Times*, 2012.  
-  [Read here](/publications/smartphones-tablets-and-the-patent-wars/){: .btn}
-
-- *"Sense and Censorship"* — *Indian Express*, 2012.  
-  [Read here](/publications/sense-and-censorship/){: .btn}
-
-- *"The Five Monkeys and Ice-Cold Water"* — *Deccan Chronicle*, 2012.  
-  [Read here](/publications/the-five-monkeys-and-ice-cold-water/){: .btn}
-
-- *"The Quixotic Fight to Clean up the Web"* — *Tehelka Magazine*, 2012.  
-  [Read here](/publications/the-quixotic-fight-to-clean-up-the-web/){: .btn}
-
-- *"To Regulate Net Intermediaries or Not Is the Question"* — *Deccan Herald*, 2012.  
-  [Read here](/publications/to-regulate-net-intermediaries-or-not-is-the-question/){: .btn}
-
-### 2013
-- *"Don't SLAPP Free Speech"* — *Tehelka Magazine*, 2013.  
-  [Read here](/publications/dont-slapp-free-speech/){: .btn}
-
-- *"Online Privacy Should Not Come at the Cost of Security: Sunil Abraham"* — *Mint*, 2013.  
-  [Read here](/publications/online-privacy-should-not-come-at-the-cost-of-security/){: .btn}
-
-- *"Privacy Law Must Fit the Bill"* — *Deccan Chronicle*, 2013.  
-  [Read here](/publications/privacy-law-must-fit-the-bill/){: .btn}
-
-- *"Freedom from Monitoring: India Inc Should Push for Privacy Laws"* — *Forbes India*, 2013.  
-  [Read here](/publications/freedom-from-monitoring-india-inc-should-push-for-privacy-laws){: .btn}
-
-- *"TV versus Social Media: The Rights and Wrongs"* — *The Tribune*, 2013.  
-  [Read here](/publications/tv-versus-social-media/){: .btn}
-
-### 2014
-- *"Very Big Brother"* — *Council for Responsible Genetics*, 2014.  
-  [Read here](/publications/very-big-brother){: .btn}
-
-- *"Privacy worries cloud Facebook's WhatsApp Deal"* — *Economic Times*, 2014.  
-  [Read here](/publications/privacy-worries-cloud-facebooks-whatsapp-deal){: .btn}
-
-- *"Net Freedom Campaign Loses its Way"* — *The Hindu Business Line*, 2014.  
-  [Read here](/publications/net-freedom-campaign-loses-its-way){: .btn}
-
-### 2015
-- *"Privacy vs Transparency"* — *New Internationalist*, 2015.  
-  [Read here](/publications/privacy-vs-transparency/){: .btn}
-
-- *"Wiki's Worth, on a Different Turf"* — *Mint*, 2015.  
-  [Read here](/publications/wikis-worth-on-a-different-turf){: .btn}
-
-- *"Fear, Uncertainty and Doubt"* — *Deccan Chronicle*, 2015.  
-  [Read here](/publications/fear-uncertainty-and-doubt/){: .btn}
-
-- *"India's Digital Check"* — *DNA India*, 2015.  
-  [Read here](/publications/indias-digital-check/){: .btn}
-
-- *"The Generation of e-Emergency"* — *Mint*, 2015.  
-  [Read here](/publications/the-generation-of-e-emergency/){: .btn}
-  
-- *"Multiple Aspects Need to be Addressed as the Clamour Grows for Network Neutrality"* — *DNA India*, 2015.  
-  [Read here](/publications/multiple-aspects-need-to-be-addressed-network-neutrality/){: .btn}
-
-- *"Big Win for Freedom of Speech. Really?"* — *Bangalore Mirror*, 2015.  
-  [Read here](/publications/big-win-for-freedom-of-speech-really/){: .btn}
-
-- *"Internet Censorship Will Continue in Opaque Fashion"* — *The Times of India*, 2015.  
-  [Read here](/publications/internet-censorship-will-continue-in-opaque-fashion){: .btn}
-
-- *"Connected Trouble"* — *The Week*, 2015.  
-  [Read here](/publications/connected-trouble){: .btn}
-
-- *"Hits and Misses With the Draft Encryption Policy"* — *The Wire*, 2015.  
-  [Read here](/publications/hits-and-misses-with-the-draft-encryption-policy){: .btn}
-
-### 2016
-- *"Aadhaar is Actually Surveillance Tech"* — *Business Standard*, 2016.  
-  [Read here](/publications/aadhaar-is-actually-surveillance-tech/){: .btn}
-
-- *"The Net Neutrality Debate: TRAI Has a Point in Imposing Temporary Ban on Free Basics"* — *Firstpost*, 2016.  
-  [Read here](/publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/){: .btn}
-
-- *"Free Basics: Negating Net Parity"* — *Deccan Herald*, 2016.  
-  [Read here](/publications/free-basics-negating-net-parity){: .btn}
-
-- *"Facebook Shares 10 Key Facts about Free Basics. Here's What's Wrong with All 10 of Them."* — *Catch News*, 2016.  
-  [Read here](/publications/facebook-shares-10-key-facts-free-basics-wrong-with-all-10){: .btn}
-
-- *"Facebook's Fall from Grace: Arab Spring to Indian Winter"* — *Firstpost*, 2016.  
-  [Read here](/publications/facebooks-fall-from-grace-arab-spring-to-indian-winter){: .btn}
-
-- *"Services Like TwitterSeva Aren't the Silver Bullets They Are Made Out to Be"* — *FactorDaily*, 2016.  
-  [Read here](/publications/services-like-twitterseva-arent-the-silver-bullets){: .btn}
-
-### 2017
-- *"സ്വകാര്യതാലംഘനം: ധനനഷ്ടമില്ലെങ്കിലും കേസിനു പോകാം (Privacy Violation: Even Without Financial Loss You Can Sue)"* — *Malayala Manorama*, 2017.  
-  [Read here](/publications/privacy-violation-even-without-financial-loss-you-can-sue/){: .btn}
-
-- *"How Aadhaar Compromises Privacy? And How to Fix It?"* — *The Hindu*, 2017.  
-  [Read on CIS](https://cis-india.org/internet-governance/blog/hindu-op-ed-sunil-abraham-march-31-2017-how-aadhaar-compromises-privacy-and-how-to-fix-it)  
-  [Read online](https://www.thehindu.com/opinion/op-ed/is-aadhaar-a-breach-of-privacy/article17745615.ece)
-
-- *"It's the Technology, Stupid"* — *The Hindu Business Line*, 2017.  
-  [Read here](/publications/its-the-technology-stupid/){: .btn}
-
-- *"Now That Privacy Is a Fundamental Right, Parliament Must Define Contours of SC Ruling"* — *Hindustan Times*, 2017.  
-  [Read here](/publications/privacy-fundamental-right-parliament-hindustan-times/){: .btn}
-
-### 2018
-- *"Fixing Aadhaar: Security Developers' Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
-  [Read here](/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/){: .btn}
-
-- *"Data Protection: We Can Innovate, Leapfrog"* — *Deccan Herald*, 2018.  
-  [Read here](/publications/data-protection-we-can-innovate-leapfrog/){: .btn}
-
-- *"Why NPCI and Facebook Need Urgent Regulatory Attention"* — *Economic Times*, 2018.  
-  [Read here](/publications/why-npci-and-facebook-need-urgent-regulatory-attention/){: .btn}
-
-- *"Lining Up the Data on the Srikrishna Privacy Draft Bill"* — *Economic Times*, 2018.  
-  [Read here](/publications/lining-up-the-data-on-the-srikrishna-privacy-draft-bill/){: .btn}
-
-- *"Spreading Unhappiness Equally Around"* — *Business Standard*, 2018.  
-  [Read here](/publications/spreading-unhappiness-equally-around/){: .btn}
-
-- *"Cambridge Analytica Scandal: How India Can Save Democracy from Facebook"* — *Business Standard / Global Reposts*, 2018.  
-  [Read here](/publications/cambridge-analytica-scandal/){: .btn}
-
-- *"A Trust Deficit Between Advertisers and Publishers Is Leading to Fake News"* — *Hindustan Times*, 2018.  
-  [Read here](/publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news){: .btn}
-
-- *"Analysis of ICANN Revenue Shows Ambiguity in Their Records: Financials from 2012–2016"* — *CIS Blog*, 2018.  
-  [Read online](https://cis-india.org/internet-governance/blog/analysis-of-icann-financials-from-2012-2016)
-
-### 2019
-- *"A Scanner Darkly"* — *Mumbai Mirror*, 2019.  
-  [Read here](/publications/a-scanner-darkly-mumbai-mirror/){: .btn}
-
-- *"Registering for Aadhaar in 2019"* — *Business Standard*, 2019.  
-  [Read here](/publications/registering-for-aadhaar-in-2019/){: .btn}
-
-- *"Intermediary Liability Law Needs Updating"* — *Business Standard*, 2019.  
-  [Read here](/publications/intermediary-liability-law-needs-updating/){: .btn}
-
-- *"Linking Aadhaar with Social Media or Ending Encryption Is Counterproductive"* — *Prime Time*, 2019.  
-  [Read here](/publications/linking-aadhaar-social-media-encryption/){: .btn}
-
-- *"When Governments Tag You on Social Media"* — *Business Standard*, 2019.  
-  [Read here](/publications/when-governments-tag-you-on-social-media/){: .btn}
-
+<div class="media-controls">
+  <input
+    type="search"
+    id="media-search"
+    placeholder="Search titles or sources…"
+    aria-label="Search media articles"
+  >
+
+  <div class="sort-controls">
+    <button data-sort="date_desc">Newest First</button>
+    <button data-sort="date_asc">Oldest First</button>
+    <button data-sort="alpha">Alphabetical</button>
+  </div>
+
+  <div id="media-count" class="media-count"></div>
+</div>
+
+{% comment %}
+Collect media article pages
+{% endcomment %}
+{% assign article_list = site.pages
+     | where_exp: "p", "p.categories contains 'Media articles'"
+%}
+
+<ol id="media-list">
+{% for page in article_list %}
+  <li
+    data-title="{{ page.title | downcase }}"
+    data-source="{{ page.source | downcase }}"
+    data-date="{{ page.date | date: '%Y-%m-%d' }}"
+  >
+    <a href="{{ page.url | relative_url }}">{{ page.title }}</a><br>
+    <span class="meta">
+      {{ page.source }} • {{ page.date | date: "%-d %B %Y" }}
+    </span>
+  </li>
+{% endfor %}
+</ol>
 
 ### Needs to be relocated
 - *"Availability and Accessibility of Government Information in the Public Domain"* — *CIS Policy Brief*.  
@@ -458,3 +282,131 @@ His talks often focus on openness, ethics, and governance in digital systems.
 -   [Authors directory](/publications/authors), highlights authors who have collaborated with Sunil Abraham on various publications featured within this project
 -   [Media directory](/publications/media), a directory of the newspaper or media outlet where they appeared
 
+<style>
+.media-controls {
+  margin: 1rem 0 1.4rem 0;
+}
+
+#media-search {
+  width: 100%;
+  max-width: 420px;
+  padding: 0.55rem 0.7rem;
+  margin-bottom: 0.7rem;
+  border: 1px solid #cdd7e5;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+#media-search:focus {
+  outline: 2px solid #3278d6;
+  outline-offset: 2px;
+}
+
+.sort-controls {
+  margin-bottom: 0.4rem;
+}
+
+.sort-controls button {
+  background: #eef3fa;
+  border: 1px solid #cdd7e5;
+  padding: 0.45rem 0.85rem;
+  margin-right: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.sort-controls button:hover {
+  background: #dbe6f5;
+}
+
+.sort-controls button.active-sort {
+  background: #3278d6;
+  color: #fff;
+  border-color: #3278d6;
+}
+
+.media-count {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.2rem;
+}
+
+#media-list li {
+  margin-bottom: 0.9rem;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #555;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const list = document.getElementById('media-list');
+  const items = Array.from(list.querySelectorAll('li'));
+  const searchInput = document.getElementById('media-search');
+  const buttons = document.querySelectorAll('.sort-controls button');
+  const countBox = document.getElementById('media-count');
+
+  let currentSort = localStorage.getItem('mediaSort') || 'date_desc';
+
+  function updateCount(visibleItems) {
+    countBox.textContent = `Showing ${visibleItems} of ${items.length} articles`;
+  }
+
+  function applySearch() {
+    const query = searchInput.value.toLowerCase();
+    let visible = 0;
+
+    items.forEach(li => {
+      const text = li.dataset.title + ' ' + li.dataset.source;
+      const match = text.includes(query);
+      li.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+
+    updateCount(visible);
+  }
+
+  function sortList(type) {
+    let sorted = [...items];
+
+    if (type === 'alpha') {
+      sorted.sort((a, b) =>
+        a.dataset.title.localeCompare(b.dataset.title)
+      );
+    } else if (type === 'date_asc') {
+      sorted.sort((a, b) =>
+        a.dataset.date.localeCompare(b.dataset.date)
+      );
+    } else {
+      sorted.sort((a, b) =>
+        b.dataset.date.localeCompare(a.dataset.date)
+      );
+    }
+
+    list.innerHTML = '';
+    sorted.forEach(li => list.appendChild(li));
+
+    buttons.forEach(btn => btn.classList.remove('active-sort'));
+    document.querySelector(`[data-sort="${type}"]`).classList.add('active-sort');
+
+    localStorage.setItem('mediaSort', type);
+    applySearch();
+  }
+
+  // Initial state
+  sortList(currentSort);
+  updateCount(items.length);
+
+  // Events
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      sortList(btn.dataset.sort);
+    });
+  });
+
+  searchInput.addEventListener('input', applySearch);
+});
+</script>
