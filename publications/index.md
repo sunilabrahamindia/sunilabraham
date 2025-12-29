@@ -356,6 +356,9 @@ Sunil Abraham has written widely for both Indian and international media, contri
 - *"It's the Technology, Stupid"* — *The Hindu Business Line*, 2017.  
   [Read here](/publications/its-the-technology-stupid/){: .btn}
 
+- *"Now That Privacy Is a Fundamental Right, Parliament Must Define Contours of SC Ruling"* — *Hindustan Times*, 2017.  
+  [Read here](/publications/privacy-fundamental-right-parliament-hindustan-times/){: .btn}
+
 ### 2018
 - *"Fixing Aadhaar: Security Developers' Task Is to Trim Chances of Data Breach"* — *Business Standard*, 2018.  
   [Read here](/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/){: .btn}
