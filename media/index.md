@@ -38,22 +38,44 @@ Collect media pages
 {% assign media_list = site.pages
      | where_exp: "p", "p.path contains 'media/'"
      | where_exp: "p", "p.path != 'media/index.md'"
+     | sort: "date"
+     | reverse
 %}
 
-<ol id="media-list">
+<div id="media-container">
+{% assign current_year = "" %}
 {% for page in media_list %}
-  <li
-    data-title="{{ page.title | downcase }}"
-    data-source="{{ page.source | downcase }}"
-    data-date="{{ page.date | date: '%Y-%m-%d' }}"
-  >
-    <a href="{{ page.url | relative_url }}">{{ page.title }}</a><br>
-    <span class="meta">
-      {{ page.source }} • {{ page.date | date: "%-d %B %Y" }}
-    </span>
-  </li>
+  {% assign page_year = page.date | date: "%Y" %}
+
+  {% if page_year != current_year %}
+    {% unless forloop.first %}
+      </ol>
+    </div>
+    {% endunless %}
+
+    <div class="year-group" data-year="{{ page_year }}">
+      <button class="year-toggle" aria-expanded="true">
+        {{ page_year }}
+      </button>
+      <ol class="media-list">
+    {% assign current_year = page_year %}
+  {% endif %}
+
+    <li
+      data-title="{{ page.title | downcase }}"
+      data-source="{{ page.source | downcase }}"
+      data-date="{{ page.date | date: '%Y-%m-%d' }}"
+    >
+      <a href="{{ page.url | relative_url }}">{{ page.title }}</a><br>
+      <span class="meta">
+        {{ page.source }} • {{ page.date | date: "%-d %B %Y" }}
+      </span>
+    </li>
+
 {% endfor %}
-</ol>
+      </ol>
+    </div>
+</div>
 
 ## See also
 - [Clusters](/clusters), thematic groupings that bring together related pieces of writing or coverage
@@ -108,8 +130,27 @@ Collect media pages
   margin-top: 0.2rem;
 }
 
-#media-list li {
-  margin-bottom: 0.9rem;
+.year-group {
+  margin-bottom: 1.4rem;
+}
+
+.year-toggle {
+  background: none;
+  border: none;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 0;
+  cursor: pointer;
+  margin-bottom: 0.4rem;
+}
+
+.year-toggle:focus {
+  outline: 2px solid #3278d6;
+  outline-offset: 2px;
+}
+
+.media-list li {
+  margin-bottom: 0.85rem;
 }
 
 .meta {
@@ -120,68 +161,90 @@ Collect media pages
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  const list = document.getElementById('media-list');
-  const items = Array.from(list.querySelectorAll('li'));
   const searchInput = document.getElementById('media-search');
-  const buttons = document.querySelectorAll('.sort-controls button');
   const countBox = document.getElementById('media-count');
+  const sortButtons = document.querySelectorAll('.sort-controls button');
+  const yearGroups = Array.from(document.querySelectorAll('.year-group'));
 
   let currentSort = localStorage.getItem('mediaSort') || 'date_desc';
 
-  function updateCount(visibleItems) {
-    countBox.textContent = `Showing ${visibleItems} of ${items.length} articles`;
+  function getAllItems() {
+    return Array.from(document.querySelectorAll('.media-list li'));
+  }
+
+  function updateCount() {
+    const visible = getAllItems().filter(li => li.style.display !== 'none').length;
+    countBox.textContent = `Showing ${visible} articles`;
   }
 
   function applySearch() {
     const query = searchInput.value.toLowerCase();
-    let visible = 0;
 
-    items.forEach(li => {
-      const text =
-        li.dataset.title + ' ' + li.dataset.source;
-      const match = text.includes(query);
-      li.style.display = match ? '' : 'none';
-      if (match) visible++;
+    yearGroups.forEach(group => {
+      let groupVisible = false;
+      const items = group.querySelectorAll('li');
+
+      items.forEach(li => {
+        const text = li.dataset.title + ' ' + li.dataset.source;
+        const match = text.includes(query);
+        li.style.display = match ? '' : 'none';
+        if (match) groupVisible = true;
+      });
+
+      group.style.display = groupVisible ? '' : 'none';
     });
 
-    updateCount(visible);
+    updateCount();
   }
 
-  function sortList(type) {
-    let sorted = [...items];
+  function sortWithinYears(type) {
+    yearGroups.forEach(group => {
+      const list = group.querySelector('.media-list');
+      const items = Array.from(list.querySelectorAll('li'));
 
-    if (type === 'alpha') {
-      sorted.sort((a, b) =>
-        a.dataset.title.localeCompare(b.dataset.title)
-      );
-    } else if (type === 'date_asc') {
-      sorted.sort((a, b) =>
-        a.dataset.date.localeCompare(b.dataset.date)
-      );
-    } else {
-      sorted.sort((a, b) =>
-        b.dataset.date.localeCompare(a.dataset.date)
-      );
-    }
+      let sorted = [...items];
 
-    list.innerHTML = '';
-    sorted.forEach(li => list.appendChild(li));
+      if (type === 'alpha') {
+        sorted.sort((a, b) =>
+          a.dataset.title.localeCompare(b.dataset.title)
+        );
+      } else if (type === 'date_asc') {
+        sorted.sort((a, b) =>
+          a.dataset.date.localeCompare(b.dataset.date)
+        );
+      } else {
+        sorted.sort((a, b) =>
+          b.dataset.date.localeCompare(a.dataset.date)
+        );
+      }
 
-    buttons.forEach(btn => btn.classList.remove('active-sort'));
+      list.innerHTML = '';
+      sorted.forEach(li => list.appendChild(li));
+    });
+
+    sortButtons.forEach(btn => btn.classList.remove('active-sort'));
     document.querySelector(`[data-sort="${type}"]`).classList.add('active-sort');
-
     localStorage.setItem('mediaSort', type);
-    applySearch();
   }
+
+  // Year toggle behaviour
+  document.querySelectorAll('.year-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const list = btn.nextElementSibling;
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', !expanded);
+      list.style.display = expanded ? 'none' : '';
+    });
+  });
 
   // Initial state
-  sortList(currentSort);
-  updateCount(items.length);
+  sortWithinYears(currentSort);
+  updateCount();
 
   // Events
-  buttons.forEach(btn => {
+  sortButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      sortList(btn.dataset.sort);
+      sortWithinYears(btn.dataset.sort);
     });
   });
 
