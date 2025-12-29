@@ -7,7 +7,6 @@ categories: [A. M. A. Ayrookuzhiel, Portals, Project pages]
 description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrookuzhiel, bringing together his biography, writings, research contributions, and related materials.
 created: 2025-11-19
 ---
-{% include under-construction.html %}
 
 <div class="amaa-banner">
   <img 
