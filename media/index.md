@@ -13,28 +13,44 @@ To keep the site organised, all media-related material is stored inside the **`/
 
 ## List
 
-### Sort by:
-<div class="sort-controls">
-  <button data-sort="year_desc">Newest First</button>
-  <button data-sort="year_asc">Oldest First</button>
-  <button data-sort="alpha">Alphabetical</button>
+### Search and sort
+
+<div class="media-controls">
+  <input
+    type="search"
+    id="media-search"
+    placeholder="Search titles or sources…"
+    aria-label="Search media mentions"
+  >
+
+  <div class="sort-controls">
+    <button data-sort="date_desc">Newest First</button>
+    <button data-sort="date_asc">Oldest First</button>
+    <button data-sort="alpha">Alphabetical</button>
+  </div>
+
+  <div id="media-count" class="media-count"></div>
 </div>
 
 {% comment %}
 Collect media pages
 {% endcomment %}
-{% assign media_list = site.pages 
-     | where_exp: "p", "p.path contains 'media/'" 
-     | where_exp: "p", "p.path != 'media/index.md'" 
+{% assign media_list = site.pages
+     | where_exp: "p", "p.path contains 'media/'"
+     | where_exp: "p", "p.path != 'media/index.md'"
 %}
 
 <ol id="media-list">
 {% for page in media_list %}
-  <li data-title="{{ page.title | downcase }}"
-      data-year="{{ page.date | date: '%Y' }}">
-    <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-    <br>
-    <span class="meta">{{ page.source }} • {{ page.date | date: "%Y" }}</span>
+  <li
+    data-title="{{ page.title | downcase }}"
+    data-source="{{ page.source | downcase }}"
+    data-date="{{ page.date | date: '%Y-%m-%d' }}"
+  >
+    <a href="{{ page.url | relative_url }}">{{ page.title }}</a><br>
+    <span class="meta">
+      {{ page.source }} • {{ page.date | date: "%-d %B %Y" }}
+    </span>
   </li>
 {% endfor %}
 </ol>
@@ -42,11 +58,30 @@ Collect media pages
 ## See also
 - [Clusters](/clusters), thematic groupings that bring together related pieces of writing or coverage
 
-
 <style>
-.sort-controls {
-  margin: 0.8rem 0 1.2rem 0;
+.media-controls {
+  margin: 1rem 0 1.4rem 0;
 }
+
+#media-search {
+  width: 100%;
+  max-width: 420px;
+  padding: 0.55rem 0.7rem;
+  margin-bottom: 0.7rem;
+  border: 1px solid #cdd7e5;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+#media-search:focus {
+  outline: 2px solid #3278d6;
+  outline-offset: 2px;
+}
+
+.sort-controls {
+  margin-bottom: 0.4rem;
+}
+
 .sort-controls button {
   background: #eef3fa;
   border: 1px solid #cdd7e5;
@@ -55,22 +90,31 @@ Collect media pages
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.9rem;
-  transition: background 0.2s ease;
 }
+
 .sort-controls button:hover {
   background: #dbe6f5;
 }
+
 .sort-controls button.active-sort {
   background: #3278d6;
   color: #fff;
   border-color: #3278d6;
 }
+
+.media-count {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.2rem;
+}
+
+#media-list li {
+  margin-bottom: 0.9rem;
+}
+
 .meta {
   font-size: 0.9rem;
   color: #555;
-}
-#media-list li {
-  margin-bottom: 0.8rem;
 }
 </style>
 
@@ -78,7 +122,30 @@ Collect media pages
 document.addEventListener('DOMContentLoaded', () => {
   const list = document.getElementById('media-list');
   const items = Array.from(list.querySelectorAll('li'));
+  const searchInput = document.getElementById('media-search');
   const buttons = document.querySelectorAll('.sort-controls button');
+  const countBox = document.getElementById('media-count');
+
+  let currentSort = localStorage.getItem('mediaSort') || 'date_desc';
+
+  function updateCount(visibleItems) {
+    countBox.textContent = `Showing ${visibleItems} of ${items.length} articles`;
+  }
+
+  function applySearch() {
+    const query = searchInput.value.toLowerCase();
+    let visible = 0;
+
+    items.forEach(li => {
+      const text =
+        li.dataset.title + ' ' + li.dataset.source;
+      const match = text.includes(query);
+      li.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+
+    updateCount(visible);
+  }
 
   function sortList(type) {
     let sorted = [...items];
@@ -87,13 +154,13 @@ document.addEventListener('DOMContentLoaded', () => {
       sorted.sort((a, b) =>
         a.dataset.title.localeCompare(b.dataset.title)
       );
-    } else if (type === 'year_asc') {
+    } else if (type === 'date_asc') {
       sorted.sort((a, b) =>
-        a.dataset.year.localeCompare(b.dataset.year)
+        a.dataset.date.localeCompare(b.dataset.date)
       );
     } else {
       sorted.sort((a, b) =>
-        b.dataset.year.localeCompare(a.dataset.year)
+        b.dataset.date.localeCompare(a.dataset.date)
       );
     }
 
@@ -102,16 +169,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buttons.forEach(btn => btn.classList.remove('active-sort'));
     document.querySelector(`[data-sort="${type}"]`).classList.add('active-sort');
+
+    localStorage.setItem('mediaSort', type);
+    applySearch();
   }
 
-  // Default sort: newest first
-  sortList('year_desc');
+  // Initial state
+  sortList(currentSort);
+  updateCount(items.length);
 
-  // Add click handlers
+  // Events
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       sortList(btn.dataset.sort);
     });
   });
+
+  searchInput.addEventListener('input', applySearch);
 });
 </script>
