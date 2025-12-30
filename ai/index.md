@@ -28,15 +28,6 @@ In addition to archival material, the portal will gradually include project note
 
 As the collection grows, this portal will function both as an index to existing material and as a living workspace for future thinking on Artificial Intelligence within the wider Sunil Abraham Project.
 
-<div class="ai-portrait-container">
-  <img 
-    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/ai/sunil-abraham-ai-portal.png" 
-    alt="Portrait of Sunil Abraham in the style of Van Gogh's Starry Night, featuring swirling blue and yellow brushstrokes depicting a thoughtful figure against a cosmic backdrop of stars and celestial patterns" 
-    class="ai-portrait-image"
-    loading="lazy"
-  />
-</div>
-
 <nav class="ai-toc">
   <h2>Contents</h2>
   <div class="ai-toc-grid">
@@ -62,6 +53,15 @@ As the collection grows, this portal will function both as an index to existing 
     </a>
   </div>
 </nav>
+
+<div class="ai-portrait-container">
+  <img 
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/ai/sunil-abraham-ai-portal.png" 
+    alt="Portrait of Sunil Abraham in the style of Van Gogh's Starry Night, featuring swirling blue and yellow brushstrokes depicting a thoughtful figure against a cosmic backdrop of stars and celestial patterns" 
+    class="ai-portrait-image"
+    loading="lazy"
+  />
+</div>
 
 ## Policy Frameworks and Regulatory Approaches
 {: #policy-frameworks}
