@@ -80,29 +80,37 @@ As the collection grows, this portal will function both as an index to existing 
 <div class="ai-social-grid" id="socialGrid">
   <div class="ai-social-card" data-date="2024-03-31">
     <div class="ai-social-date">31 March 2024</div>
-    <blockquote class="twitter-tweet">
-      <a href="https://x.com/sunil_abraham/status/1774632919245656224"></a>
+    <blockquote class="twitter-tweet" data-theme="light">
+      <p lang="en" dir="ltr">
+        <a href="https://twitter.com/sunil_abraham/status/1774632919245656224?ref_src=twsrc%5Etfw"></a>
+      </p>
     </blockquote>
   </div>
 
   <div class="ai-social-card" data-date="2024-01-15">
     <div class="ai-social-date">15 January 2024</div>
-    <blockquote class="twitter-tweet">
-      <a href="https://x.com/sunil_abraham/status/1746873325094379745"></a>
+    <blockquote class="twitter-tweet" data-theme="light">
+      <p lang="en" dir="ltr">
+        <a href="https://twitter.com/sunil_abraham/status/1746873325094379745?ref_src=twsrc%5Etfw"></a>
+      </p>
     </blockquote>
   </div>
 
   <div class="ai-social-card" data-date="2023-10-16">
     <div class="ai-social-date">16 October 2023</div>
-    <blockquote class="twitter-tweet">
-      <a href="https://x.com/sunil_abraham/status/1713958345777004695"></a>
+    <blockquote class="twitter-tweet" data-theme="light">
+      <p lang="en" dir="ltr">
+        <a href="https://twitter.com/sunil_abraham/status/1713958345777004695?ref_src=twsrc%5Etfw"></a>
+      </p>
     </blockquote>
   </div>
 
   <div class="ai-social-card" data-date="2017-12-07">
     <div class="ai-social-date">7 December 2017</div>
-    <blockquote class="twitter-tweet">
-      <a href="https://x.com/sunil_abraham/status/938850139610923008"></a>
+    <blockquote class="twitter-tweet" data-theme="light">
+      <p lang="en" dir="ltr">
+        <a href="https://twitter.com/sunil_abraham/status/938850139610923008?ref_src=twsrc%5Etfw"></a>
+      </p>
     </blockquote>
   </div>
 </div>
