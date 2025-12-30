@@ -71,8 +71,9 @@ As the collection grows, this portal will function both as an index to existing 
   <div class="ai-card-marker">◆</div>
   <div class="ai-card-content">
     <h3>Banking on Artificial Intelligence: In Hiring Drive, Bots Are Calling the Shots Now</h3>
+    <p class="ai-card-year">2019</p>
     <p>
-      Examines the use of algorithmic video interview systems by Indian banks and financial institutions. The coverage raises concerns about facial recognition bias, emotional homogenisation, and the lack of transparency in automated hiring decisions.
+      A report published in The Economic Times on 4 June 2019 by Anjali Venugopalan documenting how major Indian employers deploy AI-powered video assessment platforms to analyze candidates' facial expressions, voice tone and emotional states during recruitment. Features Sunil Abraham's critique of algorithmic homogenization alongside evidence of racial bias in facial recognition technology from MIT researcher Joy Buolamwini.
     </p>
     <a href="/media/banking-on-artificial-intelligence-in-hiring-drive-bots-are-calling-the-shots-now//" class="ai-card-link">Read more →</a>
   </div>
@@ -82,8 +83,9 @@ As the collection grows, this portal will function both as an index to existing 
   <div class="ai-card-marker">◆</div>
   <div class="ai-card-content">
     <h3>Building Intentional AI for India</h3>
+    <p class="ai-card-year">2025</p>
     <p>
-      Explores approaches to developing inclusive AI systems that address India's specific social and economic contexts. The piece draws on insights from the Pragati: AI for Impact convening, examining how intentional design choices can shape outcomes in agriculture, healthcare, and public services.
+      A Hindustan Times Genesis article published on 18 September 2025 examining how artificial intelligence can be deliberately designed to serve India's underserved communities. Draws on discussions from the Pragati: AI for Impact convening held in Delhi, exploring India's strategy of combining openness, affordability and inclusivity in AI development, with examples of grassroots AI applications transforming access to justice, healthcare and livelihoods.
     </p>
     <a href="/media/building-intentional-ai-for-india-hindustan-times/" class="ai-card-link">Read more →</a>
   </div>
@@ -361,20 +363,49 @@ document.addEventListener('DOMContentLoaded', () => {
 .ai-toc {
   max-width: 800px;
   margin: 2rem auto 3rem;
-  padding: 1.5rem 2rem;
-  background: linear-gradient(135deg, #ffffff 0%, #f8f9fb 100%);
-  border: 1px solid rgba(100, 200, 255, 0.2);
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 2rem 2.5rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+  border: 2px solid rgba(100, 200, 255, 0.3);
+  border-radius: 12px;
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.08),
+    0 8px 24px rgba(100, 200, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.ai-toc::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #64c8ff, #3ba5ff, #64c8ff);
+  background-size: 200% 100%;
+  animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
 
 .ai-toc-title {
-  margin: 0 0 1rem 0;
-  font-size: 1.1rem;
-  font-weight: 600;
+  margin: 0 0 1.2rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: #1a2332;
-  border-bottom: 2px solid rgba(100, 200, 255, 0.3);
-  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(100, 200, 255, 0.4);
+  padding-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ai-toc-title::before {
+  content: '📑';
+  font-size: 1.3rem;
 }
 
 .ai-toc-list {
@@ -384,25 +415,59 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 .ai-toc-list li {
-  margin: 0.6rem 0;
+  margin: 0.8rem 0;
+  position: relative;
+}
+
+.ai-toc-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #64c8ff;
+  font-size: 1rem;
+  transition: all 0.2s ease;
 }
 
 .ai-toc-list a {
   display: block;
-  padding: 0.5rem 0.8rem;
-  color: #3ba5ff;
+  padding: 0.7rem 1rem 0.7rem 1.8rem;
+  color: #2d7db3;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   font-weight: 500;
   border-left: 3px solid transparent;
-  transition: all 0.2s ease;
+  border-radius: 6px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  background: transparent;
 }
 
 .ai-toc-list a:hover {
-  color: #2d8cdb;
-  background: rgba(100, 200, 255, 0.05);
+  color: #1a5c8a;
+  background: rgba(100, 200, 255, 0.12);
   border-left-color: #64c8ff;
-  padding-left: 1.2rem;
+  padding-left: 2rem;
+  box-shadow: 0 2px 8px rgba(100, 200, 255, 0.15);
+}
+
+.ai-toc-list li:hover::before {
+  left: 0.3rem;
+  color: #3ba5ff;
+}
+
+/* Mobile TOC */
+@media (max-width: 768px) {
+  .ai-toc {
+    margin: 1.5rem 1rem 2rem;
+    padding: 1.5rem 1.8rem;
+  }
+  
+  .ai-toc-title {
+    font-size: 1.1rem;
+  }
+  
+  .ai-toc-list a {
+    font-size: 0.92rem;
+  }
 }
   
 /* Content Cards */
