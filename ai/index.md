@@ -79,13 +79,53 @@ As the collection grows, this portal will function both as an index to existing 
 
 ## Videos
 
+<div class="ai-video-intro">
+  <p>Selected video recordings featuring Sunil Abraham as a speaker, panelist, or discussant on artificial intelligence, governance, and technology policy.</p>
+</div>
+
 <div class="ai-video-section">
+  <div class="ai-video-card">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/DEcezcXi7qs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>Regulating AI Beyond the Hype: Evidence, Equity, and Policy Priorities for the Asia-Pacific</strong> • 13 October 2025
+    </div>
+  </div>
+
+  <div class="ai-video-card">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/D-WLoQyqjSc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>India's AI Summit: The Road Ahead | Shaping Global AI Governance | GTS 2025</strong> • 14 April 2025
+    </div>
+  </div>
+
+  <div class="ai-video-card">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/SQTRporjNQ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>Panel: The Evolving AI Landscape: Risks and Responsibilities</strong> • 11 December 2023
+    </div>
+  </div>
+
   <div class="ai-video-card">
     <div class="ai-video-wrapper">
       <iframe src="https://www.youtube.com/embed/NgQBAxsyAcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="ai-video-caption">
       <strong>Regulatory Challenges for Artificial Intelligence</strong> • 27 September 2019
+    </div>
+  </div>
+
+  <div class="ai-video-card">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/RFd4sCSZwM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>Data use models and data protection — Sunil Abraham</strong> • 12 February 2018
     </div>
   </div>
 </div>
@@ -393,6 +433,23 @@ document.addEventListener('DOMContentLoaded', () => {
 .ai-video-caption strong {
   color: #1a2332;
   font-weight: 600;
+}
+
+  .ai-video-intro {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 1rem 1.5rem;
+  background: rgba(100, 200, 255, 0.04);
+  border-left: 3px solid rgba(100, 200, 255, 0.3);
+  border-radius: 6px;
+}
+
+.ai-video-intro p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #4a5568;
+  font-style: italic;
 }
 
 /* Social Media Section */
