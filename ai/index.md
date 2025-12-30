@@ -283,12 +283,27 @@ document.addEventListener('DOMContentLoaded', () => {
   background: #64c8ff;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(100, 200, 255, 0.8);
-  animation: pulse 2s ease-in-out infinite;
+  animation: pulse 2s ease-in-out infinite, colorChange 6s ease-in-out infinite;
 }
 
 @keyframes pulse {
   0%, 100% { opacity: 1; transform: translateX(-50%) scale(1); }
   50% { opacity: 0.5; transform: translateX(-50%) scale(1.5); }
+}
+
+@keyframes colorChange {
+  0%, 100% { 
+    background: #64c8ff; 
+    box-shadow: 0 0 20px rgba(100, 200, 255, 0.8);
+  }
+  33% { 
+    background: #ff64c8; 
+    box-shadow: 0 0 20px rgba(255, 100, 200, 0.8);
+  }
+  66% { 
+    background: #c864ff; 
+    box-shadow: 0 0 20px rgba(200, 100, 255, 0.8);
+  }
 }
 
 /* Content Cards */
@@ -391,6 +406,8 @@ document.addEventListener('DOMContentLoaded', () => {
 .ai-video-section {
   max-width: 800px;
   margin: 2rem auto 3rem;
+  display: grid;
+  gap: 2rem;
 }
 
 .ai-video-card {
