@@ -77,6 +77,19 @@ As the collection grows, this portal will function both as an index to existing 
   </div>
 </div>
 
+## Videos
+
+<div class="ai-video-section">
+  <div class="ai-video-card">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/NgQBAxsyAcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>Regulatory Challenges for Artificial Intelligence</strong> • 27 September 2019
+    </div>
+  </div>
+</div>
+
 ## Conversations on 𝕏
 
 <div class="ai-social-intro">
@@ -91,38 +104,46 @@ As the collection grows, this portal will function both as an index to existing 
 <div class="ai-social-grid" id="socialGrid">
   <div class="ai-social-card" data-date="2024-03-31">
     <div class="ai-social-date">31 March 2024</div>
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">
-        <a href="https://twitter.com/sunil_abraham/status/1774632919245656224?ref_src=twsrc%5Etfw"></a>
-      </p>
-    </blockquote>
+    <div class="ai-tweet-center">
+      <blockquote class="twitter-tweet" data-theme="light">
+        <p lang="en" dir="ltr">
+          <a href="https://twitter.com/sunil_abraham/status/1774632919245656224?ref_src=twsrc%5Etfw"></a>
+        </p>
+      </blockquote>
+    </div>
   </div>
 
   <div class="ai-social-card" data-date="2024-01-15">
     <div class="ai-social-date">15 January 2024</div>
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">
-        <a href="https://twitter.com/sunil_abraham/status/1746873325094379745?ref_src=twsrc%5Etfw"></a>
-      </p>
-    </blockquote>
+    <div class="ai-tweet-center">
+      <blockquote class="twitter-tweet" data-theme="light">
+        <p lang="en" dir="ltr">
+          <a href="https://twitter.com/sunil_abraham/status/1746873325094379745?ref_src=twsrc%5Etfw"></a>
+        </p>
+      </blockquote>
+    </div>
   </div>
 
   <div class="ai-social-card" data-date="2023-10-16">
     <div class="ai-social-date">16 October 2023</div>
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">
-        <a href="https://twitter.com/sunil_abraham/status/1713958345777004695?ref_src=twsrc%5Etfw"></a>
-      </p>
-    </blockquote>
+    <div class="ai-tweet-center">
+      <blockquote class="twitter-tweet" data-theme="light">
+        <p lang="en" dir="ltr">
+          <a href="https://twitter.com/sunil_abraham/status/1713958345777004695?ref_src=twsrc%5Etfw"></a>
+        </p>
+      </blockquote>
+    </div>
   </div>
 
   <div class="ai-social-card" data-date="2017-12-07">
     <div class="ai-social-date">7 December 2017</div>
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">
-        <a href="https://twitter.com/sunil_abraham/status/938850139610923008?ref_src=twsrc%5Etfw"></a>
-      </p>
-    </blockquote>
+    <div class="ai-tweet-center">
+      <blockquote class="twitter-tweet" data-theme="light">
+        <p lang="en" dir="ltr">
+          <a href="https://twitter.com/sunil_abraham/status/938850139610923008?ref_src=twsrc%5Etfw"></a>
+        </p>
+      </blockquote>
+    </div>
   </div>
 </div>
 
@@ -133,7 +154,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const grid = document.getElementById('socialGrid');
   const sortButtons = document.querySelectorAll('.ai-sort-btn');
   
-  // Sorting functionality
   sortButtons.forEach(btn => {
     btn.addEventListener('click', () => {
       sortButtons.forEach(b => b.classList.remove('active'));
@@ -151,21 +171,6 @@ document.addEventListener('DOMContentLoaded', () => {
       cards.forEach(card => grid.appendChild(card));
     });
   });
-  
-  // Force Twitter embeds to full width
-  function resizeTwitterEmbeds() {
-    const twitterIframes = document.querySelectorAll('.ai-social-card iframe');
-    twitterIframes.forEach(iframe => {
-      const container = iframe.closest('.ai-social-card');
-      if (container) {
-        const containerWidth = container.offsetWidth - 48;
-        iframe.style.width = containerWidth + 'px';
-      }
-    });
-  }
-  
-  setTimeout(resizeTwitterEmbeds, 2000);
-  window.addEventListener('resize', resizeTwitterEmbeds);
 });
 </script>
 
@@ -342,6 +347,54 @@ document.addEventListener('DOMContentLoaded', () => {
   width: 100%;
 }
 
+/* Video Section */
+.ai-video-section {
+  max-width: 800px;
+  margin: 2rem auto 3rem;
+}
+
+.ai-video-card {
+  background: #ffffff;
+  border: 1px solid rgba(100, 200, 255, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.ai-video-card:hover {
+  box-shadow: 0 4px 20px rgba(100, 200, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+.ai-video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.ai-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ai-video-caption {
+  padding: 1.2rem 1.5rem;
+  font-size: 0.95rem;
+  color: #4a5568;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fb 100%);
+  border-top: 1px solid rgba(100, 200, 255, 0.1);
+}
+
+.ai-video-caption strong {
+  color: #1a2332;
+  font-weight: 600;
+}
+
 /* Social Media Section */
 .ai-social-intro {
   max-width: 800px;
@@ -408,7 +461,6 @@ document.addEventListener('DOMContentLoaded', () => {
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
-  overflow: hidden;
 }
 
 .ai-social-card:hover {
@@ -427,12 +479,14 @@ document.addEventListener('DOMContentLoaded', () => {
   letter-spacing: 0.02em;
 }
 
-.ai-social-card .twitter-tweet {
-  margin: 0 !important;
+.ai-tweet-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.ai-social-card iframe {
-  max-width: none !important;
+.ai-tweet-center .twitter-tweet {
+  margin: 0 !important;
 }
 
 /* Responsive Design */
@@ -463,7 +517,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
   .ai-social-intro,
   .ai-sort-controls,
-  .ai-social-grid {
+  .ai-social-grid,
+  .ai-video-section {
     margin-left: 1rem;
     margin-right: 1rem;
   }
