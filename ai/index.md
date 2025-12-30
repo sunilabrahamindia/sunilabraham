@@ -26,8 +26,19 @@ In addition to archival material, the portal will gradually include project note
 
 As the collection grows, this portal will function both as an index to existing material and as a living workspace for future thinking on Artificial Intelligence within the wider Sunil Abraham Project.
 
+<nav class="ai-toc">
+  <h2 class="ai-toc-title">Contents</h2>
+  <ul class="ai-toc-list">
+    <li><a href="#policy-frameworks">Policy Frameworks and Regulatory Approaches</a></li>
+    <li><a href="#media-commentary">Media Commentary and Public Discourse</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
+    <li><a href="#conversations">Conversations on 𝕏</a></li>
+  </ul>
+</nav>
 
 ## Policy Frameworks and Regulatory Approaches
+{: #policy-frameworks}
 
 <div class="ai-content-card">
   <div class="ai-card-marker">◆</div>
@@ -54,6 +65,7 @@ As the collection grows, this portal will function both as an index to existing 
 </div>
 
 ## Media Commentary and Public Discourse
+{: #media-commentary}
 
 <div class="ai-content-card">
   <div class="ai-card-marker">◆</div>
@@ -78,13 +90,22 @@ As the collection grows, this portal will function both as an index to existing 
 </div>
 
 ## Videos
+{: #videos}
 
 <div class="ai-video-intro">
   <p>Selected video recordings featuring Sunil Abraham as a speaker, panelist, or discussant on artificial intelligence, governance, and technology policy.</p>
 </div>
 
-<div class="ai-video-section">
-  <div class="ai-video-card">
+<div class="ai-timeline-controls">
+  <button class="ai-timeline-btn active" data-year="all">All Years</button>
+  <button class="ai-timeline-btn" data-year="2025">2025</button>
+  <button class="ai-timeline-btn" data-year="2023">2023</button>
+  <button class="ai-timeline-btn" data-year="2019">2019</button>
+  <button class="ai-timeline-btn" data-year="2018">2018</button>
+</div>
+
+<div class="ai-video-section" id="videoGrid">
+  <div class="ai-video-card" data-year="2025">
     <div class="ai-video-wrapper">
       <iframe src="https://www.youtube.com/embed/DEcezcXi7qs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -93,7 +114,7 @@ As the collection grows, this portal will function both as an index to existing 
     </div>
   </div>
 
-  <div class="ai-video-card">
+  <div class="ai-video-card" data-year="2025">
     <div class="ai-video-wrapper">
       <iframe src="https://www.youtube.com/embed/D-WLoQyqjSc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -102,7 +123,7 @@ As the collection grows, this portal will function both as an index to existing 
     </div>
   </div>
 
-  <div class="ai-video-card">
+  <div class="ai-video-card" data-year="2023">
     <div class="ai-video-wrapper">
       <iframe src="https://www.youtube.com/embed/SQTRporjNQ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -111,7 +132,7 @@ As the collection grows, this portal will function both as an index to existing 
     </div>
   </div>
 
-  <div class="ai-video-card">
+  <div class="ai-video-card" data-year="2019">
     <div class="ai-video-wrapper">
       <iframe src="https://www.youtube.com/embed/NgQBAxsyAcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -120,7 +141,7 @@ As the collection grows, this portal will function both as an index to existing 
     </div>
   </div>
 
-  <div class="ai-video-card">
+  <div class="ai-video-card" data-year="2018">
     <div class="ai-video-wrapper">
       <iframe src="https://www.youtube.com/embed/RFd4sCSZwM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -131,6 +152,7 @@ As the collection grows, this portal will function both as an index to existing 
 </div>
 
 ## Recommendations
+{: #recommendations}
 
 <div class="ai-video-intro">
   <p>A curated selection of materials, tutorials, and educational content on Artificial Intelligence recommended by Sunil Abraham for deeper engagement with technical foundations, policy implications, and emerging developments in the field.</p>
@@ -151,6 +173,7 @@ As the collection grows, this portal will function both as an index to existing 
 </div>
 
 ## Conversations on 𝕏
+{: #conversations}
 
 <div class="ai-social-intro">
   <p>Short observations, responses and commentary on AI developments as they unfold. These posts capture real-time thinking on policy debates, technical developments, ethical questions and regulatory proposals.</p>
@@ -211,6 +234,7 @@ As the collection grows, this portal will function both as an index to existing 
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+  // Social grid sorting
   const grid = document.getElementById('socialGrid');
   const sortButtons = document.querySelectorAll('.ai-sort-btn');
   
@@ -229,6 +253,28 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       
       cards.forEach(card => grid.appendChild(card));
+    });
+  });
+  
+  // Video timeline filtering
+  const videoGrid = document.getElementById('videoGrid');
+  const timelineButtons = document.querySelectorAll('.ai-timeline-btn');
+  
+  timelineButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      timelineButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      const selectedYear = btn.getAttribute('data-year');
+      const videoCards = videoGrid.querySelectorAll('.ai-video-card');
+      
+      videoCards.forEach(card => {
+        if (selectedYear === 'all' || card.getAttribute('data-year') === selectedYear) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
     });
   });
 });
@@ -309,6 +355,54 @@ document.addEventListener('DOMContentLoaded', () => {
 @keyframes pulse {
   0%, 100% { opacity: 1; transform: translateX(-50%) scale(1); }
   50% { opacity: 0.5; transform: translateX(-50%) scale(1.5); }
+}
+
+/* Table of Contents */
+.ai-toc {
+  max-width: 800px;
+  margin: 2rem auto 3rem;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fb 100%);
+  border: 1px solid rgba(100, 200, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.ai-toc-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a2332;
+  border-bottom: 2px solid rgba(100, 200, 255, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.ai-toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ai-toc-list li {
+  margin: 0.6rem 0;
+}
+
+.ai-toc-list a {
+  display: block;
+  padding: 0.5rem 0.8rem;
+  color: #3ba5ff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.ai-toc-list a:hover {
+  color: #2d8cdb;
+  background: rgba(100, 200, 255, 0.05);
+  border-left-color: #64c8ff;
+  padding-left: 1.2rem;
 }
   
 /* Content Cards */
@@ -425,6 +519,42 @@ document.addEventListener('DOMContentLoaded', () => {
   width: 100%;
 }
 
+/* Timeline Controls */
+.ai-timeline-controls {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ai-timeline-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4a5568;
+  background: #ffffff;
+  border: 1px solid rgba(100, 200, 255, 0.2);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-family: inherit;
+}
+
+.ai-timeline-btn:hover {
+  background: rgba(100, 200, 255, 0.05);
+  border-color: rgba(100, 200, 255, 0.4);
+  color: #3ba5ff;
+}
+
+.ai-timeline-btn.active {
+  background: linear-gradient(135deg, #64c8ff 0%, #3ba5ff 100%);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(100, 200, 255, 0.25);
+}
+
 /* Video Section */
 .ai-video-section {
   max-width: 800px;
@@ -475,7 +605,7 @@ document.addEventListener('DOMContentLoaded', () => {
   font-weight: 600;
 }
 
-  .ai-video-intro {
+.ai-video-intro {
   max-width: 800px;
   margin: 0 auto 2rem;
   padding: 1rem 1.5rem;
@@ -597,6 +727,11 @@ document.addEventListener('DOMContentLoaded', () => {
     font-size: 2rem;
   }
   
+  .ai-toc {
+    margin: 1.5rem 1rem 2rem;
+    padding: 1.2rem 1.5rem;
+  }
+  
   .ai-content-card {
     padding: 1.5rem 1.5rem 1.5rem 2.8rem;
     margin: 1.5rem 1rem;
@@ -612,6 +747,7 @@ document.addEventListener('DOMContentLoaded', () => {
     font-size: 1.2rem;
   }
   
+  .ai-timeline-controls,
   .ai-social-intro,
   .ai-sort-controls,
   .ai-social-grid,
