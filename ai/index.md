@@ -7,6 +7,17 @@ description: "A portal bringing together Sunil Abraham's writings, commentary, r
 created: 2025-12-30
 ---
 
+<div class="ai-portal-header">
+  <div class="ai-header-grid">
+    <div class="ai-grid-cell"></div>
+    <div class="ai-grid-cell"></div>
+    <div class="ai-grid-cell"></div>
+    <div class="ai-grid-cell"></div>
+  </div>
+  <h1 class="ai-portal-title">Portal: Artificial Intelligence</h1>
+  <div class="ai-pulse"></div>
+</div>
+
 The **Artificial Intelligence Portal** gathers material related to Sunil Abraham's engagement with artificial intelligence as a policy domain, a regulatory challenge, and a subject of public debate. The content spans technical frameworks, ethical questions, governance models, and the social implications of automated systems across multiple sectors. Readers will find policy briefs, media commentary, and analytical writing that examine how AI intersects with privacy, surveillance, competition, and human rights.
 
 Over the years, Artificial Intelligence has appeared across Sunil Abraham's writing in different forms — as part of discussions on data governance, automation, surveillance, platform power, and institutional design. This portal consolidates those strands, making it easier to trace how ideas about AI have evolved alongside broader debates on digital rights, regulation and public interest technology.
