@@ -27,14 +27,29 @@ In addition to archival material, the portal will gradually include project note
 As the collection grows, this portal will function both as an index to existing material and as a living workspace for future thinking on Artificial Intelligence within the wider Sunil Abraham Project.
 
 <nav class="ai-toc">
-  <h2 class="ai-toc-title">Contents</h2>
-  <ul class="ai-toc-list">
-    <li><a href="#policy-frameworks"><span class="toc-icon">📋</span>Policy Frameworks and Regulatory Approaches</a></li>
-    <li><a href="#media-commentary"><span class="toc-icon">📰</span>Media Commentary and Public Discourse</a></li>
-    <li><a href="#videos"><span class="toc-icon">🎥</span>Videos</a></li>
-    <li><a href="#recommendations"><span class="toc-icon">⭐</span>Recommendations</a></li>
-    <li><a href="#conversations"><span class="toc-icon">💬</span>Conversations on 𝕏</a></li>
-  </ul>
+  <h2>Contents</h2>
+  <div class="ai-toc-grid">
+    <a href="#policy-frameworks" class="toc-link">
+      <span class="link-icon">📋</span>
+      <span>Policy Frameworks</span>
+    </a>
+    <a href="#media-commentary" class="toc-link">
+      <span class="link-icon">📰</span>
+      <span>Media Commentary</span>
+    </a>
+    <a href="#videos" class="toc-link">
+      <span class="link-icon">🎥</span>
+      <span>Videos</span>
+    </a>
+    <a href="#recommendations" class="toc-link">
+      <span class="link-icon">⭐</span>
+      <span>Recommendations</span>
+    </a>
+    <a href="#conversations" class="toc-link">
+      <span class="link-icon">💬</span>
+      <span>Conversations on 𝕏</span>
+    </a>
+  </div>
 </nav>
 
 ## Policy Frameworks and Regulatory Approaches
@@ -359,126 +374,93 @@ document.addEventListener('DOMContentLoaded', () => {
   50% { opacity: 0.5; transform: translateX(-50%) scale(1.5); }
 }
 
-/* Table of Contents */
+/* Table of Contents - Homepage Style */
 .ai-toc {
-  max-width: 800px;
-  margin: 2rem auto 3rem;
-  padding: 2rem 2.5rem;
-  background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
-  border: 2px solid rgba(100, 200, 255, 0.3);
-  border-radius: 12px;
-  box-shadow: 
-    0 4px 12px rgba(0, 0, 0, 0.08),
-    0 8px 24px rgba(100, 200, 255, 0.1);
-  position: relative;
-  overflow: hidden;
-}
-
-.ai-toc::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #64c8ff, #3ba5ff, #64c8ff);
-  background-size: 200% 100%;
-  animation: gradientShift 3s ease infinite;
-}
-
-@keyframes gradientShift {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
-
-.ai-toc-title {
-  margin: 0 0 1.2rem 0;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #1a2332;
-  border-bottom: 2px solid rgba(100, 200, 255, 0.4);
-  padding-bottom: 0.4rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.ai-toc-title::before {
-  content: '📑';
-  font-size: 1.3rem;
-}
-
-.ai-toc-list {
-  list-style: none;
   padding: 0;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 100%;
+  margin: 3rem auto;
+}
+
+.ai-toc h2 {
+  font-size: 2rem;
+  color: #0a2e57;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  border-bottom: 3px solid #005cc5;
+  padding-bottom: 0.5rem;
+}
+
+.ai-toc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
   margin: 0;
 }
 
-.ai-toc-list li {
-  margin: 0.2rem 0;
-  position: relative;
-}
-
-.ai-toc-list li::before {
-  content: '▸';
-  position: absolute;
-  left: 0;
-  color: #64c8ff;
-  font-size: 1rem;
-  transition: all 0.2s ease;
-}
-
-.ai-toc-list a {
-  display: block;
-  padding: 0.7rem 1rem 0.7rem 1.8rem;
-  color: #2d7db3;
+.toc-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 12px;
   text-decoration: none;
-  font-size: 0.98rem;
+  color: #0a2e57;
   font-weight: 500;
-  border-left: 3px solid transparent;
-  border-radius: 6px;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  background: transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  background: #fff;
 }
 
-.ai-toc-list a:hover {
-  color: #1a5c8a;
-  background: rgba(100, 200, 255, 0.12);
-  border-left-color: #64c8ff;
-  padding-left: 2rem;
-  box-shadow: 0 2px 8px rgba(100, 200, 255, 0.15);
+.toc-link:hover {
+  transform: translateY(-2px);
+  border-color: #005cc5;
+  box-shadow: 0 4px 16px rgba(0,92,197,0.2);
+  background: linear-gradient(135deg, #e8f0fe 0%, #d6e7ff 100%);
 }
 
-.ai-toc-list li:hover::before {
-  left: 0.3rem;
-  color: #3ba5ff;
-}
-
-.toc-icon {
-  display: inline-block;
-  margin-right: 0.6rem;
-  font-size: 1.1rem;
-  vertical-align: middle;
+.link-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
   transition: transform 0.2s ease;
 }
 
-.ai-toc-list a:hover .toc-icon {
+.toc-link:hover .link-icon {
   transform: scale(1.15);
 }
 
 /* Mobile TOC */
 @media (max-width: 768px) {
   .ai-toc {
-    margin: 1.5rem 1rem 2rem;
-    padding: 1.5rem 1.8rem;
+    margin: 2rem 1rem;
   }
   
-  .ai-toc-title {
-    font-size: 1.1rem;
+  .ai-toc h2 {
+    font-size: 1.6rem;
   }
   
-  .ai-toc-list a {
-    font-size: 0.92rem;
+  .ai-toc-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .toc-link {
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .toc-link {
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .link-icon {
+    font-size: 1.25rem;
   }
 }
   
@@ -802,11 +784,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
   .ai-portal-title {
     font-size: 2rem;
-  }
-  
-  .ai-toc {
-    margin: 1.5rem 1rem 2rem;
-    padding: 1.2rem 1.5rem;
   }
   
   .ai-content-card {
