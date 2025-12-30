@@ -397,7 +397,7 @@ document.addEventListener('DOMContentLoaded', () => {
   font-weight: 700;
   color: #1a2332;
   border-bottom: 2px solid rgba(100, 200, 255, 0.4);
-  padding-bottom: 0.7rem;
+  padding-bottom: 0.4rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -415,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 .ai-toc-list li {
-  margin: 0.4rem 0;
+  margin: 0.2rem 0;
   position: relative;
 }
 
