@@ -298,47 +298,115 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <style>
-/* AI Portal Header */
+/* AI Portal Header - Starry Night Sky */
 .ai-portal-header {
   position: relative;
   max-width: 900px;
   margin: 0 auto 3rem;
   padding: 3rem 2rem;
-  background: linear-gradient(135deg, #0f1419 0%, #1a2332 50%, #0f1419 100%);
+  background: radial-gradient(ellipse at top, #1a237e 0%, #0d1321 50%, #000000 100%);
   border-radius: 16px;
-  border: 1px solid rgba(100, 200, 255, 0.2);
+  border: 1px solid rgba(100, 200, 255, 0.3);
   box-shadow: 
-    0 8px 32px rgba(0, 0, 0, 0.3),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
   overflow: hidden;
 }
 
+/* Animated stars */
 .ai-header-grid {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  opacity: 0.15;
+  pointer-events: none;
 }
 
 .ai-grid-cell {
-  background: linear-gradient(180deg, transparent 0%, rgba(100, 200, 255, 0.1) 50%, transparent 100%);
-  border-right: 1px solid rgba(100, 200, 255, 0.1);
-  animation: gridPulse 4s ease-in-out infinite;
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 3s ease-in-out infinite;
 }
 
-.ai-grid-cell:nth-child(1) { animation-delay: 0s; }
-.ai-grid-cell:nth-child(2) { animation-delay: 0.5s; }
-.ai-grid-cell:nth-child(3) { animation-delay: 1s; }
-.ai-grid-cell:nth-child(4) { animation-delay: 1.5s; }
+/* Star 1 - large bright */
+.ai-grid-cell:nth-child(1) {
+  width: 3px;
+  height: 3px;
+  top: 15%;
+  left: 20%;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  animation-delay: 0s;
+}
 
-@keyframes gridPulse {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 0.7; }
+/* Star 2 - medium */
+.ai-grid-cell:nth-child(2) {
+  width: 2px;
+  height: 2px;
+  top: 35%;
+  left: 75%;
+  box-shadow: 0 0 4px rgba(200, 220, 255, 0.7);
+  animation-delay: 1s;
+}
+
+/* Star 3 - small */
+.ai-grid-cell:nth-child(3) {
+  width: 2px;
+  height: 2px;
+  top: 65%;
+  left: 15%;
+  box-shadow: 0 0 3px rgba(150, 200, 255, 0.6);
+  animation-delay: 2s;
+}
+
+/* Star 4 - medium bright */
+.ai-grid-cell:nth-child(4) {
+  width: 2.5px;
+  height: 2.5px;
+  top: 25%;
+  left: 85%;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+  animation-delay: 1.5s;
+}
+
+/* Additional stars - add these to HTML if you want more */
+.ai-portal-header::before,
+.ai-portal-header::after {
+  content: '';
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 4s ease-in-out infinite;
+}
+
+.ai-portal-header::before {
+  width: 2px;
+  height: 2px;
+  top: 45%;
+  left: 50%;
+  box-shadow: 0 0 4px rgba(180, 210, 255, 0.7);
+  animation-delay: 0.5s;
+}
+
+.ai-portal-header::after {
+  width: 1.5px;
+  height: 1.5px;
+  top: 70%;
+  left: 65%;
+  box-shadow: 0 0 3px rgba(200, 220, 255, 0.6);
+  animation-delay: 2.5s;
+}
+
+@keyframes twinkle {
+  0%, 100% { 
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% { 
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
 }
 
 .ai-portal-title {
@@ -349,13 +417,15 @@ document.addEventListener('DOMContentLoaded', () => {
   margin: 0;
   color: #ffffff;
   text-shadow: 
-    0 0 20px rgba(100, 200, 255, 0.5),
-    0 0 40px rgba(100, 200, 255, 0.3),
-    0 2px 4px rgba(0, 0, 0, 0.5);
+    0 0 20px rgba(100, 200, 255, 0.8),
+    0 0 40px rgba(100, 200, 255, 0.5),
+    0 0 60px rgba(100, 150, 255, 0.3),
+    0 2px 4px rgba(0, 0, 0, 0.8);
   letter-spacing: 0.02em;
   z-index: 10;
 }
 
+/* Glowing pulse at bottom */
 .ai-pulse {
   position: absolute;
   bottom: 1rem;
@@ -365,13 +435,27 @@ document.addEventListener('DOMContentLoaded', () => {
   height: 12px;
   background: #64c8ff;
   border-radius: 50%;
-  box-shadow: 0 0 20px rgba(100, 200, 255, 0.8);
-  animation: pulse 2s ease-in-out infinite;
+  box-shadow: 
+    0 0 20px rgba(100, 200, 255, 1),
+    0 0 40px rgba(100, 200, 255, 0.6);
+  animation: pulseGlow 2s ease-in-out infinite;
 }
 
-@keyframes pulse {
-  0%, 100% { opacity: 1; transform: translateX(-50%) scale(1); }
-  50% { opacity: 0.5; transform: translateX(-50%) scale(1.5); }
+@keyframes pulseGlow {
+  0%, 100% { 
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+    box-shadow: 
+      0 0 20px rgba(100, 200, 255, 1),
+      0 0 40px rgba(100, 200, 255, 0.6);
+  }
+  50% { 
+    opacity: 0.6;
+    transform: translateX(-50%) scale(1.3);
+    box-shadow: 
+      0 0 30px rgba(100, 200, 255, 1),
+      0 0 60px rgba(100, 200, 255, 0.8);
+  }
 }
 
 /* Table of Contents - Homepage Style */
