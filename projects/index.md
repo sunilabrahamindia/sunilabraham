@@ -31,8 +31,8 @@ The **Sunil Abraham Project** documents, studies, and archives a range of open r
       A continuing study of ideas, reflections, and observations on Artificial Intelligence, with emphasis on ethical, human, and creative dimensions. This project explores how AI reshapes learning, work, and expression.
     </p>
 
-    <p class="project-note">
-      Writing and documentation in progress.
+    <p class="project-action">
+      <a href="/ai/" class="btn">Visit Portal</a>
     </p>
   </section>
 
