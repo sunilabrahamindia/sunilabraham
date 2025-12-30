@@ -51,7 +51,7 @@ As the collection grows, this portal will function both as an index to existing 
     <p>
       Examines the use of algorithmic video interview systems by Indian banks and financial institutions. The coverage raises concerns about facial recognition bias, emotional homogenisation, and the lack of transparency in automated hiring decisions.
     </p>
-    <a href="/media-mentions/banking-on-artificial-intelligence-hiring-drive-bots/" class="ai-card-link">Read more →</a>
+    <a href="/media/banking-on-artificial-intelligence-in-hiring-drive-bots-are-calling-the-shots-now//" class="ai-card-link">Read more →</a>
   </div>
 </div>
 
@@ -62,7 +62,7 @@ As the collection grows, this portal will function both as an index to existing 
     <p>
       Explores approaches to developing inclusive AI systems that address India's specific social and economic contexts. The piece draws on insights from the Pragati: AI for Impact convening, examining how intentional design choices can shape outcomes in agriculture, healthcare, and public services.
     </p>
-    <a href="/media-mentions/building-intentional-ai-for-india/" class="ai-card-link">Read more →</a>
+    <a href="/media/building-intentional-ai-for-india-hindustan-times/" class="ai-card-link">Read more →</a>
   </div>
 </div>
 
