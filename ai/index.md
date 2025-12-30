@@ -29,11 +29,11 @@ As the collection grows, this portal will function both as an index to existing 
 <nav class="ai-toc">
   <h2 class="ai-toc-title">Contents</h2>
   <ul class="ai-toc-list">
-    <li><a href="#policy-frameworks">Policy Frameworks and Regulatory Approaches</a></li>
-    <li><a href="#media-commentary">Media Commentary and Public Discourse</a></li>
-    <li><a href="#videos">Videos</a></li>
-    <li><a href="#recommendations">Recommendations</a></li>
-    <li><a href="#conversations">Conversations on 𝕏</a></li>
+    <li><a href="#policy-frameworks"><span class="toc-icon">📋</span>Policy Frameworks and Regulatory Approaches</a></li>
+    <li><a href="#media-commentary"><span class="toc-icon">📰</span>Media Commentary and Public Discourse</a></li>
+    <li><a href="#videos"><span class="toc-icon">🎥</span>Videos</a></li>
+    <li><a href="#recommendations"><span class="toc-icon">⭐</span>Recommendations</a></li>
+    <li><a href="#conversations"><span class="toc-icon">💬</span>Conversations on 𝕏</a></li>
   </ul>
 </nav>
 
@@ -452,6 +452,18 @@ document.addEventListener('DOMContentLoaded', () => {
 .ai-toc-list li:hover::before {
   left: 0.3rem;
   color: #3ba5ff;
+}
+
+.toc-icon {
+  display: inline-block;
+  margin-right: 0.6rem;
+  font-size: 1.1rem;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.ai-toc-list a:hover .toc-icon {
+  transform: scale(1.15);
 }
 
 /* Mobile TOC */
