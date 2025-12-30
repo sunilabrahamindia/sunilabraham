@@ -130,6 +130,26 @@ As the collection grows, this portal will function both as an index to existing 
   </div>
 </div>
 
+## Recommendations
+
+<div class="ai-video-intro">
+  <p>A curated selection of materials, tutorials, and educational content on Artificial Intelligence recommended by Sunil Abraham for deeper engagement with technical foundations, policy implications, and emerging developments in the field.</p>
+</div>
+
+<div class="ai-video-section">
+  <div class="ai-video-card">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/zjkBMFhNj_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>[1hr Talk] Intro to Large Language Models by Andrej Karpathy</strong> • 23 November 2023
+      <p style="margin-top: 0.8rem; font-size: 0.9rem; line-height: 1.5;">
+        An accessible one-hour overview of Large Language Models, the foundational technology powering systems such as ChatGPT, Claude, and Bard. The presentation covers core technical principles, future trajectories, comparisons with contemporary operating systems, and emerging security considerations within this evolving computational framework.
+      </p>
+    </div>
+  </div>
+</div>
+
 ## Conversations on 𝕏
 
 <div class="ai-social-intro">
