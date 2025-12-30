@@ -415,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 .ai-toc-list li {
-  margin: 0.8rem 0;
+  margin: 0.4rem 0;
   position: relative;
 }
 
