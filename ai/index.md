@@ -66,6 +66,78 @@ As the collection grows, this portal will function both as an index to existing 
   </div>
 </div>
 
+## Conversations on 𝕏
+
+<div class="ai-social-intro">
+  <p>Short observations, responses and commentary on AI developments as they unfold. These posts capture real-time thinking on policy debates, technical developments, ethical questions and regulatory proposals.</p>
+</div>
+
+<div class="ai-sort-controls">
+  <button class="ai-sort-btn active" data-sort="newest">Newest First</button>
+  <button class="ai-sort-btn" data-sort="oldest">Oldest First</button>
+</div>
+
+<div class="ai-social-grid" id="socialGrid">
+  <div class="ai-social-card" data-date="2024-03-31">
+    <div class="ai-social-date">31 March 2024</div>
+    <blockquote class="twitter-tweet">
+      <a href="https://x.com/sunil_abraham/status/1774632919245656224"></a>
+    </blockquote>
+  </div>
+
+  <div class="ai-social-card" data-date="2024-01-15">
+    <div class="ai-social-date">15 January 2024</div>
+    <blockquote class="twitter-tweet">
+      <a href="https://x.com/sunil_abraham/status/1746873325094379745"></a>
+    </blockquote>
+  </div>
+
+  <div class="ai-social-card" data-date="2023-10-16">
+    <div class="ai-social-date">16 October 2023</div>
+    <blockquote class="twitter-tweet">
+      <a href="https://x.com/sunil_abraham/status/1713958345777004695"></a>
+    </blockquote>
+  </div>
+
+  <div class="ai-social-card" data-date="2017-12-07">
+    <div class="ai-social-date">7 December 2017</div>
+    <blockquote class="twitter-tweet">
+      <a href="https://x.com/sunil_abraham/status/938850139610923008"></a>
+    </blockquote>
+  </div>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const grid = document.getElementById('socialGrid');
+  const sortButtons = document.querySelectorAll('.ai-sort-btn');
+  
+  sortButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update active state
+      sortButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      // Get sort order
+      const sortOrder = btn.getAttribute('data-sort');
+      const cards = Array.from(grid.children);
+      
+      // Sort cards
+      cards.sort((a, b) => {
+        const dateA = new Date(a.getAttribute('data-date'));
+        const dateB = new Date(b.getAttribute('data-date'));
+        return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
+      });
+      
+      // Reappend in new order
+      cards.forEach(card => grid.appendChild(card));
+    });
+  });
+});
+</script>
+
 <style>
 /* AI Portal Header */
 .ai-portal-header {
@@ -239,6 +311,94 @@ As the collection grows, this portal will function both as an index to existing 
   width: 100%;
 }
 
+/* Social Media Section */
+.ai-social-intro {
+  max-width: 800px;
+  margin: 2rem auto 1.5rem;
+  padding: 1.2rem 1.5rem;
+  background: rgba(100, 200, 255, 0.04);
+  border-left: 3px solid rgba(100, 200, 255, 0.3);
+  border-radius: 6px;
+}
+
+.ai-social-intro p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #4a5568;
+  font-style: italic;
+}
+
+.ai-sort-controls {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: flex-end;
+}
+
+.ai-sort-btn {
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4a5568;
+  background: #ffffff;
+  border: 1px solid rgba(100, 200, 255, 0.2);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-family: inherit;
+}
+
+.ai-sort-btn:hover {
+  background: rgba(100, 200, 255, 0.05);
+  border-color: rgba(100, 200, 255, 0.4);
+  color: #3ba5ff;
+}
+
+.ai-sort-btn.active {
+  background: linear-gradient(135deg, #64c8ff 0%, #3ba5ff 100%);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(100, 200, 255, 0.25);
+}
+
+.ai-social-grid {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.ai-social-card {
+  background: #ffffff;
+  border: 1px solid rgba(100, 200, 255, 0.15);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.ai-social-card:hover {
+  box-shadow: 0 4px 16px rgba(100, 200, 255, 0.15);
+  transform: translateY(-2px);
+  border-color: rgba(100, 200, 255, 0.3);
+}
+
+.ai-social-date {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #64c8ff;
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(100, 200, 255, 0.1);
+  letter-spacing: 0.02em;
+}
+
+.ai-social-card .twitter-tweet {
+  margin: 0 !important;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .ai-portal-header {
@@ -265,9 +425,19 @@ As the collection grows, this portal will function both as an index to existing 
     font-size: 1.2rem;
   }
   
-  .ai-collaboration-section {
-    margin: 2rem 1rem;
-    padding: 1.5rem;
+  .ai-social-intro,
+  .ai-sort-controls,
+  .ai-social-grid {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .ai-sort-controls {
+    justify-content: center;
+  }
+  
+  .ai-social-card {
+    padding: 1.2rem;
   }
 }
 
@@ -282,6 +452,15 @@ As the collection grows, this portal will function both as an index to existing 
   
   .ai-card-content h3 {
     font-size: 1.1rem;
+  }
+  
+  .ai-sort-controls {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .ai-sort-btn {
+    width: 100%;
   }
 }
 
