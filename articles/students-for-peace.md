@@ -8,7 +8,7 @@ created: 2025-11-02
 
 {% include under-construction.html %}
 
-**Students for Peace** was a brief, grassroots student movement in Bangalore, India, launched in early 1993 as a response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the subsequent riots in Bombay (now Mumbai). Organised by engineering student [Sunil Abraham](https://sunilabraham.in/sunil) together with convener Ravindra Walters, the initiative sought to create an apolitical platform where young people could stand together for peace and secular values. It culminated in a candlelight demonstration on 13 February 1993 along Mahatma Gandhi Road, drawing around 5,000 students from schools and colleges across the city.
+**Students for Peace** was a brief, grassroots student movement in Bangalore, Karnataka, India, launched in early 1993 as a response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the subsequent riots in Bombay (now Mumbai). Organised by engineering student [Sunil Abraham](https://sunilabraham.in/sunil) together with convener Ravindra Walters, the initiative sought to create an apolitical platform where young people could stand together for peace and secular values. It culminated in a candlelight demonstration on 13 February 1993 along Mahatma Gandhi Road, drawing around 5,000 students from schools and colleges across the city.
 
 ## Contents
 
@@ -50,7 +50,7 @@ Roughly eighty volunteers joined the organising team, taking responsibility for 
 
 ## The demonstration (13 February 1993)
 
-The main event took place on Saturday, 13 February 1993, at Mahatma Gandhi Road in central Bangalore. Participants began assembling near the Gandhi statue at about 5:30 pm. At 6:30 pm sharp, four ten-year-old children lit a single 'peace candle' at the foot of the statue and passed the flame to four older students from different religions. From there the light was relayed along the line until hundreds of candles glowed in succession down the boulevard towards Brigade Road and Trinity Circle.  
+The main event took place on Saturday, 13 February 1993, at Mahatma Gandhi Road (M. G. Road) in central Bangalore, Karnataka. Participants began assembling near the Mahatma Gandhi statue at about 5:30 pm. At 6:30 pm sharp, four ten-year-old children lit a single 'peace candle' at the foot of the statue and passed the flame to four older students from different religions. From there the light was relayed along the line until hundreds of candles glowed in succession down the boulevard towards Brigade Road and Trinity Circle.  
 
 Students, most of them dressed in white, sang familiar peace songs such as *We Shall Overcome* and *Shanthi Do*, while others quietly repeated the phrase 'We want peace'.  The police cooperated with organisers to keep traffic moving smoothly and allowed the event to proceed with minimal obstruction.  At one point an anonymous threat prompted temporary barricades around the Gandhi statue, but students were later permitted to approach under supervision and light the main candle.  
 
