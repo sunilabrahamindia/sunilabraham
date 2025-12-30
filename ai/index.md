@@ -13,6 +13,8 @@ created: 2025-12-30
     <div class="ai-grid-cell"></div>
     <div class="ai-grid-cell"></div>
     <div class="ai-grid-cell"></div>
+    <div class="ai-grid-cell"></div>
+    <div class="ai-grid-cell"></div>
   </div>
   <h1 class="ai-portal-title">Portal: Artificial Intelligence</h1>
   <div class="ai-pulse"></div>
@@ -370,8 +372,25 @@ document.addEventListener('DOMContentLoaded', () => {
   animation-delay: 1.5s;
 }
 
-/* Additional stars - add these to HTML if you want more */
-.ai-portal-header::before,
+.ai-grid-cell:nth-child(5) {
+  width: 1.5px;
+  height: 1.5px;
+  top: 55%;
+  left: 30%;
+  box-shadow: 0 0 3px rgba(180, 200, 255, 0.6);
+  animation-delay: 3s;
+}
+
+.ai-grid-cell:nth-child(6) {
+  width: 2px;
+  height: 2px;
+  top: 80%;
+  left: 80%;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
+  animation-delay: 0.8s;
+}
+
+  .ai-portal-header::before,
 .ai-portal-header::after {
   content: '';
   position: absolute;
