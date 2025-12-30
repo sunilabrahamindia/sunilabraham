@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
   margin: 0 auto 2rem;
   display: flex;
   gap: 0.8rem;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .ai-sort-btn {
@@ -405,6 +405,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 .ai-social-card .twitter-tweet {
   margin: 0 !important;
+  width: 100% !important;
+}
+
+.ai-social-card .twitter-tweet iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.ai-social-card blockquote.twitter-tweet {
+  margin: 0 !important;
+  width: 100% !important;
 }
 
 /* Responsive Design */
