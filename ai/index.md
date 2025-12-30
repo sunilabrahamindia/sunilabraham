@@ -122,27 +122,39 @@ document.addEventListener('DOMContentLoaded', () => {
   const grid = document.getElementById('socialGrid');
   const sortButtons = document.querySelectorAll('.ai-sort-btn');
   
+  // Sorting functionality
   sortButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      // Update active state
       sortButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       
-      // Get sort order
       const sortOrder = btn.getAttribute('data-sort');
       const cards = Array.from(grid.children);
       
-      // Sort cards
       cards.sort((a, b) => {
         const dateA = new Date(a.getAttribute('data-date'));
         const dateB = new Date(b.getAttribute('data-date'));
         return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
       });
       
-      // Reappend in new order
       cards.forEach(card => grid.appendChild(card));
     });
   });
+  
+  // Force Twitter embeds to full width
+  function resizeTwitterEmbeds() {
+    const twitterIframes = document.querySelectorAll('.ai-social-card iframe');
+    twitterIframes.forEach(iframe => {
+      const container = iframe.closest('.ai-social-card');
+      if (container) {
+        const containerWidth = container.offsetWidth - 48;
+        iframe.style.width = containerWidth + 'px';
+      }
+    });
+  }
+  
+  setTimeout(resizeTwitterEmbeds, 2000);
+  window.addEventListener('resize', resizeTwitterEmbeds);
 });
 </script>
 
@@ -385,6 +397,7 @@ document.addEventListener('DOMContentLoaded', () => {
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
+  overflow: hidden;
 }
 
 .ai-social-card:hover {
@@ -405,17 +418,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 .ai-social-card .twitter-tweet {
   margin: 0 !important;
-  width: 100% !important;
 }
 
-.ai-social-card .twitter-tweet iframe {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-.ai-social-card blockquote.twitter-tweet {
-  margin: 0 !important;
-  width: 100% !important;
+.ai-social-card iframe {
+  max-width: none !important;
 }
 
 /* Responsive Design */
@@ -449,10 +455,6 @@ document.addEventListener('DOMContentLoaded', () => {
   .ai-social-grid {
     margin-left: 1rem;
     margin-right: 1rem;
-  }
-  
-  .ai-sort-controls {
-    justify-content: center;
   }
   
   .ai-social-card {
