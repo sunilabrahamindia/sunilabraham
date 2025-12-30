@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Portal: Artificial Intelligence"
+title: "Portal:Artificial Intelligence"
 permalink: /ai/
 categories: [Artificial Intelligence, Portals, Project pages]
 description: "A portal bringing together Sunil Abraham's writings, commentary, research and reflections on Artificial Intelligence, technology policy and society."
