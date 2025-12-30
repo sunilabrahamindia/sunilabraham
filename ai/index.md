@@ -28,6 +28,15 @@ In addition to archival material, the portal will gradually include project note
 
 As the collection grows, this portal will function both as an index to existing material and as a living workspace for future thinking on Artificial Intelligence within the wider Sunil Abraham Project.
 
+<div class="ai-portrait-container">
+  <img 
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/ai/sunil-abraham-ai-portal.png" 
+    alt="Portrait of Sunil Abraham in the style of Van Gogh's Starry Night, featuring swirling blue and yellow brushstrokes depicting a thoughtful figure against a cosmic backdrop of stars and celestial patterns" 
+    class="ai-portrait-image"
+    loading="lazy"
+  />
+</div>
+
 <nav class="ai-toc">
   <h2>Contents</h2>
   <div class="ai-toc-grid">
@@ -474,6 +483,53 @@ document.addEventListener('DOMContentLoaded', () => {
     box-shadow: 
       0 0 30px rgba(100, 200, 255, 1),
       0 0 60px rgba(100, 200, 255, 0.8);
+  }
+}
+
+/* AI Portrait Section */
+.ai-portrait-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.ai-portrait-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 
+    0 4px 16px rgba(0, 0, 0, 0.15),
+    0 8px 32px rgba(100, 200, 255, 0.1);
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.ai-portrait-image:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.2),
+    0 12px 40px rgba(100, 200, 255, 0.15);
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .ai-portrait-container {
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+  }
+  
+  .ai-portrait-image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ai-portrait-container {
+    margin: 1rem auto;
   }
 }
 
