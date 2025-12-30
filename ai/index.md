@@ -347,6 +347,24 @@ document.addEventListener('DOMContentLoaded', () => {
   background: rgba(100, 200, 255, 0.1);
   border-radius: 4px;
   border: 1px solid rgba(100, 200, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.ai-card-year::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(100, 200, 255, 0.3), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
 }
 
 .ai-card-content p {
