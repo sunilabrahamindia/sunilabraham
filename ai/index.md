@@ -123,6 +123,7 @@ In addition to archival material, the portal will gradually include project note
 <div class="ai-timeline-controls">
   <button class="ai-timeline-btn active" data-year="all">All Years</button>
   <button class="ai-timeline-btn" data-year="2025">2025</button>
+  <button class="ai-timeline-btn" data-year="2024">2024</button>
   <button class="ai-timeline-btn" data-year="2023">2023</button>
   <button class="ai-timeline-btn" data-year="2019">2019</button>
   <button class="ai-timeline-btn" data-year="2018">2018</button>
@@ -147,12 +148,39 @@ In addition to archival material, the portal will gradually include project note
     </div>
   </div>
 
+  <div class="ai-video-card" data-year="2025">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/ZkFzaU76WeE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>DPDP & Its Impact on AI Innovations | IDS 2025</strong> • 18 March 2025
+    </div>
+  </div>
+
+  <div class="ai-video-card" data-year="2024">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/YhDd_rD5vYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>Meta's Plan To Protect Users From AI-Led Misinformation | NDTV Profit</strong> • 20 February 2024
+    </div>
+  </div>
+
   <div class="ai-video-card" data-year="2023">
     <div class="ai-video-wrapper">
       <iframe src="https://www.youtube.com/embed/SQTRporjNQ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="ai-video-caption">
       <strong>Panel: The Evolving AI Landscape: Risks and Responsibilities</strong> • 11 December 2023
+    </div>
+  </div>
+
+  <div class="ai-video-card" data-year="2023">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/B3LKfPgqxwo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>Meta's Sunil Abraham on Explainability in AI Systems</strong> • 10 November 2023
     </div>
   </div>
 
