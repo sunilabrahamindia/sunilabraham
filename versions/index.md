@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Versions
-categories: [Project pages]
+categories: [Project pages, Versions]
 description: "Version history of the Sunil Abraham Project website, documenting updates, milestones, and design improvements."
 created: 2025-10-21
 ---
