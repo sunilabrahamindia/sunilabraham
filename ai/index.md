@@ -65,24 +65,24 @@ In addition to archival material, the portal will gradually include project note
 <div class="ai-content-card">
   <div class="ai-card-marker">◆</div>
   <div class="ai-card-content">
-    <h3>Artificial Intelligence: A Full-Spectrum Regulatory Challenge</h3>
-    <p class="ai-card-year">2019</p>
-    <p>
-      Presents a structured approach to regulating AI systems in India. Rather than proposing blanket rules, the brief argues for context-specific regulation that considers the actor deploying AI, the potential for harm, and the rights at stake. The framework spans the full regulatory spectrum, from forbearance and self-regulation to mandatory oversight and absolute prohibition, depending on the application.
-    </p>
-    <a href="/publications/artificial-intelligence-full-spectrum/" class="ai-card-link">Read more →</a>
-  </div>
-</div>
-
-<div class="ai-content-card">
-  <div class="ai-card-marker">◆</div>
-  <div class="ai-card-content">
     <h3>NITI Aayog Discussion Paper: An Aspirational Step towards India's AI Policy</h3>
     <p class="ai-card-year">2018</p>
     <p>
       Examines the government's national strategy document on artificial intelligence. The response evaluates proposals related to ethics, privacy, regulation, and innovation, highlighting gaps in governance mechanisms and the risks of positioning India as a testing ground for untested technologies without adequate legal safeguards.
     </p>
     <a href="/publications/niti-aayog-discussion-paper-ai-policy/" class="ai-card-link">Read more →</a>
+  </div>
+</div>
+
+<div class="ai-content-card">
+  <div class="ai-card-marker">◆</div>
+  <div class="ai-card-content">
+    <h3>Artificial Intelligence: A Full-Spectrum Regulatory Challenge (Working Draft)</h3>
+    <p class="ai-card-year">2019</p>
+    <p>
+      This policy brief (working draft) outlines a grounded approach to regulating artificial intelligence, arguing against uniform or abstract rule-making. Instead, it proposes that regulatory responses should be shaped by who is deploying AI, the nature and scale of potential harm, and the rights that may be affected. The framework spans a broad range of policy tools, from regulatory restraint and self-governance to mandatory oversight and outright prohibition where risks are high.
+    </p>
+    <a href="/publications/artificial-intelligence-full-spectrum/" class="ai-card-link">Read more →</a>
   </div>
 </div>
 
