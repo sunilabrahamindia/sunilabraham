@@ -370,7 +370,7 @@
    ======================================== */
 (function() {
   // Set launch date: January 1, 2026, 8:00 AM IST (UTC+5:30)
-const launchDate = new Date('2025-12-31T21:59:59+05:30').getTime();
+  const launchDate = new Date('2025-12-31T21:59:59+05:30').getTime();
 
   const daysEl = document.getElementById('days');
   const hoursEl = document.getElementById('hours');
@@ -378,6 +378,8 @@ const launchDate = new Date('2025-12-31T21:59:59+05:30').getTime();
   const secondsEl = document.getElementById('seconds');
   const timerEl = document.querySelector('.countdown-timer');
   const messageEl = document.getElementById('launchMessage');
+
+  let countdownInterval; // DECLARE THIS HERE
 
   function padZero(num) {
     return num < 10 ? '0' + num : num;
@@ -412,6 +414,7 @@ const launchDate = new Date('2025-12-31T21:59:59+05:30').getTime();
   updateCountdown();
 
   // Update every second
-  const countdownInterval = setInterval(updateCountdown, 1000);
+  countdownInterval = setInterval(updateCountdown, 1000); // ASSIGN IT HERE
 })();
 </script>
+
