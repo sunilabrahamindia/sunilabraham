@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Artificial Intelligence: A Full-Spectrum Regulatory Challenge"
+title: "Artificial Intelligence: A Full-Spectrum Regulatory Challenge (Working Draft)"
 description: "Comprehensive policy brief by Sunil Abraham and the research team at the Centre for Internet and Society proposing a granular, full-spectrum framework for AI regulation, balancing innovation with accountability."
 categories: [Policy Briefs and Submissions, Publications]
 date: 2019-10-01
@@ -11,19 +11,22 @@ pdf: /publications/files/artificial-intelligence-full-spectrum.pdf
 created: 2025-11-11
 ---
 
-**Artificial Intelligence: A Full-Spectrum Regulatory Challenge** is a policy brief authored by Sunil Abraham, with research contributions from Shweta Mohandas, Mira Swaminathan, and Shweta Reddy. Published by the Centre for Internet and Society (CIS) in October 2019, it presents a structured, domain-specific approach to regulating Artificial Intelligence (AI) in India and beyond.  
+**Artificial Intelligence: A Full-Spectrum Regulatory Challenge** is a policy brief (working draft) authored by Sunil Abraham, with research contributions from Shweta Mohandas, Mira Swaminathan, and Shweta Reddy. Published by the Centre for Internet and Society (CIS) in October 2019, it presents a structured, domain-specific approach to regulating Artificial Intelligence (AI) in India and beyond.  
 
 The paper rejects one-size-fits-all ethical frameworks and omnibus AI laws. Instead, it argues for contextual regulation based on the actor (state, private sector, or individual), the degree of harm, and the human rights involved. It outlines how policymakers can deploy the entire spectrum of tools — from deregulation and forbearance to absolute prohibition — to balance innovation with accountability.
+
+*Editorial note: This page represents a **working draft** prepared during archival review and was not published as a final version.*
 
 ## Contents
 
 1. [Publication Details](#publication-details)  
 2. [Abstract](#abstract)  
-3. [Context and Background](#context-and-background)  
-4. [Key Themes or Findings](#key-themes-or-findings)  
-5. [Full Text](#full-text)  
-6. [Collaborators and Acknowledgements](#collaborators-and-acknowledgements)  
-7. [Citation](#citation)
+3. [Editorial Status](#editorial-status)
+4. [Context and Background](#context-and-background)  
+5. [Key Themes or Findings](#key-themes-or-findings)  
+6. [Full Text](#full-text)  
+7. [Collaborators and Acknowledgements](#collaborators-and-acknowledgements)
+8. [Citation](#citation)
 
 ## Publication Details
 
@@ -83,6 +86,12 @@ Key propositions include:
 - Framing AI regulation as both a legal and ethical imperative.
 
 {% include back-to-top.html %}
+
+## Editorial Status
+
+This page was prepared as part of an internal review and archival process and remained a **working draft**. It was not released as a final, published version on the site.
+
+Working drafts are retained where useful to document the evolution of records, source verification, or editorial decisions. Content, structure, or supporting sections may therefore differ from the final published version or from later archival standards.
 
 ## Context and Background
 
