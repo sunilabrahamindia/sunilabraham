@@ -22,6 +22,8 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 9. [Version 0.7](#version-07)
 10. [Version 0.8](#version-08)
 11. [Version 0.9](#version-09)
+12. [Version 1.0](#version-10)
+
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -358,4 +360,52 @@ This period builds momentum for the launch of a more refined public structure, s
 ✅ **Status:** Completed — Version 0.9 completed  
 📅 **Completion Date:** 28 December 2025
 
+## Version 1.0
+
+*This section is **under construction**. Some portions of the content and structure may still change as final refinements are completed.*
+
+Version 1.0 marks a defining moment in the evolution of TSAP, shifting the project from an intensive build phase into a more stable, modular, and publicly navigable archive. While earlier versions focused on rapid expansion, this milestone emphasises consolidation, structure, and long-term sustainability.
+
+**📰 Focused Weekly Output**
+- This release cycle covered a shorter four-day working week.
+- Despite the compressed timeline, 25 new pages were created and published.
+- The work prioritised consistency, completeness, and alignment with established archival standards rather than raw volume.
+
+**🧩 Structural Maturity and Modularity**
+- A deliberate move was made to separate structure from content to improve maintainability.
+- Key homepage sections began transitioning into standalone `_includes` files.
+- This approach allows future design changes and content updates to proceed independently, without cluttering core layouts.
+- The `Did You Know (DYK)` section on the main page has now been fully migrated to a dedicated `_includes`.
+
+**🗂️ Cluster Expansion**
+- A new source-based cluster was completed:
+  - [Sunil Abraham and *Hindustan Times*](/clusters/sunil-abraham-hindustan-times/)
+- This addition strengthens chronological and thematic navigation across major Indian media coverage.
+
+**🔎 Media Index Improvements**
+- The [Media Articles](/categories/media-articles/) and [Media Mentions](/media/) index pages were refined for better usability.
+- Enhancements included:
+  - Live search for faster discovery
+  - Full, unambiguous publication dates
+  - Persistent sorting to maintain reading context
+- These improvements were introduced without adding visual or structural complexity, preserving clarity and performance.
+
+**🤖 Artificial Intelligence Portal (Initiation Phase)**
+- Work began on the [Artificial Intelligence portal](/ai), designed to bring together Sunil Abraham's past and ongoing engagement with AI.
+- The portal will span policy analysis, regulatory debates, ethical questions, and public discourse.
+- This marks the start of a thematic consolidation effort, grouping long-running ideas that previously existed across dispersed articles.
+
+Version 1.0 establishes a stable foundation for future growth, enabling deeper thematic organisation, cleaner design iteration, and a more resilient long-term content strategy.
+
+**⚠️ Schedule Note**
+
+**🗓️ No weekly version update will be published on Sunday, 4 January 2026.**  
+This is a planned exception, as Version 1.0 followed a non-Sunday task cycle aligned with the year-end milestone.
+
+**➡️ Weekly reporting will resume on:**  
+**🕗 Sunday, 11 January 2026 at 8:00 am IST**
+
+**📅 Status and Completion**  
+✅ **Status:** Completed — Version 1.0 milestone achieved  
+📅 **Completion Date:** 31 December 2025
 
