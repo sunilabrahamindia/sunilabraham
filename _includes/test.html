@@ -29,10 +29,6 @@
       <span class="time-label">Seconds</span>
     </div>
   </div>
-  
-  <div class="countdown-message" id="launchMessage" style="display: none;">
-    <p>🎉 <strong>Version 1.0 is now live!</strong> Explore the enhanced features and content.</p>
-  </div>
 </div>
 
 <style>
@@ -117,7 +113,6 @@
   position: relative;
   z-index: 1;
   margin-bottom: 1.25rem;
-  /* Removed padding-right - keeping text centered */
 }
 
 .countdown-title {
@@ -201,29 +196,6 @@
   margin: 0 0.15rem;
   line-height: 1;
   align-self: center;
-}
-
-.countdown-message {
-  position: relative;
-  z-index: 1;
-  margin-top: 1rem;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-.countdown-message p {
-  margin: 0;
-  font-size: 1rem;
-  color: #fff;
-  line-height: 1.5;
-}
-
-.countdown-message strong {
-  color: #fff;
-  font-weight: 700;
 }
 
 /* Tablet adjustments */
@@ -319,11 +291,7 @@
 
   .time-separator {
     font-size: 1.25rem;
-    display: none; /* Hide separators on very small screens */
-  }
-
-  .countdown-message p {
-    font-size: 0.9rem;
+    display: none;
   }
 }
 
@@ -370,16 +338,15 @@
    ======================================== */
 (function() {
   // Set launch date: January 1, 2026, 8:00 AM IST (UTC+5:30)
-  const launchDate = new Date('2025-12-31T21:59:59+05:30').getTime();
+  const launchDate = new Date('2026-01-01T08:00:00+05:30').getTime();
 
   const daysEl = document.getElementById('days');
   const hoursEl = document.getElementById('hours');
   const minutesEl = document.getElementById('minutes');
   const secondsEl = document.getElementById('seconds');
   const timerEl = document.querySelector('.countdown-timer');
-  const messageEl = document.getElementById('launchMessage');
 
-  let countdownInterval; // DECLARE THIS HERE
+  let countdownInterval;
 
   function padZero(num) {
     return num < 10 ? '0' + num : num;
@@ -390,10 +357,19 @@
     const distance = launchDate - now;
 
     if (distance < 0) {
-      // Launch time has passed
+      // Launch time has passed - UPDATE THE HEADER
       clearInterval(countdownInterval);
+      
+      // Update title and subtitle
+      const titleEl = document.querySelector('.countdown-title');
+      const subtitleEl = document.querySelector('.countdown-subtitle');
+      
+      if (titleEl) titleEl.innerHTML = '🎉 Version 1.0 is Live';
+      if (subtitleEl) subtitleEl.innerHTML = 'The Sunil Abraham Project (TSAP) Version 1.0 has completed on <strong>Thursday, 1 January 2026, 8:00 AM IST</strong>';
+      
+      // Hide timer
       if (timerEl) timerEl.style.display = 'none';
-      if (messageEl) messageEl.style.display = 'block';
+      
       return;
     }
 
@@ -414,7 +390,6 @@
   updateCountdown();
 
   // Update every second
-  countdownInterval = setInterval(updateCountdown, 1000); // ASSIGN IT HERE
+  countdownInterval = setInterval(updateCountdown, 1000);
 })();
 </script>
-
