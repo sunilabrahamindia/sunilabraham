@@ -43,9 +43,9 @@ In addition to archival material, the portal will gradually include project note
       <span class="link-icon">⭐</span>
       <span>Recommendations</span>
     </a>
-    <a href="#conversations" class="toc-link">
+    <a href="#x" class="toc-link">
       <span class="link-icon">💬</span>
-      <span>Conversations on 𝕏</span>
+      <span>Posts on 𝕏</span>
     </a>
   </div>
 </nav>
@@ -196,8 +196,8 @@ In addition to archival material, the portal will gradually include project note
   </div>
 </div>
 
-## Conversations on 𝕏
-{: #conversations}
+## Posts on 𝕏
+{: #x}
 
 <div class="ai-social-intro">
   <p>Short observations, responses and commentary on AI developments as they unfold. These posts capture real-time thinking on policy debates, technical developments, ethical questions and regulatory proposals.</p>
