@@ -175,6 +175,15 @@ In addition to archival material, the portal will gradually include project note
     </div>
   </div>
 
+    <div class="ai-video-card" data-year="2023">
+    <div class="ai-video-wrapper">
+      <iframe src="https://www.youtube.com/embed/WePnFlZsWV0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ai-video-caption">
+      <strong>Role of GenAI in Shaping Businesses | GenAICon 2023</strong> • 21 December 2023
+    </div>
+  </div>
+
   <div class="ai-video-card" data-year="2023">
     <div class="ai-video-wrapper">
       <iframe src="https://www.youtube.com/embed/B3LKfPgqxwo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
