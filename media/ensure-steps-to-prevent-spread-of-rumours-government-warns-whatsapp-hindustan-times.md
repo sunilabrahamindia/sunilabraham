@@ -5,7 +5,7 @@ description: "A Hindustan Times report on the Indian government warning WhatsApp
 categories: [Media mentions]
 date: 2018-07-04
 source: "Hindustan Times"
-/media/ensure-steps-to-prevent-spread-of-rumours-government-warns-whatsapp-hindustan-times/
+permalink: /media/ensure-steps-to-prevent-spread-of-rumours-government-warns-whatsapp-hindustan-times/
 created: 2026-01-01
 ---
 
