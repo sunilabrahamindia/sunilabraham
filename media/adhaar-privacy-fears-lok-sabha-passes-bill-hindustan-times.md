@@ -60,11 +60,11 @@ created: 2025-12-31
 
 <p>A finance ministry spokesman added that the government had taken steps to ensure citizens' privacy would be respected and the authority to access data was exercised only in rare cases.</p>
 
-<p>According to another government official, the new law is in fact more limited in scope than the decades-old Indian Telegraph Act, which permits national security agencies and tax authorities to intercept telephone conversations of individuals in the interest of public safety.</p>
+<p>According to another government official, the new law is in fact more limited in scope than the decades-old Indian Telegraph Act, which permits national security agencies and tax authorities to intercept telephone conversations of individuals in the interest of public safety.</p> 
 
 <h3>"POLICE STATE"</h3>
 
-<p>Those assurances have not satisfied political opponents and people from religious minorities, including India's sizeable Muslim community, who say the database could be used as a tool to silence them.</p>
+<p>Those assurances have not satisfied political opponents and people from religious minorities, including India's sizeable Muslim community, who say the database could be used as a tool to silence them.</p> 
 
 <p>"We are midwifing a police state," said Asaduddin Owaisi, an opposition MP.</p>
 
