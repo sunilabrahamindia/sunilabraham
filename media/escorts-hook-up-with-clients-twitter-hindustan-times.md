@@ -10,7 +10,7 @@ permalink: /media/escorts-hook-up-with-clients-twitter-hindustan-times/
 created: 2026-01-02
 ---
 
-**Now, Escorts Hook Up With Clients on Twitter** is a Hindustan Times article examining how escort service agencies in Indian cities use Twitter to advertise and connect with clients. The report describes the scale of such activity, details pricing and operations shared by agencies, and raises questions about legal enforcement and intermediary liability under Indian law.
+**Now, Escorts Hook Up With Clients on Twitter** is a *Hindustan Times* article examining how escort service agencies in Indian cities use Twitter to advertise and connect with clients. The report describes the scale of such activity, details pricing and operations shared by agencies, and raises questions about legal enforcement and intermediary liability under Indian law.
 
 ## Contents
 
