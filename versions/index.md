@@ -395,7 +395,7 @@ Version 1.0 marks a defining moment in the evolution of TSAP, shifting the proje
 
 Version 1.0 establishes a stable foundation for future growth, enabling deeper thematic organisation, cleaner design iteration, and a more resilient long-term content strategy.
 
-🌅 Please read [**Version 1.0 Journey Lookback**](versions/1.0/) article.
+🌅 Please read [**Version 1.0 Journey Lookback**](/versions/1.0/) article.
 
 **⚠️ Schedule Note**
 
