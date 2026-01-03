@@ -46,7 +46,7 @@ created: 2026-01-03
 
 <div class="highlighted-text" id="fulltext">
 
-A bill proposes creation of a national DNA data bank, without requisite safeguards for privacy, and opens the information to everything from civic disputes to compilation of statistics.
+<p>A bill proposes creation of a national DNA data bank, without requisite safeguards for privacy, and opens the information to everything from civic disputes to compilation of statistics.</p>
 
 <hr class="article-separator">
 
