@@ -362,8 +362,6 @@ This period builds momentum for the launch of a more refined public structure, s
 
 ## Version 1.0
 
-*This section is **under construction**. Some portions of the content and structure may still change as final refinements are completed.*
-
 Version 1.0 marks a defining moment in the evolution of TSAP, shifting the project from an intensive build phase into a more stable, modular, and publicly navigable archive. While earlier versions focused on rapid expansion, this milestone emphasises consolidation, structure, and long-term sustainability.
 
 **📰 Focused Weekly Output**
@@ -396,6 +394,8 @@ Version 1.0 marks a defining moment in the evolution of TSAP, shifting the proje
 - This marks the start of a thematic consolidation effort, grouping long-running ideas that previously existed across dispersed articles.
 
 Version 1.0 establishes a stable foundation for future growth, enabling deeper thematic organisation, cleaner design iteration, and a more resilient long-term content strategy.
+
+🌅 Please read [**Version 1.0 Journey Lookback**](versions/1.0/) article.
 
 **⚠️ Schedule Note**
 
