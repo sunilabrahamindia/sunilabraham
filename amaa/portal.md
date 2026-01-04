@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Portal: A. M. A. Ayrookuzhiel"
+title: "Portal:A. M. A. Ayrookuzhiel"
 permalink: /amaa/portal/
 image: /amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2001.jpeg
 categories: [A. M. A. Ayrookuzhiel, Portals, Project pages]
