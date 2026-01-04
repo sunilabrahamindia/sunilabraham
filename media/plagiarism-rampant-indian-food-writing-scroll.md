@@ -237,7 +237,6 @@ The food blogging community's turn to social media represented a pragmatic adapt
 .fb-embed-container iframe {
   width: 100%;
   max-width: 500px;
-  min-height: 400px;
   border: 0;
 }
 
@@ -246,12 +245,13 @@ The food blogging community's turn to social media represented a pragmatic adapt
     max-width: 100%;
   }
 }
-  .tweet-embed-container {
+  
+.tweet-embed-container {
   text-align: center;
-  margin: 1.5rem auto;
+  margin: 0 auto; /* Reduced vertical margin */
   max-width: 550px;
+  /* Ensure no extra padding from the blockquote */
 }
-
 .tweet-embed-container .twitter-tweet {
   margin-left: auto !important;
   margin-right: auto !important;
