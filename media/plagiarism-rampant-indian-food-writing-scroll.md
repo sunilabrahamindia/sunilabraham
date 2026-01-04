@@ -85,10 +85,17 @@ created: 2026-01-04
 <p>Soni also denied the allegation when contacted for comment by Scroll.in.</p>
 
 <div class="tweet-embed-container">
-  <blockquote class="twitter-tweet" data-lang="en" data-theme="light">
-    <a href="https://x.com/ChefSunilSoni/status/686478571867652096"></a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div style="max-width: 550px; margin: 1.5rem auto; padding: 1rem; border: 1px solid #e1e8ed; border-radius: 12px; background: #fff;">
+    <div style="display: flex; align-items: center; margin-bottom: 0.75rem;">
+      <strong>Sunil Soni</strong>
+      <span style="color: #657786; margin-left: 0.5rem;">@ChefSunilSoni</span>
+    </div>
+    <p style="margin-bottom: 0.75rem;">"Jashn e Oudh" Book Released</p>
+    <div style="color: #657786; font-size: 0.9rem;">2:53 PM · Jan 11, 2016</div>
+    <div style="margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid #e1e8ed;">
+      <a href="https://x.com/ChefSunilSoni/status/686478571867652096" target="_blank" style="color: #1da1f2; text-decoration: none;">View on X (Twitter) →</a>
+    </div>
+  </div>
 </div>
 
 <p><strong>Looking West</strong></p>
