@@ -216,7 +216,7 @@ However, experts cautioned against treating transaction volume as the sole measu
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  max-width: 100%;
+  max-width: 75%;
   margin: 1.5rem 0;
 }
 
