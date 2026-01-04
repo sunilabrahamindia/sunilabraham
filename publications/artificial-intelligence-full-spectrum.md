@@ -2,7 +2,7 @@
 layout: default
 title: "Artificial Intelligence: A Full-Spectrum Regulatory Challenge (Working Draft)"
 description: "Comprehensive policy brief by Sunil Abraham and the research team at the Centre for Internet and Society proposing a granular, full-spectrum framework for AI regulation, balancing innovation with accountability."
-categories: [Policy Briefs and Submissions, Publications]
+categories: [Artificial Intelligence, Policy Briefs and Submissions, Publications]
 date: 2019-10-01
 authors: ["Sunil Abraham", "Shweta Mohandas", "Mira Swaminathan", "Shweta Reddy"]
 source: "The Centre for Internet and Society (CIS)"
