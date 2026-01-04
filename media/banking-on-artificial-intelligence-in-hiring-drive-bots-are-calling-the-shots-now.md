@@ -2,7 +2,7 @@
 layout: default
 title: "Banking on Artificial Intelligence: In Hiring Drive, Bots Are Calling the Shots Now"
 description: "An Economic Times report on algorithmic video interview systems deployed by Axis Bank and Bajaj Allianz to screen thousands of job candidates, featuring Sunil Abraham's warning about homogenization of emotional expression and concerns over racial and neurological bias in facial recognition technology."
-categories: [Media mentions]
+categories: [Artificial Intelligence, Media mentions]
 date: 2019-06-04
 source: "The Economic Times"
 authors: ["Anjali Venugopalan"]
