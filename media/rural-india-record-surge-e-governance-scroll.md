@@ -211,13 +211,13 @@ However, experts cautioned against treating transaction volume as the sole measu
   border-top: 1px solid rgba(0,0,0,0.08);
   margin: 0.75rem 0 1rem 0;
 }
-  .video-container {
+.video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
   max-width: 75%;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto; 
 }
 
 .video-container iframe {
