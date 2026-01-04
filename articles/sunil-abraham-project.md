@@ -10,6 +10,15 @@ The **Sunil Abraham Project** (abbreviated as **TSAP**) is a digital publishing,
 
 As of {{ site.time | date: "%-d %B %Y" }}, the Sunil Abraham Project contains {{ site.pages | size }} pages.
 
+## Contents
+
+- [History](#history)
+  - [Announcement](#announcement)
+- [Design and Structure](#design-and-structure)
+- [Timeline](#timeline)
+  - [2025](#2025)
+  - [2026](#2026)
+
 ## History
 
 The idea for the Sunil Abraham Project began to take shape in early 2025 from a need to create a unified digital space for preserving and presenting the diverse range of work produced by Sunil Abraham and his father, A. M. A. Ayrookuzhiel, who was a prominent scholar and theologian. Before the project's establishment, Sunil's writings, policy papers, and media articles were scattered across various institutional and online platforms. The goal was to build a single, sustainable environment where this material could be archived, categorised, and accessed in a consistent format.
@@ -35,6 +44,7 @@ In appearance, the site maintains a plain and accessible design. Text is priorit
 
 ## Timeline
 
+### 2025
 - 27 September 2025 (Saturday) — Domain name `sunilabraham.in` purchased from BigRock.
 - 2 October 2025 (Thursday) — The project was officially launched on this date, which coincides with the birth anniversaries of Mahatma Gandhi and Lal Bahadur Shastri. The day is also the birthday of Swapna Dutta (1953–2025), mother of Tito Dutta, the main editor and one of the two foundation planners of the project.
 - 19 October 2025 (Sunday) — The first four pages of the site were deployed on GitHub, marking the initial public build of the project. These included the Home page, the Publications index, the Projects overview, and the Contact page.
@@ -44,3 +54,7 @@ In appearance, the site maintains a plain and accessible design. Text is priorit
 - 11 December 2025 (Thursday) — The Sunil Abraham Project reached the milestone of 200 articles with the publication of [*2012: The Year Social Media Came of Age in India*](/media/2012-the-year-social-media-came-of-age-in-india/).
 - 18 December 2025 (Thursday) — The Sunil Abraham Project completed 250 articles with the publication of [*Big Brother Watches*](/media/big-brother-watches-telegraph-india/).
 - 22 December 2025 (Monday) — The publication of [*India Debates Limits to Freedom of Expression*](/media/india-debates-limits-to-freedom-of-expression/) marked the completion of 300 articles.
+
+### 2026
+- 1 January 2026 (Thursday) — Version 1.0 of the Sunil Abraham Project was released, marking a major structural and editorial milestone. The release consolidated earlier work and set the foundation for long-term organisation and navigation. For an overview of this milestone, see the [Version 1.0 Lookback](/versions/1.0/).
+- 4 January 2026 (Sunday) — The Sunil Abraham Project reached 400 articles with the publication of [*Plagiarism Is Rampant in Indian Food Writing*](/media/plagiarism-rampant-indian-food-writing-scroll/).
