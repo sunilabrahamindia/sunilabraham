@@ -85,13 +85,11 @@ created: 2026-01-04
 <p>Soni also denied the allegation when contacted for comment by Scroll.in.</p>
 
 <div class="tweet-embed-container">
-  <iframe 
-    src="https://platform.twitter.com/embed/Tweet.html?id=686478571867652096&theme=light" 
-    style="border: 0; max-width: 550px; width: 100%; height: 500px;" 
-    scrolling="no" 
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <blockquote class="twitter-tweet" data-dnt="true" data-theme="light">
+    <p lang="en" dir="ltr">
+      <a href="https://twitter.com/ChefSunilSoni/status/686478571867652096"></a>
+    </p>
+  </blockquote>
 </div>
 
 <p><strong>Looking West</strong></p>
