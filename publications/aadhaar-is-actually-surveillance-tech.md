@@ -12,6 +12,10 @@ created: 2025-12-03
 
 **Aadhaar is Actually Surveillance Tech** is a 2016 *Business Standard* interview in which Sunil Abraham, then Executive Director of the Centre for Internet and Society (CIS), critiques the Aadhaar architecture, the UIDAI Bill, and the risks of centralised biometric databases. He discusses surveillance, authentication failures, ghost beneficiaries, privacy law, and the limits of using biometrics for governance in India.
 
+*Editorial note:* This *Business Standard* interview was later selected by *Scroll.in* as a "[weekly read](https://scroll.in/article/805033/the-daily-fix-my-fathers-killers-funeral-and-seven-other-great-weekend-reads)" in May 2016, recognising its relevance to public debates on Aadhaar, surveillance, and digital governance.  
+
+
+
 ## Contents
 
 1. [Article Details](#article-details)  
