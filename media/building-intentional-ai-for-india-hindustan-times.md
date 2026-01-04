@@ -2,7 +2,7 @@
 layout: default
 title: "Building Intentional AI for India"
 description: "A Hindustan Times Genesis article examining India's approach to developing inclusive AI systems, with insights from the Pragati: AI for Impact convening co-hosted by Meta and The/Nudge Institute."
-categories: [Media mentions]
+categories: [Artificial Intelligence, Media mentions]
 date: 2025-09-18
 authors: ["Jerold Pereira"]
 source: "Hindustan Times"
