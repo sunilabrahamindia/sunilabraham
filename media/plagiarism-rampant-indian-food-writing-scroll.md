@@ -85,17 +85,11 @@ created: 2026-01-04
 <p>Soni also denied the allegation when contacted for comment by Scroll.in.</p>
 
 <div class="tweet-embed-container">
-  <div style="max-width: 550px; margin: 1.5rem auto; padding: 1rem; border: 1px solid #e1e8ed; border-radius: 12px; background: #fff;">
-    <div style="display: flex; align-items: center; margin-bottom: 0.75rem;">
-      <strong>Sunil Soni</strong>
-      <span style="color: #657786; margin-left: 0.5rem;">@ChefSunilSoni</span>
-    </div>
-    <p style="margin-bottom: 0.75rem;">"Jashn e Oudh" Book Released</p>
-    <div style="color: #657786; font-size: 0.9rem;">2:53 PM · Jan 11, 2016</div>
-    <div style="margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid #e1e8ed;">
-      <a href="https://x.com/ChefSunilSoni/status/686478571867652096" target="_blank" style="color: #1da1f2; text-decoration: none;">View on X (Twitter) →</a>
-    </div>
-  </div>
+  <blockquote class="twitter-tweet" data-dnt="true" data-theme="light">
+    <p lang="en" dir="ltr">&quot;Jashn e Oudh&quot; Book Released <a href="https://t.co/yourImageLink">pic.twitter.com/yourImageLink</a></p>
+    &mdash; Sunil Soni (@ChefSunilSoni) 
+    <a href="https://x.com/ChefSunilSoni/status/686478571867652096?ref_src=twsrc%5Etfw">January 11, 2016</a>
+  </blockquote>
 </div>
 
 <p><strong>Looking West</strong></p>
@@ -228,43 +222,30 @@ The food blogging community's turn to social media represented a pragmatic adapt
 .copy-btn-full:hover {
   background: #e5e5e5;
 }
-.article-separator {
-  border: none;
-  border-top: 1px solid rgba(0,0,0,0.08);
-  margin: 0.75rem 0 1rem 0;
-}
-
 .fb-embed-container {
   text-align: center;
   margin: 1.5rem 0;
   max-width: 100%;
   overflow: hidden;
 }
-
 .fb-embed-container iframe {
   width: 100%;
   max-width: 500px;
   border: 0;
 }
-
-@media (max-width: 768px) {
-  .fb-embed-container iframe {
-    max-width: 100%;
-  }
-}
-  
 .tweet-embed-container {
   text-align: center;
-  margin: 0 auto; /* Reduced vertical margin */
+  margin: 1.5rem auto;
   max-width: 550px;
-  /* Ensure no extra padding from the blockquote */
 }
 .tweet-embed-container .twitter-tweet {
   margin-left: auto !important;
   margin-right: auto !important;
 }
-
 @media (max-width: 768px) {
+  .fb-embed-container iframe {
+    max-width: 100%;
+  }
   .tweet-embed-container {
     max-width: 100%;
     padding: 0 1rem;
@@ -291,3 +272,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
