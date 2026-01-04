@@ -2,7 +2,7 @@
 layout: default
 title: "NITI Aayog Discussion Paper: An Aspirational Step towards India's AI Policy"
 description: "Policy analysis by the Centre for Internet and Society (CIS) examining the NITI Aayog's 2018 discussion paper on India's National Strategy for Artificial Intelligence, highlighting its strengths, gaps, and recommendations for a rights-respecting AI ecosystem."
-categories: [Policy Briefs and Submissions, Publications]
+categories: [Artificial Intelligence, Policy Briefs and Submissions, Publications]
 date: 2018-06-01
 authors: ["Sunil Abraham", "Elonnai Hickok", "Amber Sinha", "Swaraj Barooah", "Shweta Mohandas", "Pranav M. Bidare", "Swagam Dasgupta", "Vishnu Ramachandran", "Senthil Kumar"]
 source: "The Centre for Internet and Society (CIS)"
