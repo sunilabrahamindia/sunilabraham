@@ -2,7 +2,7 @@
 layout: default
 title: "FB & Google Have Already Monopolised Indian Cyberspace"
 description: "A Catch News interview with Sunil Abraham discussing the US-India cyber framework, encryption policy, surveillance laws, and the monopolistic practices of Facebook and Google in India."
-categories: [Media articles, Interviews]
+categories: [Media mentions, Interviews]
 date: 2016-07-03
 authors: ["Asad Ali"]
 source: "Catch News"
