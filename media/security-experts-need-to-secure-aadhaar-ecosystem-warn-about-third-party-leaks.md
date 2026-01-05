@@ -51,7 +51,7 @@ Security researchers warn that leaks are happening in third-party sites and agen
 
 <p>While the Unique Identification Authority of India (UIDAI) has maintained that its database is secure and there are no breaches of Aadhaar data from its system, security researchers warn that leaks are happening in third-party sites and it is important for the agency to ensure that its ecosystem adopts measures to keep data safe.</p>
 
-<p>"Securing an entire ecosystem is more important than secure individual databases," said security researcher Srinivas Kodali. Over the weekend, technology publication ZDnet citing an Indian security researcher said that it identified Aadhaar data leaks on a system run by a state-owned utility company Indane that allowed anyone to access sensitive information like a name, Aadhar number, bank details. The leak was plugged soon after the report appeared.</p>
+<p>"Securing an entire ecosystem is more important than secure individual databases," said security researcher Srinivas Kodali. Over the weekend, technology publication ZDnet citing an Indian security researcher said that it identified Aadhaar data leaks on a system run by a state-owned utility company Indane that allowed anyone to access sensitive information like a name, Aadhaar number, bank details. The leak was plugged soon after the report appeared.</p>
 
 <p>UIDAI came out with a strong statement denying the breach. "There is no truth in the story as there has been absolutely no breach of UIDAI's Aadhaar database. Aadhaar remains safe and secure," the government agency said.</p>
 
@@ -59,7 +59,7 @@ Security researchers warn that leaks are happening in third-party sites and agen
 
 <p>"The simple parallel that can be drawn is, though Facebook's core database of users information was secure, the data leak happened through third-party developers and organisation like Cambridge Analytica that have allegedly misused it," Kodali said.</p>
 
-<p>"In case of Aadhar too, the allegations of breaches have not been on ‘Aadhaar database' but rather at insecure government websites and third-parties with API access to the database. In this aspect, the issue in Facebook and Aadhaar is similar. In both the cases there was no breach of database, but it was third parties that acted as the weakest link. In both cases, it was a legitimate means of access through API that was open for abuse," said Sunil Abraham, executive director, Centre for Internet and Society.</p>
+<p>"In case of Aadhaar too, the allegations of breaches have not been on ‘Aadhaar database' but rather at insecure government websites and third-parties with API access to the database. In this aspect, the issue in Facebook and Aadhaar is similar. In both the cases there was no breach of database, but it was third parties that acted as the weakest link. In both cases, it was a legitimate means of access through API that was open for abuse," said Sunil Abraham, executive director, Centre for Internet and Society.</p>
 
 <p>UIDAI could take a leaf from Indian Space Research Organisation while handling data breach reports. The state-run space agency put out a note appreciating security researches for their efforts. An email ID to report flaws is more important than summoning people regarding data breaches.</p>
 
