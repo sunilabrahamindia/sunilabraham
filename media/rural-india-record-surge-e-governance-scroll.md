@@ -62,7 +62,7 @@ created: 2026-01-04
 
 <p>An e-transaction is the delivery of any government service over electronic means, such as mobile phones or computers.</p>
 
-<p>For example, a right-to-information query filed through the Department of Personnel and Training website, www.rtionline.gov.in, or a farmer seeking weather advisories over text message, is recorded as an e-transaction.</p>
+<p>For example, a right-to-information query filed through the Department of Personnel and Training website, [www.rtionline.gov.in](https://www.rtionline.gov.in), or a farmer seeking weather advisories over text message, is recorded as an e-transaction.</p>
 
 <p>Our analysis shows that Indians in rural areas particularly use e-services to seek weather advisories, obtain copies of land records, get crop prices and public-distribution system coupons for subsidised food.</p>
 
@@ -206,17 +206,14 @@ However, experts cautioned against treating transaction volume as the sole measu
 .copy-btn-full:hover {
   background: #e5e5e5;
 }
-.article-separator {
-  border: none;
-  border-top: 1px solid rgba(0,0,0,0.08);
-  margin: 0.75rem 0 1rem 0;
-}
+
+/* Responsive video container */
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  max-width: 75%;
+  max-width: 100%; /* 100% width on mobile */
   margin: 1.5rem auto; 
 }
 
@@ -227,6 +224,13 @@ However, experts cautioned against treating transaction volume as the sole measu
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* Desktop view - 75% width */
+@media (min-width: 768px) {
+  .video-container {
+    max-width: 75%;
+  }
 }
 </style>
 
