@@ -2,14 +2,9 @@
 layout: none
 ---
 # robots.txt for https://sunilabraham.in/
-# Prevents search engines from indexing non-content utility directories and pages
 
 User-agent: *
 Disallow: /sandbox/
 Disallow: /random/
 
-# Allow everything else
-Allow: /
-
-# Optional sitemap reference (recommended for SEO)
 Sitemap: https://sunilabraham.in/sitemap.xml
