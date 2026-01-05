@@ -69,7 +69,7 @@ background: linear-gradient(
 /* =========================================================
    Site Title Enhanced Animation (Accessible & Subtle)
    ========================================================= */
-.site-header h1 {
+.site-header .site-title {
   position: relative;
   display: inline-block;
   font-size: 2.6rem;
@@ -90,7 +90,7 @@ background: linear-gradient(
 }
 
 /* Soft hover glow */
-.site-header h1:hover {
+.site-header .site-title:hover {
   text-shadow: 0 0 8px rgba(40, 124, 124, 0.25);
   transform: translateY(-1px);
   transition: text-shadow 0.4s ease, transform 0.3s ease;
@@ -123,7 +123,7 @@ background: linear-gradient(
 
 /* Respect reduced-motion user preferences */
 @media (prefers-reduced-motion: reduce) {
-  .site-header h1 {
+  .site-header .site-title {
     animation: fadeUpTitle 1.2s ease-out;
     background-position: center;
   }
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Site title (in header) */
-.site-header h1 {
+.site-header .site-title {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0.4rem;
@@ -532,7 +532,7 @@ td, th {
     padding: 0 1rem 3rem;
   }
 
-  .site-header h1 {
+  .site-header .site-title {
     font-size: 2rem;
   }
 
