@@ -9,7 +9,8 @@ permalink: /media/indian-government-wakes-up-to-risk-of-hotmail-gmail/
 created: 2025-12-22
 ---
 
-**Indian Government Wakes Up to Risk of Hotmail, Gmail** is an investigative report published by *NDTV* on 8 December 2013, written by Agence France-Presse. The article reveals that an estimated 90 per cent of Indian government officials used private email services like Gmail and Hotmail for official communications despite security risks, prompting a belated government email policy following Edward Snowden's NSA revelations. It features critical commentary from Sunil Abraham on the vulnerabilities of US-based email platforms and the potential risks of the proposed centralised government email system.
+**Indian Government Wakes Up to Risk of Hotmail, Gmail** is an *NDTV* news report published on 8 December 2013, sourced from AFP. An identical version of this wire report was also carried by [*Deccan Chronicle*](/media/indian-government-email-security-risks-deccan-chronicle/) around the same period, reflecting the common syndication of the article across Indian news outlets. The report notes that a large proportion of Indian government officials relied on private email services such as Gmail and Hotmail for office communication despite security concerns, prompting plans for a government email policy in the wake of Edward Snowden’s NSA surveillance revelations. It includes expert commentary from Sunil Abraham on the vulnerabilities of US-based email platforms and the risks associated with proposed centralised government email systems.
+
 
 ## Contents
 
@@ -23,9 +24,6 @@ created: 2025-12-22
 <dl class="media-details">
   <dt>📰 Published in:</dt>
   <dd><em>NDTV</em></dd>
-
-  <dt>✍️ Author:</dt>
-  <dd>Agence France-Presse</dd>
 
   <dt>📅 Date:</dt>
   <dd>8 December 2013</dd>
