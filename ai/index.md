@@ -104,6 +104,18 @@ In addition to archival material, the portal will gradually include project note
 <div class="ai-content-card">
   <div class="ai-card-marker">◆</div>
   <div class="ai-card-content">
+    <h3>Regulation Should Build Trust, Not Control</h3>
+    <p class="ai-card-year">2024</p>
+    <p>
+      A Varindia event report from the 6th Global AI Leadership Meet organised by ASSOCHAM, documenting Dr. Amar Patnaik’s call for trust-based approaches to AI regulation. The discussion brings together policymakers and industry leaders to examine how governance frameworks can encourage innovation without overreach, with contributions on data access, open standards, and layered models of AI accountability.
+    </p>
+    <a href="/media/ai-regulation-trust-assocham-varindia/" class="ai-card-link">Read more →</a>
+  </div>
+</div>
+
+<div class="ai-content-card">
+  <div class="ai-card-marker">◆</div>
+  <div class="ai-card-content">
     <h3>Building Intentional AI for India</h3>
     <p class="ai-card-year">2025</p>
     <p>
