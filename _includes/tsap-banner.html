@@ -1,0 +1,186 @@
+<div class="tsap-banner"
+     role="img"
+     aria-label="Graffiti-style banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless device, pendrive, laptop and communication tower on a brick wall.">
+<span class="tsap-banner-hover-text"></span>
+  <img class="tsap-image"
+       src="/assets/images/tsap-welcome-banner.png"
+       alt="Graffiti mural banner for the Sunil Abraham Project showing colourful 1990s India technology icons like a rotary phone, wireless set, USB drive, laptop and communication tower painted on a brick wall background.">
+</div>
+
+<style>
+  .tsap-banner {
+  width: 100%;
+  margin: 0 auto 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+.tsap-banner img.tsap-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+  position: relative;
+  z-index: 1;
+}
+
+.tsap-banner-hover-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 8px 16px;
+  font-size: 1rem;
+  background: rgba(10, 46, 87, 0.9);
+  color: #fff;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 2;
+  font-weight: 500;
+}
+
+.tsap-banner:hover .tsap-banner-hover-text {
+  opacity: 1;
+}
+
+@media (min-width: 900px) {
+  .tsap-banner img.tsap-image {
+    height: 150px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .tsap-banner img.tsap-image {
+    height: 50px;
+    object-fit: cover;
+  }
+  .tsap-banner-hover-text {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 280px) {
+  .tsap-banner {
+    display: none !important;
+  }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  /* 1) Fixed first entry + remaining greetings */
+  const firstGreeting = "[kn] ನಮಸ್ಕಾರ";  // always first
+
+  const otherGreetings = [
+    "[ar] السلام عليكم",
+    "[as] নমস্কাৰ",
+    "[bn] নমস্কার",
+    "[de] Hallo",
+    "[en] Hello",
+    "[es] Hola",
+    "[fr] Bonjour",
+    "[gu] નમસ્તે",
+    "[he] שלום",
+    "[hi] नमस्ते",
+    "[id] Halo",
+    "[it] Ciao",
+    "[ja] こんにちは",
+    "[ko] 안녕하세요",
+    "[ml] നമസ്കാരം",
+    "[mr] नमस्कार",
+    "[pa] ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+    "[pt] Olá",
+    "[ru] Привет",
+    "[sa] स्वागतम्",
+    "[ta] நமஸ்காரம்",
+    "[te] నమస్కారం",
+    "[tr] Merhaba",
+    "[ur] السلام عليكم",
+    "[zh] 你好"
+  ];
+
+  const banner = document.querySelector(".tsap-banner");
+  const textEl = document.querySelector(".tsap-banner-hover-text");
+  if (!banner || !textEl) return;
+
+  /* preload Kannada */
+  textEl.textContent = firstGreeting;
+
+  let interval;
+  let mobileTimer;
+
+  /* Fisher–Yates shuffle */
+  function shuffle(array) {
+    let a = array.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  /* Randomised safe placement */
+  function randomisePosition() {
+    const rect = banner.getBoundingClientRect();
+
+    const textW = textEl.offsetWidth;
+    const textH = textEl.offsetHeight;
+
+    const margin = 4;
+    const maxX = Math.max(0, rect.width  - textW - margin);
+    const maxY = Math.max(0, rect.height - textH - margin);
+
+    const x = Math.random() * maxX + margin / 2;
+    const y = Math.random() * maxY + margin / 2;
+
+    textEl.style.left = `${x}px`;
+    textEl.style.top  = `${y}px`;
+  }
+
+  function startRotation() {
+
+    textEl.style.opacity = "1";
+    randomisePosition();
+
+    /* Create new random order each time */
+    const sequence = [firstGreeting, ...shuffle(otherGreetings)];
+
+    let i = 0;
+
+    interval = setInterval(() => {
+      i = (i + 1) % sequence.length;
+      textEl.textContent = sequence[i];
+      randomisePosition();
+    }, 1400);
+  }
+
+  function stopRotation() {
+    clearInterval(interval);
+    textEl.textContent = firstGreeting;  // reset to Kannada
+    textEl.style.opacity = "0";
+  }
+
+  /* Desktop hover */
+  banner.addEventListener("mouseenter", startRotation);
+  banner.addEventListener("mouseleave", stopRotation);
+
+  /* Mobile tap */
+  banner.addEventListener("click", () => {
+    stopRotation();
+    startRotation();
+
+    clearTimeout(mobileTimer);
+    mobileTimer = setTimeout(stopRotation, 14000); // 14s
+  });
+
+});
+</script>
