@@ -2,7 +2,7 @@
 layout: default
 title: "Regulation Should Build Trust, Not Control, says Dr. Amar Patnaik at 6th Global AI Leadership Meet"
 description: "A Varindia report covering the 6th Global AI Leadership Meet 2024 organised by ASSOCHAM, featuring Dr. Amar Patnaik's keynote on trust-based AI regulation and Sunil Abraham's remarks on balanced governance frameworks and open standards."
-categories: [Media mentions]
+categories: [Artificial Intelligence, Media mentions]
 date: 2024-02-21
 authors: ["Varindia"]
 source: "Varindia"
@@ -80,7 +80,7 @@ Dr. Patnaik's emphasis on "trust-based" rather than "control-based" regulation o
 
 The data access problem Patnaik highlighted had regulatory dimensions. Existing competition frameworks inadequately addressed digital platform dominance, whilst privacy protections remained fragmented across sectoral regulations. Startups and smaller businesses lacked technical infrastructure to process large datasets even when theoretically available, creating structural barriers beyond legal access rights.
 
-Abraham's four-tiered governance model—corporate responsibility, industry self-regulation, government guidelines, and statutory law—acknowledged that different AI applications required calibrated responses. His caution against "exaggerating" AI risks likely referenced alarmist narratives about artificial general intelligence that distracted from immediate concerns like algorithmic bias in credit scoring or employment decisions.
+Sunil Abraham's four-tiered governance model—corporate responsibility, industry self-regulation, government guidelines, and statutory law—acknowledged that different AI applications required calibrated responses. His caution against "exaggerating" AI risks likely referenced alarmist narratives about artificial general intelligence that distracted from immediate concerns like algorithmic bias in credit scoring or employment decisions.
 
 The advocacy for open standards and open science particularly resonated with government technology initiatives. India's Digital Public Infrastructure approach—exemplified by unified payment systems and identity frameworks—demonstrated how open architectures could enable innovation whilst maintaining public oversight. Applying similar principles to AI datasets and model development could theoretically democratise access beyond proprietary corporate ecosystems.
 
