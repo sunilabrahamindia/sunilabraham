@@ -2,7 +2,7 @@
 layout: default
 title: "Mahiti Infotech"
 description: "Mahiti Infotech is an Indian technology organisation that develops open-source and low-cost ICT solutions for civil society organisations. The company was co-founded by Sunil Abraham and others in the late 1990s and has worked with non-profit actors on monitoring, evaluation and data tools."
-categories: [Sunil Abraham]
+categories: [Institutions, Sunil Abraham]
 permalink: /articles/mahiti-infotech/
 created: 2026-01-07
 ---
