@@ -13,6 +13,27 @@ Mahiti operates as a private limited company and employs over 50 technology prof
 
 Sreekanth S. Rameshaiah currently serves as the executive director and chief executive officer of Mahiti Infotech Private Limited.
 
+## Contents
+
+1. [Company Details](#company-details)
+2. [History](#history)
+   - [Founding and early years](#founding-and-early-years)
+   - [Early operations and capacity building](#early-operations-and-capacity-building)
+   - [Expansion and regional influence](#expansion-and-regional-influence)
+3. [Operations](#operations)
+   - [Technology philosophy and approach](#technology-philosophy-and-approach)
+   - [Client sectors and application areas](#client-sectors-and-application-areas)
+   - [Sustainable Development Goals alignment](#sustainable-development-goals-alignment)
+4. [Sunil Abraham's involvement](#sunil-abrahams-involvement)
+5. [Leadership and governance](#leadership-and-governance)
+   - [Board of Directors](#board-of-directors)
+   - [Advisory Board](#advisory-board)
+   - [Senior Management](#senior-management)
+6. [Recognition and influence](#recognition-and-influence)
+7. [Current status](#current-status)
+8. [References](#references)
+9. [External links](#external-links)
+
 ## Company Details
 
 <dl class="company-details">
@@ -62,8 +83,6 @@ Sreekanth S. Rameshaiah currently serves as the executive director and chief exe
 
 <dt>🌐 Official Website:</dt>
 <dd><a href="https://mahiti.org/" rel="noopener noreferrer">mahiti.org</a></dd>
-</dl>
-
 </dl>
 
 ## History
