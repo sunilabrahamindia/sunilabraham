@@ -44,20 +44,26 @@ Sreekanth S. Rameshaiah currently serves as the executive director and chief exe
 <dt>💼 Business Activity:</dt>
 <dd>IT Services and IT Consulting / Business Services</dd>
 
-<dt>💰 Authorised Capital:</dt>
-<dd>₹97,00,000 (₹97.00 lakhs) <em>(as per last available filings; subject to change)</em></dd>
+<dt>👥 Current Directors:</dt>
+<dd>
+  <ul>
+    <li>Sreekanth Shamaiah Rameshaiah</li>
+    <li>Chethan Elvis Das</li>
+    <li>Vijay Rasquinha</li>
+    <li>Kashi Suryanarayana Setty Ajay</li>
+  </ul>
+</dd>
 
-<dt>💵 Paid-up Capital:</dt>
-<dd>₹53,50,000 (₹53.50 lakhs) <em>(as per last available filings; subject to change)</em></dd>
+<dt>📋 Listing Status:</dt>
+<dd>Unlisted</dd>
 
 <dt>📍 Registered Address:</dt>
 <dd>No.19/2A, Thimmegowda Layout, Kothanur, Dr. Shivaramakaranth Nagar, Bangalore East, Bangalore, Karnataka, 560077, India</dd>
 
-<dt>👥 Current Directors:</dt>
-<dd>Sreekanth Shamaiah Rameshaiah, Chethan Elvis Das, Vijay Rasquinha, Kashi Suryanarayana Setty Ajay</dd>
+<dt>🌐 Official Website:</dt>
+<dd><a href="https://mahiti.org/" rel="noopener noreferrer">mahiti.org</a></dd>
+</dl>
 
-<dt>📋 Listing Status:</dt>
-<dd>Unlisted</dd>
 </dl>
 
 ## History
