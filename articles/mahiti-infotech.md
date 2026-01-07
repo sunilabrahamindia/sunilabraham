@@ -239,6 +239,7 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 }
 
 .company-details dt {
+  display: inline;
   font-weight: 600;
   color: #1a3a5c;
   margin-top: 0.9rem;
@@ -250,11 +251,34 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 }
 
 .company-details dd {
-  margin: 0.2rem 0 0.5rem 0.4rem;
+  display: inline;
+  margin: 0 0 0 0.4rem;
   color: #444;
   font-size: 0.94rem;
 }
-  .time-ago {
+
+.company-details dd::after {
+  content: "";
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.company-details dd:last-of-type::after {
+  margin-bottom: 0;
+}
+
+/* Style the nested list */
+.company-details dd ul {
+  display: block;
+  margin: 0.3rem 0 0 1.5rem;
+  padding: 0;
+}
+
+.company-details dd ul li {
+  margin: 0.2rem 0;
+}
+
+.time-ago {
   font-size: 0.88rem;
   color: #5a7a99;
   font-weight: normal;
