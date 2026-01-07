@@ -92,6 +92,18 @@ In addition to archival material, the portal will gradually include project note
 <div class="ai-content-card">
   <div class="ai-card-marker">◆</div>
   <div class="ai-card-content">
+    <h3>#NAMAprivacy: Regulating Artificial Intelligence Algorithms</h3>
+    <p class="ai-card-year">2017</p>
+    <p>
+      A MediaNama conference report published on 18 October 2017 by Aroon Deep, documenting discussions from the #NAMAprivacy event in Bangalore on regulating artificial intelligence systems. The article examines algorithmic bias, fairness, transparency, and institutional accountability, featuring contributions from Sunil Abraham and Pranesh Prakash, alongside researchers and legal experts debating whether regulation should focus on inputs, processes, or outcomes.
+    </p>
+    <a href="/media/namaprivacy-regulating-ai-algorithms-medianama/" class="ai-card-link">Read more →</a>
+  </div>
+</div>
+
+<div class="ai-content-card">
+  <div class="ai-card-marker">◆</div>
+  <div class="ai-card-content">
     <h3>Banking on Artificial Intelligence: In Hiring Drive, Bots Are Calling the Shots Now</h3>
     <p class="ai-card-year">2019</p>
     <p>
