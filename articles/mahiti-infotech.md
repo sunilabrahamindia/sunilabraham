@@ -37,6 +37,11 @@ Sreekanth S. Rameshaiah currently serves as the executive director and chief exe
 ## Company Details
 
 <dl class="company-details">
+
+<div class="company-logo">
+  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/mahiti-infotech-logo.jpg" alt="Mahiti Infotech logo featuring green interwoven lines and orange text" />
+</div>
+
 <dt>🏢 Company Name:</dt>
 <dd>Mahiti Infotech Private Limited</dd>
 
@@ -225,6 +230,27 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 - [LinkedIn company page](https://www.linkedin.com/company/mahiti-infotech-pvt.-ltd./)
 
 <style>
+
+   .company-logo {
+  text-align: center;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e0e8f0;
+}
+
+.company-logo img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .company-logo img {
+    max-width: 150px;
+  }
+}
+   
 .company-details {
   background: #f0f7ff;
   border: 1px solid #b8d4f1;
