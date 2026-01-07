@@ -1,0 +1,384 @@
+---
+layout: default
+title: "Mahiti Infotech"
+description: "Mahiti Infotech is an Indian technology organisation that develops open-source and low-cost ICT solutions for civil society organisations. The company was co-founded by Sunil Abraham and others in the late 1990s and has worked with non-profit actors on monitoring, evaluation and data tools."
+categories: [Sunil Abraham]
+permalink: /articles/mahiti-infotech/
+created: 2026-01-07
+---
+
+**Mahiti Infotech Private Limited** (Kannada: ಮಹಿತಿ ಇನ್ಫೋಟೆಕ್; Marathi: माहिती इन्फोटेक), commonly known as **Mahiti Infotech**, is an Indian information technology company that specialises in developing digital solutions for the social sector. Founded in 1998 and formally incorporated on Wedneday, 3 July 2002, the company is headquartered in Bangalore, Karnataka, India. The name 'Mahiti' (pronounced /məˈɦiːt̪i/) derives from the word meaning 'information' or 'knowledge' in Kannada (ಮಹಿತಿ) and Marathi (माहिती).
+
+Mahiti operates as a private limited company and employs over 50 technology professionals, including engineers and domain experts. The company has worked with more than 500 organisations across five continents, deploying multi-platform, multi-lingual, and multimedia-enabled web, intranet, kiosk, and mobile applications. Its projects have supported the achievement of Millennium Development Goals (MDGs) and subsequently the Sustainable Development Goals (SDGs) through technology interventions in disadvantaged communities.
+
+Sreekanth S. Rameshaiah currently serves as the executive director and chief executive officer of Mahiti Infotech Private Limited.
+
+## Company Details
+
+<dl class="company-details">
+<dt>🏢 Company Name:</dt>
+<dd>Mahiti Infotech Private Limited</dd>
+
+<dt>📋 CIN:</dt>
+<dd>U74140KA2002PTC030717</dd>
+
+<dt>📅 Date of Incorporation:</dt>
+<dd class="incorporation-date">Wednesday, 3 July 2002</dd>
+
+
+<dt>🏛️ Registrar of Companies:</dt>
+<dd>RoC-Bangalore</dd>
+
+<dt>📊 Company Status:</dt>
+<dd>Active</dd>
+
+<dt>🏷️ Company Category:</dt>
+<dd>Company Limited by Shares</dd>
+
+<dt>🏭 Company Class:</dt>
+<dd>Private</dd>
+
+<dt>🏢 Company Sub-category:</dt>
+<dd>Non-Government Company</dd>
+
+<dt>💼 Business Activity:</dt>
+<dd>IT Services and IT Consulting / Business Services</dd>
+
+<dt>💰 Authorised Capital:</dt>
+<dd>₹97,00,000 (₹97.00 lakhs) <em>(as per last available filings; subject to change)</em></dd>
+
+<dt>💵 Paid-up Capital:</dt>
+<dd>₹53,50,000 (₹53.50 lakhs) <em>(as per last available filings; subject to change)</em></dd>
+
+<dt>📍 Registered Address:</dt>
+<dd>No.19/2A, Thimmegowda Layout, Kothanur, Dr. Shivaramakaranth Nagar, Bangalore East, Bangalore, Karnataka, 560077, India</dd>
+
+<dt>👥 Current Directors:</dt>
+<dd>Sreekanth Shamaiah Rameshaiah, Chethan Elvis Das, Vijay Rasquinha, Kashi Suryanarayana Setty Ajay</dd>
+
+<dt>📋 Listing Status:</dt>
+<dd>Unlisted</dd>
+</dl>
+
+## History
+
+### Founding and early years
+
+Mahiti was co-founded in 1998 by Sunil Abraham and other partners as an initiative to reduce the cost and complexity of information technology for the voluntary sector through the use of free and open-source software. The founding vision emerged from Sunil Abraham's earlier work with Samuha, an integrated development organisation in Karnataka, where he managed the computer department and supported rural development programmes with low-cost digital tools. This experience highlighted the barriers that non-profit organisations faced in adopting technology, particularly prohibitive licensing costs and technical complexity.
+
+The initiative was established during a period when digital access in India remained limited and expensive, and when most technology companies focused on commercial clients rather than the social sector. Mahiti positioned itself as one of the few Indian technology firms dedicated exclusively to civil society and development organisations. The company was formally incorporated as Mahiti Infotech Private Limited in July 2002 under the Corporate Identity Number U74140KA2002PTC030717.
+
+### Early operations and capacity building
+
+During its early years, Mahiti developed a practice model that combined technology development with capacity building for non-profit organisations. The company conducted workshops on FOSS adoption, content management systems, and participatory design, enabling grassroots organisations to manage their own digital infrastructure. Sunil Abraham served as Director and later as Director of International Relations from 1998 to 2004, during which period the organisation established its operational model, client base, and partnerships with international development agencies.
+
+The company built web platforms, intranet systems, and training programmes that made digital tools accessible to organisations with limited budgets. Mahiti also organised and participated in regional events promoting open-source software, including Asia Source conferences and training programmes for civil society organisations across Asia. This work contributed to a broader movement advocating for technology sovereignty and reduced dependence on proprietary software in the Global South.
+
+### Expansion and regional influence
+
+By 2008, Mahiti had served over 500 organisations directly and had expanded its reach across Asia, Africa, and other regions. The company's client base included governments, international development agencies, non-governmental organisations, and community groups working in multiple sectors. Mahiti's approach to participatory design and appropriate technology gained recognition within the international development community, leading to partnerships with multilateral organisations and funders.
+
+Sreekanth S. Rameshaiah has been associated with Mahiti Infotech since 1999, initially serving as chief technology officer from December 1999 to March 2006. He then took on the role of co-founder and chief executive officer in March 2006, a position he continues to hold. During his tenure as CEO, Mahiti has expanded its service portfolio to encompass cloud-based platforms, data analytics, and visualisation tools designed for civil society organisations, while retaining a focus on simplicity, user participation, and open-source technologies.
+
+## Operations
+
+### Technology philosophy and approach
+
+Mahiti's design and development philosophy emphasises creating solutions that are appropriate for the operational realities of social development organisations. The company specialises in understanding the unique challenges faced by such organisations and mentors them to generate, analyse, and manage data for improved programme quality. Projects are developed using open-source tools, which reduce licensing costs, allow for customisation to local contexts, and promote technology independence.
+
+The company's approach is characterised by a social impact focus, technology leadership, global reach, and a 'partner first' philosophy. Mahiti's solutions are designed to function across multiple platforms and support multiple languages, addressing the linguistic diversity of communities in the Global South. The organisation also emphasises secure, cloud-based solutions that enable civil society organisations to transition from on-premises infrastructure.
+
+### Client sectors and application areas
+
+Mahiti has developed technology solutions for organisations working in agriculture, civil society support, disability rights, education, health, and HIV/AIDS. In agriculture, the company has enabled farmer groups to gather and analyse data for mapping productivity, forecasting input requirements, and enhancing returns. Education projects have included tools for monitoring school enrolments and scholastic achievements to improve the quality of education.
+
+Health initiatives have involved technology-based systems for monitoring implementation, live reporting, and analytics to facilitate continual improvement of programme delivery. Disability-focused work has included deploying technology-based systems and processes to enhance programme management, services, and assistive technologies. HIV/AIDS projects have monitored prevalence and the adequacy of support services to design and deliver high-quality programmes for HIV-impacted populations.
+
+The company's work has extended to remote locations and disadvantaged communities across five continents. Mahiti has partnered with organisations in UN-prioritised low-income countries such as Afghanistan, Myanmar, Nepal, Kenya, and Tanzania, as well as with excluded and vulnerable communities in both rural and urban locations within India and other middle-income countries.
+
+### Sustainable Development Goals alignment
+
+Mahiti's work aligns with several Sustainable Development Goals (SDGs) adopted by the United Nations in 2015. The organisation has identified particular relevance to SDG 2 on food security, nutrition, and sustainable agriculture; SDG 3 on health and well-being; SDG 4 on inclusive and equitable quality education; SDG 5b on enhancing the use of enabling technology to promote the empowerment of women; and SDG 9 on increasing access to information and communications technology.
+
+The company's stated vision is to positively impact one billion lives globally by 2030 through the effective use of technology. Its mission is to create and deploy technology to enhance efficiency, effectiveness, and scalability of social development programmes. Mahiti's stated values include customer focus, empathy, innovation, integrity, quality assurance, and transparency.
+
+## Sunil Abraham's involvement
+
+Sunil Abraham was a co-founder of Mahiti and played an important role in establishing the company's focus on open-source technology and the social sector. An engineer and social entrepreneur, Abraham had previously worked with Samuha, an integrated development organisation in Karnataka, where he managed the computer department and supported rural development initiatives with digital tools. This experience informed his vision for Mahiti as an organisation that could make technology accessible and affordable for voluntary sector organisations through free and open-source software.
+
+Abraham served as Director from 1998 and later as Director of International Relations until 2004, when he transitioned to full-time policy and research work. During his tenure, he was instrumental in building partnerships with international organisations, promoting FOSS advocacy within the Indian voluntary sector, and establishing Mahiti's operational model. He continues to serve on the company's advisory board.
+
+## Leadership and governance
+
+Sreekanth S. Rameshaiah serves as co-founder and chief executive officer of Mahiti Infotech, a position he has held since March 2006. Under his leadership, the organisation has maintained its mission to empower the social sector through appropriate technology whilst expanding its technical capabilities. The company continues to operate with a team of over 50 creative professionals, innovative IT engineers, and domain experts at its development centre in Bangalore.
+
+The governance structure of Mahiti reflects its character as a social enterprise dedicated to technology solutions for development organisations.
+
+### Board of Directors
+
+The company is led by Sreekanth S. Rameshaiah as Executive Director, supported by three directors overseeing key operational areas:
+
+- **Chethan Elvis Das** – Director, Operations
+- **Paul Ben Venganikel** – Director, Business Enablement
+- **Ajay Setty** – Director, Technology
+
+### Advisory Board
+
+Mahiti's advisory board comprises five members who provide strategic guidance:
+
+- **Murray Culshaw** – Ex-Chairperson, Principal Advisor
+- **Rachel Haynes** – Advisor
+- **Ben Aliwa** – Advisor
+- **Sunil Abraham** – Advisor
+- **Atul Ramchandra** – Advisor
+
+### Senior Management
+
+The senior management team includes:
+
+- **Padma** – Head, Finance
+- **Aysha Sreekanth** – Head, Client Relations
+
+The organisation operates with a multi-talented team of over 50 creative professionals, innovative IT engineers, and domain experts at its development centre in Bangalore.
+
+## Recognition and influence
+
+Mahiti's work has been recognised for its contribution to ICT4D (information and communication technology for development) and its demonstration that appropriate technology can be delivered to grassroots organisations through participatory design and open-source tools. The company's portfolio of technology solutions covers excluded categories of people and communities, countries considered low-income or least developed, and sectors where the Millennium Development Goals failed to reach targets.
+
+The organisation has been characterised by its social impact focus, technology leadership, and global reach. Its work has contributed to the broader movement advocating for the use of free and open-source software in the social sector, demonstrating that civil society organisations can access sophisticated digital tools without prohibitive costs.
+
+Mahiti was incubated by Samuha, which noted the company as one of several independent entities that emerged from its development work and continue to operate in the development sector. The company's approach to mentoring organisations to generate, analyse, and manage data has been cited as contributing to improved programme quality among its clients.
+
+## Current status
+
+Mahiti Infotech Private Limited maintains its operations in Bangalore, with the registered office situated at Ganesh Chambers, Banaswadi, and its primary office located at No.19/2A, Thimmegowda Layout, Kothanur, Dr. Shivaramakaranth Nagar, Bangalore East, Karnataka, 560077. The organisation remains active within the IT services and consulting sector, employing a workforce exceeding 50 professionals. The company's ongoing efforts concentrate on sustainable development initiatives, particularly in facilitating the adoption of secure cloud-based solutions by civil society organisations and enabling these entities to harness data for measurable social impact.
+
+## References
+
+1. [Who we Are](https://mahiti.org/who-we-are/). Mahiti.org. 26 August 2024. Retrieved 7 January 2026.
+2. [Mahiti Infotech | LinkedIn](https://in.linkedin.com/company/mahiti-infotech-pvt.-ltd.). LinkedIn. 31 December 1999. Retrieved 7 January 2026.
+3. [MAHITI INFOTECH PRIVATE LIMITED | Company Profile & Report](https://www.credencedata.com/company-profile/in/mahiti-infotech-private-limited-d23a68b5). Credence Data. 2 July 2002. Retrieved 7 January 2026.
+4. [MAHITI INFOTECH PRIVATE LIMITED - IndiaFilings](https://www.indiafilings.com/search/mahiti-infotech-private-limited-cin-U74140KA2002PTC030717). IndiaFilings. Retrieved 7 January 2026.
+5. [Home](https://mahiti.org). Mahiti.org. 21 March 2016. Retrieved 7 January 2026.
+6. [Mahiti Infotech Private Limited - 2025 Insights](https://www.thecompanycheck.com/company/mahiti-infotech-private-limited/U74140KA2002PTC030717). The Company Check. Retrieved 7 January 2026.
+7. [Sunil Abraham](https://cis-india.org/internet-governance/sunil-cv.pdf) (PDF). Centre for Internet and Society. Retrieved 7 January 2026.
+8. [MAHITI INFOTECH PRIVATE LIMITED - ClearTax](https://cleartax.in/f/company/mahiti-infotech-private-limited/U74140KA2002PTC030717/). ClearTax. Retrieved 7 January 2026.
+9. [Manthan: A Stakeholder Discussion on WSIS+20 Review & ...](https://www.youtube.com/watch?v=mRq47IZgxMQ). YouTube. 10 June 2025. Retrieved 7 January 2026.
+10. [IGF 2017 - Day 3 - Room XXVII - WS150 Good Governance ...](https://intgovforum.org/en/content/igf-2017-day-3-room-xxvii-ws150-good-governance-with-governments-getting-governments). Internet Governance Forum. Retrieved 7 January 2026.
+11. [Manthan: A Stakeholder Discussion on WSIS+20 Review ...](https://isoc.live/19320/). ISOC Live. Retrieved 7 January 2026.
+12. [Mahiti Infotech Management Team | Org Chart](https://rocketreach.co/mahiti-infotech-management_b5c780adf42e0d43). RocketReach. Retrieved 7 January 2026.
+13. [SILICON PLATEAU Volume Two](https://networkcultures.org/wp-content/uploads/2018/12/SiliconPlateau_VolumeTwo-1.pdf) (PDF). Network Cultures. Retrieved 7 January 2026.
+14. [Sreekanth S R - Mahiti Infotech Pvt. Ltd.](https://in.linkedin.com/in/srsree). LinkedIn. Retrieved 7 January 2026.
+15. [Data use models and data protection - Sunil Abraham](https://www.youtube.com/watch?v=RFd4sCSZwM8). YouTube. 11 February 2018. Retrieved 7 January 2026.
+16. [Google Hangout with Ashoka Fellow Sunil Abraham](https://www.youtube.com/watch?v=HSaRxysH0NY). YouTube. 12 June 2012. Retrieved 7 January 2026.
+17. [Sunil Abraham | The Perils and Prospects of Bringing the Next Billion Online](https://www.youtube.com/watch?v=amJaGwAgD_A). YouTube. 7 June 2015. Retrieved 7 January 2026.
+18. [Sunil Abraham - MIT Sloan Management Review India](https://mitsloanindia.com/article/sunil-abraham/). MIT Sloan Management Review India. 7 September 2025. Retrieved 7 January 2026.
+19. [Sunil Abraham | LinkedIn](https://in.linkedin.com/in/sunilaabraham). LinkedIn. Retrieved 7 January 2026.
+20. [Customer Case Studies | Info-Tech Research Group](https://www.infotech.com/customer-case-studies). Info-Tech Research Group. 31 December 1999. Retrieved 7 January 2026.
+21. [the-state-of-foss-report.pdf](https://state-of-foss.in/the-state-of-foss-report.pdf). State of FOSS in India. Retrieved 7 January 2026.
+22. [Portfolio](https://mahiti.org/portfolio/). Mahiti.org. 17 March 2016. Retrieved 7 January 2026.
+23. [Profile of Indian Voluntary Organisations 2013](https://ris.org.in/bricscivil/pdf/Publications/FIDC%20PROFILE-FINAL%20PRINT.pdf) (PDF). RIS. Retrieved 7 January 2026.
+24. [THE UN-INDIA CONNECT - UNIC-LIBRARY](https://digitallibrary.in.one.un.org/TempPdfFiles/2518_1.pdf) (PDF). UN Digital Library. Retrieved 7 January 2026.
+25. [Annual Report 2015-16](https://samuha.org/docs/SamuhaAnnReport15-16.pdf) (PDF). Samuha. Retrieved 7 January 2026.
+26. [ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿ ಮತ್ತು ಪಂಚಾಯತ್‌ ರಾಜ್‌ ಇಲಾಖೆ - ಕರ್ನಾಟಕ ಸರ್ಕಾರ](https://rdpr.karnataka.gov.in). RDPR Karnataka. 31 December 2025. Retrieved 7 January 2026. (in Kannada)
+27. [UNDP-APDIP international open source network - Asksource.info](https://asksource.info/resources/undp-apdip-international-open-source-network). Asksource.info. Retrieved 7 January 2026.
+28. [FOSS A General Introduction/About IOSN - Wikibooks](https://en.wikibooks.org/wiki/FOSS_A_General_Introduction/About_IOSN). Wikibooks. Retrieved 7 January 2026.
+29. [Building Online Communities of Practice: The International Open ...](https://www.unapcict.org/sites/default/files/2019-01/enote5.pdf) (PDF). UNAPCICT. Retrieved 7 January 2026.
+30. [Digital Review of Asia Pacific - dirAP - bhp08](https://www.southbound.com.my/dirAP/bhp08.htm). Southbound. Retrieved 7 January 2026.
+31. [International Fund for Agricultural Development (IFAD)](https://www.greenclimate.fund/ae/ifad). Green Climate Fund. 13 October 2016. Retrieved 7 January 2026.
+32. [Oasis](https://oasishq.org). Oasis HQ. 14 September 2024. Retrieved 7 January 2026.
+33. [FOSS Localization/About IOSN - Wikibooks](https://en.wikibooks.org/wiki/FOSS_Localization/About_IOSN). Wikibooks. Retrieved 7 January 2026.
+34. [Tools Mobilising Knowledge for Rural Development - HimalDoc](https://lib.icimod.org/records/vkst7-2qg80). ICIMOD Library. Retrieved 7 January 2026.
+35. [Guideline for Adopting Free and Open Source Software ...](https://mtcit.gov.om/library-3/guidelines-documentation-7/guidelines-68/guideline-for-adopting-free-and-open-source-software-fos). MTCIT Oman. Retrieved 7 January 2026.
+36. [Board and Society Members](https://cis-india.org/about/people/board-and-society-members). Centre for Internet and Society. 30 November 2011. Retrieved 7 January 2026.
+37. [CGI 20 Anos](http://cgi.br/20anos/en/universalidade/). CGI Brazil. Retrieved 7 January 2026.
+38. [C V S Sarma Memorial lecture | - UoH Herald](https://herald.uohyd.ac.in/c-v-s-sarma-memorial-lecture/). University of Hyderabad Herald. Retrieved 7 January 2026.
+
+## External links
+
+- [Official website](https://mahiti.org/)
+- [LinkedIn company page](https://www.linkedin.com/company/mahiti-infotech-pvt.-ltd./)
+
+<style>
+.company-details {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 16px;
+  padding: 0;
+  max-width: 850px;
+  margin: 2rem auto;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.company-details::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #ffd89b 0%, #19547b 100%);
+}
+
+.company-details dt {
+  background: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+  color: #2d3748;
+  margin: 0;
+  padding: 0.9rem 1.8rem 0.5rem 1.8rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(102, 126, 234, 0.1);
+  transition: all 0.3s ease;
+}
+
+.company-details dt:hover {
+  background: rgba(255, 255, 255, 1);
+  padding-left: 2rem;
+}
+
+.company-details dt:first-of-type {
+  padding-top: 1.5rem;
+}
+
+.company-details dd {
+  background: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  padding: 0.7rem 1.8rem 1.2rem 1.8rem;
+  color: #1a202c;
+  font-size: 0.98rem;
+  line-height: 1.7;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.08);
+  transition: all 0.3s ease;
+}
+
+.company-details dd:hover {
+  background: rgba(255, 255, 255, 1);
+  padding-left: 2rem;
+  transform: translateX(5px);
+}
+
+.company-details dd:last-of-type {
+  padding-bottom: 1.5rem;
+  border-bottom: none;
+}
+
+.company-details dd em {
+  color: #718096;
+  font-size: 0.88rem;
+}
+
+.time-ago {
+  display: inline-block;
+  font-size: 0.87rem;
+  color: #667eea;
+  font-weight: 600;
+  background: rgba(102, 126, 234, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  margin-left: 0.5rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add subtle hover effect to entire details box */
+.company-details:hover {
+  box-shadow: 0 15px 50px rgba(102, 126, 234, 0.4);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+  /* Mobile optimization */
+@media (max-width: 768px) {
+  .company-details {
+    margin: 1rem 0.5rem;
+    border-radius: 12px;
+  }
+  
+  .company-details dt {
+    padding: 0.8rem 1.2rem 0.4rem 1.2rem;
+    font-size: 0.8rem;
+  }
+  
+  .company-details dd {
+    padding: 0.6rem 1.2rem 1rem 1.2rem;
+    font-size: 0.92rem;
+  }
+  
+  .company-details dd:hover,
+  .company-details dt:hover {
+    transform: none;
+    padding-left: 1.2rem;
+  }
+  
+  .time-ago {
+    display: block;
+    margin: 0.5rem 0 0 0;
+    font-size: 0.82rem;
+  }
+}
+</style>
+
+<script>
+function calculateTimeAgo() {
+  const incorporationDate = new Date('2002-07-03');
+  const today = new Date();
+  
+  let years = today.getFullYear() - incorporationDate.getFullYear();
+  let months = today.getMonth() - incorporationDate.getMonth();
+  let days = today.getDate() - incorporationDate.getDate();
+  
+  // Adjust if days are negative
+  if (days < 0) {
+    months--;
+    const lastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
+    days += lastMonth.getDate();
+  }
+  
+  // Adjust if months are negative
+  if (months < 0) {
+    years--;
+    months += 12;
+  }
+  
+  return `${years} years, ${months} months, ${days} days ago`;
+}
+
+// Update the date display when page loads
+document.addEventListener('DOMContentLoaded', function() {
+  const dateElement = document.querySelector('.incorporation-date');
+  if (dateElement) {
+    const timeAgo = calculateTimeAgo();
+    dateElement.innerHTML = `Wednesday, 3 July 2002 <span class="time-ago">${timeAgo}</span>`;
+  }
+});
+</script>
+
+
