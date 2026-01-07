@@ -7,8 +7,6 @@ categories: [Project pages]
 created: 2025-10-19
 ---
 
-{% include v1.html %}
-
 <div class="hero-intro">
   <p><strong>Welcome</strong> to the <strong>Sunil Abraham Project</strong> (TSAP). This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights.</p>
   
