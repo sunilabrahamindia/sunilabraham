@@ -10,7 +10,7 @@ permalink: /media/sunil-abraham-joins-facebook-medianama/
 created: 2025-12-04
 ---
 
-**Sunil Abraham Joins Facebook India's Public Policy Team, Headed by Ankhi Das** is a MediaNama article published on 12 October 2020. The piece reports on Sunil Abraham joining Facebook India's public policy team as director for data and emerging technology and summarises the surrounding controversy regarding Facebook's moderation and political-bias allegations.
+**Sunil Abraham Joins Facebook India's Public Policy Team, Headed by Ankhi Das** is a *MediaNama* article published on 12 October 2020. The piece reports on Sunil Abraham joining Facebook India's public policy team as director for data and emerging technology and summarises the surrounding controversy regarding Facebook's moderation and political-bias allegations.
 
 ## Contents
 
