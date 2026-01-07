@@ -156,8 +156,8 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 ## References
 
 1. [Who we Are](https://mahiti.org/who-we-are/). Mahiti.org. 26 August 2024. Retrieved 7 January 2026.
-2. [Mahiti Infotech | LinkedIn](https://in.linkedin.com/company/mahiti-infotech-pvt.-ltd.). LinkedIn. 31 December 1999. Retrieved 7 January 2026.
-3. [MAHITI INFOTECH PRIVATE LIMITED | Company Profile & Report](https://www.credencedata.com/company-profile/in/mahiti-infotech-private-limited-d23a68b5). Credence Data. 2 July 2002. Retrieved 7 January 2026.
+2. [Mahiti Infotech LinkedIn](https://in.linkedin.com/company/mahiti-infotech-pvt.-ltd.). LinkedIn. 31 December 1999. Retrieved 7 January 2026.
+3. [MAHITI INFOTECH PRIVATE LIMITED Company Profile & Report](https://www.credencedata.com/company-profile/in/mahiti-infotech-private-limited-d23a68b5). Credence Data. 2 July 2002. Retrieved 7 January 2026.
 4. [MAHITI INFOTECH PRIVATE LIMITED - IndiaFilings](https://www.indiafilings.com/search/mahiti-infotech-private-limited-cin-U74140KA2002PTC030717). IndiaFilings. Retrieved 7 January 2026.
 5. [Home](https://mahiti.org). Mahiti.org. 21 March 2016. Retrieved 7 January 2026.
 6. [Mahiti Infotech Private Limited - 2025 Insights](https://www.thecompanycheck.com/company/mahiti-infotech-private-limited/U74140KA2002PTC030717). The Company Check. Retrieved 7 January 2026.
@@ -166,15 +166,15 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 9. [Manthan: A Stakeholder Discussion on WSIS+20 Review & ...](https://www.youtube.com/watch?v=mRq47IZgxMQ). YouTube. 10 June 2025. Retrieved 7 January 2026.
 10. [IGF 2017 - Day 3 - Room XXVII - WS150 Good Governance ...](https://intgovforum.org/en/content/igf-2017-day-3-room-xxvii-ws150-good-governance-with-governments-getting-governments). Internet Governance Forum. Retrieved 7 January 2026.
 11. [Manthan: A Stakeholder Discussion on WSIS+20 Review ...](https://isoc.live/19320/). ISOC Live. Retrieved 7 January 2026.
-12. [Mahiti Infotech Management Team | Org Chart](https://rocketreach.co/mahiti-infotech-management_b5c780adf42e0d43). RocketReach. Retrieved 7 January 2026.
+12. [Mahiti Infotech Management Team Org Chart](https://rocketreach.co/mahiti-infotech-management_b5c780adf42e0d43). RocketReach. Retrieved 7 January 2026.
 13. [SILICON PLATEAU Volume Two](https://networkcultures.org/wp-content/uploads/2018/12/SiliconPlateau_VolumeTwo-1.pdf) (PDF). Network Cultures. Retrieved 7 January 2026.
 14. [Sreekanth S R - Mahiti Infotech Pvt. Ltd.](https://in.linkedin.com/in/srsree). LinkedIn. Retrieved 7 January 2026.
 15. [Data use models and data protection - Sunil Abraham](https://www.youtube.com/watch?v=RFd4sCSZwM8). YouTube. 11 February 2018. Retrieved 7 January 2026.
 16. [Google Hangout with Ashoka Fellow Sunil Abraham](https://www.youtube.com/watch?v=HSaRxysH0NY). YouTube. 12 June 2012. Retrieved 7 January 2026.
-17. [Sunil Abraham | The Perils and Prospects of Bringing the Next Billion Online](https://www.youtube.com/watch?v=amJaGwAgD_A). YouTube. 7 June 2015. Retrieved 7 January 2026.
+17. [Sunil Abraham The Perils and Prospects of Bringing the Next Billion Online](https://www.youtube.com/watch?v=amJaGwAgD_A). YouTube. 7 June 2015. Retrieved 7 January 2026.
 18. [Sunil Abraham - MIT Sloan Management Review India](https://mitsloanindia.com/article/sunil-abraham/). MIT Sloan Management Review India. 7 September 2025. Retrieved 7 January 2026.
-19. [Sunil Abraham | LinkedIn](https://in.linkedin.com/in/sunilaabraham). LinkedIn. Retrieved 7 January 2026.
-20. [Customer Case Studies | Info-Tech Research Group](https://www.infotech.com/customer-case-studies). Info-Tech Research Group. 31 December 1999. Retrieved 7 January 2026.
+19. [Sunil Abraham LinkedIn](https://in.linkedin.com/in/sunilaabraham). LinkedIn. Retrieved 7 January 2026.
+20. [Customer Case Studies Info-Tech Research Group](https://www.infotech.com/customer-case-studies). Info-Tech Research Group. 31 December 1999. Retrieved 7 January 2026.
 21. [the-state-of-foss-report.pdf](https://state-of-foss.in/the-state-of-foss-report.pdf). State of FOSS in India. Retrieved 7 January 2026.
 22. [Portfolio](https://mahiti.org/portfolio/). Mahiti.org. 17 March 2016. Retrieved 7 January 2026.
 23. [Profile of Indian Voluntary Organisations 2013](https://ris.org.in/bricscivil/pdf/Publications/FIDC%20PROFILE-FINAL%20PRINT.pdf) (PDF). RIS. Retrieved 7 January 2026.
@@ -192,7 +192,7 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 35. [Guideline for Adopting Free and Open Source Software ...](https://mtcit.gov.om/library-3/guidelines-documentation-7/guidelines-68/guideline-for-adopting-free-and-open-source-software-fos). MTCIT Oman. Retrieved 7 January 2026.
 36. [Board and Society Members](https://cis-india.org/about/people/board-and-society-members). Centre for Internet and Society. 30 November 2011. Retrieved 7 January 2026.
 37. [CGI 20 Anos](http://cgi.br/20anos/en/universalidade/). CGI Brazil. Retrieved 7 January 2026.
-38. [C V S Sarma Memorial lecture | - UoH Herald](https://herald.uohyd.ac.in/c-v-s-sarma-memorial-lecture/). University of Hyderabad Herald. Retrieved 7 January 2026.
+38. [C V S Sarma Memorial lecture - UoH Herald](https://herald.uohyd.ac.in/c-v-s-sarma-memorial-lecture/). University of Hyderabad Herald. Retrieved 7 January 2026.
 
 ## External links
 
@@ -201,58 +201,38 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 
 <style>
 .company-details {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  padding: 1.5rem;
+  background: #f0f7ff;
+  border: 1px solid #b8d4f1;
+  border-radius: 10px;
+  padding: 1.4rem 1.6rem;
   max-width: 800px;
   margin: 1.5rem auto;
   font-size: 0.95rem;
-  line-height: 1.8;
+  line-height: 1.6;
+  color: #333;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.06);
 }
 
 .company-details dt {
-  display: inline;
   font-weight: 600;
-  color: #495057;
-  margin-right: 0.3rem;
+  color: #1a3a5c;
+  margin-top: 0.9rem;
+  font-size: 0.96rem;
+}
+
+.company-details dt:first-of-type {
+  margin-top: 0;
 }
 
 .company-details dd {
-  display: inline;
-  margin: 0;
-  color: #212529;
+  margin: 0.2rem 0 0.5rem 0.4rem;
+  color: #444;
+  font-size: 0.94rem;
 }
-
-.company-details dd::after {
-  content: "";
-  display: block;
-  margin-bottom: 0.8rem;
-}
-
-.company-details dd:last-of-type::after {
-  margin-bottom: 0;
-}
-
-.time-ago {
-  font-size: 0.88rem;
-  color: #6c757d;
-  font-weight: normal;
-  font-style: italic;
-}
-
-/* Mobile optimization */
-@media (max-width: 768px) {
-  .company-details {
-    margin: 1rem 0.5rem;
-    padding: 1.2rem;
-    font-size: 0.9rem;
-  }
-  
   .time-ago {
-    display: block;
-    margin-top: 0.3rem;
-  }
+  font-size: 0.88rem;
+  color: #5a7a99;
+  font-weight: normal;
 }
 </style>
 
