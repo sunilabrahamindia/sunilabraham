@@ -7,7 +7,7 @@ permalink: /articles/mahiti-infotech/
 created: 2026-01-07
 ---
 
-**Mahiti Infotech Private Limited** (Kannada: ಮಹಿತಿ ಇನ್ಫೋಟೆಕ್; Marathi: माहिती इन्फोटेक), commonly known as **Mahiti Infotech**, is an Indian information technology company that specialises in developing digital solutions for the social sector. Founded in 1998 and formally incorporated on Wedneday, 3 July 2002, the company is headquartered in Bangalore, Karnataka, India. The name 'Mahiti' (pronounced /məˈɦiːt̪i/) derives from the word meaning 'information' or 'knowledge' in Kannada (ಮಹಿತಿ) and Marathi (माहिती).
+**Mahiti Infotech Private Limited** (Kannada: ಮಹಿತಿ ಇನ್ಫೋಟೆಕ್; Marathi: माहिती इन्फोटेक), commonly known as **Mahiti Infotech**, is an Indian information technology company that specialises in developing digital solutions for the social sector. Founded in 1998 and formally incorporated on Wednesday, 3 July 2002, the company is headquartered in Bangalore, Karnataka, India. The name 'Mahiti' (pronounced /məˈɦiːt̪i/) derives from the word meaning 'information' or 'knowledge' in Kannada (ಮಹಿತಿ) and Marathi (माहिती).
 
 Mahiti operates as a private limited company and employs over 50 technology professionals, including engineers and domain experts. The company has worked with more than 500 organisations across five continents, deploying multi-platform, multi-lingual, and multimedia-enabled web, intranet, kiosk, and mobile applications. Its projects have supported the achievement of Millennium Development Goals (MDGs) and subsequently the Sustainable Development Goals (SDGs) through technology interventions in disadvantaged communities.
 
@@ -87,7 +87,7 @@ Sreekanth S. Rameshaiah currently serves as the executive director and chief exe
 <dd>No.19/2A, Thimmegowda Layout, Kothanur, Dr. Shivaramakaranth Nagar, Bangalore East, Bangalore, Karnataka, 560077, India</dd>
 
 <dt>🌐 Official Website:</dt>
-<dd><a href="https://mahiti.org/" rel="noopener noreferrer">mahiti.org</a></dd>
+<dd><a href="https://mahiti.org/" rel="noopener noreferrer">https://mahiti.org</a></dd>
 </dl>
 
 ## History
@@ -139,6 +139,12 @@ Sunil Abraham was a co-founder of Mahiti and played an important role in establi
 Abraham served as Director from 1998 and later as Director of International Relations until 2004, when he transitioned to full-time policy and research work. During his tenure, he was instrumental in building partnerships with international organisations, promoting FOSS advocacy within the Indian voluntary sector, and establishing Mahiti's operational model. He continues to serve on the company's advisory board.
 
 ## Leadership and governance
+
+<figure class="media-image">
+  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/mahiti-team.jpg"
+       alt="Group photograph of Mahiti Infotech team members seated and standing outdoors on a lawn in front of a building.">
+  <figcaption>Mahiti Infotech team at their Bangalore development centre. The image is copyrighted by Mahiti Infotech.</figcaption>
+</figure>
 
 Sreekanth S. Rameshaiah serves as co-founder and chief executive officer of Mahiti Infotech, a position he has held since March 2006. Under his leadership, the organisation has maintained its mission to empower the social sector through appropriate technology whilst expanding its technical capabilities. The company continues to operate with a team of over 50 creative professionals, innovative IT engineers, and domain experts at its development centre in Bangalore.
 
@@ -303,11 +309,34 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 .company-details dd ul li {
   margin: 0.2rem 0;
 }
+   .company-details a {
+  color: #1a5490;
+  text-decoration: none;
+}
 
+.company-details a:hover {
+  text-decoration: underline;
+}
 .time-ago {
   font-size: 0.88rem;
   color: #5a7a99;
   font-weight: normal;
+}
+   .media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 720px;
+}
+.media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
 }
 </style>
 
