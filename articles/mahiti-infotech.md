@@ -201,147 +201,57 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 
 <style>
 .company-details {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border: none;
-  border-radius: 16px;
-  padding: 0;
-  max-width: 850px;
-  margin: 2rem auto;
-  overflow: hidden;
-  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
-  animation: fadeInUp 0.6s ease-out;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.company-details::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #ffd89b 0%, #19547b 100%);
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  font-size: 0.95rem;
+  line-height: 1.8;
 }
 
 .company-details dt {
-  background: rgba(255, 255, 255, 0.95);
+  display: inline;
   font-weight: 600;
-  color: #2d3748;
-  margin: 0;
-  padding: 0.9rem 1.8rem 0.5rem 1.8rem;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  border-bottom: 1px solid rgba(102, 126, 234, 0.1);
-  transition: all 0.3s ease;
-}
-
-.company-details dt:hover {
-  background: rgba(255, 255, 255, 1);
-  padding-left: 2rem;
-}
-
-.company-details dt:first-of-type {
-  padding-top: 1.5rem;
+  color: #495057;
+  margin-right: 0.3rem;
 }
 
 .company-details dd {
-  background: rgba(255, 255, 255, 0.95);
+  display: inline;
   margin: 0;
-  padding: 0.7rem 1.8rem 1.2rem 1.8rem;
-  color: #1a202c;
-  font-size: 0.98rem;
-  line-height: 1.7;
-  border-bottom: 2px solid rgba(102, 126, 234, 0.08);
-  transition: all 0.3s ease;
+  color: #212529;
 }
 
-.company-details dd:hover {
-  background: rgba(255, 255, 255, 1);
-  padding-left: 2rem;
-  transform: translateX(5px);
+.company-details dd::after {
+  content: "";
+  display: block;
+  margin-bottom: 0.8rem;
 }
 
-.company-details dd:last-of-type {
-  padding-bottom: 1.5rem;
-  border-bottom: none;
-}
-
-.company-details dd em {
-  color: #718096;
-  font-size: 0.88rem;
+.company-details dd:last-of-type::after {
+  margin-bottom: 0;
 }
 
 .time-ago {
-  display: inline-block;
-  font-size: 0.87rem;
-  color: #667eea;
-  font-weight: 600;
-  background: rgba(102, 126, 234, 0.1);
-  padding: 0.2rem 0.6rem;
-  border-radius: 6px;
-  margin-left: 0.5rem;
-  animation: pulse 2s ease-in-out infinite;
+  font-size: 0.88rem;
+  color: #6c757d;
+  font-weight: normal;
+  font-style: italic;
 }
 
-@keyframes pulse {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.7;
-  }
-}
-
-/* Smooth scroll behavior */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Add subtle hover effect to entire details box */
-.company-details:hover {
-  box-shadow: 0 15px 50px rgba(102, 126, 234, 0.4);
-  transform: translateY(-2px);
-  transition: all 0.3s ease;
-}
-
-  /* Mobile optimization */
+/* Mobile optimization */
 @media (max-width: 768px) {
   .company-details {
     margin: 1rem 0.5rem;
-    border-radius: 12px;
-  }
-  
-  .company-details dt {
-    padding: 0.8rem 1.2rem 0.4rem 1.2rem;
-    font-size: 0.8rem;
-  }
-  
-  .company-details dd {
-    padding: 0.6rem 1.2rem 1rem 1.2rem;
-    font-size: 0.92rem;
-  }
-  
-  .company-details dd:hover,
-  .company-details dt:hover {
-    transform: none;
-    padding-left: 1.2rem;
+    padding: 1.2rem;
+    font-size: 0.9rem;
   }
   
   .time-ago {
     display: block;
-    margin: 0.5rem 0 0 0;
-    font-size: 0.82rem;
+    margin-top: 0.3rem;
   }
 }
 </style>
@@ -355,14 +265,12 @@ function calculateTimeAgo() {
   let months = today.getMonth() - incorporationDate.getMonth();
   let days = today.getDate() - incorporationDate.getDate();
   
-  // Adjust if days are negative
   if (days < 0) {
     months--;
     const lastMonth = new Date(today.getFullYear(), today.getMonth(), 0);
     days += lastMonth.getDate();
   }
   
-  // Adjust if months are negative
   if (months < 0) {
     years--;
     months += 12;
@@ -371,12 +279,11 @@ function calculateTimeAgo() {
   return `${years} years, ${months} months, ${days} days ago`;
 }
 
-// Update the date display when page loads
 document.addEventListener('DOMContentLoaded', function() {
   const dateElement = document.querySelector('.incorporation-date');
   if (dateElement) {
     const timeAgo = calculateTimeAgo();
-    dateElement.innerHTML = `Wednesday, 3 July 2002 <span class="time-ago">${timeAgo}</span>`;
+    dateElement.innerHTML = `Wednesday, 3 July 2002 <span class="time-ago">(${timeAgo})</span>`;
   }
 });
 </script>
