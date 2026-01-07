@@ -103,6 +103,7 @@ Read Online
 <li><strong>Clear timelines:</strong> "We have laid down the process with a clear timeline that is different from other legislations because governments are not able to give timelines to certain tasks which are supposed to be done. We kept the licensee or the operator in mind. We will be issuing a provisional licence to them which will be valid for six months. The fees for it will be very negligible. We've already issued three provisional licences to three applications within a span of one month," she informed the gathering.</li>
 <li><strong>No gaming establishments around educational or religious institutions:</strong> "No gaming premises can come up within the vicinity (100 metres) of educational and worship institutions keeping the interest of the local population in mind," Synrem remarked.</li>
 <li><strong>Separate window for charitable organisations:</strong> "We've also thought about charitable organisations which organise fundraising events around these games of skill and chance. We have a separate chapter for them so that the licence fee is not too much for them. We have a temporary licence that would be issued to them for minimal fees," Synrem said in conclusion.</li>
+</ul>
 
 <p><strong>MediaNama license:</strong> <em>This post is released under a CC-BY-SA 4.0 license. Please feel free to republish on your site, with attribution and a link. Adaptation and rewriting, though allowed, should be true to the original.</em></p>
 
