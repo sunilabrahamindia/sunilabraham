@@ -128,6 +128,18 @@ In addition to archival material, the portal will gradually include project note
 <div class="ai-content-card">
   <div class="ai-card-marker">◆</div>
   <div class="ai-card-content">
+    <h3>Meta Hopes India’s DPDP Act and Copyright Provisions Can Attract AI Data Centres</h3>
+    <p class="ai-card-year">2025</p>
+    <p>
+      A MediaNama report published on 16 April 2025 by Kamya Pandey, examining Meta’s assessment of how India’s Digital Personal Data Protection Act and copyright framework could shape the country’s appeal as a location for AI model training and data centres. The article features remarks by Sunil Abraham at the Global Technology Summit on data scraping exemptions, copyright law, and emerging conflicts between data minimisation and intellectual property obligations.
+    </p>
+    <a href="/media/meta-india-dpdp-copyright-ai-data-centres-medianama/" class="ai-card-link">Read more →</a>
+  </div>
+</div>
+
+<div class="ai-content-card">
+  <div class="ai-card-marker">◆</div>
+  <div class="ai-card-content">
     <h3>Building Intentional AI for India</h3>
     <p class="ai-card-year">2025</p>
     <p>
