@@ -227,7 +227,7 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 ## External links
 
 - [Official website](https://mahiti.org/)
-- [LinkedIn company page](https://www.linkedin.com/company/mahiti-infotech-pvt.-ltd./)
+- [Company page](https://www.linkedin.com/company/mahiti-infotech-pvt.-ltd./) on LinkedIn
 
 <style>
 
