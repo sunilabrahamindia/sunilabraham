@@ -10,8 +10,7 @@ permalink: /publications/intermediary-liability-law-needs-updating/
 created: 2025-11-11
 ---
 
-**Intermediary Liability Law Needs Updating** is an opinion article by Sunil Abraham, published in *Business Standard* on 9 February 2019.  
-Sunil argues that India must modernise its intermediary liability laws (Section 79 of the IT Act) to increase transparency and accountability, without infringing free expression or constitutional safeguards.
+**Intermediary Liability Law Needs Updating** is an opinion article by Sunil Abraham, published in *Business Standard* on 9 February 2019. Sunil argues that India must modernise its intermediary liability laws (Section 79 of the IT Act) to increase transparency and accountability, without infringing free expression or constitutional safeguards.
 
 ## Contents
 
