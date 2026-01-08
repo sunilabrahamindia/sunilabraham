@@ -102,7 +102,7 @@ Read Online
 
 <p>Surely, with so many surveillance devices around, it is a closely watched world like never before.</p>
 
-<table border="0" cellpadding="2" cellspacing="2" style="width:100%; border-collapse: collapse; margin: 1.5rem 0;">
+<table class="no-hover" border="0" cellpadding="2" cellspacing="2" style="width:100%; border-collapse: collapse; margin: 1.5rem 0;">
 <tbody>
 <tr>
 <td bgcolor="#54717E" style="padding: 0.75rem; border-radius: 8px 8px 0 0;">
@@ -191,15 +191,8 @@ margin-bottom: 0.8rem;
 .highlighted-text p {
 margin-bottom: 1rem;
 }
-.highlighted-text table tr:hover {
-background: inherit !important;
-}
-.highlighted-text table td:hover {
-background: inherit !important;
-color: inherit !important;
-}
-.highlighted-text table span:hover {
-color: #ffffff !important;
+table.no-hover tr:hover td {
+background-color: inherit !important;
 }
 .copy-btn-full {
 display: inline-block;
