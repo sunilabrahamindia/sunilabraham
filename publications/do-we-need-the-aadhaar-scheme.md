@@ -17,6 +17,7 @@ created: 2025-11-22
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
 3. [Context and Background](#context-and-background)
+4. [External Link](#external-link)
 
 ## Article Details
 
@@ -33,8 +34,13 @@ created: 2025-11-22
   <dt>📄 Type:</dt>
   <dd>Commentary</dd>
 
-  <dt>📰 Newspaper Link:</dt>
-  <dd>Not available online</dd>
+<dt>📰 Newspaper Link:</dt>
+<dd>
+<a class="btn" href="https://www.business-standard.com/article/opinion/do-we-need-the-aadhar-scheme-112020100022_1.html">
+Read Online
+</a>
+</dd>
+
 </dl>
 
 ## Full Text
@@ -70,6 +76,10 @@ created: 2025-11-22
 ## Context and Background
 
 This commentary appeared during the early stages of India's Aadhaar debate. Sunil Abraham challenges centralised biometric identification, arguing that digital signatures offer reciprocity, transparency, resilience and citizen-state symmetry, while biometrics deepen inequality and enable coercive surveillance. The article situates Aadhaar within broader concerns about governance, security, corruption, and democratic accountability.
+
+## External Link
+
+- [Read on Business Standard](https://www.business-standard.com/article/opinion/do-we-need-the-aadhar-scheme-112020100022_1.html)
 
 <style>
 .media-details {
