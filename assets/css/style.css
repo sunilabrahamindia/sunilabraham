@@ -515,10 +515,6 @@ tr:last-child td {
   border-bottom: none;
 }
 
-tr:hover td {
-  background-color: #f9f9f9;
-}
-
 td, th {
   word-wrap: break-word;
   white-space: normal;
