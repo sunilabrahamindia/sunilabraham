@@ -10,8 +10,7 @@ permalink: /publications/registering-for-aadhaar-in-2019/
 created: 2025-11-06
 ---
 
-**Registering for Aadhaar in 2019** is an opinion article by Sunil Abraham, published in *Business Standard* on 2 January 2019.  
-In this column, Abraham analyses the regulatory and technological evolution of Aadhaar, describing how the introduction of offline Aadhaar and decentralised authentication has improved privacy and accountability since the scheme’s inception.
+**Registering for Aadhaar in 2019** is an opinion article by Sunil Abraham, published in *Business Standard* on 2 January 2019. In this column, Abraham analyses the regulatory and technological evolution of Aadhaar, describing how the introduction of offline Aadhaar and decentralised authentication has improved privacy and accountability since the scheme’s inception.
 
 ## Contents
 
