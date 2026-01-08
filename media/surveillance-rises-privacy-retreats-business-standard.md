@@ -191,50 +191,15 @@ margin-bottom: 0.8rem;
 .highlighted-text p {
 margin-bottom: 1rem;
 }
-.table-responsive {
-overflow-x: auto;
--webkit-overflow-scrolling: touch;
-margin: 1.5rem 0;
+.highlighted-text table tr:hover {
+background: inherit !important;
 }
-.privacy-table {
-width: 100%;
-border-collapse: collapse;
-background: #fff;
-border: 1px solid #e0e0e0;
-border-radius: 8px;
-overflow: hidden;
-font-size: 0.9rem;
+.highlighted-text table td:hover {
+background: inherit !important;
+color: inherit !important;
 }
-.privacy-table thead {
-background: #f5f5f5;
-}
-.privacy-table th {
-padding: 0.75rem;
-text-align: left;
-font-weight: 600;
-color: #1b2a49;
-border-bottom: 2px solid #d0d0d0;
-}
-.privacy-table td {
-padding: 0.75rem;
-border-bottom: 1px solid #e8e8e8;
-vertical-align: top;
-line-height: 1.5;
-}
-.privacy-table tbody tr:last-child td {
-border-bottom: none;
-}
-.privacy-table tbody tr:hover {
-background: #fafafa;
-}
-@media (max-width: 768px) {
-.privacy-table {
-font-size: 0.85rem;
-}
-.privacy-table th,
-.privacy-table td {
-padding: 0.5rem;
-}
+.highlighted-text table span:hover {
+color: #ffffff !important;
 }
 .copy-btn-full {
 display: inline-block;
