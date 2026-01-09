@@ -66,7 +66,7 @@ Read Online
 
 <p>"People first thought that emotions expressed on social media were just cute and stupid," says Sreeju Thankan who has done computer science and engineering from the Indian Institute of Technology Roorkee and is now working at Mango Solutions. "Now, they are recognising it as a rich vein." But translating slang into binary code can be much tougher. "Sentiments are different from conventional facts," says Thankan. "There is a long way for slang patrol to go." For casual web surfers, a simpler sentiment-analysis tool, Tweetfeel, is available. It tells you the numbers of positive and negative tweets on a given topic. It also gives you their percentages. Its analysis is based not just on emoticons, but also words and phrases.</p>
 
-<p style="text-align: right;"><em>Ashish Sharma</em></p>
+<p><em>—Ashish Sharma</em></p>
 
 <p>Last October in Mumbai, a 17-year-old college student, Aishwarya Dahiwal, killed herself after her parents barred her from using Facebook. "Is Facebook so bad? I cannot stay in a home with such restrictions as I can't live without Facebook," her suicide note reportedly read. The parents were in utter shock. "Girls are more prone to putting personal and emotional messages on social networking sites," says Manju Chhabra, child counsellor who runs an organisation called Cactus Lily in Delhi. And they tend to get more affected by what people say and how they react. "And comments on this very impersonal medium which we are giving a very personal space can be very cruel."</p>
 
