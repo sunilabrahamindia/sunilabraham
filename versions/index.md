@@ -401,7 +401,7 @@ Version 1.0 establishes a stable foundation for future growth, enabling deeper t
 This is a planned exception, as Version 1.0 followed a non-Sunday task cycle aligned with the year-end milestone.
 
 **➡️ Weekly reporting will resume on:**  
-**🕗 Sunday, 11 January 2026 at 8:00 am IST**
+**🕗 Sunday, 11 January 2026**
 
 **📅 Status and Completion**  
 ✅ **Status:** Completed — Version 1.0 milestone achieved  
