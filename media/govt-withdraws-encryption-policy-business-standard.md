@@ -27,9 +27,6 @@ created: 2026-01-10
 <dt>📅 Date:</dt>
 <dd>23 September 2015</dd>
 
-<dt>👤 Byline:</dt>
-<dd>BS Reporters</dd>
-
 <dt>📄 Type:</dt>
 <dd>News Report</dd>
 
