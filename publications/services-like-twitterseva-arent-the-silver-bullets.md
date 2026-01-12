@@ -5,24 +5,25 @@ description: "An article by Sunil Abraham examining the limitations of TwitterSe
 categories: [Media articles, Publications]
 date: 2016-10-06
 authors: ["Sunil Abraham"]
-source: "Factor Daily"
+source: "FactorDaily"
 permalink: /publications/services-like-twitterseva-arent-the-silver-bullets/
 created: 2025-11-15
 ---
 
-**Services Like TwitterSeva Aren't the Silver Bullets They Are Made Out to Be** is an article by Sunil Abraham, published in *Factor Daily* on 6 October 2016. The piece argues that while TwitterSeva offers quick visibility and responsiveness, it cannot replace comprehensive, long-term e-governance systems grounded in neutrality, transparency, accountability and user rights.
+**Services Like TwitterSeva Aren't the Silver Bullets They Are Made Out to Be** is an article by Sunil Abraham, published in *FactorDaily* on 6 October 2016. The piece argues that while TwitterSeva offers quick visibility and responsiveness, it cannot replace comprehensive, long-term e-governance systems grounded in neutrality, transparency, accountability and user rights.
 
 ## Contents
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
-3. [Context and Background](#context-and-background)
+3. [Context and Background](#context-and-background)  
+4. [External Link](#external-link)
 
 ## Article Details
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>Factor Daily</em></dd>
+  <dd><em>FactorDaily</em></dd>
 
   <dt>📅 Date:</dt>
   <dd>6 October 2016</dd>
@@ -97,6 +98,11 @@ created: 2025-11-15
 
 This article appeared during a period when several government agencies were adopting TwitterSeva as a direct channel for public grievance redressal. Sunil Abraham cautions that while such platforms offer visibility and quick responses, they introduce risks of vendor lock-in, privacy harms, lack of accountability, elite capture, and long-term dependence on private corporations.  
 He argues for a rights-based, interoperable, and regulatorily sound e-governance framework rather than ad-hoc reliance on social media platforms.
+
+## External Link
+
+- [Read on FactorDaily](https://archive.factordaily.com/twitterseva-egovernance-public-services/)
+
 
 <style>
 .highlighted-text {
