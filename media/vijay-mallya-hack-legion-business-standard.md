@@ -10,7 +10,7 @@ permalink: /media/vijay-mallya-hack-legion-business-standard/
 created: 2026-01-11
 ---
 
-**Vijay Mallya Cries Foul After His Twitter and Email Accounts Are Hacked** is a *Business Standard* report published on 10 December 2016 by Alnoor Peermohamed. The article covers the hacking of liquor baron Vijay Mallya's Twitter and email accounts by the vigilante group Legion, which claimed access to over a gigabyte of data on offshore investments whilst threatening further disclosures to bring the fugitive businessman to justice, featuring Sunil Abraham’s commentary cautioning that such hacks must lead to public interest outcomes rather than mere gossip.
+**Vijay Mallya Cries Foul After His Twitter and Email Accounts Are Hacked** is a *Business Standard* report published on 10 December 2016 by Alnoor Peermohamed. The article covers the hacking of Vijay Mallya's Twitter and email accounts by the vigilante group Legion, which claimed access to over a gigabyte of data on offshore investments whilst threatening further disclosures to bring the fugitive businessman to justice, featuring Sunil Abraham’s commentary cautioning that such hacks must lead to public interest outcomes rather than mere gossip.
 
 ## Contents
 
