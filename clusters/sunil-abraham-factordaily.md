@@ -1,17 +1,46 @@
 ---
 layout: default
 title: "Sunil Abraham and FactorDaily"
-description: "A curated cluster of FactorDaily reporting that references Sunil Abraham's perspectives on technology policy, digital regulation, platform governance, and the institutional impact of digital systems in India."
+description: "A consolidated archive of Sunil Abraham’s writing for FactorDaily and related coverage that references his analysis of technology policy, digital regulation, and the governance of internet platforms in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-factordaily/
-created: 2026-01-12
+created: 2026-01-06
 ---
 
-***FactorDaily*** is a digital publication focused on technology, startups, and policy developments shaping India's digital economy. Its journalism combines reporting with analysis, examining how technological systems interact with regulation, institutions, and public interest concerns.
+***:contentReference[oaicite:0]{index=0}*** is a digital publication focused on technology, startups, and policy developments shaping India’s digital ecosystem. Its reporting often combines industry coverage with analysis of regulation, institutions, and the public-interest dimensions of technological change.
 
-Within this coverage, **Sunil Abraham** appears as a referenced analyst contributing context on questions such as data governance, digital infrastructure, platform accountability, and the policy choices that underpin India's technology ecosystem. These mentions are typically embedded within articles that explore systemic issues rather than short-term market or product trends.
+Over time, **Sunil Abraham** has appeared in *FactorDaily* both as a contributor and as a cited analyst. His engagement with the publication typically addresses structural questions around data governance, digital infrastructure, platform accountability, and the policy choices that underpin India’s technology environment.
 
-This cluster brings together all available **media mentions** of Sunil Abraham published on *FactorDaily*. Considered together, these articles reflect how technology policy debates and governance questions have been addressed within India's technology-focused journalism.
+This cluster brings together all **publications** and **media mentions** connected to *FactorDaily*, providing a single reference point for readers interested in this strand of his writing and commentary.
+
+## ✍️ Publications {#publications}
+
+### Sort by:
+<div class="cluster-sort">
+  <button data-sort="alpha">Alphabetical</button>
+  <button data-sort="newest">Newest First</button>
+  <button data-sort="oldest">Oldest First</button>
+</div>
+
+{% assign pub_items = site.pages 
+     | where_exp:"p","p.categories contains 'Publications'"
+     | where:"source","FactorDaily" 
+%}
+{% assign pub_sorted = pub_items | sort:"title" %}
+
+<ol id="pub-list" class="cluster-list">
+{% for item in pub_sorted %}
+  <li data-title="{{ item.title | downcase }}"
+      data-date="{{ item.date | date: '%Y-%m-%d' }}">
+    <a href="{{ item.permalink }}">{{ item.title }}</a>
+    <br>
+    <span class="meta">{{ item.date | date: "%d %B %Y" }}</span>
+    {% if item.description %}
+      <div class="desc">{{ item.description }}</div>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
 
 ## 📣 Media Mentions {#media}
 
@@ -24,7 +53,7 @@ This cluster brings together all available **media mentions** of Sunil Abraham p
 
 {% assign media_items = site.pages 
      | where_exp:"p","p.categories contains 'Media mentions'"
-     | where:"source","FactorDaily"
+     | where:"source","FactorDaily" 
 %}
 {% assign media_sorted = media_items | sort:"title" %}
 
@@ -32,8 +61,9 @@ This cluster brings together all available **media mentions** of Sunil Abraham p
 {% for item in media_sorted %}
   <li data-title="{{ item.title | downcase }}"
       data-date="{{ item.date | date: '%Y-%m-%d' }}">
-    <a href="{{ item.permalink }}">{{ item.title }}</a><br>
-    <span class="meta">{{ item.date | date: "%-d %B %Y" }}</span>
+    <a href="{{ item.permalink }}">{{ item.title }}</a>
+    <br>
+    <span class="meta">{{ item.date | date: "%d %B %Y" }}</span>
     {% if item.description %}
       <div class="desc">{{ item.description }}</div>
     {% endif %}
@@ -47,7 +77,7 @@ This cluster brings together all available **media mentions** of Sunil Abraham p
 <style>
 
 /* ---------------------------------------------------------
-   LIST DESIGN (consistent with other clusters)
+   LIST DESIGN (aligned with ET cluster)
 --------------------------------------------------------- */
 .cluster-list {
   margin: 0.8rem 0 1.6rem 0;
@@ -107,11 +137,11 @@ This cluster brings together all available **media mentions** of Sunil Abraham p
 }
 
 /* ---------------------------------------------------------
-   Fade animation
+   Clean fade animation
 --------------------------------------------------------- */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(3px); }
-  to   { opacity: 1; transform: translateY(0); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 </style>
@@ -125,14 +155,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const buttons = list.previousElementSibling.querySelectorAll("button");
 
     function sortList(type) {
-      const sorted = [...items];
+      let sorted = [...items];
 
       if (type === "alpha") {
-        sorted.sort((a, b) => a.dataset.title.localeCompare(b.dataset.title));
-      } else if (type === "newest") {
-        sorted.sort((a, b) => b.dataset.date.localeCompare(a.dataset.date));
-      } else if (type === "oldest") {
-        sorted.sort((a, b) => a.dataset.date.localeCompare(b.dataset.date));
+        sorted.sort((a, b) =>
+          a.dataset.title.localeCompare(b.dataset.title)
+        );
+      } 
+      else if (type === "newest") {
+        sorted.sort((a, b) =>
+          b.dataset.date.localeCompare(a.dataset.date)
+        );
+      } 
+      else if (type === "oldest") {
+        sorted.sort((a, b) =>
+          a.dataset.date.localeCompare(b.dataset.date)
+        );
       }
 
       list.innerHTML = "";
@@ -149,10 +187,13 @@ document.addEventListener("DOMContentLoaded", () => {
     sortList("alpha");
 
     buttons.forEach(btn => {
-      btn.addEventListener("click", () => sortList(btn.dataset.sort));
+      btn.addEventListener("click", () => {
+        sortList(btn.dataset.sort);
+      });
     });
   }
 
+  attachSort("pub-list");
   attachSort("media-list");
 });
 </script>
