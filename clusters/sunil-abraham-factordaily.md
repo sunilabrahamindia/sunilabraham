@@ -7,7 +7,7 @@ permalink: /clusters/sunil-abraham-factordaily/
 created: 2026-01-06
 ---
 
-***:contentReference[oaicite:0]{index=0}*** is a digital publication focused on technology, startups, and policy developments shaping India’s digital ecosystem. Its reporting often combines industry coverage with analysis of regulation, institutions, and the public-interest dimensions of technological change.
+***FactorDaily*** is a digital publication focused on technology, startups, and policy developments shaping India’s digital ecosystem. Its reporting often combines industry coverage with analysis of regulation, institutions, and the public-interest dimensions of technological change.
 
 Over time, **Sunil Abraham** has appeared in *FactorDaily* both as a contributor and as a cited analyst. His engagement with the publication typically addresses structural questions around data governance, digital infrastructure, platform accountability, and the policy choices that underpin India’s technology environment.
 
