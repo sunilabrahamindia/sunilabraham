@@ -407,3 +407,39 @@ This is a planned exception, as Version 1.0 followed a non-Sunday task cycle ali
 ✅ **Status:** Completed — Version 1.0 milestone achieved  
 📅 **Completion Date:** 31 December 2025
 
+## Version 1.1
+
+Version 1.1 covers the period between 1 January and 11 January 2026. Work during this phase focused on adding new material, extending source-based clusters, and carrying out routine technical maintenance.
+
+**Content**
+- At the end of Version 1.0, the site contained 374 articles.
+- **67 new articles** were created during this period and prepared for addition to the site.
+- Work remained centred on documentation and archival completeness.
+
+**Media Mentions**
+- Continued work on *Hindustan Times* media mentions.
+- Articles were added and aligned with existing metadata and structure.
+
+**Clusters**
+- New source-based clusters were started, with relevant articles created:
+  - [*Sunil Abraham and Scroll.in*](/clusters/sunil-abraham-scroll-in/)
+  - [*Sunil Abraham and Catch News*](/clusters/sunil-abraham-catch-news/)
+  - [*Sunil Abraham and Deccan Chronicle*](/clusters/sunil-abraham-deccan-chronicle/)
+  - [*Sunil Abraham and MediaNama*](/clusters/sunil-abraham-medianama/)
+- Work also began on the [*Sunil Abraham and Business Standard*](/clusters/sunil-abraham-business-standard/) cluster.
+  - Some related Publications already existed.
+  - Additional interviews and media mentions were created to support this cluster.
+
+**Maintenance and Technical Changes**
+- Resolved a double H1 issue.
+  - This required changes across site layouts and CSS stylesheets.
+- The site search option was changed to Google Search for the time being.
+- The TSAP banner was moved to a standalone `_includes` file to simplify the homepage layout.
+- General footer cleanup was carried out.
+
+**New Article**
+- Work started on an article on [Mahiti Infotech](/articles/mahiti-infotech/).
+
+**Status**
+- **Completed**
+- **Completion date:** 11 January 2026
