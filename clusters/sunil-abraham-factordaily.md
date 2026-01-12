@@ -4,7 +4,7 @@ title: "Sunil Abraham and FactorDaily"
 description: "A consolidated archive of Sunil Abraham’s writing for FactorDaily and related coverage that references his analysis of technology policy, digital regulation, and the governance of internet platforms in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-factordaily/
-created: 2026-01-06
+created: 2026-01-12
 ---
 
 ***FactorDaily*** is a digital publication focused on technology, startups, and policy developments shaping India’s digital ecosystem. Its reporting often combines industry coverage with analysis of regulation, institutions, and the public-interest dimensions of technological change.
