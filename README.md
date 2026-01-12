@@ -3,7 +3,7 @@
 Welcome to the documentation repository of Sunil Abraham.  
 This project serves as an open collection of notes, essays, research material, and documentation, presented in a clear and accessible format.
 
-The site is powered by **GitHub Pages** and primarily written in **Markdown**, with support for **HTML**, **CSS**, and **JavaScript** to enhance design and functionality.
+The site is powered by GitHub Pages and primarily written in Markdown, with support for HTML, CSS, and JavaScript to enhance design and functionality.
 
 ## Purpose
 
