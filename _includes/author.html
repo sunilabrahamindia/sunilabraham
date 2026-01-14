@@ -2,6 +2,7 @@
 
 <div class="author-box">
   <span class="author-icon" aria-hidden="true">👤</span>
+
   <span class="author-label">
     {% if page.authors and page.authors.size > 1 %}
       Authors:
@@ -23,16 +24,16 @@
 .author-divider {
   border: none;
   border-top: 1px solid #d0d7de;
-  margin: 1rem 0;
+  margin: 0.25rem 0;
 }
 
 .author-box {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 0.4rem;
   font-size: 1rem;
   color: #0d1a26;
+  text-align: left;
 }
 
 .author-icon {
