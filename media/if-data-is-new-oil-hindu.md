@@ -23,7 +23,7 @@ created: 2026-01-14
 
 <dl class="media-details">
 <dt>📰 Published in:</dt>
-<dd><em>The Hindu</em> (Subscription required)</dd>
+<dd><em>The Hindu</em></dd>
 
 <dt>📅 Date:</dt>
 <dd>31 March 2018</dd>
@@ -38,7 +38,7 @@ created: 2026-01-14
 <dd>
 <a class="btn" href="https://www.thehindu.com/sci-tech/technology/location-location-location/article23393171.ece">
 Read Online
-</a>
+</a> (Subscription required)
 </dd>
 </dl>
 
@@ -124,7 +124,7 @@ The article raises fundamental questions about surveillance capitalism—the eco
 
 ## External Link
 
-- <a href="https://www.thehindu.com/sci-tech/technology/location-location-location/article23393171.ece">Read on The Hindu</a>
+- <a href="https://www.thehindu.com/sci-tech/technology/location-location-location/article23393171.ece">Read on The Hindu</a> (Subscription required)
 
 <style>
 .media-details {
