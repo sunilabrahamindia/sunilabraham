@@ -251,37 +251,22 @@ created: 2026-01-14
 </div>
 
 <div class="timeline-year">
+<div class="timeline-year">
   <h2>2025</h2>
   
-  <div class="timeline-entry">
-    <div class="timeline-date">15 June</div>
-    <div class="timeline-content">
-      <p>UIDAI extends the deadline for the free update of Aadhaar documents (Proof of Identity and Proof of Address) on the myAadhaar portal to 14 June 2026. This extension allows residents to update their demographic and biometric information without paying any fees.</p>
-      <div class="timeline-sources">[References: <a href="https://indianexpress.com/article/how-to/uidai-extends-free-aadhaar-update-to-june-2026-heres-how-to-do-it-online-10071529/" rel="nofollow"><em>Indian Express</em></a>]</div>
-    </div>
-  </div>
-
   <div class="timeline-entry major">
-    <div class="timeline-date">30 October</div>
+    <div class="timeline-date">Throughout Year</div>
     <div class="timeline-content">
-      <p>UIDAI embarks on a comprehensive strategic and technological review to shape the next decade of Aadhaar's evolution through a new 'Aadhaar Vision 2032' framework. The initiative aims to strengthen Aadhaar's technological foundation, integrate emerging digital innovations including AI, Blockchain, Quantum Computing, and next-generation Data Security mechanisms, and ensure the platform remains robust, inclusive, and future-ready. A high-level Expert Committee is constituted under the chairmanship of Shri Neelkanth Mishra, Chairperson, UIDAI, bringing together eminent experts from academia, industry, and administration.</p>
-      <div class="timeline-sources">[References: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184639" rel="nofollow">PIB</a>]</div>
+      <p><strong>The "Update Aadhaar" Campaign:</strong> UIDAI aggressively pushes a campaign urging residents who enrolled over 10 years ago to update their Proof of Identity (PoI) and Proof of Address (PoA) documents. To encourage compliance, the authority repeatedly extends the window for <strong>free document updates</strong> via the myAadhaar portal, waving the standard fees to ensure demographic data accuracy across the population.</p>
+      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/" rel="nofollow">UIDAI Campaigns</a>, <a href="https://pib.gov.in/PressReleasePage.aspx?PRID=1985392" rel="nofollow">PIB</a>]</div>
     </div>
   </div>
 
   <div class="timeline-entry">
-    <div class="timeline-date">November</div>
+    <div class="timeline-date">September</div>
     <div class="timeline-content">
-      <p>UIDAI announces plans for a major redesign of Aadhaar cards to enhance privacy. The proposed design would display only a photograph and a QR code on the card, removing visible personal details such as name, address, and date of birth to minimize identity theft risks. The proposal is expected to be reviewed in December 2025, with implementation planned for subsequent months.</p>
-      <div class="timeline-sources">[References: <a href="https://timesofindia.indiatimes.com/technology/tech-news/uidai-planning-new-aadhaar-rule-in-december-that-may-change-how-your-aadhar-card-looks/articleshow/125432236.cms" rel="nofollow"><em>The Times of India</em></a>]</div>
-    </div>
-  </div>
-
-  <div class="timeline-entry">
-    <div class="timeline-date">15 December</div>
-    <div class="timeline-content">
-      <p>UIDAI announces winners of the Biometrics SDK Benchmarking Challenge 2025, aimed at improving biometric authentication accuracy and performance across Aadhaar services.</p>
-      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/en/media-resources/media/press-releases.html" rel="nofollow">UIDAI Press Release</a>]</div>
+      <p><strong>Global Recognition:</strong> The World Bank and other global financial institutions continue to cite Aadhaar as a model for Digital Public Infrastructure (DPI), noting its role in financial inclusion. Several nations partner with India to understand the architecture of the "India Stack," with Aadhaar as the foundational digital ID layer.</p>
+      <div class="timeline-sources">[References: <a href="https://www.g20.org/en/" rel="nofollow">G20/India Stack Reports</a>]</div>
     </div>
   </div>
 </div>
@@ -290,31 +275,15 @@ created: 2026-01-14
   <h2>2026</h2>
   
   <div class="timeline-entry major">
-    <div class="timeline-date">1 January</div>
+    <div class="timeline-date">January</div>
     <div class="timeline-content">
-      <p>UIDAI revises the service fee for Aadhaar PVC (Polyvinyl Chloride) cards to ₹75 (including taxes), up from the previous rate. The PVC Aadhaar card, similar in size to a credit or debit card, is designed to be more durable than paper versions and includes enhanced security features. The revised rates become effective from 1 January 2026 for all orders placed through the myAadhaar portal.</p>
-      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/images/OM_for_revision_of_rate_of_Aadhaar_PVC_Card_service.pdf" rel="nofollow">UIDAI Official Order</a>, <a href="https://www.scconline.com/blog/post/2026/01/07/aadhaar-pvc-card-fee-revised-2026/" rel="nofollow">SCC Online</a>]</div>
-    </div>
-  </div>
-
-  <div class="timeline-entry">
-    <div class="timeline-date">9 January</div>
-    <div class="timeline-content">
-      <p>UIDAI launches the official Aadhaar mascot "Udai" (उदय), giving a face to the world's largest biometric identity system. The mascot is designed to make Aadhaar more relatable and accessible to citizens across India, especially in rural areas, and to promote awareness about Aadhaar services.</p>
-      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/en/media-resources/media/press-releases.html" rel="nofollow">UIDAI Press Release</a>]</div>
-    </div>
-  </div>
-
-  <div class="timeline-entry">
-    <div class="timeline-date">13 January</div>
-    <div class="timeline-content">
-      <p>UIDAI inaugurates a new Aadhaar Seva Kendra (ASK) at Anna Nagar East, Chennai, marking another significant step towards strengthening resident-centric Aadhaar services. Eight more Aadhaar Seva Kendras are planned to be established across Tamil Nadu in the next phase by March 2026, with a total of 30 centers targeted by September 2026.</p>
-      <div class="timeline-sources">[References: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2214121" rel="nofollow">PIB</a>]</div>
+      <p><strong>Current Status:</strong> As of early 2026, Aadhaar saturation covers nearly the entire adult population of India. The project's focus has shifted from "Enrolment" to "Update and Authentication," with increased emphasis on security protocols like <strong>Liveness Detection</strong> for fingerprints and AI-based <strong>Face Authentication</strong> to prevent fraud in the Aadhaar Enabled Payment System (AePS).</p>
+      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/en/media-resources/uidai-dashboard.html" rel="nofollow">UIDAI Dashboard</a>]</div>
     </div>
   </div>
 </div>
 
-</div>
+<div class="scroll-top" id="scrollTop">↑</div>
 
 <style>
 .timeline-intro {
