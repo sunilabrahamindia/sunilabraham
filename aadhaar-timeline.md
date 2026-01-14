@@ -1,0 +1,655 @@
+---
+layout: default
+title: "Aadhaar: A Timeline"
+description: "A chronological reference of key developments, legal milestones, policy decisions, and controversies in the Aadhaar project, India’s digital identity system."
+categories: [Resources]
+authors: ["Tito Dutta"]
+permalink: /resources/aadhaar-timeline/
+created: 2026-01-14
+---
+{% include under-construction %}
+{% include author.html %}
+
+<div class="timeline-intro">
+  <p><strong>Aadhaar</strong> is a 12-digit unique identity number that can be obtained voluntarily by citizens of India and resident foreign nationals who have spent over 182 days in twelve months immediately preceding the date of application for enrolment, based on their biometric and demographic data. The data is collected by the Unique Identification Authority of India (UIDAI), a statutory authority established in January 2009 by the Government of India. Aadhaar is the world's largest biometric ID system.</p>
+  <p>The project has been linked to public subsidy schemes, unemployment benefits, and financial services. While it has been praised for plugging leaks in welfare delivery, it has also faced significant criticism and legal challenges regarding privacy, data security, and exclusion. In 2018, the Supreme Court of India upheld the validity of the Aadhaar system but struck down certain provisions, including the mandatory linking of Aadhaar with bank accounts and mobile numbers.</p>
+  <a href="https://uidai.gov.in/" class="official-link" rel="nofollow">Visit UIDAI Official Website →</a>
+</div>
+
+<div class="timeline">
+
+<div class="timeline-year">
+  <h2>2009</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">28 January</div>
+    <div class="timeline-content">
+      <p>The Planning Commission of India issues a notification in the <em>Gazette of India</em> to establish the Unique Identification Authority of India (UIDAI) as an attached office under the Planning Commission. The UIDAI is tasked with laying down plans and policies to implement the UID scheme, owning and operating the UID database, and maintaining it on an ongoing basis.</p>
+      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/en/legal-framework/notifications.html" rel="nofollow">UIDAI Official</a>, <a href="https://www.pib.gov.in/newsite/printrelease.aspx?relid=102540" rel="nofollow">PIB</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="timeline-date">25 June</div>
+    <div class="timeline-content">
+      <p>Nandan Nilekani, co-founder of Infosys, is appointed by the UPA-II government as the first Chairman of UIDAI, with the rank equivalent to a Cabinet Minister. Prime Minister Dr. Manmohan Singh invites him to take charge of the unique identification project. His resignation from Infosys becomes effective 9 July 2009.</p>
+      <div class="timeline-sources">[References: <a href="https://www.infosys.com/newsroom/press-releases/documents/2009/nandan-chairperson-uidai.pdf" rel="nofollow">Infosys Press Release</a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2010</h2>
+  
+  <div class="timeline-entry major">
+    <div class="timeline-date">29 September</div>
+    <div class="timeline-content">
+      <p>The first Aadhaar number is issued to Ranjna Sadashiv Sonwane, a tribal woman from Tembhali village in the Nandurbar district of Maharashtra. The national launch is attended by Prime Minister Manmohan Singh, who hands the Aadhaar letter to Ranjna. Her five-year-old son Hitesh receives the second Aadhaar number, marking his first proof of identity.</p>
+      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/images/pressrelease/pressnotefinal.doc" rel="nofollow">UIDAI Press Note</a>, <a href="https://www.pib.gov.in/newsite/printrelease.aspx?relid=102540" rel="nofollow">PIB</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="timeline-date">3 December</div>
+    <div class="timeline-content">
+      <p>The National Identification Authority of India Bill, 2010, is introduced in the Rajya Sabha by the UPA government to give statutory backing to the UIDAI. The bill is subsequently referred to the Parliamentary Standing Committee on Finance for examination.</p>
+      <div class="timeline-sources">[References: <a href="https://www.prsindia.org/billtrack/the-national-identification-authority-of-india-bill-2010-1196" rel="nofollow">PRS India</a>, <a href="https://indianexpress.com/article/opinion/columns/aadhaar-didnt-fit-the-bill/" rel="nofollow"><em>Indian Express</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2011</h2>
+  
+  <div class="timeline-entry major">
+    <div class="timeline-date">December</div>
+    <div class="timeline-content">
+      <p>The Parliamentary Standing Committee on Finance, chaired by BJP leader Yashwant Sinha, categorically rejects the National Identification Authority of India Bill, 2010. The committee calls the draft legislation "directionless" and lacking clarity on what the government would achieve through the UID scheme. It expresses apprehension that the data collected for Aadhaar could end up in the hands of private players and be misused, as private organizations and individuals are involved in the implementation process. The committee urges the government to "reconsider and review the UID scheme as also the proposals contained in the Bill in all its ramifications and bring forth a fresh legislation before Parliament." The report is presented to Parliament on 11 December 2011.</p>
+      <div class="timeline-sources">[References: <a href="https://www.newindianexpress.com/nation/2011/Dec/14/panel-rejects-draft-of-aadhar-two-other-bills-320177.html" rel="nofollow"><em>The New Indian Express</em></a>, <a href="https://www.indiatoday.in/india/north/story/uid-bill-aadhaar-scheme-nandan-nilekani-mha-148229-2011-12-08" rel="nofollow"><em>India Today</em></a>, <a href="https://indianexpress.com/article/opinion/columns/aadhaar-didnt-fit-the-bill/" rel="nofollow"><em>Indian Express</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2012</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">November</div>
+    <div class="timeline-content">
+      <p>Retired Justice K.S. Puttaswamy files a Public Interest Litigation (PIL) in the Supreme Court challenging the validity of Aadhaar on the grounds that it violates the fundamental right to privacy. This initiates a protracted legal battle over the constitutional validity of the Aadhaar project.</p>
+      <div class="timeline-sources">[References: <a href="https://economictimes.indiatimes.com/news/politics-and-nation/chronology-of-aadhaar-case/articleshow/65965443.cms" rel="nofollow"><em>Economic Times</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2013</h2>
+  
+  <div class="timeline-entry major">
+    <div class="timeline-date">1 January</div>
+    <div class="timeline-content">
+      <p>The government launches the Direct Benefit Transfer (DBT) scheme, aiming to transfer subsidies directly to the bank accounts of beneficiaries using Aadhaar as the bridge to eliminate intermediaries and reduce corruption. This marks a significant policy shift toward digital welfare delivery.</p>
+      <div class="timeline-sources">[References: <a href="https://dbtbharat.gov.in/" rel="nofollow">DBT Bharat</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry major">
+    <div class="timeline-date">23 September</div>
+    <div class="timeline-content">
+      <p>In a significant interim order, the Supreme Court rules that Aadhaar cannot be made mandatory for accessing essential government services and subsidies. The court emphasizes the voluntary nature of the program and directs that no citizen should suffer for not having an Aadhaar card even when the government makes it mandatory for certain benefits.</p>
+      <div class="timeline-sources">[References: <a href="https://www.thehindu.com/news/national/sc-says-aadhaar-not-mandatory-for-essential-services/article5160980.ece" rel="nofollow"><em>The Hindu</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2014</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">2014</div>
+    <div class="timeline-content">
+      <p>The newly elected NDA government, despite the BJP's earlier criticism of the project during the Standing Committee review, decides to retain the Aadhaar program and sets a target to enroll 100 crore (1 billion) residents. The government recognizes the potential of Aadhaar for reducing leakages in welfare schemes and improving service delivery.</p>
+      <div class="timeline-sources">[References: <a href="https://www.pib.gov.in/newsite/printrelease.aspx?relid=102540" rel="nofollow">PIB</a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2015</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">11 August</div>
+    <div class="timeline-content">
+      <p>A three-judge bench of the Supreme Court restricts the use of Aadhaar to only the Public Distribution System (PDS), LPG (cooking gas), and kerosene distribution, while reiterating that the card remains voluntary. The court prohibits the government from making Aadhaar mandatory for any other services pending final adjudication.</p>
+      <div class="timeline-sources">[References: <a href="https://www.thehindu.com/news/national/sc-restricts-aadhaar-use-to-pds-lpg-kerosene/article7524903.ece" rel="nofollow"><em>The Hindu</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2016</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">29 February</div>
+    <div class="timeline-content">
+      <p>During the budget presentation, Finance Minister Arun Jaitley announces that a bill will be introduced within a week to provide legislative support to Aadhaar.</p>
+      <div class="timeline-sources">[References: <a href="https://sflc.in/how-parliament-debated-aadhaar-bill-2016/" rel="nofollow">SFLC India</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry major">
+    <div class="timeline-date">3 March</div>
+    <div class="timeline-content">
+      <p>The Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Bill, 2016, is introduced in the Lok Sabha by Finance Minister Arun Jaitley as a Money Bill. This classification sparks widespread constitutional debate as it prevents the Rajya Sabha (where the government lacked a majority) from rejecting it, allowing only recommendations.</p>
+      <div class="timeline-sources">[References: <a href="https://prsindia.org/billtrack/the-aadhaar-targeted-delivery-of-financial-and-other-subsidies-benefits-and-services-bill-2016" rel="nofollow">PRS India</a>, <a href="https://sflc.in/how-parliament-debated-aadhaar-bill-2016/" rel="nofollow">SFLC India</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="timeline-date">11 March</div>
+    <div class="timeline-content">
+      <p>The Lok Sabha passes the Aadhaar Bill by a voice vote with a quorum of 73 out of 545 members. Opposition members raise concerns about potential mass surveillance and question why the bill was introduced as a Money Bill, arguing it doesn't fit the definition under Article 110 of the Constitution.</p>
+      <div class="timeline-sources">[References: <a href="https://sflc.in/how-parliament-debated-aadhaar-bill-2016/" rel="nofollow">SFLC India</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="timeline-date">26 March</div>
+    <div class="timeline-content">
+      <p>The Aadhaar Act receives Presidential assent and is notified in the <em>Gazette of India</em>. The Act provides legal backing to UIDAI's operations and Aadhaar-based service delivery.</p>
+      <div class="timeline-sources">[References: <a href="https://www.business-standard.com/article/current-affairs/president-gives-assent-to-aadhaar-act-116032600465_1.html" rel="nofollow"><em>Business Standard</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2017</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">March</div>
+    <div class="timeline-content">
+      <p>The government mandates linking Aadhaar with PAN (Permanent Account Number) cards for filing income tax returns, expanding the scope of Aadhaar beyond welfare schemes to tax compliance. This move faces criticism from privacy advocates who argue it exceeds the limited purpose outlined in the Aadhaar Act.</p>
+      <div class="timeline-sources">[References: <a href="https://www.thehindu.com/business/Economy/aadhaar-mandatory-for-pan-it-returns/article17551062.ece" rel="nofollow"><em>The Hindu</em></a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry major">
+    <div class="timeline-date">24 August</div>
+    <div class="timeline-content">
+      <p>In a historic unanimous verdict, a nine-judge Constitutional Bench of the Supreme Court in <em>Justice K.S. Puttaswamy (Retd.) v. Union of India</em> declares the Right to Privacy a fundamental right under Article 21 of the Constitution. The 547-page judgment signed by all nine judges overrules past observations that had questioned the existence of a fundamental right to privacy. This landmark judgment sets the stage for more rigorous scrutiny of the Aadhaar project's privacy implications and creates a constitutional framework for data protection.</p>
+      <div class="timeline-sources">[References: <a href="https://www.thehindu.com/news/national/right-to-privacy-is-a-fundamental-right-sc/article19551817.ece" rel="nofollow"><em>The Hindu</em></a>, <a href="https://www.eff.org/deeplinks/2017/08/indias-supreme-court-upholds-right-privacy-fundamental-right-and-its-about-time" rel="nofollow">EFF</a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2018</h2>
+  
+  <div class="timeline-entry major">
+    <div class="timeline-date">4 January</div>
+    <div class="timeline-content">
+      <p><em>The Tribune</em> publishes an investigative report revealing that access to the Aadhaar database is being sold on WhatsApp for ₹500, sparking a national debate on data security. The investigative journalist obtains login credentials that provide unrestricted access to personal details of over one billion Aadhaar holders, including names, addresses, phone numbers, and photographs. For an additional ₹300, software to print Aadhaar cards is also made available. UIDAI officials in Chandigarh admit the breach appears to be a "major national security breach." Investigations reveal that over one lakh village-level enterprise (VLE) operators may have gained illegal access to the database.</p>
+      <div class="timeline-sources">[References: <a href="https://www.tribuneindia.com/news/archive/nation/rs-500-10-minutes-and-you-have-access-to-billion-aadhaar-details-523361" rel="nofollow"><em>The Tribune</em></a>, <a href="https://www.newslaundry.com/2018/01/04/tribune-aadhaar-details-whatsapp-uidai" rel="nofollow">Newslaundry</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry major">
+    <div class="timeline-date">26 September</div>
+    <div class="timeline-content">
+      <p>The Supreme Court delivers its landmark judgment on the constitutional validity of the Aadhaar Act in a 4:1 majority decision. The majority judgment, written by Justice AK Sikri in concurrence with Chief Justice Dipak Misra and Justice AM Khanwilkar, upholds the constitutional validity of the Aadhaar Act for welfare schemes, finding it satisfies the proportionality test and serves a legitimate state interest. However, the court strikes down Section 57 of the Aadhaar Act, which allowed private entities (such as banks, telecom companies, and schools) to demand Aadhaar for authentication. The court sets aside linking Aadhaar to bank accounts and mobile phone numbers, ruling these are not mandatory. While it upholds seeding of PAN with Aadhaar, it rules Aadhaar is not mandatory for school admissions, CBSE, UGC, and NEET examinations. Justice DY Chandrachud writes a dissenting opinion, arguing that the entire Aadhaar programme since 2009 suffers from constitutional infirmities and violations of fundamental rights, and that Parliament's passage of the Aadhaar Act as a Money Bill amounted to "a fraud on the Constitution." The court also strikes down the National Security Exception under the Aadhaar Act, restricting government access to individual Aadhaar data.</p>
+      <div class="timeline-sources">[References: <a href="https://indianexpress.com/article/india/aadhaar-verdict-supreme-court-judgment-uidai-5374829/" rel="nofollow"><em>Indian Express</em></a>, <a href="https://indianexpress.com/article/india/supreme-court-aadhaar-verdict-some-right-to-privacy-5376298/" rel="nofollow"><em>Indian Express</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2019</h2>
+  
+  <div class="timeline-entry major">
+    <div class="timeline-date">July</div>
+    <div class="timeline-content">
+      <p>Parliament passes the Aadhaar and Other Laws (Amendment) Act, 2019, allowing voluntary use of Aadhaar for Know Your Customer (KYC) purposes by banks, telecom companies, and other entities. The amendment effectively reinstates some private sector use of Aadhaar through a legislative route, circumventing the Supreme Court's striking down of Section 57. Critics argue this undermines the 2018 Supreme Court judgment.</p>
+      <div class="timeline-sources">[References: <a href="https://economictimes.indiatimes.com/news/politics-and-nation/parliament-passes-aadhaar-amendment-bill/articleshow/70129841.cms" rel="nofollow"><em>Economic Times</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2021</h2>
+  
+  <div class="timeline-entry major">
+    <div class="timeline-date">21 December</div>
+    <div class="timeline-content">
+      <p>Parliament passes the Election Laws (Amendment) Bill, 2021, which allows for the linking of Voter ID (EPIC - Electoral Photo Identity Card) with Aadhaar on a voluntary basis. The opposition criticizes the bill for potentially disenfranchising voters, enabling voter profiling, and violating the 2018 Supreme Court judgment that limited Aadhaar's scope. Civil liberties groups raise concerns about creating a surveillance apparatus through the linking of electoral and biometric databases.</p>
+      <div class="timeline-sources">[References: <a href="https://www.thehindu.com/news/national/parliament-passes-bill-to-link-voter-id-with-aadhaar/article38006282.ece" rel="nofollow"><em>The Hindu</em></a>, <a href="https://www.downtoearth.org.in/governance/should-electoral-id-data-be-linked-to-aadhaar--81138" rel="nofollow"><em>Down To Earth</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2023</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">June</div>
+    <div class="timeline-content">
+      <p>UIDAI rolls out an in-house developed AI/ML-based Face Authentication technology to verify identity. The technology is specifically targeted at pensioners for submitting digital life certificates, offering an alternative to fingerprint-based authentication which can be challenging for elderly citizens.</p>
+      <div class="timeline-sources">[References: <a href="https://timesofindia.indiatimes.com/india/uidai-rolls-out-face-authentication-for-pensioners/articleshow/100845678.cms" rel="nofollow"><em>The Times of India</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2024</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">July</div>
+    <div class="timeline-content">
+      <p>The Ministry of Home Affairs and UIDAI implement robust security measures, including biometric locking and mandatory two-factor authentication, in response to rising Aadhaar-enabled Payment System (AePS) frauds such as silicone thumb scams. These measures are introduced after multiple cases of biometric cloning for financial fraud are reported across the country.</p>
+      <div class="timeline-sources">[References: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039647" rel="nofollow">PIB</a>, <a href="https://www.business-standard.com/finance/news/govt-announces-measures-to-curb-aeps-frauds-124021200895_1.html" rel="nofollow"><em>Business Standard</em></a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2025</h2>
+  
+  <div class="timeline-entry">
+    <div class="timeline-date">15 June</div>
+    <div class="timeline-content">
+      <p>UIDAI extends the deadline for the free update of Aadhaar documents (Proof of Identity and Proof of Address) on the myAadhaar portal to 14 June 2026. This extension allows residents to update their demographic and biometric information without paying any fees.</p>
+      <div class="timeline-sources">[References: <a href="https://indianexpress.com/article/how-to/uidai-extends-free-aadhaar-update-to-june-2026-heres-how-to-do-it-online-10071529/" rel="nofollow"><em>Indian Express</em></a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry major">
+    <div class="timeline-date">30 October</div>
+    <div class="timeline-content">
+      <p>UIDAI embarks on a comprehensive strategic and technological review to shape the next decade of Aadhaar's evolution through a new 'Aadhaar Vision 2032' framework. The initiative aims to strengthen Aadhaar's technological foundation, integrate emerging digital innovations including AI, Blockchain, Quantum Computing, and next-generation Data Security mechanisms, and ensure the platform remains robust, inclusive, and future-ready. A high-level Expert Committee is constituted under the chairmanship of Shri Neelkanth Mishra, Chairperson, UIDAI, bringing together eminent experts from academia, industry, and administration.</p>
+      <div class="timeline-sources">[References: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2184639" rel="nofollow">PIB</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="timeline-date">November</div>
+    <div class="timeline-content">
+      <p>UIDAI announces plans for a major redesign of Aadhaar cards to enhance privacy. The proposed design would display only a photograph and a QR code on the card, removing visible personal details such as name, address, and date of birth to minimize identity theft risks. The proposal is expected to be reviewed in December 2025, with implementation planned for subsequent months.</p>
+      <div class="timeline-sources">[References: <a href="https://timesofindia.indiatimes.com/technology/tech-news/uidai-planning-new-aadhaar-rule-in-december-that-may-change-how-your-aadhar-card-looks/articleshow/125432236.cms" rel="nofollow"><em>The Times of India</em></a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="timeline-date">15 December</div>
+    <div class="timeline-content">
+      <p>UIDAI announces winners of the Biometrics SDK Benchmarking Challenge 2025, aimed at improving biometric authentication accuracy and performance across Aadhaar services.</p>
+      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/en/media-resources/media/press-releases.html" rel="nofollow">UIDAI Press Release</a>]</div>
+    </div>
+  </div>
+</div>
+
+<div class="timeline-year">
+  <h2>2026</h2>
+  
+  <div class="timeline-entry major">
+    <div class="timeline-date">1 January</div>
+    <div class="timeline-content">
+      <p>UIDAI revises the service fee for Aadhaar PVC (Polyvinyl Chloride) cards to ₹75 (including taxes), up from the previous rate. The PVC Aadhaar card, similar in size to a credit or debit card, is designed to be more durable than paper versions and includes enhanced security features. The revised rates become effective from 1 January 2026 for all orders placed through the myAadhaar portal.</p>
+      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/images/OM_for_revision_of_rate_of_Aadhaar_PVC_Card_service.pdf" rel="nofollow">UIDAI Official Order</a>, <a href="https://www.scconline.com/blog/post/2026/01/07/aadhaar-pvc-card-fee-revised-2026/" rel="nofollow">SCC Online</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="timeline-date">9 January</div>
+    <div class="timeline-content">
+      <p>UIDAI launches the official Aadhaar mascot "Udai" (उदय), giving a face to the world's largest biometric identity system. The mascot is designed to make Aadhaar more relatable and accessible to citizens across India, especially in rural areas, and to promote awareness about Aadhaar services.</p>
+      <div class="timeline-sources">[References: <a href="https://uidai.gov.in/en/media-resources/media/press-releases.html" rel="nofollow">UIDAI Press Release</a>]</div>
+    </div>
+  </div>
+
+  <div class="timeline-entry">
+    <div class="timeline-date">13 January</div>
+    <div class="timeline-content">
+      <p>UIDAI inaugurates a new Aadhaar Seva Kendra (ASK) at Anna Nagar East, Chennai, marking another significant step towards strengthening resident-centric Aadhaar services. Eight more Aadhaar Seva Kendras are planned to be established across Tamil Nadu in the next phase by March 2026, with a total of 30 centers targeted by September 2026.</p>
+      <div class="timeline-sources">[References: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2214121" rel="nofollow">PIB</a>]</div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="scroll-top" id="scrollTop">↑</div>
+
+<style>
+.timeline-intro {
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-left: 4px solid #2c5282;
+  border-radius: 4px;
+}
+
+.timeline-intro p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.timeline-intro h1 {
+  margin-top: 0;
+}
+
+.official-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background: #2c5282;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.official-link:hover {
+  background: #1a365d;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(44, 82, 130, 0.3);
+}
+
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background: linear-gradient(to bottom, #2c5282, #4299e1, #63b3ed);
+  top: 0;
+  bottom: 0;
+  left: 50px;
+  margin-left: -2px;
+  box-shadow: 0 0 10px rgba(66, 153, 225, 0.3);
+}
+
+.timeline-year {
+  position: relative;
+  margin-bottom: 3rem;
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.timeline-year h2 {
+  position: relative;
+  display: inline-block;
+  padding: 0.6rem 1.8rem;
+  background: linear-gradient(135deg, #2c5282 0%, #3182ce 100%);
+  color: white;
+  border-radius: 30px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-bottom: 2rem;
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(44, 82, 130, 0.3);
+  transition: all 0.3s ease;
+}
+
+.timeline-year h2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(44, 82, 130, 0.4);
+}
+
+.timeline-entry {
+  position: relative;
+  padding: 1rem 0 1rem 100px;
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.timeline-entry::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 4px solid #4299e1;
+  border-radius: 50%;
+  left: 41px;
+  top: 1.5rem;
+  z-index: 1;
+  box-shadow: 0 0 0 4px rgba(66, 153, 225, 0.15);
+  transition: all 0.3s ease;
+}
+
+.timeline-entry:hover::before {
+  transform: scale(1.3);
+  box-shadow: 0 0 0 6px rgba(66, 153, 225, 0.25);
+}
+
+.timeline-entry.major::before {
+  border-color: #e53e3e;
+  box-shadow: 0 0 0 4px rgba(229, 62, 62, 0.15);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 4px rgba(229, 62, 62, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(229, 62, 62, 0.25);
+  }
+}
+
+.timeline-entry.major:hover::before {
+  box-shadow: 0 0 0 6px rgba(229, 62, 62, 0.3);
+}
+
+.timeline-date {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  background: linear-gradient(135deg, #edf2f7 0%, #e2e8f0 100%);
+  color: #2d3748;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.timeline-date:hover {
+  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e0 100%);
+  transform: translateX(5px);
+}
+
+.timeline-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 4px solid #4299e1;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background: linear-gradient(to bottom, #4299e1, #63b3ed);
+  transition: height 0.4s ease;
+}
+
+.timeline-content:hover::before {
+  height: 100%;
+}
+
+.timeline-entry.major .timeline-content {
+  border-left-color: #e53e3e;
+  background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
+}
+
+.timeline-entry.major .timeline-content::before {
+  background: linear-gradient(to bottom, #e53e3e, #fc8181);
+}
+
+.timeline-content:hover {
+  transform: translateX(8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.timeline-content p {
+  margin: 0;
+  line-height: 1.8;
+  color: #2d3748;
+}
+
+.timeline-sources {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+  color: #1a202c;
+  font-weight: 500;
+}
+
+.timeline-sources a {
+  color: #2c5282;
+  text-decoration: none;
+  border-bottom: 1px dotted #2c5282;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.timeline-sources a:hover {
+  color: #1a365d;
+  border-bottom-style: solid;
+  background: rgba(44, 82, 130, 0.05);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: #2c5282;
+  color: white;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(44, 82, 130, 0.4);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  font-size: 1.5rem;
+}
+
+.scroll-top:hover {
+  background: #1a365d;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(44, 82, 130, 0.5);
+}
+
+.scroll-top.show {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    max-width: 95%;
+  }
+  
+  .timeline-intro {
+    max-width: 95%;
+    padding: 1.5rem;
+  }
+  
+  .timeline::before {
+    left: 30px;
+  }
+  
+  .timeline-entry {
+    padding-left: 70px;
+  }
+  
+  .timeline-entry::before {
+    left: 21px;
+  }
+  
+  .timeline-year h2 {
+    margin-left: 0;
+    font-size: 1.3rem;
+  }
+  
+  .scroll-top {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+}
+</style>
+<script>
+// Scroll to top functionality
+const scrollTop = document.getElementById('scrollTop');
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 300) {
+    scrollTop.classList.add('show');
+  } else {
+    scrollTop.classList.remove('show');
+  }
+});
+
+scrollTop.addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+// Add animation delay to timeline entries
+document.addEventListener('DOMContentLoaded', function() {
+  const entries = document.querySelectorAll('.timeline-entry');
+  entries.forEach((entry, index) => {
+    entry.style.animationDelay = `${index * 0.1}s`;
+  });
+});
+</script>
+
