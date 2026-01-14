@@ -8,6 +8,7 @@ permalink: /resources/aadhaar-timeline/
 created: 2026-01-14
 ---
 {% include under-construction.html %}
+{% include author.html %}
 
 <div class="timeline-intro">
   <p><strong>Aadhaar</strong> is a 12-digit unique identity number that can be obtained voluntarily by citizens of India and resident foreign nationals who have spent over 182 days in twelve months immediately preceding the date of application for enrolment, based on their biometric and demographic data. The data is collected by the Unique Identification Authority of India (UIDAI), a statutory authority established in January 2009 by the Government of India. Aadhaar is the world's largest biometric ID system.</p>
@@ -315,11 +316,8 @@ created: 2026-01-14
 
 </div>
 
-{% include author.html %}
-
 <style>
 .timeline-intro {
-  max-width: 1000px;
   margin: 0 auto 3rem;
   padding: 2rem;
   background: #f8f9fa;
