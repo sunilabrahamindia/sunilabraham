@@ -7,7 +7,7 @@ authors: ["Tito Dutta"]
 permalink: /resources/aadhaar-timeline/
 created: 2026-01-14
 ---
-{% include under-construction %}
+{% include under-construction.html %}
 {% include author.html %}
 
 <div class="timeline-intro">
