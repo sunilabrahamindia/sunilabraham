@@ -44,7 +44,7 @@ Read Online
 ## Full Text
 
 **TSAP Editor's Note:**  
-The Full Text below is reproduced from a live chat transcript published by *The Hindu*. As this was a real-time, interactive discussion involving panelists and readers, the text contains typographical errors, informal spellings, and inconsistencies as they originally appeared. These have not been corrected in order to preserve the accuracy and integrity of the original conversation. One common inconsistency in the transcript is the spelling of "Aadhaar", which appears in multiple variant forms.
+The Full Text below is reproduced from a live chat transcript published by *The Hindu*. As this was a real-time, interactive discussion involving panelists and readers, the text contains typographical errors, informal spellings, and inconsistencies as they originally appeared. These errors have not been corrected in order to preserve the accuracy and integrity of the original conversation. One common inconsistency in the transcript is the spelling of "Aadhaar", which appears in multiple variant forms.
 
 
 <div class="highlighted-text" id="fulltext">
