@@ -94,7 +94,7 @@ Why is Govt. not able to legalize the Aadhar, I'm assuming the only reason Supre
 
 <p><strong>K. Gopinath:</strong> SC goes by the constitution. If there is some concern someone is being "excluded", they will block it.</p>
 
-<p><strong>Sunil Abraham:</strong> The NIA bill was proposed in parliament and then referred to a Standing Committee. Our summary and detailed feedback to the Bill is available here: http://cis-india.org/intern... The Standing Committee harshly criticized the Bill. See: http://164.100.47.134/lsscommittee/Finance/42%20Report.pdf After which the Bill has not been reworked by the UIDAI or the Planning Commission /Niti Aayog for re-presentation to the Parliament.</p>
+<p><strong>Sunil Abraham:</strong> The NIA bill was proposed in parliament and then referred to a Standing Committee. Our summary and detailed feedback to the Bill is available here: http://cis-india.org/intern... The Standing Committee harshly criticized the Bill. After which the Bill has not been reworked by the UIDAI or the Planning Commission /Niti Aayog for re-presentation to the Parliament.</p>
 
 <p><strong>Sunil Abraham:</strong> No - it is not just an expensive experiment. It is much more dangerous - it is what security experts call a Honey Pot. A centralized repository of biometrics harvested from residents of India. These biometrics can be used to authenticate transactions in the UIDAI database and other services. If there is a breach - then this huge collection of authentication factors will end us in the hands of criminal elements or some foreign state.</p>
 
