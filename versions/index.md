@@ -451,7 +451,7 @@ Version 1.1 covers the period between 1 January and 11 January 2026. Work during
 Version 1.1.1 covers a short follow-up period after Version 1.1, with work focused on continued content expansion, consolidation of clusters, and the early groundwork for a new Resources section.
 
 **Content**
-- 22 new pages were created in this week.
+- 22 new pages were created in week.
 - Work continued to prioritise documentation, completeness, and structured grouping of material.
 
 **Clusters**
