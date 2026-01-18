@@ -34,8 +34,11 @@ created: 2025-11-17
   <dt>📄 Type:</dt>
   <dd>Opinion Article</dd>
 
-  <dt>📰 Newspaper Link:</dt>
-  <dd>Not available online</dd>
+<dd>
+<a class="btn" href="https://www.thehindu.com/sci-tech/technology/internet/We-are-anonymous-we-are-legion/article14688046.ece#google_vignette">
+Read Online
+</a> (Subscription required)
+</dd>
 </dl>
 
 ## Full Text
@@ -73,6 +76,7 @@ This article defends online anonymity as a core requirement for democracy, publi
 During that period, discussions about the right to anonymity were also shaped by the sudden visibility of the group known as Anonymous. Their use of shared symbols, fluid membership and public interventions made anonymity itself part of the political conversation. For many observers, this showed that masking identities online was not only something activists or hacktivists might rely on, but also a basic tool for people who feared surveillance or retaliation. This broader backdrop strengthened Abraham’s argument that anonymity protects democratic participation rather than undermining it.
 
 ## External Links
+- [Read on The Hindu](https://www.thehindu.com/sci-tech/technology/internet/We-are-anonymous-we-are-legion/article14688046.ece) (Subscription required)
 - [Anonymous (hacker group)](https://en.wikipedia.org/wiki/Anonymous_(hacker_group)), article on decentralised group of activist and hacktivist individuals, on Wikipedia
 - [We Are Legion: The Story of the Hacktivists](https://www.imdb.com/title/tt2177843/), a 2012 documentary, on IMDb
 
