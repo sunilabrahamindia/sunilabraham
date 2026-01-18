@@ -4,7 +4,7 @@ title: "Sunil Abraham and The Hindu"
 description: "A consolidated archive of Sunil Abraham's contributions to The Hindu and related news coverage that references his views on technology policy, digital rights, internet governance, and constitutional questions in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-the-hindu/
-created: 2026-01-06
+created: 2026-01-18
 ---
 
 ***The Hindu*** is one of India's oldest and most respected English-language newspapers, known for its emphasis on public-interest journalism, constitutional values, and in-depth reporting on policy, law, and governance. Its coverage of technology-related issues often situates digital developments within broader debates on rights, accountability, and democratic institutions.
