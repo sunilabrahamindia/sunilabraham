@@ -22,6 +22,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 11. [Version 0.9](#version-09)
 12. [Version 1.0](#version-10)
 13. [Version 1.1](#version-11)
+14. [Version 1.1.1](#version-111)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -444,3 +445,31 @@ Version 1.1 covers the period between 1 January and 11 January 2026. Work during
 **Status**
 - **Completed**
 - **Completion date:** 11 January 2026
+
+## Version 1.1.1
+
+Version 1.1.1 covers a short follow-up period after Version 1.1, with work focused on continued content expansion, consolidation of clusters, and the early groundwork for a new Resources section.
+
+**Content**
+- 22 new page* were created during this period.
+- Work continued to prioritise documentation, completeness, and structured grouping of material.
+
+**Clusters**
+- Work on the [*Sunil Abraham and Business Standard*](/clusters/sunil-abraham-business-standard/) cluster was completed for now.
+  - A small number of related articles were unavailable or had unresolved issues.
+  - These gaps have been noted and will be revisited in the future.
+- Initial work began on a *FactorDaily* cluster.
+  - Relevant articles and media mentions were created and added to TSAP.
+- Work also began on a *The Hindu* cluster.
+  - Related articles have started to be created.
+  - Cluster development will continue into the next phase.
+
+**Resources**
+- The *Resources* section was initiated.
+  - This work is at a very early stage.
+- A first draft of an Aadhaar timeline article has been prepared:
+  - [*Aadhaar Timeline*](https://sunilabraham.in/resources/aadhaar-timeline/)
+
+**Status**
+- **Completion date:** 18 January 2026
+
