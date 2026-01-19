@@ -7,30 +7,37 @@ permalink: /maintenance/
 created: 2026-01-19
 ---
 
-This page is an **internal maintenance dashboard** for the Sunil Abraham Project. It tracks metadata quality, editorial consistency, and structural hygiene across the site.
+This page is an **internal maintenance dashboard** for the **Sunil Abraham Project**. It tracks metadata quality, editorial consistency, and structural hygiene across the site.
 
-Nothing on this page is intended for public consumption.
+{% assign today = site.time | date: "%Y-%m-%d" %}
 
-## YAML Description Health
+## 1. Title Health
 
-Search engines typically rewrite or ignore descriptions that are too short, too long, missing, or duplicated.
-
-**Guiding ranges used here:**
-- Ideal: 120–160 characters
-- Acceptable: 70–170 characters
-- Flagged: < 50 or > 200 characters
-
-### Too short (less than 50 characters)
+### Missing title (1a)
 
 <ul>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
-    {% if page.description %}
-      {% assign len = page.description | size %}
-      {% if len < 50 %}
+    {% unless page.title %}
+      <li>
+        <a href="{{ page.url }}">{{ page.url }}</a>
+      </li>
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+### Overlong title (more than 70 characters) (1b)
+
+<ul>
+{% for page in site.pages %}
+  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
+    {% if page.title %}
+      {% assign tlen = page.title | size %}
+      {% if tlen > 70 %}
         <li>
-          <a href="{{ page.url }}">{{ page.title | default: page.url }}</a><br>
-          <small>{{ len }} characters — "{{ page.description }}"</small>
+          <a href="{{ page.url }}">{{ page.title }}</a><br>
+          <small>{{ tlen }} characters</small>
         </li>
       {% endif %}
     {% endif %}
@@ -38,30 +45,14 @@ Search engines typically rewrite or ignore descriptions that are too short, too 
 {% endfor %}
 </ul>
 
-### Too long (more than 200 characters)
+## 2. Created Date Hygiene
+
+### Missing `created` field (2a)
 
 <ul>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
-    {% if page.description %}
-      {% assign len = page.description | size %}
-      {% if len > 200 %}
-        <li>
-          <a href="{{ page.url }}">{{ page.title | default: page.url }}</a><br>
-          <small>{{ len }} characters</small>
-        </li>
-      {% endif %}
-    {% endif %}
-  {% endunless %}
-{% endfor %}
-</ul>
-
-### Missing description
-
-<ul>
-{% for page in site.pages %}
-  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
-    {% unless page.description %}
+    {% unless page.created %}
       <li>
         <a href="{{ page.url }}">{{ page.title | default: page.url }}</a>
       </li>
@@ -70,10 +61,112 @@ Search engines typically rewrite or ignore descriptions that are too short, too 
 {% endfor %}
 </ul>
 
+### Suspicious `created` (future date) (2b)
+
+<ul>
+{% for page in site.pages %}
+  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
+    {% if page.created %}
+      {% if page.created > today %}
+        <li>
+          <a href="{{ page.url }}">{{ page.title | default: page.url }}</a><br>
+          <small>created: {{ page.created }}</small>
+        </li>
+      {% endif %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+## 3. Category Hygiene
+
+### Missing categories (3a)
+
+<ul>
+{% for page in site.pages %}
+  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
+    {% unless page.categories %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title | default: page.url }}</a>
+      </li>
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+## 4. Permalink Hygiene
+
+### Missing permalink (4a)
+
+<ul>
+{% for page in site.pages %}
+  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
+    {% unless page.permalink %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title | default: page.url }}</a>
+      </li>
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+### Suspicious permalink patterns (4b)
+
+Flags:
+- Uppercase letters
+- `.html` or `.md`
+- Double slashes (`//`)
+
+<ul>
+{% for page in site.pages %}
+  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
+    {% if page.permalink %}
+      {% assign p = page.permalink %}
+      {% assign lower = p | downcase %}
+      {% if p != lower or p contains '.html' or p contains '.md' or p contains '//' %}
+        <li>
+          <a href="{{ page.url }}">{{ page.title | default: page.url }}</a><br>
+          <small>{{ p }}</small>
+        </li>
+      {% endif %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+## 5. Author Attribution Health
+
+### Missing `authors` field (5a)
+
+<ul>
+{% for page in site.pages %}
+  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
+    {% unless page.authors %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title | default: page.url }}</a>
+      </li>
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
+### Empty `authors` array (5b)
+
+<ul>
+{% for page in site.pages %}
+  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
+    {% if page.authors and page.authors.size == 0 %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title | default: page.url }}</a>
+      </li>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+</ul>
+
 ## Notes
 
 - Pages marked `published: false` are excluded by design.
 - `/sandbox/` paths are excluded to reduce noise.
-- This page is meant to be extended gradually (titles, dates, categories, authors, etc.).
-- Fixes should prioritise clarity and accuracy over keyword optimisation.
-
+- This dashboard is intentionally descriptive, not prescriptive.
+- Fixes should prioritise clarity, correctness, and long-term maintainability.
