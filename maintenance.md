@@ -7,31 +7,19 @@ permalink: /maintenance/
 created: 2026-01-19
 ---
 
-This page is an **internal maintenance dashboard** for the Sunil Abraham Project. It tracks metadata quality, editorial consistency, and structural hygiene across the site.
+This page functions as an **internal maintenance dashboard** for the Sunil Abraham Project. It is used to review metadata quality, editorial consistency, and structural hygiene across the site.
 
-Nothing on this page is intended for public consumption.
+While the page is publicly accessible, it is not designed for general reading. Most of the content consists of routine checks, lists, and diagnostic outputs that are primarily useful for ongoing maintenance rather than public consumption.
+
+**Some sections on this page may appear empty at times — or remain empty for long periods.** This is expected and simply indicates that no pages are currently affected by the specific issue being tracked in that section.
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
 
 ## 1. Title Health
 
-### Missing title (1a)
+### Overlong title (more than 70 characters)
 
-<ul>
-{% for page in site.pages %}
-  {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
-    {% unless page.title %}
-      <li>
-        <a href="{{ page.url }}">{{ page.url }}</a>
-      </li>
-    {% endunless %}
-  {% endunless %}
-{% endfor %}
-</ul>
-
-### Overlong title (more than 70 characters) (1b)
-
-<ul>
+<ol>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% if page.title %}
@@ -45,13 +33,13 @@ Nothing on this page is intended for public consumption.
     {% endif %}
   {% endunless %}
 {% endfor %}
-</ul>
+</ol>
 
 ## 2. Created Date Hygiene
 
-### Missing `created` field (2a)
+### Missing `created` field
 
-<ul>
+<ol>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% unless page.created %}
@@ -61,11 +49,11 @@ Nothing on this page is intended for public consumption.
     {% endunless %}
   {% endunless %}
 {% endfor %}
-</ul>
+</ol>
 
-### Suspicious `created` (future date) (2b)
+### Suspicious `created` (future date)
 
-<ul>
+<ol>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% if page.created %}
@@ -79,13 +67,13 @@ Nothing on this page is intended for public consumption.
     {% endif %}
   {% endunless %}
 {% endfor %}
-</ul>
+</ol>
 
 ## 3. Category Hygiene
 
-### Missing categories (3a)
+### Missing categories
 
-<ul>
+<ol>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% unless page.categories %}
@@ -95,13 +83,13 @@ Nothing on this page is intended for public consumption.
     {% endunless %}
   {% endunless %}
 {% endfor %}
-</ul>
+</ol>
 
 ## 4. Permalink Hygiene
 
-### Missing permalink (4a)
+### Missing permalink
 
-<ul>
+<ol>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% unless page.permalink %}
@@ -111,16 +99,16 @@ Nothing on this page is intended for public consumption.
     {% endunless %}
   {% endunless %}
 {% endfor %}
-</ul>
+</ol>
 
-### Suspicious permalink patterns (4b)
+### Suspicious permalink patterns
 
 Flags:
 - Uppercase letters
 - `.html` or `.md`
 - Double slashes (`//`)
 
-<ul>
+<ol>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% if page.permalink %}
@@ -135,13 +123,13 @@ Flags:
     {% endif %}
   {% endunless %}
 {% endfor %}
-</ul>
+</ol>
 
 ## 5. Author Attribution Health
 
-### Missing `authors` field (5a)
+### Missing `authors` field
 
-<ul>
+<ol>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% unless page.authors %}
@@ -151,11 +139,11 @@ Flags:
     {% endunless %}
   {% endunless %}
 {% endfor %}
-</ul>
+</ol>
 
-### Empty `authors` array (5b)
+### Empty `authors` array
 
-<ul>
+<ol>
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% if page.authors and page.authors.size == 0 %}
@@ -165,7 +153,7 @@ Flags:
     {% endif %}
   {% endunless %}
 {% endfor %}
-</ul>
+</ol>
 
 ## Notes
 
