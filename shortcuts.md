@@ -4,6 +4,7 @@ title: "Keyboard and URL Shortcuts"
 description: "A directory of assigned short URLs and keyboard shortcuts for fast and accessible navigation on sunilabraham.in."
 categories: [Project pages]
 permalink: /shortcuts/
+created: 2025-11-06
 sitemap: true
 ---
 
