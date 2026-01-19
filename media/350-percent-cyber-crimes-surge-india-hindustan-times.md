@@ -6,7 +6,7 @@ categories: [Media mentions]
 date: 2015-01-20
 authors: ["Devanik Saha"]
 source: "Hindustan Times"
-permalink: /media/350-percent-cyber-crimes-surge-india-hindustan-times.md/
+permalink: /media/350-percent-cyber-crimes-surge-india-hindustan-times/
 created: 2025-12-28
 ---
 
