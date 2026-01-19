@@ -7,7 +7,9 @@ permalink: /maintenance/
 created: 2026-01-19
 ---
 
-This page is an **internal maintenance dashboard** for the **Sunil Abraham Project**. It tracks metadata quality, editorial consistency, and structural hygiene across the site.
+This page is an **internal maintenance dashboard** for the Sunil Abraham Project. It tracks metadata quality, editorial consistency, and structural hygiene across the site.
+
+Nothing on this page is intended for public consumption.
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
 
@@ -67,7 +69,8 @@ This page is an **internal maintenance dashboard** for the **Sunil Abraham Proje
 {% for page in site.pages %}
   {% unless page.published == false or page.url contains '/sandbox/' or page.url contains '/maintenance/' %}
     {% if page.created %}
-      {% if page.created > today %}
+      {% assign created_str = page.created | date: "%Y-%m-%d" %}
+      {% if created_str > today %}
         <li>
           <a href="{{ page.url }}">{{ page.title | default: page.url }}</a><br>
           <small>created: {{ page.created }}</small>
