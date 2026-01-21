@@ -632,7 +632,7 @@ for (let d = startDate; d <= today; d = nextDate(d)) {
   // Add article links if pages exist for this date
   if (c > 0 && pagesByDate[d]) {
     const links = formatArticleLinks(pagesByDate[d]);
-    li.innerHTML = `${dateText} <span class="page-links">([${links}])</span>`;
+li.innerHTML = `${dateText} <span class="page-links">[${links}]</span>`;
   } else {
     li.textContent = dateText;
   }
