@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "TSAPDays"
+title: "TSAP Days"
 permalink: /tsapdays/
 categories: [Project pages]
 created: 2026-01-21
@@ -8,7 +8,7 @@ created: 2026-01-21
 <div id="streak-page">
 <section class="lead">
   <p>
-    <strong>TSAPDays</strong> celebrates daily article creation on <strong>The Sunil Abraham Project</strong> (TSAP). The name combines "TSAP" with "Days," inspired by collaborative documentation challenges like #100WikiDays—a global initiative where contributors create or improve 100 Wikipedia articles over 100 days—and #100HappyDays, a social media movement encouraging daily gratitude through photo sharing. TSAPDays adapts this spirit of consistent creative output to track new page creation streaks and publishing momentum.
+    <strong>TSAP Days</strong> celebrates daily article creation on <strong>The Sunil Abraham Project</strong> (TSAP). The name combines "TSAP" with "Days," inspired by collaborative documentation challenges like #100WikiDays—a global initiative where contributors create or improve 100 Wikipedia articles over 100 days—and #100HappyDays, a social media movement encouraging daily gratitude through photo sharing. TSAPDays adapts this spirit of consistent creative output to track new page creation streaks and publishing momentum.
   </p>
   <p>
     <strong>Caveat lector:</strong> Some days in October and November 2025 show no activity, which does not indicate the absence of work—only that no new pages were created on those dates. This visualization focuses exclusively on new page creation and does not capture other vital contributions such as content expansion, article improvements, maintenance edits, or structural refinements, all of which are equally important to the project's growth and quality.
@@ -16,7 +16,7 @@ created: 2026-01-21
 </section>
 
 <div class="streak-card">
-  <h2>Current Creation Streak</h2>
+  <h2>Current TSAPDays Streak</h2>
   <p id="streak-summary" class="streak-summary"></p>
   
   <div class="garland" id="garland"></div>
@@ -71,13 +71,6 @@ created: 2026-01-21
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-.lead h1 {
-  margin: 0 0 12px 0;
-  font-size: clamp(1.5rem, 5vw, 2rem);
-  color: #065f46;
-  font-weight: 700;
-}
-
 .lead p {
   margin: 0 0 12px 0;
   line-height: 1.6;
@@ -96,7 +89,6 @@ created: 2026-01-21
   padding: clamp(16px, 4vw, 28px);
   margin-bottom: clamp(16px, 4vw, 24px);
   box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  overflow: hidden;
 }
 
 .streak-card h2, .timeline-card h2 {
@@ -136,7 +128,6 @@ created: 2026-01-21
   gap: clamp(16px, 4vw, 24px);
   padding: clamp(16px, 4vw, 24px) 0;
   min-height: 80px;
-  overflow: hidden;
 }
 
 .flower-container {
@@ -183,7 +174,7 @@ created: 2026-01-21
 .rose .petal:nth-child(5) { transform: translate(-50%,-50%) rotate(240deg) translateY(-12px); }
 .rose .petal:nth-child(6) { transform: translate(-50%,-50%) rotate(300deg) translateY(-12px); }
 
-.rose .center {
+.rose .flower-center {
   position: absolute;
   width: 12px;
   height: 12px;
@@ -193,7 +184,7 @@ created: 2026-01-21
   left: 50%;
   transform: translate(-50%,-50%);
   box-shadow: 0 0 4px rgba(253,224,71,0.6);
-  z-index: 1;
+  z-index: 10;
 }
 
 /* ========== SUNFLOWER (3-4 pages) ========== */
@@ -217,7 +208,7 @@ created: 2026-01-21
 .sunflower .petal:nth-child(7) { transform: translate(-50%,-50%) rotate(270deg) translateY(-10px); }
 .sunflower .petal:nth-child(8) { transform: translate(-50%,-50%) rotate(315deg) translateY(-10px); }
 
-.sunflower .center {
+.sunflower .flower-center {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -226,7 +217,7 @@ created: 2026-01-21
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  z-index: 1;
+  z-index: 10;
 }
 
 /* ========== LOTUS (2 pages) ========== */
@@ -247,7 +238,7 @@ created: 2026-01-21
 .lotus .petal:nth-child(4) { transform: translate(-50%,-50%) rotate(216deg) translateY(-11px); }
 .lotus .petal:nth-child(5) { transform: translate(-50%,-50%) rotate(288deg) translateY(-11px); }
 
-.lotus .center {
+.lotus .flower-center {
   position: absolute;
   width: 11px;
   height: 11px;
@@ -256,7 +247,7 @@ created: 2026-01-21
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  z-index: 1;
+  z-index: 10;
 }
 
 /* ========== DAISY (1 page) ========== */
@@ -281,7 +272,7 @@ created: 2026-01-21
 .daisy .petal:nth-child(7) { transform: translate(-50%,-50%) rotate(270deg) translateY(-9px); }
 .daisy .petal:nth-child(8) { transform: translate(-50%,-50%) rotate(315deg) translateY(-9px); }
 
-.daisy .center {
+.daisy .flower-center {
   position: absolute;
   width: 14px;
   height: 14px;
@@ -290,7 +281,7 @@ created: 2026-01-21
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  z-index: 1;
+  z-index: 10;
 }
 
 /* ========== FLOWER INFO ========== */
@@ -569,7 +560,7 @@ if (streakDates.length === 0) {
     for (let j = 0; j < flowerInfo.petals; j++) {
       flower.appendChild(document.createElement("div")).className = "petal";
     }
-    flower.appendChild(document.createElement("div")).className = "center";
+    flower.appendChild(document.createElement("div")).className = "flower-center";
 
     const info = document.createElement("div");
     info.className = "info";
