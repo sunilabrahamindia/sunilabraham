@@ -8,7 +8,7 @@ created: 2026-01-21
 <div id="streak-page">
 <section class="lead">
   <p>
-    <strong>TSAP Days</strong> celebrates daily article creation on <strong>The Sunil Abraham Project</strong> (TSAP). The name combines "TSAP" with "Days," inspired by collaborative documentation challenges like #100WikiDays—a global initiative where contributors create or improve 100 Wikipedia articles over 100 days—and #100HappyDays, a social media movement encouraging daily gratitude through photo sharing. TSAPDays adapts this spirit of consistent creative output to track new page creation streaks and publishing momentum.
+    <strong>TSAP Days</strong> celebrates daily article creation on <strong>The Sunil Abraham Project</strong> (TSAP). The name combines "TSAP" with "Days," inspired by collaborative documentation challenges like #100WikiDays—a global initiative where contributors create or improve 100 Wikipedia articles over 100 days—and #100HappyDays, a social media movement encouraging daily gratitude through photo sharing. TSAP Days adapts this spirit of consistent creative output to track new page creation streaks and publishing momentum.
   </p>
   <p>
     <strong>Caveat lector:</strong> Some days in October and November 2025 show no activity, which does not indicate the absence of work—only that no new pages were created on those dates. This visualization focuses exclusively on new page creation and does not capture other vital contributions such as content expansion, article improvements, maintenance edits, or structural refinements, all of which are equally important to the project's growth and quality.
@@ -16,7 +16,7 @@ created: 2026-01-21
 </section>
 
 <div class="streak-card">
-  <h2>Current TSAPDays Streak</h2>
+  <h2>Current TSAP Days Streak</h2>
   <p id="streak-summary" class="streak-summary"></p>
   
   <div class="garland" id="garland"></div>
@@ -45,7 +45,7 @@ created: 2026-01-21
   <h2>📅 Publishing Timeline</h2>
   <p class="timeline-note">
     Below you'll find the number of pages created per day since the site began tracking.
-    <strong>Scroll down to see all entries</strong> organized by month.
+    <strong>Click any flower above to jump to its date.</strong> Scroll down to see all entries organized by month.
   </p>
   <div id="log-by-month"></div>
 </div>
@@ -148,6 +148,11 @@ created: 2026-01-21
   cursor: pointer;
   filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
   flex-shrink: 0;
+  transition: filter 0.3s ease;
+}
+
+.flower:hover {
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.25));
 }
 
 .flower.animate {
@@ -292,6 +297,7 @@ created: 2026-01-21
   max-height: 700px;
   overflow-y: auto;
   padding-right: 8px;
+  scroll-behavior: smooth;
 }
 
 #log-by-month::-webkit-scrollbar {
@@ -348,6 +354,7 @@ created: 2026-01-21
   transition: all 0.2s ease;
   position: relative;
   padding-left: 40px;
+  scroll-margin-top: 60px;
 }
 
 #log-by-month li::before {
@@ -385,6 +392,37 @@ created: 2026-01-21
   color: white;
 }
 
+#log-by-month li.highlight {
+  animation: highlight-flash 1s ease;
+}
+
+@keyframes highlight-flash {
+  0%, 100% { background: #d1fae5; }
+  50% { background: #6ee7b7; }
+}
+
+.page-links {
+  display: inline;
+  color: #059669;
+  font-size: 0.9em;
+}
+
+.page-links a {
+  color: #059669;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.page-links a:hover {
+  color: #047857;
+  text-decoration: underline;
+}
+
+.page-links .more-count {
+  font-style: italic;
+  color: #6b7280;
+}
+
 /* ========== RESPONSIVE ========== */
 @media (max-width: 640px) {
   .garland {
@@ -411,22 +449,35 @@ created: 2026-01-21
 
 <script>
 /* ========== DATA FROM JEKYLL ========== */
-const pages = [
+const pagesData = [
   {% for page in site.pages %}
     {% unless page.published == false or page.url contains '/sandbox/' %}
       {% if page.created %}
-        { created: "{{ page.created }}" },
+        { 
+          created: "{{ page.created }}",
+          title: {{ page.title | jsonify }},
+          url: "{{ page.url }}"
+        },
       {% endif %}
     {% endunless %}
   {% endfor %}
 ];
 
-/* ========== COUNT PER DAY ========== */
-const counts = {};
-pages.forEach(p => {
-  if (p.created) {
-    counts[p.created] = (counts[p.created] || 0) + 1;
+/* ========== CONFIGURATION ========== */
+const MAX_ARTICLES_DISPLAY = 3; // Show first 3, then "… +X more"
+
+/* ========== ORGANIZE DATA BY DATE ========== */
+const pagesByDate = {};
+pagesData.forEach(p => {
+  if (!pagesByDate[p.created]) {
+    pagesByDate[p.created] = [];
   }
+  pagesByDate[p.created].push(p);
+});
+
+const counts = {};
+Object.keys(pagesByDate).forEach(date => {
+  counts[date] = pagesByDate[date].length;
 });
 
 /* ========== DATE HELPERS ========== */
@@ -455,6 +506,23 @@ function monthLabel(d) {
   return date.toLocaleString("en-IN", { month: "long", year: "numeric", timeZone: "UTC" });
 }
 
+/* ========== FORMAT ARTICLE LINKS WITH TRUNCATION ========== */
+function formatArticleLinks(articles) {
+  const total = articles.length;
+  
+  if (total <= MAX_ARTICLES_DISPLAY) {
+    // Show all articles
+    const links = articles.map(p => `<a href="${p.url}">${p.title}</a>`).join(', ');
+    return links;
+  } else {
+    // Show first MAX_ARTICLES_DISPLAY, then "… +X more"
+    const visible = articles.slice(0, MAX_ARTICLES_DISPLAY);
+    const links = visible.map(p => `<a href="${p.url}">${p.title}</a>`).join(', ');
+    const remaining = total - MAX_ARTICLES_DISPLAY;
+    return `${links}, <span class="more-count">… +${remaining} more</span>`;
+  }
+}
+
 const today = new Date().toISOString().slice(0, 10);
 
 /* ========== FLOWER TYPE SELECTOR ========== */
@@ -463,6 +531,16 @@ function getFlowerType(count) {
   if (count >= 3) return { type: 'sunflower', petals: 8 };
   if (count === 2) return { type: 'lotus', petals: 5 };
   return { type: 'daisy', petals: 8 };
+}
+
+/* ========== SCROLL TO DATE FUNCTION ========== */
+function scrollToDate(date) {
+  const targetLi = document.querySelector(`li[data-date="${date}"]`);
+  if (targetLi) {
+    targetLi.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    targetLi.classList.add('highlight');
+    setTimeout(() => targetLi.classList.remove('highlight'), 1000);
+  }
 }
 
 /* ========== STREAK CALCULATION ========== */
@@ -506,7 +584,11 @@ if (streakDates.length === 0) {
     flower.className = `flower ${flowerInfo.type} animate`;
     flower.style.animationDelay = `${(i * 0.15) % 4}s`;
     flower.setAttribute('role', 'img');
-    flower.setAttribute('aria-label', `${formatLongDate(d.date)}: ${d.count} page${d.count === 1 ? '' : 's'} created`);
+    flower.setAttribute('aria-label', `${formatLongDate(d.date)}: ${d.count} page${d.count === 1 ? '' : 's'} created. Click to view details.`);
+    flower.dataset.date = d.date;
+    
+    // Make flower clickable
+    flower.addEventListener('click', () => scrollToDate(d.date));
 
     for (let j = 0; j < flowerInfo.petals; j++) {
       flower.appendChild(document.createElement("div")).className = "petal";
@@ -543,7 +625,17 @@ for (let d = startDate; d <= today; d = nextDate(d)) {
   
   const c = counts[d] || 0;
   const li = document.createElement("li");
-  li.textContent = `${formatLongDate(d)}: ${c} ${c === 1 ? "page" : "pages"}`;
+  li.dataset.date = d;
+  
+  let dateText = `${formatLongDate(d)}: ${c} ${c === 1 ? "page" : "pages"}`;
+  
+  // Add article links if pages exist for this date
+  if (c > 0 && pagesByDate[d]) {
+    const links = formatArticleLinks(pagesByDate[d]);
+    li.innerHTML = `${dateText} <span class="page-links">([${links}])</span>`;
+  } else {
+    li.textContent = dateText;
+  }
   
   if (c > 0) {
     li.classList.add('active-day');
