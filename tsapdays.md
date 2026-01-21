@@ -555,7 +555,7 @@ while ((counts[cursor] || 0) > 0) {
 /* ========== RENDER STREAK SUMMARY ========== */
 const summary = document.getElementById("streak-summary");
 if (streakDates.length === 0) {
-  summary.textContent = "🌱 No active streak. Start creating today to begin your garden!";
+  summary.textContent = "🌱 No active streak. We have to restart article creation to begin the garden!";
   summary.style.background = "linear-gradient(135deg, #fef3c7, #fde68a)";
   summary.style.borderLeftColor = "#f59e0b";
 } else {
