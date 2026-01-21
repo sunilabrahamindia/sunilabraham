@@ -174,19 +174,6 @@ created: 2026-01-21
 .rose .petal:nth-child(5) { transform: translate(-50%,-50%) rotate(240deg) translateY(-12px); }
 .rose .petal:nth-child(6) { transform: translate(-50%,-50%) rotate(300deg) translateY(-12px); }
 
-.rose .flower-center {
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background: radial-gradient(circle, #fef08a, #fde047);
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  box-shadow: 0 0 4px rgba(253,224,71,0.6);
-  z-index: 10;
-}
-
 /* ========== SUNFLOWER (3-4 pages) ========== */
 .sunflower .petal {
   position: absolute;
@@ -208,18 +195,6 @@ created: 2026-01-21
 .sunflower .petal:nth-child(7) { transform: translate(-50%,-50%) rotate(270deg) translateY(-10px); }
 .sunflower .petal:nth-child(8) { transform: translate(-50%,-50%) rotate(315deg) translateY(-10px); }
 
-.sunflower .flower-center {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background: radial-gradient(circle, #78350f, #92400e);
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: 10;
-}
-
 /* ========== LOTUS (2 pages) ========== */
 .lotus .petal {
   position: absolute;
@@ -238,29 +213,17 @@ created: 2026-01-21
 .lotus .petal:nth-child(4) { transform: translate(-50%,-50%) rotate(216deg) translateY(-11px); }
 .lotus .petal:nth-child(5) { transform: translate(-50%,-50%) rotate(288deg) translateY(-11px); }
 
-.lotus .flower-center {
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  background: radial-gradient(circle, #fde68a, #fbbf24);
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: 10;
-}
-
-/* ========== DAISY (1 page) ========== */
+/* ========== DAISY (1 page) - NOW LIGHT BLUE ========== */
 .daisy .petal {
   position: absolute;
   width: 25%;
   height: 32%;
-  background: linear-gradient(135deg, #ffffff 0%, #f3f4f6 100%);
+  background: linear-gradient(135deg, #bfdbfe 0%, #93c5fd 50%, #60a5fa 100%);
   border-radius: 50%;
   top: 50%;
   left: 50%;
   transform-origin: 50% 90%;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #3b82f6;
 }
 
 .daisy .petal:nth-child(1) { transform: translate(-50%,-50%) rotate(0deg) translateY(-9px); }
@@ -271,18 +234,6 @@ created: 2026-01-21
 .daisy .petal:nth-child(6) { transform: translate(-50%,-50%) rotate(225deg) translateY(-9px); }
 .daisy .petal:nth-child(7) { transform: translate(-50%,-50%) rotate(270deg) translateY(-9px); }
 .daisy .petal:nth-child(8) { transform: translate(-50%,-50%) rotate(315deg) translateY(-9px); }
-
-.daisy .flower-center {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  background: radial-gradient(circle, #fde047, #facc15);
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: 10;
-}
 
 /* ========== FLOWER INFO ========== */
 .info {
@@ -326,7 +277,7 @@ created: 2026-01-21
 .legend-flower.rose { background: linear-gradient(135deg, #fb7185, #e11d48); border-radius: 50%; }
 .legend-flower.sunflower { background: linear-gradient(135deg, #fde047, #eab308); border-radius: 50%; }
 .legend-flower.lotus { background: linear-gradient(135deg, #f9a8d4, #ec4899); border-radius: 50%; }
-.legend-flower.daisy { background: linear-gradient(135deg, #ffffff, #f3f4f6); border-radius: 50%; border: 2px solid #e5e7eb; }
+.legend-flower.daisy { background: linear-gradient(135deg, #bfdbfe, #60a5fa); border-radius: 50%; border: 2px solid #3b82f6; }
 
 /* ========== ANIMATIONS ========== */
 @keyframes gentle-sway {
@@ -560,7 +511,6 @@ if (streakDates.length === 0) {
     for (let j = 0; j < flowerInfo.petals; j++) {
       flower.appendChild(document.createElement("div")).className = "petal";
     }
-    flower.appendChild(document.createElement("div")).className = "flower-center";
 
     const info = document.createElement("div");
     info.className = "info";
