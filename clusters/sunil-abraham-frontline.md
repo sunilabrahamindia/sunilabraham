@@ -1,17 +1,37 @@
 ---
 layout: default
 title: "Sunil Abraham and Frontline"
-description: "A curated cluster of Frontline magazine reporting that engages with Sunil Abraham’s analysis of technology, public policy, digital governance, and the societal implications of large-scale digital systems in India."
+description: "A consolidated cluster of Frontline magazine articles that include Sunil Abraham’s writing and referenced commentary on technology, digital governance, and public policy questions in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-frontline/
 created: 2026-01-22
 ---
 
-***Frontline*** is a long-running Indian magazine of reportage and analysis, published by *The Hindu* group, known for its in-depth coverage of politics, public policy, science, technology, and social change. Its journalism typically emphasises structural context, institutional accountability, and long-form investigation over daily news cycles.
+***Frontline*** is a long-form Indian magazine published by *The Hindu* group, known for its investigative reporting and analytical coverage of politics, public policy, science, and technology. Its journalism typically situates contemporary developments within broader historical, institutional, and social contexts.
 
-Within this body of work, **Sunil Abraham** appears as a cited expert and analyst in articles that examine the governance of digital infrastructure, the political economy of technology, surveillance frameworks, and the regulatory consequences of platform-driven change. These references often situate technical developments within broader questions of rights, state power, and democratic oversight.
+Within this body of work, **Sunil Abraham** has appeared both as an author and as a cited expert in articles examining digital infrastructure, surveillance, telecom policy, and the governance of large-scale technological systems. These contributions and references are embedded within wider analyses rather than framed as standalone commentary.
 
-This cluster brings together all available **media mentions** of Sunil Abraham published in *Frontline*. Read collectively, the articles reflect how complex debates around technology and governance have been explored through investigative and explanatory journalism rather than episodic reporting.
+This cluster brings together all available **publications** and **media mentions** connected to *Frontline*, providing a focused record of how technology policy and digital governance issues have been explored in the magazine’s reporting.
+
+## ✍️ Publications {#publications}
+
+<ol class="cluster-list">
+{% assign pub_items = site.pages 
+     | where_exp:"p","p.categories contains 'Publications'"
+     | where:"source","Frontline"
+     | sort:"date" | reverse
+%}
+
+{% for item in pub_items %}
+  <li>
+    <a href="{{ item.permalink }}">{{ item.title }}</a><br>
+    <span class="meta">{{ item.date | date: "%-d %B %Y" }}</span>
+    {% if item.description %}
+      <div class="desc">{{ item.description }}</div>
+    {% endif %}
+  </li>
+{% endfor %}
+</ol>
 
 ## 📣 Media Mentions {#media}
 
