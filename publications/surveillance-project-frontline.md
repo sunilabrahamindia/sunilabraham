@@ -6,7 +6,7 @@ categories: [Media articles, Publications]
 date: 2016-03-30
 authors: ["Sunil Abraham"]
 source: "Frontline"
-permalink: /media/surveillance-project-frontline/
+permalink: /publications/surveillance-project-frontline/
 created: 2026-01-22
 ---
 
