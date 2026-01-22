@@ -12,8 +12,10 @@ created: 2026-01-21
   </p>
   <p>
     <strong>Caveat lector:</strong> 
+<ol>
 <li>Some days in October and November 2025 show no activity, which does not indicate the absence of work—only that no new pages were created on those dates.</li>
   <li>This visualization focuses exclusively on new page creation and does not capture other vital contributions such as content expansion, article improvements, maintenance edits, or structural refinements, all of which are equally important to the project's growth and quality.</li>
+</ol>
   </p>
 </section>
 
