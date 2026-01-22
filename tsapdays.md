@@ -11,7 +11,7 @@ created: 2026-01-21
     <strong>TSAP Days</strong> celebrates daily article creation on <strong>The Sunil Abraham Project</strong> (TSAP). The name combines "TSAP" with "Days," inspired by collaborative documentation challenges like #100WikiDays, a global initiative where contributors create or improve 100 Wikipedia articles over 100 days, and #100HappyDays, a social media movement encouraging daily gratitude through photo sharing. TSAP Days adapts this spirit of consistent creative output to track new page creation streaks and publishing momentum.
   </p>
   <p>
-    <strong><em>Caveat lector</em>:</strong> 
+    <strong><em>Caveat lector</em></strong> 
 <ol>
 <li>Some days in October and November 2025 show no activity, which does not indicate the absence of work, only that no new pages were created on those dates.</li>
   <li>This visualization focuses exclusively on new page creation and does not capture other vital contributions such as content expansion, article improvements, maintenance edits, or structural refinements, all of which are equally important to the project's growth and quality.</li>
