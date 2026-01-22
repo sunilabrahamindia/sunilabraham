@@ -28,7 +28,7 @@ created: 2026-01-21
     </div>
     <div class="legend-item">
       <div class="legend-flower sunflower"></div>
-      <span>3-4 pages</span>
+      <span>3–4 pages</span>
     </div>
     <div class="legend-item">
       <div class="legend-flower lotus"></div>
@@ -571,7 +571,7 @@ const garland = document.getElementById("garland");
 
 if (streakDates.length === 0) {
   const emptyMsg = document.createElement("p");
-  emptyMsg.textContent = "Your garden awaits... 🌱";
+  emptyMsg.textContent = "The garden awaits... 🌱";
   emptyMsg.style.cssText = "color: #6b7280; font-style: italic; padding: 20px;";
   garland.appendChild(emptyMsg);
 } else {
