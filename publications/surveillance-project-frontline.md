@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Surveillance project"
+title: "Surveillance Project"
 description: "A Frontline cover story by Sunil Abraham examining the Aadhaar Act's technological architecture, critiquing biometric centralisation, surveillance risks, and the limits of legal safeguards in large-scale identification systems."
 categories: [Media articles, Publications]
 date: 2016-03-30
@@ -10,7 +10,7 @@ permalink: /publications/surveillance-project-frontline/
 created: 2026-01-22
 ---
 
-**Surveillance project** is a *Frontline* cover story published on 30 March 2016 by Sunil Abraham. Written two weeks after Parliament passed the Aadhaar Act, the article provides a systematic technical and political critique of biometric centralisation, and argues that architectural choices, rather than legal safeguards alone, play a decisive role in shaping whether identification systems enable governance or surveillance.
+**Surveillance Project** is a *Frontline* cover story published on 30 March 2016 by Sunil Abraham. Written two weeks after Parliament passed the Aadhaar Act, the article provides a systematic technical and political critique of biometric centralisation, and argues that architectural choices, rather than legal safeguards alone, play a decisive role in shaping whether identification systems enable governance or surveillance.
 
 ## Contents
 
