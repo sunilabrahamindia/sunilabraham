@@ -10,10 +10,6 @@ created: 2026-01-23
 
 {% include author.html %}
 
-***Note:*** *Sunil Abraham contributed to the full analytical framework beyond the aphorism, while Tito Dutta prepared this article for *The Sunil Abraham Project* based on published sources and original inputs provided by Sunil Abraham.*
-
-<hr class="article-separator">
-
 **Surveillance Is Like Salt in Cooking** is a comparison used by [Sunil Abraham](/sunil/), an Indian technology policy and internet governance analyst, to explain the role of surveillance in democratic societies. The simile frames surveillance as a necessary but delicate practice: like salt in cooking, a small and carefully measured quantity can be useful, but excessive use can spoil the outcome. Sunil has used this comparison across speeches, media interviews, opinion pieces, and policy discussions to argue for proportionate, accountable, and rights-respecting approaches to surveillance. The idea has become a recurring explanatory device in debates on digital rights, mass surveillance, internet governance, and public policy in India.
 
 The comparison challenges the binary framing of surveillance debates, where systems are characterised as either necessary for security or inherently threatening to liberty. Instead, Sunil proposes that the critical variable is proportionality. Just as salt enhances flavour in precise amounts whilst rendering food inedible in excess, targeted surveillance serves legitimate law enforcement purposes whilst blanket surveillance undermines democratic freedoms, compromises anonymity, and creates systemic vulnerabilities.
