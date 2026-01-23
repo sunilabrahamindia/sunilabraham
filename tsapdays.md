@@ -468,7 +468,7 @@ const pagesData = [
 ];
 
 /* ========== CONFIGURATION ========== */
-const MAX_ARTICLES_DISPLAY = 3; // Show first 3, then "… +X more"
+const MAX_ARTICLES_DISPLAY = 3;
 
 /* ========== ORGANIZE DATA BY DATE ========== */
 const pagesByDate = {};
@@ -497,17 +497,29 @@ function prevDate(d) {
   return date.toISOString().slice(0, 10);
 }
 
+function isSunday(d) {
+  const [y, m, day] = d.split('-').map(Number);
+  const date = new Date(Date.UTC(y, m - 1, day));
+  return date.getUTCDay() === 0;
+}
+
 function formatLongDate(d) {
   const [y, m, day] = d.split('-').map(Number);
   const date = new Date(Date.UTC(y, m - 1, day));
-  const monthName = date.toLocaleString("en-IN", { month: "long", timeZone: "UTC" });
-  return `${day} ${monthName} ${y}`;
+  const options = { 
+    weekday: 'long', 
+    day: 'numeric', 
+    month: 'long', 
+    year: 'numeric',
+    timeZone: 'UTC'
+  };
+  return date.toLocaleString('en-IN', options);
 }
 
 function monthLabel(d) {
   const [y, m] = d.split('-').map(Number);
   const date = new Date(Date.UTC(y, m - 1, 1));
-  return date.toLocaleString("en-IN", { month: "long", year: "numeric", timeZone: "UTC" });
+  return date.toLocaleString('en-IN', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 }
 
 /* ========== FORMAT ARTICLE LINKS WITH TRUNCATION ========== */
@@ -515,11 +527,9 @@ function formatArticleLinks(articles) {
   const total = articles.length;
   
   if (total <= MAX_ARTICLES_DISPLAY) {
-    // Show all articles
     const links = articles.map(p => `<a href="${p.url}">${p.title}</a>`).join(', ');
     return links;
   } else {
-    // Show first MAX_ARTICLES_DISPLAY, then "… +X more"
     const visible = articles.slice(0, MAX_ARTICLES_DISPLAY);
     const links = visible.map(p => `<a href="${p.url}">${p.title}</a>`).join(', ');
     const remaining = total - MAX_ARTICLES_DISPLAY;
@@ -547,59 +557,60 @@ function scrollToDate(date) {
   }
 }
 
-/* ========== STREAK CALCULATION ========== */
+/* ========== STREAK CALCULATION (SUNDAYS ONLY) ========== */
 let streakDates = [];
 let cursor = today;
 
 while ((counts[cursor] || 0) > 0) {
-  streakDates.unshift({ date: cursor, count: counts[cursor] });
+  if (isSunday(cursor)) {
+    streakDates.unshift({ date: cursor, count: counts[cursor] });
+  }
   cursor = prevDate(cursor);
 }
 
 /* ========== RENDER STREAK SUMMARY ========== */
-const summary = document.getElementById("streak-summary");
+const summary = document.getElementById('streak-summary');
 if (streakDates.length === 0) {
-  summary.textContent = "🌱 No active streak. We have to restart article creation to begin the garden!";
-  summary.style.background = "linear-gradient(135deg, #fef3c7, #fde68a)";
-  summary.style.borderLeftColor = "#f59e0b";
+  summary.textContent = '🌱 No active Sunday streak. We have to restart article creation on Sundays to begin the garden!';
+  summary.style.background = 'linear-gradient(135deg, #fef3c7, #fde68a)';
+  summary.style.borderLeftColor = '#f59e0b';
 } else {
   const totalPages = streakDates.reduce((sum, d) => sum + d.count, 0);
   summary.textContent = 
-    `🔥 ${streakDates.length} day${streakDates.length === 1 ? "" : "s"} streak • ` +
-    `${totalPages} page${totalPages === 1 ? "" : "s"} created • ` +
+    `🔥 ${streakDates.length} Sunday${streakDates.length === 1 ? '' : 's'} streak • ` +
+    `${totalPages} page${totalPages === 1 ? '' : 's'} created • ` +
     `Started ${formatLongDate(streakDates[0].date)}`;
 }
 
 /* ========== RENDER FLOWERS ========== */
-const garland = document.getElementById("garland");
+const garland = document.getElementById('garland');
 
 if (streakDates.length === 0) {
-  const emptyMsg = document.createElement("p");
-  emptyMsg.textContent = "The garden awaits... 🌱";
-  emptyMsg.style.cssText = "color: #6b7280; font-style: italic; padding: 20px;";
+  const emptyMsg = document.createElement('p');
+  emptyMsg.textContent = 'The garden awaits... 🌱';
+  emptyMsg.style.cssText = 'color: #6b7280; font-style: italic; padding: 20px;';
   garland.appendChild(emptyMsg);
 } else {
   streakDates.forEach((d, i) => {
-    const wrap = document.createElement("div");
-    wrap.className = "flower-container";
+    const wrap = document.createElement('div');
+    wrap.className = 'flower-container';
 
     const flowerInfo = getFlowerType(d.count);
-    const flower = document.createElement("div");
+    const flower = document.createElement('div');
     flower.className = `flower ${flowerInfo.type} animate`;
     flower.style.animationDelay = `${(i * 0.15) % 4}s`;
     flower.setAttribute('role', 'img');
     flower.setAttribute('aria-label', `${formatLongDate(d.date)}: ${d.count} page${d.count === 1 ? '' : 's'} created. Click to view details.`);
     flower.dataset.date = d.date;
     
-    // Make flower clickable
     flower.addEventListener('click', () => scrollToDate(d.date));
 
     for (let j = 0; j < flowerInfo.petals; j++) {
-      flower.appendChild(document.createElement("div")).className = "petal";
+      flower.appendChild(document.createElement('div')).className = 'petal';
     }
 
-    const info = document.createElement("div");
-    info.className = "info";
+    const info = document.createElement('div');
+    info.className = 'info';
     info.textContent = `${formatLongDate(d.date)}: ${d.count}`;
 
     wrap.appendChild(flower);
@@ -608,8 +619,8 @@ if (streakDates.length === 0) {
   });
 }
 
-/* ========== DAILY LOG ========== */
-const log = document.getElementById("log-by-month");
+/* ========== DAILY LOG (SUNDAYS ONLY) ========== */
+const log = document.getElementById('log-by-month');
 const allDates = Object.keys(counts).sort();
 const startDate = allDates.length > 0 ? allDates[0] : today;
 
@@ -617,26 +628,27 @@ let currentMonth = null;
 let list;
 
 for (let d = startDate; d <= today; d = nextDate(d)) {
+  if (!isSunday(d)) continue;
+  
   const m = monthLabel(d);
   if (m !== currentMonth) {
-    const h3 = document.createElement("h3");
+    const h3 = document.createElement('h3');
     h3.textContent = m;
     log.appendChild(h3);
-    list = document.createElement("ol");
+    list = document.createElement('ol');
     log.appendChild(list);
     currentMonth = m;
   }
   
   const c = counts[d] || 0;
-  const li = document.createElement("li");
+  const li = document.createElement('li');
   li.dataset.date = d;
   
-  let dateText = `${formatLongDate(d)}: ${c} ${c === 1 ? "page" : "pages"}`;
+  let dateText = `${formatLongDate(d)}: ${c} ${c === 1 ? 'page' : 'pages'}`;
   
-  // Add article links if pages exist for this date
   if (c > 0 && pagesByDate[d]) {
     const links = formatArticleLinks(pagesByDate[d]);
-li.innerHTML = `${dateText} <span class="page-links">[${links}]</span>`;
+    li.innerHTML = `${dateText} <span class="page-links">[${links}]</span>`;
   } else {
     li.textContent = dateText;
   }
