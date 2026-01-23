@@ -3,12 +3,16 @@ layout: default
 title: "Surveillance Is Like Salt in Cooking"
 description: "An explanation of the comparison used by Sunil Abraham to describe the role of surveillance in democratic societies, internet governance, and public policy."
 categories: [Ideas and opinions, Resources, TSAP Originals]
-authors: ["Tito Dutta"]
+authors: ["Sunil Abraham", "Tito Dutta"]
 permalink: /articles/surveillance-is-like-salt-in-cooking/
 created: 2026-01-23
 ---
 
 {% include author.html %}
+
+***Note:*** *Sunil Abraham contributed to the full analytical framework beyond the aphorism, while Tito Dutta prepared this article for *The Sunil Abraham Project* based on published sources and original inputs provided by Sunil Abraham.*
+
+<hr class="article-separator">
 
 **Surveillance Is Like Salt in Cooking** is a comparison used by [Sunil Abraham](/sunil/), an Indian technology policy and internet governance analyst, to explain the role of surveillance in democratic societies. The simile frames surveillance as a necessary but delicate practice: like salt in cooking, a small and carefully measured quantity can be useful, but excessive use can spoil the outcome. Sunil has used this comparison across speeches, media interviews, opinion pieces, and policy discussions to argue for proportionate, accountable, and rights-respecting approaches to surveillance. The idea has become a recurring explanatory device in debates on digital rights, mass surveillance, internet governance, and public policy in India.
 
@@ -430,6 +434,11 @@ The biometric irreversibility problem poses particular regulatory challenges wit
     border-radius: 8px;
     margin: 0 auto;
   }
+}
+   .article-separator {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  margin: 0.75rem 0 1rem 0;
 }
 </style>
 
