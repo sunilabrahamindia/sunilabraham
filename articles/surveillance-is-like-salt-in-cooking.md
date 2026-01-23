@@ -14,14 +14,6 @@ created: 2026-01-23
 
 The comparison challenges the binary framing of surveillance debates, where systems are characterised as either necessary for security or inherently threatening to liberty. Instead, Sunil proposes that the critical variable is proportionality. Just as salt enhances flavour in precise amounts whilst rendering food inedible in excess, targeted surveillance serves legitimate law enforcement purposes whilst blanket surveillance undermines democratic freedoms, compromises anonymity, and creates systemic vulnerabilities.
 
-<div class="article-hero-image">
-  <img 
-    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/surveillance-is-like-salt-sunil.jpg" 
-    alt="Artistic portrait of Sunil Abraham in the style of classical oil painting, featuring symbolic elements representing the surveillance-as-salt metaphor: a hand adding salt to a cooking pot in the upper left, surveillance cameras and drones in the upper right, a magnifying glass over scattered documents and grains representing data, and padlocks symbolising security and privacy. The composition blends domestic cooking imagery with surveillance technology to visualise the central metaphor of proportionate surveillance." 
-    loading="lazy"
-  />
-</div>
-
 ## Contents
 
 1. [Conceptual Framework](#conceptual-framework)
@@ -38,6 +30,14 @@ The comparison challenges the binary framing of surveillance debates, where syst
 5. [Regulatory Implications](#regulatory-implications)
 
 ## Conceptual Framework
+
+<div class="article-hero-image">
+  <img 
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/surveillance-is-like-salt-sunil.jpg" 
+    alt="Artistic portrait of Sunil Abraham in the style of classical oil painting, featuring symbolic elements representing the surveillance-as-salt metaphor: a hand adding salt to a cooking pot in the upper left, surveillance cameras and drones in the upper right, a magnifying glass over scattered documents and grains representing data, and padlocks symbolising security and privacy. The composition blends domestic cooking imagery with surveillance technology to visualise the central metaphor of proportionate surveillance." 
+    loading="lazy"
+  />
+</div>
 
 The "surveillance is like salt" analogy rests on several interconnected principles that distinguish proportionate, targeted surveillance from mass surveillance architectures. Sunil contends that surveillance becomes counterproductive when it transitions from being an exceptional investigative tool to a default infrastructure of governance.
 
@@ -398,7 +398,7 @@ The biometric irreversibility problem poses particular regulatory challenges wit
 .article-hero-image {
   margin: 0 0 1.5rem 1.5rem;
   float: right;
-  max-width: 200px;
+  max-width: 280px;
 }
 
 .article-hero-image img {
