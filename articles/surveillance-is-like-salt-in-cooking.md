@@ -3,14 +3,24 @@ layout: default
 title: "Surveillance Is Like Salt in Cooking"
 description: "An explanation of the comparison used by Sunil Abraham to describe the role of surveillance in democratic societies, internet governance, and public policy."
 categories: [Ideas and opinions, Resources, TSAP Originals]
-authors: ["Sunil Abraham"]
+authors: ["Tito Dutta"]
 permalink: /articles/surveillance-is-like-salt-in-cooking/
 created: 2026-01-23
 ---
 
+{% include author.html %}
+
 **Surveillance Is Like Salt in Cooking** is a comparison used by [Sunil Abraham](/sunil/), an Indian technology policy and internet governance analyst, to explain the role of surveillance in democratic societies. The simile frames surveillance as a necessary but delicate practice: like salt in cooking, a small and carefully measured quantity can be useful, but excessive use can spoil the outcome. Sunil has used this comparison across speeches, media interviews, opinion pieces, and policy discussions to argue for proportionate, accountable, and rights-respecting approaches to surveillance. The idea has become a recurring explanatory device in debates on digital rights, mass surveillance, internet governance, and public policy in India.
 
 The comparison challenges the binary framing of surveillance debates, where systems are characterised as either necessary for security or inherently threatening to liberty. Instead, Sunil proposes that the critical variable is proportionality. Just as salt enhances flavour in precise amounts whilst rendering food inedible in excess, targeted surveillance serves legitimate law enforcement purposes whilst blanket surveillance undermines democratic freedoms, compromises anonymity, and creates systemic vulnerabilities.
+
+<div class="article-hero-image">
+  <img 
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/surveillance-is-like-salt-sunil.jpg" 
+    alt="Artistic portrait of Sunil Abraham in the style of classical oil painting, featuring symbolic elements representing the surveillance-as-salt metaphor: a hand adding salt to a cooking pot in the upper left, surveillance cameras and drones in the upper right, a magnifying glass over scattered documents and grains representing data, and padlocks symbolising security and privacy. The composition blends domestic cooking imagery with surveillance technology to visualise the central metaphor of proportionate surveillance." 
+    loading="lazy"
+  />
+</div>
 
 ## Contents
 
@@ -384,6 +394,51 @@ The biometric irreversibility problem poses particular regulatory challenges wit
     font-size: 0.75rem;
   }
 }
+/* Article Hero Image */
+.article-hero-image {
+  max-width: 800px;
+  margin: 2.5rem auto;
+  text-align: center;
+  padding: 0 1rem;
+}
 
+.article-hero-image img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 
+    0 4px 16px rgba(0, 0, 0, 0.15),
+    0 8px 32px rgba(102, 126, 234, 0.1);
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.article-hero-image img:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.2),
+    0 12px 40px rgba(102, 126, 234, 0.15);
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .article-hero-image {
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .article-hero-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-hero-image {
+    margin: 1.5rem auto;
+  }
+}
 </style>
 
