@@ -41,9 +41,9 @@ The salt metaphor also encompasses a critique of data collection as an end in it
 
 ## Theoretical Foundations
 
-<div class="tsap-original-badge">
-  <span class="tsap-badge-icon">✦</span>
-  <span class="tsap-badge-text">TSAP Original</span>
+<div class="tsap-original-marker">
+  <span class="tsap-marker-line"></span>
+  <span class="tsap-marker-text">✦ TSAP Original</span>
 </div>
 
 Whilst the salt metaphor has appeared in public writing and speeches, Sunil has further elaborated its underlying theoretical framework for The Sunil Abraham Project. The following analysis represents the first comprehensive documentation of these conceptual foundations, which demonstrate that the comparison functions not merely as rhetoric but as a rigorous policy principle grounded in quantitative reasoning about surveillance effectiveness.
@@ -347,70 +347,43 @@ The biometric irreversibility problem poses particular regulatory challenges wit
     font-size: 0.8rem;
   }
 }
-  /* TSAP Original Badge */
-.tsap-original-badge {
-  display: inline-flex;
+/* TSAP Original Marker - Side Tag */
+.tsap-original-marker {
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.6rem 1.2rem;
-  margin: 0 0 1.5rem 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-  animation: tsapGlow 3s ease-in-out infinite;
+  gap: 0.8rem;
+  margin: 0 0 0.8rem 0;
 }
 
-.tsap-badge-icon {
-  font-size: 1.2rem;
-  color: #ffffff;
-  animation: tsapSpin 8s linear infinite;
+.tsap-marker-line {
+  width: 4px;
+  height: 24px;
+  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
 
-.tsap-badge-text {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #ffffff;
+.tsap-marker-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #667eea;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
 }
 
-@keyframes tsapGlow {
-  0%, 100% {
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-  }
-  50% {
-    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.5);
-  }
-}
-
-@keyframes tsapSpin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Mobile Responsive */
 @media (max-width: 768px) {
-  .tsap-original-badge {
-    padding: 0.5rem 1rem;
+  .tsap-original-marker {
+    margin: 0 0 0.6rem 0;
   }
   
-  .tsap-badge-text {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .tsap-original-badge {
-    padding: 0.4rem 0.8rem;
+  .tsap-marker-line {
+    height: 20px;
   }
   
-  .tsap-badge-icon {
-    font-size: 1rem;
-  }
-  
-  .tsap-badge-text {
+  .tsap-marker-text {
     font-size: 0.75rem;
   }
 }
+
 </style>
 
