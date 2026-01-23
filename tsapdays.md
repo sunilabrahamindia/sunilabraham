@@ -506,14 +506,20 @@ function isSunday(d) {
 function formatLongDate(d) {
   const [y, m, day] = d.split('-').map(Number);
   const date = new Date(Date.UTC(y, m - 1, day));
-  const options = { 
-    weekday: 'long', 
-    day: 'numeric', 
-    month: 'long', 
-    year: 'numeric',
-    timeZone: 'UTC'
-  };
-  return date.toLocaleString('en-IN', options);
+  
+  if (isSunday(d)) {
+    const options = { 
+      weekday: 'long', 
+      day: 'numeric', 
+      month: 'long', 
+      year: 'numeric',
+      timeZone: 'UTC'
+    };
+    return date.toLocaleString('en-IN', options);
+  } else {
+    const monthName = date.toLocaleString('en-IN', { month: 'long', timeZone: 'UTC' });
+    return `${day} ${monthName} ${y}`;
+  }
 }
 
 function monthLabel(d) {
@@ -557,27 +563,25 @@ function scrollToDate(date) {
   }
 }
 
-/* ========== STREAK CALCULATION (SUNDAYS ONLY) ========== */
+/* ========== STREAK CALCULATION ========== */
 let streakDates = [];
 let cursor = today;
 
 while ((counts[cursor] || 0) > 0) {
-  if (isSunday(cursor)) {
-    streakDates.unshift({ date: cursor, count: counts[cursor] });
-  }
+  streakDates.unshift({ date: cursor, count: counts[cursor] });
   cursor = prevDate(cursor);
 }
 
 /* ========== RENDER STREAK SUMMARY ========== */
 const summary = document.getElementById('streak-summary');
 if (streakDates.length === 0) {
-  summary.textContent = '🌱 No active Sunday streak. We have to restart article creation on Sundays to begin the garden!';
+  summary.textContent = '🌱 No active streak. We have to restart article creation to begin the garden!';
   summary.style.background = 'linear-gradient(135deg, #fef3c7, #fde68a)';
   summary.style.borderLeftColor = '#f59e0b';
 } else {
   const totalPages = streakDates.reduce((sum, d) => sum + d.count, 0);
   summary.textContent = 
-    `🔥 ${streakDates.length} Sunday${streakDates.length === 1 ? '' : 's'} streak • ` +
+    `🔥 ${streakDates.length} day${streakDates.length === 1 ? '' : 's'} streak • ` +
     `${totalPages} page${totalPages === 1 ? '' : 's'} created • ` +
     `Started ${formatLongDate(streakDates[0].date)}`;
 }
@@ -619,7 +623,7 @@ if (streakDates.length === 0) {
   });
 }
 
-/* ========== DAILY LOG (SUNDAYS ONLY) ========== */
+/* ========== DAILY LOG ========== */
 const log = document.getElementById('log-by-month');
 const allDates = Object.keys(counts).sort();
 const startDate = allDates.length > 0 ? allDates[0] : today;
@@ -628,8 +632,6 @@ let currentMonth = null;
 let list;
 
 for (let d = startDate; d <= today; d = nextDate(d)) {
-  if (!isSunday(d)) continue;
-  
   const m = monthLabel(d);
   if (m !== currentMonth) {
     const h3 = document.createElement('h3');
