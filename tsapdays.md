@@ -254,7 +254,9 @@ created: 2026-01-21
   background: #f0fdf4;
   padding: 4px 8px;
   border-radius: 6px;
-  white-space: nowrap;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* ========== LEGEND ========== */
@@ -528,7 +530,10 @@ function formatArticleLinks(articles) {
   }
 }
 
-const today = new Date().toISOString().slice(0, 10);
+/* const today = new Date().toISOString().slice(0, 10); */
+  const today = new Date().toLocaleString('sv-SE', { 
+  timeZone: 'Asia/Kolkata' 
+}).slice(0, 10);
 
 /* ========== FLOWER TYPE SELECTOR ========== */
 function getFlowerType(count) {
