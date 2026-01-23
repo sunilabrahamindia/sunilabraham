@@ -497,29 +497,14 @@ function prevDate(d) {
   return date.toISOString().slice(0, 10);
 }
 
-function isSunday(d) {
-  const [y, m, day] = d.split('-').map(Number);
-  const date = new Date(Date.UTC(y, m - 1, day));
-  return date.getUTCDay() === 0;
-}
-
 function formatLongDate(d) {
   const [y, m, day] = d.split('-').map(Number);
   const date = new Date(Date.UTC(y, m - 1, day));
   
-  if (isSunday(d)) {
-    const options = { 
-      weekday: 'long', 
-      day: 'numeric', 
-      month: 'long', 
-      year: 'numeric',
-      timeZone: 'UTC'
-    };
-    return date.toLocaleString('en-IN', options);
-  } else {
-    const monthName = date.toLocaleString('en-IN', { month: 'long', timeZone: 'UTC' });
-    return `${day} ${monthName} ${y}`;
-  }
+  const weekday = date.toLocaleString('en-IN', { weekday: 'long', timeZone: 'UTC' });
+  const monthName = date.toLocaleString('en-IN', { month: 'long', timeZone: 'UTC' });
+  
+  return `${weekday}, ${day} ${monthName} ${y}`;
 }
 
 function monthLabel(d) {
