@@ -398,7 +398,7 @@ The biometric irreversibility problem poses particular regulatory challenges wit
 .article-hero-image {
   margin: 0 0 1.5rem 1.5rem;
   float: right;
-  max-width: 320px;
+  max-width: 200px;
 }
 
 .article-hero-image img {
