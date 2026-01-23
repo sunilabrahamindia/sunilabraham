@@ -13,13 +13,11 @@
       background: #fafafa;
     }
 
-    /* Paragraph spacing */
     footer p {
-      margin: 0.1rem 0;
+      margin: 0.15rem 0;
       line-height: 1.45;
     }
 
-    /* Links inside footer */
     footer a {
       color: #0a2e57;
       text-decoration: none;
@@ -27,7 +25,6 @@
       transition: color 0.22s ease;
     }
 
-    /* Underline slide animation */
     footer a::after {
       content: "";
       position: absolute;
@@ -47,24 +44,20 @@
       width: 100%;
     }
 
-    /* Bullet separator (·) between links */
     footer p a + a::before {
       content: "·";
       color: #777;
     }
 
-    /* Disable separators inside bracketed link group */
     footer .no-separator a + a::before {
       content: none !important;
     }
 
-    /* NEW: restore bullet AFTER the bracketed group */
     footer .no-separator + a::before {
       content: "·";
       color: #777;
     }
 
-    /* Footer Version Tag – ACCESSIBLE */
     footer .version-tag {
       font-size: 0.86em;
       color: #444;
@@ -72,133 +65,136 @@
       display: block;
       letter-spacing: 0.3px;
     }
-/* Footer time */
-  footer .footer-time {
-  font-size: 0.9em; /* same as footer */
-  color: #444;
-  margin-top: 0.2rem;
-}
 
-/* 350 Celebration line */
-footer .celebrate-350 {
-  padding: 3px 12px;
-  background: #fff3b0;        /* Bright but soft yellow */
-  color: #4a3b00;             /* Dark olive-brown for contrast */
-  border-radius: 6px;
-  display: inline-block;
-  margin-top: 0.4rem;
-}
+    footer .footer-time {
+      font-size: 0.9em;
+      color: #444;
+      margin-top: 0.2rem;
+    }
 
-footer .celebrate-350 a {
-  color: #0a2e57;             /* Keep site-standard link colour */
-  font-weight: 600;
-}
+    /* =========================================================
+       500th Article Celebration (NEW)
+       ========================================================= */
+    footer .celebrate-500 {
+      margin-top: 0.8rem;
+      padding: 10px 16px;
+      background: linear-gradient(
+        135deg,
+        #fff6cc 0%,
+        #ffe8a3 100%
+      );
+      color: #3d2f00;
+      border: 1px solid #e6c96f;
+      border-radius: 10px;
+      display: inline-block;
+      max-width: 92%;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    }
 
-footer .celebrate-350 a:hover {
-  color: #000;
-}
-/* 350 Celebration line ends */
+    footer .celebrate-500 strong {
+      font-weight: 700;
+    }
 
-/* Version 1.0 Celebration line */
-footer .celebrate-v1 {
-  padding: 3px 12px;
-  background: #7a1f1f;        /* Deep celebratory red */
-  color: #fff2f2;             /* Soft off-white for contrast */
-  border-radius: 6px;
-  display: inline-block;
-  margin-top: 0.35rem;
-}
+    footer .celebrate-500 a {
+      color: #0a2e57;
+      font-weight: 600;
+    }
 
-footer .celebrate-v1 a {
-  color: #ffe0b2;             /* Warm gold-peach link */
-  font-weight: 600;
-}
+    footer .celebrate-500 a:hover {
+      color: #000;
+    }
 
-footer .celebrate-v1 a:hover {
-  color: #ffffff;
-}
-/* Version 1.0 Celebration line ends */
+    footer .celebrate-500 .milestone {
+      display: block;
+      font-size: 0.95em;
+      margin-top: 4px;
+    }
+
+    @media (max-width: 600px) {
+      footer .celebrate-500 {
+        padding: 10px 12px;
+        font-size: 0.88em;
+      }
+    }
   </style>
 
   <p><b><a href="https://sunilabraham.in/articles/sunil-abraham-project/">The Sunil Abraham Project</a></b></p>
- <p class="version-tag">Version 1.1.1</p>
+  <p class="version-tag">Version 1.1.1</p>
 
   <p class="footer-time" aria-live="off">
-🕒 Current time: <span id="footer-datetime"></span>  
+    🕒 Current time: <span id="footer-datetime"></span>
   </p>
 
-<!--
-<p class="celebrate-350" aria-label="Celebrating the 350th article published on the site">
-  ✨ Celebrating <b>350th article</b> —
-  <a href="https://sunilabraham.in/media/fighting-battles-online-the-hindu/">
-    <i>Fighting Battles Online</i>
-  </a>
-</p>
--->
-
-  <!-- <p class="celebrate-v1" aria-label="Celebrating Version 1.0 of the Sunil Abraham Project">
-  🪔 Celebrating <b>Version 1.0</b> —
-  <a href="https://sunilabraham.in/versions/1.0/">
-    Version 1.0 Lookback
-  </a>
-</p>
--->
-
-  <p>© {{ site.time | date: "%Y" }} Licensed under 
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a> unless otherwise stated.
+  <p class="celebrate-500" aria-label="Celebrating the 500th article published on the site">
+    🎉 <strong>500th article published</strong>
+    <span class="milestone">
+      Marking the milestone with
+      <a href="https://sunilabraham.in/articles/surveillance-is-like-salt-in-cooking/">
+        <i>Surveillance Is Like Salt in Cooking</i>
+      </a>
+    </span>
   </p>
-  
+
+  <p>
+    © {{ site.time | date: "%Y" }} Licensed under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">
+      CC BY-SA 4.0
+    </a>
+    unless otherwise stated.
+  </p>
+
   <p>
     🌐 Connect with Sunil:
-    <a href="https://www.facebook.com/abrahamsunil" aria-label="Sunil on Facebook">Facebook</a>
-    <a href="https://www.linkedin.com/in/sunilaabraham/" aria-label="Sunil on LinkedIn">LinkedIn</a>
-    <a href="https://x.com/sunil_abraham" aria-label="Sunil on X (Twitter)">𝕏</a>
+    <a href="https://www.facebook.com/abrahamsunil">Facebook</a>
+    <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a>
+    <a href="https://x.com/sunil_abraham">𝕏</a>
   </p>
-  
-<p>
-  🔗 Quick links:
-  <a href="https://sunilabraham.in/versions">Versions</a>
-  <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
-  <a href="https://sunilabraham.in/sitemap">Sitemap</a>
 
-  (<span class="no-separator"><a href="https://sunilabraham.in/newest">Newest pages</a>, 
-    <a href="https://sunilabraham.in/sitemap.xml">XML</a></span>)
-</p>
+  <p>
+    🔗 Quick links:
+    <a href="https://sunilabraham.in/versions">Versions</a>
+    <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
+    <a href="https://sunilabraham.in/sitemap">Sitemap</a>
+    (<span class="no-separator">
+      <a href="https://sunilabraham.in/newest">Newest pages</a>,
+      <a href="https://sunilabraham.in/sitemap.xml">XML</a>
+    </span>)
+  </p>
 
-<p>
-  <a href="https://sunilabraham.in/privacy">Privacy Policy</a>
-  <a href="https://sunilabraham.in/disclaimer">Disclaimer</a>
-<a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>  
-  <a href="https://sunilabraham.in/shortcuts">Shortcuts</a>
-</p>
+  <p>
+    <a href="https://sunilabraham.in/privacy">Privacy Policy</a>
+    <a href="https://sunilabraham.in/disclaimer">Disclaimer</a>
+    <a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>
+    <a href="https://sunilabraham.in/shortcuts">Shortcuts</a>
+  </p>
 
-{% assign clean_domain = site.url 
-  | remove: 'http://' 
-  | remove: 'https://' 
-  | remove: 'www.' 
+{% assign clean_domain = site.url
+  | remove: 'http://'
+  | remove: 'https://'
+  | remove: 'www.'
 %}
 
-<p>
-  🏛️ Archived snapshots of this page:
-  <a href="https://web.archive.org/https://{{ clean_domain }}{{ page.url }}">
-    Wayback Machine
-  </a>
-  <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
-    Archive.today
-  </a>
-</p>
+  <p>
+    🏛️ Archived snapshots of this page:
+    <a href="https://web.archive.org/https://{{ clean_domain }}{{ page.url }}">
+      Wayback Machine
+    </a>
+    <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
+      Archive.today
+    </a>
+  </p>
 
   <p>
     👁 WAVE WebAIM:
-    <a id="accessibility-link" href="#" aria-label="Check this page's accessibility report on WAVE WebAIM">
+    <a id="accessibility-link" href="#">
       See accessibility score
     </a>
   </p>
 
   <script>
-    const currentURL = encodeURIComponent(window.location.href);
     document.getElementById('accessibility-link').href =
-      'https://wave.webaim.org/report#/' + currentURL;
+      'https://wave.webaim.org/report#/' +
+      encodeURIComponent(window.location.href);
   </script>
 
   <script>
@@ -206,54 +202,37 @@ footer .celebrate-v1 a:hover {
       if (e.altKey && e.shiftKey && e.key === 'X') {
         window.location.href = '/random/';
       }
-    });
-  </script>
-
-  <script>
-    const githubEditURL =
-      "https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}";
-
-    document.addEventListener('keydown', function (e) {
-      if (['INPUT','TEXTAREA'].includes(e.target.tagName)) return;
       if (e.altKey && e.shiftKey && e.key === 'G') {
-        window.location.href = githubEditURL;
+        window.location.href =
+          'https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}';
       }
     });
   </script>
 
   <script>
-  (function () {
-    const el = document.getElementById('footer-datetime');
-    if (!el) return;
+    (function () {
+      const el = document.getElementById('footer-datetime');
+      if (!el) return;
 
-    const now = new Date();
+      const now = new Date();
+      const options = {
+        weekday: 'long',
+        day: '2-digit',
+        month: 'long',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false,
+        timeZone: 'Asia/Kolkata'
+      };
 
-    const options = {
-      weekday: 'long',
-      day: '2-digit',
-      month: 'long',
-      year: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit',
-      hour12: false,
-      timeZone: 'Asia/Kolkata'
-    };
+      let formatted = new Intl.DateTimeFormat('en-IN', options).format(now);
+      formatted = formatted
+        .replace(' at ', ', ')
+        .replace(/^([A-Za-z]+)\s/, '$1, ');
 
-let formatted = new Intl.DateTimeFormat('en-IN', options).format(now);
-
-/* Normalize format:
-   "Monday 22 December 2025 at 20:35"
-   → "Monday, 22 December 2025, 20:35"
-*/
-formatted = formatted
-  .replace(' at ', ', ')
-  .replace(/^([A-Za-z]+)\s/, '$1, ');
-
-el.textContent = formatted + ' IST (UTC+05:30 hours)';
-
-
-    el.textContent = formatted + ' IST (UTC+05:30 hours)';
-  })();
-</script>
+      el.textContent = formatted + ' IST (UTC+05:30 hours)';
+    })();
+  </script>
 
 </footer>
