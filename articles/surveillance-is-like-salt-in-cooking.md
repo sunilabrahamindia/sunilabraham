@@ -26,7 +26,7 @@ The comparison challenges the binary framing of surveillance debates, where syst
    1. [Original Formulations](#original-formulations)
    2. [Scholarly Citations](#scholarly-citations)
    3. [Social Media Usage](#social-media-usage)
-4. [Internet Governance and IC4T Perspective](#internet-governance-and-ic4t-perspective)
+4. [Internet Governance and Perspective](#internet-governance-perspective)
 5. [Regulatory Implications](#regulatory-implications)
 
 ## Conceptual Framework
@@ -258,17 +258,15 @@ The metaphor has been widely amplified by other commentators and organisations. 
   </div>
 </div>
 
-## Internet Governance and IC4T Perspective
+## Internet Governance Perspective
 
-From an internet governance and information and communication technology for development (IC4T) perspective, the surveillance-as-salt principle engages fundamental questions about the design of digital infrastructure and the power dynamics embedded in technological systems. Sunil's work at the Centre for Internet and Society has consistently emphasised that technological architectures are not neutral but rather encode particular values and power relationships.
+From an internet governance perspective, the surveillance-as-salt principle engages fundamental questions about the design of digital infrastructure and the power dynamics embedded in technological systems. Sunil's work at the Centre for Internet and Society has consistently emphasised that technological architectures are not neutral but rather encode particular values and power relationships.
 
 The salt metaphor aligns with the principle of data minimisation central to privacy-protective regulatory frameworks such as the European Union's General Data Protection Regulation (GDPR). Data minimisation holds that systems should collect only the minimum data necessary for a specified purpose, rather than accumulating vast datasets on the assumption they might prove useful. Sunil's framework extends this principle to surveillance infrastructure, arguing that security systems should be designed from the outset with restraint and proportionality rather than maximal data capture.
 
 This perspective challenges the dominant paradigm in contemporary internet governance wherein both governments and technology platforms operate on an assumption of data abundance. Platforms such as Facebook collect extensive behavioural data (including how long users hesitate over images, which video segments they rewatch, and granular patterns of engagement) not because such data is necessary for service provision but because it enhances advertising targeting. Sunil argues that this model creates catastrophic security vulnerabilities, as demonstrated by the Cambridge Analytica breach where a legitimate API became a vector for mass data exfiltration.
 
 In the Indian internet governance context, the salt metaphor critiques the state's approach to intermediary regulation and surveillance mandates. The 2011 Intermediaries Guidelines and subsequent amendments expanded obligations on digital platforms to retain user data, remove content within 36 hours of complaint, and cooperate with law enforcement. These requirements, Sunil contends, transform intermediaries into instruments of state surveillance and private censorship, undermining constitutional protections for free expression.
-
-Sunil's advocacy for privacy-by-design in digital identity systems reflects IC4T principles of appropriate technology and user-centric design. Rather than centralising biometric data in a single repository like Aadhaar's Central Identities Data Repository, he has proposed tokenisation systems wherein citizens authenticate using smart cards or PINs that generate unique tokens for each transaction. Such architectures limit surveillance capacity whilst still enabling identity verification, embodying the principle of using surveillance sparingly and with specific purpose.
 
 The framework also speaks to questions of digital sovereignty and the geopolitics of surveillance. Sunil has examined how surveillance technologies and architectures developed in Western contexts (often in response to terrorism or national security imperatives) become exported to the Global South where they interact with different political economies and democratic traditions. He warns against India adopting mass surveillance models that have proven counterproductive elsewhere, arguing instead for regulatory approaches tailored to India's constitutional commitments and development priorities.
 
