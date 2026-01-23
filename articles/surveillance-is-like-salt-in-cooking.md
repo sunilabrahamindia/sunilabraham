@@ -396,52 +396,41 @@ The biometric irreversibility problem poses particular regulatory challenges wit
 }
 /* Article Hero Image */
 .article-hero-image {
-  max-width: 800px;
-  margin: 2rem auto;
-  text-align: center;
-  padding: 0 1rem;
+  margin: 0 0 1.5rem 1.5rem;
+  float: right;
+  max-width: 320px;
 }
 
 .article-hero-image img {
   width: 100%;
-  max-width: 400px;
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 
-    0 4px 16px rgba(0, 0, 0, 0.15),
-    0 8px 32px rgba(102, 126, 234, 0.1);
+    0 4px 12px rgba(0, 0, 0, 0.12),
+    0 2px 6px rgba(102, 126, 234, 0.08);
   transition: all 0.3s ease;
   display: block;
-  margin: 0 auto;
 }
 
 .article-hero-image img:hover {
-  transform: translateY(-4px);
+  transform: translateY(-2px);
   box-shadow: 
-    0 8px 24px rgba(0, 0, 0, 0.2),
-    0 12px 40px rgba(102, 126, 234, 0.15);
+    0 6px 16px rgba(0, 0, 0, 0.16),
+    0 4px 12px rgba(102, 126, 234, 0.12);
 }
 
 /* Mobile optimization */
 @media (max-width: 768px) {
   .article-hero-image {
+    float: none;
     margin: 1.5rem auto;
-    padding: 0 1rem;
-  }
-  
-  .article-hero-image img {
-    max-width: 300px;
-    border-radius: 8px;
-  }
-}
-
-@media (max-width: 480px) {
-  .article-hero-image {
-    margin: 1.5rem auto;
-  }
-  
-  .article-hero-image img {
     max-width: 280px;
+    text-align: center;
+  }
+  
+  .article-hero-image img {
+    border-radius: 8px;
+    margin: 0 auto;
   }
 }
 </style>
