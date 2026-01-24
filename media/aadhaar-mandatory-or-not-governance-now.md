@@ -55,6 +55,8 @@ created: 2026-01-23
 
 <p>Section 7 of the law states that anyone who wants to avail government subsidies must produce the Aadhaar card. But the Supreme Court, in its September 2016 ruling, reiterated its 2015 ruling, saying that the unique identification number cannot be made mandatory. Blatantly flouting this interim ruling, many government departments have made Aadhaar mandatory. For example, the Employees' Provident Fund Organisation (EPFO) made it mandatory to draw pensions.</p>
 
+<figure class="media-image"> <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/media/images/aadhaar-violation.jpg" alt="Table documenting instances where Aadhaar was made mandatory or used beyond Supreme Court permissions between October 2015 and January 2017, listing dates, services affected, and type of violation."> <figcaption> Table listing documented violations of Supreme Court interim orders on Aadhaar, showing cases where Aadhaar was made mandatory or extended beyond permitted schemes. </figcaption> </figure>
+
 <p><em>(This content was compiled by SFLC.in, licensed under CC BY-NC-SA 3.0)</em></p>
 
 <p>The latest to join the bandwagon is the department of food and public distribution – for the highly sensitive PDS. In February, it stated that those buying ration from fair price shops (FPS) must show their UIDs at the counter from June onwards. Supporting this initiative, Ravi Shankar Prasad, IT minister, said that the government will make all 5.58 lakh FPS Aadhaar-enabled. The ration shops in Gujarat, Andhra Pradesh and Rajasthan are already Aadhaar-enabled, he added.</p>
