@@ -2,7 +2,7 @@
 layout: default
 title: "Aadhaar: A Timeline"
 description: "A chronological reference of key developments, legal milestones, policy decisions, and controversies in the Aadhaar project, India’s digital identity system."
-categories: [Resources]
+categories: [Resources, TSAP Originals]
 authors: ["Tito Dutta"]
 permalink: /resources/aadhaar-timeline/
 created: 2026-01-14
