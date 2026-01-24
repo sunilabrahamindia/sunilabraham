@@ -277,6 +277,29 @@ The constitutional validity of the Aadhaar Act would ultimately be determined in
   margin: 0.75rem 0 1rem 0;
 }
 
+/* Media image centering */
+.media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 500px;
+}
+
+.media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
 /* Table wrapper for horizontal scroll on mobile */
 .table-wrapper {
   width: 100%;
@@ -325,6 +348,11 @@ The constitutional validity of the Aadhaar Act would ultimately be determined in
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  .media-image {
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+  
   .violations-table {
     font-size: 0.85rem;
   }
@@ -335,6 +363,7 @@ The constitutional validity of the Aadhaar Act would ultimately be determined in
   }
 }
 </style>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
