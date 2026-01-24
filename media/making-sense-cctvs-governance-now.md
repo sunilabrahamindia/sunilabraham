@@ -34,7 +34,7 @@ created: 2026-01-23
   <dt>📄 Type:</dt>
   <dd>Feature Article</dd>
 
-  <dt>📰 Newspaper Link:</dt>
+  <dt>📰 Publication Link:</dt>
   <dd>
     <a class="btn" href="https://www.governancenow.com/news/regular-story/making-sense-cctvs">
       Read Online
