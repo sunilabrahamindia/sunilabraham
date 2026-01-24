@@ -35,7 +35,7 @@ created: 2026-01-23
   <dt>📄 Type:</dt>
   <dd>News Analysis</dd>
 
-  <dt>📰 Newspaper Link:</dt>
+  <dt>📰 Publication Link:</dt>
   <dd>
     <a class="btn" href="https://www.governancenow.com/gov-next/egov/aadhaar-be-mandatory-or-not-be">
       Read Online
