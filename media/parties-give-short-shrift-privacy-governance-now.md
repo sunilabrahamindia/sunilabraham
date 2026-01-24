@@ -34,7 +34,7 @@ created: 2026-01-22
   <dt>📄 Type:</dt>
   <dd>News Analysis</dd>
 
-  <dt>📰 Newspaper Link:</dt>
+  <dt>📰 Publication Link:</dt>
   <dd>
     <a class="btn" href="https://www.governancenow.com/news/regular-story/parties-give-short-shrift-privacy">
       Read Online
