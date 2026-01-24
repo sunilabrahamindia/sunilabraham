@@ -2,7 +2,7 @@
 layout: default
 title: "Surveillance Is Like Salt in Cooking"
 description: "An explanation of the comparison used by Sunil Abraham to describe the role of surveillance in democratic societies, internet governance, and public policy."
-categories: [Ideas and opinions, Resources, TSAP Originals]
+categories: [Ideas and Opinions, Resources, TSAP Originals]
 authors: ["Sunil Abraham", "Tito Dutta"]
 permalink: /articles/surveillance-is-like-salt-in-cooking/
 created: 2026-01-23
