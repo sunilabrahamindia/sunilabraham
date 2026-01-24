@@ -34,7 +34,7 @@ created: 2026-01-22
   <dt>📄 Type:</dt>
   <dd>News Report</dd>
 
-  <dt>📰 Newspaper Link:</dt>
+  <dt>📰 Publication Link:</dt>
   <dd>
     <a class="btn" href="https://www.governancenow.com/gov-next/egov/aadhaar-has-no-legislative-foundation">
       Read Online
