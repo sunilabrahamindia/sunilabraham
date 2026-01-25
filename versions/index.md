@@ -23,6 +23,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 12. [Version 1.0](#version-10)
 13. [Version 1.1](#version-11)
 14. [Version 1.1.1](#version-111)
+15. [Version 1.1.2](#version-112)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -472,4 +473,38 @@ Version 1.1.1 covers a short follow-up period after Version 1.1, with work focus
 
 **Status**
 - **Completion date:** 18 January 2026
+
+## Version 1.1.2
+
+Version 1.1.2 marks an important milestone for The Sunil Abraham Project. The project crossed **500 published articles** this week with the publication of [*Surveillance Is Like Salt in Cooking*](/articles/surveillance-is-like-salt-in-cooking/).  
+Reaching 500 articles represents a significant point of scale for TSAP, reflecting sustained documentation, curation, and long-term editorial commitment.
+
+Beyond this milestone, Version 1.1.2 represents a phase of accelerated growth, continued consolidation of media clusters, and the introduction of internal tooling to support ongoing maintenance and publishing discipline.
+
+**Content**
+- 41 new articles were created during this period.
+- Work continued to prioritise completeness, accurate metadata, and consistent structuring across media articles.
+
+**Clusters**
+- Continued work on *The Hindu* news cluster.
+- The cluster page has been created:  
+  - [*Sunil Abraham and The Hindu*](/clusters/sunil-abraham-the-hindu/)
+- Related articles have been added and will continue to be expanded in subsequent versions.
+- Work progressed on *Frontline* media mentions.
+- Article creation has begun and a dedicated cluster is under active development.
+- Work also continued on *Governance Now* media mentions.
+- Additional articles were created and organised within the cluster.
+
+**Maintenance and Internal Tooling**
+- A Maintenance dashboard was introduced to support ongoing quality control across the site.
+- Dashboard link: [Maintenance](/maintenance/)
+
+**TSAP Days**
+- *TSAP Days* was launched as a new internal celebration and tracking page.
+- TSAP Days tracks articles created each day and highlights publishing streaks and publishing momentum.
+- The initiative is inspired by *#100WikiDays* and *#100HappyDays*, adapting the idea of consistent creative output to TSAP.
+- Page link: [TSAP Days](/tsapdays/)
+
+**Completion date:** 25 January 2026
+
 
