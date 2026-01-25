@@ -4,7 +4,7 @@ title: "Sunil Abraham and Open Magazine"
 description: "A curated cluster of Open Magazine journalism that references Sunil Abraham’s perspectives on technology policy, internet regulation, digital rights, and the political implications of platform power in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-open-magazine/
-created: 2026-01-19
+created: 2026-01-25
 ---
 
 ***Open Magazine*** is an Indian weekly known for its long-form reporting, political commentary, and essays on public affairs, culture, and contemporary power structures. Its technology-related coverage often situates digital developments within broader debates about governance, freedom of expression, and the State’s relationship with emerging platforms.
