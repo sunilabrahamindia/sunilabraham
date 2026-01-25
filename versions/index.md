@@ -487,8 +487,7 @@ Beyond this milestone, Version 1.1.2 represents a phase of accelerated growth, c
 
 **Clusters**
 - Continued work on *The Hindu* news cluster.
-- The cluster page has been created:  
-  - [*Sunil Abraham and The Hindu*](/clusters/sunil-abraham-the-hindu/)
+- The cluster page has been created: [*Sunil Abraham and The Hindu*](/clusters/sunil-abraham-the-hindu/)
 - Related articles have been added and will continue to be expanded in subsequent versions.
 - Work progressed on *Frontline* media mentions.
 - Article creation has begun and a dedicated cluster is under active development.
