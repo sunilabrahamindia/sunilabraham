@@ -714,7 +714,7 @@ if (streakDates.length === 0) {
     `Started ${formatLongDate(streakDates[0].date)}`;
 }
 
-/* ========== RENDER FLOWERS (NO CENTRES) ========== */
+/* ========== RENDER FLOWERS (NO LAZY LOAD) ========== */
 const garland = document.getElementById('garland');
 
 if (streakDates.length === 0) {
@@ -744,7 +744,6 @@ if (streakDates.length === 0) {
       }
     });
 
-    // Create petals only - NO CENTRE
     for (let j = 0; j < flowerInfo.petals; j++) {
       flower.appendChild(document.createElement('div')).className = 'petal';
     }
@@ -797,27 +796,5 @@ for (let d = startDate; d <= today; d = nextDate(d)) {
   
   list.appendChild(li);
 }
-
-/* ========== SCROLL-BASED ANIMATIONS ========== */
-const observerOptions = {
-  threshold: 0.1,
-  rootMargin: '0px 0px -50px 0px'
-};
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = '1';
-      entry.target.style.transform = 'translateY(0)';
-    }
-  });
-}, observerOptions);
-
-document.querySelectorAll('.flower-container').forEach((el, index) => {
-  el.style.opacity = '0';
-  el.style.transform = 'translateY(20px)';
-  el.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
-  observer.observe(el);
-});
 </script>
 </div>
