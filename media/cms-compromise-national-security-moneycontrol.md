@@ -11,7 +11,7 @@ permalink: /media/cms-compromise-national-security-moneycontrol/
 created: 2025-12-21
 ---
 
-**Is CMS a Compromise of National Security?** is a feature by Rohin Dharmakumar originally published in *Forbes India* and republished by *Moneycontrol* on 22 July 2013. The article examines India's Central Monitoring System, a mass surveillance programme that secretly monitors electronic communications of citizens in Delhi, Haryana and Karnataka, featuring analysis from Sunil Abraham on oversight failures and the dangers of blanket surveillance to both individual privacy and business security.
+**Is CMS a Compromise of National Security?** is a feature by Rohin Dharmakumar originally published in [*Forbes India*](/media/cms-compromise-security-forbes-india/) and republished by *Moneycontrol* on 22 July 2013. The article examines India's Central Monitoring System, a mass surveillance programme that secretly monitors electronic communications of citizens in Delhi, Haryana and Karnataka, featuring analysis from Sunil Abraham on oversight failures and the dangers of blanket surveillance to both individual privacy and business security.
 
 ## Contents
 
