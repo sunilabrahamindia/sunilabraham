@@ -58,3 +58,5 @@ In appearance, the site maintains a plain and accessible design. Text is priorit
 ### 2026
 - 1 January 2026 (Thursday) — Version 1.0 of the Sunil Abraham Project was released, marking a major structural and editorial milestone. The release consolidated earlier work and set the foundation for long-term organisation and navigation. For an overview of this milestone, see the [Version 1.0 Lookback](/versions/1.0/).
 - 4 January 2026 (Sunday) — The Sunil Abraham Project reached 400 articles with the publication of [*Plagiarism Is Rampant in Indian Food Writing*](/media/plagiarism-rampant-indian-food-writing-scroll/).
+- 23 January 2026 (Friday) — The Sunil Abraham Project reached 500 published articles with the publication of [*Surveillance Is Like Salt in Cooking*](/articles/surveillance-is-like-salt-in-cooking/).
+
