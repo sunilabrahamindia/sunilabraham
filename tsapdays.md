@@ -211,19 +211,6 @@ created: 2026-01-21
   animation: gentle-sway 5s ease-in-out infinite;
 }
 
-/* ========== FLOWER CENTRES ========== */
-.flower-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 25%;
-  height: 25%;
-  border-radius: 50%;
-  z-index: 10;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.3), 0 1px 2px rgba(255,255,255,0.5);
-}
-
 /* ========== ROSE (10+ pages) ========== */
 .rose .petal {
   position: absolute;
@@ -245,10 +232,6 @@ created: 2026-01-21
 .rose .petal:nth-child(6) { transform: translate(-50%,-50%) rotate(225deg) translateY(-14px); }
 .rose .petal:nth-child(7) { transform: translate(-50%,-50%) rotate(270deg) translateY(-14px); }
 .rose .petal:nth-child(8) { transform: translate(-50%,-50%) rotate(315deg) translateY(-14px); }
-
-.rose .flower-center {
-  background: radial-gradient(circle, #fbbf24 0%, #f59e0b 50%, #d97706 100%);
-}
 
 /* ========== SUNFLOWER (6-9 pages) ========== */
 .sunflower .petal {
@@ -276,10 +259,6 @@ created: 2026-01-21
 .sunflower .petal:nth-child(11) { transform: translate(-50%,-50%) rotate(300deg) translateY(-12px); }
 .sunflower .petal:nth-child(12) { transform: translate(-50%,-50%) rotate(330deg) translateY(-12px); }
 
-.sunflower .flower-center {
-  background: radial-gradient(circle, #92400e 0%, #78350f 50%, #451a03 100%);
-}
-
 /* ========== LOTUS (2-5 pages) ========== */
 .lotus .petal {
   position: absolute;
@@ -300,10 +279,6 @@ created: 2026-01-21
 .lotus .petal:nth-child(5) { transform: translate(-50%,-50%) rotate(204deg) translateY(-13px); }
 .lotus .petal:nth-child(6) { transform: translate(-50%,-50%) rotate(255deg) translateY(-13px); }
 .lotus .petal:nth-child(7) { transform: translate(-50%,-50%) rotate(306deg) translateY(-13px); }
-
-.lotus .flower-center {
-  background: radial-gradient(circle, #fde047 0%, #facc15 50%, #eab308 100%);
-}
 
 /* ========== DAISY (1 page) ========== */
 .daisy .petal {
@@ -328,10 +303,6 @@ created: 2026-01-21
 .daisy .petal:nth-child(7) { transform: translate(-50%,-50%) rotate(240deg) translateY(-11px); }
 .daisy .petal:nth-child(8) { transform: translate(-50%,-50%) rotate(280deg) translateY(-11px); }
 .daisy .petal:nth-child(9) { transform: translate(-50%,-50%) rotate(320deg) translateY(-11px); }
-
-.daisy .flower-center {
-  background: radial-gradient(circle, #fef08a 0%, #fde047 50%, #facc15 100%);
-}
 
 /* ========== FLOWER INFO ========== */
 .info {
@@ -704,10 +675,10 @@ const today = new Date().toLocaleString('sv-SE', {
 
 /* ========== FLOWER TYPE SELECTOR (UPDATED CATEGORIES) ========== */
 function getFlowerType(count) {
-  if (count >= 10) return { type: 'rose', petals: 8, center: true };
-  if (count >= 6) return { type: 'sunflower', petals: 12, center: true };
-  if (count >= 2) return { type: 'lotus', petals: 7, center: true };
-  return { type: 'daisy', petals: 9, center: true };
+  if (count >= 10) return { type: 'rose', petals: 8 };
+  if (count >= 6) return { type: 'sunflower', petals: 12 };
+  if (count >= 2) return { type: 'lotus', petals: 7 };
+  return { type: 'daisy', petals: 9 };
 }
 
 /* ========== SCROLL TO DATE FUNCTION ========== */
@@ -743,7 +714,7 @@ if (streakDates.length === 0) {
     `Started ${formatLongDate(streakDates[0].date)}`;
 }
 
-/* ========== RENDER FLOWERS WITH CENTRES ========== */
+/* ========== RENDER FLOWERS (NO CENTRES) ========== */
 const garland = document.getElementById('garland');
 
 if (streakDates.length === 0) {
@@ -773,14 +744,9 @@ if (streakDates.length === 0) {
       }
     });
 
+    // Create petals only - NO CENTRE
     for (let j = 0; j < flowerInfo.petals; j++) {
       flower.appendChild(document.createElement('div')).className = 'petal';
-    }
-
-    if (flowerInfo.center) {
-      const center = document.createElement('div');
-      center.className = 'flower-center';
-      flower.appendChild(center);
     }
 
     const info = document.createElement('div');
