@@ -34,9 +34,6 @@ created: 2025-11-12
   <dt>📄 Type:</dt>
   <dd>Opinion Column</dd>
 
-  <dt>🔖 Source (PDF reference):</dt>
-  <dd>Uploaded PDF (reference). :contentReference[oaicite:1]{index=1}</dd>
-
   <dt>📰 Newspaper Link:</dt>
   <dd>
     <a class="btn" href="https://www.forbesindia.com/article/recliner/freedom-from-monitoring-india-inc-should-push-for-privacy-laws/35911/1">
