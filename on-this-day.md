@@ -9,7 +9,7 @@ created: 2026-01-26
 
 The Sunil Abraham Project archives a substantial body of work spanning publications, media articles, and media mentions. This chronological view surfaces historical content by date, allowing you to discover contributions that might otherwise remain buried in the archives. Whether you're researching Sunil's evolving perspectives on a topic or tracking media coverage over time, this timeline offers a unique lens into his intellectual journey and public influence.
 
-Whilst publications and media content are fully integrated here, events (conducted and participated) await sufficient standalone coverage and necessary metadata. Those will be added gradually as documentation standards are met.
+**Please note:** Whilst publications and media content are integrated here, **events (conducted and participated) await sufficient standalone coverage and necessary metadata**. Those will be added gradually as documentation standards are met.
 
 <style>
 .otd-container {
@@ -26,6 +26,7 @@ Whilst publications and media content are fully integrated here, events (conduct
   list-style: none;
   border-bottom: 3px solid #dee2e6;
   position: relative;
+  justify-content: center;
 }
 
 .otd-nav-tab {
