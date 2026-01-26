@@ -105,6 +105,16 @@ Whilst publications and media content are fully integrated here, events (conduct
   font-weight: normal;
 }
 
+.otd-debug {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
 /* Mobile optimisation */
 @media (max-width: 768px) {
   .otd-section {
@@ -156,6 +166,9 @@ Whilst publications and media content are fully integrated here, events (conduct
 </style>
 
 <div class="otd-container">
+  <!-- Debug information -->
+  <div class="otd-debug" id="debug-info">Loading data...</div>
+  
   <h2 class="otd-date-header" id="today-date"></h2>
   
   <div class="otd-section">
@@ -212,26 +225,24 @@ Whilst publications and media content are fully integrated here, events (conduct
 </div>
 
 <script>
-// Configuration: Update these to match your Jekyll site structure
+// Configuration
 const SITE_DATA = {
   publications: [],
   mentions: []
 };
 
-// Jekyll liquid tags to populate data from collections
-{% assign pub_categories = "Category:Publications,Category:Media articles" | split: "," %}
-{% assign all_pages = site.pages %}
-
-{% for page in all_pages %}
-  {% if page.date %}
+// Populate data from Jekyll
+{% for page in site.pages %}
+  {% if page.date and page.categories %}
     {% assign is_publication = false %}
     {% assign is_mention = false %}
     
     {% for cat in page.categories %}
-      {% if cat == "Category:Publications" or cat == "Category:Media articles" %}
+      {% assign cat_lower = cat | downcase %}
+      {% if cat_lower contains "publication" or cat_lower contains "media article" %}
         {% assign is_publication = true %}
       {% endif %}
-      {% if cat == "Category:Media mentions" %}
+      {% if cat_lower contains "media mention" %}
         {% assign is_mention = true %}
       {% endif %}
     {% endfor %}
@@ -239,18 +250,58 @@ const SITE_DATA = {
     {% if is_publication %}
       SITE_DATA.publications.push({
         title: {{ page.title | jsonify }},
-        date: {{ page.date | jsonify }},
+        date: "{{ page.date }}",
         description: {{ page.description | default: "" | jsonify }},
-        url: {{ page.url | jsonify }}
+        url: {{ page.url | jsonify }},
+        categories: {{ page.categories | jsonify }}
       });
     {% endif %}
     
     {% if is_mention %}
       SITE_DATA.mentions.push({
         title: {{ page.title | jsonify }},
-        date: {{ page.date | jsonify }},
+        date: "{{ page.date }}",
         description: {{ page.description | default: "" | jsonify }},
-        url: {{ page.url | jsonify }}
+        url: {{ page.url | jsonify }},
+        categories: {{ page.categories | jsonify }}
+      });
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+// Also try posts if they exist
+{% for post in site.posts %}
+  {% if post.date and post.categories %}
+    {% assign is_publication = false %}
+    {% assign is_mention = false %}
+    
+    {% for cat in post.categories %}
+      {% assign cat_lower = cat | downcase %}
+      {% if cat_lower contains "publication" or cat_lower contains "media article" %}
+        {% assign is_publication = true %}
+      {% endif %}
+      {% if cat_lower contains "media mention" %}
+        {% assign is_mention = true %}
+      {% endif %}
+    {% endfor %}
+    
+    {% if is_publication %}
+      SITE_DATA.publications.push({
+        title: {{ post.title | jsonify }},
+        date: "{{ post.date | date: '%Y-%m-%d' }}",
+        description: {{ post.description | default: "" | jsonify }},
+        url: {{ post.url | jsonify }},
+        categories: {{ post.categories | jsonify }}
+      });
+    {% endif %}
+    
+    {% if is_mention %}
+      SITE_DATA.mentions.push({
+        title: {{ post.title | jsonify }},
+        date: "{{ post.date | date: '%Y-%m-%d' }}",
+        description: {{ post.description | default: "" | jsonify }},
+        url: {{ post.url | jsonify }},
+        categories: {{ post.categories | jsonify }}
       });
     {% endif %}
   {% endif %}
@@ -271,14 +322,23 @@ function formatMonthYear(date) {
   return `${months[date.getMonth()]} ${date.getFullYear()}`;
 }
 
+function parseDate(dateString) {
+  // Handle both YYYY-MM-DD and full ISO date formats
+  if (dateString.includes('T')) {
+    return new Date(dateString);
+  }
+  const parts = dateString.split('-');
+  return new Date(parts[0], parts[1] - 1, parts[2]);
+}
+
 function matchesMonthDay(itemDate, targetDate) {
-  const item = new Date(itemDate);
+  const item = parseDate(itemDate);
   return item.getMonth() === targetDate.getMonth() && 
          item.getDate() === targetDate.getDate();
 }
 
 function matchesMonth(itemDate, targetMonth) {
-  const item = new Date(itemDate);
+  const item = parseDate(itemDate);
   return item.getMonth() === targetMonth;
 }
 
@@ -290,12 +350,13 @@ function renderItems(items, containerId) {
     return;
   }
   
-  // Sort by oldest first (by actual year, then month, then day)
-  items.sort((a, b) => new Date(a.date) - new Date(b.date));
+  // Sort by oldest first
+  items.sort((a, b) => parseDate(a.date) - parseDate(b.date));
   
   const html = items.map(item => {
-    const itemDate = new Date(item.date);
-    const formattedDate = `${itemDate.getDate()} ${['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][itemDate.getMonth()]} ${itemDate.getFullYear()}`;
+    const itemDate = parseDate(item.date);
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const formattedDate = `${itemDate.getDate()} ${months[itemDate.getMonth()]} ${itemDate.getFullYear()}`;
     
     return `
       <li class="otd-item">
@@ -313,6 +374,20 @@ function renderItems(items, containerId) {
 function init() {
   const today = new Date();
   
+  // Debug information
+  const debugInfo = document.getElementById('debug-info');
+  debugInfo.innerHTML = `
+    <strong>Debug Information:</strong><br>
+    Total Publications: ${SITE_DATA.publications.length}<br>
+    Total Media Mentions: ${SITE_DATA.mentions.length}<br>
+    Today's Date: ${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}<br>
+    <details>
+      <summary>Sample Data (click to expand)</summary>
+      Publications: ${JSON.stringify(SITE_DATA.publications.slice(0, 3), null, 2)}<br>
+      Mentions: ${JSON.stringify(SITE_DATA.mentions.slice(0, 3), null, 2)}
+    </details>
+  `;
+  
   // Set today's date header
   document.getElementById('today-date').textContent = formatDateDMY(today);
   
@@ -328,9 +403,13 @@ function init() {
   document.getElementById('prev-month-label').textContent = formatMonthYear(prevMonthDate);
   document.getElementById('next-month-label').textContent = formatMonthYear(nextMonthDate);
   
-  // Filter and render today's items
+  // Filter and render today's items (matching ONLY month and day, ANY year)
   const todayPubs = SITE_DATA.publications.filter(item => matchesMonthDay(item.date, today));
   const todayMentions = SITE_DATA.mentions.filter(item => matchesMonthDay(item.date, today));
+  
+  console.log('Today filter - Day:', today.getDate(), 'Month:', today.getMonth());
+  console.log('Today publications found:', todayPubs.length);
+  console.log('Today mentions found:', todayMentions.length);
   
   renderItems(todayPubs, 'today-publications');
   renderItems(todayMentions, 'today-mentions');
