@@ -47,15 +47,12 @@
     footer p a + a::before {
       content: "·";
       color: #777;
+      padding: 0 0.3em;
     }
 
+    /* Remove separator for links inside .no-separator */
     footer .no-separator a + a::before {
-      content: none !important;
-    }
-
-    footer .no-separator + a::before {
-      content: "·";
-      color: #777;
+      display: none;
     }
 
     footer .version-tag {
