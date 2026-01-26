@@ -31,7 +31,6 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 
 .otd-nav-tab {
   padding: 0.75rem 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border: none;
   border-radius: 8px 8px 0 0;
   cursor: pointer;
@@ -44,21 +43,144 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   transform: translateY(0);
 }
 
-.otd-nav-tab::before {
+/* Today - Gold */
+.otd-nav-tab[data-tab="today"] {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.otd-nav-tab[data-tab="today"]::before {
   content: '';
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
   transition: left 0.3s ease;
   z-index: -1;
 }
 
-.otd-nav-tab:hover {
+.otd-nav-tab[data-tab="today"]:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+}
+
+.otd-nav-tab[data-tab="today"].active {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  box-shadow: 0 6px 16px rgba(251, 191, 36, 0.5);
+  transform: translateY(-2px);
+}
+
+/* This Week - Green */
+.otd-nav-tab[data-tab="this-week"] {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.otd-nav-tab[data-tab="this-week"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.otd-nav-tab[data-tab="this-week"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+}
+
+.otd-nav-tab[data-tab="this-week"].active {
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+  box-shadow: 0 6px 16px rgba(52, 211, 153, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Previous Week - Orange */
+.otd-nav-tab[data-tab="previous-week"] {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+.otd-nav-tab[data-tab="previous-week"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.otd-nav-tab[data-tab="previous-week"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+}
+
+.otd-nav-tab[data-tab="previous-week"].active {
+  background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+  box-shadow: 0 6px 16px rgba(251, 146, 60, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Next Week - Blue */
+.otd-nav-tab[data-tab="next-week"] {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+}
+
+.otd-nav-tab[data-tab="next-week"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.otd-nav-tab[data-tab="next-week"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+.otd-nav-tab[data-tab="next-week"].active {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Custom Range - Purple */
+.otd-nav-tab[data-tab="custom-range"] {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.otd-nav-tab[data-tab="custom-range"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.otd-nav-tab[data-tab="custom-range"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+}
+
+.otd-nav-tab[data-tab="custom-range"].active {
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  box-shadow: 0 6px 16px rgba(167, 139, 250, 0.5);
+  transform: translateY(-2px);
 }
 
 .otd-nav-tab:hover::before {
@@ -67,12 +189,6 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 
 .otd-nav-tab:active {
   transform: translateY(-1px);
-}
-
-.otd-nav-tab.active {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  box-shadow: 0 6px 16px rgba(240, 147, 251, 0.5);
-  transform: translateY(-2px);
 }
 
 .otd-custom-range-panel {
@@ -137,18 +253,18 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 }
 
 .otd-date-input select:hover {
-  border-color: #667eea;
+  border-color: #8b5cf6;
 }
 
 .otd-date-input select:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
 }
 
 .otd-show-btn {
   padding: 0.5rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
   color: white;
   border: none;
   border-radius: 4px;
@@ -160,7 +276,7 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 
 .otd-show-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
 }
 
 .otd-show-btn:active {
@@ -174,6 +290,27 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   border-left: 4px solid #667eea;
   border-radius: 4px;
   animation: fadeIn 0.4s ease;
+}
+
+/* Section colour variations */
+.otd-section.today-section {
+  border-left-color: #f59e0b;
+}
+
+.otd-section.week-section {
+  border-left-color: #10b981;
+}
+
+.otd-section.prev-week-section {
+  border-left-color: #f97316;
+}
+
+.otd-section.next-week-section {
+  border-left-color: #2563eb;
+}
+
+.otd-section.custom-section {
+  border-left-color: #8b5cf6;
 }
 
 @keyframes fadeIn {
@@ -276,13 +413,33 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 
 .otd-week-label {
   display: inline-block;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-size: 0.85rem;
   margin-left: 1rem;
   font-weight: normal;
+}
+
+/* Label colour variations */
+.otd-week-label.today-label {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.otd-week-label.week-label {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.otd-week-label.prev-week-label {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+.otd-week-label.next-week-label {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+}
+
+.otd-week-label.custom-label {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
 }
 
 .otd-today-intro {
@@ -427,16 +584,16 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   
   <div id="custom-results" style="display: none;">
     <h2 class="otd-date-header">
-      Custom Range <span class="otd-week-label" id="custom-range-label"></span>
+      Custom Range <span class="otd-week-label custom-label" id="custom-range-label"></span>
     </h2>
     
-    <div class="otd-section">
+    <div class="otd-section custom-section">
       <h3>📝 Publications & Media Articles</h3>
       <p class="otd-intro" id="custom-publications-intro">Sunil Abraham published the following articles during this period across different years.</p>
       <ul class="otd-list" id="custom-publications"></ul>
     </div>
     
-    <div class="otd-section">
+    <div class="otd-section custom-section">
       <h3>📰 Media Mentions</h3>
       <p class="otd-intro" id="custom-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during this period across different years.</p>
       <ul class="otd-list" id="custom-mentions"></ul>
@@ -452,61 +609,61 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   <h2 class="otd-date-header" id="today">Today</h2>
   <p class="otd-today-intro" id="today-intro"></p>
   
-  <div class="otd-section" id="today-publications-section">
+  <div class="otd-section today-section" id="today-publications-section">
     <h3>📝 Publications & Media Articles</h3>
     <p class="otd-intro" id="today-publications-intro">Sunil Abraham published the following articles on this day in history.</p>
     <ul class="otd-list" id="today-publications"></ul>
   </div>
   
-  <div class="otd-section" id="today-mentions-section">
+  <div class="otd-section today-section" id="today-mentions-section">
     <h3>📰 Media Mentions</h3>
     <p class="otd-intro" id="today-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles on this day in history.</p>
     <ul class="otd-list" id="today-mentions"></ul>
   </div>
 
   <h2 class="otd-date-header" id="this-week">
-    This Week <span class="otd-week-label" id="current-week-range"></span>
+    This Week <span class="otd-week-label week-label" id="current-week-range"></span>
   </h2>
   
-  <div class="otd-section" id="week-publications-section">
+  <div class="otd-section week-section" id="week-publications-section">
     <h3>📝 Publications & Media Articles</h3>
     <p class="otd-intro" id="week-publications-intro">Sunil Abraham published the following articles during this week across different years.</p>
     <ul class="otd-list" id="week-publications"></ul>
   </div>
   
-  <div class="otd-section" id="week-mentions-section">
+  <div class="otd-section week-section" id="week-mentions-section">
     <h3>📰 Media Mentions</h3>
     <p class="otd-intro" id="week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during this week across different years.</p>
     <ul class="otd-list" id="week-mentions"></ul>
   </div>
 
   <h2 class="otd-date-header" id="previous-week">
-    Previous Week <span class="otd-week-label" id="prev-week-range"></span>
+    Previous Week <span class="otd-week-label prev-week-label" id="prev-week-range"></span>
   </h2>
   
-  <div class="otd-section" id="prev-week-publications-section">
+  <div class="otd-section prev-week-section" id="prev-week-publications-section">
     <h3>📝 Publications & Media Articles</h3>
     <p class="otd-intro" id="prev-week-publications-intro">Sunil Abraham published the following articles during the previous week across different years.</p>
     <ul class="otd-list" id="prev-week-publications"></ul>
   </div>
   
-  <div class="otd-section" id="prev-week-mentions-section">
+  <div class="otd-section prev-week-section" id="prev-week-mentions-section">
     <h3>📰 Media Mentions</h3>
     <p class="otd-intro" id="prev-week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during the previous week across different years.</p>
     <ul class="otd-list" id="prev-week-mentions"></ul>
   </div>
 
   <h2 class="otd-date-header" id="next-week">
-    Next Week <span class="otd-week-label" id="next-week-range"></span>
+    Next Week <span class="otd-week-label next-week-label" id="next-week-range"></span>
   </h2>
   
-  <div class="otd-section" id="next-week-publications-section">
+  <div class="otd-section next-week-section" id="next-week-publications-section">
     <h3>📝 Publications & Media Articles</h3>
     <p class="otd-intro" id="next-week-publications-intro">Sunil Abraham published the following articles during the next week across different years.</p>
     <ul class="otd-list" id="next-week-publications"></ul>
   </div>
   
-  <div class="otd-section" id="next-week-mentions-section">
+  <div class="otd-section next-week-section" id="next-week-mentions-section">
     <h3>📰 Media Mentions</h3>
     <p class="otd-intro" id="next-week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during the next week across different years.</p>
     <ul class="otd-list" id="next-week-mentions"></ul>
