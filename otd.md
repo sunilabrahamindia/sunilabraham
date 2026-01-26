@@ -99,9 +99,9 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   transform: translateY(-2px);
 }
 
-/* Previous Week - Orange */
+/* Previous Week - Red/Crimson */
 .otd-nav-tab[data-tab="previous-week"] {
-  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
 }
 
 .otd-nav-tab[data-tab="previous-week"]::before {
@@ -111,25 +111,25 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
   transition: left 0.3s ease;
   z-index: -1;
 }
 
 .otd-nav-tab[data-tab="previous-week"]:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
 }
 
 .otd-nav-tab[data-tab="previous-week"].active {
-  background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
-  box-shadow: 0 6px 16px rgba(251, 146, 60, 0.5);
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  box-shadow: 0 6px 16px rgba(239, 68, 68, 0.5);
   transform: translateY(-2px);
 }
 
-/* Next Week - Blue */
+/* Next Week - Purple/Violet */
 .otd-nav-tab[data-tab="next-week"] {
-  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
 }
 
 .otd-nav-tab[data-tab="next-week"]::before {
@@ -139,25 +139,25 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
   transition: left 0.3s ease;
   z-index: -1;
 }
 
 .otd-nav-tab[data-tab="next-week"]:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
 }
 
 .otd-nav-tab[data-tab="next-week"].active {
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.5);
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  box-shadow: 0 6px 16px rgba(167, 139, 250, 0.5);
   transform: translateY(-2px);
 }
 
-/* Custom Range - Purple */
+/* Custom Range - Slate/Grey */
 .otd-nav-tab[data-tab="custom-range"] {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #64748b 0%, #475569 100%);
 }
 
 .otd-nav-tab[data-tab="custom-range"]::before {
@@ -167,19 +167,19 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%);
   transition: left 0.3s ease;
   z-index: -1;
 }
 
 .otd-nav-tab[data-tab="custom-range"]:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+  box-shadow: 0 4px 12px rgba(100, 116, 139, 0.4);
 }
 
 .otd-nav-tab[data-tab="custom-range"].active {
-  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
-  box-shadow: 0 6px 16px rgba(167, 139, 250, 0.5);
+  background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%);
+  box-shadow: 0 6px 16px rgba(148, 163, 184, 0.5);
   transform: translateY(-2px);
 }
 
@@ -253,18 +253,18 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 }
 
 .otd-date-input select:hover {
-  border-color: #8b5cf6;
+  border-color: #64748b;
 }
 
 .otd-date-input select:focus {
   outline: none;
-  border-color: #8b5cf6;
-  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
+  border-color: #64748b;
+  box-shadow: 0 0 0 3px rgba(100, 116, 139, 0.1);
 }
 
 .otd-show-btn {
   padding: 0.5rem 2rem;
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #64748b 0%, #475569 100%);
   color: white;
   border: none;
   border-radius: 4px;
@@ -276,7 +276,7 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 
 .otd-show-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+  box-shadow: 0 4px 12px rgba(100, 116, 139, 0.4);
 }
 
 .otd-show-btn:active {
@@ -302,15 +302,15 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 }
 
 .otd-section.prev-week-section {
-  border-left-color: #f97316;
+  border-left-color: #dc2626;
 }
 
 .otd-section.next-week-section {
-  border-left-color: #2563eb;
+  border-left-color: #8b5cf6;
 }
 
 .otd-section.custom-section {
-  border-left-color: #8b5cf6;
+  border-left-color: #64748b;
 }
 
 @keyframes fadeIn {
@@ -431,15 +431,15 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 }
 
 .otd-week-label.prev-week-label {
-  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
 }
 
 .otd-week-label.next-week-label {
-  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
 }
 
 .otd-week-label.custom-label {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #64748b 0%, #475569 100%);
 }
 
 .otd-today-intro {
