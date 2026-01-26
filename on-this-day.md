@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "On This Day"
-description: "Discover Sunil Abraham's publications, media articles, and media mentions from history organised by date—explore what happened today, this month, and beyond."
+description: "Discover Sunil Abraham's publications, media articles, and media mentions from history organised by date—explore what happened today, this week, and beyond."
 categories: [Project pages]
 permalink: /on-this-day/
 created: 2026-01-26
@@ -29,6 +29,12 @@ Whilst publications and media content are fully integrated here, events (conduct
   margin-top: 0;
   color: #333;
   font-size: 1.5rem;
+}
+
+.otd-intro {
+  color: #495057;
+  margin-bottom: 1rem;
+  font-style: italic;
 }
 
 .otd-list {
@@ -94,7 +100,7 @@ Whilst publications and media content are fully integrated here, events (conduct
   border-bottom: 2px solid #dee2e6;
 }
 
-.otd-month-label {
+.otd-week-label {
   display: inline-block;
   background: #007bff;
   color: white;
@@ -103,16 +109,6 @@ Whilst publications and media content are fully integrated here, events (conduct
   font-size: 0.85rem;
   margin-left: 1rem;
   font-weight: normal;
-}
-
-.otd-debug {
-  background: #fff3cd;
-  border: 1px solid #ffc107;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 4px;
-  font-family: monospace;
-  font-size: 0.9rem;
 }
 
 /* Mobile optimisation */
@@ -134,7 +130,7 @@ Whilst publications and media content are fully integrated here, events (conduct
     font-size: 1rem;
   }
   
-  .otd-month-label {
+  .otd-week-label {
     display: block;
     margin: 0.5rem 0 0 0;
     width: fit-content;
@@ -162,65 +158,74 @@ Whilst publications and media content are fully integrated here, events (conduct
   .otd-item-description {
     font-size: 0.9rem;
   }
+  
+  .otd-intro {
+    font-size: 0.9rem;
+  }
 }
 </style>
 
 <div class="otd-container">
-  <!-- Debug information -->
-  <div class="otd-debug" id="debug-info">Loading data...</div>
-  
   <h2 class="otd-date-header" id="today-date"></h2>
   
   <div class="otd-section">
     <h3>📝 Publications & Media Articles</h3>
+    <p class="otd-intro">Sunil Abraham published the following articles on this day in history.</p>
     <ul class="otd-list" id="today-publications"></ul>
   </div>
   
   <div class="otd-section">
     <h3>📰 Media Mentions</h3>
+    <p class="otd-intro">Sunil Abraham was mentioned or quoted in the following articles on this day in history.</p>
     <ul class="otd-list" id="today-mentions"></ul>
   </div>
 
   <h2 class="otd-date-header">
-    This Month <span class="otd-month-label" id="current-month-label"></span>
+    This Week <span class="otd-week-label" id="current-week-range"></span>
   </h2>
   
   <div class="otd-section">
     <h3>📝 Publications & Media Articles</h3>
-    <ul class="otd-list" id="month-publications"></ul>
+    <p class="otd-intro">Sunil Abraham published the following articles during this week across different years.</p>
+    <ul class="otd-list" id="week-publications"></ul>
   </div>
   
   <div class="otd-section">
     <h3>📰 Media Mentions</h3>
-    <ul class="otd-list" id="month-mentions"></ul>
+    <p class="otd-intro">Sunil Abraham was mentioned or quoted in the following articles during this week across different years.</p>
+    <ul class="otd-list" id="week-mentions"></ul>
   </div>
 
   <h2 class="otd-date-header">
-    Previous Month <span class="otd-month-label" id="prev-month-label"></span>
+    Previous Week <span class="otd-week-label" id="prev-week-range"></span>
   </h2>
   
   <div class="otd-section">
     <h3>📝 Publications & Media Articles</h3>
-    <ul class="otd-list" id="prev-month-publications"></ul>
+    <p class="otd-intro">Sunil Abraham published the following articles during the previous week across different years.</p>
+    <ul class="otd-list" id="prev-week-publications"></ul>
   </div>
   
   <div class="otd-section">
     <h3>📰 Media Mentions</h3>
-    <ul class="otd-list" id="prev-month-mentions"></ul>
+    <p class="otd-intro">Sunil Abraham was mentioned or quoted in the following articles during the previous week across different years.</p>
+    <ul class="otd-list" id="prev-week-mentions"></ul>
   </div>
 
   <h2 class="otd-date-header">
-    Next Month <span class="otd-month-label" id="next-month-label"></span>
+    Next Week <span class="otd-week-label" id="next-week-range"></span>
   </h2>
   
   <div class="otd-section">
     <h3>📝 Publications & Media Articles</h3>
-    <ul class="otd-list" id="next-month-publications"></ul>
+    <p class="otd-intro">Sunil Abraham published the following articles during the next week across different years.</p>
+    <ul class="otd-list" id="next-week-publications"></ul>
   </div>
   
   <div class="otd-section">
     <h3>📰 Media Mentions</h3>
-    <ul class="otd-list" id="next-month-mentions"></ul>
+    <p class="otd-intro">Sunil Abraham was mentioned or quoted in the following articles during the next week across different years.</p>
+    <ul class="otd-list" id="next-week-mentions"></ul>
   </div>
 </div>
 
@@ -252,8 +257,7 @@ const SITE_DATA = {
         title: {{ page.title | jsonify }},
         date: "{{ page.date }}",
         description: {{ page.description | default: "" | jsonify }},
-        url: {{ page.url | jsonify }},
-        categories: {{ page.categories | jsonify }}
+        url: {{ page.url | jsonify }}
       });
     {% endif %}
     
@@ -262,14 +266,13 @@ const SITE_DATA = {
         title: {{ page.title | jsonify }},
         date: "{{ page.date }}",
         description: {{ page.description | default: "" | jsonify }},
-        url: {{ page.url | jsonify }},
-        categories: {{ page.categories | jsonify }}
+        url: {{ page.url | jsonify }}
       });
     {% endif %}
   {% endif %}
 {% endfor %}
 
-// Also try posts if they exist
+// Also check posts
 {% for post in site.posts %}
   {% if post.date and post.categories %}
     {% assign is_publication = false %}
@@ -290,8 +293,7 @@ const SITE_DATA = {
         title: {{ post.title | jsonify }},
         date: "{{ post.date | date: '%Y-%m-%d' }}",
         description: {{ post.description | default: "" | jsonify }},
-        url: {{ post.url | jsonify }},
-        categories: {{ post.categories | jsonify }}
+        url: {{ post.url | jsonify }}
       });
     {% endif %}
     
@@ -300,8 +302,7 @@ const SITE_DATA = {
         title: {{ post.title | jsonify }},
         date: "{{ post.date | date: '%Y-%m-%d' }}",
         description: {{ post.description | default: "" | jsonify }},
-        url: {{ post.url | jsonify }},
-        categories: {{ post.categories | jsonify }}
+        url: {{ post.url | jsonify }}
       });
     {% endif %}
   {% endif %}
@@ -316,19 +317,41 @@ function formatDateDMY(date) {
   return `${days[date.getDay()]}, ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`;
 }
 
-function formatMonthYear(date) {
-  const months = ['January', 'February', 'March', 'April', 'May', 'June', 
-                  'July', 'August', 'September', 'October', 'November', 'December'];
-  return `${months[date.getMonth()]} ${date.getFullYear()}`;
+function formatDateRange(startDate, endDate) {
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
+                  'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  
+  if (startDate.getMonth() === endDate.getMonth() && startDate.getFullYear() === endDate.getFullYear()) {
+    return `${startDate.getDate()}–${endDate.getDate()} ${months[startDate.getMonth()]} ${startDate.getFullYear()}`;
+  } else if (startDate.getFullYear() === endDate.getFullYear()) {
+    return `${startDate.getDate()} ${months[startDate.getMonth()]}–${endDate.getDate()} ${months[endDate.getMonth()]} ${startDate.getFullYear()}`;
+  } else {
+    return `${startDate.getDate()} ${months[startDate.getMonth()]} ${startDate.getFullYear()}–${endDate.getDate()} ${months[endDate.getMonth()]} ${endDate.getFullYear()}`;
+  }
 }
 
 function parseDate(dateString) {
-  // Handle both YYYY-MM-DD and full ISO date formats
   if (dateString.includes('T')) {
     return new Date(dateString);
   }
   const parts = dateString.split('-');
   return new Date(parts[0], parts[1] - 1, parts[2]);
+}
+
+function getWeekBounds(date, weekOffset = 0) {
+  const targetDate = new Date(date);
+  targetDate.setDate(targetDate.getDate() + (weekOffset * 7));
+  
+  const dayOfWeek = targetDate.getDay();
+  const sunday = new Date(targetDate);
+  sunday.setDate(targetDate.getDate() - dayOfWeek);
+  sunday.setHours(0, 0, 0, 0);
+  
+  const saturday = new Date(sunday);
+  saturday.setDate(sunday.getDate() + 6);
+  saturday.setHours(23, 59, 59, 999);
+  
+  return { start: sunday, end: saturday };
 }
 
 function matchesMonthDay(itemDate, targetDate) {
@@ -337,9 +360,18 @@ function matchesMonthDay(itemDate, targetDate) {
          item.getDate() === targetDate.getDate();
 }
 
-function matchesMonth(itemDate, targetMonth) {
+function isInWeek(itemDate, weekStart, weekEnd) {
   const item = parseDate(itemDate);
-  return item.getMonth() === targetMonth;
+  const startMD = weekStart.getMonth() * 100 + weekStart.getDate();
+  const endMD = weekEnd.getMonth() * 100 + weekEnd.getDate();
+  const itemMD = item.getMonth() * 100 + item.getDate();
+  
+  // Handle year wrap-around (e.g., week spanning December-January)
+  if (weekStart.getMonth() > weekEnd.getMonth()) {
+    return itemMD >= startMD || itemMD <= endMD;
+  } else {
+    return itemMD >= startMD && itemMD <= endMD;
+  }
 }
 
 function renderItems(items, containerId) {
@@ -350,7 +382,7 @@ function renderItems(items, containerId) {
     return;
   }
   
-  // Sort by oldest first
+  // Sort by oldest year first
   items.sort((a, b) => parseDate(a.date) - parseDate(b.date));
   
   const html = items.map(item => {
@@ -374,78 +406,58 @@ function renderItems(items, containerId) {
 function init() {
   const today = new Date();
   
-  // Debug information
-  const debugInfo = document.getElementById('debug-info');
-  debugInfo.innerHTML = `
-    <strong>Debug Information:</strong><br>
-    Total Publications: ${SITE_DATA.publications.length}<br>
-    Total Media Mentions: ${SITE_DATA.mentions.length}<br>
-    Today's Date: ${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}<br>
-    <details>
-      <summary>Sample Data (click to expand)</summary>
-      Publications: ${JSON.stringify(SITE_DATA.publications.slice(0, 3), null, 2)}<br>
-      Mentions: ${JSON.stringify(SITE_DATA.mentions.slice(0, 3), null, 2)}
-    </details>
-  `;
-  
   // Set today's date header
   document.getElementById('today-date').textContent = formatDateDMY(today);
   
-  // Get month information
-  const currentMonth = today.getMonth();
-  const currentYear = today.getFullYear();
+  // Get week bounds
+  const currentWeek = getWeekBounds(today, 0);
+  const prevWeek = getWeekBounds(today, -1);
+  const nextWeek = getWeekBounds(today, 1);
   
-  const prevMonthDate = new Date(currentYear, currentMonth - 1, 1);
-  const nextMonthDate = new Date(currentYear, currentMonth + 1, 1);
-  
-  // Set month labels
-  document.getElementById('current-month-label').textContent = formatMonthYear(today);
-  document.getElementById('prev-month-label').textContent = formatMonthYear(prevMonthDate);
-  document.getElementById('next-month-label').textContent = formatMonthYear(nextMonthDate);
+  // Set week range labels
+  document.getElementById('current-week-range').textContent = formatDateRange(currentWeek.start, currentWeek.end);
+  document.getElementById('prev-week-range').textContent = formatDateRange(prevWeek.start, prevWeek.end);
+  document.getElementById('next-week-range').textContent = formatDateRange(nextWeek.start, nextWeek.end);
   
   // Filter and render today's items (matching ONLY month and day, ANY year)
   const todayPubs = SITE_DATA.publications.filter(item => matchesMonthDay(item.date, today));
   const todayMentions = SITE_DATA.mentions.filter(item => matchesMonthDay(item.date, today));
   
-  console.log('Today filter - Day:', today.getDate(), 'Month:', today.getMonth());
-  console.log('Today publications found:', todayPubs.length);
-  console.log('Today mentions found:', todayMentions.length);
-  
   renderItems(todayPubs, 'today-publications');
   renderItems(todayMentions, 'today-mentions');
   
-  // Filter and render this month's items (excluding today)
-  const monthPubs = SITE_DATA.publications.filter(item => 
-    matchesMonth(item.date, currentMonth) && !matchesMonthDay(item.date, today)
+  // Filter and render this week's items (excluding today)
+  const weekPubs = SITE_DATA.publications.filter(item => 
+    isInWeek(item.date, currentWeek.start, currentWeek.end) && !matchesMonthDay(item.date, today)
   );
-  const monthMentions = SITE_DATA.mentions.filter(item => 
-    matchesMonth(item.date, currentMonth) && !matchesMonthDay(item.date, today)
-  );
-  
-  renderItems(monthPubs, 'month-publications');
-  renderItems(monthMentions, 'month-mentions');
-  
-  // Filter and render previous month's items
-  const prevMonthPubs = SITE_DATA.publications.filter(item => 
-    matchesMonth(item.date, prevMonthDate.getMonth())
-  );
-  const prevMonthMentions = SITE_DATA.mentions.filter(item => 
-    matchesMonth(item.date, prevMonthDate.getMonth())
+  const weekMentions = SITE_DATA.mentions.filter(item => 
+    isInWeek(item.date, currentWeek.start, currentWeek.end) && !matchesMonthDay(item.date, today)
   );
   
-  renderItems(prevMonthPubs, 'prev-month-publications');
-  renderItems(prevMonthMentions, 'prev-month-mentions');
+  renderItems(weekPubs, 'week-publications');
+  renderItems(weekMentions, 'week-mentions');
   
-  // Filter and render next month's items
-  const nextMonthPubs = SITE_DATA.publications.filter(item => 
-    matchesMonth(item.date, nextMonthDate.getMonth())
+  // Filter and render previous week's items
+  const prevWeekPubs = SITE_DATA.publications.filter(item => 
+    isInWeek(item.date, prevWeek.start, prevWeek.end)
   );
-  const nextMonthMentions = SITE_DATA.mentions.filter(item => 
-    matchesMonth(item.date, nextMonthDate.getMonth())
+  const prevWeekMentions = SITE_DATA.mentions.filter(item => 
+    isInWeek(item.date, prevWeek.start, prevWeek.end)
   );
   
-  renderItems(nextMonthPubs, 'next-month-publications');
-  renderItems(nextMonthMentions, 'next-month-mentions');
+  renderItems(prevWeekPubs, 'prev-week-publications');
+  renderItems(prevWeekMentions, 'prev-week-mentions');
+  
+  // Filter and render next week's items
+  const nextWeekPubs = SITE_DATA.publications.filter(item => 
+    isInWeek(item.date, nextWeek.start, nextWeek.end)
+  );
+  const nextWeekMentions = SITE_DATA.mentions.filter(item => 
+    isInWeek(item.date, nextWeek.start, nextWeek.end)
+  );
+  
+  renderItems(nextWeekPubs, 'next-week-publications');
+  renderItems(nextWeekMentions, 'next-week-mentions');
 }
 
 // Run on page load
