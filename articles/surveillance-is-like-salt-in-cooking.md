@@ -126,7 +126,7 @@ He revisited the comparison in another *The Hindu* article titled ["Targeting Su
 
 ### Scholarly Citations
 
-The metaphor has been referenced by other scholars and commentators analysing Indian surveillance systems. In a 2021 op-ed titled ["Pegasus Is India's Watergate Moment"](/media/pegasus-indias-watergate-moment-hindu/) published in *The Hindu* on 21 July 2021, internet researcher Pranesh Prakash invoked this analogy. Writing in the context of the Pegasus spyware revelations, Prakash noted:
+The metaphor has been referenced by other scholars and commentators analysing Indian surveillance systems. In a 2021 op-ed titled ["Pegasus Is India's Watergate Moment"](/media/pegasus-indias-watergate-moment-hindu/) published in *The Hindu* on 21 July 2021, internet researcher Pranesh Prakash invoked this analogy. Writing in the context of the Pegasus spyware revelations, he noted:
 
 > My former colleague, Sunil Abraham, often likens surveillance to salt. A small amount of surveillance is necessary for the health of the body politic, just as salt is for the body; in excess, both are dangerous.
 
