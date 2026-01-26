@@ -24,7 +24,6 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
   margin: 2rem 0;
   padding: 0;
   list-style: none;
-  border-bottom: 3px solid #dee2e6;
   position: relative;
   justify-content: center;
 }
