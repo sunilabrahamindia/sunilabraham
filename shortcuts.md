@@ -8,7 +8,7 @@ created: 2025-11-06
 sitemap: true
 ---
 
-This page lists all assigned short URL paths and keyboard shortcuts that provide quick access to main sections of the website.  
+**Shortcuts** page lists all assigned short URL paths and keyboard shortcuts that provide quick access to main sections of the website.  
 These shortcuts are designed to improve accessibility for keyboard users, screen reader users, and power users.
 
 
