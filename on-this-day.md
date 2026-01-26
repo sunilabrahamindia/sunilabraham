@@ -24,33 +24,166 @@ Whilst publications and media content are fully integrated here, events (conduct
   margin: 2rem 0;
   padding: 0;
   list-style: none;
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 3px solid #dee2e6;
+  position: relative;
 }
 
 .otd-nav-tab {
   padding: 0.75rem 1.5rem;
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-bottom: none;
-  border-radius: 4px 4px 0 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 8px 8px 0 0;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition: all 0.3s ease;
   text-decoration: none;
-  color: #495057;
-  font-weight: 500;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(0);
+}
+
+.otd-nav-tab::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  transition: left 0.3s ease;
+  z-index: -1;
 }
 
 .otd-nav-tab:hover {
-  background: #e9ecef;
-  color: #007bff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.otd-nav-tab:hover::before {
+  left: 0;
+}
+
+.otd-nav-tab:active {
+  transform: translateY(-1px);
+}
+
+.otd-nav-tab.active {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  box-shadow: 0 6px 16px rgba(240, 147, 251, 0.5);
+  transform: translateY(-2px);
+}
+
+.otd-custom-range-panel {
+  background: #f8f9fa;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  display: none;
+}
+
+.otd-custom-range-panel.active {
+  display: block;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.otd-date-selectors {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+
+.otd-date-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.otd-date-group label {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.otd-date-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.otd-date-input select {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.otd-date-input select:hover {
+  border-color: #667eea;
+}
+
+.otd-date-input select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.otd-show-btn {
+  padding: 0.5rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.otd-show-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.otd-show-btn:active {
+  transform: translateY(0);
 }
 
 .otd-section {
   margin: 2rem 0;
   padding: 1.5rem;
   background: #f8f9fa;
-  border-left: 4px solid #007bff;
+  border-left: 4px solid #667eea;
   border-radius: 4px;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .otd-section h3 {
@@ -88,7 +221,7 @@ Whilst publications and media content are fully integrated here, events (conduct
 
 .otd-item-badge {
   display: inline-block;
-  background: #28a745;
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
   color: white;
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
@@ -142,7 +275,7 @@ Whilst publications and media content are fully integrated here, events (conduct
 
 .otd-week-label {
   display: inline-block;
-  background: #007bff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
@@ -158,6 +291,16 @@ Whilst publications and media content are fully integrated here, events (conduct
   line-height: 1.6;
 }
 
+.otd-placeholder {
+  padding: 3rem;
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 2px dashed #dee2e6;
+}
+
 /* Mobile optimisation */
 @media (max-width: 768px) {
   .otd-nav-tabs {
@@ -169,6 +312,14 @@ Whilst publications and media content are fully integrated here, events (conduct
     font-size: 0.9rem;
     flex: 1 1 calc(50% - 0.25rem);
     text-align: center;
+  }
+  
+  .otd-date-selectors {
+    grid-template-columns: 1fr;
+  }
+  
+  .otd-show-btn {
+    width: 100%;
   }
   
   .otd-section {
@@ -201,6 +352,14 @@ Whilst publications and media content are fully integrated here, events (conduct
     font-size: 0.85rem;
   }
   
+  .otd-custom-range-panel {
+    padding: 1rem;
+  }
+  
+  .otd-date-input {
+    flex-direction: column;
+  }
+  
   .otd-section {
     padding: 0.75rem;
     margin: 0.75rem 0;
@@ -229,11 +388,64 @@ Whilst publications and media content are fully integrated here, events (conduct
 </style>
 
 <nav class="otd-nav-tabs">
-  <a href="#today" class="otd-nav-tab">Today</a>
-  <a href="#this-week" class="otd-nav-tab">This Week</a>
-  <a href="#previous-week" class="otd-nav-tab">Previous Week</a>
-  <a href="#next-week" class="otd-nav-tab">Next Week</a>
+  <a href="#today" class="otd-nav-tab" data-tab="today">Today</a>
+  <a href="#this-week" class="otd-nav-tab" data-tab="this-week">This Week</a>
+  <a href="#previous-week" class="otd-nav-tab" data-tab="previous-week">Previous Week</a>
+  <a href="#next-week" class="otd-nav-tab" data-tab="next-week">Next Week</a>
+  <a href="#custom-range" class="otd-nav-tab" data-tab="custom-range">Custom Range</a>
 </nav>
+
+<div id="custom-range" class="otd-custom-range-panel">
+  <div class="otd-date-selectors">
+    <div class="otd-date-group">
+      <label>From Date</label>
+      <div class="otd-date-input">
+        <select id="from-day">
+          <option value="">Day</option>
+        </select>
+        <select id="from-month">
+          <option value="">Month</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="otd-date-group">
+      <label>To Date</label>
+      <div class="otd-date-input">
+        <select id="to-day">
+          <option value="">Day</option>
+        </select>
+        <select id="to-month">
+          <option value="">Month</option>
+        </select>
+      </div>
+    </div>
+    
+    <button class="otd-show-btn" onclick="showCustomRange()">Show Results</button>
+  </div>
+  
+  <div id="custom-results" style="display: none;">
+    <h2 class="otd-date-header">
+      Custom Range <span class="otd-week-label" id="custom-range-label"></span>
+    </h2>
+    
+    <div class="otd-section">
+      <h3>📝 Publications & Media Articles</h3>
+      <p class="otd-intro" id="custom-publications-intro">Sunil Abraham published the following articles during this period across different years.</p>
+      <ul class="otd-list" id="custom-publications"></ul>
+    </div>
+    
+    <div class="otd-section">
+      <h3>📰 Media Mentions</h3>
+      <p class="otd-intro" id="custom-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during this period across different years.</p>
+      <ul class="otd-list" id="custom-mentions"></ul>
+    </div>
+  </div>
+  
+  <div class="otd-placeholder" id="custom-placeholder">
+    Please select a date range and click "Show Results" to view historical content.
+  </div>
+</div>
 
 <div class="otd-container">
   <h2 class="otd-date-header" id="today">Today</h2>
@@ -379,6 +591,113 @@ const SITE_DATA = {
   {% endif %}
 {% endfor %}
 
+// Populate date dropdowns
+function populateDateDropdowns() {
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 
+                  'July', 'August', 'September', 'October', 'November', 'December'];
+  
+  const fromMonth = document.getElementById('from-month');
+  const toMonth = document.getElementById('to-month');
+  
+  months.forEach((month, index) => {
+    fromMonth.innerHTML += `<option value="${index}">${month}</option>`;
+    toMonth.innerHTML += `<option value="${index}">${month}</option>`;
+  });
+  
+  const fromDay = document.getElementById('from-day');
+  const toDay = document.getElementById('to-day');
+  
+  for (let i = 1; i <= 31; i++) {
+    fromDay.innerHTML += `<option value="${i}">${i}</option>`;
+    toDay.innerHTML += `<option value="${i}">${i}</option>`;
+  }
+}
+
+// Tab functionality
+document.querySelectorAll('.otd-nav-tab').forEach(tab => {
+  tab.addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    // Remove active class from all tabs
+    document.querySelectorAll('.otd-nav-tab').forEach(t => t.classList.remove('active'));
+    
+    // Add active class to clicked tab
+    this.classList.add('active');
+    
+    // Handle custom range panel
+    const customPanel = document.querySelector('.otd-custom-range-panel');
+    if (this.dataset.tab === 'custom-range') {
+      customPanel.classList.add('active');
+      customPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      customPanel.classList.remove('active');
+      
+      // Scroll to section
+      const targetId = this.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      if (targetSection) {
+        targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  });
+});
+
+// Custom range functionality
+function showCustomRange() {
+  const fromDay = parseInt(document.getElementById('from-day').value);
+  const fromMonth = parseInt(document.getElementById('from-month').value);
+  const toDay = parseInt(document.getElementById('to-day').value);
+  const toMonth = parseInt(document.getElementById('to-month').value);
+  
+  if (isNaN(fromDay) || isNaN(fromMonth) || isNaN(toDay) || isNaN(toMonth)) {
+    alert('Please select both From and To dates');
+    return;
+  }
+  
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 
+                  'July', 'August', 'September', 'October', 'November', 'December'];
+  
+  const rangeLabel = `${fromDay} ${months[fromMonth]} – ${toDay} ${months[toMonth]}`;
+  document.getElementById('custom-range-label').textContent = rangeLabel;
+  
+  const today = new Date();
+  
+  // Filter items in custom range
+  const customPubs = SITE_DATA.publications.filter(item => 
+    isInCustomRange(item.date, fromMonth, fromDay, toMonth, toDay)
+  );
+  const customMentions = SITE_DATA.mentions.filter(item => 
+    isInCustomRange(item.date, fromMonth, fromDay, toMonth, toDay)
+  );
+  
+  renderItems(customPubs, 'custom-publications', 'custom-publications-intro', today);
+  renderItems(customMentions, 'custom-mentions', 'custom-mentions-intro', today);
+  
+  // Show results, hide placeholder
+  document.getElementById('custom-placeholder').style.display = 'none';
+  document.getElementById('custom-results').style.display = 'block';
+  
+  // Scroll to results
+  document.getElementById('custom-results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function isInCustomRange(itemDate, fromMonth, fromDay, toMonth, toDay) {
+  const item = parseDate(itemDate);
+  const itemMonth = item.getMonth();
+  const itemDay = item.getDate();
+  
+  const fromValue = fromMonth * 100 + fromDay;
+  const toValue = toMonth * 100 + toDay;
+  const itemValue = itemMonth * 100 + itemDay;
+  
+  // Handle range spanning year boundary
+  if (fromValue > toValue) {
+    return itemValue >= fromValue || itemValue <= toValue;
+  } else {
+    return itemValue >= fromValue && itemValue <= toValue;
+  }
+}
+
 // Date utility functions
 function formatDateDMY(date) {
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -500,6 +819,9 @@ function renderItems(items, containerId, introId, referenceDate) {
 // Initialize the page
 function init() {
   const today = new Date();
+  
+  // Populate date dropdowns
+  populateDateDropdowns();
   
   // Set today's intro text
   const todayIntro = document.getElementById('today-intro');
