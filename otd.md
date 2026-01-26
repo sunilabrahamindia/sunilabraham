@@ -3,7 +3,7 @@ layout: default
 title: "On This Day"
 description: "Discover Sunil Abraham's publications, media articles, and media mentions from history organised by date—explore what happened today, this week, and beyond."
 categories: [Project pages]
-permalink: /on-this-day/
+permalink: /otd/
 created: 2026-01-26
 ---
 
