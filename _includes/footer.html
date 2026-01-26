@@ -1,5 +1,75 @@
 <footer>
-  <style>
+
+  <p><b><a href="https://sunilabraham.in/articles/sunil-abraham-project/">The Sunil Abraham Project</a></b></p>
+  <p class="version-tag">Version 1.1.2</p>
+
+  <p class="footer-time" aria-live="off">
+    🕒 Current time: <span id="footer-datetime"></span>
+  </p>
+
+  <p class="celebrate-500" aria-label="Celebrating the 500th article published on the site">
+    🎉 <strong>500th article published</strong>
+    <span class="milestone">
+      Celebrating the occasion with
+      <a href="https://sunilabraham.in/articles/surveillance-is-like-salt-in-cooking/"> <i>Surveillance Is Like Salt in Cooking</i>
+      </a>
+    </span>
+  </p>
+
+  <p>
+    © {{ site.time | date: "%Y" }} Licensed under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">
+      CC BY-SA 4.0
+    </a>
+    unless otherwise stated.
+  </p>
+
+  <p>
+    🌐 Connect with Sunil:
+    <a href="https://www.facebook.com/abrahamsunil">Facebook</a>
+    <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a>
+    <a href="https://x.com/sunil_abraham">𝕏</a>
+  </p>
+
+  <p>
+    🔗 Quick links:
+    <a href="https://sunilabraham.in/versions">Versions</a>
+    <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
+    <a href="https://sunilabraham.in/sitemap">Sitemap</a>
+    (<span class="no-separator"><a href="https://sunilabraham.in/newest">Newest pages</a>, <a href="https://sunilabraham.in/sitemap.xml">XML</a></span>)
+  </p>
+
+  <p>
+    <a href="https://sunilabraham.in/privacy">Privacy Policy</a>
+    <a href="https://sunilabraham.in/disclaimer">Disclaimer</a>
+    <a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>
+    <a href="https://sunilabraham.in/shortcuts">Shortcuts</a>
+  </p>
+
+{% assign clean_domain = site.url
+  | remove: 'http://'
+  | remove: 'https://'
+  | remove: 'www.'
+%}
+
+  <p>
+    🏛️ Archived snapshots of this page:
+    <a href="https://web.archive.org/https://{{ clean_domain }}{{ page.url }}">
+      Wayback Machine
+    </a>
+    <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
+      Archive.today
+    </a>
+  </p>
+
+  <p>
+    👁 WAVE WebAIM:
+    <a id="accessibility-link" href="#">
+      See accessibility score
+    </a>
+  </p>
+
+    <style>
     /* =========================================================
        Footer container
        ========================================================= */
@@ -117,77 +187,7 @@
       }
     }
   </style>
-
-  <p><b><a href="https://sunilabraham.in/articles/sunil-abraham-project/">The Sunil Abraham Project</a></b></p>
-  <p class="version-tag">Version 1.1.2</p>
-
-  <p class="footer-time" aria-live="off">
-    🕒 Current time: <span id="footer-datetime"></span>
-  </p>
-
-  <p class="celebrate-500" aria-label="Celebrating the 500th article published on the site">
-    🎉 <strong>500th article published</strong>
-    <span class="milestone">
-      Celebrating the occasion with
-      <a href="https://sunilabraham.in/articles/surveillance-is-like-salt-in-cooking/">
-        <i>Surveillance Is Like Salt in Cooking</i>
-      </a>
-    </span>
-  </p>
-
-  <p>
-    © {{ site.time | date: "%Y" }} Licensed under
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">
-      CC BY-SA 4.0
-    </a>
-    unless otherwise stated.
-  </p>
-
-  <p>
-    🌐 Connect with Sunil:
-    <a href="https://www.facebook.com/abrahamsunil">Facebook</a>
-    <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a>
-    <a href="https://x.com/sunil_abraham">𝕏</a>
-  </p>
-
-  <p>
-    🔗 Quick links:
-    <a href="https://sunilabraham.in/versions">Versions</a>
-    <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
-    <a href="https://sunilabraham.in/sitemap">Sitemap</a>
-    (<span class="no-separator"><a href="https://sunilabraham.in/newest">Newest pages</a>, <a href="https://sunilabraham.in/sitemap.xml">XML</a></span>)
-  </p>
-
-  <p>
-    <a href="https://sunilabraham.in/privacy">Privacy Policy</a>
-    <a href="https://sunilabraham.in/disclaimer">Disclaimer</a>
-    <a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>
-    <a href="https://sunilabraham.in/shortcuts">Shortcuts</a>
-  </p>
-
-{% assign clean_domain = site.url
-  | remove: 'http://'
-  | remove: 'https://'
-  | remove: 'www.'
-%}
-
-  <p>
-    🏛️ Archived snapshots of this page:
-    <a href="https://web.archive.org/https://{{ clean_domain }}{{ page.url }}">
-      Wayback Machine
-    </a>
-    <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
-      Archive.today
-    </a>
-  </p>
-
-  <p>
-    👁 WAVE WebAIM:
-    <a id="accessibility-link" href="#">
-      See accessibility score
-    </a>
-  </p>
-
+  
   <script>
     document.getElementById('accessibility-link').href =
       'https://wave.webaim.org/report#/' +
