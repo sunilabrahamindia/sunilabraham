@@ -17,6 +17,34 @@ Whilst publications and media content are fully integrated here, events (conduct
   margin: 0 auto;
 }
 
+.otd-nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 2rem 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.otd-nav-tab {
+  padding: 0.75rem 1.5rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  text-decoration: none;
+  color: #495057;
+  font-weight: 500;
+}
+
+.otd-nav-tab:hover {
+  background: #e9ecef;
+  color: #007bff;
+}
+
 .otd-section {
   margin: 2rem 0;
   padding: 1.5rem;
@@ -50,11 +78,23 @@ Whilst publications and media content are fully integrated here, events (conduct
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
 }
 
 .otd-item:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.otd-item-badge {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .otd-item-title {
@@ -111,8 +151,26 @@ Whilst publications and media content are fully integrated here, events (conduct
   font-weight: normal;
 }
 
+.otd-today-intro {
+  color: #495057;
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 /* Mobile optimisation */
 @media (max-width: 768px) {
+  .otd-nav-tabs {
+    gap: 0.25rem;
+  }
+  
+  .otd-nav-tab {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    flex: 1 1 calc(50% - 0.25rem);
+    text-align: center;
+  }
+  
   .otd-section {
     padding: 1rem;
     margin: 1rem 0;
@@ -138,6 +196,11 @@ Whilst publications and media content are fully integrated here, events (conduct
 }
 
 @media (max-width: 480px) {
+  .otd-nav-tab {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+  
   .otd-section {
     padding: 0.75rem;
     margin: 0.75rem 0;
@@ -159,72 +222,80 @@ Whilst publications and media content are fully integrated here, events (conduct
     font-size: 0.9rem;
   }
   
-  .otd-intro {
-    font-size: 0.9rem;
+  .otd-item-badge {
+    font-size: 0.75rem;
   }
 }
 </style>
 
+<nav class="otd-nav-tabs">
+  <a href="#today" class="otd-nav-tab">Today</a>
+  <a href="#this-week" class="otd-nav-tab">This Week</a>
+  <a href="#previous-week" class="otd-nav-tab">Previous Week</a>
+  <a href="#next-week" class="otd-nav-tab">Next Week</a>
+</nav>
+
 <div class="otd-container">
-  <h2 class="otd-date-header" id="today-date"></h2>
+  <h2 class="otd-date-header" id="today">Today</h2>
+  <p class="otd-today-intro" id="today-intro"></p>
   
-  <div class="otd-section">
+  <div class="otd-section" id="today-publications-section">
     <h3>📝 Publications & Media Articles</h3>
-    <p class="otd-intro">Sunil Abraham published the following articles on this day in history.</p>
+    <p class="otd-intro" id="today-publications-intro">Sunil Abraham published the following articles on this day in history.</p>
     <ul class="otd-list" id="today-publications"></ul>
   </div>
   
-  <div class="otd-section">
+  <div class="otd-section" id="today-mentions-section">
     <h3>📰 Media Mentions</h3>
-    <p class="otd-intro">Sunil Abraham was mentioned or quoted in the following articles on this day in history.</p>
+    <p class="otd-intro" id="today-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles on this day in history.</p>
     <ul class="otd-list" id="today-mentions"></ul>
   </div>
 
-  <h2 class="otd-date-header">
+  <h2 class="otd-date-header" id="this-week">
     This Week <span class="otd-week-label" id="current-week-range"></span>
   </h2>
   
-  <div class="otd-section">
+  <div class="otd-section" id="week-publications-section">
     <h3>📝 Publications & Media Articles</h3>
-    <p class="otd-intro">Sunil Abraham published the following articles during this week across different years.</p>
+    <p class="otd-intro" id="week-publications-intro">Sunil Abraham published the following articles during this week across different years.</p>
     <ul class="otd-list" id="week-publications"></ul>
   </div>
   
-  <div class="otd-section">
+  <div class="otd-section" id="week-mentions-section">
     <h3>📰 Media Mentions</h3>
-    <p class="otd-intro">Sunil Abraham was mentioned or quoted in the following articles during this week across different years.</p>
+    <p class="otd-intro" id="week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during this week across different years.</p>
     <ul class="otd-list" id="week-mentions"></ul>
   </div>
 
-  <h2 class="otd-date-header">
+  <h2 class="otd-date-header" id="previous-week">
     Previous Week <span class="otd-week-label" id="prev-week-range"></span>
   </h2>
   
-  <div class="otd-section">
+  <div class="otd-section" id="prev-week-publications-section">
     <h3>📝 Publications & Media Articles</h3>
-    <p class="otd-intro">Sunil Abraham published the following articles during the previous week across different years.</p>
+    <p class="otd-intro" id="prev-week-publications-intro">Sunil Abraham published the following articles during the previous week across different years.</p>
     <ul class="otd-list" id="prev-week-publications"></ul>
   </div>
   
-  <div class="otd-section">
+  <div class="otd-section" id="prev-week-mentions-section">
     <h3>📰 Media Mentions</h3>
-    <p class="otd-intro">Sunil Abraham was mentioned or quoted in the following articles during the previous week across different years.</p>
+    <p class="otd-intro" id="prev-week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during the previous week across different years.</p>
     <ul class="otd-list" id="prev-week-mentions"></ul>
   </div>
 
-  <h2 class="otd-date-header">
+  <h2 class="otd-date-header" id="next-week">
     Next Week <span class="otd-week-label" id="next-week-range"></span>
   </h2>
   
-  <div class="otd-section">
+  <div class="otd-section" id="next-week-publications-section">
     <h3>📝 Publications & Media Articles</h3>
-    <p class="otd-intro">Sunil Abraham published the following articles during the next week across different years.</p>
+    <p class="otd-intro" id="next-week-publications-intro">Sunil Abraham published the following articles during the next week across different years.</p>
     <ul class="otd-list" id="next-week-publications"></ul>
   </div>
   
-  <div class="otd-section">
+  <div class="otd-section" id="next-week-mentions-section">
     <h3>📰 Media Mentions</h3>
-    <p class="otd-intro">Sunil Abraham was mentioned or quoted in the following articles during the next week across different years.</p>
+    <p class="otd-intro" id="next-week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during the next week across different years.</p>
     <ul class="otd-list" id="next-week-mentions"></ul>
   </div>
 </div>
@@ -338,6 +409,24 @@ function parseDate(dateString) {
   return new Date(parts[0], parts[1] - 1, parts[2]);
 }
 
+function getYearsDifference(itemDate, referenceDate) {
+  const item = parseDate(itemDate);
+  const years = referenceDate.getFullYear() - item.getFullYear();
+  return years;
+}
+
+function getTimeDifferenceText(itemDate, referenceDate) {
+  const years = getYearsDifference(itemDate, referenceDate);
+  
+  if (years === 0) {
+    return "This year";
+  } else if (years === 1) {
+    return "1 year ago";
+  } else {
+    return `${years} years ago`;
+  }
+}
+
 function getWeekBounds(date, weekOffset = 0) {
   const targetDate = new Date(date);
   targetDate.setDate(targetDate.getDate() + (weekOffset * 7));
@@ -366,7 +455,7 @@ function isInWeek(itemDate, weekStart, weekEnd) {
   const endMD = weekEnd.getMonth() * 100 + weekEnd.getDate();
   const itemMD = item.getMonth() * 100 + item.getDate();
   
-  // Handle year wrap-around (e.g., week spanning December-January)
+  // Handle year wrap-around
   if (weekStart.getMonth() > weekEnd.getMonth()) {
     return itemMD >= startMD || itemMD <= endMD;
   } else {
@@ -374,13 +463,17 @@ function isInWeek(itemDate, weekStart, weekEnd) {
   }
 }
 
-function renderItems(items, containerId) {
+function renderItems(items, containerId, introId, referenceDate) {
   const container = document.getElementById(containerId);
+  const intro = document.getElementById(introId);
   
   if (items.length === 0) {
     container.innerHTML = '<li class="otd-empty">No items found for this period</li>';
+    if (intro) intro.style.display = 'none';
     return;
   }
+  
+  if (intro) intro.style.display = 'block';
   
   // Sort by oldest year first
   items.sort((a, b) => parseDate(a.date) - parseDate(b.date));
@@ -389,9 +482,11 @@ function renderItems(items, containerId) {
     const itemDate = parseDate(item.date);
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const formattedDate = `${itemDate.getDate()} ${months[itemDate.getMonth()]} ${itemDate.getFullYear()}`;
+    const timeDiff = getTimeDifferenceText(item.date, referenceDate);
     
     return `
       <li class="otd-item">
+        <div class="otd-item-badge">${timeDiff}</div>
         <div class="otd-item-title"><a href="${item.url}">${item.title}</a></div>
         <div class="otd-item-date">${formattedDate}</div>
         ${item.description ? `<div class="otd-item-description">${item.description}</div>` : ''}
@@ -406,8 +501,9 @@ function renderItems(items, containerId) {
 function init() {
   const today = new Date();
   
-  // Set today's date header
-  document.getElementById('today-date').textContent = formatDateDMY(today);
+  // Set today's intro text
+  const todayIntro = document.getElementById('today-intro');
+  todayIntro.textContent = `Today is ${formatDateDMY(today)}. In the past, Sunil Abraham has published content and been featured in media on this day.`;
   
   // Get week bounds
   const currentWeek = getWeekBounds(today, 0);
@@ -419,12 +515,12 @@ function init() {
   document.getElementById('prev-week-range').textContent = formatDateRange(prevWeek.start, prevWeek.end);
   document.getElementById('next-week-range').textContent = formatDateRange(nextWeek.start, nextWeek.end);
   
-  // Filter and render today's items (matching ONLY month and day, ANY year)
+  // Filter and render today's items
   const todayPubs = SITE_DATA.publications.filter(item => matchesMonthDay(item.date, today));
   const todayMentions = SITE_DATA.mentions.filter(item => matchesMonthDay(item.date, today));
   
-  renderItems(todayPubs, 'today-publications');
-  renderItems(todayMentions, 'today-mentions');
+  renderItems(todayPubs, 'today-publications', 'today-publications-intro', today);
+  renderItems(todayMentions, 'today-mentions', 'today-mentions-intro', today);
   
   // Filter and render this week's items (excluding today)
   const weekPubs = SITE_DATA.publications.filter(item => 
@@ -434,8 +530,8 @@ function init() {
     isInWeek(item.date, currentWeek.start, currentWeek.end) && !matchesMonthDay(item.date, today)
   );
   
-  renderItems(weekPubs, 'week-publications');
-  renderItems(weekMentions, 'week-mentions');
+  renderItems(weekPubs, 'week-publications', 'week-publications-intro', today);
+  renderItems(weekMentions, 'week-mentions', 'week-mentions-intro', today);
   
   // Filter and render previous week's items
   const prevWeekPubs = SITE_DATA.publications.filter(item => 
@@ -445,8 +541,8 @@ function init() {
     isInWeek(item.date, prevWeek.start, prevWeek.end)
   );
   
-  renderItems(prevWeekPubs, 'prev-week-publications');
-  renderItems(prevWeekMentions, 'prev-week-mentions');
+  renderItems(prevWeekPubs, 'prev-week-publications', 'prev-week-publications-intro', today);
+  renderItems(prevWeekMentions, 'prev-week-mentions', 'prev-week-mentions-intro', today);
   
   // Filter and render next week's items
   const nextWeekPubs = SITE_DATA.publications.filter(item => 
@@ -456,8 +552,8 @@ function init() {
     isInWeek(item.date, nextWeek.start, nextWeek.end)
   );
   
-  renderItems(nextWeekPubs, 'next-week-publications');
-  renderItems(nextWeekMentions, 'next-week-mentions');
+  renderItems(nextWeekPubs, 'next-week-publications', 'next-week-publications-intro', today);
+  renderItems(nextWeekMentions, 'next-week-mentions', 'next-week-mentions-intro', today);
 }
 
 // Run on page load
