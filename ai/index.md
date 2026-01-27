@@ -119,7 +119,7 @@ In addition to archival material, the portal will gradually include project note
     <h3>Regulation Should Build Trust, Not Control</h3>
     <p class="ai-card-year">2024</p>
     <p>
-      A Varindia event report from the 6th Global AI Leadership Meet organised by ASSOCHAM, documenting Dr. Amar Patnaik’s call for trust-based approaches to AI regulation. The discussion brings together policymakers and industry leaders to examine how governance frameworks can encourage innovation without overreach, with contributions on data access, open standards, and layered models of AI accountability.
+      A Varindia event report from the 6th Global AI Leadership Meet organised by ASSOCHAM, documenting Dr. Amar Patnaik's call for trust-based approaches to AI regulation. The discussion brings together policymakers and industry leaders to examine how governance frameworks can encourage innovation without overreach, with contributions on data access, open standards, and layered models of AI accountability.
     </p>
     <a href="/media/ai-regulation-trust-assocham-varindia/" class="ai-card-link">Read more →</a>
   </div>
@@ -128,10 +128,22 @@ In addition to archival material, the portal will gradually include project note
 <div class="ai-content-card">
   <div class="ai-card-marker">◆</div>
   <div class="ai-card-content">
-    <h3>Meta Hopes India’s DPDP Act and Copyright Provisions Can Attract AI Data Centres</h3>
+    <h3>Can Open-Source AI Models Be Trusted? Experts Debate Licensing, Risks, and More</h3>
+    <p class="ai-card-year">2024</p>
+    <p>
+      A report published in The Indian Express on 28 November 2024 by Karan Mahadik, covering a Software Freedom Law Centre panel discussion on open-source artificial intelligence. The article examines debates around licensing definitions, transparency claims, regulatory gaps, and risks associated with open-source AI models, with perspectives from technology policy experts and developers.
+    </p>
+    <a href="/media/open-source-ai-models-debate-indian-express/" class="ai-card-link">Read more →</a>
+  </div>
+</div>
+
+<div class="ai-content-card">
+  <div class="ai-card-marker">◆</div>
+  <div class="ai-card-content">
+    <h3>Meta Hopes India's DPDP Act and Copyright Provisions Can Attract AI Data Centres</h3>
     <p class="ai-card-year">2025</p>
     <p>
-      A MediaNama report published on 16 April 2025 by Kamya Pandey, examining Meta’s assessment of how India’s Digital Personal Data Protection Act and copyright framework could shape the country’s appeal as a location for AI model training and data centres. The article features remarks by Sunil Abraham at the Global Technology Summit on data scraping exemptions, copyright law, and emerging conflicts between data minimisation and intellectual property obligations.
+      A MediaNama report published on 16 April 2025 by Kamya Pandey, examining Meta's assessment of how India's Digital Personal Data Protection Act and copyright framework could shape the country's appeal as a location for AI model training and data centres. The article features remarks by Sunil Abraham at the Global Technology Summit on data scraping exemptions, copyright law, and emerging conflicts between data minimisation and intellectual property obligations.
     </p>
     <a href="/media/meta-india-dpdp-copyright-ai-data-centres-medianama/" class="ai-card-link">Read more →</a>
   </div>
