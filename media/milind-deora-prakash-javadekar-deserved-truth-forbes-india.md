@@ -80,8 +80,6 @@ created: 2026-01-27
 
 <p>We expected better answers from you Mr. Minister - sorry, expect better. Alas your recent answers don't inspire much trust, for instance when you tell us constant surveillance is "good for us" and "will enhance the privacy of citizens". Or when you tell us that "Google Hangouts" - a service provided by a company that looms over nearly everything Indians do online - is a better medium to reach out to people than Parliament or Television. We deserve the truth from you Mr. Minister. Just like Prakash Javadekar.</p>
 
-<p>First Published: Aug 22, 2013, 17:05</p>
-
 </div>
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
