@@ -4,7 +4,7 @@ title: "Sunil Abraham and The Indian Express"
 description: "A consolidated archive of Sunil Abraham's contributions to The Indian Express and related reporting that references his views on technology policy, civil liberties, digital regulation, and democratic governance in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-indian-express/
-created: 2026-01-19
+created: 2026-01-28
 ---
 
 ***The Indian Express*** is one of India's most influential English-language newspapers, known for its focus on constitutional values, public accountability, governance, and investigative reporting. Its journalism on technology often situates digital developments within broader debates about rights, state power, and institutional responsibility.
