@@ -7,7 +7,7 @@ permalink: /articles/herbert-paul/
 created: 2026-01-28
 ---
 
-**Herbert Paul** (IPA: /ˈhɜːbət pɔːl/; born 1966) is an Indian musician, graphic designer and design consultant based in Bengaluru, Karnataka. He has worked professionally in graphic design since 1993, developing expertise in visual design, production workflows, and print media. From 1995 to 2019, he served as Chief Visualiser, Designer, and Production professional at a graphic design company, contributing to visual concept development and project coordination across diverse creative work. Since 2019, he has continued as an independent design consultant.
+**Herbert Paul** (IPA: /ˈhɜːbət pɔːl/; born 1966) is an Indian musician, graphic designer and design consultant based in Bengaluru, Karnataka. He has worked professionally in graphic design since 1993, developing expertise in visual design, production workflows, and print media. From 1995 to 2019, he served as Chief Visualiser, Designer, and Production professional at a graphic design company, contributing to visual concept development and project coordination across diverse creative work.
 
 Alongside his design career, Herbert has maintained an active presence in Bengaluru's music scene as a singer and lead guitarist with the band *Little Wing*, known for rock and blues performances influenced by Jimi Hendrix. He has been associated with the Glorious Choir and has performed at various venues across the city. Beyond his professional work, he has contributed extensively to Wesley English Church in Bengaluru, where he led the Sunday School revival in the 2000s, composed music for productions, formed a children's worship band, and co-founded the church magazine *Voice* in 1990, handling its design and production.
 
