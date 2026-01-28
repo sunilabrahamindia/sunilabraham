@@ -12,18 +12,18 @@ created: 2026-01-28
 Alongside his design career, Herbert has maintained an active presence in Bengaluru's music scene as a singer and lead guitarist with the band *Little Wing*, known for rock and blues performances influenced by Jimi Hendrix. He has been associated with the Glorious Choir and has performed at various venues across the city. Beyond his professional work, he has contributed extensively to Wesley English Church in Bengaluru, where he led the Sunday School revival in the 2000s, composed music for productions, formed a children's worship band, and co-founded the church magazine *Voice* in 1990, handling its design and production.
 
 ## Contents
-- [Early life and Education](#early-life-and-education)
-- [Career](#career)
-- [Music career](#music-career)
-  - [Glorious Choir](#glorious-choir)
-  - [Little Wing](#little-wing)
-  - [Snake bite incident](#snake-bite-incident)
-- [Association with Wesley English Church, Bengaluru](#association-with-wesley-english-church-bengaluru)
-- [Influence and mentorship](#influence-and-mentorship)
-- [Personal life](#personal-life)
-- [References](#references)
-- [Footnotes](#footnotes)
-- [External links](#external-links)
+1. [Early life and Education](#early-life-and-education)
+2. [Career](#career)
+3. [Music career](#music-career)
+   1. [Glorious Choir](#glorious-choir)
+   2. [Little Wing](#little-wing)
+   3. [Snake bite incident](#snake-bite-incident)
+4. [Association with Wesley English Church, Bengaluru](#association-with-wesley-english-church-bengaluru)
+5. [Influence and mentorship](#influence-and-mentorship)
+6. [Personal life](#personal-life)
+7. [References](#references)
+8. [Footnotes](#footnotes)
+9. [External links](#external-links)
 
 ## Early life and Education
 
