@@ -85,12 +85,23 @@ Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix trib
   Performance of "While My Guitar Gently Weeps" on 9 December 2018 at Byg Brewski, Sarjapur.
 </p>
 
-Beyond his performance work, Herbert has also worked as a stand-up comedian in Bengaluru.
+Beyond his performance work, Herbert has also worked as a standup comedian in Bengaluru.
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/px-qOJ2-MIs" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+  Standup comedy performance "Herbert Paul on Sadness" at Let My People Laugh 2.0, Baldwin Boys School, Bengaluru, June 2013.
+</p>
+
 
 ### Snake bite incident
 
 In February 2021, Herbert Paul was bitten by a Russell's viper whilst performing at a microbrewery on Hennur Road. The incident occurred during a Tuesday night performance when the snake bit him in the leg before slithering away. He was admitted to the intensive care unit at Baptist Hospital, where doctors monitored him for cardiac fluctuations, a common effect of Russell's viper venom. He subsequently recovered following treatment.
-
 
 ## Association with Wesley English Church, Bengaluru
 
@@ -103,6 +114,17 @@ Following a period of decline in attendance, concern from the Church leadership 
 He later composed music for major productions, including the Christmas musical staged in 2006, scripted by Kenny Elisha. In 2007, at the request of the Presbyter-in-charge, Rev. Mitra, Herbert helped form and train a children's praise and worship band. During this period, the Sunday School also hosted the first Vacation Bible School conducted at Wesley English Church and within the Karnataka Central Diocese.
 
 In parallel, Herbert was actively involved in the Youth Fellowship of Wesley English Church. In 1990, he was part of the team that founded the Church magazine *Voice*, where he handled design, printing, and visual layout, including a regular cartoon feature. His work supported the publication's transition from letterpress to digital production methods.
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/T34UHdSvM5M" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+  Standup comedy performance "Herbert Paul on Sunday School", July 2012.
+</p>
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/G02Z8KTNihY" 
@@ -123,6 +145,10 @@ Herbert Paul's influence extended beyond formal roles and was particularly evide
 
 Through this informal mentorship, Herbert played a part in passing on practical skills in visual design, publishing, and music, alongside a collaborative ethic rooted in community-based creative work.
 
+## Personal life
+
+Herbert Paul is married to Bindu Paul, whom he met in 1992 whilst both were members of the Glorious Choir. Bindu is a musician and music teacher. They have two sons, Aashish Paul and Aakarsh Paul. Both sons have continued in music, with Aakarsh performing professionally as a vocalist with the Bangalore-based band Juxtaposed, including a September 2025 concert at NCPA Mumbai. The family resides in Bengaluru, Karnataka.
+
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/wkMseoOAofE" 
           frameborder="0" 
@@ -134,10 +160,6 @@ Through this informal mentorship, Herbert played a part in passing on practical 
   Palm Sunday worship team performance, 5 April 2020.<br/>
   Although not described in the video itself, we, at TSAP, observe that this performance was recorded during the COVID-19 restrictions of 2020 and features remote participation by musicians, drummers and vocalists over an online call, illustrating the group's dedication despite the limitations of lockdown.
 </p>
-
-## Personal life
-
-Herbert Paul is married to Bindu Paul, whom he met in 1992 whilst both were members of the Glorious Choir. Bindu is a musician and music teacher. They have two sons, Aashish Paul and Aakarsh Paul. Both sons have continued in music, with Aakarsh performing professionally as a vocalist with the Bangalore-based band Juxtaposed, including a September 2025 concert at NCPA Mumbai. The family resides in Bengaluru, Karnataka.
 
 ## References
 
