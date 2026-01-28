@@ -140,7 +140,7 @@ Herbert Paul is married to Bindu Paul, who is a musician and music teacher. They
 
 ## Footnotes
 
-There is some inconsistency around the band name. [The Times of India](https://timesofindia.indiatimes.com/entertainment/kannada/music/glorious-choir-celebrates-its-25th-glorious-years-in-bangalore/articleshow/27573305.cms) mentions this as "Little Wings", whilst the [RCB coverage](https://www.royalchallengers.com/rcb-cricket-news/lifestyle/rcb-weekend-buzz-celebrates-international-blues-day) uses "Little Wing". This article follows the "Little Wing" spelling used on his YouTube channel and Facebook page.
+There is some inconsistency around the band name. [*The Times of India*](https://timesofindia.indiatimes.com/entertainment/kannada/music/glorious-choir-celebrates-its-25th-glorious-years-in-bangalore/articleshow/27573305.cms) mentions this as "Little Wings", whilst the [RCB coverage](https://www.royalchallengers.com/rcb-cricket-news/lifestyle/rcb-weekend-buzz-celebrates-international-blues-day) uses "Little Wing". This article follows the "Little Wing" spelling used on his YouTube channel and Facebook page.
 
 ## External links
 - [Herbert Paul](https://www.linkedin.com/in/herbert-paul-335b4a85/) on LinkedIn
