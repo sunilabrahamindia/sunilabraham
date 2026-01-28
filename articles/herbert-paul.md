@@ -123,7 +123,7 @@ In parallel, Herbert was actively involved in the Youth Fellowship of Wesley Eng
   </iframe>
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
-  Prformance by "Herbert Paul on Sunday School", July 2012.
+  "Herbert Paul on Sunday School", July 2012.
 </p>
 
 <div class="video-container">
