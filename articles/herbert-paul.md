@@ -85,7 +85,7 @@ Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix trib
   Performance of "While My Guitar Gently Weeps" on 9 December 2018 at Byg Brewski, Sarjapur.
 </p>
 
-Beyond his performance work, Herbert has also worked as a standup comedian in Bengaluru.
+Herbert is associated with the St. Germains Old Boys Association (OBA) Band, comprising alumni of his alma mater St. Germain High School. Beyond his performance work, he has also worked as a standup comedian in Bengaluru.
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/px-qOJ2-MIs" 
