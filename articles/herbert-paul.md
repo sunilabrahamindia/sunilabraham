@@ -166,4 +166,3 @@ There is some inconsistency around the band name. [The Times of India](https://t
     }
   }
 </style>
-
