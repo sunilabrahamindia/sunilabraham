@@ -140,7 +140,7 @@ There is some inconsistency around the band name. [The Times of India](https://t
   .article-image-right {
     float: right;
     margin: 0 0 1em 1.5em;
-    max-width: 400px;
+    max-width: 280px;
     width: 100%;
   }
   .article-image-right img {
