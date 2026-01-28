@@ -18,8 +18,8 @@ Alongside his design career, Herbert has maintained an active presence in Bengal
   - [Glorious Choir](#glorious-choir)
   - [Little Wing](#little-wing)
   - [Snake bite incident](#snake-bite-incident)
-- [Influence and mentorship](#influence-and-mentorship)
 - [Association with Wesley English Church, Bengaluru](#association-with-wesley-english-church-bengaluru)
+- [Influence and mentorship](#influence-and-mentorship)
 - [Personal life](#personal-life)
 - [References](#references)
 - [Footnotes](#footnotes)
@@ -49,7 +49,7 @@ Alongside his design work, Herbert Paul has maintained a sustained presence in B
 ### Glorious Choir
 Herbert became associated with the Glorious Choir, one of Bengaluru's most prominent and long-established gospel choirs. Founded in 1989 by Regi Chandy, the choir has presented over 1,500 concerts and become synonymous with the city's Christmas celebrations. Herbert met his wife Bindu whilst both were members of the choir in 1992. In 2013, during the choir's silver jubilee year, the *Bangalore Mirror* profiled him as a soprano singer and musician, noting that his entire family participated in the anniversary performances, including his sons Aashish and Aakarsh.
 
-### Little Wingg
+### Little Wing
 Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix tribute act and has evolved to cover rock and blues repertoire. The band has featured Herbert on guitar and vocals, with longtime collaborator Gerard Roy on bass, alongside various musicians including Val Moraes on keyboard and drummers Raj Sampath and Herbert's son Aashish Paul. Little Wing maintains an active performance schedule at venues across Bengaluru, including regular appearances at 1522 The Pub in Koramangala and other city establishments. In August 2022, Herbert was listed among the performers at International Blues Day celebrations held at RCB Bar & Cafe, where event coverage described him as a guitarist known for his Hendrix-style performances
 
 <div class="video-container">
@@ -90,14 +90,6 @@ Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix trib
 In February 2021, Herbert Paul was bitten by a Russell's viper whilst performing at a microbrewery on Hennur Road. The incident occurred during a Tuesday night performance when the snake bit him in the leg before slithering away. He was admitted to the intensive care unit at Baptist Hospital, where doctors monitored him for cardiac fluctuations, a common effect of Russell's viper venom. He subsequently recovered following treatment.
 
 
-## Influence and mentorship
-
-Herbert Paul's influence extended beyond formal roles and was particularly evident in his mentorship of younger members of the Church community. Those who worked closely with him during their formative years have noted his role in shaping both creative and technical skills.
-
-Sunil Abraham, who participated alongside Herbert in Sunday School and Youth Fellowship activities, has described Herbert as a friend and mentor during this period. According to Abraham, Herbert introduced him to graphic design and desktop publishing through their collaborative work on the Church newsletter, while also modelling a multidisciplinary approach that combined music, teaching, and creative production.
-
-Through this informal mentorship, Herbert played a part in passing on practical skills in visual design, publishing, and music, alongside a collaborative ethic rooted in community-based creative work.
-
 ## Association with Wesley English Church, Bengaluru
 
 Herbert Paul has had a long and active association with Wesley English Church, Bengaluru, particularly through its Sunday School and Youth Fellowship activities. His involvement combined music, creative work, teaching support, and organisational leadership across several decades.
@@ -109,6 +101,14 @@ Following a period of decline in attendance, concern from the Church leadership 
 He later composed music for major productions, including the Christmas musical staged in 2006, scripted by Kenny Elisha. In 2007, at the request of the Presbyter-in-charge, Rev. Mitra, Herbert helped form and train a children's praise and worship band. During this period, the Sunday School also hosted the first Vacation Bible School conducted at Wesley English Church and within the Karnataka Central Diocese.
 
 In parallel, Herbert was actively involved in the Youth Fellowship of Wesley English Church. In 1990, he was part of the team that founded the Church magazine *Voice*, where he handled design, printing, and visual layout, including a regular cartoon feature. His work supported the publication's transition from letterpress to digital production methods.
+
+## Influence and mentorship
+
+Herbert Paul's influence extended beyond formal roles and was particularly evident in his mentorship of younger members of the Church community. Those who worked closely with him during their formative years have noted his role in shaping both creative and technical skills.
+
+Sunil Abraham, who participated alongside Herbert in Sunday School and Youth Fellowship activities, has described Herbert as a friend and mentor during this period. According to Abraham, Herbert introduced him to graphic design and desktop publishing through their collaborative work on the Church newsletter, while also modelling a multidisciplinary approach that combined music, teaching, and creative production.
+
+Through this informal mentorship, Herbert played a part in passing on practical skills in visual design, publishing, and music, alongside a collaborative ethic rooted in community-based creative work.
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/wkMseoOAofE" 
