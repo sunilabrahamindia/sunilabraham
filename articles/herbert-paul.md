@@ -164,9 +164,9 @@ There is some inconsistency around the band name. [The Times of India](https://t
   .video-container {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 1.5em auto;
-    padding-bottom: 45%;
+    padding-bottom: 40%;
     height: 0;
     overflow: hidden;
   }
