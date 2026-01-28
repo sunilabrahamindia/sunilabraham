@@ -5,7 +5,7 @@ description: "An Indian Express column by Sunil Abraham about location services,
 categories: [Media articles, Publications]
 date: 2010-08-23
 authors: ["Sunil Abraham"]
-source: "Indian Express"
+source: "The Indian Express"
 permalink: /publications/wherever-you-are-whatever-you-do/
 created: 2025-11-16
 ---
