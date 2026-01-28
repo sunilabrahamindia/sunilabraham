@@ -166,7 +166,7 @@ There is some inconsistency around the band name. [The Times of India](https://t
     width: 100%;
     max-width: 600px;
     margin: 1.5em auto;
-    padding-bottom: 40%;
+    padding-bottom: 315px;
     height: 0;
     overflow: hidden;
   }
