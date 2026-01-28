@@ -1,29 +1,37 @@
 ---
 layout: default
 title: "Sunil Abraham and The Indian Express"
-description: "A consolidated archive of Sunil Abraham's contributions to The Indian Express and related reporting that references his views on technology policy, civil liberties, digital regulation, and democratic governance in India."
+description: "A consolidated cluster of Sunil Abraham's writing for The Indian Express and related reportage that references his analysis of technology policy, civil liberties, digital regulation, and democratic governance in India."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-indian-express/
 created: 2026-01-28
 ---
 
-***The Indian Express*** is one of India's most influential English-language newspapers, known for its focus on constitutional values, public accountability, governance, and investigative reporting. Its journalism on technology often situates digital developments within broader debates about rights, state power, and institutional responsibility.
+***The Indian Express*** is a leading Indian newspaper known for its emphasis on constitutional values, public accountability, and governance-oriented reporting. Its journalism has frequently examined how technology intersects with law, state power, and institutional responsibility, particularly in moments of political or regulatory change.
 
-Within this coverage, **Sunil Abraham** appears both as a contributor and as a quoted expert, offering perspectives on how technology policy, surveillance practices, platform regulation, and digital infrastructure intersect with democratic norms and civil liberties. His presence in *The Indian Express* is typically linked to moments of legal, regulatory, or political significance rather than routine technology reporting.
+Across both authored pieces and reported stories, **Sunil Abraham** appears as a contributor and as a cited expert. His presence in *The Indian Express* typically aligns with debates around surveillance, platform regulation, digital infrastructure, and the impact of technology policy on civil liberties, rather than routine technology coverage.
 
-This cluster brings together all **publications** and **media mentions** associated with *The Indian Express*, serving as a consolidated reference for readers examining how questions of technology and governance have been addressed within public-interest journalism.
+This cluster brings together all **publications** and **media mentions** associated with *The Indian Express*, offering a consolidated reference for readers studying how questions of technology and governance have been addressed within public-interest journalism.
 
 ## ✍️ Publications {#publications}
 
-<ol class="cluster-list">
-{% assign pub_items = site.pages 
+### Sort by:
+<div class="cluster-sort">
+  <button data-sort="alpha">Alphabetical</button>
+  <button data-sort="newest">Newest First</button>
+  <button data-sort="oldest">Oldest First</button>
+</div>
+
+{% assign pub_items = site.pages
      | where_exp:"p","p.categories contains 'Publications'"
      | where:"source","The Indian Express"
-     | sort:"date" | reverse
 %}
+{% assign pub_sorted = pub_items | sort:"title" %}
 
-{% for item in pub_items %}
-  <li>
+<ol id="pub-list" class="cluster-list">
+{% for item in pub_sorted %}
+  <li data-title="{{ item.title | downcase }}"
+      data-date="{{ item.date | date: '%Y-%m-%d' }}">
     <a href="{{ item.permalink }}">{{ item.title }}</a><br>
     <span class="meta">{{ item.date | date: "%d %B %Y" }}</span>
     {% if item.description %}
@@ -42,7 +50,7 @@ This cluster brings together all **publications** and **media mentions** associa
   <button data-sort="oldest">Oldest First</button>
 </div>
 
-{% assign media_items = site.pages 
+{% assign media_items = site.pages
      | where_exp:"p","p.categories contains 'Media mentions'"
      | where:"source","The Indian Express"
 %}
@@ -65,7 +73,6 @@ This cluster brings together all **publications** and **media mentions** associa
 - [Official website](https://indianexpress.com/)
 
 <style>
-
 /* ---------------------------------------------------------
    LIST DESIGN (consistent with other clusters)
 --------------------------------------------------------- */
@@ -99,7 +106,7 @@ This cluster brings together all **publications** and **media mentions** associa
 }
 
 /* ---------------------------------------------------------
-   SORT BUTTONS (Media Mentions only)
+   SORT BUTTONS
 --------------------------------------------------------- */
 .cluster-sort {
   margin: 0.6rem 0 1rem 0;
@@ -133,7 +140,6 @@ This cluster brings together all **publications** and **media mentions** associa
   from { opacity: 0; transform: translateY(3px); }
   to   { opacity: 1; transform: translateY(0); }
 }
-
 </style>
 
 <script>
@@ -165,7 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .classList.add("active-sort");
     }
 
-    /* Default sort */
+    /* Default sort: alphabetical */
     sortList("alpha");
 
     buttons.forEach(btn => {
@@ -173,6 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  attachSort("pub-list");
   attachSort("media-list");
 });
 </script>
