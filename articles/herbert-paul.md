@@ -102,6 +102,17 @@ He later composed music for major productions, including the Christmas musical s
 
 In parallel, Herbert was actively involved in the Youth Fellowship of Wesley English Church. In 1990, he was part of the team that founded the Church magazine *Voice*, where he handled design, printing, and visual layout, including a regular cartoon feature. His work supported the publication's transition from letterpress to digital production methods.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/G02Z8KTNihY" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div>
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+  Good Friday worship team performance, 10 April 2020.
+</p>
+
 ## Influence and mentorship
 
 Herbert Paul's influence extended beyond formal roles and was particularly evident in his mentorship of younger members of the Church community. Those who worked closely with him during their formative years have noted his role in shaping both creative and technical skills.
