@@ -5,7 +5,7 @@ description: "An Indian Express commentary by Sunil Abraham analysing SOPA, PIPA
 categories: [Media articles, Publications]
 date: 2012-01-20
 authors: ["Sunil Abraham"]
-source: "Indian Express"
+source: "The Indian Express"
 permalink: /publications/sense-and-censorship/
 created: 2025-11-22
 ---
@@ -16,7 +16,8 @@ created: 2025-11-22
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
-3. [Context and Background](#context-and-background)
+3. [Context and Background](#context-and-background)  
+4. [See also](#see-also)  
 
 ## Article Details
 
@@ -66,6 +67,9 @@ created: 2025-11-22
 ## Context and Background
 
 Published at a moment when global attention was fixed on SOPA and PIPA, this commentary situates the debate in a trade and governance frame rather than merely copyright enforcement. Sunil Abraham links US policy to Indian economic interests, warns of censorship spillover, and highlights how intermediary liability under the IT Act has already chilled participation online. The piece argues that protecting speech requires legislative intervention rather than reliance on the private sector.
+
+## See also
+- [Sense and Censorship](/publications/sense-and-censorship-indian-express-2010/), The Indian Express opinion column by Sunil Abraham published on 27 March 2010
 
 <style>
 .media-details {
