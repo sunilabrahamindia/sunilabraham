@@ -7,12 +7,16 @@ permalink: /articles/herbert-paul/
 created: 2026-01-28
 ---
 
-**Herbert Paul** (born 1966) is an Indian graphic designer, musician, and design consultant based in Bengaluru, Karnataka. He has worked professionally in graphic design since 1993, with long-standing experience in visual design, production, and print workflows. Alongside his design practice, he has maintained an active music career as a singer, lead guitarist, and performer, and is associated with the band *Little Wing*. He has also contributed to creative and community initiatives, including work associated with Wesley English Church, Bengaluru.
+**Herbert Paul** (born 1966) is an Indian graphic designer, musician, and design consultant based in Bengaluru, Karnataka. He has worked professionally in graphic design since 1993, developing expertise in visual design, production workflows, and print media. From 1995 to 2019, he served as Chief Visualiser, Designer, and Production professional at a graphic design company, contributing to visual concept development and project coordination across diverse creative work. Since 2019, he has continued as an independent design consultant.
+
+Alongside his design career, Herbert has maintained an active presence in Bengaluru's music scene as a singer and lead guitarist with the band *Little Wing*, known for rock and blues performances influenced by Jimi Hendrix. He has been associated with the Glorious Choir and has performed at various venues across the city. Beyond his professional work, he has contributed extensively to Wesley English Church in Bengaluru, where he led the Sunday School revival in the 2000s, composed music for productions, formed a children's worship band, and co-founded the church magazine *Voice* in 1990, handling its design and production.
 
 ## Contents
 - [Early life and Education](#early-life-and-education)
 - [Career](#career)
 - [Music career](#music-career)
+  - [Glorious Choir](#glorious-choir)
+  - [Little Wing](#little-wing)
   - [Snake bite incident](#snake-bite-incident)
 - [Influence and mentorship](#influence-and-mentorship)
 - [Association with Wesley English Church, Bengaluru](#association-with-wesley-english-church-bengaluru)
@@ -40,11 +44,13 @@ Following this period, he has continued his professional engagement as a design 
 
 ## Music career
 
-Alongside his design work, Herbert Paul has maintained a sustained presence in Bengaluru's music scene as a singer and lead guitarist. He performs with his band *Little Wing* and is known for his interpretations of rock and blues repertoire, including performances influenced by the music of Jimi Hendrix.
+Alongside his design work, Herbert Paul has maintained a sustained presence in Bengaluru's music scene as a singer and lead guitarist. 
 
-Herbert has been associated with the Glorious Choir, a prominent gospel choir in Bengaluru, and was identified in a 2013 *Bangalore Mirror* report as a soprano singer and musician performing during the choir's silver jubilee year. The report also noted that music played a central role in his personal life, with multiple members of his family participating in choir performances during this period.
+### Glorious Choir
+Herbert became associated with the Glorious Choir, one of Bengaluru's most prominent and long-established gospel choirs. Founded in 1989 by Regi Chandy, the choir has presented over 1,500 concerts and become synonymous with the city's Christmas celebrations. Herbert met his wife Bindu whilst both were members of the choir in 1992. In 2013, during the choir's silver jubilee year, the *Bangalore Mirror* profiled him as a soprano singer and musician, noting that his entire family participated in the anniversary performances, including his sons Aashish and Aakarsh.
 
-In August 2022, Herbert was listed among the performers at International Blues Day celebrations held at RCB Bar & Cafe in Bengaluru. Event coverage described him as a guitarist known for his Hendrix-style performances, appearing alongside established blues musicians and bands from the city.
+### Little Wingg
+Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix tribute act and has evolved to cover rock and blues repertoire. The band has featured Herbert on guitar and vocals, with longtime collaborator Gerard Roy on bass, alongside various musicians including Val Moraes on keyboard and drummers Raj Sampath and Herbert's son Aashish Paul. Little Wing maintains an active performance schedule at venues across Bengaluru, including regular appearances at 1522 The Pub in Koramangala and other city establishments. In August 2022, Herbert was listed among the performers at International Blues Day celebrations held at RCB Bar & Cafe, where event coverage described him as a guitarist known for his Hendrix-style performances
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/v0lHztCcSMA" 
@@ -123,10 +129,14 @@ Herbert Paul is married to Bindu Paul, who is a musician and music teacher. They
 
 1. [Herbert Paul – LinkedIn profile](https://www.linkedin.com/in/herbert-paul-335b4a85/), LinkedIn, accessed 28 January 2026
 2. [Musician bitten by snake at pub in Bengaluru](https://www.newindianexpress.com/cities/bengaluru/2021/Feb/11/musician-bitten-bysnake-at-pub-in-bengaluru-2262425.html), *The New Indian Express*, 11 February 2021, accessed 28 January 2026
-3. [Glorious Choir celebrates its 25th glorious years in Bangalore](https://timesofindia.indiatimes.com/entertainment/kannada/music/glorious-choir-celebrates-its-25th-glorious-years-in-bangalore/articleshow/27573305.cms), *Bangalore Mirror*, 18 December 2013, accessed 28 January 2026
-4. [RCB Weekend Buzz celebrates International Blues Day](https://www.royalchallengers.com/rcb-cricket-news/lifestyle/rcb-weekend-buzz-celebrates-international-blues-day), Royal Challengers Bangalore, 2 August 2022, accessed 28 January 2026
-5. [For theirs is the Kingdom of Heaven](https://wesleychurch.in/sunday-school/theirs-kingdom-heaven), Wesley English Church, accessed 28 January 2026
-6. [Brief history of the Youth Fellowship](https://www.wesleychurch.in/youth-fellowship/brief-history-last-40-years-and-present), Wesley English Church, accessed 28 January 2026
+3. [A glorious family](https://bangaloremirror.indiatimes.com/bangalore/others/baldwin-girls-school-grounds-silver-jubilee-christmas-concert-god-gave-the-song-radhika-nair-regi-chandy-priya-mendens/articleshow/27542868.cms), *Bangalore Mirror*, 18 December 2013, accessed 28 January 2026
+4. [Glorious Choir celebrates its 25th glorious years in Bangalore](https://timesofindia.indiatimes.com/entertainment/kannada/music/glorious-choir-celebrates-its-25th-glorious-years-in-bangalore/articleshow/27573305.cms), *Bangalore Mirror*, 18 December 2013, accessed 28 January 2026
+5. [RCB Weekend Buzz celebrates International Blues Day](https://www.royalchallengers.com/rcb-cricket-news/lifestyle/rcb-weekend-buzz-celebrates-international-blues-day), Royal Challengers Bangalore, 2 August 2022, accessed 28 January 2026
+6. [For theirs is the Kingdom of Heaven](https://wesleychurch.in/sunday-school/theirs-kingdom-heaven), Wesley English Church, accessed 28 January 2026
+7. [Brief history of the Youth Fellowship](https://www.wesleychurch.in/youth-fellowship/brief-history-last-40-years-and-present), Wesley English Church, accessed 28 January 2026
+8. [Experience 'Little Wings' perform live in Bengaluru's Koramangala](https://www.indulgexpress.com/events/bangalore/2024/Mar/19/experience-little-wings-perform-live-in-bengalurus-koramangala), *Indulge Express*, 18 March 2024, accessed 28 January 2026
+9. [Little Wings Live](https://www.whatshot.in/bangalore/little-wings-live-e-290153), WhatsHot Bangalore, 19 September 2019, accessed 28 January 2026
+
 
 ## Footnotes
 
