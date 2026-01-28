@@ -85,6 +85,8 @@ Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix trib
   Performance of "While My Guitar Gently Weeps" on 9 December 2018 at Byg Brewski, Sarjapur.
 </p>
 
+Beyond his performance work, Herbert has also worked as a stand-up comedian in Bengaluru.
+
 ### Snake bite incident
 
 In February 2021, Herbert Paul was bitten by a Russell's viper whilst performing at a microbrewery on Hennur Road. The incident occurred during a Tuesday night performance when the snake bit him in the leg before slithering away. He was admitted to the intensive care unit at Baptist Hospital, where doctors monitored him for cardiac fluctuations, a common effect of Russell's viper venom. He subsequently recovered following treatment.
@@ -134,7 +136,7 @@ Through this informal mentorship, Herbert played a part in passing on practical 
 
 ## Personal life
 
-Herbert Paul is married to Bindu Paul, who is a musician and music teacher. They have two sons, Aashish Paul and Aakarsh Paul. The family resides in Bengaluru, Karnataka.
+Herbert Paul is married to Bindu Paul, whom he met in 1992 whilst both were members of the Glorious Choir. Bindu is a musician and music teacher. They have two sons, Aashish Paul and Aakarsh Paul. Both sons have continued in music, with Aakarsh performing professionally as a vocalist with the Bangalore-based band Juxtaposed, including a September 2025 concert at NCPA Mumbai. The family resides in Bengaluru, Karnataka.
 
 ## References
 
@@ -147,7 +149,8 @@ Herbert Paul is married to Bindu Paul, who is a musician and music teacher. They
 7. [Brief history of the Youth Fellowship](https://www.wesleychurch.in/youth-fellowship/brief-history-last-40-years-and-present), Wesley English Church, accessed 28 January 2026
 8. [Experience 'Little Wings' perform live in Bengaluru's Koramangala](https://www.indulgexpress.com/events/bangalore/2024/Mar/19/experience-little-wings-perform-live-in-bengalurus-koramangala), *Indulge Express*, 18 March 2024, accessed 28 January 2026
 9. [Little Wings Live](https://www.whatshot.in/bangalore/little-wings-live-e-290153), WhatsHot Bangalore, 19 September 2019, accessed 28 January 2026
-
+10. [Bengaluru: Musician bit by Russel's Viper after his performance at pub](https://indianexpress.com/article/cities/bangalore/bengaluru-musician-bit-by-a-snake-after-his-performance-at-pub-7184301/), *The Indian Express*, 11 February 2021, accessed 28 January 2026
+11. [Bangalore-based Juxtaposed turns Mumbai into funkytown](https://www.musicunplugged.in/reviews/concert_reviews_info/67/0), *Music Unplugged*, accessed 28 January 2026
 
 ## Footnotes
 
@@ -155,7 +158,8 @@ There is some inconsistency around the band name. [*The Times of India*](https:/
 
 ## External links
 - [Herbert Paul](https://www.linkedin.com/in/herbert-paul-335b4a85/) on LinkedIn
-- [Herbert Paul](https://www.youtube.com/@herbindu) YouTube channel
+- [Herbert Paul](https://www.youtube.com/@herbindu) YouTube channel (includes Herbert's and Little Wing's music videos)
+- [Herbert Paul](https://www.facebook.com/herbert.paul/) on Facebook
 
 <style>
   .article-image-right {
