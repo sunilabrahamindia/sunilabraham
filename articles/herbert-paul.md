@@ -7,7 +7,7 @@ permalink: /articles/herbert-paul/
 created: 2026-01-28
 ---
 
-**Herbert Paul** is an Indian graphic designer, musician, and design consultant based in Bengaluru, Karnataka. He has worked professionally in graphic design since 1993, with long-standing experience in visual design, production, and print workflows. Alongside his design practice, he has maintained an active music career as a singer, lead guitarist, and performer, and is associated with the band *Little Wing*. He has also contributed to creative and community initiatives, including work associated with Wesley English Church, Bengaluru.
+**Herbert Paul** (born 1966) is an Indian graphic designer, musician, and design consultant based in Bengaluru, Karnataka. He has worked professionally in graphic design since 1993, with long-standing experience in visual design, production, and print workflows. Alongside his design practice, he has maintained an active music career as a singer, lead guitarist, and performer, and is associated with the band *Little Wing*. He has also contributed to creative and community initiatives, including work associated with Wesley English Church, Bengaluru.
 
 ## Contents
 - [Early life and Education](#early-life-and-education)
@@ -23,7 +23,7 @@ created: 2026-01-28
 
 ## Early life and Education
 
-Herbert Paul completed his schooling at St. Germain High School (St. Germain Academy). He later earned a bachelor's degree, which laid the foundation for his professional work in design and visual communication.
+Herbert Paul was born in 1966. He completed his schooling at St. Germain High School (St. Germain Academy). He later earned a bachelor's degree, which laid the foundation for his professional work in design and visual communication.
 
 ## Career
 
@@ -46,9 +46,8 @@ Herbert has been associated with the Glorious Choir, a prominent gospel choir in
 
 In August 2022, Herbert was listed among the performers at International Blues Day celebrations held at RCB Bar & Cafe in Bengaluru. Event coverage described him as a guitarist known for his Hendrix-style performances, appearing alongside established blues musicians and bands from the city.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 640px; margin: 1.5em auto;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://www.youtube.com/embed/v0lHztCcSMA" 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/v0lHztCcSMA" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
@@ -58,9 +57,8 @@ In August 2022, Herbert was listed among the performers at International Blues D
   Performance from 10 May 2014 featuring Herbert Paul (vocals and lead guitar), Val Moraes (keyboard), Gerard Roy (bass guitar), and Aashish Paul (drums).
 </p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 640px; margin: 1.5em auto;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://www.youtube.com/embed/Y4jfLo_VIA4" 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/Y4jfLo_VIA4" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
@@ -70,9 +68,8 @@ In August 2022, Herbert was listed among the performers at International Blues D
   Performance from 2015 at 1522 featuring Herbert Paul (guitar and vocals), Val Moraes (keyboard and vocals), Gerard Roy (bass), and Raj Sampath (drums).
 </p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 640px; margin: 1.5em auto;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://www.youtube.com/embed/7e8FREbNbSs" 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/7e8FREbNbSs" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
@@ -107,9 +104,8 @@ He later composed music for major productions, including the Christmas musical s
 
 In parallel, Herbert was actively involved in the Youth Fellowship of Wesley English Church. In 1990, he was part of the team that founded the Church magazine *Voice*, where he handled design, printing, and visual layout, including a regular cartoon feature. His work supported the publication's transition from letterpress to digital production methods.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 640px; margin: 1.5em auto;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://www.youtube.com/embed/wkMseoOAofE" 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/wkMseoOAofE" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
@@ -163,6 +159,27 @@ There is some inconsistency around the band name. [The Times of India](https://t
       float: none;
       margin: 1.5em auto;
       max-width: 100%;
+    }
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 1.5em auto;
+    padding-bottom: 45%;
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  @media (max-width: 768px) {
+    .video-container {
+      padding-bottom: 56.25%;
     }
   }
 </style>
