@@ -5,7 +5,7 @@ description: "An Indian Express commentary by Sunil Abraham examining intellectu
 categories: [Media articles, Publications]
 date: 2011-09-02
 authors: ["Sunil Abraham"]
-source: "Indian Express"
+source: "The Indian Express"
 permalink: /publications/photocopying-the-past/
 created: 2025-11-23
 ---
