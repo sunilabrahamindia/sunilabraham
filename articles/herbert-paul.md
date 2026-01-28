@@ -7,8 +7,6 @@ permalink: /articles/herbert-paul/
 created: 2026-01-28
 ---
 
-{% include notice.html message="This biographical article has been newly created and does not yet cover all aspects of Herbert Paul's life and work. Information will be added gradually as research continues and additional sources become available." %}
-
 **Herbert Paul** is an Indian graphic designer, musician, and design consultant based in Bengaluru, Karnataka. He has worked professionally in graphic design since 1993, with long-standing experience in visual design, production, and print workflows. Alongside his design practice, he has maintained an active music career as a singer, lead guitarist, and performer, and is associated with the band *Little Wing*. He has also contributed to creative and community initiatives, including work associated with Wesley English Church, Bengaluru.
 
 ## Contents
@@ -29,6 +27,11 @@ Herbert Paul completed his schooling at St. Germain High School (St. Germain Aca
 
 ## Career
 
+<figure class="article-image-right">
+  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/articles/images/hebert-paul.jpg?raw=true" alt="Herbert Paul performing with guitar" />
+  <figcaption>Herbert Paul performing in 2014<br/>Image © Herbert Paul</figcaption>
+</figure>
+
 Herbert Paul began his career in graphic design in 1993, developing expertise across both creative and production-oriented aspects of the field. He is skilled in industry-standard design software including Adobe InDesign, Photoshop, CorelDRAW, and Illustrator.
 
 From April 1995 to September 2019, he worked full-time as Chief Visualizer, Designer, and Production professional at a graphic design company led by John Abraham. His tenure spanned over twenty-four years, during which he was responsible for visual concept development, design execution, and production coordination across a wide range of projects.
@@ -36,11 +39,6 @@ From April 1995 to September 2019, he worked full-time as Chief Visualizer, Desi
 Following this period, he has continued his professional engagement as a design consultant, offering expertise in graphic design and visual planning.
 
 ## Music career
-
-<figure class="article-image-right">
-  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/articles/images/hebert-paul.jpg?raw=true" alt="Herbert Paul performing with guitar" />
-  <figcaption>Herbert Paul performing in 2014<br/>Image © Herbert Paul</figcaption>
-</figure>
 
 Alongside his design work, Herbert Paul has maintained a sustained presence in Bengaluru's music scene as a singer and lead guitarist. He performs with his band *Little Wing* and is known for his interpretations of rock and blues repertoire, including performances influenced by the music of Jimi Hendrix.
 
