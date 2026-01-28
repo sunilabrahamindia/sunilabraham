@@ -157,8 +157,7 @@ Herbert Paul is married to Bindu Paul, whom he met in 1992 whilst both were memb
   </iframe>
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
-  Palm Sunday worship team performance, 5 April 2020.<br/>
-  Although not described in the video itself, we, at TSAP, observe that this performance was recorded during the COVID-19 restrictions of 2020 and features remote participation by musicians, drummers and vocalists over an online call, illustrating the group's dedication despite the limitations of lockdown.
+  Palm Sunday worship team performance, 5 April 2020.
 </p>
 
 ## References
