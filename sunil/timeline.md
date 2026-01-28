@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sunil Abraham Timeline"
-categories: [Biographies, Sunil Abraham]
+categories: [Sunil Abraham]
 description: "A chronological timeline of Sunil Abraham’s life, education, and professional milestones."
 created: 2025-11-08
 ---
