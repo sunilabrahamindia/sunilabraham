@@ -119,7 +119,7 @@ In parallel, Herbert was actively involved in the Youth Fellowship of Wesley Eng
 
 Herbert Paul's influence extended beyond formal roles and was particularly evident in his mentorship of younger members of the Church community. Those who worked closely with him during their formative years have noted his role in shaping both creative and technical skills.
 
-[Sunil Abraham](/sunil/), who participated alongside Herbert in Sunday School and Youth Fellowship activities, has described Herbert as a friend and mentor during this period. According to Abraham, Herbert introduced him to graphic design and desktop publishing through their collaborative work on the Church newsletter, while also modelling a multidisciplinary approach that combined music, teaching, and creative production.
+[Sunil Abraham](/sunil/), who participated alongside Herbert in Sunday School and Youth Fellowship activities, has described Herbert as a friend and mentor during this period. According to Sunil, Herbert introduced him to graphic design and desktop publishing through their collaborative work on the Church newsletter, while also modelling a multidisciplinary approach that combined music, teaching, and creative production.
 
 Through this informal mentorship, Herbert played a part in passing on practical skills in visual design, publishing, and music, alongside a collaborative ethic rooted in community-based creative work.
 
@@ -131,7 +131,8 @@ Through this informal mentorship, Herbert played a part in passing on practical 
   </iframe>
 </div>
 <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
-  Palm Sunday worship team performance, 5 April 2020.
+  Palm Sunday worship team performance, 5 April 2020.<br/>
+  Although not described in the video itself, we, at TSAP, observe that this performance was recorded during the COVID-19 restrictions of 2020 and features remote participation by musicians, drummers and vocalists over an online call, illustrating the group's dedication despite the limitations of lockdown.
 </p>
 
 ## Personal life
