@@ -27,7 +27,7 @@ Alongside his design career, Herbert has maintained an active presence in Bengal
 
 ## Early life and Education
 
-Herbert Paul was born in 1966. He completed his schooling at St. Germain High School (St. Germain Academy). He later earned a bachelor's degree, which laid the foundation for his professional work in design and visual communication.
+Herbert was born in 1966. He completed his schooling at St. Germain High School (St. Germain Academy). He later earned a bachelor's degree, which laid the foundation for his professional work in design and visual communication.
 
 ## Career
 
@@ -36,7 +36,7 @@ Herbert Paul was born in 1966. He completed his schooling at St. Germain High Sc
   <figcaption>Herbert Paul performing in 2014<br/>Image © Herbert Paul</figcaption>
 </figure>
 
-Herbert Paul began his career in graphic design in 1993, developing expertise across both creative and production-oriented aspects of the field. He is skilled in industry-standard design software including Adobe InDesign, Photoshop, CorelDRAW, and Illustrator.
+Herbert began his career in graphic design in 1993, developing expertise across both creative and production-oriented aspects of the field. He is skilled in industry-standard design software including Adobe InDesign, Photoshop, CorelDRAW, and Illustrator.
 
 From April 1995 to September 2019, he worked full-time as Chief Visualizer, Designer, and Production professional at a graphic design company led by John Abraham. His tenure spanned over twenty-four years, during which he was responsible for visual concept development, design execution, and production coordination across a wide range of projects.
 
@@ -44,7 +44,7 @@ Following this period, he has continued his professional engagement as a design 
 
 ## Music career
 
-Alongside his design work, Herbert Paul has maintained a sustained presence in Bengaluru's music scene as a singer and lead guitarist. 
+Alongside his design work, Herbert has maintained a sustained presence in Bengaluru's music scene as a singer and lead guitarist. 
 
 ### Glorious Choir
 Herbert became associated with the Glorious Choir, one of Bengaluru's most prominent and long-established gospel choirs. Founded in 1989 by Regi Chandy, the choir has presented over 1,500 concerts and become synonymous with the city's Christmas celebrations. Herbert met his wife Bindu whilst both were members of the choir in 1992. In 2013, during the choir's silver jubilee year, the *Bangalore Mirror* profiled him as a soprano singer and musician, noting that his entire family participated in the anniversary performances, including his sons Aashish and Aakarsh.
