@@ -33,7 +33,7 @@ Herbert was born in 1966. He completed his schooling at St. Germain High School 
 
 <figure class="article-image-right">
   <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/articles/images/hebert-paul.jpg?raw=true" alt="Herbert Paul performing with guitar" />
-  <figcaption>Herbert Paul performing in 2014<br/>Image © Herbert Paul</figcaption>
+  <figcaption>Herbert Paul performing in 2024<br/>Image © Herbert Paul</figcaption>
 </figure>
 
 Herbert began his career in graphic design in 1993, developing expertise across both creative and production-oriented aspects of the field. He is skilled in industry-standard design software including Adobe InDesign, Photoshop, CorelDRAW, and Illustrator.
