@@ -128,6 +128,18 @@ In addition to archival material, the portal will gradually include project note
 <div class="ai-content-card">
   <div class="ai-card-marker">◆</div>
   <div class="ai-card-content">
+    <h3>India Not Yet Ready for AI Regulations, Says Experts</h3>
+    <p class="ai-card-year">2024</p>
+    <p>
+      A New Indian Express report published on 7 September 2024, documenting discussions at the Global AI Summit 2024 in Hyderabad. Experts examined India’s readiness for artificial intelligence regulation, highlighting transparency, ethical AI practices, and concerns around premature regulation affecting innovation and public sector applications.
+    </p>
+    <a href="/media/india-not-yet-ready-ai-regulations-new-indian-express/" class="ai-card-link">Read more →</a>
+  </div>
+</div>
+
+<div class="ai-content-card">
+  <div class="ai-card-marker">◆</div>
+  <div class="ai-card-content">
     <h3>Can Open-Source AI Models Be Trusted? Experts Debate Licensing, Risks, and More</h3>
     <p class="ai-card-year">2024</p>
     <p>
