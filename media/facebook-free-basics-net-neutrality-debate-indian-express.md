@@ -125,7 +125,7 @@ created: 2026-01-31
 
 <p><strong>Check out his tweets below</strong></p>
 
-<p class="tsap-editorial-note"><em>TSAP Editorial Note: Some tweets from deleted or suspended accounts are displayed as text quotations.</em></p>
+<p class="tsap-editorial-note"><em>TSAP Editorial Note: Some tweets from protected or unavailable accounts are displayed as text quotations.</em></p>
 
 <blockquote class="tweet-text-only">
 <p>"@abhaga @janchip free Basics opens up full internet for many. Globally-50% move to full net in 30 days. Data should win the argument."</p>
@@ -189,10 +189,6 @@ created: 2026-01-31
 <div class="tweet-center">
 <blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Initially I was reluctant to advocate for bans but then Facebook started terminology capture <a href="https://t.co/lZ5o0jdM48" class="" rel="nofollow, noopener">https://t.co/lZ5o0jdM48</a> #India #NetNeutrality</p><p>— Sunil Abraham (@sunil_abraham) <a href="https://twitter.com/sunil_abraham/status/680394783894851584" class="" rel="nofollow, noopener">December 25, 2015</a></p></blockquote>
 </div>
-
-<p><strong>Also read: Net Neutrality debate: TRAI aims to resolve some issues by early 2016</strong></p>
-
-<p>Read our full Net Neutrality coverage here.</p>
 
 </div>
 
