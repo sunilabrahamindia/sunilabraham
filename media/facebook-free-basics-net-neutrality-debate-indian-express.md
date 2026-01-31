@@ -125,6 +125,8 @@ created: 2026-01-31
 
 <p><strong>Check out his tweets below</strong></p>
 
+<p class="tsap-editorial-note"><em>TSAP Editorial Note: Some tweets from deleted or suspended accounts are displayed as text quotations.</em></p>
+
 <blockquote class="tweet-text-only">
 <p>"@abhaga @janchip free Basics opens up full internet for many. Globally-50% move to full net in 30 days. Data should win the argument."</p>
 <p>— MikeatFacebook (@MikeatFacebook) December 29, 2015</p>
@@ -307,6 +309,21 @@ Pranesh Prakash from the Centre for Internet and Society offered a middle path, 
   margin: 15px 0;
 }
 
+/* TSAP Editorial Note Styling */
+.tsap-editorial-note {
+  background: #e8f4f8;
+  border-left: 3px solid #3498db;
+  padding: 10px 14px;
+  margin: 15px 0;
+  font-size: 0.9rem;
+  color: #2c3e50;
+  border-radius: 4px;
+}
+
+.tsap-editorial-note em {
+  font-style: italic;
+}
+
 /* Text-only tweet styling for deleted accounts */
 .tweet-text-only {
   background: #f7f9fa;
@@ -350,6 +367,11 @@ Pranesh Prakash from the Centre for Internet and Society offered a middle path, 
   .tweet-text-only {
     max-width: 100%;
     border-radius: 8px;
+  }
+  
+  .tsap-editorial-note {
+    font-size: 0.85rem;
+    padding: 8px 12px;
   }
 }
 </style>
