@@ -125,7 +125,7 @@ created: 2026-01-31
 
 <p><strong>Check out his tweets below</strong></p>
 
-<p class="tsap-editorial-note"><em>TSAP Editorial Note: Some tweets from protected or unavailable accounts are displayed as text quotations.</em></p>
+<p class="tsap-editorial-note"><em>TSAP Editorial Note: Some tweets from protected or unavailable accounts are displayed as text quotations as they appeared in <em>The Indian Express</em> news article.</em></p>
 
 <blockquote class="tweet-text-only">
 <p>"@abhaga @janchip free Basics opens up full internet for many. Globally-50% move to full net in 30 days. Data should win the argument."</p>
