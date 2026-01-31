@@ -125,25 +125,30 @@ created: 2026-01-31
 
 <p><strong>Check out his tweets below</strong></p>
 
-<div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en"><a href="https://twitter.com/abhaga" class="" rel="nofollow, noopener">@abhaga</a> <a href="https://twitter.com/janchip" class="" rel="nofollow, noopener">@janchip</a> free Basics opens up full internet for many. Globally-50% move to full net in 30 days. Data should win the argument.</p><p>— MikeatFacebook (@MikeatFacebook) <a href="https://twitter.com/MikeatFacebook/status/681700311522623489" class="" rel="nofollow, noopener">December 29, 2015</a></p></blockquote>
-</div>
+<blockquote class="tweet-text-only">
+<p>"@abhaga @janchip free Basics opens up full internet for many. Globally-50% move to full net in 30 days. Data should win the argument."</p>
+<p>— MikeatFacebook (@MikeatFacebook) December 29, 2015</p>
+</blockquote>
 
-<div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en"><a href="https://twitter.com/srinikth" class="" rel="nofollow, noopener">@srinikth</a> <a href="https://twitter.com/pranesh" class="" rel="nofollow, noopener">@pranesh</a> <a href="https://twitter.com/jackerhack" class="" rel="nofollow, noopener">@jackerhack</a> can government solve it all? Of course not. Must have public and private to make faster gains.</p><p>— MikeatFacebook (@MikeatFacebook) <a href="https://twitter.com/MikeatFacebook/status/681713111326273536" class="" rel="nofollow, noopener">December 29, 2015</a></p></blockquote>
-</div>
+<blockquote class="tweet-text-only">
+<p>"@srinikth @pranesh @jackerhack can government solve it all? Of course not. Must have public and private to make faster gains."</p>
+<p>— MikeatFacebook (@MikeatFacebook) December 29, 2015</p>
+</blockquote>
 
-<div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en"><a href="https://twitter.com/srinikth" class="" rel="nofollow, noopener">@srinikth</a> <a href="https://twitter.com/pranesh" class="" rel="nofollow, noopener">@pranesh</a> <a href="https://twitter.com/jackerhack" class="" rel="nofollow, noopener">@jackerhack</a> why does it have to be philanth to be good. It brings full net. Oh and we make no money til conversion. Zero</p><p>— MikeatFacebook (@MikeatFacebook) <a href="https://twitter.com/MikeatFacebook/status/681714194010386432" class="" rel="nofollow, noopener">December 29, 2015</a></p></blockquote>
-</div>
+<blockquote class="tweet-text-only">
+<p>"@srinikth @pranesh @jackerhack why does it have to be philanth to be good. It brings full net. Oh and we make no money til conversion. Zero"</p>
+<p>— MikeatFacebook (@MikeatFacebook) December 29, 2015</p>
+</blockquote>
 
-<div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en"><a href="https://twitter.com/vishalmisra" class="" rel="nofollow, noopener">@vishalmisra</a> not misleading. Vast majority of definitions of NN in countries allow zero rating. And program facts prove bridge to full net</p><p>— MikeatFacebook (@MikeatFacebook) <a href="https://twitter.com/MikeatFacebook/status/681383178280386560" class="" rel="nofollow, noopener">December 28, 2015</a></p></blockquote>
-</div>
+<blockquote class="tweet-text-only">
+<p>"@vishalmisra not misleading. Vast majority of definitions of NN in countries allow zero rating. And program facts prove bridge to full net"</p>
+<p>— MikeatFacebook (@MikeatFacebook) December 28, 2015</p>
+</blockquote>
 
-<div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en"><a href="https://twitter.com/PZarandy" class="" rel="nofollow, noopener">@PZarandy</a> <a href="https://twitter.com/vishalmisra" class="" rel="nofollow, noopener">@vishalmisra</a> <a href="https://twitter.com/pratik_shah" class="" rel="nofollow, noopener">@pratik_shah</a> EU rules allow ZR on case by case basis. Yes.</p><p>— MikeatFacebook (@MikeatFacebook) <a href="https://twitter.com/MikeatFacebook/status/681409080661905408" class="" rel="nofollow, noopener">December 28, 2015</a></p></blockquote>
-</div>
+<blockquote class="tweet-text-only">
+<p>"@PZarandy @vishalmisra @pratik_shah EU rules allow ZR on case by case basis. Yes."</p>
+<p>— MikeatFacebook (@MikeatFacebook) December 28, 2015</p>
+</blockquote>
 
 <p>Pranesh Prakash, the director for policy at Centre for Internet and Society (CIS) in Bangalore, has said that a total ban might not be the ideal solution and one should look at the platforms on a case by case basis.</p>
 
@@ -302,6 +307,30 @@ Pranesh Prakash from the Centre for Internet and Society offered a middle path, 
   margin: 15px 0;
 }
 
+/* Text-only tweet styling for deleted accounts */
+.tweet-text-only {
+  background: #f7f9fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin: 15px auto;
+  max-width: 550px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.tweet-text-only p {
+  margin: 0 0 8px 0;
+  color: #0f1419;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.tweet-text-only p:last-child {
+  color: #536471;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
 /* Responsive adjustments */
 @media (max-width: 767px) {
   .video-wrapper {
@@ -316,6 +345,11 @@ Pranesh Prakash from the Centre for Internet and Society offered a middle path, 
   
   .video-container iframe {
     border-radius: 0;
+  }
+  
+  .tweet-text-only {
+    max-width: 100%;
+    border-radius: 8px;
   }
 }
 </style>
