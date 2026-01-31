@@ -167,7 +167,7 @@ created: 2026-01-31
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">3. The regulator needs more data on a) conversion rates to full-Internet; b) cost of subsidy & c) QoE (speed, etc.) of Free Basics.</p><p>— Pranesh Prakash (@pranesh) <a href="https://twitter.com/pranesh/status/680759724388618240" class="" rel="nofollow, noopener">December 26, 2015</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">3. The regulator needs more data on a) conversion rates to full-Internet; b) cost of subsidy & c) QoE (speed, etc.) of Free Basics.</p><p>— Pranesh Prakash (@pranesh) <a href="https://twitter.com/pranesh/status/680759522244308993" class="" rel="nofollow, noopener">December 26, 2015</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
