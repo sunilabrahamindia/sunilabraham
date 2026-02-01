@@ -3,13 +3,13 @@ layout: default
 title: "Is Freedom of Expression Under Threat in Digital Age?"
 description: "A New Indian Express report on a panel discussion examining online censorship, Section 66A of the IT Act, and competing views on free expression in the digital age."
 categories: [Media mentions]
-date: 2013-01-17
+date: 2013-01-16
 source: "The New Indian Express"
 permalink: /media/freedom-expression-digital-age-new-indian-express/
 created: 2026-01-31
 ---
 
-**Is Freedom of Expression Under Threat in Digital Age?** is a *The New Indian Express* article published on 17 January 2013 (updated 4 February 2013). The report documents a panel discussion organised by Index on Censorship and the Editors Guild of India at India International Centre, featuring contrasting perspectives on internet regulation, censorship practices, and the application of Section 66A of the IT Act.
+**Is Freedom of Expression Under Threat in Digital Age?** is a *The New Indian Express* article published on 16 January 2013 (updated 4 February 2013). The report documents a panel discussion organised by Index on Censorship and the Editors Guild of India at India International Centre, featuring contrasting perspectives on internet regulation, censorship practices, and the application of Section 66A of the IT Act.
 
 ## Contents
 
@@ -25,7 +25,7 @@ created: 2026-01-31
   <dd><em>The New Indian Express</em></dd>
 
   <dt>📅 Date:</dt>
-  <dd>17 January 2013 (Updated: 4 February 2013)</dd>
+  <dd>16 January 2013 (Updated: 4 February 2013)</dd>
 
   <dt>📄 Type:</dt>
   <dd>News Report</dd>
