@@ -521,7 +521,6 @@ Version 1.2 focuses on strengthening media coverage clusters, improving chronolo
 - Work continued on the *News18* media cluster.
 - Cluster page: [*Sunil Abraham and News18*](/clusters/sunil-abraham-news18/)
 - Initial work has begun on [*Sunil Abraham and The New Indian Express*](/clusters/sunil-abraham-new-indian-express/)
-- Article identification and creation is ongoing and will continue in subsequent versions.
 
 **Chronological Discovery**
 - An *On This Day* feature was introduced.
