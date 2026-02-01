@@ -29,7 +29,7 @@ created: 2025-10-19
 <style>
 /* Contact page specific styles matching TSAP theme */
 .contact-container {
-  max-width: 720px;
+  max-width: 92%;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
