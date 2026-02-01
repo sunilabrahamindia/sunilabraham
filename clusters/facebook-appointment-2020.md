@@ -11,54 +11,57 @@ In October 2020, several national news organisations reported on **Facebook Indi
 
 This page brings together all related media articles in one consolidated, easy-to-navigate collection for archival and research purposes.
 
-
 ## 📚 Articles
 
 <div class="cluster-list" markdown="1">
 
-### **1. News Minute**  
-*Facebook Hires Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
-[Read here](/media/facebook-hires-sunil-abraham-news-minute/)
-
-### **2. Deccan Herald**  
+### **1. Deccan Herald**  
 *Facebook Appoints Public Policy Director for Data and Emerging Tech in India*  
 [Read here](/media/facebook-appoints-public-policy-director-deccan-herald/)
 
-### **3. Mint**  
-*FB Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
-[Read here](/media/fb-appoints-sunil-abraham-mint/)
-
-### **4. MediaNama**  
-*Sunil Abraham Joins Facebook India’s Public Policy Team, Headed by Ankhi Das*  
-[Read here](/media/sunil-abraham-joins-facebook-medianama/)
-
-### **5. TechCircle**  
-*Sunil Abraham to Lead Data and Emerging Tech Policy at Facebook India*  
-[Read here](/media/sunil-abraham-facebook-india-techcircle/)
-
-### **6. Social Samosa**  
-*Sunil Abraham to Lead Public Policy for Data and Emerging Tech at Facebook India*  
-[Read here](/media/sunil-abraham-facebook-india-social-samosa/)
-
-### **7. Moneycontrol**  
-*Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
-[Read here](/media/facebook-india-appoints-sunil-abraham-moneycontrol/)
-
-### **8. Hindustan Times Tech (HT Tech)**  
+### **2. Hindustan Times Tech (HT Tech)**  
 *Facebook India Appoints Sunil Abraham as New Public Policy Director for Data and Emerging Tech*  
 [Read here](/media/facebook-india-appoints-sunil-abraham-ht-tech/)
 
-### **9. The Economic Times**  
+### **3. MediaNama**  
+*Sunil Abraham Joins Facebook India’s Public Policy Team, Headed by Ankhi Das*  
+[Read here](/media/sunil-abraham-joins-facebook-medianama/)
+
+### **4. Mint**  
+*FB Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
+[Read here](/media/fb-appoints-sunil-abraham-mint/)
+
+### **5. Moneycontrol**  
+*Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
+[Read here](/media/facebook-india-appoints-sunil-abraham-moneycontrol/)
+
+### **6. News18**  
+*Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
+[Read here](/media/facebook-india-appoints-sunil-abraham-news18/)
+
+### **7. News Minute**  
+*Facebook Hires Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
+[Read here](/media/facebook-hires-sunil-abraham-news-minute/)
+
+### **8. Social Samosa**  
+*Sunil Abraham to Lead Public Policy for Data and Emerging Tech at Facebook India*  
+[Read here](/media/sunil-abraham-facebook-india-social-samosa/)
+
+### **9. TechCircle**  
+*Sunil Abraham to Lead Data and Emerging Tech Policy at Facebook India*  
+[Read here](/media/sunil-abraham-facebook-india-techcircle/)
+
+### **10. The Economic Times**  
 *Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
 [Read here](/media/facebook-india-appoints-sunil-abraham-economic-times/)
 
-### **10. Times of India**  
+### **11. The Hindu BusinessLine**  
+*Facebook India Appoints Sunil Abraham as Public Policy Director*  
+[Read here](/media/facebook-appoints-sunil-abraham-hindu-business-line/)
+
+### **12. The Times of India**  
 *Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
 [Read here](/media/facebook-india-appoints-sunil-abraham-public-policy-director-times-of-india/)
-
-### **11. News18**  
-*Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech*  
-[Read here](/media/facebook-india-appoints-sunil-abraham-news18/)
 
 </div>
 
