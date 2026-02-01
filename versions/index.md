@@ -24,6 +24,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 13. [Version 1.1](#version-11)
 14. [Version 1.1.1](#version-111)
 15. [Version 1.1.2](#version-112)
+16. [Version 1.2](#version-12)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -506,4 +507,29 @@ Beyond this milestone, Version 1.1.2 represents a phase of accelerated growth, c
 
 **Completion date:** 25 January 2026
 
+## Version 1.2
+
+Version 1.2 focuses on strengthening media coverage clusters, improving chronological discovery across the archive, and continuing incremental biographical documentation. The release reflects steady consolidation work rather than a single headline milestone, with attention to accuracy, consistency, and long-term navigability.
+
+- 30 articles have been published this week.
+
+**Clusters**
+- Cluster page created: [*Sunil Abraham and Open Magazine*](/clusters/sunil-abraham-open-magazine/)
+- The *Forbes India* media cluster was also completed. [*Sunil Abraham and Forbes India*](/clusters/sunil-abraham-forbes-india/)
+- Substantial work was carried out on [*Sunil Abraham and The Indian Express*](/clusters/sunil-abraham-indian-express/)
+- A small number of existing articles under Publications were found to have inconsistent YAML metadata, where `source: Indian Express` was used instead of `source: The Indian Express`. This inconsistency has been corrected across affected articles. Additional articles were created and added to the cluster during this cycle.
+- Work continued on the *News18* media cluster.
+- Cluster page: [*Sunil Abraham and News18*](/clusters/sunil-abraham-news18/)
+- Initial work has begun on [*Sunil Abraham and The New Indian Express*](/clusters/sunil-abraham-new-indian-express/)
+- Article identification and creation is ongoing and will continue in subsequent versions.
+
+**Chronological Discovery**
+- An *On This Day* feature was introduced.
+- This chronological view surfaces historical content by publication date, making older contributions easier to discover and revisit.
+- Page link: [On This Day](/otd/)
+
+**Biographical Articles**
+- A new biographical article was started: [Herbert Paul](/articles/herbert-paul/). Herbert Paul is an Indian musician, graphic designer, and design consultant based in Bengaluru, Karnataka.
+
+**Completion date:** 1 February 2026
 
