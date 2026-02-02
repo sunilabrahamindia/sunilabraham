@@ -6,8 +6,6 @@ description: Biography of Sunil Abraham (born 1973), Indian technologist, social
 created: 2025-10-27
 ---
 
-{% include under-construction.html %}
-
 **Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian technologist, internet researcher, open source advocate and public policy researcher. Sunil is a co-founder and former executive director of the [Centre for Internet and Society](https://cis-india.org/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. His research and advocacy have focused on openness, privacy, accessibility, and the social impact of digital technologies across the Global South.
 
 ## Early life and education
@@ -129,6 +127,21 @@ Sunil has been actively involved in designing and leading collaborative events t
     <a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm">Wikimedia Commons</a>.
   </p>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sunil Abraham at Wikimedia Summit 2019",
+  "description": "Sunil Abraham participating as a key listener during discussions at the Wikimedia Summit 2019.",
+  "contentUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm",
+  "embedUrl": "https://commons.wikimedia.org/wiki/File:Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm?embedplayer=yes",
+  "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm/1280px--Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm.jpg",
+  "uploadDate": "2019-04-16T09:42:12Z",
+  "duration": "PT6M22S",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0"
+}
+</script>
 
 ## Personal life
 
