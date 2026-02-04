@@ -14,16 +14,46 @@
     </div>
 
     {% if m.cited_page and m.cited_page != "" %}
-      {% assign cited = site.pages | where: "permalink", m.cited_page | first %}
+      {% assign cited = site.documents | where: "permalink", m.cited_page | first %}
       <div class="mention-cited">
         Mentions page on this site:
-        {% if cited %}
+        {% if cited and cited.title %}
           <a href="{{ cited.permalink }}">{{ cited.title }}</a>
         {% else %}
           <a href="{{ m.cited_page }}">{{ m.cited_page }}</a>
         {% endif %}
       </div>
     {% endif %}
+
+    <div class="mention-links">
+      <a href="{{ m.url }}"
+         class="mention-url"
+         rel="noopener noreferrer nofollow">
+        {{ m.url }}
+      </a>
+
+      {% if m.archive_url and m.archive_url != "" %}
+        · <a href="{{ m.archive_url }}"
+             class="mention-archive"
+             rel="noopener noreferrer nofollow">
+          Archived copy
+        </a>
+      {% endif %}
+    </div>
+
+    {% if (m.date and m.date != "") or (m.accessed and m.accessed != "") %}
+      <div class="mention-meta">
+        {% if m.date and m.date != "" %}
+          <span>Published: {{ m.date | date: "%-d %B %Y" }}</span>
+        {% endif %}
+        {% if m.accessed and m.accessed != "" %}
+          <span>Accessed: {{ m.accessed | date: "%-d %B %Y" }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
 
     <div class="mention-links">
       <a href="{{ m.url }}"
