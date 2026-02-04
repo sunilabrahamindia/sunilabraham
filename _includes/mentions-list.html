@@ -2,32 +2,141 @@
 
 <ul class="mentions-list">
 {% for m in mentions %}
-  <li>
-    <strong>{{ m.source }}</strong>:
-    <em>{{ m.title }}</em>
-    {% if m.author and m.author != "" %}
-      — {{ m.author }}
-    {% endif %}
-    <br>
+  <li class="mention-item">
+    <div class="mention-header">
+      <strong>{{ m.source }}</strong>
+      <span class="mention-title">
+        {{ m.title }}
+      </span>
+      {% if m.author and m.author != "" %}
+        <span class="mention-author">— {{ m.author }}</span>
+      {% endif %}
+    </div>
 
     {% if m.cited_page and m.cited_page != "" %}
-      Mentions page on this site:
-      <a href="{{ m.cited_page }}">{{ m.cited_page }}</a>
-      <br>
+      <div class="mention-cited">
+        Mentions page on this site:
+        <a href="{{ m.cited_page }}">{{ m.cited_page }}</a>
+      </div>
     {% endif %}
 
-    <a href="{{ m.url }}" rel="noopener noreferrer nofollow">{{ m.url }}</a>
-    {% if m.archive_url and m.archive_url != "" %}
-      · <a href="{{ m.archive_url }}" rel="noopener noreferrer nofollow">Archived</a>
-    {% endif %}
+    <div class="mention-links">
+      <a href="{{ m.url }}"
+         class="mention-url"
+         rel="noopener noreferrer nofollow">
+        {{ m.url }}
+      </a>
 
-    {% if m.date and m.date != "" %}
-      <br><small>Published: {{ m.date }}</small>
-    {% endif %}
+      {% if m.archive_url and m.archive_url != "" %}
+        · <a href="{{ m.archive_url }}"
+             class="mention-archive"
+             rel="noopener noreferrer nofollow">
+          Archived copy
+        </a>
+      {% endif %}
+    </div>
 
-    {% if m.accessed and m.accessed != "" %}
-      <br><small>Accessed: {{ m.accessed }}</small>
-    {% endif %}
+    <div class="mention-meta">
+      {% if m.date and m.date != "" %}
+        <span>Published: {{ m.date }}</span>
+      {% endif %}
+      {% if m.accessed and m.accessed != "" %}
+        <span>Accessed: {{ m.accessed }}</span>
+      {% endif %}
+    </div>
   </li>
 {% endfor %}
 </ul>
+
+
+<style>
+  /* Mentions list */
+
+.mentions-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.mention-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.1rem;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-left: 4px solid #444;
+  border-radius: 6px;
+}
+
+/* Header */
+
+.mention-header {
+  margin-bottom: 0.4rem;
+}
+
+.mention-header strong {
+  font-size: 1.05rem;
+}
+
+.mention-title {
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.mention-author {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Cited page */
+
+.mention-cited {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Links */
+
+.mention-links {
+  margin-top: 0.6rem;
+}
+
+.mention-url {
+  display: inline-block;
+  font-size: 0.9rem;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.mention-archive {
+  font-size: 0.9rem;
+}
+
+/* Meta */
+
+.mention-meta {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.mention-meta span + span {
+  margin-left: 0.8rem;
+}
+
+/* Mobile tuning */
+
+@media (max-width: 600px) {
+  .mention-item {
+    padding: 0.9rem;
+  }
+
+  .mention-header strong {
+    font-size: 1rem;
+  }
+
+  .mention-url,
+  .mention-archive {
+    font-size: 0.85rem;
+  }
+}
+</style>
