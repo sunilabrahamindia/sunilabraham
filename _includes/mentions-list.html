@@ -1,4 +1,4 @@
-{% assign mentions = site.data.mentions %}
+{% assign mentions = site.data.mentions | sort: "accessed" | reverse %}
 
 <ul class="mentions-list">
 {% for m in mentions %}
@@ -14,9 +14,14 @@
     </div>
 
     {% if m.cited_page and m.cited_page != "" %}
+      {% assign cited = site.pages | where: "permalink", m.cited_page | first %}
       <div class="mention-cited">
         Mentions page on this site:
-        <a href="{{ m.cited_page }}">{{ m.cited_page }}</a>
+        {% if cited %}
+          <a href="{{ cited.permalink }}">{{ cited.title }}</a>
+        {% else %}
+          <a href="{{ m.cited_page }}">{{ m.cited_page }}</a>
+        {% endif %}
       </div>
     {% endif %}
 
@@ -36,18 +41,19 @@
       {% endif %}
     </div>
 
-    <div class="mention-meta">
-      {% if m.date and m.date != "" %}
-        <span>Published: {{ m.date }}</span>
-      {% endif %}
-      {% if m.accessed and m.accessed != "" %}
-        <span>Accessed: {{ m.accessed }}</span>
-      {% endif %}
-    </div>
+    {% if (m.date and m.date != "") or (m.accessed and m.accessed != "") %}
+      <div class="mention-meta">
+        {% if m.date and m.date != "" %}
+          <span>Published: {{ m.date | date: "%-d %B %Y" }}</span>
+        {% endif %}
+        {% if m.accessed and m.accessed != "" %}
+          <span>Accessed: {{ m.accessed | date: "%-d %B %Y" }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
-
 
 <style>
   /* Mentions list */
