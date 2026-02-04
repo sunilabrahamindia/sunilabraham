@@ -74,7 +74,7 @@ The piece situates these concerns within existing legal frameworks, including in
 
 ## External Link
 
-[Read on The Hindu Business Line](https://www.thehindubusinessline.com/blink/know/the-new-tattler-in-town/article21987788.ece1)
+- [Read on The Hindu Business Line](https://www.thehindubusinessline.com/blink/know/the-new-tattler-in-town/article21987788.ece1)
 
 <style>
 .media-details {
