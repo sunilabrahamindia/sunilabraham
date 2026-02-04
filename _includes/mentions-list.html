@@ -1,0 +1,22 @@
+{% assign mentions = site.data.mentions %}
+
+<ul class="mentions-list">
+{% for m in mentions %}
+  <li>
+    <strong>{{ m.source }}</strong>:
+    <em>{{ m.title }}</em>
+    {% if m.author and m.author != "" %}
+      — {{ m.author }}
+    {% endif %}
+    <br>
+    <a href="{{ m.url }}">{{ m.url }}</a>
+    {% if m.archive_url and m.archive_url != "" %}
+      · <a href="{{ m.archive_url }}">Archived</a>
+    {% endif %}
+    {% if m.date and m.date != "" %}
+      <br><small>Published: {{ m.date }}</small>
+    {% endif %}
+    <br><small>Accessed: {{ m.accessed }}</small>
+  </li>
+{% endfor %}
+</ul>
