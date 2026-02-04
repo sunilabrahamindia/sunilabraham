@@ -94,3 +94,27 @@
   date: ""
   accessed: 2026-02-04
 
+# --- India Stack: The Surveillance Layer ---
+
+- source: "India Stack"
+  title: "The Surveillance Layer"
+  author: ""
+  url: "https://indiastack.in/surveillance/"
+  archive_url: ""
+  cited_page: "/publications/unified-payment-interface-towards-greater-cyber-sovereignty-full-text/"
+  date: ""          # informational page; publication date not stated
+  accessed: 2026-02-04
+
+# --- International Journal of Innovations & Research Analysis ---
+
+- source: "International Journal of Innovations & Research Analysis"
+  title: "Digital Preservation of Indigenous Knowledge in Kerala"
+  author: "Jisha CK"
+  url: "https://inspirajournals.com/home/viewdetails/?id=8289"
+  doi: "10.62823/IJIRA/05.04(I).8289"
+  archive_url: ""
+  cited_page: "/publications/the-digital-protection-of-traditional-knowledge/"
+  date: "2025-12"
+  accessed: 2026-02-04
+
+
