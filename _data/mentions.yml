@@ -1,0 +1,30 @@
+# ============================================================
+# TEMPLATE (copy-paste this block for each new mention)
+#
+# - source: "Publication or organisation name"
+#   title: "Title of the external article or report"
+#   author: ""
+#   url: "https://example.com/full-article-url"
+#   archive_url: ""
+#   cited_page: ""              # fill when page exists
+#   date: ""                    # publication date if stated
+#   accessed: YYYY-MM-DD        # date you verified the link
+#
+# Notes:
+# - One block per external mention
+# - `cited_page` can be left empty until the page is created
+# - Never guess dates or authors
+# - Archive URL is recommended but optional
+# ============================================================
+
+
+# --- Grokipedia mention ---
+
+- source: "Grokipedia"
+  title: "Dayananda Sagar College of Engineering"
+  author: ""
+  url: "https://grokipedia.com/page/Dayananda_Sagar_College_of_Engineering"
+  archive_url: ""
+  cited_page: "/sunil/"
+  date: ""          # encyclopaedic page; publication date not applicable
+  accessed: 2026-02-04
