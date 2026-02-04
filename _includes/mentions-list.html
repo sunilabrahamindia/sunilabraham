@@ -9,14 +9,25 @@
       — {{ m.author }}
     {% endif %}
     <br>
-    <a href="{{ m.url }}">{{ m.url }}</a>
-    {% if m.archive_url and m.archive_url != "" %}
-      · <a href="{{ m.archive_url }}">Archived</a>
+
+    {% if m.cited_page and m.cited_page != "" %}
+      Mentions page on this site:
+      <a href="{{ m.cited_page }}">{{ m.cited_page }}</a>
+      <br>
     {% endif %}
+
+    <a href="{{ m.url }}" rel="noopener noreferrer nofollow">{{ m.url }}</a>
+    {% if m.archive_url and m.archive_url != "" %}
+      · <a href="{{ m.archive_url }}" rel="noopener noreferrer nofollow">Archived</a>
+    {% endif %}
+
     {% if m.date and m.date != "" %}
       <br><small>Published: {{ m.date }}</small>
     {% endif %}
-    <br><small>Accessed: {{ m.accessed }}</small>
+
+    {% if m.accessed and m.accessed != "" %}
+      <br><small>Accessed: {{ m.accessed }}</small>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
