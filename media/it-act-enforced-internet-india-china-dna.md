@@ -39,6 +39,7 @@ created: 2026-02-05
     <a class="btn" href="https://www.dnaindia.com/lifestyle/report-it-act-if-enforced-will-leave-internet-use-in-india-no-freer-than-in-china-1543284">
       Read Online
     </a>
+    </dd>
 </dl>
 
 ## Full Text
