@@ -7,7 +7,7 @@ permalink: /mentions/
 created: 2026-02-04
 ---
 
-This page lists external mentions of Sunil Abraham across encyclopaedias, reference sites, reports, and other third-party sources.
+This page lists external mentions of the Sunil Abraham Project across encyclopaedias, reference sites, reports, and other third-party sources.
 
 The entries here are **not full article reproductions**. Instead, they serve as a structured citation layer, documenting where Sunil Abraham is referenced or discussed elsewhere on the internet.
 
