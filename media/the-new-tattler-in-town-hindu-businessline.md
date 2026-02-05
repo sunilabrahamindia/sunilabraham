@@ -4,7 +4,7 @@ title: "The New Tattler in Town"
 description: "A Hindu BusinessLine feature examining how WhatsApp rumours triggered public panic in Indian towns, and the legal, policy, and civic responses to misinformation."
 categories: [Media mentions]
 date: 2015-08-28
-source: "The Hindu BusinessLine"
+source: "The Hindu Business Line"
 permalink: /media/the-new-tattler-in-town-hindu-businessline/
 created: 2026-02-05
 ---
@@ -22,7 +22,7 @@ created: 2026-02-05
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>The Hindu BusinessLine</em></dd>
+  <dd><em>The Hindu Business Line</em></dd>
 
   <dt>📅 Date:</dt>
   <dd>28 August 2015</dd>
