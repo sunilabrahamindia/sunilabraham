@@ -33,6 +33,13 @@ created: 2026-02-05
 
   <dt>📄 Type:</dt>
   <dd>News Report</dd>
+
+    <dt>📰 Newspaper Link:</dt>
+  <dd>
+    <a class="btn" href="https://www.dnaindia.com/mumbai/report-some-take-to-scaremongering-on-social-media-2081195">
+      Read Online
+    </a>
+  </dd>
 </dl>
 
 ## Full Text
