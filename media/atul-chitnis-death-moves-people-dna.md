@@ -76,9 +76,12 @@ created: 2026-02-06
 <blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">RIP @atulchitnis You were one of the most liveliest person. Now is turn of God to feel what we felt through you here</p><p>— Ajit Parameswaran (@ajitwrites) <a href="https://twitter.com/ajitwrites/status/341451874693693441" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
-<div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">R.I.P. Atul Chitnis(@atulchitnis). You were a dear friend, and an exceptional mentor. Thanks for all the wise words over the years.</p><p>— Kaustubh Srikanth (@houndbee) <a href="https://twitter.com/houndbee/status/341500378866671616" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
-</div>
+<p class="tsap-editorial-note"><em>TSAP Editorial Note: Some tweets featured in the original <em>DNA</em> article are no longer available via Twitter and are therefore presented as quotations only.</em></p>
+
+<blockquote class="tweet-text-only">
+<p>"R.I.P. Atul Chitnis(@atulchitnis). You were a dear friend, and an exceptional mentor. Thanks for all the wise words over the years."</p>
+<p>— Kaustubh Srikanth (@houndbee), June 3, 2013</p>
+</blockquote
 
 <div class="tweet-center">
 <blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Interacted once with Atul Chitnis at SIMC. Really loved gadgets. Remembering him pulling them out of his bag, one after the other, on stage.</p><p>— Sahil Khan (@sahilk) <a href="https://twitter.com/sahilk/status/341444251676209152" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
