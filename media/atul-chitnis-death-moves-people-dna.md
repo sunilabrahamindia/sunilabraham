@@ -57,23 +57,38 @@ created: 2026-02-06
 <p>Here are some tweets expressing grief over his death and bidding him a final goodbye.</p>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My friend <a href="https://twitter.com/AtulChitnis?ref_src=twsrc%5Etfw">@AtulChitnis</a> passed away this morning after a brave fight with cancer. My condolences to his family.</p>&mdash; Madhu Menon (@madmanweb) <a href="https://twitter.com/madmanweb/status/341614708833132544?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">My friend @AtulChitnis passed away this morning after a brave fight with cancer. My condolences to his family.</p>
+  <a href="https://twitter.com/madmanweb/status/341614708833132544">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shocked to hear about <a href="https://twitter.com/atulchitnis?ref_src=twsrc%5Etfw">@atulchitnis</a> one of the guys who I know only through online media. His profile still says "beating stage 4 cancer" RIP</p>&mdash; nutanc (@nutanc) <a href="https://twitter.com/nutanc/status/341619575979671552?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">Shocked to hear about @atulchitnis one of the guys who I know only through online media. His profile still says "beating stage 4 cancer" RIP</p>
+  <a href="https://twitter.com/nutanc/status/341619575979671552">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Spoke to <a href="https://twitter.com/AtulChitnis?ref_src=twsrc%5Etfw">@AtulChitnis</a> on Friday and we planned to meet up sometime this week . It wasn't meant to be . My condolences to his lovely family.</p>&mdash; Harsha PJ (@HarshaPJ) <a href="https://twitter.com/HarshaPJ/status/341617160786149376?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">Spoke to @AtulChitnis on Friday and we planned to meet up sometime this week. It wasn't meant to be. My condolences to his lovely family.</p>
+  <a href="https://twitter.com/HarshaPJ/status/341617160786149376">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The world is a poorer place without you, <a href="https://twitter.com/atulchitnis?ref_src=twsrc%5Etfw">@atulchitnis</a> sir. Rest in peace. Sincere condolences to the family of one of my tech heroes.</p>&mdash; Nimish Dubey (@nimishdubey) <a href="https://twitter.com/nimishdubey/status/341618942219247616?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">The world is a poorer place without you, @atulchitnis sir. Rest in peace. Sincere condolences to the family of one of my tech heroes.</p>
+  <a href="https://twitter.com/nimishdubey/status/341618942219247616">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">RIP <a href="https://twitter.com/AtulChitnis?ref_src=twsrc%5Etfw">@AtulChitnis</a> You were one of the most liveliest person. Now is turn of God to feel what we felt through you here</p>&mdash; Ajit (@ajitwrites) <a href="https://twitter.com/ajitwrites/status/341627998546845696?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">RIP @AtulChitnis You were one of the most liveliest person. Now is turn of God to feel what we felt through you here</p>
+  <a href="https://twitter.com/ajitwrites/status/341627998546845696">June 3, 2013</a>
+</blockquote>
 </div>
 
 <p class="tsap-editorial-note"><em>TSAP Editorial Note: Some tweets featured in the original <em>DNA</em> article are no longer available via Twitter and are therefore presented as quotations only.</em></p>
@@ -84,36 +99,55 @@ created: 2026-02-06
 </blockquote>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interacted once with Atul Chitnis at SIMC. Really loved gadgets. Remembering him pulling them out of his bag, one after the other, on stage.</p>&mdash; Sahil Khan (@sahilk) <a href="https://twitter.com/sahilk/status/341619603133833216?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">Interacted once with Atul Chitnis at SIMC. Really loved gadgets. Remembering him pulling them out of his bag, one after the other, on stage.</p>
+  <a href="https://twitter.com/sahilk/status/341619603133833216">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Didn't agree much with his opinionated views but hoped he would rather lose to Android than to cancer. RIP <a href="https://twitter.com/AtulChitnis?ref_src=twsrc%5Etfw">@AtulChitnis</a></p>&mdash; Nikhil Pai (@nikhilpai) <a href="https://twitter.com/nikhilpai/status/341628766689726464?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">Didn't agree much with his opinionated views but hoped he would rather lose to Android than to cancer. RIP @AtulChitnis</p>
+  <a href="https://twitter.com/nikhilpai/status/341628766689726464">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A giant amongst men - Atul Chitnis is no longer with us. May his soul rest in peace.</p>&mdash; Sunil Abraham (@sunil_abraham) <a href="https://twitter.com/sunil_abraham/status/341643248951062528?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">A giant amongst men - Atul Chitnis is no longer with us. May his soul rest in peace.</p>
+  <a href="https://twitter.com/sunil_abraham/status/341643248951062528">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Honestly, <a href="https://twitter.com/AtulChitnis?ref_src=twsrc%5Etfw">@AtulChitnis</a> is as close as we've gotten to a Steve Jobs in India. His detailing on products will drive you crazy. :(</p>&mdash; Vijay Anand (@vijayanands) <a href="https://twitter.com/vijayanands/status/341675408578301952?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">Honestly, @AtulChitnis is as close as we've gotten to a Steve Jobs in India. His detailing on products will drive you crazy. :(</p>
+  <a href="https://twitter.com/vijayanands/status/341675408578301952">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">An unfathomable loss for the Indian tech product community. RIP <a href="https://twitter.com/AtulChitnis?ref_src=twsrc%5Etfw">@AtulChitnis</a>.</p>&mdash; Varun Khona (@varunkhona) <a href="https://twitter.com/varunkhona/status/341676494074023936?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">An unfathomable loss for the Indian tech product community. RIP @AtulChitnis.</p>
+  <a href="https://twitter.com/varunkhona/status/341676494074023936">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Can't believe Atul chitnis is no more! Just yesterday he was tweeting. :-(</p>&mdash; Shashank ಕು ಮಾ र् शंकर (@sshank_) <a href="https://twitter.com/sshank_/status/341677430937681920?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">Can't believe Atul Chitnis is no more! Just yesterday he was tweeting. :-(</p>
+  <a href="https://twitter.com/sshank_/status/341677430937681920">June 3, 2013</a>
+</blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Real Shocking news today that <a href="https://twitter.com/AtulChitnis?ref_src=twsrc%5Etfw">@AtulChitnis</a> is no more. Major loss for Indian Open Source community. <a href="https://twitter.com/hashtag/RIP?src=hash&amp;ref_src=twsrc%5Etfw">#RIP</a></p>&mdash; Vikram (@vikramuk) <a href="https://twitter.com/vikramuk/status/341623751374622721?ref_src=twsrc%5Etfw">June 3, 2013</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none">
+  <p dir="ltr">Real shocking news today that @AtulChitnis is no more. Major loss for Indian Open Source community. #RIP</p>
+  <a href="https://twitter.com/vikramuk/status/341623751374622721">June 3, 2013</a>
+</blockquote>
 </div>
 
 <p>As a sign-off, Atul described himself on his <a href="http://atulchitnis.net/biography/personal/">blogpost</a> as:</p>
-
-<p>But if you really dig, you'll find that this line describes me best:</p>
 
 <p>"You aren't remembered for doing what is expected of you."</p>
 
@@ -129,13 +163,13 @@ This article was published the day Atul Chitnis died, capturing immediate reacti
 
 Beyond conference organising, he influenced developers and technologists through his work at PCQuest, his writing, and his advocacy for open systems at a time when proprietary platforms dominated. His visibility on early Indian online forums, blogs, and social media meant that many who mourned him had known him primarily through digital spaces rather than direct personal contact.
 
-The social media tributes highlighted both the technical and personal dimensions of his legacy. Posts from colleagues and younger technologists remembered him as a demanding product thinker, an outspoken commentator, and a generous mentor who helped shape attitudes towards software freedom and product design in India.
-
 The article's focus on Twitter reactions reflects a broader shift in how public figures' deaths were being marked in the early 2010s. Platforms like Twitter had become primary spaces for collective remembrance, allowing geographically dispersed communities to share memories, express grief, and situate an individual's contribution within a wider professional and cultural context.
 
 ## External Link
 
 - [Read on DNA India](https://www.dnaindia.com/technology/report-atul-chitnis-s-death-moves-people-1843121)
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <style>
 .media-details {
