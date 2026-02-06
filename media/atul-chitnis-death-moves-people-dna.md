@@ -81,7 +81,7 @@ created: 2026-02-06
 <blockquote class="tweet-text-only">
 <p>"R.I.P. Atul Chitnis(@atulchitnis). You were a dear friend, and an exceptional mentor. Thanks for all the wise words over the years."</p>
 <p>— Kaustubh Srikanth (@houndbee), June 3, 2013</p>
-</blockquote
+</blockquote>
 
 <div class="tweet-center">
 <blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Interacted once with Atul Chitnis at SIMC. Really loved gadgets. Remembering him pulling them out of his bag, one after the other, on stage.</p><p>— Sahil Khan (@sahilk) <a href="https://twitter.com/sahilk/status/341444251676209152" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
