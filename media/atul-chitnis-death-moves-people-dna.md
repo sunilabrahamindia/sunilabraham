@@ -57,58 +57,55 @@ created: 2026-02-06
 <p>Here are some tweets expressing grief over his death and bidding him a final goodbye.</p>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">My friend @AtulChitnis passed away this morning after a brave fight with cancer. My condolences to his family.</p><p>— Madhu Menon (@madmanweb) <a href="https://twitter.com/madmanweb/status/341614708833132544" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">My friend @atulchitnis passed away this morning after a brave fight with cancer. My condolences to his family.</p><p>— Madhu Menon (@madmanweb) <a href="https://twitter.com/madmanweb/status/341439722477977600" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Shocked to hear about @atulchitnis one of the guys who I know only through online media. His profile still says "beating stage 4 cancer" RIP</p><p>— nutanc (@nutanc) <a href="https://twitter.com/nutanc/status/341619575979671552" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Shocked to hear about @atulchitnis one of the guys who I know only through online media. His profile still says "beating stage 4 cancer" RIP</p><p>— nutanc (@nutanc) <a href="https://twitter.com/nutanc/status/341444747925274626" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Spoke to @AtulChitnis on Friday and we planned to meet up sometime this week . It wasn't meant to be . My condolences to his lovely family.</p><p>— Harsha PJ (@HarshaPJ) <a href="https://twitter.com/HarshaPJ/status/341617160786149376" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Spoke to @atulchitnis on Friday and we planned to meet up sometime this week . It wasn't meant to be . My condolences to his lovely family.</p><p>— Harsha PJ (@HarshaPJ) <a href="https://twitter.com/HarshaPJ/status/341441917176922112" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">The world is a poorer place without you, @atulchitnis sir. Rest in peace. Sincere condolences to the family of one of my tech heroes.</p><p>— Nimish Dubey (@nimishdubey) <a href="https://twitter.com/nimishdubey/status/341618942219247616" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">The world is a poorer place without you, @atulchitnis sir. Rest in peace. Sincere condolences to the family of one of my tech heroes.</p><p>— Nimish Dubey (@nimishdubey) <a href="https://twitter.com/nimishdubey/status/341443829985062912" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">RIP @AtulChitnis You were one of the most liveliest person. Now is turn of God to feel what we felt through you here</p><p>— Ajit (@ajitwrites) <a href="https://twitter.com/ajitwrites/status/341627998546845696" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
-</div>
-
-<p class="tsap-editorial-note"><em>TSAP Editorial Note: Some tweets featured in the original <em>DNA</em> article are no longer available via Twitter and are therefore presented as quotations only.</em></p>
-
-<blockquote class="tweet-text-only">
-<p>"R.I.P. Atul Chitnis(@atulchitnis). You were a dear friend, and an exceptional mentor. Thanks for all the wise words over the years."</p>
-<p>— Kaustubh Srikanth (@houndbee), June 3, 2013</p>
-</blockquote>
-
-<div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Interacted once with Atul Chitnis at SIMC. Really loved gadgets. Remembering him pulling them out of his bag, one after the other, on stage.</p><p>— Sahil Khan (@sahilk) <a href="https://twitter.com/sahilk/status/341619603133833216" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">RIP @atulchitnis You were one of the most liveliest person. Now is turn of God to feel what we felt through you here</p><p>— Ajit Parameswaran (@ajitwrites) <a href="https://twitter.com/ajitwrites/status/341451874693693441" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Didn't agree much with his opinionated views but hoped he would rather lose to Android than to cancer. RIP @AtulChitnis</p><p>— Nikhil Pai (@nikhilpai) <a href="https://twitter.com/nikhilpai/status/341628766689726464" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">R.I.P. Atul Chitnis(@atulchitnis). You were a dear friend, and an exceptional mentor. Thanks for all the wise words over the years.</p><p>— Kaustubh Srikanth (@houndbee) <a href="https://twitter.com/houndbee/status/341500378866671616" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">A giant amongst men - Atul Chitnis is no longer with us. May his soul rest in peace.</p><p>— Sunil Abraham (@sunil_abraham) <a href="https://twitter.com/sunil_abraham/status/341643248951062528" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Interacted once with Atul Chitnis at SIMC. Really loved gadgets. Remembering him pulling them out of his bag, one after the other, on stage.</p><p>— Sahil Khan (@sahilk) <a href="https://twitter.com/sahilk/status/341444251676209152" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Honestly, @AtulChitnis is as close as we've gotten to a Steve Jobs in India. His detailing on products will drive you crazy. :(</p><p>— Vijay Anand (@vijayanands) <a href="https://twitter.com/vijayanands/status/341675408578301952" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Didn't agree much with his opinionated views but hoped he would rather lose to Android than to cancer. RIP @atulchitnis</p><p>— Nikhil Pai (@nikhilpai) <a href="https://twitter.com/nikhilpai/status/341452276206034944" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">An unfathomable loss for the Indian tech product community. RIP @AtulChitnis.</p><p>— Varun Khona (@varunkhona) <a href="https://twitter.com/varunkhona/status/341676494074023936" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">A giant amongst men - Atul Chitnis is no longer with us. May his soul rest in peace.</p><p>— Sunil Abraham (@sunil_abraham) <a href="https://twitter.com/sunil_abraham/status/341461730112724993" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Can't believe Atul chitnis is no more! Just yesterday he was tweeting. :-(</p><p>— Shashank ಕು ಮಾ र् शंकर (@sshank_) <a href="https://twitter.com/sshank_/status/341677430937681920" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Honestly, @atulchitnis is as close as we've gotten to a Steve Jobs in India. His detailing on products will drive you crazy. :(</p><p>— Vijay Anand (@vijayanands) <a href="https://twitter.com/vijayanands/status/341500925095051264" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <div class="tweet-center">
-<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Real Shocking news today that @AtulChitnis is no more. Major loss for Indian Open Source community. #RIP</p><p>— Vikram (@vikramuk) <a href="https://twitter.com/vikramuk/status/341623751374622721" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">An unfathomable loss for the Indian tech product community. RIP @atulchitnis.</p><p>— Varun Khona (@varunkhona) <a href="https://twitter.com/varunkhona/status/341501584007634944" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+</div>
+
+<div class="tweet-center">
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Can't believe Atul chitnis is no more! Just yesterday he was tweeting. :-(</p><p>— Shashank Kumar (@shank7485) <a href="https://twitter.com/shank7485/status/341502295328047104" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
+</div>
+
+<div class="tweet-center">
+<blockquote class="twitter-tweet" lang="en"><p dir="ltr" lang="en">Real Shocking news today that @atulchitnis is no more. Major loss for Indian Open Source community. #RIP</p><p>— Vik-karni (@vikramuk) <a href="https://twitter.com/vikramuk/status/341449853722841088" class="" rel="nofollow, noopener">June 3, 2013</a></p></blockquote>
 </div>
 
 <p>As a sign-off, Atul described himself on his <a href="http://atulchitnis.net/biography/personal/">blogpost</a> as:</p>
