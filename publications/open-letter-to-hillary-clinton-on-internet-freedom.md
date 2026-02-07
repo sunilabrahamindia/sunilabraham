@@ -18,8 +18,6 @@ created: 2025-11-24
 2. [Full Text](#full-text)  
    2.1 [Video](#video)  
 3. [Context and Background](#context-and-background)  
-4. [External Link](#external-link)
-
 
 ## Article Details
 
