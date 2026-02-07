@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Christian Institute for the Study of Religion and Society
-categories: [A. M. A. Ayrookuzhiel]
+categories: [A. M. A. Ayrookuzhiel, Institutions]
 description: An encyclopaedic overview of the Christian Institute for the Study of Religion and Society (CISRS), its origins, intellectual contributions, research traditions and legacy.
 permalink: /articles/cisrs/
 created: 2025-11-20
