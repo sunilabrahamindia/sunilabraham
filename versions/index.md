@@ -25,6 +25,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 14. [Version 1.1.1](#version-111)
 15. [Version 1.1.2](#version-112)
 16. [Version 1.2](#version-12)
+17. [Version 1.2.1](#version-121)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -529,4 +530,23 @@ Version 1.2 focuses on strengthening media coverage clusters, improving chronolo
 - A new biographical article was started: [Herbert Paul](/articles/herbert-paul/). Herbert Paul is an Indian musician, graphic designer, and design consultant based in Bengaluru, Karnataka.
 
 **Completion date:** 1 February 2026
+
+## Version 1.2.1
+
+- 27 articles have been created this week.
+
+**Clusters**
+- Substantial work was carried out on [*The Hindu Business Line*](/clusters/sunil-abraham-hindu-business-line/) media articles.
+- Parallel work was completed on articles related to [*DNA India*](/clusters/sunil-abraham-dna-india/).
+- Two articles from *Outlook India* magazine quoting and mentioning Sunil Abraham were created during this cycle. The dedicated cluster page for *Outlook India* has not yet been created and will be addressed in a subsequent release.
+
+**Mentions and Citations**
+- A new [Mentions](/mentions/) page was introduced to systematically list external references to the Sunil Abraham Project.
+- This page documents mentions across newspapers, websites, encyclopaedias, reference platforms, and other third-party sources, establishing a formal citation ledger for external recognition and reuse.
+
+**Status**
+- ✅ Status: Done
+
+**Completion date:** 8 February 2026
+
 
