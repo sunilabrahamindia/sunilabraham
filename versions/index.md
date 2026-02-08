@@ -544,9 +544,6 @@ Version 1.2 focuses on strengthening media coverage clusters, improving chronolo
 - A new [Mentions](/mentions/) page was introduced to systematically list external references to the Sunil Abraham Project.
 - This page documents mentions across newspapers, websites, encyclopaedias, reference platforms, and other third-party sources, establishing a formal citation ledger for external recognition and reuse.
 
-**Status**
-- ✅ Status: Done
-
-**Completion date:** 8 February 2026
+**Status** Completion date 8 February 2026
 
 
