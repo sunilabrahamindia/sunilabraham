@@ -32,7 +32,7 @@ created: 2026-02-10
   <dd>Debarshi Dasgupta</dd>
 
   <dt>📄 Type:</dt>
-  <dd>Profile / Media Analysis</dd>
+  <dd>Media Analysis</dd>
 
   <dt>📰 Publication Link:</dt>
   <dd>
