@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "This Is All India Radia"
-description: "Debarshi Dasgupta examines how mainstream Indian media avoided coverage of the Niira Radia tapes scandal whilst the internet kept the story alive through blogs, social media, and online forums."
+description: "An Outlook India article examining how mainstream media avoided coverage of the Niira Radia tapes scandal whilst the internet kept the story alive through blogs, social media, and forums."
 categories: [Media mentions]
 date: 2010-11-27
 authors: ["Debarshi Dasgupta"]
@@ -10,7 +10,7 @@ permalink: /media/this-is-all-india-radia-outlook-india/
 created: 2026-02-10
 ---
 
-**This Is All India Radia** is an *Outlook India* article published on 27 November 2010. Debarshi Dasgupta analyses the mainstream media blackout of the Niira Radia tapes scandal, which exposed conversations between a corporate lobbyist and prominent journalists. The piece documents how internet platforms including blogs, Twitter, YouTube, and Wikipedia circumvented traditional media censorship, contributing to wider public discussion about journalistic ethics and media power.
+**This Is All India Radia** is an *Outlook India* article published on 27 November 2010. Debarshi Dasgupta analyses the mainstream media blackout of the Niira Radia tapes scandal, which exposed conversations between a corporate lobbyist and prominent journalists. The piece documents how internet platforms including blogs, Twitter, YouTube, and Wikipedia sustained attention on the story despite limited coverage in traditional media, contributing to wider public discussion about journalistic ethics and media power.
 
 ## Contents
 
