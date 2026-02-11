@@ -2,7 +2,7 @@
 layout: default
 title: "Forum for Rights to Electronic Expression (FREE)"
 description: "The Forum for Rights to Electronic Expression (FREE) was a pioneering Indian digital rights collective formed in 1994, which challenged early state control, censorship, and monopolistic regulation of electronic communication in India."
-categories: [FREE, Institutions]
+categories: [Institutions]
 permalink: /articles/free/
 created: 2026-02-11
 ---
@@ -217,24 +217,23 @@ The absence of comprehensive, curated archives poses challenges for historical r
 
 ## References
 
-1. Government of India (1885). [The Indian Telegraph Act, 1885](https://www.indiacode.nic.in/bitstream/123456789/13115/1/indiantelegraphact_1885.pdf), India Code, accessed 11 February 2026
-2. Centre for Internet and Society (n.d.). [Indian Telegraph Act, 1885](https://cis-india.org/telecom/resources/indian-telegraph-act), accessed 11 February 2026
-3. Siegel, Lenny (1995). [FREEdom on the Net in India](https://www.wired.com/1995/01/freedom-on-the-net-in-india/), WIRED, January 1995, accessed 11 February 2026
-4. World Intellectual Property Organization (2011). [Rishab Aiyer Ghosh](https://www.wipo.int/meetings/en/2011/wipo_cr_wk_ge_11/bios/ghosh.html), WIPO Expert Biographies, accessed 11 February 2026
-5. International Telecommunication Union (n.d.). [MEHTA Arun](https://www.itu.int/en/ITU-T/accessibility/dcad/Pages/MEHTAArun.aspx), ITU Dynamic Coalition on Accessibility and Disability, accessed 11 February 2026
-6. Mehta, Arun (n.d.). [Professional Resume](https://docs.google.com/document/d/1vccBvayKdGm1wU3lNAw5B6xwT1NvWBnml73P6-MW8Qg/edit?pli=1), Google Docs, accessed 11 February 2026
-7. Pandey, Lipika (2017). [This 63YO Made It Possible for the Deaf-Blind to Read and Send SMS](https://thebetterindia.com/80848/bapsi-arun-mehta-pocket-sms-disabilities-deaf-blind/), The Better India, 1 February 2017, accessed 11 February 2026
-8. ibiblio.org (2002–present). [India-GII mailing list archives](https://lists.ibiblio.org/pipermail/india-gii/), accessed 11 February 2026
-9. MIT Technology Review (n.d.). [Vipul Ved Prakash](https://www.technologyreview.com/innovator/vipul-ved-prakash/), TR35 Innovators, accessed 11 February 2026
-10. Sivaraman, Harichandan (2025). [TogetherAI's Vipul Ved Prakash: Democratising AI access with open source solutions](https://www.forbesindia.com/article/ai-special-2025/togetherais-vipul-ved-prakash-democratising-ai-access-with-opensource-solutions/96063/1), Forbes India, accessed 11 February 2026
-11. Cloudmark (n.d.). [Twenty Years of Spam](https://www.cloudmark.com/en/blog/twenty-years-spam), Cloudmark Blog, accessed 11 February 2026
-12. Law Bhoomi (n.d.). [Shreya Singhal v. Union of India](https://lawbhoomi.com/shreya-singhal-v-union-of-india/), accessed 11 February 2026
-13. Software Freedom Law Center, India (n.d.). [Software Freedom Law Center, India](https://sflc.in), accessed 11 February 2026
-14. Association for Progressive Communications (n.d.). [Internet Freedom Foundation](https://www.apc.org/en/member/internet-freedom-foundation), APC Members Directory, accessed 11 February 2026
-15. Save The Internet Campaign (n.d.). [SaveTheInternet.in](https://savetheinternet.in), accessed 11 February 2026
-16. Centre for Internet and Society (n.d.). [Centre for Internet and Society](https://cis-india.org), accessed 11 February 2026
-17. Sonker, Neeraj (2020). [How VSNL launched internet services in India in 1995 when even China hadn't](https://theprint.in/pageturner/excerpt/how-vsnl-launched-internet-services-in-india-in-1995-when-even-china-hadnt/361722/), The Print, 19 February 2020, accessed 11 February 2026
-18. Mani (2017). [Silk, India's oldest general-interest mailing list, has been its Geek Central for 18 years](https://factordaily.com/silk-indias-oldest-general-interest-mailing-list-has-been-its-geek-central-for-18-years/), Factor Daily, 4 July 2017, accessed 11 February 2026
-19. Ghosh, Rishab Aiyer (2003). [Understanding Free Software Developers: Findings from the FLOSS Study](https://turingmachine.org/opensource/papers/ghosh2003.pdf), MERIT/Institute of Infonomics, University of Maastricht, accessed 11 February 2026
-20. Business Standard (2013). [Newsmaker: Vipul Ved Prakash & Rishab Aiyer Ghosh](https://www.business-standard.com/article/beyond-business/newsmaker-vipul-ved-prakash-rishab-aiyer-ghosh-113120501190_1.html), Business Standard, 5 December 2013, accessed 11 February 2026
+1. Association for Progressive Communications (n.d.). [Internet Freedom Foundation](https://www.apc.org/en/member/internet-freedom-foundation), APC Members Directory, accessed 11 February 2026. 
+2. Centre for Internet and Society (n.d.). [Indian Telegraph Act, 1885](https://cis-india.org/telecom/resources/indian-telegraph-act), accessed 11 February 2026.  
+3. Cloudmark (n.d.). [Twenty Years of Spam](https://www.cloudmark.com/en/blog/twenty-years-spam), Cloudmark Blog, accessed 11 February 2026.  
+4. Ghosh, Rishab Aiyer (2003). [Understanding Free Software Developers: Findings from the FLOSS Study](https://turingmachine.org/opensource/papers/ghosh2003.pdf), MERIT/Institute of Infonomics, University of Maastricht, accessed 11 February 2026.  
+5. Government of India (1885). [The Indian Telegraph Act, 1885](https://www.indiacode.nic.in/bitstream/123456789/13115/1/indiantelegraphact_1885.pdf), India Code, accessed 11 February 2026.  
+6. International Telecommunication Union (n.d.). [MEHTA Arun](https://www.itu.int/en/ITU-T/accessibility/dcad/Pages/MEHTAArun.aspx), ITU Dynamic Coalition on Accessibility and Disability, accessed 11 February 2026.  
+7. Law Bhoomi (n.d.). [Shreya Singhal v. Union of India](https://lawbhoomi.com/shreya-singhal-v-union-of-india/), accessed 11 February 2026.  
+8. Mani (2017). [Silk, India's oldest general-interest mailing list, has been its Geek Central for 18 years](https://factordaily.com/silk-indias-oldest-general-interest-mailing-list-has-been-its-geek-central-for-18-years/), Factor Daily, 4 July 2017, accessed 11 February 2026.  
+9. Mehta, Arun (n.d.). [Professional Resume](https://docs.google.com/document/d/1vccBvayKdGm1wU3lNAw5B6xwT1NvWBnml73P6-MW8Qg/edit?pli=1), Google Docs, accessed 11 February 2026.  
+10. MIT Technology Review (n.d.). [Vipul Ved Prakash](https://www.technologyreview.com/innovator/vipul-ved-prakash/), TR35 Innovators, accessed 11 February 2026.  
+11. Pandey, Lipika (2017). [This 63YO Made It Possible for the Deaf-Blind to Read and Send SMS](https://thebetterindia.com/80848/bapsi-arun-mehta-pocket-sms-disabilities-deaf-blind/), The Better India, 1 February 2017, accessed 11 February 2026.  
+12. Save The Internet Campaign (n.d.). [SaveTheInternet.in](https://savetheinternet.in), accessed 11 February 2026.  
+13. Siegel, Lenny (1995). [FREEdom on the Net in India](https://www.wired.com/1995/01/freedom-on-the-net-in-india/), WIRED, January 1995, accessed 11 February 2026.  
+14. Sivaraman, Harichandan (2025). [TogetherAI's Vipul Ved Prakash: Democratising AI access with open source solutions](https://www.forbesindia.com/article/ai-special-2025/togetherais-vipul-ved-prakash-democratising-ai-access-with-opensource-solutions/96063/1), Forbes India, accessed 11 February 2026.  
+15. Software Freedom Law Center, India (n.d.). [Software Freedom Law Center, India](https://sflc.in), accessed 11 February 2026.  
+16. Sonker, Neeraj (2020). [How VSNL launched internet services in India in 1995 when even China hadn't](https://theprint.in/pageturner/excerpt/how-vsnl-launched-internet-services-in-india-in-1995-when-even-china-hadnt/361722/), The Print, 19 February 2020, accessed 11 February 2026.  
+17. World Intellectual Property Organization (2011). [Rishab Aiyer Ghosh](https://www.wipo.int/meetings/en/2011/wipo_cr_wk_ge_11/bios/ghosh.html), WIPO Expert Biographies, accessed 11 February 2026.  
+18. Business Standard (2013). [Newsmaker: Vipul Ved Prakash & Rishab Aiyer Ghosh](https://www.business-standard.com/article/beyond-business/newsmaker-vipul-ved-prakash-rishab-aiyer-ghosh-113120501190_1.html), 5 December 2013, accessed 11 February 2026.  
+
 
