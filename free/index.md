@@ -7,7 +7,7 @@ permalink: /free/
 created: 2026-02-11
 ---
 
-{% include notice.html message="This article is under construction. Details from primary sources, archival materials, and first-hand accounts will be added progressively as they become available. Information, images, and multimedia content will continue to be incorporated. As the content evolves, some sections may be revised or expanded. %}
+{% include notice.html message="This article is under construction. Details from primary sources, archival materials, and first-hand accounts will be added progressively as they become available. Information, images, and multimedia content will continue to be incorporated. As the content evolves, some sections may be revised or expanded." %}
 
 The **Forum for Rights to Electronic Expression** (FREE) was an early Indian digital rights collective established in July 1994, during the formative years of public electronic communication in India. It emerged in response to government attempts to regulate and monetise emerging data networks under colonial-era telecommunications law, particularly through the imposition of prohibitive licensing requirements on hobbyist Bulletin Board Systems (BBS). FREE is widely regarded as one of the earliest organised efforts in India to assert that constitutional freedoms of speech and expression extend to the electronic domain.
 
