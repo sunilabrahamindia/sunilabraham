@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Forum for Rights to Electronic Expression"
+title: "Forum for Rights to Electronic Expression (FREE)"
 description: "The Forum for Rights to Electronic Expression (FREE) was a pioneering Indian digital rights collective formed in 1994, which challenged early state control, censorship, and monopolistic regulation of electronic communication in India."
 categories: [FREE, Institutions]
 permalink: /free/
