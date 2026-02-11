@@ -131,8 +131,6 @@ Arun Mehta's trajectory from IIT Delhi graduate to disability rights activist po
 
 As one of FREE's co-founders, Mehta played a central role in formulating the constitutional arguments that framed internet access as a free speech issue. Beyond FREE's immediate battles, Mehta pioneered work on accessibility technology for persons with disabilities. In 2001, when Professor Stephen Hawking's assistants sought improved communication software, they approached Mehta and his colleague Vickram Crishna. The resulting programme, eLocutor, provided free and open-source software enabling non-verbal disabled individuals to write and speak using minimal physical input. This work reflected Mehta's consistent philosophy that technology should serve human rights rather than restrict them.
 
-In 2002, Mehta initiated the India-GII (Global Information Infrastructure) mailing list, which became a primary forum for internet policy discussion in India through the mid-2000s. The list attracted government officials, telecom industry representatives, journalists, academics, and activists, creating a space for sustained debate about spectrum policy, licensing frameworks, and digital rights. Mehta's moderation style emphasised minimal intervention, allowing robust disagreement whilst maintaining civil discourse.
-
 ### Ashish Gulhati
 
 Ashish Gulhati co-founded FREE in July 1994 alongside Arun Mehta and Rishab Aiyer Ghosh. Gulhati brought deep expertise in cryptography and network security, having been active in India's BBS scene during its formative years. His technical knowledge proved essential in documenting censorship practices and challenging official claims about network management necessity.
