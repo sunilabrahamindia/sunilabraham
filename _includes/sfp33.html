@@ -1,6 +1,6 @@
 <!-- Students for Peace Section -->
 <section class="content-section" id="students-for-peace">
-  <h2 class="section-title">Students for Peace</h2>
+  <h2 class="section-title">✨ Students for Peace</h2>
   <div class="sfp-card">
       <div class="sfp-celebration-ribbon">
     <span class="ribbon-text">Commemoration</span>
@@ -38,7 +38,7 @@
       <!-- Peace demonstration section -->
       <div class="peace-line-section">
         <h3>🌿 Peace!</h3>
-        <p class="peace-subtitle" id="sfp-subtitle"></p>
+        <p class="peace-subtitle">33 candles marking 33 years (1993–2026)</p>
         
         <div class="peace-candle-grid" id="sfp-peaceCandleGrid" role="group" aria-label="Interactive candle memorial"></div>
         
@@ -47,7 +47,7 @@
         </div>
         
         <div class="peace-message" id="sfp-congratsMessage" style="display: none;" role="status" aria-live="polite">
-          🎉 <strong>Congratulations!</strong> <span id="sfp-congratsText"></span>
+          🎉 <strong>Congratulations!</strong> You have lit 33 candles on the 33rd anniversary of Students for Peace.
         </div>
         
         <div class="sfp-button-center">
@@ -951,10 +951,8 @@
   const section = document.getElementById('students-for-peace');
   if (!section) return;
 
-  // Calculate anniversary dynamically
-  const currentYear = new Date().getFullYear();
-  const anniversary = currentYear - 1993;
-  const totalCandles = anniversary;
+  // FIXED: Hardcoded to 33 for this specific commemoration page
+  const totalCandles = 33;
 
   let lightingInterval = null;
   let currentCount = 0;
@@ -962,21 +960,8 @@
   const grid = section.querySelector('#sfp-peaceCandleGrid');
   const counterDisplay = section.querySelector('#sfp-counterDisplay');
   const congratsMessage = section.querySelector('#sfp-congratsMessage');
-  const congratsText = section.querySelector('#sfp-congratsText');
-  const subtitle = section.querySelector('#sfp-subtitle');
   const largeCandleBg = section.querySelector('#sfp-largeCandleBg');
   const toggleLink = section.querySelector('#sfp-toggleLargeCandleLink');
-
-  // Set dynamic subtitle
-  if (subtitle) {
-    subtitle.textContent = totalCandles + ' candles commemorating ' + anniversary + ' years (1993–' + currentYear + ')';
-  }
-
-  // Set dynamic congratulations message
-  if (congratsText) {
-    const suffix = anniversary === 1 ? 'st' : anniversary === 2 ? 'nd' : anniversary === 3 ? 'rd' : 'th';
-    congratsText.textContent = 'You have lit ' + totalCandles + ' candles on the ' + anniversary + suffix + ' anniversary of Students for Peace.';
-  }
 
   function showButton(id) {
     const btn = section.querySelector('#' + id);
