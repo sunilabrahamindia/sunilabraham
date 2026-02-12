@@ -1,130 +1,243 @@
 ---
 layout: default
 title: Students for Peace
-description: Account of the Students for Peace initiative founded by Sunil Abraham in 1993, promoting unity and non-violence among students in Bangalore after the Ayodhya and Bombay riots.
+description: Account of the 1993 Students for Peace initiative in Bangalore, including planning documents, budget proposals, media coverage and the 13 February candlelight demonstration.
 categories: [Sunil Abraham, Students for Peace]
 created: 2025-11-02
 ---
 
-{% include under-construction.html %}
+**Students for Peace (SFP)** was a brief, grassroots student initiative in Bangalore, Karnataka, India, formed in early 1993 in response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the unrest that subsequently affected several Indian cities, most notably Bombay (now Mumbai). Organised by engineering student [Sunil Abraham](/sunil) together with convener Ravindra Walters and a volunteer team, the initiative coordinated outreach to schools and colleges across Bangalore and developed a structured plan for a public demonstration.
 
-**Students for Peace** was a brief, grassroots student movement in Bangalore, Karnataka, India, launched in early 1993 as a response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the subsequent riots in Bombay (now Mumbai). Organised by engineering student [Sunil Abraham](https://sunilabraham.in/sunil) together with convener Ravindra Walters, the initiative sought to create an apolitical platform where young people could stand together for peace and secular values. It culminated in a candlelight demonstration on 13 February 1993 along Mahatma Gandhi Road, drawing around 5,000 students from schools and colleges across the city.
+The campaign culminated in a candlelight vigil held on 13 February 1993 along Mahatma Gandhi Road (M. G. Road) in central Bangalore, drawing thousands of student participants. Contemporary newspaper coverage, along with surviving planning documents and budget proposals, documents the initiative's organisation, scale, and public reception.
 
 ## Contents
 
-1. [Background](#background)
-2. [Formation and aims](#formation-and-aims)
-3. [The demonstration (13 February 1993)](#the-demonstration-13-february-1993)
-4. [Scale and scope](#scale-and-scope)
-5. [Organisation and conduct](#organisation-and-conduct)
-6. [Reception](#reception)
-7. [References](#references)
+1. [Background](#background)  
+2. [Formation and Aims](#formation-and-aims)  
+3. [Timeline](#timeline)  
+4. [Organisational Structure](#organisational-structure)  
+5. [Financial Planning and Logistics](#financial-planning-and-logistics)  
+6. [Mobilisation Mechanism](#mobilisation-mechanism)  
+7. [The Demonstration (13 February 1993)](#the-demonstration-13-february-1993)  
+8. [Scale and Participation](#scale-and-participation)  
+9. [Reception](#reception)  
+10. [Contemporary Media Coverage](#contemporary-media-coverage)  
+11. [Archival Record](#archival-record)  
+12. [References](#references)
 
 ## Background
 
-The early 1990s were a turbulent period in India. On 6 December 1992, the Babri Masjid was demolished in Ayodhya, sparking violent clashes across the country. In January 1993, Bombay experienced especially severe rioting with extensive loss of life and property. These events unsettled communities even in southern cities such as Bangalore, which, though spared large-scale violence, felt the strain of political polarisation and inter-community mistrust.  
+The demolition of the Babri Masjid on 6 December 1992 led to communal unrest in several parts of India. In the weeks that followed, multiple cities experienced violence, most notably Bombay (now Mumbai) in January 1993. Although Bangalore did not witness large-scale rioting, the national atmosphere of political polarisation and inter-community mistrust was widely felt.
 
-In that atmosphere, Sunil Abraham, then a second-year student at Dayananda Sagar College of Engineering under Bangalore University, began reaching out to his peers. Together with Ravindra Walters and other volunteers, he initiated 'Students for Peace' as a non-partisan collective dedicated to promoting unity through symbolic, non-violent action.
+Students for Peace emerged within this context as a student-led initiative seeking to organise a visible but non-partisan expression of solidarity and restraint.
 
-## Formation and aims
+## Formation and Aims
 
-Students for Peace took shape in early February 1993 through word-of-mouth and campus visits. A printed letter was sent to principals across Bangalore, setting out the aims and logistics for a student-led candlelight vigil. The conveners, Ravindra Walters and Sunil A. Abraham, emphasised that the campaign was entirely volunteer-driven and unaffiliated with any political or religious organisation.  
+Students for Peace was formed in early February 1993 through campus outreach and direct communication with school and college administrations. A printed conveners' letter was circulated to principals outlining the objectives of a student-led candlelight vigil and inviting institutional participation.
 
-Roughly eighty volunteers joined the organising team, taking responsibility for publicity, permissions, and crowd coordination. Dignitaries, political parties and prominent citizens were deliberately kept out to avoid any shift in focus, ensuring that the campaign remained an initiative of students alone.
+The initiative described itself as independent of political parties and religious organisations. Public statements and later media reports confirmed that party flags, speeches, and formal dignitaries were deliberately excluded from the event to maintain its character as a student-only platform.
+
+The coordinating address listed in planning documents was:
+
+No. 3291, 12th Main, HAL II Stage, Indiranagar, Bangalore 560 038  
+Telephone: 561042  
 
 <div class="pdf-container">
   <iframe
-    src="https://docs.google.com/gview?url=https://sunilabraham.in/articles/docs/students-for-peace-conveners-letter-1993.pdf&embedded=true"
-    frameborder="0"
+    src="/articles/docs/students-for-peace-conveners-letter-1993.pdf"
     class="pdf-frame"
-    title="Embedded PDF Viewer - Students for Peace Conveners' Letter"
-    loading="lazy"
-  ></iframe>
+    title="Students for Peace Conveners' Letter (February 1993)"
+    loading="lazy">
+  </iframe>
 
   <p class="pdf-download">
-    <a class="btn" href="/articles/docs/students-for-peace-conveners-letter-1993.pdf" download>
+    <a class="btn" href="/articles/docs/students-for-peace-conveners-letter-1993.pdf">
       📄 Download Conveners' Letter (PDF)
     </a>
   </p>
 </div>
 
-## The demonstration (13 February 1993)
+## Timeline
 
-The main event took place on Saturday, 13 February 1993, at Mahatma Gandhi Road (M. G. Road) in central Bangalore, Karnataka. Participants began assembling near the Mahatma Gandhi statue at about 5:30 pm. At 6:30 pm sharp, four ten-year-old children lit a single 'peace candle' at the foot of the statue and passed the flame to four older students from different religions. From there the light was relayed along the line until hundreds of candles glowed in succession down the boulevard towards Brigade Road and Trinity Circle.  
+- 6 December 1992 — Babri Masjid demolished in Ayodhya  
+- January 1993 — Communal violence intensifies in multiple cities, including Bombay  
+- Early February 1993 — Students for Peace formed  
+- 10 February 1993 — Pre-event coverage appears in local newspapers  
+- 13 February 1993 — Candlelight demonstration held on M. G. Road  
+- 14 February 1993 — Post-event coverage published  
 
-Students, most of them dressed in white, sang familiar peace songs such as *We Shall Overcome* and *Shanthi Do*, while others quietly repeated the phrase 'We want peace'.  The police cooperated with organisers to keep traffic moving smoothly and allowed the event to proceed with minimal obstruction.  At one point an anonymous threat prompted temporary barricades around the Gandhi statue, but students were later permitted to approach under supervision and light the main candle.  
+## Organisational Structure
 
-<div align="center" style="width:75%; margin:auto;">
-  <img 
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg?raw=true" 
-    alt="Deccan Herald clipping titled 'Holding a candle for peace', dated 14 February 1993, reporting on the Students for Peace candlelight demonstration held on M.G. Road, Bangalore." 
-    style="width:90%; height:auto; max-width:700px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
-  <p style="font-size:0.9em; color:#555; margin-top:0.5em;">
-    Deccan Herald, 14 February 1993 — report titled 'Holding a candle for peace' describing the Students for Peace demonstration in Bangalore.
-  </p>
-</div>
+Planning documents indicate that approximately eighty volunteers were involved in organising the event. Responsibilities included publicity, permission coordination, crowd management, and institutional outreach.
 
-The gathering continued for roughly two and a half hours, creating what local newspapers described as 'a march of the peace brigade'.  The disciplined manner of the volunteers and the sight of thousands of candles lining M.G. Road were noted as rare moments of calm during a tense national period.
+Volunteers wore white T-shirts during the demonstration and functioned as marshals to maintain order and minimise disruption to traffic.
 
-## Scale and scope
+## Financial Planning and Logistics
 
-The demonstration brought together around 5,000 students drawn from dozens of schools and colleges across Bangalore.  Contemporary reports used varying estimates, but all agreed that turnout was large and the mood overwhelmingly peaceful.  The campaign itself lasted only a few weeks, but its coordination and reach reflected the commitment of young volunteers working without institutional support.
+A written logistics and sponsorship proposal outlined an estimated total budget of ₹68,000. The projected expenditure included:
 
-## Organisation and conduct
+- Posters — ₹9,000  
+- Banners — ₹10,000  
+- Handbills — ₹1,500  
+- Stickers — ₹2,500  
+- T-shirts — ₹40,000  
+- Candles — ₹1,500  
+- Contingency — ₹3,500  
 
-Students for Peace operated on self-discipline.  Volunteers wore white T-shirts and maintained order throughout the event, acting as marshals to ensure safety and unobstructed traffic.  No speeches were made, and there were no banners or party symbols—only candles and hand-drawn placards.  The emphasis was on quiet participation rather than protest.
+The proposal anticipated participation from over 3,000 students representing approximately 60 schools and colleges.
+
+Publicity planning included distribution of 10,000 handbills and 5,000 stickers. Posters were designed by student artists. Sponsorship options were offered, including logo placement on T-shirts and banners, and acknowledgement in promotional materials.
+
+The planned human chain route extended from the Mahatma Gandhi statue along M. G. Road towards Trinity Circle.
+
+## Mobilisation Mechanism
+
+Printed response forms invited students to sign a pledge stating:
+
+> "Yes, I would like to say 'No' to violence and pass on the ray of hope."
+
+The forms collected name, institutional affiliation, address, and signature. This indicates that participation was structured through documented enrolment rather than informal assembly.
+
+## The Demonstration (13 February 1993)
+
+The event took place on Saturday, 13 February 1993, at Mahatma Gandhi Road in central Bangalore. Students assembled near the Gandhi statue around 5:30 pm. At approximately 6:30 pm, four ten-year-old children lit a single peace candle at the statue and passed the flame to older students drawn from different religious backgrounds. The light was relayed along the boulevard, forming a visible chain of candles.
+
+Participants sang songs including "We Shall Overcome" and "Shanthi Do," and repeated the slogan "We want peace." No speeches were delivered. Political symbols were absent.
+
+An anonymous threat prompted temporary police barricading of the statue area, but the ceremony proceeded under supervision.
+
+The demonstration lasted roughly two to three hours.
+
+## Scale and Participation
+
+Pre-event estimates projected participation of over 3,000 students. Post-event reporting estimated attendance at approximately 5,000 participants. Descriptive accounts also referred to “hundreds” lining the boulevard, reflecting varying observational perspectives.
+
+Students were drawn from numerous schools and colleges across Bangalore.
 
 ## Reception
 
-Spectators described the evening as moving and unexpectedly serene.  Newspapers noted the sincerity of the young organisers, quoting a twelve-year-old participant who said simply, 'We don't want any more war'.  A few observers pointed out that the slogans were largely in English, limiting accessibility, but the general response was one of appreciation.  
+Contemporary newspaper reports recorded mixed but largely appreciative reactions.
 
-Students for Peace dissolved soon after the demonstration, having achieved its immediate aim of expressing solidarity and restraint at a time of national anxiety.  In retrospect, the event stands as a small yet significant instance of civic mobilisation—an early example of students using Gandhian symbolism to voice their hopes for peace.  And indeed, there was show of peace.
+A twelve-year-old participant was quoted as saying, "We don't want any more war." An engineer observing the event remarked that it was encouraging to see students lighting candles for peace.
+
+Some observers noted limitations, including the predominance of English-language slogans and the restriction of participation to students rather than the general public.
+
+The coverage documents both expressions of support and instances of measured critique.
+
+<figure class="media-image">
+  <img 
+    src="/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg"
+    alt="Deccan Herald clipping dated 14 February 1993 reporting on the Students for Peace candlelight demonstration held on M. G. Road, Bangalore.">
+  <figcaption>
+    Deccan Herald, 14 February 1993 — report titled "Holding a candle for peace".
+  </figcaption>
+</figure>
+
+
+## Contemporary Media Coverage
+
+The demonstration received coverage in multiple publications:
+
+- *The Hindu*, 10 February 1993 — Pre-event announcement and background report  
+- *Deccan Herald*, 14 February 1993 — Detailed event report  
+- *Deccan Herald*, 14 February 1993 — Public reactions column  
+
+The reports consistently highlighted the absence of political speeches, the disciplined conduct of volunteers, and the symbolic use of candlelight.
+
+## Archival Record
+
+Surviving documentation includes:
+
+- Conveners' letter to educational institutions (February 1993)  
+- Logistics and sponsorship proposal detailing budget and route planning  
+- Printed pledge response form  
+- Contemporary newspaper reports and preserved clippings  
+
+These materials provide a contemporaneous record of the initiative's objectives, organisation, and public reception.
+
+Students for Peace dissolved shortly after the demonstration, having achieved its stated objective of staging the event.
 
 ## References
 
-- *Deccan Herald*, 14 February 1993 — 'Holding a candle for peace'. [Download PDF](/articles/docs/students-for-peace-holding-a-candle-for-peace.pdf)
-- *In the City Today* — local newspaper column reporting eyewitness reactions to the demonstration. [Download PDF](/articles/docs/students-for-peace-in-the-city-today.pdf)
-- Conveners' letter to principals, Students for Peace (13 February 1993). [Download PDF](/articles/docs/students-for-peace-conveners-letter-1993.pdf)
+- The Hindu, 10 February 1993 — "[Light a Candle for Peace](/media/light-a-candle-for-peace-the-hindu/)"  
+- The Hindu, 10 February 1993 — "[Candle for Peace](/media/candle-for-peace-the-hindu/)"  
+- Deccan Herald, 14 February 1993 — "[Holding a Candle for Peace](/media/holding-a-candle-for-peace-deccan-herald/)"  
+- Deccan Herald, 14 February 1993 — "[Candles for Peace](/media/candles-for-peace-deccan-herald/)"  
+- Students for Peace — "[Conveners' Letter (1993)](/articles/docs/students-for-peace-conveners-letter-1993.pdf)"  
+- Students for Peace — "[Logistics and Sponsorship Proposal (1993)](/articles/docs/students-for-peace-logistics.pdf)"
 
 <style>
+/* ---------- PDF Embed ---------- */
+
 .pdf-container {
-  margin: 1.2rem 0;
+  margin: 1.5rem 0;
   text-align: center;
 }
 
 .pdf-frame {
   display: block;
   width: 100%;
-  max-width: 100%;
-  height: 80vh;
+  max-width: 900px;
+  height: 75vh;
   border: 1px solid #ccc;
   border-radius: 8px;
   margin: 0 auto;
+  background: #ffffff;
 }
 
 .pdf-download {
-  margin-top: 0.6rem;
-  font-size: 1rem;
+  margin-top: 0.8rem;
 }
 
-@media (max-width: 768px) {
-  .pdf-frame {
-    height: 65vh;
-  }
+/* ---------- Image Styling ---------- */
+
+.media-image {
+  width: 360px;
+  margin: 1.8rem auto;
+  text-align: center;
 }
 
-/* Accessible button styling */
+.media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* ---------- Accessible Button ---------- */
+
 a.btn {
   display: inline-block;
-  background: #3278d6;
-  color: #fff;
+  background: #1f5fbf;
+  color: #ffffff;
   text-decoration: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 5px;
-  font-size: 0.9rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
   transition: background 0.2s ease;
 }
+
 a.btn:hover {
-  background: #255ea9;
+  background: #174a96;
+}
+
+/* ---------- Mobile Adjustments ---------- */
+
+@media (max-width: 768px) {
+
+  .pdf-frame {
+    height: 60vh;
+  }
+
+  .media-image {
+    width: 90%;
+  }
+
 }
 </style>
