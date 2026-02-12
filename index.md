@@ -18,6 +18,10 @@ created: 2025-10-19
 <nav class="tsap-contents">
   <h2>Contents</h2>
   <div class="contents-grid">
+    <a href="#students-for-peace" class="content-link">
+      <span class="link-icon">🕯️</span>
+      <span>Students for Peace</span>
+    </a>
     <a href="#featured-article" class="content-link">
       <span class="link-icon">📄</span>
       <span>Featured article</span>
@@ -44,6 +48,8 @@ created: 2025-10-19
     </a>
   </div>
 </nav>
+
+{% include sfp33.html %}
 
 <section class="content-section" id="featured-article">
   <h2 class="section-title">Featured article</h2>
