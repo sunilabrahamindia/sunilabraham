@@ -9,3 +9,9 @@ categories: [TSAP Events and Rituals, Students for Peace]
 ---
 
 {% include sfp33.html %}
+
+<style>
+  #students-for-peace .section-title {
+    display: none;
+  }
+</style>
