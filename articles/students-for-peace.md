@@ -6,8 +6,6 @@ categories: [Sunil Abraham, Students for Peace]
 created: 2025-11-02
 ---
 
-**Students for Peace** (SFP) was a brief, grassroots student initiative in Bangalore, Karnataka, India, formed in early 1993 in response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the unrest that subsequently affected several Indian cities across India.
-
 <figure class="sfp-logo">
   <img 
     src="/articles/images/students-for-peace-logo.jpg"
@@ -16,6 +14,8 @@ created: 2025-11-02
     Students for Peace logo used during the February 1993 campaign.
   </figcaption>
 </figure>
+
+**Students for Peace** (SFP) was a brief, grassroots student initiative in Bangalore, Karnataka, India, formed in early 1993 in response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the unrest that subsequently affected several Indian cities across India.
 
 Organised by engineering student [Sunil Abraham](/sunil) together with convener Ravindra Walters and a volunteer team, the initiative coordinated outreach to schools and colleges across Bangalore and developed a structured plan for a public demonstration.
 
