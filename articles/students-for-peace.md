@@ -6,9 +6,22 @@ categories: [Sunil Abraham, Students for Peace]
 created: 2025-11-02
 ---
 
-**Students for Peace (SFP)** was a brief, grassroots student initiative in Bangalore, Karnataka, India, formed in early 1993 in response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the unrest that subsequently affected several Indian cities, most notably Bombay (now Mumbai). Organised by engineering student [Sunil Abraham](/sunil) together with convener Ravindra Walters and a volunteer team, the initiative coordinated outreach to schools and colleges across Bangalore and developed a structured plan for a public demonstration.
+**Students for Peace** (SFP) was a brief, grassroots student initiative in Bangalore, Karnataka, India, formed in early 1993 in response to the communal violence that followed the demolition of the Babri Masjid in Ayodhya and the unrest that subsequently affected several Indian cities across India.
+
+<figure class="sfp-logo">
+  <img 
+    src="/articles/images/students-for-peace-logo.jpg"
+    alt="Students for Peace logo featuring the text 'Light a Candle for Peace' and the SFP emblem, Bangalore, 1993.">
+  <figcaption>
+    Students for Peace logo used during the February 1993 campaign.
+  </figcaption>
+</figure>
+
+Organised by engineering student [Sunil Abraham](/sunil) together with convener Ravindra Walters and a volunteer team, the initiative coordinated outreach to schools and colleges across Bangalore and developed a structured plan for a public demonstration.
 
 The campaign culminated in a candlelight vigil held on 13 February 1993 along Mahatma Gandhi Road (M. G. Road) in central Bangalore, drawing thousands of student participants. Contemporary newspaper coverage, along with surviving planning documents and budget proposals, documents the initiative's organisation, scale, and public reception.
+
+<div class="clear-fix"></div>
 
 ## Contents
 
@@ -27,7 +40,7 @@ The campaign culminated in a candlelight vigil held on 13 February 1993 along Ma
 
 ## Background
 
-The demolition of the Babri Masjid on 6 December 1992 led to communal unrest in several parts of India. In the weeks that followed, multiple cities experienced violence, most notably Bombay (now Mumbai) in January 1993. Although Bangalore did not witness large-scale rioting, the national atmosphere of political polarisation and inter-community mistrust was widely felt.
+The demolition of the Babri Masjid on 6 December 1992 led to communal unrest in several parts of India. In the weeks that followed, multiple cities experienced violence. Although Bangalore did not witness large-scale rioting, the national atmosphere of political polarisation and inter-community mistrust was widely felt.
 
 Students for Peace emerged within this context as a student-led initiative seeking to organise a visible but non-partisan expression of solidarity and restraint.
 
@@ -63,7 +76,7 @@ Telephone: 561042
 ## Timeline
 
 - 6 December 1992 — Babri Masjid demolished in Ayodhya  
-- January 1993 — Communal violence intensifies in multiple cities, including Bombay  
+- January 1993 — Communal violence intensifies in multiple cities  
 - Early February 1993 — Students for Peace formed  
 - 10 February 1993 — Pre-event coverage appears in local newspapers  
 - 13 February 1993 — Candlelight demonstration held on M. G. Road  
@@ -170,10 +183,32 @@ Students for Peace dissolved shortly after the demonstration, having achieved it
 - Students for Peace — "[Logistics and Sponsorship Proposal (1993)](/articles/docs/students-for-peace-logistics.pdf)"
 
 <style>
+
+.sfp-logo {
+  float: right;
+  width: 200px;
+  margin: 0 0 1rem 1.5rem;
+  text-align: center;
+}
+
+.sfp-logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.sfp-logo figcaption {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.4rem;
+}
+
+
 /* ---------- PDF Embed ---------- */
 
 .pdf-container {
-  margin: 1.5rem 0;
+  margin: 1.8rem 0;
   text-align: center;
 }
 
@@ -191,8 +226,6 @@ Students for Peace dissolved shortly after the demonstration, having achieved it
 .pdf-download {
   margin-top: 0.8rem;
 }
-
-/* ---------- Image Styling ---------- */
 
 .media-image {
   width: 450px;
@@ -213,8 +246,6 @@ Students for Peace dissolved shortly after the demonstration, having achieved it
   margin-top: 0.5rem;
 }
 
-/* ---------- Accessible Button ---------- */
-
 a.btn {
   display: inline-block;
   background: #1f5fbf;
@@ -230,9 +261,17 @@ a.btn:hover {
   background: #174a96;
 }
 
-/* ---------- Mobile Adjustments ---------- */
+.clear-fix {
+  clear: both;
+}
 
 @media (max-width: 768px) {
+
+  .sfp-logo {
+    float: none;
+    width: 80%;
+    margin: 1.5rem auto;
+  }
 
   .pdf-frame {
     height: 60vh;
@@ -243,4 +282,6 @@ a.btn:hover {
   }
 
 }
+
 </style>
+
