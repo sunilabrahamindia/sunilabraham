@@ -76,11 +76,6 @@ This report was published the day after the candlelight demonstration held on 13
 
 The article also captured critical responses from observers, noting concerns about language accessibility and participation restrictions. Unlike the pre-event announcements, this report reflected on the demonstration as it unfolded and recorded impressions from members of the public present at the site.
 
-
-### TSAP Editorial Note
-
-The full text of this article is not available in the archived scan presently held. Portions of the final paragraphs are missing due to limitations in the preserved clipping. The transcription above reproduces verbatim all legible portions of the article.
-
 <style>
 .media-details {
   background: #f9fbfe;
@@ -107,7 +102,7 @@ The full text of this article is not available in the archived scan presently he
 }
 
 .media-image {
-  width: 200px;
+  width: 300px;
   margin: 1rem auto 1.8rem auto;
   text-align: center;
 }
