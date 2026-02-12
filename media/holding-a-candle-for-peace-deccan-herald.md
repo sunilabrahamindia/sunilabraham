@@ -2,7 +2,7 @@
 layout: default
 title: "Holding a Candle for Peace"
 description: "A Deccan Herald report from 14 February 1993 documenting a candlelight demonstration organised by Students for Peace on M. G. Road, Bangalore."
-categories: [Media mentions]
+categories: [Media mentions, Students for Peace]
 date: 1993-02-14
 source: "Deccan Herald"
 permalink: /media/holding-a-candle-for-peace-deccan-herald/
