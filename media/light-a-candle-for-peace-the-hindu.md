@@ -84,34 +84,27 @@ This announcement appeared three days before the demonstration took place on 13 
   color: #555;
 }
 
-/* Desktop layout: float image right */
+/* Desktop image: centred, 200px */
 .media-image {
-  float: right;
-  margin: 0 0 1rem 1.5rem;
-  max-width: 150px;
+  width: 200px;
+  margin: 1.2rem auto;
+  text-align: center;
 }
 
 .media-image img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .media-image figcaption {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #555;
-  margin-top: 0.5rem;
-  text-align: center;
+  margin-top: 0.4rem;
 }
 
-/* Clear float after content */
-.highlighted-text::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
+/* Highlighted article text */
 .highlighted-text {
   background-color: #fffbea;
   border-left: 4px solid #f2ce61;
@@ -146,10 +139,7 @@ This announcement appeared three days before the demonstration took place on 13 
 /* Mobile layout */
 @media (max-width: 768px) {
   .media-image {
-    float: none;
-    margin: 1rem auto;
-    max-width: 90%;
-    text-align: center;
+    width: 90%;
   }
 }
 </style>
