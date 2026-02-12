@@ -35,14 +35,6 @@ categories: [Students for Peace, TSAP Events and Rituals]
     border: 3px solid rgba(74, 144, 226, 0.25);
   }
   
-  #students-for-peace .sfp-celebration-ribbon {
-    top: 25px;
-  }
-  
-  #students-for-peace .ribbon-text {
-    font-size: 1rem;
-    padding: 0.6rem 1.8rem 0.6rem 1.2rem;
-  }
 </style>
 
 {% include sfp33.html %}
