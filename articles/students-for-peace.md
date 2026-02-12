@@ -196,7 +196,7 @@ Students for Peace dissolved shortly after the demonstration, having achieved it
 
 .sfp-logo {
   float: right;
-  width: 120px;
+  width: 160px;
   margin: 0 0 1rem 1.5rem;
   text-align: center;
 }
@@ -296,7 +296,7 @@ a.btn:hover {
   /* ---------- Gandhi Sticker ---------- */
 
 .sfp-sticker {
-  max-width: 700px;
+  max-width: 350px;
   width: 70%;
   margin: 2rem auto;
   text-align: center;
