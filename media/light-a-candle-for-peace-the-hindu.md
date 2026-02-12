@@ -89,7 +89,7 @@ This announcement appeared three days before the demonstration took place on 13 
 
 /* Archival thumbnail style */
 .media-image {
-  width: 300px;
+  width: 400px;
   margin: 1rem auto 1.8rem auto;
   text-align: center;
 }
@@ -146,3 +146,23 @@ This announcement appeared three days before the demonstration took place on 13 
   }
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.copy-btn-full').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const target = document.querySelector(btn.getAttribute('data-copytarget'));
+      if (!target) return;
+      try {
+        await navigator.clipboard.writeText(target.innerText.trim());
+        const original = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => (btn.textContent = original), 1500);
+      } catch (e) {
+        btn.textContent = 'Copy failed';
+        setTimeout(() => (btn.textContent = 'Copy Full Text'), 1500);
+      }
+    });
+  });
+});
+</script>
