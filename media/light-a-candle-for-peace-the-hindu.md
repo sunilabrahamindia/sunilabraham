@@ -15,7 +15,8 @@ created: 2026-02-12
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
-3. [Context and Background](#context-and-background)
+3. [Newspaper Clipping](#newspaper-clipping)  
+4. [Context and Background](#context-and-background)
 
 ## Article Details
 
@@ -37,14 +38,6 @@ created: 2026-02-12
 
 <div class="highlighted-text" id="fulltext">
 
-<figure class="media-image">
-  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-the-hindu-1993-02-10.jpg"
-       alt="Newspaper clipping titled 'Light a Candle for Peace' published in The Hindu on 10 February 1993, announcing a Students for Peace candlelight demonstration in Bangalore.">
-  <figcaption>
-    Newspaper clipping of "Light a Candle for Peace", <em>The Hindu</em>, 10 February 1993.
-  </figcaption>
-</figure>
-
 <p><strong>BANGALORE, Feb. 9.</strong></p>
 
 <p>"Light a candle for Peace" will be organised by Students for Peace here on Saturday. The peace demonstration will start at 5-30 p.m. on that day with thousands of college and school students assembling near Gandhi statue. As dusk falls the candles will be lit from a common flame and passed on to others to form a line along M.G. Road at least up to the junction of Kamaraj Road.</p>
@@ -53,7 +46,17 @@ created: 2026-02-12
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
-{% include back-to-top.html %}
+## Newspaper Clipping
+
+<figure class="media-image" id="newspaper-clipping">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-the-hindu-1993-02-10.jpg">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-the-hindu-1993-02-10.jpg"
+         alt="Newspaper clipping titled 'Light a Candle for Peace' published in The Hindu on 10 February 1993, announcing a Students for Peace candlelight demonstration in Bangalore.">
+  </a>
+  <figcaption>
+    Newspaper clipping of "Light a Candle for Peace", <em>The Hindu</em>, 10 February 1993.
+  </figcaption>
+</figure>
 
 ## Context and Background
 
@@ -84,23 +87,23 @@ This announcement appeared three days before the demonstration took place on 13 
   color: #555;
 }
 
-/* Desktop image: centred, 200px */
+/* Archival thumbnail style */
 .media-image {
   width: 200px;
-  margin: 1.2rem auto;
+  margin: 1rem auto 1.8rem auto;
   text-align: center;
 }
 
 .media-image img {
   width: 100%;
   height: auto;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
 
 .media-image figcaption {
-  font-size: 0.85rem;
-  color: #555;
+  font-size: 0.8rem;
+  color: #666;
   margin-top: 0.4rem;
 }
 
@@ -139,27 +142,7 @@ This announcement appeared three days before the demonstration took place on 13 
 /* Mobile layout */
 @media (max-width: 768px) {
   .media-image {
-    width: 90%;
+    width: 85%;
   }
 }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.copy-btn-full').forEach(btn => {
-    btn.addEventListener('click', async () => {
-      const target = document.querySelector(btn.getAttribute('data-copytarget'));
-      if (!target) return;
-      try {
-        await navigator.clipboard.writeText(target.innerText.trim());
-        const original = btn.textContent;
-        btn.textContent = 'Copied!';
-        setTimeout(() => (btn.textContent = original), 1500);
-      } catch (e) {
-        btn.textContent = 'Copy failed';
-        setTimeout(() => (btn.textContent = 'Copy Full Text'), 1500);
-      }
-    });
-  });
-});
-</script>
