@@ -42,19 +42,22 @@ The coordinating address listed in planning documents was:
 No. 3291, 12th Main, HAL II Stage, Indiranagar, Bangalore 560 038  
 Telephone: 561042  
 
-<iframe
-  src="https://docs.google.com/gview?url=https://sunilabraham.in/articles/docs/students-for-peace-conveners-letter-1993.pdf&embedded=true"
-  class="pdf-frame"
-  title="Students for Peace Conveners' Letter (February 1993)"
-  loading="lazy"
-  allowfullscreen>
-</iframe>
+<div class="pdf-container">
+
+  <iframe
+    src="https://docs.google.com/gview?url=https://sunilabraham.in/articles/docs/students-for-peace-conveners-letter-1993.pdf&embedded=true"
+    class="pdf-frame"
+    title="Students for Peace Conveners' Letter (February 1993)"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
 
   <p class="pdf-download">
     <a class="btn" href="/articles/docs/students-for-peace-conveners-letter-1993.pdf" download>
       📄 Download Conveners' Letter (PDF)
     </a>
   </p>
+
 </div>
 
 ## Timeline
