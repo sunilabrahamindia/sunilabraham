@@ -1,0 +1,263 @@
+<!-- Students for Peace Section -->
+<section class="content-section" id="students-for-peace">
+  <h2 class="section-title">Students for Peace</h2>
+  <div class="sfp-card">
+    <!-- Single centered background candle -->
+    <div class="sfp-candles-bg">
+      <div class="sfp-candle">
+        <div class="sfp-flame-container">
+          <div class="sfp-flame">
+            <div class="sfp-flame-core"></div>
+          </div>
+          <div class="sfp-wick"></div>
+        </div>
+        <div class="sfp-candle-body"></div>
+        <div class="sfp-candle-base"></div>
+      </div>
+    </div>
+
+    <div class="sfp-content">
+      <p>On 13 February 1993, approximately 5,000 school and college students gathered along Mahatma Gandhi Road in Bangalore for a candlelight demonstration organised by Students for Peace. The event emerged in response to communal tensions following the Babri Masjid demolition on 6 December 1992 and subsequent violence across India. At dusk, students lit candles from a common flame at the Gandhi statue, passing light down the boulevard in a symbolic gesture of unity and non-violence.</p>
+      
+      <p>Students for Peace was initiated by engineering student Sunil Abraham from Dayananda Sagar College of Engineering, working alongside Ravindra Walters from St. Joseph's College. The platform deliberately excluded political organisations, religious groups, and prominent figures to maintain its character as an independent student-led initiative. Around 80 volunteers coordinated logistics, permissions, and crowd management with minimal institutional backing, relying instead on grassroots networks and voluntary contributions.</p>
+      
+      <a href="/articles/students-for-peace/" class="btn-primary">Read full article →</a>
+    </div>
+  </div>
+</section>
+
+<style>
+.sfp-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-left: 5px solid #4a90e2;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Centered background candle - TALLER & NARROWER */
+.sfp-candles-bg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(2.5) scaleX(0.85) scaleY(1.2); /* scaleX narrower, scaleY taller */
+  opacity: 0.35;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Individual candle */
+.sfp-candle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Flame container */
+.sfp-flame-container {
+  position: relative;
+  width: 40px;
+  height: 70px;
+  margin-bottom: -10px;
+}
+
+/* Realistic flame */
+.sfp-flame {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 55px;
+}
+
+/* Blue base of flame */
+.sfp-flame::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 12px;
+  background: radial-gradient(ellipse at center bottom,
+              rgba(70, 150, 255, 0.8) 0%,
+              rgba(100, 180, 255, 0.6) 40%,
+              transparent 80%);
+  border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  animation: baseFlicker 1s ease-in-out infinite alternate;
+}
+
+/* Orange outer flame */
+.sfp-flame::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 22px;
+  height: 50px;
+  background: linear-gradient(to top,
+              rgba(255, 100, 0, 0) 0%,
+              rgba(255, 120, 0, 0.7) 15%,
+              rgba(255, 150, 30, 0.9) 35%,
+              rgba(255, 180, 50, 0.8) 60%,
+              rgba(255, 200, 100, 0.4) 85%,
+              transparent 100%);
+  border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+  clip-path: polygon(50% 0%, 80% 15%, 95% 40%, 100% 70%, 90% 90%, 50% 100%, 10% 90%, 0% 70%, 5% 40%, 20% 15%);
+  animation: outerFlame 1.5s ease-in-out infinite alternate;
+}
+
+/* Yellow-white inner core */
+.sfp-flame-core {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 38px;
+  background: linear-gradient(to top,
+              rgba(255, 230, 150, 0) 0%,
+              rgba(255, 240, 180, 0.9) 20%,
+              rgba(255, 250, 220, 1) 50%,
+              rgba(255, 255, 240, 0.9) 75%,
+              rgba(255, 255, 255, 0.6) 90%,
+              transparent 100%);
+  border-radius: 50% 50% 50% 50% / 80% 80% 20% 20%;
+  clip-path: polygon(50% 0%, 70% 10%, 85% 30%, 90% 60%, 80% 85%, 50% 100%, 20% 85%, 10% 60%, 15% 30%, 30% 10%);
+  animation: innerCore 1.2s ease-in-out infinite alternate;
+}
+
+/* Wick */
+.sfp-wick {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 12px;
+  background: linear-gradient(to top, #0a0a0a 0%, #2a2a2a 70%, #4a4a4a 100%);
+  border-radius: 1px;
+}
+
+/* Candle body */
+.sfp-candle-body {
+  width: 40px;
+  height: 120px;
+  background: linear-gradient(to right,
+              #d4c4a8 0%,
+              #f5f0e1 20%,
+              #fffef5 50%,
+              #f5f0e1 80%,
+              #d4c4a8 100%);
+  border-radius: 3px 3px 0 0;
+  box-shadow: inset 4px 0 12px rgba(0,0,0,0.2),
+              inset -4px 0 12px rgba(0,0,0,0.2),
+              inset 0 -8px 15px rgba(0,0,0,0.15);
+  position: relative;
+}
+
+.sfp-candle-body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: radial-gradient(ellipse at center,
+              #fffef5 0%,
+              #f5f0e1 60%,
+              #d4c4a8 100%);
+  border-radius: 50%;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.25);
+}
+
+/* Candle base */
+.sfp-candle-base {
+  width: 50px;
+  height: 15px;
+  background: linear-gradient(to bottom,
+              #9d8269 0%,
+              #7d6850 50%,
+              #5d4838 100%);
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5),
+              inset 0 1px 2px rgba(255,255,255,0.15);
+}
+
+/* Flame animations */
+@keyframes outerFlame {
+  0% {
+    transform: translateX(-50%) scaleY(1) scaleX(1) translateY(0);
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1.08) scaleX(0.94) translateY(-3px);
+    opacity: 0.95;
+  }
+}
+
+@keyframes innerCore {
+  0% {
+    transform: translateX(-50%) scaleY(1) scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) scaleY(1.05) scaleX(0.96);
+    opacity: 0.9;
+  }
+}
+
+@keyframes baseFlicker {
+  0% {
+    transform: translateX(-50%) scaleX(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(-50%) scaleX(1.15);
+    opacity: 0.9;
+  }
+}
+
+/* Content wrapper */
+.sfp-content {
+  position: relative;
+  z-index: 1;
+}
+
+.sfp-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.sfp-content p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .sfp-card {
+    padding: 1.5rem;
+  }
+  
+  .sfp-candles-bg {
+    opacity: 0.25;
+    transform: translate(-50%, -50%) scale(1.8) scaleX(0.85) scaleY(1.2);
+  }
+}
+
+@media (max-width: 480px) {
+  .sfp-card {
+    padding: 1.25rem;
+  }
+  
+  .sfp-candles-bg {
+    opacity: 0.2;
+    transform: translate(-50%, -50%) scale(1.2) scaleX(0.85) scaleY(1.2);
+  }
+}
+</style>
