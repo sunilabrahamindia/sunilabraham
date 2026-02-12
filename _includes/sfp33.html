@@ -2,7 +2,9 @@
 <section class="content-section" id="students-for-peace">
   <h2 class="section-title">✨ Students for Peace</h2>
   <div class="sfp-card">
-    
+      <div class="sfp-celebration-ribbon">
+    <span class="ribbon-text">Commemoration</span>
+  </div>
     <div class="sfp-content">
       <div class="sfp-text-with-bg">
         <!-- Large background candle (shown by default) -->
@@ -92,6 +94,94 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
+}
+  /* Commemoration ribbon tag */
+.sfp-celebration-ribbon {
+  position: absolute;
+  top: 20px;
+  left: -5px;
+  z-index: 10;
+}
+
+.ribbon-text {
+  display: inline-block;
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  color: #fff;
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(220, 38, 38, 0.4);
+}
+
+/* Ribbon fold effect */
+.ribbon-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid #7f1d1d;
+  border-bottom: 8px solid transparent;
+}
+
+/* Ribbon point */
+.ribbon-text::after {
+  content: '';
+  position: absolute;
+  right: -12px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #b91c1c;
+  border-right: 12px solid transparent;
+  border-bottom: 20px solid #b91c1c;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .sfp-celebration-ribbon {
+    top: 15px;
+  }
+  
+  .ribbon-text {
+    padding: 0.4rem 1.2rem 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+  
+  .ribbon-text::after {
+    border-top: 17px solid #b91c1c;
+    border-right: 10px solid transparent;
+    border-bottom: 17px solid #b91c1c;
+    right: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sfp-celebration-ribbon {
+    top: 12px;
+  }
+  
+  .ribbon-text {
+    padding: 0.35rem 1rem 0.35rem 0.7rem;
+    font-size: 0.75rem;
+  }
+  
+  .ribbon-text::before {
+    border-left: 4px solid #7f1d1d;
+    border-bottom: 6px solid transparent;
+    bottom: -6px;
+  }
+  
+  .ribbon-text::after {
+    border-top: 14px solid #b91c1c;
+    border-right: 8px solid transparent;
+    border-bottom: 14px solid #b91c1c;
+    right: -8px;
+  }
 }
 
 /* Large background candle - ONLY behind the two paragraphs */
