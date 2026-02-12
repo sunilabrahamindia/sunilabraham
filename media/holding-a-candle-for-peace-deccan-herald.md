@@ -15,7 +15,8 @@ created: 2026-02-11
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
-3. [Context and Background](#context-and-background)
+3. [Newspaper Clipping](#newspaper-clipping)  
+4. [Context and Background](#context-and-background)
 
 ## Article Details
 
@@ -34,16 +35,6 @@ created: 2026-02-11
 </dl>
 
 ## Full Text
-
-<div align="center" style="width:75%; margin:auto;">
-  <img 
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg?raw=true" 
-    alt="Deccan Herald clipping titled 'Holding a candle for peace', dated 14 February 1993, reporting on the Students for Peace candlelight demonstration held on M.G. Road, Bangalore." 
-    style="width:90%; height:auto; max-width:700px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
-  <p style="font-size:0.9em; color:#555; margin-top:0.5em;">
-    Deccan Herald, 14 February 1993 — newspaper clipping of the article 'Holding a candle for peace' covering the Students for Peace candlelight march on M. G. Road, Bangalore.
-  </p>
-</div>
 
 <div class="highlighted-text" id="fulltext">
 
@@ -72,6 +63,18 @@ created: 2026-02-11
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
+## Newspaper Clipping
+
+<figure class="media-image" id="newspaper-clipping">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg"
+         alt="Deccan Herald newspaper clipping titled 'Holding a candle for peace', dated 14 February 1993, covering the Students for Peace candlelight demonstration in Bangalore.">
+  </a>
+  <figcaption>
+    Deccan Herald, 14 February 1993 — newspaper clipping of "Holding a candle for peace".
+  </figcaption>
+</figure>
+
 {% include back-to-top.html %}
 
 ## Context and Background
@@ -81,7 +84,6 @@ This report appeared one day after the candlelight demonstration took place on 1
 Students for Peace was initiated by engineering student Sunil Abraham and Ravindra Walters. The platform excluded political organisations, religious groups, and prominent figures to maintain its character as an independent student-led initiative. Around 80 volunteers coordinated logistics, permissions, and crowd management with little institutional backing.
 
 The demonstration drew roughly 5,000 participants from various schools and colleges across Bangalore. Its disciplined execution and symbolic use of candlelight aligned with Gandhian principles of non-violence and collective witness. The event concluded within hours, and the organisation dissolved soon afterwards, having achieved its immediate purpose of expressing solidarity during a fractured national moment.
-
 
 <style>
 .media-details {
@@ -96,15 +98,37 @@ The demonstration drew roughly 5,000 participants from various schools and colle
   color: #333;
   box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
+
 .media-details dt {
   font-weight: 600;
   color: #1b2a49;
   margin-top: 0.7rem;
 }
+
 .media-details dd {
   margin: 0 0 0.3rem 0.3rem;
   color: #555;
 }
+
+.media-image {
+  width: 200px;
+  margin: 1rem auto 1.8rem auto;
+  text-align: center;
+}
+
+.media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.media-image figcaption {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.4rem;
+}
+
 .highlighted-text {
   background-color: #fffbea;
   border-left: 4px solid #f2ce61;
@@ -115,9 +139,11 @@ The demonstration drew roughly 5,000 participants from various schools and colle
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   margin-bottom: 0.8rem;
 }
+
 .highlighted-text p {
   margin-bottom: 1rem;
 }
+
 .copy-btn-full {
   display: inline-block;
   background: #f1f1f1;
@@ -129,8 +155,15 @@ The demonstration drew roughly 5,000 participants from various schools and colle
   transition: background 0.2s ease;
   margin-bottom: 1.5rem;
 }
+
 .copy-btn-full:hover {
   background: #e5e5e5;
+}
+
+@media (max-width: 768px) {
+  .media-image {
+    width: 85%;
+  }
 }
 </style>
 
