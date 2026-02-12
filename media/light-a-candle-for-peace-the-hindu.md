@@ -88,7 +88,7 @@ This announcement appeared three days before the demonstration took place on 13 
 .media-image {
   float: right;
   margin: 0 0 1rem 1.5rem;
-  max-width: 420px;
+  max-width: 150px;
 }
 
 .media-image img {
