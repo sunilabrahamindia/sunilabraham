@@ -38,7 +38,7 @@ created: 2026-02-12
 <div class="highlighted-text" id="fulltext">
 
 <figure class="media-image">
-  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-the-hindu-1992-02-10.jpg"
+  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-candle-for-peace.jpg"
        alt="Newspaper clipping titled 'Light a Candle for Peace' published in The Hindu on 10 February 1993, announcing a Students for Peace candlelight demonstration in Bangalore.">
   <figcaption>
     Newspaper clipping of "Light a Candle for Peace", <em>The Hindu</em>, 10 February 1993.
