@@ -15,7 +15,8 @@ created: 2026-02-12
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
-3. [Context and Background](#context-and-background)
+3. [Newspaper Clipping](#newspaper-clipping)  
+4. [Context and Background](#context-and-background)
 
 ## Article Details
 
@@ -37,14 +38,6 @@ created: 2026-02-12
 
 <div class="highlighted-text" id="fulltext">
 
-<figure class="media-image">
-  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-the-hindu-1992-02-10.jpg"
-       alt="Newspaper clipping titled 'Light a Candle for Peace' published in The Hindu on 10 February 1993, announcing a Students for Peace candlelight demonstration in Bangalore.">
-  <figcaption>
-    Newspaper clipping of "Light a Candle for Peace", <em>The Hindu</em>, 10 February 1993.
-  </figcaption>
-</figure>
-
 <p><strong>BANGALORE:</strong></p>
 
 <p>IF you thought that today's urban teenagers are only tuned in to 10,000 Maniacs or Toad the Wet Sprocket, you can think again. The Ayodhya demolition disturbed them just as much as it did, every sensible adult.</p>
@@ -58,6 +51,18 @@ created: 2026-02-12
 </div>
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
+
+## Newspaper Clipping
+
+<figure class="media-image" id="newspaper-clipping">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-candle-for-peace.jpg">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/articles/images/students-for-peace-candle-for-peace.jpg"
+         alt="Newspaper clipping titled 'Candle for Peace' published in The Hindu on 10 February 1993 describing the Students for Peace demonstration in Bangalore.">
+  </a>
+  <figcaption>
+    Newspaper clipping of "Candle for Peace", <em>The Hindu</em>, 10 February 1993.
+  </figcaption>
+</figure>
 
 {% include back-to-top.html %}
 
@@ -78,31 +83,37 @@ This news report appeared three days before the planned demonstration on 13 Febr
   color: #333;
   box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
+
 .media-details dt {
   font-weight: 600;
   color: #1b2a49;
   margin-top: 0.7rem;
 }
+
 .media-details dd {
   margin: 0 0 0.3rem 0.3rem;
   color: #555;
 }
+
 .media-image {
+  width: 200px;
+  margin: 1rem auto 1.8rem auto;
   text-align: center;
-  margin: 1.5rem auto;
-  max-width: 720px;
 }
+
 .media-image img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
+
 .media-image figcaption {
-  font-size: 0.9rem;
-  color: #555;
-  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.4rem;
 }
+
 .highlighted-text {
   background-color: #fffbea;
   border-left: 4px solid #f2ce61;
@@ -113,9 +124,11 @@ This news report appeared three days before the planned demonstration on 13 Febr
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   margin-bottom: 0.8rem;
 }
+
 .highlighted-text p {
   margin-bottom: 1rem;
 }
+
 .copy-btn-full {
   display: inline-block;
   background: #f1f1f1;
@@ -127,8 +140,15 @@ This news report appeared three days before the planned demonstration on 13 Febr
   transition: background 0.2s ease;
   margin-bottom: 1.5rem;
 }
+
 .copy-btn-full:hover {
   background: #e5e5e5;
+}
+
+@media (max-width: 768px) {
+  .media-image {
+    width: 85%;
+  }
 }
 </style>
 
