@@ -72,31 +72,46 @@ This announcement appeared three days before the demonstration took place on 13 
   color: #333;
   box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
+
 .media-details dt {
   font-weight: 600;
   color: #1b2a49;
   margin-top: 0.7rem;
 }
+
 .media-details dd {
   margin: 0 0 0.3rem 0.3rem;
   color: #555;
 }
+
+/* Desktop layout: float image right */
 .media-image {
-  text-align: center;
-  margin: 1.5rem auto;
-  max-width: 720px;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 420px;
 }
+
 .media-image img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
 .media-image figcaption {
   font-size: 0.9rem;
   color: #555;
   margin-top: 0.5rem;
+  text-align: center;
 }
+
+/* Clear float after content */
+.highlighted-text::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .highlighted-text {
   background-color: #fffbea;
   border-left: 4px solid #f2ce61;
@@ -107,9 +122,11 @@ This announcement appeared three days before the demonstration took place on 13 
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   margin-bottom: 0.8rem;
 }
+
 .highlighted-text p {
   margin-bottom: 1rem;
 }
+
 .copy-btn-full {
   display: inline-block;
   background: #f1f1f1;
@@ -121,8 +138,19 @@ This announcement appeared three days before the demonstration took place on 13 
   transition: background 0.2s ease;
   margin-bottom: 1.5rem;
 }
+
 .copy-btn-full:hover {
   background: #e5e5e5;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .media-image {
+    float: none;
+    margin: 1rem auto;
+    max-width: 90%;
+    text-align: center;
+  }
 }
 </style>
 
