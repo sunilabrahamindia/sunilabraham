@@ -186,7 +186,7 @@ Students for Peace dissolved shortly after the demonstration, having achieved it
 
 .sfp-logo {
   float: right;
-  width: 200px;
+  width: 120px;
   margin: 0 0 1rem 1.5rem;
   text-align: center;
 }
