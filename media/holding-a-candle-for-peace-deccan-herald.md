@@ -111,7 +111,7 @@ The demonstration drew roughly 5,000 participants from various schools and colle
 }
 
 .media-image {
-  width: 400px;
+  width: 550px;
   margin: 1rem auto 1.8rem auto;
   text-align: center;
 }
