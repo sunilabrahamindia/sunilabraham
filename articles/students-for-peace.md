@@ -2,7 +2,7 @@
 layout: default
 title: Students for Peace
 description: Account of the Students for Peace initiative founded by Sunil Abraham in 1993, promoting unity and non-violence among students in Bangalore after the Ayodhya and Bombay riots.
-categories: [Sunil Abraham]
+categories: [Sunil Abraham, Students for Peace]
 created: 2025-11-02
 ---
 
