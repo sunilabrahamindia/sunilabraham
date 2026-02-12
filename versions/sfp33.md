@@ -5,7 +5,7 @@ description: "Commemorating the 33rd anniversary of the Students for Peace candl
 permalink: /sfp33/
 date: 2026-02-13
 created: 2026-02-12
-categories: [TSAP Events and Rituals, Students for Peace]
+categories: [Students for Peace, TSAP Events and Rituals]
 ---
 
 <style>
