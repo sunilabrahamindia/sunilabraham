@@ -11,7 +11,7 @@ created: 2025-11-02
     src="/articles/images/students-for-peace-logo.jpg"
     alt="Students for Peace logo featuring the text 'Light a Candle for Peace' and the SFP emblem, Bangalore, 1993.">
   <figcaption>
-    Students for Peace logo used during the February 1993 campaign.
+    Students for Peace logo.
   </figcaption>
 </figure>
 
@@ -106,6 +106,17 @@ Publicity planning included distribution of 10,000 handbills and 5,000 stickers.
 
 The planned human chain route extended from the Mahatma Gandhi statue along M. G. Road towards Trinity Circle.
 
+The coverage documents both expressions of support and instances of measured critique.
+
+<figure class="sfp-sticker">
+  <img 
+    src="/articles/images/students-for-peace-m-k-gandhi.jpg"
+    alt="Students for Peace sticker featuring the quote 'An eye for an eye makes the whole world blind' attributed to M. K. Gandhi.">
+  <figcaption>
+    Sticker used during the Students for Peace campaign featuring a quote attributed to M. K. Gandhi.
+  </figcaption>
+</figure>
+
 ## Mobilisation Mechanism
 
 Printed response forms invited students to sign a pledge stating:
@@ -148,7 +159,6 @@ The coverage documents both expressions of support and instances of measured cri
     Deccan Herald, 14 February 1993 — report titled "Holding a candle for peace".
   </figcaption>
 </figure>
-
 
 ## Contemporary Media Coverage
 
@@ -283,5 +293,35 @@ a.btn:hover {
 
 }
 
+  /* ---------- Gandhi Sticker ---------- */
+
+.sfp-sticker {
+  max-width: 700px;
+  width: 70%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.sfp-sticker img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.sfp-sticker figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.6rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .sfp-sticker {
+    width: 85%;
+  }
+
+}
 </style>
 
