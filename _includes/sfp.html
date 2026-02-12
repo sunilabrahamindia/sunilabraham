@@ -6,8 +6,8 @@
     <div class="sfp-content">
       <!-- Background candle ONLY behind these two paragraphs -->
       <div class="sfp-text-with-bg">
-        <!-- Large background candle (hidden by default) -->
-<div class="sfp-candles-bg" id="sfp-largeCandleBg" style="display: block;">
+        <!-- Large background candle (shown by default) -->
+        <div class="sfp-candles-bg" id="sfp-largeCandleBg" style="display: block;">
           <div class="sfp-candle">
             <div class="sfp-flame-container">
               <div class="sfp-flame-glow lit"></div>
@@ -21,16 +21,17 @@
           </div>
         </div>
 
-        <p>On 13 February 1993, approximately 5,000 school and college students gathered along Mahatma Gandhi Road in Bangalore for a candlelight demonstration organised by Students for Peace. The event emerged in response to communal tensions following the Babri Masjid demolition on 6 December 1992 and subsequent violence across India. At dusk, students lit candles from a common flame at the Gandhi statue, passing light down the boulevard in a symbolic gesture of unity and non-violence.</p>
+     <p class="sfp-years-ago">33 Years Ago...</p>
+        <p>On 13 February 1993, approximately 5,000 school and college students gathered along Mahatma Gandhi Road in Bangalore for a candlelight demonstration organised by <a href="/articles/students-for-peace/"><strong>Students for Peace</strong></a>. The event emerged in response to communal tensions following the Babri Masjid demolition on 6 December 1992 and subsequent violence across India. At dusk, students lit candles from a common flame at the Gandhi statue, passing light down the boulevard in a symbolic gesture of unity and non-violence.</p>
         
         <p>Students for Peace was initiated by engineering student Sunil Abraham from Dayananda Sagar College of Engineering, working alongside Ravindra Walters from St. Joseph's College. The platform deliberately excluded political organisations, religious groups, and prominent figures to maintain its character as an independent student-led initiative. Around 80 volunteers coordinated logistics, permissions, and crowd management with minimal institutional backing, relying instead on grassroots networks and voluntary contributions.</p>
       </div>
       
       <!-- Show/Hide candle link - right aligned -->
       <div class="sfp-candle-toggle-line">
-       <button type="button" class="sfp-candle-link" id="sfp-toggleLargeCandleLink" aria-expanded="true" aria-controls="sfp-largeCandleBg">
-  🕯️ <strong>Hide candle</strong>
-
+        <button type="button" class="sfp-candle-link" id="sfp-toggleLargeCandleLink" aria-expanded="true" aria-controls="sfp-largeCandleBg">
+          🕯️ <strong>Hide candle</strong>
+        </button>
       </div>
       
       <!-- Peace demonstration section -->
@@ -99,7 +100,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%) scale(2.5) scaleX(0.85) scaleY(1.2);
+  transform: translate(-50%, -50%) scale(1.5) scaleX(0.85) scaleY(1.2);
   opacity: 0.35;
   z-index: 0;
   pointer-events: none;
@@ -380,6 +381,14 @@
   z-index: 1;
 }
 
+.sfp-years-ago {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem !important;
+  color: #0a2e57;
+}
+
 /* Center aligned button container */
 .sfp-button-center {
   text-align: center;
@@ -548,7 +557,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 1.2px;
-  height: 5px;
+  height: 8px;
   background: linear-gradient(to top, #0a0a0a 0%, #2a2a2a 70%, #4a4a4a 100%);
   z-index: 1;
 }
