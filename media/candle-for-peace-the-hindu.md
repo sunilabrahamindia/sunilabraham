@@ -96,7 +96,7 @@ This news report appeared three days before the planned demonstration on 13 Febr
 }
 
 .media-image {
-  width: 350px;
+  width: 300px;
   margin: 1rem auto 1.8rem auto;
   text-align: center;
 }
