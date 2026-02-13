@@ -141,12 +141,14 @@ AI by HER specifically promotes women-led AI solutions and innovations with soci
 
 ### Session Schedule
 
-{% include notice.html message="This section will be updated shortly. For the complete session schedule, including timings, speakers and topics, please visit the <a href='https://impact.indiaai.gov.in/sessions'>official India AI Impact Summit website</a>." %}
+<div class="tsap-info-box">
+  ℹ️ <strong>Note:</strong> This section will be updated shortly. For the complete session schedule, including timings, speakers and topics, please visit the <a href='https://impact.indiaai.gov.in/sessions'>official India AI Impact Summit website</a>.
+</div>
 
 ## Sunil Abraham's Participation
 
 <div class="tsap-info-box">
-  ℹ️ <strong>Note:</strong> This section will be updated shortly. For the complete session schedule, including timings, speakers and topics, please visit the <a href='https://impact.indiaai.gov.in/sessions'>official India AI Impact Summit website</a>.
+  ℹ️ <strong>TSAP Coverage Note:</strong> On TSAP, we exclusively cover the works and presentations of Sunil Abraham. This section will expand gradually and may split into a new page titled "Sunil Abraham at India AI Impact Summit 2026".
 </div>
 
 Sunil Abraham, Public Policy Director at Meta, is scheduled to participate in two panel sessions during the India AI Impact Summit 2026. His involvement spans discussions on equitable access to AI resources for developing nations and enterprise approaches to responsible AI deployment. Both sessions address core themes of the summit's agenda, examining how AI governance frameworks can balance innovation with accountability whilst ensuring technological benefits reach underserved populations.
