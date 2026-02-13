@@ -642,7 +642,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 /* Current Event Notice */
 .current-event-notice {
   background-color: #f5f5f5;
-  border-left: 4px solid #4caf50;
+  border-left: 4px solid #8B4513;
   color: #333333;
   padding: 12px 18px;
   border-radius: 4px;
@@ -656,12 +656,12 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 
 .current-event-notice .notice-icon {
   font-size: 1.1rem;
-  color: #4caf50;
+  color: #8B4513;
   font-weight: bold;
 }
 
 .current-event-notice strong {
-  color: #8B4513;;
+  color: #8B4513;
   font-weight: 700;
 }
 
