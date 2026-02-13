@@ -46,8 +46,9 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
 4. [Sunil Abraham's Participation](#sunil-abrahams-participation)
    - [AI Commons for the Global South (17 February 2026)](#ai-commons-for-the-global-south-17-february-2026)
    - [Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)](#responsible-ai-in-action-how-global-enterprises-are-building-trust-at-scale-20-february-2026)
-5. [References](#references)
-6. [External links](#external-links)
+5. [See also](#see-also)
+6. [References](#references)
+7. [External links](#external-links)
 
 ## Background and Context
 The India AI Impact Summit emerges at a pivotal moment in global artificial intelligence governance, following a succession of high-profile international gatherings that have progressively shaped the discourse around artificial intelligence.
@@ -167,6 +168,9 @@ The panel includes Jayesh Ranjan IAS (Special Chief Secretary, Government of Tel
 Abraham is scheduled to speak at a session titled "Responsible AI in Action: How Global Enterprises Are Building Trust at Scale" on 20 February 2026 from 10:30 AM to 11:30 AM at Bharat Mandapam, L1 Meeting Room No. 6.
 
 The panel examines approaches to responsible AI deployment at scale, focusing on how enterprises embed ethics, transparency and accountability into AI systems whilst balancing speed, compliance and innovation. Other speakers include Ankit Bose (Nasscom), Manish Gupta (Google DeepMind), Syed Ahmed (Infosys), and Geeta Gurnani (IBM). The session is organised with Infosys Limited as knowledge partner.
+
+## See also
+- [Portal:Artificial Intelligence](/ai/), overview portal on artificial intelligence within the Sunil Abraham Project
 
 ## References
 
