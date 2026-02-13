@@ -14,14 +14,14 @@ created: 2026-02-13
     <p class="banner-subtitle">
       <span class="banner-icon">📅</span> 16–20 February 2026 
       <span class="banner-divider">|</span> 
-      <span class="banner-icon">📍</span> Bharat Mandapam, New Delhi, India
+      <span class="banner-icon">📍</span> New Delhi, India
     </p>
     <p class="banner-tagline">Global Forum on Artificial Intelligence Governance & Impact</p>
   </div>
 </div>
 
 <div class="current-event-notice">
-  <span class="notice-icon">📰</span> <strong>Current event:</strong> This article covers the India AI Impact Summit 2026, a current event. Information may be updated or changed rapidly as the event progresses.
+  <span class="notice-icon">📰</span> <strong>Current event:</strong> This article covers the <strong>India AI Impact Summit 2026</strong>, a current event. Information may be updated or changed rapidly as the event progresses.
 </div>
 
 The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from 16 to 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
