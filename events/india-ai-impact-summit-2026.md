@@ -12,9 +12,9 @@ created: 2026-02-13
   <div class="banner-content">
     <h1 class="banner-title">India AI Impact Summit 2026</h1>
     <p class="banner-subtitle">
-      <span class="banner-icon">📅</span> 16–20 February 2026 
+      <span class="banner-icon">📅</span>16–20 February 2026 
       <span class="banner-divider">|</span> 
-      <span class="banner-icon">📍</span> New Delhi, India
+      <span class="banner-icon">📍</span>New Delhi, India
     </p>
     <p class="banner-tagline">Global Forum on Artificial Intelligence Governance & Impact</p>
   </div>
