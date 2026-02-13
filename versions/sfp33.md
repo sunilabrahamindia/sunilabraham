@@ -9,7 +9,6 @@ categories: [Students for Peace, TSAP Events and Rituals]
 ---
 
 <style>
-  /* Hide duplicate section title on dedicated page */
   #students-for-peace .section-title {
     display: none;
   }
