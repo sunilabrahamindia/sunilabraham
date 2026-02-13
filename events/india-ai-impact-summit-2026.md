@@ -347,16 +347,16 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
     padding: 10px 12px;
   }
 }
-  /* Event poster image styling */
+/* Event poster image styling - SMALLER on desktop */
 .event-poster {
-  max-width: 650px;
+  max-width: 450px;
   margin: 1.5rem auto;
   text-align: center;
 }
 
 .event-poster img {
   width: 100%;
-  max-width: 650px;
+  max-width: 450px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
@@ -364,14 +364,14 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   margin: 0 auto;
 }
 
-/* Desktop: constrain width */
+/* Desktop: constrain to 450px */
 @media (min-width: 769px) {
   .event-poster {
-    max-width: 600px;
+    max-width: 450px;
   }
   
   .event-poster img {
-    max-width: 600px;
+    max-width: 450px;
   }
 }
 
@@ -394,7 +394,8 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
     width: 85%;
   }
 }
- /* Summit Banner with animated waves */
+  
+/* Summit Banner with animated waves */
 .summit-banner {
   position: relative;
   width: 100%;
@@ -409,7 +410,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Ashoka Chakra background with wave animation */
+/* Ashoka Chakra background - static */
 .banner-background {
   position: absolute;
   top: 50%;
@@ -424,33 +425,47 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   z-index: 1;
 }
 
-/* Animated wave overlay - soft and elegant */
+/* Animated wave layers - NOTICEABLE but elegant */
 .banner-background::before,
 .banner-background::after {
   content: '';
   position: absolute;
-  width: 200%;
-  height: 200%;
-  top: -50%;
-  left: -50%;
-  background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, transparent 70%);
-  animation: wave 25s ease-in-out infinite;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, 
+    rgba(255,255,255,0.1) 0%, 
+    rgba(255,255,255,0.2) 50%, 
+    rgba(255,255,255,0.1) 100%);
+  border-radius: 50%;
+  animation: wave 10s ease-in-out infinite;
 }
 
 .banner-background::after {
-  animation: wave 30s ease-in-out infinite reverse;
-  opacity: 0.5;
+  animation: wave 14s ease-in-out infinite reverse;
+  background: linear-gradient(-45deg, 
+    rgba(255,255,255,0.08) 0%, 
+    rgba(255,255,255,0.18) 50%, 
+    rgba(255,255,255,0.08) 100%);
 }
 
 @keyframes wave {
   0%, 100% {
-    transform: translate(0, 0) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+    opacity: 0.7;
   }
-  33% {
-    transform: translate(5%, 3%) rotate(5deg);
+  25% {
+    transform: scale(1.12) rotate(6deg);
+    opacity: 0.9;
   }
-  66% {
-    transform: translate(-3%, 5%) rotate(-3deg);
+  50% {
+    transform: scale(1.06) rotate(-4deg);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1.18) rotate(9deg);
+    opacity: 0.8;
   }
 }
 
