@@ -28,6 +28,27 @@ The **India AI Impact Summit 2026** is an international conference on [artificia
 
 Organised under the IndiaAI Mission by the Ministry of Electronics and Information Technology (MeitY), Government of India, the summit aims to advance responsible, inclusive and human-centric AI development. The programme is expected to include plenary sessions, thematic panels, exhibitions and policy roundtables addressing AI safety, public digital infrastructure, innovation ecosystems, regulatory frameworks and international cooperation.
 
+## Contents
+
+1. [Background and Context](#background-and-context)
+   - [AI Safety Summit (2023)](#ai-safety-summit-2023)
+   - [AI Seoul Summit (2024)](#ai-seoul-summit-2024)
+   - [AI Action Summit (2025)](#ai-action-summit-2025)
+   - [India's Hosting and Positioning (2026)](#indias-hosting-and-positioning-2026)
+   - [Global Regulatory Landscape](#global-regulatory-landscape)
+2. [Objectives and Core Pillars](#objectives-and-core-pillars)
+   - [The Three Sutras](#the-three-sutras)
+   - [The Seven Chakras](#the-seven-chakras)
+3. [Programme and Activities](#programme-and-activities)
+   - [Summit Structure](#summit-structure)
+   - [Flagship Initiatives](#flagship-initiatives)
+   - [Session Schedule](#session-schedule)
+4. [Sunil Abraham's Participation](#sunil-abrahams-participation)
+   - [AI Commons for the Global South (17 February 2026)](#ai-commons-for-the-global-south-17-february-2026)
+   - [Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)](#responsible-ai-in-action-how-global-enterprises-are-building-trust-at-scale-20-february-2026)
+5. [References](#references)
+6. [External links](#external-links)
+
 ## Background and Context
 The India AI Impact Summit emerges at a pivotal moment in global artificial intelligence governance, following a succession of high-profile international gatherings that have progressively shaped the discourse around artificial intelligence.
 
