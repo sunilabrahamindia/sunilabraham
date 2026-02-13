@@ -605,9 +605,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   }
   
   .banner-divider {
-    display: block;
-    margin: 0.25rem 0;
-    opacity: 0;
+    display: none;
   }
   
   .banner-tagline {
