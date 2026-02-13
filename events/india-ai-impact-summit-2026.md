@@ -661,7 +661,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 }
 
 .current-event-notice strong {
-  color: #4caf50;
+  color: #8B4513;;
   font-weight: 700;
 }
 
