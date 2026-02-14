@@ -30,6 +30,8 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
 
 ## Contents
 
+## Contents
+
 1. [Background and Context](#background-and-context)
    - [AI Safety Summit (2023)](#ai-safety-summit-2023)
    - [AI Seoul Summit (2024)](#ai-seoul-summit-2024)
@@ -40,8 +42,11 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [The Three Sutras](#the-three-sutras)
    - [The Seven Chakras](#the-seven-chakras)
 3. [Programme and Activities](#programme-and-activities)
+   - [Pre-Summit Engagement](#pre-summit-engagement)
    - [Summit Structure](#summit-structure)
+   - [Call for Proposals](#call-for-proposals)
    - [Flagship Initiatives](#flagship-initiatives)
+   - [AI Compendium](#ai-compendium)
    - [Session Schedule](#session-schedule)
 4. [Sunil Abraham's Participation](#sunil-abrahams-participation)
    - [ASSOCHAM Thematic Sessions (17 February 2026)](#assocham-thematic-sessions-17-february-2026)
@@ -124,6 +129,12 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 The India AI Impact Summit spans five days, from 16 to 20 February 2026, combining exhibition activities, bilateral engagements and high-level plenary sessions. The programme is structured to balance formal diplomatic proceedings with practical showcases of AI applications and innovation ecosystems.
 
+### Pre-Summit Engagement
+
+The India AI Impact Summit was preceded by an extensive engagement programme designed to build momentum and ensure broad participation across India's regions and sectors. The organisational framework solicited over 1,300 proposals for pre-summit events, from which organisers approved and facilitated more than 480 activities held across the country prior to the main gathering. These distributed events provided platforms for regional stakeholders, academic institutions, industry associations and civil society groups to contribute perspectives that would inform the summit's agenda.
+
+The pre-summit programme included seven flagship events addressing specific dimensions of AI policy and application. Through this preparatory phase, organisers engaged approximately 301,000 participants, establishing a foundation for the summit's discussions by surfacing priorities, challenges and opportunities identified by diverse constituencies. This distributed engagement model reflected the summit's emphasis on inclusive consultation and sought to ensure that the Delhi proceedings incorporated insights extending beyond India's metropolitan centres and established technology hubs.
+
 ### Summit Structure
 
 The event is organised across two main components: the AI Impact Expo, which runs throughout the five-day period (16–20 February), and the Summit Sessions, concentrated on 19–20 February. This structure allows participants to engage with both technological demonstrations and policy discussions, whilst providing space for bilateral meetings and networking amongst delegates.
@@ -132,13 +143,47 @@ The exhibition component occupies 50,000 square metres at Bharat Mandapam, showc
 
 The core diplomatic proceedings take place over two days, featuring plenary sessions with heads of state, thematic panel discussions organised around the Seven Chakras, and working group deliberations. These sessions are expected to produce policy commitments, collaborative frameworks and the Leaders' Declaration.
 
+### Call for Proposals
+
+The India AI Impact Summit 2026 invited organisations worldwide to host events included in the official summit programme, conducted in person at Bharat Mandapam, New Delhi, from 16–20 February 2026. The call encouraged organisations to design sessions aligning with the summit's themes, fostering diverse participation and generating actionable insights or outcomes strengthening global dialogue on AI for people, planet and progress.
+
+The application window closed on 30 November 2025, receiving over 700 proposals. Shortlisted candidates are contacted via their registered email addresses. Organisations playing a meaningful role in shaping the summit's deliberations include government agencies, academic and research institutions, multilateral and intergovernmental organisations, private sector organisations, non-profits, think tanks, civil society organisations, and industry or professional associations. Joint proposals between multiple stakeholders, especially across countries or sectors, were particularly encouraged.
+
+Eligible event formats included panel discussions, roundtables, workshops, fireside chats and moderated dialogues, leadership talks and industry forums, and academic presentations and other talks. Fully virtual sessions were not considered for inclusion in the official summit programme. All events were required to demonstrate clear alignment with the summit's seven core themes or Chakras: Human Capital; Inclusion for Social Empowerment; Safe and Trusted AI; Resilience, Innovation and Efficiency; Science; Democratising AI Resources; and AI for Economic Growth and Social Good. Each applicant could submit only one proposal for consideration in one theme.
+
+The call for proposals launched on 15 October 2025, with the submission deadline set for 30 November 2025. By hosting events at the summit, organisations contribute to shaping deliberations and driving outcomes that advance impactful and globally relevant discourse on AI.
+
 ### Flagship Initiatives
 
-The summit incorporates several signature programmes designed to highlight inclusive AI development and practical applications.
+The summit incorporates several signature programmes designed to highlight inclusive AI development and practical applications. These initiatives span competitive challenges, knowledge resources and capacity-building activities structured to engage diverse participants from students to established enterprises.
 
-AI for ALL Global Challenge identifies and showcases leading AI solutions addressing societal challenges across multiple sectors. The challenge emphasises scalable, impact-oriented applications that demonstrate AI's potential for public benefit.
+**AI for ALL: Global Impact Challenge** strives to identify solutions that use AI to enable large-scale impact. Leading solutions are showcased at the India AI Impact Summit held in New Delhi in February 2026. The initiative is implemented in partnership with Startup India under the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, and Digital India BHASHINI Division. The challenge invites solutions from innovators, researchers, startups and enterprises worldwide to address critical challenges through scalable AI deployment.
 
-AI by HER specifically promotes women-led AI solutions and innovations with social impact. It aims to address gender disparities in AI development and ensure that diverse perspectives shape technological advancement.
+**AI by HER: Global Impact Challenge** is a global innovation challenge inviting women technologists to demonstrate AI solutions tackling large-scale or novel real-world public challenges. Focused on inclusive innovation and global impact, the initiative promotes gender equity and Global South innovation whilst aiming to showcase scalable AI-for-good applications at the summit. The programme is implemented in partnership with NITI Aayog's Women Entrepreneurship Platform, providing women AI innovators with a platform to present working solutions that address real problems with potential for scalable deployment.
+
+**YUVAi – Global Youth Challenge** invites young innovators aged 13–21 to bring their most innovative AI solutions to solve real-world problems. Implemented in partnership with MyBharat and NIELIT, this innovation programme provides youth with an opportunity to dream big with AI and demonstrate their technical capabilities on a national stage. The challenge encourages participants to develop practical applications addressing societal needs whilst building foundational AI skills.
+
+**Research Symposium on AI and its Impact** takes place on 18 February 2026 at Bharat Mandapam, with IIIT-Hyderabad as knowledge partner. The one-day symposium is conceived as an interdisciplinary forum bringing together leading researchers and practitioners from India, the Global South and the wider international community to present frontier work on AI's impact, exchange methods and evidence, and forge collaborations. The symposium aligns with the summit's "Impact" theme, emphasising inclusive, policy-relevant research across various domains. Its structure includes plenary sessions featuring keynotes and dialogues with global leaders, an international research showcase highlighting groundbreaking AI innovations from premier institutions worldwide, and a Global South research and posters showcase celebrating emerging talent and innovative solutions to regional and global challenges.
+
+**India AI Impact Expo 2026** demonstrates India's capacity to deploy AI at scale, from prototype to international impact. The expo converts imagination into implementation, serving as India's platform for scaling AI from demonstrations to deployment. Occupying over 70,000 square metres of exhibition area, the expo expects to attract more than 150,000 visitors, 300-plus exhibitors and 550-plus exhibiting startups. The business-focused platform showcases AI's transition from research and pilots to large-scale deployment, connecting innovators with partners and accelerating industry adoption. The exhibition runs throughout the five-day summit period (16–20 February).
+
+**India AI Tinkerpreneur** is a national-level summer bootcamp equipping school students in classes 6 to 12 (and beyond) with skills in AI tools and technologies, empowering them to build AI-enabled products and solutions creating social impact. The programme builds AI and entrepreneurial capacities through a series of 10 online sessions and two master classes, provides mentoring support by industry and academic experts, and encourages entrepreneurial thinking from ideation to execution. Participants acquire skills in AI tools, build digital, physical or hybrid products addressing social causes, and learn entrepreneurship fundamentals including pitching. The top 100 projects are selected for the Atal Catalysts Programme at ISB, whilst the top 50 projects are selected for showcase at the India AI Impact Summit 2026.
+
+### AI Compendium
+
+The summit features the launch of six thematic casebooks documenting real-world AI applications delivering measurable impact across critical sectors. These compendiums compile deployed, scalable solutions primarily from the Global South, showcasing innovations that address practical challenges whilst offering transferable lessons for global implementation.
+
+**Casebook on AI in Health**, developed in collaboration with the World Health Organization (WHO), presents real-world, scalable AI solutions improving health outcomes across the Global South. The collection highlights ground-breaking innovations, measurable impact and key lessons from AI applications in global health. Researchers, innovators, practitioners and experts with successful AI health use cases were invited to contribute chapters documenting their work. Selected contributors author chapters and present their solutions before a global audience of policymakers, innovators and health leaders at the summit.
+
+**Casebook on the Real-World Impact of AI in Energy**, produced in collaboration with the International Energy Agency (IEA), compiles impactful, scalable and successful solutions preferably from developing and emerging economies. The compendium spotlights AI innovations driving optimisation, efficiency and resilience across the global energy landscape. Contributors include researchers, innovators, practitioners and experts with demonstrated success in deploying AI solutions that transform energy sector operations, presenting their work to global audiences of policymakers, innovators and energy leaders.
+
+**Casebook on AI and Gender Empowerment**, jointly produced by the Ministry of Electronics and Information Technology (MeitY) and UN Women India, documents real-world, scalable and gender-responsive AI solutions developed or deployed in the Global South. The compendium focuses on solutions transforming the lives of women and girls through measurable gender impact, ethical design and replicability. Selected case studies are published and showcased at the summit, with the publication distributed across UN, IndiaAI and global innovation and policy networks. Contributors present their solutions before global audiences of policymakers, innovators and leaders.
+
+**Casebook on the Real-World Impact of AI in Education**, developed in collaboration with Central Square Foundation and EkStep Foundation, presents scalable AI solutions enhancing educational impact. The collection showcases ground-breaking AI innovations, measurable impact and key lessons across the global education landscape, focusing on solutions that transform learning outcomes, strengthen teaching or improve access to quality education. Researchers, innovators, practitioners and experts with successful, scalable, inclusive and ethical AI use cases in education author chapters and present their work before global audiences of policymakers, innovators and education technology leaders.
+
+**Casebook on the Real-World Impact of AI in Agriculture**, produced in collaboration with the Government of Maharashtra's AI and Agritech Innovation Center and supported by the World Bank, compiles deployed, scalable AI solutions delivering measurable value to farmers and agricultural systems. The compendium spotlights transformative AI innovations, demonstrated farmer impact and lessons that can guide agricultural innovation globally. Indicative themes include intelligent crop planning (climate-aware and market-aligned planning), smart farming and precision agriculture (soil health insights, pest prediction, disease detection, irrigation optimisation), farm-to-fork market linkages (price forecasting, quality grading, traceability, digital marketplaces), and financial inclusion and insurance (AI-driven credit assessments, parametric insurance, livelihood security tools).
+
+**Casebook on the Real-World Impact of AI in Improving Inclusion for Persons with Disabilities**, developed in collaboration with the Artificial Limbs Manufacturing Corporation of India (ALIMCO), IIIT Bangalore and ChangeInkk Foundation, brings together deployed and scalable AI solutions demonstrating tangible improvements in accessibility, autonomy, participation and quality of life for persons with disabilities. The compendium highlights real-world innovations, measurable outcomes and transferable lessons from across geographies. Indicative themes include assistive technology and smart mobility (AI-enabled prosthetics, navigation systems for visually impaired users, intelligent mobility aids), communication and sensory augmentation (speech-to-text, sign language interpretation, AI-driven sensory enhancement tools), inclusive employment and education (AI-based skill development, adaptive learning systems, bias-mitigation tools for neurodiverse and disabled persons), and independent living and healthcare (smart home systems, predictive health monitoring, AI-enabled care assistants).
 
 ### Session Schedule
 
