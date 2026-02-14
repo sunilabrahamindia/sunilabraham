@@ -10,10 +10,11 @@ created: 2026-02-13
 <div class="summit-banner">
   <div class="banner-background"></div>
   <div class="banner-content">
+    <img src="/events/images/ai-impact-summit-2026-logo.png" alt="India AI Impact Summit 2026 Logo" class="summit-logo">
     <h1 class="banner-title">India AI Impact Summit 2026</h1>
     <p class="banner-subtitle">
-      <span class="banner-icon">📅</span>16–20 February 2026 
-      <span class="banner-divider">|</span> 
+      <span class="banner-icon">📅</span>16–20 February 2026
+      <span class="banner-divider">|</span>
       <span class="banner-icon">📍</span>New Delhi, India
     </p>
     <p class="banner-tagline">Global Forum on Artificial Intelligence Governance & Impact</p>
@@ -36,6 +37,7 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [AI Action Summit (2025)](#ai-action-summit-2025)
    - [India's Hosting and Positioning (2026)](#indias-hosting-and-positioning-2026)
    - [Global Regulatory Landscape](#global-regulatory-landscape)
+   - [Visual Identity](#visual-identity)
 2. [Objectives and Core Pillars](#objectives-and-core-pillars)
    - [The Three Sutras](#the-three-sutras)
    - [The Seven Chakras](#the-seven-chakras)
@@ -89,6 +91,14 @@ India's engagement with artificial intelligence has accelerated substantially in
 The summit takes place amid divergent regulatory and governance approaches to artificial intelligence. The European Union has adopted a comprehensive, risk-based legislative framework through the EU AI Act. The United States has emphasised executive guidance, voluntary commitments and public-private collaboration. China has combined state-directed AI advancement with regulatory controls over algorithmic deployment and content governance.
 
 Within this varied international landscape, India has sought to articulate an approach that integrates innovation, developmental priorities and governance safeguards. The India summit reflects an effort to engage with existing global frameworks while also foregrounding the concerns of countries building digital infrastructure, expanding compute capacity and addressing labour-market transitions linked to automation. In this sense, the gathering forms part of a broader discussion about how global AI governance can incorporate perspectives from emerging economies alongside those of established industrial powers.
+
+### Visual Identity
+
+The official logo of the India AI Impact Summit 2026 was unveiled on 18 September 2025 following a nationwide design contest hosted on MyGov, which received 599 entries from across India. The winning design, created by Shri Ajith P. Suresh, incorporates several symbolic elements reflecting the summit's vision.
+
+![India AI Impact Summit 2026 Logo](/events/images/ai-impact-summit-2026-logo.png)
+
+The logo features the Ashoka Chakra at its centre, representing India's constitutional values and commitment to ethical governance in artificial intelligence development. Radiating outward from the central wheel are neural network-inspired flares rendered in a vibrant gradient palette, symbolising AI's transformative potential and the diversity of perspectives that artificial intelligence systems must incorporate. The bilingual presentation, featuring both English and Hindi text, emphasises India's multilingual approach to inclusive technology development.
 
 ## Objectives and Core Pillars
 
@@ -427,6 +437,22 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 - [IndiaAI](https://www.instagram.com/officialindiaai/) on Instagram
 
 <style>
+  .summit-logo {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1rem auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .summit-logo {
+    max-width: 120px;
+    margin-bottom: 0.75rem;
+  }
+}
+
   /* Summit table wrapper - floats right on desktop */
 .summit-table-wrapper {
   width: 100%;
@@ -928,7 +954,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 }
 
 .attendee-search-input {
-  width: 100%;
+  width: 90%;
   max-width: 500px;
   padding: 10px 15px;
   font-size: 1rem;
@@ -944,6 +970,8 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 
 .attendee-table {
   width: 100%;
+  max-width: 900px;    
+  margin: 0 auto;
   border-collapse: collapse;
   margin-top: 1rem;
   font-size: 0.9rem;
