@@ -30,8 +30,6 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
 
 ## Contents
 
-## Contents
-
 1. [Background and Context](#background-and-context)
    - [AI Safety Summit (2023)](#ai-safety-summit-2023)
    - [AI Seoul Summit (2024)](#ai-seoul-summit-2024)
