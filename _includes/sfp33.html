@@ -1004,6 +1004,9 @@
     if (!grid) return;
     grid.innerHTML = '';
 
+     // ARIA LABEL FOR ACCESSIBILITY
+  grid.setAttribute('aria-label', '33 candles arranged in three rows representing the 33rd anniversary of Students for Peace. Click individual candles to toggle them on or off, or use the button above to light all automatically.');
+
     for (let i = 0; i < totalCandles; i++) {
       const mini = document.createElement('div');
       mini.className = 'peace-mini-candle';
