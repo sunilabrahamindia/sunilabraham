@@ -44,7 +44,7 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [Flagship Initiatives](#flagship-initiatives)
    - [Session Schedule](#session-schedule)
 4. [Sunil Abraham's Participation](#sunil-abrahams-participation)
-   - [AI Commons for the Global South (17 February 2026)](#ai-commons-for-the-global-south-17-february-2026)
+   - [ASSOCHAM Thematic Sessions (17 February 2026)](#assocham-thematic-sessions-17-february-2026)
    - [Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)](#responsible-ai-in-action-how-global-enterprises-are-building-trust-at-scale-20-february-2026)
 5. [See also](#see-also)
 6. [References](#references)
@@ -152,16 +152,22 @@ AI by HER specifically promotes women-led AI solutions and innovations with soci
   ℹ️ <strong>TSAP Coverage Note:</strong> On TSAP, we exclusively cover the works and presentations of Sunil Abraham. This section will expand gradually and may split into a new page titled "Sunil Abraham at India AI Impact Summit 2026".
 </div>
 
-Sunil Abraham, Public Policy Director at Meta, is scheduled to participate in two panel sessions during the India AI Impact Summit 2026. His involvement spans discussions on equitable access to AI resources for developing nations and enterprise approaches to responsible AI deployment. Both sessions address core themes of the summit's agenda, examining how AI governance frameworks can balance innovation with accountability whilst ensuring technological benefits reach underserved populations.
-### AI Commons for the Global South (17 February 2026)
+Sunil Abraham, Public Policy Director at Meta, is scheduled to moderate and participate in panel sessions during the India AI Impact Summit 2026. His involvement spans discussions on regional AI leadership, democratising AI resources and enterprise approaches to responsible AI deployment, addressing core themes of the summit's agenda and examining how AI governance frameworks can balance innovation with accountability whilst ensuring technological benefits reach underserved populations.
+
+### ASSOCHAM Thematic Sessions (17 February 2026)
+
+ASSOCHAM (The Associated Chambers of Commerce and Industry of India) is conducting two thematic sessions on 17 February 2026 from 3:30 PM to 5:25 PM at Bharat Mandapam, Meeting Room 8. Abraham is participating as moderator in Session B.
 
 <div class="event-poster">
-  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/events/images/ai-impact-summit-sunil-abraham-17-feb-2026.jpg?raw=true" alt="AI Commons for the Global South panel poster featuring speakers at India AI Impact Summit 2026">
+  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/events/images/sunil-abraham-india-ai-summit-assocham-session-2026.jpg?raw=true" alt="India's AI Leadership session poster featuring Sunil Abraham as moderator at India AI Impact Summit 2026">
 </div>
 
-Abraham is listed as a panellist for a main summit event titled "AI Commons for the Global South: Data, Models & Compute for Half of Humanity", scheduled for 17 February 2026 at Bharat Mandapam. The session is organised by Factly in partnership with Meta.
+**Session A: Democratizing AI Resources** examines how business-driven AI, combined with India's digital public infrastructure, startup innovation and cloud-led enterprise transformation, can deliver inclusive and commercially viable social impact. The discussion highlights how scalable AI adoption across SMEs and startups can democratise AI resources, expand access to essential services and create equitable opportunities, whilst showcasing India's model of cross-border collaboration, inclusive AI use cases and knowledge sharing to drive regional empowerment and sustainable growth.
 
-The panel includes Jayesh Ranjan IAS (Special Chief Secretary, Government of Telangana), P J Narayanan (Former Director, International Institute of Information Technology Hyderabad), Amanda Brock (CEO, OpenUK), Osama Manzar (Founder Director, Digital Empowerment Foundation), and Sunil Abraham (Public Policy Director, Meta). Rakesh Dubbudu (Founder, Factly) moderates the session.
+**Session B: India's AI Leadership as a Catalyst for Regional Social Transformation** (moderated by Abraham) explores how India's AI leadership can deliver inclusive social-economic outcomes across South Asia by replicating India's digital public infrastructure, enterprise AI adoption and startup ecosystem through cross-border collaboration and knowledge sharing. The discussion positions AI for All as a scalable, impact-first, commercially viable business model for 1.4 billion people, driven by frugal AI solutions for basic smartphones, local languages and low-connectivity networks, catalysing financial inclusion, healthcare access, skills development, rural productivity and regional social empowerment.
+
+Session B panel features Aditya Swamy (Managing Director, Play Partnerships, Google), Akhil Choudhary (CEO & Managing Partner, Highspring India), Anne Robinson (Sr Vice President & Chief Litigation Counsel, Dish Network Corporation) and Prof. M. P. Gupta (Director, IIM Lucknow).
+
 
 ### Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)
 
