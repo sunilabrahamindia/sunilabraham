@@ -72,7 +72,7 @@ The 2025 edition situates India at a critical moment in its digital transition, 
 
 The full Policy 50 feature profiles a broad set of actors shaping India's digital policy ecosystem. Below is a name-and-role listing drawn from the original article.
 
-***Note:** Descriptions are limited to names and current roles or designations, without reproducing individual profile texts.***
+***Note:*** *Descriptions are limited to names and current roles or designations, without reproducing individual profile texts.*
 
 <div class="search-container">
   <input type="text" id="policy-search" class="search-box" placeholder="Search by name or role..." aria-label="Search Policy 50 list">
@@ -251,13 +251,14 @@ At the same time, the feature indirectly points to gaps that remain under‑addr
 
 .search-box {
   width: 100%;
-  max-width: 500px;
+  max-width: 500px;  
   padding: 0.75rem 1rem;
   font-size: 0.95rem;
   border: 2px solid #d8e2f0;
   border-radius: 8px;
   outline: none;
   transition: border-color 0.3s;
+  box-sizing: border-box; 
 }
 
 .search-box:focus {
