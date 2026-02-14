@@ -9,7 +9,9 @@ permalink: /media/policy-50-mapping-the-minds-behind-indias-digital-rise/
 created: 2026-02-14
 ---
 
-**Policy 50 – Mapping the Minds Behind India's Digital Rise** is an *MIT Sloan Management Review India* feature published on 5 September 2025, identifying 50 individuals influencing India's digital trajectory across government, industry, academia, and civil society. Sunil Abraham is recognised for his work on technology policy and digital governance.
+**Policy 50 – Mapping the Minds Behind India's Digital Rise** is an *MIT Sloan Management Review India* feature published on 5 September 2025, identifying 50 individuals shaping India's digital policy landscape across government, industry, academia, and civil society. The list spans ministers, regulators, corporate policy leaders, independent researchers, and civil society advocates engaged in technology governance, digital infrastructure, and emerging regulation.
+
+Sunil Abraham is recognised in the list for his contributions to technology policy and digital governance, spanning his founding role at the Centre for Internet and Society and his current position as Director of Public Policy for Data and Emerging Tech at Meta India. The feature situates these 50 individuals within a moment when India is navigating complex questions about platform accountability, data sovereignty, artificial intelligence governance, and the role of digital public infrastructure in economic and social life.
 
 ## Contents
 
@@ -70,7 +72,7 @@ The 2025 edition situates India at a critical moment in its digital transition, 
 
 ## Policy 50 List
 
-The full Policy 50 feature profiles a broad set of actors shaping India's digital policy ecosystem. Below is a name-and-role listing drawn from the original article.
+The following is the complete list of individuals included in the Policy 50 feature, presented with their names and designations as published.
 
 ***Note:*** *Descriptions are limited to names and current roles or designations, without reproducing individual profile texts.*
 
@@ -134,7 +136,7 @@ The full Policy 50 feature profiles a broad set of actors shaping India's digita
 
 ## Context and Background
 
-The Policy 50 feature appears at a time when India's digital policy landscape is expanding rapidly across domains such as AI, data protection, digital public infrastructure, and platform regulation. By curating 50 individuals, *MIT Sloan Management Review India* aims to map the human layer behind these changes—ministers, regulators, mission directors, corporate policy leads, academics, and civil society advocates who shape how technology interacts with the economy and society.
+The Policy 50 feature presents a cross-section of individuals currently active in India's technology and policy ecosystem. By curating 50 names from government, industry, academia, and civil society, *MIT Sloan Management Review India* highlights the range of institutions and roles involved in shaping digital regulation and governance.
 
 Lists of this kind are necessarily selective and interpretive. They reflect an editorial judgement about which roles and institutions most influence the trajectory of India's digital governance at a particular moment rather than constituting an exhaustive or definitive ranking. The inclusion of both government officials and independent researchers underscores that policy in this space is being negotiated across multiple centres of expertise and power.
 
