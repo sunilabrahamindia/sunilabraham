@@ -24,7 +24,7 @@ created: 2026-02-13
   <span class="notice-icon">📰</span> <strong>Current event:</strong> This article covers the <strong>India AI Impact Summit 2026</strong>, a current event. Information may be updated or changed rapidly as the event progresses.
 </div>
 
-The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from 16 to 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
+The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
 
 Organised under the IndiaAI Mission by the Ministry of Electronics and Information Technology (MeitY), Government of India, the summit aims to advance responsible, inclusive and human-centric AI development. The programme is expected to include plenary sessions, thematic panels, exhibitions and policy roundtables addressing AI safety, public digital infrastructure, innovation ecosystems, regulatory frameworks and international cooperation.
 
@@ -46,6 +46,7 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [Flagship Initiatives](#flagship-initiatives)
    - [AI Compendium](#ai-compendium)
    - [Session Schedule](#session-schedule)
+   - [Key Attendees](#key-attendees)
 4. [Sunil Abraham's Participation](#sunil-abrahams-participation)
    - [ASSOCHAM Thematic Sessions (17 February 2026)](#assocham-thematic-sessions-17-february-2026)
    - [Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)](#responsible-ai-in-action-how-global-enterprises-are-building-trust-at-scale-20-february-2026)
@@ -186,8 +187,191 @@ The summit features the launch of six thematic casebooks documenting real-world 
 ### Session Schedule
 
 <div class="tsap-info-box">
-  ℹ️ <strong>Note:</strong> This section will be updated shortly. For the complete session schedule, including timings, speakers and topics, please visit the <a href='https://impact.indiaai.gov.in/sessions'>official India AI Impact Summit website</a>.
+  ℹ️ <strong>Note:</strong> This section is being updated. For the complete session schedule, including timings, speakers and topics, please visit the <a href='https://impact.indiaai.gov.in/sessions'>official India AI Impact Summit website</a>.
 </div>
+
+The summit agenda unfolds across five days, with each day addressing distinct dimensions of AI governance, innovation and international cooperation. The programme balances high-level diplomatic proceedings with technical exhibitions, knowledge launches and sectoral dialogues. The agenda remains tentative and subject to revisions as organisational arrangements progress.
+
+#### Monday, 16 February 2026
+
+The opening day establishes the intellectual foundation through high-impact keynote addresses, policy-focused panel discussions and expert roundtables. The India AI Expo is inaugurated, bringing together innovators, startups, industry leaders and public institutions. The day frames national priorities, initiates collaborations and shapes the strategic AI discourse for subsequent proceedings. Sessions take place at Bharat Mandapam, Sushma Swaraj Bhawan and Ambedkar Bhawan in New Delhi, with the AI Impact Expo commencing its five-day run at Bharat Mandapam.
+
+#### Tuesday, 17 February 2026
+
+High-level panel discussions deepen sectoral dialogues across priority domains. The day features the official release of flagship Knowledge Compendiums, including the Casebooks on AI in Health, AI in Energy, AI and Gender Empowerment, AI in Education, AI and Agriculture, and AI in Disabilities. A focused Seminar on Applied AI takes place alongside the AI by HER: Global Impact Challenge presentations. Keynotes, panel discussions and roundtables continue across Bharat Mandapam, Sushma Swaraj Bhawan and Ambedkar Bhawan, whilst the AI Impact Expo proceeds with demonstrations and networking opportunities.
+
+#### Wednesday, 18 February 2026
+
+The programme bridges research and practice through parallel tracks. The Research Symposium convenes leading academics, researchers and think tanks to showcase cutting-edge AI research, emerging methodologies and evidence-based policy insights. An Industry Session brings together global technology leaders, startups and sector champions to present scalable solutions, real-world deployments and future-ready innovations. The AI by HER challenge continues its presentations at Sushma Swaraj Bhawan. The day concludes with a Summit Dinner at the Convention Centre, New Delhi, providing delegates with opportunities for informal diplomatic engagement.
+
+#### Thursday, 19 February 2026
+
+The Formal Opening Ceremony, led by the Honourable Prime Minister of India, anchors the summit’s high-level diplomatic proceedings. A CEO Roundtable convenes global industry leaders, investors and policymakers to deliberate on strategic priorities, investment pathways and the future of responsible AI. The Leaders' Plenary brings together national and international decision-makers to shape collective commitments, strengthen global partnerships and define India's leadership in the AI decade ahead. Keynotes, panel discussions and roundtables continue across Bharat Mandapam, Sushma Swaraj Bhawan and Ambedkar Bhawan, complemented by ongoing expo activities.
+
+#### Friday, 20 February 2026
+
+High-level GPAI (Global Partnership on AI) Council Meetings convene member countries to review progress, align priorities and strengthen multilateral cooperation on responsible and inclusive AI. The Leaders' Declaration is formally adopted, affirming collective commitments and outlining a shared roadmap for global AI governance and collaboration. Keynotes, panel discussions and roundtables conclude the summit's formal proceedings, whilst the AI Impact Expo completes its five-day run, providing final opportunities for participants to engage with innovations and establish partnerships.
+
+### Key Attendees
+
+The India AI Impact Summit attracted participation from over 100 countries, with delegations including 15–20 heads of government, more than 50 ministers, over 50 chief executives from leading global and Indian companies, and approximately 500 prominent figures from the international AI ecosystem. These included innovators, researchers, chief technology officers and representatives from multilateral organisations. The scale of participation reflected the summit's positioning as a major diplomatic and policy forum addressing artificial intelligence governance and development.
+
+The summit organisers published a list of key attendees on the official website, focusing primarily on chief executives, senior leadership and prominent global figures. This curated selection highlights individuals holding executive positions or recognised leadership roles within their respective organisations and sectors.
+
+<div class="tsap-info-box">
+  ℹ️ <strong>Note:</strong> The list below is reproduced from the <a href="https://impact.indiaai.gov.in/key-attendees">official India AI Impact Summit website</a> as of 14 February 2026. This represents a curated selection of high-level attendees published by the organisers and does not constitute a comprehensive list of all participants. Many speakers, panellists, session moderators and other contributors are not included in this official listing. The official list may be updated as the summit progresses.
+</div>
+
+<div class="attendee-search-wrapper">
+  <input type="text" id="attendee-search" class="attendee-search-input" placeholder="🔍 Search attendees by name or organisation...">
+</div>
+
+<table id="attendee-table" class="attendee-table">
+<thead>
+<tr>
+<th class="sortable" data-column="0">Name <span class="sort-arrow">⇅</span></th>
+<th class="sortable" data-column="1">Title and Organisation <span class="sort-arrow">⇅</span></th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Aarthi Subramanian</td><td>Chief Operating Officer and Executive Director, Tata Consultancy Services</td></tr>
+<tr><td>Ajay Vij</td><td>Senior Country Managing Director, Accenture India</td></tr>
+<tr><td>Akhilesh Tuteja</td><td>Head of Clients and Industries, KPMG India</td></tr>
+<tr><td>Alexandr Wang</td><td>Chief AI Officer, Meta</td></tr>
+<tr><td>Amanda Brock</td><td>Chief Executive Officer, OpenUK</td></tr>
+<tr><td>Amit Zavery</td><td>President, Chief Product Officer and Chief Operating Officer, ServiceNow</td></tr>
+<tr><td>Ana Paula Assis</td><td>Senior Vice President and Chair Asia Pacific and EMEA, IBM Corporation</td></tr>
+<tr><td>Anastasia Stasenko</td><td>Co-Founder and Chief Executive Officer, Pleias</td></tr>
+<tr><td>Anna Tumadóttir</td><td>Chief Executive Officer, Creative Commons</td></tr>
+<tr><td>Anne Neuberger</td><td>Strategic Advisor, Andreessen Horowitz</td></tr>
+<tr><td>Anne Robinson</td><td>Senior Vice President and Chief Legal Officer, IBM Corporation</td></tr>
+<tr><td>Aparna Bawa</td><td>Chief Operating Officer, Zoom</td></tr>
+<tr><td>Arthur Mensch</td><td>Co-Founder and Chief Executive Officer, Mistral AI</td></tr>
+<tr><td>Arundhati Bhattacharya</td><td>Chairperson and Chief Executive Officer, Salesforce India</td></tr>
+<tr><td>Bejul Somaia</td><td>Partner, Lightspeed</td></tr>
+<tr><td>Bill Gates</td><td>Chair, Gates Foundation</td></tr>
+<tr><td>Bipul Sinha</td><td>Chief Executive Officer, Chairman and Co-Founder, Rubrik</td></tr>
+<tr><td>Børge Brende</td><td>President and Chief Executive Officer, World Economic Forum</td></tr>
+<tr><td>Börje Ekholm</td><td>President and Chief Executive Officer, Ericsson Group</td></tr>
+<tr><td>Brad Smith</td><td>President and Vice Chair, Microsoft</td></tr>
+<tr><td>Burkhard Boeckem</td><td>Chief Technology Officer, Hexagon AB</td></tr>
+<tr><td>BVR Mohan Reddy</td><td>Founder and Chairman, Cyient Ltd</td></tr>
+<tr><td>C Vijayakumar</td><td>Chief Executive Officer and Managing Director, HCLTech</td></tr>
+<tr><td>Carme Artigas Brugal</td><td>Senior Fellow, Harvard Belfer Center and ADIALab</td></tr>
+<tr><td>Cristiano Amon</td><td>President and Chief Executive Officer, Qualcomm Incorporated</td></tr>
+<tr><td>Dame Melanie Dawes</td><td>Chief Executive, Ofcom</td></tr>
+<tr><td>Dario Amodei</td><td>Chief Executive Officer, Anthropic</td></tr>
+<tr><td>David Zapolsky</td><td>Chief Global Affairs and Legal Officer, Amazon</td></tr>
+<tr><td>Dr Aisha Walcott-Bryant</td><td>Head of Research, Google Africa</td></tr>
+<tr><td>Dr Anand Deshpande</td><td>Founder, Chairman and Managing Director, Persistent Systems</td></tr>
+<tr><td>Dr Archana Sharma</td><td>Principal Scientist, CERN Switzerland</td></tr>
+<tr><td>Dr Bonnie Kruft</td><td>Managing Director, Microsoft Research</td></tr>
+<tr><td>Dr Jacki O'Neill</td><td>Director, Microsoft Research Africa</td></tr>
+<tr><td>Dr Kalika Bali</td><td>Senior Principal Researcher, Microsoft Research</td></tr>
+<tr><td>Dr Liming Zhu</td><td>Head of the AI and Digital Division, CSIRO</td></tr>
+<tr><td>Dr Manish Gupta</td><td>Senior Director, Google DeepMind</td></tr>
+<tr><td>Dr Pushmeet Kohli</td><td>Vice President of Science, Google DeepMind</td></tr>
+<tr><td>Dr Sara Hooker</td><td>Co-Founder, Adaption Labs</td></tr>
+<tr><td>Dr Shivkumar Kalyanaraman</td><td>Chief Executive Officer, Anusandhan National Research Foundation</td></tr>
+<tr><td>Dr Sunayana Sitaram</td><td>Principal Researcher, Microsoft Research</td></tr>
+<tr><td>Dr Venkat Padmanabhan</td><td>Managing Director, Microsoft Research</td></tr>
+<tr><td>Eric Grimson</td><td>Chancellor for Academic Advancement, Massachusetts Institute of Technology</td></tr>
+<tr><td>Erik Ekudden</td><td>Chief Technology Officer, Ericsson</td></tr>
+<tr><td>Giordano Albertazzi</td><td>Chief Executive Officer, VERTIV</td></tr>
+<tr><td>Harita Gupta</td><td>Head of Global Experience, Sutherland Global</td></tr>
+<tr><td>Harshil Mathur</td><td>Chief Executive Officer and Co-Founder, Razorpay</td></tr>
+<tr><td>Hemant Taneja</td><td>Chief Executive Officer, General Catalyst</td></tr>
+<tr><td>Ibrahim Hafeezur Rehman</td><td>Officiating Director-General, NAMTECH</td></tr>
+<tr><td>Ivana Bartoletti</td><td>Vice President, Wipro</td></tr>
+<tr><td>J Trevor Hughes</td><td>President and Chief Executive Officer, IAPP</td></tr>
+<tr><td>James Manyika</td><td>President of Research, Labs, Technology and Society, Google and Alphabet</td></tr>
+<tr><td>Jason Oxman</td><td>President and Chief Executive Officer, Information Technology Industry Council</td></tr>
+<tr><td>Jay Chaudhry</td><td>Chief Executive Officer, Chairman and Founder, Zscaler</td></tr>
+<tr><td>Jeet Adani</td><td>Director, Adani Airport Holdings Ltd and Adani Digital Labs</td></tr>
+<tr><td>Jeetu Patel</td><td>President and Chief Product Officer, Cisco</td></tr>
+<tr><td>Jeff Shapiro</td><td>Chief Executive Officer, Scanline VFX</td></tr>
+<tr><td>Jensen Huang</td><td>Founder and Chief Executive Officer, NVIDIA</td></tr>
+<tr><td>Jorge Solis</td><td>Chief Executive Officer, Soufflet Malt</td></tr>
+<tr><td>Julie Sweet</td><td>Chair and Chief Executive Officer, Accenture</td></tr>
+<tr><td>K Krithivasan</td><td>Chief Executive Officer and Managing Director, Tata Consultancy Services</td></tr>
+<tr><td>Kalyan Kumar</td><td>Chief Product Officer, HCL Software</td></tr>
+<tr><td>Kiran Mazumdar-Shaw</td><td>Chairperson, Biocon Group</td></tr>
+<tr><td>Kunal Bahl</td><td>Co-Founder, AceVector and Titan Capital</td></tr>
+<tr><td>Lars Reger</td><td>Executive Vice President and Chief Technology Officer, NXP Semiconductors</td></tr>
+<tr><td>Martin Schroeter</td><td>Chairman and Chief Executive Officer, Kyndryl</td></tr>
+<tr><td>Martin Tisné</td><td>Founder and Chair, CurrentAI</td></tr>
+<tr><td>Matthew Prince</td><td>Chief Executive Officer, Cloudflare</td></tr>
+<tr><td>Mike Haley</td><td>Senior Vice President, Research, Autodesk</td></tr>
+<tr><td>Mukesh D Ambani</td><td>Chairman and Managing Director, Reliance Industries Limited</td></tr>
+<tr><td>Mustafa Furniturewala</td><td>Chief Technology Officer, Coursera</td></tr>
+<tr><td>Nandan Nilekani</td><td>Co-Founder and Chairman, Infosys Technologies Limited</td></tr>
+<tr><td>Natalie Black</td><td>Group Director (Infrastructure and Connectivity) and Executive Board Member, Ofcom</td></tr>
+<tr><td>Natarajan Chandrasekaran</td><td>Chairman, Tata Sons</td></tr>
+<tr><td>Natasha Crampton</td><td>Vice President, Chief Responsible AI Officer, Microsoft</td></tr>
+<tr><td>Navrina Singh</td><td>Founder and Chief Executive Officer, Credo AI</td></tr>
+<tr><td>Nikesh Arora</td><td>Chairman and Chief Executive Officer, Palo Alto Networks</td></tr>
+<tr><td>Nikhila Natarajan</td><td>Adjunct Professor, School of Communication and Information, Rutgers University</td></tr>
+<tr><td>Olivier Blum</td><td>Chief Executive Officer, Schneider Electric</td></tr>
+<tr><td>Pallavi Mahajan</td><td>Global Chief Technology and AI Officer, Nokia</td></tr>
+<tr><td>Prativa Mohapatra</td><td>Managing Director, Adobe India</td></tr>
+<tr><td>Prith Banerjee</td><td>Senior Vice President of Innovation, Synopsys</td></tr>
+<tr><td>Prof CV Jawahar</td><td>Professor of Computer Science, IIIT Hyderabad</td></tr>
+<tr><td>Prof Aditya Vashishtha</td><td>Assistant Professor of Information Science, Cornell University</td></tr>
+<tr><td>Prof Alice Oh</td><td>Professor, Korea Advanced Institute of Science and Technology</td></tr>
+<tr><td>Prof Alison Noble</td><td>Professor of Engineering, University of Oxford</td></tr>
+<tr><td>Prof Anima Anandkumar</td><td>Professor of Computing and Mathematical Sciences, Caltech</td></tr>
+<tr><td>Prof Balaraman Ravindaran</td><td>Head, Department of Data Science and AI, IIT Madras</td></tr>
+<tr><td>Prof Dame Wendy Hall</td><td>Professor of Computer Science, University of Southampton</td></tr>
+<tr><td>Prof Monojit Choudhury</td><td>Professor of NLP, MBZUAI</td></tr>
+<tr><td>Prof Neil Lawrence</td><td>DeepMind Professor of Machine Learning, University of Cambridge</td></tr>
+<tr><td>Prof Nicholas Davis</td><td>Professor of Emerging Technology, University of Technology Sydney</td></tr>
+<tr><td>Prof PJ Narayanan</td><td>Professor and Former Director, IIIT Hyderabad</td></tr>
+<tr><td>Prof Priya Donti</td><td>Assistant Professor, EECS and LIDS, Massachusetts Institute of Technology</td></tr>
+<tr><td>Prof Ramesh Raskar</td><td>Associate Professor of Media Arts and Sciences, MIT Media Labs</td></tr>
+<tr><td>Prof Somesh Jha</td><td>Professor of Computer Science, University of Wisconsin–Madison</td></tr>
+<tr><td>Prof Stuart J Russell</td><td>Professor, University of California, Berkeley</td></tr>
+<tr><td>Prof Subbarao Kambhampati</td><td>Professor of Computing and Augmented Intelligence, Arizona State University</td></tr>
+<tr><td>Prof Surya Ganguli</td><td>Associate Professor of Applied Physics and Computer Science, Stanford University</td></tr>
+<tr><td>Prof Vukosi Marivate</td><td>Professor of Computer Science, University of Pretoria</td></tr>
+<tr><td>Prof Yann LeCun</td><td>Executive Chairman, AMI Labs</td></tr>
+<tr><td>Prof Yoshua Bengio</td><td>Founder and Chair, Mila Institute</td></tr>
+<tr><td>Rahul Singh</td><td>Chief Operating Officer, Corporate Functions, HCLTech</td></tr>
+<tr><td>Raj Koneru</td><td>Chief Executive Officer, Kore.ai</td></tr>
+<tr><td>Raj Reddy</td><td>Professor, Computer Science and Robotics, School of Computer Science, Carnegie Mellon University</td></tr>
+<tr><td>Rajesh Subramanian</td><td>Chief Executive Officer, FedEx</td></tr>
+<tr><td>Rao Charagondla</td><td>Chief Financial Officer, IIT Bay Area Alumni</td></tr>
+<tr><td>Ravi Kumar S</td><td>Chief Executive Officer, Cognizant</td></tr>
+<tr><td>Ravi Mhatre</td><td>Partner and Co-Founder, Lightspeed</td></tr>
+<tr><td>Richard Marko</td><td>Chief Executive Officer, ESET</td></tr>
+<tr><td>Rishad Premji</td><td>Executive Chairman, Wipro Limited</td></tr>
+<tr><td>Roshni Nadar Malhotra</td><td>Chairperson, HCLTech</td></tr>
+<tr><td>Roy Jakobs</td><td>Chief Executive Officer, Royal Philips</td></tr>
+<tr><td>Ruchika Panesar</td><td>Chief Digital and Information Officer, Group Functions and Country Head India, NatWest Group</td></tr>
+<tr><td>Salil Parekh</td><td>Chief Executive Officer and Managing Director, Infosys</td></tr>
+<tr><td>Sam Altman</td><td>Chief Executive Officer, OpenAI</td></tr>
+<tr><td>Sameer Jain</td><td>Founder and Chief Executive Officer, Net Solutions</td></tr>
+<tr><td>Sandip Patel</td><td>Managing Director, IBM India South Asia</td></tr>
+<tr><td>Sanjay Mehrotra</td><td>Chairman, President and Chief Executive Officer, Micron</td></tr>
+<tr><td>Sanjay Sharma</td><td>Vice President, ArcelorMittal</td></tr>
+<tr><td>Santhosh Viswanathan</td><td>Managing Director and Vice President, India Region, Intel</td></tr>
+<tr><td>Seema Ambastha</td><td>Chief Executive, Larsen and Toubro Vyoma</td></tr>
+<tr><td>Shantanu Narayen</td><td>Chair and Chief Executive Officer, Adobe</td></tr>
+<tr><td>Shobana Kamineni</td><td>Executive Chairperson, Apollo HealthCo</td></tr>
+<tr><td>Sir Demis Hassabis</td><td>Co-Founder and Chief Executive Officer, Google DeepMind</td></tr>
+<tr><td>Sridhar Vembu</td><td>Co-Founder and Chief Scientist, Zoho Corporation</td></tr>
+<tr><td>Sundar Pichai</td><td>Chief Executive Officer, Google and Alphabet</td></tr>
+<tr><td>Sunil Bharti Mittal</td><td>Founder and Chairman, Bharti Enterprises</td></tr>
+<tr><td>Takahito Tokita</td><td>Representative Director and Chief Executive Officer, Fujitsu Limited</td></tr>
+<tr><td>Tony Blair</td><td>Executive Chairman, Tony Blair Institute for Global Change</td></tr>
+<tr><td>Uday Shankar</td><td>Vice Chairman, JioStar</td></tr>
+<tr><td>Umesh Sachdev</td><td>Chief Executive Officer and Co-Founder, Uniphore</td></tr>
+<tr><td>Victoria Espinel</td><td>Chief Executive Officer, Business Software Alliance</td></tr>
+<tr><td>Vijay Guntur</td><td>Chief Technology Officer and Head of Ecosystems, HCLTech</td></tr>
+<tr><td>Vijay Shekhar Sharma</td><td>Founder and Chief Executive Officer, Paytm</td></tr>
+<tr><td>Vishal Sikka</td><td>Founder and Chief Executive Officer, Vianai Systems</td></tr>
+<tr><td>Vivek Mahajan</td><td>Chief Technology Officer, Fujitsu Limited</td></tr>
+</tbody>
+</table>
 
 ## Sunil Abraham's Participation
 
@@ -238,6 +422,9 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 
 ## External links
 - [Official website](https://impact.indiaai.gov.in/)
+- [IndiaAI](https://www.facebook.com/INDIAai) on Facebook
+- [India AI](https://x.com/OfficialINDIAai) on 𝕏
+- [IndiaAI](https://www.instagram.com/officialindiaai/) on Instagram
 
 <style>
   /* Summit table wrapper - floats right on desktop */
@@ -736,4 +923,151 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
     padding: 10px 12px;
   }
 }
+  .attendee-search-wrapper {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.attendee-search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.attendee-search-input:focus {
+  outline: none;
+  border-color: #2196F3;
+}
+
+.attendee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.attendee-table th {
+  background: #495057;
+  color: #ffffff;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+  position: relative;
+}
+
+.attendee-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.attendee-table th.sortable:hover {
+  background: #5a6268;
+}
+
+.sort-arrow {
+  margin-left: 5px;
+  opacity: 0.3;
+  font-size: 0.9em;
+  transition: opacity 0.2s;
+}
+
+.attendee-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+}
+
+.attendee-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.attendee-table td:first-child {
+  font-weight: 500;
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  .attendee-table {
+    font-size: 0.85rem;
+  }
+  
+  .attendee-table th,
+  .attendee-table td {
+    padding: 8px;
+  }
+}
 </style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('attendee-search');
+  const table = document.getElementById('attendee-table');
+  const tbody = table.querySelector('tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+  let currentSort = { column: -1, ascending: true };
+  
+  // SEARCH FUNCTIONALITY
+  searchInput.addEventListener('keyup', function() {
+    const searchTerm = this.value.toLowerCase();
+    
+    rows.forEach(function(row) {
+      const name = row.cells[0].textContent.toLowerCase();
+      const org = row.cells[1].textContent.toLowerCase();
+      
+      if (name.includes(searchTerm) || org.includes(searchTerm)) {
+        row.style.display = '';
+      } else {
+        row.style.display = 'none';
+      }
+    });
+  });
+  
+  // SORTING FUNCTIONALITY
+  table.querySelectorAll('th.sortable').forEach(function(header) {
+    header.addEventListener('click', function() {
+      const column = parseInt(this.getAttribute('data-column'));
+      
+      // Toggle sort direction if clicking same column
+      if (currentSort.column === column) {
+        currentSort.ascending = !currentSort.ascending;
+      } else {
+        currentSort.ascending = true;
+      }
+      currentSort.column = column;
+      
+      // Sort rows
+      const sortedRows = rows.slice().sort(function(rowA, rowB) {
+        const cellA = rowA.cells[column].textContent.trim();
+        const cellB = rowB.cells[column].textContent.trim();
+        
+        const comparison = cellA.localeCompare(cellB, undefined, { numeric: true, sensitivity: 'base' });
+        return currentSort.ascending ? comparison : -comparison;
+      });
+      
+      // Clear tbody and append sorted rows
+      tbody.innerHTML = '';
+      sortedRows.forEach(function(row) {
+        tbody.appendChild(row);
+      });
+      
+      // Update sort arrows
+      updateSortArrows();
+    });
+  });
+  
+  function updateSortArrows() {
+    table.querySelectorAll('th.sortable .sort-arrow').forEach(function(arrow, index) {
+      if (index === currentSort.column) {
+        arrow.textContent = currentSort.ascending ? '↑' : '↓';
+        arrow.style.opacity = '1';
+      } else {
+        arrow.textContent = '⇅';
+        arrow.style.opacity = '0.3';
+      }
+    });
+  }
+});
+</script>
