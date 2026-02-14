@@ -96,7 +96,9 @@ Within this varied international landscape, India has sought to articulate an ap
 
 The official logo of the India AI Impact Summit 2026 was unveiled on 18 September 2025 following a nationwide design contest hosted on MyGov, which received 599 entries from across India. The winning design, created by Shri Ajith P. Suresh, incorporates several symbolic elements reflecting the summit's vision.
 
-![India AI Impact Summit 2026 Logo](/events/images/ai-impact-summit-2026-logo.png)
+<div class="visual-identity-logo">
+  <img src="/events/images/ai-impact-summit-2026-logo.png" alt="India AI Impact Summit 2026 Logo">
+</div>
 
 The logo features the Ashoka Chakra at its centre, representing India's constitutional values and commitment to ethical governance in artificial intelligence development. Radiating outward from the central wheel are neural network-inspired flares rendered in a vibrant gradient palette, symbolising AI's transformative potential and the diversity of perspectives that artificial intelligence systems must incorporate. The bilingual presentation, featuring both English and Hindi text, emphasises India's multilingual approach to inclusive technology development.
 
@@ -148,7 +150,7 @@ The pre-summit programme included seven flagship events addressing specific dime
 
 The event is organised across two main components: the AI Impact Expo, which runs throughout the five-day period (16–20 February), and the Summit Sessions, concentrated on 19–20 February. This structure allows participants to engage with both technological demonstrations and policy discussions, whilst providing space for bilateral meetings and networking amongst delegates.
 
-The exhibition component occupies 50,000 square metres at Bharat Mandapam, showcasing AI applications, breakthrough technologies and innovation from participating countries. The expo provides a platform for demonstrating real-world AI implementations across sectors including healthcare, agriculture, education and public infrastructure.
+The exhibition component occupies 70,000 square metres at Bharat Mandapam, showcasing AI applications, breakthrough technologies and innovation from participating countries. The expo provides a platform for demonstrating real-world AI implementations across sectors including healthcare, agriculture, education and public infrastructure.
 
 The core diplomatic proceedings take place over two days, featuring plenary sessions with heads of state, thematic panel discussions organised around the Seven Chakras, and working group deliberations. These sessions are expected to produce policy commitments, collaborative frameworks and the Leaders' Declaration.
 
@@ -429,6 +431,9 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 10. [Seven Chakras of the India–AI Impact Summit 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225069), Press Information Bureau, Government of India, accessed 13 February 2026
 11. [Uttarakhand to Host Pre-Summit to India – AI Impact Summit 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2179758), Press Information Bureau, Government of India, accessed 13 February 2026
 12. [[19-20 February 2026] AI Impact Summit 2026 at Bharat Mandapam, New Delhi](https://www.indembassyhanoi.gov.in/section/news/19-20-february-2026-ai-impact-summit-2026-at-bharat-mandapam-new-delhi/), Indian Embassy, Vietnam, accessed 13 February 2026
+13. [Key Attendees - India AI Impact Summit 2026](https://impact.indiaai.gov.in/key-attendees), IndiaAI Mission, Government of India, accessed 14 February 2026
+14. [Logo and Key Flagship Initiatives for the India-AI Impact Summit 2026 Unveiled](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2175954), Press Information Bureau, Government of India, accessed 14 February 2026
+15. [About India AI Impact Expo 2026](https://www.impactexpo.indiaai.gov.in/about-ai-expo), IndiaAI Mission, Government of India, accessed 14 February 2026
 
 ## External links
 - [Official website](https://impact.indiaai.gov.in/)
@@ -438,7 +443,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 
 <style>
   .summit-logo {
-  max-width: 200px;
+  max-width: 100px;
   width: 100%;
   height: auto;
   margin: 0 auto 1rem auto;
@@ -448,7 +453,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 
 @media (max-width: 768px) {
   .summit-logo {
-    max-width: 120px;
+    max-width: 80px;
     margin-bottom: 0.75rem;
   }
 }
@@ -907,6 +912,31 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   }
 }
 
+  /* Visual Identity logo styling */
+.visual-identity-logo {
+  float: right;
+  margin: 0 0 1.5rem 1.5rem;
+  max-width: 300px;
+}
+
+.visual-identity-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #dee2e6;
+  padding: 0.5rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .visual-identity-logo {
+    float: none;
+    margin: 1rem auto;
+    max-width: 70%;
+  }
+}
+
 /* Current Event Notice */
 .current-event-notice {
   background-color: #f5f5f5;
@@ -949,8 +979,10 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
     padding: 10px 12px;
   }
 }
-  .attendee-search-wrapper {
-  margin: 1.5rem 0 1rem 0;
+.attendee-search-wrapper {
+  margin: 1.5rem auto 1rem auto;  
+  max-width: 1000px;               
+  width: 100%; 
 }
 
 .attendee-search-input {
@@ -961,8 +993,11 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   border: 2px solid #dee2e6;
   border-radius: 4px;
   transition: border-color 0.3s;
+  box-sizing: border-box;
+  display: block;   
+  margin: 0 auto;   
 }
-
+  
 .attendee-search-input:focus {
   outline: none;
   border-color: #2196F3;
