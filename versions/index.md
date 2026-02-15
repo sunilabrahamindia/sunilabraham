@@ -26,6 +26,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 15. [Version 1.1.2](#version-112)
 16. [Version 1.2](#version-12)
 17. [Version 1.2.1](#version-121)
+18. [Version 1.2.2](#version-122)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -546,4 +547,29 @@ Version 1.2 focuses on strengthening media coverage clusters, improving chronolo
 
 **Status** Completion date 8 February 2026
 
+## Version 1.2.2
+
+- 24 new pages have been published this week.
+
+**Clusters**
+- Work commenced on the [*Outlook India*](/clusters/sunil-abraham-outlook-india/) cluster, along with related media articles referencing Sunil Abraham.
+- Initial documentation began on the Forum for Rights to Electronic Expression (FREE), recording its formation in 1994 and its early role in digital rights advocacy in India. Details from primary sources, archival materials, and first-hand accounts will be added progressively as they become available.
+
+**Site Infrastructure and Redirect Hygiene**
+- All short vanity URLs (/1/, /c/, /free/, /h/, /p/, /v/) were reviewed and standardised. Earlier bare meta-refresh stubs were replaced with a consistent minimal redirect template incorporating canonical and noindex directives to improve crawl clarity and SEO hygiene.
+
+**Documentation**
+- A GitHub Wiki was initiated for process documentation: [Project Wiki](https://github.com/sunilabrahamindia/sunilabraham/wiki). The wiki will be expanded gradually.
+
+**Commemorations and Special Pages**
+- An interactive commemoration for the 33rd anniversary of Students for Peace was launched on 13 February 2026, with a dedicated permanent page at [/sfp33/](/sfp33/). The page uses an include file (`/_includes/sfp33.html`) featuring 33 animated candles.
+- The commemoration section was integrated into the homepage (/index.md) for temporary display from 13–19 February 2026, after which it will be removed from the homepage while remaining permanently accessible at [/sfp33/](/sfp33/).
+- A new category page, [TSAP Events and Rituals](/categories/tsap-events-and-rituals/), was created to document future commemorations, anniversaries, and milestones.
+- Additional media coverage articles related to Students for Peace were created during this cycle.
+
+**Events**
+- The Events index page was established at [/events/](/events/) to document organised and participated engagements.
+- The article on the India AI Impact Summit 2026 was created at [/events/india-ai-impact-summit-2026/](/events/india-ai-impact-summit-2026/), with further expansion to be done.
+
+**Status** Completion date 15 February 2026
 
