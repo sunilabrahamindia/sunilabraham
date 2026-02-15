@@ -318,61 +318,170 @@ The logo features the Ashoka Chakra at its centre, representing India's constitu
 
 <h4>Working Group Outcome Documents</h4>
 
-<p>The summit's Seven Chakras—thematic working groups addressing distinct dimensions of AI's global impact—are expected to produce outcome documents detailing policy recommendations, implementation roadmaps, and commitments from participating governments and organisations. Over 100 countries worldwide have engaged through these working groups to shape a future of responsible and inclusive AI.</p>
+<p>The summit's Seven Chakras—thematic working groups addressing distinct dimensions of AI's global impact—conducted deliberations from October 2025 through January 2026. Over 100 countries worldwide engaged through these working groups to shape a future of responsible and inclusive AI. Each working group is co-chaired by Indian government officials alongside international partners, with hybrid meetings held across Indian cities.</p>
 
 <h5>Human Capital Working Group</h5>
 
-<p>Focuses on equitable skilling and workforce transitions for an AI-enabled economy. <a href="https://impact.indiaai.gov.in/working-groups/human-capital">Official page</a></p>
+<p>Focuses on equitable skilling and workforce transitions for an AI-enabled economy.</p>
+
+<p><strong>Co-Chairs:</strong><br>
+• Prof. TG Sitharam (India) – Chairman, All India Council of Technical Education (AICTE)<br>
+• Philippines (Country Co-Chair)<br>
+• Rwanda (Country Co-Chair)</p>
+
+<p><strong>Working Group Meeting:</strong> 5th–6th January 2026, Hybrid (Guwahati)</p>
+
+<p><strong>Key Pre-Summit Events:</strong></p>
+<ul>
+<li>14 Nov 2025: CXO Roundtables at Nasscom Technology Confluence (Pune, Mumbai, Kochi, Kolkata)</li>
+<li>13 Nov 2025: Shaping an Inclusive AI Future – Fireside with Jessica Jensen (New Delhi, AI Kiran)</li>
+<li>11–13 Nov 2025: U.S.–India AI & Technology Cooperation Dialogue (New Delhi)</li>
+<li>3 Nov 2025–31 Jan 2026: AI for All: Catalysing Jobs, Growth, and Opportunity (Delhi, Mumbai, Bangalore, Prosus)</li>
+</ul>
 
 <div class="tsap-info-box">
+<strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/human-capital">Human Capital Working Group</a><br>
 <strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
 </div>
 
 <h5>Inclusion for Social Empowerment Working Group</h5>
 
-<p>Advances inclusive-by-design AI solutions for diverse communities across languages, regions, and abilities. <a href="https://impact.indiaai.gov.in/working-groups/inclusion-social-empowerment">Official page</a></p>
+<p>Advances inclusive-by-design AI solutions for diverse communities across languages, regions, and abilities.</p>
+
+<p><strong>Co-Chairs:</strong><br>
+• Mr. Rajesh Aggarwal (India) – Secretary, Department for Empowerment of Persons with Disabilities (DEPwD)<br>
+• Switzerland (Country Co-Chair)<br>
+• Nigeria (Country Co-Chair)</p>
+
+<p><strong>Working Group Meeting:</strong> 16th January 2026, Hybrid (Hyderabad)</p>
+
+<p><strong>Key Pre-Summit Events:</strong></p>
+<ul>
+<li>13 Nov 2025: Women in the Loop: Shaping the AI Economy (New Delhi, The/Nudge Institute)</li>
+<li>13 Nov 2025: Breaking Barriers: Capacity, Data, and Inclusion in AI (South Africa, ORF & SAIIA)</li>
+<li>8 Nov 2025: Women's Health Futures: Innovation, Equity, and Lifelong Wellbeing (New Delhi, ORF)</li>
+<li>22 Oct 2025: Inclusive AI Roundtable Dinner at Consulate General of India (San Francisco, AI Kiran)</li>
+</ul>
 
 <div class="tsap-info-box">
+<strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/inclusion-social-empowerment">Inclusion for Social Empowerment Working Group</a><br>
 <strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
 </div>
 
 <h5>Safe and Trusted AI Working Group</h5>
 
-<p>Builds globally trusted AI systems anchored in transparency, accountability, and shared safeguards. <a href="https://impact.indiaai.gov.in/working-groups/safe-trusted-ai">Official page</a></p>
+<p>Builds globally trusted AI systems anchored in transparency, accountability, and shared safeguards.</p>
+
+<p><strong>Co-Chairs:</strong><br>
+• Prof. Balaraman Ravindran (India) – Founding Head, Wadhwani School of Data Science and AI, IIT Madras<br>
+• Brazil (Country Co-Chair)<br>
+• Japan (Country Co-Chair)</p>
+
+<p><strong>Working Group Meeting:</strong> 10th–11th December 2025, Hybrid (Chennai)</p>
+
+<p><strong>Conclave on Safe and Trusted AI:</strong> Public event held alongside the working group meeting featuring global experts on AI safety, risk mitigation, and governance frameworks.</p>
+
+<p><strong>Key Pre-Summit Events:</strong></p>
+<ul>
+<li>18 Dec 2025: eRaksha – Cyber Security Summit (New Delhi, Data Security Council of India)</li>
+<li>10 Dec 2025: Operationalising AI Safety in the Global South (London, UK AI Safety Institute)</li>
+<li>11–13 Nov 2025: U.S.–India AI & Technology Cooperation Dialogue (New Delhi)</li>
+<li>8–10 Oct 2025: Harnessing the Power of AI: Safe and Ethical Integration (Geneva, GLOBETHICS)</li>
+</ul>
 
 <div class="tsap-info-box">
+<strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/safe-trusted-ai">Safe and Trusted AI Working Group</a><br>
 <strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
 </div>
 
 <h5>Science Working Group</h5>
 
-<p>Harnesses AI to accelerate frontier science, foster scientific collaboration, and translate breakthroughs into shared progress. <a href="https://impact.indiaai.gov.in/working-groups/science">Official page</a></p>
+<p>Harnesses AI to accelerate frontier science, foster scientific collaboration, and translate breakthroughs into shared progress.</p>
+
+<p><strong>Co-Chair:</strong><br>
+• Dr. Ajay Kumar Sood (India) – Principal Scientific Adviser to the Government of India</p>
+
+<p><strong>Working Group Meeting:</strong> 8th January 2026, Hybrid (Mumbai)</p>
+
+<p><strong>Conclave on AI for Science:</strong> Public symposium held at IIT Bombay on 7th–8th January 2026, exploring AI's role in scientific discovery, research collaboration, and equitable knowledge-sharing.</p>
+
+<p><strong>Key Pre-Summit Events:</strong></p>
+<ul>
+<li>7–8 Jan 2026: Conclave on AI for Science (IIT Bombay, Mumbai)</li>
+<li>8 Nov 2025: Mozilla Festival (MozFest) 2025: Responsible AI Across Countries (Barcelona, Mozilla Foundation)</li>
+<li>11–13 Nov 2025: U.S.–India AI & Technology Cooperation Dialogue (New Delhi)</li>
+</ul>
 
 <div class="tsap-info-box">
+<strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/science">Science Working Group</a><br>
 <strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
 </div>
 
 <h5>Resilience, Innovation and Efficiency Working Group</h5>
 
-<p>Drives sustainable, resource-efficient AI systems that strengthen climate resilience and sustainability. <a href="https://impact.indiaai.gov.in/working-groups/resilience-innovation-efficiency">Official page</a></p>
+<p>Drives sustainable, resource-efficient AI systems that strengthen climate resilience and sustainability.</p>
+
+<p><strong>Co-Chairs:</strong><br>
+• Mr. Pankaj Agarwal (India) – Secretary, Ministry of Power<br>
+• France (Country Co-Chair)</p>
+
+<p><strong>Working Group Meeting:</strong> 16th–20th January 2026, Hybrid (Bengaluru) <em>[Tentative]</em></p>
+
+<p><strong>Key Pre-Summit Events:</strong></p>
+<ul>
+<li>12 Feb 2025: India-France AI Policy Roundtable (Paris, during AI Action Summit)</li>
+<li>11–13 Nov 2025: U.S.–India AI & Technology Cooperation Dialogue (New Delhi)</li>
+<li>11–15 Feb 2025: Road to the AI Action Summit (Paris, France)</li>
+</ul>
 
 <div class="tsap-info-box">
+<strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/resilience-innovation-efficiency">Resilience, Innovation and Efficiency Working Group</a><br>
 <strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
 </div>
 
 <h5>Democratising AI Resources Working Group</h5>
 
-<p>Promotes equitable access to foundational AI resources for inclusive innovation and sustainable development. <a href="https://impact.indiaai.gov.in/working-groups/democratizing-ai-resources">Official page</a></p>
+<p>Promotes equitable access to foundational AI resources for inclusive innovation and sustainable development.</p>
+
+<p><strong>Co-Chairs:</strong><br>
+• Mr. Saurabh Garg (India) – Secretary, Ministry of Statistics and Programme Implementation (MoSPI)<br>
+• Egypt (Country Co-Chair)<br>
+• Kenya (Country Co-Chair)</p>
+
+<p><strong>Working Group Meeting:</strong> 18th–19th December 2025, Hybrid (Bhubaneswar)</p>
+
+<p><strong>Key Pre-Summit Events:</strong></p>
+<ul>
+<li>13 Nov 2025: Breaking Barriers: Capacity, Data, and Inclusion in AI (South Africa, ORF & SAIIA)</li>
+<li>16 Dec 2025: National Digital Data Marketplace Conclave (Gandhinagar, Gujarat)</li>
+<li>22 Nov 2025: Shaping the Future of AI and Digital Public Infrastructure (Seattle, USA)</li>
+</ul>
 
 <div class="tsap-info-box">
+<strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/democratizing-ai-resources">Democratising AI Resources Working Group</a><br>
 <strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
 </div>
 
 <h5>AI for Economic Development and Social Good Working Group</h5>
 
-<p>Leverages AI to enhance productivity, innovation, and inclusive development across economies and societies. <a href="https://impact.indiaai.gov.in/working-groups/ai-for-economic-growth">Official page</a></p>
+<p>Leverages AI to enhance productivity, innovation, and inclusive development across economies and societies.</p>
+
+<p><strong>Co-Chairs:</strong><br>
+• Ms. Debjani Ghosh (India) – Senior Adviser, NITI Aayog<br>
+• Netherlands (Country Co-Chair)<br>
+• Indonesia (Country Co-Chair)</p>
+
+<p><strong>Working Group Meeting:</strong> 12th January 2026, Hybrid (Lucknow)</p>
+
+<p><strong>Key Pre-Summit Events:</strong></p>
+<ul>
+<li>3 Nov 2025–31 Jan 2026: AI for All: Catalysing Jobs, Growth, and Opportunity (Delhi, Mumbai, Bangalore, Prosus)</li>
+<li>10 Jan 2026: Business Analytics Conclave (New Delhi, Analytics India Magazine)</li>
+<li>9 Dec 2025: Delivering AI Impact: Lessons from India (London, Chatham House)</li>
+</ul>
 
 <div class="tsap-info-box">
+<strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/ai-for-economic-growth">AI for Economic Development and Social Good Working Group</a><br>
 <strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
 </div>
 
@@ -717,6 +826,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 14. [Logo and Key Flagship Initiatives for the India-AI Impact Summit 2026 Unveiled](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2175954), Press Information Bureau, Government of India, accessed 14 February 2026
 15. [About India AI Impact Expo 2026](https://www.impactexpo.indiaai.gov.in/about-ai-expo), IndiaAI Mission, Government of India, accessed 14 February 2026
 16. [Seven Chakras of the India–AI Impact Summit 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225069), Press Information Bureau, Government of India, accessed 15 February 2026
+17. [Working Groups Overview](https://impact.indiaai.gov.in/working-groups), India AI Impact Summit 2026, accessed 15 February 2026
 
 ## External links
 - [Official website](https://impact.indiaai.gov.in/)
