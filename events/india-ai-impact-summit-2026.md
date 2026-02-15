@@ -103,18 +103,15 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [AI Action Summit (2025)](#ai-action-summit-2025)
    - [India's Hosting and Positioning (2026)](#indias-hosting-and-positioning-2026)
    - [Global Regulatory Landscape](#global-regulatory-landscape)
-   - [Visual Identity](#visual-identity)
 2. [Outcome Documents](#outcome-documents)
    - [AI Safety Summit (Bletchley Park, November 2023)](#ai-safety-summit-bletchley-park-november-2023)
    - [AI Seoul Summit (South Korea, May 2024)](#ai-seoul-summit-south-korea-may-2024)
    - [AI Action Summit (Paris, February 2025)](#ai-action-summit-paris-february-2025)
    - [G20 New Delhi Leaders' Declaration (September 2023)](#g20-new-delhi-leaders-declaration-september-2023)
    - [India AI Impact Summit (February 2026)](#india-ai-impact-summit-february-2026)
-   - [Policy Evolution: From Bletchley to Delhi](#policy-evolution-from-bletchley-to-delhi)
-3. [Objectives and Core Pillars](#objectives-and-core-pillars)
-   - [The Three Sutras](#the-three-sutras)
-   - [The Seven Chakras](#the-seven-chakras)
-4. [Programme and Activities](#programme-and-activities)
+3. [Policy Evolution: From Bletchley to Delhi](#policy-evolution-from-bletchley-to-delhi)
+4. [Policy Evolution: Quantitative Analysis](#policy-evolution-quantitative-analysis)
+5. [Programme and Activities](#programme-and-activities)
    - [Pre-Summit Engagement](#pre-summit-engagement)
    - [Summit Structure](#summit-structure)
    - [Call for Proposals](#call-for-proposals)
@@ -122,9 +119,6 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [AI Compendium](#ai-compendium)
    - [Session Schedule](#session-schedule)
    - [Key Attendees](#key-attendees)
-5. [Sunil Abraham's Participation](#sunil-abrahams-participation)
-   - [ASSOCHAM Thematic Sessions (17 February 2026)](#assocham-thematic-sessions-17-february-2026)
-   - [Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)](#responsible-ai-in-action-how-global-enterprises-are-building-trust-at-scale-20-february-2026)
 6. [See also](#see-also)
 7. [References](#references)
 8. [External links](#external-links)
@@ -164,16 +158,6 @@ India's engagement with artificial intelligence has accelerated substantially in
 The summit takes place amid divergent regulatory and governance approaches to artificial intelligence. The European Union has adopted a comprehensive, risk-based legislative framework through the EU AI Act. The United States has emphasised executive guidance, voluntary commitments and public-private collaboration. China has combined state-directed AI advancement with regulatory controls over algorithmic deployment and content governance.
 
 Within this varied international landscape, India has sought to articulate an approach that integrates innovation, developmental priorities and governance safeguards. The India summit reflects an effort to engage with existing global frameworks while also foregrounding the concerns of countries building digital infrastructure, expanding compute capacity and addressing labour-market transitions linked to automation. In this sense, the gathering forms part of a broader discussion about how global AI governance can incorporate perspectives from emerging economies alongside those of established industrial powers.
-
-### Visual Identity
-
-<div class="visual-identity-logo">
-  <img src="/events/images/ai-impact-summit-2026-logo.png" alt="India AI Impact Summit 2026 Logo">
-</div>
-
-The official logo of the India AI Impact Summit 2026 was unveiled on 18 September 2025 following a nationwide design contest hosted on MyGov, which received 599 entries from across India. The winning design, created by Shri Ajith P. Suresh, incorporates several symbolic elements reflecting the summit's vision.
-
-The logo features the Ashoka Chakra at its centre, representing India's constitutional values and commitment to ethical governance in artificial intelligence development. Radiating outward from the central wheel are neural network-inspired flares rendered in a vibrant gradient palette, symbolising AI's transformative potential and the diversity of perspectives that artificial intelligence systems must incorporate. The bilingual presentation, featuring both English and Hindi text, emphasises India's multilingual approach to inclusive technology development.
 
 ## Outcome Documents
 
@@ -328,37 +312,9 @@ The logo features the Ashoka Chakra at its centre, representing India's constitu
   </div>
 </div>
 
-<h4>India-France Declaration on Artificial Intelligence</h4>
-
-<p>Alongside the broader Paris Statement, India and France signed a bilateral declaration on 12 February 2025 outlining specific areas of cooperation. The declaration emphasised joint development of AI models supporting linguistic and cultural diversity, collaboration on expanding computing infrastructure, and shared commitments to building digital public goods accessible to populations underserved by commercial AI systems.</p>
-
-<div class="outcome-doc-card">
-  <div class="outcome-doc-header">📄 India-France Bilateral Declaration on AI</div>
-  <div class="outcome-doc-meta">
-    <strong>Signatories:</strong> India and France<br>
-    <strong>Pages:</strong> 2 | <strong>Size:</strong> 113 KB
-  </div>
-  <div class="outcome-doc-links">
-    <a href="/events/files/2025-india-france-ai-declaration.pdf" class="outcome-doc-link">📥 Download PDF</a>
-    <a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/39034/IndiaFrance_Declaration_on_Artificial_Intelligence_February_12_2025" class="outcome-doc-link-alt">🔗 Official source (MEA India)</a>
-  </div>
-</div>
-
 <h3>G20 New Delhi Leaders' Declaration (September 2023)</h3>
 
-<p>Prior to the specialised AI summits, the G20 acknowledged AI governance as a priority in the New Delhi Leaders' Declaration adopted on 9–10 September 2023. The AI-related paragraphs committed G20 members to promoting international cooperation on AI governance whilst emphasising the dual imperative of unlocking AI's economic potential and mitigating its societal risks.</p>
-
-<div class="outcome-doc-card">
-  <div class="outcome-doc-header">📄 G20 AI Compliance Report</div>
-  <div class="outcome-doc-meta">
-    <strong>Participants:</strong> 20 G20 member states<br>
-    <strong>Pages:</strong> 87 | <strong>Size:</strong> 1.31 MB
-  </div>
-  <div class="outcome-doc-links">
-    <a href="/events/files/2023-g20-newdelhi-ai-compliance.pdf" class="outcome-doc-link">📥 Download PDF</a>
-    <a href="https://www.g20.utoronto.ca/compliance/2023newdelhi-final/07-2023-g20-compliance-final-AI.pdf" class="outcome-doc-link-alt">🔗 Official source</a>
-  </div>
-</div>
+<p>The G20 acknowledged AI governance as a priority in its New Delhi Leaders' Declaration (9–10 September 2023), predating the specialised summit sequence. Analysis of G20 AI policy development constitutes a distinct policy track beyond this article's scope.</p>
 
 <h3>India AI Impact Summit (February 2026)</h3>
 
@@ -559,39 +515,39 @@ The logo features the Ashoka Chakra at its centre, representing India's constitu
 
 <p>The outcome documents from Delhi will provide the clearest indication yet of whether international AI governance can move beyond declarations toward coordinated action.</p>
 
-## Objectives and Core Pillars
+## Policy Evolution: Quantitative Analysis
 
-The India AI Impact Summit 2026 articulates its objectives through a structured framework designed to translate high-level AI governance discussions into implementable policy and development outcomes. The summit's conceptual architecture is organised around two complementary frameworks: the Three Sutras, which define its guiding principles, and the Seven Chakras, which structure its thematic working tracks.
+A comparative analysis of outcome documents from the 2023–2025 AI summit sequence reveals a dramatic reorientation in international AI governance priorities.
 
-### The Three Sutras
+### From Safety to Openness
 
-The summit is anchored in three guiding principles, termed 'Sutras', a Sanskrit word denoting essential threads that bind wisdom to action. These principles articulate India's vision for how artificial intelligence development should proceed at the international level.
+Keyword frequency analysis across seven major outcome documents demonstrates a fundamental policy shift:
 
-**People**: This principle centres AI development on serving humanity across its full diversity, respecting cultural identities whilst preserving human dignity. The focus encompasses human-centred development in an AI-enabled world, advancing inclusivity through multilingual and culturally contextualised systems, and establishing robust frameworks for safe and trusted AI deployment. The People sutra emphasises that technological progress must prioritise human welfare, social empowerment and the protection of individual rights throughout the AI development lifecycle.
+| Era | Documents | Safety+Safe | Open* | Ratio |
+|-----|-----------|-------------|-------|-------|
+| **Bletchley (2023)** | Chair's Statement, Safety Testing | 44 | 2 | 22:1 |
+| **Seoul (2024)** | Declaration, Safety Science, Commitments | 42 | 1 | 42:1 |
+| **Paris/India (2025)** | Paris Statement, India-France Declaration | 9 | 10 | 0.9:1 |
 
-**Planet**: This sutra addresses the dual challenge of making AI infrastructure more resource-efficient whilst simultaneously leveraging AI capabilities to accelerate climate resilience and environmental protection. It acknowledges that AI systems carry significant computational and energy costs, requiring sustainable approaches to model development and deployment. Simultaneously, the Planet principle recognises AI's potential to advance scientific breakthroughs in understanding and managing biological systems, provided that technological advancement aligns with planetary stewardship rather than environmental degradation.
+*Includes: open, openness, open-source, open standards, open data
 
-**Progress**: This principle advocates for equitable distribution of AI benefits, ensuring that technological advances contribute to broad-based development rather than concentrating advantages amongst wealthy nations or elite institutions. The Progress sutra frames AI as a tool for inclusive economic growth, particularly targeting opportunities for small businesses and developing economies that risk being marginalised in the global technology race. It reflects the summit's stated objective of reducing barriers to participation in AI development and deployment, particularly for countries facing resource and infrastructure constraints.
+The Bletchley Declaration (November 2023) mentioned "safety" or "safe" 44 times across its primary documents whilst referencing "open" concepts only twice—specifically framing open-source models as potential risks requiring additional safety measures. By contrast, the Paris Statement and India-France Declaration (February 2025) reversed this emphasis, with "open" references (10) exceeding safety language (9) for the first time in AI summit history.
 
-### The Seven Chakras
+### Regulatory Vision Shift
 
-Building upon the three foundational Sutras, the summit operationalises its agenda through seven thematic working groups, termed 'Chakras'. Each Chakra addresses a distinct dimension of AI's global impact, translating aspirational principles into concrete areas for multilateral collaboration and policy action. These working groups form the organisational backbone for the summit's discussions, panels and outcome documents.
+This quantitative shift reflects changing diplomatic priorities:
 
-**Human Capital**: Focuses on preparing the global workforce for an AI-integrated economy through equitable reskilling programmes and human development initiatives. This Chakra addresses labour market transitions and the need for educational systems to adapt to rapidly evolving technological demands.
+**Bletchley Park (2023):** Frontier AI characterised as posing "potentially catastrophic" risks. Open-source development treated as a safety concern. International cooperation centred on risk mitigation and safety testing protocols.
 
-**Inclusion for Social Empowerment**: Advances inclusive-by-design AI development that accounts for linguistic diversity, gender equity, accessibility requirements and the needs of underserved communities. This working group examines how AI systems can be engineered to serve diverse populations rather than replicating existing inequalities.
+**Seoul (2024):** Maintained safety focus (42 safety references) whilst introducing "innovation" and "inclusion" as co-equal goals. However, openness rhetoric remained absent—only a single reference to "openness, transparency, and reciprocity" in scientific cooperation contexts.
 
-**Safe and Trusted AI**: Establishes frameworks for transparency, accountability and shared safeguards to foster public confidence in AI systems. This Chakra addresses data governance, ethical deployment standards and mechanisms for ensuring AI systems operate in line with human values.
+**Paris (2025):** First explicit embrace of "open AI models" language. Safety references dropped 88% from Seoul levels. The statement committed signatories to "focusing on open AI models" and launching a Public Interest AI Platform supporting "openness and transparency."
 
-**Science**: Harnesses artificial intelligence to accelerate scientific breakthroughs and fosters international research collaboration across disciplines. This working group explores how AI can enhance scientific discovery whilst ensuring that research benefits are shared globally rather than concentrated in well-resourced institutions.
+**India-France (2025):** Marked the clearest articulation of an openness agenda, advocating "development of free and open resources for all countries," "broad and open and freely reusable large language models," and explicit support for "open source tools." Notably, the United States and United Kingdom declined to sign the Paris Statement, signalling divergence between nations prioritising open, publicly funded AI development and those emphasising private-sector innovation protected by intellectual property regimes.
 
-**Resilience, Innovation and Efficiency**: Develops resource-efficient and climate-conscious AI models tailored for varied economic environments. This Chakra examines how nations with limited computational resources can nonetheless participate in AI innovation through optimised architectures and collaborative development approaches.
+### India 2026: Implications
 
-**Democratising AI Resources**: Ensures affordable access to foundational enablers including compute power, datasets and models, aiming to bridge the digital divide between resource-rich and resource-constrained countries. This working group addresses infrastructure gaps that prevent many nations from developing or deploying AI systems
-
-**AI for Economic Development and Social Good**: Scales AI applications in vital sectors including healthcare, agriculture and education, with particular emphasis on developing-world contexts. This Chakra focuses on translating AI capabilities into measurable improvements in human welfare and economic opportunity.
-
-Together, the Sutras and Chakras provide a cohesive framework intended to move international AI discussions from aspirational declarations towards measurable outcomes and concrete policy implementation. Through these structures, India aims to shape global AI norms whilst simultaneously addressing challenges specific to economies at different stages of technological capacity.
+India's positioning as co-chair of the Paris Summit and signatory to the openness-centred India-France Declaration suggests the Delhi gathering may continue this trajectory. The summit's "Democratising AI Resources" working group—one of its Seven Chakras—potentially operationalises openness as a counterweight to concentrated AI capabilities amongst Western firms. Whether India's 2026 outcome documents sustain, moderate, or reverse the 2025 pivot toward openness will clarify whether this shift represents a durable realignment or a transient diplomatic moment.
 
 ## Programme and Activities
 
@@ -841,35 +797,6 @@ The summit organisers published a list of key attendees on the official website,
 <tr><td>Vivek Mahajan</td><td>Chief Technology Officer, Fujitsu Limited</td></tr>
 </tbody>
 </table>
-
-## Sunil Abraham's Participation
-
-<div class="tsap-info-box">
-  ℹ️ <strong>TSAP Coverage Note:</strong> On TSAP, we exclusively cover the works and presentations of Sunil Abraham. This section will expand gradually and may split into a new page titled "Sunil Abraham at India AI Impact Summit 2026".
-</div>
-
-Sunil Abraham, Public Policy Director at Meta, is scheduled to moderate and participate in panel sessions during the India AI Impact Summit 2026. His involvement spans discussions on regional AI leadership, democratising AI resources and enterprise approaches to responsible AI deployment, addressing core themes of the summit's agenda and examining how AI governance frameworks can balance innovation with accountability whilst ensuring technological benefits reach underserved populations.
-
-### ASSOCHAM Thematic Sessions (17 February 2026)
-
-ASSOCHAM (The Associated Chambers of Commerce and Industry of India) is conducting two thematic sessions on 17 February 2026 from 3:30 PM to 5:25 PM at Bharat Mandapam, Meeting Room 8. Abraham is participating as moderator in Session B.
-
-<div class="event-poster">
-  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/events/images/sunil-abraham-india-ai-summit-assocham-session-2026.jpg?raw=true" alt="India's AI Leadership session poster featuring Sunil Abraham as moderator at India AI Impact Summit 2026">
-</div>
-
-**Session A: Democratizing AI Resources** examines how business-driven AI, combined with India's digital public infrastructure, startup innovation and cloud-led enterprise transformation, can deliver inclusive and commercially viable social impact. The discussion highlights how scalable AI adoption across SMEs and startups can democratise AI resources, expand access to essential services and create equitable opportunities, whilst showcasing India's model of cross-border collaboration, inclusive AI use cases and knowledge sharing to drive regional empowerment and sustainable growth.
-
-**Session B: India's AI Leadership as a Catalyst for Regional Social Transformation** (moderated by Abraham) explores how India's AI leadership can deliver inclusive social-economic outcomes across South Asia by replicating India's digital public infrastructure, enterprise AI adoption and startup ecosystem through cross-border collaboration and knowledge sharing. The discussion positions AI for All as a scalable, impact-first, commercially viable business model for 1.4 billion people, driven by frugal AI solutions for basic smartphones, local languages and low-connectivity networks, catalysing financial inclusion, healthcare access, skills development, rural productivity and regional social empowerment.
-
-Session B panel features Aditya Swamy (Managing Director, Play Partnerships, Google), Akhil Choudhary (CEO & Managing Partner, Highspring India), Anne Robinson (Sr Vice President & Chief Litigation Counsel, Dish Network Corporation) and Prof. M. P. Gupta (Director, IIM Lucknow).
-
-
-### Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)
-
-Abraham is scheduled to speak at a session titled "Responsible AI in Action: How Global Enterprises Are Building Trust at Scale" on 20 February 2026 from 10:30 AM to 11:30 AM at Bharat Mandapam, L1 Meeting Room No. 6.
-
-The panel examines approaches to responsible AI deployment at scale, focusing on how enterprises embed ethics, transparency and accountability into AI systems whilst balancing speed, compliance and innovation. Other speakers include Ankit Bose (Nasscom), Manish Gupta (Google DeepMind), Syed Ahmed (Infosys), and Geeta Gurnani (IBM). The session is organised with Infosys Limited as knowledge partner.
 
 ## See also
 - [Portal:Artificial Intelligence](/ai/), overview portal on artificial intelligence within the Sunil Abraham Project
