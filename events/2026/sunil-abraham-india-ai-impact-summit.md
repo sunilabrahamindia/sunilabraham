@@ -46,3 +46,39 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 
 - [India AI Impact Summit Official Website](https://impact.indiaai.gov.in)
 - [Session Schedule](https://impact.indiaai.gov.in/sessions)
+
+<style>
+.event-poster {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.event-poster img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tsap-info-box {
+  background: #f6f8fa;
+  border-left: 4px solid #0969da;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+
+.tsap-info-box strong {
+  color: #0969da;
+}
+
+.tsap-info-box a {
+  color: #0969da;
+  text-decoration: underline;
+}
+
+.tsap-info-box a:hover {
+  color: #0550ae;
+}
+</style>
+
