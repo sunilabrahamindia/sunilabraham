@@ -25,6 +25,10 @@ created: 2026-02-13
   <span class="notice-icon">📰</span> <strong>Current event:</strong> This article covers the <strong>India AI Impact Summit 2026</strong>, a current event. Information may be updated or changed rapidly as the event progresses.
 </div>
 
+<div class="tsap-info-box">
+📎 <strong>Quick links:</strong> <a href="https://sunilabraham.in/ais/">sunilabraham.in/ais</a> (this page) | <a href="https://sunilabraham.in/aisd/">sunilabraham.in/aisd</a> (outcome documents)
+</div>
+
 The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
 
 Organised under the IndiaAI Mission by the Ministry of Electronics and Information Technology (MeitY), Government of India, the summit aims to advance responsible, inclusive and human-centric AI development. The programme is expected to include plenary sessions, thematic panels, exhibitions and policy roundtables addressing AI safety, public digital infrastructure, innovation ecosystems, regulatory frameworks and international cooperation.
