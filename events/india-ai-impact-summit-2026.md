@@ -38,10 +38,17 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [India's Hosting and Positioning (2026)](#indias-hosting-and-positioning-2026)
    - [Global Regulatory Landscape](#global-regulatory-landscape)
    - [Visual Identity](#visual-identity)
-2. [Objectives and Core Pillars](#objectives-and-core-pillars)
+2. [Outcome Documents](#outcome-documents)
+   - [AI Safety Summit (Bletchley Park, November 2023)](#ai-safety-summit-bletchley-park-november-2023)
+   - [AI Seoul Summit (South Korea, May 2024)](#ai-seoul-summit-south-korea-may-2024)
+   - [AI Action Summit (Paris, February 2025)](#ai-action-summit-paris-february-2025)
+   - [G20 New Delhi Leaders' Declaration (September 2023)](#g20-new-delhi-leaders-declaration-september-2023)
+   - [India AI Impact Summit (February 2026)](#india-ai-impact-summit-february-2026)
+   - [Policy Evolution: From Bletchley to Delhi](#policy-evolution-from-bletchley-to-delhi)
+3. [Objectives and Core Pillars](#objectives-and-core-pillars)
    - [The Three Sutras](#the-three-sutras)
    - [The Seven Chakras](#the-seven-chakras)
-3. [Programme and Activities](#programme-and-activities)
+4. [Programme and Activities](#programme-and-activities)
    - [Pre-Summit Engagement](#pre-summit-engagement)
    - [Summit Structure](#summit-structure)
    - [Call for Proposals](#call-for-proposals)
@@ -49,12 +56,12 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [AI Compendium](#ai-compendium)
    - [Session Schedule](#session-schedule)
    - [Key Attendees](#key-attendees)
-4. [Sunil Abraham's Participation](#sunil-abrahams-participation)
+5. [Sunil Abraham's Participation](#sunil-abrahams-participation)
    - [ASSOCHAM Thematic Sessions (17 February 2026)](#assocham-thematic-sessions-17-february-2026)
    - [Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)](#responsible-ai-in-action-how-global-enterprises-are-building-trust-at-scale-20-february-2026)
-5. [See also](#see-also)
-6. [References](#references)
-7. [External links](#external-links)
+6. [See also](#see-also)
+7. [References](#references)
+8. [External links](#external-links)
 
 ## Background and Context
 The India AI Impact Summit emerges at a pivotal moment in global artificial intelligence governance, following a succession of high-profile international gatherings that have progressively shaped the discourse around artificial intelligence.
@@ -135,6 +142,222 @@ Building upon the three foundational Sutras, the summit operationalises its agen
 **AI for Economic Development and Social Good**: Scales AI applications in vital sectors including healthcare, agriculture and education, with particular emphasis on developing-world contexts. This Chakra focuses on translating AI capabilities into measurable improvements in human welfare and economic opportunity.
 
 Together, the Sutras and Chakras provide a cohesive framework intended to move international AI discussions from aspirational declarations towards measurable outcomes and concrete policy implementation. Through these structures, India aims to shape global AI norms whilst simultaneously addressing challenges specific to economies at different stages of technological capacity.
+
+## Outcome Documents
+
+The India AI Impact Summit represents the latest milestone in a rapidly evolving international dialogue on artificial intelligence governance. Understanding this summit's policy significance requires examining the declarations, statements and commitments that have emerged from preceding gatherings, as these texts collectively trace the development of global consensus—and divergence—on how AI should be governed, deployed and regulated.
+
+<div class="documents-grid">
+
+### AI Safety Summit (Bletchley Park, November 2023)
+
+#### The Bletchley Declaration
+
+The United Kingdom convened the world's first dedicated AI safety summit at Bletchley Park on 1–2 November 2023, producing the **Bletchley Declaration**—a foundational text signed by 28 countries and the European Union. The declaration marked the first time governments collectively acknowledged that frontier AI systems pose "potentially catastrophic" risks requiring urgent international cooperation. Signatories committed to developing shared understandings of AI opportunities and risks, prioritising transparency in AI development, and establishing frameworks for identifying and mitigating severe threats posed by advanced AI systems.
+
+The declaration's significance lies not merely in its risk-focused language but in securing participation from nations with divergent geopolitical interests, including the United States, China, and members of the European Union. By establishing AI safety as a legitimate domain for international diplomatic engagement, Bletchley set the precedent for subsequent summits to expand beyond narrow technical safety concerns toward broader questions of equity, sustainability and governance.
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 Chair's Statement</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> 28 countries + European Union<br>
+    <strong>Pages:</strong> 10 | <strong>Size:</strong> 198 KB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2023-bletchley-chair-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration" class="outcome-doc-link-alt">🔗 Official source</a>
+  </div>
+  <div class="outcome-doc-commitments">
+    <strong>Key commitments:</strong>
+    <ul>
+      <li>Recognition that frontier AI poses potentially catastrophic risks</li>
+      <li>Establishment of shared international understanding of AI opportunities and threats</li>
+      <li>Commitment to transparency in AI development and deployment</li>
+      <li>Agreement to develop frameworks for identifying and mitigating severe AI risks</li>
+    </ul>
+  </div>
+</div>
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 Safety Testing Statement</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> Governments and AI companies<br>
+    <strong>Pages:</strong> 4 | <strong>Size:</strong> 154 KB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2023-bletchley-safety-testing-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://assets.publishing.service.gov.uk/media/6544ec4259b9f5001385a220/aiss-statement-on-safety-testing-outcomes.pdf" class="outcome-doc-link-alt">🔗 Official source</a>
+  </div>
+</div>
+
+### AI Seoul Summit (South Korea, May 2024)
+
+The AI Seoul Summit, held on 21–22 May 2024, built upon Bletchley's foundation whilst broadening the agenda to encompass innovation and inclusion alongside safety. South Korea's hosting marked a deliberate effort to position Asia as a central actor in AI governance discussions and to foreground questions of digital equity that had received limited attention in earlier safety-focused deliberations.
+
+#### Seoul Declaration for Safe, Innovative and Inclusive AI
+
+The **Seoul Declaration**, signed by 11 countries and entities during the Leaders' Session on 21 May 2024, explicitly linked safety frameworks to innovation policy and inclusive development. The declaration recognised that rigid safety requirements risk concentrating AI capabilities amongst well-resourced actors, potentially widening rather than narrowing global technological divides. Signatories committed to fostering international cooperation that balances rigorous safety standards with support for innovation ecosystems, particularly in countries lacking advanced AI infrastructure.
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 Seoul Declaration</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> Australia, Canada, EU, France, Germany, Italy, Japan, South Korea, Singapore, UK, USA<br>
+    <strong>Pages:</strong> 3 | <strong>Size:</strong> 153 KB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2024-seoul-declaration.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024" class="outcome-doc-link-alt">🔗 Official source</a>
+  </div>
+  <div class="outcome-doc-commitments">
+    <strong>Key commitments:</strong>
+    <ul>
+      <li>Balance between AI safety and continued innovation</li>
+      <li>Support for inclusive AI development bridging digital divides</li>
+      <li>International cooperation linking various global AI safety initiatives</li>
+      <li>Recognition that safety frameworks must accommodate diverse economic contexts</li>
+    </ul>
+  </div>
+</div>
+
+#### Seoul Statement of Intent on AI Safety Science
+
+As an annex to the Seoul Declaration, the **Seoul Statement of Intent** outlined concrete mechanisms for operationalising safety cooperation. The statement committed signatories to establishing an international network of government-backed AI Safety Institutes tasked with developing shared testing methodologies, coordinating research on emerging risks, and ensuring interoperability of safety evaluation frameworks across jurisdictions.
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 Statement of Intent on AI Safety Science</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> Same 11 countries/entities as Seoul Declaration<br>
+    <strong>Pages:</strong> 2 | <strong>Size:</strong> 151 KB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2024-seoul-safety-science-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-statement-of-intent-toward-international-cooperation-on-ai-safety-science-ai-seoul-summit-2024-annex" class="outcome-doc-link-alt">🔗 Official source</a>
+  </div>
+</div>
+
+#### Frontier AI Safety Commitments
+
+Running parallel to governmental declarations, the Seoul Summit secured voluntary commitments from 20 leading AI companies—including Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI. The **Frontier AI Safety Commitments** obligate signatories to define thresholds for intolerable risk, conduct rigorous pre-deployment testing, implement robust security controls for unreleased model weights, and maintain transparency regarding their safety frameworks.
+
+These commitments represent the first instance of major AI laboratories publicly pledging to specific accountability measures, including commitments not to deploy models if risks cannot be adequately mitigated. The voluntary nature of these pledges, however, raises questions about enforceability and whether industry self-regulation can substitute for binding regulatory frameworks.
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 Frontier AI Safety Commitments</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> 20 AI companies (Amazon, Anthropic, Cohere, Google, G42, IBM, Inflection AI, Magic, Meta, Microsoft, Minimax, Mistral AI, Naver, NVIDIA, 01.ai, OpenAI, Samsung, Technology Innovation Institute, xAI, Zhipu.ai)<br>
+    <strong>Pages:</strong> 4 | <strong>Size:</strong> 169 KB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2024-seoul-frontier-ai-commitments.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://www.gov.uk/government/publications/frontier-ai-safety-commitments-ai-seoul-summit-2024" class="outcome-doc-link-alt">🔗 Official source</a>
+  </div>
+  <div class="outcome-doc-commitments">
+    <strong>Key commitments:</strong>
+    <ul>
+      <li>Define thresholds for intolerable AI risks and assess whether models breach them</li>
+      <li>Conduct rigorous pre- and post-deployment safety testing</li>
+      <li>Implement robust security controls for unreleased model weights</li>
+      <li>Commit not to deploy models if risks cannot be adequately mitigated</li>
+      <li>Maintain public transparency on safety frameworks and accountability measures</li>
+    </ul>
+  </div>
+</div>
+
+### AI Action Summit (Paris, February 2025)
+
+France hosted the **AI Action Summit** on 10–11 February 2025, marking a decisive shift from the risk-oriented discourse of Bletchley toward implementation, sustainability, and equitable access. Co-chaired by France and India, the Paris gathering explicitly centred the priorities of emerging and developing economies, reflecting frustration amongst Global South nations that earlier summits had focused disproportionately on risks posed by cutting-edge systems whilst neglecting questions of access, capacity-building, and the environmental costs of AI infrastructure.
+
+#### Statement on Inclusive and Sustainable Artificial Intelligence for People and the Planet
+
+The **Paris Statement**, signed by a broad coalition of countries, established concrete initiatives addressing digital divides, AI's environmental impact, and labour market transitions. Notably, the United States and United Kingdom abstained from signing, signalling divergence between nations prioritising open, publicly funded AI development and those emphasising private-sector-led innovation protected by intellectual property regimes.
+
+The statement committed signatories to launching a Public Interest AI Platform and Incubator, establishing an observatory on AI's energy consumption in partnership with the International Energy Agency, and creating a network of observatories monitoring AI's impact on labour markets. This represented the first multilateral commitment to governance mechanisms addressing AI's socio-economic and environmental externalities, not merely its technical safety.
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 Paris Statement on Inclusive and Sustainable AI</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> Broad international coalition (~58 countries). <em>Notably absent:</em> USA and UK<br>
+    <strong>Pages:</strong> 5 | <strong>Size:</strong> 210 KB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2025-paris-inclusive-ai-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://data.consilium.europa.eu/doc/document/ST-5812-2025-ADD-1-REV-1/en/pdf" class="outcome-doc-link-alt">🔗 Official source (EU)</a>
+    <a href="https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and" class="outcome-doc-link-alt">🔗 Élysée (France)</a>
+  </div>
+  <div class="outcome-doc-commitments">
+    <strong>Key commitments:</strong>
+    <ul>
+      <li>Launch of Public Interest AI Platform and Incubator to address digital divides</li>
+      <li>Establishment of international observatory on AI's energy impact (with IEA)</li>
+      <li>Creation of network of observatories on AI's labour market impacts</li>
+      <li>Promotion of open, transparent and human-centric AI development</li>
+      <li>Focus on narrowing global digital divide and accelerating progress toward SDGs</li>
+    </ul>
+  </div>
+</div>
+
+#### India-France Declaration on Artificial Intelligence
+
+Alongside the broader Paris Statement, India and France signed a **bilateral declaration** on 12 February 2025 outlining specific areas of cooperation. The declaration emphasised joint development of AI models supporting linguistic and cultural diversity, collaboration on expanding computing infrastructure, and shared commitments to building digital public goods accessible to populations underserved by commercial AI systems.
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 India-France Bilateral Declaration on AI</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> India and France<br>
+    <strong>Pages:</strong> 2 | <strong>Size:</strong> 113 KB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2025-india-france-ai-declaration.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/39034/IndiaFrance_Declaration_on_Artificial_Intelligence_February_12_2025" class="outcome-doc-link-alt">🔗 Official source (MEA India)</a>
+  </div>
+</div>
+
+### G20 New Delhi Leaders' Declaration (September 2023)
+
+Prior to the specialised AI summits, the G20 acknowledged AI governance as a priority in the **New Delhi Leaders' Declaration** adopted on 9–10 September 2023. The AI-related paragraphs committed G20 members to promoting international cooperation on AI governance whilst emphasising the dual imperative of unlocking AI's economic potential and mitigating its societal risks.
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 G20 AI Compliance Report</div>
+  <div class="outcome-doc-meta">
+    <strong>Participants:</strong> 20 G20 member states<br>
+    <strong>Pages:</strong> 87 | <strong>Size:</strong> 1.31 MB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2023-g20-newdelhi-ai-compliance.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://www.g20.utoronto.ca/compliance/2023newdelhi-final/07-2023-g20-compliance-final-AI.pdf" class="outcome-doc-link-alt">🔗 Official source</a>
+  </div>
+</div>
+
+### India AI Impact Summit (February 2026)
+
+The **India AI Impact Summit**, scheduled for 16–20 February 2026 in New Delhi, positions itself as the next phase in this diplomatic progression. Organised under India's IndiaAI Mission, the summit aims to translate the aspirational commitments of previous declarations into concrete policy frameworks and implementation strategies.
+
+#### Leaders' Declaration (Forthcoming)
+
+The summit's primary outcome document, the **Leaders' Declaration**, will be formally adopted on 20 February 2026. Based on pre-summit consultations and the framework of the Three Sutras (People, Planet, Progress) and Seven Chakras (thematic working groups), the declaration is expected to address mechanisms for democratising access to AI compute, datasets, and foundational models; frameworks for AI deployment in healthcare, agriculture, and education tailored to developing-country contexts; standards for human capital development and workforce reskilling in AI-integrated economies; and governance structures ensuring AI systems respect linguistic diversity, gender equity, and accessibility.
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Leaders' Declaration to be released 20 February 2026
+</div>
+
+#### Working Group and Expert Engagement Group Reports
+
+The summit's Seven Chakras—thematic working groups addressing Human Capital, Inclusion for Social Empowerment, Safe and Trusted AI, Science, Resilience and Innovation, Democratising AI Resources, and AI for Economic Development—are expected to produce outcome documents detailing policy recommendations, implementation roadmaps, and commitments from participating governments and organisations.
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Reports forthcoming during and immediately following the summit (16–20 February 2026)
+</div>
+
+</div>
+
+### Policy Evolution: From Bletchley to Delhi
+
+Examining these outcome documents collectively reveals a clear trajectory in international AI governance discourse. Bletchley established safety as a legitimate international concern. Seoul expanded the agenda to encompass innovation and inclusion, recognising that safety-first approaches risk entrenching existing power asymmetries. Paris pivoted decisively toward implementation, sustainability, and equity, with the notable absence of the US and UK signalling fractures in the consensus forged at Bletchley.
+
+India's summit seeks to consolidate these themes whilst centring the perspectives and priorities of emerging economies. The shift from abstract commitments to concrete mechanisms—observatories, platforms, capacity-building initiatives—reflects maturation in the governance conversation. Yet the voluntary, non-binding nature of these declarations, combined with divergent national interests and regulatory approaches, leaves open the question of whether this diplomatic process can produce enforceable norms capable of shaping how AI is actually developed and deployed.
+
+The outcome documents from Delhi will provide the clearest indication yet of whether international AI governance can move beyond declarations toward coordinated action.
+
 
 ## Programme and Activities
 
@@ -1063,6 +1286,112 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
     padding: 8px;
   }
 }
+  /* ===================================
+   AI Summit Outcome Documents
+   =================================== */
+
+.documents-grid {
+  margin: 2rem 0;
+}
+
+.outcome-doc-card {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.outcome-doc-header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a237e;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.outcome-doc-meta {
+  font-size: 0.9rem;
+  color: #424242;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.outcome-doc-links {
+  margin: 1rem 0;
+}
+
+.outcome-doc-link, .outcome-doc-link-alt {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.outcome-doc-link {
+  background: #2196F3;
+  color: white;
+}
+
+.outcome-doc-link:hover {
+  background: #1976D2;
+  transform: translateY(-1px);
+}
+
+.outcome-doc-link-alt {
+  background: #ffffff;
+  color: #0645ad;
+  border: 1px solid #dee2e6;
+}
+
+.outcome-doc-link-alt:hover {
+  background: #f0f7ff;
+  border-color: #2196F3;
+}
+
+.outcome-doc-commitments {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.outcome-doc-commitments ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.5rem;
+}
+
+.outcome-doc-commitments li {
+  margin: 0.4rem 0;
+  line-height: 1.5;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .outcome-doc-card {
+    padding: 1rem;
+  }
+  
+  .outcome-doc-header {
+    font-size: 1rem;
+  }
+  
+  .outcome-doc-meta {
+    font-size: 0.85rem;
+  }
+  
+  .outcome-doc-link, .outcome-doc-link-alt {
+    display: block;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+}
+
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
