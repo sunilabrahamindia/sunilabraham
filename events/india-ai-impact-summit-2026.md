@@ -49,12 +49,12 @@ hide_utilities: true
       📅 When is the summit?
     </button>
     
-    <button onclick="botAnswer('sunil')" class="bot-quick-btn">
-      👤 When does Sunil Abraham speak?
-    </button>
-    
     <button onclick="botAnswer('documents')" class="bot-quick-btn">
       📄 Where are the outcome documents?
+    </button>
+    
+    <button onclick="botAnswer('analysis')" class="bot-quick-btn">
+      📊 What's the policy evolution analysis?
     </button>
     
     <hr class="bot-divider">
@@ -92,6 +92,9 @@ hide_utilities: true
     <div id="botResponse"></div>
   </div>
 </div>
+>
+
+
 
 The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
 
@@ -1885,27 +1888,6 @@ function botAnswer(topic) {
       </div>
     `,
     
-    'sunil': `
-      <div class="bot-answer">
-        <strong>👤 Sunil Abraham's Sessions</strong>
-        Sunil has two speaking engagements:
-        <br><br>
-        <strong>Session 1: Monday, 17 February 2026</strong><br>
-        ⏰ 3:30–5:25 PM<br>
-        📍 Bharat Mandapam, Meeting Room 8<br>
-        🎤 Role: Moderator<br>
-        📋 Topic: "India's AI Leadership as a Catalyst for Regional Social Transformation" (ASSOCHAM)
-        <br><br>
-        <strong>Session 2: Thursday, 20 February 2026</strong><br>
-        ⏰ 10:30–11:30 AM<br>
-        📍 Bharat Mandapam, L1 Meeting Room 6<br>
-        🎤 Role: Panellist<br>
-        📋 Topic: "Responsible AI in Action: How Global Enterprises Are Building Trust at Scale"
-        <br><br>
-        <a href="#sunil-abrahams-participation">View full session details ↓</a>
-      </div>
-    `,
-    
     'documents': `
       <div class="bot-answer">
         <strong>📄 Outcome Documents</strong>
@@ -1924,6 +1906,21 @@ function botAnswer(topic) {
       </div>
     `,
     
+    'analysis': `
+      <div class="bot-answer">
+        <strong>📊 Policy Evolution Analysis</strong>
+        This article includes original quantitative research showing a dramatic shift in AI governance priorities:
+        <br><br>
+        <strong>Bletchley (2023):</strong> 22:1 safety-to-openness ratio<br>
+        <strong>Seoul (2024):</strong> 42:1 safety-to-openness ratio<br>
+        <strong>Paris (2025):</strong> 0.9:1 ratio (openness exceeded safety for the first time)
+        <br><br>
+        This represents an 88% drop in safety language and the first explicit embrace of "open AI models" in summit history.
+        <br><br>
+        <a href="#policy-evolution-quantitative-analysis">Read the full analysis ↓</a>
+      </div>
+    `,
+    
     'sutras': `
       <div class="bot-answer">
         <strong>🔧 The Three Sutras</strong>
@@ -1934,8 +1931,6 @@ function botAnswer(topic) {
         <strong>2. Planet:</strong> Sustainable AI infrastructure and leveraging AI for climate resilience
         <br><br>
         <strong>3. Progress:</strong> Equitable distribution of AI benefits across nations and communities
-        <br><br>
-        <a href="#the-three-sutras">Learn more about the Sutras ↓</a>
       </div>
     `,
     
@@ -1952,7 +1947,7 @@ function botAnswer(topic) {
         <strong>6. Democratising Resources</strong> – Equitable access<br>
         <strong>7. Economic Development</strong> – Social good
         <br><br>
-        <a href="#the-seven-chakras">View detailed information ↓</a>
+        <a href="#working-group-outcome-documents">View detailed information ↓</a>
       </div>
     `,
     
@@ -1994,11 +1989,6 @@ function botAnswer(topic) {
         <strong>🇫🇷 Paris (2025):</strong>
         <ul>
           <li>Inclusive AI Statement (5 pages, 210 KB)</li>
-          <li>India-France Declaration (2 pages, 113 KB)</li>
-        </ul>
-        <strong>🌐 G20 (2023):</strong>
-        <ul>
-          <li>AI Compliance Report (87 pages, 1.31 MB)</li>
         </ul>
         <br>
         <a href="#outcome-documents">Go to Documents section ↓</a>
