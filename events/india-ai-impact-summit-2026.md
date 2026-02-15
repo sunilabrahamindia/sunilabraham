@@ -29,6 +29,67 @@ created: 2026-02-13
 📎 <strong>Quick links:</strong> <a href="https://sunilabraham.in/ais/">sunilabraham.in/ais</a> (this page) | <a href="https://sunilabraham.in/aisd/">sunilabraham.in/aisd</a> (outcome documents)
 </div>
 
+
+<div id="faqBot" class="faq-bot-button" onclick="toggleBot()">
+  💬 Ask about the Summit
+</div>
+
+<div id="botPanel" class="bot-panel" style="display: none;">
+  <div class="bot-header">
+    <span>🤖 AI Summit Assistant</span>
+    <button class="bot-close" onclick="toggleBot()" aria-label="Close">&times;</button>
+  </div>
+  <div class="bot-content">
+    <div class="bot-section-title">📌 Most Asked Questions</div>
+    
+    <button onclick="botAnswer('when')" class="bot-quick-btn">
+      📅 When is the summit?
+    </button>
+    
+    <button onclick="botAnswer('sunil')" class="bot-quick-btn">
+      👤 When does Sunil Abraham speak?
+    </button>
+    
+    <button onclick="botAnswer('documents')" class="bot-quick-btn">
+      📄 Where are the outcome documents?
+    </button>
+    
+    <hr class="bot-divider">
+    
+    <div class="bot-section-title">🎯 About the Summit</div>
+    
+    <button onclick="botAnswer('sutras')" class="bot-quick-btn">
+      🔧 What are the Three Sutras?
+    </button>
+    
+    <button onclick="botAnswer('chakras')" class="bot-quick-btn">
+      🌀 What are the Seven Chakras?
+    </button>
+    
+    <button onclick="botAnswer('different')" class="bot-quick-btn">
+      🌍 How is India's summit different?
+    </button>
+    
+    <hr class="bot-divider">
+    
+    <div class="bot-section-title">📄 Documents & History</div>
+    
+    <button onclick="botAnswer('available')" class="bot-quick-btn">
+      📚 What documents can I download?
+    </button>
+    
+    <button onclick="botAnswer('leaders')" class="bot-quick-btn">
+      📜 When is Leaders' Declaration released?
+    </button>
+    
+    <button onclick="botAnswer('previous')" class="bot-quick-btn">
+      🌐 Previous global AI summits?
+    </button>
+    
+    <div id="botResponse"></div>
+  </div>
+</div>
+
 The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
 
 Organised under the IndiaAI Mission by the Ministry of Electronics and Information Technology (MeitY), Government of India, the summit aims to advance responsible, inclusive and human-centric AI development. The programme is expected to include plenary sessions, thematic panels, exhibitions and policy roundtables addressing AI safety, public digital infrastructure, innovation ecosystems, regulatory frameworks and international cooperation.
@@ -855,6 +916,232 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   }
 }
 
+  /* FAQ Bot Styles */
+.faq-bot-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+  color: white;
+  padding: 14px 22px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
+  z-index: 9999;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.faq-bot-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(33, 150, 243, 0.5);
+  background: linear-gradient(135deg, #1976D2 0%, #1565C0 100%);
+}
+
+.faq-bot-button:active {
+  transform: translateY(0);
+}
+
+.bot-panel {
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  width: 380px;
+  max-width: calc(100vw - 48px);
+  max-height: 560px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.bot-header {
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+  color: white;
+  padding: 16px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.bot-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.bot-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.bot-content {
+  padding: 20px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.bot-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.bot-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.bot-content::-webkit-scrollbar-thumb {
+  background: #2196F3;
+  border-radius: 10px;
+}
+
+.bot-content::-webkit-scrollbar-thumb:hover {
+  background: #1976D2;
+}
+
+.bot-section-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bot-quick-btn {
+  display: block;
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 12px 14px;
+  background: #f5f9ff;
+  border: 1.5px solid #e3f2fd;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.bot-quick-btn:hover {
+  background: #e3f2fd;
+  border-color: #2196F3;
+  transform: translateX(4px);
+}
+
+.bot-quick-btn:active {
+  transform: translateX(2px);
+}
+
+.bot-answer {
+  margin-top: 16px;
+  padding: 16px;
+  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+  border-left: 4px solid #4CAF50;
+  border-radius: 8px;
+  line-height: 1.6;
+  font-size: 14px;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bot-answer strong {
+  color: #2e7d32;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.bot-answer ul {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+}
+
+.bot-answer li {
+  margin-bottom: 6px;
+}
+
+.bot-answer a {
+  color: #1976D2;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.bot-answer a:hover {
+  border-bottom-color: #1976D2;
+}
+
+.bot-divider {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .faq-bot-button {
+    bottom: 16px;
+    right: 16px;
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+  
+  .bot-panel {
+    bottom: 70px;
+    right: 16px;
+    width: calc(100vw - 32px);
+    max-height: 500px;
+  }
+  
+  .bot-header {
+    padding: 14px 16px;
+    font-size: 15px;
+  }
+  
+  .bot-content {
+    padding: 16px;
+  }
+  
+  .bot-quick-btn {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+  
+  .bot-answer {
+    padding: 14px;
+    font-size: 13px;
+  }
+}
+  
   /* Summit table wrapper - floats right on desktop */
 .summit-table-wrapper {
   width: 100%;
@@ -1637,6 +1924,211 @@ document.addEventListener('DOMContentLoaded', function() {
         arrow.style.opacity = '0.3';
       }
     });
+  }
+});
+</script>
+
+<script>
+// FAQ Bot Functions
+function toggleBot() {
+  const panel = document.getElementById('botPanel');
+  const isVisible = panel.style.display !== 'none';
+  panel.style.display = isVisible ? 'none' : 'block';
+  
+  if (!isVisible) {
+    document.getElementById('botResponse').innerHTML = '';
+  }
+}
+
+function botAnswer(topic) {
+  const responses = {
+    'when': `
+      <div class="bot-answer">
+        <strong>📅 Summit Dates</strong>
+        The India AI Impact Summit runs from <strong>16–20 February 2026</strong> at Bharat Mandapam, New Delhi, India.
+        <br><br>
+        <strong>Structure:</strong>
+        <ul>
+          <li><strong>AI Impact Expo:</strong> 16–20 Feb (70,000 sq m exhibition)</li>
+          <li><strong>Summit Sessions:</strong> 19–20 Feb (high-level plenaries)</li>
+        </ul>
+      </div>
+    `,
+    
+    'sunil': `
+      <div class="bot-answer">
+        <strong>👤 Sunil Abraham's Sessions</strong>
+        Sunil has two speaking engagements:
+        <br><br>
+        <strong>Session 1: Monday, 17 February 2026</strong><br>
+        ⏰ 3:30–5:25 PM<br>
+        📍 Bharat Mandapam, Meeting Room 8<br>
+        🎤 Role: Moderator<br>
+        📋 Topic: "India's AI Leadership as a Catalyst for Regional Social Transformation" (ASSOCHAM)
+        <br><br>
+        <strong>Session 2: Thursday, 20 February 2026</strong><br>
+        ⏰ 10:30–11:30 AM<br>
+        📍 Bharat Mandapam, L1 Meeting Room 6<br>
+        🎤 Role: Panellist<br>
+        📋 Topic: "Responsible AI in Action: How Global Enterprises Are Building Trust at Scale"
+        <br><br>
+        <a href="#sunil-abrahams-participation">View full session details ↓</a>
+      </div>
+    `,
+    
+    'documents': `
+      <div class="bot-answer">
+        <strong>📄 Outcome Documents</strong>
+        All documents are available in the <a href="#outcome-documents">Outcome Documents section</a> of this page.
+        <br><br>
+        <strong>Quick link:</strong> <a href="/aisd/">sunilabraham.in/aisd</a>
+        <br><br>
+        You can download declarations from:
+        <ul>
+          <li>Bletchley (UK, 2023)</li>
+          <li>Seoul (South Korea, 2024)</li>
+          <li>Paris (France, 2025)</li>
+          <li>G20 New Delhi (2023)</li>
+          <li>India-France bilateral (2025)</li>
+        </ul>
+      </div>
+    `,
+    
+    'sutras': `
+      <div class="bot-answer">
+        <strong>🔧 The Three Sutras</strong>
+        These are the summit's guiding principles:
+        <br><br>
+        <strong>1. People:</strong> Human-centred AI development respecting cultural identities and human dignity
+        <br><br>
+        <strong>2. Planet:</strong> Sustainable AI infrastructure and leveraging AI for climate resilience
+        <br><br>
+        <strong>3. Progress:</strong> Equitable distribution of AI benefits across nations and communities
+        <br><br>
+        <a href="#the-three-sutras">Learn more about the Sutras ↓</a>
+      </div>
+    `,
+    
+    'chakras': `
+      <div class="bot-answer">
+        <strong>🌀 The Seven Chakras</strong>
+        Seven thematic working groups:
+        <br><br>
+        <strong>1. Human Capital</strong> – Workforce transitions<br>
+        <strong>2. Inclusion</strong> – Social empowerment<br>
+        <strong>3. Safe & Trusted AI</strong> – Transparency & accountability<br>
+        <strong>4. Science</strong> – Research collaboration<br>
+        <strong>5. Resilience</strong> – Innovation & efficiency<br>
+        <strong>6. Democratising Resources</strong> – Equitable access<br>
+        <strong>7. Economic Development</strong> – Social good
+        <br><br>
+        <a href="#the-seven-chakras">View detailed information ↓</a>
+      </div>
+    `,
+    
+    'different': `
+      <div class="bot-answer">
+        <strong>🌍 What Makes India's Summit Different</strong>
+        India centres the perspectives of emerging and developing economies:
+        <br><br>
+        <ul>
+          <li>Focus on <strong>impact</strong> (not just safety)</li>
+          <li>Tangible applications over theoretical risks</li>
+          <li>Equitable access and developmental outcomes</li>
+          <li>Digital public infrastructure priorities</li>
+          <li>Addressing technology divides</li>
+        </ul>
+        <br>
+        Previous summits focused on risks in advanced economies. India shifts to implementation for all nations.
+        <br><br>
+        <a href="#indias-hosting-and-positioning-2026">Read more context ↓</a>
+      </div>
+    `,
+    
+    'available': `
+      <div class="bot-answer">
+        <strong>📚 Available Documents</strong>
+        Download PDFs from past summits:
+        <br><br>
+        <strong>🇬🇧 Bletchley (2023):</strong>
+        <ul>
+          <li>Chair's Statement (10 pages, 198 KB)</li>
+          <li>Safety Testing Statement (4 pages, 154 KB)</li>
+        </ul>
+        <strong>🇰🇷 Seoul (2024):</strong>
+        <ul>
+          <li>Seoul Declaration (3 pages, 153 KB)</li>
+          <li>AI Safety Science Statement (2 pages, 151 KB)</li>
+          <li>Frontier AI Commitments (4 pages, 169 KB)</li>
+        </ul>
+        <strong>🇫🇷 Paris (2025):</strong>
+        <ul>
+          <li>Inclusive AI Statement (5 pages, 210 KB)</li>
+          <li>India-France Declaration (2 pages, 113 KB)</li>
+        </ul>
+        <strong>🌐 G20 (2023):</strong>
+        <ul>
+          <li>AI Compliance Report (87 pages, 1.31 MB)</li>
+        </ul>
+        <br>
+        <a href="#outcome-documents">Go to Documents section ↓</a>
+      </div>
+    `,
+    
+    'leaders': `
+      <div class="bot-answer">
+        <strong>📜 Leaders' Declaration</strong>
+        The summit's primary outcome document will be formally adopted on <strong>20 February 2026</strong> (the final day).
+        <br><br>
+        It's expected to address:
+        <ul>
+          <li>Democratising AI compute, datasets & models</li>
+          <li>AI deployment in healthcare, agriculture, education</li>
+          <li>Workforce reskilling frameworks</li>
+          <li>Governance for linguistic diversity & equity</li>
+        </ul>
+        <br>
+        <strong>Status:</strong> Forthcoming – check back after 20 February 2026
+      </div>
+    `,
+    
+    'previous': `
+      <div class="bot-answer">
+        <strong>🌐 Previous Global AI Summits</strong>
+        <br><br>
+        <strong>🇬🇧 Bletchley (UK, Nov 2023):</strong><br>
+        First global AI summit – focused on frontier AI risks
+        <br><br>
+        <strong>🇰🇷 Seoul (South Korea, May 2024):</strong><br>
+        Expanded to innovation & inclusion alongside safety
+        <br><br>
+        <strong>🇫🇷 Paris (France, Feb 2025):</strong><br>
+        Shifted to action, sustainability & equitable access
+        <br><br>
+        <strong>🇮🇳 Delhi (India, Feb 2026):</strong><br>
+        Focuses on <strong>impact</strong> for emerging economies
+        <br><br>
+        <a href="#background-and-context">Read full timeline ↓</a>
+      </div>
+    `
+  };
+  
+  document.getElementById('botResponse').innerHTML = responses[topic] || '';
+  
+  setTimeout(() => {
+    const responseEl = document.getElementById('botResponse');
+    if (responseEl.scrollIntoView) {
+      responseEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }, 100);
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    const panel = document.getElementById('botPanel');
+    if (panel.style.display !== 'none') {
+      toggleBot();
+    }
   }
 });
 </script>
