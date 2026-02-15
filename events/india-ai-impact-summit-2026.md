@@ -31,6 +31,7 @@ hide_utilities: true
 📎 <strong>Quick links:</strong> <a href="https://sunilabraham.in/ais/">sunilabraham.in/ais</a> (this page) | <a href="https://sunilabraham.in/aisd/">sunilabraham.in/aisd</a> (outcome documents)
 </div>
 
+{% include author.html %}
 
 <div id="faqBot" class="faq-bot-button" onclick="toggleBot()">
   💬 Ask about the Summit
