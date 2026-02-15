@@ -6,6 +6,7 @@ categories: [Artificial Intelligence, Events]
 date: 2026-02-16
 permalink: /events/india-ai-impact-summit-2026/
 created: 2026-02-13
+hide_utilities: true 
 ---
 <div class="summit-banner">
   <div class="banner-background"></div>
@@ -916,18 +917,18 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   }
 }
 
-  /* FAQ Bot Styles */
+ /* FAQ Bot Styles */
 .faq-bot-button {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  bottom: 20px;
+  right: 20px;
   background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
   color: white;
   padding: 14px 22px;
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
-  z-index: 9999;
+  z-index: 99998;
   font-weight: 600;
   font-size: 15px;
   transition: all 0.3s ease;
@@ -946,8 +947,8 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 
 .bot-panel {
   position: fixed;
-  bottom: 90px;
-  right: 24px;
+  bottom: 80px;
+  right: 20px;
   width: 380px;
   max-width: calc(100vw - 48px);
   max-height: 560px;
@@ -955,7 +956,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
   border: 1px solid #e0e0e0;
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
-  z-index: 9999;
+  z-index: 99998;
   overflow: hidden;
   display: flex;
   flex-direction: column;
