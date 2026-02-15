@@ -1,3 +1,4 @@
+{% unless page.hide_utilities %}
 <!-- =========================================================
      Sunil Abraham Project
      Utility Toolbox (Accessibility + View Controls)
@@ -305,3 +306,4 @@ window.addEventListener("load", function () {
   topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
 });
 </script>
+{% endunless %}
