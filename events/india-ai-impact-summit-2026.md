@@ -849,7 +849,7 @@ The summit organisers published a list of key attendees on the official website,
   }
 }
 
- /* FAQ Bot Styles */
+/* FAQ Bot Styles */
 .faq-bot-button {
   position: fixed;
   bottom: 20px;
@@ -888,13 +888,15 @@ The summit organisers published a list of key attendees on the official website,
   border: 1px solid #e0e0e0;
   border-radius: 16px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
-  z-index: 99998;
+  z-index: 99999; /* Fixed: Higher than button */
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
 .bot-header {
+  position: sticky; /* Fixed: Makes header sticky */
+  top: 0;
   background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
   color: white;
   padding: 16px 20px;
@@ -904,6 +906,7 @@ The summit organisers published a list of key attendees on the official website,
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
+  z-index: 10; /* Fixed: Keeps header above scrolling content */
 }
 
 .bot-close {
@@ -928,8 +931,10 @@ The summit organisers published a list of key attendees on the official website,
 
 .bot-content {
   padding: 20px;
-  overflow-y: auto;
+  overflow-y: auto; /* Fixed: Enables scrolling */
+  overflow-x: hidden; /* Fixed: Prevents horizontal scroll */
   flex-grow: 1;
+  max-height: calc(560px - 56px); /* Fixed: Accounts for header height */
 }
 
 .bot-content::-webkit-scrollbar {
@@ -993,6 +998,7 @@ The summit organisers published a list of key attendees on the official website,
   line-height: 1.6;
   font-size: 14px;
   animation: slideIn 0.3s ease;
+  word-wrap: break-word; /* Fixed: Prevents text overflow */
 }
 
 @keyframes slideIn {
@@ -1052,7 +1058,7 @@ The summit organisers published a list of key attendees on the official website,
     bottom: 70px;
     right: 16px;
     width: calc(100vw - 32px);
-    max-height: 500px;
+    max-height: 70vh; /* Fixed: Better mobile height */
   }
   
   .bot-header {
@@ -1062,6 +1068,7 @@ The summit organisers published a list of key attendees on the official website,
   
   .bot-content {
     padding: 16px;
+    max-height: calc(70vh - 56px); /* Fixed: Mobile header adjustment */
   }
   
   .bot-quick-btn {
