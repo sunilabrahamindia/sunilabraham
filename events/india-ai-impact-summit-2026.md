@@ -101,11 +101,11 @@ Within this varied international landscape, India has sought to articulate an ap
 
 ### Visual Identity
 
-The official logo of the India AI Impact Summit 2026 was unveiled on 18 September 2025 following a nationwide design contest hosted on MyGov, which received 599 entries from across India. The winning design, created by Shri Ajith P. Suresh, incorporates several symbolic elements reflecting the summit's vision.
-
 <div class="visual-identity-logo">
   <img src="/events/images/ai-impact-summit-2026-logo.png" alt="India AI Impact Summit 2026 Logo">
 </div>
+
+The official logo of the India AI Impact Summit 2026 was unveiled on 18 September 2025 following a nationwide design contest hosted on MyGov, which received 599 entries from across India. The winning design, created by Shri Ajith P. Suresh, incorporates several symbolic elements reflecting the summit's vision.
 
 The logo features the Ashoka Chakra at its centre, representing India's constitutional values and commitment to ethical governance in artificial intelligence development. Radiating outward from the central wheel are neural network-inspired flares rendered in a vibrant gradient palette, symbolising AI's transformative potential and the diversity of perspectives that artificial intelligence systems must incorporate. The bilingual presentation, featuring both English and Hindi text, emphasises India's multilingual approach to inclusive technology development.
 
@@ -314,6 +314,66 @@ The logo features the Ashoka Chakra at its centre, representing India's constitu
 <strong>Status:</strong> Reports forthcoming during and immediately following the summit (16–20 February 2026)
 </div>
 
+</div>
+
+<h4>Working Group Outcome Documents</h4>
+
+<p>The summit's Seven Chakras—thematic working groups addressing distinct dimensions of AI's global impact—are expected to produce outcome documents detailing policy recommendations, implementation roadmaps, and commitments from participating governments and organisations. Over 100 countries worldwide have engaged through these working groups to shape a future of responsible and inclusive AI.</p>
+
+<h5>Human Capital Working Group</h5>
+
+<p>Focuses on equitable skilling and workforce transitions for an AI-enabled economy. <a href="https://impact.indiaai.gov.in/working-groups/human-capital">Official page</a></p>
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+</div>
+
+<h5>Inclusion for Social Empowerment Working Group</h5>
+
+<p>Advances inclusive-by-design AI solutions for diverse communities across languages, regions, and abilities. <a href="https://impact.indiaai.gov.in/working-groups/inclusion-social-empowerment">Official page</a></p>
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+</div>
+
+<h5>Safe and Trusted AI Working Group</h5>
+
+<p>Builds globally trusted AI systems anchored in transparency, accountability, and shared safeguards. <a href="https://impact.indiaai.gov.in/working-groups/safe-trusted-ai">Official page</a></p>
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+</div>
+
+<h5>Science Working Group</h5>
+
+<p>Harnesses AI to accelerate frontier science, foster scientific collaboration, and translate breakthroughs into shared progress. <a href="https://impact.indiaai.gov.in/working-groups/science">Official page</a></p>
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+</div>
+
+<h5>Resilience, Innovation and Efficiency Working Group</h5>
+
+<p>Drives sustainable, resource-efficient AI systems that strengthen climate resilience and sustainability. <a href="https://impact.indiaai.gov.in/working-groups/resilience-innovation-efficiency">Official page</a></p>
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+</div>
+
+<h5>Democratising AI Resources Working Group</h5>
+
+<p>Promotes equitable access to foundational AI resources for inclusive innovation and sustainable development. <a href="https://impact.indiaai.gov.in/working-groups/democratizing-ai-resources">Official page</a></p>
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+</div>
+
+<h5>AI for Economic Development and Social Good Working Group</h5>
+
+<p>Leverages AI to enhance productivity, innovation, and inclusive development across economies and societies. <a href="https://impact.indiaai.gov.in/working-groups/ai-for-economic-growth">Official page</a></p>
+
+<div class="tsap-info-box">
+<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
 </div>
 
 <h3>Policy Evolution: From Bletchley to Delhi</h3>
@@ -656,6 +716,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 13. [Key Attendees - India AI Impact Summit 2026](https://impact.indiaai.gov.in/key-attendees), IndiaAI Mission, Government of India, accessed 14 February 2026
 14. [Logo and Key Flagship Initiatives for the India-AI Impact Summit 2026 Unveiled](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2175954), Press Information Bureau, Government of India, accessed 14 February 2026
 15. [About India AI Impact Expo 2026](https://www.impactexpo.indiaai.gov.in/about-ai-expo), IndiaAI Mission, Government of India, accessed 14 February 2026
+16. [Seven Chakras of the India–AI Impact Summit 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225069), Press Information Bureau, Government of India, accessed 15 February 2026
 
 ## External links
 - [Official website](https://impact.indiaai.gov.in/)
@@ -1138,7 +1199,7 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 .visual-identity-logo {
   float: right;
   margin: 0 0 1.5rem 1.5rem;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .visual-identity-logo img {
