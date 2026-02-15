@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "India AI Impact Summit 2026"
-description: "Overview of the India AI Impact Summit 2026 held in New Delhi, focusing on AI governance, public policy, innovation ecosystems and international cooperation."
+description: "Analysis of the India AI Impact Summit 2026 in New Delhi, documenting outcome documents from global AI summits (2023-2026) and quantitative policy evolution from safety-focused to openness-oriented governance."
 authors: ["Tito Dutta"]
 categories: [Artificial Intelligence, Events]
 date: 2026-02-16
