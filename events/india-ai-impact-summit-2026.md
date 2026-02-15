@@ -109,40 +109,6 @@ The official logo of the India AI Impact Summit 2026 was unveiled on 18 Septembe
 
 The logo features the Ashoka Chakra at its centre, representing India's constitutional values and commitment to ethical governance in artificial intelligence development. Radiating outward from the central wheel are neural network-inspired flares rendered in a vibrant gradient palette, symbolising AI's transformative potential and the diversity of perspectives that artificial intelligence systems must incorporate. The bilingual presentation, featuring both English and Hindi text, emphasises India's multilingual approach to inclusive technology development.
 
-## Objectives and Core Pillars
-
-The India AI Impact Summit 2026 articulates its objectives through a structured framework designed to translate high-level AI governance discussions into implementable policy and development outcomes. The summit's conceptual architecture is organised around two complementary frameworks: the Three Sutras, which define its guiding principles, and the Seven Chakras, which structure its thematic working tracks.
-
-### The Three Sutras
-
-The summit is anchored in three guiding principles, termed 'Sutras', a Sanskrit word denoting essential threads that bind wisdom to action. These principles articulate India's vision for how artificial intelligence development should proceed at the international level.
-
-**People**: This principle centres AI development on serving humanity across its full diversity, respecting cultural identities whilst preserving human dignity. The focus encompasses human-centred development in an AI-enabled world, advancing inclusivity through multilingual and culturally contextualised systems, and establishing robust frameworks for safe and trusted AI deployment. The People sutra emphasises that technological progress must prioritise human welfare, social empowerment and the protection of individual rights throughout the AI development lifecycle.
-
-**Planet**: This sutra addresses the dual challenge of making AI infrastructure more resource-efficient whilst simultaneously leveraging AI capabilities to accelerate climate resilience and environmental protection. It acknowledges that AI systems carry significant computational and energy costs, requiring sustainable approaches to model development and deployment. Simultaneously, the Planet principle recognises AI's potential to advance scientific breakthroughs in understanding and managing biological systems, provided that technological advancement aligns with planetary stewardship rather than environmental degradation.
-
-**Progress**: This principle advocates for equitable distribution of AI benefits, ensuring that technological advances contribute to broad-based development rather than concentrating advantages amongst wealthy nations or elite institutions. The Progress sutra frames AI as a tool for inclusive economic growth, particularly targeting opportunities for small businesses and developing economies that risk being marginalised in the global technology race. It reflects the summit's stated objective of reducing barriers to participation in AI development and deployment, particularly for countries facing resource and infrastructure constraints.
-
-### The Seven Chakras
-
-Building upon the three foundational Sutras, the summit operationalises its agenda through seven thematic working groups, termed 'Chakras'. Each Chakra addresses a distinct dimension of AI's global impact, translating aspirational principles into concrete areas for multilateral collaboration and policy action. These working groups form the organisational backbone for the summit's discussions, panels and outcome documents.
-
-**Human Capital**: Focuses on preparing the global workforce for an AI-integrated economy through equitable reskilling programmes and human development initiatives. This Chakra addresses labour market transitions and the need for educational systems to adapt to rapidly evolving technological demands.
-
-**Inclusion for Social Empowerment**: Advances inclusive-by-design AI development that accounts for linguistic diversity, gender equity, accessibility requirements and the needs of underserved communities. This working group examines how AI systems can be engineered to serve diverse populations rather than replicating existing inequalities.
-
-**Safe and Trusted AI**: Establishes frameworks for transparency, accountability and shared safeguards to foster public confidence in AI systems. This Chakra addresses data governance, ethical deployment standards and mechanisms for ensuring AI systems operate in line with human values.
-
-**Science**: Harnesses artificial intelligence to accelerate scientific breakthroughs and fosters international research collaboration across disciplines. This working group explores how AI can enhance scientific discovery whilst ensuring that research benefits are shared globally rather than concentrated in well-resourced institutions.
-
-**Resilience, Innovation and Efficiency**: Develops resource-efficient and climate-conscious AI models tailored for varied economic environments. This Chakra examines how nations with limited computational resources can nonetheless participate in AI innovation through optimised architectures and collaborative development approaches.
-
-**Democratising AI Resources**: Ensures affordable access to foundational enablers including compute power, datasets and models, aiming to bridge the digital divide between resource-rich and resource-constrained countries. This working group addresses infrastructure gaps that prevent many nations from developing or deploying AI systems
-
-**AI for Economic Development and Social Good**: Scales AI applications in vital sectors including healthcare, agriculture and education, with particular emphasis on developing-world contexts. This Chakra focuses on translating AI capabilities into measurable improvements in human welfare and economic opportunity.
-
-Together, the Sutras and Chakras provide a cohesive framework intended to move international AI discussions from aspirational declarations towards measurable outcomes and concrete policy implementation. Through these structures, India aims to shape global AI norms whilst simultaneously addressing challenges specific to economies at different stages of technological capacity.
-
 ## Outcome Documents
 
 <p>The India AI Impact Summit represents the latest milestone in a rapidly evolving international dialogue on artificial intelligence governance. Understanding this summit's policy significance requires examining the declarations, statements and commitments that have emerged from preceding gatherings, as these texts collectively trace the development of global consensus—and divergence—on how AI should be governed, deployed and regulated.</p>
@@ -153,7 +119,7 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 <h4>The Bletchley Declaration</h4>
 
-<p>The United Kingdom convened the world's first dedicated AI safety summit at Bletchley Park on 1–2 November 2023, producing the <strong>Bletchley Declaration</strong>—a foundational text signed by 28 countries and the European Union. The declaration marked the first time governments collectively acknowledged that frontier AI systems pose "potentially catastrophic" risks requiring urgent international cooperation. Signatories committed to developing shared understandings of AI opportunities and risks, prioritising transparency in AI development, and establishing frameworks for identifying and mitigating severe threats posed by advanced AI systems.</p>
+<p>The United Kingdom convened the world's first dedicated AI safety summit at Bletchley Park on 1–2 November 2023, producing the Bletchley Declaration, a foundational text signed by 28 countries and the European Union. The declaration marked the first time governments collectively acknowledged that frontier AI systems pose "potentially catastrophic" risks requiring urgent international cooperation. Signatories committed to developing shared understandings of AI opportunities and risks, prioritising transparency in AI development, and establishing frameworks for identifying and mitigating severe threats posed by advanced AI systems.</p>
 
 <p>The declaration's significance lies not merely in its risk-focused language but in securing participation from nations with divergent geopolitical interests, including the United States, China, and members of the European Union. By establishing AI safety as a legitimate domain for international diplomatic engagement, Bletchley set the precedent for subsequent summits to expand beyond narrow technical safety concerns toward broader questions of equity, sustainability and governance.</p>
 
@@ -196,7 +162,7 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 <h4>Seoul Declaration for Safe, Innovative and Inclusive AI</h4>
 
-<p>The <strong>Seoul Declaration</strong>, signed by 11 countries and entities during the Leaders' Session on 21 May 2024, explicitly linked safety frameworks to innovation policy and inclusive development. The declaration recognised that rigid safety requirements risk concentrating AI capabilities amongst well-resourced actors, potentially widening rather than narrowing global technological divides. Signatories committed to fostering international cooperation that balances rigorous safety standards with support for innovation ecosystems, particularly in countries lacking advanced AI infrastructure.</p>
+<p>The Seoul Declaration, signed by 11 countries and entities during the Leaders' Session on 21 May 2024, explicitly linked safety frameworks to innovation policy and inclusive development. The declaration recognised that rigid safety requirements risk concentrating AI capabilities amongst well-resourced actors, potentially widening rather than narrowing global technological divides. Signatories committed to fostering international cooperation that balances rigorous safety standards with support for innovation ecosystems, particularly in countries lacking advanced AI infrastructure.</p>
 
 <div class="outcome-doc-card">
   <div class="outcome-doc-header">📄 Seoul Declaration</div>
@@ -221,7 +187,7 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 <h4>Seoul Statement of Intent on AI Safety Science</h4>
 
-<p>As an annex to the Seoul Declaration, the <strong>Seoul Statement of Intent</strong> outlined concrete mechanisms for operationalising safety cooperation. The statement committed signatories to establishing an international network of government-backed AI Safety Institutes tasked with developing shared testing methodologies, coordinating research on emerging risks, and ensuring interoperability of safety evaluation frameworks across jurisdictions.</p>
+<p>As an annex to the Seoul Declaration, the Seoul Statement of Intent outlined concrete mechanisms for operationalising safety cooperation. The statement committed signatories to establishing an international network of government-backed AI Safety Institutes tasked with developing shared testing methodologies, coordinating research on emerging risks, and ensuring interoperability of safety evaluation frameworks across jurisdictions.</p>
 
 <div class="outcome-doc-card">
   <div class="outcome-doc-header">📄 Statement of Intent on AI Safety Science</div>
@@ -237,7 +203,7 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 <h4>Frontier AI Safety Commitments</h4>
 
-<p>Running parallel to governmental declarations, the Seoul Summit secured voluntary commitments from 20 leading AI companies—including Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI. The <strong>Frontier AI Safety Commitments</strong> obligate signatories to define thresholds for intolerable risk, conduct rigorous pre-deployment testing, implement robust security controls for unreleased model weights, and maintain transparency regarding their safety frameworks.</p>
+<p>Running parallel to governmental declarations, the Seoul Summit secured voluntary commitments from 20 leading AI companies—including Amazon, Anthropic, Google, Meta, Microsoft, and OpenAI. The Frontier AI Safety Commitments obligate signatories to define thresholds for intolerable risk, conduct rigorous pre-deployment testing, implement robust security controls for unreleased model weights, and maintain transparency regarding their safety frameworks.</p>
 
 <p>These commitments represent the first instance of major AI laboratories publicly pledging to specific accountability measures, including commitments not to deploy models if risks cannot be adequately mitigated. The voluntary nature of these pledges, however, raises questions about enforceability and whether industry self-regulation can substitute for binding regulatory frameworks.</p>
 
@@ -265,11 +231,11 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 <h3>AI Action Summit (Paris, February 2025)</h3>
 
-<p>France hosted the <strong>AI Action Summit</strong> on 10–11 February 2025, marking a decisive shift from the risk-oriented discourse of Bletchley toward implementation, sustainability, and equitable access. Co-chaired by France and India, the Paris gathering explicitly centred the priorities of emerging and developing economies, reflecting frustration amongst Global South nations that earlier summits had focused disproportionately on risks posed by cutting-edge systems whilst neglecting questions of access, capacity-building, and the environmental costs of AI infrastructure.</p>
+<p>France hosted the AI Action Summit on 10–11 February 2025, marking a decisive shift from the risk-oriented discourse of Bletchley toward implementation, sustainability, and equitable access. Co-chaired by France and India, the Paris gathering explicitly centred the priorities of emerging and developing economies, reflecting frustration amongst Global South nations that earlier summits had focused disproportionately on risks posed by cutting-edge systems whilst neglecting questions of access, capacity-building, and the environmental costs of AI infrastructure.</p>
 
 <h4>Statement on Inclusive and Sustainable Artificial Intelligence for People and the Planet</h4>
 
-<p>The <strong>Paris Statement</strong>, signed by a broad coalition of countries, established concrete initiatives addressing digital divides, AI's environmental impact, and labour market transitions. Notably, the United States and United Kingdom abstained from signing, signalling divergence between nations prioritising open, publicly funded AI development and those emphasising private-sector-led innovation protected by intellectual property regimes.</p>
+<p>The Paris Statement, signed by a broad coalition of countries, established concrete initiatives addressing digital divides, AI's environmental impact, and labour market transitions. Notably, the United States and United Kingdom abstained from signing, signalling divergence between nations prioritising open, publicly funded AI development and those emphasising private-sector-led innovation protected by intellectual property regimes.</p>
 
 <p>The statement committed signatories to launching a Public Interest AI Platform and Incubator, establishing an observatory on AI's energy consumption in partnership with the International Energy Agency, and creating a network of observatories monitoring AI's impact on labour markets. This represented the first multilateral commitment to governance mechanisms addressing AI's socio-economic and environmental externalities, not merely its technical safety.</p>
 
@@ -298,7 +264,7 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 <h4>India-France Declaration on Artificial Intelligence</h4>
 
-<p>Alongside the broader Paris Statement, India and France signed a <strong>bilateral declaration</strong> on 12 February 2025 outlining specific areas of cooperation. The declaration emphasised joint development of AI models supporting linguistic and cultural diversity, collaboration on expanding computing infrastructure, and shared commitments to building digital public goods accessible to populations underserved by commercial AI systems.</p>
+<p>Alongside the broader Paris Statement, India and France signed a bilateral declaration on 12 February 2025 outlining specific areas of cooperation. The declaration emphasised joint development of AI models supporting linguistic and cultural diversity, collaboration on expanding computing infrastructure, and shared commitments to building digital public goods accessible to populations underserved by commercial AI systems.</p>
 
 <div class="outcome-doc-card">
   <div class="outcome-doc-header">📄 India-France Bilateral Declaration on AI</div>
@@ -314,7 +280,7 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 <h3>G20 New Delhi Leaders' Declaration (September 2023)</h3>
 
-<p>Prior to the specialised AI summits, the G20 acknowledged AI governance as a priority in the <strong>New Delhi Leaders' Declaration</strong> adopted on 9–10 September 2023. The AI-related paragraphs committed G20 members to promoting international cooperation on AI governance whilst emphasising the dual imperative of unlocking AI's economic potential and mitigating its societal risks.</p>
+<p>Prior to the specialised AI summits, the G20 acknowledged AI governance as a priority in the New Delhi Leaders' Declaration adopted on 9–10 September 2023. The AI-related paragraphs committed G20 members to promoting international cooperation on AI governance whilst emphasising the dual imperative of unlocking AI's economic potential and mitigating its societal risks.</p>
 
 <div class="outcome-doc-card">
   <div class="outcome-doc-header">📄 G20 AI Compliance Report</div>
@@ -330,11 +296,11 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 
 <h3>India AI Impact Summit (February 2026)</h3>
 
-<p>The <strong>India AI Impact Summit</strong>, scheduled for 16–20 February 2026 in New Delhi, positions itself as the next phase in this diplomatic progression. Organised under India's IndiaAI Mission, the summit aims to translate the aspirational commitments of previous declarations into concrete policy frameworks and implementation strategies.</p>
+<p>The India AI Impact Summit, scheduled for 16–20 February 2026 in New Delhi, positions itself as the next phase in this diplomatic progression. Organised under India's IndiaAI Mission, the summit aims to translate the aspirational commitments of previous declarations into concrete policy frameworks and implementation strategies.</p>
 
 <h4>Leaders' Declaration (Forthcoming)</h4>
 
-<p>The summit's primary outcome document, the <strong>Leaders' Declaration</strong>, will be formally adopted on 20 February 2026. Based on pre-summit consultations and the framework of the Three Sutras (People, Planet, Progress) and Seven Chakras (thematic working groups), the declaration is expected to address mechanisms for democratising access to AI compute, datasets, and foundational models; frameworks for AI deployment in healthcare, agriculture, and education tailored to developing-country contexts; standards for human capital development and workforce reskilling in AI-integrated economies; and governance structures ensuring AI systems respect linguistic diversity, gender equity, and accessibility.</p>
+<p>The summit's primary outcome document, the Leaders' Declaration, will be formally adopted on 20 February 2026. Based on pre-summit consultations and the framework of the Three Sutras (People, Planet, Progress) and Seven Chakras (thematic working groups), the declaration is expected to address mechanisms for democratising access to AI compute, datasets, and foundational models; frameworks for AI deployment in healthcare, agriculture, and education tailored to developing-country contexts; standards for human capital development and workforce reskilling in AI-integrated economies; and governance structures ensuring AI systems respect linguistic diversity, gender equity, and accessibility.</p>
 
 <div class="tsap-info-box">
 <strong>Status:</strong> Leaders' Declaration to be released 20 February 2026
@@ -357,6 +323,40 @@ Together, the Sutras and Chakras provide a cohesive framework intended to move i
 <p>India's summit seeks to consolidate these themes whilst centring the perspectives and priorities of emerging economies. The shift from abstract commitments to concrete mechanisms—observatories, platforms, capacity-building initiatives—reflects maturation in the governance conversation. Yet the voluntary, non-binding nature of these declarations, combined with divergent national interests and regulatory approaches, leaves open the question of whether this diplomatic process can produce enforceable norms capable of shaping how AI is actually developed and deployed.</p>
 
 <p>The outcome documents from Delhi will provide the clearest indication yet of whether international AI governance can move beyond declarations toward coordinated action.</p>
+
+## Objectives and Core Pillars
+
+The India AI Impact Summit 2026 articulates its objectives through a structured framework designed to translate high-level AI governance discussions into implementable policy and development outcomes. The summit's conceptual architecture is organised around two complementary frameworks: the Three Sutras, which define its guiding principles, and the Seven Chakras, which structure its thematic working tracks.
+
+### The Three Sutras
+
+The summit is anchored in three guiding principles, termed 'Sutras', a Sanskrit word denoting essential threads that bind wisdom to action. These principles articulate India's vision for how artificial intelligence development should proceed at the international level.
+
+**People**: This principle centres AI development on serving humanity across its full diversity, respecting cultural identities whilst preserving human dignity. The focus encompasses human-centred development in an AI-enabled world, advancing inclusivity through multilingual and culturally contextualised systems, and establishing robust frameworks for safe and trusted AI deployment. The People sutra emphasises that technological progress must prioritise human welfare, social empowerment and the protection of individual rights throughout the AI development lifecycle.
+
+**Planet**: This sutra addresses the dual challenge of making AI infrastructure more resource-efficient whilst simultaneously leveraging AI capabilities to accelerate climate resilience and environmental protection. It acknowledges that AI systems carry significant computational and energy costs, requiring sustainable approaches to model development and deployment. Simultaneously, the Planet principle recognises AI's potential to advance scientific breakthroughs in understanding and managing biological systems, provided that technological advancement aligns with planetary stewardship rather than environmental degradation.
+
+**Progress**: This principle advocates for equitable distribution of AI benefits, ensuring that technological advances contribute to broad-based development rather than concentrating advantages amongst wealthy nations or elite institutions. The Progress sutra frames AI as a tool for inclusive economic growth, particularly targeting opportunities for small businesses and developing economies that risk being marginalised in the global technology race. It reflects the summit's stated objective of reducing barriers to participation in AI development and deployment, particularly for countries facing resource and infrastructure constraints.
+
+### The Seven Chakras
+
+Building upon the three foundational Sutras, the summit operationalises its agenda through seven thematic working groups, termed 'Chakras'. Each Chakra addresses a distinct dimension of AI's global impact, translating aspirational principles into concrete areas for multilateral collaboration and policy action. These working groups form the organisational backbone for the summit's discussions, panels and outcome documents.
+
+**Human Capital**: Focuses on preparing the global workforce for an AI-integrated economy through equitable reskilling programmes and human development initiatives. This Chakra addresses labour market transitions and the need for educational systems to adapt to rapidly evolving technological demands.
+
+**Inclusion for Social Empowerment**: Advances inclusive-by-design AI development that accounts for linguistic diversity, gender equity, accessibility requirements and the needs of underserved communities. This working group examines how AI systems can be engineered to serve diverse populations rather than replicating existing inequalities.
+
+**Safe and Trusted AI**: Establishes frameworks for transparency, accountability and shared safeguards to foster public confidence in AI systems. This Chakra addresses data governance, ethical deployment standards and mechanisms for ensuring AI systems operate in line with human values.
+
+**Science**: Harnesses artificial intelligence to accelerate scientific breakthroughs and fosters international research collaboration across disciplines. This working group explores how AI can enhance scientific discovery whilst ensuring that research benefits are shared globally rather than concentrated in well-resourced institutions.
+
+**Resilience, Innovation and Efficiency**: Develops resource-efficient and climate-conscious AI models tailored for varied economic environments. This Chakra examines how nations with limited computational resources can nonetheless participate in AI innovation through optimised architectures and collaborative development approaches.
+
+**Democratising AI Resources**: Ensures affordable access to foundational enablers including compute power, datasets and models, aiming to bridge the digital divide between resource-rich and resource-constrained countries. This working group addresses infrastructure gaps that prevent many nations from developing or deploying AI systems
+
+**AI for Economic Development and Social Good**: Scales AI applications in vital sectors including healthcare, agriculture and education, with particular emphasis on developing-world contexts. This Chakra focuses on translating AI capabilities into measurable improvements in human welfare and economic opportunity.
+
+Together, the Sutras and Chakras provide a cohesive framework intended to move international AI discussions from aspirational declarations towards measurable outcomes and concrete policy implementation. Through these structures, India aims to shape global AI norms whilst simultaneously addressing challenges specific to economies at different stages of technological capacity.
 
 ## Programme and Activities
 
