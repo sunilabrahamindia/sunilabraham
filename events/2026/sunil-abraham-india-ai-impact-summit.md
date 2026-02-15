@@ -10,10 +10,6 @@ created: 2026-02-15
 
 **Sunil Abraham**, Public Policy Director at Meta, is scheduled to participate in multiple sessions during the **India AI Impact Summit 2026** being held in New Delhi from 16–20 February 2026. His involvement focuses on AI governance frameworks, democratising AI resources and responsible AI deployment at enterprise scale. This page documents his scheduled appearances and panel contributions.
 
-<div class="tsap-info-box">
-  ℹ️ <strong>TSAP Coverage Note:</strong> On TSAP, we exclusively cover the works and presentations of Sunil Abraham. This page documents his participation at the India AI Impact Summit 2026. For comprehensive summit coverage, see <a href="/events/india-ai-impact-summit-2026/">India AI Impact Summit 2026</a>.
-</div>
-
 ## ASSOCHAM Thematic Sessions (17 February 2026)
 
 ASSOCHAM (The Associated Chambers of Commerce and Industry of India) is conducting two thematic sessions on 17 February 2026 from 3:30 PM to 5:25 PM at Bharat Mandapam, Meeting Room 8. Abraham is participating as moderator in Session B.
