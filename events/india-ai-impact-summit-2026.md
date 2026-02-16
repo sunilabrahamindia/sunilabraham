@@ -543,6 +543,9 @@ This quantitative shift reflects changing diplomatic priorities:
 
 **India-France (2025):** Marked the clearest articulation of an openness agenda, advocating "development of free and open resources for all countries," "broad and open and freely reusable large language models," and explicit support for "open source tools." Notably, the United States and United Kingdom declined to sign the Paris Statement, signalling divergence between nations prioritising open, publicly funded AI development and those emphasising private-sector innovation protected by intellectual property regimes.
 
+📊 [AI Policy Evolution Data (CSV)](/events/files/ai-summit-policy-evolution.csv)  
+📊 [G20 AI Compliance Data (CSV)](/events/files/g20-ai-compliance.csv)
+
 ### India 2026: Implications
 
 India's positioning as co-chair of the Paris Summit and signatory to the openness-centred India-France Declaration suggests the Delhi gathering may continue this trajectory. The summit's "Democratising AI Resources" working group—one of its Seven Chakras—potentially operationalises openness as a counterweight to concentrated AI capabilities amongst Western firms. Whether India's 2026 outcome documents sustain, moderate, or reverse the 2025 pivot toward openness will clarify whether this shift represents a durable realignment or a transient diplomatic moment.
