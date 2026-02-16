@@ -92,7 +92,6 @@ hide_utilities: true
     <div id="botResponse"></div>
   </div>
 </div>
->
 
 The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
 
@@ -521,13 +520,50 @@ A comparative analysis of outcome documents from the 2023–2025 AI summit seque
 
 Keyword frequency analysis across seven major outcome documents demonstrates a fundamental policy shift:
 
-| Era | Documents | Safety+Safe | Open* | Ratio |
-|-----|-----------|-------------|-------|-------|
-| **Bletchley (2023)** | Chair's Statement, Safety Testing | 44 | 2 | 22:1 |
-| **Seoul (2024)** | Declaration, Safety Science, Commitments | 42 | 1 | 42:1 |
-| **Paris/India (2025)** | Paris Statement, India-France Declaration | 9 | 10 | 0.9:1 |
+<div class="analysis-table-wrapper">
 
-*Includes: open, openness, open-source, open standards, open data
+<table id="policy-evolution-table" class="attendee-table">
+<thead>
+<tr>
+<th>Era</th>
+<th>Documents Analysed</th>
+<th>Safety + Safe</th>
+<th>Open*</th>
+<th>Ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Bletchley (2023)</strong></td>
+<td>Chair’s Statement, Safety Testing</td>
+<td>44</td>
+<td>2</td>
+<td><strong>22:1</strong></td>
+</tr>
+
+<tr>
+<td><strong>Seoul (2024)</strong></td>
+<td>Declaration, Safety Science, Commitments</td>
+<td>42</td>
+<td>1</td>
+<td><strong>42:1</strong></td>
+</tr>
+
+<tr>
+<td><strong>Paris/India (2025)</strong></td>
+<td>Paris Statement, India-France Declaration</td>
+<td>9</td>
+<td>10</td>
+<td><strong>0.9:1</strong></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="tsap-info-box">
+<strong>Methodological note:</strong> "Open*" includes occurrences of open, openness, open-source, open standards and open data across the analysed documents.
+</div>
 
 The Bletchley Declaration (November 2023) mentioned "safety" or "safe" 44 times across its primary documents whilst referencing "open" concepts only twice—specifically framing open-source models as potential risks requiring additional safety measures. By contrast, the Paris Statement and India-France Declaration (February 2025) reversed this emphasis, with "open" references (10) exceeding safety language (9) for the first time in AI summit history.
 
@@ -1682,6 +1718,15 @@ The summit organisers published a list of key attendees on the official website,
   .attendee-table td {
     padding: 8px;
   }
+}
+  .analysis-table-wrapper {
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+#policy-evolution-table td:last-child {
+  font-weight: 600;
+  color: #1a237e;
 }
 /* ===================================
    AI Summit Outcome Documents
