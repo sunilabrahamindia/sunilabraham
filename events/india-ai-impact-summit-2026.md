@@ -113,6 +113,8 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [India AI Impact Summit (February 2026)](#india-ai-impact-summit-february-2026)
 3. [Policy Evolution: From Bletchley to Delhi](#policy-evolution-from-bletchley-to-delhi)
 4. [Policy Evolution: Quantitative Analysis](#policy-evolution-quantitative-analysis)
+   - [From Safety to Openness](#from-safety-to-openness)
+   - [Policy Architecture Comparison](#policy-architecture-comparison)
 5. [Programme and Activities](#programme-and-activities)
    - [Pre-Summit Engagement](#pre-summit-engagement)
    - [Summit Structure](#summit-structure)
@@ -567,6 +569,80 @@ Keyword frequency analysis across seven major outcome documents demonstrates a f
 
 The Bletchley Declaration (November 2023) mentioned "safety" or "safe" 44 times across its primary documents whilst referencing "open" concepts only twice—specifically framing open-source models as potential risks requiring additional safety measures. By contrast, the Paris Statement and India-France Declaration (February 2025) reversed this emphasis, with "open" references (10) exceeding safety language (9) for the first time in AI summit history.
 
+📊 [AI Policy Evolution Data (CSV)](/events/files/ai-summit-policy-evolution.csv)  
+📊 [G20 AI Compliance Data (CSV)](/events/files/g20-ai-compliance.csv)
+
+## Policy Architecture Comparison
+
+Beyond keyword frequency, the evolution of global AI summits can be examined through structural policy commitments. The table below compares how each summit framed risk, openness, institutionalisation and implementation mechanisms.
+
+<div class="analysis-table-wrapper">
+
+<table class="attendee-table">
+<thead>
+<tr>
+<th>Policy Dimension</th>
+<th>Bletchley 2023</th>
+<th>Seoul 2024</th>
+<th>Paris 2025</th>
+<th>India-France 2025</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td><strong>Primary Framing</strong></td>
+<td>Frontier AI safety and catastrophic risk</td>
+<td>Safety + innovation + inclusion</td>
+<td>Implementation and sustainability</td>
+<td>Openness and resource democratisation</td>
+</tr>
+
+<tr>
+<td><strong>Risk Language</strong></td>
+<td>Strong emphasis on catastrophic risk</td>
+<td>Maintained safety focus</td>
+<td>Reduced explicit risk framing</td>
+<td>Minimal safety rhetoric</td>
+</tr>
+
+<tr>
+<td><strong>Openness Language</strong></td>
+<td>Open models framed as safety concern</td>
+<td>Marginal reference to openness</td>
+<td>Positive reference to open AI models</td>
+<td>Explicit support for open and reusable models</td>
+</tr>
+
+<tr>
+<td><strong>Institutional Mechanisms</strong></td>
+<td>Commitment to AI Safety Institutes</td>
+<td>Networked Safety Institutes formalised</td>
+<td>Public Interest AI Platform proposed</td>
+<td>Free and open AI resource collaboration</td>
+</tr>
+
+<tr>
+<td><strong>Global South Positioning</strong></td>
+<td>Limited</td>
+<td>Emerging recognition</td>
+<td>Central theme</td>
+<td>Explicit developmental framing</td>
+</tr>
+
+<tr>
+<td><strong>Binding Nature</strong></td>
+<td>Political declaration</td>
+<td>Political + voluntary corporate pledges</td>
+<td>Political declaration</td>
+<td>Political declaration</td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
 ### Regulatory Vision Shift
 
 This quantitative shift reflects changing diplomatic priorities:
@@ -578,9 +654,6 @@ This quantitative shift reflects changing diplomatic priorities:
 **Paris (2025):** First explicit embrace of "open AI models" language. Safety references dropped 88% from Seoul levels. The statement committed signatories to "focusing on open AI models" and launching a Public Interest AI Platform supporting "openness and transparency."
 
 **India-France (2025):** Marked the clearest articulation of an openness agenda, advocating "development of free and open resources for all countries," "broad and open and freely reusable large language models," and explicit support for "open source tools." Notably, the United States and United Kingdom declined to sign the Paris Statement, signalling divergence between nations prioritising open, publicly funded AI development and those emphasising private-sector innovation protected by intellectual property regimes.
-
-📊 [AI Policy Evolution Data (CSV)](/events/files/ai-summit-policy-evolution.csv)  
-📊 [G20 AI Compliance Data (CSV)](/events/files/g20-ai-compliance.csv)
 
 ### India 2026: Implications
 
