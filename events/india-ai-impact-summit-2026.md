@@ -34,15 +34,16 @@ hide_utilities: true
 {% include author.html %}
 
 <div id="faqBot" class="faq-bot-button" onclick="toggleBot()">
-  💬 Ask about the Summit
+  💬 Ask about the Summit & Policy
 </div>
 
 <div id="botPanel" class="bot-panel" style="display: none;">
   <div class="bot-header">
-    <span>🤖 AI Summit Assistant</span>
+    <span>🤖 AI Summit & Policy Assistant</span>
     <button class="bot-close" onclick="toggleBot()" aria-label="Close">&times;</button>
   </div>
   <div class="bot-content">
+
     <div class="bot-section-title">📌 Most Asked Questions</div>
     
     <button onclick="botAnswer('when')" class="bot-quick-btn">
@@ -56,9 +57,9 @@ hide_utilities: true
     <button onclick="botAnswer('analysis')" class="bot-quick-btn">
       📊 What's the policy evolution analysis?
     </button>
-    
+
     <hr class="bot-divider">
-    
+
     <div class="bot-section-title">🎯 About the Summit</div>
     
     <button onclick="botAnswer('sutras')" class="bot-quick-btn">
@@ -72,9 +73,33 @@ hide_utilities: true
     <button onclick="botAnswer('different')" class="bot-quick-btn">
       🌍 How is India's summit different?
     </button>
-    
+
     <hr class="bot-divider">
-    
+
+    <div class="bot-section-title">📊 Policy Analysis</div>
+
+    <button onclick="botAnswer('policyshift')" class="bot-quick-btn">
+      📈 What is the policy shift since 2023?
+    </button>
+
+    <button onclick="botAnswer('indiareposition')" class="bot-quick-btn">
+      🇮🇳 How is India repositioning AI governance?
+    </button>
+
+    <button onclick="botAnswer('bletchleyparis')" class="bot-quick-btn">
+      🔄 What changed between Bletchley and Paris?
+    </button>
+
+    <button onclick="botAnswer('binding')" class="bot-quick-btn">
+      ⚖️ Are these declarations legally binding?
+    </button>
+
+    <button onclick="botAnswer('globalsouth')" class="bot-quick-btn">
+      🌍 What is the Global South dimension?
+    </button>
+
+    <hr class="bot-divider">
+
     <div class="bot-section-title">📄 Documents & History</div>
     
     <button onclick="botAnswer('available')" class="bot-quick-btn">
@@ -88,8 +113,9 @@ hide_utilities: true
     <button onclick="botAnswer('previous')" class="bot-quick-btn">
       🌐 Previous global AI summits?
     </button>
-    
+
     <div id="botResponse"></div>
+
   </div>
 </div>
 
@@ -115,7 +141,10 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
 4. [Policy Evolution: Quantitative Analysis](#policy-evolution-quantitative-analysis)
    - [From Safety to Openness](#from-safety-to-openness)
    - [Policy Architecture Comparison](#policy-architecture-comparison)
-5. [Programme and Activities](#programme-and-activities)
+   - [Regulatory Vision Shift](#regulatory-vision-shift)
+   - [India 2026: Implications](#india-2026-implications)
+5. [Normative Shift in Global AI Governance](#normative-shift-in-global-ai-governance)
+6. [Programme and Activities](#programme-and-activities)
    - [Pre-Summit Engagement](#pre-summit-engagement)
    - [Summit Structure](#summit-structure)
    - [Call for Proposals](#call-for-proposals)
@@ -123,9 +152,9 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
    - [AI Compendium](#ai-compendium)
    - [Session Schedule](#session-schedule)
    - [Key Attendees](#key-attendees)
-6. [See also](#see-also)
-7. [References](#references)
-8. [External links](#external-links)
+7. [See also](#see-also)
+8. [References](#references)
+9. [External links](#external-links)
 
 ## Background and Context
 The India AI Impact Summit emerges at a pivotal moment in global artificial intelligence governance, following a succession of high-profile international gatherings that have progressively shaped the discourse around artificial intelligence.
@@ -658,6 +687,20 @@ This quantitative shift reflects changing diplomatic priorities:
 ### India 2026: Implications
 
 India's positioning as co-chair of the Paris Summit and signatory to the openness-centred India-France Declaration suggests the Delhi gathering may continue this trajectory. The summit's "Democratising AI Resources" working group—one of its Seven Chakras—potentially operationalises openness as a counterweight to concentrated AI capabilities amongst Western firms. Whether India's 2026 outcome documents sustain, moderate, or reverse the 2025 pivot toward openness will clarify whether this shift represents a durable realignment or a transient diplomatic moment.
+
+## Normative Shift in Global AI Governance
+
+Beyond terminology and institutional mechanisms, the summit sequence from 2023 to 2025 reflects a deeper normative transformation in how artificial intelligence is conceptualised within international policy discourse.
+
+The 2023 Bletchley framework was grounded in precaution. Frontier AI systems were framed primarily through the lens of catastrophic and systemic risk, with governance structured around containment, safety testing and institutional oversight. The dominant policy logic was risk mitigation.
+
+By 2024, Seoul introduced a balancing narrative. Safety remained central, but innovation and inclusion were explicitly elevated as co-equal objectives. This marked the beginning of a shift from pure precaution toward calibrated enablement.
+
+Paris in 2025 represented a further evolution. The framing pivoted toward implementation, sustainability and development equity. Openness was recast not as a vulnerability, but as a tool for democratisation. Institutional proposals moved from safety institutes toward shared platforms, observatories and public-interest infrastructure.
+
+The India–France articulation sharpened this trajectory by explicitly advocating resource democratisation, open and reusable models, and development-oriented AI cooperation. The centre of gravity moved from catastrophic frontier risk to distributive access and economic enablement.
+
+This progression suggests that international AI governance is transitioning from a security-dominated paradigm toward a development-oriented governance model—one that prioritises access, infrastructure and capacity-building alongside safety considerations.
 
 ## Programme and Activities
 
@@ -1988,7 +2031,7 @@ function toggleBot() {
   const panel = document.getElementById('botPanel');
   const isVisible = panel.style.display !== 'none';
   panel.style.display = isVisible ? 'none' : 'block';
-  
+
   if (!isVisible) {
     document.getElementById('botResponse').innerHTML = '';
   }
@@ -1996,6 +2039,7 @@ function toggleBot() {
 
 function botAnswer(topic) {
   const responses = {
+
     'when': `
       <div class="bot-answer">
         <strong>📅 Summit Dates</strong>
@@ -2008,154 +2052,155 @@ function botAnswer(topic) {
         </ul>
       </div>
     `,
-    
+
     'documents': `
       <div class="bot-answer">
         <strong>📄 Outcome Documents</strong>
-        All documents are available in the <a href="#outcome-documents">Outcome Documents section</a> of this page.
+        All documents are available in the <a href="#outcome-documents">Outcome Documents section</a>.
         <br><br>
         <strong>Quick link:</strong> <a href="/aisd/">sunilabraham.in/aisd</a>
-        <br><br>
-        You can download declarations from:
-        <ul>
-          <li>Bletchley (UK, 2023)</li>
-          <li>Seoul (South Korea, 2024)</li>
-          <li>Paris (France, 2025)</li>
-          <li>G20 New Delhi (2023)</li>
-          <li>India-France bilateral (2025)</li>
-        </ul>
       </div>
     `,
-    
+
     'analysis': `
       <div class="bot-answer">
         <strong>📊 Policy Evolution Analysis</strong>
-        This article includes original quantitative research showing a dramatic shift in AI governance priorities:
+        Quantitative analysis shows a major shift in AI governance framing:
         <br><br>
         <strong>Bletchley (2023):</strong> 22:1 safety-to-openness ratio<br>
-        <strong>Seoul (2024):</strong> 42:1 safety-to-openness ratio<br>
-        <strong>Paris (2025):</strong> 0.9:1 ratio (openness exceeded safety for the first time)
+        <strong>Seoul (2024):</strong> 42:1 ratio<br>
+        <strong>Paris (2025):</strong> 0.9:1 ratio
         <br><br>
-        This represents an 88% drop in safety language and the first explicit embrace of "open AI models" in summit history.
+        Safety language declined sharply while openness references increased for the first time in summit history.
         <br><br>
-        <a href="#policy-evolution-quantitative-analysis">Read the full analysis ↓</a>
+        <a href="#policy-evolution-quantitative-analysis">View detailed analysis ↓</a>
       </div>
     `,
-    
+
     'sutras': `
       <div class="bot-answer">
         <strong>🔧 The Three Sutras</strong>
-        These are the summit's guiding principles:
-        <br><br>
-        <strong>1. People:</strong> Human-centred AI development respecting cultural identities and human dignity
-        <br><br>
-        <strong>2. Planet:</strong> Sustainable AI infrastructure and leveraging AI for climate resilience
-        <br><br>
-        <strong>3. Progress:</strong> Equitable distribution of AI benefits across nations and communities
+        <strong>People:</strong> Human-centred AI development<br>
+        <strong>Planet:</strong> Sustainable infrastructure and climate alignment<br>
+        <strong>Progress:</strong> Equitable distribution of AI benefits
       </div>
     `,
-    
+
     'chakras': `
       <div class="bot-answer">
         <strong>🌀 The Seven Chakras</strong>
-        Seven thematic working groups:
+        Human Capital • Inclusion • Safe & Trusted AI • Science • Resilience • Democratising Resources • Economic Development
         <br><br>
-        <strong>1. Human Capital</strong> – Workforce transitions<br>
-        <strong>2. Inclusion</strong> – Social empowerment<br>
-        <strong>3. Safe & Trusted AI</strong> – Transparency & accountability<br>
-        <strong>4. Science</strong> – Research collaboration<br>
-        <strong>5. Resilience</strong> – Innovation & efficiency<br>
-        <strong>6. Democratising Resources</strong> – Equitable access<br>
-        <strong>7. Economic Development</strong> – Social good
-        <br><br>
-        <a href="#working-group-outcome-documents">View detailed information ↓</a>
+        <a href="#working-group-outcome-documents">See full details ↓</a>
       </div>
     `,
-    
+
     'different': `
       <div class="bot-answer">
         <strong>🌍 What Makes India's Summit Different</strong>
-        India centres the perspectives of emerging and developing economies:
-        <br><br>
+        The Delhi summit shifts emphasis from frontier risk toward:
         <ul>
-          <li>Focus on <strong>impact</strong> (not just safety)</li>
-          <li>Tangible applications over theoretical risks</li>
-          <li>Equitable access and developmental outcomes</li>
-          <li>Digital public infrastructure priorities</li>
-          <li>Addressing technology divides</li>
+          <li>Impact and implementation</li>
+          <li>Infrastructure and compute access</li>
+          <li>Developmental priorities</li>
+          <li>Global South participation</li>
         </ul>
-        <br>
-        Previous summits focused on risks in advanced economies. India shifts to implementation for all nations.
-        <br><br>
-        <a href="#indias-hosting-and-positioning-2026">Read more context ↓</a>
+        <a href="#indias-hosting-and-positioning-2026">Read contextual analysis ↓</a>
       </div>
     `,
-    
+
     'available': `
       <div class="bot-answer">
-        <strong>📚 Available Documents</strong>
-        Download PDFs from past summits:
+        <strong>📚 Downloadable Documents</strong>
+        Bletchley (2023), Seoul (2024), Paris (2025), G20 (2023), India-France (2025).
         <br><br>
-        <strong>🇬🇧 Bletchley (2023):</strong>
-        <ul>
-          <li>Chair's Statement (10 pages, 198 KB)</li>
-          <li>Safety Testing Statement (4 pages, 154 KB)</li>
-        </ul>
-        <strong>🇰🇷 Seoul (2024):</strong>
-        <ul>
-          <li>Seoul Declaration (3 pages, 153 KB)</li>
-          <li>AI Safety Science Statement (2 pages, 151 KB)</li>
-          <li>Frontier AI Commitments (4 pages, 169 KB)</li>
-        </ul>
-        <strong>🇫🇷 Paris (2025):</strong>
-        <ul>
-          <li>Inclusive AI Statement (5 pages, 210 KB)</li>
-        </ul>
-        <br>
-        <a href="#outcome-documents">Go to Documents section ↓</a>
+        <a href="#outcome-documents">Go to documents section ↓</a>
       </div>
     `,
-    
+
     'leaders': `
       <div class="bot-answer">
         <strong>📜 Leaders' Declaration</strong>
-        The summit's primary outcome document will be formally adopted on <strong>20 February 2026</strong> (the final day).
+        Scheduled for formal adoption on <strong>20 February 2026</strong>.
         <br><br>
-        It's expected to address:
-        <ul>
-          <li>Democratising AI compute, datasets & models</li>
-          <li>AI deployment in healthcare, agriculture, education</li>
-          <li>Workforce reskilling frameworks</li>
-          <li>Governance for linguistic diversity & equity</li>
-        </ul>
-        <br>
-        <strong>Status:</strong> Forthcoming – check back after 20 February 2026
+        Expected themes include compute access, reskilling, governance safeguards and development-focused deployment.
       </div>
     `,
-    
+
     'previous': `
       <div class="bot-answer">
         <strong>🌐 Previous Global AI Summits</strong>
+        🇬🇧 Bletchley (2023) – Safety and catastrophic risk<br>
+        🇰🇷 Seoul (2024) – Safety + innovation + inclusion<br>
+        🇫🇷 Paris (2025) – Implementation, sustainability, openness<br>
+        🇮🇳 Delhi (2026) – Impact and development focus
         <br><br>
-        <strong>🇬🇧 Bletchley (UK, Nov 2023):</strong><br>
-        First global AI summit – focused on frontier AI risks
+        <a href="#background-and-context">Full timeline ↓</a>
+      </div>
+    `,
+
+    /* -------- Policy-Centric Additions -------- */
+
+    'policyshift': `
+      <div class="bot-answer">
+        <strong>📈 The Structural Policy Shift</strong>
+        From 2023 to 2025, summit language moved:
         <br><br>
-        <strong>🇰🇷 Seoul (South Korea, May 2024):</strong><br>
-        Expanded to innovation & inclusion alongside safety
+        Catastrophic Risk → Balanced Safety → Openness & Implementation
         <br><br>
-        <strong>🇫🇷 Paris (France, Feb 2025):</strong><br>
-        Shifted to action, sustainability & equitable access
+        This marks a shift from precautionary containment to development-oriented governance.
+      </div>
+    `,
+
+    'indiareposition': `
+      <div class="bot-answer">
+        <strong>🇮🇳 India's Strategic Repositioning</strong>
+        India frames AI as developmental infrastructure rather than primarily as a frontier risk.
         <br><br>
-        <strong>🇮🇳 Delhi (India, Feb 2026):</strong><br>
-        Focuses on <strong>impact</strong> for emerging economies
+        Emphasis areas:
+        <ul>
+          <li>Compute democratisation</li>
+          <li>Open and reusable models</li>
+          <li>Capacity-building</li>
+          <li>Inclusive deployment</li>
+        </ul>
+      </div>
+    `,
+
+    'bletchleyparis': `
+      <div class="bot-answer">
+        <strong>🔄 Bletchley vs Paris</strong>
+        Bletchley emphasised catastrophic frontier risk and safety institutes.
         <br><br>
-        <a href="#background-and-context">Read full timeline ↓</a>
+        Paris introduced public-interest platforms, openness language and development equity.
+      </div>
+    `,
+
+    'binding': `
+      <div class="bot-answer">
+        <strong>⚖️ Are These Binding?</strong>
+        No summit declaration to date is legally binding.
+        <br><br>
+        They are political commitments that influence norms and domestic policy but lack treaty enforcement.
+      </div>
+    `,
+
+    'globalsouth': `
+      <div class="bot-answer">
+        <strong>🌍 The Global South Dimension</strong>
+        Paris (2025) and Delhi (2026) explicitly elevate emerging economy priorities:
+        <ul>
+          <li>Infrastructure gaps</li>
+          <li>Equitable compute access</li>
+          <li>Workforce transition</li>
+          <li>Inclusive AI deployment</li>
+        </ul>
       </div>
     `
   };
-  
+
   document.getElementById('botResponse').innerHTML = responses[topic] || '';
-  
+
   setTimeout(() => {
     const responseEl = document.getElementById('botResponse');
     if (responseEl.scrollIntoView) {
