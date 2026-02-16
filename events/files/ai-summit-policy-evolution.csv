@@ -1,0 +1,15 @@
+Document,Year,Safety (noun),Safe (adj),Total Safety+Safe,Open (all forms),Ratio (Safety:Open),Trend
+Bletchley Chair Statement,2023,14,3,17,2,8.5:1,Safety-first approach
+Bletchley Safety Testing,2023,20,7,27,0,∞:1,Safety-only focus
+Seoul Declaration,2024,7,7,14,0,∞:1,Safety + Innovation + Inclusion
+Seoul Safety Science Statement,2024,11,3,14,1,14:1,Safety science emphasis
+Frontier AI Safety Commitments,2024,11,3,14,0,∞:1,Industry safety pledges
+Paris Inclusive AI Statement,2025,2,3,5,4,1.25:1,First openness emergence
+India-France AI Declaration,2025,0,4,4,6,0.67:1,Openness overtakes safety
+,,,,,,,
+TOTALS,2023-2025,65,30,95,13,7.3:1,Overall still safety-heavy
+,,,,,,,
+GROUPED BY YEAR:,,,,,,,
+2023 (Bletchley era),2023,34,10,44,2,22:1,Safety dominance
+2024 (Seoul era),2024,29,13,42,1,42:1,Peak safety focus
+2025 (Paris/India era),2025,2,7,9,10,0.9:1,Openness wins
