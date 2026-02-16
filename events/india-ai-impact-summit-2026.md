@@ -94,8 +94,6 @@ hide_utilities: true
 </div>
 >
 
-
-
 The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
 
 Organised under the IndiaAI Mission by the Ministry of Electronics and Information Technology (MeitY), Government of India, the summit aims to advance responsible, inclusive and human-centric AI development. The programme is expected to include plenary sessions, thematic panels, exhibitions and policy roundtables addressing AI safety, public digital infrastructure, innovation ecosystems, regulatory frameworks and international cooperation.
@@ -139,7 +137,7 @@ The India AI Impact Summit emerges at a pivotal moment in global artificial inte
 |--------|------|------|--------------|-------------|
 | AI Safety Summit | 1–2 Nov 2023 | 🇬🇧 United Kingdom | ~28 countries (plus EU) | Bletchley Declaration on AI risk management |
 | AI Seoul Summit | 21–22 May 2024 | 🇰🇷 South Korea | 27 countries | Seoul Declaration on safe, innovative & inclusive AI |
-| AI Action Summit | 10–11 Feb 2025 | 🇫🇷 France | 100+ countries; 1000+ participants | Joint declaration by ~58 countries on inclusive AI |
+| AI Action Summit | 10–11 Feb 2025 | 🇫🇷 France | 100+ countries; 1000+ participants | Joint declaration by 61 countries on inclusive AI |
 | India AI Impact Summit | 16–20 Feb 2026 | 🇮🇳 India | 100+ countries expected | Leaders' Declaration (forthcoming) |
 
 </div>
@@ -148,7 +146,7 @@ The India AI Impact Summit emerges at a pivotal moment in global artificial inte
 The United Kingdom initiated this diplomatic sequence on 1–2 November 2023 with the Bletchley Park AI Safety Summit, where 28 nations signed the Bletchley Declaration, prioritising frontier AI risks and establishing initial safety frameworks. This was the first ever global summit on artificial intelligence. 
 
 ### AI Seoul Summit (2024)
-The momentum shifted to South Korea six months later for the AI Seoul Summit, held on 21 – 24 May 2024. This second chapter proved pivotal, resulting in the Seoul Declaration, which successfully brought major AI laboratories and civil society advocates to the negotiating table alongside heads of state. 
+The momentum shifted to South Korea six months later for the AI Seoul Summit, held on 21 – 22 May 2024. This second chapter proved pivotal, resulting in the Seoul Declaration, which successfully brought major AI laboratories and civil society advocates to the negotiating table alongside heads of state. 
 
 ### AI Action Summit (2025) 
 France hosted the AI Action Summit on 10 – 11 February 2025. By that time, the global narrative had fundamentally matured. The conversation moved beyond the abstract, safety-first anxieties of earlier meetings toward a more pragmatic focus on "AI for Action"—emphasising tangible implementation, measurable socio-economic outcomes, and the scaling of technology for the public good.
@@ -174,28 +172,27 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <h4>The Bletchley Declaration</h4>
 
-<p>The United Kingdom convened the world's first dedicated AI safety summit at Bletchley Park on 1–2 November 2023, producing the Bletchley Declaration, a foundational text signed by 28 countries and the European Union. The declaration marked the first time governments collectively acknowledged that frontier AI systems pose "potentially catastrophic" risks requiring urgent international cooperation. Signatories committed to developing shared understandings of AI opportunities and risks, prioritising transparency in AI development, and establishing frameworks for identifying and mitigating severe threats posed by advanced AI systems.</p>
-
-<p>The declaration's significance lies not merely in its risk-focused language but in securing participation from nations with divergent geopolitical interests, including the United States, China, and members of the European Union. By establishing AI safety as a legitimate domain for international diplomatic engagement, Bletchley set the precedent for subsequent summits to expand beyond narrow technical safety concerns toward broader questions of equity, sustainability and governance.</p>
-
 <div class="outcome-doc-card">
-  <div class="outcome-doc-header">📄 Chair's Statement</div>
+  <div class="outcome-doc-header">📄 The Bletchley Declaration</div>
   <div class="outcome-doc-meta">
     <strong>Signatories:</strong> 28 countries + European Union<br>
     <strong>Pages:</strong> 10 | <strong>Size:</strong> 198 KB
   </div>
   <div class="outcome-doc-links">
+    <a href="/events/files/2023-bletchley-declaration.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023" class="outcome-doc-link-alt">🔗 Official source</a>
+  </div>
+</div>
+
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 Chair's Summary</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> 28 countries + European Union<br>
+    <strong>Pages:</strong> 10 | <strong>Size:</strong> 221 KB
+  </div>
+  <div class="outcome-doc-links">
     <a href="/events/files/2023-bletchley-chair-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
     <a href="https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration" class="outcome-doc-link-alt">🔗 Official source</a>
-  </div>
-  <div class="outcome-doc-commitments">
-    <strong>Key commitments:</strong>
-    <ul>
-      <li>Recognition that frontier AI poses potentially catastrophic risks</li>
-      <li>Establishment of shared international understanding of AI opportunities and threats</li>
-      <li>Commitment to transparency in AI development and deployment</li>
-      <li>Agreement to develop frameworks for identifying and mitigating severe AI risks</li>
-    </ul>
   </div>
 </div>
 
@@ -284,35 +281,31 @@ Within this varied international landscape, India has sought to articulate an ap
   </div>
 </div>
 
-<h3>AI Action Summit (Paris, February 2025)</h3>
+<h3>AI Action Summit (Paris, 10–11 February 2025)</h3>
 
-<p>France hosted the AI Action Summit on 10–11 February 2025, marking a decisive shift from the risk-oriented discourse of Bletchley toward implementation, sustainability, and equitable access. Co-chaired by France and India, the Paris gathering explicitly centred the priorities of emerging and developing economies, reflecting frustration amongst Global South nations that earlier summits had focused disproportionately on risks posed by cutting-edge systems whilst neglecting questions of access, capacity-building, and the environmental costs of AI infrastructure.</p>
+<p>Co-chaired by France and India, Paris marked the first major AI summit explicitly prioritising Global South perspectives. Over 100 countries participated, shifting from Bletchley's safety focus to implementation, sustainability, and equitable access for developing nations.</p>
 
-<h4>Statement on Inclusive and Sustainable Artificial Intelligence for People and the Planet</h4>
-
-<p>The Paris Statement, signed by a broad coalition of countries, established concrete initiatives addressing digital divides, AI's environmental impact, and labour market transitions. Notably, the United States and United Kingdom abstained from signing, signalling divergence between nations prioritising open, publicly funded AI development and those emphasising private-sector-led innovation protected by intellectual property regimes.</p>
-
-<p>The statement committed signatories to launching a Public Interest AI Platform and Incubator, establishing an observatory on AI's energy consumption in partnership with the International Energy Agency, and creating a network of observatories monitoring AI's impact on labour markets. This represented the first multilateral commitment to governance mechanisms addressing AI's socio-economic and environmental externalities, not merely its technical safety.</p>
+<h4>Statement on Inclusive and Sustainable Artificial Intelligence</h4>
 
 <div class="outcome-doc-card">
-  <div class="outcome-doc-header">📄 Paris Statement on Inclusive and Sustainable AI</div>
+  <div class="outcome-doc-header">📄 Paris Statement on Inclusive & Sustainable AI</div>
   <div class="outcome-doc-meta">
-    <strong>Signatories:</strong> Broad international coalition (~58 countries). <em>Notably absent:</em> USA and UK<br>
-    <strong>Pages:</strong> 5 | <strong>Size:</strong> 210 KB
+    <strong>Signatories:</strong> 61 countries (France, India, China; excl. USA, UK)<br>
+    <strong>Pages:</strong> 5 | <strong>Size:</strong> 113 KB
   </div>
   <div class="outcome-doc-links">
     <a href="/events/files/2025-paris-inclusive-ai-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
     <a href="https://data.consilium.europa.eu/doc/document/ST-5812-2025-ADD-1-REV-1/en/pdf" class="outcome-doc-link-alt">🔗 Official source (EU)</a>
-    <a href="https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and" class="outcome-doc-link-alt">🔗 Élysée (France)</a>
+    <a href="https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet" class="outcome-doc-link-alt">🔗 Élysée (France)</a>
   </div>
   <div class="outcome-doc-commitments">
     <strong>Key commitments:</strong>
     <ul>
-      <li>Launch of Public Interest AI Platform and Incubator to address digital divides</li>
-      <li>Establishment of international observatory on AI's energy impact (with IEA)</li>
-      <li>Creation of network of observatories on AI's labour market impacts</li>
-      <li>Promotion of open, transparent and human-centric AI development</li>
-      <li>Focus on narrowing global digital divide and accelerating progress toward SDGs</li>
+      <li>Public Interest AI Platform & Incubator</li>
+      <li>AI energy observatory (IEA partnership)</li>
+      <li>Labour market impact observatories network</li>
+      <li>3 principles: Science, open AI Solutions, Policy standards</li>
+      <li>Accelerate progress toward all 17 UN SDGs</li>
     </ul>
   </div>
 </div>
