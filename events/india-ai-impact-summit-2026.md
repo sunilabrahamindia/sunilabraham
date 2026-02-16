@@ -177,7 +177,7 @@ Within this varied international landscape, India has sought to articulate an ap
   <div class="outcome-doc-header">📄 The Bletchley Declaration</div>
   <div class="outcome-doc-meta">
     <strong>Signatories:</strong> 28 countries + European Union<br>
-    <strong>Pages:</strong> 10 | <strong>Size:</strong> 198 KB
+    <strong>Pages:</strong> 6 | <strong>Size:</strong> 198 KB
   </div>
   <div class="outcome-doc-links">
     <a href="/events/files/2023-bletchley-declaration.pdf" class="outcome-doc-link">📥 Download PDF</a>
@@ -201,7 +201,7 @@ Within this varied international landscape, India has sought to articulate an ap
   <div class="outcome-doc-header">📄 Safety Testing Statement</div>
   <div class="outcome-doc-meta">
     <strong>Signatories:</strong> Governments and AI companies<br>
-    <strong>Pages:</strong> 4 | <strong>Size:</strong> 154 KB
+    <strong>Pages:</strong> 2 | <strong>Size:</strong> 154 KB
   </div>
   <div class="outcome-doc-links">
     <a href="/events/files/2023-bletchley-safety-testing-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
@@ -221,7 +221,7 @@ Within this varied international landscape, India has sought to articulate an ap
   <div class="outcome-doc-header">📄 Seoul Declaration</div>
   <div class="outcome-doc-meta">
     <strong>Signatories:</strong> Australia, Canada, EU, France, Germany, Italy, Japan, South Korea, Singapore, UK, USA<br>
-    <strong>Pages:</strong> 3 | <strong>Size:</strong> 153 KB
+    <strong>Pages:</strong> 5 | <strong>Size:</strong> 153 KB
   </div>
   <div class="outcome-doc-links">
     <a href="/events/files/2024-seoul-declaration.pdf" class="outcome-doc-link">📥 Download PDF</a>
@@ -246,7 +246,7 @@ Within this varied international landscape, India has sought to articulate an ap
   <div class="outcome-doc-header">📄 Statement of Intent on AI Safety Science</div>
   <div class="outcome-doc-meta">
     <strong>Signatories:</strong> Same 11 countries/entities as Seoul Declaration<br>
-    <strong>Pages:</strong> 2 | <strong>Size:</strong> 151 KB
+    <strong>Pages:</strong> 4 | <strong>Size:</strong> 151 KB
   </div>
   <div class="outcome-doc-links">
     <a href="/events/files/2024-seoul-safety-science-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
@@ -264,7 +264,7 @@ Within this varied international landscape, India has sought to articulate an ap
   <div class="outcome-doc-header">📄 Frontier AI Safety Commitments</div>
   <div class="outcome-doc-meta">
     <strong>Signatories:</strong> 20 AI companies (Amazon, Anthropic, Cohere, Google, G42, IBM, Inflection AI, Magic, Meta, Microsoft, Minimax, Mistral AI, Naver, NVIDIA, 01.ai, OpenAI, Samsung, Technology Innovation Institute, xAI, Zhipu.ai)<br>
-    <strong>Pages:</strong> 4 | <strong>Size:</strong> 169 KB
+    <strong>Pages:</strong> 6 | <strong>Size:</strong> 169 KB
   </div>
   <div class="outcome-doc-links">
     <a href="/events/files/2024-seoul-frontier-ai-commitments.pdf" class="outcome-doc-link">📥 Download PDF</a>
@@ -292,7 +292,7 @@ Within this varied international landscape, India has sought to articulate an ap
   <div class="outcome-doc-header">📄 Paris Statement on Inclusive & Sustainable AI</div>
   <div class="outcome-doc-meta">
     <strong>Signatories:</strong> 61 countries (France, India, China; excl. USA, UK)<br>
-    <strong>Pages:</strong> 5 | <strong>Size:</strong> 113 KB
+    <strong>Pages:</strong> 3 | <strong>Size:</strong> 113 KB
   </div>
   <div class="outcome-doc-links">
     <a href="/events/files/2025-paris-inclusive-ai-statement.pdf" class="outcome-doc-link">📥 Download PDF</a>
