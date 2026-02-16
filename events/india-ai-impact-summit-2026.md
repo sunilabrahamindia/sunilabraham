@@ -976,6 +976,7 @@ The summit organisers published a list of key attendees on the official website,
 
 ## External links
 - [Official website](https://impact.indiaai.gov.in/)
+- [IndiaAI](https://youtube.com/@indiaai) on YouTube (includes live video streaming)
 - [IndiaAI](https://www.facebook.com/INDIAai) on Facebook
 - [India AI](https://x.com/OfficialINDIAai) on 𝕏
 - [IndiaAI](https://www.instagram.com/officialindiaai/) on Instagram
