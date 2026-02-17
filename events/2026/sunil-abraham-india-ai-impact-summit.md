@@ -34,10 +34,19 @@ Abraham moderates this session on replicating India's digital infrastructure, en
 - Anne Robinson (IBM)  
 - Prof. M. P. Gupta (IIM Lucknow)  
 
-Knowledge partner: ASSOCHAM [web:1]
+Knowledge partner: ASSOCHAM
 
-<div class="session-video">
-  <strong>Watch live recording:</strong> <a href="https://www.youtube.com/live/CxYhXMnzzbA" target="_blank">Session B (17 Feb 2026)</a>
+<div class="indiaai-summit-video-2026">
+  <strong>Watch Session B:</strong>
+  <iframe 
+    class="indiaai-summit-video-iframe"
+    src="https://www.youtube.com/embed/CxYhXMnzzbA?autoplay=0&mute=0" 
+    title="Inclusion for Social Empowerment - India AI Impact Summit 2026" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
 </div>
 
 ## Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)
@@ -96,44 +105,46 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 .tsap-info-box a:hover {
   color: #0550ae;
 }
-  .session-video {
+  
+  .indiaai-summit-video-2026 {
   background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
   border-left: 4px solid #0969da;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 0 8px 8px 0;
   text-align: center;
+}
+
+.indiaai-summit-video-2026 strong {
+  color: #0969da;
+  display: block;
+  margin-bottom: 1rem;
   font-size: 1.05em;
 }
 
-.session-video strong {
-  color: #0969da;
+.indiaai-summit-video-iframe {
+  max-width: 100%;
+  width: 90vw;
+  height: 50vw;
+  max-height: 315px;
   display: block;
-  margin-bottom: 0.5rem;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(9, 105, 218, 0.2);
 }
 
-.session-video a {
-  color: #ffffff;
-  background: #0969da;
-  padding: 0.6rem 1.2rem;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
-  transition: all 0.2s ease;
-  display: inline-block;
-}
-
-.session-video a:hover {
-  background: #0550ae;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(9, 105, 218, 0.3);
-}
-
-/* Mobile fix */
-@media (max-width: 768px) {
-  .session-video {
-    margin: 1rem 0;
-    padding: 1rem;
+@media (min-width: 769px) {
+  .indiaai-summit-video-iframe {
+    width: 560px;
+    height: 315px;
   }
 }
+
+@media (max-width: 768px) {
+  .indiaai-summit-video-2026 {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+}
+
 </style>
