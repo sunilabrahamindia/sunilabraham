@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Infosys Investor AI Day 2026"
+title: "Infosys AI Day 2026"
 description: "Coverage of Infosys Investor AI Day 2026 held on 17 February 2026, featuring Nandan Nilekani's keynote on why AI transformation differs from previous technology transitions."
 categories: [Artificial Intelligence, India AI Impact Summit 2026]
 date: 2026-02-17
@@ -8,7 +8,7 @@ permalink: /events/2026/infosys-ai-day/
 created: 2026-02-17
 ---
 
-**Infosys Investor AI Day 2026** is an investor-focused event held on 17 February 2026. Infosys Board Chairman Nandan Nilekani delivers the keynote presentation "Tech Transitions: Why is the AI Transition Different?", examining how AI represents a fundamental shift requiring comprehensive organisational change across technology, business, talent, operating models and mental frameworks.
+**Infosys AI Day 2026** is an investor-focused event held on 17 February 2026. Infosys Board Chairman Nandan Nilekani delivers the keynote presentation "Tech Transitions: Why is the AI Transition Different?", examining how AI represents a fundamental shift requiring comprehensive organisational change across technology, business, talent, operating models and mental frameworks.
 
 ## Nandan Nilekani Keynote Themes
 
