@@ -952,6 +952,7 @@ The summit organisers published a list of key attendees on the official website,
 </table>
 
 ## See also
+- [Sunil Abraham at India AI Impact Summit 2026](/events/2026/sunil-abraham-india-ai-impact-summit/)
 - [Portal:Artificial Intelligence](/ai/), overview portal on artificial intelligence within the Sunil Abraham Project
 
 ## References
