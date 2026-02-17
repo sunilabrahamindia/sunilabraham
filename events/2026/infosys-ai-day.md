@@ -201,19 +201,6 @@ BNP Paribas noted Infosys's third-quarter results and raised guidance should str
 ## Event Video Coverage
 
 <div class="infosys-ai-video-container">
-  <strong>Official live webcast (full event):</strong>
-  <iframe 
-    class="infosys-ai-video-frame"
-    src="https://www.youtube.com/embed/4fOFFv4z3tM?autoplay=0&mute=0" 
-    title="Live webcast of Infosys Investors AI Day 2026" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-  </iframe>
-</div>
-
-<div class="infosys-ai-video-container">
   <strong>Watch Nandan Nilekani keynote:</strong>
   <iframe 
     class="infosys-ai-video-frame"
