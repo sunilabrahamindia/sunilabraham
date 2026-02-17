@@ -47,6 +47,8 @@ Anne Robinson (IBM) was listed in the pre-event programme but did not appear dur
 
 Knowledge partner: ASSOCHAM
 
+### Session B Summary
+
 <div class="indiaai-summit-video-2026">
   <strong>Watch session (Sunil Abraham segment starts at 55:10):</strong>
   <iframe 
@@ -59,8 +61,6 @@ Knowledge partner: ASSOCHAM
     allowfullscreen>
   </iframe>
 </div>
-
-### Session B Summary
 
 <div class="event-photo">
   <img 
@@ -174,8 +174,8 @@ The panel examined approaches to responsible AI deployment at scale, focusing on
 
 @media (min-width: 769px) {
   .indiaai-summit-video-iframe {
-    width: 560px;
-    height: 315px;
+    width: 600px;
+    height: 338px; /* 16:9 ratio */
   }
 }
 
