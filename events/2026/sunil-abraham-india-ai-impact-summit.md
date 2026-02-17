@@ -40,7 +40,7 @@ Knowledge partner: ASSOCHAM
   <strong>Watch session (4:30 PM IST, 17 Feb 2026):</strong>
   <iframe 
     class="indiaai-summit-video-iframe"
-    src="https://www.youtube.com/embed/CxYhXMnzzbA?autoplay=0&mute=0" 
+    src="https://www.youtube.com/embed/CxYhXMnzzbA?autoplay=0&mute=0&t=3310s" 
     title="Inclusion for Social Empowerment - India AI Impact Summit 2026" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
