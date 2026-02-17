@@ -37,7 +37,7 @@ Abraham moderates this session on replicating India's digital infrastructure, en
 Knowledge partner: ASSOCHAM
 
 <div class="indiaai-summit-video-2026">
-  <strong>Watch Session B:</strong>
+  <strong>Watch session (4:30 PM IST, 17 Feb 2026):</strong>
   <iframe 
     class="indiaai-summit-video-iframe"
     src="https://www.youtube.com/embed/CxYhXMnzzbA?autoplay=0&mute=0" 
