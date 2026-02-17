@@ -12,7 +12,7 @@ created: 2026-02-15
 
 ## ASSOCHAM Thematic Sessions (17 February 2026)
 
-ASSOCHAM (The Associated Chambers of Commerce and Industry of India) is conducting two thematic sessions on 17 February 2026 from 3:30 PM to 5:25 PM at Bharat Mandapam, Meeting Room 8. Abraham is participating as moderator in Session B.
+ASSOCHAM conducts two sessions on 17 February 2026 from 3:30 PM to 5:25 PM at Bharat Mandapam, Meeting Room 8. Sunil Abraham moderates **Session B**.
 
 <div class="event-poster">
   <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/events/images/sunil-abraham-india-ai-summit-assocham-session-2026.jpg?raw=true" alt="India's AI Leadership session poster featuring Sunil Abraham as moderator at India AI Impact Summit 2026">
@@ -20,13 +20,25 @@ ASSOCHAM (The Associated Chambers of Commerce and Industry of India) is conducti
 
 ### Session A: Democratising AI Resources
 
-The first session examines how business-driven AI, combined with India's digital public infrastructure, startup innovation and cloud-led enterprise transformation, can deliver inclusive and commercially viable social impact. The discussion highlights how scalable AI adoption across SMEs and startups can democratise AI resources, expand access to essential services and create equitable opportunities, whilst showcasing India's model of cross-border collaboration, inclusive AI use cases and knowledge sharing to drive regional empowerment and sustainable growth.
+Business-driven AI, India's digital public infrastructure, startup innovation and cloud transformation deliver inclusive social impact. Scalable AI helps SMEs and startups expand services and opportunities. India shares cross-border AI collaborations for regional growth.
 
 ### Session B: India's AI Leadership as a Catalyst for Regional Social Transformation
 
-Abraham will moderate the second session, which explores how India's AI leadership can deliver inclusive social-economic outcomes across South Asia by replicating India's digital public infrastructure, enterprise AI adoption and startup ecosystem through cross-border collaboration and knowledge sharing. The discussion positions AI for All as a scalable, impact-first, commercially viable business model for 1.4 billion people, driven by frugal AI solutions for basic smartphones, local languages and low-connectivity networks, catalysing financial inclusion, healthcare access, skills development, rural productivity and regional social empowerment.
+**Official title**: Inclusion for Social Empowerment (4:30–5:30 PM)
 
-The panel features Aditya Swamy (Managing Director, Play Partnerships, Google), Akhil Choudhary (CEO & Managing Partner, Highspring India), Anne Robinson (Sr Vice President & Chief Litigation Counsel, Dish Network Corporation) and Prof. M. P. Gupta (Director, IIM Lucknow).
+Abraham moderates this session on replicating India's digital infrastructure, enterprise AI and startups across South Asia. Frugal AI solutions work on basic phones, local languages and low networks. They drive financial inclusion, healthcare, skills, rural work and empowerment for 1.4 billion people.
+
+**Panel** (selected speakers):  
+- Aditya Swamy (Google)  
+- Akhil Choudhary (Highspring India)  
+- Anne Robinson (IBM)  
+- Prof. M. P. Gupta (IIM Lucknow)  
+
+Knowledge partner: ASSOCHAM [web:1]
+
+<div class="session-video">
+  <strong>Watch live recording:</strong> <a href="https://www.youtube.com/live/CxYhXMnzzbA" target="_blank">Session B (17 Feb 2026)</a>
+</div>
 
 ## Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)
 
@@ -84,6 +96,44 @@ The panel examines approaches to responsible AI deployment at scale, focusing on
 .tsap-info-box a:hover {
   color: #0550ae;
 }
+  .session-video {
+  background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+  border-left: 4px solid #0969da;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  text-align: center;
+  font-size: 1.05em;
+}
+
+.session-video strong {
+  color: #0969da;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.session-video a {
+  color: #ffffff;
+  background: #0969da;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.session-video a:hover {
+  background: #0550ae;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(9, 105, 218, 0.3);
+}
+
+/* Mobile fix */
+@media (max-width: 768px) {
+  .session-video {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+}
 </style>
-
-
