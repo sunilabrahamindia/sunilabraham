@@ -10,6 +10,47 @@ created: 2026-02-17
 
 **Infosys AI Day 2026** is an investor-focused event held on 17 February 2026. Infosys Board Chairman Nandan Nilekani delivers the keynote presentation "Tech Transitions: Why is the AI Transition Different?", examining how AI represents a fundamental shift requiring comprehensive organisational change across technology, business, talent, operating models and mental frameworks.
 
+The Investor AI Day is scheduled in the same week as the [India AI Impact Summit 2026](/events/india-ai-impact-summit-2026/), aligning with broader discussions on AI strategy in India; Infosys leadership including Nandan Nilekani and Salil Parekh are also listed as official speakers at the summit.
+
+## Contents
+
+1. [Nandan Nilekani Keynote Themes](#nandan-nilekani-keynote-themes)
+   - [Historical Context of Technology Transitions](#historical-context-of-technology-transitions)
+   - [Event Format and Live Coverage](#event-format-and-live-coverage)
+   - [AI Adoption Velocity](#ai-adoption-velocity)
+   - [Five Dimensions of AI Transformation](#five-dimensions-of-ai-transformation)
+   - [Legacy System Modernisation Urgency](#legacy-system-modernisation-urgency)
+   - [Build vs Buy Dynamics](#build-vs-buy-dynamics)
+   - [AI Innovation Acceleration](#ai-innovation-acceleration)
+   - [Deployment Gap](#deployment-gap)
+   - [Workforce Transformation](#workforce-transformation)
+   - [Greenfield vs Brownfield Productivity](#greenfield-vs-brownfield-productivity)
+   - [Implementation Risks](#implementation-risks)
+   - [Enduring Principles](#enduring-principles)
+2. [CEO Salil Parekh on AI Services Strategy](#ceo-salil-parekh-on-ai-services-strategy)
+   - [AI Revenue Disclosure](#ai-revenue-disclosure)
+   - [Six AI Service Value Pools](#six-ai-service-value-pools)
+   - [Talent Transformation](#talent-transformation)
+3. [Chief Delivery Officers on AI Implementation](#chief-delivery-officers-on-ai-implementation)
+   - [Multi-Layer Transformation Approach](#multi-layer-transformation-approach)
+   - [Data Challenges](#data-challenges)
+   - [Infosys Topaz Platform](#infosys-topaz-platform)
+   - [Physical AI Focus](#physical-ai-focus)
+   - [Case Study: Multinational Food Company](#case-study-multinational-food-company)
+4. [Sector-Specific AI Applications](#sector-specific-ai-applications)
+   - [Banking and Financial Services](#banking-and-financial-services)
+   - [Telecommunications](#telecommunications)
+   - [Energy and Utilities](#energy-and-utilities)
+   - [Retail and Consumer Goods](#retail-and-consumer-goods)
+   - [Microsoft Partnership](#microsoft-partnership)
+5. [Market Context and Analyst Response](#market-context-and-analyst-response)
+   - [Infosys-Anthropic Partnership](#infosys-anthropic-partnership)
+   - [Stock Market Reaction](#stock-market-reaction)
+   - [Industry Analyst Commentary](#industry-analyst-commentary)
+6. [Event Video Coverage](#event-video-coverage)
+7. [Presentation PDF](#presentation-pdf)
+8. [References](#references)
+
 ## Nandan Nilekani Keynote Themes
 
 ### Historical Context of Technology Transitions
