@@ -36,18 +36,15 @@ Abraham moderates this session on replicating India's digital infrastructure, en
 
 Knowledge partner: ASSOCHAM
 
-<div class="indiaai-summit-video-2026">
-  <strong>Watch session (4:30 PM IST, 17 Feb 2026):</strong>
-  <iframe 
-    class="indiaai-summit-video-iframe"
-    src="https://www.youtube.com/embed/CxYhXMnzzbA?autoplay=0&mute=0&t=3310s" 
-    title="Inclusion for Social Empowerment - India AI Impact Summit 2026" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-  </iframe>
-</div>
+<iframe 
+  class="indiaai-summit-video-iframe"
+  src="https://www.youtube.com/embed/CxYhXMnzzbA?start=3310&autoplay=0&mute=0" 
+  title="Inclusion for Social Empowerment - India AI Impact Summit 2026 (Sunil Abraham segment starts at 55:10)" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
 
 ## Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)
 
