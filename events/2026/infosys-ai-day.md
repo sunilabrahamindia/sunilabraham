@@ -2,7 +2,7 @@
 layout: default
 title: "Infosys AI Day 2026"
 description: "Coverage of Infosys Investor AI Day 2026 held on 17 February 2026, featuring Nandan Nilekani's keynote on why AI transformation differs from previous technology transitions."
-authors: [""Tito Dutta"]
+authors: ["Tito Dutta"]
 categories: [Artificial Intelligence, Events, India AI Impact Summit 2026]
 date: 2026-02-17
 permalink: /events/2026/infosys-ai-day/
