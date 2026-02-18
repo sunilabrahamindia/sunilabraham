@@ -8,7 +8,7 @@ permalink: /events/2026/sunil-abraham-india-ai-impact-summit/
 created: 2026-02-15
 ---
 
-**Sunil Abraham**, Public Policy Director at Meta, participated in multiple sessions during the [India AI Impact Summit 2026](/events/india-ai-impact-summit-2026/), held in New Delhi from 16–20 February 2026. His involvement focused on AI governance frameworks, democratising AI resources and responsible AI deployment at enterprise scale. This page documents his appearances and panel contributions.
+**Sunil Abraham**, Public Policy Director at Meta, is participating in multiple sessions during the [India AI Impact Summit 2026](/events/india-ai-impact-summit-2026/), which is taking place in New Delhi from 16–20 February 2026. His involvement focuses on AI governance frameworks, democratising AI resources and responsible AI deployment at enterprise scale. This page documents his appearances and panel contributions as the summit progresses.
 
 ## Contents
 
@@ -89,9 +89,9 @@ The session positioned India's AI leadership not solely in terms of technical so
 
 ## Responsible AI in Action: How Global Enterprises Are Building Trust at Scale (20 February 2026)
 
-Abraham spoke at a session titled "Responsible AI in Action: How Global Enterprises Are Building Trust at Scale" on 20 February 2026 from 10:30 AM to 11:30 AM at Bharat Mandapam, L1 Meeting Room No. 6.
+Sunil Abraham will speak at a session titled "Responsible AI in Action: How Global Enterprises Are Building Trust at Scale" on 20 February 2026 from 10:30 AM to 11:30 AM at Bharat Mandapam, L1 Meeting Room No. 6.
 
-The panel examined approaches to responsible AI deployment at scale, focusing on how enterprises embedded ethics, transparency and accountability into AI systems whilst balancing speed, compliance and innovation. Other speakers included Ankit Bose (Nasscom), Manish Gupta (Google DeepMind), Syed Ahmed (Infosys), and Geeta Gurnani (IBM). The session was organised with Infosys Limited as knowledge partner.
+The panel will examine approaches to responsible AI deployment at scale, focusing on how enterprises embed ethics, transparency and accountability into AI systems whilst balancing speed, compliance and innovation. Other scheduled speakers include Ankit Bose (Nasscom), Manish Gupta (Google DeepMind), Syed Ahmed (Infosys), and Geeta Gurnani (IBM). The session is being organised with Infosys Limited as knowledge partner.
 
 ## See also
 
