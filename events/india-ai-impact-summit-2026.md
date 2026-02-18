@@ -134,12 +134,12 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
 2. [Outcome Documents](#outcome-documents)
    - [AI Safety Summit (Bletchley Park, November 2023)](#ai-safety-summit-bletchley-park-november-2023)
    - [AI Seoul Summit (South Korea, May 2024)](#ai-seoul-summit-south-korea-may-2024)
-   - [AI Action Summit (Paris, February 2025)](#ai-action-summit-paris-february-2025)
+   - [AI Action Summit (Paris, 10–11 February 2025)](#ai-action-summit-paris-10–11-february-2025)
    - [India AI Impact Summit (February 2026)](#india-ai-impact-summit-february-2026)
    - [Working Group Outcome Documents](#working-group-outcome-documents)
 3. [Policy Evolution: From Bletchley to Delhi](#policy-evolution-from-bletchley-to-delhi)
 4. [Policy Evolution: Quantitative Analysis](#policy-evolution-quantitative-analysis)
-   - [From Safety to Openness](#from-safety-to-openness)
+   - [From Safety to Inclusive Governance](#from-safety-to-inclusive-governance)
    - [Policy Architecture Comparison](#policy-architecture-comparison)
    - [Regulatory Vision Shift](#regulatory-vision-shift)
    - [India 2026: Implications](#india-2026-implications)
@@ -635,7 +635,8 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
 </div>
 
 <div class="tsap-info-box">
-<strong>Search parameters & Methodology:</strong> Exact keyword matches across primary outcome documents. "Open*" includes occurrences of open, openness, open-source, open standards and open data. The Paris column reflects outcomes from the Paris Statement. <em>Counts derived using a programmatic, case-insensitive Python text extraction script across primary summit declarations. Variations may occur due to document formatting and embedded text layers.</em>
+<strong>Search parameters & Methodology:</strong> Exact keyword matches across all official summit outcome documents within each summit era.
+ "Open*" includes occurrences of open, openness, open-source, open standards and open data. The Paris column reflects outcomes from the Paris Statement. <em>Counts derived using a programmatic, case-insensitive Python text extraction script across primary summit declarations. Variations may occur due to document formatting and embedded text layers.</em>
 </div>
 
 This quantitative shift reflects changing diplomatic priorities. The Bletchley Declaration (November 2023) maintained an overwhelming focus on safety, risk, and frontier models. By contrast, subsequent summits began diversifying language. Paris fundamentally reversed the initial safety emphasis, with "sustainable" frameworks (9) and "inclusive" references (7) superseding strict risk mitigation (1) and effectively matching safety language (6) for the first time in AI summit history.
@@ -719,9 +720,9 @@ This quantitative shift reflects changing diplomatic priorities:
 
 **Bletchley Park (2023):** Frontier AI characterised as posing "potentially catastrophic" risks. Open-source development treated as a safety concern. International cooperation centred on risk mitigation and safety testing protocols.
 
-**Seoul (2024):** Maintained safety focus (42 safety references) whilst introducing "innovation" and "inclusion" as co-equal goals. However, openness rhetoric remained absent—only a single reference to "openness, transparency, and reciprocity" in scientific cooperation contexts.
+**Seoul (2024):** Maintained safety focus (**38** safety references) whilst introducing "innovation" and "inclusion" as co-equal goals. However, openness rhetoric remained scarce across core declarations, with a **5.43:1** safety-to-openness ratio.
 
-**Paris (2025):** First explicit embrace of "open AI models" language. Safety references dropped 88% from Seoul levels. The statement committed signatories to "focusing on open AI models" and launching a Public Interest AI Platform supporting "openness and transparency."
+**Paris (2025):** First explicit embrace of "open AI models" language. Safety references dropped 84.2% from Seoul levels. The statement committed signatories to "focusing on open AI models" and launching a Public Interest AI Platform supporting "openness and transparency."
 
 **India-France (2025):** Marked the clearest articulation of an openness agenda, advocating "development of free and open resources for all countries," "broad and open and freely reusable large language models," and explicit support for "open source tools." Notably, the United States and United Kingdom declined to sign the Paris Statement, signalling divergence between nations prioritising open, publicly funded AI development and those emphasising private-sector innovation protected by intellectual property regimes.
 
@@ -756,6 +757,17 @@ The summit organisers published a list of key attendees on the official website,
 <div class="attendee-search-wrapper">
   <input type="text" id="attendee-search" class="attendee-search-input" placeholder="🔍 Search attendees by name or organisation...">
 </div>
+
+<h3>Heads of State and Government (Across Summits)</h3>
+<p>Recognising the trajectory of AI governance from Bletchley Park to New Delhi, the following apex leaders have played pivotal roles as hosts, co-chairs, or key attendees:</p>
+<ul>
+  <li><strong>Narendra Modi</strong>, Prime Minister of India (Host, 2026; Co-Chair, 2025)</li>
+  <li><strong>Emmanuel Macron</strong>, President of France (Host, 2025; Key Attendee, 2026)</li>
+  <li><strong>Yoon Suk Yeol</strong>, President of South Korea (Host, 2024)</li>
+  <li><strong>Friedrich Merz</strong>, Chancellor of Germany (Key Attendee, 2026)</li>
+  <li><strong>Keir Starmer</strong>, Prime Minister of the United Kingdom (Key Attendee)</li>
+  <li><strong>Ursula von der Leyen</strong>, President of the European Commission (Key Attendee)</li>
+</ul>
 
 <table id="attendee-table" class="attendee-table">
 <thead>
@@ -2017,21 +2029,21 @@ function botAnswer(topic) {
       </div>
     `,
 
-    'analysis': `
-      <div class="bot-answer">
-        <strong>📊 Policy Evolution Analysis</strong>
-        Quantitative analysis shows a major shift in AI governance framing:
-        <br><br>
-        <strong>Bletchley (2023):</strong> 22:1 safety-to-openness ratio<br>
-        <strong>Seoul (2024):</strong> 42:1 ratio<br>
-        <strong>Paris (2025):</strong> 0.9:1 ratio
-        <br><br>
-        Safety language declined sharply while openness references increased for the first time in summit history.
-        <br><br>
-        <a href="#policy-evolution-quantitative-analysis">View detailed analysis ↓</a>
-      </div>
-    `,
-
+'analysis': `
+  <div class="bot-answer">
+    <strong>📊 Policy Evolution Analysis</strong>
+    Programmatic analysis of official declarations reveals a dramatic shift in global priorities:
+    <br><br>
+    <strong>Bletchley (2023):</strong> 10.25:1 safety-to-openness ratio (82 safe vs 8 open)<br>
+    <strong>Seoul (2024):</strong> 5.43:1 ratio (38 safe vs 7 open)<br>
+    <strong>Paris (2025):</strong> 1.5:1 ratio (6 safe vs 4 open)
+    <br><br>
+    Mentions of <strong>"Risk"</strong> collapsed from 57 in 2023 to just 1 in 2025, while <strong>"Sustainability"</strong> language grew from 5 to 9.
+    <br><br>
+    <a href="#policy-evolution-quantitative-analysis">View the full verified table ↓</a>
+  </div>
+`,
+    
     'sutras': `
       <div class="bot-answer">
         <strong>🔧 The Three Sutras</strong>
