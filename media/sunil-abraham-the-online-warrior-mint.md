@@ -10,7 +10,7 @@ permalink: /media/sunil-abraham-the-online-warrior-mint/
 created: 2026-02-18
 ---
 
-**Sunil Abraham | The Online Warrior** is a *Mint* profile written by Anirban Sen and published on 9 August 2014. The piece follows Abraham through his work at the Centre for Internet and Society (CIS), situating him within India's evolving debates on digital privacy, free speech, open-source software, and Internet governance.
+**Sunil Abraham \| The Online Warrior** is a *Mint* profile written by Anirban Sen and published on 9 August 2014. The piece follows Abraham through his work at the Centre for Internet and Society (CIS), situating him within India's evolving debates on digital privacy, free speech, open-source software, and Internet governance.
 
 ## Contents
 
