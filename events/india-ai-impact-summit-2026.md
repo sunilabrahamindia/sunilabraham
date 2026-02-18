@@ -119,7 +119,7 @@ hide_utilities: true
   </div>
 </div>
 
-The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) scheduled to take place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations.
+The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) taking place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations. 
 
 Organised under the IndiaAI Mission by the Ministry of Electronics and Information Technology (MeitY), Government of India, the summit aims to advance responsible, inclusive and human-centric AI development. The programme is expected to include plenary sessions, thematic panels, exhibitions and policy roundtables addressing AI safety, public digital infrastructure, innovation ecosystems, regulatory frameworks and international cooperation.
 
