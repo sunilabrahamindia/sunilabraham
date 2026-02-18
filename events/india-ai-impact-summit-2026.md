@@ -537,45 +537,97 @@ Within this varied international landscape, India has sought to articulate an ap
 
 A comparative analysis of outcome documents from the 2023–2025 AI summit sequence reveals a dramatic reorientation in international AI governance priorities.
 
-### From Safety to Openness
+<div class="tsap-info-box">
+<strong>Methodological note:</strong> While we will link to all textual outputs of the India Summit in the <a href="#outcome-documents">Outcome Documents</a> section, the numerical analysis for 2026 will be <strong>strictly reserved for the apex Leaders' Declaration</strong>. This ensures an accurate, apples-to-apples comparison with the primary outcome declarations of previous global summits. The table below will be updated with 2026 data once the declaration is formally released.
+</div>
 
-Keyword frequency analysis across seven major outcome documents demonstrates a fundamental policy shift:
+### From Safety to Inclusive Governance
+
+Keyword frequency analysis across major outcome documents demonstrates a fundamental policy shift, expanding well beyond a strict safety paradigm into broader socioeconomic domains:
 
 <div class="analysis-table-wrapper">
 
 <table id="policy-evolution-table" class="attendee-table">
 <thead>
 <tr>
-<th>Era</th>
-<th>Documents Analysed</th>
-<th>Safety + Safe</th>
-<th>Open*</th>
-<th>Ratio</th>
+<th>Focus Category</th>
+<th>Bletchley (2023)</th>
+<th>Seoul (2024)</th>
+<th>Paris (2025)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Bletchley (2023)</strong></td>
-<td>Chair’s Statement, Safety Testing</td>
-<td>44</td>
+<td><strong>Safety / Safe</strong></td>
+<td>82</td>
+<td>38</td>
+<td>6</td>
+</tr>
+<tr>
+<td><strong>Open*</strong></td>
+<td>8</td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr>
+<td><strong>Inclusion / Inclusive</strong></td>
+<td>14</td>
+<td>3</td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>Equity / Equitable</strong></td>
 <td>2</td>
-<td><strong>22:1</strong></td>
+<td>0</td>
+<td>0</td>
 </tr>
-
 <tr>
-<td><strong>Seoul (2024)</strong></td>
-<td>Declaration, Safety Science, Commitments</td>
-<td>42</td>
+<td><strong>Human Rights / Right(s)</strong></td>
+<td>6</td>
 <td>1</td>
-<td><strong>42:1</strong></td>
+<td>4</td>
 </tr>
-
 <tr>
-<td><strong>Paris/India (2025)</strong></td>
-<td>Paris Statement, India-France Declaration</td>
+<td><strong>Security / National Security</strong></td>
+<td>4</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Sustainable / Environment / Carbon</strong></td>
+<td>5</td>
+<td>3</td>
 <td>9</td>
-<td>10</td>
-<td><strong>0.9:1</strong></td>
+</tr>
+<tr>
+<td><strong>Risk / Risks</strong></td>
+<td>57</td>
+<td>26</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Harm / Harms</strong></td>
+<td>9</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Frontier Models</strong></td>
+<td>44</td>
+<td>15</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Extinction / X-risk / Catastrophic</strong></td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Sovereignty / National Sovereignty</strong></td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
 </tr>
 </tbody>
 </table>
@@ -583,13 +635,13 @@ Keyword frequency analysis across seven major outcome documents demonstrates a f
 </div>
 
 <div class="tsap-info-box">
-<strong>Methodological note:</strong> "Open*" includes occurrences of open, openness, open-source, open standards and open data across the analysed documents.
+<strong>Search parameters & Methodology:</strong> Exact keyword matches across primary outcome documents. "Open*" includes occurrences of open, openness, open-source, open standards and open data. The Paris column reflects outcomes from the Paris Statement. <em>Counts derived using a programmatic, case-insensitive Python text extraction script across primary summit declarations. Variations may occur due to document formatting and embedded text layers.</em>
 </div>
 
-The Bletchley Declaration (November 2023) mentioned "safety" or "safe" 44 times across its primary documents whilst referencing "open" concepts only twice—specifically framing open-source models as potential risks requiring additional safety measures. By contrast, the Paris Statement and India-France Declaration (February 2025) reversed this emphasis, with "open" references (10) exceeding safety language (9) for the first time in AI summit history.
-
-📊 [AI Policy Evolution Data (CSV)](/events/files/ai-summit-policy-evolution.csv)  
-📊 [G20 AI Compliance Data (CSV)](/events/files/g20-ai-compliance.csv)
+This quantitative shift reflects changing diplomatic priorities. The Bletchley Declaration (November 2023) maintained an overwhelming focus on safety, risk, and frontier models. By contrast, subsequent summits began diversifying language. Paris fundamentally reversed the initial safety emphasis, with "sustainable" frameworks (9) and "inclusive" references (7) superseding strict risk mitigation (1) and effectively matching safety language (6) for the first time in AI summit history.
+<!-- 
+📊 <a href="/events/files/ai-summit-policy-evolution.csv">AI Policy Evolution Data (CSV)</a><br>
+📊 <a href="/events/files/g20-ai-compliance.csv">G20 AI Compliance Data (CSV)</a> -->
 
 ## Policy Architecture Comparison
 
