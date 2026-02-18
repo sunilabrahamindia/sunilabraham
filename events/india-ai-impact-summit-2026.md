@@ -639,9 +639,8 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
 </div>
 
 This quantitative shift reflects changing diplomatic priorities. The Bletchley Declaration (November 2023) maintained an overwhelming focus on safety, risk, and frontier models. By contrast, subsequent summits began diversifying language. Paris fundamentally reversed the initial safety emphasis, with "sustainable" frameworks (9) and "inclusive" references (7) superseding strict risk mitigation (1) and effectively matching safety language (6) for the first time in AI summit history.
-<!-- 
-📊 <a href="/events/files/ai-summit-policy-evolution.csv">AI Policy Evolution Data (CSV)</a><br>
-📊 <a href="/events/files/g20-ai-compliance.csv">G20 AI Compliance Data (CSV)</a> -->
+
+📊 <a href="/events/files/ai-summit-policy-evolution-2023-2025.csv">Download the Full Policy Evolution Dataset (CSV)</a>
 
 ## Policy Architecture Comparison
 
