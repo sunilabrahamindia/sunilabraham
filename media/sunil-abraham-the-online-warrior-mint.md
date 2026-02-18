@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sunil Abraham | The Online Warrior"
-description: "A Mint profile by Anirban Sen on Sunil Abraham, tracing his work in Internet governance, digital privacy, free software advocacy, and policy research across India and abroad."
+description: "A Mint article by Anirban Sen on Sunil Abraham, tracing his work in Internet governance, digital privacy, free software advocacy, and policy research across India and abroad."
 categories: [Media mentions]
 date: 2014-08-09
 authors: ["Anirban Sen"]
@@ -10,7 +10,7 @@ permalink: /media/sunil-abraham-the-online-warrior-mint/
 created: 2026-02-18
 ---
 
-**Sunil Abraham \| The Online Warrior** is a *Mint* profile written by Anirban Sen and published on 9 August 2014. The piece follows Abraham through his work at the Centre for Internet and Society (CIS), situating him within India's evolving debates on digital privacy, free speech, open-source software, and Internet governance.
+**Sunil Abraham \| The Online Warrior** is a *Mint* article written by Anirban Sen and published on 9 August 2014. The piece follows Abraham through his work at the Centre for Internet and Society (CIS), situating him within India's evolving debates on digital privacy, free speech, open-source software, and Internet governance.
 
 ## Contents
 
@@ -32,7 +32,7 @@ created: 2026-02-18
   <dd>Anirban Sen</dd>
 
   <dt>📄 Type:</dt>
-  <dd>Profile</dd>
+  <dd>Article/Profile</dd>
 
   <dt>📰 Newspaper Link:</dt>
   <dd>
@@ -104,7 +104,7 @@ created: 2026-02-18
 
 ## Context and Background
 
-This profile appeared at a time when debates around digital privacy in India were gathering pace. The Justice A.P. Shah committee had submitted its privacy principles report in 2012, and Parliament was yet to pass a comprehensive data protection law — a gap that civil society organisations such as CIS were actively pressing to fill.
+This article appeared at a time when debates around digital privacy in India were gathering pace. The Justice A.P. Shah committee had submitted its privacy principles report in 2012, and Parliament was yet to pass a comprehensive data protection law — a gap that civil society organisations such as CIS were actively pressing to fill.
 
 CIS, which Abraham co-founded in 2008, worked across Internet governance, telecom regulation, and access to knowledge. Its positioning was, by design, at the intersection of law, technology, and policy — making it an unusual kind of institution in India at the time.
 
