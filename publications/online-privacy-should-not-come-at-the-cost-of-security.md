@@ -85,7 +85,7 @@ The conversation highlights three threads that would become central to India's d
 
 ## External Link
 
-- <a href="https://www.livemint.com/Industry/xcmVySyl90ivZknOK9YIBI/Online-privacy-should-not-come-at-the-cost-of-security-Suni.html">Online Privacy Should Not Come at the Cost of Security/a> (Mint)
+- <a href="https://www.livemint.com/Industry/xcmVySyl90ivZknOK9YIBI/Online-privacy-should-not-come-at-the-cost-of-security-Suni.html">Online Privacy Should Not Come at the Cost of Security</a> (Mint)
 
 <style>
 .media-details {
