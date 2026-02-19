@@ -2,7 +2,7 @@
 layout: default
 title: "Online Privacy Should Not Come at the Cost of Security"
 description: "A Mint interview with Sunil Abraham discussing privacy laws, the IT Act, surveillance, and the future of Internet governance in India."
-categories: [Media articles, Interviews, Publications]
+categories: [Interviews, Media mentions]
 date: 2013-05-19
 authors: ["Anirban Sen"]
 source: "Mint"
@@ -10,7 +10,7 @@ permalink: /publications/online-privacy-should-not-come-at-the-cost-of-security/
 created: 2025-11-27
 ---
 
-**Online Privacy Should Not Come at the Cost of Security** is a 2013 Mint interview in which Sunil Abraham, then Executive Director of the Centre for Internet and Society (CIS), discusses the complex relationship between privacy, security, and Internet governance in India. The conversation explores the shortcomings of the Information Technology Act, the need for a comprehensive privacy law, and the challenges of increasing Internet penetration in a rapidly digitising society.
+**Online Privacy Should Not Come at the Cost of Security** is a 2013 Mint interview in which [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society (CIS), discusses the complex relationship between privacy, security, and Internet governance in India. The conversation explores the shortcomings of the Information Technology Act, the need for a comprehensive privacy law, and the challenges of increasing Internet penetration in a rapidly digitising society.
 
 ## Contents
 
