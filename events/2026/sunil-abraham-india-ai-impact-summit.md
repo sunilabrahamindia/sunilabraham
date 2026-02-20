@@ -45,7 +45,7 @@ Sunil Abraham moderated this session on replicating India's digital infrastructu
 
 Anne Robinson (IBM) was listed in the pre-event programme but did not appear during the session.
 
-Knowledge partner: ASSOCHAM
+**Knowledge partner:** ASSOCHAM
 
 ### Session B Summary
 
@@ -93,6 +93,19 @@ Sunil Abraham will speak at a session titled "Responsible AI in Action: How Glob
 
 The panel will examine approaches to responsible AI deployment at scale, focusing on how enterprises embed ethics, transparency and accountability into AI systems whilst balancing speed, compliance and innovation. Other scheduled speakers include Ankit Bose (Nasscom), Manish Gupta (Google DeepMind), Syed Ahmed (Infosys), and Geeta Gurnani (IBM). The session is being organised with Infosys Limited as knowledge partner.
 
+<div class="indiaai-summit-video-2026">
+  <strong>Watch session:</strong>
+  <iframe 
+    class="indiaai-summit-video-iframe"
+    src="https://www.youtube.com/embed/y5viFnxcwLc?autoplay=0&mute=0" 
+    title="Responsible AI in Action: How Global Enterprises Are Building Trust at Scale - India AI Impact Summit 2026" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 ## See also
 
 - [India AI Impact Summit 2026](/events/india-ai-impact-summit-2026/)
@@ -101,7 +114,6 @@ The panel will examine approaches to responsible AI deployment at scale, focusin
 
 - [India AI Impact Summit Official Website](https://impact.indiaai.gov.in)
 - [Session Schedule](https://impact.indiaai.gov.in/sessions)
-
 
 <style>
 .event-poster {
