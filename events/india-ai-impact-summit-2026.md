@@ -571,6 +571,7 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
 <th>Bletchley (2023)</th>
 <th>Seoul (2024)</th>
 <th>Paris (2025)</th>
+<th>Delhi (2026)</th>
 </tr>
 </thead>
 <tbody>
@@ -579,22 +580,26 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
 <td>82</td>
 <td>38</td>
 <td>6</td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Open*</strong></td>
 <td>8</td>
 <td>7</td>
 <td>4</td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Inclusion / Inclusive</strong></td>
 <td>14</td>
 <td>3</td>
 <td>7</td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Equity / Equitable</strong></td>
 <td>2</td>
+<td>0</td>
 <td>0</td>
 <td>0</td>
 </tr>
@@ -603,29 +608,34 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
 <td>6</td>
 <td>1</td>
 <td>4</td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Security / National Security</strong></td>
 <td>4</td>
 <td>3</td>
 <td>0</td>
+<td>2</td>
 </tr>
 <tr>
 <td><strong>Sustainable / Environment / Carbon</strong></td>
 <td>5</td>
 <td>3</td>
 <td>9</td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Risk / Risks</strong></td>
 <td>57</td>
 <td>26</td>
 <td>1</td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Harm / Harms</strong></td>
 <td>9</td>
 <td>1</td>
+<td>0</td>
 <td>0</td>
 </tr>
 <tr>
@@ -633,10 +643,12 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
 <td>44</td>
 <td>15</td>
 <td>0</td>
+<td>0</td>
 </tr>
 <tr>
 <td><strong>Extinction / X-risk / Catastrophic</strong></td>
 <td>1</td>
+<td>0</td>
 <td>0</td>
 <td>0</td>
 </tr>
@@ -645,6 +657,7 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
 <td>0</td>
 <td>0</td>
 <td>0</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
