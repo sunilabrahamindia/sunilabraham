@@ -7,7 +7,7 @@ permalink: /sunil/repeat-after-me/
 created: 2026-02-21
 ---
 
-**"Repeat after me"** is a series of tweets posted on 24 February 2017 by [Sunil Abraham](/sunil) on X (then known as Twitter). The posts formed a short, thematically linked sequence criticising the design, security assumptions and surveillance implications of India's Aadhaar biometric identification system.
+**Repeat after me** is a series of tweets posted in 2017 by [Sunil Abraham](/sunil) on X (then known as Twitter). The posts formed a short, thematically linked sequence criticising the design, security assumptions and surveillance implications of India's Aadhaar biometric identification system.
 
 Each tweet began with the phrase "Repeat after me", followed by a concise statement addressing issues such as biometric authentication, centralised databases, cryptographic safeguards and the distinction between identification and authentication. The repetition functioned as a rhetorical device, framing the thread as both critique and instruction. A standalone reply extending the series was posted on 7 April 2017 in response to a broader conversation on the platform.
 
