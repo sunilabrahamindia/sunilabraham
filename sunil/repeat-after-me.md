@@ -2,7 +2,7 @@
 layout: default
 title: 'Repeat after me (Tweet Series)'
 description: "An overview of the 'Repeat after me' tweet series by Sunil Abraham critiquing Aadhaar and biometric identification systems."
-categories: [Sunil Abraham]
+categories: [Resources, Sunil Abraham, TSAP Originals]
 permalink: /sunil/repeat-after-me/
 created: 2026-02-21
 ---
@@ -204,9 +204,9 @@ The series was referenced in reporting on organised online pushback against Aadh
 
 The tweet series appeared at a critical point in India's Aadhaar debate. In August 2017, the Supreme Court unanimously recognised privacy as a fundamental right, and the subsequent 2018 Aadhaar judgment saw Justice D. Y. Chandrachud's dissent invoke language — "informational self-determination," "surveillance infrastructure" — that closely mirrored arguments Abraham had been making in technical terms since 2016.
 
-Within Abraham's own output, the series is notable for its compression. Where his essays reached specialist audiences, the tweet format carried the same conclusions to a broader readership. The lead statement became one of the more widely cited formulations associated with his commentary on Aadhaar, quoted by international publications including *Global Voices* across multiple reports in 2017.
+Within Sunil Abraham's own output, the series is notable for its compression. Where his essays reached specialist audiences, the tweet format carried the same conclusions to a broader readership. The lead statement became one of the more widely cited formulations associated with his commentary on Aadhaar, quoted by international publications including *Global Voices* across multiple reports in 2017.
 
-## See Also
+## See also
 - [Surveillance Is Like Salt in Cooking](/articles/surveillance-is-like-salt-in-cooking/) — Sunil Abraham's analogy arguing surveillance, like salt, is useful only in small quantities
 
 ## References  
