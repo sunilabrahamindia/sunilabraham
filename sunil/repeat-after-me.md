@@ -1,6 +1,6 @@
 ---
 layout: default
-title: '"Repeat after me" (Tweet Series)'
+title: 'Repeat after me (Tweet Series)'
 description: "An overview of the 'Repeat after me' tweet series by Sunil Abraham critiquing Aadhaar and biometric identification systems."
 categories: [Sunil Abraham]
 permalink: /sunil/repeat-after-me/
