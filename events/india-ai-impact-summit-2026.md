@@ -652,8 +652,11 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
 </div>
 
 <div class="tsap-info-box">
-<strong>Search parameters & Methodology:</strong> Exact keyword matches across all official summit outcome documents within each summit era.
- "Open*" includes occurrences of open, openness, open-source, open standards and open data. The Paris column reflects outcomes from the Paris Statement. <em>Counts derived using a programmatic, case-insensitive Python text extraction script across primary summit declarations. Variations may occur due to document formatting and embedded text layers.</em>
+<strong>Search parameters & Methodology:</strong> Keyword counts were generated using programmatic, case-insensitive text extraction across the primary Leaders' Declarations for each summit (Bletchley 2023, Seoul 2024, Paris 2025). Exact-match string searches were used. No semantic expansion, synonym clustering, stemming, or contextual interpretation was applied.
+
+"Open*" includes open, openness, open-source, open standards and open data. Counts reflect literal occurrences within the official declaration texts only.
+
+Source PDFs are linked above. The full CSV dataset is available for independent verification and replication.
 </div>
 
 This quantitative shift reflected changing diplomatic priorities. The Bletchley Declaration (November 2023) maintained an overwhelming focus on safety, risk, and frontier models. By contrast, subsequent summits began diversifying language. Paris fundamentally reversed the initial safety emphasis, with "sustainable" frameworks (9) and "inclusive" references (7) superseding strict risk mitigation (1) and effectively matching safety language (6) for the first time in AI summit history.
