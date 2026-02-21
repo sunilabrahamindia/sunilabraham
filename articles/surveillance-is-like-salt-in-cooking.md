@@ -28,6 +28,7 @@ The comparison challenges the binary framing of surveillance debates, where syst
    3. [Social Media Usage](#social-media-usage)
 4. [Internet Governance and Perspective](#internet-governance-perspective)
 5. [Regulatory Implications](#regulatory-implications)
+6. [See Also](#see-also)
 
 ## Conceptual Framework
 
@@ -291,6 +292,11 @@ The need for independent judicial oversight represents another regulatory dimens
 Sunil's framework also addresses the inverse surveillance problem, wherein surveillance disproportionately targets marginalised populations whilst failing to scrutinise powerful actors. As he argues in ["Surveillance Project"](/publications/surveillance-project/), effective accountability requires directing surveillance upward at centres of power rather than downward at vulnerable communities. Regulatory frameworks should therefore prioritise transparency requirements for government procurement, corporate lobbying, and political financing over intrusive monitoring of welfare recipients or internet users.
 
 The biometric irreversibility problem poses particular regulatory challenges within a surveillance-as-salt framework. Unlike passwords or PINs that can be changed if compromised, fingerprints and iris scans are permanent biological identifiers. Once biometric data is stolen or leaked, individuals face irreversible privacy violations. Sunil argues that this characteristic makes biometric databases categorically different from conventional identity systems, requiring either prohibition or extraordinarily stringent security and access controls that current regulatory frameworks do not provide.
+
+## See also
+
+- [Repeat after me (Tweet Series)](/sunil/repeat-after-me/) — Sunil Abraham's 2017 Twitter thread critiquing Aadhaar as surveillance technology
+
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
