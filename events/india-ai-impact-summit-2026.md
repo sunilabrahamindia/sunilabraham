@@ -23,9 +23,6 @@ hide_utilities: true
   </div>
 </div>
 
-<div class="current-event-notice">
-  <span class="notice-icon">📰</span> <strong>Current event:</strong> This article covers the <strong>India AI Impact Summit 2026</strong>, a current event. Information may be updated or changed rapidly as the event progresses.
-</div>
 
 <div class="tsap-info-box">
 📎 <strong>Quick links:</strong> <a href="https://sunilabraham.in/ais/">sunilabraham.in/ais</a> (this page) | <a href="https://sunilabraham.in/aisd/">sunilabraham.in/aisd</a> (outcome documents)
@@ -47,7 +44,7 @@ hide_utilities: true
     <div class="bot-section-title">📌 Most Asked Questions</div>
     
     <button onclick="botAnswer('when')" class="bot-quick-btn">
-      📅 When is the summit?
+      📅 When was the summit?
     </button>
     
     <button onclick="botAnswer('documents')" class="bot-quick-btn">
@@ -107,7 +104,7 @@ hide_utilities: true
     </button>
     
     <button onclick="botAnswer('leaders')" class="bot-quick-btn">
-      📜 When is Leaders' Declaration released?
+      📜 Leaders' Declaration — download
     </button>
     
     <button onclick="botAnswer('previous')" class="bot-quick-btn">
@@ -119,9 +116,9 @@ hide_utilities: true
   </div>
 </div>
 
-The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) taking place from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit is positioned as a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations. 
+The **India AI Impact Summit 2026** is an international conference on [artificial intelligence](/ai) held from Monday, 16 February to Friday, 20 February 2026 at Bharat Mandapam in New Delhi, India. The five-day summit was a major global forum on the societal, economic and governance implications of AI, bringing together policymakers, technology leaders, researchers, startups, civil society representatives and international organisations. 
 
-Organised under the IndiaAI Mission by the Ministry of Electronics and Information Technology (MeitY), Government of India, the summit aims to advance responsible, inclusive and human-centric AI development. The programme is expected to include plenary sessions, thematic panels, exhibitions and policy roundtables addressing AI safety, public digital infrastructure, innovation ecosystems, regulatory frameworks and international cooperation.
+Organised under the IndiaAI Mission by the Ministry of Electronics and Information Technology (MeitY), Government of India, the summit aimed to advance responsible, inclusive and human-centric AI development. The programme included plenary sessions, thematic panels, exhibitions and policy roundtables addressing AI safety, public digital infrastructure, innovation ecosystems, regulatory frameworks and international cooperation.
 
 ## Contents
 
@@ -151,7 +148,7 @@ Organised under the IndiaAI Mission by the Ministry of Electronics and Informati
 
 
 ## Background and Context
-The India AI Impact Summit emerges at a pivotal moment in global artificial intelligence governance, following a succession of high-profile international gatherings that have progressively shaped the discourse around artificial intelligence.
+The India AI Impact Summit emerged at a pivotal moment in global artificial intelligence governance, following a succession of high-profile international gatherings that have progressively shaped the discourse around artificial intelligence.
 
 <div class="summit-table-wrapper" markdown="1">
 
@@ -162,7 +159,7 @@ The India AI Impact Summit emerges at a pivotal moment in global artificial inte
 | AI Safety Summit | 1–2 Nov 2023 | 🇬🇧 United Kingdom | ~28 countries (plus EU) | Bletchley Declaration on AI risk management |
 | AI Seoul Summit | 21–22 May 2024 | 🇰🇷 South Korea | 27 countries | Seoul Declaration on safe, innovative & inclusive AI |
 | AI Action Summit | 10–11 Feb 2025 | 🇫🇷 France | 100+ countries; 1000+ participants | Joint declaration by 61 countries on inclusive AI |
-| India AI Impact Summit | 16–20 Feb 2026 | 🇮🇳 India | 100+ countries expected | Leaders' Declaration (forthcoming) |
+| India AI Impact Summit | 19–20 Feb 2026 | 🇮🇳 India | 88 countries + EU + IFAD | AI Impact Summit Declaration, New Delhi (21 February 2026) |
 
 </div>
 
@@ -176,19 +173,19 @@ The momentum shifted to South Korea six months later for the AI Seoul Summit, he
 France hosted the AI Action Summit on 10 – 11 February 2025. By that time, the global narrative had fundamentally matured. The conversation moved beyond the abstract, safety-first anxieties of earlier meetings toward a more pragmatic focus on "AI for Action"—emphasising tangible implementation, measurable socio-economic outcomes, and the scaling of technology for the public good.
 
 ### India's Hosting and Positioning (2026)
-India's decision to host the 2026 summit marks an effort to shape the direction of the ongoing international AI dialogue rather than merely extend it. Indian Prime Minister Narendra Modi announced the Delhi gathering during the Paris summit, explicitly framing it as an opportunity to centre the perspectives and priorities of emerging and developing economies in AI policy debates. This positioning reflects India's growing ambitions as both an AI developer and a voice for nations navigating the technology divide between well-resourced and resource-constrained countries. The summit title itself signals this broader intent: whilst earlier gatherings emphasised 'safety' or 'action', India's choice of 'impact' underscores a focus on tangible applications, equitable access and developmental outcomes.
+India's decision to host the 2026 summit marked an effort to shape the direction of the ongoing international AI dialogue rather than merely extend it. Indian Prime Minister Narendra Modi announced the Delhi gathering during the Paris summit, explicitly framing it as an opportunity to centre the perspectives and priorities of emerging and developing economies in AI policy debates. This positioning reflected India's growing ambitions as both an AI developer and a voice for nations navigating the technology divide between well-resourced and resource-constrained countries. The summit title itself signalled this broader intent: whilst earlier gatherings emphasised 'safety' or 'action', India's choice of 'impact' underscores a focus on tangible applications, equitable access and developmental outcomes.
 
 India's engagement with artificial intelligence has accelerated substantially in recent years through coordinated policy initiatives and institutional development. The IndiaAI Mission, launched as a comprehensive national programme, established the organisational infrastructure and strategic vision underlying the summit. This mission encompasses multiple pillars, including the development of sovereign computing capacity, creation of public AI datasets, support for innovation ecosystems and programmes to democratise AI access across Indian society. The government has simultaneously worked to position the country as a responsible AI innovator through frameworks balancing technological advancement with ethical guardrails and inclusive design principles.
 
 ### Global Regulatory Landscape
 
-The summit takes place amid divergent regulatory and governance approaches to artificial intelligence. The European Union has adopted a comprehensive, risk-based legislative framework through the EU AI Act. The United States has emphasised executive guidance, voluntary commitments and public-private collaboration. China has combined state-directed AI advancement with regulatory controls over algorithmic deployment and content governance.
+The summit took place amid divergent regulatory and governance approaches to artificial intelligence. The European Union has adopted a comprehensive, risk-based legislative framework through the EU AI Act. The United States has emphasised executive guidance, voluntary commitments and public-private collaboration. China has combined state-directed AI advancement with regulatory controls over algorithmic deployment and content governance.
 
 Within this varied international landscape, India has sought to articulate an approach that integrates innovation, developmental priorities and governance safeguards. The India summit reflects an effort to engage with existing global frameworks while also foregrounding the concerns of countries building digital infrastructure, expanding compute capacity and addressing labour-market transitions linked to automation. In this sense, the gathering forms part of a broader discussion about how global AI governance can incorporate perspectives from emerging economies alongside those of established industrial powers.
 
 ## Outcome Documents
 
-<p>The India AI Impact Summit represents the latest milestone in a rapidly evolving international dialogue on artificial intelligence governance. Understanding this summit's policy significance requires examining the declarations, statements and commitments that have emerged from preceding gatherings, as these texts collectively trace the development of global consensus—and divergence—on how AI should be governed, deployed and regulated.</p>
+<p>The India AI Impact Summit represented the latest milestone in a rapidly evolving international dialogue on artificial intelligence governance. Understanding this summit's policy significance requires examining the declarations, statements and commitments that have emerged from preceding gatherings, as these texts collectively trace the development of global consensus—and divergence—on how AI should be governed, deployed and regulated.</p>
 
 <div class="documents-grid">
 
@@ -336,22 +333,42 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <h3>India AI Impact Summit (February 2026)</h3>
 
-<p>The India AI Impact Summit, scheduled for 16–20 February 2026 in New Delhi, positions itself as the next phase in this diplomatic progression. Organised under India's IndiaAI Mission, the summit aims to translate the aspirational commitments of previous declarations into concrete policy frameworks and implementation strategies.</p>
+<p>The India AI Impact Summit, held on 16–20 February 2026 in New Delhi, positioned itself as the next phase in this diplomatic progression. Organised under India's IndiaAI Mission, the summit aimed to translate the aspirational commitments of previous declarations into concrete policy frameworks and implementation strategies.</p>
 
-<h4>Leaders' Declaration (Forthcoming)</h4>
+<h4>AI Impact Summit Declaration, New Delhi</h4>
 
-<p>The summit's primary outcome document, the Leaders' Declaration, will be formally adopted on 20 February 2026. Based on pre-summit consultations and the framework of the Three Sutras (People, Planet, Progress) and Seven Chakras (thematic working groups), the declaration is expected to address mechanisms for democratising access to AI compute, datasets, and foundational models; frameworks for AI deployment in healthcare, agriculture, and education tailored to developing-country contexts; standards for human capital development and workforce reskilling in AI-integrated economies; and governance structures ensuring AI systems respect linguistic diversity, gender equity, and accessibility.</p>
+<p>The declaration was adopted on 19 February 2026 and released by the Ministry of External Affairs on 21 February 2026. Endorsed by 88 countries and international organisations — including USA, UK, China, Russia and the EU — it operationalises the Seven Chakras through seven named voluntary initiatives.</p>
 
-<div class="tsap-info-box">
-<strong>Status:</strong> Leaders' Declaration to be released 20 February 2026
+<div class="outcome-doc-card">
+  <div class="outcome-doc-header">📄 AI Impact Summit Declaration, New Delhi</div>
+  <div class="outcome-doc-meta">
+    <strong>Signatories:</strong> 88 countries and international organisations<br>
+    <strong>Pages:</strong> 4 | <strong>Size:</strong> 182 KB
+  </div>
+  <div class="outcome-doc-links">
+    <a href="/events/files/2026-delhi-declaration.pdf" class="outcome-doc-link">📥 Download PDF</a>
+    <a href="https://www.mea.gov.in/bilateral-documents.htm?dtl/40809" class="outcome-doc-link-alt">🔗 Official source (MEA)</a>
+  </div>
+  <div class="outcome-doc-commitments">
+    <strong>Key commitments (one per Chakra):</strong>
+    <ul>
+      <li>Charter for the Democratic Diffusion of AI</li>
+      <li>Global AI Impact Commons</li>
+      <li>Trusted AI Commons</li>
+      <li>International Network of AI for Science Institutions</li>
+      <li>Voluntary platform for AI adoption for social empowerment</li>
+      <li>Guiding principles + playbook on AI workforce development</li>
+      <li>Guiding Principles on Resilient, Innovative and Efficient AI + Infrastructure Playbook</li>
+    </ul>
+  </div>
 </div>
 
 <h4>Working Group and Expert Engagement Group Reports</h4>
 
-<p>The summit's Seven Chakras—thematic working groups addressing Human Capital, Inclusion for Social Empowerment, Safe and Trusted AI, Science, Resilience and Innovation, Democratising AI Resources, and AI for Economic Development—are expected to produce outcome documents detailing policy recommendations, implementation roadmaps, and commitments from participating governments and organisations.</p>
+<p>The summit's Seven Chakras—thematic working groups addressing Human Capital, Inclusion for Social Empowerment, Safe and Trusted AI, Science, Resilience and Innovation, Democratising AI Resources, and AI for Economic Development—produced outcome documents detailing policy recommendations, implementation roadmaps, and commitments from participating governments and organisations.</p>
 
 <div class="tsap-info-box">
-<strong>Status:</strong> Reports forthcoming during and immediately following the summit (16–20 February 2026)
+<strong>Status:</strong> Released as part of the <a href="/events/files/2026-delhi-declaration.pdf">AI Impact Summit Declaration, New Delhi (21 February 2026)</a>
 </div>
 
 </div>
@@ -381,7 +398,7 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <div class="tsap-info-box">
 <strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/human-capital">Human Capital Working Group</a><br>
-<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+<strong>Status:</strong> Released as part of the <a href="/events/files/2026-delhi-declaration.pdf">AI Impact Summit Declaration, New Delhi (21 February 2026)</a>
 </div>
 
 <h5>Inclusion for Social Empowerment Working Group</h5>
@@ -405,7 +422,7 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <div class="tsap-info-box">
 <strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/inclusion-social-empowerment">Inclusion for Social Empowerment Working Group</a><br>
-<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+<strong>Status:</strong> Released as part of the <a href="/events/files/2026-delhi-declaration.pdf">AI Impact Summit Declaration, New Delhi (21 February 2026)</a>
 </div>
 
 <h5>Safe and Trusted AI Working Group</h5>
@@ -431,7 +448,7 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <div class="tsap-info-box">
 <strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/safe-trusted-ai">Safe and Trusted AI Working Group</a><br>
-<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+<strong>Status:</strong> Released as part of the <a href="/events/files/2026-delhi-declaration.pdf">AI Impact Summit Declaration, New Delhi (21 February 2026)</a>
 </div>
 
 <h5>Science Working Group</h5>
@@ -454,7 +471,7 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <div class="tsap-info-box">
 <strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/science">Science Working Group</a><br>
-<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+<strong>Status:</strong> Released as part of the <a href="/events/files/2026-delhi-declaration.pdf">AI Impact Summit Declaration, New Delhi (21 February 2026)</a>
 </div>
 
 <h5>Resilience, Innovation and Efficiency Working Group</h5>
@@ -476,7 +493,7 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <div class="tsap-info-box">
 <strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/resilience-innovation-efficiency">Resilience, Innovation and Efficiency Working Group</a><br>
-<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+<strong>Status:</strong> Released as part of the <a href="/events/files/2026-delhi-declaration.pdf">AI Impact Summit Declaration, New Delhi (21 February 2026)</a>
 </div>
 
 <h5>Democratising AI Resources Working Group</h5>
@@ -499,7 +516,7 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <div class="tsap-info-box">
 <strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/democratizing-ai-resources">Democratising AI Resources Working Group</a><br>
-<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+<strong>Status:</strong> Released as part of the <a href="/events/files/2026-delhi-declaration.pdf">AI Impact Summit Declaration, New Delhi (21 February 2026)</a>
 </div>
 
 <h5>AI for Economic Development and Social Good Working Group</h5>
@@ -522,23 +539,23 @@ Within this varied international landscape, India has sought to articulate an ap
 
 <div class="tsap-info-box">
 <strong>Official page:</strong> <a href="https://impact.indiaai.gov.in/working-groups/ai-for-economic-growth">AI for Economic Development and Social Good Working Group</a><br>
-<strong>Status:</strong> Outcome document forthcoming (16–20 February 2026)
+<strong>Status:</strong> Released as part of the <a href="/events/files/2026-delhi-declaration.pdf">AI Impact Summit Declaration, New Delhi (21 February 2026)</a>
 </div>
 
 <h3>Policy Evolution: From Bletchley to Delhi</h3>
 
-<p>Examining these outcome documents collectively reveals a clear trajectory in international AI governance discourse. Bletchley established safety as a legitimate international concern. Seoul expanded the agenda to encompass innovation and inclusion, recognising that safety-first approaches risk entrenching existing power asymmetries. Paris pivoted decisively toward implementation, sustainability, and equity, with the notable absence of the US and UK signalling fractures in the consensus forged at Bletchley.</p>
+<p>Examining these outcome documents collectively revealed a clear trajectory in international AI governance discourse. Bletchley established safety as a legitimate international concern. Seoul expanded the agenda to encompass innovation and inclusion, recognising that safety-first approaches risk entrenching existing power asymmetries. Paris pivoted decisively toward implementation, sustainability, and equity, with the notable absence of the US and UK signalling fractures in the consensus forged at Bletchley.</p>
 
-<p>India's summit seeks to consolidate these themes whilst centring the perspectives and priorities of emerging economies. The shift from abstract commitments to concrete mechanisms—observatories, platforms, capacity-building initiatives—reflects maturation in the governance conversation. Yet the voluntary, non-binding nature of these declarations, combined with divergent national interests and regulatory approaches, leaves open the question of whether this diplomatic process can produce enforceable norms capable of shaping how AI is actually developed and deployed.</p>
+<p>India's summit sought to consolidate these themes whilst centring the perspectives and priorities of emerging economies. The shift from abstract commitments to concrete mechanisms—observatories, platforms, capacity-building initiatives—reflected maturation in the governance conversation. Yet the voluntary, non-binding nature of these declarations, combined with divergent national interests and regulatory approaches, leaves open the question of whether this diplomatic process can produce enforceable norms capable of shaping how AI is actually developed and deployed.</p>
 
-<p>The outcome documents from Delhi will provide the clearest indication yet of whether international AI governance can move beyond declarations toward coordinated action.</p>
+<p>The outcome documents from Delhi provided the clearest indication yet of whether international AI governance can move beyond declarations toward coordinated action.</p>
 
 ## Policy Evolution: Quantitative Analysis
 
-A comparative analysis of outcome documents from the 2023–2025 AI summit sequence reveals a dramatic reorientation in international AI governance priorities.
+A comparative analysis of outcome documents from the 2023–2025 AI summit sequence revealed a dramatic reorientation in international AI governance priorities.
 
 <div class="tsap-info-box">
-<strong>Methodological note:</strong> While we will link to all textual outputs of the India Summit in the <a href="#outcome-documents">Outcome Documents</a> section, the numerical analysis for 2026 will be <strong>strictly reserved for the apex Leaders' Declaration</strong>. This ensures an accurate, apples-to-apples comparison with the primary outcome declarations of previous global summits. The table below will be updated with 2026 data once the declaration is formally released.
+<strong>Methodological note:</strong> While we link to all textual outputs of the India Summit in the <a href="#outcome-documents">Outcome Documents</a> section, the numerical analysis for 2026 is strictly reserved for the apex Leaders' Declaration. This ensures an accurate, apples-to-apples comparison with the primary outcome declarations of previous global summits.
 </div>
 
 ### From Safety to Inclusive Governance
@@ -639,7 +656,7 @@ Keyword frequency analysis across major outcome documents demonstrates a fundame
  "Open*" includes occurrences of open, openness, open-source, open standards and open data. The Paris column reflects outcomes from the Paris Statement. <em>Counts derived using a programmatic, case-insensitive Python text extraction script across primary summit declarations. Variations may occur due to document formatting and embedded text layers.</em>
 </div>
 
-This quantitative shift reflects changing diplomatic priorities. The Bletchley Declaration (November 2023) maintained an overwhelming focus on safety, risk, and frontier models. By contrast, subsequent summits began diversifying language. Paris fundamentally reversed the initial safety emphasis, with "sustainable" frameworks (9) and "inclusive" references (7) superseding strict risk mitigation (1) and effectively matching safety language (6) for the first time in AI summit history.
+This quantitative shift reflected changing diplomatic priorities. The Bletchley Declaration (November 2023) maintained an overwhelming focus on safety, risk, and frontier models. By contrast, subsequent summits began diversifying language. Paris fundamentally reversed the initial safety emphasis, with "sustainable" frameworks (9) and "inclusive" references (7) superseding strict risk mitigation (1) and effectively matching safety language (6) for the first time in AI summit history.
 
 📊 <a href="/events/files/ai-summit-policy-evolution-2023-2025.csv">Download the Full Policy Evolution Dataset (CSV)</a>
 
@@ -716,7 +733,7 @@ Beyond keyword frequency, the evolution of global AI summits can be examined thr
 
 ### Regulatory Vision Shift
 
-This quantitative shift reflects changing diplomatic priorities:
+This quantitative shift reflected changing diplomatic priorities:
 
 **Bletchley Park (2023):** Frontier AI characterised as posing "potentially catastrophic" risks. Open-source development treated as a safety concern. International cooperation centred on risk mitigation and safety testing protocols.
 
@@ -728,7 +745,7 @@ This quantitative shift reflects changing diplomatic priorities:
 
 ### India 2026: Implications
 
-India's positioning as co-chair of the Paris Summit and signatory to the openness-centred India-France Declaration suggests the Delhi gathering may continue this trajectory. The summit's "Democratising AI Resources" working group—one of its Seven Chakras—potentially operationalises openness as a counterweight to concentrated AI capabilities amongst Western firms. Whether India's 2026 outcome documents sustain, moderate, or reverse the 2025 pivot toward openness will clarify whether this shift represents a durable realignment or a transient diplomatic moment.
+India's positioning as co-chair of the Paris Summit and signatory to the openness-centred India-France Declaration carried this trajectory into Delhi. The summit's "Democratising AI Resources" working group—one of its Seven Chakras — operationalises openness as a counterweight to concentrated AI capabilities amongst Western firms. The Delhi Declaration's explicit embrace of open AI resources and democratic diffusion suggested this shift represents a durable realignment rather than a transient diplomatic moment.
 
 ## Normative Shift in Global AI Governance
 
@@ -742,7 +759,7 @@ Paris in 2025 represented a further evolution. The framing pivoted toward implem
 
 The India–France articulation sharpened this trajectory by explicitly advocating resource democratisation, open and reusable models, and development-oriented AI cooperation. The centre of gravity moved from catastrophic frontier risk to distributive access and economic enablement.
 
-This progression suggests that international AI governance is transitioning from a security-dominated paradigm toward a development-oriented governance model—one that prioritises access, infrastructure and capacity-building alongside safety considerations.
+This progression suggested that international AI governance is transitioning from a security-dominated paradigm toward a development-oriented governance model—one that prioritises access, infrastructure and capacity-building alongside safety considerations.
 
 ## Key Attendees
 
@@ -751,7 +768,7 @@ The India AI Impact Summit attracted participation from over 100 countries, with
 The summit organisers published a list of key attendees on the official website, focusing primarily on chief executives, senior leadership and prominent global figures. This curated selection highlights individuals holding executive positions or recognised leadership roles within their respective organisations and sectors.
 
 <div class="tsap-info-box">
-  ℹ️ <strong>Note:</strong> The list below is reproduced from the <a href="https://impact.indiaai.gov.in/key-attendees">official India AI Impact Summit website</a> as of 17 February 2026. This represents a curated selection of high-level attendees published by the organisers and does not constitute a comprehensive list of all participants. Many speakers, panellists, session moderators and other contributors are not included in this official listing. The official list may be updated as the summit progresses.
+  ℹ️ <strong>Note:</strong> The list below is reproduced from the <a href="https://impact.indiaai.gov.in/key-attendees">official India AI Impact Summit website</a>. This represents a curated selection of high-level attendees published by the organisers and does not constitute a comprehensive list of all participants. Many speakers, panellists, session moderators and other contributors are not included in this official listing.
 </div>
 
 <div class="attendee-search-wrapper">
@@ -937,8 +954,7 @@ The summit organisers published a list of key attendees on the official website,
 13. [Key Attendees - India AI Impact Summit 2026](https://impact.indiaai.gov.in/key-attendees), IndiaAI Mission, Government of India, accessed 14 February 2026
 14. [Logo and Key Flagship Initiatives for the India-AI Impact Summit 2026 Unveiled](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2175954), Press Information Bureau, Government of India, accessed 14 February 2026
 15. [About India AI Impact Expo 2026](https://www.impactexpo.indiaai.gov.in/about-ai-expo), IndiaAI Mission, Government of India, accessed 14 February 2026
-16. [Seven Chakras of the India–AI Impact Summit 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225069), Press Information Bureau, Government of India, accessed 15 February 2026
-17. [Working Groups Overview](https://impact.indiaai.gov.in/working-groups), India AI Impact Summit 2026, accessed 15 February 2026
+16. [Working Groups Overview](https://impact.indiaai.gov.in/working-groups), India AI Impact Summit 2026, accessed 15 February 2026
 
 ## External links
 - [Official website](https://impact.indiaai.gov.in/)
@@ -2010,7 +2026,7 @@ function botAnswer(topic) {
     'when': `
       <div class="bot-answer">
         <strong>📅 Summit Dates</strong>
-        The India AI Impact Summit runs from <strong>16–20 February 2026</strong> at Bharat Mandapam, New Delhi, India.
+        The India AI Impact Summit ran from <strong>16–20 February 2026</strong> at Bharat Mandapam, New Delhi, India.
         <br><br>
         <strong>Structure:</strong>
         <ul>
@@ -2088,9 +2104,7 @@ function botAnswer(topic) {
     'leaders': `
       <div class="bot-answer">
         <strong>📜 Leaders' Declaration</strong>
-        Scheduled for formal adoption on <strong>20 February 2026</strong>.
-        <br><br>
-        Expected themes include compute access, reskilling, governance safeguards and development-focused deployment.
+Adopted on <strong>19 February 2026</strong> and released on <strong>21 February 2026</strong>.<br><br><a href="/events/files/2026-delhi-declaration.pdf">Download the Declaration ↓</a>
       </div>
     `,
 
