@@ -27,7 +27,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 16. [Version 1.2](#version-12)
 17. [Version 1.2.1](#version-121)
 18. [Version 1.2.2](#version-122)
-19. [Version 1.2.2](#version-123)
+19. [Version 1.2.3](#version-123)
 
 
 <div align="center" style="width:75%; margin:auto;">
