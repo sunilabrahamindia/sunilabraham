@@ -9,7 +9,7 @@ created: 2025-10-21
 
 The **Versions** page documents the release history of the Sunil Abraham Project website. Each entry records structural updates, content milestones, and technical improvements across successive releases, providing a chronological record of the project's evolution.
 
-> 📚 Older versions are available in the [Versions Archive 1](/versions/1/).
+📚 Older versions are available in the [Versions Archive 1](/versions/1/).
 
 ## Contents
 1. [Version 1.1](#version-11)
