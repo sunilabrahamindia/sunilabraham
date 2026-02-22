@@ -27,6 +27,7 @@ This page serves as a version log for the **Sunil Abraham Project** website. Eac
 16. [Version 1.2](#version-12)
 17. [Version 1.2.1](#version-121)
 18. [Version 1.2.2](#version-122)
+19. [Version 1.2.2](#version-123)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -573,3 +574,26 @@ Version 1.2 focuses on strengthening media coverage clusters, improving chronolo
 
 **Status** Completion date 15 February 2026
 
+## Version 1.2.3
+
+- 15 new pages have been published this week.
+
+**Events and Summit Coverage**
+- Continued work on the India AI Impact Summit documentation:
+  - Expanded the 2026 event page at [/events/2026/sunil-abraham-india-ai-impact-summit/](/events/2026/sunil-abraham-india-ai-impact-summit/).
+  - Further developed the primary summit article at [/events/india-ai-impact-summit-2026/](/events/india-ai-impact-summit-2026/), consolidating references and structure.
+- Created a new event article: [/events/2026/infosys-ai-day/](/events/2026/infosys-ai-day/), documenting participation and contextual references.
+
+**Clusters**
+- Work commenced on the [*Mint*](/clusters/sunil-abraham-mint/) cluster, aggregating coverage, citations, and related references from Mint newspaper articles mentioning Sunil Abraham.
+
+**Shortcuts and URL Infrastructure**
+- Expanded the shortcuts directory at [/shortcuts/](/shortcuts/).
+- Created a new Extended URL Shortcut section to support multi-letter shortcut paths, improving navigational flexibility and future-proofing short URL design.
+
+**Milestones**
+- Created [Repeat after me (Tweet Series)](/sunil/repeat-after-me/) — an article documenting Sunil Abraham’s February 2017 Aadhaar tweet thread.
+  - Marked as the 600th article published on TSAP.
+
+**Status** ✅ Done  
+Completion date: 22 February 2026  
