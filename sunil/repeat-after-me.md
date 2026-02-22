@@ -30,12 +30,8 @@ The phrase has since been associated with Sunil Abraham's public communication o
    2. [Centralised databases and security risk](#centralised-databases-and-security-risk)
    3. [Biometrics and authentication](#biometrics-and-authentication)
    4. [Rhetorical structure](#rhetorical-structure)
-4. [Reception](#reception)
-   1. [Media coverage](#media-coverage)
-   2. [Social media circulation](#social-media-circulation)
-5. [Significance](#significance)
-6. [See Also](#see-also)
-7. [References](#references)
+4. [See Also](#see-also)
+5. [References](#references)
 
 ## Background
 <div class="repeat-hero-image">
@@ -61,8 +57,6 @@ The period from 2016 to 2017 also saw expanding mandatory linkage requirements �
 ### Sunil Abraham's prior commentary on Aadhaar
 
 Sunil Abraham, co-founder and then Executive Director of the Centre for Internet and Society (CIS), had been a leading voice in debates over Aadhaar well before the February 2017 tweets. In a March 2016 interview with *Business Standard*, he described Aadhaar as "surveillance technology disguised as developmental intervention" and argued that biometrics used for identification constituted covert surveillance, citing the ease with which iris data could be captured remotely without consent. He also warned that maintaining a central biometric repository created an irreversible security risk — a "honey pot" that would inevitably attract attack.
-
-Abraham had served as a member of the Justice A. P. Shah Committee on privacy, which produced India's first comprehensive privacy framework recommendations. His commentary on Aadhaar drew on this background in data protection policy, combining technical critique with an institutional understanding of how legal frameworks fail to protect citizens when the government itself holds their data.
 
 ## Tweet Series
 
@@ -185,26 +179,6 @@ The sixth tweet sharpened the contradiction further: "If biometrics is so safe w
 The phrase "Repeat after me" speaks directly to the reader, framing each statement not as an argument to be weighed but as a conclusion already established, requiring only repetition. The structure presented each statement as a settled conclusion rather than a detailed argument requiring elaboration within the tweet itself.
 
 Each tweet was designed to stand alone as a shareable unit whilst contributing to a cumulative argument when read in sequence. This format suited the platform's architecture: individual tweets could be shared by users who found a single point compelling, without requiring engagement with the full thread. Global Voices noted the lead tweet specifically when covering the broader campaign of online trolling directed at Aadhaar critics in mid-2017. The series thus functioned simultaneously as public education, political communication, and a template for others to repeat and amplify.
-
-## Reception
-
-### Media coverage
-
-The lead tweet from the series — "Repeat after me: Aadhaar is surveillance technology masquerading as secure authentication technology" — was quoted directly by *Global Voices Advox* in two reports published in May 2017. In a 4 May 2017 report titled ["Is India's Aadhaar System an Instrument For Surveillance?"](https://advox.globalvoices.org/2017/05/05/is-indias-aadhaar-system-an-instrument-for-surveillance/), the publication cited the tweet as part of its examination of expert opinion on Aadhaar's surveillance architecture, placing Abraham's statement alongside commentary from lawyers, technologists, and parliamentarians. The piece noted that Abraham, as Executive Director of CIS, had "openly described Aadhaar as a surveillance tool."
-
-A second *Global Voices Advox* report, published on 31 May 2017 and titled ["Online Trolls Attack Critics of India's Aadhaar State ID System"](https://advox.globalvoices.org/2017/05/31/online-trolls-attack-critics-of-indias-aadhaar-state-id-system/), again quoted the tweet at the top of its report. The article documented a coordinated campaign of anonymous trolling directed at Aadhaar critics in the weeks following the CIS data leak revelations of May 2017. The report noted that CIS had by then become a specific target of what it described as "the pro-Aadhaar lobby," and quoted Abraham's tweet as part of its coverage of the debate. The same report documented Abraham's response to an apology later issued by iSPIRT co-founder Sharad Sharma, who had been identified as the operator of anonymous troll accounts targeting Aadhaar critics.
-
-### Social media circulation
-
-The tweet series appeared during a period of intense activity on Indian social media around Aadhaar. By February 2017, debates over mandatory Aadhaar linkage, biometric data leaks, and the government's legal position on privacy had drawn a wide range of participants onto the platform, including lawyers, journalists, technologists, and civil society researchers. The "Repeat after me" format aligned with the conventions of the platform: each statement was short enough to share without context, specific enough to anchor discussion, and direct enough to function as a clearly stated position.
-
-The series was referenced in reporting on organised online pushback against Aadhaar critics. *Global Voices* reported that "sock puppet" accounts with "fewer followers than tweets" were systematically targeting those who criticised Aadhaar on social media. Sunil's tweets formed part of the wider online discourse referenced in coverage of this period.
-
-## Significance
-
-The tweet series appeared at a critical point in India's Aadhaar debate. In August 2017, the Supreme Court unanimously recognised privacy as a fundamental right, and the subsequent 2018 Aadhaar judgment saw Justice D. Y. Chandrachud's dissent invoke language — "informational self-determination," "surveillance infrastructure" — that closely mirrored arguments Abraham had been making in technical terms since 2016.
-
-Within Sunil Abraham's own output, the series is notable for its compression. Where his essays reached specialist audiences, the tweet format carried the same conclusions to a broader readership. The lead statement became one of the more widely cited formulations associated with his commentary on Aadhaar, quoted by international publications including *Global Voices* across multiple reports in 2017.
 
 ## See also
 - [Surveillance Is Like Salt in Cooking](/articles/surveillance-is-like-salt-in-cooking/) — Sunil Abraham's analogy arguing surveillance, like salt, is useful only in small quantities
