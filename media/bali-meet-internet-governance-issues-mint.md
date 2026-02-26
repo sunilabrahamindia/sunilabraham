@@ -10,7 +10,7 @@ permalink: /media/bali-meet-internet-governance-issues-mint/
 created: 2026-02-26
 ---
 
-**Bali Meet to Discuss Internet Governance Issues** is a *Mint* news report by Moulishree Srivastava published on 22 October 2013. The piece previews the eighth Internet Governance Forum (IGF) meeting in Bali, covering India's delegation and quoting Sunil Abraham, who was also attending, on both the forum's value as a learning space and its structural limitations in addressing global policy gaps on cybercrime, data protection, and privacy.
+**Bali Meet to Discuss Internet Governance Issues** is a *Mint* news report by Moulishree Srivastava published on 22 October 2013. The piece previews the eighth Internet Governance Forum (IGF) meeting in Bali, covering India's delegation and quoting [Sunil Abraham](/sunil/), who was also attending, on both the forum's value as a learning space and its structural limitations in addressing global policy gaps on cybercrime, data protection, and privacy.
 
 ## Contents
 
