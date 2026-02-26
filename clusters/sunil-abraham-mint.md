@@ -76,7 +76,7 @@ This page consolidates all Mint material connected to Sunil Abraham, including h
 
 ## External links
 
-- [Sunil Abraham](https://www.livemint.com/search?q=Sunil%20Abraham) on Mint
+- [Official website](https://www.livemint.com/)
 
 
 <style>
