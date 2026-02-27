@@ -18,13 +18,13 @@ Please use the sorting, category/month filters, and search box to browse the fre
   <!-- SEARCH -->
   <div class="search-box">
     <label class="label" for="search-input">Search:</label>
-    <input id="search-input" type="text" placeholder="Type to filter pages…" />
+    <input id="search-input" type="text" placeholder="Type to filter pages…" autocomplete="off" />
   </div>
 
   <!-- SORT -->
   <div class="sort-section">
     <span class="label">Sort by:</span>
-    <button data-sort="newest">Newest</button>
+    <button data-sort="newest" class="active">Newest</button>
     <button data-sort="oldest">Oldest</button>
     <button data-sort="az">A–Z</button>
     <button data-sort="random">Random</button>
@@ -74,19 +74,28 @@ Please use the sorting, category/month filters, and search box to browse the fre
     </select>
   </div>
 
+  <!-- CLEAR FILTERS -->
+  <div class="clear-section">
+    <button id="clear-btn" style="display:none;">✕ Clear Filters</button>
+  </div>
+
 </div>
+
+<p id="result-count" aria-live="polite" style="margin: 0.5em 0 0.25em; font-size: 0.92em; color: #444;"></p>
+<p id="no-results" style="display:none; color: #a00; font-weight: bold;">No pages match your filters.</p>
 
 ## Pages
 
 <ol id="created-pages-list" class="created-pages">
 {% assign sorted = filtered | sort: "created" | reverse %}
 {% for page in sorted %}
-<li 
+<li
   class="page-item"
   data-title="{{ page.title | downcase }}"
   data-created="{{ page.created }}"
   data-month="{{ page.created | date: "%Y-%m" }}"
-  data-cats="{{ page.categories | join: ',' | downcase }}"
+  data-year="{{ page.created | date: "%Y" }}"
+  data-cats="{{ page.categories | join: '|' | downcase }}"
 >
   <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
   <span class="created-date"> — {{ page.created | date: "%d %B %Y" }}</span>
@@ -100,7 +109,7 @@ Please use the sorting, category/month filters, and search box to browse the fre
   border: 1px solid #cad2dd;
   padding: 1em;
   border-radius: 10px;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 .label {
@@ -136,6 +145,12 @@ Please use the sorting, category/month filters, and search box to browse the fre
   border-color: #0645ad;
 }
 
+.sort-section button.active {
+  background: #dce7f9;
+  border-color: #0645ad;
+  font-weight: bold;
+}
+
 select {
   padding: 0.35em;
   border-radius: 6px;
@@ -146,6 +161,27 @@ select {
 
 select:hover {
   border-color: #0645ad;
+}
+
+.clear-section {
+  margin-top: 0.75em;
+}
+
+#clear-btn {
+  padding: 0.35em 0.85em;
+  background: #fff3f3;
+  border: 1px solid #c0392b;
+  border-radius: 6px;
+  color: #c0392b;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.25s ease;
+}
+
+#clear-btn:hover {
+  background: #fde8e8;
+  border-color: #922b21;
+  color: #922b21;
 }
 
 .created-pages {
@@ -175,72 +211,141 @@ select:hover {
 
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
-  const list = document.getElementById('created-pages-list');
-  const items = Array.from(list.querySelectorAll('li'));
+  const list        = document.getElementById('created-pages-list');
+  const items       = Array.from(list.querySelectorAll('li'));
+  const totalCount  = items.length;
 
-  const catSelect = document.getElementById('cat-select');
+  const catSelect   = document.getElementById('cat-select');
   const monthSelect = document.getElementById('month-select');
   const searchInput = document.getElementById('search-input');
+  const countEl     = document.getElementById('result-count');
+  const noResults   = document.getElementById('no-results');
+  const clearBtn    = document.getElementById('clear-btn');
 
-  /* UNIFIED FILTER FUNCTION */
-  function applyFilters() {
-    const selectedCat = catSelect.value;
-    const selectedMonth = monthSelect.value;
-    const searchText = searchInput.value.toLowerCase();
+  let currentSort  = 'newest';
+  let activeYear   = null; // set only via URL ?year=, never by dropdown
 
-    items.forEach(item => {
-      const cats = item.dataset.cats.split(',');
-      const itemMonth = item.dataset.month;
-      const title = item.dataset.title;
+  /* ── URL STATE ── */
+  function readURL() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('cat'))    catSelect.value   = params.get('cat');
+    if (params.get('month'))  monthSelect.value = params.get('month');
+    if (params.get('search')) searchInput.value = params.get('search');
+    if (params.get('sort'))   currentSort       = params.get('sort');
+    if (params.get('year'))   activeYear        = params.get('year');
+  }
 
-      const catMatch = (selectedCat === "all" || cats.includes(selectedCat));
-      const monthMatch = (selectedMonth === "all" || itemMonth === selectedMonth);
-      const searchMatch = title.includes(searchText);
+  function writeURL() {
+    const params = new URLSearchParams();
+    if (catSelect.value   !== 'all') params.set('cat',    catSelect.value);
+    if (monthSelect.value !== 'all') params.set('month',  monthSelect.value);
+    if (searchInput.value !== '')    params.set('search', searchInput.value);
+    if (currentSort !== 'newest')    params.set('sort',   currentSort);
+    if (activeYear)                  params.set('year',   activeYear);
+    const newURL = params.toString()
+      ? window.location.pathname + '?' + params.toString()
+      : window.location.pathname;
+    history.replaceState(null, '', newURL);
+  }
 
-      if (catMatch && monthMatch && searchMatch) {
-        item.style.display = "";
-      } else {
-        item.style.display = "none";
-      }
+  /* ── CLEAR FILTERS VISIBILITY ── */
+  function updateClearBtn() {
+    const isFiltered = catSelect.value !== 'all'
+      || monthSelect.value !== 'all'
+      || searchInput.value.trim() !== ''
+      || currentSort !== 'newest'
+      || activeYear !== null;
+    clearBtn.style.display = isFiltered ? '' : 'none';
+  }
+
+  /* ── SORT ── */
+  function sortList(type) {
+    currentSort = type;
+    let sorted = [...items];
+    if (type === 'newest') {
+      sorted.sort((a, b) => new Date(b.dataset.created) - new Date(a.dataset.created));
+    } else if (type === 'oldest') {
+      sorted.sort((a, b) => new Date(a.dataset.created) - new Date(b.dataset.created));
+    } else if (type === 'az') {
+      sorted.sort((a, b) => a.dataset.title.localeCompare(b.dataset.title));
+    } else if (type === 'random') {
+      sorted.sort(() => Math.random() - 0.5);
+    }
+    list.innerHTML = '';
+    sorted.forEach(item => list.appendChild(item));
+
+    document.querySelectorAll('.sort-section button').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.sort === type);
     });
   }
 
-  /* Apply filter on change */
-  catSelect.addEventListener('change', applyFilters);
-  monthSelect.addEventListener('change', applyFilters);
-  searchInput.addEventListener('input', applyFilters);
+  /* ── FILTER ── */
+  function applyFilters() {
+    const selectedCat   = catSelect.value;
+    const selectedMonth = monthSelect.value;
+    const searchText    = searchInput.value.toLowerCase().trim();
 
-  /* SORTING */
-  function sortList(type) {
-    let sorted = [...items];
+    let visible = 0;
+    items.forEach(item => {
+      const cats      = item.dataset.cats.split('|');
+      const itemMonth = item.dataset.month;
+      const itemYear  = item.dataset.year;
+      const title     = item.dataset.title;
 
-    if (type === 'newest') {
-      sorted.sort((a, b) => new Date(b.dataset.created) - new Date(a.dataset.created));
-    }
-    else if (type === 'oldest') {
-      sorted.sort((a, b) => new Date(a.dataset.created) - new Date(b.dataset.created));
-    }
-    else if (type === 'az') {
-      sorted.sort((a, b) => a.dataset.title.localeCompare(b.dataset.title));
-    }
-    else if (type === 'random') {
-      sorted.sort(() => Math.random() - 0.5);
-    }
+      const catMatch    = (selectedCat   === 'all' || cats.includes(selectedCat));
+      const monthMatch  = (selectedMonth === 'all' || itemMonth === selectedMonth);
+      const yearMatch   = (activeYear === null      || itemYear === activeYear);
+      const searchMatch = title.includes(searchText);
 
-    list.innerHTML = "";
-    sorted.forEach(item => list.appendChild(item));
+      if (catMatch && monthMatch && yearMatch && searchMatch) {
+        item.style.display = '';
+        visible++;
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    countEl.textContent = `Showing ${visible} of ${totalCount} pages`;
+    noResults.style.display = visible === 0 ? '' : 'none';
+
+    updateClearBtn();
+    writeURL();
   }
 
-  document.querySelectorAll('.sort-section button').forEach(btn => {
-    btn.addEventListener('click', () => sortList(btn.dataset.sort));
+  /* ── CLEAR ── */
+  clearBtn.addEventListener('click', () => {
+    catSelect.value   = 'all';
+    monthSelect.value = 'all';
+    searchInput.value = '';
+    currentSort       = 'newest';
+    activeYear        = null;
+    sortList('newest');
+    applyFilters();
   });
+
+  /* ── EVENTS ── */
+  catSelect.addEventListener('change',   applyFilters);
+  monthSelect.addEventListener('change', applyFilters);
+  searchInput.addEventListener('input',  applyFilters);
+
+  document.querySelectorAll('.sort-section button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      sortList(btn.dataset.sort);
+      applyFilters();
+    });
+  });
+
+  /* ── INIT ── */
+  readURL();
+  sortList(currentSort);
+  applyFilters();
 
 });
 </script>
