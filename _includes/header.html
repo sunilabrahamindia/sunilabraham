@@ -1,112 +1,78 @@
 <style>
   /* =========================================================
-     Site Header
+     Site Header – Elegant Modern
      ========================================================= */
+
   .site-header {
-    position: relative;
-    overflow: hidden;
+    background: #f8fafc; /* soft neutral */
+    border-bottom: 1px solid #e2e8f0;
+    margin: 0.6rem 0 1.2rem;
+    padding: 1.8rem 1rem 1.4rem;
     text-align: center;
-    margin: 0.2rem 0 0.8rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 2px solid #eaecef;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-    background: linear-gradient(
-      270deg,
-      #e8f1ff,
-      #f5e8ff,
-      #fff0e8,
-      #fff8e8,
-      #ffe8e8,
-      #e8fff0,
-      #e8f8ff
-    );
-    background-size: 800% 800%;
-    animation: headerGradient 20s ease infinite;
+    position: relative;
   }
 
-  @keyframes headerGradient {
-    0%   { background-position: 0% 50%; }
-    50%  { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+  /* Subtle accent divider */
+  .site-header::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 1rem auto 0;
+    background: #1f3a5f; /* deep accessible blue */
+    border-radius: 2px;
   }
 
   /* =========================================================
-     Site Title
+     Title
      ========================================================= */
+
   .site-header .site-title a {
-    position: relative;
-    display: inline-block;
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 800;
-    margin: 0 0 0.4rem;
-    background: linear-gradient(90deg, #0a2e57, #287c7c, #0a2e57);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5px;
+    color: #1f3a5f;
     text-decoration: none;
-    animation: fadeUpTitle 1.2s ease-out, shimmerTitle 15s ease-in-out infinite;
-    border-bottom: none;
-    padding-bottom: 0;
+    transition: color 0.2s ease;
   }
 
   .site-header .site-title a:hover {
-    text-shadow: 0 0 8px rgba(40, 124, 124, 0.25);
-    transform: translateY(-1px);
-    transition: text-shadow 0.4s ease, transform 0.3s ease;
+    color: #17406a;
     text-decoration: none;
   }
 
-  @keyframes fadeUpTitle {
-    from { opacity: 0; transform: translateY(10px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-
-  @keyframes shimmerTitle {
-    0%   { background-position: 0% center; }
-    50%  { background-position: 100% center; }
-    100% { background-position: 0% center; }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .site-header .site-title a {
-      animation: fadeUpTitle 1.2s ease-out;
-      background-position: center;
-    }
+  .site-header .site-title a:focus {
+    outline: 2px solid #1f3a5f;
+    outline-offset: 4px;
   }
 
   /* =========================================================
-     Site Subtitle
+     Subtitle
      ========================================================= */
+
   .site-header .site-subtitle {
-    font-size: 1rem;
-    color: #444;
-    margin: 0;
-    opacity: 0;
-    letter-spacing: 0.2px;
-    animation: fadeInDescription 1.4s ease-out 0.4s forwards,
-               breatheDescription 10s ease-in-out 1.8s infinite;
+    font-size: 0.95rem;
+    color: #475569;
+    margin-top: 0.6rem;
+    letter-spacing: 0.8px;
+    font-weight: 500;
   }
 
-  @keyframes fadeInDescription {
-    0%   { opacity: 0; letter-spacing: 1.2px; transform: translateY(6px); }
-    100% { opacity: 1; letter-spacing: 0.2px; transform: translateY(0); }
-  }
-
-  @keyframes breatheDescription {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0.93; }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .site-header .site-subtitle {
-      animation: fadeInDescription 1.4s ease-out 0.4s forwards;
-    }
-  }
+  /* =========================================================
+     Responsive
+     ========================================================= */
 
   @media (max-width: 768px) {
+    .site-header {
+      padding: 1.4rem 0.8rem 1.2rem;
+    }
+
     .site-header .site-title a {
-      font-size: 2rem;
+      font-size: 1.9rem;
+    }
+
+    .site-header .site-subtitle {
+      font-size: 0.85rem;
     }
   }
 </style>
