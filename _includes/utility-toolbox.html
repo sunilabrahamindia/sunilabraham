@@ -1,17 +1,15 @@
 {% unless page.hide_utilities %}
 <!-- =========================================================
      Sunil Abraham Project
-     Utility Toolbox (Accessibility + View Controls)
+     Utility Toolbox v2.0 (Accessibility + View Controls)
      Licence: CC BY-SA 4.0
      ========================================================= -->
 
 <style>
-/* Hide sidebar when wide mode is active */
+/* ── WIDE MODE ── */
 body.wide-mode .site-sidebar {
   display: none !important;
 }
-
-/* Expand main content when sidebar hidden */
 body.wide-mode .page-content,
 body.wide-mode main,
 body.wide-mode .wrapper {
@@ -21,7 +19,72 @@ body.wide-mode .wrapper {
   padding-right: 0 !important;
 }
 
-/* Toolbox container */
+/* ── DARK MODE ── */
+body.dark-mode,
+body.dark-mode .page-content,
+body.dark-mode main,
+body.dark-mode .wrapper,
+body.dark-mode article {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+body.dark-mode a { color: #7eb8f7 !important; }
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3,
+body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+  color: #f0f0f0 !important;
+}
+body.dark-mode .controls-box,
+body.dark-mode table,
+body.dark-mode blockquote,
+body.dark-mode pre,
+body.dark-mode code {
+  background-color: #2a2a2a !important;
+  color: #e0e0e0 !important;
+  border-color: #444 !important;
+}
+
+/* ── SEPIA MODE ── */
+body.sepia-mode,
+body.sepia-mode .page-content,
+body.sepia-mode main,
+body.sepia-mode .wrapper,
+body.sepia-mode article {
+  background-color: #f4ecd8 !important;
+  color: #3b2f1e !important;
+}
+body.sepia-mode a { color: #7b4f1e !important; }
+body.sepia-mode .controls-box,
+body.sepia-mode table,
+body.sepia-mode blockquote,
+body.sepia-mode pre {
+  background-color: #ede0c4 !important;
+  border-color: #c8a97a !important;
+}
+
+/* ── HIGH CONTRAST MODE ── */
+body.hc-mode,
+body.hc-mode .page-content,
+body.hc-mode main,
+body.hc-mode .wrapper,
+body.hc-mode article {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+body.hc-mode a { color: #ffff00 !important; }
+body.hc-mode h1, body.hc-mode h2, body.hc-mode h3,
+body.hc-mode h4, body.hc-mode h5, body.hc-mode h6 {
+  color: #fff !important;
+}
+body.hc-mode .controls-box,
+body.hc-mode table,
+body.hc-mode blockquote,
+body.hc-mode pre {
+  background-color: #111 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+/* ── TOOLBOX CONTAINER ── */
 #utilityToolboxContainer {
   position: fixed;
   bottom: 35px;
@@ -34,7 +97,6 @@ body.wide-mode .wrapper {
   align-items: flex-end;
 }
 
-/* Toolbox toggle button */
 #toggleToolbox {
   background: #2d4d7a;
   color: #fff;
@@ -43,42 +105,162 @@ body.wide-mode .wrapper {
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
-/* Toolbox panel */
+#toggleToolbox:hover {
+  background: #1a3355;
+}
+
+/* ── TOOLBOX PANEL ── */
 #toolboxContent {
   display: none;
   margin-top: 8px;
   flex-direction: column;
-  gap: 12px;
-  align-items: stretch;
+  gap: 0;
   background: #fff;
-  padding: 14px;
   border-radius: 8px;
   color: #2c3e50;
-  width: 240px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  width: 260px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+  overflow: hidden;
 }
 
-#toolboxContent div[style*="font-weight:bold"] {
+.toolbox-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  background: #002d62;
+  color: #fff;
+  letter-spacing: 0.03em;
+}
+
+/* ── TABS ── */
+.toolbox-tabs {
+  display: flex;
+  border-bottom: 2px solid #dce7f9;
+  background: #f0f5fc;
+}
+
+.toolbox-tab {
+  flex: 1;
+  padding: 7px 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: #2d4d7a;
+  font-weight: bold;
+  transition: background 0.2s;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+}
+
+.toolbox-tab:hover {
+  background: #dce7f9;
+}
+
+.toolbox-tab.active {
+  border-bottom: 3px solid #2d4d7a;
+  background: #fff;
+  color: #002d62;
+}
+
+/* ── TAB PANELS ── */
+.toolbox-panel {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px;
+}
+
+.toolbox-panel.active {
+  display: flex;
+}
+
+.tool-label {
+  font-weight: bold;
+  font-size: 12px;
   color: #005b96;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
-.utility-button, .utility-select {
+.utility-button {
   background: #e6f2ff;
   color: #1e2a38;
-  border: none;
-  padding: 6px 10px;
+  border: 1px solid #b0c8e8;
+  padding: 5px 10px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
+  transition: background 0.2s;
+}
+
+.utility-button:hover {
+  background: #c8e0f9;
 }
 
 .utility-select {
-  padding: 8px 12px;
+  padding: 6px 8px;
   width: 100%;
+  border-radius: 6px;
+  border: 1px solid #b0c8e8;
+  font-size: 13px;
+  cursor: pointer;
+  background: #f7fbff;
 }
 
+.utility-select:hover {
+  border-color: #2d4d7a;
+}
+
+.utility-slider {
+  width: 100%;
+  cursor: pointer;
+  accent-color: #2d4d7a;
+}
+
+.btn-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 6px 4px;
+  border-radius: 6px;
+  border: 1px solid #b0c8e8;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  background: #e6f2ff;
+  color: #1e2a38;
+  transition: background 0.2s;
+}
+
+.mode-btn:hover { background: #c8e0f9; }
+.mode-btn.active { background: #2d4d7a; color: #fff; border-color: #2d4d7a; }
+
+.reset-all-btn {
+  width: 100%;
+  background: #c62828;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.reset-all-btn:hover { background: #922b21; }
+
+/* ── BACK TO TOP ── */
 #backToTopBtn {
   position: fixed;
   bottom: 35px;
@@ -91,92 +273,199 @@ body.wide-mode .wrapper {
   font-size: 16px;
   cursor: pointer;
   z-index: 99997;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   display: none;
+  transition: background 0.2s;
+}
+
+#backToTopBtn:hover { background: #1a3355; }
+
+/* ── COPY URL FEEDBACK ── */
+#copyFeedback {
+  font-size: 11px;
+  color: #2d8a2d;
+  text-align: center;
+  display: none;
+  margin-top: 4px;
 }
 </style>
 
 <div id="utilityToolboxContainer">
   <button id="toggleToolbox" title="Toggle Utilities">⚙️ Utilities</button>
-  <div id="toolboxContent" title="Accessibility and View Tools">
 
-    <div style="text-align:center;font-weight:bold;font-size:16px;margin-bottom:8px;color:#002d62;">
-      Utilities
-    </div>
-       
-   <div style="font-weight:bold;margin-bottom:6px;">Translate</div>
-<!-- Translate -->
-       {% include translate.html %}
-    
-    <!-- Font Type -->
-    <div>
-      <div style="font-weight:bold;margin-bottom:6px;">Font type</div>
-      <select id="fontSelector" class="utility-select">
-        <option value="">Default</option>
-        <option value="arial">Arial</option>
-        <option value="georgia">Georgia</option>
-        <option value="opensans">Open Sans</option>
-        <option value="merriweather">Merriweather</option>
-        <option value="roboto">Roboto</option>
-        <option value="playfair">Playfair Display</option>
-        <option value="courier">Courier New</option>
-      </select>
+  <div id="toolboxContent">
+
+    <div class="toolbox-title">⚙️ Utilities</div>
+
+    <!-- TABS -->
+    <div class="toolbox-tabs">
+      <button class="toolbox-tab active" data-tab="text">Text</button>
+      <button class="toolbox-tab" data-tab="colour">Colour</button>
+      <button class="toolbox-tab" data-tab="view">View</button>
+      <button class="toolbox-tab" data-tab="tools">Tools</button>
     </div>
 
-    <!-- Font Size -->
-    <div>
-      <div style="font-weight:bold;margin-bottom:6px;">Font size</div>
-      <button id="textZoomIn" class="utility-button">A+</button>
-      <button id="textZoomOut" class="utility-button">A−</button>
-      <button id="textZoomReset" class="utility-button">🔁</button>
+    <!-- TEXT TAB -->
+    <div class="toolbox-panel active" id="tab-text">
+
+      <div>
+        <div class="tool-label">Translate</div>
+        {% include translate.html %}
+      </div>
+
+      <div>
+        <div class="tool-label">Font</div>
+        <select id="fontSelector" class="utility-select">
+          <option value="">Default</option>
+          <optgroup label="── Sans-serif ──">
+            <option value="arial">Arial</option>
+            <option value="roboto">Roboto</option>
+            <option value="lexend">Lexend</option>
+          </optgroup>
+          <optgroup label="── Serif ──">
+            <option value="georgia">Georgia</option>
+            <option value="merriweather">Merriweather</option>
+            <option value="playfair">Playfair Display</option>
+          </optgroup>
+          <optgroup label="── Accessibility ──">
+            <option value="atkinson">Atkinson Hyperlegible</option>
+            <option value="opendyslexic">OpenDyslexic</option>
+          </optgroup>
+          <optgroup label="── Monospace ──">
+            <option value="courier">Courier New</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <div>
+        <div class="tool-label">Font Size</div>
+        <div class="btn-row">
+          <button id="textZoomOut" class="utility-button">A−</button>
+          <button id="textZoomIn" class="utility-button">A+</button>
+          <button id="textZoomReset" class="utility-button">🔁</button>
+        </div>
+        <input type="range" id="fontSizeSlider" class="utility-slider" min="60" max="200" step="5" value="100" style="margin-top:6px;" />
+      </div>
+
+      <div>
+        <div class="tool-label">Line Height</div>
+        <div class="btn-row">
+          <button id="lineHeightDecrease" class="utility-button">⬇️</button>
+          <button id="lineHeightIncrease" class="utility-button">⬆️</button>
+          <button id="lineHeightReset" class="utility-button">🔁</button>
+        </div>
+        <input type="range" id="lineHeightSlider" class="utility-slider" min="1" max="3" step="0.1" value="1.6" style="margin-top:6px;" />
+      </div>
+
+      <div>
+        <div class="tool-label">Letter Spacing</div>
+        <input type="range" id="letterSpacingSlider" class="utility-slider" min="0" max="5" step="0.5" value="0" />
+        <button id="letterSpacingReset" class="utility-button" style="margin-top:4px;">🔁 Reset</button>
+      </div>
+
+      <div>
+        <div class="tool-label">Word Spacing</div>
+        <input type="range" id="wordSpacingSlider" class="utility-slider" min="0" max="20" step="1" value="0" />
+        <button id="wordSpacingReset" class="utility-button" style="margin-top:4px;">🔁 Reset</button>
+      </div>
+
     </div>
 
-    <!-- Line Height -->
-    <div>
-      <div style="font-weight:bold;margin-bottom:6px;">Line height</div>
-      <button id="lineHeightIncrease" class="utility-button">⬆️</button>
-      <button id="lineHeightDecrease" class="utility-button">⬇️</button>
-      <button id="lineHeightReset" class="utility-button">🔁</button>
-    </div>
-    
-    <!-- Font Colour -->
-    <div>
-      <div style="font-weight:bold;margin-bottom:6px;">🖍 Font colour</div>
-      <select id="fontColorSelect" class="utility-select">
-        <option value="">Default</option>
-        <option value="darkgreen">Dark Green</option>
-        <option value="darkred">Dark Red</option>
-        <option value="indigo">Indigo</option>
-        <option value="maroon">Maroon</option>
-        <option value="midnightblue">Midnight Blue</option>
-        <option value="saddlebrown">Saddle Brown</option>
-      </select>
+    <!-- COLOUR TAB -->
+    <div class="toolbox-panel" id="tab-colour">
+
+      <div>
+        <div class="tool-label">Colour Mode</div>
+        <div class="btn-row">
+          <button class="mode-btn" id="btn-dark">🌙 Dark</button>
+          <button class="mode-btn" id="btn-sepia">📜 Sepia</button>
+          <button class="mode-btn" id="btn-hc">⬛ Hi-Con</button>
+        </div>
+        <p style="font-size:11px;color:#888;margin:4px 0 0;">Note: pages with custom colours may show partial results.</p>
+      </div>
+
+      <div>
+        <div class="tool-label">Font Colour</div>
+        <select id="fontColorSelect" class="utility-select">
+          <option value="">Default</option>
+          <option value="#000000">Black</option>
+          <option value="#222222">Dark Grey</option>
+          <option value="#1a3355">Navy</option>
+          <option value="#006400">Dark Green</option>
+          <option value="#8b0000">Dark Red</option>
+          <option value="#4b0082">Indigo</option>
+          <option value="#800000">Maroon</option>
+          <option value="#191970">Midnight Blue</option>
+          <option value="#8b4513">Saddle Brown</option>
+          <option value="#e0e0e0">Light Grey</option>
+          <option value="#ffffff">White</option>
+        </select>
+      </div>
+
+      <div>
+        <div class="tool-label">Background</div>
+        <select id="bgColorSelect" class="utility-select">
+          <option value="">Default</option>
+          <option value="#f0f8ff">Alice Blue</option>
+          <option value="#f5f5dc">Beige</option>
+          <option value="#fffaf0">Floral White</option>
+          <option value="#f0fff0">Honeydew</option>
+          <option value="#fffff0">Ivory</option>
+          <option value="#fff0f5">Lavender Blush</option>
+          <option value="#fffacd">Lemon Chiffon</option>
+          <option value="#d3d3d3">Light Grey</option>
+          <option value="#f5fffa">Mint Cream</option>
+          <option value="#f5f5f5">White Smoke</option>
+        </select>
+      </div>
+
     </div>
 
-    <!-- Background Colour -->
-    <div>
-      <div style="font-weight:bold;margin-bottom:6px;">🎨 Background</div>
-      <select id="bgColorSelect" class="utility-select">
-        <option value="">Default</option>
-        <option value="aliceblue">Alice Blue</option>
-        <option value="beige">Beige</option>
-        <option value="floralwhite">Floral White</option>
-        <option value="honeydew">Mint</option>
-        <option value="ivory">Ivory</option>
-        <option value="lavenderblush">Lavender</option>
-        <option value="lemonchiffon">Lemon</option>
-        <option value="lightgrey">Light Grey</option>
-        <option value="mintcream">Mint Cream</option>
-        <option value="whitesmoke">White Smoke</option>
-      </select>
+    <!-- VIEW TAB -->
+    <div class="toolbox-panel" id="tab-view">
+
+      <div>
+        <div class="tool-label">Layout</div>
+        <div class="btn-row">
+          <button id="wideModeBtn" class="mode-btn">⬛ Wide Mode</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="tool-label">Reading Mode</div>
+        <div class="btn-row">
+          <button id="readingModeBtn" class="mode-btn">📖 Reading Mode</button>
+        </div>
+        <p style="font-size:11px;color:#888;margin:4px 0 0;">Narrows content to comfortable reading width.</p>
+      </div>
+
     </div>
 
-    <!-- Reset -->
-    <div style="text-align:center;">
-      <button id="resetAllBtn" style="background:#c62828;color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:14px;">
-        🔄 Reset All
-      </button>
+    <!-- TOOLS TAB -->
+    <div class="toolbox-panel" id="tab-tools">
+
+      <div>
+        <div class="tool-label">Reading Time</div>
+        <p id="readingTimeDisplay" style="margin:0;font-size:13px;color:#2c3e50;">Calculating…</p>
+      </div>
+
+      <div>
+        <div class="tool-label">Page URL</div>
+        <button id="copyUrlBtn" class="utility-button" style="width:100%;">📋 Copy Page URL</button>
+        <p id="copyFeedback">✓ Copied!</p>
+      </div>
+
+      <div>
+        <div class="tool-label">Print</div>
+        <button id="printBtn" class="utility-button" style="width:100%;">🖨️ Print This Page</button>
+      </div>
+
+      <div style="margin-top:4px;">
+        <button id="resetAllBtn" class="reset-all-btn">🔄 Reset All Settings</button>
+      </div>
+
     </div>
+
   </div>
 </div>
 
@@ -184,126 +473,294 @@ body.wide-mode .wrapper {
 <button id="backToTopBtn" title="Back to Top">⬆️</button>
 
 <script>
-window.addEventListener("load", function () {
-  const body = document.body;
-  const toggleBtn = document.getElementById("toggleToolbox");
-  const toolbox = document.getElementById("toolboxContent");
+document.addEventListener('DOMContentLoaded', function () {
+
+  const body      = document.body;
+  const toggleBtn = document.getElementById('toggleToolbox');
+  const toolbox   = document.getElementById('toolboxContent');
+  const targets   = () => document.querySelectorAll('main, article, .page-content, .wrapper');
+
+  /* ── TOOLBOX OPEN/CLOSE ── */
+  const toolboxOpen = localStorage.getItem('toolboxOpen') === 'true';
+  if (toolboxOpen) { toolbox.style.display = 'flex'; toggleBtn.textContent = '❌ Close'; }
 
   toggleBtn.onclick = () => {
-    const expanded = toolbox.style.display === "flex";
-    toolbox.style.display = expanded ? "none" : "flex";
-    toggleBtn.textContent = expanded ? "⚙️ Utilities" : "❌ Close";
+    const expanded = toolbox.style.display === 'flex';
+    toolbox.style.display = expanded ? 'none' : 'flex';
+    toggleBtn.textContent = expanded ? '⚙️ Utilities' : '❌ Close';
+    localStorage.setItem('toolboxOpen', !expanded);
   };
 
-  // Font size
-  let fontSize = parseFloat(localStorage.getItem("zoomFontSize")) || 100;
-  function applyFontSize() {
-    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.fontSize = fontSize + "%");
-    localStorage.setItem("zoomFontSize", fontSize);
-  }
-  document.getElementById("textZoomIn").onclick = () => { if (fontSize < 200) { fontSize += 10; applyFontSize(); }};
-  document.getElementById("textZoomOut").onclick = () => { if (fontSize > 60) { fontSize -= 10; applyFontSize(); }};
-  document.getElementById("textZoomReset").onclick = () => { fontSize = 100; applyFontSize(); };
-  applyFontSize();
-
-  // Line height
-  let lineHeight = parseFloat(localStorage.getItem("customLineHeight")) || 1.6;
-  function applyLineHeight() {
-    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.lineHeight = lineHeight);
-    localStorage.setItem("customLineHeight", lineHeight);
-  }
-  document.getElementById("lineHeightIncrease").onclick = () => { if (lineHeight < 3) { lineHeight = Math.round((lineHeight + 0.1) * 10) / 10; applyLineHeight(); }};
-  document.getElementById("lineHeightDecrease").onclick = () => { if (lineHeight > 1) { lineHeight = Math.round((lineHeight - 0.1) * 10) / 10; applyLineHeight(); }};
-  document.getElementById("lineHeightReset").onclick = () => { lineHeight = 1.6; applyLineHeight(); };
-  applyLineHeight();
-
-  // Fonts (Google Fonts)
-  const fontLinks = [
-    'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap',
-    'https://fonts.googleapis.com/css2?family=Merriweather&display=swap',
-    'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap',
-    'https://fonts.googleapis.com/css2?family=Roboto&display=swap'
-  ];
-  fontLinks.forEach(link => {
-    const l = document.createElement('link');
-    l.href = link;
-    l.rel = 'stylesheet';
-    document.head.appendChild(l);
+  /* ── TABS ── */
+  const savedTab = localStorage.getItem('toolboxTab') || 'text';
+  document.querySelectorAll('.toolbox-tab').forEach(tab => {
+    if (tab.dataset.tab === savedTab) {
+      tab.classList.add('active');
+      document.getElementById('tab-' + savedTab).classList.add('active');
+    } else {
+      tab.classList.remove('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.remove('active');
+    }
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.toolbox-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.toolbox-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+      localStorage.setItem('toolboxTab', tab.dataset.tab);
+    });
   });
 
-  const fontSelector = document.getElementById("fontSelector");
+  /* ── FONT SIZE ── */
+  let fontSize = parseFloat(localStorage.getItem('zoomFontSize')) || 100;
+  const fontSizeSlider = document.getElementById('fontSizeSlider');
+
+  function applyFontSize(val) {
+    fontSize = val;
+    targets().forEach(el => el.style.fontSize = fontSize + '%');
+    fontSizeSlider.value = fontSize;
+    localStorage.setItem('zoomFontSize', fontSize);
+  }
+
+  document.getElementById('textZoomIn').onclick  = () => applyFontSize(Math.min(fontSize + 10, 200));
+  document.getElementById('textZoomOut').onclick = () => applyFontSize(Math.max(fontSize - 10, 60));
+  document.getElementById('textZoomReset').onclick = () => applyFontSize(100);
+  fontSizeSlider.oninput = () => applyFontSize(parseFloat(fontSizeSlider.value));
+  applyFontSize(fontSize);
+
+  /* ── LINE HEIGHT ── */
+  let lineHeight = parseFloat(localStorage.getItem('customLineHeight')) || 1.6;
+  const lineHeightSlider = document.getElementById('lineHeightSlider');
+
+  function applyLineHeight(val) {
+    lineHeight = Math.round(val * 10) / 10;
+    targets().forEach(el => el.style.lineHeight = lineHeight);
+    lineHeightSlider.value = lineHeight;
+    localStorage.setItem('customLineHeight', lineHeight);
+  }
+
+  document.getElementById('lineHeightIncrease').onclick = () => applyLineHeight(Math.min(lineHeight + 0.1, 3));
+  document.getElementById('lineHeightDecrease').onclick = () => applyLineHeight(Math.max(lineHeight - 0.1, 1));
+  document.getElementById('lineHeightReset').onclick    = () => applyLineHeight(1.6);
+  lineHeightSlider.oninput = () => applyLineHeight(parseFloat(lineHeightSlider.value));
+  applyLineHeight(lineHeight);
+
+  /* ── LETTER SPACING ── */
+  let letterSpacing = parseFloat(localStorage.getItem('letterSpacing')) || 0;
+  const letterSlider = document.getElementById('letterSpacingSlider');
+
+  function applyLetterSpacing(val) {
+    letterSpacing = val;
+    targets().forEach(el => el.style.letterSpacing = val + 'px');
+    letterSlider.value = val;
+    localStorage.setItem('letterSpacing', val);
+  }
+
+  letterSlider.oninput = () => applyLetterSpacing(parseFloat(letterSlider.value));
+  document.getElementById('letterSpacingReset').onclick = () => applyLetterSpacing(0);
+  applyLetterSpacing(letterSpacing);
+
+  /* ── WORD SPACING ── */
+  let wordSpacing = parseFloat(localStorage.getItem('wordSpacing')) || 0;
+  const wordSlider = document.getElementById('wordSpacingSlider');
+
+  function applyWordSpacing(val) {
+    wordSpacing = val;
+    targets().forEach(el => el.style.wordSpacing = val + 'px');
+    wordSlider.value = val;
+    localStorage.setItem('wordSpacing', val);
+  }
+
+  wordSlider.oninput = () => applyWordSpacing(parseFloat(wordSlider.value));
+  document.getElementById('wordSpacingReset').onclick = () => applyWordSpacing(0);
+  applyWordSpacing(wordSpacing);
+
+  /* ── FONTS ── */
   const fontMap = {
-    arial: "Arial, sans-serif",
-    courier: "'Courier New', monospace",
-    georgia: "Georgia, serif",
-    opensans: "'Open Sans', sans-serif",
-    merriweather: "'Merriweather', serif",
-    playfair: "'Playfair Display', serif",
-    roboto: "'Roboto', sans-serif"
+    arial:       'Arial, sans-serif',
+    roboto:      "'Roboto', sans-serif",
+    lexend:      "'Lexend', sans-serif",
+    georgia:     'Georgia, serif',
+    merriweather:"'Merriweather', serif",
+    playfair:    "'Playfair Display', serif",
+    atkinson:    "'Atkinson Hyperlegible', sans-serif",
+    opendyslexic:"'OpenDyslexic', sans-serif",
+    courier:     "'Courier New', monospace"
   };
 
-  function applyFontFamily(key) {
-    const val = fontMap[key];
-    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.fontFamily = val || "");
-    localStorage.setItem("fontFamily", key || "");
+  const googleFonts = {
+    roboto:      'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
+    lexend:      'https://fonts.googleapis.com/css2?family=Lexend&display=swap',
+    merriweather:'https://fonts.googleapis.com/css2?family=Merriweather&display=swap',
+    playfair:    'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap',
+    atkinson:    'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap',
+    opendyslexic:'https://fonts.cdnfonts.com/css/opendyslexic'
+  };
+
+  const loadedFonts = {};
+
+  function loadFont(key) {
+    if (googleFonts[key] && !loadedFonts[key]) {
+      const l = document.createElement('link');
+      l.rel = 'stylesheet';
+      l.href = googleFonts[key];
+      document.head.appendChild(l);
+      loadedFonts[key] = true;
+    }
   }
 
-  fontSelector.onchange = () => applyFontFamily(fontSelector.value);
-  const savedFont = localStorage.getItem("fontFamily");
-  if (savedFont) { fontSelector.value = savedFont; applyFontFamily(savedFont); }
-
-  // Font colour
-  const fontColorSelect = document.getElementById("fontColorSelect");
-  fontColorSelect.onchange = function () {
-    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.color = this.value || "");
-    localStorage.setItem("fontColor", this.value || "");
-  };
-  const savedFontColor = localStorage.getItem("fontColor");
-  if (savedFontColor) {
-    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => el.style.color = savedFontColor);
-    fontColorSelect.value = savedFontColor;
+  function applyFont(key) {
+    if (key) loadFont(key);
+    targets().forEach(el => el.style.fontFamily = key ? fontMap[key] : '');
+    localStorage.setItem('fontFamily', key || '');
   }
 
-  // Background colour
-  const bgSelect = document.getElementById("bgColorSelect");
-  bgSelect.onchange = function () {
-    const bg = this.value || "";
-    localStorage.setItem("bgColor", bg);
-    applyBackground(bg);
-  };
+  const fontSelector = document.getElementById('fontSelector');
+  fontSelector.onchange = () => applyFont(fontSelector.value);
+  const savedFont = localStorage.getItem('fontFamily');
+  if (savedFont) { fontSelector.value = savedFont; applyFont(savedFont); }
 
+  /* ── FONT COLOUR ── */
+  function applyFontColor(val) {
+    targets().forEach(el => el.style.color = val || '');
+    localStorage.setItem('fontColor', val || '');
+  }
+
+  const fontColorSelect = document.getElementById('fontColorSelect');
+  fontColorSelect.onchange = () => applyFontColor(fontColorSelect.value);
+  const savedFontColor = localStorage.getItem('fontColor');
+  if (savedFontColor) { fontColorSelect.value = savedFontColor; applyFontColor(savedFontColor); }
+
+  /* ── BACKGROUND COLOUR ── */
   function applyBackground(bg) {
-    body.style.setProperty("background-color", bg, "important");
-    document.documentElement.style.setProperty("background-color", bg, "important");
-    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => {
-      el.style.setProperty("background-color", bg, "important");
-    });
-    body.style.transition = "background-color 0.4s ease";
+    if (bg) {
+      body.style.setProperty('background-color', bg, 'important');
+      document.documentElement.style.setProperty('background-color', bg, 'important');
+      targets().forEach(el => el.style.setProperty('background-color', bg, 'important'));
+    } else {
+      body.style.removeProperty('background-color');
+      document.documentElement.style.removeProperty('background-color');
+      targets().forEach(el => el.style.removeProperty('background-color'));
+    }
+    localStorage.setItem('bgColor', bg || '');
   }
 
-  const savedBg = localStorage.getItem("bgColor");
-  if (savedBg) {
-    applyBackground(savedBg);
-    bgSelect.value = savedBg;
+  const bgSelect = document.getElementById('bgColorSelect');
+  bgSelect.onchange = () => applyBackground(bgSelect.value);
+  const savedBg = localStorage.getItem('bgColor');
+  if (savedBg) { bgSelect.value = savedBg; applyBackground(savedBg); }
+
+  /* ── COLOUR MODES (dark / sepia / hi-contrast) ── */
+  const colorModes = ['dark-mode', 'sepia-mode', 'hc-mode'];
+
+  function applyColorMode(mode) {
+    colorModes.forEach(m => body.classList.remove(m));
+    document.querySelectorAll('.mode-btn[id^="btn-"]').forEach(b => b.classList.remove('active'));
+    if (mode) {
+      body.classList.add(mode);
+      const btnMap = { 'dark-mode': 'btn-dark', 'sepia-mode': 'btn-sepia', 'hc-mode': 'btn-hc' };
+      document.getElementById(btnMap[mode]).classList.add('active');
+    }
+    localStorage.setItem('colorMode', mode || '');
   }
 
-  // Reset all 
-  document.getElementById("resetAllBtn").onclick = () => {
-    ["zoomFontSize", "customLineHeight", "fontFamily", "fontColor", "bgColor", "sidebarHidden"].forEach(k => localStorage.removeItem(k));
-    fontSize = 100; lineHeight = 1.6;
-    body.classList.remove("wide-mode");
-    applyFontSize(); applyLineHeight();
-    document.querySelectorAll("main, article, .page-content, .wrapper").forEach(el => {
-      el.style.fontFamily = ""; el.style.color = "";
-    });
-    body.style.backgroundColor = "";
-    fontSelector.value = ""; fontColorSelect.value = ""; bgSelect.value = "";
+  document.getElementById('btn-dark').onclick  = () => applyColorMode(body.classList.contains('dark-mode')  ? '' : 'dark-mode');
+  document.getElementById('btn-sepia').onclick = () => applyColorMode(body.classList.contains('sepia-mode') ? '' : 'sepia-mode');
+  document.getElementById('btn-hc').onclick    = () => applyColorMode(body.classList.contains('hc-mode')    ? '' : 'hc-mode');
+
+  const savedMode = localStorage.getItem('colorMode');
+  if (savedMode) applyColorMode(savedMode);
+
+  /* ── WIDE MODE ── */
+  const wideModeBtn = document.getElementById('wideModeBtn');
+  if (localStorage.getItem('wideMode') === 'true') {
+    body.classList.add('wide-mode');
+    wideModeBtn.classList.add('active');
+  }
+  wideModeBtn.onclick = () => {
+    const on = body.classList.toggle('wide-mode');
+    wideModeBtn.classList.toggle('active', on);
+    localStorage.setItem('wideMode', on);
   };
 
-  // Back to top
-  const topBtn = document.getElementById("backToTopBtn");
-  window.addEventListener("scroll", () => topBtn.style.display = window.scrollY > 300 ? "block" : "none");
-  topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+  /* ── READING MODE ── */
+  const readingModeBtn = document.getElementById('readingModeBtn');
+  const readingStyle = document.createElement('style');
+  readingStyle.id = 'reading-mode-style';
+  readingStyle.textContent = `
+    body.reading-mode main,
+    body.reading-mode article,
+    body.reading-mode .page-content {
+      max-width: 680px !important;
+      margin: 0 auto !important;
+      padding: 1em 1.5em !important;
+    }
+  `;
+
+  if (localStorage.getItem('readingMode') === 'true') {
+    body.classList.add('reading-mode');
+    document.head.appendChild(readingStyle);
+    readingModeBtn.classList.add('active');
+  }
+  readingModeBtn.onclick = () => {
+    const on = body.classList.toggle('reading-mode');
+    readingModeBtn.classList.toggle('active', on);
+    if (on) { document.head.appendChild(readingStyle); }
+    else { const s = document.getElementById('reading-mode-style'); if (s) s.remove(); }
+    localStorage.setItem('readingMode', on);
+  };
+
+  /* ── READING TIME ── */
+  const content = document.querySelector('main, article, .page-content');
+  if (content) {
+    const words = content.innerText.trim().split(/\s+/).length;
+    const mins  = Math.ceil(words / 200);
+    document.getElementById('readingTimeDisplay').textContent =
+      `~${mins} min read (${words.toLocaleString()} words)`;
+  }
+
+  /* ── COPY URL ── */
+  document.getElementById('copyUrlBtn').onclick = () => {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      const fb = document.getElementById('copyFeedback');
+      fb.style.display = 'block';
+      setTimeout(() => fb.style.display = 'none', 2000);
+    });
+  };
+
+  /* ── PRINT ── */
+  document.getElementById('printBtn').onclick = () => window.print();
+
+  /* ── RESET ALL ── */
+  document.getElementById('resetAllBtn').onclick = () => {
+    ['zoomFontSize','customLineHeight','letterSpacing','wordSpacing',
+     'fontFamily','fontColor','bgColor','colorMode','wideMode',
+     'readingMode','toolboxOpen','toolboxTab'].forEach(k => localStorage.removeItem(k));
+
+    applyFontSize(100);
+    applyLineHeight(1.6);
+    applyLetterSpacing(0);
+    applyWordSpacing(0);
+    applyFont('');
+    applyFontColor('');
+    applyBackground('');
+    applyColorMode('');
+
+    body.classList.remove('wide-mode', 'reading-mode');
+    wideModeBtn.classList.remove('active');
+    readingModeBtn.classList.remove('active');
+    const s = document.getElementById('reading-mode-style');
+    if (s) s.remove();
+
+    fontSelector.value = '';
+    fontColorSelect.value = '';
+    bgSelect.value = '';
+  };
+
+  /* ── BACK TO TOP ── */
+  const topBtn = document.getElementById('backToTopBtn');
+  window.addEventListener('scroll', () => topBtn.style.display = window.scrollY > 300 ? 'block' : 'none');
+  topBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
 });
 </script>
 {% endunless %}
