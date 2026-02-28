@@ -19,6 +19,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 5. [Version 1.2.1](#version-121)
 6. [Version 1.2.2](#version-122)
 7. [Version 1.2.3](#version-123)
+8. [Version 1.3](#version-13)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -210,3 +211,62 @@ Version 1.2 focuses on strengthening media coverage clusters, improving chronolo
 
 **Status** ✅ Done  
 Completion date: 22 February 2026  
+
+## Version 1.3
+
+- 36 new pages have been published this week between Sunday, 22 February 2026 (morning) and Saturday, 28 February 2026 (end of day).
+
+**Versions and Archive Structure**
+- The [/versions/](/versions/) page had grown substantially in length.
+- Task logs from Version 0.1 through Version 1.0 were consolidated into [Version 1 Archive](/versions/1/) for structural clarity and long-term maintainability.
+- The next archive page will be created after completion of Version 2.0.
+
+**Clusters**
+- Continued work on the [*Mint*](/clusters/sunil-abraham-mint/) newspaper cluster.
+  - Additional Mint articles were created and integrated.
+  - 
+**Videos**
+- The [/videos/](/videos/) section was expanded.
+  - Missing years were added.
+  - Additional videos were incorporated into relevant yearly pages.
+  - 
+**Newest Pages Interface**
+- The [/newest/](/newest/) sort and filter interface was enhanced with several usability improvements:
+  - Active sort button highlighting.
+  - Live result count display.
+  - "✕ Clear Filters" button.
+  - URL-based deep linking for shareable filtered views.
+  - Introduction of a `?year=` URL parameter.
+  - Dedicated no-results message for empty filter states.
+
+**Utility Toolbox (v2.1 Redesign)**
+- The Utility Toolbox was redesigned with a cleaner single-panel layout.
+- New and improved controls include:
+  - Font selector (12 fonts, loaded on demand).
+  - Font size controls (buttons and sliders).
+  - Line height controls (buttons and sliders).
+  - Letter spacing slider.
+  - Word spacing slider.
+  - Font colour selector.
+  - Functional "Reset All" option.
+  - Toolbox open/close state persistence across page visits.
+
+**Navbar Refactor**
+- The navbar include was made self-contained.
+  - All navbar CSS and the `slideDown` animation were moved from `style.css` into `navbar.html` within an embedded `<style>` block.
+- Structural and accessibility improvements:
+  - Active page highlighting using `aria-current="page"`.
+  - `role="list"` added to menu.
+  - Mobile menu closes on link click.
+  - Mobile menu closes on outside click.
+
+**Header Refactor**
+- The header include was made self-contained.
+  - All header CSS moved into `header.html` within an embedded `<style>` block.
+- Selector corrections:
+  - `.site-header .site-title` updated to `.site-header .site-title a` to prevent global link colour override of gradient text.
+  - `.site-header p` updated to `.site-header .site-subtitle` for explicit targeting and clarity.
+
+**Status** ✅ Done  
+Completion date: 28 February 2026  
+Reporting time: 1 March 2026, 2:40 am IST
