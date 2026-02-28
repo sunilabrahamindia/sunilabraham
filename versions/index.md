@@ -206,8 +206,7 @@ Version 1.2 focuses on strengthening media coverage clusters, improving chronolo
 - Created a new Extended URL Shortcut section to support multi-letter shortcut paths, improving navigational flexibility and future-proofing short URL design.
 
 **Milestones**
-- Created [Repeat after me (Tweet Series)](/sunil/repeat-after-me/) — an article documenting Sunil Abraham’s February 2017 Aadhaar tweet thread.
-  - Marked as the 600th article published on TSAP.
+- Created [Repeat after me (Tweet Series)](/sunil/repeat-after-me/) — an article documenting Sunil Abraham’s February 2017 Aadhaar tweet thread. Marked as the 600th article published on TSAP.
 
 **Status** ✅ Done  
 Completion date: 22 February 2026  
