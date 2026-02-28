@@ -222,14 +222,11 @@ Completion date: 22 February 2026
 - The next archive page will be created after completion of Version 2.0.
 
 **Clusters**
-- Continued work on the [*Mint*](/clusters/sunil-abraham-mint/) newspaper cluster.
-  - Additional Mint articles were created and integrated.
-  - 
+- Continued work on the [*Mint*](/clusters/sunil-abraham-mint/) newspaper cluster. Additional Mint articles were created and integrated.
+
 **Videos**
-- The [/videos/](/videos/) section was expanded.
-  - Missing years were added.
-  - Additional videos were incorporated into relevant yearly pages.
-  - 
+- The [/videos/](/videos/) section was expanded. Missing years were added. Additional videos were incorporated into relevant yearly pages.
+
 **Newest Pages Interface**
 - The [/newest/](/newest/) sort and filter interface was enhanced with several usability improvements:
   - Active sort button highlighting.
