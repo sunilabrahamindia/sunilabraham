@@ -2,7 +2,7 @@
 layout: default
 title: "TSAP Days"
 permalink: /tsapdays/
-categories: [Project pages]
+categories: [Project pages, TSAP Events and Rituals]
 created: 2026-01-21
 ---
 <div id="streak-page-wrapper">
