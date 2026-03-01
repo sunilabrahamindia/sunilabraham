@@ -65,7 +65,7 @@ created: 2026-03-01
   <div class="chaitali-content">
     <p class="chaitali-eyebrow">The Sunil Abraham Project</p>
     <h1 class="chaitali-title">Chaitali</h1>
-    <p class="chaitali-subtitle">In the Turning Light</p>
+    <p class="chaitali-subtitle">In the Turning Light — Content in Development</p>
     <hr class="chaitali-rule">
     <p class="chaitali-dates">1 March &#8211; 14 April 2026 &nbsp;&middot;&nbsp; Month of Chaitra</p>
   </div>
