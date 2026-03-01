@@ -65,7 +65,7 @@ created: 2026-03-01
   <div class="chaitali-content">
     <p class="chaitali-eyebrow">The Sunil Abraham Project</p>
     <h1 class="chaitali-title">Chaitali</h1>
-    <p class="chaitali-subtitle">In the Turning Light — Content in Development</p>
+    <p class="chaitali-subtitle">In the Turning Light</p>
     <hr class="chaitali-rule">
     <p class="chaitali-dates">1 March &#8211; 14 April 2026 &nbsp;&middot;&nbsp; Month of Chaitra</p>
   </div>
@@ -81,58 +81,6 @@ Chaitali focuses on the systematic expansion of existing pages, the creation of 
 
 ## Chaitra
 
-<figure class="chaitali-poem">
-  <img
-    src="/tsap/images/chaitali-tagore-poem-tumi.jpg"
-    alt="Autograph manuscript in Bengali by Rabindranath Tagore beginning with 'তুমি যদি বক্ষোমাঝে থাক নিরবধি'"
-    loading="lazy"
-  />
-<figcaption>
-
-<p>Autograph manuscript of a poem by Rabindranath Tagore, included in <em>Chaitali</em>.</p>
-
-<div class="poem-wrapper">
-
-  <!-- Bengali -->
-  <div class="poem-bn">
-    <p>
-      তুমি যদি বক্ষোমাঝে থাক নিরবধি,<br>
-      তোমার আনন্দমূর্তি নিত্য হেরে যদি
-    </p>
-
-    <details class="poem-more">
-      <summary></summary>
-      <p>
-        এ মুগ্ধ নয়ন মোর, &#8212; পরাণ-বল্লভ,<br>
-        তোমার কোমলকান্ত চরণ পল্লব<br>
-        চিরস্পর্শ রেখে দেয় জীবন তরীতে,&#8212;<br>
-        কোনো ভয় নাহি করি বাঁচিতে মরিতে।
-      </p>
-    </details>
-  </div>
-
-  <!-- English -->
-  <div class="poem-en">
-    <p>
-      If you dwell within my heart without end,<br>
-      If my enchanted eyes behold your form of bliss
-    </p>
-
-    <details class="poem-more">
-      <summary></summary>
-      <p>
-        Each day &#8212; O beloved of my soul &#8212;<br>
-        If the tender grace of your feet<br>
-        Leaves its abiding touch upon the vessel of my life,<br>
-        I shall fear nothing &#8212; in living or in dying.
-      </p>
-    </details>
-  </div>
-
-</div>
-
-</figcaption>
-</figure>
 Chaitra (Devanagari: चैत्र) is a traditional month name used in several Indian calendar systems. The name "Chaitra" is derived from the Chitra nakshatra (lunar asterism), with which the full moon of the month is traditionally associated. In many lunisolar calendars across northern, western, and parts of southern India, Chaitra is treated as the first month of the year and marks the beginning of a new annual cycle. In regional solar calendars such as those used in Bengal (Bangla: চৈত্র) and Odisha (Odia: ଚୈତ୍ର), Chaitra appears as the twelfth and final month of the year, preceding the start of the new regional year in mid-April.
 
 Although calendar structures vary across India, the period corresponding to Chaitra generally falls in March–April in the Gregorian calendar and is associated with seasonal transition.
@@ -141,21 +89,55 @@ Although calendar structures vary across India, the period corresponding to Chai
 
 The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoking the mood and temporal associations of the month. Rabindranath Tagore published a poetry collection under this title in 1896. The collection was later included in Tagore's compiled poetical works published by Visva-Bharati.
 
+<figure class="chaitali-poem">
+  <img
+    src="/tsap/images/chaitali-tagore-poem-tumi.jpg"
+    alt="Autograph manuscript in Bengali by Rabindranath Tagore beginning with 'তুমি যদি বক্ষোমাঝে থাক নিরবধি'"
+    loading="lazy"
+  />
+  <figcaption>
+    Autograph manuscript of a poem by Rabindranath Tagore, included in <em>Chaitali</em>.<br>
+    <strong>Bengali:</strong><br>
+    তুমি যদি বক্ষোমাঝে থাক নিরবধি,<br>
+    তোমার আনন্দমূর্তি নিত্য হেরে যদি<br>
+    এ মুগ্ধ নয়ন মোর, &#8212; পরাণ-বল্লভ,<br>
+    তোমার কোমলকান্ত চরণ পল্লব<br>
+    চিরস্পর্শ রেখে দেয় জীবন তরীতে,&#8212;<br>
+    কোনো ভয় নাহি করি বাঁচিতে মরিতে।<br>
+    <strong>English translation:</strong><br>
+    If you dwell within my bosom without end,<br>
+    If my enchanted eyes behold your form of bliss<br>
+    Each day &#8212; O beloved of my soul &#8212;<br>
+    If the tender grace of your feet<br>
+    Leaves its abiding touch upon the vessel of my life,<br>
+    I shall fear nothing &#8212; in living or in dying.
+  </figcaption>
+</figure>
+
 ## Pages Created During Chaitali
 
 <ol class="chaitali-pages-list">
+{% assign start = "2026-03-01" | date: "%s" | plus: 0 %}
+{% assign end = "2026-04-14" | date: "%s" | plus: 0 %}
+
 {% assign chaitali_pages = site.pages
   | where_exp: "p", "p.created"
   | sort: "created" %}
+
 {% for p in chaitali_pages %}
   {% assign d = p.created | date: "%s" | plus: 0 %}
-  {% assign start = "2026-03-01" | date: "%s" | plus: 0 %}
-  {% assign end = "2026-04-14" | date: "%s" | plus: 0 %}
   {% if d >= start and d <= end %}
-<li class="chaitali-page-item">
-  <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-  <span class="chaitali-page-date"> — {{ p.created | date: "%-d %B %Y" }}</span>
-</li>
+    <li class="chaitali-page-item">
+      <span class="chaitali-page-date">
+        {{ p.created | date: "%-d %B %Y" }}
+      </span>:
+      <a href="{{ p.url | relative_url }}">
+        {{ p.title }}
+      </a>
+      {% if p.description %}
+        — {{ p.description }}
+      {% endif %}
+    </li>
   {% endif %}
 {% endfor %}
 </ol>
@@ -271,6 +253,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 }
 
 .chaitali-eyebrow {
+  font-family: inherit;
   font-size: clamp(0.6rem, 0.8vw, 0.75rem);
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -282,7 +265,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   font-family: inherit;
   font-weight: 300;
   font-style: italic;
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
   line-height: 1;
   color: #fde8b0;
   text-shadow: 0 0 60px rgba(255,160,40,0.4), 0 2px 8px rgba(0,0,0,0.6);
@@ -317,40 +300,24 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 }
 
 /* Poem */
-/* Default (mobile first) */
 .chaitali-poem {
-  max-width: 560px;
+  max-width: 600px;
   margin: 2rem auto;
   text-align: center;
 }
-
 .chaitali-poem img {
   width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-  border: 1px solid #ddd;
 }
-
 .chaitali-poem figcaption {
-  margin-top: 0.85rem;
-  font-size: 0.88rem;
-  line-height: 1.75;
-  color: #444;
-  border-top: 1px solid #e0e0e0;
-  padding-top: 0.75rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #222;
 }
-
-/* Desktop enhancement */
-@media (min-width: 900px) {
-  .chaitali-poem {
-    float: right;
-    max-width: 350px;
-    margin: 0 0 1.5rem 2rem;
-    text-align: left;
-  }
-}
-  /* Chaitali pages list */
+    /* Chaitali pages list */
 .chaitali-pages-list {
   padding-left: 1.4em;
   line-height: 1.8;
@@ -366,36 +333,5 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 .chaitali-page-date {
   color: #555;
   font-size: 0.9em;
-}
-/* --- Clean poem layout --- */
-
-.poem-wrapper {
-  margin-top: 0.5rem;
-}
-
-.poem-wrapper p {
-  margin: 0;
-}
-
-.poem-more summary {
-  cursor: pointer;
-  list-style: none;
-}
-
-.poem-more summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Desktop side-by-side */
-@media (min-width: 900px) {
-  .poem-wrapper {
-    display: flex;
-    gap: 2rem;
-  }
-
-  .poem-bn,
-  .poem-en {
-    flex: 1;
-  }
 }
 </style>
