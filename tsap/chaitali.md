@@ -87,23 +87,44 @@ Chaitali focuses on the systematic expansion of existing pages, the creation of 
     alt="Autograph manuscript in Bengali by Rabindranath Tagore beginning with 'তুমি যদি বক্ষোমাঝে থাক নিরবধি'"
     loading="lazy"
   />
-  <figcaption>
-    Autograph manuscript of a poem by Rabindranath Tagore, included in <em>Chaitali</em>.<br>
-    <strong>Bengali poem reads:</strong><br>
-    তুমি যদি বক্ষোমাঝে থাক নিরবধি,<br>
-    তোমার আনন্দমূর্তি নিত্য হেরে যদি<br>
-    এ মুগ্ধ নয়ন মোর, &#8212; পরাণ-বল্লভ,<br>
-    তোমার কোমলকান্ত চরণ পল্লব<br>
-    চিরস্পর্শ রেখে দেয় জীবন তরীতে,&#8212;<br>
-    কোনো ভয় নাহি করি বাঁচিতে মরিতে।<br>
-    <strong>English translation:</strong><br>
-    If you dwell within my bosom without end,<br>
-    If my enchanted eyes behold your form of bliss<br>
-    Each day &#8212; O beloved of my soul &#8212;<br>
-    If the tender grace of your feet<br>
-    Leaves its abiding touch upon the vessel of my life,<br>
-    I shall fear nothing &#8212; in living or in dying.
-  </figcaption>
+<figcaption>
+  <p>
+    Autograph manuscript of a poem by Rabindranath Tagore, included in <em>Chaitali</em>.
+  </p>
+
+  <details class="poem-details">
+    <summary>
+      Bengali poem reads:<br>
+      তুমি যদি বক্ষোমাঝে থাক নিরবধি,<br>
+      তোমার আনন্দমূর্তি নিত্য হেরে যদি<br>
+      এ মুগ্ধ নয়ন মোর, &#8212; পরাণ-বল্লভ,<br>
+      তোমার কোমলকান্ত চরণ পল্লব<br>
+      <span class="read-more">Read more</span>
+    </summary>
+
+    <div class="poem-columns">
+
+      <div class="poem-bn">
+        তুমি যদি বক্ষোমাঝে থাক নিরবধি,<br>
+        তোমার আনন্দমূর্তি নিত্য হেরে যদি<br>
+        এ মুগ্ধ নয়ন মোর, &#8212; পরাণ-বল্লভ,<br>
+        তোমার কোমলকান্ত চরণ পল্লব<br>
+        চিরস্পর্শ রেখে দেয় জীবন তরীতে,&#8212;<br>
+        কোনো ভয় নাহি করি বাঁচিতে মরিতে।
+      </div>
+
+      <div class="poem-en">
+        If you dwell within my bosom without end,<br>
+        If my enchanted eyes behold your form of bliss<br>
+        Each day &#8212; O beloved of my soul &#8212;<br>
+        If the tender grace of your feet<br>
+        Leaves its abiding touch upon the vessel of my life,<br>
+        I shall fear nothing &#8212; in living or in dying.
+      </div>
+
+    </div>
+  </details>
+</figcaption>
 </figure>
 Chaitra (Devanagari: चैत्र) is a traditional month name used in several Indian calendar systems. The name "Chaitra" is derived from the Chitra nakshatra (lunar asterism), with which the full moon of the month is traditionally associated. In many lunisolar calendars across northern, western, and parts of southern India, Chaitra is treated as the first month of the year and marks the beginning of a new annual cycle. In regional solar calendars such as those used in Bengal (Bangla: চৈত্র) and Odisha (Odia: ଚୈତ୍ର), Chaitra appears as the twelfth and final month of the year, preceding the start of the new regional year in mid-April.
 
@@ -338,5 +359,47 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 .chaitali-page-date {
   color: #555;
   font-size: 0.9em;
+}
+  /* Details styling */
+.poem-details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.poem-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.read-more {
+  display: block;
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 0.4em;
+}
+
+/* Default (mobile) – stacked */
+.poem-columns {
+  margin-top: 1rem;
+}
+
+.poem-en {
+  margin-top: 1rem;
+}
+
+/* Desktop side-by-side */
+@media (min-width: 900px) {
+  .poem-columns {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .poem-bn,
+  .poem-en {
+    flex: 1;
+  }
+
+  .poem-en {
+    margin-top: 0;
+  }
 }
 </style>
