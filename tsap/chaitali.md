@@ -65,7 +65,7 @@ created: 2026-03-01
   <div class="chaitali-content">
     <p class="chaitali-eyebrow">The Sunil Abraham Project</p>
     <h1 class="chaitali-title">Chaitali</h1>
-    <p class="chaitali-subtitle">In the Turning Light</p>
+    <p class="chaitali-subtitle">In the Turning Light — Content in Development</p>
     <hr class="chaitali-rule">
     <p class="chaitali-dates">1 March &#8211; 14 April 2026 &nbsp;&middot;&nbsp; Month of Chaitra</p>
   </div>
@@ -115,6 +115,25 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
     I shall fear nothing &#8212; in living or in dying.
   </figcaption>
 </figure>
+
+## Pages Created During Chaitali
+
+<ol class="chaitali-pages-list">
+{% assign chaitali_pages = site.pages
+  | where_exp: "p", "p.created"
+  | sort: "created" %}
+{% for p in chaitali_pages %}
+  {% assign d = p.created | date: "%s" | plus: 0 %}
+  {% assign start = "2026-03-01" | date: "%s" | plus: 0 %}
+  {% assign end = "2026-04-14" | date: "%s" | plus: 0 %}
+  {% if d >= start and d <= end %}
+<li class="chaitali-page-item">
+  <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+  <span class="chaitali-page-date"> — {{ p.created | date: "%-d %B %Y" }}</span>
+</li>
+  {% endif %}
+{% endfor %}
+</ol>
 
 <style>
 .chaitali-banner {
@@ -298,5 +317,22 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   margin-bottom: 0.6rem;
   color: #222;
   font-size: 0.9rem;
+}
+  /* Chaitali pages list */
+.chaitali-pages-list {
+  padding-left: 1.4em;
+  line-height: 1.8;
+  margin-top: 0.5em;
+}
+.chaitali-page-item a {
+  color: #0645ad;
+  text-decoration: none;
+}
+.chaitali-page-item a:hover {
+  text-decoration: underline;
+}
+.chaitali-page-date {
+  color: #555;
+  font-size: 0.9em;
 }
 </style>
