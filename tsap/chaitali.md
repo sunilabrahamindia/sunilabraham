@@ -114,7 +114,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   </figcaption>
 </figure>
 
-## Pages Created During Chaitali
+## Pages Created During Chaitali 2026
 
 <ol class="chaitali-pages-list">
 {% assign start = "2026-03-01" | date: "%s" | plus: 0 %}
@@ -301,8 +301,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 
 /* Poem */
 .chaitali-poem {
-  max-width: 500px;
-  margin: 1rem auto;
+  max-width: 400px;
   text-align: center;
 }
 .chaitali-poem img {
@@ -312,9 +311,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   margin: 0 auto;
 }
 .chaitali-poem figcaption {
-  margin-top: 1rem;
-  font-size: 0.80rem;
-  line-height: 1.1;
+  font-size: 0.90rem;
   color: #222;
 }
     /* Chaitali pages list */
