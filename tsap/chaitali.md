@@ -117,12 +117,10 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 </figure>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=EB+Garamond:ital,wght@0,400;1,400&display=swap');
-
 .chaitali-banner {
   position: relative;
   width: 100%;
-  min-height: clamp(260px, 40vw, 480px);
+  min-height: clamp(220px, 28vw, 320px);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -171,7 +169,6 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 
 @media (prefers-reduced-motion: no-preference) {
 
-  /* Drift left-to-right, moderate spin */
   @keyframes drift-a {
     0%   { transform: translateY(-20px) translateX(0) rotate(0deg); opacity: 0; }
     8%   { opacity: 0.75; }
@@ -179,7 +176,6 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
     100% { transform: translateY(110%) translateX(60px) rotate(400deg); opacity: 0; }
   }
 
-  /* Drift right-to-left, slow float */
   @keyframes drift-b {
     0%   { transform: translateY(-10px) translateX(0) rotate(20deg); opacity: 0; }
     8%   { opacity: 0.65; }
@@ -188,7 +184,6 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
     100% { transform: translateY(110%) translateX(-80px) rotate(320deg); opacity: 0; }
   }
 
-  /* Gentle rise then fall, lazy tumble */
   @keyframes drift-c {
     0%   { transform: translateY(0px) translateX(0) rotate(-10deg); opacity: 0; }
     5%   { opacity: 0.6; }
@@ -197,7 +192,6 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
     100% { transform: translateY(110%) translateX(30px) rotate(500deg); opacity: 0; }
   }
 
-  /* Fast spin, straight fall */
   @keyframes drift-d {
     0%   { transform: translateY(-15px) translateX(0) rotate(0deg); opacity: 0; }
     6%   { opacity: 0.8; }
@@ -215,14 +209,13 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   .p9 { animation: drift-b 8.5s 3.5s linear infinite; }
 }
 
-/* Petal sizes, colours, positions */
 .p1 { width: 9px;  height: 14px; background: #d03010; top: 3%;  left: 15%; }
 .p2 { width: 7px;  height: 11px; background: #e84818; top: 1%;  left: 30%; }
 .p3 { width: 10px; height: 15px; background: #c02808; top: 5%;  left: 52%; }
 .p4 { width: 8px;  height: 13px; background: #e8d040; top: 2%;  left: 38%; border-radius: 50% 0 50% 50%; }
 .p5 { width: 7px;  height: 10px; background: #f0e060; top: 6%;  left: 68%; border-radius: 50% 0 50% 50%; }
-.p6 { width: 11px; height: 7px;  background: #6ab830; top: 4%;  left: 60%; border-radius: 50% 50% 0 50%; opacity: 0; }
-.p7 { width: 9px;  height: 6px;  background: #88cc44; top: 2%;  left: 78%; border-radius: 50% 50% 0 50%; opacity: 0; }
+.p6 { width: 11px; height: 7px;  background: #6ab830; top: 4%;  left: 60%; border-radius: 50% 50% 0 50%; }
+.p7 { width: 9px;  height: 6px;  background: #88cc44; top: 2%;  left: 78%; border-radius: 50% 50% 0 50%; }
 .p8 { width: 8px;  height: 12px; background: #f0c840; top: 1%;  left: 45%; border-radius: 40% 60% 60% 40%; }
 .p9 { width: 6px;  height: 9px;  background: #e85828; top: 7%;  left: 85%; }
 
@@ -230,12 +223,12 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 5vw, 4rem);
+  padding: clamp(1rem, 2.5vw, 1.8rem) clamp(1rem, 4vw, 3rem);
 }
 
 .chaitali-eyebrow {
-  font-family: 'EB Garamond', 'Palatino Linotype', Palatino, Georgia, serif;
-  font-size: clamp(0.65rem, 1.2vw, 0.85rem);
+  font-family: inherit;
+  font-size: clamp(0.6rem, 0.8vw, 0.75rem);
   letter-spacing: 0.25em;
   text-transform: uppercase;
   color: rgba(255, 210, 140, 0.75);
@@ -243,10 +236,10 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 }
 
 .chaitali-title {
-  font-family: 'Cormorant Garamond', 'Palatino Linotype', Palatino, Georgia, serif;
+  font-family: inherit;
   font-weight: 300;
   font-style: italic;
-  font-size: clamp(3rem, 10vw, 7.5rem);
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
   line-height: 1;
   color: #fde8b0;
   text-shadow: 0 0 60px rgba(255,160,40,0.4), 0 2px 8px rgba(0,0,0,0.6);
@@ -255,10 +248,10 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 }
 
 .chaitali-subtitle {
-  font-family: 'Cormorant Garamond', 'Palatino Linotype', Palatino, Georgia, serif;
+  font-family: inherit;
   font-weight: 400;
   font-style: italic;
-  font-size: clamp(1rem, 2.8vw, 1.8rem);
+  font-size: clamp(0.9rem, 1.8vw, 1.2rem);
   color: rgba(255, 220, 160, 0.85);
   letter-spacing: 0.05em;
   margin-bottom: clamp(0.6rem, 1.5vw, 1.1rem);
@@ -273,15 +266,15 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 }
 
 .chaitali-dates {
-  font-family: 'EB Garamond', 'Palatino Linotype', Palatino, Georgia, serif;
-  font-size: clamp(0.7rem, 1.3vw, 0.9rem);
+  font-family: inherit;
+  font-size: clamp(0.6rem, 0.85vw, 0.78rem);
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: rgba(255, 200, 120, 0.65);
 }
 
 /* Poem */
-  .chaitali-poem {
+.chaitali-poem {
   max-width: 600px;
   margin: 2rem auto;
   text-align: center;
