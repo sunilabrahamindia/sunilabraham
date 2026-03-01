@@ -73,9 +73,7 @@ created: 2026-03-01
 
 **Chaitali** (IPA: /t͡ʃoi̯t̪ali/; IAST: Caitālī) is a structured documentation and content development cycle on [**The Sunil Abraham Project**](/sunil-abraham-project/) (TSAP). The first Chaitali cycle runs from Sunday, 1 March 2026 to Tuesday, 14 April 2026, concluding on the final day of the month of Chaitra. Undertaken during a period recognised across multiple Indian calendar traditions as one of transition and renewal, Chaitali designates focused time for content creation, expansion of existing work, and forward planning within TSAP.
 
-Rather than functioning as a productivity sprint, Chaitali is framed as a steady and disciplined phase of growth aligned with the transitional character of the Chaitra period.
-
-Chaitali 2026 is documented as part of the evolving institutional history of TSAP. Future iterations, if undertaken, may develop independently in scope and structure.
+Rather than functioning as a productivity sprint, Chaitali is framed as a steady and disciplined phase of growth aligned with the transitional character of the Chaitra period. Chaitali 2026 is documented as part of the evolving institutional history of TSAP. Future iterations, if undertaken, may develop independently in scope and structure.
 
 ## Scope and Outputs
 
@@ -292,11 +290,13 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 }
 
 /* Poem */
+/* Default (mobile first) */
 .chaitali-poem {
   max-width: 560px;
   margin: 2rem auto;
   text-align: center;
 }
+
 .chaitali-poem img {
   width: 100%;
   height: auto;
@@ -304,6 +304,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   margin: 0 auto;
   border: 1px solid #ddd;
 }
+
 .chaitali-poem figcaption {
   margin-top: 0.85rem;
   font-size: 0.88rem;
@@ -312,11 +313,15 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   border-top: 1px solid #e0e0e0;
   padding-top: 0.75rem;
 }
-.chaitali-poem figcaption strong:first-child {
-  display: block;
-  margin-bottom: 0.6rem;
-  color: #222;
-  font-size: 0.9rem;
+
+/* Desktop enhancement */
+@media (min-width: 900px) {
+  .chaitali-poem {
+    float: right;
+    max-width: 420px;
+    margin: 0 0 1.5rem 2rem;
+    text-align: left;
+  }
 }
   /* Chaitali pages list */
 .chaitali-pages-list {
