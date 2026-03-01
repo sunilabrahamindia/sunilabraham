@@ -317,7 +317,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 @media (min-width: 900px) {
   .chaitali-poem {
     float: right;
-    max-width: 260px;
+    max-width: 350px;
     margin: 0 0 1.5rem 2rem;
     text-align: left;
   }
