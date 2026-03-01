@@ -81,14 +81,6 @@ Chaitali focuses on the systematic expansion of existing pages, the creation of 
 
 ## Chaitra
 
-Chaitra (Devanagari: चैत्र) is a traditional month name used in several Indian calendar systems. The name "Chaitra" is derived from the Chitra nakshatra (lunar asterism), with which the full moon of the month is traditionally associated. In many lunisolar calendars across northern, western, and parts of southern India, Chaitra is treated as the first month of the year and marks the beginning of a new annual cycle. In regional solar calendars such as those used in Bengal (Bangla: চৈত্র) and Odisha (Odia: ଚୈତ୍ର), Chaitra appears as the twelfth and final month of the year, preceding the start of the new regional year in mid-April.
-
-Although calendar structures vary across India, the period corresponding to Chaitra generally falls in March–April in the Gregorian calendar and is associated with seasonal transition.
-
-**Tagore's *Chaitali***
-
-The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoking the mood and temporal associations of the month. Rabindranath Tagore published a poetry collection under this title in 1896. The collection was later included in Tagore's compiled poetical works published by Visva-Bharati.
-
 <figure class="chaitali-poem">
   <img
     src="/tsap/images/chaitali-tagore-poem-tumi.jpg"
@@ -113,6 +105,13 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
     I shall fear nothing &#8212; in living or in dying.
   </figcaption>
 </figure>
+Chaitra (Devanagari: चैत्र) is a traditional month name used in several Indian calendar systems. The name "Chaitra" is derived from the Chitra nakshatra (lunar asterism), with which the full moon of the month is traditionally associated. In many lunisolar calendars across northern, western, and parts of southern India, Chaitra is treated as the first month of the year and marks the beginning of a new annual cycle. In regional solar calendars such as those used in Bengal (Bangla: চৈত্র) and Odisha (Odia: ଚୈତ୍ର), Chaitra appears as the twelfth and final month of the year, preceding the start of the new regional year in mid-April.
+
+Although calendar structures vary across India, the period corresponding to Chaitra generally falls in March–April in the Gregorian calendar and is associated with seasonal transition.
+
+**Tagore's *Chaitali***
+
+The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoking the mood and temporal associations of the month. Rabindranath Tagore published a poetry collection under this title in 1896. The collection was later included in Tagore's compiled poetical works published by Visva-Bharati.
 
 ## Pages Created During Chaitali
 
@@ -315,11 +314,11 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 }
 
 /* Desktop enhancement */
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .chaitali-poem {
-    display: block;
-    width: 420px;
-    margin: 0 0 1.5rem auto; /* pushes right */
+    float: right;
+    max-width: 260px;
+    margin: 0 0 1.5rem 2rem;
     text-align: left;
   }
 }
