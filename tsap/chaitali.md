@@ -105,7 +105,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
     এ মুগ্ধ নয়ন মোর, &#8212; পরাণ-বল্লভ,<br>
     তোমার কোমলকান্ত চরণ পল্লব<br>
     চিরস্পর্শ রেখে দেয় জীবন তরীতে,&#8212;<br>
-    কোনো ভয় নাহি করি বাঁচিতে মরিতে।<br><br>
+    কোনো ভয় নাহি করি বাঁচিতে মরিতে।<br>
     <strong>English translation:</strong><br>
     If you dwell within my bosom without end,<br>
     If my enchanted eyes behold your form of bliss<br>
@@ -227,7 +227,6 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 }
 
 .chaitali-eyebrow {
-  font-family: inherit;
   font-size: clamp(0.6rem, 0.8vw, 0.75rem);
   letter-spacing: 0.25em;
   text-transform: uppercase;
