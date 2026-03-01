@@ -87,7 +87,7 @@ Chaitra (Devanagari: चैत्र) is a traditional month name used in severa
 
 Although calendar structures vary across India, the period corresponding to Chaitra generally falls in March–April in the Gregorian calendar and is associated with seasonal transition.
 
-## Tagore's *Chaitali*
+**Tagore's *Chaitali***
 
 The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoking the mood and temporal associations of the month. Rabindranath Tagore published a poetry collection under this title in 1896. The collection was later included in Tagore's compiled poetical works published by Visva-Bharati.
 
@@ -98,7 +98,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
     loading="lazy"
   />
   <figcaption>
-    <strong>Autograph manuscript of a poem by Rabindranath Tagore, included in <em>Chaitali</em>.</strong><br><br>
+    Autograph manuscript of a poem by Rabindranath Tagore, included in <em>Chaitali</em>.<br>
     <strong>Bengali poem reads:</strong><br>
     তুমি যদি বক্ষোমাঝে থাক নিরবধি,<br>
     তোমার আনন্দমূর্তি নিত্য হেরে যদি<br>
@@ -239,7 +239,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   font-family: inherit;
   font-weight: 300;
   font-style: italic;
-  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  font-size: clamp(1.8rem, 4vw, 3rem);
   line-height: 1;
   color: #fde8b0;
   text-shadow: 0 0 60px rgba(255,160,40,0.4), 0 2px 8px rgba(0,0,0,0.6);
@@ -275,7 +275,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 
 /* Poem */
 .chaitali-poem {
-  max-width: 600px;
+  max-width: 560px;
   margin: 2rem auto;
   text-align: center;
 }
@@ -284,11 +284,20 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   height: auto;
   display: block;
   margin: 0 auto;
+  border: 1px solid #ddd;
 }
 .chaitali-poem figcaption {
-  margin-top: 1rem;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  margin-top: 0.85rem;
+  font-size: 0.88rem;
+  line-height: 1.75;
+  color: #444;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 0.75rem;
+}
+.chaitali-poem figcaption strong:first-child {
+  display: block;
+  margin-bottom: 0.6rem;
   color: #222;
+  font-size: 0.9rem;
 }
 </style>
