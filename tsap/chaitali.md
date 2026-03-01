@@ -105,7 +105,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
     চিরস্পর্শ রেখে দেয় জীবন তরীতে,&#8212;<br>
     কোনো ভয় নাহি করি বাঁচিতে মরিতে।<br>
     <strong>English translation:</strong><br>
-    If you dwell within my bosom without end,<br>
+    If you dwell within my heart without end,<br>
     If my enchanted eyes behold your form of bliss<br>
     Each day &#8212; O beloved of my soul &#8212;<br>
     If the tender grace of your feet<br>
