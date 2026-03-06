@@ -8,18 +8,9 @@ created: 2025-10-31
 ---
 
 {% assign all_pages = site.pages | where_exp: "p", "p.created" %}
+{% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" | sort: "title" %}
 
-{% assign all_categories = "" | split: "" %}
-{% for p in all_pages %}
-  {% for cat in p.categories %}
-    {% unless all_categories contains cat %}
-      {% assign all_categories = all_categories | push: cat %}
-    {% endunless %}
-  {% endfor %}
-{% endfor %}
-{% assign all_categories = all_categories | sort %}
-
-<p>This section is a directory of all content categories on <strong>sunilabraham.in</strong>. Browse {{ all_categories.size }} categories covering research, documentation, biographies, media, and more.</p>
+<p>This section is a directory of all content categories on <strong>sunilabraham.in</strong>. Browse {{ cat_pages.size }} categories covering research, documentation, biographies, media, and more.</p>
 
 <div class="controls-box">
 
@@ -45,16 +36,19 @@ created: 2025-10-31
 <p id="no-results" style="display:none; color: #a00; font-weight: bold;">No categories match your search.</p>
 
 <ul id="cat-list" class="cat-list">
-{% for cat in all_categories %}
-  {% assign cat_count = all_pages | where_exp: "p", "p.categories contains cat" | size %}
-  {% assign cat_slug = cat | slugify %}
+{% for cat in cat_pages %}
+  {% assign cat_name = cat.title | remove: "Category:" | strip %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.categories contains cat_name" | size %}
   <li
     class="cat-item"
-    data-name="{{ cat | downcase }}"
+    data-name="{{ cat_name | downcase }}"
     data-count="{{ cat_count }}"
   >
-    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}">{{ cat }}</a>
+    <a href="{{ cat.url | relative_url }}">{{ cat_name }}</a>
     <span class="count">({{ cat_count }})</span>
+    {% if cat.description %}
+      <br><small class="cat-desc">{{ cat.description }}</small>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
@@ -148,6 +142,12 @@ created: 2025-10-31
   color: #555;
   font-size: 0.9em;
   margin-left: 0.3em;
+}
+
+.cat-item .cat-desc {
+  color: #555;
+  font-size: 0.88em;
+  line-height: 1.5;
 }
 </style>
 
