@@ -10,7 +10,7 @@ permalink: /media/a-must-for-free-speech-the-week/
 created: 2026-01-13
 ---
 
-**A Must for Free Speech** is an opinion piece published in *The Week (India)* on 21 April 2015, written by Geetha Hariharan, then Programme Officer at Centre for Internet and Society. The article analyses India's net neutrality debate triggered by Airtel Zero and Facebook's Internet.org, examining how zero-rating practices could undermine free speech, innovation and market competition whilst carriers defended differential treatment as necessary for expanding internet access.
+**A Must for Free Speech** is an opinion piece published in *The Week (India)* on 21 April 2015, written by Geetha Hariharan, then Programme Officer at the Centre for Internet and Society. The article analyses India's net neutrality debate triggered by Airtel Zero and Facebook's Internet.org, examining how zero-rating practices could undermine free speech, innovation and market competition whilst carriers defended differential treatment as necessary for expanding internet access.
 
 ## Contents
 

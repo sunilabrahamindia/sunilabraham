@@ -9,7 +9,7 @@ permalink: /media/2012-the-year-social-media-came-of-age-in-india/
 created: 2025-12-11
 ---
 
-**2012: The Year Social Media Came of Age in India** is a report published in *The Economic Times* on 31 December 2012. It captures a defining moment when social media moved beyond novelty to become a central force in India’s political, cultural and civic life. From spontaneous protest mobilisation and hashtag-driven public scrutiny to rising digital political engagement, the article shows how online platforms began reshaping interactions between citizens and the state. It also includes cautionary analysis from Sunil Abraham on technological determinism, mobilisation dynamics and the interplay between online and offline activism.
+**2012: The Year Social Media Came of Age in India** is a report published in *The Economic Times* on 31 December 2012. It captures a defining moment when social media moved beyond novelty to become a central force in India’s political, cultural and civic life. From spontaneous protest mobilisation and hashtag-driven public scrutiny to rising digital political engagement, the article shows how online platforms began reshaping interactions between citizens and the state. It also includes cautionary analysis from [Sunil Abraham](/sunil/) on technological determinism, mobilisation dynamics and the interplay between online and offline activism.
 
 ## Contents
 

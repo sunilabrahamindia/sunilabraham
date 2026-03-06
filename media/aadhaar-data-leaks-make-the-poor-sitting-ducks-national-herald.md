@@ -10,7 +10,7 @@ permalink: /media/data-leaks-make-the-poor-sitting-ducks-national-herald/
 created: 2026-02-16
 ---
 
-**Data Leaks Make the Poor Sitting Ducks for Frauds, Identity Thefts** is a *National Herald* article published on 26 April 2017 by Sebastian PT examining Aadhaar-related data exposure and its implications for fraud, identity theft, and mass surveillance. The article quotes Sunil Abraham on biometric risk, database seeding, and the need for tokenisation instead of forced linking.
+**Data Leaks Make the Poor Sitting Ducks for Frauds, Identity Thefts** is a *National Herald* article published on 26 April 2017 by Sebastian PT examining Aadhaar-related data exposure and its implications for fraud, identity theft, and mass surveillance. The article quotes [Sunil Abraham](/sunil/) on biometric risk, database seeding, and the need for tokenisation instead of forced linking.
 
 ## Contents
 

@@ -10,7 +10,7 @@ permalink: /media/aadhaar-body-talked-about-virtual-id-7-years-ago-put-it-off/
 created: 2025-12-21
 ---
 
-**Aadhaar Body Talked About Virtual ID 7 Years Ago, Put It Off** is a news report written by Sukirti Dwivedi and published by *NDTV* on 13 January 2018. The article reveals that UIDAI's newly announced Virtual ID feature had been conceived during Aadhaar's initial design phase in 2009-10 but was deliberately postponed. It features critical commentary from Sunil Abraham and Pranesh Prakash of the Centre for Internet and Society, who argue that making Virtual ID optional represents "privacy through hurdles" rather than genuine privacy by design.
+**Aadhaar Body Talked About Virtual ID 7 Years Ago, Put It Off** is a news report written by Sukirti Dwivedi and published by *NDTV* on 13 January 2018. The article reveals that UIDAI's newly announced Virtual ID feature had been conceived during Aadhaar's initial design phase in 2009-10 but was deliberately postponed. It features critical commentary from [Sunil Abraham](/sunil/) and Pranesh Prakash of the Centre for Internet and Society, who argue that making Virtual ID optional represents "privacy through hurdles" rather than genuine privacy by design.
 
 ## Contents
 

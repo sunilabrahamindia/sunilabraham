@@ -10,7 +10,7 @@ permalink: /media/a-three-way-race-draws-delhis-young-out-to-vote/
 created: 2025-12-12
 ---
 
-**A Three-Way Race Draws Delhi's Young, and Everyone Else, Out to Vote** is a *New York Times India Ink* report published on 4 December 2013 by **Betwa Sharma**. It chronicles the unusually high voter turnout during the Delhi state elections, analysing how young voters were energised by issues such as corruption, rising prices and women's safety, and how the emergence of the Aam Aadmi Party disrupted long-standing political patterns. The piece also features insights from Sunil Abraham, who comments on the limited but growing role of social media in shaping political discourse and mainstream media coverage.
+**A Three-Way Race Draws Delhi's Young, and Everyone Else, Out to Vote** is a *New York Times India Ink* report published on 4 December 2013 by **Betwa Sharma**. It chronicles the unusually high voter turnout during the Delhi state elections, analysing how young voters were energised by issues such as corruption, rising prices and women's safety, and how the emergence of the Aam Aadmi Party disrupted long-standing political patterns. The piece also features insights from [Sunil Abraham](/sunil/), who comments on the limited but growing role of social media in shaping political discourse and mainstream media coverage.
 
 ## Contents
 

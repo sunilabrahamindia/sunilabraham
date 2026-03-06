@@ -10,7 +10,7 @@ permalink: /media/a-dangerous-trend-social-media-adds-fire-to-muzaffarnagar-clas
 created: 2026-01-02
 ---
 
-**A Dangerous Trend: Social Media Adds Fire to Muzaffarnagar Clashes** is a Hindustan Times report published on 3 December 2013. The article investigates how fake YouTube videos and morphed photographs circulated through social media platforms contributed to escalating communal violence in Muzaffarnagar, Uttar Pradesh. It examines the role of online platforms in spreading disinformation, the legal response by authorities, and debates around content censorship and free speech safeguards.
+**A Dangerous Trend: Social Media Adds Fire to Muzaffarnagar Clashes** is a *Hindustan Times* report published on 3 December 2013. The article investigates how fake YouTube videos and morphed photographs circulated through social media platforms contributed to escalating communal violence in Muzaffarnagar, Uttar Pradesh. It examines the role of online platforms in spreading disinformation, the legal response by authorities, and debates around content censorship and free speech safeguards.
 
 ## Contents
 
