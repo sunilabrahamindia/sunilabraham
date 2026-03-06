@@ -71,7 +71,7 @@ created: 2026-03-01
   </div>
 </section>
 
-**Chaitali** (IPA: /t͡ʃoi̯t̪ali/; IAST: Caitālī) is a structured documentation and content development cycle on [**The Sunil Abraham Project**](/sunil-abraham-project/) (TSAP). The first Chaitali cycle runs from Sunday, 1 March 2026 to Tuesday, 14 April 2026, concluding on the final day of the month of Chaitra. Undertaken during a period recognised across multiple Indian calendar traditions as one of transition and renewal, Chaitali designates focused time for content creation, expansion of existing work, and forward planning within TSAP.
+**Chaitali** (IPA: /t͡ʃoi̯t̪ali/; IAST: Caitālī) is a structured documentation and content development cycle on [**The Sunil Abraham Project**](/sunil-abraham-project/) (TSAP). The first Chaitali cycle runs from Sunday, 1 March 2026 to Tuesday, 14 April 2026, concluding on the final day of the month of Chaitra. Undertaken during a period recognised across several Indian calendar traditions as one of transition and renewal, Chaitali designates a focused phase for content creation, expansion of existing work, and forward planning within TSAP.
 
 Rather than functioning as a productivity sprint, Chaitali is framed as a steady and disciplined phase of growth aligned with the transitional character of the Chaitra period. Chaitali 2026 is documented as part of the evolving institutional history of TSAP. Future iterations, if undertaken, may develop independently in scope and structure.
 
@@ -116,14 +116,26 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 
 ## Pages Created During Chaitali 2026
 
-<ol class="chaitali-pages-list">
 {% assign start = "2026-03-01" | date: "%s" | plus: 0 %}
 {% assign end = "2026-04-14" | date: "%s" | plus: 0 %}
 
-{% assign chaitali_pages = site.pages
+{% assign chaitali_pages = site.pages | concat: site.documents
   | where_exp: "p", "p.created"
   | sort: "created" %}
 
+{% assign count = 0 %}
+{% for p in chaitali_pages %}
+  {% assign d = p.created | date: "%s" | plus: 0 %}
+  {% if d >= start and d <= end %}
+    {% assign count = count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<p class="chaitali-counter">
+<strong>{{ count }}</strong> pages created during Chaitali 2026.
+</p>
+
+<ol class="chaitali-pages-list">
 {% for p in chaitali_pages %}
   {% assign d = p.created | date: "%s" | plus: 0 %}
   {% if d >= start and d <= end %}
@@ -298,6 +310,12 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
   text-transform: uppercase;
   color: rgba(255, 200, 120, 0.65);
 }
+/* Chaitali counter */
+  .chaitali-counter {
+  font-size: 1rem;
+  margin: 0.6rem 0 1rem 0;
+  color: #222;
+}
 
 /* Poem */
 .chaitali-poem {
@@ -331,5 +349,11 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 .chaitali-page-date {
   color: #555;
   font-size: 0.9em;
+}
+  @media (prefers-reduced-motion: reduce) {
+  .petal {
+    animation: none !important;
+    opacity: 0.3;
+  }
 }
 </style>
