@@ -68,6 +68,20 @@
       font-size: 0.82rem;
     }
   }
+  .site-header .site-stats {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: #9ca3af;
+  margin-top: 0.45rem;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+  .site-header .site-stats {
+    font-size: 0.72rem;
+  }
+}
 </style>
 
 <header class="site-header">
@@ -76,5 +90,12 @@
       <a href="/">Sunil Abraham Project</a>
     </div>
     <p class="site-subtitle">Research · Innovation · Documentation</p>
+
+    {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
+    {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
+    <p class="site-stats">
+      {{ real_pages.size }} pages across {{ cat_pages.size }} categories
+    </p>
+
   </div>
 </header>
