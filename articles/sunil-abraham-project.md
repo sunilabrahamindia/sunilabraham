@@ -42,6 +42,8 @@ Page layouts across the site follow a defined pattern that balances readability 
 
 In appearance, the site maintains a plain and accessible design. Text is prioritised over decorative elements, and layout decisions focus on spacing, type clarity, and colour contrast to support users with varied reading conditions. The visual approach remains consistent with accessibility guidelines and avoids unnecessary complexity. Files are organised within a category structure that separates different kinds of content, including Publications, Biographies, Media, and Project Pages. The site is automatically rebuilt with every update, using GitHub Pages to ensure version control and transparency in publication.
 
+The editorial workflow of the project is closely tied to its version-controlled repository. Most routine updates are made through GitHub's browser editor, while larger maintenance tasks involving multiple files may be carried out through temporary cloud development environments such as GitHub Codespaces. These sessions allow batches of pages to be edited and committed together while preserving a transparent record of changes in the repository's commit history. Because all content is stored in open formats and maintained through version control, the entire archive can be reproduced or migrated with minimal technical dependencies.
+
 ## Timeline
 
 ### 2025
@@ -60,4 +62,7 @@ In appearance, the site maintains a plain and accessible design. Text is priorit
 - 4 January 2026 (Sunday) — The Sunil Abraham Project reached 400 articles with the publication of [*Plagiarism Is Rampant in Indian Food Writing*](/media/plagiarism-rampant-indian-food-writing-scroll/).
 - 23 January 2026 (Friday) — The Sunil Abraham Project reached 500 published articles with the publication of [*Surveillance Is Like Salt in Cooking*](/articles/surveillance-is-like-salt-in-cooking/).
 - 5 February 2026 (Thursday) — 550th article was published with [*The New Tattler in Town*](/media/the-new-tattler-in-town-hindu-businessline/).
+- 13 February 2026 (Friday) — The [33rd anniversary](/sfp33/) of the [Students for Peace](/articles/students-for-peace/) candlelight demonstration in Bangalore on 13 February 1993 was commemorated.
+- 21 February 2026 (Saturday) — The Sunil Abraham Project reached 600 published articles with the publication of [*Repeat After Me*](/sunil/repeat-after-me/).
+- 1 March 2026 (Sunday) — The first cycle of [Chaitali](/chaitali/), a structured documentation and content development programme on the Sunil Abraham Project, began. The cycle runs from 1 March 2026 to 14 April 2026, concluding on the final day of the month of Chaitra.
 
