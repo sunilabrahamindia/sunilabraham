@@ -132,9 +132,7 @@ The title *Chaitali* derives from the same seasonal vocabulary as Chaitra, evoki
 {% endfor %}
 
 <p class="chaitali-counter">
-<strong>{{ count }}</strong> pages created during Chaitali 2026.
-</p>
-
+During Chaitali 2026, {{ count }} pages have been created.</p>
 <ol class="chaitali-pages-list">
 {% for p in chaitali_pages %}
   {% assign d = p.created | date: "%s" | plus: 0 %}
