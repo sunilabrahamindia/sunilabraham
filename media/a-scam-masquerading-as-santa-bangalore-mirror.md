@@ -10,7 +10,7 @@ permalink: /media/a-scam-masquerading-as-santa-bangalore-mirror/
 created: 2025-12-20
 ---
 
-**A Scam Masquerading as Santa** is a report by Apurva Venkat and Vandana Kamath, published by *Bangalore Mirror* on 25 December 2015. The article examines a viral Secret Santa-style scheme spreading through social media platforms, outlining how it operates, why it is mathematically unsound, and how participants are misled by promises of disproportionate returns. It includes commentary from Sunil Abraham on online awareness and the learning curve around digital scams.
+**A Scam Masquerading as Santa** is a report by Apurva Venkat and Vandana Kamath, published by *Bangalore Mirror* on 25 December 2015. The article examines a viral Secret Santa-style scheme spreading through social media platforms, outlining how it operates, why it is mathematically unsound, and how participants are misled by promises of disproportionate returns. It includes commentary from [Sunil Abraham](/sunil/) on online awareness and the learning curve around digital scams.
 
 ## Contents
 

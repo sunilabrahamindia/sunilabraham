@@ -10,7 +10,7 @@ permalink: /media/aadhaar-billion-connectivity-problem-business-standard/
 created: 2026-01-10
 ---
 
-**Aadhaar Status Check: Nearing a Billion & Counting but Connectivity Remains a Problem** is a *Business Standard* feature published on 1 April 2016 by Sahil Makkar and Mayank Mishra. The article examines Aadhaar's imminent achievement of enrolling one billion residents whilst documenting implementation challenges including inadequate banking correspondent infrastructure, biometric authentication failures, and privacy concerns, featuring analysis from Nandan Nilekani on payment system gaps, Sunil Abraham on state transparency asymmetries, Ram Sewak Sharma on governance transformation, and the unresolved tensions between Aadhaar and the National Population Register.
+**Aadhaar Status Check: Nearing a Billion & Counting but Connectivity Remains a Problem** is a *Business Standard* feature published on 1 April 2016 by Sahil Makkar and Mayank Mishra. The article examines Aadhaar's imminent achievement of enrolling one billion residents whilst documenting implementation challenges including inadequate banking correspondent infrastructure, biometric authentication failures, and privacy concerns, featuring analysis from Nandan Nilekani on payment system gaps, [Sunil Abraham](/sunil/) on state transparency asymmetries, Ram Sewak Sharma on governance transformation, and the unresolved tensions between Aadhaar and the National Population Register.
 
 ## Contents
 
