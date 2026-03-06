@@ -10,7 +10,7 @@ permalink: /media/5-things-online-privacy-policies/
 created: 2025-12-08
 ---
 
-**5 Things You Need to Know About Online Privacy Policies** is an *Economic Times* report published on 2 February 2012. The article breaks down core concepts behind privacy policies that govern user data on online platforms, including data retention, legal implications, post-deletion data storage and data-sharing practices. It also features commentary from Sunil Abraham on jurisdictional gaps and the need for a dedicated privacy authority in India.
+**5 Things You Need to Know About Online Privacy Policies** is an *Economic Times* report published on 2 February 2012. The article breaks down core concepts behind privacy policies that govern user data on online platforms, including data retention, legal implications, post-deletion data storage and data-sharing practices. It also features commentary from [Sunil Abraham](/sunil/) on jurisdictional gaps and the need for a dedicated privacy authority in India.
 
 ## Contents
 
