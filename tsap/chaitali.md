@@ -152,6 +152,25 @@ During Chaitali 2026, {{ count }} pages have been created.</p>
 {% endfor %}
 </ol>
 
+## Major Works During Chaitali 2026
+
+### Clusters
+
+#### Mint
+
+The *Mint* archive was documented through the cluster page [Sunil Abraham and Mint](/clusters/sunil-abraham-mint/), consolidating media coverage and commentary from the newspaper relating to Sunil Abraham’s work.
+
+#### Firstpost
+
+The *Firstpost* archive was documented through the cluster page [Sunil Abraham and Firstpost](/clusters/sunil-abraham-firstpost/) as part of the ongoing effort to organise media coverage across major digital publications.
+
+### Infrastructure Improvements
+
+- **Centralised site version management** — a global `tsap_version` variable was introduced in `_config.yml`, and the footer was updated to display the site version dynamically using `{{ site.tsap_version }}`.
+- **Header statistics strip added** — the site header now displays a live page count and category count below the tagline, linking to `/newest/` and `/categories/`. Counts are calculated at build time using the `created` field.
+- **Categories index page rebuilt** — the `/categories/` page was redesigned with live search, sorting options (A–Z, Z–A, by count), a result counter, and category descriptions pulled from category page YAML front matter.
+- **Codespaces workflow introduced for batch edits** — a GitHub Codespace workspace was configured for the repository to allow grouped multi-file edits such as internal linking and metadata updates.
+
 <style>
 .chaitali-banner {
   position: relative;
