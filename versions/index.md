@@ -273,7 +273,7 @@ Reporting time: 1 March 2026, 2:40 am IST
 - 29 new pages have been published this week.
 
 **Chaitali Content Development Cycle**
-- *Chaitali* (/chaitali/) is a structured TSAP content development event conducted from 1 March to 14 April 2026.
+- [*Chaitali*](/chaitali/) is a structured TSAP content development event conducted from 1 March to 14 April 2026.
 - The initiative aims to accelerate content creation while systematically improving existing pages.
 - The cycle focuses on expanding articles, refining structure and documentation, correcting inconsistencies, strengthening metadata and internal linking, and enhancing overall site quality within a defined time-bound period.
 
