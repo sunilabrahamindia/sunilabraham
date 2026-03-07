@@ -17,8 +17,8 @@
 
   .site-header .site-title a {
     font-family: "Georgia", "Times New Roman", serif;
-    font-size: 2.4rem;      /* slightly stronger */
-    font-weight: 600;       /* confident but not heavy */
+    font-size: 2.4rem;
+    font-weight: 600;
     letter-spacing: -0.25px;
     color: #111827;
     text-decoration: none;
@@ -50,6 +50,31 @@
   }
 
   /* =========================================================
+     Stats
+     ========================================================= */
+
+  .site-header .site-stats {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.92rem;
+    font-weight: 400;
+    color: #4b5563;
+    margin-top: 0.45rem;
+    letter-spacing: 0.4px;
+  }
+
+  .site-header .site-stats a {
+    color: #4b5563;
+    text-decoration: underline;
+    text-decoration-color: #9ca3af;
+    text-underline-offset: 2px;
+  }
+
+  .site-header .site-stats a:hover {
+    color: #111827;
+    text-decoration-color: #111827;
+  }
+
+  /* =========================================================
      Responsive
      ========================================================= */
 
@@ -60,11 +85,15 @@
     }
 
     .site-header .site-title a {
-      font-size: 1.65rem;   /* keeps mobile single line */
-      font-weight: 600;  
+      font-size: 1.65rem;
+      font-weight: 600;
     }
 
     .site-header .site-subtitle {
+      font-size: 0.82rem;
+    }
+
+    .site-header .site-stats {
       font-size: 0.82rem;
     }
   }
@@ -76,5 +105,10 @@
       <a href="/">Sunil Abraham Project</a>
     </div>
     <p class="site-subtitle">Research · Innovation · Documentation</p>
+    {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
+    {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
+    <p class="site-stats">
+      <a href="/newest/">{{ real_pages.size }} pages</a> across <a href="/categories/">{{ cat_pages.size }} categories</a>
+    </p>
   </div>
 </header>
