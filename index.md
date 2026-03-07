@@ -81,7 +81,7 @@ created: 2025-10-19
 
       <p>Sunil is a co-founder and former executive director of the <a href="https://cis-india.org/">Centre for Internet and Society</a> (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.</p>
 
-      <p>In 1998, he co-founded <a href="https://mahiti.org/">Mahiti Infotech</a>, a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.</p>
+      <p>In 1998, he co-founded <a href="/articles/mahiti-infotech/">Mahiti Infotech</a>, a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.</p>
 
       <p>His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.</p>
 
