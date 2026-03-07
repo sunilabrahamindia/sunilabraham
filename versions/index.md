@@ -20,6 +20,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 6. [Version 1.2.2](#version-122)
 7. [Version 1.2.3](#version-123)
 8. [Version 1.3](#version-13)
+9. [Version 1.3.1](#version-131)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -266,3 +267,46 @@ Completion date: 22 February 2026
 **Status** ✅ Done  
 Completion date: 28 February 2026  
 Reporting time: 1 March 2026, 2:40 am IST
+
+## Version 1.3.1
+
+- 29 new pages have been published this week.
+
+**Chaitali Content Development Cycle**
+- *Chaitali* (/chaitali/) is a structured TSAP content development event conducted from 1 March to 14 April 2026.
+- The initiative aims to accelerate content creation while systematically improving existing pages.
+- The cycle focuses on expanding articles, refining structure and documentation, correcting inconsistencies, strengthening metadata and internal linking, and enhancing overall site quality within a defined time-bound period.
+
+**Version Management**
+- Centralised site version management was introduced by adding a global `tsap_version` variable in `_config.yml`.
+- The site footer now dynamically displays the current version using `{{ site.tsap_version }}`, replacing the previously hardcoded version number.
+
+**Clusters**
+- Work on the [*Mint*](/clusters/sunil-abraham-mint/) newspaper cluster was completed during this cycle.
+- This is now one of the largest clusters on TSAP, containing 59 total articles.
+- Work also began on the [*Firstpost*](/clusters/sunil-abraham-firstpost/) cluster with new articles added and organised.
+
+**Header Enhancements**
+- A header statistics strip was added below the site tagline.
+- The strip displays: Live page count linking to [/newest/](/newest/), Category count linking to [/categories/](/categories/)
+
+**Categories Page Redesign**
+- The [/categories/](/categories/) index page was rebuilt.
+- The new interface includes: Search box, Three sorting modes (A–Z, Z–A, by count), Live result count, Category descriptions pulled directly from each category page's YAML front matter
+
+**Codespaces Workflow**
+- A GitHub Codespaces workflow was introduced to support batch editing across multiple files.
+- A Codespace workspace was created and configured for the repository.
+- The first batch update used this environment to add the internal link [Sunil Abraham](/sunil/) to the lead sections of several media articles.
+- Changes were committed as a [single grouped commit](https://github.com/sunilabrahamindia/sunilabraham/commit/27013b96704dba125e185e4bd210d0edef75b544) and synced back to the repository.
+- This establishes a repeatable workflow for future multi-page edits such as internal linking and metadata updates.
+
+**Codespaces Access Issue**
+- After several edits (approximately 8–10) made through Codespaces, an error message appeared indicating "secondary limit hit, too many requests."
+- Following this, some images and GitHub file pages using the `blob` URL pattern became intermittently inaccessible across devices.
+- The issue did not appear to be related to code changes or image locations.
+- It remains unclear whether the behaviour was triggered by Codespaces usage or by GitHub request limits.
+
+**Status** ✅ Done  
+Completion date: 7 March 2026  
+Reporting time: 7 March 2026, 11:40 pm IST
