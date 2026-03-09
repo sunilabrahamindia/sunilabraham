@@ -54,10 +54,12 @@ created: 2026-03-09
 
 <p>The draft removes almost every net neutrality rule from 2015, making ISPs the gatekeepers of the internet. It states internet providers will have the freedom to implement fast and slow speed lanes, prioritise traffic and block apps and services. The only rule they have to follow — publicly disclose when they are doing any of the things stated above.</p>
 
-<blockquote class="twitter-tweet" data-theme="light">
-  <p lang="en" dir="ltr">Here's my plan to repeal the Obama Administration's heavy-handed regulation of the Internet. This time--unlike in 2015--you can read it before the <a href="https://twitter.com/FCC?ref_src=twsrc%5Etfw">@FCC</a> votes. <a href="https://t.co/go-usa-gov-xnKGN">go.usa.gov/xnKGN</a> <a href="https://t.co/AjitPaiFCC">x.com/AjitPaiFCC/sta…</a></p>
-  &mdash; Ajit Pai (@AjitPaiFCC) <a href="https://twitter.com/AjitPaiFCC/status/933372798210334720?ref_src=twsrc%5Etfw">November 22, 2017</a>
-</blockquote>
+<div class="tweet-center">
+  <blockquote class="twitter-tweet" data-theme="light">
+    <p lang="en" dir="ltr">Here's my plan to repeal the Obama Administration's heavy-handed regulation of the Internet. This time--unlike in 2015--you can read it before the <a href="https://twitter.com/FCC?ref_src=twsrc%5Etfw">@FCC</a> votes. <a href="https://t.co/go-usa-gov-xnKGN">go.usa.gov/xnKGN</a> <a href="https://t.co/AjitPaiFCC">x.com/AjitPaiFCC/sta…</a></p>
+    &mdash; Ajit Pai (@AjitPaiFCC) <a href="https://twitter.com/AjitPaiFCC/status/933372798210334720?ref_src=twsrc%5Etfw">November 22, 2017</a>
+  </blockquote>
+</div>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>Executive director of the Centre for Internet and Society, Sunil Abraham elaborated on what's on Pai's mind.</p>
@@ -92,18 +94,22 @@ created: 2026-03-09
 
 <p>That means, essentially, the debate on net neutrality is not over in India. In fact, both RS Sharma, the Chairman of TRAI and FCC's Ajit Pai agree on the need to bridge the digital divide. Both are exploring ways to keep the internet open while providing access to the unconnected. Thankfully, both differ on the approach to meet that goal.</p>
 
-<blockquote class="twitter-tweet" data-theme="light">
-  <p lang="en" dir="ltr">Had very fruitful meeting with Chairman Ajit Pai <a href="https://twitter.com/AjitPaiFCC?ref_src=twsrc%5Etfw">@AjitPaiFCC</a> in Stockholm.<br>It was, as usual, a pleasure to meet him.</p>
-  &mdash; RS Sharma (@rssharma3) <a href="https://twitter.com/rssharma3/status/879307207254450177?ref_src=twsrc%5Etfw">June 26, 2017</a>
-</blockquote>
+<div class="tweet-center">
+  <blockquote class="twitter-tweet" data-theme="light">
+    <p lang="en" dir="ltr">Had very fruitful meeting with Chairman Ajit Pai <a href="https://twitter.com/AjitPaiFCC?ref_src=twsrc%5Etfw">@AjitPaiFCC</a> in Stockholm.<br>It was, as usual, a pleasure to meet him.</p>
+    &mdash; RS Sharma (@rssharma3) <a href="https://twitter.com/rssharma3/status/879307207254450177?ref_src=twsrc%5Etfw">June 26, 2017</a>
+  </blockquote>
+</div>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>Pai believes the internet should be left unregulated despite the "hypothetical harms" to the consumer. He thinks the current rules were put in place to avoid theoretical harms which were not based on hard evidence. Pai claims there should be evidence-based regulation of the internet.</p>
 
-<blockquote class="twitter-tweet" data-conversation="none" data-theme="light">
-  <p lang="en" dir="ltr">Always nice to see my good friend, <a href="https://twitter.com/TRAI?ref_src=twsrc%5Etfw">@TRAI</a> Chairman <a href="https://twitter.com/rssharma3?ref_src=twsrc%5Etfw">@rssharma3</a>! Look forward to working together on broadband, robocall enforcement, and more.</p>
-  &mdash; Ajit Pai (@AjitPaiFCC) <a href="https://twitter.com/AjitPaiFCC/status/879342805377843201?ref_src=twsrc%5Etfw">June 26, 2017</a>
-</blockquote>
+<div class="tweet-center">
+  <blockquote class="twitter-tweet" data-conversation="none" data-theme="light">
+    <p lang="en" dir="ltr">Always nice to see my good friend, <a href="https://twitter.com/TRAI?ref_src=twsrc%5Etfw">@TRAI</a> Chairman <a href="https://twitter.com/rssharma3?ref_src=twsrc%5Etfw">@rssharma3</a>! Look forward to working together on broadband, robocall enforcement, and more.</p>
+    &mdash; Ajit Pai (@AjitPaiFCC) <a href="https://twitter.com/AjitPaiFCC/status/879342805377843201?ref_src=twsrc%5Etfw">June 26, 2017</a>
+  </blockquote>
+</div>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>Sharma, in contrast, disagrees on an evidence-based approach.</p>
@@ -128,10 +134,12 @@ created: 2026-03-09
 
 <p>Prime Minister Narendra Modi also came in support of net neutrality in India. He tweeted, "The internet, by nature, is inclusive and not exclusive. It offers equity of access and equality of opportunity."</p>
 
-<blockquote class="twitter-tweet" data-theme="light">
-  <p lang="en" dir="ltr">The internet, by nature, is inclusive and not exclusive. It offers equity of access and equality of opportunity: PM <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Etfw">@narendramodi</a></p>
-  &mdash; PMO India (@PMOIndia) <a href="https://twitter.com/PMOIndia/status/933569513991184384?ref_src=twsrc%5Etfw">November 23, 2017</a>
-</blockquote>
+<div class="tweet-center">
+  <blockquote class="twitter-tweet" data-theme="light">
+    <p lang="en" dir="ltr">The internet, by nature, is inclusive and not exclusive. It offers equity of access and equality of opportunity: PM <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Etfw">@narendramodi</a></p>
+    &mdash; PMO India (@PMOIndia) <a href="https://twitter.com/PMOIndia/status/933569513991184384?ref_src=twsrc%5Etfw">November 23, 2017</a>
+  </blockquote>
+</div>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>Pahwa, who fought hard against Airtel and Facebook to ensure the internet remains neutral, was confident the decision won't affect India's stance on net neutrality. However, he is apprehensive that Indian telecom companies might borrow a leaf from their US counterparts and lobby hard to repeal the rules.</p>
@@ -192,6 +200,11 @@ The India-side commentary from Nikhil Pahwa and Rajan Mathews reflects the dual 
 }
 .highlighted-text p {
   margin-bottom: 1rem;
+}
+.tweet-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .copy-btn-full {
   display: inline-block;
