@@ -54,6 +54,16 @@ created: 2026-03-09
 
 <p>On December 4, Paytm took out this ad:</p>
 
+<figure class="notice-figure">
+  <img
+    src="/media/images/paytm-public-notice-newspaper-2016.jpg"
+    alt="Newspaper clipping of Paytm's public notice published in major dailies on 4 December 2016, announcing the transfer of Paytm Wallet accounts to Paytm Payments Bank Limited."
+  >
+  <figcaption>Paytm's public notice published in major dailies, 4 December 2016.</figcaption>
+</figure>
+
+<p><em>Text of the above notice:</em></p>
+
 <blockquote class="paytm-notice">
   <p><strong>Paytm Public Notice</strong></p>
   <p>Dear Customer,</p>
@@ -209,6 +219,26 @@ The article also flags an issue that would attract significant regulatory attent
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.notice-figure {
+  text-align: center;
+  margin: 1.2rem auto;
+  max-width: 480px;
+}
+.notice-figure img {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.notice-figure figcaption {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.4rem;
+}
+@media (max-width: 767px) {
+  .notice-figure {
+    max-width: 100%;
+  }
 }
 
 </style>
