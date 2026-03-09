@@ -75,11 +75,12 @@ created: 2026-03-09
 
 <p>Rather, PBs may provide a chargeable account statement upon customer's request. So, if details of a transaction go missing from your passbook, like this user's, there isn't a way to hold the m-commerce platform accountable.</p>
 
-<blockquote class="embedded-tweet-text">
-  <p><strong>@NameFieldmt</strong> · Follow</p>
-  <p>Hah. Paytm has added Rs.699 to my wallet as 'amount for missing entry' But still no explanations as to why they deleted the original txn</p>
-  <p><em>10:31 AM · Dec 17, 2016</em></p>
-</blockquote>
+<div class="tweet-center">
+  <blockquote class="twitter-tweet" data-theme="light">
+    <p lang="en" dir="ltr">Hah. Paytm has added Rs.699 to my wallet as &#39;amount for missing entry&#39; But still no explanations as to why they deleted the original txn</p>
+    &mdash; @NameFieldmt <a href="https://twitter.com/NameFieldmt/status/809986895639965696">December 17, 2016</a>
+  </blockquote>
+</div>
 
 <p>With RBI norms in place, to be able to use Paytm's wallet-to-account transfer facility, a user needs to be verified, must be registered on the system for over 45 days and have a minimum balance of Rs 2,000. After you've fulfilled all requirements, you can then transfer your money but the minimum wallet to account transfer is Rs 1,000.</p>
 
@@ -95,11 +96,13 @@ created: 2026-03-09
 
 <p>However, the wallet-to-bank move requires all users to share their bank details with the company unless until they have spent the money that was in their wallet by December 21. This brings us back to the issue of security. Vijay Shekhar Sharma, founder of Paytm, acknowledged a possible hack in an interview with a journalist. Under the circumstances, where Paytm requires users to share their account details to use the Paytm Payments Bank, it is imperative that Paytm improves its security features rather than relying on in-phone application locks.</p>
 
-<blockquote class="embedded-tweet-text">
-  <p><strong>Deepak Abbot</strong> · <strong>@deepakabbot</strong> · Follow</p>
-  <p>Use your Android Phone's default security to protect @Paytm Wallet "Now add an App password to your Paytm Wallet" blog.paytm.com/now-add-an-app…</p>
-  <p><em>9:44 AM · Dec 8, 2016</em></p>
-</blockquote>
+<div class="tweet-center">
+  <blockquote class="twitter-tweet" data-theme="light">
+    <p lang="en" dir="ltr">Use your Android Phone&#39;s default security to protect <a href="https://twitter.com/Paytm">@Paytm</a> Wallet &quot;Now add an App password to your Paytm Wallet&quot; <a href="https://t.co/blog.paytm.com">blog.paytm.com/now-add-an-app…</a></p>
+    &mdash; Deepak Abbot (@deepakabbot) <a href="https://twitter.com/deepakabbot/status/806713625264025600">December 8, 2016</a>
+  </blockquote>
+</div>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>Paytm's mobile phone application is secured by Paytm's ID and password. So, despite Paytm's screen-lock 'tips' to customers for additional security — including Rs 2,000 minimum balance mandate — if one gained access to your phone, then money in your Paytm wallet, now a payment's bank account, is easily transferable.</p>
 
@@ -202,6 +205,12 @@ The article also flags an issue that would attract significant regulatory attent
 .copy-btn-full:hover {
   background: #e5e5e5;
 }
+  .tweet-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 </style>
 
 <script>
