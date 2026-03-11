@@ -100,7 +100,7 @@ The lecture closes with a case for City Science, a practice that brings together
 In the section on the three paradigms of human experience, Nevejan cites Sunil Abraham to illustrate how digital platforms have narrowed the diversity of cultural narratives online. She writes:
 
 <blockquote lang="nl">
-> "Zoals de Indiase digitale innovator Sunil Abraham stelde — vóór het internet waren er duizenden verhalen over de Indiase avatar Rama, maar na Disney en Facebook bleven er slechts enkele over."
+"Zoals de Indiase digitale innovator Sunil Abraham stelde — vóór het internet waren er duizenden verhalen over de Indiase avatar Rama, maar na Disney en Facebook bleven er slechts enkele over."
 </blockquote>
 
 > (English: "As the Indian digital innovator Sunil Abraham noted — before the internet there were thousands of stories about the Indian avatar Rama, but after Disney and Facebook only a few remained.")
@@ -142,7 +142,7 @@ The same 2008 interview was cited in two earlier publications by Nevejan. In the
 }
   .nevejan-image {
   float: right;
-  width: 250px;
+  width: 350px;
   margin: 0 0 1rem 1.2rem;
   text-align: center;
 }
