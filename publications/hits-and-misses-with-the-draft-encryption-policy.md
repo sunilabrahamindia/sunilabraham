@@ -10,13 +10,14 @@ permalink: /publications/hits-and-misses-with-the-draft-encryption-policy/
 created: 2025-11-13
 ---
 
-**Hits and Misses with the Draft Encryption Policy** is an article by Sunil Abraham, published in *The Wire* on 26 September 2015. The article examines India's draft encryption policy, highlighting its contradictory mandates, impractical compliance requirements, and failure to protect user privacy or promote open standards.
+**Hits and Misses with the Draft Encryption Policy** is an article by [Sunil Abraham](/sunil/), published in *The Wire* on 26 September 2015. The article examines India's draft encryption policy, highlighting its contradictory mandates, impractical compliance requirements, and failure to protect user privacy or promote open standards.
 
 ## Contents
 
-1. [Article Details](#article-details)  
-2. [Full Text](#full-text)  
+1. [Article Details](#article-details)
+2. [Full Text](#full-text)
 3. [Context and Background](#context-and-background)
+4. [External Link](#external-link)
 
 ## Article Details
 
@@ -32,6 +33,13 @@ created: 2025-11-13
 
   <dt>📄 Type:</dt>
   <dd>Opinion Article</dd>
+
+    <dt>🔗 Publication Link:</dt>
+  <dd>
+    <a class="btn" href="https://thewire.in/tech/hits-and-misses-with-the-draft-encryption-policy">
+      Read Online
+    </a>
+  </dd>
 </dl>
 
 ## Full Text
@@ -78,6 +86,11 @@ created: 2025-11-13
 This article was written after the publication of India's Draft National Encryption Policy (2015), which was later withdrawn following public criticism.
 
 Sunil Abraham argues that while government encryption mandates may protect state security, applying them to citizens and corporations would undermine digital privacy, innovation, and information security. He calls for open standards, a harm-based regulatory model, and stronger Indian participation in global standard-setting bodies.
+
+## External Link
+
+- [Read on The Wire](https://thewire.in/tech/hits-and-misses-with-the-draft-encryption-policy)
+
 
 {% include back-to-top.html %}
 
