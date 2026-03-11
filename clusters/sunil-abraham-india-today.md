@@ -70,7 +70,7 @@ This page collects relevant *India Today* articles associated with Sunil Abraham
 </ol>
 
 ## External links
-- [Sunil Abraham](https://www.indiatoday.in/search/site/Sunil%20Abraham) search results on *India Today*
+- [Official website](https://www.indiatoday.in/search/site/Sunil%20Abraham)
 
 <style>
 
