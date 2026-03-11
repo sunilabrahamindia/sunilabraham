@@ -5,7 +5,7 @@ description: "An opinion article by Sunil Abraham published in Mail Today explai
 categories: [Media articles, Publications]
 date: 2011-06-21
 authors: ["Sunil Abraham"]
-source: ["Mail Today", "India Today"]
+source: ["India Today"]
 permalink: /publications/privacy-and-security-can-co-exist/
 created: 2025-11-16
 ---
