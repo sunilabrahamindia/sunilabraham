@@ -9,13 +9,13 @@ created: 2026-03-12
 
 ***Tehelka*** was an Indian investigative journalism magazine known for long-form reporting on politics, governance, and public policy. Among its essays and commentary on technology and digital society are several articles written by **Sunil Abraham**.
 
-This page gathers those *Tehelka* publications authored by Sunil Abraham, providing a single reference point for readers and researchers interested in his contributions to the magazine.
+This page gathers those *Tehelka* publications authored by [Sunil Abraham](/sunil/), providing a single reference point for readers and researchers interested in his contributions to the magazine.
 
 ## ✍️ Publications {#publications}
 
 {% assign pub_items = site.pages 
      | where_exp:"p","p.categories contains 'Publications'"
-     | where:"source","Tehelka" 
+     | where:"source","Tehelka Magazine"
      | sort:"date" | reverse
 %}
 
