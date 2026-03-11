@@ -11,7 +11,7 @@ pdf: /publications/files/artificial-intelligence-full-spectrum.pdf
 created: 2025-11-11
 ---
 
-**Artificial Intelligence: A Full-Spectrum Regulatory Challenge** is a policy brief (working draft) authored by Sunil Abraham, with research contributions from Shweta Mohandas, Mira Swaminathan, and Shweta Reddy. Published by the Centre for Internet and Society (CIS) in October 2019, it presents a structured, domain-specific approach to regulating Artificial Intelligence (AI) in India and beyond.  
+**Artificial Intelligence: A Full-Spectrum Regulatory Challenge** is a policy brief (working draft) authored by [Sunil Abraham](/sunil/), with research contributions from Shweta Mohandas, Mira Swaminathan, and Shweta Reddy. Published by the Centre for Internet and Society (CIS) in October 2019, it presents a structured, domain-specific approach to regulating Artificial Intelligence (AI) in India and beyond.  
 
 The paper rejects one-size-fits-all ethical frameworks and omnibus AI laws. Instead, it argues for contextual regulation based on the actor (state, private sector, or individual), the degree of harm, and the human rights involved. It outlines how policymakers can deploy the entire spectrum of tools — from deregulation and forbearance to absolute prohibition — to balance innovation with accountability.
 
