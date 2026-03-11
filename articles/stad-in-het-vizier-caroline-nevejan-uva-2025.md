@@ -10,7 +10,9 @@ permalink: /articles/stad-in-het-vizier-caroline-nevejan-uva-2025/
 created: 2026-03-11
 ---
 
-***Stad in het Vizier*** (English: City in Focus) is a Dutch-language farewell lecture by Caroline Nevejan, delivered on 26 June 2025 at the University of Amsterdam upon her departure as Professor of Designing Urban Experience and Chief Science Officer of the City of Amsterdam. The lecture argues for building sustainable, multi-voiced knowledge infrastructures in the networked city, using rhythm, witnessing, and public research as core methods. It cites [Sunil Abraham](/sunil/) as an expert on digital culture and the homogenisation of online narratives.
+***Stad in het Vizier*** (English: City in Focus) is a Dutch-language farewell lecture by Caroline Nevejan, delivered on Thursday, 26 June 2025 at the University of Amsterdam upon her departure as Professor of Designing Urban Experience and Chief Science Officer of the City of Amsterdam. In the lecture, Nevejan reflects on her work at the intersection of digital culture, urban governance, and public research, drawing on projects carried out during her tenure with the City of Amsterdam.
+
+The lecture argues for building sustainable, multi-voiced knowledge infrastructures in the networked city, using rhythm, witnessing, and collaborative research as core methods. It also cites [Sunil Abraham](/sunil/) in a discussion of how global digital platforms can narrow the diversity of cultural narratives online.
 
 ## Contents
 
@@ -27,7 +29,7 @@ created: 2026-03-11
   <dd><em>Chief Science Office, City of Amsterdam / University of Amsterdam</em></dd>
 
   <dt>📅 Date:</dt>
-  <dd>26 June 2025</dd>
+  <dd>Thursday, 26 June 2025</dd>
 
   <dt>👤 Author:</dt>
   <dd>Caroline Nevejan</dd>
