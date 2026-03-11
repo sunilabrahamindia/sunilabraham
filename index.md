@@ -71,7 +71,7 @@ created: 2025-10-19
   <div class="bio-card">
     <div class="bio-image-wrapper">
       <img 
-        src="/images/sunil-abraham-colour-nature.jpg" 
+        src="/assets/images/sunil-abraham-colour-nature.jpg" 
         alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
         class="bio-image">
     </div>
