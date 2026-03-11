@@ -1,22 +1,23 @@
 ---
 layout: default
 title: "Privacy and Security Can Co-exist"
-description: "A Mail Today article by Sunil Abraham explaining why privacy is essential for real security and critiquing blanket surveillance measures under the IT Act amendments."
+description: "An opinion article by Sunil Abraham published in Mail Today explaining why privacy is essential for real security and critiquing blanket surveillance measures under the IT Act amendments."
 categories: [Media articles, Publications]
 date: 2011-06-21
 authors: ["Sunil Abraham"]
-source: "Mail Today"
+source: ["Mail Today", "India Today"]
 permalink: /publications/privacy-and-security-can-co-exist/
 created: 2025-11-16
 ---
 
-**Privacy and Security Can Co-exist** is an opinion article by Sunil Abraham published in *Mail Today* on 21 June 2011. The column argues that privacy is not the enemy of security, but a prerequisite for it, and critiques the blanket surveillance enabled by the IT Act amendments and cybercafe rules. Abraham explains how excessive data retention and suspicion-driven systems undermine trust, weaken real security, and expose citizens and institutions to systemic vulnerabilities.
+**Privacy and Security Can Co-exist** is an opinion article by [Sunil Abraham](/sunil/) published in *Mail Today* and *India Today* on 21 June 2011. The column argues that privacy is not the enemy of security, but a prerequisite for it, and critiques the blanket surveillance enabled by the IT Act amendments and cybercafe rules. Abraham explains how excessive data retention and suspicion-driven systems undermine trust, weaken real security, and expose citizens and institutions to systemic vulnerabilities.
 
 ## Contents
 
-1. [Article Details](#article-details)  
-2. [Full Text](#full-text)  
+1. [Article Details](#article-details)
+2. [Full Text](#full-text)
 3. [Context and Background](#context-and-background)
+4. [External Link](#external-link)
 
 ## Article Details
 
@@ -33,8 +34,15 @@ created: 2025-11-16
   <dt>📄 Type:</dt>
   <dd>Opinion Article</dd>
 
-  <dt>🔗 Newspaper Link:</dt>
-  <dd>No official online edition available.</dd>
+  <dt>🔗 Mail Today:</dt>
+  <dd>No archived link available.</dd>
+
+  <dt>🔗 India Today:</dt>
+  <dd>
+    <a class="btn" href="https://www.indiatoday.in/opinion/story/privacy-and-security-can-co-exist-135973-2011-06-20">
+      Read Online
+    </a>
+  </dd>
 </dl>
 
 ## Full Text
@@ -82,6 +90,10 @@ created: 2025-11-16
 ## Context and Background
 
 This article explains why privacy is essential for genuine security and critiques the IT Act’s expansion of blanket surveillance. Sunil Abraham argues that redundant data retention, cybercafe logging rules and weak safeguards create systemic vulnerabilities and increase risk rather than safety. He emphasises that suspicion-based systems harm trust and provoke counterproductive behaviour among citizens.
+
+## External Link
+
+- [Read on India Today](https://www.indiatoday.in/opinion/story/privacy-and-security-can-co-exist-135973-2011-06-20)
 
 <style>
 .media-details {
