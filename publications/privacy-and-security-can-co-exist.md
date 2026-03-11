@@ -89,7 +89,7 @@ created: 2025-11-16
 
 ## Context and Background
 
-This article explains why privacy is essential for genuine security and critiques the IT Act’s expansion of blanket surveillance. Sunil Abraham argues that redundant data retention, cybercafe logging rules and weak safeguards create systemic vulnerabilities and increase risk rather than safety. He emphasises that suspicion-based systems harm trust and provoke counterproductive behaviour among citizens.
+This article explains why privacy is essential for genuine security and critiques the IT Act's expansion of blanket surveillance. [Sunil Abraham](/sunil/) argues that redundant data retention, cybercafe logging rules and weak safeguards create systemic vulnerabilities and increase risk rather than safety. He emphasises that suspicion-based systems harm trust and provoke counterproductive behaviour among citizens.
 
 ## External Link
 
