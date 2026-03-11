@@ -49,7 +49,7 @@ created: 2025-10-19
   <div class="article-card">
 <div class="ama-image-wrapper">
   <img 
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png?raw=true"
+    src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png"
     alt="Photograph of Rev. A. M. A. Ayrookuzhiel, Indian theologian and scholar known for his work on Dalit theology and popular Hinduism."
     class="ama-image">
 </div>
@@ -71,7 +71,7 @@ created: 2025-10-19
   <div class="bio-card">
     <div class="bio-image-wrapper">
       <img 
-        src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/sunil-abraham-colour-nature.jpg?raw=true" 
+        src="/images/sunil-abraham-colour-nature.jpg" 
         alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
         class="bio-image">
     </div>
