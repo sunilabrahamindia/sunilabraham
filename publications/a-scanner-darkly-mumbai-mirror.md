@@ -10,7 +10,7 @@ permalink: /publications/a-scanner-darkly-mumbai-mirror/
 created: 2025-12-21
 ---
 
-**A Scanner Darkly** is a Sunday Read opinion column by Sunil Abraham published in *Mumbai Mirror* on 3 November 2019. The article analyses the Pegasus spyware revelations and uses them to examine the deeper structural problems around legal hacking, surveillance technologies, encryption, and the absence of strong privacy and oversight frameworks in India.
+**A Scanner Darkly** is a Sunday Read opinion column by [Sunil Abraham](/sunil/) published in *Mumbai Mirror* on 3 November 2019. The article analyses the Pegasus spyware revelations and uses them to examine the deeper structural problems around legal hacking, surveillance technologies, encryption, and the absence of strong privacy and oversight frameworks in India.
 
 ## Contents
 
