@@ -17,7 +17,8 @@ created: 2026-03-12
 1. [Article Details](#article-details)
 2. [Full Text](#full-text)
 3. [Context and Background](#context-and-background)
-4. [External Link](#external-link)
+4. [See also](see-also)
+5. [External Link](#external-link)
 
 ## Article Details
 
@@ -95,6 +96,9 @@ By early 2015, major technology platforms were tightening content policies at a 
 Sunil Abraham's comments in the article frame large internet platforms as privatised near-monopolies that can use contractual terms of service to restrict user rights. The argument that regulating these companies as utilities could protect rights, but at the cost of innovation, was a live tension in policy debates at the time, particularly as India was still developing its own framework for platform regulation.
 
 The Mark Fiore case referenced in the article was a well-documented episode from 2010, in which Apple initially rejected a Pulitzer Prize-winning political cartoonist's app, drawing wide criticism before eventually reversing the decision.
+
+## See also 
+- [Google Takes U-Turn, Says It Won't Ban Nude Photos on Blogger](/media/google-u-turn-nude-photos-blogger-india-today/), *India Today* news report published on 27 February 2015 covering covers Google's reversal of its policy to ban sexually explicit content on Blogger
 
 ## External Link
 
