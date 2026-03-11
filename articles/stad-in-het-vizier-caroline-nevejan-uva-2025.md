@@ -115,6 +115,7 @@ The same 2008 interview was cited in two earlier publications by Nevejan. In the
 
 ## External links
 - [Read the Original Lecture](https://pure.uva.nl/ws/files/242825138/Text_inaugural_lecture_-_Spread.pdf) (*Dutch*) — Universiteit van Amsterdam
+- [Official website](https://www.nevejan.org/) of Caroline Nevejan
 
 <style>
 .pdf-container {
