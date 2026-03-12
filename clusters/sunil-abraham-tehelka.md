@@ -32,7 +32,7 @@ This page gathers those *Tehelka* publications authored by [Sunil Abraham](/suni
 </ol>
 
 ## External links
-- [Tehelka](https://en.wikipedia.org/wiki/Tehelka)
+- [Tehelka](https://tehelka.com/) (Official website)
 
 <style>
 
