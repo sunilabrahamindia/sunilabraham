@@ -63,4 +63,5 @@ The editorial workflow of the project is closely tied to its version-controlled 
 - 13 February 2026 (Friday) — The [33rd anniversary](/sfp33/) of the [Students for Peace](/articles/students-for-peace/) candlelight demonstration in Bangalore on 13 February 1993 was commemorated.
 - 21 February 2026 (Saturday) — The Sunil Abraham Project reached 600 published articles with the publication of [*Repeat After Me*](/sunil/repeat-after-me/).
 - 1 March 2026 (Sunday) — The first cycle of [Chaitali](/chaitali/), a structured documentation and content development programme on the Sunil Abraham Project, began. The cycle runs from 1 March 2026 to 14 April 2026, concluding on the final day of the month of Chaitra.
+- 12 March 2026 (Thursday) — The Sunil Abraham Project completed 700 published articles with the publication of [*Unshackling Expression*](/media/unshackling-expression-internet-democracy-project/).
 
