@@ -125,7 +125,7 @@ The chapter also sits within a broader moment in Indian digital rights advocacy.
 
 ## External Links
 
-- [Read India chapter on Internet Democracy Project](https://internetdemocracy.in/reports/unshackling-expression-a-study-on-laws-criminalising-expression-online-in-asia/)
+- [Read India chapter](https://internetdemocracy.in/reports/unshackling-expression-a-study-on-laws-criminalising-expression-online-in-asia/) on Internet Democracy Project
 - [Download full GISWatch report (PDF)](https://www.giswatch.org/sites/default/files/giswspecial2017_web.pdf)
 
 <style>
