@@ -32,7 +32,7 @@ This cluster brings together media mentions from *BW Businessworld* related to [
 </ol>
 
 ## External links
-- [Sunil Abraham](https://www.businessworld.in/search?q=Sunil+Abraham) search results on *BW Businessworld*
+- [Official website](https://www.businessworld.in/)
 
 <style>
 
