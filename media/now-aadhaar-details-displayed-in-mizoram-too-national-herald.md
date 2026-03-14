@@ -7,7 +7,7 @@ date: 2017-04-26
 authors: ["Sebastian PT"]
 source: "National Herald"
 permalink: /media/now-aadhaar-details-displayed-in-mizoram-too-national-herald/
-created: 2026-03-15
+created: 2026-03-14
 ---
 
 **Now, Aadhaar Details Displayed in Mizoram Too** is a *National Herald* article written by Sebastian PT and published on 26 April 2017. The article documents a series of data leaks in which government websites across Jharkhand, Chandigarh, Kerala, and Mizoram publicly displayed Aadhaar numbers and associated personal details of citizens — in direct violation of Section 29 of the Aadhaar Act, 2016. [Sunil Abraham](/sunil/) is quoted extensively on the irreversibility of biometric data breaches, the structural insecurity of the Aadhaar system, and the risks of the government's "seeding" approach to linking Aadhaar with other databases.
