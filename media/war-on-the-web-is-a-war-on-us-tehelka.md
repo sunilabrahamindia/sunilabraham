@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "A Delhi High Court Judge Threatens to Go the China Way. The IT Act Is Closing In. The War on the Web Is a War on Us"
+title: "A Delhi High Court Judge Threatens to Go the China Way"
 description: "A Tehelka feature by Rishi Majumder on India's 2012 internet censorship controversy, citing Sunil Abraham of CIS on intermediary liability and the Vinay Rai case."
 categories: [Media mentions]
 date: 2012-02-10
@@ -10,7 +10,7 @@ permalink: /media/war-on-the-web-is-a-war-on-us-tehelka/
 created: 2026-03-13
 ---
 
-**A Delhi High Court Judge Threatens to Go the China Way. The IT Act Is Closing In. The War on the Web Is a War on Us** is a *Tehelka* feature article written by Rishi Majumder and published on 10 February 2012 (issue dated 18 February 2012). The article examines the civil suit and criminal complaint filed against Facebook, Google and 19 other websites over allegedly offensive content, Justice Suresh Kait's warning that India could block websites "like China", and the broader implications of the Intermediary Guidelines Rules, 2011 for free speech in India. [Sunil Abraham](/sunil/) is cited for his [earlier *Tehelka* article](/publications/the-quixotic-fight-to-clean-up-the-web/) of 28 January 2012, "The Quixotic Fight to Clean Up the Web", in which he observed that the Vinay Rai complaint named only intermediaries rather than the actual authors of the alleged offence.
+**A Delhi High Court Judge Threatens to Go the China Way** is a *Tehelka* feature article written by Rishi Majumder and published on 10 February 2012 (issue dated 18 February 2012). The article examines the civil suit and criminal complaint filed against Facebook, Google and 19 other websites over allegedly offensive content, Justice Suresh Kait's warning that India could block websites "like China", and the broader implications of the Intermediary Guidelines Rules, 2011 for free speech in India. [Sunil Abraham](/sunil/) is cited for his [earlier *Tehelka* article](/publications/the-quixotic-fight-to-clean-up-the-web/) of 28 January 2012, "The Quixotic Fight to Clean Up the Web", in which he observed that the Vinay Rai complaint named only intermediaries rather than the actual authors of the alleged offence.
 
 ## Contents
 
