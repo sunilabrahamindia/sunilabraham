@@ -21,6 +21,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 7. [Version 1.2.3](#version-123)
 8. [Version 1.3](#version-13)
 9. [Version 1.3.1](#version-131)
+10. [Version 1.3.2](#version-132)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -310,3 +311,21 @@ Reporting time: 1 March 2026, 2:40 am IST
 **Status** ✅ Done  
 Completion date: 7 March 2026  
 Reporting time: 7 March 2026, 11:40 pm IST
+
+## Version 1.3.2
+
+- 41 new articles have been published this week.
+
+**Milestone**
+- TSAP crossed 700 published articles with the addition of [*Unshackling Expression: A Study on Laws Criminalising Expression Online in Asia*](/media/unshackling-expression-internet-democracy-project/).
+
+**Clusters**
+- Continued work on the [*India Today*](/clusters/sunil-abraham-india-today/) cluster with additional articles added and organised.
+- Work progressed on the [*ThePrint*](/clusters/sunil-abraham-theprint/) cluster.
+- Initial work was carried out on the [*BW Businessworld*](/clusters/sunil-abraham-bw-businessworld/) cluster.
+- Additional work was done on the [*Internet Democracy Project*](/clusters/sunil-abraham-internet-democracy-project/) cluster; at present this cluster contains a small number of media mentions.
+- Articles were also created and organised under the [*Newslaundry*](/clusters/sunil-abraham-newslaundry/) cluster.
+
+**Status** ✅ Done  
+Completion date: 14 March 2026  
+Reporting time: 15 March 2026, 12:05 am IST
