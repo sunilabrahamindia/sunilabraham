@@ -25,7 +25,7 @@ created: 2026-02-15
 ASSOCHAM conducted two sessions on 17 February 2026 from 3:30 PM to 5:25 PM at Bharat Mandapam, Meeting Room 8. Sunil Abraham moderated Session B.
 
 <div class="event-poster">
-  <img src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/events/images/sunil-abraham-india-ai-summit-assocham-session-2026.jpg?raw=true" alt="India's AI Leadership session poster featuring Sunil Abraham as moderator at India AI Impact Summit 2026">
+  <img src="/events/images/sunil-abraham-india-ai-summit-assocham-session-2026.jpg" alt="India's AI Leadership session poster featuring Sunil Abraham as moderator at India AI Impact Summit 2026">
 </div>
 
 ### Session A: Democratising AI Resources
@@ -64,7 +64,7 @@ Anne Robinson (IBM) was listed in the pre-event programme but did not appear dur
 
 <div class="event-photo">
   <img 
-    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/events/images/sunil-abraham-india-ai-17-feb-2026.jpg?raw=true" 
+    src="/events/images/sunil-abraham-india-ai-17-feb-2026.jpg" 
     alt="Sunil Abraham moderating Session B at India AI Impact Summit 2026 alongside Aditya Swamy, Akhil Choudhary and Prof. M. P. Gupta at Bharat Mandapam, 17 February 2026"
     loading="lazy"
   >
