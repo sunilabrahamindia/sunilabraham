@@ -75,7 +75,7 @@ created: 2026-03-01
 
 Rather than functioning as a productivity sprint, Chaitali is framed as a steady and disciplined phase of growth aligned with the transitional character of the Chaitra period. Chaitali 2026 is documented as part of the evolving institutional history of TSAP. Future iterations, if undertaken, may develop independently in scope and structure.
 
-## Scope and Outputs
+## Scope
 
 Chaitali focuses on the systematic expansion of existing pages, the creation of new research-oriented entries, and the strengthening of the site's structural integrity. Work undertaken during this period includes publication additions, structural refinements, documentation improvements, and experimental design iterations within the TSAP framework.
 
