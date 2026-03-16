@@ -149,8 +149,6 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
   _Proposes a granular, domain-specific framework for AI regulation that balances innovation with accountability across sectors such as law enforcement, welfare, and digital platforms._  
   [Read here](/publications/artificial-intelligence-full-spectrum){: .btn}
 
-## Blog posts
-- [Engaging on the Digital Commons](/publications/engaging-the-digital-commons/), an article by Pranesh Prakash and Sunil Abraham published in Common Voices, Issue 4, in 2011.  
 
 ## Monograph Series (Edited Volumes)
 
@@ -263,6 +261,10 @@ These essays often serve as short policy commentaries or exploratory analyses of
 - **"Digital Privacy and the Aadhaar Ecosystem"** — *CIS Blog, 2013.*  
   _Explores privacy challenges arising from India’s biometric identity infrastructure._  
   [Read online](https://cis-india.org/internet-governance/blog/digital-privacy-and-the-aadhaar-ecosystem)
+
+- **"Engaging on the Digital Commons"** — *Common Voices*, Issue 4, 2011.  
+  _An article by Pranesh Prakash and Sunil Abraham on digital commons frameworks._  
+  [Read more](/publications/engaging-the-digital-commons/)
 
 ## Presentations and Lectures
 
