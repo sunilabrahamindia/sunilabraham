@@ -149,6 +149,8 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
   _Proposes a granular, domain-specific framework for AI regulation that balances innovation with accountability across sectors such as law enforcement, welfare, and digital platforms._  
   [Read here](/publications/artificial-intelligence-full-spectrum){: .btn}
 
+## Blog posts
+- [Engaging on the Digital Commons](/publications/engaging-the-digital-commons/), an article by Pranesh Prakash and Sunil Abraham published in Common Voices, Issue 4, in 2011.  
 
 ## Monograph Series (Edited Volumes)
 
