@@ -19,8 +19,7 @@ These directories are used by Jekyll internally and are not published as pages d
 Stores structured data files in YAML, JSON, or CSV format. Jekyll makes these available to templates via the `site.data` variable. Used for things like navigation menus, author lists, or reusable reference data. [View on GitHub](https://github.com/sunilabrahamindia/sunilabraham/tree/main/_data)
 
 ### `_includes`
-Contains reusable HTML snippets that can be inserted into layouts or pages using using ```{% include filename.html %}```.
-. Common includes are headers, footers, and navigation components. [View on GitHub](https://github.com/sunilabrahamindia/sunilabraham/tree/main/_includes)
+Contains reusable HTML snippets inserted into layouts or pages via Jekyll's include tag. Common includes are headers, footers, and navigation components. [View on GitHub](https://github.com/sunilabrahamindia/sunilabraham/tree/main/_includes)
 
 ### `_layouts`
 Contains HTML layout templates that wrap page content. TSAP pages use `layout: default`, which refers to `_layouts/default.html`. [View on GitHub](https://github.com/sunilabrahamindia/sunilabraham/tree/main/_layouts)
