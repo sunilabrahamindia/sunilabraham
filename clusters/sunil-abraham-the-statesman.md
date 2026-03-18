@@ -4,7 +4,7 @@ title: "Sunil Abraham and The Statesman"
 description: "A collection of articles from The Statesman that reference Sunil Abraham in discussions on technology policy, privacy, and digital governance."
 categories: [Clusters, Media mentions]
 permalink: /clusters/sunil-abraham-the-statesman/
-created: 2026-03-16
+created: 2026-03-18
 ---
 
 ***The Statesman*** is an Indian newspaper covering public policy, governance, and current affairs. Some of its reporting on technology and digital regulation includes references to **Sunil Abraham**.
