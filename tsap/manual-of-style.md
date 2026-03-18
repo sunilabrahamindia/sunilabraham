@@ -66,11 +66,11 @@ All pages must include:
 - `description:` (clear and concise)
 - `categories:` (appropriate classification)
 - `permalink:` (clean, structured URL)
-- `created:` (must reflect actual UTC date of creation)
+- `created:` (must reflect actual IST date of creation)
 
 The `created:` field must:
 - Always be present
-- Always match the actual creation date (UTC)
+- Always match the actual creation date (Indian Standard time)
 - Be placed as the last parameter in the YAML block
 
 ## Authors
