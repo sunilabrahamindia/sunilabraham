@@ -57,6 +57,8 @@ The **Manual of Style** page defines the writing and formatting standards follow
 
 ## YAML Front Matter
 
+{% include main-article.html link="/tsap/yaml/" title="YAML Front Matter" %}
+
 All pages must include:
 
 - `layout: default`
@@ -74,7 +76,4 @@ The `created:` field must:
 ## Authors
 
 - Use `authors` as an array.
-- Example:
-
-```yaml
-authors: ["Name"]
+- Example: authors: ["Name"]
