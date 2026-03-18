@@ -323,5 +323,18 @@ Inline references use backticks, such as `permalink` or `layout: default`.
   .markdown-cheatsheet {
     font-size: 0.85rem;
   }
+
+  .markdown-cheatsheet pre {
+    overflow-x: auto;
+    white-space: pre;
+    max-width: 100%;
+  }
 }
+
+article pre, .content pre, main pre {
+  overflow-x: auto;
+  white-space: pre;
+  max-width: 100%;
+}
+
 </style>
