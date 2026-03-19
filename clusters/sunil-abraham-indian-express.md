@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and The Indian Express"
 description: "A consolidated cluster of Sunil Abraham's writing for The Indian Express and related reportage that references his analysis of technology policy, civil liberties, digital regulation, and democratic governance in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-indian-express/
 created: 2026-01-28
 ---

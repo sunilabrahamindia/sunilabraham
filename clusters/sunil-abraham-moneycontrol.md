@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Moneycontrol"
 description: "A curated cluster of Moneycontrol reporting that features commentary from Sunil Abraham on technology policy, digital regulation, platform governance and surveillance reform in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-moneycontrol/
 created: 2025-12-21
 ---

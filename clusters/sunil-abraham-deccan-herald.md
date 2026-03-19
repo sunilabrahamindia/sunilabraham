@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Deccan Herald"
 description: "A curated cluster of Deccan Herald reporting that references Sunil Abraham’s commentary on technology policy, internet regulation, digital rights, and the governance of online platforms in the Indian context."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-deccan-herald/
 created: 2025-12-27
 ---

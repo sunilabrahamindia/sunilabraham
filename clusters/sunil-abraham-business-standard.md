@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Business Standard"
 description: "A consolidated archive of Sunil Abraham’s writings for Business Standard and related news coverage that references his commentary on technology policy, regulation, digital rights, and the political economy of the internet in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-business-standard/
 created: 2026-01-08
 ---

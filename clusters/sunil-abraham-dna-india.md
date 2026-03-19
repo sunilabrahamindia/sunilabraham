@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and DNA India"
 description: "A consolidated archive of Sunil Abraham’s contributions to DNA India and related news coverage that references his analysis of technology, internet governance, digital rights, and public policy in the Indian context."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-dna-india/
 created: 2026-02-05
 ---

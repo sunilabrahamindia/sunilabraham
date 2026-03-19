@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Tehelka"
 description: "A collection of articles written by Sunil Abraham for Tehelka magazine, covering technology policy, digital rights, and internet governance."
-categories: [Clusters, Publications]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-tehelka/
 created: 2026-03-12
 ---

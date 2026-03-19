@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and MediaNama"
 description: "A curated cluster of MediaNama reporting that features Sunil Abraham’s perspectives on technology policy, digital regulation, platform governance, and the institutional shaping of India’s internet ecosystem."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-medianama/
 created: 2026-01-07
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and ThePrint"
 description: "A collection of news reports in ThePrint that include commentary from Sunil Abraham on technology policy, digital rights, and internet governance."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-theprint/
 created: 2026-03-08
 ---

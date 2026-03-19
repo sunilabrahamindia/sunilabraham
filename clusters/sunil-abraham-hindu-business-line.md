@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and The Hindu Business Line"
 description: "A consolidated archive of Sunil Abraham's writing for The Hindu Business Line and related reporting that references his analysis of technology policy, regulation, digital rights, and the political economy of India's internet."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-hindu-business-line/
 created: 2026-02-03
 ---

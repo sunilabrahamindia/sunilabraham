@@ -2,7 +2,7 @@
 layout: default
 title: "Media Coverage: Sunil Abraham's Appointment at Facebook India (2020)"
 description: "A curated collection of media reports covering Sunil Abraham's appointment as Facebook India's (Meta India) Public Policy Director for Data and Emerging Technology."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/facebook-appointment-2020/
 created: 2025-12-05
 ---

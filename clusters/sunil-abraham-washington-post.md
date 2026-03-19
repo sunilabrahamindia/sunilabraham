@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and The Washington Post"
 description: "A curated cluster of Washington Post reporting that includes analysis and commentary from Sunil Abraham on internet governance, free speech, platform power, and digital policy debates in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-washington-post/
 created: 2025-12-22
 ---

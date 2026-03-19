@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Newslaundry"
 description: "A collection of Newslaundry reports and stories that include commentary from Sunil Abraham on technology policy, privacy, and digital governance."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-newslaundry/
 created: 2026-03-09
 ---

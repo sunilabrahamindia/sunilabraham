@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and The Times of India"
 description: "A curated cluster of reporting from The Times of India that includes references and quotations from Sunil Abraham on technology policy, internet regulation, digital rights, and platform governance in the Indian context."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-times-of-india/
 created: 2025-12-23
 ---

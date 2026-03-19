@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Open Magazine"
 description: "A curated cluster of Open Magazine journalism that references Sunil Abraham’s perspectives on technology policy, internet regulation, digital rights, and the political implications of platform power in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-open-magazine/
 created: 2026-01-25
 ---
