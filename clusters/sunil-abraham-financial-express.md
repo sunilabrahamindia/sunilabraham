@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and The Financial Express"
 description: "A curated cluster of reporting from The Financial Express that features commentary from Sunil Abraham on technology policy, digital regulation, privacy and internet governance in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-the-financial-express/
 created: 2025-12-21
 ---

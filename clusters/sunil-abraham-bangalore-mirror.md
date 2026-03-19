@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Bangalore Mirror"
 description: "A consolidated archive of Sunil Abraham's writings for Bangalore Mirror and media coverage featuring his commentary on technology, privacy, social media, and digital culture in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-bangalore-mirror/
 created: 2025-12-20
 ---

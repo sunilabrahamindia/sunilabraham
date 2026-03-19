@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and TechPresident"
 description: "A collection of TechPresident articles that reference Sunil Abraham in discussions on technology policy, digital governance, and internet rights."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-techpresident/
 created: 2026-03-16
 ---

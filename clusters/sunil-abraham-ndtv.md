@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and NDTV"
 description: "A curated cluster of NDTV reporting that features commentary from Sunil Abraham on technology policy, digital rights, online speech and internet governance in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-ndtv/
 created: 2025-12-21
 ---

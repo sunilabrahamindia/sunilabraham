@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Hindustan Times"
 description: "A consolidated archive of Sunil Abraham’s contributions to Hindustan Times and news coverage that references his views on technology, digital rights, platform governance, and public policy in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-hindustan-times/
 created: 2025-12-28
 ---

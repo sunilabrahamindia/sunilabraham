@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and National Herald"
 description: "A collection of National Herald articles that reference Sunil Abraham in discussions related to technology policy, digital rights, and internet governance."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-national-herald/
 created: 2026-03-15
 ---

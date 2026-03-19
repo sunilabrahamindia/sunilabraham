@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and India Today"
 description: "An archive of articles and news coverage in India Today connected to Sunil Abraham, including pieces authored by him and reports citing his commentary."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-india-today/
 created: 2026-03-12
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Scroll.in"
 description: "A curated cluster of Scroll.in journalism that references and engages with Sunil Abraham’s analysis of technology policy, digital rights, internet regulation, and the social impact of platforms in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-scroll-in/
 created: 2026-01-03
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and The Hindu"
 description: "A consolidated archive of Sunil Abraham's contributions to The Hindu and related news coverage that references his views on technology policy, digital rights, internet governance, and constitutional questions in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-the-hindu/
 created: 2026-01-18
 ---

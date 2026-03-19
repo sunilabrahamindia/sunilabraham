@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Mint"
 description: "An archive of Sunil Abraham's articles in Mint and Mint news reports featuring his analysis on technology policy, privacy, and digital governance."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-mint/
 created: 2026-02-20
 ---

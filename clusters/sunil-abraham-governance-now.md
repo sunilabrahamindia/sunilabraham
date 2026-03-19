@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Governance Now"
 description: "A curated cluster of Governance Now reporting that references Sunil Abraham's analysis of technology policy, digital governance, surveillance frameworks, and institutional accountability in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-governance-now/
 created: 2026-01-23
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and The Statesman"
 description: "A collection of articles from The Statesman that reference Sunil Abraham in discussions on technology policy, privacy, and digital governance."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-the-statesman/
 created: 2026-03-18
 ---

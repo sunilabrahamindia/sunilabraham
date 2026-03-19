@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham and Outlook India"
 description: "A curated cluster of Outlook India reporting that references Sunil Abraham's views on technology policy, digital rights, internet governance, and the social implications of platform power in India."
-categories: [Clusters, Media mentions]
+categories: [Clusters]
 permalink: /clusters/sunil-abraham-outlook-india/
 source: "Outlook India"
 created: 2026-02-10
