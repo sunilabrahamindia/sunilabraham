@@ -10,7 +10,7 @@ permalink: /media/indian-internet-lawsuit-puts-spotlight-on-freedom-of-expressio
 created: 2026-03-20
 ---
 
-**Indian Internet Lawsuit Puts Spotlight on Freedom of Expression** is a report published by *Voice of America* on 17 January 2012, written by Anjana Pasricha. The piece covers the criminal lawsuit filed against 21 internet companies — including Google and Facebook — over online content deemed offensive, and examines what the case revealed about free speech and internet governance in India. Sunil Abraham of the Centre for Internet and Society features prominently, offering critical commentary on India's internet regulations and their chilling effect on online expression.
+**Indian Internet Lawsuit Puts Spotlight on Freedom of Expression** is a report published by *Voice of America* on 17 January 2012, written by Anjana Pasricha. The piece covers the criminal lawsuit filed against 21 internet companies, including Google and Facebook, over online content deemed offensive, and examines what the case revealed about free speech and internet governance in India. [Sunil Abraham](/sunil/) features prominently, offering critical commentary on India's internet regulations and their chilling effect on online expression.
 
 ## Contents
 
