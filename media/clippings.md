@@ -9,6 +9,70 @@ created: 2026-03-21
 
 **Press Clippings** is a collection of newspaper and magazine coverage featuring [Sunil Abraham](/sunil/) in print media. These clippings span coverage across Indian and international publications on topics including internet governance, privacy law, digital rights, and technology policy.
 
+## The Hindu — 10 February 1993 {#hindu-10021993-candle}
+
+<figure class="clipping-card">
+  <a href="/articles/images/students-for-peace-candle-for-peace.jpg" data-glightbox="description: Candle for Peace — The Hindu, 10 February 1993">
+    <img
+      src="/articles/images/students-for-peace-candle-for-peace.jpg"
+      alt="Newspaper clipping titled 'Candle for Peace' published in The Hindu on 10 February 1993 describing the Students for Peace demonstration in Bangalore."
+    >
+  </a>
+  <figcaption>
+    "Candle for Peace"<br>
+    <em>The Hindu</em>, 10 February 1993<br>
+    <a href="/articles/students-for-peace/">Read full article</a>
+  </figcaption>
+</figure>
+
+## The Hindu — 10 February 1993 {#hindu-10021993-light}
+
+<figure class="clipping-card">
+  <a href="/articles/images/students-for-peace-the-hindu-1993-02-10.jpg" data-glightbox="description: Light a Candle for Peace — The Hindu, 10 February 1993">
+    <img
+      src="/articles/images/students-for-peace-the-hindu-1993-02-10.jpg"
+      alt="Newspaper clipping titled 'Light a Candle for Peace' published in The Hindu on 10 February 1993, announcing a Students for Peace candlelight demonstration in Bangalore."
+    >
+  </a>
+  <figcaption>
+    "Light a Candle for Peace"<br>
+    <em>The Hindu</em>, 10 February 1993<br>
+    <a href="/articles/students-for-peace/">Read full article</a>
+  </figcaption>
+</figure>
+
+## Deccan Herald — 14 February 1993 {#dh-14021993-candles}
+
+<figure class="clipping-card">
+  <a href="/articles/images/students-for-peace-deccan-herald.jpg" data-glightbox="description: Candles for peace — Deccan Herald, 14 February 1993">
+    <img
+      src="/articles/images/students-for-peace-deccan-herald.jpg"
+      alt="Deccan Herald newspaper clipping titled 'Candles for peace' dated 14 February 1993 covering the Students for Peace candlelight demonstration in Bangalore."
+    >
+  </a>
+  <figcaption>
+    "Candles for peace"<br>
+    <em>Deccan Herald</em>, 14 February 1993<br>
+    <a href="/articles/students-for-peace/">Read full article</a>
+  </figcaption>
+</figure>
+
+## Deccan Herald — 14 February 1993 {#dh-14021993-holding}
+
+<figure class="clipping-card">
+  <a href="/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg" data-glightbox="description: Holding a candle for peace — Deccan Herald, 14 February 1993">
+    <img
+      src="/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg"
+      alt="Deccan Herald newspaper clipping titled 'Holding a candle for peace', dated 14 February 1993, covering the Students for Peace candlelight demonstration in Bangalore."
+    >
+  </a>
+  <figcaption>
+    "Holding a candle for peace"<br>
+    <em>Deccan Herald</em>, 14 February 1993<br>
+    <a href="/articles/students-for-peace/">Read full article</a>
+  </figcaption>
+</figure>
+
 ## The Times of India — 6 May 2014 {#toi-06052014}
 
 <figure class="clipping-card">
@@ -16,7 +80,6 @@ created: 2026-03-21
     <img
       src="/media/images/civil-society-pushes-for-privacy-panel.jpg"
       alt="The Times of India clipping dated 6 May 2014 titled Civil Society Pushes for Privacy Panel"
-      loading="lazy"
     >
   </a>
   <figcaption>
@@ -33,7 +96,6 @@ created: 2026-03-21
     <img
       src="/media/images/sunil-abraham-fighting-battle-newspaper-scan.png"
       alt="The Hindu clipping dated 2 September 2014 titled Fighting Battles Online"
-      loading="lazy"
     >
   </a>
   <figcaption>
@@ -50,7 +112,6 @@ created: 2026-03-21
     <img
       src="/publications/images/fear-uncertainty-and-doubt.md.png"
       alt="Deccan Chronicle clipping dated 26 March 2015 titled Fear, Uncertainty and Doubt"
-      loading="lazy"
     >
   </a>
   <figcaption>
@@ -67,7 +128,6 @@ created: 2026-03-21
     <img
       src="/publications/images/privacy-violation-even-without-financial-loss-you-can-sue-malayalam.jpg"
       alt="Malayala Manorama clipping dated 26 August 2017 titled സ്വകാര്യതാലംഘനം: ധനനഷ്ടമില്ലെങ്കിലും കേസിനു പോകാം"
-      loading="lazy"
     >
   </a>
   <figcaption>
@@ -85,7 +145,6 @@ created: 2026-03-21
     <img
       src="/publications/images/when-governments-tag-you-on-social-media.jpg"
       alt="Business Standard clipping dated 13 March 2019 titled When Governments Tag You on Social Media"
-      loading="lazy"
     >
   </a>
   <figcaption>
