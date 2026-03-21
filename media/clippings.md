@@ -67,12 +67,17 @@ created: 2026-03-21
 
 /* --- Thumbnail button --- */
 .clipping-thumb {
-  all: unset;
+  appearance: none;
+  -webkit-appearance: none;
+  background: #f4f6fa;
+  border: none;
+  padding: 0;
+  margin: 0;
   cursor: zoom-in;
   display: block;
+  width: 100%;
   position: relative;
   overflow: hidden;
-  background: #f4f6fa;
   line-height: 0;
 }
 
