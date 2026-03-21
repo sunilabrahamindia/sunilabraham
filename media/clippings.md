@@ -11,7 +11,7 @@ created: 2026-03-21
 
 ## The Hindu — 10 February 1993 {#hindu-10021993-candle}
 
-<figure class="clipping-card">
+<figure class="clipping-card clipping-small">
   <a href="/articles/images/students-for-peace-candle-for-peace.jpg" data-glightbox="description: Candle for Peace — The Hindu, 10 February 1993">
     <img
       src="/articles/images/students-for-peace-candle-for-peace.jpg"
@@ -27,7 +27,7 @@ created: 2026-03-21
 
 ## The Hindu — 10 February 1993 {#hindu-10021993-light}
 
-<figure class="clipping-card">
+<figure class="clipping-card clipping-small">
   <a href="/articles/images/students-for-peace-the-hindu-1993-02-10.jpg" data-glightbox="description: Light a Candle for Peace — The Hindu, 10 February 1993">
     <img
       src="/articles/images/students-for-peace-the-hindu-1993-02-10.jpg"
@@ -43,7 +43,7 @@ created: 2026-03-21
 
 ## Deccan Herald — 14 February 1993 {#dh-14021993-candles}
 
-<figure class="clipping-card">
+<figure class="clipping-card clipping-small">
   <a href="/articles/images/students-for-peace-deccan-herald.jpg" data-glightbox="description: Candles for peace — Deccan Herald, 14 February 1993">
     <img
       src="/articles/images/students-for-peace-deccan-herald.jpg"
@@ -59,7 +59,7 @@ created: 2026-03-21
 
 ## Deccan Herald — 14 February 1993 {#dh-14021993-holding}
 
-<figure class="clipping-card">
+<figure class="clipping-card clipping-small">
   <a href="/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg" data-glightbox="description: Holding a candle for peace — Deccan Herald, 14 February 1993">
     <img
       src="/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg"
@@ -171,6 +171,10 @@ created: 2026-03-21
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.clipping-card.clipping-small {
+  max-width: 380px;
+}
+
 .clipping-card figcaption {
   margin-top: 0.6rem;
   font-size: 0.85rem;
@@ -188,7 +192,8 @@ created: 2026-03-21
 }
 
 @media (max-width: 500px) {
-  .clipping-card {
+  .clipping-card,
+  .clipping-card.clipping-small {
     max-width: 100%;
   }
 }
