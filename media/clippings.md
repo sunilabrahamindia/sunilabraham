@@ -46,9 +46,9 @@ created: 2026-03-21
 ## Deccan Chronicle — 26 March 2015 {#dc-26032015}
 
 <figure class="clipping-card">
-  <a href="/media/images/fear-uncertainty-and-doubt.png" data-glightbox="description: Fear, Uncertainty and Doubt — Deccan Chronicle, 26 March 2015">
+  <a href="/publications/images/fear-uncertainty-and-doubt.md.png" data-glightbox="description: Fear, Uncertainty and Doubt — Deccan Chronicle, 26 March 2015">
     <img
-      src="/media/images/fear-uncertainty-and-doubt.png"
+      src="/publications/images/fear-uncertainty-and-doubt.md.png"
       alt="Deccan Chronicle clipping dated 26 March 2015 titled Fear, Uncertainty and Doubt"
       loading="lazy"
     >
