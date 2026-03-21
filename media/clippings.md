@@ -9,37 +9,27 @@ created: 2026-03-21
 
 **Press Clippings** is a collection of newspaper and magazine coverage featuring [Sunil Abraham](/sunil/) in print media. These clippings span coverage across Indian and international publications on topics including internet governance, privacy law, digital rights, and technology policy.
 
-<div class="clippings-grid">
+## The Times of India — 6 May 2014 {#toi-06052014}
 
-  <figure class="clipping-card">
-    <a href="/media/images/civil-society-pushes-for-privacy-panel.jpg" data-glightbox="description: Civil Society Pushes for Privacy Panel — The Times of India, 6 May 2014">
-      <img
-        src="/media/images/civil-society-pushes-for-privacy-panel.jpg"
-        alt="The Times of India clipping dated 6 May 2014 titled Civil Society Pushes for Privacy Panel"
-        loading="lazy"
-      >
-    </a>
-    <figcaption>
-      The Times of India, 6 May 2014<br>
-      <a href="/media/civil-society-pushes-for-privacy-panel/">Read Full Article</a>
-    </figcaption>
-  </figure>
-
-</div>
+<figure class="clipping-card">
+  <a href="/media/images/civil-society-pushes-for-privacy-panel.jpg" data-glightbox="description: Civil Society Pushes for Privacy Panel — The Times of India, 6 May 2014">
+    <img
+      src="/media/images/civil-society-pushes-for-privacy-panel.jpg"
+      alt="The Times of India clipping dated 6 May 2014 titled Civil Society Pushes for Privacy Panel"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    <strong>Civil Society Pushes for Privacy Panel</strong><br>
+    <a href="/media/civil-society-pushes-for-privacy-panel/">Read full article</a>
+  </figcaption>
+</figure>
 
 <style>
-.clippings-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
 .clipping-card {
   width: 100%;
-  max-width: 600px;
-  margin: 0;
+  max-width: 720px;
+  margin: 0 auto 3rem;
   text-align: center;
 }
 
@@ -54,7 +44,7 @@ created: 2026-03-21
 .clipping-card figcaption {
   margin-top: 0.6rem;
   font-size: 0.85rem;
-  color: #555;
+  color: #444;
   line-height: 1.6;
 }
 
