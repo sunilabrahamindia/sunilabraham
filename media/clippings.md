@@ -20,8 +20,26 @@ created: 2026-03-21
     >
   </a>
   <figcaption>
-    <strong>Civil Society Pushes for Privacy Panel</strong><br>
+    "Civil Society Pushes for Privacy Panel"<br>
+    <em>The Times of India</em>, 6 May 2014<br>
     <a href="/media/civil-society-pushes-for-privacy-panel/">Read full article</a>
+  </figcaption>
+</figure>
+
+## The Hindu — 2 September 2014 {#hindu-02092014}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/media/images/sunil-abraham-fighting-battle-newspaper-scan.png" data-glightbox="description: Fighting Battles Online — The Hindu, 2 September 2014">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/media/images/sunil-abraham-fighting-battle-newspaper-scan.png"
+      alt="The Hindu clipping dated 2 September 2014 titled Fighting Battles Online"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Fighting Battles Online"<br>
+    <em>The Hindu</em>, 2 September 2014<br>
+    <a href="/media/fighting-battles-online-the-hindu/">Read full article</a>
   </figcaption>
 </figure>
 
