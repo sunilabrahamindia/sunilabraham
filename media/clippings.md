@@ -172,7 +172,7 @@ created: 2026-03-21
 }
 
 .clipping-card.clipping-small {
-  max-width: 380px;
+  max-width: 300px;
 }
 
 .clipping-card figcaption {
@@ -192,9 +192,11 @@ created: 2026-03-21
 }
 
 @media (max-width: 500px) {
-  .clipping-card,
-  .clipping-card.clipping-small {
+  .clipping-card {
     max-width: 100%;
+  }
+  .clipping-card.clipping-small {
+    max-width: 260px;
   }
 }
 </style>
