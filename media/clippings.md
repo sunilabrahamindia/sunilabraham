@@ -59,7 +59,7 @@ created: 2026-03-21
 
 ## Deccan Herald — 14 February 1993 {#dh-14021993-holding}
 
-<figure class="clipping-card clipping-small">
+<figure class="clipping-card">
   <a href="/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg" data-glightbox="description: Holding a candle for peace — Deccan Herald, 14 February 1993">
     <img
       src="/articles/images/students-for-peace-holding-a-candle-for-peace.jpeg"
