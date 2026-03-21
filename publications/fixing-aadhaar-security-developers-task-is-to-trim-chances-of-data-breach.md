@@ -44,7 +44,7 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 </dl>
 
 <figure class="media-image">
-  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/Aadhaar%20verification%20queue.jpg"
+  <img src="/publications/images/Aadhaar%20verification%20queue.jpg"
        alt="People queueing for Aadhaar registration, illustrating digital identity enrolment in India.">
   <figcaption>File photo of Aadhaar registration being done.</figcaption>
 </figure>
