@@ -3,7 +3,7 @@ layout: default
 title: "Press Clippings"
 description: "A visual archive of newspaper and magazine clippings featuring Sunil Abraham and the Centre for Internet and Society, including print media references that may not be available online."
 categories: [Media mentions]
-permalink: /media/clippings/
+permalink: /clippings/
 created: 2026-03-21
 ---
 
@@ -29,9 +29,9 @@ created: 2026-03-21
 ## The Hindu — 2 September 2014 {#hindu-02092014}
 
 <figure class="clipping-card">
-  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/media/images/sunil-abraham-fighting-battle-newspaper-scan.png" data-glightbox="description: Fighting Battles Online — The Hindu, 2 September 2014">
+  <a href="/media/images/sunil-abraham-fighting-battle-newspaper-scan.png" data-glightbox="description: Fighting Battles Online — The Hindu, 2 September 2014">
     <img
-      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/media/images/sunil-abraham-fighting-battle-newspaper-scan.png"
+      src="/media/images/sunil-abraham-fighting-battle-newspaper-scan.png"
       alt="The Hindu clipping dated 2 September 2014 titled Fighting Battles Online"
       loading="lazy"
     >
@@ -40,6 +40,23 @@ created: 2026-03-21
     "Fighting Battles Online"<br>
     <em>The Hindu</em>, 2 September 2014<br>
     <a href="/media/fighting-battles-online-the-hindu/">Read full article</a>
+  </figcaption>
+</figure>
+
+## Deccan Chronicle — 26 March 2015 {#dc-26032015}
+
+<figure class="clipping-card">
+  <a href="/media/images/fear-uncertainty-and-doubt.png" data-glightbox="description: Fear, Uncertainty and Doubt — Deccan Chronicle, 26 March 2015">
+    <img
+      src="/media/images/fear-uncertainty-and-doubt.png"
+      alt="Deccan Chronicle clipping dated 26 March 2015 titled Fear, Uncertainty and Doubt"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Fear, Uncertainty and Doubt"<br>
+    <em>Deccan Chronicle</em>, 26 March 2015<br>
+    <a href="/publications/fear-uncertainty-and-doubt/">Read full article</a>
   </figcaption>
 </figure>
 
