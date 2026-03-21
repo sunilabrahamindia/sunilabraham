@@ -60,6 +60,42 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
+## Malayala Manorama — 26 August 2017 {#mm-26082017}
+
+<figure class="clipping-card">
+  <a href="/publications/images/privacy-violation-even-without-financial-loss-you-can-sue-malayalam.jpg" data-glightbox="description: സ്വകാര്യതാലംഘനം: ധനനഷ്ടമില്ലെങ്കിലും കേസിനു പോകാം — Malayala Manorama, 26 August 2017">
+    <img
+      src="/publications/images/privacy-violation-even-without-financial-loss-you-can-sue-malayalam.jpg"
+      alt="Malayala Manorama clipping dated 26 August 2017 titled സ്വകാര്യതാലംഘനം: ധനനഷ്ടമില്ലെങ്കിലും കേസിനു പോകാം"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "സ്വകാര്യതാലംഘനം: ധനനഷ്ടമില്ലെങ്കിലും കേസിനു പോകാം"<br>
+    "Privacy Violation: Even Without Financial Loss You Can Sue"<br>
+    <em>Malayala Manorama</em>, 26 August 2017<br>
+    <a href="/publications/privacy-violation-even-without-financial-loss-you-can-sue/">Read full article</a>
+  </figcaption>
+</figure>
+
+## Business Standard — 13 March 2019 {#bs-13032019}
+
+<figure class="clipping-card">
+  <a href="/publications/images/when-governments-tag-you-on-social-media.jpg" data-glightbox="description: When Governments Tag You on Social Media — Business Standard, 13 March 2019">
+    <img
+      src="/publications/images/when-governments-tag-you-on-social-media.jpg"
+      alt="Business Standard clipping dated 13 March 2019 titled When Governments Tag You on Social Media"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "When Governments Tag You on Social Media"<br>
+    <em>Business Standard</em>, 13 March 2019<br>
+    <a href="/publications/when-governments-tag-you-on-social-media/">Read full article</a>
+  </figcaption>
+</figure>
+
+
 <style>
 .clipping-card {
   width: 100%;
