@@ -2,21 +2,22 @@
 layout: default
 title: "India's Dreams of Web Censorship"
 description: "A Financial Times beyondbrics blog post quoting Sunil Abraham on Kapil Sibal's proposals for pre-screening online content and the technical impossibility of large-scale censorship."
-categories: [Media articles, Media mentions, Publications]
+categories: [Media mentions, Publications]
 date: 2011-12-06
-authors: ["Sunil Abraham"]
+authors: ["Neil Munshi"]
 source: "Financial Times"
 permalink: /media/indias-dreams-of-web-censorship/
 created: 2025-11-23
 ---
 
-**India's Dreams of Web Censorship** is a Financial Times beyondbrics blog post published on 6 December 2011, quoting Sunil Abraham on the feasibility and implications of proposed pre-screening of online content in India. The post addresses ministerial demands for proactive censorship, the scale of social media usage, and the risks posed by ambiguous restrictions on speech.
+**India's Dreams of Web Censorship** is a *Financial Times* article published on 6 December 2011, quoting [Sunil Abraham](/sunil/) on the feasibility and implications of proposed pre-screening of online content in India. The post addresses ministerial demands for proactive censorship, the scale of social media usage, and the risks posed by ambiguous restrictions on speech.
 
 ## Contents
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
 3. [Context and Background](#context-and-background)
+4. [External Link](#external-link)
 
 ## Article Details
 
@@ -28,13 +29,15 @@ created: 2025-11-23
   <dd>6 December 2011</dd>
 
   <dt>👤 Author:</dt>
-  <dd>Sunil Abraham</dd>
+  <dd>Neil Munshi</dd>
 
   <dt>📄 Type:</dt>
   <dd>Blog Commentary / News Analysis</dd>
 
-  <dt>📰 Newspaper Link:</dt>
-  <dd>Not available online</dd>
+<dt>📰 Publication Link:</dt>
+<dd>
+  <a class="btn" href="https://www.ft.com/content/dff6d200-4ff0-38d4-b1b5-773180cc00da">Read Online</a>
+</dd>
 </dl>
 
 ## Full Text
@@ -45,9 +48,11 @@ created: 2025-11-23
 
 <p>Actually, if Sibal has his way and you are offended by this post, the armies of people to be employed by internet companies operating in India to monitor their sites for potentially offensive material – whether it originates in India or abroad – will ensure that it is removed before it can even be published. And good luck to all of them with that.</p>
 
-<p>That, anyway, was the gist of Sibal’s combative press conference in the courtyard of his Delhi home on Tuesday, the day after the New York Times reported he had met executives from Google, Facebook, Yahoo and Microsoft to discuss the preemptive removal of “offensive material”.</p>
+<p>That, anyway, was the gist of Sibal's combative press conference in the courtyard of his Delhi home on Tuesday, the day after the New York Times reported he had met executives from Google, Facebook, Yahoo and Microsoft to discuss the preemptive removal of "offensive material".</p>
 
-<p>The press conference was prompted by uproar that swept Twitter on Monday night – one of the sites, incidentally, that Sibal would like to monitor – and was carried live on all major news channels. Social networking sites have gained a lot of traction in India and are much used by politicians, celebrities and the burgeoning, young middle class.</p>
+<p>The press conference was prompted by uproar that swept Twitter on Monday night – one of the sites, incidentally, that Sibal would like to monitor – and was carried live on all major news channels.</p> 
+
+<p>Social networking sites have gained a lot of traction in India and are much used by politicians, celebrities and the burgeoning, young middle class.</p>
 
 <p>"I believe that no reasonable person aware of the sensibilities of large sections of communities in this country and aware of community standards as they are applicable in India would wish to see this content in the public domain," Sibal said, referring to "offensive material" he had shown some reporters prior to the conference. He added that the government did not believe in censorship.</p>
 
@@ -59,15 +64,15 @@ created: 2025-11-23
 
 <p>An Indian employee of one foreign tech company, when asked about Sibal's demand that each outfit set up dedicated teams to monitor content in real time, let out an extended, almost hysterical laugh, before regaining composure and asking: "Do you know how many users we have?"</p>
 
-<p>Indeed, even in a country with low internet penetration like India – 100m people regularly use the internet, less than 10 per cent of India’s 1.2bn population – the task of monitoring real-time content generated on millions of sites opens up legal wormholes and is technically impossible, Sunil Abraham, executive director of the Bangalore-based Centre for Internet & Society, told beyondbrics.</p>
+<p>Indeed, even in a country with low internet penetration like India – 100m people regularly use the internet, less than 10 per cent of India's 1.2bn population – the task of monitoring real-time content generated on millions of sites opens up legal wormholes and is technically impossible, Sunil Abraham, executive director of the Bangalore-based Centre for Internet & Society, told beyondbrics.</p>
 
-<p>"Technically what he’s asking for is an impossibility: it’s not possible in the age of web 2.0 to manually curate or censor social media content," he said. “This is obvious to all of us. Isn’t it strange that the minister of IT, who seems to understand a lot of complex issues, is actually in favour of something like this?”</p>
+<p>"Technically what he's asking for is an impossibility: it's not possible in the age of web 2.0 to manually curate or censor social media content," he said. "This is obvious to all of us. Isn't it strange that the minister of IT, who seems to understand a lot of complex issues, is actually in favour of something like this?"</p>
 
 <p>Abraham warned that the focus on blasphemous and vaguely defined "offensive" speech was dangerous, noting that the Hindu profession of belief in multiple gods is blasphemous to Muslims, Christians and Jews.</p>
 
 <p>But Sibal was defiant.</p>
 
-<p>Asked what would be deemed "offensive", he said: “We will define it, don’t worry, certainly, we will evolve guidelines…to ensure that such blasphemous content” is not publicly available in India.</p>
+<p>Asked what would be deemed "offensive", he said: "We will define it, don't worry, certainly, we will evolve guidelines…to ensure that such blasphemous content" is not publicly available in India.</p>
 
 <p>Asked whether his idea was technically feasible, he responded: "It is a feasible proposition, and we will inform you how as and when, we will inform you as and when."</p>
 
@@ -83,7 +88,10 @@ created: 2025-11-23
 
 ## Context and Background
 
-This blog post emerged after a wave of public outrage over reports that the Indian government had requested proactive filtering of social media content. The controversy reflected deeper tensions around speech, religious sensitivity, state control, and the technical realities of moderating user-generated content. Abraham’s remarks underscore the impossibility of large-scale pre-screening and highlight how ambiguous definitions of offence could endanger legitimate public discourse.
+This article emerged after a wave of public outrage over reports that the Indian government had requested proactive filtering of social media content. The controversy reflected deeper tensions around speech, religious sensitivity, state control, and the technical realities of moderating user-generated content. Sunil Abraham's remarks underscore the impossibility of large-scale pre-screening and highlight how ambiguous definitions of offence could endanger legitimate public discourse.
+
+## External Link
+- [Read on Financial Times](https://www.ft.com/content/dff6d200-4ff0-38d4-b1b5-773180cc00da)
 
 <style>
 .media-details {
