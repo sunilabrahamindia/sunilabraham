@@ -4,7 +4,7 @@ title: "Chidambaram to Talk Budget on Google+ Hangout"
 description: "A Wall Street Journal report by Dhanya Ann Thoppil on P. Chidambaram's Google+ Hangout on India's 2013 budget, quoting Sunil Abraham on internet access and government accountability."
 categories: [Media mentions]
 date: 2013-03-04
-source: "Wall Street Journal"
+source: "The Wall Street Journal"
 authors: ["Dhanya Ann Thoppil"]
 permalink: /media/chidambaram-to-talk-budget-on-google-hangout-wall-street-journal/
 created: 2026-03-22
@@ -22,7 +22,7 @@ created: 2026-03-22
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>Wall Street Journal</em></dd>
+  <dd><em>The Wall Street Journal</em></dd>
 
   <dt>👤 Author:</dt>
   <dd>Dhanya Ann Thoppil</dd>
