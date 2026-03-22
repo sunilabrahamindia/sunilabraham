@@ -4,7 +4,7 @@ title: "Indian Supreme Court Overturns Law Barring 'Offensive Messages' Online"
 description: "A Wall Street Journal report by Niharika Mandhana on the Supreme Court striking down Section 66A of India's IT Act, quoting Sunil Abraham on the removal of unconstitutional speech limits."
 categories: [Media mentions]
 date: 2015-03-24
-source: "Wall Street Journal"
+source: "The Wall Street Journal"
 authors: ["Niharika Mandhana", "Newley Purnell"]
 permalink: /media/indian-supreme-court-overturns-law-barring-offensive-messages-online-wall-street-journal/
 created: 2026-03-22
@@ -23,7 +23,7 @@ created: 2026-03-22
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>Wall Street Journal</em></dd>
+  <dd><em>The Wall Street Journal</em></dd>
 
   <dt>👤 Authors:</dt>
   <dd>Niharika Mandhana, Newley Purnell</dd>
@@ -96,7 +96,7 @@ The ruling also addressed the intermediary liability framework, tightening the c
 
 ## External Link
 
-- [Read on Wall Street Journal](https://www.wsj.com/articles/indian-supreme-court-overturns-law-barring-hate-speech-online-1427174675) (Subscription required)
+- [Read on The Wall Street Journal](https://www.wsj.com/articles/indian-supreme-court-overturns-law-barring-hate-speech-online-1427174675) (Subscription required)
 
 <style>
 .media-details {
