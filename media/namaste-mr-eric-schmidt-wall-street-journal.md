@@ -4,7 +4,7 @@ title: "Namaste, Mr. Eric Schmidt"
 description: "A Wall Street Journal India Realtime blog post by R. Jai Krishna on Google executive chairman Eric Schmidt's visit to India, quoting Sunil Abraham on the limits of Schmidt's likely influence on India's free speech debate."
 categories: [Media mentions]
 date: 2013-03-20
-source: "Wall Street Journal"
+source: "The Wall Street Journal"
 authors: ["R. Jai Krishna"]
 permalink: /media/namaste-mr-eric-schmidt-wall-street-journal/
 created: 2026-03-22
@@ -23,7 +23,7 @@ created: 2026-03-22
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>Wall Street Journal</em></dd>
+  <dd><em>The Wall Street Journal</em></dd>
 
   <dt>👤 Author:</dt>
   <dd>R. Jai Krishna</dd>
@@ -100,7 +100,7 @@ The legal cases referenced in the article, including the Vinay Rai lawsuit again
 
 ## External Link
 
-- [Read on Wall Street Journal](https://www.wsj.com/articles/BL-IRTB-18255) (Subscription required)
+- [Read on The Wall Street Journal](https://www.wsj.com/articles/BL-IRTB-18255) (Subscription required)
 
 <style>
 .media-details {
