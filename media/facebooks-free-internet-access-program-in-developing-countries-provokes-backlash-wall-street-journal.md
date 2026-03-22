@@ -4,7 +4,7 @@ title: "Facebook's Free Internet Access Program in Developing Countries Provokes
 description: "A Wall Street Journal report by Newley Purnell and Resty Woro Uniar on the backlash against Internet.org in India and Indonesia, quoting Sunil Abraham on net neutrality concerns."
 categories: [Media mentions]
 date: 2015-09-24
-source: "Wall Street Journal"
+source: "The Wall Street Journal"
 authors: ["Newley Purnell", "Resty Woro Uniar"]
 permalink: /media/facebooks-free-internet-access-program-in-developing-countries-provokes-backlash-wall-street-journal/
 created: 2026-03-22
@@ -23,7 +23,7 @@ created: 2026-03-22
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>Wall Street Journal</em></dd>
+  <dd><em>The Wall Street Journal</em></dd>
 
   <dt>👤 Authors:</dt>
   <dd>Newley Purnell, Resty Woro Uniar</dd>
@@ -90,7 +90,7 @@ The article also captures a broader tension in Facebook's international expansio
 
 ## External Link
 
-- [Read on Wall Street Journal](https://www.wsj.com/articles/facebooks-free-internet-access-program-in-developing-countries-provokes-backlash-1443119580) (Subscription required)
+- [Read on The Wall Street Journal](https://www.wsj.com/articles/facebooks-free-internet-access-program-in-developing-countries-provokes-backlash-1443119580) (Subscription required)
 
 <style>
 .media-details {
