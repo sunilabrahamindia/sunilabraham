@@ -4,7 +4,7 @@ title: "India Weighing Looser Web Rules"
 description: "A Wall Street Journal report by Amol Sharma on India's review of its 2011 intermediary liability rules, quoting Sunil Abraham on constitutional challenges being prepared by civil society."
 categories: [Media mentions]
 date: 2011-05-30
-source: "Wall Street Journal"
+source: "The Wall Street Journal"
 authors: ["Amol Sharma"]
 permalink: /media/india-weighing-looser-web-rules-wall-street-journal/
 created: 2026-03-22
@@ -23,7 +23,7 @@ created: 2026-03-22
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>Wall Street Journal</em></dd>
+  <dd><em>The Wall Street Journal</em></dd>
 
   <dt>👤 Author:</dt>
   <dd>Amol Sharma</dd>
@@ -94,7 +94,7 @@ The rules were eventually revised, though the fundamental tension between platfo
 
 ## External Link
 
-- [Read on Wall Street Journal](https://www.wsj.com/articles/SB10001424052702304563104576355223687825048) (Subscription required)
+- [Read on The Wall Street Journal](https://www.wsj.com/articles/SB10001424052702304563104576355223687825048) (Subscription required)
 
 <style>
 .media-details {
