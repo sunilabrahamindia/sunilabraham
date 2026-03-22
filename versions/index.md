@@ -22,6 +22,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 8. [Version 1.3](#version-13)
 9. [Version 1.3.1](#version-131)
 10. [Version 1.3.2](#version-132)
+11. [Version 1.3.3](#version-133)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -329,3 +330,25 @@ Reporting time: 7 March 2026, 11:40 pm IST
 **Status** ✅ Done  
 Completion date: 14 March 2026  
 Reporting time: 15 March 2026, 12:05 am IST
+
+## Version 1.3.3
+
+- 43 new articles have been published this week.
+
+**Clusters**
+- Work was carried out across multiple clusters, including: [*National Herald*](/clusters/sunil-abraham-national-herald/), [*The Register*](/clusters/sunil-abraham-the-register/), [*TechPresident*](/clusters/sunil-abraham-techpresident/), [*PCWorld*](/clusters/sunil-abraham-pcworld/), [*Voice of America*](/clusters/sunil-abraham-voice-of-america/)
+
+**Press Clippings**
+- A new page, [Press Clippings](/clippings/), was introduced. This page serves as a collection of original newspaper and magazine clippings featuring Sunil Abraham in print media.
+
+**TSAP Documentation**
+- Work began on building a dedicated TSAP documentation system to provide a structured and scalable reference layer for site organisation and content standards.
+- The goal is to ensure long-term consistency, reduce errors, and formalise workflows as the archive grows.
+- Initial foundational pages include: [Manual of Style](/tsap/manual-of-style/) — writing and formatting standards, including language, punctuation, bolding rules, and YAML requirements. [Markdown Guide](/tsap/markdown/) — a practical cheatsheet tailored for TSAP usage. [YAML Front Matter](/tsap/yaml/) — documentation of required parameters with examples. [Site Structure](/tsap/structure/) — explanation of repository layout, directories, and system files.
+
+**Cluster Categories Refactor**
+- All cluster pages were standardised to use `categories: [Clusters]`, removing earlier dual categorisation with “Media mentions.”
+- Applied across 45 cluster pages in a [single commit](https://github.com/sunilabrahamindia/sunilabraham/commit/2d119ffaa53d5b12b55da26bf71eb525ee83d18c)
+
+**Status** ✅ Done  
+Completion date: 21 March 2026
