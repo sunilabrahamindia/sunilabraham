@@ -2,7 +2,7 @@
 layout: default
 title: "Press Clippings"
 description: "A visual archive of newspaper and magazine clippings featuring Sunil Abraham and the Centre for Internet and Society, including print media references that may not be available online."
-categories: [Media mentions]
+categories: [Sunil Abraham]
 permalink: /clippings/
 created: 2026-03-21
 ---
@@ -21,7 +21,7 @@ created: 2026-03-21
   <figcaption>
     "Candle for Peace"<br>
     <em>The Hindu</em>, 10 February 1993<br>
-    <a href="/articles/students-for-peace/">Read full article</a>
+    <a href="/media/candle-for-peace-the-hindu/">Read full article</a>
   </figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ created: 2026-03-21
   <figcaption>
     "Light a Candle for Peace"<br>
     <em>The Hindu</em>, 10 February 1993<br>
-    <a href="/articles/students-for-peace/">Read full article</a>
+    <a href="/media/light-a-candle-for-peace-the-hindu/">Read full article</a>
   </figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ created: 2026-03-21
   <figcaption>
     "Candles for peace"<br>
     <em>Deccan Herald</em>, 14 February 1993<br>
-    <a href="/articles/students-for-peace/">Read full article</a>
+    <a href="/media/candles-for-peace-deccan-herald/">Read full article</a>
   </figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ created: 2026-03-21
   <figcaption>
     "Holding a candle for peace"<br>
     <em>Deccan Herald</em>, 14 February 1993<br>
-    <a href="/articles/students-for-peace/">Read full article</a>
+    <a href="/media/holding-a-candle-for-peace-deccan-herald/">Read full article</a>
   </figcaption>
 </figure>
 
