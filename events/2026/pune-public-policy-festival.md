@@ -1,145 +1,20 @@
-{% assign props = site.data.properties %}
+---
+layout: default
+title: "Pune Public Policy Festival 2026"
+description: "The Pune Public Policy Festival 2026 brought together policymakers, researchers, industry leaders, and technologists to discuss technology-enabled growth, digital governance, and India's evolving role in the global digital order."
+categories: [Events participated]
+date: 2026-01-09
+created: 2026-03-23
+event_type: "Public policy festival"
+location: "Pune, Maharashtra, India"
+organisers: ["Pune Public Policy Festival"]
+speakers: ["Sunil Abraham"]
+sunils_role: ["Participation", "Speaker"]
+permalink: /events/2026/pune-public-policy-festival/
+---
 
-<section class="tsapdata" vocab="https://schema.org/" typeof="Event">
+**Pune Public Policy Festival 2026** was a public policy and technology-focused event held on 9–10 January 2026 in Pune, Maharashtra, India. The festival brought together policymakers, researchers, industry leaders, and technologists to discuss themes such as technology-enabled growth, digital governance, and India's evolving role in the global digital order.
 
-  <table class="tsapdata-table">
-    <tbody>
+Sunil Abraham participated in the festival as a speaker, contributing to discussions on technology, public policy, and emerging digital ecosystems.
 
-      {% if page.event_type %}
-      <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.event_type.label }}</th>
-        <td class="tsapdata-val" property="additionalType">{{ page.event_type }}</td>
-      </tr>
-      {% endif %}
-
-      {% if page.date %}
-      <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.date.label }}</th>
-        <td class="tsapdata-val" property="startDate">{{ page.date | date: "%-d %B %Y" }}</td>
-      </tr>
-      {% endif %}
-
-      {% if page.location %}
-      <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.location.label }}</th>
-        <td class="tsapdata-val" property="location">{{ page.location }}</td>
-      </tr>
-      {% endif %}
-
-      {% if page.sunils_role %}
-      <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.sunils_role.label }}</th>
-        <td class="tsapdata-val">
-          {% for role in page.sunils_role %}
-          <div class="tsapdata-multival">{{ role }}</div>
-          {% endfor %}
-        </td>
-      </tr>
-      {% endif %}
-
-      {% if page.organisers %}
-      <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.organisers.label }}</th>
-        <td class="tsapdata-val" property="organizer">
-          {% for org in page.organisers %}
-          <div class="tsapdata-multival">{{ org }}</div>
-          {% endfor %}
-        </td>
-      </tr>
-      {% endif %}
-
-      {% if page.website %}
-      <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.website.label }}</th>
-        <td class="tsapdata-val" property="url">
-          {% for url in page.website %}
-          <div class="tsapdata-multival">
-            <a href="{{ url }}" rel="noopener noreferrer">{{ url }}</a>
-          </div>
-          {% endfor %}
-        </td>
-      </tr>
-      {% endif %}
-
-    </tbody>
-  </table>
-
-</section>
-
-<style>
-.tsapdata {
-  width: 100%;
-  box-sizing: border-box;
-  margin: 1.5rem 0;
-  font-family: inherit;
-}
-
-.tsapdata-table {
-  width: 100%;
-  border-collapse: collapse;
-  border-top: 1px solid #c8ccd1;
-  border-bottom: 1px solid #c8ccd1;
-  border-left: none;
-  border-right: none;
-  background: #ffffff;
-  table-layout: auto;
-}
-
-.tsapdata-prop {
-  width: 30%;
-  background: #f8f9fa;
-  color: #3a3a3a;
-  font-weight: normal;
-  font-size: inherit;
-  vertical-align: top;
-  padding: 0.4rem 0.6rem;
-  border-top: 1px solid #c8ccd1;
-  border-bottom: 1px solid #c8ccd1;
-  border-left: none;
-  border-right: none;
-}
-
-.tsapdata-val {
-  background: #ffffff;
-  color: #202122;
-  font-weight: 500;
-  vertical-align: top;
-  padding: 0.4rem 0.6rem;
-  border-top: 1px solid #c8ccd1;
-  border-bottom: 1px solid #c8ccd1;
-  border-left: 1px solid #c8ccd1;
-  border-right: none;
-  word-break: break-word;
-  line-height: 1.5;
-}
-
-.tsapdata-multival {
-  padding: 0.15rem 0;
-  border-bottom: 1px solid #eaecf0;
-}
-
-.tsapdata-multival:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.tsapdata-multival:first-child {
-  padding-top: 0;
-}
-
-.tsapdata-val a {
-  color: #3366cc;
-  text-decoration: none;
-}
-
-.tsapdata-val a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 500px) {
-  .tsapdata-prop {
-    width: 110px;
-    white-space: normal;
-  }
-}
-</style>
+{% include event-infobox.html %}
