@@ -1,35 +1,33 @@
 <!-- _includes/event-infobox.html -->
 <section class="tsapdata" vocab="https://schema.org/" typeof="Event">
 
-  <div class="tsapdata-heading">Statements</div>
-
   <table class="tsapdata-table">
     <tbody>
 
       {% if page.event_type %}
       <tr>
-        <th class="tsapdata-prop" scope="row" title="P31">instance of</th>
+        <th class="tsapdata-prop" scope="row">instance of</th>
         <td class="tsapdata-val" property="additionalType">{{ page.event_type }}</td>
       </tr>
       {% endif %}
 
       {% if page.date %}
       <tr>
-        <th class="tsapdata-prop" scope="row" title="P585">date</th>
+        <th class="tsapdata-prop" scope="row">date</th>
         <td class="tsapdata-val" property="startDate">{{ page.date | date: "%-d %B %Y" }}</td>
       </tr>
       {% endif %}
 
       {% if page.location %}
       <tr>
-        <th class="tsapdata-prop" scope="row" title="P276">location</th>
+        <th class="tsapdata-prop" scope="row">location</th>
         <td class="tsapdata-val" property="location">{{ page.location }}</td>
       </tr>
       {% endif %}
 
       {% if page.sunils_role %}
       <tr>
-        <th class="tsapdata-prop" scope="row" title="P3342">role</th>
+        <th class="tsapdata-prop" scope="row">role</th>
         <td class="tsapdata-val">
           {% for role in page.sunils_role %}
           <div class="tsapdata-multival">{{ role }}</div>
@@ -40,7 +38,7 @@
 
       {% if page.organisers %}
       <tr>
-        <th class="tsapdata-prop" scope="row" title="P664">organiser</th>
+        <th class="tsapdata-prop" scope="row">organiser</th>
         <td class="tsapdata-val" property="organizer">
           {% for org in page.organisers %}
           <div class="tsapdata-multival">{{ org }}</div>
@@ -49,12 +47,14 @@
       </tr>
       {% endif %}
 
-      {% if page.speakers %}
+      {% if page.website %}
       <tr>
-        <th class="tsapdata-prop" scope="row" title="P823">speaker</th>
-        <td class="tsapdata-val" property="performer">
-          {% for speaker in page.speakers %}
-          <div class="tsapdata-multival">{{ speaker }}</div>
+        <th class="tsapdata-prop" scope="row">official website</th>
+        <td class="tsapdata-val" property="url">
+          {% for url in page.website %}
+          <div class="tsapdata-multival">
+            <a href="{{ url }}" target="_blank" rel="noopener">{{ url }}</a>
+          </div>
           {% endfor %}
         </td>
       </tr>
@@ -74,48 +74,45 @@
   font-family: inherit;
 }
 
-.tsapdata-heading {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #202122;
-  margin-bottom: 0.4rem;
-}
-
 .tsapdata-table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #a2a9b1;
+  border-top: 1px solid #c8ccd1;
+  border-bottom: 1px solid #c8ccd1;
+  border-left: none;
+  border-right: none;
   background: #ffffff;
-  table-layout: fixed;
 }
 
 .tsapdata-prop {
   width: 160px;
-  background: #eaecf0;
-  color: #54595d;
+  background: #f8f9fa;
+  color: #3a3a3a;
   font-weight: normal;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   vertical-align: top;
-  padding: 0.55rem 0.75rem;
-  border: 1px solid #a2a9b1;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #c8ccd1;
+  border-left: none;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  cursor: help;
 }
 
 .tsapdata-val {
   background: #ffffff;
   color: #202122;
+  font-weight: 500;
   vertical-align: top;
-  padding: 0.55rem 0.75rem;
-  border: 1px solid #a2a9b1;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #c8ccd1;
+  border-right: none;
   word-break: break-word;
   line-height: 1.5;
 }
 
 .tsapdata-multival {
-  padding: 0.25rem 0;
+  padding: 0.15rem 0;
   border-bottom: 1px solid #eaecf0;
 }
 
@@ -128,11 +125,20 @@
   padding-top: 0;
 }
 
+.tsapdata-val a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.tsapdata-val a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 500px) {
   .tsapdata-prop {
     width: 110px;
     white-space: normal;
-    font-size: 0.78rem;
+    font-size: 0.75rem;
   }
 }
 </style>
