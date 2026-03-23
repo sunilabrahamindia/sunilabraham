@@ -8,6 +8,7 @@ created: 2026-03-23
 event_type: "Public policy festival"
 location: "Pune, Maharashtra, India"
 organisers: ["Pune Public Policy Festival"]
+website: ["https://www.pppf.in/"]
 speakers: ["Sunil Abraham"]
 sunils_role: ["Participation", "Speaker"]
 permalink: /events/2026/pune-public-policy-festival/
