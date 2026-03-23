@@ -33,6 +33,8 @@ The campaign culminated in a candlelight vigil held on 13 February 1993 along Ma
 
 <div class="clear-fix"></div>
 
+{% include event-infobox.html %}
+
 ## Contents
 
 1. [Background](#background)  
@@ -47,8 +49,6 @@ The campaign culminated in a candlelight vigil held on 13 February 1993 along Ma
 10. [Contemporary Media Coverage](#contemporary-media-coverage)  
 11. [Archival Record](#archival-record)  
 12. [References](#references)
-
-{% include event-infobox.html %}
 
 ## Background
 
