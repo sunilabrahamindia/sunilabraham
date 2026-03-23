@@ -1,56 +1,138 @@
 <!-- _includes/event-infobox.html -->
 <section class="tsapdata" vocab="https://schema.org/" typeof="Event">
 
-  <h2 class="tsapdata-title" property="name">{{ page.title }}</h2>
+  <div class="tsapdata-heading">Statements</div>
 
-  {% if page.event_type %}
-  <dl class="tsapdata-statements">
-    <div class="tsapdata-row">
-      <dt class="tsapdata-prop" title="P31">Instance of</dt>
-      <dd class="tsapdata-val" property="additionalType">{{ page.event_type }}</dd>
-    </div>
-  {% endif %}
+  <table class="tsapdata-table">
+    <tbody>
 
-  {% if page.date %}
-    <div class="tsapdata-row">
-      <dt class="tsapdata-prop" title="P585">Date</dt>
-      <dd class="tsapdata-val" property="startDate">{{ page.date | date: "%-d %B %Y" }}</dd>
-    </div>
-  {% endif %}
+      {% if page.event_type %}
+      <tr>
+        <th class="tsapdata-prop" scope="row" title="P31">instance of</th>
+        <td class="tsapdata-val" property="additionalType">{{ page.event_type }}</td>
+      </tr>
+      {% endif %}
 
-  {% if page.location %}
-    <div class="tsapdata-row">
-      <dt class="tsapdata-prop" title="P276">Location</dt>
-      <dd class="tsapdata-val" property="location">{{ page.location }}</dd>
-    </div>
-  {% endif %}
+      {% if page.date %}
+      <tr>
+        <th class="tsapdata-prop" scope="row" title="P585">date</th>
+        <td class="tsapdata-val" property="startDate">{{ page.date | date: "%-d %B %Y" }}</td>
+      </tr>
+      {% endif %}
 
-  {% if page.sunils_role %}
-    <div class="tsapdata-row">
-      <dt class="tsapdata-prop" title="P3342">Role</dt>
-      <dd class="tsapdata-val">
-        {% for role in page.sunils_role %}{{ role }}{% unless forloop.last %}; {% endunless %}{% endfor %}
-      </dd>
-    </div>
-  {% endif %}
+      {% if page.location %}
+      <tr>
+        <th class="tsapdata-prop" scope="row" title="P276">location</th>
+        <td class="tsapdata-val" property="location">{{ page.location }}</td>
+      </tr>
+      {% endif %}
 
-  {% if page.organisers %}
-    <div class="tsapdata-row">
-      <dt class="tsapdata-prop" title="P664">Organiser</dt>
-      <dd class="tsapdata-val" property="organizer">
-        {% for org in page.organisers %}{{ org }}{% unless forloop.last %}; {% endunless %}{% endfor %}
-      </dd>
-    </div>
-  {% endif %}
+      {% if page.sunils_role %}
+      <tr>
+        <th class="tsapdata-prop" scope="row" title="P3342">role</th>
+        <td class="tsapdata-val">
+          {% for role in page.sunils_role %}
+          <div class="tsapdata-multival">{{ role }}</div>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endif %}
 
-  {% if page.speakers %}
-    <div class="tsapdata-row">
-      <dt class="tsapdata-prop" title="P823">Speaker</dt>
-      <dd class="tsapdata-val" property="performer">
-        {% for speaker in page.speakers %}{{ speaker }}{% unless forloop.last %}; {% endunless %}{% endfor %}
-      </dd>
-    </div>
-  {% endif %}
+      {% if page.organisers %}
+      <tr>
+        <th class="tsapdata-prop" scope="row" title="P664">organiser</th>
+        <td class="tsapdata-val" property="organizer">
+          {% for org in page.organisers %}
+          <div class="tsapdata-multival">{{ org }}</div>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endif %}
 
-  </dl>
+      {% if page.speakers %}
+      <tr>
+        <th class="tsapdata-prop" scope="row" title="P823">speaker</th>
+        <td class="tsapdata-val" property="performer">
+          {% for speaker in page.speakers %}
+          <div class="tsapdata-multival">{{ speaker }}</div>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endif %}
+
+    </tbody>
+  </table>
+
 </section>
+
+<style>
+.tsapdata {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+  font-family: inherit;
+}
+
+.tsapdata-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #202122;
+  margin-bottom: 0.4rem;
+}
+
+.tsapdata-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #a2a9b1;
+  background: #ffffff;
+  table-layout: fixed;
+}
+
+.tsapdata-prop {
+  width: 160px;
+  background: #eaecf0;
+  color: #54595d;
+  font-weight: normal;
+  font-size: 0.82rem;
+  vertical-align: top;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #a2a9b1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: help;
+}
+
+.tsapdata-val {
+  background: #ffffff;
+  color: #202122;
+  vertical-align: top;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #a2a9b1;
+  word-break: break-word;
+  line-height: 1.5;
+}
+
+.tsapdata-multival {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.tsapdata-multival:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.tsapdata-multival:first-child {
+  padding-top: 0;
+}
+
+@media (max-width: 500px) {
+  .tsapdata-prop {
+    width: 110px;
+    white-space: normal;
+    font-size: 0.78rem;
+  }
+}
+</style>
