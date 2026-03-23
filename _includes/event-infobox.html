@@ -1,0 +1,66 @@
+<div class="event-infobox">
+
+  <h2>{{ page.title }}</h2>
+
+  <dl>
+
+    {% if page.event_type %}
+    <dt>Instance of</dt>
+    <dd>{{ page.event_type }}</dd>
+    {% endif %}
+
+    {% if page.date %}
+    <dt>Date</dt>
+    <dd>{{ page.date | date: "%-d %B %Y" }}</dd>
+    {% endif %}
+
+    {% if page.location %}
+    <dt>Location</dt>
+    <dd>{{ page.location }}</dd>
+    {% endif %}
+
+    {% if page.sunils_role %}
+    <dt>Role</dt>
+    <dd>
+      {% for role in page.sunils_role %}
+        {{ role }}{% unless forloop.last %}; {% endunless %}
+      {% endfor %}
+    </dd>
+    {% endif %}
+
+    {% if page.organisers %}
+    <dt>Organiser</dt>
+    <dd>
+      {% for org in page.organisers %}
+        {{ org }}{% unless forloop.last %}; {% endunless %}
+      {% endfor %}
+    </dd>
+    {% endif %}
+
+    {% if page.speakers %}
+    <dt>Speakers</dt>
+    <dd>
+      {% for speaker in page.speakers %}
+        {{ speaker }}{% unless forloop.last %}; {% endunless %}
+      {% endfor %}
+    </dd>
+    {% endif %}
+
+    <!-- Future-ready fields -->
+    {% if page.themes %}
+    <dt>Themes</dt>
+    <dd>
+      {% for theme in page.themes %}
+        {{ theme }}{% unless forloop.last %}; {% endunless %}
+      {% endfor %}
+    </dd>
+    {% endif %}
+
+    {% if page.event_type_detail %}
+    <dt>Subtype</dt>
+    <dd>{{ page.event_type_detail }}</dd>
+    {% endif %}
+
+  </dl>
+
+</div>
