@@ -7,7 +7,7 @@ permalink: /events/2026/
 created: 2026-03-23
 ---
 
-**Events in 2026** lists events organised and participated in by [Sunil Abraham](/sunil/) during the year. 
+**Events in 2026** lists events organised and participated in by [Sunil Abraham](/sunil/) during the year.
 
 <ul>
 {% assign all_events = site.categories["Events organised"] | concat: site.categories["Events participated"] %}
