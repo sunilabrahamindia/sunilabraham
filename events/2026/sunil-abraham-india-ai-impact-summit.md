@@ -2,13 +2,25 @@
 layout: default
 title: "Sunil Abraham at India AI Impact Summit 2026"
 description: "Coverage of Sunil Abraham's participation at the India AI Impact Summit 2026, including panel moderation and speaking engagements on AI governance, regional leadership and responsible AI deployment."
-categories: [Events, India AI Impact Summit 2026, Sunil Abraham]
+categories: [Events participated]
 date: 2026-02-17
-permalink: /events/2026/sunil-abraham-india-ai-impact-summit/
 created: 2026-02-15
+event_name: "India AI Impact Summit 2026"
+event_type: "AI summit"
+location:
+  city: "New Delhi"
+  state: "Delhi"
+  country: "India"
+  display: "New Delhi, India"
+organisers: ["India AI Impact Summit"]
+sunils_role: ["Moderator", "Speaker"]
+website: ["https://impact.indiaai.gov.in"]
+permalink: /events/2026/sunil-abraham-india-ai-impact-summit/
 ---
 
 **Sunil Abraham**, Public Policy Director at Meta, is participating in multiple sessions during the [India AI Impact Summit 2026](/events/india-ai-impact-summit-2026/), which is taking place in New Delhi from 16–20 February 2026. His involvement focuses on AI governance frameworks, democratising AI resources and responsible AI deployment at enterprise scale. This page documents his appearances and panel contributions as the summit progresses.
+
+{% include event-infobox.html %}
 
 ## Contents
 
