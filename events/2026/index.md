@@ -12,27 +12,17 @@ created: 2026-03-23
 <ul>
 {% assign count = 0 %}
 
-{% assign participated = site.categories["Events participated"] %}
-{% if participated %}
-{% for post in participated %}
+{% for post in site.pages %}
+{% if post.categories contains "Events participated" or post.categories contains "Events organised" %}
+{% if post.date %}
 {% assign d = post.date | date: "%Y-%m-%d" %}
 {% if d >= "2026-01-01" and d <= "2026-12-31" %}
 {% assign count = count | plus: 1 %}
 <li><a href="{{ post.url }}">{{ post.title }}</a> <span style="color:#555;font-size:0.9em;">({{ post.date | date: "%d %b %Y" }})</span></li>
 {% endif %}
-{% endfor %}
 {% endif %}
-
-{% assign organised = site.categories["Events organised"] %}
-{% if organised %}
-{% for post in organised %}
-{% assign d = post.date | date: "%Y-%m-%d" %}
-{% if d >= "2026-01-01" and d <= "2026-12-31" %}
-{% assign count = count | plus: 1 %}
-<li><a href="{{ post.url }}">{{ post.title }}</a> <span style="color:#555;font-size:0.9em;">({{ post.date | date: "%d %b %Y" }})</span></li>
 {% endif %}
 {% endfor %}
-{% endif %}
 
 {% if count == 0 %}
 <li style="list-style:none;color:#666;">No events recorded for 2026 yet.</li>
