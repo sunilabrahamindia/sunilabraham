@@ -1,8 +1,9 @@
 {% assign props = site.data.properties %}
 
-<section class="tsapdata" vocab="https://schema.org/" typeof="Event">
-<div class="tsapdata-heading">Event details</div>
-  <table class="tsapdata-table">
+<section class="tsapdata" vocab="https://schema.org/" typeof="Event" aria-labelledby="event-details-heading">
+<meta property="name" content="{{ page.title }}">
+<div id="event-details-heading" class="tsapdata-heading">Event details</div>
+  <table class="tsapdata-table" role="table">
     <tbody>
 
       {% if page.event_type %}
@@ -15,14 +16,18 @@
       {% if page.date %}
       <tr>
         <th class="tsapdata-prop" scope="row">📅 {{ props.date.label }}</th>
-        <td class="tsapdata-val" property="startDate">{{ page.date | date: "%-d %B %Y" }}</td>
+        <td class="tsapdata-val">
+          <time property="startDate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+        </td>
       </tr>
       {% endif %}
 
       {% if page.location %}
       <tr>
         <th class="tsapdata-prop" scope="row">📍 {{ props.location.label }}</th>
-        <td class="tsapdata-val" property="location">{{ page.location }}</td>
+        <td class="tsapdata-val" property="location" typeof="Place">
+          <span property="name">{% if page.location.display %}{{ page.location.display }}{% else %}{{ page.location }}{% endif %}</span>
+        </td>
       </tr>
       {% endif %}
 
@@ -40,9 +45,11 @@
       {% if page.organisers %}
       <tr>
         <th class="tsapdata-prop" scope="row">🏛️ {{ props.organisers.label }}</th>
-        <td class="tsapdata-val" property="organizer">
+        <td class="tsapdata-val">
           {% for org in page.organisers %}
-          <div class="tsapdata-multival">{{ org }}</div>
+          <div class="tsapdata-multival" property="organizer" typeof="Organization">
+            <span property="name">{{ org }}</span>
+          </div>
           {% endfor %}
         </td>
       </tr>
@@ -72,7 +79,7 @@
   box-sizing: border-box;
   margin: 1.5rem 0;
   font-family: inherit;
-  border-left: 3px solid #3366cc;
+  border-left: 3px solid #2a4b8d;
 }
 
 .tsapdata-heading {
