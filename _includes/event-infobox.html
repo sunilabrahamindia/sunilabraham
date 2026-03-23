@@ -1,101 +1,56 @@
-<div class="tsapdata">
+<!-- _includes/event-infobox.html -->
+<section class="tsapdata" vocab="https://schema.org/" typeof="Event">
 
-  <h2>{{ page.title }}</h2>
+  <h2 class="tsapdata-title" property="name">{{ page.title }}</h2>
 
-  <div class="tsapdata-list">
-
-    {% if page.event_type %}
+  {% if page.event_type %}
+  <dl class="tsapdata-statements">
     <div class="tsapdata-row">
-      <span class="tsapdata-label">Instance of:</span>
-      <span class="tsapdata-value">{{ page.event_type }}</span>
+      <dt class="tsapdata-prop" title="P31">Instance of</dt>
+      <dd class="tsapdata-val" property="additionalType">{{ page.event_type }}</dd>
     </div>
-    {% endif %}
+  {% endif %}
 
-    {% if page.date %}
+  {% if page.date %}
     <div class="tsapdata-row">
-      <span class="tsapdata-label">Date:</span>
-      <span class="tsapdata-value">{{ page.date | date: "%-d %B %Y" }}</span>
+      <dt class="tsapdata-prop" title="P585">Date</dt>
+      <dd class="tsapdata-val" property="startDate">{{ page.date | date: "%-d %B %Y" }}</dd>
     </div>
-    {% endif %}
+  {% endif %}
 
-    {% if page.location %}
+  {% if page.location %}
     <div class="tsapdata-row">
-      <span class="tsapdata-label">Location:</span>
-      <span class="tsapdata-value">{{ page.location }}</span>
+      <dt class="tsapdata-prop" title="P276">Location</dt>
+      <dd class="tsapdata-val" property="location">{{ page.location }}</dd>
     </div>
-    {% endif %}
+  {% endif %}
 
-    {% if page.sunils_role %}
+  {% if page.sunils_role %}
     <div class="tsapdata-row">
-      <span class="tsapdata-label">Role:</span>
-      <span class="tsapdata-value">
-        {% for role in page.sunils_role %}
-          {{ role }}{% unless forloop.last %}; {% endunless %}
-        {% endfor %}
-      </span>
+      <dt class="tsapdata-prop" title="P3342">Role</dt>
+      <dd class="tsapdata-val">
+        {% for role in page.sunils_role %}{{ role }}{% unless forloop.last %}; {% endunless %}{% endfor %}
+      </dd>
     </div>
-    {% endif %}
+  {% endif %}
 
-    {% if page.organisers %}
+  {% if page.organisers %}
     <div class="tsapdata-row">
-      <span class="tsapdata-label">Organiser:</span>
-      <span class="tsapdata-value">
-        {% for org in page.organisers %}
-          {{ org }}{% unless forloop.last %}; {% endunless %}
-        {% endfor %}
-      </span>
+      <dt class="tsapdata-prop" title="P664">Organiser</dt>
+      <dd class="tsapdata-val" property="organizer">
+        {% for org in page.organisers %}{{ org }}{% unless forloop.last %}; {% endunless %}{% endfor %}
+      </dd>
     </div>
-    {% endif %}
+  {% endif %}
 
-    {% if page.speakers %}
+  {% if page.speakers %}
     <div class="tsapdata-row">
-      <span class="tsapdata-label">Speakers:</span>
-      <span class="tsapdata-value">
-        {% for speaker in page.speakers %}
-          {{ speaker }}{% unless forloop.last %}; {% endunless %}
-        {% endfor %}
-      </span>
+      <dt class="tsapdata-prop" title="P823">Speaker</dt>
+      <dd class="tsapdata-val" property="performer">
+        {% for speaker in page.speakers %}{{ speaker }}{% unless forloop.last %}; {% endunless %}{% endfor %}
+      </dd>
     </div>
-    {% endif %}
+  {% endif %}
 
-  </div>
-
-</div>
-
-<style>
-.tsapdata {
-  margin: 1.5rem 0;
-  max-width: 700px;
-}
-
-.tsapdata h2 {
-  margin-bottom: 0.6rem;
-  font-size: 1.2rem;
-}
-
-/* Rows */
-.tsapdata-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 0.35rem;
-}
-
-/* Label */
-.tsapdata-label {
-  font-weight: 600;
-  color: #374151;
-  margin-right: 0.4rem;
-}
-
-/* Value */
-.tsapdata-value {
-  color: #111827;
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-  .tsapdata-row {
-    margin-bottom: 0.5rem;
-  }
-}
-</style>
+  </dl>
+</section>
