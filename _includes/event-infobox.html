@@ -72,6 +72,7 @@
   box-sizing: border-box;
   margin: 1.5rem 0;
   font-family: inherit;
+  border-left: 3px solid #3366cc;
 }
 
 .tsapdata-table {
@@ -82,31 +83,33 @@
   border-left: none;
   border-right: none;
   background: #ffffff;
-  table-layout: auto;
+  table-layout: fixed;
 }
 
 .tsapdata-prop {
-  width: 30%;
+  width: 28%;
   background: #f8f9fa;
-  color: #3a3a3a;
+  color: #54595d;
   font-weight: normal;
-  font-size: inherit;
+  font-style: italic;
+  font-size: 0.85em;
   vertical-align: top;
-  padding: 0.4rem 0.6rem;
-  border-top: 1px solid #c8ccd1;
-  border-bottom: 1px solid #c8ccd1;
+  padding: 0.45rem 0.7rem;
+  border-top: 1px solid #eaecf0;
+  border-bottom: 1px solid #eaecf0;
   border-left: none;
   border-right: none;
 }
 
 .tsapdata-val {
+  width: 72%;
   background: #ffffff;
   color: #202122;
-  font-weight: 500;
+  font-weight: normal;
   vertical-align: top;
-  padding: 0.4rem 0.6rem;
-  border-top: 1px solid #c8ccd1;
-  border-bottom: 1px solid #c8ccd1;
+  padding: 0.45rem 0.7rem;
+  border-top: 1px solid #eaecf0;
+  border-bottom: 1px solid #eaecf0;
   border-left: 1px solid #c8ccd1;
   border-right: none;
   word-break: break-word;
@@ -115,7 +118,7 @@
 
 .tsapdata-multival {
   padding: 0.15rem 0;
-  border-bottom: 1px solid #eaecf0;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .tsapdata-multival:last-child {
@@ -138,8 +141,7 @@
 
 @media (max-width: 500px) {
   .tsapdata-prop {
-    width: 110px;
-    white-space: normal;
+    width: 35%;
   }
 }
 </style>
