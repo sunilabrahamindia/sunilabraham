@@ -1,7 +1,7 @@
 {% assign props = site.data.properties %}
 
 <section class="tsapdata" vocab="https://schema.org/" typeof="Event">
-
+<div class="tsapdata-heading">Statements</div>
   <table class="tsapdata-table">
     <tbody>
 
@@ -74,6 +74,14 @@
   font-family: inherit;
   border-left: 3px solid #3366cc;
 }
+  .tsapdata-heading {
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #54595d;
+  margin-bottom: 0.4rem;
+}
 
 .tsapdata-table {
   width: 100%;
@@ -92,7 +100,7 @@
   color: #54595d;
   font-weight: normal;
   font-style: italic;
-  font-size: 0.85em;
+  font-size: inherit;
   vertical-align: top;
   padding: 0.45rem 0.7rem;
   border-top: 1px solid #eaecf0;
