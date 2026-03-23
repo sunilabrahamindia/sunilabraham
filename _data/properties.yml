@@ -1,0 +1,23 @@
+event_type:
+  id: "P1"
+  label: "instance of"
+
+date:
+  id: "P2"
+  label: "date"
+
+location:
+  id: "P3"
+  label: "location"
+
+sunils_role:
+  id: "P4"
+  label: "role"
+
+organisers:
+  id: "P5"
+  label: "organiser"
+
+website:
+  id: "P6"
+  label: "official website"
