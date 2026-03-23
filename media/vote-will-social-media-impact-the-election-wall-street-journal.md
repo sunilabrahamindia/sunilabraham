@@ -64,6 +64,8 @@ created: 2026-03-23
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
+<p class="discreet"><em>Note: This is a partial capture of the original article. The full text may contain additional content not reproduced here.</em></p>
+
 {% include back-to-top.html %}
 
 ## Context and Background
@@ -73,8 +75,6 @@ The article was published ahead of the 2014 Indian general election, which becam
 Sunil Abraham's scepticism about the homogeneity assumption was a methodologically sound critique. The study's constituency-level analysis treated all Facebook users as equally likely to be influenced and to vote, which did not account for differences in caste, class, language, rural-urban divides or the strong role of ground-level political mobilisation that has historically dominated Indian electoral politics.
 
 The 2014 election settled the broader question decisively — social media did matter, but primarily as a tool of political communication and fundraising rather than as a direct vote-swinger in the mechanical sense the IRIS-IAMAI study suggested.
-
-<p class="discreet"><em>Note: This is a partial capture of the original article. The full text may contain additional content not reproduced here.</em></p>
 
 ## External Link
 
