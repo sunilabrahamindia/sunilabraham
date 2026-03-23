@@ -1,9 +1,19 @@
 ---
 layout: default
-title: Students for Peace
-description: Account of the 1993 Students for Peace initiative in Bangalore, including planning documents, budget proposals, media coverage and the 13 February candlelight demonstration.
-categories: [Sunil Abraham, Students for Peace]
+title: "Students for Peace"
+description: "Account of the 1993 Students for Peace initiative in Bangalore, including planning documents, budget proposals, media coverage and the 13 February candlelight demonstration."
+categories: [Events organised]
+date: 1993-02-13
 created: 2025-11-02
+event_type: "Candlelight vigil"
+location:
+  city: "Bangalore"
+  state: "Karnataka"
+  country: "India"
+  display: "Bangalore, Karnataka, India"
+organisers: ["Students for Peace"]
+sunils_role: ["Organiser"]
+permalink: /events/1993/students-for-peace/
 ---
 
 <figure class="sfp-logo">
@@ -37,6 +47,8 @@ The campaign culminated in a candlelight vigil held on 13 February 1993 along Ma
 10. [Contemporary Media Coverage](#contemporary-media-coverage)  
 11. [Archival Record](#archival-record)  
 12. [References](#references)
+
+{% include event-infobox.html %}
 
 ## Background
 
