@@ -15,6 +15,6 @@ permalink: /events/2026/pune-public-policy-festival/
 
 **Pune Public Policy Festival 2026** was a public policy and technology-focused event held on 9–10 January 2026 in Pune, Maharashtra, India. The festival brought together policymakers, researchers, industry leaders, and technologists to discuss themes such as technology-enabled growth, digital governance, and India's evolving role in the global digital order.
 
-Sunil Abraham participated in the festival as a speaker, contributing to discussions on technology, public policy, and emerging digital ecosystems.
+[Sunil Abraham](/sunil/) participated in the festival as a speaker, contributing to discussions on technology, public policy, and emerging digital ecosystems.
 
 {% include event-infobox.html %}
