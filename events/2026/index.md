@@ -15,7 +15,8 @@ created: 2026-03-23
 {% assign participated = site.categories["Events participated"] %}
 {% if participated %}
 {% for post in participated %}
-{% if post.date >= "2026-01-01" and post.date <= "2026-12-31" %}
+{% assign d = post.date | date: "%Y-%m-%d" %}
+{% if d >= "2026-01-01" and d <= "2026-12-31" %}
 {% assign count = count | plus: 1 %}
 <li><a href="{{ post.url }}">{{ post.title }}</a> <span style="color:#555;font-size:0.9em;">({{ post.date | date: "%d %b %Y" }})</span></li>
 {% endif %}
@@ -25,7 +26,8 @@ created: 2026-03-23
 {% assign organised = site.categories["Events organised"] %}
 {% if organised %}
 {% for post in organised %}
-{% if post.date >= "2026-01-01" and post.date <= "2026-12-31" %}
+{% assign d = post.date | date: "%Y-%m-%d" %}
+{% if d >= "2026-01-01" and d <= "2026-12-31" %}
 {% assign count = count | plus: 1 %}
 <li><a href="{{ post.url }}">{{ post.title }}</a> <span style="color:#555;font-size:0.9em;">({{ post.date | date: "%d %b %Y" }})</span></li>
 {% endif %}
