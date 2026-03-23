@@ -70,26 +70,27 @@
   width: 100%;
   box-sizing: border-box;
   margin: 1.5rem 0;
-  font-size: 0.88rem;
   font-family: inherit;
 }
 
 .tsapdata-table {
-  width: 100%;
+  width: 100%;          /* full width — no gap */
   border-collapse: collapse;
   border-top: 1px solid #c8ccd1;
   border-bottom: 1px solid #c8ccd1;
   border-left: none;
   border-right: none;
   background: #ffffff;
+  table-layout: auto;   /* let browser size columns by content */
 }
 
 .tsapdata-prop {
-  width: 160px;
+  width: 30%;           /* proportional, not fixed px */
+  max-width: 180px;
   background: #f8f9fa;
   color: #3a3a3a;
   font-weight: normal;
-  font-size: 0.78rem;
+  font-size: inherit;   /* ← this answers your "who asked to reduce text size" — remove the override */
   vertical-align: top;
   padding: 0.4rem 0.6rem;
   border: 1px solid #c8ccd1;
@@ -138,7 +139,6 @@
   .tsapdata-prop {
     width: 110px;
     white-space: normal;
-    font-size: 0.75rem;
   }
 }
 </style>
