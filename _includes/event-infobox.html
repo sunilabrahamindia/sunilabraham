@@ -1,66 +1,124 @@
-<div class="event-infobox">
+<div class="tsapdata">
 
   <h2>{{ page.title }}</h2>
 
-  <dl>
+  {% if page.event_type %}
+  <div class="tsapdata-card">
+    <div class="tsapdata-label">Instance of</div>
+    <div class="tsapdata-value">{{ page.event_type }}</div>
+  </div>
+  {% endif %}
 
-    {% if page.event_type %}
-    <dt>Instance of</dt>
-    <dd>{{ page.event_type }}</dd>
-    {% endif %}
+  {% if page.date %}
+  <div class="tsapdata-card">
+    <div class="tsapdata-label">Date</div>
+    <div class="tsapdata-value">{{ page.date | date: "%-d %B %Y" }}</div>
+  </div>
+  {% endif %}
 
-    {% if page.date %}
-    <dt>Date</dt>
-    <dd>{{ page.date | date: "%-d %B %Y" }}</dd>
-    {% endif %}
+  {% if page.location %}
+  <div class="tsapdata-card">
+    <div class="tsapdata-label">Location</div>
+    <div class="tsapdata-value">{{ page.location }}</div>
+  </div>
+  {% endif %}
 
-    {% if page.location %}
-    <dt>Location</dt>
-    <dd>{{ page.location }}</dd>
-    {% endif %}
-
-    {% if page.sunils_role %}
-    <dt>Role</dt>
-    <dd>
+  {% if page.sunils_role %}
+  <div class="tsapdata-card">
+    <div class="tsapdata-label">Role</div>
+    <div class="tsapdata-value">
       {% for role in page.sunils_role %}
         {{ role }}{% unless forloop.last %}; {% endunless %}
       {% endfor %}
-    </dd>
-    {% endif %}
+    </div>
+  </div>
+  {% endif %}
 
-    {% if page.organisers %}
-    <dt>Organiser</dt>
-    <dd>
+  {% if page.organisers %}
+  <div class="tsapdata-card">
+    <div class="tsapdata-label">Organiser</div>
+    <div class="tsapdata-value">
       {% for org in page.organisers %}
         {{ org }}{% unless forloop.last %}; {% endunless %}
       {% endfor %}
-    </dd>
-    {% endif %}
+    </div>
+  </div>
+  {% endif %}
 
-    {% if page.speakers %}
-    <dt>Speakers</dt>
-    <dd>
+  {% if page.speakers %}
+  <div class="tsapdata-card">
+    <div class="tsapdata-label">Speakers</div>
+    <div class="tsapdata-value">
       {% for speaker in page.speakers %}
         {{ speaker }}{% unless forloop.last %}; {% endunless %}
       {% endfor %}
-    </dd>
-    {% endif %}
-
-    <!-- Future-ready fields -->
-    {% if page.themes %}
-    <dt>Themes</dt>
-    <dd>
-      {% for theme in page.themes %}
-        {{ theme }}{% unless forloop.last %}; {% endunless %}
-      {% endfor %}
-    </dd>
-    {% endif %}
-
-    {% if page.event_type_detail %}
-    <dt>Subtype</dt>
-    <dd>{{ page.event_type_detail }}</dd>
-    {% endif %}
-
-  </dl>
+    </div>
+  </div>
+  {% endif %}
 
 </div>
+
+<style>
+.tsapdata {
+  margin: 1.5rem 0;
+  max-width: 700px;
+}
+
+/* Title */
+.tsapdata h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+/* Card */
+.tsapdata-card {
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 0.7rem 0.85rem;
+  margin-bottom: 0.6rem;
+  background: #ffffff;
+}
+
+/* Label */
+.tsapdata-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+/* Value */
+.tsapdata-value {
+  font-size: 0.95rem;
+  color: #111827;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+/* 🔽 Mobile improvements */
+@media (max-width: 600px) {
+
+  .tsapdata {
+    margin: 1.2rem 0;
+  }
+
+  .tsapdata h2 {
+    font-size: 1.1rem;
+  }
+
+  .tsapdata-card {
+    padding: 0.75rem 0.8rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .tsapdata-label {
+    font-size: 0.7rem;
+  }
+
+  .tsapdata-value {
+    font-size: 0.92rem;
+  }
+}
+</style>
