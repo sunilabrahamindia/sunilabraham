@@ -1,34 +1,34 @@
 {% assign props = site.data.properties %}
 
 <section class="tsapdata" vocab="https://schema.org/" typeof="Event">
-<div class="tsapdata-heading">Statements</div>
+<div class="tsapdata-heading">Event details</div>
   <table class="tsapdata-table">
     <tbody>
 
       {% if page.event_type %}
       <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.event_type.label }}</th>
+        <th class="tsapdata-prop" scope="row">🏷️ {{ props.event_type.label }}</th>
         <td class="tsapdata-val" property="additionalType">{{ page.event_type }}</td>
       </tr>
       {% endif %}
 
       {% if page.date %}
       <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.date.label }}</th>
+        <th class="tsapdata-prop" scope="row">📅 {{ props.date.label }}</th>
         <td class="tsapdata-val" property="startDate">{{ page.date | date: "%-d %B %Y" }}</td>
       </tr>
       {% endif %}
 
       {% if page.location %}
       <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.location.label }}</th>
+        <th class="tsapdata-prop" scope="row">📍 {{ props.location.label }}</th>
         <td class="tsapdata-val" property="location">{{ page.location }}</td>
       </tr>
       {% endif %}
 
       {% if page.sunils_role %}
       <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.sunils_role.label }}</th>
+        <th class="tsapdata-prop" scope="row">🎭 {{ props.sunils_role.label }}</th>
         <td class="tsapdata-val">
           {% for role in page.sunils_role %}
           <div class="tsapdata-multival">{{ role }}</div>
@@ -39,7 +39,7 @@
 
       {% if page.organisers %}
       <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.organisers.label }}</th>
+        <th class="tsapdata-prop" scope="row">🏛️ {{ props.organisers.label }}</th>
         <td class="tsapdata-val" property="organizer">
           {% for org in page.organisers %}
           <div class="tsapdata-multival">{{ org }}</div>
@@ -50,7 +50,7 @@
 
       {% if page.website %}
       <tr>
-        <th class="tsapdata-prop" scope="row">{{ props.website.label }}</th>
+        <th class="tsapdata-prop" scope="row">🌐 {{ props.website.label }}</th>
         <td class="tsapdata-val" property="url">
           {% for url in page.website %}
           <div class="tsapdata-multival">
@@ -74,14 +74,16 @@
   font-family: inherit;
   border-left: 3px solid #3366cc;
 }
-  .tsapdata-heading {
+
+.tsapdata-heading {
   font-size: 0.8em;
   font-weight: 600;
-  padding-left: 0.6rem
+  padding-left: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: #54595d;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0;
+  padding-bottom: 0.3rem;
 }
 
 .tsapdata-table {
