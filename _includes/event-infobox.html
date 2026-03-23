@@ -1,4 +1,5 @@
-<!-- _includes/event-infobox.html -->
+{% assign props = site.data.properties %}
+
 <section class="tsapdata" vocab="https://schema.org/" typeof="Event">
 
   <table class="tsapdata-table">
@@ -6,28 +7,28 @@
 
       {% if page.event_type %}
       <tr>
-        <th class="tsapdata-prop" scope="row">instance of</th>
+        <th class="tsapdata-prop" scope="row">{{ props.event_type.label }}</th>
         <td class="tsapdata-val" property="additionalType">{{ page.event_type }}</td>
       </tr>
       {% endif %}
 
       {% if page.date %}
       <tr>
-        <th class="tsapdata-prop" scope="row">date</th>
+        <th class="tsapdata-prop" scope="row">{{ props.date.label }}</th>
         <td class="tsapdata-val" property="startDate">{{ page.date | date: "%-d %B %Y" }}</td>
       </tr>
       {% endif %}
 
       {% if page.location %}
       <tr>
-        <th class="tsapdata-prop" scope="row">location</th>
+        <th class="tsapdata-prop" scope="row">{{ props.location.label }}</th>
         <td class="tsapdata-val" property="location">{{ page.location }}</td>
       </tr>
       {% endif %}
 
       {% if page.sunils_role %}
       <tr>
-        <th class="tsapdata-prop" scope="row">role</th>
+        <th class="tsapdata-prop" scope="row">{{ props.sunils_role.label }}</th>
         <td class="tsapdata-val">
           {% for role in page.sunils_role %}
           <div class="tsapdata-multival">{{ role }}</div>
@@ -38,7 +39,7 @@
 
       {% if page.organisers %}
       <tr>
-        <th class="tsapdata-prop" scope="row">organiser</th>
+        <th class="tsapdata-prop" scope="row">{{ props.organisers.label }}</th>
         <td class="tsapdata-val" property="organizer">
           {% for org in page.organisers %}
           <div class="tsapdata-multival">{{ org }}</div>
@@ -49,11 +50,11 @@
 
       {% if page.website %}
       <tr>
-        <th class="tsapdata-prop" scope="row">official website</th>
+        <th class="tsapdata-prop" scope="row">{{ props.website.label }}</th>
         <td class="tsapdata-val" property="url">
           {% for url in page.website %}
           <div class="tsapdata-multival">
-            <a href="{{ url }}" target="_blank" rel="noopener">{{ url }}</a>
+            <a href="{{ url }}" rel="noopener noreferrer">{{ url }}</a>
           </div>
           {% endfor %}
         </td>
@@ -74,30 +75,28 @@
 }
 
 .tsapdata-table {
-  width: 100%;          /* full width — no gap */
+  width: 100%;
   border-collapse: collapse;
   border-top: 1px solid #c8ccd1;
   border-bottom: 1px solid #c8ccd1;
   border-left: none;
   border-right: none;
   background: #ffffff;
-  table-layout: auto;   /* let browser size columns by content */
+  table-layout: auto;
 }
 
 .tsapdata-prop {
-  width: 30%;           /* proportional, not fixed px */
-  max-width: 180px;
+  width: 30%;
   background: #f8f9fa;
   color: #3a3a3a;
   font-weight: normal;
-  font-size: inherit;   /* ← this answers your "who asked to reduce text size" — remove the override */
+  font-size: inherit;
   vertical-align: top;
   padding: 0.4rem 0.6rem;
-  border: 1px solid #c8ccd1;
+  border-top: 1px solid #c8ccd1;
+  border-bottom: 1px solid #c8ccd1;
   border-left: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  border-right: none;
 }
 
 .tsapdata-val {
@@ -106,7 +105,9 @@
   font-weight: 500;
   vertical-align: top;
   padding: 0.4rem 0.6rem;
-  border: 1px solid #c8ccd1;
+  border-top: 1px solid #c8ccd1;
+  border-bottom: 1px solid #c8ccd1;
+  border-left: 1px solid #c8ccd1;
   border-right: none;
   word-break: break-word;
   line-height: 1.5;
