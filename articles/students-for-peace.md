@@ -13,7 +13,7 @@ location:
   display: "Bangalore, Karnataka, India"
 organisers: ["Students for Peace"]
 sunils_role: ["Organiser"]
-permalink: /events/1993/students-for-peace/
+permalink: /articles/students-for-peace/
 ---
 
 <figure class="sfp-logo">
