@@ -7,8 +7,7 @@ categories: [Project pages]
 created: 2026-03-25
 ---
 
-**Recent Changes** lists recent edits and updates across The Sunil Abraham Project based on repository activity.  
-Times are shown in your local timezone.
+**Recent Changes** lists recent edits and updates across **The Sunil Abraham Project** (TSAP) based on repository activity.  
 
 <div class="rc-controls">
   <label>
@@ -66,22 +65,17 @@ function formatDate(dateString) {
   });
 }
 
-function slugToTitle(slug) {
-  if (!slug) return 'Page';
-  return slug
-    .replace(/-/g, ' ')
-    .replace(/\b\w/g, c => c.toUpperCase());
-}
+function extractFilename(message) {
+  if (!message) return 'unknown';
 
-function extractSlug(message) {
-  if (!message) return null;
-  const parts = message.split(' ');
+  const parts = message.trim().split(' ');
   return parts[parts.length - 1];
 }
 
 function detectAction(message) {
   if (!message) return 'Updated';
   message = message.toLowerCase();
+
   if (message.includes('create') || message.includes('add')) {
     return 'Created';
   }
@@ -94,6 +88,16 @@ function formatAuthor(author) {
     'sunilabrahamayrookhuziel': 'Sunil Abraham (Owner)'
   };
   return map[author] || author;
+}
+
+function isMarkdownFile(filename) {
+  return filename && filename.endsWith('.md');
+}
+
+function fileToPageUrl(filename) {
+  if (!isMarkdownFile(filename)) return null;
+
+  return '/' + filename.replace('.md', '/');
 }
 
 function passesTimeFilter(dateString) {
@@ -136,12 +140,12 @@ async function fetchCommits(reset = false) {
       shown++;
 
       const message = commit.commit.message;
-      const slug = extractSlug(message);
-      const title = slugToTitle(slug);
+      const filename = extractFilename(message);
       const action = detectAction(message);
       const author = commit.author ? commit.author.login : 'Unknown';
       const authorName = formatAuthor(author);
       const commitUrl = commit.html_url;
+      const pageUrl = fileToPageUrl(filename);
 
       const bg = bgColors[colorIndex % bgColors.length];
       colorIndex++;
@@ -151,7 +155,7 @@ async function fetchCommits(reset = false) {
       item.style.background = bg;
 
       item.innerHTML = `
-        <div class="rc-title">📄 ${title}</div>
+        <div class="rc-title">📄 File: ${filename}</div>
 
         <div class="rc-meta">
           ${action === 'Created' ? '🟢 Created' : '✏️ Updated'} • 
@@ -163,7 +167,8 @@ async function fetchCommits(reset = false) {
         </div>
 
         <div class="rc-links">
-          🔗 <a href="${commitUrl}">View commit</a>
+          ${pageUrl ? `📖 <a href="${pageUrl}">View article</a>` : ''}
+          🔗 <a href="${commitUrl}" rel="nofollow noopener noreferrer">View commit</a>
         </div>
       `;
 
@@ -205,7 +210,6 @@ fetchCommits(true);
   padding: 4px;
 }
 
-/* Cards */
 .rc-item {
   border: 1px solid #e0e0e0;
   border-radius: 10px;
@@ -213,28 +217,21 @@ fetchCommits(true);
   margin-bottom: 14px;
 }
 
-/* Title */
 .rc-title {
   font-size: 1.05rem;
   font-weight: 600;
-  color: #111;
 }
 
-/* Meta */
 .rc-meta {
   font-size: 0.85rem;
   color: #555;
-  margin-top: 4px;
 }
 
-/* Author */
 .rc-author {
   font-size: 0.85rem;
   color: #444;
-  margin-top: 2px;
 }
 
-/* Links */
 .rc-links {
   margin-top: 6px;
   font-size: 0.85rem;
@@ -244,7 +241,6 @@ fetchCommits(true);
   color: #0645ad;
 }
 
-/* Load more */
 .rc-more-wrap {
   text-align: center;
   margin: 20px 0;
@@ -262,18 +258,9 @@ fetchCommits(true);
   background: #f5f5f5;
 }
 
-/* Mobile */
 @media (max-width: 600px) {
   .rc-controls {
     flex-direction: column;
-    gap: 8px;
-  }
-}
-
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .rc-item {
-    transition: none;
   }
 }
 </style>
