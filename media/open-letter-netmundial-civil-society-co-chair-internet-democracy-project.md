@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Open Letter by Indian Civil Society Organisations to the Chair of the Multistakeholder Meeting on the Future of Internet Governance to Be Held in Brazil in April, 2014"
+title: "Open Letter by Indian Civil Society Organisations to the Chair of the Multistakeholder Meeting"
 description: "An open letter from ten Indian civil society organisations, including Sunil Abraham of CIS, protesting the appointment of Subi Chaturvedi as civil society co-chair of the NetMundial meeting."
 categories: [Media mentions, Open letters]
 date: 2014-02-24
