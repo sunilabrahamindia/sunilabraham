@@ -13,8 +13,10 @@ This page serves as a central index for both major institutional events and smal
 
 ## Subpages
 
-- [Events Organised](/sunil/events-organised/), events conceptualised, convened or formally organised by Sunil Abraham, including policy consultations, workshops and institutional forums.  
-- [Events Participated](/sunil/events-participated/), conferences, summits, panels and public discussions in which Sunil Abraham has participated as a speaker, moderator or delegate.
+- [Events Organised](/sunil/events-organised), events conceptualised, convened or formally organised by Sunil Abraham, including policy consultations, workshops and institutional forums.  
+- [Events Participated](/sunil/events-participated), conferences, summits, panels and public discussions in which Sunil Abraham has participated as a speaker, moderator or delegate.
+/sunil/events-participated
+/sunil/events-participated
 
 ## Current Events
 - [India AI Impact Summit 2026](/events/india-ai-impact-summit-2026/), documentation of the summit background, programme structure and participation details.
