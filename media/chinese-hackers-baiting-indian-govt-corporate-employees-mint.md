@@ -10,7 +10,7 @@ permalink: /media/chinese-hackers-baiting-indian-govt-corporate-employees-mint/
 created: 2026-02-27
 ---
 
-**Chinese Hackers Baiting Indian Govt, Corporate Employees: Report** is a *Mint* news report by Moulishree Srivastava and Anirban Sen published on 10 August 2013. The piece covers findings from a joint report by Research Bundle and CERT-ISAC on advanced persistent cyberattacks against Indian government officials and corporate employees using socially engineered email lures, and includes comment from Sunil Abraham of the Centre for Internet and Society (CIS) on India's structural vulnerability arising from its dependence on proprietary software.
+**Chinese Hackers Baiting Indian Govt, Corporate Employees: Report** is a *Mint* news report by Moulishree Srivastava and Anirban Sen published on 10 August 2013. The piece covers findings from a joint report by Research Bundle and CERT-ISAC on advanced persistent cyberattacks against Indian government officials and corporate employees using socially engineered email lures, and includes comment from [Sunil Abraham] on India's structural vulnerability arising from its dependence on proprietary software.
 
 ## Contents
 
