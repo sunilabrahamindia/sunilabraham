@@ -9,7 +9,7 @@ permalink: /media/are-we-ready-enter-digital-parade-deccan-herald/
 created: 2025-12-27
 ---
 
-**Are We Ready to Enter the Digital Parade?** is a *Deccan Herald* report published on 30 September 2015. The article investigates the backlash against Facebook's tri-colour profile picture campaign, which appeared to support the Digital India initiative but was linked to internet.org, a platform criticised for violating net neutrality principles. It features analysis from Sunil Abraham and Pranesh Prakash of the Centre for Internet and Society.
+**Are We Ready to Enter the Digital Parade?** is a *Deccan Herald* report published on 30 September 2015. The article investigates the backlash against Facebook's tri-colour profile picture campaign, which appeared to support the Digital India initiative but was linked to internet.org, a platform criticised for violating net neutrality principles. It features analysis from [Sunil Abraham](/sunil/) and Pranesh Prakash of the Centre for Internet and Society.
 
 ## Contents
 
