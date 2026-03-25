@@ -32,7 +32,7 @@ Some of its articles discuss developments in internet regulation and platform go
 </ol>
 
 ## External links
-- [Internet Democracy Project](https://internetdemocracy.in/)
+- [Official website](https://internetdemocracy.in/)
 
 <style>
 
