@@ -10,7 +10,7 @@ permalink: /media/anonymous-protests-internet-shutdown-kashmir/
 created: 2025-12-08
 ---
 
-**Anonymous Joins Protests Against Internet Shutdown in Kashmir** is an *Economic Times* report published on 12 February 2013. The article covers the hacktivist collective Anonymous expressing solidarity with thousands protesting against the suspension of Internet services in Kashmir after the hanging of Afzal Guru. It also includes commentary from Sunil Abraham on communication bans and their impact on public order and civil liberties.
+**Anonymous Joins Protests Against Internet Shutdown in Kashmir** is an *Economic Times* report published on 12 February 2013. The article covers the hacktivist collective Anonymous expressing solidarity with thousands protesting against the suspension of Internet services in Kashmir after the hanging of Afzal Guru. It also includes commentary from [Sunil Abraham](/sunil/) on communication bans and their impact on public order and civil liberties.
 
 ## Contents
 
