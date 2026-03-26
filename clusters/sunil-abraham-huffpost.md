@@ -4,7 +4,7 @@ title: "Sunil Abraham and HuffPost"
 description: "A collection of HuffPost articles that reference Sunil Abraham in reporting on digital rights, technology policy, and internet governance."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-huffpost/
-created: 2026-03-25
+created: 2026-03-26
 ---
 
 ***HuffPost*** is a digital news platform known for its coverage of politics, society, and technology, often approaching public policy questions through a mix of reporting, commentary, and analysis. Its international editions have examined how digital systems, regulation, and platform power shape everyday life.
