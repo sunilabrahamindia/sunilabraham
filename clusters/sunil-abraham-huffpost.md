@@ -11,7 +11,7 @@ created: 2026-03-26
 
 Within this coverage, discussions around internet governance, privacy, and technology policy have at times included perspectives from **Sunil Abraham**, particularly in relation to developments in India.
 
-This page brings together *media mentions from *HuffPost* that reference [Sunil Abraham](/sunil/).
+This page brings together media mentions from *HuffPost* that reference [Sunil Abraham](/sunil/).
 
 ## 📣 Media Mentions {#media}
 
