@@ -10,7 +10,7 @@ permalink: /publications/big-win-for-freedom-of-speech-really/
 created: 2025-11-13
 ---
 
-**Big Win for Freedom of Speech. Really?** is an article by Sunil Abraham, with inputs from Vidushi Marda, published in *Bangalore Mirror* on 29 March 2015. The piece reflects on the Supreme Court's striking down of Section 66A of the Information Technology Act, explaining that while the ruling is historic, many provisions still restrict speech both online and offline.
+**Big Win for Freedom of Speech. Really?** is an article by [Sunil Abraham](/sunil/), with inputs from Vidushi Marda, published in *Bangalore Mirror* on 29 March 2015. The piece reflects on the Supreme Court's striking down of Section 66A of the Information Technology Act, explaining that while the ruling is historic, many provisions still restrict speech both online and offline.
 
 ## Contents
 
