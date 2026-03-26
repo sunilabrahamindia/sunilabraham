@@ -77,7 +77,7 @@ Developed by SHUT at NIMHANS, the module is the brainchild of Prasad Reddy, a se
 
 Technology addiction has emerged as a significant behavioural-health concern globally, particularly among adolescents. India lacked structured, culturally attuned intervention frameworks, often relying on Western models designed for different social environments.
 
-The SHUT Clinic's new module represents one of the first attempts to contextualise assessment, treatment and psycho-education for Indian families. Sunil Abraham's remarks place technology addiction within a spectrum of behavioural dependencies, emphasising the role of family systems, peer dynamics and supportive environments in reducing recurrence.
+The SHUT Clinic's new module represents one of the first attempts to contextualise assessment, treatment and psycho-education for Indian families. [Sunil Abraham](/sunil/)'s remarks place technology addiction within a spectrum of behavioural dependencies, emphasising the role of family systems, peer dynamics and supportive environments in reducing recurrence.
 
 ## External Link
 
