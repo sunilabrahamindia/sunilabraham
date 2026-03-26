@@ -10,7 +10,7 @@ permalink: /media/another-take-on-net-neutrality/
 created: 2025-12-12
 ---
 
-**Another Take on Net Neutrality** is a report published in *The New York Times* on 15 April 2015. It surveys the political and commercial storm around India's net neutrality debate, including government consultation processes, telecom experiments with zero-rating, and the competing narratives of access versus openness. The article features analysis from Sunil Abraham, who warns that free access for the poor can be achieved without harming free speech, competition or innovation.
+**Another Take on Net Neutrality** is a report published in *The New York Times* on 15 April 2015. It surveys the political and commercial storm around India's net neutrality debate, including government consultation processes, telecom experiments with zero-rating, and the competing narratives of access versus openness. The article features analysis from [Sunil Abraham](/sunil/), who warns that free access for the poor can be achieved without harming free speech, competition or innovation.
 
 ## Contents
 
