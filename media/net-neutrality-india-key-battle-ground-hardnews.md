@@ -9,7 +9,7 @@ permalink: /media/net-neutrality-india-key-battle-ground-hardnews/
 created: 2026-03-27
 ---
 
-**Net Neutrality: India is a Keybattle Ground** is a *Hardnews* interview by Abeer Kapoor published on 10 August 2015. [Sunil Abraham](/sunil/), executive director of the Centre for Internet and Society, discusses the future of the internet in India, covering the definition of net neutrality, OTT regulation, deep packet inspection, privacy harms, and the significance of the DoT panel report.
+**Net Neutrality: India is a Keybattle Ground** is a *Hardnews* interview by Abeer Kapoor published on 10 August 2015. [Sunil Abraham](/sunil/), executive director of the Centre for Internet and Society at that time, discusses the future of the internet in India, covering the definition of net neutrality, OTT regulation, deep packet inspection, privacy harms, and the significance of the DoT panel report.
 
 ## Contents
 
