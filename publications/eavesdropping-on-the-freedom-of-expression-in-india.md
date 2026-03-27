@@ -15,7 +15,7 @@ pdf: /publications/files/eavesdropping-on-the-freedom-of-expression-in-india.pdf
 created: 2025-11-07
 ---
 
-**Eavesdropping on the Freedom of Expression in India** is a book chapter by Sunil Abraham, published in *Free Speech and Censorship around the Globe*, edited by Péter Molnár and released by Central European University Press in 2015. The chapter investigates how India's expanding surveillance architecture, coupled with intermediary liability rules and censorship practices, creates a chilling effect on free speech and undermines citizens' right to privacy in the digital environment. In this chapter, the author thanks Elonnai Hickok for her support in writing and background research.
+**Eavesdropping on the Freedom of Expression in India** is a book chapter by [Sunil Abraham](/sunil/), published in *Free Speech and Censorship around the Globe*, edited by Péter Molnár and released by Central European University Press in 2015. The chapter investigates how India's expanding surveillance architecture, coupled with intermediary liability rules and censorship practices, creates a chilling effect on free speech and undermines citizens' right to privacy in the digital environment. In this chapter, the author thanks Elonnai Hickok for her support in writing and background research.
 
 
 ## Contents
