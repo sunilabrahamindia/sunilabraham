@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "Net Neutrality: India is a Keybattle Ground"
-reflected the importance of India's policy choices in the global net neutrality debate.
+description: "A Hardnews interview reflecting the importance of India's policy choices in the global net neutrality debate."
 categories: [Interviews, Media mentions]
 date: 2015-08-10
 source: "Hardnews"
-permalink: /media/net-neutrality-india-key-battleground-hardnews/
+permalink: /media/net-neutrality-india-key-battle-ground-hardnews/
 created: 2026-03-27
 ---
 
