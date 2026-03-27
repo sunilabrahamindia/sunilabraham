@@ -3,15 +3,15 @@ layout: default
 title: "Report on Open Government Data in India"
 description: "A detailed study examining transparency, data-sharing, and open data policy frameworks within Indian public institutions, evaluating their alignment with global best practices."
 categories: [Publications]
-date: 2012-03-01
-authors: ["Sunil Abraham", "Glover Wright", "Pranesh Prakash", "Nishant Shah"]
-source: "Centre for Internet and Society (CIS)"
+date: 2010-01-01
+authors: ["Glover Wright", "Pranesh Prakash", "Sunil Abraham", "Nishant Shah"]
+source: "Transparency & Accountability Initiative / Centre for Internet and Society (CIS)"
 permalink: /publications/open-government-data-study-india/
 pdf: /publications/files/open-government-data-study-india.pdf
 created: 2025-11-04
 ---
 
-**Report on Open Government Data in India** is a major policy study co-authored by Sunil Abraham, Glover Wright, Pranesh Prakash, and Nishant Shah, and published by the Centre for Internet and Society (CIS). The report provides an in-depth assessment of India’s open data ecosystem, analysing government initiatives, institutional practices, and the legal and policy frameworks that shape access to public data.
+**Open Government Data Study: India** is a policy report co-authored by Glover Wright, Pranesh Prakash, Sunil Abraham, and Nishant Shah, produced by the Centre for Internet and Society (CIS) for the Transparency & Accountability Initiative (TAI), published by the Open Society Foundation in 2010.
 
 ## Contents
 
@@ -26,13 +26,13 @@ created: 2025-11-04
 
 <dl class="pub-details">
   <dt>👤 Authors:</dt>
-  <dd>Sunil Abraham, Glover Wright, Pranesh Prakash, and Nishant Shah</dd>
-
+  <dd>Glover Wright, Pranesh Prakash, Sunil Abraham, and Nishant Shah</dd>
+  
   <dt>🏛️ Published by:</dt>
-  <dd><em>Centre for Internet and Society (CIS)</em></dd>
+ <dd><em>Transparency &amp; Accountability Initiative (TAI) / Centre for Internet and Society (CIS)</em></dd>
 
   <dt>📅 Date:</dt>
-  <dd>March 2012</dd>
+  <dd>2010</dd>
 
   <dt>📘 Type:</dt>
   <dd>Research Report</dd>
@@ -145,26 +145,27 @@ It maps existing data-sharing practices across ministries and departments, highl
 If you wish to reference or cite this publication, you may use one of the following formats.
 
 **APA style:**
-<pre><code>Abraham, S., Wright, G., Prakash, P., & Shah, N. (2012).
-Report on Open Government Data in India.
-Centre for Internet and Society (CIS).
+<pre><code>Wright, G., Prakash, P., Abraham, S., & Shah, N. (2010).
+Open Government Data Study: India.
+Transparency & Accountability Initiative / Centre for Internet and Society (CIS).
 https://sunilabraham.in/publications/open-government-data-study-india/
 </code></pre>
 
 **BibTeX style**
-<pre><code>@report{abraham2012ogd,
-  author = {Abraham, Sunil and Wright, Glover and Prakash, Pranesh and Shah, Nishant},
-  title = {Report on Open Government Data in India},
-  institution = {Centre for Internet and Society (CIS)},
-  year = {2012},
-  url = {https://sunilabraham.in/publications/open-government-data-study-india/}
+<pre><code>@techreport{wright2010ogd,
+  author      = {Wright, Glover and Prakash, Pranesh and Abraham, Sunil and Shah, Nishant},
+  title       = {Open Government Data Study: India},
+  institution = {Centre for Internet and Society},
+  publisher   = {Transparency \& Accountability Initiative / Open Society Foundation},
+  year        = {2010},
+  url         = {https://sunilabraham.in/publications/open-government-data-study-india/}
 }
 </code></pre>
 
 **MLA style**
-<pre><code>Abraham, Sunil, Glover Wright, Pranesh Prakash, and Nishant Shah.
-"Report on Open Government Data in India."
-Centre for Internet and Society (CIS), 2012.
+<pre><code>Wright, Glover, Pranesh Prakash, Sunil Abraham, and Nishant Shah.
+"Open Government Data Study: India."
+Transparency & Accountability Initiative / Centre for Internet and Society (CIS), 2010.
 https://sunilabraham.in/publications/open-government-data-study-india/
 </code></pre>
 
