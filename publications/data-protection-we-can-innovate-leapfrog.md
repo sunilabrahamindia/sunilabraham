@@ -10,7 +10,7 @@ permalink: /publications/data-protection-we-can-innovate-leapfrog/
 created: 2025-11-06
 ---
 
-**Data Protection: We Can Innovate, Leapfrog** is an opinion article by Sunil Abraham, published in *Deccan Herald* on 20 January 2018. The column explores how India can design innovative, accountable, and citizen-centric data protection frameworks rather than merely copying the European Union's GDPR model.  
+**Data Protection: We Can Innovate, Leapfrog** is an opinion article by [Sunil Abraham](/sunil/), published in *Deccan Herald* on 20 January 2018. The column explores how India can design innovative, accountable, and citizen-centric data protection frameworks rather than merely copying the European Union's GDPR model.  
 
 ## Contents
 
