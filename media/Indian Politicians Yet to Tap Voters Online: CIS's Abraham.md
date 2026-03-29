@@ -10,7 +10,7 @@ permalink: /media/indian-politicians-yet-to-tap-voters-online-mint/
 created: 2026-02-19
 ---
 
-**Indian Politicians Yet to Tap Voters Online: CIS's Abraham** is a *Mint* interview conducted by Venkatesh Upadhyay and published on 22 October 2013. In it, Sunil Abraham, then executive director of the Centre for Internet and Society (CIS), discusses the limited reach of social media in Indian electoral politics, the behaviour of online news readers, and the growing role of Internet monopolies in shaping the attention economy.
+**Indian Politicians Yet to Tap Voters Online: CIS's Abraham** is a *Mint* interview conducted by Venkatesh Upadhyay and published on 22 October 2013. In it, [Sunil Abraham](/Sunil/), then executive director of the Centre for Internet and Society (CIS), discusses the limited reach of social media in Indian electoral politics, the behaviour of online news readers, and the growing role of Internet monopolies in shaping the attention economy.
 
 ## Contents
 
