@@ -10,7 +10,7 @@ permalink: /media/aadhaar-enabled-smartphones-will-ease-money-transfer/
 created: 2025-12-14
 ---
 
-**Aadhaar-Enabled Smartphones Will Ease Money Transfer** is a report published in *The Economic Times* on 10 August 2016, written by Neha Alawadhi and Gulveen Aulakh. The article examines UIDAI's initiative to enable biometric authentication directly through smartphone hardware, primarily targeting integration with the newly launched Unified Payment Interface for secure money transfers. It features critical technical analysis from Sunil Abraham identifying a fundamental architectural vulnerability where biometric data must transit through the device operating system before reaching secure enclaves, creating interception opportunities.
+**Aadhaar-Enabled Smartphones Will Ease Money Transfer** is a report published in *The Economic Times* on 10 August 2016, written by Neha Alawadhi and Gulveen Aulakh. The article examines UIDAI's initiative to enable biometric authentication directly through smartphone hardware, primarily targeting integration with the newly launched Unified Payment Interface for secure money transfers. It features critical technical analysis from [Sunil Abraham](/sunil/) identifying a fundamental architectural vulnerability where biometric data must transit through the device operating system before reaching secure enclaves, creating interception opportunities.
 
 ## Contents
 
