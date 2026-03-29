@@ -23,6 +23,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 9. [Version 1.3.1](#version-131)
 10. [Version 1.3.2](#version-132)
 11. [Version 1.3.3](#version-133)
+12. [Version 1.4](#version-14)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -352,3 +353,63 @@ Reporting time: 15 March 2026, 12:05 am IST
 
 **Status** ✅ Done  
 Completion date: 21 March 2026
+
+## Version 1.4
+
+- 54 new pages have been published this week (22 March – 29 March).
+
+**Milestone**
+- The Sunil Abraham Project reached 800 published articles with the publication of [«Биометрические ID в Индии становятся инструментом тотальной слежки»](/media/aadhaar-biometric-surveillance-hightech-fm/) (English: Biometric IDs in India Are Becoming a Tool of Total Surveillance).
+
+**Clusters**
+- Work was carried out across multiple clusters, including: [*The Wall Street Journal*](/clusters/sunil-abraham-wall-street-journal/), [*HuffPost*](/clusters/sunil-abraham-huffpost/), [*The Independent*](/clusters/sunil-abraham-the-independent/)
+
+**Event Pages: Natural Language–Structured Data Hybrid System**
+- A structured event documentation system was designed and built from scratch, combining a natural language, Wikipedia-style narrative lead with a Wikidata-inspired structured data block.
+- Each event page follows the permalink structure `/events/YYYY/event-name/` and is categorised as either *Events participated* or *Events organised*, depending on Sunil Abraham's role.
+
+**Page Structure**
+- Each event page contains a human-readable lead section followed by a structured data infobox rendered from YAML front matter.
+- The infobox is stored in `_includes/event-infobox.html` and pulls property labels dynamically from `_data/properties.yml`, a custom property registry modelled on Wikidata's property system (P1–P6).
+- This separation of data, meaning, and presentation ensures consistency across all event pages without hardcoding labels in HTML.
+
+**Infobox Design**
+- The infobox renders as a flat two-column table with a blue left accent bar, italic property labels, and Unicode icons per field:
+  - 🏷️ instance of  
+  - 📅 date  
+  - 📍 location  
+  - 🎭 role  
+  - 🏛️ organiser  
+  - 🌐 official website  
+- RDFa attributes (`vocab="https://schema.org/"`, `typeof="Event"`, `property=""`) are included on all fields, making event data machine-readable by Google's Knowledge Graph and schema.org validators.
+- The heading "Event details" appears above the table, outside the border.
+
+**Property Registry**
+- `_data/properties.yml` defines six properties with internal IDs (P1–P6) and human-readable labels.
+- Page YAML remains human-readable (`event_type`, `location`, etc.), while the infobox resolves labels dynamically via `site.data.properties`.
+- This enables site-wide label changes from a single file.
+
+**Query System**
+- A dedicated event query interface was built, modelled on the Wikidata Query Service UI.
+- It extracts all event pages at Jekyll build time into a JavaScript data array using Liquid, then filters client-side with no backend required.
+- Features include tag-chip inputs with autocomplete (event type, location, organiser, role), keyword search, date range filters, sortable table and card views, CSV and JSON export, and URL state syncing via `history.replaceState()` for shareable queries.
+
+**Event Page**
+- The first event page created under this system is [Pune Public Policy Festival 2026](/events/2026/pune-public-policy-festival/).
+
+**Relevant Files**
+- `_includes/event-infobox.html` — infobox template  
+- `_data/properties.yml` — property registry  
+- `/events/2026/pune-public-policy-festival.md` — first event page  
+- Live page: https://sunilabraham.in/events/2026/pune-public-policy-festival/
+
+**Cluster Audit**
+- The Times of India cluster ([*The Times of India*](/clusters/sunil-abraham-times-of-india/)) was rechecked, and additional previously missed articles were identified and added.
+
+**Recent Changes Page**
+- Work began on the [Recent Changes](/recent-changes/) page using the GitHub API to display recent edits with filtering and pagination.
+- Initial improvements include author mapping and cleaner display of changes.
+- Further work is planned to correctly map files to their actual page URLs and improve usability.
+
+**Status** ✅ Done  
+Completion date: 28 March 2026 (night)
