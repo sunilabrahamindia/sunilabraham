@@ -9,7 +9,7 @@ created: 2026-03-29
 
 **ZDNet** is a global technology news publication covering enterprise IT, policy, cybersecurity, and digital infrastructure. Its reporting often includes discussions on Internet governance, open standards, and regulatory developments across different regions.
 
-This cluster brings together media mentions** of *Sunil Abraham* in *ZDNet*, capturing how his work and perspectives have been referenced in international technology journalism.
+This cluster brings together media mentions of [Sunil Abraham](/sunil/) in *ZDNet*, capturing how his work and perspectives have been referenced in international technology journalism.
 
 ## 📣 Media Mentions {#media}
 
