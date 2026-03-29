@@ -10,7 +10,7 @@ permalink: /media/aadhaar-has-no-legislative-foundation-governance-now/
 created: 2026-01-22
 ---
 
-**Aadhaar Has No Legislative Foundation** is a news report published in *Governance Now* on 29 April 2010. The article documents civil society opposition to the Unique ID (UID) project, focusing on concerns raised by non-governmental organisations about the project's establishment through executive order rather than legislative enactment. It features commentary from Sunil Abraham of the Centre for Internet and Society regarding privacy safeguards, biometric authentication challenges, and the absence of parliamentary oversight.
+**Aadhaar Has No Legislative Foundation** is a news report published in *Governance Now* on 29 April 2010. The article documents civil society opposition to the Unique ID (UID) project, focusing on concerns raised by non-governmental organisations about the project's establishment through executive order rather than legislative enactment. It features commentary from [Sunil Abraham](/sunil/) regarding privacy safeguards, biometric authentication challenges, and the absence of parliamentary oversight.
 
 ## Contents
 
