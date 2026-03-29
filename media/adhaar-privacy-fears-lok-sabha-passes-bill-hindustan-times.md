@@ -9,7 +9,7 @@ permalink: /media/aadhaar-privacy-fears-lok-sabha-passes-bill-hindustan-times/
 created: 2025-12-31
 ---
 
-**Aadhaar Database Scheme Raises Privacy Fears as Lok Sabha Passes Bill** is a Reuters report published in *Hindustan Times* on 17 March 2016. The article examines Parliament's passage of the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016, granting central agencies access to biometric data of nearly a billion people for national security purposes, with Centre for Internet and Society's Sunil Abraham warning of unprecedented surveillance capabilities enabling police to secretly identify protesters through iris recognition technology.
+**Aadhaar Database Scheme Raises Privacy Fears as Lok Sabha Passes Bill** is a Reuters report published in *Hindustan Times* on 17 March 2016. The article examines Parliament's passage of the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016, granting central agencies access to biometric data of nearly a billion people for national security purposes, with [Sunil Abraham](/sunil/) warning of unprecedented surveillance capabilities enabling police to secretly identify protesters through iris recognition technology.
 
 ## Contents
 
