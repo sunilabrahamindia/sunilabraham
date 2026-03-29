@@ -9,7 +9,7 @@ permalink: /media/aadhaars-moment-truth-deccan-herald/
 created: 2025-12-27
 ---
 
-**Aadhaar's Moment of Truth** is a *Deccan Herald* report published on 2 July 2011. The article scrutinises the Unique Identification project's implications for privacy and surveillance, particularly after the Cabinet Committee on Security approved the National Intelligence Grid (Natgrid) in June 2011. It features commentary from Sunil Abraham, then with the Centre for Internet and Society, and legal researcher Usha Ramanathan, both questioning the project's stated objectives and safeguards.
+**Aadhaar's Moment of Truth** is a *Deccan Herald* report published on 2 July 2011. The article scrutinises the Unique Identification project's implications for privacy and surveillance, particularly after the Cabinet Committee on Security approved the National Intelligence Grid (Natgrid) in June 2011. It features commentary from [Sunil Abraham](/sunil/), then with the Centre for Internet and Society, and legal researcher Usha Ramanathan, both questioning the project's stated objectives and safeguards.
 
 ## Contents
 
