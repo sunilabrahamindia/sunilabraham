@@ -10,7 +10,7 @@ permalink: /publications/connected-trouble/
 created: 2025-11-13
 ---
 
-**Connected Trouble** is a guest column by Sunil Abraham, published in *The Week* (issue dated 1 November 2015). The article analyses the privacy and security implications of the Internet of Things (IoT), arguing that big data practices, centralised architectures and design negligence make connected technologies increasingly fragile and unsafe.
+**Connected Trouble** is a guest column by [Sunil Abraham](/sunil/), published in *The Week* (issue dated 1 November 2015). The article analyses the privacy and security implications of the Internet of Things (IoT), arguing that big data practices, centralised architectures and design negligence make connected technologies increasingly fragile and unsafe.
 
 ## Contents
 
