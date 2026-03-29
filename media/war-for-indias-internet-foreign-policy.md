@@ -10,7 +10,9 @@ permalink: /media/war-for-indias-internet-foreign-policy/
 created: 2026-03-29
 ---
 
-**The War for India's Internet** is a *Foreign Policy* analysis by Rebecca MacKinnon, published on 6 June 2012. The piece examines India's escalating political and legal battles over internet regulation, describing debates over internet regulation, censorship practices, and responses from internet users and activists. [Sunil Abraham](/sunil/) is quoted on the government's use of "national security and hate speech" as justifications for internet controls, and on the risk of systematic "behaviour modification" through early aggressive enforcement.
+**The War for India's Internet** is a *Foreign Policy* analysis by Rebecca MacKinnon, published on 6 June 2012. The piece examines India's escalating political and legal battles over internet regulation, describing debates over internet regulation, censorship practices, and responses from internet users and activists. 
+
+[Sunil Abraham](/sunil/) is quoted on the government's use of "national security and hate speech" as justifications for internet controls, and on the risk of systematic "behaviour modification" through early aggressive enforcement.
 
 ## Contents
 
