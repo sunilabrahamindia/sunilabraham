@@ -15,15 +15,23 @@ This cluster brings together all **publications** and **media mentions** associa
 
 ## ✍️ Publications
 
-<ol class="cluster-list">
+### Sort by:
+<div class="cluster-sort">
+  <button data-sort="alpha">Alphabetical</button>
+  <button data-sort="newest">Newest First</button>
+  <button data-sort="oldest">Oldest First</button>
+</div>
+
 {% assign pub_items = site.pages 
      | where_exp:"p","p.categories contains 'Publications'"
      | where:"source","Business Standard"
-     | sort:"date" | reverse
 %}
+{% assign pub_sorted = pub_items | sort:"title" %}
 
-{% for item in pub_items %}
-  <li>
+<ol id="pub-list" class="cluster-list">
+{% for item in pub_sorted %}
+  <li data-title="{{ item.title | downcase }}"
+      data-date="{{ item.date | date: '%Y-%m-%d' }}">
     <a href="{{ item.permalink }}">{{ item.title }}</a><br>
     <span class="meta">{{ item.date | date: "%d %B %Y" }}</span>
     {% if item.description %}
@@ -42,13 +50,13 @@ This cluster brings together all **publications** and **media mentions** associa
   <button data-sort="oldest">Oldest First</button>
 </div>
 
-<ol id="media-list" class="cluster-list">
 {% assign media_items = site.pages 
      | where_exp:"p","p.categories contains 'Media mentions'"
      | where:"source","Business Standard"
 %}
 {% assign media_sorted = media_items | sort:"title" %}
 
+<ol id="media-list" class="cluster-list">
 {% for item in media_sorted %}
   <li data-title="{{ item.title | downcase }}"
       data-date="{{ item.date | date: '%Y-%m-%d' }}">
@@ -119,42 +127,47 @@ This cluster brings together all **publications** and **media mentions** associa
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
-  const list = document.getElementById("media-list");
-  const items = Array.from(list.querySelectorAll("li"));
-  const buttons = document.querySelectorAll(".cluster-sort button");
+  function attachSort(sectionId) {
+    const list = document.getElementById(sectionId);
+    const items = Array.from(list.querySelectorAll("li"));
+    const container = list.previousElementSibling;
+    const buttons = container.querySelectorAll("button");
 
-  function sortList(type) {
-    let sorted = [...items];
+    function sortList(type) {
+      let sorted = [...items];
 
-    if (type === "alpha") {
-      sorted.sort((a, b) =>
-        a.dataset.title.localeCompare(b.dataset.title)
-      );
-    } 
-    else if (type === "newest") {
-      sorted.sort((a, b) =>
-        b.dataset.date.localeCompare(a.dataset.date)
-      );
-    } 
-    else if (type === "oldest") {
-      sorted.sort((a, b) =>
-        a.dataset.date.localeCompare(b.dataset.date)
-      );
+      if (type === "alpha") {
+        sorted.sort((a, b) =>
+          a.dataset.title.localeCompare(b.dataset.title)
+        );
+      } 
+      else if (type === "newest") {
+        sorted.sort((a, b) =>
+          b.dataset.date.localeCompare(a.dataset.date)
+        );
+      } 
+      else if (type === "oldest") {
+        sorted.sort((a, b) =>
+          a.dataset.date.localeCompare(b.dataset.date)
+        );
+      }
+
+      list.innerHTML = "";
+      sorted.forEach(li => list.appendChild(li));
+
+      buttons.forEach(btn => btn.classList.remove("active-sort"));
+      container.querySelector(`[data-sort="${type}"]`)
+        .classList.add("active-sort");
     }
 
-    list.innerHTML = "";
-    sorted.forEach(li => list.appendChild(li));
+    sortList("alpha");
 
-    buttons.forEach(btn => btn.classList.remove("active-sort"));
-    document.querySelector(`[data-sort="${type}"]`)
-      .classList.add("active-sort");
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => sortList(btn.dataset.sort));
+    });
   }
 
-  sortList("alpha");
-
-  buttons.forEach(btn => {
-    btn.addEventListener("click", () => sortList(btn.dataset.sort));
-  });
-
+  attachSort("pub-list");
+  attachSort("media-list");
 });
 </script>
