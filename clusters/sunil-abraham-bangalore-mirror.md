@@ -36,15 +36,23 @@ This cluster brings together all **publications** and **media mentions** connect
 
 ## 📣 Media Mentions
 
-<ol class="cluster-list">
+### Sort by:
+<div class="cluster-sort">
+  <button data-sort="alpha">Alphabetical</button>
+  <button data-sort="newest">Newest First</button>
+  <button data-sort="oldest">Oldest First</button>
+</div>
+
+<ol id="media-list" class="cluster-list">
 {% assign media_items = site.pages 
      | where_exp:"p","p.categories contains 'Media mentions'"
      | where:"source","Bangalore Mirror"
-     | sort:"date" | reverse
 %}
+{% assign media_sorted = media_items | sort:"title" %}
 
-{% for item in media_items %}
-  <li>
+{% for item in media_sorted %}
+  <li data-title="{{ item.title | downcase }}"
+      data-date="{{ item.date | date: '%Y-%m-%d' }}">
     <a href="{{ item.permalink }}">{{ item.title }}</a><br>
     <span class="meta">{{ item.date | date: "%d %B %Y" }}</span>
     {% if item.description %}
@@ -86,4 +94,68 @@ This cluster brings together all **publications** and **media mentions** connect
   color: #444;
   margin-top: 0.2rem;
 }
+
+/* Sort buttons */
+.cluster-sort {
+  margin: 0.6rem 0 1rem 0;
+}
+
+.cluster-sort button {
+  background: #eef3fa;
+  border: 1px solid #cdd7e5;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.45rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.88rem;
+}
+
+.cluster-sort button.active-sort {
+  background: #3278d6;
+  color: #fff;
+  border-color: #3278d6;
+}
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const list = document.getElementById("media-list");
+  const items = Array.from(list.querySelectorAll("li"));
+  const buttons = document.querySelectorAll(".cluster-sort button");
+
+  function sortList(type) {
+    let sorted = [...items];
+
+    if (type === "alpha") {
+      sorted.sort((a, b) =>
+        a.dataset.title.localeCompare(b.dataset.title)
+      );
+    } 
+    else if (type === "newest") {
+      sorted.sort((a, b) =>
+        b.dataset.date.localeCompare(a.dataset.date)
+      );
+    } 
+    else if (type === "oldest") {
+      sorted.sort((a, b) =>
+        a.dataset.date.localeCompare(b.dataset.date)
+      );
+    }
+
+    list.innerHTML = "";
+    sorted.forEach(li => list.appendChild(li));
+
+    buttons.forEach(btn => btn.classList.remove("active-sort"));
+    document.querySelector(`[data-sort="${type}"]`)
+      .classList.add("active-sort");
+  }
+
+  sortList("alpha");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => sortList(btn.dataset.sort));
+  });
+
+});
+</script>
