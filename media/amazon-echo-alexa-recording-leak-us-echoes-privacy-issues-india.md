@@ -10,7 +10,7 @@ permalink: /media/amazon-echo-alexa-recording-leak-us-echoes-privacy-issues-indi
 created: 2025-12-08
 ---
 
-**Amazon Echo: Alexa's Recording Leak in US Echoes Privacy Issues Here** is an *Economic Times* report published on 29 May 2018. The article discusses rising concerns among Indian consumers and privacy experts after reports that Amazon's Alexa inadvertently recorded and sent private conversations of a family in the United States. Sunil Abraham provides expert commentary on data protection failures, the risks of in-home recording devices and the regulatory gaps in India.
+**Amazon Echo: Alexa's Recording Leak in US Echoes Privacy Issues Here** is an *Economic Times* report published on 29 May 2018. The article discusses rising concerns among Indian consumers and privacy experts after reports that Amazon's Alexa inadvertently recorded and sent private conversations of a family in the United States. [Sunil Abraham](/sunil/) provides expert commentary on data protection failures, the risks of in-home recording devices and the regulatory gaps in India.
 
 ## Contents
 
