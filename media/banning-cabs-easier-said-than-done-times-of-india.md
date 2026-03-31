@@ -10,7 +10,7 @@ permalink: /media/banning-cabs-easier-said-than-done-times-of-india/
 created: 2025-12-25
 ---
 
-**Banning Cabs Is Easier Said Than Done** is a news report published by *The Times of India* on 12 December 2014, written by Aparajitha Ray. The article examines the practical difficulties Karnataka's transport authorities faced in enforcing a ban on Uber and other unregistered app-based taxi aggregators following central government directives. It features commentary from Sunil Abraham on the technical challenges involved in attempting to ban cloud-based digital services.
+**Banning Cabs Is Easier Said Than Done** is a news report published by *The Times of India* on 12 December 2014, written by Aparajitha Ray. The article examines the practical difficulties Karnataka's transport authorities faced in enforcing a ban on Uber and other unregistered app-based taxi aggregators following central government directives. It features commentary from [Sunil Abraham](/sunil/) on the technical challenges involved in attempting to ban cloud-based digital services.
 
 ## Contents
 
