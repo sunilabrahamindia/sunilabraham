@@ -10,7 +10,7 @@ permalink: /media/better-intellectual-property-values-luring-indian-startups-abr
 created: 2025-12-14
 ---
 
-**Better Intellectual Property Values Luring Indian Startups Abroad** is a report published in *The Economic Times* on 10 April 2015, written by Evelyn Fok and Varun Aggarwal. The article investigates why major Indian startups are incorporating outside India and transferring their intellectual property overseas, driven by higher valuations from global investors and more favourable tax treatment. It features commentary from Sunil Abraham on India's inconsistent patent jurisprudence and the challenges startups face with unpredictable judicial decisions on intellectual property matters.
+**Better Intellectual Property Values Luring Indian Startups Abroad** is a report published in *The Economic Times* on 10 April 2015, written by Evelyn Fok and Varun Aggarwal. The article investigates why major Indian startups are incorporating outside India and transferring their intellectual property overseas, driven by higher valuations from global investors and more favourable tax treatment. It features commentary from [Sunil Abraham](/sunil/) on India's inconsistent patent jurisprudence and the challenges startups face with unpredictable judicial decisions on intellectual property matters.
 
 ## Contents
 
