@@ -2,7 +2,7 @@
 layout: default
 title: "Saving Our Elections from Manipulation: Regulatory Agenda for Social Media"
 description: "A Business Standard opinion piece by Sunil Abraham proposing a regulatory framework for social media platforms to prevent electoral manipulation in India."
-categories: [Media articles, Publciations]
+categories: [Media articles, Publications]
 date: 2019-01-22
 authors: ["Sunil Abraham"]
 source: "Business Standard"
