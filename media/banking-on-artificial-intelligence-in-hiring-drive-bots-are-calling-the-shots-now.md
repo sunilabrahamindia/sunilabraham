@@ -10,7 +10,7 @@ permalink: /media/banking-on-artificial-intelligence-in-hiring-drive-bots-are-ca
 created: 2025-12-16
 ---
 
-**Banking on Artificial Intelligence: In Hiring Drive, Bots Are Calling the Shots Now** is a news report published in *The Economic Times* on 4 June 2019, written by Anjali Venugopalan. The article documents the adoption of AI-powered video assessment platforms by major Indian employers to analyze candidates' facial expressions, voice tone and emotional states during recruitment, featuring Sunil Abraham's critique of algorithmic homogenization alongside evidence of racial bias in facial recognition technology from MIT researcher Joy Buolamwini.
+**Banking on Artificial Intelligence: In Hiring Drive, Bots Are Calling the Shots Now** is a news report published in *The Economic Times* on 4 June 2019, written by Anjali Venugopalan. The article documents the adoption of AI-powered video assessment platforms by major Indian employers to analyze candidates' facial expressions, voice tone and emotional states during recruitment, featuring [Sunil Abraham](/sunil/)'s critique of algorithmic homogenization alongside evidence of racial bias in facial recognition technology from MIT researcher Joy Buolamwini.
 
 ## Contents
 
