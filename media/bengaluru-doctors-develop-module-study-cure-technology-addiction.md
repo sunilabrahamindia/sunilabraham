@@ -10,7 +10,7 @@ permalink: /media/bengaluru-doctors-develop-module-study-cure-technology-addicti
 created: 2025-12-08
 ---
 
-**Bengaluru Doctors Develop Module to Study and Cure Technology Addiction** is an *Economic Times* report published on 12 August 2015. The article describes how clinicians and researchers at NIMHANS' SHUT (Service for Healthy Use of Technology) Clinic have created a structured intervention framework tailored to Indian cultural contexts. The module aims to assess dysfunctional behaviours and offer treatment pathways, with commentary from Sunil Abraham on technology addiction as part of broader behavioural patterns.
+**Bengaluru Doctors Develop Module to Study and Cure Technology Addiction** is an *Economic Times* report published on 12 August 2015. The article describes how clinicians and researchers at NIMHANS' SHUT (Service for Healthy Use of Technology) Clinic have created a structured intervention framework tailored to Indian cultural contexts. The module aims to assess dysfunctional behaviours and offer treatment pathways, with commentary from [Sunil Abraham](/sunil/) on technology addiction as part of broader behavioural patterns.
 
 ## Contents
 
