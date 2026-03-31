@@ -2,7 +2,7 @@
 layout: default
 title: "Aadhaar Is Actually Surveillance Tech"
 description: "A Business Standard interview with Sunil Abraham on Aadhaar, biometrics, surveillance, privacy law, and the risks of centralised biometric databases."
-categories: [Media articles, Interviews]
+categories: [Media mentions, Interviews]
 date: 2016-03-12
 authors: ["Sahil Makkar"]
 source: "Business Standard"
