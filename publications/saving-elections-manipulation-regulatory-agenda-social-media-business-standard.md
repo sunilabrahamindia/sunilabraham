@@ -6,7 +6,7 @@ categories: [Media articles, Publciations]
 date: 2019-01-22
 authors: ["Sunil Abraham"]
 source: "Business Standard"
-permalink: /media/saving-elections-manipulation-regulatory-agenda-social-media-business-standard/
+permalink: /publications/saving-elections-manipulation-regulatory-agenda-social-media-business-standard/
 created: 2026-04-01
 ---
 
