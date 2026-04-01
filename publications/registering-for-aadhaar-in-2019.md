@@ -65,8 +65,11 @@ created: 2025-11-06
 
 ## Context and Background
 
-This article was published shortly after the *Puttaswamy* privacy judgment and the subsequent Aadhaar amendments.  
-Abraham reflects on how offline authentication and tokenisation have transformed Aadhaar into a more privacy-conscious system, offering lessons for data protection reform and fintech innovation.
+The article was published on 2 January 2019, shortly after two significant legal and regulatory developments: the Supreme Court's *Puttaswamy* judgment affirming privacy as a fundamental right, and the constitutional bench ruling that struck down Section 57 of the Aadhaar Act. In response, the UIDAI had already launched offline Aadhaar cards before the judgment came through.
+
+Sunil Abraham traces the origins of the debate back to a 2011 open letter by his colleague Elonnai Hickok to the Parliamentary Finance Committee, which had argued for a decentralised authentication architecture using smart cards based on public key cryptography — an approach the NDA government had itself explored after the Kargil War in 2001.
+
+The article walks through six specific improvements that the offline Aadhaar mechanism brought: removal of biometrics from authentication, decentralisation of the authentication process, reduction of the attack surface by masking all but the last four digits of the Aadhaar number, improved accountability in the event of a data breach, tamper detection through UIDAI digital signatures on the QR code, and retention of the low-cost issuance model.
 
 {% include back-to-top.html %}
 
