@@ -29,7 +29,7 @@ created: 2026-04-01
   <dd>6 May 2017</dd>
 
   <dt>👤 Author:</dt>
-  <dd>Rohith Jyothish (Global Voices)</dd>
+  <dd>Rohith Jyothish</dd>
 
   <dt>📄 Type:</dt>
   <dd>News Report</dd>
