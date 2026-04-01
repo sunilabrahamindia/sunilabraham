@@ -1,28 +1,29 @@
 ---
 layout: default
 title: "Linking Aadhaar with Social Media or Ending Encryption is Counterproductive"
-description: "An opinion article by Sunil Abraham in Prime Time examining the debate on linking Aadhaar with social media accounts and the implications of weakening encryption for national security and privacy."
+description: "An opinion article by Sunil Abraham in Business Standard examining the debate on linking Aadhaar with social media accounts and the implications of weakening encryption for national security and privacy."
 categories: [Media articles, Publications]
 date: 2019-08-26
 authors: ["Sunil Abraham"]
-source: "Prime Time"
+source: "Business Standard"
 permalink: /publications/linking-aadhaar-social-media-encryption/
 created: 2025-11-11
 ---
 
-**Linking Aadhaar with Social Media or Ending Encryption is Counterproductive** is an opinion column by Sunil Abraham, published in *Prime Time* on 26 August 2019. The article analyses the policy debate surrounding the linking of Aadhaar numbers with social media accounts and the potential consequences of curbing encryption. Sunil Abraham argues that such moves would undermine privacy, national security, and technological sovereignty.
+**Linking Aadhaar with Social Media or Ending Encryption is Counterproductive** is an opinion column by [Sunil Abraham](/sunil/), published in *Business Standard* on 26 August 2019. The article analyses the policy debate surrounding the linking of Aadhaar numbers with social media accounts and the potential consequences of curbing encryption. Sunil Abraham argues that such moves would undermine privacy, national security, and technological sovereignty.
 
 ## Contents
 
 1. [Article Details](#article-details)  
 2. [Full Text](#full-text)  
 3. [Context and Background](#context-and-background)  
+4. [External Link](#external-link)
 
 ## Article Details
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>Prime Time</em></dd>
+  <dd><em>Business Standard</em></dd>
 
   <dt>📅 Date:</dt>
   <dd>26 August 2019</dd>
@@ -35,7 +36,9 @@ created: 2025-11-11
 
   <dt>📰 Newspaper Link:</dt>
   <dd>
-    Not available
+    <a class="btn" href="https://www.business-standard.com/article/economy-policy/linking-aadhaar-with-social-media-or-ending-encryption-is-counterproductive-119082600277_1.html">
+      Read Online
+    </a> (Subscription needed)
   </dd>
 </dl>
 
@@ -79,9 +82,13 @@ created: 2025-11-11
 
 ## Context and Background
 
-This article was published at a time when the Indian government and courts were debating whether to link Aadhaar to social media accounts and whether to allow law enforcement access to encrypted messages.  
+This article was published at a time when the Indian government and courts were debating whether to link Aadhaar to social media accounts and whether to allow law enforcement access to encrypted messages.
 
 Sunil Abraham argues that weakening encryption or linking Aadhaar would erode privacy and national sovereignty, and that instead, India should invest in privacy-preserving surveillance mechanisms and open, participatory policy design.
+
+## External Link
+
+- [Read on Business Standard](https://www.business-standard.com/article/economy-policy/linking-aadhaar-with-social-media-or-ending-encryption-is-counterproductive-119082600277_1.html) (Subscription needed)
 
 {% include back-to-top.html %}
 
