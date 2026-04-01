@@ -68,7 +68,7 @@ The missed-call mechanism proved particularly effective in the Indian context, a
 
 The April 2011 protest succeeded in pressuring the government to agree to joint drafting of anti-corruption legislation, though subsequent negotiations proved contentious. The movement spawned further protests later in 2011 and contributed to broader political mobilisations, demonstrating both the potential and limitations of digitally-enabled civic action.
 
-Sunil Abraham's analysis in the article highlighted the strategic dimensions of online mobilisation, recognising that effective campaigns required structured pathways from low-commitment actions (clicking 'like') to higher-investment activities (attending protests, organising local events). This gradual escalation model became influential in subsequent social movement organising.
+[Sunil Abraham](/sunil/)'s analysis in the article highlighted the strategic dimensions of online mobilisation, recognising that effective campaigns required structured pathways from low-commitment actions (clicking 'like') to higher-investment activities (attending protests, organising local events). This gradual escalation model became influential in subsequent social movement organising.
 
 ## External Link
 
