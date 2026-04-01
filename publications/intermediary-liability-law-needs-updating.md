@@ -45,11 +45,11 @@ created: 2025-11-11
 ## Full Text
 
 <div class="highlighted-text" id="fulltext">
-  <p>The time has come for India to exert its foreign policy muscle. There is a less charitable name for intermediary liability regimes like Section 79 of the IT Act — private censorship regimes.</p>
-
-  <p>Intermediaries get immunity from liability emerging from user-generated and third-party content because they have no “actual knowledge” until it is brought to their notice using “take down” requests or orders.</p>
-
-  <p>Since some of the harm caused is immediate, irreparable and irreversible, it is the preferred alternative to approaching courts for each case. When intermediary liability regimes were first enacted, most intermediaries were acting as common carriers — that is, they did not curate the experience of users in a substantial fashion. While some intermediaries like Wikipedia continue this common carrier tradition, others driven by advertising revenue no longer treat all parties and all pieces of content neutrally. Facebook, Google and Twitter do everything they can to raise advertising revenues. They make you depressed. And if they like you, they get you to go out and vote. There is an urgent need to update intermediary liability law.</p>
+  <p><em>The time has come for India to exert its foreign policy muscle.</em></p>
+  
+  <p>There is a less charitable name for intermediary liability regimes like Section 79 of the IT Act — private censorship regimes. Intermediaries get immunity from liability emerging from user-generated and third-party content because they have no “actual knowledge” until it is brought to their notice using “take down” requests or orders. Since some of the harm caused is immediate, irreparable and irreversible, it is the preferred alternative to approaching courts for each case.</p> 
+  
+  <p>When intermediary liability regimes were first enacted, most intermediaries were acting as common carriers — that is, they did not curate the experience of users in a substantial fashion. While some intermediaries like Wikipedia continue this common carrier tradition, others driven by advertising revenue no longer treat all parties and all pieces of content neutrally. Facebook, Google and Twitter do everything they can to raise advertising revenues. They make you depressed. And if they like you, they get you to go out and vote. There is an urgent need to update intermediary liability law.</p>
 
   <p>In response to being summoned by multiple governments, Facebook has announced the establishment of an independent oversight board — a global free speech court for the world’s biggest online country. The time has come for India to exert its foreign policy muscle. The amendments to our intermediary liability regime can have global repercussions, and shape the structure and functioning of this and other global courts.</p>
 
@@ -74,8 +74,13 @@ created: 2025-11-11
 
 ## Context and Background
 
-This article was written during a period of major global scrutiny over the role of online intermediaries in shaping speech and democracy.  
-Abraham critiques Section 79 of India's IT Act, describing it as a form of "private censorship", and urges that future reforms ensure transparency, constitutional restraint, and procedural safeguards against overbroad takedown powers.
+The article appeared on 9 February 2019, weeks after the government's January 2019 consultation on proposed amendments to Section 79 of the IT Act, 2000, the same process covered in the Business Standard news report of 4 January 2019 in which Abraham was also quoted. This piece is his own argued response to that consultation.
+
+Sunil Abraham's central concern is that the intermediary liability regime, originally designed for common carriers that did not curate content, is no longer fit for platforms such as Facebook, Google, and Twitter that actively shape user experience to maximise advertising revenue. He describes Section 79 as a "private censorship regime" and argues this model needs structural reform rather than incremental amendment.
+
+On the question of how to reform it, he sets out two competing approaches: transparency mandates (requiring intermediaries to publish detailed reports on revenues, enforcement, content policy, and algorithmic decisions) versus technology-led pre-censorship using artificial intelligence. He supports the transparency approach, is cautious about AI-based pre-censorship except in the narrow case of child sexual abuse material where fingerprinting tools and databases such as those maintained by the Internet Watch Foundation already exist, and warns of false positives even there.
+
+On constitutional validity, Sunil draws directly on the *Shreya Singhal* judgment, in which the Supreme Court struck down Section 66A of the IT Act, as a precedent the government must avoid repeating. He argues that adding new vague categories of prohibited content, such as content that "harms minors in any way", would be constitutionally vulnerable and practically unworkable across all categories of intermediaries. He recommends that data retention and government access provisions be reserved for the forthcoming data protection law rather than inserted into intermediary liability rules.
 
 ## External Link
 
