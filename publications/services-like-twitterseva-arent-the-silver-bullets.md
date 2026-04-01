@@ -10,7 +10,7 @@ permalink: /publications/services-like-twitterseva-arent-the-silver-bullets/
 created: 2025-11-15
 ---
 
-**Services Like TwitterSeva Aren't the Silver Bullets They Are Made Out to Be** is an article by Sunil Abraham, published in *FactorDaily* on 6 October 2016. The piece argues that while TwitterSeva offers quick visibility and responsiveness, it cannot replace comprehensive, long-term e-governance systems grounded in neutrality, transparency, accountability and user rights.
+**Services Like TwitterSeva Aren't the Silver Bullets They Are Made Out to Be** is an article by [Sunil Abraham](/sunil/), published in *FactorDaily* on 6 October 2016. The article argues that while TwitterSeva offers quick visibility and responsiveness, it cannot replace comprehensive, long-term e-governance systems grounded in neutrality, transparency, accountability and user rights.
 
 ## Contents
 
