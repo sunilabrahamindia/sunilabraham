@@ -9,7 +9,7 @@ permalink: /media/big-brothers-snooping-telegraph-india/
 created: 2025-12-19
 ---
 
-**Big Brother's Snooping** is a feature article published in *The Telegraph* (India) on 26 June 2011. The piece exposes emerging threats to privacy in India, documenting Aadhaar database vulnerabilities, the Information Technology Act's new surveillance rules, cyber café monitoring requirements, and the National Intelligence Grid project, with extensive commentary from Usha Ramanathan and Sunil Abraham on systematic erosion of privacy protections.
+**Big Brother's Snooping** is a feature article published in *The Telegraph* (India) on 26 June 2011. The piece exposes emerging threats to privacy in India, documenting Aadhaar database vulnerabilities, the Information Technology Act's new surveillance rules, cyber café monitoring requirements, and the National Intelligence Grid project, with extensive commentary from Usha Ramanathan and [Sunil Abraham](/sunil/) on systematic erosion of privacy protections.
 
 ## Contents
 
