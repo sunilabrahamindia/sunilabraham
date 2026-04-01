@@ -80,9 +80,9 @@ created: 2026-04-01
 
 ## Context and Background
 
-The piece was published in January 2019, approximately four months before India's general elections, at a time of growing concern over the role of social media platforms in electoral influence operations. The Cambridge Analytica revelations of 2018 had placed platform accountability firmly on the policy agenda globally, and India's data protection legislation was still being deliberated.
+The news article was published in January 2019, approximately four months before India's general elections, at a time of growing concern over the role of social media platforms in electoral influence operations. The Cambridge Analytica revelations of 2018 had placed platform accountability firmly on the policy agenda globally, and India's data protection legislation was still being deliberated.
 
-Sunil Abraham wrote the piece in his capacity as executive director of the Centre for Internet and Society. It is one of several public interventions he made on platform regulation and data governance during this period.
+[Sunil Abraham](/sunil/) wrote the piece in his capacity as executive director of the Centre for Internet and Society. It is one of several public interventions he made on platform regulation and data governance during this period.
 
 ## External Link
 
