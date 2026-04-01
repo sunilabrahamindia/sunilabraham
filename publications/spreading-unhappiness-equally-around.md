@@ -46,7 +46,7 @@ created: 2025-11-15
 
 <div class="highlighted-text" id="fulltext">
 
-*The section of civil society opposed to Aadhaar is unhappy because the UIDAI and all other state agencies that wish to can process data non-consensually*
+<p><em>The section of civil society opposed to Aadhaar is unhappy because the UIDAI and all other state agencies that wish to can process data non-consensually</em></p>
 
 <p>There is a joke in policy-making circles — you know you have reached a good compromise if all the relevant stakeholders are equally unhappy. By that measure, the B N Srikrishna committee has done a commendable job since there are many with complaints.</p>
 
