@@ -10,7 +10,7 @@ permalink: /media/big-brother-watches-telegraph-india/
 created: 2025-12-18
 ---
 
-**Big Brother Watches** is an investigative article published in *The Telegraph* (India) on 22 December 2010, written by Manjula Sen. The piece scrutinises the National Identification Authority of India Bill 2010, documenting widespread criticism from legal experts and civil society organisations regarding inadequate privacy safeguards, vague eligibility criteria, unchecked discretionary powers, and constitutional questions surrounding the nascent Aadhaar project, with extensive commentary from Sunil Abraham.
+**Big Brother Watches** is an investigative article published in *The Telegraph* (India) on 22 December 2010, written by Manjula Sen. The piece scrutinises the National Identification Authority of India Bill 2010, documenting widespread criticism from legal experts and civil society organisations regarding inadequate privacy safeguards, vague eligibility criteria, unchecked discretionary powers, and constitutional questions surrounding the nascent Aadhaar project, with extensive commentary from [Sunil Abraham](/sunil/).
 
 ## Contents
 
