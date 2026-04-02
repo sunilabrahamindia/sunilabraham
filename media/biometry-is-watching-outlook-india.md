@@ -10,7 +10,7 @@ permalink: /media/biometry-is-watching-outlook-india/
 created: 2026-02-10
 ---
 
-**Biometry Is Watching** is an *Outlook India* field report published on 10 May 2010. Sugata Srinivasaraju documents the Aadhaar (UID) pilot project in Karnataka villages, observing ground-level implementation difficulties including fingerprint scanning problems for manual labourers, widespread misinformation about the programme's purpose, and infrastructure constraints. The article features Sunil Abraham's critique of centralised biometric databases and civil society demands for privacy safeguards before nationwide rollout.
+**Biometry Is Watching** is an *Outlook India* field report published on 10 May 2010. Sugata Srinivasaraju documents the Aadhaar (UID) pilot project in Karnataka villages, observing ground-level implementation difficulties including fingerprint scanning problems for manual labourers, widespread misinformation about the programme's purpose, and infrastructure constraints. The article features [Sunil Abraham](/sunil/)'s critique of centralised biometric databases and civil society demands for privacy safeguards before nationwide rollout.
 
 ## Contents
 
