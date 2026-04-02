@@ -10,7 +10,7 @@ permalink: /media/govt-supercomputing-aadhaar-database-mint/
 created: 2026-02-26
 ---
 
-**Govt May Turn to Supercomputing for Better Use of Aadhaar Database** is a *Mint* news report by Moulishree Srivastava published on 10 February 2015. The piece reports on government plans to deploy supercomputing infrastructure for analytics on the Aadhaar database, and includes comments from Sunil Abraham, who argues that centralisation creates a honeypot risk and that only anonymised data should be made available for such applications.
+**Govt May Turn to Supercomputing for Better Use of Aadhaar Database** is a *Mint* news report by Moulishree Srivastava published on 10 February 2015. The piece reports on government plans to deploy supercomputing infrastructure for analytics on the Aadhaar database, and includes comments from [Sunil Abraham](/sunil/), who argues that centralisation creates a honeypot risk and that only anonymised data should be made available for such applications.
 
 ## Contents
 
