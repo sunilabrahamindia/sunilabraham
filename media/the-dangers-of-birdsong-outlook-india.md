@@ -10,7 +10,7 @@ permalink: /media/the-dangers-of-birdsong-outlook-india/
 created: 2026-02-10
 ---
 
-**The Dangers of Birdsong** is an *Outlook India* article published on 25 January 2014. Namrata Joshi examines how social media platforms dissolve boundaries between private and public life, written in the aftermath of public debate following Sunanda Pushkar's death and related social media exchanges. The piece features perspectives from Sunil Abraham and others on oversharing as currency in the attention economy, anonymity enabling brutal trolling, and the evolving nature of privacy in digitally persistent cyberspace.
+**The Dangers of Birdsong** is an *Outlook India* article published on 25 January 2014. Namrata Joshi examines how social media platforms dissolve boundaries between private and public life, written in the aftermath of public debate following Sunanda Pushkar's death and related social media exchanges. The piece features perspectives from [Sunil Abraham](/sunil/) and others on oversharing as currency in the attention economy, anonymity enabling brutal trolling, and the evolving nature of privacy in digitally persistent cyberspace.
 
 ## Contents
 
