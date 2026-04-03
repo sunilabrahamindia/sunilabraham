@@ -10,7 +10,7 @@ permalink: /publications/do-we-need-the-aadhaar-scheme/
 created: 2025-11-22
 ---
 
-**Do We Need the Aadhaar Scheme?** is a Business Standard commentary by Sunil Abraham published on 1 February 2012. The article argues that India already possesses a scalable authentication model based on digital signatures, and warns that biometrics introduce insecurity, power asymmetry, and structural vulnerabilities into identity systems.
+**Do We Need the Aadhaar Scheme?** is a *Business Standard* commentary by [Sunil Abraham](/sunil/) published on 1 February 2012. The article argues that India already possesses a scalable authentication model based on digital signatures, and warns that biometrics introduce insecurity, power asymmetry, and structural vulnerabilities into identity systems.
 
 ## Contents
 
