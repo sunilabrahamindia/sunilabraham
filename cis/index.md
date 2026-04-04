@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Centre for Internet and Society (CIS)"
+title: "Centre for Internet and Society"
 description: "An overview of the Centre for Internet and Society (CIS), an Indian non-profit research organisation working on internet policy, digital rights, and technology and society."
 permalink: /cis/
 categories: [Institutions, Sunil Abraham]
