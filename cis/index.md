@@ -21,7 +21,7 @@ According to a notice displayed as a banner on its official website, CIS stopped
 
 CIS was registered as a Society under the Karnataka Societies Registration Act, 1960 (K.S.R. Act 17 of 1960) on 4 July 2008, with Society Registration Number SOR/BLU/DR/57/2008-09, by the Office of the Registrar of Societies, Bangalore Urban District. The registration fee paid at the time was ₹1,000. The registered office at founding was No. 106, Vineyard Jasmine Apartments, Bank Avenue, 1st Main Road, Babusapalya, Banaswadi, Bangalore 560043, Karnataka.
 
-The society was founded by seven members—
+The Memorandum of Association was signed by seven founding members—
 1. Sunil Abraham (then aged 35, engineer) signed as President;
 2. Achal Prabhala (35, researcher) as Vice-President;
 3. Lawrence Liang (34, lawyer) as Secretary;
