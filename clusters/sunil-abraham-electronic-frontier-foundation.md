@@ -4,7 +4,7 @@ title: "Sunil Abraham and Electronic Frontier Foundation"
 description: "A collection of Electronic Frontier Foundation articles that reference Sunil Abraham in discussions on digital rights, privacy, and internet governance."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-electronic-frontier-foundation/
-created: 2026-04-204
+created: 2026-04-2024
 ---
 
 The ***Electronic Frontier Foundation (EFF)*** is a US-based non-profit organisation focused on defending civil liberties in the digital world. Its work spans issues such as privacy, free expression, surveillance, and the governance of online platforms, often combining legal advocacy with detailed policy analysis.
