@@ -13,7 +13,7 @@ The **Centre for Internet and Society** (CIS) is an Indian non-profit, multidisc
 
 Its areas of focus include digital accessibility for persons with disabilities, access to knowledge, intellectual property rights, internet governance, telecommunication reform, digital privacy, and cyber-security. CIS has engaged with civil society, academic institutions, and policymakers to advance an open, rights-respecting internet in India and beyond.
 
-[Sunil Abraham](/sunil/) founded CIS and served as its Executive Director from 2008 to mid-2019. On The Sunil Abraham Project (TSAP), we specially cover the history and work of CIS between 2008 and mid-2019, before Sunil stepped down as Executive Director.
+[Sunil Abraham](/sunil/) co-founded CIS and served as its Executive Director from 2008 to mid-2019. On The Sunil Abraham Project (TSAP), we specially cover the history and work of CIS between 2008 and mid-2019, before Sunil stepped down as Executive Director.
 
 According to a notice displayed as a banner on its official website, CIS stopped all its programmatic activities as of 1 May 2025, citing regulatory changes.
 
