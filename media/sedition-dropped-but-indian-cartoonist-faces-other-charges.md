@@ -10,7 +10,7 @@ permalink: /media/sedition-dropped-but-indian-cartoonist-faces-other-charges/
 created: 2026-04-05
 ---
 
-**Sedition Dropped, but Indian Cartoonist Faces Other Charges** is a report published by the *Committee to Protect Journalists* on 18 October 2012, written by Sumit Galhotra, CPJ's Steiger Fellow. The piece covers the Maharashtra government's decision to drop the sedition charge against cartoonist Aseem Trivedi following public pressure, whilst noting that charges under the Prevention of Insult to National Honour Act and the Information Technology Act remained. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), is cited on the broader pattern of the government "[policing cyberspace](//media/policing-the-internet-in-india/)."
+**Sedition Dropped, but Indian Cartoonist Faces Other Charges** is a report published by the *Committee to Protect Journalists* on 18 October 2012, written by Sumit Galhotra, CPJ's Steiger Fellow. The piece covers the Maharashtra government's decision to drop the sedition charge against cartoonist Aseem Trivedi following public pressure, whilst noting that charges under the Prevention of Insult to National Honour Act and the Information Technology Act remained. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), is cited on the broader pattern of the government "[policing cyberspace](/media/policing-the-internet-in-india/)."
 
 ## Contents
 
@@ -44,7 +44,7 @@ created: 2026-04-05
 
 <div class="highlighted-text" id="fulltext">
 
-<p>After intense public pressure, the Maharashtra state government last week dropped the charge of sedition against Indian cartoonist Aseem Trivedi. However, Trivedi still faces other charges as his case resumes tomorrow at the Bombay High court.</p>
+<p>After intense public pressure, the Maharashtra state government last week dropped the charge of sedition against Indian cartoonist Aseem Trivedi. However, Trivedi still faces other charges as his case resumes tomorrow at the Bombay High Court.</p>
 
 <p>The 25-year old cartoonist, who was arrested on September 8, could have been sentenced to life imprisonment if convicted of sedition. He still faces up to three years in prison for other charges including violation of the Prevention of Insult to National Honour Act and Information Technology Act, his lawyer Vijay Hiremath told CPJ by e-mail.</p>
 
@@ -52,7 +52,7 @@ created: 2026-04-05
 
 <p>Trivedi will be absent from tomorrow's hearing, according to his lawyer, as the young cartoonist is currently being filmed as a contestant on the TV show "Bigg Boss," India's equivalent to "Big Brother."</p>
 
-<p>Trivedi had criticized corruption on his website, Cartoons Against Corruption, and published cartoons that mocked national symbols. One cartoon, for example, depicted India's parliament house as a filthy toilet bowl. The website was shut down by the government when the cartoons surfaced last year. This is certainly not the first time the government has censored content on the Internet. Activists argue that government monitoring has <a href="/media/policing-the-internet-in-india/">increased</a> in proportion to the growth of corruption allegations against politicians. This kind of censorship points to a larger pattern of "policing cyberspace," Sunil Abraham, executive director of the Centre of Internet Societies, told CPJ last year.</p>
+<p>Trivedi had criticized corruption on his website, Cartoons Against Corruption, and published cartoons that mocked national symbols. One cartoon, for example, depicted India's parliament house as a filthy toilet bowl. The website was shut down by the government when the cartoons surfaced last year. This is certainly not the first time the government has censored content on the Internet. Activists argue that government monitoring has <a href="/media/policing-the-internet-in-india/">increased</a> in proportion to the growth of corruption allegations against politicians. This kind of censorship points to a larger pattern of "policing cyberspace," Sunil Abraham, executive director of the Centre for Internet and Society, told CPJ last year.</p>
 
 <p>The British-era sedition law, retained under section 124(A) of the Indian Penal Code, has routinely been used in India to silence critical activists and journalists, despite calls by many for its repeal. The Bombay High Court has directed the state government to submit a draft circular outlining the limitations and the parameters for the future use of section 124(A), according to media reports. The circular is meant to give the police a better idea as to which kinds of cases should and should not levy the charge of sedition, Hiremath said.</p>
 
