@@ -10,7 +10,7 @@ permalink: /media/brazils-experience-red-flag-whatsapp-indian-polls-experts-hind
 created: 2026-01-02
 ---
 
-**Brazil's Experience a Red Flag for WhatsApp in Indian Polls, Say Experts** is a *Hindustan Times* report by Vidhi Choudhary published on 21 October 2018. The article examines anxieties surrounding WhatsApp's role in India's approaching 2019 general election following allegations that the platform enabled anti-leftist propaganda distribution during Brazil's recent vote, with lawyer Rahul Matthan predicting an "imminent" WhatsApp scandal whilst Sunil Abraham proposed fact-checker networks and in-application education as alternatives to encryption-breaking regulatory responses.
+**Brazil's Experience a Red Flag for WhatsApp in Indian Polls, Say Experts** is a *Hindustan Times* report by Vidhi Choudhary published on 21 October 2018. The article examines anxieties surrounding WhatsApp's role in India's approaching 2019 general election following allegations that the platform enabled anti-leftist propaganda distribution during Brazil's recent vote, with lawyer Rahul Matthan predicting an "imminent" WhatsApp scandal whilst [Sunil Abraham](/sunil/) proposed fact-checker networks and in-application education as alternatives to encryption-breaking regulatory responses.
 
 ## Contents
 
