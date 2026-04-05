@@ -10,7 +10,7 @@ permalink: /publications/fb-google-monopolised-indian-cyberspace/
 created: 2026-01-05
 ---
 
-**FB & Google Have Already Monopolised Indian Cyberspace** is a 2016 *Catch News* interview in which Sunil Abraham, then Executive Director of the Centre for Internet and Society (CIS), examines the US-India cyber relationship framework signed in June 2016. He addresses concerns about internet governance, encryption policy, outdated surveillance laws, and the absence of regulatory mechanisms to check the market dominance of Facebook and Google in India.
+**FB & Google Have Already Monopolised Indian Cyberspace** is a 2016 *Catch News* interview in which [Sunil Abraham], then Executive Director of the [Centre for Internet and Society](/cis/) (CIS), examines the US-India cyber relationship framework signed in June 2016. He addresses concerns about internet governance, encryption policy, outdated surveillance laws, and the absence of regulatory mechanisms to check the market dominance of Facebook and Google in India.
 
 ## Contents
 
