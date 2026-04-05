@@ -7,7 +7,7 @@ permalink: /clusters/sunil-abraham-committee-to-protect-journalists/
 created: 2026-04-06
 ---
 
-The ***Committee to Protect Journalists (CPJ)*** is an independent non-profit organisation that monitors press freedom worldwide and advocates for the rights and safety of journalists. Its reporting frequently examines how legal frameworks, state actions, and digital policies affect freedom of expression.
+The ***Committee to Protect Journalists*** (CPJ) is an independent non-profit organisation that monitors press freedom worldwide and advocates for the rights and safety of journalists. Its reporting frequently examines how legal frameworks, state actions, and digital policies affect freedom of expression.
 
 In this context, coverage touching on internet regulation, intermediary liability, and online speech has included references to **Sunil Abraham**, particularly in relation to developments in India.
 
