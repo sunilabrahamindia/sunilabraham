@@ -5,7 +5,7 @@ sitemap: false
 robots: noindex
 ---
 
-This sandbox is a workspace to map and track the progress of the literary works of [Athanasius Mathen Abraham Ayrookuzhiel](/amaa/). The main portal may be seen [here](/amaa/portal/). This space lists works completed, articles created, and holds room for works yet to be undertaken.
+This sandbox is a workspace to map and track the progress of the literary works of [Athanasius Mathen Abraham Ayrookuzhiel](/amaa/). The main portal may be seen [here](/amaa/portal/). This space lists works completed, articles created, and holds room for works yet to be undertaken. You may also see the collected works [Essays on Dalits, Religion and Liberation](/amaa/edrl/).
 
 ## Essays
 
@@ -41,7 +41,7 @@ This sandbox is a workspace to map and track the progress of the literary works 
     <tr>
       <td class="title">Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS</td>
       <td class="edrl y">Y</td>
-      <td class="tsap">—</td>
+      <td class="tsap">Rafika OCR</td>
     </tr>
     <tr>
       <td class="title">A Proposal for the Study of Religious Heritage of the Dalits: Some Methodological Considerations</td>
@@ -51,7 +51,7 @@ This sandbox is a workspace to map and track the progress of the literary works 
     <tr>
       <td class="title">Religious Legitimation and Delegitimation of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective</td>
       <td class="edrl y">Y</td>
-      <td class="tsap">—</td>
+      <td class="tsap">Rafika OCR</td>
     </tr>
     <tr>
       <td class="title">Religions and Culture in Dalits' Struggle for Liberation</td>
@@ -81,7 +81,7 @@ This sandbox is a workspace to map and track the progress of the literary works 
     <tr>
       <td class="title">Dalits' Challenges and Religious Systems: A People Ignored by Church History</td>
       <td class="edrl y">Y</td>
-      <td class="tsap">—</td>
+      <td class="tsap">Rafika OCR</td>
     </tr>
     <tr>
       <td class="title">The Dalit Church's Mission: A Dalit Response</td>
