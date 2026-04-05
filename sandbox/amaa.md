@@ -13,12 +13,15 @@ This sandbox is a workspace to map and track the progress of the literary works 
 .amaa-table { width:100%; border-collapse:collapse; font-size:0.92rem; line-height:1.5; }
 .amaa-table th { padding:0.5rem 0.75rem; background:#f3f0ec; border-bottom:2px solid #dcd9d5; text-align:left; font-weight:600; }
 .amaa-table td { padding:0.5rem 0.75rem; border-bottom:1px solid #dcd9d5; vertical-align:top; }
-.amaa-table td.title { max-width:340px; word-wrap:break-word; white-space:normal; }
+.amaa-table td.title { word-wrap:break-word; white-space:normal; max-width:340px; }
 .amaa-table td.edrl { text-align:center; white-space:nowrap; width:3rem; }
 .amaa-table td.edrl.y { background:#d4efdc; color:#276039; font-weight:600; }
 .amaa-table td.edrl.n { background:#fadadd; color:#922b21; font-weight:600; }
 .amaa-table td.tsap { white-space:nowrap; width:6rem; }
 .amaa-table tr:nth-child(even) { background:#f9f8f5; }
+@media (min-width:768px) {
+  .amaa-table td.title { max-width:none; width:75%; }
+}
 .amaa-tally { display:flex; flex-wrap:wrap; gap:0.6rem; margin-bottom:1rem; font-size:0.88rem; }
 .amaa-tally-item { padding:0.35rem 0.75rem; border-radius:999px; background:#f3f0ec; border:1px solid #dcd9d5; color:#28251d; white-space:nowrap; }
 .amaa-tally-item span { font-weight:700; margin-left:0.25rem; }
