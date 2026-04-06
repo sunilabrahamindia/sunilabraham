@@ -24,6 +24,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 10. [Version 1.3.2](#version-132)
 11. [Version 1.3.3](#version-133)
 12. [Version 1.4](#version-14)
+13. [Version 1.4.1](#version-141)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -413,3 +414,23 @@ Completion date: 21 March 2026
 
 **Status** ✅ Done  
 Completion date: 28 March 2026 (night)
+
+## Version 1.4.1
+
+- 27 new pages have been published this week between 29 March 2026 and 4 April 2026.
+
+**Clusters**
+- Worked on media mentions across the following clusters: [*Techdirt*](/clusters/sunil-abraham-techdirt/), [*ZDNet*](/clusters/sunil-abraham-zdnet/), [*Electronic Frontier Foundation*](/clusters/sunil-abraham-electronic-frontier-foundation/)
+
+**Cluster Maintenance**
+- Revisited the [*Bangalore Mirror*](/clusters/sunil-abraham-bangalore-mirror/) and [*Business Standard*](/clusters/sunil-abraham-business-standard/) clusters.
+- Identified and added previously missed articles.
+- General cleanup and maintenance were carried out to improve consistency and completeness.
+
+**New Article**
+- Work began on the [Centre for Internet and Society](/cis/) article.
+- The initial landing page has been created and will be expanded progressively.
+- Future work will focus on documenting the history and activities of CIS, with particular attention to the period between 2008 and 2019, prior to Sunil Abraham stepping down as Executive Director.
+
+**Status** ✅ Done  
+Completion date: 4 April 2026 (night)
