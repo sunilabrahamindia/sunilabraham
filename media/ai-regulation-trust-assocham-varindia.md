@@ -10,7 +10,7 @@ permalink: /media/ai-regulation-trust-assocham-varindia/
 created: 2026-01-06
 ---
 
-**Regulation Should Build Trust, Not Control, says Dr. Amar Patnaik at 6th Global AI Leadership Meet** is a *Varindia* event report published on 21 February 2024. The article documents proceedings from the 6th Global AI Leadership Meet organised by ASSOCHAM in New Delhi, focusing on the theme "AI for India: Pushing Boundaries for Innovation." The report features Sunil Abraham's analysis of multi-layered AI governance frameworks and advocacy for open standards to protect digital rights.
+**Regulation Should Build Trust, Not Control, says Dr. Amar Patnaik at 6th Global AI Leadership Meet** is a *Varindia* event report published on 21 February 2024. The article documents proceedings from the 6th Global AI Leadership Meet organised by ASSOCHAM in New Delhi, focusing on the theme "AI for India: Pushing Boundaries for Innovation." The report features [Sunil Abraham](/sunil/)'s analysis of multi-layered AI governance frameworks and advocacy for open standards to protect digital rights.
 
 ## Contents
 
