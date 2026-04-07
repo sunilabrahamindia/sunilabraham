@@ -10,7 +10,7 @@ permalink: /media/dna-bill-misuse-sunil-abraham-business-standard/
 created: 2026-01-10
 ---
 
-**Why the DNA Bill Is Open to Misuse: Sunil Abraham** is a *Business Standard* interview published on 1 August 2015 by Kanika Datta. The piece features Sunil Abraham, then Executive Director of the Centre for Internet and Society, explaining CIS's detailed dissent note on the Human DNA Profiling Bill, covering technological limitations of biometric matching, the DNA Board's excessive discretionary powers, elimination of judicial appeals, absence of clear definitions for DNA analysis types, inadequate authorization mechanisms for data disclosure, and failure to incorporate privacy principles from the Justice AP Shah committee report.
+**Why the DNA Bill Is Open to Misuse: Sunil Abraham** is a *Business Standard* interview published on 1 August 2015 by Kanika Datta. The piece features [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), explaining CIS's detailed dissent note on the Human DNA Profiling Bill, covering technological limitations of biometric matching, the DNA Board's excessive discretionary powers, elimination of judicial appeals, absence of clear definitions for DNA analysis types, inadequate authorization mechanisms for data disclosure, and failure to incorporate privacy principles from the Justice AP Shah committee report.
 
 ## Contents
 
