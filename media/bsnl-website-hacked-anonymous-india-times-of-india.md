@@ -10,7 +10,7 @@ permalink: /media/bsnl-website-hacked-anonymous-india-times-of-india/
 created: 2025-12-25
 ---
 
-**BSNL Website Hacked by Anonymous India** is a news report published by *The Times of India* on 13 December 2012, written by Kim Arora. The article documents the defacement of Bharat Sanchar Nigam Limited's website by the hacktivist collective Anonymous India, carried out in solidarity with cartoonist Aseem Trivedi's hunger strike against Section 66A of the IT Act. The piece features commentary from Sunil Abraham who, whilst acknowledging concerns about speech regulation, criticised the website defacement as counterproductive given ongoing parliamentary and judicial efforts to reform the controversial provision.
+**BSNL Website Hacked by Anonymous India** is a news report published by *The Times of India* on 13 December 2012, written by Kim Arora. The article documents the defacement of Bharat Sanchar Nigam Limited's website by the hacktivist collective Anonymous India, carried out in solidarity with cartoonist Aseem Trivedi's hunger strike against Section 66A of the IT Act. The piece features commentary from [Sunil Abraham](/sunil/) who, whilst acknowledging concerns about speech regulation, criticised the website defacement as counterproductive given ongoing parliamentary and judicial efforts to reform the controversial provision.
 
 ## Contents
 
