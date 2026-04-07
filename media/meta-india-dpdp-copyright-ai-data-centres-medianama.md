@@ -10,7 +10,7 @@ permalink: /media/meta-india-dpdp-copyright-ai-data-centres-medianama/
 created: 2026-01-07
 ---
 
-**Meta Hopes India's DPDP Act and Copyright Provisions Can Attract AI Data Centres** is a *MediaNama* article published on 16 April 2025. The report covers remarks made by Meta's Public Policy Director, Sunil Abraham, at the Global Technology Summit, where he discussed how India's data protection and copyright framework may influence the country’s attractiveness for artificial intelligence model training.
+**Meta Hopes India's DPDP Act and Copyright Provisions Can Attract AI Data Centres** is a *MediaNama* article published on 16 April 2025. The report covers remarks made by Meta's Public Policy Director, [Sunil Abraham](/sunil/), at the Global Technology Summit, where he discussed how India's data protection and copyright framework may influence the country’s attractiveness for artificial intelligence model training.
 
 ## Contents
 
