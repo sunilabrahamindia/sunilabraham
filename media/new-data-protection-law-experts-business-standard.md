@@ -9,7 +9,7 @@ permalink: /media/new-data-protection-law-experts-business-standard/
 created: 2026-01-08
 ---
 
-**New Data Protection Law Must Not Limit Data Collection: Experts** is an IANS report published in *Business Standard* on 11 October 2017. The article covers a seminar organised by the Internet and Mobile Association of India (IAMAI) featuring Sunil Abraham, then Executive Director of the Centre for Internet and Society, alongside Kamlesh Bajaj of the Data Security Council of India, Google's Chetan Krishnaswamy, and Rajya Sabha MP Rajeev Chandrasekhar, discussing India's forthcoming data protection regime following the Supreme Court's landmark privacy judgment.
+**New Data Protection Law Must Not Limit Data Collection: Experts** is an IANS report published in *Business Standard* on 11 October 2017. The article covers a seminar organised by the Internet and Mobile Association of India (IAMAI) featuring [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), alongside Kamlesh Bajaj of the Data Security Council of India, Google's Chetan Krishnaswamy, and Rajya Sabha MP Rajeev Chandrasekhar, discussing India's forthcoming data protection regime following the Supreme Court's landmark privacy judgment.
 
 ## Contents
 
