@@ -10,7 +10,7 @@ permalink: /media/aadhaar-mandate-smartphone-makers-business-standard/
 created: 2026-01-08
 ---
 
-**India's Aadhaar Mandate for Smartphone Makers May Rile Global Firms** is a *Business Standard* article published on 14 September 2016 by Alnoor Peermohamed. The report examines India's proposal that global smartphone manufacturers such as Apple and Google adopt locally designed standards enabling biometric scanner use for Aadhaar authentication. The article features analysis from Sunil Abraham, then Executive Director of the Centre for Internet and Society, alongside UIDAI Director General Ajay Bhushan Pandey, discussing technical challenges, security requirements, and the likelihood of industry compliance.
+**India's Aadhaar Mandate for Smartphone Makers May Rile Global Firms** is a *Business Standard* article published on 14 September 2016 by Alnoor Peermohamed. The report examines India's proposal that global smartphone manufacturers such as Apple and Google adopt locally designed standards enabling biometric scanner use for Aadhaar authentication. The article features analysis from [Sunil Abraham], then Executive Director of the [Centre for Internet and Society](/cis/), alongside UIDAI Director General Ajay Bhushan Pandey, discussing technical challenges, security requirements, and the likelihood of industry compliance.
 
 ## Contents
 
@@ -90,7 +90,7 @@ Pandey's description of "consultations" with device manufacturers and operating 
 
 The reference to Reliance's ambitions illustrated how Aadhaar integration had become central to commercial strategies in telecommunications and financial services. Reliance Jio's impending launch in September 2016 aimed to rapidly acquire subscribers through paperless, Aadhaar-based e-KYC processes, reducing onboarding friction from days to minutes. This business model depended on accessible biometric authentication, creating private sector pressure that complemented government demands for smartphone ecosystem changes.
 
-Abraham's scepticism about manufacturer compliance proved prescient. Subsequent years saw UIDAI adapt its approach through software-based solutions and certified authentication applications rather than achieving the hardware-level secure zones initially envisaged. The tension between national regulatory authority over digital identity infrastructure and global platform providers' control over device architectures remained unresolved, foreshadowing ongoing debates about digital sovereignty and technology governance.
+Sunil Abraham's scepticism about manufacturer compliance proved prescient. Subsequent years saw UIDAI adapt its approach through software-based solutions and certified authentication applications rather than achieving the hardware-level secure zones initially envisaged. The tension between national regulatory authority over digital identity infrastructure and global platform providers' control over device architectures remained unresolved, foreshadowing ongoing debates about digital sovereignty and technology governance.
 
 ## External Link
 
