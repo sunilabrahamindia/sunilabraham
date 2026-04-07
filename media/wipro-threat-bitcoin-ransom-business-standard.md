@@ -10,7 +10,7 @@ permalink: /media/wipro-threat-bitcoin-ransom-business-standard/
 created: 2026-01-09
 ---
 
-**Wipro Receives Threat Mail Demanding Rs 500 Crore in Bitcoins** is a *Business Standard* report published on 6 May 2017 by Ayan Pramanik. The article covers an anonymous extortion threat sent via ProtonMail demanding Rs 500 crore in bitcoin from Wipro by 25 May 2017 under threat of ricin poisoning attacks on employees, featuring analysis from Sunil Abraham, then Executive Director of the Centre for Internet and Society, on the novel use of cryptocurrency demands in physical corporate extortion attempts, alongside details of a similar incident targeting Infosys one month earlier.
+**Wipro Receives Threat Mail Demanding Rs 500 Crore in Bitcoins** is a *Business Standard* report published on 6 May 2017 by Ayan Pramanik. The article covers an anonymous extortion threat sent via ProtonMail demanding Rs 500 crore in bitcoin from Wipro by 25 May 2017 under threat of ricin poisoning attacks on employees, featuring analysis from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), on the novel use of cryptocurrency demands in physical corporate extortion attempts, alongside details of a similar incident targeting Infosys one month earlier.
 
 ## Contents
 
