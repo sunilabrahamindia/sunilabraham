@@ -10,7 +10,7 @@ permalink: /media/crowdsourced-innovation-government-projects-easier-said-than-d
 created: 2025-12-25
 ---
 
-**Crowdsourced Innovation for Government Projects and Services Is Easier Said Than Done** is a feature article published by *The Times of India* on 3 February 2017, written by Kunal Talgeri. The piece examines the nascent efforts by Indian government agencies to leverage hackathons and API-driven platforms for digital service delivery, documenting the fundamental tensions between developer culture and government procurement practices. The article features commentary from Sunil Abraham on competition concerns around UPI infrastructure, alongside extensive quotes from HasGeek founders Zainab Bawa and Kiran Jonnalagadda about security trade-offs and the implementation challenges of crowdsourced innovation.
+**Crowdsourced Innovation for Government Projects and Services Is Easier Said Than Done** is a feature article published by *The Times of India* on 3 February 2017, written by Kunal Talgeri. The piece examines the nascent efforts by Indian government agencies to leverage hackathons and API-driven platforms for digital service delivery, documenting the fundamental tensions between developer culture and government procurement practices. The article features commentary from [Sunil Abraham](/sunil/) on competition concerns around UPI infrastructure, alongside extensive quotes from HasGeek founders Zainab Bawa and Kiran Jonnalagadda about security trade-offs and the implementation challenges of crowdsourced innovation.
 
 This article was also published on [*The Economic Times*](/media/crowdsourced-innovation-for-government-projects-and-services-is-easier-said-than-done/) on the same date.
 
