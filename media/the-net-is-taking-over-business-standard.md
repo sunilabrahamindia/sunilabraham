@@ -10,7 +10,7 @@ permalink: /media/the-net-is-taking-over-business-standard/
 created: 2026-01-09
 ---
 
-**The Net Is Taking Over** is a *Business Standard* feature published on 24 January 2014 by Veenu Sandhu and Surabhi Agarwal with inputs from Indulekha Aravind. The article examines social media's transformative impact on Indian society, featuring commentary from Sunil Abraham, then Executive Director of the Centre for Internet and Society, alongside psychologists, digital marketers, and human resource professionals, exploring psychological effects, algorithmic surveillance, employment practices, and evolving privacy norms.
+**The Net Is Taking Over** is a *Business Standard* feature published on 24 January 2014 by Veenu Sandhu and Surabhi Agarwal with inputs from Indulekha Aravind. The article examines social media's transformative impact on Indian society, featuring commentary from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), alongside psychologists, digital marketers, and human resource professionals, exploring psychological effects, algorithmic surveillance, employment practices, and evolving privacy norms.
 
 ## Contents
 
