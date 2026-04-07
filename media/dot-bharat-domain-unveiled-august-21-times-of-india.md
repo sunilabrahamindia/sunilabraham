@@ -10,7 +10,7 @@ permalink: /media/dot-bharat-domain-unveiled-august-21-times-of-india/
 created: 2025-12-25
 ---
 
-**Dot Bharat Domain to Be Unveiled on August 21** is a news report published by *The Times of India* on 17 August 2014, written by Kim Arora. The article announces the imminent launch of India's Internationalised Domain Name in Devanagari script, allowing web addresses to be written entirely in Hindi, Marathi, and other languages using that script. The piece presents varied perspectives on the initiative's potential impact, featuring Sunil Abraham's commentary on the non-linear nature of digital infrastructure development and the supporting ecosystem elements required for Indic language speakers to achieve parity with English users.
+**Dot Bharat Domain to Be Unveiled on August 21** is a news report published by *The Times of India* on 17 August 2014, written by Kim Arora. The article announces the imminent launch of India's Internationalised Domain Name in Devanagari script, allowing web addresses to be written entirely in Hindi, Marathi, and other languages using that script. The piece presents varied perspectives on the initiative's potential impact, featuring [Sunil Abraham](/sunil/)'s commentary on the non-linear nature of digital infrastructure development and the supporting ecosystem elements required for Indic language speakers to achieve parity with English users.
 
 ## Contents
 
