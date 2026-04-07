@@ -10,7 +10,7 @@ permalink: /media/net-advocacy-body-probing-linkages-telcos-facebook-autoplay/
 created: 2025-12-21
 ---
 
-**Net Advocacy Body Probing Linkages Between Telcos And Facebook's Auto-Play Video Option** is a news report by Prabhu Mallikarjunan published by *The Financial Express* on 28 October 2015. The article covers the Centre for Internet and Society's announcement that it would investigate whether Facebook's auto-play video feature was strategically designed to boost telecom companies' data revenues by up to 50%, potentially creating financial incentives for telcos to support Facebook's controversial Internet.org (Free Basics) initiative.
+**Net Advocacy Body Probing Linkages Between Telcos And Facebook's Auto-Play Video Option** is a news report by Prabhu Mallikarjunan published by *The Financial Express* on 28 October 2015. The article covers the [Centre for Internet and Society](/cis/)'s announcement that it would investigate whether Facebook's auto-play video feature was strategically designed to boost telecom companies' data revenues by up to 50%, potentially creating financial incentives for telcos to support Facebook's controversial Internet.org (Free Basics) initiative.
 
 ## Contents
 
