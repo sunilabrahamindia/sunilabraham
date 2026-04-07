@@ -10,7 +10,7 @@ permalink: /media/open-source-ai-carnegie-india-summit-medianama/
 created: 2026-01-07
 ---
 
-**Navigating the Complexities of Open Source AI: Insights from Carnegie India Summit** is a *MediaNama* article published on 8 December 2023 by Kamya Pandey. The report examines discussions from Carnegie India's Global Technology Summit held in Delhi between 4-6 December, focusing on definitional challenges surrounding open source artificial intelligence. The article features perspectives from Sunil Abraham, Meta's Public Policy Director for Data Governance and Emerging Technologies, and Lea Gimpel from the Digital Public Goods Alliance, exploring tensions between transparency, safety, and innovation in AI development.
+**Navigating the Complexities of Open Source AI: Insights from Carnegie India Summit** is a *MediaNama* article published on 8 December 2023 by Kamya Pandey. The report examines discussions from Carnegie India's Global Technology Summit held in Delhi between 4-6 December, focusing on definitional challenges surrounding open source artificial intelligence. The article features perspectives from [Sunil Abraham](/sunil/), Meta's Public Policy Director for Data Governance and Emerging Technologies, and Lea Gimpel from the Digital Public Goods Alliance, exploring tensions between transparency, safety, and innovation in AI development.
 
 ## Contents
 
