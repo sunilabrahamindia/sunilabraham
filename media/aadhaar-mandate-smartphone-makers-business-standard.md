@@ -10,7 +10,7 @@ permalink: /media/aadhaar-mandate-smartphone-makers-business-standard/
 created: 2026-01-08
 ---
 
-**India's Aadhaar Mandate for Smartphone Makers May Rile Global Firms** is a *Business Standard* article published on 14 September 2016 by Alnoor Peermohamed. The report examines India's proposal that global smartphone manufacturers such as Apple and Google adopt locally designed standards enabling biometric scanner use for Aadhaar authentication. The article features analysis from [Sunil Abraham], then Executive Director of the [Centre for Internet and Society](/cis/), alongside UIDAI Director General Ajay Bhushan Pandey, discussing technical challenges, security requirements, and the likelihood of industry compliance.
+**India's Aadhaar Mandate for Smartphone Makers May Rile Global Firms** is a *Business Standard* article published on 14 September 2016 by Alnoor Peermohamed. The report examines India's proposal that global smartphone manufacturers such as Apple and Google adopt locally designed standards enabling biometric scanner use for Aadhaar authentication. The article features analysis from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), alongside UIDAI Director General Ajay Bhushan Pandey, discussing technical challenges, security requirements, and the likelihood of industry compliance.
 
 ## Contents
 
