@@ -10,7 +10,7 @@ permalink: /media/mncs-early-inroads-market-share-financial-express/
 created: 2025-12-21
 ---
 
-**If MNCs Make Early Inroads, They Will Keep Market Share: Sunil Abraham, CIS** is an interview conducted by Anand J and published by *The Financial Express* on 23 October 2014. The piece explores the implications of multinational technology companies' heightened interest in India's 200-million-strong internet user base, featuring Sunil Abraham's analysis of data localization policies, surveillance infrastructure, Android's dominance and the need for robust digital regulations modeled on European standards.
+**If MNCs Make Early Inroads, They Will Keep Market Share: Sunil Abraham, CIS** is an interview conducted by Anand J and published by *The Financial Express* on 23 October 2014. The piece explores the implications of multinational technology companies' heightened interest in India's 200-million-strong internet user base, featuring [Sunil Abraham](/sunil/)'s analysis of data localization policies, surveillance infrastructure, Android's dominance and the need for robust digital regulations modeled on European standards.
 
 ## Contents
 
