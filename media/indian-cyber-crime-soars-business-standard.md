@@ -10,7 +10,7 @@ permalink: /media/indian-cyber-crime-soars-business-standard/
 created: 2026-01-08
 ---
 
-**Indian Cyber Crime Soars 350% in 3 Years** is a *Business Standard* article published on 19 January 2015 by Devanik Saha for IndiaSpend. The report analyses National Crime Records Bureau data showing registered cyber crime cases increasing from 966 in 2010 to 4,356 in 2013, as India's internet user base expanded. The article features analysis from Sunil Abraham, then Founder-Director of the Centre for Internet and Society, alongside data on conviction rates, demographic patterns, and concerns about draconian provisions in cyber laws.
+**Indian Cyber Crime Soars 350% in 3 Years** is a *Business Standard* article published on 19 January 2015 by Devanik Saha for IndiaSpend. The report analyses National Crime Records Bureau data showing registered cyber crime cases increasing from 966 in 2010 to 4,356 in 2013, as India's internet user base expanded. The article features analysis from [Sunil Abraham](/sunil/), then Founder-Director of the [Centre for Internet and Society](/sunil/), alongside data on conviction rates, demographic patterns, and concerns about draconian provisions in cyber laws.
 
 ## Contents
 
