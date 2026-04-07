@@ -10,7 +10,7 @@ permalink: /media/indian-companies-encryption-adoption-deccan-chronicle/
 created: 2026-01-06
 ---
 
-**Indian Companies Need to Boost Encryption Adoption Rate: Experts** is a *Deccan Chronicle* report published on 9 August 2016. The article examines India's vulnerability to cyber-attacks, ranking fifth globally in malware exposure, and identifies weak encryption adoption as a critical weakness. It features expert analysis from Sunil Abraham on corporate underinvestment in security infrastructure and regulatory barriers created by outdated government encryption standards.
+**Indian Companies Need to Boost Encryption Adoption Rate: Experts** is a *Deccan Chronicle* report published on 9 August 2016. The article examines India's vulnerability to cyber-attacks, ranking fifth globally in malware exposure, and identifies weak encryption adoption as a critical weakness. It features expert analysis from [Sunil Abraham](/sunil/) on corporate underinvestment in security infrastructure and regulatory barriers created by outdated government encryption standards.
 
 ## Contents
 
