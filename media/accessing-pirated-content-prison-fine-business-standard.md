@@ -10,7 +10,7 @@ permalink: /media/accessing-pirated-content-prison-fine-business-standard/
 created: 2026-01-08
 ---
 
-**Accessing Pirated Content Might Lead to Prison Term & Rs 3-Lakh Fine** is a *Business Standard* article published on 22 August 2016 by Alnoor Peermohamed. The report examines warning messages displayed to users accessing blocked torrent websites on Tata Communications' network, following Bombay High Court directives. The article features analysis from [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, critiquing the government's approach to copyright enforcement and discussing the limitations of consumer-targeted crackdowns.
+**Accessing Pirated Content Might Lead to Prison Term & Rs 3-Lakh Fine** is a *Business Standard* article published on 22 August 2016 by Alnoor Peermohamed. The report examines warning messages displayed to users accessing blocked torrent websites on Tata Communications' network, following Bombay High Court directives. The article features analysis from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), critiquing the government's approach to copyright enforcement and discussing the limitations of consumer-targeted crackdowns.
 
 ## Contents
 
