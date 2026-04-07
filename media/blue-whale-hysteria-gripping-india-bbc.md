@@ -10,7 +10,7 @@ permalink: /media/blue-whale-hysteria-gripping-india-bbc/
 created: 2025-12-20
 ---
 
-**Why Is 'Blue Whale' Hysteria Gripping India?** is a news feature published by BBC News on 19 September 2017, written by Aparna Alluri. The article examines the widespread panic in India surrounding the rumoured Blue Whale online challenge, which was alleged to be linked to teenage suicides but remained unconfirmed by police and other authorities. It includes commentary from Sunil Abraham, who described the response as a moral panic and questioned the effectiveness of institutional interventions.
+**Why Is 'Blue Whale' Hysteria Gripping India?** is a news feature published by BBC News on 19 September 2017, written by Aparna Alluri. The article examines the widespread panic in India surrounding the rumoured Blue Whale online challenge, which was alleged to be linked to teenage suicides but remained unconfirmed by police and other authorities. It includes commentary from [Sunil Abraham](/sunil/), who described the response as a moral panic and questioned the effectiveness of institutional interventions.
 
 ## Contents
 
