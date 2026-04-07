@@ -10,7 +10,7 @@ permalink: /media/surveillance-rises-privacy-retreats-business-standard/
 created: 2026-01-08
 ---
 
-**Surveillance Rises, Privacy Retreats** is a *Business Standard* analysis published on 12 April 2015 by Namrata Acharya. The article examines India's evolving surveillance landscape following the FabIndia CCTV controversy, featuring commentary from Sunil Abraham, then Executive Director of the Centre for Internet and Society, alongside cyber law experts Pavan Duggal and Prashant Mali, discussing privacy laws, government monitoring infrastructure, and the regulatory gaps in CCTV governance.
+**Surveillance Rises, Privacy Retreats** is a *Business Standard* analysis published on 12 April 2015 by Namrata Acharya. The article examines India's evolving surveillance landscape following the FabIndia CCTV controversy, featuring commentary from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), alongside cyber law experts Pavan Duggal and Prashant Mali, discussing privacy laws, government monitoring infrastructure, and the regulatory gaps in CCTV governance.
 
 ## Contents
 
