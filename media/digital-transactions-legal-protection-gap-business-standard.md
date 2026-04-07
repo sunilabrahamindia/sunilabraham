@@ -10,7 +10,7 @@ permalink: /media/digital-transactions-legal-protection-gap-business-standard/
 created: 2026-01-10
 ---
 
-**No Laws in India to Protect Customers if They Lose Money During Digital Transactions** is a *Business Standard* report published on 2 December 2016 by Alnoor Peermohamed. The article examines critical consumer protection gaps in India's digital payments ecosystem exposed by demonetisation's forced migration to cashless transactions, featuring Supreme Court advocate Pavan Duggal on the absence of dedicated digital payments legislation, Sunil Abraham's findings that major ISPs and telecoms fail to comply with existing Section 43A data protection requirements, and proposals for industry-led security standards consortiums whilst RBI wallet balance limits increased despite security concerns.
+**No Laws in India to Protect Customers if They Lose Money During Digital Transactions** is a *Business Standard* report published on 2 December 2016 by Alnoor Peermohamed. The article examines critical consumer protection gaps in India's digital payments ecosystem exposed by demonetisation's forced migration to cashless transactions, featuring Supreme Court advocate Pavan Duggal on the absence of dedicated digital payments legislation, [Sunil Abraham](/sunil/)'s findings that major ISPs and telecoms fail to comply with existing Section 43A data protection requirements, and proposals for industry-led security standards consortiums whilst RBI wallet balance limits increased despite security concerns.
 
 ## Contents
 
