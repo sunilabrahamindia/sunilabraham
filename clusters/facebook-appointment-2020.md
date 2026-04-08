@@ -66,6 +66,11 @@ This page brings together all related media articles in one consolidated, easy-t
 ### **13. Business Standard**  
 *FB Appoints Sunil Abraham to Shape Its Stance on Tech Policy in India*  
 [Read here](/media/fb-appoints-sunil-abraham-tech-policy-india-business-standard/)
+
+### **14. exchange4media**
+*Sunil Abraham Roped in as FB's Public Policy, Director for Data & Emerging Tech*
+[Read here](/media/sunil-abraham-roped-in-as-fbs-public-policy-director-exchange4media/)
+
 </div>
 
 {% include back-to-top.html %}
