@@ -10,7 +10,7 @@ permalink: /media/experts-concern-fbi-director-james-comey-comments/
 created: 2025-12-11
 ---
 
-**Experts Express Concern Over FBI Director James Comey's Comments** is a report published in *The Economic Times* on 11 December 2015. The article discusses the remarks made by FBI Director James Comey on encryption and lawful access, and examines how this global conversation influences Indian policy debates. It includes expert viewpoints from legal scholars and technologists, including Sunil Abraham, who emphasises the importance of targeted surveillance rather than mass data collection.
+**Experts Express Concern Over FBI Director James Comey's Comments** is a report published in *The Economic Times* on 11 December 2015. The article discusses the remarks made by FBI Director James Comey on encryption and lawful access, and examines how this global conversation influences Indian policy debates. It includes expert viewpoints from legal scholars and technologists, including [Sunil Abraham](/sunil/), who emphasises the importance of targeted surveillance rather than mass data collection.
 
 ## Contents
 
