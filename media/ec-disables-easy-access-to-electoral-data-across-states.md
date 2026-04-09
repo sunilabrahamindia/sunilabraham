@@ -10,7 +10,7 @@ permalink: /media/ec-disables-easy-access-to-electoral-data-across-states/
 created: 2025-12-14
 ---
 
-**EC Disables Easy Access to Electoral Data Across States** is a report published in *The Economic Times* on 6 June 2018, written by Akshatha M. The article examines the Election Commission of India's decision to publish electoral rolls only in image PDF and CAPTCHA formats across all states, following Karnataka's pioneering privacy protection measures. It features expert commentary from Sunil Abraham on the limitations of these technical solutions and proposals for more robust data access controls that balance transparency with voter privacy.
+**EC Disables Easy Access to Electoral Data Across States** is a report published in *The Economic Times* on 6 June 2018, written by Akshatha M. The article examines the Election Commission of India's decision to publish electoral rolls only in image PDF and CAPTCHA formats across all states, following Karnataka's pioneering privacy protection measures. It features expert commentary from [Sunil Abraham](/sunil/) on the limitations of these technical solutions and proposals for more robust data access controls that balance transparency with voter privacy.
 
 ## Contents
 
