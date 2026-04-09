@@ -10,7 +10,7 @@ permalink: /media/extending-spectrum-openness-moral-right-share-techdirt/
 created: 2026-03-28
 ---
 
-**Extending the Spectrum of Openness to Include the Moral Right to Share** is a *Techdirt* post by Glyn Moody, published on 13 August 2013. The piece discusses a post by David Eaves that examines [Sunil Abraham](/sunil/)'s extended spectrum of openness — a framework that moves beyond standard open licensing to encompass moral rights to share, attribution, and the relationship between intellectual property regulation and surveillance.
+**Extending the Spectrum of Openness to Include the Moral Right to Share** is a *Techdirt* post by Glyn Moody, published on 13 August 2013. The piece discusses a post by David Eaves that examines [Sunil Abraham](/sunil/)'s extended spectrum of openness, a framework that moves beyond standard open licensing to encompass moral rights to share, attribution, and the relationship between intellectual property regulation and surveillance.
 
 ## Contents
 
