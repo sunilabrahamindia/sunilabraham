@@ -10,7 +10,7 @@ permalink: /media/election-campaign-parties-draw-battle-lines-media-platforms-mi
 created: 2026-02-25
 ---
 
-**Election Campaign: Parties Draw Battle Lines on Media Platforms** is a *Mint* news report by Venkatesh Upadhyay published on 26 August 2013. The piece examines how the Congress and the BJP were shaping their advertising, social media, and television strategies in the run-up to the 2014 general election, and quotes Sunil Abraham of the Centre for Internet and Society (CIS) on the limitations of crowdsourced social media campaigns in the Indian context.
+**Election Campaign: Parties Draw Battle Lines on Media Platforms** is a *Mint* news report by Venkatesh Upadhyay published on 26 August 2013. The piece examines how the Congress and the BJP were shaping their advertising, social media, and television strategies in the run-up to the 2014 general election, and quotes [Sunil Abraham](/sunil/) of the [Centre for Internet and Society](/cis/) (CIS) on the limitations of crowdsourced social media campaigns in the Indian context.
 
 ## Contents
 
