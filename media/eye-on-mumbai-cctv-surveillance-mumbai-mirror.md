@@ -10,7 +10,7 @@ permalink: /media/eye-on-mumbai-cctv-surveillance-mumbai-mirror/
 created: 2025-12-21
 ---
 
-**Eye on Mumbai** is a cover story by Tariq Engineer published by *Mumbai Mirror* on 2 October 2016. The article examines the Mumbai City Surveillance Project, a ₹1,008 crore initiative deploying nearly 4,700 high-definition CCTV cameras across Mumbai following the 26/11 attacks, including comments from Sunil Abraham on privacy safeguards, biometric vulnerabilities and India's lack of comprehensive privacy legislation.
+**Eye on Mumbai** is a cover story by Tariq Engineer published by *Mumbai Mirror* on 2 October 2016. The article examines the Mumbai City Surveillance Project, a ₹1,008 crore initiative deploying nearly 4,700 high-definition CCTV cameras across Mumbai following the 26/11 attacks, including comments from [Sunil Abraham](/sunil/) on privacy safeguards, biometric vulnerabilities and India's lack of comprehensive privacy legislation.
 
 ## Contents
 
