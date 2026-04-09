@@ -10,7 +10,7 @@ permalink: /media/every-move-you-make-swarajya/
 created: 2026-03-08
 ---
 
-**Every Move You Make** is a *Swarajya* magazine feature published on 23 September 2015, written by Seetha. The article examines India's rapidly expanding surveillance infrastructure — spanning Aadhaar, NATGRID, the Centralised Monitoring System, CCTV proliferation, and the proposed DNA Profiling Bill — and argues for a constitutional or legislative guarantee of privacy. It quotes [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, on the inadequacy of data-sharing protocols in the DNA Profiling Bill, drawing on his dissent note as a member of the Expert Committee on DNA Profiling.
+**Every Move You Make** is a *Swarajya* magazine feature published on 23 September 2015, written by Seetha. The article examines India's rapidly expanding surveillance infrastructure — spanning Aadhaar, NATGRID, the Centralised Monitoring System, CCTV proliferation, and the proposed DNA Profiling Bill — and argues for a constitutional or legislative guarantee of privacy. It quotes [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), on the inadequacy of data-sharing protocols in the DNA Profiling Bill, drawing on his dissent note as a member of the Expert Committee on DNA Profiling.
 
 ## Contents
 
