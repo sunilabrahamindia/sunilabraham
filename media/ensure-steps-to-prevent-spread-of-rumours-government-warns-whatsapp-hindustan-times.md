@@ -9,7 +9,7 @@ permalink: /media/ensure-steps-to-prevent-spread-of-rumours-government-warns-wha
 created: 2026-01-01
 ---
 
-**Ensure Steps to Prevent Spread of Rumours, Government Warns WhatsApp** is a *Hindustan Times* report published on 4 July 2018. The article examines the Ministry of Electronics and IT's expression of "deep disapproval" to WhatsApp over rumour-driven mob violence that killed at least 29 people, with Sunil Abraham of Centre for Internet and Society advocating for database-driven fact-checking integrated into messaging interfaces whilst warning that regulatory demands to break end-to-end encryption would prove counterproductive.
+**Ensure Steps to Prevent Spread of Rumours, Government Warns WhatsApp** is a *Hindustan Times* report published on 4 July 2018. The article examines the Ministry of Electronics and IT's expression of "deep disapproval" to WhatsApp over rumour-driven mob violence that killed at least 29 people, with [Sunil Abraham](/sunil/) of [Centre for Internet and Society](/cis/) advocating for database-driven fact-checking integrated into messaging interfaces whilst warning that regulatory demands to break end-to-end encryption would prove counterproductive.
 
 ## Contents
 
