@@ -10,7 +10,7 @@ permalink: /media/e-governance-hopes-rise-india-crosses-1-billion-transactions/
 created: 2025-12-08
 ---
 
-**E-Governance Hopes Rise as India Crosses 1 Billion Transactions** is an *Economic Times* report published on 29 October 2013. The article highlights India's achievement of crossing one billion e-governance transactions in a single year, alongside insights from government officials and experts — including Sunil Abraham — on how increased digital connectivity and ongoing national IT projects are reshaping public service delivery.
+**E-Governance Hopes Rise as India Crosses 1 Billion Transactions** is an *Economic Times* report published on 29 October 2013. The article highlights India's achievement of crossing one billion e-governance transactions in a single year, alongside insights from government officials and experts, including [Sunil Abraham](/sunil/), on how increased digital connectivity and ongoing national IT projects are reshaping public service delivery.
 
 ## Contents
 
