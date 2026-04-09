@@ -10,7 +10,7 @@ permalink: /media/eu-parliament-report-slams-us-surveillance-mint/
 created: 2026-02-27
 ---
 
-**EU Parliament Report Slams US Surveillance** is a *Mint* news report by Moulishree Srivastava and Elizabeth Roche published on 17 January 2014. The piece examines the European Parliament committee's draft report on the NSA surveillance programme and its implications for India, and includes comments from Sunil Abraham, who critiques American privacy regulation and questions India's restrained response to mass surveillance revelations.
+**EU Parliament Report Slams US Surveillance** is a *Mint* news report by Moulishree Srivastava and Elizabeth Roche published on 17 January 2014. The piece examines the European Parliament committee's draft report on the NSA surveillance programme and its implications for India, and includes comments from [Sunil Abraham](/sunil/), who critiques American privacy regulation and questions India's restrained response to mass surveillance revelations.
 
 ## Contents
 
