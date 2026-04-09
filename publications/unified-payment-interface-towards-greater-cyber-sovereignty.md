@@ -11,7 +11,7 @@ pdf: /publications/files/unified-payment-interface-towards-greater-cyber-soverei
 created: 2025-11-26
 ---
 
-**Unified Payment Interface: Towards Greater Cyber Sovereignty** is an analytical issue brief by Sunil Abraham (ORF Issue Brief No. 380, July 2020). The brief examines the design, institutional context and governance choices underlying India's Unified Payments Interface (UPI), situating it within global debates on digital sovereignty, competition policy, privacy, surveillance risks and the role of public digital infrastructure. It outlines both the strengths of India's payments architecture and the structural weaknesses that must be addressed for long-term resilience.
+**Unified Payment Interface: Towards Greater Cyber Sovereignty** is an analytical issue brief by [Sunil Abraham](/sunil/) (ORF Issue Brief No. 380, July 2020). The brief examines the design, institutional context and governance choices underlying India's Unified Payments Interface (UPI), situating it within global debates on digital sovereignty, competition policy, privacy, surveillance risks and the role of public digital infrastructure. It outlines both the strengths of India's payments architecture and the structural weaknesses that must be addressed for long-term resilience.
 
 ## Contents
 
