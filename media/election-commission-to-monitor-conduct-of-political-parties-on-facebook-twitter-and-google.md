@@ -10,7 +10,7 @@ permalink: /media/election-commission-to-monitor-conduct-of-political-parties-on
 created: 2025-12-17
 ---
 
-**Election Commission to Monitor Conduct of Political Parties on Facebook, Twitter and Google** is a news report published in *The Economic Times* on 25 November 2013, written by Ajmer Singh. The article examines Election Commission's November 18 meeting summoning Google, Facebook and Twitter to establish monitoring mechanisms for malicious content and pre-certification of political advertisements, featuring Sunil Abraham's warning that proactive monitoring undermines IT Act Section 79 safe harbor protections through private pre-censorship lacking judicial review, and anonymous Congress allegations about BJP Gujarat-based social media campaigns.
+**Election Commission to Monitor Conduct of Political Parties on Facebook, Twitter and Google** is a news report published in *The Economic Times* on 25 November 2013, written by Ajmer Singh. The article examines Election Commission's November 18 meeting summoning Google, Facebook and Twitter to establish monitoring mechanisms for malicious content and pre-certification of political advertisements, featuring [Sunil Abraham](/sunil/)'s warning that proactive monitoring undermines IT Act Section 79 safe harbor protections through private pre-censorship lacking judicial review, and anonymous Congress allegations about BJP Gujarat-based social media campaigns.
 
 ## Contents
 
