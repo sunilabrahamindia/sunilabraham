@@ -10,7 +10,7 @@ permalink: /media/facebook-appoints-public-policy-director-deccan-herald/
 created: 2025-12-04
 ---
 
-**Facebook Appoints Public Policy Director for Data and Emerging Tech in India** is a Deccan Herald article published on 12 October 2020. The report outlines Facebook's appointment of Sunil Abraham to a senior public policy role focusing on data privacy, emerging technologies, and AI-led innovation. It also traces the broader context of data protection policies in India and summarises Abraham’s background in technology policy, open-source movements, and academic research.
+**Facebook Appoints Public Policy Director for Data and Emerging Tech in India** is a Deccan Herald article published on 12 October 2020. The report outlines Facebook's appointment of [Sunil Abraham](/sunil/) to a senior public policy role focusing on data privacy, emerging technologies, and AI-led innovation. It also traces the broader context of data protection policies in India and summarises Abraham’s background in technology policy, open-source movements, and academic research.
 
 ## Contents
 
