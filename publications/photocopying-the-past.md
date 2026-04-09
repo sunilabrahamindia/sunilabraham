@@ -10,7 +10,7 @@ permalink: /publications/photocopying-the-past/
 created: 2025-11-23
 ---
 
-**Photocopying the Past** is a commentary by Sunil Abraham published in *The Indian Express* on 2 September 2011. The article discusses the complexity of intellectual property positions, the implications of copyright amendments, the role of public interest in IP policy, and the importance of access to books and educational materials.
+**Photocopying the Past** is a commentary by [Sunil Abraham](/sunil/) published in *The Indian Express* on 2 September 2011. The article discusses the complexity of intellectual property positions, the implications of copyright amendments, the role of public interest in IP policy, and the importance of access to books and educational materials.
 
 ## Contents
 
@@ -72,7 +72,7 @@ created: 2025-11-23
 
 ## Context and Background
 
-This article appeared during the debate around amendments to India's Copyright Act. Abraham argues for a balanced view of intellectual property that prioritises public interest, access to books, and flexibility for future technological shifts. The commentary highlights the tension between rights-holder lobbying, government compromise, and the real needs of students, educators and readers in India.
+This article appeared during the debate around amendments to India's Copyright Act. Sunil Abraham argues for a balanced view of intellectual property that prioritises public interest, access to books, and flexibility for future technological shifts. The commentary highlights the tension between rights-holder lobbying, government compromise, and the real needs of students, educators and readers in India.
 
 ## External Link
 
