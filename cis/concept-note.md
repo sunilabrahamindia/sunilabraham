@@ -245,12 +245,13 @@ The concept note identifies several countries and contexts offering immediate op
     white-space: normal;
   }
 }
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
   img[alt="The Centre for Internet and Society logo"] {
     float: none;
     display: block;
-    margin: 0 auto 1rem auto;
-    max-width: 160px;
+    margin: 0 auto 1.2rem auto;
+    max-width: 100%;
+    width: 100%;
   }
 }
 </style>
