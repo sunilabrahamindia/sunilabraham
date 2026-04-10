@@ -11,7 +11,7 @@ pdf: /publications/files/who-governs-the-internet.pdf
 created: 2025-11-04
 ---
 
-**Who Governs the Internet? Implications for Freedom and National Security** is a special article by Sunil Abraham, published in *Yojana* (April 2014). The piece examines the post-Snowden moment in Internet governance, the global debate between multistakeholderism and multilateralism, and the strategic opportunity for India to redefine its digital diplomacy. It assesses how surveillance, intellectual property, and access to knowledge shape freedom, security, and innovation in the networked world.
+**Who Governs the Internet? Implications for Freedom and National Security** is a special article by [Sunil Abraham](/sunil/), published in *Yojana* (April 2014). The piece examines the post-Snowden moment in Internet governance, the global debate between multistakeholderism and multilateralism, and the strategic opportunity for India to redefine its digital diplomacy. It assesses how surveillance, intellectual property, and access to knowledge shape freedom, security, and innovation in the networked world.
 
 ## Contents
 
