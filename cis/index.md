@@ -3,11 +3,15 @@ layout: default
 title: "Centre for Internet and Society"
 description: "An overview of the Centre for Internet and Society (CIS), an Indian non-profit research organisation working on internet policy, digital rights, and technology and society."
 permalink: /cis/
-categories: [Institutions, Sunil Abraham]
+categories: [Centre for Internet and Society, Institutions, Sunil Abraham]
 created: 2026-04-04
 ---
 
 {% include under-construction.html %}
+
+<div class="cis-logo-wrap">
+  <img src="/cis/images/cis-logo.png" alt="The Centre for Internet and Society logo">
+</div>
 
 The **Centre for Internet and Society** (CIS) is an Indian non-profit, multidisciplinary research organisation based in Bengaluru. Founded in 2008, CIS works at the intersection of technology, law, and public policy, conducting research and contributing to national and global conversations on internet governance, digital rights, and the social dimensions of technology.
 
@@ -52,3 +56,30 @@ In July 2008, CIS prepared a concept note setting out the rationale, mission, re
 
 ## External Link
 - [Official website](https://cis-india.org/)
+
+<style>
+.cis-logo-wrap {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 200px;
+  width: 100%;
+}
+.cis-logo-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 480px) {
+  .cis-logo-wrap {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 1.2rem 0;
+  }
+  .cis-logo-wrap img {
+    max-height: 80px;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+</style>
