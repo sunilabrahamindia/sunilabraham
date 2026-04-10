@@ -44,5 +44,11 @@ The aims and objectives of CIS, as laid out in the Memorandum of Association, ar
 6. To do all other acts or things incidental or conducive to the attainment of the above objects.
 7. To ensure that all objects remain consistent with the provisions applicable to public charitable institutions under the Income Tax Act, 1961, and that the society retains its character as a public charitable institution without profit motive.
 
+## Concept Note
+
+{% include main-article.html link="/cis/concept-note/" title="Concept Note for the Centre for Internet and Society" %}
+
+In July 2008, CIS prepared a concept note setting out the rationale, mission, research agenda, and thematic priorities for the organisation. The document critiques the US- and Eurocentric character of existing Internet policy organisations such as the Electronic Frontier Foundation and the Berkman Centre, and makes the case for an independent, citizen-centred research institution rooted in the conditions of the developing world. It identifies six structural challenges facing Internet policy in India, proposes a research agenda grounded in Asian socio-political contexts, and outlines planned activities including scholarships, fellowships, publications, and policy advocacy.
+
 ## External Link
 - [Official website](https://cis-india.org/)
