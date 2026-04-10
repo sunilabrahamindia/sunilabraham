@@ -100,3 +100,10 @@ Displays a right-aligned "Back to Top" link. Takes no parameters.
 ```liquid
 {% raw %}{% include back-to-top.html %}{% endraw %}
 ```
+
+<style>
+pre {
+  overflow-x: auto;
+  white-space: pre;
+}
+</style>
