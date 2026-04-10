@@ -65,4 +65,5 @@ The editorial workflow of the project is closely tied to its version-controlled 
 - 1 March 2026 (Sunday) — The first cycle of [Chaitali](/chaitali/), a structured documentation and content development programme on the Sunil Abraham Project, began. The cycle runs from 1 March 2026 to 14 April 2026, concluding on the final day of the month of Chaitra.
 - 12 March 2026 (Thursday) — The Sunil Abraham Project completed 700 published articles with the publication of [*Unshackling Expression*](/media/unshackling-expression-internet-democracy-project/).
 - 27 March 2026 (Friday) — The Sunil Abraham Project reached 800 published articles with the publication of [*«Биометрические ID в Индии становятся инструментом тотальной слежки»*](/media/aadhaar-biometric-surveillance-hightech-fm/). (English: *Biometric IDs in India Are Becoming a Tool of Total Surveillance)*)
+- 11 April 2026 (Saturday) — The Sunil Abraham Project reached 850 published articles with the publication of [*Concept Note for the Centre for Internet and Society*](/cis/concept-note/).
 
