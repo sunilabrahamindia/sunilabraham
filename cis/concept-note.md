@@ -265,5 +265,10 @@ The concept note identifies several countries and contexts offering immediate op
     width: 100%;
     margin: 0 0 1.2rem 0;
   }
+  .cis-logo-wrap img {
+    max-height: 80px;
+    width: auto;
+    margin: 0 auto;
+  }
 }
 </style>
