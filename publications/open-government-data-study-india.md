@@ -11,7 +11,7 @@ pdf: /publications/files/open-government-data-study-india.pdf
 created: 2025-11-04
 ---
 
-**Open Government Data Study: India** is a policy report co-authored by Glover Wright, Pranesh Prakash, Sunil Abraham, and Nishant Shah, produced by the Centre for Internet and Society (CIS) for the Transparency & Accountability Initiative (TAI), published by the Open Society Foundation in 2010.
+**Open Government Data Study: India** is a policy report co-authored by Glover Wright, Pranesh Prakash, [Sunil Abraham](/sunil/), and Nishant Shah, produced by the Centre for Internet and Society (CIS) for the Transparency & Accountability Initiative (TAI), published by the Open Society Foundation in 2010.
 
 ## Contents
 
