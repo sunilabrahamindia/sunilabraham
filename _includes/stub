@@ -1,28 +1,33 @@
-<div class="stub-notice">
+<div class="stub-notice" role="note">
   📝 <strong>Stub:</strong>
   This page is currently very short and incomplete. More information, sources, or images will be added gradually.
 </div>
 
 <style>
 .stub-notice {
-  background-color: #e8f4ff;      /* soft blue background for gentle contrast */
-  border: 1px solid #69a7e0;      /* subtle blue border */
+  background-color: #f0f6ff;
+  border-left: 4px solid #3a7bd5;
   color: #333;
-  padding: 12px 16px;
-  border-radius: 6px;
-  font-size: 1rem;
-  line-height: 1.4;
+  padding: 12px 16px 12px 18px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  line-height: 1.5;
   text-align: center;
   display: block;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
   margin: 1.2rem 0;
 }
 .stub-notice strong {
-  color: #004a80;  /* dark blue text for emphasis */
+  color: #1a4f8a;
+  font-style: normal;
 }
 .stub-notice a {
-  color: #0a2e57;
+  color: #0a5ea8;
+  text-decoration: underline dotted;
+  font-weight: 600;
+}
+.stub-notice a:hover {
+  color: #003870;
   text-decoration: underline;
-  margin-left: 4px;
 }
 </style>
