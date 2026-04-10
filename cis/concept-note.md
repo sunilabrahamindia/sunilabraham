@@ -8,7 +8,9 @@ date: 2008-07-01
 created: 2026-04-11
 ---
 
-<img src="/cis/images/cis-logo.png" alt="The Centre for Internet and Society logo" style="float: right; margin: 0 0 1rem 1.5rem; max-width: 200px; width: 100%;">
+<div class="cis-logo-wrap">
+  <img src="/cis/images/cis-logo.png" alt="The Centre for Internet and Society logo">
+</div>
 
 The **Concept Note for Centre for Internet and Society** is a founding document prepared in July 2008 that outlines the rationale, mission, objectives, thematic focus areas, and planned activities of the [Centre for Internet and Society](/cis/) (CIS), an Indian research and advocacy organisation. It sets out a framework for independent, citizen-centred research on Internet policy in India and the developing world. CIS was registered as a Society on 4 July 2008 by seven founding members signing the Memorandum of Association. The domain [cis-india.org](https://who.is/whois/cis-india.org) was registered on 16 June 2008, eighteen days before the formal Society registration.
 
@@ -193,7 +195,7 @@ The concept note identifies several countries and contexts offering immediate op
 }
 .pdf-download { margin-top: 0.6rem; font-size: 1rem; }
 @media (max-width: 768px) { .pdf-frame { height: 65vh; } }
-  .activities-table-wrap {
+.activities-table-wrap {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin: 1.2rem 0;
@@ -245,13 +247,23 @@ The concept note identifies several countries and contexts offering immediate op
     white-space: normal;
   }
 }
+.cis-logo-wrap {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 200px;
+  width: 100%;
+}
+.cis-logo-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 @media (max-width: 480px) {
-  img[alt="The Centre for Internet and Society logo"] {
+  .cis-logo-wrap {
     float: none;
-    display: block;
-    margin: 0 auto 1.2rem auto;
     max-width: 100%;
     width: 100%;
+    margin: 0 0 1.2rem 0;
   }
 }
 </style>
