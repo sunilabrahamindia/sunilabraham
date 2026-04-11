@@ -169,7 +169,7 @@ The concept note identifies several countries and contexts offering immediate op
 
 ## Full Text
 
-{% include notice.html text='The full text of this document is available as a <a href="/cis/concept-note-full-text/">separate page</a>.' %}
+{% include notice.html message="The full text of this document is available as a <a href='/cis/concept-note-full-text/'>separate page</a>." %}
 
 <div class="pdf-container">
   <iframe
