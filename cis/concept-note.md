@@ -169,6 +169,8 @@ The concept note identifies several countries and contexts offering immediate op
 
 ## Full Text
 
+{% include notice.html text="The full text of this document is available as a [separate page](/cis/concept-note-full-text/)." %}
+
 <div class="pdf-container">
   <iframe
     src="https://docs.google.com/gview?url=https://sunilabraham.in/cis/files/cis-concept-note.pdf&embedded=true"
