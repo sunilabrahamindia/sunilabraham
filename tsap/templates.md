@@ -7,7 +7,7 @@ permalink: /tsap/templates/
 created: 2026-04-11
 ---
 
-**Templates** are reusable snippets of HTML used across **The Sunil Abraham Project** (TSAP) to maintain visual and structural consistency. On TSAP, templates are implemented as Jekyll include files, which are small, self-contained files stored in the `_includes` directory at the root of the project repository. They are inserted into any page using the Liquid tag `{% raw %}{% include filename.html %}{% endraw %}`, and some accept parameters to customise their output. The full list of include files is available on [GitHub](https://github.com/sunilabrahamindia/sunilabraham/tree/main/_includes).
+**Templates** are reusable snippets of HTML used across **The Sunil Abraham Project** (TSAP) to maintain visual and structural consistency. On TSAP, templates are implemented as Jekyll include files, which are small, self-contained files stored in the `_includes` directory at the root of the project repository. They are inserted into any page using the Liquid tag `{% raw %}{% include filename.html %}{% endraw %}`, and some accept parameters to customise their output. The full list of include files is available on [**GitHub**](https://github.com/sunilabrahamindia/sunilabraham/tree/main/_includes).
 
 ## Content Templates
 
@@ -41,6 +41,70 @@ Displays a notice indicating that the page is actively being worked on. Takes no
 
 ```liquid
 {% raw %}{% include under-construction.html %}{% endraw %}
+```
+
+### Outdated
+
+Displays a notice indicating that some information on the page may no longer be current. Takes no parameters.
+
+```liquid
+{% raw %}{% include outdated.html %}{% endraw %}
+```
+
+### Disputed
+
+Displays a notice indicating that the accuracy or neutrality of some information is disputed. Takes no parameters.
+
+```liquid
+{% raw %}{% include disputed.html %}{% endraw %}
+```
+
+### Cleanup
+
+Displays a notice indicating that the page requires editorial cleanup. Takes no parameters.
+
+```liquid
+{% raw %}{% include cleanup.html %}{% endraw %}
+```
+
+### Copy Edit
+
+Displays a notice indicating that the page requires copy editing for grammar, style, cohesion, tone, or spelling. Takes no parameters.
+
+```liquid
+{% raw %}{% include copyedit.html %}{% endraw %}
+```
+
+### Expert Needed
+
+Displays a notice indicating that the page deals with a specialised subject and may benefit from expert review. Takes no parameters.
+
+```liquid
+{% raw %}{% include expert-needed.html %}{% endraw %}
+```
+
+### Current Event
+
+Displays a notice indicating that the page documents a current or ongoing event. Takes no parameters.
+
+```liquid
+{% raw %}{% include current.html %}{% endraw %}
+```
+
+### Expand
+
+Displays a notice indicating that the article as a whole needs expansion. Takes no parameters.
+
+```liquid
+{% raw %}{% include expand.html %}{% endraw %}
+```
+
+### Expand Section
+
+Displays a notice indicating that a specific section needs expansion. Place immediately below the relevant `##` or `###` heading. Takes no parameters.
+
+```liquid
+{% raw %}{% include expand-section.html %}{% endraw %}
 ```
 
 ### Did You Know
