@@ -10,7 +10,7 @@ permalink: /media/reliance-jio-chat-compromises-user-security-claims-a-hackers-c
 created: 2026-03-09
 ---
 
-**Reliance Jio Chat Compromises User Security, Claims a Hackers' Collective** is a *Newslaundry* news report published on 18 June 2015, written by Arunabh Saikia. The article covers allegations by Anonymous India — a hacktivist collective — that the Reliance Jio Chat application lacked basic encryption, potentially enabling mass surveillance and exposing Indian users to Chinese hackers. [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, is quoted assessing the seriousness of the two distinct allegations: the lack of encryption, and the app's use of foreign servers and mapping services.
+**Reliance Jio Chat Compromises User Security, Claims a Hackers' Collective** is a *Newslaundry* news report published on 18 June 2015, written by Arunabh Saikia. The article covers allegations by Anonymous India, a hacktivist collective, that the Reliance Jio Chat application lacked basic encryption, potentially enabling mass surveillance and exposing Indian users to Chinese hackers. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), is quoted assessing the seriousness of the two distinct allegations: the lack of encryption, and the app's use of foreign servers and mapping services.
 
 ## Contents
 
