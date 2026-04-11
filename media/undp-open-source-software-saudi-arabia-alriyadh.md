@@ -10,7 +10,7 @@ permalink: /media/undp-open-source-software-saudi-arabia-alriyadh/
 created: 2026-04-11
 ---
 
-<p dir="ltr"><span dir="rtl" lang="ar">خبراء البرنامج الإنمائي للأمم المتحدة يبحثون البرمجيات المفتوحة المصدر في المملكة</span> (English: <strong>UNDP Experts Discuss Open Source Software in the Kingdom</strong>) is an <em><span dir="rtl" lang="ar">الرياض</span> (Al-Riyadh)</em> article by <span dir="rtl" lang="ar">محمد الغنامي</span> (Mohammed Al-Ghanami), published on 17 June 2007. The piece covers a roundtable held between UNDP experts and King Abdulaziz City for Science and Technology (KACST), examining open-source software prospects in Saudi Arabia, with contributions from <a href="/sunil/">Sunil Abraham</a> on international experiences and open standards.</p>
+<p dir="ltr"><strong><span dir="rtl" lang="ar">خبراء البرنامج الإنمائي للأمم المتحدة يبحثون البرمجيات المفتوحة المصدر في المملكة</span></strong> (English: <strong>UNDP Experts Discuss Open Source Software in the Kingdom</strong>) is an <em><span dir="rtl" lang="ar">الرياض</span> (Al-Riyadh)</em> article by <span dir="rtl" lang="ar">محمد الغنامي</span> (Mohammed Al-Ghanami), published on 17 June 2007. The piece covers a roundtable held between UNDP experts and King Abdulaziz City for Science and Technology (KACST), examining open-source software prospects in Saudi Arabia, with contributions from <a href="/sunil/">Sunil Abraham</a> on international experiences and open standards.</p>
 
 ## Contents
 
