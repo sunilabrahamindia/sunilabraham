@@ -1,0 +1,134 @@
+<nav class="navbox-amaa" aria-label="A. M. A. Ayrookuzhiel navigation">
+  <div class="navbox-amaa__inner">
+
+    <div class="navbox-amaa__title">
+      <a href="/amaa/">A. M. A. Ayrookuzhiel</a>
+      <span class="navbox-amaa__dates">(18 September 1933 – 29 November 1996)</span>
+    </div>
+
+    <div class="navbox-amaa__body">
+
+      <div class="navbox-amaa__photo-col">
+        <img
+          src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png"
+          alt="A. M. A. Ayrookuzhiel"
+          width="120"
+          height="150"
+          loading="lazy"
+        >
+        <p class="navbox-amaa__photo-caption">Rev. A. M. A. Ayrookuzhiel</p>
+      </div>
+
+      <div class="navbox-amaa__links-col">
+
+        <div class="navbox-amaa__row">
+          <span class="navbox-amaa__label">Family</span>
+          <span class="navbox-amaa__items">
+            <a href="/articles/ponnamma-abraham/">Ponnamma Abraham</a> (wife) &middot;
+            <a href="/sunil/">Sunil Abraham</a> (son)
+          </span>
+        </div>
+
+        <div class="navbox-amaa__row">
+          <span class="navbox-amaa__label">Books</span>
+          <span class="navbox-amaa__items">
+            <a href="/amaa/edrl/"><em>Essays on Dalits, Religion and Liberation</em></a> &middot;
+            <a href="/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/"><em>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</em></a>
+          </span>
+        </div>
+
+        <div class="navbox-amaa__row">
+          <span class="navbox-amaa__label">Essays &amp; Papers</span>
+          <span class="navbox-amaa__items">
+            <a href="/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/">Chinnapulayan: The Dalit Teacher of Sankaracharya</a> &middot;
+            <a href="/amaa/mar-ivanios-reunion-motives/">Mar Ivanios: Reunion Motives</a>
+          </span>
+        </div>
+
+        <div class="navbox-amaa__row">
+          <span class="navbox-amaa__label">Portal</span>
+          <span class="navbox-amaa__items">
+            <a href="/amaa/portal/">AMAA Portal</a>
+          </span>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+.navbox-amaa {
+  border: 1px solid var(--color-border, #c8c8c8);
+  border-top: 3px solid var(--color-primary, #01696f);
+  background: var(--color-surface, #f9f8f5);
+  border-radius: var(--radius-md, 0.5rem);
+  margin: 2rem 0 1rem;
+  font-size: var(--text-sm, 0.9rem);
+  line-height: 1.5;
+}
+.navbox-amaa__title {
+  background: var(--color-surface-offset, #f0ede8);
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  font-size: var(--text-base, 1rem);
+  border-bottom: 1px solid var(--color-border, #c8c8c8);
+}
+.navbox-amaa__title a { color: var(--color-primary, #01696f); text-decoration: none; }
+.navbox-amaa__title a:hover { text-decoration: underline; }
+.navbox-amaa__dates {
+  display: block;
+  font-weight: 400;
+  font-size: var(--text-xs, 0.8rem);
+  color: var(--color-text-muted, #7a7974);
+  margin-top: 0.15rem;
+}
+.navbox-amaa__body {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  align-items: flex-start;
+}
+.navbox-amaa__photo-col { flex: 0 0 auto; text-align: center; }
+.navbox-amaa__photo-col img {
+  width: 100px; height: auto;
+  border: 1px solid var(--color-border, #c8c8c8);
+  border-radius: var(--radius-sm, 0.375rem);
+  display: block; margin: 0 auto;
+}
+.navbox-amaa__photo-caption {
+  font-size: var(--text-xs, 0.75rem);
+  color: var(--color-text-muted, #7a7974);
+  margin-top: 0.3rem; text-align: center;
+}
+.navbox-amaa__links-col { flex: 1 1 auto; }
+.navbox-amaa__row {
+  display: flex; gap: 0.5rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--color-divider, #e0ddd8);
+  align-items: baseline;
+}
+.navbox-amaa__row:last-child { border-bottom: none; }
+.navbox-amaa__label {
+  flex: 0 0 110px;
+  font-weight: 600;
+  color: var(--color-text, #28251d);
+  font-size: var(--text-sm, 0.875rem);
+}
+.navbox-amaa__items { flex: 1 1 auto; color: var(--color-text, #28251d); }
+.navbox-amaa__items a { color: var(--color-primary, #01696f); text-decoration: none; }
+.navbox-amaa__items a:hover { text-decoration: underline; }
+
+@media (max-width: 600px) {
+  .navbox-amaa__body { flex-direction: column; align-items: center; }
+  .navbox-amaa__photo-col img { width: 80px; }
+  .navbox-amaa__row { flex-direction: column; gap: 0.2rem; }
+  .navbox-amaa__label {
+    flex: none;
+    color: var(--color-text-muted, #7a7974);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.75rem;
+  }
+}
