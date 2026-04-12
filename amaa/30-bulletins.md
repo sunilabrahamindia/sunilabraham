@@ -23,7 +23,6 @@ Following discussions with his brothers and other family members, Sunil outlined
 
 3. **Storytelling for everyone:** Sunil proposed developing accessible storytelling formats, including slide decks, presentations, and other mediums, to communicate the core ideas of A. M. A. Ayrookuzhiel's academic and literary work. The aim is to present these ideas in a way that is understandable and engaging for a wider audience, including those who may not be familiar with South Indian society, caste structures, or Dalit movements. Care will be taken to handle these themes with clarity and sensitivity while ensuring accessibility.
 
-An in-person event was also discussed.
 
 🧑‍🤝‍🧑 **Event in Bengaluru:** An in-person event will take place in Bengaluru, Karnataka on Sunday, 29 November 2026. The exact venue and schedule will be decided later. Planned activities may include a commemoration programme, presentations on A. M. A. Ayrookuzhiel’s life and works, and an exhibition.
 
