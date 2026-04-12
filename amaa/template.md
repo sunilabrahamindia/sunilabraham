@@ -7,6 +7,6 @@ description: Navigational template linking family, books, essays, and related ar
 created: 2026-04-12
 ---
 
-**Template:A. M. A. Ayrookuzhiel** is a navigational template for [A. M. A. Ayrookuzhiel](/amaa/) (1933–1996), covering his family, books, essays and papers, and related articles. This template is generally placed at the bottom of related article using the following code: {% raw %} {% include navbox-amaa.html %} {% endraw %}
+**Template:A. M. A. Ayrookuzhiel** is a navigational template for [A. M. A. Ayrookuzhiel](/amaa/) (1933–1996), covering his family, books, essays and papers, and related articles. This template is generally placed at the bottom of related articles.
 
 {% include navbox-amaa.html %}
