@@ -10,7 +10,7 @@ permalink: /publications/privacy-law-must-fit-the-bill/
 created: 2025-11-06
 ---
 
-**Privacy Law Must Fit the Bill** is an opinion column by Sunil Abraham, published in *Deccan Chronicle* on 9 September 2013.  
+**Privacy Law Must Fit the Bill** is an opinion column by [Sunil Abraham](/sunil/), published in *Deccan Chronicle* on 9 September 2013.  
 The article examines the proposed Indian privacy bill, identifying potential flaws in its scope and implementation. It highlights how poorly framed privacy legislation could harm free speech, transparency, and innovation, while stressing the importance of privacy-by-design and alignment with international principles.
 
 ## Contents
