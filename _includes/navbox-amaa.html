@@ -4,6 +4,7 @@
     <div class="navbox-amaa__title">
       <a href="/amaa/">A. M. A. Ayrookuzhiel</a>
       <span class="navbox-amaa__dates">(18 September 1933 – 29 November 1996)</span>
+      <span class="navbox-amaa__portal"><a href="/amaa/portal/">Portal</a></span>
     </div>
 
     <div class="navbox-amaa__body">
@@ -21,23 +22,27 @@
         <div class="navbox-amaa__row">
           <span class="navbox-amaa__label">Books</span>
           <span class="navbox-amaa__items">
-            <a href="/amaa/edrl/"><em>Essays on Dalits, Religion and Liberation</em></a> &middot;
-            <a href="/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/"><em>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</em></a>
+            <a href="/amaa/the-sacred-in-popular-hinduism-chirakkal-north-malabar/"><em>The Sacred in Popular Hinduism</em></a> (1983, author) &middot;
+            <a href="/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/"><em>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</em></a> (1987, author) &middot;
+            <em>The Dalit Desiyata: The Kerala Experience in Development and Class Struggle</em> (1990, editor) &middot;
+            <em>Dalit Kavithakal: Oru Padanam</em> (1992, co-editor) &middot;
+            <em>Dalit Sahityam</em> (1995, co-author) &middot;
+            <a href="/amaa/edrl/"><em>Essays on Dalits, Religion and Liberation</em></a> (2006, author)
           </span>
         </div>
 
         <div class="navbox-amaa__row">
           <span class="navbox-amaa__label">Essays &amp; papers</span>
           <span class="navbox-amaa__items">
-            <a href="/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/">Chinnapulayan: The Dalit Teacher of Sankaracharya</a> &middot;
-            <a href="/amaa/mar-ivanios-reunion-motives/">Mar Ivanios: Reunion Motives</a>
+            <a href="/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/"><em>Chinnapulayan: The Dalit Teacher of Sankaracharya</em></a> &middot;
+            <a href="/amaa/mar-ivanios-reunion-motives/"><em>Mar Ivanios: Reunion Motives</em></a>
           </span>
         </div>
 
         <div class="navbox-amaa__row">
-          <span class="navbox-amaa__label">Portal</span>
+          <span class="navbox-amaa__label">Others</span>
           <span class="navbox-amaa__items">
-            <a href="/amaa/portal/">AMAA Portal</a>
+            <a href="/articles/cisrs/">Christian Institute for the Study of Religion and Society</a> (workplace)
           </span>
         </div>
 
@@ -69,6 +74,9 @@
   font-size: 0.9rem;
   line-height: 1.5;
 }
+.navbox-amaa__inner {
+  padding: 0;
+}
 .navbox-amaa__title {
   background: #f5ede0;
   text-align: center;
@@ -78,8 +86,13 @@
   border-bottom: 1px solid #d4c5a9;
   color: #5c2e00;
 }
-.navbox-amaa__title a { color: #7a3b00; text-decoration: none; }
-.navbox-amaa__title a:hover { text-decoration: underline; }
+.navbox-amaa__title a {
+  color: inherit;
+  text-decoration: none;
+}
+.navbox-amaa__title a:hover {
+  text-decoration: underline;
+}
 .navbox-amaa__dates {
   display: block;
   font-weight: 400;
@@ -87,19 +100,39 @@
   color: #8a7060;
   margin-top: 0.15rem;
 }
+.navbox-amaa__portal {
+  display: block;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+.navbox-amaa__portal a {
+  color: inherit;
+  text-decoration: none;
+}
+.navbox-amaa__portal a:hover {
+  text-decoration: underline;
+}
 .navbox-amaa__body {
   display: flex;
   gap: 1rem;
   padding: 0.75rem 1rem;
   align-items: flex-start;
 }
-.navbox-amaa__links-col { flex: 1 1 auto; }
-.navbox-amaa__photo-col { flex: 0 0 auto; text-align: center; }
+.navbox-amaa__links-col {
+  flex: 1 1 auto;
+}
+.navbox-amaa__photo-col {
+  flex: 0 0 auto;
+  text-align: center;
+}
 .navbox-amaa__photo-col img {
-  width: 100px; height: auto;
+  width: 100px;
+  height: auto;
   border: 1px solid #d4c5a9;
   border-radius: 0.375rem;
-  display: block; margin: 0 auto;
+  display: block;
+  margin: 0 auto;
   float: none;
 }
 .navbox-amaa__photo-caption {
@@ -110,27 +143,51 @@
   max-width: 110px;
 }
 .navbox-amaa__row {
-  display: flex; gap: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
   padding: 0.35rem 0;
   border-bottom: 1px solid #e8ddd0;
   align-items: baseline;
 }
-.navbox-amaa__row:last-child { border-bottom: none; }
+.navbox-amaa__row:last-child {
+  border-bottom: none;
+}
 .navbox-amaa__label {
   flex: 0 0 110px;
   font-weight: 600;
   color: #8b4513;
   font-size: 0.875rem;
 }
-.navbox-amaa__items { flex: 1 1 auto; color: #3a2a1a; }
-.navbox-amaa__items a { color: #1a5c2a; text-decoration: none; }
-.navbox-amaa__items a:hover { text-decoration: underline; color: #0f3d1c; }
+.navbox-amaa__items {
+  flex: 1 1 auto;
+  color: #3a2a1a;
+}
+.navbox-amaa__items a {
+  color: inherit;
+  text-decoration: none;
+}
+.navbox-amaa__items a:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 600px) {
-  .navbox-amaa__body { flex-direction: column; align-items: center; }
-  .navbox-amaa__photo-col { order: -1; }
-  .navbox-amaa__photo-col img { width: 80px; }
-  .navbox-amaa__row { flex-direction: column; gap: 0.2rem; }
-  .navbox-amaa__label { flex: none; font-size: 0.8rem; }
+  .navbox-amaa__body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbox-amaa__photo-col {
+    order: -1;
+  }
+  .navbox-amaa__photo-col img {
+    width: 80px;
+  }
+  .navbox-amaa__row {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .navbox-amaa__label {
+    flex: none;
+    font-size: 0.8rem;
+  }
 }
 </style>
