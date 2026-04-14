@@ -9,7 +9,7 @@ created: 2025-10-21
 
 The **Versions** page documents the release history of the Sunil Abraham Project website. Each entry records structural updates, content milestones, and technical improvements across successive releases, providing a chronological record of the project's evolution.
 
-📚 Older versions are available in the [Versions Archive 1](/versions/1/).
+📚 Older versions are available in the [**Versions Archive 1**](/versions/1/).
 
 ## Contents
 1. [Version 1.1](#version-11)
@@ -25,6 +25,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 11. [Version 1.3.3](#version-133)
 12. [Version 1.4](#version-14)
 13. [Version 1.4.1](#version-141)
+14. [Version 1.4.2](#version-142)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -434,3 +435,26 @@ Completion date: 28 March 2026 (night)
 
 **Status** ✅ Done  
 Completion date: 4 April 2026 (night)
+
+## Version 1.4.2
+
+- 26 pages have been published this week between 5 April 2026 and 11 April 2026.
+
+**Milestone**
+- TSAP reached 850 published articles with the creation of [Concept Note for the Centre for Internet and Society](/cis/concept-note/).
+- The article includes a PDF embed of the original document and covers the organisation’s background, mission, research agenda, and planned activities.
+- The main [Centre for Internet and Society](/cis/) page was updated with a Concept Note section, and the CIS logo was added to both pages.
+
+**Clusters**
+- Work was carried out on the [*Committee to Protect Journalists*](/clusters/sunil-abraham-committee-to-protect-journalists/) and [*Rediff*](/clusters/sunil-abraham-rediff/) clusters.
+
+**Templates and Documentation**
+- New Jekyll include templates were created following the Wikipedia-style notice model: `outdated.html`, `disputed.html`, `cleanup.html`, `copyedit.html`, `expert-needed.html`, `current.html`, `expand.html`, and `expand-section.html`.
+- A dedicated documentation page listing all templates with usage examples was created at [/tsap/templates/](/tsap/templates/).
+
+**Template Redesign**
+- The `notice.html`, `stub.html`, and `under-construction.html` templates were redesigned for visual consistency with a left border layout, white or near-white background, consistent link colours, and `role="note"` for accessibility.
+- The `under-construction.html` template was updated to include a dynamic link to the page’s GitHub edit history alongside the versions log.
+
+**Status** ✅ Done  
+Completion date: 11 April 2026 (night)
