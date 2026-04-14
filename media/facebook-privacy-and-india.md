@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Facebook, Privacy and India"
-description: "A Mint (formerly Livemint) article quoting Sunil Abraham on Facebook's privacy changes, user data exposure, cultural attitudes to privacy, and the need for a privacy commission in India."
+description: "A Mint article quoting Sunil Abraham on Facebook's privacy changes, user data exposure, cultural attitudes to privacy, and the need for a privacy commission in India."
 categories: [Media articles, Media mentions, Publications]
 date: 2010-05-24
 source: "Mint"
