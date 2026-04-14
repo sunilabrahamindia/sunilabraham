@@ -3,7 +3,7 @@ layout: default
 title: "Photographic Archive System"
 description: "Concept note outlining the approach to organising and using photographs within The Sunil Abraham Project."
 permalink: /tsap/photos/
-categories: [TSAP Documentation]
+categories: [Photographs, TSAP Documentation]
 created: 2026-04-13
 ---
 
