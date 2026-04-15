@@ -10,7 +10,7 @@ permalink: /publications/digital-restrictions-management/
 created: 2025-11-30
 ---
 
-**ಡಿಜಿಟಲ್ ನಿರ್ಬಂಧಗಳ ನಿರ್ವಹಣೆ** (English: **Digital Restrictions Management**) is a newspaper article by Sunil Abraham published in *Prajavani* on 9 June 2012. The article discusses Richard Stallman's critique of DRM, the Indian copyright framework, and how technological protection measures affect accessibility, research, fair dealing, and user rights.
+**ಡಿಜಿಟಲ್ ನಿರ್ಬಂಧಗಳ ನಿರ್ವಹಣೆ** (English: **Digital Restrictions Management**) is a newspaper article by [Sunil Abraham](/sunil/) published in *Prajavani* on 9 June 2012. The article discusses Richard Stallman's critique of DRM, the Indian copyright framework, and how technological protection measures affect accessibility, research, fair dealing, and user rights.
 
 ## Contents
 
