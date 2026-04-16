@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "In New Facebook Features, a Comeback for Community"
+title: "In New Facebook Features, A Comeback for Community"
 description: "A Hindu feature examining Facebook's launch of Groups and data download features, analyzing privacy implications and the platform's strategic response to emerging competition."
 categories: [Media mentions]
 date: 2010-10-10
@@ -10,7 +10,7 @@ permalink: /media/facebook-features-community-hindu/
 created: 2026-01-20
 ---
 
-**In New Facebook Features, a Comeback for Community** is a *The Hindu* feature published on 10 October 2010 by Ajai Sreevatsan and Sruthi Krishnan. The article examines Facebook's introduction of Groups and data download capabilities, situating these features within competitive pressures in social networking and emerging concerns around privacy and user control.
+**In New Facebook Features, A Comeback for Community** is a *The Hindu* feature published on 10 October 2010 by Ajai Sreevatsan and Sruthi Krishnan. The article examines Facebook's introduction of Groups and data download capabilities, situating these features within competitive pressures in social networking and emerging concerns around privacy and user control.
 
 ## Contents
 
