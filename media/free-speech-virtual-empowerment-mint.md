@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Free Speech | Virtual Empowerment"
+title: "Free Speech Virtual Empowerment"
 description: "A Mint feature by Gopal Sathe on how the IT Act restricts online free speech, with Sunil Abraham on real-ID requirements, intermediary liability and the absence of anonymous expression."
 categories: [Media mentions]
 date: 2012-11-02
