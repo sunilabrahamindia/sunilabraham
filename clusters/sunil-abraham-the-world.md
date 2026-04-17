@@ -26,7 +26,7 @@ This page brings together media mentions from *The World* and *GlobalPost* that 
 
 {% assign media_items = site.pages 
      | where_exp:"p","p.categories contains 'Media mentions'"
-     | where_exp:"p","p.source == 'The World' or p.source == 'GlobalPost'"
+     | where:"source","The World"
 %}
 {% assign media_sorted = media_items | sort:"title" %}
 
