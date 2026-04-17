@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Free Speech Virtual Empowerment"
+title: "Free Speech | Virtual Empowerment"
 description: "A Mint feature by Gopal Sathe on how the IT Act restricts online free speech, with Sunil Abraham on real-ID requirements, intermediary liability and the absence of anonymous expression."
 categories: [Media mentions]
 date: 2012-11-02
@@ -10,7 +10,7 @@ permalink: /media/free-speech-virtual-empowerment-mint/
 created: 2026-02-27
 ---
 
-**Free Speech | Virtual Empowerment** is a *Mint* feature by Gopal Sathe published on 2 November 2012. The piece examines how the 2011 amendments to the Information Technology (IT) Act restrict online free speech beyond the limits permitted by the Indian Constitution, drawing on the experiences of bloggers, activists and lawyers, and includes a substantive comment from Sunil Abraham of the Centre for Internet and Society (CIS) on the structural problems — mandatory real-ID, intermediary liability and the absence of any anonymous speech protection — that the Act creates.
+****Free Speech \| Virtual Empowerment**** is a *Mint* feature by Gopal Sathe published on 2 November 2012. The piece examines how the 2011 amendments to the Information Technology (IT) Act restrict online free speech beyond the limits permitted by the Indian Constitution, drawing on the experiences of bloggers, activists and lawyers, and includes a substantive comment from Sunil Abraham of the Centre for Internet and Society (CIS) on the structural problems — mandatory real-ID, intermediary liability and the absence of any anonymous speech protection — that the Act creates.
 
 ## Contents
 
