@@ -480,7 +480,7 @@ Completion date: 11 April 2026 (night)
 - Codex (ChatGPT) was integrated into the repository to establish a workflow for AI-assisted edits through GitHub pull requests.
 - Codex was used for controlled, small-scope modifications including insertion of the [Template:A. M. A. Ayrookuzhiel](/amaa/template/) across relevant pages and addition of internal links to Sunil Abraham within publication lead sections.
 - Changes were generated through structured prompts, reviewed, and merged using the standard pull request workflow.
-- The integration was tested through Pull Request #1 (https://github.com/sunilabrahamindia/sunilabraham/pull/1) and Pull Request #3 (https://github.com/sunilabrahamindia/sunilabraham/pull/3).
+- The integration was tested through [Pull Request #1](https://github.com/sunilabrahamindia/sunilabraham/pull/1) and [Pull Request #3](https://github.com/sunilabrahamindia/sunilabraham/pull/3).
 
 **Status** ✅ Done  
 Completion date: 18 April 2026 (night)
