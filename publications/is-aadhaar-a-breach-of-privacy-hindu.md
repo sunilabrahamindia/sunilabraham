@@ -10,7 +10,7 @@ permalink: /publications/is-aadhaar-a-breach-of-privacy-hindu/
 created: 2026-01-14
 ---
 
-**Is Aadhaar a Breach of Privacy?** is an excerpt from a multi-author *The Hindu* op-ed published on 31 March 2017. This version reproduces only Sunil Abraham’s contribution, which argues that Aadhaar functions as mass surveillance infrastructure and proposes technical changes to reduce its privacy and security risks. The full article also includes responses by R.S. Sharma and Baijayant Jay Panda and is available on *The Hindu*’s website.
+**Is Aadhaar a Breach of Privacy?** is an excerpt from a multi-author *The Hindu* op-ed published on 31 March 2017. This version reproduces only [Sunil Abraham](/sunil/)’s contribution, which argues that Aadhaar functions as mass surveillance infrastructure and proposes technical changes to reduce its privacy and security risks. The full article also includes responses by R.S. Sharma and Baijayant Jay Panda and is available on *The Hindu*’s website.
 
 ## Contents
 

@@ -10,7 +10,7 @@ permalink: /publications/does-the-government-want-to-enter-our-homes/
 created: 2025-11-23
 ---
 
-**Does the Government Want to Enter Our Homes?** is a commentary by Sunil Abraham, published in *Pune Mirror* on 10 August 2010. The article discusses the government's attempt to gain access to encrypted BlackBerry-to-BlackBerry communications, the broader implications for journalists, whistle-blowers, civil liberties, and the critical need for safeguards such as judicial oversight and transparency.
+**Does the Government Want to Enter Our Homes?** is a commentary by [Sunil Abraham](/sunil/), published in *Pune Mirror* on 10 August 2010. The article discusses the government's attempt to gain access to encrypted BlackBerry-to-BlackBerry communications, the broader implications for journalists, whistle-blowers, civil liberties, and the critical need for safeguards such as judicial oversight and transparency.
 
 ## Contents
 

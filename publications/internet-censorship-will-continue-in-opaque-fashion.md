@@ -10,7 +10,7 @@ permalink: /publications/internet-censorship-will-continue-in-opaque-fashion/
 created: 2025-11-13
 ---
 
-**Internet Censorship Will Continue in Opaque Fashion** is an article by Sunil Abraham, published in *The Times of India* on 25 March 2015.  
+**Internet Censorship Will Continue in Opaque Fashion** is an article by [Sunil Abraham](/sunil/), published in *The Times of India* on 25 March 2015.  
 The article analyses the Supreme Court’s rulings on Sections 66A, 79, and 69A of the Information Technology Act, explaining that although the verdict upholds free speech online, India’s mechanisms for blocking and censorship remain secretive and non-transparent.
 
 ## Contents

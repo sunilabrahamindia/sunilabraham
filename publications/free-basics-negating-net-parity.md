@@ -10,7 +10,7 @@ permalink: /publications/free-basics-negating-net-parity/
 created: 2025-11-14
 ---
 
-**Free Basics: Negating Net Parity** is an article by Sunil Abraham, published in *Deccan Herald* on 2 January 2016. The piece critiques Facebook's Free Basics platform, arguing that it undermines net neutrality, distorts market access, and risks fragmenting the internet into walled gardens.
+**Free Basics: Negating Net Parity** is an article by [Sunil Abraham](/sunil/), published in *Deccan Herald* on 2 January 2016. The piece critiques Facebook's Free Basics platform, arguing that it undermines net neutrality, distorts market access, and risks fragmenting the internet into walled gardens.
 
 ## Contents
 
