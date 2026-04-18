@@ -131,3 +131,5 @@ A. M. A. Ayrookuzhiel passed away on 29 November 1996, while working on his fina
 
 ## External links
 * [Works by A. M. Abraham Ayrookuzhiel](https://search.worldcat.org/en/search?q=au=%22Ayrookuzhiel%2C%20A.%20M.%20Abraham%22) at WorldCat
+
+{% include navbox-amaa.html %}

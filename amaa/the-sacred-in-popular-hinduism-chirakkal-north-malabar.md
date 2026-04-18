@@ -46,3 +46,5 @@ Find the book on—
 - [Internet Archive](https://archive.org/details/sacredinpopularh0000ayro) (Borrow available, download unavilable)
 - [Google Books](https://books.google.co.in/books/about/The_Sacred_in_Popular_Hinduism.html?id=29IcAAAAMAAJ)
 - [WorldCat](https://www.worldcat.org/title/10042171)
+
+{% include navbox-amaa.html %}

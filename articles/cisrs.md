@@ -78,3 +78,5 @@ Academic surveys over several decades have noted CISRS as one of the institution
 ## External Links
 
 - [CISRS official website](https://www.cisrs.in/)
+
+{% include navbox-amaa.html %}

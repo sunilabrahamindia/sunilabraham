@@ -22,3 +22,5 @@ When she returned to India in 1973, she joined the United Theological College Nu
 ## Personal life
 
 On 20 April 1971, she married Athanasius Mathen Abraham Ayrookuzhiel (A. M. A. Ayrookuzhiel) at the Catholic Church in Königsdorf, near Munich in what was then West Germany. Their engagement took place in September 1970 at the Werner Lehmann family home in the Black Forest (Schwarzwald). They had three sons: Sunil Abraham (born 17 June 1973), Matthew Abraham (born 3 January 1976), and Jacob Abraham (born 5 March 1980). Jacob married Vini Susan on 7 January 2012. Over the years, the family kept strong ties with both Kerala and Bangalore, staying connected to relatives, local congregations, and the communities where Ayrookuzhiel had spent his life and work. She currently resides in Bangalore.
+
+{% include navbox-amaa.html %}

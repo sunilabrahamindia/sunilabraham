@@ -85,3 +85,5 @@ While not as widely known as Ayrookuzhiel's later studies on Dalit theology, the
 
 - [WorldCat listing](https://search.worldcat.org/title/Swami-Anand-Thirth-untouchability-Gandhian-solution-on-trial/oclc/18129523)  
 - [Google Books entry](https://books.google.com/books/about/Swami_Anand_Thirth.html?id=UQctAAAAIAAJ)
+
+{% include navbox-amaa.html %}
