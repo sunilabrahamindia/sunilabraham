@@ -800,3 +800,5 @@ main h1:first-child {
   }
 }
 </style>
+
+{% include navbox-amaa.html %}
