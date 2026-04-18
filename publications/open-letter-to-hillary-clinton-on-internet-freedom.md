@@ -10,7 +10,7 @@ permalink: /publications/open-letter-to-hillary-clinton-on-internet-freedom/
 created: 2025-11-24
 ---
 
-**Open Letter to Hillary Clinton on Internet Freedom** is a commentary by Sunil Abraham published in *Thinking Aloud* on 17 July 2012. Based on a presentation delivered at Google's Internet at Liberty 2012 conference in Washington DC, the article outlines key concerns around intellectual property enforcement, privacy, surveillance, global infrastructure governance, and the responsibilities of the United States in shaping internet freedom worldwide.
+**Open Letter to Hillary Clinton on Internet Freedom** is a commentary by [Sunil Abraham](/sunil/) published in *Thinking Aloud* on 17 July 2012. Based on a presentation delivered at Google's Internet at Liberty 2012 conference in Washington DC, the article outlines key concerns around intellectual property enforcement, privacy, surveillance, global infrastructure governance, and the responsibilities of the United States in shaping internet freedom worldwide.
 
 ## Contents
 

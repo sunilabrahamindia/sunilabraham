@@ -10,7 +10,7 @@ permalink: /publications/save-internet-from-corporate-censorship/
 created: 2026-01-05
 ---
 
-**Save the Internet From Corporate Censorship** is an opinion column by Sunil Abraham, published in *Deccan Chronicle* on 5 September 2018. The article critiques the regime of private censorship exercised by social media companies, particularly in the wake of coordinated bans against Alex Jones and Infowars. It argues for implementing principles of natural justice in content moderation, strengthening competition law, and empowering civil society to hold internet giants accountable.
+**Save the Internet From Corporate Censorship** is an opinion column by [Sunil Abraham](/sunil/), published in *Deccan Chronicle* on 5 September 2018. The article critiques the regime of private censorship exercised by social media companies, particularly in the wake of coordinated bans against Alex Jones and Infowars. It argues for implementing principles of natural justice in content moderation, strengthening competition law, and empowering civil society to hold internet giants accountable.
 
 ## Contents
 

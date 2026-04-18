@@ -10,7 +10,7 @@ permalink: /publications/does-india-need-bayh-dole-indian-express/
 created: 2026-01-29
 ---
 
-**Does India Need Its Own Bayh-Dole?** is *The Indian Express* opinion column by Sunil Abraham published on 24 April 2009. The piece examines the Protection and Utilisation of Public Funded Intellectual Property Bill 2008, arguing that this proposed legislation modelled on the United States' Bayh-Dole Act would redirect research priorities towards commercially viable projects, impose bureaucratic restrictions on scholarly communication, transform academic institutions into profit-seeking entities, and undermine India's generic pharmaceutical industry.
+**Does India Need Its Own Bayh-Dole?** is *The Indian Express* opinion column by [Sunil Abraham](/sunil/) published on 24 April 2009. The piece examines the Protection and Utilisation of Public Funded Intellectual Property Bill 2008, arguing that this proposed legislation modelled on the United States' Bayh-Dole Act would redirect research priorities towards commercially viable projects, impose bureaucratic restrictions on scholarly communication, transform academic institutions into profit-seeking entities, and undermine India's generic pharmaceutical industry.
 
 ## Contents
 

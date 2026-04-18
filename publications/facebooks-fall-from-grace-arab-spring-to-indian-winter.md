@@ -10,7 +10,7 @@ permalink: /publications/facebooks-fall-from-grace-arab-spring-to-indian-winter/
 created: 2025-11-11
 ---
 
-**Facebook's Fall From Grace: Arab Spring To Indian Winter** is an opinion column by Sunil Abraham, first published in *Firstpost* on 9 February 2016.  
+**Facebook's Fall From Grace: Arab Spring To Indian Winter** is an opinion column by [Sunil Abraham](/sunil/), first published in *Firstpost* on 9 February 2016.  
 
 The article discusses Facebook's *Free Basics* controversy in India, the Telecom Regulatory Authority of India's (TRAI) landmark regulation prohibiting discriminatory tariffs for data services, and the wider implications for global net neutrality. Sunil Abraham outlines how India's regulatory response set a precedent for fair, open, and citizen-centric Internet governance.
 

@@ -10,7 +10,7 @@ permalink: /publications/internet-freedom-free-basics-scenario/
 created: 2026-01-05
 ---
 
-**Internet Freedom: What Would Have Happened if India Chose FB Free Basics** is an opinion column by Sunil Abraham and Vidushi Marda, published in *Deccan Chronicle* on 14 February 2016. The article explores counterfactual scenarios had TRAI supported programmes like Facebook's Free Basics and Airtel Zero, examining potential impacts on elections, disaster response, and democratic freedoms. It includes a detailed timeline of the net neutrality debate in India from 2006 to 2016.
+**Internet Freedom: What Would Have Happened if India Chose FB Free Basics** is an opinion column by [Sunil Abraham](/sunil/) and Vidushi Marda, published in *Deccan Chronicle* on 14 February 2016. The article explores counterfactual scenarios had TRAI supported programmes like Facebook's Free Basics and Airtel Zero, examining potential impacts on elections, disaster response, and democratic freedoms. It includes a detailed timeline of the net neutrality debate in India from 2006 to 2016.
 
 ## Contents
 

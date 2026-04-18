@@ -10,7 +10,7 @@ permalink: /publications/do-you-want-to-be-watched/
 created: 2025-11-16
 ---
 
-**Do You Want to Be Watched?** is an article by Sunil Abraham published in *Pragati* on 8 June 2011. It argues that new rules under the IT Act 2008 constitute an unprecedented expansion of surveillance over ordinary Indians, undermining both privacy and real security.
+**Do You Want to Be Watched?** is an article by [Sunil Abraham](/sunil/) published in *Pragati* on 8 June 2011. It argues that new rules under the IT Act 2008 constitute an unprecedented expansion of surveillance over ordinary Indians, undermining both privacy and real security.
 
 ## Contents
 

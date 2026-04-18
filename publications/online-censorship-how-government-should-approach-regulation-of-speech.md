@@ -10,7 +10,7 @@ permalink: /publications/online-censorship-how-government-should-approach-regula
 created: 2025-11-16
 ---
 
-**Online Censorship: How Government Should Approach Regulation of Speech** is an opinion column by Sunil Abraham published in *The Economic Times* on 2 December 2012. This column discusses how governments should think about regulating speech online, why censorship often backfires, and how the power of the speaker, social norms, and context shape harm.
+**Online Censorship: How Government Should Approach Regulation of Speech** is an opinion column by [Sunil Abraham](/sunil/) published in *The Economic Times* on 2 December 2012. This column discusses how governments should think about regulating speech online, why censorship often backfires, and how the power of the speaker, social norms, and context shape harm.
 
 ## Contents
 

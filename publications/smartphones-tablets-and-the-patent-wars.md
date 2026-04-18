@@ -10,7 +10,7 @@ permalink: /publications/smartphones-tablets-and-the-patent-wars/
 created: 2025-11-22
 ---
 
-**Smartphones, Tablets and the Patent Wars** is a commentary by Sunil Abraham published in *The Economic Times* on 8 March 2012. The piece explores how patent enforcement shapes device availability, why Shanzhai manufacturers succeed in emerging markets, and how Indian consumers benefit from differing patent law, standards policy, and royalty frameworks.
+**Smartphones, Tablets and the Patent Wars** is a commentary by [Sunil Abraham](/sunil/) published in *The Economic Times* on 8 March 2012. The piece explores how patent enforcement shapes device availability, why Shanzhai manufacturers succeed in emerging markets, and how Indian consumers benefit from differing patent law, standards policy, and royalty frameworks.
 
 ## Contents
 
