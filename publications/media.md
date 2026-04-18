@@ -7,7 +7,7 @@ created: 2025-11-13
 ---
 
 This directory groups **media articles and commentaries** by **Sunil Abraham** according to the **newspaper or media outlet** where they appeared.  
-- Each outlet below includes articles authored or co-authored by Sunil Abraham.  
+- Each outlet below includes articles authored or co-authored by [Sunil Abraham](/sunil/).  
 - Only works categorised under [Media Articles and Commentaries](/categories/media-articles/) are included.  
 - Select an outlet from the list below to view his published articles in that publication.
 

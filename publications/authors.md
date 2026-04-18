@@ -9,7 +9,7 @@ created: 2025-11-09
 This directory highlights authors who have collaborated with **Sunil Abraham** on various publications featured within this project.  
 - Each author listed below has contributed to one or more works — as co-author, collaborator, or editor.  
 - Please note that this directory represents collaborations and not the authors’ complete body of work.  
-- You can select a name below to view their shared works with Sunil Abraham.
+- You can select a name below to view their shared works with [Sunil Abraham](/sunil/).
 
 <div class="authors-directory">
 
