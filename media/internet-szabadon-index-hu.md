@@ -11,7 +11,7 @@ permalink: /media/internet-szabadon-index-hu/
 created: 2026-04-16
 ---
 
-**Internet, szabadon** ("Internet, Free") is an *index.hu* news report published on 22 September 2010, written by anarki. The article covers the Internet at Liberty 2010 conference, held on 21–22 September 2010 in Budapest, jointly organised by Google and the Central European University (CEU). [Sunil Abraham](/sunil/) is named as the Indian guest at the conference and is quoted on India's blocking of pornographic content, with specific reference to the Savita Bhabhi webcomic series.
+**Internet, szabadon** ("Internet, Free") is an *index.hu* Hungarian-language news report published on 22 September 2010, written by anarki. The article covers the Internet at Liberty 2010 conference, held on 21–22 September 2010 in Budapest, jointly organised by Google and the Central European University (CEU). [Sunil Abraham](/sunil/) is named as the Indian guest at the conference and is quoted on India's blocking of pornographic content, with specific reference to the Savita Bhabhi webcomic series.
 
 ## Contents
 
