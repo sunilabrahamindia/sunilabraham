@@ -11,9 +11,9 @@ pdf: /publications/files/availability-accessibility-government-information.pdf
 created: 2025-11-11
 ---
 
-**Availability and Accessibility of Government Information in the Public Domain** is a policy brief authored by [Sunil Abraham](/sunil/)**, Nirmita Narasimhan, Beliappa, and Anandhi Vishwanath, with inputs from Dipendra Manocha, Saksham, and Deepak Maheshwari (Symantec).  
+**Availability and Accessibility of Government Information in the Public Domain** is a policy brief authored by [Sunil Abraham](/sunil/), Nirmita Narasimhan, Beliappa, and Anandhi Vishwanath, with inputs from Dipendra Manocha, Saksham, and Deepak Maheshwari (Symantec).  
 
-The brief highlights the continuing lack of accessible and authentic government information on official websites in India. It explains how common publishing practices lead to non-searchable, non-accessible, and legally weak documents — and offers a clear digital-first workflow to ensure that government information is authentic, searchable, indexable, and accessible to all citizens.
+The brief highlights the continuing lack of accessible and authentic government information on official websites in India. It explains how common publishing practices lead to non-searchable, non-accessible, and legally weak documents, and offers a clear digital-first workflow to ensure that government information is authentic, searchable, indexable, and accessible to all citizens.
 
 ## Contents
 
