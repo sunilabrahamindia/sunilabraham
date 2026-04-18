@@ -26,6 +26,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 12. [Version 1.4](#version-14)
 13. [Version 1.4.1](#version-141)
 14. [Version 1.4.2](#version-142)
+15. [Version 1.5](#version-15)
 
 
 <div align="center" style="width:75%; margin:auto;">
@@ -212,7 +213,7 @@ Version 1.2 focuses on strengthening media coverage clusters, improving chronolo
 - Created a new Extended URL Shortcut section to support multi-letter shortcut paths, improving navigational flexibility and future-proofing short URL design.
 
 **Milestones**
-- Created [Repeat after me (Tweet Series)](/sunil/repeat-after-me/) — an article documenting Sunil Abraham’s February 2017 Aadhaar tweet thread. Marked as the 600th article published on TSAP.
+- Created [Repeat after me (Tweet Series)](/sunil/repeat-after-me/) — an article documenting Sunil Abraham's February 2017 Aadhaar tweet thread. Marked as the 600th article published on TSAP.
 
 **Status** ✅ Done  
 Completion date: 22 February 2026  
@@ -442,7 +443,7 @@ Completion date: 4 April 2026 (night)
 
 **Milestone**
 - TSAP reached 850 published articles with the creation of [Concept Note for the Centre for Internet and Society](/cis/concept-note/).
-- The article includes a PDF embed of the original document and covers the organisation’s background, mission, research agenda, and planned activities.
+- The article includes a PDF embed of the original document and covers the organisation's background, mission, research agenda, and planned activities.
 - The main [Centre for Internet and Society](/cis/) page was updated with a Concept Note section, and the CIS logo was added to both pages.
 
 **Clusters**
@@ -454,7 +455,32 @@ Completion date: 4 April 2026 (night)
 
 **Template Redesign**
 - The `notice.html`, `stub.html`, and `under-construction.html` templates were redesigned for visual consistency with a left border layout, white or near-white background, consistent link colours, and `role="note"` for accessibility.
-- The `under-construction.html` template was updated to include a dynamic link to the page’s GitHub edit history alongside the versions log.
+- The `under-construction.html` template was updated to include a dynamic link to the page's GitHub edit history alongside the versions log.
 
 **Status** ✅ Done  
 Completion date: 11 April 2026 (night)
+
+## Version 1.5
+
+- 31 articles have been published this week between 12 April 2026 and 18 April 2026.
+
+**Commemorations**
+- Work began on [A. M. A. Ayrookuzhiel: 30th Death Anniversary Commemoration](/amaa/30/).
+- The 30th death anniversary of Reverend A. M. A. Ayrookuzhiel will be observed on Sunday, 29 November 2026.
+- The event page documents planning, progress, and key details related to the commemoration as part of TSAP's broader effort to document his life and work.
+- The [A. M. A. Ayrookuzhiel: 30th Death Anniversary Bulletins](/amaa/30-bulletins/) page was also created to record updates, activities, and progress from April to November 2026.
+
+**Clusters**
+- Work was carried out on the [*The World*](/clusters/sunil-abraham-the-world/) and [*The Sydney Morning Herald*](/clusters/sunil-abraham-the-sydney-morning-herald/) clusters.
+
+**Media**
+- An article in Hungarian, [*Internet, szabadon (Internet, Free)*](/media/internet-szabadon-index-hu/), was added and documented.
+
+**AI Integration (Codex Workflow)**
+- Codex (ChatGPT) was integrated into the repository to establish a workflow for AI-assisted edits through GitHub pull requests.
+- Codex was used for controlled, small-scope modifications including insertion of the [Template:A. M. A. Ayrookuzhiel](/amaa/template/) across relevant pages and addition of internal links to Sunil Abraham within publication lead sections.
+- Changes were generated through structured prompts, reviewed, and merged using the standard pull request workflow.
+- The integration was tested through Pull Request #1 (https://github.com/sunilabrahamindia/sunilabraham/pull/1) and Pull Request #3 (https://github.com/sunilabrahamindia/sunilabraham/pull/3).
+
+**Status** ✅ Done  
+Completion date: 18 April 2026 (night)
