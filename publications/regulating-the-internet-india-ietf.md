@@ -11,7 +11,7 @@ pdf: /publications/files/regulating-the-internet-india-ietf.pdf
 created: 2025-11-09
 ---
 
-**Regulating the Internet: The Government of India and Standards Development at the IETF** is a detailed policy brief authored by Aayush Rathi, Gurshabad Grover, and Sunil Abraham, published by the Centre for Internet and Society (CIS), India, in November 2018 (updated December 2018).  
+**Regulating the Internet: The Government of India and Standards Development at the IETF** is a detailed policy brief authored by Aayush Rathi, Gurshabad Grover, and [Sunil Abraham](/sunil/), published by the Centre for Internet and Society (CIS), India, in November 2018 (updated December 2018).  
 
 The report investigates how technical standards bodies such as the Internet Engineering Task Force (IETF) operate as regulatory regimes shaping the Internet, and analyses the Indian government’s limited participation in these critical spaces. Using the global debate around Transport Layer Security (TLS) 1.3 as a case study, it examines the intersection between technological design, public policy, and national security.
 

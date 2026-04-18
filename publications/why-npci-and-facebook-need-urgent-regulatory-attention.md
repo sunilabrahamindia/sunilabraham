@@ -10,7 +10,7 @@ permalink: /publications/why-npci-and-facebook-need-urgent-regulatory-attention/
 created: 2025-11-15
 ---
 
-**Why NPCI and Facebook Need Urgent Regulatory Attention** is an opinion article by Sunil Abraham, published in *The Economic Times* on 10 June 2018. This article analyses the growing overlap between NPCI's payments infrastructure and large platform actors such as Facebook/WhatsApp, highlighting risks from hyper-centralisation, opacity, data concentration and competition concerns.
+**Why NPCI and Facebook Need Urgent Regulatory Attention** is an opinion article by [Sunil Abraham](/sunil/), published in *The Economic Times* on 10 June 2018. This article analyses the growing overlap between NPCI's payments infrastructure and large platform actors such as Facebook/WhatsApp, highlighting risks from hyper-centralisation, opacity, data concentration and competition concerns.
 
 ## Contents
 

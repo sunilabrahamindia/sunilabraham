@@ -12,7 +12,7 @@ permalink: /publications/dont-slapp-free-speech/
 created: 2025-11-23
 ---
 
-**Don't SLAPP Free Speech** is a commentary by Sunil Abraham, with inputs from Snehashish Ghosh, published in *Tehelka Magazine*, Volume 10, Issue 9, on 3 February 2013. The article analyses the blocking of web pages critical of IIPM, strategic litigation against public participation, and the implications of interim injunctions and defamation law for online expression in India.
+**Don't SLAPP Free Speech** is a commentary by [Sunil Abraham](/sunil/), with inputs from Snehashish Ghosh, published in *Tehelka Magazine*, Volume 10, Issue 9, on 3 February 2013. The article analyses the blocking of web pages critical of IIPM, strategic litigation against public participation, and the implications of interim injunctions and defamation law for online expression in India.
 
 ## Contents
 
