@@ -100,3 +100,5 @@ It remains a key reference in courses on Dalit theology, contextual theology, an
 ## External Links
 
 - [*Essays on Dalits, Religion and Liberation*](https://books.google.co.in/books/about/Essays_on_Dalits_Religion_and_Liberation.html?id=slAKAQAAMAAJ&redir_esc=y) on Google Books
+
+{% include navbox-amaa.html %}

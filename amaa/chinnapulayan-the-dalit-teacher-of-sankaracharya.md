@@ -80,3 +80,5 @@ Two observations follow from the printed exchange:
 The paper titled *Chinnapulayan: The Dalit Teacher of Sankaracharya* was first presented by A. M. A. Ayrookuzhiel at an academic seminar. A revised portion of the study was later published in 1996 in the volume *Emerging Dalit Identity*, edited by Walter Fernandes and brought out by the Indian Social Institute (ISI), Delhi.
 
 {% include back-to-top.html %}
+
+{% include navbox-amaa.html %}
