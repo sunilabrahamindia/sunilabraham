@@ -9,7 +9,7 @@ created: 2026-04-19
 
 ***GovTech*** is a publication focused on the use of technology in government, covering public-sector innovation, digital infrastructure, and policy developments.
 
-This page brings together **media mentions from GovTech** that reference [Sunil Abraham](/sunil/).
+This page brings together media mentions from *GovTech* that reference [Sunil Abraham](/sunil/).
 
 ## 📣 Media Mentions {#media}
 
