@@ -90,6 +90,34 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
+## Mail Today — 9 June 2011 {#mt-09062011-snooping}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/snooping-can-lead-to-data-abuse-page-01.jpg"
+     data-glightbox="description: Snooping Can Lead to Data Abuse — Mail Today, 9 June 2011 (Page 1)">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/snooping-can-lead-to-data-abuse-page-01.jpg"
+      alt="Mail Today clipping dated 9 June 2011 titled Snooping Can Lead to Data Abuse (page 1)"
+    >
+  </a>
+</figure>
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/snooping-can-lead-to-data-abuse-page-02.jpg"
+     data-glightbox="description: Snooping Can Lead to Data Abuse — Mail Today, 9 June 2011 (Page 2)">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/snooping-can-lead-to-data-abuse-page-02.jpg"
+      alt="Mail Today clipping dated 9 June 2011 titled Snooping Can Lead to Data Abuse (page 2)"
+    >
+  </a>
+</figure>
+
+<p style="text-align:center; font-size:0.9rem; color:#444;">
+  "Snooping Can Lead to Data Abuse"<br>
+  <em>Mail Today</em>, 9 June 2011<br>
+  <a href="/publications/snooping-can-lead-to-data-abuse/">Read full article</a>
+</p>
+
 ## The Times of India — 6 May 2014 {#toi-06052014}
 
 <figure class="clipping-card">
