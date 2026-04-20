@@ -73,6 +73,23 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
+## Mail Today — 20 May 2011 {#mt-20052011-sony}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/sony-site-flaw-puts-focus-on-internet-security-mail-today.jpg"
+     data-glightbox="description: Sony Site Flaw Puts Focus on Internet Security — Mail Today, 20 May 2011">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/sony-site-flaw-puts-focus-on-internet-security-mail-today.jpg"
+      alt="Mail Today newspaper clipping dated 20 May 2011 titled Sony Site Flaw Puts Focus on Internet Security"
+    >
+  </a>
+  <figcaption>
+    "Sony Site Flaw Puts Focus on Internet Security"<br>
+    <em>Mail Today</em>, 20 May 2011<br>
+    <a href="/media/sony-site-flaw-puts-focus-on-internet-security-mail-today/">Read full article</a>
+  </figcaption>
+</figure>
+
 ## The Times of India — 6 May 2014 {#toi-06052014}
 
 <figure class="clipping-card">
