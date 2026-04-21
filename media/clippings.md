@@ -91,6 +91,24 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
+## The Hindu — 18 April 2011 {#hindu-18042011-anonymous}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/we-are-anonymous-we-are-legion.jpg"
+     data-glightbox="description: We Are Anonymous, We Are Legion — The Hindu, 18 April 2011">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/we-are-anonymous-we-are-legion.jpg"
+      alt="The Hindu newspaper clipping dated 18 April 2011 titled We Are Anonymous, We Are Legion by Sunil Abraham"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "We Are Anonymous, We Are Legion"<br>
+    <em>The Hindu</em>, 18 April 2011<br>
+    <a href="/publications/we-are-anonymous-we-are-legion/">Read full article</a>
+  </figcaption>
+</figure>
+
 ## Mail Today — 20 May 2011 {#mt-20052011-sony}
 
 <figure class="clipping-card">
