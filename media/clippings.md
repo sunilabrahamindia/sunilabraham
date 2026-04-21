@@ -184,6 +184,25 @@ created: 2026-03-21
   <a href="/publications/the-private-citizen-forbes-india/">Read full article</a>
 </p>
 
+## Bangalore Mirror — 16 March 2014 {#bm-16032014}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/worldwide-webmaster.jpg"
+     data-glightbox="description: Worldwide Webmaster — Bangalore Mirror, 16 March 2014">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/worldwide-webmaster.jpg"
+      alt="Bangalore Mirror clipping dated 16 March 2014 titled Worldwide Webmaster, a profile of Sunil Abraham by Jayanthi Madhukar"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Worldwide Webmaster"<br>
+    <em>Bangalore Mirror</em>, 16 March 2014<br>
+    <a href="/media/worldwide-webmaster-bangalore-mirror/">Read full article</a>
+  </figcaption>
+</figure>
+
+
 ## The Times of India — 6 May 2014 {#toi-06052014}
 
 <figure class="clipping-card">
