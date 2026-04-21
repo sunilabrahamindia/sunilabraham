@@ -34,6 +34,7 @@ created: 2025-11-17
   <dt>📄 Type:</dt>
   <dd>Opinion Article</dd>
 
+<dt>📰 Newspaper Link:</dt>
 <dd>
 <a class="btn" href="https://www.thehindu.com/sci-tech/technology/internet/We-are-anonymous-we-are-legion/article14688046.ece#google_vignette">
 Read Online
@@ -42,6 +43,16 @@ Read Online
 </dl>
 
 ## Full Text
+
+<figure class="media-image">
+  <img 
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/we-are-anonymous-we-are-legion.jpg"
+    alt="Newspaper clipping of 'We Are Anonymous, We Are Legion' published in The Hindu on 18 April 2011"
+    loading="lazy">
+  <figcaption>
+    Newspaper clipping of the article.
+  </figcaption>
+</figure>
 
 <div class="highlighted-text" id="fulltext">
 
@@ -110,6 +121,7 @@ During that period, discussions about the right to anonymity were also shaped by
   line-height: 1.65;
   color: #333;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
 }
 .highlighted-text p {
   margin-bottom: 1rem;
@@ -127,19 +139,6 @@ During that period, discussions about the right to anonymity were also shaped by
 }
 .copy-btn-full:hover {
   background: #e5e5e5;
-}
-a.btn {
-  display: inline-block;
-  background: #3278d6;
-  color: #fff !important;
-  text-decoration: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  transition: background 0.2s ease;
-}
-a.btn:hover {
-  background: #255ea9;
 }
 </style>
 
