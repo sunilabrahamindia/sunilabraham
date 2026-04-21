@@ -154,6 +154,36 @@ created: 2026-03-21
   <a href="/publications/snooping-can-lead-to-data-abuse/">Read full article</a>
 </p>
 
+## Forbes India — 23 August 2013 {#fi-23082013-private-citizen}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/the-private-citizen-01.jpg"
+     data-glightbox="description: The Private Citizen — Forbes India, 23 August 2013 (Page 1)">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/the-private-citizen-01.jpg"
+      alt="Forbes India clipping dated 23 August 2013 titled The Private Citizen by Sunil Abraham, page 1 of 2"
+      loading="lazy"
+    >
+  </a>
+</figure>
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/the-private-citizen-02.jpg"
+     data-glightbox="description: The Private Citizen — Forbes India, 23 August 2013 (Page 2)">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/the-private-citizen-02.jpg"
+      alt="Forbes India clipping dated 23 August 2013 titled The Private Citizen by Sunil Abraham, page 2 of 2"
+      loading="lazy"
+    >
+  </a>
+</figure>
+
+<p style="text-align:center; font-size:0.9rem; color:#444;">
+  "The Private Citizen"<br>
+  <em>Forbes India</em>, 23 August 2013<br>
+  <a href="/publications/the-private-citizen-forbes-india/">Read full article</a>
+</p>
+
 ## The Times of India — 6 May 2014 {#toi-06052014}
 
 <figure class="clipping-card">
