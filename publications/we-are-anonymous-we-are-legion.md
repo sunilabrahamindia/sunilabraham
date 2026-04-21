@@ -113,6 +113,22 @@ During that period, discussions about the right to anonymity were also shaped by
   margin: 0 0 0.3rem 0.3rem;
   color: #555;
 }
+.media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 720px;
+}
+.media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
 .highlighted-text {
   background-color: #fffbea;
   border-left: 4px solid #f2ce61;
