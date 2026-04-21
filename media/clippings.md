@@ -73,6 +73,24 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
+## Sunday Herald — 18 June 2000 {#sh-18062000-tlc}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/my-outsides-look-cool-my-insides-are-blue.jpg"
+     data-glightbox="description: My Outsides Look Cool, My Insides Are Blue... — Sunday Herald, 18 June 2000">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/my-outsides-look-cool-my-insides-are-blue.jpg"
+      alt="Sunday Herald newspaper clipping dated 18 June 2000 titled My Outsides Look Cool, My Insides Are Blue, a music review of TLC's Fan Mail by Sunil Abraham"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "My Outsides Look Cool, My Insides Are Blue..."<br>
+    <em>Sunday Herald</em>, 18 June 2000<br>
+    <a href="/publications/my-outsides-look-cool-my-insides-are-blue-sunday-herald/">Read full article</a>
+  </figcaption>
+</figure>
+
 ## Mail Today — 20 May 2011 {#mt-20052011-sony}
 
 <figure class="clipping-card">
