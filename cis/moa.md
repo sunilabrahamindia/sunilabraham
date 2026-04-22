@@ -42,6 +42,7 @@ The **Memorandum of Association of the Centre for Internet and Society** is the 
     17. [17. Availability of Benefits](#17-availability-of-benefits)
     18. [18. Application of Funds of the Society](#18-application-of-funds-of-the-society)
     19. [19. Indemnity](#19-indemnity)
+6. [See Also](#see-also)
 
 ## Full Text
 
@@ -422,6 +423,10 @@ The funds and income of the Society shall be utilised for the achievement of the
 #### 19. Indemnity
 
 Every member of the Board of Management including any person(s) authorised by them shall be indemnified out of the funds of the Society against all losses, claims, damages, and expenses incurred in the discharge of duties of their office and carrying out instructions issued by the Society or Board of Management, as the case may be, except cases of action taken without the specific approval of the Society or the Board of Management as the case may be.
+
+## See Also
+
+- [CIS Memorandum of Association: An Explainer](/cis/moa-explainer/) — a plain-language Q&A guide to this document, prepared by The Sunil Abraham Project
 
 <style>
 .cis-logo-wrap {
