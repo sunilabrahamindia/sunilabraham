@@ -8,11 +8,11 @@ date: 2008-07-04
 created: 2026-04-22
 ---
 
+{% include under-construction.html %}
+
 <div class="cis-logo-wrap">
   <img src="/cis/images/cis-logo.png" alt="The Centre for Internet and Society logo">
 </div>
-
-{% include under-construction.html %}
 
 The **Memorandum of Association of the Centre for Internet and Society** is the founding legal document of the [Centre for Internet and Society](/cis/) (CIS), an Indian non-profit research organisation. Executed on 4 July 2008 and registered by the Office of the Registrar of Societies, Bangalore Urban District, under the Karnataka Societies Registration Act, 1960 (K.S.R. Act 17 of 1960), it establishes the name, registered office, aims and objects, and governance structure of the Society. The document was signed by seven founding members and one witness. The Memorandum was subsequently amended at a Special General Body Meeting held on 30 June 2009, with the amendment approved by the Registrar of Societies under Ref. No. 109/2009-10 on 5 February 2010.
 
@@ -47,7 +47,7 @@ The **Memorandum of Association of the Centre for Internet and Society** is the 
 
 {% include notice.html message="The full transcript of this document is currently being proofread. A PDF of the original scan will be uploaded shortly." %}
 
-<div style="text-align: center;">
+<div style="text-align: center;" markdown="1">
 
 MEMORANDUM OF ASSOCIATION
 
