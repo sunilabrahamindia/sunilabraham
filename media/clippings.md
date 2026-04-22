@@ -202,6 +202,24 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
+## Indian Currents — 24 March 2014 {#ic-24032014}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/two-indians-among-25-selected-for-internet-governance-network.jpg"
+     data-glightbox="description: Two Indians among 25 Selected for Internet Governance Network — Indian Currents, 24–30 March 2014">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/two-indians-among-25-selected-for-internet-governance-network.jpg"
+      alt="Indian Currents magazine clipping dated 24–30 March 2014 titled Two Indians among 25 selected for internet governance network, featuring Sunil Abraham and Subimal Bhattacharjee"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Two Indians among 25 Selected for Internet Governance Network"<br>
+    <em>Indian Currents</em>, 24–30 March 2014<br>
+    <a href="/media/two-indians-among-25-selected-for-internet-governance-network/">Read full article</a>
+  </figcaption>
+</figure>
+
 
 ## The Times of India — 6 May 2014 {#toi-06052014}
 
