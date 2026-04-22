@@ -24,6 +24,23 @@ The [**Memorandum of Association**](/cis/moa/) (MoA) is the founding legal docum
 9. [Audit and Accounts](#audit-and-accounts)
 10. [Amendments and Dissolution](#amendments-and-dissolution)
 
+<div class="explainer-search-wrap">
+  <i data-lucide="search" class="explainer-search-icon"></i>
+  <input
+    type="search"
+    id="explainerSearch"
+    class="explainer-search"
+    placeholder="Search questions…"
+    autocomplete="off"
+    autocorrect="off"
+    spellcheck="false"
+  >
+  <button class="explainer-search-clear" id="explainerSearchClear" aria-label="Clear search" hidden>
+    <i data-lucide="x"></i>
+  </button>
+</div>
+<p class="explainer-no-results" id="explainerNoResults" hidden>No questions matched your search.</p>
+
 ## What is the MoA?
 
 <div class="explainer-group">
@@ -355,9 +372,6 @@ The President is the Chief Functionary of CIS, appointed by the Board of Managem
 
 <p class="explainer-footer">This explainer was prepared by <a href="/">The Sunil Abraham Project</a> for informational purposes only. It is not a legal document. For the authoritative text, see the <a href="/cis/moa/">full Memorandum of Association of CIS</a>.</p>
 
-<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-<script>lucide.createIcons();</script>
-
 <style>
 .explainer-group {
   display: flex;
@@ -400,7 +414,7 @@ The President is the Chief Functionary of CIS, appointed by the Board of Managem
 }
 
 .explainer-a {
-  padding: 0.85rem 1rem 0.85rem 1rem;
+  padding: 0.85rem 1rem;
   font-size: 0.95rem;
   line-height: 1.65;
   color: #333;
@@ -442,6 +456,78 @@ The President is the Chief Functionary of CIS, appointed by the Board of Managem
   text-decoration: underline;
 }
 
+.explainer-search-wrap {
+  position: relative;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.explainer-search-icon {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  color: #7a7974;
+  pointer-events: none;
+}
+
+.explainer-search {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 2.8rem 0.75rem 2.5rem;
+  font-size: 1rem;
+  border: 1px solid rgba(0,0,0,0.13);
+  border-radius: 8px;
+  background: #fff;
+  color: #28251d;
+  outline: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.explainer-search:focus {
+  border-color: #01696f;
+  box-shadow: 0 0 0 3px rgba(1,105,111,0.12);
+}
+
+.explainer-search::placeholder {
+  color: #bab9b4;
+}
+
+.explainer-search::-webkit-search-cancel-button { display: none; }
+
+.explainer-search-clear {
+  position: absolute;
+  right: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.35rem;
+  color: #7a7974;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.explainer-search-clear:hover { color: #28251d; }
+
+.explainer-search-clear svg {
+  width: 16px;
+  height: 16px;
+}
+
+.explainer-no-results {
+  font-size: 0.93rem;
+  color: #7a7974;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 600px) {
   .explainer-q {
     font-size: 0.93rem;
@@ -454,5 +540,68 @@ The President is the Chief Functionary of CIS, appointed by the Board of Managem
   .explainer-list {
     font-size: 0.89rem;
   }
+  .explainer-search {
+    font-size: 1rem;
+    padding: 0.7rem 2.6rem 0.7rem 2.4rem;
+  }
 }
 </style>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>
+lucide.createIcons();
+
+(function(){
+  const input = document.getElementById('explainerSearch');
+  const clearBtn = document.getElementById('explainerSearchClear');
+  const noResults = document.getElementById('explainerNoResults');
+  const cards = document.querySelectorAll('.explainer-card');
+  const groups = document.querySelectorAll('.explainer-group');
+  const sections = document.querySelectorAll('h2');
+
+  function normalise(str){
+    return str.toLowerCase().replace(/['']/g,"'");
+  }
+
+  function run(){
+    const q = normalise(input.value.trim());
+    clearBtn.hidden = q === '';
+    let anyVisible = false;
+
+    cards.forEach(card => {
+      const text = normalise(card.textContent);
+      const match = q === '' || text.includes(q);
+      card.style.display = match ? '' : 'none';
+      if(match) anyVisible = true;
+    });
+
+    groups.forEach(group => {
+      const visible = Array.from(group.querySelectorAll('.explainer-card'))
+        .some(c => c.style.display !== 'none');
+      group.style.display = visible ? '' : 'none';
+    });
+
+    sections.forEach(h2 => {
+      if(h2.id === 'contents') return;
+      let sibling = h2.nextElementSibling;
+      let hasVisible = false;
+      while(sibling && sibling.tagName !== 'H2'){
+        if(sibling.classList.contains('explainer-group')){
+          if(sibling.style.display !== 'none') hasVisible = true;
+        }
+        sibling = sibling.nextElementSibling;
+      }
+      h2.style.display = (q === '' || hasVisible) ? '' : 'none';
+    });
+
+    noResults.hidden = anyVisible || q === '';
+  }
+
+  input.addEventListener('input', run);
+  clearBtn.addEventListener('click', () => {
+    input.value = '';
+    run();
+    input.focus();
+  });
+})();
+</script>
