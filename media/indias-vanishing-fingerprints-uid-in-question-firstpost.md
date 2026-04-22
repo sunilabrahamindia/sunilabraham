@@ -10,7 +10,7 @@ permalink: /media/indias-vanishing-fingerprints-uid-in-question-firstpost/
 created: 2026-03-07
 ---
 
-**India's Vanishing Fingerprints Put UID in Question** is a *Firstpost* investigation written by Pallavi Polanki and published on 24 October 2011. The piece documents on-the-ground failures at Delhi's UID enrolment centres — where fingerprints of senior citizens, manual labourers, and children routinely fail quality thresholds — and features [Sunil Abraham](/sunil/) presenting statistical analysis showing the UIDAI's de-duplication accuracy targets as fundamentally inadequate.
+**India's Vanishing Fingerprints Put UID in Question** is a *Firstpost* investigation written by Pallavi Polanki and published on 24 October 2011. The piece documents on-the-ground failures at Delhi's UID enrolment centres, where fingerprints of senior citizens, manual labourers, and children routinely fail quality thresholds, and features [Sunil Abraham](/sunil/) presenting statistical analysis showing the UIDAI's de-duplication accuracy targets as fundamentally inadequate.
 
 ## Contents
 
