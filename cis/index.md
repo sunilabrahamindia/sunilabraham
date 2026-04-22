@@ -54,6 +54,12 @@ The aims and objectives of CIS, as laid out in the Memorandum of Association, ar
 
 In July 2008, CIS prepared a concept note setting out the rationale, mission, research agenda, and thematic priorities for the organisation. The document critiques the US- and Eurocentric character of existing Internet policy organisations such as the Electronic Frontier Foundation and the Berkman Centre, and makes the case for an independent, citizen-centred research institution rooted in the conditions of the developing world. It identifies six structural challenges facing Internet policy in India, proposes a research agenda grounded in Asian socio-political contexts, and outlines planned activities including scholarships, fellowships, publications, and policy advocacy.
 
+## Memorandum of Association
+
+{% include main-article.html link="/cis/moa/" title="Memorandum of Association and Rules and Regulations of the Centre for Internet and Society" %}
+
+The Memorandum of Association (MoA) is the founding legal document of CIS, executed on 4 July 2008 and amended in February 2010. It sets out the society's name, registered address, aims and objects, membership structure, governance arrangements, financial rules, and provisions for dissolution. A supplementary [plain-language explainer](/cis/moa-explainer/) of the MoA, prepared by TSAP in question-and-answer format, is also available.
+
 ## External Link
 - [Official website](https://cis-india.org/)
 
