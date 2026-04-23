@@ -9,7 +9,7 @@ created: 2025-11-27
 
 {% include under-construction.html %}
 
-***Chinnapulayan: The Dalit Teacher of Sankaracharya*** is a paper (essay) by A. M. Abraham Ayrookuzhiel that reproduces and closely interprets the Pulaya ritual song (the *Tottam* of Pottan Teyyam) alongside a Brahminised variant that inserts Sankaracharya into the encounter. The essay treats the *Tottam* as both ritual memory and argumentative text, documenting how the Pulaya version advances a material, experience-based critique of caste through images drawn from labour, food, wounds and shared dwelling. By placing this against the later Brahminised retelling — where a doctrinal Advaitic exchange replaces the original social confrontation — Ayrookuzhiel shows how the force of a Dalit protest poem can be preserved in form yet redirected in meaning. All quotations and page references below are taken directly from the source document.
+***Chinnapulayan: The Dalit Teacher of Sankaracharya*** is a paper (essay) by [A. M. Abraham Ayrookuzhiel](/amaa/) that reproduces and closely interprets the Pulaya ritual song (the *Tottam* of Pottan Teyyam) alongside a Brahminised variant that inserts Sankaracharya into the encounter. The essay treats the *Tottam* as both ritual memory and argumentative text, documenting how the Pulaya version advances a material, experience-based critique of caste through images drawn from labour, food, wounds and shared dwelling. By placing this against the later Brahminised retelling, where a doctrinal Advaitic exchange replaces the original social confrontation, Ayrookuzhiel shows how the force of a Dalit protest poem can be preserved in form yet redirected in meaning. All quotations and page references below are taken directly from the source document.
 
 ## Contents
 - [Summary](#summary)
@@ -21,6 +21,7 @@ created: 2025-11-27
   - [Human dwelling as body and vulnerability](#human-dwelling-as-body-and-vulnerability)
 - [The Brahminised version — Sankaracharya enters](#the-brahminised-version--sankaracharya-enters)
 - [Major themes and argument](#major-themes-and-argument)
+- [Full text](#full-text)
 - [Publication](#publication)
 
 ## Summary
@@ -76,9 +77,11 @@ Two observations follow from the printed exchange:
 - **Poetry as argument.** The *Tottam* functions simultaneously as ritual performance and argumentative speech — it enacts community identity while arguing for equality. Ayrookuzhiel treats the poem as evidence of Dalit normative language.  
 - **Continuities with modern Dalit literatures.** The author links the *Tottam*'s rhetoric to later Dalit poets and political movements that reclaim folk memory as resources for identity and protest.
 
+## Full text
+
+{% include main-article.html link="/amaa/chinnapulayan-full-text/" title="Full Text: Chinnapulayan: The Dalit Teacher of Sankaracharya" %}
+
 ## Publication
 The paper titled *Chinnapulayan: The Dalit Teacher of Sankaracharya* was first presented by A. M. A. Ayrookuzhiel at an academic seminar. A revised portion of the study was later published in 1996 in the volume *Emerging Dalit Identity*, edited by Walter Fernandes and brought out by the Indian Social Institute (ISI), Delhi.
-
-{% include back-to-top.html %}
 
 {% include navbox-amaa.html %}
