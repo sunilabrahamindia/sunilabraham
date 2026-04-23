@@ -37,7 +37,7 @@
           <span class="navbox-amaa__items">
             <a href="/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/"><em>Chinnapulayan: The Dalit Teacher of Sankaracharya</em></a> (<a href="/amaa/chinnapulayan-full-text/">Full text</a>) &middot;
             <a href="/amaa/mar-ivanios-reunion-motives/"><em>Mar Ivanios: Reunion Motives</em></a> &middot;
-            <em>Religion: A Way of Salvation or an Ideology of Oppression</em> &middot;
+            <a href="/amaa/role-of-religion-dalit-liberation/"><em>The Role of Religion in Dalit Liberation: Some Reflections</em></a> (<a href="/amaa/role-of-religion-dalit-liberation-full-text/">Full text</a>) &middot;
             <em>The Living Hindu Popular Religious Consciousness and Some Reflections on it in the Context of Hindu-Christian Dialogue</em>
           </span>
         </div>
@@ -80,13 +80,19 @@
 <style>
 .navbox-amaa {
   border: 1px solid #d4d1ca;
-  border-top: 3px solid #333;
   background: #fafaf8;
   border-radius: 0.5rem;
   margin: 2rem 0 1rem;
   font-size: 0.9rem;
   line-height: 1.5;
+  transition: box-shadow 0.25s ease, transform 0.2s ease;
 }
+
+.navbox-amaa:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
 .navbox-amaa__title {
   background: #f2f2f0;
   text-align: center;
@@ -96,7 +102,9 @@
   border-bottom: 1px solid #d4d1ca;
   color: #222;
   position: relative;
+  border-top: 3px solid #2f6f6f;
 }
+
 .navbox-amaa__viewlink {
   position: absolute;
   right: 0.6rem;
@@ -106,24 +114,36 @@
   font-size: 0.75rem;
   color: #555;
 }
+
 .navbox-amaa__viewlink a {
   color: #0645ad;
   text-decoration: none;
   font-size: 0.75rem;
 }
+
 .navbox-amaa__viewlink a:hover {
   text-decoration: underline;
 }
+
 .navbox-amaa a {
   color: #0645ad;
   text-decoration: none;
 }
+
 .navbox-amaa a:hover {
+  color: #2f6f6f;
   text-decoration: underline;
 }
+
 .navbox-amaa a:visited {
   color: #0b0080;
 }
+
+.navbox-amaa a:focus-visible {
+  outline: 2px solid #2f6f6f;
+  outline-offset: 2px;
+}
+
 .navbox-amaa__dates {
   display: block;
   font-weight: 400;
@@ -131,20 +151,23 @@
   color: #666;
   margin-top: 0.15rem;
 }
-.navbox-amaa__portal {
-  display: block;
-  font-weight: 400;
-  font-size: 0.8rem;
-  margin-top: 0.2rem;
-}
+
 .navbox-amaa__body {
   display: flex;
   gap: 1rem;
   padding: 0.75rem 1rem;
   align-items: flex-start;
 }
-.navbox-amaa__links-col { flex: 1 1 auto; }
-.navbox-amaa__photo-col { flex: 0 0 auto; text-align: center; }
+
+.navbox-amaa__links-col {
+  flex: 1 1 auto;
+}
+
+.navbox-amaa__photo-col {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
 .navbox-amaa__photo-col img {
   width: 100px;
   height: auto;
@@ -152,7 +175,14 @@
   border-radius: 0.375rem;
   display: block;
   margin: 0 auto;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
+.navbox-amaa__photo-col img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
 .navbox-amaa__photo-caption {
   font-size: 0.75rem;
   color: #666;
@@ -160,30 +190,67 @@
   text-align: center;
   max-width: 110px;
 }
+
 .navbox-amaa__row {
   display: flex;
   gap: 0.5rem;
   padding: 0.35rem 0;
   border-bottom: 1px solid #e4e4e0;
   align-items: baseline;
+  transition: background-color 0.2s ease;
 }
-.navbox-amaa__row:last-child { border-bottom: none; }
+
+.navbox-amaa__row:hover {
+  background-color: #f4f7f7;
+}
+
+.navbox-amaa__row:last-child {
+  border-bottom: none;
+}
+
 .navbox-amaa__label {
   flex: 0 0 110px;
   font-weight: 600;
   color: #444;
   font-size: 0.875rem;
 }
+
 .navbox-amaa__items {
   flex: 1 1 auto;
   color: #222;
 }
 
+/* Mobile responsiveness */
 @media (max-width: 600px) {
-  .navbox-amaa__body { flex-direction: column; align-items: center; }
-  .navbox-amaa__photo-col { order: -1; }
-  .navbox-amaa__photo-col img { width: 80px; }
-  .navbox-amaa__row { flex-direction: column; gap: 0.2rem; }
-  .navbox-amaa__label { flex: none; font-size: 0.8rem; }
+  .navbox-amaa__body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbox-amaa__photo-col {
+    order: -1;
+  }
+
+  .navbox-amaa__photo-col img {
+    width: 80px;
+  }
+
+  .navbox-amaa__row {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .navbox-amaa__label {
+    flex: none;
+    font-size: 0.8rem;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .navbox-amaa,
+  .navbox-amaa__photo-col img {
+    transition: none;
+  }
 }
 </style>
