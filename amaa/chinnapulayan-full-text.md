@@ -63,7 +63,7 @@ This introduction is a kind of prose which does not look like part of the song. 
 
 Introductory announcements:
 
-<div class="poem">
+<div class="poem" markdown="1">
 Bearer of the Moons<sup id="ref-5"><a href="#note-5" aria-label="See note 5">5</a></sup>  
 Circling down from Kailasa  
 Wearing a Kolam  
@@ -91,7 +91,7 @@ The privileges to celebrate His festival
 
 Then begins the invocation to Pottan to come and bless them which is also part of the preparation.
 
-<div class="poem">
+<div class="poem" markdown="1">
 Oh, Pottan Teyyam who brings relief  
 To all the sufferers  
 Come into this place  
@@ -107,7 +107,7 @@ Remove my afflictions
 
 Here begins the actual poem with what is known as “Varavil” which is a praise to the God Pottan and a prayer to him for the prosperity of the village community, the world and everything in it.
 
-<div class="poem">
+<div class="poem" markdown="1">
 Grow in strength, O Lord  
 Grow, Grow, Grow in strength  
 Let the rice offered at first grow  
@@ -124,7 +124,7 @@ Let Ponnan and Poliyan, Manian and Manikandan prosper
 
 The poem begins with a description of different people coming to the Wayanad region. In those ancient days no seed was needed, no nurture was required. The land produced crops without any manure or work with cattle. It is a reference to the pre-agricultural period when different jungle tribes inhabited the region of North Malabar. The tribals believed that it was God Pottan who guarded and made everything grow.
 
-<div class="poem">
+<div class="poem" markdown="1">
 Ponnan came, and Poliyan came  
 Manian came, and Manikandan came  
 Ponnan in the left Poliyan in the right  
@@ -150,7 +150,7 @@ The taskmaster of the caste order asks the Chinnapulayan to get out of his path<
 
 Here the text:
 
-<div class="poem">
+<div class="poem" markdown="1">
 As he kept watch on the wet land,  
 From the distance comes a Chovar (Ezhava)  
 There is with him a Machurer  
@@ -204,7 +204,7 @@ Between us."
 
 Then comes an argument from the faith of the opponent, as the Chovar is the agent of Brahminism. The Chinnapulayan says: you believed in thirty-three gods (in Vedic times); now you believe in three gods (Brahma, Vishnu and Mahesvara or Siva). I have in me the flower of the ultimate reality of all these three or thirty-three gods. Why do you then differentiate between you and me. Chinnapulayan says:
 
-<div class="poem">
+<div class="poem" markdown="1">
 In that time they planted  
 Thirty-three trees  
 Three trees<sup id="ref-10"><a href="#note-10" aria-label="See note 10">10</a></sup> did sprout of them  
@@ -215,7 +215,7 @@ If so what difference, Oh Chovar?
 
 Now the Chinnapulayan/Pottan proclaims his own faith, solidly based on common human destiny and asks the caste man why he discriminates on the basis of caste. The image of the boat crossing from one shore to the other is familiar in Siddar and Buddhist literature. The word Valluvan for God is also very revealing. The same word Valluvan also means "priest of the Parayas," "a sage" and "the priestly groups in general." There is a sub-caste among the Dalits in Kerala known by the name Valluva even in our own times. The word is used in all these meanings in ancient Tamil literature. Thirukural was composed by a Valluva. The great Tamil scholar G.U. Pope, who translated the epic work into English says about the author Valluvar, "all that we certainly know is that he was a pariah and a weaver." He further adds that, "the priest (of the Parayas), soothsayers, teachers or prophets are styled Valluvars."<sup id="ref-11"><a href="#note-11" aria-label="See note 11">11</a></sup> The Dalit connection of the word Valluvar is therefore obvious. This is the text:
 
-<div class="poem">
+<div class="poem" markdown="1">
 When a boat comes from the other bank to this bank  
 Another boat goes from here to the other bank.  
 Isn't it in the same boat you go  
@@ -238,7 +238,7 @@ The poem seems to end here with the prayer to God to be pleased with the offerin
 
 Then again we have another 16 lines where human body is compared to a little Dalit hut (chala) with four pillars cut to scale with beams on either side, with nine openings, with two doors to enter and leave, with rafters joined to the long beam, thatched with 96 coconut leaves strengthened with grass over them, with a tile on the top of it, its strength given by the 51 nails. The description ends with a questioning. Who are to inhabit this dwelling? - 21,600 cherumakkal - the Little Ones (Pulayas). When this dwelling will collapse - no one knows when.
 
-<div class="poem">
+<div class="poem" markdown="1">
 He made beautifully this Chala long ago  
 There are four pillars<sup id="ref-13"><a href="#note-13" aria-label="See note 13">13</a></sup> of equal length  
 Measured by the master  
@@ -264,7 +264,7 @@ The thinking and thought pattern is very similar to what we find in Siddar songs
 
 The poem ends with an appeal to the Chovar to allow Kuttan, the Dalit to live in peace in Wayanad and enjoy the fruits of the field. The God Pottan is requested to come in order to protect the Dalits. He is asked to come in the company of the Spirit of the Pulayas and the Great Mother of the Pulayas and accept the offerings and prayers.
 
-<div class="poem">
+<div class="poem" markdown="1">
 Oh Chovar of Vayanad, the Kuttan<sup id="ref-21"><a href="#note-21" aria-label="See note 21">21</a></sup> is on the field  
 Let it graze on the crop of the field  
 Oh, Pottan do not kill my Kuttan  
@@ -288,7 +288,7 @@ These works were composed when Brahminism absorbed the devotionalism of the auto
 
 I give here the portion of the poem describing the encounter between Pottan Teyyam and Sankaracharya.
 
-<div class="poem">
+<div class="poem" markdown="1">
 The sage asked the low caste<sup id="ref-23"><a href="#note-23" aria-label="See note 23">23</a></sup>  
 To get out of the way,  
 "You, Chandala (low born)  
@@ -327,7 +327,7 @@ You evil minded man."
 
 Chandala's reply:
 
-<div class="poem">
+<div class="poem" markdown="1">
 At this the chandala in reply  
 Asked the learned scholar  
 "What do you mean by the path,  
@@ -417,7 +417,7 @@ Is not likely to talk low in this manner."
 
 Sankara's realisation:
 
-<div class="poem">
+<div class="poem" markdown="1">
 As Sankara heard the talk of the low born  
 He knew that the man was no low born  
 The realisation came to him  
