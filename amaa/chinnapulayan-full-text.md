@@ -63,6 +63,7 @@ This introduction is a kind of prose which does not look like part of the song. 
 
 Introductory announcements:
 
+<div class="poem">
 Bearer of the Moons<sup id="ref-5"><a href="#note-5" aria-label="See note 5">5</a></sup>  
 Circling down from Kailasa  
 Wearing a Kolam  
@@ -86,9 +87,11 @@ And with his wife he entered
 The gate of Pulingoth  
 Granted the Nair there  
 The privileges to celebrate His festival  
+</div>
 
 Then begins the invocation to Pottan to come and bless them which is also part of the preparation.
 
+<div class="poem">
 Oh, Pottan Teyyam who brings relief  
 To all the sufferers  
 Come into this place  
@@ -100,9 +103,11 @@ And destroy all mischievous enemies
 In my heart no support but God  
 I bow to your Lotus Feet  
 Remove my afflictions  
+</div>
 
 Here begins the actual poem with what is known as “Varavil” which is a praise to the God Pottan and a prayer to him for the prosperity of the village community, the world and everything in it.
 
+<div class="poem">
 Grow in strength, O Lord  
 Grow, Grow, Grow in strength  
 Let the rice offered at first grow  
@@ -115,9 +120,11 @@ Let the house and pedestal prosper
 Let the hall for Ganapathy prosper  
 Let the four bulls for Saraswathi prosper  
 Let Ponnan and Poliyan, Manian and Manikandan prosper  
+</div>
 
 The poem begins with a description of different people coming to the Wayanad region. In those ancient days no seed was needed, no nurture was required. The land produced crops without any manure or work with cattle. It is a reference to the pre-agricultural period when different jungle tribes inhabited the region of North Malabar. The tribals believed that it was God Pottan who guarded and made everything grow.
 
+<div class="poem">
 Ponnan came, and Poliyan came  
 Manian came, and Manikandan came  
 Ponnan in the left Poliyan in the right  
@@ -135,6 +142,7 @@ No one to chase away the birds
 No one to tend the cattle  
 Who watches over the crop?  
 It is the Pottan who guards the crop  
+</div>
 
 The symbolism is of an agricultural society in which different people have different roles and participate in common agrarian activities. Ponnan in the left, Poliyan in the right, etc., is an example. The symbol of Ganapathy as the yoke and Saraswathi as the ploughshare maybe the influence of sanskritisation and feudal overlordship.
 
@@ -142,6 +150,7 @@ The taskmaster of the caste order asks the Chinnapulayan to get out of his path<
 
 Here the text:
 
+<div class="poem">
 As he kept watch on the wet land,  
 From the distance comes a Chovar (Ezhava)  
 There is with him a Machurer  
@@ -191,18 +200,22 @@ With the same Tulasi
 You make offerings to god.  
 Why then distinctions  
 Between us."
+</div>
 
 Then comes an argument from the faith of the opponent, as the Chovar is the agent of Brahminism. The Chinnapulayan says: you believed in thirty-three gods (in Vedic times); now you believe in three gods (Brahma, Vishnu and Mahesvara or Siva). I have in me the flower of the ultimate reality of all these three or thirty-three gods. Why do you then differentiate between you and me. Chinnapulayan says:
 
+<div class="poem">
 In that time they planted  
 Thirty-three trees  
 Three trees<sup id="ref-10"><a href="#note-10" aria-label="See note 10">10</a></sup> did sprout of them  
 But I have in hand  
 The flower of the trees.  
 If so what difference, Oh Chovar?  
+</div>
 
 Now the Chinnapulayan/Pottan proclaims his own faith, solidly based on common human destiny and asks the caste man why he discriminates on the basis of caste. The image of the boat crossing from one shore to the other is familiar in Siddar and Buddhist literature. The word Valluvan for God is also very revealing. The same word Valluvan also means "priest of the Parayas," "a sage" and "the priestly groups in general." There is a sub-caste among the Dalits in Kerala known by the name Valluva even in our own times. The word is used in all these meanings in ancient Tamil literature. Thirukural was composed by a Valluva. The great Tamil scholar G.U. Pope, who translated the epic work into English says about the author Valluvar, "all that we certainly know is that he was a pariah and a weaver." He further adds that, "the priest (of the Parayas), soothsayers, teachers or prophets are styled Valluvars."<sup id="ref-11"><a href="#note-11" aria-label="See note 11">11</a></sup> The Dalit connection of the word Valluvar is therefore obvious. This is the text:
 
+<div class="poem">
 When a boat comes from the other bank to this bank  
 Another boat goes from here to the other bank.  
 Isn't it in the same boat you go  
@@ -219,11 +232,13 @@ At Kayyath, Muyyath, Kyumboyyu
 Mungath, MuZhangath, Pattani and Parangi,  
 Oh gods come again to hear the praises  
 Come Marut, Pottan and Chamundi of the Pulayas.  
+</div>
 
 The poem seems to end here with the prayer to God to be pleased with the offering and to return again next year to hear the Tottam.
 
 Then again we have another 16 lines where human body is compared to a little Dalit hut (chala) with four pillars cut to scale with beams on either side, with nine openings, with two doors to enter and leave, with rafters joined to the long beam, thatched with 96 coconut leaves strengthened with grass over them, with a tile on the top of it, its strength given by the 51 nails. The description ends with a questioning. Who are to inhabit this dwelling? - 21,600 cherumakkal - the Little Ones (Pulayas). When this dwelling will collapse - no one knows when.
 
+<div class="poem">
 He made beautifully this Chala long ago  
 There are four pillars<sup id="ref-13"><a href="#note-13" aria-label="See note 13">13</a></sup> of equal length  
 Measured by the master  
@@ -243,11 +258,13 @@ Now, who are to inhabit this house?
 Twenty-one thousand and six-hundred Pulayas  
 When will this house collapse  
 No one knows when?  
+</div>
 
 The thinking and thought pattern is very similar to what we find in Siddar songs and Buddhist literature. The word Chala for dwelling is very much a Dalit word – Pulachala, Malachala, Mukkuvachala, Vettavachala, etc. This part may have been another independent Dalit song. Being of religious nature it got combined with Pottam song in the Pulaya worship. The author uses symbolism of the human body for the whole society or rather the human society is conceived as a body. It is very much the spirit of the Siddar teachings.
 
 The poem ends with an appeal to the Chovar to allow Kuttan, the Dalit to live in peace in Wayanad and enjoy the fruits of the field. The God Pottan is requested to come in order to protect the Dalits. He is asked to come in the company of the Spirit of the Pulayas and the Great Mother of the Pulayas and accept the offerings and prayers.
 
+<div class="poem">
 Oh Chovar of Vayanad, the Kuttan<sup id="ref-21"><a href="#note-21" aria-label="See note 21">21</a></sup> is on the field  
 Let it graze on the crop of the field  
 Oh, Pottan do not kill my Kuttan  
@@ -257,6 +274,7 @@ The Ettukuttam Pathillam Pulayar
 Oh - Pottan accompanied  
 By the Pottan Teyyam, Pula Marut and Pula Chamundi  
 Come, O Come.  
+</div>
 
 This protest song of their ancestor Chinnapulayan was sung with devotion and dance in commemoration of their great ancestor. Probably in order not to unduly attract the attention of others to the rebellious nature of the song they called the God Pottan. It means 'Joker' God, 'Deaf and Dumb' God. His song would then be the words of a mad man or a fool.
 
@@ -270,6 +288,7 @@ These works were composed when Brahminism absorbed the devotionalism of the auto
 
 I give here the portion of the poem describing the encounter between Pottan Teyyam and Sankaracharya.
 
+<div class="poem">
 The sage asked the low caste<sup id="ref-23"><a href="#note-23" aria-label="See note 23">23</a></sup>  
 To get out of the way,  
 "You, Chandala (low born)  
@@ -304,9 +323,11 @@ You shall be treated
 To a sound beating.  
 Don't be standing on the path  
 You evil minded man."
+</div>
 
 Chandala's reply:
 
+<div class="poem">
 At this the chandala in reply  
 Asked the learned scholar  
 "What do you mean by the path,  
@@ -392,15 +413,18 @@ He who frees himself from the pride of flesh
 Has no cause to outrage me.  
 He who is clean of heart and thought  
 Is not likely to talk low in this manner."  
+</div>
 
 Sankara's realisation:
 
+<div class="poem">
 As Sankara heard the talk of the low born  
 He knew that the man was no low born  
 The realisation came to him  
 That he was the destroyer of the God of Lust  
 He fell upon his feet  
 And with piety praised him high.  
+</div>
 
 ### The Poem in Modern Dalit Literature
 
@@ -453,3 +477,66 @@ One important task of Indian theology is certainly to discover many Chinnapulaya
   <li id="note-27">K.K. Govindam, Arukolakattam and related works. <a href="#ref-27">↩</a></li>
   <li id="note-28">Ekalavya and Shambuk as symbols of caste oppression in Dalit literature. <a href="#ref-28">↩</a></li>
 </ol>
+
+<style>
+/* Base typography */
+.article-content {
+  line-height: 1.7;
+  font-size: 1rem;
+  max-width: 70ch;
+}
+
+/* Paragraph indentation */
+.article-content p {
+  text-indent: 1.5em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Do NOT indent first paragraph after headings */
+.article-content h2 + p,
+.article-content h3 + p,
+.article-content h4 + p {
+  text-indent: 0;
+}
+
+/* Poem block */
+.poem {
+  margin-left: 1.5em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  line-height: 1.7;
+  white-space: normal; /* ensures <br> and Markdown breaks behave normally */
+}
+
+/* Slight extra spacing between stanzas (your blank lines) */
+.poem br + br {
+  display: block;
+  margin-top: 0.6em;
+  content: "";
+}
+
+/* Footnotes readability */
+.article-content sup {
+  font-size: 0.8em;
+}
+
+/* Accessibility: better spacing on small screens */
+@media (max-width: 600px) {
+  .article-content {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+
+  .poem {
+    margin-left: 1em;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto;
+  }
+}
+</style>
