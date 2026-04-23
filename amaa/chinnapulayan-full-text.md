@@ -478,6 +478,8 @@ One important task of Indian theology is certainly to discover many Chinnapulaya
   <li id="note-28">Ekalavya and Shambuk as symbols of caste oppression in Dalit literature. <a href="#ref-28">↩</a></li>
 </ol>
 
+{% include navbox-amaa.html %}
+
 <style>
 /* Base typography */
 .article-content {
