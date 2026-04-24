@@ -1,0 +1,179 @@
+<section class="newest-section" id="newest-pages">
+  <h2 class="newest-section-title">From the Newest Pages</h2>
+  <p class="newest-section-intro">Featured articles from our <a href="/newest/">newest pages</a>, updated on a rolling basis.</p>
+  <div class="newest-grid">
+
+    <div class="newest-card">
+      <div class="newest-card-meta">
+        <span class="newest-badge">New</span>
+        <span class="newest-date">24 April 2026</span>
+      </div>
+      <h3 class="newest-card-title">
+        <a href="/amaa/role-of-religion-dalit-liberation/">The Role of Religion in Dalit Liberation: Some Reflections</a>
+      </h3>
+      <p class="newest-card-desc">A. M. A. Ayrookuzhiel's essay examining the role of religion, caste, and political structures in Dalit liberation through a series of ten theses.</p>
+    </div>
+
+    <div class="newest-card">
+      <div class="newest-card-meta">
+        <span class="newest-badge">New</span>
+        <span class="newest-date">22 April 2026</span>
+      </div>
+      <h3 class="newest-card-title">
+        <a href="/cis/moa/">Memorandum of Association (MoA) of the Centre for Internet and Society</a>
+      </h3>
+      <p class="newest-card-desc">The Memorandum of Association and Rules and Regulations of the Centre for Internet and Society (CIS), registered on 4 July 2008 under the Karnataka Societies Registration Act, 1960.</p>
+    </div>
+
+    <div class="newest-card">
+      <div class="newest-card-meta">
+        <span class="newest-badge">New</span>
+        <span class="newest-date">21 April 2026</span>
+      </div>
+      <h3 class="newest-card-title">
+        <a href="/media/worldwide-webmaster-bangalore-mirror/">Worldwide Webmaster</a>
+      </h3>
+      <p class="newest-card-desc">A <em>Bangalore Mirror</em> profile of Sunil Abraham, former Executive Director of the Centre for Internet and Society, published in the Work section on 16 March 2014.</p>
+    </div>
+
+    <div class="newest-card">
+      <div class="newest-card-meta">
+        <span class="newest-badge">New</span>
+        <span class="newest-date">18 April 2026</span>
+      </div>
+      <h3 class="newest-card-title">
+        <a href="/media/indias-struggle-for-online-freedom-smh/">India's Struggle for Online Freedom</a>
+      </h3>
+      <p class="newest-card-desc">A <em>Sydney Morning Herald</em> opinion piece by Rebecca MacKinnon on India's growing internet freedom movement, the 2008 IT Act, the 2011 intermediary rules, and the risk of self-censorship.</p>
+    </div>
+
+    <div class="newest-card">
+      <div class="newest-card-meta">
+        <span class="newest-badge">New</span>
+        <span class="newest-date">14 April 2026</span>
+      </div>
+      <h3 class="newest-card-title">
+        <a href="/media/on-the-internet-how-much-is-too-much-the-hindu/">On the Internet, How Much Is Too Much?</a>
+      </h3>
+      <p class="newest-card-desc">A <em>The Hindu</em> report by Deepa Kurup examining free speech and defamation online in India, with quotes from Sunil Abraham on the chilling effect of the IT Act.</p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+.newest-section {
+  margin-block: 2.5rem;
+}
+
+.newest-section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  color: #1a1a2e;
+}
+
+.newest-section-intro {
+  font-size: 0.88rem;
+  color: #555;
+  margin-bottom: 1.25rem;
+  margin-top: 0;
+}
+
+.newest-section-intro a {
+  color: #003f8a;
+  text-decoration: none;
+}
+
+.newest-section-intro a:hover {
+  text-decoration: underline;
+}
+
+.newest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.newest-card {
+  padding: 1.25rem 1.4rem;
+  border-radius: 12px;
+  border-left: 4px solid #005cc5;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.newest-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,92,197,0.15);
+}
+
+.newest-card:nth-child(8n + 1) { background: linear-gradient(135deg, #fff9e6, #fff4d1); border-left-color: #f4c430; }
+.newest-card:nth-child(8n + 2) { background: linear-gradient(135deg, #e6f7ff, #d1edff); border-left-color: #40a9ff; }
+.newest-card:nth-child(8n + 3) { background: linear-gradient(135deg, #e6ffe6, #d1ffd1); border-left-color: #52c41a; }
+.newest-card:nth-child(8n + 4) { background: linear-gradient(135deg, #ffe6f0, #ffd1e6); border-left-color: #eb2f96; }
+.newest-card:nth-child(8n + 5) { background: linear-gradient(135deg, #f0e6ff, #e6d1ff); border-left-color: #722ed1; }
+.newest-card:nth-child(8n + 6) { background: linear-gradient(135deg, #e6fff9, #d1fff0); border-left-color: #13c2c2; }
+.newest-card:nth-child(8n + 7) { background: linear-gradient(135deg, #fff0e6, #ffe6d1); border-left-color: #fa8c16; }
+.newest-card:nth-child(8n + 8) { background: linear-gradient(135deg, #e8ffe6, #d6ffd1); border-left-color: #389e0d; }
+
+.newest-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.newest-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.15em 0.55em;
+  border-radius: 20px;
+  background: #005cc5;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.newest-date {
+  font-size: 0.78rem;
+  color: #666;
+}
+
+.newest-card-title {
+  font-size: 0.97rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.newest-card-title a {
+  color: #003f8a;
+  text-decoration: none;
+}
+
+.newest-card-title a:hover {
+  text-decoration: underline;
+}
+
+.newest-card-desc {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #444;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .newest-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .newest-card {
+    padding: 1rem 1.1rem;
+  }
+}
+</style>
