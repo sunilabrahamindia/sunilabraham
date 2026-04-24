@@ -67,7 +67,7 @@ OF
 Government of Karnataka  
 Office of the Registrar of Societies  
 No. 1, Aliaskar Road,  
-Bangalore – 560 052
+Bangalore – 560052
 
 Schedule 'B'  
 [See Rule 3(5)]
@@ -86,7 +86,7 @@ Given under my hand at Bangalore on the 04th day of July Two Thousand Eight (04-
 *(Seal)*  
 Registrar of Societies,  
 No. 1, Aliaskar Road,  
-Bangalore – 560 052  
+Bangalore – 560052  
 Bangalore Urban District.
 
 ### Memorandum of Association
@@ -131,49 +131,49 @@ Bangalore Urban District.
     <tbody>
       <tr>
         <td>1.</td>
-        <td>Sunil Abraham, 20/2, Miller Road, Benson Town, Bangalore – 560 046</td>
+        <td>Sunil Abraham, 20/2, Miller Road, Benson Town, Bangalore – 560046</td>
         <td>35</td>
         <td>Computer Engineer</td>
         <td>President</td>
       </tr>
       <tr>
         <td>2.</td>
-        <td>Achal Prabhala, 37, Haudin Road, Bangalore – 560 042</td>
+        <td>Achal Prabhala, 37, Haudin Road, Bangalore – 560042</td>
         <td>35</td>
         <td>Researcher</td>
         <td>Vice-President</td>
       </tr>
       <tr>
         <td>3.</td>
-        <td>Lawrence Liang, 1671, Austin Town, Bangalore – 560 047</td>
+        <td>Lawrence Liang, 1671, Austin Town, Bangalore – 560047</td>
         <td>34</td>
         <td>Lawyer</td>
         <td>Secretary</td>
       </tr>
       <tr>
         <td>4.</td>
-        <td>Nishant Shah, B-4, Om Surya Apt., Beside K.P. Hostel, Girinagar, Bangalore – 560 085</td>
+        <td>Nishant Shah, B-4, Om Surya Apt., Beside K.P. Hostel, Girinagar, Bangalore – 560085</td>
         <td>27</td>
         <td>Researcher</td>
         <td>Treasurer</td>
       </tr>
       <tr>
         <td>5.</td>
-        <td>Atul Ramachandra, 77/3, 17th Cross, Malleshwaram, Bangalore – 560 055</td>
+        <td>Atul Ramachandra, 77/3, 17th Cross, Malleshwaram, Bangalore – 560055</td>
         <td>30</td>
         <td>Social Worker</td>
         <td>Member</td>
       </tr>
       <tr>
         <td>6.</td>
-        <td>Subbiah Arunachalam, Flat 1, Ranges Apartments, 66, Venkatakrishna Road, Chennai – 600 028</td>
+        <td>Subbiah Arunachalam, Flat 1, Ranges Apartments, 66, Venkatakrishna Road, Chennai – 600028</td>
         <td>66</td>
         <td>Retired Scientist</td>
         <td>Member</td>
       </tr>
       <tr>
         <td>7.</td>
-        <td>Vibodh Parthasarathi, 26, Lodi Estate, New Delhi – 110 003</td>
+        <td>Vibodh Parthasarathi, 26, Lodi Estate, New Delhi – 110003</td>
         <td>39</td>
         <td>Business</td>
         <td>Member</td>
@@ -424,7 +424,7 @@ The funds and income of the Society shall be utilised for the achievement of the
 
 Every member of the Board of Management including any person(s) authorised by them shall be indemnified out of the funds of the Society against all losses, claims, damages, and expenses incurred in the discharge of duties of their office and carrying out instructions issued by the Society or Board of Management, as the case may be, except cases of action taken without the specific approval of the Society or the Board of Management as the case may be.
 
-## See Also
+## See also
 
 - [CIS Memorandum of Association: An Explainer](/cis/moa-explainer/) — a plain-language Q&A guide to this document, prepared by The Sunil Abraham Project
 
