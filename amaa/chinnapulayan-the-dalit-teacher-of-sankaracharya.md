@@ -7,22 +7,21 @@ description: "A. M. A. Ayrookuzhiel's study of the Pulaya Tottam of Pottan Teyya
 created: 2025-11-27
 ---
 
-{% include under-construction.html %}
-
 ***Chinnapulayan: The Dalit Teacher of Sankaracharya*** is a paper (essay) by [A. M. Abraham Ayrookuzhiel](/amaa/) that reproduces and closely interprets the Pulaya ritual song (the *Tottam* of Pottan Teyyam) alongside a Brahminised variant that inserts Sankaracharya into the encounter. The essay treats the *Tottam* as both ritual memory and argumentative text, documenting how the Pulaya version advances a material, experience-based critique of caste through images drawn from labour, food, wounds and shared dwelling. By placing this against the later Brahminised retelling, where a doctrinal Advaitic exchange replaces the original social confrontation, Ayrookuzhiel shows how the force of a Dalit protest poem can be preserved in form yet redirected in meaning. All quotations and page references below are taken directly from the source document.
 
 ## Contents
-- [Summary](#summary)
-- [Introduction and method](#introduction-and-method)
-- [Tottam (song) — Pulaya version: what the text says](#tottam-song--pulaya-version-what-the-text-says)
-- [Close readings — key passages and short analysis](#close-readings--key-passages-and-short-analysis)
-  - [Shared life and the rhetorical move](#shared-life-and-the-rhetorical-move)
-  - [Boat imagery and solidarity](#boat-imagery-and-solidarity)
-  - [Human dwelling as body and vulnerability](#human-dwelling-as-body-and-vulnerability)
-- [The Brahminised version — Sankaracharya enters](#the-brahminised-version--sankaracharya-enters)
-- [Major themes and argument](#major-themes-and-argument)
-- [Full text](#full-text)
-- [Publication](#publication)
+
+1. [Summary](#summary)
+2. [Introduction and method](#introduction-and-method)
+3. [Tottam (song) — Pulaya version: what the text says](#tottam-song--pulaya-version-what-the-text-says)
+4. [Close readings — key passages and short analysis](#close-readings--key-passages-and-short-analysis)
+   1. [Shared life and the rhetorical move](#shared-life-and-the-rhetorical-move)
+   2. [Boat imagery and solidarity](#boat-imagery-and-solidarity)
+   3. [Human dwelling as body and vulnerability](#human-dwelling-as-body-and-vulnerability)
+5. [The Brahminised version — Sankaracharya enters](#the-brahminised-version--sankaracharya-enters)
+6. [Major themes and argument](#major-themes-and-argument)
+7. [Full text](#full-text)
+8. [Publication](#publication)
 
 ## Summary
 
