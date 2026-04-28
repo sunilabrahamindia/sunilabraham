@@ -14,14 +14,14 @@ This version preserves the original wording, structure, poetic formatting, and f
 
 ## Contents
 
-- [Introduction](#introduction)
-- [Tottam (song) of Pottan Teyyam](#tottam-song-of-pottan-teyyam)
-  - [Historical Background](#historical-background)
-  - [The Song of God Pottan – Pulaya Version](#the-song-of-god-pottan--pulaya-version)
-- [The Song of God Pottan - The Brahminised Version](#the-song-of-god-pottan---the-brahminised-version)
-- [The Poem in Modern Dalit Literature](#the-poem-in-modern-dalit-literature)
-- [Conclusion](#conclusion)
-- [Notes](#notes)
+1. [Introduction](#introduction)
+2. [Tottam (song) of Pottan Teyyam](#tottam-song-of-pottan-teyyam)
+   1. [Historical Background](#historical-background)
+   2. [The Song of God Pottan – Pulaya Version](#the-song-of-god-pottan--pulaya-version)
+3. [The Song of God Pottan - The Brahminised Version](#the-song-of-god-pottan---the-brahminised-version)
+4. [The Poem in Modern Dalit Literature](#the-poem-in-modern-dalit-literature)
+5. [Conclusion](#conclusion)
+6. [Notes](#notes)
 
 ### Introduction
 
