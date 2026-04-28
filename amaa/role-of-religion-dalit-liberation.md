@@ -10,20 +10,21 @@ created: 2026-04-24
 ***The Role of Religion in Dalit Liberation: Some Reflections*** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), first published in 1994 in *The Role of the Philosopher Today*, edited by Anand Amaladass, S.J. The essay is structured as a sequence of ten theses that examine how religion, caste, and social power interact in the Indian context. Ayrookuzhiel argues that while religious traditions have historically reinforced caste hierarchy, they also contain internal resources for critique; however, religion by itself cannot dismantle caste. The essay emphasises that Dalit liberation depends fundamentally on changes in material conditions, political power, and the reconstruction of Dalit identity through history, culture, and collective struggle. All quotations and references below are drawn directly from the source text.
 
 ## Contents
-- [Summary](#summary)
-- [Introduction and framing](#introduction-and-framing)
-- [Religion and structures of inequality](#religion-and-structures-of-inequality)
-- [Limits of religious reform](#limits-of-religious-reform)
-- [Religion, politics, and alliances](#religion-politics-and-alliances)
-- [Critique of Hindu renaissance](#critique-of-hindu-renaissance)
-- [Religion and Dalit identity formation](#religion-and-dalit-identity-formation)
-- [Dalit religious traditions and practices](#dalit-religious-traditions-and-practices)
-- [Paths of protest and transformation](#paths-of-protest-and-transformation)
-- [Historical movements and cultural solidarity](#historical-movements-and-cultural-solidarity)
-- [Philosophical critiques of caste](#philosophical-critiques-of-caste)
-- [Contemporary shifts and future direction](#contemporary-shifts-and-future-direction)
-- [Full text](#full-text)
-- [Publication](#publication)
+
+1. [Summary](#summary)
+2. [Introduction and framing](#introduction-and-framing)
+3. [Religion and structures of inequality](#religion-and-structures-of-inequality)
+4. [Limits of religious reform](#limits-of-religious-reform)
+5. [Religion, politics, and alliances](#religion-politics-and-alliances)
+6. [Critique of Hindu renaissance](#critique-of-hindu-renaissance)
+7. [Religion and Dalit identity formation](#religion-and-dalit-identity-formation)
+8. [Dalit religious traditions and practices](#dalit-religious-traditions-and-practices)
+9. [Paths of protest and transformation](#paths-of-protest-and-transformation)
+10. [Historical movements and cultural solidarity](#historical-movements-and-cultural-solidarity)
+11. [Philosophical critiques of caste](#philosophical-critiques-of-caste)
+12. [Contemporary shifts and future direction](#contemporary-shifts-and-future-direction)
+13. [Full text](#full-text)
+14. [Publication](#publication)
 
 ## Summary
 
