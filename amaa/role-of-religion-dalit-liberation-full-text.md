@@ -14,18 +14,18 @@ This version preserves the original wording, structure, and argumentation as pre
 
 ## Contents
 
-- [Introduction](#introduction)
-- [Thesis 1](#thesis-1)
-- [Thesis 2](#thesis-2)
-- [Thesis 3](#thesis-3)
-- [Thesis 4](#thesis-4)
-- [Thesis 5](#thesis-5)
-- [Thesis 6](#thesis-6)
-- [Thesis 7](#thesis-7)
-- [Thesis 8](#thesis-8)
-- [Thesis 9](#thesis-9)
-- [Thesis 10](#thesis-10)
-- [Notes](#notes)
+1. [Introduction](#introduction)
+2. [Thesis 1](#thesis-1)
+3. [Thesis 2](#thesis-2)
+4. [Thesis 3](#thesis-3)
+5. [Thesis 4](#thesis-4)
+6. [Thesis 5](#thesis-5)
+7. [Thesis 6](#thesis-6)
+8. [Thesis 7](#thesis-7)
+9. [Thesis 8](#thesis-8)
+10. [Thesis 9](#thesis-9)
+11. [Thesis 10](#thesis-10)
+12. [Notes](#notes)
 
 ## Introduction
 
