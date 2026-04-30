@@ -7,6 +7,8 @@ categories: [TSAP Documentation]
 created: 2026-04-30
 ---
 
+{% include under-construction.html %}
+
 The **Statistics** page provides a quantitative overview of the Sunil Abraham Project (TSAP), presenting aggregated data about the site's content, structure, and growth. It functions as a central dashboard for understanding the scale and development of the project, including the number of published pages, distribution across categories and authors, and patterns of content creation over time.
 
 This page is generated using build-time data and reflects the state of the site at the time of rendering. It is intended to support transparency, editorial analysis, and navigation by offering clear insights into how content is organised and how the project is evolving.
@@ -27,3 +29,26 @@ In addition to summary metrics, the page may include indicators of structural he
 
 - **Total Pages:** {{ created_pages | size }}
 - **Total Categories:** {{ catlist | size }}
+
+## Articles created by month
+
+This section shows the number of pages created each month, based on the `created:` field.
+
+{% assign months = "" | split: "," %}
+{% for page in created_pages %}
+  {% assign m = page.created | date: "%Y-%m" %}
+  {% unless months contains m %}
+    {% assign months = months | push: m %}
+  {% endunless %}
+{% endfor %}
+
+{% assign sorted_months = months | sort %}
+
+<ul>
+{% for m in sorted_months %}
+  {% assign count = created_pages | where_exp: "p", "p.created | date: '%Y-%m' == m" | size %}
+  <li>
+    <strong>{{ m | date: "%B %Y" }}</strong>: {{ count }}
+  </li>
+{% endfor %}
+</ul>
