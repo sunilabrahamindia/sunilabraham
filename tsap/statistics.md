@@ -32,8 +32,6 @@ In addition to summary metrics, the page may include indicators of structural he
 
 ## Articles created by month
 
-This section shows the number of pages created each month, based on the `created:` field.
-
 {% assign months = "" | split: "," %}
 {% for page in created_pages %}
   {% assign m = page.created | date: "%Y-%m" %}
@@ -46,9 +44,15 @@ This section shows the number of pages created each month, based on the `created
 
 <ul>
 {% for m in sorted_months %}
-  {% assign count = created_pages | where_exp: "p", "p.created | date: '%Y-%m' == m" | size %}
-  <li>
-    <strong>{{ m | date: "%B %Y" }}</strong>: {{ count }}
-  </li>
+  {% assign count = 0 %}
+  {% for page in created_pages %}
+    {% assign pm = page.created | date: "%Y-%m" %}
+    {% if pm == m %}
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  <li><strong>{{ m | date: "%B %Y" }}</strong>: {{ count }}</li>
+{% endfor %}
+</ul>
 {% endfor %}
 </ul>
