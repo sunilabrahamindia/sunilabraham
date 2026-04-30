@@ -54,5 +54,3 @@ In addition to summary metrics, the page may include indicators of structural he
   <li><strong>{{ m | date: "%B %Y" }}</strong>: {{ count }}</li>
 {% endfor %}
 </ul>
-{% endfor %}
-</ul>
