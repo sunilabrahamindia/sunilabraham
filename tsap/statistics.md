@@ -13,10 +13,8 @@ This page is generated using build-time data and reflects the state of the site 
 
 In addition to summary metrics, the page may include indicators of structural health, such as orphaned pages, highly linked pages, and category distribution, helping identify areas for further development and improvement.
 
-## Core Metrics 
-{% assign created_pages = site.pages | where_exp: "p", "p.created" %}
-- **Total Pages:** {{ created_pages | size }}
-- **Total Categories:**
+## Core Metrics
+
 {% assign created_pages = site.pages | where_exp: "p", "p.created" %}
 {% assign catlist = "" | split: "," %}
 {% for page in created_pages %}
@@ -26,4 +24,6 @@ In addition to summary metrics, the page may include indicators of structural he
     {% endunless %}
   {% endfor %}
 {% endfor %}
-{{ catlist | size }}
+
+- **Total Pages:** {{ created_pages | size }}
+- **Total Categories:** {{ catlist | size }}
