@@ -27,7 +27,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 13. [Version 1.4.1](#version-141)
 14. [Version 1.4.2](#version-142)
 15. [Version 1.5](#version-15)
-
+16. [Version 1.6](#version-16)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -484,3 +484,36 @@ Completion date: 11 April 2026 (night)
 
 **Status** ✅ Done  
 Completion date: 18 April 2026 (night)
+
+## Version 1.6
+
+- 27 new pages have been published this week between 19 April 2026 and 25 April 2026.
+
+**Milestone**
+- TSAP crossed **900 published articles** with the addition of [*My Outsides Look Cool, My Insides Are Blue...*](/publications/my-outsides-look-cool-my-insides-are-blue-sunday-herald/).
+
+**Clusters**
+- Work was carried out on the [*GovTech*](/clusters/sunil-abraham-govtech/) and [*Mail Today*](/clusters/sunil-abraham-mail-today/) clusters.
+
+**Centre for Internet and Society (CIS)**
+- Created [Memorandum of Association (MoA) of the Centre for Internet and Society](/cis/moa/) and [CIS Memorandum of Association: An Explainer](/cis/moa-explainer/).
+
+**A. M. A. Ayrookuzhiel and Related Works**
+- Created [The Role of Religion in Dalit Liberation: Some Reflections](/amaa/role-of-religion-dalit-liberation/).
+- Added [Full Text: The Role of Religion in Dalit Liberation: Some Reflections](/amaa/role-of-religion-dalit-liberation-full-text/).
+- Added [Full Text: Chinnapulayan: The Dalit Teacher of Sankaracharya](/chinnapulayan-full-text/).
+
+**Homepage Enhancements**
+- Introduced a new include file `_includes/newest-section.html` for the home page section titled “From the Newest Pages”.
+- The section displays 5 manually selected recent pages in a card grid, styled consistently with the DYK section, and includes a subtitle and link to contents navigation.
+- Fixed a heading class mismatch after integration into `index.md`.
+
+**TSAP Documentation**
+- Created four permanent editorial log pages: [/tsap/newest-pages-documentation/](/tsap/newest-pages-documentation/), [/tsap/featured-article-documentation/](/tsap/featured-article-documentation/), [/tsap/featured-media-documentation/](/tsap/featured-media-documentation/), [/tsap/did-you-know-documentation/](/tsap/did-you-know-documentation/)
+
+**General Maintenance**
+- Improved mobile paragraph spacing in `assets/css/style.css` by adding `p { margin-bottom: 1rem; line-height: 1.8; }` within the `@media (max-width: 768px)` block, aligning mobile readability with desktop without affecting list spacing.
+- Moved Featured Article and Featured Media sections from `index.md` into `_includes/featured-article.html` and `_includes/featured-media.html`, replacing inline code with `{% include %}` tags.
+
+**Status** ✅ Done  
+Completion date: 25 April 2026 (night)
