@@ -41,7 +41,7 @@ Version 1.1 covers the period between 1 January and 11 January 2026. Work during
 
 **Content**
 - At the end of Version 1.0, the site contained 374 articles.
-- **67 new articles** were created during this period and prepared for addition to the site.
+- 67 new articles were created during this period and prepared for addition to the site.
 - Work remained centred on documentation and archival completeness.
 
 **Media Mentions**
@@ -509,7 +509,7 @@ Completion date: 18 April 2026 (night)
 - Fixed a heading class mismatch after integration into `index.md`.
 
 **TSAP Documentation**
-- Created four permanent editorial log pages: [/tsap/newest-pages-documentation/](/tsap/newest-pages-documentation/), [/tsap/featured-article-documentation/](/tsap/featured-article-documentation/), [/tsap/featured-media-documentation/](/tsap/featured-media-documentation/), [/tsap/did-you-know-documentation/](/tsap/did-you-know-documentation/)
+- Created four permanent editorial log pages: [Newest Pages documentation](/tsap/newest-pages-documentation/), [Featured article documentation](/tsap/featured-article-documentation/), [Featured media documentation](/tsap/featured-media-documentation/), [Did you know documentation](/tsap/did-you-know-documentation/)
 
 **General Maintenance**
 - Improved mobile paragraph spacing in `assets/css/style.css` by adding `p { margin-bottom: 1rem; line-height: 1.8; }` within the `@media (max-width: 768px)` block, aligning mobile readability with desktop without affecting list spacing.
