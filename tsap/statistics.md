@@ -16,3 +16,14 @@ In addition to summary metrics, the page may include indicators of structural he
 ## Core Metrics 
 {% assign created_pages = site.pages | where_exp: "p", "p.created" %}
 - **Total Pages:** {{ created_pages | size }}
+- **Total Categories:**
+{% assign created_pages = site.pages | where_exp: "p", "p.created" %}
+{% assign catlist = "" | split: "," %}
+{% for page in created_pages %}
+  {% for c in page.categories %}
+    {% unless catlist contains c %}
+      {% assign catlist = catlist | push: c %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{{ catlist | size }}
