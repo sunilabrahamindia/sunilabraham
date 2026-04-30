@@ -195,6 +195,8 @@ One may wonder that this emerging historical situation of the Dalits with their 
   </li>
 </ol>
 
+{% include navbox-amaa.html %}
+
 <style>
 /* Base typography */
 .article-content {
