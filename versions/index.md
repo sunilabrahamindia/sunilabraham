@@ -513,7 +513,7 @@ Completion date: 18 April 2026 (night)
 
 **General Maintenance**
 - Improved mobile paragraph spacing in `assets/css/style.css` by adding `p { margin-bottom: 1rem; line-height: 1.8; }` within the `@media (max-width: 768px)` block, aligning mobile readability with desktop without affecting list spacing.
-- Moved Featured Article and Featured Media sections from `index.md` into `_includes/featured-article.html` and `_includes/featured-media.html`, replacing inline code with `{% include %}` tags.
+- Moved Featured Article and Featured Media sections from `index.md` into `_includes/featured-article.html` and `_includes/featured-media.html`, replacing inline code with {% raw %}{% include %}{% endraw %} tags.
 
 **Status** ✅ Done  
 Completion date: 25 April 2026 (night)
