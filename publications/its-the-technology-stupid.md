@@ -1,16 +1,16 @@
 ---
 layout: default
 title: "It's the Technology, Stupid"
-description: "An article by Sunil Abraham in The Hindu BusinessLine analysing why Aadhaar's biometric architecture is insecure and why open, decentralised smart-card systems would have been a safer choice."
+description: "An article by Sunil Abraham in The Hindu Business Line analysing why Aadhaar's biometric architecture is insecure and why open, decentralised smart-card systems would have been a safer choice."
 categories: [Media articles, Publications]
 date: 2017-03-31
 authors: ["Sunil Abraham"]
-source: "The Hindu BusinessLine"
+source: "The Hindu Business Line"
 permalink: /publications/its-the-technology-stupid/
 created: 2025-11-15
 ---
 
-**It's the Technology, Stupid** is an article by [Sunil Abraham](/sunil/), published in *The Hindu BusinessLine* on 31 March 2017. The article appears with the subheading "11 reasons why Aadhaar is not just non-smart but also insecure", outlining structural flaws in Aadhaar's biometric design and explaining why biometrics are unsuitable for secure, citizen-centric e-governance systems.
+**It's the Technology, Stupid** is an article by [Sunil Abraham](/sunil/), published in *The Hindu Business Line* on 31 March 2017. The article appears with the subheading "11 reasons why Aadhaar is not just non-smart but also insecure", outlining structural flaws in Aadhaar's biometric design and explaining why biometrics are unsuitable for secure, citizen-centric e-governance systems.
 
 ## Contents
 
@@ -23,7 +23,7 @@ created: 2025-11-15
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>The Hindu BusinessLine</em></dd>
+  <dd><em>The Hindu Business Line</em></dd>
 
   <dt>📅 Date:</dt>
   <dd>31 March 2017</dd>
@@ -92,7 +92,7 @@ This article was published at a time when concerns over Aadhaar's privacy, secur
 
 ## External Link
 
-- [Read on The Hindu BusinessLine](https://www.thehindubusinessline.com/blink/cover/its-the-technology-stupid/article64568216.ece)
+- [Read on The Hindu Business Line](https://www.thehindubusinessline.com/blink/cover/its-the-technology-stupid/article64568216.ece)
 
 <style>
 .highlighted-text {
