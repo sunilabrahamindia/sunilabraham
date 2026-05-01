@@ -4,12 +4,12 @@ title: "Activists Cry Foul Against Aadhaar"
 description: "A Telegraph report on a civil society meeting in Ranchi urging Jharkhand to sever ties with UIDAI, at which Sunil Abraham of CIS participated."
 categories: [Media mentions]
 date: 2012-01-12
-source: "The Telegraph"
+source: "The Telegraph (India)"
 permalink: /media/activists-cry-foul-against-aadhaar-telegraph/
 created: 2026-05-01
 ---
 
-**Activists Cry Foul Against Aadhaar** is a *The Telegraph* report published on 12 January 2012. The article covers a civil society meeting held in Ranchi on 11 January 2012, convened by the Indian Social Action Forum, at which participants urged the Jharkhand state government to sever ties with the Unique Identification Authority of India (UIDAI) and halt the generation of Aadhaar numbers. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/) (CIS) in Bangalore, was among the participants.
+**Activists Cry Foul Against Aadhaar** is a *The Telegraph (India)* report published on 12 January 2012. The article covers a civil society meeting held in Ranchi on 11 January 2012, convened by the Indian Social Action Forum, at which participants urged the Jharkhand state government to sever ties with the Unique Identification Authority of India (UIDAI) and halt the generation of Aadhaar numbers. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/) (CIS) in Bangalore, was among the participants.
 
 ## Contents
 
@@ -21,7 +21,7 @@ created: 2026-05-01
 
 <dl class="media-details">
   <dt>📰 Published in:</dt>
-  <dd><em>The Telegraph</em></dd>
+  <dd><em>The Telegraph (India)</em></dd>
 
   <dt>📅 Date:</dt>
   <dd>12 January 2012</dd>
