@@ -28,6 +28,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 14. [Version 1.4.2](#version-142)
 15. [Version 1.5](#version-15)
 16. [Version 1.6](#version-16)
+17. [Version 1.6.1](#version-161)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -517,3 +518,21 @@ Completion date: 18 April 2026 (night)
 
 **Status** ✅ Done  
 Completion date: 25 April 2026 (night)
+
+## Version 1.6.1
+
+- 24 new articles have been published this week between 26 April 2026 and 1 May 2026.
+
+**A. M. A. Ayrookuzhiel and Dalit Liberation Works**
+- Created [Christian Dalits in Revolt](/amaa/christian-dalits-in-revolt/).
+- Added [Full Text: Christian Dalits in Revolt](/amaa/christian-dalits-in-revolt-full-text/).
+- Created [The Religious Factor in Dalit Liberation: Some Reflections](/amaa/religious-factor-dalit-liberation/).
+- Added [Full Text: The Religious Factor in Dalit Liberation: Some Reflections](/amaa/religious-factor-dalit-liberation-full-text/).
+
+**Clusters**
+- The [*The Washington Post*](/clusters/sunil-abraham-washington-post/) cluster was rechecked during this cycle.
+- Additional articles that had not been identified earlier were located, created, and integrated into the cluster.
+- General cleanup and maintenance work was also carried out across related pages.
+
+**Status** ✅ Done  
+Completion date: 1 May 2026 (night)
