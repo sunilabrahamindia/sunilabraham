@@ -177,7 +177,7 @@ The board of CIS as on 31 March 2010 comprised seven members:
     <tr>
       <td>Sunil Abraham</td>
       <td>Invitee</td>
-      <td>Computer Engineer</td>
+      <td>Engineer</td>
       <td>IPR Reform</td>
     </tr>
     <tr>
