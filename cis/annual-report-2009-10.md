@@ -13,18 +13,18 @@ The report is organised into eight thematic areas: Researchers at Work, Digital 
 
 ## Contents
 
-- [Researchers at Work](#researchers-at-work)
-- [Digital Identities](#digital-identities)
-- [Digital Learning and Pedagogy](#digital-learning-and-pedagogy)
-- [Accessibility](#accessibility)
-- [Intellectual Property Rights](#intellectual-property-rights)
-- [Openness](#openness)
-- [Internet Governance](#internet-governance)
-- [Telecom and Broadband](#telecom-and-broadband)
-- [Other Projects](#other-projects)
-- [Media Coverage](#media-coverage)
-- [Organisation and Governance](#organisation-and-governance)
-- [Full Report](#full-report)
+1. [Researchers at Work](#researchers-at-work)
+2. [Digital Identities](#digital-identities)
+3. [Digital Learning and Pedagogy](#digital-learning-and-pedagogy)
+4. [Accessibility](#accessibility)
+5. [Intellectual Property Rights](#intellectual-property-rights)
+6. [Openness](#openness)
+7. [Internet Governance](#internet-governance)
+8. [Telecom and Broadband](#telecom-and-broadband)
+9. [Other Projects](#other-projects)
+10. [Media Coverage](#media-coverage)
+11. [Organisation and Governance](#organisation-and-governance)
+12. [Full Report](#full-report)
 
 ## Researchers at Work
 
