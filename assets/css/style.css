@@ -185,13 +185,18 @@ tr:last-child td {
 @media (max-width: 768px) {
   body {
     padding: 0 1rem 3rem;
+    line-height: 1.4;
   }
+
   .main-content {
     padding: 1.5rem;
   }
-  p {
-    margin-bottom: 1rem;
-    line-height: 1.8;
+
+  p,
+  li,
+  td,
+  th {
+    line-height: 1.4;
   }
 }
 
