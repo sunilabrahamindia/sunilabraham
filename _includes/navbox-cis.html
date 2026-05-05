@@ -1,0 +1,212 @@
+<nav class="navbox-cis" aria-label="Centre for Internet and Society navigation">
+  <div class="navbox-cis__inner">
+
+    <div class="navbox-cis__title">
+      <a href="/cis/">Centre for Internet and Society</a>
+      <span class="navbox-cis__viewlink">[<a href="/cis/template/">Template</a>]</span>
+    </div>
+
+    <div class="navbox-cis__body">
+
+      <div class="navbox-cis__links-col">
+
+        <div class="navbox-cis__row">
+          <span class="navbox-cis__label">Foundational documents</span>
+          <span class="navbox-cis__items">
+            <a href="/cis/moa/">Memorandum of Association</a>
+            (<a href="/cis/moa-explainer/">Explainer</a>) &middot;
+            <a href="/cis/concept-note/">Concept note</a>
+            (<a href="/cis/concept-note-full-text/">Full text</a>)
+          </span>
+        </div>
+
+        <div class="navbox-cis__row">
+          <span class="navbox-cis__label">Reports</span>
+          <span class="navbox-cis__items">
+            <a href="/cis/annual-report-2008-09/">2008–09</a> &middot;
+            <a href="/cis/annual-report-2009-10/">2009–10</a> &middot;
+            <a href="/cis/annual-report-2010-11/">2010–11</a> &middot;
+            <a href="/cis/annual-report-2011-12/">2011–12</a> &middot;
+            <a href="/cis/annual-report-2012-13/">2012–13</a>
+          </span>
+        </div>
+
+        <div class="navbox-cis__row">
+          <span class="navbox-cis__label">People</span>
+          <span class="navbox-cis__items">
+            <a href="/sunil/">Sunil Abraham</a>
+          </span>
+        </div>
+
+      </div>
+
+      <div class="navbox-cis__photo-col">
+        <img
+          src="/cis/images/cis-logo.png"
+          alt="Centre for Internet and Society logo"
+          width="140"
+          height="80"
+          loading="lazy"
+        >
+        <p class="navbox-cis__photo-caption">CIS</p>
+      </div>
+
+    </div>
+
+  </div>
+</nav>
+
+<style>
+.navbox-cis {
+  border: 1px solid #d6dbe3;
+  background: #f9fbff;
+  border-radius: 0.5rem;
+  margin: 2rem 0 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  transition: box-shadow 0.25s ease, transform 0.2s ease;
+}
+
+.navbox-cis:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.navbox-cis__title {
+  background: #eef4fb;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  border-bottom: 1px solid #d6dbe3;
+  color: #1a1a1a;
+  position: relative;
+  border-top: 3px solid #3a7bd5; /* brighter but accessible blue */
+}
+
+.navbox-cis__viewlink {
+  position: absolute;
+  right: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.navbox-cis__viewlink a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.navbox-cis__viewlink a:hover {
+  text-decoration: underline;
+}
+
+.navbox-cis a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.navbox-cis a:hover {
+  color: #3a7bd5;
+  text-decoration: underline;
+}
+
+.navbox-cis a:visited {
+  color: #0b0080;
+}
+
+.navbox-cis a:focus-visible {
+  outline: 2px solid #3a7bd5;
+  outline-offset: 2px;
+}
+
+.navbox-cis__body {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  align-items: flex-start;
+}
+
+.navbox-cis__links-col {
+  flex: 1 1 auto;
+}
+
+.navbox-cis__photo-col {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.navbox-cis__photo-col img {
+  width: 120px;
+  height: auto;
+  border: 1px solid #d6dbe3;
+  border-radius: 0.375rem;
+  background: #fff;
+  padding: 0.3rem;
+}
+
+.navbox-cis__photo-caption {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+.navbox-cis__row {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #e6e9ef;
+  align-items: baseline;
+}
+
+.navbox-cis__row:last-child {
+  border-bottom: none;
+}
+
+.navbox-cis__label {
+  flex: 0 0 140px;
+  font-weight: 600;
+  color: #444;
+  font-size: 0.875rem;
+}
+
+.navbox-cis__items {
+  flex: 1 1 auto;
+  color: #222;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .navbox-cis__body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbox-cis__photo-col {
+    order: -1;
+  }
+
+  .navbox-cis__photo-col img {
+    width: 100px;
+  }
+
+  .navbox-cis__row {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .navbox-cis__label {
+    flex: none;
+    font-size: 0.8rem;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .navbox-cis {
+    transition: none;
+  }
+}
+</style>
