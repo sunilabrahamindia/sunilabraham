@@ -187,6 +187,8 @@ The concept note identifies several countries and contexts offering immediate op
   </p>
 </div>
 
+{% include navbox-cis.html %}
+
 <style>
 .pdf-container { margin: 1.2rem 0; text-align: center; }
 .pdf-frame {

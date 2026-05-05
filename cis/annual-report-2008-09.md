@@ -384,6 +384,8 @@ The report concluded with an invitation to researchers, practitioners, and organ
   </p>
 </div>
 
+{% include navbox-cis.html %}
+
 <style>
 .table-responsive {
   width: 100%;
