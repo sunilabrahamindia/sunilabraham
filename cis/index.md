@@ -7,8 +7,6 @@ categories: [Centre for Internet and Society, Institutions, Sunil Abraham]
 created: 2026-04-04
 ---
 
-{% include under-construction.html %}
-
 <div class="cis-logo-wrap">
   <img src="/cis/images/cis-logo.png" alt="The Centre for Internet and Society logo">
 </div>
@@ -20,6 +18,15 @@ Its areas of focus include digital accessibility for persons with disabilities, 
 [Sunil Abraham](/sunil/) co-founded CIS and served as its Executive Director from 2008 to mid-2019. On The Sunil Abraham Project (TSAP), we specially cover the history and work of CIS between 2008 and mid-2019, before Sunil stepped down as Executive Director.
 
 According to a notice displayed as a banner on its official website, CIS stopped all its programmatic activities as of 1 May 2025, citing regulatory changes.
+
+## Contents
+
+1. [Founding and Registration](#founding-and-registration)
+2. [Objectives](#objectives)
+3. [Concept Note](#concept-note)
+4. [Memorandum of Association](#memorandum-of-association)
+5. [Annual Reports](#annual-reports)
+6. [External Link](#external-link)
 
 ## Founding and Registration
 
@@ -59,6 +66,16 @@ In July 2008, CIS prepared a concept note setting out the rationale, mission, re
 {% include main-article.html link="/cis/moa/" title="Memorandum of Association and Rules and Regulations of the Centre for Internet and Society" %}
 
 The Memorandum of Association (MoA) is the founding legal document of CIS, executed on 4 July 2008 and amended in February 2010. It sets out the society's name, registered address, aims and objects, membership structure, governance arrangements, financial rules, and provisions for dissolution. A supplementary [plain-language explainer](/cis/moa-explainer/) of the MoA, prepared by TSAP in question-and-answer format, is also available.
+
+## Annual Reports
+
+CIS published annual reports documenting its research, advocacy, events, publications, and organisational development. The reports available on TSAP currently cover the organisation's early years from its founding phase through its expansion into a major policy research institution.
+
+1. [Annual Report 2008–09](/cis/annual-report-2008-09/)
+2. [Annual Report 2009–10](/cis/annual-report-2009-10/)
+3. [Annual Report 2010–11](/cis/annual-report-2010-11/)
+4. [Annual Report 2011–12](/cis/annual-report-2011-12/)
+5. [Annual Report 2012–13](/cis/annual-report-2012-13/)
 
 ## External Link
 - [Official website](https://cis-india.org/)
