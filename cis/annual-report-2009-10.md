@@ -267,6 +267,8 @@ The registered office at the time of the report was No. 194, 2nd 'C' Cross, Doml
   </p>
 </div>
 
+{% include navbox-cis.html %}
+
 <style>
 .table-responsive {
   width: 100%;

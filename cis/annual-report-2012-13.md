@@ -398,6 +398,8 @@ The organisation's primary donor was the Kusuma Trust. Other funders acknowledge
   </p>
 </div>
 
+{% include navbox-cis.html %}
+
 <style>
 .table-responsive {
   width: 100%;
