@@ -23,11 +23,11 @@
         <div class="navbox-cis__row">
           <span class="navbox-cis__label">Reports</span>
           <span class="navbox-cis__items">
-            <a href="/cis/annual-report-2008-09/">2008–09</a> &middot;
-            <a href="/cis/annual-report-2009-10/">2009–10</a> &middot;
-            <a href="/cis/annual-report-2010-11/">2010–11</a> &middot;
-            <a href="/cis/annual-report-2011-12/">2011–12</a> &middot;
-            <a href="/cis/annual-report-2012-13/">2012–13</a>
+            <a href="/cis/annual-report-2008-09/">Annual Report 2008–09</a> &middot;
+            <a href="/cis/annual-report-2009-10/">Annual Report 2009–10</a> &middot;
+            <a href="/cis/annual-report-2010-11/">Annual Report 2010–11</a> &middot;
+            <a href="/cis/annual-report-2011-12/">Annual Report 2011–12</a> &middot;
+            <a href="/cis/annual-report-2012-13/">Annual Report 2012–13</a>
           </span>
         </div>
 
@@ -48,7 +48,6 @@
           height="80"
           loading="lazy"
         >
-        <p class="navbox-cis__photo-caption">CIS</p>
       </div>
 
     </div>
@@ -81,7 +80,7 @@
   border-bottom: 1px solid #d6dbe3;
   color: #1a1a1a;
   position: relative;
-  border-top: 3px solid #3a7bd5; /* brighter but accessible blue */
+  border-top: 3px solid #3a7bd5;
 }
 
 .navbox-cis__viewlink {
@@ -136,6 +135,8 @@
 .navbox-cis__photo-col {
   flex: 0 0 auto;
   text-align: center;
+  display: flex;
+  align-items: center; /* removes bottom gap */
 }
 
 .navbox-cis__photo-col img {
@@ -145,12 +146,6 @@
   border-radius: 0.375rem;
   background: #fff;
   padding: 0.3rem;
-}
-
-.navbox-cis__photo-caption {
-  font-size: 0.75rem;
-  color: #666;
-  margin-top: 0.3rem;
 }
 
 .navbox-cis__row {
