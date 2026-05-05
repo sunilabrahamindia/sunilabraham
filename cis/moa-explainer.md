@@ -372,6 +372,8 @@ The President is the Chief Functionary of CIS, appointed by the Board of Managem
 
 <p class="explainer-footer">This explainer was prepared by <a href="/">The Sunil Abraham Project</a> for informational purposes only. It is not a legal document. For the authoritative text, see the <a href="/cis/moa/">full Memorandum of Association of CIS</a>.</p>
 
+{% include navbox-cis.html %}
+
 <style>
 .explainer-group {
   display: flex;

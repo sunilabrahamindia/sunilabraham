@@ -63,6 +63,8 @@ The Memorandum of Association (MoA) is the founding legal document of CIS, execu
 ## External Link
 - [Official website](https://cis-india.org/)
 
+{% include navbox-cis.html %}
+
 <style>
 .cis-logo-wrap {
   float: right;

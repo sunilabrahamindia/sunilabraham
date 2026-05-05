@@ -387,6 +387,8 @@ The organisation's primary donors were the Kusuma Trust, Hivos, IDRC, Privacy In
   </p>
 </div>
 
+{% include navbox-cis.html %}
+
 <style>
 .table-responsive {
   width: 100%;

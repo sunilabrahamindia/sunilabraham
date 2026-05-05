@@ -223,3 +223,5 @@ The following is a short list of countries where there are immediate opportuniti
 **Malaysia:** Ex-UNDP colleague is heading Malaysian Administrative Modernization and Management Planning Unit, (MAMPU), Open Source Competency Centre.
 
 **Bangladesh:** UNDP is supporting the Prime Minister's Office with e-Governance implementation. The Chief Advisor of the current care-taker government is Dr. Fakhruddin Ahmed is from civil society and sympathetic to citizen's interests.
+
+{% include navbox-cis.html %}

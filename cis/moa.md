@@ -428,6 +428,8 @@ Every member of the Board of Management including any person(s) authorised by th
 
 - [CIS Memorandum of Association: An Explainer](/cis/moa-explainer/) — a plain-language Q&A guide to this document, prepared by The Sunil Abraham Project
 
+{% include navbox-cis.html %}
+
 <style>
 .cis-logo-wrap {
   float: right;
