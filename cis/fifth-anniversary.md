@@ -24,7 +24,7 @@ The **Fifth Anniversary of the Centre for Internet and Society** was a four-day 
 7. [Press Coverage](#press-coverage)
 8. [Event Flier](#event-flier)
 9. [References](#references)
-10. [External Link](#external-link)
+10. [External Links](#external-links)
 
 ## Background
 
@@ -49,9 +49,13 @@ The Centre for Internet and Society was registered on 4 July 2008 and, by May 20
 
 CIS marked the occasion with an act of transparency that set the celebrations apart from a conventional institutional milestone. The organisation opened its account books and donor contracts to the general public, inviting visitors to examine how the ₹13.13 crore it had received from donors had been spent. The *Udayavani* report of 25 May 2013 noted this aspect of the event approvingly, describing the organisation's effort to engage the public directly and underlining the transparency as a defining feature of the celebration.
 
+At the time of the anniversary, CIS had seventeen staff members, four based in Delhi and the remainder in Bangalore, alongside seven distinguished fellows and five fellows. The organisation had received funding from seventeen donors, a majority from overseas, with primary funders including the Kusuma Trust, the Wikimedia Foundation, and the Hans Foundation. Sunil Abraham noted that the decision to open the accounts was partly motivated by the climate of scrutiny surrounding NGOs at the time, particularly following parliamentary debates on the Foreign Contribution Regulation Act (FCRA) of 2010, which had drawn attention to financial transparency practices among organisations receiving overseas contributions.
+
 ## Exhibition
 
 The open exhibition ran on all four days from 20 to 23 May 2013, from 10.00 a.m. to 8.00 p.m., at both the Bangalore and Delhi offices of CIS. The exhibition was accompanied by printed material and posters detailing individual projects and thematic areas. Thematic areas covered in the exhibition included accessibility, access to knowledge, openness, internet governance (free speech and privacy), telecom, RAW monographs in digital humanities, and organisational materials such as media coverage and an organisational chart. All exhibition posters were subsequently made available for public download from the CIS website.
+
+By the time of the anniversary, CIS had produced 641 research items over five years, comprising essays, books, and blog entries across its programme areas. The organisation had also conducted research on the accessibility of India's e-governance systems, producing recommendations on making digital public services more accessible to persons with disabilities.
 
 Four artists — Kiran Subbaiah, Tara Kelton, Navin Thomas, and Abhishek Hazra — exhibited their work and gave live demonstrations during the exhibition. Attendee Nigel Babu, writing on his personal blog on 23 May 2013, noted Tara Kelton's work and the work of Sharath Chandra Ram among those that stood out to him. Kelton presented *Trace*, a surveillance camera feed drawn in real-time by anonymous online workers, while Kiran Subbaiah presented *Spectator*, a robot designed to sense the presence of human beings and respond to them as objects of observation.
 
@@ -328,7 +332,31 @@ The event received press coverage in both English and Kannada media:
 
 - Subir Ghosh, writing in *DNA India* on 19 May 2013, published [*"A Lifetime of Five Years on the Internet"*](/media/a-lifetime-of-five-years-on-the-internet-dna/), drawing extensively on quotes from Sunil Abraham on the evolution of internet policy in India, covering privacy legislation, the IT Act, shared spectrum, broadband access, and patent and copyright policy.
 - *Udayavani*, the Kannada daily, published a report on 25 May 2013 covering the event, with a headline referring to the importance of Kannada in computing contexts. The report noted CIS's act of financial transparency and highlighted the organisation's engagement with issues at the intersection of technology and society.
+- *Bangalore Mirror* published a report on 18 May 2013 titled [*"NGO Invites Public to Peruse Its Accounts"*](/media/ngo-invites-public-to-peruse-its-accounts-bangalore-mirror/), covering CIS's decision to open its books of accounts to public scrutiny ahead of the anniversary, with quotes from Sunil Abraham on the transparency initiative
 - Nigel Babu, a technology community member, wrote about attending the event on his personal blog on 23 May 2013, recounting the exhibition and Lawrence Liang's talk on the encyclopedia of Indian cinema.
+
+<div class="cis5-social-card">
+  <div class="cis5-social-date">19 May 2013</div>
+
+  <div class="cis5-tweet-center">
+    <blockquote class="twitter-tweet" data-theme="light">
+      <p lang="en" dir="ltr">
+        A lifetime of five years on the internet
+        <a href="http://dnaindia.com/bangalore/1836745/report-a-lifetime-of-five-years-on-the-internet">
+          dnaindia.com/bangalore/183…
+        </a>
+        <a href="https://twitter.com/cis_india">@cis_india</a>
+        5th anniversary celebrations!
+      </p>
+      &mdash; Sunil Abraham (@sunil_abraham)
+      <a href="https://twitter.com/sunil_abraham/status/336057530683891712?ref_src=twsrc%5Etfw">
+        May 19, 2013
+      </a>
+    </blockquote>
+  </div>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Event Flier
 
@@ -355,14 +383,16 @@ The event received press coverage in both English and Kannada media:
 
 ## References
 
-1. [Centre for Internet and Society, "Celebrating 5 Years of CIS"](https://cis-india.org/internet-governance/events/celebrating-5-years-of-cis)  
-2. [Subir Ghosh, "A Lifetime of Five Years on the Internet", DNA India](https://sunilabraham.in/media/a-lifetime-of-five-years-on-the-internet-dna/) 
-3. [Nigel Babu, "CIS Anniversary and Encyclopedia of Indian Cinema"](https://nigelb.me/2013-05-23-cis-anniversary-and-encyclopedia-of-indian-cinema) 
-4. CIS Anniversary Emailer / Programme Brochure (May 2013)  
-5. *Udayavani*, Kannada report on CIS anniversary, 25 May 2013
+1. ["Celebrating 5 Years of CIS"](https://cis-india.org/internet-governance/events/celebrating-5-years-of-cis), Centre for Internet and Society, retrieved 7 May 2026
+2. [Subir Ghosh, "A Lifetime of Five Years on the Internet"](https://sunilabraham.in/media/a-lifetime-of-five-years-on-the-internet-dna/), *DNA India*, 19 May 2013, retrieved 7 May 2026
+3. [Nigel Babu, "CIS Anniversary and Encyclopedia of Indian Cinema"](https://nigelb.me/2013-05-23-cis-anniversary-and-encyclopedia-of-indian-cinema), nigelb.me, 23 May 2013, retrieved 7 May 2026
+4. CIS Anniversary Emailer / Programme Brochure, Centre for Internet and Society, May 2013
+5. "ಕನ್ನಡಕ್ಕೆ ಅಂತರ್ಜಾಲದಲ್ಲಿ ಸ್ಥಾನ ಕಲ್ಪಿಸಿ", *Udayavani*, 25 May 2013
+6. ["NGO Invites Public to Peruse Its Accounts"](https://bangaloremirror.indiatimes.com/bangalore/others/ngo-invites-public-to-peruse-its-accounts/articleshow/21192325.cms), *Bangalore Mirror*, 18 May 2013, retrieved 7 May 2026
 
-## External Link
-- [Official event page](https://cis-india.org/internet-governance/events/celebrating-5-years-of-cis) at CIS website 
+## External Links
+- [Official event page](https://cis-india.org/internet-governance/events/celebrating-5-years-of-cis) at CIS website
+- [Event photos](https://commons.wikimedia.org/wiki/Category:5th_Anniversary_of_Centre_for_Internet_and_Society,_India) at Wikimedia Commons
 
 {% include navbox-cis.html %}
 
@@ -530,6 +560,7 @@ The event received press coverage in both English and Kannada media:
   font-size: 0.82rem;
   line-height: 1.45;
   color: #555;
+ text-align: center;
 }
 
 .cis-photo-caption a {
@@ -547,6 +578,40 @@ The event received press coverage in both English and Kannada media:
 
   .cis-photo-caption {
     text-align: left;
+  }
+}
+   .cis5-social-card {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1.4rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.cis5-social-date {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2f6fda;
+  margin-bottom: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.cis5-tweet-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cis5-tweet-center .twitter-tweet {
+  margin: 0 !important;
+}
+
+@media (max-width: 700px) {
+  .cis5-social-card {
+    padding: 1rem;
   }
 }
 </style>
