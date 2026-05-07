@@ -123,6 +123,15 @@ This sandbox is a workspace to map and track the progress of the literary works 
 
 {% include navbox-amaa.html %}
 
+## We have to find
+1. Essays in Celebration of the CISRS Silver Jubilee, Madras : The Christian Institute for the Study of Religion & Society, 1983. [HathiTrust](https://catalog.hathitrust.org/Record/000385813), [Koha](https://libsearch.org.tw/cgi-bin/koha/opac-detail.pl?biblionumber=3875)
+2. A Reader in Dalit Theology, Gurukul Lutheran Theological College & Research Institute, 1990 - Church and social problems - 180 pages. [Google Books](https://books.google.co.in/books/about/A_Reader_in_Dalit_Theology.html?id=Y_bYAAAAMAAJ). We need this essay: A. M. Abraham Ayrookuzhiel, "Dalits Move towards the Ideology of 'Nationality,'" in A Reader in Dalit Theology (Madras: Gurukul Lutheran Theological College, 1990), 169–180.
+
+## We have found
+- "Dalit Theology: A Movement of Counter-Culture", essay in "Towards a Dalit Theology", M. E. Prabhakar
+Christian Institute for the Study of Religion and Society (CISRS) and Christian Dalit Liberation Movement (CDLM), 1988 - Christian sociology - 185 pages [Google Books](https://books.google.co.in/books/about/Towards_a_Dalit_Theology.html?id=U_fYAAAAMAAJ)
+- "Religion, Spirituality and Aspirations of the People" in "Religion and Society, the First 25 Years 1953–1978", Contributor(s): Taylor, Richard W. (Richard Warren), Madras : Christan Literature Society, 1982, vii, 374 p. ; 22 cm. [National Library](https://nationallibraryopac.nvli.in/cgi-bin/koha/opac-detail.pl?biblionumber=166955)
+
 <script>
 (function(){
   var rows = document.querySelectorAll('#amaa-essays tbody tr');
