@@ -121,8 +121,6 @@ This sandbox is a workspace to map and track the progress of the literary works 
   </tbody>
 </table>
 
-{% include navbox-amaa.html %}
-
 ## We have to find
 1. Essays in Celebration of the CISRS Silver Jubilee, Madras : The Christian Institute for the Study of Religion & Society, 1983. [HathiTrust](https://catalog.hathitrust.org/Record/000385813), [Koha](https://libsearch.org.tw/cgi-bin/koha/opac-detail.pl?biblionumber=3875)
 2. A Reader in Dalit Theology, Gurukul Lutheran Theological College & Research Institute, 1990 - Church and social problems - 180 pages. [Google Books](https://books.google.co.in/books/about/A_Reader_in_Dalit_Theology.html?id=Y_bYAAAAMAAJ). We need this essay: A. M. Abraham Ayrookuzhiel, "Dalits Move towards the Ideology of 'Nationality,'" in A Reader in Dalit Theology (Madras: Gurukul Lutheran Theological College, 1990), 169–180.
@@ -134,10 +132,12 @@ Christian Institute for the Study of Religion and Society (CISRS) and Christian 
 
 ## Personalities
 - **Saral Kumar Chatterji** was an Indian economist, theologian, and social thinker associated with the Christian Institute for the Study of Religion and Society (CISRS), liberation theology, and anti-caste discourse in India. He wrote extensively on caste, religion, social justice, and the political economy of marginalised communities, including Dalits and indigenous peoples. Chatterji belonged to a generation of ecumenical Christian intellectuals who sought to connect theology with structural critiques of caste oppression and inequality. His work intersected with the emerging field of Dalit studies and shared intellectual ground with scholars such as A. M. A. Ayrookuzhiel, who examined Dalit religion, culture, and social transformation through interdisciplinary and liberationist frameworks.
-
 - **Bastiaan Wielenga** (1936–2015) was a Dutch-born Indian theologian, Marxist thinker, and activist deeply associated with liberation theology, Dalit struggles, and contextual Christian thought in India. Linked intellectually with networks around the Christian Institute for the Study of Religion and Society (CISRS) and the Tamil Nadu Theological Seminary, Wielenga worked to connect Biblical interpretation with labour movements, caste critique, and the emancipation of oppressed communities. His writings and activism contributed significantly to the intellectual foundations of Dalit theology and Dalit studies in India. He belonged to the same wider milieu of socially engaged Christian scholarship as A. M. A. Ayrookuzhiel, particularly in their shared concern for caste oppression, people's movements, and liberation-oriented theological reflection.
-
 - **Gabriele Dietrich** (born 1943) is a German-born Indian feminist scholar, sociologist, theologian, and activist known for her contributions to feminist theology, Dalit studies, peace movements, and social justice discourse in India. Associated with the Tamil Nadu Theological Seminary and ecumenical intellectual circles connected to the Christian Institute for the Study of Religion and Society (CISRS), Dietrich's work bridges feminism, caste critique, ecology, and liberation theology. Her scholarship has contributed to the development of interdisciplinary Dalit studies and the understanding of caste and gender within Indian Christianity. Her intellectual concerns overlapped with those of A. M. A. Ayrookuzhiel, especially in relation to Dalit identity, religion, and emancipatory social thought.
+- **Paul Chirakkarode** (also spelled Chirakkarodu/Chirakkarode) was an Indian Christian theologian, writer, and social thinker associated with ecumenical movements, liberation theology, and anti-caste engagement in post-independence India. He was connected with intellectual and theological circles linked to the Christian Institute for the Study of Religion and Society (CISRS), which fostered dialogue on caste, class, religion, and social transformation. Along with A. M. A. Ayrookuzhiel of the CISRS, with whom he collaborated for sixteen years, Paul Chirakkarode helped develop the idea of a Dalit theology and travelled widely to Christian institutions across India speaking on the subject, including the United Theological College in Bangalore, the Andhra Lutheran Mahasabha, the Gurukul Lutheran Theological College, and the Phirangipuram Dalit University. His work formed part of the early intellectual foundations of Dalit theology and Dalit studies in India. In 2007, the Anglican Academy of Religious Studies awarded him an honorary doctorate. See also: ["Dr. Paul Chirakkarodu Memorial Meeting"](https://www.roundtableindia.co.in/drpaul-chirakkarodu-memorial-meeting/).
+
+
+{% include navbox-amaa.html %}
 
 <script>
 (function(){
