@@ -28,6 +28,23 @@ The **Fifth Anniversary of the Centre for Internet and Society** was a four-day 
 
 ## Background
 
+<div class="cis-photo-right">
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/cis/5th_anniversary%2C%20Sunil%2C%20Centre_for_Internet_and_Society.jpg"
+    alt="Sunil Abraham speaking during the fifth anniversary celebrations of the Centre for Internet and Society in May 2013."
+    loading="lazy"
+  >
+
+  <p class="cis-photo-caption">
+    Sunil Abraham speaking during the fifth anniversary celebrations of the Centre for Internet and Society in May 2013.<br>
+    Source:
+    <a href="https://commons.wikimedia.org/wiki/File:5th_anniversary,_Centre_for_Internet_and_Society_45.JPG">
+      Wikimedia Commons
+    </a>.
+    Licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+  </p>
+</div>
+
 The Centre for Internet and Society was registered on 4 July 2008 and, by May 2013, had grown into one of India's leading internet policy research organisations. In an interview published on the eve of the celebrations, Sunil Abraham noted the shift in public awareness over those five years: privacy had moved from a niche concern to a mainstream policy debate, the problematic provisions of the Information Technology Act had gained wider recognition, and shared spectrum, once dismissed as a pipe dream, had found its way into the National Telecom Policy. The anniversary programme was conceived to reflect this breadth: rather than a narrowly technical event, it placed internet issues within the wider ecology of television, cinema, language, and culture.
 
 CIS marked the occasion with an act of transparency that set the celebrations apart from a conventional institutional milestone. The organisation opened its account books and donor contracts to the general public, inviting visitors to examine how the ₹13.13 crore it had received from donors had been spent. The *Udayavani* report of 25 May 2013 noted this aspect of the event approvingly, describing the organisation's effort to engage the public directly and underlining the transparency as a defining feature of the celebration.
@@ -170,7 +187,7 @@ Bernadette Längle (6.30–7.00 p.m.) followed with a talk titled *"Why Privacy 
   </div>
 </div>
 
-### 23 May 2013: Kannada Language and IT {#23-may}
+<h3 id="23-may">23 May 2013: Kannada Language and IT</h3>
 
 The final evening was dedicated to the Kannada language and its relationship with information technology. Dr. Chandrashekhara Kambara, Jnanpith Award laureate, poet, playwright, folklorist, film director, and founder-Vice-Chancellor of Kannada University, Hampi, delivered a guest lecture on *"Kannada in the Modern Era"* (6.00–6.15 p.m.). Dr. U.B. Pavanaja, former scientist at the Bhabha Atomic Research Centre and a pioneer in Kannada computing, then delivered the main talk (6.15–7.30 p.m.) titled *"From Palm Leaf to Tablet: Journey of Kannada"*, tracing the 2,000-year history of Kannada literature from palm-leaf manuscripts to tablets and smartphones, and the work done to implement Kannada across all facets of information technology. The talk was delivered with a Kannada-language summary. The evening concluded with a Carnatic music performance by Nirmita Narasimhan, Policy Director at CIS, who holds a doctorate in music from Delhi University and has been performing since 1995 (7.30–8.00 p.m.).
 
@@ -491,6 +508,45 @@ The event received press coverage in both English and Kannada media:
   .cis5-video-caption {
     font-size: 0.85rem;
     padding: 0.75rem 1rem;
+  }
+}
+   .cis-photo-right {
+  float: right;
+  width: 220px;
+  margin: 0 0 1.2rem 1.5rem;
+  background: #fff;
+}
+
+.cis-photo-right img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+}
+
+.cis-photo-caption {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: #555;
+}
+
+.cis-photo-caption a {
+  word-break: break-word;
+}
+
+@media (max-width: 700px) {
+  .cis-photo-right {
+    float: none;
+    width: 100%;
+    max-width: 420px;
+    margin: 1.2rem auto;
+    text-align: center;
+  }
+
+  .cis-photo-caption {
+    text-align: left;
   }
 }
 </style>
