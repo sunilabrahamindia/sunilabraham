@@ -63,7 +63,7 @@ I studied these places from the point of view of the gods worshipped in these pl
 
 In Dalit shrines one finds 'Appupan', 'Ammuma' (ancestors), 'Yogisvaran', 'Sannyasi' (ascetics), 'Yakshas', 'Yakshinis', 'Maadan', 'Maruta', 'Gulikan', 'Kula Deivangal' (gods of the clan), 'Para Murti', 'Pula Murti' (god of the Parayar/Pulayans), 'Rakshas' (an evil genie), 'Brahma Rakshas' (the spirit of a murdered Brahmin), 'Mala Deivangal' (god of the hills), 'Adavi' (spirit of the forest), 'Pula Chaamundi', 'Para Chaamundi', 'Kaali', 'Neeli', 'Vana Durga' (mother deities), 'Naagas' (serpents), sacred tree, sun god etc. All these deities are symbolised by small stones and placed in different parts of the sacred grove.
 
-There were three anti-caste religious movements among the Dalits. Two were led by Dalit religious gurus and one by some Dalit activists in this century. All of them established places of worship for the community. In the first two movements the Founder Gurus themselves are worshipped. The other Group established shrines of 'Pakkanar,' 'Nandanar.'<sup id="ref-2"><a href="#note-2">2</a></sup>
+There were three anti-caste religious movements among the Dalits. Two were led by Dalit religious gurus and one by some Dalit activists in this century. All of them established places of worship for the community. In the first two movements the Founder Gurus themselves are worshipped. The other Group established shrines of 'Pakkanar,'<sup id="ref-1"><a href="#note-1">1</a></sup> 'Nandanar.'<sup id="ref-2"><a href="#note-2">2</a></sup>
 
 From the above picture it follows that Nairs and Brahmins can generally be described as Vaishnavite, Saivite or Bhagvati worshippers; Ezhava: Saivite, Bhagavati and Narayana Guru worshippers. Dalit cannot easily be put into these categories as a community. Can I therefore conclude that this is a distinctive characteristic of the Dalit religion? Hence I conclude that Dalits are not Hindus.
 
@@ -72,7 +72,7 @@ The answer is not so easy in the context of Hindu theology.
 Bhagvad Gita says:
 
 <div class="poem" markdown="1">
-*I am the self established in the heart of all contingent beings;  
+I am the self established in the heart of all contingent beings;  
 I am the beginning, the middle,  
 and the end of all contingent beings too.  
 Among the Adityas I am Vishnu, among the lights the radiant sun,  
@@ -84,7 +84,7 @@ Among the serpents I am Vasuki
 Of Naga-serpents I am Ananta  
 Among the Demons I am Prahlada  
 Among the water monster I am the crocodile  
-Among the rivers I am the Ganges*<sup id="ref-3"><a href="#note-3">3</a></sup>
+Among the rivers I am the Ganges<sup id="ref-3"><a href="#note-3">3</a></sup>
 </div>
 
 In other words Hindu theology teaches them that Vishnu, the Divinity is, in all these folk gods. He is the basic constituent entity of all entities. With this theological formula, Hindu scriptural religion was able to absorb all Pre-Dravidian and Dravidian gods, goddesses, spirits, ascetics, ancestors into one of the major archetypal god like Siva, Vishnu or Sakthi in full or in part.
@@ -243,27 +243,38 @@ A process of change in this way will be in the spirit of dialogue of religions. 
 
 ## Notes {#notes}
 
-1. Pakkanar is believed to be the great ancestor of the Dalits.
+<ol>
+<li id="note-1">
+  Pakkanar is believed to be the great ancestor of the Dalits.
+  <a href="#ref-1">↩</a>
+</li>
 
-2. A Dalit sage who lived near Chidambaram in Tamil Nadu.
+  <li id="note-2">
+    A Dalit sage who lived near Chidambaram in Tamil Nadu.
+    <a href="#ref-2">↩</a>
+  </li>
 
-3. "I am the self established in the heart of all contingent beings. I am the beginning the middle, and the end of all contingent beings too. Among the Adityas I am Vishnu, among lights the radiant sun, among the Maruts I am Marid, among stars I am the moon. Of the Vedas I am the Sama Veda, I am Indra among the gods, among the senses I am the mind, amongst contingent beings thought.
+  <li id="note-3">
+    "I am the self established in the heart of all contingent beings. I am the beginning the middle, and the end of all contingent beings too. Among the Adityas I am Vishnu, among lights the radiant sun, among the Maruts I am Marid, among stars I am the moon. Of the Vedas I am the Sama Veda, I am Indra among the gods, among the senses I am the mind, amongst contingent beings thought.
 
-Among the Rudras Siva am I, among yaksha-raksasam, Kubera, among the Vasus I am fire, among mountains I am Meru. And of the household priest know that I am the chief, Brihaspati, among war-lords I am Skanda, among lakes I am the Ocean.
+    Among the Rudras Siva am I, among yaksha-raksasam, Kubera, among the Vasus I am fire, among mountains I am Meru. And of the household priest know that I am the chief, Brihaspati, among war-lords I am Skanda, among lakes I am the Ocean.
 
-Among the great seer I am Bhrigu, among utterances the single syllable (Om); among sacrifices I am the sacrifice of muttered prayer, among things immovable the Himalayas.
+    Among the great seer I am Bhrigu, among utterances the single syllable (Om); among sacrifices I am the sacrifice of muttered prayer, among things immovable the Himalayas.
 
-Among all trees, the holy fig-tree, Narada among the seers, among Gandharvas the Citrangatha, among Siddhas Kapila, among horses know that I am Uccasrava, (India's steed) from the nectar born, among princely elephants (India's called) Airavata, among men, the King.
+    Among all trees, the holy fig-tree, Narada among the seers, among Gandharvas the Citrangatha, among Siddhas Kapila, among horses know that I am Uccasrava, (India's steed) from the nectar born, among princely elephants (India's called) Airavata, among men, the King.
 
-Among weapons I am the thunderbolt, of cows the milch-cow of desires, and I am Kandarpa (god of love) generating (seed), among serpents I am Vasuki (the serpent king).
+    Among weapons I am the thunderbolt, of cows the milch-cow of desires, and I am Kandarpa (god of love) generating (seed), among serpents I am Vasuki (the serpent king).
 
-Of Naga-serpents, I am (their chief) Ananta of water-dwellers. Varuna (their lord) am I; of the ancestors I am Aryaman, among those who subdue I am Yama (god of death).
+    Of Naga-serpents, I am (their chief) Ananta of water-dwellers. Varuna (their lord) am I; of the ancestors I am Aryaman, among those who subdue I am Yama (god of death).
 
-Among demons I am Prahlada, among those who reckon I am Time; among beasts I am (the Lion) the King of beasts, among birds Garuda (Vishnu's bird).
+    Among demons I am Prahlada, among those who reckon I am Time; among beasts I am (the Lion) the King of beasts, among birds Garuda (Vishnu's bird).
 
-Among those who purify I am the wind, Rama I am among men at arms, among the water-monsters I am the crocodile, among rivers I am Ganges."
+    Among those who purify I am the wind, Rama I am among men at arms, among the water-monsters I am the crocodile, among rivers I am Ganges."
 
-*The Bhagavad-Gita* - R.C. Zaehner (Spalding Professor of Eastern Religions and Ethics at the University of Oxford, Fellow of All Soul's College) (Oxford; The Clarendon Press, 1969). Ch.1020-31, "God the Quintessence of all Essences," pp.297-99.
+    <em>The Bhagavad-Gita</em> - R.C. Zaehner (Spalding Professor of Eastern Religions and Ethics at the University of Oxford, Fellow of All Soul's College) (Oxford; The Clarendon Press, 1969). Ch.1020-31, "God the Quintessence of all Essences," pp.297-99.
+    <a href="#ref-3">↩</a>
+  </li>
+</ol>
 
 {% include navbox-amaa.html %}
 
