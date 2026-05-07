@@ -42,7 +42,7 @@ Four artists — Kiran Subbaiah, Tara Kelton, Navin Thomas, and Abhishek Hazra �
 
 The evening programmes were held exclusively at the Bangalore office. Each evening began at 6.00 p.m. and concluded with dinner. RSVP for all evenings was coordinated by Bernadette Längle and Prasad Krishna.
 
-### 20 May 2013: Digitalisation and Rural Internet {#20-may}
+<h3 id="20-may">20 May 2013: Digitalisation and Rural Internet</h3>
 
 The first evening opened with a talk by Vibodh Parthasarathi, Board Member at CIS and faculty at the Centre for Culture, Media and Governance, Jamia Millia Islamia, New Delhi. His talk, *"Why did I buy a set-top box?: What we know, don't know and need to know about Digitalisation"* (6.00–7.00 p.m.), examined the rationale for the mandatory migration to digital cable, its implications for what viewers watch and pay for, and the less-discussed proposed digital switchover of the public broadcaster. The talk drew on his Country Report on the Media in India, produced as part of the Open Society Foundations' global *Mapping Digital Media* initiative across 50 countries.
 
@@ -80,7 +80,7 @@ This was followed from 7.00 to 7.30 p.m. by a film screening on cyber cafes of r
   </div>
 </div>
 
-### 21 May 2013: Cinema and the Internet {#21-may}
+<h3 id="21-may">21 May 2013: Cinema and the Internet</h3>
 
 The second evening began with a screening of *Sabaka* (6.00–7.00 p.m.), a 1954 film directed by Frank Ferrin and starring Boris Karloff, Reginald Denny, and June Foray. This was followed from 7.00 to 8.00 p.m. by a talk by Lawrence Liang, Chairman of the Board at CIS, titled *"Slouching towards Tlön: An Encyclopedia for the 2nd century of Indian cinema"*. Liang reflected on Ashish Rajadhyaksha and Paul Willemen's *Encyclopedia of Indian Cinema* (1994) and presented his work on an online collaborative version incorporating moving images, photographs, and archival materials. The talk raised questions about what an online film encyclopedia for the 21st century could look like, and the copyright and legal constraints that limit the use of archival material on the internet. Attendee Nigel Babu described it as "a very interesting talk," noting its convergence of open data, open source software, and copyright issues.
 
@@ -100,7 +100,7 @@ The second evening began with a screening of *Sabaka* (6.00–7.00 p.m.), a 1954
   </div>
 </div>
 
-### 22 May 2013: Cybersecurity, Privacy and Surveillance {#22-may}
+<h3 id="22-may">22 May 2013: Cybersecurity, Privacy and Surveillance</h3>
 
 The third evening was themed around cybersecurity, privacy, and surveillance, reflecting one of CIS's core research areas. Maria Xynou, Policy Associate on the Privacy Project at CIS, opened with a talk titled *"The Indian Surveillance State"* (6.00–6.30 p.m.), presenting findings described in the programme as part of an investigation into surveillance technology companies operating in India. She reported that 76 companies had been identified as producing and selling surveillance equipment to Indian law enforcement agencies, set against the backdrop of the Central Monitoring System having become operational the previous month.
 
@@ -442,9 +442,9 @@ The event received press coverage in both English and Kannada media:
     font-size: 0.9rem;
   }
 }
-  .cis5-video-card {
+.cis5-video-card {
   max-width: 700px;
-  margin: 1.5rem 0 2rem;
+  margin: 1.5rem auto 2rem;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 10px;
