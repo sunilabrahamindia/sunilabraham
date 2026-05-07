@@ -18,22 +18,22 @@ The following entries were present in the Did You Know section during this perio
 
 **Did you know...**
 
-- ... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian [A. M. A. Ayrookuzhiel](/amaa) to describe how Dalit gods and myths were absorbed into a Brahmanical order?
+- ... that the concept of [religious colonisation](/amaa/edrl/) was used by theologian **[A. M. A. Ayrookuzhiel](/amaa)** to describe how Dalit gods and myths were absorbed into a Brahmanical order?
 
-- ... that the movement [Students for Peace](/articles/students-for-peace/) (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots? *(This entry was hidden on 13 February 2026 when a dedicated section on the [33rd anniversary of Students for Peace](/sfp33/) was added to the home page, to avoid duplicating the link on the same page. It was not restored after that section was removed.)*
+- ... that the movement **[Students for Peace](/articles/students-for-peace/)** (1993) brought together 5,000 students on Bangalore's M. G. Road for a candlelight protest promoting unity and non-violence after the Ayodhya and Bombay riots? *(This entry was hidden on 13 February 2026 when a dedicated section on the [33rd anniversary of Students for Peace](/sfp33/) was added to the home page, to avoid duplicating the link on the same page. It was not restored after that section was removed.)*
 
-- ... that when Sunil finished an engineering degree in 1995 and began job hunting in Bangalore, the internet was something he had heard of but never worked with, [pushing him towards the non-profit sector](/media/fighting-battles-online-the-hindu/)?
+- ... that when Sunil finished an engineering degree in 1995 and began job hunting in Bangalore, the internet was something he had heard of but never worked with, **[pushing him towards the non-profit sector](/media/fighting-battles-online-the-hindu/)**?
 
-- ... that a 2004 [*The Times of India* article](/media/rainbow-coalition-leans-left-for-rights-times-of-india/) wrote that Sunil Abraham could well be a poster boy for "India Shining"?
+- ... that a 2004 **[*The Times of India* article](/media/rainbow-coalition-leans-left-for-rights-times-of-india/)** wrote that Sunil Abraham could well be a poster boy for "India Shining"?
 
-- ... that [Aadhaar reverses the logic of transparency](/publications/surveillance-project/) — making citizens visible to the state while keeping the state opaque?
+- ... that **[Aadhaar reverses the logic of transparency](/publications/surveillance-project/)** — making citizens visible to the state while keeping the state opaque?
 
-- ... that [India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/) require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
+- ... that **[India's 2011 Intermediaries Guidelines](/publications/eavesdropping-on-the-freedom-of-expression-in-india/)** require online platforms to remove content within 36 hours of a complaint, creating a culture of over-compliance and silent censorship?
 
-- ... that the [Shreya Singhal judgment](/publications/shreya-singhal-and-66a/) (2015) marked a significant doctrinal shift in Indian law, moving from a 'tendency' test to an 'imminence' test when judging if speech incites violence?
+- ... that the **[Shreya Singhal judgment](/publications/shreya-singhal-and-66a/)** (2015) marked a significant doctrinal shift in Indian law, moving from a 'tendency' test to an 'imminence' test when judging if speech incites violence?
 
-- ... that [Ponnamma Abraham](/articles/ponnamma-abraham/) undertook her nursing training in Germany, served in hospitals in the United Kingdom, and after returning to India became a teacher who retired as a school principal?
+- ... that **[Ponnamma Abraham](/articles/ponnamma-abraham/)** undertook her nursing training in Germany, served in hospitals in the United Kingdom, and after returning to India became a teacher who retired as a school principal?
 
-- ... that [intermediary liability law](/publications/intermediary-liability-law-needs-updating/) has been described as a form of 'private censorship', since platforms can decide what stays online without clear legal transparency requirements?
+- ... that **[intermediary liability law](/publications/intermediary-liability-law-needs-updating/)** has been described as a form of 'private censorship', since platforms can decide what stays online without clear legal transparency requirements?
 
-- ... that the policy brief [Artificial Intelligence: A Full-Spectrum Regulatory Challenge](/publications/artificial-intelligence-full-spectrum/) (2019) rejects one-size-fits-all AI ethics and instead proposes context-specific regulation based on who uses the technology and the harm it can cause?
+- ... that the policy brief **[Artificial Intelligence: A Full-Spectrum Regulatory Challenge](/publications/artificial-intelligence-full-spectrum/)** (2019) rejects one-size-fits-all AI ethics and instead proposes context-specific regulation based on who uses the technology and the harm it can cause?
