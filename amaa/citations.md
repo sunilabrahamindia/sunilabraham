@@ -13,46 +13,69 @@ created: 2026-05-08
 
 <div class="citation-record">
 
-<p><strong>Citing work:</strong> <em>A Comparative Sociology of World Religions: Virtuosos, Priests, and Popular Religion</em></p>
+<p><strong>Citing work:</strong> <em><a href="https://books.google.com/books?id=D_XRgWwD1p0C">A Comparative Sociology of World Religions: Virtuosos, Priests, and Popular Religion</a></em></p>
 
 <p><strong>Author:</strong> Stephen Sharot</p>
 
 <p><strong>Publication details:</strong> New York: New York University Press, 2001. ISBN 0-8147-9804-7. ISBN 0-8147-9805-5 (paperback).</p>
 
-<p><strong>Location in citing work:</strong></p>
-
-<ul>
-  <li>Notes to Chapter 5, "India: Brahmans, Renouncers, and Popular Hinduism"</li>
-  <li>Bibliography section</li>
-</ul>
-
-<p><strong>Citation context:</strong></p>
-
-<ul>
-  <li>Stephen Sharot cites A. M. Abraham Ayrookuzhiel in discussions relating to popular Hinduism, karma, ritual hierarchy, temples, purity, and religious practice in India.</li>
-  <li>Sharot cites the following printed pages from <em>The Sacred in Popular Hinduism</em>:
-    <ul>
-      <li>pp. 30–40</li>
-      <li>pp. 43–44</li>
-      <li>pp. 54–58</li>
-      <li>pp. 128</li>
-      <li>pp. 133–145</li>
-      <li>pp. 161–162</li>
-    </ul>
-  </li>
-</ul>
-
-<p><strong>Cited work(s):</strong></p>
+<p><strong>Cited work:</strong></p>
 
 <ul>
   <li>A. M. Abraham Ayrookuzhiel. <em>The Sacred in Popular Hinduism</em>. Madras: The Christian Institute for the Study of Religion and Society, 1983.</li>
 </ul>
 
-<p><strong>Notes:</strong></p>
+<p><strong>Citation details:</strong> Cited in discussions relating to popular Hinduism, karma, ritual hierarchy, temples, purity, and religious practice in India. Specific cited pages include pp. 30–40, 43–44, 54–58, 128, 133–145, and 161–162.</p>
+
+<p><strong>Note:</strong> The work is cited multiple times in the notes to Chapter 5 and is also included in the bibliography.</p>
+
+</div>
+
+<h2 class="citation-id" id="tsap-amaa-cit-0002">TSAP-AMAA-CIT-0002</h2>
+
+<div class="citation-record">
+
+<p><strong>Citing work:</strong> <em><a href="https://books.google.com/books?id=SXd4DQAAQBAJ">A. J. Appasamy and His Reading of Rāmānuja: A Comparative Study in Divine Embodiment</a></em></p>
+
+<p><strong>Author:</strong> Brian Dunn</p>
+
+<p><strong>Publication details:</strong> Oxford: Oxford University Press, 2016. First edition. ISBN 978-0-19-879141-6.</p>
+
+<p><strong>Cited work:</strong></p>
 
 <ul>
-  <li>Ayrookuzhiel's work is cited multiple times in the notes to Chapter 5 and is also included in the bibliography.</li>
+  <li>A. M. Abraham Ayrookuzhiel. <em>Essays on Dalits, Religion and Liberation</em>. Bangalore: Christian Institute for the Study of Religion and Society, 2006, p. 3.</li>
 </ul>
+
+<p><strong>Citation details:</strong> Cited in discussion of Dalit theological critiques of A. J. Appasamy. Ayrookuzhiel is quoted as describing Appasamy's point of reference as rooted in "dominant, Brahmanical religious traditions".</p>
+
+<p><strong>Note:</strong> Citation appears in footnote 169 and in the bibliography/secondary sources section.</p>
+
+</div>
+
+<h2 class="citation-id" id="tsap-amaa-cit-0003">TSAP-AMAA-CIT-0003</h2>
+
+<div class="citation-record">
+
+<p><strong>Citing work:</strong> <em><a href="https://books.google.com/books?id=ZogqEAAAQBAJ">An Asian Introduction to the New Testament</a></em></p>
+
+<p><strong>Editor:</strong> Johnson Thomaskutty</p>
+
+<p><strong>Publication details:</strong> Minneapolis: Fortress Press, 2022. Print ISBN 978-1-5064-6269-1. eBook ISBN 978-1-5064-6270-7.</p>
+
+<p><strong>Cited work:</strong></p>
+
+<ul>
+  <li>A. M. Abraham Ayrookuzhiel, "A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations," in <em>Essays on Dalits, Religion and Liberation</em> (Bangalore: Asia Trading Corporation, 2006), 24–31.</li>
+
+  <li>A. M. Abraham Ayrookuzhiel, "Religion and Culture in Dalits' Struggle for Liberation," in <em>Essays on Dalits</em>, 62–63.</li>
+
+  <li>A. M. Abraham Ayrookuzhiel, "Dalits' Challenges to Religious Systems–A People Ignored by Church History," in <em>Essays on Dalits</em>, 134.</li>
+</ul>
+
+<p><strong>Citation details:</strong> Discussed in relation to Dalit theology, Brahmanical assimilation, caste oppression, and religious hybridity in Kerala.</p>
+
+<p><strong>Note:</strong> Citations appear in substantive discussion and footnotes.</p>
 
 </div>
 
