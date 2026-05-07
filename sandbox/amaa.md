@@ -121,6 +121,8 @@ This sandbox is a workspace to map and track the progress of the literary works 
   </tbody>
 </table>
 
+{% include navbox-amaa.html %}
+
 <script>
 (function(){
   var rows = document.querySelectorAll('#amaa-essays tbody tr');
