@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Full Text: A Proposal For The Study Of The Religious Heritage Of The Dalits: Some Methodological Considerations"
-description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'A Proposal For The Study Of The Religious Heritage Of The Dalits: Some Methodological Considerations', first published in Religion and Society in March 1995."
+title: "Full Text: A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations"
+description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations', first published in Religion and Society in March 1995."
 permalink: /amaa/proposal-study-religious-heritage-dalits-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1995
 created: 2026-05-07
 ---
 
-The **full text of the [A Proposal For The Study Of The Religious Heritage Of The Dalits: Some Methodological Considerations](/amaa/proposal-study-religious-heritage-dalits/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Religion and Society*, Vol. 42, No. 1, March 1995.
+The **full text of the [A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations](/amaa/proposal-study-religious-heritage-dalits/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Religion and Society*, Vol. 42, No. 1, March 1995.
 
 This version preserves the original wording, structure, and formatting as presented in the source document.
 
