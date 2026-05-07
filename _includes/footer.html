@@ -7,10 +7,10 @@
     🕒 Current time: <span id="footer-datetime"></span>
   </p>
 
-<p class="celebrate-900" aria-label="TSAP reaches 900 articles">
-  🥁 <strong>900 Articles</strong>
+<p class="celebrate-950" aria-label="TSAP reaches 950 articles">
+  🥁 <strong>950 Articles</strong>
   <span class="milestone">
-    Completed with <a href="/publications/my-outsides-look-cool-my-insides-are-blue-sunday-herald/">My Outsides Look Cool, My Insides Are Blue...</a>
+    Completed with <a href="/cis/fifth-anniversary/">Fifth Anniversary of the Centre for Internet and Society</a>
   </span>
 </p>
 
@@ -68,7 +68,7 @@
     </a>
   </p>
 
-    <style>
+  <style>
     /* =========================================================
        Footer container
        ========================================================= */
@@ -141,49 +141,54 @@
       margin-top: 0.2rem;
     }
 
-/* =========================================================
-   900 article counter
-   ========================================================= */
-footer .celebrate-900 {
-  margin-top: 0.5rem;
-  padding: 10px 16px;
-  background: linear-gradient(135deg, #fffbea 0%, #fde68a 100%);
-  color: #1a1000;
-  border: 1px solid #d97706;
-  border-radius: 10px;
-  display: inline-block;
-  max-width: 92%;
-  box-sizing: border-box;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-footer .celebrate-900 strong {
-  font-weight: 700;
-}
-footer .celebrate-900 a {
-  color: #7c2d00;
-  font-weight: 600;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-footer .celebrate-900 a:hover {
-  color: #000;
-}
-footer .celebrate-900 .milestone {
-  display: block;
-  font-size: 0.95em;
-  margin-top: 4px;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-@media (max-width: 600px) {
-  footer .celebrate-900 {
-    padding: 10px 12px;
-    font-size: 0.88em;
-    max-width: 100%;
-  }
-}
+    /* =========================================================
+       950 article counter
+       ========================================================= */
+    footer .celebrate-950 {
+      margin-top: 0.6rem;
+      padding: 10px 16px;
+      background: linear-gradient(135deg, #f5f0e8 0%, #e8dfc8 100%);
+      color: #1a1500;
+      border: 1px solid #b5a97a;
+      border-radius: 10px;
+      display: inline-block;
+      max-width: 92%;
+      box-sizing: border-box;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
+    footer .celebrate-950 strong {
+      font-weight: 700;
+    }
+
+    footer .celebrate-950 a {
+      color: #2c4a3e;
+      font-weight: 600;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
+    footer .celebrate-950 a:hover {
+      color: #000;
+    }
+
+    footer .celebrate-950 .milestone {
+      display: block;
+      font-size: 0.95em;
+      margin-top: 4px;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
+    @media (max-width: 600px) {
+      footer .celebrate-950 {
+        padding: 10px 12px;
+        font-size: 0.88em;
+        max-width: 100%;
+      }
+    }
   </style>
   
   <script>
@@ -224,7 +229,7 @@ footer .celebrate-900 .milestone {
       let formatted = new Intl.DateTimeFormat('en-IN', options).format(now);
       formatted = formatted
         .replace(' at ', ', ')
-        .replace(/^([A-Za-z]+)\s/, '$1, ');
+        .replace(/^([A-Za-z]+)\\s/, '$1, ');
 
       el.textContent = formatted + ' IST (UTC+05:30 hours)';
     })();
