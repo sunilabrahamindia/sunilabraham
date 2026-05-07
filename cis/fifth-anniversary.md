@@ -331,6 +331,7 @@ The evening programmes were held exclusively at the Bangalore office.
 The event received press coverage in both English and Kannada media:
 
 - Subir Ghosh, writing in *DNA India* on 19 May 2013, published [*"A Lifetime of Five Years on the Internet"*](/media/a-lifetime-of-five-years-on-the-internet-dna/), drawing extensively on quotes from Sunil Abraham on the evolution of internet policy in India, covering privacy legislation, the IT Act, shared spectrum, broadband access, and patent and copyright policy.
+- *The Hindu* published a report on 22 May 2013 titled [*"CIS Highlights Changes Ushered in by the Internet"*](https://www.thehindu.com/todays-paper/tp-national/tp-karnataka/cis-highlights-changes-ushered-in-by-the-internet/article4737997.ece), covering the ongoing exhibition and the remaining programme of talks, including the forthcoming evening on cybersecurity and the valedictory on Kannada and information technology.
 - *Udayavani*, the Kannada daily, published a report on 25 May 2013 covering the event, with a headline referring to the importance of Kannada in computing contexts. The report noted CIS's act of financial transparency and highlighted the organisation's engagement with issues at the intersection of technology and society.
 - *Bangalore Mirror* published a report on 18 May 2013 titled [*"NGO Invites Public to Peruse Its Accounts"*](/media/ngo-invites-public-to-peruse-its-accounts-bangalore-mirror/), covering CIS's decision to open its books of accounts to public scrutiny ahead of the anniversary, with quotes from Sunil Abraham on the transparency initiative
 - Nigel Babu, a technology community member, wrote about attending the event on his personal blog on 23 May 2013, recounting the exhibition and Lawrence Liang's talk on the encyclopedia of Indian cinema.
@@ -391,6 +392,7 @@ The event received press coverage in both English and Kannada media:
 5. "ಕನ್ನಡಕ್ಕೆ ಅಂತರ್ಜಾಲದಲ್ಲಿ ಸ್ಥಾನ ಕಲ್ಪಿಸಿ" (*Kannada*), *Udayavani*, 25 May 2013
 6. ["NGO Invites Public to Peruse Its Accounts"](https://bangaloremirror.indiatimes.com/bangalore/others/ngo-invites-public-to-peruse-its-accounts/articleshow/21192325.cms), *Bangalore Mirror*, 18 May 2013, retrieved 7 May 2026
 7. ["CIS Anniversary", *The Hindu Business Line*, 5 May 2013](https://www.thehindubusinessline.com/news/CIS-anniversary/article20611094.ece), retrieved 7 May 2026
+8. ["CIS Highlights Changes Ushered in by the Internet"](https://www.thehindu.com/todays-paper/tp-national/tp-karnataka/cis-highlights-changes-ushered-in-by-the-internet/article4737997.ece), *The Hindu*, 22 May 2013, retrieved 7 May 2026
 
 ## External Links
 - [Official event page](https://cis-india.org/internet-governance/events/celebrating-5-years-of-cis) at CIS website
