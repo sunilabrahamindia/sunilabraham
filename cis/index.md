@@ -84,6 +84,8 @@ CIS published annual reports documenting its research, advocacy, events, publica
 
 ## External Link
 - [Official website](https://cis-india.org/)
+- [Centre for Internet and Society photos](https://commons.wikimedia.org/wiki/Category:Centre_for_Internet_and_Society) at Wikimedia Commons (see also [CIS-A2K photos](https://commons.wikimedia.org/wiki/Category:CIS-A2K))
+- [Centre for Internet and Society profile](https://firn.genderit.org/researcher/centre-internet-and-society) at Feminist Internet Research Network
 
 {% include navbox-cis.html %}
 
