@@ -47,7 +47,7 @@ The **Fifth Anniversary of the Centre for Internet and Society** was a four-day 
 
 The Centre for Internet and Society was registered on 4 July 2008 and, by May 2013, had grown into one of India's leading internet policy research organisations. In an interview published on the eve of the celebrations, Sunil Abraham noted the shift in public awareness over those five years: privacy had moved from a niche concern to a mainstream policy debate, the problematic provisions of the Information Technology Act had gained wider recognition, and shared spectrum, once dismissed as a pipe dream, had found its way into the National Telecom Policy. The anniversary programme was conceived to reflect this breadth: rather than a narrowly technical event, it placed internet issues within the wider ecology of television, cinema, language, and culture.
 
-CIS marked the occasion with an act of transparency that set the celebrations apart from a conventional institutional milestone. The organisation opened its account books and donor contracts to the general public, inviting visitors to examine how the ₹13.13 crore it had received from donors had been spent. The *Udayavani* report of 25 May 2013 noted this aspect of the event approvingly, describing the organisation's effort to engage the public directly and underlining the transparency as a defining feature of the celebration.
+CIS marked the occasion with an act of transparency that set the celebrations apart from a conventional institutional milestone. The organisation opened its account books and donor contracts to the general public, inviting visitors to examine how the ₹13.13 crore it had received from donors had been spent. Sunil Abraham described the initiative in a press statement as "getting the general public to be our auditors by throwing open our account books and contracts." The *Udayavani* report of 25 May 2013 noted this aspect of the event approvingly, describing the organisation's effort to engage the public directly and underlining the transparency as a defining feature of the celebration.
 
 At the time of the anniversary, CIS had seventeen staff members, four based in Delhi and the remainder in Bangalore, alongside seven distinguished fellows and five fellows. The organisation had received funding from seventeen donors, a majority from overseas, with primary funders including the Kusuma Trust, the Wikimedia Foundation, and the Hans Foundation. Sunil Abraham noted that the decision to open the accounts was partly motivated by the climate of scrutiny surrounding NGOs at the time, particularly following parliamentary debates on the Foreign Contribution Regulation Act (FCRA) of 2010, which had drawn attention to financial transparency practices among organisations receiving overseas contributions.
 
@@ -334,6 +334,7 @@ The event received press coverage in both English and Kannada media:
 - *Udayavani*, the Kannada daily, published a report on 25 May 2013 covering the event, with a headline referring to the importance of Kannada in computing contexts. The report noted CIS's act of financial transparency and highlighted the organisation's engagement with issues at the intersection of technology and society.
 - *Bangalore Mirror* published a report on 18 May 2013 titled [*"NGO Invites Public to Peruse Its Accounts"*](/media/ngo-invites-public-to-peruse-its-accounts-bangalore-mirror/), covering CIS's decision to open its books of accounts to public scrutiny ahead of the anniversary, with quotes from Sunil Abraham on the transparency initiative
 - Nigel Babu, a technology community member, wrote about attending the event on his personal blog on 23 May 2013, recounting the exhibition and Lawrence Liang's talk on the encyclopedia of Indian cinema.
+- *The Hindu Business Line* published a preview report on 5 May 2013 ahead of the anniversary celebrations, noting the planned exhibition at both Bangalore and Delhi offices and quoting Sunil Abraham on the decision to open CIS's account books and donor contracts to the public.
 
 <div class="cis5-social-card">
   <div class="cis5-social-date">19 May 2013</div>
@@ -387,8 +388,9 @@ The event received press coverage in both English and Kannada media:
 2. [Subir Ghosh, "A Lifetime of Five Years on the Internet"](https://sunilabraham.in/media/a-lifetime-of-five-years-on-the-internet-dna/), *DNA India*, 19 May 2013, retrieved 7 May 2026
 3. [Nigel Babu, "CIS Anniversary and Encyclopedia of Indian Cinema"](https://nigelb.me/2013-05-23-cis-anniversary-and-encyclopedia-of-indian-cinema), nigelb.me, 23 May 2013, retrieved 7 May 2026
 4. CIS Anniversary Emailer / Programme Brochure, Centre for Internet and Society, May 2013
-5. "ಕನ್ನಡಕ್ಕೆ ಅಂತರ್ಜಾಲದಲ್ಲಿ ಸ್ಥಾನ ಕಲ್ಪಿಸಿ", *Udayavani*, 25 May 2013
+5. "ಕನ್ನಡಕ್ಕೆ ಅಂತರ್ಜಾಲದಲ್ಲಿ ಸ್ಥಾನ ಕಲ್ಪಿಸಿ" (*Kannada*), *Udayavani*, 25 May 2013
 6. ["NGO Invites Public to Peruse Its Accounts"](https://bangaloremirror.indiatimes.com/bangalore/others/ngo-invites-public-to-peruse-its-accounts/articleshow/21192325.cms), *Bangalore Mirror*, 18 May 2013, retrieved 7 May 2026
+7. ["CIS Anniversary", *The Hindu Business Line*, 5 May 2013](https://www.thehindubusinessline.com/news/CIS-anniversary/article20611094.ece), retrieved 7 May 2026
 
 ## External Links
 - [Official event page](https://cis-india.org/internet-governance/events/celebrating-5-years-of-cis) at CIS website
