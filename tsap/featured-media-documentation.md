@@ -45,6 +45,21 @@ This University of Oxford Master of Arts certificate was awarded to **Athanasius
 
 The certificate, formally attested on 4 December 1975 by the Assistant Registrar, is preserved as part of the family archive connected to Sunil Abraham.
 
+## 8 May 2026
+
+On Friday, 8 May 2026, the following image was featured on the home page.
+
+### Annual Report 2009–10: Front Cover
+
+<div class="fmd-archive-image-wrapper">
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/cis/annual-report-2009-10-front-cover.jpg"
+    alt="Front cover of the Centre for Internet and Society Annual Report 2009–10, featuring a photograph by Michael Greenwood of an elderly man walking past a shop advertising high-speed internet, CD burning, and photo-making services."
+    loading="lazy">
+</div>
+
+Front cover of the [Centre for Internet and Society Annual Report 2009–10](/cis/annual-report-2009-10/). Cover photograph by Michael Greenwood.
+
 <style>
 .fmd-archive-video-wrapper {
   max-height: 600px;
