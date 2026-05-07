@@ -9,6 +9,19 @@ created: 2026-05-08
 
 **Works Citing A. M. A. Ayrookuzhiel** is a bibliographic collection of books, journal articles, theses, reports, and other publications that cite the works of [A. M. A. Ayrookuzhiel](/amaa/). The references range from brief footnotes and bibliography mentions to substantial academic engagement with his writings.
 
+## Methodology
+
+Each citation entry is assigned a unique identifier in the format `TSAP-AMAA-CIT-0001`.
+
+- `TSAP` refers to The Sunil Abraham Project.
+- `AMAA` refers to A. M. A. Ayrookuzhiel.
+- `CIT` indicates that the entry belongs to the citations catalogue.
+- The four-digit numerical sequence (`0001`, `0002`, `0003`, etc.) serves as a stable internal reference number.
+
+The numbering sequence does not necessarily indicate chronology, importance, or frequency of citation. Numbers are assigned sequentially as entries are added to the catalogue.
+
+Entries are based only on verifiable citations. Where publication details or bibliographic information remain incomplete, the catalogue intentionally avoids speculation or reconstruction beyond the available evidence.
+
 <h2 class="citation-id" id="tsap-amaa-cit-0001">TSAP-AMAA-CIT-0001</h2>
 
 <div class="citation-record">
@@ -76,6 +89,28 @@ created: 2026-05-08
 <p><strong>Citation details:</strong> Discussed in relation to Dalit theology, Brahmanical assimilation, caste oppression, and religious hybridity in Kerala.</p>
 
 <p><strong>Note:</strong> Citations appear in substantive discussion and footnotes.</p>
+
+</div>
+
+<h2 class="citation-id" id="tsap-amaa-cit-0004">TSAP-AMAA-CIT-0004</h2>
+
+<div class="citation-record">
+
+<p><strong>Citing work:</strong> <em><a href="https://lirias.kuleuven.be/retrieve/bab004bd-8c6e-402d-bc02-52156fbd01e7">Becoming Indian: Towards an Indian Contextual Ecclesiology</a></em></p>
+
+<p><strong>Author:</strong> Vijaya Joji Babu Valle</p>
+
+<p><strong>Publication details:</strong> Doctoral dissertation (Ph.D. in Theology/S.T.D.), Faculty of Theology, Katholieke Universiteit Leuven, 2010.</p>
+
+<p><strong>Cited work:</strong></p>
+
+<ul>
+  <li>A. M. A. Ayrookuzhiel, "A Proposal for the Study of the Religious Heritage of Dalits: Some Methodological Considerations." <em>Religion and Society</em> 42:1 (1995): 17–28.</li>
+</ul>
+
+<p><strong>Citation details:</strong> Cited in discussion of Indian subaltern religiosity, Dalit religious movements, and local Dalit heroes in Kerala. The work specifically references Ayrookuzhiel's observation that founder-gurus of certain anti-caste religious movements later became objects of worship.</p>
+
+<p><strong>Note:</strong> Citation appears in footnote 605.</p>
 
 </div>
 
