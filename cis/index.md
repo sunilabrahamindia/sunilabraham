@@ -27,7 +27,7 @@ According to a notice displayed as a banner on its official website, CIS stopped
 4. [Memorandum of Association](#memorandum-of-association)
 5. [Annual Reports](#annual-reports)
 6. [Events](#events)
-7. [External Link](#external-link)
+7. [External Links](#external-links)
 
 ## Founding and Registration
 
@@ -82,7 +82,7 @@ CIS published annual reports documenting its research, advocacy, events, publica
 
 1. [Fifth Anniversary of the Centre for Internet and Society](/cis/fifth-anniversary/), a four-day public anniversary celebration held in Bangalore and Delhi in May 2013 featuring exhibitions, talks, screenings, performances, and public engagement around internet policy, culture, and technology
 
-## External Link
+## External Links
 - [Official website](https://cis-india.org/)
 - [Centre for Internet and Society photos](https://commons.wikimedia.org/wiki/Category:Centre_for_Internet_and_Society) at Wikimedia Commons (see also [CIS-A2K photos](https://commons.wikimedia.org/wiki/Category:CIS-A2K))
 - [Centre for Internet and Society profile](https://firn.genderit.org/researcher/centre-internet-and-society) at Feminist Internet Research Network
