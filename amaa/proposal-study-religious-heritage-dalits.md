@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "A Proposal For The Study Of The Religious Heritage Of The Dalits: Some Methodological Considerations"
+title: "A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations"
 permalink: /amaa/proposal-study-religious-heritage-dalits/
 categories: [A. M. A. Ayrookuzhiel, Publications]
 description: "A. M. A. Ayrookuzhiel's 1995 essay examining the religious heritage of Dalits, the historical relationship between Dalit traditions and Brahmanical Hinduism, and methodological questions surrounding caste, religion, and Dalit identity."
 created: 2026-05-08
 ---
 
-***A Proposal For The Study Of The Religious Heritage Of The Dalits: Some Methodological Considerations*** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), first published in *Religion and Society*, Vol. 42, No. 1, March 1995. The essay examines the religious heritage of Dalit communities, especially in Kerala, and explores how Dalit traditions, rituals, shrines, myths, and religious practices became historically intertwined with Brahmanical Hinduism. A. M. A. Ayrookuzhiel argues that the study of Dalit religious heritage should not merely classify Dalit traditions as separate or derivative, but should instead examine the historical processes through which Dalit religious practices were appropriated, subordinated, and partially absorbed into dominant caste religious structures. The essay also reflects on debates between Mahatma Gandhi and Dr. B. R. Ambedkar regarding Dalit identity, religion, and caste, while proposing that the recovery and study of Dalit religious traditions can contribute to a stronger and more positive religio-cultural identity for Dalit communities.
+***A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations*** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), first published in *Religion and Society*, Vol. 42, No. 1, March 1995. The essay examines the religious heritage of Dalit communities, especially in Kerala, and explores how Dalit traditions, rituals, shrines, myths, and religious practices became historically intertwined with Brahmanical Hinduism. A. M. A. Ayrookuzhiel argues that the study of Dalit religious heritage should not merely classify Dalit traditions as separate or derivative, but should instead examine the historical processes through which Dalit religious practices were appropriated, subordinated, and partially absorbed into dominant caste religious structures. The essay also reflects on debates between Mahatma Gandhi and Dr. B. R. Ambedkar regarding Dalit identity, religion, and caste, while proposing that the recovery and study of Dalit religious traditions can contribute to a stronger and more positive religio-cultural identity for Dalit communities.
 
 ## Contents
 
@@ -84,7 +84,7 @@ The essay ultimately presents Dalit religious traditions not as marginal surviva
 
 ## Full text
 
-{% include main-article.html link="/amaa/proposal-study-religious-heritage-dalits-full-text/" title="Full Text: A Proposal For The Study Of The Religious Heritage Of The Dalits: Some Methodological Considerations" %}
+{% include main-article.html link="/amaa/proposal-study-religious-heritage-dalits-full-text/" title="Full Text: A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations" %}
 
 ## Publication
 
