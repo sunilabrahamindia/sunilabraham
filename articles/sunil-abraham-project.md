@@ -67,4 +67,5 @@ The editorial workflow of the project is closely tied to its version-controlled 
 - 27 March 2026 (Friday) — 800 published articles with the publication of [*«Биометрические ID в Индии становятся инструментом тотальной слежки»*](/media/aadhaar-biometric-surveillance-hightech-fm/). (English: *Biometric IDs in India Are Becoming a Tool of Total Surveillance)*)
 - 11 April 2026 (Saturday) — The Sunil Abraham Project reached 850 published articles with the publication of [*Concept Note for the Centre for Internet and Society*](/cis/concept-note/).
 - 21 April 2026 (Tuesday) — 900 published articles with the publication of [*My Outsides Look Cool, My Insides Are Blue...*](/publications/my-outsides-look-cool-my-insides-are-blue-sunday-herald/).
+- 7 May 2026 (Thursday) — 950 published articles with the publication of [*Fifth Anniversary of the Centre for Internet and Society*](/cis/fifth-anniversary/).
 
