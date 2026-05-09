@@ -232,40 +232,6 @@ Collect media article pages
 - *"Availability and Accessibility of Government Information in the Public Domain"* — *CIS Policy Brief*.  
   [Read online](https://cis-india.org/accessibility/blog/policy-brief-availability-accessibility-govt-information-public-domain.pdf)
 
-
-## Blog Entries and Online Essays
-
-Sunil Abraham has contributed extensively to the **Centre for Internet and Society (CIS)** blog and other online platforms, writing on privacy, openness, data governance, and digital rights.  
-These essays often serve as short policy commentaries or exploratory analyses of ongoing regulatory debates.
-
-- **"India's Draft Privacy Bill: The Illusion of Control"** — *CIS Blog, 2018.*  
-  _Critiques the structure of India’s proposed data protection law and the limitations of consent-based models._  
-  [Read online](https://cis-india.org/internet-governance/blog/indias-draft-privacy-bill-the-illusion-of-control)
-
-- **"Data Protection Framework: Gaps in Accountability"** — with Elonnai Hickok. *CIS Blog, 2018.*  
-  _Examines institutional weaknesses in India’s proposed data protection regime._  
-  [Read online](https://cis-india.org/internet-governance/blog/data-protection-framework-gaps-in-accountability)
-
-- **"Privacy, Security and Trust in the Digital Economy"** — *CIS Blog, 2017.*  
-  _Analyses the challenges of building public trust in data-driven systems._  
-  [Read online](https://cis-india.org/internet-governance/blog/privacy-security-and-trust-in-the-digital-economy)
-
-- **"Algorithmic Transparency and the Future of Governance"** — *CIS Blog, 2016.*  
-  _Discusses algorithmic decision-making and the demand for transparency in automated governance._  
-  [Read online](https://cis-india.org/internet-governance/blog/algorithmic-transparency-and-the-future-of-governance)
-
-- **"India’s Position on Net Neutrality"** — *CIS Blog, 2015.*  
-  _Explains India’s regulatory and civil society advocacy for network neutrality._  
-  [Read online](https://cis-india.org/telecom/blog/indias-position-on-net-neutrality)
-
-- **"Digital Privacy and the Aadhaar Ecosystem"** — *CIS Blog, 2013.*  
-  _Explores privacy challenges arising from India’s biometric identity infrastructure._  
-  [Read online](https://cis-india.org/internet-governance/blog/digital-privacy-and-the-aadhaar-ecosystem)
-
-- **"Engaging on the Digital Commons"** — *Common Voices*, Issue 4, 2011.  
-  _An article by Pranesh Prakash and Sunil Abraham on digital commons frameworks._  
-  [Read more](/publications/engaging-the-digital-commons/)
-
 ## Presentations and Lectures
 
 Sunil Abraham has presented lectures and keynote talks at universities, research institutions, and international conferences, combining perspectives from technology, law, and policy.  
