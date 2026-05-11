@@ -7,7 +7,7 @@ date: 2012-05-18
 authors: ["Anil Sharma", "Aishhwariya Subramanian"]
 source: "DNA India"
 permalink: /media/cordon-tightens-rajya-sabha-nod-to-harsh-it-rules-dna-india/
-created: 2026-05-10
+created: 2026-05-11
 ---
 
 **Cordon Tightens: Rajya Sabha Nod to Harsh IT Rules** is a *DNA India* report by Anil Sharma and Aishhwariya Subramanian, published on 18 May 2012. The article covers the Rajya Sabha debate on the statutory motion to annul the intermediary rules of the Information Technology Act, and quotes [Sunil Abraham](/sunil/) and Pranesh Prakash, both of the [Centre for Internet and Society](/cis/) (CIS), on the top-down nature of India's internet policy and the contradiction between India's domestic censorship posture and its stated international positions.
