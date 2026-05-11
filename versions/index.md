@@ -29,6 +29,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 15. [Version 1.5](#version-15)
 16. [Version 1.6](#version-16)
 17. [Version 1.6.1](#version-161)
+18. [Version 1.6.2](#version-162)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -535,4 +536,20 @@ Completion date: 25 April 2026 (night)
 - General cleanup and maintenance work was also carried out across related pages.
 
 **Status** ✅ Done  
-Completion date: 1 May 2026 (night)
+Completion date: 2 May 2026 (night)
+
+## Version 1.6.2
+
+- 16 new pages have been published this week between 3 May 2026 and 9 May 2026.
+
+**Centre for Internet and Society (CIS)**
+- Started [Template:CIS](/cis/template/), a navigation box for articles related to the [Centre for Internet and Society](/cis/).
+- Published [Centre for Internet and Society: Annual Report 2008–09](/cis/annual-report-2008-09/), [Centre for Internet and Society: Annual Report 2010–11](/cis/annual-report-2010-11/), [Centre for Internet and Society: Annual Report 2011–12](/cis/annual-report-2011-12/), and [Centre for Internet and Society: Annual Report 2012–13](/cis/annual-report-2012-13/).
+- Published [Fifth Anniversary of the Centre for Internet and Society](/cis/fifth-anniversary/). This page marks the 950th published page on TSAP.
+
+**A. M. A. Ayrookuzhiel and Dalit Studies**
+- Created [A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations](/amaa/proposal-study-religious-heritage-dalits/).
+- Added the related [full text version](/amaa/proposal-study-religious-heritage-dalits-full-text/).
+
+**Status** ✅ Done  
+Completion date: 9 May 2026 (night)
