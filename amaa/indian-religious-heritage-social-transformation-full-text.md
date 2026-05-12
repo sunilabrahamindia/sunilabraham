@@ -75,9 +75,7 @@ This religious hierarchical subordination was a complementary historical process
 That such was the nature of the historical process can also be established from another set of evidences collected from the history of the vanquished Dalits themselves.
 
 1. Archaeological and cultural anthropological evidences such as the existence of Dalit stories, myths, proverbs, rituals and festivals conflicting with Brahmanical myths, stories and ritual practices.<sup id="ref-23"><a href="#note-23">23</a></sup>
-
 2. Existing rights and privileges of the Dalits in the temples and shrines controlled by caste Hindus, including in some cases priestly functions of the Dalits.<sup id="ref-24"><a href="#note-24">24</a></sup>
-
 3. Civil court cases of dispute over ownership of temple and right to exercise priesthood, between the Dalits and caste Hindus is normally found in the 19th century to the present times.<sup id="ref-25"><a href="#note-25">25</a></sup>
 
 The policy of the government regarding reservation to the Dalits, inclusion of popular Dalit shrines under the State Devaswom Boards controlled by caste Hindus, newspaper reports on the mode of renovation of Dalit places of worship by Hindu Mutts and organisations,<sup id="ref-26"><a href="#note-26">26</a></sup> confirm that the old historical pattern of Brahmin imperialism continues even today.
@@ -89,11 +87,8 @@ In short, though there is some legitimacy in considering the Dalits as part of t
 Religious history of the Dalit community reveals a deep yearning for liberation from and resentment against Brahmanical Hinduism. One finds it manifested in the course of their history in three different ways:
 
 1. A folk religious tradition conflicting with the Brahminic religion in the form of myths, songs, proverbs, festival of abusal customs and ritual practices centred around Dalit gods and goddesses.
-
 2. Religious conversion to other great traditions such as Islam, Christianity and Buddhism in order to get rid of the stigma of untouchability and the feeling of being an excluded community.
-
 3. Religious protest movements started by untouchable and backward caste saints such as Siddhars, Ravi Das, Kabir, Namdev, Dadu, Chokkamela, Shasi Das and scores of other less well-known saints throughout the country.
-
 4. Denunciation of the Brahmanical religion advocated by leaders like Mahatma Phule, Periyar Ramaswamy Naicker and Dr. B.R. Ambedkar, have become the ideological core of Dalit socio-political awareness building and mobilisation for the independence struggle in recent times.
 
 ## Thesis 3 {#thesis-3}
