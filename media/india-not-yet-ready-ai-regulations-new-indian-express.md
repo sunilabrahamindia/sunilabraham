@@ -68,7 +68,7 @@ created: 2026-01-31
 
 This article captured discussions at the Global AI Summit 2024 held at the Hyderabad International Convention Centre. The timing coincided with global debates on AI regulation following the European Union's adoption of the AI Act, which established risk-based frameworks for algorithmic accountability.
 
-Panellists diverged on regulatory approaches for India. Arghya Sengupta from Vidhi Centre argued that premature regulations could burden smaller innovators, advocating instead for industry-led codes of practice. Sunil Abraham, speaking in his capacity at Meta, emphasised the importance of model development and the central role played by developers in shaping AI systems.
+Panellists diverged on regulatory approaches for India. Arghya Sengupta from Vidhi Centre argued that premature regulations could burden smaller innovators, advocating instead for industry-led codes of practice. [Sunil Abraham](/sunil/), speaking in his capacity at Meta, emphasised the importance of model development and the central role played by developers in shaping AI systems.
 
 Experts from Georgia Institute of Technology proposed practical applications for India's governance challenges, ranging from disaster management systems to agricultural extension services and frontline worker capacity building. The panel reflected broader tensions between innovation imperatives and regulatory safeguards in emerging technology ecosystems, particularly in contexts where institutional capacity and digital infrastructure remain unevenly distributed.
 
