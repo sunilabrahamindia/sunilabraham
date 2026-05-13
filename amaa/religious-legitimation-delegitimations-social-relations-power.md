@@ -1,13 +1,16 @@
 ---
 layout: default
-title: "Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective"
-permalink: /amaa/religious-legitimation-delegitimations-social-relations-power/
-categories: [A. M. A. Ayrookuzhiel, Publications]
-description: "A. M. A. Ayrookuzhiel essay examining the religious legitimation of caste power relations and the historical marginalisation of Dalits in Indian society."
+title: "Full Text: Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective"
+description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective', first published in Religion and Society (December 1993)."
+permalink: /amaa/religious-legitimation-delegitimations-social-relations-power-full-text/
+categories: [A. M. A. Ayrookuzhiel, Full text]
+date: 1993
 created: 2026-05-13
 ---
 
-***Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective*** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), first published in *Religion and Society*, Volume XL, No. 4, December 1993. The essay examines the historical relationship between caste power, religion, and social exclusion, focusing particularly on the position of Dalits within Brahmanical social structures and religious traditions.
+The **full text of the [Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective](/amaa/religious-legitimation-delegitimations-social-relations-power/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Religion and Society*, Volume XL, No. 4, December 1993.
+
+This version preserves the original wording, structure, and formatting as presented in the source document.
 
 ## Contents
 
@@ -216,7 +219,7 @@ The search for roots in terms of theological-ideological resources for a people'
 
 3. *Ibid.*, X 47-49, 1964, p.413
 
-4. <p><i>Ibid.</i>, X 50-56. The Arthashastra also lays down the rule that "The King shall enforce the laws regarding slaves and bonded labour", Kautilya. *The Arthashastra*. 2.1.25</p>
+4. <p><i>Ibid.</i>, X 50-56. The Arthashastra also lays down the rule that "The King shall enforce the laws regarding slaves and bonded labour", Kautilya. <i>The Arthashastra</i>. 2.1.25</p>
 
    <p>The King is asked to see that every one comes out with the duties of the Varnas and asramas to which he belongs as laid down in the Trayidharma or the vedic way of life, that is, the king has to support i.3.4.,16-17</p>
 
