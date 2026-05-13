@@ -214,11 +214,8 @@ The search for roots in terms of theological-ideological resources for a people'
 ## Notes {#notes}
 
 1. Ralph T.H. Griffith, *The Hymns of the Rigveda*, tenth book, hymn 90, verse 12, Vol.II, Second ed. E.J. Lazarus and Co. Benares, 1897, p.519
-
 2. Manusmrti, X45. trans.by George Buhler, Vol.25 in *The Sacred Books of the East*, ed. F. Max Mueller, reprint by Motilal Banarsidass.
-
 3. *Ibid.*, X 47-49, 1964, p.413
-
 4. <p><i>Ibid.</i>, X 50-56. The Arthashastra also lays down the rule that "The King shall enforce the laws regarding slaves and bonded labour", Kautilya. <i>The Arthashastra</i>. 2.1.25</p>
 
    <p>The King is asked to see that every one comes out with the duties of the Varnas and asramas to which he belongs as laid down in the Trayidharma or the vedic way of life, that is, the king has to support i.3.4.,16-17</p>
@@ -230,46 +227,26 @@ The search for roots in terms of theological-ideological resources for a people'
    <p>"Any disturbance of this order is not to be tolerated, as that would lead to samkara or a confusion of the varnas and their duties which might result in the destruction of society and by implication of the state itself (1.3.14-15). The preservation of the vedic social order is thus a duty laid on the ruler."</p>
 
    <p>R.P. Kangle, *The Kautiliya Arthasastra*, Part III, a Study, Motilal Banarsidass, Delhi, First edition 1965, reprint ed.1986, p.119.</p>
-
 5. *The Bhagavad Gita* 18.47-48, Trans.R.C. Zaehner, Oxford University Press, 1969, pp.394-395.
-
 6. *Ibid.*, 4.13 *Aspects of Hindu Morality* p. 186.
-
 7. Saral Jhingram, *Aspects of Hindu Morality*, Motilal Banarsidass, Delhi, 1989, p.34.
-
 8. The story is a popular adaptation of Matangi Arundhati, the mother deity of Madigas found in the Vedas, Puranas and law books of the Hindus.
-
 9. *Vasalasutta*-27, *Sacred Books of the East*, ed. F. Max Mueller Vol. 10 Part II, Second edition 1898 p.23. The whole Sutta defines an outcaste according to ethical and moral values.
-
 10. *Ambattha Satta, Dialogues of the Buddha*, Trans. from Pali, T.W. Rhys Davids, Part I, Luzsac Company Ltd., London, 1969, p. 106.
-
 11. *Ibid.*
-
 12. *Ibid.*, pp. 102-103. B.R. Ambedkar, *The Buddha and His Dharma*, Part VI, "Conversion of the Low and the Lowly" 1-5, Siddarth Publication, Bombay, 3rd ed. 1984.
-
 13. B.R. Ambedkar, *Ibid.*, p.129.
-
 14. *Ibid.*, p.130.
-
 15. Klaus K. Klostermaier, *A Survey of Hinduism*, State University of New York Press, Albark, 1959, p. 163.
-
 16. This is part of a conversation between Yaksha and Yudhisthira appearing in the Aranyakaparva chapters 295-98, as quoted by Klaus K. Klostermaier, *Ibid.*, p.82.
-
 17. K. Kailaspathy, "The writings of the Tamil Siddhas," in the *Saints, Studies in the Devotional Tradition of India*, ed. Karine Schomer and W.H. McLeod, pp.385-411.
-
 18. Ta Koventan, *Cittar Patalkal* (Siddar songs) Pumpuhar Prasaram, Madras, 1976, verse 10, p.4 as quoted by Eugene F. Irschick, *Tamil Revivalism in the 1930s* Cre-A Madras, p.14.
-
 19. *The Tirukkural* (in Tamil) with translations in English by G.U.Pope, W.H. Drew, J. Lazarus, and F.W. Ellis, South India Saiva Siddhanta Works Publishing Society, Tinnevelly 1962.
-
 20. Ted J. Solomon, "Early Vaishnava Bhakti and its Autochthonos Heritage" in *History of Religions*, Vol. 10 No. 1 University of Chicago Press. 1970.
-
 21. The story of the acceptance of Nammalvar's Tiruvaymoli into Vaishnavism of Ramanuja illustrates this point cf. *The Tamil Veda, Pillan's Interpretation of the Tiruvaymoli* by John Carmen and Vasuda Narayanan, University of Chicago Press, 1989.
-
 22. <p>A.M. Abraham Ayrookuzhiel, <i>The Sacred in Popular Hinduism</i> CISRS-CLS 1983, pp.179-180.</p>
     <p>In some versions the conversation between the great Sankaracharya and the God Pottan is a later adaptation of the story of Pottan. This version is used when Pottan Teyyam is danced by the Pulayas. In the outer court of big caste Hindu temples.</p>
-
 23. Emma Rauschenbusch-Clough, *While Sewing Sandals or Tales of a Telugu Pariah Tribe*, Hodder and Stoughton, London, 1899, pp.104-195.
-
 24. <p>L.K. Anantha Krishna Iyer. "The Tribes and Castes of Cochin," Vol. 1, in <i>The Parayas</i>, Cosmo Publications. pp. 68-69, 1891.</p>
 
     <p>A tradition confirmed by classical texts of Brahminism of <i>Manusmriti</i>, IX 23,: see also Buhler's commentary in the footnotes.</p>
