@@ -11,7 +11,7 @@ created: 2026-05-14
 
 {% include under-construction.html %}
 
-<article lang="bn">
+<div lang="bn" markdown="1">
 
 <div class="bangla-essay-image-wrapper">
   <img 
@@ -30,7 +30,7 @@ created: 2026-05-14
 
 ## Main essay synopsis translation will go here (Editorial note)
 
-</article>
+</div>
 
 {% include navbox-amaa.html %}
 
