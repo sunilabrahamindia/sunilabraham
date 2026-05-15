@@ -27,9 +27,6 @@ created: 2026-05-15
   <dt>📅 Date:</dt>
   <dd>3 November 2012</dd>
 
-  <dt>👤 Compiled by:</dt>
-  <dd>Aurangzeb Naqshbandi, B Vijay Murty, Gaurav Choudhury, KV Lakshmana, Manjula Narayan, Nagendar Sharma, Naveen Ammembala, Neha Sharma, Neyaz Farooquee, Panna Saroopa, Rahul Noronha, Rajeev Bhaskar, Ranjan Srivastava, Samar Khurshid and Swati Chitnis</dd>
-
   <dt>📄 Type:</dt>
   <dd>Compiled Feature / List</dd>
 
