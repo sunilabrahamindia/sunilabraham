@@ -8,9 +8,9 @@ sitemap: false
 
 <meta name="robots" content="noindex">
 
-<link rel="canonical" href="https://meet.google.com/uuw-cide-sag">
+<link rel="canonical" href="https://meet.google.com/spt-vdvw-omu">
 
-<meta http-equiv="refresh" content="0; url=https://meet.google.com/uuw-cide-sag">
+<meta http-equiv="refresh" content="0; url=https://meet.google.com/spt-vdvw-omu">
 
 <script>
 window.location.href="https://meet.google.com/uuw-cide-sag"
