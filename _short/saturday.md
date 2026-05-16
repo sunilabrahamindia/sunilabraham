@@ -13,7 +13,7 @@ sitemap: false
 <meta http-equiv="refresh" content="0; url=https://meet.google.com/spt-vdvw-omu">
 
 <script>
-window.location.href="https://meet.google.com/uuw-cide-sag"
+window.location.href="https://meet.google.com/spt-vdvw-omu"
 </script>
 
 <title>Redirecting…</title>
