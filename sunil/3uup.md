@@ -3,7 +3,7 @@ layout: default
 title: "Triple Under Utilisation"
 description: "An emerging theory examining the underutilisation of digital devices, human capability, and freely available artificial intelligence systems."
 categories: [Project pages]
-permalink: /3uup/
+permalink: /3uu/
 created: 2026-05-16
 ---
 
