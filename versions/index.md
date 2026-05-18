@@ -30,6 +30,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 16. [Version 1.6](#version-16)
 17. [Version 1.6.1](#version-161)
 18. [Version 1.6.2](#version-162)
+19. [Version 1.7](#version-17)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -553,3 +554,19 @@ Completion date: 2 May 2026 (night)
 
 **Status** ✅ Done  
 Completion date: 9 May 2026 (night)
+
+## Version 1.7
+
+- 19 new pages have been published this week between 10 May 2026 and 16 May 2026.
+
+**A. M. A. Ayrookuzhiel and Related Works**
+- Started [Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS](/amaa/indian-religious-heritage-social-transformation/) and its related full text article.
+- Started [Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective](/amaa/religious-legitimation-delegitimations-social-relations-power/) and its related full text article.
+- Began work on the Bengali-language article [দলিত মুক্তি আন্দোলনে ধর্মীয় প্রভাব: কিছু ভাবনা](/amaa/religious-factor-dalit-liberation-bangla/), based on [The Religious Factor in Dalit Liberation: Some Reflections](/amaa/religious-factor-dalit-liberation/).
+
+**Triple Under Utilisation (3UU)**
+- Started work on [Triple Under Utilisation](/3uu/).
+- The Triple Under Utilisation theory, conceived by Sunil Abraham, examines how societies often make limited use of three already-existing resources: computers and digital devices, human capability and labour, and gratis or free artificial intelligence systems and services.
+
+**Status** ✅ Done  
+Completion date: 16 May 2026
