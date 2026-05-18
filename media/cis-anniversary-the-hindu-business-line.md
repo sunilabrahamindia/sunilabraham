@@ -31,7 +31,12 @@ created: 2026-05-18
   <dd>News Report</dd>
 
   <dt>📰 Newspaper Link:</dt>
-  <dd>[Read Online](https://www.thehindubusinessline.com/news/CIS-anniversary/article20611094.ece) (Subscription needed)</dd>
+<dd>
+  <a class="btn" href="https://www.thehindubusinessline.com/news/CIS-anniversary/article20611094.ece">
+    Read Online
+  </a>
+  (Subscription needed)
+</dd>
 </dl>
 
 ## Full Text
