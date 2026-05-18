@@ -49,6 +49,7 @@ The campaign culminated in a candlelight vigil held on 13 February 1993 along Ma
 10. [Contemporary Media Coverage](#contemporary-media-coverage)  
 11. [Archival Record](#archival-record)  
 12. [References](#references)
+13. [Archival Edition](#archival-edition)
 
 ## Background
 
@@ -203,6 +204,14 @@ Students for Peace dissolved shortly after the demonstration, having achieved it
 - Deccan Herald, 14 February 1993 — "[Candles for Peace](/media/candles-for-peace-deccan-herald/)"  
 - Students for Peace — "[Conveners' Letter (1993)](/articles/docs/students-for-peace-conveners-letter-1993.pdf)"  
 - Students for Peace — "[Logistics and Sponsorship Proposal (1993)](/articles/docs/students-for-peace-logistics.pdf)"
+
+## Archival Edition
+
+A DOI-backed archival edition of this publication is available on Zenodo.
+
+- DOI: [10.5281/zenodo.20272980](https://doi.org/10.5281/zenodo.20272980)
+- [View Zenodo Record](https://zenodo.org/records/20272980)
+- [Download Archival PDF](https://zenodo.org/records/20272980/files/students-for-peace-bangalore-1993-archival-edition.pdf?download=1)
 
 <style>
 
