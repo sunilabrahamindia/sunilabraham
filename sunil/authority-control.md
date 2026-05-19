@@ -21,8 +21,8 @@ As metadata systems frequently fragment identities across variant name formats, 
 
 <div class="ac-header">
   <div>
-    <h2 class="ac-title">
-      External identifiers and profiles
+    <h2 id="ac" class="ac-title">
+      Identifiers and profiles
       <span class="ac-title-sub">Authority control · Sunil Abraham</span>
     </h2>
   </div>
