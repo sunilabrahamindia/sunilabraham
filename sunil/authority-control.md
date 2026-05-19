@@ -26,14 +26,9 @@ As metadata systems frequently fragment identities across variant name formats, 
       <span class="ac-title-sub">Authority control · Sunil Abraham</span>
     </h2>
   </div>
-  <div class="ac-header-actions">
-    <span class="ac-count" id="ac-count" aria-live="polite">16 records</span>
-    <button class="ac-theme-btn" data-theme-toggle aria-label="Switch to dark mode" title="Toggle colour scheme">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-      </svg>
-    </button>
-  </div>
+<div class="ac-header-actions">
+  <span class="ac-count" id="ac-count" aria-live="polite">16 records</span>
+</div>
 </div>
 
 <div class="ac-search-wrapper">
@@ -293,24 +288,6 @@ As metadata systems frequently fragment identities across variant name formats, 
   --shadow-md: 0 4px 12px rgba(40,37,29,0.08), 0 1px 3px rgba(40,37,29,0.05);
 }
 
-[data-theme="dark"] {
-  --color-bg:             #17161a;
-  --color-surface:        #1e1d21;
-  --color-surface-2:      #242328;
-  --color-surface-offset: #1a1920;
-  --color-border:         rgba(210, 208, 200, 0.10);
-  --color-border-strong:  rgba(210, 208, 200, 0.18);
-  --color-divider:        rgba(210, 208, 200, 0.06);
-  --color-text:           #cfcdc8;
-  --color-text-muted:     #7a7876;
-  --color-text-faint:     #524f4c;
-  --color-primary:           #4f98a3;
-  --color-primary-hover:     #68b2bd;
-  --color-primary-highlight: #1e2e30;
-  --color-primary-subtle:    rgba(79, 152, 163, 0.10);
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.25);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.32), 0 1px 3px rgba(0,0,0,0.20);
-}
 
 /* ── Component reset scoped to .ac-root ── */
 .ac-root *, .ac-root *::before, .ac-root *::after { box-sizing: border-box; }
@@ -589,29 +566,6 @@ As metadata systems frequently fragment identities across variant name formats, 
 
 <script>
 (function () {
-  /* ── Theme toggle ── */
-  var root = document.documentElement;
-  var btn  = document.querySelector('[data-theme-toggle]');
-  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  var theme = prefersDark ? 'dark' : 'light';
-  root.setAttribute('data-theme', theme);
-
-  function setToggleIcon(t) {
-    if (!btn) return;
-    btn.setAttribute('aria-label', 'Switch to ' + (t === 'dark' ? 'light' : 'dark') + ' mode');
-    btn.innerHTML = t === 'dark'
-      ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
-      : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
-  }
-  setToggleIcon(theme);
-
-  if (btn) {
-    btn.addEventListener('click', function () {
-      theme = theme === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', theme);
-      setToggleIcon(theme);
-    });
-  }
 
   /* ── Search ── */
   var searchInput = document.getElementById('authority-search');
