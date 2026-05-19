@@ -27,7 +27,7 @@ As metadata systems frequently fragment identities across variant name formats, 
     </h2>
   </div>
 <div class="ac-header-actions">
-  <span class="ac-count" id="ac-count" aria-live="polite">19 records</span>
+  <span class="ac-count" id="ac-count" aria-live="polite">20 records</span>
 </div>
 </div>
 
@@ -97,7 +97,7 @@ As metadata systems frequently fragment identities across variant name formats, 
         </svg>
       </span>
       <h3 class="ac-group-label">Governance and institutional profiles</h3>
-      <span class="ac-group-badge">4</span>
+      <span class="ac-group-badge">5</span>
     </header>
     <ul class="ac-items">
       <li class="ac-item" data-label="Internet Governance Forum" data-value="Profile">
@@ -129,6 +129,20 @@ As metadata systems frequently fragment identities across variant name formats, 
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
+
+      <li class="ac-item" data-label="University of Haifa" data-value="Profile">
+  <span class="ac-item-label">University of Haifa</span>
+  <span class="ac-item-value">
+    <a href="https://law.haifa.ac.il/sunil-abraham/" rel="noopener noreferrer">Profile</a>
+  </span>
+  <span class="ac-ext-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+      <polyline points="15 3 21 3 21 9"/>
+      <line x1="10" y1="14" x2="21" y2="3"/>
+    </svg>
+  </span>
+</li>
     </ul>
   </section>
 
@@ -186,8 +200,8 @@ As metadata systems frequently fragment identities across variant name formats, 
         <span class="ac-item-label">Academia.edu</span>
         <span class="ac-item-value">
           <a href="https://artez.academia.edu/SunilAbraham" rel="noopener noreferrer">Profile</a>
-          <span class="ac-chip">AbrahamSunil</span>
-        </span>
+       <span class="ac-chip">SunilAbraham</span>
+       </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
     </ul>
