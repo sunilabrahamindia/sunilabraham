@@ -27,7 +27,7 @@ As metadata systems frequently fragment identities across variant initials, tran
     </h2>
   </div>
 <div class="ac-header-actions">
-  <span class="ac-count" id="ac-count" aria-live="polite">12 records</span>
+  <span class="ac-count" id="ac-count" aria-live="polite">13 records</span>
 </div>
 </div>
 
@@ -51,7 +51,7 @@ As metadata systems frequently fragment identities across variant initials, tran
         </svg>
       </span>
       <h3 class="ac-group-label">Core identifiers</h3>
-      <span class="ac-group-badge">5</span>
+      <span class="ac-group-badge">6</span>
     </header>
 
     <ul class="ac-items">
@@ -100,6 +100,21 @@ As metadata systems frequently fragment identities across variant initials, tran
           </svg>
         </span>
       </li>
+
+      <li class="ac-item" data-label="Google Knowledge Graph" data-value="/g/11y38l60l7">
+  <span class="ac-item-label">Google Knowledge Graph</span>
+  <span class="ac-item-value">
+    <a href="https://www.google.com/search?kgmid=/g/11y38l60l7" rel="noopener noreferrer">/g/11y38l60l7</a>
+    <span class="ac-chip">KG MID</span>
+  </span>
+  <span class="ac-ext-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+      <polyline points="15 3 21 3 21 9"/>
+      <line x1="10" y1="14" x2="21" y2="3"/>
+    </svg>
+  </span>
+</li>
 
       <li class="ac-item" data-label="GND" data-value="1145616593">
         <span class="ac-item-label">GND</span>
