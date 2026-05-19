@@ -284,27 +284,33 @@ As metadata systems frequently fragment identities across variant initials, tran
 
 </div>
 
-
 <style>
 /* ── Design tokens ── */
 :root {
   --font-body: 'DM Sans', 'Helvetica Neue', sans-serif;
   --font-mono: 'DM Mono', 'Courier New', monospace;
 
-  --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
+  --text-xs:   clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
   --text-sm:   clamp(0.8125rem, 0.78rem + 0.2vw, 0.9375rem);
-  --text-base: clamp(0.9375rem, 0.9rem  + 0.2vw, 1.0625rem);
-  --text-lg:   clamp(1.0625rem, 1rem    + 0.4vw, 1.25rem);
-  --text-xl:   clamp(1.25rem,  1.1rem   + 0.75vw, 1.75rem);
+  --text-base: clamp(0.9375rem, 0.9rem + 0.2vw, 1.0625rem);
+  --text-lg:   clamp(1.0625rem, 1rem + 0.4vw, 1.25rem);
+  --text-xl:   clamp(1.25rem, 1.1rem + 0.75vw, 1.75rem);
 
-  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem;
-  --space-4: 1rem;    --space-5: 1.25rem; --space-6: 1.5rem;
-  --space-8: 2rem;    --space-10: 2.5rem; --space-12: 3rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
 
   --radius-sm: 0.375rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
   --radius-full: 9999px;
+
   --transition: 160ms cubic-bezier(0.16, 1, 0.3, 1);
 
   /* Surfaces */
@@ -312,18 +318,19 @@ As metadata systems frequently fragment identities across variant initials, tran
   --color-surface:        #f9f8f5;
   --color-surface-2:      #fafaf8;
   --color-surface-offset: #f1efe9;
+
   --color-border:         rgba(40, 37, 29, 0.12);
   --color-border-strong:  rgba(40, 37, 29, 0.22);
   --color-divider:        rgba(40, 37, 29, 0.08);
 
   /* Text */
-  --color-text:        #28251d;
-  --color-text-muted:  #6b6860;
-  --color-text-faint:  #a8a6a0;
+  --color-text:        #1f1c16;
+  --color-text-muted:  #4f4a42;
+  --color-text-faint:  #69645c;
 
   /* Accent */
-  --color-primary:           #01696f;
-  --color-primary-hover:     #0c4e54;
+  --color-primary:           #01585d;
+  --color-primary-hover:     #013f43;
   --color-primary-highlight: #e3edec;
   --color-primary-subtle:    rgba(1, 105, 111, 0.08);
 
@@ -331,24 +338,21 @@ As metadata systems frequently fragment identities across variant initials, tran
   --shadow-md: 0 4px 12px rgba(40,37,29,0.08), 0 1px 3px rgba(40,37,29,0.05);
 }
 
-
 /* ── Component reset scoped to .ac-root ── */
-.ac-root *, .ac-root *::before, .ac-root *::after { box-sizing: border-box; }
-.ac-root { font-family: var(--font-body); font-size: var(--text-base); line-height: 1.6; color: var(--color-text); }
-
-/* ── Intro block ── */
-.ac-intro {
-  margin-bottom: var(--space-8);
-  padding: var(--space-6) var(--space-6);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
+.ac-root *,
+.ac-root *::before,
+.ac-root *::after {
+  box-sizing: border-box;
 }
-.ac-intro p { max-width: 72ch; margin-bottom: var(--space-3); color: var(--color-text-muted); font-size: var(--text-sm); }
-.ac-intro p:last-child { margin-bottom: 0; }
 
-/* ── Header bar ── */
+.ac-root {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+/* ── Header ── */
 .ac-header {
   display: flex;
   align-items: center;
@@ -357,43 +361,36 @@ As metadata systems frequently fragment identities across variant initials, tran
   gap: var(--space-3);
   margin-bottom: var(--space-5);
 }
+
 .ac-title {
   font-size: var(--text-xl);
-  font-weight: 600;
+  font-weight: 650;
   letter-spacing: -0.02em;
   color: var(--color-text);
   margin: 0;
 }
+
 .ac-title-sub {
   display: block;
   font-size: var(--text-xs);
-  font-weight: 400;
-  color: var(--color-text-faint);
+  font-weight: 500;
+  color: var(--color-text-muted);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 2px;
 }
-.ac-header-actions { display: flex; align-items: center; gap: var(--space-2); }
 
-/* Theme toggle */
-.ac-theme-btn {
-  display: flex; align-items: center; justify-content: center;
-  width: 36px; height: 36px;
-  border-radius: var(--radius-md);
-  background: var(--color-surface-offset);
-  border: 1px solid var(--color-border);
-  color: var(--color-text-muted);
-  cursor: pointer;
-  transition: background var(--transition), color var(--transition), border-color var(--transition);
+.ac-header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
-.ac-theme-btn:hover { background: var(--color-primary-highlight); color: var(--color-primary); border-color: var(--color-primary); }
-.ac-theme-btn:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
 
 /* Count badge */
 .ac-count {
   font-size: var(--text-xs);
   font-family: var(--font-mono);
-  color: var(--color-text-faint);
+  color: var(--color-text-muted);
   background: var(--color-surface-offset);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
@@ -402,14 +399,26 @@ As metadata systems frequently fragment identities across variant initials, tran
 }
 
 /* ── Search ── */
-.ac-search-wrapper { position: relative; margin-bottom: var(--space-5); }
-.ac-search-wrapper svg {
-  position: absolute; left: var(--space-3); top: 50%; transform: translateY(-50%);
-  width: 16px; height: 16px; color: var(--color-text-faint); pointer-events: none;
+.ac-search-wrapper {
+  position: relative;
+  margin-bottom: var(--space-5);
 }
+
+.ac-search-wrapper svg {
+  position: absolute;
+  left: var(--space-3);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: var(--color-text-muted);
+  pointer-events: none;
+}
+
 #authority-search {
   width: 100%;
-  padding: var(--space-3) var(--space-4) var(--space-3) calc(var(--space-3) + 16px + var(--space-2));
+  padding: var(--space-3) var(--space-4) var(--space-3)
+           calc(var(--space-3) + 16px + var(--space-2));
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-md);
   background: var(--color-surface);
@@ -419,26 +428,53 @@ As metadata systems frequently fragment identities across variant initials, tran
   transition: border-color var(--transition), box-shadow var(--transition);
   -webkit-appearance: none;
 }
-#authority-search::placeholder { color: var(--color-text-faint); }
-#authority-search:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px var(--color-primary-subtle); }
+
+#authority-search::placeholder {
+  color: var(--color-text-faint);
+}
+
+#authority-search:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-subtle);
+}
 
 /* Clear button */
 .ac-search-clear {
   display: none;
-  position: absolute; right: var(--space-3); top: 50%; transform: translateY(-50%);
-  background: var(--color-surface-offset); border: 1px solid var(--color-border);
+  position: absolute;
+  right: var(--space-3);
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--color-surface-offset);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  width: 20px; height: 20px;
-  align-items: center; justify-content: center;
-  cursor: pointer; color: var(--color-text-muted);
-  font-size: 0.7rem; font-weight: 700; line-height: 1;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1;
   transition: background var(--transition), color var(--transition);
 }
-.ac-search-clear:hover { background: var(--color-primary-highlight); color: var(--color-primary); }
-.ac-search-clear.visible { display: flex; }
 
-/* ── Main card grid ── */
-.ac-groups { display: grid; gap: var(--space-4); }
+.ac-search-clear:hover {
+  background: var(--color-primary-highlight);
+  color: var(--color-primary);
+}
+
+.ac-search-clear.visible {
+  display: flex;
+}
+
+/* ── Grid ── */
+.ac-groups {
+  display: grid;
+  gap: var(--space-4);
+}
 
 /* ── Group card ── */
 .ac-group-card {
@@ -449,8 +485,14 @@ As metadata systems frequently fragment identities across variant initials, tran
   box-shadow: var(--shadow-sm);
   transition: box-shadow var(--transition);
 }
-.ac-group-card:hover { box-shadow: var(--shadow-md); }
-.ac-group-card[aria-hidden="true"] { display: none; }
+
+.ac-group-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.ac-group-card[aria-hidden="true"] {
+  display: none;
+}
 
 /* Group header */
 .ac-group-head {
@@ -461,22 +503,32 @@ As metadata systems frequently fragment identities across variant initials, tran
   background: var(--color-surface-offset);
   border-bottom: 1px solid var(--color-divider);
 }
+
 .ac-group-icon {
-  display: flex; align-items: center; justify-content: center;
-  width: 32px; height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
   background: var(--color-primary-highlight);
   border-radius: var(--radius-sm);
   color: var(--color-primary);
   flex-shrink: 0;
 }
-.ac-group-icon svg { width: 16px; height: 16px; }
+
+.ac-group-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
 .ac-group-label {
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: 650;
   color: var(--color-text);
   margin: 0;
   flex: 1;
 }
+
 .ac-group-badge {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
@@ -486,10 +538,13 @@ As metadata systems frequently fragment identities across variant initials, tran
   padding: 1px var(--space-2);
 }
 
-/* Items list */
-.ac-items { list-style: none; margin: 0; padding: 0; }
+/* ── Items ── */
+.ac-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-/* Item row */
 .ac-item {
   display: grid;
   grid-template-columns: minmax(140px, 36%) 1fr auto;
@@ -499,14 +554,23 @@ As metadata systems frequently fragment identities across variant initials, tran
   border-bottom: 1px solid var(--color-divider);
   transition: background var(--transition);
 }
-.ac-item:last-child { border-bottom: none; }
-.ac-item:hover { background: var(--color-primary-subtle); }
-.ac-item[aria-hidden="true"] { display: none; }
+
+.ac-item:last-child {
+  border-bottom: none;
+}
+
+.ac-item:hover {
+  background: var(--color-primary-subtle);
+}
+
+.ac-item[aria-hidden="true"] {
+  display: none;
+}
 
 .ac-item-label {
   font-size: var(--text-sm);
-  font-weight: 500;
-  color: var(--color-text-muted);
+  font-weight: 600;
+  color: var(--color-text);
   padding-top: 1px;
   line-height: 1.5;
 }
@@ -517,6 +581,7 @@ As metadata systems frequently fragment identities across variant initials, tran
   gap: var(--space-2);
   min-width: 0;
 }
+
 .ac-item-value a {
   color: var(--color-primary);
   text-decoration: none;
@@ -525,14 +590,24 @@ As metadata systems frequently fragment identities across variant initials, tran
   word-break: break-all;
   transition: color var(--transition);
 }
-.ac-item-value a:hover { color: var(--color-primary-hover); text-decoration: underline; text-underline-offset: 2px; }
-.ac-item-value a:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; border-radius: 2px; }
+
+.ac-item-value a:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.ac-item-value a:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
 
 /* Identifier chip */
 .ac-chip {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
-  color: var(--color-text-faint);
+  color: var(--color-text-muted);
   background: var(--color-surface-offset);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
@@ -543,19 +618,31 @@ As metadata systems frequently fragment identities across variant initials, tran
   max-width: 10rem;
   display: none;
 }
-@media (min-width: 560px) { .ac-chip { display: inline-block; } }
 
-/* External link icon */
+@media (min-width: 560px) {
+  .ac-chip {
+    display: inline-block;
+  }
+}
+
+/* External icon */
 .ac-ext-icon {
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-text-faint);
+  color: var(--color-text-muted);
   transition: color var(--transition);
 }
-.ac-item:hover .ac-ext-icon { color: var(--color-primary); }
-.ac-ext-icon svg { width: 12px; height: 12px; }
+
+.ac-item:hover .ac-ext-icon {
+  color: var(--color-primary);
+}
+
+.ac-ext-icon svg {
+  width: 12px;
+  height: 12px;
+}
 
 /* ── Empty state ── */
 .ac-empty {
@@ -566,44 +653,71 @@ As metadata systems frequently fragment identities across variant initials, tran
   padding: var(--space-12) var(--space-8);
   color: var(--color-text-muted);
 }
-.ac-empty.visible { display: flex; }
-.ac-empty-icon { color: var(--color-text-faint); margin-bottom: var(--space-4); }
-.ac-empty h3 { color: var(--color-text); font-size: var(--text-lg); margin-bottom: var(--space-2); }
-.ac-empty p { font-size: var(--text-sm); max-width: 36ch; }
 
-/* ── Footer note ── */
-.ac-footer {
-  margin-top: var(--space-6);
-  padding: var(--space-4) var(--space-5);
-  background: var(--color-surface-offset);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  font-size: var(--text-xs);
-  color: var(--color-text-faint);
+.ac-empty.visible {
   display: flex;
-  align-items: flex-start;
-  gap: var(--space-3);
 }
-.ac-footer svg { flex-shrink: 0; color: var(--color-text-faint); margin-top: 1px; }
 
-/* ── Responsive: mobile stack ── */
+.ac-empty-icon {
+  color: var(--color-text-faint);
+  margin-bottom: var(--space-4);
+}
+
+.ac-empty h3 {
+  color: var(--color-text);
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-2);
+}
+
+.ac-empty p {
+  font-size: var(--text-sm);
+  max-width: 36ch;
+}
+
+/* ── Mobile ── */
 @media (max-width: 520px) {
   .ac-item {
     grid-template-columns: 1fr;
     gap: var(--space-1);
     padding: var(--space-3) var(--space-4);
   }
-  .ac-item-label { font-size: var(--text-xs); color: var(--color-text-faint); text-transform: uppercase; letter-spacing: 0.04em; }
-  .ac-ext-icon { display: none; }
-  .ac-group-head { padding: var(--space-3) var(--space-4); }
-  .ac-header { flex-direction: column; align-items: flex-start; }
-  .ac-title { font-size: var(--text-lg); }
+
+  .ac-item-label {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .ac-ext-icon {
+    display: none;
+  }
+
+  .ac-group-head {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .ac-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ac-title {
+    font-size: var(--text-lg);
+  }
 }
 
-/* ── visually-hidden utility ── */
+/* ── Screen reader only ── */
 .sr-only {
-  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
-  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
 }
 </style>
 
