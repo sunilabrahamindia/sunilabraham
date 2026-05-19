@@ -27,7 +27,7 @@ As metadata systems frequently fragment identities across variant name formats, 
     </h2>
   </div>
 <div class="ac-header-actions">
-  <span class="ac-count" id="ac-count" aria-live="polite">17 records</span>
+  <span class="ac-count" id="ac-count" aria-live="polite">19 records</span>
 </div>
 </div>
 
@@ -141,7 +141,7 @@ As metadata systems frequently fragment identities across variant name formats, 
         </svg>
       </span>
       <h3 class="ac-group-label">Scholarly and archival profiles</h3>
-      <span class="ac-group-badge">4</span>
+      <span class="ac-group-badge">5</span>
     </header>
     <ul class="ac-items">
       <li class="ac-item" data-label="Wikimedia Commons" data-value="Category:Sunil Abraham">
@@ -159,6 +159,22 @@ As metadata systems frequently fragment identities across variant name formats, 
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
+
+<li class="ac-item" data-label="SSRN" data-value="1851238">
+  <span class="ac-item-label">SSRN</span>
+  <span class="ac-item-value">
+    <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1851238" rel="noopener noreferrer">Author profile</a>
+    <span class="ac-chip">1851238</span>
+  </span>
+  <span class="ac-ext-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+      <polyline points="15 3 21 3 21 9"/>
+      <line x1="10" y1="14" x2="21" y2="3"/>
+    </svg>
+  </span>
+</li>
+      
       <li class="ac-item" data-label="Monoskop" data-value="Entry">
         <span class="ac-item-label">Monoskop</span>
         <span class="ac-item-value">
@@ -169,7 +185,7 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="Academia.edu" data-value="AbrahamSunil">
         <span class="ac-item-label">Academia.edu</span>
         <span class="ac-item-value">
-          <a href="https://independent.academia.edu/AbrahamSunil" rel="noopener noreferrer">Profile</a>
+          <a href="https://artez.academia.edu/SunilAbraham" rel="noopener noreferrer">Profile</a>
           <span class="ac-chip">AbrahamSunil</span>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
@@ -186,7 +202,7 @@ As metadata systems frequently fragment identities across variant name formats, 
         </svg>
       </span>
       <h3 class="ac-group-label">Recognition and reference profiles</h3>
-      <span class="ac-group-badge">5</span>
+      <span class="ac-group-badge">6</span>
     </header>
     <ul class="ac-items">
       <li class="ac-item" data-label="MIT Sloan Middle East" data-value="Recognition profile">
@@ -223,6 +239,20 @@ As metadata systems frequently fragment identities across variant name formats, 
   <span class="ac-item-value">
     <a href="https://cis-india.org/author/sunil">Author profile</a>
     <span class="ac-chip">cis-india.org</span>
+  </span>
+  <span class="ac-ext-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+      <polyline points="15 3 21 3 21 9"/>
+      <line x1="10" y1="14" x2="21" y2="3"/>
+    </svg>
+  </span>
+</li>
+      <li class="ac-item" data-label="Forbes India" data-value="Author profile">
+  <span class="ac-item-label">Forbes India</span>
+  <span class="ac-item-value">
+    <a href="https://www.forbesindia.com/author/sunil-abraham/3989" rel="noopener noreferrer">Author profile</a>
+    <span class="ac-chip">3989</span>
   </span>
   <span class="ac-ext-icon" aria-hidden="true">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
