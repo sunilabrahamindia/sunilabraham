@@ -141,7 +141,7 @@ As metadata systems frequently fragment identities across variant name formats, 
         </svg>
       </span>
       <h3 class="ac-group-label">Scholarly and archival profiles</h3>
-      <span class="ac-group-badge">5</span>
+      <span class="ac-group-badge">4</span>
     </header>
     <ul class="ac-items">
       <li class="ac-item" data-label="Wikimedia Commons" data-value="Category:Sunil Abraham">
@@ -171,13 +171,6 @@ As metadata systems frequently fragment identities across variant name formats, 
         <span class="ac-item-value">
           <a href="https://independent.academia.edu/AbrahamSunil" target="_blank" rel="noopener noreferrer">Profile</a>
           <span class="ac-chip">AbrahamSunil</span>
-        </span>
-        <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
-      </li>
-      <li class="ac-item" data-label="Zenodo" data-value="Search">
-        <span class="ac-item-label">Zenodo</span>
-        <span class="ac-item-value">
-          <a href="https://zenodo.org/search" target="_blank" rel="noopener noreferrer">Search</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
