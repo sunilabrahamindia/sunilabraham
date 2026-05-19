@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Authority Control"
+title: "Authority Control: Sunil Abraham"
 description: "Authority control identifiers, bibliographic records, scholarly profiles, and related metadata associated with Sunil Abraham."
 permalink: /sunil/authority-control/
 categories: [Sunil Abraham, Authority control]
@@ -15,224 +15,290 @@ As metadata systems frequently fragment identities across variant name formats, 
 
 ## Identifiers and profiles
 
-<div class="authority-control-box" aria-labelledby="authority-control-heading">
+<div class="authority-control">
 
-  <div class="authority-header">
-    <h2 id="authority-control-heading">Authority control</h2>
+<h2>External identifiers and profiles</h2>
 
-    <label class="visually-hidden" for="authority-search">
-      Search authority links
-    </label>
+<div class="authority-search-wrapper">
+  <label for="authority-search" class="visually-hidden">
+    Search identifiers and profiles
+  </label>
 
-    <input
-      type="search"
-      id="authority-search"
-      class="authority-search"
-      placeholder="Search authority links..."
-      aria-label="Search authority links"
-    >
-  </div>
+  <input
+    type="search"
+    id="authority-search"
+    placeholder="Search identifiers and profiles"
+    aria-label="Search identifiers and profiles"
+  >
+</div>
 
-  <p class="authority-intro">
-    This page consolidates identifiers, institutional profiles, scholarly records, archival references, and related metadata associated with Sunil Abraham.
-  </p>
+<table class="authority-table">
 
-  <section class="authority-category" aria-labelledby="authority-core">
-    <h3 id="authority-core">Core identifiers</h3>
+  <tbody>
 
-    <div class="authority-links">
+    <tr class="authority-group">
+      <th colspan="2">Core identifiers</th>
+    </tr>
 
-      <a href="https://www.wikidata.org/wiki/Q55584271">
-        Wikidata
-      </a>
+    <tr>
+      <td class="authority-label">Wikidata</td>
+      <td class="authority-value">
+        <a href="https://www.wikidata.org/wiki/Q55584271">
+          Q55584271
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://en.wikipedia.org/wiki/Sunil_Abraham">
-        Wikipedia
-      </a>
+    <tr>
+      <td class="authority-label">Wikipedia</td>
+      <td class="authority-value">
+        <a href="https://en.wikipedia.org/wiki/Sunil_Abraham">
+          Sunil Abraham
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://orcid.org/0009-0006-5724-7938">
-        ORCID
-      </a>
+    <tr>
+      <td class="authority-label">ORCID</td>
+      <td class="authority-value">
+        <a href="https://orcid.org/0009-0006-5724-7938">
+          0009-0006-5724-7938
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://www.google.com/search?kgmid=/g/11g1gp78zl">
-        Google Knowledge Graph
-      </a>
+    <tr>
+      <td class="authority-label">Google Knowledge Graph</td>
+      <td class="authority-value">
+        <a href="https://www.google.com/search?kgmid=/g/11g1gp78zl">
+          /g/11g1gp78zl
+        </a>
+      </td>
+    </tr>
 
-    </div>
-  </section>
+    <tr class="authority-group">
+      <th colspan="2">Governance and institutional profiles</th>
+    </tr>
 
-  <section class="authority-category" aria-labelledby="authority-governance">
-    <h3 id="authority-governance">
-      Governance and institutional profiles
-    </h3>
+    <tr>
+      <td class="authority-label">Internet Governance Forum</td>
+      <td class="authority-value">
+        <a href="https://www.intgovforum.org/en/content/sunil-abraham">
+          Profile
+        </a>
+      </td>
+    </tr>
 
-    <div class="authority-links">
-
-      <a href="https://www.intgovforum.org/en/content/sunil-abraham">
-        Internet Governance Forum
-      </a>
-
-      <a href="https://www.apc.org/en/sunil-abraham">
+    <tr>
+      <td class="authority-label">
         Association for Progressive Communications
-      </a>
+      </td>
+      <td class="authority-value">
+        <a href="https://www.apc.org/en/sunil-abraham">
+          Profile
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://giswatch.org/users/sabraham">
-        GISWatch
-      </a>
+    <tr>
+      <td class="authority-label">GISWatch</td>
+      <td class="authority-value">
+        <a href="https://giswatch.org/users/sabraham">
+          Profile
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://www.ashoka.org/en-in/fellow/sunil-abraham">
-        Ashoka
-      </a>
+    <tr>
+      <td class="authority-label">Ashoka</td>
+      <td class="authority-value">
+        <a href="https://www.ashoka.org/en-in/fellow/sunil-abraham">
+          Fellow profile
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://www.crunchbase.com/person/sunil-abraham">
-        Crunchbase
-      </a>
+    <tr class="authority-group">
+      <th colspan="2">Scholarly and archival profiles</th>
+    </tr>
 
-      <a href="https://theorg.com/org/meta/org-chart/sunil-abraham">
-        The Org
-      </a>
+    <tr>
+      <td class="authority-label">Wikimedia Commons</td>
+      <td class="authority-value">
+        <a href="https://commons.wikimedia.org/wiki/Category:Sunil_Abraham">
+          Category:Sunil Abraham
+        </a>
+      </td>
+    </tr>
 
-    </div>
-  </section>
+    <tr>
+      <td class="authority-label">OpenAlex</td>
+      <td class="authority-value">
+        <a href="https://openalex.org/authors/a5109212719">
+          A5109212719
+        </a>
+      </td>
+    </tr>
 
-  <section class="authority-category" aria-labelledby="authority-scholarly">
-    <h3 id="authority-scholarly">
-      Scholarly and archival profiles
-    </h3>
+    <tr>
+      <td class="authority-label">Monoskop</td>
+      <td class="authority-value">
+        <a href="https://monoskop.org/Sunil_Abraham">
+          Entry
+        </a>
+      </td>
+    </tr>
 
-    <div class="authority-links">
+    <tr>
+      <td class="authority-label">Academia.edu</td>
+      <td class="authority-value">
+        <a href="https://independent.academia.edu/AbrahamSunil">
+          Profile
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://openalex.org/authors/a5109212719">
-        OpenAlex
-      </a>
+    <tr>
+      <td class="authority-label">Zenodo</td>
+      <td class="authority-value">
+        <a href="https://zenodo.org/search">
+          Search
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://independent.academia.edu/AbrahamSunil">
-        Academia.edu
-      </a>
+    <tr class="authority-group">
+      <th colspan="2">Recognition and reference profiles</th>
+    </tr>
 
-      <a href="https://monoskop.org/Sunil_Abraham">
-        Monoskop
-      </a>
+    <tr>
+      <td class="authority-label">MIT Sloan Middle East</td>
+      <td class="authority-value">
+        <a href="https://www.mitsloanme.com/article/sunil-abraham/">
+          Recognition profile
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://commons.wikimedia.org/wiki/Category:Sunil_Abraham">
-        Wikimedia Commons
-      </a>
+    <tr>
+      <td class="authority-label">Crunchbase</td>
+      <td class="authority-value">
+        <a href="https://www.crunchbase.com/person/sunil-abraham">
+          Profile
+        </a>
+      </td>
+    </tr>
 
-      <a href="https://zenodo.org/search">
-        Zenodo
-      </a>
+    <tr>
+      <td class="authority-label">The Org</td>
+      <td class="authority-value">
+        <a href="https://theorg.com/org/meta/org-chart/sunil-abraham">
+          Organisational profile
+        </a>
+      </td>
+    </tr>
 
-    </div>
-  </section>
+    <tr>
+      <td class="authority-label">The Sunil Abraham Project</td>
+      <td class="authority-value">
+        <a href="/sunil/">
+          /sunil/
+        </a>
+      </td>
+    </tr>
 
-  <section class="authority-category" aria-labelledby="authority-recognition">
-    <h3 id="authority-recognition">
-      Recognition and reference profiles
-    </h3>
+  </tbody>
 
-    <div class="authority-links">
-
-      <a href="https://www.mitsloanme.com/article/sunil-abraham/">
-        MIT Sloan Middle East
-      </a>
-
-      <a href="/sunil/">
-        The Sunil Abraham Project
-      </a>
-
-    </div>
-  </section>
+</table>
 
 </div>
 
 <style>
 
-.authority-control-box {
+.authority-control {
   margin: 2rem 0;
-  padding: 1.25rem;
-  border: 1px solid #cbd5e1;
-  border-radius: 14px;
-  background: #f8fafc;
-  color: #111827;
-}
-
-.authority-header {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.authority-header h2 {
-  margin: 0;
-  font-size: 1.8rem;
-  line-height: 1.3;
-}
-
-.authority-intro {
-  margin-top: 1rem;
+  border: 1px solid #a2a9b1;
+  background: #ffffff;
+  font-size: 0.95rem;
   line-height: 1.7;
-  font-size: 1rem;
+  overflow-x: auto;
 }
 
-.authority-search {
+.authority-control h2 {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #a2a9b1;
+  background: #f8f9fa;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.authority-search-wrapper {
+  padding: 1rem;
+  border-bottom: 1px solid #eaecf0;
+  background: #ffffff;
+}
+
+#authority-search {
   width: 100%;
   max-width: 420px;
-  padding: 0.75rem 1rem;
-  border: 1px solid #94a3b8;
-  border-radius: 10px;
-  font-size: 1rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #a2a9b1;
   background: #ffffff;
-  color: #111827;
-}
-
-.authority-search:focus {
-  outline: 3px solid #2563eb;
-  outline-offset: 2px;
-  border-color: #2563eb;
-}
-
-.authority-category {
-  margin-top: 2rem;
-}
-
-.authority-category h3 {
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
-.authority-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
-.authority-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px;
-  padding: 0.65rem 1rem;
-  border-radius: 999px;
-  background: #ffffff;
-  border: 1px solid #cbd5e1;
-  color: #0f172a;
-  text-decoration: none;
+  color: #202122;
   font-size: 0.95rem;
-  line-height: 1.4;
-  transition: background 0.2s ease, border-color 0.2s ease;
-  word-break: break-word;
 }
 
-.authority-links a:hover,
-.authority-links a:focus {
-  background: #e2e8f0;
-  border-color: #64748b;
+#authority-search:focus {
+  outline: 2px solid #36c;
+  outline-offset: 1px;
 }
 
-.authority-links a:focus {
-  outline: 3px solid #2563eb;
-  outline-offset: 2px;
+.authority-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.authority-group th {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #a2a9b1;
+  border-bottom: 1px solid #c8ccd1;
+  background: #f8f9fa;
+  text-align: left;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.authority-table tr {
+  border-bottom: 1px solid #eaecf0;
+}
+
+.authority-label,
+.authority-value {
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+}
+
+.authority-label {
+  width: 32%;
+  min-width: 180px;
+  background: #fbfbfb;
+  color: #202122;
+  font-weight: 600;
+}
+
+.authority-value {
+  overflow-wrap: anywhere;
+}
+
+.authority-value a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.authority-value a:hover,
+.authority-value a:focus {
+  text-decoration: underline;
 }
 
 .visually-hidden {
@@ -240,24 +306,34 @@ As metadata systems frequently fragment identities across variant name formats, 
   left: -9999px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
 
-  .authority-control-box {
-    padding: 1rem;
+  .authority-control {
+    font-size: 0.92rem;
   }
 
-  .authority-header h2 {
-    font-size: 1.5rem;
-  }
-
-  .authority-links {
-    gap: 0.6rem;
-  }
-
-  .authority-links a {
+  .authority-table,
+  .authority-table tbody,
+  .authority-table tr,
+  .authority-table td,
+  .authority-table th {
+    display: block;
     width: 100%;
-    justify-content: flex-start;
-    border-radius: 12px;
+  }
+
+  .authority-group th {
+    border-top: 1px solid #a2a9b1;
+  }
+
+  .authority-label {
+    min-width: unset;
+    width: 100%;
+    padding-bottom: 0.3rem;
+    border-bottom: none;
+  }
+
+  .authority-value {
+    padding-top: 0;
   }
 
 }
@@ -270,35 +346,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const searchInput = document.getElementById('authority-search');
 
-  const categories = document.querySelectorAll('.authority-category');
+  const rows = document.querySelectorAll('.authority-table tr');
 
   searchInput.addEventListener('input', function () {
 
     const query = this.value.toLowerCase().trim();
 
-    categories.forEach(function (category) {
+    rows.forEach(function (row) {
 
-      let visibleLinks = 0;
+      if (row.classList.contains('authority-group')) {
+        row.style.display = '';
+        return;
+      }
 
-      const links = category.querySelectorAll('a');
+      const text = row.textContent.toLowerCase();
 
-      links.forEach(function (link) {
-
-        const text = link.textContent.toLowerCase();
-
-        if (text.includes(query)) {
-          link.style.display = 'inline-flex';
-          visibleLinks++;
-        } else {
-          link.style.display = 'none';
-        }
-
-      });
-
-      if (visibleLinks > 0) {
-        category.style.display = 'block';
+      if (text.includes(query)) {
+        row.style.display = '';
       } else {
-        category.style.display = 'none';
+        row.style.display = 'none';
       }
 
     });
