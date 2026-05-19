@@ -19,7 +19,7 @@ As metadata systems frequently fragment institutional identities across abbrevia
   <div>
     <h2 id="ac" class="ac-title">
       Identifiers and profiles
-      <span class="ac-title-sub">Authority control · The Centre for Internet and Society</span>
+      <span class="ac-title-sub">Authority control · Centre for Internet and Society</span>
     </h2>
   </div>
 <div class="ac-header-actions">
