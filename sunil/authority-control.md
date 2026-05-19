@@ -57,7 +57,7 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="Wikidata" data-value="Q55584271">
         <span class="ac-item-label">Wikidata</span>
         <span class="ac-item-value">
-          <a href="https://www.wikidata.org/wiki/Q55584271" target="_blank" rel="noopener noreferrer">Q55584271</a>
+          <a href="https://www.wikidata.org/wiki/Q55584271" rel="noopener noreferrer">Q55584271</a>
           <span class="ac-chip">Q55584271</span>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
@@ -65,14 +65,14 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="Wikipedia" data-value="Sunil Abraham">
         <span class="ac-item-label">Wikipedia</span>
         <span class="ac-item-value">
-          <a href="https://en.wikipedia.org/wiki/Sunil_Abraham" target="_blank" rel="noopener noreferrer">Sunil Abraham</a>
+          <a href="https://en.wikipedia.org/wiki/Sunil_Abraham" rel="noopener noreferrer">Sunil Abraham</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
       <li class="ac-item" data-label="ORCID" data-value="0009-0006-5724-7938">
         <span class="ac-item-label">ORCID</span>
         <span class="ac-item-value">
-          <a href="https://orcid.org/0009-0006-5724-7938" target="_blank" rel="noopener noreferrer">0009-0006-5724-7938</a>
+          <a href="https://orcid.org/0009-0006-5724-7938" rel="noopener noreferrer">0009-0006-5724-7938</a>
           <span class="ac-chip">0009-0006-5724-7938</span>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
@@ -80,7 +80,7 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="Google Knowledge Graph" data-value="/g/11g1gp78zl">
         <span class="ac-item-label">Google Knowledge Graph</span>
         <span class="ac-item-value">
-          <a href="https://www.google.com/search?kgmid=/g/11g1gp78zl" target="_blank" rel="noopener noreferrer">/g/11g1gp78zl</a>
+          <a href="https://www.google.com/search?kgmid=/g/11g1gp78zl" rel="noopener noreferrer">/g/11g1gp78zl</a>
           <span class="ac-chip">/g/11g1gp78zl</span>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
@@ -103,21 +103,21 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="Internet Governance Forum" data-value="Profile">
         <span class="ac-item-label">Internet Governance Forum</span>
         <span class="ac-item-value">
-          <a href="https://www.intgovforum.org/en/content/sunil-abraham" target="_blank" rel="noopener noreferrer">Profile</a>
+          <a href="https://www.intgovforum.org/en/content/sunil-abraham" rel="noopener noreferrer">Profile</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
       <li class="ac-item" data-label="Association for Progressive Communications" data-value="Profile">
         <span class="ac-item-label">Association for Progressive Communications</span>
         <span class="ac-item-value">
-          <a href="https://www.apc.org/en/sunil-abraham" target="_blank" rel="noopener noreferrer">Profile</a>
+          <a href="https://www.apc.org/en/sunil-abraham" rel="noopener noreferrer">Profile</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
       <li class="ac-item" data-label="GISWatch" data-value="sabraham">
         <span class="ac-item-label">GISWatch</span>
         <span class="ac-item-value">
-          <a href="https://giswatch.org/users/sabraham" target="_blank" rel="noopener noreferrer">Profile</a>
+          <a href="https://giswatch.org/users/sabraham" rel="noopener noreferrer">Profile</a>
           <span class="ac-chip">sabraham</span>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
@@ -125,7 +125,7 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="Ashoka" data-value="Fellow profile">
         <span class="ac-item-label">Ashoka</span>
         <span class="ac-item-value">
-          <a href="https://www.ashoka.org/en-in/fellow/sunil-abraham" target="_blank" rel="noopener noreferrer">Fellow profile</a>
+          <a href="https://www.ashoka.org/en-in/fellow/sunil-abraham" rel="noopener noreferrer">Fellow profile</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
@@ -147,14 +147,14 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="Wikimedia Commons" data-value="Category:Sunil Abraham">
         <span class="ac-item-label">Wikimedia Commons</span>
         <span class="ac-item-value">
-          <a href="https://commons.wikimedia.org/wiki/Category:Sunil_Abraham" target="_blank" rel="noopener noreferrer">Category:Sunil Abraham</a>
+          <a href="https://commons.wikimedia.org/wiki/Category:Sunil_Abraham" rel="noopener noreferrer">Category:Sunil Abraham</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
       <li class="ac-item" data-label="OpenAlex" data-value="A5109212719">
         <span class="ac-item-label">OpenAlex</span>
         <span class="ac-item-value">
-          <a href="https://openalex.org/authors/a5109212719" target="_blank" rel="noopener noreferrer">A5109212719</a>
+          <a href="https://openalex.org/authors/a5109212719" rel="noopener noreferrer">A5109212719</a>
           <span class="ac-chip">A5109212719</span>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
@@ -162,14 +162,14 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="Monoskop" data-value="Entry">
         <span class="ac-item-label">Monoskop</span>
         <span class="ac-item-value">
-          <a href="https://monoskop.org/Sunil_Abraham" target="_blank" rel="noopener noreferrer">Entry</a>
+          <a href="https://monoskop.org/Sunil_Abraham" rel="noopener noreferrer">Entry</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
       <li class="ac-item" data-label="Academia.edu" data-value="AbrahamSunil">
         <span class="ac-item-label">Academia.edu</span>
         <span class="ac-item-value">
-          <a href="https://independent.academia.edu/AbrahamSunil" target="_blank" rel="noopener noreferrer">Profile</a>
+          <a href="https://independent.academia.edu/AbrahamSunil" rel="noopener noreferrer">Profile</a>
           <span class="ac-chip">AbrahamSunil</span>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
@@ -192,21 +192,21 @@ As metadata systems frequently fragment identities across variant name formats, 
       <li class="ac-item" data-label="MIT Sloan Middle East" data-value="Recognition profile">
         <span class="ac-item-label">MIT Sloan Middle East</span>
         <span class="ac-item-value">
-          <a href="https://www.mitsloanme.com/article/sunil-abraham/" target="_blank" rel="noopener noreferrer">Recognition profile</a>
+          <a href="https://www.mitsloanme.com/article/sunil-abraham/" rel="noopener noreferrer">Recognition profile</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
       <li class="ac-item" data-label="Crunchbase" data-value="Profile">
         <span class="ac-item-label">Crunchbase</span>
         <span class="ac-item-value">
-          <a href="https://www.crunchbase.com/person/sunil-abraham" target="_blank" rel="noopener noreferrer">Profile</a>
+          <a href="https://www.crunchbase.com/person/sunil-abraham" rel="noopener noreferrer">Profile</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
       <li class="ac-item" data-label="The Org" data-value="Organisational profile">
         <span class="ac-item-label">The Org</span>
         <span class="ac-item-value">
-          <a href="https://theorg.com/org/meta/org-chart/sunil-abraham" target="_blank" rel="noopener noreferrer">Organisational profile</a>
+          <a href="https://theorg.com/org/meta/org-chart/sunil-abraham" rel="noopener noreferrer">Organisational profile</a>
         </span>
         <span class="ac-ext-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></span>
       </li>
