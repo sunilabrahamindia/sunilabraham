@@ -388,6 +388,8 @@ As metadata systems frequently fragment institutional identities across abbrevia
 
 {% include navbox-cis.html %}
 
+{% include navbox-authority.html %}
+
 <style>
 /* ── Design tokens ── */
 :root {
