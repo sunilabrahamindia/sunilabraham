@@ -293,6 +293,8 @@ As metadata systems frequently fragment identities across variant name formats, 
 
 </div><!-- /ac-root -->
 
+{% include navbox-authority.html %}
+
 <style>
 /* ── Design tokens ── */
 :root {
