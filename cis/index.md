@@ -89,6 +89,8 @@ CIS published annual reports documenting its research, advocacy, events, publica
 
 {% include navbox-cis.html %}
 
+{% include navbox-authority.html %}
+
 <style>
 .cis-logo-wrap {
   float: right;
