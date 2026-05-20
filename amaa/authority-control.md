@@ -301,6 +301,8 @@ As metadata systems frequently fragment identities across variant initials, tran
 
 {% include navbox-amaa.html %}
 
+{% include navbox-authority.html %}
+
 <style>
 /* ── Design tokens ── */
 :root {
