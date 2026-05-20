@@ -61,15 +61,15 @@ The essays in this collection span theology, sociology, and history. Selected ch
 
 <ol>
   <li>
-    Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS
+    <a href="/amaa/indian-religious-heritage-social-transformation/">Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS</a>
   </li>
 
   <li>
-    A Proposal for the Study of Religious Heritage of the Dalits: Some Methodological Considerations
+    <a href="/amaa/proposal-study-religious-heritage-dalits/">A Proposal for the Study of Religious Heritage of the Dalits: Some Methodological Considerations</a>
   </li>
 
   <li>
-    Religious Legitimation and Delegitimation of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective
+    <a href="/amaa/religious-legitimation-delegitimations-social-relations-power/">Religious Legitimation and Delegitimation of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective</a>
   </li>
 
   <li>
@@ -77,11 +77,11 @@ The essays in this collection span theology, sociology, and history. Selected ch
   </li>
 
   <li>
-    The Religious Factor in Dalit Liberation: Some Reflections
+    <a href="/amaa/religious-factor-dalit-liberation/">The Religious Factor in Dalit Liberation: Some Reflections</a>
   </li>
 
   <li>
-    Chinna Pulayan: The Dalit Teacher of Sankaracharya
+    <a href="/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/">Chinna Pulayan: The Dalit Teacher of Sankaracharya</a>
   </li>
 
   <li>
@@ -89,7 +89,7 @@ The essays in this collection span theology, sociology, and history. Selected ch
   </li>
 
   <li>
-    The Role of Religions in Dalit Liberation: Some Reflections
+    <a href="/amaa/role-of-religion-dalit-liberation/">The Role of Religions in Dalit Liberation: Some Reflections</a>
   </li>
 
   <li>
@@ -101,14 +101,14 @@ The essays in this collection span theology, sociology, and history. Selected ch
   </li>
 
   <li>
-    Christian Dalits in Revolt
+    <a href="/amaa/christian-dalits-in-revolt/">Christian Dalits in Revolt</a>
   </li>
 
   <li>
-    Swami Anand Thirth - "Untouchability": Gandhian Solutions on Trial
+    <a href="/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/">Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</a>
 
-    <ol type="a">
-      <li>Introduction</li>
+<ol type="a" style="margin-top:0.5rem;">
+  <li>Introduction</li>
       <li>Sannyasa for the Sake of Outcastes</li>
       <li>Attempts to Create a Counter-Culture</li>
       <li>A Dream Betrayed</li>
