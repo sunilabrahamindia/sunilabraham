@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Full Text: Chinnapulayan: The Dalit Teacher of Sankaracharya"
+title: "Full Text: Chinna Pulayan: The Dalit Teacher of Sankaracharya"
 description: "Complete verbatim text of A. M. A. Ayrookuzhiel's paper on the Pulaya Tottam of Pottan Teyyam and its Brahminised Sankaracharya variant."
 permalink: /amaa/chinnapulayan-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
@@ -8,7 +8,7 @@ date: 1996
 created: 2026-04-23
 ---
 
-The **full text of the [Chinnapulayan: The Dalit Teacher of Sankaracharya](/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/)** is reproduced here verbatim from the original paper by A. M. A. Ayrookuzhiel.
+The **full text of the [Chinna Pulayan: The Dalit Teacher of Sankaracharya](/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/)** is reproduced here verbatim from the original paper by A. M. A. Ayrookuzhiel.
 
 This version preserves the original wording, structure, poetic formatting, and footnotes as presented in the source document. The text includes both the Pulaya version of the *Tottam of Pottan Teyyam* and the later Brahminised Sankaracharya variant, along with the author's analysis.
 
