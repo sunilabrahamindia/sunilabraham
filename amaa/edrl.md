@@ -8,7 +8,7 @@ created: 2025-10-29
 
 ***Essays on Dalits, Religion and Liberation*** (2006) is a seminal collection of scholarly articles by the Indian theologian and sociologist Reverend [Athanasius Mathen Abraham Ayrookuzhiel](https://sunilabraham.in/amaa/) (A. M. A. Ayrookuzhiel) (1933–1996). The volume gathers his most significant writings, which critically explore the intersection of religion, culture, caste, and social justice in the context of the Dalit liberation struggle in India. The book is considered a foundational text for the development of Dalit theology and contextual Christian thought.
 
-As noted in K. C. Abraham's foreword, Ayrookuzhiel's work stands out for its originality, depth, and rootedness in the social context of India's Dalits. Abraham describes the essays as "a continuation of his lifelong project to make theology an instrument of human liberation."
+As noted in K. C. Abraham's introduction, Ayrookuzhiel's work stands out for its originality, depth, and rootedness in the social context of India's Dalits. K. C. Abraham describes the essays as "a continuation of his lifelong project to make theology an instrument of human liberation."
 
 ## Contents
 - [Summary](#summary)
@@ -49,7 +49,7 @@ This reconstruction is not a nostalgic exercise but a political and theological 
 
 ### Subversive Language of Theology
 
-Another significant insight of the book is Ayrookuzhiel's recognition of the subversive language of theology — the non-institutional, cultural forms through which the oppressed articulate faith. Rather than academic discourse, this theology speaks through story, song, humour, and satire.  
+Another significant theme discussed in the volume is Ayrookuzhiel's recognition of the subversive language of theology — the non-institutional, cultural forms through which the oppressed articulate faith. Rather than academic discourse, this theology speaks through story, song, humour, and satire.  
 
 A striking example is his analysis of the folk ritual *Pottan Theyyam* from Kerala. The figure of Pottan, a divine protester, challenges caste hierarchies and mocks oppressive images of divinity. Ayrookuzhiel interprets this ritual as a theological drama in which the divine takes the side of the oppressed. Such acts, he argues, reveal that true theology happens not in books but in people’s struggles for justice.
 
@@ -78,7 +78,7 @@ The book was posthumously published in 2006 by the Asian Trading Corporation, Ba
 
 Many of the essays in this collection were first published in *Religion and Society*, the in-house journal of CISRS, while others originated as research papers or lectures presented at seminars on religion and social change. Bringing them together in a single volume allowed scholars and students to trace the evolution of Ayrookuzhiel's thought — from his early reflections on Indian religiosity to his mature formulations of Dalit theology and cultural resistance.  
 
-The volume includes a foreword by Dr. Godwin Shiri and an introduction by theologian K. C. Abraham, both of whom had worked closely with Ayrookuzhiel at CISRS. It was published with the ISBN 8170863996.
+The volume includes a foreword by Dr. Godwin Shiri and an introduction by theologian Dr. K. C. Abraham. Both texts reflect on Ayrookuzhiel's scholarship, his engagement with Dalit struggles, and the continuing relevance of his work within Indian theological and social thought. It was published with the ISBN 8170863996.
 
 {% include back-to-top.html %}
 
@@ -86,13 +86,13 @@ The volume includes a foreword by Dr. Godwin Shiri and an introduction by theolo
 
 Scholars and theologians have described *Essays on Dalits, Religion and Liberation* as a landmark in Indian theological thought. The collection bridges academic research and lived experience, combining sociological rigour with theological imagination.  
 
-It remains a key reference in courses on Dalit theology, contextual theology, and sociology of religion. Its influence extends beyond Christian theology to Dalit cultural studies and postcolonial discourse. The foreword by K. C. Abraham notes that Ayrookuzhiel’s insights continue to challenge both the church and academia to ground their faith and research in solidarity with the oppressed.
+It remains a key reference in courses on Dalit theology, contextual theology, and sociology of religion. Its influence extends beyond Christian theology to Dalit cultural studies and postcolonial discourse. The introduction by K. C. Abraham notes that Ayrookuzhiel's insights continue to challenge both the church and academia to ground their faith and research in solidarity with the oppressed.
 
 {% include back-to-top.html %}
 
 ## References
 
-- K. C. Abraham, *Foreword to Essays on Dalits, Religion and Liberation* (Bangalore: CISRS / Asian Trading Corporation, 2006).  
+- K. C. Abraham, *Introduction to Essays on Dalits, Religion and Liberation* (Bangalore: CISRS / Asian Trading Corporation, 2006).
 - Rev. A. M. A. Ayrookuzhiel, *Essays on Dalits, Religion and Liberation* (Bangalore: Asian Trading Corporation, 2006).  
 - Publications and archival materials of the Christian Institute for the Study of Religion and Society (CISRS).  
 - Secondary sources in Dalit Theology and Indian Christian Studies archives.
