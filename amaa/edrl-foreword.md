@@ -10,7 +10,7 @@ permalink: /amaa/edrl-foreword/
 created: 2026-05-20
 ---
 
-This page reproduces the full text of the foreword to [*Essays on Dalits, Religion and Liberation*](/amaa/edrl/) (2006), written by Dr. Godwin Shiri. The volume collected major essays and papers by Rev. A. M. A. Ayrookuzhiel on Dalit theology, religion, caste, and liberation.
+This page reproduces the full text of the foreword to [*Essays on Dalits, Religion and Liberation*](/amaa/edrl/) (2006), written by Dr. Godwin Shiri. The volume collected major essays and papers by [Rev. A. M. A. Ayrookuzhiel](/amaa/) on Dalit theology, religion, caste, and liberation.
 
 <div style="text-align:center; margin-bottom:1.5rem;">
   <strong>FOREWORD</strong>
