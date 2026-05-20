@@ -19,6 +19,7 @@ created: 2026-04-16
 2. [Full Text](#full-text)
 3. [English Translation](#english-translation)
 4. [Context and Background](#context-and-background)
+5. [External Link](#external-link)
 
 ## Article Details
 
@@ -141,6 +142,9 @@ The Internet at Liberty 2010 conference was held on 21–22 September 2010 in Bu
 Sunil Abraham attended as the Indian representative and raised the issue of pornography blocking in India, citing the government's suppression of the Savita Bhabhi webcomic series as a specific example. The Savita Bhabhi case had drawn significant attention in India in 2009 when the government ordered the comic's website blocked, making it one of the more prominent internet censorship cases of that period in India.
 
 The article's broader frame is one of scepticism towards the corporate optimism of Google and Facebook, contrasting their polished messaging with the pointed grievances of activists from countries experiencing active censorship and repression.
+
+## External Link
+- [Read online](https://index.hu/tech/2010/09/22/internet_szabadon/)
 
 <style>
 .media-details {
