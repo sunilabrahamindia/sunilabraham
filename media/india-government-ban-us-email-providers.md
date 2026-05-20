@@ -8,7 +8,7 @@ authors: ["Nicolas Fennen"]
 source: "netzpolitik.org"
 language: "German"
 permalink: /media/india-government-ban-us-email-providers/
-created: 2026-05-18
+created: 2026-05-21
 ---
 
 **Indien: Regierung will Nutzung von US-Mailprovidern in Verwaltungen verbieten** ("India: Government Wants to Ban Use of US Email Providers in Administration") is a German-language article by Nicolas Fennen published in *netzpolitik.org* on 3 September 2013. The report covers the Indian government's proposal to discourage officials from using American email providers such as Gmail for official communication following revelations about large-scale surveillance programmes. The article also includes comments from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet & Society](/cis/). 
