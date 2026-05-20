@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Chinnapulayan: The Dalit Teacher of Sankaracharya"
+title: "Chinna Pulayan: The Dalit Teacher of Sankaracharya"
 permalink: /amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/
 categories: [A. M. A. Ayrookuzhiel, Publications]
 description: "A. M. A. Ayrookuzhiel's study of the Pulaya Tottam of Pottan Teyyam and its Brahminised Sankaracharya variant, examining how the two versions frame caste, ritual memory, and argument."
 created: 2025-11-27
 ---
 
-***Chinnapulayan: The Dalit Teacher of Sankaracharya*** is a paper (essay) by [A. M. Abraham Ayrookuzhiel](/amaa/) that reproduces and closely interprets the Pulaya ritual song (the *Tottam* of Pottan Teyyam) alongside a Brahminised variant that inserts Sankaracharya into the encounter. The essay treats the *Tottam* as both ritual memory and argumentative text, documenting how the Pulaya version advances a material, experience-based critique of caste through images drawn from labour, food, wounds and shared dwelling. By placing this against the later Brahminised retelling, where a doctrinal Advaitic exchange replaces the original social confrontation, Ayrookuzhiel shows how the force of a Dalit protest poem can be preserved in form yet redirected in meaning. All quotations and page references below are taken directly from the source document.
+***Chinna Pulayan: The Dalit Teacher of Sankaracharya*** is a paper (essay) by [A. M. Abraham Ayrookuzhiel](/amaa/) that reproduces and closely interprets the Pulaya ritual song (the *Tottam* of Pottan Teyyam) alongside a Brahminised variant that inserts Sankaracharya into the encounter. The essay treats the *Tottam* as both ritual memory and argumentative text, documenting how the Pulaya version advances a material, experience-based critique of caste through images drawn from labour, food, wounds and shared dwelling. By placing this against the later Brahminised retelling, where a doctrinal Advaitic exchange replaces the original social confrontation, Ayrookuzhiel shows how the force of a Dalit protest poem can be preserved in form yet redirected in meaning. All quotations and page references below are taken directly from the source document.
 
 ## Contents
 
@@ -33,7 +33,7 @@ Ayrookuzhiel situates the Pulaya *Tottam* within north Malabar ritual life and f
 
 ## Tottam (song) — Pulaya version: what the text says
 
-The Pulaya *Tottam* as printed in the essay opens with prose introduction lines that announce the coming of Pottan and set the ritual context (pp. 91–92). The *Varavil* (praise poem) follows, addressing prosperity and the well-being of the community (pp. 92–93). The core argumentative passage — where Chinnapulayan replies to the Chovar (taskmaster/landlord) — is printed and discussed on pages 94–96; these lines form the poem's moral centre. 
+The Pulaya *Tottam* as printed in the essay opens with prose introduction lines that announce the coming of Pottan and set the ritual context (pp. 91–92). The *Varavil* (praise poem) follows, addressing prosperity and the well-being of the community (pp. 92–93). The core argumentative passage — where Chinna Pulayan replies to the Chovar (taskmaster/landlord) — is printed and discussed on pages 94–96; these lines form the poem's moral centre. 
 
 ## Close readings — key passages and short analysis
 
@@ -78,9 +78,9 @@ Two observations follow from the printed exchange:
 
 ## Full text
 
-{% include main-article.html link="/amaa/chinnapulayan-full-text/" title="Full Text: Chinnapulayan: The Dalit Teacher of Sankaracharya" %}
+{% include main-article.html link="/amaa/chinnapulayan-full-text/" title="Full Text: Chinna Pulayan: The Dalit Teacher of Sankaracharya" %}
 
 ## Publication
-The paper titled *Chinnapulayan: The Dalit Teacher of Sankaracharya* was first presented by A. M. A. Ayrookuzhiel at an academic seminar. A revised portion of the study was later published in 1996 in the volume *Emerging Dalit Identity*, edited by Walter Fernandes and brought out by the Indian Social Institute (ISI), Delhi.
+The paper titled *Chinna Pulayan: The Dalit Teacher of Sankaracharya* was first presented by A. M. A. Ayrookuzhiel at an academic seminar. A revised portion of the study was later published in 1996 in the volume *Emerging Dalit Identity*, edited by Walter Fernandes and brought out by the Indian Social Institute (ISI), Delhi.
 
 {% include navbox-amaa.html %}
