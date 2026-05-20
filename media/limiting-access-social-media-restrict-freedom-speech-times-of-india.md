@@ -10,7 +10,7 @@ permalink: /media/limiting-access-social-media-restrict-freedom-speech-times-of-
 created: 2025-12-25
 ---
 
-**Limiting Access to Social Media Can Restrict Freedom of Speech** is a news report published by *The Times of India* on 1 August 2013, written by Kim Arora. The article covers Facebook's legal arguments in response to a public interest litigation filed by K N Govindacharya challenging minors' access to social networking platforms under the Indian Contract Act 1872. It features commentary from Sunil Abraham on the role of social media platforms in enabling freedom of expression in a digitally mediated society.
+**Limiting Access to Social Media Can Restrict Freedom of Speech** is a news report published by *The Times of India* on 1 August 2013, written by Kim Arora. The article covers Facebook's legal arguments in response to a public interest litigation filed by K N Govindacharya challenging minors' access to social networking platforms under the Indian Contract Act 1872. It features commentary from [Sunil Abraham](/sunil/) on the role of social media platforms in enabling freedom of expression in a digitally mediated society.
 
 ## Contents
 
