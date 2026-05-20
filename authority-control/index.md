@@ -35,41 +35,26 @@ For The Sunil Abraham Project (TSAP), authority control is important because the
 
 ## External links
 - [Authority control](https://en.wikipedia.org/wiki/Authority_control) article on Wikipedia
-- <img src="/assets/icons/pdf.svg" alt="PDF" width="16" height="16" style="vertical-align: text-bottom;"> [Authority control FAQ](https://www.loc.gov/aba/pcc/naco/documents/PCC-SCT-Authority-Control-FAQs-Authors-Creators.pdf) at The Library of Congress
+- [Authority control FAQ](https://www.loc.gov/aba/pcc/naco/documents/PCC-SCT-Authority-Control-FAQs-Authors-Creators.pdf) (PDF) at The Library of Congress
 
 <style>
 .authority-entry-list {
-  margin: 1rem 0 2rem;
+  margin: 1rem 0 2rem 1.2rem;
   padding: 0;
-  list-style: none;
 }
 
 .authority-entry-list li {
-  padding: 0.65rem 0.85rem;
-  border-bottom: 1px solid #e4e7eb;
-  background: #fafbfc;
-}
-
-.authority-entry-list li:first-child {
-  border-top-left-radius: 0.4rem;
-  border-top-right-radius: 0.4rem;
-}
-
-.authority-entry-list li:last-child {
-  border-bottom: none;
-  border-bottom-left-radius: 0.4rem;
-  border-bottom-right-radius: 0.4rem;
+  margin-bottom: 0.45rem;
 }
 
 .authority-entry-list a {
-  text-decoration: none;
   color: #0645ad;
-  display: block;
+  text-decoration: none;
 }
-  
+
 .authority-entry-list a:hover {
-  text-decoration: underline;
   color: #2f6f6f;
+  text-decoration: underline;
 }
 
 .authority-entry-list a:visited {
@@ -79,12 +64,5 @@ For The Sunil Abraham Project (TSAP), authority control is important because the
 .authority-entry-list a:focus-visible {
   outline: 2px solid #2f6f6f;
   outline-offset: 2px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .authority-entry-list li,
-  .authority-entry-list a {
-    transition: none;
-  }
 }
 </style>
