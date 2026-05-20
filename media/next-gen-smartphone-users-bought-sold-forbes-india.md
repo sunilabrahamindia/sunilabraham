@@ -70,7 +70,7 @@ This article was published at a time when Indian mobile operators were beginning
 
 Rather than treating zero-rating as a pricing issue alone, the article highlights how such arrangements influence user behaviour and market structure. By subsidising access to specific services, platform companies could expand their reach among new users while limiting exposure to the broader internet.
 
-Sunil Abraham's comparison with Indonesia underscores a concern raised in the article: that users may come to equate internet access with access to a small number of dominant platforms. The piece situates this dynamic as a competitive and informational risk, particularly for smaller services unable to negotiate similar terms with mobile operators.
+[Sunil Abraham](/sunil/)'s comparison with Indonesia underscores a concern raised in the article: that users may come to equate internet access with access to a small number of dominant platforms. The piece situates this dynamic as a competitive and informational risk, particularly for smaller services unable to negotiate similar terms with mobile operators.
 
 ## External Link
 
