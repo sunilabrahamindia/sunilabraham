@@ -104,7 +104,16 @@
     <div class="site-title">
       <a href="/">Sunil Abraham Project</a>
     </div>
-    <p class="site-subtitle">Research · Innovation · Documentation</p>
+<p class="site-subtitle" id="site-subtitle">
+  Research · Innovation · Documentation
+</p>
+
+<script>
+if (window.location.hostname.includes('pages.dev')) {
+  document.getElementById('site-subtitle').textContent =
+    'Official Mirror of https://sunilabraham.in/';
+}
+</script>
     {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
     {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
     <p class="site-stats">
