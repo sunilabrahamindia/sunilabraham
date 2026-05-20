@@ -146,3 +146,6 @@ Sunil has been actively involved in designing and leading collaborative events t
 ## Personal life
 
 Sunil Abraham is from Bangalore, India, and currently lives in Gurgaon. He married Esmeralda Davis on 10 January 2002 at Wesley English Church, Bangalore. He continues to work on issues related to digital policy, open knowledge, open access, and internet governance.
+
+{% include navbox-authority.html %}
+
