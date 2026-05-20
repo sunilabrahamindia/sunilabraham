@@ -59,16 +59,69 @@ A striking example is his analysis of the folk ritual *Pottan Theyyam* from Kera
 
 The essays in this collection span theology, sociology, and history. Selected chapters include:
 
-| Chapter Title | Key Focus |
-| :--- | :--- |
-| Indian Religious Heritage and Social Transformation | Calls for a new perspective in religious studies centred on the experience of the oppressed. |
-| Religious Legitimation and Delegitimation of Social Relations of Power | Analyses how religion has been used both to justify and to resist caste hierarchies. |
-| Religions and Culture in Dalits' Struggle for Liberation | Examines the dual role of religion as both bondage and liberation. |
-| The Religious Factor in Dalit Liberation: Some Reflections | Reflects on the theological and sociological dimensions of Dalit emancipation. |
-| Chinna Pulayan: The Dalit Teacher of Sankaracharya | Reinterprets a historical legend to highlight the Dalit presence in classical thought. |
-| The Dalits, Religions and Inter-Faith Dialogue | Critiques interfaith dialogue for neglecting caste and proposes a Dalit-centred approach. |
-| Christian Dalits in Revolt | Studies the theological and social expressions of resistance among Christian Dalit groups. |
-| Swami Anand Thirth – Untouchability: Gandhian Solutions on Trial | A critical biography assessing the limits of upper-caste reform movements. |
+<ol>
+  <li>
+    Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS
+  </li>
+
+  <li>
+    A Proposal for the Study of Religious Heritage of the Dalits: Some Methodological Considerations
+  </li>
+
+  <li>
+    Religious Legitimation and Delegitimation of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective
+  </li>
+
+  <li>
+    Religions and Culture in Dalits' Struggle for Liberation
+  </li>
+
+  <li>
+    The Religious Factor in Dalit Liberation: Some Reflections
+  </li>
+
+  <li>
+    Chinna Pulayan: The Dalit Teacher of Sankaracharya
+  </li>
+
+  <li>
+    The Dalits, Religions and Inter-faith Dialogue
+  </li>
+
+  <li>
+    The Role of Religions in Dalit Liberation: Some Reflections
+  </li>
+
+  <li>
+    Dalits' Challenges and Religious Systems — A People Ignored by Church History
+  </li>
+
+  <li>
+    The Dalit Church's Mission — A Dalit Response
+  </li>
+
+  <li>
+    Christian Dalits in Revolt
+  </li>
+
+  <li>
+    Swami Anand Thirth - "Untouchability": Gandhian Solutions on Trial
+
+    <ol type="a">
+      <li>Introduction</li>
+      <li>Sannyasa for the Sake of Outcastes</li>
+      <li>Attempts to Create a Counter-Culture</li>
+      <li>A Dream Betrayed</li>
+      <li>Against the Sacred Abodes of Untouchability</li>
+      <li>Prejudice vs. The Law</li>
+      <li>Conclusion</li>
+    </ol>
+  </li>
+
+  <li>
+    Glossary
+  </li>
+</ol>
 
 {% include back-to-top.html %}
 
