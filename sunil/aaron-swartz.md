@@ -241,7 +241,7 @@ In November 2024, Abraham reflected on the continuing influence of Swartz and th
 2. [Is freedom of expression under threat in the digital age?](https://www.indexoncensorship.org/2013/01/india-conference-index/), *Index on Censorship*, 15 January 2013, accessed 21 May 2026.
 3. [Report of Aaron Swartz Memorial Hacknight](https://cis-india.org/openness/blog-old/hasgeek-blog-zainab-bawa-feb-6-2013-report-of-aaron-swartz-memorial-hacknight), *Centre for Internet and Society*, 5 February 2013, accessed 21 May 2026.
 4. [What did Aaron do?](https://www.youtube.com/watch?v=ZtJ_dZ4-ZVA), *HasGeek TV*, YouTube, 20 January 2013, accessed 21 May 2026.
-5. [Sunil Abraham | The online warrior](/media/sunil-abraham-the-online-warrior-mint/), *Mint*, 8 August 2014, accessed 21 May 2026.
+5. [Sunil Abraham —The online warrior](/media/sunil-abraham-the-online-warrior-mint/), *Mint*, 8 August 2014, accessed 21 May 2026.
 
 ## External links
 - [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) on Wikipedia
