@@ -7,10 +7,12 @@
     🕒 Current time: <span id="footer-datetime"></span>
   </p>
 
-<p class="celebrate-950" aria-label="TSAP reaches 950 articles">
-  🥁 <strong>950 Articles</strong>
-  <span class="milestone">
-    Completed with <a href="/cis/fifth-anniversary/">Fifth Anniversary of the Centre for Internet and Society</a>
+<p class="tsap-milestone" aria-label="TSAP reaches 1000 articles">
+  ✨ <strong>1000 Articles</strong>
+
+  <span class="milestone-text">
+    Milestone article:
+    <a href="/sunil/aaron-swartz/">Sunil Abraham on Aaron Swartz</a>
   </span>
 </p>
 
@@ -143,52 +145,53 @@
     }
 
     /* =========================================================
-       950 article counter
+       1000 article counter
        ========================================================= */
-footer .celebrate-950 {
-  margin-top: 0.6rem;
-  padding: 10px 16px;
-  background: linear-gradient(135deg, #fff8e1 0%, #ffe082 100%);
-  color: #1a1000;
-  border: 1px solid #f9a825;
-  border-radius: 10px;
+footer .tsap-milestone {
+  margin-top: 0.8rem;
+  padding: 12px 18px;
+  background:
+    linear-gradient(135deg, #fff8dc 0%, #ffe082 45%, #ffd54f 100%);
+  color: #2b1b00;
+  border: 1px solid #e0a800;
+  border-radius: 12px;
   display: inline-block;
   max-width: 92%;
   box-sizing: border-box;
-  box-shadow: 0 4px 14px rgba(249, 168, 37, 0.25);
-  overflow-wrap: break-word;
-  word-break: break-word;
+  box-shadow:
+    0 4px 14px rgba(224, 168, 0, 0.18),
+    0 1px 4px rgba(0, 0, 0, 0.08);
+  line-height: 1.55;
 }
 
-footer .celebrate-950 strong {
-  font-weight: 700;
-  color: #e65100;
+footer .tsap-milestone strong {
+  color: #9c4a00;
+  font-size: 1.02em;
+  letter-spacing: 0.2px;
 }
 
-footer .celebrate-950 a {
-  color: #b71c1c;
+footer .tsap-milestone .milestone-text {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.95em;
+}
+
+footer .tsap-milestone a {
+  color: #7a1f1f;
   font-weight: 600;
   overflow-wrap: break-word;
   word-break: break-word;
 }
 
-footer .celebrate-950 a:hover {
-  color: #000;
-}
-
-footer .celebrate-950 .milestone {
-  display: block;
-  font-size: 0.95em;
-  margin-top: 4px;
-  overflow-wrap: break-word;
-  word-break: break-word;
+footer .tsap-milestone a:hover {
+  color: #111;
 }
 
 @media (max-width: 600px) {
-  footer .celebrate-950 {
-    padding: 10px 12px;
-    font-size: 0.88em;
+  footer .tsap-milestone {
     max-width: 100%;
+    padding: 11px 14px;
+    font-size: 0.9em;
   }
 }
   </style>
