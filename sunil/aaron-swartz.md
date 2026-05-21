@@ -56,7 +56,7 @@ Swartz died on 11 January 2013 in Brooklyn, New York, before the trial commenced
 
 Between 2009 and 2012, Sunil Abraham made several posts on X (then known as Twitter) relating to Aaron Swartz, particularly in connection with transparency projects, censorship resistance, copyright, open access, and the JSTOR prosecution.
 
-In July 2009, Abraham referred to Swartz's criticism of transparency projects during discussions surrounding the International Summit on Digital Transparency (ISDT09). During July 2011, he  repeatedly shared reports, commentary, and reactions relating to the prosecution of Swartz in the United States following the JSTOR case. These included reports on the arrest investigation, copyright debates, and public campaigns supporting Swartz.
+In July 2009, Abraham referred to Swartz's criticism of transparency projects during discussions surrounding the International Summit on Digital Transparency (ISDT09). During July 2011, he repeatedly shared reports, commentary, and reactions relating to the prosecution of Swartz in the United States following the JSTOR case. These included reports on the arrest investigation, copyright debates, and public campaigns supporting Swartz.
 
 Abraham also reposted commentary critical of the legal response to the case and shared reports concerning the investigation and prosecution of Swartz. In November 2011, he reposted reports concerning additional charges filed against Swartz in connection with the Massachusetts Institute of Technology (MIT) case.
 
@@ -72,7 +72,7 @@ On 12 January 2013, Sunil Abraham reacted to the news of Swartz's death by descr
   <div class="ram-social-date">12 January 2013</div>
   <div class="ram-tweet-center">
     <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">Really terrible news! He was a generous genius! RIP RT @jackerhack: Aaron Swartz (@aaronsw) committed suicide? Shocked http://t.co/EcbYUwtn</p>
+      <p lang="en" dir="ltr">Really terrible news! He was a generous genius! RIP RT @jackerhack: Aaron Swartz (@aaronsw) committed suicide? Shocked <a href="http://t.co/EcbYUwtn">link</a></p>
       &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/290019546297925632">12 January 2013</a>
     </blockquote>
   </div>
@@ -102,7 +102,7 @@ Discussing internet freedom and access to knowledge, Abraham stated: "You cannot
 
 Abraham also discussed Swartz's "Guerilla Open Access Manifesto" and argued that Swartz viewed copyright law itself as fundamentally unjust rather than merely requiring reform through licensing systems such as Creative Commons or free software licensing.
 
-He compared this position to traditions of civil disobedience associated with Mahatma Gandhi and argued that acts of resistance against unjust laws were not alien to Indian political history.
+He compared this position to traditions of civil disobedience associated with Mahatma Gandhi and argued that resistance to unjust laws was neither politically unfamiliar nor culturally alien within Indian democratic history.
 
 #### Aaron Swartz Memorial Hacknight
 
@@ -110,7 +110,7 @@ On 19 and 20 January 2013, HasGeek organised the Aaron Swartz Memorial Hacknight
 
 A separate [report](/media/bangalore-hackers-aaron-swartz-hindu/) published by *The Hindu* on 21 January 2013 described Abraham discussing the "ethical landmines" surrounding the JSTOR case during the memorial hacknight. According to the report: "He put this in the context of American foreign policy rhetoric based on Internet freedom, which restricts itself to freedom of expression and doesn't include access to knowledge." The article also reported Abraham referring to the difference between American and Indian legal approaches to access to knowledge and broadcasting rights.
 
-According to the CIS report on the memorial hacknight, Abraham discussed Swartz in relation to open access, freedom of information, copyright law, and civil disobedience. During the discussion, Abraham described Swartz as "a very troublesome hero."
+According to the CIS report on the memorial hacknight, Abraham discussed Swartz in relation to open access, freedom of information, copyright law, and civil disobedience. He argued that Swartz was difficult for many organisations and movements to fully embrace because he openly challenged the legitimacy of existing copyright systems rather than merely advocating alternative licensing models.
 
 A recording of the discussion was later uploaded by HasGeek TV:
 
@@ -123,7 +123,7 @@ A recording of the discussion was later uploaded by HasGeek TV:
   </iframe>
 </div>
 
-Abraham argued that Swartz did not fit neatly into a single category such as open access, freedom of information, or free speech activism, and stated that different movements attempted to claim his legacy after his death. According to Abraham, Swartz's work crossed the boundaries between access to knowledge activism, free speech advocacy, copyright criticism, and open information movements.
+Abraham argued that Swartz did not fit neatly into a single category such as open access, freedom of information, or free speech activism, and observed that multiple existing movements attempted to claim his legacy after his death. According to Abraham, Swartz repeatedly "shifted the goal posts" within these movements and transcended conventional definitions relating to access to knowledge, free speech, copyright criticism, and open information activism.
 
 On 6 February 2013, Abraham shared a report documenting the Aaron Swartz Memorial Hacknight organised at the Centre for Internet and Society (CIS) in Bengaluru. On 14 February 2013, Abraham referred to the Aaron Swartz case while discussing questions relating to cyber law, data hacking, and legal responses to digital access.
 
