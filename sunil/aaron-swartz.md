@@ -56,52 +56,9 @@ Swartz died on 11 January 2013 in Brooklyn, New York, before the trial commenced
 
 Between 2009 and 2012, Sunil Abraham made several posts on X (then known as Twitter) relating to Aaron Swartz, particularly in connection with transparency projects, censorship resistance, copyright, open access, and the JSTOR prosecution.
 
-In July 2009, Abraham referred to Swartz's criticism of transparency projects during discussions surrounding the International Summit on Digital Transparency (ISDT09).
+In July 2009, Abraham referred to Swartz's criticism of transparency projects during discussions surrounding the International Summit on Digital Transparency (ISDT09). During July 2011, he  repeatedly shared reports, commentary, and reactions relating to the prosecution of Swartz in the United States following the JSTOR case. These included reports on the arrest investigation, copyright debates, and public campaigns supporting Swartz.
 
-<div class="ram-social-card">
-  <div class="ram-social-date">21 July 2009</div>
-  <div class="ram-tweet-center">
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">@Mlsif what is your opinion of Aaron Swartz's criticism of transparency projects? <a href="http://www.aaronsw.com/weblog/transparencybunk">article</a> #isdt09</p>
-      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/2746707225">21 July 2009</a>
-    </blockquote>
-  </div>
-</div>
-
-During July 2011, Abraham repeatedly shared reports, commentary, and reactions relating to the prosecution of Swartz in the United States following the JSTOR case. These included reports on the arrest investigation, copyright debates, and public campaigns supporting Swartz.
-
-<div class="ram-social-card">
-  <div class="ram-social-date">20 July 2011</div>
-  <div class="ram-tweet-center">
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">RT @benrito: Aaron Swartz indictment: <a href="http://scr.bi/qvhVE8">report</a> I want a copy of the .torrent he was going to release! #jstorgate</p>
-      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/93392258484805632">20 July 2011</a>
-    </blockquote>
-  </div>
-</div>
-
-Abraham also reposted commentary critical of the legal response to the case and shared reports concerning the investigation and prosecution of Swartz.
-
-<div class="ram-social-card">
-  <div class="ram-social-date">28 July 2011</div>
-  <div class="ram-tweet-center">
-    <blockquote class="twitter-tweet" data-theme="light">
-<p lang="en" dir="ltr">Report: Hacktivist Aaron Swartz arrest was a webcam stakeout | #USA #copyright <a href="http://viigo.im/6Mqk">report</a></p>      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/96502907968552960">28 July 2011</a>
-    </blockquote>
-  </div>
-</div>
-
-In November 2011, Abraham reposted reports concerning additional charges filed against Swartz in connection with the Massachusetts Institute of Technology (MIT) case.
-
-<div class="ram-social-card">
-  <div class="ram-social-date">18 November 2011</div>
-  <div class="ram-tweet-center">
-    <blockquote class="twitter-tweet" data-theme="light">
-<p lang="en" dir="ltr">RT @newsycombinator: Aaron Swartz Gets Indicted on More Charges in Connection with MIT Break In <a href="http://j.mp/tE9pPo">report</a> #USA #copyright</p>
-      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/137404707214864384">18 November 2011</a>
-    </blockquote>
-  </div>
-</div>
+Abraham also reposted commentary critical of the legal response to the case and shared reports concerning the investigation and prosecution of Swartz. In November 2011, he reposted reports concerning additional charges filed against Swartz in connection with the Massachusetts Institute of Technology (MIT) case.
 
 ### 2013
 
@@ -168,45 +125,13 @@ A recording of the discussion was later uploaded by HasGeek TV:
 
 Abraham argued that Swartz did not fit neatly into a single category such as open access, freedom of information, or free speech activism, and stated that different movements attempted to claim his legacy after his death. According to Abraham, Swartz's work crossed the boundaries between access to knowledge activism, free speech advocacy, copyright criticism, and open information movements.
 
-On 6 February 2013, Abraham shared a report documenting the Aaron Swartz Memorial Hacknight organised at the Centre for Internet and Society (CIS) in Bengaluru.
-
-<div class="ram-social-card">
-  <div class="ram-social-date">6 February 2013</div>
-  <div class="ram-tweet-center">
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">Report of Aaron Swartz Memorial Hacknight http://t.co/Cx12wHL6 #AaronSwartz</p>
-      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/299206744037535745">6 February 2013</a>
-    </blockquote>
-  </div>
-</div>
-
-On 14 February 2013, Abraham referred to the Aaron Swartz case while discussing questions relating to cyber law, data hacking, and legal responses to digital access.
-
-<div class="ram-social-card">
-  <div class="ram-social-date">14 February 2013</div>
-  <div class="ram-tweet-center">
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">Indian cyber laws lack teeth to bite data hackers http://t.co/p5rqXojc #India #security | What a lesson to draw from the Aaron Swartz story!</p>
-      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/302090646611689473">14 February 2013</a>
-    </blockquote>
-  </div>
-</div>
+On 6 February 2013, Abraham shared a report documenting the Aaron Swartz Memorial Hacknight organised at the Centre for Internet and Society (CIS) in Bengaluru. On 14 February 2013, Abraham referred to the Aaron Swartz case while discussing questions relating to cyber law, data hacking, and legal responses to digital access.
 
 ### Later reflections
 
 Sunil Abraham continued to refer to Swartz in later interviews and public discussions. In a 2014 profile interview published by *Mint*, Abraham referred to Swartz while discussing figures he admired and [stated](https://sunilabraham.in/media/sunil-abraham-the-online-warrior-mint/): "His courage is something we might aspire towards."
 
 On 13 June 2016, Abraham shared information relating to the Aaron Swartz Fellowship, a programme established in memory of Swartz and associated with research and archival work on openness, information access, and digital culture.
-
-<div class="ram-social-card">
-  <div class="ram-social-date">13 June 2016</div>
-  <div class="ram-tweet-center">
-    <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">Pls RT: AARON SWARTZ Fellowship https://t.co/PJ1Fh6Vhwr Deadline: July 17, 2016 | 4 days left</p>
-      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/742245112554520576">13 June 2016</a>
-    </blockquote>
-  </div>
-</div>
 
 In September 2021, Abraham referred to Swartz's influence on access to knowledge movements in the Global South and connected his legacy to debates surrounding open access publishing and information freedom.
 
