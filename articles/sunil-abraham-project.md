@@ -6,7 +6,7 @@ categories: [Project pages]
 created: 2025-11-07
 ---
 
-The **Sunil Abraham Project** (abbreviated as **TSAP**) is a digital publishing, documenting, and archiving initiative founded by internet researcher and social entrepreneur Sunil Abraham in October 2025. Conceived as both a documentation framework and an experimental space, the project explores the scope of innovation in web-based archiving, accessible design, and content organisation. It was named by Tito Dutta, a former colleague and junior associate of Abraham, whose proposal aligned the title with the project's long-term vision of sustainability and digital continuity.
+The **Sunil Abraham Project** (abbreviated as **TSAP**) is a digital publishing, documenting, and archiving initiative founded by internet researcher and social entrepreneur [Sunil Abraham](/sunil/) in October 2025. Conceived as both a documentation framework and an experimental space, the project explores the scope of innovation in web-based archiving, accessible design, and content organisation. It was named by Tito Dutta, a former colleague and junior associate of Abraham, whose proposal aligned the title with the project's long-term vision of sustainability and digital continuity.
 
 ## Contents
 
@@ -68,4 +68,5 @@ The editorial workflow of the project is closely tied to its version-controlled 
 - 11 April 2026 (Saturday) — The Sunil Abraham Project reached 850 published articles with the publication of [*Concept Note for the Centre for Internet and Society*](/cis/concept-note/).
 - 21 April 2026 (Tuesday) — 900 published articles with the publication of [*My Outsides Look Cool, My Insides Are Blue...*](/publications/my-outsides-look-cool-my-insides-are-blue-sunday-herald/).
 - 7 May 2026 (Thursday) — 950 published articles with the publication of [*Fifth Anniversary of the Centre for Internet and Society*](/cis/fifth-anniversary/).
+- 21 May 2026 (Thursday) — TSAP reached 1000 published articles with the publication of [*Sunil Abraham on Aaron Swartz*](/sunil/aaron-swartz/).
 
