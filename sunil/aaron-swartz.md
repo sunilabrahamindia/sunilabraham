@@ -62,7 +62,7 @@ In July 2009, Abraham referred to Swartz's criticism of transparency projects du
   <div class="ram-social-date">21 July 2009</div>
   <div class="ram-tweet-center">
     <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">@Mlsif what is your opinion of Aaron Swartz's criticism of transparency projects? http://www.aaronsw.com/weblog/transparencybunk #isdt09</p>
+      <p lang="en" dir="ltr">@Mlsif what is your opinion of Aaron Swartz's criticism of transparency projects? <a href="http://www.aaronsw.com/weblog/transparencybunk">article</a> #isdt09</p>
       &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/2746707225">21 July 2009</a>
     </blockquote>
   </div>
@@ -74,7 +74,7 @@ During July 2011, Abraham repeatedly shared reports, commentary, and reactions r
   <div class="ram-social-date">20 July 2011</div>
   <div class="ram-tweet-center">
     <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">Please show your support for Aaron Swartz http://act.demandprogress.org/act/support_aaron/?referring_akid=.207600.vVKFrS&amp;source=typ-tw via @demandprogress</p>
+      <p lang="en" dir="ltr">RT @benrito: Aaron Swartz indictment: <a href="http://scr.bi/qvhVE8">report</a> I want a copy of the .torrent he was going to release! #jstorgate</p>
       &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/93392258484805632">20 July 2011</a>
     </blockquote>
   </div>
@@ -86,8 +86,7 @@ Abraham also reposted commentary critical of the legal response to the case and 
   <div class="ram-social-date">28 July 2011</div>
   <div class="ram-tweet-center">
     <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">Report: Hacktivist Aaron Swartz arrest was a webcam stakeout | #USA #copyright http://viigo.im/6Mqk</p>
-      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/96502907968552960">28 July 2011</a>
+<p lang="en" dir="ltr">Report: Hacktivist Aaron Swartz arrest was a webcam stakeout | #USA #copyright <a href="http://viigo.im/6Mqk">report</a></p>      &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/96502907968552960">28 July 2011</a>
     </blockquote>
   </div>
 </div>
@@ -98,7 +97,7 @@ In November 2011, Abraham reposted reports concerning additional charges filed a
   <div class="ram-social-date">18 November 2011</div>
   <div class="ram-tweet-center">
     <blockquote class="twitter-tweet" data-theme="light">
-      <p lang="en" dir="ltr">RT @newsycombinator: Aaron Swartz Gets Indicted on More Charges in Connection with MIT Break In http://j.mp/tE9pPo #USA #copyright</p>
+<p lang="en" dir="ltr">RT @newsycombinator: Aaron Swartz Gets Indicted on More Charges in Connection with MIT Break In <a href="http://j.mp/tE9pPo">report</a> #USA #copyright</p>
       &mdash; Sunil Abraham (@sunil_abraham) <a href="https://x.com/sunil_abraham/status/137404707214864384">18 November 2011</a>
     </blockquote>
   </div>
@@ -195,9 +194,7 @@ On 14 February 2013, Abraham referred to the Aaron Swartz case while discussing 
 
 ### Later reflections
 
-Sunil Abraham continued to refer to Swartz in later interviews and public discussions.
-
-In a 2014 profile interview published by *Mint*, Abraham referred to Swartz while discussing figures he admired and [stated](https://sunilabraham.in/media/sunil-abraham-the-online-warrior-mint/): "His courage is something we might aspire towards."
+Sunil Abraham continued to refer to Swartz in later interviews and public discussions. In a 2014 profile interview published by *Mint*, Abraham referred to Swartz while discussing figures he admired and [stated](https://sunilabraham.in/media/sunil-abraham-the-online-warrior-mint/): "His courage is something we might aspire towards."
 
 On 13 June 2016, Abraham shared information relating to the Aaron Swartz Fellowship, a programme established in memory of Swartz and associated with research and archival work on openness, information access, and digital culture.
 
@@ -241,7 +238,7 @@ In November 2024, Abraham reflected on the continuing influence of Swartz and th
 2. [Is freedom of expression under threat in the digital age?](https://www.indexoncensorship.org/2013/01/india-conference-index/), *Index on Censorship*, 15 January 2013, accessed 21 May 2026.
 3. [Report of Aaron Swartz Memorial Hacknight](https://cis-india.org/openness/blog-old/hasgeek-blog-zainab-bawa-feb-6-2013-report-of-aaron-swartz-memorial-hacknight), *Centre for Internet and Society*, 5 February 2013, accessed 21 May 2026.
 4. [What did Aaron do?](https://www.youtube.com/watch?v=ZtJ_dZ4-ZVA), *HasGeek TV*, YouTube, 20 January 2013, accessed 21 May 2026.
-5. [Sunil Abraham —The online warrior](/media/sunil-abraham-the-online-warrior-mint/), *Mint*, 8 August 2014, accessed 21 May 2026.
+5. [Sunil Abraham — The online warrior](/media/sunil-abraham-the-online-warrior-mint/), *Mint*, 8 August 2014, accessed 21 May 2026.
 
 ## External links
 - [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) on Wikipedia
