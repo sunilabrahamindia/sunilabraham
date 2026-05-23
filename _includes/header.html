@@ -110,8 +110,8 @@
 
 <script>
 if (window.location.hostname.includes('pages.dev')) {
-  document.getElementById('site-subtitle').textContent =
-    'Official Mirror of https://sunilabraham.in/';
+  document.getElementById('site-subtitle').innerHTML =
+    'Official Mirror of <a href="https://sunilabraham.in/">sunilabraham.in</a>';
 }
 </script>
     {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
