@@ -31,6 +31,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 17. [Version 1.6.1](#version-161)
 18. [Version 1.6.2](#version-162)
 19. [Version 1.7](#version-17)
+20. [Version 1.7.1](#version-171)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -570,3 +571,28 @@ Completion date: 9 May 2026 (night)
 
 **Status** ✅ Done  
 Completion date: 16 May 2026
+
+## Version 1.7.1
+
+- 31 new pages have been published this week between 17 May 2026 and 23 May 2026.
+- TSAP crossed **1,000 published pages** with the publication of [Sunil Abraham on Aaron Swartz](/sunil/aaron-swartz/).
+
+**Zenodo Archives**
+- Started [Zenodo Archives](/zenodo/), a page listing DOI-backed archival editions and preserved research publications archived on Zenodo.
+- The page documents TSAP-related material archived on the open-access research repository operated by CERN and OpenAIRE.
+- Archived and preserved TSAP content published on Zenodo will continue to be indexed and linked from this section.
+
+**Authority Control**
+- Began work on [Authority Control](/authority-control/).
+- Created dedicated authority control pages for [A. M. A. Ayrookuzhiel](/amaa/authority-control/), [Centre for Internet and Society](/cis/authority-control/), and [Sunil Abraham](/sunil/authority-control/).
+
+**Dual Deployment Experiment**
+- Experimented with simultaneous deployment of the same GitHub repository to both GitHub Pages and Cloudflare Pages, establishing a dual-deployment architecture with https://sunilabraham.in/ remaining the canonical public site and a secondary Cloudflare Pages deployment functioning as a mirror and backup.
+- The Cloudflare Pages deployment was configured using the existing Jekyll workflow (`jekyll build`, output directory `_site`) directly from the `main` branch without affecting the GitHub Pages setup, DNS configuration, or custom domain settings.
+- Testing confirmed that commits triggered independent deployment pipelines on both platforms simultaneously from the same repository and branch.
+- Significant investigation was carried out into preventing indexing of the Cloudflare mirror by search engines.
+- The adopted solution used a Cloudflare Pages `_headers` configuration file containing hostname-specific `X-Robots-Tag: noindex, nofollow, noarchive` rules targeting only the Cloudflare deployment.
+- A conditional client-side hostname detection system was also implemented so that the Cloudflare deployment displays itself as a mirror while the primary deployment retains the normal subtitle.
+
+**Status** ✅ Done  
+Completion date: 23 May 2026
