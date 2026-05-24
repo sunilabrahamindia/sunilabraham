@@ -10,7 +10,7 @@ permalink: /media/frndineed-app-passenger-safety/
 created: 2025-12-08
 ---
 
-**FrndiNeed: An App for Passengers' Safety** is an *Economic Times* report published on 10 December 2014. The article discusses how the app FrndiNeed — originally intended for social meet-ups — repositioned itself as a safety tool for commuters after widespread public debate on passenger safety. The report also explores other safety apps and includes critical commentary from Sunil Abraham on the limits of tech-based safety interventions.
+**FrndiNeed: An App for Passengers' Safety** is an *Economic Times* report published on 10 December 2014. The article discusses how the app FrndiNeed, originally intended for social meet-ups, repositioned itself as a safety tool for commuters after widespread public debate on passenger safety. The report also explores other safety apps and includes critical commentary from [Sunil Abraham](/sunil/) on the limits of tech-based safety interventions.
 
 ## Contents
 
