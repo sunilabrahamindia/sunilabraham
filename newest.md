@@ -185,7 +185,7 @@ select:hover {
 }
 
 .created-pages {
-  padding-left: 1.4em;
+  padding-left: 2.8em;
   line-height: 1.6;
 }
 
