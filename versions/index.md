@@ -575,7 +575,7 @@ Completion date: 16 May 2026
 ## Version 1.7.1
 
 - 31 new pages have been published this week between 17 May 2026 and 23 May 2026.
-- TSAP crossed **1,000 published pages** with the publication of [Sunil Abraham on Aaron Swartz](/sunil/aaron-swartz/).
+- TSAP crossed 1,000 published pages with the publication of [Sunil Abraham on Aaron Swartz](/sunil/aaron-swartz/).
 
 **Zenodo Archives**
 - Started [Zenodo Archives](/zenodo/), a page listing DOI-backed archival editions and preserved research publications archived on Zenodo.
