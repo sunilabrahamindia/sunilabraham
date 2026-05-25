@@ -9,14 +9,33 @@ created: 2026-05-25
 
 **Preservation** on **The Sunil Abraham Project** (TSAP) refers to the long-term protection, continuity, accessibility, and survivability of the project's content, metadata, and research materials. As a static, Git-based digital archive, TSAP follows a preservation-oriented architecture built around open formats, distributed storage, version control, redundancy, and public accessibility. The project incorporates principles from digital archiving, scholarly preservation, and library science, including concepts such as the 3-2-1 backup rule, LOCKSS ("Lots Of Copies Keep Stuff Safe"), versioned preservation through Git, and the use of external archival services such as GitHub, Zenodo, the Internet Archive, and Archive.today. The goal is not only to prevent data loss, but also to ensure that the material remains readable, portable, verifiable, and accessible over long periods of time across changing technologies and platforms.
 
-<div class="preservation-legend">
-  <strong>Status guide:</strong>
-  <span class="preservation-status status-active">Active</span> Implemented and regularly used
-  <span class="preservation-status status-experimental">Experimental</span> Implemented but still evolving
-  <span class="preservation-status status-planned">Planned</span> Proposed or under consideration
-  <span class="preservation-status status-not-started">Not Started</span> Identified but not yet implemented
+<div class="preservation-meta" role="note" aria-label="Preservation review information">
+  <strong>Last reviewed:</strong> May 2026
 </div>
 
+<div class="preservation-legend" role="note" aria-label="Preservation status guide">
+  <strong>Status guide:</strong>
+
+  <span class="preservation-status status-active">
+    Active
+  </span>
+  Implemented and regularly used
+
+  <span class="preservation-status status-experimental">
+    Experimental
+  </span>
+  Implemented but still evolving
+
+  <span class="preservation-status status-planned">
+    Planned
+  </span>
+  Proposed or under consideration
+
+  <span class="preservation-status status-not-started">
+    Not Started
+  </span>
+  Identified but not yet implemented
+</div>
 
 ## Web Archiving
 <span class="preservation-status status-active">Active</span>
@@ -85,21 +104,39 @@ Future preservation work may place additional emphasis on the long-term preserva
 TSAP aims to minimise link rot and maintain stable long-term URLs wherever possible. Future work may include improved redirect systems, permalink audits, archival link expansion, canonical URL maintenance, and additional preservation-oriented approaches intended to support durable citation and long-term discoverability.
 
 <style>
+.preservation-meta {
+  margin: 1rem 0 1.2rem;
+  padding: 10px 14px;
+  background: #f5f7f9;
+  border: 1px solid #d8dee4;
+  border-radius: 10px;
+  font-size: 0.95em;
+  color: #2b2b2b;
+}
+
 .preservation-legend {
-  margin: 1rem 0 1.5rem;
+  margin: 1rem 0 1.8rem;
+  padding: 14px 16px;
+  background: #fafafa;
+  border: 1px solid #d8dee4;
+  border-radius: 12px;
   font-size: 0.92em;
-  line-height: 1.9;
+  line-height: 2;
+  color: #222;
 }
 
 .preservation-status {
   display: inline-block;
-  padding: 3px 10px;
+  padding: 4px 10px;
   margin-left: 8px;
   margin-right: 6px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   border-radius: 999px;
   font-size: 0.82em;
   font-weight: 600;
   vertical-align: middle;
+  white-space: nowrap;
 }
 
 .status-active {
@@ -124,5 +161,16 @@ TSAP aims to minimise link rot and maintain stable long-term URLs wherever possi
   background: #ffe3e3;
   color: #9b1c1c;
   border: 1px solid #e7a5a5;
+}
+
+@media (max-width: 640px) {
+  .preservation-legend {
+    line-height: 2.2;
+    padding: 12px 14px;
+  }
+
+  .preservation-status {
+    margin-left: 0;
+  }
 }
 </style>
