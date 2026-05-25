@@ -329,18 +329,18 @@ Accessibility remains a core TSAP priority.
 - Use relative internal links where possible
 - Prefer incremental improvements over unnecessary rewrites
 
-## External Links
-
-- [Visual Studio Code Official Website](https://code.visualstudio.com/)
-- [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
-- [GitHub CLI](https://cli.github.com/)
-
 ## Notes
 
 - VS Code does not replace browser editing; both remain useful.
 - Git history provides long-term transparency and reversibility.
 - Repository-wide search becomes increasingly important as TSAP grows.
 - Local editing reduces the fragility of browser-only workflows for large archival projects.
+
+## External Links
+
+- [Visual Studio Code Official Website](https://code.visualstudio.com/)
+- [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
+- [GitHub CLI](https://cli.github.com/)
 
 <style>
 .table-wrapper {
