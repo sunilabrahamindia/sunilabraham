@@ -10,7 +10,7 @@ permalink: /publications/when-governments-tag-you-on-social-media/
 created: 2025-11-30
 ---
 
-**When Governments Tag You on Social Media** is an opinion piece by Sunil Abraham published in *Business Standard* on 13 March 2019. The article examines how face recognition technologies enable mass surveillance, the tension between public-interest uses and human-rights harms, and technical and policy approaches (including decentralised architectures) to reduce the risk of a global panopticon.
+**When Governments Tag You on Social Media** is an opinion piece by [Sunil Abraham](/sunil/) published in *Business Standard* on 13 March 2019. The article examines how face recognition technologies enable mass surveillance, the tension between public-interest uses and human-rights harms, and technical and policy approaches (including decentralised architectures) to reduce the risk of a global panopticon.
 
 ## Contents
 
