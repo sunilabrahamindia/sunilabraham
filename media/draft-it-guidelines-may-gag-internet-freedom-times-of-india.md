@@ -10,7 +10,7 @@ permalink: /media/draft-it-guidelines-may-gag-internet-freedom-times-of-india/
 created: 2025-12-24
 ---
 
-**Draft IT Guidelines May Gag Internet Freedom** is a news report published by *The Times of India* on 11 March 2011, written by Shilpa Phadnis and Pranav Nambiar. The article examines draft Information Technology Rules 2011 imposing content moderation obligations on internet intermediaries including bloggers, featuring analysis from Sunil Abraham on how the rules would create a chilling effect on online expression through blanket surveillance provisions and vague prohibitions that fail to distinguish between individual bloggers and large commercial platforms.
+**Draft IT Guidelines May Gag Internet Freedom** is a news report published by *The Times of India* on 11 March 2011, written by Shilpa Phadnis and Pranav Nambiar. The article examines draft Information Technology Rules 2011 imposing content moderation obligations on internet intermediaries including bloggers, featuring analysis from [Sunil Abraham](/sunil/) on how the rules would create a chilling effect on online expression through blanket surveillance provisions and vague prohibitions that fail to distinguish between individual bloggers and large commercial platforms.
 
 ## Contents
 

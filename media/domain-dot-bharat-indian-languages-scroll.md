@@ -10,7 +10,7 @@ permalink: /media/domain-dot-bharat-indian-languages-scroll/
 created: 2026-01-03
 ---
 
-**Will Domain Dot भारत Spur the Growth of Indian Languages on the Internet?** is a *Scroll.in* article published on 29 August 2014. The piece examines whether the launch of Devanagari script web addresses would help increase Indian language content online. Technology policy expert Sunil Abraham highlighted the absence of core infrastructure such as comprehensive dictionaries, machine translation capabilities, and optical character recognition for Indian languages.
+**Will Domain Dot भारत Spur the Growth of Indian Languages on the Internet?** is a *Scroll.in* article published on 29 August 2014. The piece examines whether the launch of Devanagari script web addresses would help increase Indian language content online. Technology policy expert [Sunil Abraham](/sunil) highlighted the absence of core infrastructure such as comprehensive dictionaries, machine translation capabilities, and optical character recognition for Indian languages.
 
 ## Contents
 
