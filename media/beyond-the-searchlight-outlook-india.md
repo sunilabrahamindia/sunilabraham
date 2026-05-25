@@ -10,7 +10,7 @@ permalink: /media/beyond-the-searchlight-outlook-india/
 created: 2026-02-10
 ---
 
-**Beyond the Searchlight** is an *Outlook India* investigative article published on 19 October 2013. Debarshi Dasgupta examines Google's expanding influence in India beyond its search dominance, focusing on research funding to think tanks and academia studying internet governance. The piece analyses conflicts of interest in Google's sponsorship of PRS Legislative Research, Centre for Internet and Society fellowships, and political outreach, alongside Sunil Abraham's concerns about privacy regulation gaps.
+**Beyond the Searchlight** is an *Outlook India* investigative article published on 19 October 2013. Debarshi Dasgupta examines Google's expanding influence in India beyond its search dominance, focusing on research funding to think tanks and academia studying internet governance. The piece analyses conflicts of interest in Google's sponsorship of PRS Legislative Research, [Centre for Internet and Society](/cis/) fellowships, and political outreach, alongside Sunil Abraham's concerns about privacy regulation gaps.
 
 ## Contents
 
@@ -110,7 +110,7 @@ Google's fellowship programmes at CIS and funding for the Centre for Communicati
 
 The Hoot's Free Speech Hub funding illustrated ambiguities in corporate philanthropy. Sevanti Ninan described Google's approach as "hands-off", suggesting editorial independence, yet the company's selective interest in free speech rather than broader media ethics raised questions about strategic motivation. Transparency gaps compounded concerns—The Hoot's hub page omitted Google funding details whilst PRS reports to MPs didn't disclose sponsorship by interested parties.
 
-Sunil Abraham's observations about India's regulatory gaps proved particularly significant. Without comprehensive privacy legislation or a dedicated commissioner, Google operated with fewer constraints than in jurisdictions with mature data protection frameworks. Abraham's position as CIS executive director hosting Google fellows whilst receiving no direct funding demonstrated the complexity of institutional relationships with technology companies.
+[Sunil Abraham](/sunil/)'s observations about India's regulatory gaps proved particularly significant. Without comprehensive privacy legislation or a dedicated commissioner, Google operated with fewer constraints than in jurisdictions with mature data protection frameworks. Abraham's position as CIS executive director hosting Google fellows whilst receiving no direct funding demonstrated the complexity of institutional relationships with technology companies.
 
 The article contrasts online and offline concerns. Search result manipulation favouring AdSense clients, inability of most users to distinguish ads from organic results (per CUTS research), and Competition Commission complaints from CUTS and BharatMatrimony.com illustrated market power abuse. Google's court filing that Gmail users should expect no privacy for communications exemplified how the company tested boundaries of acceptable practice.
 
