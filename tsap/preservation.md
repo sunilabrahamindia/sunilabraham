@@ -62,6 +62,16 @@ TSAP is intended to eventually incorporate repository-level preservation workflo
 
 Because the project is built primarily using static files and open formats, repository-level preservation is expected to form an important part of the long-term archival strategy of TSAP. As of May 2026, these repository preservation workflows remain in the planning stage and have not yet been formally implemented.
 
+**Planned steps and workflows**
+
+Initial repository preservation workflows are expected to begin with manually downloading complete repository snapshots from GitHub using the repository's "Download ZIP" export option available through the green "Code" button on the repository page. These downloaded ZIP archives may later be renamed using milestone or date-based naming conventions such as `tsap-backup-2026-05.zip` or `tsap-1000-pages-archive.zip`.
+
+Planned preservation workflows may also include creating additional repository snapshots before major restructuring, large-scale editing, permalink modifications, CSS overhauls, automation experiments, or infrastructure changes. These snapshots may function as recovery checkpoints before significant modifications to the project.
+
+Future repository preservation plans may additionally involve storing archival copies across multiple environments including local systems, portable storage devices, external storage media, and secondary computers in order to improve redundancy and disaster recovery capability.
+
+Long-term plans may also include experimentation with distributed repository mirrors, Git-based preservation workflows, offline archival exports, and independent preservation redundancy across multiple hosting environments.
+
 ## Offline TSAP
 <span class="preservation-status status-planned">Planned</span>
 
