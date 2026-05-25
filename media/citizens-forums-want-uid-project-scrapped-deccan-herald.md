@@ -9,7 +9,7 @@ permalink: /media/citizens-forums-want-uid-project-scrapped-deccan-herald/
 created: 2025-12-27
 ---
 
-**Citizens' Forums Want UID Project Scrapped** is a *Deccan Herald* report published on 29 April 2010. The article documents concerns raised by civil society organisations regarding the Unique Identification project, focusing on transparency gaps, privacy risks, and the absence of feasibility assessments. It features statements from Thomas Matthew of Citizens' Action Forum and Sunil Abraham, then Executive Director of the Centre for Internet and Society.
+**Citizens' Forums Want UID Project Scrapped** is a *Deccan Herald* report published on 29 April 2010. The article documents concerns raised by civil society organisations regarding the Unique Identification project, focusing on transparency gaps, privacy risks, and the absence of feasibility assessments. It features statements from Thomas Matthew of Citizens' Action Forum and [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/).
 
 ## Contents
 

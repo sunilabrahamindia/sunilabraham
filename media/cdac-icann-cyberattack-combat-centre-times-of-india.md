@@ -10,7 +10,7 @@ permalink: /media/cdac-icann-cyberattack-combat-centre-times-of-india/
 created: 2026-03-17
 ---
 
-**CDAC, ICANN to Set Up Cyberattack Combat Centre** is a *The Times of India* article by Kim Arora, published on 18 October 2013. The report covers the announcement of a joint research facility — the Centre for Excellence in DNS Security — between CDAC and ICANN, aimed at addressing cyberattacks and online security threats in India. [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, is quoted offering a measured assessment of the development.
+**CDAC, ICANN to Set Up Cyberattack Combat Centre** is a *The Times of India* article by Kim Arora, published on 18 October 2013. The report covers the announcement of a joint research facility — the Centre for Excellence in DNS Security — between CDAC and ICANN, aimed at addressing cyberattacks and online security threats in India. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), is quoted offering a measured assessment of the development.
 
 ## Contents
 
