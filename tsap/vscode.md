@@ -187,7 +187,7 @@ This review step becomes especially important during batch edits, metadata clean
 
 ## Git Workflow
 
-{% include notice.html message="Before starting a new local editing session in VS Code, it is usually a good idea to run <code>git pull</code> to download the latest changes from GitHub. This becomes especially important once browser editing and local editing are used together." %}
+{% include notice.html message="On TSAP, running <code>git pull</code> before starting a local VS Code editing session is mandatory. The project uses multiple editing workflows, including browser editing, mobile app editing, Codespaces, Codex-assisted editing, and local VS Code editing. Running <code>git pull</code> helps prevent conflicts, accidental overwrites, and repository divergence." %}
 
 One important difference between browser editing and VS Code editing is that VS Code exposes the underlying Git workflow directly.
 
