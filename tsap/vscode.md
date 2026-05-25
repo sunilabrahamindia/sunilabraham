@@ -11,11 +11,9 @@ created: 2026-05-26
 
 There are already many tutorials explaining how to use Visual Studio Code (VS Code). This page is not intended to duplicate those guides. Instead, this document explains how VS Code is used specifically within The Sunil Abraham Project (TSAP), including maintaining large numbers of Markdown pages, editing Jekyll front matter safely, reviewing Git changes before publication, and carrying out repository-wide maintenance work.
 
-TSAP is not a software application in the conventional sense. It is closer to a long-term digital archive and publishing infrastructure. Because of this, the workflow emphasises readability, consistency, preservation, and cautious editing practices rather than rapid software deployment.
+TSAP is not a software application in the conventional sense. It is closer to a long-term digital archive and publishing infrastructure. Because of this, the workflow emphasises readability, consistency, preservation, and cautious editing practices rather than rapid software deployment. Many edits may still be easier directly through the GitHub browser interface, especially for quick typo fixes, single-file edits, urgent corrections, mobile edits, and small metadata updates.
 
-Many edits may still be easier directly through the GitHub browser interface, especially for quick typo fixes, single-file edits, urgent corrections, mobile edits, and small metadata updates.
-
-VS Code becomes especially useful when the scale of work increases.
+VS Code becomes especially useful when the scale of work increases, particularly when working across many related pages or performing repository-wide maintenance.
 
 ## Typical TSAP Workflow
 
@@ -183,21 +181,13 @@ Before committing changes:
 3. Review the visual diff
 4. Confirm no accidental edits exist
 
-VS Code highlights:
+VS Code highlights additions in green, deletions in red, and modified lines visually.
 
-- additions in green
-- deletions in red
-- modified lines visually
-
-This review step becomes especially important during:
-
-- batch edits
-- metadata cleanup
-- accessibility fixes
-- CSS modifications
-- template changes
+This review step becomes especially important during batch edits, metadata cleanup, accessibility fixes, CSS modifications, and template changes.
 
 ## Git Workflow
+
+{% include notice.html message="Before starting a new local editing session in VS Code, it is usually a good idea to run <code>git pull</code> to download the latest changes from GitHub. This becomes especially important once browser editing and local editing are used together." %}
 
 One important difference between browser editing and VS Code editing is that VS Code exposes the underlying Git workflow directly.
 
@@ -263,21 +253,11 @@ Examples:
 [cleanup] Standardise publication metadata
 ```
 
-Useful tags may include:
-
-- `[vscode]`
-- `[a11y]`
-- `[cleanup]`
-- `[metadata]`
-- `[css]`
-- `[portal]`
-- `[infra]`
+Useful tags may include `[vscode]`, `[a11y]`, `[cleanup]`, `[metadata]`, `[css]`, `[portal]`, and `[infra]`.
 
 ## Browser Editing vs VS Code
 
-TSAP currently uses a hybrid workflow.
-
-Neither method replaces the other.
+TSAP currently uses a hybrid workflow. Neither method replaces the other.
 
 ### Browser Editing
 
@@ -349,18 +329,18 @@ Accessibility remains a core TSAP priority.
 - Use relative internal links where possible
 - Prefer incremental improvements over unnecessary rewrites
 
+## External Links
+
+- [Visual Studio Code Official Website](https://code.visualstudio.com/)
+- [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
+- [GitHub CLI](https://cli.github.com/)
+
 ## Notes
 
 - VS Code does not replace browser editing; both remain useful.
 - Git history provides long-term transparency and reversibility.
 - Repository-wide search becomes increasingly important as TSAP grows.
 - Local editing reduces the fragility of browser-only workflows for large archival projects.
-
-## External Links
-
-- [Visual Studio Code Official Website](https://code.visualstudio.com/)
-- [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
-- [GitHub CLI](https://cli.github.com/)
 
 <style>
 .table-wrapper {
