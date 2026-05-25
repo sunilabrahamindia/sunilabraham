@@ -45,7 +45,7 @@ Unlike browser editing, VS Code makes it possible to inspect repository-wide pat
 The TSAP repository is cloned locally using Git:
 
 ```bash
-git clone https://github.com/sunilabrahamindia/sunilabraham.git
+git clone full repository URL
 ```
 
 Open the repository in VS Code:
@@ -242,15 +242,15 @@ Commit messages should briefly describe the purpose of the changes.
 Examples:
 
 ```text
-[vscode] Add internal links and metadata cleanup
+[vscode] Add internal links
 ```
 
 ```text
-[a11y] Improve colour contrast in article template
+[a11y] Improve colour contrast
 ```
 
 ```text
-[cleanup] Standardise publication metadata
+[cleanup] Cleanup
 ```
 
 Useful tags may include `[vscode]`, `[a11y]`, `[cleanup]`, `[metadata]`, `[css]`, `[portal]`, and `[infra]`.
