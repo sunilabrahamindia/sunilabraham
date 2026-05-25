@@ -9,7 +9,7 @@ permalink: /media/digitisation-making-e-learning-simple-deccan-herald/
 created: 2025-12-27
 ---
 
-**Digitisation Is Making E-Learning Simple** is a *Deccan Herald* report published on 13 February 2012. The article explores the rise of e-learning platforms in India, profiling companies providing digital education solutions for schools, universities, and vocational training. It includes commentary from Sunil Abraham, then Executive Director of the Centre for Internet and Society, on expanding access to learning through mobile audio content.
+**Digitisation Is Making E-Learning Simple** is a *Deccan Herald* report published on 13 February 2012. The article explores the rise of e-learning platforms in India, profiling companies providing digital education solutions for schools, universities, and vocational training. It includes commentary from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), on expanding access to learning through mobile audio content.
 
 ## Contents
 

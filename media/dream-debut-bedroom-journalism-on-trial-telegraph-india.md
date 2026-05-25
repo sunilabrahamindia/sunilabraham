@@ -10,7 +10,7 @@ permalink: /media/dream-debut-bedroom-journalism-on-trial-telegraph-india/
 created: 2025-12-19
 ---
 
-**Dream Debut? Bedroom Journalism on Trial** is an investigative feature published in *The Telegraph* (India) on 31 March 2017, written by K. M. Rakesh. The article examines the controversy surrounding Mangalam TV's decision to broadcast explicit audio of Kerala's transport minister engaging in lewd conversation, triggering debates about journalistic ethics, privacy rights, and honeytrap allegations. It includes commentary from Sunil Abraham on the limits of privacy protection for public officials and the principle that transparency should be proportionate to power.
+**Dream Debut? Bedroom Journalism on Trial** is an investigative feature published in *The Telegraph* (India) on 31 March 2017, written by K. M. Rakesh. The article examines the controversy surrounding Mangalam TV's decision to broadcast explicit audio of Kerala's transport minister engaging in lewd conversation, triggering debates about journalistic ethics, privacy rights, and honeytrap allegations. It includes commentary from [Sunil Abraham](/sunil/) on the limits of privacy protection for public officials and the principle that transparency should be proportionate to power.
 
 ## Contents
 

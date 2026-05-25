@@ -9,7 +9,7 @@ permalink: /media/dns-servers-security-update-icann-hindustan-times/
 created: 2025-12-31
 ---
 
-**Internet Services Not to Be Affected as DNS Servers Undergo Update** is a *Hindustan Times* report published on 12 October 2018. The article examines ICANN's coordination of a DNS Root Key Signing Key rollover—the first such change since DNSSEC implementation—with National Cyber Security Coordinator Gulshan Rai confirming Indian ISPs had updated systems, whilst Centre for Internet and Society's Sunil Abraham questioned whether compliance rates would prove adequate.
+**Internet Services Not to Be Affected as DNS Servers Undergo Update** is a *Hindustan Times* report published on 12 October 2018. The article examines ICANN's coordination of a DNS Root Key Signing Key rollover—the first such change since DNSSEC implementation—with National Cyber Security Coordinator Gulshan Rai confirming Indian ISPs had updated systems, whilst [Centre for Internet and Society](/cis/)'s [Sunil Abraham](/sunil/)] questioned whether compliance rates would prove adequate.
 
 ## Contents
 
