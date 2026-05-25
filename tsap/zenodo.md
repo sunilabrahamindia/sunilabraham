@@ -2,7 +2,7 @@
 layout: default
 title: "Zenodo Archives"
 description: "DOI-backed archival editions and preserved research publications published through The Sunil Abraham Project (TSAP) and archived on Zenodo."
-categories: [Project Pages]
+categories: [Project pages]
 permalink: /zenodo/
 created: 2026-05-18
 ---
