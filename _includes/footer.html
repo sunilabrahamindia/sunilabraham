@@ -57,15 +57,15 @@
   | remove: 'www.'
 %}
 
-  <p>
-    🏛️ Archived snapshots of this page:
-    <a href="https://web.archive.org/https://{{ clean_domain }}{{ page.url }}">
-      Wayback Machine
-    </a>
-    <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
-      Archive.today
-    </a>
-  </p>
+<p>
+  🏛️ Archived snapshots of this page:
+  <a href="https://web.archive.org/web/*/https://{{ clean_domain }}{{ page.url }}">
+    Wayback Machine
+  </a>
+  <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
+    Archive.today
+  </a>
+</p>
 
   <p>
     👁 WAVE WebAIM:
