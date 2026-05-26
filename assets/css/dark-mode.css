@@ -72,3 +72,104 @@ body.tsap-dark-mode .breadcrumb {
 body.tsap-dark-mode .breadcrumb span {
   color: #cbd5e1 !important;
 }
+
+/* =========================================================
+   Header
+   ========================================================= */
+
+body.tsap-dark-mode .site-header {
+  background: #182230 !important;
+  border-bottom: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .site-header .site-title a {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .site-header .site-title a:hover {
+  color: #dbeafe !important;
+}
+
+body.tsap-dark-mode .site-header .site-title a:focus {
+  outline-color: #dbeafe !important;
+}
+
+body.tsap-dark-mode .site-header .site-subtitle,
+body.tsap-dark-mode .site-header .site-stats {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .site-header .site-stats a {
+  color: #cbd5e1 !important;
+  text-decoration-color: #64748b !important;
+}
+
+body.tsap-dark-mode .site-header .site-stats a:hover {
+  color: #f3f4f6 !important;
+  text-decoration-color: #f3f4f6 !important;
+}
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
+body.tsap-dark-mode footer {
+  background: #182230 !important;
+  border-top: 1px solid #374151 !important;
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode footer a {
+  color: #dbeafe !important;
+}
+
+body.tsap-dark-mode footer a:hover {
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode footer p a + a::before,
+body.tsap-dark-mode footer .no-separator + a::before {
+  color: #64748b !important;
+}
+
+body.tsap-dark-mode footer .version-tag,
+body.tsap-dark-mode footer .footer-time {
+  color: #94a3b8 !important;
+}
+
+/* =========================================================
+   Footer Milestone Box
+   ========================================================= */
+
+body.tsap-dark-mode footer .tsap-milestone {
+  background: linear-gradient(
+    135deg,
+    #4a3410 0%,
+    #6b4f1d 45%,
+    #7a5a1f 100%
+  ) !important;
+
+  color: #f8e7b5 !important;
+
+  border-color: #b8891f !important;
+
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.35),
+    0 1px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+body.tsap-dark-mode footer .tsap-milestone strong {
+  color: #ffe082 !important;
+}
+
+body.tsap-dark-mode footer .tsap-milestone .milestone-date {
+  color: #f6d98b !important;
+}
+
+body.tsap-dark-mode footer .tsap-milestone a {
+  color: #fff3c4 !important;
+}
+
+body.tsap-dark-mode footer .tsap-milestone a:hover {
+  color: #ffffff !important;
+}
