@@ -225,5 +225,26 @@ document.addEventListener("DOMContentLoaded", () => {
       GLightbox({ selector: '[data-glightbox]' });
     });
   </script>
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  const params = new URLSearchParams(window.location.search);
+
+  if (params.get('darkmode') === '1') {
+    document.body.classList.add('tsap-dark-mode');
+    localStorage.setItem('tsap-dark-mode', 'true');
+  }
+
+  if (params.get('darkmode') === '0') {
+    document.body.classList.remove('tsap-dark-mode');
+    localStorage.removeItem('tsap-dark-mode');
+  }
+
+  if (localStorage.getItem('tsap-dark-mode') === 'true') {
+    document.body.classList.add('tsap-dark-mode');
+  }
+
+});
+</script>
 </body>
 </html>
