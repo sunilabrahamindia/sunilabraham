@@ -649,11 +649,7 @@ printButton.addEventListener("click", async function () {
         const article = document.createElement("article");
 
         article.className = "book-article";
-
-        article.innerHTML =
-          "<h2>" + item.title + "</h2>" +
-          content.innerHTML;
-
+article.innerHTML = content.innerHTML;
         container.appendChild(article);
 
       }
