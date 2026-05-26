@@ -1,0 +1,74 @@
+/* =========================================================
+   Dark Mode Foundation
+   ========================================================= */
+
+:root {
+  color-scheme: light dark;
+}
+
+body.tsap-dark-mode {
+  background: #111827 !important;
+  background-image: none !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .main-content,
+body.tsap-dark-mode main,
+body.tsap-dark-mode .content {
+  background: #1f2937 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode h1,
+body.tsap-dark-mode h2,
+body.tsap-dark-mode h3,
+body.tsap-dark-mode h4,
+body.tsap-dark-mode h5,
+body.tsap-dark-mode h6 {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode h2 {
+  border-bottom-color: #374151 !important;
+}
+
+body.tsap-dark-mode a {
+  color: #93c5fd !important;
+}
+
+body.tsap-dark-mode a:hover,
+body.tsap-dark-mode a:focus {
+  color: #bfdbfe !important;
+}
+
+body.tsap-dark-mode table {
+  background: #1f2937 !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode th {
+  background: #374151 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode td,
+body.tsap-dark-mode th {
+  border-bottom-color: #4b5563 !important;
+}
+
+body.tsap-dark-mode footer {
+  background: #111827 !important;
+  background-image: none !important;
+  color: #cbd5e1 !important;
+  border-top-color: #374151 !important;
+}
+
+body.tsap-dark-mode .breadcrumb {
+  color: #cbd5e1 !important;
+  border-bottom-color: #374151 !important;
+}
+
+body.tsap-dark-mode .breadcrumb span {
+  color: #cbd5e1 !important;
+}
