@@ -1,86 +1,159 @@
 <!-- =========================================================
-     TSAP Minimal Utility Bar
-     Accessible + Lightweight
+     TSAP Minimal Top Utility Bar
+     Preserves existing height philosophy
      ========================================================= -->
 
-<div id="tsap-topbar">
+<div id="sc-share-bar">
 
-  <!-- Search -->
-  <button id="tsap-search-btn" title="Search this site" aria-label="Search this site">
-    🔍
-  </button>
+  <!-- Left: Search -->
+  <div id="sc-search-area">
+    <form action="https://www.google.com/search" method="get">
+      <input
+        type="text"
+        name="q"
+        placeholder="Search The Sunil Abraham Project..."
+        aria-label="Search this site"
+      />
 
-  <!-- Share -->
-  <button id="tsap-share-btn" title="Share this page" aria-label="Share this page">
-    ↗
-  </button>
+      <input
+        type="hidden"
+        name="q"
+        value=""
+        id="sc-hidden-search"
+      />
+    </form>
+  </div>
 
-  <!-- RSS -->
-  <a href="/feed.xml"
-     id="tsap-rss-btn"
-     title="RSS Feed"
-     aria-label="RSS Feed">
-    RSS
-  </a>
+  <!-- Right: Utility Icons -->
+  <div id="sc-top-icons">
 
-  <!-- PDF -->
-  <button id="tsap-print-btn"
-          title="Print or Save as PDF"
-          aria-label="Print or Save as PDF">
-    PDF
-  </button>
+    <!-- RSS -->
+    <a
+      href="/feed.xml"
+      title="RSS Feed"
+      aria-label="RSS Feed"
+      class="sc-icon-btn"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg"
+        alt="RSS Feed"
+      />
+    </a>
+
+    <!-- PDF / Print -->
+    <button
+      onclick="window.print()"
+      title="Print or Save as PDF"
+      aria-label="Print or Save as PDF"
+      class="sc-icon-btn"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/337/337946.png"
+        alt="PDF"
+      />
+    </button>
+
+  </div>
 
 </div>
 
 <style>
-#tsap-topbar {
+/* =========================================================
+   TOP BAR
+   ========================================================= */
+
+#sc-share-bar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+
   z-index: 9999;
 
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
 
-  padding: 6px 10px;
+  gap: 12px;
+
+  padding: 6px 12px;
 
   background: rgba(248, 250, 252, 0.96);
+
   backdrop-filter: blur(6px);
 
-  border-bottom: 1px solid #d8dee4;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    sans-serif;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
-#tsap-topbar button,
-#tsap-topbar a {
-  display: inline-flex;
+/* =========================================================
+   SEARCH AREA
+   ========================================================= */
+
+#sc-search-area {
+  flex: 1;
+  max-width: 520px;
+}
+
+#sc-search-area form {
+  width: 100%;
+}
+
+#sc-search-area input[type="text"] {
+  width: 100%;
+
+  height: 32px;
+
+  padding: 0 12px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  font-size: 14px;
+  color: #1e293b;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+#sc-search-area input[type="text"]:focus {
+  outline: none;
+
+  border-color: #1f5fbf;
+
+  box-shadow: 0 0 0 3px rgba(31, 95, 191, 0.12);
+}
+
+#sc-search-area input[type="text"]::placeholder {
+  color: #64748b;
+}
+
+/* =========================================================
+   RIGHT ICONS
+   ========================================================= */
+
+#sc-top-icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sc-icon-btn {
+  display: flex;
   align-items: center;
   justify-content: center;
 
-  min-width: 38px;
+  width: 34px;
   height: 34px;
-
-  padding: 0 10px;
 
   border: none;
   border-radius: 8px;
 
   background: transparent;
-
-  color: #1f2937;
-  text-decoration: none;
-
-  font-size: 14px;
-  font-weight: 600;
 
   cursor: pointer;
 
@@ -89,64 +162,64 @@
     transform 0.15s ease;
 }
 
-#tsap-topbar button:hover,
-#tsap-topbar a:hover {
+.sc-icon-btn:hover {
   background: rgba(31, 95, 191, 0.10);
 }
 
-#tsap-topbar button:focus,
-#tsap-topbar a:focus {
+.sc-icon-btn:focus {
   outline: 2px solid #1f5fbf;
   outline-offset: 2px;
 }
 
-#tsap-search-form {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.sc-icon-btn img {
+  width: 20px;
+  height: 20px;
+
+  display: block;
 }
 
-#tsap-search-input {
-  width: 220px;
-
-  padding: 7px 10px;
-
-  border: 1px solid #c7d2da;
-  border-radius: 8px;
-
-  font-size: 14px;
-}
-
-#tsap-search-input:focus {
-  outline: 2px solid #1f5fbf;
-  border-color: #1f5fbf;
-}
+/* =========================================================
+   BODY OFFSET
+   ========================================================= */
 
 @media (max-width: 768px) {
   body {
-    padding-top: 46px !important;
+    padding-top: 44px !important;
   }
 
-  #tsap-topbar {
-    gap: 6px;
+  #sc-share-bar {
     padding: 5px 8px;
+    gap: 8px;
   }
 
-  #tsap-topbar button,
-  #tsap-topbar a {
-    min-width: 34px;
-    height: 32px;
+  #sc-search-area input[type="text"] {
+    height: 30px;
     font-size: 13px;
-    padding: 0 8px;
   }
 
-  #tsap-search-input {
-    width: 150px;
+  .sc-icon-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .sc-icon-btn img {
+    width: 18px;
+    height: 18px;
   }
 }
 
+@media (min-width: 769px) {
+  body {
+    padding-top: 44px;
+  }
+}
+
+/* =========================================================
+   PRINT
+   ========================================================= */
+
 @media print {
-  #tsap-topbar {
+  #sc-share-bar {
     display: none !important;
   }
 }
@@ -155,92 +228,15 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
 
-  /* =====================================================
-     SHARE
-     ===================================================== */
+  const form = document.querySelector('#sc-search-area form');
 
-  document.getElementById('tsap-share-btn')
-    .addEventListener('click', async function () {
+  form.addEventListener('submit', function () {
 
-      const shareData = {
-        title: document.title,
-        url: window.location.href
-      };
+    const input = form.querySelector('input[type="text"]');
 
-      if (navigator.share) {
-        try {
-          await navigator.share(shareData);
-        } catch (err) {}
-      } else {
-        try {
-          await navigator.clipboard.writeText(window.location.href);
-          alert('Link copied to clipboard.');
-        } catch (err) {
-          prompt('Copy this link:', window.location.href);
-        }
-      }
-    });
-
-  /* =====================================================
-     PRINT / PDF
-     ===================================================== */
-
-  document.getElementById('tsap-print-btn')
-    .addEventListener('click', function () {
-      window.print();
-    });
-
-  /* =====================================================
-     SEARCH
-     ===================================================== */
-
-  document.getElementById('tsap-search-btn')
-    .addEventListener('click', function () {
-
-      if (document.getElementById('tsap-search-form')) {
-        return;
-      }
-
-      const form = document.createElement('form');
-      form.id = 'tsap-search-form';
-
-      form.action = 'https://www.google.com/search';
-      form.method = 'get';
-
-      const hidden = document.createElement('input');
-      hidden.type = 'hidden';
-      hidden.name = 'q';
-      hidden.value = 'site:' + window.location.hostname;
-
-      const input = document.createElement('input');
-      input.id = 'tsap-search-input';
-      input.type = 'text';
-      input.name = 'q';
-      input.placeholder = 'Search this site...';
-
-      const close = document.createElement('button');
-      close.type = 'button';
-      close.innerHTML = '×';
-
-      close.onclick = function () {
-        form.remove();
-      };
-
-      form.appendChild(hidden);
-      form.appendChild(input);
-      form.appendChild(close);
-
-      document.getElementById('tsap-topbar')
-        .appendChild(form);
-
-      input.focus();
-
-      input.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') {
-          form.remove();
-        }
-      });
-    });
+    document.getElementById('sc-hidden-search').value =
+      'site:' + window.location.hostname + ' ' + input.value;
+  });
 
 });
 </script>
