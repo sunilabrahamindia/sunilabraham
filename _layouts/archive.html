@@ -1,64 +1,83 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="/assets/css/style-archive.css">
+  <title>
+    {% if page.title %}{{ page.title }} | {% endif %}Sunil Abraham Project
+  </title>
 
-<div class="archive-shell">
-  {% include header-archive.html %}
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+  {% endif %}
 
-  <main id="main-content" class="archive-main">
-    {% if page.title %}
-      <header class="archive-page-header">
-        {% if page.collection %}
-          <p class="archive-page-kicker">{{ page.collection | replace: "-", " " | capitalize }}</p>
-        {% endif %}
-        <h1>{{ page.title }}</h1>
-        {% if page.description %}
-          <p class="archive-page-intro">{{ page.description }}</p>
-        {% endif %}
-      </header>
-    {% endif %}
+  {% if page.robots %}
+    <meta name="robots" content="{{ page.robots }}">
+  {% endif %}
 
-    <div class="archive-layout-grid">
-      <aside class="archive-sidebar">
-        <section class="archive-card">
-          <h2>Browse</h2>
-          <ul class="archive-link-list">
-            <li><a href="/newest/">Newest pages</a></li>
-            <li><a href="/categories/">Categories</a></li>
-            <li><a href="/projects/">Projects</a></li>
-            <li><a href="/publications/">Publications</a></li>
-            <li><a href="/media/">Media mentions</a></li>
-            <li><a href="/videos/">Videos</a></li>
-          </ul>
+  <link rel="stylesheet" href="/assets/css/style-archive.css">
+</head>
+<body>
+
+  <div class="archive-shell">
+    {% include header-archive.html %}
+
+    <main id="main-content" class="archive-main">
+      {% if page.title %}
+        <header class="archive-page-header">
+          {% if page.collection %}
+            <p class="archive-page-kicker">{{ page.collection | replace: "-", " " | capitalize }}</p>
+          {% endif %}
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="archive-page-intro">{{ page.description }}</p>
+          {% endif %}
+        </header>
+      {% endif %}
+
+      <div class="archive-layout-grid">
+        <aside class="archive-sidebar">
+          <section class="archive-card">
+            <h2>Browse</h2>
+            <ul class="archive-link-list">
+              <li><a href="/newest/">Newest pages</a></li>
+              <li><a href="/categories/">Categories</a></li>
+              <li><a href="/projects/">Projects</a></li>
+              <li><a href="/publications/">Publications</a></li>
+              <li><a href="/media/">Media mentions</a></li>
+              <li><a href="/videos/">Videos</a></li>
+            </ul>
+          </section>
+
+          {% if page.categories and page.categories.size > 0 %}
+          <section class="archive-card">
+            <h2>Filed under</h2>
+            <ul class="archive-tag-list">
+              {% for category in page.categories %}
+                <li><a href="/categories/#{{ category | slugify }}">{{ category }}</a></li>
+              {% endfor %}
+            </ul>
+          </section>
+          {% endif %}
+
+          <section class="archive-card">
+            <h2>About</h2>
+            <p>
+              This layout is designed for reading, browsing, and moving across an archive
+              without overwhelming the page with interface chrome.
+            </p>
+          </section>
+        </aside>
+
+        <section class="archive-content">
+          {{ content }}
         </section>
+      </div>
+    </main>
 
-        {% if page.categories and page.categories.size > 0 %}
-        <section class="archive-card">
-          <h2>Filed under</h2>
-          <ul class="archive-tag-list">
-            {% for category in page.categories %}
-              <li><a href="/categories/#{{ category | slugify }}">{{ category }}</a></li>
-            {% endfor %}
-          </ul>
-        </section>
-        {% endif %}
+    {% include footer-archive.html %}
+  </div>
 
-        <section class="archive-card">
-          <h2>About</h2>
-          <p>
-            This layout is designed for reading, browsing, and moving across an archive
-            without overwhelming the page with interface chrome.
-          </p>
-        </section>
-      </aside>
-
-      <section class="archive-content">
-        {{ content }}
-      </section>
-    </div>
-  </main>
-
-  {% include footer-archive.html %}
-</div>
+</body>
+</html>
