@@ -36,7 +36,7 @@ created: 2026-05-27
 
 <dt>📰 Newspaper Link:</dt>
 <dd>
-<a class="btn" href="https://www.thehindu.com/business/Industry/Pranesh-Prakash-on-definition-of-Net-Neutrality/article60327713.ece">Read Online (Subscription needed)</a>
+<a class="btn" href="https://www.thehindu.com/business/Industry/Pranesh-Prakash-on-definition-of-Net-Neutrality/article60327713.ece">Read Online </a> (Subscription needed)
 </dd>
 </dl>
 
@@ -80,7 +80,7 @@ This was also the period when Facebook's Internet.org was drawing intense critic
 
 ## External Link
 
-- [Read on The Hindu (Subscription needed)](https://www.thehindu.com/business/Industry/Pranesh-Prakash-on-definition-of-Net-Neutrality/article60327713.ece)
+- [Read on The Hindu](https://www.thehindu.com/business/Industry/Pranesh-Prakash-on-definition-of-Net-Neutrality/article60327713.ece) (Subscription needed)
 
 <style>
 .media-details {
