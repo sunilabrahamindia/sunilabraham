@@ -640,15 +640,10 @@ printButton.addEventListener("click", async function () {
     try {
 
       const response = await fetch(item.url);
-
       const html = await response.text();
-
       const parser = new DOMParser();
-
       const doc = parser.parseFromString(html, "text/html");
-
-      const content = doc.querySelector(".main-content");
-
+      const content = doc.querySelector("#maincontent");
       if (content) {
 
         const article = document.createElement("article");
