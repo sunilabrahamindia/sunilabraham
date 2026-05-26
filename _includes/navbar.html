@@ -1,224 +1,102 @@
 <!-- =========================================================
      Sunil Abraham Project
-     Refined Navbar Include
-     Elegant, professional, editorial-style header
+     Refined Navbar Only
+     Keeps existing site-header untouched
+     No custom width or max-width
      ========================================================= -->
 
 <style>
 /* =========================================================
-   Design tokens for navbar
+   Navbar only
    ========================================================= */
-:root {
-  --nav-bg: rgba(248, 248, 246, 0.82);
-  --nav-bg-solid: #f8f8f6;
-  --nav-surface: #ffffff;
-  --nav-text: #1f2937;
-  --nav-text-muted: #5b6472;
-  --nav-border: rgba(31, 41, 55, 0.10);
-  --nav-border-strong: rgba(31, 41, 55, 0.16);
-  --nav-accent: #0f766e;
-  --nav-accent-soft: rgba(15, 118, 110, 0.10);
-  --nav-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-  --nav-shadow-soft: 0 4px 14px rgba(15, 23, 42, 0.06);
-  --nav-radius: 16px;
-  --nav-radius-sm: 12px;
-  --nav-max-width: 1120px;
-  --nav-height: 72px;
-  --nav-font-size: 0.95rem;
-  --nav-letter-spacing: 0.01em;
-  --nav-transition: 180ms cubic-bezier(0.16, 1, 0.3, 1);
-}
 
-/* =========================================================
-   Header shell
-   ========================================================= */
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  padding: 0.9rem 0 0.7rem;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.72), rgba(255,255,255,0));
-  backdrop-filter: saturate(140%) blur(8px);
-}
-
-.site-header::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 1px;
-  background: linear-gradient(to right, transparent, rgba(31, 41, 55, 0.08), transparent);
-  pointer-events: none;
-}
-
-.navbar-wrap {
-  width: min(calc(100% - 2rem), var(--nav-max-width));
-  margin: 0 auto;
-}
-
-/* =========================================================
-   Navbar container
-   ========================================================= */
 .navbar {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: var(--nav-height);
-  padding: 0.7rem 0.9rem;
-  background: var(--nav-bg);
-  border: 1px solid var(--nav-border);
-  border-radius: calc(var(--nav-radius) + 2px);
-  box-shadow: var(--nav-shadow);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  margin: 0 0 1.4rem;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffffff 0%, #fbfbfc 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow:
+    0 1px 2px rgba(17, 24, 39, 0.03),
+    0 12px 28px rgba(17, 24, 39, 0.06);
+  overflow: hidden;
 }
 
-/* Optional subtle top highlight */
+/* thin top sheen */
 .navbar::before {
   content: "";
   position: absolute;
-  inset: 0;
-  border-radius: inherit;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.95);
   pointer-events: none;
-  background:
-    linear-gradient(to bottom, rgba(255,255,255,0.45), rgba(255,255,255,0.02) 40%, rgba(255,255,255,0));
-  opacity: 0.75;
+  z-index: 1;
 }
 
-/* =========================================================
-   Brand area
-   ========================================================= */
-.navbar-brand {
-  position: relative;
-  z-index: 2;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.7rem;
-  padding: 0.45rem 0.65rem;
-  border-radius: 999px;
-  text-decoration: none;
-  color: var(--nav-text);
-  transition:
-    background var(--nav-transition),
-    color var(--nav-transition),
-    transform var(--nav-transition);
-}
-
-.navbar-brand:hover {
-  background: rgba(255,255,255,0.55);
-  transform: translateY(-1px);
-}
-
-.navbar-brand:focus-visible {
-  outline: 2px solid var(--nav-accent);
-  outline-offset: 3px;
-}
-
-.navbar-mark {
-  width: 2.15rem;
-  height: 2.15rem;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  flex: 0 0 auto;
-  background:
-    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.95), rgba(255,255,255,0.35) 40%, transparent 42%),
-    linear-gradient(135deg, #0f766e, #155e75);
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: 700;
-  box-shadow:
-    inset 0 1px 1px rgba(255,255,255,0.35),
-    0 8px 18px rgba(15, 118, 110, 0.18);
-}
-
-.navbar-brand-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 1.1;
-}
-
-.navbar-brand-title {
-  font-size: 0.98rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-}
-
-.navbar-brand-subtitle {
-  font-size: 0.74rem;
-  color: var(--nav-text-muted);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-/* =========================================================
-   Desktop navigation
-   ========================================================= */
-.navbar-menu {
-  position: relative;
-  z-index: 2;
-}
-
-.navbar-menu ul {
+.navbar ul {
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 0.35rem;
   margin: 0;
-  padding: 0;
+  padding: 0.75rem;
+  position: relative;
+  z-index: 2;
 }
 
-.navbar-menu li {
+.navbar li {
   margin: 0;
   padding: 0;
 }
 
-.navbar-menu a {
+.navbar a {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   min-height: 44px;
-  padding: 0.72rem 0.95rem;
+  padding: 0.82rem 1.15rem;
   border-radius: 999px;
-  color: var(--nav-text-muted);
-  text-decoration: none;
-  font-size: var(--nav-font-size);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.96rem;
   font-weight: 600;
-  letter-spacing: var(--nav-letter-spacing);
+  letter-spacing: 0.01em;
+  line-height: 1;
+  color: #4b5563;
+  text-decoration: none;
   transition:
-    color var(--nav-transition),
-    background var(--nav-transition),
-    box-shadow var(--nav-transition),
-    transform var(--nav-transition);
+    color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
-.navbar-menu a:hover {
-  color: var(--nav-text);
-  background: rgba(255,255,255,0.72);
-  box-shadow: inset 0 0 0 1px rgba(31, 41, 55, 0.06);
+.navbar a:hover {
+  color: #111827;
+  background: rgba(17, 24, 39, 0.045);
+  box-shadow: inset 0 0 0 1px rgba(17, 24, 39, 0.04);
   transform: translateY(-1px);
 }
 
-.navbar-menu a:focus-visible {
-  outline: 2px solid var(--nav-accent);
+.navbar a:focus {
+  outline: 2px solid #111827;
   outline-offset: 3px;
 }
 
-.navbar-menu a.active {
-  color: var(--nav-accent);
-  background: var(--nav-accent-soft);
-  box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.12);
+.navbar a.active {
+  color: #0f4c81;
+  background: rgba(15, 76, 129, 0.09);
+  box-shadow: inset 0 0 0 1px rgba(15, 76, 129, 0.10);
 }
 
-.navbar-menu a.active::after {
+.navbar a.active::after {
   content: "";
   position: absolute;
-  left: 0.95rem;
-  right: 0.95rem;
+  left: 1rem;
+  right: 1rem;
   bottom: 0.45rem;
   height: 2px;
   border-radius: 999px;
@@ -226,297 +104,181 @@
   opacity: 0.9;
 }
 
-/* =========================================================
-   Mobile toggle
-   ========================================================= */
+/* Hide mobile toggle on desktop */
 .navbar-toggle {
-  position: relative;
-  z-index: 3;
   display: none;
-  align-items: center;
-  justify-content: center;
-  gap: 0.65rem;
-  min-height: 44px;
-  padding: 0.72rem 0.95rem;
-  border: 1px solid var(--nav-border);
-  border-radius: 999px;
-  background: rgba(255,255,255,0.72);
-  color: var(--nav-text);
-  font-size: 0.92rem;
-  font-weight: 650;
-  letter-spacing: 0.01em;
-  cursor: pointer;
-  transition:
-    background var(--nav-transition),
-    border-color var(--nav-transition),
-    transform var(--nav-transition),
-    box-shadow var(--nav-transition);
-}
-
-.navbar-toggle:hover {
-  background: #fff;
-  border-color: var(--nav-border-strong);
-  box-shadow: var(--nav-shadow-soft);
-  transform: translateY(-1px);
-}
-
-.navbar-toggle:focus-visible {
-  outline: 2px solid var(--nav-accent);
-  outline-offset: 3px;
-}
-
-.navbar-toggle-icon {
-  width: 18px;
-  height: 12px;
-  position: relative;
-  display: inline-block;
-}
-
-.navbar-toggle-icon span {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  border-radius: 999px;
-  background: currentColor;
-  transition:
-    transform var(--nav-transition),
-    opacity var(--nav-transition),
-    top var(--nav-transition);
-}
-
-.navbar-toggle-icon span:nth-child(1) { top: 0; }
-.navbar-toggle-icon span:nth-child(2) { top: 5px; }
-.navbar-toggle-icon span:nth-child(3) { top: 10px; }
-
-.navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(1) {
-  top: 5px;
-  transform: rotate(45deg);
-}
-
-.navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(2) {
-  opacity: 0;
-}
-
-.navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(3) {
-  top: 5px;
-  transform: rotate(-45deg);
 }
 
 /* =========================================================
-   Mobile panel
+   Mobile navbar
    ========================================================= */
-@media (max-width: 860px) {
-  .site-header {
-    padding: 0.7rem 0 0.55rem;
-  }
-
+@media (max-width: 768px) {
   .navbar {
-    min-height: auto;
-    padding: 0.7rem;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 0.7rem;
-    align-items: center;
-  }
-
-  .navbar-brand {
-    padding: 0.35rem 0.45rem;
-  }
-
-  .navbar-brand-title {
-    font-size: 0.94rem;
-  }
-
-  .navbar-brand-subtitle {
-    font-size: 0.7rem;
+    margin: 0 0 1rem;
+    border-radius: 14px;
   }
 
   .navbar-toggle {
-    display: inline-flex;
-  }
-
-  .navbar-menu {
-    grid-column: 1 / -1;
+    display: flex;
     width: 100%;
+    min-height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    padding: 0.9rem 1rem;
+    background: transparent;
+    color: #111827;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.96rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    cursor: pointer;
   }
 
-  .navbar-menu ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.35rem;
-    max-height: 0;
-    opacity: 0;
-    overflow: hidden;
-    pointer-events: none;
-    padding-top: 0;
+  .navbar-toggle:focus {
+    outline: 2px solid #111827;
+    outline-offset: -2px;
+  }
+
+  .navbar-toggle-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .navbar-toggle-icon {
+    width: 18px;
+    height: 12px;
+    position: relative;
+    display: inline-block;
+    flex: 0 0 auto;
+  }
+
+  .navbar-toggle-icon span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-radius: 999px;
+    background: currentColor;
     transition:
-      max-height 240ms ease,
-      opacity 180ms ease,
-      padding-top 180ms ease;
+      transform 0.2s ease,
+      opacity 0.2s ease,
+      top 0.2s ease;
   }
 
-  .navbar-menu ul.open {
-    max-height: 32rem;
-    opacity: 1;
-    pointer-events: auto;
-    padding-top: 0.35rem;
+  .navbar-toggle-icon span:nth-child(1) { top: 0; }
+  .navbar-toggle-icon span:nth-child(2) { top: 5px; }
+  .navbar-toggle-icon span:nth-child(3) { top: 10px; }
+
+  .navbar-toggle-caret {
+    font-size: 1rem;
+    line-height: 1;
+    color: #6b7280;
+    transition: transform 0.2s ease;
   }
 
-  .navbar-menu a {
+  .navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(1) {
+    top: 5px;
+    transform: rotate(45deg);
+  }
+
+  .navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(3) {
+    top: 5px;
+    transform: rotate(-45deg);
+  }
+
+  .navbar-toggle[aria-expanded="true"] .navbar-toggle-caret {
+    transform: rotate(180deg);
+  }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0.3rem;
+    padding: 0 0.75rem 0.75rem;
+    border-top: 1px solid #eef0f3;
+  }
+
+  .navbar ul.open {
+    display: flex;
+  }
+
+  .navbar a {
     width: 100%;
     justify-content: flex-start;
-    min-height: 48px;
-    padding: 0.9rem 1rem;
-    border-radius: var(--nav-radius-sm);
-    background: rgba(255,255,255,0.68);
-    box-shadow: inset 0 0 0 1px rgba(31, 41, 55, 0.05);
-  }
-
-  .navbar-menu a:hover {
-    background: #fff;
-    box-shadow:
-      inset 0 0 0 1px rgba(31, 41, 55, 0.08),
-      0 8px 18px rgba(15, 23, 42, 0.05);
+    min-height: 46px;
+    padding: 0.85rem 1rem;
+    border-radius: 12px;
+    font-size: 0.94rem;
     transform: none;
   }
 
-  .navbar-menu a.active {
-    background: rgba(15, 118, 110, 0.10);
-    box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.14);
+  .navbar a:hover {
+    transform: none;
   }
 
-  .navbar-menu a.active::after {
-    left: 1rem;
+  .navbar a.active::after {
+    left: 0.9rem;
     right: auto;
     top: 50%;
     bottom: auto;
-    width: 0.35rem;
-    height: 0.35rem;
+    width: 0.38rem;
+    height: 0.38rem;
     transform: translateY(-50%);
-    border-radius: 50%;
+    border-radius: 999px;
   }
 }
 
 /* =========================================================
-   Motion preference
+   Reduced motion
    ========================================================= */
 @media (prefers-reduced-motion: reduce) {
-  .site-header,
-  .navbar,
-  .navbar::before,
-  .navbar-brand,
-  .navbar-menu a,
+  .navbar a,
   .navbar-toggle,
   .navbar-toggle-icon span,
-  .navbar-menu ul {
+  .navbar-toggle-caret {
     transition: none !important;
-    animation: none !important;
-  }
-}
-
-/* =========================================================
-   Dark mode support
-   ========================================================= */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --nav-bg: rgba(24, 28, 34, 0.78);
-    --nav-bg-solid: #181c22;
-    --nav-surface: #11161c;
-    --nav-text: #e6ebf2;
-    --nav-text-muted: #a7b0bd;
-    --nav-border: rgba(230, 235, 242, 0.10);
-    --nav-border-strong: rgba(230, 235, 242, 0.18);
-    --nav-accent: #6ee7d8;
-    --nav-accent-soft: rgba(110, 231, 216, 0.11);
-    --nav-shadow: 0 14px 34px rgba(0, 0, 0, 0.34);
-    --nav-shadow-soft: 0 8px 22px rgba(0, 0, 0, 0.24);
-  }
-
-  .site-header {
-    background: linear-gradient(to bottom, rgba(10,12,16,0.6), rgba(10,12,16,0));
-  }
-
-  .site-header::after {
-    background: linear-gradient(to right, transparent, rgba(230, 235, 242, 0.08), transparent);
-  }
-
-  .navbar::before {
-    background:
-      linear-gradient(to bottom, rgba(255,255,255,0.08), rgba(255,255,255,0.02) 45%, rgba(255,255,255,0));
-  }
-
-  .navbar-brand:hover,
-  .navbar-menu a:hover,
-  .navbar-toggle,
-  .navbar-menu a {
-    background-color: rgba(255,255,255,0.04);
-  }
-
-  .navbar-menu a:hover,
-  .navbar-toggle:hover {
-    background-color: rgba(255,255,255,0.08);
   }
 }
 </style>
 
-<header class="site-header">
-  <div class="navbar-wrap">
-    <nav class="navbar" aria-label="Main navigation">
+<nav class="navbar" aria-label="Main navigation">
 
-      <a class="navbar-brand" href="/">
-        <span class="navbar-mark" aria-hidden="true">SA</span>
-        <span class="navbar-brand-text">
-          <span class="navbar-brand-title">Sunil Abraham</span>
-          <span class="navbar-brand-subtitle">Research · Public Interest · Technology</span>
-        </span>
-      </a>
+  <button class="navbar-toggle" aria-expanded="false" aria-controls="navbar-menu" type="button">
+    <span class="navbar-toggle-label">
+      <span class="navbar-toggle-icon" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <span>Menu</span>
+    </span>
+    <span class="navbar-toggle-caret" aria-hidden="true">▾</span>
+  </button>
 
-      <button class="navbar-toggle"
-              type="button"
-              aria-expanded="false"
-              aria-controls="navbar-menu"
-              aria-label="Toggle navigation">
-        <span class="navbar-toggle-icon" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-        <span>Menu</span>
-      </button>
+  <ul id="navbar-menu" role="list">
+    <li role="listitem"><a href="/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a></li>
+    <li role="listitem"><a href="/projects/" {% if page.url contains '/projects/' %}class="active" aria-current="page"{% endif %}>Projects</a></li>
+    <li role="listitem"><a href="/publications/" {% if page.url contains '/publications/' %}class="active" aria-current="page"{% endif %}>Publications</a></li>
+    <li role="listitem"><a href="/media/" {% if page.url contains '/media/' %}class="active" aria-current="page"{% endif %}>Media mentions</a></li>
+    <li role="listitem"><a href="/videos/" {% if page.url contains '/videos/' %}class="active" aria-current="page"{% endif %}>Videos</a></li>
+    <li role="listitem"><a href="/contact/" {% if page.url contains '/contact/' %}class="active" aria-current="page"{% endif %}>Contact</a></li>
+  </ul>
 
-      <div class="navbar-menu">
-        <ul id="navbar-menu" role="list">
-          <li role="listitem">
-            <a href="/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a>
-          </li>
-          <li role="listitem">
-            <a href="/projects/" {% if page.url contains '/projects/' %}class="active" aria-current="page"{% endif %}>Projects</a>
-          </li>
-          <li role="listitem">
-            <a href="/publications/" {% if page.url contains '/publications/' %}class="active" aria-current="page"{% endif %}>Publications</a>
-          </li>
-          <li role="listitem">
-            <a href="/media/" {% if page.url contains '/media/' %}class="active" aria-current="page"{% endif %}>Media</a>
-          </li>
-          <li role="listitem">
-            <a href="/videos/" {% if page.url contains '/videos/' %}class="active" aria-current="page"{% endif %}>Videos</a>
-          </li>
-          <li role="listitem">
-            <a href="/contact/" {% if page.url contains '/contact/' %}class="active" aria-current="page"{% endif %}>Contact</a>
-          </li>
-        </ul>
-      </div>
-
-    </nav>
-  </div>
-</header>
+</nav>
 
 <script>
 (function () {
   const toggle = document.querySelector('.navbar-toggle');
   const menu = document.querySelector('#navbar-menu');
-  const mediaQuery = window.matchMedia('(max-width: 860px)');
 
   if (!toggle || !menu) return;
 
@@ -525,25 +287,20 @@
     menu.classList.remove('open');
   }
 
-  function toggleMenu() {
+  toggle.addEventListener('click', function () {
     const expanded = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!expanded));
     menu.classList.toggle('open');
-  }
-
-  toggle.addEventListener('click', function (e) {
-    e.stopPropagation();
-    toggleMenu();
   });
 
   menu.querySelectorAll('a').forEach(function (link) {
     link.addEventListener('click', function () {
-      if (mediaQuery.matches) closeMenu();
+      if (window.innerWidth <= 768) closeMenu();
     });
   });
 
   document.addEventListener('click', function (e) {
-    if (!mediaQuery.matches) return;
+    if (window.innerWidth > 768) return;
     if (!toggle.contains(e.target) && !menu.contains(e.target)) {
       closeMenu();
     }
@@ -554,7 +311,7 @@
   });
 
   window.addEventListener('resize', function () {
-    if (!mediaQuery.matches) {
+    if (window.innerWidth > 768) {
       menu.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');
     }
