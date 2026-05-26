@@ -1,5 +1,5 @@
 <!-- =========================================================
-     TSAP Minimal Top Utility Bar
+     TSAP  Top Utility Bar
      ========================================================= -->
 
 <div id="sc-top-bar">
@@ -25,6 +25,32 @@
 
   <!-- Right: Utility Icons -->
   <div id="sc-top-icons">
+
+    <!-- Cite -->
+    <button
+      id="sc-cite-btn"
+      title="Cite this page"
+      aria-label="Cite this page"
+      class="sc-icon-btn"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/281/281760.png"
+        alt="Cite"
+      />
+    </button>
+
+    <!-- QR Code -->
+    <button
+      id="sc-qr-btn"
+      title="QR code"
+      aria-label="QR code"
+      class="sc-icon-btn"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/159/159469.png"
+        alt="QR Code"
+      />
+    </button>
 
     <!-- RSS -->
     <a
@@ -54,6 +80,59 @@
 
   </div>
 
+</div>
+
+<!-- =========================================================
+     Citation Modal
+     ========================================================= -->
+
+<div id="sc-cite-modal" aria-hidden="true">
+  <div id="sc-cite-box">
+
+    <button id="sc-cite-close" aria-label="Close citation box">
+      ×
+    </button>
+
+    <h2>Cite this page</h2>
+
+    <div class="sc-citation-block">
+      <strong>APA</strong>
+      <textarea readonly id="sc-cite-apa"></textarea>
+    </div>
+
+    <div class="sc-citation-block">
+      <strong>MLA</strong>
+      <textarea readonly id="sc-cite-mla"></textarea>
+    </div>
+
+    <div class="sc-citation-block">
+      <strong>Chicago</strong>
+      <textarea readonly id="sc-cite-chicago"></textarea>
+    </div>
+
+  </div>
+</div>
+
+<!-- =========================================================
+     QR Modal
+     ========================================================= -->
+
+<div id="sc-qr-modal" aria-hidden="true">
+  <div id="sc-qr-box">
+
+    <button id="sc-qr-close" aria-label="Close QR code">
+      ×
+    </button>
+
+    <h2>QR Code</h2>
+
+    <img
+      id="sc-qr-image"
+      src=""
+      alt="QR code for this page"
+    />
+
+  </div>
 </div>
 
 <style>
@@ -170,6 +249,87 @@
 }
 
 /* =========================================================
+   MODALS
+   ========================================================= */
+
+#sc-cite-modal,
+#sc-qr-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0,0,0,0.45);
+}
+
+#sc-cite-box,
+#sc-qr-box {
+  width: min(92vw, 640px);
+
+  background: #ffffff;
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+  position: relative;
+}
+
+#sc-qr-box {
+  width: min(92vw, 320px);
+  text-align: center;
+}
+
+#sc-cite-close,
+#sc-qr-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+
+  border: none;
+  background: transparent;
+
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.sc-citation-block {
+  margin-top: 18px;
+}
+
+.sc-citation-block strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.sc-citation-block textarea {
+  width: 100%;
+  min-height: 74px;
+
+  padding: 10px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  resize: vertical;
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#sc-qr-image {
+  width: 220px;
+  height: 220px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+/* =========================================================
    DARK MODE
    ========================================================= */
 
@@ -193,6 +353,23 @@
 
   .sc-icon-btn:hover {
     background: rgba(125, 179, 255, 0.15);
+  }
+
+  #sc-cite-box,
+  #sc-qr-box {
+    background: #111827;
+    color: #f1f5f9;
+  }
+
+  .sc-citation-block textarea {
+    background: #1e293b;
+    color: #f1f5f9;
+    border-color: #334155;
+  }
+
+  #sc-cite-close,
+  #sc-qr-close {
+    color: #f1f5f9;
   }
 }
 
@@ -245,7 +422,9 @@
 
 @media print {
 
-  #sc-top-bar {
+  #sc-top-bar,
+  #sc-cite-modal,
+  #sc-qr-modal {
     display: none !important;
   }
 }
@@ -253,6 +432,10 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+
+  /* =========================================================
+     SEARCH
+     ========================================================= */
 
   const form = document.querySelector('#sc-search-area form');
 
@@ -263,6 +446,105 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('sc-hidden-search').value =
       'site:' + window.location.hostname + ' ' + input.value;
   });
+
+  /* =========================================================
+     CITATIONS
+     ========================================================= */
+
+  const title =
+    {{ page.title | jsonify }};
+
+  const author =
+    {% if page.authors and page.authors.size > 0 %}
+      {{ page.authors[0] | jsonify }}
+    {% else %}
+      null
+    {% endif %};
+
+  const date =
+    {% if page.date %}
+      "{{ page.date | date: '%-d %B %Y' }}"
+    {% else %}
+      "n.d."
+    {% endif %};
+
+  const url = window.location.href;
+
+  const site =
+    "The Sunil Abraham Project";
+
+  let apa = '';
+  let mla = '';
+  let chicago = '';
+
+  if (author) {
+
+    apa =
+      `${author}. (${date}). ${title}. ${site}. ${url}`;
+
+    mla =
+      `${author}. "${title}." ${site}, ${date}, ${url}.`;
+
+    chicago =
+      `${author}. "${title}." ${site}. ${date}. ${url}.`;
+
+  } else {
+
+    apa =
+      `${title}. (${date}). ${site}. ${url}`;
+
+    mla =
+      `"${title}." ${site}, ${date}, ${url}.`;
+
+    chicago =
+      `"${title}." ${site}. ${date}. ${url}.`;
+  }
+
+  document.getElementById('sc-cite-apa').value = apa;
+  document.getElementById('sc-cite-mla').value = mla;
+  document.getElementById('sc-cite-chicago').value = chicago;
+
+  document.getElementById('sc-cite-btn').onclick = function () {
+    document.getElementById('sc-cite-modal').style.display = 'flex';
+  };
+
+  document.getElementById('sc-cite-close').onclick = function () {
+    document.getElementById('sc-cite-modal').style.display = 'none';
+  };
+
+  /* =========================================================
+     QR CODE
+     ========================================================= */
+
+  const qrURL =
+    'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=' +
+    encodeURIComponent(window.location.href);
+
+  document.getElementById('sc-qr-image').src = qrURL;
+
+  document.getElementById('sc-qr-btn').onclick = function () {
+    document.getElementById('sc-qr-modal').style.display = 'flex';
+  };
+
+  document.getElementById('sc-qr-close').onclick = function () {
+    document.getElementById('sc-qr-modal').style.display = 'none';
+  };
+
+  /* =========================================================
+     CLOSE MODALS ON BACKDROP CLICK
+     ========================================================= */
+
+  document.getElementById('sc-cite-modal').onclick = function (e) {
+    if (e.target === this) {
+      this.style.display = 'none';
+    }
+  };
+
+  document.getElementById('sc-qr-modal').onclick = function (e) {
+    if (e.target === this) {
+      this.style.display = 'none';
+    }
+  };
 
 });
 </script>
