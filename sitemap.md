@@ -9,7 +9,9 @@ created: 2025-10-21
 
 Below is the complete sitemap of the <strong>Sunil Abraham Project</strong>, divided into <em>Pages</em>, <em>Categories</em>, and <em>Posts</em> for easy browsing.
 
-As of {{ site.time | date: "%-d %B %Y" }}, the site contains {{ site.pages | size }} pages and {{ site.posts | size }} blog posts. This does not include support files such as PDFs, images, scripts.
+{% assign real_pages = site.pages | where_exp: "p", "p.created" %}
+
+As of {{ site.time | date: "%-d %B %Y" }}, the site contains {{ real_pages.size | number_with_delimiter }} pages and {{ site.posts | size | number_with_delimiter }} blog posts. This does not include support files such as PDFs, images, scripts.
 
 To explore the newest pages on the site, please visit the [Newest Pages](/newest/){: .btn } list.
 

@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    countEl.textContent = `Showing ${visible} of ${totalCount} pages`;
+    countEl.textContent = `Showing ${visible.toLocaleString()} of ${totalCount.toLocaleString()} pages`;
     noResults.style.display = visible === 0 ? '' : 'none';
 
     updateClearBtn();
