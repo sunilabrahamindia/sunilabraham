@@ -73,7 +73,7 @@
       class="sc-icon-btn"
     >
       <img
-        src="https://cdn-icons-png.flaticon.com/128/2997/2997933.png"
+        src="https://cdn-icons-png.flaticon.com/128/2997/299793.png"
         alt="Cite"
       />
     </button>
@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   /* =========================================================
-     CITATIONS
+     CITATION DATA
      ========================================================= */
 
   const title =
@@ -475,12 +475,23 @@ document.addEventListener('DOMContentLoaded', function () {
       "n.d."
     {% endif %};
 
+  const fullDate =
+    {% if page.date %}
+      "{{ page.date | date: '%-d %B %Y' }}"
+    {% else %}
+      "n.d."
+    {% endif %};
+
   const url =
     "{{ site.url }}{{ page.url }}";
 
+  /* =========================================================
+     APA AUTHORS
+     ========================================================= */
+
   function formatAPAAuthors(authors) {
 
-    return authors.map(author => {
+    const formatted = authors.map(author => {
 
       const parts = author.trim().split(' ');
 
@@ -491,9 +502,20 @@ document.addEventListener('DOMContentLoaded', function () {
         parts.map(p => p.charAt(0) + '.').join(' ');
 
       return `${last}, ${initials}`;
+    });
 
-    }).join(', ').replace(/, ([^,]*)$/, ', & $1');
+    if (formatted.length === 1) {
+      return formatted[0];
+    }
+
+    return formatted.slice(0, -1).join(', ') +
+      ', & ' +
+      formatted[formatted.length - 1];
   }
+
+  /* =========================================================
+     MLA AUTHORS
+     ========================================================= */
 
   function formatMLAAuthors(authors) {
 
@@ -505,7 +527,8 @@ document.addEventListener('DOMContentLoaded', function () {
       return `${authors[0]} and ${authors[1]}`;
     }
 
-    const lastAuthor = authors[authors.length - 1];
+    const lastAuthor =
+      authors[authors.length - 1];
 
     return `${authors.slice(0, -1).join(', ')}, and ${lastAuthor}`;
   }
@@ -524,6 +547,10 @@ document.addEventListener('DOMContentLoaded', function () {
   let mla = '';
   let bibtex = '';
 
+  /* =========================================================
+     APA
+     ========================================================= */
+
   if (authors.length) {
 
     apa =
@@ -532,21 +559,6 @@ ${title}.
 ${source ? source + '.' : ''}
 ${url}`;
 
-    mla =
-`${mlaAuthors}.
-"${title}."
-${source ? source + ', ' : ''}${year}.
-${url}`;
-
-    bibtex =
-`@article{${authors[0].split(' ')[0].toLowerCase()}${year}${title.toLowerCase().replace(/[^a-z0-9]+/g, '').slice(0, 8)},
-author = {${authors.join(' and ')}},
-title = {${title}},
-${source ? `journal = {${source}},` : ''}
-year = {${year}},
-url = {${url}}
-}`;
-
   } else {
 
     apa =
@@ -554,31 +566,94 @@ url = {${url}}
 (${year}).
 ${source ? source + '.' : ''}
 ${url}`;
+  }
+
+  /* =========================================================
+     MLA
+     ========================================================= */
+
+  if (authors.length) {
+
+    mla =
+`${mlaAuthors}.
+"${title}."
+${source ? source + ', ' : ''}${year}.
+${url}`;
+
+  } else {
 
     mla =
 `"${title}."
 ${source ? source + ', ' : ''}${year}.
 ${url}`;
+  }
+
+  /* =========================================================
+     BIBTEX
+     ========================================================= */
+
+  const bibtexKey =
+    authors.length
+      ? authors[0].split(' ')[0].toLowerCase() +
+        year +
+        title.toLowerCase()
+          .replace(/[^a-z0-9]+/g, '')
+          .slice(0, 8)
+      : 'tsap' + year;
+
+  const bibtexAuthors =
+    authors.join(' and ');
+
+  if (authors.length) {
 
     bibtex =
-`@misc{tsap${year},
+`@article{${bibtexKey},
+author = {${bibtexAuthors}},
+title = {${title}},${source ? '\njournal = {' + source + '},' : ''}
+year = {${year}},
+url = {${url}}
+}`;
+
+  } else {
+
+    bibtex =
+`@misc{${bibtexKey},
 title = {${title}},
 year = {${year}},
 url = {${url}}
 }`;
   }
 
-  document.getElementById('sc-cite-apa').value = apa;
-  document.getElementById('sc-cite-mla').value = mla;
-  document.getElementById('sc-cite-bibtex').value = bibtex;
+  /* =========================================================
+     INSERT CITATIONS
+     ========================================================= */
 
-  document.getElementById('sc-cite-btn').onclick = function () {
-    document.getElementById('sc-cite-modal').style.display = 'flex';
-  };
+  document.getElementById('sc-cite-apa').value =
+    apa;
 
-  document.getElementById('sc-cite-close').onclick = function () {
-    document.getElementById('sc-cite-modal').style.display = 'none';
-  };
+  document.getElementById('sc-cite-mla').value =
+    mla;
+
+  document.getElementById('sc-cite-bibtex').value =
+    bibtex;
+
+  /* =========================================================
+     CITE MODAL
+     ========================================================= */
+
+  document.getElementById('sc-cite-btn').onclick =
+    function () {
+
+      document.getElementById('sc-cite-modal')
+        .style.display = 'flex';
+    };
+
+  document.getElementById('sc-cite-close').onclick =
+    function () {
+
+      document.getElementById('sc-cite-modal')
+        .style.display = 'none';
+    };
 
   /* =========================================================
      QR CODE
@@ -588,31 +663,42 @@ url = {${url}}
     'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=' +
     encodeURIComponent(url);
 
-  document.getElementById('sc-qr-image').src = qrURL;
+  document.getElementById('sc-qr-image').src =
+    qrURL;
 
-  document.getElementById('sc-qr-btn').onclick = function () {
-    document.getElementById('sc-qr-modal').style.display = 'flex';
-  };
+  document.getElementById('sc-qr-btn').onclick =
+    function () {
 
-  document.getElementById('sc-qr-close').onclick = function () {
-    document.getElementById('sc-qr-modal').style.display = 'none';
-  };
+      document.getElementById('sc-qr-modal')
+        .style.display = 'flex';
+    };
+
+  document.getElementById('sc-qr-close').onclick =
+    function () {
+
+      document.getElementById('sc-qr-modal')
+        .style.display = 'none';
+    };
 
   /* =========================================================
      BACKDROP CLOSE
      ========================================================= */
 
-  document.getElementById('sc-cite-modal').onclick = function (e) {
-    if (e.target === this) {
-      this.style.display = 'none';
-    }
-  };
+  document.getElementById('sc-cite-modal').onclick =
+    function (e) {
 
-  document.getElementById('sc-qr-modal').onclick = function (e) {
-    if (e.target === this) {
-      this.style.display = 'none';
-    }
-  };
+      if (e.target === this) {
+        this.style.display = 'none';
+      }
+    };
+
+  document.getElementById('sc-qr-modal').onclick =
+    function (e) {
+
+      if (e.target === this) {
+        this.style.display = 'none';
+      }
+    };
 
   /* =========================================================
      ESCAPE KEY CLOSE
@@ -622,9 +708,11 @@ url = {${url}}
 
     if (e.key === 'Escape') {
 
-      document.getElementById('sc-cite-modal').style.display = 'none';
+      document.getElementById('sc-cite-modal')
+        .style.display = 'none';
 
-      document.getElementById('sc-qr-modal').style.display = 'none';
+      document.getElementById('sc-qr-modal')
+        .style.display = 'none';
     }
   });
 
