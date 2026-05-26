@@ -1,5 +1,5 @@
 <!-- =========================================================
-     TSAP  Top Utility Bar
+     TSAP Top Utility Bar
      ========================================================= -->
 
 <div id="sc-top-bar">
@@ -26,32 +26,6 @@
   <!-- Right: Utility Icons -->
   <div id="sc-top-icons">
 
-    <!-- Cite -->
-    <button
-      id="sc-cite-btn"
-      title="Cite this page"
-      aria-label="Cite this page"
-      class="sc-icon-btn"
-    >
-      <img
-        src="https://cdn-icons-png.flaticon.com/128/281/281760.png"
-        alt="Cite"
-      />
-    </button>
-
-    <!-- QR Code -->
-    <button
-      id="sc-qr-btn"
-      title="QR code"
-      aria-label="QR code"
-      class="sc-icon-btn"
-    >
-      <img
-        src="https://cdn-icons-png.flaticon.com/128/159/159469.png"
-        alt="QR Code"
-      />
-    </button>
-
     <!-- RSS -->
     <a
       href="/feed.xml"
@@ -75,6 +49,32 @@
       <img
         src="https://cdn-icons-png.flaticon.com/128/337/337946.png"
         alt="PDF"
+      />
+    </button>
+
+    <!-- QR Code -->
+    <button
+      id="sc-qr-btn"
+      title="QR code"
+      aria-label="QR code"
+      class="sc-icon-btn"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/14021/14021433.png"
+        alt="QR Code"
+      />
+    </button>
+
+    <!-- Cite -->
+    <button
+      id="sc-cite-btn"
+      title="Cite this page"
+      aria-label="Cite this page"
+      class="sc-icon-btn"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/2997/2997933.png"
+        alt="Cite"
       />
     </button>
 
@@ -106,8 +106,8 @@
     </div>
 
     <div class="sc-citation-block">
-      <strong>Chicago</strong>
-      <textarea readonly id="sc-cite-chicago"></textarea>
+      <strong>BibTeX</strong>
+      <textarea readonly id="sc-cite-bibtex"></textarea>
     </div>
 
   </div>
@@ -309,7 +309,7 @@
 
 .sc-citation-block textarea {
   width: 100%;
-  min-height: 74px;
+  min-height: 90px;
 
   padding: 10px;
 
@@ -454,55 +454,123 @@ document.addEventListener('DOMContentLoaded', function () {
   const title =
     {{ page.title | jsonify }};
 
-  const author =
-    {% if page.authors and page.authors.size > 0 %}
-      {{ page.authors[0] | jsonify }}
+  const authors =
+    {% if page.authors %}
+      {{ page.authors | jsonify }}
+    {% else %}
+      []
+    {% endif %};
+
+  const source =
+    {% if page.source %}
+      {{ page.source | jsonify }}
     {% else %}
       null
     {% endif %};
 
-  const date =
+  const year =
     {% if page.date %}
-      "{{ page.date | date: '%-d %B %Y' }}"
+      "{{ page.date | date: '%Y' }}"
     {% else %}
       "n.d."
     {% endif %};
 
-  const url = window.location.href;
+  const url =
+    "{{ site.url }}{{ page.url }}";
 
-  const site =
-    "The Sunil Abraham Project";
+  function formatAPAAuthors(authors) {
+
+    return authors.map(author => {
+
+      const parts = author.trim().split(' ');
+
+      const last =
+        parts.pop();
+
+      const initials =
+        parts.map(p => p.charAt(0) + '.').join(' ');
+
+      return `${last}, ${initials}`;
+
+    }).join(', ').replace(/, ([^,]*)$/, ', & $1');
+  }
+
+  function formatMLAAuthors(authors) {
+
+    if (authors.length === 1) {
+      return authors[0];
+    }
+
+    if (authors.length === 2) {
+      return `${authors[0]} and ${authors[1]}`;
+    }
+
+    const lastAuthor = authors[authors.length - 1];
+
+    return `${authors.slice(0, -1).join(', ')}, and ${lastAuthor}`;
+  }
+
+  const apaAuthors =
+    authors.length
+      ? formatAPAAuthors(authors)
+      : null;
+
+  const mlaAuthors =
+    authors.length
+      ? formatMLAAuthors(authors)
+      : null;
 
   let apa = '';
   let mla = '';
-  let chicago = '';
+  let bibtex = '';
 
-  if (author) {
+  if (authors.length) {
 
     apa =
-      `${author}. (${date}). ${title}. ${site}. ${url}`;
+`${apaAuthors} (${year}).
+${title}.
+${source ? source + '.' : ''}
+${url}`;
 
     mla =
-      `${author}. "${title}." ${site}, ${date}, ${url}.`;
+`${mlaAuthors}.
+"${title}."
+${source ? source + ', ' : ''}${year}.
+${url}`;
 
-    chicago =
-      `${author}. "${title}." ${site}. ${date}. ${url}.`;
+    bibtex =
+`@article{${authors[0].split(' ')[0].toLowerCase()}${year}${title.toLowerCase().replace(/[^a-z0-9]+/g, '').slice(0, 8)},
+author = {${authors.join(' and ')}},
+title = {${title}},
+${source ? `journal = {${source}},` : ''}
+year = {${year}},
+url = {${url}}
+}`;
 
   } else {
 
     apa =
-      `${title}. (${date}). ${site}. ${url}`;
+`${title}.
+(${year}).
+${source ? source + '.' : ''}
+${url}`;
 
     mla =
-      `"${title}." ${site}, ${date}, ${url}.`;
+`"${title}."
+${source ? source + ', ' : ''}${year}.
+${url}`;
 
-    chicago =
-      `"${title}." ${site}. ${date}. ${url}.`;
+    bibtex =
+`@misc{tsap${year},
+title = {${title}},
+year = {${year}},
+url = {${url}}
+}`;
   }
 
   document.getElementById('sc-cite-apa').value = apa;
   document.getElementById('sc-cite-mla').value = mla;
-  document.getElementById('sc-cite-chicago').value = chicago;
+  document.getElementById('sc-cite-bibtex').value = bibtex;
 
   document.getElementById('sc-cite-btn').onclick = function () {
     document.getElementById('sc-cite-modal').style.display = 'flex';
@@ -518,7 +586,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const qrURL =
     'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=' +
-    encodeURIComponent(window.location.href);
+    encodeURIComponent(url);
 
   document.getElementById('sc-qr-image').src = qrURL;
 
@@ -531,7 +599,7 @@ document.addEventListener('DOMContentLoaded', function () {
   };
 
   /* =========================================================
-     CLOSE MODALS ON BACKDROP CLICK
+     BACKDROP CLOSE
      ========================================================= */
 
   document.getElementById('sc-cite-modal').onclick = function (e) {
@@ -545,6 +613,20 @@ document.addEventListener('DOMContentLoaded', function () {
       this.style.display = 'none';
     }
   };
+
+  /* =========================================================
+     ESCAPE KEY CLOSE
+     ========================================================= */
+
+  document.addEventListener('keydown', function (e) {
+
+    if (e.key === 'Escape') {
+
+      document.getElementById('sc-cite-modal').style.display = 'none';
+
+      document.getElementById('sc-qr-modal').style.display = 'none';
+    }
+  });
 
 });
 </script>
