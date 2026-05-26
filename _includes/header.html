@@ -117,7 +117,7 @@ if (window.location.hostname.includes('pages.dev')) {
     {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
     {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
     <p class="site-stats">
-      <a href="/newest/">{{ real_pages.size }} pages</a> across <a href="/categories/">{{ cat_pages.size }} categories</a>
+      <a href="/newest/">{{ real_pages.size | number_with_delimiter }} pages</a> across <a href="/categories/">{{ cat_pages.size }} categories</a>
     </p>
   </div>
 </header>
