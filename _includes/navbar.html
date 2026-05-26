@@ -1,202 +1,562 @@
 <!-- =========================================================
      Sunil Abraham Project
-     Navbar Include (Desktop + Mobile Dropdown)
+     Refined Navbar Include
+     Elegant, professional, editorial-style header
      ========================================================= -->
 
 <style>
 /* =========================================================
-   Navbar (Stylish Tabs)
+   Design tokens for navbar
    ========================================================= */
-.navbar {
-  background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-  margin: 1.2rem 0 0.6rem;
-  padding: 0;
-  overflow: hidden;
-  animation: slideDown 0.8s ease;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li {
-  margin: 0;
-  padding: 0;
-}
-
-.navbar a {
-  display: inline-block;
-  padding: 0.9rem 1.4rem;
-  font-weight: 600;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: 0.4px;
-  border-right: 1px solid rgba(255, 255, 255, 0.15);
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
-}
-
-.navbar a:hover {
-  background: linear-gradient(to bottom, #287c7c 0%, #1f5f5f 100%);
-  color: #fff;
-  transform: translateY(-2px);
-}
-
-.navbar a:focus {
-  outline: 2px solid #fff;
-  outline-offset: -2px;
-}
-
-.navbar a.active {
-  background: linear-gradient(to bottom, #2f9e9e 0%, #237373 100%);
-  color: #fff;
-  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
-}
-
-.navbar li:last-child a {
-  border-right: none;
-}
-
-/* Hide mobile toggle on desktop */
-.navbar-toggle {
-  display: none;
-}
-
-@keyframes slideDown {
-  from { opacity: 0; transform: translateY(-10px); }
-  to   { opacity: 1; transform: translateY(0); }
+:root {
+  --nav-bg: rgba(248, 248, 246, 0.82);
+  --nav-bg-solid: #f8f8f6;
+  --nav-surface: #ffffff;
+  --nav-text: #1f2937;
+  --nav-text-muted: #5b6472;
+  --nav-border: rgba(31, 41, 55, 0.10);
+  --nav-border-strong: rgba(31, 41, 55, 0.16);
+  --nav-accent: #0f766e;
+  --nav-accent-soft: rgba(15, 118, 110, 0.10);
+  --nav-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --nav-shadow-soft: 0 4px 14px rgba(15, 23, 42, 0.06);
+  --nav-radius: 16px;
+  --nav-radius-sm: 12px;
+  --nav-max-width: 1120px;
+  --nav-height: 72px;
+  --nav-font-size: 0.95rem;
+  --nav-letter-spacing: 0.01em;
+  --nav-transition: 180ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* =========================================================
-   Mobile Dropdown Navbar
+   Header shell
    ========================================================= */
-@media (max-width: 768px) {
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.9rem 0 0.7rem;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.72), rgba(255,255,255,0));
+  backdrop-filter: saturate(140%) blur(8px);
+}
+
+.site-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(31, 41, 55, 0.08), transparent);
+  pointer-events: none;
+}
+
+.navbar-wrap {
+  width: min(calc(100% - 2rem), var(--nav-max-width));
+  margin: 0 auto;
+}
+
+/* =========================================================
+   Navbar container
+   ========================================================= */
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--nav-height);
+  padding: 0.7rem 0.9rem;
+  background: var(--nav-bg);
+  border: 1px solid var(--nav-border);
+  border-radius: calc(var(--nav-radius) + 2px);
+  box-shadow: var(--nav-shadow);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Optional subtle top highlight */
+.navbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,0.45), rgba(255,255,255,0.02) 40%, rgba(255,255,255,0));
+  opacity: 0.75;
+}
+
+/* =========================================================
+   Brand area
+   ========================================================= */
+.navbar-brand {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--nav-text);
+  transition:
+    background var(--nav-transition),
+    color var(--nav-transition),
+    transform var(--nav-transition);
+}
+
+.navbar-brand:hover {
+  background: rgba(255,255,255,0.55);
+  transform: translateY(-1px);
+}
+
+.navbar-brand:focus-visible {
+  outline: 2px solid var(--nav-accent);
+  outline-offset: 3px;
+}
+
+.navbar-mark {
+  width: 2.15rem;
+  height: 2.15rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.95), rgba(255,255,255,0.35) 40%, transparent 42%),
+    linear-gradient(135deg, #0f766e, #155e75);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.35),
+    0 8px 18px rgba(15, 118, 110, 0.18);
+}
+
+.navbar-brand-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1;
+}
+
+.navbar-brand-title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.navbar-brand-subtitle {
+  font-size: 0.74rem;
+  color: var(--nav-text-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* =========================================================
+   Desktop navigation
+   ========================================================= */
+.navbar-menu {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.72rem 0.95rem;
+  border-radius: 999px;
+  color: var(--nav-text-muted);
+  text-decoration: none;
+  font-size: var(--nav-font-size);
+  font-weight: 600;
+  letter-spacing: var(--nav-letter-spacing);
+  transition:
+    color var(--nav-transition),
+    background var(--nav-transition),
+    box-shadow var(--nav-transition),
+    transform var(--nav-transition);
+}
+
+.navbar-menu a:hover {
+  color: var(--nav-text);
+  background: rgba(255,255,255,0.72);
+  box-shadow: inset 0 0 0 1px rgba(31, 41, 55, 0.06);
+  transform: translateY(-1px);
+}
+
+.navbar-menu a:focus-visible {
+  outline: 2px solid var(--nav-accent);
+  outline-offset: 3px;
+}
+
+.navbar-menu a.active {
+  color: var(--nav-accent);
+  background: var(--nav-accent-soft);
+  box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.12);
+}
+
+.navbar-menu a.active::after {
+  content: "";
+  position: absolute;
+  left: 0.95rem;
+  right: 0.95rem;
+  bottom: 0.45rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  opacity: 0.9;
+}
+
+/* =========================================================
+   Mobile toggle
+   ========================================================= */
+.navbar-toggle {
+  position: relative;
+  z-index: 3;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  min-height: 44px;
+  padding: 0.72rem 0.95rem;
+  border: 1px solid var(--nav-border);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.72);
+  color: var(--nav-text);
+  font-size: 0.92rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition:
+    background var(--nav-transition),
+    border-color var(--nav-transition),
+    transform var(--nav-transition),
+    box-shadow var(--nav-transition);
+}
+
+.navbar-toggle:hover {
+  background: #fff;
+  border-color: var(--nav-border-strong);
+  box-shadow: var(--nav-shadow-soft);
+  transform: translateY(-1px);
+}
+
+.navbar-toggle:focus-visible {
+  outline: 2px solid var(--nav-accent);
+  outline-offset: 3px;
+}
+
+.navbar-toggle-icon {
+  width: 18px;
+  height: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-toggle-icon span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  transition:
+    transform var(--nav-transition),
+    opacity var(--nav-transition),
+    top var(--nav-transition);
+}
+
+.navbar-toggle-icon span:nth-child(1) { top: 0; }
+.navbar-toggle-icon span:nth-child(2) { top: 5px; }
+.navbar-toggle-icon span:nth-child(3) { top: 10px; }
+
+.navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(1) {
+  top: 5px;
+  transform: rotate(45deg);
+}
+
+.navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(3) {
+  top: 5px;
+  transform: rotate(-45deg);
+}
+
+/* =========================================================
+   Mobile panel
+   ========================================================= */
+@media (max-width: 860px) {
+  .site-header {
+    padding: 0.7rem 0 0.55rem;
+  }
 
   .navbar {
-    margin: 0.5rem 0;
-    padding: 0;
-    border-radius: 6px;
+    min-height: auto;
+    padding: 0.7rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.7rem;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    padding: 0.35rem 0.45rem;
+  }
+
+  .navbar-brand-title {
+    font-size: 0.94rem;
+  }
+
+  .navbar-brand-subtitle {
+    font-size: 0.7rem;
   }
 
   .navbar-toggle {
-    display: block;
-    width: 100%;
-    padding: 0.6rem 1rem;
-    background: linear-gradient(to bottom, #6e8ce6 0%, #4c6cc4 100%);
-    color: #fff;
-    font-size: 0.95rem;
-    font-weight: 700;
-    border: none;
-    border-radius: 6px;
-    text-align: left;
-    cursor: pointer;
-    letter-spacing: 0.2px;
+    display: inline-flex;
   }
 
-  .navbar-toggle[aria-expanded="false"]::after { content: " ▾"; }
-  .navbar-toggle[aria-expanded="true"]::after  { content: " ▴"; }
+  .navbar-menu {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
 
-  .navbar ul {
-    display: none;
-    flex-direction: column;
-    background: linear-gradient(to bottom, #8fa6f0 0%, #6e8ce6 100%);
-    margin: 0;
-    padding: 0;
-    border-radius: 0 0 6px 6px;
-    overflow: hidden;
+  .navbar-menu ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
     max-height: 0;
     opacity: 0;
-    transition: max-height 0.35s ease, opacity 0.25s ease;
+    overflow: hidden;
+    pointer-events: none;
+    padding-top: 0;
+    transition:
+      max-height 240ms ease,
+      opacity 180ms ease,
+      padding-top 180ms ease;
   }
 
-  .navbar ul.open {
-    display: flex;
-    max-height: 600px;
+  .navbar-menu ul.open {
+    max-height: 32rem;
     opacity: 1;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    pointer-events: auto;
+    padding-top: 0.35rem;
   }
 
-  .navbar a {
-    padding: 0.7rem 1rem;
-    font-size: 0.9rem;
-    white-space: normal;
-    border-right: none !important;
-    border-bottom: 1px solid rgba(255,255,255,0.25);
-    margin: 1px 0;
-    border-radius: 4px;
-    transition: background 0.2s ease;
+  .navbar-menu a {
+    width: 100%;
+    justify-content: flex-start;
+    min-height: 48px;
+    padding: 0.9rem 1rem;
+    border-radius: var(--nav-radius-sm);
+    background: rgba(255,255,255,0.68);
+    box-shadow: inset 0 0 0 1px rgba(31, 41, 55, 0.05);
   }
 
-  .navbar a:active {
-    background: rgba(255,255,255,0.20);
+  .navbar-menu a:hover {
+    background: #fff;
+    box-shadow:
+      inset 0 0 0 1px rgba(31, 41, 55, 0.08),
+      0 8px 18px rgba(15, 23, 42, 0.05);
+    transform: none;
   }
 
-  .navbar a:focus {
-    outline: 2px solid rgba(255,255,255,0.7);
-    outline-offset: -2px;
+  .navbar-menu a.active {
+    background: rgba(15, 118, 110, 0.10);
+    box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.14);
   }
 
-  .navbar li:last-child a {
-    border-bottom: none;
+  .navbar-menu a.active::after {
+    left: 1rem;
+    right: auto;
+    top: 50%;
+    bottom: auto;
+    width: 0.35rem;
+    height: 0.35rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+  }
+}
+
+/* =========================================================
+   Motion preference
+   ========================================================= */
+@media (prefers-reduced-motion: reduce) {
+  .site-header,
+  .navbar,
+  .navbar::before,
+  .navbar-brand,
+  .navbar-menu a,
+  .navbar-toggle,
+  .navbar-toggle-icon span,
+  .navbar-menu ul {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* =========================================================
+   Dark mode support
+   ========================================================= */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --nav-bg: rgba(24, 28, 34, 0.78);
+    --nav-bg-solid: #181c22;
+    --nav-surface: #11161c;
+    --nav-text: #e6ebf2;
+    --nav-text-muted: #a7b0bd;
+    --nav-border: rgba(230, 235, 242, 0.10);
+    --nav-border-strong: rgba(230, 235, 242, 0.18);
+    --nav-accent: #6ee7d8;
+    --nav-accent-soft: rgba(110, 231, 216, 0.11);
+    --nav-shadow: 0 14px 34px rgba(0, 0, 0, 0.34);
+    --nav-shadow-soft: 0 8px 22px rgba(0, 0, 0, 0.24);
   }
 
-  @media (prefers-reduced-motion: reduce) {
-    .navbar ul {
-      transition: none;
-    }
+  .site-header {
+    background: linear-gradient(to bottom, rgba(10,12,16,0.6), rgba(10,12,16,0));
+  }
+
+  .site-header::after {
+    background: linear-gradient(to right, transparent, rgba(230, 235, 242, 0.08), transparent);
+  }
+
+  .navbar::before {
+    background:
+      linear-gradient(to bottom, rgba(255,255,255,0.08), rgba(255,255,255,0.02) 45%, rgba(255,255,255,0));
+  }
+
+  .navbar-brand:hover,
+  .navbar-menu a:hover,
+  .navbar-toggle,
+  .navbar-menu a {
+    background-color: rgba(255,255,255,0.04);
+  }
+
+  .navbar-menu a:hover,
+  .navbar-toggle:hover {
+    background-color: rgba(255,255,255,0.08);
   }
 }
 </style>
 
-<nav class="navbar" aria-label="Main navigation">
+<header class="site-header">
+  <div class="navbar-wrap">
+    <nav class="navbar" aria-label="Main navigation">
 
-  <!-- Mobile menu toggle -->
-  <button class="navbar-toggle" aria-expanded="false" aria-controls="navbar-menu">
-    ☰ Menu
-  </button>
+      <a class="navbar-brand" href="/">
+        <span class="navbar-mark" aria-hidden="true">SA</span>
+        <span class="navbar-brand-text">
+          <span class="navbar-brand-title">Sunil Abraham</span>
+          <span class="navbar-brand-subtitle">Research · Public Interest · Technology</span>
+        </span>
+      </a>
 
-  <ul id="navbar-menu" role="list">
-    <li role="listitem"><a href="/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>🏠 Home</a></li>
-    <li role="listitem"><a href="/projects/" {% if page.url contains '/projects/' %}class="active" aria-current="page"{% endif %}>🧩 Projects</a></li>
-    <li role="listitem"><a href="/publications/" {% if page.url contains '/publications/' %}class="active" aria-current="page"{% endif %}>📖 Publications</a></li>
-    <li role="listitem"><a href="/media/" {% if page.url contains '/media/' %}class="active" aria-current="page"{% endif %}>📰 Media mentions</a></li>
-    <li role="listitem"><a href="/videos/" {% if page.url contains '/videos/' %}class="active" aria-current="page"{% endif %}>▶️ Videos</a></li>
-    <li role="listitem"><a href="/contact/" {% if page.url contains '/contact/' %}class="active" aria-current="page"{% endif %}>✉️ Contact</a></li>
-  </ul>
+      <button class="navbar-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="navbar-menu"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span>Menu</span>
+      </button>
 
-</nav>
+      <div class="navbar-menu">
+        <ul id="navbar-menu" role="list">
+          <li role="listitem">
+            <a href="/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a>
+          </li>
+          <li role="listitem">
+            <a href="/projects/" {% if page.url contains '/projects/' %}class="active" aria-current="page"{% endif %}>Projects</a>
+          </li>
+          <li role="listitem">
+            <a href="/publications/" {% if page.url contains '/publications/' %}class="active" aria-current="page"{% endif %}>Publications</a>
+          </li>
+          <li role="listitem">
+            <a href="/media/" {% if page.url contains '/media/' %}class="active" aria-current="page"{% endif %}>Media</a>
+          </li>
+          <li role="listitem">
+            <a href="/videos/" {% if page.url contains '/videos/' %}class="active" aria-current="page"{% endif %}>Videos</a>
+          </li>
+          <li role="listitem">
+            <a href="/contact/" {% if page.url contains '/contact/' %}class="active" aria-current="page"{% endif %}>Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+</header>
 
 <script>
 (function () {
   const toggle = document.querySelector('.navbar-toggle');
-  const menu   = document.querySelector('#navbar-menu');
+  const menu = document.querySelector('#navbar-menu');
+  const mediaQuery = window.matchMedia('(max-width: 860px)');
 
   if (!toggle || !menu) return;
 
-  toggle.addEventListener('click', () => {
+  function closeMenu() {
+    toggle.setAttribute('aria-expanded', 'false');
+    menu.classList.remove('open');
+  }
+
+  function toggleMenu() {
     const expanded = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!expanded));
     menu.classList.toggle('open');
+  }
+
+  toggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    toggleMenu();
   });
 
-  /* Close menu when a link is clicked on mobile */
-  menu.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      toggle.setAttribute('aria-expanded', 'false');
-      menu.classList.remove('open');
+  menu.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      if (mediaQuery.matches) closeMenu();
     });
   });
 
-  /* Close menu when clicking outside */
-  document.addEventListener('click', (e) => {
+  document.addEventListener('click', function (e) {
+    if (!mediaQuery.matches) return;
     if (!toggle.contains(e.target) && !menu.contains(e.target)) {
-      toggle.setAttribute('aria-expanded', 'false');
+      closeMenu();
+    }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeMenu();
+  });
+
+  window.addEventListener('resize', function () {
+    if (!mediaQuery.matches) {
       menu.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
     }
   });
 })();
