@@ -74,6 +74,7 @@
      ========================================================= -->
 
 <div id="sc-qr-modal" aria-hidden="true">
+
   <div id="sc-qr-box">
 
     <button id="sc-qr-close" aria-label="Close QR code">
@@ -88,7 +89,28 @@
       alt="QR code for this page"
     />
 
+    <div id="sc-qr-actions">
+
+      <a
+        id="sc-qr-download"
+        class="sc-qr-action-btn"
+        download="tsap-qr.png"
+      >
+        Download
+      </a>
+
+      <button
+        id="sc-qr-share"
+        class="sc-qr-action-btn"
+        type="button"
+      >
+        Share
+      </button>
+
+    </div>
+
   </div>
+
 </div>
 
 <style>
@@ -221,13 +243,13 @@
 }
 
 #sc-qr-box {
-  width: min(92vw, 320px);
+  width: min(92vw, 340px);
 
   background: #ffffff;
 
-  border-radius: 12px;
+  border-radius: 14px;
 
-  padding: 20px;
+  padding: 22px 22px 20px;
 
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 
@@ -244,15 +266,82 @@
   border: none;
   background: transparent;
 
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 1;
+
   cursor: pointer;
+
+  color: #0f172a;
+}
+
+#sc-qr-box h2 {
+  margin: 0 0 14px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  color: #0f3460;
+
+  text-align: center;
 }
 
 #sc-qr-image {
   width: 220px;
   height: 220px;
+
   max-width: 100%;
-  margin-top: 10px;
+
+  display: block;
+
+  margin: 0 auto;
+}
+
+/* =========================================================
+   QR ACTIONS
+   ========================================================= */
+
+#sc-qr-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  margin-top: 18px;
+}
+
+.sc-qr-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 110px;
+  height: 38px;
+
+  padding: 0 14px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #1f5fbf;
+  color: #ffffff;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+.sc-qr-action-btn:hover {
+  background: #184c99;
+}
+
+.sc-qr-action-btn:focus {
+  outline: 2px solid #1f5fbf;
+  outline-offset: 2px;
 }
 
 /* =========================================================
@@ -284,6 +373,10 @@
   #sc-qr-box {
     background: #111827;
     color: #f1f5f9;
+  }
+
+  #sc-qr-box h2 {
+    color: #f8fafc;
   }
 
   #sc-qr-close {
@@ -324,6 +417,14 @@
   .sc-icon-btn img {
     width: 18px;
     height: 18px;
+  }
+
+  #sc-qr-actions {
+    flex-direction: column;
+  }
+
+  .sc-qr-action-btn {
+    width: 100%;
   }
 }
 
@@ -375,7 +476,13 @@ document.addEventListener('DOMContentLoaded', function () {
     'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=' +
     encodeURIComponent(url);
 
-  document.getElementById('sc-qr-image').src =
+  const qrImage =
+    document.getElementById('sc-qr-image');
+
+  qrImage.src =
+    qrURL;
+
+  document.getElementById('sc-qr-download').href =
     qrURL;
 
   document.getElementById('sc-qr-btn').onclick =
@@ -390,6 +497,36 @@ document.addEventListener('DOMContentLoaded', function () {
 
       document.getElementById('sc-qr-modal')
         .style.display = 'none';
+    };
+
+  /* =========================================================
+     SHARE QR
+     ========================================================= */
+
+  document.getElementById('sc-qr-share').onclick =
+    async function () {
+
+      if (navigator.share) {
+
+        try {
+
+          await navigator.share({
+            title: document.title,
+            text: 'QR code for this page',
+            url: url
+          });
+
+        } catch (err) {}
+      } else {
+
+        try {
+
+          await navigator.clipboard.writeText(url);
+
+          alert('Page link copied.');
+
+        } catch (err) {}
+      }
     };
 
   /* =========================================================
