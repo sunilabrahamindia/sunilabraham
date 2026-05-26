@@ -442,35 +442,46 @@ created: 2026-05-26
   }
 
   @media print {
-    .books-search,
+
+    .books-tool__header,
+    .books-panel--search,
+    .books-panel__heading-row,
     .books-actions,
-    .books-tool__eyebrow,
-    .books-panel--search {
+    .books-list,
+    .books-empty,
+    .books-item__actions {
       display: none !important;
     }
 
     .books-tool,
     .books-panel,
-    .books-item {
-      border: 0;
-      box-shadow: none;
-      padding: 0;
-      background: transparent;
+    .books-item,
+    #book-content {
+      border: 0 !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      background: transparent !important;
     }
 
     .books-tool__layout {
-      display: block;
+      display: block !important;
     }
 
-    .books-item {
+    #book-content {
+      display: block !important;
+    }
+
+    .book-article {
+      margin-bottom: 3rem;
       break-inside: avoid;
-      margin-bottom: 1rem;
+      page-break-after: always;
     }
 
-    .books-item__actions {
-      display: none !important;
+    .book-article:last-child {
+      page-break-after: auto;
     }
   }
+
 </style>
 
 <script>
