@@ -73,7 +73,7 @@ The essays in this collection span theology, sociology, and history. Selected ch
   </li>
 
   <li>
-    Religions and Culture in Dalits' Struggle for Liberation
+    <a href="/amaa/religion-culture-dalits-struggle-liberation/">Religions and Culture in Dalits' Struggle for Liberation</a>
   </li>
 
   <li>
