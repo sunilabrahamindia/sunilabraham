@@ -1,34 +1,52 @@
 <a class="archive-skip-link" href="#main-content">Skip to content</a>
 
 <header class="archive-site-header">
-  <div class="archive-site-header-inner">
-    <div class="archive-masthead">
-      <p class="archive-eyebrow">Archive · Research · Documentation</p>
+  <div class="archive-header-frame">
 
-      <div class="archive-site-title">
-        <a href="/">Sunil Abraham Project</a>
+    <div class="archive-topline">
+      <p class="archive-topline-text">Public archive · Research · Documentation</p>
+      <div class="archive-topline-links">
+        <a href="/newest/">Newest</a>
+        <a href="/categories/">Categories</a>
+        <a href="/feed.xml">RSS</a>
+      </div>
+    </div>
+
+    <div class="archive-masthead">
+      <div class="archive-masthead-main">
+        <p class="archive-masthead-kicker">Library Catalogue</p>
+
+        <div class="archive-site-title">
+          <a href="/">Sunil Abraham Project</a>
+        </div>
+
+        <p class="archive-site-subtitle" id="archive-site-subtitle">
+          Research · Innovation · Documentation
+        </p>
+
+        <script>
+        if (window.location.hostname.includes('pages.dev')) {
+          document.getElementById('archive-site-subtitle').innerHTML =
+            'Official Mirror of <a href="https://sunilabraham.in/">sunilabraham.in</a>';
+        }
+        </script>
+
+        {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
+        {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
+
+        <p class="archive-site-stats">
+          <span>{{ real_pages.size }} pages</span>
+          <span aria-hidden="true">·</span>
+          <span>{{ cat_pages.size }} categories</span>
+        </p>
       </div>
 
-      <p class="archive-site-subtitle" id="archive-site-subtitle">
-        Research · Innovation · Documentation
-      </p>
-
-      <script>
-      if (window.location.hostname.includes('pages.dev')) {
-        document.getElementById('archive-site-subtitle').innerHTML =
-          'Official Mirror of <a href="https://sunilabraham.in/">sunilabraham.in</a>';
-      }
-      </script>
-
-      {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
-      {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
-
-      <p class="archive-site-stats">
-        <a href="/newest/">{{ real_pages.size }} pages</a>
-        <span aria-hidden="true">·</span>
-        across
-        <a href="/categories/">{{ cat_pages.size }} categories</a>
-      </p>
+      <div class="archive-masthead-note">
+        <p class="archive-note-label">Catalogue note</p>
+        <p class="archive-note-text">
+          A structured archive of writings, projects, publications, media references, and related documentation.
+        </p>
+      </div>
     </div>
 
     <nav class="archive-site-nav" aria-label="Main navigation">
@@ -41,5 +59,6 @@
         <li><a href="/contact/" {% if page.url contains '/contact/' %}class="active" aria-current="page"{% endif %}>Contact</a></li>
       </ul>
     </nav>
+
   </div>
 </header>
