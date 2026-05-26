@@ -285,3 +285,138 @@ a.btn:focus {
   background-color: #006837;
   box-shadow: 0 0 0 3px rgba(0, 133, 77, 0.3);
 }
+
+/* =========================================================
+   Print Styles
+   ========================================================= */
+
+@media print {
+
+  /* -----------------------------------------
+     Page Setup
+     ----------------------------------------- */
+
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 1.6;
+    font-size: 12pt;
+  }
+
+  body {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* -----------------------------------------
+     Main Content
+     ----------------------------------------- */
+
+  .main-content {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    animation: none !important;
+    background: #fff !important;
+  }
+
+  /* -----------------------------------------
+     Hide Navigation and Utility UI
+     ----------------------------------------- */
+
+  nav,
+  footer,
+  .breadcrumb,
+  .btn,
+  .header-link,
+  .back-to-top,
+  .reader-controls,
+  .site-controls,
+  .menu,
+  .utilities,
+  .print-hide {
+    display: none !important;
+  }
+
+  /* -----------------------------------------
+     Typography
+     ----------------------------------------- */
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  h1 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.2em;
+  }
+
+  h2 {
+    border-bottom: 1px solid #ccc;
+  }
+
+  p,
+  li,
+  blockquote,
+  table {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* -----------------------------------------
+     Links
+     ----------------------------------------- */
+
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+
+  /* Optional: show URLs in print */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+    word-break: break-all;
+  }
+
+  /* -----------------------------------------
+     Images
+     ----------------------------------------- */
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* -----------------------------------------
+     Tables
+     ----------------------------------------- */
+
+  table {
+    box-shadow: none !important;
+    overflow: visible !important;
+  }
+
+  th,
+  td {
+    border: 1px solid #ccc;
+  }
+
+  /* -----------------------------------------
+     Reduce Motion
+     ----------------------------------------- */
+
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
