@@ -483,18 +483,22 @@ created: 2026-05-26
 
     const STORAGE_KEY = "tsap-books-v1";
 
-    const pages = [
-      { title: "Aadhaar and Welfare", url: "/aadhaar/welfare/" },
-      { title: "India AI Impact Summit", url: "/summits/india-ai-impact/" },
-      { title: "Digital Public Infrastructure Notes", url: "/notes/digital-public-infrastructure/" },
-      { title: "Privacy and Civil Liberties", url: "/privacy/civil-liberties/" },
-      { title: "Open Digital Ecosystems", url: "/research/open-digital-ecosystems/" },
-      { title: "Platform Governance Primer", url: "/governance/platform-governance-primer/" },
-      { title: "Public Interest Technology", url: "/research/public-interest-technology/" },
-      { title: "Identity Systems in India", url: "/identity/india-systems/" },
-      { title: "TSAP Lectures and Talks", url: "/talks/" },
-      { title: "Research Essays", url: "/essays/" }
-    ];
+const pages = [
+  {% assign all_pages = site.pages | concat: site.documents %}
+
+  {% assign filtered_pages = all_pages | sort: "title" %}
+
+  {% for p in filtered_pages %}
+    {% if p.title and p.url and p.title != "Redirect" %}
+
+    {
+      title: {{ p.title | jsonify }},
+      url: {{ p.url | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+
+    {% endif %}
+  {% endfor %}
+];
 
     const searchForm = document.getElementById("books-search-form");
     const searchInput = document.getElementById("books-search-input");
