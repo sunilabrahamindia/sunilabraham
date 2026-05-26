@@ -1,33 +1,26 @@
 <!-- =========================================================
      Sunil Abraham Project
-     Navbar Include
-     Refined version of existing navbar only
-     No header/footer changes
+     Navbar Include (Desktop + Mobile Dropdown)
      ========================================================= -->
 
 <style>
 /* =========================================================
-   Navbar (Refined Existing Style)
+   Navbar (Stylish Tabs)
    ========================================================= */
 .navbar {
-  background:
-    linear-gradient(to bottom, #36548f 0%, #2d4376 52%, #263a68 100%);
-  border: 1px solid rgba(19, 34, 67, 0.28);
-  border-radius: 10px;
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.10),
-    0 4px 12px rgba(0, 0, 0, 0.14);
-  margin: 1.2rem 0 0.7rem;
+  background: linear-gradient(to bottom, #3b5998 0%, #2a3f72 100%);
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  margin: 1.2rem 0 0.6rem;
   padding: 0;
   overflow: hidden;
-  animation: navbarSlideDown 0.55s ease;
+  animation: slideDown 0.8s ease;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
   margin: 0;
   padding: 0;
 }
@@ -38,72 +31,31 @@
 }
 
 .navbar a {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  min-height: 48px;
-  padding: 0.88rem 1.35rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.95rem;
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
   font-weight: 600;
-  line-height: 1.15;
-  color: #f8fbff;
+  color: #fff;
   text-decoration: none;
-  letter-spacing: 0.18px;
-  border-right: 1px solid rgba(255, 255, 255, 0.10);
-  text-shadow: 0 1px 0 rgba(0,0,0,0.10);
-  transition:
-    background-color 0.22s ease,
-    color 0.22s ease,
-    transform 0.18s ease,
-    box-shadow 0.22s ease;
-}
-
-.navbar a::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.10), rgba(255,255,255,0));
-  opacity: 0;
-  transition: opacity 0.22s ease;
-  pointer-events: none;
+  letter-spacing: 0.4px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
 .navbar a:hover {
-  background:
-    linear-gradient(to bottom, #2b7f84 0%, #22696d 52%, #1d595d 100%);
-  color: #ffffff;
-  transform: translateY(-1px);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
-}
-
-.navbar a:hover::before {
-  opacity: 1;
+  background: linear-gradient(to bottom, #287c7c 0%, #1f5f5f 100%);
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 .navbar a:focus {
-  outline: 2px solid rgba(255,255,255,0.95);
+  outline: 2px solid #fff;
   outline-offset: -2px;
 }
 
 .navbar a.active {
-  background:
-    linear-gradient(to bottom, #2f9898 0%, #287e80 55%, #21696b 100%);
-  color: #ffffff;
-  box-shadow:
-    inset 0 2px 6px rgba(0, 0, 0, 0.24),
-    inset 0 1px 0 rgba(255,255,255,0.10);
-}
-
-.navbar a.active::after {
-  content: "";
-  position: absolute;
-  left: 0.9rem;
-  right: 0.9rem;
-  bottom: 0.35rem;
-  height: 2px;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.88);
+  background: linear-gradient(to bottom, #2f9e9e 0%, #237373 100%);
+  color: #fff;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 .navbar li:last-child a {
@@ -115,8 +67,8 @@
   display: none;
 }
 
-@keyframes navbarSlideDown {
-  from { opacity: 0; transform: translateY(-8px); }
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
@@ -126,198 +78,86 @@
 @media (max-width: 768px) {
 
   .navbar {
-    margin: 0.55rem 0 0.9rem;
-    border-radius: 8px;
-    box-shadow:
-      inset 0 1px 0 rgba(255,255,255,0.08),
-      0 4px 12px rgba(0, 0, 0, 0.12);
+    margin: 0.5rem 0;
+    padding: 0;
+    border-radius: 6px;
   }
 
   .navbar-toggle {
-    display: flex;
+    display: block;
     width: 100%;
-    min-height: 50px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.8rem;
-    padding: 0.78rem 1rem;
-    background: linear-gradient(to bottom, #5f7fd6 0%, #4867be 100%);
+    padding: 0.6rem 1rem;
+    background: linear-gradient(to bottom, #6e8ce6 0%, #4c6cc4 100%);
     color: #fff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     text-align: left;
     cursor: pointer;
     letter-spacing: 0.2px;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.10);
   }
 
-  .navbar-toggle:hover {
-    background: linear-gradient(to bottom, #6988de 0%, #4d6ec7 100%);
-  }
-
-  .navbar-toggle:focus {
-    outline: 2px solid rgba(255,255,255,0.92);
-    outline-offset: -2px;
-  }
-
-  .navbar-toggle-label {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.7rem;
-  }
-
-  .navbar-toggle-icon {
-    width: 18px;
-    height: 12px;
-    position: relative;
-    display: inline-block;
-    flex: 0 0 auto;
-  }
-
-  .navbar-toggle-icon span {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    border-radius: 999px;
-    background: currentColor;
-    transition:
-      transform 0.2s ease,
-      opacity 0.2s ease,
-      top 0.2s ease;
-  }
-
-  .navbar-toggle-icon span:nth-child(1) { top: 0; }
-  .navbar-toggle-icon span:nth-child(2) { top: 5px; }
-  .navbar-toggle-icon span:nth-child(3) { top: 10px; }
-
-  .navbar-toggle-caret {
-    font-size: 0.95rem;
-    line-height: 1;
-    transition: transform 0.2s ease;
-  }
-
-  .navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(1) {
-    top: 5px;
-    transform: rotate(45deg);
-  }
-
-  .navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .navbar-toggle[aria-expanded="true"] .navbar-toggle-icon span:nth-child(3) {
-    top: 5px;
-    transform: rotate(-45deg);
-  }
-
-  .navbar-toggle[aria-expanded="true"] .navbar-toggle-caret {
-    transform: rotate(180deg);
-  }
+  .navbar-toggle[aria-expanded="false"]::after { content: " ▾"; }
+  .navbar-toggle[aria-expanded="true"]::after  { content: " ▴"; }
 
   .navbar ul {
     display: none;
     flex-direction: column;
-    background: linear-gradient(to bottom, #89a2eb 0%, #6c88de 100%);
+    background: linear-gradient(to bottom, #8fa6f0 0%, #6e8ce6 100%);
     margin: 0;
     padding: 0;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 6px 6px;
     overflow: hidden;
     max-height: 0;
     opacity: 0;
-    transition: max-height 0.3s ease, opacity 0.22s ease;
+    transition: max-height 0.35s ease, opacity 0.25s ease;
   }
 
   .navbar ul.open {
     display: flex;
-    max-height: 640px;
+    max-height: 600px;
     opacity: 1;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.14);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
   }
 
   .navbar a {
-    width: 100%;
-    min-height: 48px;
-    padding: 0.82rem 1rem;
-    font-size: 0.92rem;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
     white-space: normal;
     border-right: none !important;
-    border-bottom: 1px solid rgba(255,255,255,0.20);
-    margin: 0;
-    border-radius: 0;
-    transform: none;
-    text-shadow: none;
-  }
-
-  .navbar a::before {
-    display: none;
-  }
-
-  .navbar a:hover {
-    background: rgba(255,255,255,0.12);
-    box-shadow: none;
-    transform: none;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+    margin: 1px 0;
+    border-radius: 4px;
+    transition: background 0.2s ease;
   }
 
   .navbar a:active {
-    background: rgba(255,255,255,0.18);
+    background: rgba(255,255,255,0.20);
   }
 
   .navbar a:focus {
-    outline: 2px solid rgba(255,255,255,0.75);
+    outline: 2px solid rgba(255,255,255,0.7);
     outline-offset: -2px;
-  }
-
-  .navbar a.active {
-    background: linear-gradient(to bottom, rgba(47,158,158,0.95) 0%, rgba(35,115,115,0.96) 100%);
-    box-shadow: inset 0 1px 4px rgba(0,0,0,0.18);
-  }
-
-  .navbar a.active::after {
-    left: 0.8rem;
-    right: auto;
-    top: 50%;
-    bottom: auto;
-    width: 0.38rem;
-    height: 0.38rem;
-    transform: translateY(-50%);
-    border-radius: 999px;
-    background: rgba(255,255,255,0.92);
   }
 
   .navbar li:last-child a {
     border-bottom: none;
   }
-}
 
-@media (prefers-reduced-motion: reduce) {
-  .navbar,
-  .navbar a,
-  .navbar ul,
-  .navbar-toggle,
-  .navbar-toggle-icon span,
-  .navbar-toggle-caret {
-    animation: none !important;
-    transition: none !important;
+  @media (prefers-reduced-motion: reduce) {
+    .navbar ul {
+      transition: none;
+    }
   }
 }
 </style>
 
 <nav class="navbar" aria-label="Main navigation">
 
-  <button class="navbar-toggle" aria-expanded="false" aria-controls="navbar-menu" type="button">
-    <span class="navbar-toggle-label">
-      <span class="navbar-toggle-icon" aria-hidden="true">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-      <span>Menu</span>
-    </span>
-    <span class="navbar-toggle-caret" aria-hidden="true">▾</span>
+  <!-- Mobile menu toggle -->
+  <button class="navbar-toggle" aria-expanded="false" aria-controls="navbar-menu">
+    ☰ Menu
   </button>
 
   <ul id="navbar-menu" role="list">
@@ -334,14 +174,9 @@
 <script>
 (function () {
   const toggle = document.querySelector('.navbar-toggle');
-  const menu = document.querySelector('#navbar-menu');
+  const menu   = document.querySelector('#navbar-menu');
 
   if (!toggle || !menu) return;
-
-  function closeMenu() {
-    toggle.setAttribute('aria-expanded', 'false');
-    menu.classList.remove('open');
-  }
 
   toggle.addEventListener('click', () => {
     const expanded = toggle.getAttribute('aria-expanded') === 'true';
@@ -349,27 +184,19 @@
     menu.classList.toggle('open');
   });
 
+  /* Close menu when a link is clicked on mobile */
   menu.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
-      if (window.innerWidth <= 768) closeMenu();
+      toggle.setAttribute('aria-expanded', 'false');
+      menu.classList.remove('open');
     });
   });
 
+  /* Close menu when clicking outside */
   document.addEventListener('click', (e) => {
-    if (window.innerWidth > 768) return;
     if (!toggle.contains(e.target) && !menu.contains(e.target)) {
-      closeMenu();
-    }
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeMenu();
-  });
-
-  window.addEventListener('resize', () => {
-    if (window.innerWidth > 768) {
-      menu.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');
+      menu.classList.remove('open');
     }
   });
 })();
