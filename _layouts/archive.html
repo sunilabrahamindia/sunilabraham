@@ -16,13 +16,12 @@
 
   <link rel="stylesheet" href="/assets/css/style-archive.css">
 </head>
-<body class="archive-body">
+<body>
 
   {% include header-archive.html %}
 
   <main id="main-content" class="archive-main">
-    <div class="archive-frame">
-
+    <div class="archive-container">
       {% if page.title %}
       <header class="archive-page-header">
         {% if page.collection %}
@@ -35,46 +34,36 @@
       </header>
       {% endif %}
 
-      <div class="archive-layout-grid">
-        <aside class="archive-sidebar" aria-label="Section context">
-          <section class="archive-sidebar-block">
-            <p class="archive-sidebar-label">In this archive</p>
-            <p class="archive-sidebar-text">
-              A reading-first experimental layout for testing a more editorial archive structure.
-            </p>
-          </section>
-
-          {% if page.categories and page.categories.size > 0 %}
-          <section class="archive-sidebar-block">
-            <p class="archive-sidebar-label">Filed under</p>
-            <ul class="archive-tag-list">
-              {% for category in page.categories %}
-                <li><a href="/categories/#{{ category | slugify }}">{{ category }}</a></li>
-              {% endfor %}
-            </ul>
-          </section>
-          {% endif %}
-
-          <section class="archive-sidebar-block">
-            <p class="archive-sidebar-label">Section paths</p>
-            <ul class="archive-context-list">
-              <li><a href="/newest/">Newest pages</a></li>
-              <li><a href="/categories/">Browse categories</a></li>
-              <li><a href="/publications/">Publications</a></li>
-              <li><a href="/media/">Media mentions</a></li>
-            </ul>
-          </section>
-        </aside>
-
-        <section class="archive-content">
-          {{ content }}
-        </section>
-      </div>
-
+      <article class="archive-content">
+        {{ content }}
+      </article>
     </div>
   </main>
 
   {% include footer-archive.html %}
+
+  <script>
+  (function () {
+    const root = document.documentElement;
+    const toggle = document.querySelector('[data-theme-toggle]');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    let theme = prefersDark ? 'dark' : 'light';
+
+    root.setAttribute('data-theme', theme);
+
+    if (toggle) {
+      toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      toggle.textContent = theme === 'dark' ? 'Light' : 'Dark';
+
+      toggle.addEventListener('click', function () {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', theme);
+        toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        toggle.textContent = theme === 'dark' ? 'Light' : 'Dark';
+      });
+    }
+  })();
+  </script>
 
 </body>
 </html>
