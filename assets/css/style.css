@@ -287,6 +287,85 @@ a.btn:focus {
 }
 
 /* =========================================================
+   Dark Mode Foundation
+   ========================================================= */
+
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background: #111827 !important;
+   background-image: none !important;
+    color: #e5e7eb !important;
+  }
+
+  .main-content,
+  main,
+  .content {
+    background: #1f2937 !important;
+    color: #e5e7eb !important;
+    box-shadow: none !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #f3f4f6 !important;
+  }
+
+  h2 {
+    border-bottom-color: #374151 !important;
+  }
+
+  a {
+    color: #93c5fd !important;
+  }
+
+  a:hover,
+  a:focus {
+    color: #bfdbfe !important;
+  }
+
+  table {
+    background: #1f2937 !important;
+    box-shadow: none !important;
+  }
+
+  th {
+    background: #374151 !important;
+    color: #f3f4f6 !important;
+  }
+
+  td,
+  th {
+    border-bottom-color: #4b5563 !important;
+  }
+
+  footer {
+    background: #111827 !important;
+     background-image: none !important;
+    color: #cbd5e1 !important;
+    border-top-color: #374151 !important;
+  }
+
+  .breadcrumb {
+    color: #cbd5e1 !important;
+    border-bottom-color: #374151 !important;
+  }
+
+  .breadcrumb span {
+    color: #cbd5e1 !important;
+  }
+
+}
+
+/* =========================================================
    Print Styles
    ========================================================= */
 
