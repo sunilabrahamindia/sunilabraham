@@ -1,189 +1,334 @@
 <!-- =========================================================
      Sunil Abraham Project
-     Top Share Bar (GitHub Pages Compatible)
-     Licence: CC BY-SA 4.0
+     Top Share Bar (Refined Utility Strip)
+     Share bar only
      ========================================================= -->
 
-<!-- SC: Top Share Bar with Icons -->
-<div id="sc-share-bar">
-  <!-- Search button -->
-  <button id="sc-search-btn" title="Search this site">
-    <img src="https://cdn-icons-png.flaticon.com/128/622/622669.png" alt="Search" />
-  </button>
+<div id="sc-share-bar" role="region" aria-label="Share and utility bar">
+  <div class="sc-share-inner">
 
-  <!-- Visible share buttons -->
-  <div class="sc-share-buttons" id="sc-visible-buttons">
-    <button onclick="scShare('facebook')" title="Share on Facebook">
-      <img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" alt="Facebook" />
-    </button>
-    <button onclick="scShare('x')" title="Post on X">
-      <img src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png" alt="X Logo" />
-    </button>
-    <button onclick="scShare('linkedin')" title="Share on LinkedIn">
-      <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="LinkedIn" />
-    </button>
-    <button onclick="scShare('email')" title="Share via Email">
-      <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Email" />
-    </button>
-    <button onclick="window.location.href='https://sunilabraham.in/feed.xml'" title="RSS Feed">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" 
-           alt="RSS Feed" width="28" height="28" />
-    </button>
-    <button onclick="scShare('print')" title="Print this page">
-      <img src="https://cdn-icons-png.flaticon.com/128/337/337946.png" alt="Print PDF" />
-    </button>
-    <button id="sc-more-toggle" title="More share options">
-      <img src="https://cdn-icons-png.flaticon.com/128/32/32195.png" alt="More" />
-    </button>
+    <div class="sc-share-left">
+      <button id="sc-search-btn" type="button" title="Search this site" aria-label="Search this site">
+        <span class="sc-icon" aria-hidden="true">⌕</span>
+        <span class="sc-btn-text">Search</span>
+      </button>
+    </div>
+
+    <div class="sc-share-centre">
+      <div class="sc-share-buttons sc-share-buttons-primary" id="sc-visible-buttons">
+        <button type="button" onclick="scShare('x')" title="Post on X" aria-label="Post on X">
+          <img src="https://cdn-icons-png.flaticon.com/128/5968/5968958.png" alt="X" />
+        </button>
+
+        <button type="button" onclick="scShare('linkedin')" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+          <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="LinkedIn" />
+        </button>
+
+        <button type="button" onclick="scShare('email')" title="Share via Email" aria-label="Share via Email">
+          <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Email" />
+        </button>
+
+        <button type="button" onclick="window.location.href='https://sunilabraham.in/feed.xml'" title="RSS Feed" aria-label="RSS Feed">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" alt="RSS Feed" width="22" height="22" />
+        </button>
+
+        <button id="sc-more-toggle" type="button" title="More share options" aria-label="More share options" aria-expanded="false" aria-controls="sc-hidden-buttons">
+          <span class="sc-icon" aria-hidden="true">⋯</span>
+        </button>
+      </div>
+
+      <div class="sc-share-buttons sc-share-buttons-secondary" id="sc-hidden-buttons">
+        <button type="button" onclick="scShare('facebook')" title="Share on Facebook" aria-label="Share on Facebook">
+          <img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" alt="Facebook" />
+        </button>
+
+        <button type="button" onclick="scShare('whatsapp')" title="Share on WhatsApp" aria-label="Share on WhatsApp">
+          <img src="https://cdn-icons-png.flaticon.com/128/733/733585.png" alt="WhatsApp" />
+        </button>
+
+        <button type="button" onclick="scShare('telegram')" title="Send via Telegram" aria-label="Send via Telegram">
+          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111646.png" alt="Telegram" />
+        </button>
+
+        <button type="button" onclick="scShare('reddit')" title="Share on Reddit" aria-label="Share on Reddit">
+          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111589.png" alt="Reddit" />
+        </button>
+
+        <button type="button" onclick="scShare('pinterest')" title="Share on Pinterest" aria-label="Share on Pinterest">
+          <img src="https://cdn-icons-png.flaticon.com/128/145/145808.png" alt="Pinterest" />
+        </button>
+
+        <button type="button" onclick="scShare('skype')" title="Share on Skype" aria-label="Share on Skype">
+          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111670.png" alt="Skype" />
+        </button>
+
+        <button type="button" onclick="scShare('viber')" title="Share on Viber" aria-label="Share on Viber">
+          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111716.png" alt="Viber" />
+        </button>
+
+        <button type="button" onclick="scShare('signal')" title="Share on Signal" aria-label="Share on Signal">
+          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111363.png" alt="Signal" />
+        </button>
+
+        <button type="button" onclick="scShare('copy')" title="Copy page link" aria-label="Copy page link">
+          <span class="sc-icon" aria-hidden="true">⧉</span>
+        </button>
+
+        <button type="button" onclick="scShare('print')" title="Print this page" aria-label="Print this page">
+          <img src="https://cdn-icons-png.flaticon.com/128/337/337946.png" alt="Print" />
+        </button>
+      </div>
+    </div>
+
+    <div class="sc-share-right">
+      <button id="sc-share-close" type="button" title="Close bar" aria-label="Close bar">
+        <span class="sc-icon" aria-hidden="true">✕</span>
+      </button>
+    </div>
+
   </div>
-
-  <!-- Hidden buttons -->
-  <div class="sc-share-buttons" id="sc-hidden-buttons">
-    <button onclick="scShare('whatsapp')" title="Share on WhatsApp">
-      <img src="https://cdn-icons-png.flaticon.com/128/733/733585.png" alt="WhatsApp" />
-    </button>
-    <button onclick="scShare('telegram')" title="Send via Telegram">
-      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111646.png" alt="Telegram" />
-    </button>
-    <button onclick="scShare('reddit')" title="Share on Reddit">
-      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111589.png" alt="Reddit" />
-    </button>
-    <button onclick="scShare('pinterest')" title="Share on Pinterest">
-      <img src="https://cdn-icons-png.flaticon.com/128/145/145808.png" alt="Pinterest" />
-    </button>
-    <button onclick="scShare('skype')" title="Share on Skype">
-      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111670.png" alt="Skype" />
-    </button>
-    <button onclick="scShare('viber')" title="Share on Viber">
-      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111716.png" alt="Viber" />
-    </button>
-    <button onclick="scShare('signal')" title="Share on Signal">
-      <img src="https://cdn-icons-png.flaticon.com/128/2111/2111363.png" alt="Signal" />
-    </button>
-    <button onclick="scShare('copy')" title="Copy page link">
-      <img src="https://cdn-icons-png.flaticon.com/128/60/60577.png" alt="Copy Link" />
-    </button>
-  </div>
-
-  <!-- Close bar button -->
-  <button id="sc-share-close" title="Close bar">
-    <img src="https://cdn-icons-png.flaticon.com/128/1828/1828774.png" alt="Close" />
-  </button>
 </div>
 
-<!-- =========================================================
-     Style
-     ========================================================= -->
 <style>
-  #sc-share-bar {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 9999;
-    background: rgba(248, 250, 252, 0.95);
-    backdrop-filter: blur(6px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    display: flex;
+#sc-share-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: rgba(248, 250, 252, 0.96);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.06);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.sc-share-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 42px;
+  padding: 5px 10px;
+}
+
+.sc-share-left,
+.sc-share-right {
+  display: flex;
+  align-items: center;
+}
+
+.sc-share-centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.sc-share-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.sc-share-buttons-secondary {
+  display: none;
+  width: 100%;
+  padding-top: 2px;
+}
+
+.sc-share-buttons-secondary.open {
+  display: flex;
+}
+
+#sc-share-bar button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
+  min-width: 34px;
+  min-height: 34px;
+  padding: 6px 8px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.18s ease,
+    transform 0.18s ease,
+    opacity 0.18s ease;
+}
+
+#sc-share-bar button:hover {
+  background: rgba(15, 23, 42, 0.06);
+  transform: translateY(-1px);
+}
+
+#sc-share-bar button:focus {
+  outline: 2px solid #1f3b73;
+  outline-offset: 2px;
+}
+
+#sc-share-bar button img {
+  width: 20px;
+  height: 20px;
+  display: block;
+  object-fit: contain;
+}
+
+.sc-icon {
+  font-size: 1rem;
+  line-height: 1;
+  color: #24364f;
+}
+
+.sc-btn-text {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #24364f;
+  letter-spacing: 0.01em;
+}
+
+#sc-search-btn,
+#sc-share-close,
+#sc-more-toggle {
+  color: #24364f;
+}
+
+#sc-share-close {
+  opacity: 0.84;
+}
+
+#sc-share-close:hover {
+  opacity: 1;
+}
+
+#sc-share-bar .search-inline-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.35rem;
+  padding: 3px;
+  background: rgba(255,255,255,0.84);
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 10px;
+}
+
+#sc-share-bar input.search-inline {
+  width: 210px;
+  max-width: 42vw;
+  background: transparent;
+  border: none;
+  padding: 6px 8px;
+  font-size: 14px;
+  color: #111827;
+  outline: none;
+}
+
+#sc-share-bar input.search-inline::placeholder {
+  color: #6b7280;
+}
+
+#sc-share-bar .search-close-btn {
+  background: transparent;
+  border: none;
+  min-width: 30px;
+  min-height: 30px;
+  padding: 0;
+  border-radius: 7px;
+  font-size: 15px;
+  color: #3a4a61;
+  cursor: pointer;
+}
+
+body.sc-sharebar-visible {
+  padding-top: 46px !important;
+}
+
+@media (max-width: 768px) {
+  .sc-share-inner {
+    grid-template-columns: auto 1fr auto;
+    gap: 0.35rem;
+    min-height: 44px;
+    padding: 4px 8px;
+  }
+
+  .sc-share-centre {
+    align-items: stretch;
+  }
+
+  .sc-share-buttons-primary {
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 6px 10px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    transition: top 0.3s ease, background 0.4s ease;
+    gap: 2px;
+  }
+
+  .sc-share-buttons-primary button:nth-child(n+5):not(#sc-more-toggle) {
+    display: none;
   }
 
   #sc-share-bar button {
-    background: transparent;
-    border: none;
-    border-radius: 6px;
-    padding: 5px;
-    cursor: pointer;
-    transition: transform 0.2s ease, opacity 0.2s ease;
-  }
-
-  #sc-share-bar button:hover {
-    transform: translateY(-1px);
-    opacity: 0.85;
+    min-width: 32px;
+    min-height: 32px;
+    padding: 5px 6px;
+    border-radius: 7px;
   }
 
   #sc-share-bar button img {
-    width: 22px;
-    height: 22px;
-    display: block;
-    filter: brightness(0.95);
+    width: 18px;
+    height: 18px;
   }
 
-  #sc-share-close {
-    position: absolute;
-    top: 6px;
-    right: 8px;
-  }
-
-  #sc-search-btn {
-    position: absolute;
-    left: 8px;
-    top: 6px;
-  }
-
-  .sc-share-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-  }
-
-  #sc-hidden-buttons {
+  .sc-btn-text {
     display: none;
   }
 
   #sc-share-bar input.search-inline {
-    background: rgba(255,255,255,0.9);
-    border: 1px solid #d0d7de;
-    border-radius: 6px;
-    padding: 6px 10px;
-    font-size: 14px;
-    outline: none;
-    margin-left: 8px;
-    transition: box-shadow 0.2s ease, background 0.3s ease;
+    width: 140px;
+    max-width: 44vw;
+    font-size: 13px;
   }
 
-  #sc-share-bar input.search-inline:focus {
-    background: #fff;
-    box-shadow: 0 0 8px rgba(51,77,112,0.2);
+  body.sc-sharebar-visible {
+    padding-top: 48px !important;
   }
+}
 
-  #sc-share-bar .search-close-btn {
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    margin-left: 6px;
-    color: #0a2e57;
+@media (prefers-reduced-motion: reduce) {
+  #sc-share-bar,
+  #sc-share-bar button,
+  .sc-share-buttons-secondary {
+    transition: none !important;
   }
-
-  #sc-share-close img {
-    filter: invert(20%) sepia(20%) saturate(600%) hue-rotate(200deg);
-  }
-
-  #sc-share-close:hover img {
-    filter: brightness(0.7);
-  }
-
-  @media (max-width: 768px) {
-    body { padding-top: 40px !important; }
-  }
-
-  @media (min-width: 769px) {
-    body { padding-top: 40px; }
-  }
+}
 </style>
 
-<!-- =========================================================
-     Script
-     ========================================================= -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
+  const shareBar = document.getElementById('sc-share-bar');
+  const hiddenButtons = document.getElementById('sc-hidden-buttons');
+  const moreToggle = document.getElementById('sc-more-toggle');
+  const closeBtn = document.getElementById('sc-share-close');
+  const searchBtn = document.getElementById('sc-search-btn');
+
+  if (!shareBar) return;
+
+  document.body.classList.add('sc-sharebar-visible');
+
+  function closeMore() {
+    hiddenButtons.classList.remove('open');
+    moreToggle.setAttribute('aria-expanded', 'false');
+  }
+
+  function closeSearch() {
+    const existing = document.querySelector('.search-inline-wrap');
+    if (existing) existing.remove();
+  }
+
   function scShare(type) {
     const url = encodeURIComponent(window.location.href);
     const title = encodeURIComponent(document.title);
@@ -205,69 +350,95 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     if (type === 'copy') {
-      navigator.clipboard.writeText(window.location.href).catch(()=>{});
-      alert('Link copied!');
+      navigator.clipboard.writeText(window.location.href).then(function () {
+        alert('Link copied');
+      }).catch(function () {});
     } else if (type === 'print') {
       const post = document.querySelector('main, article, .content, .page-content');
       if (post) {
         const w = window.open('', '', 'width=800,height=600');
-        w.document.write('<html><head><title>' + document.title + '</title><style>body{font-family:sans-serif;padding:20px;}img{max-width:100%;}</style></head><body>' + post.innerHTML + '</body></html>');
-        w.document.close(); w.focus(); w.print(); w.close();
+        w.document.write('<html><head><title>' + document.title + '</title><style>body{font-family:sans-serif;padding:20px;}img{max-width:100%;height:auto;}</style></head><body>' + post.innerHTML + '</body></html>');
+        w.document.close();
+        w.focus();
+        w.print();
+        w.close();
       }
     } else if (targets[type]) {
-      window.open(targets[type], '_blank');
+      window.open(targets[type], '_blank', 'noopener,noreferrer');
     }
   }
 
   window.scShare = scShare;
 
-  document.getElementById('sc-more-toggle').onclick = function() {
-    const hidden = document.getElementById('sc-hidden-buttons');
-    hidden.style.display = hidden.style.display === 'flex' ? 'none' : 'flex';
-  };
+  moreToggle.addEventListener('click', function () {
+    const isOpen = hiddenButtons.classList.contains('open');
+    hiddenButtons.classList.toggle('open');
+    moreToggle.setAttribute('aria-expanded', String(!isOpen));
+  });
 
-  document.getElementById('sc-share-close').onclick = function() {
-    document.getElementById('sc-share-bar').style.display = 'none';
-  };
+  closeBtn.addEventListener('click', function () {
+    shareBar.style.display = 'none';
+    document.body.classList.remove('sc-sharebar-visible');
+  });
 
-  /* ===== ONLY CHANGE IS BELOW ===== */
+  searchBtn.addEventListener('click', function () {
+    const existing = document.querySelector('.search-inline-wrap');
+    if (existing) {
+      existing.querySelector('input')?.focus();
+      return;
+    }
 
-  // Search bar (Google site search)
-  document.getElementById('sc-search-btn').onclick = function() {
-    if (document.querySelector('.search-inline')) return;
+    closeMore();
 
     const form = document.createElement('form');
     form.action = 'https://www.google.com/search';
     form.method = 'get';
-    form.style.display = 'inline-flex';
-    form.style.alignItems = 'center';
+    form.className = 'search-inline-wrap';
+
+    const siteHidden = document.createElement('input');
+    siteHidden.type = 'hidden';
+    siteHidden.name = 'sitesearch';
+    siteHidden.value = window.location.hostname;
 
     const input = document.createElement('input');
     input.type = 'text';
     input.name = 'q';
     input.className = 'search-inline';
-    input.placeholder = 'Search this site...';
+    input.placeholder = 'Search this site';
 
-    const hidden = document.createElement('input');
-    hidden.type = 'hidden';
-    hidden.name = 'q';
-    hidden.value = 'site:' + window.location.hostname;
-    form.appendChild(hidden);
+    const closeSearchBtn = document.createElement('button');
+    closeSearchBtn.type = 'button';
+    closeSearchBtn.className = 'search-close-btn';
+    closeSearchBtn.setAttribute('aria-label', 'Close search');
+    closeSearchBtn.textContent = '✕';
+    closeSearchBtn.addEventListener('click', function () {
+      form.remove();
+    });
 
-    const closeBtn = document.createElement('button');
-    closeBtn.type = 'button';
-    closeBtn.className = 'search-close-btn';
-    closeBtn.innerHTML = '×';
-    closeBtn.onclick = () => form.remove();
-
+    form.appendChild(siteHidden);
     form.appendChild(input);
-    form.appendChild(closeBtn);
-    document.getElementById('sc-share-bar').appendChild(form);
+    form.appendChild(closeSearchBtn);
+
+    document.querySelector('.sc-share-left').appendChild(form);
     input.focus();
 
-    input.addEventListener('keydown', function(e) {
+    input.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') form.remove();
     });
-  };
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!shareBar.contains(e.target)) {
+      closeMore();
+      closeSearch();
+    }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      closeMore();
+      closeSearch();
+    }
+  });
 });
 </script>
