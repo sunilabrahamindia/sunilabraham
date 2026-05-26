@@ -1,0 +1,268 @@
+<!-- =========================================================
+     TSAP Minimal Top Utility Bar
+     ========================================================= -->
+
+<div id="sc-top-bar">
+
+  <!-- Left: Search -->
+  <div id="sc-search-area">
+    <form action="https://www.google.com/search" method="get">
+      <input
+        type="text"
+        name="q"
+        placeholder=" Search"
+        aria-label="Search this site"
+      />
+
+      <input
+        type="hidden"
+        name="q"
+        value=""
+        id="sc-hidden-search"
+      />
+    </form>
+  </div>
+
+  <!-- Right: Utility Icons -->
+  <div id="sc-top-icons">
+
+    <!-- RSS -->
+    <a
+      href="/feed.xml"
+      title="RSS Feed"
+      aria-label="RSS Feed"
+      class="sc-icon-btn"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg"
+        alt="RSS Feed"
+      />
+    </a>
+
+    <!-- PDF / Print -->
+    <button
+      onclick="window.print()"
+      title="Print or Save as PDF"
+      aria-label="Print or Save as PDF"
+      class="sc-icon-btn"
+    >
+      <img
+        src="https://cdn-icons-png.flaticon.com/128/337/337946.png"
+        alt="PDF"
+      />
+    </button>
+
+  </div>
+
+</div>
+
+<style>
+/* =========================================================
+   TOP BAR
+   ========================================================= */
+
+#sc-top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+  padding: 6px 12px;
+
+  background: rgba(248, 250, 252, 0.96);
+  backdrop-filter: blur(6px);
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+/* =========================================================
+   SEARCH AREA
+   ========================================================= */
+
+#sc-search-area {
+  flex: 0 1 260px;
+  max-width: 260px;
+}
+
+#sc-search-area form {
+  width: 100%;
+}
+
+#sc-search-area input[type="text"] {
+  width: 100%;
+  height: 32px;
+
+  padding: 0 12px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  font-size: 14px;
+  color: #1e293b;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+#sc-search-area input[type="text"]:focus {
+  outline: none;
+  border-color: #1f5fbf;
+  box-shadow: 0 0 0 3px rgba(31, 95, 191, 0.12);
+}
+
+#sc-search-area input[type="text"]::placeholder {
+  color: #64748b;
+}
+
+/* =========================================================
+   RIGHT ICONS
+   ========================================================= */
+
+#sc-top-icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sc-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+.sc-icon-btn:hover {
+  background: rgba(31, 95, 191, 0.10);
+}
+
+.sc-icon-btn:focus {
+  outline: 2px solid #1f5fbf;
+  outline-offset: 2px;
+}
+
+.sc-icon-btn img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+@media (prefers-color-scheme: dark) {
+
+  #sc-top-bar {
+    background: rgba(20, 24, 31, 0.96);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+  }
+
+  #sc-search-area input[type="text"] {
+    background: #1e293b;
+    color: #f1f5f9;
+    border-color: #334155;
+  }
+
+  #sc-search-area input[type="text"]::placeholder {
+    color: #94a3b8;
+  }
+
+  .sc-icon-btn:hover {
+    background: rgba(125, 179, 255, 0.15);
+  }
+}
+
+/* =========================================================
+   BODY OFFSET
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  body {
+    padding-top: 44px !important;
+  }
+
+  #sc-top-bar {
+    padding: 5px 8px;
+    gap: 8px;
+  }
+
+  #sc-search-area {
+    flex: 0 1 170px;
+    max-width: 170px;
+  }
+
+  #sc-search-area input[type="text"] {
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .sc-icon-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .sc-icon-btn img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 769px) {
+
+  body {
+    padding-top: 44px;
+  }
+}
+
+/* =========================================================
+   PRINT
+   ========================================================= */
+
+@media print {
+
+  #sc-top-bar {
+    display: none !important;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  const form = document.querySelector('#sc-search-area form');
+
+  form.addEventListener('submit', function () {
+
+    const input = form.querySelector('input[type="text"]');
+
+    document.getElementById('sc-hidden-search').value =
+      'site:' + window.location.hostname + ' ' + input.value;
+  });
+
+});
+</script>
