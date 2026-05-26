@@ -11,7 +11,7 @@
       <input
         type="text"
         name="q"
-        placeholder="Search The Sunil Abraham Project..."
+        placeholder=" Search"
         aria-label="Search this site"
       />
 
@@ -92,9 +92,8 @@
    ========================================================= */
 
 #sc-search-area {
-  flex: 1;
-  max-width: 520px;
-}
+     flex: 0 1 260px; 
+     max-width: 260px; }
 
 #sc-search-area form {
   width: 100%;
@@ -102,16 +101,11 @@
 
 #sc-search-area input[type="text"] {
   width: 100%;
-
   height: 32px;
-
   padding: 0 12px;
-
   border: 1px solid #cbd5e1;
   border-radius: 8px;
-
   background: #ffffff;
-
   font-size: 14px;
   color: #1e293b;
 
@@ -192,10 +186,15 @@
     gap: 8px;
   }
 
-  #sc-search-area input[type="text"] {
-    height: 30px;
-    font-size: 13px;
-  }
+#sc-search-area {
+  flex: 0 1 170px;
+  max-width: 170px;
+}
+
+#sc-search-area input[type="text"] {
+  height: 30px;
+  font-size: 13px;
+}
 
   .sc-icon-btn {
     width: 32px;
