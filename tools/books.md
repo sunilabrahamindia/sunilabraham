@@ -77,6 +77,7 @@ created: 2026-05-26
       </div>
 
       <ol class="books-list" id="books-list"></ol>
+      <div id="book-content"></div>
     </section>
   </div>
 </section>
@@ -628,9 +629,51 @@ const pages = [
       setStatus("Book cleared.");
     });
 
-    printButton.addEventListener("click", function () {
-      window.print();
-    });
+printButton.addEventListener("click", async function () {
+
+  const container = document.getElementById("book-content");
+
+  container.innerHTML = "";
+
+  for (const item of myBook) {
+
+    try {
+
+      const response = await fetch(item.url);
+
+      const html = await response.text();
+
+      const parser = new DOMParser();
+
+      const doc = parser.parseFromString(html, "text/html");
+
+      const content = doc.querySelector(".main-content");
+
+      if (content) {
+
+        const article = document.createElement("article");
+
+        article.className = "book-article";
+
+        article.innerHTML =
+          "<h2>" + item.title + "</h2>" +
+          content.innerHTML;
+
+        container.appendChild(article);
+
+      }
+
+    } catch (error) {
+
+      console.error("Failed to load:", item.url);
+
+    }
+
+  }
+
+  window.print();
+
+});
 
     booksList.addEventListener("click", function (event) {
       const actionButton = event.target.closest("button[data-action]");
