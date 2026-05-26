@@ -1,0 +1,45 @@
+<a class="archive-skip-link" href="#main-content">Skip to content</a>
+
+<header class="archive-site-header">
+  <div class="archive-site-header-inner">
+    <div class="archive-masthead">
+      <p class="archive-eyebrow">Archive · Research · Documentation</p>
+
+      <div class="archive-site-title">
+        <a href="/">Sunil Abraham Project</a>
+      </div>
+
+      <p class="archive-site-subtitle" id="archive-site-subtitle">
+        Research · Innovation · Documentation
+      </p>
+
+      <script>
+      if (window.location.hostname.includes('pages.dev')) {
+        document.getElementById('archive-site-subtitle').innerHTML =
+          'Official Mirror of <a href="https://sunilabraham.in/">sunilabraham.in</a>';
+      }
+      </script>
+
+      {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
+      {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
+
+      <p class="archive-site-stats">
+        <a href="/newest/">{{ real_pages.size }} pages</a>
+        <span aria-hidden="true">·</span>
+        across
+        <a href="/categories/">{{ cat_pages.size }} categories</a>
+      </p>
+    </div>
+
+    <nav class="archive-site-nav" aria-label="Main navigation">
+      <ul role="list">
+        <li><a href="/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a></li>
+        <li><a href="/projects/" {% if page.url contains '/projects/' %}class="active" aria-current="page"{% endif %}>Projects</a></li>
+        <li><a href="/publications/" {% if page.url contains '/publications/' %}class="active" aria-current="page"{% endif %}>Publications</a></li>
+        <li><a href="/media/" {% if page.url contains '/media/' %}class="active" aria-current="page"{% endif %}>Media mentions</a></li>
+        <li><a href="/videos/" {% if page.url contains '/videos/' %}class="active" aria-current="page"{% endif %}>Videos</a></li>
+        <li><a href="/contact/" {% if page.url contains '/contact/' %}class="active" aria-current="page"{% endif %}>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
