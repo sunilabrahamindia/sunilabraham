@@ -117,7 +117,16 @@ if (window.location.hostname.includes('pages.dev')) {
     {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
     {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
     <p class="site-stats">
-      <a href="/newest/">{{ real_pages.size | number_with_delimiter }} pages</a> across <a href="/categories/">{{ cat_pages.size }} categories</a>
+      <a href="/newest/"><span id="site-page-count">{{ real_pages.size }}</span> pages</a> across <a href="/categories/">{{ cat_pages.size }} categories</a>
     </p>
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const count = document.getElementById('site-page-count');
+
+  if (count) {
+    count.textContent = Number(count.textContent).toLocaleString();
+  }
+});
+</script>
   </div>
 </header>
