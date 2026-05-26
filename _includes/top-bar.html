@@ -65,52 +65,8 @@
       />
     </button>
 
-    <!-- Cite -->
-    <button
-      id="sc-cite-btn"
-      title="Cite this page"
-      aria-label="Cite this page"
-      class="sc-icon-btn"
-    >
-      <img
-        src="https://cdn-icons-png.flaticon.com/128/2997/299793.png"
-        alt="Cite"
-      />
-    </button>
-
   </div>
 
-</div>
-
-<!-- =========================================================
-     Citation Modal
-     ========================================================= -->
-
-<div id="sc-cite-modal" aria-hidden="true">
-  <div id="sc-cite-box">
-
-    <button id="sc-cite-close" aria-label="Close citation box">
-      ×
-    </button>
-
-    <h2>Cite this page</h2>
-
-    <div class="sc-citation-block">
-      <strong>APA</strong>
-      <textarea readonly id="sc-cite-apa"></textarea>
-    </div>
-
-    <div class="sc-citation-block">
-      <strong>MLA</strong>
-      <textarea readonly id="sc-cite-mla"></textarea>
-    </div>
-
-    <div class="sc-citation-block">
-      <strong>BibTeX</strong>
-      <textarea readonly id="sc-cite-bibtex"></textarea>
-    </div>
-
-  </div>
 </div>
 
 <!-- =========================================================
@@ -249,10 +205,9 @@
 }
 
 /* =========================================================
-   MODALS
+   QR MODAL
    ========================================================= */
 
-#sc-cite-modal,
 #sc-qr-modal {
   position: fixed;
   inset: 0;
@@ -265,9 +220,8 @@
   background: rgba(0,0,0,0.45);
 }
 
-#sc-cite-box,
 #sc-qr-box {
-  width: min(92vw, 640px);
+  width: min(92vw, 320px);
 
   background: #ffffff;
 
@@ -278,14 +232,10 @@
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 
   position: relative;
-}
 
-#sc-qr-box {
-  width: min(92vw, 320px);
   text-align: center;
 }
 
-#sc-cite-close,
 #sc-qr-close {
   position: absolute;
   top: 10px;
@@ -296,30 +246,6 @@
 
   font-size: 24px;
   cursor: pointer;
-}
-
-.sc-citation-block {
-  margin-top: 18px;
-}
-
-.sc-citation-block strong {
-  display: block;
-  margin-bottom: 6px;
-}
-
-.sc-citation-block textarea {
-  width: 100%;
-  min-height: 90px;
-
-  padding: 10px;
-
-  border: 1px solid #cbd5e1;
-  border-radius: 8px;
-
-  resize: vertical;
-
-  font-size: 14px;
-  line-height: 1.5;
 }
 
 #sc-qr-image {
@@ -355,19 +281,11 @@
     background: rgba(125, 179, 255, 0.15);
   }
 
-  #sc-cite-box,
   #sc-qr-box {
     background: #111827;
     color: #f1f5f9;
   }
 
-  .sc-citation-block textarea {
-    background: #1e293b;
-    color: #f1f5f9;
-    border-color: #334155;
-  }
-
-  #sc-cite-close,
   #sc-qr-close {
     color: #f1f5f9;
   }
@@ -423,7 +341,6 @@
 @media print {
 
   #sc-top-bar,
-  #sc-cite-modal,
   #sc-qr-modal {
     display: none !important;
   }
@@ -448,216 +365,11 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   /* =========================================================
-     CITATION DATA
+     QR CODE
      ========================================================= */
-
-  const title =
-    {{ page.title | jsonify }};
-
-  const authors =
-    {% if page.authors %}
-      {{ page.authors | jsonify }}
-    {% else %}
-      []
-    {% endif %};
-
-  const source =
-    {% if page.source %}
-      {{ page.source | jsonify }}
-    {% else %}
-      null
-    {% endif %};
-
-  const year =
-    {% if page.date %}
-      "{{ page.date | date: '%Y' }}"
-    {% else %}
-      "n.d."
-    {% endif %};
-
-  const fullDate =
-    {% if page.date %}
-      "{{ page.date | date: '%-d %B %Y' }}"
-    {% else %}
-      "n.d."
-    {% endif %};
 
   const url =
     "{{ site.url }}{{ page.url }}";
-
-  /* =========================================================
-     APA AUTHORS
-     ========================================================= */
-
-  function formatAPAAuthors(authors) {
-
-    const formatted = authors.map(author => {
-
-      const parts = author.trim().split(' ');
-
-      const last =
-        parts.pop();
-
-      const initials =
-        parts.map(p => p.charAt(0) + '.').join(' ');
-
-      return `${last}, ${initials}`;
-    });
-
-    if (formatted.length === 1) {
-      return formatted[0];
-    }
-
-    return formatted.slice(0, -1).join(', ') +
-      ', & ' +
-      formatted[formatted.length - 1];
-  }
-
-  /* =========================================================
-     MLA AUTHORS
-     ========================================================= */
-
-  function formatMLAAuthors(authors) {
-
-    if (authors.length === 1) {
-      return authors[0];
-    }
-
-    if (authors.length === 2) {
-      return `${authors[0]} and ${authors[1]}`;
-    }
-
-    const lastAuthor =
-      authors[authors.length - 1];
-
-    return `${authors.slice(0, -1).join(', ')}, and ${lastAuthor}`;
-  }
-
-  const apaAuthors =
-    authors.length
-      ? formatAPAAuthors(authors)
-      : null;
-
-  const mlaAuthors =
-    authors.length
-      ? formatMLAAuthors(authors)
-      : null;
-
-  let apa = '';
-  let mla = '';
-  let bibtex = '';
-
-  /* =========================================================
-     APA
-     ========================================================= */
-
-  if (authors.length) {
-
-    apa =
-`${apaAuthors} (${year}).
-${title}.
-${source ? source + '.' : ''}
-${url}`;
-
-  } else {
-
-    apa =
-`${title}.
-(${year}).
-${source ? source + '.' : ''}
-${url}`;
-  }
-
-  /* =========================================================
-     MLA
-     ========================================================= */
-
-  if (authors.length) {
-
-    mla =
-`${mlaAuthors}.
-"${title}."
-${source ? source + ', ' : ''}${year}.
-${url}`;
-
-  } else {
-
-    mla =
-`"${title}."
-${source ? source + ', ' : ''}${year}.
-${url}`;
-  }
-
-  /* =========================================================
-     BIBTEX
-     ========================================================= */
-
-  const bibtexKey =
-    authors.length
-      ? authors[0].split(' ')[0].toLowerCase() +
-        year +
-        title.toLowerCase()
-          .replace(/[^a-z0-9]+/g, '')
-          .slice(0, 8)
-      : 'tsap' + year;
-
-  const bibtexAuthors =
-    authors.join(' and ');
-
-  if (authors.length) {
-
-    bibtex =
-`@article{${bibtexKey},
-author = {${bibtexAuthors}},
-title = {${title}},${source ? '\njournal = {' + source + '},' : ''}
-year = {${year}},
-url = {${url}}
-}`;
-
-  } else {
-
-    bibtex =
-`@misc{${bibtexKey},
-title = {${title}},
-year = {${year}},
-url = {${url}}
-}`;
-  }
-
-  /* =========================================================
-     INSERT CITATIONS
-     ========================================================= */
-
-  document.getElementById('sc-cite-apa').value =
-    apa;
-
-  document.getElementById('sc-cite-mla').value =
-    mla;
-
-  document.getElementById('sc-cite-bibtex').value =
-    bibtex;
-
-  /* =========================================================
-     CITE MODAL
-     ========================================================= */
-
-  document.getElementById('sc-cite-btn').onclick =
-    function () {
-
-      document.getElementById('sc-cite-modal')
-        .style.display = 'flex';
-    };
-
-  document.getElementById('sc-cite-close').onclick =
-    function () {
-
-      document.getElementById('sc-cite-modal')
-        .style.display = 'none';
-    };
-
-  /* =========================================================
-     QR CODE
-     ========================================================= */
 
   const qrURL =
     'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=' +
@@ -684,14 +396,6 @@ url = {${url}}
      BACKDROP CLOSE
      ========================================================= */
 
-  document.getElementById('sc-cite-modal').onclick =
-    function (e) {
-
-      if (e.target === this) {
-        this.style.display = 'none';
-      }
-    };
-
   document.getElementById('sc-qr-modal').onclick =
     function (e) {
 
@@ -707,9 +411,6 @@ url = {${url}}
   document.addEventListener('keydown', function (e) {
 
     if (e.key === 'Escape') {
-
-      document.getElementById('sc-cite-modal')
-        .style.display = 'none';
 
       document.getElementById('sc-qr-modal')
         .style.display = 'none';
