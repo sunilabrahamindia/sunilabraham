@@ -10,7 +10,7 @@ permalink: /publications/sense-and-censorship-indian-express-2010/
 created: 2026-01-28
 ---
 
-**Sense and Censorship** is *The Indian Express* opinion column by Sunil Abraham published on 27 March 2010. The piece scrutinises Google's rhetorical opposition to censorship in China following cyber-attacks on its servers, contrasting this with the company's routine compliance with content removal requests from governments in India and over twenty other countries, whilst questioning the motivations behind the company's public stance on censorship.
+**Sense and Censorship** is *The Indian Express* opinion column by [Sunil Abraham](/sunil/) published on 27 March 2010. The piece scrutinises Google's rhetorical opposition to censorship in China following cyber-attacks on its servers, contrasting this with the company's routine compliance with content removal requests from governments in India and over twenty other countries, whilst questioning the motivations behind the company's public stance on censorship.
 
 ## Contents
 
