@@ -5,6 +5,7 @@ description: "A narrative account of the Centre for Internet and Society's annua
 permalink: /cis/annual-report-2013-14/
 categories: [Centre for Internet and Society]
 created: 2026-05-25
+feed_article: true
 ---
 
 The **Annual Report 2013–14** of the [Centre for Internet and Society](/cis/) (CIS) documents the organisation's work for the financial year from 1 April 2013 to 31 March 2014. The year was marked by a broadening of CIS's programme portfolio across accessibility, intellectual property, openness, internet governance, telecom policy, digital cultures, and institutional partnerships, while also coinciding with the organisation's fifth anniversary celebrations.

@@ -6,6 +6,7 @@ permalink: /amaa/religion-culture-dalits-struggle-liberation-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1986
 created: 2026-05-26
+feed_article: true
 ---
 
 The **full text of the [Religion and Culture in Dalits' Struggle for Liberation](/amaa/religion-culture-dalits-struggle-liberation/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Religion and Society*, Volume 33, No. 2, June 1986.
