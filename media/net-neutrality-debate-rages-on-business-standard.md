@@ -8,7 +8,6 @@ authors: ["Surabhi Agarwal"]
 source: "Business Standard"
 permalink: /media/net-neutrality-debate-rages-on-business-standard/
 created: 2026-05-27
-feed_article: true
 ---
 
 **Net Neutrality: Debate Rages On** is a *Business Standard* article by Surabhi Agarwal published on 15 April 2015. The report examines the intensifying debate around net neutrality in India following the launch of Airtel Zero, presenting arguments from campaigners, technology entrepreneurs, telecom industry observers, and policy experts including [Sunil Abraham](/sunil/).
