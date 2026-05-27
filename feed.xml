@@ -12,7 +12,7 @@ permalink: /feed.xml
 <updated>{{ site.time | date_to_xmlschema }}</updated>
 <id>{{ site.url }}/feed.xml</id>
 
-{% assign feed_pages = site.pages | where: "feed_article", true | sort: "created" | reverse %}
+{% assign feed_pages = site.pages | where_exp: "item", "item.created" | sort: "created" | reverse %}
 
 {% for page in feed_pages limit:20 %}
 <entry>
