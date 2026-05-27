@@ -4,7 +4,7 @@
 
 <div id="sc-top-bar">
 
-  <!-- Left: Search -->
+  <!-- Right: Search (moved from left) -->
   <div id="sc-search-area">
     <form action="https://www.google.com/search" method="get">
       <input
@@ -23,37 +23,6 @@
     </form>
   </div>
 
-  <!-- Right: Utility Icons -->
-  <div id="sc-top-icons">
-
-    <!-- RSS -->
-    <a
-      href="/feed.xml"
-      title="RSS Feed"
-      aria-label="RSS Feed"
-      class="sc-icon-btn"
-    >
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg"
-        alt="RSS Feed"
-      />
-    </a>
-
-    <!-- PDF / Print -->
-    <button
-      onclick="window.print()"
-      title="Print or Save as PDF"
-      aria-label="Print or Save as PDF"
-      class="sc-icon-btn"
-    >
-      <img
-        src="https://cdn-icons-png.flaticon.com/128/337/337946.png"
-        alt="PDF"
-      />
-    </button>
-
-  </div>
-
 </div>
 
 <style>
@@ -70,7 +39,7 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 
   gap: 12px;
   padding: 6px 12px;
@@ -125,51 +94,6 @@
 }
 
 /* =========================================================
-   RIGHT ICONS
-   ========================================================= */
-
-#sc-top-icons {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.sc-icon-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 34px;
-  height: 34px;
-
-  border: none;
-  border-radius: 8px;
-
-  background: transparent;
-
-  cursor: pointer;
-
-  transition:
-    background 0.2s ease,
-    transform 0.15s ease;
-}
-
-.sc-icon-btn:hover {
-  background: rgba(31, 95, 191, 0.10);
-}
-
-.sc-icon-btn:focus {
-  outline: 2px solid #1f5fbf;
-  outline-offset: 2px;
-}
-
-.sc-icon-btn img {
-  width: 20px;
-  height: 20px;
-  display: block;
-}
-
-/* =========================================================
    DARK MODE
    ========================================================= */
 
@@ -189,10 +113,6 @@
 
   #sc-search-area input[type="text"]::placeholder {
     color: #94a3b8;
-  }
-
-  .sc-icon-btn:hover {
-    background: rgba(125, 179, 255, 0.15);
   }
 }
 
@@ -219,16 +139,6 @@
   #sc-search-area input[type="text"] {
     height: 30px;
     font-size: 13px;
-  }
-
-  .sc-icon-btn {
-    width: 32px;
-    height: 32px;
-  }
-
-  .sc-icon-btn img {
-    width: 18px;
-    height: 18px;
   }
 }
 
