@@ -5,27 +5,35 @@ permalink: /feed.xml
 
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-IN">
+
 <title>The Sunil Abraham Project</title>
+
 <subtitle>Research • Innovation • Documentation</subtitle>
 
-<link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
-<link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+<link href="{{ site.url }}/feed.xml"
+      rel="self"
+      type="application/atom+xml"/>
+
+<link href="{{ site.url }}/"
+      rel="alternate"
+      type="text/html"/>
 
 <updated>{{ site.time | date_to_xmlschema }}</updated>
 
 <id>{{ site.url }}/feed.xml</id>
 
-<generator uri="https://jekyllrb.com/">Jekyll</generator>
+{% assign feed_pages = site.pages
+  | where: "feed_article", true
+  | sort: "created"
+  | reverse %}
 
-{% assign feed_pages = site.pages | where: "feed_article", true | sort: "created" | reverse %}
-
-{% for page in feed_pages limit:20 %}
+{% for page in feed_pages limit:15 %}
 
 <entry>
 
-<title type="html">{{ page.title | xml_escape }}</title>
+<title>{{ page.title | xml_escape }}</title>
 
-<link href="{{ site.url }}{{ page.url }}" rel="alternate" type="text/html"/>
+<link href="{{ site.url }}{{ page.url }}"/>
 
 <id>{{ site.url }}{{ page.url }}</id>
 
@@ -41,7 +49,7 @@ permalink: /feed.xml
 
 <author>
 <name>
-{% if page.authors and page.authors.size > 0 %}
+{% if page.authors %}
 {{ page.authors | first | xml_escape }}
 {% else %}
 The Sunil Abraham Project
@@ -49,49 +57,22 @@ The Sunil Abraham Project
 </name>
 </author>
 
-{% if page.categories %}
-{% for category in page.categories %}
-<category term="{{ category | xml_escape }}" />
-{% endfor %}
-{% endif %}
-
 {% if page.description %}
-<summary type="html"><![CDATA[
-<p>{{ page.description }}</p>
-]]></summary>
+<summary>
+{{ page.description | strip_html | xml_escape }}
+</summary>
 {% endif %}
 
-<content type="html"><![CDATA[
-
-<h2>{{ page.title }}</h2>
-
-{% if page.date %}
-<p><strong>Published:</strong> {{ page.date | date: "%-d %B %Y" }}</p>
-{% endif %}
-
-{% if page.source %}
-<p><strong>Source:</strong> {{ page.source }}</p>
-{% endif %}
-
-{{ page.content
-| markdownify
-| strip_newlines
-| remove: 'Copy Full Text'
-| remove: '<iframe'
-| remove: '</iframe>'
-| replace: '<script', '&lt;script'
-| replace: '</script>', '&lt;/script&gt;'
-| replace: '<style', '&lt;style'
-| replace: '</style>', '&lt;/style&gt;'
-}}
-
+<content type="html">
+<![CDATA[
+{{ page.content | markdownify }}
 <p>
 <a href="{{ site.url }}{{ page.url }}">
-View on The Sunil Abraham Project
+Read on The Sunil Abraham Project
 </a>
 </p>
-
-]]></content>
+]]>
+</content>
 
 </entry>
 
