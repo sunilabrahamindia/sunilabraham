@@ -6,120 +6,126 @@ permalink: /feed.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-IN">
 
-  <title>The Sunil Abraham Project</title>
+<title>The Sunil Abraham Project</title>
 
-  <subtitle>
-    Research • Innovation • Documentation
-  </subtitle>
+<subtitle>
+Research • Innovation • Documentation
+</subtitle>
 
-  <link href="{{ site.url }}/feed.xml"
-        rel="self"
-        type="application/atom+xml"/>
+<link href="{{ site.url }}/feed.xml"
+      rel="self"
+      type="application/atom+xml"/>
 
-  <link href="{{ site.url }}/"
-        rel="alternate"
-        type="text/html"/>
+<link href="{{ site.url }}/"
+      rel="alternate"
+      type="text/html"/>
 
-  <updated>
-    {{ site.time | date_to_xmlschema }}
-  </updated>
+<updated>
+{{ site.time | date_to_xmlschema }}
+</updated>
 
-  <id>{{ site.url }}/feed.xml</id>
+<id>{{ site.url }}/feed.xml</id>
 
-  <generator uri="https://jekyllrb.com/">
-    Jekyll
-  </generator>
+<generator uri="https://jekyllrb.com/">
+Jekyll
+</generator>
 
-  {% assign feed_pages = site.pages
-    | where: "feed_article", true
-    | sort: "created"
-    | reverse %}
+{% assign feed_pages = site.pages
+  | where: "feed_article", true
+  | sort: "created"
+  | reverse %}
 
-  {% for page in feed_pages limit:20 %}
+{% for page in feed_pages limit:20 %}
 
-  <entry>
+<entry>
 
-    <title type="html">
-      {{ page.title | xml_escape }}
-    </title>
+<title type="html">
+{{ page.title | xml_escape }}
+</title>
 
-    <link href="{{ site.url }}{{ page.url }}"
-          rel="alternate"
-          type="text/html"/>
+<link href="{{ site.url }}{{ page.url }}"
+      rel="alternate"
+      type="text/html"/>
 
-    <id>
-      {{ site.url }}{{ page.url }}
-    </id>
+<id>
+{{ site.url }}{{ page.url }}
+</id>
 
-    <updated>
-      {% if page.created %}
-        {{ page.created | date_to_xmlschema }}
-      {% elsif page.date %}
-        {{ page.date | date_to_xmlschema }}
-      {% else %}
-        {{ site.time | date_to_xmlschema }}
-      {% endif %}
-    </updated>
+<updated>
+{% if page.created %}
+{{ page.created | date_to_xmlschema }}
+{% elsif page.date %}
+{{ page.date | date_to_xmlschema }}
+{% else %}
+{{ site.time | date_to_xmlschema }}
+{% endif %}
+</updated>
 
-    {% if page.authors %}
-      {% for author in page.authors %}
-      <author>
-        <name>{{ author | xml_escape }}</name>
-      </author>
-      {% endfor %}
-    {% endif %}
+{% if page.authors %}
+{% for author in page.authors %}
+<author>
+<name>{{ author | xml_escape }}</name>
+</author>
+{% endfor %}
+{% endif %}
 
-    {% if page.categories %}
-      {% for category in page.categories %}
-      <category term="{{ category | xml_escape }}" />
-      {% endfor %}
-    {% endif %}
+{% if page.categories %}
+{% for category in page.categories %}
+<category term="{{ category | xml_escape }}" />
+{% endfor %}
+{% endif %}
 
-    {% if page.description %}
-    <summary type="html">
-      <![CDATA[
-        <p>{{ page.description }}</p>
-      ]]>
-    </summary>
-    {% endif %}
+{% if page.description %}
+<summary type="html">
+<![CDATA[
+<p>{{ page.description }}</p>
+]]>
+</summary>
+{% endif %}
 
-    <content type="html">
-      <![CDATA[
+<content type="html">
+<![CDATA[
 
-      <p>
-        <strong>Originally published:</strong>
-        {% if page.date %}
-          {{ page.date | date: "%-d %B %Y" }}
-        {% else %}
-          Unknown
-        {% endif %}
-      </p>
+<h2>{{ page.title }}</h2>
 
-      {% if page.source %}
-      <p>
-        <strong>Source:</strong>
-        {{ page.source }}
-      </p>
-      {% endif %}
+{% if page.date %}
+<p>
+<strong>Published:</strong>
+{{ page.date | date: "%-d %B %Y" }}
+</p>
+{% endif %}
 
-      {{ page.content
-        | replace: '<script', '&lt;script'
-        | replace: '</script>', '&lt;/script&gt;'
-        | replace: '<style', '&lt;style'
-        | replace: '</style>', '&lt;/style&gt;'
-      }}
+{% if page.source %}
+<p>
+<strong>Source:</strong>
+{{ page.source }}
+</p>
+{% endif %}
 
-      <p>
-        <a href="{{ site.url }}{{ page.url }}">
-          Read on The Sunil Abraham Project
-        </a>
-      </p>
+{{ page.content
+| markdownify
+| strip_newlines
+| replace: '<script', '&lt;script'
+| replace: '</script>', '&lt;/script&gt;'
+| replace: '<style', '&lt;style'
+| replace: '</style>', '&lt;/style&gt;'
+| remove: '{% include back-to-top.html %}'
+| remove: '{% include navbox-cis.html %}'
+| remove: '{% include navbox-amaa.html %}'
+| remove: '<button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>'
+}}
 
-      ]]>
-    </content>
+<p>
+<a href="{{ site.url }}{{ page.url }}">
+View on The Sunil Abraham Project
+</a>
+</p>
 
-  </entry>
+]]>
+</content>
 
-  {% endfor %}
+</entry>
+
+{% endfor %}
 
 </feed>
