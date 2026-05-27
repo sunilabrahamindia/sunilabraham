@@ -27,7 +27,15 @@ permalink: /feed.xml
 {% endif %}
 
 <content type="html"><![CDATA[
-{{ page.content | markdownify }}
+{{ page.content
+| markdownify
+| split: '<style>'
+| first
+| split: '<script>'
+| first
+| remove: '{% include back-to-top.html %}'
+| remove: 'Copy Full Text'
+}}
 <p><a href="{{ site.url }}{{ page.url }}">Read on The Sunil Abraham Project</a></p>
 ]]></content>
 
