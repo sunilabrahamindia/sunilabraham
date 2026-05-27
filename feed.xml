@@ -14,22 +14,51 @@ permalink: /feed.xml
 
 {% assign feed_pages = site.pages | where: "feed_article", true | sort: "created" | reverse %}
 
-{% for page in feed_pages limit:10 %}
+{% for page in feed_pages limit:20 %}
 <entry>
 <title>{{ page.title | strip_html | xml_escape }}</title>
-<link href="{{ site.url }}{{ page.url }}"/>
-<id>{{ site.url }}{{ page.url }}</id>
-<updated>{% if page.created %}{{ page.created | append: " 12:00:00 +0530" | date_to_xmlschema }}{% elsif page.date %}{{ page.date | append: " 12:00:00 +0530" | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</updated>
-<author><name>{% if page.authors %}{{ page.authors | first | xml_escape }}{% else %}The Sunil Abraham Project{% endif %}</name></author>
 
-{% if page.description %}
-<summary>{{ page.description | strip_html | strip_newlines | xml_escape }}</summary>
+<link href="{{ site.url }}{{ page.url }}"/>
+
+<id>{{ site.url }}{{ page.url }}</id>
+
+<updated>{% if page.created %}{{ page.created | append: " 12:00:00 +0530" | date_to_xmlschema }}{% elsif page.date %}{{ page.date | append: " 12:00:00 +0530" | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</updated>
+
+<author>
+<name>{% if page.authors %}{{ page.authors | join: ", " | xml_escape }}{% else %}The Sunil Abraham Project{% endif %}</name>
+</author>
+
+{% if page.categories %}
+{% for category in page.categories %}
+<category term="{{ category | xml_escape }}" />
+{% endfor %}
 {% endif %}
 
-<content type="html"><![CDATA[
-{{ page.content | markdownify }}
-<p><a href="{{ site.url }}{{ page.url }}">Read on The Sunil Abraham Project</a></p>
-]]></content>
+<summary type="html"><![CDATA[
+<p><strong>{{ page.title }}</strong></p>
+
+{% if page.description %}
+<p>{{ page.description }}</p>
+{% endif %}
+
+{% if page.authors %}
+<p><strong>Author(s):</strong> {{ page.authors | join: ", " }}</p>
+{% endif %}
+
+{% if page.source %}
+<p><strong>Source:</strong> {{ page.source }}</p>
+{% endif %}
+
+{% if page.date %}
+<p><strong>Published:</strong> {{ page.date | date: "%-d %B %Y" }}</p>
+{% endif %}
+
+<p>
+<a href="{{ site.url }}{{ page.url }}">
+Read on The Sunil Abraham Project
+</a>
+</p>
+]]></summary>
 
 </entry>
 {% endfor %}
