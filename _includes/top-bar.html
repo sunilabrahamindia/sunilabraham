@@ -4,7 +4,7 @@
 
 <div id="sc-top-bar">
 
-  <!-- Right: Search (moved from left) -->
+  <!-- Right: Search -->
   <div id="sc-search-area">
     <form action="https://www.google.com/search" method="get">
       <input
@@ -57,15 +57,21 @@
 
 #sc-search-area {
   flex: 0 1 260px;
+  width: 100%;
   max-width: 260px;
+  min-width: 0;
 }
 
 #sc-search-area form {
   width: 100%;
+  min-width: 0;
 }
 
 #sc-search-area input[type="text"] {
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   height: 32px;
 
   padding: 0 12px;
@@ -133,7 +139,9 @@
 
   #sc-search-area {
     flex: 0 1 170px;
+    width: 100%;
     max-width: 170px;
+    min-width: 0;
   }
 
   #sc-search-area input[type="text"] {
