@@ -5,77 +5,33 @@ permalink: /feed.xml
 
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-IN">
-
 <title>The Sunil Abraham Project</title>
-
 <subtitle>Research • Innovation • Documentation</subtitle>
-
-<link href="{{ site.url }}/feed.xml"
-      rel="self"
-      type="application/atom+xml"/>
-
-<link href="{{ site.url }}/"
-      rel="alternate"
-      type="text/html"/>
-
+<link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+<link href="{{ site.url }}/" rel="alternate" type="text/html"/>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
-
 <id>{{ site.url }}/feed.xml</id>
 
-{% assign feed_pages = site.pages
-  | where: "feed_article", true
-  | sort: "created"
-  | reverse %}
+{% assign feed_pages = site.pages | where: "feed_article", true | sort: "created" | reverse %}
 
-{% for page in feed_pages limit:15 %}
-
+{% for page in feed_pages limit:10 %}
 <entry>
-
-<title>{{ page.title | xml_escape }}</title>
-
+<title>{{ page.title | strip_html | xml_escape }}</title>
 <link href="{{ site.url }}{{ page.url }}"/>
-
 <id>{{ site.url }}{{ page.url }}</id>
-
-<updated>
-{% if page.created %}
-{{ page.created | append: " 12:00:00 +0530" | date_to_xmlschema }}
-{% elsif page.date %}
-{{ page.date | append: " 12:00:00 +0530" | date_to_xmlschema }}
-{% else %}
-{{ site.time | date_to_xmlschema }}
-{% endif %}
-</updated>
-
-<author>
-<name>
-{% if page.authors %}
-{{ page.authors | first | xml_escape }}
-{% else %}
-The Sunil Abraham Project
-{% endif %}
-</name>
-</author>
+<updated>{% if page.created %}{{ page.created | append: " 12:00:00 +0530" | date_to_xmlschema }}{% elsif page.date %}{{ page.date | append: " 12:00:00 +0530" | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</updated>
+<author><name>{% if page.authors %}{{ page.authors | first | xml_escape }}{% else %}The Sunil Abraham Project{% endif %}</name></author>
 
 {% if page.description %}
-<summary>
-{{ page.description | strip_html | xml_escape }}
-</summary>
+<summary>{{ page.description | strip_html | strip_newlines | xml_escape }}</summary>
 {% endif %}
 
-<content type="html">
-<![CDATA[
+<content type="html"><![CDATA[
 {{ page.content | markdownify }}
-<p>
-<a href="{{ site.url }}{{ page.url }}">
-Read on The Sunil Abraham Project
-</a>
-</p>
-]]>
-</content>
+<p><a href="{{ site.url }}{{ page.url }}">Read on The Sunil Abraham Project</a></p>
+]]></content>
 
 </entry>
-
 {% endfor %}
 
 </feed>
