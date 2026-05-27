@@ -11,15 +11,16 @@ created: 2025-10-29
 As noted in K. C. Abraham's introduction, Ayrookuzhiel's work stands out for its originality, depth, and rootedness in the social context of India's Dalits. K. C. Abraham describes the essays as "a continuation of his lifelong project to make theology an instrument of human liberation."
 
 ## Contents
-- [Summary](#summary)
-  - [Religious Colonisation and Deconstruction](#1-religious-colonisation-and-deconstruction)
-  - [Reconstruction of Authentic Dalit Culture](#2-reconstruction-of-authentic-dalit-culture)
-  - [Subversive Language of Theology](#3-subversive-language-of-theology)
-- [Chapters](#chapters)
-- [Publication History](#publication-history)
-- [Critical Reception](#critical-reception)
-- [References](#references)
-- [External Links](#external-links)
+
+1. [Summary](#summary)
+   - [Religious Colonisation and Deconstruction](#1-religious-colonisation-and-deconstruction)
+   - [Reconstruction of Authentic Dalit Culture](#2-reconstruction-of-authentic-dalit-culture)
+   - [Subversive Language of Theology](#3-subversive-language-of-theology)
+2. [Chapters](#chapters)
+3. [Publication History](#publication-history)
+4. [Critical Reception](#critical-reception)
+5. [References](#references)
+6. [External Links](#external-links)
 
 ## Summary
 
