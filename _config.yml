@@ -30,11 +30,11 @@ toc:
 # Plugins — All supported by GitHub Pages
 # =====================================================
 plugins:
-  - jekyll-sitemap          # Generates sitemap.xml
-  - jekyll-feed             # Generates feed.xml
-  - jekyll-seo-tag          # Adds SEO and Open Graph tags
-  - jekyll-redirect-from    # Redirects old URLs
-  - jekyll-paginate         # Pagination for lists/blogs
+  - jekyll-sitemap
+  # - jekyll-feed             # Generates feed.xml
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-paginate
 
 # =====================================================
 # Site URL (for SEO, sitemap, and canonical links)
