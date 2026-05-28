@@ -1,14 +1,4 @@
-/publications/:
+/tools/what-links-here/:
   - /newest/
   - /random/
-
-/projects/:
   - /
-  - /newest/
-
-/events/:
-  - /categories/
-  - /tools/what-links-here/
-
-/media/:
-  - /mentions/
