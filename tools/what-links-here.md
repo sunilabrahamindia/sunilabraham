@@ -3,32 +3,31 @@ layout: default
 title: What Links Here
 permalink: /tools/what-links-here/
 description: Explore internal backlinks across The Sunil Abraham Project.
-sitemap: false
 created: 2026-05-29
 exclude_from_backlinks: true
 ---
 
-<p>This tool is being tested.</p>
+{% include under-construction.html %}
 
+<div class="backlinks-tool">
 
-<ul>
 {% assign all_content = site.pages | concat: site.documents %}
 
 {% for target in site.data.backlinks %}
 
   {% assign target_page = all_content | where: "url", target[0] | first %}
 
-  <li>
+  <div class="backlinks-group">
 
-    <strong>
+    <h2 class="backlinks-target">
       {% if target_page %}
         <a href="{{ target[0] }}">{{ target_page.title }}</a>
       {% else %}
         {{ target[0] }}
       {% endif %}
-    </strong>
+    </h2>
 
-    <ul>
+    <ul class="backlinks-list">
 
       {% for source in target[1] %}
 
@@ -46,8 +45,48 @@ exclude_from_backlinks: true
 
     </ul>
 
-  </li>
+  </div>
 
 {% endfor %}
-</ul>
 
+</div>
+
+<style>
+.backlinks-tool {
+  margin-top: 2rem;
+}
+
+.backlinks-group {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.backlinks-target {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.backlinks-target a {
+  text-decoration: none;
+}
+
+.backlinks-list {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.backlinks-list li {
+  margin-bottom: 0.4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .backlinks-group {
+    background: #1e1e1e;
+    border-color: #444;
+  }
+}
+</style>
