@@ -17,12 +17,14 @@ exclude_from_backlinks: true
   <div class="backlinks-group">
 
     <h2 class="backlinks-target">
-      {{ page.title }}
+      Pages linking to "{{ page.title }}"
     </h2>
 
     {% if backlinks %}
 
       <ul class="backlinks-list">
+
+      <p><strong>Total backlinks:</strong> {{ backlinks.size }}</p>
 
         {% assign all_content = site.pages | concat: site.documents %}
 
