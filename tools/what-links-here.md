@@ -9,45 +9,46 @@ exclude_from_backlinks: true
 
 {% include under-construction.html %}
 
+{% assign requested_page = page.url %}
+{% assign backlinks = site.data.backlinks[requested_page] %}
+
 <div class="backlinks-tool">
-
-{% assign all_content = site.pages | concat: site.documents %}
-
-{% for target in site.data.backlinks %}
-
-  {% assign target_page = all_content | where: "url", target[0] | first %}
 
   <div class="backlinks-group">
 
     <h2 class="backlinks-target">
-      {% if target_page %}
-        <a href="{{ target[0] }}">{{ target_page.title }}</a>
-      {% else %}
-        {{ target[0] }}
-      {% endif %}
+      {{ page.title }}
     </h2>
 
-    <ul class="backlinks-list">
+    {% if backlinks %}
 
-      {% for source in target[1] %}
+      <ul class="backlinks-list">
 
-        {% assign source_page = all_content | where: "url", source | first %}
+        {% assign all_content = site.pages | concat: site.documents %}
 
-        <li>
-          {% if source_page %}
-            <a href="{{ source }}">{{ source_page.title }}</a>
-          {% else %}
-            <a href="{{ source }}">{{ source }}</a>
-          {% endif %}
-        </li>
+        {% for source in backlinks %}
 
-      {% endfor %}
+          {% assign source_page = all_content | where: "url", source | first %}
 
-    </ul>
+          <li>
+            {% if source_page %}
+              <a href="{{ source }}">{{ source_page.title }}</a>
+            {% else %}
+              <a href="{{ source }}">{{ source }}</a>
+            {% endif %}
+          </li>
+
+        {% endfor %}
+
+      </ul>
+
+    {% else %}
+
+      <p>No backlinks found.</p>
+
+    {% endif %}
 
   </div>
-
-{% endfor %}
 
 </div>
 
