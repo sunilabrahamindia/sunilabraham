@@ -86,7 +86,7 @@ The essays in this collection span theology, sociology, and history. Selected ch
   </li>
 
   <li>
-    <a href="/amaa/dalits-religions-interfaith-dialogue/">The Dalits, Religions and Inter-faith Dialogue</a>
+    <a href="/amaa/dalits-religions-inter-faith-dialogue/">The Dalits, Religions and Inter-faith Dialogue</a>
   </li>
 
   <li>
