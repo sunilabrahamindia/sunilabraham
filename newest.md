@@ -4,6 +4,7 @@ title: "Newest Pages"
 permalink: /newest/
 categories: [Project pages]
 description: "Browse the latest website pages added to sunilabraham.in, sorted by creation date with options for filtering, searching, and interactive sorting."
+exclude_from_backlinks: true
 created: 2025-11-22
 ---
 
