@@ -22,9 +22,9 @@ exclude_from_backlinks: true
 
     {% if backlinks %}
 
-      <ul class="backlinks-list">
-
       <p><strong>Total backlinks:</strong> {{ backlinks.size }}</p>
+
+      <ul class="backlinks-list">
 
         {% assign all_content = site.pages | concat: site.documents %}
 
