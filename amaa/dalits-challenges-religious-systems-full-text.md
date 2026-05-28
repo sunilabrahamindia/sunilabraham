@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Full Text: Dalits' Challenges to Religious Systems - A People Ignored by Church History"
+title: "Full Text: Dalits' Challenges to Religious Systems — A People Ignored by Church History"
 description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Dalits' Challenges to Religious Systems - A People Ignored by Church History', first published in Religion and Society in December 1989."
 permalink: /amaa/dalits-challenges-religious-systems-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
