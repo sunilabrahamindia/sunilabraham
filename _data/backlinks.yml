@@ -1,0 +1,7 @@
+/publications/example-page/:
+  - /articles/test-article/
+  - /events/sample-event/
+
+/articles/test-article/:
+  - /projects/demo-project/
+
