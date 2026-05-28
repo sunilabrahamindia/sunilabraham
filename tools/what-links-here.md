@@ -1,25 +1,52 @@
----
-layout: default
-title: What Links Here
-permalink: /tools/what-links-here/
-description: Explore internal backlinks across The Sunil Abraham Project.
-created: 2026-05-29
-exclude_from_backlinks: true
----
-
 {% include under-construction.html %}
+
+{% assign all_content = site.pages | concat: site.documents %}
 
 {% assign requested_page = "/sunil/" %}
 {% assign backlinks = site.data.backlinks[requested_page] %}
-{% assign all_content = site.pages | concat: site.documents %}
+
+{% assign target_page = all_content | where: "url", requested_page | first %}
 
 <div class="backlinks-tool">
 
   <div class="backlinks-header">
 
-    <h2>
-      Pages linking to "{{ requested_page }}"
-    </h2>
+    <h2>What Links Here</h2>
+
+    <div class="backlinks-controls">
+
+      <label for="backlinkSearch">
+        Search backlinks
+      </label>
+
+      <input
+        type="search"
+        id="backlinkSearch"
+        placeholder="Type to filter results..."
+        aria-label="Search backlinks">
+
+      <label for="backlinkSort">
+        Sort
+      </label>
+
+      <select id="backlinkSort">
+        <option value="az">A–Z</option>
+        <option value="za">Z–A</option>
+      </select>
+
+    </div>
+
+    <p class="backlinks-target">
+
+      <strong>Page:</strong>
+
+      {% if target_page %}
+        {{ target_page.title }}
+      {% else %}
+        {{ requested_page }}
+      {% endif %}
+
+    </p>
 
     {% if backlinks %}
       <p class="backlinks-count">
@@ -30,17 +57,6 @@ exclude_from_backlinks: true
   </div>
 
   {% if backlinks %}
-
-    <div class="backlinks-controls">
-
-      <label for="backlinkSort">Sort:</label>
-
-      <select id="backlinkSort">
-        <option value="az">A–Z</option>
-        <option value="za">Z–A</option>
-      </select>
-
-    </div>
 
     <ul class="backlinks-list" id="backlinksList">
 
@@ -58,7 +74,7 @@ exclude_from_backlinks: true
 
           {% else %}
 
-            <a href="{{ source }}">
+            <a href="{{ source }}" class="unresolved-link">
               {{ source }}
             </a>
 
@@ -81,29 +97,49 @@ exclude_from_backlinks: true
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
+  const searchBox = document.getElementById("backlinkSearch");
   const sortSelect = document.getElementById("backlinkSort");
   const list = document.getElementById("backlinksList");
 
-  if (!sortSelect || !list) return;
+  if (!list) return;
 
-  sortSelect.addEventListener("change", function () {
+  function sortItems() {
 
     const items = Array.from(list.querySelectorAll(".backlink-item"));
 
     items.sort((a, b) => {
+
       const textA = a.innerText.trim().toLowerCase();
       const textB = b.innerText.trim().toLowerCase();
 
-      if (sortSelect.value === "az") {
-        return textA.localeCompare(textB);
-      } else {
+      if (sortSelect.value === "za") {
         return textB.localeCompare(textA);
       }
+
+      return textA.localeCompare(textB);
+
     });
 
     items.forEach(item => list.appendChild(item));
 
-  });
+  }
+
+  function filterItems() {
+
+    const query = searchBox.value.toLowerCase();
+
+    list.querySelectorAll(".backlink-item").forEach(item => {
+
+      const text = item.innerText.toLowerCase();
+
+      item.style.display = text.includes(query) ? "" : "none";
+
+    });
+
+  }
+
+  sortSelect.addEventListener("change", sortItems);
+  searchBox.addEventListener("input", filterItems);
 
 });
 </script>
@@ -118,44 +154,51 @@ document.addEventListener("DOMContentLoaded", function () {
 }
 
 .backlinks-header h2 {
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
+.backlinks-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.backlinks-controls label {
+  font-weight: 600;
+}
+
+.backlinks-controls input,
+.backlinks-controls select {
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #666;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.backlinks-controls input {
+  min-width: 260px;
+  max-width: 100%;
+}
+
+.backlinks-target,
 .backlinks-count {
   color: #444;
 }
 
-.backlinks-controls {
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  flex-wrap: wrap;
-}
-
-.backlinks-controls select {
-  padding: 0.4rem 0.6rem;
-  border: 1px solid #999;
-  border-radius: 6px;
-  background: #fff;
-  color: #111;
-}
-
 .backlinks-list {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .backlink-item {
-  padding: 0.8rem 1rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.75rem;
+  padding: 0.85rem 1rem;
   border: 1px solid #ccc;
   border-radius: 10px;
   background: #fafafa;
-  line-height: 1.5;
-  word-break: break-word;
 }
 
 .backlink-item a {
@@ -166,16 +209,28 @@ document.addEventListener("DOMContentLoaded", function () {
   text-decoration: underline;
 }
 
+.unresolved-link {
+  font-family: monospace;
+}
+
+.backlinks-controls input:focus,
+.backlinks-controls select:focus {
+  outline: 3px solid #1f5fbf;
+  outline-offset: 2px;
+}
+
 @media (prefers-color-scheme: dark) {
 
+  .backlinks-target,
   .backlinks-count {
-    color: #ccc;
+    color: #d0d0d0;
   }
 
+  .backlinks-controls input,
   .backlinks-controls select {
     background: #222;
     color: #eee;
-    border-color: #555;
+    border-color: #666;
   }
 
   .backlink-item {
@@ -187,12 +242,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 @media (max-width: 700px) {
 
-  .backlink-item {
-    padding: 0.75rem;
+  .backlinks-controls {
+    flex-direction: column;
+    align-items: stretch;
   }
 
-  .backlinks-header h2 {
-    font-size: 1.25rem;
+  .backlinks-controls input {
+    min-width: auto;
+    width: 100%;
   }
 
 }
