@@ -9,7 +9,8 @@ exclude_from_backlinks: true
 
 {% include under-construction.html %}
 
-{% assign requested_page = page.url %}
+{% assign requested_page = "/publications/" %}
+
 {% assign backlinks = site.data.backlinks[requested_page] %}
 
 <div class="backlinks-tool">
