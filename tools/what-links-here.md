@@ -9,7 +9,7 @@ exclude_from_backlinks: true
 
 {% include under-construction.html %}
 
-{% assign requested_page = "/publications/" %}
+{% assign requested_page = "/publications/we-are-anonymous-we-are-legion/" %}
 
 {% assign backlinks = site.data.backlinks[requested_page] %}
 
