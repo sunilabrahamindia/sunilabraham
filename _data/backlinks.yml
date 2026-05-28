@@ -1,7 +1,14 @@
-/publications/example-page/:
-  - /articles/test-article/
-  - /events/sample-event/
+/publications/:
+  - /newest/
+  - /random/
 
-/articles/test-article/:
-  - /projects/demo-project/
+/projects/:
+  - /
+  - /newest/
 
+/events/:
+  - /categories/
+  - /tools/what-links-here/
+
+/media/:
+  - /mentions/
