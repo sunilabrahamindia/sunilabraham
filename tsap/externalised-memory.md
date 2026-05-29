@@ -55,7 +55,7 @@ These records are intended primarily for future maintainers and future AI-assist
 
 They serve as portable project memory.
 
-## Why Externalise Memory?
+## Why
 
 The approach offers several advantages.
 
