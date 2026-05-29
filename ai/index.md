@@ -20,7 +20,7 @@ created: 2025-12-30
   <div class="ai-pulse"></div>
 </div>
 
-The **Artificial Intelligence Portal** gathers material related to Sunil Abraham's engagement with artificial intelligence as a policy domain, a regulatory challenge, and a subject of public debate. The content spans technical frameworks, ethical questions, governance models, and the social implications of automated systems across multiple sectors. Readers will find policy briefs, media commentary, and analytical writing that examine how AI intersects with privacy, surveillance, competition, and human rights.
+The **Artificial Intelligence Portal** gathers material related to [Sunil Abraham](/sunil/)'s engagement with artificial intelligence as a policy domain, a regulatory challenge, and a subject of public debate. The content spans technical frameworks, ethical questions, governance models, and the social implications of automated systems across multiple sectors. Readers will find policy briefs, media commentary, and analytical writing that examine how AI intersects with privacy, surveillance, competition, and human rights.
 
 In addition to archival material, the portal will gradually include project notes, analytical essays, short reflections and curated references that respond to contemporary developments in AI. These may range from policy interventions and public commentary to slower, reflective writing that examines how AI reshapes social relations, work, creativity and democratic processes.
 
