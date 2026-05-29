@@ -7,7 +7,7 @@ created: 2026-05-29
 exclude_from_backlinks: true
 ---
 
-{% include under-construction.html %}
+{% include notice.html message="This tool is under active development. The main backlink discovery functionality is working, but some display, title-resolution, duplicate-entry, and interface issues remain and are being refined." %}
 
 {% assign all_content = site.pages | concat: site.documents %}
 {% assign sorted_backlink_keys = site.data.backlinks | sort %}
@@ -40,9 +40,6 @@ exclude_from_backlinks: true
 
 <div class="what-links-here-page">
   <section class="wlh-shell" aria-labelledby="what-links-here-title">
-    <header class="wlh-header">
-      <h1 id="what-links-here-title">What Links Here</h1>
-    </header>
 
     <div class="wlh-panel">
       <form class="wlh-controls" role="search" aria-labelledby="controls-heading" onsubmit="return false;">
@@ -409,14 +406,6 @@ exclude_from_backlinks: true
 <style>
   .what-links-here-page {
     margin-top: 1.5rem;
-  }
-
-  .wlh-header {
-    margin-bottom: 1rem;
-  }
-
-  .wlh-header h1 {
-    margin-bottom: 0;
   }
 
   .wlh-panel {
