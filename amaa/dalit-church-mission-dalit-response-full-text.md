@@ -8,9 +8,29 @@ date: 1996-09
 created: 2026-05-30
 ---
 
-The **full text of [The Dalit Church's Mission — A Dalit Response]** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Indian Missiological Review*, Vol. 18, No. 3, September 1996 (Satprakashan, Indore, for Sacred Heart Theological College, Shillong).
+The **full text of [The Dalit Church's Mission — A Dalit Response](/amaa/dalit-church-mission-dalit-response/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Indian Missiological Review*, Vol. 18, No. 3, September 1996 (Satprakashan, Indore, for Sacred Heart Theological College, Shillong).
 
 This version preserves the original wording, structure, and formatting as presented in the source document.
+
+## Contents
+
+1. [Who Are the Dalits?](#who-are-the-dalits)
+2. [Mission to the Dalit: A Historical Perspective](#historical-perspective)
+   1. [Nature of the Early Mission to the Dalits](#early-mission)
+   2. [Nature of Mission to the Dalit in the Pre-Independence Period](#pre-independence)
+   3. [Nature of Mission to the Dalits in the Post-Independence Period](#post-independence)
+3. [The Nature of Mission to the Dalits Today](#mission-today)
+   1. [Participation in the Economic and Political Empowerment](#economic-political-empowerment)
+   2. [Churches' Participation in Religious Empowerment](#religious-empowerment)
+      1. [What is the Nature of the Religious Problem of the Dalits?](#religious-problem)
+      2. [Quit Hinduism: Answers Ambedkar](#quit-hinduism)
+      3. [Dalits are Hindus: Says Hindu Renaissance](#dalits-are-hindus)
+         1. [The Hindu Claim is Political in its Origin](#hindu-claim-political)
+         2. [Will Hindus Religiously Accept the Dalits as Hindus?](#accept-dalits)
+         3. [Is Conversion then the Answer?](#conversion-answer)
+         4. [Two Visible Trends among the Dalits](#two-trends)
+4. [Conclusion](#conclusion)
+5. [Notes](#notes)
 
 ## Who Are the Dalits? {#who-are-the-dalits}
 
