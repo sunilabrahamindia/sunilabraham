@@ -32,6 +32,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 18. [Version 1.6.2](#version-162)
 19. [Version 1.7](#version-17)
 20. [Version 1.7.1](#version-171)
+21. [Version 1.8](#version-18)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -596,3 +597,37 @@ Completion date: 16 May 2026
 
 **Status** ✅ Done  
 Completion date: 23 May 2026
+
+## Version 1.8
+
+- 25 new pages have been published this week between 24 May 2026 and 30 May 2026.
+
+**Print and PDF Output Improvements**
+- Began implementing a dedicated print stylesheet for The Sunil Abraham Project (TSAP).
+- The new print system removes navigation, headers, footers, utility toolboxes, share bars, navboxes, metadata clutter, animations, and other non-essential interface elements from printed pages.
+- The stylesheet preserves readable typography, article structure, tables, images, and core content while providing cleaner document-style rendering suitable for offline reading, archival use, and future TSAP Books and Pandoc-based export workflows.
+
+**Utility Bar Redesign**
+- Redesigned and simplified the TSAP top utility bar.
+- Replaced the earlier social-share-focused layout with a cleaner utility-oriented interface featuring a compact search box, RSS feed access, and PDF/print support.
+- Existing sticky-header spacing and mobile responsiveness were preserved.
+
+**TSAP Documentation**
+- Published [VS Code Workflow](/tsap/vscode/), a guide to using Visual Studio Code (VS Code) for maintaining The Sunil Abraham Project.
+- The guide covers Git workflow, shortcuts, and practical editing practices.
+
+**Dark Mode Foundation**
+- Implemented an experimental manual dark mode foundation for The Sunil Abraham Project.
+- The system uses a hidden class-based architecture (`tsap-dark-mode`) rather than automatic system-wide activation.
+- Initial implementation includes foundational dark styling for surfaces, typography, links, tables, breadcrumbs, and the footer.
+- The public site remains in stable light mode by default.
+- Dark mode can be enabled selectively through URL parameters and persistent local storage for testing and incremental refinement.
+- The architecture supports gradual page-by-page and component-level dark mode development without disrupting the primary public experience.
+
+**NotebookLM Experiment**
+- Created and curated the public-facing [Essays on Dalits, Religion and Liberation Notebook](https://notebooklm.google.com/notebook/05af378a-8138-41d1-aed7-a99a227da945).
+- The notebook was developed using Google's NotebookLM platform and is based on the collected writings, essays, and archival materials of A. M. A. Ayrookuzhiel.
+- It serves as an experimental research and public-access tool supporting contextual exploration, thematic synthesis, and conversational engagement with Ayrookuzhiel's work on Dalit liberation, religion, caste, and social transformation.
+
+**Status** ✅ Done  
+Completion date: 30 May 2026 (night)
