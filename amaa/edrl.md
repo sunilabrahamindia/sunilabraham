@@ -98,7 +98,7 @@ The essays in this collection span theology, sociology, and history. Selected ch
   </li>
 
   <li>
-    The Dalit Church's Mission — A Dalit Response
+    <a href="/amaa/dalit-church-mission-dalit-response/">The Dalit Church's Mission — A Dalit Response</a>
   </li>
 
   <li>
