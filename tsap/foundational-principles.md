@@ -1,0 +1,169 @@
+---
+layout: default
+title: "TSAP Foundational Principles"
+description: "A foundational charter recording the permanent principles, identity, purpose, and institutional characteristics of The Sunil Abraham Project (TSAP)."
+categories: [TSAP Documentation]
+permalink: /tsap/foundational-principles/
+created: 2026-05-31
+---
+
+<div class="tsap-charter">
+<p class="tsap-charter-label">Foundational Charter</p>  
+<hr class="tsap-charter-rule">
+
+<div class="tsap-charter-toc">
+
+<h2>Contents</h2>
+
+<ul>
+<li><a href="#preamble">Preamble</a></li>
+<li><a href="#article-1">Article 1. Project Name</a></li>
+<li><a href="#article-2">Article 2. Founder</a></li>
+<li><a href="#article-3">Article 3. A. M. A. Ayrookuzhiel Portal</a></li>
+<li><a href="#article-4">Article 4. Parent Project Status</a></li>
+</ul>
+
+</div>
+
+<div class="tsap-charter-preamble">
+
+<p><strong>TSAP Foundational Principles</strong> records the core principles, commitments, and institutional characteristics that are regarded as fundamental to the identity of <strong>The Sunil Abraham Project</strong> (TSAP).</p>
+
+<p>Unlike ordinary policies, guidelines, workflows, technical decisions, or editorial practices, the principles recorded on this page are intended to define the long-term identity, purpose, and structure of the project itself.</p>
+
+<p>The purpose of this document is to record aspects of TSAP that are considered foundational and permanent. It is intended to preserve the project's original purpose, identity, structure, and historical context as the project grows, evolves, and is maintained by present and future contributors.</p>
+
+<p>These principles are not intended to govern routine editorial, technical, design, or operational decisions. Rather, they define characteristics of TSAP that are regarded as fundamental to the nature of the project. Any departure from these principles would constitute a significant change to the nature of TSAP rather than an ordinary project development.</p>
+
+<p><strong>The principles contained in this document are regarded as permanent and non-negotiable.</strong> They shall not be amended, modified, suspended, repealed, superseded, or otherwise altered at any time in the future.</p>
+</div>
+
+<h2 id="preamble">Preamble</h2>
+
+<p>The Sunil Abraham Project was established with a specific identity, purpose, and set of long-term commitments. While many aspects of the project may evolve over time, certain characteristics are regarded as fundamental to its existence.</p>
+
+<p>The principles contained in this document are intended to preserve those characteristics and provide continuity across future generations of contributors, editors, maintainers, and administrators.</p>
+
+<h2 id="article-1">Article 1. Project Name</h2>
+
+<div class="tsap-provision">
+The name of the project shall remain <strong>The Sunil Abraham Project</strong> (TSAP).
+</div>
+
+<p>The project was established under this name and its identity is inseparable from it. The renaming of the project would constitute a fundamental alteration to the nature of TSAP and is therefore regarded as incompatible with these foundational principles.</p>
+
+<h2 id="article-2">Article 2. Founder</h2>
+
+<div class="tsap-provision">
+<strong>Sunil Abraham</strong> is the founder of TSAP.
+</div>
+
+<p>This status is permanent and forms part of the historical record of the project. The founder status of Sunil Abraham shall not be removed, reassigned, transferred, or reinterpreted through any subsequent editorial, organisational, or technical decision.</p>
+
+<p>As founder, Sunil Abraham shall retain ultimate authority over TSAP and all matters relating to its governance, operation, development, and future direction.</p>
+
+<h2 id="article-3">Article 3. A. M. A. Ayrookuzhiel Portal</h2>
+
+<div class="tsap-provision">
+The <strong>A. M. A. Ayrookuzhiel Portal</strong> shall remain a primary, permanent, and central component of TSAP.
+</div>
+
+<p>The development of a comprehensive portal relating to A. M. A. Ayrookuzhiel was one of the principal motivations behind the establishment of TSAP. The portal therefore forms part of the foundational purpose of the project.</p>
+
+<p>The portal shall continue to exist as a distinct and dedicated area within TSAP and shall not be removed or absorbed into unrelated content.</p>
+
+<h2 id="article-4">Article 4. Parent Project Status</h2>
+
+<div class="tsap-provision">
+TSAP shall remain the parent project for all associated initiatives and future developments.
+</div>
+
+<p>TSAP shall continue to function as the principal and parent project within the TSAP ecosystem.</p>
+
+<p>All new projects, initiatives, portals, tools, archives, acquisitions, mergers, and related developments shall operate under TSAP and, where technically and administratively feasible, should preferably use subdomains of <code>sunilabraham.in</code>, such as <code>project.sunilabraham.in</code>.</p>
+
+<p>The creation of associated projects should strengthen the role of TSAP as the central project rather than replace, diminish, or fragment it.</p>
+
+<div class="tsap-draft-notice">
+<p><strong>Document history:</strong> The principles recorded in this document were developed and refined by Tito Dutta between March and May 2026. The final text was discussed with <a href="/sunil/">Sunil Abraham</a> on 31 May 2026 and adopted on the same day.</p></div>
+</div>
+
+<style>
+.tsap-charter-label {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.tsap-charter-rule {
+  border: 0;
+  border-top: 2px solid #999;
+  margin: 0 0 2rem 0;
+}
+
+.tsap-charter-toc {
+  border: 1px solid #ccc;
+  padding: 1rem 1.25rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.tsap-charter-toc h2 {
+  margin-top: 0;
+  border: 0;
+}
+
+.tsap-charter-toc ul {
+  margin-bottom: 0;
+}
+
+.tsap-charter-preamble {
+  border-left: 4px solid #666;
+  padding-left: 1rem;
+  margin: 2rem 0;
+}
+
+.tsap-charter h2 {
+  margin-top: 3rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #ccc;
+}
+
+.tsap-provision {
+  border-left: 4px solid #444;
+  padding-left: 1rem;
+  margin: 1rem 0 1.5rem 0;
+  font-weight: 600;
+}
+
+.tsap-draft-notice {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  font-style: italic;
+  color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tsap-charter-toc {
+    border-color: #555;
+  }
+
+  .tsap-charter h2 {
+    border-bottom-color: #666;
+  }
+
+  .tsap-provision {
+    border-left-color: #999;
+  }
+}
+  @media (prefers-color-scheme: dark) {
+  .tsap-charter-label,
+  .tsap-draft-notice {
+    color: #bbb;
+  }
+}
+</style>
