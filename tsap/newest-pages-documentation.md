@@ -49,6 +49,14 @@ On Friday, 24 April 2026, the following five articles were featured in the Newes
 
 </ol>
 
+## 1 June 2026
+
+On 1 June 2026, the "From the Newest Pages" section on the home page was redesigned and converted from a manually maintained feature into an automated system. Prior to this change, the section was updated by directly editing the `_includes/newest.html` file whenever a new article was selected for display. Titles, URLs, descriptions, and creation dates had to be copied manually into the homepage code, creating a separate layer of maintenance and duplicating information that already existed within the articles themselves.
+
+The redesigned system uses page metadata to generate the section automatically. Pages intended to be eligible for inclusion are marked with `homepage_featured: true` in their front matter. The homepage then identifies all pages carrying this parameter, sorts them by their `created:` date, and displays the five most recently created featured pages. The title, description, URL, and creation date are retrieved directly from page metadata, ensuring that the information displayed on the homepage remains consistent with the underlying pages.
+
+The change was made primarily to reduce routine maintenance and eliminate unnecessary duplication. Adding a page to the section no longer requires editing the homepage; instead, editors simply add `homepage_featured: true` to the page's front matter. As new featured pages are created, older entries automatically fall out of the displayed list without manual intervention. The entries above are preserved as a historical record of the manually maintained era of the feature and document the final configuration of the section before automation was introduced.
+
 <style>
 .newest-archive-list {
   list-style: none;
