@@ -56,21 +56,19 @@ TSAP has begun publishing selected curated materials and archival collections th
 Zenodo deposits may include curated datasets, archival compilations, preserved research publications, structured metadata collections, and static exports of historically significant materials. The use of DOI-backed archival infrastructure complements the project's broader preservation strategy based on redundancy, distributed storage, and open formats.
 
 ## Repository Preservation
-<span class="preservation-status status-not-started">Not Started</span>
+<span class="preservation-status status-active">Active</span>
 
-TSAP is intended to eventually incorporate repository-level preservation workflows based on Git and distributed version control. Such workflows may support long-term preservation, historical version tracking, offline backup creation, distributed cloning, and independent repository mirroring across multiple systems and hosting environments.
+TSAP incorporates repository-level preservation workflows based on Git, distributed version control, public source code hosting, and independent archival infrastructure. These workflows support long-term preservation, historical version tracking, disaster recovery, repository redundancy, and independent verification of the project's development history.
 
-Because the project is built primarily using static files and open formats, repository-level preservation is expected to form an important part of the long-term archival strategy of TSAP. As of May 2026, these repository preservation workflows remain in the planning stage and have not yet been formally implemented.
+Because the project is built primarily using static files and open formats, repository-level preservation forms an important part of the long-term archival strategy of TSAP. Git enables detailed version tracking, historical recovery, distributed cloning, and preservation of the project's evolution over time.
 
-**Planned steps and workflows**
+### Software Heritage
 
-Initial repository preservation workflows are expected to begin with manually downloading complete repository snapshots from GitHub using the repository's "Download ZIP" export option available through the green "Code" button on the repository page. These downloaded ZIP archives may later be renamed using milestone or date-based naming conventions such as `tsap-backup-2026-05.zip` or `tsap-1000-pages-archive.zip`.
+On 31 May 2026 at 17:16:46 UTC, the GitHub repository of The Sunil Abraham Project (TSAP) was <a href="https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/sunilabrahamindia/sunilabraham&visit_type=git">archived</a> on Software Heritage.
 
-Planned preservation workflows may also include creating additional repository snapshots before major restructuring, large-scale editing, permalink modifications, CSS overhauls, automation experiments, or infrastructure changes. These snapshots may function as recovery checkpoints before significant modifications to the project.
+This archival snapshot created an independently preserved copy of the repository outside the primary GitHub hosting environment. The archived repository includes the Git history available at the time of preservation and forms part of TSAP's broader preservation and redundancy strategy.
 
-Future repository preservation plans may additionally involve storing archival copies across multiple environments including local systems, portable storage devices, external storage media, and secondary computers in order to improve redundancy and disaster recovery capability.
-
-Long-term plans may also include experimentation with distributed repository mirrors, Git-based preservation workflows, offline archival exports, and independent preservation redundancy across multiple hosting environments.
+Software Heritage is an international initiative dedicated to collecting, preserving, and providing long-term access to software source code and development history. Its inclusion in TSAP's preservation workflow adds an additional layer of archival resilience beyond GitHub, web archiving services, local backups, and other preservation mechanisms.
 
 ## Offline TSAP
 <span class="preservation-status status-planned">Planned</span>
