@@ -8,6 +8,7 @@ authors: ["Stewart Deck"]
 source: "CIO India"
 permalink: /media/how-ashoka-is-changing-the-world-by-attempting-to-bridge-the-digital-divide-cio-india/
 created: 2026-05-22
+homepage_featured: true
 ---
 
 **How Ashoka Is Changing the World by Attempting to Bridge the Digital Divide** is a *CIO India* article by Stewart Deck, published on 15 August 2001. The report profiles Ashoka Fellows working on the digital divide, including [Sunil Abraham](/sunil/), whose Bangalore-based consulting and technology services organisation, Mahiti, had brought 6,700 volunteer organisations across India online and 570 groups in Bangalore alone.
