@@ -21,9 +21,7 @@ The question of how to display page modification dates emerged naturally as TSAP
 
 One obvious solution involved adding a manual `last_updated:` field to page front matter. While technically simple, this approach quickly revealed practical limitations. Editors would need to remember to update the field every time a page changed. As the repository grew beyond one thousand Markdown files, the maintenance burden became increasingly undesirable.
 
-Several alternative approaches were considered.
-
-One possibility involved using GitHub Actions to generate modification dates automatically during site builds. Another involved using Jekyll plugins capable of exposing Git metadata directly within templates. Other options included external APIs or custom build-time workflows.
+Several alternative approaches were considered. One possibility involved using GitHub Actions to generate modification dates automatically during site builds. Another involved using Jekyll plugins capable of exposing Git metadata directly within templates. Other options included external APIs or custom build-time workflows.
 
 Although these approaches were technically feasible, they introduced additional infrastructure, dependencies, or complexity. TSAP generally favours solutions that are transparent, easy to understand, compatible with static hosting, and simple to maintain over long periods of time.
 
@@ -67,9 +65,7 @@ Because all TSAP content already exists within the Git repository, no additional
 
 ### Generation Script
 
-The second component is a Python script responsible for generating modification-date data from repository history.
-
-The script is located at:
+The second component is a Python script responsible for generating modification-date data from repository history. The script is located at:
 
 ```text
 scripts/update_last_modified.py
@@ -119,12 +115,14 @@ site.data.last_modified
 
 The implementation uses conditional logic:
 
+{% raw %}
 ```liquid
 {% assign last_updated = site.data.last_modified[page.path] %}
 {% if last_updated %}
   Last updated on {{ last_updated | date: "%-d %B %Y" }}.
 {% endif %}
 ```
+{% endraw %}
 
 This ensures that pages with available data display a modification date, while pages without a matching entry simply omit the information.
 
