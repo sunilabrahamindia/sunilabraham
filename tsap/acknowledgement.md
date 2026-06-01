@@ -7,6 +7,8 @@ permalink: /tsap/acknowledgement/
 created: 2026-05-31
 ---
 
+{% include documentation-notice.html %}
+
 **Acknowledgement** records the people, organisations, projects, publications, communities, websites, software, archives, and ideas that have influenced the development of [The Sunil Abraham Project](/articles/sunil-abraham-project/) (TSAP). The purpose of this page is to acknowledge sources of inspiration, learning, guidance, technical approaches, editorial practices, preservation strategies, and broader concepts that have helped shape the project over time.
 
 TSAP has evolved through exposure to a wide range of influences. Some have informed decisions relating to site architecture, metadata, accessibility, preservation, search, documentation, and knowledge organisation. Others have contributed ideas regarding editorial standards, archival practice, visual presentation, digital identity, open-source development, and long-term sustainability.
