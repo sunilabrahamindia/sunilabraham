@@ -5,6 +5,7 @@ description: "Authority control identifiers, bibliographic records, scholarly pr
 permalink: /sunil/authority-control/
 categories: [Sunil Abraham, Authority control]
 created: 2026-05-19
+homepage_featured: true
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">

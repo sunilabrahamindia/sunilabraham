@@ -8,6 +8,7 @@ authors: ["Surabhi Agarwal", "Somesh Jha"]
 source: "Business Standard"
 permalink: /media/saving-privacy-as-we-knew-it-business-standard/
 created: 2026-05-21
+homepage_featured: true
 ---
 
 **Saving Privacy as We Knew It** is a *Business Standard* article by Surabhi Agarwal and Somesh Jha, published on 29 October 2013. The report examines India's stalled privacy legislation and the parallel risk created by government departments publishing citizens' personal data online. [Sunil Abraham](/sunil/), Executive Director of the [Centre for Internet and Society](/cis/), is quoted on the inadequacy of existing data protection provisions and the risk of 360-degree profiling through linked government databases.
