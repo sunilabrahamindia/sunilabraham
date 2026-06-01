@@ -7,9 +7,9 @@ permalink: /tsap/newest-pages-documentation/
 created: 2026-04-25
 ---
 
-The **From the Newest Pages** section on the [home page](/) features a rotating selection of recently added pages. This archive records which articles were shown and when, as a permanent editorial log.
+The **From the Newest Pages** section on the [home page](/#from-the-newest-pages) highlights recently created featured pages from across The Sunil Abraham Project (TSAP).
 
-Each entry below reflects one edition of the section — the five articles displayed on that date, in the order they appeared (newest created, first).
+Prior to 1 June 2026, the section was maintained manually and this page served as an editorial record of the articles displayed on specific dates. On 1 June 2026, the feature was redesigned and automated using page metadata. This page now documents the history and operation of the feature while preserving records from the manually maintained era.
 
 ## 24 April 2026
 
