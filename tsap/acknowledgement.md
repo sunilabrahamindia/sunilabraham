@@ -33,10 +33,9 @@ While TSAP does not attempt to replicate Wikidata's scale, data model, or functi
 
 ## Pranesh Prakash's Website {#pranesh}
 
-Pranesh Prakash's website ([pranesh.in](https://pranesh.in/)) has been an important influence on TSAP's approach to presenting research, publications, and public output through a long-term personal website.
+Pranesh Prakash's website ([pranesh.in](https://pranesh.in/)) was among the websites reviewed during the planning and early development of TSAP. It was one of several examples examined while considering how a long-term research, publication, and archival website could be structured.
 
-The site demonstrated how a researcher's work could be organised and presented in a structured, accessible, and professionally maintained manner while remaining independent and personally controlled. Particular influence can be seen in TSAP's emphasis on publications, media coverage, and the long-term preservation of public, intellectual, and professional output.
+The site influenced aspects of TSAP's information architecture, particularly the idea of maintaining dedicated sections for publications, media coverage, and other forms of public output. Elements of TSAP's publication presentation, including citation-oriented features intended to support academic referencing and reuse, were also influenced by approaches observed on the site.
 
-Pranesh's website also reinforced the value of treating a personal website as a durable public record. This perspective contributed to TSAP's broader approach to documentation, archiving, and knowledge organisation.
+The site also demonstrated how a personal website could serve as a long-term record of professional and intellectual work. While TSAP has since developed its own design, workflows, technical implementation, and editorial approach, the site formed part of the broader set of references considered during the project's formative period.
 
-The influence of the site extends beyond specific design elements and continues to inform aspects of TSAP's development, organisation, and evolution.
