@@ -5,6 +5,7 @@ permalink: /amaa/religion-culture-dalits-struggle-liberation/
 categories: [A. M. A. Ayrookuzhiel, Publications]
 description: "A. M. A. Ayrookuzhiel's 1986 essay examining the relationship between religion, caste hierarchy, Dalit oppression, cultural subordination, protest movements, and debates surrounding Gandhi, Ambedkar, and Dalit liberation."
 created: 2026-05-26
+homepage_featured: true
 ---
 
 ***Religion and Culture in Dalits' Struggle for Liberation*** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), first published in *Religion and Society*, Vol. 33, No. 2, June 1986. The essay examines the religio-cultural dimensions of Dalit oppression in India and argues that caste hierarchy cannot be understood solely in economic or political terms. A. M. A. Ayrookuzhiel argues that Dalit deprivation also operates through religious values, ritual structures, symbolic hierarchy, and cultural subordination embedded within Brahmanical Hindu traditions. The essay discusses the historical relationship between Dalit communities and caste Hindu society, the continuing role of purity and pollution in religious life, the impact of modernity and state policy, Dalit protest traditions and religious movements, and the contrasting approaches of Mahatma Gandhi and Dr. B. R. Ambedkar to caste and untouchability.
