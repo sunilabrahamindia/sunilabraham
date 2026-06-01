@@ -7,6 +7,8 @@ permalink: /tsap/featured-media-documentation/
 created: 2026-04-25
 ---
 
+{% include documentation-notice.html %}
+
 The **Featured Media** section on the [home page](/) highlights a selected video or media item from the project. This page records which media was featured and when, as a permanent editorial log. The oldest entry appears first.
 
 ## 25 November 2025

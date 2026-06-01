@@ -8,6 +8,8 @@ permalink: /tsap/what-links-here-documentation/
 created: 2026-05-29
 ---
 
+{% include documentation-notice.html %}
+
 The **What Links Here** tool is a navigation and maintenance utility on The Sunil Abraham Project (TSAP). It allows readers and editors to select a page and view other pages across the site that link to it.
 
 The tool serves several purposes. It helps readers discover related content, assists editors in understanding relationships between pages, identifies orphaned or poorly linked content, reveals broken internal links, and provides a practical way to audit the structure of the site. Although primarily designed as a reader-facing navigation aid, it has also proved useful as a quality-control mechanism, helping identify incorrect URLs, outdated links, duplicate targets, and other structural issues across the repository.

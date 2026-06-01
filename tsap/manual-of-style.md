@@ -7,6 +7,8 @@ permalink: /tsap/manual-of-style/
 created: 2026-03-18
 ---
 
+{% include documentation-notice.html %}
+
 The **Manual of Style** page defines the writing and formatting standards followed across The Sunil Abraham Project (TSAP). The aim is to ensure consistency, readability, and long-term maintainability across all pages.
 
 **Note:** This documentation is evolving and may change as the project develops.

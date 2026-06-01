@@ -7,6 +7,8 @@ permalink: /tsap/externalised-memory/
 created: 2026-05-29
 ---
 
+{% include documentation-notice.html %}
+
 The **Externalised Memory** methodology is a documentation and knowledge-preservation practice used within The Sunil Abraham Project (TSAP). The aim is to ensure that important project knowledge does not become dependent on human recollection, individual AI conversations, or temporary working notes.
 
 As TSAP has grown in size and complexity, it has become increasingly important to preserve not only content and source material, but also the reasoning behind technical decisions, workflows, editorial standards, and implementation choices. The externalised memory approach seeks to capture that knowledge in durable records that can be understood by future maintainers, contributors, and AI systems.

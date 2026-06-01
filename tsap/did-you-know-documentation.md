@@ -7,6 +7,8 @@ permalink: /tsap/did-you-know-documentation/
 created: 2026-04-25
 ---
 
+{% include documentation-notice.html %}
+
 The **Did You Know** section on the [home page](/) presents a rotating grid of short, curious facts drawn from pages across the project, covering Sunil Abraham's life and work, digital rights, internet policy, and the scholarship of A. M. A. Ayrookuzhiel. The section was first introduced on 13 November 2025.
 
 Unlike the Featured Article or Featured Media sections, the Did You Know entries were not swapped out in a single batch. Instead, facts were added gradually, one or two at a time, as new pages were created and relevant material emerged. There is no single "edition" date for each entry; the section grew organically over several months. This page records all entries that have appeared, grouped by the broad period in which they were added.

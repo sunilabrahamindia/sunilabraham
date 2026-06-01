@@ -7,6 +7,8 @@ permalink: /tsap/templates/
 created: 2026-04-11
 ---
 
+{% include documentation-notice.html %}
+
 **Templates** are reusable snippets of HTML used across **The Sunil Abraham Project** (TSAP) to maintain visual and structural consistency. On TSAP, templates are implemented as Jekyll include files, which are small, self-contained files stored in the `_includes` directory at the root of the project repository. They are inserted into any page using the Liquid tag `{% raw %}{% include filename.html %}{% endraw %}`, and some accept parameters to customise their output. The full list of include files is available on [**GitHub**](https://github.com/sunilabrahamindia/sunilabraham/tree/main/_includes).
 
 ## Content Templates

@@ -7,6 +7,8 @@ permalink: /tsap/featured-article-documentation/
 created: 2026-04-25
 ---
 
+{% include documentation-notice.html %}
+
 The **Featured Article** section on the [home page](/) highlights a selected article from the project. This page records which article was featured and when, as a permanent editorial log. The newest entry always appears first.
 
 ## 31 October 2025
