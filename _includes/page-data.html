@@ -18,8 +18,12 @@
        tabindex="-1">
       underlying source</a>.
 
-{{ page.path }}
-  </em>
+{% assign last_updated = site.data.last_modified[page.path] %}
+{% if last_updated %}
+  Last updated on {{ last_updated | date: "%-d %B %Y" }}.
+{% endif %}
+
+</em>
 </p>
 
 <style>
