@@ -5,6 +5,7 @@ description: "A foundational charter recording the permanent principles, identit
 categories: [TSAP Documentation]
 permalink: /tsap/foundational-principles/
 created: 2026-05-31
+homepage_featured: true
 ---
 
 <div class="tsap-charter">
