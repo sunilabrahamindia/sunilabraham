@@ -7,6 +7,8 @@ permalink: /tsap/yaml/
 created: 2026-03-18
 ---
 
+{% include documentation-notice.html %}
+
 **YAML** (YAML Ain't Markup Language) is a human-readable data format used to store structured information. In Jekyll-based sites like TSAP, YAML appears as **front matter** — a block of key-value pairs at the very top of every `.md` file, fenced by triple dashes (`---`).
 
 Jekyll reads the front matter before processing the page, using it to set the layout, generate URLs, build navigation, and pass metadata to templates. Without front matter, Jekyll will not process the file as a page and it will not be rendered with a layout.

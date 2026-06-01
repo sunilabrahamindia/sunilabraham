@@ -7,6 +7,8 @@ permalink: /tsap/markdown/
 created: 2026-03-18
 ---
 
+{% include documentation-notice.html %}
+
 **Markdown** is a lightweight markup language used to format text using simple and readable syntax. It allows content to be written in plain text while supporting headings, links, lists, and other structural elements.
 
 Most pages in The Sunil Abraham Project (TSAP) are written in Markdown, typically using the `.md` file format. This ensures that content remains clean, version-controlled, and easy to maintain within the GitHub-based workflow.

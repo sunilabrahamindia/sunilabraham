@@ -7,6 +7,8 @@ permalink: /tsap/vscode/
 created: 2026-05-26
 ---
 
+{% include documentation-notice.html %}
+
 **Visual Studio Code (VS Code)** is used within The Sunil Abraham Project (TSAP) primarily for larger or more structured maintenance work. It complements, rather than replaces, browser-based GitHub editing. This page documents the practical TSAP workflow for VS Code rather than explaining VS Code generally.
 
 There are already many tutorials explaining how to use Visual Studio Code (VS Code). This page is not intended to duplicate those guides. Instead, this document explains how VS Code is used specifically within The Sunil Abraham Project (TSAP), including maintaining large numbers of Markdown pages, editing Jekyll front matter safely, reviewing Git changes before publication, and carrying out repository-wide maintenance work.

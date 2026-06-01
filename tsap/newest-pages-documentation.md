@@ -7,6 +7,8 @@ permalink: /tsap/newest-pages-documentation/
 created: 2026-04-25
 ---
 
+{% include documentation-notice.html %}
+
 The **From the Newest Pages** section on the [home page](/#from-the-newest-pages) highlights recently created featured pages from across The Sunil Abraham Project (TSAP).
 
 Prior to 1 June 2026, the section was maintained manually and this page served as an editorial record of the articles displayed on specific dates. On 1 June 2026, the feature was redesigned and automated using page metadata. This page now documents the history and operation of the feature while preserving records from the manually maintained era.

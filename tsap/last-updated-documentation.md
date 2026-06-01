@@ -7,6 +7,8 @@ permalink: /tsap/automatic-last-updated-dates-documentation/
 created: 2026-06-01
 ---
 
+{% include documentation-notice.html %}
+
 The **Automatic Last Updated Dates** system is a provenance and maintenance feature used across The Sunil Abraham Project (TSAP). It automatically displays the most recent modification date for pages by extracting information from the repository's Git history and making that information available to the site's Page Data component.
 
 The feature was developed to complement the site's existing page creation date system. Since early 2026, TSAP pages have been required to include a permanent `created:` field in their front matter. While this successfully records when a page first entered the project, it does not indicate when a page was subsequently revised, expanded, corrected, or updated. As the repository continued to grow, manually maintaining a separate `last_updated:` field across hundreds or thousands of pages became increasingly impractical.
