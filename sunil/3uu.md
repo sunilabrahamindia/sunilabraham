@@ -5,6 +5,7 @@ description: "An emerging theory examining the underutilisation of digital devic
 categories: [Project pages]
 permalink: /3uu/
 created: 2026-05-16
+homepage_featured: true
 ---
 
 {% include under-construction.html %}
