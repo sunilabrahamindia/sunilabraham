@@ -155,6 +155,23 @@ Flags:
 {% endfor %}
 </ol>
 
+## 6. Broken Links
+
+{% assign broken = site.data.broken_links.broken_links %}
+
+{% if broken.size > 0 %}
+<ol>
+{% for item in broken %}
+  <li>
+    <a href="{{ item.source }}">{{ item.source }}</a><br>
+    <small>Broken target: {{ item.target }}</small>
+  </li>
+{% endfor %}
+</ol>
+{% else %}
+<p>No broken internal links found.</p>
+{% endif %}
+
 ## Notes
 
 - Pages marked `published: false` are excluded by design.
