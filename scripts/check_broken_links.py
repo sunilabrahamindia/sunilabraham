@@ -1,6 +1,9 @@
 import re
 import yaml
+import requests
+import xml.etree.ElementTree as ET
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(".")
 
@@ -13,53 +16,39 @@ IGNORE_DIRS = {
     "sandbox",
 }
 
+SITEMAP_URL = "https://sunilabraham.in/sitemap.xml"
+
 # ------------------------------------------------------------
-# Build list of valid URLs
+# Load valid URLs from sitemap
 # ------------------------------------------------------------
+
+print("Downloading sitemap...")
+
+response = requests.get(SITEMAP_URL, timeout=30)
+response.raise_for_status()
+
+root = ET.fromstring(response.text)
 
 valid_urls = set()
 
-for md_file in ROOT.rglob("*.md"):
-    if any(part in IGNORE_DIRS for part in md_file.parts):
-        continue
+for loc in root.findall(".//{*}loc"):
+    url = loc.text.strip()
 
-    try:
-        text = md_file.read_text(encoding="utf-8")
-    except Exception:
-        continue
+    parsed = urlparse(url)
 
-    permalink_match = re.search(
-        r"^permalink:\s*['\"]?([^'\"]+)['\"]?",
-        text,
-        re.MULTILINE,
-    )
+    path = parsed.path
 
-    if permalink_match:
-        url = permalink_match.group(1).strip()
+    if not path:
+        path = "/"
 
-        valid_urls.add(url)
+    valid_urls.add(path)
 
-        if url.endswith("/"):
-            valid_urls.add(url.rstrip("/"))
-        else:
-            valid_urls.add(url + "/")
-
+    if path.endswith("/"):
+        valid_urls.add(path.rstrip("/"))
     else:
-        rel = md_file.relative_to(ROOT)
+        valid_urls.add(path + "/")
 
-        if rel.name == "index.md":
-            url = "/" + str(rel.parent).replace("\\", "/") + "/"
-        else:
-            url = "/" + str(rel.with_suffix("")).replace("\\", "/") + "/"
-
-        url = re.sub(r"/+", "/", url)
-
-        valid_urls.add(url)
-
-        if url.endswith("/"):
-            valid_urls.add(url.rstrip("/"))
-        else:
-            valid_urls.add(url + "/")
+print(f"Loaded {len(valid_urls)} URLs from sitemap")
 
 # ------------------------------------------------------------
 # Find internal links
@@ -69,12 +58,13 @@ markdown_link_pattern = re.compile(r"\]\((/[^)#?]+)")
 
 broken_links = []
 
-for md_file in ROOT.rglob("*.md"):
-    if any(part in IGNORE_DIRS for part in md_file.parts):
+for file_path in ROOT.rglob("*.md"):
+
+    if any(part in IGNORE_DIRS for part in file_path.parts):
         continue
 
     try:
-        text = md_file.read_text(encoding="utf-8")
+        text = file_path.read_text(encoding="utf-8")
     except Exception:
         continue
 
@@ -84,31 +74,33 @@ for md_file in ROOT.rglob("*.md"):
         target = target.split("?")[0]
 
         if target.endswith("/"):
-            target_alt = target.rstrip("/")
+            alt = target.rstrip("/")
         else:
-            target_alt = target + "/"
+            alt = target + "/"
 
-        # Asset/file links
+        # File links
         if "." in Path(target).name:
+
             actual_file = ROOT / target.lstrip("/")
 
             if not actual_file.exists():
                 broken_links.append(
                     {
-                        "file": str(md_file),
+                        "file": str(file_path),
                         "target": target,
                     }
                 )
 
         # Page links
         else:
+
             if (
                 target not in valid_urls
-                and target_alt not in valid_urls
+                and alt not in valid_urls
             ):
                 broken_links.append(
                     {
-                        "file": str(md_file),
+                        "file": str(file_path),
                         "target": target,
                     }
                 )
@@ -118,21 +110,22 @@ for md_file in ROOT.rglob("*.md"):
 # ------------------------------------------------------------
 
 seen = set()
-unique_broken_links = []
+clean_links = []
 
 for item in broken_links:
+
     key = (item["file"], item["target"])
 
     if key not in seen:
         seen.add(key)
-        unique_broken_links.append(item)
+        clean_links.append(item)
 
 # ------------------------------------------------------------
 # Write YAML
 # ------------------------------------------------------------
 
 output = {
-    "broken_links": unique_broken_links
+    "broken_links": clean_links
 }
 
 with open("_data/broken_links.yml", "w", encoding="utf-8") as f:
@@ -144,5 +137,5 @@ with open("_data/broken_links.yml", "w", encoding="utf-8") as f:
         width=1000,
     )
 
-print(f"Found {len(unique_broken_links)} broken links")
+print(f"Found {len(clean_links)} broken links")
 print("Generated _data/broken_links.yml")
