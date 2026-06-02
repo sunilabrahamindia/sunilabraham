@@ -159,11 +159,13 @@ Flags:
 
 {% assign broken = site.data.broken_links.broken_links %}
 
+<p><strong>Total issues:</strong> {{ broken.size }}</p>
+
 {% if broken.size > 0 %}
 <ol>
 {% for item in broken %}
   <li>
-    <a href="{{ item.source }}">{{ item.source }}</a><br>
+    <strong>{{ item.file }}</strong><br>
     <small>Broken target: {{ item.target }}</small>
   </li>
 {% endfor %}
