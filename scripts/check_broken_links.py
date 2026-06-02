@@ -4,18 +4,18 @@ from pathlib import Path
 
 ROOT = Path(".")
 
-# Directories to ignore
 IGNORE_DIRS = {
     ".git",
     "_site",
-    "node_modules",
     ".jekyll-cache",
+    "node_modules",
     "vendor",
+    "sandbox",
 }
 
-# ------------------------------------------------------------------
-# Build list of valid URLs from front matter permalinks
-# ------------------------------------------------------------------
+# ------------------------------------------------------------
+# Build list of valid URLs
+# ------------------------------------------------------------
 
 valid_urls = set()
 
@@ -35,15 +35,39 @@ for md_file in ROOT.rglob("*.md"):
     )
 
     if permalink_match:
-        valid_urls.add(permalink_match.group(1).strip())
+        url = permalink_match.group(1).strip()
 
-# ------------------------------------------------------------------
+        valid_urls.add(url)
+
+        if url.endswith("/"):
+            valid_urls.add(url.rstrip("/"))
+        else:
+            valid_urls.add(url + "/")
+
+    else:
+        rel = md_file.relative_to(ROOT)
+
+        if rel.name == "index.md":
+            url = "/" + str(rel.parent).replace("\\", "/") + "/"
+        else:
+            url = "/" + str(rel.with_suffix("")).replace("\\", "/") + "/"
+
+        url = re.sub(r"/+", "/", url)
+
+        valid_urls.add(url)
+
+        if url.endswith("/"):
+            valid_urls.add(url.rstrip("/"))
+        else:
+            valid_urls.add(url + "/")
+
+# ------------------------------------------------------------
 # Find internal links
-# ------------------------------------------------------------------
+# ------------------------------------------------------------
+
+markdown_link_pattern = re.compile(r"\]\((/[^)#?]+)")
 
 broken_links = []
-
-markdown_link_pattern = re.compile(r"\]\((/[^)#]+)\)")
 
 for md_file in ROOT.rglob("*.md"):
     if any(part in IGNORE_DIRS for part in md_file.parts):
@@ -56,10 +80,15 @@ for md_file in ROOT.rglob("*.md"):
 
     for target in markdown_link_pattern.findall(text):
 
-        # Ignore anchors
         target = target.split("#")[0]
+        target = target.split("?")[0]
 
-        # Asset/file link
+        if target.endswith("/"):
+            target_alt = target.rstrip("/")
+        else:
+            target_alt = target + "/"
+
+        # Asset/file links
         if "." in Path(target).name:
             actual_file = ROOT / target.lstrip("/")
 
@@ -71,9 +100,12 @@ for md_file in ROOT.rglob("*.md"):
                     }
                 )
 
-        # Page link
+        # Page links
         else:
-            if target not in valid_urls:
+            if (
+                target not in valid_urls
+                and target_alt not in valid_urls
+            ):
                 broken_links.append(
                     {
                         "file": str(md_file),
@@ -81,12 +113,26 @@ for md_file in ROOT.rglob("*.md"):
                     }
                 )
 
-# ------------------------------------------------------------------
-# Write report
-# ------------------------------------------------------------------
+# ------------------------------------------------------------
+# Remove duplicates
+# ------------------------------------------------------------
+
+seen = set()
+unique_broken_links = []
+
+for item in broken_links:
+    key = (item["file"], item["target"])
+
+    if key not in seen:
+        seen.add(key)
+        unique_broken_links.append(item)
+
+# ------------------------------------------------------------
+# Write YAML
+# ------------------------------------------------------------
 
 output = {
-    "broken_links": broken_links
+    "broken_links": unique_broken_links
 }
 
 with open("_data/broken_links.yml", "w", encoding="utf-8") as f:
@@ -98,5 +144,5 @@ with open("_data/broken_links.yml", "w", encoding="utf-8") as f:
         width=1000,
     )
 
-print(f"Found {len(broken_links)} broken links")
+print(f"Found {len(unique_broken_links)} broken links")
 print("Generated _data/broken_links.yml")
