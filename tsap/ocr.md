@@ -17,11 +17,11 @@ The workflow described here evolved through practical experimentation with a ran
 
 ## Background
 
-The Sunil Abraham Project (TSAP) frequently works with scanned source material that exists only in printed or image-based form. This has been particularly common while digitising the writings of [A. M. A. Ayrookuzhiel](/amaa/), where many publications survive only as scanned journal articles, book chapters, conference papers, photocopies, or ageing printed documents.
+The Sunil Abraham Project (TSAP) frequently works with scanned source material that exists only in printed or image-based form. This has been particularly common while digitising the writings of [A. M. A. Ayrookuzhiel](/amaa/), where many publications are available as scanned journal articles, book chapters, conference papers, photocopies, or ageing printed documents.
 
 Examples include journal articles, book chapters, conference papers, theological publications, historical documents, scanned books, and photocopied source material.
 
-Many of these documents were originally produced decades ago and often survive only through scans of varying quality. Some are professionally typeset, while others are typewritten manuscripts, photocopies, or reproductions of older printed material.
+Many of these documents were originally produced decades ago and available through scans of varying quality. Some are professionally typeset, while others are typewritten manuscripts, photocopies, or reproductions of older printed material.
 
 A document may appear perfectly readable to a human reader while producing poor OCR results. In several cases, OCR software successfully recognised large portions of text while simultaneously introducing numerous small errors, omissions, and formatting problems that would have required substantial editorial correction before publication.
 
