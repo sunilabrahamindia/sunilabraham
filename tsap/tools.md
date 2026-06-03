@@ -73,7 +73,7 @@ While Claude is used less frequently than ChatGPT, usage remains substantial. Re
 
 ### Google Gemini
 
-Google Gemini is available through a complimentary Google AI Pro subscription obtained via the Hi AI Pro programme. Gemini is used periodically for research, information gathering, brainstorming, and comparative evaluation of AI-generated outputs.
+Google Gemini is available through a complimentary Google AI Pro subscription obtained through a Reliance Jio promotional offer. Gemini is used periodically for research, information gathering, brainstorming, and comparative evaluation of AI-generated outputs.
 
 Particular use is made of Gemini's research-oriented capabilities, including deep research features when appropriate to a task.
 
