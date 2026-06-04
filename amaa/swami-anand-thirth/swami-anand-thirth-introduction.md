@@ -34,4 +34,6 @@ In my attempt to understand Indian culture and its relation to the oppressed, Fr
 
 Sri Venugopal Kokken, a young confidant of the Swamiji, arranged and brought all the records relating to the activities of the Swamiji from the Narayana Guru Vidyalaya to Bangalore for my study. Sri Lakshman Rao Kadam, helped me with references and provided me with short summaries of lengthy case files and court judgements related to temple entry and other civil rights offences. I express my sincere thanks to both of them.
 
+I am personally also very grateful to Sri Victor Koilpillai and Mrs. Jean Paranjoti-Augustine for editorial assistance and for help in the preparation of the Glossary and Index given at the end of the book. I must also thank the office staff of CISRS, particularly Ms. Gerry Titus, for typing out the manuscript in its several revisions.
+
 {% include navbox-amaa.html %}
