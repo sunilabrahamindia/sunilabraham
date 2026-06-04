@@ -94,7 +94,7 @@ The essays in this collection span theology, sociology, and history. Selected ch
   </li>
 
   <li>
-    Dalits' Challenges and Religious Systems — A People Ignored by Church History
+    <a href="/amaa/dalits-challenges-religious-systems/">Dalits' Challenges and Religious Systems — A People Ignored by Church History</a>
   </li>
 
   <li>
