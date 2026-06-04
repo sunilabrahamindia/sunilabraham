@@ -61,6 +61,9 @@ A striking example is his analysis of the folk ritual *Pottan Theyyam* from Kera
 The essays in this collection span theology, sociology, and history. Selected chapters include:
 
 <ol>
+ <li><a href="/amaa/edrl-foreword/">Foreword</a></li>
+ <li><a href="/amaa/edrl-introduction/">Introduction</a></li>
+   
   <li>
     <a href="/amaa/indian-religious-heritage-social-transformation/">Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS</a>
   </li>
