@@ -1,11 +1,12 @@
 {% unless page.hide_top_bar %}
 <!-- =========================================================
-     TSAP Top Bar 2
-     Utility Toolbox in top-left hamburger menu
-     Licence: CC BY-SA 4.0
+     TSAP Top Bar 2  –  Utility Toolbox in top-left ☰ menu
+     Sunil Abraham Project  |  Licence: CC BY-SA 4.0
      ========================================================= -->
 
 <header id="sc-top-bar-2" role="banner">
+
+  <!-- Left: hamburger -->
   <div id="sc-tb2-left">
     <button
       id="sc-tb2-hamburger"
@@ -20,19 +21,37 @@
     </button>
   </div>
 
+  <!-- Right: search (unchanged from top-bar.html) -->
   <div id="sc-search-area-2">
     <form action="https://www.google.com/search" method="get" role="search" aria-label="Search this site">
       <label for="sc-search-input-2" class="sc-sr-only">Search this site</label>
-      <input type="text" id="sc-search-input-2" name="q" placeholder="Search" autocomplete="off" />
+      <input
+        type="text"
+        id="sc-search-input-2"
+        name="q"
+        placeholder=" Search"
+        aria-label="Search this site"
+        autocomplete="off"
+      />
       <input type="hidden" name="q" id="sc-hidden-search-2" />
     </form>
   </div>
+
 </header>
 
-<nav id="sc-tb2-drawer" aria-label="Utility options" aria-hidden="true" translate="no">
+<!-- ── Utility drawer ─────────────────────────────────────── -->
+<nav
+  id="sc-tb2-drawer"
+  role="navigation"
+  aria-label="Utility options"
+  aria-hidden="true"
+  translate="no"
+>
   <div class="sc-tb2-drawer-inner">
+
     <div class="sc-tb2-drawer-title">&#9881; Utilities</div>
 
+    <!-- TRANSLATE -->
     <div class="sc-tb2-section">
       <div class="sc-tb2-label" id="sc-label-translate">Translate</div>
       <div aria-labelledby="sc-label-translate">{% include translate.html %}</div>
@@ -40,6 +59,7 @@
 
     <hr class="sc-tb2-divider" />
 
+    <!-- FONT FAMILY -->
     <div class="sc-tb2-section">
       <label class="sc-tb2-label" for="sc-tb2-fontSelector">Font</label>
       <select id="sc-tb2-fontSelector" class="sc-tb2-select" aria-label="Choose font family">
@@ -61,6 +81,7 @@
 
     <hr class="sc-tb2-divider" />
 
+    <!-- FONT SIZE -->
     <div class="sc-tb2-section">
       <div class="sc-tb2-label" id="sc-label-fontsize">Font Size</div>
       <div class="sc-tb2-btn-row" role="group" aria-labelledby="sc-label-fontsize">
@@ -68,12 +89,19 @@
         <button id="sc-tb2-textZoomIn"    class="sc-tb2-btn" aria-label="Increase font size">A+</button>
         <button id="sc-tb2-textZoomReset" class="sc-tb2-btn" aria-label="Reset font size">&#8635;</button>
       </div>
-      <label for="sc-tb2-fontSizeSlider" class="sc-sr-only">Font size</label>
-      <input type="range" id="sc-tb2-fontSizeSlider" class="sc-tb2-slider" min="60" max="200" step="5" value="100" aria-label="Font size" aria-valuemin="60" aria-valuemax="200" aria-valuenow="100" />
+      <label for="sc-tb2-fontSizeSlider" class="sc-sr-only">Font size percentage</label>
+      <input
+        type="range"
+        id="sc-tb2-fontSizeSlider"
+        class="sc-tb2-slider"
+        min="60" max="200" step="5" value="100"
+        aria-valuemin="60" aria-valuemax="200" aria-valuenow="100"
+      />
     </div>
 
     <hr class="sc-tb2-divider" />
 
+    <!-- FONT COLOUR -->
     <div class="sc-tb2-section">
       <label class="sc-tb2-label" for="sc-tb2-fontColorSelect">Font Colour</label>
       <select id="sc-tb2-fontColorSelect" class="sc-tb2-select" aria-label="Choose font colour">
@@ -92,6 +120,7 @@
 
     <hr class="sc-tb2-divider" />
 
+    <!-- LINE HEIGHT -->
     <div class="sc-tb2-section">
       <div class="sc-tb2-label" id="sc-label-lineheight">Line Height</div>
       <div class="sc-tb2-btn-row" role="group" aria-labelledby="sc-label-lineheight">
@@ -100,183 +129,458 @@
         <button id="sc-tb2-lineHeightReset"    class="sc-tb2-btn" aria-label="Reset line height">&#8635;</button>
       </div>
       <label for="sc-tb2-lineHeightSlider" class="sc-sr-only">Line height</label>
-      <input type="range" id="sc-tb2-lineHeightSlider" class="sc-tb2-slider" min="1" max="3" step="0.1" value="1.6" aria-label="Line height" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1.6" />
+      <input
+        type="range"
+        id="sc-tb2-lineHeightSlider"
+        class="sc-tb2-slider"
+        min="1" max="3" step="0.1" value="1.6"
+        aria-valuemin="1" aria-valuemax="3" aria-valuenow="1.6"
+      />
     </div>
 
     <hr class="sc-tb2-divider" />
 
+    <!-- LETTER SPACING -->
     <div class="sc-tb2-section">
       <div class="sc-tb2-label" id="sc-label-letter">Letter Spacing</div>
-      <label for="sc-tb2-letterSpacingSlider" class="sc-sr-only">Letter spacing</label>
-      <input type="range" id="sc-tb2-letterSpacingSlider" class="sc-tb2-slider" min="0" max="5" step="0.5" value="0" aria-label="Letter spacing" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" />
+      <label for="sc-tb2-letterSpacingSlider" class="sc-sr-only">Letter spacing in pixels</label>
+      <input
+        type="range"
+        id="sc-tb2-letterSpacingSlider"
+        class="sc-tb2-slider"
+        min="0" max="5" step="0.5" value="0"
+        aria-valuemin="0" aria-valuemax="5" aria-valuenow="0"
+      />
       <button id="sc-tb2-letterSpacingReset" class="sc-tb2-btn" aria-label="Reset letter spacing">&#8635; Reset</button>
     </div>
 
     <hr class="sc-tb2-divider" />
 
+    <!-- WORD SPACING -->
     <div class="sc-tb2-section">
       <div class="sc-tb2-label" id="sc-label-word">Word Spacing</div>
-      <label for="sc-tb2-wordSpacingSlider" class="sc-sr-only">Word spacing</label>
-      <input type="range" id="sc-tb2-wordSpacingSlider" class="sc-tb2-slider" min="0" max="20" step="1" value="0" aria-label="Word spacing" aria-valuemin="0" aria-valuemax="20" aria-valuenow="0" />
+      <label for="sc-tb2-wordSpacingSlider" class="sc-sr-only">Word spacing in pixels</label>
+      <input
+        type="range"
+        id="sc-tb2-wordSpacingSlider"
+        class="sc-tb2-slider"
+        min="0" max="20" step="1" value="0"
+        aria-valuemin="0" aria-valuemax="20" aria-valuenow="0"
+      />
       <button id="sc-tb2-wordSpacingReset" class="sc-tb2-btn" aria-label="Reset word spacing">&#8635; Reset</button>
     </div>
 
     <hr class="sc-tb2-divider" />
 
+    <!-- RESET ALL -->
     <div class="sc-tb2-section">
-      <button id="sc-tb2-resetAllBtn" aria-label="Reset all accessibility settings">&#8635; Reset All Settings</button>
+      <button id="sc-tb2-resetAllBtn" aria-label="Reset all accessibility settings">
+        &#8635; Reset All Settings
+      </button>
     </div>
-  </div>
+
+  </div><!-- /.sc-tb2-drawer-inner -->
 </nav>
 
+<!-- Tap-outside backdrop (mobile & desktop) -->
 <div id="sc-tb2-backdrop" aria-hidden="true"></div>
+
+<!-- Back to Top -->
 <button id="sc-tb2-backToTop" aria-label="Back to top of page" title="Back to top">&#11014;</button>
 
+<!-- ── Styles ─────────────────────────────────────────────── -->
 <style>
+/* ----------------------------------------------------------
+   TOP BAR
+---------------------------------------------------------- */
 #sc-top-bar-2 {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 8px; padding: 6px 12px; height: 44px; box-sizing: border-box;
-  background: rgba(248,250,252,0.97);
-  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
-  border-bottom: 1px solid rgba(0,0,0,0.08);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 12px;
+  height: 44px;
+  box-sizing: border-box;
+  background: rgba(248, 250, 252, 0.97);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 }
+
+/* ----------------------------------------------------------
+   HAMBURGER BUTTON
+---------------------------------------------------------- */
 #sc-tb2-hamburger {
-  display: flex; flex-direction: column; justify-content: center;
-  align-items: center; gap: 5px; width: 44px; height: 44px; padding: 10px;
-  background: none; border: none; border-radius: 6px; cursor: pointer;
-  flex-shrink: 0; transition: background 0.18s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.18s ease;
 }
-#sc-tb2-hamburger:hover { background: rgba(0,0,0,0.07); }
-#sc-tb2-hamburger:focus-visible { outline: 2px solid #1f5fbf; outline-offset: 2px; }
-#sc-tb2-hamburger:active { background: rgba(0,0,0,0.13); }
+#sc-tb2-hamburger:hover  { background: rgba(0, 0, 0, 0.07); }
+#sc-tb2-hamburger:active { background: rgba(0, 0, 0, 0.13); }
+#sc-tb2-hamburger:focus-visible {
+  outline: 2px solid #1f5fbf;
+  outline-offset: 2px;
+}
+
 .sc-tb2-bar {
-  display: block; width: 20px; height: 2px; background: #1e293b;
-  border-radius: 2px; transition: transform 0.22s ease, opacity 0.18s ease;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #1e293b;
+  border-radius: 2px;
+  transition: transform 0.22s ease, opacity 0.18s ease;
   transform-origin: center;
 }
-#sc-tb2-hamburger[aria-expanded="true"] .sc-tb2-bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-#sc-tb2-hamburger[aria-expanded="true"] .sc-tb2-bar:nth-child(2) { opacity: 0; transform: scaleX(0); }
-#sc-tb2-hamburger[aria-expanded="true"] .sc-tb2-bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-#sc-search-area-2 { flex: 0 1 260px; min-width: 0; }
+
+/* Animate ☰ → ✕ */
+#sc-tb2-hamburger[aria-expanded="true"] .sc-tb2-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+#sc-tb2-hamburger[aria-expanded="true"] .sc-tb2-bar:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+#sc-tb2-hamburger[aria-expanded="true"] .sc-tb2-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ----------------------------------------------------------
+   SEARCH AREA  (same proportions as top-bar.html)
+---------------------------------------------------------- */
+#sc-search-area-2 {
+  flex: 0 1 260px;
+  min-width: 0;
+}
 #sc-search-area-2 form { width: 100%; }
+
 #sc-search-area-2 input[type="text"] {
-  width: 100%; height: 32px; padding: 0 12px; box-sizing: border-box;
-  border: 1px solid #cbd5e1; border-radius: 8px; background: #fff;
-  font-size: 14px; color: #1e293b;
+  width: 100%;
+  height: 32px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  font-size: 14px;
+  color: #1e293b;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 #sc-search-area-2 input[type="text"]:focus {
-  outline: none; border-color: #1f5fbf;
-  box-shadow: 0 0 0 3px rgba(31,95,191,0.12);
+  outline: none;
+  border-color: #1f5fbf;
+  box-shadow: 0 0 0 3px rgba(31, 95, 191, 0.12);
 }
 #sc-search-area-2 input[type="text"]::placeholder { color: #64748b; }
+
+/* ----------------------------------------------------------
+   DRAWER
+---------------------------------------------------------- */
 #sc-tb2-drawer {
-  position: fixed; top: 44px; left: 0; z-index: 9998;
-  width: 280px; max-width: calc(100vw - 24px);
-  max-height: calc(100vh - 60px); overflow-y: auto;
-  background: #fff; border: 1px solid rgba(0,0,0,0.09);
-  border-top: none; border-radius: 0 0 10px 0;
-  box-shadow: 4px 6px 20px rgba(0,0,0,0.14);
-  opacity: 0; transform: translateY(-6px); pointer-events: none;
+  position: fixed;
+  top: 44px;
+  left: 0;
+  z-index: 9998;
+  width: 280px;
+  max-width: calc(100vw - 24px);
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-top: none;
+  border-radius: 0 0 10px 0;
+  box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.14);
+
+  /* Hidden state */
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
-#sc-tb2-drawer.sc-tb2-open { opacity: 1; transform: translateY(0); pointer-events: auto; }
-#sc-tb2-drawer:focus { outline: none; }
-.sc-tb2-drawer-inner { padding: 12px 14px 16px; display: flex; flex-direction: column; gap: 10px; }
-.sc-tb2-drawer-title {
-  font-size: 13px; font-weight: 700; color: #002d62;
-  text-align: center; padding-bottom: 8px;
-  border-bottom: 1px solid #dce7f9; letter-spacing: 0.02em;
+#sc-tb2-drawer.sc-tb2-open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
-.sc-tb2-section { display: flex; flex-direction: column; gap: 6px; }
-.sc-tb2-label { font-size: 11px; font-weight: 700; color: #005b96; text-transform: uppercase; letter-spacing: 0.06em; }
+#sc-tb2-drawer:focus { outline: none; }
+
+.sc-tb2-drawer-inner {
+  padding: 12px 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sc-tb2-drawer-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #002d62;
+  text-align: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dce7f9;
+  letter-spacing: 0.02em;
+}
+
+/* ----------------------------------------------------------
+   DRAWER INTERNALS
+---------------------------------------------------------- */
+.sc-tb2-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.sc-tb2-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #005b96;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
 .sc-tb2-select {
-  padding: 6px 8px; width: 100%; border-radius: 6px;
-  border: 1px solid #b0c8e8; font-size: 13px; cursor: pointer;
-  background: #fff; color: #1e293b; transition: border-color 0.18s ease;
+  padding: 6px 8px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #b0c8e8;
+  font-size: 13px;
+  cursor: pointer;
+  background: #ffffff;
+  color: #1e293b;
+  transition: border-color 0.18s ease;
 }
 .sc-tb2-select:hover { border-color: #2d4d7a; }
 .sc-tb2-select:focus-visible { outline: 2px solid #1f5fbf; outline-offset: 2px; }
-.sc-tb2-slider { width: 100%; cursor: pointer; accent-color: #2d4d7a; height: 20px; }
+
+.sc-tb2-slider {
+  width: 100%;
+  cursor: pointer;
+  accent-color: #2d4d7a;
+  height: 20px; /* larger touch target */
+}
 .sc-tb2-btn-row { display: flex; gap: 6px; }
+
 .sc-tb2-btn {
-  background: #e6f2ff; color: #1e2a38; border: 1px solid #b0c8e8;
-  padding: 5px 10px; border-radius: 6px; cursor: pointer;
-  font-size: 13px; min-height: 36px; transition: background 0.18s ease;
+  background: #e6f2ff;
+  color: #1e2a38;
+  border: 1px solid #b0c8e8;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  min-height: 36px;
+  transition: background 0.18s ease;
 }
-.sc-tb2-btn:hover { background: #c8e0f9; }
-.sc-tb2-btn:focus-visible { outline: 2px solid #1f5fbf; outline-offset: 2px; }
+.sc-tb2-btn:hover  { background: #c8e0f9; }
 .sc-tb2-btn:active { background: #a8cef5; }
-.sc-tb2-divider { border: none; border-top: 1px solid #dce7f9; margin: 0; }
+.sc-tb2-btn:focus-visible { outline: 2px solid #1f5fbf; outline-offset: 2px; }
+
+.sc-tb2-divider {
+  border: none;
+  border-top: 1px solid #dce7f9;
+  margin: 0;
+}
+
 #sc-tb2-resetAllBtn {
-  width: 100%; background: #c62828; color: #fff; border: none;
-  padding: 9px; border-radius: 6px; cursor: pointer;
-  font-size: 13px; font-weight: 700; min-height: 40px; transition: background 0.18s ease;
+  width: 100%;
+  background: #c62828;
+  color: #ffffff;
+  border: none;
+  padding: 9px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  min-height: 40px;
+  transition: background 0.18s ease;
 }
-#sc-tb2-resetAllBtn:hover { background: #922b21; }
+#sc-tb2-resetAllBtn:hover  { background: #922b21; }
+#sc-tb2-resetAllBtn:active { background: #6b1a18; }
 #sc-tb2-resetAllBtn:focus-visible { outline: 2px solid #922b21; outline-offset: 2px; }
-#sc-tb2-backdrop { display: none; position: fixed; inset: 0; z-index: 9997; background: transparent; }
+
+/* ----------------------------------------------------------
+   BACKDROP
+---------------------------------------------------------- */
+#sc-tb2-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9997;
+  background: transparent;
+}
 #sc-tb2-backdrop.sc-tb2-open { display: block; }
+
+/* ----------------------------------------------------------
+   BACK TO TOP
+---------------------------------------------------------- */
 #sc-tb2-backToTop {
-  position: fixed; bottom: 35px; left: 10px;
-  background: #2d4d7a; color: #fff; border: none; border-radius: 6px;
-  padding: 8px 12px; font-size: 16px; cursor: pointer; z-index: 9996;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2); display: none;
-  min-width: 44px; min-height: 44px; transition: background 0.18s ease;
+  position: fixed;
+  bottom: 35px;
+  left: 10px;
+  background: #2d4d7a;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 9996;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  min-width: 44px;
+  min-height: 44px;
+  transition: background 0.18s ease;
 }
-#sc-tb2-backToTop:hover { background: #1a3355; }
+#sc-tb2-backToTop:hover  { background: #1a3355; }
 #sc-tb2-backToTop:focus-visible { outline: 2px solid #1f5fbf; outline-offset: 2px; }
+
+/* ----------------------------------------------------------
+   SCREEN-READER ONLY
+---------------------------------------------------------- */
 .sc-sr-only {
-  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
-  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
+
+/* ----------------------------------------------------------
+   BODY OFFSET
+---------------------------------------------------------- */
 body { padding-top: 44px; }
 
+/* ----------------------------------------------------------
+   DARK MODE
+---------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
+
   #sc-top-bar-2 {
-    background: rgba(20,24,31,0.97);
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+    background: rgba(20, 24, 31, 0.97);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
   }
+
   .sc-tb2-bar { background: #e2e8f0; }
-  #sc-tb2-hamburger:hover { background: rgba(255,255,255,0.09); }
-  #sc-search-area-2 input[type="text"] { background: #1e293b; color: #f1f5f9; border-color: #334155; }
+  #sc-tb2-hamburger:hover  { background: rgba(255, 255, 255, 0.09); }
+  #sc-tb2-hamburger:active { background: rgba(255, 255, 255, 0.15); }
+
+  #sc-search-area-2 input[type="text"] {
+    background: #1e293b;
+    color: #f1f5f9;
+    border-color: #334155;
+  }
   #sc-search-area-2 input[type="text"]::placeholder { color: #94a3b8; }
-  #sc-tb2-drawer { background: #1c2333; border-color: rgba(255,255,255,0.1); box-shadow: 4px 6px 20px rgba(0,0,0,0.5); }
+
+  #sc-tb2-drawer {
+    background: #1c2333;
+    border-color: rgba(255, 255, 255, 0.10);
+    box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.50);
+  }
   .sc-tb2-drawer-title { color: #93c5fd; border-bottom-color: #2d3f5a; }
-  .sc-tb2-label { color: #7dd3fc; }
-  .sc-tb2-select { background: #1e293b; color: #f1f5f9; border-color: #334155; }
-  .sc-tb2-btn { background: #1e3a5f; color: #e2e8f0; border-color: #2d5080; }
-  .sc-tb2-btn:hover { background: #274d7a; }
+  .sc-tb2-label        { color: #7dd3fc; }
+  .sc-tb2-select {
+    background: #1e293b;
+    color: #f1f5f9;
+    border-color: #334155;
+  }
   .sc-tb2-divider { border-top-color: #2d3f5a; }
+
+  .sc-tb2-btn {
+    background: #1e3a5f;
+    color: #e2e8f0;
+    border-color: #2d5080;
+  }
+  .sc-tb2-btn:hover  { background: #274d7a; }
+  .sc-tb2-btn:active { background: #2f5e90; }
+
+  #sc-tb2-backToTop { background: #1e3a5f; }
+  #sc-tb2-backToTop:hover { background: #274d7a; }
 }
+
+/* ----------------------------------------------------------
+   MOBILE
+---------------------------------------------------------- */
 @media (max-width: 768px) {
-  #sc-top-bar-2 { padding: 5px 8px; gap: 6px; }
-  #sc-search-area-2 { flex: 0 1 170px; max-width: 170px; }
-  #sc-search-area-2 input[type="text"] { height: 30px; font-size: 13px; }
-  #sc-tb2-drawer { width: calc(100vw - 12px); max-width: 320px; max-height: calc(100dvh - 56px); }
+
+  #sc-top-bar-2 {
+    padding: 5px 8px;
+    gap: 6px;
+  }
+
+  #sc-search-area-2 {
+    flex: 0 1 170px;
+    max-width: 170px;
+  }
+  #sc-search-area-2 input[type="text"] {
+    height: 30px;
+    font-size: 13px;
+  }
+
+  #sc-tb2-drawer {
+    width: calc(100vw - 12px);
+    max-width: 320px;
+    max-height: calc(100dvh - 56px);
+  }
+
+  body { padding-top: 44px !important; }
 }
+
+/* ----------------------------------------------------------
+   REDUCED MOTION
+---------------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
-  #sc-tb2-drawer, .sc-tb2-bar, #sc-tb2-hamburger, #sc-tb2-backToTop {
-    transition: none !important; animation: none !important;
+  #sc-tb2-drawer,
+  .sc-tb2-bar,
+  #sc-tb2-hamburger,
+  #sc-tb2-backToTop,
+  .sc-tb2-btn,
+  .sc-tb2-select {
+    transition: none !important;
+    animation: none !important;
   }
 }
+
+/* ----------------------------------------------------------
+   PRINT
+---------------------------------------------------------- */
 @media print {
-  #sc-top-bar-2, #sc-tb2-drawer, #sc-tb2-backdrop, #sc-tb2-backToTop { display: none !important; }
+  #sc-top-bar-2,
+  #sc-tb2-drawer,
+  #sc-tb2-backdrop,
+  #sc-tb2-backToTop {
+    display: none !important;
+  }
   body { padding-top: 0 !important; }
 }
 </style>
 
+<!-- ── JavaScript ─────────────────────────────────────────── -->
 <script>
 (function () {
   'use strict';
+
   var hamburger = document.getElementById('sc-tb2-hamburger');
   var drawer    = document.getElementById('sc-tb2-drawer');
   var backdrop  = document.getElementById('sc-tb2-backdrop');
   var topBtn    = document.getElementById('sc-tb2-backToTop');
   var target    = document.querySelector('main#maincontent');
+
+  /* ── DRAWER OPEN / CLOSE ───────────────────────────────── */
 
   function openDrawer() {
     drawer.classList.add('sc-tb2-open');
@@ -287,6 +591,7 @@ body { padding-top: 44px; }
     var first = drawer.querySelector('select, button, input[type="range"]');
     if (first) first.focus();
   }
+
   function closeDrawer() {
     drawer.classList.remove('sc-tb2-open');
     backdrop.classList.remove('sc-tb2-open');
@@ -295,114 +600,186 @@ body { padding-top: 44px; }
     drawer.setAttribute('aria-hidden', 'true');
     hamburger.focus();
   }
+
   hamburger.addEventListener('click', function () {
     drawer.classList.contains('sc-tb2-open') ? closeDrawer() : openDrawer();
   });
   backdrop.addEventListener('click', closeDrawer);
+
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && drawer.classList.contains('sc-tb2-open')) closeDrawer();
+    if (e.key === 'Escape' && drawer.classList.contains('sc-tb2-open')) {
+      closeDrawer();
+    }
   });
+
+  /* Focus trap inside drawer */
   drawer.addEventListener('keydown', function (e) {
     if (e.key !== 'Tab') return;
     var focusable = Array.prototype.slice.call(
       drawer.querySelectorAll('button, select, input[type="range"]')
     );
     if (!focusable.length) return;
-    var first = focusable[0], last = focusable[focusable.length - 1];
-    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    var first = focusable[0];
+    var last  = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault(); last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault(); first.focus();
+    }
   });
 
-  var fontSize = 100;
-  var fss = document.getElementById('sc-tb2-fontSizeSlider');
+  /* ── FONT SIZE ─────────────────────────────────────────── */
+
+  var fontSize   = 100;
+  var fontSizeSlider = document.getElementById('sc-tb2-fontSizeSlider');
+
   function applyFontSize(v) {
     fontSize = Math.min(200, Math.max(60, v));
     if (target) target.style.fontSize = fontSize + '%';
-    fss.value = fontSize; fss.setAttribute('aria-valuenow', fontSize);
+    fontSizeSlider.value = fontSize;
+    fontSizeSlider.setAttribute('aria-valuenow', fontSize);
   }
-  document.getElementById('sc-tb2-textZoomIn').addEventListener('click',    function () { applyFontSize(fontSize + 10); });
-  document.getElementById('sc-tb2-textZoomOut').addEventListener('click',   function () { applyFontSize(fontSize - 10); });
-  document.getElementById('sc-tb2-textZoomReset').addEventListener('click', function () { applyFontSize(100); });
-  fss.addEventListener('input', function () { applyFontSize(parseFloat(fss.value)); });
+
+  document.getElementById('sc-tb2-textZoomIn').addEventListener('click',
+    function () { applyFontSize(fontSize + 10); });
+  document.getElementById('sc-tb2-textZoomOut').addEventListener('click',
+    function () { applyFontSize(fontSize - 10); });
+  document.getElementById('sc-tb2-textZoomReset').addEventListener('click',
+    function () { applyFontSize(100); });
+  fontSizeSlider.addEventListener('input',
+    function () { applyFontSize(parseFloat(fontSizeSlider.value)); });
   applyFontSize(100);
 
-  var lh = 1.6;
+  /* ── LINE HEIGHT ───────────────────────────────────────── */
+
+  var lh  = 1.6;
   var lhs = document.getElementById('sc-tb2-lineHeightSlider');
+
   function applyLineHeight(v) {
     lh = Math.round(Math.min(3, Math.max(1, v)) * 10) / 10;
     if (target) target.style.lineHeight = lh;
-    lhs.value = lh; lhs.setAttribute('aria-valuenow', lh);
+    lhs.value = lh;
+    lhs.setAttribute('aria-valuenow', lh);
   }
-  document.getElementById('sc-tb2-lineHeightIncrease').addEventListener('click', function () { applyLineHeight(lh + 0.1); });
-  document.getElementById('sc-tb2-lineHeightDecrease').addEventListener('click', function () { applyLineHeight(lh - 0.1); });
-  document.getElementById('sc-tb2-lineHeightReset').addEventListener('click',    function () { applyLineHeight(1.6); });
-  lhs.addEventListener('input', function () { applyLineHeight(parseFloat(lhs.value)); });
+
+  document.getElementById('sc-tb2-lineHeightIncrease').addEventListener('click',
+    function () { applyLineHeight(lh + 0.1); });
+  document.getElementById('sc-tb2-lineHeightDecrease').addEventListener('click',
+    function () { applyLineHeight(lh - 0.1); });
+  document.getElementById('sc-tb2-lineHeightReset').addEventListener('click',
+    function () { applyLineHeight(1.6); });
+  lhs.addEventListener('input',
+    function () { applyLineHeight(parseFloat(lhs.value)); });
   applyLineHeight(1.6);
 
-  var ls = 0;
+  /* ── LETTER SPACING ────────────────────────────────────── */
+
+  var ls  = 0;
   var lss = document.getElementById('sc-tb2-letterSpacingSlider');
+
   function applyLetterSpacing(v) {
-    ls = v; if (target) target.style.letterSpacing = v + 'px';
-    lss.value = v; lss.setAttribute('aria-valuenow', v);
+    ls = v;
+    if (target) target.style.letterSpacing = v + 'px';
+    lss.value = v;
+    lss.setAttribute('aria-valuenow', v);
   }
-  lss.addEventListener('input', function () { applyLetterSpacing(parseFloat(lss.value)); });
-  document.getElementById('sc-tb2-letterSpacingReset').addEventListener('click', function () { applyLetterSpacing(0); });
+
+  lss.addEventListener('input',
+    function () { applyLetterSpacing(parseFloat(lss.value)); });
+  document.getElementById('sc-tb2-letterSpacingReset').addEventListener('click',
+    function () { applyLetterSpacing(0); });
   applyLetterSpacing(0);
 
-  var ws = 0;
+  /* ── WORD SPACING ──────────────────────────────────────── */
+
+  var ws  = 0;
   var wss = document.getElementById('sc-tb2-wordSpacingSlider');
+
   function applyWordSpacing(v) {
-    ws = v; if (target) target.style.wordSpacing = v + 'px';
-    wss.value = v; wss.setAttribute('aria-valuenow', v);
+    ws = v;
+    if (target) target.style.wordSpacing = v + 'px';
+    wss.value = v;
+    wss.setAttribute('aria-valuenow', v);
   }
-  wss.addEventListener('input', function () { applyWordSpacing(parseFloat(wss.value)); });
-  document.getElementById('sc-tb2-wordSpacingReset').addEventListener('click', function () { applyWordSpacing(0); });
+
+  wss.addEventListener('input',
+    function () { applyWordSpacing(parseFloat(wss.value)); });
+  document.getElementById('sc-tb2-wordSpacingReset').addEventListener('click',
+    function () { applyWordSpacing(0); });
   applyWordSpacing(0);
 
+  /* ── FONT FAMILY ───────────────────────────────────────── */
+
   var fontMap = {
-    arial:'Arial, sans-serif', atkinson:"'Atkinson Hyperlegible', sans-serif",
-    courier:"'Courier New', monospace", georgia:'Georgia, serif',
-    lato:"'Lato', sans-serif", lexend:"'Lexend', sans-serif",
-    merriweather:"'Merriweather', serif", opendyslexic:"'OpenDyslexic', sans-serif",
-    playfair:"'Playfair Display', serif", roboto:"'Roboto', sans-serif",
-    sourcesans:"'Source Sans 3', sans-serif", ubuntu:"'Ubuntu', sans-serif"
+    arial:        'Arial, sans-serif',
+    atkinson:     "'Atkinson Hyperlegible', sans-serif",
+    courier:      "'Courier New', monospace",
+    georgia:      'Georgia, serif',
+    lato:         "'Lato', sans-serif",
+    lexend:       "'Lexend', sans-serif",
+    merriweather: "'Merriweather', serif",
+    opendyslexic: "'OpenDyslexic', sans-serif",
+    playfair:     "'Playfair Display', serif",
+    roboto:       "'Roboto', sans-serif",
+    sourcesans:   "'Source Sans 3', sans-serif",
+    ubuntu:       "'Ubuntu', sans-serif"
   };
+
   var googleFonts = {
-    atkinson:'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap',
-    lato:'https://fonts.googleapis.com/css2?family=Lato&display=swap',
-    lexend:'https://fonts.googleapis.com/css2?family=Lexend&display=swap',
-    merriweather:'https://fonts.googleapis.com/css2?family=Merriweather&display=swap',
-    opendyslexic:'https://fonts.cdnfonts.com/css/opendyslexic',
-    playfair:'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap',
-    roboto:'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
-    sourcesans:'https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap',
-    ubuntu:'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'
+    atkinson:     'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap',
+    lato:         'https://fonts.googleapis.com/css2?family=Lato&display=swap',
+    lexend:       'https://fonts.googleapis.com/css2?family=Lexend&display=swap',
+    merriweather: 'https://fonts.googleapis.com/css2?family=Merriweather&display=swap',
+    opendyslexic: 'https://fonts.cdnfonts.com/css/opendyslexic',
+    playfair:     'https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap',
+    roboto:       'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
+    sourcesans:   'https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap',
+    ubuntu:       'https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'
   };
+
   var loadedFonts = {};
-  function loadFont(k) {
-    if (googleFonts[k] && !loadedFonts[k]) {
+
+  function loadFont(key) {
+    if (googleFonts[key] && !loadedFonts[key]) {
       var l = document.createElement('link');
-      l.rel = 'stylesheet'; l.href = googleFonts[k];
-      document.head.appendChild(l); loadedFonts[k] = true;
+      l.rel = 'stylesheet';
+      l.href = googleFonts[key];
+      document.head.appendChild(l);
+      loadedFonts[key] = true;
     }
   }
-  function applyFont(k) {
-    if (k) loadFont(k);
-    if (target) target.style.fontFamily = k ? fontMap[k] : '';
+
+  function applyFont(key) {
+    if (key) loadFont(key);
+    if (target) target.style.fontFamily = key ? fontMap[key] : '';
   }
+
   var fs = document.getElementById('sc-tb2-fontSelector');
   fs.addEventListener('change', function () { applyFont(fs.value); });
 
-  function applyFontColor(v) { if (target) target.style.color = v || ''; }
+  /* ── FONT COLOUR ───────────────────────────────────────── */
+
+  function applyFontColor(v) {
+    if (target) target.style.color = v || '';
+  }
+
   var fcs = document.getElementById('sc-tb2-fontColorSelect');
   fcs.addEventListener('change', function () { applyFontColor(fcs.value); });
 
+  /* ── RESET ALL ─────────────────────────────────────────── */
+
   document.getElementById('sc-tb2-resetAllBtn').addEventListener('click', function () {
-    applyFontSize(100); applyLineHeight(1.6);
-    applyLetterSpacing(0); applyWordSpacing(0);
-    applyFont(''); applyFontColor('');
-    fs.value = ''; fcs.value = '';
+    applyFontSize(100);
+    applyLineHeight(1.6);
+    applyLetterSpacing(0);
+    applyWordSpacing(0);
+    applyFont('');
+    applyFontColor('');
+    fs.value  = '';
+    fcs.value = '';
   });
+
+  /* ── SEARCH (site-scoped, same logic as top-bar.html) ──── */
 
   var sf = document.querySelector('#sc-search-area-2 form');
   if (sf) {
@@ -413,12 +790,16 @@ body { padding-top: 44px; }
     });
   }
 
+  /* ── BACK TO TOP ───────────────────────────────────────── */
+
   window.addEventListener('scroll', function () {
     topBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
   }, { passive: true });
+
   topBtn.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
 }());
 </script>
 {% endunless %}
