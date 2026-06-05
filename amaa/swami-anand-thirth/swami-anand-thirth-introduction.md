@@ -2,7 +2,7 @@
 layout: default
 title: "Swami Anand Thirth: Introduction"
 permalink: /amaa/swami-anand-thirth-introduction/
-categories: [A. M. A. Ayrookuzhiel, Books]
+categories: [A. M. A. Ayrookuzhiel, Swami Anand Thirth]
 description: "The introduction to A. M. A. Ayrookuzhiel's 1987 study of Swami Anand Thirth, outlining the author's research methodology, engagement with the anti-untouchability activist, and reflections on the limitations of Gandhian approaches to caste reform."
 authors: A. M. A. Ayrookuzhiel
 created: 2026-06-05
