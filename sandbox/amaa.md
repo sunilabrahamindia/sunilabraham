@@ -142,6 +142,31 @@ Christian Institute for the Study of Religion and Society (CISRS) and Christian 
 - **Sathianathan Clarke** is an Indian Christian theologian and scholar known for his contributions to Dalit theology, liberation theology, Pentecostal studies, and interreligious thought. Originally from Tamil Nadu, Clarke has written extensively on caste, marginalisation, and the theological experiences of oppressed communities in South Asia. His work helped bring Dalit theological concerns into wider international theological and academic discussions. (Contemporary scholar in the same field)
 - **D. R. Nagaraj** (1954–1998) was an Indian writer, cultural critic, scholar, and public intellectual best known for his influential work on caste, Dalit movements, Kannada literature, and Indian intellectual history. Writing primarily in Kannada and English, Nagaraj explored the relationships between Dalit politics, Gandhian thought, folklore, oral traditions, and social memory. His essays often examined the cultural and philosophical dimensions of caste beyond purely political frameworks. His best-known work, *The Flaming Feet and Other Essays*, became an important contribution to Dalit studies and modern Indian social thought.
 
+## Source Variants and Editorial Differences
+
+For the A. M. A. Ayrookuzhiel digital edition project, the primary source currently being transcribed is *Essays on Dalits, Religion and Liberation* (2006), the posthumous collected volume of writings by Rev. A. M. A. Ayrookuzhiel (Athanasius Mathen Abraham Ayrookuzhiel, 1933–1996).
+
+The initial assumption was that, because this volume was compiled after the author's death and brings together many of his major writings, it would represent the final edited or corrected version of the texts. However, during transcription work it became clear that the collected volume sometimes differs from earlier publications.
+
+These differences are not necessarily errors. They may reflect editorial decisions, abridgements, omissions, formatting changes, or revisions introduced during republication. Therefore, when discrepancies are discovered, they should be documented rather than automatically corrected.
+
+### Example: *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*
+
+The Introduction reproduced in *Essays on Dalits, Religion and Liberation* differs from the Introduction found in the original 1987 edition of *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*.
+
+Observed differences include:
+
+* Footnotes present in the 1987 edition are omitted from the version reproduced in the 2006 collected volume.
+* Certain acknowledgement passages appearing in the 1987 edition are absent from the collected volume.
+* Additional editorial differences may exist and should not be assumed absent until a full comparison has been undertaken.
+
+### Current Editorial Practice
+
+Until a systematic comparison has been completed, transcriptions should follow the text as printed in *Essays on Dalits, Religion and Liberation* when that volume is being used as the source.
+
+Material found only in earlier editions should not be silently inserted into the transcription. Where significant differences are identified, they may be documented through editorial notes, comparison pages, or project documentation.
+
+This approach preserves transparency and ensures that readers can distinguish between the text of the collected volume and material found only in earlier editions.
 
 {% include navbox-amaa.html %}
 
