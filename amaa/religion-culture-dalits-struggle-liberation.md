@@ -2,7 +2,7 @@
 layout: default
 title: "Religion and Culture in Dalits' Struggle for Liberation"
 permalink: /amaa/religion-culture-dalits-struggle-liberation/
-categories: [A. M. A. Ayrookuzhiel, Publications]
+categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's 1986 essay examining the relationship between religion, caste hierarchy, Dalit oppression, cultural subordination, protest movements, and debates surrounding Gandhi, Ambedkar, and Dalit liberation."
 created: 2026-05-26
 homepage_featured: true

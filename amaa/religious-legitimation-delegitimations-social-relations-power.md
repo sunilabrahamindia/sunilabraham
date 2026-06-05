@@ -2,7 +2,7 @@
 layout: default
 title: "Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective"
 permalink: /amaa/religious-legitimation-delegitimations-social-relations-power/
-categories: [A. M. A. Ayrookuzhiel, Publications]
+categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's essay examining how caste relations of power were religiously legitimated and delegitimated in Indian civilisation, with particular attention to Dalit historical experience."
 created: 2026-05-13
 ---
