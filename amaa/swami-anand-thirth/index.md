@@ -2,7 +2,7 @@
 layout: default
 title: "Swami Anand Thirth: Untouchability, Gandhian Solution on Trial"
 permalink: /amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/
-categories: [A. M. A. Ayrookuzhiel, Books]
+categories: [A. M. A. Ayrookuzhiel, Swami Anand Thirth]
 description: "A critical study by Rev. A. M. A. Ayrookuzhiel (1933–1996), examining the reform work of Swami Anand Thirth and evaluating the limits of the Gandhian model of eradicating untouchability in India."
 created: 2025-11-21
 ---
@@ -11,8 +11,11 @@ created: 2025-11-21
 
 Rather than offering a celebratory biography, A. M. A. Ayrookuzhiel presents a historically grounded and critical account. Drawing on the Swami's memoirs, personal papers, interviews, and historical sources, he traces the development of Anand Thirth's convictions, his encounters with caste prejudice, and his attempts to confront social exclusion in temples, markets, public roads, and political organisations.
 
+A digital edition of the book is being published on TSAP, including the original Preface by Sebastian Kappen and chapter-by-chapter full-text reproductions.
+
 ## Contents
 - [Summary](#summary)
+  - [Preface](#preface)
   - [Introduction](#1-introduction)
   - [Sannyasa for the Sake of Outcastes](#2-sannyasa-for-the-sake-of-outcastes)
   - [Attempts to Create a Counter-Culture](#3-attempts-to-create-a-counter-culture)
@@ -29,7 +32,15 @@ Rather than offering a celebratory biography, A. M. A. Ayrookuzhiel presents a h
 
 A. M. A. Ayrookuzhiel's narrative situates Swami Anand Thirth within Kerala's reform movements from the late nineteenth to early twentieth century. As a young man exposed to both nationalist activism and caste oppression, Anand Thirth's later decision to take sannyasa was driven not by withdrawal from society but by a desire to challenge deeply rooted discrimination. Using the Swami's own writings, Ayrookuzhiel reconstructs episodes that reveal the harsh realities of caste and the limitations of existing reform efforts.
 
+### Preface
+
+{% include main-article.html link="/amaa/swami-anand-thirth-preface/" title="Preface" %}
+
+Written by Fr. Sebastian Kappen, the Preface places Swami Anand Thirth within a wider tradition of social transformation driven by individuals whose ideas and actions reshape society. Kappen argues that Anand Thirth's lifelong struggle against untouchability anticipated later critiques of Gandhian approaches to caste reform and remains relevant for understanding social justice movements in India. He also situates the book within the broader cultural and political history of Kerala and highlights its value as a source for future scholarship.
+
 ### 1. Introduction
+
+{% include main-article.html link="/amaa/swami-anand-thirth-introduction/" title="Introduction" %}
 
 The opening section outlines Swami Anand Thirth's long public career fighting untouchability. Ayrookuzhiel describes meeting the Swami in 1979 and gaining access to his personal papers. This material makes it possible to examine how Anand Thirth's views developed and how his experiences often aligned more closely with Ambedkar's scepticism about Hindu reform than with Gandhian optimism. The Introduction also explains Ayrookuzhiel's use of the term ‘Dalit', chosen deliberately over older labels that carried hierarchical connotations.
 

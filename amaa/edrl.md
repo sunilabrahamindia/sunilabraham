@@ -113,8 +113,8 @@ The essays in this collection span theology, sociology, and history. Selected ch
 
 <ol type="a" style="margin-top:0.5rem;">
   <li>Introduction</li>
-      <li>Sannyasa for the Sake of Outcastes</li>
-      <li>Attempts to Create a Counter-Culture</li>
+  <li><a href="/amaa/swami-anand-thirth-preface/">Preface</a></li>
+  <li><a href="/amaa/swami-anand-thirth-introduction/">Introduction</a></li>
       <li>A Dream Betrayed</li>
       <li>Against the Sacred Abodes of Untouchability</li>
       <li>Prejudice vs. The Law</li>
