@@ -2,7 +2,7 @@
 layout: default
 title: "Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS"
 permalink: /amaa/indian-religious-heritage-social-transformation/
-categories: [A. M. A. Ayrookuzhiel, Publications]
+categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's essay examining changing approaches within the CISRS towards Indian religious traditions, social transformation, caste, and Dalit perspectives."
 created: 2026-05-12
 ---

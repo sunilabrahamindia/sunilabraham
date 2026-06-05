@@ -2,7 +2,7 @@
 layout: default
 title: "Foreword to Essays on Dalits, Religion and Liberation"
 description: "Foreword by Dr. Godwin Shiri to the 2006 volume Essays on Dalits, Religion and Liberation by Rev. A. M. A. Ayrookuzhiel."
-categories: [A. M. A. Ayrookuzhiel, Full text]
+categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 authors: ["Godwin Shiri"]
 source: "Essays on Dalits, Religion and Liberation"
 date: 2006-09-30

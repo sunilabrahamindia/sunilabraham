@@ -2,7 +2,7 @@
 layout: default
 title: "The Religious Factor in Dalit Liberation: Some Reflections"
 permalink: /amaa/religious-factor-dalit-liberation/
-categories: [A. M. A. Ayrookuzhiel, Publications]
+categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's essay examining the relationship between religion, caste, and social change in Dalit liberation, arguing for the limits of religious reform and the need for political transformation."
 created: 2026-04-30
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations"
 permalink: /amaa/proposal-study-religious-heritage-dalits/
-categories: [A. M. A. Ayrookuzhiel, Publications]
+categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's 1995 essay examining the religious heritage of Dalits, the historical relationship between Dalit traditions and Brahmanical Hinduism, and methodological questions surrounding caste, religion, and Dalit identity."
 created: 2026-05-08
 ---
