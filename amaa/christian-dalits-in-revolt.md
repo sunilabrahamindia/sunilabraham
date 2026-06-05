@@ -2,7 +2,7 @@
 layout: default
 title: "Christian Dalits in Revolt"
 permalink: /amaa/christian-dalits-in-revolt/
-categories: [A. M. A. Ayrookuzhiel, Publications]
+categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's analysis of the condition of Dalits within Indian Christianity, examining church policy, caste structures, political developments, and emerging Dalit responses."
 created: 2026-04-28
 ---
