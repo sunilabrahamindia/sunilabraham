@@ -9,13 +9,13 @@ created: 2026-06-02
 
 {% include documentation-notice.html %}
 
-The **Learning Log** records software, technologies, workflows, methodologies, skills, and ideas explored during the development of The Sunil Abraham Project (TSAP). Its purpose is to preserve a chronological record of learning activities that have contributed, directly or indirectly, to the evolution of the project. These activities may include software evaluations, technical experiments, workflow exploration, research methods, digital preservation techniques, knowledge-management systems, and other areas relevant to the long-term development and maintenance of TSAP.
+The **Learning Log** records software, technologies, workflows, methodologies, skills, and ideas explored during the development of The Sunil Abraham Project (TSAP). Its purpose is to preserve a chronological record of learning activities that have contributed, directly or indirectly, to the evolution of the project.
 
-The Sunil Abraham Project began on 2 October 2025. Throughout its development, a wide range of technologies, software packages, workflows, and methodologies have been explored, tested, discussed, and occasionally adopted. During the project's early months, however, no dedicated record was maintained to document these learning activities. As a result, much of the learning that occurred during that period survives only in scattered notes, project discussions, implementation records, commit histories, and personal recollections.
+Technologies, software, services, and workflows that become part of regular project operations may later be documented on the [Tools We Use](/tsap/tools/) page.
 
-This page was started on 2 June 2026 to begin systematically documenting future learning activities. Its purpose is not merely to record what software was installed or what technologies were examined, but to preserve the broader learning journey associated with the project. By maintaining a dedicated log, it becomes easier to understand how particular ideas emerged, why certain technologies were adopted or rejected, and how new skills and knowledge influenced the development of TSAP over time.
+The Learning Log is not intended to record every software installation, configuration change, or routine activity. Instead, it focuses on significant learning experiences, evaluations, discoveries, experiments, and insights that may influence the development of TSAP.
 
-Inclusion in this log does not imply endorsement, adoption, or long-term use. Some technologies may eventually become important components of TSAP workflows, while others may be explored briefly and later abandoned. The value of the log lies in recording the learning process itself, including experiments, evaluations, successes, and dead ends that may prove useful for future reference.
+The Sunil Abraham Project began on 2 October 2025. During its development, a wide range of technologies, software packages, workflows, methodologies, and ideas have been explored, tested, discussed, adopted, rejected, and occasionally abandoned. This page was created on 2 June 2026 to begin documenting those significant learning experiences in a more systematic manner. Its purpose is to preserve the reasoning, discoveries, evaluations, and lessons that have influenced the development of TSAP over time.
 
 ## 2026-06-02
 
