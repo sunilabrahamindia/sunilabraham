@@ -33,6 +33,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 19. [Version 1.7](#version-17)
 20. [Version 1.7.1](#version-171)
 21. [Version 1.8](#version-18)
+22. [Version 1.9](#version-19)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -631,3 +632,61 @@ Completion date: 23 May 2026
 
 **Status** ✅ Done  
 Completion date: 30 May 2026 (night)
+
+## Version 1.9
+
+- 16 new pages have been published this week between 31 May 2026 and 6 June 2026.
+
+**Preservation**
+- Preserved the TSAP GitHub repository in [Software Heritage](https://www.softwareheritage.org/), creating an independently archived copy of the repository and its Git history.
+- This preservation milestone has been documented on the [Preservation](/tsap/preservation/) page.
+
+**Automatic Last Updated Dates**
+- Implemented [Automatic Last Updated Dates](/tsap/automatic-last-updated-dates-documentation/), a Git-based system that generates page modification dates from repository history and displays them automatically through the Page Data component.
+- The system uses a Python script to create a structured YAML data file, eliminating the need for manual maintenance of `last_updated` fields while remaining compatible with GitHub Pages and static-site workflows.
+
+**Release History**
+- Established a formal release history for TSAP by creating and publishing the retrospective GitHub release TSAP Version 1.0.
+- The release is anchored to a historical repository snapshot from 1 January 2026 through the Git tag `v1.0`, providing a preserved and verifiable reference point within the project's development history.
+
+**Homepage Automation**
+- Automated the "From the Newest Pages" section on the homepage.
+- Replaced the manually maintained list with a metadata-driven system based on the `homepage_featured: true` parameter.
+- Featured pages are now automatically sorted by creation date, with the five most recent pages displayed on the homepage.
+
+**GitHub Issues**
+- Began using the [TSAP GitHub Issues Tracker](/tsap/issues/) for tracking bugs, investigations, maintenance tasks, and feature development.
+- GitHub Issues now serves as a centralised and version-controlled location for documenting, investigating, and resolving project-related work.
+
+**Broken Links Checker**
+- Implemented a [Broken Links Checker](/tsap/broken-links-checker-documentation/), a sitemap-driven maintenance system that identifies internal links pointing to pages that no longer exist.
+- The system compares repository links against URLs published in the live sitemap and generates a structured YAML report for integration with the Maintenance dashboard.
+- Using the sitemap as the authoritative source significantly reduces false positives while remaining compatible with GitHub Pages and static-site workflows.
+
+**TSAP Tools Used**
+- Created the [TSAP Tools](/tsap/tools/) page documenting the software, services, platforms, and technologies used in the operation and maintenance of The Sunil Abraham Project.
+
+**Top Utility Bar**
+- Replaced the previous floating utility box with a top-left hamburger drawer integrated into the fixed top bar.
+- Search functionality remains accessible from the right side of the interface while utility controls are housed within the drawer.
+- The implementation includes responsive sizing, keyboard support, ARIA states, and backdrop-close functionality.
+- The feature remains experimental and may undergo further refinement.
+
+**A. M. A. Ayrookuzhiel**
+- Started the chapter-by-chapter digital edition of *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial* by Rev. A. M. A. Ayrookuzhiel.
+- Work included creating a dedicated Swami Anand Thirth category, publishing standalone full-text pages for the original Preface and Introduction, integrating the material into site navigation, and documenting significant textual differences between the 1987 edition and the version preserved in *Essays on Dalits, Religion and Liberation* (2006).
+
+**Infrastructure**
+- Migrated DNS management for `sunilabraham.in` from BigRock DNS to Cloudflare DNS while retaining BigRock as the domain registrar.
+- The migration included DNS auditing, record verification, restoration of omitted records discovered during import, nameserver deployment, and activation testing.
+- The result is that DNS authority now resides with Cloudflare while registration and renewal responsibilities remain with BigRock.
+- Implemented custom-domain email support for `sunilabraham.in` using Cloudflare Email Routing.
+- The deployment included DNS configuration, inbound and outbound mail testing, and verification across multiple providers and devices.
+- The configuration provides custom-domain email capability without requiring a separate email-hosting service.
+
+**Biography Portal**
+- Started the [Biography Portal](/tsap/biography/).
+- The portal documents TSAP's work on creating biographies of individuals whose lives and contributions are relevant to the project's areas of interest.
+
+**Status** ✅ Done  
+Completion date: 7 June 2026 (morning)
