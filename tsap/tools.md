@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Tools"
+title: "Tools We Use"
 description: "Tools used by members of The Sunil Abraham Project (TSAP) for research, writing, publishing, preservation, administration, and project management."
 categories: [TSAP Documentation]
 permalink: /tsap/tools/
@@ -11,7 +11,7 @@ created: 2026-06-04
 
 {% include documentation-notice.html %}
 
-The **Tools** page records software, platforms, services, and technologies used by members of The Sunil Abraham Project (TSAP) in the course of project work.
+The **Tools We Use** page records software, platforms, services, and technologies used by members of The Sunil Abraham Project (TSAP) in the course of project work.
 
 This page does not attempt to document every tool used by project members. Instead, it focuses on tools that are used regularly, play a significant role in TSAP workflows, or support core project activities such as research, writing, publishing, preservation, administration, communication, and project management.
 
@@ -84,4 +84,3 @@ Particular use is made of Gemini's research-oriented capabilities, including dee
 Raspberry Pi is being considered as a low-cost, energy-efficient computing platform for future experimentation and project infrastructure. Potential uses may include local development environments, self-hosted services, digital preservation projects, offline knowledge repositories, backup systems, automation tasks, and educational experimentation.
 
 If adopted, Raspberry Pi devices could support TSAP's interest in open-source technologies, low-cost computing, digital preservation, and long-term sustainability while providing practical experience with small-scale self-hosted infrastructure.
-
