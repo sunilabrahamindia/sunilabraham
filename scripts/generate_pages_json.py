@@ -33,14 +33,18 @@ for root, dirs, files in os.walk("."):
             if not isinstance(front_matter, dict):
                 continue
 
+            created = front_matter.get("created")
+
+            # Only include pages that have a created: field
+            if not created:
+                continue
+
             title = front_matter.get("title")
             description = front_matter.get("description")
-            created = front_matter.get("created")
             date = front_matter.get("date")
             source = front_matter.get("source")
             authors = front_matter.get("authors")
             categories = front_matter.get("categories")
-
             permalink = front_matter.get("permalink")
 
             if permalink:
@@ -51,7 +55,7 @@ for root, dirs, files in os.walk("."):
             page = {
                 "title": title,
                 "description": description,
-                "created": str(created) if created else None,
+                "created": str(created),
                 "date": str(date) if date else None,
                 "source": source,
                 "authors": authors,
@@ -62,7 +66,7 @@ for root, dirs, files in os.walk("."):
             pages.append(page)
 
         except Exception as e:
-            print("Skipping:", path, e)
+            print(f"Skipping {path}: {e}")
 
 pages.sort(
     key=lambda x: x.get("created") or "",
