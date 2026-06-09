@@ -5,6 +5,7 @@ description: "A. M. A. Ayrookuzhiel's 1977 essay examining secularisation, relig
 permalink: /amaa/state-of-hinduism-in-2000-ad/
 categories: [A. M. A. Ayrookuzhiel, Publications]
 created: 2026-06-09
+homepage_featured: true
 ---
 
 **The State of Hinduism in 2000 A.D.—Some Emerging Trends** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), first published in the *Indian Journal of Theology*, Vol. 26, No. 2 (April–June 1977). Drawing upon field observations and studies of popular religious beliefs, the essay examines how scientific knowledge, secularisation, social change, and modern values were reshaping religious attitudes in India. The essay approaches religion primarily as a social phenomenon and focuses on patterns of belief among ordinary people rather than formal theological doctrines. Ayrookuzhiel argues that Hinduism would continue as a major religious option in the future, but not without significant changes in the ways people understood gods, rituals, spirits, nature, and religious authority.
