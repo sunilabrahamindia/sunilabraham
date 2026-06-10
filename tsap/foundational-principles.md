@@ -86,7 +86,11 @@ TSAP shall remain the parent project for all associated initiatives and future d
 <p>The creation of associated projects should strengthen the role of TSAP as the central project rather than replace, diminish, or fragment it.</p>
 
 <div class="tsap-draft-notice">
-<p><strong>Document history:</strong> The principles recorded in this document were developed and refined by Tito Dutta between March and May 2026. The final text was discussed with <a href="/sunil/">Sunil Abraham</a> on 31 May 2026 and adopted on the same day.</p></div>
+<p><strong>Document history:</strong> The principles recorded in this document were developed and refined by Tito Dutta between March and May 2026. The final text was discussed with <a href="/sunil/">Sunil Abraham</a> on 31 May 2026 and adopted on the same day.</p>
+  
+<p><strong>Authenticity:</strong> This version of the document was cryptographically signed by Tito Dutta on 10 June 2026 using OpenPGP. The detached signature is available as <a href="https://github.com/sunilabrahamindia/sunilabraham/blob/main/tsap/foundational-principles.md.asc">foundational-principles.md.asc</a> in the TSAP source repository.</p>
+</div>
+
 </div>
 
 <style>
