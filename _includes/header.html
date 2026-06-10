@@ -50,6 +50,19 @@
   }
 
   /* =========================================================
+     Countdown
+     ========================================================= */
+
+  .site-header .site-countdown {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #6b7280;
+    margin-top: 0.45rem;
+    letter-spacing: 0.35px;
+  }
+
+  /* =========================================================
      Stats
      ========================================================= */
 
@@ -93,6 +106,10 @@
       font-size: 0.82rem;
     }
 
+    .site-header .site-countdown {
+      font-size: 0.8rem;
+    }
+
     .site-header .site-stats {
       font-size: 0.82rem;
     }
@@ -104,29 +121,70 @@
     <div class="site-title">
       <a href="/">Sunil Abraham Project</a>
     </div>
-<p class="site-subtitle" id="site-subtitle">
-  Research · Innovation · Documentation
-</p>
 
-<script>
-if (window.location.hostname.includes('pages.dev')) {
-  document.getElementById('site-subtitle').innerHTML =
-    'Official Mirror of <a href="https://sunilabraham.in/">sunilabraham.in</a>';
-}
-</script>
+    <p class="site-subtitle" id="site-subtitle">
+      Research · Innovation · Documentation
+    </p>
+
+    <p class="site-countdown" id="site-countdown" aria-live="polite">
+      Version 2.0 will be launched in …
+    </p>
+
+    <script>
+    if (window.location.hostname.includes('pages.dev')) {
+      document.getElementById('site-subtitle').innerHTML =
+        'Official Mirror of <a href="https://sunilabraham.in/">sunilabraham.in</a>';
+    }
+    </script>
+
     {% assign real_pages = site.pages | where_exp: "p", "p.created" %}
     {% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
     <p class="site-stats">
       <a href="/newest/"><span id="site-page-count">{{ real_pages.size }}</span> pages</a> across <a href="/categories/">{{ cat_pages.size }} categories</a>
     </p>
-    <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const count = document.getElementById('site-page-count');
+  </div>
+</header>
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Format page count with thousands separators
+  const count = document.getElementById('site-page-count');
   if (count) {
     count.textContent = Number(count.textContent).toLocaleString();
   }
+
+  // Countdown to Version 2.0 launch
+  const countdownEl = document.getElementById('site-countdown');
+  if (!countdownEl) return;
+
+  // 17 June 2026, 8:00 IST = 02:30 UTC
+  const launchTime = new Date('2026-06-17T02:30:00Z').getTime();
+
+  function updateCountdown() {
+    const now = Date.now();
+    const diff = launchTime - now;
+
+    if (diff <= 0) {
+      countdownEl.textContent = 'Version 2.0 has launched.';
+      clearInterval(timer);
+      return;
+    }
+
+    let totalMinutes = Math.floor(diff / 60000);
+    const days = Math.floor(totalMinutes / (60 * 24));
+    totalMinutes -= days * 60 * 24;
+    const hours = Math.floor(totalMinutes / 60);
+    const minutes = totalMinutes % 60;
+
+    const dd = String(days).padStart(2, '0');
+    const hh = String(hours).padStart(2, '0');
+    const mm = String(minutes).padStart(2, '0');
+
+    countdownEl.textContent =
+      `Version 2.0 will be launched in ${dd} days ${hh} hours ${mm} minutes`;
+  }
+
+  updateCountdown();                        // Initial render
+  const timer = setInterval(updateCountdown, 60000); // Update every minute
 });
 </script>
-  </div>
-</header>
