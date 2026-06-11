@@ -10,12 +10,13 @@ The **Sunil Abraham Project** (abbreviated as **TSAP**) is a digital publishing,
 
 ## Contents
 
-- [History](#history)
-  - [Announcement](#announcement)
-- [Design and Structure](#design-and-structure)
-- [Timeline](#timeline)
-  - [2025](#2025)
-  - [2026](#2026)
+1. [History](#history)
+   - [Announcement](#announcement)
+2. [Design and Structure](#design-and-structure)
+3. [Foundational Principles](#foundational-principles)
+4. [Timeline](#timeline)
+   - [2025](#2025)
+   - [2026](#2026)
 
 ## History
 
@@ -41,6 +42,14 @@ Page layouts across the site follow a defined pattern that balances readability 
 In appearance, the site maintains a plain and accessible design. Text is prioritised over decorative elements, and layout decisions focus on spacing, type clarity, and colour contrast to support users with varied reading conditions. The visual approach remains consistent with accessibility guidelines and avoids unnecessary complexity. Files are organised within a category structure that separates different kinds of content, including Publications, Biographies, Media, and Project Pages. The site is automatically rebuilt with every update, using GitHub Pages to ensure version control and transparency in publication.
 
 The editorial workflow of the project is closely tied to its version-controlled repository. Most routine updates are made through GitHub's browser editor, while larger maintenance tasks involving multiple files may be carried out through temporary cloud development environments such as GitHub Codespaces. These sessions allow batches of pages to be edited and committed together while preserving a transparent record of changes in the repository's commit history. Because all content is stored in open formats and maintained through version control, the entire archive can be reproduced or migrated with minimal technical dependencies.
+
+## Foundational Principles
+
+The Sunil Abraham Project is guided by a set of foundational principles that define its long-term identity, purpose, and institutional character. These principles are intended to preserve continuity as the project grows while protecting aspects of TSAP that are regarded as fundamental to its existence.
+
+Among these principles are the permanent recognition of Sunil Abraham as the founder of the project, the continued use of the name "The Sunil Abraham Project", the maintenance of TSAP as the parent project for associated initiatives, and the preservation of the [A. M. A. Ayrookuzhiel Portal](/amaa/portal/) as a central and enduring component of the site.
+
+The full text of these principles is recorded in [TSAP Foundational Principles](/tsap/foundational-principles/), which serves as the project's foundational charter and records the commitments regarded as permanent and foundational within the TSAP framework.
 
 ## Timeline
 
