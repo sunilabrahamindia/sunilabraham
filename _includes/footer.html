@@ -1,68 +1,88 @@
 <footer>
 
-  <p><b><a href="/articles/sunil-abraham-project/">The Sunil Abraham Project</a></b></p>
-  <p class="version-tag">Version {{ site.tsap_version }}</p>
+<p><b><a href="/articles/sunil-abraham-project/" title="About The Sunil Abraham Project">The Sunil Abraham Project</a></b></p>
+<p class="version-tag">Version {{ site.tsap_version }}</p>
 
-  <p>
-    © {{ site.time | date: "%Y" }} Licensed under
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">
-      CC BY-SA 4.0
-    </a>
-    unless otherwise stated.
-  </p>
+<p>
+  © {{ site.time | date: "%Y" }} Licensed under
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+     rel="license"
+     title="Read the Creative Commons licence">
+    CC BY-SA 4.0
+  </a>
+  unless otherwise stated.
+</p>
 
-  <p><strong>Connect with Sunil</strong></p>
+<p><strong>🌐 Connect with Sunil</strong></p>
 
-  <p>
-    🌐
-    <a href="https://www.facebook.com/abrahamsunil">Facebook</a>
-    <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a>
-    <a href="https://x.com/sunil_abraham">𝕏</a>
-    <a href="/sunil/authority-control">Authority control</a>
-  </p>
+<p>
+  <a href="https://www.facebook.com/abrahamsunil"
+     title="Sunil Abraham on Facebook">Facebook</a>
+  <a href="https://www.linkedin.com/in/sunilaabraham/"
+     title="Sunil Abraham on LinkedIn">LinkedIn</a>
+  <a href="https://x.com/sunil_abraham"
+     title="Sunil Abraham on X">𝕏</a>
+  <a href="/sunil/authority-control"
+     title="Identifiers and external records">Authority control</a>
+</p>
 
-  <p><strong>Site navigation</strong></p>
+<p><strong>🧭 Site navigation</strong></p>
 
-  <p>
-    <a href="/versions">Versions</a>
-    <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
-    <a href="/sitemap">Sitemap</a>
-    <a href="/sitemap.xml">XML sitemap</a>
-    <a href="/newest">Newest pages</a>
-    <a href="/recent-changes/">Recent changes</a>
-    <a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>
-    <a href="/shortcuts">Shortcuts</a>
-  </p>
+<p>
+  <a href="/versions"
+     title="Version history of the project">Versions</a>
+  <a href="https://github.com/sunilabrahamindia/sunilabraham"
+     title="View the source code repository">Repository (GitHub)</a>
+  <a href="/sitemap"
+     title="Browse all pages">Sitemap</a>
+  <a href="/sitemap.xml"
+     title="XML sitemap for search engines">XML sitemap</a>
+  <a href="/newest"
+     title="Recently created pages">Newest pages</a>
+  <a href="/recent-changes/"
+     title="Recently updated pages">Recent changes</a>
+  <a href="#"
+     onclick="window.location.href='/random/'; return false;"
+     title="Open a random page (Alt+Shift+X)">Random article</a>
+  <a href="/shortcuts"
+     title="Keyboard shortcuts and quick links">Shortcuts</a>
+</p>
 
-  <p>
-    <a href="/privacy">Privacy Policy</a>
-    <a href="/disclaimer">Disclaimer</a>
-    <a href="/tsap/acknowledgement/">Acknowledgement</a>
-    <a id="accessibility-link" href="#">WAVE accessibility score</a>
-  </p>
+<p>
+  <a href="/privacy"
+     title="Privacy policy">Privacy Policy</a>
+  <a href="/disclaimer"
+     title="Site disclaimer">Disclaimer</a>
+  <a href="/tsap/acknowledgement/"
+     title="Acknowledgements and credits">Acknowledgement</a>
+  <a id="accessibility-link"
+     href="#"
+     title="Check this page with WAVE accessibility evaluation">WAVE accessibility score</a>
+</p>
 
-  <p><strong>Preservation</strong></p>
+<p><strong>🏛️ Preservation</strong></p>
 
-  <p>Find archived copies of this page on:</p>
+<p>Find archived copies of this page at:</p>
+{% assign clean_domain = site.url
+  | remove: 'http://'
+  | remove: 'https://'
+  | remove: 'www.'
+%}
 
-  {% assign clean_domain = site.url
-    | remove: 'http://'
-    | remove: 'https://'
-    | remove: 'www.'
-  %}
-
-  <p>
-    🏛️
-    <a href="https://web.archive.org/web/*/https://{{ clean_domain }}{{ page.url }}">
-      Wayback Machine
-    </a>
-    <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
-      Archive.today
-    </a>
-    <a href="https://ghostarchive.org/search?term=https://{{ clean_domain }}{{ page.url }}">
-      Ghost Archive
-    </a>
-  </p>
+<p>
+  <a href="https://web.archive.org/web/*/https://{{ clean_domain }}{{ page.url }}"
+     title="Archived copies at the Wayback Machine">
+    Wayback Machine
+  </a>
+  <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}"
+     title="Archived copies at Archive.today">
+    Archive.today
+  </a>
+  <a href="https://ghostarchive.org/search?term=https://{{ clean_domain }}{{ page.url }}"
+     title="Archived copies at Ghost Archive">
+    Ghost Archive
+  </a>
+</p>
 
   <style>
     footer {
