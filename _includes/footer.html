@@ -23,26 +23,27 @@
 
   <p><strong>Site navigation</strong></p>
 
-<p>
-  🔗
-  <a href="/versions">Versions</a>
-  <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
-  <a href="/sitemap">Sitemap</a>
-  <a href="/sitemap.xml">XML sitemap</a>
-  <a href="/newest">Newest pages</a>
-  <a href="/recent-changes/">Recent changes</a>
-  <a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>
-  <a href="/shortcuts">Shortcuts</a>
-</p>
+  <p>
+    <a href="/versions">Versions</a>
+    <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
+    <a href="/sitemap">Sitemap</a>
+    <a href="/sitemap.xml">XML sitemap</a>
+    <a href="/newest">Newest pages</a>
+    <a href="/recent-changes/">Recent changes</a>
+    <a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>
+    <a href="/shortcuts">Shortcuts</a>
+  </p>
 
-<p>
-  <a href="/privacy">Privacy Policy</a>
-  <a href="/disclaimer">Disclaimer</a>
-  <a href="/tsap/acknowledgement/">Acknowledgement</a>
-  <a id="accessibility-link" href="#">WAVE accessibility score</a>
-</p>
+  <p>
+    <a href="/privacy">Privacy Policy</a>
+    <a href="/disclaimer">Disclaimer</a>
+    <a href="/tsap/acknowledgement/">Acknowledgement</a>
+    <a id="accessibility-link" href="#">WAVE accessibility score</a>
+  </p>
 
   <p><strong>Preservation</strong></p>
+
+  <p>Find archived copies of this page on:</p>
 
   {% assign clean_domain = site.url
     | remove: 'http://'
@@ -66,7 +67,7 @@
   <style>
     footer {
       margin-top: 0;
-      padding: 42px 12px;
+      padding: 24px 4px;
       text-align: center;
       font-size: 0.9em;
       color: #555;
@@ -75,7 +76,7 @@
     }
 
     footer p {
-      margin: 0.15rem 0;
+      margin: 0.2rem 0;
       line-height: 1.45;
     }
 
@@ -116,6 +117,17 @@
       margin-top: 0.25rem;
       display: block;
       letter-spacing: 0.3px;
+    }
+
+    @media (max-width: 600px) {
+      footer {
+        padding: 20px 2px;
+        font-size: 0.88em;
+      }
+
+      footer p {
+        margin: 0.15rem 0;
+      }
     }
   </style>
 
