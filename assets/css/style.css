@@ -83,56 +83,6 @@ a:hover, a:focus {
 }
 
 /* =========================================================
-   Footer
-   ========================================================= */
-footer {
-  margin-top: 0;
-  padding: 24px 10px;
-  text-align: center;
-  font-size: 0.9em;
-  color: #555;
-  border-top: 1px solid #eaecef;
-  background: #fafafa;
-  line-height: 1.6;
-  opacity: 0;
-  animation: fadeInFooter 0.8s ease-in forwards;
-  will-change: opacity, transform;
-}
-
-footer p {
-  margin: 6px 0 8px;
-  padding: 0;
-}
-
-footer a {
-  color: #0366d6;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0 3px;
-  white-space: nowrap;
-  transition: color 0.25s ease, text-decoration 0.25s ease;
-}
-
-footer a:hover, footer a:focus {
-  color: #024b9a;
-  text-decoration: underline;
-}
-
-@keyframes fadeInFooter {
-  from { opacity: 0; transform: translateY(8px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-@media (max-width: 600px) {
-  footer {
-    font-size: 0.85em;
-    padding: 18px 8px;
-  }
-  footer p { margin: 4px 0 6px; }
-  footer a { margin: 0 2px; }
-}
-
-/* =========================================================
    Animations
    ========================================================= */
 @keyframes fadeUp {
