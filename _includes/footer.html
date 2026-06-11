@@ -1,23 +1,25 @@
 <footer>
 
   <p><b><a href="/articles/sunil-abraham-project/">The Sunil Abraham Project</a></b></p>
-   <p class="version-tag">Version {{ site.tsap_version }}</p>
-  
+  <p class="version-tag">Version {{ site.tsap_version }}</p>
+
   <p class="footer-time" aria-live="off">
     🕒 Current time: <span id="footer-datetime"></span>
   </p>
 
-<p class="tsap-milestone" aria-label="TSAP reaches 1000 articles">
-  ❤️ <strong>1,000 pages</strong>
+  <!--
+  <p class="tsap-milestone" aria-label="TSAP reaches 1000 articles">
+    ❤️ <strong>1,000 pages</strong>
 
-  <span class="milestone-text">
-    <a href="/sunil/aaron-swartz/">Sunil Abraham on Aaron Swartz</a>
-  </span>
+    <span class="milestone-text">
+      <a href="/sunil/aaron-swartz/">Sunil Abraham on Aaron Swartz</a>
+    </span>
 
-  <span class="milestone-date">
-    Published on Thursday, 21 May 2026
-  </span>
-</p>
+    <span class="milestone-date">
+      Published on Thursday, 21 May 2026
+    </span>
+  </p>
+  -->
 
   <p>
     © {{ site.time | date: "%Y" }} Licensed under
@@ -27,54 +29,57 @@
     unless otherwise stated.
   </p>
 
+  <p><strong>Connect with Sunil</strong></p>
+
   <p>
-    🌐 
+    🌐
     <a href="https://www.facebook.com/abrahamsunil">Facebook</a>
     <a href="https://www.linkedin.com/in/sunilaabraham/">LinkedIn</a>
     <a href="https://x.com/sunil_abraham">𝕏</a>
     <a href="/sunil/authority-control">Authority control</a>
   </p>
 
+  <p><strong>Site navigation</strong></p>
+
   <p>
-    🔗 Quick links:
+    🔗
     <a href="/versions">Versions</a>
     <a href="https://github.com/sunilabrahamindia/sunilabraham">Repository (GitHub)</a>
     <a href="/sitemap">Sitemap</a>
-    (<span class="no-separator"><a href="/newest">Newest pages</a>, <a href="/sitemap.xml">XML</a></span>)
+    <a href="/newest">Newest pages</a>
     <a href="/recent-changes/">Recent changes</a>
+    <a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>
+    <a href="/shortcuts">Shortcuts</a>
   </p>
+
+  <p><strong>Site information &amp; tools</strong></p>
 
   <p>
     <a href="/privacy">Privacy Policy</a>
     <a href="/disclaimer">Disclaimer</a>
     <a href="/tsap/acknowledgement/">Acknowledgement</a>
-    <a href="#" onclick="window.location.href='/random/'; return false;">Random article</a>
-    <a href="/shortcuts">Shortcuts</a>
+    <a href="/sitemap.xml">XML sitemap</a>
   </p>
 
-{% assign clean_domain = site.url
-  | remove: 'http://'
-  | remove: 'https://'
-  | remove: 'www.'
-%}
-
-<p>
-  🏛️ Archived snapshots of this page:
-  <a href="https://web.archive.org/web/*/https://{{ clean_domain }}{{ page.url }}">
-    Wayback Machine
-  </a>
-  <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
-    Archive.today
-  </a>
-</p>
+  {% assign clean_domain = site.url
+    | remove: 'http://'
+    | remove: 'https://'
+    | remove: 'www.'
+  %}
 
   <p>
-    👁 WAVE WebAIM:
+    🏛️
+    <a href="https://web.archive.org/web/*/https://{{ clean_domain }}{{ page.url }}">
+      Wayback Machine
+    </a>
+    <a href="https://archive.ph/https://{{ clean_domain }}{{ page.url }}">
+      Archive.today
+    </a>
     <a id="accessibility-link" href="#">
-      See accessibility score
+      WAVE accessibility score
     </a>
   </p>
-
+  
   <style>
     /* =========================================================
        Footer container
