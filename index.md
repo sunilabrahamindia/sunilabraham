@@ -76,11 +76,11 @@ created: 2025-10-19
 
 {% include back-to-top.html %}
 
-{% include dyk.html %}
+{% include newest-section.html %}
 
 {% include back-to-top.html %}
 
-{% include newest-section.html %}
+{% include dyk.html %}
 
 {% include back-to-top.html %}
 
