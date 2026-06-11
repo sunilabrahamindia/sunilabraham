@@ -1,9 +1,9 @@
 <section class="newest-section" id="newest-pages">
   <h2 class="newest-section-title">From the Newest Pages</h2>
 
-  <p class="newest-section-intro">
-    Featured articles from our <a href="/newest/">newest pages</a>, updated on a rolling basis.
-  </p>
+<p class="newest-section-intro">
+  In this section we feature selected newly created pages from across the site. For a complete list, see <a href="/newest/">all newest pages</a>.
+</p>
 
   <div class="newest-grid">
 
@@ -12,7 +12,7 @@
       | sort: "created"
       | reverse %}
 
-    {% for page in featured_pages limit:8 %}
+    {% for page in featured_pages limit:10 %}
 
       {% if page.title %}
 
