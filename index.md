@@ -28,13 +28,13 @@ created: 2025-10-19
       <span class="link-icon">🎥</span>
       <span>Featured media</span>
     </a>
-    <a href="#did-you-know" class="content-link">
-      <span class="link-icon">💡</span>
-      <span>Did you know?</span>
-    </a>
     <a href="#newest-pages" class="content-link">
       <span class="link-icon">🆕</span>
       <span>Newest pages</span>
+    </a>
+    <a href="#did-you-know" class="content-link">
+      <span class="link-icon">💡</span>
+      <span>Did you know?</span>
     </a>
     <a href="#about" class="content-link">
       <span class="link-icon">ℹ️</span>
