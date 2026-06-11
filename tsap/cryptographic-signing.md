@@ -7,7 +7,7 @@ permalink: /tsap/cryptographic-signing/
 created: 2026-06-10
 ---
 
-**Cryptographic signing** in **The Sunil Abraham Project (TSAP)** is used to ensure the authenticity, integrity, and long-term verifiability of selected institutional documents. It provides a mechanism to confirm that a document was explicitly approved at a specific point in time and has not been altered since signing.
+**Cryptographic signing** in **The Sunil Abraham Project (TSAP)** is used to ensure the authenticity, integrity, and long-term verifiability of selected institutional documents. It provides a mechanism to confirm that a document was explicitly approved at a specific point in time and that a particular version of the document was signed by the stated signatory.
 
 Unlike routine communication or day-to-day edits, cryptographic signatures are reserved for materials that carry archival, constitutional, or official significance within TSAP. This ensures that verification remains meaningful, lightweight, and focused only on content where authenticity matters.
 
@@ -45,31 +45,33 @@ The following TSAP documents have been cryptographically signed using the TSAP O
   Signed: 10 June 2026  
   Signature: [foundational-principles.md.asc](https://github.com/sunilabrahamindia/sunilabraham/blob/main/tsap/foundational-principles.md.asc)  
   Signatory: Tito Dutta  
-  OpenPGP Fingerprint: D8B6 F47B 05BE C620 5884 77CF FC53 BED3 64AC 9AC7  
+  OpenPGP Fingerprint: `D8B6 F47B 05BE C620 5884 77CF FC53 BED3 64AC 9AC7`
 
-<!-- TO BE UPDATED AFTER PUBLIC KEY IS UPLOADED
 ## Public Key
 
-The public key will be published in the TSAP repository and documentation site for verification purposes.
+The public OpenPGP key currently used for TSAP document signing is publicly available.
 
-Once published, it will be referenced here as:
+- Signatory: Tito Dutta
+- OpenPGP Fingerprint: `D8B6 F47B 05BE C620 5884 77CF FC53 BED3 64AC 9AC7`
+- Public Key: [/tsap/verification/tito-openpgp-public.asc](/tsap/verification/tito-openpgp-public.asc)
+- OpenPGP Keyserver: https://keys.openpgp.org/vks/v1/by-fingerprint/D8B6F47B05BEC620588477CFFC53BED364AC9AC7
 
-- File: `public-key.asc`
-- Location: TSAP repository / GitHub / documentation site
--->
+The current signing key is a personal OpenPGP key used by Tito Dutta while acting on behalf of TSAP.
 
-<!-- SAME AS ABOVE
 ## Verification
 
 To verify a TSAP-signed document:
 
 ```bash
-gpg --import public-key.asc
+gpg --import tito-openpgp-public.asc
 gpg --verify document.md.asc document.md
 ```
 
 Verification confirms:
 
-- The document was signed using the TSAP OpenPGP key
-- The content has not been modified since the signature was created
--->
+- The signature was created using the published OpenPGP key.
+- The signature corresponds to the specific version of the document that was signed.
+
+### Revisions to Signed Documents
+
+Cryptographic signatures apply to specific versions of documents. Minor editorial corrections, formatting changes, and routine maintenance updates do not normally require a new signature. However, substantial revisions to a signed document may result in a new signature being issued for the revised version.
