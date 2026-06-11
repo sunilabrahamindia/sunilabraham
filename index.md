@@ -10,7 +10,7 @@ created: 2025-10-19
 <div class="hero-intro">
   <p><strong>Welcome</strong> to the <strong>Sunil Abraham Project</strong> (TSAP). This space brings together notes, essays, research, and reflections on technology, policy, and society. It aims to make knowledge freely accessible, encourage collaborative learning, and preserve insights.</p>
   
-  <p>The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities. Each page is designed for clarity, readability, and reuse, keeping the focus on substance rather than design.</p>
+  <p>The project reflects years of engagement with digital rights, open technology, and social research in India and beyond. It seeks to connect individual thought with public understanding, bridging ideas across disciplines and communities.</p>
 </div>
 
 <nav class="tsap-contents">
