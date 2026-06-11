@@ -87,8 +87,8 @@ TSAP shall remain the parent project for all associated initiatives and future d
 
 <div class="tsap-draft-notice">
 <p><strong>Document history:</strong> The principles recorded in this document were developed and refined by Tito Dutta between March and May 2026. The final text was discussed with <a href="/sunil/">Sunil Abraham</a> on 31 May 2026 and adopted on the same day.</p>
-  
-<p><strong>Authenticity:</strong> This version of the document was cryptographically signed by Tito Dutta on 10 June 2026 using OpenPGP. The detached signature is available as <a href="https://github.com/sunilabrahamindia/sunilabraham/blob/main/tsap/foundational-principles.md.asc">foundational-principles.md.asc</a> in the TSAP source repository.</p>
+
+<p><strong>Authenticity:</strong> This version of the document was cryptographically signed by Tito Dutta on 10 June 2026 using OpenPGP. The detached signature is available as <a href="https://github.com/sunilabrahamindia/sunilabraham/blob/main/tsap/foundational-principles.md.asc">foundational-principles.md.asc</a> in the TSAP source repository. Information about the signing key, verification process, and signed documents register is available in the <a href="/tsap/cryptographic-signing/">TSAP Cryptographic Signing and Verification Policy</a>.</p>
 </div>
 
 </div>
