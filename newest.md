@@ -214,6 +214,69 @@ select:hover {
   from { opacity: 0; transform: translateY(6px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+/* =========================================================
+   Dark Mode
+   ========================================================= */
+
+body.tsap-dark-mode .controls-box {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+body.tsap-dark-mode #search-input,
+body.tsap-dark-mode select {
+  background: #374151;
+  color: #f3f4f6;
+  border-color: #4b5563;
+}
+
+body.tsap-dark-mode #search-input::placeholder {
+  color: #94a3b8;
+}
+
+body.tsap-dark-mode .sort-section button {
+  background: #374151;
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+body.tsap-dark-mode .sort-section button:hover,
+body.tsap-dark-mode .sort-section button.active {
+  background: #1f5fbf;
+  color: #ffffff;
+  border-color: #1f5fbf;
+}
+
+body.tsap-dark-mode #clear-btn {
+  background: #4b1f1f;
+  color: #fecaca;
+  border-color: #dc2626;
+}
+
+body.tsap-dark-mode #clear-btn:hover {
+  background: #5f2626;
+}
+
+body.tsap-dark-mode #result-count {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode #no-results {
+  color: #fca5a5;
+}
+
+body.tsap-dark-mode .page-item a {
+  color: #93c5fd;
+}
+
+body.tsap-dark-mode .page-item a:hover {
+  color: #bfdbfe;
+}
+
+body.tsap-dark-mode .created-date {
+  color: #94a3b8;
+}
 </style>
 
 <script>
