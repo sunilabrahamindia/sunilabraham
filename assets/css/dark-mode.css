@@ -322,3 +322,59 @@ body.tsap-dark-mode .copy-btn-full:hover {
 body.tsap-dark-mode .copy-btn-full:focus {
   outline-color: #fbbf24 !important;
 }
+
+/* =========================================================
+   Categories
+   ========================================================= */
+
+body.tsap-dark-mode #catlinks {
+  background-color: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode #mw-normal-catlinks a {
+  color: #93c5fd !important;
+}
+
+body.tsap-dark-mode #mw-normal-catlinks a:hover,
+body.tsap-dark-mode #mw-normal-catlinks a:focus {
+  color: #bfdbfe !important;
+}
+
+/* =========================================================
+   Back to Top
+   ========================================================= */
+
+body.tsap-dark-mode .back-to-top {
+  color: #93c5fd !important;
+}
+
+body.tsap-dark-mode .back-to-top:hover,
+body.tsap-dark-mode .back-to-top:focus {
+  color: #bfdbfe !important;
+}
+
+/* =========================================================
+   Author Attribution
+   ========================================================= */
+
+body.tsap-dark-mode .author-divider {
+  border-top-color: #374151 !important;
+}
+
+body.tsap-dark-mode .author-box {
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .author-icon {
+  color: #93c5fd !important;
+}
+
+body.tsap-dark-mode .author-label {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .author-names {
+  color: #cbd5e1 !important;
+}
