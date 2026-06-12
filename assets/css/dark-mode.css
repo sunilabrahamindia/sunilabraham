@@ -254,3 +254,71 @@ body.tsap-dark-mode .navbar a:focus {
       0 8px 18px rgba(0,0,0,0.4) !important;
   }
 }
+
+/* =========================================================
+  Page Information 
+   ========================================================= */
+body.tsap-dark-mode .page-info {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .page-info a {
+  color: #93c5fd !important;
+}
+
+body.tsap-dark-mode .page-info a:hover,
+body.tsap-dark-mode .page-info a:focus {
+  color: #bfdbfe !important;
+}
+
+body.tsap-dark-mode .github-preview .tooltip {
+  background: #374151 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .github-preview .tooltip::after {
+  border-color: #374151 transparent transparent transparent !important;
+}
+
+/* =========================================================
+   Media Articles
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .media-details dt {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .media-details dd {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background: #2f2a18 !important;
+  border-left-color: #d4a72c !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .highlighted-text h3 {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:focus {
+  outline-color: #fbbf24 !important;
+}
