@@ -10,7 +10,7 @@ permalink: /media/girls-just-wanna-have-a-voice-telegraph-india/
 created: 2025-12-19
 ---
 
-**Girls Just Wanna Have... a Voice** is a feature published in *The Telegraph* (India) on 8 March 2014, written by Prasun Chaudhuri. The article profiles Indian women who gained substantial followings on Twitter not through existing celebrity but through their bold, unfiltered commentary on politics, culture, and everyday life. It includes analysis from Sunil Abraham on how social media platforms allowed women to develop authentic voices free from editorial gatekeeping, though emerging legal restrictions and trolling were beginning to constrain that freedom.
+**Girls Just Wanna Have... a Voice** is a feature published in *The Telegraph* (India) on 8 March 2014, written by Prasun Chaudhuri. The article profiles Indian women who gained substantial followings on Twitter not through existing celebrity but through their bold, unfiltered commentary on politics, culture, and everyday life. It includes analysis from [Sunil Abraham](/sunil/) on how social media platforms allowed women to develop authentic voices free from editorial gatekeeping, though emerging legal restrictions and trolling were beginning to constrain that freedom.
 
 ## Contents
 

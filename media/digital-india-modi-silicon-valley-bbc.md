@@ -10,7 +10,7 @@ permalink: /media/digital-india-modi-silicon-valley-bbc/
 created: 2025-12-19
 ---
 
-**Digital India: Did Modi Get It Wrong in Silicon Valley?** is an analytical feature published by BBC News on 16 October 2015, written by Ayeshea Perera. The article examines the domestic backlash in India following Prime Minister Narendra Modi's high-profile Facebook townhall with Mark Zuckerberg, exploring concerns about digital colonisation, the Internet.org controversy, and whether Modi's engagement undermined India's pending net neutrality regulations. It includes contrasting perspectives from Sunil Abraham on whether the visit could actually strengthen India's negotiating position with Facebook.
+**Digital India: Did Modi Get It Wrong in Silicon Valley?** is an analytical feature published by BBC News on 16 October 2015, written by Ayeshea Perera. The article examines the domestic backlash in India following Prime Minister Narendra Modi's high-profile Facebook townhall with Mark Zuckerberg, exploring concerns about digital colonisation, the Internet.org controversy, and whether Modi's engagement undermined India's pending net neutrality regulations. It includes contrasting perspectives from [Sunil Abraham](/sunil/) on whether the visit could actually strengthen India's negotiating position with Facebook.
 
 ## Contents
 
