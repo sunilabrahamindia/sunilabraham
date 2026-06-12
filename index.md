@@ -382,4 +382,41 @@ a:hover {
     font-size: 1.25rem;
   }
 }
+  /* ========================================
+   DARK MODE
+   ======================================== */
+
+body.tsap-dark-mode .hero-intro,
+body.tsap-dark-mode .bio-card,
+body.tsap-dark-mode .about-card,
+body.tsap-dark-mode .licence-card,
+body.tsap-dark-mode .article-card {
+  background: #1f2937 !important;
+}
+
+body.tsap-dark-mode .hero-intro p,
+body.tsap-dark-mode .bio-content p,
+body.tsap-dark-mode .article-card p,
+body.tsap-dark-mode .about-card p,
+body.tsap-dark-mode .licence-card p,
+body.tsap-dark-mode .about-card li {
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .hero-intro strong,
+body.tsap-dark-mode .section-title,
+body.tsap-dark-mode .tsap-contents h2 {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .content-link {
+  background: #1f2937 !important;
+  color: #e5e7eb !important;
+  border-color: #374151 !important;
+}
+
+body.tsap-dark-mode .content-link:hover {
+  background: #2b3a4f !important;
+  border-color: #60a5fa !important;
+}
 </style>
