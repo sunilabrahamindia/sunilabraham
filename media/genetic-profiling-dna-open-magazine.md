@@ -10,7 +10,7 @@ permalink: /media/genetic-profiling-dna-open-magazine/
 created: 2026-01-25
 ---
 
-**Genetic Profiling: Is it all in the DNA?** is a feature article published in *Open Magazine* on 6 August 2015. Written by Ullekh NP, the piece examines India's proposed Human DNA Profiling Bill, 2015, which had been under development for 12 years. The article juxtaposes proponents from the Centre for DNA Fingerprinting and Diagnostics against dissenting expert panel members Sunil Abraham and Usha Ramanathan, who challenged the Bill's techno-utopianism, inadequate procedural safeguards, scope expansion beyond criminal databases, and controversial provisions including caste markers in DNA collection forms.
+**Genetic Profiling: Is it all in the DNA?** is a feature article published in *Open Magazine* on 6 August 2015. Written by Ullekh NP, the piece examines India's proposed Human DNA Profiling Bill, 2015, which had been under development for 12 years. The article juxtaposes proponents from the Centre for DNA Fingerprinting and Diagnostics against dissenting expert panel members [Sunil Abraham](/sunil/) and Usha Ramanathan, who challenged the Bill's techno-utopianism, inadequate procedural safeguards, scope expansion beyond criminal databases, and controversial provisions including caste markers in DNA collection forms.
 
 ## Contents
 

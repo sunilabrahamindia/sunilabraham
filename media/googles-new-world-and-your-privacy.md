@@ -10,7 +10,7 @@ permalink: /media/googles-new-world-and-your-privacy/
 created: 2025-12-09
 ---
 
-**Google's New World and Your Privacy: Why You Should Worry** is an *Economic Times* report analysing user concerns arising from Google's decision to unify data across its services. The article outlines how the company’s ‘Google Plus Your World’ programme consolidates information from Gmail, YouTube, Picassa, Google+, Maps and search, raising questions about profiling, targeted advertising and the erosion of contextual privacy. It also features comments from Sunil Abraham on the risks of cross-context data fusion and long-term data retention.
+**Google's New World and Your Privacy: Why You Should Worry** is an *Economic Times* report analysing user concerns arising from Google's decision to unify data across its services. The article outlines how the company’s ‘Google Plus Your World’ programme consolidates information from Gmail, YouTube, Picassa, Google+, Maps and search, raising questions about profiling, targeted advertising and the erosion of contextual privacy. It also features comments from [Sunil Abraham](/sunil/) on the risks of cross-context data fusion and long-term data retention.
 
 ## Contents
 

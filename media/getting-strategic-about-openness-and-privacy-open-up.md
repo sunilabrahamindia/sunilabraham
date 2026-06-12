@@ -10,7 +10,7 @@ permalink: /media/getting-strategic-about-openness-and-privacy-open-up/
 created: 2026-05-24
 ---
 
-**Getting Strategic About Openness and Privacy** is an *Open Up?* blog post by Tim Davies, published on 3 November 2014. The piece argues that openness and privacy should be considered together through the lens of power, with Sunil Abraham's idea of proportional transparency and privacy shaping its core argument.
+**Getting Strategic About Openness and Privacy** is an *Open Up?* blog post by Tim Davies, published on 3 November 2014. The piece argues that openness and privacy should be considered together through the lens of power, with [Sunil Abraham](/sunil/)'s idea of proportional transparency and privacy shaping its core argument.
 
 ## Contents
 

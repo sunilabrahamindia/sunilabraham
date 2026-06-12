@@ -10,7 +10,7 @@ permalink: /media/digital-india-pm-modi-launch-flagship-programme-july/
 created: 2025-12-08
 ---
 
-**Digital India: PM Modi to Launch BJP's Flagship Programme Likely in July** is an *Economic Times* report published on 29 May 2015. The article outlines the Modi government's preparations for a major national rollout of Digital India Week (DIW), including merchandise, hackathons, rural outreach, gamified participation, and a coordinated messaging campaign across ministries. The report also features expert commentary from Sunil Abraham, who evaluates the strengths and limitations of the campaign.
+**Digital India: PM Modi to Launch BJP's Flagship Programme Likely in July** is an *Economic Times* report published on 29 May 2015. The article outlines the Modi government's preparations for a major national rollout of Digital India Week (DIW), including merchandise, hackathons, rural outreach, gamified participation, and a coordinated messaging campaign across ministries. The report also features expert commentary from [Sunil Abraham](/sunil/), who evaluates the strengths and limitations of the campaign.
 
 ## Contents
 
