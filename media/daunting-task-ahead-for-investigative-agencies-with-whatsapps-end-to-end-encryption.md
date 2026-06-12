@@ -10,7 +10,7 @@ permalink: /media/daunting-task-ahead-for-investigative-agencies-with-whatsapps-
 created: 2025-12-15
 ---
 
-**Daunting Task Ahead for Investigative Agencies with WhatsApp's End-to-End Encryption** is a report published in *The Economic Times* on 8 April 2016, written by Neha Alawadhi. The article analyses WhatsApp's implementation of end-to-end encryption for its over 1 billion users and the resulting challenges for Indian law enforcement and intelligence agencies, featuring commentary from Sunil Abraham on investigative workarounds through metadata and device compromise, Prasanth Sugathan on the absence of privacy safeguards, and Arun Mohan Sukumar on data protection policy gaps.
+**Daunting Task Ahead for Investigative Agencies with WhatsApp's End-to-End Encryption** is a report published in *The Economic Times* on 8 April 2016, written by Neha Alawadhi. The article analyses WhatsApp's implementation of end-to-end encryption for its over 1 billion users and the resulting challenges for Indian law enforcement and intelligence agencies, featuring commentary from [Sunil Abraham](/sunil/) on investigative workarounds through metadata and device compromise, Prasanth Sugathan on the absence of privacy safeguards, and Arun Mohan Sukumar on data protection policy gaps.
 
 ## Contents
 

@@ -10,7 +10,7 @@ permalink: /media/decline-web-freedom-steepest-india-report-times-of-india/
 created: 2025-12-23
 ---
 
-**Decline in Web Freedom Steepest in India: Report** is a news report published by *The Times of India* on 3 October 2013, written by Javed Anwer. The article examines Freedom House's annual internet freedom assessment, which found India experienced the most significant year-on-year decline among 60 countries surveyed. It includes commentary from Sunil Abraham on rising censorship and surveillance in India, particularly regarding the Central Monitoring System and lack of amendments to the Information Technology Act.
+**Decline in Web Freedom Steepest in India: Report** is a news report published by *The Times of India* on 3 October 2013, written by Javed Anwer. The article examines Freedom House's annual internet freedom assessment, which found India experienced the most significant year-on-year decline among 60 countries surveyed. It includes commentary from [Sunil Abraham](/sunil/) on rising censorship and surveillance in India, particularly regarding the Central Monitoring System and lack of amendments to the Information Technology Act.
 
 ## Contents
 

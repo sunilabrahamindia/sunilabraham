@@ -10,7 +10,7 @@ permalink: /media/deepdive-i-spy-whatsapp-pegasus-mumbai-mirror/
 created: 2025-12-21
 ---
 
-**DEEPDIVE: I SPY** is an investigative feature by David Delima published by *Mumbai Mirror* on 2 November 2019. The article examines one of the biggest cyber surveillance scandals to hit India, deconstructing the WhatsApp-Pegasus intrusion that affected 1,400 users across 20 countries, including at least 20 Indians, with expert analysis from Sunil Abraham on government involvement in contracting legal hacking solutions and the critical need for surveillance reform.
+**DEEPDIVE: I SPY** is an investigative feature by David Delima published by *Mumbai Mirror* on 2 November 2019. The article examines one of the biggest cyber surveillance scandals to hit India, deconstructing the WhatsApp-Pegasus intrusion that affected 1,400 users across 20 countries, including at least 20 Indians, with expert analysis from [Sunil Abraham](/sunil/) on government involvement in contracting legal hacking solutions and the critical need for surveillance reform.
 
 ## Contents
 

@@ -10,7 +10,7 @@ permalink: /media/decoding-the-aadhaar-debate-do-the-risks-outweigh-the-benefits
 created: 2025-12-27
 ---
 
-**Decoding The Aadhaar Debate: Do The Risks Outweigh The Benefits?** is an analytical article published by *The Quint* on 29 March 2017, written by Maanvi. The article examines the controversy surrounding amendments to the Finance Bill 2017 that made Aadhaar mandatory for income tax filing despite Supreme Court orders declaring it voluntary. It features commentary from Sunil Abraham, Executive Director of Centre for Internet and Society, alongside perspectives from Ashok Pal Singh and Nikhil Pahwa, analysing database linkage vulnerabilities, surveillance implications under the Aadhaar Act's national security provisions and the impossibility of opting out once enrolled.
+**Decoding The Aadhaar Debate: Do The Risks Outweigh The Benefits?** is an analytical article published by *The Quint* on 29 March 2017, written by Maanvi. The article examines the controversy surrounding amendments to the Finance Bill 2017 that made Aadhaar mandatory for income tax filing despite Supreme Court orders declaring it voluntary. It features commentary from [Sunil Abraham](/sunil/), then Executive Director of [Centre for Internet and Society](/cis/), alongside perspectives from Ashok Pal Singh and Nikhil Pahwa, analysing database linkage vulnerabilities, surveillance implications under the Aadhaar Act's national security provisions and the impossibility of opting out once enrolled.
 
 ## Contents
 
