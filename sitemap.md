@@ -178,6 +178,46 @@ To explore the newest pages on the site, please visit the [Newest Pages](/newest
 .control-row select:focus {
   border-color: #0645ad;
 }
+
+/* =========================================================
+   Dark Mode
+   ========================================================= */
+
+body.tsap-dark-mode .sitemap-controls {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+body.tsap-dark-mode .control-row input,
+body.tsap-dark-mode .control-row select {
+  background: #374151;
+  color: #f3f4f6;
+  border-color: #4b5563;
+}
+
+body.tsap-dark-mode .control-row input::placeholder {
+  color: #94a3b8;
+}
+
+body.tsap-dark-mode .sitemap-list a {
+  color: #93c5fd;
+}
+
+body.tsap-dark-mode .sitemap-list a:hover {
+  color: #bfdbfe;
+}
+
+body.tsap-dark-mode .sitemap-list small {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .count {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .date {
+  color: #94a3b8;
+}
 </style>
 
 <script>

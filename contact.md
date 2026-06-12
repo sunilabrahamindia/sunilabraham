@@ -129,4 +129,53 @@ created: 2025-10-19
     box-shadow: none;
   }
 }
+
+/* =========================================================
+   Dark Mode
+   ========================================================= */
+
+body.tsap-dark-mode .contact-intro {
+  color: #e5e7eb;
+}
+
+body.tsap-dark-mode .contact-section {
+  background: #1f2937;
+  border-left-color: #3b82f6;
+}
+
+body.tsap-dark-mode .contact-section h2 {
+  color: #f3f4f6;
+}
+
+body.tsap-dark-mode .email-link {
+  color: #93c5fd;
+}
+
+body.tsap-dark-mode .email-link:hover {
+  color: #bfdbfe;
+  border-bottom-color: #93c5fd;
+}
+
+body.tsap-dark-mode .notes-content {
+  color: #cbd5e1;
+}
+
+/* =========================================================
+   Reduced Motion
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .contact-intro,
+  .contact-section {
+    animation: none !important;
+  }
+
+  .contact-section,
+  .contact-section:hover {
+    transition: none !important;
+    transform: none !important;
+  }
+
+}
 </style>
