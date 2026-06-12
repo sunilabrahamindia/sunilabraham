@@ -96,4 +96,20 @@ These projects will be developed gradually and published here, maintaining the p
     transition: none !important;
   }
 }
+
+/* Dark Mode */
+
+body.tsap-dark-mode .project-card {
+  background: #1f2937;
+  border-color: #475569;
+  color: #f1f5f9;
+}
+
+body.tsap-dark-mode .project-card h3 {
+  color: #cfe3ff;
+}
+
+body.tsap-dark-mode .project-note {
+  color: #cbd5e1;
+}
 </style>

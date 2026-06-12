@@ -214,4 +214,36 @@ fetchCommits(true);
 @media (max-width:600px) {
   .rc-controls { flex-direction:column; }
 }
+
+/* Dark mode */
+
+body.tsap-dark-mode .rc-controls select {
+  background: #1f2937;
+  color: #f1f5f9;
+  border-color: #475569;
+}
+
+body.tsap-dark-mode .rc-item {
+  border-color: #475569;
+  color: #f1f5f9;
+}
+
+body.tsap-dark-mode .rc-meta,
+body.tsap-dark-mode .rc-author {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .rc-links a {
+  color: #8cb4ff;
+}
+
+body.tsap-dark-mode .rc-more-btn {
+  background: #1f2937;
+  color: #f1f5f9;
+  border-color: #475569;
+}
+
+body.tsap-dark-mode .rc-more-btn:hover {
+  background: #334155;
+}
 </style>
