@@ -378,3 +378,73 @@ body.tsap-dark-mode .author-label {
 body.tsap-dark-mode .author-names {
   color: #cbd5e1 !important;
 }
+
+/* =========================================================
+  Publications
+   ========================================================= */
+   /* Dark mode */
+
+body.tsap-dark-mode .pub-details {
+  background: #1f2937;
+  border-color: #475569;
+  color: #e5e7eb;
+}
+
+body.tsap-dark-mode .pub-details dt {
+  color: #cfe3ff;
+}
+
+body.tsap-dark-mode .pub-details dd {
+  color: #d1d5db;
+}
+
+body.tsap-dark-mode .pub-details a.btn {
+  background: #1f5fbf;
+  color: #ffffff;
+}
+
+body.tsap-dark-mode .pub-details a.btn:hover {
+  background: #184c99;
+}
+
+body.tsap-dark-mode .pdf-frame {
+  border-color: #475569;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #3b3415;
+  border-left-color: #d4b84f;
+  color: #f1f1f1;
+}
+
+body.tsap-dark-mode pre {
+  background-color: #1f2937;
+  border-color: #475569;
+  color: #f1f1f1;
+}
+
+body.tsap-dark-mode code {
+  color: #f1f1f1;
+}
+
+body.tsap-dark-mode .copy-btn,
+body.tsap-dark-mode .copy-btn-full {
+  background: #334155;
+  border-color: #475569;
+  color: #f1f1f1;
+}
+
+body.tsap-dark-mode .copy-btn:hover,
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #475569;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .pub-details a.btn,
+  .copy-btn,
+  .copy-btn-full {
+    transition: none;
+  }
+
+}
