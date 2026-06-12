@@ -10,7 +10,7 @@ permalink: /media/data-breach-how-will-the-biggest-scandal-that-facebook-is-mire
 created: 2025-12-17
 ---
 
-**Data Breach: How Will the Biggest Scandal That Facebook Is Mired in Affect Its Credibility in India?** is a news analysis published in *The Economic Times* on 24 March 2018, written by G Seetharaman and Shephali Bhatt, with inputs from Indulekha Aravind. The article examines implications of Aleksandr Kogan's harvesting 50 million Facebook profiles for Cambridge Analytica through personality quiz app exploiting friends' data access, featuring Sunil Abraham's proposal for quarterly consent revocations in naive user markets, absent Indian data protection law allowing remedies only for financial losses, and both Congress and BJP trading allegations about Cambridge Analytica ties whilst denying associations.
+**Data Breach: How Will the Biggest Scandal That Facebook Is Mired in Affect Its Credibility in India?** is a news analysis published in *The Economic Times* on 24 March 2018, written by G Seetharaman and Shephali Bhatt, with inputs from Indulekha Aravind. The article examines implications of Aleksandr Kogan's harvesting 50 million Facebook profiles for Cambridge Analytica through personality quiz app exploiting friends' data access, featuring [Sunil Abraham](/sunil/)'s proposal for quarterly consent revocations in naive user markets, absent Indian data protection law allowing remedies only for financial losses, and both Congress and BJP trading allegations about Cambridge Analytica ties whilst denying associations.
 
 ## Contents
 

@@ -10,7 +10,7 @@ permalink: /media/cyber-experts-suggest-open-source-software-protect-privacy-tim
 created: 2025-12-23
 ---
 
-**Cyber Experts Suggest Using Open Source Software to Protect Privacy** is a feature published by *The Times of India* on 22 June 2013, written by Kim Arora. The article examines cybersecurity experts' recommendations for protecting online privacy in response to revelations about PRISM surveillance in the United States and deployment of the Central Monitoring System in India. It includes detailed technical advice from Sunil Abraham on using free and open source software, encryption tools and community-based alternatives to mainstream services.
+**Cyber Experts Suggest Using Open Source Software to Protect Privacy** is a feature published by *The Times of India* on 22 June 2013, written by Kim Arora. The article examines cybersecurity experts' recommendations for protecting online privacy in response to revelations about PRISM surveillance in the United States and deployment of the Central Monitoring System in India. It includes detailed technical advice from [Sunil Abraham](/sunil/) on using free and open source software, encryption tools and community-based alternatives to mainstream services.
 
 ## Contents
 

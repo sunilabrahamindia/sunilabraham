@@ -10,7 +10,7 @@ permalink: /media/cyber-spying-fallout-government-may-restrict-gmail-usage-emplo
 created: 2025-12-09
 ---
 
-**Cyber-Spying Fallout: Government May Restrict Usage of Google's Gmail for Employees** is an *Economic Times* report published on 30 August 2013. The article outlines a proposed government directive requiring officials to stop using Gmail for work communications in the wake of the Snowden surveillance disclosures. It includes commentary from Sunil Abraham on interception risks, transparency, and the implications of shifting entirely to official government email services.
+**Cyber-Spying Fallout: Government May Restrict Usage of Google's Gmail for Employees** is an *Economic Times* report published on 30 August 2013. The article outlines a proposed government directive requiring officials to stop using Gmail for work communications in the wake of the Snowden surveillance disclosures. It includes commentary from [Sunil Abraham](/sunil/) on interception risks, transparency, and the implications of shifting entirely to official government email services.
 
 ## Contents
 

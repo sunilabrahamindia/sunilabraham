@@ -10,7 +10,7 @@ permalink: /media/cyber-security-challenge-booming-ecommerce-india/
 created: 2025-12-10
 ---
 
-**Cyber Security Proves a Challenge for Booming E-Commerce in India** is a report published in *The Economic Times* on 25 June 2015. The story highlights a growing set of cyber security concerns affecting India's e-commerce and startup ecosystem — particularly the increasing number of breaches, lax internal security practices, and the absence of structured breach-notification norms. The article includes commentary from Sunil Abraham, who explains why India’s regulatory system significantly undercounts breaches and leaves users exposed.
+**Cyber Security Proves a Challenge for Booming E-Commerce in India** is a report published in *The Economic Times* on 25 June 2015. The story highlights a growing set of cyber security concerns affecting India's e-commerce and startup ecosystem — particularly the increasing number of breaches, lax internal security practices, and the absence of structured breach-notification norms. The article includes commentary from [Sunil Abraham](/sunil/), who explains why India’s regulatory system significantly undercounts breaches and leaves users exposed.
 
 ## Contents
 

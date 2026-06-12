@@ -10,7 +10,7 @@ permalink: /media/digilocker-cut-paperwork-low-adoption-scroll/
 created: 2026-01-03
 ---
 
-**The DigiLocker Was Supposed to Cut Down Paperwork but Less Than 0.1% of Indians Are Using It** is a *Scroll.in* article published on 12 September 2016. The piece examines why DigiLocker had attracted only 1.1 million users more than a year after its launch, representing merely 0.09% of India's population. Privacy concerns and technical glitches contributed to the low adoption, with technology policy expert Sunil Abraham warning about potential consequences if cryptography and architecture were not properly implemented.
+**The DigiLocker Was Supposed to Cut Down Paperwork but Less Than 0.1% of Indians Are Using It** is a *Scroll.in* article published on 12 September 2016. The piece examines why DigiLocker had attracted only 1.1 million users more than a year after its launch, representing merely 0.09% of India's population. Privacy concerns and technical glitches contributed to the low adoption, with technology policy expert [Sunil Abraham](/sunil/) warning about potential consequences if cryptography and architecture were not properly implemented.
 
 ## Contents
 

@@ -10,7 +10,7 @@ permalink: /media/delhi-hc-lifts-curbs-250-websites-sony-six-mint/
 created: 2026-02-23
 ---
 
-**Delhi HC Lifts Curbs on 250 Websites Imposed After Sony Six Complaint** is a *Mint* news report by Vidhi Choudhary and Monalisa published on 8 July 2014. The article covers the Delhi High Court's partial withdrawal of a blocking order against websites alleged to have streamed pirated FIFA World Cup 2014 content, and includes expert comment from Sunil Abraham on the proportionality of blanket website block orders.
+**Delhi HC Lifts Curbs on 250 Websites Imposed After Sony Six Complaint** is a *Mint* news report by Vidhi Choudhary and Monalisa published on 8 July 2014. The article covers the Delhi High Court's partial withdrawal of a blocking order against websites alleged to have streamed pirated FIFA World Cup 2014 content, and includes expert comment from [Sunil Abraham](/sunil/) on the proportionality of blanket website block orders.
 
 ## Contents
 

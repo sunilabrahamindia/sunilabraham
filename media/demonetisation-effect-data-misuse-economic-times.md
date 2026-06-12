@@ -10,7 +10,7 @@ permalink: /media/demonetisation-effect-data-misuse-economic-times/
 created: 2025-12-06
 ---
 
-**Demonetisation Effect: Experts Warn on Dangers of Data Getting Misused** is an Economic Times article published on 1 December 2016. The report examines how the rapid push toward cashless and digital transactions triggered by demonetisation raised concerns about data protection, opaque fintech practices, and the emergence of new credit-scoring models built on personal device data. Experts — including Sunil Abraham and Apar Gupta — highlight gaps in India's privacy framework, risks from data-hungry apps, and the lack of a regulatory enforcement mechanism.
+**Demonetisation Effect: Experts Warn on Dangers of Data Getting Misused** is an Economic Times article published on 1 December 2016. The report examines how the rapid push toward cashless and digital transactions triggered by demonetisation raised concerns about data protection, opaque fintech practices, and the emergence of new credit-scoring models built on personal device data. Experts, including [Sunil Abraham](/sunil/) and Apar Gupta, highlight gaps in India's privacy framework, risks from data-hungry apps, and the lack of a regulatory enforcement mechanism.
 
 ## Contents
 
