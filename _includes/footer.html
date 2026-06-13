@@ -38,7 +38,7 @@
   <a href="/sitemap.xml"
      title="XML sitemap for search engines">XML sitemap</a>
   <a href="/newest"
-     title="Recently created pages">Newest pages</a>
+     title="Recently created pages (Alt+Shift+W)">Newest pages</a>
   <a href="/recent-changes/"
      title="Recently updated pages">Recent changes</a>
   <a href="#"
@@ -158,15 +158,20 @@
   </script>
 
   <script>
-    document.addEventListener('keydown', function (e) {
-      if (e.altKey && e.shiftKey && e.key === 'X') {
-        window.location.href = '/random/';
-      }
-      if (e.altKey && e.shiftKey && e.key === 'G') {
-        window.location.href =
-          'https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}';
-      }
-    });
+document.addEventListener('keydown', function (e) {
+  if (e.altKey && e.shiftKey && e.key === 'X') {
+    window.location.href = '/random/';
+  }
+
+  if (e.altKey && e.shiftKey && e.key === 'G') {
+    window.location.href =
+      'https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}';
+  }
+
+  if (e.altKey && e.shiftKey && e.key === 'W') {
+    window.location.href = '/newest/';
+  }
+});
   </script>
 
 </footer>
