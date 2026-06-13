@@ -45,6 +45,7 @@ These are implemented using lightweight, accessible JavaScript in the site foote
 | Keys | Action | Description |
 |------|--------|-------------|
 | **Alt + Shift + G** | Open GitHub source | Opens the GitHub repository page for the exact source file of the current page |
+| **Alt + Shift + W** | Open newest pages | Opens `/newest/`, showing recently created pages |
 | **Alt + Shift + X** | Load a random page | Takes you to `/random/`, which instantly redirects to a random page across the site |
 
 ## Accessibility Notes
@@ -61,39 +62,24 @@ table {
   border-collapse: collapse;
   margin: 1.5em 0;
   font-size: 1rem;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
-th, td {
+
+th,
+td {
   border: 1px solid #ddd;
   padding: 0.6em 0.8em;
   text-align: left;
 }
+
 th {
   background-color: #f2f2f2;
   color: #333;
 }
+
 tr:nth-child(even) {
   background-color: #fafafa;
-}
-@media (max-width: 600px) {
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
-  tr {
-    margin-bottom: 0.8em;
-    border: 1px solid #e5e5e5;
-    padding: 0.5em;
-  }
-  th {
-    display: none;
-  }
-  td {
-    border: none;
-    padding: 0.4em 0;
-  }
-  td::before {
-    content: attr(data-label);
-    font-weight: bold;
-    display: block;
-  }
 }
 </style>
