@@ -7,6 +7,8 @@ categories: [Project pages]
 created: 2026-06-13
 ---
 
+**Query** is a tool on this project that allows users to search and filter indexed records using structured metadata such as title, author, source, category, and date. The tool currently includes selected publications, media mentions, and other indexed records. Results can be filtered, exported, and shared through URL parameters.
+
 <div class="msq-wrap">
 
   <!-- Toolbar -->
