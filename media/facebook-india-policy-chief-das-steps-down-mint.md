@@ -7,6 +7,7 @@ date: 2020-10-28
 authors: ["Prasid Banerjee"]
 source: "Mint"
 permalink: /media/facebook-india-policy-chief-das-steps-down-mint/
+page_id: TSAP-0594
 created: 2026-02-19
 ---
 

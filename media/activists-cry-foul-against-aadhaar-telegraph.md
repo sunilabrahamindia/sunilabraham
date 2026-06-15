@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-01-12
 source: "The Telegraph (India)"
 permalink: /media/activists-cry-foul-against-aadhaar-telegraph/
+page_id: TSAP-0930
 created: 2026-05-01
 ---
 

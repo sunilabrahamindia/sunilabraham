@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-08-08
 source: "Bangalore Mirror"
 permalink: /media/govt-wants-to-monitor-facebook-twitter-bangalore-mirror/
+page_id: TSAP-0270
 created: 2025-12-20
 ---
 

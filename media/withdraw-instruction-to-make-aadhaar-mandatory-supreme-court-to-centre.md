@@ -7,6 +7,7 @@ date: 2014-03-25
 source: "The Economic Times"
 authors: ["Samanwaya Rautray"]
 permalink: /media/withdraw-instruction-to-make-aadhaar-mandatory-supreme-court-to-centre/
+page_id: TSAP-0239
 created: 2025-12-16
 ---
 

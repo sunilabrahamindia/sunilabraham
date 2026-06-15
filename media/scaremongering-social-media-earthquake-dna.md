@@ -7,6 +7,7 @@ date: 2015-04-28
 authors: ["Gargi Gupta"]
 source: "DNA India"
 permalink: /media/scaremongering-social-media-earthquake-dna/
+page_id: TSAP-0553
 created: 2026-02-05
 ---
 

@@ -7,6 +7,7 @@ date: 2012-09-16
 authors: ["Sunil Abraham"]
 source: "Deccan Chronicle"
 permalink: /publications/the-five-monkeys-and-ice-cold-water/
+page_id: TSAP-0100
 created: 2025-11-16
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-06-26
 source: "The Telegraph (India)"
 permalink: /media/big-brothers-snooping-telegraph-india/
+page_id: TSAP-0257
 created: 2025-12-19
 ---
 

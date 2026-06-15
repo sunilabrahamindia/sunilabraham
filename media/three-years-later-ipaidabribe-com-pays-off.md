@@ -7,6 +7,7 @@ date: 2013-09-23
 authors: ["Jessica McKenzie"]
 source: "TechPresident"
 permalink: /media/three-years-later-ipaidabribe-com-pays-off/
+page_id: TSAP-0999
 created: 2026-05-21
 ---
 

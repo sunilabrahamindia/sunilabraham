@@ -4,6 +4,7 @@ title: "Works Citing A. M. A. Ayrookuzhiel"
 description: "A bibliographic collection of books, articles, theses, and other publications that cite the works of A. M. A. Ayrookuzhiel."
 permalink: /amaa/citations/
 categories: [A. M. A. Ayrookuzhiel]
+page_id: TSAP-0952
 created: 2026-05-08
 ---
 

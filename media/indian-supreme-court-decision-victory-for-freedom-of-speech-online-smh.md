@@ -7,6 +7,7 @@ date: 2015-03-25
 authors: ["Nida Najar"]
 source: "The Sydney Morning Herald"
 permalink: /media/indian-supreme-court-decision-victory-for-freedom-of-speech-online-smh/
+page_id: TSAP-0882
 created: 2026-04-18
 ---
 

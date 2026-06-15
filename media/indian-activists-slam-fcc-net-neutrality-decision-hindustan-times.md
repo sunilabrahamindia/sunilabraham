@@ -7,6 +7,7 @@ date: 2017-11-23
 authors: ["Kul Bhushan"]
 source: "Hindustan Times"
 permalink: /media/indian-activists-slam-fcc-net-neutrality-decision-hindustan-times/
+page_id: TSAP-0396
 created: 2026-01-03
 ---
 

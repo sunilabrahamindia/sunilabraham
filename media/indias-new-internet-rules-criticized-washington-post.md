@@ -7,6 +7,7 @@ date: 2011-07-27
 authors: ["Rama Lakshmi"]
 source: "The Washington Post"
 permalink: /media/indias-new-internet-rules-criticized-washington-post/
+page_id: TSAP-0927
 created: 2026-04-30
 ---
 

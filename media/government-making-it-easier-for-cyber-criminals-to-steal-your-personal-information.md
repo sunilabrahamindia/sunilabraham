@@ -7,6 +7,7 @@ date: 2014-01-03
 source: "The Economic Times"
 authors: ["Sruthijith KK"]
 permalink: /media/government-making-it-easier-for-cyber-criminals-to-steal-your-personal-information/
+page_id: TSAP-0216
 created: 2025-12-14
 ---
 

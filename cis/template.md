@@ -4,6 +4,7 @@ title: "Template:Centre for Internet and Society"
 permalink: /cis/template/
 categories: [Navigational templates, Centre for Internet and Society]
 description: Navigational template linking foundational documents, annual reports, and related pages of the Centre for Internet and Society (CIS).
+page_id: TSAP-0947
 created: 2026-05-05
 ---
 

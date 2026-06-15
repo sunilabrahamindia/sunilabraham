@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's paper on the Pul
 permalink: /amaa/chinnapulayan-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1996
+page_id: TSAP-0906
 created: 2026-04-23
 ---
 

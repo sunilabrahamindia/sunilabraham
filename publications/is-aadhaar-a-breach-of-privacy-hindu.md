@@ -7,6 +7,7 @@ date: 2017-03-31
 authors: ["Sunil Abraham"]
 source: "The Hindu"
 permalink: /publications/is-aadhaar-a-breach-of-privacy-hindu/
+page_id: TSAP-0455
 created: 2026-01-14
 ---
 

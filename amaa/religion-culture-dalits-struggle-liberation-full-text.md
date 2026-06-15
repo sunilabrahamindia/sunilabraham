@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Religion 
 permalink: /amaa/religion-culture-dalits-struggle-liberation-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1986
+page_id: TSAP-1015
 created: 2026-05-26
 ---
 

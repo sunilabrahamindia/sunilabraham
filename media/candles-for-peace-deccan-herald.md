@@ -6,6 +6,7 @@ categories: [Media mentions, Students for Peace]
 date: 1993-02-14
 source: "Deccan Herald"
 permalink: /media/candles-for-peace-deccan-herald/
+page_id: TSAP-0580
 created: 2026-02-12
 ---
 

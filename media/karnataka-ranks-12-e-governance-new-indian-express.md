@@ -7,6 +7,7 @@ date: 2016-12-27
 authors: ["Christin Mathew Philip"]
 source: "The New Indian Express"
 permalink: /media/karnataka-ranks-12-e-governance-new-indian-express/
+page_id: TSAP-0538
 created: 2026-02-01
 ---
 

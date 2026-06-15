@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-03-17
 source: "Hindustan Times"
 permalink: /media/aadhaar-privacy-fears-lok-sabha-passes-bill-hindustan-times/
+page_id: TSAP-0369
 created: 2025-12-31
 ---
 

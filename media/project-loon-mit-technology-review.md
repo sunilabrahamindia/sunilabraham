@@ -7,6 +7,7 @@ date: 2015-02-18
 authors: ["Tom Simonite"]
 source: "MIT Technology Review"
 permalink: /media/project-loon-mit-technology-review/
+page_id: TSAP-0803
 created: 2026-03-28
 ---
 

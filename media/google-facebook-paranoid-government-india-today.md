@@ -7,6 +7,7 @@ date: 2012-01-21
 authors: ["Bhavna Vij-Aurora"]
 source: "India Today"
 permalink: /media/google-facebook-paranoid-government-india-today/
+page_id: TSAP-0694
 created: 2026-03-12
 ---
 

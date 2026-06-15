@@ -7,6 +7,7 @@ date: 2015-03-24
 source: "The Wall Street Journal"
 authors: ["Niharika Mandhana", "Newley Purnell"]
 permalink: /media/indian-supreme-court-overturns-law-barring-offensive-messages-online-wall-street-journal/
+page_id: TSAP-0758
 created: 2026-03-22
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-03-14
 source: "The New Indian Express"
 permalink: /media/will-only-legal-backing-for-aadhaar-suffice-the-new-indian-express/
+page_id: TSAP-1057
 created: 2026-06-11
 homepage_featured: true
 ---

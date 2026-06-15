@@ -7,6 +7,7 @@ date: 2016-09-24
 authors: ["Apurva Venkat", "Moulishree Srivastava"]
 source: "Business Standard"
 permalink: /media/whatsapp-ruling-privacy-law-business-standard/
+page_id: TSAP-0430
 created: 2026-01-08
 ---
 

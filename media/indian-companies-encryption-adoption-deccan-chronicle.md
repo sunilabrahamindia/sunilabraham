@@ -7,6 +7,7 @@ date: 2016-08-09
 authors: ["Koustav Das"]
 source: "Deccan Chronicle"
 permalink: /media/indian-companies-encryption-adoption-deccan-chronicle/
+page_id: TSAP-0411
 created: 2026-01-06
 ---
 

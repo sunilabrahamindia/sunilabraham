@@ -7,6 +7,7 @@ date: 2016-12-21
 authors: ["Cherry Agarwal"]
 source: "Newslaundry"
 permalink: /media/what-does-the-shift-from-paytm-wallet-to-paytm-payments-bank-limited-mean-for-you-newslaundry/
+page_id: TSAP-0681
 created: 2026-03-09
 ---
 

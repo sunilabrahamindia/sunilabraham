@@ -7,6 +7,7 @@ date: 2012-01-29
 source: "The Economic Times"
 authors: ["Javed Anwer"]
 permalink: /media/googles-new-world-and-your-privacy/
+page_id: TSAP-0179
 created: 2025-12-09
 ---
 

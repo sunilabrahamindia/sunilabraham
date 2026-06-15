@@ -7,6 +7,7 @@ date: 2011-03-18
 authors: ["Nikhil Hemrajani"]
 source: "Hindustan Times"
 permalink: /media/twitter-indian-users-profiles-hindustan-times/
+page_id: TSAP-0365
 created: 2025-12-30
 ---
 

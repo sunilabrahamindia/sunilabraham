@@ -7,6 +7,7 @@ date: 2014-03-07
 source: "The Economic Times"
 authors: ["Peerzada Abrar", "Krithika Krishnamurthy"]
 permalink: /media/inmobi-decoded-how-bangalore-based-firm-is-taking-on-google-and-facebook/
+page_id: TSAP-0247
 created: 2025-12-17
 ---
 

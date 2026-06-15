@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-04-04
 source: "Privacy International"
 permalink: /media/panama-papers-privacy-international-we-disagree/
+page_id: TSAP-0826
 created: 2026-04-03
 ---
 

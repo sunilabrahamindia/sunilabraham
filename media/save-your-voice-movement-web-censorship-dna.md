@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-03-13
 source: "DNA India"
 permalink: /media/save-your-voice-movement-web-censorship-dna/
+page_id: TSAP-0552
 created: 2026-02-05
 ---
 

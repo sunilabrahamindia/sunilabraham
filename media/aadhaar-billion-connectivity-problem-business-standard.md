@@ -7,6 +7,7 @@ date: 2016-04-01
 authors: ["Sahil Makkar", "Mayank Mishra"]
 source: "Business Standard"
 permalink: /media/aadhaar-billion-connectivity-problem-business-standard/
+page_id: TSAP-0437
 created: 2026-01-10
 ---
 

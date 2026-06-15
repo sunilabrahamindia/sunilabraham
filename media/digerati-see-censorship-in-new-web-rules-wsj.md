@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-05-02
 source: "The Wall Street Journal"
 permalink: /media/digerati-see-censorship-in-new-web-rules-wsj/
+page_id: TSAP-0890
 created: 2026-04-19
 ---
 

@@ -7,6 +7,7 @@ date: 2018-07-28
 source: "The Economic Times"
 authors: ["Mugdha Variyar", "Pratik Bhakta"]
 permalink: /media/data-localisation-may-pinch-startups-payments-firms/
+page_id: TSAP-0165
 created: 2025-12-08
 ---
 

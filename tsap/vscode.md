@@ -4,6 +4,7 @@ title: "VS Code Workflow"
 description: "Guide to using Visual Studio Code (VS Code) for maintaining The Sunil Abraham Project (TSAP), including Git workflow, shortcuts, and practical editing practices."
 categories: [TSAP Documentation]
 permalink: /tsap/vscode/
+page_id: TSAP-1017
 created: 2026-05-26
 ---
 

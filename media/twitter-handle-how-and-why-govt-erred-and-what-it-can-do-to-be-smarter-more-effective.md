@@ -7,6 +7,7 @@ date: 2012-08-26
 source: "The Economic Times"
 authors: ["TV Mahalingam", "Shantanu Nandan Sharma"]
 permalink: /media/twitter-handle-how-and-why-govt-erred-and-what-it-can-do-to-be-smarter-more-effective/
+page_id: TSAP-0230
 created: 2025-12-15
 ---
 

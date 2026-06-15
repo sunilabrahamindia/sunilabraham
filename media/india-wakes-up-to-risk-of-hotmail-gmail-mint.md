@@ -7,6 +7,7 @@ date: 2013-12-08
 authors: ["Annie Banerji"]
 source: "Mint"
 permalink: /media/india-wakes-up-to-risk-of-hotmail-gmail-mint/
+page_id: TSAP-0598
 created: 2026-02-20
 ---
 

@@ -8,6 +8,7 @@ authors: ["Sunil Abraham"]
 source: "Economic & Political Weekly, Vol. XLVIII No. 42"
 permalink: /publications/the-fight-for-digital-sovereignty/
 pdf: 
+page_id: TSAP-0048
 created: 2025-11-06
 ---
 

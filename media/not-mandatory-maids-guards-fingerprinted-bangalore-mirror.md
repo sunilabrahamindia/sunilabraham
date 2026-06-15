@@ -7,6 +7,7 @@ date: 2011-11-09
 source: "Bangalore Mirror"
 authors: ["Hemanth Kashyap"]
 permalink: /media/not-mandatory-maids-guards-fingerprinted-bangalore-mirror/
+page_id: TSAP-0287
 created: 2025-12-21
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-02-27
 source: "India Today"
 permalink: /media/google-u-turn-nude-photos-blogger-india-today/
+page_id: TSAP-0695
 created: 2026-03-12
 ---
 

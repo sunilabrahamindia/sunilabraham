@@ -7,6 +7,7 @@ date: 2018-07-28
 source: "The Economic Times"
 authors: ["Nilesh Christopher"]
 permalink: /media/india-draft-bill-data-protection-gdpr-limits/
+page_id: TSAP-0197
 created: 2025-12-11
 ---
 

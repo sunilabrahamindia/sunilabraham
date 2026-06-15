@@ -7,6 +7,7 @@ date: 2014-06-04
 source: "The Economic Times"
 authors: ["Varuni Khosla"]
 permalink: /media/apps-like-whisper-and-secret-allow-people-to-unburden-themselves-without-revealing-names/
+page_id: TSAP-0213
 created: 2025-12-14
 ---
 

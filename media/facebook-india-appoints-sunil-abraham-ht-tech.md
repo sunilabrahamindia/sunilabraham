@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2020-10-12
 source: "Hindustan Times"
 permalink: /media/facebook-india-appoints-sunil-abraham-ht-tech/
+page_id: TSAP-0146
 created: 2025-12-05
 ---
 

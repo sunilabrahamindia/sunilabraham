@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-05-02
 source: "Watertown Daily Times"
 permalink: /media/free-expression-watertown-daily-times/
+page_id: TSAP-0894
 created: 2026-04-20
 ---
 

@@ -7,6 +7,7 @@ date: 2013-08-22
 authors: ["Rohin Dharmakumar"]
 source: "Forbes India"
 permalink: /media/milind-deora-prakash-javadekar-deserved-truth-forbes-india/
+page_id: TSAP-0518
 created: 2026-01-27
 ---
 

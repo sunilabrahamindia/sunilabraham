@@ -4,6 +4,7 @@ title: "YAML Front Matter"
 description: "Guide to YAML front matter used across The Sunil Abraham Project (TSAP), including all supported parameters."
 categories: [TSAP Documentation]
 permalink: /tsap/yaml/
+page_id: TSAP-0731
 created: 2026-03-18
 ---
 

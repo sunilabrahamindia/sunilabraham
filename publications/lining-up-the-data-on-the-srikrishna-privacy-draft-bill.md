@@ -7,6 +7,7 @@ date: 2018-07-30
 authors: ["Sunil Abraham"]
 source: "The Economic Times"
 permalink: /publications/lining-up-the-data-on-the-srikrishna-privacy-draft-bill/
+page_id: TSAP-0088
 created: 2025-11-15
 ---
 

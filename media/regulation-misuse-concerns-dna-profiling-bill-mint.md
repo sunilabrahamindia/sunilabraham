@@ -7,6 +7,7 @@ date: 2015-07-29
 authors: ["Nikita Mehta"]
 source: "Mint"
 permalink: /media/regulation-misuse-concerns-dna-profiling-bill-mint/
+page_id: TSAP-0623
 created: 2026-02-26
 ---
 

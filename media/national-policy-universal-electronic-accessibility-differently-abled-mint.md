@@ -7,6 +7,7 @@ date: 2013-10-05
 authors: ["Moulishree Srivastava", "Anirban Sen"]
 source: "Mint"
 permalink: /media/national-policy-universal-electronic-accessibility-differently-abled-mint/
+page_id: TSAP-0647
 created: 2026-03-03
 ---
 

@@ -7,6 +7,7 @@ date: 2018-08-10
 source: "The Economic Times"
 authors: ["Mugdha Variyar"]
 permalink: /media/how-chinese-apps-are-making-inroads-in-indian-small-towns/
+page_id: TSAP-0246
 created: 2025-12-17
 ---
 

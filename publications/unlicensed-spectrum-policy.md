@@ -8,6 +8,7 @@ authors: ["Satya N. Gupta", "Sunil Abraham", "Yelena Gyulkhandanyan"]
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/unlicensed-spectrum-policy/
 pdf: /publications/files/unlicensed-spectrum-policy.pdf
+page_id: TSAP-0073
 created: 2025-11-11
 ---
 

@@ -7,6 +7,7 @@ date: 2012-11-07
 authors: ["Surabhi Agarwal"]
 source: "Mint"
 permalink: /media/information-security-policy-govt-agenda-mint/
+page_id: TSAP-0622
 created: 2026-02-26
 ---
 

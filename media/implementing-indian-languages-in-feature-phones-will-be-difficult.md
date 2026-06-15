@@ -7,6 +7,7 @@ date: 2016-08-10
 source: "The Economic Times"
 authors: ["Gulveen Aulakh", "Neha Alawadhi", "Surabhi Agarwal"]
 permalink: /media/implementing-indian-languages-in-feature-phones-will-be-difficult/
+page_id: TSAP-0233
 created: 2025-12-16
 ---
 

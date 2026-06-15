@@ -7,6 +7,7 @@ authors: ["Sunil Abraham"]
 date: 2000-06-18
 source: "Sunday Herald"
 permalink: /publications/my-outsides-look-cool-my-insides-are-blue-sunday-herald/
+page_id: TSAP-0901
 created: 2026-04-21
 ---
 

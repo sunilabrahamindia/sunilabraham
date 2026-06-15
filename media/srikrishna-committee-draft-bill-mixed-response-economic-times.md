@@ -7,6 +7,7 @@ date: 2018-07-28
 source: "The Economic Times"
 authors: ["Nilesh Christopher"]
 permalink: /media/srikrishna-committee-draft-bill-mixed-response-economic-times/
+page_id: TSAP-0158
 created: 2025-12-06
 ---
 

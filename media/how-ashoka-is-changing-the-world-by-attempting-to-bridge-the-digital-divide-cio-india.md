@@ -7,6 +7,7 @@ date: 2001-08-15
 authors: ["Stewart Deck"]
 source: "CIO India"
 permalink: /media/how-ashoka-is-changing-the-world-by-attempting-to-bridge-the-digital-divide-cio-india/
+page_id: TSAP-1002
 created: 2026-05-22
 homepage_featured: true
 ---

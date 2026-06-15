@@ -7,6 +7,7 @@ date: 2017-07-13
 source: "The Quint"
 authors: ["Vineet Khare"]
 permalink: /media/sure-whatsapp-secures-privacy-but-whos-monitoring-fake-news/
+page_id: TSAP-0338
 created: 2025-12-26
 ---
 

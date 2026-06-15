@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-01-11
 source: "The Economic Times"
 permalink: /media/uidai-introduces-new-two-layer-security-system-to-improve-aadhaar-privacy/
+page_id: TSAP-0220
 created: 2025-12-14
 ---
 

@@ -7,6 +7,7 @@ date: 2017-07-18
 source: "The Quint"
 authors: ["Vineet Khare", "Manasi Dash"]
 permalink: /media/swachh-digital-india-fake-news-has-a-real-impact-on-our-lives/
+page_id: TSAP-0339
 created: 2025-12-26
 ---
 

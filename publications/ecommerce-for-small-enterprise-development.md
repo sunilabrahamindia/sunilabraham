@@ -9,6 +9,7 @@ publisher: "Institute for Development Policy and Management (IDPM), University o
 pages: "Approx. 40 pages"
 permalink: /publications/ecommerce-for-small-enterprise-development/
 pdf: /publications/files/ecommerce-for-small-enterprises.pdf
+page_id: TSAP-0059
 created: 2025-11-08
 ---
 

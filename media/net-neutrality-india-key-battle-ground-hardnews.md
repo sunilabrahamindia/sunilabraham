@@ -6,6 +6,7 @@ categories: [Interviews, Media mentions]
 date: 2015-08-10
 source: "Hardnews"
 permalink: /media/net-neutrality-india-key-battle-ground-hardnews/
+page_id: TSAP-0799
 created: 2026-03-27
 ---
 

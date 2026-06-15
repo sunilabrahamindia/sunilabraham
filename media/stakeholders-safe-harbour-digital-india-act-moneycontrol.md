@@ -7,6 +7,7 @@ date: 2023-03-31
 source: "Moneycontrol"
 authors: ["Aihik Sur"]
 permalink: /media/stakeholders-safe-harbour-digital-india-act-moneycontrol/
+page_id: TSAP-0289
 created: 2025-12-21
 ---
 

@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Dalit The
 permalink: /amaa/dalit-theology-movement-counter-culture-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1988
+page_id: TSAP-1052
 created: 2026-06-10
 ---
 

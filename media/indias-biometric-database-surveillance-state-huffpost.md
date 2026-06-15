@@ -7,6 +7,7 @@ date: 2018-08-25
 source: "HuffPost"
 authors: ["Paul Blumenthal", "Gopal Sathe"]
 permalink: /media/indias-biometric-database-surveillance-state-huffpost/
+page_id: TSAP-0793
 created: 2026-03-26
 ---
 

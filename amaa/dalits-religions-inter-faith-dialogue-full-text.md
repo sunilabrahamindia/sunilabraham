@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Dalits, R
 permalink: /amaa/dalits-religions-inter-faith-dialogue-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1994
+page_id: TSAP-1018
 created: 2026-05-27
 ---
 

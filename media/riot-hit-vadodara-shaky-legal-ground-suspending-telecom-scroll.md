@@ -7,6 +7,7 @@ date: 2014-09-29
 authors: ["Mridula Chari"]
 source: "Scroll.in"
 permalink: /media/riot-hit-vadodara-shaky-legal-ground-suspending-telecom-scroll/
+page_id: TSAP-0401
 created: 2026-01-04
 ---
 

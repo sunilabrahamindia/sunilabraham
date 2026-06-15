@@ -7,6 +7,7 @@ date: 2019-01-13
 authors: ["Sowmya Rajaram"]
 source: "Bangalore Mirror"
 permalink: /media/civic-activism-whatsapp-cab-drivers-bengaluru-bangalore-mirror/
+page_id: TSAP-0815
 created: 2026-03-31
 ---
 

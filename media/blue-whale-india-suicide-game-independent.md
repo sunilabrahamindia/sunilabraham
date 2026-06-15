@@ -7,6 +7,7 @@ date: 2017-09-19
 authors: ["Will Worley"]
 source: "The Independent"
 permalink: /media/blue-whale-india-suicide-game-independent/
+page_id: TSAP-0796
 created: 2026-03-27
 ---
 

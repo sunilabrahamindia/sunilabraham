@@ -7,6 +7,7 @@ date: 2018-03-24
 source: "The Economic Times"
 authors: ["G Seetharaman", "Shephali Bhatt", "Indulekha Aravind"]
 permalink: /media/data-breach-how-will-the-biggest-scandal-that-facebook-is-mired-in-affect-its-credibility-in-india/
+page_id: TSAP-0242
 created: 2025-12-17
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-08-10
 source: "Business Insider"
 permalink: /media/and-now-aadhaar-enabled-smartphones-for-easy-verification-and-money-transfer-business-insider/
+page_id: TSAP-1060
 created: 2026-06-13
 ---
 

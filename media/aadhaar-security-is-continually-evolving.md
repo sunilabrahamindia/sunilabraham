@@ -7,6 +7,7 @@ date: 2018-02-05
 source: "Rediff"
 authors: ["Alnoor Peermohamed"]
 permalink: /media/aadhaar-security-is-continually-evolving/
+page_id: TSAP-0837
 created: 2026-04-07
 ---
 

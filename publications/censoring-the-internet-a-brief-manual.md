@@ -7,6 +7,7 @@ date: 2012-08-23
 authors: ["Sunil Abraham"]
 source: "Tehelka Magazine"
 permalink: /publications/censoring-the-internet-a-brief-manual/
+page_id: TSAP-0095
 created: 2025-11-16
 ---
 

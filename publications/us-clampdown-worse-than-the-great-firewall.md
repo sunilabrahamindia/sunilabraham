@@ -9,6 +9,7 @@ source: "Tehelka Magazine"
 volume: "Volume 8"
 issue: "Issue 50"
 permalink: /publications/us-clampdown-worse-than-the-great-firewall/
+page_id: TSAP-0116
 created: 2025-11-22
 ---
 

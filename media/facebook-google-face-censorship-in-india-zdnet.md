@@ -7,6 +7,7 @@ date: 2012-01-05
 authors: ["Betwa Sharma"]
 source: "ZDNet"
 permalink: /media/facebook-google-face-censorship-in-india-zdnet/
+page_id: TSAP-0811
 created: 2026-03-30
 ---
 

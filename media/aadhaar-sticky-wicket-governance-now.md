@@ -7,6 +7,7 @@ date: 2017-06-16
 authors: ["Pratap Vikram Singh"]
 source: "Governance Now"
 permalink: /media/aadhaar-sticky-wicket-governance-now/
+page_id: TSAP-0504
 created: 2026-01-24
 ---
 

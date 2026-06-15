@@ -7,6 +7,7 @@ date: 2015-03-26
 authors: ["Kumar Anshuman"]
 source: "Open Magazine"
 permalink: /media/section-66a-delete-open-magazine/
+page_id: TSAP-0505
 created: 2026-01-24
 ---
 

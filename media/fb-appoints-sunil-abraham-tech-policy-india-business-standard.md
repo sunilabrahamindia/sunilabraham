@@ -7,6 +7,7 @@ date: 2020-10-12
 authors: ["Peerzada Abrar"]
 source: "Business Standard"
 permalink: /media/fb-appoints-sunil-abraham-tech-policy-india-business-standard/
+page_id: TSAP-0816
 created: 2026-03-31
 ---
 

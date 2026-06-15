@@ -4,6 +4,7 @@ title: "Learning Log"
 description: "A chronological record of software, technologies, workflows, methodologies, and skills explored during the development of The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation]
 permalink: /tsap/learning/
+page_id: TSAP-1038
 created: 2026-06-02
 ---
 

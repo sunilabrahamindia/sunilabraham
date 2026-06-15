@@ -8,6 +8,7 @@ authors: ["Glover Wright", "Pranesh Prakash", "Sunil Abraham", "Nishant Shah"]
 source: "Transparency & Accountability Initiative"
 permalink: /publications/open-government-data-study-india/
 pdf: /publications/files/open-government-data-study-india.pdf
+page_id: TSAP-0033
 created: 2025-11-04
 ---
 

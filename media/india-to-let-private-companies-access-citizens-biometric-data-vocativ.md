@@ -7,6 +7,7 @@ date: 2017-02-21
 authors: ["Joshua Kopstein"]
 source: "Vocativ"
 permalink: /media/india-to-let-private-companies-access-citizens-biometric-data-vocativ/
+page_id: TSAP-1068
 created: 2026-06-16
 ---
 

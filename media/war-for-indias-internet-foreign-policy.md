@@ -7,6 +7,7 @@ date: 2012-06-06
 authors: ["Rebecca MacKinnon"]
 source: "Foreign Policy"
 permalink: /media/war-for-indias-internet-foreign-policy/
+page_id: TSAP-0809
 created: 2026-03-29
 ---
 

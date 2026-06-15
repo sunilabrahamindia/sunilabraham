@@ -12,6 +12,7 @@ pages: "pp. 352–388"
 isbn: "978-0-19-880537-3"
 permalink: /publications/first-among-equals/
 pdf: /publications/files/first-among-equals.pdf
+page_id: TSAP-0054
 created: 2025-11-07
 ---
 

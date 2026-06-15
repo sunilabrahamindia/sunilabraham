@@ -7,6 +7,7 @@ date: 2018-06-08
 authors: ["Vidhi Choudhary"]
 source: "Hindustan Times"
 permalink: /media/draft-privacy-bill-internet-freedom-foundation-hindustan-times/
+page_id: TSAP-0358
 created: 2025-12-29
 ---
 

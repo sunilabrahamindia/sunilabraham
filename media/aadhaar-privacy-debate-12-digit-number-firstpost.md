@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-01-18
 source: "Firstpost"
 permalink: /media/aadhaar-privacy-debate-12-digit-number-firstpost/
+page_id: TSAP-0660
 created: 2026-03-07
 ---
 

@@ -7,6 +7,7 @@ date: 2010-10-01
 authors: ["Indrajit Basu"]
 source: "Asia Times Online"
 permalink: /media/stiff-resistance-dogs-india-id-plan-asia-times-online/
+page_id: TSAP-0872
 created: 2026-04-15
 ---
 

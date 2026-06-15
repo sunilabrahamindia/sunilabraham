@@ -7,6 +7,7 @@ date: 2015-06-30
 source: "CIO India"
 authors: ["Shubhra Rishi"]
 permalink: /media/irctcs-aadhaar-play-can-violate-sc-order-and-derail-national-security-cio-india/
+page_id: TSAP-0771
 created: 2026-03-24
 ---
 

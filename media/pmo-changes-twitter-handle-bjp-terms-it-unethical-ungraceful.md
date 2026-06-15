@@ -7,6 +7,7 @@ date: 2014-05-21
 source: "The Economic Times"
 authors: ["Vijaya Rathore", "Varuni Khosla"]
 permalink: /media/pmo-changes-twitter-handle-bjp-terms-it-unethical-ungraceful/
+page_id: TSAP-0218
 created: 2025-12-14
 ---
 

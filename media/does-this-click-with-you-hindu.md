@@ -7,6 +7,7 @@ date: 2015-09-01
 authors: ["Parshathy J. Nath"]
 source: "The Hindu"
 permalink: /media/does-this-click-with-you-hindu/
+page_id: TSAP-0473
 created: 2026-01-19
 ---
 

@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Elonnai Hickok"]
 source: "International Data Privacy Law, Oxford University Press"
 permalink: /publications/government-access-to-private-sector-data-in-india/
 pdf: /publications/files/government-access-to-private-sector-data-in-india.pdf
+page_id: TSAP-0042
 created: 2025-11-06
 ---
 

@@ -7,6 +7,7 @@ date: 2014-12-01
 authors: ["Geetanjali Minhas"]
 source: "Governance Now"
 permalink: /media/when-technology-able-mindset-not-governance-now/
+page_id: TSAP-0500
 created: 2026-01-23
 ---
 

@@ -7,6 +7,7 @@ date: 2010-08-25
 authors: []
 source: "Right2Info MDGs"
 permalink: /media/transparency-mdgs-sixth-panel-quotes/
+page_id: TSAP-0870
 created: 2026-04-15
 ---
 

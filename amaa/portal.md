@@ -5,6 +5,7 @@ permalink: /amaa/portal/
 image: /amaa/images/A.%20M.%20A.%20Ayrookuzhiel%2001.jpeg
 categories: [A. M. A. Ayrookuzhiel, Portals, Project pages]
 description: Portal page for the life, work, and legacy of Rev. A. M. A. Ayrookuzhiel, bringing together his biography, writings, research contributions, and related materials.
+page_id: TSAP-0107
 created: 2025-11-19
 ---
 

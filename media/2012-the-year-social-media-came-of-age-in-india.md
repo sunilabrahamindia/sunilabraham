@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-12-31
 source: "The Economic Times"
 permalink: /media/2012-the-year-social-media-came-of-age-in-india/
+page_id: TSAP-0192
 created: 2025-12-11
 ---
 

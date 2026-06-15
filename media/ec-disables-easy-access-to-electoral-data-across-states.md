@@ -7,6 +7,7 @@ date: 2018-06-06
 source: "The Economic Times"
 authors: ["Akshatha M"]
 permalink: /media/ec-disables-easy-access-to-electoral-data-across-states/
+page_id: TSAP-0215
 created: 2025-12-14
 ---
 

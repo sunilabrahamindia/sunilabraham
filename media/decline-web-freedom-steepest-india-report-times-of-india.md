@@ -7,6 +7,7 @@ date: 2013-10-03
 source: "The Times of India"
 authors: ["Javed Anwer"]
 permalink: /media/decline-web-freedom-steepest-india-report-times-of-india/
+page_id: TSAP-0305
 created: 2025-12-23
 ---
 

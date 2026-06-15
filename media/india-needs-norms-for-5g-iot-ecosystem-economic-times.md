@@ -7,6 +7,7 @@ date: 2020-07-31
 source: "The Economic Times"
 authors: ["Kalyan Parbat", "ET Bureau"]
 permalink: /media/india-needs-norms-for-5g-iot-ecosystem-economic-times/
+page_id: TSAP-0157
 created: 2025-12-06
 ---
 

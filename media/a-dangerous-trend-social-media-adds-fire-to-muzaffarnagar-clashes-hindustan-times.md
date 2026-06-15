@@ -7,6 +7,7 @@ date: 2013-12-03
 authors: ["Zia Haq"]
 source: "Hindustan Times"
 permalink: /media/a-dangerous-trend-social-media-adds-fire-to-muzaffarnagar-clashes-hindustan-times/
+page_id: TSAP-0378
 created: 2026-01-02
 ---
 

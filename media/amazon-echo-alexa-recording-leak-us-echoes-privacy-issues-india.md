@@ -7,6 +7,7 @@ date: 2018-05-29
 source: "The Economic Times"
 authors: ["Mugdha Variyar"]
 permalink: /media/amazon-echo-alexa-recording-leak-us-echoes-privacy-issues-india/
+page_id: TSAP-0162
 created: 2025-12-08
 ---
 

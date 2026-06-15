@@ -7,6 +7,7 @@ date: 2007-06-17
 authors: ["Mohammed Al-Ghanami (محمد الغنامي)"]
 source: "Al-Riyadh (الرياض)"
 permalink: /media/undp-open-source-software-saudi-arabia-alriyadh/
+page_id: TSAP-0855
 created: 2026-04-11
 ---
 

@@ -4,6 +4,7 @@ title: "Centre for Internet and Society: Annual Report 2011–12"
 description: "A narrative account of the Centre for Internet and Society's annual report for the year 1 April 2011 to 31 March 2012, covering its research, advocacy, events, teaching, publications, and organisational details."
 permalink: /cis/annual-report-2011-12/
 categories: [Centre for Internet and Society]
+page_id: TSAP-0945
 created: 2026-05-05
 ---
 

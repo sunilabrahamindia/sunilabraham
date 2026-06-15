@@ -7,6 +7,7 @@ date: 2011-04-08
 authors: ["Debarshi Dasgupta"]
 source: "Outlook India"
 permalink: /media/beyond-clicktivism-outlook-india/
+page_id: TSAP-0563
 created: 2026-02-08
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-07-02
 source: "Deccan Herald"
 permalink: /media/aadhaars-moment-truth-deccan-herald/
+page_id: TSAP-0342
 created: 2025-12-27
 ---
 

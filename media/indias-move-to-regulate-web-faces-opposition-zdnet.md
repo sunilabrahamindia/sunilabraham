@@ -7,6 +7,7 @@ date: 2012-09-20
 authors: ["Swati Prasad"]
 source: "ZDNet"
 permalink: /media/indias-move-to-regulate-web-faces-opposition-zdnet/
+page_id: TSAP-0808
 created: 2026-03-29
 ---
 

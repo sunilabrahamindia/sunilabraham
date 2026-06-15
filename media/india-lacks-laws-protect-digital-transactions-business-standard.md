@@ -7,6 +7,7 @@ date: 2016-12-03
 authors: ["Alnoor Peermohamed", "Karan Choudhury"]
 source: "Business Standard"
 permalink: /media/india-lacks-laws-protect-digital-transactions-business-standard/
+page_id: TSAP-0431
 created: 2026-01-09
 ---
 

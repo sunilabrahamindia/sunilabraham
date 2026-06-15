@@ -7,6 +7,7 @@ date: 2017-03-24
 authors: ["Rimin Dutt", "Ivan Mehta"]
 source: "HuffPost"
 permalink: /media/why-we-should-all-worry-about-the-mandatory-imposition-of-aadhaar-huffpost/
+page_id: TSAP-1067
 created: 2026-06-15
 homepage_featured: true
 ---

@@ -7,6 +7,7 @@ date: 2013-06-27
 authors: ["Phil Muncaster"]
 source: "The Register"
 permalink: /media/indian-govt-blocks-smut-sites-the-register/
+page_id: TSAP-0714
 created: 2026-03-16
 ---
 

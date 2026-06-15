@@ -7,6 +7,7 @@ date: 2016-01-28
 source: "The Washington Post"
 authors: ["Annie Gowen"]
 permalink: /media/india-egypt-say-no-thanks-to-free-internet-from-facebook/
+page_id: TSAP-0295
 created: 2025-12-22
 ---
 

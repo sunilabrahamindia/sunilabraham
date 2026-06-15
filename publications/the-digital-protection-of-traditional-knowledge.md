@@ -11,6 +11,7 @@ publisher: "Association for Progressive Communications"
 pages: "pp. 134–140"
 permalink: /publications/the-digital-protection-of-traditional-knowledge/
 pdf: /publications/files/the-digital-protection-of-traditional-knowledge.pdf
+page_id: TSAP-0047
 created: 2025-11-06
 ---
 

@@ -7,6 +7,7 @@ date: 2011-04-27
 source: "The New York Times"
 authors: ["Vikas Bajaj"]
 permalink: /media/india-puts-tight-leash-on-internet-free-speech/
+page_id: TSAP-0206
 created: 2025-12-12
 ---
 

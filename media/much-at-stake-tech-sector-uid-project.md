@@ -7,6 +7,7 @@ date: 2011-12-12
 source: "The Economic Times"
 authors: ["Pranav Nambiar"]
 permalink: /media/much-at-stake-tech-sector-uid-project/
+page_id: TSAP-0174
 created: 2025-12-08
 ---
 

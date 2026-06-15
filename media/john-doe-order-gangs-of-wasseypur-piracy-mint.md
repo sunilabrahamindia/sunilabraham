@@ -7,6 +7,7 @@ date: 2012-06-19
 authors: ["Surabhi Agarwal", "Shuchi Bansal"]
 source: "Mint"
 permalink: /media/john-doe-order-gangs-of-wasseypur-piracy-mint/
+page_id: TSAP-0646
 created: 2026-03-03
 ---
 

@@ -7,6 +7,7 @@ date: 2018-03-24
 authors: ["Amit Bhardwaj"]
 source: "Newslaundry"
 permalink: /media/if-an-indian-party-acted-like-cambridge-analytica-it-will-not-be-guilty-under-current-laws-newslaundry/
+page_id: TSAP-0678
 created: 2026-03-09
 ---
 

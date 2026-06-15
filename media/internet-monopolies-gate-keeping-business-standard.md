@@ -7,6 +7,7 @@ date: 2015-12-26
 authors: ["Ranjita Ganesan"]
 source: "Business Standard"
 permalink: /media/internet-monopolies-gate-keeping-business-standard/
+page_id: TSAP-0427
 created: 2026-01-08
 ---
 

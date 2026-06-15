@@ -7,6 +7,7 @@ date: 2015-08-24
 authors: ["Pratap Vikram Singh"]
 source: "Governance Now"
 permalink: /media/making-sense-cctvs-governance-now/
+page_id: TSAP-0499
 created: 2026-01-23
 ---
 

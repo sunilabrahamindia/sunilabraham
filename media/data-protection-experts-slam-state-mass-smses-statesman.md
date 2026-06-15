@@ -7,6 +7,7 @@ date: 2012-03-25
 authors: ["Lara Choksey"]
 source: "The Statesman"
 permalink: /media/data-protection-experts-slam-state-mass-smses-statesman/
+page_id: TSAP-0725
 created: 2026-03-18
 ---
 

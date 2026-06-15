@@ -7,6 +7,7 @@ date: 2016-02-08
 source: "The Washington Post"
 authors: ["Annie Gowen"]
 permalink: /media/india-bans-facebooks-free-internet-for-the-poor/
+page_id: TSAP-0293
 created: 2025-12-22
 ---
 

@@ -4,6 +4,7 @@ title: "Triple Under Utilisation"
 description: "An emerging theory examining the underutilisation of digital devices, human capability, and freely available artificial intelligence systems."
 categories: [Project pages]
 permalink: /3uu/
+page_id: TSAP-0974
 created: 2026-05-16
 homepage_featured: true
 ---

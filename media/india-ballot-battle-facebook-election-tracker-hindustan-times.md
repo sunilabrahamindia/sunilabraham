@@ -7,6 +7,7 @@ date: 2014-03-04
 authors: ["Zia Haq"]
 source: "Hindustan Times"
 permalink: /media/india-ballot-battle-facebook-election-tracker-hindustan-times/
+page_id: TSAP-0395
 created: 2026-01-03
 ---
 

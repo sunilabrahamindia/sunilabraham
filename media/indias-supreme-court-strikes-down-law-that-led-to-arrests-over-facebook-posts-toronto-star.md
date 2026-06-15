@@ -7,6 +7,7 @@ date: 2015-03-25
 authors: ["Annie Gowen"]
 source: "Toronto Star"
 permalink: /media/indias-supreme-court-strikes-down-law-that-led-to-arrests-over-facebook-posts-toronto-star/
+page_id: TSAP-1012
 created: 2026-05-25
 ---
 

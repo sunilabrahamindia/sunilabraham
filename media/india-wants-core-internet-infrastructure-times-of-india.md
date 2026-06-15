@@ -7,6 +7,7 @@ date: 2014-04-24
 source: "The Times of India"
 authors: ["Indrani Bagchi"]
 permalink: /media/india-wants-core-internet-infrastructure-times-of-india/
+page_id: TSAP-0324
 created: 2025-12-25
 ---
 

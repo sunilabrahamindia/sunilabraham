@@ -7,6 +7,7 @@ date: 2015-02-25
 source: "The Economic Times"
 authors: ["Jayadevan PK", "Neha Alawadhi"]
 permalink: /media/hacking-of-sim-card-by-spy-agencies-raises-fears-of-sensitive-documents-being-leaked/
+page_id: TSAP-0232
 created: 2025-12-16
 ---
 

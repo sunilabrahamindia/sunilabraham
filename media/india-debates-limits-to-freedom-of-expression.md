@@ -7,6 +7,7 @@ date: 2012-02-12
 source: "The Washington Post"
 authors: ["Simon Denyer"]
 permalink: /media/india-debates-limits-to-freedom-of-expression/
+page_id: TSAP-0294
 created: 2025-12-22
 ---
 

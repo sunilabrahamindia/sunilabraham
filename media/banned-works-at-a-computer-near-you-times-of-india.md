@@ -7,6 +7,7 @@ date: 2012-02-19
 source: "The Times of India"
 authors: ["Anuradha Varma"]
 permalink: /media/banned-works-at-a-computer-near-you-times-of-india/
+page_id: TSAP-0777
 created: 2026-03-25
 ---
 

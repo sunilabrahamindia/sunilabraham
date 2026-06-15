@@ -7,6 +7,7 @@ date: 2017-08-26
 authors: ["Sunil Abraham"]
 source: "Malayala Manorama"
 permalink: /publications/privacy-violation-even-without-financial-loss-you-can-sue/
+page_id: TSAP-0138
 created: 2025-12-03
 ---
 

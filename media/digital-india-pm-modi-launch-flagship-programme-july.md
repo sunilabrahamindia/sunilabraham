@@ -7,6 +7,7 @@ date: 2015-05-29
 source: "The Economic Times"
 authors: ["Neha Alawadhi", "Jochelle Mendonca"]
 permalink: /media/digital-india-pm-modi-launch-flagship-programme-july/
+page_id: TSAP-0166
 created: 2025-12-08
 ---
 

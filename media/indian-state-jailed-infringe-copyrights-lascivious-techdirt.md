@@ -7,6 +7,7 @@ date: 2014-08-25
 authors: ["Mike Masnick"]
 source: "Techdirt"
 permalink: /media/indian-state-jailed-infringe-copyrights-lascivious-techdirt/
+page_id: TSAP-0807
 created: 2026-03-29
 ---
 

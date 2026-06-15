@@ -7,6 +7,7 @@ date: 2019-01-10
 authors: ["Anshuman Ojha"]
 source: "Communications Today"
 permalink: /media/chinese-companies-feel-the-chill-in-india-communications-today/
+page_id: TSAP-0844
 created: 2026-04-09
 ---
 

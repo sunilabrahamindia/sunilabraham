@@ -7,6 +7,7 @@ date: 2013-04-24
 source: "Voice of America"
 authors: ["Anjana Pasricha"]
 permalink: /media/india-debates-porn-ban/
+page_id: TSAP-0745
 created: 2026-03-21
 ---
 

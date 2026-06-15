@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2013-03-01
 source: "RT International"
 permalink: /media/icelands-proposed-porn-ban-like-repression-iran-north-korea-rt-international/
+page_id: TSAP-0975
 created: 2026-05-17
 ---
 

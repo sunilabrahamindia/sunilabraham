@@ -7,6 +7,7 @@ date: 2015-12-25
 authors: ["Sunil Abraham"]
 source: "Firstpost"
 permalink: /publications/the-net-neutrality-debate-trai-has-a-point-in-imposing-temporary-ban-on-free-basics/
+page_id: TSAP-0049
 created: 2025-11-06
 ---
 

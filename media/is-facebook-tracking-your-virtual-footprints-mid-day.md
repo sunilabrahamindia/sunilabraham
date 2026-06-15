@@ -7,6 +7,7 @@ categories: [Media mentions]
 date: 2011-11-22
 source: "Mid-Day"
 permalink: /media/is-facebook-tracking-your-virtual-footprints-mid-day/
+page_id: TSAP-0592
 created: 2026-02-18
 ---
 

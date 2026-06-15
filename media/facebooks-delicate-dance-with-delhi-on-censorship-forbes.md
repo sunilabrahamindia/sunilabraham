@@ -7,6 +7,7 @@ date: 2012-08-29
 authors: ["Mark Bergen"]
 source: "Forbes"
 permalink: /media/facebooks-delicate-dance-with-delhi-on-censorship-forbes/
+page_id: TSAP-0960
 created: 2026-05-11
 ---
 

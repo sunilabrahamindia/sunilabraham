@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-04-13
 source: "The Economic Times"
 permalink: /media/what-is-net-neutrality-and-why-it-is-important/
+page_id: TSAP-0187
 created: 2025-12-09
 ---
 

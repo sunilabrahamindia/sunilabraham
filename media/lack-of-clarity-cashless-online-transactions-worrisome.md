@@ -7,6 +7,7 @@ date: 2016-12-01
 source: "The Economic Times"
 authors: ["Neha Alawadhi"]
 permalink: /media/lack-of-clarity-about-cashless-and-online-transactions/
+page_id: TSAP-0185
 created: 2025-12-09
 ---
 

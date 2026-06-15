@@ -8,6 +8,7 @@ authors: ["Nicolas Fennen"]
 source: "netzpolitik.org"
 language: "German"
 permalink: /media/india-government-ban-us-email-providers/
+page_id: TSAP-0997
 created: 2026-05-21
 ---
 

@@ -7,6 +7,7 @@ date: 2015-10-16
 authors: ["Apurva Vishwanath", "Saurabh Kumar"]
 source: "Mint"
 permalink: /media/supreme-court-aadhaar-partial-relief-2015-mint/
+page_id: TSAP-0642
 created: 2026-03-02
 ---
 

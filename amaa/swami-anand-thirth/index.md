@@ -4,6 +4,7 @@ title: "Swami Anand Thirth: Untouchability, Gandhian Solution on Trial"
 permalink: /amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/
 categories: [A. M. A. Ayrookuzhiel, Swami Anand Thirth]
 description: "A critical study by Rev. A. M. A. Ayrookuzhiel (1933–1996), examining the reform work of Swami Anand Thirth and evaluating the limits of the Gandhian model of eradicating untouchability in India."
+page_id: TSAP-0110
 created: 2025-11-21
 ---
 

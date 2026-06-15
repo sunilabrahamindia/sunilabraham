@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2020-10-12
 source: "The Hindu Business Line"
 permalink: /media/facebook-appoints-sunil-abraham-hindu-business-line/
+page_id: TSAP-0537
 created: 2026-02-01
 ---
 

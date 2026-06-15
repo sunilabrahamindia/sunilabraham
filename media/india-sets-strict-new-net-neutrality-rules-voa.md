@@ -7,6 +7,7 @@ date: 2016-02-09
 authors: ["Anjana Pasricha"]
 source: "Voice of America"
 permalink: /media/india-sets-strict-new-net-neutrality-rules-voa/
+page_id: TSAP-1031
 created: 2026-05-31
 ---
 

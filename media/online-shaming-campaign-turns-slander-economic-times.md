@@ -7,6 +7,7 @@ date: 2015-04-06
 source: "The Economic Times"
 authors: ["Divya Shekhar"]
 permalink: /media/online-shaming-campaign-turns-slander-economic-times/
+page_id: TSAP-0159
 created: 2025-12-07
 ---
 

@@ -7,6 +7,7 @@ date: 2015-04-23
 authors: ["Gangadhar S Patil"]
 source: "Scroll.in"
 permalink: /media/rural-india-record-surge-e-governance-scroll/
+page_id: TSAP-0402
 created: 2026-01-04
 ---
 

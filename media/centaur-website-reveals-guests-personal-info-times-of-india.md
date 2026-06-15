@@ -7,6 +7,7 @@ date: 2011-06-20
 source: "The Times of India"
 authors: ["Shilpa Phadnis"]
 permalink: /media/centaur-website-reveals-guests-personal-info-times-of-india/
+page_id: TSAP-0312
 created: 2025-12-24
 ---
 

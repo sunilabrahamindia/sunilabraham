@@ -7,6 +7,7 @@ date: 2012-11-23
 authors: ["Shalini Singh"]
 source: "The Hindu"
 permalink: /media/civil-society-industry-oppose-indias-itrs-plans-hindu/
+page_id: TSAP-0459
 created: 2026-01-16
 ---
 

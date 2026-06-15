@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2013-05-18
 source: "Bangalore Mirror"
 permalink: /media/ngo-invites-public-to-peruse-its-accounts-bangalore-mirror/
+page_id: TSAP-0813
 created: 2026-03-30
 ---
 

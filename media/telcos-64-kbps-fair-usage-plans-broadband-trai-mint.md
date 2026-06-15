@@ -7,6 +7,7 @@ date: 2016-03-14
 authors: ["Arunabh Saikia"]
 source: "Mint"
 permalink: /media/telcos-64-kbps-fair-usage-plans-broadband-trai-mint/
+page_id: TSAP-0651
 created: 2026-03-04
 ---
 

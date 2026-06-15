@@ -7,6 +7,7 @@ date: 2016-01-02
 authors: ["Sunil Abraham"]
 source: "Deccan Herald"
 permalink: /publications/free-basics-negating-net-parity/
+page_id: TSAP-0086
 created: 2025-11-14
 ---
 

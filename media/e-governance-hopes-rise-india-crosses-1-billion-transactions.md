@@ -7,6 +7,7 @@ date: 2013-10-29
 source: "The Economic Times"
 authors: ["J Srikant"]
 permalink: /media/e-governance-hopes-rise-india-crosses-1-billion-transactions/
+page_id: TSAP-0167
 created: 2025-12-08
 ---
 

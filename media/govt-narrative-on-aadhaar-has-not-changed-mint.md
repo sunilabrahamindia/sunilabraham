@@ -7,6 +7,7 @@ date: 2016-03-08
 authors: ["Shreeja Sen"]
 source: "Mint"
 permalink: /media/govt-narrative-on-aadhaar-has-not-changed-mint/
+page_id: TSAP-0595
 created: 2026-02-19
 ---
 

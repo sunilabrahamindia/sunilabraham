@@ -7,6 +7,7 @@ date: 2015-04-15
 source: "The New York Times"
 authors: ["Manu Joseph"]
 permalink: /media/another-take-on-net-neutrality/
+page_id: TSAP-0204
 created: 2025-12-12
 ---
 

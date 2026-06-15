@@ -7,6 +7,7 @@ date: 2011-12-06
 source: "The New York Times"
 authors: ["Heather Timmons"]
 permalink: /media/any-normal-human-being-would-be-offended/
+page_id: TSAP-0205
 created: 2025-12-12
 ---
 

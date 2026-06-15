@@ -4,6 +4,7 @@ title: "Authority Control"
 description: "Authority control records and metadata systems used across The Sunil Abraham Project."
 permalink: /authority-control/
 categories: [Authority control]
+page_id: TSAP-0994
 created: 2026-05-20
 ---
 

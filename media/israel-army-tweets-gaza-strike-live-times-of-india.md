@@ -7,6 +7,7 @@ date: 2012-11-16
 source: "The Times of India"
 authors: ["Kim Arora"]
 permalink: /media/israel-army-tweets-gaza-strike-live-times-of-india/
+page_id: TSAP-0784
 created: 2026-03-25
 ---
 

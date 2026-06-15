@@ -7,6 +7,7 @@ date: 2017-09-05
 authors: ["Jayadevan PK"]
 source: "FactorDaily"
 permalink: /media/consent-architecture-indiastack-factordaily/
+page_id: TSAP-0446
 created: 2026-01-12
 ---
 

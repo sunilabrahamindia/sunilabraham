@@ -7,6 +7,7 @@ date: 2013-06-03
 authors: ["Akansha Pandey"]
 source: "DNA India"
 permalink: /media/atul-chitnis-death-moves-people-dna/
+page_id: TSAP-0556
 created: 2026-02-06
 ---
 

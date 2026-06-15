@@ -7,6 +7,7 @@ date: 2016-01-05
 authors: ["Pratap Vikram Singh", "Taru Bhatia"]
 source: "Governance Now"
 permalink: /media/will-india-win-net-neutrality-battle-governance-now/
+page_id: TSAP-0501
 created: 2026-01-23
 ---
 

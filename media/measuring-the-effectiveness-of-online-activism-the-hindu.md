@@ -7,6 +7,7 @@ date: 2009-06-21
 authors: ["Sruthi Krishnan"]
 source: "The Hindu"
 permalink: /media/measuring-the-effectiveness-of-online-activism-the-hindu/
+page_id: TSAP-0862
 created: 2026-04-14
 ---
 

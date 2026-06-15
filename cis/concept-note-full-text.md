@@ -5,6 +5,7 @@ description: "Complete verbatim text of the founding concept note of the Centre 
 permalink: /cis/concept-note-full-text/
 categories: [Centre for Internet and Society, Full text]
 date: 2008-07-01
+page_id: TSAP-0851
 created: 2026-04-11
 ---
 

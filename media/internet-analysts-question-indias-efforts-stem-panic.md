@@ -7,6 +7,7 @@ date: 2012-08-21
 source: "The New York Times"
 authors: ["Vikas Bajaj"]
 permalink: /media/internet-analysts-question-indias-efforts-stem-panic/
+page_id: TSAP-0211
 created: 2025-12-13
 ---
 

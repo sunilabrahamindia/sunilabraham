@@ -7,6 +7,7 @@ date: 2011-05-18
 authors: ["R Krishna"]
 source: "DNA India"
 permalink: /media/bangalore-ngo-rti-query-websites-blocked-indian-govt-dna-india/
+page_id: TSAP-0810
 created: 2026-03-30
 ---
 

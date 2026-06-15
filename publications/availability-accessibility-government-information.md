@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Nirmita Narasimhan", "Beliappa", "Anandhi Vishwanath
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/availability-accessibility-government-information/
 pdf: /publications/files/availability-accessibility-government-information.pdf
+page_id: TSAP-0068
 created: 2025-11-11
 ---
 

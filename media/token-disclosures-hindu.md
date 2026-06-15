@@ -7,6 +7,7 @@ date: 2013-08-04
 authors: ["Deepa Kurup"]
 source: "The Hindu"
 permalink: /media/token-disclosures-hindu/
+page_id: TSAP-0482
 created: 2026-01-20
 ---
 

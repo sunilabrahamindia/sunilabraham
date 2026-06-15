@@ -7,6 +7,7 @@ date: 2014-03-14
 authors: ["Sunil Abraham"]
 source: "The Economic Times"
 permalink: /publications/privacy-worries-cloud-facebooks-whatsapp-deal/
+page_id: TSAP-0076
 created: 2025-11-12
 ---
 

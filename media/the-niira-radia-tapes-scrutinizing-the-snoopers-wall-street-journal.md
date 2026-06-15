@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2010-11-29
 source: "The Wall Street Journal"
 permalink: /media/the-niira-radia-tapes-scrutinizing-the-snoopers-wall-street-journal/
+page_id: TSAP-0762
 created: 2026-03-22
 ---
 

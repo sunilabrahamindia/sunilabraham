@@ -8,6 +8,7 @@ authors: ["Sunil Abraham"]
 source: "Economic & Political Weekly, Vol L, No 15"
 permalink: /publications/shreya-singhal-and-66a/
 pdf: /publications/files/shreya-singhal-and-66a.pdf
+page_id: TSAP-0035
 created: 2025-11-04
 ---
 

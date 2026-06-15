@@ -4,6 +4,7 @@ title: "Pages Index (pages.json) Documentation"
 description: "Documentation for the pages.json content index used by The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation]
 permalink: /tsap/pages-json-documentation/
+page_id: TSAP-1049
 created: 2026-06-08
 ---
 

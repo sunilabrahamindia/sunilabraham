@@ -4,6 +4,7 @@ title: "The State of Hinduism in 2000 A.D.—Some Emerging Trends"
 description: "A. M. A. Ayrookuzhiel's 1977 essay examining secularisation, religious belief, and possible future trends in Hinduism as India entered an increasingly scientific and modern age."
 permalink: /amaa/state-of-hinduism-in-2000-ad/
 categories: [A. M. A. Ayrookuzhiel, Publications]
+page_id: TSAP-1051
 created: 2026-06-09
 homepage_featured: true
 ---

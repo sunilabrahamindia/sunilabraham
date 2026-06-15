@@ -7,6 +7,7 @@ date: 2012-02-01
 source: "Committee to Protect Journalists"
 authors: ["Danny O'Brien"]
 permalink: /media/using-internet-crime-laws-authorities-ensnare-journalists/
+page_id: TSAP-0839
 created: 2026-04-07
 ---
 

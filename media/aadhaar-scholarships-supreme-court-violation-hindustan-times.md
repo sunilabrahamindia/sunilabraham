@@ -7,6 +7,7 @@ date: 2016-07-15
 authors: ["Neelam Pandey", "Aloke Tikku"]
 source: "Hindustan Times"
 permalink: /media/aadhaar-scholarships-supreme-court-violation-hindustan-times/
+page_id: TSAP-0357
 created: 2025-12-29
 ---
 

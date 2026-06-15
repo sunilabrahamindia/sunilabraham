@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2010-04-29
 source: "Deccan Herald"
 permalink: /media/citizens-forums-want-uid-project-scrapped-deccan-herald/
+page_id: TSAP-0345
 created: 2025-12-27
 ---
 

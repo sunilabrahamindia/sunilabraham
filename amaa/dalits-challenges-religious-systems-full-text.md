@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Dalits' C
 permalink: /amaa/dalits-challenges-religious-systems-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1989
+page_id: TSAP-1022
 created: 2026-05-28
 ---
 

@@ -7,6 +7,7 @@ date: 2019-01-16
 authors: ["Nishant Sharma"]
 source: "BloombergQuint"
 permalink: /media/oyo-hotels-real-time-digital-record-database-sparks-privacy-fears-bloombergquint/
+page_id: TSAP-0689
 created: 2026-03-11
 ---
 

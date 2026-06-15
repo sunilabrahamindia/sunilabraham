@@ -4,6 +4,7 @@ title: "Sunil Abraham and Deccan Chronicle"
 description: "A consolidated cluster of Sunil Abraham's columns for Deccan Chronicle and related news coverage that references his views on technology, digital rights, internet governance, and public policy in India."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-deccan-chronicle/
+page_id: TSAP-0408
 created: 2026-01-06
 ---
 

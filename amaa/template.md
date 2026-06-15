@@ -4,6 +4,7 @@ title: "Template:A. M. A. Ayrookuzhiel"
 permalink: /amaa/template/
 categories: [Navigational templates, A. M. A. Ayrookuzhiel]
 description: Navigational template linking family, books, essays, and related articles of A. M. A. Ayrookuzhiel (1933–1996).
+page_id: TSAP-0859
 created: 2026-04-12
 ---
 

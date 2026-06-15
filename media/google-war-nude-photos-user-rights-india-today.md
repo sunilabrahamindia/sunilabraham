@@ -7,6 +7,7 @@ date: 2015-02-25
 authors: ["Sahil Mohan Gupta"]
 source: "India Today"
 permalink: /media/google-war-nude-photos-user-rights-india-today/
+page_id: TSAP-0696
 created: 2026-03-12
 ---
 

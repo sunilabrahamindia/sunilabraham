@@ -7,6 +7,7 @@ date: 2015-09-24
 source: "The Wall Street Journal"
 authors: ["Newley Purnell", "Resty Woro Uniar"]
 permalink: /media/facebooks-free-internet-access-program-in-developing-countries-provokes-backlash-wall-street-journal/
+page_id: TSAP-0755
 created: 2026-03-22
 ---
 

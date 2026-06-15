@@ -4,6 +4,7 @@ title: "CIS Memorandum of Association: An Explainer"
 description: "A plain-language guide to the Memorandum of Association and Rules and Regulations of the Centre for Internet and Society (CIS), presented in question-and-answer format by The Sunil Abraham Project."
 permalink: /cis/moa-explainer/
 categories: ["Centre for Internet and Society"]
+page_id: TSAP-0903
 created: 2026-04-22
 ---
 

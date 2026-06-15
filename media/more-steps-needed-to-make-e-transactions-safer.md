@@ -7,6 +7,7 @@ date: 2016-11-28
 source: "Rediff"
 authors: ["Sayan Ghoshal"]
 permalink: /media/more-steps-needed-to-make-e-transactions-safer/
+page_id: TSAP-0842
 created: 2026-04-08
 ---
 

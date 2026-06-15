@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-07-24
 source: "Bangalore Mirror"
 permalink: /media/facebook-my-boyfriend-is-lousy-bangalore-mirror/
+page_id: TSAP-0269
 created: 2025-12-20
 ---
 

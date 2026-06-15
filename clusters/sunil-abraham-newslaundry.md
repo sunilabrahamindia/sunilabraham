@@ -4,6 +4,7 @@ title: "Sunil Abraham and Newslaundry"
 description: "A collection of Newslaundry reports and stories that include commentary from Sunil Abraham on technology policy, privacy, and digital governance."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-newslaundry/
+page_id: TSAP-0677
 created: 2026-03-09
 ---
 

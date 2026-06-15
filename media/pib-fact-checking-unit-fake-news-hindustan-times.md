@@ -7,6 +7,7 @@ date: 2019-07-03
 authors: ["Smriti Kak Ramachandran"]
 source: "Hindustan Times"
 permalink: /media/pib-fact-checking-unit-fake-news-hindustan-times/
+page_id: TSAP-0360
 created: 2025-12-29
 ---
 

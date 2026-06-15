@@ -7,6 +7,7 @@ date: 2016-09-14
 authors: ["Alnoor Peermohamed"]
 source: "Business Standard"
 permalink: /media/aadhaar-mandate-smartphone-makers-business-standard/
+page_id: TSAP-0424
 created: 2026-01-08
 ---
 

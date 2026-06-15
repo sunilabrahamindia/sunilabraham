@@ -7,6 +7,7 @@ date: 2018-04-05
 authors: ["Vidhi Choudhary", "Yashwant Raj"]
 source: "Hindustan Times"
 permalink: /media/cambridge-analytica-facebook-data-breach-indian-users-hindustan-times/
+page_id: TSAP-0380
 created: 2026-01-02
 ---
 

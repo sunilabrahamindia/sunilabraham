@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-07-06
 source: "Hindustan Times"
 permalink: /media/whatsapp-fake-news-expert-assessments-hindustan-times/
+page_id: TSAP-0367
 created: 2025-12-30
 ---
 

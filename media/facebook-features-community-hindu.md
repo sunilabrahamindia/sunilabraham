@@ -7,6 +7,7 @@ date: 2010-10-10
 authors: ["Ajai Sreevatsan", "Sruthi Krishnan"]
 source: "The Hindu"
 permalink: /media/facebook-features-community-hindu/
+page_id: TSAP-0479
 created: 2026-01-20
 ---
 

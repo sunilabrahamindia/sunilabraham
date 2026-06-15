@@ -7,6 +7,7 @@ date: 2014-05-02
 source: "The Times of India"
 authors: ["Kim Arora"]
 permalink: /media/activists-bemoan-absence-of-active-pirate-party-in-india-times-of-india/
+page_id: TSAP-0770
 created: 2026-03-24
 ---
 

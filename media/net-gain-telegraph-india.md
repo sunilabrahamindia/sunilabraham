@@ -7,6 +7,7 @@ date: 2011-08-24
 source: "The Telegraph (India)"
 authors: ["Hemchhaya De"]
 permalink: /media/net-gain-telegraph-india/
+page_id: TSAP-0262
 created: 2025-12-19
 ---
 

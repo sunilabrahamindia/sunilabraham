@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Vidushi Marda"]
 source: "Association for Progressive Communications (APC)"
 permalink: /publications/economic-social-cultural-rights-india/
 pdf: /publications/files/economic-social-cultural-rights-india.pdf
+page_id: TSAP-0060
 created: 2025-11-08
 ---
 

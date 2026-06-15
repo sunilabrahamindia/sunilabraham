@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-03-08
 source: "Global Network Initiative"
 permalink: /media/the-centre-for-internet-society-joins-the-global-network-initiative-global-network-initiative/
+page_id: TSAP-0982
 created: 2026-05-18
 ---
 

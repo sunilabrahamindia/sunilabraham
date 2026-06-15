@@ -3,6 +3,7 @@ layout: default
 title: "The Sunil Abraham Project"
 description: "An encyclopaedic overview of the Sunil Abraham Project, a digital publishing and archiving initiative documenting the writings, collaborations, and digital philosophy of Sunil Abraham."
 categories: [Project pages]
+page_id: TSAP-0052
 created: 2025-11-07
 ---
 

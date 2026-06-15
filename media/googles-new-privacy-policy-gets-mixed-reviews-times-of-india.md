@@ -7,6 +7,7 @@ date: 2013-10-18
 source: "The Times of India"
 authors: ["Indu Nandakumar", "J Srikant"]
 permalink: /media/googles-new-privacy-policy-gets-mixed-reviews-times-of-india/
+page_id: TSAP-0780
 created: 2026-03-25
 ---
 

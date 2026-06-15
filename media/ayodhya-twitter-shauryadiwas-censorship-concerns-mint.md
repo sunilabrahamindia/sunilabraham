@@ -7,6 +7,7 @@ date: 2012-12-07
 authors: ["Surabhi Agarwal"]
 source: "Mint"
 permalink: /media/ayodhya-twitter-shauryadiwas-censorship-concerns-mint/
+page_id: TSAP-0643
 created: 2026-03-03
 ---
 

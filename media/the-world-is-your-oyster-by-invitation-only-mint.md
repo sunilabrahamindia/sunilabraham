@@ -7,6 +7,7 @@ date: 2011-04-26
 authors: ["Shreya Ray"]
 source: "Mint"
 permalink: /media/the-world-is-your-oyster-by-invitation-only-mint/
+page_id: TSAP-0899
 created: 2026-04-20
 ---
 

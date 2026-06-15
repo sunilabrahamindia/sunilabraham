@@ -7,6 +7,7 @@ date: 2016-04-10
 authors: ["Somesh Jha"]
 source: "The Hindu"
 permalink: /media/pmo-no-smart-cards-aadhaar-hindu/
+page_id: TSAP-0470
 created: 2026-01-18
 ---
 

@@ -7,6 +7,7 @@ date: 2012-10-26
 source: "Hindustan Times"
 authors: ["Zia Haq"]
 permalink: /media/on-social-media-modi-goes-soft-hindustan-times/
+page_id: TSAP-0767
 created: 2026-03-23
 ---
 

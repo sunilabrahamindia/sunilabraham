@@ -7,6 +7,7 @@ date: 2017-04-26
 authors: ["Sebastian PT"]
 source: "National Herald"
 permalink: /media/now-aadhaar-details-displayed-in-mizoram-too-national-herald/
+page_id: TSAP-0705
 created: 2026-03-14
 ---
 

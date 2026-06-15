@@ -7,6 +7,7 @@ date: 2016-06-23
 source: "The Economic Times"
 authors: ["Kalyan Parbat"]
 permalink: /media/slow-internet-driving-you-nuts-here-is-how-your-service-provider-is-fleecing-you/
+page_id: TSAP-0236
 created: 2025-12-16
 ---
 

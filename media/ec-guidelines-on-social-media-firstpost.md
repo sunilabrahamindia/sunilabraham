@@ -7,6 +7,7 @@ date: 2013-11-01
 authors: ["Shruti Dhapola"]
 source: "Firstpost"
 permalink: /media/ec-guidelines-on-social-media-firstpost/
+page_id: TSAP-0657
 created: 2026-03-06
 ---
 

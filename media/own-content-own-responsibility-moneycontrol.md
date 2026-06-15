@@ -7,6 +7,7 @@ date: 2019-08-28
 source: "Moneycontrol"
 authors: ["Sunny Sen"]
 permalink: /media/own-content-own-responsibility-moneycontrol/
+page_id: TSAP-0288
 created: 2025-12-21
 ---
 

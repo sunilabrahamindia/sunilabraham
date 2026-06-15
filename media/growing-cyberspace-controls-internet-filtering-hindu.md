@@ -7,6 +7,7 @@ date: 2011-02-20
 authors: ["T. Ramachandran"]
 source: "The Hindu"
 permalink: /media/growing-cyberspace-controls-internet-filtering-hindu/
+page_id: TSAP-0474
 created: 2026-01-19
 ---
 

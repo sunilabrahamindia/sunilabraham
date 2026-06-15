@@ -4,6 +4,7 @@ title: "Sunil Abraham and News18"
 description: "A small curated cluster of News18 reporting that references Sunil Abraham’s commentary on technology policy, digital governance, privacy, and the public impact of internet regulation in India."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-news18/
+page_id: TSAP-0526
 created: 2026-01-30
 ---
 

@@ -7,6 +7,7 @@ date: 2018-08-13
 authors: ["Anand Murali"]
 source: "FactorDaily"
 permalink: /media/big-eye-mass-surveillance-india-factordaily/
+page_id: TSAP-0445
 created: 2026-01-12
 ---
 

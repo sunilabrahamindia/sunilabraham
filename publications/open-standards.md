@@ -11,6 +11,7 @@ publisher: "Association for Progressive Communications (APC)"
 pages: "pp. 20–22"
 permalink: /publications/open-standards/
 pdf: /publications/files/open-standards.pdf
+page_id: TSAP-0055
 created: 2025-11-07
 ---
 

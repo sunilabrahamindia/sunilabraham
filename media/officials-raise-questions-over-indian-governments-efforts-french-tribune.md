@@ -7,6 +7,7 @@ date: 2012-08-22
 authors: ["Bruce Totolos"]
 source: "French Tribune"
 permalink: /media/officials-raise-questions-over-indian-governments-efforts-french-tribune/
+page_id: TSAP-0965
 created: 2026-05-11
 ---
 

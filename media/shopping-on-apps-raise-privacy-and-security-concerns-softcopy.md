@@ -7,6 +7,7 @@ date: 2015-11-23
 authors: ["Vivek Ananth"]
 source: "Softcopy"
 permalink: /media/shopping-on-apps-raise-privacy-and-security-concerns-softcopy/
+page_id: TSAP-1025
 created: 2026-05-28
 ---
 

@@ -11,6 +11,7 @@ publisher: "Institute of Network Cultures"
 pages: "pp. 186–189"
 permalink: /publications/weight-of-cloud-kitchens/
 pdf: /publications/files/weight-of-cloud-kitchens.pdf
+page_id: TSAP-0483
 created: 2026-01-20
 ---
 

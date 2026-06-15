@@ -7,6 +7,7 @@ date: 2012-08-25
 authors: ["Sunil Abraham"]
 source: "Deccan Herald"
 permalink: /publications/to-regulate-net-intermediaries-or-not-is-the-question/
+page_id: TSAP-0106
 created: 2025-11-18
 ---
 

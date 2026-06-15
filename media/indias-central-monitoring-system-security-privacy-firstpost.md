@@ -7,6 +7,7 @@ date: 2013-07-10
 authors: ["Danish"]
 source: "Firstpost"
 permalink: /media/indias-central-monitoring-system-security-privacy-firstpost/
+page_id: TSAP-0658
 created: 2026-03-06
 ---
 

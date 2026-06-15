@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-06-10
 source: "The Hindu Business Line"
 permalink: /media/new-internet-watchdogs-hindu-business-line/
+page_id: TSAP-0548
 created: 2026-02-04
 ---
 

@@ -4,6 +4,7 @@ title: "The Role of Religion in Dalit Liberation: Some Reflections"
 permalink: /amaa/role-of-religion-dalit-liberation/
 categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's essay examining the role of religion, caste, and political structures in Dalit liberation through a series of ten theses."
+page_id: TSAP-0910
 created: 2026-04-24
 ---
 

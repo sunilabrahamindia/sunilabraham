@@ -7,6 +7,7 @@ date: 2016-02-09
 authors: ["Sunil Abraham"]
 source: "Firstpost"
 permalink: /publications/facebooks-fall-from-grace-arab-spring-to-indian-winter/
+page_id: TSAP-0069
 created: 2025-11-11
 ---
 

@@ -4,6 +4,7 @@ title: "The Dalit Church's Mission — A Dalit Response"
 permalink: /amaa/dalit-church-mission-dalit-response/
 categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's 1996 essay examining the relationship between Christian mission and Dalit liberation, the role of churches in economic, political, and religious empowerment, and debates concerning caste, conversion, Hindu reform, and Dalit dignity."
+page_id: TSAP-1030
 created: 2026-05-30
 ---
 

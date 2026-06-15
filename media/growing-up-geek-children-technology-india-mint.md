@@ -7,6 +7,7 @@ date: 2012-02-25
 authors: ["Gopal Sathe"]
 source: "Mint"
 permalink: /media/growing-up-geek-children-technology-india-mint/
+page_id: TSAP-0644
 created: 2026-03-03
 ---
 

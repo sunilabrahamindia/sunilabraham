@@ -7,6 +7,7 @@ date: 2025-04-16
 authors: ["Kamya Pandey"]
 source: "MediaNama"
 permalink: /media/meta-india-dpdp-copyright-ai-data-centres-medianama/
+page_id: TSAP-0419
 created: 2026-01-07
 ---
 

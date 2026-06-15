@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2013-11-23
 source: "The Telegraph (India)"
 permalink: /media/no-means-no-telegraph-india/
+page_id: TSAP-0254
 created: 2025-12-18
 ---
 

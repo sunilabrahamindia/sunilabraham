@@ -7,6 +7,7 @@ date: 2015-03-29
 authors: ["John Ribeiro"]
 source: "PCWorld"
 permalink: /media/india-backs-open-source-software-e-governance-pcworld/
+page_id: TSAP-0726
 created: 2026-03-18
 ---
 

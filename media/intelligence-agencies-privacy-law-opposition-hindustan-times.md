@@ -7,6 +7,7 @@ date: 2013-11-02
 authors: ["Nagendar Sharma", "Aloke Tikku"]
 source: "Hindustan Times"
 permalink: /media/intelligence-agencies-privacy-law-opposition-hindustan-times/
+page_id: TSAP-0372
 created: 2025-12-31
 ---
 

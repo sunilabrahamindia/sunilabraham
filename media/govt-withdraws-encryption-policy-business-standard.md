@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-09-23
 source: "Business Standard"
 permalink: /media/govt-withdraws-encryption-policy-business-standard/
+page_id: TSAP-0440
 created: 2026-01-10
 ---
 

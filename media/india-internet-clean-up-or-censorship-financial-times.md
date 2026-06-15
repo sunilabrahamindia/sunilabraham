@@ -7,6 +7,7 @@ date: 2012-01-13
 authors: ["Neil Munshi"]
 source: "Financial Times"
 permalink: /media/india-internet-clean-up-or-censorship-financial-times/
+page_id: TSAP-0932
 created: 2026-05-01
 ---
 

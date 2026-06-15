@@ -7,6 +7,7 @@ date: 2014-02-11
 authors: ["Deepa Kurup"]
 source: "The Hindu"
 permalink: /media/tale-two-internet-campaigns-hindu/
+page_id: TSAP-0486
 created: 2026-01-21
 ---
 

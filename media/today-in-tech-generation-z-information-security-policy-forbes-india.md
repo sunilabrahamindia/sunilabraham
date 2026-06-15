@@ -7,6 +7,7 @@ date: 2012-11-07
 authors: ["N.S. Ramnath"]
 source: "Forbes India"
 permalink: /media/today-in-tech-generation-z-information-security-policy-forbes-india/
+page_id: TSAP-0849
 created: 2026-04-10
 ---
 

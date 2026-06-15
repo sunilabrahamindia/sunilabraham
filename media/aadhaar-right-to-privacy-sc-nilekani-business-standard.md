@@ -7,6 +7,7 @@ date: 2017-08-26
 authors: ["Alnoor Peermohamed"]
 source: "Business Standard"
 permalink: /media/aadhaar-right-to-privacy-sc-nilekani-business-standard/
+page_id: TSAP-0823
 created: 2026-04-02
 ---
 

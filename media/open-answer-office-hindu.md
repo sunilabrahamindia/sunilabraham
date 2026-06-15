@@ -7,6 +7,7 @@ date: 2010-03-14
 authors: ["Deepa Kurup"]
 source: "The Hindu"
 permalink: /media/open-answer-office-hindu/
+page_id: TSAP-0469
 created: 2026-01-18
 ---
 

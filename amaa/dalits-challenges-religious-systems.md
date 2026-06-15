@@ -4,6 +4,7 @@ title: "Dalits' Challenges to Religious Systems — A People Ignored by Church H
 permalink: /amaa/dalits-challenges-religious-systems/
 categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's 1989 essay examining the Dalit movement, caste contradiction, anti-Brahminical cultural resistance, the limitations of Gandhian and Left approaches, and the challenges posed to Christianity and Church history by Dalit struggles for liberation."
+page_id: TSAP-1023
 created: 2026-05-28
 ---
 

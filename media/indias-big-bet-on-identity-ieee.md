@@ -7,6 +7,7 @@ date: 2012-03-01
 source: "IEEE Spectrum"
 authors: ["Joshua J. Romero"]
 permalink: /media/indias-big-bet-on-identity-ieee/
+page_id: TSAP-0846
 created: 2026-04-09
 ---
 

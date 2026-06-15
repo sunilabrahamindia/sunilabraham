@@ -7,6 +7,7 @@ date: 2018-08-21
 authors: ["Nakul Sridhar"]
 source: "Hindustan Times"
 permalink: /media/whatsapp-fake-news-india-compliance-hindustan-times/
+page_id: TSAP-0362
 created: 2025-12-29
 ---
 

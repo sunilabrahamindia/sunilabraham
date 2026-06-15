@@ -4,6 +4,7 @@ title: "Fifth Anniversary of the Centre for Internet and Society"
 description: "An account of the fifth anniversary celebrations of the Centre for Internet and Society (CIS), held from 20–23 May 2013 in Bangalore and Delhi, comprising a public exhibition, evening talks, film screenings, and cultural performances."
 permalink: /cis/fifth-anniversary/
 categories: [Centre for Internet and Society, Events]
+page_id: TSAP-0951
 created: 2026-05-07
 ---
 

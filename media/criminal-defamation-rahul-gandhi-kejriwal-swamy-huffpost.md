@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-07-15
 source: "HuffPost"
 permalink: /media/criminal-defamation-rahul-gandhi-kejriwal-swamy-huffpost/
+page_id: TSAP-0789
 created: 2026-03-26
 ---
 

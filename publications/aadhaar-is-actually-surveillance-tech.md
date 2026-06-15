@@ -7,6 +7,7 @@ date: 2016-03-12
 authors: ["Sahil Makkar"]
 source: "Business Standard"
 permalink: /publications/aadhaar-is-actually-surveillance-tech/
+page_id: TSAP-0137
 created: 2025-12-03
 ---
 

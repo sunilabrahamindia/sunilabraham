@@ -7,6 +7,7 @@ date: 2012-06-24
 source: "The Economic Times"
 authors: ["M Rajshekhar"]
 permalink: /media/uid-are-your-biometric-i-cards-stacked-against-you/
+page_id: TSAP-0248
 created: 2025-12-17
 ---
 

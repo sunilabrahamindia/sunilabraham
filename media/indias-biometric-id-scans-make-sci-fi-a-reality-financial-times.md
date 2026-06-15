@@ -7,6 +7,7 @@ date: 2017-03-27
 source: "Financial Times"
 authors: ["Amy Kazmin"]
 permalink: /media/indias-biometric-id-scans-make-sci-fi-a-reality-financial-times/
+page_id: TSAP-0746
 created: 2026-03-21
 ---
 

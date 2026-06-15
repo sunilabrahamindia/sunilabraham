@@ -7,6 +7,7 @@ date: 2011-11-14
 authors: ["Leslie D'Monte", "Deepti Chaudhary"]
 source: "Mint"
 permalink: /media/broadband-user-base-india-100-million-internet-mint/
+page_id: TSAP-0652
 created: 2026-03-05
 ---
 

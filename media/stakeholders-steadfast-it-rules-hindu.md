@@ -7,6 +7,7 @@ date: 2012-08-03
 authors: ["Shalini Singh"]
 source: "The Hindu"
 permalink: /media/stakeholders-steadfast-it-rules-hindu/
+page_id: TSAP-0477
 created: 2026-01-19
 ---
 

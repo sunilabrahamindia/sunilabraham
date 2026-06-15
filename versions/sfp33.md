@@ -4,6 +4,7 @@ title: "33 Years of Students for Peace"
 description: "Commemorating the 33rd anniversary of the Students for Peace candlelight demonstration on 13 February 1993 in Bangalore"
 permalink: /sfp33/
 date: 2026-02-13
+page_id: TSAP-0582
 created: 2026-02-12
 categories: [Students for Peace, TSAP Events and Rituals]
 ---

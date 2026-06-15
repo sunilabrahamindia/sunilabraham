@@ -7,6 +7,7 @@ date: 2012-06-09
 source: "The Economic Times"
 authors: ["Lison Joseph", "Indu Nandakumar"]
 permalink: /media/anonymous-to-protest-internet-censoring-in-16-indian-cities-threaten-to-bring-down-government-websites/
+page_id: TSAP-0222
 created: 2025-12-15
 ---
 

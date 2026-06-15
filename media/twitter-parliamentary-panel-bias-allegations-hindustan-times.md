@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2019-02-10
 source: "Hindustan Times"
 permalink: /media/twitter-parliamentary-panel-bias-allegations-hindustan-times/
+page_id: TSAP-0374
 created: 2025-12-31
 ---
 

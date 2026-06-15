@@ -7,6 +7,7 @@ date: 2020-10-12
 authors: ["Haripriya Suresh"]
 source: "The News Minute"
 permalink: /media/facebook-hires-sunil-abraham-news-minute/
+page_id: TSAP-0136
 created: 2025-12-03
 ---
 

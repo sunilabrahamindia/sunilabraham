@@ -7,6 +7,7 @@ date: 2015-12-25
 authors: ["Apurva Venkat", "Vandana Kamath"]
 source: "Bangalore Mirror"
 permalink: /media/a-scam-masquerading-as-santa-bangalore-mirror/
+page_id: TSAP-0267
 created: 2025-12-20
 ---
 

@@ -3,6 +3,7 @@ layout: default
 title: Sunil Abraham
 categories: [Biographies, Sunil Abraham]
 description: Biography of Sunil Abraham (born 1973), Indian technologist, social entrepreneur, and policy researcher known for work on FOSS, Internet governance, and digital rights.
+page_id: TSAP-0011
 created: 2025-10-27
 ---
 

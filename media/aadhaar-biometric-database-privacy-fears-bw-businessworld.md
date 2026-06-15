@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-03-16
 source: "BW Businessworld"
 permalink: /media/aadhaar-biometric-database-privacy-fears-bw-businessworld/
+page_id: TSAP-0702
 created: 2026-03-13
 ---
 

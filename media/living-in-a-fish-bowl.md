@@ -7,6 +7,7 @@ date: 2014-07-16
 source: "The Telegraph (India)"
 authors: ["Shuma Raha"]
 permalink: /media/living-in-a-fish-bowl/
+page_id: TSAP-0252
 created: 2025-12-18
 ---
 

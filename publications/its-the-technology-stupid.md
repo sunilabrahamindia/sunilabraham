@@ -7,6 +7,7 @@ date: 2017-03-31
 authors: ["Sunil Abraham"]
 source: "The Hindu Business Line"
 permalink: /publications/its-the-technology-stupid/
+page_id: TSAP-0087
 created: 2025-11-15
 ---
 

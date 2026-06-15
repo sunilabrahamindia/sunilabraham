@@ -7,6 +7,7 @@ date: 2015-05-10
 authors: ["Sanjay Vijaykumar"]
 source: "The Hindu"
 permalink: /media/definition-net-neutrality-flexible-pranesh-prakash-hindu/
+page_id: TSAP-1020
 created: 2026-05-27
 ---
 

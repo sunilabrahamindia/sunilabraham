@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-03-17
 source: "The Hindu"
 permalink: /media/aadhaar-identity-crisis-live-chat-hindu/
+page_id: TSAP-0458
 created: 2026-01-15
 ---
 

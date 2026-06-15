@@ -6,6 +6,7 @@ authors: ["Tito Dutta"]
 categories: [Artificial Intelligence, Events]
 date: 2026-02-17
 permalink: /events/2026/infosys-ai-day/
+page_id: TSAP-0590
 created: 2026-02-17
 ---
 

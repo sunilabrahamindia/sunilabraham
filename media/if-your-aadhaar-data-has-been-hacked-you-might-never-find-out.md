@@ -7,6 +7,7 @@ date: 2017-03-03
 source: "The Quint"
 authors: ["Mayank Jain"]
 permalink: /media/if-your-aadhaar-data-has-been-hacked-you-might-never-find-out/
+page_id: TSAP-0335
 created: 2025-12-26
 ---
 

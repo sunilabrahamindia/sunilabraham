@@ -7,6 +7,7 @@ date: 2015-10-02
 authors: ["Arindam Mukherjee"]
 source: "Outlook India"
 permalink: /media/how-to-win-friends-fb-style-outlook-india/
+page_id: TSAP-0570
 created: 2026-02-10
 ---
 

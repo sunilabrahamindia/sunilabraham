@@ -7,6 +7,7 @@ date: 2016-08-14
 authors: ["Krishna Makwana"]
 source: "Deccan Chronicle"
 permalink: /media/rational-internet-laws-digital-goals-deccan-chronicle/
+page_id: TSAP-0414
 created: 2026-01-06
 ---
 

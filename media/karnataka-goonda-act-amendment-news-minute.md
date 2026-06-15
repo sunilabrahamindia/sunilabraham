@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2014-08-05
 source: "The News Minute"
 permalink: /media/karnataka-goonda-act-amendment-news-minute/
+page_id: TSAP-0674
 created: 2026-03-08
 ---
 

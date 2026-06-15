@@ -7,6 +7,7 @@ date: 2017-01-15
 source: "The Economic Times"
 authors: ["Indulekha Aravind"]
 permalink: /media/the-soon-to-be-launched-aadhaar-pay-will-let-you-make-purchases-using-your-fingerprint/
+page_id: TSAP-0219
 created: 2025-12-14
 ---
 

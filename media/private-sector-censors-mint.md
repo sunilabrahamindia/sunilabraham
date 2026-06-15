@@ -7,6 +7,7 @@ date: 2012-04-25
 authors: ["Salil Tripathi"]
 source: "Mint"
 permalink: /media/private-sector-censors-mint/
+page_id: TSAP-0966
 created: 2026-05-11
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-01-08
 source: "Bangalore Mirror"
 permalink: /media/revealed-bangalores-basic-instincts-bangalore-mirror/
+page_id: TSAP-0817
 created: 2026-03-31
 ---
 

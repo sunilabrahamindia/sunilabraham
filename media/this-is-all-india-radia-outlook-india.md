@@ -7,6 +7,7 @@ date: 2010-11-27
 authors: ["Debarshi Dasgupta"]
 source: "Outlook India"
 permalink: /media/this-is-all-india-radia-outlook-india/
+page_id: TSAP-0574
 created: 2026-02-10
 ---
 

@@ -7,6 +7,7 @@ date: 2016-05-20
 authors: ["Himadri Ghosh"]
 source: "Newslaundry"
 permalink: /media/under-modi-government-foreign-funding-of-ngos-has-come-down-newslaundry/
+page_id: TSAP-0680
 created: 2026-03-09
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-12-14
 source: "Coconuts Yangon"
 permalink: /media/myanmar-digital-rights-forum-proposes-path-away-from-66d-coconuts-yangon/
+page_id: TSAP-1066
 created: 2026-06-15
 ---
 

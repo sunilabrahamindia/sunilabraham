@@ -7,6 +7,7 @@ date: 2015-03-24
 source: "The Washington Post"
 authors: ["Annie Gowen"]
 permalink: /media/indias-supreme-court-strikes-down-law-that-led-to-facebook-arrests/
+page_id: TSAP-0297
 created: 2025-12-22
 ---
 

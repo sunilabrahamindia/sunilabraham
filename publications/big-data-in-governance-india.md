@@ -8,6 +8,7 @@ authors: ["Elonnai Hickok", "Sumandro Chattapadhyay", "Sunil Abraham"]
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/big-data-in-governance-india/
 pdf: /publications/files/big-data-in-governance-india.pdf
+page_id: TSAP-0057
 created: 2025-11-08
 ---
 

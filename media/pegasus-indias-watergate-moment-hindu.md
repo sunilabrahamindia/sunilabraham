@@ -7,6 +7,7 @@ date: 2021-07-21
 authors: ["Pranesh Prakash"]
 source: "The Hindu"
 permalink: /media/pegasus-indias-watergate-moment-hindu/
+page_id: TSAP-0463
 created: 2026-01-17
 ---
 

@@ -7,6 +7,7 @@ categories: [Media mentions]
 date: 2012-05-04
 source: "Electronic Frontier Foundation"
 permalink: /media/growing-mistrust-india-biometric-id-scheme-eff/
+page_id: TSAP-0830
 created: 2026-04-04
 ---
 

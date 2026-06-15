@@ -7,6 +7,7 @@ date: 2015-06-18
 authors: ["Arunabh Saikia"]
 source: "Newslaundry"
 permalink: /media/reliance-jio-chat-compromises-user-security-claims-a-hackers-collective-newslaundry/
+page_id: TSAP-0679
 created: 2026-03-09
 ---
 

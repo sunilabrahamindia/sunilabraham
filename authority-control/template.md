@@ -4,6 +4,7 @@ title: "Template:Authority Control"
 permalink: /authority-control/template/
 categories: [Navigational templates, Authority control]
 description: Navigational template linking authority-control entries related to The Sunil Abraham Project (TSAP).
+page_id: TSAP-0995
 created: 2026-05-20
 ---
 

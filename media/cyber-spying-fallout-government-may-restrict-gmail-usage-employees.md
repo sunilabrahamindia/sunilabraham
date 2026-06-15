@@ -7,6 +7,7 @@ date: 2013-08-30
 source: "The Economic Times"
 authors: ["Indu Nandakumar", "J Srikant"]
 permalink: /media/cyber-spying-fallout-government-may-restrict-gmail-usage-employees/
+page_id: TSAP-0178
 created: 2025-12-09
 ---
 

@@ -11,6 +11,7 @@ publisher: "Orient Blackswan"
 pages: "pp. 45–62"
 permalink: /publications/surveillance-project/
 pdf: /publications/files/surveillance-project.pdf
+page_id: TSAP-0046
 created: 2025-11-06
 ---
 

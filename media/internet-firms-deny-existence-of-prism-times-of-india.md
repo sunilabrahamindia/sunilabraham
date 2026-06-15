@@ -7,6 +7,7 @@ date: 2013-06-08
 source: "The Times of India"
 authors: ["Javed Anwer", "Ishan Srivastava"]
 permalink: /media/internet-firms-deny-existence-of-prism-times-of-india/
+page_id: TSAP-0783
 created: 2026-03-25
 ---
 

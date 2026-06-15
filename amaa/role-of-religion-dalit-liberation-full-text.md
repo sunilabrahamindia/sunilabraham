@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay on religio
 permalink: /amaa/role-of-religion-dalit-liberation-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1994
+page_id: TSAP-0909
 created: 2026-04-24
 ---
 

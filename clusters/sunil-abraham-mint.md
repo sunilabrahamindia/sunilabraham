@@ -4,6 +4,7 @@ title: "Sunil Abraham and Mint"
 description: "An archive of Sunil Abraham's articles in Mint and Mint news reports featuring his analysis on technology policy, privacy, and digital governance."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-mint/
+page_id: TSAP-0597
 created: 2026-02-20
 ---
 

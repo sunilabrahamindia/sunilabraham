@@ -7,6 +7,7 @@ date: 2013-07-21
 authors: ["Shikha Kumar"]
 source: "DNA India"
 permalink: /media/your-lifes-an-open-facebook-dna-india/
+page_id: TSAP-1000
 created: 2026-05-21
 ---
 

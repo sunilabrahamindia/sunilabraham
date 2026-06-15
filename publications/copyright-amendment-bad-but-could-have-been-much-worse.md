@@ -7,6 +7,7 @@ date: 2012-06-10
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/copyright-amendment-bad-but-could-have-been-much-worse/
+page_id: TSAP-0105
 created: 2025-11-18
 ---
 

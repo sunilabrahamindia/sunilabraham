@@ -8,6 +8,7 @@ authors: ["Sunil Abraham"]
 source: "Observer Research Foundation (ORF), Issue Brief No. 380"
 permalink: /publications/unified-payment-interface-towards-greater-cyber-sovereignty/
 pdf: /publications/files/unified-payment-interface-towards-greater-cyber-sovereignty.pdf
+page_id: TSAP-0125
 created: 2025-11-26
 ---
 

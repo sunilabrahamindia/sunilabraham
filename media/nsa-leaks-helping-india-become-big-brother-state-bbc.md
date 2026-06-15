@@ -7,6 +7,7 @@ date: 2013-10-31
 source: "BBC News"
 authors: ["Andrew North"]
 permalink: /media/nsa-leaks-helping-india-become-big-brother-state-bbc/
+page_id: TSAP-0263
 created: 2025-12-19
 ---
 

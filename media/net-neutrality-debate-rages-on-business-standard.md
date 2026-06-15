@@ -7,6 +7,7 @@ date: 2015-04-15
 authors: ["Surabhi Agarwal"]
 source: "Business Standard"
 permalink: /media/net-neutrality-debate-rages-on-business-standard/
+page_id: TSAP-1021
 created: 2026-05-27
 ---
 

@@ -7,6 +7,7 @@ date: 2016-07-10
 authors: ["T.V. Jayan"]
 source: "The Telegraph"
 permalink: /media/place-for-a-safety-net-the-telegraph/
+page_id: TSAP-1061
 created: 2026-06-13
 ---
 

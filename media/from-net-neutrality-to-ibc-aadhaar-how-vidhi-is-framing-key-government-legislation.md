@@ -7,6 +7,7 @@ date: 2018-01-04
 source: "The Economic Times"
 authors: ["Surabhi Agarwal", "Samanwaya Rautray"]
 permalink: /media/from-net-neutrality-to-ibc-aadhaar-how-vidhi-is-framing-key-government-legislation/
+page_id: TSAP-0245
 created: 2025-12-17
 ---
 

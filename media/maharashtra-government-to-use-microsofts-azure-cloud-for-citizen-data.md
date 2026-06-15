@@ -7,6 +7,7 @@ date: 2015-02-04
 source: "The Economic Times"
 authors: ["Jochelle Mendonca"]
 permalink: /media/maharashtra-government-to-use-microsofts-azure-cloud-for-citizen-data/
+page_id: TSAP-0198
 created: 2025-12-11
 ---
 

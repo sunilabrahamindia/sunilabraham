@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-09-07
 source: "HuffPost"
 permalink: /media/indian-government-spying-social-media-huffpost/
+page_id: TSAP-0792
 created: 2026-03-26
 ---
 

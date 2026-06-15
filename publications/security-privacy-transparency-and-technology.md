@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Elonnai Hickok", "Tarun Krishnakumar"]
 source: "Digital Debates 2015: CyFy Journal, Volume 2, Observer Research Foundation"
 permalink: /publications/security-privacy-transparency-and-technology/
 pdf: /publications/files/security-privacy-transparency-and-technology.pdf
+page_id: TSAP-0034
 created: 2025-11-04
 ---
 

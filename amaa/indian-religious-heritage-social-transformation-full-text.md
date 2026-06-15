@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Indian Re
 permalink: /amaa/indian-religious-heritage-social-transformation-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1993
+page_id: TSAP-0967
 created: 2026-05-12
 ---
 

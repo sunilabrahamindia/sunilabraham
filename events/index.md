@@ -4,6 +4,7 @@ title: "Events"
 description: "Conferences, summits, workshops, lectures and public engagements organised, hosted or participated in by Sunil Abraham."
 categories: [Events]
 permalink: /events/
+page_id: TSAP-0584
 created: 2026-02-13
 ---
 

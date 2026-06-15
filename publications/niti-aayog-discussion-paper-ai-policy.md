@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Elonnai Hickok", "Amber Sinha", "Swaraj Barooah", "S
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/niti-aayog-discussion-paper-ai-policy/
 pdf: /publications/files/niti-aayog-discussion-paper-ai-policy.pdf
+page_id: TSAP-0072
 created: 2025-11-11
 ---
 

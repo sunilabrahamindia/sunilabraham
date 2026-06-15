@@ -7,6 +7,7 @@ date: 2013-04-27
 authors: ["Rukmini Shrinivasan"]
 source: "The Times of India"
 permalink: /media/when-netas-network-times-of-india/
+page_id: TSAP-0984
 created: 2026-05-18
 ---
 

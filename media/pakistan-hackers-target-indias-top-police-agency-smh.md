@@ -7,6 +7,7 @@ date: 2010-12-04
 authors: ["Penny MacRae"]
 source: "The Sydney Morning Herald"
 permalink: /media/pakistan-hackers-target-indias-top-police-agency-smh/
+page_id: TSAP-0886
 created: 2026-04-18
 ---
 

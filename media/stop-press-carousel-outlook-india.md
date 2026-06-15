@@ -7,6 +7,7 @@ date: 2013-02-22
 authors: ["Arindam Mukherjee"]
 source: "Outlook India"
 permalink: /media/stop-press-carousel-outlook-india/
+page_id: TSAP-0977
 created: 2026-05-17
 ---
 

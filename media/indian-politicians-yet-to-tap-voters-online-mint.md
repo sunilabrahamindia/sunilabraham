@@ -7,6 +7,7 @@ date: 2013-10-22
 authors: ["Venkatesh Upadhyay"]
 source: "Mint"
 permalink: /media/indian-politicians-yet-to-tap-voters-online-mint/
+page_id: TSAP-0596
 created: 2026-02-19
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-07-05
 source: "Mint"
 permalink: /media/how-the-govt-can-deal-with-fake-news-on-whatsapp-mint/
+page_id: TSAP-0604
 created: 2026-02-23
 ---
 

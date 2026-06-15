@@ -7,6 +7,7 @@ date: 2018-04-11
 source: "The Economic Times"
 authors: ["Divya Shekhar"]
 permalink: /media/political-parties-turn-to-tech-startups-to-hit-the-right-note-with-voters/
+page_id: TSAP-0228
 created: 2025-12-15
 ---
 

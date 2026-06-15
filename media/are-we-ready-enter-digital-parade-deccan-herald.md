@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-09-30
 source: "Deccan Herald"
 permalink: /media/are-we-ready-enter-digital-parade-deccan-herald/
+page_id: TSAP-0344
 created: 2025-12-27
 ---
 

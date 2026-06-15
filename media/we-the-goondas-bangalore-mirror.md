@@ -7,6 +7,7 @@ date: 2014-08-04
 authors: ["Shyam Prasad S"]
 source: "Bangalore Mirror"
 permalink: /media/we-the-goondas-bangalore-mirror/
+page_id: TSAP-0273
 created: 2025-12-20
 ---
 

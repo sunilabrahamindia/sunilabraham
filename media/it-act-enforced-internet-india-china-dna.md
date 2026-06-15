@@ -7,6 +7,7 @@ date: 2011-05-14
 authors: ["R Krishna"]
 source: "DNA India"
 permalink: /media/it-act-enforced-internet-india-china-dna/
+page_id: TSAP-0551
 created: 2026-02-05
 ---
 

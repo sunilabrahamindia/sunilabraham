@@ -7,6 +7,7 @@ date: 2012-10-03
 source: "The New York Times"
 authors: ["Betwa Sharma", "Pamposh Raina"]
 permalink: /media/youtube-facebook-remain-blocked-kashmir/
+page_id: TSAP-0210
 created: 2025-12-12
 ---
 

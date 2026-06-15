@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2025-04-12
 source: "ThePrint"
 permalink: /media/carnegie-global-tech-summit-dpdpa-theprint/
+page_id: TSAP-0669
 created: 2026-03-08
 ---
 

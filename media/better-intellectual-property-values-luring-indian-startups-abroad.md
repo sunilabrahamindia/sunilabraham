@@ -7,6 +7,7 @@ date: 2015-04-10
 source: "The Economic Times"
 authors: ["Evelyn Fok", "Varun Aggarwal"]
 permalink: /media/better-intellectual-property-values-luring-indian-startups-abroad/
+page_id: TSAP-0214
 created: 2025-12-14
 ---
 

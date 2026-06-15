@@ -7,6 +7,7 @@ date: 2011-05-30
 source: "The Wall Street Journal"
 authors: ["Amol Sharma"]
 permalink: /media/india-weighing-looser-web-rules-wall-street-journal/
+page_id: TSAP-0757
 created: 2026-03-22
 ---
 

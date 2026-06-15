@@ -7,6 +7,7 @@ date: 2013-08-30
 authors: ["Neil McAllister"]
 source: "The Register"
 permalink: /media/indian-government-bar-politicians-gmail-the-register/
+page_id: TSAP-0713
 created: 2026-03-16
 ---
 

@@ -7,6 +7,7 @@ date: 2018-03-30
 authors: ["Amit Bhardwaj"]
 source: "The Patriot"
 permalink: /media/we-indians-need-a-regulatory-response-the-patriot/
+page_id: TSAP-0917
 created: 2026-04-26
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-12-09
 source: "The Times of India"
 permalink: /media/online-gag-existing-rules-give-little-freedom-times-of-india/
+page_id: TSAP-0939
 created: 2026-05-02
 ---
 

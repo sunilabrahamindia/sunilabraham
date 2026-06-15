@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2017-09-08
 source: "Ranking Digital Rights"
 permalink: /media/corporate-accountability-news-highlights-ranking-digital-rights/
+page_id: TSAP-0845
 created: 2026-04-09
 ---
 

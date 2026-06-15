@@ -7,6 +7,7 @@ date: 2019-05-03
 authors: ["Vidhi Choudhary"]
 source: "Hindustan Times"
 permalink: /media/bjp-congress-social-media-advertising-2019-election-hindustan-times/
+page_id: TSAP-0376
 created: 2026-01-01
 ---
 

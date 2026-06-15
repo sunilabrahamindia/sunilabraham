@@ -7,6 +7,7 @@ date: 2014-04-13
 authors: ["Pratap Vikram Singh"]
 source: "Governance Now"
 permalink: /media/no-partys-got-clear-stand-aadhaars-fate-hangs-balance-governance-now/
+page_id: TSAP-0916
 created: 2026-04-26
 ---
 

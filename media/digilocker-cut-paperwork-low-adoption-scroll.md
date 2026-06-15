@@ -7,6 +7,7 @@ date: 2016-09-12
 authors: ["Mayank Jain"]
 source: "Scroll.in"
 permalink: /media/digilocker-cut-paperwork-low-adoption-scroll/
+page_id: TSAP-0389
 created: 2026-01-03
 ---
 

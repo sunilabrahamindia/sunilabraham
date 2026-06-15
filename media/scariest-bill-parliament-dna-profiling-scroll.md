@@ -7,6 +7,7 @@ date: 2015-07-24
 authors: ["Nayantara Narayanan"]
 source: "Scroll.in"
 permalink: /media/scariest-bill-parliament-dna-profiling-scroll/
+page_id: TSAP-0397
 created: 2026-01-03
 ---
 

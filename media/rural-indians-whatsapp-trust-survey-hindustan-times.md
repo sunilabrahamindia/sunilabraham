@@ -7,6 +7,7 @@ date: 2018-10-19
 authors: ["Vidhi Choudhary"]
 source: "Hindustan Times"
 permalink: /media/rural-indians-whatsapp-trust-survey-hindustan-times/
+page_id: TSAP-0355
 created: 2025-12-28
 ---
 

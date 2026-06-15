@@ -7,6 +7,7 @@ date: 2012-02-01
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/do-we-need-the-aadhaar-scheme/
+page_id: TSAP-0112
 created: 2025-11-22
 ---
 

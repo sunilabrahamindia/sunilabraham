@@ -4,6 +4,7 @@ title: "Manual of Style"
 description: "Writing and formatting standards for The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation]
 permalink: /tsap/manual-of-style/
+page_id: TSAP-0728
 created: 2026-03-18
 ---
 

@@ -7,6 +7,7 @@ date: 2016-02-26
 authors: ["Daniel Van Boom"]
 source: "CNET"
 permalink: /media/why-india-snubbed-facebooks-free-internet-offer-cnet/
+page_id: TSAP-1056
 created: 2026-06-11
 ---
 

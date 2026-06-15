@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-06-04
 source: "The Times of India"
 permalink: /media/net-over-free-speech-times-of-india/
+page_id: TSAP-0772
 created: 2026-03-24
 ---
 

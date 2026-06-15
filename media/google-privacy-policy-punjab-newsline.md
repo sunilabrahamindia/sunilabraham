@@ -7,6 +7,7 @@ date: 2012-01-27
 authors: ["Sheetal Ranga"]
 source: "Punjab Newsline"
 permalink: /media/google-privacy-policy-punjab-newsline/
+page_id: TSAP-0935
 created: 2026-05-02
 ---
 

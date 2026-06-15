@@ -7,6 +7,7 @@ date: 2012-01-16
 source: "The Wall Street Journal"
 authors: ["Amol Sharma"]
 permalink: /media/is-india-ignoring-its-own-internet-protections-wall-street-journal/
+page_id: TSAP-0759
 created: 2026-03-22
 ---
 

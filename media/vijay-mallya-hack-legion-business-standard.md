@@ -7,6 +7,7 @@ date: 2016-12-10
 authors: ["Alnoor Peermohamed"]
 source: "Business Standard"
 permalink: /media/vijay-mallya-hack-legion-business-standard/
+page_id: TSAP-0443
 created: 2026-01-11
 ---
 

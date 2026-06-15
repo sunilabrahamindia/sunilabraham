@@ -7,6 +7,7 @@ date: 2015-06-04
 authors: ["Siladitya Ray"]
 source: "Hindustan Times"
 permalink: /media/uber-ola-apps-block-govt-cyber-hindustan-times/
+page_id: TSAP-0387
 created: 2026-01-02
 ---
 

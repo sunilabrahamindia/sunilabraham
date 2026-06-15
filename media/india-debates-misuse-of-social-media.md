@@ -7,6 +7,7 @@ date: 2012-08-21
 source: "Voice of America"
 authors: ["Anjana Pasricha"]
 permalink: /media/india-debates-misuse-of-social-media/
+page_id: TSAP-0744
 created: 2026-03-21
 ---
 

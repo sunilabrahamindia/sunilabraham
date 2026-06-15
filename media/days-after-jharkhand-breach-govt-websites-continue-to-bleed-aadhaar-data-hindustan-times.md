@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2017-04-29
 source: "Hindustan Times"
 permalink: /media/days-after-jharkhand-breach-govt-websites-continue-to-bleed-aadhaar-data-hindustan-times/
+page_id: TSAP-0382
 created: 2026-01-02
 ---
 

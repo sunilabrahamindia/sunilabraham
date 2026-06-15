@@ -7,6 +7,7 @@ date: 2019-06-04
 source: "The Economic Times"
 authors: ["Anjali Venugopalan"]
 permalink: /media/banking-on-artificial-intelligence-in-hiring-drive-bots-are-calling-the-shots-now/
+page_id: TSAP-0231
 created: 2025-12-16
 ---
 

@@ -7,6 +7,7 @@ date: 2012-11-07
 authors: ["Sandhya Soman", "Pratiksha Ramkumar"]
 source: "The Times of India"
 permalink: /media/law-yet-to-catch-up-with-tech-enabled-peeping-toms-times-of-india/
+page_id: TSAP-0963
 created: 2026-05-11
 ---
 

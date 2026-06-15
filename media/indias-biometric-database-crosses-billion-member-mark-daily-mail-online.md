@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-04-04
 source: "Daily Mail Online"
 permalink: /media/indias-biometric-database-crosses-billion-member-mark-daily-mail-online/
+page_id: TSAP-1058
 created: 2026-06-12
 ---
 

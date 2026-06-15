@@ -7,6 +7,7 @@ date: 2015-08-06
 authors: ["Ullekh NP"]
 source: "Open Magazine"
 permalink: /media/genetic-profiling-dna-open-magazine/
+page_id: TSAP-0509
 created: 2026-01-25
 ---
 

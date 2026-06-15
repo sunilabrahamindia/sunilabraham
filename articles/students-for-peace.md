@@ -4,6 +4,7 @@ title: "Students for Peace"
 description: "Account of the 1993 Students for Peace initiative in Bangalore, including planning documents, budget proposals, media coverage and the 13 February candlelight demonstration."
 categories: [Events organised]
 date: 1993-02-13
+page_id: TSAP-0028
 created: 2025-11-02
 event_type: "Candlelight vigil"
 location:

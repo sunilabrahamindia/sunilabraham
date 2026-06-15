@@ -7,6 +7,7 @@ date: 2011-12-25
 source: "The Economic Times"
 authors: ["Jayadevan PK", "Srividya Iyer"]
 permalink: /media/google-facebook-yahoo-summoned-to-face-trial-what-next/
+page_id: TSAP-0170
 created: 2025-12-08
 ---
 

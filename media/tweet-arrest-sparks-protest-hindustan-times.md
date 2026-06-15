@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-11-02
 source: "Hindustan Times"
 permalink: /media/tweet-arrest-sparks-protest-hindustan-times/
+page_id: TSAP-0385
 created: 2026-01-02
 ---
 

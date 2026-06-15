@@ -7,6 +7,7 @@ date: 2013-02-09
 authors: ["T. Ramachandran"]
 source: "The Hindu"
 permalink: /media/indian-isps-censorship-tricks-hindu/
+page_id: TSAP-0462
 created: 2026-01-17
 ---
 

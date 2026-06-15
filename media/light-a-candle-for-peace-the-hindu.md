@@ -6,6 +6,7 @@ categories: [Media mentions, Students for Peace]
 date: 1993-02-10
 source: "The Hindu"
 permalink: /media/light-a-candle-for-peace-the-hindu/
+page_id: TSAP-0581
 created: 2026-02-12
 ---
 

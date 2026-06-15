@@ -4,6 +4,7 @@ title: "Ponnamma Abraham"
 description: "Biographical article on Ponnamma Abraham."
 categories: [A. M. A. Ayrookuzhiel, Biographies, Sunil Abraham]
 permalink: /articles/ponnamma-abraham/
+page_id: TSAP-0131
 created: 2025-11-29
 ---
 

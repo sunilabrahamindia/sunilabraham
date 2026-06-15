@@ -7,6 +7,7 @@ date: 2023-12-08
 authors: ["Kamya Pandey"]
 source: "MediaNama"
 permalink: /media/open-source-ai-carnegie-india-summit-medianama/
+page_id: TSAP-0422
 created: 2026-01-07
 ---
 

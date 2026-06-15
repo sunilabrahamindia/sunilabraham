@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-06-22
 source: "The Times of India"
 permalink: /media/web-piracy-hc-says-block-links-not-websites-times-of-india/
+page_id: TSAP-0333
 created: 2025-12-25
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-07-19
 source: "Deccan Chronicle"
 permalink: /media/nyt-lauds-oommen-chandy-office-webcast-deccan-chronicle/
+page_id: TSAP-0908
 created: 2026-04-23
 ---
 

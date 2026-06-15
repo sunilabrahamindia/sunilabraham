@@ -7,6 +7,7 @@ date: 2011-12-20
 source: "The Economic Times"
 authors: ["Jayadevan PK"]
 permalink: /media/aadhaars-national-goals-hinge-on-tech-pilot-success-in-mysore-hyderabad-pune/
+page_id: TSAP-0221
 created: 2025-12-15
 ---
 

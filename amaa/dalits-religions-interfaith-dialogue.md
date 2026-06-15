@@ -4,6 +4,7 @@ title: "The Dalits, Religions and Interfaith Dialogue"
 permalink: /amaa/dalits-religions-interfaith-dialogue/
 categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's 1994 essay examining Dalit liberation, caste, religion, anti-Brahmanical traditions, and the implications of Dalit struggles for interreligious dialogue in India."
+page_id: TSAP-1019
 created: 2026-05-27
 ---
 

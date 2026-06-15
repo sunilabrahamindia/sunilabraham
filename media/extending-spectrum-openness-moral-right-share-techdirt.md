@@ -7,6 +7,7 @@ date: 2013-08-13
 authors: ["Glyn Moody"]
 source: "Techdirt"
 permalink: /media/extending-spectrum-openness-moral-right-share-techdirt/
+page_id: TSAP-0801
 created: 2026-03-28
 ---
 

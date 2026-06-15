@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-12-29
 source: "The Indian Express"
 permalink: /media/facebook-free-basics-net-neutrality-debate-indian-express/
+page_id: TSAP-0532
 created: 2026-01-31
 ---
 

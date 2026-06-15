@@ -5,6 +5,7 @@ description: "A curated cluster of Outlook India reporting that references Sunil
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-outlook-india/
 source: "Outlook India"
+page_id: TSAP-0567
 created: 2026-02-10
 ---
 

@@ -7,6 +7,7 @@ date: 2013-12-05
 authors: ["Kirthi V. Rao", "Moulishree Srivastava"]
 source: "Mint"
 permalink: /media/aadhaar-card-transactions-biometrics-rbi-mint/
+page_id: TSAP-0624
 created: 2026-02-27
 ---
 

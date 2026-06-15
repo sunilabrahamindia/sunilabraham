@@ -7,6 +7,7 @@ date: 2018-09-24
 authors: ["Sunil Abraham"]
 source: "Hindustan Times"
 permalink: /publications/a-trust-deficit-between-advertisers-and-publishers-is-leading-to-fake-news/
+page_id: TSAP-0066
 created: 2025-11-11
 ---
 

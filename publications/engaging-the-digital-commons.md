@@ -8,6 +8,7 @@ authors: ["Pranesh Prakash", "Sunil Abraham"]
 source: "Common Voices, Issue 4"
 permalink: /publications/engaging-the-digital-commons/
 pdf: /publications/files/engaging-the-digital-commons.pdf
+page_id: TSAP-0716
 created: 2026-03-16
 ---
 

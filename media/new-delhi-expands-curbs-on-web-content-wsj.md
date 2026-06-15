@@ -7,6 +7,7 @@ date: 2012-08-23
 authors: ["R Jai Krishna", "Rumman Ahmed"]
 source: "The Wall Street Journal"
 permalink: /media/new-delhi-expands-curbs-on-web-content-wsj/
+page_id: TSAP-0964
 created: 2026-05-11
 ---
 

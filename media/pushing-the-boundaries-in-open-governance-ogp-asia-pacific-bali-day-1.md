@@ -7,6 +7,7 @@ date: 2014-05-06
 source: "Open Government Partnership"
 authors: ["Michael P. Cañares"]
 permalink: /media/pushing-the-boundaries-in-open-governance-ogp-asia-pacific-bali-day-1/
+page_id: TSAP-0847
 created: 2026-04-09
 ---
 

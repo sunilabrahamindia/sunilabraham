@@ -6,6 +6,7 @@ categories: [Media mentions, Sunil Abraham]
 date: 2012-11-03
 source: "Hindustan Times"
 permalink: /media/power-to-youth-hindustan-times/
+page_id: TSAP-0972
 created: 2026-05-15
 ---
 

@@ -7,6 +7,7 @@ date: 2017-08-09
 source: "UNESCO"
 authors: []
 permalink: /media/unesco-internet-universality-indicators-8th-asia-pacific-regional-internet-governance-forum/
+page_id: TSAP-0838
 created: 2026-04-07
 ---
 

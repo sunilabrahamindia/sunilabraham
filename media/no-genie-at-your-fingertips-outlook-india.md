@@ -7,6 +7,7 @@ date: 2017-02-09
 authors: ["Arindam Mukherjee"]
 source: "Outlook India"
 permalink: /media/no-genie-at-your-fingertips-outlook-india/
+page_id: TSAP-0564
 created: 2026-02-08
 ---
 

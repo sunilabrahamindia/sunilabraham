@@ -4,6 +4,7 @@ title: "Templates"
 description: "An overview of reusable Jekyll include templates used across The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation]
 permalink: /tsap/templates/
+page_id: TSAP-0856
 created: 2026-04-11
 ---
 

@@ -7,6 +7,7 @@ date: 2010-08-14
 source: "The Wall Street Journal"
 authors: ["Phred Dvorak", "Amol Sharma", "Margaret Coker"]
 permalink: /media/rim-offered-security-fixes-wall-street-journal/
+page_id: TSAP-0761
 created: 2026-03-22
 ---
 

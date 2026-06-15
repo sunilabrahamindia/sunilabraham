@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'The Dalit
 permalink: /amaa/dalit-church-mission-dalit-response-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1996-09
+page_id: TSAP-1029
 created: 2026-05-30
 ---
 

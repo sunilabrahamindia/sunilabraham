@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2017-10-11
 source: "Business Standard"
 permalink: /media/new-data-protection-law-experts-business-standard/
+page_id: TSAP-0428
 created: 2026-01-08
 ---
 

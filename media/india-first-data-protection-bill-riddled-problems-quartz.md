@@ -7,6 +7,7 @@ date: 2018-07-30
 authors: ["Ananya Bhattacharya"]
 source: "Quartz"
 permalink: /media/india-first-data-protection-bill-riddled-problems-quartz/
+page_id: TSAP-0798
 created: 2026-03-27
 ---
 

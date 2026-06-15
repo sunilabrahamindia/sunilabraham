@@ -4,6 +4,7 @@ title: "Full-Text Creation and OCR Workflows"
 description: "Documentation describing the workflows used by The Sunil Abraham Project (TSAP) to create publication-quality full texts from scanned documents, PDFs, and historical source material."
 categories: [TSAP Documentation]
 permalink: /tsap/ocr/
+page_id: TSAP-1035
 created: 2026-06-01
 ---
 

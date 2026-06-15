@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2017-05-02
 source: "The Hindu Business Line"
 permalink: /media/aadhaar-data-leak-cyber-security-flaws-hindu-business-line/
+page_id: TSAP-0539
 created: 2026-02-02
 ---
 

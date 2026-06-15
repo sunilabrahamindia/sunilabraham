@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-07-04
 source: "Hindustan Times"
 permalink: /media/ensure-steps-to-prevent-spread-of-rumours-government-warns-whatsapp-hindustan-times/
+page_id: TSAP-0377
 created: 2026-01-01
 ---
 

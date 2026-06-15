@@ -6,6 +6,7 @@ categories: [Media articles, Media mentions, Publications]
 date: 2010-05-24
 source: "Mint"
 permalink: /media/facebook-privacy-and-india/
+page_id: TSAP-0122
 created: 2025-11-24
 ---
 

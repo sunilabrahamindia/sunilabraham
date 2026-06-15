@@ -7,6 +7,7 @@ date: 2011-12-09
 authors: ["Phil Hazlewood"]
 source: "Phys.org"
 permalink: /media/india-bid-to-censor-internet-draws-flak-phys-org/
+page_id: TSAP-0921
 created: 2026-04-28
 ---
 

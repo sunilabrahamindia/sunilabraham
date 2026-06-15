@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2009-05-01
 source: "Open Source For You"
 permalink: /media/freedomyug-doc-till-you-drop-osfy/
+page_id: TSAP-0672
 created: 2026-03-08
 ---
 

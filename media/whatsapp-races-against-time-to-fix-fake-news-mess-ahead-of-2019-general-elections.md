@@ -7,6 +7,7 @@ date: 2018-07-24
 source: "The Economic Times"
 authors: ["Venkat Ananth"]
 permalink: /media/whatsapp-races-against-time-to-fix-fake-news-mess-ahead-of-2019-general-elections/
+page_id: TSAP-0255
 created: 2025-12-18
 ---
 

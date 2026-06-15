@@ -7,6 +7,7 @@ date: 2018-03-28
 authors: ["Jatin Gandhi", "Vidhi Choudhary"]
 source: "Hindustan Times"
 permalink: /media/cambridge-analytica-facebook-government-notice-hindustan-times/
+page_id: TSAP-0370
 created: 2025-12-31
 ---
 

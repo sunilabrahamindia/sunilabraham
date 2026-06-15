@@ -7,6 +7,7 @@ date: 2014-01-05
 authors: ["Deepa Kurup"]
 source: "The Hindu"
 permalink: /media/ioc-aadhaar-dbt-apex-court-order-hindu/
+page_id: TSAP-0468
 created: 2026-01-18
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2014-11-10
 source: "Real Time News"
 permalink: /media/times-group-wants-trai-to-save-the-internet-from-greedy-telcos-via-net-neutrality-rtn/
+page_id: TSAP-0775
 created: 2026-03-24
 ---
 

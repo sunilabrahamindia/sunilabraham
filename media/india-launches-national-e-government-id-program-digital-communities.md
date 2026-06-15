@@ -7,6 +7,7 @@ date: 2010-10-01
 authors: ["Wayne Hanson"]
 source: "GovTech"
 permalink: /media/india-launches-national-e-government-id-program-digital-communities/
+page_id: TSAP-0892
 created: 2026-04-19
 ---
 

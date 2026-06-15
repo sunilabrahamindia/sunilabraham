@@ -7,6 +7,7 @@ date: 2011-12-07
 authors: ["Surabhi Agarwal", "Leslie D'Monte"]
 source: "Mint"
 permalink: /media/govt-scrub-internet-sibal-censorship-mint/
+page_id: TSAP-0639
 created: 2026-03-01
 ---
 

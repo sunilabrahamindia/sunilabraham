@@ -5,6 +5,7 @@ permalink: /amaa/swami-anand-thirth-preface/
 categories: [A. M. A. Ayrookuzhiel, Swami Anand Thirth]
 description: "The preface to A. M. A. Ayrookuzhiel's 1987 study of Swami Anand Thirth, written by Fr. Sebastian Kappen. The preface reflects on social transformation, anti-caste struggles, and the significance of Swami Anand Thirth's life and work."
 authors: Sebastian Kappen
+page_id: TSAP-1042
 created: 2026-06-05
 ---
 

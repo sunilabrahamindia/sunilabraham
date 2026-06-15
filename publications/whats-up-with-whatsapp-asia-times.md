@@ -7,6 +7,7 @@ date: 2018-04-20
 authors: ["Aayush Rathi", "Sunil Abraham"]
 source: "Asia Times"
 permalink: /publications/whats-up-with-whatsapp-asia-times/
+page_id: TSAP-0873
 created: 2026-04-15
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-03-26
 source: "Deccan Chronicle"
 permalink: /media/aadhaar-safety-expert-opinions-deccan-chronicle/
+page_id: TSAP-0409
 created: 2026-01-06
 ---
 

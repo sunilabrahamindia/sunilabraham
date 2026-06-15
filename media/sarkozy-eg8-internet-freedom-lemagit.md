@@ -7,6 +7,7 @@ date: 2011-05-24
 authors: ["Valéry Rieß-Marchive"]
 source: "LeMagIT"
 permalink: /media/sarkozy-eg8-internet-freedom-lemagit/
+page_id: TSAP-0854
 created: 2026-04-11
 ---
 

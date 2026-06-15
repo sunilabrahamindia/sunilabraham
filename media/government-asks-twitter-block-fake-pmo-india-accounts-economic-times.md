@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-08-23
 source: "Economic Times"
 permalink: /media/government-asks-twitter-block-fake-pmo-india-accounts-economic-times/
+page_id: TSAP-0708
 created: 2026-03-15
 ---
 

@@ -7,6 +7,7 @@ date: 2015-08-12
 source: "The Economic Times"
 authors: ["Divya Shekhar"]
 permalink: /media/bengaluru-doctors-develop-module-study-cure-technology-addiction/
+page_id: TSAP-0164
 created: 2025-12-08
 ---
 

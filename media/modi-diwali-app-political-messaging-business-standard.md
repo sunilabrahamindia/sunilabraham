@@ -8,6 +8,7 @@ authors: ["Sangeeta Barooah Pisharoty"]
 source: "Business Standard"
 original_source: "The Wire"
 permalink: /media/modi-diwali-app-political-messaging-business-standard/
+page_id: TSAP-0441
 created: 2026-01-10
 ---
 

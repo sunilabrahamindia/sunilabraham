@@ -7,6 +7,7 @@ date: 2017-11-23
 source: "The Economic Times"
 authors: ["Surabhi Agarwal"]
 permalink: /media/fcc-repeal-net-neutrality-impact-india-economic-times/
+page_id: TSAP-0155
 created: 2025-12-06
 ---
 

@@ -7,6 +7,7 @@ date: 2017-01-13
 source: "The Economic Times"
 authors: ["Neha Alawadhi"]
 permalink: /media/govt-should-take-a-relaxed-view-of-violations-of-flag-code-in-products-sold-in-foreign-countries/
+page_id: TSAP-0196
 created: 2025-12-11
 ---
 

@@ -7,6 +7,7 @@ date: 2011-09-20
 source: "The Economic Times"
 authors: ["Vikas Kumar"]
 permalink: /media/planning-commission-census-2011-india-post-social-media/
+page_id: TSAP-0191
 created: 2025-12-10
 ---
 

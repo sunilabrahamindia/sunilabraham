@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'A Proposa
 permalink: /amaa/proposal-study-religious-heritage-dalits-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1995
+page_id: TSAP-0950
 created: 2026-05-07
 ---
 

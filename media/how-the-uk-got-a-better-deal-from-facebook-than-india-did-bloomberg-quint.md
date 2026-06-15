@@ -7,6 +7,7 @@ date: 2016-11-17
 authors: ["Payaswini Upadhyay"]
 source: "Bloomberg Quint"
 permalink: /media/how-the-uk-got-a-better-deal-from-facebook-than-india-did-bloomberg-quint/
+page_id: TSAP-1063
 created: 2026-06-14
 ---
 

@@ -7,6 +7,7 @@ date: 2013-11-11
 source: "The Economic Times"
 authors: ["Ratna Bhushan", "Varuni Khosla"]
 permalink: /media/social-media-promotions-can-backfire-too/
+page_id: TSAP-0201
 created: 2025-12-11
 ---
 

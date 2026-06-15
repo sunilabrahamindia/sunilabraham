@@ -7,6 +7,7 @@ date: 2017-05-03
 authors: ["John Ribeiro"]
 source: "PCWorld"
 permalink: /media/india-supreme-court-biometric-authentication-pcworld/
+page_id: TSAP-0735
 created: 2026-03-19
 ---
 

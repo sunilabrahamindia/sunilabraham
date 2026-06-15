@@ -7,6 +7,7 @@ date: 2018-04-30
 authors: ["Prasun Sonwalkar", "Vidhi Choudhury"]
 source: "Hindustan Times"
 permalink: /media/twitter-cambridge-analytica-controversy-hindustan-times/
+page_id: TSAP-0386
 created: 2026-01-02
 ---
 

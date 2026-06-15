@@ -7,6 +7,7 @@ date: 2012-08-20
 authors: ["Rama Lakshmi"]
 source: "The Washington Post"
 permalink: /media/india-blocks-250-websites-hate-panic-washington-post/
+page_id: TSAP-0734
 created: 2026-03-19
 ---
 

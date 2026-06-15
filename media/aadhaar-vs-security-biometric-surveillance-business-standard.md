@@ -7,6 +7,7 @@ date: 2017-05-06
 authors: ["Rohith Jyothish"]
 source: "Business Standard"
 permalink: /media/aadhaar-vs-security-biometric-surveillance-business-standard/
+page_id: TSAP-0818
 created: 2026-04-01
 ---
 

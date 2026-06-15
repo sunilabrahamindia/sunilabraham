@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2010-06-23
 source: "Mint"
 permalink: /media/activists-welcome-privacy-bill-but-point-out-concerns-mint/
+page_id: TSAP-0866
 created: 2026-04-15
 ---
 

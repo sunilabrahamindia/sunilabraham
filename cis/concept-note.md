@@ -5,6 +5,7 @@ description: "A foundational document outlining the vision, mission, research ag
 permalink: /cis/concept-note/
 categories: ["Centre for Internet and Society"]
 date: 2008-07-01
+page_id: TSAP-0852
 created: 2026-04-11
 ---
 

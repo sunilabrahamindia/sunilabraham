@@ -7,6 +7,7 @@ date: 2015-03-24
 source: "The New York Times"
 authors: ["Nida Najar", "Suhasini Raj"]
 permalink: /media/indian-court-voids-law-that-curbed-offensive-online-posts/
+page_id: TSAP-0207
 created: 2025-12-12
 ---
 

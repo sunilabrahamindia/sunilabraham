@@ -7,6 +7,7 @@ date: 2011-12-06
 authors: ["Neil Munshi"]
 source: "Financial Times"
 permalink: /media/indias-dreams-of-web-censorship/
+page_id: TSAP-0117
 created: 2025-11-23
 ---
 

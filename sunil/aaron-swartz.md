@@ -4,6 +4,7 @@ title: 'Sunil Abraham on Aaron Swartz'
 description: "An overview of Sunil Abraham's public commentary, memorial activities, and discussions relating to Aaron Swartz, open access, and internet freedom."
 categories: [Sunil Abraham, TSAP Originals]
 permalink: /sunil/aaron-swartz/
+page_id: TSAP-1001
 created: 2026-05-21
 ---
 

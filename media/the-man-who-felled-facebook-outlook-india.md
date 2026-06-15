@@ -7,6 +7,7 @@ date: 2016-02-12
 authors: ["Arindam Mukherjee"]
 source: "Outlook India"
 permalink: /media/the-man-who-felled-facebook-outlook-india/
+page_id: TSAP-0561
 created: 2026-02-07
 ---
 

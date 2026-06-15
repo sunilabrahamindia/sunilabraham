@@ -7,6 +7,7 @@ date: 2011-03-11
 source: "The Times of India"
 authors: ["Shilpa Phadnis", "Pranav Nambiar"]
 permalink: /media/draft-it-guidelines-may-gag-internet-freedom-times-of-india/
+page_id: TSAP-0313
 created: 2025-12-24
 ---
 

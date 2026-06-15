@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-06-19
 source: "The Statesman"
 permalink: /media/cos-spying-competitors-staff-study-statesman/
+page_id: TSAP-0718
 created: 2026-03-17
 ---
 

@@ -7,6 +7,7 @@ date: 2010-06-04
 authors: ["Max Martin"]
 source: "India Today"
 permalink: /media/just-wink-grab-ebook-releases-india-today/
+page_id: TSAP-0697
 created: 2026-03-12
 ---
 

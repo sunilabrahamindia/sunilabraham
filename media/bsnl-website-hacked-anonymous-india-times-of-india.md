@@ -7,6 +7,7 @@ date: 2012-12-13
 source: "The Times of India"
 authors: ["Kim Arora"]
 permalink: /media/bsnl-website-hacked-anonymous-india-times-of-india/
+page_id: TSAP-0320
 created: 2025-12-25
 ---
 

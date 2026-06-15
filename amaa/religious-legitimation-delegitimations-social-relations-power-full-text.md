@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Religious
 permalink: /amaa/religious-legitimation-delegitimations-social-relations-power-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1993
+page_id: TSAP-0969
 created: 2026-05-13
 ---
 

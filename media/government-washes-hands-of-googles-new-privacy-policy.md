@@ -7,6 +7,7 @@ date: 2012-04-10
 source: "The Economic Times"
 authors: ["Jayadevan PK"]
 permalink: /media/government-washes-hands-of-googles-new-privacy-policy/
+page_id: TSAP-0182
 created: 2025-12-09
 ---
 

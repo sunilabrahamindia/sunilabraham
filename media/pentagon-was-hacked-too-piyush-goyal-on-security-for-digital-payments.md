@@ -7,6 +7,7 @@ date: 2017-01-16
 source: "NDTV"
 authors: ["Rama Lakshmi"]
 permalink: /media/pentagon-was-hacked-too-piyush-goyal-on-security-for-digital-payments/
+page_id: TSAP-0301
 created: 2025-12-22
 ---
 

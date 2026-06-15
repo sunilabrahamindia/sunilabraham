@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-06-25
 source: "The New Indian Express"
 permalink: /media/online-piracy-intellectual-property-curbed-new-indian-express/
+page_id: TSAP-0535
 created: 2026-01-31
 ---
 

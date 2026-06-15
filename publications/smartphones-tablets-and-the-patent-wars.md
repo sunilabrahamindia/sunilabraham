@@ -7,6 +7,7 @@ date: 2012-03-08
 authors: ["Sunil Abraham"]
 source: "The Economic Times"
 permalink: /publications/smartphones-tablets-and-the-patent-wars/
+page_id: TSAP-0114
 created: 2025-11-22
 ---
 

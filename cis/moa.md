@@ -5,6 +5,7 @@ description: "The Memorandum of Association and Rules and Regulations of the Cen
 permalink: /cis/moa/
 categories: ["Centre for Internet and Society"]
 date: 2008-07-04
+page_id: TSAP-0904
 created: 2026-04-22
 ---
 

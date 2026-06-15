@@ -7,6 +7,7 @@ date: 2012-10-18
 source: "Committee to Protect Journalists"
 authors: ["Sumit Galhotra"]
 permalink: /media/sedition-dropped-but-indian-cartoonist-faces-other-charges/
+page_id: TSAP-0832
 created: 2026-04-05
 ---
 

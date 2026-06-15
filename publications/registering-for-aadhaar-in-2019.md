@@ -7,6 +7,7 @@ date: 2019-01-02
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/registering-for-aadhaar-in-2019/
+page_id: TSAP-0045
 created: 2025-11-06
 ---
 

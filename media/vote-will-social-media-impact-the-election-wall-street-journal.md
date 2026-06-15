@@ -7,6 +7,7 @@ date: 2013-04-15
 source: "The Wall Street Journal"
 authors: ["R. Jai Krishna"]
 permalink: /media/vote-will-social-media-impact-the-election-wall-street-journal/
+page_id: TSAP-0768
 created: 2026-03-23
 ---
 

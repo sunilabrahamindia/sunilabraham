@@ -7,6 +7,7 @@ date: 2016-01-28
 authors: ["Arindam Mukherjee"]
 source: "Outlook India"
 permalink: /media/a-megacorps-basic-instinct-outlook-india/
+page_id: TSAP-0566
 created: 2026-02-09
 ---
 

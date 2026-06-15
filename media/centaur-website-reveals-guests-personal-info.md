@@ -7,6 +7,7 @@ date: 2011-06-20
 source: "The Economic Times"
 authors: ["Shilpa Phadnis"]
 permalink: /media/centaur-website-reveals-guests-personal-info/
+page_id: TSAP-0188
 created: 2025-12-10
 ---
 

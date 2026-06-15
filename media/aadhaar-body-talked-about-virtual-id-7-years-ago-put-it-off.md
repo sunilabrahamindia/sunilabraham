@@ -7,6 +7,7 @@ date: 2018-01-13
 source: "NDTV"
 authors: ["Sukirti Dwivedi"]
 permalink: /media/aadhaar-body-talked-about-virtual-id-7-years-ago-put-it-off/
+page_id: TSAP-0279
 created: 2025-12-21
 ---
 

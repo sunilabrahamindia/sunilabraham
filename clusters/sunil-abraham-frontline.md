@@ -4,6 +4,7 @@ title: "Sunil Abraham and Frontline"
 description: "A consolidated cluster of Frontline magazine articles that include Sunil Abraham’s writing and referenced commentary on technology, digital governance, and public policy questions in India."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-frontline/
+page_id: TSAP-0488
 created: 2026-01-22
 ---
 

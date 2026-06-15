@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-11-16
 source: "Financial Times"
 permalink: /media/25-indians-to-watch-financial-times/
+page_id: TSAP-0752
 created: 2026-03-22
 ---
 

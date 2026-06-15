@@ -7,6 +7,7 @@ date: 2013-01-21
 authors: ["Deepa Kurup"]
 source: "The Hindu"
 permalink: /media/bangalore-hackers-aaron-swartz-hindu/
+page_id: TSAP-0485
 created: 2026-01-21
 ---
 

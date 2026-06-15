@@ -7,6 +7,7 @@ date: 2012-05-18
 authors: ["Anil Sharma", "Aishhwariya Subramanian"]
 source: "DNA India"
 permalink: /media/cordon-tightens-rajya-sabha-nod-to-harsh-it-rules-dna-india/
+page_id: TSAP-0959
 created: 2026-05-11
 ---
 

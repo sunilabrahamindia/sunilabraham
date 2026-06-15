@@ -7,6 +7,7 @@ date: 2017-07-13
 authors: ["Ramzauva Chhakchhuak"]
 source: "The New Indian Express"
 permalink: /media/click-city-appears-dashboard-new-indian-express/
+page_id: TSAP-0536
 created: 2026-02-01
 ---
 

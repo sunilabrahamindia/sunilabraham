@@ -7,6 +7,7 @@ date: 2015-09-23
 authors: ["Seetha"]
 source: "Swarajya"
 permalink: /media/every-move-you-make-swarajya/
+page_id: TSAP-0670
 created: 2026-03-08
 ---
 

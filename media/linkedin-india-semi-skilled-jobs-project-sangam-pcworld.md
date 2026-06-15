@@ -7,6 +7,7 @@ date: 2017-02-21
 authors: ["John Ribeiro"]
 source: "PCWorld"
 permalink: /media/linkedin-india-semi-skilled-jobs-project-sangam-pcworld/
+page_id: TSAP-0736
 created: 2026-03-19
 ---
 

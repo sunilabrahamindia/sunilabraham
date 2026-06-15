@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2020-10-12
 source: "The Times of India"
 permalink: /media/facebook-india-appoints-sunil-abraham-public-policy-director-times-of-india/
+page_id: TSAP-0306
 created: 2025-12-23
 ---
 

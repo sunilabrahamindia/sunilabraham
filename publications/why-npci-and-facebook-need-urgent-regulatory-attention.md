@@ -7,6 +7,7 @@ date: 2018-06-10
 authors: ["Sunil Abraham"]
 source: "The Economic Times"
 permalink: /publications/why-npci-and-facebook-need-urgent-regulatory-attention/
+page_id: TSAP-0092
 created: 2025-11-15
 ---
 

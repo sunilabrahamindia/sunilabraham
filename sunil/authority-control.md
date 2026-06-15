@@ -4,6 +4,7 @@ title: "Authority Control: Sunil Abraham"
 description: "Authority control identifiers, bibliographic records, scholarly profiles, and related metadata associated with Sunil Abraham."
 permalink: /sunil/authority-control/
 categories: [Sunil Abraham, Authority control]
+page_id: TSAP-0991
 created: 2026-05-19
 homepage_featured: true
 

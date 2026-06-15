@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-12-25
 source: "Hindustan Times"
 permalink: /media/facebook-desperate-free-basics-ht-tech/
+page_id: TSAP-0392
 created: 2026-01-03
 ---
 

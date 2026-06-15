@@ -7,6 +7,7 @@ date: 2014-03-20
 source: "The Economic Times"
 authors: ["ET Bureau"]
 permalink: /media/proud-moment-two-indians-selected-global-commission-internet-governance/
+page_id: TSAP-0175
 created: 2025-12-08
 ---
 

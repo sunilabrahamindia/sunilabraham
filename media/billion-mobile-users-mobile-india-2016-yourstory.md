@@ -7,6 +7,7 @@ date: 2016-01-14
 authors: ["Sneha Maselkar", "Madanmohan Rao"]
 source: "YourStory"
 permalink: /media/billion-mobile-users-mobile-india-2016-yourstory/
+page_id: TSAP-1039
 created: 2026-06-03
 ---
 

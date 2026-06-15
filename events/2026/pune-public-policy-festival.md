@@ -4,6 +4,7 @@ title: "Pune Public Policy Festival 2026"
 description: "The Pune Public Policy Festival 2026 brought together policymakers, researchers, industry leaders, and technologists to discuss technology-enabled growth, digital governance, and India's evolving role in the global digital order."
 categories: [Events participated]
 date: 2026-01-09
+page_id: TSAP-0766
 created: 2026-03-23
 event_type: "Public policy festival"
 location:

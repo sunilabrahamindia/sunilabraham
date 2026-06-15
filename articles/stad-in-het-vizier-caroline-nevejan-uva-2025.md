@@ -7,6 +7,7 @@ date: 2025-06-26
 authors: ["Caroline Nevejan"]
 source: "Chief Science Office, City of Amsterdam / University of Amsterdam"
 permalink: /articles/stad-in-het-vizier-caroline-nevejan-uva-2025/
+page_id: TSAP-0685
 created: 2026-03-11
 ---
 

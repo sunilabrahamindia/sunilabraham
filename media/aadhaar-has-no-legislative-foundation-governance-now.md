@@ -7,6 +7,7 @@ date: 2010-04-29
 authors: ["Samir Sachdeva"]
 source: "Governance Now"
 permalink: /media/aadhaar-has-no-legislative-foundation-governance-now/
+page_id: TSAP-0489
 created: 2026-01-22
 ---
 

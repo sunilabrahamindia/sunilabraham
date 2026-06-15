@@ -7,6 +7,7 @@ date: 2015-10-28
 source: "The Financial Express"
 authors: ["Prabhu Mallikarjunan"]
 permalink: /media/net-advocacy-body-probing-linkages-telcos-facebook-autoplay/
+page_id: TSAP-0285
 created: 2025-12-21
 ---
 

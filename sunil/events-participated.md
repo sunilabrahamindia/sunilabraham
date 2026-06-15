@@ -4,6 +4,7 @@ title: Events Participated by Sunil Abraham
 description: A chronological list of events where Sunil Abraham was a speaker, panelist, trainer or participant.
 categories: Sunil Abraham
 permalink: /sunil/events-participated
+page_id: TSAP-0140
 created: 2025-12-03
 ---
 

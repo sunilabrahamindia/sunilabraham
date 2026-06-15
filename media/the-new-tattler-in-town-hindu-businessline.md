@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-08-28
 source: "The Hindu Business Line"
 permalink: /media/the-new-tattler-in-town-hindu-businessline/
+page_id: TSAP-0554
 created: 2026-02-05
 ---
 

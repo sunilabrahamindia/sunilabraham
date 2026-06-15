@@ -7,6 +7,7 @@ date: 2012-08-23
 source: "Los Angeles Times"
 authors: ["Mark Magnier"]
 permalink: /media/india-limits-social-media-after-civil-unrest-los-angeles-times/
+page_id: TSAP-0782
 created: 2026-03-25
 ---
 

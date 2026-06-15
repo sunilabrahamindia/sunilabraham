@@ -7,6 +7,7 @@ date: 2016-03-17
 authors: ["Aloke Tikku"]
 source: "Hindustan Times"
 permalink: /media/forget-privacy-aadhaar-bill-gives-too-much-power-to-the-executive-hindustan-times/
+page_id: TSAP-1055
 created: 2026-06-11
 homepage_featured: true
 ---

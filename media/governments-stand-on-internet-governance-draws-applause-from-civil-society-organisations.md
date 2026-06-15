@@ -7,6 +7,7 @@ date: 2015-06-24
 source: "The Economic Times"
 authors: ["Neha Alawadhi"]
 permalink: /media/governments-stand-on-internet-governance-draws-applause-from-civil-society-organisations/
+page_id: TSAP-0195
 created: 2025-12-11
 ---
 

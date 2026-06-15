@@ -4,6 +4,7 @@ title: "Statistics"
 description: "A statistical overview of the Sunil Abraham Project (TSAP), including page counts, growth trends, content distribution, and structural indicators."
 permalink: /statistics/
 categories: [TSAP Documentation]
+page_id: TSAP-0929
 created: 2026-04-30
 ---
 

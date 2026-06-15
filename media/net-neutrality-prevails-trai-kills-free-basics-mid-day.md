@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-02-09
 source: "Mid-Day"
 permalink: /media/net-neutrality-prevails-trai-kills-free-basics-mid-day/
+page_id: TSAP-0591
 created: 2026-02-17
 ---
 

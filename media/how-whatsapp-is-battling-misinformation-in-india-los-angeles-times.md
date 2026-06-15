@@ -7,6 +7,7 @@ date: 2019-02-04
 source: "Los Angeles Times"
 authors: ["Shashank Bengali"]
 permalink: /media/how-whatsapp-is-battling-misinformation-in-india-los-angeles-times/
+page_id: TSAP-0781
 created: 2026-03-25
 ---
 

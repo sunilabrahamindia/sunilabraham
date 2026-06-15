@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-12-10
 source: "Oman Tribune"
 permalink: /media/internet-social-media-access-should-not-be-blocked-ban-oman-tribune/
+page_id: TSAP-0938
 created: 2026-05-02
 ---
 

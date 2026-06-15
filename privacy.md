@@ -3,6 +3,7 @@ layout: default
 title: Privacy Policy
 categories: [Project pages]
 description: "Privacy Policy outlining how sunilabraham.in respects user privacy by avoiding data collection, tracking, or information sharing, ensuring transparency and trust."
+page_id: TSAP-0007
 created: 2025-10-21
 ---
 

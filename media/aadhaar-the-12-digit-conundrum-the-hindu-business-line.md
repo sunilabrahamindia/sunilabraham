@@ -7,6 +7,7 @@ date: 2017-03-13
 authors: ["Richa Mishra"]
 source: "The Hindu Business Line"
 permalink: /media/aadhaar-the-12-digit-conundrum-the-hindu-business-line/
+page_id: TSAP-1064
 created: 2026-06-15
 ---
 

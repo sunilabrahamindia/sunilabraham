@@ -7,6 +7,7 @@ date: 2016-02-14
 authors: ["Sunil Abraham", "Vidushi Marda"]
 source: "Deccan Chronicle"
 permalink: /publications/internet-freedom-free-basics-scenario/
+page_id: TSAP-0406
 created: 2026-01-05
 ---
 

@@ -4,6 +4,7 @@ title: "The Motives of Mar Ivanios for the Reunion with the Catholic Church"
 permalink: /amaa/mar-ivanios-reunion-motives/
 categories: [A. M. A. Ayrookuzhiel]
 description: Overview of the 1966 paper presented at the Gregorian University on the motives of Mar Ivanios for reunion with the Catholic Church.
+page_id: TSAP-0109
 created: 2025-11-21
 ---
 

@@ -7,6 +7,7 @@ date: 2010-11-15
 authors: ["Erik German"]
 source: "The World"
 permalink: /media/the-internets-new-billion-the-world/
+page_id: TSAP-0879
 created: 2026-04-17
 ---
 

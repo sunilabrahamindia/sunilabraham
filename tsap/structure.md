@@ -4,6 +4,7 @@ title: "Site Structure"
 description: "Overview of the directory and file structure of The Sunil Abraham Project (TSAP) repository."
 categories: [TSAP Documentation]
 permalink: /tsap/structure/
+page_id: TSAP-0730
 created: 2026-03-18
 ---
 

@@ -7,6 +7,7 @@ date: 2012-07-17
 authors: ["Sunil Abraham"]
 source: "Thinking Aloud"
 permalink: /publications/open-letter-to-hillary-clinton-on-internet-freedom/
+page_id: TSAP-0123
 created: 2025-11-24
 ---
 

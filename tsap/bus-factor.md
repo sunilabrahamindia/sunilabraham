@@ -4,6 +4,7 @@ title: "Bus Factor"
 description: "Explore the concept of Bus Factor and test the resilience and continuity of projects, organisations, archives, and communities."
 permalink: /tsap/bus-factor/
 categories: [TSAP Documentation]
+page_id: TSAP-1046
 created: 2026-06-06
 ---
 

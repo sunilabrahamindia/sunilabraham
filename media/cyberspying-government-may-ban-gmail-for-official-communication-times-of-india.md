@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2013-08-30
 source: "The Times of India"
 permalink: /media/cyberspying-government-may-ban-gmail-for-official-communication-times-of-india/
+page_id: TSAP-0742
 created: 2026-03-21
 ---
 

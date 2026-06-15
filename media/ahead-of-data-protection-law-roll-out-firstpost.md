@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2017-10-12
 source: "Firstpost"
 permalink: /media/ahead-of-data-protection-law-roll-out-firstpost/
+page_id: TSAP-0655
 created: 2026-03-06
 ---
 

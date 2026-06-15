@@ -7,6 +7,7 @@ date: 2015-04-10
 source: "The Times of India"
 authors: ["Evelyn Fok", "Varun Aggarwal"]
 permalink: /media/one-reason-startups-are-moving-out-of-india-times-of-india/
+page_id: TSAP-0773
 created: 2026-03-24
 ---
 

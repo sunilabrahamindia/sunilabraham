@@ -7,6 +7,7 @@ categories: [Media mentions]
 date: 2012-09-27
 source: "Electronic Frontier Foundation"
 permalink: /media/india-gargantuan-biometric-database-eff/
+page_id: TSAP-0825
 created: 2026-04-03
 ---
 

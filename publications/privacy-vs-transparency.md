@@ -7,6 +7,7 @@ date: 2015-01-01
 authors: ["Sunil Abraham"]
 source: "New Internationalist"
 permalink: /publications/privacy-vs-transparency/
+page_id: TSAP-0089
 created: 2025-11-15
 ---
 

@@ -7,6 +7,7 @@ date: 2018-07-10
 authors: ["Vidhi Choudhary"]
 source: "Hindustan Times"
 permalink: /media/forwarded-label-whatsapp-combat-fake-news-hindustan-times/
+page_id: TSAP-0384
 created: 2026-01-02
 ---
 

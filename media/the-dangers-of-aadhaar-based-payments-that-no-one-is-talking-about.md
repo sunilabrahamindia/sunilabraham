@@ -7,6 +7,7 @@ date: 2017-01-17
 source: "The Quint"
 authors: ["Mayank Jain"]
 permalink: /media/the-dangers-of-aadhaar-based-payments-that-no-one-is-talking-about/
+page_id: TSAP-0340
 created: 2025-12-26
 ---
 

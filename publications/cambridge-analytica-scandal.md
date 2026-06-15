@@ -7,6 +7,7 @@ date: 2018-03-28
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/cambridge-analytica-scandal/
+page_id: TSAP-0094
 created: 2025-11-16
 ---
 

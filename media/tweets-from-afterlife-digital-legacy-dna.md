@@ -7,6 +7,7 @@ date: 2017-12-05
 authors: ["Heena Khandelwal"]
 source: "DNA India"
 permalink: /media/tweets-from-afterlife-digital-legacy-dna/
+page_id: TSAP-0555
 created: 2026-02-05
 ---
 

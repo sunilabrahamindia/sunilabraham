@@ -7,6 +7,7 @@ date: 2012-09-17
 authors: ["Shalini Singh"]
 source: "The Hindu"
 permalink: /media/global-telecom-regulations-hindu/
+page_id: TSAP-0480
 created: 2026-01-20
 ---
 

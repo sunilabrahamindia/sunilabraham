@@ -7,6 +7,7 @@ date: 2013-08-13
 authors: ["Rohin Dharmakumar"]
 source: "Forbes India"
 permalink: /media/next-gen-smartphone-users-bought-sold-forbes-india/
+page_id: TSAP-0515
 created: 2026-01-26
 ---
 

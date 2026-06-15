@@ -7,6 +7,7 @@ date: 2019-01-22
 authors: ["Divya J Shekhar"]
 source: "Forbes India"
 permalink: /media/poll-apps-giving-power-to-people-forbes-india/
+page_id: TSAP-0516
 created: 2026-01-26
 ---
 

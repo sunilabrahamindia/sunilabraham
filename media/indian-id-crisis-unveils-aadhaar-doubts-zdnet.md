@@ -7,6 +7,7 @@ date: 2013-03-14
 authors: ["Mahesh Sharma"]
 source: "ZDNet"
 permalink: /media/indian-id-crisis-unveils-aadhaar-doubts-zdnet/
+page_id: TSAP-0812
 created: 2026-03-30
 ---
 

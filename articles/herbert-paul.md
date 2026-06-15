@@ -4,6 +4,7 @@ title: "Herbert Paul"
 description: "Biographical article on Herbert Paul, a graphic designer, musician, and design consultant based in Bengaluru."
 categories: [Biographies]
 permalink: /articles/herbert-paul/
+page_id: TSAP-0520
 created: 2026-01-28
 ---
 

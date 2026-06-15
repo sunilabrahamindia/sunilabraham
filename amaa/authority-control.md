@@ -4,6 +4,7 @@ title: "Authority Control: A. M. A. Ayrookuzhiel"
 description: "Authority control identifiers, bibliographic records, scholarly profiles, archival references, and related metadata associated with A. M. A. Ayrookuzhiel."
 permalink: /amaa/authority-control/
 categories: [A. M. A. Ayrookuzhiel, Authority control]
+page_id: TSAP-0986
 created: 2026-05-19
 ---
 

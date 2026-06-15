@@ -4,6 +4,7 @@ title: "Centre for Internet and Society: Annual Report 2008–09"
 description: "A narrative account of the Centre for Internet and Society's annual report for the period 1 June 2008 to 31 March 2009, covering its early research, advocacy, accessibility, open access, internet governance, and organisational development."
 permalink: /cis/annual-report-2008-09/
 categories: [Centre for Internet and Society]
+page_id: TSAP-0942
 created: 2026-05-04
 ---
 

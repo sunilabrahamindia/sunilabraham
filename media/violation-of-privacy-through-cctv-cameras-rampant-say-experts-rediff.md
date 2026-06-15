@@ -7,6 +7,7 @@ date: 2015-04-05
 source: "Rediff"
 authors: ["Surabhi Agarwal"]
 permalink: /media/violation-of-privacy-through-cctv-cameras-rampant-say-experts-rediff/
+page_id: TSAP-0843
 created: 2026-04-08
 ---
 

@@ -7,6 +7,7 @@ date: 2018-03-31
 authors: ["Saurya Sengupta"]
 source: "The Hindu"
 permalink: /media/if-data-is-new-oil-hindu/
+page_id: TSAP-0454
 created: 2026-01-14
 ---
 

@@ -7,6 +7,7 @@ date: 2011-12-11
 authors: ["Thomas K. Thomas"]
 source: "The Hindu Business Line"
 permalink: /media/caught-in-the-web-hindu-business-line/
+page_id: TSAP-0931
 created: 2026-05-01
 ---
 

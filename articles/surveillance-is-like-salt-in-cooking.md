@@ -5,6 +5,7 @@ description: "An explanation of the comparison used by Sunil Abraham to describe
 categories: [Ideas and Opinions, Resources, TSAP Originals]
 authors: ["Sunil Abraham", "Tito Dutta"]
 permalink: /articles/surveillance-is-like-salt-in-cooking/
+page_id: TSAP-0496
 created: 2026-01-23
 ---
 

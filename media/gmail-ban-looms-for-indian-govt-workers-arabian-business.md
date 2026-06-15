@@ -7,6 +7,7 @@ date: 2013-09-01
 authors: ["Beatrice Thomas"]
 source: "Arabian Business"
 permalink: /media/gmail-ban-looms-for-indian-govt-workers/
+page_id: TSAP-0996
 created: 2026-05-21
 ---
 

@@ -7,6 +7,7 @@ date: 2012-01-14
 authors: ["Nate Anderson"]
 source: "Ars Technica"
 permalink: /media/india-censorship-google-facebook-ars-technica/
+page_id: TSAP-0802
 created: 2026-03-28
 ---
 

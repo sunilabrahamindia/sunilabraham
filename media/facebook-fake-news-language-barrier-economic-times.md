@@ -7,6 +7,7 @@ date: 2018-04-13
 source: "The Economic Times"
 authors: ["Nilesh Christopher"]
 permalink: /media/facebook-fake-news-language-barrier-economic-times/
+page_id: TSAP-0153
 created: 2025-12-06
 ---
 

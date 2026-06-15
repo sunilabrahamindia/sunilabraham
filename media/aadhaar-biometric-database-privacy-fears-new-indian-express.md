@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-03-17
 source: "The New Indian Express"
 permalink: /media/aadhaar-biometric-database-privacy-fears-new-indian-express/
+page_id: TSAP-0530
 created: 2026-01-31
 ---
 

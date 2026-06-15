@@ -7,6 +7,7 @@ date: 2014-04-12
 authors: ["Pratap Vikram Singh"]
 source: "Governance Now"
 permalink: /media/parties-give-short-shrift-privacy-governance-now/
+page_id: TSAP-0492
 created: 2026-01-22
 ---
 

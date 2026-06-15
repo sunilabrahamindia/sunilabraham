@@ -7,6 +7,7 @@ date: 2011-12-21
 source: "Committee to Protect Journalists"
 authors: ["Mannika Chopra"]
 permalink: /media/policing-the-internet-in-india/
+page_id: TSAP-0831
 created: 2026-04-05
 ---
 

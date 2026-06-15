@@ -7,6 +7,7 @@ date: 2018-01-11
 authors: []
 source: "The News Minute"
 permalink: /media/aadhaar-virtual-id-news-minute/
+page_id: TSAP-0668
 created: 2026-03-08
 ---
 

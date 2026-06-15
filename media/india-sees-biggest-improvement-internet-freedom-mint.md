@@ -7,6 +7,7 @@ date: 2014-12-05
 authors: ["Moulishree Srivastava", "Apoorva"]
 source: "Mint"
 permalink: /media/india-sees-biggest-improvement-internet-freedom-mint/
+page_id: TSAP-0605
 created: 2026-02-23
 ---
 

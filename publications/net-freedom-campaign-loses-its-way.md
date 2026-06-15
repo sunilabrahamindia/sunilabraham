@@ -7,6 +7,7 @@ date: 2014-05-10
 authors: ["Sunil Abraham"]
 source: "The Hindu Business Line"
 permalink: /publications/net-freedom-campaign-loses-its-way/
+page_id: TSAP-0075
 created: 2025-11-12
 ---
 

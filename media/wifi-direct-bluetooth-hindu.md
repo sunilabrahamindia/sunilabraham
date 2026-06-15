@@ -7,6 +7,7 @@ date: 2010-10-31
 authors: ["Ramkumar Iyer"]
 source: "The Hindu"
 permalink: /media/wifi-direct-bluetooth-hindu/
+page_id: TSAP-0478
 created: 2026-01-19
 ---
 

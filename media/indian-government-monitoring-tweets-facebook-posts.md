@@ -7,6 +7,7 @@ date: 2011-08-11
 source: "The Economic Times"
 authors: ["Javed Anwer"]
 permalink: /media/indian-government-monitoring-tweets-facebook-posts/
+page_id: TSAP-0183
 created: 2025-12-09
 ---
 

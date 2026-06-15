@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-02-06
 source: "Bangalore Mirror"
 permalink: /media/social-network-suicide-bangalore-mirror/
+page_id: TSAP-0272
 created: 2025-12-20
 ---
 

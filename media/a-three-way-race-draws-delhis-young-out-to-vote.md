@@ -7,6 +7,7 @@ date: 2013-12-04
 source: "The New York Times"
 authors: ["Betwa Sharma"]
 permalink: /media/a-three-way-race-draws-delhis-young-out-to-vote/
+page_id: TSAP-0203
 created: 2025-12-12
 ---
 

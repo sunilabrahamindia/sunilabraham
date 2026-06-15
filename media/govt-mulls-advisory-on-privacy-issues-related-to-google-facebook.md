@@ -7,6 +7,7 @@ date: 2013-06-10
 authors: ["Thomas K Thomas"]
 source: "Hindu Business Line"
 permalink: /media/govt-mulls-advisory-on-privacy-issues-related-to-google-facebook/
+page_id: TSAP-0989
 created: 2026-05-19
 ---
 

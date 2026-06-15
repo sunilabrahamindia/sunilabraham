@@ -7,6 +7,7 @@ date: 2013-06-26
 source: "The Economic Times"
 authors: ["Javed Anwer"]
 permalink: /media/government-goes-after-porn-isps-ban-sites-image-file-hosting/
+page_id: TSAP-0180
 created: 2025-12-09
 ---
 

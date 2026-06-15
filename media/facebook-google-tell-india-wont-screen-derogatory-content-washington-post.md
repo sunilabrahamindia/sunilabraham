@@ -7,6 +7,7 @@ date: 2011-12-06
 authors: ["Rama Lakshmi"]
 source: "The Washington Post"
 permalink: /media/facebook-google-tell-india-wont-screen-derogatory-content-washington-post/
+page_id: TSAP-0926
 created: 2026-04-30
 ---
 

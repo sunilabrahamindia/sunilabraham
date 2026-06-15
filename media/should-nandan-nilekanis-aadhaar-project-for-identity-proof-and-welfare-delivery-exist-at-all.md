@@ -7,6 +7,7 @@ date: 2014-04-03
 source: "The Economic Times"
 authors: ["M Rajshekhar"]
 permalink: /media/should-nandan-nilekanis-aadhaar-project-for-identity-proof-and-welfare-delivery-exist-at-all/
+page_id: TSAP-0235
 created: 2025-12-16
 ---
 

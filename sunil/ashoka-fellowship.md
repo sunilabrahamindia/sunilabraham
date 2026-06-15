@@ -4,6 +4,7 @@ title: "Ashoka Fellowship of Sunil Abraham"
 description: "A standalone article on Sunil Abraham's Ashoka Fellowship, its background, significance, and his continuing involvement with Ashoka."
 categories: [Sunil Abraham]
 permalink: /sunil/ashoka-fellowship/
+page_id: TSAP-0149
 created: 2025-12-05
 ---
 

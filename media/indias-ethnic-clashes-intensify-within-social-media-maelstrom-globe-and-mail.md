@@ -7,6 +7,7 @@ date: 2012-08-23
 authors: ["Stephanie Nolen"]
 source: "The Globe and Mail"
 permalink: /media/indias-ethnic-clashes-intensify-within-social-media-maelstrom-globe-and-mail/
+page_id: TSAP-0961
 created: 2026-05-11
 ---
 

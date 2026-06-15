@@ -7,6 +7,7 @@ date: 2014-01-17
 authors: ["Moulishree Srivastava", "Elizabeth Roche"]
 source: "Mint"
 permalink: /media/eu-parliament-report-slams-us-surveillance-mint/
+page_id: TSAP-0626
 created: 2026-02-27
 ---
 

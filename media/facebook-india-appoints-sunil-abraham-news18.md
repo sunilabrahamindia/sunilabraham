@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2020-10-12
 source: "News18"
 permalink: /media/facebook-india-appoints-sunil-abraham-news18/
+page_id: TSAP-0523
 created: 2026-01-29
 ---
 

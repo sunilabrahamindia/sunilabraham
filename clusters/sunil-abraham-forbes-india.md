@@ -4,6 +4,7 @@ title: "Sunil Abraham and Forbes India"
 description: "A consolidated archive of Sunil Abraham's writing for Forbes India and related coverage that references his perspectives on technology policy, digital governance, and the political economy of the internet in India."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-forbes-india/
+page_id: TSAP-0506
 created: 2026-01-25
 ---
 

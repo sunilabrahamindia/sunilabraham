@@ -7,6 +7,7 @@ date: 2015-04-12
 authors: ["Namrata Acharya"]
 source: "Business Standard"
 permalink: /media/surveillance-rises-privacy-retreats-business-standard/
+page_id: TSAP-0429
 created: 2026-01-08
 ---
 

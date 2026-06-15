@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2015-03-24
 source: "HuffPost"
 permalink: /media/supreme-court-strikes-down-section-66a-it-act-huffpost/
+page_id: TSAP-0794
 created: 2026-03-26
 ---
 

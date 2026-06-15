@@ -7,6 +7,7 @@ date: 2012-06-09
 authors: ["Rebecca MacKinnon"]
 source: "The Sydney Morning Herald"
 permalink: /media/indias-struggle-for-online-freedom-smh/
+page_id: TSAP-0884
 created: 2026-04-18
 ---
 

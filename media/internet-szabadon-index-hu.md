@@ -8,6 +8,7 @@ authors: ["anarki"]
 source: "index.hu"
 language: "Hungarian"
 permalink: /media/internet-szabadon-index-hu/
+page_id: TSAP-0876
 created: 2026-04-16
 ---
 

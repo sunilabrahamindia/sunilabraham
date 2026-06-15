@@ -7,6 +7,7 @@ date: 2015-03-19
 authors: ["Mridula Chari"]
 source: "Scroll.in"
 permalink: /media/digital-lockers-privacy-threat-scroll/
+page_id: TSAP-0390
 created: 2026-01-03
 ---
 

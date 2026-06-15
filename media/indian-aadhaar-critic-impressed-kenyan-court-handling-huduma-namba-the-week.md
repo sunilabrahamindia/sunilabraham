@@ -7,6 +7,7 @@ date: 2019-09-30
 source: "The Week (India)"
 authors: ["Anita Babu"]
 permalink: /media/indian-aadhaar-critic-impressed-kenyan-court-handling-huduma-namba-the-week/
+page_id: TSAP-0450
 created: 2026-01-13
 ---
 

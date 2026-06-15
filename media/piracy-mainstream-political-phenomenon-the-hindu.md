@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2010-11-22
 source: "The Hindu"
 permalink: /media/piracy-mainstream-political-phenomenon-the-hindu/
+page_id: TSAP-0824
 created: 2026-04-02
 ---
 

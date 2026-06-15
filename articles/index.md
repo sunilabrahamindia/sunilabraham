@@ -4,6 +4,7 @@ title: "Articles"
 categories: [Project pages]
 description: "Index of articles published under the Sunil Abraham Project, including biographical notes, research essays, organisational histories, and topical writings."
 permalink: /articles/
+page_id: TSAP-0135
 created: 2025-12-02
 ---
 

@@ -7,6 +7,7 @@ date: 2024-09-07
 author: "Aarti Kashyap"
 source: "The New Indian Express"
 permalink: /media/india-not-yet-ready-ai-regulations-new-indian-express/
+page_id: TSAP-0534
 created: 2026-01-31
 ---
 

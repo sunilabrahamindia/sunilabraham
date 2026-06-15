@@ -7,6 +7,7 @@ date: 2013-08-01
 source: "The Times of India"
 authors: ["Kim Arora"]
 permalink: /media/limiting-access-social-media-restrict-freedom-speech-times-of-india/
+page_id: TSAP-0325
 created: 2025-12-25
 ---
 

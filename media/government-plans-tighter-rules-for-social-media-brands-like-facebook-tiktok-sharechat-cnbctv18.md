@@ -7,6 +7,7 @@ date: 2019-08-28
 authors: ["Sunny Sen"]
 source: "CNBC-TV18"
 permalink: /media/government-plans-tighter-rules-for-social-media-brands-like-facebook-tiktok-sharechat-cnbctv18/
+page_id: TSAP-0683
 created: 2026-03-10
 ---
 

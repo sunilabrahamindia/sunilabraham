@@ -7,6 +7,7 @@ date: 2016-03-11
 authors: ["Anumeha Yadav"]
 source: "Scroll.in"
 permalink: /media/seven-reasons-why-parliament-should-debate-the-aadhaar-bill-scroll-in/
+page_id: TSAP-1059
 created: 2026-06-12
 ---
 

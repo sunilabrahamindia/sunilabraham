@@ -7,6 +7,7 @@ date: 2012-11-09
 authors: ["Debarshi Dasgupta"]
 source: "Outlook India"
 permalink: /media/shivas-tridents-outlook-india/
+page_id: TSAP-0572
 created: 2026-02-10
 ---
 

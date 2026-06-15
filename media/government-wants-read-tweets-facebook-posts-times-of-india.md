@@ -7,6 +7,7 @@ date: 2011-08-11
 source: "The Times of India"
 authors: ["Javed Anwer"]
 permalink: /media/government-wants-read-tweets-facebook-posts-times-of-india/
+page_id: TSAP-0315
 created: 2025-12-24
 ---
 

@@ -7,6 +7,7 @@ date: 2013-02-12
 source: "The Economic Times"
 authors: ["Indu Nandakumar"]
 permalink: /media/anonymous-protests-internet-shutdown-kashmir/
+page_id: TSAP-0163
 created: 2025-12-08
 ---
 

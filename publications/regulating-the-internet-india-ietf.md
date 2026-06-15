@@ -8,6 +8,7 @@ authors: ["Aayush Rathi", "Gurshabad Grover", "Sunil Abraham"]
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/regulating-the-internet-india-ietf/
 pdf: /publications/files/regulating-the-internet-india-ietf.pdf
+page_id: TSAP-0064
 created: 2025-11-09
 ---
 

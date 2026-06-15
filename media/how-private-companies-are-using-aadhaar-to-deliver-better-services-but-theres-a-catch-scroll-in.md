@@ -7,6 +7,7 @@ date: 2016-12-22
 authors: ["M. Rajshekhar"]
 source: "Scroll.in"
 permalink: /media/how-private-companies-are-using-aadhaar-to-deliver-better-services-but-theres-a-catch-scroll-in/
+page_id: TSAP-1065
 created: 2026-06-15
 ---
 

@@ -7,6 +7,7 @@ date: 2017-07-13
 authors: ["Priyanka Mittal"]
 source: "Mint"
 permalink: /media/supreme-court-constitution-bench-aadhaar-privacy-hearing-july-2017-mint/
+page_id: TSAP-0648
 created: 2026-03-03
 ---
 

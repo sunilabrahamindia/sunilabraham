@@ -7,6 +7,7 @@ date: 2018-03-28
 source: "Financial Times"
 authors: ["Amy Kazmin"]
 permalink: /media/narendra-modis-personal-app-sparks-india-data-privacy-row-financial-times/
+page_id: TSAP-0748
 created: 2026-03-21
 ---
 

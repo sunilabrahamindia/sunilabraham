@@ -7,6 +7,7 @@ date: 2017-07-04
 authors: ["Chanpreet Khurana"]
 source: "Scroll.in"
 permalink: /media/plagiarism-rampant-indian-food-writing-scroll/
+page_id: TSAP-0400
 created: 2026-01-04
 ---
 

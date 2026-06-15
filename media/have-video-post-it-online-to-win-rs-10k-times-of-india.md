@@ -7,6 +7,7 @@ date: 2013-07-19
 source: "The Times of India"
 authors: ["Shobha John"]
 permalink: /media/have-video-post-it-online-to-win-rs-10k-times-of-india/
+page_id: TSAP-0323
 created: 2025-12-25
 ---
 

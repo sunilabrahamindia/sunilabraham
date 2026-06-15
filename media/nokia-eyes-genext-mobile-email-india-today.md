@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2010-03-30
 source: "India Today"
 permalink: /media/nokia-eyes-genext-mobile-email-india-today/
+page_id: TSAP-0688
 created: 2026-03-11
 ---
 

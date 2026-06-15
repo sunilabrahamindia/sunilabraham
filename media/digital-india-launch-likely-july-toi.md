@@ -7,6 +7,7 @@ categories: [Media mentions]
 date: 2015-05-29
 source: "The Times of India"
 permalink: /media/digital-india-launch-likely-july-toi/
+page_id: TSAP-0790
 created: 2026-03-26
 ---
 

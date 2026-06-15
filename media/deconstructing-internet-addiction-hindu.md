@@ -7,6 +7,7 @@ date: 2009-08-30
 authors: ["Sruthi Krishnan", "Shyam Ranganathan"]
 source: "The Hindu"
 permalink: /media/deconstructing-internet-addiction-hindu/
+page_id: TSAP-0490
 created: 2026-01-22
 ---
 

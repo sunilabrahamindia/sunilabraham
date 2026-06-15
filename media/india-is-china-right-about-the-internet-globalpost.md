@@ -7,6 +7,7 @@ categories: [Media mentions]
 date: 2016-07-31
 source: "The World"
 permalink: /media/india-is-china-right-about-the-internet-globalpost/
+page_id: TSAP-0878
 created: 2026-04-17
 ---
 

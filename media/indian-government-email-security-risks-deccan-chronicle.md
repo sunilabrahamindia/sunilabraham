@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2013-12-09
 source: "Deccan Chronicle"
 permalink: /media/indian-government-email-security-risks-deccan-chronicle/
+page_id: TSAP-0412
 created: 2026-01-06
 ---
 

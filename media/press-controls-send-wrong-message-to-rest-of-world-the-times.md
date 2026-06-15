@@ -7,6 +7,7 @@ date: 2013-03-21
 authors: ["Jerome Starkey", "Francis Elliott", "David Brown"]
 source: "The Times"
 permalink: /media/press-controls-send-wrong-message-to-rest-of-world-the-times/
+page_id: TSAP-0981
 created: 2026-05-18
 ---
 

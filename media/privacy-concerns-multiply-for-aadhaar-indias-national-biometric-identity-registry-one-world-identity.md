@@ -7,6 +7,7 @@ date: 2017-03-17
 authors: ["Kaelyn Lowmaster"]
 source: "One World Identity"
 permalink: /media/privacy-concerns-multiply-for-aadhaar-indias-national-biometric-identity-registry-one-world-identity/
+page_id: TSAP-1069
 created: 2026-06-16
 ---
 

@@ -7,6 +7,7 @@ date: 2014-04-17
 authors: ["Aanchal Bansal"]
 source: "Open Magazine"
 permalink: /media/survival-savviest-open-magazine/
+page_id: TSAP-0512
 created: 2026-01-25
 ---
 

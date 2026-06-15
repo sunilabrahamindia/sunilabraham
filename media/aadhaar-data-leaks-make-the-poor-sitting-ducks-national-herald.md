@@ -7,6 +7,7 @@ date: 2017-04-26
 authors: ["Sebastian PT"]
 source: "National Herald"
 permalink: /media/data-leaks-make-the-poor-sitting-ducks-national-herald/
+page_id: TSAP-0589
 created: 2026-02-16
 ---
 

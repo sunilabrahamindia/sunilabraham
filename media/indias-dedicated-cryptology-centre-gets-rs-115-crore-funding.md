@@ -7,6 +7,7 @@ date: 2014-07-28
 authors: ["Harichandan Arakali"]
 source: "SearchSecurity"
 permalink: /media/indias-dedicated-cryptology-centre-gets-rs-115-crore-funding/
+page_id: TSAP-1009
 created: 2026-05-24
 ---
 

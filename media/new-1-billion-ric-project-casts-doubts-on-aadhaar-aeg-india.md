@@ -7,6 +7,7 @@ date: 2013-03-15
 authors: ["Ravi"]
 source: "AEG India"
 permalink: /media/new-1-billion-ric-project-casts-doubts-on-aadhaar-aeg-india/
+page_id: TSAP-0980
 created: 2026-05-18
 ---
 

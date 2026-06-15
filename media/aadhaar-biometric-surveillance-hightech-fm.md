@@ -7,6 +7,7 @@ date: 2017-03-31
 authors: ["Yulia Krasilnikova (Юлия Красильникова)"]
 source: "Hightech.fm (Хайтек)"
 permalink: /media/aadhaar-biometric-surveillance-hightech-fm/
+page_id: TSAP-0795
 created: 2026-03-27
 ---
 

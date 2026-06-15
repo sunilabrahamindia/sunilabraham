@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2025-09-05
 source: "MIT Sloan Management Review India"
 permalink: /media/policy-50-mapping-the-minds-behind-indias-digital-rise/
+page_id: TSAP-0586
 created: 2026-02-14
 ---
 

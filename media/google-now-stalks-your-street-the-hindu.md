@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-05-27
 source: "The Hindu"
 permalink: /media/google-now-stalks-your-street-the-hindu/
+page_id: TSAP-0895
 created: 2026-04-20
 ---
 

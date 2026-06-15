@@ -7,6 +7,7 @@ date: 2012-11-02
 source: "The Times of India"
 authors: ["Javed Anwer"]
 permalink: /media/offended-tweet-live-with-it-times-of-india/
+page_id: TSAP-0329
 created: 2025-12-25
 ---
 

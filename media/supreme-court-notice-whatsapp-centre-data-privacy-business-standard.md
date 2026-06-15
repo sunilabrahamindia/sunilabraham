@@ -7,6 +7,7 @@ date: 2017-01-17
 authors: ["M J Antony", "Ayan Pramanik", "Apurva Venkat"]
 source: "Business Standard"
 permalink: /media/supreme-court-notice-whatsapp-centre-data-privacy-business-standard/
+page_id: TSAP-0820
 created: 2026-04-01
 ---
 

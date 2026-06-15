@@ -7,6 +7,7 @@ date: 2014-11-03
 authors: ["Tim Davies"]
 source: "Open Up?"
 permalink: /media/getting-strategic-about-openness-and-privacy-open-up/
+page_id: TSAP-1007
 created: 2026-05-24
 ---
 

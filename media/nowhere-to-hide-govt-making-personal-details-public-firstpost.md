@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2014-12-20
 source: "Firstpost"
 permalink: /media/nowhere-to-hide-govt-making-personal-details-public-firstpost/
+page_id: TSAP-0665
 created: 2026-03-07
 ---
 

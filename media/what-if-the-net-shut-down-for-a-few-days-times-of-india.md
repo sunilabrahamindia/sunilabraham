@@ -7,6 +7,7 @@ date: 2013-03-30
 source: "The Times of India"
 authors: ["Atul Sethi"]
 permalink: /media/what-if-the-net-shut-down-for-a-few-days-times-of-india/
+page_id: TSAP-0786
 created: 2026-03-25
 ---
 

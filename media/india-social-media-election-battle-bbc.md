@@ -7,6 +7,7 @@ date: 2014-03-31
 source: "BBC News"
 authors: ["Atish Patel"]
 permalink: /media/india-social-media-election-battle-bbc/
+page_id: TSAP-0261
 created: 2025-12-19
 ---
 

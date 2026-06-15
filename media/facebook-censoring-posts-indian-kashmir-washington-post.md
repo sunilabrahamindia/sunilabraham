@@ -7,6 +7,7 @@ date: 2016-07-27
 authors: ["Rama Lakshmi"]
 source: "The Washington Post"
 permalink: /media/facebook-censoring-posts-indian-kashmir-washington-post/
+page_id: TSAP-0925
 created: 2026-04-30
 ---
 

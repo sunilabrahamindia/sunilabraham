@@ -7,6 +7,7 @@ date: 2015-10-06
 source: "The Times of India"
 authors: ["Shilpa Phadnis", "Sujit John"]
 permalink: /media/modis-valley-hug-sparks-swadeshi-talk-times-of-india/
+page_id: TSAP-0326
 created: 2025-12-25
 ---
 

@@ -7,6 +7,7 @@ date: 2017-06-28
 source: "Rediff"
 authors: ["Ranjita Ganesan"]
 permalink: /media/warriors-of-the-fake-news-era-rediff/
+page_id: TSAP-0840
 created: 2026-04-07
 ---
 

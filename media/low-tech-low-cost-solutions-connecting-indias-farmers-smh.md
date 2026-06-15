@@ -7,6 +7,7 @@ date: 2010-09-09
 authors: ["Phil Hazlewood"]
 source: "The Sydney Morning Herald"
 permalink: /media/low-tech-low-cost-solutions-connecting-indias-farmers-smh/
+page_id: TSAP-0885
 created: 2026-04-18
 ---
 

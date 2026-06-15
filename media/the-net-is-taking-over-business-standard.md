@@ -7,6 +7,7 @@ date: 2014-01-24
 authors: ["Veenu Sandhu", "Surabhi Agarwal", "Indulekha Aravind"]
 source: "Business Standard"
 permalink: /media/the-net-is-taking-over-business-standard/
+page_id: TSAP-0434
 created: 2026-01-09
 ---
 

@@ -7,6 +7,7 @@ date: 2011-12-09
 authors: ["Phil Hazlewood"]
 source: "Independent Online"
 permalink: /media/india-entering-the-minority-report-age-iol/
+page_id: TSAP-0937
 created: 2026-05-02
 ---
 

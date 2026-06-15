@@ -7,6 +7,7 @@ date: 2014-12-28
 authors: ["Ajai Sreevatsan"]
 source: "The Hindu"
 permalink: /media/targeting-surveillance-hindu/
+page_id: TSAP-0464
 created: 2026-01-17
 ---
 

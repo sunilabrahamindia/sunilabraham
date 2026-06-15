@@ -7,6 +7,7 @@ date: 2013-06-26
 authors: ["Pankaj Mishra"]
 source: "Mint"
 permalink: /media/wipo-reaches-agreement-treaty-blind-mint/
+page_id: TSAP-0618
 created: 2026-02-25
 ---
 

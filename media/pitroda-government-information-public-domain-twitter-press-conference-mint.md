@@ -7,6 +7,7 @@ date: 2012-09-26
 authors: ["Surabhi Agarwal", "Kirthi Rao"]
 source: "Mint"
 permalink: /media/pitroda-government-information-public-domain-twitter-press-conference-mint/
+page_id: TSAP-0653
 created: 2026-03-05
 ---
 

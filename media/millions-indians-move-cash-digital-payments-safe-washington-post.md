@@ -7,6 +7,7 @@ date: 2017-01-14
 authors: ["Rama Lakshmi"]
 source: "The Washington Post"
 permalink: /media/millions-indians-move-cash-digital-payments-safe-washington-post/
+page_id: TSAP-0928
 created: 2026-04-30
 ---
 

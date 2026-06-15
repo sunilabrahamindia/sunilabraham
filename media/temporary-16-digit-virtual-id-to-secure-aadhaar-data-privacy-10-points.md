@@ -7,6 +7,7 @@ date: 2018-01-10
 source: "NDTV"
 authors: ["Aloke Tikku"]
 permalink: /media/temporary-16-digit-virtual-id-to-secure-aadhaar-data-privacy-10-points/
+page_id: TSAP-0302
 created: 2025-12-22
 ---
 

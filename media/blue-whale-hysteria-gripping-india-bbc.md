@@ -7,6 +7,7 @@ date: 2017-09-19
 source: "BBC News"
 authors: ["Aparna Alluri"]
 permalink: /media/blue-whale-hysteria-gripping-india-bbc/
+page_id: TSAP-0268
 created: 2025-12-20
 ---
 

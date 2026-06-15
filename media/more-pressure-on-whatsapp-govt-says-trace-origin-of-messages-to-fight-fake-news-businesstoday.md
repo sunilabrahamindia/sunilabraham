@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-09-20
 source: "Business Today"
 permalink: /media/more-pressure-on-whatsapp-govt-says-trace-origin-of-messages-to-fight-fake-news-businesstoday/
+page_id: TSAP-0687
 created: 2026-03-11
 ---
 

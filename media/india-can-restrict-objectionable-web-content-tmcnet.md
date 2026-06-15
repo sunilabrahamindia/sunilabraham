@@ -7,6 +7,7 @@ date: 2011-04-27
 authors: ["Ed Silverstein"]
 source: "TMCnet Legal"
 permalink: /media/india-can-restrict-objectionable-web-content-tmcnet/
+page_id: TSAP-0896
 created: 2026-04-20
 ---
 

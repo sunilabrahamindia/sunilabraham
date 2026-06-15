@@ -7,6 +7,7 @@ categories: [Media mentions]
 date: 2016-01-13
 source: "The World"
 permalink: /media/why-indians-are-turning-down-facebooks-free-internet-globalpost/
+page_id: TSAP-0880
 created: 2026-04-17
 ---
 

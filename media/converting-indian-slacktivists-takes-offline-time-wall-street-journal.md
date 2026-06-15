@@ -7,6 +7,7 @@ date: 2011-08-02
 source: "The Wall Street Journal"
 authors: ["Tripti Lahiri"]
 permalink: /media/converting-indian-slacktivists-takes-offline-time-wall-street-journal/
+page_id: TSAP-0754
 created: 2026-03-22
 ---
 

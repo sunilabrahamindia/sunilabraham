@@ -7,6 +7,7 @@ date: 2014-06-06
 authors: ["Leslie D'Monte"]
 source: "Mint"
 permalink: /media/right-to-be-forgotten-legal-dilemma-india-eu-ruling-mint/
+page_id: TSAP-0659
 created: 2026-03-06
 ---
 

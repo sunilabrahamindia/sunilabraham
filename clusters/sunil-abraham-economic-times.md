@@ -4,6 +4,7 @@ title: "Sunil Abraham and The Economic Times"
 description: "A consolidated archive of Sunil Abraham's writings for The Economic Times and media coverage featuring his commentary."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-economic-times/
+page_id: TSAP-0160
 created: 2025-12-08
 ---
 

@@ -4,6 +4,7 @@ title: "Query"
 description: "Search and filter indexed content across The Sunil Abraham Project using metadata such as title, author, source, category, and date."
 permalink: /query/
 categories: [Project pages]
+page_id: TSAP-1062
 created: 2026-06-13
 ---
 

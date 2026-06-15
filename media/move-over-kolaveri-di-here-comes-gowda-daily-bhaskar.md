@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-11-28
 source: "Daily Bhaskar"
 permalink: /media/move-over-kolaveri-di-here-comes-gowda-daily-bhaskar/
+page_id: TSAP-0933
 created: 2026-05-01
 ---
 

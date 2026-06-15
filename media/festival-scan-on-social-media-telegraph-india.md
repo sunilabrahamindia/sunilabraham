@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-08-26
 source: "The Telegraph (India)"
 permalink: /media/festival-scan-on-social-media-telegraph-india/
+page_id: TSAP-0251
 created: 2025-12-18
 ---
 

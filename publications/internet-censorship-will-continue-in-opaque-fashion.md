@@ -7,6 +7,7 @@ date: 2015-03-25
 authors: ["Sunil Abraham"]
 source: "The Times of India"
 permalink: /publications/internet-censorship-will-continue-in-opaque-fashion/
+page_id: TSAP-0081
 created: 2025-11-13
 ---
 

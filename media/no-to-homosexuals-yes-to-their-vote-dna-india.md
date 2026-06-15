@@ -7,6 +7,7 @@ date: 2014-03-21
 authors: ["Yogesh Pawar"]
 source: "DNA India"
 permalink: /media/no-to-homosexuals-yes-to-their-vote-dna-india/
+page_id: TSAP-1005
 created: 2026-05-23
 ---
 

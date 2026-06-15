@@ -7,6 +7,7 @@ date: 2013-08-06
 authors: ["David Eaves"]
 source: "TechPresident"
 permalink: /media/beyond-property-rights-moral-definitions-of-openness-techpresident/
+page_id: TSAP-0712
 created: 2026-03-16
 ---
 

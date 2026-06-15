@@ -7,6 +7,7 @@ date: 2012-01-04
 source: "The Telegraph (India)"
 authors: ["Smitha Verma"]
 permalink: /media/trail-of-the-trolls-telegraph-india/
+page_id: TSAP-0265
 created: 2025-12-19
 ---
 

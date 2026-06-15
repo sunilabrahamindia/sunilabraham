@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2017-02-24
 source: "Outlook India"
 permalink: /media/aadhaar-biometrics-security-outlook-india/
+page_id: TSAP-0559
 created: 2026-02-07
 ---
 

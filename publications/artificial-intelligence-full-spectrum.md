@@ -8,6 +8,7 @@ authors: ["Sunil Abraham", "Shweta Mohandas", "Mira Swaminathan", "Shweta Reddy"
 source: "The Centre for Internet and Society (CIS)"
 permalink: /publications/artificial-intelligence-full-spectrum/
 pdf: /publications/files/artificial-intelligence-full-spectrum.pdf
+page_id: TSAP-0067
 created: 2025-11-11
 ---
 

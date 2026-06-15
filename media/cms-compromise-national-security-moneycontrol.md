@@ -8,6 +8,7 @@ source: "Moneycontrol"
 authors: ["Rohin Dharmakumar"]
 original_publication: "Forbes India"
 permalink: /media/cms-compromise-national-security-moneycontrol/
+page_id: TSAP-0280
 created: 2025-12-21
 ---
 

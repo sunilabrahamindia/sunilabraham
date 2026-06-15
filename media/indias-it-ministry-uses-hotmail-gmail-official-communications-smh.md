@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2013-12-10
 source: "The Sydney Morning Herald"
 permalink: /media/indias-it-ministry-uses-hotmail-gmail-official-communications-smh/
+page_id: TSAP-0883
 created: 2026-04-18
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2013-12-08
 source: "NDTV"
 permalink: /media/indian-government-wakes-up-to-risk-of-hotmail-gmail/
+page_id: TSAP-0296
 created: 2025-12-22
 ---
 

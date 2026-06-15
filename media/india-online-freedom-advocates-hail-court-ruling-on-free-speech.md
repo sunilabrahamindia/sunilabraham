@@ -7,6 +7,7 @@ date: 2015-03-25
 source: "Voice of America"
 authors: ["Anjana Pasricha"]
 permalink: /media/india-online-freedom-advocates-hail-court-ruling-on-free-speech/
+page_id: TSAP-0738
 created: 2026-03-20
 ---
 

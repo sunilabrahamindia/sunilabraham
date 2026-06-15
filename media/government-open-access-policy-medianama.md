@@ -7,6 +7,7 @@ date: 2014-07-23
 authors: ["Riddhi Mukherjee"]
 source: "MediaNama"
 permalink: /media/government-open-access-policy-medianama/
+page_id: TSAP-0417
 created: 2026-01-07
 ---
 

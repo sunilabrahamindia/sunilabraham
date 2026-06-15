@@ -4,6 +4,7 @@ title: "Sunil Abraham and Electronic Frontier Foundation"
 description: "A collection of Electronic Frontier Foundation articles that reference Sunil Abraham in discussions on digital rights, privacy, and internet governance."
 categories: [Clusters]
 permalink: /clusters/sunil-abraham-electronic-frontier-foundation/
+page_id: TSAP-0829
 created: 2026-04-04
 ---
 

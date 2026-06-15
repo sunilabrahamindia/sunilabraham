@@ -7,6 +7,7 @@ date: 2018-10-21
 authors: ["Vidhi Choudhary"]
 source: "Hindustan Times"
 permalink: /media/brazils-experience-red-flag-whatsapp-indian-polls-experts-hindustan-times/
+page_id: TSAP-0379
 created: 2026-01-02
 ---
 

@@ -7,6 +7,7 @@ date: 2011-07-17
 source: "The New York Times"
 authors: ["Vikas Bajaj"]
 permalink: /media/transparent-government-via-webcams-in-india/
+page_id: TSAP-0209
 created: 2025-12-12
 ---
 

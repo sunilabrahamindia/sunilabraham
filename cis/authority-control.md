@@ -4,6 +4,7 @@ title: "Authority Control: Centre for Internet and Society"
 description: "Authority control identifiers, institutional records, archival references, organisational profiles, and related metadata associated with The Centre for Internet and Society."
 permalink: /cis/authority-control/
 categories: [Centre for Internet and Society, Authority control]
+page_id: TSAP-0988
 created: 2026-05-19
 ---
 

@@ -7,6 +7,7 @@ date: 2015-03-25
 authors: ["Nida Najar", "Suhasini Raj"]
 source: "NDTV"
 permalink: /media/indian-court-strikes-down-section-of-law-punishing-offensive-posts-ndtv/
+page_id: TSAP-1011
 created: 2026-05-25
 ---
 

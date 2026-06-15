@@ -7,6 +7,7 @@ date: 2012-02-10
 source: "Committee to Protect Journalists"
 authors: ["Mannika Chopra"]
 permalink: /media/old-issues-new-debates-on-internet-freedom-in-india/
+page_id: TSAP-0835
 created: 2026-04-06
 ---
 

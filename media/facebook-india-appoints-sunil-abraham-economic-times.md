@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2020-10-12
 source: "The Economic Times"
 permalink: /media/facebook-india-appoints-sunil-abraham-economic-times/
+page_id: TSAP-0154
 created: 2025-12-06
 ---
 

@@ -7,6 +7,7 @@ date: 2017-03-31
 source: "The Telegraph (India)"
 authors: ["K. M. Rakesh"]
 permalink: /media/dream-debut-bedroom-journalism-on-trial-telegraph-india/
+page_id: TSAP-0259
 created: 2025-12-19
 ---
 

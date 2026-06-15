@@ -7,6 +7,7 @@ date: 2012-11-20
 source: "The New York Times"
 authors: ["Sangeetha Rajeesh", "Heather Timmons"]
 permalink: /media/how-to-steer-clear-indias-strict-internet-laws/
+page_id: TSAP-0217
 created: 2025-12-14
 ---
 

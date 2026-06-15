@@ -7,6 +7,7 @@ date: 2015-06-22
 authors: ["Sunil Abraham"]
 source: "Mint"
 permalink: /publications/the-generation-of-e-emergency/
+page_id: TSAP-0084
 created: 2025-11-13
 ---
 

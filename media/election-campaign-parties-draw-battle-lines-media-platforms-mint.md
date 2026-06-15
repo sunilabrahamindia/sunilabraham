@@ -7,6 +7,7 @@ date: 2013-08-26
 authors: ["Venkatesh Upadhyay"]
 source: "Mint"
 permalink: /media/election-campaign-parties-draw-battle-lines-media-platforms-mint/
+page_id: TSAP-0616
 created: 2026-02-25
 ---
 

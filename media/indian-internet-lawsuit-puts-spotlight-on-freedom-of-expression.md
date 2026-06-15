@@ -7,6 +7,7 @@ date: 2012-01-17
 source: "Voice of America"
 authors: ["Anjana Pasricha"]
 permalink: /media/indian-internet-lawsuit-puts-spotlight-on-freedom-of-expression/
+page_id: TSAP-0739
 created: 2026-03-20
 ---
 

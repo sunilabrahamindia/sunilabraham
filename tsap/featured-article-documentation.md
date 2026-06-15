@@ -4,6 +4,7 @@ title: "Featured Article (Documentation)"
 description: "A permanent record of articles featured in the 'Featured Article' section on the TSAP home page, with the dates they were displayed."
 categories: [TSAP Documentation]
 permalink: /tsap/featured-article-documentation/
+page_id: TSAP-0912
 created: 2026-04-25
 ---
 

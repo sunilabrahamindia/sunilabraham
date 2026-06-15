@@ -7,6 +7,7 @@ date: 2016-03-24
 authors: ["M Rajshekhar", "Anumeha Yadav"]
 source: "Scroll.in"
 permalink: /media/government-gains-private-companies-aadhaar-scroll/
+page_id: TSAP-0394
 created: 2026-01-03
 ---
 

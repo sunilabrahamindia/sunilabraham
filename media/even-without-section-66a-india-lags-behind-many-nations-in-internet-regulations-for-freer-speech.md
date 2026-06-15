@@ -7,6 +7,7 @@ date: 2015-03-29
 source: "The Economic Times"
 authors: ["Rahul Sachitanand"]
 permalink: /media/even-without-section-66a-india-lags-behind-many-nations-in-internet-regulations-for-freer-speech/
+page_id: TSAP-0244
 created: 2025-12-17
 ---
 

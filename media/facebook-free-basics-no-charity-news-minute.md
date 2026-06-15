@@ -7,6 +7,7 @@ date: 2016-01-12
 authors: ["Mark Graham"]
 source: "The News Minute"
 permalink: /media/facebook-free-basics-no-charity-news-minute/
+page_id: TSAP-0671
 created: 2026-03-08
 ---
 

@@ -7,6 +7,7 @@ date: 2017-05-06
 authors: ["Ayan Pramanik"]
 source: "Business Standard"
 permalink: /media/wipro-threat-bitcoin-ransom-business-standard/
+page_id: TSAP-0436
 created: 2026-01-09
 ---
 

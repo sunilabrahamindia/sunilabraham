@@ -7,6 +7,7 @@ date: 2013-09-25
 authors: ["Zahra Khan", "Malvika Joshi"]
 source: "Mint"
 permalink: /media/going-paperless-medical-reports-mint/
+page_id: TSAP-0620
 created: 2026-02-26
 ---
 

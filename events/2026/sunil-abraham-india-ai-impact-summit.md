@@ -4,6 +4,7 @@ title: "Sunil Abraham at India AI Impact Summit 2026"
 description: "Coverage of Sunil Abraham's participation at the India AI Impact Summit 2026, including panel moderation and speaking engagements on AI governance, regional leadership and responsible AI deployment."
 categories: [Events participated]
 date: 2026-02-17
+page_id: TSAP-0588
 created: 2026-02-15
 event_name: "India AI Impact Summit 2026"
 event_type: "AI summit"

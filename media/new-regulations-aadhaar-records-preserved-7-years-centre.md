@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2016-10-17
 source: "The Financial Express"
 permalink: /media/new-regulations-aadhaar-records-preserved-7-years-centre/
+page_id: TSAP-0286
 created: 2025-12-21
 ---
 

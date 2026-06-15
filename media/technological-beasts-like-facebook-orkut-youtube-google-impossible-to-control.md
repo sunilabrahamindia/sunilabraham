@@ -7,6 +7,7 @@ date: 2011-12-11
 source: "The Economic Times"
 authors: ["Sunanda Poduwal", "Kamya Jaiswal"]
 permalink: /media/technological-beasts-like-facebook-orkut-youtube-google-impossible-to-control/
+page_id: TSAP-0237
 created: 2025-12-16
 ---
 

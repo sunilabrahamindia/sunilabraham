@@ -7,6 +7,7 @@ date: 2010-05-28
 authors: ["Karen Leigh"]
 source: "Mint"
 permalink: /media/grassroots-challenge-uid-aadhaar-kibbanahalli-mint/
+page_id: TSAP-0641
 created: 2026-03-02
 ---
 

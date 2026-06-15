@@ -3,6 +3,7 @@ layout: default
 title: Ideas and Opinions
 categories: [Project pages, Ideas and Opinions]
 description: "Collection of key ideas and conceptual insights by Sunil Abraham on digital rights, technology regulation, and open knowledge. These short statements summarise emerging frameworks and positions developed through years of research and public engagement."
+page_id: TSAP-0056
 created: 2025-11-08
 ---
 

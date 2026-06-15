@@ -7,6 +7,7 @@ date: 2017-02-16
 authors: ["Pratap Vikram Singh"]
 source: "Governance Now"
 permalink: /media/aadhaar-mandatory-or-not-governance-now/
+page_id: TSAP-0498
 created: 2026-01-23
 ---
 

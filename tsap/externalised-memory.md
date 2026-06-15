@@ -4,6 +4,7 @@ title: "Externalised Memory"
 description: "Documentation describing the externalised memory methodology used within The Sunil Abraham Project (TSAP) to preserve project knowledge across time, sessions, and AI systems."
 categories: [TSAP Documentation]
 permalink: /tsap/externalised-memory/
+page_id: TSAP-1027
 created: 2026-05-29
 ---
 

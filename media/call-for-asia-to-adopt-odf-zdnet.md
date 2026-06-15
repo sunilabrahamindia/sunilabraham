@@ -7,6 +7,7 @@ date: 2006-08-08
 authors: ["Aaron Tan"]
 source: "ZDNet"
 permalink: /media/call-for-asia-to-adopt-odf-zdnet/
+page_id: TSAP-0806
 created: 2026-03-29
 ---
 

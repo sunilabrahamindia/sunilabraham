@@ -7,6 +7,7 @@ date: 2018-10-12
 source: "The Economic Times"
 authors: ["Divya Shekhar"]
 permalink: /media/spending-too-much-time-on-social-media-tech-abuse-may-lead-to-mental-health-issues/
+page_id: TSAP-0229
 created: 2025-12-15
 ---
 

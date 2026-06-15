@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2010-04-29
 source: "The Hindu"
 permalink: /media/scrap-uid-project-say-peoples-organisations-the-hindu/
+page_id: TSAP-0869
 created: 2026-04-15
 ---
 

@@ -7,6 +7,7 @@ date: 2012-01-15
 authors: ["Deepa Kurup"]
 source: "The Hindu"
 permalink: /media/sopa-opera-twists-turns-hindu/
+page_id: TSAP-0471
 created: 2026-01-18
 ---
 

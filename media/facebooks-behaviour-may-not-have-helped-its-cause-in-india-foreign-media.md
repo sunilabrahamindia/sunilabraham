@@ -7,6 +7,7 @@ date: 2016-02-08
 source: "NDTV"
 authors: ["Annie Gowen"]
 permalink: /media/facebooks-behaviour-may-not-have-helped-its-cause-in-india-foreign-media/
+page_id: TSAP-0292
 created: 2025-12-22
 ---
 

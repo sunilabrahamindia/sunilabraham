@@ -4,6 +4,7 @@ title: "TSAP Foundational Principles"
 description: "A foundational charter recording the permanent principles, identity, purpose, and institutional characteristics of The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation, TSAP Events and Rituals]
 permalink: /tsap/foundational-principles/
+page_id: TSAP-1033
 created: 2026-05-31
 homepage_featured: true
 ---

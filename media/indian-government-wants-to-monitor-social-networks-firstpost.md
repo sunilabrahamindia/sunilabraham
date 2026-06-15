@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2011-08-09
 source: "Firstpost"
 permalink: /media/indian-government-wants-to-monitor-social-networks-firstpost/
+page_id: TSAP-0661
 created: 2026-03-07
 ---
 

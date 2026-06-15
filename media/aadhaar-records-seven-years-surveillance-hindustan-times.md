@@ -7,6 +7,7 @@ date: 2016-10-17
 authors: ["Aloke Tikku"]
 source: "Hindustan Times"
 permalink: /media/aadhaar-records-seven-years-surveillance-hindustan-times/
+page_id: TSAP-0356
 created: 2025-12-29
 ---
 

@@ -7,6 +7,7 @@ date: 2016-08-10
 source: "The Economic Times"
 authors: ["Neha Alawadhi", "Gulveen Aulakh"]
 permalink: /media/aadhaar-enabled-smartphones-will-ease-money-transfer/
+page_id: TSAP-0212
 created: 2025-12-14
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2012-05-13
 source: "The Economic Times"
 permalink: /media/world-wide-web-facing-threat-from-tech-companies-seeking-to-play-gatekeepers/
+page_id: TSAP-0240
 created: 2025-12-16
 ---
 

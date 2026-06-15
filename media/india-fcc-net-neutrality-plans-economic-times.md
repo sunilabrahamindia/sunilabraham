@@ -7,6 +7,7 @@ date: 2017-11-23
 authors: ["Surabhi Agarwal"]
 source: "The Economic Times"
 permalink: /media/india-fcc-net-neutrality-plans-economic-times/
+page_id: TSAP-0720
 created: 2026-03-17
 ---
 

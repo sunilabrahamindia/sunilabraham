@@ -7,6 +7,7 @@ date: 2013-04-03
 authors: ["Danish"]
 source: "Firstpost"
 permalink: /media/parl-panel-recommendations-it-act-online-activists-divided-firstpost/
+page_id: TSAP-0666
 created: 2026-03-07
 ---
 

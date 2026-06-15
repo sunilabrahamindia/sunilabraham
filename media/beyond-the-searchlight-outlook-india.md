@@ -7,6 +7,7 @@ date: 2013-10-19
 authors: ["Debarshi Dasgupta"]
 source: "Outlook India"
 permalink: /media/beyond-the-searchlight-outlook-india/
+page_id: TSAP-0568
 created: 2026-02-10
 ---
 

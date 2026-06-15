@@ -7,6 +7,7 @@ date: 2019-06-04
 authors: ["Navadha Pandey"]
 source: "Mint"
 permalink: /media/plugging-into-indias-broadband-revolution-mint/
+page_id: TSAP-0607
 created: 2026-02-23
 ---
 

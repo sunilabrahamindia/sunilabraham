@@ -7,6 +7,7 @@ date: 2011-09-02
 authors: ["Sunil Abraham"]
 source: "The Indian Express"
 permalink: /publications/photocopying-the-past/
+page_id: TSAP-0120
 created: 2025-11-23
 ---
 

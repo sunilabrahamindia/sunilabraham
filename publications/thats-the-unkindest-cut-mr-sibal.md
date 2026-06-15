@@ -7,6 +7,7 @@ date: 2011-12-11
 authors: ["Sunil Abraham"]
 source: "Deccan Chronicle"
 permalink: /publications/thats-the-unkindest-cut-mr-sibal/
+page_id: TSAP-0115
 created: 2025-11-22
 ---
 

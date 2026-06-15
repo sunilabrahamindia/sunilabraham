@@ -7,6 +7,7 @@ date: 2011-10-24
 authors: ["Pallavi Polanki"]
 source: "Firstpost"
 permalink: /media/indias-vanishing-fingerprints-uid-in-question-firstpost/
+page_id: TSAP-0662
 created: 2026-03-07
 ---
 

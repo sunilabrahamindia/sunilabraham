@@ -7,6 +7,7 @@ date: 2019-08-26
 authors: ["Sunil Abraham"]
 source: "Business Standard"
 permalink: /publications/linking-aadhaar-social-media-encryption/
+page_id: TSAP-0071
 created: 2025-11-11
 ---
 

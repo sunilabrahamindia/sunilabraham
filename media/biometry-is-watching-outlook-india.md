@@ -7,6 +7,7 @@ date: 2010-05-10
 authors: ["Sugata Srinivasaraju"]
 source: "Outlook India"
 permalink: /media/biometry-is-watching-outlook-india/
+page_id: TSAP-0569
 created: 2026-02-10
 ---
 

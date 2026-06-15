@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. Abraham Ayrookuzhiel's essay 'The 
 permalink: /amaa/state-of-hinduism-in-2000-ad-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1977
+page_id: TSAP-1050
 created: 2026-06-09
 ---
 

@@ -7,6 +7,7 @@ date: 2022-04-18
 authors: ["Mitaksh Jain"]
 source: "MediaNama"
 permalink: /media/india-online-gaming-regulation-framework-medianama/
+page_id: TSAP-0418
 created: 2026-01-07
 ---
 

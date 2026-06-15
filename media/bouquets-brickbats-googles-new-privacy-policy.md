@@ -7,6 +7,7 @@ date: 2013-10-18
 source: "The Economic Times"
 authors: ["Indu Nandakumar", "J Srikant"]
 permalink: /media/bouquets-brickbats-googles-new-privacy-policy/
+page_id: TSAP-0177
 created: 2025-12-09
 ---
 

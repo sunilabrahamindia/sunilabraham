@@ -7,6 +7,7 @@ date: 2018-03-25
 source: "The Economic Times"
 authors: ["Kim Arora"]
 permalink: /media/apps-of-political-parties-want-access-to-users-key-data/
+page_id: TSAP-0176
 created: 2025-12-09
 ---
 

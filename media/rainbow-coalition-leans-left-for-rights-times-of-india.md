@@ -7,6 +7,7 @@ date: 2004-01-18
 source: "The Times of India"
 authors: ["Vaishnavi C Sekhar"]
 permalink: /media/rainbow-coalition-leans-left-for-rights-times-of-india/
+page_id: TSAP-0336
 created: 2025-12-26
 ---
 

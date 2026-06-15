@@ -7,6 +7,7 @@ date: 2016-01-29
 authors: ["Annie Gowen"]
 source: "The Independent"
 permalink: /media/india-egypt-turn-down-free-internet-facebook-independent/
+page_id: TSAP-0797
 created: 2026-03-27
 ---
 

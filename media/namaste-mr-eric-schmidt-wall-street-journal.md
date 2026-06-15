@@ -7,6 +7,7 @@ date: 2013-03-20
 source: "The Wall Street Journal"
 authors: ["R. Jai Krishna"]
 permalink: /media/namaste-mr-eric-schmidt-wall-street-journal/
+page_id: TSAP-0760
 created: 2026-03-22
 ---
 

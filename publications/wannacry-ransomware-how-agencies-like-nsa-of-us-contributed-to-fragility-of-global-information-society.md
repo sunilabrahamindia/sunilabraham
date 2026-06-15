@@ -7,6 +7,7 @@ date: 2017-05-20
 authors: ["Sunil Abraham"]
 source: "India Today"
 permalink: /publications/wannacry-ransomware-how-agencies-like-nsa-of-us-contributed-to-fragility-of-global-information-society/
+page_id: TSAP-0690
 created: 2026-03-11
 ---
 

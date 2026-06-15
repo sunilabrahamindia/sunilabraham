@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-04-06
 source: "The Hindu Business Line"
 permalink: /media/government-websites-outage-hindu-business-line/
+page_id: TSAP-0547
 created: 2026-02-04
 ---
 

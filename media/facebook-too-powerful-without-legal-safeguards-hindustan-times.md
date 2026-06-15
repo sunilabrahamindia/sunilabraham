@@ -7,6 +7,7 @@ date: 2018-03-23
 authors: ["Vidhi Choudhary"]
 source: "Hindustan Times"
 permalink: /media/facebook-too-powerful-without-legal-safeguards-hindustan-times/
+page_id: TSAP-0393
 created: 2026-01-03
 ---
 

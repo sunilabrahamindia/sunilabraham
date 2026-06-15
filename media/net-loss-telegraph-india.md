@@ -7,6 +7,7 @@ date: 2012-06-20
 source: "The Telegraph (India)"
 authors: ["Abimanyu Nagarajan"]
 permalink: /media/net-loss-telegraph-india/
+page_id: TSAP-0253
 created: 2025-12-18
 ---
 

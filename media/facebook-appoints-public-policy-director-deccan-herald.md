@@ -7,6 +7,7 @@ date: 2020-10-12
 authors: ["Rohit KVN"]
 source: "Deccan Herald"
 permalink: /media/facebook-appoints-public-policy-director-deccan-herald/
+page_id: TSAP-0141
 created: 2025-12-04
 ---
 

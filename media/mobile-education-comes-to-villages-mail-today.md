@@ -7,6 +7,7 @@ date: 2011-05-27
 authors: ["Shayan Ghosh"]
 source: "Mail Today"
 permalink: /media/mobile-education-comes-to-villages-mail-today/
+page_id: TSAP-0897
 created: 2026-04-20
 ---
 

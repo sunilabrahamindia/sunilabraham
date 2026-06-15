@@ -7,6 +7,7 @@ date: 2010-04-28
 authors: ["Venkatesha Babu", "Karen Leigh"]
 source: "Mint"
 permalink: /media/id-programme-faces-first-challenge-over-privacy-data-mint/
+page_id: TSAP-0868
 created: 2026-04-15
 ---
 

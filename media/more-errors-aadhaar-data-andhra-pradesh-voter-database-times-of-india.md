@@ -7,6 +7,7 @@ date: 2018-05-18
 source: "The Times of India"
 authors: ["U Sudhakar Reddy"]
 permalink: /media/more-errors-aadhaar-data-andhra-pradesh-voter-database-times-of-india/
+page_id: TSAP-0316
 created: 2025-12-24
 ---
 

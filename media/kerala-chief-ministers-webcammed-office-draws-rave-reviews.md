@@ -7,6 +7,7 @@ date: 2011-07-18
 source: "NDTV"
 authors: ["Vikas Bajaj"]
 permalink: /media/kerala-chief-ministers-webcammed-office-draws-rave-reviews/
+page_id: TSAP-0299
 created: 2025-12-22
 ---
 

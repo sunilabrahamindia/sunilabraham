@@ -7,6 +7,7 @@ date: 2018-04-07
 authors: ["Subhajit Sengupta", "Aditya Nair"]
 source: "News18"
 permalink: /media/facebook-cambridge-analytica-data-breach-india-news18/
+page_id: TSAP-0528
 created: 2026-01-30
 ---
 

@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2014-08-25
 source: "Firstpost"
 permalink: /media/net-domains-indian-languages-coming-soon-firstpost/
+page_id: TSAP-0664
 created: 2026-03-07
 ---
 
