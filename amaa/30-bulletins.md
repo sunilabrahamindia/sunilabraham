@@ -9,6 +9,12 @@ created: 2026-04-12
 
 The **"Bulletins" page** documents the planning, progress, and activities related to the [30th death anniversary commemoration of A. M. A. Ayrookuzhiel](/amaa/30/), covering the period from April to November 2026.
 
+## Contents
+
+1. [[#Bulletin 1|Bulletin 1]]
+2. [[#Bulletin 2|Bulletin 2]]
+3. [[#Bulletin 3|Bulletin 3]]
+
 ## Bulletin 1
 
 🗓️ **Date:** Wednesday, 15 April 2026
@@ -55,5 +61,33 @@ Over the last one month, much of the work related to the 30th death anniversary 
 **Works Citing A. M. A. Ayrookuzhiel:** One of the more ambitious archival efforts initiated during this period was [*Works Citing A. M. A. Ayrookuzhiel*](/amaa/citations/), a growing bibliographic collection of books, journal articles, theses, reports, and other publications that cite the works of A. M. A. Ayrookuzhiel. The references documented so far range from brief footnote and bibliography mentions to substantial academic engagement with his writings. Although the project is still at an early stage, five citations have already been identified and documented, with the expectation that the collection will continue to expand over time.
 
 **Bangla Article:** Work also began during this period on [*দলিত মুক্তি আন্দোলনে ধর্মীয় প্রভাব: কিছু ভাবনা*](/amaa/religious-factor-dalit-liberation-bangla/), a Bangla article based on [*The Religious Factor in Dalit Liberation: Some Reflections*](/amaa/religious-factor-dalit-liberation/). The effort forms part of a broader attempt to make the writings and ideas of A. M. A. Ayrookuzhiel accessible to a wider readership beyond English-language audiences.
+
+## Bulletin 3
+
+🗓️ **Date:** Monday, 15 June 2026
+
+During the past month, work on the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel continued through the documentation and publication of his essays and other scholarly works. A significant portion of the effort focused on expanding coverage of writings included in *Essays on Dalits, Religion and Liberation* (2006), while also bringing additional materials into the archive. During this period, work was completed on several essays that were not included in the collected volume.
+
+**Authority Control:** A new page, [*Authority Control: A. M. A. Ayrookuzhiel*](/amaa/authority-control/), was created to bring together bibliographic identifiers, scholarly profiles, library catalogues, and archival references associated with A. M. A. Ayrookuzhiel. The page is intended to serve as a central reference point for researchers seeking authoritative records and external databases relating to his work.
+
+**Essays on Dalits, Religion and Liberation:** Two additional pages were added in connection with [*Essays on Dalits, Religion and Liberation*](/amaa/edrl/), the 2006 collection of Ayrookuzhiel's writings. These include the [*Foreword*](/amaa/edrl-foreword/) by Dr. Godwin Shiri and the [*Introduction*](/amaa/edrl-introduction/) by K. C. Abraham. Together, these texts provide valuable context for understanding the significance of the collection and its place within Dalit theological and social thought.
+
+**Religion and Culture in Dalits' Struggle for Liberation:** [*Religion and Culture in Dalits' Struggle for Liberation*](/amaa/religion-culture-dalits-struggle-liberation/) was added to the archive during this period. Originally published in 1986, the essay examines the relationship between religion, culture, caste hierarchy, and Dalit resistance movements. Particular attention is given to questions of social power, cultural domination, and competing responses to caste oppression. A complete text version was also published as [*Full Text: Religion and Culture in Dalits' Struggle for Liberation*](/amaa/religion-culture-dalits-struggle-liberation-full-text/).
+
+**The Dalits, Religions and Inter-faith Dialogue:** Another important essay documented during this period was [*The Dalits, Religions and Inter-faith Dialogue*](/amaa/dalits-religions-interfaith-dialogue/), first published in 1994. The essay explores the implications of Dalit struggles for inter-religious dialogue in India, arguing that conversations between faith traditions must take account of social realities such as caste and exclusion. A full text version is available at [*Full Text: Dalits, Religions and Inter-faith Dialogue*](/amaa/dalits-religions-inter-faith-dialogue-full-text/).
+
+**Dalits' Challenges to Religious Systems — A People Ignored by Church History:** Work during this period also included [*Dalits' Challenges to Religious Systems — A People Ignored by Church History*](/amaa/dalits-challenges-religious-systems/), first published in 1989. The essay examines the emergence of Dalit movements, critiques dominant historical narratives, and reflects on the challenges these struggles pose to both religious institutions and conventional church histories. A complete text version was also published as [*Full Text: Dalits' Challenges to Religious Systems — A People Ignored by Church History*](/amaa/dalits-challenges-religious-systems-full-text/).
+
+**The Dalit Church's Mission — A Dalit Response:** [*The Dalit Church's Mission — A Dalit Response*](/amaa/dalit-church-mission-dalit-response/) was also added to the archive. Published in 1996, the essay reflects on the role of Christian churches in the struggle for Dalit liberation and discusses questions of mission, empowerment, dignity, and social transformation. A full text version is available at [*Full Text: The Dalit Church's Mission — A Dalit Response*](/amaa/dalit-church-mission-dalit-response-full-text/).
+
+**Swami Anand Thirth:** Two introductory texts connected with A. M. A. Ayrookuzhiel's study of Swami Anand Thirth were documented during this period. These include the [*Preface*](/amaa/swami-anand-thirth-preface/) by Fr. Sebastian Kappen and the [*Introduction*](/amaa/swami-anand-thirth-introduction/) written by Ayrookuzhiel himself. Together, they provide background on the anti-untouchability activist, the historical context of the study, and the author's approach to documenting social reform movements in Kerala.
+
+**Religion, Spirituality and Aspirations of the People:** Another essay added during this period was [*Religion, Spirituality and Aspirations of the People*](/amaa/religion-spirituality-and-aspirations-of-the-people/), originally published in 1978. The essay examines popular aspirations for freedom, equality, justice, and human dignity, and considers the role of religion and spirituality in responding to these aspirations. A complete text version was also published as [*Full Text: Religion, Spirituality and Aspirations of the People*](/amaa/religion-spirituality-and-aspirations-of-the-people-full-text/).
+
+**Essays on Dalits, Religion and Liberation Notebook:** An [*Essays on Dalits, Religion and Liberation Notebook*](https://notebooklm.google.com/notebook/05af378a-8138-41d1-aed7-a99a227da945) was created during this period using Google's NotebookLM platform. The notebook brings together materials related to *Essays on Dalits, Religion and Liberation* and serves as an experimental space for exploring the volume's themes, sources, and historical context through AI-assisted analysis and discussion. (Google sign-in required.)
+
+The continued publication of essays, supporting texts, and reference materials is helping to build a more comprehensive and accessible archive of A. M. A. Ayrookuzhiel's writings and intellectual legacy.
+
+This concludes the third bulletin in this series. The fourth bulletin will be published on Wednesday, 15 July 2026.
 
 {% include navbox-amaa.html %}
