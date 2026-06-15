@@ -11,9 +11,9 @@ The **"Bulletins" page** documents the planning, progress, and activities relate
 
 ## Contents
 
-1. [[#Bulletin 1|Bulletin 1]]
-2. [[#Bulletin 2|Bulletin 2]]
-3. [[#Bulletin 3|Bulletin 3]]
+1. [Bulletin 1](#bulletin-1)
+2. [Bulletin 2](#bulletin-2)
+3. [Bulletin 3](#bulletin-3)
 
 ## Bulletin 1
 
