@@ -1,5 +1,282 @@
 [
   {
+    "title": "Page ID System (Documentation)",
+    "description": "Documentation for the Page ID system used on The Sunil Abraham Project (TSAP), including its purpose, design principles, implementation methodology, maintenance workflow, and future development.",
+    "created": "2026-06-16",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/page-id-system-documentation/"
+  },
+  {
+    "title": "Privacy Concerns Multiply for Aadhaar, India's National Biometric Identity Registry",
+    "description": "A One World Identity report by Kaelyn Lowmaster on Aadhaar's expansion and privacy risks, quoting Sunil Abraham on surveillance vulnerability and the absence of data protection law.",
+    "created": "2026-06-16",
+    "date": "2017-03-17",
+    "source": "One World Identity",
+    "authors": [
+      "Kaelyn Lowmaster"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/privacy-concerns-multiply-for-aadhaar-indias-national-biometric-identity-registry-one-world-identity/"
+  },
+  {
+    "title": "India to Let Private Companies Access Citizens' Biometric Data",
+    "description": "A Vocativ report by Joshua Kopstein on India Stack opening Aadhaar biometric data to private developers, quoting Sunil Abraham on the risks of technological exuberance without privacy policy.",
+    "created": "2026-06-16",
+    "date": "2017-02-21",
+    "source": "Vocativ",
+    "authors": [
+      "Joshua Kopstein"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/india-to-let-private-companies-access-citizens-biometric-data-vocativ/"
+  },
+  {
+    "title": "Aadhaar: The 12-Digit Conundrum",
+    "description": "A The Hindu Business Line report by Richa Mishra on data safety concerns around Aadhaar, quoting Sunil Abraham on biometric surveillance and the absence of data protection guarantees.",
+    "created": "2026-06-15",
+    "date": "2017-03-13",
+    "source": "The Hindu Business Line",
+    "authors": [
+      "Richa Mishra"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/aadhaar-the-12-digit-conundrum-the-hindu-business-line/"
+  },
+  {
+    "title": "Why We Should All Worry About the Mandatory Imposition of Aadhaar",
+    "description": "A HuffPost report by Rimin Dutt and Ivan Mehta examining legal, security and privacy concerns around mandatory Aadhaar, quoting Sunil Abraham on surveillance risk.",
+    "created": "2026-06-15",
+    "date": "2017-03-24",
+    "source": "HuffPost",
+    "authors": [
+      "Rimin Dutt",
+      "Ivan Mehta"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/why-we-should-all-worry-about-the-mandatory-imposition-of-aadhaar-huffpost/"
+  },
+  {
+    "title": "Myanmar Digital Rights Forum Proposes a Path Away from 66(d)",
+    "description": "A Coconuts Yangon report on the Myanmar Digital Rights Forum at Phandeeyar, quoting Sunil Abraham on coalition-building across the political spectrum for digital rights reform.",
+    "created": "2026-06-15",
+    "date": "2016-12-14",
+    "source": "Coconuts Yangon",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/myanmar-digital-rights-forum-proposes-path-away-from-66d-coconuts-yangon/"
+  },
+  {
+    "title": "How Private Companies Are Using Aadhaar to Try to Deliver Better Services (but There's a Catch)",
+    "description": "A Scroll.in report by M. Rajshekhar on private sector adoption of Aadhaar for KYC and data broking, quoting Sunil Abraham on the rise of data aggregation companies.",
+    "created": "2026-06-15",
+    "date": "2016-12-22",
+    "source": "Scroll.in",
+    "authors": [
+      "M. Rajshekhar"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/how-private-companies-are-using-aadhaar-to-deliver-better-services-but-theres-a-catch-scroll-in/"
+  },
+  {
+    "title": "How the U.K. Got a Better Deal From Facebook Than India Did",
+    "description": "A Bloomberg Quint report by Payaswini Upadhyay comparing UK and Indian regulatory responses to WhatsApp's data-sharing policy, quoting Sunil Abraham on the ICO's enforcement powers.",
+    "created": "2026-06-14",
+    "date": "2016-11-17",
+    "source": "Bloomberg Quint",
+    "authors": [
+      "Payaswini Upadhyay"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/how-the-uk-got-a-better-deal-from-facebook-than-india-did-bloomberg-quint/"
+  },
+  {
+    "title": "Query",
+    "description": "Search and filter indexed content across The Sunil Abraham Project using metadata such as title, author, source, category, and date.",
+    "created": "2026-06-13",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Project pages"
+    ],
+    "permalink": "https://sunilabraham.in/query/"
+  },
+  {
+    "title": "Place for a Safety Net",
+    "description": "A The Telegraph report by T.V. Jayan on the rise of online sexual crimes against women in India, quoting Sunil Abraham on social media accountability and platform governance.",
+    "created": "2026-06-13",
+    "date": "2016-07-10",
+    "source": "The Telegraph",
+    "authors": [
+      "T.V. Jayan"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/place-for-a-safety-net-the-telegraph/"
+  },
+  {
+    "title": "And Now, Aadhaar-Enabled Smartphones for Easy Verification and Money Transfer",
+    "description": "A Business Insider report on the government's plan for Aadhaar-enabled smartphones, quoting Sunil Abraham on the biometric data interception risk in the proposed hardware architecture.",
+    "created": "2026-06-13",
+    "date": "2016-08-10",
+    "source": "Business Insider",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/and-now-aadhaar-enabled-smartphones-for-easy-verification-and-money-transfer-business-insider/"
+  },
+  {
+    "title": "Seven Reasons Why Parliament Should Debate the Aadhaar Bill (and Not Pass It in a Rush)",
+    "description": "A Scroll.in report by Anumeha Yadav examining seven legislative gaps in the Aadhaar Bill 2016, with Pranesh Prakash of CIS quoted on biometric data risks.",
+    "created": "2026-06-12",
+    "date": "2016-03-11",
+    "source": "Scroll.in",
+    "authors": [
+      "Anumeha Yadav"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/seven-reasons-why-parliament-should-debate-the-aadhaar-bill-scroll-in/"
+  },
+  {
+    "title": "India's Biometric Database Crosses Billion-Member Mark",
+    "description": "A Daily Mail Online report based on AFP wire on Aadhaar reaching one billion members, quoting Sunil Abraham on the risks of centralised biometric data storage.",
+    "created": "2026-06-12",
+    "date": "2016-04-04",
+    "source": "Daily Mail Online",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/indias-biometric-database-crosses-billion-member-mark-daily-mail-online/"
+  },
+  {
+    "title": "Will Only Legal Backing for Aadhaar Suffice?",
+    "description": "A report in The New Indian Express on criticism of the Aadhaar push, highlighting concerns raised by Sunil Abraham and others over privacy, surveillance and executive power.",
+    "created": "2026-06-11",
+    "date": "2016-03-14",
+    "source": "The New Indian Express",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/will-only-legal-backing-for-aadhaar-suffice-the-new-indian-express/"
+  },
+  {
+    "title": "Why India Snubbed Facebook's Free Internet Offer",
+    "description": "A CNET report by Daniel Van Boom on India's rejection of Facebook's Free Basics plan, including Sunil Abraham's criticism of restricted access and zero-rating.",
+    "created": "2026-06-11",
+    "date": "2016-02-26",
+    "source": "CNET",
+    "authors": [
+      "Daniel Van Boom"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/why-india-snubbed-facebooks-free-internet-offer-cnet/"
+  },
+  {
+    "title": "Forget Privacy, Aadhaar Bill Gives Too Much Power to the Executive",
+    "description": "A Hindustan Times analysis by Aloke Tikku arguing the Aadhaar Bill concentrates excessive regulatory authority in UIDAI, raising concerns beyond privacy about executive overreach.",
+    "created": "2026-06-11",
+    "date": "2016-03-17",
+    "source": "Hindustan Times",
+    "authors": [
+      "Aloke Tikku"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/forget-privacy-aadhaar-bill-gives-too-much-power-to-the-executive-hindustan-times/"
+  },
+  {
+    "title": "Dalit Theology: A Movement of Counter-Culture",
+    "description": "A. M. A. Ayrookuzhiel's essay examining Dalit theology as a counter-cultural movement shaped by experiences of dependency, exclusion, resistance, and the recovery of Dalit identity.",
+    "created": "2026-06-10",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Publications"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/dalit-theology-movement-counter-culture/"
+  },
+  {
+    "title": "Full Text: Dalit Theology: A Movement of Counter-Culture",
+    "description": "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'Dalit Theology: A Movement of Counter-Culture', reproduced from Towards a Dalit Theology (1988).",
+    "created": "2026-06-10",
+    "date": "1988",
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Full text"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/dalit-theology-movement-counter-culture-full-text/"
+  },
+  {
+    "title": "TSAP Cryptographic Signing and Verification Policy",
+    "description": "Defines how TSAP uses OpenPGP for signing and verification of important documents.",
+    "created": "2026-06-10",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/cryptographic-signing/"
+  },
+  {
+    "title": "Full Text: The State of Hinduism in 2000 A.D.—Some Emerging Trends",
+    "description": "Complete verbatim text of A. M. Abraham Ayrookuzhiel's essay 'The State of Hinduism in 2000 A.D.—Some Emerging Trends', published in Indian Journal of Theology, Vol. 26, No. 2 (April–June 1977).",
+    "created": "2026-06-09",
+    "date": "1977",
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Full text"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/state-of-hinduism-in-2000-ad-full-text/"
+  },
+  {
+    "title": "The State of Hinduism in 2000 A.D.—Some Emerging Trends",
+    "description": "A. M. A. Ayrookuzhiel's 1977 essay examining secularisation, religious belief, and possible future trends in Hinduism as India entered an increasingly scientific and modern age.",
+    "created": "2026-06-09",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Publications"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/state-of-hinduism-in-2000-ad/"
+  },
+  {
     "title": "Religion, Spirituality and Aspirations of the People",
     "description": "A. M. A. Ayrookuzhiel's 1978 essay examining people's aspirations for freedom, equality, and social justice, the perceived role of religion in relation to those aspirations, and the implications for the study of Hinduism and inter-religious dialogue.",
     "created": "2026-06-08",
@@ -202,7 +479,8 @@
     "source": null,
     "authors": null,
     "categories": [
-      "TSAP Documentation"
+      "TSAP Documentation",
+      "TSAP Events and Rituals"
     ],
     "permalink": "https://sunilabraham.in/tsap/foundational-principles/"
   },
