@@ -107,7 +107,7 @@ homepage_featured: true
 
 <p>"It allows private persons to use Aadhaar as a proof of identity for any purpose. This provision will enable private entities such as, airline, telecom, insurance, real estate etc. companies, to require Aadhaar as a proof of identity for availing their services," PRS has noted.</p>
 
-<p>There's also the worrying prospect of Aadhaar being used as a surveillance tool by the government, instead of an e-governance technology, Sunil Abraham, executive director of research organisation, Centre for Internet and Society, told the The Hindu Business Line, adding biometrics only make citizens transparent to the state and not the state transparent to citizens.</p>
+<p>There's also the worrying prospect of Aadhaar being used as a surveillance tool by the government, instead of an e-governance technology, Sunil Abraham, executive director of research organisation, Centre for Internet and Society, <a href="/media/aadhaar-the-12-digit-conundrum-the-hindu-business-line/">told</a> the The Hindu Business Line, adding biometrics only make citizens transparent to the state and not the state transparent to citizens.</p>
 
 <p>"We warned the government six years ago, but they ignored us," said Abraham.</p>
 
