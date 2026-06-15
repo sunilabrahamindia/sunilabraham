@@ -14,7 +14,7 @@ homepage_featured: true
 **Preservation** on **The Sunil Abraham Project** (TSAP) refers to the long-term protection, continuity, accessibility, and survivability of the project's content, metadata, and research materials. As a static, Git-based digital archive, TSAP follows a preservation-oriented architecture built around open formats, distributed storage, version control, redundancy, and public accessibility. The project incorporates principles from digital archiving, scholarly preservation, and library science, including concepts such as the 3-2-1 backup rule, LOCKSS ("Lots Of Copies Keep Stuff Safe"), versioned preservation through Git, and the use of external archival services such as GitHub, Zenodo, the Internet Archive, and Archive.today. The goal is not only to prevent data loss, but also to ensure that the material remains readable, portable, verifiable, and accessible over long periods of time across changing technologies and platforms.
 
 <div class="preservation-meta" role="note" aria-label="Preservation review information">
-  <strong>Last reviewed:</strong> May 2026
+  <strong>Last reviewed:</strong> June 2026
 </div>
 
 <div class="preservation-legend" role="note" aria-label="Preservation status guide">
