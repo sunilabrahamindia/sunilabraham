@@ -34,6 +34,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 20. [Version 1.7.1](#version-171)
 21. [Version 1.8](#version-18)
 22. [Version 1.9](#version-19)
+23. [Version 1.9.1](#version-191)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -690,3 +691,41 @@ Completion date: 30 May 2026 (night)
 
 **Status** ✅ Done  
 Completion date: 7 June 2026 (morning)
+
+## Version 1.9.1
+
+- 16 new pages have been published this week between 7 June 2026 and 13 June 2026.
+
+**Pages Index System**
+- Implemented a Pages Index system using a generated `/pages.json` file, creating a machine-readable catalogue of content published on The Sunil Abraham Project.
+- The system uses a Python script (`scripts/generate_pages_json.py`) to scan repository content, extract selected metadata, and generate a structured JSON index containing page titles, descriptions, creation dates, authors, categories, sources, and canonical URLs.
+- Only pages containing a `created` field are included in the index.
+- The generated file is published at [/pages.json](/pages.json) and currently indexes more than one thousand pages.
+- The index serves as a retrieval layer for external tools and bots, enabling rapid content discovery without requiring direct access to Jekyll internals or repository files.
+
+**Cryptographic Signing**
+- Implemented a cryptographic signing and verification system for The Sunil Abraham Project using OpenPGP.
+- The system provides authenticity, integrity, and long-term verifiability for selected institutional documents.
+- TSAP now maintains a public cryptographic signing policy covering signing scope, identity management, verification procedures, and signed records.
+- Signatures are currently issued using the OpenPGP key of Tito Dutta acting on behalf of TSAP.
+- A register of signed documents has been established, including the [Foundational Principles](/tsap/foundational-principles/) adopted on 31 May 2026 and cryptographically signed on 10 June 2026.
+
+**TSAPBot**
+- Implemented a private Telegram-based AI assistant (TSAPBot) for project administration, content discovery, and retrieval.
+- The bot combines conversational AI capabilities with a retrieval layer powered by `/pages.json`.
+- Current functionality includes content search, newest-page discovery, on-this-day page lookup, random page selection, index statistics, and index refresh operations.
+- The bot also supports conversation memory, multilingual responses, and project-specific guidance through structured prompts and known facts.
+- By combining AI assistance with retrieval from project-owned data, TSAPBot serves as both a private assistant and a lightweight interface for exploring and maintaining the project.
+
+**Footer Improvements**
+- Reorganised and simplified the TSAP footer to improve usability, accessibility, and long-term maintainability.
+- Navigation links were grouped into logical sections covering project information, site navigation, and digital preservation.
+- Footer-specific styling was moved into the footer include, making the component self-contained and easier to maintain.
+- Added direct access to archived versions of pages through the Wayback Machine, Archive.today, and Ghost Archive, along with additional accessibility-related improvements.
+
+**Keyboard Shortcuts**
+- Added a keyboard shortcut for the Newest Pages section.
+- `Alt + Shift + W` now opens [/newest/](/newest/).
+
+**Status** ✅ Done  
+Completion date: 13 June 2026
