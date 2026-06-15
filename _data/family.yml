@@ -1,0 +1,51 @@
+# Family members database for TSAP.
+# m = family member.
+# Identifiers are permanent and should never be reused.
+# New members should receive the next available identifier.
+# Relationships are stored only once where practical to avoid duplication.
+# Information should be based on published or otherwise verified sources.
+
+m1:
+  name: Athanasius Mathen Abraham Ayrookuzhiel
+  alt_names: ["A. M. A. Ayrookuzhiel", "A. M. Abraham Ayrookuzhiel"]
+  born: 1933-09-18
+  died: 1996-11-29
+  father: m7
+  mother: m8
+  spouse: m2
+  children: [m3, m4, m5]
+
+m2:
+  name: Ponnamma Abraham
+  alt_names: ["Ponnamma Thekedath"]
+  born: 1944-06-17
+  spouse: m1
+  children: [m3, m4, m5]
+
+m3:
+  name: Sunil Abraham
+  born: 1973-06-17
+  father: m1
+  mother: m2
+
+m4:
+  name: Matthew Abraham
+  born: 1976-01-03
+  father: m1
+  mother: m2
+
+m5:
+  name: Jacob Abraham
+  born: 1980-03-05
+  father: m1
+  mother: m2
+
+m6:
+  name: Vini Susan
+  spouse: m5
+
+m7:
+  name: Ayrookuzhiel Koruthu Mathen
+
+m8:
+  name: Mariamma Mathen
