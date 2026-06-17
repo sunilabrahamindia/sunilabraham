@@ -7,6 +7,7 @@ date: 2017-02-14
 authors: ["Manish Singh"]
 source: "Mashable India"
 permalink: /media/indias-database-with-biometric-details-of-its-billion-citizens-ignites-privacy-debate-mashable/
+page_id: TSAP-1071
 created: 2026-06-17
 homepage_featured: true
 ---
