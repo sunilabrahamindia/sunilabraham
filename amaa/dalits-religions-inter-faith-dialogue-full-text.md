@@ -15,14 +15,14 @@ This version preserves the original wording, structure, and formatting as presen
 
 ## Contents
 
-1. Introduction
-2. The Dalits and the Traditional Hindu Heritage
-   1. The Stand of the Dalit Liberation Movement
-   2. The Stand of Traditional Academic and Religious Circles
-   3. The Present-day Situation of the Dalits within Hinduism
-   4. The Dalits and Other Religious Traditions
-   5. The Dalit and Inter-religious Dialogue
-3. Notes
+1. [Introduction](#introduction)
+2. [The Dalits and the Traditional Hindu Heritage](#the-dalits-and-the-traditional-hindu-heritage)
+   1. [A. The Stand of the Dalit Liberation Movement.](#a-the-stand-of-the-dalit-liberation-movement)
+   2. [B. The Stand of Traditional Academic and Religious Circles](#b-the-stand-of-traditional-academic-and-religious-circles)
+   3. [C. The Present-day Situation of the Dalits within Hinduism](#c-the-present-day-situation-of-the-dalits-within-hinduism)
+   4. [D. The Dalits and Other Religious Traditions](#d-the-dalits-and-other-religious-traditions)
+   5. [E. The Dalit and Inter-religious Dialogue](#e-the-dalit-and-inter-religious-dialogue)
+3. [Notes](#notes)
 
 ## Introduction
 
