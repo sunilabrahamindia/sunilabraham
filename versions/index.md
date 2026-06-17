@@ -36,6 +36,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 21. [Version 1.8](#version-18)
 22. [Version 1.9](#version-19)
 23. [Version 1.9.1](#version-191)
+24. [Version 2.0](#version-20)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -730,3 +731,23 @@ Completion date: 7 June 2026 (morning)
 
 **Status** ✅ Done  
 Completion date: 13 June 2026
+
+## Version 2.0
+
+This report covers the period between 14 June 2026 and 16 June 2026. During this period, 8 new pages were published. With this report, the Project completes **Version 2.0**.
+
+**Page ID System**
+- Implemented a permanent Page ID system across The Sunil Abraham Project (TSAP). Each eligible page now receives a stable identifier in the format `TSAP-0001`, `TSAP-0002`, and so forth, stored as `page_id` in front matter. On 16 June 2026, identifiers were assigned to 1,069 existing pages through a repository-wide migration. The system establishes a foundation for future structured-data workflows, JSON exports, internal reference systems, maintenance tooling, and potential knowledge-graph applications while ensuring that identifiers remain permanent and are never reused.
+
+**Family Data System**
+- Initiated a structured Family Data system through the creation of `_data/family.yml`. The system serves as a central repository for family and biographical relationship data already documented within TSAP, allowing information to be maintained in one location and reused across multiple pages, infoboxes, timelines, navigation aids, and future visualisations. This represents an initial step towards modelling relationships as structured data rather than solely as prose.
+
+**Version 2.0 Milestone**
+- The Sunil Abraham Project reached **Version 2.0** on Wednesday, 17 June 2026.
+
+**Reporting Schedule**
+- As Version 2.0 was completed and reported mid-week, there will be **no weekly report on Sunday, 21 June 2026**.
+- The regular weekly reporting cycle will resume on **Sunday, 28 June 2026**.
+
+**Status** ✅ Done  
+Completion date: 17 June 2026  
