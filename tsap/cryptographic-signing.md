@@ -48,9 +48,9 @@ The following TSAP documents have been cryptographically signed using the TSAP O
   Signatory: Tito Dutta  
   OpenPGP Fingerprint: `D8B6 F47B 05BE C620 5884 77CF FC53 BED3 64AC 9AC7`
 
-- [TSAP Cryptographic Signing and Verification Policy](/tsap/cryptographic-signing/)  
-  Signed: 10 June 2026  
-  Signature: [cryptographic-signing.md.asc](https://github.com/sunilabrahamindia/sunilabraham/blob/main/tsap/cryptographic-signing.md.asc)  
+- [Version 2.0 Lookback](/versions/2.0/)  
+  Signed: 18 June 2026  
+  Signature: [cryptographic-signing.md.asc](https://github.com/sunilabrahamindia/sunilabraham/blob/main/versions/2.0.md.asc)  
   Signatory: Tito Dutta  
   OpenPGP Fingerprint: `D8B6 F47B 05BE C620 5884 77CF FC53 BED3 64AC 9AC7`
 
