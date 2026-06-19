@@ -102,7 +102,7 @@ Sunil Abraham's position in this piece is distinct from that of the other two pa
 .media-image {
   text-align: center;
   margin: 1.5rem auto;
-  max-width: 720px;
+  max-width: 520px;
   width: 100%;
 }
 .media-image img {
