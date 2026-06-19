@@ -92,6 +92,24 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
+## DNA India — 16 August 2009 {#dnaindia-16082009-piracy}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/piracy-boils-down-to-convenience.jpg"
+     data-glightbox="description: Piracy Boils Down to Convenience — DNA India, 16 August 2009">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/piracy-boils-down-to-convenience.jpg"
+      alt="DNA India newspaper clipping dated 16 August 2009 titled Piracy Boils Down to Convenience featuring Sunil Abraham"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Piracy Boils Down to Convenience"<br>
+    <em>DNA India</em>, 16 August 2009<br>
+    <a href="/media/piracy-boils-down-to-convenience-dna-india/">Read full article</a>
+  </figcaption>
+</figure>
+
 ## The Hindu — 18 April 2011 {#hindu-18042011-anonymous}
 
 <figure class="clipping-card">
