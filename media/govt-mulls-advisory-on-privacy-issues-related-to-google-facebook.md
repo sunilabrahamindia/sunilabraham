@@ -5,7 +5,7 @@ description: "Hindu Business Line report on the government's consideration of a 
 categories: [Media mentions]
 date: 2013-06-10
 authors: ["Thomas K Thomas"]
-source: "Hindu Business Line"
+source: "The Hindu Business Line"
 permalink: /media/govt-mulls-advisory-on-privacy-issues-related-to-google-facebook/
 page_id: TSAP-0989
 created: 2026-05-19
