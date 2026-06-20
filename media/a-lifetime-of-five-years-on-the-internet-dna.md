@@ -11,7 +11,7 @@ page_id: TSAP-0711
 created: 2026-03-16
 ---
 
-**A Lifetime of Five Years on the Internet** is a news article by Subir Ghosh published in *DNA India* on 19 May 2013. Written to mark the fifth anniversary of the Centre for Internet and Society, the article draws extensively on quotes from [Sunil Abraham](/sunil/) on the evolution of internet policy debates in India, covering privacy legislation, the IT Act, shared spectrum, broadband access, and patent and copyright policy.
+**A Lifetime of Five Years on the Internet** is a news article by Subir Ghosh published in *DNA India* on 19 May 2013. Written to mark the fifth anniversary of the [Centre for Internet and Society](/cis/), the article draws extensively on quotes from [Sunil Abraham](/sunil/) on the evolution of internet policy debates in India, covering privacy legislation, the IT Act, shared spectrum, broadband access, and patent and copyright policy.
 
 ## Contents
 
