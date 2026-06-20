@@ -10,7 +10,7 @@ page_id: TSAP-0458
 created: 2026-01-15
 ---
 
-**Live Chat: Aadhaar: An Identity Crisis?** is a *The Hindu* live chat transcript published on 17 March 2015. The interactive session features Sunil Abraham, Executive Director of the Centre for Internet and Society; K. Gopinath, Professor at the Computer Science and Automation Department at the Indian Institute of Science; and *The Hindu*'s K. Venkataramanan responding to reader questions about Aadhaar's implementation challenges, security vulnerabilities and privacy implications following Supreme Court orders clarifying that the scheme remained voluntary.
+**Live Chat: Aadhaar: An Identity Crisis?** is a *The Hindu* live chat transcript published on 17 March 2015. The interactive session features [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/); K. Gopinath, Professor at the Computer Science and Automation Department at the Indian Institute of Science; and *The Hindu*'s K. Venkataramanan responding to reader questions about Aadhaar's implementation challenges, security vulnerabilities and privacy implications following Supreme Court orders clarifying that the scheme remained voluntary.
 
 ## Contents
 

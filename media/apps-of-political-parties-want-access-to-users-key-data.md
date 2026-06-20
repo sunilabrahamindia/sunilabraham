@@ -11,7 +11,7 @@ page_id: TSAP-0176
 created: 2025-12-09
 ---
 
-**Apps of Political Parties Want Access to Users' Key Data** is an *Economic Times* report published on 25 March 2018. It discusses the wide array of permissions sought by political party apps—including access to contacts, storage, device information and location—and the growing concerns around data harvesting, analytics companies, and political micro-targeting following the global Cambridge Analytica revelations. The article includes comments from Sunil Abraham, who explains when such permissions might be justified and advises users on safer permission practices.
+**Apps of Political Parties Want Access to Users' Key Data** is an *Economic Times* report published on 25 March 2018. It discusses the wide array of permissions sought by political party apps—including access to contacts, storage, device information and location—and the growing concerns around data harvesting, analytics companies, and political micro-targeting following the global Cambridge Analytica revelations. The article includes comments from [Sunil Abraham](/sunil/), who explains when such permissions might be justified and advises users on safer permission practices.
 
 ## Contents
 

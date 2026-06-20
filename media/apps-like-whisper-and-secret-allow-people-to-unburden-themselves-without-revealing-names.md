@@ -11,7 +11,7 @@ page_id: TSAP-0213
 created: 2025-12-14
 ---
 
-**Apps Like Whisper and Secret Allow People to Unburden Themselves Without Revealing Names** is a report published in *The Economic Times* on 4 June 2014, written by Varuni Khosla. The article explores the growing popularity of anonymous social sharing applications that allow users to express themselves without identity disclosure, featuring commentary from Sunil Abraham on how privacy awareness naturally evolves as users gain attention on social networks, and insights from psychologists on why anonymity provides emotional security in an era of surveillance and social judgment.
+**Apps Like Whisper and Secret Allow People to Unburden Themselves Without Revealing Names** is a report published in *The Economic Times* on 4 June 2014, written by Varuni Khosla. The article explores the growing popularity of anonymous social sharing applications that allow users to express themselves without identity disclosure, featuring commentary from [Sunil Abraham](/sunil/) on how privacy awareness naturally evolves as users gain attention on social networks, and insights from psychologists on why anonymity provides emotional security in an era of surveillance and social judgment.
 
 ## Contents
 
