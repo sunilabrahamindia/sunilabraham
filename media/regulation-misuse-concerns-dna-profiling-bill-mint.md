@@ -11,7 +11,7 @@ page_id: TSAP-0623
 created: 2026-02-26
 ---
 
-**Regulation, Misuse Concerns Still Dog DNA Profiling Bill** is a *Mint* news report by Nikita Mehta published on 29 July 2015. The piece examines expert criticism of the Human DNA Profiling Bill 2015, drawing on the Centre for Internet and Society's formal note of dissent and quotes from Sunil Abraham on the risks of expanding a DNA database beyond its forensic purpose, and on the vagueness of the powers proposed for the DNA Profiling Board.
+**Regulation, Misuse Concerns Still Dog DNA Profiling Bill** is a *Mint* news report by Nikita Mehta published on 29 July 2015. The piece examines expert criticism of the Human DNA Profiling Bill 2015, drawing on the [Centre for Internet and Society](/cis/)'s formal note of dissent and quotes from Sunil Abraham on the risks of expanding a DNA database beyond its forensic purpose, and on the vagueness of the powers proposed for the DNA Profiling Board.
 
 ## Contents
 
