@@ -11,7 +11,7 @@ page_id: TSAP-0253
 created: 2025-12-18
 ---
 
-**Net Loss** is an opinion article published in *The Telegraph* (India) on 20 June 2012, written by Abimanyu Nagarajan. The piece critiques the Information Technology Act 2000's vague definitions of "offensive" content and examines how Section 66A's ambiguous language enables censorship and arbitrary arrests, featuring commentary from Sunil Abraham on CIS's experimental demonstration of intermediary liability abuse and expert calls for legislative amendment.
+**Net Loss** is an opinion article published in *The Telegraph* (India) on 20 June 2012, written by Abimanyu Nagarajan. The piece critiques the Information Technology Act 2000's vague definitions of "offensive" content and examines how Section 66A's ambiguous language enables censorship and arbitrary arrests, featuring commentary from [Sunil Abraham](/sunil/) on [CIS](/cis/)'s experimental demonstration of intermediary liability abuse and expert calls for legislative amendment.
 
 ## Contents
 
