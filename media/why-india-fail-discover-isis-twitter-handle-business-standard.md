@@ -11,7 +11,7 @@ page_id: TSAP-0435
 created: 2026-01-09
 ---
 
-**Why Did India Fail to Discover the ISIS Twitter Handle?** is a *Business Standard* report published on 26 December 2014 by Anita Babu. The article examines India's surveillance and intelligence capabilities following the revelation that Bengaluru-based Mehdi Masroor Biswas operated a prominent pro-ISIS Twitter account, featuring commentary from Sunil Abraham, then Executive Director of the Centre for Internet and Society, and cyber law expert Pavan Duggal on targeted surveillance approaches, data management challenges, and jurisdictional constraints affecting India's cyber intelligence operations.
+**Why Did India Fail to Discover the ISIS Twitter Handle?** is a *Business Standard* report published on 26 December 2014 by Anita Babu. The article examines India's surveillance and intelligence capabilities following the revelation that Bengaluru-based Mehdi Masroor Biswas operated a prominent pro-ISIS Twitter account, featuring commentary from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), and cyber law expert Pavan Duggal on targeted surveillance approaches, data management challenges, and jurisdictional constraints affecting India's cyber intelligence operations.
 
 ## Contents
 
