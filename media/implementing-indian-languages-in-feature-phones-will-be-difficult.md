@@ -11,7 +11,7 @@ page_id: TSAP-0233
 created: 2025-12-16
 ---
 
-**Implementing Indian Languages in Feature Phones Will Be Difficult** is a news report published in *The Economic Times* on 10 August 2016, written by Gulveen Aulakh, Neha Alawadhi and Surabhi Agarwal. The article documents handset manufacturers' concerns about Bureau of Indian Standards regulations mandating local language support across India's 22 official languages, featuring Sunil Abraham's recommendation for government documentation of input standards to enable consumer choice and industry executives' warnings about state-specific inventory nightmares.
+**Implementing Indian Languages in Feature Phones Will Be Difficult** is a news report published in *The Economic Times* on 10 August 2016, written by Gulveen Aulakh, Neha Alawadhi and Surabhi Agarwal. The article documents handset manufacturers' concerns about Bureau of Indian Standards regulations mandating local language support across India's 22 official languages, featuring [Sunil Abraham](/sunil/)'s recommendation for government documentation of input standards to enable consumer choice and industry executives' warnings about state-specific inventory nightmares.
 
 ## Contents
 

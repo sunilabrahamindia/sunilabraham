@@ -11,7 +11,7 @@ page_id: TSAP-0335
 created: 2025-12-26
 ---
 
-**If Your Aadhaar Data Has Been Hacked, You Might Never Find Out** is a news report published by *The Quint* (originally published on *BloombergQuint*) on 3 March 2017, written by Mayank Jain. The article examines the absence of breach notification provisions in the Aadhaar Act following an alleged biometric data breach involving Axis Bank, Suvidhaa Infoserve and eMudhra. It features commentary from Sunil Abraham, executive director of Centre for Internet and Society, alongside legal experts Apar Gupta and Rahul Matthan, analysing statutory gaps in data protection, regulatory oversight and grievance redressal mechanisms under the Aadhaar framework.
+**If Your Aadhaar Data Has Been Hacked, You Might Never Find Out** is a news report published by *The Quint* (originally published on *BloombergQuint*) on 3 March 2017, written by Mayank Jain. The article examines the absence of breach notification provisions in the Aadhaar Act following an alleged biometric data breach involving Axis Bank, Suvidhaa Infoserve and eMudhra. It features commentary from [Sunil Abraham](/sunil/), executive director of [Centre for Internet and Society](/cis/), alongside legal experts Apar Gupta and Rahul Matthan, analysing statutory gaps in data protection, regulatory oversight and grievance redressal mechanisms under the Aadhaar framework.
 
 ## Contents
 

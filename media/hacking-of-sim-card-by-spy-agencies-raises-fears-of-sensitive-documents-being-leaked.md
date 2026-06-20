@@ -11,7 +11,7 @@ page_id: TSAP-0232
 created: 2025-12-16
 ---
 
-**Hacking of SIM Card by Spy Agencies Raises Fears of Sensitive Documents Being Leaked** is a news report published in *The Economic Times* on 25 February 2015, written by Jayadevan PK and Neha Alawadhi. The article documents revelations from Edward Snowden's leaked documents showing NSA and GCHQ's penetration of Gemalto's networks to steal encryption keys affecting major Indian telecom operators, featuring Sunil Abraham's recommendations for government-controlled key management and open-source alternatives alongside Pranesh Prakash's warning about compromised military and diplomatic communications.
+**Hacking of SIM Card by Spy Agencies Raises Fears of Sensitive Documents Being Leaked** is a news report published in *The Economic Times* on 25 February 2015, written by Jayadevan PK and Neha Alawadhi. The article documents revelations from Edward Snowden's leaked documents showing NSA and GCHQ's penetration of Gemalto's networks to steal encryption keys affecting major Indian telecom operators, featuring [Sunil Abraham](/sunil/)'s recommendations for government-controlled key management and open-source alternatives alongside Pranesh Prakash's warning about compromised military and diplomatic communications.
 
 ## Contents
 

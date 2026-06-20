@@ -11,7 +11,7 @@ page_id: TSAP-0686
 created: 2026-03-11
 ---
 
-**Helping Institutions Embrace Open Access** is an *IndiaBioscience* event report published on 14 November 2017, written by Manupriya. It covers a panel discussion held on 28 October 2017 at the Indian Institute of Science (IISc), Bengaluru, as part of Open Access Week activities organised by DST-Centre for Policy Research. The discussion examined why Indian researchers have largely not followed DBT-DST open access guidelines despite their existence, and what institutional policy reforms could help. [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, anchored and moderated the discussion.
+**Helping Institutions Embrace Open Access** is an *IndiaBioscience* event report published on 14 November 2017, written by Manupriya. It covers a panel discussion held on 28 October 2017 at the Indian Institute of Science (IISc), Bengaluru, as part of Open Access Week activities organised by DST-Centre for Policy Research. The discussion examined why Indian researchers have largely not followed DBT-DST open access guidelines despite their existence, and what institutional policy reforms could help. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), anchored and moderated the discussion.
 
 ## Contents
 

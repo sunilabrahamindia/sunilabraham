@@ -11,7 +11,7 @@ page_id: TSAP-0678
 created: 2026-03-09
 ---
 
-**'If an Indian Party Acted Like Cambridge Analytica, It Will Not Be Guilty Under Current Laws'** is a *Newslaundry* interview published on 24 March 2018, conducted by Amit Bhardwaj. [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, explains the mechanics of the Facebook–Cambridge Analytica data harvesting scandal, why it does not constitute a data breach in the technical sense, and why the absence of a data protection law in India leaves Indian citizens and voters entirely exposed to the same kind of manipulation.
+**'If an Indian Party Acted Like Cambridge Analytica, It Will Not Be Guilty Under Current Laws'** is a *Newslaundry* interview published on 24 March 2018, conducted by Amit Bhardwaj. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), explains the mechanics of the Facebook–Cambridge Analytica data harvesting scandal, why it does not constitute a data breach in the technical sense, and why the absence of a data protection law in India leaves Indian citizens and voters entirely exposed to the same kind of manipulation.
 
 ## Contents
 

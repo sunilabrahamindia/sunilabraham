@@ -11,7 +11,7 @@ page_id: TSAP-0226
 created: 2025-12-15
 ---
 
-**Google Aims to Win 40% of India with Android One** is a report published in *The Economic Times* on 11 September 2014. The article examines Google's strategy to capture India's non-English speaking market through Android One devices, which featured integrated Hindi language support and were manufactured in partnership with Indian companies Micromax, Spice, and Karbonn. The piece includes commentary from Sunil Abraham on open-source considerations and Venkatesh Hariharan on the significance of comprehensive vernacular computing solutions.
+**Google Aims to Win 40% of India with Android One** is a report published in *The Economic Times* on 11 September 2014. The article examines Google's strategy to capture India's non-English speaking market through Android One devices, which featured integrated Hindi language support and were manufactured in partnership with Indian companies Micromax, Spice, and Karbonn. The piece includes commentary from [Sunil Abraham](/sunil/) on open-source considerations and Venkatesh Hariharan on the significance of comprehensive vernacular computing solutions.
 
 ## Contents
 

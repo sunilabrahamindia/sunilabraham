@@ -11,7 +11,7 @@ page_id: TSAP-0246
 created: 2025-12-17
 ---
 
-**How Chinese Apps Are Making Inroads in Indian Small Towns** is a news report published in *The Economic Times* on 10 August 2018, written by Mugdha Variyar. The article examines Chinese app companies targeting India's 500 million internet users through entertainment platforms TikTok and Vigo Video, news aggregators NewsDog and UC News, ecommerce apps Club Factory and Shein, browsers UC Browser and file-sharing app ShareIt, featuring Sunil Abraham's warning that data localisation will have definite impact on Chinese firms requiring storage within India, alongside Ministry of Defence classifying 42 Chinese apps as spyware including UC Browser, UC News, NewsDog, ShareIt, Weibo and WeChat ordering Armed Forces uninstallation.
+**How Chinese Apps Are Making Inroads in Indian Small Towns** is a news report published in *The Economic Times* on 10 August 2018, written by Mugdha Variyar. The article examines Chinese app companies targeting India's 500 million internet users through entertainment platforms TikTok and Vigo Video, news aggregators NewsDog and UC News, ecommerce apps Club Factory and Shein, browsers UC Browser and file-sharing app ShareIt, featuring [Sunil Abraham](/sunil/)'s warning that data localisation will have definite impact on Chinese firms requiring storage within India, alongside Ministry of Defence classifying 42 Chinese apps as spyware including UC Browser, UC News, NewsDog, ShareIt, Weibo and WeChat ordering Armed Forces uninstallation.
 
 ## Contents
 

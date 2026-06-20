@@ -11,7 +11,7 @@ page_id: TSAP-0830
 created: 2026-04-04
 ---
 
-**Growing Mistrust of India's Biometric ID Scheme** is an Electronic Frontier Foundation Deeplinks post published on 4 May 2012. The piece surveys the growing civil society opposition to India's dual biometric programmes — the Unique ID (UID/Aadhaar) and the National Population Register (NPR) — and quotes [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society in Bengaluru, criticising the system's design flaws and arguing that a digital signature-based alternative would be more secure.
+**Growing Mistrust of India's Biometric ID Scheme** is an Electronic Frontier Foundation Deeplinks post published on 4 May 2012. The piece surveys the growing civil society opposition to India's dual biometric programmes — the Unique ID (UID/Aadhaar) and the National Population Register (NPR) — and quotes [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/) in Bengaluru, criticising the system's design flaws and arguing that a digital signature-based alternative would be more secure.
 
 ## Contents
 

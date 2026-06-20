@@ -11,7 +11,7 @@ page_id: TSAP-0570
 created: 2026-02-10
 ---
 
-**How to Win Friends, FB Style** is an *Outlook India* article published on 2 October 2015. Arindam Mukherjee examines Prime Minister Narendra Modi's townhall meeting with Mark Zuckerberg and the controversy around Facebook's use of a tricolour profile picture tool that was initially tied in code to internet.org. The piece situates Sunil Abraham's criticism of Facebook's tactics within wider net neutrality debates, Digital India politics, and concerns about corporate influence over Indian internet policy.
+**How to Win Friends, FB Style** is an *Outlook India* article published on 2 October 2015. Arindam Mukherjee examines Prime Minister Narendra Modi's townhall meeting with Mark Zuckerberg and the controversy around Facebook's use of a tricolour profile picture tool that was initially tied in code to internet.org. The piece situates [Sunil Abraham](/sunil/)'s criticism of Facebook's tactics within wider net neutrality debates, Digital India politics, and concerns about corporate influence over Indian internet policy.
 
 ## Contents
 

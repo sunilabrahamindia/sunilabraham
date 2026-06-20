@@ -11,7 +11,7 @@ page_id: TSAP-0323
 created: 2025-12-25
 ---
 
-**Have Video? Post It Online to Win Rs 10k** is a news report published by *The Times of India* on 19 July 2013, written by Shobha John. The article covers the launch of Contest Tube, a video competition platform by Indian social network WorldFloat that offered monetary prizes for user-generated content receiving the most "likes." It features commentary from Sunil Abraham questioning the long-term viability of Indian social networking platforms, citing their historical failure to build sustainable user loyalty despite initial sign-up numbers.
+**Have Video? Post It Online to Win Rs 10k** is a news report published by *The Times of India* on 19 July 2013, written by Shobha John. The article covers the launch of Contest Tube, a video competition platform by Indian social network WorldFloat that offered monetary prizes for user-generated content receiving the most "likes." It features commentary from [Sunil Abraham](/sunil/) questioning the long-term viability of Indian social networking platforms, citing their historical failure to build sustainable user loyalty despite initial sign-up numbers.
 
 ## Contents
 
