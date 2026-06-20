@@ -160,7 +160,7 @@ created: 2026-06-20
     flex-direction: column;
     align-items: center;
     justify-content: center;
-     min-height: clamp(280px, 35vw, 420px);
+    min-height: clamp(280px, 35vw, 420px);
     padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 6vw, 4rem);
     text-align: center;
   }
@@ -180,7 +180,7 @@ created: 2026-06-20
   /* Title */
   .mg-title {
     font-family: var(--font-display);
-    font-size: clamp(2rem, 3.5vw, 3.5rem);
+        font-size: clamp(2rem, 4vw, 4rem);
     font-weight: 400;
     letter-spacing: 0.04em;
     line-height: 1.05;
@@ -241,6 +241,16 @@ created: 2026-06-20
     to   { transform: translateY(0px); }
   }
 
+  @keyframes mg-rain-fall-slow {
+    from { transform: translateY(-105px); }
+    to   { transform: translateY(0px); }
+  }
+
+  @keyframes mg-rain-fall-fast {
+    from { transform: translateY(-138px); }
+    to   { transform: translateY(0px); }
+  }
+
   @keyframes mg-cloud-drift-slow {
     0%   { transform: translateX(0); }
     50%  { transform: translateX(-12px); }
@@ -289,9 +299,17 @@ created: 2026-06-20
     animation: mg-lightning-flash 13s ease-in-out infinite 1s;
   }
 
-  /* Rain SVG lines animate */
+  /* Rain SVG groups animate at slightly different rates */
   .mg-rain-anim {
     animation: mg-rain-fall 0.7s linear infinite;
+  }
+
+  .mg-rain-anim-slow {
+    animation: mg-rain-fall-slow 0.92s linear infinite;
+  }
+
+  .mg-rain-anim-fast {
+    animation: mg-rain-fall-fast 0.56s linear infinite;
   }
 
   /* Text entrance */
@@ -315,6 +333,8 @@ created: 2026-06-20
     .mg-lightning-group,
     .mg-lightning-group-2,
     .mg-rain-anim,
+    .mg-rain-anim-slow,
+    .mg-rain-anim-fast,
     .mg-eyebrow,
     .mg-title,
     .mg-rule,
@@ -546,52 +566,121 @@ created: 2026-06-20
     </g>
 
     <!-- ══════════════════════════════════════
-         RAIN — diagonal strokes
+         RAIN — varied, clustered, monsoon-like
     ══════════════════════════════════════ -->
-    <g class="mg-rain-anim" filter="url(#mg-rain-blur)" opacity="0.55">
-      <!-- Dense rain lines — short, angled 10° from vertical -->
-      <line x1="50"   y1="300" x2="44"   y2="340" stroke="#b0cce0" stroke-width="0.5"/>
-      <line x1="85"   y1="320" x2="79"   y2="362" stroke="#a8c8de" stroke-width="0.5"/>
-      <line x1="120"  y1="290" x2="114"  y2="336" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="160"  y1="310" x2="154"  y2="355" stroke="#a8c8de" stroke-width="0.5"/>
-      <line x1="200"  y1="280" x2="194"  y2="325" stroke="#b4d0e2" stroke-width="0.4"/>
-      <line x1="240"  y1="300" x2="234"  y2="346" stroke="#a8c8de" stroke-width="0.5"/>
-      <line x1="285"  y1="290" x2="279"  y2="336" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="330"  y1="310" x2="324"  y2="356" stroke="#a8c8de" stroke-width="0.45"/>
-      <line x1="370"  y1="285" x2="364"  y2="332" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="415"  y1="305" x2="409"  y2="352" stroke="#aacce0" stroke-width="0.5"/>
-      <line x1="460"  y1="295" x2="454"  y2="342" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="500"  y1="315" x2="494"  y2="362" stroke="#a8c8de" stroke-width="0.45"/>
-      <line x1="545"  y1="290" x2="539"  y2="338" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="590"  y1="310" x2="584"  y2="358" stroke="#a8c8de" stroke-width="0.5"/>
-      <line x1="635"  y1="285" x2="629"  y2="334" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="678"  y1="305" x2="672"  y2="354" stroke="#a8c8de" stroke-width="0.45"/>
-      <line x1="722"  y1="292" x2="716"  y2="340" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="766"  y1="312" x2="760"  y2="360" stroke="#a8c8de" stroke-width="0.5"/>
-      <line x1="810"  y1="288" x2="804"  y2="336" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="855"  y1="308" x2="849"  y2="356" stroke="#a8c8de" stroke-width="0.45"/>
-      <line x1="900"  y1="295" x2="894"  y2="344" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="945"  y1="315" x2="939"  y2="364" stroke="#a8c8de" stroke-width="0.5"/>
-      <line x1="990"  y1="290" x2="984"  y2="340" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="1035" y1="310" x2="1029" y2="360" stroke="#a8c8de" stroke-width="0.45"/>
-      <line x1="1080" y1="285" x2="1074" y2="336" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="1125" y1="305" x2="1119" y2="356" stroke="#a8c8de" stroke-width="0.5"/>
-      <line x1="1168" y1="292" x2="1162" y2="342" stroke="#b0cce0" stroke-width="0.4"/>
-      <!-- second staggered pass -->
-      <line x1="70"   y1="350" x2="64"   y2="400" stroke="#a8c8de" stroke-width="0.4"/>
-      <line x1="145"  y1="365" x2="139"  y2="415" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="220"  y1="345" x2="214"  y2="396" stroke="#a8c8de" stroke-width="0.4"/>
-      <line x1="310"  y1="360" x2="304"  y2="410" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="400"  y1="348" x2="394"  y2="400" stroke="#a8c8de" stroke-width="0.4"/>
-      <line x1="485"  y1="365" x2="479"  y2="415" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="565"  y1="345" x2="559"  y2="396" stroke="#a8c8de" stroke-width="0.4"/>
-      <line x1="655"  y1="362" x2="649"  y2="412" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="745"  y1="350" x2="739"  y2="400" stroke="#a8c8de" stroke-width="0.4"/>
-      <line x1="835"  y1="366" x2="829"  y2="416" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="920"  y1="348" x2="914"  y2="400" stroke="#a8c8de" stroke-width="0.4"/>
-      <line x1="1010" y1="364" x2="1004" y2="414" stroke="#b0cce0" stroke-width="0.4"/>
-      <line x1="1100" y1="350" x2="1094" y2="400" stroke="#a8c8de" stroke-width="0.4"/>
-      <line x1="1185" y1="366" x2="1179" y2="416" stroke="#b0cce0" stroke-width="0.4"/>
+
+    <!-- Light, diffuse rain veil -->
+    <g class="mg-rain-anim-slow" filter="url(#mg-rain-blur)" opacity="0.34">
+      <line x1="38"   y1="286" x2="31"   y2="334" stroke="#a9c9dd" stroke-width="0.34"/>
+      <line x1="104"  y1="304" x2="96"   y2="351" stroke="#a7c6da" stroke-width="0.32"/>
+      <line x1="187"  y1="278" x2="180"  y2="322" stroke="#afcee1" stroke-width="0.28"/>
+      <line x1="266"  y1="296" x2="260"  y2="340" stroke="#a9c9dd" stroke-width="0.3"/>
+      <line x1="352"  y1="287" x2="345"  y2="333" stroke="#a7c6da" stroke-width="0.29"/>
+      <line x1="438"  y1="300" x2="432"  y2="347" stroke="#b2d0e2" stroke-width="0.33"/>
+      <line x1="516"  y1="282" x2="510"  y2="327" stroke="#a9c9dd" stroke-width="0.3"/>
+      <line x1="603"  y1="296" x2="596"  y2="343" stroke="#a7c6da" stroke-width="0.32"/>
+      <line x1="676"  y1="285" x2="669"  y2="332" stroke="#afcee1" stroke-width="0.28"/>
+      <line x1="762"  y1="302" x2="754"  y2="350" stroke="#a9c9dd" stroke-width="0.31"/>
+      <line x1="846"  y1="281" x2="840"  y2="327" stroke="#a7c6da" stroke-width="0.29"/>
+      <line x1="924"  y1="297" x2="917"  y2="344" stroke="#b2d0e2" stroke-width="0.33"/>
+      <line x1="1011" y1="284" x2="1004" y2="332" stroke="#a9c9dd" stroke-width="0.31"/>
+      <line x1="1098" y1="300" x2="1091" y2="346" stroke="#a7c6da" stroke-width="0.3"/>
+      <line x1="1172" y1="289" x2="1165" y2="336" stroke="#afcee1" stroke-width="0.28"/>
+
+      <line x1="82"   y1="344" x2="75"   y2="394" stroke="#a7c6da" stroke-width="0.29"/>
+      <line x1="228"  y1="338" x2="221"  y2="387" stroke="#a9c9dd" stroke-width="0.31"/>
+      <line x1="386"  y1="352" x2="379"  y2="401" stroke="#b2d0e2" stroke-width="0.33"/>
+      <line x1="548"  y1="340" x2="541"  y2="389" stroke="#a7c6da" stroke-width="0.29"/>
+      <line x1="708"  y1="348" x2="701"  y2="398" stroke="#afcee1" stroke-width="0.3"/>
+      <line x1="882"  y1="342" x2="875"  y2="391" stroke="#a9c9dd" stroke-width="0.31"/>
+      <line x1="1044" y1="350" x2="1036" y2="401" stroke="#b2d0e2" stroke-width="0.32"/>
+      <line x1="1150" y1="346" x2="1143" y2="395" stroke="#a7c6da" stroke-width="0.29"/>
+    </g>
+
+    <!-- Main rain field with clusters and gaps -->
+    <g class="mg-rain-anim" filter="url(#mg-rain-blur)" opacity="0.52">
+      <!-- Left cluster -->
+      <line x1="56"  y1="296" x2="49"  y2="338" stroke="#b0cce0" stroke-width="0.52"/>
+      <line x1="71"  y1="309" x2="63"  y2="358" stroke="#b7d4e5" stroke-width="0.56"/>
+      <line x1="94"  y1="286" x2="88"  y2="330" stroke="#a8c8de" stroke-width="0.41"/>
+      <line x1="118" y1="321" x2="111" y2="370" stroke="#b4d0e2" stroke-width="0.47"/>
+      <line x1="146" y1="298" x2="138" y2="351" stroke="#aacce0" stroke-width="0.5"/>
+      <line x1="173" y1="281" x2="166" y2="326" stroke="#b0cce0" stroke-width="0.4"/>
+
+      <!-- Gap -->
+
+      <!-- Left-centre moderate field -->
+      <line x1="254" y1="302" x2="247" y2="348" stroke="#a8c8de" stroke-width="0.42"/>
+      <line x1="286" y1="287" x2="279" y2="333" stroke="#b0cce0" stroke-width="0.39"/>
+      <line x1="319" y1="312" x2="312" y2="361" stroke="#aacce0" stroke-width="0.48"/>
+      <line x1="347" y1="292" x2="341" y2="338" stroke="#a8c8de" stroke-width="0.43"/>
+
+      <!-- Slightly heavier central curtain -->
+      <line x1="404" y1="278" x2="397" y2="328" stroke="#bdd8e8" stroke-width="0.58"/>
+      <line x1="419" y1="296" x2="411" y2="350" stroke="#b9d5e6" stroke-width="0.6"/>
+      <line x1="437" y1="286" x2="429" y2="339" stroke="#aacce0" stroke-width="0.44"/>
+      <line x1="452" y1="309" x2="444" y2="365" stroke="#c0dbea" stroke-width="0.62"/>
+      <line x1="468" y1="291" x2="461" y2="340" stroke="#b0cce0" stroke-width="0.46"/>
+      <line x1="487" y1="318" x2="479" y2="374" stroke="#c4ddeb" stroke-width="0.64"/>
+      <line x1="506" y1="300" x2="499" y2="349" stroke="#aacce0" stroke-width="0.44"/>
+
+      <!-- Gap before centre-right -->
+
+      <line x1="592" y1="286" x2="585" y2="334" stroke="#b0cce0" stroke-width="0.42"/>
+      <line x1="617" y1="305" x2="609" y2="357" stroke="#a8c8de" stroke-width="0.46"/>
+      <line x1="648" y1="291" x2="641" y2="340" stroke="#b4d0e2" stroke-width="0.43"/>
+
+      <!-- Heavy patch under right storm cell -->
+      <line x1="730" y1="280" x2="722" y2="334" stroke="#c1dbea" stroke-width="0.58"/>
+      <line x1="744" y1="295" x2="735" y2="352" stroke="#c8e0ed" stroke-width="0.67"/>
+      <line x1="760" y1="287" x2="752" y2="340" stroke="#b6d3e4" stroke-width="0.5"/>
+      <line x1="776" y1="304" x2="767" y2="362" stroke="#c4ddeb" stroke-width="0.63"/>
+      <line x1="794" y1="289" x2="786" y2="343" stroke="#b2d0e2" stroke-width="0.47"/>
+      <line x1="812" y1="311" x2="803" y2="370" stroke="#c8e0ed" stroke-width="0.66"/>
+      <line x1="833" y1="293" x2="825" y2="347" stroke="#b4d0e2" stroke-width="0.48"/>
+
+      <!-- Broken field -->
+      <line x1="902" y1="301" x2="895" y2="350" stroke="#aacce0" stroke-width="0.43"/>
+      <line x1="938" y1="286" x2="930" y2="338" stroke="#b0cce0" stroke-width="0.45"/>
+
+      <!-- Far-right cluster -->
+      <line x1="1018" y1="283" x2="1010" y2="335" stroke="#bdd8e8" stroke-width="0.55"/>
+      <line x1="1035" y1="299" x2="1027" y2="353" stroke="#b6d3e4" stroke-width="0.5"/>
+      <line x1="1053" y1="287" x2="1045" y2="340" stroke="#aacce0" stroke-width="0.43"/>
+      <line x1="1075" y1="310" x2="1067" y2="365" stroke="#c1dbea" stroke-width="0.58"/>
+      <line x1="1096" y1="292" x2="1088" y2="344" stroke="#b0cce0" stroke-width="0.46"/>
+      <line x1="1122" y1="304" x2="1114" y2="359" stroke="#bdd8e8" stroke-width="0.55"/>
+      <line x1="1156" y1="289" x2="1148" y2="342" stroke="#a8c8de" stroke-width="0.41"/>
+
+      <!-- Lower broken pass -->
+      <line x1="128" y1="347" x2="120" y2="398" stroke="#a8c8de" stroke-width="0.39"/>
+      <line x1="182" y1="362" x2="175" y2="414" stroke="#b0cce0" stroke-width="0.41"/>
+      <line x1="298" y1="351" x2="290" y2="404" stroke="#aacce0" stroke-width="0.4"/>
+      <line x1="431" y1="357" x2="423" y2="412" stroke="#b9d5e6" stroke-width="0.48"/>
+      <line x1="471" y1="349" x2="463" y2="403" stroke="#c1dbea" stroke-width="0.52"/>
+      <line x1="621" y1="356" x2="613" y2="411" stroke="#aacce0" stroke-width="0.41"/>
+      <line x1="772" y1="349" x2="763" y2="407" stroke="#c1dbea" stroke-width="0.54"/>
+      <line x1="814" y1="363" x2="805" y2="421" stroke="#c8e0ed" stroke-width="0.58"/>
+      <line x1="952" y1="351" x2="944" y2="404" stroke="#aacce0" stroke-width="0.4"/>
+      <line x1="1078" y1="360" x2="1070" y2="415" stroke="#b9d5e6" stroke-width="0.47"/>
+      <line x1="1138" y1="346" x2="1130" y2="399" stroke="#aacce0" stroke-width="0.4"/>
+    </g>
+
+    <!-- Fine, fast streaks for occasional monsoon intensity -->
+    <g class="mg-rain-anim-fast" filter="url(#mg-rain-blur)" opacity="0.22">
+      <line x1="82"   y1="272" x2="74"   y2="332" stroke="#d1e6f1" stroke-width="0.34"/>
+      <line x1="162"  y1="286" x2="153"  y2="350" stroke="#d1e6f1" stroke-width="0.36"/>
+      <line x1="447"  y1="268" x2="438"  y2="334" stroke="#d7e9f3" stroke-width="0.38"/>
+      <line x1="489"  y1="280" x2="479"  y2="352" stroke="#d7e9f3" stroke-width="0.4"/>
+      <line x1="748"  y1="270" x2="738"  y2="338" stroke="#d7e9f3" stroke-width="0.39"/>
+      <line x1="808"  y1="282" x2="798"  y2="353" stroke="#dbeaf4" stroke-width="0.42"/>
+      <line x1="1048" y1="274" x2="1039" y2="341" stroke="#d1e6f1" stroke-width="0.36"/>
+      <line x1="1118" y1="286" x2="1108" y2="354" stroke="#d7e9f3" stroke-width="0.38"/>
+
+      <line x1="214"  y1="334" x2="205"  y2="397" stroke="#d1e6f1" stroke-width="0.35"/>
+      <line x1="456"  y1="342" x2="446"  y2="410" stroke="#d7e9f3" stroke-width="0.38"/>
+      <line x1="789"  y1="336" x2="779"  y2="405" stroke="#dbeaf4" stroke-width="0.4"/>
+      <line x1="1088" y1="340" x2="1079" y2="405" stroke="#d1e6f1" stroke-width="0.36"/>
     </g>
 
     <!-- ══════════════════════════════════════
@@ -672,50 +761,76 @@ created: 2026-06-20
       fill="#1d4a28" opacity="0.75"
     />
 
-    <!-- ── Trees — two stylised trees, Pahari silhouette ── -->
-    <!-- Tree 1 — left, tall slender type -->
+    <!-- ── Trees — revised to be clearly distinct and fully visible ── -->
+
+    <!-- Tree 1 — left, tall and slender, cypress-like miniature form -->
     <g>
       <!-- Trunk -->
-      <rect x="168" y="510" width="6" height="52"
+      <rect x="166" y="500" width="5" height="42"
         fill="#0d2015" rx="2"/>
-      <!-- Foliage — layered rounded masses -->
-      <ellipse cx="171" cy="492" rx="32" ry="42"
-        fill="#1a3e20" opacity="0.92"/>
-      <ellipse cx="171" cy="478" rx="26" ry="34"
-        fill="#215228" opacity="0.85"/>
-      <ellipse cx="171" cy="466" rx="20" ry="26"
-        fill="#2a6034" opacity="0.8"/>
-      <ellipse cx="171" cy="456" rx="14" ry="18"
-        fill="#328040" opacity="0.75"/>
-      <ellipse cx="171" cy="450" rx="9"  ry="12"
-        fill="#3a9048" opacity="0.7"/>
-      <!-- highlight dot -->
-      <ellipse cx="167" cy="458" rx="5" ry="7"
-        fill="#3eaa52" opacity="0.3"/>
+
+      <!-- Narrow vertical canopy -->
+      <ellipse cx="168.5" cy="484" rx="22" ry="44"
+        fill="#16361d" opacity="0.93"/>
+      <ellipse cx="168.5" cy="469" rx="18" ry="35"
+        fill="#1d4824" opacity="0.88"/>
+      <ellipse cx="168.5" cy="454" rx="14" ry="28"
+        fill="#25592d" opacity="0.82"/>
+      <ellipse cx="168.5" cy="441" rx="10" ry="20"
+        fill="#2d6e36" opacity="0.77"/>
+      <ellipse cx="168.5" cy="432" rx="7" ry="13"
+        fill="#378742" opacity="0.72"/>
+
+      <!-- Subtle asymmetry, miniature style -->
+      <ellipse cx="162" cy="468" rx="7" ry="16"
+        fill="#1b4322" opacity="0.5"/>
+      <ellipse cx="174" cy="456" rx="6" ry="13"
+        fill="#2a6034" opacity="0.42"/>
+
+      <!-- Highlight -->
+      <ellipse cx="165.5" cy="446" rx="4" ry="8"
+        fill="#44a958" opacity="0.22"/>
     </g>
 
-    <!-- Tree 2 — right, slightly different silhouette (broader) -->
+    <!-- Tree 2 — right, broader and rounded, banyan/mango-like miniature form -->
     <g>
-      <!-- Trunk -->
-      <rect x="1018" y="508" width="7" height="54"
+      <!-- Trunk and branching base -->
+      <rect x="1015" y="506" width="8" height="36"
         fill="#0c1e14" rx="2"/>
-      <!-- Foliage -->
-      <ellipse cx="1021" cy="494" rx="36" ry="38"
-        fill="#193b1e" opacity="0.9"/>
-      <ellipse cx="1021" cy="478" rx="30" ry="32"
-        fill="#1e4c24" opacity="0.85"/>
-      <ellipse cx="1021" cy="464" rx="24" ry="27"
-        fill="#275e2e" opacity="0.8"/>
-      <ellipse cx="1021" cy="453" rx="18" ry="20"
-        fill="#307236" opacity="0.75"/>
-      <ellipse cx="1021" cy="447" rx="12" ry="14"
-        fill="#388440" opacity="0.7"/>
-      <!-- left sub-branch mass -->
-      <ellipse cx="1006" cy="468" rx="16" ry="18"
-        fill="#225228" opacity="0.65"/>
-      <!-- highlight -->
-      <ellipse cx="1017" cy="457" rx="5" ry="7"
-        fill="#409850" opacity="0.28"/>
+      <path d="M1019,505 C1018,494 1014,487 1008,482
+               C1013,488 1014,495 1014,505 Z"
+        fill="#0c1e14" opacity="0.8"/>
+      <path d="M1019,503 C1021,492 1026,486 1032,482
+               C1027,488 1025,495 1024,504 Z"
+        fill="#0c1e14" opacity="0.78"/>
+
+      <!-- Broad canopy -->
+      <ellipse cx="1019" cy="488" rx="47" ry="31"
+        fill="#17381d" opacity="0.92"/>
+      <ellipse cx="991"  cy="481" rx="22" ry="18"
+        fill="#1c4723" opacity="0.82"/>
+      <ellipse cx="1045" cy="480" rx="24" ry="19"
+        fill="#1c4723" opacity="0.82"/>
+      <ellipse cx="1019" cy="470" rx="38" ry="24"
+        fill="#215228" opacity="0.86"/>
+      <ellipse cx="996"  cy="466" rx="16" ry="14"
+        fill="#275e2e" opacity="0.76"/>
+      <ellipse cx="1041" cy="466" rx="17" ry="14"
+        fill="#275e2e" opacity="0.76"/>
+      <ellipse cx="1019" cy="454" rx="26" ry="18"
+        fill="#2f7338" opacity="0.74"/>
+      <ellipse cx="1019" cy="444" rx="16" ry="11"
+        fill="#388440" opacity="0.68"/>
+
+      <!-- Lower skirt to make it feel older and wider -->
+      <ellipse cx="1001" cy="498" rx="18" ry="10"
+        fill="#163a1d" opacity="0.5"/>
+      <ellipse cx="1036" cy="497" rx="19" ry="10"
+        fill="#163a1d" opacity="0.5"/>
+
+      <!-- Highlight -->
+      <ellipse cx="1013" cy="456" rx="6" ry="7"
+        fill="#4aa85a" opacity="0.24"/>
     </g>
 
     <!-- Wet ground puddle glints — tiny horizontal ellipses -->
@@ -784,3 +899,7 @@ created: 2026-06-20
 
 </section>
 <!-- end .mg-banner -->
+
+**Meghadutam** is a content enrichment event on The Sunil Abraham Project. The main difference is that Meghadutam does not count the number of articles created during the event period, unlike our other reports. Instead, it seeks to showcase the most excellent content created and enriched during the event. The name is inspired by *Meghadutam* by Kalidasa.
+
+The event will continue throughout the monsoon season of 2026.
