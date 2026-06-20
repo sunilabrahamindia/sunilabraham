@@ -7,352 +7,6 @@ categories: [Project pages, TSAP Events and Rituals]
 created: 2026-06-20
 ---
 
-<style>
-  /* ============================================================
-     MEGHADUTAM 2026 — TSAP Hero Banner
-     Monsoon atmosphere, Rajput/Pahari miniature inspiration
-     Self-contained: HTML + CSS + inline SVG only
-     ============================================================ */
-
-  :root {
-    /* Monsoon palette */
-    --mg-sky-deep:      #0b1220;
-    --mg-sky-mid:       #1a2540;
-    --mg-cloud-dark:    #1e2d4a;
-    --mg-cloud-mid:     #2e3f5e;
-    --mg-cloud-light:   #3d5275;
-    --mg-cloud-wisp:    #4a6080;
-    --mg-horizon:       #0f3020;
-    --mg-green-deep:    #0d2b18;
-    --mg-green-mid:     #1a4226;
-    --mg-green-bright:  #2a6338;
-    --mg-rain:          rgba(180, 210, 230, 0.18);
-    --mg-lightning:     #c8dff5;
-    --mg-gold:          #c8a84b;
-    --mg-gold-muted:    #9e7e36;
-    --mg-text-bright:   #e8e0d0;
-    --mg-text-muted:    #a09880;
-    --mg-border-gold:   rgba(200, 168, 75, 0.35);
-    --mg-border-subtle: rgba(180, 200, 220, 0.12);
-
-    /* Type */
-    --font-display: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
-    --font-body:    'Georgia', serif;
-
-    /* Fluid type */
-    --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
-    --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
-    --text-base: clamp(1rem,     0.95rem + 0.25vw, 1.125rem);
-    --text-lg:   clamp(1.125rem, 1rem    + 0.75vw, 1.5rem);
-    --text-xl:   clamp(1.5rem,   1.2rem  + 1.25vw, 2.25rem);
-    --text-2xl:  clamp(2rem,     1.2rem  + 2.5vw,  3.5rem);
-    --text-3xl:  clamp(2.5rem,   1rem    + 4vw,    5rem);
-  }
-
-  /* Reset for banner context */
-  .mg-banner *, .mg-banner *::before, .mg-banner *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* ── Outer wrapper ─────────────────────────────────────────── */
-  .mg-banner {
-    position: relative;
-    width: 100%;
-    min-height: clamp(280px, 35vw, 420px);
-    overflow: hidden;
-    background-color: var(--mg-sky-deep);
-    font-family: var(--font-body);
-    -webkit-font-smoothing: antialiased;
-    isolation: isolate;
-  }
-
-  /* ── Sky gradient ──────────────────────────────────────────── */
-  .mg-sky {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      to bottom,
-      #060c17 0%,
-      #0b1528 18%,
-      #111e3a 38%,
-      #192945 58%,
-      #1e3245 75%,
-      #1a3838 88%,
-      #0f2b22 100%
-    );
-    z-index: 0;
-  }
-
-  /* ── Star layer (very subtle) ──────────────────────────────── */
-  .mg-stars {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    opacity: 0.5;
-  }
-
-  /* ── SVG cloud scene ───────────────────────────────────────── */
-  .mg-cloudscape {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-  }
-
-  /* ── Rain overlay ──────────────────────────────────────────── */
-  .mg-rain-layer {
-    position: absolute;
-    inset: 0;
-    z-index: 6;
-    pointer-events: none;
-    overflow: hidden;
-  }
-
-  .mg-rain-layer svg {
-    width: 100%;
-    height: 100%;
-  }
-
-  /* ── Ground / landscape ────────────────────────────────────── */
-  .mg-ground {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 5;
-  }
-
-  /* ── Decorative border frame ───────────────────────────────── */
-  .mg-frame {
-    position: absolute;
-    inset: clamp(12px, 2vw, 22px);
-    border: 1px solid var(--mg-border-gold);
-    z-index: 8;
-    pointer-events: none;
-  }
-
-  .mg-frame::before {
-    content: '';
-    position: absolute;
-    inset: 4px;
-    border: 1px solid var(--mg-border-subtle);
-  }
-
-  /* Corner ornaments */
-  .mg-frame-corner {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-  }
-  .mg-frame-corner--tl { top: -1px; left: -1px; }
-  .mg-frame-corner--tr { top: -1px; right: -1px; transform: scaleX(-1); }
-  .mg-frame-corner--bl { bottom: -1px; left: -1px; transform: scaleY(-1); }
-  .mg-frame-corner--br { bottom: -1px; right: -1px; transform: scale(-1); }
-
-  /* ── Typography container ──────────────────────────────────── */
-  .mg-text-block {
-    position: relative;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: clamp(280px, 35vw, 420px);
-    padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 6vw, 4rem);
-    text-align: center;
-  }
-
-  /* Eyebrow */
-  .mg-eyebrow {
-    font-family: var(--font-body);
-    font-size: var(--text-xs);
-    font-weight: 400;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--mg-gold);
-    opacity: 0.85;
-    margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
-  }
-
-  /* Title */
-  .mg-title {
-    font-family: var(--font-display);
-        font-size: clamp(2rem, 4vw, 4rem);
-    font-weight: 400;
-    letter-spacing: 0.04em;
-    line-height: 1.05;
-    color: var(--mg-text-bright);
-    text-shadow:
-      0 0 60px rgba(12, 20, 40, 0.9),
-      0 2px 24px rgba(8, 14, 28, 0.8),
-      0 0 120px rgba(0, 0, 0, 0.6);
-    margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
-  }
-
-  /* Thin divider rule */
-  .mg-rule {
-    width: clamp(48px, 8vw, 80px);
-    height: 1px;
-    background: linear-gradient(
-      to right,
-      transparent,
-      var(--mg-gold-muted),
-      var(--mg-gold),
-      var(--mg-gold-muted),
-      transparent
-    );
-    margin: 0 auto clamp(0.75rem, 2vw, 1.25rem);
-    opacity: 0.7;
-  }
-
-  /* Subtitle */
-  .mg-subtitle {
-    font-family: var(--font-display);
-    font-size: var(--text-lg);
-    font-weight: 400;
-    font-style: italic;
-    letter-spacing: 0.025em;
-    line-height: 1.4;
-    color: var(--mg-text-bright);
-    opacity: 0.82;
-    text-shadow: 0 1px 12px rgba(8, 14, 28, 0.9);
-    margin-bottom: clamp(0.5rem, 1.5vw, 0.875rem);
-    max-width: 38ch;
-  }
-
-  /* Fine print */
-  .mg-caption {
-    font-family: var(--font-body);
-    font-size: var(--text-xs);
-    font-weight: 400;
-    letter-spacing: 0.12em;
-    color: var(--mg-text-muted);
-    opacity: 0.7;
-    margin-top: clamp(0.25rem, 1vw, 0.5rem);
-  }
-
-  /* ── Animations ────────────────────────────────────────────── */
-
-  @keyframes mg-rain-fall {
-    from { transform: translateY(-120px); }
-    to   { transform: translateY(0px); }
-  }
-
-  @keyframes mg-rain-fall-slow {
-    from { transform: translateY(-105px); }
-    to   { transform: translateY(0px); }
-  }
-
-  @keyframes mg-rain-fall-fast {
-    from { transform: translateY(-138px); }
-    to   { transform: translateY(0px); }
-  }
-
-  @keyframes mg-cloud-drift-slow {
-    0%   { transform: translateX(0); }
-    50%  { transform: translateX(-12px); }
-    100% { transform: translateX(0); }
-  }
-
-  @keyframes mg-cloud-drift-med {
-    0%   { transform: translateX(0); }
-    50%  { transform: translateX(10px); }
-    100% { transform: translateX(0); }
-  }
-
-  @keyframes mg-lightning-flash {
-    0%, 92%, 96%, 100% { opacity: 0; }
-    93%                { opacity: 0.6; }
-    94%                { opacity: 0.1; }
-    95%                { opacity: 0.5; }
-  }
-
-  @keyframes mg-text-rise {
-    from {
-      opacity: 0;
-      transform: translateY(18px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes mg-shimmer {
-    0%, 100% { opacity: 0.75; }
-    50%       { opacity: 1; }
-  }
-
-  /* Apply drift to cloud groups */
-  .mg-cloud-back  { animation: mg-cloud-drift-slow 22s ease-in-out infinite; }
-  .mg-cloud-mid-g { animation: mg-cloud-drift-med  16s ease-in-out infinite 2s; }
-  .mg-cloud-fore  { animation: mg-cloud-drift-slow 19s ease-in-out infinite 5s; }
-
-  /* Lightning group */
-  .mg-lightning-group {
-    animation: mg-lightning-flash 9s ease-in-out infinite 4s;
-  }
-  .mg-lightning-group-2 {
-    animation: mg-lightning-flash 13s ease-in-out infinite 1s;
-  }
-
-  /* Rain SVG groups animate at slightly different rates */
-  .mg-rain-anim {
-    animation: mg-rain-fall 0.7s linear infinite;
-  }
-
-  .mg-rain-anim-slow {
-    animation: mg-rain-fall-slow 0.92s linear infinite;
-  }
-
-  .mg-rain-anim-fast {
-    animation: mg-rain-fall-fast 0.56s linear infinite;
-  }
-
-  /* Text entrance */
-  .mg-eyebrow   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s; }
-  .mg-title     { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.55s; }
-  .mg-rule      { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.75s; }
-  .mg-subtitle  { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.9s; }
-  .mg-caption   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 1.1s; }
-
-  /* Gold eyebrow shimmer */
-  .mg-eyebrow { animation:
-    mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s,
-    mg-shimmer 4s ease-in-out infinite 2s;
-  }
-
-  /* Reduced motion: disable all animations */
-  @media (prefers-reduced-motion: reduce) {
-    .mg-cloud-back,
-    .mg-cloud-mid-g,
-    .mg-cloud-fore,
-    .mg-lightning-group,
-    .mg-lightning-group-2,
-    .mg-rain-anim,
-    .mg-rain-anim-slow,
-    .mg-rain-anim-fast,
-    .mg-eyebrow,
-    .mg-title,
-    .mg-rule,
-    .mg-subtitle,
-    .mg-caption {
-      animation: none !important;
-      opacity: 1 !important;
-      transform: none !important;
-    }
-  }
-
-  /* Responsive adjustments */
-  @media (max-width: 480px) {
-    .mg-frame { inset: 8px; }
-    .mg-frame-corner { width: 13px; height: 13px; }
-  }
-</style>
-
 <!-- ═══════════════════════════════════════════════
      MEGHADUTAM 2026 BANNER
      The Sunil Abraham Project
@@ -903,3 +557,370 @@ created: 2026-06-20
 **Meghadutam** is a content enrichment event on The Sunil Abraham Project. The main difference is that Meghadutam does not count the number of articles created during the event period, unlike our other reports. Instead, it seeks to showcase the most excellent content created and enriched during the event. The name is inspired by *Meghadutam* by Kalidasa.
 
 The event will continue throughout the monsoon season of 2026.
+
+<div class="mg-epigraph">
+  <p>
+    कश्चित्कान्ताविरहगुरुणा स्वाधिकारात्प्रमत्तः<br>
+    शापेनास्तंगमितमहिमा वर्षभोग्येण भर्तुः ।<br>
+    यक्षश्चक्रे जनकतनयास्नानपुण्योदकेषु<br>
+    स्निग्धच्छायातरुषु वसतिं रामगिर्याश्रमेषु ॥
+  </p>
+</div>
+
+<style>
+  /* ============================================================
+     MEGHADUTAM 2026 — TSAP Hero Banner
+     Monsoon atmosphere, Rajput/Pahari miniature inspiration
+     Self-contained: HTML + CSS + inline SVG only
+     ============================================================ */
+
+  :root {
+    /* Monsoon palette */
+    --mg-sky-deep:      #0b1220;
+    --mg-sky-mid:       #1a2540;
+    --mg-cloud-dark:    #1e2d4a;
+    --mg-cloud-mid:     #2e3f5e;
+    --mg-cloud-light:   #3d5275;
+    --mg-cloud-wisp:    #4a6080;
+    --mg-horizon:       #0f3020;
+    --mg-green-deep:    #0d2b18;
+    --mg-green-mid:     #1a4226;
+    --mg-green-bright:  #2a6338;
+    --mg-rain:          rgba(180, 210, 230, 0.18);
+    --mg-lightning:     #c8dff5;
+    --mg-gold:          #c8a84b;
+    --mg-gold-muted:    #9e7e36;
+    --mg-text-bright:   #e8e0d0;
+    --mg-text-muted:    #a09880;
+    --mg-border-gold:   rgba(200, 168, 75, 0.35);
+    --mg-border-subtle: rgba(180, 200, 220, 0.12);
+
+    /* Type */
+    --font-display: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
+    --font-body:    'Georgia', serif;
+
+    /* Fluid type */
+    --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
+    --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
+    --text-base: clamp(1rem,     0.95rem + 0.25vw, 1.125rem);
+    --text-lg:   clamp(1.125rem, 1rem    + 0.75vw, 1.5rem);
+    --text-xl:   clamp(1.5rem,   1.2rem  + 1.25vw, 2.25rem);
+    --text-2xl:  clamp(2rem,     1.2rem  + 2.5vw,  3.5rem);
+    --text-3xl:  clamp(2.5rem,   1rem    + 4vw,    5rem);
+  }
+
+  /* Reset for banner context */
+  .mg-banner *, .mg-banner *::before, .mg-banner *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ── Outer wrapper ─────────────────────────────────────────── */
+  .mg-banner {
+    position: relative;
+    width: 100%;
+    min-height: clamp(280px, 35vw, 420px);
+    overflow: hidden;
+    background-color: var(--mg-sky-deep);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    isolation: isolate;
+  }
+
+  /* ── Sky gradient ──────────────────────────────────────────── */
+  .mg-sky {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      #060c17 0%,
+      #0b1528 18%,
+      #111e3a 38%,
+      #192945 58%,
+      #1e3245 75%,
+      #1a3838 88%,
+      #0f2b22 100%
+    );
+    z-index: 0;
+  }
+
+  /* ── Star layer (very subtle) ──────────────────────────────── */
+  .mg-stars {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  /* ── SVG cloud scene ───────────────────────────────────────── */
+  .mg-cloudscape {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  /* ── Rain overlay ──────────────────────────────────────────── */
+  .mg-rain-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 6;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .mg-rain-layer svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ── Ground / landscape ────────────────────────────────────── */
+  .mg-ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+  }
+
+  /* ── Decorative border frame ───────────────────────────────── */
+  .mg-frame {
+    position: absolute;
+    inset: clamp(12px, 2vw, 22px);
+    border: 1px solid var(--mg-border-gold);
+    z-index: 8;
+    pointer-events: none;
+  }
+
+  .mg-frame::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px solid var(--mg-border-subtle);
+  }
+
+  /* Corner ornaments */
+  .mg-frame-corner {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+  }
+  .mg-frame-corner--tl { top: -1px; left: -1px; }
+  .mg-frame-corner--tr { top: -1px; right: -1px; transform: scaleX(-1); }
+  .mg-frame-corner--bl { bottom: -1px; left: -1px; transform: scaleY(-1); }
+  .mg-frame-corner--br { bottom: -1px; right: -1px; transform: scale(-1); }
+
+  /* ── Typography container ──────────────────────────────────── */
+  .mg-text-block {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: clamp(280px, 35vw, 420px);
+    padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 6vw, 4rem);
+    text-align: center;
+  }
+
+  /* Eyebrow */
+  .mg-eyebrow {
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--mg-gold);
+    opacity: 0.85;
+    margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
+  }
+
+  /* Title */
+  .mg-title {
+    font-family: var(--font-display);
+        font-size: clamp(2rem, 4vw, 4rem);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.05;
+    color: var(--mg-text-bright);
+    text-shadow:
+      0 0 60px rgba(12, 20, 40, 0.9),
+      0 2px 24px rgba(8, 14, 28, 0.8),
+      0 0 120px rgba(0, 0, 0, 0.6);
+    margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
+  }
+
+  /* Thin divider rule */
+  .mg-rule {
+    width: clamp(48px, 8vw, 80px);
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--mg-gold-muted),
+      var(--mg-gold),
+      var(--mg-gold-muted),
+      transparent
+    );
+    margin: 0 auto clamp(0.75rem, 2vw, 1.25rem);
+    opacity: 0.7;
+  }
+
+  /* Subtitle */
+  .mg-subtitle {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    line-height: 1.4;
+    color: var(--mg-text-bright);
+    opacity: 0.82;
+    text-shadow: 0 1px 12px rgba(8, 14, 28, 0.9);
+    margin-bottom: clamp(0.5rem, 1.5vw, 0.875rem);
+    max-width: 38ch;
+  }
+
+  /* Fine print */
+  .mg-caption {
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    color: var(--mg-text-muted);
+    opacity: 0.7;
+    margin-top: clamp(0.25rem, 1vw, 0.5rem);
+  }
+
+  /* ── Animations ────────────────────────────────────────────── */
+
+  @keyframes mg-rain-fall {
+    from { transform: translateY(-120px); }
+    to   { transform: translateY(0px); }
+  }
+
+  @keyframes mg-rain-fall-slow {
+    from { transform: translateY(-105px); }
+    to   { transform: translateY(0px); }
+  }
+
+  @keyframes mg-rain-fall-fast {
+    from { transform: translateY(-138px); }
+    to   { transform: translateY(0px); }
+  }
+
+  @keyframes mg-cloud-drift-slow {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-12px); }
+    100% { transform: translateX(0); }
+  }
+
+  @keyframes mg-cloud-drift-med {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+  @keyframes mg-lightning-flash {
+    0%, 92%, 96%, 100% { opacity: 0; }
+    93%                { opacity: 0.6; }
+    94%                { opacity: 0.1; }
+    95%                { opacity: 0.5; }
+  }
+
+  @keyframes mg-text-rise {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes mg-shimmer {
+    0%, 100% { opacity: 0.75; }
+    50%       { opacity: 1; }
+  }
+
+  /* Apply drift to cloud groups */
+  .mg-cloud-back  { animation: mg-cloud-drift-slow 22s ease-in-out infinite; }
+  .mg-cloud-mid-g { animation: mg-cloud-drift-med  16s ease-in-out infinite 2s; }
+  .mg-cloud-fore  { animation: mg-cloud-drift-slow 19s ease-in-out infinite 5s; }
+
+  /* Lightning group */
+  .mg-lightning-group {
+    animation: mg-lightning-flash 9s ease-in-out infinite 4s;
+  }
+  .mg-lightning-group-2 {
+    animation: mg-lightning-flash 13s ease-in-out infinite 1s;
+  }
+
+  /* Rain SVG groups animate at slightly different rates */
+  .mg-rain-anim {
+    animation: mg-rain-fall 0.7s linear infinite;
+  }
+
+  .mg-rain-anim-slow {
+    animation: mg-rain-fall-slow 0.92s linear infinite;
+  }
+
+  .mg-rain-anim-fast {
+    animation: mg-rain-fall-fast 0.56s linear infinite;
+  }
+
+  /* Text entrance */
+  .mg-eyebrow   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s; }
+  .mg-title     { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.55s; }
+  .mg-rule      { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.75s; }
+  .mg-subtitle  { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.9s; }
+  .mg-caption   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 1.1s; }
+
+  /* Gold eyebrow shimmer */
+  .mg-eyebrow { animation:
+    mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s,
+    mg-shimmer 4s ease-in-out infinite 2s;
+  }
+
+  /* Reduced motion: disable all animations */
+  @media (prefers-reduced-motion: reduce) {
+    .mg-cloud-back,
+    .mg-cloud-mid-g,
+    .mg-cloud-fore,
+    .mg-lightning-group,
+    .mg-lightning-group-2,
+    .mg-rain-anim,
+    .mg-rain-anim-slow,
+    .mg-rain-anim-fast,
+    .mg-eyebrow,
+    .mg-title,
+    .mg-rule,
+    .mg-subtitle,
+    .mg-caption {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .mg-frame { inset: 8px; }
+    .mg-frame-corner { width: 13px; height: 13px; }
+  }
+    .mg-epigraph {
+  text-align: center;
+  margin: 2.5rem auto 3rem auto;
+  max-width: 42rem;
+}
+
+.mg-epigraph p {
+  margin: 0;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: #444;
+  font-weight: 400;
+}
+</style>
