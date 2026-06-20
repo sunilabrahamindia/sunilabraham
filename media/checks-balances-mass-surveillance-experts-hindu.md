@@ -88,7 +88,7 @@ The panel discussion took place at Carnegie India's Global Technology Summit in 
 
 The discussion reflected growing concerns about the aggregation of citizen data through Aadhaar-linked services across multiple sectors including banking, telecommunications and government welfare schemes. Experts warned that without adequate technical safeguards and institutional oversight mechanisms, such centralised databases could enable mass surveillance comparable to China's Social Credit System.
 
-The tokenisation proposal advanced by the Centre for Internet and Society aimed to address privacy risks by ensuring that service providers would store randomly generated tokens rather than actual Aadhaar numbers, thereby preventing unauthorised database linkage whilst preserving law enforcement capabilities under appropriate legal authorisation. The absence of independent judicial oversight for surveillance approvals, akin to the United States' Foreign Intelligence Surveillance Court, emerged as a key institutional gap requiring legislative attention.
+The tokenisation proposal advanced by the [Centre for Internet and Society](/cis/) aimed to address privacy risks by ensuring that service providers would store randomly generated tokens rather than actual Aadhaar numbers, thereby preventing unauthorised database linkage whilst preserving law enforcement capabilities under appropriate legal authorisation. The absence of independent judicial oversight for surveillance approvals, akin to the United States' Foreign Intelligence Surveillance Court, emerged as a key institutional gap requiring legislative attention.
 
 ## External Link
 

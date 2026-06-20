@@ -11,7 +11,7 @@ page_id: TSAP-0223
 created: 2025-12-15
 ---
 
-**CCI Leaves Google Searching for Answers** is an analysis published in *The Economic Times* on 13 February 2018, written by Nirmal John. The article examines the Competition Commission of India's ruling that penalised Google ₹135.86 crore for leveraging its dominant position in search markets to favour its own flight comparison service, featuring Sunil Abraham's assessment of the judgement's return to foundational competition law principles and NS Nappinai's evaluation of its precedential significance for technology platform regulation in India.
+**CCI Leaves Google Searching for Answers** is an analysis published in *The Economic Times* on 13 February 2018, written by Nirmal John. The article examines the Competition Commission of India's ruling that penalised Google ₹135.86 crore for leveraging its dominant position in search markets to favour its own flight comparison service, featuring [Sunil Abraham](/sunil/)'s assessment of the judgement's return to foundational competition law principles and NS Nappinai's evaluation of its precedential significance for technology platform regulation in India.
 
 ## Contents
 

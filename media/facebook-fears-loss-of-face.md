@@ -11,7 +11,7 @@ page_id: TSAP-0194
 created: 2025-12-11
 ---
 
-**Facebook Fears Loss of Face, Takes Measures to Allay Concerns** is a report published in *The Economic Times* on 6 July 2018. It explores how Facebook and WhatsApp, amid mounting global backlash over privacy breaches, misinformation and regulatory pressure, initiated a series of technical and policy measures to regain trust. The article also features expert analysis, including remarks from Sunil Abraham on the structural challenges posed by fake news, weakened media ecosystems and the responsibilities platforms must shoulder.
+**Facebook Fears Loss of Face, Takes Measures to Allay Concerns** is a report published in *The Economic Times* on 6 July 2018. It explores how Facebook and WhatsApp, amid mounting global backlash over privacy breaches, misinformation and regulatory pressure, initiated a series of technical and policy measures to regain trust. The article also features expert analysis, including remarks from [Sunil Abraham](/sunil/) on the structural challenges posed by fake news, weakened media ecosystems and the responsibilities platforms must shoulder.
 
 ## Contents
 
