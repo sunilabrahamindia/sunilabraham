@@ -60,7 +60,7 @@ created: 2026-06-20
   .mg-banner {
     position: relative;
     width: 100%;
-    min-height: clamp(320px, 45vw, 520px);
+    min-height: clamp(280px, 35vw, 420px);
     overflow: hidden;
     background-color: var(--mg-sky-deep);
     font-family: var(--font-body);
@@ -160,7 +160,7 @@ created: 2026-06-20
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: clamp(420px, 60vw, 680px);
+     min-height: clamp(280px, 35vw, 420px);
     padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 6vw, 4rem);
     text-align: center;
   }
@@ -180,7 +180,7 @@ created: 2026-06-20
   /* Title */
   .mg-title {
     font-family: var(--font-display);
-    font-size: var(--text-3xl);
+    font-size: clamp(2rem, 3.5vw, 3.5rem);
     font-weight: 400;
     letter-spacing: 0.04em;
     line-height: 1.05;
