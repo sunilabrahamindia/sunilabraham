@@ -77,7 +77,7 @@ The data pointed to a limited number of digitised government services rather tha
 
 IT Minister Priyank Kharge defended the state's record by citing pioneering projects including Bhoomi (land records), Khajane (treasury management), and Mobile-One (integrated service delivery platform). He questioned federal ranking methodologies, noting Karnataka's concurrent placement at 13th in ease of doing business despite its established digital infrastructure.
 
-Sunil Abraham from the Centre for Internet and Society advocated for user-centric design improvements and legislative backing through the proposed Electronic Service Delivery Bill. This legislation would mandate online delivery of public services within stipulated timeframes, introducing accountability mechanisms that could drive adoption through service quality rather than mere availability. The disconnect between Karnataka's private sector technology excellence and public sector digital service uptake highlighted governance challenges distinct from infrastructure readiness.
+[Sunil Abraham](/sunil/) from the [Centre for Internet and Society](/cis/) advocated for user-centric design improvements and legislative backing through the proposed Electronic Service Delivery Bill. This legislation would mandate online delivery of public services within stipulated timeframes, introducing accountability mechanisms that could drive adoption through service quality rather than mere availability. The disconnect between Karnataka's private sector technology excellence and public sector digital service uptake highlighted governance challenges distinct from infrastructure readiness.
 
 ## External Link
 
