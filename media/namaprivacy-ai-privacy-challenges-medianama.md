@@ -11,7 +11,7 @@ page_id: TSAP-0420
 created: 2026-01-07
 ---
 
-**#NAMAprivacy: Challenges in Understanding and Regulating AI and Privacy** is a *MediaNama* article published on 18 October 2017 by Aroon Deep. The report documents the third part of discussions from MediaNama's privacy conference held in Bangalore on 5 October, examining the inherent complexity of algorithmic systems and regulatory challenges they pose. The article features contributions from Sunil Abraham of the Centre for Internet & Society, alongside researchers, engineers, and policy experts debating recommendation systems, data collection intent, sectoral regulatory conflicts, unintended consequences, and proxy data issues.
+**#NAMAprivacy: Challenges in Understanding and Regulating AI and Privacy** is a *MediaNama* article published on 18 October 2017 by Aroon Deep. The report documents the third part of discussions from MediaNama's privacy conference held in Bangalore on 5 October, examining the inherent complexity of algorithmic systems and regulatory challenges they pose. The article features contributions from [Sunil Abraham](/sunil/) of the [Centre for Internet & Society](/cis/), alongside researchers, engineers, and policy experts debating recommendation systems, data collection intent, sectoral regulatory conflicts, unintended consequences, and proxy data issues.
 
 ## Contents
 
