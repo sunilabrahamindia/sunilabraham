@@ -10,7 +10,7 @@ page_id: TSAP-0349
 created: 2025-12-27
 ---
 
-**A Torrent of Illegal Activities** is a *Deccan Herald* report published on 10 June 2014. The article investigates the prevalence of film piracy through torrent downloads in Bangalore, exploring motivations ranging from multiplex ticket costs to access for lower-income audiences. It includes commentary from Sunil Abraham, then Executive Director of the Centre for Internet and Society, on updating copyright laws to address technological change.
+**A Torrent of Illegal Activities** is a *Deccan Herald* report published on 10 June 2014. The article investigates the prevalence of film piracy through torrent downloads in Bangalore, exploring motivations ranging from multiplex ticket costs to access for lower-income audiences. It includes commentary from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), on updating copyright laws to address technological change.
 
 ## Contents
 

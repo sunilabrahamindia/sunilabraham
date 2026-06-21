@@ -11,7 +11,7 @@ page_id: TSAP-0264
 created: 2025-12-19
 ---
 
-**Sorry, Wrong Number** is an investigative feature published in *The Telegraph* (India) on 3 July 2011, written by T. V. Jayan. The article examines the severe implementation problems facing India's ambitious Aadhaar (UID) project, which aimed to provide unique identification numbers to 600 million people by 2014 but was falling drastically behind schedule. It includes commentary from Sunil Abraham on the lack of transparency around de-duplication algorithms and the scalability challenges of biometric processing.
+**Sorry, Wrong Number** is an investigative feature published in *The Telegraph* (India) on 3 July 2011, written by T. V. Jayan. The article examines the severe implementation problems facing India's ambitious Aadhaar (UID) project, which aimed to provide unique identification numbers to 600 million people by 2014 but was falling drastically behind schedule. It includes commentary from [Sunil Abraham](/sunil/) on the lack of transparency around de-duplication algorithms and the scalability challenges of biometric processing.
 
 ## Contents
 

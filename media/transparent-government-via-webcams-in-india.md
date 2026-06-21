@@ -11,7 +11,7 @@ page_id: TSAP-0209
 created: 2025-12-12
 ---
 
-**Transparent Government, via Webcams in India** is a report published in *The New York Times* on 17 July 2011, written by Vikas Bajaj. The article examines an unusual anticorruption experiment by Kerala Chief Minister Oommen Chandy, who installed webcams in his office to allow public viewing of government operations. It features analysis from Sunil Abraham, who discusses both the symbolic value and practical limitations of such transparency measures, while situating the initiative within India's broader struggles with systemic corruption at multiple levels of governance.
+**Transparent Government, via Webcams in India** is a report published in *The New York Times* on 17 July 2011, written by Vikas Bajaj. The article examines an unusual anticorruption experiment by Kerala Chief Minister Oommen Chandy, who installed webcams in his office to allow public viewing of government operations. It features analysis from [Sunil Abraham](/sunil/), who discusses both the symbolic value and practical limitations of such transparency measures, while situating the initiative within India's broader struggles with systemic corruption at multiple levels of governance.
 
 ## Contents
 

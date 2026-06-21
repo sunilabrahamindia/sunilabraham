@@ -11,7 +11,7 @@ page_id: TSAP-0338
 created: 2025-12-26
 ---
 
-**Sure, WhatsApp Secures Privacy, But Who's Monitoring Fake News?** is an investigative report published by *The Quint* on 13 July 2017, written by Vineet Khare as part of the Swachh Digital India series co-produced with BBC Hindi. The article examines WhatsApp's role as a distribution channel for fake news, political propaganda and hateful content, documenting its use during the 2017 Uttar Pradesh state elections. It features commentary from Sunil Abraham of Centre for Internet and Society on the economic ecosystem sustaining digital misinformation warriors and the need to attack financial incentives driving the fake news economy.
+**Sure, WhatsApp Secures Privacy, But Who's Monitoring Fake News?** is an investigative report published by *The Quint* on 13 July 2017, written by Vineet Khare as part of the Swachh Digital India series co-produced with BBC Hindi. The article examines WhatsApp's role as a distribution channel for fake news, political propaganda and hateful content, documenting its use during the 2017 Uttar Pradesh state elections. It features commentary from [Sunil Abraham](/sunil/) of [Centre for Internet and Society](/cis/) on the economic ecosystem sustaining digital misinformation warriors and the need to attack financial incentives driving the fake news economy.
 
 ## Contents
 

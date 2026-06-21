@@ -11,7 +11,7 @@ page_id: TSAP-0265
 created: 2025-12-19
 ---
 
-**Trail of the Trolls** is an article published in *The Telegraph* (India) on 4 January 2012, written by Smitha Verma. The piece investigates the growing problem of online harassment and trolling on social media platforms, examining why most perpetrators evade legal consequences despite existing cyber laws. It includes commentary from Sunil Abraham on the ambiguous legal status of trolling and the inadequacy of enforcement mechanisms.
+**Trail of the Trolls** is an article published in *The Telegraph* (India) on 4 January 2012, written by Smitha Verma. The piece investigates the growing problem of online harassment and trolling on social media platforms, examining why most perpetrators evade legal consequences despite existing cyber laws. It includes commentary from [Sunil Abraham](/sunil/) on the ambiguous legal status of trolling and the inadequacy of enforcement mechanisms.
 
 ## Contents
 

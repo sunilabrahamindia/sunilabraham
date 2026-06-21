@@ -11,7 +11,7 @@ page_id: TSAP-0229
 created: 2025-12-15
 ---
 
-**Spending Too Much Time on Social Media? Tech Abuse May Lead to Mental Health Issues** is a feature published in *The Economic Times* on 12 October 2018, written by Divya Shekhar. The article examines the growing prevalence of technology addiction in Bangalore, documenting cases ranging from excessive online gaming to Netflix binge-watching, and explores community initiatives and clinical interventions addressing the problem. The piece features expert guidance from Sunil Abraham on age-appropriate screen time limits and clinical perspectives from Nimhans psychiatrists on the mental health implications of technology overuse.
+**Spending Too Much Time on Social Media? Tech Abuse May Lead to Mental Health Issues** is a feature published in *The Economic Times* on 12 October 2018, written by Divya Shekhar. The article examines the growing prevalence of technology addiction in Bangalore, documenting cases ranging from excessive online gaming to Netflix binge-watching, and explores community initiatives and clinical interventions addressing the problem. The piece features expert guidance from [Sunil Abraham](/sunil/) on age-appropriate screen time limits and clinical perspectives from Nimhans psychiatrists on the mental health implications of technology overuse.
 
 ## Contents
 

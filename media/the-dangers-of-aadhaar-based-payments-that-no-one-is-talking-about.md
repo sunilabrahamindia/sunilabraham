@@ -11,7 +11,7 @@ page_id: TSAP-0340
 created: 2025-12-26
 ---
 
-**The Dangers of Aadhaar-Based Payments That No One Is Talking About** is a news report published by *The Quint* (originally published on *BloombergQuint*) on 17 January 2017, written by Mayank Jain. The article examines security vulnerabilities in Aadhaar-based payment systems as the government promoted digital payments following demonetisation. It features commentary from Sunil Abraham, executive director of Centre for Internet and Society, alongside legal experts Apar Gupta and Bhairav Acharya, analysing biometric authentication risks including the gummy finger attack, authentication failure rates, inadequate privacy protections and the irreversible nature of biometric compromise.
+**The Dangers of Aadhaar-Based Payments That No One Is Talking About** is a news report published by *The Quint* (originally published on *BloombergQuint*) on 17 January 2017, written by Mayank Jain. The article examines security vulnerabilities in Aadhaar-based payment systems as the government promoted digital payments following demonetisation. It features commentary from [Sunil Abraham](/sunil/), executive director of [Centre for Internet and Society](/cis/), alongside legal experts Apar Gupta and Bhairav Acharya, analysing biometric authentication risks including the gummy finger attack, authentication failure rates, inadequate privacy protections and the irreversible nature of biometric compromise.
 
 ## Contents
 

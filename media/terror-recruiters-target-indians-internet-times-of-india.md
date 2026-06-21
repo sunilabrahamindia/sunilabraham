@@ -11,7 +11,7 @@ page_id: TSAP-0310
 created: 2025-12-23
 ---
 
-**Terror Recruiters Target Indians on Internet** is a news report published by *The Times of India* on 18 July 2014, written by Sandhya Soman. The article examines online radicalisation and recruitment tactics used by extremist organisations including ISIS, following reports that four young men from Maharashtra had travelled to Iraq. It includes commentary from Sunil Abraham on how insular social networks and limited critical media literacy can increase vulnerability to propaganda disseminated through social media platforms.
+**Terror Recruiters Target Indians on Internet** is a news report published by *The Times of India* on 18 July 2014, written by Sandhya Soman. The article examines online radicalisation and recruitment tactics used by extremist organisations including ISIS, following reports that four young men from Maharashtra had travelled to Iraq. It includes commentary from [Sunil Abraham](/sunil/) on how insular social networks and limited critical media literacy can increase vulnerability to propaganda disseminated through social media platforms.
 
 ## Contents
 

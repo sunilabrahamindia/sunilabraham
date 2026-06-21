@@ -11,7 +11,7 @@ page_id: TSAP-0186
 created: 2025-12-09
 ---
 
-**Tamil Nadu Likely to Hold Facebook Accountable for Suicide Case** reports on a 21-year-old woman from Salem district whose morphed photographs were uploaded to Facebook, and the state police's consideration of legal action against the social network for delays in responding to takedown and information requests. The article includes police statements and commentary from Sunil Abraham about the need for stronger mechanisms to force platform compliance and interim measures to help victims.
+**Tamil Nadu Likely to Hold Facebook Accountable for Suicide Case** reports on a 21-year-old woman from Salem district whose morphed photographs were uploaded to Facebook, and the state police's consideration of legal action against the social network for delays in responding to takedown and information requests. The article includes police statements and commentary from [Sunil Abraham](/sunil/) about the need for stronger mechanisms to force platform compliance and interim measures to help victims.
 
 ## Contents
 
