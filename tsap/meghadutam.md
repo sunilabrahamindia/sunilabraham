@@ -934,35 +934,49 @@ The event will continue throughout the monsoon season of 2026.
   color: #444;
   font-weight: 400;
 }
-     /* ============================================================
-   MEGHADUTAM 2026 — Featured Works Entries
-   Monsoon chronicle / illuminated manuscript aesthetic
-   CSS only · 7 repeating variations via :nth-child()
+/* ============================================================
+   MEGHADUTAM 2026 — Featured Works: Monsoon Chronicle Entries
+   Redesigned: stronger visual identity per variant,
+   monsoon-led palette, gold as secondary accent only
    ============================================================ */
 
-/* ── Keyframes ─────────────────────────────────────────────── */
+/* ── Shared keyframes ──────────────────────────────────────── */
 
-@keyframes mg-entry-drift {
-  0%   { opacity: 0.88; transform: translateX(0); }
-  50%  { opacity: 1;    transform: translateX(1px); }
-  100% { opacity: 0.88; transform: translateX(0); }
+/* Slow cloud-like lateral sway */
+@keyframes mg-fe-cloud-sway {
+  0%, 100% { transform: translateX(0); }
+  40%       { transform: translateX(3px); }
+  70%       { transform: translateX(-2px); }
 }
 
-@keyframes mg-entry-breathe {
-  0%, 100% { border-left-color: rgba(200, 168, 75, 0.22); }
-  50%       { border-left-color: rgba(200, 168, 75, 0.45); }
+/* Rain curtain scrolling diagonally downward */
+@keyframes mg-fe-rain-scroll {
+  from { background-position: 0 0; }
+  to   { background-position: -30px 120px; }
 }
 
-@keyframes mg-flash-scar {
-  0%, 90%, 100% { opacity: 0; }
-  92%            { opacity: 0.18; }
-  94%            { opacity: 0; }
-  96%            { opacity: 0.12; }
+/* Mist pulse — opacity swell, slow */
+@keyframes mg-fe-mist-pulse {
+  0%, 100% { opacity: 0.55; }
+  50%       { opacity: 1; }
 }
 
-@keyframes mg-rain-trace {
-  0%   { background-position: 0 0; }
-  100% { background-position: 0 120px; }
+/* Horizon line breathe — border darkens and returns */
+@keyframes mg-fe-horizon-breathe {
+  0%, 100% { border-bottom-color: rgba(42, 99, 56, 0.35); }
+  50%       { border-bottom-color: rgba(42, 99, 56, 0.72); }
+}
+
+/* Left rule wash — left border swells in brightness */
+@keyframes mg-fe-rule-wash {
+  0%, 100% { border-left-color: rgba(74, 112, 148, 0.4); }
+  50%       { border-left-color: rgba(74, 112, 148, 0.8); }
+}
+
+/* Slow inward fade for mist entries */
+@keyframes mg-fe-veil-drift {
+  0%, 100% { opacity: 0.5; transform: scaleX(1); }
+  50%       { opacity: 1;   transform: scaleX(1.015); }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -974,267 +988,391 @@ The event will continue throughout the monsoon season of 2026.
   }
 }
 
-/* ── Shared base ───────────────────────────────────────────── */
+/* ── Base shared styles ────────────────────────────────────── */
 
 .mg-featured-item {
   position: relative;
-  padding: 1.05rem 1.1rem 1.05rem 1.4rem;
+  padding: 1.1rem 1.1rem 1.1rem 1.5rem;
   margin-block: 0;
-  border-left: 2px solid rgba(200, 168, 75, 0.22);
   overflow: hidden;
-  /* Inherit the page's body font; do not override family */
-  font-size: inherit;
-  line-height: 1.65;
-  /* Ensure nothing bleeds on small screens */
-  max-width: 100%;
   box-sizing: border-box;
+  max-width: 100%;
+  line-height: 1.7;
+  /* Reset border — each variant defines its own */
+  border: none;
 }
 
-/* Separator between items, styled as a fine horizon line */
+/* Dividing line between entries: a fine rain-grey rule */
 .mg-featured-item + .mg-featured-item {
-  border-top: 1px solid rgba(180, 200, 220, 0.1);
+  border-top: 1px solid rgba(160, 195, 220, 0.14);
 }
 
-/* Date line */
+/* Date line — slate-rain tone as base, variants may shift hue */
 .mg-featured-date {
   display: block;
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #9e7e36;
-  opacity: 0.8;
-  margin-bottom: 0.38rem;
   font-style: normal;
+  margin-bottom: 0.4rem;
+  color: #7a9eb8;
 }
 
-/* Link: manuscript-ink quality */
-.mg-featured-item a {
-  color: #c8a84b;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(200, 168, 75, 0.28);
-  transition: color 160ms ease, border-bottom-color 160ms ease;
-}
-
-.mg-featured-item a:hover,
-.mg-featured-item a:focus-visible {
-  color: #e0c470;
-  border-bottom-color: rgba(224, 196, 112, 0.65);
-}
-
-/* Accessible focus ring */
-.mg-featured-item a:focus-visible {
-  outline: 2px solid rgba(200, 168, 75, 0.7);
-  outline-offset: 2px;
-  border-radius: 1px;
-}
-
-/* Paragraph margin */
+/* Paragraph text — readable against the page's light background */
 .mg-featured-item p {
   margin: 0;
   color: inherit;
 }
 
-/* ── Variation 1 — Cloud-margin annotation
-   Fine rain-trace on the left, gold left rule, open breathing
-   ─────────────────────────────────────────────────────────── */
-.mg-featured-item:nth-child(7n+1) {
-  border-left: 2px solid rgba(200, 168, 75, 0.32);
-  padding-left: 1.5rem;
-  animation: mg-entry-breathe 9s ease-in-out infinite;
+/* Links */
+.mg-featured-item a {
+  color: #3a7ca8;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(58, 124, 168, 0.35);
+  transition: color 180ms ease, border-bottom-color 180ms ease;
 }
 
-.mg-featured-item:nth-child(7n+1)::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  background: repeating-linear-gradient(
-    to bottom,
-    rgba(180, 210, 230, 0.18) 0px,
-    rgba(180, 210, 230, 0.18) 1px,
-    transparent 1px,
-    transparent 9px
-  );
-  pointer-events: none;
+.mg-featured-item a:hover,
+.mg-featured-item a:focus-visible {
+  color: #1e5f8a;
+  border-bottom-color: rgba(30, 95, 138, 0.65);
 }
 
-.mg-featured-item:nth-child(7n+1) .mg-featured-date {
-  color: #c8a84b;
-  opacity: 0.75;
+/* Accessible focus ring — rain-blue */
+.mg-featured-item a:focus-visible {
+  outline: 2px solid rgba(58, 124, 168, 0.8);
+  outline-offset: 2px;
+  border-radius: 1px;
 }
 
-/* ── Variation 2 — Wet parchment indent
-   Slight indent, understated, evokes marginalia on rain-damp paper
-   ─────────────────────────────────────────────────────────── */
-.mg-featured-item:nth-child(7n+2) {
-  border-left: 1px solid rgba(180, 200, 220, 0.18);
-  padding-left: 2rem;
-  padding-right: 0.5rem;
-  background:
-    linear-gradient(
-      to right,
-      rgba(12, 24, 40, 0.06) 0%,
-      transparent 5%
-    );
-}
-
-.mg-featured-item:nth-child(7n+2) .mg-featured-date {
-  letter-spacing: 0.22em;
-  opacity: 0.65;
-}
-
-/* ── Variation 3 — Lightning-scar left rule
-   Jagged feel via a dashed border; occasional subtle flash
-   ─────────────────────────────────────────────────────────── */
-.mg-featured-item:nth-child(7n+3) {
-  border-left: 1px dashed rgba(200, 168, 75, 0.38);
+/* ══════════════════════════════════════════════════════════════
+   VARIANT 1 — Heavy rain curtain
+   A dense diagonal rain-line texture fills the left third.
+   Left rule: strong slate-blue. Date: rain grey.
+   ══════════════════════════════════════════════════════════════ */
+.mg-featured-item:nth-child(8n+1) {
+  border-left: 3px solid rgba(74, 112, 148, 0.7);
   padding-left: 1.6rem;
+  animation: mg-fe-rule-wash 8s ease-in-out infinite;
 }
 
-.mg-featured-item:nth-child(7n+3)::after {
+.mg-featured-item:nth-child(8n+1)::before {
   content: '';
   position: absolute;
-  inset: 0;
-  background: rgba(200, 225, 248, 0.04);
+  top: 0; left: 0;
+  width: 56px;
+  height: 100%;
+  background-image: repeating-linear-gradient(
+    168deg,
+    transparent 0px,
+    transparent 7px,
+    rgba(160, 200, 228, 0.11) 7px,
+    rgba(160, 200, 228, 0.11) 8px
+  );
+  animation: mg-fe-rain-scroll 2s linear infinite;
   pointer-events: none;
-  animation: mg-flash-scar 14s ease-in-out infinite 3s;
 }
 
-.mg-featured-item:nth-child(7n+3) .mg-featured-date {
-  color: #a8bfd4;
-  opacity: 0.7;
-  letter-spacing: 0.14em;
+.mg-featured-item:nth-child(8n+1) .mg-featured-date {
+  color: #6a9ab8;
 }
 
-/* ── Variation 4 — Mountain horizon bottom rule
-   A fine line below recalls the distant treeline horizon
-   ─────────────────────────────────────────────────────────── */
-.mg-featured-item:nth-child(7n+4) {
-  border-left: none;
-  border-bottom: 1px solid rgba(42, 99, 56, 0.45);
-  padding-left: 0.9rem;
-  padding-bottom: 1.2rem;
-}
-
-.mg-featured-item:nth-child(7n+4) + .mg-featured-item {
-  border-top: none;
-}
-
-.mg-featured-item:nth-child(7n+4)::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
+/* ══════════════════════════════════════════════════════════════
+   VARIANT 2 — Deep cloud layer
+   Dark indigo-grey wash, left rule in deep cloud colour.
+   Evokes the banner's heaviest cloud masses.
+   ══════════════════════════════════════════════════════════════ */
+.mg-featured-item:nth-child(8n+2) {
+  border-left: 4px solid rgba(35, 52, 78, 0.7);
+  padding-left: 1.6rem;
   background: linear-gradient(
     to right,
-    transparent,
-    rgba(42, 99, 56, 0.5) 15%,
-    rgba(42, 99, 56, 0.6) 50%,
-    rgba(42, 99, 56, 0.5) 85%,
-    transparent
+    rgba(26, 37, 58, 0.09) 0%,
+    rgba(26, 37, 58, 0.04) 30%,
+    transparent 60%
+  );
+  animation: mg-fe-cloud-sway 18s ease-in-out infinite;
+}
+
+.mg-featured-item:nth-child(8n+2)::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse 70% 80% at 0% 50%,
+    rgba(30, 45, 74, 0.1) 0%,
+    transparent 100%
   );
   pointer-events: none;
 }
 
-.mg-featured-item:nth-child(7n+4) .mg-featured-date {
-  color: #7aab88;
-  opacity: 0.72;
-}
-
-/* ── Variation 5 — Cloud-drift annotation
-   Slow lateral breathing; left rule slightly thicker
-   ─────────────────────────────────────────────────────────── */
-.mg-featured-item:nth-child(7n+5) {
-  border-left: 3px solid rgba(62, 82, 117, 0.5);
-  padding-left: 1.5rem;
-  animation: mg-entry-drift 18s ease-in-out infinite 2s;
-}
-
-.mg-featured-item:nth-child(7n+5) .mg-featured-date {
-  color: #8aa8c4;
-  opacity: 0.72;
-  letter-spacing: 0.16em;
-}
-
-/* ── Variation 6 — Gold miniature-painting accent
-   Top gold rule echoes the banner's Pahari frame convention
-   ─────────────────────────────────────────────────────────── */
-.mg-featured-item:nth-child(7n+6) {
-  border-left: none;
-  border-top: 1px solid rgba(200, 168, 75, 0.35);
-  padding-left: 0.9rem;
-  padding-top: 1.15rem;
-}
-
-.mg-featured-item:nth-child(7n+6) + .mg-featured-item {
-  border-top: none;
-}
-
-.mg-featured-item:nth-child(7n+6)::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    rgba(158, 126, 54, 0.4) 8%,
-    rgba(200, 168, 75, 0.65) 30%,
-    rgba(200, 168, 75, 0.72) 50%,
-    rgba(200, 168, 75, 0.65) 70%,
-    rgba(158, 126, 54, 0.4) 92%,
-    transparent
-  );
-  pointer-events: none;
-}
-
-.mg-featured-item:nth-child(7n+6) .mg-featured-date {
-  color: #c8a84b;
-  opacity: 0.82;
+.mg-featured-item:nth-child(8n+2) .mg-featured-date {
+  color: #8da8c4;
   letter-spacing: 0.2em;
 }
 
-/* ── Variation 7 — Rain-curtain background trace
-   Very faint diagonal rain texture behind the entry
-   ─────────────────────────────────────────────────────────── */
-.mg-featured-item:nth-child(7n+0) {
-  border-left: 1px solid rgba(160, 195, 220, 0.25);
-  padding-left: 1.5rem;
-  background-image: repeating-linear-gradient(
-    172deg,
-    transparent 0px,
-    transparent 18px,
-    rgba(170, 205, 228, 0.035) 18px,
-    rgba(170, 205, 228, 0.035) 19px
-  );
-  animation: mg-rain-trace 4s linear infinite;
+/* ══════════════════════════════════════════════════════════════
+   VARIANT 3 — Mountain horizon
+   Bold bottom-line in deep monsoon green.
+   No left border. Spacious, ground-level feeling.
+   ══════════════════════════════════════════════════════════════ */
+.mg-featured-item:nth-child(8n+3) {
+  border-left: none;
+  border-bottom: 2px solid rgba(42, 99, 56, 0.55);
+  padding-left: 0.9rem;
+  padding-bottom: 1.3rem;
+  animation: mg-fe-horizon-breathe 12s ease-in-out infinite;
 }
 
-.mg-featured-item:nth-child(7n+0) .mg-featured-date {
-  color: #98b8cc;
-  opacity: 0.7;
+.mg-featured-item:nth-child(8n+3) + .mg-featured-item {
+  border-top: none;
+}
+
+/* A faint green horizon wash at the foot */
+.mg-featured-item:nth-child(8n+3)::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 28px;
+  background: linear-gradient(
+    to top,
+    rgba(26, 66, 38, 0.09),
+    transparent
+  );
+  pointer-events: none;
+}
+
+.mg-featured-item:nth-child(8n+3) .mg-featured-date {
+  color: #6fa880;
+}
+
+.mg-featured-item:nth-child(8n+3) a {
+  color: #3a8c58;
+  border-bottom-color: rgba(58, 140, 88, 0.35);
+}
+
+.mg-featured-item:nth-child(8n+3) a:hover,
+.mg-featured-item:nth-child(8n+3) a:focus-visible {
+  color: #266840;
+  border-bottom-color: rgba(38, 104, 64, 0.65);
+}
+
+.mg-featured-item:nth-child(8n+3) a:focus-visible {
+  outline-color: rgba(58, 140, 88, 0.8);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   VARIANT 4 — Low mist / horizon veil
+   Full-width mist strip rising from the bottom.
+   Soft blue-grey tonal wash with animated pulse.
+   ══════════════════════════════════════════════════════════════ */
+.mg-featured-item:nth-child(8n+4) {
+  border-left: 2px solid rgba(120, 155, 185, 0.45);
+  padding-left: 1.5rem;
+}
+
+.mg-featured-item:nth-child(8n+4)::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 55%;
+  background: linear-gradient(
+    to top,
+    rgba(26, 48, 72, 0.1) 0%,
+    rgba(30, 50, 78, 0.05) 50%,
+    transparent 100%
+  );
+  animation: mg-fe-veil-drift 11s ease-in-out infinite 1s;
+  pointer-events: none;
+  transform-origin: bottom center;
+}
+
+.mg-featured-item:nth-child(8n+4) .mg-featured-date {
+  color: #7fa8c4;
   letter-spacing: 0.15em;
 }
 
-/* ── Mobile: remove anything that could clip or crowd ──────── */
+/* ══════════════════════════════════════════════════════════════
+   VARIANT 5 — Wide-margin rain scatter
+   Full-width rain lines across the entry, low opacity,
+   resembling rain through a window on wet paper.
+   ══════════════════════════════════════════════════════════════ */
+.mg-featured-item:nth-child(8n+5) {
+  border-left: 1px solid rgba(140, 180, 210, 0.4);
+  padding-left: 1.5rem;
+  background-image: repeating-linear-gradient(
+    170deg,
+    transparent 0px,
+    transparent 22px,
+    rgba(155, 196, 224, 0.07) 22px,
+    rgba(155, 196, 224, 0.07) 23px
+  );
+  animation: mg-fe-rain-scroll 3.5s linear infinite;
+}
+
+.mg-featured-item:nth-child(8n+5) .mg-featured-date {
+  color: #6898b8;
+  letter-spacing: 0.13em;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   VARIANT 6 — Gold Pahari accent (secondary; used sparingly)
+   Echoes the banner's frame. Top rule only — miniature
+   border-band convention. Gold date. No left border.
+   ══════════════════════════════════════════════════════════════ */
+.mg-featured-item:nth-child(8n+6) {
+  border-left: none;
+  border-top: 1px solid rgba(200, 168, 75, 0.42);
+  padding-left: 0.9rem;
+  padding-top: 1.2rem;
+}
+
+.mg-featured-item:nth-child(8n+6) + .mg-featured-item {
+  border-top: none;
+}
+
+/* Gold gradient bloom on the top rule */
+.mg-featured-item:nth-child(8n+6)::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(158, 126, 54, 0.4) 10%,
+    rgba(200, 168, 75, 0.75) 35%,
+    rgba(210, 178, 90, 0.85) 50%,
+    rgba(200, 168, 75, 0.75) 65%,
+    rgba(158, 126, 54, 0.4) 90%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.mg-featured-item:nth-child(8n+6) .mg-featured-date {
+  color: #c8a84b;
+  letter-spacing: 0.22em;
+}
+
+.mg-featured-item:nth-child(8n+6) a {
+  color: #9e7e36;
+  border-bottom-color: rgba(158, 126, 54, 0.38);
+}
+
+.mg-featured-item:nth-child(8n+6) a:hover,
+.mg-featured-item:nth-child(8n+6) a:focus-visible {
+  color: #7a5e28;
+  border-bottom-color: rgba(122, 94, 40, 0.65);
+}
+
+.mg-featured-item:nth-child(8n+6) a:focus-visible {
+  outline-color: rgba(200, 168, 75, 0.8);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   VARIANT 7 — Storm-anvil top mass
+   Thick top border in deep cloud-blue, with a radial glow
+   descending from it — the underside of a cumulonimbus.
+   ══════════════════════════════════════════════════════════════ */
+.mg-featured-item:nth-child(8n+7) {
+  border-left: none;
+  border-top: 3px solid rgba(28, 45, 70, 0.75);
+  padding-left: 0.9rem;
+  padding-top: 1.2rem;
+}
+
+.mg-featured-item:nth-child(8n+7) + .mg-featured-item {
+  border-top: none;
+}
+
+.mg-featured-item:nth-child(8n+7)::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 40px;
+  background: linear-gradient(
+    to bottom,
+    rgba(22, 36, 58, 0.14) 0%,
+    transparent 100%
+  );
+  pointer-events: none;
+  animation: mg-fe-mist-pulse 10s ease-in-out infinite 2s;
+}
+
+.mg-featured-item:nth-child(8n+7) .mg-featured-date {
+  color: #8aaac8;
+  letter-spacing: 0.17em;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   VARIANT 8 — Wet earth / monsoon-drenched ground
+   Left border in deep wet-soil green. Bottom receives a damp
+   earth wash. Earthy, grounded in the landscape band.
+   ══════════════════════════════════════════════════════════════ */
+.mg-featured-item:nth-child(8n+0) {
+  border-left: 3px solid rgba(15, 48, 30, 0.65);
+  padding-left: 1.6rem;
+  background: linear-gradient(
+    to right,
+    rgba(13, 43, 24, 0.08) 0%,
+    transparent 25%
+  );
+}
+
+.mg-featured-item:nth-child(8n+0)::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    rgba(26, 66, 38, 0.45),
+    rgba(42, 99, 56, 0.28) 50%,
+    rgba(26, 66, 38, 0.45)
+  );
+  pointer-events: none;
+}
+
+.mg-featured-item:nth-child(8n+0) .mg-featured-date {
+  color: #5a9870;
+  letter-spacing: 0.16em;
+}
+
+.mg-featured-item:nth-child(8n+0) a {
+  color: #2e7a4a;
+  border-bottom-color: rgba(46, 122, 74, 0.35);
+}
+
+.mg-featured-item:nth-child(8n+0) a:hover,
+.mg-featured-item:nth-child(8n+0) a:focus-visible {
+  color: #1a5a34;
+  border-bottom-color: rgba(26, 90, 52, 0.65);
+}
+
+.mg-featured-item:nth-child(8n+0) a:focus-visible {
+  outline-color: rgba(46, 122, 74, 0.8);
+}
+
+/* ── Mobile ────────────────────────────────────────────────── */
 @media (max-width: 640px) {
   .mg-featured-item {
     padding-left: 1rem;
     padding-right: 0.5rem;
   }
 
-  .mg-featured-item:nth-child(7n+2) {
-    padding-left: 1.25rem;
+  .mg-featured-item:nth-child(8n+1),
+  .mg-featured-item:nth-child(8n+2),
+  .mg-featured-item:nth-child(8n+0) {
+    padding-left: 1.1rem;
   }
 
-  .mg-featured-item:nth-child(7n+5) {
-    padding-left: 1.1rem;
+  .mg-featured-item:nth-child(8n+3),
+  .mg-featured-item:nth-child(8n+6),
+  .mg-featured-item:nth-child(8n+7) {
+    padding-left: 0.75rem;
   }
 
   .mg-featured-date {
