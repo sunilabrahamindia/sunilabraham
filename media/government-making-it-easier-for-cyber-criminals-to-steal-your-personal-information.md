@@ -11,7 +11,7 @@ page_id: TSAP-0216
 created: 2025-12-14
 ---
 
-**Government Making It Easier for Cyber-Criminals to Steal Your Personal Information?** is an investigation published in *The Economic Times* on 3 January 2014, written by Sruthijith KK. The article exposes how multiple government agencies have published extensive personal information online—including addresses, mobile numbers, and bank account details—with inadequate access controls or misuse prevention measures. It features critical analysis from Sunil Abraham and Usha Ramanathan on the systematic violation of data protection principles and India's lack of comprehensive privacy legislation.
+**Government Making It Easier for Cyber-Criminals to Steal Your Personal Information?** is an investigation published in *The Economic Times* on 3 January 2014, written by Sruthijith KK. The article exposes how multiple government agencies have published extensive personal information online—including addresses, mobile numbers, and bank account details—with inadequate access controls or misuse prevention measures. It features critical analysis from [Sunil Abraham](/sunil/) and Usha Ramanathan on the systematic violation of data protection principles and India's lack of comprehensive privacy legislation.
 
 ## Contents
 

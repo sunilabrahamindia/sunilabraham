@@ -11,7 +11,7 @@ page_id: TSAP-0394
 created: 2026-01-03
 ---
 
-**How the Government Gains When Private Companies Use Aadhaar** is a *Scroll.in* article published on 24 March 2016. The piece investigates how private companies like TrustID began using Aadhaar for commercial authentication services before the Aadhaar legislation was even passed by Parliament. Technology policy expert Sunil Abraham highlighted how such commercial use enables the government to gather granular data on citizens' private activities, extending state surveillance beyond welfare delivery.
+**How the Government Gains When Private Companies Use Aadhaar** is a *Scroll.in* article published on 24 March 2016. The piece investigates how private companies like TrustID began using Aadhaar for commercial authentication services before the Aadhaar legislation was even passed by Parliament. Technology policy expert [Sunil Abraham](/sunil/) highlighted how such commercial use enables the government to gather granular data on citizens' private activities, extending state surveillance beyond welfare delivery.
 
 ## Contents
 

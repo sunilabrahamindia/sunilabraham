@@ -11,7 +11,7 @@ page_id: TSAP-0196
 created: 2025-12-11
 ---
 
-**Govt Should Take a Relaxed View of Violations of Flag Code in Products Sold in Foreign Countries, Experts Say** is a report published in *The Economic Times* on 13 January 2017. The piece examines the legal, cultural and regulatory questions surrounding incidents where products sold on foreign ecommerce platforms appear to violate India's flag code. Experts, including Sunil Abraham, highlight how intermediary liability protections, territorial limits of Indian law and broader global norms around creative expression complicate punitive responses.
+**Govt Should Take a Relaxed View of Violations of Flag Code in Products Sold in Foreign Countries, Experts Say** is a report published in *The Economic Times* on 13 January 2017. The piece examines the legal, cultural and regulatory questions surrounding incidents where products sold on foreign ecommerce platforms appear to violate India's flag code. Experts, including [Sunil Abraham](/sunil/), highlight how intermediary liability protections, territorial limits of Indian law and broader global norms around creative expression complicate punitive responses.
 
 ## Contents
 

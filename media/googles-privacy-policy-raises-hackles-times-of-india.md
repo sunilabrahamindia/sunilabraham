@@ -11,7 +11,7 @@ page_id: TSAP-0314
 created: 2025-12-24
 ---
 
-**Google's Privacy Policy Raises Hackles** is a news report published by *The Times of India* on 26 January 2012, written by Javed Anwer. The article examines Google's announcement that it would consolidate over 60 separate privacy policies into a single unified policy effective 1 March 2012, enabling the company to combine user data across all its services without providing an opt-out mechanism. It features commentary from Sunil Abraham criticising indefinite data retention practices and the erosion of contextual privacy boundaries between different Google services. The article was also published on [*The Economic Times*](/media/fear-data-misuse-google-privacy-policy-hackles/) on the same date.
+**Google's Privacy Policy Raises Hackles** is a news report published by *The Times of India* on 26 January 2012, written by Javed Anwer. The article examines Google's announcement that it would consolidate over 60 separate privacy policies into a single unified policy effective 1 March 2012, enabling the company to combine user data across all its services without providing an opt-out mechanism. It features commentary from [Sunil Abraham](/sunil/) criticising indefinite data retention practices and the erosion of contextual privacy boundaries between different Google services. The article was also published on [*The Economic Times*](/media/fear-data-misuse-google-privacy-policy-hackles/) on the same date.
 
 ## Contents
 

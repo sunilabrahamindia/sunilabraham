@@ -11,7 +11,7 @@ page_id: TSAP-0153
 created: 2025-12-06
 ---
 
-**Facebook's Fake News Clean-Up Hits Language Barrier** is an Economic Times article published on 13 April 2018. The report highlights the difficulties Facebook faces in tackling misinformation in India due to the country's linguistic diversity, limited natural language processing capabilities for Indic languages, and the scale of regional content shared on Facebook and WhatsApp. Experts quoted in the piece — including Sunil Abraham and Anivar Aravind — discuss gaps in AI training data, challenges in moderating local-language misinformation, and the limits of automated moderation tools.
+**Facebook's Fake News Clean-Up Hits Language Barrier** is an Economic Times article published on 13 April 2018. The report highlights the difficulties Facebook faces in tackling misinformation in India due to the country's linguistic diversity, limited natural language processing capabilities for Indic languages, and the scale of regional content shared on Facebook and WhatsApp. Experts quoted in the piece, including [Sunil Abraham](/sunil/) and Anivar Aravind, discuss gaps in AI training data, challenges in moderating local-language misinformation, and the limits of automated moderation tools.
 
 ## Contents
 

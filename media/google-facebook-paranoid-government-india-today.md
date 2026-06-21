@@ -11,7 +11,7 @@ page_id: TSAP-0694
 created: 2026-03-12
 ---
 
-**Google, Facebook Refuse to Give In to a Paranoid Government That Wants to Gag Them** is an *India Today* magazine article written by Bhavna Vij-Aurora and published on 21 January 2012 (issue date: 30 January 2012). The report covers the Indian government's legal confrontation with Google and Facebook over the removal of objectionable online content, and includes commentary from [Sunil Abraham](/sunil/) of the Centre for Internet and Society on intermediary liability under Indian IT law.
+**Google, Facebook Refuse to Give In to a Paranoid Government That Wants to Gag Them** is an *India Today* magazine article written by Bhavna Vij-Aurora and published on 21 January 2012 (issue date: 30 January 2012). The report covers the Indian government's legal confrontation with Google and Facebook over the removal of objectionable online content, and includes commentary from [Sunil Abraham](/sunil/) of the [Centre for Internet and Society](/cis/) on intermediary liability under Indian IT law.
 
 ## Contents
 

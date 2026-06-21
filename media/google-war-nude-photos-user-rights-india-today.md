@@ -11,7 +11,7 @@ page_id: TSAP-0696
 created: 2026-03-12
 ---
 
-**Google's War on Nude Photos Goes Against User Rights** is an *India Today* feature article written by Sahil Mohan Gupta and published on 25 February 2015. The piece examines Google's decision to ban sexually explicit content on its Blogger platform and explores the broader tension between private platform policies, user rights, and freedom of expression, drawing on commentary from [Sunil Abraham](/sunil/) of the Centre for Internet and Society.
+**Google's War on Nude Photos Goes Against User Rights** is an *India Today* feature article written by Sahil Mohan Gupta and published on 25 February 2015. The piece examines Google's decision to ban sexually explicit content on its Blogger platform and explores the broader tension between private platform policies, user rights, and freedom of expression, drawing on commentary from [Sunil Abraham](/sunil/) of the [Centre for Internet and Society](/cis/).
 
 ## Contents
 

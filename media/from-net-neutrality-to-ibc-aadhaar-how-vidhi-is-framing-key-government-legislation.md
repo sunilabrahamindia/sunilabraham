@@ -11,7 +11,7 @@ page_id: TSAP-0245
 created: 2025-12-17
 ---
 
-**From Net Neutrality to IBC & Aadhaar, How Vidhi Is Framing Key Government Legislation** is a news feature published in *The Economic Times* on 4 January 2018, written by Surabhi Agarwal and Samanwaya Rautray. The article profiles Vidhi Centre Legal Policy's role drafting Insolvency and Bankruptcy Code, Aadhaar Act, Companies Act amendments and TRAI differential pricing norms defeating Facebook's Free Basics, featuring Sunil Abraham's characterization as pioneering "field of one" whose absence of foreign funding confers government credibility unlike Carnegie Mellon as US MNC lobbying vehicle, whilst Supreme Court advocate Sanjay Hegde questioned conflict of interest in Arghya Sengupta arguing government position on Aadhaar privacy whilst serving Srikrishna Data Protection Committee funded by architect Nandan Nilekani's wife Rohini.
+**From Net Neutrality to IBC & Aadhaar, How Vidhi Is Framing Key Government Legislation** is a news feature published in *The Economic Times* on 4 January 2018, written by Surabhi Agarwal and Samanwaya Rautray. The article profiles Vidhi Centre Legal Policy's role drafting Insolvency and Bankruptcy Code, Aadhaar Act, Companies Act amendments and TRAI differential pricing norms defeating Facebook's Free Basics, featuring [Sunil Abraham](/sunil/)'s characterization as pioneering "field of one" whose absence of foreign funding confers government credibility unlike Carnegie Mellon as US MNC lobbying vehicle, whilst Supreme Court advocate Sanjay Hegde questioned conflict of interest in Arghya Sengupta arguing government position on Aadhaar privacy whilst serving Srikrishna Data Protection Committee funded by architect Nandan Nilekani's wife Rohini.
 
 ## Contents
 
