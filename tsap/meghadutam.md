@@ -584,7 +584,7 @@ The event will continue throughout the monsoon season of 2026.
   <p>
     <a href="/media/privacy-ruling-puts-tech-industry-on-notice-cnnmoney/">
       Privacy Ruling Puts Tech Industry on Notice
-    </a> — A 2017 CNN report examining the implications of the Supreme Court's privacy judgment for technology companies and digital rights in India, featuring comments from Sunil Abraham.
+    </a> — Selected for Meghadutam because it documents contemporary reactions to the Supreme Court's landmark privacy judgment and captures an important moment in the development of India's digital rights and data protection debates.
   </p>
 </div>
 
