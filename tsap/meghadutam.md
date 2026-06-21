@@ -578,6 +578,16 @@ The event will continue throughout the monsoon season of 2026.
   </p>
 </div>
 
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Sunday, 21 June 2026</div>
+
+  <p>
+    <a href="/media/privacy-ruling-puts-tech-industry-on-notice-cnnmoney/">
+      Privacy Ruling Puts Tech Industry on Notice
+    </a> — A 2017 CNN report examining the implications of the Supreme Court's privacy judgment for technology companies and digital rights in India, featuring comments from Sunil Abraham.
+  </p>
+</div>
+
 <style>
   /* ============================================================
      MEGHADUTAM 2026 — TSAP Hero Banner
