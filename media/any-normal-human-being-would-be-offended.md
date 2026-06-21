@@ -11,7 +11,7 @@ page_id: TSAP-0205
 created: 2025-12-12
 ---
 
-**'Any Normal Human Being Would Be Offended'** is a blog post published on *The New York Times* India blog on 6 December 2011, written by Heather Timmons. The article reports on Communications Minister Kapil Sibal's public confirmation of government demands for social media platforms to pre-screen and remove offensive content, featuring critical commentary from Sunil Abraham on the technical infeasibility and constitutional implications of such prescreening requirements, alongside responses from major technology companies navigating India's increasingly restrictive approach to internet freedom.
+**'Any Normal Human Being Would Be Offended'** is a blog post published on *The New York Times* India blog on 6 December 2011, written by Heather Timmons. The article reports on Communications Minister Kapil Sibal's public confirmation of government demands for social media platforms to pre-screen and remove offensive content, featuring critical commentary from [Sunil Abraham](/sunil/) on the technical infeasibility and constitutional implications of such prescreening requirements, alongside responses from major technology companies navigating India's increasingly restrictive approach to internet freedom.
 
 ## Contents
 

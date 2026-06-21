@@ -73,7 +73,7 @@ The contradictory official responses highlighted confusion within the government
 
 The incident occurred against a backdrop of persistent vulnerabilities in Indian government digital infrastructure. Parliamentary data revealed that between April 2017 and January 2018, 22,207 Indian websites, including 114 government portals, had been compromised. For 2018 specifically, 15,779 websites were hacked up to November, including 105 government sites. The Indian Computer Emergency Response Team had issued 301 security alerts during the April 2017–January 2018 period regarding potential vulnerabilities.
 
-Abraham's assessment pointed to systemic issues beyond individual incidents. Government websites hosted on NIC infrastructure frequently suffered from inadequate server hardening, delayed security patch deployment, and insufficient configuration auditing. The 2017 Ministry of Home Affairs breach referenced in the article similarly stemmed from preventable misconfigurations rather than sophisticated attack techniques.
+[Sunil Abraham](/sunil/)'s assessment pointed to systemic issues beyond individual incidents. Government websites hosted on NIC infrastructure frequently suffered from inadequate server hardening, delayed security patch deployment, and insufficient configuration auditing. The 2017 Ministry of Home Affairs breach referenced in the article similarly stemmed from preventable misconfigurations rather than sophisticated attack techniques.
 
 ## External Link
 
