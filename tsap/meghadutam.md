@@ -864,23 +864,23 @@ The event will continue throughout the monsoon season of 2026.
 
   /* Lightning group */
   .mg-lightning-group {
-    animation: mg-lightning-flash 6s ease-in-out infinite 4s;
+    animation: mg-lightning-flash 5s ease-in-out infinite 4s;
   }
   .mg-lightning-group-2 {
-    animation: mg-lightning-flash 10s ease-in-out infinite 1s;
+    animation: mg-lightning-flash 8s ease-in-out infinite 1s;
   }
 
   /* Rain SVG groups animate at slightly different rates */
   .mg-rain-anim {
-    animation: mg-rain-fall 0.7s linear infinite;
+    animation: mg-rain-fall 0.6s linear infinite;
   }
 
   .mg-rain-anim-slow {
-    animation: mg-rain-fall-slow 0.92s linear infinite;
+    animation: mg-rain-fall-slow 0.72s linear infinite;
   }
 
   .mg-rain-anim-fast {
-    animation: mg-rain-fall-fast 0.56s linear infinite;
+    animation: mg-rain-fall-fast 0.46s linear infinite;
   }
 
   /* Text entrance */
