@@ -44,7 +44,11 @@ homepage_featured: true
 
 <p>Privacy is now a right in India. Here's what that means for the tech industry</p>
 
+<hr class="article-separator">
+
 <p>India's top court has put tech companies on notice.</p>
+
+<hr class="article-separator">
 
 <p>In ruling that privacy is a fundamental right, the country's Supreme Court singled out tech firms for gathering huge amounts of data: Facebook knows who we are friends with, the justices wrote, while Alibaba studies our shopping habits and Airbnb tracks our travel.</p>
 
@@ -148,6 +152,11 @@ Sunil Abraham's intervention in the piece is framed in that immediate legal cont
 }
 .copy-btn-full:hover {
   background: #e5e5e5;
+}
+  .article-separator {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  margin: 0.75rem 0 1rem 0;
 }
 </style>
 
