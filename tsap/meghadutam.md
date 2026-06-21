@@ -574,7 +574,7 @@ The event will continue throughout the monsoon season of 2026.
   <p>
     <a href="/media/aadhaar-biometrique-liberation/">
       «En Inde, le biométrique version très grand public» (Biometrics in India Goes Mainstream)
-    </a> — Preserved a 2017 <em>Libération</em> article in its original French, accompanied by an English translation and contextual notes. The page documents international coverage of Aadhaar and records Sunil Abraham's contribution to debates on biometric identification, privacy, and surveillance.
+    </a> — A bilingual edition of a 2017 Libération article in French and English. The article examines the expansion of Aadhaar in India and includes comments from Sunil Abraham on biometric security, privacy, and surveillance.
   </p>
 </div>
 
