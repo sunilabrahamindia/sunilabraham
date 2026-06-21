@@ -2,7 +2,7 @@
 layout: default
 title: "«Биометрические ID в Индии становятся инструментом тотальной слежки» (Biometric IDs in India Are Becoming a Tool of Total Surveillance)"
 description: "A Hightech.fm report by Yulia Krasilnikova on Aadhaar's surveillance risks, including Sunil Abraham's remarks on biometrics becoming a weapon."
-categories: [Media mentions]
+categories: [Media mentions, Non-English language content]
 date: 2017-03-31
 authors: ["Yulia Krasilnikova (Юлия Красильникова)"]
 source: "Hightech.fm (Хайтек)"

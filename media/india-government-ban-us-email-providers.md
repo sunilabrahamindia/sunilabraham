@@ -2,7 +2,7 @@
 layout: default
 title: "Indien: Regierung will Nutzung von US-Mailprovidern in Verwaltungen verbieten (India: Government Wants to Ban Use of US Email Providers in Administration)"
 description: "A netzpolitik.org report on the Indian government's plan to stop officials from using US email providers for official communication after surveillance concerns."
-categories: [Media mentions]
+categories: [Media mentions, Non-English language content]
 date: 2013-09-03
 authors: ["Nicolas Fennen"]
 source: "netzpolitik.org"

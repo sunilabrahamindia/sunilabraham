@@ -2,7 +2,7 @@
 layout: default
 title: "Sunil Abraham, CIS : «Avec l'e-G8, Sarkozy restreint la liberté d'expression» (Sunil Abraham, CIS: 'With the e-G8, Sarkozy Is Restricting Freedom of Expression')"
 description: "A LeMagIT interview by Valéry Rieß-Marchive with Sunil Abraham on India's IT Amendment Rules 2011 and Nicolas Sarkozy's e-G8 forum concept of a 'civilised internet'."
-categories: [Interviews, Media mentions]
+categories: [Interviews, Media mentions, Non-English language content]
 date: 2011-05-24
 authors: ["Valéry Rieß-Marchive"]
 source: "LeMagIT"

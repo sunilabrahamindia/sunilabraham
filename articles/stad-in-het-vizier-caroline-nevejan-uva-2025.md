@@ -2,7 +2,7 @@
 layout: default
 title: "Stad in het Vizier (City in Focus)"
 description: "A farewell lecture by Caroline Nevejan delivered at the University of Amsterdam on 26 June 2025, reflecting on her tenure as Professor of Designing Urban Experience and Chief Science Officer of the City of Amsterdam. The lecture cites Sunil Abraham in a discussion of digital culture and the homogenisation of online narratives."
-categories: [Media mentions]
+categories: [Media mentions, Non-English language content]
 date: 2025-06-26
 authors: ["Caroline Nevejan"]
 source: "Chief Science Office, City of Amsterdam / University of Amsterdam"

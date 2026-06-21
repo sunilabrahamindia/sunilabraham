@@ -2,7 +2,7 @@
 layout: default
 title: "Internet, szabadon (Internet, Free)"
 description: "A report by anarki in index.hu from 22 September 2010 on the Internet at Liberty 2010 conference in Budapest, where Sunil Abraham is named as the Indian guest who spoke about pornography blocking in India, including the Savita Bhabhi webcomic."
-categories: [Media mentions]
+categories: [Media mentions, Non-English language content]
 date: 2010-09-22
 authors: ["anarki"]
 source: "index.hu"

@@ -2,7 +2,7 @@
 layout: default
 title: "خبراء البرنامج الإنمائي للأمم المتحدة يبحثون البرمجيات المفتوحة المصدر في المملكة (UNDP Experts Discuss Open Source Software in the Kingdom)"
 description: "An Al-Riyadh report by Mohammed Al-Ghanami on a UNDP session with King Abdulaziz City for Science and Technology exploring open-source software adoption in Saudi Arabia."
-categories: [Media mentions]
+categories: [Media mentions, Non-English language content]
 date: 2007-06-17
 authors: ["Mohammed Al-Ghanami (محمد الغنامي)"]
 source: "Al-Riyadh (الرياض)"
