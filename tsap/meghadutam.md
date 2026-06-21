@@ -567,6 +567,17 @@ The event will continue throughout the monsoon season of 2026.
   </p>
 </div>
 
+## Featured works
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Sunday, 21 June 2026</div>
+
+  <p>
+    <a href="/media/aadhaar-biometrique-liberation/">
+      «En Inde, le biométrique version très grand public» (Biometrics in India Goes Mainstream)
+    </a> — Preserved a 2017 <em>Libération</em> article in its original French, accompanied by an English translation and contextual notes. The page documents international coverage of Aadhaar and records Sunil Abraham's contribution to debates on biometric identification, privacy, and surveillance.
+  </p>
+</div>
+
 <style>
   /* ============================================================
      MEGHADUTAM 2026 — TSAP Hero Banner
@@ -922,5 +933,312 @@ The event will continue throughout the monsoon season of 2026.
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   color: #444;
   font-weight: 400;
+}
+     /* ============================================================
+   MEGHADUTAM 2026 — Featured Works Entries
+   Monsoon chronicle / illuminated manuscript aesthetic
+   CSS only · 7 repeating variations via :nth-child()
+   ============================================================ */
+
+/* ── Keyframes ─────────────────────────────────────────────── */
+
+@keyframes mg-entry-drift {
+  0%   { opacity: 0.88; transform: translateX(0); }
+  50%  { opacity: 1;    transform: translateX(1px); }
+  100% { opacity: 0.88; transform: translateX(0); }
+}
+
+@keyframes mg-entry-breathe {
+  0%, 100% { border-left-color: rgba(200, 168, 75, 0.22); }
+  50%       { border-left-color: rgba(200, 168, 75, 0.45); }
+}
+
+@keyframes mg-flash-scar {
+  0%, 90%, 100% { opacity: 0; }
+  92%            { opacity: 0.18; }
+  94%            { opacity: 0; }
+  96%            { opacity: 0.12; }
+}
+
+@keyframes mg-rain-trace {
+  0%   { background-position: 0 0; }
+  100% { background-position: 0 120px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mg-featured-item,
+  .mg-featured-item::before,
+  .mg-featured-item::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ── Shared base ───────────────────────────────────────────── */
+
+.mg-featured-item {
+  position: relative;
+  padding: 1.05rem 1.1rem 1.05rem 1.4rem;
+  margin-block: 0;
+  border-left: 2px solid rgba(200, 168, 75, 0.22);
+  overflow: hidden;
+  /* Inherit the page's body font; do not override family */
+  font-size: inherit;
+  line-height: 1.65;
+  /* Ensure nothing bleeds on small screens */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Separator between items, styled as a fine horizon line */
+.mg-featured-item + .mg-featured-item {
+  border-top: 1px solid rgba(180, 200, 220, 0.1);
+}
+
+/* Date line */
+.mg-featured-date {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9e7e36;
+  opacity: 0.8;
+  margin-bottom: 0.38rem;
+  font-style: normal;
+}
+
+/* Link: manuscript-ink quality */
+.mg-featured-item a {
+  color: #c8a84b;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(200, 168, 75, 0.28);
+  transition: color 160ms ease, border-bottom-color 160ms ease;
+}
+
+.mg-featured-item a:hover,
+.mg-featured-item a:focus-visible {
+  color: #e0c470;
+  border-bottom-color: rgba(224, 196, 112, 0.65);
+}
+
+/* Accessible focus ring */
+.mg-featured-item a:focus-visible {
+  outline: 2px solid rgba(200, 168, 75, 0.7);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+
+/* Paragraph margin */
+.mg-featured-item p {
+  margin: 0;
+  color: inherit;
+}
+
+/* ── Variation 1 — Cloud-margin annotation
+   Fine rain-trace on the left, gold left rule, open breathing
+   ─────────────────────────────────────────────────────────── */
+.mg-featured-item:nth-child(7n+1) {
+  border-left: 2px solid rgba(200, 168, 75, 0.32);
+  padding-left: 1.5rem;
+  animation: mg-entry-breathe 9s ease-in-out infinite;
+}
+
+.mg-featured-item:nth-child(7n+1)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(180, 210, 230, 0.18) 0px,
+    rgba(180, 210, 230, 0.18) 1px,
+    transparent 1px,
+    transparent 9px
+  );
+  pointer-events: none;
+}
+
+.mg-featured-item:nth-child(7n+1) .mg-featured-date {
+  color: #c8a84b;
+  opacity: 0.75;
+}
+
+/* ── Variation 2 — Wet parchment indent
+   Slight indent, understated, evokes marginalia on rain-damp paper
+   ─────────────────────────────────────────────────────────── */
+.mg-featured-item:nth-child(7n+2) {
+  border-left: 1px solid rgba(180, 200, 220, 0.18);
+  padding-left: 2rem;
+  padding-right: 0.5rem;
+  background:
+    linear-gradient(
+      to right,
+      rgba(12, 24, 40, 0.06) 0%,
+      transparent 5%
+    );
+}
+
+.mg-featured-item:nth-child(7n+2) .mg-featured-date {
+  letter-spacing: 0.22em;
+  opacity: 0.65;
+}
+
+/* ── Variation 3 — Lightning-scar left rule
+   Jagged feel via a dashed border; occasional subtle flash
+   ─────────────────────────────────────────────────────────── */
+.mg-featured-item:nth-child(7n+3) {
+  border-left: 1px dashed rgba(200, 168, 75, 0.38);
+  padding-left: 1.6rem;
+}
+
+.mg-featured-item:nth-child(7n+3)::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(200, 225, 248, 0.04);
+  pointer-events: none;
+  animation: mg-flash-scar 14s ease-in-out infinite 3s;
+}
+
+.mg-featured-item:nth-child(7n+3) .mg-featured-date {
+  color: #a8bfd4;
+  opacity: 0.7;
+  letter-spacing: 0.14em;
+}
+
+/* ── Variation 4 — Mountain horizon bottom rule
+   A fine line below recalls the distant treeline horizon
+   ─────────────────────────────────────────────────────────── */
+.mg-featured-item:nth-child(7n+4) {
+  border-left: none;
+  border-bottom: 1px solid rgba(42, 99, 56, 0.45);
+  padding-left: 0.9rem;
+  padding-bottom: 1.2rem;
+}
+
+.mg-featured-item:nth-child(7n+4) + .mg-featured-item {
+  border-top: none;
+}
+
+.mg-featured-item:nth-child(7n+4)::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(42, 99, 56, 0.5) 15%,
+    rgba(42, 99, 56, 0.6) 50%,
+    rgba(42, 99, 56, 0.5) 85%,
+    transparent
+  );
+  pointer-events: none;
+}
+
+.mg-featured-item:nth-child(7n+4) .mg-featured-date {
+  color: #7aab88;
+  opacity: 0.72;
+}
+
+/* ── Variation 5 — Cloud-drift annotation
+   Slow lateral breathing; left rule slightly thicker
+   ─────────────────────────────────────────────────────────── */
+.mg-featured-item:nth-child(7n+5) {
+  border-left: 3px solid rgba(62, 82, 117, 0.5);
+  padding-left: 1.5rem;
+  animation: mg-entry-drift 18s ease-in-out infinite 2s;
+}
+
+.mg-featured-item:nth-child(7n+5) .mg-featured-date {
+  color: #8aa8c4;
+  opacity: 0.72;
+  letter-spacing: 0.16em;
+}
+
+/* ── Variation 6 — Gold miniature-painting accent
+   Top gold rule echoes the banner's Pahari frame convention
+   ─────────────────────────────────────────────────────────── */
+.mg-featured-item:nth-child(7n+6) {
+  border-left: none;
+  border-top: 1px solid rgba(200, 168, 75, 0.35);
+  padding-left: 0.9rem;
+  padding-top: 1.15rem;
+}
+
+.mg-featured-item:nth-child(7n+6) + .mg-featured-item {
+  border-top: none;
+}
+
+.mg-featured-item:nth-child(7n+6)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(158, 126, 54, 0.4) 8%,
+    rgba(200, 168, 75, 0.65) 30%,
+    rgba(200, 168, 75, 0.72) 50%,
+    rgba(200, 168, 75, 0.65) 70%,
+    rgba(158, 126, 54, 0.4) 92%,
+    transparent
+  );
+  pointer-events: none;
+}
+
+.mg-featured-item:nth-child(7n+6) .mg-featured-date {
+  color: #c8a84b;
+  opacity: 0.82;
+  letter-spacing: 0.2em;
+}
+
+/* ── Variation 7 — Rain-curtain background trace
+   Very faint diagonal rain texture behind the entry
+   ─────────────────────────────────────────────────────────── */
+.mg-featured-item:nth-child(7n+0) {
+  border-left: 1px solid rgba(160, 195, 220, 0.25);
+  padding-left: 1.5rem;
+  background-image: repeating-linear-gradient(
+    172deg,
+    transparent 0px,
+    transparent 18px,
+    rgba(170, 205, 228, 0.035) 18px,
+    rgba(170, 205, 228, 0.035) 19px
+  );
+  animation: mg-rain-trace 4s linear infinite;
+}
+
+.mg-featured-item:nth-child(7n+0) .mg-featured-date {
+  color: #98b8cc;
+  opacity: 0.7;
+  letter-spacing: 0.15em;
+}
+
+/* ── Mobile: remove anything that could clip or crowd ──────── */
+@media (max-width: 640px) {
+  .mg-featured-item {
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  .mg-featured-item:nth-child(7n+2) {
+    padding-left: 1.25rem;
+  }
+
+  .mg-featured-item:nth-child(7n+5) {
+    padding-left: 1.1rem;
+  }
+
+  .mg-featured-date {
+    letter-spacing: 0.1em;
+  }
 }
 </style>
