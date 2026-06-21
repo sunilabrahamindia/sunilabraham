@@ -10,7 +10,7 @@ page_id: TSAP-0270
 created: 2025-12-20
 ---
 
-**Govt Wants to Monitor Facebook, Twitter** is a news report from *Bangalore Mirror* published on 8 August 2011. It covers the Union home ministry's directive to the department of telecom to ensure monitoring of social networking sites, and includes commentary from Sunil Abraham on the counterproductive nature of blanket surveillance practices.
+**Govt Wants to Monitor Facebook, Twitter** is a news report from *Bangalore Mirror* published on 8 August 2011. It covers the Union home ministry's directive to the department of telecom to ensure monitoring of social networking sites, and includes commentary from [Sunil Abraham](/sunil/) on the counterproductive nature of blanket surveillance practices.
 
 ## Contents
 

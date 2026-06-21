@@ -11,7 +11,7 @@ page_id: TSAP-0395
 created: 2026-01-03
 ---
 
-**India's Ballot Battle Will Also Run Through Facebook** is a *Hindustan Times Tech* article published on 4 March 2014. The report covers Facebook's launch of an election tracker tool for India's 2014 general elections and examines research suggesting social media could influence outcomes in 160 parliamentary constituencies. The piece features commentary from Sunil Abraham and a skeptical response from Communist Party MP Gurudas Dasgupta.
+**India's Ballot Battle Will Also Run Through Facebook** is a *Hindustan Times Tech* article published on 4 March 2014. The report covers Facebook's launch of an election tracker tool for India's 2014 general elections and examines research suggesting social media could influence outcomes in 160 parliamentary constituencies. The piece features commentary from [Sunil Abraham](/sunil/) and a skeptical response from Communist Party MP Gurudas Dasgupta.
 
 ## Contents
 

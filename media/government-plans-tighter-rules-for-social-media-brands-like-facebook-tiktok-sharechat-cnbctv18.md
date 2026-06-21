@@ -11,7 +11,7 @@ page_id: TSAP-0683
 created: 2026-03-10
 ---
 
-**Government Plans Tighter Rules for Social Media Brands Like Facebook, TikTok, ShareChat** is a *CNBC-TV18* news report published on 28 August 2019, written by Sunny Sen. The article covers the Indian government's plans to impose higher accountability on social media platforms by narrowing the scope of intermediary safe harbour protections, particularly for platforms that curate or create content. [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, is quoted on the competition harms that arise when intermediaries participate in the very markets they host, and on the nuances of user-granted content licences.
+**Government Plans Tighter Rules for Social Media Brands Like Facebook, TikTok, ShareChat** is a *CNBC-TV18* news report published on 28 August 2019, written by Sunny Sen. The article covers the Indian government's plans to impose higher accountability on social media platforms by narrowing the scope of intermediary safe harbour protections, particularly for platforms that curate or create content. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), is quoted on the competition harms that arise when intermediaries participate in the very markets they host, and on the nuances of user-granted content licences.
 
 ## Contents
 

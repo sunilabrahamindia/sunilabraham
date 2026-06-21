@@ -11,7 +11,7 @@ page_id: TSAP-0595
 created: 2026-02-19
 ---
 
-**Govt Narrative on Aadhaar Has Not Changed in the Last Six Years: Sunil Abraham** is a *Mint* interview conducted by Shreeja Sen and published on 8 March 2016. In it, Sunil Abraham, executive director of the Centre for Internet and Society (CIS), sets out his sustained technical and legal objections to the Aadhaar project — covering centralisation risks, opaque proprietary software, irrevocable biometric authentication, and the proposed Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Bill.
+**Govt Narrative on Aadhaar Has Not Changed in the Last Six Years: Sunil Abraham** is a *Mint* interview conducted by Shreeja Sen and published on 8 March 2016. In it, [Sunil Abraham](/sunil/), executive director of the [Centre for Internet and Society](/cis/) (CIS), sets out his sustained technical and legal objections to the Aadhaar project — covering centralisation risks, opaque proprietary software, irrevocable biometric authentication, and the proposed Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Bill.
 
 ## Contents
 

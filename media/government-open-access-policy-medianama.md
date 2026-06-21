@@ -11,7 +11,7 @@ page_id: TSAP-0417
 created: 2026-01-07
 ---
 
-**Indian Govt Looks to Provide Free Access to Publicly-Funded Research Works** is a *MediaNama* article published on 23 July 2014 by Riddhi Mukherjee. The report examines a draft Open Access Policy released by the Department of Biotechnology and Department of Science and Technology under the Ministry of Science and Technology, which proposes unrestricted public access to research funded through government grants. The article discusses repository mechanisms, copyright provisions, and features commentary from Sunil Abraham, then Executive Director of the Centre for Internet and Society, on the rationale for taxpayer access to publicly funded research.
+**Indian Govt Looks to Provide Free Access to Publicly-Funded Research Works** is a *MediaNama* article published on 23 July 2014 by Riddhi Mukherjee. The report examines a draft Open Access Policy released by the Department of Biotechnology and Department of Science and Technology under the Ministry of Science and Technology, which proposes unrestricted public access to research funded through government grants. The article discusses repository mechanisms, copyright provisions, and features commentary from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), on the rationale for taxpayer access to publicly funded research.
 
 ## Contents
 

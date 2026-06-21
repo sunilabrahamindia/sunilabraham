@@ -11,7 +11,7 @@ page_id: TSAP-0217
 created: 2025-12-14
 ---
 
-**How to Steer Clear of India's Strict Internet Laws** is a blog post published on *The New York Times* India blog on 20 November 2012, written by Sangeetha Rajeesh and Heather Timmons. The article examines a series of arrests for social media posts, including two women detained for a Facebook comment about a political leader's death, featuring analysis from Sunil Abraham and Pranesh Prakash on the impossibly broad scope of India's internet legislation and the lack of clear guidelines for lawful online expression.
+**How to Steer Clear of India's Strict Internet Laws** is a blog post published on *The New York Times* India blog on 20 November 2012, written by Sangeetha Rajeesh and Heather Timmons. The article examines a series of arrests for social media posts, including two women detained for a Facebook comment about a political leader's death, featuring analysis from [Sunil Abraham](/sunil/) and Pranesh Prakash on the impossibly broad scope of India's internet legislation and the lack of clear guidelines for lawful online expression.
 
 ## Contents
 

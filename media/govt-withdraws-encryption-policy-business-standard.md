@@ -10,7 +10,7 @@ page_id: TSAP-0440
 created: 2026-01-10
 ---
 
-**Govt Presses 'Undo' Button on Draft Encryption Policy** is a *Business Standard* news report published on 23 September 2015. The article covers the government's hasty withdrawal of the draft National Encryption Policy following fierce criticism from technology activists, industry executives, and opposition parties over provisions requiring 90-day plaintext storage of all encrypted communications and mandatory government access, featuring IT Minister Ravi Shankar Prasad's damage control statements, Sunil Abraham's recommendations on limiting policy scope to government agencies, and political responses from Congress and AAP characterizing the policy as totalitarian surveillance infrastructure.
+**Govt Presses 'Undo' Button on Draft Encryption Policy** is a *Business Standard* news report published on 23 September 2015. The article covers the government's hasty withdrawal of the draft National Encryption Policy following fierce criticism from technology activists, industry executives, and opposition parties over provisions requiring 90-day plaintext storage of all encrypted communications and mandatory government access, featuring IT Minister Ravi Shankar Prasad's damage control statements, [Sunil Abraham](/sunil/)'s recommendations on limiting policy scope to government agencies, and political responses from Congress and AAP characterizing the policy as totalitarian surveillance infrastructure.
 
 ## Contents
 

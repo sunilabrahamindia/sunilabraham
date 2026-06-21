@@ -11,7 +11,7 @@ page_id: TSAP-0181
 created: 2025-12-09
 ---
 
-**Government May Tie Up With Global Police, Interpol to Fight Child Pornography** is an *Economic Times* report published on 4 September 2015. The article examines the Indian government's consideration of international collaborations—including with Interpol and the UK's Internet Watch Foundation— to counter child pornography after backlash over a previous attempt to block hundreds of websites. The piece includes expert insights from Sunil Abraham on global best practices and the legal obstacles to content blocking in India.
+**Government May Tie Up With Global Police, Interpol to Fight Child Pornography** is an *Economic Times* report published on 4 September 2015. The article examines the Indian government's consideration of international collaborations—including with Interpol and the UK's Internet Watch Foundation— to counter child pornography after backlash over a previous attempt to block hundreds of websites. The piece includes expert insights from [Sunil Abraham](/sunil/) on global best practices and the legal obstacles to content blocking in India.
 
 ## Contents
 

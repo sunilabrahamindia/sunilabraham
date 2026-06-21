@@ -11,7 +11,7 @@ page_id: TSAP-0315
 created: 2025-12-24
 ---
 
-**Government Wants to Read Your Tweets, Facebook Posts** is a news report published by *The Times of India* on 11 August 2011, written by Javed Anwer. The article reveals a Ministry of Home Affairs directive to the Department of Telecom seeking access to all data on social networking sites including private messages shared between users. It includes commentary from Sunil Abraham criticising blanket surveillance as inefficient and arguing for targeted monitoring based on evidence rather than mass data collection.
+**Government Wants to Read Your Tweets, Facebook Posts** is a news report published by *The Times of India* on 11 August 2011, written by Javed Anwer. The article reveals a Ministry of Home Affairs directive to the Department of Telecom seeking access to all data on social networking sites including private messages shared between users. It includes commentary from [Sunil Abraham](/sunil/) criticising blanket surveillance as inefficient and arguing for targeted monitoring based on evidence rather than mass data collection.
 
 ## Contents
 

@@ -11,7 +11,7 @@ page_id: TSAP-0726
 created: 2026-03-18
 ---
 
-**India Backs Open Source Software for E-Governance Projects** is a *PCWorld* article by John Ribeiro, published on 29 March 2015. The report covers the Indian government's new policy mandating that all federal agencies and participating states give preference to free and open source software (OSS) in e-governance projects. [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, is quoted describing the policy as well drafted while pointing to specific areas where it could be strengthened.
+**India Backs Open Source Software for E-Governance Projects** is a *PCWorld* article by John Ribeiro, published on 29 March 2015. The report covers the Indian government's new policy mandating that all federal agencies and participating states give preference to free and open source software (OSS) in e-governance projects. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), is quoted describing the policy as well drafted while pointing to specific areas where it could be strengthened.
 
 ## Contents
 

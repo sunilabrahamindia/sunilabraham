@@ -11,7 +11,7 @@ page_id: TSAP-0182
 created: 2025-12-09
 ---
 
-**Government Washes Hands of Google's New Privacy Policy** is a report published in *The Economic Times* on 10 April 2012. The article examines the Indian government's stance on Google's then-new unified privacy policy, which had attracted significant criticism in Europe. While the government stated that the policy complied with Indian law, experts quoted in the story — including Sunil Abraham — pointed out serious gaps in the country's privacy safeguards and stressed the need for an independent regulator.
+**Government Washes Hands of Google's New Privacy Policy** is a report published in *The Economic Times* on 10 April 2012. The article examines the Indian government's stance on Google's then-new unified privacy policy, which had attracted significant criticism in Europe. While the government stated that the policy complied with Indian law, experts quoted in the story, including [Sunil Abraham](/sunil/), pointed out serious gaps in the country's privacy safeguards and stressed the need for an independent regulator.
 
 ## Contents
 
