@@ -11,7 +11,7 @@ page_id: TSAP-0230
 created: 2025-12-15
 ---
 
-**Twitter Handle: How and Why Govt Erred and What It Can Do to Be Smarter & More Effective** is an analysis published in *The Economic Times* on 26 August 2012, written by TV Mahalingam and Shantanu Nandan Sharma. The article examines the Indian government's chaotic content blocking response to morphed images and rumours that triggered mass exodus of Northeastern residents from Bangalore and other cities, featuring Sunil Abraham's assessment of legitimate public order concerns undermined by opaque implementation, alongside commentary from Nitin Pai on belated reactions and GK Pillai on counter-narrative strategies.
+**Twitter Handle: How and Why Govt Erred and What It Can Do to Be Smarter & More Effective** is an analysis published in *The Economic Times* on 26 August 2012, written by TV Mahalingam and Shantanu Nandan Sharma. The article examines the Indian government's chaotic content blocking response to morphed images and rumours that triggered mass exodus of Northeastern residents from Bangalore and other cities, featuring [Sunil Abraham](/sunil/)'s assessment of legitimate public order concerns undermined by opaque implementation, alongside commentary from Nitin Pai on belated reactions and GK Pillai on counter-narrative strategies.
 
 ## Contents
 

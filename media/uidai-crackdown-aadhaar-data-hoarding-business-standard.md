@@ -11,7 +11,7 @@ page_id: TSAP-0442
 created: 2026-01-10
 ---
 
-**Why Is the UIDAI Cracking Down on Individuals That Hoard Aadhaar Data?** is a *Business Standard* report published on 13 April 2016 by Alnoor Peermohamed. The article examines the Union information technology ministry's warning to e-commerce platforms about businesses illegally collecting and printing Aadhaar details on plastic cards, featuring analysis from Sunil Abraham, then Executive Director of the Centre for Internet and Society, and Srikanth Nadhamuni, former UIDAI technology head, on authentication bypasses, data privacy concerns, and fundamental design limitations in Aadhaar's architecture.
+**Why Is the UIDAI Cracking Down on Individuals That Hoard Aadhaar Data?** is a *Business Standard* report published on 13 April 2016 by Alnoor Peermohamed. The article examines the Union information technology ministry's warning to e-commerce platforms about businesses illegally collecting and printing Aadhaar details on plastic cards, featuring analysis from [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), and Srikanth Nadhamuni, former UIDAI technology head, on authentication bypasses, data privacy concerns, and fundamental design limitations in Aadhaar's architecture.
 
 ## Contents
 

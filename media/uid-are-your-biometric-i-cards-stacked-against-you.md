@@ -11,7 +11,7 @@ page_id: TSAP-0248
 created: 2025-12-17
 ---
 
-**UID: Are Your Biometric I-Cards Stacked Against You?** is a news investigation published in *The Economic Times* on 24 June 2012, written by M Rajshekhar. The article examines proliferation of biometric collection beyond UIDAI and NPR to PDS departments, Ministry of Rural Development, state education departments, RSBY, banks, post offices creating myriad databases without safeguards, featuring Sunil Abraham's warning that criminals can harvest fingerprints from glass without conscious cooperation whilst registrars cache biometrics duplicating transactions, alongside Usha Ramanathan's characterization of biometrics as intimate personal data that can be stolen but cannot be replaced, collected without parliamentary authorization ignoring standing committee on finance rejection of National Identification Authority of India Bill.
+**UID: Are Your Biometric I-Cards Stacked Against You?** is a news investigation published in *The Economic Times* on 24 June 2012, written by M Rajshekhar. The article examines proliferation of biometric collection beyond UIDAI and NPR to PDS departments, Ministry of Rural Development, state education departments, RSBY, banks, post offices creating myriad databases without safeguards, featuring [Sunil Abraham](/sunil/)'s warning that criminals can harvest fingerprints from glass without conscious cooperation whilst registrars cache biometrics duplicating transactions, alongside Usha Ramanathan's characterization of biometrics as intimate personal data that can be stolen but cannot be replaced, collected without parliamentary authorization ignoring standing committee on finance rejection of National Identification Authority of India Bill.
 
 ## Contents
 

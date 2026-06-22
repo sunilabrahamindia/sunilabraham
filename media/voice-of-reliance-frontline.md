@@ -11,7 +11,7 @@ page_id: TSAP-0494
 created: 2026-01-22
 ---
 
-**Voice of Reliance** is a *Frontline* cover story published on 14 September 2016 by V. Sridhar. The article examines Reliance Jio's market entry into mobile telecommunications, discussing regulatory responses, net neutrality concerns raised by the Centre for Internet and Society, and debates around India's digital divide.
+**Voice of Reliance** is a *Frontline* cover story published on 14 September 2016 by V. Sridhar. The article examines Reliance Jio's market entry into mobile telecommunications, discussing regulatory responses, net neutrality concerns raised by the [Centre for Internet and Society](/cis/), and debates around India's digital divide.
 
 ## Contents
 

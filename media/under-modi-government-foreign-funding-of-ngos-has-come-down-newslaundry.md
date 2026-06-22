@@ -11,7 +11,7 @@ page_id: TSAP-0680
 created: 2026-03-09
 ---
 
-**Under Modi Government, Foreign Funding of NGOs Has Come Down** is a *Newslaundry* investigative report published on 20 May 2016, written by Himadri Ghosh. Drawing on data obtained under the Right to Information Act from the Ministry of Home Affairs, the article documents a sharp decline in foreign contributions to Indian NGOs following the Modi government's assumption of power in 2014. [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, is quoted on the broader significance of the funding cuts for institutions working outside conventional development sectors.
+**Under Modi Government, Foreign Funding of NGOs Has Come Down** is a *Newslaundry* investigative report published on 20 May 2016, written by Himadri Ghosh. Drawing on data obtained under the Right to Information Act from the Ministry of Home Affairs, the article documents a sharp decline in foreign contributions to Indian NGOs following the Modi government's assumption of power in 2014. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), is quoted on the broader significance of the funding cuts for institutions working outside conventional development sectors.
 
 ## Contents
 

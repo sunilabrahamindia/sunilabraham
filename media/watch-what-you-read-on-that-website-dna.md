@@ -11,7 +11,7 @@ page_id: TSAP-0562
 created: 2026-02-07
 ---
 
-**Watch What You Read on That Website** is a *DNA India* article published on 19 November 2013 by NT Balanarayan. The report examines Google's decision to introduce tools allowing publishers to limit free article access, exploring reactions from readers, bloggers, and policy experts including commentary from Sunil Abraham on how publishers and platforms are responding to these changes.
+**Watch What You Read on That Website** is a *DNA India* article published on 19 November 2013 by NT Balanarayan. The report examines Google's decision to introduce tools allowing publishers to limit free article access, exploring reactions from readers, bloggers, and policy experts including commentary from [Sunil Abraham](/sunil/) on how publishers and platforms are responding to these changes.
 
 
 ## Contents
