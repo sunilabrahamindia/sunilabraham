@@ -11,7 +11,7 @@ page_id: TSAP-0682
 created: 2026-03-09
 ---
 
-**Why You Should Keep a Close Eye on the Net Neutrality Debate in the US** is a *Digit* feature published on 24 November 2017, written by Subhrojit Mallick. The article examines the FCC's proposed repeal of the Obama-era net neutrality rules under chairman Ajit Pai, its likely impact on internet freedom globally, and what it means for India's own net neutrality framework. [Sunil Abraham](/sunil/), then Executive Director of the Centre for Internet and Society, is quoted explaining Pai's pro-market ideology and cautioning that the repeal represents a structural threat to a free and open internet.
+**Why You Should Keep a Close Eye on the Net Neutrality Debate in the US** is a *Digit* feature published on 24 November 2017, written by Subhrojit Mallick. The article examines the FCC's proposed repeal of the Obama-era net neutrality rules under chairman Ajit Pai, its likely impact on internet freedom globally, and what it means for India's own net neutrality framework. [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), is quoted explaining Pai's pro-market ideology and cautioning that the repeal represents a structural threat to a free and open internet.
 
 ## Contents
 
