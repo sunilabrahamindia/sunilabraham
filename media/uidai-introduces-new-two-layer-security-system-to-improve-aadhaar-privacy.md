@@ -10,7 +10,7 @@ page_id: TSAP-0220
 created: 2025-12-14
 ---
 
-**UIDAI Introduces New Two-Layer Security System to Improve Aadhaar Privacy** is a report published in *The Economic Times* on 11 January 2018 by ET Bureau. The article covers UIDAI's announcement of Virtual ID and limited-access authentication protocols designed to address mounting privacy concerns following security breaches in the Aadhaar database. It includes substantive critique from Sunil Abraham regarding the inadequacy of these measures whilst existing Aadhaar-seeded databases remain unrevoked and certain agencies retain unrestricted access privileges.
+**UIDAI Introduces New Two-Layer Security System to Improve Aadhaar Privacy** is a report published in *The Economic Times* on 11 January 2018 by ET Bureau. The article covers UIDAI's announcement of Virtual ID and limited-access authentication protocols designed to address mounting privacy concerns following security breaches in the Aadhaar database. It includes substantive critique from [Sunil Abraham](/sunil/) regarding the inadequacy of these measures whilst existing Aadhaar-seeded databases remain unrevoked and certain agencies retain unrestricted access privileges.
 
 ## Contents
 
