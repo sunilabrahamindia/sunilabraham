@@ -8,6 +8,7 @@ authors: ["Alnoor Peermohamed"]
 source: "Business Standard"
 permalink: /media/aadhaar-new-security-measures-are-good-still-work-in-progress-business-standard/
 created: 2026-06-23
+homepage_featured: true
 ---
 
 **"Aadhaar's New Security Measures Are Good, It Is Still Work in Progress"** is a *Business Standard* report by Alnoor Peermohamed published on 25 January 2018. The article assesses UIDAI's three newly announced features (face authentication, virtual ID, and limited KYC), with [Sunil Abraham](/sunil/) questioning whether the additions addressed the underlying structural concerns about biometric systems and opt-in design.
