@@ -11,7 +11,7 @@ page_id: TSAP-0427
 created: 2026-01-08
 ---
 
-**As Internet Monopolies Get Larger, Their Gate-Keeping Powers Need to Be Tempered** is a *Business Standard* interview published on 26 December 2015 by Ranjita Ganesan. The article features Sunil Abraham, then Executive Director of the Centre for Internet and Society, discussing Facebook's Free Basics service amidst the net neutrality debate in India. Following TRAI's decision to halt Reliance Communications from offering the service, Abraham examines gate-keeping concerns, zero-rating models, regulatory proposals, and the broader challenge of internet access expansion.
+**As Internet Monopolies Get Larger, Their Gate-Keeping Powers Need to Be Tempered** is a *Business Standard* interview published on 26 December 2015 by Ranjita Ganesan. The article features [Sunil Abraham](/sunil/), then Executive Director of the [Centre for Internet and Society](/cis/), discussing Facebook's Free Basics service amidst the net neutrality debate in India. Following TRAI's decision to halt Reliance Communications from offering the service, Abraham examines gate-keeping concerns, zero-rating models, regulatory proposals, and the broader challenge of internet access expansion.
 
 ## Contents
 
