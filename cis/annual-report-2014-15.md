@@ -413,13 +413,97 @@ These collaborations enabled CIS to continue its research, advocacy, and public 
 {% include navbox-cis.html %}
 
 <style>
-  .table-responsive {
+.table-responsive {
+  width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  margin: 1rem 0;
+  margin-bottom: 1.5rem;
 }
 
-.table-responsive table {
-  min-width: 700px;
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  min-width: 520px;
+}
+
+.board-table th,
+.board-table td {
+  border: 1px solid #ddd;
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.board-table thead th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.board-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+@media (max-width: 600px) {
+  .board-table {
+    font-size: 0.85rem;
+  }
+
+  .board-table th,
+  .board-table td {
+    padding: 0.5rem 0.6rem;
+  }
+}
+
+.pdf-container {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.pdf-frame {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 80vh;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.pdf-note {
+  margin-top: 0.8rem;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.pdf-download {
+  margin-top: 0.8rem;
+}
+
+.pdf-download .btn {
+  display: inline-block;
+  background: #2f6fda;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.55rem 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.pdf-download .btn:hover,
+.pdf-download .btn:focus {
+  background: #2457aa;
+}
+
+@media (max-width: 768px) {
+  .pdf-frame {
+    height: 65vh;
+  }
+
+  .pdf-note {
+    font-size: 0.9rem;
+  }
 }
 </style>
