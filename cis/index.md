@@ -78,6 +78,8 @@ CIS published annual reports documenting its research, advocacy, events, publica
 3. [Annual Report 2010–11](/cis/annual-report-2010-11/)
 4. [Annual Report 2011–12](/cis/annual-report-2011-12/)
 5. [Annual Report 2012–13](/cis/annual-report-2012-13/)
+6. [Annual Report 2013–14](/cis/annual-report-2013-14/)
+7. [Annual Report 2014–15](/cis/annual-report-2014-15/)
 
 ## Events
 
