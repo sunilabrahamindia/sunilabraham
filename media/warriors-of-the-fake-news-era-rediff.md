@@ -45,8 +45,6 @@ created: 2026-04-07
 
 <div class="highlighted-text" id="fulltext">
 
-<div class="highlighted-text" id="fulltext">
-
 <p>'It all runs on sugar-coated lies.'</p>
 
 <p>'If I like something, I will want to believe it.'</p>
