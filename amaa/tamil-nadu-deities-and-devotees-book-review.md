@@ -18,6 +18,7 @@ The reviewed work presents the findings of a statewide public opinion survey con
 1. [Overview](#overview)
 2. [Review](#review)
 3. [Publication](#publication)
+4. [Notes](#notes)
 
 ## Overview {#overview}
 
