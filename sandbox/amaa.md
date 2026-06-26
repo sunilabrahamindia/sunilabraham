@@ -124,7 +124,7 @@ This sandbox is a workspace to map and track the progress of the literary works 
 ## We have to find
 1. Essays in Celebration of the CISRS Silver Jubilee, Madras : The Christian Institute for the Study of Religion & Society, 1983. [HathiTrust](https://catalog.hathitrust.org/Record/000385813), [Koha](https://libsearch.org.tw/cgi-bin/koha/opac-detail.pl?biblionumber=3875)
 2. A Reader in Dalit Theology, Gurukul Lutheran Theological College & Research Institute, 1990 - Church and social problems - 180 pages. [Google Books](https://books.google.co.in/books/about/A_Reader_in_Dalit_Theology.html?id=Y_bYAAAAMAAJ). We need this essay: A. M. Abraham Ayrookuzhiel, "Dalits Move towards the Ideology of 'Nationality,'" in A Reader in Dalit Theology (Madras: Gurukul Lutheran Theological College, 1990), 169–180.
-3. Dalit Identity and Their Religio-Cultural Situation, Working Paper European Seminar, 1992 (found mention [here])(https://brill.com/view/journals/mist/12/1/article-p266_26.xml).
+3. Dalit Identity and Their Religio-Cultural Situation, Working Paper European Seminar, 1992 (found mention [here](https://brill.com/view/journals/mist/12/1/article-p266_26.xml)).
 4. The Ideological Nature of the Emerging Dalit Consciousness, Religion and Society, XXXCII(3), 20–1, cited [here](https://www.religion-online.org/article/the-emerging-dalit-theology-a-historical-appraisal/) and at "Language in South Asia" — Braj B. Kachru, Yamuna Kachru etc
 
 ## We have found
