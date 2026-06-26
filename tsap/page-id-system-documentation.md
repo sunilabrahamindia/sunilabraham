@@ -102,20 +102,22 @@ The Page ID system therefore reflects the state of the repository at the time th
 
 ## Maintenance Workflow
 
-Following the initial migration, Page IDs are assigned manually when new pages are created.
+Following the initial migration, `scripts/add_page_ids.py` is used to assign Page IDs to any eligible pages that do not yet contain one.
 
 The current workflow is:
 
-1. Create a new page.
-2. Determine the next available Page ID.
-3. Add the identifier to front matter.
-4. Publish the page.
+1. Create one or more new pages.
+2. Run `python3 scripts/add_page_ids.py`.
+3. Review the assigned Page IDs.
+4. Commit the changes.
 
 Example:
 
 ```yaml
-page_id: TSAP-1071
+page_id: TSAP-1098
 ```
+
+The script determines the highest existing Page ID in the repository and continues numbering sequentially from that point. Existing Page IDs are never modified and identifiers belonging to deleted pages are never reused.
 
 Once assigned, a Page ID must never be changed.
 
@@ -128,25 +130,6 @@ If a page is deleted, merged, draftified, or otherwise removed from active use a
 For example, if `TSAP-0773` is assigned to a page that is later removed, future pages will continue with the next available identifier rather than reusing the vacant number.
 
 The numbering sequence therefore records identifier assignment rather than the current number of active pages. Gaps may emerge over time as pages are removed, but such gaps are considered a normal consequence of maintaining permanent identifiers.
-
-## Future Helper Script
-
-A future maintenance utility is planned to simplify assignment of new identifiers. The proposed script will examine existing Page IDs and report the next available value.
-
-Example:
-
-```bash
-python3 scripts/next_page_id.py
-```
-
-Expected output:
-
-```text
-Highest page_id: TSAP-1070
-Next available: TSAP-1071
-```
-
-At the time of writing, this helper script has not yet been implemented.
 
 ## Current Uses
 
@@ -213,7 +196,7 @@ should therefore be treated as separate historical records.
 
 ### Manual Assignment
 
-Following the initial migration, new identifiers are assigned manually. This introduces a small possibility of accidental numbering errors until automated helper tooling is introduced.
+Following the initial migration, Page IDs are assigned using `scripts/add_page_ids.py`. The script determines the highest existing Page ID and assigns identifiers sequentially to eligible pages that do not yet contain one. Editorial review is still recommended before committing changes.
 
 ## Future Improvements
 
