@@ -7,6 +7,7 @@ date: 2018-03-07
 authors: ["Nilesh Christopher"]
 source: "The Economic Times"
 permalink: /media/is-there-a-case-for-penalizing-fake-news-economic-times/
+page_id: TSAP-1085
 created: 2026-06-22
 ---
 

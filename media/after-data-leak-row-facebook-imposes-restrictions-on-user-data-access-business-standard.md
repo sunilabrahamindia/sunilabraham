@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-04-06
 source: "Business Standard"
 permalink: /media/after-data-leak-row-facebook-imposes-restrictions-on-user-data-access-business-standard/
+page_id: TSAP-1090
 created: 2026-06-24
 homepage_featured: true
 ---

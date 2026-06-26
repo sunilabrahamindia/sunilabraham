@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2009-08-16
 source: "DNA India"
 permalink: /media/piracy-boils-down-to-convenience-dna-india/
+page_id: TSAP-1074
 created: 2026-06-19
 homepage_featured: true
 ---

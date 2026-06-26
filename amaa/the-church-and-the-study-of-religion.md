@@ -5,6 +5,7 @@ description: "An article by A. M. A. Ayrookuzhiel examining how religion should 
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/the-church-and-the-study-of-religion/
 categories: [A. M. A. Ayrookuzhiel, Publications]
+page_id: TSAP-1095
 created: 2026-06-26
 homepage_featured: true
 ---

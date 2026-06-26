@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-01-14
 source: "Deccan Herald"
 permalink: /media/bengaluru-gives-data-safety-tips-to-panel-deccan-herald/
+page_id: TSAP-1083
 created: 2026-06-22
 ---
 

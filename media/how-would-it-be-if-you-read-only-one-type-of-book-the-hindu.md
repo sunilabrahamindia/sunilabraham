@@ -7,6 +7,7 @@ date: 2008-09-25
 authors: ["Deepa Kurup"]
 source: "The Hindu"
 permalink: /media/how-would-it-be-if-you-read-only-one-type-of-book-the-hindu/
+page_id: TSAP-1077
 created: 2026-06-20
 ---
 

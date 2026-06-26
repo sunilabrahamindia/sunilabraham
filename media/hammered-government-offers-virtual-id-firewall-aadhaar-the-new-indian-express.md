@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-01-11
 source: "The New Indian Express"
 permalink: /media/hammered-government-offers-virtual-id-firewall-aadhaar-the-new-indian-express/
+page_id: TSAP-1084
 created: 2026-06-22
 ---
 

@@ -7,6 +7,7 @@ date: 2017-03-31
 authors: ["Shriya Mohan"]
 source: "The Hindu Business Line"
 permalink: /media/the-aadhaar-of-all-things-the-hindu-business-line/
+page_id: TSAP-1075
 created: 2026-06-19
 homepage_featured: true
 ---

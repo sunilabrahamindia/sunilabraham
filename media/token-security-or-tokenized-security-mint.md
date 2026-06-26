@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2018-01-09
 source: "Mint"
 permalink: /media/token-security-or-tokenized-security-mint/
+page_id: TSAP-1088
 created: 2026-06-23
 homepage_featured: true
 ---

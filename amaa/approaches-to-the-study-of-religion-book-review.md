@@ -5,6 +5,7 @@ description: "A book review by A. M. A. Ayrookuzhiel of the book Approaches to t
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/approaches-to-the-study-of-religion-book-review/
 categories: [A. M. A. Ayrookuzhiel, Book reviews]
+page_id: TSAP-1091
 created: 2026-06-25
 homepage_featured: true
 ---

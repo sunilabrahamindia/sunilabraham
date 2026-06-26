@@ -5,6 +5,7 @@ description: "A book review by A. M. A. Ayrookuzhiel of Tamil Nadu: Deities and 
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/tamil-nadu-deities-and-devotees-book-review/
 categories: [A. M. A. Ayrookuzhiel, Book reviews]
+page_id: TSAP-1092
 created: 2026-06-25
 homepage_featured: true
 ---

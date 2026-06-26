@@ -1,8 +1,13 @@
+#!/usr/bin/env python3
+
 from pathlib import Path
 import re
 from datetime import datetime
 
+PAGE_ID_PATTERN = re.compile(r"^page_id:\s*(TSAP-(\d{4}))\s*$", re.MULTILINE)
+
 pages = []
+highest_id = 0
 
 for md_file in Path(".").rglob("*.md"):
     try:
@@ -17,13 +22,17 @@ for md_file in Path(".").rglob("*.md"):
 
         yaml_text = parts[1]
 
-        if re.search(r"^page_id:\s*", yaml_text, re.MULTILINE):
+        # Find existing Page IDs
+        match = PAGE_ID_PATTERN.search(yaml_text)
+        if match:
+            highest_id = max(highest_id, int(match.group(2)))
             continue
 
+        # Skip pages without a created date
         match = re.search(
             r"^created:\s*([0-9]{4}-[0-9]{2}-[0-9]{2})\s*$",
             yaml_text,
-            re.MULTILINE
+            re.MULTILINE,
         )
 
         if not match:
@@ -44,8 +53,10 @@ for md_file in Path(".").rglob("*.md"):
 
 pages.sort(key=lambda x: (x["created"], str(x["path"])))
 
-for i, page in enumerate(pages, start=1):
-    page_id = f"TSAP-{i:04d}"
+next_id = highest_id + 1
+
+for page in pages:
+    page_id = f"TSAP-{next_id:04d}"
 
     text = page["path"].read_text(encoding="utf-8")
 
@@ -54,11 +65,15 @@ for i, page in enumerate(pages, start=1):
         f"page_id: {page_id}\n\\1",
         text,
         count=1,
-        flags=re.MULTILINE
+        flags=re.MULTILINE,
     )
 
     page["path"].write_text(text, encoding="utf-8")
 
     print(f"{page_id} -> {page['path']}")
 
-print(f"\nUpdated {len(pages)} files.")
+    next_id += 1
+
+print(f"\nHighest existing Page ID : TSAP-{highest_id:04d}")
+print(f"Assigned new Page IDs    : {len(pages)}")
+print(f"Next available Page ID   : TSAP-{next_id:04d}")

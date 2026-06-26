@@ -7,6 +7,7 @@ date: 2008-09-24
 authors: ["Deepa Kurup"]
 source: "The Hindu"
 permalink: /media/will-patenting-take-the-byte-out-of-it-here-the-hindu/
+page_id: TSAP-1076
 created: 2026-06-19
 ---
 

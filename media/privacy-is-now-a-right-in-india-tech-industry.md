@@ -7,6 +7,7 @@ date: 2017-08-29
 authors: ["Rishi Iyengar"]
 source: "CNN"
 permalink: /media/privacy-ruling-puts-tech-industry-on-notice-cnnmoney/
+page_id: TSAP-1081
 created: 2026-06-21
 homepage_featured: true
 ---

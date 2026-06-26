@@ -5,6 +5,7 @@ description: "A book review by A. M. A. Ayrookuzhiel of The Twice Alienated (Cul
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/the-twice-alienated-book-review/
 categories: [A. M. A. Ayrookuzhiel, Book reviews]
+page_id: TSAP-1093
 created: 2026-06-25
 homepage_featured: true
 ---

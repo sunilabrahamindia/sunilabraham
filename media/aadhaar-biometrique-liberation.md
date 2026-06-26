@@ -8,6 +8,7 @@ source: "Libération"
 authors: ["Sébastien Farcis"]
 language: fr
 permalink: /media/aadhaar-biometrique-liberation/
+page_id: TSAP-1080
 created: 2026-06-21
 ---
 
