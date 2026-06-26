@@ -77,17 +77,17 @@ Following the completion of TSAP Version 2.0, an additional Software Heritage ar
 Software Heritage is an international initiative dedicated to collecting, preserving, and providing long-term access to software source code and development history. Its inclusion in TSAP's preservation workflow adds an additional layer of archival resilience beyond GitHub, web archiving services, local backups, and other preservation mechanisms.
 
 ## Offline TSAP
-<span class="preservation-status status-planned">Planned</span>
+<span class="preservation-status status-experimental">Experimental</span>
 
-As part of its broader preservation and accessibility strategy, TSAP is also exploring approaches for offline access and low-connectivity distribution. This includes the long-term possibility of creating portable offline editions of selected TSAP content that can be stored, shared, and accessed without a continuous internet connection.
+As part of its broader preservation and accessibility strategy, TSAP has begun implementing an offline preservation workflow based on repository snapshots. Following the completion of TSAP Version 2.0, the first offline preservation copy of the project's Git repository was created and retained as an independent backup.
 
-The project is particularly interested in lightweight, static, and preservation-friendly offline approaches that may support use in environments with limited connectivity, intermittent mobile data access, institutional restrictions, archival requirements, or disaster recovery scenarios. Possible future directions include downloadable static archives, compressed offline snapshots, portable HTML editions, local "internet-in-a-box" style distributions, and offline institutional mirrors.
+At present, one offline repository backup is stored on the project maintainer's local hard disk. As this is an active personal laptop rather than dedicated archival storage, this copy should be regarded as a working preservation backup rather than a permanent archival copy.
 
-TSAP is also exploring the idea of periodically creating milestone-based physical archival editions of the project, including portable storage device copies and optical disc editions such as CD or DVD archives. These may potentially be created after major milestones such as every 1,000 pages, at fixed time intervals such as once per year, or during historically significant stages in the development of the project. Such offline editions may function both as preservation snapshots and as portable archival records documenting the evolution of TSAP over time.
+To provide an additional independent preservation copy, the same repository snapshot has also been uploaded to Google Drive. It may be downloaded by anyone wishing to maintain an offline copy of TSAP on external storage such as a USB flash drive, external hard disk, or other archival media.
 
-As of May 2026, these offline archival workflows remain in the planning and exploratory stage and have not yet been formally implemented.
+Google Drive archive: [26 June 2026](https://drive.google.com/drive/folders/1HM0vSnyA5uZWuHZFYt3zudDawZczGat3)
 
-Because TSAP is built primarily using static HTML, Markdown, YAML, and other open formats, much of the site's content is inherently suitable for long-term offline preservation and portable archival distribution.
+Future work may include periodic repository snapshots taken at major project milestones, offline website exports, portable archival packages, and copies stored on dedicated external storage media and institutional repositories.
 
 ## Redundancy and Mirror Infrastructure
 <span class="preservation-status status-experimental">Experimental</span>
