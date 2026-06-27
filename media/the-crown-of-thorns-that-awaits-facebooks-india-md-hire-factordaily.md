@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The Crown of Thorns That Awaits Facebook's India MD Hire"
-description: "A FactorDaily investigation into Facebook India's prolonged leadership vacuum, quoting Sunil Abraham on the company's loss of consumer trust and the limits of the 'Californian ideology'."
+description: "A 2018 FactorDaily investigation into Facebook India's prolonged leadership vacuum, quoting Sunil Abraham on the company's loss of consumer trust and the limits of the 'Californian ideology'."
 categories: [Media mentions]
 date: 2018-07-25
 source: "FactorDaily"
