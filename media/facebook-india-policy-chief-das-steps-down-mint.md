@@ -11,7 +11,7 @@ page_id: TSAP-0594
 created: 2026-02-19
 ---
 
-**Facebook India Policy Chief Das Steps Down After Row Over BJP Bias** is a *Mint* news report by Prasid Banerjee published on 28 October 2020. The article covers the resignation of Ankhi Das as Facebook India's head of public policy, following a controversy over allegations that she had blocked the removal of hate speech by a BJP lawmaker. It also notes the recent appointment of Sunil Abraham to a senior public policy role at the company.
+**Facebook India Policy Chief Das Steps Down After Row Over BJP Bias** is a *Mint* news report by Prasid Banerjee published on 28 October 2020. The article covers the resignation of Ankhi Das as Facebook India's head of public policy, following a controversy over allegations that she had blocked the removal of hate speech by a BJP lawmaker. It also notes the recent appointment of [Sunil Abraham](/sunil/) to a senior public policy role at the company.
 
 ## Contents
 

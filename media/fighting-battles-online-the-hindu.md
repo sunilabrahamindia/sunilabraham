@@ -11,7 +11,7 @@ page_id: TSAP-0354
 created: 2025-12-28
 ---
 
-**Fighting Battles Online** is an article published in *The Hindu* on 2 September 2014. Written by Nikhil Varma, the piece profiles Sunil Abraham's trajectory from working in the non-profit sector to leading policy initiatives at the Centre for Internet and Society. It examines his perspectives on government surveillance, free speech regulation, and the enforcement challenges surrounding internet governance in India.
+**Fighting Battles Online** is an article published in *The Hindu* on 2 September 2014. Written by Nikhil Varma, the piece profiles [Sunil Abraham](/sunil/)'s trajectory from working in the non-profit sector to leading policy initiatives at the [Centre for Internet and Society](/cis/). It examines his perspectives on government surveillance, free speech regulation, and the enforcement challenges surrounding internet governance in India.
 
 ## Contents
 

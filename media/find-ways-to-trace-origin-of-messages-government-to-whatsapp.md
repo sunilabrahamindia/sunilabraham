@@ -11,7 +11,7 @@ page_id: TSAP-0225
 created: 2025-12-15
 ---
 
-**Find Ways to Trace Origin of Messages: Government to WhatsApp** is a report published in *The Economic Times* on 20 September 2018, written by Surabhi Agarwal. The article examines the Indian government's escalating demands for WhatsApp to implement technical solutions enabling traceability of viral messages linked to mob lynchings and public disorder, whilst the company maintained that such measures would undermine end-to-end encryption. The piece features technical analysis from Sunil Abraham on metadata-based approaches that could provide accountability without compromising message content encryption.
+**Find Ways to Trace Origin of Messages: Government to WhatsApp** is a report published in *The Economic Times* on 20 September 2018, written by Surabhi Agarwal. The article examines the Indian government's escalating demands for WhatsApp to implement technical solutions enabling traceability of viral messages linked to mob lynchings and public disorder, whilst the company maintained that such measures would undermine end-to-end encryption. The piece features technical analysis from [Sunil Abraham](/sunil/) on metadata-based approaches that could provide accountability without compromising message content encryption.
 
 ## Contents
 

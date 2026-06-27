@@ -11,7 +11,7 @@ page_id: TSAP-0353
 created: 2025-12-28
 ---
 
-**Facebook's Libra: A Bit Too Ambitious?** is a *Deccan Herald* opinion piece published on 30 June 2019 by Rajmohan Sudhakar. The article critically examines Facebook's proposal to launch Libra, a global cryptocurrency backed by a reserve of assets and managed through the Libra Association. It explores concerns about market dominance, regulatory challenges, and implications for India's financial sovereignty, featuring analysis from Sunil Abraham of the Centre for Internet and Society and Biocon founder Kiran Mazumdar-Shaw.
+**Facebook's Libra: A Bit Too Ambitious?** is a *Deccan Herald* opinion piece published on 30 June 2019 by Rajmohan Sudhakar. The article critically examines Facebook's proposal to launch Libra, a global cryptocurrency backed by a reserve of assets and managed through the Libra Association. It explores concerns about market dominance, regulatory challenges, and implications for India's financial sovereignty, featuring analysis from [Sunil Abraham](/sunil/) of the [Centre for Internet and Society](/cis/) and Biocon founder Kiran Mazumdar-Shaw.
 
 ## Contents
 

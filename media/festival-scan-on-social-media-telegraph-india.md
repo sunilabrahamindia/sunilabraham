@@ -10,7 +10,7 @@ page_id: TSAP-0251
 created: 2025-12-18
 ---
 
-**Festival Scan on Social Media** is a news report published in *The Telegraph* (India) on 26 August 2016. The article documents police efforts in Karnataka's Dakshina Kannada district to monitor social media for rumour-mongering and hate messages ahead of religious festivals, amidst heightened tensions following cow vigilante violence, with commentary from Sunil Abraham on the need to balance legitimate law enforcement against the risk of police overreach.
+**Festival Scan on Social Media** is a news report published in *The Telegraph* (India) on 26 August 2016. The article documents police efforts in Karnataka's Dakshina Kannada district to monitor social media for rumour-mongering and hate messages ahead of religious festivals, amidst heightened tensions following cow vigilante violence, with commentary from [Sunil Abraham](/sunil/) on the need to balance legitimate law enforcement against the risk of police overreach.
 
 ## Contents
 

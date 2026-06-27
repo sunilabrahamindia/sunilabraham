@@ -37,6 +37,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 22. [Version 1.9](#version-19)
 23. [Version 1.9.1](#version-191)
 24. [Version 2.0](#version-20)
+25. [Version 2.1](#version-21)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -751,3 +752,29 @@ This report covers the period between 14 June 2026 and 16 June 2026. During this
 
 **Status** ✅ Done  
 Completion date: 17 June 2026  
+
+## Version 2.1
+
+Because Version 2.0 was completed mid-week on 17 June 2026, the weekly report for Sunday, 21 June 2026, was omitted. A new reporting cycle has now begun.
+
+Between 17 June and 27 June 2026, 29 new pages were published.
+
+**GitHub Release**
+- Extended the formal release history of The Sunil Abraham Project (TSAP) by creating and publishing the GitHub release for Version 2.0.
+- The release is anchored to the historical repository snapshot of 17 June 2026 through the Git tag `v2.0`, providing a stable and verifiable reference point marking the completion of the Version 2.0 development cycle.
+
+**Page ID System**
+- Completed the assignment of permanent Page IDs to all eligible production pages.
+- Updated the `add_page_ids.py` utility to continue numbering from the highest existing Page ID rather than restarting from the beginning, ensuring that Page IDs remain permanent, are never renumbered, and are never reused.
+
+**Digital Preservation**
+- Created a new preservation snapshot of the GitHub repository in [Software Heritage](https://www.softwareheritage.org/) following completion of Version 2.0.
+- Updated the [Preservation](/tsap/preservation/) page to document the latest archival snapshot.
+
+**Offline Preservation**
+- Initiated the Offline TSAP preservation workflow by creating the first offline backup of the project's Git repository following completion of Version 2.0.
+- The repository, including its complete Git history, has been preserved on local storage and uploaded to the public [Google Drive preservation archive](https://drive.google.com/drive/folders/1HM0vSnyA5uZWuHZFYt3zudDawZczGat3).
+- Updated the [Preservation](/tsap/preservation/) page to document the new offline preservation workflow.
+
+**Status** ✅ Done  
+Completion date: 27 June 2026

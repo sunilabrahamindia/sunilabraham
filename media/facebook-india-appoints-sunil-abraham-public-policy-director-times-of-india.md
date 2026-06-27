@@ -10,7 +10,7 @@ page_id: TSAP-0306
 created: 2025-12-23
 ---
 
-**Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech** is a news report published by *The Times of India* on 12 October 2020, distributed by Press Trust of India (PTI). The article announces Abraham's appointment to lead Facebook India's policy positions on data privacy, consumer protection, and artificial intelligence. He was tasked with building stakeholder partnerships across South Asia and contributing to regional policy development on emerging technologies.
+**Facebook India Appoints Sunil Abraham as Public Policy Director for Data and Emerging Tech** is a news report published by *The Times of India* on 12 October 2020, distributed by Press Trust of India (PTI). The article announces [Sunil Abraham](/sunil/)'s appointment to lead Facebook India's policy positions on data privacy, consumer protection, and artificial intelligence. He was tasked with building stakeholder partnerships across South Asia and contributing to regional policy development on emerging technologies.
 
 ## Contents
 
