@@ -9,6 +9,8 @@ permalink: /media/death-by-whatsapp-news18/
 created: 2026-06-27
 ---
 
+{% include under-construction.html %}
+
 **"Death by WhatsApp"** is a *News18* long-form report published on 25 June 2018. The piece investigates how a single fake WhatsApp message about child traffickers spread across six states (Jharkhand, Tamil Nadu, Andhra Pradesh, Telangana, Karnataka, and Assam) and led to at least 22 mob lynchings. It quotes [Sunil Abraham](/sunil/) on the limits of consumer responsibility when faced with sophisticated disinformation.
 
 ## Contents
@@ -192,11 +194,13 @@ created: 2026-06-27
   margin-bottom: 1rem;
 }
 .highlighted-text blockquote {
-  border-left: 3px solid #e0c84a;
+  border-left: none;
   margin: 0.8rem 0;
   padding: 0.5rem 1rem;
   color: #555;
   font-style: italic;
+  background: rgba(0,0,0,0.03);
+  border-radius: 4px;
 }
 .copy-btn-full {
   display: inline-block;
