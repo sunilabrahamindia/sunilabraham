@@ -9,7 +9,7 @@ created: 2026-06-28
 
 {% include under-construction.html %}
 
-**Frederick** examines Sunil Abraham's use of Leo Lionni's 1967 children's picture book *Frederick* as a framework for discussing attribution, tangible and intangible labour, intellectual property, and, more recently, artificial intelligence. Rather than treating the book solely as a work of children's literature, Abraham uses it as a thought experiment to explore broader questions concerning creativity, attribution, labour and the organisation of knowledge.
+**Frederick** examines [Sunil Abraham](/sunil/)'s use of Leo Lionni's 1967 children's picture book *Frederick* as a framework for discussing attribution, tangible and intangible labour, intellectual property, and, more recently, artificial intelligence. Rather than treating the book solely as a work of children's literature, Abraham uses it as a thought experiment to explore broader questions concerning creativity, attribution, labour and the organisation of knowledge.
 
 The earliest documented use of the book in Abraham's work appears in his 2013 presentation *Freedom Continuum: From Access to Knowledge to Privacy*, where it is cited as the concluding reference for one of the presentation's central propositions: "If attribution is not sacred then intangible labour is not more important than tangible labour and vice versa." During the presentation, Abraham briefly introduces *Frederick* as the story of a mouse engaged in intangible labour and describes the book as his "scholarly reference" for that conclusion.
 
@@ -124,6 +124,8 @@ Read together, the continuations are not intended as criticism of the original s
 ## External links {#external-links}
 
 - [*Frederick* (book)](https://en.wikipedia.org/wiki/Frederick_(book)) on Wikipedia
+- [*Frederick* (book)](https://archive.org/details/frederick0000lion) on Internet Archive (borrow and online reading options may be available)
+- [*Frederick* (book)](https://openlibrary.org/works/OL2162573W/Frederick) on Open Library
 
 <style>
   .pdf-container {
