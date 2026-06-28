@@ -37,6 +37,8 @@ This article examines Abraham's use of *Frederick* through his lectures, present
 
 ## Frederick and the Freedom Continuum {#freedom-continuum}
 
+{% include notice.html message="Primary source: <a href='/sunil/freedom-continuum-transcript/'>Freedom Continuum: From Access to Knowledge to Privacy (Transcript)</a>" %}
+
 Sunil Abraham first referred to *Frederick* during his presentation *Freedom Continuum: From Access to Knowledge to Privacy*, delivered at the Third Global Congress for Intellectual Property and the Public Interest in Cape Town on 11 December 2013. The presentation proposed a "freedom continuum" for understanding different approaches to knowledge production, sharing and control. Rather than treating intellectual property as a binary choice between openness and restriction, Abraham described a spectrum extending from proprietary models through free and open licensing to piracy, anonymity and practices that challenge attribution itself.
 
 Throughout the presentation, Abraham treated attribution as the principal point of distinction along the continuum. The framework compared proprietary licensing, the GNU General Public License, the BSD licence, Creative Commons licences, piracy, Anonymous and the Yes Men, before concluding with three principal takeaways. The final takeaway stated: "If attribution is not sacred then intangible labour is not more important than tangible labour and vice versa."
