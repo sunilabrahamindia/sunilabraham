@@ -56,11 +56,18 @@ Unlike the original presentation, this article also considers later discussions 
       style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;">
     </iframe>
   </div>
+
+  <p class="media-caption">
+    <strong>Video.</strong> <em>Freedom Continuum: From Access to Knowledge to Privacy</em>, presented by Sunil Abraham in Cape Town on 11 December 2013 at the combined Third Global Congress on Intellectual Property and the Public Interest and Open AIR Conference on Innovation and IP in Africa.
+  </p>
 </div>
 
-<p><strong>Presentation slides (PDF)</strong></p>
-
 <div class="pdf-container">
+
+  <p class="media-caption">
+    <strong>Presentation slides.</strong> Slide deck for <em>Freedom Continuum: From Access to Knowledge to Privacy</em>, preserved on the Centre for Internet and Society website.
+  </p>
+
   <iframe
     src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/freedom-continuum.pdf&embedded=true"
     class="pdf-frame"
@@ -129,7 +136,7 @@ Read together, the continuations are not intended as criticism of the original s
 
 <style>
   .pdf-container {
-  margin: 2rem 0;
+  margin: 2.5rem 0;
   text-align: center;
 }
 
@@ -210,5 +217,17 @@ Read together, the continuations are not intended as criticism of the original s
     max-width: 260px;
     margin: 0 auto 1.25rem;
   }
+}
+.media-caption {
+  max-width: 680px;
+  margin: 0.75rem auto 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+
+body.tsap-dark-mode .media-caption {
+  color: #cbd5e1;
 }
 </style>
