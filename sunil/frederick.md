@@ -13,7 +13,7 @@ created: 2026-06-28
 
 The earliest documented use of the book in Abraham's work appears in his 2013 presentation *Freedom Continuum: From Access to Knowledge to Privacy*, where it is cited as the concluding reference for one of the presentation's central propositions: "If attribution is not sacred then intangible labour is not more important than tangible labour and vice versa." During the presentation, Abraham briefly introduces *Frederick* as the story of a mouse engaged in intangible labour and describes the book as his "scholarly reference" for that conclusion.
 
-Abraham later returned to *Frederick*, including during a Summer School session in June 2026, in which the story was narrated in greater detail. He later extended the thought experiment through a series of hypothetical continuations examining copyright, state enforcement, inheritance of rights, and debates surrounding artificial intelligence and what has been described as "creativity privilege".
+Abraham later returned to *Frederick*, including during a Summer School session in June 2026, in which the story was narrated in greater detail. He extended the thought experiment through a series of hypothetical continuations examining copyright, state enforcement, inheritance of rights, and debates surrounding artificial intelligence and what has been described as "creativity privilege".
 
 This article examines the role of *Frederick* in Abraham's work, placing the original story in the context of the *Freedom Continuum* and tracing how it developed into a broader thought experiment on the intellectual property regime.
 
