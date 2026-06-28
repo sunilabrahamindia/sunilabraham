@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Huge concerns"
+title: "Huge Concerns"
 description: "A Frontline cover story examining the Aadhaar biometric identification system's security vulnerabilities, privacy implications, and potential for data breaches, featuring analysis from CIS researchers on biometric authentication risks."
 categories: [Media mentions]
 date: 2017-04-12
@@ -11,7 +11,7 @@ page_id: TSAP-0491
 created: 2026-01-22
 ---
 
-**Huge concerns** is a *Frontline* cover story published on 12 April 2017 by Purnima S. Tripathi. The article examines the Aadhaar biometric identification system's security vulnerabilities and privacy risks, featuring research from the [Centre for Internet and Society](/cis/) that documents high error rates in biometric identification at population scale and analyzes the lack of consent mechanisms in biometric authentication.
+**Huge Concerns** is a *Frontline* cover story published on 12 April 2017 by Purnima S. Tripathi. The article examines the Aadhaar biometric identification system's security vulnerabilities and privacy risks, featuring research from the [Centre for Internet and Society](/cis/) that documents high error rates in biometric identification at population scale and analyzes the lack of consent mechanisms in biometric authentication.
 
 ## Contents
 
