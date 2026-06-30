@@ -2,7 +2,7 @@
 layout: default
 title: "Govt Access, Localisation Norms in Data Protection Bill Need Rethink: CIS' Sunil Abraham"
 description: "A 2018 TechCircle interview with Sunil Abraham on India's draft Personal Data Protection Bill, covering its GDPR alignment, loopholes in non-consensual processing, data localisation concerns, and government access to citizens' data."
-categories: [Media mentions]
+categories: [Interviews, Media mentions]
 date: 2018-08-01
 source: "TechCircle"
 authors: ["Anand J"]
