@@ -51,7 +51,7 @@ body {
 /* =========================================================
    Main Content
    ========================================================= */
-.main-content, main, .content {
+.main-content {
   background: var(--bg-surface);
   border-radius: 12px;
   padding: 2.2rem;
@@ -146,12 +146,12 @@ th {
    ========================================================= */
 @media (max-width: 768px) {
   body {
-    padding: 0 0.5rem 3rem;
+    padding: 0 1rem 3rem;
     line-height: 1.4;
   }
 
-  .main-content {
-    padding: 1rem;
+  .main-content, main, .content {
+    padding: 1rem !important;
   }
 
   p,
@@ -238,7 +238,6 @@ h6:hover .header-link { opacity: 1; }
 /* =========================================================
    Code Blocks
    ========================================================= */
-
 pre {
   overflow-x: auto;
 }
@@ -246,13 +245,7 @@ pre {
 /* =========================================================
    Print Styles
    ========================================================= */
-
 @media print {
-
-  /* -----------------------------------------
-     Page Setup
-     ----------------------------------------- */
-
   html,
   body {
     background: #fff !important;
@@ -261,11 +254,9 @@ pre {
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
-
     font-family: Georgia, "Times New Roman", serif !important;
     font-size: 12pt !important;
     line-height: 1.6 !important;
-
     animation: none !important;
     transition: none !important;
     scroll-behavior: auto !important;
@@ -275,10 +266,6 @@ pre {
     margin: 1.8cm;
   }
 
-  /* -----------------------------------------
-     Layout Cleanup
-     ----------------------------------------- */
-
   .site-wrapper,
   .content,
   main,
@@ -286,83 +273,31 @@ pre {
   .main-content {
     width: 100% !important;
     max-width: 100% !important;
-
     margin: 0 !important;
     padding: 0 !important;
-
     background: #fff !important;
     box-shadow: none !important;
     border: none !important;
     border-radius: 0 !important;
-
     animation: none !important;
     transition: none !important;
   }
 
-  /* -----------------------------------------
-     Hide Navigation, Utilities and UI
-     ----------------------------------------- */
-
-  header,
-  nav,
-  footer,
-  aside,
-
-  .site-header,
-  .breadcrumb,
-  .header-link,
-
-  #utilityToolboxContainer,
-  #toolboxContent,
-  #toggleToolbox,
-  #backToTopBtn,
-
-  .share-bar,
-  .share-buttons,
-  .utilities,
-  .utility-toolbox,
-  .reader-controls,
-  .site-controls,
-  .menu,
-
-  .navbox,
-  .navbox-cis,
-  .infobox,
-
-  .btn,
-  .button,
-  .copy-button,
-  .copy-full-text,
-
-  .categories,
-  .page-data,
-  .page-metadata,
-  .article-metadata,
-  .post-meta,
-  .metadata,
-
-  .external-link,
-  .related-links,
-
-  .print-hide {
+  header, nav, footer, aside,
+  .site-header, .breadcrumb, .header-link,
+  #utilityToolboxContainer, #toolboxContent, #toggleToolbox, #backToTopBtn,
+  .share-bar, .share-buttons, .utilities, .utility-toolbox, .reader-controls, .site-controls, .menu,
+  .navbox, .navbox-cis, .infobox,
+  .btn, .button, .copy-button, .copy-full-text,
+  .categories, .page-data, .page-metadata, .article-metadata, .post-meta, .metadata,
+  .external-link, .related-links, .print-hide {
     display: none !important;
   }
 
-  /* -----------------------------------------
-     Typography
-     ----------------------------------------- */
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     color: #000 !important;
-
     page-break-after: avoid !important;
     break-after: avoid !important;
-
     page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
@@ -371,64 +306,41 @@ pre {
     font-size: 24pt !important;
     margin-top: 0 !important;
     margin-bottom: 0.7rem !important;
-
     border-bottom: 2px solid #999 !important;
     padding-bottom: 0.25rem !important;
   }
 
   h2 {
     font-size: 18pt !important;
-
     border-bottom: 1px solid #bbb !important;
     padding-bottom: 0.15rem !important;
-
     margin-top: 1.6rem !important;
   }
 
-  h3 {
-    font-size: 15pt !important;
-  }
+  h3 { font-size: 15pt !important; }
 
-  p,
-  li,
-  blockquote {
+  p, li, blockquote {
     orphans: 3;
     widows: 3;
   }
 
-  p,
-  li,
-  blockquote,
-  table,
-  pre,
-  img {
+  p, li, blockquote, table, pre, img {
     page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
 
-  /* -----------------------------------------
-     Links
-     ----------------------------------------- */
-
-  a,
-  a:visited {
+  a, a:visited {
     color: #000 !important;
     text-decoration: underline !important;
   }
 
-  /* Avoid massive raw URLs everywhere */
   a[href^="http"]::after {
     content: "";
   }
 
-  /* -----------------------------------------
-     Images
-     ----------------------------------------- */
-
   img {
     max-width: 100% !important;
     height: auto !important;
-
     box-shadow: none !important;
     border-radius: 0 !important;
   }
@@ -438,19 +350,12 @@ pre {
     break-inside: avoid !important;
   }
 
-  /* -----------------------------------------
-     Tables
-     ----------------------------------------- */
-
   table {
     width: 100% !important;
-
     display: table !important;
     overflow: visible !important;
-
     box-shadow: none !important;
     border-radius: 0 !important;
-
     border-collapse: collapse !important;
   }
 
@@ -458,14 +363,11 @@ pre {
     display: table-header-group;
   }
 
-  tr,
-  td,
-  th {
+  tr, td, th {
     page-break-inside: avoid !important;
   }
 
-  th,
-  td {
+  th, td {
     border: 1px solid #bbb !important;
     padding: 0.45rem !important;
   }
@@ -475,12 +377,7 @@ pre {
     color: #000 !important;
   }
 
-  /* -----------------------------------------
-     Code / Preformatted Text
-     ----------------------------------------- */
-
-  pre,
-  code {
+  pre, code {
     background: #f5f5f5 !important;
     color: #000 !important;
   }
@@ -490,10 +387,6 @@ pre {
     overflow: visible !important;
     white-space: pre-wrap !important;
   }
-
-  /* -----------------------------------------
-     Remove Decorative Effects
-     ----------------------------------------- */
 
   * {
     text-shadow: none !important;
@@ -506,16 +399,12 @@ pre {
 /* =========================================================
    Reduced Motion Support
    ========================================================= */
-
 @media (prefers-reduced-motion: reduce) {
-
   html {
     scroll-behavior: auto;
   }
-
   * {
     animation: none !important;
     transition: none !important;
   }
-
 }
