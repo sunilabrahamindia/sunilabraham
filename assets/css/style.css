@@ -49,27 +49,16 @@ body {
 }
 
 /* =========================================================
-   Main Content (Isolated to prevent mobile width grouping issues)
+   Main Content
    ========================================================= */
-.main-content {
+.main-content, main, .content {
   background: var(--bg-surface);
   border-radius: 12px;
-  padding: 2.2rem 1.8rem;
+  padding: 2.2rem;
   margin-top: 0.6rem;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
   animation: fadeUp 1s ease-in-out;
   transition: background-color 0.4s ease;
-}
-
-/* Give explicit internal indentation room for text structures */
-.main-content p, 
-.main-content li, 
-.main-content pre, 
-.main-content table,
-.breadcrumb,
-.btn {
-  margin-left: 0.8rem !important;
-  margin-right: 0.8rem !important;
 }
 
 /* =========================================================
@@ -81,8 +70,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   margin-top: 0.8rem;
   margin-bottom: 0.4rem;
-  margin-left: 0.8rem !important;
-  margin-right: 0.8rem !important;
 }
 
 main h1 {
@@ -102,11 +89,6 @@ h2 {
 h2:hover {
   border-bottom-color: var(--border-hover);
 }
-
-h3 { font-size: 1.4rem; }
-h4 { font-size: 1.2rem; }
-h5 { font-size: 1rem; }
-h6 { font-size: 0.9rem; }
 
 a {
   color: var(--link-color);
@@ -131,7 +113,7 @@ a:hover, a:focus {
    Tables
    ========================================================= */
 table {
-  width: calc(100% - 1.6rem) !important;
+  width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   margin: 1.5rem 0;
@@ -143,9 +125,6 @@ table {
   display: block;
   overflow-x: auto;
 }
-
-thead:first-child tr:first-child th:first-child { border-top-left-radius: 6px; }
-thead:first-child tr:first-child th:last-child  { border-top-right-radius: 6px; }
 
 th, td {
   padding: 0.75rem 1rem;
@@ -162,12 +141,8 @@ th {
   color: var(--table-th-text);
 }
 
-tr:last-child td {
-  border-bottom: none;
-}
-
 /* =========================================================
-   Responsive Adjustments (Restored to original widths)
+   Responsive Adjustments
    ========================================================= */
 @media (max-width: 768px) {
   body {
@@ -177,21 +152,6 @@ tr:last-child td {
 
   .main-content {
     padding: 1rem;
-  }
-
-  .main-content p, 
-  .main-content li, 
-  .main-content pre, 
-  .main-content table,
-  .breadcrumb,
-  .btn,
-  h1, h2, h3, h4, h5, h6 {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-  
-  table {
-    width: 100% !important;
   }
 
   p,
@@ -240,15 +200,11 @@ h6:hover .header-link { opacity: 1; }
   border-bottom: 1px solid var(--border-main);
 }
 
-.breadcrumb + * { margin-top: 0 !important; }
-
 .breadcrumb a {
   color: var(--link-color);
-  text-decoration: none;
 }
 
 .breadcrumb a:hover {
-  text-decoration: underline;
   color: var(--link-hover);
 }
 
@@ -273,15 +229,6 @@ h6:hover .header-link { opacity: 1; }
   transform: translateY(-1px);
 }
 
-a.btn,
-a.btn:hover,
-a.btn:focus {
-  color: #fff;
-  text-decoration: none;
-  border: none;
-  outline: none;
-}
-
 .btn:active,
 .btn:focus {
   background-color: var(--btn-active);
@@ -291,6 +238,7 @@ a.btn:focus {
 /* =========================================================
    Code Blocks
    ========================================================= */
+
 pre {
   overflow-x: auto;
 }
@@ -298,7 +246,13 @@ pre {
 /* =========================================================
    Print Styles
    ========================================================= */
+
 @media print {
+
+  /* -----------------------------------------
+     Page Setup
+     ----------------------------------------- */
+
   html,
   body {
     background: #fff !important;
@@ -307,9 +261,11 @@ pre {
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
+
     font-family: Georgia, "Times New Roman", serif !important;
     font-size: 12pt !important;
     line-height: 1.6 !important;
+
     animation: none !important;
     transition: none !important;
     scroll-behavior: auto !important;
@@ -319,6 +275,10 @@ pre {
     margin: 1.8cm;
   }
 
+  /* -----------------------------------------
+     Layout Cleanup
+     ----------------------------------------- */
+
   .site-wrapper,
   .content,
   main,
@@ -326,31 +286,83 @@ pre {
   .main-content {
     width: 100% !important;
     max-width: 100% !important;
+
     margin: 0 !important;
     padding: 0 !important;
+
     background: #fff !important;
     box-shadow: none !important;
     border: none !important;
     border-radius: 0 !important;
+
     animation: none !important;
     transition: none !important;
   }
 
-  header, nav, footer, aside,
-  .site-header, .breadcrumb, .header-link,
-  #utilityToolboxContainer, #toolboxContent, #toggleToolbox, #backToTopBtn,
-  .share-bar, .share-buttons, .utilities, .utility-toolbox, .reader-controls, .site-controls, .menu,
-  .navbox, .navbox-cis, .infobox,
-  .btn, .button, .copy-button, .copy-full-text,
-  .categories, .page-data, .page-metadata, .article-metadata, .post-meta, .metadata,
-  .external-link, .related-links, .print-hide {
+  /* -----------------------------------------
+     Hide Navigation, Utilities and UI
+     ----------------------------------------- */
+
+  header,
+  nav,
+  footer,
+  aside,
+
+  .site-header,
+  .breadcrumb,
+  .header-link,
+
+  #utilityToolboxContainer,
+  #toolboxContent,
+  #toggleToolbox,
+  #backToTopBtn,
+
+  .share-bar,
+  .share-buttons,
+  .utilities,
+  .utility-toolbox,
+  .reader-controls,
+  .site-controls,
+  .menu,
+
+  .navbox,
+  .navbox-cis,
+  .infobox,
+
+  .btn,
+  .button,
+  .copy-button,
+  .copy-full-text,
+
+  .categories,
+  .page-data,
+  .page-metadata,
+  .article-metadata,
+  .post-meta,
+  .metadata,
+
+  .external-link,
+  .related-links,
+
+  .print-hide {
     display: none !important;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  /* -----------------------------------------
+     Typography
+     ----------------------------------------- */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: #000 !important;
+
     page-break-after: avoid !important;
     break-after: avoid !important;
+
     page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
@@ -359,41 +371,64 @@ pre {
     font-size: 24pt !important;
     margin-top: 0 !important;
     margin-bottom: 0.7rem !important;
+
     border-bottom: 2px solid #999 !important;
     padding-bottom: 0.25rem !important;
   }
 
   h2 {
     font-size: 18pt !important;
+
     border-bottom: 1px solid #bbb !important;
     padding-bottom: 0.15rem !important;
+
     margin-top: 1.6rem !important;
   }
 
-  h3 { font-size: 15pt !important; }
+  h3 {
+    font-size: 15pt !important;
+  }
 
-  p, li, blockquote {
+  p,
+  li,
+  blockquote {
     orphans: 3;
     widows: 3;
   }
 
-  p, li, blockquote, table, pre, img {
+  p,
+  li,
+  blockquote,
+  table,
+  pre,
+  img {
     page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
 
-  a, a:visited {
+  /* -----------------------------------------
+     Links
+     ----------------------------------------- */
+
+  a,
+  a:visited {
     color: #000 !important;
     text-decoration: underline !important;
   }
 
+  /* Avoid massive raw URLs everywhere */
   a[href^="http"]::after {
     content: "";
   }
 
+  /* -----------------------------------------
+     Images
+     ----------------------------------------- */
+
   img {
     max-width: 100% !important;
     height: auto !important;
+
     box-shadow: none !important;
     border-radius: 0 !important;
   }
@@ -403,12 +438,19 @@ pre {
     break-inside: avoid !important;
   }
 
+  /* -----------------------------------------
+     Tables
+     ----------------------------------------- */
+
   table {
     width: 100% !important;
+
     display: table !important;
     overflow: visible !important;
+
     box-shadow: none !important;
     border-radius: 0 !important;
+
     border-collapse: collapse !important;
   }
 
@@ -416,11 +458,14 @@ pre {
     display: table-header-group;
   }
 
-  tr, td, th {
+  tr,
+  td,
+  th {
     page-break-inside: avoid !important;
   }
 
-  th, td {
+  th,
+  td {
     border: 1px solid #bbb !important;
     padding: 0.45rem !important;
   }
@@ -430,7 +475,12 @@ pre {
     color: #000 !important;
   }
 
-  pre, code {
+  /* -----------------------------------------
+     Code / Preformatted Text
+     ----------------------------------------- */
+
+  pre,
+  code {
     background: #f5f5f5 !important;
     color: #000 !important;
   }
@@ -440,6 +490,10 @@ pre {
     overflow: visible !important;
     white-space: pre-wrap !important;
   }
+
+  /* -----------------------------------------
+     Remove Decorative Effects
+     ----------------------------------------- */
 
   * {
     text-shadow: none !important;
@@ -452,12 +506,16 @@ pre {
 /* =========================================================
    Reduced Motion Support
    ========================================================= */
+
 @media (prefers-reduced-motion: reduce) {
+
   html {
     scroll-behavior: auto;
   }
+
   * {
     animation: none !important;
     transition: none !important;
   }
+
 }
