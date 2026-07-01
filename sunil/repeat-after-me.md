@@ -261,7 +261,8 @@ Each tweet was designed to stand alone as a shareable unit whilst contributing t
     transform: none;
   }
 }
-  /* Repeat After Me – Hero Image */
+
+/* Repeat After Me – Hero Image */
 .repeat-hero-image {
   margin: 0 0 1.5rem 1.5rem;
   float: right;
@@ -294,5 +295,37 @@ Each tweet was designed to stand alone as a shareable unit whilst contributing t
     max-width: 280px;
     text-align: center;
   }
+}
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode .ram-social-card {
+  background: #1e293b !important;
+  color: #cbd5e1 !important;
+  border-color: #334155 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .ram-social-card:hover {
+  border-color: #475569 !important;
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.15) !important;
+}
+
+body.tsap-dark-mode .ram-social-date {
+  color: #38bdf8 !important;
+  border-bottom-color: #334155 !important;
+}
+
+body.tsap-dark-mode .repeat-hero-image img {
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.5),
+    0 2px 8px rgba(56, 189, 248, 0.15) !important;
+}
+
+body.tsap-dark-mode .repeat-hero-image img:hover {
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.7),
+    0 4px 12px rgba(56, 189, 248, 0.25) !important;
 }
 </style>

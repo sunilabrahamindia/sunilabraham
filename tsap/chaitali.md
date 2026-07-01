@@ -328,8 +328,9 @@ The *Firstpost* archive was documented through the cluster page [Sunil Abraham a
   text-transform: uppercase;
   color: rgba(255, 200, 120, 0.65);
 }
+
 /* Chaitali counter */
-  .chaitali-counter {
+.chaitali-counter {
   font-size: 1rem;
   margin: 0.6rem 0 1rem 0;
   color: #222;
@@ -351,7 +352,8 @@ The *Firstpost* archive was documented through the cluster page [Sunil Abraham a
   font-size: 0.90rem;
   color: #222;
 }
-    /* Chaitali pages list */
+
+/* Chaitali pages list */
 .chaitali-pages-list {
   padding-left: 1.4em;
   line-height: 1.8;
@@ -368,10 +370,51 @@ The *Firstpost* archive was documented through the cluster page [Sunil Abraham a
   color: #555;
   font-size: 0.9em;
 }
-  @media (prefers-reduced-motion: reduce) {
+
+@media (prefers-reduced-motion: reduce) {
   .petal {
     animation: none !important;
     opacity: 0.3;
   }
+}
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode .chaitali-banner {
+  background:
+    radial-gradient(ellipse 60% 40% at 72% 78%, rgba(249, 115, 22, 0.2) 0%, transparent 75%),
+    radial-gradient(ellipse 40% 30% at 28% 82%, rgba(194, 65, 12, 0.1) 0%, transparent 65%),
+    linear-gradient(170deg, #020617 0%, #0f172a 20%, #1e293b 40%, #431407 65%, #7c2d12 85%, #9a3412 100%) !important;
+}
+
+body.tsap-dark-mode .chaitali-banner::after {
+  background: linear-gradient(to top, #020205 0%, #090502 65%, transparent 100%) !important;
+}
+
+body.tsap-dark-mode .tree svg path {
+  stroke: #020205 !important;
+}
+
+body.tsap-dark-mode .chaitali-counter {
+  color: #e2e8f0 !important;
+}
+
+body.tsap-dark-mode .chaitali-poem figcaption {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .chaitali-poem img {
+  opacity: 0.85;
+  filter: brightness(0.9) contrast(1.1);
+  border: 1px solid #334155;
+}
+
+body.tsap-dark-mode .chaitali-page-item a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .chaitali-page-date {
+  color: #94a3b8 !important;
 }
 </style>

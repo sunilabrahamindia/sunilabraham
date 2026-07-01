@@ -726,4 +726,56 @@ msqRestoreURL();
   .msq-btn,
   .msq-btn-ghost      { padding: 0.42rem 0.75rem; font-size: 0.85rem; }
 }
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode {
+  --msq-border:      #334155;
+  --msq-bg:          #1e293b;
+  --msq-surface:     #111827;
+  --msq-text:        #f1f5f9;
+  --msq-muted:       #94a3b8;
+  --msq-blue:        #38bdf8;
+  --msq-blue-hover:  #0ea5e9;
+  --msq-blue-light:  #0c4a6e;
+  --msq-blue-mid:    #0369a1;
+  --msq-shadow-sm:   0 1px 3px rgba(0, 0, 0, 0.5);
+  --msq-shadow-md:   0 4px 14px rgba(0, 0, 0, 0.6);
+}
+
+body.tsap-dark-mode .msq-toolbar {
+  border-bottom-color: var(--msq-blue);
+}
+
+body.tsap-dark-mode .msq-toolbar-title {
+  color: var(--msq-blue);
+}
+
+body.tsap-dark-mode .msq-btn {
+  color: #0f172a !important;
+}
+
+body.tsap-dark-mode .msq-btn-ghost {
+  background: transparent !important;
+}
+
+body.tsap-dark-mode .msq-hint code {
+  background: var(--msq-blue-light) !important;
+  color: var(--msq-blue) !important;
+}
+
+body.tsap-dark-mode .msq-field input[type="text"]:focus,
+body.tsap-dark-mode .msq-field select:focus,
+body.tsap-dark-mode .msq-tags:focus-within {
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25) !important;
+}
+
+body.tsap-dark-mode .msq-card h3 a {
+  color: var(--msq-blue) !important;
+}
+
+body.tsap-dark-mode .msq-empty svg {
+  color: var(--msq-blue) !important;
+}
 </style>

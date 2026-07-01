@@ -151,6 +151,52 @@ h2 {
 @media (prefers-reduced-motion: reduce) {
   .timeline-item { transition: none; transform: none; }
 }
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode .timeline-page {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode h2 {
+  color: #38bdf8 !important;
+  border-bottom-color: #334155 !important;
+}
+
+body.tsap-dark-mode .timeline::before {
+  background: linear-gradient(180deg, #38bdf8, #0ea5e9) !important;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.2) !important;
+}
+
+body.tsap-dark-mode .timeline-item {
+  background: #1e293b !important;
+  color: #cbd5e1 !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .timeline-item:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6) !important;
+  border-color: #475569 !important;
+}
+
+body.tsap-dark-mode .timeline-dot {
+  background: linear-gradient(180deg, #38bdf8, #0ea5e9) !important;
+  border-color: #1e293b !important;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.tsap-dark-mode .timeline-date {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .timeline-item h3 {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .timeline-item p {
+  color: #94a3b8 !important;
+}
 </style>
 
 
