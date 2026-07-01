@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const fullURL =
         window.location.origin +
         window.location.pathname +
-        "#" + header.id;
+        # + header.id;
 
       navigator.clipboard.writeText(fullURL).then(() => {
         link.innerHTML = "✅";
@@ -247,6 +247,19 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.classList.add('tsap-dark-mode');
   }
 
+});
+
+// Dynamic Theme Engine Shortcut (Alt + Shift + D)
+document.addEventListener('keydown', function (e) {
+  if (e.altKey && e.shiftKey && (e.key === 'D' || e.key === 'd')) {
+    const isDarkNow = document.body.classList.contains('tsap-dark-mode');
+    
+    if (isDarkNow) {
+      window.location.search = '?darkmode=0';
+    } else {
+      window.location.search = '?darkmode=1';
+    }
+  }
 });
 </script>
 </body>
