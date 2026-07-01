@@ -504,6 +504,48 @@ pre {
 }
 
 /* =========================================================
+   FIREFOX-STYLE READING FOCUS MODE
+   ========================================================= */
+body.tsap-focus-mode {
+  background-color: #f4ecd8 !important; /* Firefox Sepia Base */
+  color: #5b4636 !important;            /* Firefox Sepia Text */
+}
+
+/* If dark mode AND focus mode are both on, use Firefox's dark reader theme */
+body.tsap-dark-mode.tsap-focus-mode {
+  background-color: #1a1a1a !important; /* Firefox Dark Reader Base */
+  color: #e0e0e0 !important;            /* Firefox Dark Reader Text */
+}
+
+/* Force layout wrapper to match Firefox Reader Mode dimensions */
+body.tsap-focus-mode main,
+body.tsap-focus-mode .timeline-page,
+body.tsap-focus-mode article {
+  max-width: 36em !important;      /* Firefox Reader absolute sweet-spot line length */
+  margin: 0 auto !important;
+  padding: 2rem 1rem !important;
+  line-height: 1.65 !important;    /* Enhanced vertical rhythm */
+  font-family: Georgia, serif !important; /* Elegant editorial type shift */
+  font-size: 1.15rem !important;   /* Comfortable reading scale */
+}
+
+/* Dim non-text noise without breaking them */
+body.tsap-focus-mode img,
+body.tsap-focus-mode iframe {
+  filter: sepia(0.2) contrast(0.9);
+  max-width: 100% !important;
+}
+
+/* Clean link states for sepia/dark focus */
+body.tsap-focus-mode a {
+  color: #006699 !important;
+  text-decoration: underline !important;
+}
+body.tsap-dark-mode.tsap-focus-mode a {
+  color: #64c8ff !important;
+}
+
+/* =========================================================
    Reduced Motion Support
    ========================================================= */
 
