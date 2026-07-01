@@ -66,18 +66,19 @@
   --newest-shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --newest-link: #8cb4ff;
-    --newest-link-hover: #b5ceff;
-    --newest-text: #dddddd;
-    --newest-muted: #cccccc;
-    --newest-focus: #8cb4ff;
-    --newest-badge-bg: #3b82f6;
-    --newest-badge-text: #ffffff;
-    --newest-shadow: none;
-    --newest-shadow-hover: none;
-  }
+/* =========================================================
+   DARK MODE VARIABLES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode {
+  --newest-link: #8cb4ff;
+  --newest-link-hover: #b5ceff;
+  --newest-text: #dddddd;
+  --newest-muted: #cccccc;
+  --newest-focus: #8cb4ff;
+  --newest-badge-bg: #3b82f6;
+  --newest-badge-text: #ffffff;
+  --newest-shadow: none;
+  --newest-shadow-hover: none;
 }
 
 .newest-section {
@@ -163,40 +164,17 @@
   border-left-color: #2d7a0a;
 }
 
-@media (prefers-color-scheme: dark) {
-
-  .newest-card:nth-child(8n + 1) {
-    background: #3d3520;
-  }
-
-  .newest-card:nth-child(8n + 2) {
-    background: #1f3442;
-  }
-
-  .newest-card:nth-child(8n + 3) {
-    background: #233822;
-  }
-
-  .newest-card:nth-child(8n + 4) {
-    background: #422433;
-  }
-
-  .newest-card:nth-child(8n + 5) {
-    background: #342548;
-  }
-
-  .newest-card:nth-child(8n + 6) {
-    background: #1f3a37;
-  }
-
-  .newest-card:nth-child(8n + 7) {
-    background: #463225;
-  }
-
-  .newest-card:nth-child(8n + 8) {
-    background: #273b22;
-  }
-}
+/* =========================================================
+   DARK MODE BACKGROUND CARD OVERRIDES
+   ========================================================= */
+body.tsap-dark-mode .newest-card:nth-child(8n + 1) { background: #3d3520; }
+body.tsap-dark-mode .newest-card:nth-child(8n + 2) { background: #1f3442; }
+body.tsap-dark-mode .newest-card:nth-child(8n + 3) { background: #233822; }
+body.tsap-dark-mode .newest-card:nth-child(8n + 4) { background: #422433; }
+body.tsap-dark-mode .newest-card:nth-child(8n + 5) { background: #342548; }
+body.tsap-dark-mode .newest-card:nth-child(8n + 6) { background: #1f3a37; }
+body.tsap-dark-mode .newest-card:nth-child(8n + 7) { background: #463225; }
+body.tsap-dark-mode .newest-card:nth-child(8n + 8) { background: #273b22; }
 
 .newest-card-meta {
   display: flex;

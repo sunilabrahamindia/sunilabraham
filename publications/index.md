@@ -314,6 +314,41 @@ His talks often focus on openness, ethics, and governance in digital systems.
   font-size: 0.9rem;
   color: #555;
 }
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode #media-search {
+  background-color: #1e293b;
+  color: #f1f5f9;
+  border-color: #334155;
+}
+
+body.tsap-dark-mode #media-search:focus {
+  outline-color: #8cb4ff;
+}
+
+body.tsap-dark-mode .sort-controls button {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+
+body.tsap-dark-mode .sort-controls button:hover {
+  background: #274d7a;
+  color: #ffffff;
+}
+
+body.tsap-dark-mode .sort-controls button.active-sort {
+  background: #3278d6;
+  color: #ffffff;
+  border-color: #3278d6;
+}
+
+body.tsap-dark-mode .media-count,
+body.tsap-dark-mode .meta {
+  color: #cbd5e1;
+}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
