@@ -146,12 +146,12 @@ th {
    ========================================================= */
 @media (max-width: 768px) {
   body {
-    padding: 0 1rem 3rem;
+    padding: 0 0.5rem 3rem;
     line-height: 1.4;
   }
 
-  .main-content, main, .content {
-    padding: 1rem !important;
+  .main-content {
+    padding: 1rem;
   }
 
   p,
