@@ -157,6 +157,14 @@ created: 2026-01-21
   line-height: 1.6;
 }
 
+/* Fallback styling classes for Inactive Streak alert box states */
+.streak-summary.streak-inactive {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  color: #b45309;
+  border-left-color: #f59e0b;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
+}
+
 .timeline-note {
   background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 50%, #93c5fd 100%);
   padding: 16px 20px;
@@ -403,6 +411,11 @@ created: 2026-01-21
   border-radius: 6px;
 }
 
+#log-by-month stream-summary {
+  background: linear-gradient(135deg, #86efac 0%, #4ade80 100%);
+  border-radius: 6px;
+}
+
 #log-by-month::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #86efac 0%, #4ade80 100%);
   border-radius: 6px;
@@ -622,10 +635,17 @@ body.tsap-dark-mode .timeline-card h2 {
 }
 
 body.tsap-dark-mode .streak-summary {
-  background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
-  color: #a7f3d0;
-  border-left-color: #34d399;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  background: linear-gradient(135deg, #064e3b 0%, #065f46 100%) !important;
+  color: #a7f3d0 !important;
+  border-left-color: #34d399 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+}
+
+body.tsap-dark-mode .streak-summary.streak-inactive {
+  background: linear-gradient(135deg, #451a03 0%, #78350f 100%) !important;
+  color: #fde68a !important;
+  border-left-color: #f59e0b !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
 }
 
 body.tsap-dark-mode .timeline-note {
@@ -661,7 +681,7 @@ body.tsap-dark-mode #log-by-month h3 {
   background: linear-gradient(135deg, #064e3b 0%, #0f172a 100%);
   color: #34d399;
   border-left-color: #34d399;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.4);
 }
 
 body.tsap-dark-mode #log-by-month li {
@@ -820,8 +840,7 @@ while ((counts[cursor] || 0) > 0) {
 const summary = document.getElementById('streak-summary');
 if (streakDates.length === 0) {
   summary.textContent = '🌱 No active streak. We need to restart article creation to begin the garden!';
-  summary.style.background = 'linear-gradient(135deg, #fef3c7, #fde68a)';
-  summary.style.borderLeftColor = '#f59e0b';
+  summary.classList.add('streak-inactive'); // Use CSS classes rather than raw JavaScript style overrides
 } else {
   const totalPages = streakDates.reduce((sum, d) => sum + d.count, 0);
   summary.textContent = 
