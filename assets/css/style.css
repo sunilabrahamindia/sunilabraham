@@ -65,9 +65,11 @@ body {
 .main-content p, 
 .main-content li, 
 .main-content pre, 
-.main-content table {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.main-content table,
+.breadcrumb,
+.btn {
+  margin-left: 0.8rem !important;
+  margin-right: 0.8rem !important;
 }
 
 /* =========================================================
@@ -79,8 +81,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   margin-top: 0.8rem;
   margin-bottom: 0.4rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  margin-left: 0.8rem !important;
+  margin-right: 0.8rem !important;
 }
 
 main h1 {
@@ -129,7 +131,7 @@ a:hover, a:focus {
    Tables
    ========================================================= */
 table {
-  width: 100%;
+  width: calc(100% - 1.6rem) !important;
   border-collapse: collapse;
   border-spacing: 0;
   margin: 1.5rem 0;
@@ -181,9 +183,15 @@ tr:last-child td {
   .main-content li, 
   .main-content pre, 
   .main-content table,
+  .breadcrumb,
+  .btn,
   h1, h2, h3, h4, h5, h6 {
-    padding-left: 0;
-    padding-right: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  table {
+    width: 100% !important;
   }
 
   p,
@@ -230,8 +238,6 @@ h6:hover .header-link { opacity: 1; }
   padding-bottom: 0.2rem;
   color: var(--text-muted);
   border-bottom: 1px solid var(--border-main);
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 .breadcrumb + * { margin-top: 0 !important; }
@@ -260,7 +266,6 @@ h6:hover .header-link { opacity: 1; }
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.2s ease, transform 0.1s ease;
-  margin-left: 0.5rem;
 }
 
 .btn:hover {
