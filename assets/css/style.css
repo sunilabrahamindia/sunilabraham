@@ -54,11 +54,20 @@ body {
 .main-content {
   background: var(--bg-surface);
   border-radius: 12px;
-  padding: 2.2rem;
+  padding: 2.2rem 1.8rem;
   margin-top: 0.6rem;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
   animation: fadeUp 1s ease-in-out;
   transition: background-color 0.4s ease;
+}
+
+/* Give explicit internal indentation room for text structures */
+.main-content p, 
+.main-content li, 
+.main-content pre, 
+.main-content table {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /* =========================================================
@@ -70,6 +79,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   margin-top: 0.8rem;
   margin-bottom: 0.4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 main h1 {
@@ -166,6 +177,15 @@ tr:last-child td {
     padding: 1rem;
   }
 
+  .main-content p, 
+  .main-content li, 
+  .main-content pre, 
+  .main-content table,
+  h1, h2, h3, h4, h5, h6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   p,
   li,
   td,
@@ -210,6 +230,8 @@ h6:hover .header-link { opacity: 1; }
   padding-bottom: 0.2rem;
   color: var(--text-muted);
   border-bottom: 1px solid var(--border-main);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .breadcrumb + * { margin-top: 0 !important; }
@@ -238,6 +260,7 @@ h6:hover .header-link { opacity: 1; }
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.2s ease, transform 0.1s ease;
+  margin-left: 0.5rem;
 }
 
 .btn:hover {
