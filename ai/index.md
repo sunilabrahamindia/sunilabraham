@@ -493,7 +493,7 @@ document.addEventListener('DOMContentLoaded', () => {
   animation-delay: 0.8s;
 }
 
-  .ai-portal-header::before,
+.ai-portal-header::before,
 .ai-portal-header::after {
   content: '';
   position: absolute;
@@ -1094,5 +1094,109 @@ document.addEventListener('DOMContentLoaded', () => {
 /* Hide auto-generated page title */
 main h1:first-child {
   display: none !important;
+}
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode .toc-link,
+body.tsap-dark-mode .ai-content-card,
+body.tsap-dark-mode .ai-video-card,
+body.tsap-dark-mode .ai-video-caption,
+body.tsap-dark-mode .ai-timeline-btn,
+body.tsap-dark-mode .ai-sort-btn,
+body.tsap-dark-mode .ai-social-card {
+  background: #1e293b !important;
+  color: #cbd5e1 !important;
+  border-color: #334155 !important;
+}
+
+body.tsap-dark-mode .ai-toc h2 {
+  color: #f3f4f6 !important;
+  border-bottom-color: #3b82f6 !important;
+}
+
+body.tsap-dark-mode .toc-link {
+  color: #e2e8f0 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.tsap-dark-mode .toc-link:hover {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.4) !important;
+  background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%) !important;
+}
+
+body.tsap-dark-mode .ai-content-card {
+  background: linear-gradient(135deg, #1e293b 0%, #111827 100%) !important;
+  border-left-color: #38bdf8 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .ai-content-card:hover {
+  border-left-color: #0ea5e9 !important;
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.2) !important;
+}
+
+body.tsap-dark-mode .ai-card-content h3,
+body.tsap-dark-mode .ai-video-caption strong {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .ai-card-content p,
+body.tsap-dark-mode .ai-video-caption,
+body.tsap-dark-mode .ai-video-intro p,
+body.tsap-dark-mode .ai-social-intro p {
+  color: #94a3b8 !important;
+}
+
+body.tsap-dark-mode .ai-video-intro,
+body.tsap-dark-mode .ai-social-intro {
+  background: rgba(56, 189, 248, 0.05) !important;
+  border-left-color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .ai-card-link,
+body.tsap-dark-mode .ai-card-year {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .ai-card-year {
+  background: rgba(56, 189, 248, 0.1) !important;
+  border-color: rgba(56, 189, 248, 0.3) !important;
+}
+
+body.tsap-dark-mode .ai-card-link::after {
+  background: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .ai-timeline-btn:hover,
+body.tsap-dark-mode .ai-sort-btn:hover {
+  background: rgba(56, 189, 248, 0.1) !important;
+  border-color: #38bdf8 !important;
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .ai-timeline-btn.active,
+body.tsap-dark-mode .ai-sort-btn.active {
+  background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%) !important;
+  color: #0f172a !important;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.35) !important;
+}
+
+body.tsap-dark-mode .ai-video-card,
+body.tsap-dark-mode .ai-social-card {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .ai-video-card:hover,
+body.tsap-dark-mode .ai-social-card:hover {
+  box-shadow: 0 6px 24px rgba(56, 189, 248, 0.15) !important;
+  border-color: rgba(56, 189, 248, 0.4) !important;
+}
+
+body.tsap-dark-mode .ai-social-date {
+  color: #38bdf8 !important;
+  border-bottom-color: rgba(56, 189, 248, 0.1) !important;
 }
 </style>

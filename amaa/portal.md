@@ -751,10 +751,6 @@ main h1:first-child {
   pointer-events: none;
 }
 
-/* ---------------------------------------------
-   ELEGANT, MOBILE-SAFE GALLERY ENHANCEMENTS
-   --------------------------------------------- */
-
 /* Improve gallery card styling */
 .gallery-item {
   background: #fff;
@@ -798,6 +794,84 @@ main h1:first-child {
   .gallery-item img:hover {
     transform: none !important;
     box-shadow: 0 3px 6px rgba(0,0,0,0.07) !important;
+  }
+}
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode .collapse-box {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .collapse-header {
+  background-color: #334155 !important;
+  color: #f1f5f9 !important;
+  border-bottom-color: #475569 !important;
+}
+
+body.tsap-dark-mode .collapse-header:hover {
+  background-color: #475569 !important;
+}
+
+body.tsap-dark-mode .collapse-content,
+body.tsap-dark-mode .bio-details {
+  background-color: #111827 !important;
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .bio-details dt {
+  color: #f1f5f9 !important;
+}
+
+body.tsap-dark-mode .bio-details dd,
+body.tsap-dark-mode .bio-details ul li {
+  color: #94a3b8 !important;
+}
+
+/* Invert sticky note colors safely to elegant dark variants */
+body.tsap-dark-mode .bio-note-card {
+  color: #e2e8f0 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+body.tsap-dark-mode .bio-note-card::after {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+body.tsap-dark-mode .bio-note-card:nth-of-type(4n+1) { background: #2d281e !important; border-color: #4d4432 !important; }
+body.tsap-dark-mode .bio-note-card:nth-of-type(4n+2) { background: #1a2436 !important; border-color: #2a3a54 !important; }
+body.tsap-dark-mode .bio-note-card:nth-of-type(4n+3) { background: #16261b !important; border-color: #243d2c !important; }
+body.tsap-dark-mode .bio-note-card:nth-of-type(4n+4) { background: #2c1a20 !important; border-color: #4a2b36 !important; }
+
+body.tsap-dark-mode .bio-note-card:nth-of-type(4n+1) .bio-note-button { background: #4d4432 !important; border-color: #61563f !important; color: #fde68a !important; }
+body.tsap-dark-mode .bio-note-card:nth-of-type(4n+2) .bio-note-button { background: #2a3a54 !important; border-color: #3b5275 !important; color: #bfdbfe !important; }
+body.tsap-dark-mode .bio-note-card:nth-of-type(4n+3) .bio-note-button { background: #243d2c !important; border-color: #31543c !important; color: #a7f3d0 !important; }
+body.tsap-dark-mode .bio-note-card:nth-of-type(4n+4) .bio-note-button { background: #4a2b36 !important; border-color: #613947 !important; color: #fbcfe8 !important; }
+
+body.tsap-dark-mode .bio-note-button:hover {
+  filter: brightness(1.15);
+}
+
+/* Gallery Dark Overrides */
+body.tsap-dark-mode .gallery-item {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .gallery-item figcaption {
+  background-color: #111827 !important;
+  color: #cbd5e1 !important;
+  border-top-color: #334155 !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  body.tsap-dark-mode .gallery-item:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6) !important;
+    border-color: #475569 !important;
   }
 }
 </style>
