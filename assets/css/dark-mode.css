@@ -1,76 +1,89 @@
 /* =========================================================
-   Dark Mode Foundation
+   Dark Mode Foundation & Variable Mappings
    ========================================================= */
 
-:root {
-  color-scheme: light dark;
-}
-
 body.tsap-dark-mode {
-  background: #111827 !important;
+  --bg-body: #111827;
+  --bg-surface: #1f2937;
+  --text-main: #e5e7eb;
+  --text-heading: #f3f4f6;
+  --text-muted: #cbd5e1;
+  --text-span: #cbd5e1;
+  --border-main: #374151;
+  --border-sub: #374151;
+  --border-hover: #4b5563;
+  --link-color: #93c5fd;
+  --link-hover: #bfdbfe;
+  --table-th-bg: #374151;
+  --table-th-text: #f3f4f6;
+  --table-border: #4b5563;
+  --btn-bg: #374151;
+  --btn-hover: #4b5563;
+  --btn-active: #1f2937;
+
+  background: var(--bg-body) !important;
   background-image: none !important;
-  color: #e5e7eb !important;
+  color: var(--text-main) !important;
 }
 
+/* Structural cleanup overrides safely tied to framework layout values */
 body.tsap-dark-mode .main-content,
 body.tsap-dark-mode main,
 body.tsap-dark-mode .content {
-  background: #1f2937 !important;
-  color: #e5e7eb !important;
+  background: var(--bg-surface) !important;
+  color: var(--text-main) !important;
   box-shadow: none !important;
-}
-
-body.tsap-dark-mode h1,
-body.tsap-dark-mode h2,
-body.tsap-dark-mode h3,
-body.tsap-dark-mode h4,
-body.tsap-dark-mode h5,
-body.tsap-dark-mode h6 {
-  color: #f3f4f6 !important;
 }
 
 body.tsap-dark-mode h2 {
-  border-bottom-color: #374151 !important;
-}
-
-body.tsap-dark-mode a {
-  color: #93c5fd !important;
-}
-
-body.tsap-dark-mode a:hover,
-body.tsap-dark-mode a:focus {
-  color: #bfdbfe !important;
+  border-bottom-color: var(--border-sub) !important;
 }
 
 body.tsap-dark-mode table {
-  background: #1f2937 !important;
+  background: var(--bg-surface) !important;
   box-shadow: none !important;
-}
-
-body.tsap-dark-mode th {
-  background: #374151 !important;
-  color: #f3f4f6 !important;
 }
 
 body.tsap-dark-mode td,
 body.tsap-dark-mode th {
-  border-bottom-color: #4b5563 !important;
-}
-
-body.tsap-dark-mode footer {
-  background: #111827 !important;
-  background-image: none !important;
-  color: #cbd5e1 !important;
-  border-top-color: #374151 !important;
+  border-bottom-color: var(--table-border) !important;
 }
 
 body.tsap-dark-mode .breadcrumb {
-  color: #cbd5e1 !important;
-  border-bottom-color: #374151 !important;
+  border-bottom-color: var(--border-main) !important;
 }
 
-body.tsap-dark-mode .breadcrumb span {
+/* =========================================================
+   Mobile Tracker Fixes (Issue #8 Audits)
+   ========================================================= */
+
+/* Top Utility Bar Fixes */
+body.tsap-dark-mode [aria-label="Top utility bar"],
+body.tsap-dark-mode .top-utility-bar,
+body.tsap-dark-mode .top-bar {
+  background-color: #182230 !important;
   color: #cbd5e1 !important;
+  border-bottom: 1px solid #374151 !important;
+}
+
+/* Interactive Filter Controls & General Form Elements */
+body.tsap-dark-mode .filter-controls,
+body.tsap-dark-mode .filters,
+body.tsap-dark-mode select,
+body.tsap-dark-mode input {
+  background-color: #1f2937 !important;
+  color: #f3f4f6 !important;
+  border: 1px solid #4b5563 !important;
+}
+
+/* Newest Pages / Coloured Content Cards */
+body.tsap-dark-mode .card,
+body.tsap-dark-mode .newest-pages-card,
+body.tsap-dark-mode .content-card {
+  background-color: #182230 !important;
+  border: 1px solid #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
 }
 
 /* =========================================================
@@ -148,11 +161,8 @@ body.tsap-dark-mode footer .tsap-milestone {
     #6b4f1d 45%,
     #7a5a1f 100%
   ) !important;
-
   color: #f8e7b5 !important;
-
   border-color: #b8891f !important;
-
   box-shadow:
     0 4px 14px rgba(0, 0, 0, 0.35),
     0 1px 4px rgba(0, 0, 0, 0.2) !important;
@@ -184,9 +194,7 @@ body.tsap-dark-mode .navbar {
     #243244 0%,
     #1b2636 100%
   ) !important;
-
-  box-shadow:
-    0 3px 10px rgba(0, 0, 0, 0.35) !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35) !important;
 }
 
 body.tsap-dark-mode .navbar a {
@@ -200,7 +208,6 @@ body.tsap-dark-mode .navbar a:hover {
     #355070 0%,
     #2c435f 100%
   ) !important;
-
   color: #ffffff !important;
 }
 
@@ -210,11 +217,8 @@ body.tsap-dark-mode .navbar a.active {
     #406080 0%,
     #314b66 100%
   ) !important;
-
   color: #ffffff !important;
-
-  box-shadow:
-    inset 0 2px 6px rgba(0,0,0,0.35) !important;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.35) !important;
 }
 
 body.tsap-dark-mode .navbar a:focus {
@@ -226,14 +230,12 @@ body.tsap-dark-mode .navbar a:focus {
    ========================================================= */
 
 @media (max-width: 768px) {
-
   body.tsap-dark-mode .navbar-toggle {
     background: linear-gradient(
       to bottom,
       #314b66 0%,
       #243244 100%
     ) !important;
-
     color: #f3f4f6 !important;
   }
 
@@ -250,14 +252,14 @@ body.tsap-dark-mode .navbar a:focus {
   }
 
   body.tsap-dark-mode .navbar ul.open {
-    box-shadow:
-      0 8px 18px rgba(0,0,0,0.4) !important;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.4) !important;
   }
 }
 
 /* =========================================================
-  Page Information 
+   Page Information 
    ========================================================= */
+
 body.tsap-dark-mode .page-info {
   color: #cbd5e1 !important;
 }
@@ -380,9 +382,9 @@ body.tsap-dark-mode .author-names {
 }
 
 /* =========================================================
-  Publications
+   Publications
    ========================================================= */
-   /* Dark mode */
+/* Dark mode */
 
 body.tsap-dark-mode .pub-details {
   background: #1f2937;
@@ -440,11 +442,9 @@ body.tsap-dark-mode .copy-btn-full:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
-
   .pub-details a.btn,
   .copy-btn,
   .copy-btn-full {
     transition: none;
   }
-
 }
