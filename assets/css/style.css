@@ -504,55 +504,6 @@ pre {
 }
 
 /* =========================================================
-   FIREFOX-STYLE READING FOCUS MODE (NAV BAR SAFE)
-   ========================================================= */
-body.tsap-focus-mode {
-  background-color: #f4ecd8 !important; /* Firefox Sepia Base */
-  color: #5b4636 !important;            /* Firefox Sepia Text */
-}
-
-/* If dark mode AND focus mode are both active, serve Firefox's dark reader layer */
-body.tsap-dark-mode.tsap-focus-mode {
-  background-color: #1a1a1a !important; /* Firefox Dark Reader Base */
-  color: #e0e0e0 !important;            /* Firefox Dark Reader Text */
-}
-
-/* Isolate the main text column completely, leaving the global navbar unaffected */
-body.tsap-focus-mode main,
-body.tsap-focus-mode article,
-body.tsap-focus-mode .timeline-page {
-  max-width: 36em !important;      /* True Firefox text metric constraint */
-  margin: 2rem auto !important;
-  padding: 1rem 1.2rem !important;
-  line-height: 1.65 !important;    /* Editorial line grid spacing */
-  font-family: Georgia, serif !important; /* Comfortable type style shift */
-  font-size: 1.15rem !important;
-}
-
-/* Explicit protection block to prevent focus color contamination on your navigation elements */
-body.tsap-focus-mode .navbar,
-body.tsap-focus-mode .navbar *,
-body.tsap-focus-mode .navbar-toggle {
-  color: #fff !important; /* Locks navigation links back to high-visibility crisp white */
-}
-
-/* Maintain active link tab rendering rules inside focus views */
-body.tsap-focus-mode .navbar a.active {
-  color: #fff !important;
-}
-
-/* Re-adjust text link rendering scales inside the reading block strictly */
-body.tsap-focus-mode main a,
-body.tsap-focus-mode article a {
-  color: #006699 !important;
-  text-decoration: underline !important;
-}
-body.tsap-dark-mode.tsap-focus-mode main a,
-body.tsap-dark-mode.tsap-focus-mode article a {
-  color: #38bdf8 !important;
-}
-
-/* =========================================================
    Reduced Motion Support
    ========================================================= */
 

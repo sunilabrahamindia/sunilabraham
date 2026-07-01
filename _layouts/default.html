@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const fullURL =
         window.location.origin +
         window.location.pathname +
-        # + header.id;
+        '#' + header.id; // Correctly wrapped inside quotes
 
       navigator.clipboard.writeText(fullURL).then(() => {
         link.innerHTML = "✅";
@@ -259,28 +259,6 @@ document.addEventListener('keydown', function (e) {
     } else {
       window.location.search = '?darkmode=1';
     }
-  }
-});
-</script>
-<!-- Firefox-Style Reading Focus Mode Engine -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Toggle Firefox Reading Focus Mode via Keyboard (Alt + Shift + F)
-  window.addEventListener('keydown', function(e) {
-    // Check for Alt + Shift + F
-    if (e.altKey && e.shiftKey && e.code === 'KeyF') {
-      e.preventDefault();
-      document.body.classList.toggle('tsap-focus-mode');
-      
-      // Save user preference to localStorage so it stays sticky across page loads
-      const isFocus = document.body.classList.contains('tsap-focus-mode');
-      localStorage.setItem('tsap-focus-preference', isFocus ? 'enabled' : 'disabled');
-    }
-  });
-
-  // Auto-apply on page initialization if the reader was previously enabled
-  if (localStorage.getItem('tsap-focus-preference') === 'enabled') {
-    document.body.classList.add('tsap-focus-mode');
   }
 });
 </script>
