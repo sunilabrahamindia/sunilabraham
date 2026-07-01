@@ -12,6 +12,131 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
 
 **Please note:** Whilst publications and media content are integrated here, **events (conducted and participated) await sufficient standalone coverage and necessary metadata**. Those will be added gradually as documentation standards are met.
 
+<nav class="otd-nav-tabs">
+  <a href="#today" class="otd-nav-tab" data-tab="today">Today</a>
+  <a href="#this-week" class="otd-nav-tab" data-tab="this-week">This Week</a>
+  <a href="#previous-week" class="otd-nav-tab" data-tab="previous-week">Previous Week</a>
+  <a href="#next-week" class="otd-nav-tab" data-tab="next-week">Next Week</a>
+  <a href="#custom-range" class="otd-nav-tab" data-tab="custom-range">Custom Range</a>
+</nav>
+
+<div id="custom-range" class="otd-custom-range-panel">
+  <div class="otd-date-selectors">
+    <div class="otd-date-group">
+      <label>From Date</label>
+      <div class="otd-date-input">
+        <select id="from-day">
+          <option value="">Day</option>
+        </select>
+        <select id="from-month">
+          <option value="">Month</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="otd-date-group">
+      <label>To Date</label>
+      <div class="otd-date-input">
+        <select id="to-day">
+          <option value="">Day</option>
+        </select>
+        <select id="to-month">
+          <option value="">Month</option>
+        </select>
+      </div>
+    </div>
+    
+    <button class="otd-show-btn" onclick="showCustomRange()">Show Results</button>
+  </div>
+  
+  <div id="custom-results" style="display: none;">
+    <h2 class="otd-date-header">
+      Custom Range <span class="otd-week-label custom-label" id="custom-range-label"></span>
+    </h2>
+    
+    <div class="otd-section custom-section">
+      <h3>📝 Publications & Media Articles</h3>
+      <p class="otd-intro" id="custom-publications-intro">Sunil Abraham published the following articles during this period across different years.</p>
+      <ul class="otd-list" id="custom-publications"></ul>
+    </div>
+    
+    <div class="otd-section custom-section">
+      <h3>📰 Media Mentions</h3>
+      <p class="otd-intro" id="custom-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during this period across different years.</p>
+      <ul class="otd-list" id="custom-mentions"></ul>
+    </div>
+  </div>
+  
+  <div class="otd-placeholder" id="custom-placeholder">
+    Please select a date range and click "Show Results" to view historical content.
+  </div>
+</div>
+
+<div class="otd-container">
+  <h2 class="otd-date-header" id="today">Today</h2>
+  <p class="otd-today-intro" id="today-intro"></p>
+  
+  <div class="otd-section today-section" id="today-publications-section">
+    <h3>📝 Publications & Media Articles</h3>
+    <p class="otd-intro" id="today-publications-intro">Sunil Abraham published the following articles on this day in history.</p>
+    <ul class="otd-list" id="today-publications"></ul>
+  </div>
+  
+  <div class="otd-section today-section" id="today-mentions-section">
+    <h3>📰 Media Mentions</h3>
+    <p class="otd-intro" id="today-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles on this day in history.</p>
+    <ul class="otd-list" id="today-mentions"></ul>
+  </div>
+
+  <h2 class="otd-date-header" id="this-week">
+    This Week <span class="otd-week-label week-label" id="current-week-range"></span>
+  </h2>
+  
+  <div class="otd-section week-section" id="week-publications-section">
+    <h3>📝 Publications & Media Articles</h3>
+    <p class="otd-intro" id="week-publications-intro">Sunil Abraham published the following articles during this week across different years.</p>
+    <ul class="otd-list" id="week-publications"></ul>
+  </div>
+  
+  <div class="otd-section week-section" id="week-mentions-section">
+    <h3>📰 Media Mentions</h3>
+    <p class="otd-intro" id="week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during this week across different years.</p>
+    <ul class="otd-list" id="week-mentions"></ul>
+  </div>
+
+  <h2 class="otd-date-header" id="previous-week">
+    Previous Week <span class="otd-week-label prev-week-label" id="prev-week-range"></span>
+  </h2>
+  
+  <div class="otd-section prev-week-section" id="prev-week-publications-section">
+    <h3>📝 Publications & Media Articles</h3>
+    <p class="otd-intro" id="prev-week-publications-intro">Sunil Abraham published the following articles during the previous week across different years.</p>
+    <ul class="otd-list" id="prev-week-publications"></ul>
+  </div>
+  
+  <div class="otd-section prev-week-section" id="prev-week-mentions-section">
+    <h3>📰 Media Mentions</h3>
+    <p class="otd-intro" id="prev-week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during the previous week across different years.</p>
+    <ul class="otd-list" id="prev-week-mentions"></ul>
+  </div>
+
+  <h2 class="otd-date-header" id="next-week">
+    Next Week <span class="otd-week-label next-week-label" id="next-week-range"></span>
+  </h2>
+  
+  <div class="otd-section next-week-section" id="next-week-publications-section">
+    <h3>📝 Publications & Media Articles</h3>
+    <p class="otd-intro" id="next-week-publications-intro">Sunil Abraham published the following articles during the next week across different years.</p>
+    <ul class="otd-list" id="next-week-publications"></ul>
+  </div>
+  
+  <div class="otd-section next-week-section" id="next-week-mentions-section">
+    <h3>📰 Media Mentions</h3>
+    <p class="otd-intro" id="next-week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during the next week across different years.</p>
+    <ul class="otd-list" id="next-week-mentions"></ul>
+  </div>
+</div>
+
 <style>
 .otd-container {
   max-width: 100%;
@@ -543,132 +668,65 @@ The Sunil Abraham Project archives a substantial body of work spanning publicati
     font-size: 0.75rem;
   }
 }
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode .otd-custom-range-panel,
+body.tsap-dark-mode .otd-section,
+body.tsap-dark-mode .otd-placeholder {
+  background-color: #1e2937 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .otd-date-group label,
+body.tsap-dark-mode .otd-section h3,
+body.tsap-dark-mode .otd-date-header {
+  color: #f3f4f6 !important;
+  border-bottom-color: #374151 !important;
+}
+
+body.tsap-dark-mode .otd-date-input select {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+  border-color: #4b5563 !important;
+}
+
+body.tsap-dark-mode .otd-date-input select:hover,
+body.tsap-dark-mode .otd-date-input select:focus {
+  border-color: #93c5fd !important;
+}
+
+body.tsap-dark-mode .otd-intro,
+body.tsap-dark-mode .otd-today-intro,
+body.tsap-dark-mode .otd-item-description,
+body.tsap-dark-mode .otd-empty,
+body.tsap-dark-mode .otd-placeholder {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .otd-item {
+  background-color: #111827 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .otd-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6) !important;
+}
+
+body.tsap-dark-mode .otd-item-title a {
+  color: #93c5fd !important;
+}
+
+body.tsap-dark-mode .otd-item-title a:hover {
+  color: #bfdbfe !important;
+}
+
+body.tsap-dark-mode .otd-item-date {
+  color: #94a3b8 !important;
+}
 </style>
-
-<nav class="otd-nav-tabs">
-  <a href="#today" class="otd-nav-tab" data-tab="today">Today</a>
-  <a href="#this-week" class="otd-nav-tab" data-tab="this-week">This Week</a>
-  <a href="#previous-week" class="otd-nav-tab" data-tab="previous-week">Previous Week</a>
-  <a href="#next-week" class="otd-nav-tab" data-tab="next-week">Next Week</a>
-  <a href="#custom-range" class="otd-nav-tab" data-tab="custom-range">Custom Range</a>
-</nav>
-
-<div id="custom-range" class="otd-custom-range-panel">
-  <div class="otd-date-selectors">
-    <div class="otd-date-group">
-      <label>From Date</label>
-      <div class="otd-date-input">
-        <select id="from-day">
-          <option value="">Day</option>
-        </select>
-        <select id="from-month">
-          <option value="">Month</option>
-        </select>
-      </div>
-    </div>
-    
-    <div class="otd-date-group">
-      <label>To Date</label>
-      <div class="otd-date-input">
-        <select id="to-day">
-          <option value="">Day</option>
-        </select>
-        <select id="to-month">
-          <option value="">Month</option>
-        </select>
-      </div>
-    </div>
-    
-    <button class="otd-show-btn" onclick="showCustomRange()">Show Results</button>
-  </div>
-  
-  <div id="custom-results" style="display: none;">
-    <h2 class="otd-date-header">
-      Custom Range <span class="otd-week-label custom-label" id="custom-range-label"></span>
-    </h2>
-    
-    <div class="otd-section custom-section">
-      <h3>📝 Publications & Media Articles</h3>
-      <p class="otd-intro" id="custom-publications-intro">Sunil Abraham published the following articles during this period across different years.</p>
-      <ul class="otd-list" id="custom-publications"></ul>
-    </div>
-    
-    <div class="otd-section custom-section">
-      <h3>📰 Media Mentions</h3>
-      <p class="otd-intro" id="custom-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during this period across different years.</p>
-      <ul class="otd-list" id="custom-mentions"></ul>
-    </div>
-  </div>
-  
-  <div class="otd-placeholder" id="custom-placeholder">
-    Please select a date range and click "Show Results" to view historical content.
-  </div>
-</div>
-
-<div class="otd-container">
-  <h2 class="otd-date-header" id="today">Today</h2>
-  <p class="otd-today-intro" id="today-intro"></p>
-  
-  <div class="otd-section today-section" id="today-publications-section">
-    <h3>📝 Publications & Media Articles</h3>
-    <p class="otd-intro" id="today-publications-intro">Sunil Abraham published the following articles on this day in history.</p>
-    <ul class="otd-list" id="today-publications"></ul>
-  </div>
-  
-  <div class="otd-section today-section" id="today-mentions-section">
-    <h3>📰 Media Mentions</h3>
-    <p class="otd-intro" id="today-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles on this day in history.</p>
-    <ul class="otd-list" id="today-mentions"></ul>
-  </div>
-
-  <h2 class="otd-date-header" id="this-week">
-    This Week <span class="otd-week-label week-label" id="current-week-range"></span>
-  </h2>
-  
-  <div class="otd-section week-section" id="week-publications-section">
-    <h3>📝 Publications & Media Articles</h3>
-    <p class="otd-intro" id="week-publications-intro">Sunil Abraham published the following articles during this week across different years.</p>
-    <ul class="otd-list" id="week-publications"></ul>
-  </div>
-  
-  <div class="otd-section week-section" id="week-mentions-section">
-    <h3>📰 Media Mentions</h3>
-    <p class="otd-intro" id="week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during this week across different years.</p>
-    <ul class="otd-list" id="week-mentions"></ul>
-  </div>
-
-  <h2 class="otd-date-header" id="previous-week">
-    Previous Week <span class="otd-week-label prev-week-label" id="prev-week-range"></span>
-  </h2>
-  
-  <div class="otd-section prev-week-section" id="prev-week-publications-section">
-    <h3>📝 Publications & Media Articles</h3>
-    <p class="otd-intro" id="prev-week-publications-intro">Sunil Abraham published the following articles during the previous week across different years.</p>
-    <ul class="otd-list" id="prev-week-publications"></ul>
-  </div>
-  
-  <div class="otd-section prev-week-section" id="prev-week-mentions-section">
-    <h3>📰 Media Mentions</h3>
-    <p class="otd-intro" id="prev-week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during the previous week across different years.</p>
-    <ul class="otd-list" id="prev-week-mentions"></ul>
-  </div>
-
-  <h2 class="otd-date-header" id="next-week">
-    Next Week <span class="otd-week-label next-week-label" id="next-week-range"></span>
-  </h2>
-  
-  <div class="otd-section next-week-section" id="next-week-publications-section">
-    <h3>📝 Publications & Media Articles</h3>
-    <p class="otd-intro" id="next-week-publications-intro">Sunil Abraham published the following articles during the next week across different years.</p>
-    <ul class="otd-list" id="next-week-publications"></ul>
-  </div>
-  
-  <div class="otd-section next-week-section" id="next-week-mentions-section">
-    <h3>📰 Media Mentions</h3>
-    <p class="otd-intro" id="next-week-mentions-intro">Sunil Abraham was mentioned or quoted in the following articles during the next week across different years.</p>
-    <ul class="otd-list" id="next-week-mentions"></ul>
-  </div>
-</div>
 
 <script>
 // Configuration

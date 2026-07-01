@@ -591,6 +591,121 @@ created: 2026-01-21
     max-width: 1400px;
   }
 }
+
+/* =========================================================
+   DARK MODE OVERRIDES (ENGINE TOGGLE COMPATIBLE)
+   ========================================================= */
+body.tsap-dark-mode #streak-page-wrapper {
+  background: linear-gradient(135deg, #111827 0%, #1f2937 50%, #111827 100%);
+}
+
+body.tsap-dark-mode .lead {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border-color: #334155;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+body.tsap-dark-mode .lead p {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .streak-card, 
+body.tsap-dark-mode .timeline-card {
+  background: linear-gradient(135deg, #1e293b 0%, #111827 100%);
+  border-color: #334155;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+body.tsap-dark-mode .streak-card h2, 
+body.tsap-dark-mode .timeline-card h2 {
+  color: #34d399;
+}
+
+body.tsap-dark-mode .streak-summary {
+  background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+  color: #a7f3d0;
+  border-left-color: #34d399;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+body.tsap-dark-mode .timeline-note {
+  background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 100%);
+  color: #e0f2fe;
+  border-left-color: #38bdf8;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+body.tsap-dark-mode .info {
+  background: linear-gradient(135deg, #064e3b 0%, #022c22 100%);
+  color: #a7f3d0;
+  border-color: #065f46;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+body.tsap-dark-mode .legend-item {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  color: #cbd5e1;
+  border-color: #334155;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+body.tsap-dark-mode .legend {
+  border-top-color: #334155;
+}
+
+body.tsap-dark-mode #log-by-month::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+body.tsap-dark-mode #log-by-month h3 {
+  background: linear-gradient(135deg, #064e3b 0%, #0f172a 100%);
+  color: #34d399;
+  border-left-color: #34d399;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+body.tsap-dark-mode #log-by-month li {
+  background: linear-gradient(135deg, #1e293b 0%, #111827 100%);
+  color: #e2e8f0;
+  border-left-color: #334155;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+body.tsap-dark-mode #log-by-month li::before {
+  background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
+  color: #94a3b8;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+body.tsap-dark-mode #log-by-month li:hover {
+  background: linear-gradient(135deg, #064e3b 0%, #0f172a 100%);
+  border-left-color: #34d399;
+}
+
+body.tsap-dark-mode #log-by-month li.active-day {
+  background: linear-gradient(135deg, #064e3b 0%, #111827 100%);
+  border-left-color: #34d399;
+}
+
+body.tsap-dark-mode #log-by-month li.active-day::before {
+  background: linear-gradient(135deg, #34d399 0%, #059669 100%);
+  color: #111827;
+}
+
+body.tsap-dark-mode .page-links,
+body.tsap-dark-mode .page-links a {
+  color: #34d399;
+  border-bottom-color: #34d399;
+}
+
+body.tsap-dark-mode .page-links a:hover {
+  color: #6ee7b7;
+  border-bottom-color: #6ee7b7;
+}
+
+body.tsap-dark-mode .page-links .more-count {
+  color: #94a3b8;
+}
 </style>
 
 <script>
