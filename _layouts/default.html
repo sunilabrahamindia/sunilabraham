@@ -6,13 +6,10 @@
 
   <title>{{ page.title }} | {{ site.title }}</title>
 
-  <!-- Basic SEO -->
   <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
 
-  <!-- Canonical: strict, slash-normalised, Bing-safe -->
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 
-  <!-- Open Graph -->
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
@@ -25,27 +22,19 @@
     <meta property="og:image" content="{{ site.url }}/assets/images/social-share-default.png">
   {% endif %}
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
   <meta name="twitter:site" content="@sunil_abraham">
 
-  <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
 
-  <!-- Icons -->
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
   <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
 
-  <!-- Lightbox CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
-  <!-- Structured Data (SAFE MODE)
-       Only WebSite schema site-wide.
-       Organization / Person kept for homepage only.
-  -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -91,22 +80,18 @@
 <body>
   <div class="site-wrapper">
 
-    <!-- Header -->
     <header role="banner">
       {% include header.html %}
     </header>
 
-    <!-- Navbar -->
     <nav role="navigation" aria-label="Main navigation">
       {% include navbar.html %}
     </nav>
 
-    <!-- Main Content -->
     <main id="maincontent" role="main" class="content">
       {% if page.title %}
         <h1>{{ page.title }}</h1>
 
-        <!-- Breadcrumb Navigation -->
         <nav class="breadcrumb" role="navigation" aria-label="Breadcrumb">
           <a href="{{ site.baseurl }}/">Home</a>
           {% assign parts = page.url | split: '/' %}
@@ -135,28 +120,21 @@
       {% include page-data.html %}
     </main>
     
-    <!-- Footer -->
-{% include footer.html %}
+    {% include footer.html %}
 
   </div>
   
-<!-- Top Bar -->
 <aside role="complementary" aria-label="Top utility bar">
   {% include top-bar-2.html %}
 </aside>
 
 {% comment %}
-<!-- Utility Toolbox -->
 <aside role="complementary" aria-label="Utility toolbox">
   {% include utility-toolbox.html %}
 </aside>
 {% endcomment %}
   
-  <!-- =========================================================
-       Section Header Link Script
-       Purpose: Adds a small link icon beside headers and copies link on click
-  ========================================================= -->
-<script>
+  <script>
 document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------------------------------------------------------
@@ -204,7 +182,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-  <!-- Lightbox JS -->
   <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
   <script>
     window.addEventListener("load", function() {
@@ -228,6 +205,7 @@ document.addEventListener("DOMContentLoaded", () => {
       GLightbox({ selector: '[data-glightbox]' });
     });
   </script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -254,15 +232,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-// Dynamic Theme Engine Shortcut (Alt + Shift + D)
+// Global Keyboard Shortcuts (Alt + Shift Routing Engine)
 document.addEventListener('keydown', function (e) {
-  if (e.altKey && e.shiftKey && (e.key === 'D' || e.key === 'd')) {
-    const isDarkNow = document.body.classList.contains('tsap-dark-mode');
+  if (e.altKey && e.shiftKey) {
+    const key = e.key.toLowerCase();
     
-    if (isDarkNow) {
-      window.location.search = '?darkmode=0';
-    } else {
-      window.location.search = '?darkmode=1';
+    // Alt + Shift + D: Robust Active Class Theme Toggle Switcher
+    if (key === 'd') {
+      e.preventDefault();
+      const isDarkNow = document.body.classList.contains('tsap-dark-mode');
+      
+      const currentParams = new URLSearchParams(window.location.search);
+      currentParams.set('darkmode', isDarkNow ? '0' : '1');
+      window.location.search = currentParams.toString();
+    }
+
+    // Alt + Shift + W: Instant Newest Pages Navigation Router
+    if (key === 'w') {
+      e.preventDefault();
+      window.location.href = '{{ "/newest/" | relative_url }}';
     }
   }
 });
