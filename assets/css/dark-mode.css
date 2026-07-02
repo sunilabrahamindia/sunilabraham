@@ -461,3 +461,43 @@ body.tsap-dark-mode .copy-btn-full:hover {
     transition: none;
   }
 }
+
+/* =========================================================
+   Universal Link and Hover Contrast Overrides
+   ========================================================= */
+body.tsap-dark-mode a {
+  color: #38bdf8 !important; /* Luminous sky blue for high-contrast dark reading */
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Clear, accessible state on user interaction */
+body.tsap-dark-mode a:hover,
+body.tsap-dark-mode a:focus {
+  color: #7dd3fc !important; /* Brighter tint on hover */
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+/* Section anchor links (🔗 icons beside titles) */
+body.tsap-dark-mode .header-link {
+  opacity: 0.6;
+}
+
+body.tsap-dark-mode .header-link:hover {
+  opacity: 1 !important;
+  color: #38bdf8 !important;
+}
+
+/* Breadcrumb navigation link spacing and clarity */
+body.tsap-dark-mode .breadcrumb a {
+  color: #94a3b8 !important; /* Muted gray for past steps */
+}
+
+body.tsap-dark-mode .breadcrumb a:hover {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .breadcrumb span {
+  color: #f3f4f6 !important; /* Clean white for active page */
+}
