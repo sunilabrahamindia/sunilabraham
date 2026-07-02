@@ -308,12 +308,22 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function writeURL() {
+    // Read the current parameters to find and protect the darkmode flag
+    const currentParams = new URLSearchParams(window.location.search);
+    const darkmodeValue = currentParams.get('darkmode');
+
     const params = new URLSearchParams();
     if (catSelect.value   !== 'all') params.set('cat',    catSelect.value);
     if (monthSelect.value !== 'all') params.set('month',  monthSelect.value);
     if (searchInput.value !== '')    params.set('search', searchInput.value);
     if (currentSort !== 'newest')    params.set('sort',   currentSort);
     if (activeYear)                  params.set('year',   activeYear);
+    
+    // Safely re-inject darkmode back into the history parameters if it was present
+    if (darkmodeValue !== null) {
+      params.set('darkmode', darkmodeValue);
+    }
+
     const newURL = params.toString()
       ? window.location.pathname + '?' + params.toString()
       : window.location.pathname;
