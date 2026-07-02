@@ -208,6 +208,49 @@ By distinguishing between “global authentication agencies” that could still 
 }
 .copy-btn-full:hover { background: #e5e5e5; }
 .copy-btn-full:focus { outline: 3px solid #ffbf47; outline-offset: 2px; }
+
+/* =========================================================
+   Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #1f2937;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+body.tsap-dark-mode .media-details dt {
+  color: #38bdf8;
+}
+body.tsap-dark-mode .media-details dd {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #2e2a1a;
+  border-left-color: #d9b13b;
+  color: #e5e7eb;
+}
+
+body.tsap-dark-mode .point {
+  background: #1f2937;
+  border-color: #374151;
+}
+body.tsap-dark-mode .point-number {
+  background: #38bdf8;
+  color: #111827;
+}
+body.tsap-dark-mode .point-text {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151;
+  border-color: #4b5563;
+  color: #e5e7eb;
+}
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563;
+}
 </style>
 
 <script>
