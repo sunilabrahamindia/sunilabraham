@@ -49,9 +49,9 @@ body {
 }
 
 /* =========================================================
-   Main Content
+   Main Content Container (Targets your template elements)
    ========================================================= */
-.main-content {
+.main-content, main, .content {
   background: var(--bg-surface);
   border-radius: 12px;
   padding: 2.2rem;
@@ -142,7 +142,7 @@ th {
 }
 
 /* =========================================================
-   Responsive Adjustments
+   Responsive Adjustments (Now properly matching your template)
    ========================================================= */
 @media (max-width: 768px) {
   body {
@@ -150,7 +150,8 @@ th {
     line-height: 1.4;
   }
 
-  .main-content {
+  /* Fixed: Scaled down padding for all container types on mobile */
+  .main-content, main, .content {
     padding: 1rem;
   }
 
