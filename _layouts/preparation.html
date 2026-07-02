@@ -6,68 +6,51 @@
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-  <!-- Canonical and Minimal SEO -->
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
 
-  <!-- Core Stylesheet and Favicon -->
   <link rel="stylesheet" href="{{ '/assets/css/preparation.css' | relative_url }}">
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
   <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
 </head>
 
 <body>
-  <!-- Keyboard Accessibility Skip Link -->
   <a href="#maincontent" class="prep-skip-link">Skip to main content</a>
 
   <div class="site-wrapper">
-    <!-- Clean Structural Header Nav -->
     <header role="banner" class="prep-header">
       <div class="prep-container header-layout">
         <a class="site-logo" href="/">{{ site.title }}</a>
-        <nav role="navigation" aria-label="Main navigation" class="desktop-nav">
-          <a href="/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a>
-          <a href="/projects/" {% if page.url contains '/projects/' %}class="active" aria-current="page"{% endif %}>Projects</a>
-          <a href="/publications/" {% if page.url contains '/publications/' %}class="active" aria-current="page"{% endif %}>Publications</a>
-          <a href="/media/" {% if page.url contains '/media/' %}class="active" aria-current="page"{% endif %}>Media mentions</a>
-          <a href="/videos/" {% if page.url contains '/videos/' %}class="active" aria-current="page"{% endif %}>Videos</a>
-          <a href="/contact/" {% if page.url contains '/contact/' %}class="active" aria-current="page"{% endif %}>Contact</a>
-        </nav>
+        
+        <!-- Accessible Hamburger Toggle Button -->
+        <button class="prep-menu-toggle" 
+                id="menu-button"
+                aria-expanded="false" 
+                aria-controls="global-nav" 
+                aria-label="Open navigation menu">
+          <span class="hamburger-icon" aria-hidden="true"></span>
+        </button>
       </div>
     </header>
 
-    <!-- Liquid-driven Breadcrumb Trail for Mobile Navigation -->
-    <nav class="mobile-breadcrumb-nav" role="navigation" aria-label="Breadcrumb navigation">
-      <div class="prep-container">
-        <a href="/">Home</a>
-        {% assign parts = page.url | split: '/' %}
-        {% assign current_path = '' %}
-        {% for part in parts %}
-          {% if part != '' and forloop.last == false %}
-            {% assign current_path = current_path | append: '/' | append: part %}
-            <span class="sep">›</span>
-            <a href="{{ current_path }}/">
-              {% case part %}
-                {% when 'amaa' %}A. M. A. Ayrookuzhiel
-                {% when 'cis' %}CIS
-                {% when 'tsap' %}TSAP
-                {% when 'sunil' %}Sunil Abraham
-                {% when 'media' %}Media mentions
-                {% else %}{{ part | replace:'-',' ' | capitalize }}
-              {% endcase %}
-            </a>
-          {% endif %}
-        {% endfor %}
-        {% if page.title and page.url != '/' %}
-          <span class="sep">›</span>
-          <span class="current-crumb" aria-current="page">{{ page.title }}</span>
-        {% endif %}
+    <!-- Overlay Navigation Panel (Hidden by default) -->
+    <nav id="global-nav" 
+         class="prep-global-nav" 
+         role="navigation" 
+         aria-label="Main navigation" 
+         aria-hidden="true">
+      <div class="prep-container nav-panel-inner">
+        <a href="/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a>
+        <a href="/projects/" {% if page.url contains '/projects/' %}class="active" aria-current="page"{% endif %}>Projects</a>
+        <a href="/publications/" {% if page.url contains '/publications/' %}class="active" aria-current="page"{% endif %}>Publications</a>
+        <a href="/media/" {% if page.url contains '/media/' %}class="active" aria-current="page"{% endif %}>Media mentions</a>
+        <a href="/videos/" {% if page.url contains '/videos/' %}class="active" aria-current="page"{% endif %}>Videos</a>
+        <a href="/contact/" {% if page.url contains '/contact/' %}class="active" aria-current="page"{% endif %}>Contact</a>
       </div>
     </nav>
 
-    <!-- Main Clean Reading Container -->
     <main id="maincontent" role="main" class="prep-container content-area">
       {% if page.title %}
         <h1 class="page-main-title">{{ page.title }}</h1>
@@ -82,7 +65,6 @@
       {{ content }}
     </main>
     
-    <!-- Minimal Condensed Footer Architecture -->
     <footer role="contentinfo" class="prep-footer">
       <div class="prep-container">
         <p><strong><a href="/articles/sunil-abraham-project/" title="About The Sunil Abraham Project">The Sunil Abraham Project</a></strong> <span class="version-tag">Version {{ site.tsap_version }}</span></p>
@@ -103,19 +85,54 @@
     </footer>
   </div>
 
-  <!-- Lean Keyboard Shortcuts and Dynamic Routing Logic -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Manage Dark Mode Choices
+      // Light/Dark Mode Local Storage Logic
       const savedDarkMode = localStorage.getItem('tsap-dark-mode');
       const prefersSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
       if (savedDarkMode === 'true' || (savedDarkMode === null && prefersSystemDark)) {
         document.body.classList.add('tsap-dark-mode');
       }
+
+      // Hamburger Menu Interactive Logic
+      const menuButton = document.getElementById('menu-button');
+      const globalNav = document.getElementById('global-nav');
+
+      if (menuButton && globalNav) {
+        menuButton.addEventListener('click', function () {
+          const isExpanded = menuButton.getAttribute('aria-expanded') === 'true';
+          
+          // Toggle layout states
+          menuButton.setAttribute('aria-expanded', !isExpanded);
+          globalNav.setAttribute('aria-hidden', isExpanded);
+          globalNav.classList.toggle('nav-is-open');
+          
+          // Switch accessible description strings
+          if (isExpanded) {
+            menuButton.setAttribute('aria-label', 'Open navigation menu');
+          } else {
+            menuButton.setAttribute('aria-label', 'Close navigation menu');
+            // Shift focus automatically to the first nav item for screen reader accessibility
+            const firstLink = globalNav.querySelector('a');
+            if (firstLink) firstLink.focus();
+          }
+        });
+
+        // Close navigation menu cleanly if Escape key is pressed
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+            menuButton.setAttribute('aria-expanded', 'false');
+            globalNav.setAttribute('aria-hidden', 'true');
+            globalNav.classList.remove('nav-is-open');
+            menuButton.setAttribute('aria-label', 'Open navigation menu');
+            menuButton.focus();
+          }
+        });
+      }
     });
 
-    // Global Active Class Router
+    // Global Keyboard Shortcuts
     document.addEventListener('keydown', function (e) {
       if (e.altKey && e.shiftKey) {
         const key = e.key.toUpperCase();
@@ -131,14 +148,8 @@
             localStorage.setItem('tsap-dark-mode', 'true');
           }
         }
-        if (key === 'W') {
-          e.preventDefault();
-          window.location.href = '/newest/';
-        }
-        if (key === 'X') {
-          e.preventDefault();
-          window.location.href = '/random/';
-        }
+        if (key === 'W') { e.preventDefault(); window.location.href = '/newest/'; }
+        if (key === 'X') { e.preventDefault(); window.location.href = '/random/'; }
         if (key === 'G') {
           e.preventDefault();
           window.location.href = 'https://github.com/sunilabrahamindia/sunilabraham/blob/main/{{ page.path }}';
