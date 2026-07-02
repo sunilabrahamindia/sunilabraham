@@ -11,7 +11,7 @@ created: 2026-07-02
 
 On **1 July 2026**, the remote GitHub repository for `sunilabrahamindia/sunilabraham` experienced an unexpected storage inflation. The repository size nearly doubled, rising from its long-standing operational baseline of approximately 93–95 MB to over 202 MB, reported by the GitHub API as `202848` KB.
 
-This document records the root cause of the storage spike, the systematic diagnostic investigation undertaken in collaboration with external AI models, the history rewrite operations executed across the local and remote repositories, and the final structural verification of the repository.
+This document records the root cause of the storage spike, the systematic investigation and recovery process, the history rewrite operations executed across the local and remote repositories, and the final verification of the repository's structural integrity.
 
 ## Original Repository Baseline
 
@@ -24,13 +24,13 @@ Prior to the incident, the repository had been closely monitored and maintained 
 
 ## Root Cause of the Incident
 
-The storage inflation occurred while attempting to clear approximately 3,000 ghost Git tracking changes within the local development environment. To isolate files safely, a temporary directory named `.git-backup` was created inside the project directory.
+The storage inflation occurred while attempting to clear approximately 3,000 unexpected ghost Git tracking changes within the local development environment. To isolate files safely, a temporary directory named `.git-backup` was created inside the project directory.
 
 The backup directory immediately added substantial weight to the project:
 
 - **`.git-backup` size:** approximately 120 MB
 
-Because the repository did not contain a committed `.gitignore` file, the `.git-backup` directory remained fully visible to Git's tracking engine. It was inadvertently committed and pushed to the remote repository.
+Because the backup directory was created inside the repository working tree, it became visible to Git and was inadvertently staged and committed. Keeping temporary Git backups outside the repository would have avoided this risk.
 
 The GitHub API immediately reflected the increased repository size:
 
@@ -104,7 +104,7 @@ Immediately after the successful force-push, the GitHub web interface reflected 
 "size": 202848
 ```
 
-This prompted a secondary investigation into whether deleted objects remained referenced elsewhere.
+This prompted a secondary investigation into whether deleted objects remained referenced elsewhere. This behaviour is expected because GitHub performs garbage collection asynchronously after history rewrites.
 
 ### Auditing the `gh-pages` Branch
 
@@ -139,10 +139,11 @@ Converting the reported size:
 
 This closely matches the local Git database size of approximately 93 MB, allowing for differences in GitHub's internal storage accounting and compression.
 
-The repository had therefore returned to its expected operational footprint, confirming that the storage inflation had been completely resolved.
+The repository had therefore returned to its expected operational footprint,confirming that the repository had returned to its expected operational state.
 
 ## Core Maintenance Lessons
 
 1. **Maintain Explicit Ignore Rules:** A committed `.gitignore` (or appropriate exclusion strategy) should always be maintained so that temporary backups, caches, and local working files cannot accidentally enter repository history.
-2. **Treat Local Repositories as Disposable:** Distributed version control allows a clean remote repository to serve as the authoritative source of truth, enabling local repositories to be rebuilt whenever necessary.
+2. **Treat Local Repositories as Disposable:** Distributed version control allows any verified clone of the repository to serve as a recovery source, reducing dependence on a single working copy or hosting provider.
 3. **Separate Content from Repository Metadata:** Static-site content remains independent of Git's internal object database. Even major repository maintenance operations, including history rewriting, do not affect the underlying Markdown content when performed correctly.
+4. **Keep Temporary Git Repositories Outside the Working Tree:** Backup repositories, experimental clones, and temporary Git directories should always be created outside the active project directory to prevent accidental staging or commits.
