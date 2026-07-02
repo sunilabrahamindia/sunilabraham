@@ -20,7 +20,7 @@ In June 2026, the number and frequency of project announcements increased. For t
 
 **Notes:** Entries are arranged chronologically and are intended to document significant developments in the history of The Sunil Abraham Project. New entries should normally be added near the top of the archive so that recent updates remain easy to locate while preserving the historical record of earlier milestones.
 
-Each entry should indicate whether it was featured in the website footer, on a dedicated project page, or through another communication channel.
+Each entry should indicate whether that was featured in the website footer, on a dedicated project page, or through another communication channel.
 
 ## July 2026
 - Dark mode (experimental) has been implemented. You may discuss or report issues <a href="https://github.com/sunilabrahamindia/sunilabraham/issues/8">here</a>. *(✅ Featured in: Website footer)*
