@@ -150,6 +150,72 @@ created: 2025-10-31
   font-size: 0.88em;
   line-height: 1.5;
 }
+
+/* =========================================================
+   Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .controls-box {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+body.tsap-dark-mode #cat-search {
+  background: #374151;
+  color: #f3f4f6;
+  border-color: #4b5563;
+}
+
+body.tsap-dark-mode #cat-search::placeholder {
+  color: #94a3b8;
+}
+
+body.tsap-dark-mode .sort-section button {
+  background: #374151;
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+body.tsap-dark-mode .sort-section button:hover,
+body.tsap-dark-mode .sort-section button.active {
+  background: #1f5fbf;
+  color: #ffffff;
+  border-color: #1f5fbf;
+}
+
+body.tsap-dark-mode #clear-btn {
+  background: #4b1f1f;
+  color: #fecaca;
+  border-color: #dc2626;
+}
+
+body.tsap-dark-mode #clear-btn:hover {
+  background: #5f2626;
+}
+
+body.tsap-dark-mode #result-count {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode #no-results {
+  color: #fca5a5;
+}
+
+body.tsap-dark-mode .cat-item a {
+  color: #93c5fd;
+}
+
+body.tsap-dark-mode .cat-item a:hover {
+  color: #bfdbfe;
+}
+
+body.tsap-dark-mode .cat-item .count {
+  color: #94a3b8;
+}
+
+body.tsap-dark-mode .cat-item .cat-desc {
+  color: #cbd5e1;
+}
 </style>
 
 <script>
@@ -164,6 +230,33 @@ document.addEventListener('DOMContentLoaded', () => {
   const clearBtn  = document.getElementById('clear-btn');
 
   let currentSort = 'az';
+
+  /* ── URL PARAMETER STATE SYNCHRONIZATION ── */
+  function writeURL() {
+    const currentParams = new URLSearchParams(window.location.search);
+    const darkmodeValue = currentParams.get('darkmode');
+    const text = searchEl.value.toLowerCase().trim();
+
+    const params = new URLSearchParams();
+    if (text !== '') params.set('q', text);
+    if (currentSort !== 'az') params.set('sort', currentSort);
+    
+    // Explicitly preserve system/shortcut darkmode settings in parameters
+    if (darkmodeValue !== null) {
+      params.set('darkmode', darkmodeValue);
+    }
+
+    const newURL = params.toString()
+      ? window.location.pathname + '?' + params.toString()
+      : window.location.pathname;
+    history.replaceState(null, '', newURL);
+  }
+
+  function readURL() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('q')) searchEl.value = params.get('q');
+    if (params.get('sort')) currentSort = params.get('sort');
+  }
 
   function sortList(type) {
     currentSort = type;
@@ -193,6 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
     countEl.textContent = `Showing ${visible} of ${total} categories`;
     noResults.style.display = visible === 0 ? '' : 'none';
     clearBtn.style.display = (text !== '' || currentSort !== 'az') ? '' : 'none';
+    writeURL();
   }
 
   clearBtn.addEventListener('click', () => {
@@ -211,7 +305,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  sortList('az');
+  readURL();
+  sortList(currentSort);
   applyFilters();
 
 });
