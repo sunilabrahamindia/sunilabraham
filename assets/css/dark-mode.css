@@ -53,6 +53,19 @@ body.tsap-dark-mode .breadcrumb {
   border-bottom-color: var(--border-main) !important;
 }
 
+/* Cluster List Overrides for Dark Mode */
+body.tsap-dark-mode .meta {
+  color: var(--text-muted) !important;
+}
+
+body.tsap-dark-mode .cluster-list a {
+  color: var(--link-color) !important;
+}
+
+body.tsap-dark-mode .cluster-list a:hover {
+  color: var(--link-hover) !important;
+}
+
 /* =========================================================
    Mobile Tracker Fixes (Issue #8 Audits)
    ========================================================= */
