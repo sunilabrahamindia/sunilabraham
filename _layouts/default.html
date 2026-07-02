@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", () => {
       GLightbox({ selector: '[data-glightbox]' });
     });
   </script>
-  <script>
+<script>
 document.addEventListener('DOMContentLoaded', function () {
 
   const params = new URLSearchParams(window.location.search);
@@ -243,7 +243,12 @@ document.addEventListener('DOMContentLoaded', function () {
     localStorage.removeItem('tsap-dark-mode');
   }
 
-  if (localStorage.getItem('tsap-dark-mode') === 'true') {
+  // Check user choices and system preference
+  const savedDarkMode = localStorage.getItem('tsap-dark-mode');
+  const prefersSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  // Automatically activate dark mode if saved choice is true OR if there is no saved choice and the device prefers dark mode
+  if (savedDarkMode === 'true' || (savedDarkMode === null && prefersSystemDark)) {
     document.body.classList.add('tsap-dark-mode');
   }
 
