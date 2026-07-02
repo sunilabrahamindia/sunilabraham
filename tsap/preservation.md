@@ -96,6 +96,32 @@ As part of its broader preservation strategy, TSAP also experiments with redunda
 
 Some secondary deployments are intentionally treated as infrastructure-level preservation mirrors rather than primary public access points. These mirrors primarily exist to support redundancy, preservation testing, continuity planning, and long-term archival resilience.
 
+## Preservation-Oriented Architecture
+<span class="preservation-status status-active">Active</span>
+
+TSAP follows a preservation-oriented architecture that prioritises long-term accessibility, portability, and survivability over feature complexity. Whenever practical, the project prefers static technologies, open standards, and build-time processing in order to minimise long-term operational dependencies and reduce the risk of service disruption.
+
+Rather than relying on continuously running backend infrastructure, TSAP is intentionally designed so that the complete website can be reconstructed from its Git repository using widely available open-source tools. The project therefore favours static site generation, plain text source files, distributed version control, and open file formats over database-driven or server-dependent solutions.
+
+This philosophy also influences decisions about new features. Functionality that can be implemented during the static build process is generally preferred over features requiring permanent server-side services. While dynamic services may be introduced where they provide significant value, they are evaluated carefully against their long-term maintenance requirements and potential impact on preservation.
+
+### Design Principles
+
+- Static-first architecture
+- Open and well-documented file formats
+- Distributed version control using Git
+- Minimal operational dependencies
+- Build-time rather than run-time processing wherever practical
+- Multiple independent preservation layers
+- Reproducible website builds
+- Preference for technologies that remain understandable and maintainable over long periods
+
+### Canonical Site and Mirror
+
+TSAP is automatically deployed to multiple independent hosting platforms from the same Git repository.
+
+The primary public website is hosted at <https://sunilabraham.in/> using GitHub Pages. A secondary deployment on Cloudflare Pages functions as a preservation mirror, redundancy layer, and disaster recovery platform. The mirror is intentionally excluded from search engine indexing using the `X-Robots-Tag` HTTP response header to prevent duplicate indexing while preserving an independently hosted copy of the website.
+
 ## Future Plans
 <span class="preservation-status status-planned">Planned</span>
 
