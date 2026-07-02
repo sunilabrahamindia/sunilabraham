@@ -344,12 +344,35 @@ As metadata systems frequently fragment identities across variant name formats, 
 
   /* Accent */
   --color-primary:           #01585d;
-  --color-primary-hover:     #013f43;
+  --color-primary-hover:      #013f43;
   --color-primary-highlight: #e3edec;
   --color-primary-subtle:    rgba(1, 105, 111, 0.08);
 
   --shadow-sm: 0 1px 2px rgba(40,37,29,0.06);
   --shadow-md: 0 4px 12px rgba(40,37,29,0.08), 0 1px 3px rgba(40,37,29,0.05);
+}
+
+/* =========================================================
+   Global Adaptive Dark Mode Implementations
+   ========================================================= */
+body.tsap-dark-mode {
+  --color-bg:             #111827;
+  --color-surface:        #1f2937;
+  --color-surface-2:      #111827;
+  --color-surface-offset: #374151;
+
+  --color-border:         rgba(243, 244, 246, 0.12);
+  --color-border-strong:  rgba(243, 244, 246, 0.25);
+  --color-divider:        rgba(243, 244, 246, 0.08);
+
+  --color-text:        #f3f4f6;
+  --color-text-muted:  #cbd5e1;
+  --color-text-faint:  #94a3b8;
+
+  --color-primary:           #38bdf8;
+  --color-primary-hover:      #7dd3fc;
+  --color-primary-highlight: #1e3a8a;
+  --color-primary-subtle:    rgba(56, 189, 248, 0.08);
 }
 
 /* ── Component reset scoped to .ac-root ── */
@@ -747,11 +770,34 @@ As metadata systems frequently fragment identities across variant name formats, 
   var groups      = document.querySelectorAll('.ac-group-card');
   var TOTAL       = items.length;
 
+  /* ── Parameter Preservation State Logic ── */
+  function writeURL(q) {
+    const currentParams = new URLSearchParams(window.location.search);
+    const darkmodeValue = currentParams.get('darkmode');
+    
+    const params = new URLSearchParams();
+    if (q) params.set('q', q);
+    if (darkmodeValue !== null) params.set('darkmode', darkmodeValue);
+
+    const newURL = params.toString()
+      ? window.location.pathname + '?' + params.toString()
+      : window.location.pathname;
+    history.replaceState(null, '', newURL);
+  }
+
+  function readURL() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('q')) {
+      searchInput.value = params.get('q');
+      runSearch(params.get('q').toLowerCase().trim(), false);
+    }
+  }
+
   function updateCount(n) {
     countEl.textContent = n + (n === 1 ? ' record' : ' records');
   }
 
-  function runSearch(q) {
+  function runSearch(q, shouldUpdateURL = true) {
     var visible = 0;
     items.forEach(function (item) {
       var label = (item.dataset.label || '').toLowerCase();
@@ -772,6 +818,10 @@ As metadata systems frequently fragment identities across variant name formats, 
     updateCount(q ? visible : TOTAL);
     emptyEl.classList.toggle('visible', visible === 0 && !!q);
     clearBtn.classList.toggle('visible', !!q);
+    
+    if (shouldUpdateURL) {
+      writeURL(q);
+    }
   }
 
   searchInput.addEventListener('input', function () {
@@ -793,5 +843,6 @@ As metadata systems frequently fragment identities across variant name formats, 
   });
 
   updateCount(TOTAL);
+  readURL();
 })();
 </script>
