@@ -23,7 +23,7 @@ In June 2026, the number and frequency of project announcements increased. For t
 Each entry should indicate whether that was featured in the website footer, on a dedicated project page, or through another communication channel.
 
 ## July 2026
-- Dark mode (experimental) has been implemented. You may discuss or report issues <a href="https://github.com/sunilabrahamindia/sunilabraham/issues/8">here</a>. *(✅ Featured in: Website footer)*
+- Dark mode (experimental) has been implemented. You may discuss or report issues <a href="https://github.com/sunilabrahamindia/sunilabraham/issues/8"><strong>here</strong></a>. *(✅ Featured in: Website footer)*
 
 ## June 2026
 
