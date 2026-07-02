@@ -1,0 +1,224 @@
+/* ==========================================================================
+   THEME: PREPARATION
+   Focus: High-Readability, Accessibility, and Native Media Query Dark Mode
+   ========================================================================== */
+
+/* 1. Root Variables & Theme Palettes */
+:root {
+  /* Typography configuration */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: "Georgia", Cambria, "Times New Roman", Times, serif;
+  --line-height-body: 1.75;
+  --line-height-headings: 1.25;
+  --max-reading-width: 68ch; /* Optimal character threshold per line */
+
+  /* Light Theme Palette (Default) */
+  --bg-primary: #fcfcfc;
+  --bg-accent: #f4f4f6;
+  --text-main: #1c1e22;
+  --text-muted: #535a65;
+  --link-color: #0256d6;
+  --border-color: #dcdfe4;
+  --focus-ring: #0256d6;
+}
+
+/* Automatic Dark Mode Toggle based on OS/Browser preferences */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Off-black and soft grey palette prevents text blooming and eye fatigue */
+    --bg-primary: #15171c;
+    --bg-accent: #1e222b;
+    --text-main: #f3f4f6;
+    --text-muted: #a1a8b5;
+    --link-color: #60a5fa;
+    --border-color: #2d3139;
+    --focus-ring: #60a5fa;
+  }
+}
+
+/* 2. Global Reset & Accessibility Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; /* Respects browser user agent scaling configuration */
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-serif); /* Base text in clean serif for long reading */
+  line-height: var(--line-height-body);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus indicator style for clear keyboard tracking */
+*:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+/* Keyboard Skip Link styling */
+.prep-skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: var(--link-color);
+  color: var(--bg-primary);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.prep-skip-link:focus {
+  top: 10rem;
+}
+
+/* 3. Layout Containment */
+.prep-container {
+  max-width: var(--max-reading-width);
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+/* 4. Structural Components */
+.prep-header {
+  border-bottom: 1px solid var(--border-color);
+  font-family: var(--font-sans);
+}
+
+.prep-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.prep-logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.prep-nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-left: 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.prep-nav a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+/* Meta Data / Subtitle rules */
+.prep-meta {
+  font-family: var(--font-sans);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* 5. Typography Content Rules */
+.prep-content h1,
+.prep-content h2,
+.prep-content h3 {
+  font-family: var(--font-sans);
+  color: var(--text-main);
+  font-weight: 700;
+  line-height: var(--line-height-headings);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.prep-content h1 { font-size: 2.25rem; }
+.prep-content h2 { font-size: 1.65rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.4rem; }
+.prep-content h3 { font-size: 1.3rem; }
+
+.prep-content p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem; /* Highly accessible 18px-equivalent baseline */
+}
+
+.prep-content a {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Notices and Blockquotes */
+.prep-notice, blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  border-left: 4px solid var(--link-color);
+  background-color: var(--bg-accent);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  border-radius: 0 4px 4px 0;
+}
+
+.prep-notice p, blockquote p {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+/* Accessible Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+th {
+  background-color: var(--bg-accent);
+  font-weight: 600;
+}
+
+.prep-footer {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-color);
+  margin-top: 4rem;
+  text-align: center;
+}
+
+/* 6. Mobile Responsiveness */
+@media (max-width: 600px) {
+  .prep-header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .prep-nav a {
+    margin-left: 0;
+    margin-right: 1.25rem;
+  }
+  
+  .prep-content h1 { font-size: 1.85rem; }
+  .prep-content h2 { font-size: 1.4rem; }
+}

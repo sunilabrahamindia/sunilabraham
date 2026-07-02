@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Sunil Abraham</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/preparation.css' | relative_url }}">
+</head>
+<body>
+
+  <a href="#main-content" class="prep-skip-link">Skip to main content</a>
+
+  <header class="prep-header" role="banner">
+    <div class="prep-container prep-header-inner">
+      <a class="prep-logo" href="/" aria-label="Sunil Abraham Home">Sunil Abraham</a>
+      <nav class="prep-nav" role="navigation" aria-label="Main Navigation">
+        <a href="/archive/">Archive</a>
+        <a href="/projects/">Projects</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="prep-container" role="main" tabindex="-1">
+    <article class="prep-article">
+      <header class="prep-article-header">
+        <h1>{{ page.title }}</h1>
+        <p class="prep-meta">
+          Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+        </p>
+      </header>
+
+      {% if page.lengthy %}
+      <div class="prep-notice" role="note" aria-label="Document status notice">
+        <p>This page is currently lengthy. Some sections will be split into separate articles in future revisions.</p>
+      </div>
+      {% endif %}
+
+      <div class="prep-content">
+        {{ content }}
+      </div>
+    </article>
+  </main>
+
+  <footer class="prep-footer" role="contentinfo">
+    <div class="prep-container">
+      <p>&copy; {{ site.time | date: "%Y" }} Sunil Abraham. Built with open standards.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
