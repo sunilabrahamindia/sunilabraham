@@ -54,6 +54,12 @@ The following TSAP documents have been cryptographically signed using the TSAP O
   Signatory: Tito Dutta  
   OpenPGP Fingerprint: `D8B6 F47B 05BE C620 5884 77CF FC53 BED3 64AC 9AC7`
 
+- [Centre for Internet and Society: 18th Anniversary](/cis/18/)  
+  Signed: 4 July 2026  
+  Signature: [18.md.asc](https://github.com/sunilabrahamindia/sunilabraham/blob/main/cis/18.md.asc)  
+  Signatory: Tito Dutta  
+  OpenPGP Fingerprint: `D8B6 F47B 05BE C620 5884 77CF FC53 BED3 64AC 9AC7`
+
 ## Public Key
 
 The public OpenPGP key currently used for TSAP document signing is publicly available.
