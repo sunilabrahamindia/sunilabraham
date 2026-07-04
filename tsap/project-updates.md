@@ -23,6 +23,9 @@ In June 2026, the number and frequency of project announcements increased. For t
 Each entry should indicate whether that was featured in the website footer, on a dedicated project page, or through another communication channel.
 
 ## July 2026
+- 4 July 2026: <span class="update-item">
+  On the occasion of the 18th anniversary of the Centre for Internet and Society, a <a href="/cis/18/"><strong>personal memoir</strong></a> has been published.
+</span>
 - 2 July 2026: Dark mode (experimental) has been implemented. You may discuss or report issues <a href="https://github.com/sunilabrahamindia/sunilabraham/issues/8"><strong>here</strong></a>. *(✅ Featured in: Website footer)*
 
 ## June 2026
