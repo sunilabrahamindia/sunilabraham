@@ -33,10 +33,10 @@ created: 2025-10-19
       <span class="link-icon">🆕</span>
       <span>Newest pages</span>
     </a>
-    <a href="#did-you-know" class="content-link">
+   <!--  <a href="#did-you-know" class="content-link">
       <span class="link-icon">💡</span>
       <span>Did you know?</span>
-    </a>
+    </a> -->
     <a href="#about" class="content-link">
       <span class="link-icon">ℹ️</span>
       <span>About</span>
@@ -81,9 +81,9 @@ created: 2025-10-19
 
 {% include back-to-top.html %}
 
-{% include dyk.html %}
+<!-- {% include dyk.html %}
 
-{% include back-to-top.html %}
+{% include back-to-top.html %} -->
 
 <section class="content-section" id="about">
   <h2 class="section-title">About</h2>
