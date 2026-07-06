@@ -6,6 +6,7 @@ description: A 2023 edited volume by Y. T. Vinayaraj, published jointly by the C
 permalink: /amaa/sacrafanations/
 publication_year: 2023
 created: 2026-07-06
+homepage_featured: true
 ---
 
 <figure class="book-cover">
