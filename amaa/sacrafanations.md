@@ -12,9 +12,9 @@ created: 2026-07-06
   <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/misc/sacrafanations-book-cover.jpg" alt="Cover of Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics">
 </figure>
 
-***Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics*** (2023) is an edited volume by Y. T. Vinayaraj that brings together scholarly essays on Dalit religion(s), theology, epistemology, and politics. Published jointly by the Christian Institute for the Study of Religion and Society (CISRS) and the Indian Society for Promoting Christian Knowledge (ISPCK), the volume examines how Dalit communities construct religious knowledge, negotiate identity, and articulate struggles for justice and liberation in contemporary India.
+***Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics*** (2023) is an edited volume by Rev. Dr. Y. T. Vinayaraj that brings together scholarly essays on Dalit religion(s), theology, epistemology, and politics. Published jointly by the Christian Institute for the Study of Religion and Society (CISRS) and the Indian Society for Promoting Christian Knowledge (ISPCK), the volume examines how Dalit communities construct religious knowledge, negotiate identity, and articulate struggles for justice and liberation in contemporary India.
 
-The book is organised into two parts and opens with an extensive introduction that reflects on the scholarly legacy of Reverend [A. M. A. Ayrookuzhiel](/amaa/) (1933–1996), whose pioneering contributions to the study of Dalit religion and theology continue to influence contemporary scholarship. The essays explore the relationship between religion, caste, democracy, and political agency while engaging with contemporary social and theological debates.
+The book is organised into two parts and opens with an extensive introduction that reflects on the scholarly legacy of Reverend [A. M. A. Ayrookuzhiel](/amaa/) (1933–1996). The volume explores themes relating to Dalit religion(s), theology, caste, democracy, and political agency. The essays explore the relationship between religion, caste, democracy, and political agency while engaging with contemporary social and theological debates.
 
 ## Contents
 
