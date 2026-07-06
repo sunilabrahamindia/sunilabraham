@@ -80,4 +80,5 @@ The full text of these principles is recorded in [TSAP Foundational Principles](
 - 7 May 2026 (Thursday) — 950 published articles with the publication of [*Fifth Anniversary of the Centre for Internet and Society*](/cis/fifth-anniversary/).
 - 21 May 2026 (Thursday) — TSAP reached 1000 published articles with the publication of [*Sunil Abraham on Aaron Swartz*](/sunil/aaron-swartz/).
 - 17 June 2026 (Wednesday) — Version 2.0 of the Sunil Abraham Project was released, marking the completion of a major phase of expansion and development. For an overview of this cycle, see the [Version 2.0 Lookback](/versions/2.0/).
+- 28 June 2026 (Sunday), 1000th page [Frederick](/frederick/) was published.
 
