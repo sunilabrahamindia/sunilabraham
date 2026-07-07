@@ -11,12 +11,12 @@ created: 2025-10-27
 
 ## Early life and education
 
-<div style="float:right; width:180px; margin:0 1rem 1rem 0;">
+<div class="bio-photo-wrapper">
   <img 
     src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20image%2001.jpg?raw=true" 
     alt="Sunil Abraham portrait" 
-    style="width:100%; border-radius:6px; box-shadow:0 0 6px rgba(0,0,0,0.15);">
-  <p style="font-size:0.8rem; text-align:center; color:#555; margin-top:0.4rem;">
+    class="bio-photo-img">
+  <p class="bio-photo-caption">
     Sunil Abraham
   </p>
 </div>
@@ -59,12 +59,12 @@ In this role, he collaborated with governments, universities, and development ag
 
 In 2008, Sunil co-founded the [Centre for Internet and Society](/cis/) (CIS), an independent research organisation based in Bangalore that examines the relationship between the Internet, technology, and society. He served as the organisation’s Executive Director from May 2008 to November 2019. Under his leadership, CIS became a key platform for research and advocacy in areas such as Internet governance, accessibility, privacy, open data, and digital cultures. The centre’s work combined academic study with policy engagement and public dialogue, contributing to national and international debates on digital rights and governance.
 
-<div align="center" style="margin:1.5rem auto; max-width:720px;">
+<div class="content-image-wrapper">
   <img 
     src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraham%20birthday%20at%20CIS%202017.jpg?raw=true" 
     alt="Sunil Abraham cutting a birthday cake with colleagues at the Centre for Internet and Society, Bangalore, 2017" 
-    style="width:100%; height:auto; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);">
-  <p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    class="content-img">
+  <p class="content-img-caption">
     Sunil Abraham cutting a birthday cake with colleagues at the Centre for Internet and Society, Bangalore, 2017.
   </p>
 </div>
@@ -83,12 +83,12 @@ In 2020, Sunil joined [Meta](https://www.meta.com/) (Facebook India) as Public P
 
 Sunil has served as a consultant and adviser to several international organisations, including [UNDP](https://www.undp.org/), [UNESCO](https://www.unesco.org/), and the [International Development Research Centre (IDRC)](https://idrc-crdi.ca/). His assignments have ranged from open standards and localisation policy to digital inclusion and governance. He has contributed to projects in Asia, Africa, and Eastern Europe that connect technology policy with issues of equity, participation, and sustainable development.
 
-<div align="center" style="margin:1.5rem auto; max-width:720px;">
+<div class="content-image-wrapper">
   <img 
     src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Sunil%20Abraraham%20HasGeek%202018.jpg?raw=true" 
     alt="Sunil Abraham presenting on intermediaries in a data protection regime at the 50p conference organised by HasGeek, 2018" 
-    style="width:100%; height:auto; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);">
-  <p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    class="content-img">
+  <p class="content-img-caption">
     Sunil presenting on intermediaries in a data protection regime at #50p, 2018.
   </p>
 </div>
@@ -116,13 +116,13 @@ In 1999, Sunil was awarded the [Ashoka Fellowship](https://www.ashoka.org/en-in/
 
 Sunil has been actively involved in designing and leading collaborative events that connect technology practitioners, researchers, and activists. He co-organised Asia Source in 2005 and 2007, and the Asia Commons conference, which focused on knowledge sharing and the digital commons. He has spoken at the [Internet Governance Forum](https://www.intgovforum.org/), the Open World Forum, and various academic institutions in India and abroad. His public engagements often combine technical workshops with discussions on law, ethics, and social justice in the digital age.
 
-<div align="center" style="margin:1.5rem auto; max-width:720px;">
+<div class="content-image-wrapper">
   <iframe 
     src="https://commons.wikimedia.org/wiki/File:Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm?embedplayer=yes" 
     width="720" height="405" frameborder="0" allowfullscreen
-    style="width:100%; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);">
-  </iframe>
-  <p style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    class="wikimedia-embed-frame">
+  </iframe >
+  <p class="wikimedia-embed-caption">
     <em>Sunil Abraham as a key listener at the Wikimedia Summit 2019.</em><br>
     Credit: Anna Rees (WMDE), <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via 
     <a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Summit_2019_-_Key_listener_Sunil_Abraham.webm">Wikimedia Commons</a>.
@@ -148,3 +148,95 @@ Sunil has been actively involved in designing and leading collaborative events t
 
 Sunil Abraham is from Bangalore, India, and currently lives in Gurgaon. He married Esmeralda Davis on 10 January 2002 at Wesley English Church, Bangalore. He continues to work on issues related to digital policy, open knowledge, open access, and internet governance.
 
+<style>
+/* =========================================================
+   Layout Component Styling (Light Defaults)
+   ========================================================= */
+
+.bio-photo-wrapper {
+  float: right; 
+  width: 180px; 
+  margin: 0 0 1rem 1rem;
+}
+.bio-photo-img {
+  width: 100%; 
+  border-radius: 6px; 
+  box-shadow: 0 0 6px rgba(0,0,0,0.15);
+}
+.bio-photo-caption {
+  font-size: 0.8rem; 
+  text-align: center; 
+  color: #555; 
+  margin-top: 0.4rem;
+}
+
+.content-image-wrapper {
+  margin: 1.5rem auto; 
+  max-width: 720px;
+  text-align: center;
+}
+.content-img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.content-img-caption {
+  font-size: 0.85rem; 
+  color: #555; 
+  margin-top: 0.4rem;
+}
+
+.wikimedia-embed-frame {
+  width: 100%; 
+  border-radius: 8px; 
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.wikimedia-embed-caption {
+  font-size: 0.85rem; 
+  color: #555; 
+  margin-top: 0.4rem;
+  text-align: center;
+}
+.wikimedia-embed-caption a {
+  color: #1f5fbf;
+  text-decoration: none;
+}
+.wikimedia-embed-caption a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .bio-photo-wrapper {
+    float: none;
+    width: 100%;
+    max-width: 240px;
+    margin: 1rem auto;
+  }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .bio-photo-caption,
+body.tsap-dark-mode .content-img-caption,
+body.tsap-dark-mode .wikimedia-embed-caption {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .wikimedia-embed-caption a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .wikimedia-embed-caption a:hover {
+  color: #7dd3fc !important;
+  text-decoration: underline !important;
+}
+
+body.tsap-dark-mode .bio-photo-img,
+body.tsap-dark-mode .content-img,
+body.tsap-dark-mode .wikimedia-embed-frame {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+}
+</style>
