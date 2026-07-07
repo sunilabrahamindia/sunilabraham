@@ -494,4 +494,41 @@ The organisation's primary donor was the Kusuma Trust. Other funders acknowledge
     font-size: 0.9rem;
   }
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .board-table th,
+body.tsap-dark-mode .board-table td {
+  border-color: var(--table-border) !important;
+}
+
+body.tsap-dark-mode .board-table thead th {
+  background-color: var(--table-th-bg) !important;
+  color: var(--table-th-text) !important;
+}
+
+body.tsap-dark-mode .board-table tbody tr:nth-child(even) {
+  background-color: #1a2232 !important;
+}
+
+body.tsap-dark-mode .pdf-frame {
+  border-color: #4b5563 !important;
+  background-color: #1a2232 !important;
+}
+
+body.tsap-dark-mode .pdf-note {
+  color: var(--text-muted) !important;
+}
+
+body.tsap-dark-mode .pdf-download .btn {
+  background-color: #1f5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode .pdf-download .btn:hover,
+body.tsap-dark-mode .pdf-download .btn:focus {
+  background-color: #184c99 !important;
+}
 </style>
