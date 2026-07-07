@@ -237,108 +237,146 @@ Mahiti Infotech Private Limited maintains its operations in Bangalore, with the 
 - [Company page](https://www.linkedin.com/company/mahiti-infotech-pvt.-ltd./) on LinkedIn
 
 <style>
-
-   .company-logo {
-  text-align: center;
-  margin-bottom: 1.2rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #e0e8f0;
-}
-
-.company-logo img {
-  max-width: 200px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .company-logo img {
-    max-width: 150px;
+  .company-logo {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e8f0;
   }
-}
-   
-.company-details {
-  background: #f0f7ff;
-  border: 1px solid #b8d4f1;
-  border-radius: 10px;
-  padding: 1.4rem 1.6rem;
-  max-width: 800px;
-  margin: 1.5rem auto;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #333;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.06);
-}
 
-.company-details dt {
-  display: inline;
-  font-weight: 600;
-  color: #1a3a5c;
-  margin-top: 0.9rem;
-  font-size: 0.96rem;
-}
+  .company-logo img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 
-.company-details dt:first-of-type {
-  margin-top: 0;
-}
+  @media (max-width: 768px) {
+    .company-logo img {
+      max-width: 150px;
+    }
+  }
+     
+  .company-details {
+    background: #f0f7ff;
+    border: 1px solid #b8d4f1;
+    border-radius: 10px;
+    padding: 1.4rem 1.6rem;
+    max-width: 800px;
+    margin: 1.5rem auto;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #333;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+  }
 
-.company-details dd {
-  display: inline;
-  margin: 0 0 0 0.4rem;
-  color: #444;
-  font-size: 0.94rem;
-}
+  .company-details dt {
+    display: inline;
+    font-weight: 600;
+    color: #1a3a5c;
+    margin-top: 0.9rem;
+    font-size: 0.96rem;
+  }
 
-.company-details dd::after {
-  content: "";
-  display: block;
-  margin-bottom: 0.8rem;
-}
+  .company-details dt:first-of-type {
+    margin-top: 0;
+  }
 
-.company-details dd:last-of-type::after {
-  margin-bottom: 0;
-}
+  .company-details dd {
+    display: inline;
+    margin: 0 0 0 0.4rem;
+    color: #444;
+    font-size: 0.94rem;
+  }
 
-/* Style the nested list */
-.company-details dd ul {
-  display: block;
-  margin: 0.3rem 0 0 1.5rem;
-  padding: 0;
-}
+  .company-details dd::after {
+    content: "";
+    display: block;
+    margin-bottom: 0.8rem;
+  }
 
-.company-details dd ul li {
-  margin: 0.2rem 0;
-}
-   .company-details a {
-  color: #1a5490;
-  text-decoration: none;
-}
+  .company-details dd:last-of-type::after {
+    margin-bottom: 0;
+  }
 
-.company-details a:hover {
-  text-decoration: underline;
-}
-.time-ago {
-  font-size: 0.88rem;
-  color: #5a7a99;
-  font-weight: normal;
-}
-   .media-image {
-  text-align: center;
-  margin: 1.5rem auto;
-  max-width: 720px;
-}
-.media-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-.media-image figcaption {
-  font-size: 0.9rem;
-  color: #555;
-  margin-top: 0.5rem;
-}
+  /* Style the nested list */
+  .company-details dd ul {
+    display: block;
+    margin: 0.3rem 0 0 1.5rem;
+    padding: 0;
+  }
+
+  .company-details dd ul li {
+    margin: 0.2rem 0;
+  }
+
+  .company-details a {
+    color: #1a5490;
+    text-decoration: none;
+  }
+
+  .company-details a:hover {
+    text-decoration: underline;
+  }
+
+  .time-ago {
+    font-size: 0.88rem;
+    color: #5a7a99;
+    font-weight: normal;
+  }
+
+  .media-image {
+    text-align: center;
+    margin: 1.5rem auto;
+    max-width: 720px;
+  }
+
+  .media-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .media-image figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+
+  /* =========================================================
+     Active Class Architecture Dark Mode Overrides
+     ========================================================= */
+  body.tsap-dark-mode .company-logo {
+    border-bottom-color: var(--border-main) !important;
+  }
+
+  body.tsap-dark-mode .company-details {
+    background: #243244 !important;
+    border-color: #374151 !important;
+    color: #e5e7eb !important;
+    box-shadow: none !important;
+  }
+
+  body.tsap-dark-mode .company-details dt {
+    color: #f3f4f6 !important;
+  }
+
+  body.tsap-dark-mode .company-details dd {
+    color: #cbd5e1 !important;
+  }
+
+  body.tsap-dark-mode .company-details a {
+    color: #38bdf8 !important;
+  }
+
+  body.tsap-dark-mode .company-details a:hover {
+    color: #7dd3fc !important;
+  }
+
+  body.tsap-dark-mode .time-ago {
+    color: #94a3b8 !important;
+  }
 </style>
 
 <script>
