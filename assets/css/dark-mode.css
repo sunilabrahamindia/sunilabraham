@@ -534,13 +534,20 @@ body.tsap-dark-mode a:focus {
   text-underline-offset: 3px;
 }
 
-/* Section anchor links (🔗 icons beside titles) */
+/* Section anchor links (🔗 icons beside titles) - Hidden by default, visible on hover */
 body.tsap-dark-mode .header-link {
-  opacity: 0.6;
+  opacity: 0 !important;
+  transition: opacity 0.15s ease, color 0.15s ease;
 }
 
-body.tsap-dark-mode .header-link:hover {
-  opacity: 1 !important;
+/* Reveal the icon beautifully only when the parent heading is hovered or focused */
+body.tsap-dark-mode h1:hover .header-link,
+body.tsap-dark-mode h2:hover .header-link,
+body.tsap-dark-mode h3:hover .header-link,
+body.tsap-dark-mode h4:hover .header-link,
+body.tsap-dark-mode .header-link:hover,
+body.tsap-dark-mode .header-link:focus {
+  opacity: 0.8 !important;
   color: #38bdf8 !important;
 }
 
