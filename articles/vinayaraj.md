@@ -25,6 +25,18 @@ homepage_featured: true
 
 Vinayaraj's scholarship spans Dalit theology, political theology, the philosophy of religion, ecumenism, and the relationship between religion and public life. He is the author and editor of numerous books and scholarly publications in English and Malayalam. In addition to his academic work, he has held editorial, ecclesiastical, and ecumenical responsibilities within the Mar Thoma Church and Christian organisations, and has delivered invited lectures and conference papers at universities, seminaries, and academic forums in India and abroad.
 
+## Contents
+
+1. [Early life and education](#early-life-and-education)
+2. [Academic career](#academic-career)
+3. [Ministry and ecclesiastical service](#ministry-and-ecclesiastical-service)
+4. [Ecumenical engagement](#ecumenical-engagement)
+5. [Publications](#publications)
+6. [Invited lectures and academic presentations](#invited-lectures-and-academic-presentations)
+7. [Selected bibliography](#selected-bibliography)
+   1. [Books](#books)
+8. [External links](#external-links)
+
 ## Early life and education
 
 Y. T. Vinayaraj studied science before pursuing theological education. He obtained a Bachelor of Science (B.Sc.) degree from the University of Kerala. He subsequently earned a Bachelor of Divinity (B.D.) from Mar Thoma Theological Seminary, Kottayam, and a Master of Theology (M.Th.) from Gurukul Lutheran Theological College and Research Institute, Chennai.
