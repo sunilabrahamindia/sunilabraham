@@ -74,7 +74,7 @@ Vinayaraj is the author and editor of numerous books and scholarly publications 
     loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
-  </iframe>
+  </iframe >
 
   <p class="video-caption">
     Religion after Ambedkar: Christian Perspectives<br>
@@ -139,12 +139,9 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 
 .person-photo figcaption {
   margin-top: 0.5rem;
-  padding: 0.6rem 0.75rem;
   font-size: 0.85rem;
-  line-height: 1.5;
-  color: #333;
-  background: #f5f5f5;
-  border-radius: 4px;
+  line-height: 1.4;
+  color: #444;
 }
 
 .person-photo figcaption a {
@@ -155,16 +152,6 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 .person-photo figcaption a:hover,
 .person-photo figcaption a:focus {
   text-decoration: underline;
-}
-
-@media (prefers-color-scheme: dark) {
-  .person-photo figcaption {
-    color: #d4d4d4;
-  }
-
-  .person-photo figcaption a {
-    color: #7fb3ff;
-  }
 }
 
 @media (max-width: 768px) {
@@ -195,13 +182,10 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 
 .video-caption {
   margin-top: 0.75rem;
-  padding: 0.75rem 1rem;
   font-size: 0.9rem;
   line-height: 1.5;
   text-align: center;
-  color: #333;
-  background: #f5f5f5;
-  border-radius: 4px;
+  color: #444;
 }
 
 .video-caption a {
@@ -214,19 +198,6 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
   text-decoration: underline;
 }
 
-@media (prefers-color-scheme: dark) {
-  .person-photo figcaption,
-  .video-caption {
-    color: #e6e6e6;
-    background: #222;
-  }
-
-  .person-photo figcaption a,
-  .video-caption a {
-    color: #8ec5ff;
-  }
-}
-
 @media (max-width: 768px) {
   .video-container {
     max-width: 100%;
@@ -236,5 +207,25 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
   .video-caption {
     font-size: 0.88rem;
   }
+}
+
+/* =========================================================
+   Active Framework Class Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .person-photo figcaption,
+body.tsap-dark-mode .video-caption {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .person-photo figcaption a,
+body.tsap-dark-mode .video-caption a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .person-photo figcaption a:hover,
+body.tsap-dark-mode .video-caption a:hover {
+  color: #7dd3fc !important;
+  text-decoration: underline !important;
 }
 </style>
