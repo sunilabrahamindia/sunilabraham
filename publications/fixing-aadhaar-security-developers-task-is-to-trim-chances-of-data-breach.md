@@ -38,7 +38,7 @@ The column analyses the fragility of centralised identity systems like Aadhaar a
 
   <dt>📰 Newspaper Link:</dt>
   <dd>
-    <a class="btn" href="https://www.business-standard.com/article/opinion/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach-118010901281_1.html" target="_blank">
+    <a class="btn" href="https://www.business-standard.com/article/opinion/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach-118010901281_1.html">
       Read Online
     </a>
   </dd>
