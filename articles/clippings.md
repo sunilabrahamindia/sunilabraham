@@ -167,7 +167,7 @@ created: 2026-03-21
   </a>
 </figure>
 
-<p style="text-align:center; font-size:0.9rem; color:#444;">
+<p class="clipping-standalone-caption">
   "Snooping Can Lead to Data Abuse"<br>
   <em>Mail Today</em>, 9 June 2011<br>
   <a href="/publications/snooping-can-lead-to-data-abuse/">Read full article</a>
@@ -197,7 +197,7 @@ created: 2026-03-21
   </a>
 </figure>
 
-<p style="text-align:center; font-size:0.9rem; color:#444;">
+<p class="clipping-standalone-caption">
   "The Private Citizen"<br>
   <em>Forbes India</em>, 23 August 2013<br>
   <a href="/publications/the-private-citizen-forbes-india/">Read full article</a>
@@ -321,7 +321,6 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
-
 <style>
 .clipping-card {
   width: 100%;
@@ -342,19 +341,23 @@ created: 2026-03-21
   max-width: 300px;
 }
 
-.clipping-card figcaption {
+.clipping-card figcaption,
+.clipping-standalone-caption {
   margin-top: 0.6rem;
   font-size: 0.85rem;
   color: #444;
   line-height: 1.6;
+  text-align: center;
 }
 
-.clipping-card figcaption a {
+.clipping-card figcaption a,
+.clipping-standalone-caption a {
   color: #1a5fb4;
   text-decoration: none;
 }
 
-.clipping-card figcaption a:hover {
+.clipping-card figcaption a:hover,
+.clipping-standalone-caption a:hover {
   text-decoration: underline;
 }
 
@@ -365,5 +368,27 @@ created: 2026-03-21
   .clipping-card.clipping-small {
     max-width: 260px;
   }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+body.tsap-dark-mode .clipping-card img {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important;
+}
+
+body.tsap-dark-mode .clipping-card figcaption,
+body.tsap-dark-mode .clipping-standalone-caption {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .clipping-card figcaption a,
+body.tsap-dark-mode .clipping-standalone-caption a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .clipping-card figcaption a:hover,
+body.tsap-dark-mode .clipping-standalone-caption a:hover {
+  color: #7dd3fc !important;
 }
 </style>
