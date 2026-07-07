@@ -194,12 +194,15 @@ There is some inconsistency around the band name. [*The Times of India*](https:/
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   }
   .article-image-right figcaption {
     font-size: 0.85em;
     color: #666;
     margin-top: 0.5em;
     text-align: center;
+    line-height: 1.4;
   }
   @media (max-width: 768px) {
     .article-image-right {
@@ -212,7 +215,7 @@ There is some inconsistency around the band name. [*The Times of India*](https:/
     position: relative;
     width: 100%;
     max-width: 600px;
-    margin: 1.5em auto;
+    margin: 1.5em auto 0;
     padding-bottom: 315px;
     height: 0;
     overflow: hidden;
@@ -223,10 +226,37 @@ There is some inconsistency around the band name. [*The Times of India*](https:/
     left: 0;
     width: 100%;
     height: 100%;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   }
   @media (max-width: 768px) {
     .video-container {
       padding-bottom: 56.25%;
     }
+  }
+
+  /* =========================================================
+     Active Class Architecture Dark Mode Overrides
+     ========================================================= */
+  body.tsap-dark-mode .article-image-right img,
+  body.tsap-dark-mode .video-container iframe {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  body.tsap-dark-mode .article-image-right figcaption,
+  body.tsap-dark-mode p[style*="text-align: center"] {
+    color: #cbd5e1 !important;
+  }
+
+  body.tsap-dark-mode .article-image-right figcaption a,
+  body.tsap-dark-mode p[style*="text-align: center"] a {
+    color: #38bdf8 !important;
+  }
+
+  body.tsap-dark-mode .article-image-right figcaption a:hover,
+  body.tsap-dark-mode p[style*="text-align: center"] a:hover {
+    color: #7dd3fc !important;
+    text-decoration: underline !important;
   }
 </style>
