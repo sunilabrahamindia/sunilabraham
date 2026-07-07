@@ -296,7 +296,7 @@ body.tsap-dark-mode .github-preview .tooltip::after {
 }
 
 /* =========================================================
-   Media Articles
+   Media Articles & Component Illustrations
    ========================================================= */
 
 body.tsap-dark-mode .media-details {
@@ -336,6 +336,61 @@ body.tsap-dark-mode .copy-btn-full:hover {
 
 body.tsap-dark-mode .copy-btn-full:focus {
   outline-color: #fbbf24 !important;
+}
+
+/* Global figure caption and illustration styles */
+body.tsap-dark-mode .media-image img,
+body.tsap-dark-mode .bio-photo-img,
+body.tsap-dark-mode .content-img,
+body.tsap-dark-mode .wikimedia-embed-frame {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+body.tsap-dark-mode .media-image figcaption,
+body.tsap-dark-mode .bio-photo-caption,
+body.tsap-dark-mode .content-img-caption,
+body.tsap-dark-mode .wikimedia-embed-caption,
+body.tsap-dark-mode .person-photo figcaption,
+body.tsap-dark-mode .video-caption {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .wikimedia-embed-caption a,
+body.tsap-dark-mode .person-photo figcaption a,
+body.tsap-dark-mode .video-caption a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .wikimedia-embed-caption a:hover,
+body.tsap-dark-mode .person-photo figcaption a:hover,
+body.tsap-dark-mode .video-caption a:hover {
+  color: #7dd3fc !important;
+  text-decoration: underline !important;
+}
+
+/* =========================================================
+   Cluster Dynamic Index Pages & Filtering Controls
+   ========================================================= */
+
+body.tsap-dark-mode .desc {
+  color: var(--text-muted) !important;
+}
+
+body.tsap-dark-mode .cluster-sort button {
+  background-color: #1f2937 !important;
+  color: var(--text-main) !important;
+  border-color: #4b5563 !important;
+}
+
+body.tsap-dark-mode .cluster-sort button:hover {
+  background-color: #374151 !important;
+  border-color: #64748b !important;
+}
+
+body.tsap-dark-mode .cluster-sort button.active-sort {
+  background-color: #1d4ed8 !important; /* Rich accessible royal blue */
+  color: #ffffff !important;
+  border-color: #2563eb !important;
 }
 
 /* =========================================================
@@ -397,7 +452,6 @@ body.tsap-dark-mode .author-names {
 /* =========================================================
    Publications
    ========================================================= */
-/* Dark mode */
 
 body.tsap-dark-mode .pub-details {
   background: #1f2937;
@@ -465,6 +519,7 @@ body.tsap-dark-mode .copy-btn-full:hover {
 /* =========================================================
    Universal Link and Hover Contrast Overrides
    ========================================================= */
+
 body.tsap-dark-mode a {
   color: #38bdf8 !important; /* Luminous sky blue for high-contrast dark reading */
   text-decoration: none;
