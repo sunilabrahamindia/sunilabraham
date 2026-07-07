@@ -139,9 +139,12 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 
 .person-photo figcaption {
   margin-top: 0.5rem;
+  padding: 0.6rem 0.75rem;
   font-size: 0.85rem;
-  line-height: 1.4;
-  color: #444;
+  line-height: 1.5;
+  color: #333;
+  background: #f5f5f5;
+  border-radius: 4px;
 }
 
 .person-photo figcaption a {
@@ -192,10 +195,13 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 
 .video-caption {
   margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
   font-size: 0.9rem;
   line-height: 1.5;
   text-align: center;
-  color: #444;
+  color: #333;
+  background: #f5f5f5;
+  border-radius: 4px;
 }
 
 .video-caption a {
@@ -209,12 +215,15 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 }
 
 @media (prefers-color-scheme: dark) {
+  .person-photo figcaption,
   .video-caption {
-    color: #d4d4d4;
+    color: #e6e6e6;
+    background: #222;
   }
 
+  .person-photo figcaption a,
   .video-caption a {
-    color: #7fb3ff;
+    color: #8ec5ff;
   }
 }
 
