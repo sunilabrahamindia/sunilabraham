@@ -168,6 +168,9 @@ Material found only in earlier editions should not be silently inserted into the
 
 This approach preserves transparency and ensures that readers can distinguish between the text of the collected volume and material found only in earlier editions.
 
+## General Notes
+- [Attempts to Create a Counter-Culture](/amaa/swami-anand-thirth-attempts-create-counter-culture/), 1. Ref 14 corrected to year 1934 to align with content text 2. Otayamadam spelling (near footnote 10) fixed as per 1978's edition
+
 {% include navbox-amaa.html %}
 
 <script>
