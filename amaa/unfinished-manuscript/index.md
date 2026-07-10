@@ -94,28 +94,27 @@ This mapping follows the source document described above. Page numbers mentioned
 
 <style>
 .manuscript-cover {
+  float: right;
+  width: 180px;
   margin: 0 0 1rem 1.5rem;
+  text-align: center;
+  clear: right;
 }
 
 .manuscript-cover img {
   display: block;
-  width: 180px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border: 1px solid var(--border-color, #666);
-  border-radius: 0.25rem;
+  border-radius: 6px;
 }
 
 @media (max-width: 768px) {
   .manuscript-cover {
     float: none;
-    margin: 0 auto 1.5rem;
-    text-align: center;
-  }
-
-  .manuscript-cover img {
     width: 100%;
-    max-width: 100%;
+    max-width: 180px;
+    margin: 0 auto 1.25rem;
   }
 }
 </style>
