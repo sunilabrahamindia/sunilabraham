@@ -9,6 +9,11 @@ created: 2026-07-10
 homepage_featured: true
 ---
 
+<div class="manuscript-cover float-right">
+  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/unfinished-manuscript-title-cover.jpg"
+       alt="Title page of the unfinished manuscript 'Dalits and Hindu Religious Identity' by Rev. Dr. A. M. A. Ayrookuzhiel">
+</div>
+
 ***Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)*** documents the preparatory work towards reconstructing an unfinished manuscript by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/), tentatively titled *Dalit and Hindu Religious Identity*. The manuscript was left incomplete at the time of his death in 1996 and was intended to examine the relationship between caste identity and faith traditions in India.
 
 This working document brings together available manuscript material, related writings, research notes, editorial observations, and a mapping of the surviving documents associated with the manuscript. It serves as a transparent record of the preparatory process, including the identification, organisation and analysis of existing material, and does not represent the final manuscript. The reconstruction project was initiated as part of the preparations for the [30th death anniversary of A. M. A. Ayrookuzhiel](/amaa/) on 29 November 2026.
@@ -72,7 +77,7 @@ This mapping follows the source document described above. Page numbers mentioned
 - Pages 25–35: *Nair Community in Kerala*.
 - Pages 36–44: *Historical Background*.
 - Pages 45–49: *Dalit Shrines (Kurava, Pulaya & Paraya)*.
-- Page 50: *Chapter 2, Methodology*. This appears to be an important part of the manuscript, as it sets out the methodology of the study. Please read it [here](/amaa/unfinished-manuscript-chapter-2-methodology/)
+- Page 50: *Chapter 2, Methodology*. This appears to be an important part of the manuscript, as it sets out the methodology of the study. Please read the transcription [here](/amaa/unfinished-manuscript-chapter-2-methodology/).
 - Pages 51–67: *Chinna Pulayan: The Dalit Teacher of Sankaracharya*. This essay has already been documented on The Sunil Abraham Project and may be accessed [here](/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/).
 - Pages 68–73: *Introduction*.
 - Page 74: *Dalits and Hindu Religious Identity*. This page contains the index and is particularly important, as it outlines the proposed contents of the unfinished manuscript.
@@ -86,4 +91,32 @@ This mapping follows the source document described above. Page numbers mentioned
 - Pages 114–115: *Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS*. Please read [here](/amaa/indian-religious-heritage-social-transformation/).
 
 {% include navbox-amaa.html %}
+
+<style>
+.manuscript-cover {
+  margin: 0 0 1rem 1.5rem;
+}
+
+.manuscript-cover img {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border-color, #666);
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .manuscript-cover {
+    float: none;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+  }
+
+  .manuscript-cover img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+</style>
 
