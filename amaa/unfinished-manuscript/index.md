@@ -80,7 +80,7 @@ This mapping follows the source document described above. Page numbers mentioned
 - Page 50: *Chapter 2, Methodology*. This appears to be an important part of the manuscript, as it sets out the methodology of the study. Please read the transcription [here](/amaa/unfinished-manuscript-chapter-2-methodology/).
 - Pages 51–67: *Chinna Pulayan: The Dalit Teacher of Sankaracharya*. This essay has already been documented on The Sunil Abraham Project and may be accessed [here](/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/).
 - Pages 68–73: *Introduction*.
-- Page 74: *Dalits and Hindu Religious Identity*. This page contains the index and is particularly important, as it outlines the proposed contents of the unfinished manuscript.
+- Page 74: *Dalits and Hindu Religious Identity*. This page contains the index and is particularly important, as it outlines the proposed contents of the unfinished manuscript. Please find the page [here](/amaa/unfinished-manuscript-proposed-contents/).
 - Pages 75–80: *The Dalit Church's Mission — A Dalit Response*. This essay has already been documented on The Sunil Abraham Project and may be accessed [here](/amaa/dalit-church-mission-dalit-response/).
 - Pages 81–84: *The Role of Religion in Dalit Liberation: Some Reflections*. This essay has already been documented on The Sunil Abraham Project and may be accessed [here](/amaa/role-of-religion-dalit-liberation/).
 - Pages 84–87: *Christian Dalits in Revolt*. This essay has already been documented on The Sunil Abraham Project and may be accessed [here](/amaa/christian-dalits-in-revolt/).
