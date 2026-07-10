@@ -13,6 +13,12 @@ homepage_featured: true
 
 This working document brings together available manuscript material, related writings, research notes, editorial observations, and a mapping of the surviving documents associated with the manuscript. It serves as a transparent record of the preparatory process, including the identification, organisation and analysis of existing material, and does not represent the final manuscript. The reconstruction project was initiated as part of the preparations for the [30th death anniversary of A. M. A. Ayrookuzhiel](/amaa/) on 29 November 2026.
 
+## Contents
+
+1. [Task List](#tasks)
+2. [Source Document](#source)
+3. [Mapping](#mapping)
+
 ## Task List {#tasks}
 
 ### Phase 1: Source Document
@@ -66,7 +72,7 @@ This mapping follows the source document described above. Page numbers mentioned
 - Pages 25–35: *Nair Community in Kerala*.
 - Pages 36–44: *Historical Background*.
 - Pages 45–49: *Dalit Shrines (Kurava, Pulaya & Paraya)*.
-- Page 50: *Chapter 2, Methodology*. This appears to be an important part of the manuscript, as it sets out the methodology of the study.
+- Page 50: *Chapter 2, Methodology*. This appears to be an important part of the manuscript, as it sets out the methodology of the study. Please read it [here](/amaa/unfinished-manuscript-chapter-2-methodology/)
 - Pages 51–67: *Chinna Pulayan: The Dalit Teacher of Sankaracharya*. This essay has already been documented on The Sunil Abraham Project and may be accessed [here](/amaa/chinnapulayan-the-dalit-teacher-of-sankaracharya/).
 - Pages 68–73: *Introduction*.
 - Page 74: *Dalits and Hindu Religious Identity*. This page contains the index and is particularly important, as it outlines the proposed contents of the unfinished manuscript.
