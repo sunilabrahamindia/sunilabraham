@@ -9,6 +9,11 @@ created: 2026-07-11
 
 ***Dalits and Hindu Religious Identity: Proposed Contents*** is the transcription of page 74 of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/). This page appears to present the proposed title page and contents of the planned volume, listing the unfinished manuscript together with nine accompanying essays and their original publication details.
 
+<div class="manuscript-cover">
+  <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/unfinished-manuscript-title-cover.jpg"
+       alt="Title page of the unfinished manuscript 'Dalits and Hindu Religious Identity' by Rev. Dr. A. M. A. Ayrookuzhiel">
+</div>
+
 ## Full Text
 
 <div class="source-text" markdown="1">
@@ -67,3 +72,31 @@ first appeared in *Jeevadhara: A Journal of Christian Interpretation: Indian Chu
 The parenthetical description "unfinished book by Rev. A. M. Abraham Ayrookuzhiel" appears more consistent with an editorial annotation than with a self-description by the author. This suggests that the page may have been prepared or revised after Ayrookuzhiel's death, although additional evidence would be required to confirm its provenance.
 
 {% include navbox-amaa.html %}
+
+<style>
+  .manuscript-cover {
+  max-width: 650px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.manuscript-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-color, #666);
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .manuscript-cover {
+    max-width: 100%;
+    margin: 1.5rem auto;
+  }
+
+  .manuscript-cover img {
+    width: 100%;
+  }
+}
+</style>
