@@ -169,6 +169,8 @@ In November 2024, Abraham reflected on the continuing influence of Swartz and th
 ## External links
 - [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) on Wikipedia
 
+{% include sunilspeaks.html %}
+
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <style>

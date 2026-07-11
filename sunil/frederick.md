@@ -136,6 +136,8 @@ Read together, the continuations are not intended as criticism of the original s
 - [*Frederick* (book)](https://archive.org/details/frederick0000lion) on Internet Archive (borrow and online reading options may be available)
 - [*Frederick* (book)](https://openlibrary.org/works/OL2162573W/Frederick) on Open Library
 
+{% include sunilspeaks.html %}
+
 <style>
   .pdf-container {
   margin: 2.5rem 0;

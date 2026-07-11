@@ -195,6 +195,8 @@ Each tweet was designed to stand alone as a shareable unit whilst contributing t
 8. [Is India's Aadhaar System an Instrument For Surveillance?](https://advox.globalvoices.org/2017/05/05/is-indias-aadhaar-system-an-instrument-for-surveillance/), *Global Voices Advox*, published 4 May 2017, accessed 21 February 2026.
 9. [Aadhaar Project Wholly Unconstitutional — Landmark Dissent by Justice Chandrachud](https://www.livelaw.in/breaking-aadhaar-project-wholly-unconstitutional-landmark-disssent-by-justice-chandrachud/), *Live Law*, published 26 September 2018, accessed 21 February 2026.
 
+{% include sunilspeaks.html %}
+
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <style>

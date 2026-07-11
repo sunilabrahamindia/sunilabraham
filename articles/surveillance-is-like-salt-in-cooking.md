@@ -298,6 +298,7 @@ The biometric irreversibility problem poses particular regulatory challenges wit
 
 - [Repeat after me (Tweet Series)](/sunil/repeat-after-me/) — Sunil Abraham's 2017 Twitter thread critiquing Aadhaar as surveillance technology
 
+{% include sunilspeaks.html %}
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

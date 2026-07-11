@@ -47,3 +47,5 @@ The framework also studies barriers that continue to limit participation, includ
 ## Demonstration Projects
 
 The framework may be explored through practical demonstrations, experimental publishing systems, collaborative archives, and community-based digital projects developed within the broader Triple Under Utilisation approach.
+
+{% include sunilspeaks.html %}
