@@ -34,6 +34,7 @@
   <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/tippy.css' | relative_url }}">
 
   <script type="application/ld+json">
   {
@@ -253,6 +254,12 @@ document.addEventListener('keydown', function (e) {
       window.location.href = '{{ "/newest/" | relative_url }}';
     }
   }
+});
+</script>
+<script src="{{ '/assets/js/tippy-bundle.umd.min.js' | relative_url }}"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  tippy('[data-tippy-content]');
 });
 </script>
 </body>
