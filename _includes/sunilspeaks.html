@@ -1,0 +1,242 @@
+<nav class="navbox-sunil" aria-label="Sunil Speaks navigation">
+  <div class="navbox-sunil__inner">
+
+    <div class="navbox-sunil__title">
+      <a href="/sunil/">Sunil Speaks</a>
+      <span class="navbox-sunil__viewlink">[<a href="/sunil/speaks/">View</a>]</span>
+    </div>
+
+    <div class="navbox-sunil__body">
+
+      <div class="navbox-sunil__links-col">
+
+        <div class="navbox-sunil__row">
+          <span class="navbox-sunil__label">Ideas</span>
+          <span class="navbox-sunil__items">
+            <a href="/frederick/">Frederick</a> &middot;
+            <a href="/articles/surveillance-is-like-salt-in-cooking/">Surveillance is like Salt in Cooking</a> &middot;
+            <a href="/sunil/repeat-after-me/">Repeat after me</a>
+          </span>
+        </div>
+
+        <div class="navbox-sunil__row">
+          <span class="navbox-sunil__label">People</span>
+          <span class="navbox-sunil__items">
+            <a href="/sunil/aaron-swartz/">Aaron Swartz</a>
+          </span>
+        </div>
+
+      </div>
+
+      <div class="navbox-sunil__photo-col">
+        <img
+          src="/images/sunil/sunil-abraham.jpg"
+          alt="Sunil Abraham"
+          width="120"
+          height="120"
+          loading="lazy"
+        >
+      </div>
+
+    </div>
+
+  </div>
+</nav>
+
+<style>
+.navbox-sunil {
+  border: 1px solid #d6dbe3;
+  background: #f9fbff;
+  border-radius: 0.5rem;
+  margin: 2rem 0 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  transition: box-shadow 0.25s ease, transform 0.2s ease;
+}
+
+.navbox-sunil:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  transform: translateY(-1px);
+}
+
+.navbox-sunil__title {
+  background: #eef4fb;
+  border-top: 3px solid #3a7bd5;
+  border-bottom: 1px solid #d6dbe3;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: .5rem 2.2rem .5rem 1rem;
+  position: relative;
+}
+
+.navbox-sunil__viewlink {
+  position: absolute;
+  right: .6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: .75rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.navbox-sunil a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.navbox-sunil a:hover {
+  color: #3a7bd5;
+  text-decoration: underline;
+}
+
+.navbox-sunil a:visited {
+  color: #0b0080;
+}
+
+.navbox-sunil a:focus-visible {
+  outline: 2px solid #3a7bd5;
+  outline-offset: 2px;
+}
+
+.navbox-sunil__body {
+  display: flex;
+  gap: 1rem;
+  padding: .75rem 1rem;
+  align-items: flex-start;
+}
+
+.navbox-sunil__links-col {
+  flex: 1 1 auto;
+}
+
+.navbox-sunil__photo-col {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbox-sunil__photo-col img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: .375rem;
+  border: 1px solid #d6dbe3;
+  background: #fff;
+  padding: .25rem;
+}
+
+.navbox-sunil__row {
+  display: flex;
+  gap: .5rem;
+  padding: .4rem 0;
+  border-bottom: 1px solid #e6e9ef;
+  align-items: baseline;
+}
+
+.navbox-sunil__row:last-child {
+  border-bottom: none;
+}
+
+.navbox-sunil__label {
+  flex: 0 0 120px;
+  font-weight: 600;
+  color: #444;
+  font-size: .875rem;
+}
+
+.navbox-sunil__items {
+  flex: 1 1 auto;
+  color: #222;
+}
+
+@media (max-width:600px) {
+
+  .navbox-sunil__body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbox-sunil__photo-col {
+    order: -1;
+  }
+
+  .navbox-sunil__photo-col img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .navbox-sunil__row {
+    flex-direction: column;
+    gap: .2rem;
+  }
+
+  .navbox-sunil__label {
+    flex: none;
+    font-size: .8rem;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbox-sunil {
+    transition: none;
+  }
+}
+
+/* Dark mode */
+
+body.tsap-dark-mode .navbox-sunil {
+  background: #243244;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+body.tsap-dark-mode .navbox-sunil:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,.35);
+}
+
+body.tsap-dark-mode .navbox-sunil__title {
+  background: #1b2636;
+  border-top-color: #60a5fa;
+  border-bottom-color: #374151;
+  color: #f3f4f6;
+}
+
+body.tsap-dark-mode .navbox-sunil__viewlink {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .navbox-sunil a {
+  color: #93c5fd;
+}
+
+body.tsap-dark-mode .navbox-sunil a:hover {
+  color: #bfdbfe;
+}
+
+body.tsap-dark-mode .navbox-sunil a:visited {
+  color: #c4b5fd;
+}
+
+body.tsap-dark-mode .navbox-sunil a:focus-visible {
+  outline-color: #93c5fd;
+}
+
+body.tsap-dark-mode .navbox-sunil__photo-col img {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+body.tsap-dark-mode .navbox-sunil__row {
+  border-bottom-color: #374151;
+}
+
+body.tsap-dark-mode .navbox-sunil__label {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .navbox-sunil__items {
+  color: #e5e7eb;
+}
+</style>
