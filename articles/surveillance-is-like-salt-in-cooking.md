@@ -2,7 +2,7 @@
 layout: default
 title: "Surveillance Is Like Salt in Cooking"
 description: "An explanation of the comparison used by Sunil Abraham to describe the role of surveillance in democratic societies, internet governance, and public policy."
-categories: [Ideas and Opinions, Resources, TSAP Originals]
+categories: [Ideas and Opinions, Resources, Sunil Abraham, TSAP Originals]
 authors: ["Sunil Abraham", "Tito Dutta"]
 permalink: /articles/surveillance-is-like-salt-in-cooking/
 page_id: TSAP-0496
@@ -362,6 +362,7 @@ The biometric irreversibility problem poses particular regulatory challenges wit
     font-size: 0.8rem;
   }
 }
+
 /* TSAP Original Marker - Side Tag */
 .tsap-original-marker {
   display: flex;
@@ -399,6 +400,7 @@ The biometric irreversibility problem poses particular regulatory challenges wit
     font-size: 0.75rem;
   }
 }
+
 /* Article Hero Image */
 .article-hero-image {
   margin: 0 0 1.5rem 1.5rem;
@@ -438,10 +440,65 @@ The biometric irreversibility problem poses particular regulatory challenges wit
     margin: 0 auto;
   }
 }
-   .article-separator {
+
+.article-separator {
   border: none;
   border-top: 1px solid rgba(0,0,0,0.08);
   margin: 0.75rem 0 1rem 0;
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .surveillance-social-card {
+  background: #1e293b !important;
+  border-color: rgba(56, 189, 248, 0.2) !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .surveillance-social-card:hover {
+  border-color: rgba(56, 189, 248, 0.4) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .surveillance-social-date {
+  color: #38bdf8 !important;
+  border-bottom-color: rgba(56, 189, 248, 0.1) !important;
+}
+
+body.tsap-dark-mode .surveillance-social-card blockquote.twitter-tweet {
+  color: #e2e8f0 !important;
+  background: transparent !important;
+}
+
+body.tsap-dark-mode .surveillance-social-card blockquote.twitter-tweet a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .tsap-marker-text {
+  color: #818cf8 !important;
+}
+
+body.tsap-dark-mode .tsap-marker-line {
+  background: linear-gradient(180deg, #818cf8 0%, #c084fc 100%) !important;
+  box-shadow: 0 2px 8px rgba(129, 140, 248, 0.4) !important;
+}
+
+body.tsap-dark-mode .article-hero-image img {
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.6),
+    0 2px 6px rgba(56, 189, 248, 0.15) !important;
+}
+
+body.tsap-dark-mode .article-hero-image img:hover {
+  box-shadow: 
+    0 6px 16px rgba(0, 0, 0, 0.8),
+    0 4px 12px rgba(56, 189, 248, 0.25) !important;
+}
+
+body.tsap-dark-mode .article-separator {
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
 }
 </style>
 
