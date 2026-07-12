@@ -1,5 +1,18 @@
 [
   {
+    "title": "Template:Versions",
+    "description": "Navigational template linking the main Versions page, archive pages, and version lookback reports on The Sunil Abraham Project.",
+    "created": "2026-07-12",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Navigational templates",
+      "Versions"
+    ],
+    "permalink": "https://sunilabraham.in/versions/template/"
+  },
+  {
     "title": "Version 2 Archive",
     "description": "Archived version logs of the Sunil Abraham Project website, organised by the Version 2 release cycle.",
     "created": "2026-07-12",
