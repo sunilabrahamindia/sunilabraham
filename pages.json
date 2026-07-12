@@ -1,5 +1,734 @@
 [
   {
+    "title": "Version 2 Archive",
+    "description": "Archived version logs of the Sunil Abraham Project website, organised by the Version 2 release cycle.",
+    "created": "2026-07-12",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Versions"
+    ],
+    "permalink": "https://sunilabraham.in/versions/2/"
+  },
+  {
+    "title": "Template:Sunil Speaks",
+    "description": "Navigational template linking selected essays, reflections, and related pages by or about Sunil Abraham.",
+    "created": "2026-07-11",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Navigational templates",
+      "Sunil Abraham"
+    ],
+    "permalink": "https://sunilabraham.in/sunil/speaks/"
+  },
+  {
+    "title": "Dalits and Hindu Religious Identity: Proposed Contents (Working Document)",
+    "description": "A transcription of page 74 of the Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document). This page appears to contain the proposed title page and table of contents for the planned volume Dalits and Hindu Religious Identity.",
+    "created": "2026-07-11",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Unfinished Manuscript of A. M. A. Ayrookuzhiel"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/unfinished-manuscript-proposed-contents/"
+  },
+  {
+    "title": "Category:Unfinished Manuscript of A. M. A. Ayrookuzhiel",
+    "description": "Working documents, source material, transcriptions, editorial notes and related pages associated with the reconstruction of the unfinished manuscript of Rev. Dr. A. M. A. Ayrookuzhiel.",
+    "created": "2026-07-10",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": null,
+    "permalink": null
+  },
+  {
+    "title": "Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)",
+    "description": "A working document for the preparation, study and reconstruction of the unfinished manuscript tentatively titled \"Dalit and Hindu Religious Identity\", left incomplete at the time of A. M. A. Ayrookuzhiel's death in 1996.",
+    "created": "2026-07-10",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Unfinished Manuscript of A. M. A. Ayrookuzhiel"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/unfinished-manuscript/"
+  },
+  {
+    "title": "Chapter 2, Methodology (Working Document)",
+    "description": "Chapter 2, \"Methodology\", from the unfinished manuscript tentatively titled \"Dalits and Hindu Religious Identity\". This chapter sets out the methodology for the study of caste-specific religious life and Dalit participation in Hindu religious traditions.",
+    "created": "2026-07-10",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Unfinished Manuscript of A. M. A. Ayrookuzhiel"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/unfinished-manuscript-chapter-2-methodology/"
+  },
+  {
+    "title": "The Dalit Deśiyata: Introduction",
+    "description": "The introduction to A. M. A. Ayrookuzhiel's 1990 edited volume outlining the ideas of development, class struggle and Deśiyata in relation to Dalit liberation.",
+    "created": "2026-07-09",
+    "date": null,
+    "source": null,
+    "authors": "A. M. A. Ayrookuzhiel",
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "The Dalit Deśiyata"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/the-dalit-desiyata-introduction/"
+  },
+  {
+    "title": "The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle",
+    "description": "A 1990 edited volume by A. M. Abraham Ayrookuzhiel on Dalit communities, development, class struggle and politics in Kerala, published by the Christian Institute for the Study of Religion and Society (CISRS).",
+    "created": "2026-07-08",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "The Dalit Deśiyata"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/the-dalit-desiyata/"
+  },
+  {
+    "title": "Attempts to Create a Counter-Culture",
+    "description": "The third chapter of A. M. A. Ayrookuzhiel's 1987 study of Swami Anand Thirth, examining educational, social and cultural initiatives undertaken to challenge caste discrimination and foster a democratic social order.",
+    "created": "2026-07-08",
+    "date": null,
+    "source": null,
+    "authors": "A. M. A. Ayrookuzhiel",
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Swami Anand Thirth"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/swami-anand-thirth-attempts-create-counter-culture/"
+  },
+  {
+    "title": "Y. T. Vinayaraj",
+    "description": "Biography of Rev. Dr. Y. T. Vinayaraj, Indian theologian, scholar of religion, author, editor, and educator.",
+    "created": "2026-07-07",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Biographies"
+    ],
+    "permalink": "https://sunilabraham.in/vinayaraj/"
+  },
+  {
+    "title": "Patent-less Smartphone Innovation and the Global Technology Markets",
+    "description": "A Descrier News piece by Jorge Contreras profiling Sunil Abraham's presentation on India's low-cost, patent-free smartphone innovation boom at the Second Global Congress on IP and the Public Interest.",
+    "created": "2026-07-07",
+    "date": "2012-12-23",
+    "source": "Descrier News",
+    "authors": [
+      "Jorge Contreras"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/patent-less-smartphone-innovation-global-technology-markets-descrier/"
+  },
+  {
+    "title": "Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics",
+    "description": "A 2023 edited volume by Y. T. Vinayaraj, published jointly by the Christian Institute for the Study of Religion and Society (CISRS) and the Indian Society for Promoting Christian Knowledge (ISPCK), exploring Dalit religion(s), theology, epistemology, and politics while reflecting on the intellectual legacy of Rev. A. M. A. Ayrookuzhiel.",
+    "created": "2026-07-06",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Books"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/sacrafanations/"
+  },
+  {
+    "title": "Proposed Net Neutrality Policy Is Deterrent to India's Startup Culture, Say Entrepreneurs",
+    "description": "A 2015 TechCircle report on Indian startups opposing TRAI's OTT services consultation paper, citing Sunil Abraham's view that TRAI should protect net neutrality through safeguards rather than defining it.",
+    "created": "2026-07-05",
+    "date": "2015-04-14",
+    "source": "TechCircle",
+    "authors": [
+      "Binu Paul"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/proposed-net-neutrality-policy-deterrent-startup-culture-techcircle/"
+  },
+  {
+    "title": "Category:TSAP Incidents",
+    "description": "Documentation of significant incidents affecting the Sunil Abraham Project, including major errors, technical issues, service disruptions, and their resolution. This category does not include TSAP rituals, events, or programmes.",
+    "created": "2026-07-04",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": null,
+    "permalink": null
+  },
+  {
+    "title": "Centre for Internet and Society: 18th Anniversary",
+    "description": "On the 18th anniversary of the Centre for Internet and Society, I look back on my years at the organisation (2015-2022). This is a personal memoir based on my own experiences and reflections, and does not represent the views of CIS.",
+    "created": "2026-07-04",
+    "date": "2026-07-04",
+    "source": null,
+    "authors": "Tito Dutta",
+    "categories": [
+      "Centre for Internet and Society"
+    ],
+    "permalink": "https://sunilabraham.in/cis/18/"
+  },
+  {
+    "title": "Wayback Machine Random Archiver (Documentation)",
+    "description": "Documentation for the Wayback Machine Random Archiver used by The Sunil Abraham Project (TSAP) to gradually preserve pages in the Internet Archive.",
+    "created": "2026-07-03",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/wayback-machine-random-archiver-documentation/"
+  },
+  {
+    "title": "Sunil Abraham and TechCircle",
+    "description": "A collection of TechCircle articles that reference Sunil Abraham in coverage of India's technology, digital policy, startups, and internet ecosystem.",
+    "created": "2026-07-02",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Clusters"
+    ],
+    "permalink": "https://sunilabraham.in/clusters/sunil-abraham-techcircle/"
+  },
+  {
+    "title": "Git Repository Storage Inflation Incident (1 July 2026)",
+    "description": "Documentation of the repository storage inflation incident on 1 July 2026, the diagnostic tracking, history rewrite operations, and final backend resolution.",
+    "created": "2026-07-02",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation",
+      "TSAP Incidents"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/git-repository-storage-inflation/"
+  },
+  {
+    "title": "Infosys Launches Open-Source Responsible AI Toolkit",
+    "description": "A 2025 TechCircle report on Infosys’s open-source Responsible AI toolkit, quoting Sunil Abraham on the value of open-source code and datasets for safe and inclusive AI innovation.",
+    "created": "2026-07-02",
+    "date": "2025-02-27",
+    "source": "TechCircle",
+    "authors": [
+      "Sohini Bagchi"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/infosys-launches-open-source-responsible-ai-toolkit-techcircle/"
+  },
+  {
+    "title": "Git Repository Corruption Recovery (1 July 2026)",
+    "description": "Documentation of the local Git database corruption incident on 1 July 2026, its technical root causes, and the incremental recovery workflow.",
+    "created": "2026-07-01",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation",
+      "TSAP Incidents"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/git-repository-corruption-recovery/"
+  },
+  {
+    "title": "Govt Access, Localisation Norms in Data Protection Bill Need Rethink: CIS' Sunil Abraham",
+    "description": "A 2018 TechCircle interview with Sunil Abraham on India's draft Personal Data Protection Bill, covering its GDPR alignment, loopholes in non-consensual processing, data localisation concerns, and government access to citizens' data.",
+    "created": "2026-06-30",
+    "date": "2018-08-01",
+    "source": "TechCircle",
+    "authors": [
+      "Anand J"
+    ],
+    "categories": [
+      "Interviews",
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/govt-access-localisation-norms-data-protection-bill-need-rethink-techcircle/"
+  },
+  {
+    "title": "Not Surprised by Indian Govt's Data Localisation Directives: Michael Dell",
+    "description": "A 2018 TechCircle news report on Michael Dell's remarks on India's data localisation push, citing Sunil Abraham's earlier position that localisation mandates should be narrowly tailored by sector.",
+    "created": "2026-06-30",
+    "date": "2018-10-17",
+    "source": "TechCircle",
+    "authors": [
+      "Anand J"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/not-surprised-by-indian-govts-data-localisation-directives-michael-dell-techcircle/"
+  },
+  {
+    "title": "Swami Anand Thirth: Sannyasa for the Sake of Outcastes",
+    "description": "The second chapter of A. M. A. Ayrookuzhiel's 1987 study of Swami Anand Thirth, describing the social and political background of early twentieth-century Kerala, the Swami's childhood, education, and early influences.",
+    "created": "2026-06-29",
+    "date": null,
+    "source": null,
+    "authors": "A. M. A. Ayrookuzhiel",
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Swami Anand Thirth"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/swami-anand-thirth-sannyasa-for-the-sake-of-outcastes/"
+  },
+  {
+    "title": "Category:Transcripts",
+    "description": "Transcripts of lectures, presentations, interviews, talks and speeches published under The Sunil Abraham Project.",
+    "created": "2026-06-28",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": null,
+    "permalink": null
+  },
+  {
+    "title": "Frederick",
+    "description": "Sunil Abraham's use of Leo Lionni's children's book Frederick as a framework for examining attribution, tangible and intangible labour, and the intellectual property regime.",
+    "created": "2026-06-28",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Resources",
+      "Sunil Abraham",
+      "TSAP Originals"
+    ],
+    "permalink": "https://sunilabraham.in/frederick/"
+  },
+  {
+    "title": "Freedom Continuum: From Access to Knowledge to Privacy (Transcript)",
+    "description": "Transcript of Sunil Abraham's presentation 'Freedom Continuum: From Access to Knowledge to Privacy', delivered in Cape Town, South Africa, on 11 December 2013.",
+    "created": "2026-06-28",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Resources",
+      "Sunil Abraham",
+      "Transcripts"
+    ],
+    "permalink": "https://sunilabraham.in/sunil/freedom-continuum-transcript/"
+  },
+  {
+    "title": "India Steps Up Vigilance Against WhatsApp Abuse",
+    "description": "A Straits Times report on the Indian government's demand that WhatsApp open a local office and appoint a grievance officer, quoting Sunil Abraham on the technical limits of content blocking and a fact-checker network as an alternative.",
+    "created": "2026-06-28",
+    "date": "2018-08-24",
+    "source": "Straits Times",
+    "authors": [
+      "Debashree Dasgupta"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/india-steps-up-vigilance-against-whatsapp-abuse-straits-times/"
+  },
+  {
+    "title": "The Crown of Thorns That Awaits Facebook's India MD Hire",
+    "description": "A 2018 FactorDaily investigation into Facebook India's prolonged leadership vacuum, quoting Sunil Abraham on the company's loss of consumer trust and the limits of the 'Californian ideology'.",
+    "created": "2026-06-27",
+    "date": "2018-07-25",
+    "source": "FactorDaily",
+    "authors": [
+      "Sunny Sen",
+      "Jayadevan PK"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/the-crown-of-thorns-that-awaits-facebooks-india-md-hire-factordaily/"
+  },
+  {
+    "title": "Death by WhatsApp",
+    "description": "A News18 long-form report on WhatsApp-fuelled mob lynchings across India in 2018, quoting Sunil Abraham on the inapplicability of caveat emptor to fake news victims.",
+    "created": "2026-06-27",
+    "date": "2018-06-25",
+    "source": "News18",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/death-by-whatsapp-news18/"
+  },
+  {
+    "title": "The Church and the Study of Religion",
+    "description": "An article by A. M. A. Ayrookuzhiel examining how religion should be studied from the perspective of the poor, with particular reference to the Hindu religious tradition.",
+    "created": "2026-06-26",
+    "date": null,
+    "source": null,
+    "authors": [
+      "A. M. A. Ayrookuzhiel"
+    ],
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Publications"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/the-church-and-the-study-of-religion/"
+  },
+  {
+    "title": "'Digital India' in Dire Need of Safety Policy Reboot — Cybersecurity Experts",
+    "description": "A Sputnik report on India's cybersecurity gaps, quoting Sunil Abraham on government funding for cybersecurity research and the need for a comprehensive data protection and competition law framework.",
+    "created": "2026-06-26",
+    "date": "2018-04-17",
+    "source": "Sputnik",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/digital-india-in-dire-need-of-safety-policy-reboot-cybersecurity-experts-sputnik/"
+  },
+  {
+    "title": "Category:Book reviews",
+    "description": "Book reviews written by A. M. A. Ayrookuzhiel, published in academic journals and other scholarly publications.",
+    "created": "2026-06-25",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": null,
+    "permalink": "https://sunilabraham.in/categories/book-reviews/"
+  },
+  {
+    "title": "The Twice Alienated (Culture of Dalit Christians) (Book Review)",
+    "description": "A book review by A. M. A. Ayrookuzhiel of The Twice Alienated (Culture of Dalit Christians) by K. K. Wilson, published in Religion and Society in 1983.",
+    "created": "2026-06-25",
+    "date": null,
+    "source": null,
+    "authors": [
+      "A. M. A. Ayrookuzhiel"
+    ],
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Book reviews"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/the-twice-alienated-book-review/"
+  },
+  {
+    "title": "Approaches to the Study of Religion (Book Review)",
+    "description": "A book review by A. M. A. Ayrookuzhiel of the book Approaches to the Study of Religion, edited by Harbans Singh, published in Religion and Society in 1973.",
+    "created": "2026-06-25",
+    "date": null,
+    "source": null,
+    "authors": [
+      "A. M. A. Ayrookuzhiel"
+    ],
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Book reviews"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/approaches-to-the-study-of-religion-book-review/"
+  },
+  {
+    "title": "Tamil Nadu: Deities and Devotees (Book Review)",
+    "description": "A book review by A. M. A. Ayrookuzhiel of Tamil Nadu: Deities and Devotees by Gift Siromoney and K. R. Rajagopalan, published in Religion and Society in 1976.",
+    "created": "2026-06-25",
+    "date": null,
+    "source": null,
+    "authors": [
+      "A. M. A. Ayrookuzhiel"
+    ],
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Book reviews"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/tamil-nadu-deities-and-devotees-book-review/"
+  },
+  {
+    "title": "Centre for Internet and Society: Annual Report 2014–15",
+    "description": "A narrative account of the Centre for Internet and Society's annual report for the year 1 April 2014 to 31 March 2015, covering its accessibility, access to knowledge, internet governance, telecom, digital natives, research activities, and organisational details.",
+    "created": "2026-06-24",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Centre for Internet and Society"
+    ],
+    "permalink": "https://sunilabraham.in/cis/annual-report-2014-15/"
+  },
+  {
+    "title": "After Data Leak Row, Facebook Imposes Restrictions on User Data Access",
+    "description": "A Business Standard report on Facebook's post-Cambridge Analytica restrictions, quoting Sunil Abraham on the lack of clarity in Facebook's requirements and the need for business model rethinks.",
+    "created": "2026-06-24",
+    "date": "2018-04-06",
+    "source": "Business Standard",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/after-data-leak-row-facebook-imposes-restrictions-on-user-data-access-business-standard/"
+  },
+  {
+    "title": "Definitions",
+    "description": "Definitions of terms, expressions, and concepts used in TSAP policies, documentation, governance records, and related materials.",
+    "created": "2026-06-23",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/definitions/"
+  },
+  {
+    "title": "Aadhaar's New Security Measures Are Good, It Is Still Work in Progress",
+    "description": "A Business Standard report by Alnoor Peermohamed examining UIDAI's three new Aadhaar security features, with Sunil Abraham raising questions about their structural adequacy.",
+    "created": "2026-06-23",
+    "date": "2018-01-25",
+    "source": "Business Standard",
+    "authors": [
+      "Alnoor Peermohamed"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/aadhaar-new-security-measures-are-good-still-work-in-progress-business-standard/"
+  },
+  {
+    "title": "Token Security or Tokenized Security?",
+    "description": "A Mint opinion piece on Aadhaar tokenization, citing Sunil Abraham's proposal for dummy or virtual Aadhaar numbers as a way to reduce exposure of personal data.",
+    "created": "2026-06-23",
+    "date": "2018-01-09",
+    "source": "Mint",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/token-security-or-tokenized-security-mint/"
+  },
+  {
+    "title": "Aadhaar: 'Safety Is Regularly Evolving'",
+    "description": "A Kaplan Herald report by Alnoor Peermohamed on Aadhaar's new security features, quoting Sunil Abraham and others on biometric reliability and identity safety.",
+    "created": "2026-06-23",
+    "date": "2018-02-05",
+    "source": "Kaplan Herald",
+    "authors": [
+      "Alnoor Peermohamed"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/aadhaar-safety-is-regularly-evolving-kaplan-herald/"
+  },
+  {
+    "title": "Bengaluru Gives Data Safety Tips to Panel",
+    "description": "A Deccan Herald report on the Srikrishna Committee's Bengaluru consultation on data protection, covering submissions on consent, genomics, Aadhaar, and digital rights.",
+    "created": "2026-06-22",
+    "date": "2018-01-14",
+    "source": "Deccan Herald",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/bengaluru-gives-data-safety-tips-to-panel-deccan-herald/"
+  },
+  {
+    "title": "Hammered Government Offers Virtual ID Firewall to Protect Your Aadhaar",
+    "description": "A The New Indian Express report on UIDAI's Virtual ID protocol, covering its scope and limitations, with Sunil Abraham calling for a full redo of Aadhaar-KYC.",
+    "created": "2026-06-22",
+    "date": "2018-01-11",
+    "source": "The New Indian Express",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/hammered-government-offers-virtual-id-firewall-aadhaar-the-new-indian-express/"
+  },
+  {
+    "title": "Is There a Case for Penalizing Fake News?",
+    "description": "An Economic Times ET Tech report on fake news, misinformation, and policy responses, with Sunil Abraham arguing against criminalisation and for counter-speech.",
+    "created": "2026-06-22",
+    "date": "2018-03-07",
+    "source": "The Economic Times",
+    "authors": [
+      "Nilesh Christopher"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/is-there-a-case-for-penalizing-fake-news-economic-times/"
+  },
+  {
+    "title": "Category:Non-English language content",
+    "description": "Articles, translations, interviews, and media coverage published in languages other than English represented in the Sunil Abraham Project.",
+    "created": "2026-06-21",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": null,
+    "permalink": "https://sunilabraham.in/categories/non-english-language-content/"
+  },
+  {
+    "title": "Project Updates",
+    "description": "A chronological archive of major milestones, achievements, announcements, and significant developments in the history of The Sunil Abraham Project.",
+    "created": "2026-06-21",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/updates/"
+  },
+  {
+    "title": "«En Inde, le biométrique version très grand public» (Biometrics in India Goes Mainstream)",
+    "description": "A Libération report on Aadhaar's rapid expansion into payments and daily life, featuring Sunil Abraham's warnings on biometric security risks.",
+    "created": "2026-06-21",
+    "date": "2017-04-27",
+    "source": "Libération",
+    "authors": [
+      "Sébastien Farcis"
+    ],
+    "categories": [
+      "Media mentions",
+      "Non-English language content"
+    ],
+    "permalink": "https://sunilabraham.in/media/aadhaar-biometrique-liberation/"
+  },
+  {
+    "title": "Privacy Ruling Puts Tech Industry on Notice",
+    "description": "A report on India's privacy ruling and its implications for technology companies, featuring Sunil Abraham on data rights, legal exposure and regulation.",
+    "created": "2026-06-21",
+    "date": "2017-08-29",
+    "source": "CNN",
+    "authors": [
+      "Rishi Iyengar"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/privacy-ruling-puts-tech-industry-on-notice-cnnmoney/"
+  },
+  {
+    "title": "Meghadutam",
+    "description": "Meghadutam is a monsoon content enrichment event on The Sunil Abraham Project. Inspired by Kalidasa's Meghadutam, it emphasises content excellence rather than article count.",
+    "created": "2026-06-20",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Project pages",
+      "TSAP Events and Rituals"
+    ],
+    "permalink": "https://sunilabraham.in/meghadutam/"
+  },
+  {
+    "title": "How Would It Be if You Read Only One Type of Book?",
+    "description": "A The Hindu report by Deepa Kurup on software use in education, quoting Sunil Abraham on proprietary lock-in, technical literacy, and the case for greater familiarity with Free Software.",
+    "created": "2026-06-20",
+    "date": "2008-09-25",
+    "source": "The Hindu",
+    "authors": [
+      "Deepa Kurup"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/how-would-it-be-if-you-read-only-one-type-of-book-the-hindu/"
+  },
+  {
+    "title": "The Aadhaar of All Things",
+    "description": "A The Hindu Business Line feature by Shriya Mohan tracing Aadhaar's history and the BJP's U-turn on it, quoting Sunil Abraham on fraud risk and the case for tokenisation over number-sharing.",
+    "created": "2026-06-19",
+    "date": "2017-03-31",
+    "source": "The Hindu Business Line",
+    "authors": [
+      "Shriya Mohan"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/the-aadhaar-of-all-things-the-hindu-business-line/"
+  },
+  {
+    "title": "Piracy Boils Down to Convenience",
+    "description": "A DNA India de-bait feature quoting Sunil Abraham, then Executive Director of CIS, alongside Mohan Chabria and Milan Vohra on the economics and ethics of commercial piracy in India.",
+    "created": "2026-06-19",
+    "date": "2009-08-16",
+    "source": "DNA India",
+    "authors": null,
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/piracy-boils-down-to-convenience-dna-india/"
+  },
+  {
+    "title": "Will Patenting Take the Byte Out of IT Here?",
+    "description": "A The Hindu report by Deepa Kurup on software patent debates in India, quoting Sunil Abraham and others on innovation, costs, and the risks posed by broader patentability.",
+    "created": "2026-06-19",
+    "date": "2008-09-24",
+    "source": "The Hindu",
+    "authors": [
+      "Deepa Kurup"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/will-patenting-take-the-byte-out-of-it-here-the-hindu/"
+  },
+  {
+    "title": "Version 2.0 Lookback",
+    "description": "A reflective look back at the growth, milestones, and developments that led to the Version 2.0 release of The Sunil Abraham Project.",
+    "created": "2026-06-18",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Project pages",
+      "TSAP Events and Rituals",
+      "Versions"
+    ],
+    "permalink": "https://sunilabraham.in/versions/2.0/"
+  },
+  {
+    "title": "India's National ID Program May Be Turning the Country into a Surveillance State",
+    "description": "A BuzzFeed News report by Pranav Dixit on Aadhaar's surveillance risks, quoting Sunil Abraham on biometric vulnerabilities, centralised authority, and the citizen-state power imbalance.",
+    "created": "2026-06-17",
+    "date": "2017-04-04",
+    "source": "BuzzFeed",
+    "authors": [
+      "Pranav Dixit"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/indias-national-id-program-may-be-turning-the-country-into-a-surveillance-state-buzzfeed/"
+  },
+  {
+    "title": "India's Database with Biometric Details of Its Billion Citizens Ignites Privacy Debate",
+    "description": "A Mashable India report by Manish Singh on India Stack's privacy risks, with Sunil Abraham warning that Aadhaar is remote, covert, and non-consensual, and lacks basic cryptographic safeguards.",
+    "created": "2026-06-17",
+    "date": "2017-02-14",
+    "source": "Mashable India",
+    "authors": [
+      "Manish Singh"
+    ],
+    "categories": [
+      "Media mentions"
+    ],
+    "permalink": "https://sunilabraham.in/media/indias-database-with-biometric-details-of-its-billion-citizens-ignites-privacy-debate-mashable/"
+  },
+  {
     "title": "Page ID System (Documentation)",
     "description": "Documentation for the Page ID system used on The Sunil Abraham Project (TSAP), including its purpose, design principles, implementation methodology, maintenance workflow, and future development.",
     "created": "2026-06-16",
@@ -914,7 +1643,8 @@
       "Nicolas Fennen"
     ],
     "categories": [
-      "Media mentions"
+      "Media mentions",
+      "Non-English language content"
     ],
     "permalink": "https://sunilabraham.in/media/india-government-ban-us-email-providers/"
   },
@@ -1098,7 +1828,7 @@
     "description": "Hindu Business Line report on the government's consideration of a privacy advisory concerning Google and Facebook, with comments from Sunil Abraham.",
     "created": "2026-05-19",
     "date": "2013-06-10",
-    "source": "Hindu Business Line",
+    "source": "The Hindu Business Line",
     "authors": [
       "Thomas K Thomas"
     ],
@@ -2588,7 +3318,8 @@
       "anarki"
     ],
     "categories": [
-      "Media mentions"
+      "Media mentions",
+      "Non-English language content"
     ],
     "permalink": "https://sunilabraham.in/media/internet-szabadon-index-hu/"
   },
@@ -2890,7 +3621,8 @@
     ],
     "categories": [
       "Interviews",
-      "Media mentions"
+      "Media mentions",
+      "Non-English language content"
     ],
     "permalink": "https://sunilabraham.in/media/sarkozy-eg8-internet-freedom-lemagit/"
   },
@@ -2904,7 +3636,8 @@
       "Mohammed Al-Ghanami (محمد الغنامي)"
     ],
     "categories": [
-      "Media mentions"
+      "Media mentions",
+      "Non-English language content"
     ],
     "permalink": "https://sunilabraham.in/media/undp-open-source-software-saudi-arabia-alriyadh/"
   },
@@ -3603,7 +4336,8 @@
       "Yulia Krasilnikova (Юлия Красильникова)"
     ],
     "categories": [
-      "Media mentions"
+      "Media mentions",
+      "Non-English language content"
     ],
     "permalink": "https://sunilabraham.in/media/aadhaar-biometric-surveillance-hightech-fm/"
   },
@@ -5042,7 +5776,8 @@
       "Caroline Nevejan"
     ],
     "categories": [
-      "Media mentions"
+      "Media mentions",
+      "Non-English language content"
     ],
     "permalink": "https://sunilabraham.in/articles/stad-in-het-vizier-caroline-nevejan-uva-2025/"
   },
@@ -6254,7 +6989,6 @@
     "source": null,
     "authors": null,
     "categories": [
-      "Project pages",
       "Versions"
     ],
     "permalink": "https://sunilabraham.in/versions/1/"
@@ -7585,6 +8319,7 @@
     "categories": [
       "Ideas and Opinions",
       "Resources",
+      "Sunil Abraham",
       "TSAP Originals"
     ],
     "permalink": "https://sunilabraham.in/articles/surveillance-is-like-salt-in-cooking/"
@@ -7743,7 +8478,7 @@
     "permalink": "https://sunilabraham.in/media/privacy-fundamental-right-governance-now/"
   },
   {
-    "title": "Huge concerns",
+    "title": "Huge Concerns",
     "description": "A Frontline cover story examining the Aadhaar biometric identification system's security vulnerabilities, privacy implications, and potential for data breaches, featuring analysis from CIS researchers on biometric authentication risks.",
     "created": "2026-01-22",
     "date": "2017-04-12",
@@ -13952,7 +14687,7 @@
     "permalink": "https://sunilabraham.in/publications/surveillance-project/"
   },
   {
-    "title": "Fixing Aadhaar: Security developers' task is to trim chances of data breach",
+    "title": "Fixing Aadhaar: Security Developers' Task Is to Trim Chances of Data Breach",
     "description": "An opinion column by Sunil Abraham on Aadhaar security design, highlighting the need for tokenisation and multiple identity systems to prevent nationwide data breaches.",
     "created": "2025-11-06",
     "date": "2018-01-10",
