@@ -398,7 +398,7 @@ pre {
 }
 
 /* =========================================================
-   Reduced Motion Support
+   Reduced Motion Support Option
    ========================================================= */
 @media (prefers-reduced-motion: reduce) {
   html {
