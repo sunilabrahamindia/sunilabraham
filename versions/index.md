@@ -38,6 +38,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 23. [Version 1.9.1](#version-191)
 24. [Version 2.0](#version-20)
 25. [Version 2.1](#version-21)
+26. [Version 2.1.1](#version-211)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
