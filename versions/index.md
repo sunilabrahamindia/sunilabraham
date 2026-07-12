@@ -778,3 +778,23 @@ Between 17 June and 27 June 2026, 29 new pages were published.
 
 **Status** ✅ Done  
 Completion date: 27 June 2026
+
+## Version 2.1.1
+
+Between 28 June and 4 July 2026, 14 new pages were published.
+
+**Dark Mode**
+- Continued the systematic rollout of the TSAP dark mode architecture, making substantial progress across the site.
+- Following the transition to a centralised CSS custom properties framework, major layout improvements were completed for the Artificial Intelligence index, the A. M. A. Ayrookuzhiel portal, the Timeline biography, and the Query lookup tool.
+- Experimental dark mode has now been enabled site-wide. It follows the user's device preference and may also be toggled manually using the Alt + Shift + D keyboard shortcut.
+- Development and ongoing refinements are tracked in [Issue #8](https://github.com/sunilabrahamindia/sunilabraham/issues/8).
+
+**TSAP Incidents**
+- Published [Git Repository Storage Inflation Incident (1 July 2026)](/tsap/git-repository-storage-inflation/).
+- Published [Git Repository Corruption Recovery (1 July 2026)](/tsap/git-repository-corruption-recovery/).
+
+**Centre for Internet and Society**
+- On 4 July 2026, marking the 18th anniversary of the Centre for Internet and Society, published [Centre for Internet and Society: 18th Anniversary](/cis/18/).
+
+**Status** ✅ Done  
+Completion date: 4 July 2026
