@@ -1,0 +1,215 @@
+<nav class="navbox-versions" aria-label="Versions navigation">
+  <div class="navbox-versions__inner">
+
+    <div class="navbox-versions__title">
+      <a href="/versions/">Versions</a>
+      <span class="navbox-versions__viewlink">[<a href="/versions/">View</a>]</span>
+    </div>
+
+    <div class="navbox-versions__body">
+
+      <div class="navbox-versions__row">
+        <span class="navbox-versions__label">Overview</span>
+        <span class="navbox-versions__items">
+          {% if page.url == "/versions/" %}
+            <strong>Versions</strong>
+          {% else %}
+            <a href="/versions/">Versions</a>
+          {% endif %}
+        </span>
+      </div>
+
+      <div class="navbox-versions__row">
+        <span class="navbox-versions__label">Archives</span>
+        <span class="navbox-versions__items">
+          {% if page.url == "/versions/1/" %}
+            <strong>Version 1 Archive</strong>
+          {% else %}
+            <a href="/versions/1/">Version 1 Archive</a>
+          {% endif %}
+          &middot;
+          {% if page.url == "/versions/2/" %}
+            <strong>Version 2 Archive</strong>
+          {% else %}
+            <a href="/versions/2/">Version 2 Archive</a>
+          {% endif %}
+        </span>
+      </div>
+
+      <div class="navbox-versions__row">
+        <span class="navbox-versions__label">Lookbacks</span>
+        <span class="navbox-versions__items">
+          {% if page.url == "/versions/1.0/" %}
+            <strong>Version 1.0 Lookback</strong>
+          {% else %}
+            <a href="/versions/1.0/">Version 1.0 Lookback</a>
+          {% endif %}
+          &middot;
+          {% if page.url == "/versions/2.0/" %}
+            <strong>Version 2.0 Lookback</strong>
+          {% else %}
+            <a href="/versions/2.0/">Version 2.0 Lookback</a>
+          {% endif %}
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</nav>
+
+<style>
+.navbox-versions {
+  border: 1px solid #d6dbe3;
+  background: #f9fbff;
+  border-radius: .5rem;
+  margin: 2rem 0 1rem;
+  font-size: .9rem;
+  line-height: 1.5;
+  transition: box-shadow .25s ease, transform .2s ease;
+}
+
+.navbox-versions:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  transform: translateY(-1px);
+}
+
+.navbox-versions__title {
+  background: #eef4fb;
+  border-top: 3px solid #3a7bd5;
+  border-bottom: 1px solid #d6dbe3;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: .5rem 2.2rem .5rem 1rem;
+  position: relative;
+}
+
+.navbox-versions__viewlink {
+  position: absolute;
+  right: .6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: .75rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.navbox-versions a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.navbox-versions a:hover {
+  color: #3a7bd5;
+  text-decoration: underline;
+}
+
+.navbox-versions a:visited {
+  color: #0b0080;
+}
+
+.navbox-versions a:focus-visible {
+  outline: 2px solid #3a7bd5;
+  outline-offset: 2px;
+}
+
+.navbox-versions__body {
+  padding: .75rem 1rem;
+}
+
+.navbox-versions__row {
+  display: flex;
+  gap: .5rem;
+  padding: .45rem 0;
+  border-bottom: 1px solid #e6e9ef;
+  align-items: baseline;
+}
+
+.navbox-versions__row:last-child {
+  border-bottom: none;
+}
+
+.navbox-versions__label {
+  flex: 0 0 120px;
+  font-weight: 600;
+  color: #444;
+  font-size: .875rem;
+}
+
+.navbox-versions__items {
+  flex: 1 1 auto;
+  color: #222;
+}
+
+@media (max-width:600px) {
+
+  .navbox-versions__row {
+    flex-direction: column;
+    gap: .2rem;
+  }
+
+  .navbox-versions__label {
+    flex: none;
+    font-size: .8rem;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .navbox-versions {
+    transition: none;
+  }
+
+}
+
+body.tsap-dark-mode .navbox-versions {
+  background: #243244;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+body.tsap-dark-mode .navbox-versions:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,.35);
+}
+
+body.tsap-dark-mode .navbox-versions__title {
+  background: #1b2636;
+  border-top-color: #60a5fa;
+  border-bottom-color: #374151;
+  color: #f3f4f6;
+}
+
+body.tsap-dark-mode .navbox-versions__viewlink {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .navbox-versions a {
+  color: #93c5fd;
+}
+
+body.tsap-dark-mode .navbox-versions a:hover {
+  color: #bfdbfe;
+}
+
+body.tsap-dark-mode .navbox-versions a:visited {
+  color: #c4b5fd;
+}
+
+body.tsap-dark-mode .navbox-versions a:focus-visible {
+  outline-color: #93c5fd;
+}
+
+body.tsap-dark-mode .navbox-versions__row {
+  border-bottom-color: #374151;
+}
+
+body.tsap-dark-mode .navbox-versions__label {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .navbox-versions__items {
+  color: #e5e7eb;
+}
+</style>

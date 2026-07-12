@@ -67,3 +67,5 @@ Between 28 June and 4 July 2026, 14 new pages were published.
 
 **Status** ✅ Done  
 Completion date: 4 July 2026
+
+{% include versions.html %}
