@@ -223,11 +223,11 @@ The Pages Index was originally created to support retrieval systems and machine-
 
 Current uses include:
 
-- Content discovery.
+- Wayback Machine archiving.
+- Telegram bot development.
 - Metadata retrieval.
 - Project statistics.
-- External tooling.
-- Bot integration.
+- Machine-readable access for external tools.
 
 Future tools may consume the same index without requiring direct access to repository source files.
 
@@ -245,7 +245,7 @@ Advantages:
 
 Limitations:
 
-- Automatic regeneration currently applies only to the official GitHub repository workflow. Users maintaining local copies of the repository may still generate the index manually if required.
+- Automatic regeneration currently applies only to the official GitHub repository workflow. Users maintaining local copies of the repository may still generate the index manually if required. When used with GitHub Pages' "Deploy from branch" publishing model, the automated commit may also result in a cancelled Pages deployment before the final deployment completes successfully. This is a GitHub Pages behaviour rather than a limitation of the generation script itself (see [this issue](https://github.com/sunilabrahamindia/sunilabraham/issues/24))
 - Only pages containing a `created` field are included.
 - Metadata quality depends upon front matter quality.
 
@@ -288,14 +288,4 @@ This established the first structured content index for the project.
 
 Following the Version 2.1 development cycle in July 2026, the Pages Index generation process was automated using GitHub Actions, eliminating the need for routine manual regeneration and publication in the official TSAP repository.
 
-## Lessons Learned
 
-The development of the Pages Index reinforced an important architectural lesson.
-
-The most valuable improvement was not adding another AI model or another search interface.
-
-The most valuable improvement was creating a structured representation of TSAP's own content.
-
-By transforming page metadata into a machine-readable index, TSAP content becomes accessible to future tools, bots, reports, and retrieval systems while remaining entirely within the project's existing static-site architecture.
-
-Future development should continue to favour structured project data and retrieval mechanisms wherever practical.
