@@ -25,6 +25,19 @@
     "permalink": "https://sunilabraham.in/versions/2/"
   },
   {
+    "title": "TSAP Status Monitoring System (Documentation)",
+    "description": "Documentation for the TSAP Status Monitoring System, including its architecture, monitoring workflow, public status dashboard, and development history.",
+    "created": "2026-07-12",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation",
+      "TSAP Tools"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/status-monitoring-system/"
+  },
+  {
     "title": "Dalits and Hindu Religious Identity: Proposed Contents (Working Document)",
     "description": "A transcription of page 74 of the Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document). This page appears to contain the proposed title page and table of contents for the planned volume Dalits and Hindu Religious Identity.",
     "created": "2026-07-11",
@@ -49,19 +62,6 @@
       "Sunil Abraham"
     ],
     "permalink": "https://sunilabraham.in/sunil/speaks/"
-  },
-  {
-    "title": "TSAP Status Monitoring System (Documentation)",
-    "description": "Documentation for the TSAP Status Monitoring System, including its architecture, monitoring workflow, public status dashboard, and development history.",
-    "created": "2026-07-11",
-    "date": null,
-    "source": null,
-    "authors": null,
-    "categories": [
-      "TSAP Documentation",
-      "TSAP Tools"
-    ],
-    "permalink": "https://sunilabraham.in/tsap/status-monitoring-system/"
   },
   {
     "title": "Chapter 2, Methodology (Working Document)",
