@@ -10,7 +10,7 @@ created: 2026-06-08
 
 {% include documentation-notice.html %}
 
-The **Pages Index** is a machine-readable catalogue of content published on The Sunil Abraham Project (TSAP). It is generated automatically from page front matter and exported as a JSON file named `pages.json`.
+The **Pages Index** is a machine-readable catalogue of content published on The Sunil Abraham Project (TSAP). It is generated automatically from page front matter by a Python script and exported as a JSON file named `pages.json`. The official TSAP repository uses GitHub Actions to keep the published index synchronised automatically.
 
 The purpose of the Pages Index is to provide a structured representation of TSAP content that can be consumed by external tools, bots, scripts, search systems, and future applications without requiring direct access to Jekyll internals or repository source files.
 
@@ -88,6 +88,12 @@ scripts/generate_pages_json.py
 
 The script scans Markdown files throughout the repository, extracts selected front matter metadata, and generates a machine-readable JSON index.
 
+## Automation
+
+The official TSAP repository includes a GitHub Actions workflow (`.github/workflows/pages.yml`) that automates maintenance of the Pages Index.
+
+Whenever relevant Markdown content or the generator script changes, the workflow executes `scripts/generate_pages_json.py`. If the generated `pages.json` differs from the repository version, the updated index is committed automatically.
+
 ## Generated File
 
 The output file is:
@@ -157,7 +163,7 @@ No database is required.
 
 No Jekyll plugin is required.
 
-No GitHub Actions workflow is required.
+The official TSAP repository uses a GitHub Actions workflow to automate generation and publication of `pages.json`. The Python script can still be run manually for local development or by anyone maintaining their own copy of the repository.
 
 ## Running the Generator
 
@@ -205,27 +211,11 @@ This demonstrated that a machine-readable index of the entire project could be g
 
 ## Maintenance Workflow
 
-A recommended workflow is:
+The official TSAP repository now maintains the Pages Index automatically.
 
-1. Create, edit, or publish content.
-2. Regenerate pages.json.
-3. Review the result.
-4. Commit the updated index.
-5. Push changes.
+When relevant Markdown content is committed and pushed to the repository, GitHub Actions executes `scripts/generate_pages_json.py`. If the generated `pages.json` differs from the repository version, the updated index is committed automatically.
 
-Typical usage:
-
-```bash
-python3 scripts/generate_pages_json.py
-
-git add pages.json
-
-git commit -m "Update pages index"
-
-git push
-```
-
-This ensures that the published index remains synchronised with site content.
+The generator may still be run manually when developing locally, testing changes, or maintaining a separate copy of the repository.
 
 ## Current Uses
 
@@ -255,8 +245,8 @@ Advantages:
 
 Limitations:
 
-- Requires manual regeneration.
-- Newly created pages will not appear until the index is regenerated.
+- Automatic regeneration currently applies only to the official GitHub repository workflow. Users maintaining local copies of the repository may still generate the index manually if required.
+- Newly created pages will not appear until the automated workflow runs or the generator is executed manually.
 - Only pages containing a `created` field are included.
 - Metadata quality depends upon front matter quality.
 
@@ -266,7 +256,7 @@ These limitations are considered acceptable given the project's emphasis on simp
 
 Potential future enhancements include:
 
-- Automatic generation during deployment.
+- Further refinement of the GitHub Actions workflow, including optimisation of workflow triggers and additional validation before publication.
 - Additional metadata fields.
 - Category-specific exports.
 - Author-specific exports.
@@ -295,7 +285,9 @@ The resulting file was approximately 576 KB in size and was published at:
 https://sunilabraham.in/pages.json
 ```
 
-This established the first structured content index for the project.
+This established the first structured content index for the project. 
+
+Following the Version 2.1 development cycle in July 2026, the Pages Index generation process was automated using GitHub Actions, eliminating the need for routine manual regeneration and publication in the official TSAP repository.
 
 ## Lessons Learned
 
