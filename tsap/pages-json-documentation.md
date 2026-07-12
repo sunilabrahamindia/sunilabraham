@@ -188,7 +188,7 @@ python3 scripts/generate_pages_json.py
 Typical output:
 
 ```text
-Created pages.json with 1048 pages.
+Created pages.json with 1126 pages.
 ```
 
 ## First Successful Build
@@ -246,7 +246,6 @@ Advantages:
 Limitations:
 
 - Automatic regeneration currently applies only to the official GitHub repository workflow. Users maintaining local copies of the repository may still generate the index manually if required.
-- Newly created pages will not appear until the automated workflow runs or the generator is executed manually.
 - Only pages containing a `created` field are included.
 - Metadata quality depends upon front matter quality.
 
