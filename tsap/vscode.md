@@ -386,4 +386,27 @@ Accessibility remains a core TSAP priority.
     padding: 0.45rem 0.6rem;
   }
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .vscode-shortcuts th,
+body.tsap-dark-mode .vscode-shortcuts td {
+  border-color: var(--table-border, #374151) !important;
+}
+
+body.tsap-dark-mode .vscode-shortcuts th {
+  background-color: var(--table-th-bg, #1b2636) !important;
+  color: var(--table-th-text, #f3f4f6) !important;
+}
+
+body.tsap-dark-mode .vscode-shortcuts code {
+  background-color: #1a2232 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .vscode-shortcuts td {
+  color: var(--text-main, #e5e7eb) !important;
+}
 </style>
