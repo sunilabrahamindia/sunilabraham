@@ -340,4 +340,49 @@ article pre, .content pre, main pre {
   max-width: 100%;
 }
 
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .markdown-cheatsheet th,
+body.tsap-dark-mode .markdown-cheatsheet td {
+  border-color: var(--table-border, #374151) !important;
+}
+
+body.tsap-dark-mode .markdown-cheatsheet th {
+  background-color: var(--table-th-bg, #1b2636) !important;
+  color: var(--table-th-text, #f3f4f6) !important;
+}
+
+body.tsap-dark-mode .markdown-cheatsheet code {
+  background-color: #1a2232 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .markdown-cheatsheet tr.section-header td {
+  background-color: #1b2636 !important;
+  color: #93c5fd !important;
+  border-top-color: #4b5563 !important;
+}
+
+/* Overrides for inline raw HTML samples within table preview cells */
+body.tsap-dark-mode .markdown-cheatsheet td blockquote {
+  border-left-color: #4b5563 !important;
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .markdown-cheatsheet td pre {
+  background-color: #1a2232 !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .markdown-cheatsheet td table,
+body.tsap-dark-mode .markdown-cheatsheet td th,
+body.tsap-dark-mode .markdown-cheatsheet td td {
+  border-color: #4b5563 !important;
+}
+
+body.tsap-dark-mode .markdown-cheatsheet td a {
+  color: #93c5fd !important;
+}
 </style>
