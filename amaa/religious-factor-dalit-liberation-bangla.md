@@ -6,6 +6,7 @@ categories: ["A. M. A. Ayrookuzhiel", "Essays on Dalits, Religion and Liberation
 description: "এ. এম. আব্রাহাম আয়রুকুঝিয়েল রচিত দলিত মুক্তি আন্দোলনে ধর্মীয় প্রভাব: কিছু ভাবনা (The Religious Factor in Dalit Liberation: Some Reflections) সম্পর্কে একটি বাংলা প্রবন্ধ"
 language: bangla
 lang: bn
+amaa_cid: 0012
 page_id: TSAP-0971
 created: 2026-05-14
 ---

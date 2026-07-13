@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. Abraham Ayrookuzhiel's essay 'Reli
 permalink: /amaa/religion-spirituality-and-aspirations-of-the-people-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1978
+amaa_cid: 0009
 page_id: TSAP-1047
 created: 2026-06-07
 ---

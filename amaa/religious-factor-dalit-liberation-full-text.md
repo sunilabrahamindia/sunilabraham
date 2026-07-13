@@ -5,6 +5,7 @@ description: "Complete verbatim text of A. M. A. Ayrookuzhiel's essay 'The Relig
 permalink: /amaa/religious-factor-dalit-liberation-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1996
+amaa_cid: 0011
 page_id: TSAP-0923
 created: 2026-04-30
 ---
