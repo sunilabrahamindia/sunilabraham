@@ -1,13 +1,15 @@
 ---
 layout: default
 title: "The Sunil Abraham Project"
-description: "An encyclopaedic overview of the Sunil Abraham Project, a digital publishing and archiving initiative documenting the writings, collaborations, and digital philosophy of Sunil Abraham."
+description: "An encyclopaedic overview of the Sunil Abraham Project, a digital publishing and archiving initiative documenting the writings, projects, collaborations, and digital legacy of Sunil Abraham."
 categories: [Project pages]
 page_id: TSAP-0052
 created: 2025-11-07
 ---
 
-The **Sunil Abraham Project** (abbreviated as **TSAP**) is a digital publishing, documenting, and archiving initiative founded by internet researcher and social entrepreneur [Sunil Abraham](/sunil/) in October 2025. Conceived as both a documentation framework and an experimental space, the project explores the scope of innovation in web-based archiving, accessible design, and content organisation. It was named by Tito Dutta, a former colleague and junior associate of Abraham, whose proposal aligned the title with the project's long-term vision of sustainability and digital continuity.
+The **Sunil Abraham Project** (abbreviated as **TSAP**) is a digital publishing, documentation, and archiving initiative founded by internet researcher and social entrepreneur [Sunil Abraham](/sunil/) in October 2025. Developed as a long-term effort to preserve and present Abraham's writings, talks, interviews, and collaborative work, the project also serves as an experimental platform for web archiving, accessible design, digital preservation, and structured knowledge organisation.
+
+The project emerged from discussions between Sunil Abraham and Tito Dutta, a former colleague, during 2025. Tito Dutta proposed the name "The Sunil Abraham Project", purchased the `sunilabraham.in` domain name, and became the project's founding editor, helping shape its editorial direction and long-term structure. The initiative is built on the Jekyll static site generator, hosted on GitHub Pages, and maintained as a version-controlled public archive with an emphasis on openness, accessibility, and long-term sustainability.
 
 ## Contents
 
@@ -18,12 +20,13 @@ The **Sunil Abraham Project** (abbreviated as **TSAP**) is a digital publishing,
 4. [Timeline](#timeline)
    - [2025](#2025)
    - [2026](#2026)
+5. [Links](#links)
 
 ## History
 
-The idea for the Sunil Abraham Project began to take shape in early 2025 from a need to create a unified digital space for preserving and presenting the diverse range of work produced by Sunil Abraham and his father, A. M. A. Ayrookuzhiel, who was a prominent scholar and theologian. Before the project's establishment, Sunil's writings, policy papers, and media articles were scattered across various institutional and online platforms. The goal was to build a single, sustainable environment where this material could be archived, categorised, and accessed in a consistent format.
+The idea for the Sunil Abraham Project began to take shape in early 2025 in response to the need to create a unified digital space for preserving and presenting the diverse range of work produced by Sunil Abraham and his father, A. M. A. Ayrookuzhiel, who was a prominent scholar and theologian. Before the project's establishment, Sunil's writings, policy papers, and media articles were scattered across various institutional and online platforms. The goal was to build a single, sustainable environment where this material could be archived, categorised, and accessed in a consistent format.
 
-Throughout early and mid-2025, a number of informal discussions were held on how best to structure and preserve this work. Several potential names for the project were considered during this stage. Sunil suggested options such as AbrahamAyrookuzhiel.org and AMAAyrookuzhiel.org, while a few theme-based titles were also explored. Tito Dutta, a former colleague and junior associate, took part in these planning discussions and helped shape the project's conceptual direction. The domain name sunilabraham.in was purchased from BigRock on 27 September 2025, Mahapanchami, on the eve of Durga Puja.
+Throughout early and mid-2025, a number of informal discussions were held on how best to structure and preserve this work. Several potential names for the project were considered during this stage. Sunil suggested options such as `AbrahamAyrookuzhiel.org` and `AMAAyrookuzhiel.org`, while a few theme-based titles were also explored. Tito Dutta, a former colleague, took part in these planning discussions and helped shape the project's conceptual direction. Tito Dutta purchased the `sunilabraham.in` domain name from BigRock on 27 September 2025, Mahapanchami, on the eve of Durga Puja.
 
 The project gained momentum following a series of detailed WhatsApp exchanges between Sunil Abraham and Tito Dutta during the Durga Puja and Navratri period in September 2025. The site's name was proposed by Tito Dutta. During the planning discussions, he suggested a title that reflected the project's long-term vision and its commitment to sustainable, independent publishing. His proposal emphasised continuity and identity, aligning the name with the project's broader purpose of enduring digital documentation.
 
@@ -80,5 +83,10 @@ The full text of these principles is recorded in [TSAP Foundational Principles](
 - 7 May 2026 (Thursday) — 950 published articles with the publication of [*Fifth Anniversary of the Centre for Internet and Society*](/cis/fifth-anniversary/).
 - 21 May 2026 (Thursday) — TSAP reached 1000 published articles with the publication of [*Sunil Abraham on Aaron Swartz*](/sunil/aaron-swartz/).
 - 17 June 2026 (Wednesday) — Version 2.0 of the Sunil Abraham Project was released, marking the completion of a major phase of expansion and development. For an overview of this cycle, see the [Version 2.0 Lookback](/versions/2.0/).
-- 28 June 2026 (Sunday), 1000th page [Frederick](/frederick/) was published.
+- 28 June 2026 (Sunday), 1100th page [Frederick](/frederick/) was published.
 
+## Links
+
+- [Sunil Abraham](https://sunilabraham.in/) (Official website)
+- [GitHub Pages (fallback)](https://sunilabrahamindia.github.io/sunilabraham/)
+- [Cloudflare Pages mirror](https://sunilabraham.pages.dev/)
