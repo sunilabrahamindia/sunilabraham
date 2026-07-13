@@ -9,24 +9,6 @@ This sandbox is a workspace to map and track the progress of the literary works 
 
 ## Essays
 
-<style>
-.amaa-table { width:100%; border-collapse:collapse; font-size:0.92rem; line-height:1.5; }
-.amaa-table th { padding:0.5rem 0.75rem; background:#f3f0ec; border-bottom:2px solid #dcd9d5; text-align:left; font-weight:600; }
-.amaa-table td { padding:0.5rem 0.75rem; border-bottom:1px solid #dcd9d5; vertical-align:top; }
-.amaa-table td.title { word-wrap:break-word; white-space:normal; max-width:340px; }
-.amaa-table td.edrl { text-align:center; white-space:nowrap; width:3rem; }
-.amaa-table td.edrl.y { background:#d4efdc; color:#276039; font-weight:600; }
-.amaa-table td.edrl.n { background:#fadadd; color:#922b21; font-weight:600; }
-.amaa-table td.tsap { white-space:nowrap; width:6rem; }
-.amaa-table tr:nth-child(even) { background:#f9f8f5; }
-@media (min-width:768px) {
-  .amaa-table td.title { max-width:none; width:75%; }
-}
-.amaa-tally { display:flex; flex-wrap:wrap; gap:0.6rem; margin-bottom:1rem; font-size:0.88rem; }
-.amaa-tally-item { padding:0.35rem 0.75rem; border-radius:999px; background:#f3f0ec; border:1px solid #dcd9d5; color:#28251d; white-space:nowrap; }
-.amaa-tally-item span { font-weight:700; margin-left:0.25rem; }
-</style>
-
 <div class="amaa-tally" id="amaa-tally"></div>
 
 <table class="amaa-table" id="amaa-essays">
@@ -172,6 +154,140 @@ This approach preserves transparency and ensures that readers can distinguish be
 - [Attempts to Create a Counter-Culture](/amaa/swami-anand-thirth-attempts-create-counter-culture/), 1. Ref 14 corrected to year 1934 to align with content text 2. Otayamadam spelling (near footnote 10) fixed as per 1978's edition
 
 {% include navbox-amaa.html %}
+
+<style>
+.amaa-table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  font-size: 0.92rem; 
+  line-height: 1.5; 
+}
+
+.amaa-table th { 
+  padding: 0.5rem 0.75rem; 
+  background: #f3f0ec; 
+  border-bottom: 2px solid #dcd9d5; 
+  text-align: left; 
+  font-weight: 600; 
+}
+
+.amaa-table td { 
+  padding: 0.5rem 0.75rem; 
+  border-bottom: 1px solid #dcd9d5; 
+  vertical-align: top; 
+}
+
+.amaa-table td.title { 
+  word-wrap: break-word; 
+  white-space: normal; 
+  max-width: 340px; 
+}
+
+.amaa-table td.edrl { 
+  text-align: center; 
+  white-space: nowrap; 
+  width: 3rem; 
+}
+
+.amaa-table td.edrl.y { 
+  background: #d4efdc; 
+  color: #276039; 
+  font-weight: 600; 
+}
+
+.amaa-table td.edrl.n { 
+  background: #fadadd; 
+  color: #922b21; 
+  font-weight: 600; 
+}
+
+.amaa-table td.tsap { 
+  white-space: nowrap; 
+  width: 6rem; 
+}
+
+.amaa-table tr:nth-child(even) { 
+  background: #f9f8f5; 
+}
+
+@media (min-width: 768px) {
+  .amaa-table td.title { 
+    max-width: none; 
+    width: 75%; 
+  }
+}
+
+.amaa-tally { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 0.6rem; 
+  margin-bottom: 1rem; 
+  font-size: 0.88rem; 
+}
+
+.amaa-tally-item { 
+  padding: 0.35rem 0.75rem; 
+  border-radius: 999px; 
+  background: #f3f0ec; 
+  border: 1px solid #dcd9d5; 
+  color: #28251d; 
+  white-space: nowrap; 
+}
+
+.amaa-tally-item span { 
+  font-weight: 700; 
+  margin-left: 0.25rem; 
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .amaa-table th {
+  background-color: var(--table-th-bg, #282e38) !important;
+  border-bottom-color: var(--table-border, #3d4654) !important;
+  color: var(--text-main, #e5e7eb) !important;
+}
+
+body.tsap-dark-mode .amaa-table td {
+  border-bottom-color: var(--table-border, #3d4654) !important;
+  color: var(--text-main, #e5e7eb) !important;
+}
+
+body.tsap-dark-mode .amaa-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+body.tsap-dark-mode .amaa-table td.tsap a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .amaa-table td.tsap a:hover {
+  color: #7dd3fc !important;
+}
+
+/* Status Cell Contrast Stabilization */
+body.tsap-dark-mode .amaa-table td.edrl.y {
+  background: #14532d !important;
+  color: #4ade80 !important;
+}
+
+body.tsap-dark-mode .amaa-table td.edrl.n {
+  background: #7f1d1d !important;
+  color: #fca5a5 !important;
+}
+
+/* Dashboard Badge Row Updates */
+body.tsap-dark-mode .amaa-tally-item {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .amaa-tally-item span {
+  color: #38bdf8 !important;
+}
+</style>
 
 <script>
 (function(){
