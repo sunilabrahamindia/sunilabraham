@@ -13,6 +13,29 @@
     "permalink": "https://sunilabraham.in/amaa/storytelling/"
   },
   {
+    "title": "Category:TSAP Tools",
+    "description": "Documentation relating to software tools, utilities, monitoring systems, automation scripts, and technical infrastructure developed or maintained as part of The Sunil Abraham Project (TSAP).",
+    "created": "2026-07-13",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": null,
+    "permalink": null
+  },
+  {
+    "title": "TSAP Domain Expiry Monitor (Documentation)",
+    "description": "Documentation for the TSAP Domain Expiry Monitor, including its architecture, monitoring workflow, renewal detection, and automated reminder system.",
+    "created": "2026-07-13",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation",
+      "TSAP Tools"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/domain-expiry-monitor/"
+  },
+  {
     "title": "Template:Versions",
     "description": "Navigational template linking the main Versions page, archive pages, and version lookback reports on The Sunil Abraham Project.",
     "created": "2026-07-12",
