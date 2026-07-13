@@ -148,7 +148,6 @@ The following pages form the documentation corpus of The Sunil Abraham Project (
 }
 
 @media (max-width: 768px) {
-
   .doc-controls {
     flex-direction: column;
     align-items: stretch;
@@ -163,34 +162,39 @@ The following pages form the documentation corpus of The Sunil Abraham Project (
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
 
-  .doc-count {
-    color: #cccccc;
-  }
+body.tsap-dark-mode .doc-count {
+  color: var(--text-muted, #cbd5e1) !important;
+}
 
-  .doc-controls select {
-    background: #222;
-    color: #f0f0f0;
-    border-color: #666;
-  }
+body.tsap-dark-mode .doc-controls select {
+  background-color: #1e293b !important;
+  color: #f3f4f6 !important;
+  border-color: #4b5563 !important;
+}
 
-  .doc-card {
-    background: #1f2630;
-    border-left-color: #5b9cff;
-  }
+body.tsap-dark-mode .doc-card {
+  background-color: #1e293b !important;
+  border-left-color: #38bdf8 !important;
+}
 
-  .doc-card-title a {
-    color: #9ec5ff;
-  }
+body.tsap-dark-mode .doc-card-title a {
+  color: #38bdf8 !important;
+}
 
-  .doc-card-description {
-    color: #dddddd;
-  }
+body.tsap-dark-mode .doc-card-title a:hover {
+  color: #7dd3fc !important;
+}
 
-  .doc-card-meta {
-    color: #bbbbbb;
-  }
+body.tsap-dark-mode .doc-card-description {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .doc-card-meta {
+  color: #94a3b8 !important;
 }
 </style>
 
