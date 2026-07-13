@@ -153,23 +153,42 @@ TSAP shall remain the parent project for all associated initiatives and future d
   color: #666;
 }
 
-@media (prefers-color-scheme: dark) {
-  .tsap-charter-toc {
-    border-color: #555;
-  }
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
 
-  .tsap-charter h2 {
-    border-bottom-color: #666;
-  }
-
-  .tsap-provision {
-    border-left-color: #999;
-  }
+body.tsap-dark-mode .tsap-charter-label {
+  color: var(--text-muted, #94a3b8) !important;
 }
-  @media (prefers-color-scheme: dark) {
-  .tsap-charter-label,
-  .tsap-draft-notice {
-    color: #bbb;
-  }
+
+body.tsap-dark-mode .tsap-charter-rule {
+  border-top-color: var(--border-main, #4b5563) !important;
+}
+
+body.tsap-dark-mode .tsap-charter-toc {
+  border-color: var(--border-main, #374151) !important;
+  background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+body.tsap-dark-mode .tsap-charter h2 {
+  border-bottom-color: var(--border-main, #4b5563) !important;
+}
+
+body.tsap-charter-toc a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .tsap-charter-preamble {
+  border-left-color: #4b5563 !important;
+}
+
+body.tsap-dark-mode .tsap-provision {
+  border-left-color: #38bdf8 !important;
+  color: var(--text-main, #e5e7eb) !important;
+}
+
+body.tsap-dark-mode .tsap-draft-notice {
+  border-top-color: var(--border-main, #374151) !important;
+  color: var(--text-muted, #94a3b8) !important;
 }
 </style>
