@@ -17,8 +17,6 @@ The tool serves several purposes. It helps readers discover related content, ass
 
 The tool forms part of a broader effort to create Wikipedia-inspired navigation and maintenance utilities for TSAP. As the site has expanded to include thousands of pages across articles, publications, media reports, portals, events, photographs, and documentation pages, understanding how content is interconnected has become increasingly important. The What Links Here tool provides a practical way to explore those relationships while supporting ongoing editorial and maintenance work.
 
-The implementation was developed with support from ChatGPT and Claude. All design decisions, testing, editorial judgement, and final implementation choices were made by the project maintainer.
-
 ## Background
 
 As The Sunil Abraham Project grew, manually determining which pages linked to a particular article or publication became increasingly difficult. Internal links existed across a wide range of content types, including articles, publications, media reports, events, portals, and documentation pages. While the links themselves were valuable, there was no easy way to view them from the perspective of the destination page.

@@ -14,8 +14,6 @@ The **Broken Links Checker** is a maintenance and quality-assurance tool used by
 
 The Broken Links Checker automates this process by comparing links found within the repository against the URLs currently published on the live website. Rather than attempting to reconstruct Jekyll's URL-generation logic from source files, the checker uses the site's live sitemap as the authoritative source of truth. This design decision dramatically reduces false positives and ensures that the checker validates links against what visitors can actually access rather than what the repository appears to contain.
 
-The implementation was developed with support from ChatGPT. All design decisions, testing, debugging, editorial judgement, and final implementation choices were made by the project maintainer.
-
 ## Background
 
 The need for a broken-link detection system emerged naturally as TSAP expanded. The project contains articles, publications, media mentions, events, biographies, documentation, research materials, and a growing collection of specialised project pages. Internal linking plays an important role throughout the site because it helps readers navigate between related content and improves discoverability.

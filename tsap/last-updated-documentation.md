@@ -16,8 +16,6 @@ The feature was developed to complement the site's existing page creation date s
 
 The Automatic Last Updated Dates system solves this problem by using Git as the authoritative source of modification history. Rather than storing update dates inside page front matter, a Python script generates a structured YAML data file from repository history. This file is then consumed by the site's Page Data component, allowing modification dates to be displayed automatically.
 
-The implementation was developed with support from ChatGPT. All design decisions, testing, editorial judgement, and final implementation choices were made by the project maintainer.
-
 ## Background
 
 The question of how to display page modification dates emerged naturally as TSAP expanded. The project already maintained creation dates, but many pages continued to evolve after publication. Articles were corrected, metadata improved, accessibility issues fixed, internal links updated, photographs added, and supplementary material incorporated over time.

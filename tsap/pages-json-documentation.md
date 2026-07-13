@@ -14,8 +14,6 @@ The **Pages Index** is a machine-readable catalogue of content published on The 
 
 The purpose of the Pages Index is to provide a structured representation of TSAP content that can be consumed by external tools, bots, scripts, search systems, and future applications without requiring direct access to Jekyll internals or repository source files.
 
-The implementation was developed with support from ChatGPT. All design decisions, testing, debugging, editorial judgement, and final implementation choices were made by the project maintainer.
-
 ## Background
 
 As TSAP grew beyond one thousand pages, it became increasingly desirable to expose a structured list of published content.

@@ -16,8 +16,6 @@ The system was introduced on 16 June 2026, when permanent identifiers were assig
 
 Page IDs are not intended to replace page titles or permalinks. Instead, they function as accession numbers within the archive, providing a permanent identifier for each eligible page.
 
-The implementation was developed with support from ChatGPT. All design decisions, testing, editorial judgement, and final implementation choices were made by the project maintainer.
-
 ## Background
 
 As TSAP expanded beyond one thousand pages, the project increasingly began to resemble a structured digital archive rather than a conventional website. Existing metadata systems already included page titles, categories, authorship information, creation dates, and stable permalinks. However, no permanent identifier existed that could uniquely reference a page independently of its title or URL.
