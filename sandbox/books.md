@@ -2,7 +2,6 @@
 layout: default
 title: "Books"
 description: "Create printable collections and reading packets from pages across The Sunil Abraham Project."
-categories: [TSAP Tools]
 permalink: /sandbox/books/
 ---
 
