@@ -16,7 +16,7 @@ The **"Bulletins" page** documents the planning, progress, and activities relate
 2. [Bulletin 2](#bulletin-2)
 3. [Bulletin 3](#bulletin-3)
 
-## Bulletin 1
+## Bulletin 1 {#bulletin-1}
 
 🗓️ **Date:** Wednesday, 15 April 2026
 
@@ -37,7 +37,7 @@ Please add this date to your calendar and let us know if you are interested in a
 
 This concludes the first bulletin in this series. The second bulletin will be published on Friday, 15 May 2026.
 
-## Bulletin 2
+## Bulletin 2 {#bulletin-2}
 
 🗓️ **Date:** Friday, 15 May 2026
 
@@ -63,7 +63,7 @@ Over the last one month, much of the work related to the 30th death anniversary 
 
 **Bangla Article:** Work also began during this period on [*দলিত মুক্তি আন্দোলনে ধর্মীয় প্রভাব: কিছু ভাবনা*](/amaa/religious-factor-dalit-liberation-bangla/), a Bangla article based on [*The Religious Factor in Dalit Liberation: Some Reflections*](/amaa/religious-factor-dalit-liberation/). The effort forms part of a broader attempt to make the writings and ideas of A. M. A. Ayrookuzhiel accessible to a wider readership beyond English-language audiences.
 
-## Bulletin 3
+## Bulletin 3 {#bulletin-3}
 
 🗓️ **Date:** Monday, 15 June 2026
 
