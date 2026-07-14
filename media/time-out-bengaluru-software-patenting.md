@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Time Out Bengaluru — Software Patenting"
+title: "Software Patenting"
 description: "A Time Out Bengaluru article on software patenting, published as a precursor to a public meeting in Bangalore, citing Sunil Abraham on the risks patenting poses to small entrepreneurs and innovation."
 categories: [Media mentions]
 date: 2013-01-16
@@ -10,7 +10,7 @@ permalink: /media/time-out-bengaluru-software-patenting/
 created: 2026-07-14
 ---
 
-**"Time Out Bengaluru — Software Patenting"** is a *Time Out Bengaluru* article published on 16 January 2013, written by Akhila Seetharaman. The piece was published as a precursor to the national public meeting on software patents held in Bangalore, and it highlights concerns that software patenting could stifle innovation and burden smaller developers. It quotes [Sunil Abraham](/sunil/) on why defensive patents can still be scary for a small-time entrepreneur and why patenting software ideas is risky for innovation.
+**"Software Patenting"** is a *Time Out Bengaluru* article published on 16 January 2013, written by Akhila Seetharaman. The piece was published as a precursor to the national public meeting on software patents held in Bangalore, and it highlights concerns that software patenting could stifle innovation and burden smaller developers. It quotes [Sunil Abraham](/sunil/) on why defensive patents can still be scary for a small-time entrepreneur and why patenting software ideas is risky for innovation.
 
 ## Contents
 
