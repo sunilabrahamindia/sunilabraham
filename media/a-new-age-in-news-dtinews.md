@@ -30,8 +30,8 @@ homepage_featured: true
   <dt>📄 Type:</dt>
   <dd>Conference report</dd>
 
-  <dt>🔗 Availability:</dt>
-  <dd>Original URL no longer available online; preserved via CIS news mirror.</dd>
+  <dt>🔗 Article Link:</dt>
+  <dd>Not available online</dd>
 </dl>
 
 ## Full Text
