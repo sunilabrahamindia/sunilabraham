@@ -32,6 +32,9 @@ created: 2026-07-14
 
   <dt>📄 Type:</dt>
   <dd>News article</dd>
+
+  <dt>🔗 Article Link:</dt>
+  <dd>Not available online</dd>
 </dl>
 
 ## Full Text
