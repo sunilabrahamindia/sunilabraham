@@ -591,7 +591,7 @@ body.tsap-dark-mode .bulletin-image-gallery figcaption {
 
 body.tsap-dark-mode .bulletin-image-gallery img {
   border-color: var(--border-main, #4b5563) !important;
-  background-color: #ffffff !important; /* Retained white canvas for contained asset assets */
+  background-color: #ffffff !important;
 }
 
 body.tsap-dark-mode .amaa-chart {
@@ -639,7 +639,7 @@ body.tsap-dark-mode .amaa-chart-track {
       transparent 50.3%,
       transparent 74.7%,
       #4b5563 75%,
-      transparent 75.3% /* Restored target percentage identifier token safely */
+      transparent 75.3%
     ),
     #0f172a !important;
 }
