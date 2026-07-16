@@ -33,5 +33,5 @@ Each entry should indicate whether that was featured in the website footer, on a
 
 - 21 June 2026: 🌧️ [**Meghadutam**](/meghadutam/), a monsoon special content enrichment event, began on 20 June 2026 and will continue throughout the monsoon season.
 - 18 June 2026: 🚀 Version 2.0 is now live. Please read the [**Lookback post**](/versions/2.0/). *(✅ Featured in: Website footer)*
-- The Project's [**Telegram channel**](https://t.me/sunilabrahamproject) is now open. Please follow for regular updates. *(✅ Featured in: Website footer)*
+- The Project's [**Telegram channel**](https://t.me/sunilabraham) is now open. Please follow for regular updates. *(✅ Featured in: Website footer)*
 - Try our new [**Query**](/query/) tool to discover publications and media mentions using metadata filters. *(✅ Featured in: Website footer)*
