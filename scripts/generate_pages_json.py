@@ -7,8 +7,9 @@ SITE_URL = "https://sunilabraham.in"
 pages = []
 
 for root, dirs, files in os.walk("."):
-    if ".git" in root:
-        continue
+    # Ensure deterministic directory traversal and exclude .git
+    dirs[:] = sorted(d for d in dirs if d != ".git")
+    files.sort()
 
     for file in files:
         if not file.endswith((".md", ".markdown")):
@@ -68,8 +69,14 @@ for root, dirs, files in os.walk("."):
         except Exception as e:
             print(f"Skipping {path}: {e}")
 
+# Sort deterministically by creation date and permalink.
+# This prevents pages with the same created date from changing order
+# between generator runs.
 pages.sort(
-    key=lambda x: x.get("created") or "",
+    key=lambda x: (
+        x.get("created") or "",
+        x.get("permalink") or ""
+    ),
     reverse=True
 )
 
