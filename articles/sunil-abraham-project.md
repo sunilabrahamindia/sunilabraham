@@ -92,6 +92,8 @@ On 12 June 2026, we started a Telegram channel with the permalink `t.me/sunilabr
 
 The channel provides periodic updates on new articles, publications, original works, and archival material added to the Project, including work relating to A. M. A. Ayrookuzhiel and Sunil Abraham, as well as broader subjects such as internet policy, internet governance, digital technology, and society.
 
+On 16 July 2026, we also established an official LinkedIn Page for the Project at [https://www.linkedin.com/company/sunilabraham](https://www.linkedin.com/company/sunilabraham). The Page provides a professional presence for the Project on LinkedIn and another channel through which its research, innovation, documentation, and related activities can be shared.
+
 ## Links
 
 - [Sunil Abraham](https://sunilabraham.in/) (Official website)
