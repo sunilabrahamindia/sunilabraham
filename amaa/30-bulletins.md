@@ -274,7 +274,7 @@ Between 15 June and 15 July 2026, the following work was undertaken:
 {% include navbox-amaa.html %}
 
 <style>
-  .bulletin-image-gallery {
+.bulletin-image-gallery {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -305,16 +305,6 @@ Between 15 June and 15 July 2026, the following work was undertaken:
   font-size: 0.9rem;
   line-height: 1.45;
   color: #444;
-}
-
-@media (prefers-color-scheme: dark) {
-  .bulletin-image-gallery figcaption {
-    color: #ddd;
-  }
-
-  .bulletin-image-gallery img {
-    border-color: #888;
-  }
 }
 
 @media (max-width: 600px) {
@@ -531,84 +521,6 @@ Between 15 June and 15 July 2026, the following work was undertaken:
   line-height: 1.55;
 }
 
-@media (prefers-color-scheme: dark) {
-  .amaa-chart {
-    background: #202124;
-    border-color: #5f6368;
-    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.35);
-  }
-
-  .amaa-chart-header {
-    border-bottom-color: #5f6368;
-  }
-
-  .amaa-chart-header h3,
-  .amaa-chart-label strong {
-    color: #f1f3f4;
-  }
-
-  .amaa-chart-header p,
-  .amaa-chart-label span {
-    color: #bdc1c6;
-  }
-
-  .amaa-chart-total {
-    background: #263d5f;
-    border-color: #5d8fd8;
-  }
-
-  .amaa-chart-total strong {
-    color: #aecbfa;
-  }
-
-  .amaa-chart-total span {
-    color: #e8eaed;
-  }
-
-  .amaa-chart-track {
-    background:
-      linear-gradient(
-        to right,
-        transparent 24.7%,
-        #5f6368 25%,
-        transparent 25.3%,
-        transparent 49.7%,
-        #5f6368 50%,
-        transparent 50.3%,
-        transparent 74.7%,
-        #5f6368 75%,
-        transparent 75.3%
-      ),
-      #303134;
-  }
-
-  .amaa-chart-bar {
-    background: linear-gradient(90deg, #5b8fd9, #8ab4f8);
-  }
-
-  .amaa-chart-value {
-    color: #111;
-  }
-
-  .amaa-chart-caption {
-    color: #d6d9dd;
-    border-top-color: #5f6368;
-  }
-
-  .amaa-chart-tooltip {
-    background: #f1f3f4;
-    color: #202124;
-  }
-
-  .amaa-chart-tooltip::after {
-    border-top-color: #f1f3f4;
-  }
-
-  .amaa-chart-bar:focus-visible {
-    outline-color: #fff;
-  }
-}
-
 @media (max-width: 600px) {
   .amaa-chart {
     padding: 1rem;
@@ -668,4 +580,99 @@ Between 15 June and 15 July 2026, the following work was undertaken:
     transition: none;
   }
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .bulletin-image-gallery figcaption {
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .bulletin-image-gallery img {
+  border-color: var(--border-main, #4b5563) !important;
+  background-color: #ffffff !important; /* Retained white canvas for contained asset assets */
+}
+
+body.tsap-dark-mode .amaa-chart {
+  background-color: #1e293b !important;
+  border-color: var(--border-main, #374151) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.tsap-dark-mode .amaa-chart-header {
+  border-bottom-color: var(--border-main, #4b5563) !important;
+}
+
+body.tsap-dark-mode .amaa-chart-header h3,
+body.tsap-dark-mode .amaa-chart-label strong {
+  color: var(--text-main, #f3f4f6) !important;
+}
+
+body.tsap-dark-mode .amaa-chart-header p,
+body.tsap-dark-mode .amaa-chart-label span {
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .amaa-chart-total {
+  background-color: #1e3a8a !important;
+  border-color: #3b82f6 !important;
+}
+
+body.tsap-dark-mode .amaa-chart-total strong {
+  color: #93c5fd !important;
+}
+
+body.tsap-dark-mode .amaa-chart-total span {
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .amaa-chart-track {
+  background:
+    linear-gradient(
+      to right,
+      transparent 24.7%,
+      #4b5563 25%,
+      transparent 25.3%,
+      transparent 49.7%,
+      #4b5563 50%,
+      transparent 50.3%,
+      transparent 74.7%,
+      #4b5563 75%,
+      transparent 75.3% /* Restored target percentage identifier token safely */
+    ),
+    #0f172a !important;
+}
+
+body.tsap-dark-mode .amaa-chart-bar {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa) !important;
+}
+
+body.tsap-dark-mode .amaa-chart-value {
+  color: #0f172a !important;
+}
+
+body.tsap-dark-mode .amaa-chart-bar:hover,
+body.tsap-dark-mode .amaa-chart-bar:focus-visible {
+  box-shadow: 0 5px 12px rgba(59, 130, 246, 0.4) !important;
+}
+
+body.tsap-dark-mode .amaa-chart-caption {
+  color: var(--text-muted, #cbd5e1) !important;
+  border-top-color: var(--border-main, #4b5563) !important;
+}
+
+body.tsap-dark-mode .amaa-chart-tooltip {
+  background-color: #f3f4f6 !important;
+  color: #0f172a !important;
+}
+
+body.tsap-dark-mode .amaa-chart-tooltip::after {
+  border-top-color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .amaa-chart-bar:focus-visible {
+  outline-color: #ffffff !important;
+}
 </style>
+
