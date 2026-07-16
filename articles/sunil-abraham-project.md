@@ -94,7 +94,7 @@ The channel provides periodic updates on new articles, publications, original wo
 
 On 16 July 2026, we also established an official LinkedIn Page for the Project at [https://www.linkedin.com/company/sunilabraham](https://www.linkedin.com/company/sunilabraham). The Page provides a professional presence for the Project on LinkedIn and another channel through which its research, innovation, documentation, and related activities can be shared.
 
-## Links
+## External Links
 
 - [Sunil Abraham](https://sunilabraham.in/) (Official website)
 - [GitHub Pages](https://sunilabrahamindia.github.io/sunilabraham/) (fallback)
