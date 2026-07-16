@@ -97,5 +97,5 @@ On 16 July 2026, we also established an official LinkedIn Page for the Project a
 ## Links
 
 - [Sunil Abraham](https://sunilabraham.in/) (Official website)
-- [GitHub Pages (fallback)](https://sunilabrahamindia.github.io/sunilabraham/)
-- [Cloudflare Pages mirror](https://sunilabraham.pages.dev/)
+- [GitHub Pages](https://sunilabrahamindia.github.io/sunilabraham/) (fallback)
+- [Cloudflare Pages](https://sunilabraham.pages.dev/) (mirror)
