@@ -205,10 +205,15 @@ Between 12 April and 15 July 2026, 50 of the 59 pages currently listed under [Ca
 
   </div>
 
+    <p class="amaa-chart-caption">
+    Number of pages created during each bulletin reporting period. The opening period covers four days, from 12–15 April 2026; subsequent reporting periods run from the 16th of one month to the 15th of the next.
+  </p>
+</div>
+
 At this stage, progress against the three objectives outlined in the [first bulletin](#bulletin-1) is as follows:
 
-1. **Essays not in the collected works — 🟡 Slightly behind schedule:** Three essays and three book reviews not included in *Essays on Dalits, Religion and Liberation* have so far been published on The Sunil Abraham Project. We currently have access to another two or three essays and articles, while more than five additional essays and book reviews have been located but their full texts are not yet available to us. We are coordinating with the Christian Institute for the Study of Religion and Society (CISRS) and the United Theological College Library to explore the availability of these materials. Registration through isbn.gov.in has also been delayed, affecting preparations for the proposed ebook and ISBN.
-2. **Unpublished manuscript — 🟢 On track:** Initial transcription, organisation, and mapping of the unfinished manuscript have begun. The surviving materials include the planned work *Dalits and Hindu Religious Identity* and nine accompanying essays, all of which were subsequently published in [*Essays on Dalits, Religion and Liberation*](/amaa/edrl/) and are also available on The Sunil Abraham Project. Further transcription and study should provide a clearer understanding of the structure of the unfinished work and its relationship with these essays. Based on this work, a more detailed assessment can be made before the proposed announcement in November.
+1. **Essays not in the collected works — 🟡 Slightly behind schedule:** Three essays and three book reviews not included in *Essays on Dalits, Religion and Liberation* have so far been published on The Sunil Abraham Project. We currently have access to another two or three essays and articles, while more than five additional essays and book reviews have been located but their full texts are not yet available to us. We are coordinating with the Christian Institute for the Study of Religion and Society (CISRS) and the United Theological College Library to explore the availability of these materials. Registration through isbn.gov.in has also been delayed, affecting preparations for the proposed ebook and ISBN.  
+2. **Unpublished manuscript — 🟢 On track:** Initial transcription, organisation, and mapping of the unfinished manuscript have begun. The surviving materials include the planned work *Dalits and Hindu Religious Identity* and nine accompanying essays, all of which were subsequently published in [*Essays on Dalits, Religion and Liberation*](/amaa/edrl/) and are also available on The Sunil Abraham Project. Further transcription and study should provide a clearer understanding of the structure of the unfinished work and its relationship with these essays. Based on this work, a more detailed assessment can be made before the proposed announcement in November.  
 3. **Storytelling for everyone — 🟢 On track:** Work on the storytelling initiative has begun. The relatively limited production of storytelling materials during the first three months was intentional, as priority was given to content creation and expansion before developing infographics and other formats from the available material. With a larger body of content now available, regular production of infographics and other storytelling materials is planned between July and November. A broader strategy for sharing these materials, particularly through social media, has not yet been developed.
 
 👁️ In particular, further attention is needed in four areas: 
@@ -216,11 +221,6 @@ At this stage, progress against the three objectives outlined in the [first bull
 2. completing registration with the Raja Rammohun Roy National Agency for ISBN;
 3. developing a social media and content-sharing strategy; and
 4. building stronger connections with relevant institutions.
-
-  <p class="amaa-chart-caption">
-    Number of pages created during each bulletin reporting period. The opening period covers four days, from 12–15 April 2026; subsequent reporting periods run from the 16th of one month to the 15th of the next.
-  </p>
-</div>
 
 ### This Month's Update {#july}
 
