@@ -15,6 +15,7 @@ The **"Bulletins" page** documents the planning, progress, and activities relate
 1. [Bulletin 1](#bulletin-1)
 2. [Bulletin 2](#bulletin-2)
 3. [Bulletin 3](#bulletin-3)
+4. [Bulletin 4](#bulletin-4)
 
 ## Bulletin 1 {#bulletin-1}
 
@@ -91,4 +92,580 @@ The continued publication of essays, supporting texts, and reference materials i
 
 This concludes the third bulletin in this series. The fourth bulletin will be published on Wednesday, 15 July 2026.
 
+## Bulletin 4 — Halfway Bulletin {#bulletin-4}
+
+🗓️ **Date:** Wednesday, 15 July 2026
+
+This fourth bulletin marks the halfway point in the series documenting preparations for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel. While this is the fourth of eight planned bulletins, it marks the end of the third month of the seven-month preparation period, as the [first bulletin](#bulletin-1) primarily served as an announcement.
+
+At this stage, progress against the three objectives outlined in the [first bulletin](#bulletin-1) is as follows:
+
+1. **Essays not in the collected works — 🟡 Slightly behind schedule:** Three essays and three book reviews not included in *Essays on Dalits, Religion and Liberation* have so far been published on The Sunil Abraham Project. We currently have access to another two or three essays and articles, while more than five additional essays and book reviews have been located but their full texts are not yet available to us. We are coordinating with the Christian Institute for the Study of Religion and Society (CISRS) and the United Theological College Library to explore the availability of these materials. Registration through isbn.gov.in has also been delayed, affecting preparations for the proposed ebook and ISBN.
+2. **Unpublished manuscript — 🟢 On track:** Initial transcription, organisation, and mapping of the unfinished manuscript have begun. The surviving materials include the planned work *Dalits and Hindu Religious Identity* and nine accompanying essays, all of which were subsequently published in [*Essays on Dalits, Religion and Liberation*](/amaa/edrl/) and are also available on The Sunil Abraham Project. Further transcription and study should provide a clearer understanding of the structure of the unfinished work and its relationship with these essays. Based on this work, a more detailed assessment can be made before the proposed announcement in November.
+3. **Storytelling for everyone — 🟢 On track:** Work on the storytelling initiative has begun. The relatively limited production of storytelling materials during the first three months was intentional, as priority was given to content creation and expansion before developing infographics and other formats from the available material. With a larger body of content now available, regular production of infographics and other storytelling materials is planned between July and November. A broader strategy for sharing these materials, particularly through social media, has not yet been developed.
+
+👁️ In particular, further attention is needed in four areas: 
+1. organising, describing, and tagging the growing collection of photographs;
+2. completing registration with the Raja Rammohun Roy National Agency for ISBN;
+3. developing a social media and content-sharing strategy; and
+4. building stronger connections with relevant institutions.
+
+### This Month's Update {#july}
+Between 12 April and 15 July 2026, 50 of the 59 pages currently listed under [Category:A. M. A. Ayrookuzhiel](/categories/a-m-a-ayrookuzhiel/) were created. This means that most of the content currently available in this category was created during the dedicated documentation initiative that began in early April as part of the preparations for the 30th death anniversary commemoration.
+
+<div class="amaa-chart" aria-labelledby="amaa-chart-title">
+  <div class="amaa-chart-header">
+    <div>
+      <h3 id="amaa-chart-title">Pages created during the commemoration initiative</h3>
+      <p>12 April–15 July 2026</p>
+    </div>
+
+    <div class="amaa-chart-total" aria-label="50 pages created in total">
+      <strong>50</strong>
+      <span>pages</span>
+    </div>
+  </div>
+
+  <div
+    class="amaa-chart-body"
+    role="img"
+    aria-label="Pages created by reporting period: 3 pages from 12 to 15 April, 17 pages from 16 April to 15 May, 17 pages from 16 May to 15 June, and 13 pages from 16 June to 15 July 2026."
+  >
+
+    <div class="amaa-chart-row">
+      <div class="amaa-chart-label">
+        <strong>Opening period (4 days)</strong>
+        <span>12–15 April</span>
+      </div>
+
+      <div class="amaa-chart-track">
+        <div
+          class="amaa-chart-bar"
+          style="--bar-width: 17.65%;"
+          tabindex="0"
+          aria-label="3 pages created from 12 to 15 April 2026"
+        >
+          <span class="amaa-chart-value">3</span>
+          <span class="amaa-chart-tooltip" role="tooltip">
+            3 pages · 12–15 April 2026
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="amaa-chart-row">
+      <div class="amaa-chart-label">
+        <strong>Bulletin 2 period</strong>
+        <span>16 April–15 May</span>
+      </div>
+
+      <div class="amaa-chart-track">
+        <div
+          class="amaa-chart-bar"
+          style="--bar-width: 100%;"
+          tabindex="0"
+          aria-label="17 pages created from 16 April to 15 May 2026"
+        >
+          <span class="amaa-chart-value">17</span>
+          <span class="amaa-chart-tooltip" role="tooltip">
+            17 pages · 16 April–15 May 2026
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="amaa-chart-row">
+      <div class="amaa-chart-label">
+        <strong>Bulletin 3 period</strong>
+        <span>16 May–15 June</span>
+      </div>
+
+      <div class="amaa-chart-track">
+        <div
+          class="amaa-chart-bar"
+          style="--bar-width: 100%;"
+          tabindex="0"
+          aria-label="17 pages created from 16 May to 15 June 2026"
+        >
+          <span class="amaa-chart-value">17</span>
+          <span class="amaa-chart-tooltip" role="tooltip">
+            17 pages · 16 May–15 June 2026
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="amaa-chart-row">
+      <div class="amaa-chart-label">
+        <strong>Bulletin 4 period</strong>
+        <span>16 June–15 July</span>
+      </div>
+
+      <div class="amaa-chart-track">
+        <div
+          class="amaa-chart-bar"
+          style="--bar-width: 76.47%;"
+          tabindex="0"
+          aria-label="13 pages created from 16 June to 15 July 2026"
+        >
+          <span class="amaa-chart-value">13</span>
+          <span class="amaa-chart-tooltip" role="tooltip">
+            13 pages · 16 June–15 July 2026
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="amaa-chart-caption">
+    Number of pages created during each bulletin reporting period. The opening period covers four days, from 12–15 April 2026; subsequent reporting periods run from the 16th of one month to the 15th of the next.
+  </p>
+</div>
+
+Between 15 June and 15 July 2026, the following work was undertaken:
+
+**Unfinished Manuscript:** Work began on the [*Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)*](/amaa/unfinished-manuscript/). The page brings together material connected with the manuscript that Ayrookuzhiel left incomplete at the time of his death in 1996, tentatively titled *Dalit and Hindu Religious Identity*. The working document is being used for the study, organisation, and possible reconstruction of the unfinished manuscript.
+
+**Dalits and Hindu Religious Identity: Proposed Contents:** A separate page, [*Dalits and Hindu Religious Identity: Proposed Contents (Working Document)*](/amaa/dalits-hindu-religious-identity-proposed-contents/), was prepared from a transcription of page 74 of the unfinished manuscript. The page appears to contain a proposed title and table of contents for the planned volume and provides information about the possible structure of the unfinished work.
+
+**Chapter 2, Methodology:** Another part of the unfinished manuscript was documented as [*Chapter 2, Methodology (Working Document)*](/amaa/chapter-2-methodology/). The chapter discusses the methodology proposed for studying caste-specific religious life and Dalit participation in Hindu religious traditions.
+
+**The Dalit Deśiyata:** Two pages connected with Ayrookuzhiel's 1990 edited volume *The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle* were added during this period. [*The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle*](/amaa/dalit-desiyata/) documents the volume and its focus on Dalit communities, development, class struggle, and politics in Kerala. A separate page, [*The Dalit Deśiyata: Introduction*](/amaa/dalit-desiyata-introduction/), presents the introduction to the volume and its discussion of development, class struggle, and Deśiyata in relation to Dalit liberation.
+
+**Swami Anand Thirth:** Two further chapters from Ayrookuzhiel's 1987 study of Swami Anand Thirth were documented during this period. [*Swami Anand Thirth: Sannyasa for the Sake of Outcastes*](/amaa/swami-anand-thirth-sannyasa-for-the-sake-of-outcastes/) covers the social and political background of early twentieth-century Kerala as well as the Swami's childhood, education, and early influences. [*Attempts to Create a Counter-Culture*](/amaa/attempts-to-create-a-counter-culture/) examines educational, social, and cultural initiatives undertaken to challenge caste discrimination and develop an alternative social order.
+
+**The Church and the Study of Religion:** [*The Church and the Study of Religion*](/amaa/church-study-religion/) was added to the archive during this period. The article examines approaches to the study of religion from the perspective of poor and marginalised communities, with particular reference to the Hindu religious tradition.
+
+**Book Reviews:** Three book reviews by A. M. A. Ayrookuzhiel, originally published in *Religion and Society*, were documented during this period. These are [*Approaches to the Study of Religion (Book Review)*](/amaa/approaches-study-religion-book-review/), a review of the volume edited by Harbans Singh; [*Tamil Nadu: Deities and Devotees (Book Review)*](/amaa/tamil-nadu-deities-devotees-book-review/), a review of the book by Gift Siromoney and K. R. Rajagopalan; and [*The Twice Alienated (Culture of Dalit Christians) (Book Review)*](/amaa/twice-alienated-book-review/), a review of K. K. Wilson's work on Dalit Christian culture.
+
+**Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics:** A page was added for [*Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics*](/amaa/sacrafanations/), a 2023 edited volume by Y. T. Vinayaraj, jointly published by the Christian Institute for the Study of Religion and Society (CISRS) and the Indian Society for Promoting Christian Knowledge (ISPCK). The volume discusses Dalit religion, theology, epistemology, and politics and includes engagement with the intellectual work of A. M. A. Ayrookuzhiel.
+
+**A. M. A. Ayrookuzhiel Storytelling Project:** The [*A. M. A. Ayrookuzhiel Storytelling Project*](/amaa/storytelling/) was documented during this period. The initiative is part of the preparations for the 30th death anniversary commemoration and explores ways of presenting A. M. A. Ayrookuzhiel's life, writings, and ideas through accessible storytelling formats. The page outlines the objectives, editorial principles, workflow, and future plans for the project.
+
+<div class="bulletin-image-gallery">
+  <figure>
+    <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/storytelling/0002-0001.png">
+      <img
+        src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/storytelling/0002-0001.png"
+        alt="Illustrated timeline showing the shift in CISRS thinking from inter-religious dialogue in the 1950s and 1960s towards liberation and humanisation by the 1990s."
+        loading="lazy"
+      >
+    </a>
+    <figcaption>
+      <em>From Dialogue to Liberation</em>: an illustrated timeline tracing changes in the CISRS perspective from the 1950s to the 1990s.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/storytelling/0002-0002.png">
+      <img
+        src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/storytelling/0002-0002.png"
+        alt="Infographic summarising A. M. A. Ayrookuzhiel's 1993 essay Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS."
+        loading="lazy"
+      >
+    </a>
+    <figcaption>
+      An infographic summarising the main arguments of <em>Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS</em>.
+    </figcaption>
+  </figure>
+</div>
+
 {% include navbox-amaa.html %}
+
+<style>
+  .bulletin-image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin: 1.5rem auto;
+}
+
+.bulletin-image-gallery figure {
+  flex: 0 1 320px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.bulletin-image-gallery img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  margin: 0 auto;
+  border: 1px solid #767676;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.bulletin-image-gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bulletin-image-gallery figcaption {
+    color: #ddd;
+  }
+
+  .bulletin-image-gallery img {
+    border-color: #888;
+  }
+}
+
+@media (max-width: 600px) {
+  .bulletin-image-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bulletin-image-gallery figure {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .bulletin-image-gallery img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.amaa-chart {
+  max-width: 760px;
+  margin: 2rem auto;
+  padding: 1.4rem;
+  background: #f8f9fb;
+  border: 1px solid #c8ccd0;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.amaa-chart-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid #d8dadd;
+}
+
+.amaa-chart-header h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.35;
+  color: #202122;
+}
+
+.amaa-chart-header p {
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+  color: #54595d;
+}
+
+.amaa-chart-total {
+  flex: 0 0 auto;
+  min-width: 70px;
+  padding: 0.45rem 0.7rem;
+  text-align: center;
+  background: #e8f0fe;
+  border: 1px solid #a8c7fa;
+  border-radius: 8px;
+}
+
+.amaa-chart-total strong {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #174ea6;
+}
+
+.amaa-chart-total span {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.75rem;
+  color: #333;
+}
+
+.amaa-chart-body {
+  position: relative;
+}
+
+.amaa-chart-row {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.amaa-chart-label {
+  text-align: right;
+  line-height: 1.3;
+}
+
+.amaa-chart-label strong {
+  display: block;
+  font-size: 0.88rem;
+  color: #202122;
+}
+
+.amaa-chart-label span {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.78rem;
+  color: #54595d;
+}
+
+.amaa-chart-track {
+  position: relative;
+  height: 2.4rem;
+  overflow: visible;
+  border-radius: 6px;
+  background:
+    linear-gradient(
+      to right,
+      transparent 24.7%,
+      #c8ccd0 25%,
+      transparent 25.3%,
+      transparent 49.7%,
+      #c8ccd0 50%,
+      transparent 50.3%,
+      transparent 74.7%,
+      #c8ccd0 75%,
+      transparent 75.3%
+    ),
+    #e6e8eb;
+}
+
+.amaa-chart-bar {
+  position: relative;
+  width: var(--bar-width);
+  min-width: 2.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 0 0.7rem;
+  background: linear-gradient(90deg, #184c99, #1f5fbf);
+  border-radius: 6px;
+  cursor: default;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+.amaa-chart-value {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.amaa-chart-bar:hover,
+.amaa-chart-bar:focus-visible {
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+  box-shadow: 0 5px 12px rgba(24, 76, 153, 0.3);
+  outline: none;
+}
+
+.amaa-chart-bar:focus-visible {
+  outline: 3px solid #111;
+  outline-offset: 3px;
+}
+
+.amaa-chart-tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 9px);
+  z-index: 10;
+  width: max-content;
+  max-width: 220px;
+  padding: 0.4rem 0.6rem;
+  background: #202122;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.3;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate(-50%, 5px);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease,
+    visibility 0.18s ease;
+}
+
+.amaa-chart-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid transparent;
+  border-top-color: #202122;
+}
+
+.amaa-chart-bar:hover .amaa-chart-tooltip,
+.amaa-chart-bar:focus .amaa-chart-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+}
+
+.amaa-chart-caption {
+  margin: 1.35rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid #d8dadd;
+  color: #444;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+@media (prefers-color-scheme: dark) {
+  .amaa-chart {
+    background: #202124;
+    border-color: #5f6368;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.35);
+  }
+
+  .amaa-chart-header {
+    border-bottom-color: #5f6368;
+  }
+
+  .amaa-chart-header h3,
+  .amaa-chart-label strong {
+    color: #f1f3f4;
+  }
+
+  .amaa-chart-header p,
+  .amaa-chart-label span {
+    color: #bdc1c6;
+  }
+
+  .amaa-chart-total {
+    background: #263d5f;
+    border-color: #5d8fd8;
+  }
+
+  .amaa-chart-total strong {
+    color: #aecbfa;
+  }
+
+  .amaa-chart-total span {
+    color: #e8eaed;
+  }
+
+  .amaa-chart-track {
+    background:
+      linear-gradient(
+        to right,
+        transparent 24.7%,
+        #5f6368 25%,
+        transparent 25.3%,
+        transparent 49.7%,
+        #5f6368 50%,
+        transparent 50.3%,
+        transparent 74.7%,
+        #5f6368 75%,
+        transparent 75.3%
+      ),
+      #303134;
+  }
+
+  .amaa-chart-bar {
+    background: linear-gradient(90deg, #5b8fd9, #8ab4f8);
+  }
+
+  .amaa-chart-value {
+    color: #111;
+  }
+
+  .amaa-chart-caption {
+    color: #d6d9dd;
+    border-top-color: #5f6368;
+  }
+
+  .amaa-chart-tooltip {
+    background: #f1f3f4;
+    color: #202124;
+  }
+
+  .amaa-chart-tooltip::after {
+    border-top-color: #f1f3f4;
+  }
+
+  .amaa-chart-bar:focus-visible {
+    outline-color: #fff;
+  }
+}
+
+@media (max-width: 600px) {
+  .amaa-chart {
+    padding: 1rem;
+  }
+
+  .amaa-chart-header {
+    gap: 0.75rem;
+  }
+
+  .amaa-chart-total {
+    min-width: 58px;
+  }
+
+  .amaa-chart-row {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+    margin: 1.25rem 0;
+  }
+
+  .amaa-chart-label {
+    text-align: left;
+  }
+
+  .amaa-chart-label strong,
+  .amaa-chart-label span {
+    display: inline;
+  }
+
+  .amaa-chart-label span::before {
+    content: " · ";
+  }
+
+  .amaa-chart-track {
+    height: 2.5rem;
+  }
+
+  .amaa-chart-tooltip {
+    left: auto;
+    right: 0;
+    transform: translateY(5px);
+  }
+
+  .amaa-chart-bar:hover .amaa-chart-tooltip,
+  .amaa-chart-bar:focus .amaa-chart-tooltip {
+    transform: translateY(0);
+  }
+
+  .amaa-chart-tooltip::after {
+    left: auto;
+    right: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .amaa-chart-bar,
+  .amaa-chart-tooltip {
+    transition: none;
+  }
+}
+</style>
