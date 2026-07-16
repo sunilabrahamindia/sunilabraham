@@ -117,3 +117,29 @@ git diff 936d737^ 936d737
 ```
 
 These commands are particularly useful when a commit appears to have unexpectedly rewritten a large file, as happened during the investigation of repeated `pages.json` reordering.
+
+## List All Files Inside a Directory
+
+This command lists all files contained within a specified directory and its subdirectories. It is useful for inspecting parts of the TSAP repository without manually opening each folder.
+
+For example, to list all files inside the `.github` directory:
+
+```bash
+find .github -type f | sort
+```
+
+A typical output may look like:
+
+```text
+.github/README.md
+.github/workflows/pages.yml
+```
+
+The command consists of:
+
+- `find .github`: Searches the `.github` directory and all of its subdirectories.
+- `-type f`: Limits the results to regular files and excludes directories.
+- `|`: Passes the output of the `find` command to the next command.
+- `sort`: Sorts the resulting file paths alphabetically.
+
+Replace `.github` with another directory path to inspect a different part of the repository.
