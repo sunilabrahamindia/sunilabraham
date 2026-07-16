@@ -21,6 +21,7 @@ The project emerged from discussions between Sunil Abraham and Tito Dutta, a for
    - [2025](#2025)
    - [2026](#2026)
 5. [Links](#links)
+6. [Social](#social)
 
 ## History
 
@@ -84,6 +85,12 @@ The full text of these principles is recorded in [TSAP Foundational Principles](
 - 21 May 2026 (Thursday) — TSAP reached 1000 published articles with the publication of [*Sunil Abraham on Aaron Swartz*](/sunil/aaron-swartz/).
 - 17 June 2026 (Wednesday) — Version 2.0 of the Sunil Abraham Project was released, marking the completion of a major phase of expansion and development. For an overview of this cycle, see the [Version 2.0 Lookback](/versions/2.0/).
 - 28 June 2026 (Sunday), 1100th page [Frederick](/frederick/) was published.
+
+## On Social Media {#social}
+
+On 12 June 2026, we started a Telegram channel with the permalink `t.me/sunilabrahamproject`. At the time, the permalink `t.me/sunilabraham` was assigned to a separate group. On 16 July 2026, we moved the username `sunilabraham` to the channel. The channel's permanent URL is now [https://t.me/sunilabraham](https://t.me/sunilabraham/).
+
+The channel provides periodic updates on new articles, publications, original works, and archival material added to the Project, including work relating to A. M. A. Ayrookuzhiel and Sunil Abraham, as well as broader subjects such as internet policy, internet governance, digital technology, and society.
 
 ## Links
 
