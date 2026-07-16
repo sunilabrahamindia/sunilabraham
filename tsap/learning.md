@@ -30,6 +30,8 @@ At this stage, the exploration remains preliminary. The software appears powerfu
 
 Read abput ERPNext on [Wikipedia](https://en.wikipedia.org/wiki/ERPNext)
 
+**Update, 16 July 2026:** Exploration of ERPNext was discontinued and the local Docker-based installation was removed. The software was considerably broader and more complex than the current requirements of TSAP, while GnuCash was chosen for accounting. Several ERPNext containers had also entered repeated restart loops, creating and removing virtual network interfaces and potentially contributing to recurring `ERR_NETWORK_CHANGED` errors in Chromium.
+
 ### GnuCash
 
 Initial exploration of GnuCash and double-entry bookkeeping concepts also began during this period. The focus extended beyond learning the software itself and included understanding the underlying principles of financial record keeping. Topics explored included assets, liabilities, income, expenses, equity, accounts, ledgers, and the structure of double-entry accounting systems.
