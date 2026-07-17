@@ -15,6 +15,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 ## Contents
 1. [Version 2.1](#version-21)
 2. [Version 2.1.1](#version-211)
+3. [Version 2.1.2](#version-212)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -67,5 +68,23 @@ Between 28 June and 4 July 2026, 14 new pages were published.
 
 **Status** ✅ Done  
 Completion date: 4 July 2026
+
+## Version 2.1.2
+
+Between 5 July and 11 July 2026, 12 new pages were published.
+
+**TSAP Status**
+- Developed and deployed the first public TSAP Status page. A lightweight monitoring system was built using Google Apps Script to perform hourly checks of selected website resources and record the results in a private Google Sheets spreadsheet. The monitoring data is exposed through a JSON API, while a Cloudflare Worker renders a public, mobile-friendly status page under a custom domain. This provides TSAP with an independent, serverless monitoring system built using free services and establishes a foundation for future additions such as expanded service checks, incident history, and uptime reporting.
+
+**Biographical and Book Articles**
+- Started an article on [Rev. Dr. Y. T. Vinayaraj](/vinayaraj/).
+- Started work on [*Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics*](/amaa/sacrafanations/), edited by Y. T. Vinayaraj.
+
+**A. M. A. Ayrookuzhiel**
+- Started [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), a preparatory project to document and explore the possible reconstruction of an unfinished manuscript by Rev. Dr. A. M. A. Ayrookuzhiel, tentatively titled *Dalit and Hindu Religious Identity*. The manuscript remained incomplete at the time of his death in 1996 and was intended to explore questions surrounding caste identity and religious identity in India.
+- Started work on [*The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle*](/amaa/the-dalit-desiyata/), a 1990 volume edited by Rev. Dr. A. M. A. Ayrookuzhiel that brings together perspectives on the experiences of Dalit communities in Kerala in relation to development, class struggle, and wider social, economic, and political conditions.
+
+**Status** ✅ Done  
+Completion date: 11 July 2026
 
 {% include versions.html %}
