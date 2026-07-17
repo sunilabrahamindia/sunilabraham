@@ -49,24 +49,7 @@ created: 2025-10-19
 
 {% include back-to-top.html %}
 
-<section class="content-section" id="sunil-abraham">
-  <h2 class="section-title">Sunil Abraham</h2>
-  <div class="bio-card">
-    <div class="bio-image-wrapper">
-      <img 
-        src="/assets/images/sunil-abraham-colour-nature.jpg" 
-        alt="Illustration of Sunil Abraham in a gray shirt pointing upward, set against a colorful, idyllic, cartoon landscape with hills, a river, and a village." 
-        class="bio-image">
-    </div>
-    <div class="bio-content">
-      <p><strong>Sunil Abraham</strong> (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian internet researcher, public policy advocate, and social entrepreneur known for his work at the intersection of technology, society, and governance.</p>
-      <p>Sunil is a co-founder and former executive director of the <a href="/cis/">Centre for Internet and Society</a> (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. CIS brings together scholars, technologists, and activists to study issues such as internet governance, privacy, accessibility, and freedom of expression.</p>
-      <p>In 1998, he co-founded <a href="/articles/mahiti-infotech/">Mahiti Infotech</a>, a social enterprise designed to make technology affordable and effective for the voluntary sector through Free and Open Source Software (FOSS). Under his leadership, Mahiti has supported hundreds of civil society organisations with digital tools, training, and open technology solutions.</p>
-      <p>His contributions extend to advising governments, UN agencies, and advocacy groups on open standards, internet policy, and digital rights. A frequent lecturer and writer, Sunil's work highlights issues of openness, equity, and accountability in technology. His lifelong mission remains to ensure that innovation strengthens democracy and social inclusion rather than deepening inequality.</p>
-      <a href="https://sunilabraham.in/sunil/" class="btn-primary">Read full biography...</a>
-    </div>
-  </div>
-</section>
+{% include sunil-bio.html %}
 
 {% include back-to-top.html %}
 
@@ -234,56 +217,6 @@ main nav.breadcrumb {
   color: #333;
 }
 
-/* Bio card */
-.bio-card {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  border-left: 5px solid #005cc5;
-}
-
-.bio-image-wrapper {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.bio-image {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-}
-
-.bio-content p {
-  margin-bottom: 1rem;
-  line-height: 1.7;
-  color: #333;
-}
-
-@media (min-width: 768px) {
-  .bio-card {
-    display: block;
-    position: relative;
-  }
-
-  .bio-image-wrapper {
-    float: right;
-    width: 40%;
-    max-width: 350px;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .bio-image {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  }
-}
-
 /* Button styles */
 .btn-primary {
   display: inline-block;
@@ -349,7 +282,6 @@ a:hover {
   }
 
   .article-card,
-  .bio-card,
   .about-card,
   .licence-card {
     padding: 1.5rem;
@@ -366,7 +298,6 @@ a:hover {
   }
 
   .article-card,
-  .bio-card,
   .about-card,
   .licence-card {
     padding: 1.25rem;
@@ -386,7 +317,6 @@ a:hover {
    ======================================== */
 
 body.tsap-dark-mode .hero-intro,
-body.tsap-dark-mode .bio-card,
 body.tsap-dark-mode .about-card,
 body.tsap-dark-mode .licence-card,
 body.tsap-dark-mode .article-card {
@@ -394,7 +324,6 @@ body.tsap-dark-mode .article-card {
 }
 
 body.tsap-dark-mode .hero-intro p,
-body.tsap-dark-mode .bio-content p,
 body.tsap-dark-mode .article-card p,
 body.tsap-dark-mode .about-card p,
 body.tsap-dark-mode .licence-card p,
