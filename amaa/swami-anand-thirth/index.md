@@ -47,9 +47,13 @@ The opening section outlines Swami Anand Thirth's long public career fighting un
 
 ### 2. Sannyasa for the Sake of Outcastes
 
+{% include main-article.html link="/amaa/swami-anand-thirth-sannyasa-for-the-sake-of-outcastes/" title="Sannyasa for the Sake of Outcastes" %}
+
 This section places Anand Thirth's early life in the context of Kerala's renaissance movements. Born in Tellicherry, he grew up at a time when leaders like Narayana Guru, Ayyankali, and Karuppan were challenging caste-based exclusion. His school years contain early experiences of discrimination, while his involvement in nationalist activities shaped his ethical outlook. His eventual choice of sannyasa is presented as a commitment to social responsibility — an effort to serve communities subjected to systemic marginalisation.
 
 ### 3. Attempts to Create a Counter-Culture
+
+{% include main-article.html link="/amaa/swami-anand-thirth-attempts-create-counter-culture/" title="Attempts to Create a Counter-Culture" %}
 
 A. M. A. Ayrookuzhiel describes Anand Thirth's exploration of religious and ideological alternatives. The Swami read widely, attended Ramakrishna Mission programmes, studied Gandhi's writings, and even considered Christianity and Islam as potential spaces of equality. Yet his memoirs express disappointment that many religious institutions avoided confronting caste directly. These experiences pushed him to imagine a counter-culture that could challenge caste ideology, not merely reinterpret ritual or doctrine.
 
@@ -59,7 +63,9 @@ This chapter highlights the clash between reformist hopes and lived reality. Ana
 
 ### 5. Against the Sacred Abodes of Untouchability
 
-Here A. M. A. Ayrookuzhiel turns to Anand Thirth's involvement with Sabari Ashram and movements surrounding temple entry and public pathways. The Swami's attempts to accompany lower-caste children to temples, markets, or public roads were often met with resistance or violence. These struggles reveal how sacred geography — temples, shrines, and ritual spaces — reinforced caste segregation. Challenging these “sacred abodes” became central to Anand Thirth's mission.
+{% include main-article.html link="/amaa/swami-anand-thirth-against-sacred-abodes-untouchability/" title="Against the Sacred Abodes of Untouchability" %}
+
+This chapter examines Swami Anand Thirth's campaigns against untouchability and caste discrimination in temples. Ayrookuzhiel traces his involvement in the temple entry movement, his efforts to challenge restrictions on worship, and his campaigns against discriminatory practices that persisted despite legal reforms. Through temple entry struggles, court cases and individual acts of protest spanning several decades, the chapter documents his attempts to secure equal access to temple spaces and rituals for Scheduled Castes.
 
 ### 6. Prejudice vs the Law
 
