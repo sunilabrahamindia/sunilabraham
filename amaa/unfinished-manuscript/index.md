@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)"
-categories: [A. M. A. Ayrookuzhiel, Unfinished Manuscript of A. M. A. Ayrookuzhiel]
+categories: [A. M. A. Ayrookuzhiel, Unfinished Manuscript of A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: A working document for the preparation, study and reconstruction of the unfinished manuscript tentatively titled "Dalit and Hindu Religious Identity", left incomplete at the time of A. M. A. Ayrookuzhiel's death in 1996.
 permalink: /amaa/unfinished-manuscript/
 publication_year: 1996

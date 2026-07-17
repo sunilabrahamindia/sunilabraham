@@ -3,7 +3,7 @@ layout: default
 title: "A. M. A. Ayrookuzhiel: 30th Death Anniversary Bulletins"
 description: "Bulletins documenting the planning, progress, and activities for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel."
 permalink: /amaa/30-bulletins/
-categories: [A. M. A. Ayrookuzhiel]
+categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 page_id: TSAP-0857
 created: 2026-04-12
 ---
