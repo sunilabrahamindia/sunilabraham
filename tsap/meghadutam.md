@@ -589,6 +589,129 @@ The event will continue throughout the monsoon season of 2026.
   </p>
 </div>
 
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Wednesday, 24 June 2026</div>
+
+  <p>
+    <a href="/cis/annual-report-2014-15/">
+      Centre for Internet and Society: Annual Report 2014–15
+    </a> — A narrative overview of CIS's work from 1 April 2014 to 31 March 2015, covering accessibility, access to knowledge, internet governance, telecom, digital natives, research activities, and organisational developments.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Thursday, 25 June 2026</div>
+
+  <p>
+    <a href="/amaa/tamil-nadu-deities-and-devotees-book-review/">
+      Tamil Nadu: Deities and Devotees (Book Review)
+    </a> — A 1976 review by A. M. A. Ayrookuzhiel of <em>Tamil Nadu: Deities and Devotees</em> by Gift Siromoney and K. R. Rajagopalan, originally published in <em>Religion and Society</em>.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Friday, 26 June 2026</div>
+
+  <p>
+    <a href="/amaa/the-church-and-the-study-of-religion/">
+      The Church and the Study of Religion
+    </a> — An article by A. M. A. Ayrookuzhiel exploring the study of religion from the perspective of the poor, with particular attention to the Hindu religious tradition.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Sunday, 28 June 2026</div>
+
+  <p>
+    <a href="/frederick/">
+      Frederick
+    </a> — Sunil Abraham uses Leo Lionni's children's book <em>Frederick</em> as a framework for exploring attribution, tangible and intangible labour, and the intellectual property regime.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Wednesday, 1 July 2026</div>
+
+  <p>
+    <a href="/tsap/git-repository-corruption-recovery/">
+      Git Repository Corruption Recovery
+    </a> and
+    <a href="/tsap/git-repository-storage-inflation/">
+      Git Repository Storage Inflation Incident
+    </a> — Two incident records documenting serious Git repository problems we faced on 1 July 2026, their technical causes and diagnosis, and how we tackled the problems through incremental recovery, history rewriting, and eventual backend resolution.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Saturday, 4 July 2026</div>
+
+  <p>
+    <a href="/cis/18/">
+      Centre for Internet and Society: 18th Anniversary
+    </a> — A personal memoir by Tito Dutta looking back on his years at CIS from 2015 to 2022, published on the organisation's 18th anniversary and based on his own experiences and reflections.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Monday, 6 July 2026</div>
+
+  <p>
+    <a href="/amaa/sacrafanations/">
+      Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics
+    </a> — A 2023 edited volume exploring Dalit religion(s), theology, epistemology, and politics while engaging with the intellectual legacy of Rev. A. M. A. Ayrookuzhiel.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Tuesday, 7 July 2026</div>
+
+  <p>
+    <a href="/vinayaraj/">
+      Y. T. Vinayaraj
+    </a> — A biography of Rev. Dr. Y. T. Vinayaraj, Indian theologian, scholar of religion, author, editor, and educator.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Wednesday, 8 July 2026</div>
+
+  <p>
+    <a href="/amaa/the-dalit-desiyata/">
+      The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle
+    </a> — A 1990 edited volume by A. M. Abraham Ayrookuzhiel examining Dalit communities, development, class struggle, and politics in Kerala.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Friday, 10 July 2026</div>
+
+  <p>
+    <a href="/amaa/unfinished-manuscript/">
+      Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)
+    </a> — A working document for studying, preparing, and reconstructing A. M. A. Ayrookuzhiel's unfinished manuscript, tentatively titled <em>Dalit and Hindu Religious Identity</em>, which remained incomplete at the time of his death in 1996.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Saturday, 11 July 2026</div>
+
+  <p>
+    <a href="/sunil/speaks/">
+      Template:Sunil Speaks
+    </a> — A navigational template bringing together selected essays, reflections, and related pages by or about Sunil Abraham.
+  </p>
+</div>
+
+<div class="mg-featured-item">
+  <div class="mg-featured-date">Sunday, 12 July 2026</div>
+
+  <p>
+    <a href="/tsap/status-monitoring-system/">
+      TSAP Status Monitoring System (Documentation)
+    </a> — Documentation of the TSAP Status Monitoring System, covering its architecture, monitoring workflow, public status dashboard, and development history.
+  </p>
+</div>
+
 <style>
   /* ============================================================
      MEGHADUTAM 2026 — TSAP Hero Banner
