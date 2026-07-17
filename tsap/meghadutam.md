@@ -8,10 +8,10 @@ page_id: TSAP-1078
 created: 2026-06-20
 ---
 
-<!-- ═══════════════════════════════════════════════
+<!-- ==============================================
      MEGHADUTAM 2026 BANNER
      The Sunil Abraham Project
-     ═══════════════════════════════════════════════ -->
+     ============================================== -->
 <section
   class="mg-banner"
   aria-label="Meghadutam 2026 — A Monsoon in Search of Excellence at TSAP"
@@ -112,74 +112,62 @@ created: 2026-06-20
       </filter>
     </defs>
 
-    <!-- ── Horizon glow ── -->
+    <!-- —— Horizon glow —— -->
     <ellipse cx="600" cy="680" rx="700" ry="260"
       fill="url(#mg-horizon-g)" opacity="0.6"/>
 
-    <!-- ══════════════════════════════════════
+    <!-- ======================================
          CLOUD LAYERS — back to front
-    ══════════════════════════════════════ -->
+         ====================================== -->
 
-    <!-- Layer 1: Deepest background clouds (very dark, large masses) -->
+    <!-- Layer 1: Deepest background clouds -->
     <g class="mg-cloud-back">
-      <!-- Far left mass -->
       <ellipse cx="-30" cy="130" rx="280" ry="130" fill="#0e1a2e" opacity="0.95"/>
       <ellipse cx="80"  cy="80"  rx="200" ry="90"  fill="#111e32" opacity="0.9"/>
       <ellipse cx="40"  cy="160" rx="220" ry="100" fill="#0d1828" opacity="0.85"/>
 
-      <!-- Centre-left billowing mass -->
       <ellipse cx="350" cy="100" rx="310" ry="140" fill="#141e30" opacity="0.9"/>
       <ellipse cx="280" cy="60"  rx="200" ry="80"  fill="#111828" opacity="0.85"/>
       <ellipse cx="420" cy="140" rx="240" ry="110" fill="#0f1a2c" opacity="0.8"/>
 
-      <!-- Right mass -->
       <ellipse cx="950" cy="90"  rx="320" ry="130" fill="#121c2e" opacity="0.92"/>
       <ellipse cx="1080" cy="50" rx="210" ry="90"  fill="#0f1826" opacity="0.88"/>
       <ellipse cx="1200" cy="140" rx="250" ry="110" fill="#0d1624" opacity="0.85"/>
 
-      <!-- Top wispy fringe -->
       <ellipse cx="600" cy="20"  rx="500" ry="55"  fill="#0a1220" opacity="0.7"/>
       <ellipse cx="600" cy="0"   rx="650" ry="35"  fill="#070e1a" opacity="0.8"/>
     </g>
 
-    <!-- Layer 2: Mid clouds — slightly lighter, Rajput-esque rounded billows -->
+    <!-- Layer 2: Mid clouds -->
     <g class="mg-cloud-mid-g">
-      <!-- Left billow cluster -->
       <ellipse cx="120" cy="200" rx="230" ry="100" fill="url(#mg-cg-deep)" opacity="0.88"/>
       <ellipse cx="60"  cy="240" rx="180" ry="80"  fill="#1a2b42" opacity="0.7"/>
       <ellipse cx="190" cy="170" rx="160" ry="70"  fill="#22334e" opacity="0.65"/>
-      <!-- top lobes -->
       <ellipse cx="80"  cy="170" rx="90"  ry="55"  fill="#253445" opacity="0.6"/>
       <ellipse cx="160" cy="145" rx="75"  ry="48"  fill="#2a3a50" opacity="0.55"/>
 
-      <!-- Central tower — tall cumulonimbus suggestion -->
       <ellipse cx="580" cy="260" rx="280" ry="120" fill="#1c2d46" opacity="0.82"/>
       <ellipse cx="600" cy="200" rx="230" ry="100" fill="#1f3148" opacity="0.75"/>
       <ellipse cx="560" cy="155" rx="175" ry="82"  fill="#243650" opacity="0.7"/>
       <ellipse cx="610" cy="110" rx="130" ry="65"  fill="#283a55" opacity="0.65"/>
       <ellipse cx="590" cy="72"  rx="90"  ry="52"  fill="#2d3f5a" opacity="0.6"/>
-      <!-- anvil top -->
       <ellipse cx="600" cy="45"  rx="170" ry="38"  fill="#1e2e48" opacity="0.5"/>
 
-      <!-- Right billow cluster -->
       <ellipse cx="1060" cy="195" rx="210" ry="95"  fill="url(#mg-cg-deep)" opacity="0.85"/>
       <ellipse cx="1140" cy="160" rx="170" ry="75"  fill="#1f2f46" opacity="0.7"/>
       <ellipse cx="1000" cy="220" rx="180" ry="80"  fill="#1a2840" opacity="0.65"/>
       <ellipse cx="1100" cy="130" rx="110" ry="58"  fill="#253545" opacity="0.6"/>
     </g>
 
-    <!-- Layer 3: Foreground clouds — most detail, mini-painting rounded lobes -->
+    <!-- Layer 3: Foreground clouds -->
     <g class="mg-cloud-fore">
-      <!-- Lower left cloud bank -->
       <ellipse cx="0"   cy="340" rx="220" ry="90"  fill="#1e2f48" opacity="0.75"/>
       <ellipse cx="80"  cy="310" rx="180" ry="75"  fill="#233448" opacity="0.7"/>
       <ellipse cx="160" cy="285" rx="140" ry="65"  fill="#283a50" opacity="0.65"/>
-      <!-- rounded lobes at top -->
       <circle  cx="60"  cy="290" r="55"  fill="#243040" opacity="0.6"/>
       <circle  cx="130" cy="265" r="48"  fill="#283550" opacity="0.55"/>
       <circle  cx="200" cy="252" r="42"  fill="#2d3a52" opacity="0.5"/>
 
-      <!-- Lower right cloud bank -->
       <ellipse cx="1200" cy="330" rx="230" ry="95"  fill="#1d2e48" opacity="0.75"/>
       <ellipse cx="1100" cy="300" rx="195" ry="82"  fill="#223348" opacity="0.7"/>
       <ellipse cx="1020" cy="278" rx="150" ry="68"  fill="#273845" opacity="0.65"/>
@@ -187,44 +175,28 @@ created: 2026-06-20
       <circle  cx="1060" cy="260" r="46"  fill="#283550" opacity="0.52"/>
       <circle  cx="990"  cy="248" r="40"  fill="#2c3850" opacity="0.48"/>
 
-      <!-- Wispy lower fringe across the mid-band -->
       <ellipse cx="480" cy="385" rx="260" ry="55"  fill="#182840" opacity="0.45" filter="url(#mg-cloud-blur)"/>
       <ellipse cx="720" cy="370" rx="240" ry="50"  fill="#182840" opacity="0.4"  filter="url(#mg-cloud-blur)"/>
     </g>
 
-    <!-- ══════════════════════════════════════
-         LIGHTNING (subtle, CSS-animated)
-    ══════════════════════════════════════ -->
+    <!-- ======================================
+         LIGHTNING
+         ====================================== -->
     <g class="mg-lightning-group" filter="url(#mg-lightning-glow)">
-      <!-- Branching bolt left-centre -->
-      <polyline
-        points="420,70 412,130 424,140 410,210 420,215 400,300"
-        fill="none" stroke="#c8dff5" stroke-width="1.2" opacity="0.9"/>
-      <polyline
-        points="424,140 440,175 448,172"
-        fill="none" stroke="#c8dff5" stroke-width="0.7" opacity="0.7"/>
-      <!-- Glow ellipse behind bolt -->
-      <ellipse cx="415" cy="185" rx="60" ry="120"
-        fill="#4060a0" opacity="0.12" filter="url(#mg-cloud-blur-md)"/>
+      <polyline points="420,70 412,130 424,140 410,210 420,215 400,300" fill="none" stroke="#c8dff5" stroke-width="1.2" opacity="0.9"/>
+      <polyline points="424,140 440,175 448,172" fill="none" stroke="#c8dff5" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="415" cy="185" rx="60" ry="120" fill="#4060a0" opacity="0.12" filter="url(#mg-cloud-blur-md)"/>
     </g>
 
     <g class="mg-lightning-group-2" filter="url(#mg-lightning-glow)">
-      <!-- Right bolt -->
-      <polyline
-        points="820,55 815,120 828,130 812,205 822,210 808,280"
-        fill="none" stroke="#d0e8f8" stroke-width="1.1" opacity="0.85"/>
-      <polyline
-        points="828,130 845,162 852,159"
-        fill="none" stroke="#d0e8f8" stroke-width="0.65" opacity="0.65"/>
-      <ellipse cx="820" cy="170" rx="55" ry="110"
-        fill="#3858a0" opacity="0.1" filter="url(#mg-cloud-blur-md)"/>
+      <polyline points="820,55 815,120 828,130 812,205 822,210 808,280" fill="none" stroke="#d0e8f8" stroke-width="1.1" opacity="0.85"/>
+      <polyline points="828,130 845,162 852,159" fill="none" stroke="#d0e8f8" stroke-width="0.65" opacity="0.65"/>
+      <ellipse cx="820" cy="170" rx="55" ry="110" fill="#3858a0" opacity="0.1" filter="url(#mg-cloud-blur-md)"/>
     </g>
 
-    <!-- ══════════════════════════════════════
-         RAIN — varied, clustered, monsoon-like
-    ══════════════════════════════════════ -->
-
-    <!-- Light, diffuse rain veil -->
+    <!-- ======================================
+         RAIN
+         ====================================== -->
     <g class="mg-rain-anim-slow" filter="url(#mg-rain-blur)" opacity="0.34">
       <line x1="38"   y1="286" x2="31"   y2="334" stroke="#a9c9dd" stroke-width="0.34"/>
       <line x1="104"  y1="304" x2="96"   y2="351" stroke="#a7c6da" stroke-width="0.32"/>
@@ -252,9 +224,7 @@ created: 2026-06-20
       <line x1="1150" y1="346" x2="1143" y2="395" stroke="#a7c6da" stroke-width="0.29"/>
     </g>
 
-    <!-- Main rain field with clusters and gaps -->
     <g class="mg-rain-anim" filter="url(#mg-rain-blur)" opacity="0.52">
-      <!-- Left cluster -->
       <line x1="56"  y1="296" x2="49"  y2="338" stroke="#b0cce0" stroke-width="0.52"/>
       <line x1="71"  y1="309" x2="63"  y2="358" stroke="#b7d4e5" stroke-width="0.56"/>
       <line x1="94"  y1="286" x2="88"  y2="330" stroke="#a8c8de" stroke-width="0.41"/>
@@ -262,15 +232,11 @@ created: 2026-06-20
       <line x1="146" y1="298" x2="138" y2="351" stroke="#aacce0" stroke-width="0.5"/>
       <line x1="173" y1="281" x2="166" y2="326" stroke="#b0cce0" stroke-width="0.4"/>
 
-      <!-- Gap -->
-
-      <!-- Left-centre moderate field -->
       <line x1="254" y1="302" x2="247" y2="348" stroke="#a8c8de" stroke-width="0.42"/>
       <line x1="286" y1="287" x2="279" y2="333" stroke="#b0cce0" stroke-width="0.39"/>
       <line x1="319" y1="312" x2="312" y2="361" stroke="#aacce0" stroke-width="0.48"/>
       <line x1="347" y1="292" x2="341" y2="338" stroke="#a8c8de" stroke-width="0.43"/>
 
-      <!-- Slightly heavier central curtain -->
       <line x1="404" y1="278" x2="397" y2="328" stroke="#bdd8e8" stroke-width="0.58"/>
       <line x1="419" y1="296" x2="411" y2="350" stroke="#b9d5e6" stroke-width="0.6"/>
       <line x1="437" y1="286" x2="429" y2="339" stroke="#aacce0" stroke-width="0.44"/>
@@ -279,13 +245,10 @@ created: 2026-06-20
       <line x1="487" y1="318" x2="479" y2="374" stroke="#c4ddeb" stroke-width="0.64"/>
       <line x1="506" y1="300" x2="499" y2="349" stroke="#aacce0" stroke-width="0.44"/>
 
-      <!-- Gap before centre-right -->
-
       <line x1="592" y1="286" x2="585" y2="334" stroke="#b0cce0" stroke-width="0.42"/>
       <line x1="617" y1="305" x2="609" y2="357" stroke="#a8c8de" stroke-width="0.46"/>
       <line x1="648" y1="291" x2="641" y2="340" stroke="#b4d0e2" stroke-width="0.43"/>
 
-      <!-- Heavy patch under right storm cell -->
       <line x1="730" y1="280" x2="722" y2="334" stroke="#c1dbea" stroke-width="0.58"/>
       <line x1="744" y1="295" x2="735" y2="352" stroke="#c8e0ed" stroke-width="0.67"/>
       <line x1="760" y1="287" x2="752" y2="340" stroke="#b6d3e4" stroke-width="0.5"/>
@@ -294,11 +257,9 @@ created: 2026-06-20
       <line x1="812" y1="311" x2="803" y2="370" stroke="#c8e0ed" stroke-width="0.66"/>
       <line x1="833" y1="293" x2="825" y2="347" stroke="#b4d0e2" stroke-width="0.48"/>
 
-      <!-- Broken field -->
       <line x1="902" y1="301" x2="895" y2="350" stroke="#aacce0" stroke-width="0.43"/>
       <line x1="938" y1="286" x2="930" y2="338" stroke="#b0cce0" stroke-width="0.45"/>
 
-      <!-- Far-right cluster -->
       <line x1="1018" y1="283" x2="1010" y2="335" stroke="#bdd8e8" stroke-width="0.55"/>
       <line x1="1035" y1="299" x2="1027" y2="353" stroke="#b6d3e4" stroke-width="0.5"/>
       <line x1="1053" y1="287" x2="1045" y2="340" stroke="#aacce0" stroke-width="0.43"/>
@@ -307,7 +268,6 @@ created: 2026-06-20
       <line x1="1122" y1="304" x2="1114" y2="359" stroke="#bdd8e8" stroke-width="0.55"/>
       <line x1="1156" y1="289" x2="1148" y2="342" stroke="#a8c8de" stroke-width="0.41"/>
 
-      <!-- Lower broken pass -->
       <line x1="128" y1="347" x2="120" y2="398" stroke="#a8c8de" stroke-width="0.39"/>
       <line x1="182" y1="362" x2="175" y2="414" stroke="#b0cce0" stroke-width="0.41"/>
       <line x1="298" y1="351" x2="290" y2="404" stroke="#aacce0" stroke-width="0.4"/>
@@ -321,7 +281,6 @@ created: 2026-06-20
       <line x1="1138" y1="346" x2="1130" y2="399" stroke="#aacce0" stroke-width="0.4"/>
     </g>
 
-    <!-- Fine, fast streaks for occasional monsoon intensity -->
     <g class="mg-rain-anim-fast" filter="url(#mg-rain-blur)" opacity="0.22">
       <line x1="82"   y1="272" x2="74"   y2="332" stroke="#d1e6f1" stroke-width="0.34"/>
       <line x1="162"  y1="286" x2="153"  y2="350" stroke="#d1e6f1" stroke-width="0.36"/>
@@ -338,10 +297,9 @@ created: 2026-06-20
       <line x1="1088" y1="340" x2="1079" y2="405" stroke="#d1e6f1" stroke-width="0.36"/>
     </g>
 
-    <!-- ══════════════════════════════════════
-         LANDSCAPE — lush green ground
-    ══════════════════════════════════════ -->
-    <!-- Ground fill -->
+    <!-- ======================================
+         LANDSCAPE
+         ====================================== -->
     <path d="M0,680 L0,530
       C60,510 100,500 140,505
       C180,510 200,500 240,495
@@ -358,7 +316,6 @@ created: 2026-06-20
       fill="url(#mg-ground-g)"
     />
 
-    <!-- Ground highlight band (where land meets rain-soaked sky) -->
     <path d="M0,540
       C60,520 100,512 140,517
       C180,522 200,512 240,507
@@ -385,7 +342,6 @@ created: 2026-06-20
       fill="#2a6338" opacity="0.6"
     />
 
-    <!-- Vegetation texture — Pahari hills distant -->
     <path d="M0,558 C40,540 70,535 95,545 C110,550 115,548 130,538
       C155,525 175,530 200,535 C220,540 230,535 255,528
       C280,521 300,530 325,528 C350,526 365,518 385,522
@@ -416,116 +372,52 @@ created: 2026-06-20
       fill="#1d4a28" opacity="0.75"
     />
 
-    <!-- ── Trees — revised to be clearly distinct and fully visible ── -->
-
-    <!-- Tree 1 — left, tall and slender, cypress-like miniature form -->
+    <!-- Tree 1 -->
     <g>
-      <!-- Trunk -->
-      <rect x="166" y="500" width="5" height="42"
-        fill="#0d2015" rx="2"/>
-
-      <!-- Narrow vertical canopy -->
-      <ellipse cx="168.5" cy="484" rx="22" ry="44"
-        fill="#16361d" opacity="0.93"/>
-      <ellipse cx="168.5" cy="469" rx="18" ry="35"
-        fill="#1d4824" opacity="0.88"/>
-      <ellipse cx="168.5" cy="454" rx="14" ry="28"
-        fill="#25592d" opacity="0.82"/>
-      <ellipse cx="168.5" cy="441" rx="10" ry="20"
-        fill="#2d6e36" opacity="0.77"/>
-      <ellipse cx="168.5" cy="432" rx="7" ry="13"
-        fill="#378742" opacity="0.72"/>
-
-      <!-- Subtle asymmetry, miniature style -->
-      <ellipse cx="162" cy="468" rx="7" ry="16"
-        fill="#1b4322" opacity="0.5"/>
-      <ellipse cx="174" cy="456" rx="6" ry="13"
-        fill="#2a6034" opacity="0.42"/>
-
-      <!-- Highlight -->
-      <ellipse cx="165.5" cy="446" rx="4" ry="8"
-        fill="#44a958" opacity="0.22"/>
+      <rect x="166" y="500" width="5" height="42" fill="#0d2015" rx="2"/>
+      <ellipse cx="168.5" cy="484" rx="22" ry="44" fill="#16361d" opacity="0.93"/>
+      <ellipse cx="168.5" cy="469" rx="18" ry="35" fill="#1d4824" opacity="0.88"/>
+      <ellipse cx="168.5" cy="454" rx="14" ry="28" fill="#25592d" opacity="0.82"/>
+      <ellipse cx="168.5" cy="441" rx="10" ry="20" fill="#2d6e36" opacity="0.77"/>
+      <ellipse cx="168.5" cy="432" rx="7" ry="13" fill="#378742" opacity="0.72"/>
+      <ellipse cx="162" cy="468" rx="7" ry="16" fill="#1b4322" opacity="0.5"/>
+      <ellipse cx="174" cy="456" rx="6" ry="13" fill="#2a6034" opacity="0.42"/>
+      <ellipse cx="165.5" cy="446" rx="4" ry="8" fill="#44a958" opacity="0.22"/>
     </g>
 
-    <!-- Tree 2 — right, broader and rounded, banyan/mango-like miniature form -->
+    <!-- Tree 2 -->
     <g>
-      <!-- Trunk and branching base -->
-      <rect x="1015" y="506" width="8" height="36"
-        fill="#0c1e14" rx="2"/>
-      <path d="M1019,505 C1018,494 1014,487 1008,482
-               C1013,488 1014,495 1014,505 Z"
-        fill="#0c1e14" opacity="0.8"/>
-      <path d="M1019,503 C1021,492 1026,486 1032,482
-               C1027,488 1025,495 1024,504 Z"
-        fill="#0c1e14" opacity="0.78"/>
-
-      <!-- Broad canopy -->
-      <ellipse cx="1019" cy="488" rx="47" ry="31"
-        fill="#17381d" opacity="0.92"/>
-      <ellipse cx="991"  cy="481" rx="22" ry="18"
-        fill="#1c4723" opacity="0.82"/>
-      <ellipse cx="1045" cy="480" rx="24" ry="19"
-        fill="#1c4723" opacity="0.82"/>
-      <ellipse cx="1019" cy="470" rx="38" ry="24"
-        fill="#215228" opacity="0.86"/>
-      <ellipse cx="996"  cy="466" rx="16" ry="14"
-        fill="#275e2e" opacity="0.76"/>
-      <ellipse cx="1041" cy="466" rx="17" ry="14"
-        fill="#275e2e" opacity="0.76"/>
-      <ellipse cx="1019" cy="454" rx="26" ry="18"
-        fill="#2f7338" opacity="0.74"/>
-      <ellipse cx="1019" cy="444" rx="16" ry="11"
-        fill="#388440" opacity="0.68"/>
-
-      <!-- Lower skirt to make it feel older and wider -->
-      <ellipse cx="1001" cy="498" rx="18" ry="10"
-        fill="#163a1d" opacity="0.5"/>
-      <ellipse cx="1036" cy="497" rx="19" ry="10"
-        fill="#163a1d" opacity="0.5"/>
-
-      <!-- Highlight -->
-      <ellipse cx="1013" cy="456" rx="6" ry="7"
-        fill="#4aa85a" opacity="0.24"/>
+      <rect x="1015" y="506" width="8" height="36" fill="#0c1e14" rx="2"/>
+      <path d="M1019,505 C1018,494 1014,487 1008,482 C1013,488 1014,495 1014,505 Z" fill="#0c1e14" opacity="0.8"/>
+      <path d="M1019,503 C1021,492 1026,486 1032,482 C1027,488 1025,495 1024,504 Z" fill="#0c1e14" opacity="0.78"/>
+      <ellipse cx="1019" cy="488" rx="47" ry="31" fill="#17381d" opacity="0.92"/>
+      <ellipse cx="991"  cy="481" rx="22" ry="18" fill="#1c4723" opacity="0.82"/>
+      <ellipse cx="1045" cy="480" rx="24" ry="19" fill="#1c4723" opacity="0.82"/>
+      <ellipse cx="1019" cy="470" rx="38" ry="24" fill="#215228" opacity="0.86"/>
+      <ellipse cx="996"  cy="466" rx="16" ry="14" fill="#275e2e" opacity="0.76"/>
+      <ellipse cx="1041" cy="466" rx="17" ry="14" fill="#275e2e" opacity="0.76"/>
+      <ellipse cx="1019" cy="454" rx="26" ry="18" fill="#2f7338" opacity="0.74"/>
+      <ellipse cx="1019" cy="444" rx="16" ry="11" fill="#388440" opacity="0.68"/>
+      <ellipse cx="1001" cy="498" rx="18" ry="10" fill="#163a1d" opacity="0.5"/>
+      <ellipse cx="1036" cy="497" rx="19" ry="10" fill="#163a1d" opacity="0.5"/>
+      <ellipse cx="1013" cy="456" rx="6" ry="7" fill="#4aa85a" opacity="0.24"/>
     </g>
 
-    <!-- Wet ground puddle glints — tiny horizontal ellipses -->
-    <ellipse cx="300" cy="565" rx="18" ry="3"
-      fill="#4080a0" opacity="0.15"/>
-    <ellipse cx="700" cy="570" rx="24" ry="3.5"
-      fill="#3878a0" opacity="0.14"/>
-    <ellipse cx="900" cy="560" rx="16" ry="2.5"
-      fill="#4080a0" opacity="0.13"/>
+    <!-- Wet ground puddle glints -->
+    <ellipse cx="300" cy="565" rx="18" ry="3" fill="#4080a0" opacity="0.15"/>
+    <ellipse cx="700" cy="570" rx="24" ry="3.5" fill="#3878a0" opacity="0.14"/>
+    <ellipse cx="900" cy="560" rx="16" ry="2.5" fill="#4080a0" opacity="0.13"/>
 
-    <!-- ── Low horizon mist ── -->
-    <rect x="0" y="500" width="1200" height="50"
-      fill="#0e2a20"
-      opacity="0.25"
-      filter="url(#mg-cloud-blur-md)"
-    />
+    <!-- Low horizon mist -->
+    <rect x="0" y="500" width="1200" height="50" fill="#0e2a20" opacity="0.25" filter="url(#mg-cloud-blur-md)"/>
 
-    <!-- ── Pahari border motif: subtle repeating diamond band ── -->
-    <!-- Top decorative band -->
-    <rect x="0" y="0" width="1200" height="6"
-      fill="none"
-      stroke="#c8a84b"
-      stroke-width="0.5"
-      stroke-dasharray="3,8"
-      opacity="0.35"
-    />
-    <!-- Bottom decorative band -->
-    <rect x="0" y="674" width="1200" height="6"
-      fill="none"
-      stroke="#c8a84b"
-      stroke-width="0.5"
-      stroke-dasharray="3,8"
-      opacity="0.35"
-    />
-
-  </svg><!-- end .mg-cloudscape -->
+    <!-- Decorative diamond bands -->
+    <rect x="0" y="0" width="1200" height="6" fill="none" stroke="#c8a84b" stroke-width="0.5" stroke-dasharray="3,8" opacity="0.35"/>
+    <rect x="0" y="674" width="1200" height="6" fill="none" stroke="#c8a84b" stroke-width="0.5" stroke-dasharray="3,8" opacity="0.35"/>
+  </svg>
 
   <!-- Decorative Pahari-style frame -->
   <div class="mg-frame" aria-hidden="true">
-    <!-- Corner ornaments (inline SVG) -->
     <svg class="mg-frame-corner mg-frame-corner--tl" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path d="M1 17 L1 1 L17 1" stroke="#c8a84b" stroke-width="1" stroke-opacity="0.6"/>
       <circle cx="1" cy="1" r="2" fill="#c8a84b" fill-opacity="0.5"/>
@@ -551,9 +443,7 @@ created: 2026-06-20
     <div class="mg-rule" aria-hidden="true"></div>
     <p class="mg-subtitle">A Monsoon in Search of Excellence at TSAP</p>
   </div>
-
 </section>
-<!-- end .mg-banner -->
 
 **Meghadutam** is a content enrichment event on The Sunil Abraham Project. The main difference is that Meghadutam does not count the number of articles created during the event period, unlike our other reports. Instead, it seeks to showcase the most excellent content created and enriched during the event. The name is inspired by *Meghadutam* by Kalidasa.
 
@@ -571,7 +461,6 @@ The event will continue throughout the monsoon season of 2026.
 ## Featured works
 <div class="mg-featured-item">
   <div class="mg-featured-date">Sunday, 21 June 2026</div>
-
   <p>
     <a href="/media/aadhaar-biometrique-liberation/">
       «En Inde, le biométrique version très grand public» (Biometrics in India Goes Mainstream)
@@ -581,7 +470,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Sunday, 21 June 2026</div>
-
   <p>
     <a href="/media/privacy-ruling-puts-tech-industry-on-notice-cnnmoney/">
       Privacy Ruling Puts Tech Industry on Notice
@@ -591,7 +479,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Wednesday, 24 June 2026</div>
-
   <p>
     <a href="/cis/annual-report-2014-15/">
       Centre for Internet and Society: Annual Report 2014–15
@@ -601,7 +488,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Thursday, 25 June 2026</div>
-
   <p>
     <a href="/amaa/tamil-nadu-deities-and-devotees-book-review/">
       Tamil Nadu: Deities and Devotees (Book Review)
@@ -611,7 +497,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Friday, 26 June 2026</div>
-
   <p>
     <a href="/amaa/the-church-and-the-study-of-religion/">
       The Church and the Study of Religion
@@ -621,7 +506,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Sunday, 28 June 2026</div>
-
   <p>
     <a href="/frederick/">
       Frederick
@@ -631,7 +515,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Wednesday, 1 July 2026</div>
-
   <p>
     <a href="/tsap/git-repository-corruption-recovery/">
       Git Repository Corruption Recovery
@@ -644,7 +527,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Saturday, 4 July 2026</div>
-
   <p>
     <a href="/cis/18/">
       Centre for Internet and Society: 18th Anniversary
@@ -654,7 +536,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Monday, 6 July 2026</div>
-
   <p>
     <a href="/amaa/sacrafanations/">
       Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics
@@ -664,7 +545,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Tuesday, 7 July 2026</div>
-
   <p>
     <a href="/vinayaraj/">
       Y. T. Vinayaraj
@@ -674,7 +554,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Wednesday, 8 July 2026</div>
-
   <p>
     <a href="/amaa/the-dalit-desiyata/">
       The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle
@@ -684,7 +563,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Friday, 10 July 2026</div>
-
   <p>
     <a href="/amaa/unfinished-manuscript/">
       Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)
@@ -694,7 +572,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Saturday, 11 July 2026</div>
-
   <p>
     <a href="/sunil/speaks/">
       Template:Sunil Speaks
@@ -704,7 +581,6 @@ The event will continue throughout the monsoon season of 2026.
 
 <div class="mg-featured-item">
   <div class="mg-featured-date">Sunday, 12 July 2026</div>
-
   <p>
     <a href="/tsap/status-monitoring-system/">
       TSAP Status Monitoring System (Documentation)
@@ -715,12 +591,9 @@ The event will continue throughout the monsoon season of 2026.
 <style>
   /* ============================================================
      MEGHADUTAM 2026 — TSAP Hero Banner
-     Monsoon atmosphere, Rajput/Pahari miniature inspiration
-     Self-contained: HTML + CSS + inline SVG only
      ============================================================ */
 
   :root {
-    /* Monsoon palette */
     --mg-sky-deep:      #0b1220;
     --mg-sky-mid:       #1a2540;
     --mg-cloud-dark:    #1e2d4a;
@@ -740,11 +613,9 @@ The event will continue throughout the monsoon season of 2026.
     --mg-border-gold:   rgba(200, 168, 75, 0.35);
     --mg-border-subtle: rgba(180, 200, 220, 0.12);
 
-    /* Type */
     --font-display: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
     --font-body:    'Georgia', serif;
 
-    /* Fluid type */
     --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
     --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
     --text-base: clamp(1rem,     0.95rem + 0.25vw, 1.125rem);
@@ -754,14 +625,12 @@ The event will continue throughout the monsoon season of 2026.
     --text-3xl:  clamp(2.5rem,   1rem    + 4vw,    5rem);
   }
 
-  /* Reset for banner context */
   .mg-banner *, .mg-banner *::before, .mg-banner *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
-  /* ── Outer wrapper ─────────────────────────────────────────── */
   .mg-banner {
     position: relative;
     width: 100%;
@@ -773,7 +642,6 @@ The event will continue throughout the monsoon season of 2026.
     isolation: isolate;
   }
 
-  /* ── Sky gradient ──────────────────────────────────────────── */
   .mg-sky {
     position: absolute;
     inset: 0;
@@ -790,7 +658,6 @@ The event will continue throughout the monsoon season of 2026.
     z-index: 0;
   }
 
-  /* ── Star layer (very subtle) ──────────────────────────────── */
   .mg-stars {
     position: absolute;
     inset: 0;
@@ -798,7 +665,6 @@ The event will continue throughout the monsoon season of 2026.
     opacity: 0.5;
   }
 
-  /* ── SVG cloud scene ───────────────────────────────────────── */
   .mg-cloudscape {
     position: absolute;
     inset: 0;
@@ -807,7 +673,6 @@ The event will continue throughout the monsoon season of 2026.
     z-index: 2;
   }
 
-  /* ── Rain overlay ──────────────────────────────────────────── */
   .mg-rain-layer {
     position: absolute;
     inset: 0;
@@ -821,7 +686,6 @@ The event will continue throughout the monsoon season of 2026.
     height: 100%;
   }
 
-  /* ── Ground / landscape ────────────────────────────────────── */
   .mg-ground {
     position: absolute;
     bottom: 0;
@@ -830,7 +694,6 @@ The event will continue throughout the monsoon season of 2026.
     z-index: 5;
   }
 
-  /* ── Decorative border frame ───────────────────────────────── */
   .mg-frame {
     position: absolute;
     inset: clamp(12px, 2vw, 22px);
@@ -846,18 +709,17 @@ The event will continue throughout the monsoon season of 2026.
     border: 1px solid var(--mg-border-subtle);
   }
 
-  /* Corner ornaments */
   .mg-frame-corner {
     position: absolute;
     width: 18px;
     height: 18px;
+    transform-origin: center; /* Stabilizes CSS flips on scaling elements */
   }
   .mg-frame-corner--tl { top: -1px; left: -1px; }
   .mg-frame-corner--tr { top: -1px; right: -1px; transform: scaleX(-1); }
   .mg-frame-corner--bl { bottom: -1px; left: -1px; transform: scaleY(-1); }
   .mg-frame-corner--br { bottom: -1px; right: -1px; transform: scale(-1); }
 
-  /* ── Typography container ──────────────────────────────────── */
   .mg-text-block {
     position: relative;
     z-index: 10;
@@ -870,7 +732,6 @@ The event will continue throughout the monsoon season of 2026.
     text-align: center;
   }
 
-  /* Eyebrow */
   .mg-eyebrow {
     font-family: var(--font-body);
     font-size: var(--text-xs);
@@ -882,7 +743,6 @@ The event will continue throughout the monsoon season of 2026.
     margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
   }
 
-  /* Title */
   .mg-title {
     font-family: var(--font-display);
     font-size: clamp(2rem, 4vw, 4rem);
@@ -897,7 +757,6 @@ The event will continue throughout the monsoon season of 2026.
     margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
   }
 
-  /* Thin divider rule */
   .mg-rule {
     width: clamp(48px, 8vw, 80px);
     height: 1px;
@@ -913,7 +772,6 @@ The event will continue throughout the monsoon season of 2026.
     opacity: 0.7;
   }
 
-  /* Subtitle */
   .mg-subtitle {
     font-family: var(--font-display);
     font-size: var(--text-lg);
@@ -928,7 +786,6 @@ The event will continue throughout the monsoon season of 2026.
     max-width: 38ch;
   }
 
-  /* Fine print */
   .mg-caption {
     font-family: var(--font-body);
     font-size: var(--text-xs);
@@ -939,119 +796,72 @@ The event will continue throughout the monsoon season of 2026.
     margin-top: clamp(0.25rem, 1vw, 0.5rem);
   }
 
-  /* ── Animations ────────────────────────────────────────────── */
-
+  /* —— Animations —— */
   @keyframes mg-rain-fall {
     from { transform: translateY(-120px); }
     to   { transform: translateY(0px); }
   }
-
   @keyframes mg-rain-fall-slow {
     from { transform: translateY(-105px); }
     to   { transform: translateY(0px); }
   }
-
   @keyframes mg-rain-fall-fast {
     from { transform: translateY(-138px); }
     to   { transform: translateY(0px); }
   }
-
   @keyframes mg-cloud-drift-slow {
     0%   { transform: translateX(0); }
     50%  { transform: translateX(-12px); }
     100% { transform: translateX(0); }
   }
-
   @keyframes mg-cloud-drift-med {
     0%   { transform: translateX(0); }
     50%  { transform: translateX(10px); }
     100% { transform: translateX(0); }
   }
-
   @keyframes mg-lightning-flash {
     0%, 92%, 96%, 100% { opacity: 0; }
     93%                { opacity: 0.6; }
     94%                { opacity: 0.1; }
     95%                { opacity: 0.5; }
   }
-
   @keyframes mg-text-rise {
-    from {
-      opacity: 0;
-      transform: translateY(18px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
   }
-
   @keyframes mg-shimmer {
     0%, 100% { opacity: 0.75; }
     50%       { opacity: 1; }
   }
 
-  /* Apply drift to cloud groups */
   .mg-cloud-back  { animation: mg-cloud-drift-slow 22s ease-in-out infinite; }
   .mg-cloud-mid-g { animation: mg-cloud-drift-med  16s ease-in-out infinite 2s; }
   .mg-cloud-fore  { animation: mg-cloud-drift-slow 19s ease-in-out infinite 5s; }
 
-  /* Lightning group */
-  .mg-lightning-group {
-    animation: mg-lightning-flash 6s ease-in-out infinite 4s;
-  }
-  .mg-lightning-group-2 {
-    animation: mg-lightning-flash 10s ease-in-out infinite 1s;
-  }
+  .mg-lightning-group { animation: mg-lightning-flash 6s ease-in-out infinite 4s; }
+  .mg-lightning-group-2 { animation: mg-lightning-flash 10s ease-in-out infinite 1s; }
 
-  /* Rain SVG groups animate at slightly different rates */
-  .mg-rain-anim {
-    animation: mg-rain-fall 0.7s linear infinite;
-  }
+  .mg-rain-anim { animation: mg-rain-fall 0.7s linear infinite; }
+  .mg-rain-anim-slow { animation: mg-rain-fall-slow 0.92s linear infinite; }
+  .mg-rain-anim-fast { animation: mg-rain-fall-fast 0.56s linear infinite; }
 
-  .mg-rain-anim-slow {
-    animation: mg-rain-fall-slow 0.92s linear infinite;
-  }
-
-  .mg-rain-anim-fast {
-    animation: mg-rain-fall-fast 0.56s linear infinite;
-  }
-
-  /* Text entrance */
-  .mg-eyebrow   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s; }
+  .mg-eyebrow   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s, mg-shimmer 4s ease-in-out infinite 2s; }
   .mg-title     { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.55s; }
   .mg-rule      { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.75s; }
   .mg-subtitle  { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.9s; }
   .mg-caption   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 1.1s; }
 
-  /* Gold eyebrow shimmer */
-  .mg-eyebrow { animation:
-    mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s,
-    mg-shimmer 4s ease-in-out infinite 2s;
-  }
-
-  /* Reduced motion: disable all animations */
   @media (prefers-reduced-motion: reduce) {
-    .mg-cloud-back,
-    .mg-cloud-mid-g,
-    .mg-cloud-fore,
-    .mg-lightning-group,
-    .mg-lightning-group-2,
-    .mg-rain-anim,
-    .mg-rain-anim-slow,
-    .mg-rain-anim-fast,
-    .mg-eyebrow,
-    .mg-title,
-    .mg-rule,
-    .mg-subtitle,
-    .mg-caption {
+    .mg-cloud-back, .mg-cloud-mid-g, .mg-cloud-fore,
+    .mg-lightning-group, .mg-lightning-group-2,
+    .mg-rain-anim, .mg-rain-anim-slow, .mg-rain-anim-fast,
+    .mg-eyebrow, .mg-title, .mg-rule, .mg-subtitle, .mg-caption {
       animation: none !important;
       opacity: 1 !important;
       transform: none !important;
     }
   }
 
-  /* Responsive adjustments */
   @media (max-width: 480px) {
     .mg-frame { inset: 8px; }
     .mg-frame-corner { width: 13px; height: 13px; }
@@ -1062,7 +872,6 @@ The event will continue throughout the monsoon season of 2026.
     margin: 2.5rem auto 3rem auto;
     max-width: 42rem;
   }
-
   .mg-epigraph p {
     margin: 0;
     font-size: clamp(1rem, 2.5vw, 1.2rem);
@@ -1071,60 +880,41 @@ The event will continue throughout the monsoon season of 2026.
   }
 
   /* ============================================================
-     MEGHADUTAM 2026 — Featured Works: Monsoon Chronicle Entries
-     Redesigned: stronger visual identity per variant,
-     monsoon-led palette, gold as secondary accent only
+     MEGHADUTAM 2026 — Featured Works
      ============================================================ */
 
-  /* ── Shared keyframes ──────────────────────────────────────── */
-
-  /* Slow cloud-like lateral sway */
   @keyframes mg-fe-cloud-sway {
     0%, 100% { transform: translateX(0); }
     40%       { transform: translateX(3px); }
     70%       { transform: translateX(-2px); }
   }
-
-  /* Rain curtain scrolling diagonally downward */
   @keyframes mg-fe-rain-scroll {
     from { background-position: 0 0; }
     to   { background-position: -30px 120px; }
   }
-
-  /* Mist pulse — opacity swell, slow */
   @keyframes mg-fe-mist-pulse {
     0%, 100% { opacity: 0.55; }
     50%       { opacity: 1; }
   }
-
-  /* Horizon line breathe — border darkens and returns */
   @keyframes mg-fe-horizon-breathe {
     0%, 100% { border-bottom-color: rgba(42, 99, 56, 0.35); }
     50%       { border-bottom-color: rgba(42, 99, 56, 0.72); }
   }
-
-  /* Left rule wash — left border swells in brightness */
   @keyframes mg-fe-rule-wash {
     0%, 100% { border-left-color: rgba(74, 112, 148, 0.4); }
     50%       { border-left-color: rgba(74, 112, 148, 0.8); }
   }
-
-  /* Slow inward fade for mist entries */
   @keyframes mg-fe-veil-drift {
     0%, 100% { opacity: 0.5; transform: scaleX(1); }
     50%       { opacity: 1;   transform: scaleX(1.015); }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .mg-featured-item,
-    .mg-featured-item::before,
-    .mg-featured-item::after {
+    .mg-featured-item, .mg-featured-item::before, .mg-featured-item::after {
       animation: none !important;
       transition: none !important;
     }
   }
-
-  /* ── Base shared styles ────────────────────────────────────── */
 
   .mg-featured-item {
     position: relative;
@@ -1134,16 +924,13 @@ The event will continue throughout the monsoon season of 2026.
     box-sizing: border-box;
     max-width: 100%;
     line-height: 1.7;
-    /* Reset border — each variant defines its own */
     border: none;
   }
 
-  /* Dividing line between entries: a fine rain-grey rule */
   .mg-featured-item + .mg-featured-item {
     border-top: 1px solid rgba(160, 195, 220, 0.14);
   }
 
-  /* Date line — slate-rain tone as base, variants may shift hue */
   .mg-featured-date {
     display: block;
     font-size: 0.75rem;
@@ -1154,106 +941,56 @@ The event will continue throughout the monsoon season of 2026.
     color: #7a9eb8;
   }
 
-  /* Paragraph text — readable against the page's light background */
-  .mg-featured-item p {
-    margin: 0;
-    color: inherit;
-  }
-
-  /* Links */
+  .mg-featured-item p { margin: 0; color: inherit; }
   .mg-featured-item a {
     color: #3a7ca8;
     text-decoration: none;
     border-bottom: 1px solid rgba(58, 124, 168, 0.35);
     transition: color 180ms ease, border-bottom-color 180ms ease;
   }
-
-  .mg-featured-item a:hover,
-  .mg-featured-item a:focus-visible {
+  .mg-featured-item a:hover, .mg-featured-item a:focus-visible {
     color: #1e5f8a;
     border-bottom-color: rgba(30, 95, 138, 0.65);
   }
-
-  /* Accessible focus ring — rain-blue */
   .mg-featured-item a:focus-visible {
     outline: 2px solid rgba(58, 124, 168, 0.8);
     outline-offset: 2px;
     border-radius: 1px;
   }
 
-  /* ══════════════════════════════════════════════════════════════
-     VARIANT 1 — Heavy rain curtain
-     A dense diagonal rain-line texture fills the left third.
-     Left rule: strong slate-blue. Date: rain grey.
-     ============================================================== */
+  /* Variant 1 */
   .mg-featured-item:nth-child(8n+1) {
     border-left: 3px solid rgba(74, 112, 148, 0.7);
     padding-left: 1.6rem;
     animation: mg-fe-rule-wash 8s ease-in-out infinite;
   }
-
   .mg-featured-item:nth-child(8n+1)::before {
     content: '';
     position: absolute;
-    top: 0; left: 0;
-    width: 56px;
-    height: 100%;
-    background-image: repeating-linear-gradient(
-      168deg,
-      transparent 0px,
-      transparent 7px,
-      rgba(160, 200, 228, 0.11) 7px,
-      rgba(160, 200, 228, 0.11) 8px
-    );
+    top: 0; left: 0; width: 56px; height: 100%;
+    background-image: repeating-linear-gradient(168deg, transparent 0px, transparent 7px, rgba(160, 200, 228, 0.11) 7px, rgba(160, 200, 228, 0.11) 8px);
     animation: mg-fe-rain-scroll 2s linear infinite;
     pointer-events: none;
   }
+  .mg-featured-item:nth-child(8n+1) .mg-featured-date { color: #6a9ab8; }
 
-  .mg-featured-item:nth-child(8n+1) .mg-featured-date {
-    color: #6a9ab8;
-  }
-
-  /* ══════════════════════════════════════════════════════════════
-     VARIANT 2 — Deep cloud layer
-     Dark indigo-grey wash, left rule in deep cloud colour.
-     Evokes the banner's heaviest cloud masses.
-     ============================================================== */
+  /* Variant 2 */
   .mg-featured-item:nth-child(8n+2) {
     border-left: 4px solid rgba(35, 52, 78, 0.7);
     padding-left: 1.6rem;
-    background: linear-gradient(
-      to right,
-      rgba(26, 37, 58, 0.09) 0%,
-      rgba(26, 37, 58, 0.04) 30%,
-      transparent 60%
-    );
+    background: linear-gradient(to right, rgba(26, 37, 58, 0.09) 0%, rgba(26, 37, 58, 0.04) 30%, transparent 60%);
     animation: mg-fe-cloud-sway 18s ease-in-out infinite;
   }
-
   .mg-featured-item:nth-child(8n+2)::before {
     content: '';
     position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(
-      ellipse 70% 80% at 0% 50%,
-      rgba(30, 45, 74, 0.1) 0%,
-      transparent 100%
-    );
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: radial-gradient(ellipse 70% 80% at 0% 50%, rgba(30, 45, 74, 0.1) 0%, transparent 100%);
     pointer-events: none;
   }
+  .mg-featured-item:nth-child(8n+2) .mg-featured-date { color: #8da8c4; letter-spacing: 0.2em; }
 
-  .mg-featured-item:nth-child(8n+2) .mg-featured-date {
-    color: #8da8c4;
-    letter-spacing: 0.2em;
-  }
-
-  /* ══════════════════════════════════════════════════════════════
-     VARIANT 3 — Mountain horizon
-     Bold bottom-line in deep monsoon green.
-     No left border. Spacious, ground-level feeling.
-     ============================================================== */
+  /* Variant 3 */
   .mg-featured-item:nth-child(8n+3) {
     border-left: none;
     border-bottom: 2px solid rgba(42, 99, 56, 0.55);
@@ -1261,306 +998,115 @@ The event will continue throughout the monsoon season of 2026.
     padding-bottom: 1.3rem;
     animation: mg-fe-horizon-breathe 12s ease-in-out infinite;
   }
-
-  .mg-featured-item:nth-child(8n+3) + .mg-featured-item {
-    border-top: none;
-  }
-
-  /* A faint green horizon wash at the foot */
+  .mg-featured-item:nth-child(8n+3) + .mg-featured-item { border-top: none; }
   .mg-featured-item:nth-child(8n+3)::after {
     content: '';
     position: absolute;
-    bottom: 0; left: 0; right: 0;
-    height: 28px;
-    background: linear-gradient(
-      to top,
-      rgba(26, 66, 38, 0.09),
-      transparent
-    );
+    bottom: 0; left: 0; right: 0; height: 28px;
+    background: linear-gradient(to top, rgba(26, 66, 38, 0.09), transparent);
     pointer-events: none;
   }
+  .mg-featured-item:nth-child(8n+3) .mg-featured-date { color: #6fa880; }
+  .mg-featured-item:nth-child(8n+3) a { color: #3a8c58; border-bottom-color: rgba(58, 140, 88, 0.35); }
+  .mg-featured-item:nth-child(8n+3) a:hover, .mg-featured-item:nth-child(8n+3) a:focus-visible { color: #266840; border-bottom-color: rgba(38, 104, 64, 0.65); }
+  .mg-featured-item:nth-child(8n+3) a:focus-visible { outline-color: rgba(58, 140, 88, 0.8); }
 
-  .mg-featured-item:nth-child(8n+3) .mg-featured-date {
-    color: #6fa880;
-  }
-
-  .mg-featured-item:nth-child(8n+3) a {
-    color: #3a8c58;
-    border-bottom-color: rgba(58, 140, 88, 0.35);
-  }
-
-  .mg-featured-item:nth-child(8n+3) a:hover,
-  .mg-featured-item:nth-child(8n+3) a:focus-visible {
-    color: #266840;
-    border-bottom-color: rgba(38, 104, 64, 0.65);
-  }
-
-  .mg-featured-item:nth-child(8n+3) a:focus-visible {
-    outline-color: rgba(58, 140, 88, 0.8);
-  }
-
-  /* ══════════════════════════════════════════════════════════════
-     VARIANT 4 — Low mist / horizon veil
-     Full-width mist strip rising from the bottom.
-     Soft blue-grey tonal wash with animated pulse.
-     ============================================================== */
+  /* Variant 4 */
   .mg-featured-item:nth-child(8n+4) {
     border-left: 2px solid rgba(120, 155, 185, 0.45);
     padding-left: 1.5rem;
   }
-
   .mg-featured-item:nth-child(8n+4)::before {
     content: '';
     position: absolute;
-    bottom: 0; left: 0; right: 0;
-    height: 55%;
-    background: linear-gradient(
-      to top,
-      rgba(26, 48, 72, 0.1) 0%,
-      rgba(30, 50, 78, 0.05) 50%,
-      transparent 100%
-    );
+    bottom: 0; left: 0; right: 0; height: 55%;
+    background: linear-gradient(to top, rgba(26, 48, 72, 0.1) 0%, rgba(30, 50, 78, 0.05) 50%, transparent 100%);
     animation: mg-fe-veil-drift 11s ease-in-out infinite 1s;
     pointer-events: none;
     transform-origin: bottom center;
   }
+  .mg-featured-item:nth-child(8n+4) .mg-featured-date { color: #7fa8c4; letter-spacing: 0.15em; }
 
-  .mg-featured-item:nth-child(8n+4) .mg-featured-date {
-    color: #7fa8c4;
-    letter-spacing: 0.15em;
-  }
-
-  /* ══════════════════════════════════════════════════════════════
-     VARIANT 5 — Wide-margin rain scatter
-     Full-width rain lines across the entry, low opacity,
-     resembling rain through a window on wet paper.
-     ============================================================== */
+  /* Variant 5 */
   .mg-featured-item:nth-child(8n+5) {
     border-left: 1px solid rgba(140, 180, 210, 0.4);
     padding-left: 1.5rem;
-    background-image: repeating-linear-gradient(
-      170deg,
-      transparent 0px,
-      transparent 22px,
-      rgba(155, 196, 224, 0.07) 22px,
-      rgba(155, 196, 224, 0.07) 23px
-    );
+    background-image: repeating-linear-gradient(170deg, transparent 0px, transparent 22px, rgba(155, 196, 224, 0.07) 22px, rgba(155, 196, 224, 0.07) 23px);
     animation: mg-fe-rain-scroll 3.5s linear infinite;
   }
+  .mg-featured-item:nth-child(8n+5) .mg-featured-date { color: #6898b8; letter-spacing: 0.13em; }
 
-  .mg-featured-item:nth-child(8n+5) .mg-featured-date {
-    color: #6898b8;
-    letter-spacing: 0.13em;
-  }
-
-  /* ══════════════════════════════════════════════════════════════
-     VARIANT 6 — Gold Pahari accent (secondary; used sparingly)
-     Echoes the banner's frame. Top rule only — miniature
-     border-band convention. Gold date. No left border.
-     ============================================================== */
+  /* Variant 6 */
   .mg-featured-item:nth-child(8n+6) {
     border-left: none;
     border-top: 1px solid rgba(200, 168, 75, 0.42);
     padding-left: 0.9rem;
     padding-top: 1.2rem;
   }
-
-  .mg-featured-item:nth-child(8n+6) + .mg-featured-item {
-    border-top: none;
-  }
-
-  /* Gold gradient bloom on the top rule */
+  .mg-featured-item:nth-child(8n+6) + .mg-featured-item { border-top: none; }
   .mg-featured-item:nth-child(8n+6)::before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 1px;
-    background: linear-gradient(
-      to right,
-      transparent 0%,
-      rgba(158, 126, 54, 0.4) 10%,
-      rgba(200, 168, 75, 0.75) 35%,
-      rgba(210, 178, 90, 0.85) 50%,
-      rgba(200, 168, 75, 0.75) 65%,
-      rgba(158, 126, 54, 0.4) 90%,
-      transparent 100%
-    );
+    top: 0; left: 0; right: 0; height: 1px;
+    background: linear-gradient(to right, transparent 0%, rgba(158, 126, 54, 0.4) 10%, rgba(200, 168, 75, 0.75) 35%, rgba(210, 178, 90, 0.85) 50%, rgba(200, 168, 75, 0.75) 65%, rgba(158, 126, 54, 0.4) 90%, transparent 100% );
     pointer-events: none;
   }
+  .mg-featured-item:nth-child(8n+6) .mg-featured-date { color: #c8a84b; letter-spacing: 0.22em; }
+  .mg-featured-item:nth-child(8n+6) a { color: #9e7e36; border-bottom-color: rgba(158, 126, 54, 0.38); }
+  .mg-featured-item:nth-child(8n+6) a:hover, .mg-featured-item:nth-child(8n+6) a:focus-visible { color: #7a5e28; border-bottom-color: rgba(122, 94, 40, 0.65); }
+  .mg-featured-item:nth-child(8n+6) a:focus-visible { outline-color: rgba(200, 168, 75, 0.8); }
 
-  .mg-featured-item:nth-child(8n+6) .mg-featured-date {
-    color: #c8a84b;
-    letter-spacing: 0.22em;
-  }
-
-  .mg-featured-item:nth-child(8n+6) a {
-    color: #9e7e36;
-    border-bottom-color: rgba(158, 126, 54, 0.38);
-  }
-
-  .mg-featured-item:nth-child(8n+6) a:hover,
-  .mg-featured-item:nth-child(8n+6) a:focus-visible {
-    color: #7a5e28;
-    border-bottom-color: rgba(122, 94, 40, 0.65);
-  }
-
-  .mg-featured-item:nth-child(8n+6) a:focus-visible {
-    outline-color: rgba(200, 168, 75, 0.8);
-  }
-
-  /* ══════════════════════════════════════════════════════════════
-     VARIANT 7 — Storm-anvil top mass
-     Thick top border in deep cloud-blue, with a radial glow
-     descending from it — the underside of a cumulonimbus.
-     ============================================================== */
+  /* Variant 7 */
   .mg-featured-item:nth-child(8n+7) {
     border-left: none;
     border-top: 3px solid rgba(28, 45, 70, 0.75);
     padding-left: 0.9rem;
     padding-top: 1.2rem;
   }
-
-  .mg-featured-item:nth-child(8n+7) + .mg-featured-item {
-    border-top: none;
-  }
-
+  .mg-featured-item:nth-child(8n+7) + .mg-featured-item { border-top: none; }
   .mg-featured-item:nth-child(8n+7)::before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 40px;
-    background: linear-gradient(
-      to bottom,
-      rgba(22, 36, 58, 0.14) 0%,
-      transparent 100%
-    );
+    top: 0; left: 0; right: 0; height: 40px;
+    background: linear-gradient(to bottom, rgba(22, 36, 58, 0.14) 0%, transparent 100%);
     pointer-events: none;
     animation: mg-fe-mist-pulse 10s ease-in-out infinite 2s;
   }
+  .mg-featured-item:nth-child(8n+7) .mg-featured-date { color: #8aaac8; letter-spacing: 0.17em; }
 
-  .mg-featured-item:nth-child(8n+7) .mg-featured-date {
-    color: #8aaac8;
-    letter-spacing: 0.17em;
-  }
-
-  /* ══════════════════════════════════════════════════════════════
-     VARIANT 8 — Wet earth / monsoon-drenched ground
-     Left border in deep wet-soil green. Bottom receives a damp
-     earth wash. Earthy, grounded in the landscape band.
-     ============================================================== */
+  /* Variant 8 (Unified to 8n+0 to match layout overrides) */
   .mg-featured-item:nth-child(8n+0) {
     border-left: 3px solid rgba(15, 48, 30, 0.65);
     padding-left: 1.6rem;
-    background: linear-gradient(
-      to right,
-      rgba(13, 43, 24, 0.08) 0%,
-      transparent 25%
-    );
+    background: linear-gradient(to right, rgba(13, 43, 24, 0.08) 0%, transparent 25%);
   }
-
   .mg-featured-item:nth-child(8n+0)::after {
     content: '';
     position: absolute;
-    bottom: 0; left: 0; right: 0;
-    height: 3px;
-    background: linear-gradient(
-      to right,
-      rgba(26, 66, 38, 0.45),
-      rgba(42, 99, 56, 0.28) 50%,
-      rgba(26, 66, 38, 0.45)
-    );
+    bottom: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(to right, rgba(26, 66, 38, 0.45), rgba(42, 99, 56, 0.28) 50%, rgba(26, 66, 38, 0.45));
     pointer-events: none;
   }
+  .mg-featured-item:nth-child(8n+0) .mg-featured-date { color: #5a9870; letter-spacing: 0.16em; }
+  .mg-featured-item:nth-child(8n+0) a { color: #2e7a4a; border-bottom-color: rgba(46, 122, 74, 0.35); }
+  .mg-featured-item:nth-child(8n+0) a:hover, .mg-featured-item:nth-child(8n+0) a:focus-visible { color: #1a5a34; border-bottom-color: rgba(26, 90, 52, 0.65); }
+  .mg-featured-item:nth-child(8n+0) a:focus-visible { outline-color: rgba(46, 122, 74, 0.8); }
 
-  .mg-featured-item:nth-child(8n+0) .mg-featured-date {
-    color: #5a9870;
-    letter-spacing: 0.16em;
-  }
-
-  .mg-featured-item:nth-child(8n+0) a {
-    color: #2e7a4a;
-    border-bottom-color: rgba(46, 122, 74, 0.35);
-  }
-
-  .mg-featured-item:nth-child(8n+0) a:hover,
-  .mg-featured-item:nth-child(8n+0) a:focus-visible {
-    color: #1a5a34;
-    border-bottom-color: rgba(26, 90, 52, 0.65);
-  }
-
-  .mg-featured-item:nth-child(8n+0) a:focus-visible {
-    outline-color: rgba(46, 122, 74, 0.8);
-  }
-
-  /* ── Mobile ────────────────────────────────────────────────── */
   @media (max-width: 640px) {
-    .mg-featured-item {
-      padding-left: 1rem;
-      padding-right: 0.5rem;
-    }
-
-    .mg-featured-item:nth-child(8n+1),
-    .mg-featured-item:nth-child(8n+2),
-    .mg-featured-item:nth-child(8n+0) {
-      padding-left: 1.1rem;
-    }
-
-    .mg-featured-item:nth-child(8n+3),
-    .mg-featured-item:nth-child(8n+6),
-    .mg-featured-item:nth-child(8n+7) {
-      padding-left: 0.75rem;
-    }
-
-    .mg-featured-date {
-      letter-spacing: 0.1em;
-    }
+    .mg-featured-item { padding-left: 1rem; padding-right: 0.5rem; }
+    .mg-featured-item:nth-child(8n+1), .mg-featured-item:nth-child(8n+2), .mg-featured-item:nth-child(8n+0) { padding-left: 1.1rem; }
+    .mg-featured-item:nth-child(8n+3), .mg-featured-item:nth-child(8n+6), .mg-featured-item:nth-child(8n+7) { padding-left: 0.75rem; }
+    .mg-featured-date { letter-spacing: 0.1em; }
   }
 
   /* =========================================================
      Active Class Architecture Dark Mode Overrides
      ========================================================= */
-
-  body.tsap-dark-mode .mg-epigraph p {
-    color: var(--text-muted) !important;
-  }
-
-  body.tsap-dark-mode .mg-featured-item {
-    color: var(--text-main) !important;
-    border-top-color: rgba(255, 255, 255, 0.08) !important;
-  }
-
-  body.tsap-dark-mode .mg-featured-item a {
-    color: #38bdf8 !important;
-    border-bottom-color: rgba(56, 189, 248, 0.35) !important;
-  }
-
-  body.tsap-dark-mode .mg-featured-item a:hover {
-    color: #7dd3fc !important;
-    border-bottom-color: rgba(125, 211, 252, 0.65) !important;
-    text-decoration: none !important;
-  }
-
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+2) {
-    background: linear-gradient(
-      to right,
-      rgba(56, 189, 248, 0.05) 0%,
-      transparent 60%
-    ) !important;
-  }
-
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+4)::before {
-    background: linear-gradient(
-      to top,
-      rgba(30, 41, 59, 0.6) 0%,
-      transparent 100%
-    ) !important;
-  }
-
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+8) {
-    background: linear-gradient(
-      to right,
-      rgba(42, 99, 56, 0.1) 0%,
-      transparent 25%
-    ) !important;
-  }
+  body.tsap-dark-mode .mg-epigraph p { color: var(--text-muted) !important; }
+  body.tsap-dark-mode .mg-featured-item { color: var(--text-main) !important; border-top-color: rgba(255, 255, 255, 0.08) !important; }
+  body.tsap-dark-mode .mg-featured-item a { color: #38bdf8 !important; border-bottom-color: rgba(56, 189, 248, 0.35) !important; }
+  body.tsap-dark-mode .mg-featured-item a:hover { color: #7dd3fc !important; border-bottom-color: rgba(125, 211, 252, 0.65) !important; text-decoration: none !important; }
+  body.tsap-dark-mode .mg-featured-item:nth-child(8n+2) { background: linear-gradient(to right, rgba(56, 189, 248, 0.05) 0%, transparent 60%) !important; }
+  body.tsap-dark-mode .mg-featured-item:nth-child(8n+4)::before { background: linear-gradient(to top, rgba(30, 41, 59, 0.6) 0%, transparent 100%) !important; }
+  body.tsap-dark-mode .mg-featured-item:nth-child(8n+0) { background: linear-gradient(to right, rgba(42, 99, 56, 0.1) 0%, transparent 25%) !important; }
 </style>
