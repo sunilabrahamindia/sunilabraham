@@ -714,145 +714,811 @@ The event will continue throughout the monsoon season of 2026.
 
 <style>
   /* ============================================================
-     MEGHADUTAM 2026 — Featured Works: Monsoon Chronicle Entries
-     Static redesign: no motion, 8 distinct colour identities,
-     dark-mode aware via CSS variables, mobile-first spacing
+     MEGHADUTAM 2026 — TSAP Hero Banner
+     Monsoon atmosphere, Rajput/Pahari miniature inspiration
+     Self-contained: HTML + CSS + inline SVG only
      ============================================================ */
+
+  :root {
+    /* Monsoon palette */
+    --mg-sky-deep:      #0b1220;
+    --mg-sky-mid:       #1a2540;
+    --mg-cloud-dark:    #1e2d4a;
+    --mg-cloud-mid:     #2e3f5e;
+    --mg-cloud-light:   #3d5275;
+    --mg-cloud-wisp:    #4a6080;
+    --mg-horizon:       #0f3020;
+    --mg-green-deep:    #0d2b18;
+    --mg-green-mid:     #1a4226;
+    --mg-green-bright:  #2a6338;
+    --mg-rain:          rgba(180, 210, 230, 0.18);
+    --mg-lightning:     #c8dff5;
+    --mg-gold:          #c8a84b;
+    --mg-gold-muted:    #9e7e36;
+    --mg-text-bright:   #e8e0d0;
+    --mg-text-muted:    #a09880;
+    --mg-border-gold:   rgba(200, 168, 75, 0.35);
+    --mg-border-subtle: rgba(180, 200, 220, 0.12);
+
+    /* Type */
+    --font-display: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
+    --font-body:    'Georgia', serif;
+
+    /* Fluid type */
+    --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
+    --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
+    --text-base: clamp(1rem,     0.95rem + 0.25vw, 1.125rem);
+    --text-lg:   clamp(1.125rem, 1rem    + 0.75vw, 1.5rem);
+    --text-xl:   clamp(1.5rem,   1.2rem  + 1.25vw, 2.25rem);
+    --text-2xl:  clamp(2rem,     1.2rem  + 2.5vw,  3.5rem);
+    --text-3xl:  clamp(2.5rem,   1rem    + 4vw,    5rem);
+  }
+
+  /* Reset for banner context */
+  .mg-banner *, .mg-banner *::before, .mg-banner *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ── Outer wrapper ─────────────────────────────────────────── */
+  .mg-banner {
+    position: relative;
+    width: 100%;
+    min-height: clamp(280px, 35vw, 420px);
+    overflow: hidden;
+    background-color: var(--mg-sky-deep);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    isolation: isolate;
+  }
+
+  /* ── Sky gradient ──────────────────────────────────────────── */
+  .mg-sky {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      #060c17 0%,
+      #0b1528 18%,
+      #111e3a 38%,
+      #192945 58%,
+      #1e3245 75%,
+      #1a3838 88%,
+      #0f2b22 100%
+    );
+    z-index: 0;
+  }
+
+  /* ── Star layer (very subtle) ──────────────────────────────── */
+  .mg-stars {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  /* ── SVG cloud scene ───────────────────────────────────────── */
+  .mg-cloudscape {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  /* ── Rain overlay ──────────────────────────────────────────── */
+  .mg-rain-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 6;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .mg-rain-layer svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ── Ground / landscape ────────────────────────────────────── */
+  .mg-ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+  }
+
+  /* ── Decorative border frame ───────────────────────────────── */
+  .mg-frame {
+    position: absolute;
+    inset: clamp(12px, 2vw, 22px);
+    border: 1px solid var(--mg-border-gold);
+    z-index: 8;
+    pointer-events: none;
+  }
+
+  .mg-frame::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 1px solid var(--mg-border-subtle);
+  }
+
+  /* Corner ornaments */
+  .mg-frame-corner {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+  }
+  .mg-frame-corner--tl { top: -1px; left: -1px; }
+  .mg-frame-corner--tr { top: -1px; right: -1px; transform: scaleX(-1); }
+  .mg-frame-corner--bl { bottom: -1px; left: -1px; transform: scaleY(-1); }
+  .mg-frame-corner--br { bottom: -1px; right: -1px; transform: scale(-1); }
+
+  /* ── Typography container ──────────────────────────────────── */
+  .mg-text-block {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: clamp(280px, 35vw, 420px);
+    padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 6vw, 4rem);
+    text-align: center;
+  }
+
+  /* Eyebrow */
+  .mg-eyebrow {
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--mg-gold);
+    opacity: 0.85;
+    margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
+  }
+
+  /* Title */
+  .mg-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 4rem);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.05;
+    color: var(--mg-text-bright);
+    text-shadow:
+      0 0 60px rgba(12, 20, 40, 0.9),
+      0 2px 24px rgba(8, 14, 28, 0.8),
+      0 0 120px rgba(0, 0, 0, 0.6);
+    margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
+  }
+
+  /* Thin divider rule */
+  .mg-rule {
+    width: clamp(48px, 8vw, 80px);
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--mg-gold-muted),
+      var(--mg-gold),
+      var(--mg-gold-muted),
+      transparent
+    );
+    margin: 0 auto clamp(0.75rem, 2vw, 1.25rem);
+    opacity: 0.7;
+  }
+
+  /* Subtitle */
+  .mg-subtitle {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    line-height: 1.4;
+    color: var(--mg-text-bright);
+    opacity: 0.82;
+    text-shadow: 0 1px 12px rgba(8, 14, 28, 0.9);
+    margin-bottom: clamp(0.5rem, 1.5vw, 0.875rem);
+    max-width: 38ch;
+  }
+
+  /* Fine print */
+  .mg-caption {
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    color: var(--mg-text-muted);
+    opacity: 0.7;
+    margin-top: clamp(0.25rem, 1vw, 0.5rem);
+  }
+
+  /* ── Animations ────────────────────────────────────────────── */
+
+  @keyframes mg-rain-fall {
+    from { transform: translateY(-120px); }
+    to   { transform: translateY(0px); }
+  }
+
+  @keyframes mg-rain-fall-slow {
+    from { transform: translateY(-105px); }
+    to   { transform: translateY(0px); }
+  }
+
+  @keyframes mg-rain-fall-fast {
+    from { transform: translateY(-138px); }
+    to   { transform: translateY(0px); }
+  }
+
+  @keyframes mg-cloud-drift-slow {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(-12px); }
+    100% { transform: translateX(0); }
+  }
+
+  @keyframes mg-cloud-drift-med {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+  @keyframes mg-lightning-flash {
+    0%, 92%, 96%, 100% { opacity: 0; }
+    93%                { opacity: 0.6; }
+    94%                { opacity: 0.1; }
+    95%                { opacity: 0.5; }
+  }
+
+  @keyframes mg-text-rise {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes mg-shimmer {
+    0%, 100% { opacity: 0.75; }
+    50%       { opacity: 1; }
+  }
+
+  /* Apply drift to cloud groups */
+  .mg-cloud-back  { animation: mg-cloud-drift-slow 22s ease-in-out infinite; }
+  .mg-cloud-mid-g { animation: mg-cloud-drift-med  16s ease-in-out infinite 2s; }
+  .mg-cloud-fore  { animation: mg-cloud-drift-slow 19s ease-in-out infinite 5s; }
+
+  /* Lightning group */
+  .mg-lightning-group {
+    animation: mg-lightning-flash 6s ease-in-out infinite 4s;
+  }
+  .mg-lightning-group-2 {
+    animation: mg-lightning-flash 10s ease-in-out infinite 1s;
+  }
+
+  /* Rain SVG groups animate at slightly different rates */
+  .mg-rain-anim {
+    animation: mg-rain-fall 0.7s linear infinite;
+  }
+
+  .mg-rain-anim-slow {
+    animation: mg-rain-fall-slow 0.92s linear infinite;
+  }
+
+  .mg-rain-anim-fast {
+    animation: mg-rain-fall-fast 0.56s linear infinite;
+  }
+
+  /* Text entrance */
+  .mg-eyebrow   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s; }
+  .mg-title     { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.55s; }
+  .mg-rule      { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.75s; }
+  .mg-subtitle  { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.9s; }
+  .mg-caption   { animation: mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 1.1s; }
+
+  /* Gold eyebrow shimmer */
+  .mg-eyebrow { animation:
+    mg-text-rise 1.2s cubic-bezier(0.16,1,0.3,1) both 0.3s,
+    mg-shimmer 4s ease-in-out infinite 2s;
+  }
+
+  /* Reduced motion: disable all animations */
+  @media (prefers-reduced-motion: reduce) {
+    .mg-cloud-back,
+    .mg-cloud-mid-g,
+    .mg-cloud-fore,
+    .mg-lightning-group,
+    .mg-lightning-group-2,
+    .mg-rain-anim,
+    .mg-rain-anim-slow,
+    .mg-rain-anim-fast,
+    .mg-eyebrow,
+    .mg-title,
+    .mg-rule,
+    .mg-subtitle,
+    .mg-caption {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .mg-frame { inset: 8px; }
+    .mg-frame-corner { width: 13px; height: 13px; }
+  }
+  
+  .mg-epigraph {
+    text-align: center;
+    margin: 2.5rem auto 3rem auto;
+    max-width: 42rem;
+  }
+
+  .mg-epigraph p {
+    margin: 0;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: #444;
+    font-weight: 400;
+  }
+
+  /* ============================================================
+     MEGHADUTAM 2026 — Featured Works: Monsoon Chronicle Entries
+     Redesigned: stronger visual identity per variant,
+     monsoon-led palette, gold as secondary accent only
+     ============================================================ */
+
+  /* ── Shared keyframes ──────────────────────────────────────── */
+
+  /* Slow cloud-like lateral sway */
+  @keyframes mg-fe-cloud-sway {
+    0%, 100% { transform: translateX(0); }
+    40%       { transform: translateX(3px); }
+    70%       { transform: translateX(-2px); }
+  }
+
+  /* Rain curtain scrolling diagonally downward */
+  @keyframes mg-fe-rain-scroll {
+    from { background-position: 0 0; }
+    to   { background-position: -30px 120px; }
+  }
+
+  /* Mist pulse — opacity swell, slow */
+  @keyframes mg-fe-mist-pulse {
+    0%, 100% { opacity: 0.55; }
+    50%       { opacity: 1; }
+  }
+
+  /* Horizon line breathe — border darkens and returns */
+  @keyframes mg-fe-horizon-breathe {
+    0%, 100% { border-bottom-color: rgba(42, 99, 56, 0.35); }
+    50%       { border-bottom-color: rgba(42, 99, 56, 0.72); }
+  }
+
+  /* Left rule wash — left border swells in brightness */
+  @keyframes mg-fe-rule-wash {
+    0%, 100% { border-left-color: rgba(74, 112, 148, 0.4); }
+    50%       { border-left-color: rgba(74, 112, 148, 0.8); }
+  }
+
+  /* Slow inward fade for mist entries */
+  @keyframes mg-fe-veil-drift {
+    0%, 100% { opacity: 0.5; transform: scaleX(1); }
+    50%       { opacity: 1;   transform: scaleX(1.015); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .mg-featured-item,
+    .mg-featured-item::before,
+    .mg-featured-item::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+
+  /* ── Base shared styles ────────────────────────────────────── */
 
   .mg-featured-item {
     position: relative;
-    padding: 1.1rem clamp(0.9rem, 3vw, 1.4rem) 1.1rem clamp(1.1rem, 4vw, 1.6rem);
+    padding: 1.1rem 1.1rem 1.1rem 1.5rem;
     margin-block: 0;
     overflow: hidden;
     box-sizing: border-box;
     max-width: 100%;
     line-height: 1.7;
+    /* Reset border — each variant defines its own */
     border: none;
-    border-radius: 6px;
-    transition: background-color 180ms ease, border-color 180ms ease;
   }
 
+  /* Dividing line between entries: a fine rain-grey rule */
   .mg-featured-item + .mg-featured-item {
-    margin-top: 0.6rem;
+    border-top: 1px solid rgba(160, 195, 220, 0.14);
   }
 
+  /* Date line — slate-rain tone as base, variants may shift hue */
   .mg-featured-date {
     display: block;
     font-size: 0.75rem;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
+    font-style: normal;
     margin-bottom: 0.4rem;
-    color: #5c7a90;
+    color: #7a9eb8;
   }
 
+  /* Paragraph text — readable against the page's light background */
   .mg-featured-item p {
     margin: 0;
     color: inherit;
   }
 
+  /* Links */
   .mg-featured-item a {
-    color: #2f6f99;
+    color: #3a7ca8;
     text-decoration: none;
-    border-bottom: 1px solid rgba(47, 111, 153, 0.35);
+    border-bottom: 1px solid rgba(58, 124, 168, 0.35);
     transition: color 180ms ease, border-bottom-color 180ms ease;
   }
 
   .mg-featured-item a:hover,
   .mg-featured-item a:focus-visible {
-    color: #1a4d6e;
-    border-bottom-color: rgba(26, 77, 110, 0.65);
+    color: #1e5f8a;
+    border-bottom-color: rgba(30, 95, 138, 0.65);
   }
 
+  /* Accessible focus ring — rain-blue */
   .mg-featured-item a:focus-visible {
-    outline: 2px solid rgba(47, 111, 153, 0.8);
+    outline: 2px solid rgba(58, 124, 168, 0.8);
     outline-offset: 2px;
     border-radius: 1px;
   }
 
-  /* ── Variant 1 — Rain-blue, solid left border ── */
+  /* ══════════════════════════════════════════════════════════════
+     VARIANT 1 — Heavy rain curtain
+     A dense diagonal rain-line texture fills the left third.
+     Left rule: strong slate-blue. Date: rain grey.
+     ============================================================== */
   .mg-featured-item:nth-child(8n+1) {
-    border-left: 3px solid #4a7094;
-    background: rgba(74, 112, 148, 0.06);
+    border-left: 3px solid rgba(74, 112, 148, 0.7);
+    padding-left: 1.6rem;
+    animation: mg-fe-rule-wash 8s ease-in-out infinite;
   }
-  .mg-featured-item:nth-child(8n+1) .mg-featured-date { color: #4a7094; }
 
-  /* ── Variant 2 — Deep cloud indigo ── */
+  .mg-featured-item:nth-child(8n+1)::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 56px;
+    height: 100%;
+    background-image: repeating-linear-gradient(
+      168deg,
+      transparent 0px,
+      transparent 7px,
+      rgba(160, 200, 228, 0.11) 7px,
+      rgba(160, 200, 228, 0.11) 8px
+    );
+    animation: mg-fe-rain-scroll 2s linear infinite;
+    pointer-events: none;
+  }
+
+  .mg-featured-item:nth-child(8n+1) .mg-featured-date {
+    color: #6a9ab8;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     VARIANT 2 — Deep cloud layer
+     Dark indigo-grey wash, left rule in deep cloud colour.
+     Evokes the banner's heaviest cloud masses.
+     ============================================================== */
   .mg-featured-item:nth-child(8n+2) {
-    border-left: 4px solid #23344e;
-    background: rgba(35, 52, 78, 0.07);
+    border-left: 4px solid rgba(35, 52, 78, 0.7);
+    padding-left: 1.6rem;
+    background: linear-gradient(
+      to right,
+      rgba(26, 37, 58, 0.09) 0%,
+      rgba(26, 37, 58, 0.04) 30%,
+      transparent 60%
+    );
+    animation: mg-fe-cloud-sway 18s ease-in-out infinite;
   }
-  .mg-featured-item:nth-child(8n+2) .mg-featured-date { color: #5f7ea0; letter-spacing: 0.2em; }
 
-  /* ── Variant 3 — Monsoon green horizon, bottom border ── */
+  .mg-featured-item:nth-child(8n+2)::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      ellipse 70% 80% at 0% 50%,
+      rgba(30, 45, 74, 0.1) 0%,
+      transparent 100%
+    );
+    pointer-events: none;
+  }
+
+  .mg-featured-item:nth-child(8n+2) .mg-featured-date {
+    color: #8da8c4;
+    letter-spacing: 0.2em;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     VARIANT 3 — Mountain horizon
+     Bold bottom-line in deep monsoon green.
+     No left border. Spacious, ground-level feeling.
+     ============================================================== */
   .mg-featured-item:nth-child(8n+3) {
-    border-bottom: 2px solid #2a6338;
+    border-left: none;
+    border-bottom: 2px solid rgba(42, 99, 56, 0.55);
+    padding-left: 0.9rem;
     padding-bottom: 1.3rem;
-    background: rgba(42, 99, 56, 0.06);
+    animation: mg-fe-horizon-breathe 12s ease-in-out infinite;
   }
-  .mg-featured-item:nth-child(8n+3) .mg-featured-date { color: #3a8c58; }
-  .mg-featured-item:nth-child(8n+3) a { color: #2e7a4a; border-bottom-color: rgba(46, 122, 74, 0.35); }
+
+  .mg-featured-item:nth-child(8n+3) + .mg-featured-item {
+    border-top: none;
+  }
+
+  /* A faint green horizon wash at the foot */
+  .mg-featured-item:nth-child(8n+3)::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 28px;
+    background: linear-gradient(
+      to top,
+      rgba(26, 66, 38, 0.09),
+      transparent
+    );
+    pointer-events: none;
+  }
+
+  .mg-featured-item:nth-child(8n+3) .mg-featured-date {
+    color: #6fa880;
+  }
+
+  .mg-featured-item:nth-child(8n+3) a {
+    color: #3a8c58;
+    border-bottom-color: rgba(58, 140, 88, 0.35);
+  }
+
   .mg-featured-item:nth-child(8n+3) a:hover,
-  .mg-featured-item:nth-child(8n+3) a:focus-visible { color: #1a5a34; border-bottom-color: rgba(26, 90, 52, 0.65); }
+  .mg-featured-item:nth-child(8n+3) a:focus-visible {
+    color: #266840;
+    border-bottom-color: rgba(38, 104, 64, 0.65);
+  }
 
-  /* ── Variant 4 — Soft mist blue-grey ── */
+  .mg-featured-item:nth-child(8n+3) a:focus-visible {
+    outline-color: rgba(58, 140, 88, 0.8);
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     VARIANT 4 — Low mist / horizon veil
+     Full-width mist strip rising from the bottom.
+     Soft blue-grey tonal wash with animated pulse.
+     ============================================================== */
   .mg-featured-item:nth-child(8n+4) {
-    border-left: 2px solid #789bb9;
-    background: rgba(120, 155, 185, 0.07);
+    border-left: 2px solid rgba(120, 155, 185, 0.45);
+    padding-left: 1.5rem;
   }
-  .mg-featured-item:nth-child(8n+4) .mg-featured-date { color: #5f8bb0; letter-spacing: 0.14em; }
 
-  /* ── Variant 5 — Pale rain-scatter tone ── */
+  .mg-featured-item:nth-child(8n+4)::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 55%;
+    background: linear-gradient(
+      to top,
+      rgba(26, 48, 72, 0.1) 0%,
+      rgba(30, 50, 78, 0.05) 50%,
+      transparent 100%
+    );
+    animation: mg-fe-veil-drift 11s ease-in-out infinite 1s;
+    pointer-events: none;
+    transform-origin: bottom center;
+  }
+
+  .mg-featured-item:nth-child(8n+4) .mg-featured-date {
+    color: #7fa8c4;
+    letter-spacing: 0.15em;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     VARIANT 5 — Wide-margin rain scatter
+     Full-width rain lines across the entry, low opacity,
+     resembling rain through a window on wet paper.
+     ============================================================== */
   .mg-featured-item:nth-child(8n+5) {
-    border-left: 1px solid #8cb4d2;
-    background: rgba(140, 180, 210, 0.05);
+    border-left: 1px solid rgba(140, 180, 210, 0.4);
+    padding-left: 1.5rem;
+    background-image: repeating-linear-gradient(
+      170deg,
+      transparent 0px,
+      transparent 22px,
+      rgba(155, 196, 224, 0.07) 22px,
+      rgba(155, 196, 224, 0.07) 23px
+    );
+    animation: mg-fe-rain-scroll 3.5s linear infinite;
   }
-  .mg-featured-item:nth-child(8n+5) .mg-featured-date { color: #4f7fa0; letter-spacing: 0.12em; }
 
-  /* ── Variant 6 — Gold Pahari accent, top border ── */
+  .mg-featured-item:nth-child(8n+5) .mg-featured-date {
+    color: #6898b8;
+    letter-spacing: 0.13em;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     VARIANT 6 — Gold Pahari accent (secondary; used sparingly)
+     Echoes the banner's frame. Top rule only — miniature
+     border-band convention. Gold date. No left border.
+     ============================================================== */
   .mg-featured-item:nth-child(8n+6) {
-    border-top: 2px solid #c8a84b;
+    border-left: none;
+    border-top: 1px solid rgba(200, 168, 75, 0.42);
+    padding-left: 0.9rem;
     padding-top: 1.2rem;
-    background: rgba(200, 168, 75, 0.06);
   }
-  .mg-featured-item:nth-child(8n+6) .mg-featured-date { color: #a9853a; letter-spacing: 0.2em; }
-  .mg-featured-item:nth-child(8n+6) a { color: #8a6c2e; border-bottom-color: rgba(158, 126, 54, 0.38); }
+
+  .mg-featured-item:nth-child(8n+6) + .mg-featured-item {
+    border-top: none;
+  }
+
+  /* Gold gradient bloom on the top rule */
+  .mg-featured-item:nth-child(8n+6)::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(158, 126, 54, 0.4) 10%,
+      rgba(200, 168, 75, 0.75) 35%,
+      rgba(210, 178, 90, 0.85) 50%,
+      rgba(200, 168, 75, 0.75) 65%,
+      rgba(158, 126, 54, 0.4) 90%,
+      transparent 100%
+    );
+    pointer-events: none;
+  }
+
+  .mg-featured-item:nth-child(8n+6) .mg-featured-date {
+    color: #c8a84b;
+    letter-spacing: 0.22em;
+  }
+
+  .mg-featured-item:nth-child(8n+6) a {
+    color: #9e7e36;
+    border-bottom-color: rgba(158, 126, 54, 0.38);
+  }
+
   .mg-featured-item:nth-child(8n+6) a:hover,
-  .mg-featured-item:nth-child(8n+6) a:focus-visible { color: #6b5322; border-bottom-color: rgba(122, 94, 40, 0.65); }
+  .mg-featured-item:nth-child(8n+6) a:focus-visible {
+    color: #7a5e28;
+    border-bottom-color: rgba(122, 94, 40, 0.65);
+  }
 
-  /* ── Variant 7 — Storm-anvil, thick top border ── */
+  .mg-featured-item:nth-child(8n+6) a:focus-visible {
+    outline-color: rgba(200, 168, 75, 0.8);
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     VARIANT 7 — Storm-anvil top mass
+     Thick top border in deep cloud-blue, with a radial glow
+     descending from it — the underside of a cumulonimbus.
+     ============================================================== */
   .mg-featured-item:nth-child(8n+7) {
-    border-top: 3px solid #1c2d46;
+    border-left: none;
+    border-top: 3px solid rgba(28, 45, 70, 0.75);
+    padding-left: 0.9rem;
     padding-top: 1.2rem;
-    background: rgba(22, 36, 58, 0.06);
   }
-  .mg-featured-item:nth-child(8n+7) .mg-featured-date { color: #6f8fae; letter-spacing: 0.16em; }
 
-  /* ── Variant 8 — Wet earth green, left border + base wash ── */
+  .mg-featured-item:nth-child(8n+7) + .mg-featured-item {
+    border-top: none;
+  }
+
+  .mg-featured-item:nth-child(8n+7)::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 40px;
+    background: linear-gradient(
+      to bottom,
+      rgba(22, 36, 58, 0.14) 0%,
+      transparent 100%
+    );
+    pointer-events: none;
+    animation: mg-fe-mist-pulse 10s ease-in-out infinite 2s;
+  }
+
+  .mg-featured-item:nth-child(8n+7) .mg-featured-date {
+    color: #8aaac8;
+    letter-spacing: 0.17em;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     VARIANT 8 — Wet earth / monsoon-drenched ground
+     Left border in deep wet-soil green. Bottom receives a damp
+     earth wash. Earthy, grounded in the landscape band.
+     ============================================================== */
   .mg-featured-item:nth-child(8n+0) {
-    border-left: 3px solid #1a4226;
-    background: rgba(15, 48, 30, 0.06);
+    border-left: 3px solid rgba(15, 48, 30, 0.65);
+    padding-left: 1.6rem;
+    background: linear-gradient(
+      to right,
+      rgba(13, 43, 24, 0.08) 0%,
+      transparent 25%
+    );
   }
-  .mg-featured-item:nth-child(8n+0) .mg-featured-date { color: #45805e; letter-spacing: 0.15em; }
-  .mg-featured-item:nth-child(8n+0) a { color: #2e7a4a; border-bottom-color: rgba(46, 122, 74, 0.35); }
-  .mg-featured-item:nth-child(8n+0) a:hover,
-  .mg-featured-item:nth-child(8n+0) a:focus-visible { color: #1a5a34; border-bottom-color: rgba(26, 90, 52, 0.65); }
 
-  /* ── Mobile ── */
+  .mg-featured-item:nth-child(8n+0)::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(
+      to right,
+      rgba(26, 66, 38, 0.45),
+      rgba(42, 99, 56, 0.28) 50%,
+      rgba(26, 66, 38, 0.45)
+    );
+    pointer-events: none;
+  }
+
+  .mg-featured-item:nth-child(8n+0) .mg-featured-date {
+    color: #5a9870;
+    letter-spacing: 0.16em;
+  }
+
+  .mg-featured-item:nth-child(8n+0) a {
+    color: #2e7a4a;
+    border-bottom-color: rgba(46, 122, 74, 0.35);
+  }
+
+  .mg-featured-item:nth-child(8n+0) a:hover,
+  .mg-featured-item:nth-child(8n+0) a:focus-visible {
+    color: #1a5a34;
+    border-bottom-color: rgba(26, 90, 52, 0.65);
+  }
+
+  .mg-featured-item:nth-child(8n+0) a:focus-visible {
+    outline-color: rgba(46, 122, 74, 0.8);
+  }
+
+  /* ── Mobile ────────────────────────────────────────────────── */
   @media (max-width: 640px) {
     .mg-featured-item {
       padding-left: 1rem;
-      padding-right: 0.6rem;
-      font-size: 0.95rem;
+      padding-right: 0.5rem;
     }
+
+    .mg-featured-item:nth-child(8n+1),
+    .mg-featured-item:nth-child(8n+2),
+    .mg-featured-item:nth-child(8n+0) {
+      padding-left: 1.1rem;
+    }
+
+    .mg-featured-item:nth-child(8n+3),
+    .mg-featured-item:nth-child(8n+6),
+    .mg-featured-item:nth-child(8n+7) {
+      padding-left: 0.75rem;
+    }
+
     .mg-featured-date {
-      letter-spacing: 0.08em;
-      font-size: 0.7rem;
+      letter-spacing: 0.1em;
     }
   }
 
-  /* ============================================================
-     Dark mode — Active Class Architecture overrides
-     ============================================================ */
+  /* =========================================================
+     Active Class Architecture Dark Mode Overrides
+     ========================================================= */
 
   body.tsap-dark-mode .mg-epigraph p {
     color: var(--text-muted) !important;
@@ -860,6 +1526,7 @@ The event will continue throughout the monsoon season of 2026.
 
   body.tsap-dark-mode .mg-featured-item {
     color: var(--text-main) !important;
+    border-top-color: rgba(255, 255, 255, 0.08) !important;
   }
 
   body.tsap-dark-mode .mg-featured-item a {
@@ -867,63 +1534,33 @@ The event will continue throughout the monsoon season of 2026.
     border-bottom-color: rgba(56, 189, 248, 0.35) !important;
   }
 
-  body.tsap-dark-mode .mg-featured-item a:hover,
-  body.tsap-dark-mode .mg-featured-item a:focus-visible {
+  body.tsap-dark-mode .mg-featured-item a:hover {
     color: #7dd3fc !important;
     border-bottom-color: rgba(125, 211, 252, 0.65) !important;
+    text-decoration: none !important;
   }
-
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+1) {
-    border-left-color: #6ea3c8 !important;
-    background: rgba(110, 163, 200, 0.08) !important;
-  }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+1) .mg-featured-date { color: #8cbcdc !important; }
 
   body.tsap-dark-mode .mg-featured-item:nth-child(8n+2) {
-    border-left-color: #4a6b96 !important;
-    background: rgba(74, 107, 150, 0.09) !important;
+    background: linear-gradient(
+      to right,
+      rgba(56, 189, 248, 0.05) 0%,
+      transparent 60%
+    ) !important;
   }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+2) .mg-featured-date { color: #9ab6d4 !important; }
 
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+3) {
-    border-bottom-color: #4caf6a !important;
-    background: rgba(76, 175, 106, 0.07) !important;
+  body.tsap-dark-mode .mg-featured-item:nth-child(8n+4)::before {
+    background: linear-gradient(
+      to top,
+      rgba(30, 41, 59, 0.6) 0%,
+      transparent 100%
+    ) !important;
   }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+3) .mg-featured-date { color: #6fd08e !important; }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+3) a { color: #6fd08e !important; }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+3) a:hover { color: #9ee6b6 !important; }
 
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+4) {
-    border-left-color: #8fb3d0 !important;
-    background: rgba(143, 179, 208, 0.07) !important;
+  body.tsap-dark-mode .mg-featured-item:nth-child(8n+8) {
+    background: linear-gradient(
+      to right,
+      rgba(42, 99, 56, 0.1) 0%,
+      transparent 25%
+    ) !important;
   }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+4) .mg-featured-date { color: #a9c9e2 !important; }
-
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+5) {
-    border-left-color: #7fabcf !important;
-    background: rgba(127, 171, 207, 0.06) !important;
-  }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+5) .mg-featured-date { color: #93b8da !important; }
-
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+6) {
-    border-top-color: #d9b95c !important;
-    background: rgba(217, 185, 92, 0.08) !important;
-  }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+6) .mg-featured-date { color: #e3c778 !important; }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+6) a { color: #e3c778 !important; }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+6) a:hover { color: #f0da9c !important; }
-
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+7) {
-    border-top-color: #4a6890 !important;
-    background: rgba(74, 104, 144, 0.08) !important;
-  }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+7) .mg-featured-date { color: #9ab6d4 !important; }
-
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+0) {
-    border-left-color: #4caf6a !important;
-    background: rgba(76, 175, 106, 0.07) !important;
-  }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+0) .mg-featured-date { color: #6fd08e !important; }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+0) a { color: #6fd08e !important; }
-  body.tsap-dark-mode .mg-featured-item:nth-child(8n+0) a:hover { color: #9ee6b6 !important; }
 </style>
