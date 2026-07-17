@@ -1,5 +1,18 @@
 [
   {
+    "title": "Against the Sacred Abodes of Untouchability",
+    "description": "The fifth chapter of A. M. A. Ayrookuzhiel's 1987 study of Swami Anand Thirth, examining his campaigns against untouchability and caste discrimination in temples across Kerala.",
+    "created": "2026-07-17",
+    "date": null,
+    "source": null,
+    "authors": "A. M. A. Ayrookuzhiel",
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "Swami Anand Thirth"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/swami-anand-thirth-against-sacred-abodes-untouchability/"
+  },
+  {
     "title": "Linux and Git Commands for TSAP Repository Maintenance",
     "description": "A practical reference of Linux, Git, and GitHub CLI commands used to inspect, diagnose, and maintain The Sunil Abraham Project (TSAP) repository.",
     "created": "2026-07-16",
