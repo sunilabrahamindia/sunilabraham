@@ -74,7 +74,7 @@ Completion date: 4 July 2026
 Between 5 July and 11 July 2026, 12 new pages were published.
 
 **TSAP Status**
-- Developed and deployed the first public TSAP Status page. A lightweight monitoring system was built using Google Apps Script to perform hourly checks of selected website resources and record the results in a private Google Sheets spreadsheet. The monitoring data is exposed through a JSON API, while a Cloudflare Worker renders a public, mobile-friendly status page under a custom domain. This provides TSAP with an independent, serverless monitoring system built using free services and establishes a foundation for future additions such as expanded service checks, incident history, and uptime reporting.
+- Developed and deployed the first public TSAP Status page. A lightweight monitoring system was built using Google Apps Script to perform hourly checks of selected website resources and record the results in a private Google Sheets spreadsheet. The monitoring data is exposed through a JSON API, while a Cloudflare Worker renders a public, mobile-friendly status page under a custom domain. This provides TSAP with an independent, serverless monitoring system built using free services and establishes a foundation for future additions such as expanded service checks, incident history, and uptime reporting. Please see it [here](https://status.sunilabraham.in/).
 
 **Biographical and Book Articles**
 - Started an article on [Rev. Dr. Y. T. Vinayaraj](/vinayaraj/).
