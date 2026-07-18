@@ -26,9 +26,10 @@ According to a notice displayed as a banner on its official website, CIS stopped
 2. [Objectives](#objectives)
 3. [Concept Note](#concept-note)
 4. [Memorandum of Association](#memorandum-of-association)
-5. [Annual Reports](#annual-reports)
-6. [Events](#events)
-7. [External Links](#external-links)
+5. [Legal and Regulatory Registrations](#legal-and-regulatory-registrations)
+6. [Annual Reports](#annual-reports)
+7. [Events](#events)
+8. [External Links](#external-links)
 
 ## Founding and Registration
 
@@ -68,6 +69,28 @@ In July 2008, CIS prepared a concept note setting out the rationale, mission, re
 {% include main-article.html link="/cis/moa/" title="Memorandum of Association and Rules and Regulations of the Centre for Internet and Society" %}
 
 The Memorandum of Association (MoA) is the founding legal document of CIS, executed on 4 July 2008 and amended in February 2010. It sets out the society's name, registered address, aims and objects, membership structure, governance arrangements, financial rules, and provisions for dissolution. A supplementary [plain-language explainer](/cis/moa-explainer/) of the MoA, prepared by TSAP in question-and-answer format, is also available.
+
+## Legal and Regulatory Registrations
+
+During Sunil Abraham's tenure as Executive Director, CIS obtained registrations connected with its charitable status and its ability to receive foreign contributions. These records document important stages in the organisation's regulatory history, beginning with its registration under the Income Tax Act and followed by its registration and subsequent renewal under the Foreign Contribution (Regulation) Act.
+
+{% include main-article.html link="/cis/12a-registration-2010/" title="Section 12A Registration (2010)" %}
+
+CIS applied for registration under Section 12A of the Income Tax Act, 1961, on 27 August 2009. The Office of the Director of Income Tax (Exemptions), Bangalore, granted the registration with effect from 5 February 2010, and issued the certificate on 25 February 2010. The certificate recorded the organisation in the status of a "Charitable Trust" and entered its name in the Register of Trusts and Institutions maintained by the Income Tax Department.
+
+The registration did not by itself confer exemption from income tax. Any exemption remained subject to the applicable provisions of the Income Tax Act and assessment by the relevant authority. The certificate also required CIS to file annual income-tax returns, display its full name at premises managed by it, obtain prior approval for changes to its governing documents, and continue carrying out genuine activities in accordance with its stated objects.
+
+{% include main-article.html link="/cis/fcra-registration-2012/" title="FCRA Registration (2012)" %}
+
+CIS applied for registration under the Foreign Contribution (Regulation) Act, 2010, on 1 August 2011. The Ministry of Home Affairs subsequently registered the organisation under Section 11(1) with registration number `094421473`, covering activities classified as cultural, educational, and social. The registration was communicated to CIS in a letter dated 12 January 2012 and was valid for five years.
+
+The registration carried conditions governing the receipt, use, reporting, and transfer of foreign contributions. CIS was required to use a designated bank account for foreign contributions, submit the prescribed returns, and comply with restrictions imposed by the Act and Rules. The Ministry also specifically required prior permission before CIS could receive remittances from the International Development Research Centre (IDRC) or HIVOS.
+
+{% include main-article.html link="/cis/fcra-renewal-2016/" title="FCRA Registration Renewal (2016)" %}
+
+CIS applied for renewal of its FCRA registration on 31 August 2016, and the Ministry of Home Affairs approved the application on 25 October 2016. The organisation retained registration number `094421473` and its classification for cultural, educational, and social activities. The renewed certificate took effect from 12 January 2017 and was valid for a further five years.
+
+The renewal continued requirements concerning the designated bank account, reporting of foreign contributions, transfers of funds, and compliance with the FCRA and its Rules. It also required CIS to report specified organisational changes within 15 days and stated that the Ministry could physically inspect the organisation's activities.
 
 ## Annual Reports
 
