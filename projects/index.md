@@ -37,6 +37,17 @@ The **Sunil Abraham Project** documents, studies, and archives a range of open r
     </p>
   </section>
 
+<section class="project-card">
+  <h3>Centre for Internet and Society</h3>
+
+  <p>
+    A documentation project covering the history and work of the Centre for Internet and Society (CIS), with particular focus on the period during which Sunil Abraham served as Executive Director. The project brings together organisational records, reports, policies, events, publications, and other material related to CIS and its development.
+  </p>
+
+  <p class="project-action">
+    <a href="/cis/" class="btn">Visit Portal</a>
+  </p>
+</section>
 </div>
 
 ## Future Projects
