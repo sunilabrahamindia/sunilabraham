@@ -45,26 +45,6 @@ created: 2026-04-19
 
 ## Full Text
 
-<div class="pdf-container">
-  <iframe
-    src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/anti-social-network.pdf&embedded=true"
-    class="pdf-frame"
-    title="Anti-Social Network original Mail Today newspaper clipping"
-    aria-label="PDF viewer showing the original two-page Mail Today newspaper clipping"
-    loading="lazy">
-  </iframe>
-
-  <p class="pdf-note">
-    The original newspaper clipping is presented as a two-page side-by-side PDF. If the viewer does not load properly, please refresh the page or download the document directly.
-  </p>
-
-  <p class="pdf-download">
-    <a class="btn" href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/anti-social-network.pdf">
-      📄 Download Original Newspaper Clipping (PDF)
-    </a>
-  </p>
-</div>
-
 <div class="highlighted-text" id="fulltext">
 
 <p>THIS is the generation of instant messaging and two-minute noodles. Impatient teenagers are always plugged in to their computers and cell phones. Their reality is virtual and most of their friends can be found online. "It's the coolest way to keep in touch," says Charlotte William, a college student in Bangalore whose Facebook was got flooded with birthday greetings on Saturday. Her FB page is an almost-instantly updated open book of her life.</p>
@@ -90,6 +70,26 @@ created: 2026-04-19
 </div>
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
+
+<div class="pdf-container">
+  <iframe
+    src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/anti-social-network.pdf&embedded=true"
+    class="pdf-frame"
+    title="Anti-Social Network original Mail Today newspaper clipping"
+    aria-label="PDF viewer showing the original two-page Mail Today newspaper clipping"
+    loading="lazy">
+  </iframe>
+
+  <p class="pdf-note">
+    The original newspaper clipping is presented as a two-page side-by-side PDF. If the viewer does not load properly, please refresh the page or download the document directly.
+  </p>
+
+  <p class="pdf-download">
+    <a class="btn" href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/anti-social-network.pdf">
+      📄 Download Original Newspaper Clipping (PDF)
+    </a>
+  </p>
+</div>
 
 {% include back-to-top.html %}
 
