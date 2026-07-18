@@ -110,6 +110,24 @@ created: 2026-03-21
   </figcaption>
 </figure>
 
+## Mail Today — 27 February 2011 {#mt-27022011-anti-social-network}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/anti-social-network.jpg"
+     data-glightbox="description: Anti-Social Network: Social Media Is Driving Teens to a Reality They Can't Handle — Mail Today, 27 February 2011">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/anti-social-network.jpg"
+      alt="Mail Today newspaper clipping dated 27 February 2011 titled Anti-Social Network: Social Media Is Driving Teens to a Reality They Can't Handle"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Anti-Social Network: Social Media Is Driving Teens to a Reality They Can't Handle"<br>
+    <em>Mail Today</em>, 27 February 2011<br>
+    <a href="/media/anti-social-network-social-media-teens-mail-today/">Read full article</a>
+  </figcaption>
+</figure>
+
 ## The Hindu — 18 April 2011 {#hindu-18042011-anonymous}
 
 <figure class="clipping-card">
