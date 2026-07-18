@@ -124,3 +124,33 @@ The provisions concerning intellectual property restricted unauthorised framing 
 Users further agreed to indemnify CIS and associated persons and service providers against specified losses, liabilities, expenses, damages, and costs arising from their use of the website, violations of the terms, or technical disruption caused by them. The terms were governed by Indian law and provided for the courts at Bangalore to have exclusive jurisdiction over disputes arising from use of the website. They stated that they were published in compliance with the Information Technology (Intermediaries Guidelines) Rules, 2011, and constituted an electronic record for the purposes of the Information Technology Act, 2000.
 
 {% include navbox-cis.html %}
+
+<style>
+.cis-logo-wrap {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 200px;
+  width: 100%;
+}
+
+.cis-logo-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .cis-logo-wrap {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 1.2rem 0;
+  }
+
+  .cis-logo-wrap img {
+    max-height: 80px;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+</style>

@@ -27,9 +27,10 @@ According to a notice displayed as a banner on its official website, CIS stopped
 3. [Concept Note](#concept-note)
 4. [Memorandum of Association](#memorandum-of-association)
 5. [Legal and Regulatory Registrations](#legal-and-regulatory-registrations)
-6. [Annual Reports](#annual-reports)
-7. [Events](#events)
-8. [External Links](#external-links)
+6. [Organisational Policies](#organisational-policies)
+7. [Annual Reports](#annual-reports)
+8. [Events](#events)
+9. [External Links](#external-links)
 
 ## Founding and Registration
 
@@ -91,6 +92,14 @@ The registration carried conditions governing the receipt, use, reporting, and t
 CIS applied for renewal of its FCRA registration on 31 August 2016, and the Ministry of Home Affairs approved the application on 25 October 2016. The organisation retained registration number `094421473` and its classification for cultural, educational, and social activities. The renewed certificate took effect from 12 January 2017 and was valid for a further five years.
 
 The renewal continued requirements concerning the designated bank account, reporting of foreign contributions, transfers of funds, and compliance with the FCRA and its Rules. It also required CIS to report specified organisational changes within 15 days and stated that the Ministry could physically inspect the organisation's activities.
+
+## Organisational Policies
+
+{% include main-article.html link="/cis/organisational-policies-2019/" title="Organisational Policies of the Centre for Internet and Society (2019)" %}
+
+CIS maintained organisational policies and guidelines covering research ethics, prevention of sexual harassment, non-discrimination and equal opportunities, privacy, travel insurance, and use of its website. TSAP documents versions of these policies that were available in 2019, during Sunil Abraham's tenure as Executive Director.
+
+The policies set out CIS's procedures and positions on matters including research involving participants, workplace complaints and discrimination, the handling of personal data, overseas travel insurance, and the terms governing use of the CIS website. The TSAP overview is based on archived copies from March and July 2019 and does not attempt to document subsequent revisions, replacements, or other changes.
 
 ## Annual Reports
 
