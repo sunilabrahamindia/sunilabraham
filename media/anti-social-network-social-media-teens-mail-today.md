@@ -45,6 +45,26 @@ created: 2026-04-19
 
 ## Full Text
 
+<div class="pdf-container">
+  <iframe
+    src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/anti-social-network.pdf&embedded=true"
+    class="pdf-frame"
+    title="Anti-Social Network original Mail Today newspaper clipping"
+    aria-label="PDF viewer showing the original two-page Mail Today newspaper clipping"
+    loading="lazy">
+  </iframe>
+
+  <p class="pdf-note">
+    The original newspaper clipping is presented as a two-page side-by-side PDF. If the viewer does not load properly, please refresh the page or download the document directly.
+  </p>
+
+  <p class="pdf-download">
+    <a class="btn" href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/anti-social-network.pdf">
+      📄 Download Original Newspaper Clipping (PDF)
+    </a>
+  </p>
+</div>
+
 <div class="highlighted-text" id="fulltext">
 
 <p>THIS is the generation of instant messaging and two-minute noodles. Impatient teenagers are always plugged in to their computers and cell phones. Their reality is virtual and most of their friends can be found online. "It's the coolest way to keep in touch," says Charlotte William, a college student in Bangalore whose Facebook was got flooded with birthday greetings on Saturday. Her FB page is an almost-instantly updated open book of her life.</p>
@@ -133,6 +153,97 @@ Sunil Abraham's argument for a principles-based privacy law with a dynamic regul
 }
 .copy-btn-full:hover {
   background: #e5e5e5;
+}
+  .pdf-container {
+  width: 100%;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.pdf-frame {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  min-height: 500px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.pdf-note {
+  margin-top: 0.8rem;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.pdf-download {
+  margin-top: 0.8rem;
+}
+
+.pdf-download .btn {
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  background: #1f5fbf;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 0.65rem 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.pdf-download .btn:hover,
+.pdf-download .btn:focus-visible {
+  background: #184c99;
+  color: #fff !important;
+}
+
+.pdf-download .btn:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .pdf-frame {
+    height: 65vh;
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pdf-frame {
+    height: 60vh;
+    min-height: 360px;
+  }
+
+  .pdf-note,
+  .pdf-download .btn {
+    font-size: 0.9rem;
+  }
+}
+
+/* Dark mode */
+
+body.tsap-dark-mode .pdf-frame {
+  border-color: #4b5563 !important;
+  background-color: #1a2232 !important;
+}
+
+body.tsap-dark-mode .pdf-note {
+  color: var(--text-muted) !important;
+}
+
+body.tsap-dark-mode .pdf-download .btn {
+  background-color: #1f5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode .pdf-download .btn:hover,
+body.tsap-dark-mode .pdf-download .btn:focus-visible {
+  background-color: #184c99 !important;
 }
 </style>
 
