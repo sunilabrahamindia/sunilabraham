@@ -69,6 +69,69 @@ A typical output may look like:
 
 The value represents the total local size of the `.git` directory. It is useful for quickly monitoring repository growth, but it should not be treated as identical to the repository size reported by GitHub because local and remote Git storage may be packed and maintained differently.
 
+## Diagnose Website Network and Response Times
+
+These commands are useful for investigating whether slow website responses are caused by the website itself, DNS resolution, network connectivity, TLS negotiation, or temporary routing and CDN latency.
+
+### Check Basic Network Latency
+
+Use `ping` to check network latency and packet loss:
+
+```bash
+ping sunilabraham.in
+```
+
+Stop the test with `Ctrl+C`.
+
+The summary shows the number of packets transmitted and received, packet loss, and minimum, average, and maximum round-trip times.
+
+Because the TSAP domain is proxied through Cloudflare, this command measures the network path to a Cloudflare server rather than directly to the GitHub Pages origin. It should therefore be used as a general connectivity diagnostic rather than a measurement of website loading speed.
+
+### Measure Different Stages of an HTTPS Request
+
+The following command measures several stages involved in requesting the TSAP homepage:
+
+```bash
+curl -s -o /dev/null -w 'DNS: %{time_namelookup}s\nConnect: %{time_connect}s\nTLS: %{time_appconnect}s\nTTFB: %{time_starttransfer}s\nTotal: %{time_total}s\n' https://sunilabraham.in/
+```
+
+The values mean:
+
+- `DNS`: Time required to resolve the domain name.
+- `Connect`: Time elapsed before the network connection was established.
+- `TLS`: Time elapsed before the HTTPS/TLS connection was established.
+- `TTFB`: Time to First Byte, or the time before the server began returning the response.
+- `Total`: Total time required to complete the request.
+
+These measurements can help distinguish a slow network connection from delayed server or CDN responses.
+
+### Inspect HTTP Response Headers
+
+Use the following command to inspect the response headers returned for the TSAP homepage:
+
+```bash
+curl -I https://sunilabraham.in/
+```
+
+Headers such as `cf-ray`, `cf-cache-status`, `x-cache`, `x-served-by`, and `server` can provide information about Cloudflare, GitHub Pages, Fastly caching, and the data centre involved in serving a request.
+
+These headers may change between requests and should be treated as diagnostic information rather than permanent site configuration.
+
+### Run Repeated Website Response-Time Tests
+
+The following command performs ten separate requests to the TSAP homepage and reports connection, TLS, Time to First Byte, and total response times:
+
+```bash
+for i in {1..10}; do
+  curl -s -o /dev/null -w "$i  Connect:%{time_connect}s TLS:%{time_appconnect}s TTFB:%{time_starttransfer}s Total:%{time_total}s\n" https://sunilabraham.in/
+  sleep 1
+done
+```
+
+Running repeated tests is useful when investigating intermittent performance problems. A single unusually slow request followed by several normal responses may indicate temporary network, routing, CDN, or monitoring-system latency rather than a sustained website performance problem.
+
+The results should not be interpreted as complete page-loading measurements because `curl` does not measure the loading and rendering of all page resources in a web browser.
+
 ## Find the 20 Largest Files in Git History
 
 This command identifies the 20 largest file objects stored anywhere in the repository's Git history. It can reveal large files that currently exist in the repository as well as older versions or deleted files that remain stored in Git history.
