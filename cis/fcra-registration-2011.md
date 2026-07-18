@@ -6,9 +6,8 @@ permalink: /cis/fcra-registration-2012/
 categories: ["Centre for Internet and Society"]
 date: 2012-01-12
 created: 2026-07-18
+homepage_featured: true
 ---
-
-{% include under-construction.html %}
 
 <div class="cis-logo-wrap">
   <img src="/cis/images/cis-logo.png" alt="The Centre for Internet and Society logo">
