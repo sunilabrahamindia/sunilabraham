@@ -136,9 +136,28 @@ Each monitoring cycle follows a simple sequence.
 5. Response time is measured.
 6. The result is written to the Checks worksheet.
 7. The Apps Script JSON API exposes the latest monitoring data.
-8. Cloudflare Workers retrieve the JSON and generate the public dashboard.
+8. The Cloudflare Worker retrieves the JSON and generate the public dashboard.
 
 Each monitoring run appends new records instead of replacing previous ones. This creates a permanent monitoring history that can later be used for trend analysis, uptime statistics, and incident investigation.
+
+## Interpreting Response Times
+
+The monitoring system records the total time taken by Google Apps Script to complete each HTTP request. These measurements are useful for identifying unusual delays and longer-term performance patterns, but they should not be interpreted as direct measurements of website rendering speed.
+
+A recorded response time can be affected by several parts of the request path, including:
+
+- The Google Apps Script execution environment.
+- Network routing between the monitoring system and the destination.
+- DNS and connection establishment.
+- TLS negotiation.
+- Content delivery networks and caching layers.
+- Temporary latency at the hosting provider or other intermediate infrastructure.
+
+The TSAP website is served through Cloudflare with GitHub Pages as its hosting origin. An isolated slow response may therefore occur even when the website remains fully operational.
+
+During testing in July 2026, occasional multi-second response times were observed while the affected requests continued to return HTTP `200` responses and passed content verification. Subsequent requests generally returned to normal response times. These events are therefore recorded as performance observations rather than automatically being classified as outages.
+
+Response-time trends should be evaluated across multiple checks. Sustained elevated response times or repeated failures are more significant than an isolated latency spike.
 
 ## Public Status Dashboard
 
