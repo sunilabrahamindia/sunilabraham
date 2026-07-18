@@ -118,6 +118,92 @@ git diff 936d737^ 936d737
 
 These commands are particularly useful when a commit appears to have unexpectedly rewritten a large file, as happened during the investigation of repeated `pages.json` reordering.
 
+## Investigate Recent Repository Growth
+
+These commands are useful when the repository appears to have grown unexpectedly and recent commits need to be examined.
+
+### Check File Size Changes During the Last Three Days
+
+The following command examines files changed during the last three days and reports the change in their actual file size for each commit:
+
+```bash
+git log --since="3 days ago" --format="%H" | while read commit; do
+    parent=$(git rev-parse "$commit^" 2>/dev/null) || continue
+
+    git diff --name-only "$parent" "$commit" | while read file; do
+        old=$(git cat-file -s "$parent:$file" 2>/dev/null || echo 0)
+        new=$(git cat-file -s "$commit:$file" 2>/dev/null || echo 0)
+        diff=$((new - old))
+
+        if [ "$diff" -ne 0 ]; then
+            printf "%+10d bytes  %s\n" "$diff" "$file"
+        fi
+    done
+done | sort -nr
+```
+
+This can help identify new or edited files that contributed to recent repository growth. A file may appear more than once if it was changed in multiple commits.
+
+The figures represent changes in the uncompressed file contents and should not be interpreted as the exact amount of Git repository storage consumed.
+
+### Inspect Recent Size Changes to `pages.json`
+
+The following command reports the actual change in the size of `pages.json` for each commit during the last three days:
+
+```bash
+git log --since="3 days ago" --format='%H %ad %s' --date=short -- pages.json |
+while read hash date subject; do
+    parent="${hash}^"
+    old=$(git cat-file -s "$parent:pages.json" 2>/dev/null || echo 0)
+    new=$(git cat-file -s "$hash:pages.json" 2>/dev/null || echo 0)
+    diff=$((new - old))
+
+    printf "%+8d bytes (%+.2f KB) | %s | %s\n" \
+        "$diff" "$(awk "BEGIN {print $diff/1024}")" "$date" "$subject"
+done
+```
+
+This is particularly useful for monitoring the automatically generated Pages Index. It measures the difference in the complete file size between successive versions.
+
+A result of `+0 bytes` does not necessarily mean that the file was unchanged. Lines may have been reordered or replaced while the total file size remained identical. The commit diff should be inspected separately when this is suspected.
+
+### Inspect the Storage Used by Recent Versions of `pages.json`
+
+The following command lists Git objects associated with `pages.json` encountered when examining recent repository history and shows both their uncompressed size and their current on-disk object size:
+
+```bash
+git rev-list --since="3 days ago" --all --objects -- pages.json |
+awk '{print $1}' |
+git cat-file --batch-check='%(objectname) %(objectsize) %(objectsize:disk)' |
+sort -k3 -nr
+```
+
+The output contains three columns:
+
+- Git object ID.
+- Uncompressed object size in bytes.
+- Current on-disk object size in bytes.
+
+The on-disk size should be interpreted carefully. Loose Git objects and packed, delta-compressed objects can occupy very different amounts of storage, and the results may change after Git garbage collection and repacking.
+
+## Repack and Clean the Local Git Object Database
+
+The following command allows Git to clean up unnecessary objects and repack the repository efficiently:
+
+```bash
+git gc
+```
+
+Afterwards, repository object storage can be checked again:
+
+```bash
+git count-objects -vH
+```
+
+A successfully packed repository may show no loose objects and a reduced number of pack files.
+
+`git gc` is a normal Git maintenance operation, but it should not be confused with rewriting repository history. It optimises the local Git object database without removing files or commits that remain reachable from the repository's current history.
+
 ## List All Files Inside a Directory
 
 This command lists all files contained within a specified directory and its subdirectories. It is useful for inspecting parts of the TSAP repository without manually opening each folder.
