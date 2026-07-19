@@ -41,10 +41,12 @@ The following content may be added gradually to this page or developed as suppor
   -webkit-box-decoration-break: clone;
 }
 
-@media (prefers-color-scheme: dark) {
-  .honesty-highlight {
-    background-color: #665500;
-    color: #fff;
-  }
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .honesty-highlight {
+  background-color: #554400 !important;
+  color: #f3f4f6 !important;
 }
 </style>
