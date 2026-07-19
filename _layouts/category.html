@@ -10,7 +10,15 @@ layout: default
     <strong class="category-label">Category:</strong> {{ category_name }}
     <span class="count">({{ category_pages.size }})</span>
   </h2>
+
   <p>{{ page.description }}</p>
+
+  {% if page.main_article and page.main_article_title %}
+    <p class="main-article">
+      The main article for this category is
+      <a href="{{ page.main_article | relative_url }}">{{ page.main_article_title }}</a>.
+    </p>
+  {% endif %}
 
   {% if category_pages.size > 0 %}
     {% assign grouped = category_pages | group_by_exp: "p", "p.title | slice: 0, 1" %}
@@ -56,6 +64,13 @@ layout: default
   margin-left: 0.4em;
 }
 
+.category-page .main-article {
+  margin: 0.8em 0 1em;
+  padding-left: 1em;
+  border-left: 4px solid #767676;
+  font-style: italic;
+}
+
 .category-page h3 {
   font-size: 1.1em;
   margin-top: 1em;
@@ -99,6 +114,11 @@ body.tsap-dark-mode .category-page .category-label {
 
 body.tsap-dark-mode .category-page .count {
   color: #cbd5e1;
+}
+
+body.tsap-dark-mode .category-page .main-article {
+  border-left-color: #94a3b8;
+  color: #e5e7eb;
 }
 
 body.tsap-dark-mode .category-page h3 {
