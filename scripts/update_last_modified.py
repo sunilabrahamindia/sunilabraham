@@ -15,7 +15,36 @@ EXCLUDED_DIRS = {
     ".vscode",
 }
 
+# Specific commits that should not affect Last Updated dates.
+# Abbreviated commit hashes are supported.
+IGNORE_COMMITS = {
+    "466821e",  # Introduce page_id identifiers across TSAP
+}
+
+# Commit-message tags that indicate non-substantive changes.
+# A commit is ignored when its summary contains one of these exact tags.
+IGNORE_TAGS = {
+    "[Minor]",
+    "[Minor edit]",
+    "[Metadata]",
+    "[Batch edit]",
+    "[Maintenance]",
+}
+
 entries = {}
+
+
+def should_ignore_commit(commit_hash, commit_subject):
+    """Return True if a commit should not affect the Last Updated date."""
+
+    if any(commit_hash.startswith(ignored) for ignored in IGNORE_COMMITS):
+        return True
+
+    if any(tag in commit_subject for tag in IGNORE_TAGS):
+        return True
+
+    return False
+
 
 for md_file in sorted(REPO_ROOT.rglob("*.md")):
     rel_path = md_file.relative_to(REPO_ROOT)
@@ -28,10 +57,9 @@ for md_file in sorted(REPO_ROOT.rglob("*.md")):
             [
                 "git",
                 "log",
-                "-1",
-                "--format=%cs",
+                "--format=%H%x09%cs%x09%s",
                 "--",
-                str(rel_path)
+                str(rel_path),
             ],
             cwd=REPO_ROOT,
             capture_output=True,
@@ -39,7 +67,21 @@ for md_file in sorted(REPO_ROOT.rglob("*.md")):
             check=True,
         )
 
-        date = result.stdout.strip()
+        date = ""
+
+        for line in result.stdout.splitlines():
+            parts = line.split("\t", 2)
+
+            if len(parts) != 3:
+                continue
+
+            commit_hash, commit_date, commit_subject = parts
+
+            if should_ignore_commit(commit_hash, commit_subject):
+                continue
+
+            date = commit_date
+            break
 
         if date:
             entries[str(rel_path).replace("\\", "/")] = date
