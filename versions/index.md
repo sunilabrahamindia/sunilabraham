@@ -16,6 +16,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 1. [Version 2.1](#version-21)
 2. [Version 2.1.1](#version-211)
 3. [Version 2.1.2](#version-212)
+4. [Version 2.1.3](#version-213)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -86,5 +87,30 @@ Between 5 July and 11 July 2026, 12 new pages were published.
 
 **Status** ✅ Done  
 Completion date: 11 July 2026
+
+## Version 2.1.3
+
+Between 12 and 18 July 2026, 16 new pages were published.
+
+**Pages Index Automation**
+- The generation and publication of TSAP's `pages.json` index were successfully automated using GitHub Actions. The workflow now regenerates the index automatically when relevant Markdown content changes, commits updates only when necessary, ignores its own commits to prevent recursive runs, and correctly skips commits when no changes are detected.
+- The automation was fully verified when the newly created *Template:Versions* page was automatically added to `pages.json` without manual intervention. The Pages Index documentation was updated accordingly. Further details are available in [GitHub Issue #23](https://github.com/sunilabrahamindia/sunilabraham/issues/23).
+
+**TSAP Monitoring Systems**
+- Documented the development and implementation of the [TSAP Status Monitor](/tsap/status-monitoring-system/).
+- Started work on the [TSAP Domain Expiry Monitor](/tsap/domain-expiry-monitor/), an automated system that monitors the registration expiry date of TSAP's primary domain. The system periodically retrieves authoritative registration data from the official NIXI RDAP service, detects domain renewals, and sends email reminders as the expiry date approaches.
+
+**A. M. A. Ayrookuzhiel**
+- Started the [A. M. A. Ayrookuzhiel Storytelling Project](/amaa/storytelling/), which documents the planning, development, and implementation of accessible storytelling resources based on the writings and ideas of Rev. Dr. A. M. A. Ayrookuzhiel.
+
+**TSAP Documentation**
+- Created [Linux and Git Commands for TSAP Repository Maintenance](/tsap/linux-git-commands/), documenting commands frequently used in the maintenance and management of the TSAP repository.
+
+**Centre for Internet and Society**
+- Following the 18th anniversary of the Centre for Internet and Society (CIS) in July 2026, continued work on documenting the organisation's history between 2008–2019.
+- Articles created during this period include [Centre for Internet and Society Section 12A Registration](/cis/12a-registration-2010/) (2010), [Centre for Internet and Society FCRA Registration](/cis/fcra-registration-2012/) (2012), [Centre for Internet and Society FCRA Registration Renewal](/cis/fcra-renewal-2016/) (2016), and [Organisational Policies of the Centre for Internet and Society](/cis/organisational-policies-2019/) (2019).
+
+**Status** ✅ Done  
+Completion date: 18 July 2026
 
 {% include versions.html %}
