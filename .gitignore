@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Jekyll build output
+_site/
+
+# Local Git backups
+.git-backup/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code and VSCodium
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Vim
+*.swp
+*.swo
