@@ -10,6 +10,28 @@ created: 2026-03-21
 
 **Press Clippings** is a collection of newspaper and magazine coverage featuring [Sunil Abraham](/sunil/) in print media. These clippings span coverage across Indian and international publications on topics including internet governance, privacy law, digital rights, and technology policy.
 
+## Contents
+
+1. [The Hindu — 10 February 1993 — Candle for Peace](#hindu-10021993-candle)
+2. [The Hindu — 10 February 1993 — Light a Candle for Peace](#hindu-10021993-light)
+3. [Deccan Herald — 14 February 1993 — Candles for peace](#dh-14021993-candles)
+4. [Deccan Herald — 14 February 1993 — Holding a candle for peace](#dh-14021993-holding)
+5. [Sunday Herald — 18 June 2000 — My Outsides Look Cool, My Insides Are Blue...](#sh-18062000-tlc)
+6. [DNA India — 16 August 2009 — Piracy Boils Down to Convenience](#dnaindia-16082009-piracy)
+7. [DNA India — 6 September 2009 — Handy Origins of the Winds of Change](#dnaindia-06092009-handy-origins)
+8. [Mail Today — 27 February 2011 — Anti-Social Network](#mt-27022011-anti-social-network)
+9. [The Hindu — 18 April 2011 — We Are Anonymous, We Are Legion](#hindu-18042011-anonymous)
+10. [Mail Today — 20 May 2011 — Sony Site Flaw Puts Focus on Internet Security](#mt-20052011-sony)
+11. [Mail Today — 9 June 2011 — Snooping Can Lead to Data Abuse](#mt-09062011-snooping)
+12. [Forbes India — 23 August 2013 — The Private Citizen](#fi-23082013-private-citizen)
+13. [Bangalore Mirror — 16 March 2014 — Worldwide Webmaster](#bm-16032014)
+14. [Indian Currents — 24 March 2014 — Two Indians among 25 Selected for Internet Governance Network](#ic-24032014)
+15. [The Times of India — 6 May 2014 — Civil Society Pushes for Privacy Panel](#toi-06052014)
+16. [The Hindu — 2 September 2014 — Fighting Battles Online](#hindu-02092014)
+17. [Deccan Chronicle — 26 March 2015 — Fear, Uncertainty and Doubt](#dc-26032015)
+18. [Malayala Manorama — 26 August 2017 — Privacy Violation: Even Without Financial Loss You Can Sue](#mm-26082017)
+19. [Business Standard — 13 March 2019 — When Governments Tag You on Social Media](#bs-13032019)
+
 ## The Hindu — 10 February 1993 {#hindu-10021993-candle}
 
 <figure class="clipping-card clipping-small">
@@ -107,6 +129,24 @@ created: 2026-03-21
     "Piracy Boils Down to Convenience"<br>
     <em>DNA India</em>, 16 August 2009<br>
     <a href="/media/piracy-boils-down-to-convenience-dna-india/">Read full article</a>
+  </figcaption>
+</figure>
+
+## DNA India — 6 September 2009 {#dnaindia-06092009-handy-origins}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/handy-origins-of-the-winds-of-change-dna.jpeg"
+     data-glightbox="description: Handy Origins of the Winds of Change — DNA India, 6 September 2009">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/handy-origins-of-the-winds-of-change-dna.jpeg"
+      alt="DNA India newspaper clipping dated 6 September 2009 titled Handy Origins of the Winds of Change"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Handy Origins of the Winds of Change"<br>
+    <em>DNA India</em>, 6 September 2009<br>
+    <a href="/media/handy-origins-of-the-winds-of-change-dna/">Read full article</a>
   </figcaption>
 </figure>
 
