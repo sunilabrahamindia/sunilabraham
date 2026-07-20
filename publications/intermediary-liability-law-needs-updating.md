@@ -71,6 +71,16 @@ created: 2025-11-11
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
+<figure class="media-image media-image-tall">
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/intermediary-liability-law-needs-updating.jpeg"
+    alt="Newspaper clipping of 'Intermediary Liability Law Needs Updating' by Sunil Abraham, published in Business Standard on 9 February 2019"
+    loading="lazy">
+  <figcaption>
+    Newspaper clipping of the article.
+  </figcaption>
+</figure>
+
 {% include back-to-top.html %}
 
 ## Context and Background
@@ -135,6 +145,60 @@ On constitutional validity, Sunil draws directly on the *Shreya Singhal* judgmen
 }
 .copy-btn-full:hover {
   background: #e5e5e5;
+}
+
+  .media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  width: 100%;
+}
+
+.media-image-tall {
+  max-width: 600px;
+}
+
+.media-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d8e2f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.media-image figcaption {
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  .media-image {
+    margin: 1rem auto;
+  }
+
+  .media-image-tall {
+    max-width: 100%;
+  }
+
+  .media-image img {
+    border-radius: 6px;
+  }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-image img {
+  border-color: #4b5563 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45) !important;
+}
+
+body.tsap-dark-mode .media-image figcaption {
+  color: var(--text-muted) !important;
 }
 </style>
 
