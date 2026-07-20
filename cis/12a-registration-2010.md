@@ -79,7 +79,7 @@ The certificate was issued under the authority of Paul George, Director of Incom
 
 <div class="pdf-container">
   <iframe
-    src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/cis/cis-section-12a-registration-2010.pdf&embedded=true"
+    src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/cis/section-12a-registration-2010.pdf&embedded=true"
     class="pdf-frame"
     title="Centre for Internet and Society Section 12A Registration 2010"
     aria-label="Section 12A registration certificate PDF viewer"
@@ -91,7 +91,7 @@ The certificate was issued under the authority of Paul George, Director of Incom
   </p>
 
   <p class="pdf-download">
-    <a class="btn" href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/cis/cis-section-12a-registration-2010.pdf">
+    <a class="btn" href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/cis/section-12a-registration-2010.pdf">
       📄 Download Section 12A Registration Certificate (PDF)
     </a>
   </p>
