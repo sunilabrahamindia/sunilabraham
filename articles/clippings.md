@@ -30,7 +30,8 @@ created: 2026-03-21
 16. [The Hindu — 2 September 2014 — Fighting Battles Online](#hindu-02092014)
 17. [Deccan Chronicle — 26 March 2015 — Fear, Uncertainty and Doubt](#dc-26032015)
 18. [Malayala Manorama — 26 August 2017 — Privacy Violation: Even Without Financial Loss You Can Sue](#mm-26082017)
-19. [Business Standard — 13 March 2019 — When Governments Tag You on Social Media](#bs-13032019)
+19. [Business Standard — 9 February 2019 — Intermediary Liability Law Needs Updating](#bs-09022019-intermediary-liability)
+20. [Business Standard — 13 March 2019 — When Governments Tag You on Social Media](#bs-13032019)
 
 ## The Hindu — 10 February 1993 {#hindu-10021993-candle}
 
@@ -360,6 +361,24 @@ created: 2026-03-21
     "Privacy Violation: Even Without Financial Loss You Can Sue"<br>
     <em>Malayala Manorama</em>, 26 August 2017<br>
     <a href="/publications/privacy-violation-even-without-financial-loss-you-can-sue/">Read full article</a>
+  </figcaption>
+</figure>
+
+## Business Standard — 9 February 2019 {#bs-09022019-intermediary-liability}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/intermediary-liability-law-needs-updating.jpeg"
+     data-glightbox="description: Intermediary Liability Law Needs Updating — Business Standard, 9 February 2019">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/intermediary-liability-law-needs-updating.jpeg"
+      alt="Business Standard newspaper clipping dated 9 February 2019 titled Intermediary Liability Law Needs Updating by Sunil Abraham"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Intermediary Liability Law Needs Updating"<br>
+    <em>Business Standard</em>, 9 February 2019<br>
+    <a href="/publications/intermediary-liability-law-needs-updating/">Read full article</a>
   </figcaption>
 </figure>
 
