@@ -17,22 +17,23 @@ created: 2026-03-21
 3. [Deccan Herald — 14 February 1993 — Candles for peace](#dh-14021993-candles)
 4. [Deccan Herald — 14 February 1993 — Holding a candle for peace](#dh-14021993-holding)
 5. [Sunday Herald — 18 June 2000 — My Outsides Look Cool, My Insides Are Blue...](#sh-18062000-tlc)
-6. [DNA India — 16 August 2009 — Piracy Boils Down to Convenience](#dnaindia-16082009-piracy)
-7. [DNA India — 6 September 2009 — Handy Origins of the Winds of Change](#dnaindia-06092009-handy-origins)
-8. [Mail Today — 27 February 2011 — Anti-Social Network](#mt-27022011-anti-social-network)
-9. [The Hindu — 18 April 2011 — We Are Anonymous, We Are Legion](#hindu-18042011-anonymous)
-10. [Mail Today — 20 May 2011 — Sony Site Flaw Puts Focus on Internet Security](#mt-20052011-sony)
-11. [Mail Today — 9 June 2011 — Snooping Can Lead to Data Abuse](#mt-09062011-snooping)
-12. [Forbes India — 23 August 2013 — The Private Citizen](#fi-23082013-private-citizen)
-13. [Bangalore Mirror — 16 March 2014 — Worldwide Webmaster](#bm-16032014)
-14. [Indian Currents — 24 March 2014 — Two Indians among 25 Selected for Internet Governance Network](#ic-24032014)
-15. [The Times of India — 6 May 2014 — Civil Society Pushes for Privacy Panel](#toi-06052014)
-16. [The Hindu — 2 September 2014 — Fighting Battles Online](#hindu-02092014)
-17. [Deccan Chronicle — 26 March 2015 — Fear, Uncertainty and Doubt](#dc-26032015)
-18. [Malayala Manorama — 26 August 2017 — Privacy Violation: Even Without Financial Loss You Can Sue](#mm-26082017)
-19. [Business Standard — 10 January 2018 — Fixing Aadhaar](#bs-10012018-fixing-aadhaar)
-20. [Business Standard — 9 February 2019 — Intermediary Liability Law Needs Updating](#bs-09022019-intermediary-liability)
-21. [Business Standard — 13 March 2019 — When Governments Tag You on Social Media](#bs-13032019)
+6. [The Times of India — 18 January 2004 — Rainbow Coalition Leans Left for Rights](#toi-18012004-rainbow-coalition)
+7. [DNA India — 16 August 2009 — Piracy Boils Down to Convenience](#dnaindia-16082009-piracy)
+8. [DNA India — 6 September 2009 — Handy Origins of the Winds of Change](#dnaindia-06092009-handy-origins)
+9. [Mail Today — 27 February 2011 — Anti-Social Network](#mt-27022011-anti-social-network)
+10. [The Hindu — 18 April 2011 — We Are Anonymous, We Are Legion](#hindu-18042011-anonymous)
+11. [Mail Today — 20 May 2011 — Sony Site Flaw Puts Focus on Internet Security](#mt-20052011-sony)
+12. [Mail Today — 9 June 2011 — Snooping Can Lead to Data Abuse](#mt-09062011-snooping)
+13. [Forbes India — 23 August 2013 — The Private Citizen](#fi-23082013-private-citizen)
+14. [Bangalore Mirror — 16 March 2014 — Worldwide Webmaster](#bm-16032014)
+15. [Indian Currents — 24 March 2014 — Two Indians among 25 Selected for Internet Governance Network](#ic-24032014)
+16. [The Times of India — 6 May 2014 — Civil Society Pushes for Privacy Panel](#toi-06052014)
+17. [The Hindu — 2 September 2014 — Fighting Battles Online](#hindu-02092014)
+18. [Deccan Chronicle — 26 March 2015 — Fear, Uncertainty and Doubt](#dc-26032015)
+19. [Malayala Manorama — 26 August 2017 — Privacy Violation: Even Without Financial Loss You Can Sue](#mm-26082017)
+20. [Business Standard — 10 January 2018 — Fixing Aadhaar](#bs-10012018-fixing-aadhaar)
+21. [Business Standard — 9 February 2019 — Intermediary Liability Law Needs Updating](#bs-09022019-intermediary-liability)
+22. [Business Standard — 13 March 2019 — When Governments Tag You on Social Media](#bs-13032019)
 
 ## The Hindu — 10 February 1993 {#hindu-10021993-candle}
 
@@ -113,6 +114,24 @@ created: 2026-03-21
     "My Outsides Look Cool, My Insides Are Blue..."<br>
     <em>Sunday Herald</em>, 18 June 2000<br>
     <a href="/publications/my-outsides-look-cool-my-insides-are-blue-sunday-herald/">Read full article</a>
+  </figcaption>
+</figure>
+
+## The Times of India — 18 January 2004 {#toi-18012004-rainbow-coalition}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/rainbow-coalition-leans-left-for-rights-times-of-india.png"
+     data-glightbox="description: Rainbow Coalition Leans Left for Rights — The Times of India, 18 January 2004">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/rainbow-coalition-leans-left-for-rights-times-of-india.png"
+      alt="The Times of India newspaper clipping dated 18 January 2004 titled Rainbow Coalition Leans Left for Rights, reporting on the World Social Forum in Mumbai and featuring Sunil Abraham"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Rainbow Coalition Leans Left for Rights"<br>
+    <em>The Times of India</em>, 18 January 2004<br>
+    <a href="/media/rainbow-coalition-leans-left-for-rights-times-of-india/">Read full article</a>
   </figcaption>
 </figure>
 
