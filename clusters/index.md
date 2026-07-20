@@ -122,4 +122,50 @@ In short:
   color: #555;
   line-height: 1.5;
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .cluster-item {
+  border-color: var(--border-main, #374151) !important;
+}
+
+/* Dark mode subtle tint variations */
+body.tsap-dark-mode .cluster-item:nth-child(5n + 1) {
+  background-color: #1e293b !important; /* deep slate */
+}
+
+body.tsap-dark-mode .cluster-item:nth-child(5n + 2) {
+  background-color: #1e283d !important; /* slate navy tint */
+}
+
+body.tsap-dark-mode .cluster-item:nth-child(5n + 3) {
+  background-color: #26232d !important; /* dark parchment tint */
+}
+
+body.tsap-dark-mode .cluster-item:nth-child(5n + 4) {
+  background-color: #1d2b26 !important; /* dark mint tint */
+}
+
+body.tsap-dark-mode .cluster-item:nth-child(5n + 5) {
+  background-color: #242238 !important; /* dark lavender tint */
+}
+
+body.tsap-dark-mode .cluster-link:hover,
+body.tsap-dark-mode .cluster-link:focus {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+body.tsap-dark-mode .cluster-link:focus-visible {
+  outline-color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .cluster-title {
+  color: var(--text-main, #f3f4f6) !important;
+}
+
+body.tsap-dark-mode .cluster-description {
+  color: var(--text-muted, #cbd5e1) !important;
+}
 </style>
