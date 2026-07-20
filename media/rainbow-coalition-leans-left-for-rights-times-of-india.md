@@ -77,6 +77,20 @@ created: 2025-12-26
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
+<figure class="media-image">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/rainbow-coalition-leans-left-for-rights-times-of-india.png"
+     data-glightbox="description: Rainbow Coalition Leans Left for Rights — The Times of India, 18 January 2004">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/rainbow-coalition-leans-left-for-rights-times-of-india.png"
+      alt="The Times of India newspaper clipping dated 18 January 2004 titled Rainbow Coalition Leans Left for Rights, reporting on the World Social Forum in Mumbai and featuring Sunil Abraham"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    Newspaper clipping of "Rainbow Coalition Leans Left for Rights", published in <em>The Times of India</em> on 18 January 2004.
+  </figcaption>
+</figure>
+
 {% include back-to-top.html %}
 
 ## Context and Background
@@ -133,6 +147,39 @@ The forum took place against the backdrop of the Iraq War, which had begun in Ma
 }
 .copy-btn-full:hover { background: #e5e5e5; }
 .copy-btn-full:focus { outline: 3px solid #ffbf47; outline-offset: 2px; }
+
+  .media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 720px;
+}
+
+.media-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.media-image figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-image img {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important;
+}
+
+body.tsap-dark-mode .media-image figcaption {
+  color: #cbd5e1 !important;
+}
 </style>
 
 <script>
