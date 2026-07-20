@@ -66,6 +66,16 @@ homepage_featured: true
 
 <button class="copy-btn-full" data-copytarget="#fulltext">Copy Full Text</button>
 
+<figure class="media-image">
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/handy-origins-of-the-winds-of-change-dna.jpeg"
+    alt="Newspaper clipping of 'Handy Origins of the Winds of Change' published in DNA India on 6 September 2009"
+    loading="lazy">
+  <figcaption>
+    Newspaper clipping of the article.
+  </figcaption>
+</figure>
+
 {% include back-to-top.html %}
 
 ## Context and Background
@@ -122,6 +132,52 @@ Sunil Abraham, then executive director of CIS, frames the article's central argu
 }
 .copy-btn-full:hover {
   background: #e5e5e5;
+}
+
+  .media-image {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 720px;
+  width: 100%;
+}
+
+.media-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d8e2f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.media-image figcaption {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .media-image {
+    margin: 1rem auto;
+  }
+
+  .media-image img {
+    border-radius: 6px;
+  }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-image img {
+  border-color: #4b5563 !important;
+}
+
+body.tsap-dark-mode .media-image figcaption {
+  color: var(--text-muted) !important;
 }
 </style>
 
