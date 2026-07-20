@@ -30,8 +30,9 @@ created: 2026-03-21
 16. [The Hindu — 2 September 2014 — Fighting Battles Online](#hindu-02092014)
 17. [Deccan Chronicle — 26 March 2015 — Fear, Uncertainty and Doubt](#dc-26032015)
 18. [Malayala Manorama — 26 August 2017 — Privacy Violation: Even Without Financial Loss You Can Sue](#mm-26082017)
-19. [Business Standard — 9 February 2019 — Intermediary Liability Law Needs Updating](#bs-09022019-intermediary-liability)
-20. [Business Standard — 13 March 2019 — When Governments Tag You on Social Media](#bs-13032019)
+19. [Business Standard — 10 January 2018 — Fixing Aadhaar](#bs-10012018-fixing-aadhaar)
+20. [Business Standard — 9 February 2019 — Intermediary Liability Law Needs Updating](#bs-09022019-intermediary-liability)
+21. [Business Standard — 13 March 2019 — When Governments Tag You on Social Media](#bs-13032019)
 
 ## The Hindu — 10 February 1993 {#hindu-10021993-candle}
 
@@ -361,6 +362,24 @@ created: 2026-03-21
     "Privacy Violation: Even Without Financial Loss You Can Sue"<br>
     <em>Malayala Manorama</em>, 26 August 2017<br>
     <a href="/publications/privacy-violation-even-without-financial-loss-you-can-sue/">Read full article</a>
+  </figcaption>
+</figure>
+
+## Business Standard — 10 January 2018 {#bs-10012018-fixing-aadhaar}
+
+<figure class="clipping-card">
+  <a href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/fixing-aadhaar-newspaper-copy.jpg"
+     data-glightbox="description: Fixing Aadhaar: Security Developers' Task Is to Trim Chances of Data Breach — Business Standard, 10 January 2018">
+    <img
+      src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabraham/main/publications/images/fixing-aadhaar-newspaper-copy.jpg"
+      alt="Business Standard newspaper clipping dated 10 January 2018 titled Fixing Aadhaar: Security Developers' Task Is to Trim Chances of Data Breach by Sunil Abraham"
+      loading="lazy"
+    >
+  </a>
+  <figcaption>
+    "Fixing Aadhaar: Security Developers' Task Is to Trim Chances of Data Breach"<br>
+    <em>Business Standard</em>, 10 January 2018<br>
+    <a href="/publications/fixing-aadhaar-security-developers-task-is-to-trim-chances-of-data-breach/">Read full article</a>
   </figcaption>
 </figure>
 
