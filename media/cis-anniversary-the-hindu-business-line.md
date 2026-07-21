@@ -2,7 +2,7 @@
 layout: default
 title: "CIS Anniversary"
 description: "A Hindu Business Line report on the Centre for Internet and Society's fifth anniversary exhibition in Bangalore and Delhi, highlighting its work, finances, and public showcase."
-categories: [Media mentions]
+categories: [Centre for Internet & Society , Media mentions]
 date: 2013-05-05
 source: "The Hindu Business Line"
 permalink: /media/cis-anniversary-the-hindu-business-line/
