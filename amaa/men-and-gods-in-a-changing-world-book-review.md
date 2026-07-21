@@ -9,7 +9,7 @@ created: 2026-07-21
 homepage_featured: true
 ---
 
-**Men and Gods in a Changing World (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Men and Gods in a Changing World* by Judith M. Brown, published by SCM Press Ltd., London, in 1980.
+**Men and Gods in a Changing World (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Men and Gods in a Changing World* by Judith M. Brown, published by SCM Press Ltd., London, in 1980. The review appeared in *Religion and Society*, Vol. 28, No. 1 (1981), pp. 78–79.
 
 The book examines themes in the religious experience of twentieth-century Hindus and Christians, focusing particularly on educated Hindus in India and Christians in Britain. Ayrookuzhiel values the book for its sensitivity towards both religious traditions and for the insights it offers into religious life in a plural society, while raising questions about some of its interpretations of spirituality and Hinduism.
 
@@ -50,7 +50,7 @@ Is 'invented Hinduism' a happy phrase to use? We know that creative interpretati
 
 ## Publication {#publication}
 
-This review appeared on pp. 78–79 of *Religion and Society*. It reviews *Men and Gods in a Changing World* by Judith M. Brown, published by SCM Press Ltd., London, in 1980, comprising 182 pages and priced at £5.95.
+This review was published in *Religion and Society*, Vol. 28, No. 1 (1981), pp. 78–79. It reviews *Men and Gods in a Changing World* by Judith M. Brown, published by SCM Press Ltd., London, in 1980, comprising 182 pages and priced at £5.95.
 
 {% include navbox-amaa.html %}
 
