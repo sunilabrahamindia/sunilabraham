@@ -5,6 +5,7 @@ description: "Transcript of Sunil Abraham's presentation on Aadhaar, examining b
 categories: [Resources, Sunil Abraham, Transcripts]
 permalink: /sunil/aadhaar-by-numbers/
 created: 2026-07-22
+homepage_featured: true
 ---
 
 **Aadhaar by Numbers** is a presentation delivered by [Sunil Abraham](/sunil/) at a public seminar organised by the National Institute of Public Finance and Policy (NIPFP) in New Delhi on 29 April 2016. In the presentation, Abraham examines Aadhaar from a technical perspective, discussing biometrics, identification and authentication, surveillance, and the risks of centralised identity systems. He argues for alternative approaches using smart cards, cryptography and decentralised systems, while examining broader questions of security, accountability, corruption and the appropriate use of technology.
