@@ -45,8 +45,10 @@ created: 2026-07-22
   <div class="aadhaar-video__details">
     <p><strong>Aadhaar by Numbers</strong></p>
     <p>Uploaded: 7 September 2016</p>
-    <p>Speaker: Sunil Abraham, Centre for Internet and Society (CIS)</p>
-    <p>This talk reflects on several aspects of the Aadhaar project from a technical perspective. It examines biometrics as identification and authentication technologies, critiques UIDAI's adoption of free software and open standards, and analyses alternative technical solutions and architectures that could allow India to realise the benefits of identity management without the harms and risks associated with centralised biometrics.</p>
+    <p>Speaker: Sunil Abraham</p>
+    <p>
+  In this presentation, Sunil Abraham examines Aadhaar from a technical perspective, discussing biometrics, identification and authentication, surveillance, and alternative approaches to digital identity architecture.
+  </p>
   </div>
 </div>
 
@@ -415,6 +417,8 @@ Sunil posted this video on 𝕏 (then known as Twitter) on 17 October 2016 with 
   </div>
 </div>
 
+{% include sunilspeaks.html %}
+
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <style>
@@ -540,6 +544,3 @@ body.tsap-dark-mode .transcript-text {
   border-left-color: #60a5fa;
 }
 </style>
-
-
-{% include sunilspeaks.html %}
