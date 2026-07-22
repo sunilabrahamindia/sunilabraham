@@ -450,6 +450,7 @@ Sunil posted this video on 𝕏 (then known as Twitter) on 17 October 2016 with 
 .aadhaar-video__details {
   padding: 1.25rem 1.5rem;
   color: #222;
+  text-align: center;
 }
 
 .aadhaar-video__details p {
