@@ -20,8 +20,8 @@ The project emerged from discussions between Sunil Abraham and Tito Dutta, a for
 4. [Timeline](#timeline)
    - [2025](#2025)
    - [2026](#2026)
-5. [Links](#links)
-6. [Social](#social)
+5. [Social](#social)
+6. [Links](#links)
 
 ## History
 
