@@ -2,7 +2,7 @@
 layout: default
 title: "With a Powerful Board and Loose Definitions, DNA Bill Is a Recipe for Disaster"
 description: "A Citizen Matters op-ed by Sunil Abraham registering the Centre for Internet and Society's dissent over the January 2015 draft of the Human DNA Profiling Bill."
-categories: [Media mentions]
+categories: [Media articles, Publications]
 date: 2015-07-28
 source: "Citizen Matters"
 authors: ["Sunil Abraham"]
