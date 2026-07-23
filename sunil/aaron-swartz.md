@@ -107,11 +107,15 @@ He compared this position to traditions of civil disobedience associated with Ma
 
 #### Aaron Swartz Memorial Hacknight
 
-On 19 and 20 January 2013, HasGeek organised the Aaron Swartz Memorial Hacknight at the offices of the [Centre for Internet and Society](/cis/) (CIS) in Bengaluru.
+On 19 and 20 January 2013, HasGeek organised the Aaron Swartz Memorial Hacknight at the offices of the [Centre for Internet and Society](/cis/) (CIS) in Bengaluru. More than 40 participants took part in discussions about Swartz's life and work and worked on projects aimed at making public data more accessible and usable.
 
 A separate [report](/media/bangalore-hackers-aaron-swartz-hindu/) published by *The Hindu* on 21 January 2013 described Abraham discussing the "ethical landmines" surrounding the JSTOR case during the memorial hacknight. According to the report: "He put this in the context of American foreign policy rhetoric based on Internet freedom, which restricts itself to freedom of expression and doesn't include access to knowledge." The article also reported Abraham referring to the difference between American and Indian legal approaches to access to knowledge and broadcasting rights.
 
+A [report published by *Citizen Matters*](/media/liberating-voter-rolls-in-memory-of-aaron-swartz-citizen-matters/) on 10 February 2013 recorded that Abraham joined the hacknight and gave a presentation on copyright law, the Indian IT Act, and Swartz's work. His presentation was followed by a half-hour discussion on the scope of copyright law in India, copyright exemptions, and what constitutes copyright infringement. Participants discussed concerns that broad interpretations of copyright and information technology laws could enable the state and private parties to target individuals, including on frivolous grounds.
+
 According to the CIS report on the memorial hacknight, Abraham discussed Swartz in relation to open access, freedom of information, copyright law, and civil disobedience. He argued that Swartz was difficult for many organisations and movements to fully embrace because he openly challenged the legitimacy of existing copyright systems rather than merely advocating alternative licensing models.
+
+The hacknight also connected these legal and policy discussions with practical data liberation projects. Participants worked on making public information more accessible, including Karnataka electoral rolls, government website indexes, railway timetable data, and weather data. One group worked on extracting electoral roll data from PDFs and developing a more usable way for citizens to search for their names and polling booth information.
 
 A recording of the discussion was later uploaded by HasGeek TV:
 
@@ -163,8 +167,9 @@ In November 2024, Abraham reflected on the continuing influence of Swartz and th
 1. [Bangalore Hackers Write Code as Tribute to Aaron Swartz](/media/bangalore-hackers-aaron-swartz-hindu/), *The Hindu*, 21 January 2013, accessed 21 May 2026.
 2. [Is freedom of expression under threat in the digital age?](https://www.indexoncensorship.org/2013/01/india-conference-index/), *Index on Censorship*, 15 January 2013, accessed 21 May 2026.
 3. [Report of Aaron Swartz Memorial Hacknight](https://cis-india.org/openness/blog-old/hasgeek-blog-zainab-bawa-feb-6-2013-report-of-aaron-swartz-memorial-hacknight), *Centre for Internet and Society*, 5 February 2013, accessed 21 May 2026.
-4. [What did Aaron do?](https://www.youtube.com/watch?v=ZtJ_dZ4-ZVA), *HasGeek TV*, YouTube, 20 January 2013, accessed 21 May 2026.
-5. [Sunil Abraham — The online warrior](/media/sunil-abraham-the-online-warrior-mint/), *Mint*, 8 August 2014, accessed 21 May 2026.
+4. [Liberating Voter Rolls in Memory of Aaron Swartz](/media/liberating-voter-rolls-in-memory-of-aaron-swartz-citizen-matters/), *Citizen Matters*, 10 February 2013, accessed 23 July 2026.
+5. [What did Aaron do?](https://www.youtube.com/watch?v=ZtJ_dZ4-ZVA), *HasGeek TV*, YouTube, 20 January 2013, accessed 21 May 2026.
+6. [Sunil Abraham — The online warrior](/media/sunil-abraham-the-online-warrior-mint/), *Mint*, 8 August 2014, accessed 21 May 2026.
 
 ## External links
 - [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) on Wikipedia
