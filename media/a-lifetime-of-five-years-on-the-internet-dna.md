@@ -2,7 +2,7 @@
 layout: default
 title: "A Lifetime of Five Years on the Internet"
 description: "A DNA news article by Subir Ghosh marking the fifth anniversary of CIS, with Sunil Abraham quoted on privacy, internet policy, spectrum, and intellectual property."
-categories: [Centre for Internet and Society, Media mentions]
+categories: [Centre for Internet and Society, Centre for Internet and Society in the media, Media mentions]
 date: 2013-05-19
 authors: ["Subir Ghosh"]
 source: "DNA India"

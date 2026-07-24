@@ -2,7 +2,7 @@
 layout: default
 title: Rahul Cherian Passes Away
 description: "A 2013 Hindu obituary for Rahul Cherian, a disability law and intellectual property law expert, CIS fellow, and co-founder of Inclusive Planet Centre for Disability and Policy."
-categories: [Centre for Internet and Society, Articles of Wider Significance]
+categories: [Articles of Wider Significance, Centre for Internet and Society, Centre for Internet and Society in the media]
 date: 2013-02-08
 source: "The Hindu"
 permalink: /articles/rahul-cherian-passes-away-the-hindu/

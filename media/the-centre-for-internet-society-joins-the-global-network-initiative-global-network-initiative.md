@@ -2,7 +2,7 @@
 layout: default
 title: "The Centre for Internet & Society Joins the Global Network Initiative"
 description: "A Global Network Initiative announcement welcoming the Centre for Internet & Society as its newest member, with remarks on internet governance, transparency, and free expression in India."
-categories: [Centre for Internet and Society, Media mentions]
+categories: [Centre for Internet and Society, Centre for Internet and Society in the media, Media mentions]
 date: 2012-03-08
 source: "Global Network Initiative"
 permalink: /media/the-centre-for-internet-society-joins-the-global-network-initiative-global-network-initiative/
