@@ -138,3 +138,19 @@ This story, parable perhaps, "Frederick" by Leo Lionni, is the story of a mouse 
 These are the limitations of my framework. I won't dwell on them because I've run out of time. I'll just use the opportunity to plug a workshop on Friday at 9:00 AM. The workshop is titled "What Technological Patent Pools Can Learn from the Access to Medicines Movement". Professor Jorge Contreras is organising this workshop. I'm supporting him, and it would be lovely if some of you can join us at that workshop.
 
 Our countries depend upon cheap access devices, sub-$50, sub-$100 devices, and access to those devices is going to be stopped unless we can address the patent problem just as we did for medicines. Thank you.
+
+<style>
+.media-caption {
+  max-width: 680px;
+  margin: 0.75rem auto 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #555;
+  text-align: center;
+}
+
+body.tsap-dark-mode .media-caption {
+  color: #cbd5e1;
+}
+</style>
