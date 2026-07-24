@@ -13,7 +13,45 @@ The presentation introduces the concept of the "Freedom Continuum" as a framewor
 
 This transcript has been lightly edited for punctuation, paragraphing, spelling, typography and the correction of obvious transcription errors. The wording, sequence and substance of the presentation have not been altered.
 
-## Transcript
+## Contents
+
+1. [Key points from the presentation](#key-points)
+2. [Video](#video)
+3. [Transcript](#transcript)
+
+## Key points from the presentation {#key-points}
+
+1. Sunil Abraham introduces the "Freedom Continuum" as a framework for understanding different approaches to knowledge production, attribution, intellectual property and privacy, rather than treating them as binary choices.
+2. The continuum extends from proprietary licensing through Creative Commons, GNU GPL and BSD licensing to piracy, anonymity and practices that deliberately challenge attribution.
+3. Abraham argues that the principal distinction along the continuum is whether attribution is preserved or intentionally disregarded.
+4. Different licensing models are compared according to the freedoms they grant to use, study, modify and share works, as well as the obligations they impose.
+5. Piracy is presented as an interesting case because, despite ignoring copyright restrictions, it generally continues to respect attribution by acknowledging the original creator.
+6. Groups such as Anonymous and the Yes Men are discussed as examples of movements that deliberately challenge attribution and identity as forms of political protest.
+7. Abraham suggests that shared or anonymous identities can serve as practical strategies for protecting privacy against pervasive surveillance.
+8. He proposes "Plausible Deniability" as a thought experiment in response to India's biometric identity programme, illustrating broader concerns about surveillance and identity.
+9. One of the presentation's central conclusions is that "if attribution is not sacred then intangible labour is not more important than tangible labour and vice versa."
+10. Abraham concludes by recommending Leo Lionni's *Frederick* as the conceptual foundation for this argument, describing the children's book as his "scholarly reference".
+
+## Video {#video}
+
+<div style="max-width:680px; margin:2rem auto;">
+  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+    <iframe
+      src="https://www.youtube.com/embed/aPSGIBK03hY"
+      title="Freedom Continuum: From Access to Knowledge to Privacy"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;">
+    </iframe>
+  </div>
+
+  <p class="media-caption">
+    <strong>Video.</strong> <em>Freedom Continuum: From Access to Knowledge to Privacy</em>, presented by Sunil Abraham in Cape Town on 11 December 2013 at the combined Third Global Congress on Intellectual Property and the Public Interest and Open AIR Conference on Innovation and IP in Africa.
+  </p>
+</div>
+
+## Transcript {#transcript}
 
 I'd like to begin by saying thank you to the organisers for having me here at Cape Town. Like Mark and Susan who spoke before me, I'm also not a lawyer, so please be generous when I make mistakes. It's also the first time that I am making this particular presentation, so please be gentle.
 
