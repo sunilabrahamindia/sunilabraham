@@ -5,6 +5,7 @@ permalink: /amaa/the-dalit-desiyata-introduction/
 categories: [A. M. A. Ayrookuzhiel, The Dalit Deśiyata]
 description: "The introduction to A. M. A. Ayrookuzhiel's 1990 edited volume outlining the ideas of development, class struggle and Deśiyata in relation to Dalit liberation."
 authors: A. M. A. Ayrookuzhiel
+page_id: TSAP-1120
 created: 2026-07-09
 ---
 

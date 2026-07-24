@@ -4,6 +4,7 @@ title: "Dalits and Hindu Religious Identity: Proposed Contents (Working Document
 categories: [A. M. A. Ayrookuzhiel, Unfinished Manuscript of A. M. A. Ayrookuzhiel]
 description: A transcription of page 74 of the Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document). This page appears to contain the proposed title page and table of contents for the planned volume Dalits and Hindu Religious Identity.
 permalink: /amaa/unfinished-manuscript-proposed-contents/
+page_id: TSAP-1124
 created: 2026-07-11
 ---
 

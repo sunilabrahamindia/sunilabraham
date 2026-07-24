@@ -4,6 +4,7 @@ title: 'Frederick'
 description: "Sunil Abraham's use of Leo Lionni's children's book Frederick as a framework for examining attribution, tangible and intangible labour, and the intellectual property regime."
 categories: [Resources, Sunil Abraham, TSAP Originals]
 permalink: /frederick/
+page_id: TSAP-1102
 created: 2026-06-28
 ---
 

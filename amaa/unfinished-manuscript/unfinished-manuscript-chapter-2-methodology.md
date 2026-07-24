@@ -4,6 +4,7 @@ title: "Chapter 2, Methodology (Working Document)"
 categories: [A. M. A. Ayrookuzhiel, Unfinished Manuscript of A. M. A. Ayrookuzhiel]
 description: Chapter 2, "Methodology", from the unfinished manuscript tentatively titled "Dalits and Hindu Religious Identity". This chapter sets out the methodology for the study of caste-specific religious life and Dalit participation in Hindu religious traditions.
 permalink: /amaa/unfinished-manuscript-chapter-2-methodology/
+page_id: TSAP-1122
 created: 2026-07-10
 ---
 

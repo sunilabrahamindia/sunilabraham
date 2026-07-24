@@ -4,6 +4,7 @@ title: 'Aadhaar by Numbers'
 description: "Transcript of Sunil Abraham's presentation on Aadhaar, examining biometrics, identification, authentication, surveillance and alternative approaches to digital identity."
 categories: [Resources, Sunil Abraham, Transcripts]
 permalink: /sunil/aadhaar-by-numbers/
+page_id: TSAP-1149
 created: 2026-07-22
 homepage_featured: true
 ---

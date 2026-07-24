@@ -7,6 +7,7 @@ date: 2012-12-23
 source: "Descrier News"
 authors: ["Jorge Contreras"]
 permalink: /media/patent-less-smartphone-innovation-global-technology-markets-descrier/
+page_id: TSAP-1117
 created: 2026-07-07
 homepage_featured: true
 ---

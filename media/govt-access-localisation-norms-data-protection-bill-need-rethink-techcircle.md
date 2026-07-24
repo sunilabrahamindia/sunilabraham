@@ -7,6 +7,7 @@ date: 2018-08-01
 source: "TechCircle"
 authors: ["Anand J"]
 permalink: /media/govt-access-localisation-norms-data-protection-bill-need-rethink-techcircle/
+page_id: TSAP-1105
 created: 2026-06-30
 homepage_featured: true
 ---

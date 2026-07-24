@@ -5,6 +5,7 @@ description: "A book review by A. M. A. Ayrookuzhiel of Conversion, Competition 
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/conversion-competition-and-conflict-book-review/
 categories: [A. M. A. Ayrookuzhiel, Book reviews]
+page_id: TSAP-1147
 created: 2026-07-21
 homepage_featured: true
 ---

@@ -5,6 +5,7 @@ description: "A book review by A. M. A. Ayrookuzhiel of Men and Gods in a Changi
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/men-and-gods-in-a-changing-world-book-review/
 categories: [A. M. A. Ayrookuzhiel, Book reviews]
+page_id: TSAP-1148
 created: 2026-07-21
 homepage_featured: true
 ---

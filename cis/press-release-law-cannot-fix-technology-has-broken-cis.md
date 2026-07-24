@@ -6,6 +6,7 @@ categories: [Centre for Internet and Society]
 date: 2016-03-11
 source: "Centre for Internet and Society"
 permalink: /cis/press-release-law-cannot-fix-technology-has-broken-cis/
+page_id: TSAP-1156
 created: 2026-07-24
 ---
 

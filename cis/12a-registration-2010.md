@@ -5,6 +5,7 @@ description: "The 2010 registration of the Centre for Internet and Society under
 permalink: /cis/12a-registration-2010/
 categories: ["Centre for Internet and Society"]
 date: 2010-02-25
+page_id: TSAP-1138
 created: 2026-07-18
 homepage_featured: true
 ---

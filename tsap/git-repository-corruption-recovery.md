@@ -4,6 +4,7 @@ title: "Git Repository Corruption Recovery (1 July 2026)"
 description: "Documentation of the local Git database corruption incident on 1 July 2026, its technical root causes, and the incremental recovery workflow."
 categories: [TSAP Documentation, TSAP Incidents]
 permalink: /tsap/git-repository-corruption-recovery/
+page_id: TSAP-1107
 created: 2026-07-01
 ---
 

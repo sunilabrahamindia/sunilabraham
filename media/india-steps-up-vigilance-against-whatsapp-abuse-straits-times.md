@@ -7,6 +7,7 @@ date: 2018-08-24
 source: "Straits Times"
 authors: ["Debashree Dasgupta"]
 permalink: /media/india-steps-up-vigilance-against-whatsapp-abuse-straits-times/
+page_id: TSAP-1101
 created: 2026-06-28
 homepage_featured: true
 ---

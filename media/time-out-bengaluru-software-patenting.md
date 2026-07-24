@@ -7,6 +7,7 @@ date: 2013-01-16
 source: "Time Out Bengaluru"
 authors: ["Akhila Seetharaman"]
 permalink: /media/time-out-bengaluru-software-patenting/
+page_id: TSAP-1132
 created: 2026-07-14
 ---
 

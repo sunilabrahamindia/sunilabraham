@@ -4,6 +4,7 @@ title: "ICANN Documentary Information Disclosure Policy (DIDP)"
 description: "Research, documentation and analysis of ICANN's Documentary Information Disclosure Policy (DIDP), including the DIDP process, historical requests and responses, and DIDP requests by the Centre for Internet and Society and The Sunil Abraham Project."
 permalink: /didp/
 categories: [ICANN Documentary Information Disclosure Policy (DIDP), Project Pages]
+page_id: TSAP-1157
 created: 2026-07-24
 ---
 

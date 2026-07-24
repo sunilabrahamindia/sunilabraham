@@ -6,6 +6,7 @@ categories: [Centre for Internet and Society, Centre for Internet and Society in
 date: 2014-07-04
 source: "Business Standard"
 permalink: /cis/coai-cis-pan-india-meetings-privacy-issues-business-standard/
+page_id: TSAP-1155
 created: 2026-07-24
 ---
 

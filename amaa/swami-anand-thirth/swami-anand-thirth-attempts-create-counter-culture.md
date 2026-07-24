@@ -5,6 +5,7 @@ permalink: /amaa/swami-anand-thirth-attempts-create-counter-culture/
 categories: [A. M. A. Ayrookuzhiel, Swami Anand Thirth]
 description: "The third chapter of A. M. A. Ayrookuzhiel's 1987 study of Swami Anand Thirth, examining educational, social and cultural initiatives undertaken to challenge caste discrimination and foster a democratic social order."
 authors: A. M. A. Ayrookuzhiel
+page_id: TSAP-1118
 created: 2026-07-08
 homepage_featured: true
 ---

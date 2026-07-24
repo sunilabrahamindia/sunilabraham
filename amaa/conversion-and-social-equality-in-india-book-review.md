@@ -5,6 +5,7 @@ description: "A book review by A. M. A. Ayrookuzhiel of Conversion and Social Eq
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/conversion-and-social-equality-in-india-book-review/
 categories: [A. M. A. Ayrookuzhiel, Book reviews]
+page_id: TSAP-1146
 created: 2026-07-21
 homepage_featured: true
 ---

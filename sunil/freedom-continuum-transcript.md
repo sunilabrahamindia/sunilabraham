@@ -4,6 +4,7 @@ title: 'Freedom Continuum: From Access to Knowledge to Privacy (Transcript)'
 description: "Transcript of Sunil Abraham's presentation 'Freedom Continuum: From Access to Knowledge to Privacy', delivered in Cape Town, South Africa, on 11 December 2013."
 categories: [Resources, Sunil Abraham, Transcripts]
 permalink: /sunil/freedom-continuum-transcript/
+page_id: TSAP-1103
 created: 2026-06-28
 ---
 

@@ -5,6 +5,7 @@ categories: [A. M. A. Ayrookuzhiel, The Dalit Deśiyata]
 description: A 1990 edited volume by A. M. Abraham Ayrookuzhiel on Dalit communities, development, class struggle and politics in Kerala, published by the Christian Institute for the Study of Religion and Society (CISRS).
 permalink: /amaa/the-dalit-desiyata/
 publication_year: 1990
+page_id: TSAP-1119
 created: 2026-07-08
 homepage_featured: true
 ---

@@ -4,6 +4,7 @@ title: "Linux and Git Commands for TSAP Repository Maintenance"
 description: "A practical reference of Linux, Git, and GitHub CLI commands used to inspect, diagnose, and maintain The Sunil Abraham Project (TSAP) repository."
 categories: [TSAP Documentation]
 permalink: /tsap/linux-git-commands/
+page_id: TSAP-1135
 created: 2026-07-16
 ---
 
@@ -148,6 +149,42 @@ numfmt --field=3 --to=iec
 ```
 
 The results are displayed from largest to smallest, with file sizes shown in a human-readable format such as MB or KB.
+
+## Inspect Uncommitted Changes
+
+These commands are useful for reviewing the current working tree before committing changes. They help verify that only the intended files have been modified and provide a quick indication of the size and scope of the pending changes.
+
+### View a Summary of Modified Files
+
+```bash
+git diff --stat
+```
+
+This command lists each modified file together with the number of inserted and deleted lines. It provides a concise summary of the current uncommitted changes.
+
+### Show the Number of Added and Deleted Lines
+
+```bash
+git diff --numstat
+```
+
+This command reports the number of lines added and removed for each modified file. It is particularly useful for identifying unexpectedly large changes before committing.
+
+### Show an Overall Summary of Uncommitted Changes
+
+```bash
+git diff --shortstat
+```
+
+This command displays only the total number of modified files together with the total insertions and deletions, providing a quick overview of the current working tree.
+
+### Estimate the Size of the Current Diff
+
+```bash
+git diff | wc -c
+```
+
+This command reports the size, in bytes, of the textual Git diff for the current working tree. It measures the size of the patch rather than the actual amount of repository storage that will be consumed after Git compression, but it provides a useful indication of the relative size of uncommitted changes.
 
 ## Inspect What a Specific Commit Changed
 

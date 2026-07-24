@@ -7,6 +7,7 @@ date: 2018-10-17
 source: "TechCircle"
 authors: ["Anand J"]
 permalink: /media/not-surprised-by-indian-govts-data-localisation-directives-michael-dell-techcircle/
+page_id: TSAP-1106
 created: 2026-06-30
 ---
 

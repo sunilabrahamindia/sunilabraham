@@ -5,6 +5,7 @@ description: "A historical overview of organisational policies and guidelines ma
 permalink: /cis/organisational-policies-2019/
 categories: ["Centre for Internet and Society"]
 date: 2019-07-23
+page_id: TSAP-1141
 created: 2026-07-18
 homepage_featured: true
 ---

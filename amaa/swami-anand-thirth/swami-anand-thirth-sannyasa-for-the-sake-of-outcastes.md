@@ -5,6 +5,7 @@ permalink: /amaa/swami-anand-thirth-sannyasa-for-the-sake-of-outcastes/
 categories: [A. M. A. Ayrookuzhiel, Swami Anand Thirth]
 description: "The second chapter of A. M. A. Ayrookuzhiel's 1987 study of Swami Anand Thirth, describing the social and political background of early twentieth-century Kerala, the Swami's childhood, education, and early influences."
 authors: A. M. A. Ayrookuzhiel
+page_id: TSAP-1104
 created: 2026-06-29
 homepage_featured: true
 ---

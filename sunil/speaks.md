@@ -4,6 +4,7 @@ title: "Template:Sunil Speaks"
 permalink: /sunil/speaks/
 categories: [Navigational templates, Sunil Abraham]
 description: Navigational template linking selected essays, reflections, and related pages by or about Sunil Abraham.
+page_id: TSAP-1125
 created: 2026-07-11
 ---
 

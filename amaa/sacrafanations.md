@@ -5,6 +5,7 @@ categories: ["A. M. A. Ayrookuzhiel", "Books"]
 description: A 2023 edited volume by Y. T. Vinayaraj, published jointly by the Christian Institute for the Study of Religion and Society (CISRS) and the Indian Society for Promoting Christian Knowledge (ISPCK), exploring Dalit religion(s), theology, epistemology, and politics while reflecting on the intellectual legacy of Rev. A. M. A. Ayrookuzhiel.
 permalink: /amaa/sacrafanations/
 publication_year: 2023
+page_id: TSAP-1115
 created: 2026-07-06
 homepage_featured: true
 ---

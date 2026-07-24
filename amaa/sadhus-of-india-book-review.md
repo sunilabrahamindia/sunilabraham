@@ -5,6 +5,7 @@ description: "A book review by A. M. A. Ayrookuzhiel of Sadhus of India by B. D.
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/sadhus-of-india-book-review/
 categories: [A. M. A. Ayrookuzhiel, Book reviews]
+page_id: TSAP-1145
 created: 2026-07-20
 homepage_featured: true
 ---

@@ -7,6 +7,7 @@ date: 2013-02-10
 source: "Citizen Matters"
 authors: ["Zainab Bawa"]
 permalink: /media/liberating-voter-rolls-in-memory-of-aaron-swartz-citizen-matters/
+page_id: TSAP-1151
 created: 2026-07-23
 ---
 

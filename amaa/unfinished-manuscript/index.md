@@ -5,6 +5,7 @@ categories: [A. M. A. Ayrookuzhiel, Unfinished Manuscript of A. M. A. Ayrookuzhi
 description: A working document for the preparation, study and reconstruction of the unfinished manuscript tentatively titled "Dalit and Hindu Religious Identity", left incomplete at the time of A. M. A. Ayrookuzhiel's death in 1996.
 permalink: /amaa/unfinished-manuscript/
 publication_year: 1996
+page_id: TSAP-1121
 created: 2026-07-10
 homepage_featured: true
 ---

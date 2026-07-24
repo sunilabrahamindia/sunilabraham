@@ -6,6 +6,7 @@ categories: [Media mentions]
 date: 2010-07-06
 source: "DTiNews"
 permalink: /media/a-new-age-in-news-dtinews/
+page_id: TSAP-1133
 created: 2026-07-15
 homepage_featured: true
 ---

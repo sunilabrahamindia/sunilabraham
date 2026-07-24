@@ -7,6 +7,7 @@ date: 2015-04-14
 source: "TechCircle"
 authors: ["Binu Paul"]
 permalink: /media/proposed-net-neutrality-policy-deterrent-startup-culture-techcircle/
+page_id: TSAP-1114
 created: 2026-07-05
 ---
 

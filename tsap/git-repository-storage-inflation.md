@@ -4,6 +4,7 @@ title: "Git Repository Storage Inflation Incident (1 July 2026)"
 description: "Documentation of the repository storage inflation incident on 1 July 2026, the diagnostic tracking, history rewrite operations, and final backend resolution."
 categories: [TSAP Documentation, TSAP Incidents]
 permalink: /tsap/git-repository-storage-inflation/
+page_id: TSAP-1110
 created: 2026-07-02
 ---
 

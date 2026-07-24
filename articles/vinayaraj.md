@@ -4,6 +4,7 @@ title: "Y. T. Vinayaraj"
 categories: ["Biographies"]
 description: Biography of Rev. Dr. Y. T. Vinayaraj, Indian theologian, scholar of religion, author, editor, and educator.
 permalink: /vinayaraj/
+page_id: TSAP-1116
 created: 2026-07-07
 homepage_featured: true
 ---

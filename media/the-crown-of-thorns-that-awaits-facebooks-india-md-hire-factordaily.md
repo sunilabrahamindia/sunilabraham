@@ -7,6 +7,7 @@ date: 2018-07-25
 source: "FactorDaily"
 authors: ["Sunny Sen", "Jayadevan PK"]
 permalink: /media/the-crown-of-thorns-that-awaits-facebooks-india-md-hire-factordaily/
+page_id: TSAP-1099
 created: 2026-06-27
 homepage_featured: true
 ---

@@ -6,6 +6,7 @@ categories: [Articles of Wider Significance, Centre for Internet and Society, Ce
 date: 2013-02-08
 source: "The Hindu"
 permalink: /articles/rahul-cherian-passes-away-the-hindu/
+page_id: TSAP-1134
 created: 2026-07-16
 ---
 

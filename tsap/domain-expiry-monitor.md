@@ -4,6 +4,7 @@ title: "TSAP Domain Expiry Monitor (Documentation)"
 description: "Documentation for the TSAP Domain Expiry Monitor, including its architecture, monitoring workflow, renewal detection, and automated reminder system."
 categories: [TSAP Documentation, TSAP Tools]
 permalink: /tsap/domain-expiry-monitor/
+page_id: TSAP-1131
 created: 2026-07-13
 ---
 

@@ -5,6 +5,7 @@ permalink: /amaa/swami-anand-thirth-against-sacred-abodes-untouchability/
 categories: [A. M. A. Ayrookuzhiel, Swami Anand Thirth]
 description: "The fifth chapter of A. M. A. Ayrookuzhiel's 1987 study of Swami Anand Thirth, examining his campaigns against untouchability and caste discrimination in temples across Kerala."
 authors: A. M. A. Ayrookuzhiel
+page_id: TSAP-1136
 created: 2026-07-17
 homepage_featured: true
 ---

@@ -5,6 +5,7 @@ categories: ["A. M. A. Ayrookuzhiel", "Books"]
 description: "An autobiography by Rev. Godwin Shiri reflecting on his life journey, Christian ministry, social engagement, research, interfaith initiatives, and experiences of adversity and faith."
 permalink: /amaa/my-journey-on-a-thorny-way-godwin-shiri/
 publication_year: 2025
+page_id: TSAP-1144
 created: 2026-07-20
 homepage_featured: true
 ---

@@ -4,6 +4,7 @@ title: "A. M. A. Ayrookuzhiel Storytelling Project"
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: Documentation of the storytelling initiative undertaken as part of the preparations for the 30th death anniversary of Rev. Dr. A. M. A. Ayrookuzhiel, including its objectives, editorial principles, workflow and future plans.
 permalink: /amaa/storytelling/
+page_id: TSAP-1129
 created: 2026-07-13
 homepage_featured: true
 ---
