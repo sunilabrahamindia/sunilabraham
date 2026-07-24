@@ -9,7 +9,7 @@ permalink: /cis/press-release-law-cannot-fix-technology-has-broken-cis/
 created: 2026-07-24
 ---
 
-**"The Law Cannot Fix What Technology Has Broken!"** is a press release issued by the ]Centre for Internet and Society](/cis/) (CIS) on 11 March 2016, the day the Lok Sabha passed the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Bill, 2016. The release argues that no amount of legal safeguards can compensate for what it describes as fundamentally flawed technological design in Aadhaar's biometric architecture, laying out concerns around identification without consent and the fallibility of biometric authentication at national scale.
+**"The Law Cannot Fix What Technology Has Broken!"** is a press release issued by the [Centre for Internet and Society](/cis/) (CIS) on 11 March 2016, the day the Lok Sabha passed the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Bill, 2016. The release argues that no amount of legal safeguards can compensate for what it describes as fundamentally flawed technological design in Aadhaar's biometric architecture, laying out concerns around identification without consent and the fallibility of biometric authentication at national scale.
 
 ## Contents
 
