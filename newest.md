@@ -159,6 +159,8 @@ select {
   border: 1px solid #7a8ea3;
   cursor: pointer;
   transition: 0.25s ease;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 select:hover {
