@@ -35,10 +35,24 @@ Please use the sorting, category/month filters, and search box to browse the fre
   <!-- CATEGORY FILTER -->
   <div class="category-filter">
     <label for="cat-select" class="label">Filter by Category:</label>
-<select id="cat-select">
-  <option value="all">All Categories</option>
-  <option value="test">Test</option>
-</select>
+    <select id="cat-select">
+      <option value="all">All Categories</option>
+
+      {% assign filtered = site.pages | where_exp: "p", "p.created" %}
+      {% assign catlist = "" | split: "," %}
+      {% for page in filtered %}
+        {% for c in page.categories %}
+          {% unless catlist contains c %}
+            {% assign catlist = catlist | push: c %}
+          {% endunless %}
+        {% endfor %}
+      {% endfor %}
+
+      {% assign sorted_cats = catlist | sort %}
+      {% for c in sorted_cats %}
+        <option value="{{ c | downcase }}">{{ c }}</option>
+      {% endfor %}
+    </select>
   </div>
 
   <!-- MONTH FILTER -->
@@ -79,7 +93,7 @@ Please use the sorting, category/month filters, and search box to browse the fre
 {% for page in sorted %}
 <li
   class="page-item"
-  data-title="{{ page.title | downcase | escape }}"
+  data-title="{{ page.title | downcase }}"
   data-created="{{ page.created }}"
   data-month="{{ page.created | date: "%Y-%m" }}"
   data-year="{{ page.created | date: "%Y" }}"
