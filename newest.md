@@ -93,7 +93,7 @@ Please use the sorting, category/month filters, and search box to browse the fre
 {% for page in sorted %}
 <li
   class="page-item"
-  data-title="{{ page.title | downcase }}"
+  data-title="{{ page.title | downcase | escape }}"
   data-created="{{ page.created }}"
   data-month="{{ page.created | date: "%Y-%m" }}"
   data-year="{{ page.created | date: "%Y" }}"
