@@ -81,7 +81,7 @@ To explore the newest pages on the site, please visit the [Newest Pages](/newest
     {% if page.title %}
       <li 
         class="page-item"
-        data-title="{{ page.title | downcase }}"
+        data-title="{{ page.title | downcase | escape }}"
         data-cats="{{ page.categories | join: ',' | downcase }}"
       >
         <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
@@ -173,6 +173,8 @@ To explore the newest pages on the site, please visit the [Newest Pages](/newest
   padding: 0.3em 0.5em;
   border: 1px solid #9aacc0;
   border-radius: 6px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .control-row input:focus,
