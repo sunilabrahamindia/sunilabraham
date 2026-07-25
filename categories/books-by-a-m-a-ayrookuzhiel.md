@@ -1,7 +1,7 @@
 ---
 layout: category
 title: "Category:Books by A. M. A. Ayrookuzhiel"
-description: "Books authored, co-authored, and edited by A. M. A. Ayrookuzhiel, documented under The Sunil Abraham Project."
+description: "Books authored, co-authored, and edited by Rev. A. M. A. Ayrookuzhiel, documented under The Sunil Abraham Project."
 permalink: /categories/books-by-a-m-a-ayrookuzhiel/
 created: 2026-07-25
 ---
