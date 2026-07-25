@@ -11,7 +11,7 @@ page_id: TSAP-0172
 created: 2025-12-08
 ---
 
-**India's Cyber-Security Budget 'Woefully Inadequate': Experts** is an *Economic Times* report published on 28 January 2015. The article assesses India's cyber security funding in the wake of increasing cyber-attacks, Snowden's disclosures, and proposed national cyber coordination infrastructure. Experts — including Sunil Abraham — argue that current allocations fall significantly short of India's needs.
+**India's Cyber-Security Budget 'Woefully Inadequate': Experts** is an *Economic Times* report published on 28 January 2015. The article assesses India's cyber security funding in the wake of increasing cyber-attacks, Snowden's disclosures, and proposed national cyber coordination infrastructure. Experts, including [Sunil Abraham](/sunil/) argue that current allocations fall significantly short of India's needs.
 
 ## Contents
 
