@@ -17,6 +17,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 2. [Version 2.1.1](#version-211)
 3. [Version 2.1.2](#version-212)
 4. [Version 2.1.3](#version-213)
+5. [Version 2.2](#version-22)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -112,5 +113,31 @@ Between 12 and 18 July 2026, 16 new pages were published.
 
 **Status** ✅ Done  
 Completion date: 18 July 2026
+
+## Version 2.2
+
+Between 19 and 25 July 2026, 19 new pages were published.
+
+**Honesty**
+- Started documenting [Honesty](/tsap/honesty/) as a core value of The Sunil Abraham Project. The page proposes that honesty is essential to the project and that everyone involved should make every sincere effort to be honest in their work, conduct, and interactions. The page remains under construction.
+
+**Repository Maintenance**
+- Added a repository-level `.gitignore` file covering common Python cache files, local virtual environments, environment variable and secret files, Jekyll build output, local Git backups, operating system artefacts, and editor-specific files.
+- The `.git-backup/` directory is now explicitly ignored, helping prevent local Git backup data from being accidentally committed to the repository.
+
+**Category System**
+- Added optional support for “main article” links on TSAP category pages. Categories can now identify a principal overview page or work through their front matter, displaying a short “The main article for this category is...” notice below the category description and above the alphabetical page listing. The feature was initially implemented for the Swami Anand Thirth category.
+- Improved the category system to support custom category permalinks while maintaining compatibility with existing category links. This allows category pages to use shorter, more meaningful URLs without disrupting existing categories or internal navigation.
+
+**Automatic Last Updated Dates**
+- Enhanced TSAP's [Automatic Last Updated Dates](/tsap/automatic-last-updated-dates-documentation/) system to prevent non-substantive maintenance changes from appearing as meaningful page updates.
+- The system now ignores the repository-wide Page ID migration commit and commits explicitly marked with `[Minor]`, `[Minor edit]`, `[Metadata]`, `[Batch edit]`, or `[Maintenance]`, continuing backwards through Git history to identify the latest substantive edit.
+- The updated system was tested across 1,169 Markdown files, verified to produce deterministic output, and manually checked against page history.
+
+**ICANN Documentary Information Disclosure Policy**
+- Started documenting the [ICANN Documentary Information Disclosure Policy (DIDP)](/didp/), covering the policy and process, selected requests and responses, and related transparency and accountability resources. The page will serve as the central hub for DIDP-related documentation, research, and archival work on TSAP.
+
+**Status** ✅ Done  
+Completion date: 25 July 2026
 
 {% include versions.html %}
