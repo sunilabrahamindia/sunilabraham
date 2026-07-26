@@ -120,6 +120,7 @@ The same 2008 interview was cited in two earlier publications by Nevejan. In the
 
 <style>
 .media-details {
+  box-sizing: border-box;  /* Prevents horizontal overflow caused by padding on mobile */
   background: #f9fbfe;
   border: 1px solid #d8e2f0;
   border-radius: 10px;
