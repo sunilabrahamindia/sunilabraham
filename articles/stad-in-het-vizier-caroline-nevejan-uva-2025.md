@@ -125,7 +125,7 @@ The same 2008 interview was cited in two earlier publications by Nevejan. In the
   border-radius: 10px;
   padding: 1.2rem 1.4rem;
   width: 100%;
-  max-width: 100%;
+  max-width: 760px;
   margin: 1.2rem 0;
   font-size: 0.96rem;
   line-height: 1.5;
