@@ -23,6 +23,7 @@ created: 2026-05-27
 9. [Concluding perspective](#conclusion)
 10. [Full text](#full-text)
 11. [Publication](#publication)
+12. [External Link](#external-link)
 
 ## Overview {#overview}
 
@@ -107,5 +108,8 @@ Ayrookuzhiel ultimately presents the anti-Brahmanical critique emerging from Dal
 ## Publication
 
 This essay first appeared in *Hindu-Christian Studies Bulletin*, Vol. 7, 1994, pp. 13-19.
+
+## External Link
+- [The Dalits, Religions and Interfaith Dialogue](https://digitalcommons.butler.edu/cgi/viewcontent.cgi?article=1094&context=jhcs) on The Butler University Libraries
 
 {% include navbox-amaa.html %}
