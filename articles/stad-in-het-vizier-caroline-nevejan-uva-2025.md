@@ -119,6 +119,31 @@ The same 2008 interview was cited in two earlier publications by Nevejan. In the
 - [Official website](https://www.nevejan.org/) of Caroline Nevejan
 
 <style>
+.media-details {
+  background: #f9fbfe;
+  border: 1px solid #d8e2f0;
+  border-radius: 10px;
+  padding: 1.2rem 1.4rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 1.2rem 0;
+  font-size: 0.96rem;
+  line-height: 1.5;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.media-details dt {
+  font-weight: 600;
+  color: #1b2a49;
+  margin-top: 0.7rem;
+}
+
+.media-details dd {
+  margin: 0 0 0.3rem 0.3rem;
+  color: #555;
+}
+
 .pdf-container {
   margin: 1.2rem 0;
   text-align: center;
@@ -144,7 +169,8 @@ The same 2008 interview was cited in two earlier publications by Nevejan. In the
     height: 65vh;
   }
 }
-  .nevejan-image {
+
+.nevejan-image {
   float: right;
   width: 350px;
   margin: 0 0 1rem 1.2rem;
