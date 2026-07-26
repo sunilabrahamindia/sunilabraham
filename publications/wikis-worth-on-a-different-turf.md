@@ -2,7 +2,7 @@
 layout: default
 title: "Wiki's Worth, on a Different Turf"
 description: "An article by Sunil Abraham in Mint highlighting Indian contributions to Wikipedia research and exploring the challenges of maintaining neutrality, transparency, and accountability in collaborative online knowledge systems."
-categories: [Media articles, Publications]
+categories: [CIS-A2K, Media articles, Publications]
 date: 2010-01-12
 authors: ["Sunil Abraham"]
 source: "Mint"
