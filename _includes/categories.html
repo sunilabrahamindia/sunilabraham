@@ -58,11 +58,7 @@
         {% assign expected_title = "Category:" | append: category %}
         {% assign cat_page = site.pages | where: "title", expected_title | first %}
 
-        <li>
-          <a href="{% if cat_page %}{{ cat_page.url | relative_url }}{% else %}{{ '/categories/' | append: category | slugify | append: '/' | relative_url }}{% endif %}">
-            {{ category }}
-          </a>
-        </li>
+               <li><a href="{% if cat_page %}{{ cat_page.url | relative_url }}{% else %}{{ '/categories/' | append: category | slugify | append: '/' | relative_url }}{% endif %}">{{ category }}</a></li>
       {% endfor %}
     </ul>
   </div>
