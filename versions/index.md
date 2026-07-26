@@ -116,7 +116,7 @@ Completion date: 18 July 2026
 
 ## Version 2.2
 
-Between 19 and 25 July 2026, 19 new pages were published.
+Between 19 and 25 July 2026, 17 new pages were published.
 
 **Honesty**
 - Started documenting [Honesty](/tsap/honesty/) as a core value of The Sunil Abraham Project. The page proposes that honesty is essential to the project and that everyone involved should make every sincere effort to be honest in their work, conduct, and interactions. The page remains under construction.
