@@ -551,6 +551,13 @@ body.tsap-dark-mode .header-link:focus {
   color: #38bdf8 !important;
 }
 
+/* Horizontal Rules & Article Separators */
+body.tsap-dark-mode hr,
+body.tsap-dark-mode .article-separator {
+  border: none !important;
+  border-top: 1px solid var(--border-main, #374151) !important;
+}
+
 /* Breadcrumb navigation link spacing and clarity */
 body.tsap-dark-mode .breadcrumb a {
   color: #94a3b8 !important; /* Muted gray for past steps */
