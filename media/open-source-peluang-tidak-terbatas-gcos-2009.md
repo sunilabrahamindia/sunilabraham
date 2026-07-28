@@ -100,9 +100,9 @@ created: 2026-07-27
 
 ## Context and Background
 
-This article covers the opening day of GCOS 2009, three days before the KabarIndonesia report already documented on this site. While the KabarIndonesia piece gave Sunil Abraham a dedicated paragraph quoting his impressions of Indonesia's open source community, this Media Indonesia article names him only within a list of international experts and practitioners in attendance, alongside speakers from Thailand, Malaysia, Sun Microsystems, IBM, and Harvard University.
+This article reports on GCOS 2009 in Jakarta and places Sunil Abraham among the international experts present at the conference. The story focuses on the opening remarks by Tifatul Sembiring and Betti Alisjahbana, framing open source as a practical response to piracy, software costs, and the need for stronger local digital capacity.
 
-The article instead centres on Minister Tifatul Sembiring's framing of FOSS as both an anti-piracy tool and a driver of national technological self-reliance, and on AOSI chair Betti Alisjahbana's remarks on Indonesia's open source movement since its 2004 declaration.
+The article records an early public moment in Indonesia’s open source scene, when government support, community activity, and international participation came together around the same event. Sunil is mentioned as one of the named experts attending the conference, not as the subject of a separate profile or quote.
 
 <style>
 .media-details {
