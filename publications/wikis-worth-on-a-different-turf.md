@@ -36,7 +36,7 @@ created: 2025-11-12
 
   <dt>📰 Publication Link:</dt>
   <dd>
-    Link unavailable (archived reference)
+    Not available
   </dd>
 </dl>
 
