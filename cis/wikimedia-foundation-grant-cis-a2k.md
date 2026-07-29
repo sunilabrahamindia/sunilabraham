@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Wikimedia Foundation Awards Grant to Centre for Internet and Society to Expand Access to Knowledge in India"
-description: "A Wikimedia Blog announcement detailing the Wikimedia Foundation's two-year grant to the Centre for Internet and Society, establishing what would become the CIS-A2K programme."
+description: "A 2012 Wikimedia Blog announcement detailing the Wikimedia Foundation's two-year grant to the Centre for Internet and Society, establishing what would become the CIS-A2K programme."
 categories: [Centre for Internet and Society, Centre for Internet and Society in the media, CIS-A2K]
 date: 2012-08-01
 authors: ["Barry Newstead"]
