@@ -6,7 +6,7 @@ categories: [Centre for Internet and Society, Centre for Internet and Society in
 date: 2012-08-01
 authors: ["Barry Newstead"]
 source: "Wikimedia Blog"
-permalink: /media/wikimedia-foundation-grant-cis-a2k/
+permalink: /cis/wikimedia-foundation-grant-cis-a2k/
 created: 2026-07-29
 ---
 
