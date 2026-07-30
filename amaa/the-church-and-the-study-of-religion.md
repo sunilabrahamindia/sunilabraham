@@ -4,7 +4,7 @@ title: "The Church and the Study of Religion"
 description: "An article by A. M. A. Ayrookuzhiel examining how religion should be studied from the perspective of the poor, with particular reference to the Hindu religious tradition."
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/the-church-and-the-study-of-religion/
-categories: [A. M. A. Ayrookuzhiel, Publications, Writings not in Essays on Dalits, Religion and Liberation]
+categories: [A. M. A. Ayrookuzhiel, Publications, "Writings not in Essays on Dalits, Religion and Liberation"]
 page_id: TSAP-1095
 created: 2026-06-26
 homepage_featured: true

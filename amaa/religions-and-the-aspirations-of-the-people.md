@@ -4,7 +4,7 @@ title: "Religions and the Aspirations of the People"
 description: "An article by A. M. A. Ayrookuzhiel examining how religions can serve established power or the aspirations of poor, marginalised and oppressed people."
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/religions-and-the-aspirations-of-the-people/
-categories: [A. M. A. Ayrookuzhiel, Publications, Writings not in Essays on Dalits, Religion and Liberation]
+categories: [A. M. A. Ayrookuzhiel, Publications, "Writings not in Essays on Dalits, Religion and Liberation"]
 created: 2026-07-30
 homepage_featured: true
 ---
