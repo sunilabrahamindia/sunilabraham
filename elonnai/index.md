@@ -90,7 +90,7 @@ Hickok has been involved in work associated with the Christchurch Call and effor
 {% for item in elonnai_publications %}
 ### [{{ item.title }}]({{ item.url | relative_url }})
 
-**Published:** {{ item.date | date: "%-d %B %Y" }}  
+**Published:** {{ item.date | date: "%B %Y" }}  
 **Authors:** {% for author in item.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}
 
 {{ item.description }}
