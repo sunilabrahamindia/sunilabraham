@@ -2,7 +2,7 @@
 layout: default
 title: "Religion, Spirituality and Aspirations of the People"
 permalink: /amaa/religion-spirituality-and-aspirations-of-the-people/
-categories: [A. M. A. Ayrookuzhiel, Publications]
+categories: [A. M. A. Ayrookuzhiel, Publications, Writings not in Essays on Dalits, Religion and Liberation]
 description: "A. M. A. Ayrookuzhiel's 1978 essay examining people's aspirations for freedom, equality, and social justice, the perceived role of religion in relation to those aspirations, and the implications for the study of Hinduism and inter-religious dialogue."
 amaa_cid: 0008
 page_id: TSAP-1048
