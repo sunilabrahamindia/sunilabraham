@@ -66,7 +66,7 @@ Her work on emerging technologies has included questions concerning the competin
   <div class="elonnai-video-frame">
     <iframe width="100%" height="480" src="https://www.youtube.com/embed/PQWi9hHHSpc" title="Privacy on The Internet in India — Elonnai Hickok and Sunil Abraham" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <figcaption>Privacy on The Internet in India — Elonnai Hickok and Sunil Abraham</figcaption>
+ <figcaption>Privacy on The Internet in India — Elonnai Hickok and Sunil Abraham (2013)</figcaption>
 </figure>
 
 Hickok has also held research and consulting roles outside CIS and GNI. She was a non-resident scholar at the Carnegie Endowment for International Peace from September 2020 to December 2021, a policy consultant with Ludwig-Maximilians-Universität München from November 2020 to June 2022, and an independent expert with ArtEZ University of the Arts from February 2021 to September 2022.
