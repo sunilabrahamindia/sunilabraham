@@ -91,7 +91,7 @@ Hickok has been involved in work associated with the Christchurch Call and effor
 ### [{{ item.title }}]({{ item.url | relative_url }})
 
 **Published:** {{ item.date | date: "%-d %B %Y" }}  
-**Authors:** {% for author in item.authors %}{% if author == "Elonnai Hickok" %}**{{ author }}**{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+**Authors:** {% for author in item.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}
 
 {{ item.description }}
 
