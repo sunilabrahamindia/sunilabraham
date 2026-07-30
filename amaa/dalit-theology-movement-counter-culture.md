@@ -2,7 +2,7 @@
 layout: default
 title: "Dalit Theology: A Movement of Counter-Culture"
 permalink: /amaa/dalit-theology-movement-counter-culture/
-categories: [A. M. A. Ayrookuzhiel, Publications, Writings not in Essays on Dalits, Religion and Liberation]
+categories: [A. M. A. Ayrookuzhiel, Publications, "Writings not in Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's essay examining Dalit theology as a counter-cultural movement shaped by experiences of dependency, exclusion, resistance, and the recovery of Dalit identity."
 page_id: TSAP-1053
 created: 2026-06-10
