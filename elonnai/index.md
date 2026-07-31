@@ -28,7 +28,7 @@ Hickok previously held senior roles at the [Centre for Internet and Society](/ci
 
 ## Education
 
-Elonnai Hickok graduated from the University of Toronto, where she studied international development and political science.
+Hickok graduated from the University of Toronto Scarborough (UTSC) in 2011 with an Honours Bachelor of Arts (HBA) in international development. She participated in UTSC's co-op programme, and a university alumni profile published in 2012 described her as having turned her interest in law and policymaking, together with a successful internship, into her work as a policy analyst and researcher at the Centre for Internet and Society in Bangalore.
 
 ## Centre for Internet and Society
 
@@ -109,6 +109,7 @@ Hickok has been involved in work associated with the Christchurch Call and effor
 8. [Q&A to the Report of the Group of Experts on Privacy](https://cis-india.org/internet-governance/blog/question-and-answer-to-report-of-group-of-experts-on-privacy), Centre for Internet and Society, 9 November 2012. Accessed 31 July 2026.
 9. [Report of the Group of Experts on Privacy vs. The Leaked 2014 Privacy Bill](https://cis-india.org/internet-governance/blog/report-of-group-of-experts-on-privacy-vs-leaked-2014-privacy-bill), Centre for Internet and Society, 14 April 2014. Accessed 31 July 2026.
 10. [Freedom of Expression in India: Key Research and Findings](https://cis-india.org/internet-governance/blog/freedom-of-expression-in-india-key-research-and-findings), Centre for Internet and Society, 2 June 2020. Accessed 31 July 2026.
+11. [Spotlight](https://utsc.utoronto.ca/news-events/commons-magazine/spotlight-0), University of Toronto Scarborough, 1 September 2012. Accessed 31 July 2026.
 
 ## External links
 
