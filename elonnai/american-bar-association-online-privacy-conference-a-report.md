@@ -130,7 +130,7 @@ The piece is particularly notable for identifying the "privacy seal" idea as a p
 
 ## External Link
 
-- [American Bar Association Online Privacy Conference: A Report — Centre for Internet and Society](https://cis-india.org/internet-governance/blog/privacy/privacy-aba-conference) on CIS website
+- [American Bar Association Online Privacy Conference: A Report](https://cis-india.org/internet-governance/blog/privacy/privacy-aba-conference) on CIS website
 
 {% include navbox-elonnai.html %}
 
