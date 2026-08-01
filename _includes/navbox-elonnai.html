@@ -1,0 +1,177 @@
+<nav class="navbox-elonnai" aria-label="Elonnai Hickok navigation">
+  <div class="navbox-elonnai__inner">
+
+    <div class="navbox-elonnai__title">
+      <a href="/elonnai/">Elonnai Hickok</a>
+      <span class="navbox-elonnai__viewlink">[<a href="/elonnai/template/">View</a>]</span>
+    </div>
+
+    <div class="navbox-elonnai__body">
+
+      <div class="navbox-elonnai__row">
+        <span class="navbox-elonnai__label">CIS Blog Posts</span>
+
+        <span class="navbox-elonnai__items">
+          <a href="/elonnai/privacy-concerns-in-whole-body-imaging-a-few-questions/">
+            Privacy Concerns in Whole Body Imaging: A Few Questions
+          </a>
+          (17 November 2010)
+          &middot;
+          <a href="/elonnai/privacy-free-open-source-and-the-cloud/">
+            Privacy, Free/Open Source, and the Cloud
+          </a>
+          (22 November 2010)
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</nav>
+
+<style>
+.navbox-elonnai {
+  border: 1px solid #d6dbe3;
+  background: #f9fbff;
+  border-radius: .5rem;
+  margin: 2rem 0 1rem;
+  font-size: .9rem;
+  line-height: 1.5;
+  transition: box-shadow .25s ease, transform .2s ease;
+}
+
+.navbox-elonnai:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  transform: translateY(-1px);
+}
+
+.navbox-elonnai__title {
+  background: #eef4fb;
+  border-top: 3px solid #3a7bd5;
+  border-bottom: 1px solid #d6dbe3;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: .5rem 2.2rem .5rem 1rem;
+  position: relative;
+}
+
+.navbox-elonnai__viewlink {
+  position: absolute;
+  right: .6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: .75rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.navbox-elonnai a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.navbox-elonnai a:hover {
+  color: #3a7bd5;
+  text-decoration: underline;
+}
+
+.navbox-elonnai a:visited {
+  color: #0b0080;
+}
+
+.navbox-elonnai a:focus-visible {
+  outline: 2px solid #3a7bd5;
+  outline-offset: 2px;
+}
+
+.navbox-elonnai__body {
+  padding: .75rem 1rem;
+}
+
+.navbox-elonnai__row {
+  display: flex;
+  gap: .5rem;
+  align-items: baseline;
+}
+
+.navbox-elonnai__label {
+  flex: 0 0 120px;
+  font-weight: 600;
+  color: #444;
+  font-size: .875rem;
+}
+
+.navbox-elonnai__items {
+  flex: 1;
+}
+
+@media (max-width:600px) {
+
+  .navbox-elonnai__row {
+    flex-direction: column;
+    gap: .2rem;
+  }
+
+  .navbox-elonnai__label {
+    flex: none;
+    font-size: .8rem;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .navbox-elonnai {
+    transition: none;
+  }
+
+}
+
+/* Dark mode */
+
+body.tsap-dark-mode .navbox-elonnai {
+  background: #243244;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+body.tsap-dark-mode .navbox-elonnai:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,.35);
+}
+
+body.tsap-dark-mode .navbox-elonnai__title {
+  background: #1b2636;
+  border-top-color: #60a5fa;
+  border-bottom-color: #374151;
+  color: #f3f4f6;
+}
+
+body.tsap-dark-mode .navbox-elonnai__viewlink {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .navbox-elonnai a {
+  color: #93c5fd;
+}
+
+body.tsap-dark-mode .navbox-elonnai a:hover {
+  color: #bfdbfe;
+}
+
+body.tsap-dark-mode .navbox-elonnai a:visited {
+  color: #c4b5fd;
+}
+
+body.tsap-dark-mode .navbox-elonnai a:focus-visible {
+  outline-color: #93c5fd;
+}
+
+body.tsap-dark-mode .navbox-elonnai__label {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .navbox-elonnai__items {
+  color: #e5e7eb;
+}
+</style>

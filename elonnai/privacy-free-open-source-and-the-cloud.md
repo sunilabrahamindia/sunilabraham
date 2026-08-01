@@ -122,6 +122,8 @@ The reference to Pranesh Prakash's Internet Governance Forum presentation on ope
 
 - [Privacy, Free/Open Source, and the Cloud — Centre for Internet and Society](https://cis-india.org/internet-governance/blog/privacy/privacy-cloud-computing) on CIS website
 
+{% include navbox-elonnai.html %}
+
 <style>
 .media-details {
   background: #f9fbfe;

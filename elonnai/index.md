@@ -116,6 +116,8 @@ Hickok has been involved in work associated with the Christchurch Call and effor
 - [Elonnai Hickok](https://www.linkedin.com/in/elonnai-hickok-26067b79/) at LinkedIn
 - [Elonnai Hickok](https://globalnetworkinitiative.org/who-we-are/team/) at the Global Network Initiative
 
+{% include navbox-elonnai.html %}
+
 <style>
 .elonnai-video {
   width: 100%;
