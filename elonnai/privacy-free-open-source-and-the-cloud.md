@@ -10,7 +10,7 @@ permalink: /elonnai/privacy-free-open-source-and-the-cloud/
 created: 2026-08-01
 ---
 
-**"Privacy, Free/Open Source, and the Cloud"** is a blog post published by the [Centre for Internet and Society](/cis/) on 22 November 2010, examining how cloud computing reshapes questions of privacy, consent, and jurisdiction, and whether free and open source software offers a workable answer to those concerns. The piece draws heavily on a lecture by Eben Moglen, the Columbia law professor and founder of the Software Freedom Law Center, delivered at the Indian Institute of Science on 25 September, alongside a presentation by Pranesh Prakash at the Internet Governance Forum held on 16 September. It builds a case that access to code alone cannot guarantee privacy protection, particularly in a jurisdiction like India that lacked a comprehensive data protection law at the time.
+**"Privacy, Free/Open Source, and the Cloud"** is a blog post by [Elonnai Hickok](/elonnai/) published by the [Centre for Internet and Society](/cis/) on 22 November 2010. It examines how cloud computing reshapes questions of privacy, consent, and jurisdiction, and whether free and open source software offers a workable answer to those concerns. The piece draws heavily on a lecture by Eben Moglen, the Columbia law professor and founder of the Software Freedom Law Center, delivered at the Indian Institute of Science on 25 September, alongside a presentation by Pranesh Prakash at the Internet Governance Forum held on 16 September. It argues that access to source code alone cannot guarantee privacy protection, particularly in a jurisdiction like India that lacked a comprehensive data protection law at the time.
 
 ## Contents
 
