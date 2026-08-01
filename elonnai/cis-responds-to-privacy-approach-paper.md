@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "C.I.S Responds to Privacy Approach Paper"
+title: "CIS Responds to Privacy Approach Paper"
 description: "A CIS response to a privacy legislation approach paper, outlining concerns about definitions, enforcement, sectoral scope, and the relationship between privacy and the Right to Information Act."
 authors: ["Elonnai Hickok"]
 categories: [Centre for Internet and Society, Elonnai Hickok]
@@ -10,7 +10,7 @@ permalink: /elonnai/cis-responds-to-privacy-approach-paper/
 created: 2026-08-02
 ---
 
-**"C.I.S Responds to Privacy Approach Paper"** is a policy response by [Elonnai Hickok](/elonnai/), published by the [Centre for Internet and Society](/cis/) (CIS) on 22 November 2010. Written on behalf of the Privacy India team at CIS, it responds to an approach paper on proposed privacy legislation, examining its definitions of privacy, its proposed hybrid regulatory model, its treatment of existing sectoral laws, and its handling of tensions between privacy, transparency, and the Right to Information Act.
+**"CIS Responds to Privacy Approach Paper"** is a policy response by [Elonnai Hickok](/elonnai/), published by the [Centre for Internet and Society](/cis/) (CIS) on 22 November 2010. Written on behalf of the Privacy India team at CIS, it responds to an approach paper on proposed privacy legislation, examining its definitions of privacy, its proposed hybrid regulatory model, its treatment of existing sectoral laws, and its handling of tensions between privacy, transparency, and the Right to Information Act.
 
 ## Contents
 
@@ -321,7 +321,7 @@ The article is useful because it shows how early Indian privacy debates were alr
 
 ## External Link
 
-- [C.I.S Responds to Privacy Approach Paper](https://cis-india.org/internet-governance/blog/privacy/c.i.s-responds-to-privacy-approach-paper)
+- [CIS Responds to Privacy Approach Paper](https://cis-india.org/internet-governance/blog/privacy/c.i.s-responds-to-privacy-approach-paper)
 
 {% include navbox-elonnai.html %}
 
