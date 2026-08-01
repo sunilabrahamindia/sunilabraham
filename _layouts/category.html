@@ -3,7 +3,10 @@ layout: default
 ---
 
 {% assign category_name = page.title | remove: "Category:" | strip %}
-{% assign category_pages = site.pages | where_exp: "p", "p.categories contains category_name" | sort: "title" %}
+{% assign visible_pages = site.pages | where_exp: "p", "p.categories contains category_name" %}
+{% assign hidden_pages = site.pages | where_exp: "p", "p.hidden_categories contains category_name" %}
+
+{% assign category_pages = visible_pages | concat: hidden_pages | uniq | sort: "title" %}
 
 <div class="category-page">
   <h2>
