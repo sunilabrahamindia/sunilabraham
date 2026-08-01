@@ -6,6 +6,10 @@ layout: default
 
 {% if category_name == "Pages using embedded YouTube videos" %}
   {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'youtube.com/embed'" | sort: "title" %}
+
+{% elsif category_name == "Pages using embedded PDF documents" %}
+  {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'docs.google.com/gview'" | sort: "title" %}
+
 {% else %}
   {% assign visible_pages = site.pages | where_exp: "p", "p.categories contains category_name" %}
   {% assign hidden_pages = site.pages | where_exp: "p", "p.hidden_categories contains category_name" %}

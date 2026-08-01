@@ -284,14 +284,6 @@ created: 2026-08-02
 
 {% include back-to-top.html %}
 
-## Context and Background
-
-This post responds to an early government effort to frame a privacy law for India, at a time when privacy, data protection, and security were often discussed together without clear distinctions. The article takes that draft and tests it against practical issues such as existing sectoral laws, consent, data retention, data security, cross-border transfer, and the need for enforceable remedies.
-
-A major theme is the tension between privacy and transparency. The response argues that a privacy law should not weaken the Right to Information regime, and that public accountability and personal privacy need to be balanced rather than treated as the same problem. It also pushes for judicial oversight, stronger enforcement, and clearer rules on how data may be collected, stored, accessed, and disclosed.
-
-The article is useful because it shows how early Indian privacy debates were already moving beyond abstract rights language into questions of implementation. Its focus is not on theory alone, but on how a privacy framework might actually work across banking, telephony, investigations, national security, and other sectors.
-
 ## Privacy Approach Paper (PDF)
 
 <div class="pdf-container">
@@ -318,6 +310,14 @@ The article is useful because it shows how early Indian privacy debates were alr
     </a>
   </p>
 </div>
+
+## Context and Background
+
+This post responds to an early government effort to frame a privacy law for India, at a time when privacy, data protection, and security were often discussed together without clear distinctions. The article takes that draft and tests it against practical issues such as existing sectoral laws, consent, data retention, data security, cross-border transfer, and the need for enforceable remedies.
+
+A major theme is the tension between privacy and transparency. The response argues that a privacy law should not weaken the Right to Information regime, and that public accountability and personal privacy need to be balanced rather than treated as the same problem. It also pushes for judicial oversight, stronger enforcement, and clearer rules on how data may be collected, stored, accessed, and disclosed.
+
+The article is useful because it shows how early Indian privacy debates were already moving beyond abstract rights language into questions of implementation. Its focus is not on theory alone, but on how a privacy framework might actually work across banking, telephony, investigations, national security, and other sectors.
 
 ## External Link
 
