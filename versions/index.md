@@ -18,6 +18,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 3. [Version 2.1.2](#version-212)
 4. [Version 2.1.3](#version-213)
 5. [Version 2.2](#version-22)
+6. [Version 2.2.1](#version-221)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -139,5 +140,24 @@ Between 19 and 25 July 2026, 17 new pages were published.
 
 **Status** ✅ Done  
 Completion date: 25 July 2026
+
+## Version 2.2.1
+
+Between 26 July and 1 August 2026, 16 new pages were published.
+
+**Category System**
+- Fixed a category display issue where unwanted spaces appeared before commas separating category names. The problem was caused by whitespace within inline `<li>` elements and was resolved by placing each `<li><a>...</a></li>` element on a single line without requiring CSS changes.
+- Added support for hidden maintenance categories. Pages can now use a `hidden_categories` front matter field so maintenance categories remain part of the site's category system while being omitted from the category list displayed at the bottom of individual pages.
+- Introduced automatic population of technical maintenance categories, with the first implementation identifying pages containing embedded YouTube videos.
+
+**Elonnai Hickok**
+- Started a biographical article on [Elonnai Hickok](/elonnai/) together with several related articles, primarily documenting blog posts written by Elonnai in 2010.
+- The pages are grouped under [Template:Elonnai Hickok](/elonnai/template).
+
+**Centre for Internet and Society**
+- Started [Category:CIS-A2K](/categories/cis-a2k/) under the Centre for Internet and Society category. This category will document selected articles relating to the history of CIS-A2K during the period when Sunil Abraham served as Executive Director of the organisation.
+
+**Status** ✅ Done  
+Completion date: 1 August 2026
 
 {% include versions.html %}
