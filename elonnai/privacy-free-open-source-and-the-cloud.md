@@ -44,6 +44,10 @@ created: 2026-08-01
 
 <div class="highlighted-text" id="fulltext">
 
+<p>A look into the questions that arise in concern to privacy and cloud computing, and how open source plays into the picture.</p>
+
+<hr class="article-separator">
+
 <h3>Introduction</h3>
 
 <p>Cloud computing, in basic terms, is internet-based computing where shared resources and services are taken from the primary infrastructure of the internet and provided on demand. Cloud computing creates a shared network between major corporations like Google, Microsoft, Amazon and Yahoo. In this way, cloud systems are related to grid computing systems/service-oriented architectures, and create the potential for the entire I.T. infrastructure to be programmable.</p>
@@ -152,5 +156,10 @@ The reference to Pranesh Prakash's Internet Governance Forum presentation on ope
 }
 .highlighted-text p {
   margin-bottom: 1rem;
+}
+  .article-separator {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  margin: 0.75rem 0 1rem 0;
 }
 </style>
