@@ -92,7 +92,7 @@ The piece is notable for extending the privacy debate beyond fixed checkpoints t
 
 ## External Link
 
-- [Privacy Concerns in Whole Body Imaging: A Few Questions — Centre for Internet and Society](https://cis-india.org/internet-governance/blog/privacy-concerns-in-whole-body-imaging-a-few-questions) on CIS website
+- [Privacy Concerns in Whole Body Imaging: A Few Questions](https://cis-india.org/internet-governance/blog/privacy-concerns-in-whole-body-imaging-a-few-questions) on CIS website
 
 {% include navbox-elonnai.html %}
 
