@@ -494,6 +494,7 @@ The event received press coverage in both English and Kannada media:
     font-size: 0.9rem;
   }
 }
+
 .cis5-video-card {
   max-width: 700px;
   margin: 1.5rem auto 2rem;
@@ -545,7 +546,8 @@ The event received press coverage in both English and Kannada media:
     padding: 0.75rem 1rem;
   }
 }
-   .cis-photo-right {
+
+.cis-photo-right {
   float: right;
   width: 220px;
   margin: 0 0 1.2rem 1.5rem;
@@ -565,7 +567,7 @@ The event received press coverage in both English and Kannada media:
   font-size: 0.82rem;
   line-height: 1.45;
   color: #555;
- text-align: center;
+  text-align: center;
 }
 
 .cis-photo-caption a {
@@ -585,7 +587,8 @@ The event received press coverage in both English and Kannada media:
     text-align: left;
   }
 }
-   .cis5-social-card {
+
+.cis5-social-card {
   max-width: 700px;
   margin: 2rem auto;
   padding: 1.4rem;
@@ -618,5 +621,74 @@ The event received press coverage in both English and Kannada media:
   .cis5-social-card {
     padding: 1rem;
   }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .board-table th,
+body.tsap-dark-mode .board-table td {
+  border-color: var(--table-border, #374151) !important;
+  color: var(--text-main, #e5e7eb) !important;
+}
+
+body.tsap-dark-mode .board-table thead th {
+  background-color: var(--table-th-bg, #1e293b) !important;
+  color: var(--table-th-text, #f3f4f6) !important;
+}
+
+body.tsap-dark-mode .board-table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+body.tsap-dark-mode .cis-photo-right {
+  background: transparent !important;
+}
+
+body.tsap-dark-mode .cis-photo-right img {
+  border-color: var(--border-main, #374151) !important;
+  background-color: #ffffff !important;
+}
+
+body.tsap-dark-mode .cis-photo-caption {
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .cis5-video-card,
+body.tsap-dark-mode .cis5-social-card {
+  background-color: #1e293b !important;
+  border-color: var(--border-main, #374151) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.tsap-dark-mode .cis5-video-caption {
+  background-color: #0f172a !important;
+  border-top-color: var(--border-main, #374151) !important;
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .cis5-social-date {
+  color: #38bdf8 !important;
+  border-bottom-color: var(--border-main, #374151) !important;
+}
+
+body.tsap-dark-mode .pdf-frame {
+  border-color: var(--border-main, #374151) !important;
+}
+
+body.tsap-dark-mode .pdf-note {
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .pdf-download .btn {
+  background-color: #1e5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode .pdf-download .btn:hover,
+body.tsap-dark-mode .pdf-download .btn:focus {
+  background-color: #38bdf8 !important;
+  color: #0f172a !important;
 }
 </style>
