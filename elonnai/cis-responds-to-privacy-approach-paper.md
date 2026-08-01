@@ -3,7 +3,7 @@ layout: default
 title: "C.I.S Responds to Privacy Approach Paper"
 description: "A CIS response to a privacy legislation approach paper, outlining concerns about definitions, enforcement, sectoral scope, and the relationship between privacy and the Right to Information Act."
 authors: ["Elonnai Hickok"]
-categories: [Elonnai Hickok]
+categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2010-11-22
 source: "Centre for Internet and Society"
 permalink: /elonnai/cis-responds-to-privacy-approach-paper/
