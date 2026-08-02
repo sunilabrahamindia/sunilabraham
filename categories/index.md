@@ -39,7 +39,26 @@ created: 2025-10-31
 <ul id="cat-list" class="cat-list">
 {% for cat in cat_pages %}
   {% assign cat_name = cat.title | remove: "Category:" | strip %}
-  {% assign cat_count = all_pages | where_exp: "p", "p.categories contains cat_name" | size %}
+{% if cat_name == "Pages using embedded YouTube videos" %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'youtube.com/embed'" | size %}
+
+{% elsif cat_name == "Pages using embedded PDF documents" %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'docs.google.com/gview'" | size %}
+
+{% elsif cat_name == "Pages using embedded X posts" %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'platform.twitter.com/widgets.js'" | size %}
+
+{% elsif cat_name == "Pages using under construction template" %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'under-construction.html'" | size %}
+
+{% elsif cat_name == "Pages displaying custom notices" %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'notice.html'" | size %}
+
+{% else %}
+  {% assign visible = all_pages | where_exp: "p", "p.categories contains cat_name" %}
+  {% assign hidden = all_pages | where_exp: "p", "p.hidden_categories contains cat_name" %}
+  {% assign cat_count = visible | concat: hidden | uniq | size %}
+{% endif %}
   <li
     class="cat-item"
     data-name="{{ cat_name | downcase }}"
