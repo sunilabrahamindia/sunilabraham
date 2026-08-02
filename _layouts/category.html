@@ -13,6 +13,12 @@ layout: default
 {% elsif category_name == "Pages using embedded X posts" %}
   {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'platform.twitter.com/widgets.js'" | sort: "title" %}
 
+{% elsif category_name == "Pages using under construction template" %}
+  {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'under-construction.html'" | sort: "title" %}
+
+{% elsif category_name == "Pages displaying custom notices" %}
+  {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'notice.html'" | sort: "title" %}
+
 {% else %}
   {% assign visible_pages = site.pages | where_exp: "p", "p.categories contains category_name" %}
   {% assign hidden_pages = site.pages | where_exp: "p", "p.hidden_categories contains category_name" %}
