@@ -19,6 +19,9 @@ layout: default
 {% elsif category_name == "Pages displaying custom notices" %}
   {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'notice.html'" | sort: "title" %}
 
+{% elsif category_name == "Pages using media repository files" %}
+  {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'sunilabrahammedia'" | sort: "title" %}
+
 {% else %}
   {% assign visible_pages = site.pages | where_exp: "p", "p.categories contains category_name" %}
   {% assign hidden_pages = site.pages | where_exp: "p", "p.hidden_categories contains category_name" %}

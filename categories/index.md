@@ -54,10 +54,14 @@ created: 2025-10-31
 {% elsif cat_name == "Pages displaying custom notices" %}
   {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'notice.html'" | size %}
 
+{% elsif cat_name == "Pages using media repository files" %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'sunilabrahammedia'" | size %}
+
 {% else %}
   {% assign visible = all_pages | where_exp: "p", "p.categories contains cat_name" %}
   {% assign hidden = all_pages | where_exp: "p", "p.hidden_categories contains cat_name" %}
   {% assign cat_count = visible | concat: hidden | uniq | size %}
+
 {% endif %}
   <li
     class="cat-item"
