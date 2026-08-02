@@ -179,7 +179,7 @@ In November 2024, Abraham reflected on the continuing influence of Swartz and th
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <style>
-  .aaron-hero-image {
+.aaron-hero-image {
   float: right;
   max-width: 240px;
   margin: 0 0 1.5rem 1.5rem;
@@ -218,6 +218,7 @@ In November 2024, Abraham reflected on the continuing influence of Swartz and th
     text-align: left;
   }
 }
+
 .ram-social-card {
   max-width: 600px;
   margin: 2rem auto;
@@ -283,7 +284,7 @@ In November 2024, Abraham reflected on the continuing influence of Swartz and th
   }
 }
 
-  .video-embed-wrapper {
+.video-embed-wrapper {
   max-width: 600px;
   margin: 2rem auto;
 }
@@ -299,5 +300,38 @@ In November 2024, Abraham reflected on the continuing influence of Swartz and th
   .video-embed-wrapper {
     max-width: 100%;
   }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .aaron-caption {
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .aaron-hero-image img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+body.tsap-dark-mode .ram-social-card {
+  background: #1e293b !important;
+  border-color: var(--border-main, #374151) !important;
+  color: var(--text-main, #e5e7eb) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.tsap-dark-mode .ram-social-card:hover {
+  border-color: rgba(56, 189, 248, 0.3) !important;
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.15) !important;
+}
+
+body.tsap-dark-mode .ram-social-date {
+  color: #38bdf8 !important;
+  border-bottom-color: var(--border-main, #374151) !important;
+}
+
+body.tsap-dark-mode .video-embed-wrapper iframe {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
 }
 </style>

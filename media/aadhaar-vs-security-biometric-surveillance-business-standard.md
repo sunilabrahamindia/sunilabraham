@@ -306,6 +306,57 @@ Sunil Abraham's quoted tweet "Repeat after me: Aadhaar is surveillance technolog
     font-size: 0.8rem;
   }
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .media-details dt {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .media-details dd {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #2f2a18 !important;
+  border-left-color: #d4a72c !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .highlighted-text blockquote {
+  border-left-color: #d4a72c !important;
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563 !important;
+}
+
+body.tsap-dark-mode .surveillance-social-card {
+  background: #1e293b !important;
+  border-color: rgba(56, 189, 248, 0.25) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.tsap-dark-mode .surveillance-social-date {
+  color: #38bdf8 !important;
+  border-bottom-color: rgba(56, 189, 248, 0.2) !important;
+}
 </style>
 
 <script>

@@ -252,6 +252,45 @@ The food blogging community's turn to social media represented a pragmatic adapt
     padding: 0 1rem;
   }
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .media-details dt {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .media-details dd {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #2f2a18 !important;
+  border-left-color: #d4a72c !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .article-separator {
+  border-top-color: var(--border-main, #374151) !important;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563 !important;
+}
 </style>
 
 <script>

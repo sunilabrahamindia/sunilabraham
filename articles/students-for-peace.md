@@ -345,5 +345,36 @@ a.btn:hover {
   }
 
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .sfp-logo figcaption,
+body.tsap-dark-mode .media-image figcaption,
+body.tsap-dark-mode .sfp-sticker figcaption {
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .sfp-logo img,
+body.tsap-dark-mode .media-image img,
+body.tsap-dark-mode .sfp-sticker img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .pdf-frame {
+  border-color: var(--border-main, #374151) !important;
+}
+
+body.tsap-dark-mode a.btn {
+  background-color: #1e5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode a.btn:hover,
+body.tsap-dark-mode a.btn:focus {
+  background-color: #38bdf8 !important;
+  color: #0f172a !important;
+}
 </style>
 

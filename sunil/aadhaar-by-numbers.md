@@ -424,7 +424,7 @@ Sunil posted this video on 𝕏 (then known as Twitter) on 17 October 2016 with 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <style>
-  /* Aadhaar Video */
+/* Aadhaar Video */
 .aadhaar-video {
   max-width: 700px;
   margin: 2rem auto;
@@ -463,21 +463,7 @@ Sunil posted this video on 𝕏 (then known as Twitter) on 17 October 2016 with 
   margin-bottom: 0;
 }
 
-body.tsap-dark-mode .aadhaar-video {
-  background: #1e293b !important;
-  border-color: #475569 !important;
-}
-
-body.tsap-dark-mode .aadhaar-video__details {
-  color: #e2e8f0 !important;
-}
-
-body.tsap-dark-mode .aadhaar-video__details strong {
-  color: #f8fafc !important;
-}
-
-
-  /* Aadhaar - Social Media */
+/* Aadhaar - Social Media */
 .aadhaar-social-card {
   max-width: 600px;
   margin: 2rem auto;
@@ -514,26 +500,7 @@ body.tsap-dark-mode .aadhaar-video__details strong {
   }
 }
 
-body.tsap-dark-mode .aadhaar-social-card {
-  background: #1e293b !important;
-  border-color: #475569 !important;
-}
-
-body.tsap-dark-mode .aadhaar-social-date {
-  color: #e2e8f0 !important;
-  border-bottom-color: #475569 !important;
-}
-
-body.tsap-dark-mode .aadhaar-social-card blockquote.twitter-tweet {
-  color: #e2e8f0 !important;
-  background: transparent !important;
-}
-
-body.tsap-dark-mode .aadhaar-social-card blockquote.twitter-tweet a {
-  color: #7dd3fc !important;
-}
-
-  .transcript-text {
+.transcript-text {
   margin: 1.5rem 0;
   padding: 1.25rem;
   border: 1px solid var(--border-color, #d0d7de);
@@ -542,8 +509,47 @@ body.tsap-dark-mode .aadhaar-social-card blockquote.twitter-tweet a {
   background: transparent;
 }
 
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .aadhaar-video {
+  background: #1e293b !important;
+  border-color: var(--border-main, #374151) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.tsap-dark-mode .aadhaar-video__details {
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .aadhaar-video__details strong {
+  color: var(--text-main, #f3f4f6) !important;
+}
+
+body.tsap-dark-mode .aadhaar-social-card {
+  background: #1e293b !important;
+  border-color: var(--border-main, #374151) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.tsap-dark-mode .aadhaar-social-date {
+  color: #38bdf8 !important;
+  border-bottom-color: var(--border-main, #374151) !important;
+}
+
+body.tsap-dark-mode .aadhaar-social-card blockquote.twitter-tweet {
+  color: var(--text-muted, #cbd5e1) !important;
+  background: transparent !important;
+}
+
+body.tsap-dark-mode .aadhaar-social-card blockquote.twitter-tweet a {
+  color: #38bdf8 !important;
+}
+
 body.tsap-dark-mode .transcript-text {
-  border-color: #475569;
-  border-left-color: #60a5fa;
+  border-color: var(--border-main, #374151) !important;
+  border-left-color: #38bdf8 !important;
+  color: var(--text-main, #e5e7eb) !important;
 }
 </style>

@@ -156,7 +156,7 @@ Sunil Abraham's comment reflects CIS's longstanding position that the law's vagu
 }
 .copy-btn-full:hover { background: #e5e5e5; }
 .copy-btn-full:focus { outline: 3px solid #ffbf47; outline-offset: 2px; }
-  .surveillance-social-card {
+.surveillance-social-card {
   margin: 1.2rem 0;
 }
 .surveillance-social-date {
@@ -171,7 +171,51 @@ Sunil Abraham's comment reflects CIS's longstanding position that the law's vagu
 .surveillance-tweet-center .twitter-tweet {
   margin: 0 auto !important;
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .media-details dt {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .media-details dd {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #2f2a18 !important;
+  border-left-color: #d4a72c !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .highlighted-text h3 {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563 !important;
+}
+
+body.tsap-dark-mode .surveillance-social-date {
+  color: #38bdf8 !important;
+}
 </style>
+
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {

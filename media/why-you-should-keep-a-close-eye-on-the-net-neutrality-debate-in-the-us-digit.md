@@ -168,6 +168,7 @@ The India-side commentary from Nikhil Pahwa and Rajan Mathews reflects the dual 
 - [Read on Digit](https://www.digit.in/features/general/why-you-should-keep-a-close-eye-on-the-net-neutrality-debate-in-the-us-38307.html)
 
 <style>
+<style>
 .media-details {
   background: #f9fbfe;
   border: 1px solid #d8e2f0;
@@ -220,6 +221,41 @@ The India-side commentary from Nikhil Pahwa and Rajan Mathews reflects the dual 
 }
 .copy-btn-full:hover {
   background: #e5e5e5;
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .media-details dt {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .media-details dd {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #2f2a18 !important;
+  border-left-color: #d4a72c !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563 !important;
 }
 </style>
 

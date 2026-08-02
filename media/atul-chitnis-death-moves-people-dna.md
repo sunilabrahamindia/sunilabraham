@@ -252,6 +252,60 @@ The article's focus on Twitter reactions reflects a broader shift in how public 
     padding: 8px 12px;
   }
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .media-details dt {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .media-details dd {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #2f2a18 !important;
+  border-left-color: #d4a72c !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563 !important;
+}
+
+body.tsap-dark-mode .tsap-editorial-note {
+  background: #1e293b !important;
+  border-left-color: #38bdf8 !important;
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .tweet-text-only {
+  background: #1e293b !important;
+  border-color: #374151 !important;
+}
+
+body.tsap-dark-mode .tweet-text-only p {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .tweet-text-only p:last-child {
+  color: #cbd5e1 !important;
+}
 </style>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
