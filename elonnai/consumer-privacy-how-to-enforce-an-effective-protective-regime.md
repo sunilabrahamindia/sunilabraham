@@ -102,7 +102,7 @@ created: 2026-08-03
 
 <p>Consumer Report – any written, oral, or other communication of any information by a consumer reporting agency bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living which is used or expected to be used or collected in whole or in part for the purpose of serving as a factor in establishing the consumer's eligibility for credit, insurance, and employment purposes.</p>
 
-<p>Furthermore the FCRA:</p>
+<p>Furthermore the FCRA:<sup id="ref-4"><a href="#note-4">4</a></sup></p>
 
 <ul>
 <li>(a) provides the right for consumers to ensure the accuracy of their data.</li>
@@ -111,8 +111,6 @@ created: 2026-08-03
 <li>(d) limits disclosure of information.</li>
 <li>(e) requires opt-out options.</li>
 </ul>
-
-<p><sup id="ref-4"><a href="#note-4">4</a></sup></p>
 
 <h3>Consumer Privacy in India</h3>
 
@@ -293,7 +291,7 @@ The piece closes by listing unresolved design questions for a future Indian priv
 
 ## External Link
 
-- [Consumer Privacy - How to Enforce an Effective Protective Regime?](https://cis-india.org/internet-governance/blog/privacy/consumer-privacy)
+- [Consumer Privacy — How to Enforce an Effective Protective Regime?](https://cis-india.org/internet-governance/blog/privacy/consumer-privacy)
 
 {% include navbox-elonnai.html %}
 
