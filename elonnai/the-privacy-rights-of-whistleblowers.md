@@ -71,9 +71,9 @@ homepage_featured: true
 
 <ul>
   <li>
-    <a href="http://www.ctv.ca/generic/generated/static/business/article1833688.html">
-      http://www.ctv.ca/generic/generated/static/business/article1833688.html
-    </a>
+  <a href="http://www.ctv.ca/generic/generated/static/business/article1833688.html">
+    CTV News
+  </a>
   </li>
 
   <li>
