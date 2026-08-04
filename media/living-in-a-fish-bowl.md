@@ -11,7 +11,7 @@ page_id: TSAP-0252
 created: 2025-12-18
 ---
 
-**Living in a Fish Bowl** is an opinion article published in *The Telegraph* (India) on 16 July 2014, written by Shuma Raha. The piece examines India's inadequate privacy protections following the European Court of Justice's landmark ruling on the 'right to be forgotten', featuring commentary from Sunil Abraham and Apar Gupta on the country's fragmented privacy legislation, delayed data protection reforms, and the tension between individual privacy rights and legitimate public interest.
+**Living in a Fish Bowl** is an opinion article published in *The Telegraph* (India) on 16 July 2014, written by Shuma Raha. The piece examines India's inadequate privacy protections following the European Court of Justice's landmark ruling on the 'right to be forgotten', featuring commentary from [Sunil Abraham](/sunil/) and Apar Gupta on the country's fragmented privacy legislation, delayed data protection reforms, and the tension between individual privacy rights and legitimate public interest.
 
 ## Contents
 
