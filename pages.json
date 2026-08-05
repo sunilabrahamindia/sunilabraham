@@ -1,5 +1,19 @@
 [
   {
+    "title": "Privacy and Governmental Databases",
+    "description": "A 2011 CIS blog post addressing privacy risks in incrementally designed Indian government databases and recommending technical and regulatory practices for data protection, access control, and interoperability.",
+    "created": "2026-08-05",
+    "date": "2011-03-23",
+    "source": "Centre for Internet and Society",
+    "authors": [
+      "Elonnai Hickok"
+    ],
+    "categories": [
+      "Elonnai Hickok"
+    ],
+    "permalink": "https://sunilabraham.in/elonnai/privacy-and-governmental-databases/"
+  },
+  {
     "title": "An Open Letter to the Finance Committee: SCOSTA Standards",
     "description": "A CIS blog post presenting an open letter to the Parliamentary Standing Committee on Finance, comparing the SCOSTA smart card standard with the Aadhaar biometric standard for identity authentication.",
     "created": "2026-08-05",
