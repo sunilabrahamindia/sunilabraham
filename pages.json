@@ -1,5 +1,19 @@
 [
   {
+    "title": "A Stolen Perspective",
+    "description": "A personal reflection by Elonnai Hickok on experiencing a theft while traveling in the Philippines, reconsidering the balance between the convenience of biometric identification and individual privacy protections.",
+    "created": "2026-08-06",
+    "date": "2011-03-31",
+    "source": "Centre for Internet and Society",
+    "authors": [
+      "Elonnai Hickok"
+    ],
+    "categories": [
+      "Elonnai Hickok"
+    ],
+    "permalink": "https://sunilabraham.in/elonnai/a-stolen-perspective/"
+  },
+  {
     "title": "Privacy and Governmental Databases",
     "description": "A 2011 CIS blog post addressing privacy risks in incrementally designed Indian government databases and recommending technical and regulatory practices for data protection, access control, and interoperability.",
     "created": "2026-08-05",
