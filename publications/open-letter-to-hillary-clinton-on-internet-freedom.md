@@ -83,7 +83,7 @@ title="Internet at Liberty 2012 – Plenary IV Debate 3"
 frameborder="0"
 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
-<p style="text-align:center; font-size:0.95rem; color:#555;">
+<p class="video-caption">
 Internet at Liberty 2012 – Plenary IV Debate 3
 </p>
 
@@ -155,6 +155,57 @@ a.btn {
 }
 a.btn:hover {
   background: #255ea9;
+}
+.video-caption {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .media-details dt {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .media-details dd,
+body.tsap-dark-mode .video-caption {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #2f2a18 !important;
+  border-left-color: #d4a72c !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563 !important;
+}
+
+body.tsap-dark-mode a.btn {
+  background: #1e5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode a.btn:hover {
+  background: #38bdf8 !important;
+  color: #0f172a !important;
 }
 </style>
 

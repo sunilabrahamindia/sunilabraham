@@ -183,12 +183,12 @@ Sunil Abraham's remarks about Internet monopolies and the attention economy anti
 .copy-btn-full:hover {
   background: #e5e5e5;
 }
-  .article-separator {
+.article-separator {
   border: none;
   border-top: 1px solid rgba(0,0,0,0.08);
   margin: 0.75rem 0 1rem 0;
 }
-  .media-image {
+.media-image {
   max-width: 600px;
   margin: 1.5rem auto;
   text-align: center;
@@ -207,7 +207,7 @@ Sunil Abraham's remarks about Internet monopolies and the attention economy anti
   margin-top: 0.6rem;
   line-height: 1.5;
 }
-  .media-video {
+.media-video {
   max-width: 600px;
   margin: 1.5rem auto;
   text-align: center;
@@ -238,6 +238,54 @@ Sunil Abraham's remarks about Internet monopolies and the attention economy anti
   line-height: 1.5;
 }
 
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .media-details {
+  background: #243244 !important;
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .media-details dt {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .media-details dd {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .highlighted-text {
+  background-color: #2f2a18 !important;
+  border-left-color: #d4a72c !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .article-separator {
+  border-top-color: var(--border-main, #374151) !important;
+}
+
+body.tsap-dark-mode .copy-btn-full {
+  background: #374151 !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .copy-btn-full:hover {
+  background: #4b5563 !important;
+}
+
+body.tsap-dark-mode .media-image figcaption,
+body.tsap-dark-mode .media-video figcaption {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .media-image img,
+body.tsap-dark-mode .video-wrapper {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
 </style>
 
 <script>

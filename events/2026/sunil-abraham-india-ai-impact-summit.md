@@ -136,7 +136,7 @@ The panel will examine approaches to responsible AI deployment at scale, focusin
 
 .event-poster img {
   max-width: 600px;  
-  width: 100%;       
+  width: 100%;        
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -169,8 +169,8 @@ The panel will examine approaches to responsible AI deployment at scale, focusin
 .tsap-info-box a:hover {
   color: #0550ae;
 }
-  
-  .indiaai-summit-video-2026 {
+
+.indiaai-summit-video-2026 {
   background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
   border-left: 4px solid #0969da;
   padding: 1.5rem;
@@ -210,6 +210,7 @@ The panel will examine approaches to responsible AI deployment at scale, focusin
     margin: 1rem 0;
   }
 }
+
 .event-photo {
   margin: 2rem 0;
   text-align: center;
@@ -229,4 +230,41 @@ The panel will examine approaches to responsible AI deployment at scale, focusin
   color: #444;
 }
 
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .event-poster img,
+body.tsap-dark-mode .event-photo img {
+  border: 1px solid #374151 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .tsap-info-box {
+  background: #1e293b !important;
+  border-left-color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .tsap-info-box strong,
+body.tsap-dark-mode .tsap-info-box a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .indiaai-summit-video-2026 {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+  border-left-color: #38bdf8 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.tsap-dark-mode .indiaai-summit-video-2026 strong {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .indiaai-summit-video-iframe {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+body.tsap-dark-mode .image-caption {
+  color: #cbd5e1 !important;
+}
 </style>

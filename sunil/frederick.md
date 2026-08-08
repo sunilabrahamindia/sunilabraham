@@ -140,7 +140,7 @@ Read together, the continuations are not intended as criticism of the original s
 {% include sunilspeaks.html %}
 
 <style>
-  .pdf-container {
+.pdf-container {
   margin: 2.5rem 0;
   text-align: center;
 }
@@ -190,7 +190,8 @@ Read together, the continuations are not intended as criticism of the original s
     font-size: 0.9rem;
   }
 }
-  .book-cover {
+
+.book-cover {
   float: right;
   width: 200px;
   margin: 0 0 1rem 1.5rem;
@@ -223,6 +224,7 @@ Read together, the continuations are not intended as criticism of the original s
     margin: 0 auto 1.25rem;
   }
 }
+
 .media-caption {
   max-width: 680px;
   margin: 0.75rem auto 1.5rem;
@@ -232,7 +234,34 @@ Read together, the continuations are not intended as criticism of the original s
   text-align: center;
 }
 
-body.tsap-dark-mode .media-caption {
-  color: #cbd5e1;
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .pdf-frame {
+  border-color: var(--border-main, #374151) !important;
+  background: #0f172a !important;
+}
+
+body.tsap-dark-mode .pdf-note,
+body.tsap-dark-mode .media-caption,
+body.tsap-dark-mode .book-cover figcaption {
+  color: var(--text-muted, #cbd5e1) !important;
+}
+
+body.tsap-dark-mode .pdf-download .btn {
+  background-color: #1e5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode .pdf-download .btn:hover,
+body.tsap-dark-mode .pdf-download .btn:focus {
+  background-color: #38bdf8 !important;
+  color: #0f172a !important;
+}
+
+body.tsap-dark-mode .book-cover img {
+  border-color: var(--border-main, #374151) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
 }
 </style>

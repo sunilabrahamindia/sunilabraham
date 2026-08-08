@@ -60,7 +60,7 @@ Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix trib
           allowfullscreen>
   </iframe>
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+<p class="video-caption">
   Performance from 10 May 2014 featuring Herbert Paul (vocals and lead guitar), Val Moraes (keyboard), Gerard Roy (bass guitar), and Aashish Paul (drums).
 </p>
 
@@ -71,7 +71,7 @@ Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix trib
           allowfullscreen>
   </iframe>
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+<p class="video-caption">
   Performance from 2015 at 1522 featuring Herbert Paul (guitar and vocals), Val Moraes (keyboard and vocals), Gerard Roy (bass), and Raj Sampath (drums).
 </p>
 
@@ -82,7 +82,7 @@ Herbert performs with his band *Little Wing*, which began as a Jimi Hendrix trib
           allowfullscreen>
   </iframe>
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+<p class="video-caption">
   Performance of "While My Guitar Gently Weeps" on 9 December 2018 at Byg Brewski, Sarjapur.
 </p>
 
@@ -95,7 +95,7 @@ Herbert is associated with the St. Germains Old Boys Association (OBA) Band, com
           allowfullscreen>
   </iframe>
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+<p class="video-caption">
   Standup comedy performance "Herbert Paul on Sadness" at Let My People Laugh 2.0, Baldwin Boys School, Bengaluru, June 2013.
 </p>
 
@@ -123,7 +123,7 @@ In parallel, Herbert was actively involved in the Youth Fellowship of Wesley Eng
           allowfullscreen>
   </iframe>
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+<p class="video-caption">
   "Herbert Paul on Sunday School", July 2012.
 </p>
 
@@ -134,7 +134,7 @@ In parallel, Herbert was actively involved in the Youth Fellowship of Wesley Eng
           allowfullscreen>
   </iframe>
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+<p class="video-caption">
   Good Friday worship team performance, 10 April 2020.
 </p>
 
@@ -157,7 +157,7 @@ Herbert Paul is married to Bindu Paul, whom he met in 1992 whilst both were memb
           allowfullscreen>
   </iframe>
 </div>
-<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 0.5em;">
+<p class="video-caption">
   Palm Sunday worship team performance, 5 April 2020.
 </p>
 
@@ -230,6 +230,12 @@ There is some inconsistency around the band name. [*The Times of India*](https:/
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   }
+  .video-caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
+  }
   @media (max-width: 768px) {
     .video-container {
       padding-bottom: 56.25%;
@@ -245,17 +251,17 @@ There is some inconsistency around the band name. [*The Times of India*](https:/
   }
 
   body.tsap-dark-mode .article-image-right figcaption,
-  body.tsap-dark-mode p[style*="text-align: center"] {
+  body.tsap-dark-mode .video-caption {
     color: #cbd5e1 !important;
   }
 
   body.tsap-dark-mode .article-image-right figcaption a,
-  body.tsap-dark-mode p[style*="text-align: center"] a {
+  body.tsap-dark-mode .video-caption a {
     color: #38bdf8 !important;
   }
 
   body.tsap-dark-mode .article-image-right figcaption a:hover,
-  body.tsap-dark-mode p[style*="text-align: center"] a:hover {
+  body.tsap-dark-mode .video-caption a:hover {
     color: #7dd3fc !important;
     text-decoration: underline !important;
   }

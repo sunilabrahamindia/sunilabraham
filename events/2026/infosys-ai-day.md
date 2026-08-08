@@ -290,13 +290,14 @@ BNP Paribas noted Infosys's third-quarter results and raised guidance should str
   .pdf-embed-frame {
     height: 65vh;
   }
-  
+
   .download-btn {
     padding: 0.5rem 1rem;
     font-size: 0.95rem;
   }
 }
-  .infosys-ai-video-container {
+
+.infosys-ai-video-container {
   background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
   border-left: 4px solid #0969da;
   padding: 1.5rem;
@@ -335,5 +336,38 @@ BNP Paribas noted Infosys's third-quarter results and raised guidance should str
     padding: 1rem;
     margin: 1rem 0;
   }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .pdf-embed-frame {
+  border-color: #374151 !important;
+  background: #0f172a !important;
+}
+
+body.tsap-dark-mode .download-btn {
+  background: #1e5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode .download-btn:hover {
+  background: #38bdf8 !important;
+  color: #0f172a !important;
+}
+
+body.tsap-dark-mode .infosys-ai-video-container {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+  border-left-color: #38bdf8 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.tsap-dark-mode .infosys-ai-video-container strong {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .infosys-ai-video-frame {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
 }
 </style>
