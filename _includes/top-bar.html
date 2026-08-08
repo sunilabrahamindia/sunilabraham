@@ -87,7 +87,9 @@
 
   transition:
     border-color 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 #sc-search-area input[type="text"]:focus {
@@ -101,24 +103,45 @@
 }
 
 /* =========================================================
-   DARK MODE
+   ACTIVE CLASS ARCHITECTURE DARK MODE OVERRIDES
    ========================================================= */
 
-@media (prefers-color-scheme: dark) {
+body.tsap-dark-mode #sc-top-bar {
+  background: rgba(20, 24, 31, 0.96) !important;
+  border-bottom: 1px solid var(--border-main, rgba(255,255,255,0.08)) !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.35) !important;
+}
 
-  #sc-top-bar {
+body.tsap-dark-mode #sc-search-area input[type="text"] {
+  background: #1e293b !important;
+  color: #f1f5f9 !important;
+  border-color: var(--border-main, #334155) !important;
+}
+
+body.tsap-dark-mode #sc-search-area input[type="text"]:focus {
+  border-color: #38bdf8 !important;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2) !important;
+}
+
+body.tsap-dark-mode #sc-search-area input[type="text"]::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Fallback for native system preferences before JS initializes */
+@media (prefers-color-scheme: dark) {
+  body:not(.tsap-light-mode) #sc-top-bar {
     background: rgba(20, 24, 31, 0.96);
     border-bottom: 1px solid rgba(255,255,255,0.08);
     box-shadow: 0 1px 4px rgba(0,0,0,0.35);
   }
 
-  #sc-search-area input[type="text"] {
+  body:not(.tsap-light-mode) #sc-search-area input[type="text"] {
     background: #1e293b;
     color: #f1f5f9;
     border-color: #334155;
   }
 
-  #sc-search-area input[type="text"]::placeholder {
+  body:not(.tsap-light-mode) #sc-search-area input[type="text"]::placeholder {
     color: #94a3b8;
   }
 }
@@ -175,13 +198,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const form = document.querySelector('#sc-search-area form');
 
-  form.addEventListener('submit', function () {
+  if (form) {
+    form.addEventListener('submit', function () {
 
-    const input = form.querySelector('input[type="text"]');
+      const input = form.querySelector('input[type="text"]');
 
-    document.getElementById('sc-hidden-search').value =
-      'site:' + window.location.hostname + ' ' + input.value;
-  });
+      document.getElementById('sc-hidden-search').value =
+        'site:' + window.location.hostname + ' ' + input.value;
+    });
+  }
 
 });
 </script>
