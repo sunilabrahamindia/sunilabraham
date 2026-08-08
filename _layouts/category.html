@@ -25,6 +25,9 @@ layout: default
 {% elsif category_name == "Pages citing CIS website" %}
   {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'https://cis-india.org'" | sort: "title" %}
 
+{% elsif category_name == "Pages using embedded Facebook posts" %}
+  {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'facebook.com/plugins'" | sort: "title" %}
+  
 {% else %}
   {% assign visible_pages = site.pages | where_exp: "p", "p.categories contains category_name" %}
   {% assign hidden_pages = site.pages | where_exp: "p", "p.hidden_categories contains category_name" %}

@@ -60,6 +60,9 @@ created: 2025-10-31
 {% elsif cat_name == "Pages citing CIS website" %}
   {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'https://cis-india.org'" | size %}
 
+{% elsif cat_name == "Pages using embedded Facebook posts" %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'facebook.com/plugins'" | size %}
+
 {% else %}
   {% assign visible = all_pages | where_exp: "p", "p.categories contains cat_name" %}
   {% assign hidden = all_pages | where_exp: "p", "p.hidden_categories contains cat_name" %}
