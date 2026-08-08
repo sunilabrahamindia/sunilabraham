@@ -22,6 +22,9 @@ layout: default
 {% elsif category_name == "Pages using media repository files" %}
   {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'sunilabrahammedia'" | sort: "title" %}
 
+{% elsif category_name == "Pages citing CIS website" %}
+  {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'https://cis-india.org'" | sort: "title" %}
+
 {% else %}
   {% assign visible_pages = site.pages | where_exp: "p", "p.categories contains category_name" %}
   {% assign hidden_pages = site.pages | where_exp: "p", "p.hidden_categories contains category_name" %}
