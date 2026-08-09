@@ -22,6 +22,10 @@ In June 2026, the number and frequency of project announcements increased. For t
 
 Each entry should indicate whether that was featured in the website footer, on a dedicated project page, or through another communication channel.
 
+## August 2026
+
+- 9 August 2026: The 1,200th page of The Sunil Abraham Project has been published with [**"Bloggers' Rights Subordinated to Rights of Expression: Cyber Law Expert"**](/elonnai/bloggers-rights-subordinated-to-rights-of-expression/). *(✅ Featured in: Website footer)*
+
 ## July 2026
 - 16 July 2026: The [**fourth bulletin**](/amaa/30-bulletins/#bulletin-4) on preparations for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel has been published. *(✅ Featured in: Website footer)*
 - 4 July 2026: <span class="update-item">
