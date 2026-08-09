@@ -19,6 +19,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 4. [Version 2.1.3](#version-213)
 5. [Version 2.2](#version-22)
 6. [Version 2.2.1](#version-221)
+7. [Version 2.2.2](#version-222)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -159,5 +160,23 @@ Between 26 July and 1 August 2026, 16 new pages were published.
 
 **Status** ✅ Done  
 Completion date: 1 August 2026
+
+## Version 2.2.2
+
+Between 2 August and 8 August 2026, 20 new pages were published on The Sunil Abraham Project.
+
+**Elonnai Hickok**
+- Expanded [Template:Elonnai Hickok](/elonnai/template/) and continued documenting her CIS Blog posts. 12 new pages were published as part of this work during the week.
+
+**Maintenance Categories**
+- Started [Maintenance Categories](/category/maintenance-categories/) as a dedicated space for technical tracking, editorial workflows, and other site maintenance tasks.
+- The section currently contains 8 maintenance categories.
+
+**Dark Mode**
+- Continued the site-wide dark mode audit and implemented a range of page-specific fixes and refinements.
+- Further details are documented in [GitHub Issue #8](https://github.com/sunilabrahamindia/sunilabraham/issues/8).
+
+**Status** ✅ Done  
+Completion date: 8 August 2026
 
 {% include versions.html %}
