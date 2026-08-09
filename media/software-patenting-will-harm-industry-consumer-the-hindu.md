@@ -7,6 +7,7 @@ date: 2008-10-05
 source: "The Hindu"
 authors: ["Deepa Kurup"]
 permalink: /media/software-patenting-will-harm-industry-consumer-the-hindu/
+page_id: TSAP-1160
 created: 2026-07-26
 ---
 

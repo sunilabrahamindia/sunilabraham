@@ -7,6 +7,7 @@ date: 2009-10-26
 source: "Media Indonesia"
 language: id
 permalink: /media/open-source-peluang-tidak-terbatas-gcos-2009/
+page_id: TSAP-1163
 created: 2026-07-27
 ---
 

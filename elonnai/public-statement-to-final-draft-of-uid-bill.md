@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2010-12-07
 source: "Centre for Internet and Society"
 permalink: /elonnai/public-statement-to-final-draft-of-uid-bill/
+page_id: TSAP-1186
 created: 2026-08-03
 ---
 

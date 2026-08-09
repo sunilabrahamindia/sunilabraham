@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2010-11-17
 source: "Centre for Internet and Society"
 permalink: /elonnai/privacy-concerns-in-whole-body-imaging-a-few-questions/
+page_id: TSAP-1172
 created: 2026-08-01
 ---
 

@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2010-11-22
 source: "Centre for Internet and Society"
 permalink: /elonnai/privacy-free-open-source-and-the-cloud/
+page_id: TSAP-1173
 created: 2026-08-01
 ---
 

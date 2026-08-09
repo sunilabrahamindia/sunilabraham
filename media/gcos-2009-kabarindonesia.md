@@ -7,6 +7,7 @@ date: 2009-10-29
 source: "KabarIndonesia"
 language: id
 permalink: /media/gcos-2009-kabarindonesia/
+page_id: TSAP-1159
 created: 2026-07-26
 homepage_featured: true
 ---

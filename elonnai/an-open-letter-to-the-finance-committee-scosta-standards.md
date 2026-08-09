@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-01-06
 source: "Centre for Internet and Society"
 permalink: /elonnai/an-open-letter-to-the-finance-committee-scosta-standards/
+page_id: TSAP-1190
 created: 2026-08-05
 ---
 

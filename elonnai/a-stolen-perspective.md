@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-03-31
 source: "Centre for Internet and Society"
 permalink: /elonnai/a-stolen-perspective/
+page_id: TSAP-1192
 created: 2026-08-06
 ---
 

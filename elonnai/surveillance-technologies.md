@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-04-05
 source: "Centre for Internet and Society"
 permalink: /elonnai/surveillance-technologies/
+page_id: TSAP-1197
 created: 2026-08-09
 ---
 

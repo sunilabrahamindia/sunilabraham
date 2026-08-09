@@ -6,6 +6,7 @@ categories: [Centre for Internet and Society, Centre for Internet and Society in
 date: 2012-11-15
 source: "Bangalore Mirror"
 permalink: /media/some-indian-laws-could-be-challenging-bangalore-mirror/
+page_id: TSAP-1164
 created: 2026-07-28
 ---
 

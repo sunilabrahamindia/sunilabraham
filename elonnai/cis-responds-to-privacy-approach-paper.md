@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2010-11-22
 source: "Centre for Internet and Society"
 permalink: /elonnai/cis-responds-to-privacy-approach-paper/
+page_id: TSAP-1181
 created: 2026-08-02
 ---
 

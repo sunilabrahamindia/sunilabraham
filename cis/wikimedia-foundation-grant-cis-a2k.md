@@ -7,6 +7,7 @@ date: 2012-08-01
 authors: ["Barry Newstead"]
 source: "Wikimedia Blog"
 permalink: /cis/wikimedia-foundation-grant-cis-a2k/
+page_id: TSAP-1165
 created: 2026-07-29
 ---
 

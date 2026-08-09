@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2010-12-07
 source: "Centre for Internet and Society"
 permalink: /elonnai/dsci-information-security-summit-2010-a-report/
+page_id: TSAP-1183
 created: 2026-08-03
 ---
 

@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-03-23
 source: "Centre for Internet and Society"
 permalink: /elonnai/privacy-and-governmental-databases/
+page_id: TSAP-1191
 created: 2026-08-05
 ---
 

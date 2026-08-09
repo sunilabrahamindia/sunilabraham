@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2010-11-22
 source: "Centre for Internet and Society"
 permalink: /elonnai/privacy-and-telecommunications-do-we-have-the-safeguards/
+page_id: TSAP-1185
 created: 2026-08-03
 ---
 

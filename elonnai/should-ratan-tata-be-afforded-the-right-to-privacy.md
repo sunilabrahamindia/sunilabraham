@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2010-12-08
 source: "Centre for Internet and Society"
 permalink: /elonnai/should-ratan-tata-be-afforded-the-right-to-privacy/
+page_id: TSAP-1188
 created: 2026-08-04
 ---
 

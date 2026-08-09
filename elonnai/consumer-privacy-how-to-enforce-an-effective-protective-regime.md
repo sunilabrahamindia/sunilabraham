@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2010-11-22
 source: "Centre for Internet and Society"
 permalink: /elonnai/consumer-privacy-how-to-enforce-an-effective-protective-regime/
+page_id: TSAP-1182
 created: 2026-08-03
 ---
 

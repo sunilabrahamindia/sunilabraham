@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-04-05
 source: "Centre for Internet and Society"
 permalink: /elonnai/is-data-protection-enough/
+page_id: TSAP-1196
 created: 2026-08-09
 ---
 

@@ -6,6 +6,7 @@ categories: [Centre for Internet and Society, Centre for Internet and Society in
 date: 2009-12-22
 source: "The Hindu"
 permalink: /media/when-the-virtual-world-gets-a-room-the-hindu/
+page_id: TSAP-1162
 created: 2026-07-27
 homepage_featured: true
 ---

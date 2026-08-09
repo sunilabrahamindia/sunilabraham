@@ -5,6 +5,7 @@ categories: ["Elonnai Hickok", "Biographies", "Centre for Internet and Society"]
 description: Biography of Elonnai Hickok, technology policy researcher and digital rights specialist working on privacy, cybersecurity, surveillance, internet governance, and artificial intelligence.
 author: Tito Dutta
 permalink: /elonnai/
+page_id: TSAP-1169
 created: 2026-07-31
 homepage_featured: true
 ---

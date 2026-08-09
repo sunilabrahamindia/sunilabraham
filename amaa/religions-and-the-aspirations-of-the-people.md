@@ -5,6 +5,7 @@ description: "An article by A. M. A. Ayrookuzhiel examining how religions can se
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/religions-and-the-aspirations-of-the-people/
 categories: [A. M. A. Ayrookuzhiel, Publications, "Writings not in Essays on Dalits, Religion and Liberation"]
+page_id: TSAP-1166
 created: 2026-07-30
 homepage_featured: true
 ---

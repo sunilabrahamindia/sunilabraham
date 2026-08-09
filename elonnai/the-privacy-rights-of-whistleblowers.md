@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2010-12-20
 source: "Centre for Internet and Society"
 permalink: /elonnai/the-privacy-rights-of-whistleblowers/
+page_id: TSAP-1189
 created: 2026-08-04
 homepage_featured: true
 ---

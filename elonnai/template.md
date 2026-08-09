@@ -4,6 +4,7 @@ title: "Template:Elonnai Hickok"
 permalink: /elonnai/template/
 categories: [Navigational templates, Elonnai Hickok]
 description: Navigational template linking publications, blog posts, articles, reports, essays, and other works by Elonnai Hickok.
+page_id: TSAP-1174
 created: 2026-08-01
 ---
 
