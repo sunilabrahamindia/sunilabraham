@@ -1,5 +1,19 @@
 [
   {
+    "title": "Surveillance Technologies",
+    "description": "A CIS blog post by Elonnai Hickok exploring the expansion of surveillance systems in India, from government monitoring and body scanners to cinema anti-piracy tools and online behavioral tracking.",
+    "created": "2026-08-09",
+    "date": "2011-04-05",
+    "source": "Centre for Internet and Society",
+    "authors": [
+      "Elonnai Hickok"
+    ],
+    "categories": [
+      "Elonnai Hickok"
+    ],
+    "permalink": "https://sunilabraham.in/elonnai/surveillance-technologies/"
+  },
+  {
     "title": "Encryption Standards and Practices",
     "description": "A 2011 CIS blog post by Elonnai Hickok examining encryption practices in India, regulatory inconsistencies, and the relationship between encryption, data security, privacy, and national security.",
     "created": "2026-08-09",
