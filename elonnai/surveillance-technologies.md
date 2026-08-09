@@ -107,7 +107,7 @@ Ultimately, the piece critiques the business model where consumers pay for comme
 
 ## External Link
 
-- [Surveillance Technologies](https://cis-india.org/internet-governance/blog/privacy/surveillance-technologies)
+- [Surveillance Technologies](https://cis-india.org/internet-governance/blog/privacy/surveillance-technologies) on CIS website
 
 {% include navbox-elonnai.html %}
 
