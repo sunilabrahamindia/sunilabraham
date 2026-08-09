@@ -85,6 +85,7 @@ The full text of these principles is recorded in [TSAP Foundational Principles](
 - 21 May 2026 (Thursday) — TSAP reached 1000 published articles with the publication of [*Sunil Abraham on Aaron Swartz*](/sunil/aaron-swartz/).
 - 17 June 2026 (Wednesday) — Version 2.0 of the Sunil Abraham Project was released, marking the completion of a major phase of expansion and development. For an overview of this cycle, see the [Version 2.0 Lookback](/versions/2.0/).
 - 28 June 2026 (Sunday), 1100th page [Frederick](/frederick/) was published.
+- 9 August 2026 (Sunday), 1200th page ["Bloggers' Rights Subordinated to Rights of Expression"](/elonnai/bloggers-rights-subordinated-to-rights-of-expression/) was published on the project.
 
 ## On Social Media {#social}
 
