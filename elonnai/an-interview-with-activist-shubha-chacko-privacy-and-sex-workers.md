@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "An Interview with Activist Shubha Chacko: Privacy and Sex Workers"
-description: "A CIS blog post featuring an interview with activist Shubha Chacko of Aneka, exploring privacy challenges, social stigma, healthcare confidentiality, and legal pressures facing sex workers in India."
+description: "A 2011 CIS blog post featuring an interview with activist Shubha Chacko of Aneka, exploring privacy challenges, social stigma, healthcare confidentiality, and legal pressures facing sex workers in India."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
 date: 2011-04-25
