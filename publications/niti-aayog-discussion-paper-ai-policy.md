@@ -196,7 +196,7 @@ The Centre for Internet and Society (CIS), June 2018.
 https://sunilabraham.in/publications/niti-aayog-discussion-paper-ai-policy/
 </code></pre>
 
-{% include back-to-top.html %}
+{% include navbox-elonnai.html %}
 
 <style>
 .highlighted-text {

@@ -133,8 +133,6 @@ Across these cases, the report concludes that while datafication enhances state 
 @media (max-width: 768px) { .pdf-frame { height: 65vh; } }
 </style>
 
-{% include back-to-top.html %}
-
 ## Citation
 If you wish to reference or cite this publication, you may use one of the following formats.
 
@@ -162,7 +160,7 @@ The Centre for Internet and Society (CIS), 2016.
 https://sunilabraham.in/publications/big-data-in-governance-india/
 </code></pre>
 
-{% include back-to-top.html %}
+{% include navbox-elonnai.html %}
 
 <style>
 .pdf-container {

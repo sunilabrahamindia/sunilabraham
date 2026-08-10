@@ -173,6 +173,8 @@ Digital Debates 2015: CyFy Journal, Volume 2, Observer Research Foundation, 2015
 https://sunilabraham.in/publications/security-privacy-transparency-and-technology/
 ```
 
+{% include navbox-elonnai.html %}
+
 <style>
 .pdf-container {
   margin: 1.2rem 0;
