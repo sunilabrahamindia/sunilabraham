@@ -143,7 +143,7 @@ Applied to the Indian landscape, where early biometric implementations included 
 
 ## External Link
 
-- [A Stolen Perspective](https://cis-india.org/internet-governance/blog/privacy/privacy_astolenperspective)
+- [A Stolen Perspective](https://cis-india.org/internet-governance/blog/privacy/privacy_astolenperspective) on CIS website
 
 {% include navbox-elonnai.html %}
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "A Public Meeting on DNA Profiling Bill in Delhi"
-description: "A CIS report summarizing a public talk hosted at the India International Centre in Delhi on the draft DNA Profiling Bill, featuring insights from forensic experts and international advocates."
+description: "A 2012 CIS report summarising a public talk hosted at the India International Centre in Delhi on the draft DNA Profiling Bill, featuring insights from forensic experts and international advocates."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
 date: 2012-09-29

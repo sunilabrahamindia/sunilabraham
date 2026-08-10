@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "American Bar Association Online Privacy Conference: A Report"
-description: "A CIS blog post by Elonnai Hickok reporting on an American Bar Association conference on cross-border privacy regulation, and its implications for India's privacy law debate."
+description: "A 2010 CIS blog post by Elonnai Hickok reporting on an American Bar Association conference on cross-border privacy regulation, and its implications for India's privacy law debate."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
 date: 2010-11-22

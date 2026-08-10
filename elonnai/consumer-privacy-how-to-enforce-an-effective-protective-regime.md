@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Consumer Privacy — How to Enforce an Effective Protective Regime?"
-description: "A CIS blog post by Elonnai Hickok and Prashant Iyengar surveying consumer privacy protections in India, covering privacy policies, professional codes, the Consumer Protection Act, and the IT Act, alongside international comparisons."
+description: "A 2010 CIS blog post by Elonnai Hickok and Prashant Iyengar surveying consumer privacy protections in India, covering privacy policies, professional codes, the Consumer Protection Act, and the IT Act, alongside international comparisons."
 authors: ["Elonnai Hickok", "Prashant Iyengar"]
 categories: [Elonnai Hickok]
 date: 2010-11-22
@@ -292,7 +292,7 @@ The piece closes by listing unresolved design questions for a future Indian priv
 
 ## External Link
 
-- [Consumer Privacy — How to Enforce an Effective Protective Regime?](https://cis-india.org/internet-governance/blog/privacy/consumer-privacy)
+- [Consumer Privacy — How to Enforce an Effective Protective Regime?](https://cis-india.org/internet-governance/blog/privacy/consumer-privacy) on CIS website
 
 {% include navbox-elonnai.html %}
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Does the UID Reflect India?"
-description: "A CIS blog post summarizing and analyzing a public meeting hosted by the Campaign for No UID in Bangalore, examining the social, legal, and privacy implications of the UID project."
+description: "A 2010 CIS blog post summarizing and analyzing a public meeting hosted by the Campaign for No UID in Bangalore, examining the social, legal, and privacy implications of the UID project."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
 date: 2010-12-27

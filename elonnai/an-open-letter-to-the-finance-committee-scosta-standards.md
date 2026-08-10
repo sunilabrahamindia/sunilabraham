@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "An Open Letter to the Finance Committee: SCOSTA Standards"
-description: "A CIS blog post presenting an open letter to the Parliamentary Standing Committee on Finance, comparing the SCOSTA smart card standard with the Aadhaar biometric standard for identity authentication."
+description: "A 2011 CIS blog post presenting an open letter to the Parliamentary Standing Committee on Finance, comparing the SCOSTA smart card standard with the Aadhaar biometric standard for identity authentication."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
 date: 2011-01-06
@@ -142,7 +142,7 @@ Ultimately, the open letter advocated for a hybrid identity architecture that li
 
 ## External Link
 
-- [An Open Letter to the Finance Committee: SCOSTA Standards](https://cis-india.org/internet-governance/blog/privacy/letter-to-finance-committee)
+- [An Open Letter to the Finance Committee: SCOSTA Standards](https://cis-india.org/internet-governance/blog/privacy/letter-to-finance-committee) on CIS website
 
 {% include navbox-elonnai.html %}
 

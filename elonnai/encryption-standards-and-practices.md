@@ -167,7 +167,7 @@ Finally, the article frames encryption through a social science lens, mapping ou
 
 ## External Link
 
-- [Encryption Standards and Practices](https://cis-india.org/internet-governance/blog/privacy/privacy_encryption)
+- [Encryption Standards and Practices](https://cis-india.org/internet-governance/blog/privacy/privacy_encryption) on CIS website
 
 {% include navbox-elonnai.html %}
 

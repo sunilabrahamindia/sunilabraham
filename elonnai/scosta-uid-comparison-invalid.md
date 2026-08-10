@@ -89,7 +89,7 @@ The exchange illustrates a specific point of disagreement in the 2011 debate ove
 
 ## External Link
 
-- [SCOSTA and UID Comparison not Valid, says Finance Committee](https://cis-india.org/internet-governance/blog/scosta-uid-comparison-invalid)
+- [SCOSTA and UID Comparison not Valid, says Finance Committee](https://cis-india.org/internet-governance/blog/scosta-uid-comparison-invalid) on CIS website
 
 {% include navbox-elonnai.html %}
 

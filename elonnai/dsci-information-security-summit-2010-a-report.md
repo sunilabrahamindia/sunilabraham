@@ -77,7 +77,7 @@ The summit also surfaced diverging perspectives regarding the adequacy of India'
 
 ## External Link
 
-- [DSCI Information Security Summit 2010 – A Report](https://cis-india.org/internet-governance/blog/dsci-information-summit)
+- [DSCI Information Security Summit 2010 – A Report](https://cis-india.org/internet-governance/blog/dsci-information-summit) on CIS website
 
 {% include navbox-elonnai.html %}
 

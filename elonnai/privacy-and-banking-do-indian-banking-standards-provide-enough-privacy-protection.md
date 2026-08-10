@@ -205,7 +205,7 @@ The closing questions push the discussion toward what a future privacy law would
 
 ## External Link
 
-- [Privacy and Banking: Do Indian Banking Standards Provide Enough Privacy Protection?](https://cis-india.org/internet-governance/blog/privacy/privacy-banking)
+- [Privacy and Banking: Do Indian Banking Standards Provide Enough Privacy Protection?](https://cis-india.org/internet-governance/blog/privacy/privacy-banking) on CIS website
 
 {% include navbox-elonnai.html %}
 

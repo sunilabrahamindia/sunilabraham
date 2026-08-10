@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The DNA Profiling Bill 2007 and Privacy"
-description: "A CIS blog post providing a detailed background on DNA testing in India and a privacy critique of the Draft DNA Profiling Bill 2007."
+description: "A 2011 CIS blog post providing a detailed background on DNA testing in India and a privacy critique of the Draft DNA Profiling Bill 2007."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
 date: 2011-04-25
@@ -374,7 +374,7 @@ Drawing on research and discussions with GeneWatch UK, the article ultimately ar
 
 ## External Link
 
-- [The DNA Profiling Bill 2007 and Privacy](https://cis-india.org/internet-governance/blog/privacy/dna-profiling-bill)
+- [The DNA Profiling Bill 2007 and Privacy](https://cis-india.org/internet-governance/blog/privacy/dna-profiling-bill) on CIS website
 
 {% include navbox-elonnai.html %}
 

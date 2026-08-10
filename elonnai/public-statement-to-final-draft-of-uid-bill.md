@@ -121,7 +121,7 @@ Despite these broader omissions, the statement acknowledges specific incremental
 
 ## External Link
 
-- [Public Statement to Final Draft of UID Bill](https://cis-india.org/internet-governance/blog/privacy/privacy-publicstatement-UID)
+- [Public Statement to Final Draft of UID Bill](https://cis-india.org/internet-governance/blog/privacy/privacy-publicstatement-UID) on CIS website
 
 {% include navbox-elonnai.html %}
 

@@ -190,7 +190,7 @@ Overall, the article presents improvement of the RTI system as a shared responsi
 
 ## External Link
 
-- [Understanding the Right to Information](https://cis-india.org/internet-governance/understanding-right-to-information)
+- [Understanding the Right to Information](https://cis-india.org/internet-governance/understanding-right-to-information) on CIS website
 
 {% include navbox-elonnai.html %}
 

@@ -228,7 +228,7 @@ The interview concluded by emphasising that legal protection alone could not res
 
 ## External Link
 
-- [An Interview with Activist Shubha Chacko: Privacy and Sex Workers](https://cis-india.org/internet-governance/blog/privacy/privacy_privacyandsexworkers)
+- [An Interview with Activist Shubha Chacko: Privacy and Sex Workers](https://cis-india.org/internet-governance/blog/privacy/privacy_privacyandsexworkers) on CIS website
 
 {% include navbox-elonnai.html %}
 
