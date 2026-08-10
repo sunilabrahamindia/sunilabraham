@@ -123,8 +123,6 @@ The authors place India’s practices in the context of global surveillance conc
   </p>
 </div>
 
-{% include back-to-top.html %}
-
 <style>
 .pdf-container {
   margin: 1.2rem 0;
@@ -218,6 +216,8 @@ https://sunilabraham.in/publications/government-access-to-private-sector-data-in
 /* small adjustment so the relative positioning of pre code parent is ensured */
 pre { position: relative; }
 </style>
+
+{% include navbox-elonnai.html %}
 
 <script>
 /* Add copy buttons to all citation <pre><code> blocks, and enable copy functionality */
