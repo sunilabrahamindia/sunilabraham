@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "An interview with Dr. Ann Cavoukian, Information and Privacy Commissioner, Ontario, Canada"
+title: "An Interview with Dr. Ann Cavoukian, Information and Privacy Commissioner, Ontario, Canada"
 description: "A 2011 interview by Elonnai Hickok with Dr. Ann Cavoukian, Information and Privacy Commissioner of Ontario, Canada, covering Privacy by Design, Canadian data protection, enforcement models, and privacy education."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
