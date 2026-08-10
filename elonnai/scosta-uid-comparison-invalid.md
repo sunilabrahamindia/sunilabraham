@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "SCOSTA and UID Comparison not Valid, says Finance Committee"
+title: "SCOSTA and UID Comparison Not Valid, Says Finance Committee"
 description: "A CIS post reproducing a response from the Lok Sabha Standing Committee on Finance regarding CIS's open letter on SCOSTA smart card standards versus Aadhaar biometric authentication."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
@@ -10,7 +10,7 @@ permalink: /elonnai/scosta-uid-comparison-invalid/
 created: 2026-08-10
 ---
 
-**"SCOSTA and UID Comparison not Valid, says Finance Committee"** is a post by [Elonnai Hickok](/elonnai/) published by the [Centre for Internet and Society](/cis/) on 14 October 2011. It reproduces official correspondence from the Standing Committee on Finance Branch of the Lok Sabha Secretariat regarding [CIS's earlier submission](/elonnai/an-open-letter-to-the-finance-committee-scosta-standards/) on the National Identification Authority of India Bill, 2010. The Lok Sabha Secretariat's response addresses CIS's recommendation to replace the Aadhaar biometric-based authentication process with a SCOSTA-based authentication process, outlining why the Committee considers a direct comparison between SCOSTA and the UID project invalid.
+**"SCOSTA and UID Comparison Not Valid, Says Finance Committee"** is a post by [Elonnai Hickok](/elonnai/) published by the [Centre for Internet and Society](/cis/) on 14 October 2011. It reproduces official correspondence from the Standing Committee on Finance Branch of the Lok Sabha Secretariat regarding [CIS's earlier submission](/elonnai/an-open-letter-to-the-finance-committee-scosta-standards/) on the National Identification Authority of India Bill, 2010. The Lok Sabha Secretariat's response addresses CIS's recommendation to replace the Aadhaar biometric-based authentication process with a SCOSTA-based authentication process, outlining why the Committee considers a direct comparison between SCOSTA and the UID project invalid.
 
 ## Contents
 
