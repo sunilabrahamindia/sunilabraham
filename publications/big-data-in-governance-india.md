@@ -119,8 +119,6 @@ Across these cases, the report concludes that while datafication enhances state 
   </p>
 </div>
 
-{% include navbox-elonnai.html %}
-
 <style>
 .pdf-container { margin: 1.2rem 0; text-align: center; }
 .pdf-frame {
