@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Should Ratan Tata be Afforded the Right to Privacy?"
+title: "Should Ratan Tata Be Afforded the Right to Privacy?"
 description: "A CIS blog post examining the legal and ethical questions around the leak of the Nira Radia tapes, Ratan Tata's Supreme Court petition, and the balance between privacy and the Right to Information."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
@@ -11,7 +11,7 @@ page_id: TSAP-1188
 created: 2026-08-04
 ---
 
-**"Should Ratan Tata be Afforded the Right to Privacy?"** is a blog post by [Elonnai Hickok](/elonnai/) published by the [Centre for Internet and Society](/cis/) on 8 December 2010. It explores the privacy, legal, and public-interest dilemmas arising from the unauthorized leak of the Nira Radia wiretap recordings and Ratan Tata's subsequent petition to the Supreme Court of India. The article analyses the interplay between wiretapping laws, the Right to Information Act 2005, and the broader necessity for comprehensive privacy legislation in India.
+**"Should Ratan Tata Be Afforded the Right to Privacy?"** is a blog post by [Elonnai Hickok](/elonnai/) published by the [Centre for Internet and Society](/cis/) on 8 December 2010. It explores the privacy, legal, and public-interest dilemmas arising from the unauthorized leak of the Nira Radia wiretap recordings and Ratan Tata's subsequent petition to the Supreme Court of India. The article analyses the interplay between wiretapping laws, the Right to Information Act 2005, and the broader necessity for comprehensive privacy legislation in India.
 
 ## Contents
 
