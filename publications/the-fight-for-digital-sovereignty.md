@@ -5,14 +5,14 @@ description: "An argument for adopting free software principles to safeguard pri
 categories: [Publications]
 date: 2013-10-19
 authors: ["Sunil Abraham"]
-source: "Economic & Political Weekly, Vol. XLVIII No. 42"
+source: "Economic and Political Weekly"
 permalink: /publications/the-fight-for-digital-sovereignty/
 pdf: 
 page_id: TSAP-0048
 created: 2025-11-06
 ---
 
-**The Fight for Digital Sovereignty** was written by [Sunil Abraham](/sunil/) and published in the *Economic & Political Weekly* (Vol. XLVIII No. 42, 19 October 2013). The article argues that India must incorporate the principles of free and open source software into its governance and technology policies to protect privacy and maintain autonomy in the digital domain. Drawing from the global debate that followed Edward Snowden’s revelations about mass surveillance, Abraham explores how transparency in code, infrastructure, and standards can strengthen both freedom and security.
+**The Fight for Digital Sovereignty** was written by [Sunil Abraham](/sunil/) and published in the *Economic and Political Weekly* (Vol. XLVIII No. 42, 19 October 2013). The article argues that India must incorporate the principles of free and open source software into its governance and technology policies to protect privacy and maintain autonomy in the digital domain. Drawing from the global debate that followed Edward Snowden’s revelations about mass surveillance, Abraham explores how transparency in code, infrastructure, and standards can strengthen both freedom and security.
 
 ## Contents
 
@@ -30,7 +30,7 @@ created: 2025-11-06
   <dd>Sunil Abraham</dd>
 
   <dt>🏛️ Published in:</dt>
-  <dd><em>Economic & Political Weekly</em>, Vol. XLVIII No. 42</dd>
+  <dd><em>Economic and Political Weekly</em>, Vol. XLVIII No. 42</dd>
 
   <dt>📅 Date:</dt>
   <dd>19 October 2013</dd>
@@ -161,7 +161,7 @@ If you wish to reference or cite this article, you may use one of the following 
 **APA style:**
 <pre><code>Abraham, S. (2013).
 The Fight for Digital Sovereignty.
-Economic & Political Weekly, Vol. XLVIII No. 42, 19 October 2013.
+Economic and Political Weekly, Vol. XLVIII No. 42, 19 October 2013.
 https://sunilabraham.in/publications/the-fight-for-digital-sovereignty/
 </code></pre>
 
@@ -169,7 +169,7 @@ https://sunilabraham.in/publications/the-fight-for-digital-sovereignty/
 <pre><code>@article{abraham2013sovereignty,
   author = {Abraham, Sunil},
   title = {The Fight for Digital Sovereignty},
-  journal = {Economic & Political Weekly},
+  journal = {Economic and Political Weekly},
   year = {2013},
   volume = {XLVIII},
   number = {42},
@@ -180,7 +180,7 @@ https://sunilabraham.in/publications/the-fight-for-digital-sovereignty/
 
 **MLA style**
 <pre><code>Abraham, Sunil. "The Fight for Digital Sovereignty."
-Economic & Political Weekly, Vol. XLVIII No. 42, 19 Oct. 2013.
+Economic and Political Weekly, Vol. XLVIII No. 42, 19 Oct. 2013.
 https://sunilabraham.in/publications/the-fight-for-digital-sovereignty/
 </code></pre>
 

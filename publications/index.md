@@ -81,7 +81,7 @@ _Examines the state’s dual responsibility to expand access and uphold free exp
   [Read here](/publications/government-access-to-private-sector-data-in-india){: .btn}
 
 - **"The Fight for Digital Sovereignty"**  
-  *Economic & Political Weekly, Vol. XLVIII, No. 42, October 19, 2013.*  
+  *Economic and Political Weekly, Vol. XLVIII, No. 42, October 19, 2013.*  
   _Explores national policy choices in digital infrastructure and Internet control._  
   [Read here](/publications/the-fight-for-digital-sovereignty){: .btn}
 

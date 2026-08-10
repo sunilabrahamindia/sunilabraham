@@ -5,14 +5,14 @@ description: "An analytical commentary on the Supreme Court's judgment in Shreya
 categories: [Publications]
 date: 2015-04-11
 authors: ["Sunil Abraham"]
-source: "Economic & Political Weekly, Vol L, No 15"
+source: "Economic and Political Weekly"
 permalink: /publications/shreya-singhal-and-66a/
 pdf: /publications/files/shreya-singhal-and-66a.pdf
 page_id: TSAP-0035
 created: 2025-11-04
 ---
 
-**Shreya Singhal and 66A: A Cup Half Full and Half Empty** is a detailed commentary by [Sunil Abraham](/sunil/), published in the *Economic & Political Weekly* on 11 April 2015. The article critically examines the Supreme Court’s judgment in *Shreya Singhal vs Union of India (2015)* — a landmark case that struck down Section 66A of the Information Technology Act, 2000. It analyses how the judgment reshapes the contours of free speech online, the limits of state regulation, and the legal responsibilities of intermediaries in India’s digital ecosystem.
+**Shreya Singhal and 66A: A Cup Half Full and Half Empty** is a detailed commentary by [Sunil Abraham](/sunil/), published in the *Economic and Political Weekly* on 11 April 2015. The article critically examines the Supreme Court’s judgment in *Shreya Singhal vs Union of India (2015)*, a landmark case that struck down Section 66A of the Information Technology Act, 2000. It analyses how the judgment reshapes the contours of free speech online, the limits of state regulation, and the legal responsibilities of intermediaries in India’s digital ecosystem.
 
 ## Contents
 
@@ -30,7 +30,7 @@ created: 2025-11-04
   <dd>Sunil Abraham</dd>
 
   <dt>🏛️ Published in:</dt>
-  <dd><em>Economic & Political Weekly</em>, Vol L, No 15</dd>
+  <dd><em>Economic and Political Weekly</em>, Vol L, No 15</dd>
 
   <dt>📅 Date:</dt>
   <dd>11 April 2015</dd>
@@ -151,7 +151,7 @@ If you wish to reference or cite this publication, please use one of the followi
 ```
 Abraham, S. (2015). 
 Shreya Singhal and 66A: A Cup Half Full and Half Empty. 
-Economic & Political Weekly, Vol L, No 15. 
+Economic and Political Weekly, Vol L, No 15. 
 https://sunilabraham.in/publications/shreya-singhal-and-66a/
 ```
 
@@ -160,7 +160,7 @@ https://sunilabraham.in/publications/shreya-singhal-and-66a/
 @article{abraham2015shreya,
 author = {Abraham, Sunil},
 title = {Shreya Singhal and 66A: A Cup Half Full and Half Empty},
-journal = {Economic & Political Weekly},
+journal = {Economic and Political Weekly},
 year = {2015},
 volume = {L},
 number = {15},
@@ -171,7 +171,7 @@ url = {https://sunilabraham.in/publications/shreya-singhal-and-66a/}
 **MLA style**
 ```
 Abraham, Sunil. "Shreya Singhal and 66A: A Cup Half Full and Half Empty." 
-Economic & Political Weekly, Vol L, No 15, 11 Apr. 2015. 
+Economic and Political Weekly, Vol L, No 15, 11 Apr. 2015. 
 https://sunilabraham.in/publications/shreya-singhal-and-66a/
 ```
 
