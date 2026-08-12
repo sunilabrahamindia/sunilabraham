@@ -79,7 +79,9 @@ This mapping follows the source document described above. Page numbers mentioned
 - Pages 22–30: *Historical Background*
 - Pages 31–35: *Dalit Shrines (Kurava, Pulaya & Paraya)*.
 - Page 36: *Chapter 2, Methodology*.
-- Pages 37 onwards: *Essays as shown in July mapping below*
+- Pages 37 onwards: Essays as shown in July mapping below
+- Pages 54–59: *Introduction*.
+- Page 60: *Dalits and Hindu Religious Identity*. 
 
 
 ### July 2026 mapping {#july-mapping}
