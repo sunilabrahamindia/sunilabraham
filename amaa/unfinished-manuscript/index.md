@@ -68,7 +68,7 @@ The source document consists of 115 pages. The mapping shows that it contains se
 
 This mapping follows the source document described above. Page numbers mentioned in this section refer to the 115-page source document unless otherwise stated. The mapping records the current order of pages, identifies distinct documents and sections within the source document, and documents editorial observations made during the preparation of this working document.
 
-## August 2026 remapping {#august-remap}
+### August 2026 remapping {#august-remap}
 
 {% include notice.html message="We found a <a href='https://drive.google.com/file/d/1zqqPEEIpy7d6laAxYT57ADIwzNMjxvaK/' rel='nofollow noopener noreferrer'>version of the manuscript</a> in Sunil Abraham's personal collection. This August 2026 remapping follows the original order of the 115-page source document." %}
 
