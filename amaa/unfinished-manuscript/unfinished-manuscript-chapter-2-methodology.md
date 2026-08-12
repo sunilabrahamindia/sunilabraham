@@ -8,7 +8,7 @@ page_id: TSAP-1122
 created: 2026-07-10
 ---
 
-***Chapter 2, Methodology*** is the transcription of page 36 in the August mapping, or page 50 in the July mapping, of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/). The page sets out the methodology for the study, describing the empirical approach, the geographical scope of the fieldwork, and the framework for examining caste-specific religious practices and Dalit participation in Hindu religious life.
+***Chapter 2, Methodology*** is the transcription of page 36 in the August 2026 mapping, or page 50 in the July 2026 mapping, of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/). The page sets out the methodology for the study, describing the empirical approach, the geographical scope of the fieldwork, and the framework for examining caste-specific religious practices and Dalit participation in Hindu religious life.
 
 ## Full Text
 <div class="source-text" markdown="1">
