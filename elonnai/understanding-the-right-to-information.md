@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-09-28
 source: "Centre for Internet and Society"
 permalink: /elonnai/understanding-the-right-to-information/
+page_id: TSAP-1206
 created: 2026-08-10
 ---
 

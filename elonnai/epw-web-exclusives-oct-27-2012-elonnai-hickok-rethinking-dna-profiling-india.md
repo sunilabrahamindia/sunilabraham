@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2012-10-27
 source: "Economic and Political Weekly"
 permalink: /elonnai/epw-web-exclusives-oct-27-2012-elonnai-hickok-rethinking-dna-profiling-india/
+page_id: TSAP-1207
 created: 2026-08-11
 ---
 

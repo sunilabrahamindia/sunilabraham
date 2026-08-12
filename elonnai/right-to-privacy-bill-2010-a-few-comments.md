@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-07-20
 source: "Centre for Internet and Society"
 permalink: /elonnai/right-to-privacy-bill-2010-a-few-comments/
+page_id: TSAP-1201
 created: 2026-08-09
 ---
 

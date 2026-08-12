@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-12-02
 source: "Centre for Internet and Society"
 permalink: /elonnai/interview-with-anne-cavoukian/
+page_id: TSAP-1202
 created: 2026-08-10
 ---
 

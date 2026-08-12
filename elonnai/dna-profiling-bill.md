@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-04-25
 source: "Centre for Internet and Society"
 permalink: /elonnai/dna-profiling-bill/
+page_id: TSAP-1200
 created: 2026-08-09
 ---
 

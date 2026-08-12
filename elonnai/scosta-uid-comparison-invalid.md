@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-10-14
 source: "Centre for Internet and Society"
 permalink: /elonnai/scosta-uid-comparison-invalid/
+page_id: TSAP-1205
 created: 2026-08-10
 ---
 

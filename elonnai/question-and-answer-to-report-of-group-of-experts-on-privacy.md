@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2012-11-09
 source: "Centre for Internet and Society"
 permalink: /elonnai/question-and-answer-to-report-of-group-of-experts-on-privacy/
+page_id: TSAP-1208
 created: 2026-08-11
 ---
 

@@ -5,6 +5,7 @@ description: "A. M. A. Ayrookuzhiel examines Dalit consciousness as an emerging 
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/
 categories: [A. M. A. Ayrookuzhiel, Publications, "Writings not in Essays on Dalits, Religion and Liberation"]
+page_id: TSAP-1210
 created: 2026-08-12
 homepage_featured: true
 ---

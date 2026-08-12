@@ -5,6 +5,7 @@ description: "An article by A. M. A. Ayrookuzhiel examining the ideological divi
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/
 categories: [A. M. A. Ayrookuzhiel, Publications, "Writings not in Essays on Dalits, Religion and Liberation"]
+page_id: TSAP-1209
 created: 2026-08-12
 homepage_featured: true
 ---

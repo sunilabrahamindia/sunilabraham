@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2011-06-03
 source: "Centre for Internet and Society"
 permalink: /elonnai/bloggers-rights-subordinated-to-rights-of-expression/
+page_id: TSAP-1199
 created: 2026-08-09
 ---
 

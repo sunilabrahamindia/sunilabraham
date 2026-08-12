@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2012-10-25
 source: "Centre for Internet and Society"
 permalink: /elonnai/privacy-perspectives-on-the-2012-2013-goa-beach-shack-policy/
+page_id: TSAP-1203
 created: 2026-08-10
 ---
 
