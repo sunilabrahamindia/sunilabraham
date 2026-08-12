@@ -70,7 +70,7 @@ This mapping follows the source document described above. Page numbers mentioned
 
 ## August 2026 remapping {#august-remap}
 
-{% include notice.html message="We found a <a href="https://drive.google.com/file/d/1zqqPEEIpy7d6laAxYT57ADIwzNMjxvaK/" rel="nofollow noopener noreferrer">version of the manuscript</a> in Sunil Abraham's personal collection. This August 2026 remapping follows the original order of the 115-page source document." %}
+{% include notice.html message="We found a <a href='https://drive.google.com/file/d/1zqqPEEIpy7d6laAxYT57ADIwzNMjxvaK/' rel='nofollow noopener noreferrer'>version of the manuscript</a> in Sunil Abraham's personal collection. This August 2026 remapping follows the original order of the 115-page source document." %}
 
 - Pages 1–2: *Chapter II, Dewaswom Board Temples*.
 - Pages 3–8: *Devswom Board Temples in Kottara Taluk*
@@ -83,7 +83,7 @@ This mapping follows the source document described above. Page numbers mentioned
 
 
 ### July 2026 mapping {july-mapping}
-{% include notice.html message="For this project, we reordered some of the pages and created an OCR version of the manuscript using the VFlat app, which embeds recognised text directly into the image layer. The following mapping used this reordered working copy and is retained here for historical record. The reordered working copy is available <a href="https://drive.google.com/file/d/1Xow1xR2axdol7zLanLAZJDpMgKX1TBrA/" rel="nofollow noopener noreferrer">here</a>." %}
+{% include notice.html message="For this project, we reordered some of the pages and created an OCR version of the manuscript using the VFlat app, which embeds recognised text directly into the image layer. The following mapping used this reordered working copy and is retained here for historical record. The reordered working copy is available <a href='https://drive.google.com/file/d/1Xow1xR2axdol7zLanLAZJDpMgKX1TBrA/' rel='nofollow noopener noreferrer'>here</a>." %}
 
 - Pages 1–12: *A Proposal For The Study Of The Religious Heritage Of The Dalits: Some Methodological Considerations*. This essay has already been documented on The Sunil Abraham Project and may be accessed [here](/amaa/proposal-study-religious-heritage-dalits/).
 - Pages 13–14: *Chapter One, Statement of the Problem*. Further mapping is required to determine how this section relates to the other works and to the unfinished manuscript.
