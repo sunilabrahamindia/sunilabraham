@@ -8,7 +8,7 @@ page_id: TSAP-1124
 created: 2026-07-11
 ---
 
-***Dalits and Hindu Religious Identity: Proposed Contents*** is the transcription of page 74 of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/). This page appears to present the proposed title page and contents of the planned volume, listing the unfinished manuscript together with nine accompanying essays and their original publication details.
+***Dalits and Hindu Religious Identity: Proposed Contents*** is the transcription of page 60 in the August 2026 mapping, or page 74 in the July 2026 mapping, of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/). This page appears to present the proposed title page and contents of the planned volume, listing the unfinished manuscript together with nine accompanying essays and their original publication details.
 
 <div class="manuscript-cover">
   <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/unfinished-manuscript-title-cover.jpg"
