@@ -79,6 +79,8 @@ Let us suppose that Swami Agnivesh succeeds. Dalits enter the Vaishnava temple i
 
 Such being the reality, it should surprise no one when the Dalits said, 'Beware of socialist Brahmins', and Ambedkar cautions, 'Beware of Gandhi and the Congress'.
 
+</div>
+
 ## Publication {#publication}
 
 This article was published in *Religion and Society*, Vol. XXXV, No. 2 (June 1988), pp. 47–52, under the title "Dalit Liberation — Some Reflections on Their Ideological Predicament".
