@@ -72,12 +72,12 @@ This mapping follows the source document described above. Page numbers mentioned
 
 {% include notice.html message="We found a <a href='https://drive.google.com/file/d/1zqqPEEIpy7d6laAxYT57ADIwzNMjxvaK/' rel='nofollow noopener noreferrer'>version of the manuscript</a> in Sunil Abraham's personal collection. This August 2026 remapping follows the original order of the 115-page source document." %}
 
-- Pages 1–2: *Chapter II, Dewaswom Board Temples*.
+- Pages 1–2: *Chapter II, Dewaswom Board Temples*. Please read this [here](/amaa/unfinished-manuscript/chapter-2-devaswom-board-temples/).
 - Pages 3–8: *Devswom Board Temples in Kottara Taluk*
 - Pages 9–10: *Committees*.
 - Pages 11–21: *Nair Community in Kerala*.
 - Pages 22–30: *Historical Background*
-- Pages 31–35: *Dalit Shrines (Kurava, Pulaya & Paraya)*. Please read this [here](/amaa/unfinished-manuscript/dalit-shrines-kurava-pulaya-paraya).
+- Pages 31–35: *Dalit Shrines (Kurava, Pulaya & Paraya)*. Please read this [here](/amaa/unfinished-manuscript/dalit-shrines-kurava-pulaya-paraya/).
 - Page 36: *Chapter 2, Methodology*.
 - Pages 37 onwards: Essays as shown in July mapping below
 - Pages 54–59: *Introduction*.
@@ -89,7 +89,7 @@ This mapping follows the source document described above. Page numbers mentioned
 
 - Pages 1–12: *A Proposal For The Study Of The Religious Heritage Of The Dalits: Some Methodological Considerations*. This essay has already been documented on The Sunil Abraham Project and may be accessed [here](/amaa/proposal-study-religious-heritage-dalits/).
 - Pages 13–14: *Chapter One, Statement of the Problem*. Further mapping is required to determine how this section relates to the other works and to the unfinished manuscript.
-- Pages 15–24: *Chapter II, Dewaswom Board Temples*.
+- Pages 15–24: *Chapter II, Dewaswom Board Temples*. Please read this [here](/amaa/unfinished-manuscript/chapter-2-devaswom-board-temples/).
   - Pages 17–22: *Devswom Board Temples in Kottara Taluk*
   - Pages 23–24: *Committees*.
 - Pages 25–35: *Nair Community in Kerala*.
