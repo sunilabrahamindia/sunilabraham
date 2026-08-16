@@ -23,7 +23,7 @@ In June 2026, the number and frequency of project announcements increased. For t
 Each entry should indicate whether that was featured in the website footer, on a dedicated project page, or through another communication channel.
 
 ## August 2026
-
+-  16 August 2026: The <a href="/amaa/30-bulletins/#bulletin-5">fifth bulletin</a> on preparations for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel has been published. *(✅ Featured in: Website footer)*
 - 9 August 2026: 1,200th page is published with ["Bloggers' Rights Subordinated to Rights of Expression"](/elonnai/bloggers-rights-subordinated-to-rights-of-expression/). *(✅ Featured in: Website footer)*
 
 ## July 2026
