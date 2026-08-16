@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tito Dutta
+title: Tito Dutta (Zone)মায়ামৃদঙ্গমায়ামৃদঙ্গ
 categories: [Project pages, Tito Dutta]
 description: Writings, essays, articles, papers, and other works by Tito Dutta.
 permalink: /tito/
