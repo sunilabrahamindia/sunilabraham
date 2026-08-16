@@ -16,6 +16,7 @@ The **"Bulletins" page** documents the planning, progress, and activities relate
 2. [Bulletin 2](#bulletin-2)
 3. [Bulletin 3](#bulletin-3)
 4. [Bulletin 4](#bulletin-4)
+5. [Bulletin 5](#bulletin-5)
 
 ## Bulletin 1 {#bulletin-1}
 
@@ -271,6 +272,84 @@ Between 15 June and 15 July 2026, the following work was undertaken:
     </figcaption>
   </figure>
 </div>
+
+## Bulletin 5 {#bulletin-5}
+
+🗓️ **Date:** Saturday, 15 August 2026
+
+This bulletin reports on the work undertaken and progress made towards the commemoration during the period from 15 July to 15 August 2026.
+
+We began this month's work by creating a page for [*Against the Sacred Abodes of Untouchability*](/amaa/swami-anand-thirth-against-sacred-abodes-untouchability/), the third chapter of the book *Swami Anand Thirth*. Beginning with the temple entry movement, the chapter follows Swami Anand Thirth's efforts to challenge restrictions on worship, discriminatory practices that persisted after legal reforms, and the exclusion of Scheduled Castes from temple spaces and rituals.
+
+We worked on [*My Journey on a Thorny Way: The Lord Upholding*](/amaa/my-journey-on-a-thorny-way-godwin-shiri/), the 2025 autobiography of Rev. Godwin Shiri. In an author's note dated Christmas 2024, Shiri describes the book as a personal testimony and an expression of gratitude to God for sustaining and guiding him throughout his journey.
+
+We worked on [*Religions and the Aspirations of the People*](/amaa/religions-and-the-aspirations-of-the-people/), an article by A. M. A. Ayrookuzhiel published in *Religion and Society*, Vol. XXX, Nos. 3 & 4 (September–December 1983), pp. 102–108. The article examines the relationship between religion and social power, and considers the aspirations of poor, marginalised, and oppressed people.
+
+We also worked on [*Dalit Liberation — Some Reflections on Their Ideological Predicament*](/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/), an article by A. M. A. Ayrookuzhiel published in *Religion and Society*, Vol. XXXV, No. 2 (June 1988), pp. 47–52. The article examines the ideological tensions between Gandhian approaches to integrating Dalits within Hinduism and Dr. B. R. Ambedkar's call for an independent struggle against caste and a challenge to Brahmanical authority.
+
+We have published [*The Ideological Nature of the Emerging Dalit Consciousness*](/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/), an article by A. M. A. Ayrookuzhiel published in *Religion and Society*, Vol. XXXVII, No. 3 (September 1990), pp. 14–23. The article examines the emergence of Dalit consciousness as an ideological and political response to caste oppression.
+
+### Royson's visit to CISRS and UTC {#roysons-visit}
+
+This month, V. Royson, a TSAP member, visited the Christian Institute for the Study of Religion and Society (CISRS) and the United Theological College (UTC). He co-ordinated with the authorities at both institutions and scanned several materials. This made previously inaccessible materials available to the project.
+
+### Book reviews {#book-reviews-aug}
+
+Using materials made available by the institutions, particularly CISRS, and scanned by Royson, we worked on the following book reviews this month:
+
+1. [*Sadhus of India (Book Review)*](/amaa/sadhus-of-india-book-review/), a review by A. M. A. Ayrookuzhiel of *Sadhus of India* by B. D. Tripathi, published by Popular Prakashan, Bombay, in 1978. The review appeared in *Religion and Society*, Vol. XXV, No. 4 (1978), pp. 88–89.
+2. [*Conversion and Social Equality in India (Book Review)*](/amaa/conversion-and-social-equality-in-india-book-review/), a review by A. M. A. Ayrookuzhiel of *Conversion and Social Equality in India: The London Missionary Society in South Travancore in the 19th Century* by Dick Kooiman, published by Manohar Publications, New Delhi, in 1989. The review appeared in *Religion and Society*, Vol. XXXVII, No. 3 (September 1990), pp. 72–73.
+3. [*Conversion, Competition and Conflict (Book Review)*](/amaa/conversion-competition-and-conflict-book-review/), a review by A. M. A. Ayrookuzhiel of *Conversion, Competition and Conflict: Essays on the Role of Religion in Asia*, edited by Dick Kooiman, Otto van der Muijzenberg, and Peter van der Veer, and published by Free University Press, Amsterdam, in 1984. The review appeared in *Religion and Society*, Vol. 32, No. 1 (1985), p. 85.
+4. [*Men and Gods in a Changing World (Book Review)*](/amaa/men-and-gods-in-a-changing-world-book-review/), a review by A. M. A. Ayrookuzhiel of *Men and Gods in a Changing World* by Judith M. Brown, published by SCM Press Ltd., London, in 1980. The review appeared in *Religion and Society*, Vol. 28, No. 1 (1981), pp. 78–79.
+
+**Writings not in Essays on Dalits, Religion and Liberation:** We have now created a [separate category](/category/writings-not-in-essays-on-dalits-religion-and-liberation/) to list and track works by A. M. A. Ayrookuzhiel that were not included in *Essays on Dalits, Religion and Liberation* (2006). The category serves as a tracking tool for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel on 29 November 2026, as the project works towards locating and documenting these writings. As of 15 August 2026, seven essay pages have been added to this category.
+
+### Raja Rammohun Roy National Agency for ISBN Registration {#isbn-registration}
+
+This month, we completed our registration with the [Raja Rammohun Roy National Agency for ISBN](https://isbn.gov.in/). The registration had been delayed on our side.
+
+The portal requires applicants to first create an account using an email address and password. During sign-up, applicants must select one of the available categories: Publisher, with the subcategories "Institutional" and "Commercial", or Author, with the subcategories "Author" and "Individual Author/IndividualPublisher other than author".
+
+According to the portal:
+
+> Institutional Publishers are those who publish books under some statutory authority and accordingly they do not have a PAN or Udyog Aadhaar Number Example: Publication Division of Government of India / Central/ States School board / NCERT /NBT/ Publications by Universities. Some proof of Identity of the Administrator will be required later in this application.
+
+The portal further states:
+
+> Commercial Publishers are those who sell their books under their brand name and they have their PAN or Udyog Aadhaar Number in the some of Publishing Agency or PAN in the name of the Administrator of Publishing Agency.
+
+We did not appear to be eligible for the Institutional Publisher category, while we also wanted to register as a project rather than under the Author category. We therefore initially signed up under the Commercial Publisher category.
+
+However, when we continued with the registration, we found that completing the application required documents such as company incorporation documents, GST registration, Udyam registration, or another government document carrying the name of the company. We did not have these documents.
+
+As part of the same registration process, we therefore changed the category to Individual Author/IndividualPublisher other than author. We initially entered the imprint name as "The Sunil Abraham Publishers". The application was rejected a few days later with the following email:
+
+> Dear The Sunil Abraham Project,
+>
+> This is to inform you that your ISBN account registration has been rejected due to the following reason/s.
+>
+> Name of administrator does not match with the documents..
+>
+> You may please login with the provided ID and password and re-register with correct details/documents.
+
+We understood the reason for the rejection: the documents we had submitted were Tito Dutta's Aadhaar and PAN, and neither document carried the name "The Sunil Abraham Project".
+
+We edited the application, changed the administrator name to "Tito Dutta", and resubmitted it. This time, we received the following response:
+
+> Dear Tito Dutta,
+>
+> Your registration is completed and approved. Please Login to submit further details of application.
+
+Our ISBN registration is therefore now complete under this arrangement. The next step will be to apply for an ISBN once the manuscript is complete. We will report further progress in the upcoming bulletins.
+
+### Unfinished Manuscript Works {#unfinished-manuscript-works-august}
+
+We continued work on the [*Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)*](/amaa/unfinished-manuscript/) this month, including [another remapping](/amaa/unfinished-manuscript/#mapping) of the manuscript's contents.
+
+Following this remapping, we worked on two chapters of the manuscript:
+
+1. [*Dalit Shrines (Kurava, Pulaya & Paraya)*](/amaa/dalit-shrines-kurava-pulaya-paraya/), which examines Dalit shrines among the Kurava, Pulaya, and Paraya communities in Kottarakara Taluk, Kollam District, including their origins, myths, ownership, objects of worship, offerings, and priesthood.
+2. [*Chapter 2, Devaswom Board Temples*](/amaa/chapter-2-devaswom-board-temples/), which discusses Devaswom Board temples, their history and administration, the opening of temples to Dalits and other backward castes, Panchayat and Trust Temples, and the ritual jurisdiction of temple priests.
 
 {% include navbox-amaa.html %}
 
