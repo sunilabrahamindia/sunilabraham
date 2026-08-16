@@ -334,7 +334,7 @@ As part of the same registration process, we therefore changed the category to I
 
 We understood the reason for the rejection: the documents we had submitted were Tito Dutta's Aadhaar and PAN, and neither document carried the name "The Sunil Abraham Project".
 
-We edited the application, changed the administrator name to "Tito Dutta", and resubmitted it. This time, we received the following response:
+We edited the application, changed the imprint name to "Tito Dutta", and resubmitted it. This time, we received the following response:
 
 > Dear Tito Dutta,
 >
