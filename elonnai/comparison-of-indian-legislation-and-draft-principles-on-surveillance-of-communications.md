@@ -409,7 +409,6 @@ homepage_featured: true
 </li>
 </ul>
 
-<p><em>The views and opinions expressed on this page are those of their individual authors. Unless the opposite is explicitly stated, or unless the opposite may be reasonably inferred, CIS does not subscribe to these views and opinions which belong to their individual authors. CIS does not accept any responsibility, legal or otherwise, for the views and opinions of these individual authors. For an official statement from CIS on a particular issue, please contact us directly.</em></p>
 
 <h3>Footnotes</h3>
 
