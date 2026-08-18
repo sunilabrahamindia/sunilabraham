@@ -11,6 +11,8 @@ created: 2026-08-18
 homepage_featured: true
 ---
 
+{% include under-construction.html %}
+
 **"A Comparison of Indian Legislation to Draft International Principles on Surveillance of Communications"** is a policy post by [Elonnai Hickok](/elonnai/) published by the [Centre for Internet and Society](/cis/) on 31 January 2013. It compares Indian legislation permitting governmental access to communications against the Draft International Principles on Surveillance of Communications, drafted as part of the SAFEGUARDS project undertaken with Privacy International and IDRC.
 
 ## Contents
