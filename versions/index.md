@@ -20,6 +20,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 5. [Version 2.2](#version-22)
 6. [Version 2.2.1](#version-221)
 7. [Version 2.2.2](#version-222)
+8. [Version 2.2.3](#version-223)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -178,5 +179,21 @@ Between 2 August and 8 August 2026, 20 new pages were published on The Sunil Abr
 
 **Status** ✅ Done  
 Completion date: 8 August 2026
+
+## Version 2.2.3
+
+Between 9 August and 15 August 2026
+
+- 25 new pages have been published on The Sunil Abraham Project.
+
+**Elonnai Hickok**
+- Continued documenting and archiving the works of [Elonnai Hickok](/elonnai/), including [*An Interview with Dr. Ann Cavoukian, Information and Privacy Commissioner, Ontario, Canada*](/elonnai/interview-with-anne-cavoukian/), [*Privacy Perspectives on the 2012–2013 Goa Beach Shack Policy*](/elonnai/privacy-perspectives-on-the-2012-2013-goa-beach-shack-policy/), and [*SCOSTA and UID Comparison Not Valid, Says Finance Committee*](/elonnai/scosta-uid-comparison-invalid/).
+
+**General Maintenance**
+- Carried out general fixes and maintenance, including removing the Utilities option from the Top Bar and restoring the first version of the Top Bar.
+- The Utility Toolbox has not yet been restored. Progress is being tracked in [GitHub Issue #16](https://github.com/sunilabrahamindia/sunilabraham/issues/16).
+
+**Status** ✅ Done  
+Completion date: 15 August 2026
 
 {% include versions.html %}
