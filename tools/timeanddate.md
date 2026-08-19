@@ -6,9 +6,13 @@ permalink: /tools/timeanddate/
 created: 2026-08-19
 ---
 
+<div id="tsaptz-intro">
+
 Convert a call or meeting time into any timezone. Enter a date and time and pick the timezone it belongs to; the tool shows the same instant in your own timezone (detected automatically from your browser) and in about twenty-five major cities worldwide.
 
 Daylight-saving changes are handled automatically using your browser's built-in timezone rules, so results stay correct even when the date falls on a different side of a DST change. You can also generate a shareable link that carries the date, time, timezone and an optional event name/location, so anyone who opens it immediately sees the time converted into their own timezone.
+
+</div>
 
 <section class="tsaptz" id="tsaptz-root" aria-label="Timezone converter">
 
@@ -18,101 +22,111 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     <p class="tsaptz-event-where" id="tsaptz-event-where"></p>
   </div>
 
-  <form class="tsaptz-form" id="tsaptz-form">
+  <div class="tsaptz-reveal-wrap" id="tsaptz-reveal-wrap" hidden>
+    <button type="button" class="tsaptz-btn tsaptz-btn-primary tsaptz-btn-reveal" id="tsaptz-reveal-converter" aria-expanded="false">
+      Use Time &amp; Date Converter
+    </button>
+  </div>
 
-    <fieldset class="tsaptz-fieldset">
-      <legend class="tsaptz-legend">Event details (optional)</legend>
+  <div class="tsaptz-form-wrap" id="tsaptz-form-wrap">
 
-      <div class="tsaptz-field">
-        <label for="tsaptz-what">What or topic</label>
-        <input type="text" id="tsaptz-what" name="what" maxlength="120"
-               placeholder="e.g. ResolveQ Meeting" autocomplete="off">
-      </div>
+    <form class="tsaptz-form" id="tsaptz-form">
 
-      <div class="tsaptz-field">
-        <label for="tsaptz-where">Where</label>
-        <input type="text" id="tsaptz-where" name="where" maxlength="200"
-               placeholder="e.g. https://meet.google.com/abc-defg-hij" autocomplete="off">
-      </div>
-    </fieldset>
+      <fieldset class="tsaptz-fieldset">
+        <legend class="tsaptz-legend" tabindex="-1">Event details (optional)</legend>
 
-    <fieldset class="tsaptz-fieldset">
-      <legend class="tsaptz-legend">Date</legend>
-      <div class="tsaptz-row tsaptz-row-date">
-        <div class="tsaptz-field tsaptz-field-narrow">
-          <label for="tsaptz-day">Day</label>
-          <select id="tsaptz-day" name="day"></select>
-        </div>
         <div class="tsaptz-field">
-          <label for="tsaptz-month">Month</label>
-          <select id="tsaptz-month" name="month">
-            <option value="1">January</option>
-            <option value="2">February</option>
-            <option value="3">March</option>
-            <option value="4">April</option>
-            <option value="5">May</option>
-            <option value="6">June</option>
-            <option value="7">July</option>
-            <option value="8">August</option>
-            <option value="9">September</option>
-            <option value="10">October</option>
-            <option value="11">November</option>
-            <option value="12">December</option>
-          </select>
+          <label for="tsaptz-what">What or topic</label>
+          <input type="text" id="tsaptz-what" name="what" maxlength="120"
+                 placeholder="e.g. ResolveQ Meeting" autocomplete="off">
         </div>
-        <div class="tsaptz-field tsaptz-field-narrow">
-          <label for="tsaptz-year">Year</label>
-          <select id="tsaptz-year" name="year"></select>
+
+        <div class="tsaptz-field">
+          <label for="tsaptz-where">Where</label>
+          <input type="text" id="tsaptz-where" name="where" maxlength="200"
+                 placeholder="e.g. https://meet.google.com/abc-defg-hij" autocomplete="off">
         </div>
+      </fieldset>
+
+      <fieldset class="tsaptz-fieldset">
+        <legend class="tsaptz-legend">Date</legend>
+        <div class="tsaptz-row tsaptz-row-date">
+          <div class="tsaptz-field tsaptz-field-narrow">
+            <label for="tsaptz-day">Day</label>
+            <select id="tsaptz-day" name="day"></select>
+          </div>
+          <div class="tsaptz-field">
+            <label for="tsaptz-month">Month</label>
+            <select id="tsaptz-month" name="month">
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </div>
+          <div class="tsaptz-field tsaptz-field-narrow">
+            <label for="tsaptz-year">Year</label>
+            <select id="tsaptz-year" name="year"></select>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="tsaptz-fieldset">
+        <legend class="tsaptz-legend">Time</legend>
+        <div class="tsaptz-row tsaptz-row-time">
+          <div class="tsaptz-field tsaptz-field-narrow">
+            <label for="tsaptz-hour">Hour</label>
+            <select id="tsaptz-hour" name="hour"></select>
+          </div>
+          <div class="tsaptz-field tsaptz-field-narrow">
+            <label for="tsaptz-minute">Minute</label>
+            <select id="tsaptz-minute" name="minute"></select>
+          </div>
+          <div class="tsaptz-field tsaptz-field-narrow">
+            <label for="tsaptz-ampm">AM/PM</label>
+            <select id="tsaptz-ampm" name="ampm">
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="tsaptz-fieldset">
+        <legend class="tsaptz-legend">Source timezone</legend>
+        <div class="tsaptz-field">
+          <label for="tsaptz-source-tz">This date/time is in</label>
+          <select id="tsaptz-source-tz" name="sourcetz"></select>
+        </div>
+      </fieldset>
+
+      <p class="tsaptz-error" id="tsaptz-error" role="alert" hidden></p>
+
+      <div class="tsaptz-actions">
+        <button type="submit" class="tsaptz-btn tsaptz-btn-primary" id="tsaptz-convert">Convert</button>
+        <button type="button" class="tsaptz-btn" id="tsaptz-share">Get shareable link</button>
       </div>
-    </fieldset>
 
-    <fieldset class="tsaptz-fieldset">
-      <legend class="tsaptz-legend">Time</legend>
-      <div class="tsaptz-row tsaptz-row-time">
-        <div class="tsaptz-field tsaptz-field-narrow">
-          <label for="tsaptz-hour">Hour</label>
-          <select id="tsaptz-hour" name="hour"></select>
+      <div class="tsaptz-share-box" id="tsaptz-share-box" hidden>
+        <label for="tsaptz-share-url">Shareable link</label>
+        <div class="tsaptz-share-row">
+          <input type="text" id="tsaptz-share-url" readonly>
+          <button type="button" class="tsaptz-btn" id="tsaptz-copy">Copy</button>
         </div>
-        <div class="tsaptz-field tsaptz-field-narrow">
-          <label for="tsaptz-minute">Minute</label>
-          <select id="tsaptz-minute" name="minute"></select>
-        </div>
-        <div class="tsaptz-field tsaptz-field-narrow">
-          <label for="tsaptz-ampm">AM/PM</label>
-          <select id="tsaptz-ampm" name="ampm">
-            <option value="AM">AM</option>
-            <option value="PM">PM</option>
-          </select>
-        </div>
+        <p class="tsaptz-share-note" id="tsaptz-copy-note" aria-live="polite"></p>
       </div>
-    </fieldset>
 
-    <fieldset class="tsaptz-fieldset">
-      <legend class="tsaptz-legend">Source timezone</legend>
-      <div class="tsaptz-field">
-        <label for="tsaptz-source-tz">This date/time is in</label>
-        <select id="tsaptz-source-tz" name="sourcetz"></select>
-      </div>
-    </fieldset>
+    </form>
 
-    <p class="tsaptz-error" id="tsaptz-error" role="alert" hidden></p>
-
-    <div class="tsaptz-actions">
-      <button type="submit" class="tsaptz-btn tsaptz-btn-primary" id="tsaptz-convert">Convert</button>
-      <button type="button" class="tsaptz-btn" id="tsaptz-share">Get shareable link</button>
-    </div>
-
-    <div class="tsaptz-share-box" id="tsaptz-share-box" hidden>
-      <label for="tsaptz-share-url">Shareable link</label>
-      <div class="tsaptz-share-row">
-        <input type="text" id="tsaptz-share-url" readonly>
-        <button type="button" class="tsaptz-btn" id="tsaptz-copy">Copy</button>
-      </div>
-      <p class="tsaptz-share-note" id="tsaptz-copy-note" aria-live="polite"></p>
-    </div>
-
-  </form>
+  </div>
 
   <div class="tsaptz-results" id="tsaptz-results" aria-live="polite">
     <p class="tsaptz-results-empty" id="tsaptz-results-empty">Choose a date, time and timezone above, then select Convert to see results here.</p>
@@ -168,6 +182,15 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
 .tsaptz-event-where a {
   word-break: break-all;
+}
+
+.tsaptz-reveal-wrap {
+  margin-bottom: 1.25rem;
+}
+
+.tsaptz-btn-reveal {
+  width: 100%;
+  max-width: 22rem;
 }
 
 .tsaptz-fieldset {
@@ -384,6 +407,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
   var els = {
     root: document.getElementById("tsaptz-root"),
+    intro: document.getElementById("tsaptz-intro"),
     form: document.getElementById("tsaptz-form"),
     what: document.getElementById("tsaptz-what"),
     where: document.getElementById("tsaptz-where"),
@@ -405,7 +429,10 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     eventBox: document.getElementById("tsaptz-event"),
     eventWhat: document.getElementById("tsaptz-event-what"),
     eventWhen: document.getElementById("tsaptz-event-when"),
-    eventWhere: document.getElementById("tsaptz-event-where")
+    eventWhere: document.getElementById("tsaptz-event-where"),
+    revealWrap: document.getElementById("tsaptz-reveal-wrap"),
+    revealBtn: document.getElementById("tsaptz-reveal-converter"),
+    formWrap: document.getElementById("tsaptz-form-wrap")
   };
 
   function pad(n) { return String(n).length < 2 ? "0" + n : String(n); }
@@ -453,54 +480,54 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     select.appendChild(frag);
   }
 
-function buildSourceTimezoneOptions() {
-  var frag = document.createDocumentFragment();
-  var groups = {};
-  var order = [];
+  function buildSourceTimezoneOptions() {
+    var frag = document.createDocumentFragment();
+    var groups = {};
+    var order = [];
 
-  CITIES.forEach(function (c) {
-    var key = c.country + "|" + c.timezone;
+    CITIES.forEach(function (c) {
+      var key = c.country + "|" + c.timezone;
 
-    if (!groups[key]) {
-      groups[key] = {
-        country: c.country,
-        timezone: c.timezone,
-        cities: []
-      };
-      order.push(key);
+      if (!groups[key]) {
+        groups[key] = {
+          country: c.country,
+          timezone: c.timezone,
+          cities: []
+        };
+        order.push(key);
+      }
+
+      groups[key].cities.push(c.name);
+    });
+
+    order.forEach(function (key) {
+      var group = groups[key];
+      var opt = document.createElement("option");
+
+      opt.value = group.timezone;
+
+      var countryLabel = group.country || "Global";
+      var cityLabel = group.cities.join(" / ");
+
+      opt.textContent = countryLabel + " \u2014 " + cityLabel;
+
+      frag.appendChild(opt);
+    });
+
+    els.sourceTz.appendChild(frag);
+
+    var visitorTz = getVisitorTimeZone();
+    var visitorAlreadyListed = order.some(function (key) {
+      return groups[key].timezone === visitorTz;
+    });
+
+    if (!visitorAlreadyListed) {
+      var own = document.createElement("option");
+      own.value = visitorTz;
+      own.textContent = "Your browser timezone \u2014 " + visitorTz;
+      els.sourceTz.insertBefore(own, els.sourceTz.firstChild);
     }
-
-    groups[key].cities.push(c.name);
-  });
-
-  order.forEach(function (key) {
-    var group = groups[key];
-    var opt = document.createElement("option");
-
-    opt.value = group.timezone;
-
-    var countryLabel = group.country || "Global";
-    var cityLabel = group.cities.join(" / ");
-
-    opt.textContent = countryLabel + " \u2014 " + cityLabel;
-
-    frag.appendChild(opt);
-  });
-
-  els.sourceTz.appendChild(frag);
-
-  var visitorTz = getVisitorTimeZone();
-  var visitorAlreadyListed = order.some(function (key) {
-    return groups[key].timezone === visitorTz;
-  });
-
-  if (!visitorAlreadyListed) {
-    var own = document.createElement("option");
-    own.value = visitorTz;
-    own.textContent = "Your browser timezone \u2014 " + visitorTz;
-    els.sourceTz.insertBefore(own, els.sourceTz.firstChild);
   }
-}
 
   function buildStaticSelects() {
     populateSelect(els.day, 1, 31);
@@ -889,6 +916,16 @@ function buildSourceTimezoneOptions() {
     return state;
   }
 
+  function revealConverter() {
+    if (els.intro) els.intro.hidden = false;
+    if (els.formWrap) els.formWrap.hidden = false;
+    if (els.revealWrap) els.revealWrap.hidden = true;
+    if (els.formWrap) {
+      var heading = els.formWrap.querySelector("legend");
+      if (heading) heading.focus && heading.focus();
+    }
+  }
+
   els.form.addEventListener("submit", function (e) {
     e.preventDefault();
     var state = doConvert();
@@ -932,6 +969,10 @@ function buildSourceTimezoneOptions() {
     }
   });
 
+  if (els.revealBtn) {
+    els.revealBtn.addEventListener("click", revealConverter);
+  }
+
   function init() {
     buildStaticSelects();
     var visitorTz = getVisitorTimeZone();
@@ -950,9 +991,16 @@ function buildSourceTimezoneOptions() {
       }
       renderResults(conversion.utcMs, urlState.timezone);
       renderEventBanner(urlState.what, urlState.where, conversion.utcMs, urlState.timezone);
+
+      if (els.intro) els.intro.hidden = true;
+      if (els.formWrap) els.formWrap.hidden = true;
+      if (els.revealWrap) els.revealWrap.hidden = false;
     } else {
       setDefaultsToNow(visitorTz);
       els.eventBox.hidden = true;
+      if (els.intro) els.intro.hidden = false;
+      if (els.formWrap) els.formWrap.hidden = false;
+      if (els.revealWrap) els.revealWrap.hidden = true;
     }
   }
 
