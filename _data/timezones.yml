@@ -1,0 +1,145 @@
+cities:
+  - name: Kolkata
+    country: India
+    region: Asia
+    timezone: Asia/Kolkata
+
+  - name: Delhi
+    country: India
+    region: Asia
+    timezone: Asia/Kolkata
+
+  - name: Mumbai
+    country: India
+    region: Asia
+    timezone: Asia/Kolkata
+
+  - name: Dhaka
+    country: Bangladesh
+    region: Asia
+    timezone: Asia/Dhaka
+
+  - name: Dubai
+    country: United Arab Emirates
+    region: Asia
+    timezone: Asia/Dubai
+
+  - name: Singapore
+    country: Singapore
+    region: Asia
+    timezone: Asia/Singapore
+
+  - name: Bangkok
+    country: Thailand
+    region: Asia
+    timezone: Asia/Bangkok
+
+  - name: Beijing
+    country: China
+    region: Asia
+    timezone: Asia/Shanghai
+
+  - name: Hong Kong
+    country: Hong Kong
+    region: Asia
+    timezone: Asia/Hong_Kong
+
+  - name: Tokyo
+    country: Japan
+    region: Asia
+    timezone: Asia/Tokyo
+
+  - name: Seoul
+    country: South Korea
+    region: Asia
+    timezone: Asia/Seoul
+
+  - name: London
+    country: United Kingdom
+    region: Europe
+    timezone: Europe/London
+
+  - name: Dublin
+    country: Ireland
+    region: Europe
+    timezone: Europe/Dublin
+
+  - name: Amsterdam
+    country: Netherlands
+    region: Europe
+    timezone: Europe/Amsterdam
+
+  - name: Paris
+    country: France
+    region: Europe
+    timezone: Europe/Paris
+
+  - name: Berlin
+    country: Germany
+    region: Europe
+    timezone: Europe/Berlin
+
+  - name: Zurich
+    country: Switzerland
+    region: Europe
+    timezone: Europe/Zurich
+
+  - name: Moscow
+    country: Russia
+    region: Europe
+    timezone: Europe/Moscow
+
+  - name: New York
+    country: United States
+    region: North America
+    timezone: America/New_York
+
+  - name: Washington, DC
+    country: United States
+    region: North America
+    timezone: America/New_York
+
+  - name: Chicago
+    country: United States
+    region: North America
+    timezone: America/Chicago
+
+  - name: Los Angeles
+    country: United States
+    region: North America
+    timezone: America/Los_Angeles
+
+  - name: Toronto
+    country: Canada
+    region: North America
+    timezone: America/Toronto
+
+  - name: Mexico City
+    country: Mexico
+    region: North America
+    timezone: America/Mexico_City
+
+  - name: São Paulo
+    country: Brazil
+    region: South America
+    timezone: America/Sao_Paulo
+
+  - name: Sydney
+    country: Australia
+    region: Oceania
+    timezone: Australia/Sydney
+
+  - name: Melbourne
+    country: Australia
+    region: Oceania
+    timezone: Australia/Melbourne
+
+  - name: Auckland
+    country: New Zealand
+    region: Oceania
+    timezone: Pacific/Auckland
+
+  - name: UTC
+    country: ""
+    region: Global
+    timezone: UTC
