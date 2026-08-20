@@ -1,5 +1,20 @@
 [
   {
+    "title": "Surveillance Camp IV: Disproportionate State Surveillance — A Violation of Privacy",
+    "description": "A February 2013 EFF Deeplinks post co-written by Katitza Rodriguez and Elonnai Hickok, the fourth in a series mapping global surveillance challenges discussed at EFF's State Surveillance and Human Rights Camp in Rio de Janeiro, examining state-mandated identity verification, encryption restrictions, and blanket interception mandates.",
+    "created": "2026-08-20",
+    "date": "2013-02-13",
+    "source": "Electronic Frontier Foundation",
+    "authors": [
+      "Katitza Rodriguez",
+      "Elonnai Hickok"
+    ],
+    "categories": [
+      "Elonnai Hickok"
+    ],
+    "permalink": "https://sunilabraham.in/elonnai/disproportionate-state-surveillance-a-violation-of-privacy/"
+  },
+  {
     "title": "Time & Date Converter",
     "description": "Convert a meeting or event time between timezones, including your own, with a shareable link.",
     "created": "2026-08-19",
