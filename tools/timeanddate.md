@@ -301,6 +301,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
   background: transparent;
   color: inherit;
   cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .tsaptz-btn-primary {
@@ -377,7 +378,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 .tsaptz-item-you {
   border-color: rgba(127, 127, 127, 0.6);
   border-left-width: 4px;
-  background: rgba(255, 214, 89, 0.12);
+  background: rgba(255, 214, 89, 0.32);
 }
 
 .tsaptz-you-badge {
@@ -427,6 +428,103 @@ Daylight-saving changes are handled automatically using your browser's built-in 
   .tsaptz-item-time {
     text-align: left;
   }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .tsaptz-event {
+  background: #1e293b !important;
+  border-color: var(--border-main, #374151) !important;
+  border-left-color: #38bdf8 !important;
+  color: var(--text-main, #e5e7eb) !important;
+}
+
+body.tsap-dark-mode .tsaptz-event-where a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .tsaptz-fieldset,
+body.tsap-dark-mode .tsaptz-share-box {
+  border-color: var(--border-main, #374151) !important;
+  background: rgba(30, 41, 59, 0.4) !important;
+}
+
+body.tsap-dark-mode .tsaptz-legend,
+body.tsap-dark-mode .tsaptz-field label,
+body.tsap-dark-mode .tsaptz-share-box label {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .tsaptz-field input[type="text"],
+body.tsap-dark-mode .tsaptz-field select,
+body.tsap-dark-mode .tsaptz-share-row input[type="text"] {
+  background: #1e293b !important;
+  border-color: var(--border-main, #374151) !important;
+  color: #f1f5f9 !important;
+}
+
+body.tsap-dark-mode .tsaptz-field input[type="text"]:focus,
+body.tsap-dark-mode .tsaptz-field select:focus,
+body.tsap-dark-mode .tsaptz-share-row input[type="text"]:focus {
+  border-color: #38bdf8 !important;
+  outline-color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .tsaptz-btn {
+  background: #1e293b !important;
+  border-color: var(--border-main, #4b5563) !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .tsaptz-btn:hover {
+  background: #334155 !important;
+  border-color: #64748b !important;
+}
+
+body.tsap-dark-mode .tsaptz-btn-primary {
+  background: #1e5fbf !important;
+  border-color: #1e5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode .tsaptz-btn-primary:hover {
+  background: #38bdf8 !important;
+  border-color: #38bdf8 !important;
+  color: #0f172a !important;
+}
+
+body.tsap-dark-mode .tsaptz-item {
+  border-color: var(--border-main, #374151) !important;
+  background: #1e293b !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .tsaptz-item-you {
+  background: #2a3424 !important;
+  border-color: #4d7c0f !important;
+  border-left-color: #a3e635 !important;
+}
+
+body.tsap-dark-mode .tsaptz-you-badge {
+  border-color: #a3e635 !important;
+  color: #a3e635 !important;
+}
+
+body.tsap-dark-mode .tsaptz-item-meta {
+  color: var(--text-muted, #94a3b8) !important;
+}
+
+body.tsap-dark-mode .tsaptz-item-daybadge {
+  border-color: #38bdf8 !important;
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .tsaptz-error {
+  background: rgba(179, 38, 30, 0.15) !important;
+  border-color: #f87171 !important;
+  color: #fca5a5 !important;
 }
 </style>
 
