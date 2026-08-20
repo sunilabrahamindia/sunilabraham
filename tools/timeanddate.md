@@ -23,9 +23,17 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     <p class="tsaptz-event-where" id="tsaptz-event-where"></p>
   </div>
 
+  <div class="tsaptz-results" id="tsaptz-results" aria-live="polite">
+    <p class="tsaptz-results-empty" id="tsaptz-results-empty">Choose a date, time and timezone above, then select Convert to see results here.</p>
+    <ul class="tsaptz-list" id="tsaptz-list" hidden></ul>
+  </div>
+
   <div class="tsaptz-reveal-wrap" id="tsaptz-reveal-wrap" hidden>
     <button type="button" class="tsaptz-btn tsaptz-btn-primary tsaptz-btn-reveal" id="tsaptz-reveal-converter" aria-expanded="false">
       Use Time &amp; Date Converter
+    </button>
+    <button type="button" class="tsaptz-btn tsaptz-btn-reveal" id="tsaptz-new-conversion">
+      Start a New Conversion
     </button>
   </div>
 
@@ -129,11 +137,6 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
   </div>
 
-  <div class="tsaptz-results" id="tsaptz-results" aria-live="polite">
-    <p class="tsaptz-results-empty" id="tsaptz-results-empty">Choose a date, time and timezone above, then select Convert to see results here.</p>
-    <ul class="tsaptz-list" id="tsaptz-list" hidden></ul>
-  </div>
-
 </section>
 
 <script>
@@ -186,11 +189,14 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 }
 
 .tsaptz-reveal-wrap {
-  margin-bottom: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.25rem 0;
 }
 
 .tsaptz-btn-reveal {
-  width: 100%;
+  flex: 1 1 14rem;
   max-width: 22rem;
 }
 
@@ -353,18 +359,26 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 }
 
 .tsaptz-item-you {
-  border-color: #2a4b8d;
-  border-left-width: 5px;
-  background: rgba(42, 75, 141, 0.08);
+  border-color: rgba(127, 127, 127, 0.6);
+  border-left-width: 4px;
+  background: rgba(255, 214, 89, 0.12);
+}
+
+.tsaptz-you-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
 }
 
 .tsaptz-item-name {
   font-weight: 600;
-}
-
-.tsaptz-item-you .tsaptz-item-name::before {
-  content: "Your timezone — ";
-  font-weight: 700;
 }
 
 .tsaptz-item-meta {
@@ -406,6 +420,18 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
   var CITIES = window.TSAP_TZ_CITIES || [];
 
+  var TZ_ALIASES = {
+    "asia/calcutta": "Asia/Kolkata",
+    "asia/katmandu": "Asia/Kathmandu",
+    "asia/saigon": "Asia/Ho_Chi_Minh",
+    "asia/rangoon": "Asia/Yangon",
+    "america/buenos_aires": "America/Argentina/Buenos_Aires",
+    "us/pacific": "America/Los_Angeles",
+    "us/eastern": "America/New_York",
+    "us/central": "America/Chicago",
+    "europe/kiev": "Europe/Kyiv"
+  };
+
   var els = {
     root: document.getElementById("tsaptz-root"),
     intro: document.getElementById("tsaptz-intro"),
@@ -433,14 +459,22 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     eventWhere: document.getElementById("tsaptz-event-where"),
     revealWrap: document.getElementById("tsaptz-reveal-wrap"),
     revealBtn: document.getElementById("tsaptz-reveal-converter"),
+    newBtn: document.getElementById("tsaptz-new-conversion"),
     formWrap: document.getElementById("tsaptz-form-wrap")
   };
 
   function pad(n) { return String(n).length < 2 ? "0" + n : String(n); }
 
+  function normaliseAlias(tz) {
+    if (!tz) return tz;
+    var lower = String(tz).toLowerCase();
+    return TZ_ALIASES[lower] || tz;
+  }
+
   function getVisitorTimeZone() {
     try {
       var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      tz = normaliseAlias(tz);
       if (tz && isValidTimeZone(tz)) return tz;
     } catch (e) {}
     return "UTC";
@@ -457,13 +491,14 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
   function findCanonicalTimeZone(input) {
     if (!input) return null;
-    var lower = String(input).toLowerCase();
+    var aliasResolved = normaliseAlias(input);
+    var lower = String(aliasResolved).toLowerCase();
     for (var i = 0; i < CITIES.length; i++) {
       if (CITIES[i].timezone.toLowerCase() === lower) return CITIES[i].timezone;
     }
     if (lower === "utc") return "UTC";
-    if (isValidTimeZone(input)) return input;
-    var attempt = input.replace(/(^|\/)([a-z])/g, function (m, sep, c) {
+    if (isValidTimeZone(aliasResolved)) return aliasResolved;
+    var attempt = aliasResolved.replace(/(^|\/)([a-z])/g, function (m, sep, c) {
       return sep + c.toUpperCase();
     });
     if (isValidTimeZone(attempt)) return attempt;
@@ -552,9 +587,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     els.hour.value = String(h12);
     els.minute.value = String(parts.minute);
     els.ampm.value = parts.hour >= 12 ? "PM" : "AM";
-    if (!els.sourceTz.value) {
-      els.sourceTz.value = tz;
-    }
+    els.sourceTz.value = tz;
   }
 
   /**
@@ -686,6 +719,12 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     return tz;
   }
 
+  function countryForTimeZone(tz) {
+    var group = CITIES.filter(function (c) { return c.timezone === tz; });
+    if (group.length && group[0].country) return group[0].country;
+    return "";
+  }
+
   function renderEventBanner(what, where, epochMs, sourceTzCanonical) {
     var hasWhat = what && what.trim().length > 0;
     var hasWhere = where && where.trim().length > 0;
@@ -760,6 +799,14 @@ Daylight-saving changes are handled automatically using your browser's built-in 
       li.className = "tsaptz-item" + (r.isYou ? " tsaptz-item-you" : "");
 
       var left = document.createElement("div");
+
+      if (r.isYou) {
+        var badgeText = document.createElement("span");
+        badgeText.className = "tsaptz-you-badge";
+        badgeText.textContent = "Your timezone";
+        left.appendChild(badgeText);
+      }
+
       var nameEl = document.createElement("span");
       nameEl.className = "tsaptz-item-name";
       nameEl.textContent = r.isYou ? labelForTimeZone(visitorTz) : r.label;
@@ -767,7 +814,8 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
       var metaEl = document.createElement("span");
       metaEl.className = "tsaptz-item-meta";
-      metaEl.textContent = (r.country ? r.country + " \u2013 " : "") + r.timezone;
+      var metaCountry = r.isYou ? countryForTimeZone(visitorTz) : r.country;
+      metaEl.textContent = (metaCountry ? metaCountry + " \u2013 " : "") + (r.isYou ? visitorTz : r.timezone);
       left.appendChild(metaEl);
 
       var right = document.createElement("div");
@@ -894,8 +942,8 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     els.minute.value = String(state.minute);
     els.ampm.value = state.hour24 >= 12 ? "PM" : "AM";
     els.sourceTz.value = state.timezone;
-    if (state.what) els.what.value = state.what;
-    if (state.where) els.where.value = state.where;
+    els.what.value = state.what || "";
+    els.where.value = state.where || "";
   }
 
   function doConvert() {
@@ -917,10 +965,46 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     return state;
   }
 
+  function showSharedMode() {
+    if (els.intro) els.intro.hidden = true;
+    if (els.formWrap) els.formWrap.hidden = true;
+    if (els.revealWrap) els.revealWrap.hidden = false;
+  }
+
+  function showNormalMode() {
+    if (els.intro) els.intro.hidden = false;
+    if (els.formWrap) els.formWrap.hidden = false;
+    if (els.revealWrap) els.revealWrap.hidden = true;
+  }
+
   function revealConverter() {
     if (els.intro) els.intro.hidden = false;
     if (els.formWrap) els.formWrap.hidden = false;
     if (els.revealWrap) els.revealWrap.hidden = true;
+    if (els.formWrap) {
+      var heading = els.formWrap.querySelector("legend");
+      if (heading) heading.focus && heading.focus();
+    }
+  }
+
+  function startNewConversion() {
+    els.what.value = "";
+    els.where.value = "";
+    els.eventBox.hidden = true;
+    els.shareBox.hidden = true;
+    clearError();
+
+    var visitorTz = getVisitorTimeZone();
+    setDefaultsToNow(visitorTz);
+
+    els.list.hidden = true;
+    els.resultsEmpty.hidden = false;
+    els.resultsEmpty.textContent = "Choose a date, time and timezone above, then select Convert to see results here.";
+
+    history.replaceState(null, "", window.location.pathname);
+
+    showNormalMode();
+
     if (els.formWrap) {
       var heading = els.formWrap.querySelector("legend");
       if (heading) heading.focus && heading.focus();
@@ -974,6 +1058,10 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     els.revealBtn.addEventListener("click", revealConverter);
   }
 
+  if (els.newBtn) {
+    els.newBtn.addEventListener("click", startNewConversion);
+  }
+
   function init() {
     buildStaticSelects();
     var visitorTz = getVisitorTimeZone();
@@ -992,16 +1080,11 @@ Daylight-saving changes are handled automatically using your browser's built-in 
       }
       renderResults(conversion.utcMs, urlState.timezone);
       renderEventBanner(urlState.what, urlState.where, conversion.utcMs, urlState.timezone);
-
-      if (els.intro) els.intro.hidden = true;
-      if (els.formWrap) els.formWrap.hidden = true;
-      if (els.revealWrap) els.revealWrap.hidden = false;
+      showSharedMode();
     } else {
       setDefaultsToNow(visitorTz);
       els.eventBox.hidden = true;
-      if (els.intro) els.intro.hidden = false;
-      if (els.formWrap) els.formWrap.hidden = false;
-      if (els.revealWrap) els.revealWrap.hidden = true;
+      showNormalMode();
     }
   }
 
