@@ -157,11 +157,6 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
 <style>
 /* ===== Scoped styles for the Time & Date converter (#tsaptz-root) ===== */
-/* Prefixed with .tsaptz to avoid touching site-wide elements. No resets,
-   no redefinition of body/html/headings/links. This stylesheet does not
-   touch the layout-rendered page <h1> — its text content is updated by
-   JavaScript, but no new heading element or global heading style is
-   introduced here. */
 
 .tsaptz [hidden] {
   display: none !important;
@@ -201,7 +196,13 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 .tsaptz-results-heading {
   font-size: 1.05rem;
   font-weight: 700;
-  margin: 0 0 0.75rem;
+  margin: 0.2rem 0 0.75rem;
+  outline: none;
+}
+
+.tsaptz-results-heading:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .tsaptz-result-actions {
@@ -709,11 +710,6 @@ body.tsap-dark-mode .tsaptz-error {
     els.sourceTz.value = tz;
   }
 
-  /**
-   * Get the wall-clock date/time parts that a given UTC instant
-   * corresponds to inside a given IANA timezone. Uses Intl so DST
-   * is resolved correctly for the specific date supplied.
-   */
   function getPartsInZone(date, timeZone) {
     var dtf = new Intl.DateTimeFormat("en-US", {
       timeZone: timeZone,
@@ -749,24 +745,6 @@ body.tsap-dark-mode .tsaptz-error {
     return (renderedAsUtc - utcMs) / 60000;
   }
 
-  /**
-   * Convert a wall-clock date/time anchored to a specific IANA timezone
-   * into the equivalent UTC instant (milliseconds since epoch).
-   *
-   * Approach: treat the requested wall-clock time as if it were UTC to get
-   * a first estimate of the offset, then iterate using the offset actually
-   * observed at that instant in the target zone. This converges correctly
-   * for standard offsets, half-hour/45-minute offsets (e.g. Asia/Kolkata,
-   * Asia/Kathmandu), and for dates on either side of a DST transition,
-   * because each iteration re-reads the offset that truly applies at the
-   * candidate instant rather than assuming a fixed offset.
-   *
-   * Ambiguous/non-existent local times (the hour skipped when clocks
-   * spring forward, or repeated when clocks fall back) are detected by
-   * comparing the offset before and after convergence; when they differ
-   * unexpectedly the result is flagged so the caller can warn the user
-   * instead of silently showing a misleading time.
-   */
   function zonedTimeToUtc(year, month, day, hour, minute, timeZone) {
     var naiveUtc = Date.UTC(year, month - 1, day, hour, minute, 0);
     var offset1 = offsetMinutesFor(naiveUtc, timeZone);
