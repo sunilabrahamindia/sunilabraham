@@ -6,7 +6,9 @@
     "date": null,
     "source": null,
     "authors": null,
-    "categories": null,
+    "categories": [
+      "Tools"
+    ],
     "permalink": "https://sunilabraham.in/tools/timeanddate/"
   },
   {
