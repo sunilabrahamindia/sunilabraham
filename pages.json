@@ -1,5 +1,18 @@
 [
   {
+    "title": "GitHub Multi-Account Identity and Authentication Incident (July–August 2026)",
+    "description": "Documentation of two GitHub multi-account authentication, Git identity, and commit attribution incidents involving two GitHub accounts on Tito Dutta's laptop.",
+    "created": "2026-08-21",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation",
+      "TSAP Incidents"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/github-multi-account-identity/"
+  },
+  {
     "title": "Surveillance Camp IV: Disproportionate State Surveillance — A Violation of Privacy",
     "description": "A February 2013 EFF Deeplinks post co-written by Katitza Rodriguez and Elonnai Hickok, the fourth in a series mapping global surveillance challenges discussed at EFF's State Surveillance and Human Rights Camp in Rio de Janeiro, examining state-mandated identity verification, encryption restrictions, and blanket interception mandates.",
     "created": "2026-08-20",
