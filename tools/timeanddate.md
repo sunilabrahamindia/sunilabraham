@@ -7,6 +7,8 @@ categories: [Tools]
 created: 2026-08-19
 ---
 
+<h1 id="tsaptz-page-heading" class="tsaptz-page-heading">Time &amp; Date Converter</h1>
+
 <div id="tsaptz-intro">
 
 Convert a call or meeting time into any timezone. Enter a date and time and pick the timezone it belongs to; the tool shows the same instant in your own timezone (detected automatically from your browser) and in about twenty-five major cities worldwide.
@@ -156,6 +158,10 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 /* ===== Scoped styles for the Time & Date converter (#tsaptz-root) ===== */
 /* Prefixed with .tsaptz to avoid touching site-wide elements. No resets,
    no redefinition of body/html/headings/links. */
+
+.tsaptz-page-heading {
+  margin: 0 0 0.75rem;
+}
 
 .tsaptz {
   max-width: 100%;
@@ -419,6 +425,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
   "use strict";
 
   var CITIES = window.TSAP_TZ_CITIES || [];
+  var DEFAULT_TITLE = document.title;
 
   var TZ_ALIASES = {
     "asia/calcutta": "Asia/Kolkata",
@@ -434,6 +441,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
   var els = {
     root: document.getElementById("tsaptz-root"),
+    pageHeading: document.getElementById("tsaptz-page-heading"),
     intro: document.getElementById("tsaptz-intro"),
     form: document.getElementById("tsaptz-form"),
     what: document.getElementById("tsaptz-what"),
@@ -725,6 +733,17 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     return "";
   }
 
+  function updatePageTitle(what) {
+    var trimmed = what && what.trim();
+    if (trimmed) {
+      document.title = trimmed;
+      if (els.pageHeading) els.pageHeading.textContent = trimmed;
+    } else {
+      document.title = DEFAULT_TITLE;
+      if (els.pageHeading) els.pageHeading.textContent = "Time & Date Converter";
+    }
+  }
+
   function renderEventBanner(what, where, epochMs, sourceTzCanonical) {
     var hasWhat = what && what.trim().length > 0;
     var hasWhere = where && where.trim().length > 0;
@@ -993,6 +1012,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     els.eventBox.hidden = true;
     els.shareBox.hidden = true;
     clearError();
+    updatePageTitle("");
 
     var visitorTz = getVisitorTimeZone();
     setDefaultsToNow(visitorTz);
@@ -1016,6 +1036,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     var state = doConvert();
     if (state) {
       renderEventBanner(els.what.value, els.where.value, state.epochMs, state.timezone);
+      updatePageTitle(els.what.value);
     }
   });
 
@@ -1033,6 +1054,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     els.copyNote.textContent = "";
     renderResults(state.epochMs, state.timezone);
     renderEventBanner(els.what.value, els.where.value, state.epochMs, state.timezone);
+    updatePageTitle(els.what.value);
     history.replaceState(null, "", "#" + hash);
   });
 
@@ -1080,10 +1102,12 @@ Daylight-saving changes are handled automatically using your browser's built-in 
       }
       renderResults(conversion.utcMs, urlState.timezone);
       renderEventBanner(urlState.what, urlState.where, conversion.utcMs, urlState.timezone);
+      updatePageTitle(urlState.what);
       showSharedMode();
     } else {
       setDefaultsToNow(visitorTz);
       els.eventBox.hidden = true;
+      updatePageTitle("");
       showNormalMode();
     }
   }
