@@ -7,8 +7,6 @@ categories: [Tools]
 created: 2026-08-19
 ---
 
-<h1 id="tsaptz-page-heading" class="tsaptz-page-heading">Time &amp; Date Converter</h1>
-
 <div id="tsaptz-intro">
 
 Convert a call or meeting time into any timezone. Enter a date and time and pick the timezone it belongs to; the tool shows the same instant in your own timezone (detected automatically from your browser) and in about twenty-five major cities worldwide.
@@ -19,22 +17,28 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
 <section class="tsaptz" id="tsaptz-root" aria-label="Timezone converter">
 
-  <div class="tsaptz-event" id="tsaptz-event" hidden>
-    <p class="tsaptz-event-what" id="tsaptz-event-what"></p>
-    <p class="tsaptz-event-when" id="tsaptz-event-when"></p>
-    <p class="tsaptz-event-where" id="tsaptz-event-where"></p>
+  <div class="tsaptz-result-view" id="tsaptz-result-view" hidden>
+
+    <div class="tsaptz-event" id="tsaptz-event" hidden>
+      <p class="tsaptz-event-what" id="tsaptz-event-what"></p>
+      <p class="tsaptz-event-when" id="tsaptz-event-when"></p>
+      <p class="tsaptz-event-where" id="tsaptz-event-where"></p>
+    </div>
+
+    <h2 class="tsaptz-results-heading" id="tsaptz-results-heading" tabindex="-1">Converted times</h2>
+
+    <div class="tsaptz-results" id="tsaptz-results" aria-live="polite">
+      <p class="tsaptz-results-empty" id="tsaptz-results-empty" hidden>Choose a date, time and timezone above, then select Convert to see results here.</p>
+      <ul class="tsaptz-list" id="tsaptz-list" hidden></ul>
+    </div>
+
   </div>
 
-  <div class="tsaptz-results" id="tsaptz-results" aria-live="polite">
-    <p class="tsaptz-results-empty" id="tsaptz-results-empty">Choose a date, time and timezone above, then select Convert to see results here.</p>
-    <ul class="tsaptz-list" id="tsaptz-list" hidden></ul>
-  </div>
-
-  <div class="tsaptz-reveal-wrap" id="tsaptz-reveal-wrap" hidden>
-    <button type="button" class="tsaptz-btn tsaptz-btn-primary tsaptz-btn-reveal" id="tsaptz-reveal-converter" aria-expanded="false">
+  <div class="tsaptz-result-actions" id="tsaptz-result-actions" hidden>
+    <button type="button" class="tsaptz-btn tsaptz-btn-primary" id="tsaptz-use-converter">
       Use Time &amp; Date Converter
     </button>
-    <button type="button" class="tsaptz-btn tsaptz-btn-reveal" id="tsaptz-new-conversion">
+    <button type="button" class="tsaptz-btn" id="tsaptz-new-conversion">
       Start a New Conversion
     </button>
   </div>
@@ -157,11 +161,10 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 <style>
 /* ===== Scoped styles for the Time & Date converter (#tsaptz-root) ===== */
 /* Prefixed with .tsaptz to avoid touching site-wide elements. No resets,
-   no redefinition of body/html/headings/links. */
-
-.tsaptz-page-heading {
-  margin: 0 0 0.75rem;
-}
+   no redefinition of body/html/headings/links. This stylesheet does not
+   touch the layout-rendered page <h1> — its text content is updated by
+   JavaScript, but no new heading element or global heading style is
+   introduced here. */
 
 .tsaptz {
   max-width: 100%;
@@ -194,14 +197,20 @@ Daylight-saving changes are handled automatically using your browser's built-in 
   word-break: break-all;
 }
 
-.tsaptz-reveal-wrap {
+.tsaptz-results-heading {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+}
+
+.tsaptz-result-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
   margin: 1.25rem 0;
 }
 
-.tsaptz-btn-reveal {
+.tsaptz-result-actions .tsaptz-btn {
   flex: 1 1 14rem;
   max-width: 22rem;
 }
@@ -425,7 +434,10 @@ Daylight-saving changes are handled automatically using your browser's built-in 
   "use strict";
 
   var CITIES = window.TSAP_TZ_CITIES || [];
-  var DEFAULT_TITLE = document.title;
+  var DEFAULT_TITLE_TEXT = "Time & Date Converter";
+  var DEFAULT_DOCUMENT_TITLE = document.title;
+
+  var pageHeadingEl = document.querySelector("#maincontent h1") || document.querySelector("main h1");
 
   var TZ_ALIASES = {
     "asia/calcutta": "Asia/Kolkata",
@@ -441,7 +453,6 @@ Daylight-saving changes are handled automatically using your browser's built-in 
 
   var els = {
     root: document.getElementById("tsaptz-root"),
-    pageHeading: document.getElementById("tsaptz-page-heading"),
     intro: document.getElementById("tsaptz-intro"),
     form: document.getElementById("tsaptz-form"),
     what: document.getElementById("tsaptz-what"),
@@ -465,10 +476,12 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     eventWhat: document.getElementById("tsaptz-event-what"),
     eventWhen: document.getElementById("tsaptz-event-when"),
     eventWhere: document.getElementById("tsaptz-event-where"),
-    revealWrap: document.getElementById("tsaptz-reveal-wrap"),
-    revealBtn: document.getElementById("tsaptz-reveal-converter"),
+    resultView: document.getElementById("tsaptz-result-view"),
+    resultActions: document.getElementById("tsaptz-result-actions"),
+    useConverterBtn: document.getElementById("tsaptz-use-converter"),
     newBtn: document.getElementById("tsaptz-new-conversion"),
-    formWrap: document.getElementById("tsaptz-form-wrap")
+    formWrap: document.getElementById("tsaptz-form-wrap"),
+    resultsHeading: document.getElementById("tsaptz-results-heading")
   };
 
   function pad(n) { return String(n).length < 2 ? "0" + n : String(n); }
@@ -733,15 +746,9 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     return "";
   }
 
-  function updatePageTitle(what) {
-    var trimmed = what && what.trim();
-    if (trimmed) {
-      document.title = trimmed;
-      if (els.pageHeading) els.pageHeading.textContent = trimmed;
-    } else {
-      document.title = DEFAULT_TITLE;
-      if (els.pageHeading) els.pageHeading.textContent = "Time & Date Converter";
-    }
+  function setPageHeading(text) {
+    if (pageHeadingEl) pageHeadingEl.textContent = text;
+    document.title = (text === DEFAULT_TITLE_TEXT) ? DEFAULT_DOCUMENT_TITLE : text;
   }
 
   function renderEventBanner(what, where, epochMs, sourceTzCanonical) {
@@ -965,14 +972,53 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     els.where.value = state.where || "";
   }
 
+  function focusElement(el) {
+    if (!el) return;
+    if (!el.hasAttribute("tabindex")) el.setAttribute("tabindex", "-1");
+    el.focus();
+  }
+
+  function enterResultView(epochMs, sourceTzCanonical, what, where) {
+    renderResults(epochMs, sourceTzCanonical);
+    renderEventBanner(what, where, epochMs, sourceTzCanonical);
+
+    var trimmedWhat = what && what.trim();
+    setPageHeading(trimmedWhat ? trimmedWhat : DEFAULT_TITLE_TEXT);
+
+    if (els.intro) els.intro.hidden = true;
+    if (els.formWrap) els.formWrap.hidden = true;
+    if (els.resultView) els.resultView.hidden = false;
+    if (els.resultActions) els.resultActions.hidden = false;
+
+    focusElement(els.resultsHeading || els.eventBox || els.list);
+  }
+
+  function enterFormView() {
+    if (els.intro) els.intro.hidden = false;
+    if (els.formWrap) els.formWrap.hidden = false;
+    if (els.resultView) els.resultView.hidden = true;
+    if (els.resultActions) els.resultActions.hidden = true;
+
+    setPageHeading(DEFAULT_TITLE_TEXT);
+
+    var heading = els.formWrap ? els.formWrap.querySelector("legend") : null;
+    focusElement(heading);
+  }
+
+  function revealConverterWithSharedData() {
+    if (els.intro) els.intro.hidden = false;
+    if (els.formWrap) els.formWrap.hidden = false;
+    if (els.resultActions) els.resultActions.hidden = true;
+
+    var heading = els.formWrap ? els.formWrap.querySelector("legend") : null;
+    focusElement(heading);
+  }
+
   function doConvert() {
     clearError();
     var state = readFormState();
     if (state.error) {
       showError(state.error);
-      els.list.hidden = true;
-      els.resultsEmpty.hidden = false;
-      els.resultsEmpty.textContent = "Please fix the highlighted issue above.";
       return null;
     }
     if (state.flag === "nonexistent") {
@@ -980,64 +1026,14 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     } else if (state.flag === "ambiguous") {
       showError("That local time occurs twice in this timezone on this date, because clocks move back for daylight saving at that point. Showing one of the two possible instants \u2014 please double-check the time.");
     }
-    renderResults(state.epochMs, state.timezone);
     return state;
-  }
-
-  function showSharedMode() {
-    if (els.intro) els.intro.hidden = true;
-    if (els.formWrap) els.formWrap.hidden = true;
-    if (els.revealWrap) els.revealWrap.hidden = false;
-  }
-
-  function showNormalMode() {
-    if (els.intro) els.intro.hidden = false;
-    if (els.formWrap) els.formWrap.hidden = false;
-    if (els.revealWrap) els.revealWrap.hidden = true;
-  }
-
-  function revealConverter() {
-    if (els.intro) els.intro.hidden = false;
-    if (els.formWrap) els.formWrap.hidden = false;
-    if (els.revealWrap) els.revealWrap.hidden = true;
-    if (els.formWrap) {
-      var heading = els.formWrap.querySelector("legend");
-      if (heading) heading.focus && heading.focus();
-    }
-  }
-
-  function startNewConversion() {
-    els.what.value = "";
-    els.where.value = "";
-    els.eventBox.hidden = true;
-    els.shareBox.hidden = true;
-    clearError();
-    updatePageTitle("");
-
-    var visitorTz = getVisitorTimeZone();
-    setDefaultsToNow(visitorTz);
-
-    els.list.hidden = true;
-    els.resultsEmpty.hidden = false;
-    els.resultsEmpty.textContent = "Choose a date, time and timezone above, then select Convert to see results here.";
-
-    history.replaceState(null, "", window.location.pathname);
-
-    showNormalMode();
-
-    if (els.formWrap) {
-      var heading = els.formWrap.querySelector("legend");
-      if (heading) heading.focus && heading.focus();
-    }
   }
 
   els.form.addEventListener("submit", function (e) {
     e.preventDefault();
     var state = doConvert();
-    if (state) {
-      renderEventBanner(els.what.value, els.where.value, state.epochMs, state.timezone);
-      updatePageTitle(els.what.value);
-    }
+    if (!state) return;
+    enterResultView(state.epochMs, state.timezone, els.what.value, els.where.value);
   });
 
   els.share.addEventListener("click", function () {
@@ -1052,9 +1048,6 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     els.shareUrl.value = url;
     els.shareBox.hidden = false;
     els.copyNote.textContent = "";
-    renderResults(state.epochMs, state.timezone);
-    renderEventBanner(els.what.value, els.where.value, state.epochMs, state.timezone);
-    updatePageTitle(els.what.value);
     history.replaceState(null, "", "#" + hash);
   });
 
@@ -1076,12 +1069,14 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     }
   });
 
-  if (els.revealBtn) {
-    els.revealBtn.addEventListener("click", revealConverter);
+  if (els.useConverterBtn) {
+    els.useConverterBtn.addEventListener("click", revealConverterWithSharedData);
   }
 
   if (els.newBtn) {
-    els.newBtn.addEventListener("click", startNewConversion);
+    els.newBtn.addEventListener("click", function () {
+      window.location.href = window.location.pathname;
+    });
   }
 
   function init() {
@@ -1100,15 +1095,11 @@ Daylight-saving changes are handled automatically using your browser's built-in 
       } else if (conversion.flag === "ambiguous") {
         showError("That local time occurs twice in this timezone on this date, because clocks move back for daylight saving at that point. Showing one of the two possible instants \u2014 please double-check the time.");
       }
-      renderResults(conversion.utcMs, urlState.timezone);
-      renderEventBanner(urlState.what, urlState.where, conversion.utcMs, urlState.timezone);
-      updatePageTitle(urlState.what);
-      showSharedMode();
+      enterResultView(conversion.utcMs, urlState.timezone, urlState.what, urlState.where);
     } else {
       setDefaultsToNow(visitorTz);
       els.eventBox.hidden = true;
-      updatePageTitle("");
-      showNormalMode();
+      enterFormView();
     }
   }
 
