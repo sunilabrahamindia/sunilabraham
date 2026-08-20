@@ -32,15 +32,12 @@ Daylight-saving changes are handled automatically using your browser's built-in 
       <ul class="tsaptz-list" id="tsaptz-list" hidden></ul>
     </div>
 
-  </div>
+    <div class="tsaptz-result-actions" id="tsaptz-result-actions">
+      <button type="button" class="tsaptz-btn tsaptz-btn-primary" id="tsaptz-new-conversion">
+        Start a New Conversion
+      </button>
+    </div>
 
-  <div class="tsaptz-result-actions" id="tsaptz-result-actions" hidden>
-    <button type="button" class="tsaptz-btn tsaptz-btn-primary" id="tsaptz-use-converter">
-      Use Time &amp; Date Converter
-    </button>
-    <button type="button" class="tsaptz-btn" id="tsaptz-new-conversion">
-      Start a New Conversion
-    </button>
   </div>
 
   <div class="tsaptz-form-wrap" id="tsaptz-form-wrap">
@@ -166,6 +163,10 @@ Daylight-saving changes are handled automatically using your browser's built-in 
    JavaScript, but no new heading element or global heading style is
    introduced here. */
 
+.tsaptz [hidden] {
+  display: none !important;
+}
+
 .tsaptz {
   max-width: 100%;
   margin: 1.5rem 0;
@@ -207,7 +208,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
-  margin: 1.25rem 0;
+  margin-top: 1.25rem;
 }
 
 .tsaptz-result-actions .tsaptz-btn {
@@ -478,7 +479,6 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     eventWhere: document.getElementById("tsaptz-event-where"),
     resultView: document.getElementById("tsaptz-result-view"),
     resultActions: document.getElementById("tsaptz-result-actions"),
-    useConverterBtn: document.getElementById("tsaptz-use-converter"),
     newBtn: document.getElementById("tsaptz-new-conversion"),
     formWrap: document.getElementById("tsaptz-form-wrap"),
     resultsHeading: document.getElementById("tsaptz-results-heading")
@@ -1002,15 +1002,6 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     setPageHeading(DEFAULT_TITLE_TEXT);
   }
 
-  function revealConverterWithSharedData() {
-    if (els.intro) els.intro.hidden = false;
-    if (els.formWrap) els.formWrap.hidden = false;
-    if (els.resultActions) els.resultActions.hidden = true;
-
-    var heading = els.formWrap ? els.formWrap.querySelector("legend") : null;
-    focusElement(heading);
-  }
-
   function doConvert() {
     clearError();
     var state = readFormState();
@@ -1070,10 +1061,6 @@ Daylight-saving changes are handled automatically using your browser's built-in 
       els.copyNote.textContent = "Could not copy automatically; please copy the text manually.";
     }
   });
-
-  if (els.useConverterBtn) {
-    els.useConverterBtn.addEventListener("click", revealConverterWithSharedData);
-  }
 
   if (els.newBtn) {
     els.newBtn.addEventListener("click", function () {
