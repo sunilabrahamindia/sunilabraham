@@ -1000,9 +1000,6 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     if (els.resultActions) els.resultActions.hidden = true;
 
     setPageHeading(DEFAULT_TITLE_TEXT);
-
-    var heading = els.formWrap ? els.formWrap.querySelector("legend") : null;
-    focusElement(heading);
   }
 
   function revealConverterWithSharedData() {
@@ -1033,6 +1030,11 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     e.preventDefault();
     var state = doConvert();
     if (!state) return;
+
+    var hash = buildShareHash(state, els.what.value, els.where.value);
+    var url = window.location.pathname + "#" + hash;
+    history.pushState({ tsaptzResult: true }, "", url);
+
     enterResultView(state.epochMs, state.timezone, els.what.value, els.where.value);
   });
 
@@ -1079,10 +1081,7 @@ Daylight-saving changes are handled automatically using your browser's built-in 
     });
   }
 
-  function init() {
-    buildStaticSelects();
-    var visitorTz = getVisitorTimeZone();
-
+  function loadFromCurrentHash() {
     var urlState = parseUrlHash();
     if (urlState) {
       applyStateToForm(urlState);
@@ -1097,10 +1096,20 @@ Daylight-saving changes are handled automatically using your browser's built-in 
       }
       enterResultView(conversion.utcMs, urlState.timezone, urlState.what, urlState.where);
     } else {
+      var visitorTz = getVisitorTimeZone();
       setDefaultsToNow(visitorTz);
       els.eventBox.hidden = true;
       enterFormView();
     }
+  }
+
+  window.addEventListener("popstate", function () {
+    loadFromCurrentHash();
+  });
+
+  function init() {
+    buildStaticSelects();
+    loadFromCurrentHash();
   }
 
   init();
