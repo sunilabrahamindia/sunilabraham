@@ -1,5 +1,20 @@
 [
   {
+    "title": "Draft Human DNA Profiling Bill (April 2012): High Level Concerns",
+    "description": "A March 2013 CIS post by Elonnai Hickok outlining high-level concerns with the April 2012 working draft of the Human DNA Profiling Bill, examining overreaching offence categories, weak access controls, inadequate consent provisions, and missing privacy safeguards, prepared under the SAFEGUARDS project.",
+    "created": "2026-08-22",
+    "date": "2013-03-12",
+    "source": "Centre for Internet and Society",
+    "authors": [
+      "Elonnai Hickok"
+    ],
+    "categories": [
+      "Centre for Internet and Society",
+      "Elonnai Hickok"
+    ],
+    "permalink": "https://sunilabraham.in/elonnai/draft-human-dna-profiling-bill-april-2012/"
+  },
+  {
     "title": "GitHub Multi-Account Identity and Authentication Incident (July–August 2026)",
     "description": "Documentation of two GitHub multi-account authentication, Git identity, and commit attribution incidents involving two GitHub accounts on Tito Dutta's laptop.",
     "created": "2026-08-21",
