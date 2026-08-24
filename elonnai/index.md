@@ -63,12 +63,14 @@ Hickok's research and policy work has focused on the relationship between techno
 
 Her work on emerging technologies has included questions concerning the competing interests and rights of individuals, governments and companies. She has contributed to international policy initiatives and presented on digital rights and emerging technologies in international forums.
 
+<!-- HIDING VIDEO FOR NOW WILL REPLACE WITH ANOTHER ONE 
 <figure class="elonnai-video">
   <div class="elonnai-video-frame">
     <iframe width="100%" height="480" src="https://www.youtube.com/embed/PQWi9hHHSpc" title="Privacy on The Internet in India — Elonnai Hickok and Sunil Abraham" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
  <figcaption>Privacy on The Internet in India — Elonnai Hickok and Sunil Abraham (2013)</figcaption>
 </figure>
+-->
 
 Hickok has also held research and consulting roles outside CIS and GNI. She was a non-resident scholar at the Carnegie Endowment for International Peace from September 2020 to December 2021, a policy consultant with Ludwig-Maximilians-Universität München from November 2020 to June 2022, and an independent expert with ArtEZ University of the Arts from February 2021 to September 2022.
 
