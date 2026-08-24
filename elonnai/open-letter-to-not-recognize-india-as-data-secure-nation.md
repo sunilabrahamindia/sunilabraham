@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-06-19
 source: "Centre for Internet and Society"
 permalink: /elonnai/open-letter-to-not-recognize-india-as-data-secure-nation/
+page_id: TSAP-1228
 created: 2026-08-23
 homepage_featured: true
 ---

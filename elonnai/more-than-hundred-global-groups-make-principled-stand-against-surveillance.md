@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2013-07-31
 source: "Centre for Internet and Society"
 permalink: /elonnai/more-than-hundred-global-groups-make-principled-stand-against-surveillance/
+page_id: TSAP-1227
 created: 2026-08-23
 homepage_featured: true
 ---

@@ -4,6 +4,7 @@ title: "Dalit Shrines (Kurava, Pulaya & Paraya)"
 categories: [A. M. A. Ayrookuzhiel, Unfinished Manuscript of A. M. A. Ayrookuzhiel]
 description: "A section on Dalit shrines among the Kurava, Pulaya and Paraya communities in Kottarakara Taluk, Kollam District, from the unfinished manuscript tentatively titled \"Dalits and Hindu Religious Identity\"."
 permalink: /amaa/dalit-shrines-kurava-pulaya-paraya/
+page_id: TSAP-1214
 created: 2026-08-14
 ---
 

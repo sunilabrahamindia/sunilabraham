@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2013-02-13
 source: "Electronic Frontier Foundation"
 permalink: /elonnai/disproportionate-state-surveillance-a-violation-of-privacy/
+page_id: TSAP-1223
 created: 2026-08-20
 homepage_featured: true
 ---

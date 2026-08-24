@@ -4,6 +4,7 @@ title: "Chapter 2, Devaswom Board Temples"
 categories: [A. M. A. Ayrookuzhiel, Unfinished Manuscript of A. M. A. Ayrookuzhiel]
 description: "Chapter 2, \"Devaswom Board Temples\", from the unfinished manuscript tentatively titled \"Dalits and Hindu Religious Identity\". This chapter discusses Devaswom temples, temple administration, Temple Entry Proclamation, Panchayat and Trust Temples, and the ritual jurisdiction of temple priests."
 permalink: /amaa/chapter-2-devaswom-board-temples/
+page_id: TSAP-1213
 created: 2026-08-14
 ---
 

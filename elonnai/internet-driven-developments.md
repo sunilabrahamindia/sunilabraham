@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2012-12-28
 source: "Centre for Internet and Society"
 permalink: /elonnai/internet-driven-developments/
+page_id: TSAP-1212
 created: 2026-08-13
 ---
 

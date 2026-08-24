@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-01-16
 source: "Centre for Internet and Society"
 permalink: /elonnai/draft-intl-principles-on-communications-surveillance-and-human-rights/
+page_id: TSAP-1218
 created: 2026-08-17
 homepage_featured: true
 ---

@@ -4,6 +4,7 @@ title: "GitHub Multi-Account Identity and Authentication Incident (July–August
 description: "Documentation of two GitHub multi-account authentication, Git identity, and commit attribution incidents involving two GitHub accounts on Tito Dutta's laptop."
 categories: [TSAP Documentation, TSAP Incidents]
 permalink: /tsap/github-multi-account-identity/
+page_id: TSAP-1224
 created: 2026-08-21
 ---
 

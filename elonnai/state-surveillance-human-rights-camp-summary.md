@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2012-12-31
 source: "Centre for Internet and Society"
 permalink: /elonnai/state-surveillance-human-rights-camp-summary/
+page_id: TSAP-1215
 created: 2026-08-15
 homepage_featured: true
 ---

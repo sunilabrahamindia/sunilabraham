@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-01-31
 source: "Centre for Internet and Society"
 permalink: /elonnai/comparison-of-indian-legislation-and-draft-principles-on-surveillance-of-communications/
+page_id: TSAP-1219
 created: 2026-08-18
 homepage_featured: true
 ---

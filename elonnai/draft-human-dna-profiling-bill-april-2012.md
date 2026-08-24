@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-03-12
 source: "Centre for Internet and Society"
 permalink: /elonnai/draft-human-dna-profiling-bill-april-2012/
+page_id: TSAP-1225
 created: 2026-08-22
 homepage_featured: true
 ---

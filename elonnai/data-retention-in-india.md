@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-01-30
 source: "Centre for Internet and Society"
 permalink: /elonnai/data-retention-in-india/
+page_id: TSAP-1217
 created: 2026-08-17
 homepage_featured: true
 ---

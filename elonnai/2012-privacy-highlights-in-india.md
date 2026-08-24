@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-02-12
 source: "Centre for Internet and Society"
 permalink: /elonnai/2012-privacy-highlights-in-india/
+page_id: TSAP-1220
 created: 2026-08-19
 homepage_featured: true
 ---
