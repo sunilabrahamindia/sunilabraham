@@ -3,7 +3,7 @@ layout: default
 title: "Versions Helper Tool"
 description: "A helper tool for generating version reports for The Sunil Abraham Project from any selected date range."
 permalink: /versions/helper/
-categories: [TSAP Tools, Versions]
+categories: [Project pages, Versions, TSAP Tools]
 page_id: TSAP-1232
 created: 2026-08-24
 ---
@@ -545,8 +545,6 @@ body.tsap-dark-mode .warning-msg {
   let cachedPages = null;
   let copyReadyText = '';
 
-  function pad(n) { return String(n).length < 2 ? '0' + n : String(n); }
-  
   function populateSelect(select, start, end) {
     const frag = document.createDocumentFragment();
     for (let i = start; i <= end; i++) {
@@ -619,8 +617,6 @@ body.tsap-dark-mode .warning-msg {
     toDay.value = String(toDate.getDate());
     toMonth.value = String(toDate.getMonth() + 1);
     toYear.value = String(toDate.getFullYear());
-
-    updateURL(fromDate, toDate);
   }
   
   function updateURL(fromDate, toDate) {
@@ -662,18 +658,32 @@ body.tsap-dark-mode .warning-msg {
       throw new Error('Could not load page index. Please refresh the page.');
     }
   }
+
+  async function fetchWithTimeout(url, timeoutMs = 8000) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const resp = await fetch(url, { signal: controller.signal });
+      clearTimeout(timer);
+      return resp;
+    } catch (err) {
+      clearTimeout(timer);
+      throw err;
+    }
+  }
   
   async function fetchCommits(since, until) {
     const commits = [];
     let page = 1;
     const perPage = 100;
+    const maxPages = 3;
     
-    while (true) {
+    while (page <= maxPages) {
       const url = `${GITHUB_API_BASE}/commits?since=${formatDateISO(since)}T00:00:00Z&until=${formatDateISO(until)}T23:59:59Z&per_page=${perPage}&page=${page}`;
-      const resp = await fetch(url);
+      const resp = await fetchWithTimeout(url);
       if (!resp.ok) {
-        if (resp.status === 403) throw new Error('GitHub API rate limit exceeded for commits.');
-        throw new Error(`GitHub API error ${resp.status} for commits.`);
+        if (resp.status === 403) throw new Error('GitHub API rate limit exceeded.');
+        throw new Error(`GitHub API error HTTP ${resp.status}`);
       }
       const data = await resp.json();
       if (!Array.isArray(data) || data.length === 0) break;
@@ -688,13 +698,14 @@ body.tsap-dark-mode .warning-msg {
     const issues = [];
     let page = 1;
     const perPage = 100;
+    const maxPages = 3;
     
-    while (true) {
+    while (page <= maxPages) {
       const url = `${GITHUB_API_BASE}/issues?state=all&since=${formatDateISO(since)}T00:00:00Z&until=${formatDateISO(until)}T23:59:59Z&per_page=${perPage}&page=${page}`;
-      const resp = await fetch(url);
+      const resp = await fetchWithTimeout(url);
       if (!resp.ok) {
-        if (resp.status === 403) throw new Error('GitHub API rate limit exceeded for issues.');
-        throw new Error(`GitHub API error ${resp.status} for issues.`);
+        if (resp.status === 403) throw new Error('GitHub API rate limit exceeded.');
+        throw new Error(`GitHub API error HTTP ${resp.status}`);
       }
       const data = await resp.json();
       if (!Array.isArray(data) || data.length === 0) break;
@@ -706,68 +717,39 @@ body.tsap-dark-mode .warning-msg {
   }
   
   async function fetchIssueComments(issueNumber, since, until) {
-    const comments = [];
-    let page = 1;
-    const perPage = 100;
-    
-    while (true) {
-      const url = `${GITHUB_API_BASE}/issues/${issueNumber}/comments?since=${formatDateISO(since)}T00:00:00Z&until=${formatDateISO(until)}T23:59:59Z&per_page=${perPage}&page=${page}`;
-      const resp = await fetch(url);
-      if (!resp.ok) {
-        if (resp.status === 403) return { error: 'rate_limit' };
-        return { error: `HTTP ${resp.status}` };
-      }
-      const data = await resp.json();
-      if (!Array.isArray(data) || data.length === 0) break;
-      comments.push(...data);
-      if (data.length < perPage) break;
-      page++;
+    const url = `${GITHUB_API_BASE}/issues/${issueNumber}/comments?since=${formatDateISO(since)}T00:00:00Z&until=${formatDateISO(until)}T23:59:59Z&per_page=100`;
+    const resp = await fetchWithTimeout(url);
+    if (!resp.ok) {
+      if (resp.status === 403) return { error: 'rate_limit' };
+      return { error: `HTTP ${resp.status}` };
     }
-    return comments;
+    const data = await resp.json();
+    return Array.isArray(data) ? data : [];
   }
   
-  async function fetchIssuesWithComments(since, until, allIssues) {
+  async function fetchIssuesWithComments(since, until, activeIssues) {
     const issuesWithComments = [];
     let rateLimitHit = false;
+
+    // Filter to issues updated within range to avoid scanning entire repo history
+    const candidates = activeIssues.filter(i => {
+      const updated = new Date(i.updated_at || i.created_at);
+      return isInDateRange(updated, since, until) && (i.comments > 0);
+    }).slice(0, 15);
     
-    for (const issue of allIssues) {
-      if (rateLimitHit) {
-        issuesWithComments.push({
-          issue,
-          comments: [],
-          error: 'Rate limit hit'
-        });
-        continue;
-      }
+    for (const issue of candidates) {
+      if (rateLimitHit) break;
       
       try {
         const comments = await fetchIssueComments(issue.number, since, until);
         if (comments.error === 'rate_limit') {
           rateLimitHit = true;
-          issuesWithComments.push({
-            issue,
-            comments: [],
-            error: 'Rate limit hit'
-          });
-        } else if (comments.error) {
-          issuesWithComments.push({
-            issue,
-            comments: [],
-            error: comments.error
-          });
-        } else if (comments.length > 0) {
-          issuesWithComments.push({
-            issue,
-            comments,
-            error: null
-          });
+        } else if (Array.isArray(comments) && comments.length > 0) {
+          issuesWithComments.push({ issue, comments });
         }
       } catch (err) {
-        issuesWithComments.push({
-          issue,
-          comments: [],
-          error: err.message
-        });
+        rateLimitHit = true;
+        break;
       }
     }
     
@@ -802,7 +784,7 @@ body.tsap-dark-mode .warning-msg {
     return groups;
   }
   
-  function renderReport(pages, commits, issuesCreated, issuesWithCommentsData, from, to) {
+  function renderReport(pages, commitsData, issuesCreatedData, issuesWithCommentsData, from, to) {
     const fromDayName = getDayName(from);
     const toDayName = getDayName(to);
     const fromStr = formatDateDMY(from);
@@ -857,29 +839,42 @@ body.tsap-dark-mode .warning-msg {
     
     html += `<div class="report-section">`;
     html += `<h3>Git activity</h3>`;
-    html += `<p><strong>${commits.length} commit${commits.length !== 1 ? 's' : ''}</strong> were made during this period.</p>`;
+    if (commitsData.error) {
+      html += `<p class="warning-msg">Git commit data unavailable (${commitsData.error}).</p>`;
+    } else {
+      const commits = commitsData.commits || [];
+      html += `<p><strong>${commits.length} commit${commits.length !== 1 ? 's' : ''}</strong> were made during this period.</p>`;
+    }
     html += `</div>`;
     
     html += `<div class="report-section">`;
     html += `<h3>GitHub issues created</h3>`;
-    if (issuesCreated.length === 0) {
-      html += `<p class="warning-msg">No issues were created during this period.</p>`;
+    if (issuesCreatedData.error) {
+      html += `<p class="warning-msg">GitHub Issues data unavailable (${issuesCreatedData.error}).</p>`;
     } else {
-      html += `<ul class="issue-list">`;
-      const sortedIssues = [...issuesCreated].sort((a, b) => a.created_at.localeCompare(b.created_at));
-      for (const issue of sortedIssues) {
-        const d = new Date(issue.created_at);
-        const createdStr = formatDateDMY(d);
-        html += `<li>#${issue.number} <a href="${issue.html_url}">${issue.title}</a>, created on ${createdStr}</li>`;
+      const issuesCreated = (issuesCreatedData.issues || []).filter(i => {
+        const created = new Date(i.created_at);
+        return isInDateRange(created, from, to);
+      });
+      if (issuesCreated.length === 0) {
+        html += `<p class="warning-msg">No issues were created during this period.</p>`;
+      } else {
+        html += `<ul class="issue-list">`;
+        const sortedIssues = [...issuesCreated].sort((a, b) => a.created_at.localeCompare(b.created_at));
+        for (const issue of sortedIssues) {
+          const d = new Date(issue.created_at);
+          const createdStr = formatDateDMY(d);
+          html += `<li>#${issue.number} <a href="${issue.html_url}" rel="noopener noreferrer">${issue.title}</a>, created on ${createdStr}</li>`;
+        }
+        html += `</ul>`;
       }
-      html += `</ul>`;
     }
     html += `</div>`;
     
     html += `<div class="report-section">`;
     html += `<h3>GitHub issues with new comments</h3>`;
     const { issuesWithComments, rateLimitHit } = issuesWithCommentsData;
-    const issuesWithNewComments = issuesWithComments.filter(i => i.comments && i.comments.length > 0);
+    const issuesWithNewComments = issuesWithComments || [];
     
     if (issuesWithNewComments.length === 0) {
       html += `<p class="warning-msg">No existing issues received new comments during this period.</p>`;
@@ -891,13 +886,13 @@ body.tsap-dark-mode .warning-msg {
         const firstComment = comments[0];
         const d = new Date(firstComment.created_at);
         const commentStr = formatDateDMY(d);
-        html += `<li>#${issue.number} <a href="${issue.html_url}">${issue.title}</a>, ${comments.length} new comment${comments.length !== 1 ? 's' : ''} (first on ${commentStr})</li>`;
+        html += `<li>#${issue.number} <a href="${issue.html_url}" rel="noopener noreferrer">${issue.title}</a>, ${comments.length} new comment${comments.length !== 1 ? 's' : ''} (first on ${commentStr})</li>`;
       }
       html += `</ul>`;
     }
     
     if (rateLimitHit) {
-      html += `<p class="warning-msg">Note: GitHub API rate limit was reached. Some issue comment data may be incomplete.</p>`;
+      html += `<p class="warning-msg">Note: GitHub API comment query limit reached. Some issue comment entries may be truncated.</p>`;
     }
     html += `</div>`;
     
@@ -919,14 +914,24 @@ body.tsap-dark-mode .warning-msg {
       copyTextContent += '\n';
     }
     
-    copyTextContent += `**Git activity:** ${commits.length} commit${commits.length !== 1 ? 's' : ''}.\n\n`;
-    copyTextContent += `**GitHub issues created:** ${issuesCreated.length}.\n`;
-    if (issuesCreated.length > 0) {
-      const sortedIssues = [...issuesCreated].sort((a, b) => a.created_at.localeCompare(b.created_at));
-      for (const issue of sortedIssues) {
-        const d = new Date(issue.created_at);
-        const createdStr = formatDateDMY(d);
-        copyTextContent += `* #${issue.number} [${issue.title}](${issue.html_url}), created on ${createdStr}\n`;
+    if (!commitsData.error) {
+      const commits = commitsData.commits || [];
+      copyTextContent += `**Git activity:** ${commits.length} commit${commits.length !== 1 ? 's' : ''}.\n\n`;
+    }
+    
+    if (!issuesCreatedData.error) {
+      const issuesCreated = (issuesCreatedData.issues || []).filter(i => {
+        const created = new Date(i.created_at);
+        return isInDateRange(created, from, to);
+      });
+      copyTextContent += `**GitHub issues created:** ${issuesCreated.length}.\n`;
+      if (issuesCreated.length > 0) {
+        const sortedIssues = [...issuesCreated].sort((a, b) => a.created_at.localeCompare(b.created_at));
+        for (const issue of sortedIssues) {
+          const d = new Date(issue.created_at);
+          const createdStr = formatDateDMY(d);
+          copyTextContent += `* #${issue.number} [${issue.title}](${issue.html_url}), created on ${createdStr}\n`;
+        }
       }
     }
     
@@ -966,45 +971,32 @@ body.tsap-dark-mode .warning-msg {
       const pages = await fetchPages();
       const filteredPages = filterPagesByDate(pages, from, to);
       
-      let commits = [];
-      let commitsError = null;
+      let commitsData = { commits: [], error: null };
       try {
-        commits = await fetchCommits(from, to);
+        const commits = await fetchCommits(from, to);
+        commitsData.commits = commits;
       } catch (err) {
-        commitsError = err.message;
+        commitsData.error = err.message || 'Error loading commits';
       }
       
-      let issuesCreated = [];
-      let issuesCreatedError = null;
+      let issuesCreatedData = { issues: [], error: null };
       try {
-        issuesCreated = await fetchIssues(from, to);
+        const issues = await fetchIssues(from, to);
+        issuesCreatedData.issues = issues;
       } catch (err) {
-        issuesCreatedError = err.message;
+        issuesCreatedData.error = err.message || 'Error loading issues';
       }
       
       let issuesWithCommentsData = { issuesWithComments: [], rateLimitHit: false };
-      try {
-        const allIssuesForComments = await fetchIssues(new Date(from.getTime() - 30 * 24 * 60 * 60 * 1000), to);
-        issuesWithCommentsData = await fetchIssuesWithComments(from, to, allIssuesForComments);
-      } catch (err) {
-        issuesWithCommentsData = { issuesWithComments: [], rateLimitHit: true };
+      if (!issuesCreatedData.error && issuesCreatedData.issues.length > 0) {
+        try {
+          issuesWithCommentsData = await fetchIssuesWithComments(from, to, issuesCreatedData.issues);
+        } catch (err) {
+          issuesWithCommentsData = { issuesWithComments: [], rateLimitHit: true };
+        }
       }
       
-      renderReport(filteredPages, commits, issuesCreated, issuesWithCommentsData, from, to);
-      
-      if (commitsError) {
-        const warning = document.createElement('p');
-        warning.className = 'warning-msg';
-        warning.textContent = `Note: ${commitsError}`;
-        reportOutput.insertBefore(warning, reportOutput.firstChild);
-      }
-      
-      if (issuesCreatedError) {
-        const warning = document.createElement('p');
-        warning.className = 'warning-msg';
-        warning.textContent = `Note: ${issuesCreatedError}`;
-        reportOutput.insertBefore(warning, reportOutput.firstChild);
-      }
+      renderReport(filteredPages, commitsData, issuesCreatedData, issuesWithCommentsData, from, to);
       
     } catch (err) {
       reportOutput.innerHTML = `<p class="error-msg">Error: ${err.message}</p>`;
@@ -1060,6 +1052,7 @@ body.tsap-dark-mode .warning-msg {
     const to = new Date(toParam + 'T00:00:00');
     if (!isNaN(from.getTime()) && !isNaN(to.getTime())) {
       setDates(from, to);
+      generateReport();
     } else {
       const { from: f, to: t } = getPreviousSundaySaturday();
       setDates(f, t);
