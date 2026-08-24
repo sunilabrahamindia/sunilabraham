@@ -1,5 +1,17 @@
 [
   {
+    "title": "Does TSAP Use a Wiki Engine?",
+    "description": "An explanation of how TSAP is built without a conventional wiki engine, and how Jekyll, Markdown, YAML, Git, GitHub, and custom TSAP scripts provide many wiki-like capabilities.",
+    "created": "2026-08-24",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/wiki-engine/"
+  },
+  {
     "title": "Open Letter to \"Not\" Recognize India as Data Secure Nation till Enactment of Privacy Legislation",
     "description": "A June 2013 CIS open letter by Elonnai Hickok urging European Data Protection Commissioners not to recognise India as a data secure nation until it enacts comprehensive privacy legislation, prepared under the SAFEGUARDS project.",
     "created": "2026-08-23",
