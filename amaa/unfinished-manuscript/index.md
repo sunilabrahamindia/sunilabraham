@@ -24,6 +24,7 @@ This working document brings together available manuscript material, related wri
 1. [Task List](#tasks)
 2. [Source Document](#source)
 3. [Mapping](#mapping)
+4. [22 August 2026 Meeting](#22-august-2026-meeting)
 
 ## Task List {#tasks}
 
@@ -107,6 +108,12 @@ This mapping follows the source document described above. Page numbers mentioned
 - Pages 100–106: *Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective*. This essay may be read [here](/amaa/religious-legitimation-delegitimations-social-relations-power/).
 - Pages 106–114: *Chinna Pulayan: The Dalit Teacher of Sankaracharya*. This is another entry for the *Chinna Pulayan* essay. Please see the entry for Pages 51–67 above.
 - Pages 114–115: *Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS*. Please read [here](/amaa/indian-religious-heritage-social-transformation/).
+
+## 22 August 2026 Meeting
+
+{% include main-article.html link="/amaa/unfinished-manuscript-meeting-2026-08-22/" title="22 August 2026 Meeting: Methodology and Vision for the Unfinished Manuscript" %}
+
+The meeting records discussions about the proposed methodology, reconstruction process and possible future development of the unfinished manuscript project.
 
 {% include navbox-amaa.html %}
 
