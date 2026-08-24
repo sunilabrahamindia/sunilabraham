@@ -1,0 +1,189 @@
+---
+layout: default
+title: "22 August 2026 Meeting: Methodology and Vision for the Unfinished Manuscript"
+description: "Documentation of the 22 August 2026 meeting in which Sunil Abraham discussed the methodology, reconstruction process and broader vision for the unfinished manuscript of A. M. A. Ayrookuzhiel."
+categories: [A. M. A. Ayrookuzhiel, Books by A. M. A. Ayrookuzhiel, Unfinished Manuscript of A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
+permalink: /amaa/unfinished-manuscript-meeting-2026-08-22/
+created: 2026-08-24
+---
+
+{% include under-construction.html %}
+
+**22 August 2026 Meeting: Methodology and Vision for the Unfinished Manuscript** documents a discussion held on Google Meet on 22 August 2026, during which Sunil Abraham further explained the methodology, proposed process and broader vision for the reconstruction of the unfinished manuscript of [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/).
+
+The meeting was held as part of the preparations for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel. The discussion clarified that the existing 115-page source document should not itself be treated as the unfinished manuscript. Rather, it is source material containing fragments, essays and other documents that will need to be studied, mapped, verified and reconstructed.
+
+**Disclaimer:** This page documents planning discussions and ideas recorded during the 22 August 2026 meeting. It **is not** a final plan or definitive statement of the methodology for reconstructing the unfinished manuscript. The proposed approach may change as the project develops, and some areas may require further clarification, improvement or revision. This page is maintained for ongoing documentation purposes and should be understood as a record of the planning process rather than a finalised project plan.
+
+## Contents
+
+1. [Purpose of the Meeting](#purpose)
+2. [The Source Material and the Manuscript](#source-and-manuscript)
+3. [Proposed Methodology](#proposed-methodology)
+4. [Analysis and Reconstruction](#analysis)
+5. [Proposed Structure](#proposed-structure)
+6. [Review and Development](#review)
+7. [The 2026 Research Context](#2026-context)
+8. [Broader Vision](#broader-vision)
+9. [Possible Action Points](#possible-action-points)
+10. [Status of the Project](#status-project)
+
+## Purpose of the Meeting {#purpose}
+
+Sunil Abraham described the unfinished manuscript project as one of the most important TSAP projects connected with the 30th anniversary programme. At this stage, the [material being made available](/amaa/unfinished-manuscript/) is not intended to be presented as a completed or high-quality reconstruction of the manuscript. Instead, the documentation is intended in part to make the methodology visible and to solicit feedback on the proposed approach.
+
+## The Source Material and the Manuscript {#source-and-manuscript}
+
+The discussion clarified an important distinction between the [physical source document](/amaa/unfinished-manuscript/#top) and the unfinished manuscript.
+
+The fact that the surviving material had previously been assembled and bound together does not mean that the resulting 115-page document represents the manuscript in that form. The current source document contains different essays, sections and fragments, some of which have already been documented or published elsewhere. The reconstruction project therefore needs to determine how these materials relate to the proposed unfinished manuscript.
+
+## Proposed Methodology {#proposed-methodology}
+
+Sunil described a methodology based on detailed documentation and collection of contemporary evidence from the relevant geographical area.
+
+The proposed research would focus on Kottarakkara Taluk, Kollam district, Kerala, rather than attempting to cover the much larger district. The intention is not to use sampling, but to document the relevant religious landscape as comprehensively as possible.
+
+The proposed documentation would include:
+
+- places of worship;
+- objects of worship;
+- forms and types of worship;
+- religious functionaries and their roles;
+- festivals;
+- photographs;
+- video recordings;
+- audio recordings of forms and types of worship;
+- geographical and GPS information; and
+- other forms of structured documentation and data.
+
+Sunil proposed that 10 researchers work for at least 10 months to collect this material, creating a substantial body of contemporary information.
+
+## Analysis and Reconstruction {#analysis}
+
+The proposed methodology involves bringing together three principal bodies of material:
+
+1. the surviving fragments of the unfinished manuscript;
+2. the corpus of writings and books by A. M. A. Ayrookuzhiel; and
+3. the contemporary material collected by the researchers.
+
+The surviving fragments would be examined carefully to identify missing material and determine whether the fragments are complete. Sunil also proposed using an LLM together with the corpus of A. M. A. Ayrookuzhiel's writings and the newly collected research material as part of the process of completing the manuscript.
+
+The proposed analysis would examine relationships between Dalit and upper-caste religious practices, including common and exclusive temples, gods, rituals and other forms of religious participation.
+
+## Proposed Structure {#proposed-structure}
+
+Sunil suggested that the methodological categories could also provide the basis for chapters of the reconstructed work. The discussion referred to the possibility of developing new chapters from the analytical categories identified in the methodology.
+
+Some aspects of the methodology were considered potentially controversial, particularly questions concerning religious and non-religious functionaries and caste participation. Sunil suggested that these areas might be left out of a first version and considered for a later edition, with the caste-related analysis potentially forming part of a subsequent edition.
+
+This was discussed as a possible approach rather than as a final editorial decision.
+
+## Review and Development {#review}
+
+The proposed process extends beyond the initial collection and reconstruction of the material.
+
+Sunil described a possible first year in which the initial manuscript would be developed, followed by a second year devoted to polishing and reviewing it. The draft could be presented to different scholars and other readers for discussion and feedback.
+
+The discussion also considered regular meetings with the researchers during the research period. Sunil proposed that the 10 researchers could meet with the project team each month for a half-day online meeting, potentially involving scholars from CISRS and other locations. The meetings could include focused, editathon-like sessions for developing the proposed chapters.
+
+When incorporating feedback, Sunil emphasised the importance of considering the perspective of A. M. A. Ayrookuzhiel as the primary author and asking whether a proposed change would be consistent with how he might have approached the subject.
+
+## The 2026 Research Context {#2026-context}
+
+An important aspect of the discussion was the possibility that contemporary research could reveal differences between the assumptions visible in the surviving fragments and the religious situation found in 2026.
+
+Sunil suggested that the research might reveal greater overlap or "mainstreaming" between Dalit and upper-caste religious practices than may have been anticipated when the original material was written. The research could therefore provide evidence for different possible conclusions, depending on what the surviving fragments and contemporary documentation establish.
+
+These possibilities remain hypotheses to be tested through the research and are not conclusions of the reconstruction project.
+
+## Broader Vision {#broader-vision}
+
+Beyond the reconstruction of the manuscript itself, Sunil described a broader vision of comprehensive documentation of religious and cultural life.
+
+The proposed project would preserve information through multiple forms, including text, audio, video, images, maps and databases. The aim would be not only to document what exists, but also to preserve a record that can be used to understand how religious and cultural practices evolve.
+
+This broader vision forms part of the context in which the methodology for the unfinished manuscript was discussed.
+
+## Possible Action Points {#possible-action-points}
+
+<div class="manuscript-action-points">
+  <p><strong>Tentative:</strong> The following possible action points are derived from the planning discussion of 22 August 2026. They are not approved or final decisions and may be revised, expanded or removed as the project develops.</p>
+
+  <ul>
+    <li><strong>Before the 30th anniversary:</strong> Develop and document the proposed methodology for the unfinished manuscript project, rather than attempting to complete the reconstruction at this stage.</li>
+    <li><strong>Research period — at least 10 months:</strong> Consider engaging 10 researchers to comprehensively document religious life in Kottarakkara Taluk, including places of worship, objects, forms and types of worship, religious functionaries, festivals and related material.</li>
+    <li><strong>During the research period:</strong> Collect photographs, video, audio, maps, GPS information and other structured data alongside textual documentation.</li>
+    <li><strong>During the research period:</strong> Examine and verify the surviving manuscript fragments, including identifying missing or incomplete material.</li>
+    <li><strong>During the research period:</strong> Hold possible monthly half-day online meetings with the researchers, potentially involving scholars from CISRS and other locations, including focused sessions for developing the proposed chapters.</li>
+    <li><strong>First year:</strong> Aim, if the proposed methodology is adopted, to develop an initial version of the reconstructed manuscript.</li>
+    <li><strong>Second year:</strong> Consider a period of polishing, discussion and review, including presenting the draft to scholars and other readers and incorporating appropriate feedback.</li>
+    <li><strong>Later editions:</strong> Consider whether areas potentially excluded from the first version, particularly aspects concerning caste participation, should be developed for a subsequent edition.</li>
+  </ul>
+</div>
+
+## Status of the Project {#status-project}
+
+The ideas recorded on this page represent the discussion held on 22 August 2026. They document the methodology and possible future direction described by Sunil Abraham during the meeting.
+
+They should not be read as evidence that the proposed research, reconstruction, LLM-assisted analysis, chapter structure or later review process has already been completed.
+
+The existing [working document](/amaa/unfinished-manuscript/) continues to document the surviving source material, its mapping and the preparatory work towards reconstruction.
+
+{% include navbox-amaa.html %}
+
+<style>
+.manuscript-action-points {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #cbd5e1;
+  border-left: 5px solid #1f5fbf;
+  border-radius: 8px;
+  background: #f8fafc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.manuscript-action-points p {
+  margin-top: 0;
+  color: #1e293b;
+}
+
+.manuscript-action-points ul {
+  margin-bottom: 0;
+  color: #334155;
+}
+
+.manuscript-action-points li + li {
+  margin-top: 0.65rem;
+}
+
+@media (max-width: 768px) {
+  .manuscript-action-points {
+    margin: 1.5rem 0;
+    padding: 1rem 1.1rem;
+  }
+}
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .manuscript-action-points {
+  background: #1e293b !important;
+  border-color: #374151 !important;
+  border-left-color: #38bdf8 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.tsap-dark-mode .manuscript-action-points p {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .manuscript-action-points ul {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .manuscript-action-points strong {
+  color: #f3f4f6 !important;
+}
+</style>
