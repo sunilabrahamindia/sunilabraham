@@ -3,7 +3,7 @@ layout: default
 title: "Versions Helper Tool"
 description: "A helper tool for generating version reports for The Sunil Abraham Project from any selected date range."
 permalink: /versions/helper/
-categories: [Project pages, Versions]
+categories: [TSAP Tools, Versions]
 created: 2026-08-24
 ---
 
@@ -41,9 +41,9 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
   </section>
   
   <section id="copy-output" class="copy-output" aria-labelledby="copy-heading">
-    <h2 id="copy-heading">Copy-ready output</h2>
+    <h2 id="copy-heading">Output</h2>
     <p>Use this text for the Versions page or weekly reports.</p>
-    <textarea id="copy-text" rows="12" readonly aria-label="Copy-ready report text"></textarea>
+    <textarea id="copy-text" rows="12" readonly aria-label="Report output text"></textarea>
     <button type="button" id="copy-btn" class="copy-btn">Copy to clipboard</button>
     <span id="copy-status" class="copy-status" role="status" aria-live="polite"></span>
   </section>
@@ -59,18 +59,12 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 }
 
 .report-controls {
-  background: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 6px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: 2rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  .report-controls {
-    background: #2a2a2a;
-    border-color: #444;
-  }
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .date-inputs {
@@ -83,65 +77,72 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 .date-field {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.35rem;
 }
 
 .date-field label {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+  color: #334155;
 }
 
 .date-field input[type="date"] {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.95rem;
   min-width: 180px;
+  background: #ffffff;
+  color: #1e293b;
 }
 
-@media (prefers-color-scheme: dark) {
-  .date-field input[type="date"] {
-    background: #333;
-    border-color: #555;
-    color: #fff;
-  }
+.date-field input[type="date"]:focus {
+  outline: none;
+  border-color: #1f5fbf;
+  box-shadow: 0 0 0 3px rgba(31, 95, 191, 0.15);
 }
 
 .date-shortcuts {
   display: flex;
   gap: 0.75rem;
   margin: 1rem 0;
+  flex-wrap: wrap;
 }
 
 .shortcut-btn,
 .generate-btn,
 .copy-btn {
   padding: 0.6rem 1.2rem;
-  border: none;
-  border-radius: 4px;
+  border: 1px solid #1f5fbf;
+  border-radius: 6px;
   font-size: 0.95rem;
   cursor: pointer;
-  background: #0066cc;
-  color: #fff;
-  transition: background 0.2s;
+  background: #1f5fbf;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 
-.shortcut-btn:hover,
+.shortcut-btn {
+  background: #ffffff;
+  color: #1f5fbf;
+  border: 1px solid #cbd5e1;
+  font-weight: 500;
+}
+
+.shortcut-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
 .generate-btn:hover,
 .copy-btn:hover {
-  background: #0052a3;
-}
-
-.shortcut-btn:focus,
-.generate-btn:focus,
-.copy-btn:focus {
-  outline: 2px solid #0066cc;
-  outline-offset: 2px;
+  background: #184c99;
+  border-color: #184c99;
 }
 
 .generate-btn {
   margin-top: 0.5rem;
-  font-weight: 600;
 }
 
 .report-output {
@@ -153,15 +154,9 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 }
 
 .report-section h3 {
-  border-bottom: 2px solid #0066cc;
-  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1f5fbf;
+  padding-bottom: 0.4rem;
   margin-bottom: 1rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  .report-section h3 {
-    border-color: #4da3ff;
-  }
 }
 
 .page-list {
@@ -171,20 +166,15 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 
 .page-list li {
   margin-bottom: 0.75rem;
-  padding: 0.5rem;
-  border-left: 3px solid #0066cc;
-  background: #fafafa;
-}
-
-@media (prefers-color-scheme: dark) {
-  .page-list li {
-    background: #2a2a2a;
-    border-left-color: #4da3ff;
-  }
+  padding: 0.6rem 0.8rem;
+  border-left: 3px solid #1f5fbf;
+  background: #f8fafc;
+  border-radius: 0 6px 6px 0;
 }
 
 .page-list a {
   font-weight: 600;
+  color: #1f5fbf;
   text-decoration: none;
 }
 
@@ -200,39 +190,23 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 }
 
 .stat-card {
-  background: #f0f0f0;
-  padding: 1rem;
-  border-radius: 6px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 1.2rem;
+  border-radius: 8px;
   text-align: center;
-}
-
-@media (prefers-color-scheme: dark) {
-  .stat-card {
-    background: #333;
-  }
 }
 
 .stat-card .stat-number {
   font-size: 2rem;
   font-weight: 700;
-  color: #0066cc;
-}
-
-@media (prefers-color-scheme: dark) {
-  .stat-card .stat-number {
-    color: #4da3ff;
-  }
+  color: #1f5fbf;
 }
 
 .stat-card .stat-label {
   font-size: 0.9rem;
-  color: #666;
-}
-
-@media (prefers-color-scheme: dark) {
-  .stat-card .stat-label {
-    color: #aaa;
-  }
+  color: #64748b;
+  margin-top: 0.25rem;
 }
 
 .issue-list,
@@ -244,46 +218,52 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 .issue-list li,
 .comment-list li {
   margin-bottom: 0.5rem;
-  padding: 0.5rem;
-  background: #f9f9f9;
-  border-radius: 4px;
+  padding: 0.6rem 0.8rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .issue-list li,
-  .comment-list li {
-    background: #2a2a2a;
-  }
+.issue-list a,
+.comment-list a {
+  color: #1f5fbf;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.issue-list a:hover,
+.comment-list a:hover {
+  text-decoration: underline;
 }
 
 .copy-output {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid #ddd;
-}
-
-@media (prefers-color-scheme: dark) {
-  .copy-output {
-    border-top-color: #444;
-  }
+  border-top: 1px solid #cbd5e1;
 }
 
 .copy-output textarea {
   width: 100%;
   padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
   font-family: monospace;
   font-size: 0.9rem;
   resize: vertical;
   margin: 1rem 0;
+  background: #ffffff;
+  color: #1e293b;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* Mobile compact output textarea */
+@media (max-width: 600px) {
   .copy-output textarea {
-    background: #2a2a2a;
-    border-color: #555;
-    color: #fff;
+    rows: 6;
+    height: 160px;
+    min-height: 140px;
+    padding: 0.75rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -293,49 +273,35 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 }
 
 .copy-status.success {
-  color: #2e7d32;
+  color: #16a34a;
 }
 
 .copy-status.error {
-  color: #c62828;
+  color: #dc2626;
 }
 
 .loading-msg {
-  color: #666;
+  color: #64748b;
   font-style: italic;
 }
 
 .error-msg {
-  background: #ffebee;
-  border: 1px solid #ef5350;
-  color: #c62828;
-  padding: 1rem;
-  border-radius: 4px;
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  color: #b91c1c;
+  padding: 0.85rem 1rem;
+  border-radius: 6px;
   margin: 1rem 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  .error-msg {
-    background: #3b1f1f;
-    border-color: #ef5350;
-  }
 }
 
 .warning-msg {
-  background: #fff3e0;
-  border: 1px solid #ff9800;
-  color: #e65100;
-  padding: 0.75rem;
-  border-radius: 4px;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #b45309;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
   margin: 1rem 0;
-  font-size: 0.9rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  .warning-msg {
-    background: #3b2f1f;
-    border-color: #ff9800;
-  }
+  font-size: 0.92rem;
 }
 
 .day-breakdown,
@@ -354,17 +320,121 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 
 .day-breakdown li,
 .category-breakdown li {
-  background: #f0f0f0;
+  background: #f1f5f9;
   padding: 0.5rem 0.75rem;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 0.9rem;
+  color: #334155;
 }
 
-@media (prefers-color-scheme: dark) {
-  .day-breakdown li,
-  .category-breakdown li {
-    background: #333;
-  }
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .report-controls {
+  background: #1e293b !important;
+  border-color: #374151 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+}
+
+body.tsap-dark-mode .date-field label {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .date-field input[type="date"] {
+  background: #0f172a !important;
+  border-color: #374151 !important;
+  color: #f1f5f9 !important;
+}
+
+body.tsap-dark-mode .date-field input[type="date"]:focus {
+  border-color: #38bdf8 !important;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2) !important;
+}
+
+body.tsap-dark-mode .shortcut-btn {
+  background: #1e293b !important;
+  border-color: #4b5563 !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .shortcut-btn:hover {
+  background: #334155 !important;
+  border-color: #64748b !important;
+}
+
+body.tsap-dark-mode .generate-btn,
+body.tsap-dark-mode .copy-btn {
+  background: #1e5fbf !important;
+  border-color: #1e5fbf !important;
+  color: #ffffff !important;
+}
+
+body.tsap-dark-mode .generate-btn:hover,
+body.tsap-dark-mode .copy-btn:hover {
+  background: #38bdf8 !important;
+  border-color: #38bdf8 !important;
+  color: #0f172a !important;
+}
+
+body.tsap-dark-mode .report-section h3 {
+  border-bottom-color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .page-list li {
+  background: #1e293b !important;
+  border-left-color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .page-list a,
+body.tsap-dark-mode .issue-list a,
+body.tsap-dark-mode .comment-list a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .stat-card,
+body.tsap-dark-mode .issue-list li,
+body.tsap-dark-mode .comment-list li {
+  background: #1e293b !important;
+  border-color: #374151 !important;
+}
+
+body.tsap-dark-mode .stat-card .stat-number {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .stat-card .stat-label,
+body.tsap-dark-mode .loading-msg {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .day-breakdown li,
+body.tsap-dark-mode .category-breakdown li {
+  background: #1e293b !important;
+  color: #cbd5e1 !important;
+  border: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .copy-output {
+  border-top-color: #374151 !important;
+}
+
+body.tsap-dark-mode .copy-output textarea {
+  background: #0f172a !important;
+  border-color: #374151 !important;
+  color: #f1f5f9 !important;
+}
+
+body.tsap-dark-mode .error-msg {
+  background: rgba(185, 28, 28, 0.2) !important;
+  border-color: #f87171 !important;
+  color: #fca5a5 !important;
+}
+
+body.tsap-dark-mode .warning-msg {
+  background: rgba(180, 83, 9, 0.2) !important;
+  border-color: #fbbf24 !important;
+  color: #fde68a !important;
 }
 </style>
 
