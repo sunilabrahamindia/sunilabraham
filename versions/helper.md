@@ -14,18 +14,70 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 
 <div id="activity-report-app" class="activity-report-container">
   <section class="report-controls" aria-labelledby="controls-heading">
-    <h2 id="controls-heading">Select date range</h2>
+    <h2 id="controls-heading">Select date range (DMY)</h2>
     
     <div class="date-inputs">
-      <div class="date-field">
-        <label for="from-date">From</label>
-        <input type="date" id="from-date" name="from" required />
-      </div>
-      
-      <div class="date-field">
-        <label for="to-date">To</label>
-        <input type="date" id="to-date" name="to" required />
-      </div>
+      <fieldset class="date-fieldset">
+        <legend>From date</legend>
+        <div class="dmy-group">
+          <div class="dmy-field">
+            <label for="from-day">Day</label>
+            <select id="from-day" aria-label="From Day"></select>
+          </div>
+          <div class="dmy-field">
+            <label for="from-month">Month</label>
+            <select id="from-month" aria-label="From Month">
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </div>
+          <div class="dmy-field">
+            <label for="from-year">Year</label>
+            <select id="from-year" aria-label="From Year"></select>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="date-fieldset">
+        <legend>To date</legend>
+        <div class="dmy-group">
+          <div class="dmy-field">
+            <label for="to-day">Day</label>
+            <select id="to-day" aria-label="To Day"></select>
+          </div>
+          <div class="dmy-field">
+            <label for="to-month">Month</label>
+            <select id="to-month" aria-label="To Month">
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </div>
+          <div class="dmy-field">
+            <label for="to-year">Year</label>
+            <select id="to-year" aria-label="To Year"></select>
+          </div>
+        </div>
+      </fieldset>
     </div>
     
     <div class="date-shortcuts">
@@ -74,29 +126,52 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
   flex-wrap: wrap;
 }
 
-.date-field {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.date-field label {
-  font-weight: 600;
-  font-size: 0.92rem;
-  color: #334155;
-}
-
-.date-field input[type="date"] {
-  padding: 0.55rem 0.75rem;
+.date-fieldset {
   border: 1px solid #cbd5e1;
   border-radius: 6px;
+  padding: 0.85rem 1rem 1rem;
+  flex: 1 1 320px;
+  margin: 0;
+}
+
+.date-fieldset legend {
+  font-weight: 600;
   font-size: 0.95rem;
-  min-width: 180px;
-  background: #ffffff;
+  padding: 0 0.35rem;
   color: #1e293b;
 }
 
-.date-field input[type="date"]:focus {
+.dmy-group {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.dmy-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1 1 80px;
+}
+
+.dmy-field label {
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: #475569;
+}
+
+.dmy-field select {
+  padding: 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background: #ffffff;
+  color: #1e293b;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dmy-field select:focus {
   outline: none;
   border-color: #1f5fbf;
   box-shadow: 0 0 0 3px rgba(31, 95, 191, 0.15);
@@ -105,7 +180,7 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 .date-shortcuts {
   display: flex;
   gap: 0.75rem;
-  margin: 1rem 0;
+  margin: 1.25rem 0 1rem;
   flex-wrap: wrap;
 }
 
@@ -259,7 +334,6 @@ Generate a report of pages created, Git commits, and GitHub issues for any date 
 /* Mobile compact output textarea */
 @media (max-width: 600px) {
   .copy-output textarea {
-    rows: 6;
     height: 160px;
     min-height: 140px;
     padding: 0.75rem;
@@ -337,17 +411,23 @@ body.tsap-dark-mode .report-controls {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
 }
 
-body.tsap-dark-mode .date-field label {
+body.tsap-dark-mode .date-fieldset {
+  border-color: #374151 !important;
+  background: rgba(15, 23, 42, 0.4) !important;
+}
+
+body.tsap-dark-mode .date-fieldset legend,
+body.tsap-dark-mode .dmy-field label {
   color: #f3f4f6 !important;
 }
 
-body.tsap-dark-mode .date-field input[type="date"] {
+body.tsap-dark-mode .dmy-field select {
   background: #0f172a !important;
   border-color: #374151 !important;
   color: #f1f5f9 !important;
 }
 
-body.tsap-dark-mode .date-field input[type="date"]:focus {
+body.tsap-dark-mode .dmy-field select:focus {
   border-color: #38bdf8 !important;
   box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2) !important;
 }
@@ -445,8 +525,14 @@ body.tsap-dark-mode .warning-msg {
   const PAGES_JSON_URL = '/pages.json';
   const GITHUB_API_BASE = 'https://api.github.com/repos/sunilabrahamindia/sunilabraham';
   
-  const fromInput = document.getElementById('from-date');
-  const toInput = document.getElementById('to-date');
+  const fromDay = document.getElementById('from-day');
+  const fromMonth = document.getElementById('from-month');
+  const fromYear = document.getElementById('from-year');
+
+  const toDay = document.getElementById('to-day');
+  const toMonth = document.getElementById('to-month');
+  const toYear = document.getElementById('to-year');
+
   const prevWeekBtn = document.getElementById('prev-week-btn');
   const currentWeekBtn = document.getElementById('current-week-btn');
   const generateBtn = document.getElementById('generate-btn');
@@ -457,6 +543,28 @@ body.tsap-dark-mode .warning-msg {
   
   let cachedPages = null;
   let copyReadyText = '';
+
+  function pad(n) { return String(n).length < 2 ? '0' + n : String(n); }
+  
+  function populateSelect(select, start, end) {
+    const frag = document.createDocumentFragment();
+    for (let i = start; i <= end; i++) {
+      const opt = document.createElement('option');
+      opt.value = String(i);
+      opt.textContent = String(i);
+      frag.appendChild(opt);
+    }
+    select.appendChild(frag);
+  }
+
+  function initDMYSelects() {
+    populateSelect(fromDay, 1, 31);
+    populateSelect(toDay, 1, 31);
+    
+    const curYear = new Date().getFullYear();
+    populateSelect(fromYear, 2024, curYear + 1);
+    populateSelect(toYear, 2024, curYear + 1);
+  }
   
   function formatDateDMY(date) {
     const d = date.getDate();
@@ -467,6 +575,11 @@ body.tsap-dark-mode .warning-msg {
   
   function formatDateISO(date) {
     return date.toISOString().split('T')[0];
+  }
+
+  function cleanRelativeUrl(url) {
+    if (!url) return '/';
+    return url.replace(/^https?:\/\/[^\/]+/i, '');
   }
   
   function getDayName(date) {
@@ -498,8 +611,14 @@ body.tsap-dark-mode .warning-msg {
   }
   
   function setDates(fromDate, toDate) {
-    fromInput.value = formatDateISO(fromDate);
-    toInput.value = formatDateISO(toDate);
+    fromDay.value = String(fromDate.getDate());
+    fromMonth.value = String(fromDate.getMonth() + 1);
+    fromYear.value = String(fromDate.getFullYear());
+
+    toDay.value = String(toDate.getDate());
+    toMonth.value = String(toDate.getMonth() + 1);
+    toYear.value = String(toDate.getFullYear());
+
     updateURL(fromDate, toDate);
   }
   
@@ -511,15 +630,22 @@ body.tsap-dark-mode .warning-msg {
     window.history.replaceState({}, '', newURL);
   }
   
-  function parseDateFromInput(input) {
-    const val = input.value;
-    if (!val) return null;
-    const d = new Date(val + 'T00:00:00');
-    return isNaN(d.getTime()) ? null : d;
+  function getSelectedDate(dayEl, monthEl, yearEl) {
+    const d = parseInt(dayEl.value, 10);
+    const m = parseInt(monthEl.value, 10);
+    const y = parseInt(yearEl.value, 10);
+    const date = new Date(y, m - 1, d, 0, 0, 0);
+    if (date.getFullYear() === y && date.getMonth() === m - 1 && date.getDate() === d) {
+      return date;
+    }
+    return null;
   }
   
   function isInDateRange(date, from, to) {
-    return date >= from && date <= to;
+    const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    const f = new Date(from.getFullYear(), from.getMonth(), from.getDate());
+    const t = new Date(to.getFullYear(), to.getMonth(), to.getDate());
+    return d >= f && d <= t;
   }
   
   async function fetchPages() {
@@ -720,9 +846,9 @@ body.tsap-dark-mode .warning-msg {
         const d = new Date(p.created + 'T00:00:00');
         const createdStr = formatDateDMY(d);
         const title = p.title || 'Untitled';
-        const permalink = p.permalink || '#';
+        const relLink = cleanRelativeUrl(p.permalink || p.url || '#');
         const desc = p.description || '';
-        html += `<li><a href="${permalink}">${title}</a>, created on ${createdStr} – ${desc}</li>`;
+        html += `<li><a href="${relLink}">${title}</a>, created on ${createdStr} – ${desc}</li>`;
       }
       html += `</ul>`;
     }
@@ -743,7 +869,7 @@ body.tsap-dark-mode .warning-msg {
       for (const issue of sortedIssues) {
         const d = new Date(issue.created_at);
         const createdStr = formatDateDMY(d);
-        html += `<li>#${issue.number} <a href="${issue.html_url}" rel="noopener">${issue.title}</a>, created on ${createdStr}</li>`;
+        html += `<li>#${issue.number} <a href="${issue.html_url}">${issue.title}</a>, created on ${createdStr}</li>`;
       }
       html += `</ul>`;
     }
@@ -764,7 +890,7 @@ body.tsap-dark-mode .warning-msg {
         const firstComment = comments[0];
         const d = new Date(firstComment.created_at);
         const commentStr = formatDateDMY(d);
-        html += `<li>#${issue.number} <a href="${issue.html_url}" rel="noopener">${issue.title}</a>, ${comments.length} new comment${comments.length !== 1 ? 's' : ''} (first on ${commentStr})</li>`;
+        html += `<li>#${issue.number} <a href="${issue.html_url}">${issue.title}</a>, ${comments.length} new comment${comments.length !== 1 ? 's' : ''} (first on ${commentStr})</li>`;
       }
       html += `</ul>`;
     }
@@ -785,21 +911,21 @@ body.tsap-dark-mode .warning-msg {
         const d = new Date(p.created + 'T00:00:00');
         const createdStr = formatDateDMY(d);
         const title = p.title || 'Untitled';
-        const permalink = p.permalink || '#';
+        const relLink = cleanRelativeUrl(p.permalink || p.url || '#');
         const desc = p.description || '';
-        copyTextContent += `**[${title}](${permalink})**, created on ${createdStr} – ${desc}\n`;
+        copyTextContent += `* **[${title}](${relLink})**, created on ${createdStr} – ${desc}\n`;
       }
       copyTextContent += '\n';
     }
     
-    copyTextContent += `\n**Git activity:** ${commits.length} commit${commits.length !== 1 ? 's' : ''}.\n`;
-    copyTextContent += `\n**GitHub issues created:** ${issuesCreated.length}.\n`;
+    copyTextContent += `**Git activity:** ${commits.length} commit${commits.length !== 1 ? 's' : ''}.\n\n`;
+    copyTextContent += `**GitHub issues created:** ${issuesCreated.length}.\n`;
     if (issuesCreated.length > 0) {
       const sortedIssues = [...issuesCreated].sort((a, b) => a.created_at.localeCompare(b.created_at));
       for (const issue of sortedIssues) {
         const d = new Date(issue.created_at);
         const createdStr = formatDateDMY(d);
-        copyTextContent += `- #${issue.number} [${issue.title}](${issue.html_url}), created on ${createdStr}\n`;
+        copyTextContent += `* #${issue.number} [${issue.title}](${issue.html_url}), created on ${createdStr}\n`;
       }
     }
     
@@ -808,11 +934,11 @@ body.tsap-dark-mode .warning-msg {
   }
   
   async function generateReport() {
-    const from = parseDateFromInput(fromInput);
-    const to = parseDateFromInput(toInput);
+    const from = getSelectedDate(fromDay, fromMonth, fromYear);
+    const to = getSelectedDate(toDay, toMonth, toYear);
     
     if (!from || !to) {
-      reportOutput.innerHTML = `<p class="error-msg">Please select both From and To dates.</p>`;
+      reportOutput.innerHTML = `<p class="error-msg">Please select valid calendar dates for both From and To.</p>`;
       return;
     }
     
@@ -822,11 +948,13 @@ body.tsap-dark-mode .warning-msg {
     }
     
     const today = new Date();
-    today.setHours(0, 0, 0, 0);
+    today.setHours(23, 59, 59, 999);
     if (to > today) {
       reportOutput.innerHTML = `<p class="error-msg">The To date cannot be in the future.</p>`;
       return;
     }
+
+    updateURL(from, to);
     
     reportOutput.setAttribute('aria-busy', 'true');
     reportOutput.innerHTML = `<p class="loading-msg">Loading data…</p>`;
@@ -854,13 +982,11 @@ body.tsap-dark-mode .warning-msg {
       }
       
       let issuesWithCommentsData = { issuesWithComments: [], rateLimitHit: false };
-      if (issuesCreated.length > 0 || true) {
-        try {
-          const allIssuesForComments = await fetchIssues(new Date(from.getTime() - 30 * 24 * 60 * 60 * 1000), to);
-          issuesWithCommentsData = await fetchIssuesWithComments(from, to, allIssuesForComments);
-        } catch (err) {
-          issuesWithCommentsData = { issuesWithComments: [], rateLimitHit: true };
-        }
+      try {
+        const allIssuesForComments = await fetchIssues(new Date(from.getTime() - 30 * 24 * 60 * 60 * 1000), to);
+        issuesWithCommentsData = await fetchIssuesWithComments(from, to, allIssuesForComments);
+      } catch (err) {
+        issuesWithCommentsData = { issuesWithComments: [], rateLimitHit: true };
       }
       
       renderReport(filteredPages, commits, issuesCreated, issuesWithCommentsData, from, to);
@@ -909,6 +1035,8 @@ body.tsap-dark-mode .warning-msg {
     });
   }
   
+  initDMYSelects();
+
   prevWeekBtn.addEventListener('click', () => {
     const { from, to } = getPreviousSundaySaturday();
     setDates(from, to);
@@ -916,11 +1044,6 @@ body.tsap-dark-mode .warning-msg {
   
   currentWeekBtn.addEventListener('click', () => {
     const { from, to } = getCurrentWeekSundaySaturday();
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    if (to > today) {
-      toInput.max = formatDateISO(today);
-    }
     setDates(from, to);
   });
   
@@ -935,20 +1058,15 @@ body.tsap-dark-mode .warning-msg {
     const from = new Date(fromParam + 'T00:00:00');
     const to = new Date(toParam + 'T00:00:00');
     if (!isNaN(from.getTime()) && !isNaN(to.getTime())) {
-      fromInput.value = fromParam;
-      toInput.value = toParam;
-    } else {
-      const { from, to } = getPreviousSundaySaturday();
       setDates(from, to);
+    } else {
+      const { from: f, to: t } = getPreviousSundaySaturday();
+      setDates(f, t);
     }
   } else {
     const { from, to } = getPreviousSundaySaturday();
     setDates(from, to);
   }
-  
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  toInput.max = formatDateISO(today);
   
 })();
 </script>
