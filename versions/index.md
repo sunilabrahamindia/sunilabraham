@@ -21,6 +21,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 6. [Version 2.2.1](#version-221)
 7. [Version 2.2.2](#version-222)
 8. [Version 2.2.3](#version-223)
+9. [Version 2.3](#version-23)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -195,5 +196,25 @@ Between 9 August and 15 August 2026
 
 **Status** ✅ Done  
 Completion date: 15 August 2026
+
+## Version 2.3
+
+From Sunday 16 August 2026 to Saturday 22 August 2026, 11 pages were created. Some of those are—
+
+* **[Draft International Principles on Communications Surveillance and Human Rights](/elonnai/draft-intl-principles-on-communications-surveillance-and-human-rights/)**, created on 17 August 2026 – A 2013 CIS post by Elonnai Hickok outlining the Draft International Principles on Communications Surveillance and Human Rights developed by Privacy International and the Electronic Frontier Foundation, with feedback from CIS and other international participants under the SAFEGUARDS project.
+* **[Data Retention in India](/elonnai/data-retention-in-india/)**, created on 17 August 2026 – A 2013 CIS post by Elonnai Hickok examining data retention mandates and practices in India, comparing them with European and US approaches, and presenting findings from RTI requests filed with BSNL and MTNL under the SAFEGUARDS project.
+* **[A Comparison of Indian Legislation to Draft International Principles on Surveillance of Communications](/elonnai/comparison-of-indian-legislation-and-draft-principles-on-surveillance-of-communications/)**, created on 18 August 2026 – A 31 January 2013 CIS post by Elonnai Hickok comparing Indian surveillance legislation, including the Indian Telegraph Act and Information Technology Act rules, against the Draft International Principles on Surveillance of Communications developed under the SAFEGUARDS project.
+* **[2012: Privacy Highlights in India](/elonnai/2012-privacy-highlights-in-india/)**, created on 19 August 2026 – A February 2013 CIS post by Elonnai Hickok summarising the major privacy developments of 2012 in India, including the Report of Group of Experts on Privacy, the RIM standoff, the Nira Radia controversy, the Centralised Monitoring System, and the UID project.
+* **[Surveillance Camp IV: Disproportionate State Surveillance — A Violation of Privacy](/elonnai/disproportionate-state-surveillance-a-violation-of-privacy/)**, created on 20 August 2026 – A February 2013 EFF Deeplinks post co-written by Katitza Rodriguez and Elonnai Hickok, the fourth in a series mapping global surveillance challenges discussed at EFF's State Surveillance and Human Rights Camp in Rio de Janeiro, examining state-mandated identity verification, encryption restrictions, and blanket interception mandates.
+* **[Unique Identification Scheme (UID) & National Population Register (NPR), and Governance](/elonnai/uid-and-npr-a-background-note/)**, created on 22 August 2026 – A March 2013 CIS background note by Elonnai Hickok examining the UID and NPR schemes in India, their legal grounding, enrolment processes, adoption by different states, and the differences and controversies between the two projects, prepared under the SAFEGUARDS project.
+* **[Draft Human DNA Profiling Bill (April 2012): High Level Concerns](/elonnai/draft-human-dna-profiling-bill-april-2012/)**, created on 22 August 2026 – A March 2013 CIS post by Elonnai Hickok outlining high-level concerns with the April 2012 working draft of the Human DNA Profiling Bill, examining overreaching offence categories, weak access controls, inadequate consent provisions, and missing privacy safeguards, prepared under the SAFEGUARDS project.
+
+* **Time and Date Converter** We created a [Time & Date Converter tool](/tools/timeanddate). We needed such a tool for our meetings and events a few times, so we built an in-house, customised tool. One can also generate a shareable link that carries the date, time, timezone and an optional event name/location, so anyone who opens it immediately sees the time converted into their own timezone. 
+
+**Git activity:** 58 commits.
+
+**GitHub issues created:** 1.
+* #28 [Standardise category permalinks to /categories/](https://github.com/sunilabrahamindia/sunilabraham/issues/28), created on 20 August 2026
+
 
 {% include versions.html %}
