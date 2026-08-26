@@ -7,7 +7,6 @@ categories: [A. M. A. Ayrookuzhiel]
 created: 2026-08-26
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
