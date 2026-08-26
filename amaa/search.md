@@ -235,6 +235,7 @@ created: 2026-08-26
       height: 5px;
       border-radius: 50%;
       background-color: var(--wordmark-accent);
+      flex-shrink: 0;
     }
 
     /* Search Input */
@@ -405,6 +406,27 @@ created: 2026-08-26
       margin-bottom: 0;
     }
 
+    .result-inline-link {
+      color: var(--wordmark-accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      font-weight: 500;
+      word-break: break-word;
+      transition: color 0.15s ease, opacity 0.15s ease;
+      border-radius: 3px;
+      padding: 0 2px;
+    }
+
+    .result-inline-link:hover {
+      opacity: 0.85;
+      color: var(--border-focus);
+    }
+
+    .result-inline-link:focus-visible {
+      outline: 2px solid var(--border-focus);
+      outline-offset: 2px;
+    }
+
     .result-sources {
       margin-top: 32px;
       padding-top: 24px;
@@ -530,23 +552,39 @@ created: 2026-08-26
 
     @media (max-width: 640px) {
       .page-container {
-        padding: 48px 16px 36px;
+        padding: 40px 16px 32px;
       }
 
       .portrait-frame {
-        width: 56px;
-        height: 56px;
-        margin-bottom: 16px;
+        width: 52px;
+        height: 52px;
+        margin-bottom: 12px;
       }
 
       .archive-title {
-        font-size: 1.95rem;
+        font-size: 1.85rem;
+        margin-bottom: 8px;
       }
 
       .archive-badge {
-        font-size: 0.72rem;
-        padding: 4px 10px;
-        letter-spacing: 0.04em;
+        font-size: 0.68rem;
+        padding: 3px 8px;
+        letter-spacing: 0.03em;
+        max-width: 100%;
+        line-height: 1.3;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-shadow: none;
+      }
+
+      .badge-dot {
+        width: 4px;
+        height: 4px;
+      }
+
+      .search-section {
+        margin-bottom: 24px;
       }
 
       .search-input-wrapper {
@@ -698,6 +736,83 @@ created: 2026-08-26
         return '#';
       }
 
+      function toRelativeIfOwnDomain(url) {
+        if (!url) return '#';
+        const trimmed = url.trim();
+        // Convert any absolute URL pointing to sunilabraham.in to its relative path
+        const ownDomainMatch = trimmed.match(/^https?:\/\/(?:www\.)?sunilabraham\.in(\/.*)$/i);
+        if (ownDomainMatch) {
+          return ownDomainMatch[1] || '/';
+        }
+        return trimmed;
+      }
+
+      function createLinkElement(targetUrl, displayText) {
+        const a = document.createElement('a');
+        const resolvedHref = toRelativeIfOwnDomain(targetUrl);
+        a.href = sanitizeUrl(resolvedHref);
+        a.textContent = displayText || resolvedHref;
+        a.className = 'result-inline-link';
+        
+        // Open truly external links in a safe context
+        if (/^https?:\/\//i.test(resolvedHref)) {
+          a.rel = 'noopener noreferrer';
+        }
+        return a;
+      }
+
+      function appendFormattedLine(container, text) {
+        // Regex matches Markdown links: [Title](URL) OR raw URLs: https?://... or /amaa/...
+        const tokenRegex = /\[([^\]]+)\]\((https?:\/\/[^\s\)]+|\/[^\s\)]+)\)|(https?:\/\/[^\s\)]+)|(\/(?:amaa|articles|sunil|media|events|publications|categories|cis|tools|versions)\/[^\s\)\],.;]*)/gi;
+        
+        let lastIndex = 0;
+        let match;
+
+        while ((match = tokenRegex.exec(text)) !== null) {
+          if (match.index > lastIndex) {
+            container.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
+          }
+
+          if (match[1] && match[2]) {
+            // Markdown link format [Text](URL)
+            container.appendChild(createLinkElement(match[2], match[1]));
+          } else if (match[3]) {
+            // Raw HTTP/HTTPS URL
+            let rawUrl = match[3];
+            let trailing = '';
+            // Strip trailing punctuation like . , ; : ) that are part of standard prose
+            const trailingMatch = rawUrl.match(/[.,;:\)]+$/);
+            if (trailingMatch) {
+              trailing = trailingMatch[0];
+              rawUrl = rawUrl.slice(0, -trailing.length);
+            }
+            container.appendChild(createLinkElement(rawUrl, toRelativeIfOwnDomain(rawUrl)));
+            if (trailing) {
+              container.appendChild(document.createTextNode(trailing));
+            }
+          } else if (match[4]) {
+            // Relative site link
+            let relUrl = match[4];
+            let trailing = '';
+            const trailingMatch = relUrl.match(/[.,;:\)]+$/);
+            if (trailingMatch) {
+              trailing = trailingMatch[0];
+              relUrl = relUrl.slice(0, -trailing.length);
+            }
+            container.appendChild(createLinkElement(relUrl, relUrl));
+            if (trailing) {
+              container.appendChild(document.createTextNode(trailing));
+            }
+          }
+
+          lastIndex = tokenRegex.lastIndex;
+        }
+
+        if (lastIndex < text.length) {
+          container.appendChild(document.createTextNode(text.substring(lastIndex)));
+        }
+      }
+
       function renderSafeAnswer(rawText) {
         resultAnswerContent.innerHTML = '';
         if (!rawText) return;
@@ -712,7 +827,7 @@ created: 2026-08-26
               if (index > 0) {
                 p.appendChild(document.createElement('br'));
               }
-              p.appendChild(document.createTextNode(line));
+              appendFormattedLine(p, line);
             });
             resultAnswerContent.appendChild(p);
           }
@@ -749,8 +864,12 @@ created: 2026-08-26
             li.className = 'source-item';
             const a = document.createElement('a');
             a.className = 'source-link';
-            a.href = sanitizeUrl(source.url);
-            a.textContent = source.title || source.url;
+            const resolvedUrl = toRelativeIfOwnDomain(source.url);
+            a.href = sanitizeUrl(resolvedUrl);
+            a.textContent = source.title || resolvedUrl;
+            if (/^https?:\/\//i.test(resolvedUrl)) {
+              a.rel = 'noopener noreferrer';
+            }
             li.appendChild(a);
             sourcesList.appendChild(li);
           });
