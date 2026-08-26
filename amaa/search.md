@@ -4,6 +4,7 @@ title: "A. M. A. Ayrookuzhiel — Search and Interaction Engine"
 description: "Search and interact with the writings, research, and archival material of A. M. A. Ayrookuzhiel."
 permalink: /amaa/search/
 categories: [A. M. A. Ayrookuzhiel]
+created: 2026-08-26
 ---
 
 <!DOCTYPE html>
