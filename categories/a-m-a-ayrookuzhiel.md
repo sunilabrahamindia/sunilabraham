@@ -1,6 +1,8 @@
 ---
 layout: category
 title: "Category:A. M. A. Ayrookuzhiel"
+main_article: /amaa/
+main_article_title: "A. M. A. Ayrookuzhiel"
 description: "Biographical and theological writings, research notes, and archival materials on Rev. A. M. A. Ayrookuzhiel under the Sunil Abraham Project."
 page_id: TSAP-0029
 created: 2025-11-03
