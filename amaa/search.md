@@ -6,11 +6,13 @@ permalink: /amaa/search/
 categories: [A. M. A. Ayrookuzhiel]
 created: 2026-08-26
 ---
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
   <style>
     *, *::before, *::after {
       box-sizing: border-box;
@@ -25,58 +27,85 @@ created: 2026-08-26
     }
 
     :root {
-      /* Refined, luminous scholarly archival palette */
-      --bg-canvas: #faf8f5;
+      /* Light Mode Palette */
+      --bg-canvas: #f8fafc;
       --bg-surface: #ffffff;
-      --bg-elevated: #f3efe9;
-      --text-primary: #1c1815;
-      --text-secondary: #574e47;
-      --text-muted: #8c827a;
-      --border-subtle: #e6dfd5;
-      --border-focus: #1c1815;
+      --bg-elevated: #f1f5f9;
+      --text-primary: #1e293b;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --border-subtle: #cbd5e1;
+      --border-focus: #1f5fbf;
       
-      /* Distinctive editorial wordmark accents */
-      --wordmark-primary: #1c1815;
-      --wordmark-accent: #a8422b;     /* Terracotta/Venetian red */
-      --badge-bg: #efe9df;
-      --badge-text: #733120;
-      --badge-border: #ded4c5;
+      --wordmark-primary: #1e293b;
+      --wordmark-accent: #1f5fbf;
+      --badge-bg: #e0f2fe;
+      --badge-text: #0369a1;
+      --badge-border: #bae6fd;
       
-      /* Subtle radiant ambient glow */
-      --ambient-glow: radial-gradient(circle at 50% 18%, rgba(224, 210, 190, 0.45) 0%, rgba(250, 248, 245, 0) 65%);
-      --card-shadow: 0 4px 20px -2px rgba(28, 24, 21, 0.05), 0 1px 3px rgba(28, 24, 21, 0.04);
-      --card-shadow-focus: 0 12px 32px -4px rgba(168, 66, 43, 0.08), 0 0 0 3px rgba(168, 66, 43, 0.2);
+      --ambient-glow: radial-gradient(circle at 50% 18%, rgba(224, 242, 254, 0.6) 0%, rgba(248, 250, 252, 0) 65%);
+      --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.04);
+      --card-shadow-focus: 0 12px 32px -4px rgba(31, 95, 191, 0.12), 0 0 0 3px rgba(31, 95, 191, 0.2);
       
-      --portrait-opacity: 0.88;
-      --portrait-filter: grayscale(10%) sepia(8%) contrast(102%);
-      --portrait-ring: #d9cfc1;
+      --portrait-opacity: 0.92;
+      --portrait-filter: grayscale(10%) contrast(102%);
+      --portrait-ring: #cbd5e1;
     }
 
+    /* Fallback for OS dark preference before JS init */
     @media (prefers-color-scheme: dark) {
-      :root {
-        --bg-canvas: #121110;
-        --bg-surface: #1a1816;
-        --bg-elevated: #24211d;
-        --text-primary: #f2eee9;
-        --text-secondary: #b8aea3;
-        --text-muted: #857c72;
-        --border-subtle: #2e2a25;
-        --border-focus: #e09f8d;
+      body:not(.tsap-light-mode) {
+        --bg-canvas: #0f172a;
+        --bg-surface: #1e293b;
+        --bg-elevated: #1b283a;
+        --text-primary: #f3f4f6;
+        --text-secondary: #cbd5e1;
+        --text-muted: #94a3b8;
+        --border-subtle: #374151;
+        --border-focus: #38bdf8;
         
-        --wordmark-primary: #f2eee9;
-        --wordmark-accent: #e07a5f;    /* Radiant warm terracotta */
-        --badge-bg: #27221d;
-        --badge-text: #e8a593;
-        --badge-border: #3d342c;
+        --wordmark-primary: #f3f4f6;
+        --wordmark-accent: #38bdf8;
+        --badge-bg: #172554;
+        --badge-text: #7dd3fc;
+        --badge-border: #1e3a8a;
         
-        --ambient-glow: radial-gradient(circle at 50% 18%, rgba(224, 122, 95, 0.08) 0%, rgba(18, 17, 16, 0) 60%);
+        --ambient-glow: radial-gradient(circle at 50% 18%, rgba(56, 189, 248, 0.08) 0%, rgba(15, 23, 42, 0) 60%);
         --card-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3);
-        --card-shadow-focus: 0 12px 36px -4px rgba(0, 0, 0, 0.6), 0 0 0 3px rgba(224, 122, 95, 0.3);
+        --card-shadow-focus: 0 12px 36px -4px rgba(0, 0, 0, 0.6), 0 0 0 3px rgba(56, 189, 248, 0.25);
         
-        --portrait-opacity: 0.85;
-        --portrait-filter: grayscale(15%) sepia(10%) brightness(90%) contrast(105%);
-        --portrait-ring: #3a332a;
+        --portrait-opacity: 0.88;
+        --portrait-filter: grayscale(15%) brightness(95%) contrast(105%);
+        --portrait-ring: #374151;
       }
+    }
+
+    /* =========================================================
+       Active Class Architecture Dark Mode Overrides
+       ========================================================= */
+    body.tsap-dark-mode {
+      --bg-canvas: #0f172a !important;
+      --bg-surface: #1e293b !important;
+      --bg-elevated: #172334 !important;
+      --text-primary: #f3f4f6 !important;
+      --text-secondary: #cbd5e1 !important;
+      --text-muted: #94a3b8 !important;
+      --border-subtle: #374151 !important;
+      --border-focus: #38bdf8 !important;
+      
+      --wordmark-primary: #f3f4f6 !important;
+      --wordmark-accent: #38bdf8 !important;
+      --badge-bg: #172554 !important;
+      --badge-text: #7dd3fc !important;
+      --badge-border: #1e3a8a !important;
+      
+      --ambient-glow: radial-gradient(circle at 50% 18%, rgba(56, 189, 248, 0.08) 0%, rgba(15, 23, 42, 0) 60%) !important;
+      --card-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+      --card-shadow-focus: 0 12px 36px -4px rgba(0, 0, 0, 0.6), 0 0 0 3px rgba(56, 189, 248, 0.25) !important;
+      
+      --portrait-opacity: 0.88 !important;
+      --portrait-filter: grayscale(15%) brightness(95%) contrast(105%) !important;
+      --portrait-ring: #374151 !important;
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -87,7 +116,7 @@ created: 2026-08-26
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Charter", "Bitstream Charter", "Sitka Text", "Cambria", Georgia, serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       line-height: 1.6;
       color: var(--text-primary);
       background-color: var(--bg-canvas);
@@ -127,24 +156,24 @@ created: 2026-08-26
       flex-direction: column;
       max-width: 760px;
       margin: 0 auto;
-      padding: 96px 28px 56px;
+      padding: 88px 24px 48px;
       width: 100%;
     }
 
-    /* Editorial Header Composition */
+    /* Header Composition */
     .page-header {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-      margin-bottom: 44px;
+      margin-bottom: 40px;
     }
 
     .portrait-frame {
       position: relative;
       width: 68px;
       height: 68px;
-      margin-bottom: 22px;
+      margin-bottom: 20px;
       border-radius: 50%;
       padding: 3px;
       background: linear-gradient(135deg, var(--portrait-ring), transparent 75%);
@@ -164,7 +193,7 @@ created: 2026-08-26
 
     .archive-title {
       font-size: 2.5rem;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: -0.025em;
       line-height: 1.15;
       margin-bottom: 12px;
@@ -174,7 +203,7 @@ created: 2026-08-26
     .title-initials {
       color: var(--wordmark-accent);
       font-style: normal;
-      font-weight: 600;
+      font-weight: 700;
     }
 
     .title-surname {
@@ -196,14 +225,19 @@ created: 2026-08-26
       text-transform: uppercase;
     }
 
+    .badge-prefix {
+      opacity: 0.85;
+      font-weight: 500;
+    }
+
     .badge-dot {
-      width: 6px;
-      height: 6px;
+      width: 5px;
+      height: 5px;
       border-radius: 50%;
       background-color: var(--wordmark-accent);
     }
 
-    /* Focused Archival Search Input */
+    /* Search Input */
     .search-section {
       margin-bottom: 32px;
     }
@@ -217,10 +251,10 @@ created: 2026-08-26
       align-items: stretch;
       background: var(--bg-surface);
       border: 1px solid var(--border-subtle);
-      border-radius: 16px;
+      border-radius: 14px;
       padding: 4px;
       box-shadow: var(--card-shadow);
-      transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
     }
 
     .search-input-wrapper:focus-within {
@@ -231,8 +265,8 @@ created: 2026-08-26
     .search-input {
       flex: 1;
       border: none;
-      padding: 16px 22px;
-      font-size: 1.08rem;
+      padding: 14px 18px;
+      font-size: 1.02rem;
       background: transparent;
       color: var(--text-primary);
       outline: none;
@@ -242,32 +276,37 @@ created: 2026-08-26
 
     .search-input::placeholder {
       color: var(--text-muted);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-size: 0.98rem;
+      font-size: 0.95rem;
       font-weight: 400;
     }
 
     .search-button {
-      background: var(--text-primary);
-      color: var(--bg-canvas);
+      background: var(--wordmark-accent);
+      color: #ffffff;
       border: none;
-      padding: 0 28px;
+      padding: 0 24px;
       margin: 2px;
       font-size: 0.92rem;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: 0.02em;
-      border-radius: 12px;
+      border-radius: 10px;
       cursor: pointer;
-      transition: opacity 0.15s ease, transform 0.1s ease;
+      transition: opacity 0.15s ease, background-color 0.15s ease;
       white-space: nowrap;
     }
 
-    .search-button:hover {
-      opacity: 0.88;
+    body.tsap-dark-mode .search-button {
+      background: #1e5fbf !important;
+      color: #ffffff !important;
     }
 
-    .search-button:active {
-      transform: scale(0.98);
+    body.tsap-dark-mode .search-button:hover {
+      background: #38bdf8 !important;
+      color: #0f172a !important;
+    }
+
+    .search-button:hover {
+      opacity: 0.9;
     }
 
     .search-button:focus {
@@ -297,7 +336,7 @@ created: 2026-08-26
     .error-state {
       display: none;
       text-align: center;
-      padding: 32px 24px;
+      padding: 28px 24px;
       background: var(--bg-surface);
       border: 1px solid var(--border-subtle);
       border-radius: 12px;
@@ -312,11 +351,11 @@ created: 2026-08-26
 
     .results-section {
       display: none;
-      margin-top: 48px;
-      padding: 36px 32px;
+      margin-top: 40px;
+      padding: 32px 28px;
       background: var(--bg-surface);
       border: 1px solid var(--border-subtle);
-      border-radius: 16px;
+      border-radius: 14px;
       box-shadow: var(--card-shadow);
     }
 
@@ -435,8 +474,8 @@ created: 2026-08-26
     }
 
     .new-search-link:hover {
-      border-color: var(--text-primary);
-      color: var(--text-primary);
+      border-color: var(--border-focus);
+      color: var(--wordmark-accent);
     }
 
     .new-search-link:focus {
@@ -444,18 +483,18 @@ created: 2026-08-26
       outline-offset: 2px;
     }
 
-    /* Restrained, Dignified Footer */
+    /* Footer */
     .page-footer {
       margin-top: auto;
-      padding-top: 64px;
+      padding-top: 48px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 10px;
+      gap: 4px;
     }
 
     .footer-divider {
-      width: 48px;
+      width: 40px;
       height: 1px;
       background: var(--border-subtle);
       margin-bottom: 8px;
@@ -465,9 +504,10 @@ created: 2026-08-26
       font-size: 0.88rem;
       color: var(--text-muted);
       text-decoration: none;
-      padding: 4px 10px;
-      border-radius: 6px;
+      padding: 2px 8px;
+      border-radius: 4px;
       transition: color 0.15s ease;
+      line-height: 1.35;
     }
 
     .footer-link:hover {
@@ -490,28 +530,38 @@ created: 2026-08-26
 
     @media (max-width: 640px) {
       .page-container {
-        padding: 56px 18px 40px;
+        padding: 48px 16px 36px;
       }
 
       .portrait-frame {
         width: 56px;
         height: 56px;
-        margin-bottom: 18px;
+        margin-bottom: 16px;
       }
 
       .archive-title {
         font-size: 1.95rem;
       }
 
+      .archive-badge {
+        font-size: 0.72rem;
+        padding: 4px 10px;
+        letter-spacing: 0.04em;
+      }
+
       .search-input-wrapper {
         flex-direction: column;
         padding: 6px;
-        border-radius: 14px;
+        border-radius: 12px;
       }
 
       .search-input {
         padding: 12px 14px;
-        font-size: 1rem;
+        font-size: 0.95rem;
+      }
+
+      .search-input::placeholder {
+        font-size: 0.86rem;
       }
 
       .search-button {
@@ -521,7 +571,7 @@ created: 2026-08-26
       }
 
       .results-section {
-        padding: 24px 20px;
+        padding: 24px 18px;
       }
     }
 
@@ -532,6 +582,20 @@ created: 2026-08-26
   </style>
 </head>
 <body>
+  <script>
+    // Sync active theme class from localStorage if present
+    (function() {
+      try {
+        const theme = localStorage.getItem('tsap-theme');
+        if (theme === 'dark') {
+          document.body.classList.add('tsap-dark-mode');
+        } else if (theme === 'light') {
+          document.body.classList.add('tsap-light-mode');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
   <a href="#search-input" class="skip-link sans-ui">Skip to search</a>
 
   <main class="page-container" role="main">
@@ -548,8 +612,9 @@ created: 2026-08-26
         <span class="title-initials">A. M. A.</span> <span class="title-surname">Ayrookuzhiel</span>
       </h1>
       <div class="archive-badge sans-ui">
-        <span class="badge-dot" aria-hidden="true"></span>
+        <span class="badge-prefix">Preparatory version:</span>
         <span>Search and Interaction Engine</span>
+        <span class="badge-dot" aria-hidden="true"></span>
       </div>
     </header>
 
@@ -602,7 +667,7 @@ created: 2026-08-26
 
     <footer class="page-footer sans-ui">
       <div class="footer-divider" aria-hidden="true"></div>
-      <a href="/" class="footer-link primary-nav">Back to The Sunil Abraham Project</a>
+      <a href="/" class="footer-link primary-nav">The Sunil Abraham Project</a>
       <a href="/amaa/" class="footer-link">A. M. A. Ayrookuzhiel</a>
     </footer>
   </main>
