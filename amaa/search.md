@@ -13,6 +13,8 @@ created: 2026-08-26
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
   <style>
     *, *::before, *::after {
       box-sizing: border-box;
@@ -406,6 +408,62 @@ created: 2026-08-26
       margin-bottom: 0;
     }
 
+    .result-answer-content ul,
+    .result-answer-content ol {
+      margin: 0.75em 0 1.15em 1.5em;
+      padding-left: 0.5em;
+    }
+
+    .result-answer-content li {
+      margin-bottom: 0.5em;
+    }
+
+    .result-answer-content li:last-child {
+      margin-bottom: 0;
+    }
+
+    .result-answer-content h1,
+    .result-answer-content h2,
+    .result-answer-content h3,
+    .result-answer-content h4 {
+      margin-top: 1.25em;
+      margin-bottom: 0.5em;
+      color: var(--text-primary);
+      line-height: 1.3;
+    }
+
+    .result-answer-content code {
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 0.88em;
+      background: var(--bg-elevated);
+      padding: 2px 6px;
+      border-radius: 4px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .result-answer-content pre {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 12px 16px;
+      overflow-x: auto;
+      margin: 1em 0;
+    }
+
+    .result-answer-content pre code {
+      background: transparent;
+      padding: 0;
+      border: none;
+    }
+
+    .result-answer-content blockquote {
+      border-left: 3px solid var(--wordmark-accent);
+      margin: 1em 0;
+      padding-left: 1rem;
+      color: var(--text-secondary);
+      font-style: italic;
+    }
+
     .result-inline-link {
       color: var(--wordmark-accent);
       text-decoration: underline;
@@ -727,6 +785,13 @@ created: 2026-08-26
       const sourcesList = document.getElementById('sources-list');
       const newSearchLink = document.getElementById('new-search-link');
 
+      if (window.marked) {
+        marked.use({
+          gfm: true,
+          breaks: true
+        });
+      }
+
       function sanitizeUrl(url) {
         if (!url) return '#';
         const trimmed = url.trim();
@@ -747,91 +812,55 @@ created: 2026-08-26
         return trimmed;
       }
 
-      function createLinkElement(targetUrl, displayText) {
-        const a = document.createElement('a');
-        const resolvedHref = toRelativeIfOwnDomain(targetUrl);
-        a.href = sanitizeUrl(resolvedHref);
-        a.textContent = displayText || resolvedHref;
-        a.className = 'result-inline-link';
-        
-        // Open truly external links in a safe context
-        if (/^https?:\/\//i.test(resolvedHref)) {
-          a.rel = 'noopener noreferrer';
-        }
-        return a;
-      }
-
-      function appendFormattedLine(container, text) {
-        // Regex matches Markdown links: [Title](URL) OR raw URLs: https?://... or /amaa/...
-        const tokenRegex = /\[([^\]]+)\]\((https?:\/\/[^\s\)]+|\/[^\s\)]+)\)|(https?:\/\/[^\s\)]+)|(\/(?:amaa|articles|sunil|media|events|publications|categories|cis|tools|versions)\/[^\s\)\],.;]*)/gi;
-        
-        let lastIndex = 0;
-        let match;
-
-        while ((match = tokenRegex.exec(text)) !== null) {
-          if (match.index > lastIndex) {
-            container.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
-          }
-
-          if (match[1] && match[2]) {
-            // Markdown link format [Text](URL)
-            container.appendChild(createLinkElement(match[2], match[1]));
-          } else if (match[3]) {
-            // Raw HTTP/HTTPS URL
-            let rawUrl = match[3];
-            let trailing = '';
-            // Strip trailing punctuation like . , ; : ) that are part of standard prose
-            const trailingMatch = rawUrl.match(/[.,;:\)]+$/);
-            if (trailingMatch) {
-              trailing = trailingMatch[0];
-              rawUrl = rawUrl.slice(0, -trailing.length);
-            }
-            container.appendChild(createLinkElement(rawUrl, toRelativeIfOwnDomain(rawUrl)));
-            if (trailing) {
-              container.appendChild(document.createTextNode(trailing));
-            }
-          } else if (match[4]) {
-            // Relative site link
-            let relUrl = match[4];
-            let trailing = '';
-            const trailingMatch = relUrl.match(/[.,;:\)]+$/);
-            if (trailingMatch) {
-              trailing = trailingMatch[0];
-              relUrl = relUrl.slice(0, -trailing.length);
-            }
-            container.appendChild(createLinkElement(relUrl, relUrl));
-            if (trailing) {
-              container.appendChild(document.createTextNode(trailing));
-            }
-          }
-
-          lastIndex = tokenRegex.lastIndex;
-        }
-
-        if (lastIndex < text.length) {
-          container.appendChild(document.createTextNode(text.substring(lastIndex)));
-        }
-      }
-
       function renderSafeAnswer(rawText) {
         resultAnswerContent.innerHTML = '';
         if (!rawText) return;
 
-        const paragraphs = rawText.split(/\n\s*\n/);
-        paragraphs.forEach(pText => {
-          const trimmed = pText.trim();
-          if (trimmed) {
-            const p = document.createElement('p');
-            const lines = trimmed.split('\n');
-            lines.forEach((line, index) => {
-              if (index > 0) {
-                p.appendChild(document.createElement('br'));
-              }
-              appendFormattedLine(p, line);
-            });
-            resultAnswerContent.appendChild(p);
+        let parsedHtml = '';
+        if (window.marked && typeof marked.parse === 'function') {
+          parsedHtml = marked.parse(rawText);
+        } else {
+          // Fallback if marked failed to load
+          const div = document.createElement('div');
+          div.textContent = rawText;
+          parsedHtml = '<p>' + div.innerHTML.replace(/\n\s*\n/g, '</p><p>').replace(/\n/g, '<br>') + '</p>';
+        }
+
+        // Sanitize with DOMPurify
+        let cleanHtml = parsedHtml;
+        if (window.DOMPurify && typeof DOMPurify.sanitize === 'function') {
+          cleanHtml = DOMPurify.sanitize(parsedHtml, {
+            ALLOWED_TAGS: [
+              'p', 'br', 'strong', 'b', 'em', 'i', 'u', 's', 'strike',
+              'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+              'ul', 'ol', 'li', 'blockquote',
+              'code', 'pre', 'hr', 'a'
+            ],
+            ALLOWED_ATTR: ['href', 'title', 'target', 'rel', 'class']
+          });
+        }
+
+        // Parse into DOM container and process links
+        const tempContainer = document.createElement('div');
+        tempContainer.innerHTML = cleanHtml;
+
+        const links = tempContainer.querySelectorAll('a');
+        links.forEach(a => {
+          const rawHref = a.getAttribute('href') || '';
+          const resolvedHref = toRelativeIfOwnDomain(rawHref);
+          a.setAttribute('href', sanitizeUrl(resolvedHref));
+          a.classList.add('result-inline-link');
+
+          if (/^https?:\/\//i.test(resolvedHref)) {
+            a.setAttribute('rel', 'noopener noreferrer');
+          } else {
+            a.removeAttribute('rel');
           }
         });
+
+        while (tempContainer.firstChild) {
+          resultAnswerContent.appendChild(tempContainer.firstChild);
+        }
       }
 
       function showLoading() {
