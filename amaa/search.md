@@ -1,12 +1,12 @@
 ---
 layout: none
-title: "A. M. A. Ayrookuzhiel — Search and Interaction Engine"
-description: "Search and interact with the writings, research, and archival material of A. M. A. Ayrookuzhiel."
+title: "A. M. A. Ayrookuzhiel — Knowledge Engine"
+description: "Explore and interact with the writings, research, and archival material of A. M. A. Ayrookuzhiel."
 permalink: /amaa/search/
 categories: [A. M. A. Ayrookuzhiel]
 created: 2026-08-26
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -613,7 +613,7 @@ created: 2026-08-26
       </h1>
       <div class="archive-badge sans-ui">
         <span class="badge-prefix">Preparatory version:</span>
-        <span>Search and Interaction Engine</span>
+        <span>Knowledge Engine</span>
         <span class="badge-dot" aria-hidden="true"></span>
       </div>
     </header>
