@@ -626,7 +626,7 @@ created: 2026-08-26
             type="text"
             id="search-input"
             class="search-input"
-            placeholder="Ask about A. M. A. Ayrookuzhiel's work in any language..."
+            placeholder="🔍 Ask about A. M. A. Ayrookuzhiel's work..."
             autocomplete="off"
             required
           >
