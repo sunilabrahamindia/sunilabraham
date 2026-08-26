@@ -676,7 +676,7 @@ created: 2026-08-26
     </section>
 
     <div class="loading-state" id="loading-state" aria-live="polite" aria-busy="true">
-      Consulting the archive...
+      We are preparing your answer. This generally takes around 30 seconds...
     </div>
 
     <div class="error-state sans-ui" id="error-state" aria-live="assertive">
