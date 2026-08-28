@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Internet Privacy in India"
-description: "A January 2013 CIS knowledge repository article by Elonnai Hickok examining internet privacy in India, covering the changing nature of online personal data, jurisdictional complications, current legal provisions under the IT Act, cyber café surveillance rules, the Report of the Group of Experts on Privacy's nine national privacy principles, and the state of privacy legislation in India."
+description: "A January 2013 CIS knowledge repository article by Elonnai Hickok examining internet privacy in India, covering the changing nature of online personal data, jurisdictional complications, current legal provisions under the IT Act, cyber café surveillance rules, the Report of the Group of Experts on Privacy's nine national privacy principles, and the state of privacy legislation in Indiao."
 authors: ["Elonnai Hickok"]
 categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2014-01-08
@@ -27,7 +27,7 @@ homepage_featured: true
   <dd><em>Centre for Internet and Society</em></dd>
 
   <dt>📅 Date:</dt>
-  <dd>08 January 2014</dd>
+  <dd>8 January 2014</dd>
 
   <dt>✍️ Author:</dt>
   <dd>Elonnai Hickok</dd>
