@@ -27,7 +27,7 @@ homepage_featured: true
   <dd><em>Centre for Internet and Society</em></dd>
 
   <dt>📅 Date:</dt>
-  <dd>03 March 2014</dd>
+  <dd>3 March 2014</dd>
 
   <dt>✍️ Author:</dt>
   <dd>Elonnai Hickok</dd>
