@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-11-20
 source: "Centre for Internet and Society"
 permalink: /elonnai/report-of-seventh-privacy-round-table/
+page_id: TSAP-1241
 created: 2026-08-28
 homepage_featured: true
 ---

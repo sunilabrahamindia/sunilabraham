@@ -4,6 +4,7 @@ title: "A. M. A. Ayrookuzhiel — Knowledge Engine"
 description: "Explore and interact with the writings, research, and archival material of A. M. A. Ayrookuzhiel."
 permalink: /amaa/search/
 categories: [A. M. A. Ayrookuzhiel]
+page_id: TSAP-1236
 created: 2026-08-26
 ---
 

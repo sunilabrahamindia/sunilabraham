@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2014-01-20
 source: "Centre for Internet and Society"
 permalink: /elonnai/gni-assessment-finds-ict-companies-protect-user-privacy-and-freedom-of-expression/
+page_id: TSAP-1243
 created: 2026-08-29
 homepage_featured: true
 ---

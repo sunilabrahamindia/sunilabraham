@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2014-03-03
 source: "Centre for Internet and Society"
 permalink: /elonnai/comparison-of-section-35-1-of-draft-human-dna-profiling-bill-and-section-4-of-identification-act-revised-statute-of-canada/
+page_id: TSAP-1242
 created: 2026-08-29
 homepage_featured: true
 ---

@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-09-25
 source: "Centre for Internet and Society"
 permalink: /elonnai/cis-and-international-coalition-calls-upon-governments-to-protect-privacy/
+page_id: TSAP-1233
 created: 2026-08-25
 homepage_featured: true
 ---

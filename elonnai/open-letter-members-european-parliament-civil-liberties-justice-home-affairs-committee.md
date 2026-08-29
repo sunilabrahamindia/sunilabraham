@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-10-23
 source: "Centre for Internet and Society"
 permalink: /elonnai/open-letter-members-european-parliament-civil-liberties-justice-home-affairs-committee/
+page_id: TSAP-1234
 created: 2026-08-25
 homepage_featured: true
 ---

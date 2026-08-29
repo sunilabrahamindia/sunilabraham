@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2013-11-30
 source: "Centre for Internet and Society"
 permalink: /elonnai/cis-supports-the-un-resolution-on-the-right-to-privacy-in-the-digital-age/
+page_id: TSAP-1239
 created: 2026-08-28
 homepage_featured: true
 ---
