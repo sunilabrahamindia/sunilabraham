@@ -9,12 +9,12 @@ created: 2025-11-06
 sitemap: true
 ---
 
-This page lists all assigned short URL paths and keyboard shortcuts that provide quick access to main sections of the website. These shortcuts are designed to improve accessibility for keyboard users, screen reader users, and power users.
+This page lists all assigned short URL paths and keyboard shortcuts that provide quick access to main sections of the website. These shortcuts are designed to make frequently used pages easier to remember, type, share, and access, including for people who prefer keyboard-based navigation.
 
 ## URL Shortcuts
 
 These are normal, accessible URLs (not JavaScript shortcuts).  
-Each uses a compliant HTML meta refresh redirect.
+Each uses an HTML meta refresh redirect.
 
 | Shortcut | Redirects to | Description |
 |-----------|---------------|--------------|
@@ -27,7 +27,7 @@ Each uses a compliant HTML meta refresh redirect.
 
 ## Extended URL Shortcuts
 
-These shortcuts use multiple letters and provide direct access to specific articles, event hubs, or important sections.  
+These shortcuts use multiple letters or descriptive names and provide direct access to specific articles, event hubs, or important sections.  
 They follow the same accessibility and redirect principles as single-letter shortcuts.
 
 | Shortcut | Redirects to | Description |
@@ -35,6 +35,11 @@ They follow the same accessibility and redirect principles as single-letter shor
 | [`/free/`](https://sunilabraham.in/free/) | [`/articles/free/`](https://sunilabraham.in/articles/free/) | Article: Free |
 | [`/ais/`](https://sunilabraham.in/ais/) | [`/events/india-ai-impact-summit-2026/`](https://sunilabraham.in/events/india-ai-impact-summit-2026/) | India AI Impact Summit 2026 main page |
 | [`/aisd/`](https://sunilabraham.in/aisd/) | [`/events/india-ai-impact-summit-2026/#outcome-documents`](https://sunilabraham.in/events/india-ai-impact-summit-2026/#outcome-documents) | India AI Impact Summit 2026 outcome documents section |
+| [`/edrl/`](https://sunilabraham.in/edrl/) | [`/amaa/edrl/`](https://sunilabraham.in/amaa/edrl/) | Essays on Dalits, Religion and Liberation |
+| [`/swami/`](https://sunilabraham.in/swami/) | [`/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/`](https://sunilabraham.in/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/) | Swami Anand Thirth article |
+| [`/fp/`](https://sunilabraham.in/fp/) | [`/tsap/foundational-principles/`](https://sunilabraham.in/tsap/foundational-principles/) | TSAP Foundational Principles |
+| [`/foundational-principles/`](https://sunilabraham.in/foundational-principles/) | [`/tsap/foundational-principles/`](https://sunilabraham.in/tsap/foundational-principles/) | TSAP Foundational Principles |
+| [`/30/`](https://sunilabraham.in/30/) | [`/amaa/30/`](https://sunilabraham.in/amaa/30/) | A. M. A. Ayrookuzhiel 30th anniversary |
 
 ## Keyboard Shortcuts
 
@@ -53,7 +58,7 @@ These are implemented using lightweight, accessible JavaScript in the site foote
 - URL shortcuts are simple, predictable, and compatible with all browsers and assistive technologies.  
 - Keyboard shortcuts are designed to avoid conflicts with common browser shortcuts.  
 - The `Alt + Shift` modifier combination follows accessibility guidelines used by MediaWiki (Wikipedia) for cross-browser compatibility.  
-- Shortcut pages use compliant HTML redirects.  
+- Shortcut pages use HTML redirects.  
 - This directory **is** listed in the sitemap, but the individual shortcut pages are **not**, to avoid SEO duplication.
 
 <style>
