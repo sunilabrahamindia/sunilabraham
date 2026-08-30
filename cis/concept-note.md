@@ -276,4 +276,48 @@ The concept note identifies several countries and contexts offering immediate op
     margin: 0 auto;
   }
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .activities-table-wrap {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .activities-table thead tr {
+  background: #0f172a !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .activities-table th {
+  border-bottom: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .activities-table tbody tr {
+  background: #1e293b !important;
+  border-bottom: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .activities-table tbody tr:nth-child(even) {
+  background: #172334 !important;
+}
+
+body.tsap-dark-mode .activities-table tbody tr:hover {
+  background: #24344d !important;
+}
+
+body.tsap-dark-mode .activities-table td {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .activities-table td:first-child {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .pdf-frame {
+  border-color: #374151 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
 </style>

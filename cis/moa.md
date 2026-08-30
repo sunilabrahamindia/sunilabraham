@@ -506,4 +506,43 @@ Every member of the Board of Management including any person(s) authorised by th
 .moa-table td:nth-child(3) {
   white-space: nowrap;
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .moa-table-wrap {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .moa-table thead tr {
+  background: #0f172a !important;
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .moa-table th {
+  border-bottom: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .moa-table tbody tr {
+  background: #1e293b !important;
+  border-bottom: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .moa-table tbody tr:nth-child(even) {
+  background: #172334 !important;
+}
+
+body.tsap-dark-mode .moa-table tbody tr:hover {
+  background: #24344d !important;
+}
+
+body.tsap-dark-mode .moa-table td {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .moa-table td:first-child {
+  color: #38bdf8 !important;
+}
 </style>

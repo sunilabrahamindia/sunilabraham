@@ -548,6 +548,70 @@ The President is the Chief Functionary of CIS, appointed by the Board of Managem
     padding: 0.7rem 2.6rem 0.7rem 2.4rem;
   }
 }
+
+/* =========================================================
+   Active Class Architecture Dark Mode Overrides
+   ========================================================= */
+
+body.tsap-dark-mode .explainer-card {
+  background: #1e293b !important;
+  border-color: #374151 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+}
+
+body.tsap-dark-mode .explainer-q {
+  background: #172334 !important;
+  color: #f3f4f6 !important;
+  border-bottom: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .explainer-q svg {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .explainer-a,
+body.tsap-dark-mode .explainer-list {
+  color: #cbd5e1 !important;
+}
+
+body.tsap-dark-mode .explainer-search {
+  background: #1e293b !important;
+  border-color: #374151 !important;
+  color: #f1f5f9 !important;
+}
+
+body.tsap-dark-mode .explainer-search:focus {
+  border-color: #38bdf8 !important;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2) !important;
+}
+
+body.tsap-dark-mode .explainer-search::placeholder {
+  color: #64748b !important;
+}
+
+body.tsap-dark-mode .explainer-search-icon,
+body.tsap-dark-mode .explainer-search-clear,
+body.tsap-dark-mode .explainer-no-results {
+  color: #94a3b8 !important;
+}
+
+body.tsap-dark-mode .explainer-search-clear:hover {
+  color: #f3f4f6 !important;
+}
+
+body.tsap-dark-mode .explainer-footer {
+  background: #172334 !important;
+  color: #94a3b8 !important;
+  border: 1px solid #374151 !important;
+}
+
+body.tsap-dark-mode .explainer-footer a {
+  color: #38bdf8 !important;
+}
+
+body.tsap-dark-mode .explainer-footer a:hover {
+  color: #7dd3fc !important;
+}
 </style>
 
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
