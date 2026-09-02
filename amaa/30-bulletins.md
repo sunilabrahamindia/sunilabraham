@@ -17,6 +17,7 @@ The **"Bulletins" page** documents the planning, progress, and activities relate
 3. [Bulletin 3](#bulletin-3)
 4. [Bulletin 4](#bulletin-4)
 5. [Bulletin 5](#bulletin-5)
+   - [Bulletin 5.1 — Interim Bulletin](#bulletin-51)
 
 ## Bulletin 1 {#bulletin-1}
 
@@ -350,6 +351,30 @@ Following this remapping, we worked on two chapters of the manuscript:
 
 1. [*Dalit Shrines (Kurava, Pulaya & Paraya)*](/amaa/dalit-shrines-kurava-pulaya-paraya/), which examines Dalit shrines among the Kurava, Pulaya, and Paraya communities in Kottarakara Taluk, Kollam District, including their origins, myths, ownership, objects of worship, offerings, and priesthood.
 2. [*Chapter 2, Devaswom Board Temples*](/amaa/chapter-2-devaswom-board-temples/), which discusses Devaswom Board temples, their history and administration, the opening of temples to Dalits and other backward castes, Panchayat and Trust Temples, and the ritual jurisdiction of temple priests.
+
+### Bulletin 5.1 — Interim Bulletin
+
+🗓️ Date: Tuesday, 1 September 2026
+
+The regular bulletins of the 30th death anniversary commemoration are published on the 15th of each month. Bulletin 5.1 is an interim bulletin, being published at the beginning of September to mark an important transition in the work towards the commemoration.
+
+From 1 September to 15 October 2026, a dedicated period of editing, contributing, and enhancement will take place. The first months of the project have involved substantial work in locating, documenting, transcribing, and publishing materials relating to the life and work of A. M. A. Ayrookuzhiel. This next phase provides an opportunity to review that work, strengthen what is already available, and invite further contributions.
+
+The work during this period will continue to be guided by the objectives and areas of work established during the project:
+
+1. **Writings not in Collected Works:** Continue to locate, document, edit, and make available essays, papers, lectures, book reviews, and other writings of A. M. A. Ayrookuzhiel that are not included in _Essays on Dalits, Religion and Liberation_.
+
+2. **Unpublished manuscript:** Continue the study, transcription, organisation, and mapping of the surviving materials relating to _Dalit and Hindu Religious Identity_, with further work towards understanding the structure and scope of the unfinished manuscript.
+
+3. **Storytelling for everyone:** Develop accessible ways of presenting and communicating Ayrookuzhiel's ideas and work through presentations, infographics, visual material, and other storytelling formats for wider audiences.
+
+4. **General project improvements:** Strengthen the wider portal and project through improvements to navigation, discoverability, internal linking, metadata, accessibility, photographs and archival documentation, institutional connections, and other areas that can improve the quality and usefulness of the archive.
+
+This dedicated period is intended not simply to add more material, but to improve, connect, review, and build upon the substantial body of work that has already been created.
+
+The work and progress during this phase will be listed and tracked through the project's [GitHub Project](https://github.com/users/sunilabrahamindia/projects/2) and the [30th Death Anniversary label](https://github.com/sunilabrahamindia/sunilabraham/issues?q=label%3A%2230th-death-anniversary%22). This will provide a central place to document the work, track progress, and organise contributions during the phase.
+
+The interim bulletin therefore marks the beginning of this focused phase. The regular monthly bulletin cycle will continue alongside this work, with Bulletin 6 scheduled for 15 September 2026 and Bulletin 7 for 15 October 2026. Bulletin 6 will report on the work undertaken during the preceding month, including the first 15 days of the dedicated phase, while Bulletin 7 will report on the work of the final month and mark the conclusion of the dedicated editing, contributing and enhancement phase.
 
 {% include navbox-amaa.html %}
 
