@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Dalit Kavithakal: Oru Padanam
+title: "Dalit Kavithakal: Oru Padanam"
 permalink: /amaa/dalit-kavithakal/
 categories: ["A. M. A. Ayrookuzhiel", "Books by A. M. A. Ayrookuzhiel"]
-description: A Malayalam-language book by Paul Chirakkarodu, M. Sathyaprakasham and Athanasius Mathen Abraham Ayrookuzhiel, published by Christian Literature Society in Tiruvalla in 1992.
+description: "A Malayalam-language book by Paul Chirakkarodu, M. Sathyaprakasham and Athanasius Mathen Abraham Ayrookuzhiel, published by Christian Literature Society in Tiruvalla in 1992."
 created: 2026-09-02
 ---
 
