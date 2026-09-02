@@ -17,7 +17,7 @@ The **"Bulletins" page** documents the planning, progress, and activities relate
 3. [Bulletin 3](#bulletin-3)
 4. [Bulletin 4](#bulletin-4)
 5. [Bulletin 5](#bulletin-5)
-   - [Bulletin 5.1 — Preparatory Bulletin](#bulletin-51)
+6. [Bulletin 5.1 — Preparatory Bulletin](#bulletin-51)
 
 ## Bulletin 1 {#bulletin-1}
 
@@ -352,7 +352,7 @@ Following this remapping, we worked on two chapters of the manuscript:
 1. [*Dalit Shrines (Kurava, Pulaya & Paraya)*](/amaa/dalit-shrines-kurava-pulaya-paraya/), which examines Dalit shrines among the Kurava, Pulaya, and Paraya communities in Kottarakara Taluk, Kollam District, including their origins, myths, ownership, objects of worship, offerings, and priesthood.
 2. [*Chapter 2, Devaswom Board Temples*](/amaa/chapter-2-devaswom-board-temples/), which discusses Devaswom Board temples, their history and administration, the opening of temples to Dalits and other backward castes, Panchayat and Trust Temples, and the ritual jurisdiction of temple priests.
 
-### Bulletin 5.1 — Preparatory Bulletin {#bulletin-51}
+## Bulletin 5.1 — Preparatory Bulletin {#bulletin-51}
 
 🗓️ Date: Tuesday, 1 September 2026
 
