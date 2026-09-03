@@ -24,9 +24,9 @@ Each entry should indicate whether that was featured in the website footer, on a
 
 ## September 2026
 - 3 September 2026: The Sunil Abraham Project reached 1,250 published pages with [Authority Control: Elonnai Hickok](/elonnai/authority-control/). *(✅ Featured in: Website footer)*
-- 3 September 2026: [**A. M. A. Ayrookuzhiel — Knowledge Engine**](/amaa/search/) preparatory version has been released. *(✅ Featured in: Website footer)*
 
 ## August 2026
+- 26 August 2026: [**A. M. A. Ayrookuzhiel — Knowledge Engine**](/amaa/search/) preparatory version has been released. *(✅ Featured in: Website footer)*
 - 16 August 2026: The <a href="/amaa/30-bulletins/#bulletin-5">fifth bulletin</a> on preparations for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel has been published. *(✅ Featured in: Website footer)*
 - 9 August 2026: 1,200th page is published with ["Bloggers' Rights Subordinated to Rights of Expression"](/elonnai/bloggers-rights-subordinated-to-rights-of-expression/). *(✅ Featured in: Website footer)*
 
