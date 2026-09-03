@@ -80,14 +80,14 @@ The full text of these principles is recorded in [TSAP Foundational Principles](
 - 12 March 2026 (Thursday) — The Sunil Abraham Project completed 700 published articles with the publication of [*Unshackling Expression*](/media/unshackling-expression-internet-democracy-project/).
 - 27 March 2026 (Friday) — 800 published articles with the publication of [*«Биометрические ID в Индии становятся инструментом тотальной слежки»*](/media/aadhaar-biometric-surveillance-hightech-fm/). (English: *Biometric IDs in India Are Becoming a Tool of Total Surveillance)*)
 - 11 April 2026 (Saturday) — The Sunil Abraham Project reached 850 published articles with the publication of [*Concept Note for the Centre for Internet and Society*](/cis/concept-note/).
-- 21 April 2026 (Tuesday) — 900 published articles with the publication of [*My Outsides Look Cool, My Insides Are Blue...*](/publications/my-outsides-look-cool-my-insides-are-blue-sunday-herald/).
+- 21 April 2026 (Tuesday) — 900 published articles with the publication of [*My Outsides Look Cool, My Insides Are Blue...*](/publications/my-outsides-look-cool-sunday-herald/).
 - 7 May 2026 (Thursday) — 950 published articles with the publication of [*Fifth Anniversary of the Centre for Internet and Society*](/cis/fifth-anniversary/).
 - 21 May 2026 (Thursday) — TSAP reached 1000 published articles with the publication of [*Sunil Abraham on Aaron Swartz*](/sunil/aaron-swartz/).
 - 17 June 2026 (Wednesday) — Version 2.0 of the Sunil Abraham Project was released, marking the completion of a major phase of expansion and development. For an overview of this cycle, see the [Version 2.0 Lookback](/versions/2.0/).
 - 28 June 2026 (Sunday), 1100th page [Frederick](/frederick/) was published.
 - 9 August 2026 (Sunday), 1200th page ["Bloggers' Rights Subordinated to Rights of Expression"](/elonnai/bloggers-rights-subordinated-to-rights-of-expression/) was published on the project.
 - 3 September 2026 (Thursday) — The Sunil Abraham Project reached 1,250 published pages with [Authority Control: Elonnai Hickok](/elonnai/authority-control/).
-- 3 September 2026 (Thursday) — The [A. M. A. Ayrookuzhiel — Knowledge Engine](/amaa/search/) preparatory version was released, introducing a dedicated search and exploration interface for the writings, research, and archival material of A. M. A. Ayrookuzhiel.
+- 26 August 2026 (Wednesday) — The [A. M. A. Ayrookuzhiel — Knowledge Engine](/amaa/search/) preparatory version was released, introducing a dedicated search and exploration interface for the writings, research, and archival material of A. M. A. Ayrookuzhiel.
 
 ## On Social Media {#social}
 
