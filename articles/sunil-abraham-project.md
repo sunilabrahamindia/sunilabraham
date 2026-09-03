@@ -86,6 +86,8 @@ The full text of these principles is recorded in [TSAP Foundational Principles](
 - 17 June 2026 (Wednesday) — Version 2.0 of the Sunil Abraham Project was released, marking the completion of a major phase of expansion and development. For an overview of this cycle, see the [Version 2.0 Lookback](/versions/2.0/).
 - 28 June 2026 (Sunday), 1100th page [Frederick](/frederick/) was published.
 - 9 August 2026 (Sunday), 1200th page ["Bloggers' Rights Subordinated to Rights of Expression"](/elonnai/bloggers-rights-subordinated-to-rights-of-expression/) was published on the project.
+- 3 September 2026 (Thursday) — The Sunil Abraham Project reached 1,250 published pages with [Authority Control: Elonnai Hickok](/elonnai/authority-control/).
+- 3 September 2026 (Thursday) — The [A. M. A. Ayrookuzhiel — Knowledge Engine](/amaa/search/) preparatory version was released, introducing a dedicated search and exploration interface for the writings, research, and archival material of A. M. A. Ayrookuzhiel.
 
 ## On Social Media {#social}
 
