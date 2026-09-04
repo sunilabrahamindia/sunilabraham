@@ -6,7 +6,7 @@ permalink: /sfp33/
 date: 2026-02-13
 page_id: TSAP-0582
 created: 2026-02-12
-categories: [Students for Peace, TSAP Events and Rituals]
+categories: [Students for Peace, TSAP Events and Rituals, TSAP Witness]
 ---
 
 <style>
