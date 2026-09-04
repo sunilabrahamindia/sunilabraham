@@ -61,7 +61,8 @@ created: 2026-09-05
       transform: translate3d(0, 0, 0);
     }
 
-    .witness-core {
+    /* Strict isolation against theme card/main styles */
+    .witness-universe-container .witness-core {
       position: relative;
       z-index: 2;
       width: 88vw;
@@ -72,17 +73,25 @@ created: 2026-09-05
       align-items: center;
       justify-content: center;
       pointer-events: none;
+      background: transparent !important;
+      background-color: transparent !important;
+      border: none !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+      outline: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
     }
 
     @media (min-width: 768px) {
-      .witness-core {
+      .witness-universe-container .witness-core {
         width: 48vw;
         max-width: 620px;
       }
     }
 
     @media (min-width: 1440px) {
-      .witness-core {
+      .witness-universe-container .witness-core {
         width: 38vw;
         max-width: 680px;
       }
@@ -127,7 +136,7 @@ created: 2026-09-05
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 5px; /* Tightened gap for new text */
+      gap: 5px;
     }
 
     .witness-title {
@@ -144,8 +153,8 @@ created: 2026-09-05
 
     .witness-subtext {
       margin: 0;
-      font-size: 0.7rem; /* Slightly smaller for subtext hierarchy */
-      letter-spacing: 0.15em; /* Reduced spacing for longer lines */
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
       line-height: 1.6;
       font-weight: 200;
       color: rgba(147, 163, 204, 0.55);
@@ -195,7 +204,7 @@ created: 2026-09-05
   <div class="witness-nebula-layer" id="witnessNebula" aria-hidden="true"></div>
   <canvas class="witness-canvas" id="witnessCanvas" aria-hidden="true"></canvas>
 
-  <main class="witness-core">
+  <div class="witness-core">
     <svg class="witness-svg" viewBox="0 0 500 300" role="img" aria-labelledby="witnessTitleId witnessDescId">
       <title id="witnessTitleId">The Witness - The Third Eye</title>
       <desc id="witnessDescId">An open spiritual third eye floating motionless amid an ancient moving cosmos of stars and nebulas.</desc>
@@ -285,7 +294,7 @@ created: 2026-09-05
             d="M 46 150 C 130 260, 370 260, 454 150 C 370 245, 130 245, 46 150 Z" 
             fill="#030308" opacity="0" />
     </svg>
-  </main>
+  </div>
 
   <div class="witness-scripture" id="witnessScripture" aria-live="polite">
     <h1 class="witness-title">The Witness</h1>
@@ -307,12 +316,10 @@ created: 2026-09-05
 
       const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-      // Reveal reflective aphorism cleanly
       setTimeout(() => {
         if (scripture) scripture.classList.add('revealed');
       }, 1400);
 
-      // Starfield state
       let width = 0;
       let height = 0;
       let dpr = 1;
@@ -320,7 +327,6 @@ created: 2026-09-05
       let animId = null;
       let isVisible = true;
 
-      // Target and damped position offsets for gentle parallax & awareness
       let mouseX = 0;
       let mouseY = 0;
       let currentX = 0;
