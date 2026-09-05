@@ -26,7 +26,7 @@ created: 2026-09-02
 
 *Dalit Kavithakal: Oru Padanam* is cited in scholarly literature concerned with Dalit theology, caste, religion and identity in India. An English-language doctoral thesis from the University of Glasgow refers to the work at several points, including discussions associated with pages 56 and 191–192. The book is also cited in an English-language discussion of Dalit theology under the English title *Dalit Poems: A Study*, confirming its publication in Tiruvalla in 1992.
 
-The book has also appeared in university-level Malayalam literature syllabi. A 2017 M.A. Malayalam syllabus of Sree Sankaracharya University of Sanskrit lists *ദലിത് കവിതകള്‍ ഒരു പഠനം*. A 2024 four-year undergraduate Malayalam syllabus of Sreenarayanaguru Open University likewise lists the work as a supporting/reference work under its Dalit literature-related course material, giving Christian Literature Society, Tiruvalla, as the publisher.
+The book has also appeared in university-level Malayalam literature syllabi. A 2017 M.A. Malayalam syllabus of Sree Sankaracharya University of Sanskrit lists *ദലിത് കവിതകള്‍ ഒരു പഠനം* on p. 109 (PDF page 109). A 2024 four-year undergraduate Malayalam syllabus of Sreenarayanaguru Open University likewise lists the work as a supporting/reference work under its Dalit literature-related course material, giving Christian Literature Society, Tiruvalla, as the publisher.
 
 These references place the book within the development and academic study of Dalit literature and thought in Malayalam.
 
@@ -34,7 +34,7 @@ These references place the book within the development and academic study of Dal
 
 1. [University of Glasgow PhD thesis](https://theses.gla.ac.uk/2456/1/2003abrahamphd.pdf), University of Glasgow, 2003, accessed 2 September 2026.
 2. [Dalit Theology](https://www.oldsite.religion-online.org/showarticle94c3.html?title=1121), Religion Online, accessed 2 September 2026.
-3. [M.A. Malayalam syllabus](https://ssus.ac.in/app/ssus/drive/ftp/naac/naac%20supporting/clarification/Criteria1/1.1.3/Syllabus%20of%20the%20Courses%20highlighting%20focus%20on%20entrepreneurship%20employability%20Certified/Highlighted%20PG%20Syllabus/MA%20Malayalam%202017.pdf), Sree Sankaracharya University of Sanskrit, 2017, accessed 2 September 2026.
+3. [M.A. Malayalam syllabus](https://ssus.ac.in/app/ssus/drive/ftp/naac/naac%20supporting/clarification/Criteria1/1.1.3/Syllabus%20of%20the%20Courses%20highlighting%20focus%20on%20entrepreneurship%20employability%20Certified/Highlighted%20PG%20Syllabus/MA%20Malayalam%202017.pdf), Sree Sankaracharya University of Sanskrit, 2017, p. 109 (PDF page 109), accessed 2 September 2026.
 4. [4 Year UG Malayalam syllabus](https://sgou-web-bucket.s3.ap-south-1.amazonaws.com/uploads/programme/ooT9BMRrAiyY0lPc9qPsGNfT7QAYbEvERICX77rW.pdf), Sreenarayanaguru Open University, 2024, p. 246 (PDF page 247), accessed 2 September 2026.
 5. [Dalith kavithakal: Oru padanam](https://find.uoc.ac.in/Record/223053), University of Calicut Library, 1992, accessed 2 September 2026.
 
