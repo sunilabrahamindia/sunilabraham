@@ -27,7 +27,6 @@ jobs:
           lines = body.splitlines()
           while lines and lines[0].strip() == '':
               lines.pop(0)
-          # The previous version was indented as standalone HTML, so Markdown rendered it as raw code.
           body = '\n'.join(line[4:] if line.startswith('    ') else line for line in lines)
           body = body.replace('<!DOCTYPE html>\n', '')
           body = re.sub(r'<html[^>]*>\n?', '', body)
@@ -35,6 +34,42 @@ jobs:
           body = re.sub(r'<body>\n?', '', body)
           body = re.sub(r'\n?</body>\n?</html>\s*$', '', body)
           body = body.replace('Tito S1', 'Simulation #1').replace('TITOS1', 'SIMULATION1')
+          body = body.replace(':root {', '#simulation-1 {', 1)
+          compact_css = '''
+          /* MOBILE-FIRST COMPACT HUD */
+          #simulation-1 .top-bar {
+              align-items: center;
+              gap: 0.5rem;
+          }
+          #simulation-1 .stats-hud {
+              flex: 1 1 auto;
+              min-width: 0;
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              gap: 0.45rem 0.75rem;
+              padding: 0.6rem 0.7rem;
+          }
+          #simulation-1 .stat-block { min-width: 0; }
+          #simulation-1 .stat-label {
+              font-size: 0.65rem;
+              margin-bottom: 0.1rem;
+          }
+          #simulation-1 .stat-value { font-size: 1rem; }
+          #simulation-1 .controls-toggle {
+              width: auto !important;
+              flex: 0 0 auto;
+              min-width: 4.2rem;
+              padding: 0.55rem 0.7rem;
+          }
+          @media (min-width: 769px) {
+              #simulation-1 .stats-hud {
+                  grid-template-columns: repeat(4, minmax(0, 1fr));
+                  gap: 0.6rem 1.2rem;
+              }
+              #simulation-1 .stat-value { font-size: 1.1rem; }
+          }
+          '''
+          body = body.replace('</style>', compact_css + '\n</style>', 1)
           p.write_text(head + marker + '\n' + body.rstrip() + '\n', encoding='utf-8')
           PY
       - name: Commit page fix
