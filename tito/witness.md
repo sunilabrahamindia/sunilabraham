@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Witness
-categories: [Project pages, Tito Dutta, TSAP Exhibition]
+categories: [TSAP Exhibition, Tito Dutta]
 description: A visual meditation on the Witness — awareness that remains still while the cosmos moves.
 permalink: /tito/witness/
 created: 2026-09-05
