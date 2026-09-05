@@ -1,0 +1,45 @@
+name: Fix Simulation #1 embedding
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-simulation1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix embedded layout
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('tito/s1.md')
+          s=p.read_text()
+          s=s.replace('<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">\n    <title>Simulation #1: Artificial Ecosystem</title>\n','')
+          s=s.replace('</head>\n<body>\n','').replace('</body>\n</html>','')
+          s=s.replace('<canvas id="sim-canvas"></canvas>','<div id="simulation-1" class="simulation-1">\n<canvas id="sim-canvas"></canvas>',1)
+          s=s.replace('\n    <script>\n','\n</div>\n\n    <script>\n',1)
+          s=s.replace('Tito S1','Simulation #1').replace('TITOS1','SIMULATION1')
+          s=re.sub(r'\n\s*body, html \{.*?\n\s*\}\n','\n',s,count=1,flags=re.S)
+          R={
+          '* {':'#simulation-1, #simulation-1 * {','canvas {':'#simulation-1 canvas {','.ui-layer {':'#simulation-1 .ui-layer {','.panel {':'#simulation-1 .panel {','.top-bar {':'#simulation-1 .top-bar {','.stats-hud {':'#simulation-1 .stats-hud {','.stat-block {':'#simulation-1 .stat-block {','.stat-label {':'#simulation-1 .stat-label {','.stat-value {':'#simulation-1 .stat-value {','.controls-toggle {':'#simulation-1 .controls-toggle {','.control-group {':'#simulation-1 .control-group {','.control-title {':'#simulation-1 .control-title {','.inspector-close {':'#simulation-1 .inspector-close {','.trait-bar-container {':'#simulation-1 .trait-bar-container {','.trait-bar {':'#simulation-1 .trait-bar {','.trait-row {':'#simulation-1 .trait-row {','.trait-name {':'#simulation-1 .trait-name {','.human-summary {':'#simulation-1 .human-summary {','.modal-overlay {':'#simulation-1 .modal-overlay {','.modal-content {':'#simulation-1 .modal-content {','.modal-content h2 {':'#simulation-1 .modal-content h2 {','.modal-content p {':'#simulation-1 .modal-content p {','.modal-content ul {':'#simulation-1 .modal-content ul {','.modal-content li {':'#simulation-1 .modal-content li {','button {':'#simulation-1 button {','button:hover {':'#simulation-1 button:hover {','button.btn-secondary {':'#simulation-1 button.btn-secondary {','button.btn-secondary:hover {':'#simulation-1 button.btn-secondary:hover {','input[type="text"] {':'#simulation-1 input[type="text"] {','input[type="text"]:focus {':'#simulation-1 input[type="text"]:focus {','label.toggle {':'#simulation-1 label.toggle {','input[type="checkbox"] {':'#simulation-1 input[type="checkbox"] {','input[type="range"] {':'#simulation-1 input[type="range"] {','.range-label {':'#simulation-1 .range-label {','.btn-row {':'#simulation-1 .btn-row {'}
+          for a,b in R.items(): s=s.replace(a,b)
+          css='''\n#simulation-1{position:relative;width:100%;height:clamp(520px,75vh,760px);min-height:520px;margin:1.5rem 0;overflow:hidden;background:var(--bg-base);color:var(--text-main);border-radius:var(--radius-lg);border:1px solid var(--panel-border);touch-action:manipulation;isolation:isolate}\n#simulation-1 canvas{position:absolute;inset:0;width:100%;height:100%}\n#simulation-1 .ui-layer{position:absolute;inset:0;width:100%;height:100%;padding:1rem}\n#simulation-1 .modal-overlay{position:absolute;inset:0;width:100%;height:100%}\n#simulation-1 .modal-content{max-height:calc(100% - 2rem)}\n#simulation-1 #controls-sidebar{max-height:calc(100% - 5rem)}\n@media(max-width:768px){#simulation-1{height:600px;min-height:600px}#simulation-1 #controls-sidebar{max-height:70%}#simulation-1 #inspector-panel{max-height:50%}}\n'''
+          s=s.replace('</style>',css+'</style>',1)
+          s=s.replace('this.width = window.innerWidth;\n                this.height = window.innerHeight;\n                this.canvas.width = this.width;\n                this.canvas.height = this.height;','this.container = document.getElementById("simulation-1");\n                this.width = this.container.clientWidth;\n                this.height = this.container.clientHeight;\n                this.canvas.width = this.width;\n                this.canvas.height = this.height;',1)
+          s=s.replace('this.width = window.innerWidth;\n                    this.height = window.innerHeight;\n                    this.canvas.width = this.width;\n                    this.canvas.height = this.height;','this.width = this.container.clientWidth;\n                    this.height = this.container.clientHeight;\n                    this.canvas.width = this.width;\n                    this.canvas.height = this.height;',1)
+          p.write_text(s)
+          PY
+      - name: Commit fix
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tito/s1.md
+          git commit -m 'Fix Simulation #1 embedded layout' || exit 0
+          git push
