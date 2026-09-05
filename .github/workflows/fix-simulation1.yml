@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Convert Simulation #1 to a real embedded Markdown page
+      - name: Fix Simulation #1 embedding and What is this button
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -34,42 +34,40 @@ jobs:
           body = re.sub(r'<body>\n?', '', body)
           body = re.sub(r'\n?</body>\n?</html>\s*$', '', body)
           body = body.replace('Tito S1', 'Simulation #1').replace('TITOS1', 'SIMULATION1')
-          body = body.replace(':root {', '#simulation-1 {', 1)
+          # Ensure the simulation is a contained, mobile-first component.
           compact_css = '''
           /* MOBILE-FIRST COMPACT HUD */
-          #simulation-1 .top-bar {
-              align-items: center;
-              gap: 0.5rem;
-          }
+          #simulation-1 .top-bar { align-items: center; gap: 0.5rem; }
           #simulation-1 .stats-hud {
-              flex: 1 1 auto;
-              min-width: 0;
-              display: grid;
+              flex: 1 1 auto; min-width: 0; display: grid;
               grid-template-columns: repeat(2, minmax(0, 1fr));
-              gap: 0.45rem 0.75rem;
-              padding: 0.6rem 0.7rem;
+              gap: 0.45rem 0.75rem; padding: 0.6rem 0.7rem;
           }
           #simulation-1 .stat-block { min-width: 0; }
-          #simulation-1 .stat-label {
-              font-size: 0.65rem;
-              margin-bottom: 0.1rem;
-          }
+          #simulation-1 .stat-label { font-size: 0.65rem; margin-bottom: 0.1rem; }
           #simulation-1 .stat-value { font-size: 1rem; }
           #simulation-1 .controls-toggle {
-              width: auto !important;
-              flex: 0 0 auto;
-              min-width: 4.2rem;
+              width: auto !important; flex: 0 0 auto; min-width: 4.2rem;
               padding: 0.55rem 0.7rem;
           }
+          #simulation-1 .modal-overlay { position: absolute; inset: 0; z-index: 1000; }
+          #simulation-1 .modal-overlay.open { opacity: 1; pointer-events: auto; }
           @media (min-width: 769px) {
-              #simulation-1 .stats-hud {
-                  grid-template-columns: repeat(4, minmax(0, 1fr));
-                  gap: 0.6rem 1.2rem;
-              }
+              #simulation-1 .stats-hud { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.6rem 1.2rem; }
               #simulation-1 .stat-value { font-size: 1.1rem; }
           }
           '''
-          body = body.replace('</style>', compact_css + '\n</style>', 1)
+          if '</style>' in body:
+              body = body.replace('</style>', compact_css + '\n</style>', 1)
+          # Make the explanatory modal action explicit so it works reliably inside Jekyll's page DOM.
+          body = body.replace(
+              '<button id="btn-about" class="btn-secondary">What is this?</button>',
+              '<button id="btn-about" class="btn-secondary" type="button" onclick="document.getElementById(\'modal-about\').classList.add(\'open\')">What is this?</button>'
+          )
+          body = body.replace(
+              '<button id="btn-close-modal">Close</button>',
+              '<button id="btn-close-modal" type="button" onclick="document.getElementById(\'modal-about\').classList.remove(\'open\')">Close</button>'
+          )
           p.write_text(head + marker + '\n' + body.rstrip() + '\n', encoding='utf-8')
           PY
       - name: Commit page fix
@@ -77,5 +75,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add tito/s1.md
-          git commit -m 'Fix Simulation #1 Markdown rendering' || exit 0
+          git commit -m 'Fix Simulation #1 What is this button' || exit 0
           git push
