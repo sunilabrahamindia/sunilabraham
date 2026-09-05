@@ -1,5 +1,18 @@
 [
   {
+    "title": "Simulation #1",
+    "description": "An artificial-life experiment exploring autonomous organisms, ecology, evolution, resource competition, and emergent behaviour.",
+    "created": "2026-09-06",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Exhibition",
+      "Tito Dutta"
+    ],
+    "permalink": "https://sunilabraham.in/tito/s1/"
+  },
+  {
     "title": "The Witness",
     "description": "A visual meditation on the Witness — awareness that remains still while the cosmos moves.",
     "created": "2026-09-05",
