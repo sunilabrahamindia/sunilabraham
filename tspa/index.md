@@ -12,6 +12,17 @@ authors: [Tito Dutta]
 
 **TSPA** (pronounced "Teespa", IPA: /ˈtiːspə/) is a comic strip on [The Sunil Abraham Project](https://sunilabraham.in/), created by [Tito Dutta](/tito/) on 7 September 2026. The strips may explore technology, science, society, the internet, everyday life, ideas, absurdities, and whatever else seems worth turning into a few panels.
 
+## Contents
+
+1. [Issues](#issues)
+2. [Naming](#naming)
+3. [Influences](#influences)
+4. [Tools](#tools)
+
+## Issues
+
+To be listed here.
+
 ## Naming
 
 TSPA is a rearrangement of the four letters in TSAP, the short form of The Sunil Abraham Project. It does not have a separate expansion or hidden meaning; it is simply a short, distinctive name for the comic strip, derived from the project it belongs to.
@@ -35,10 +46,6 @@ Other works and creators that have influenced or inspired the idea of TSPA inclu
 - [Tom Gauld](https://tomgauld.com/) - A cartoonist known for minimalist drawings and dry humour, often involving books, literature, science and technology.
 
 TSPA does not copy any of their characters, artwork, visual identity, tone, jokes, storylines or other distinctive creative elements. The strips are independently and originally created.
-
-## Issues
-
-To be listed here.
 
 ## Tools
 
