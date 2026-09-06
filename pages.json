@@ -1,5 +1,18 @@
 [
   {
+    "title": "TSPA",
+    "description": "An original comic strip on The Sunil Abraham Project, created by Tito Dutta.",
+    "created": "2026-09-07",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Project pages",
+      "Tito Dutta"
+    ],
+    "permalink": "https://sunilabraham.in/tspa/"
+  },
+  {
     "title": "Simulation #1",
     "description": "An artificial-life experiment exploring autonomous organisms, ecology, evolution, resource competition, and emergent behaviour.",
     "created": "2026-09-06",
