@@ -250,6 +250,12 @@ document.addEventListener('keydown', function (e) {
       window.location.search = currentParams.toString();
     }
 
+    // Alt + Shift + H: Home page navigation
+    if (key === 'h') {
+      e.preventDefault();
+      window.location.href = '{{ "/" | relative_url }}';
+    }
+
     // Alt + Shift + W: Instant Newest Pages Navigation Router
     if (key === 'w') {
       e.preventDefault();
