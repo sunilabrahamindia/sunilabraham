@@ -12,6 +12,8 @@ authors: [Tito Dutta]
 
 **TSPA** (pronounced "Teespa", IPA: /ˈtiːspə/) is a comic strip on [The Sunil Abraham Project](https://sunilabraham.in/), created by [Tito Dutta](/tito/) on 7 September 2026. The strips may explore technology, science, society, the internet, everyday life, ideas, absurdities, and whatever else seems worth turning into a few panels.
 
+TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
+
 ## Contents
 
 1. [Issues](#issues)
