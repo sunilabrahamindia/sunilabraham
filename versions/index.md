@@ -22,6 +22,8 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 7. [Version 2.2.2](#version-222)
 8. [Version 2.2.3](#version-223)
 9. [Version 2.3](#version-23)
+10. [Version 2.3.1](#version-231)
+11. [Version 2.3.2](#version-232)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -215,6 +217,62 @@ From Sunday 16 August 2026 to Saturday 22 August 2026, 11 pages were created. So
 
 **GitHub issues created:** 1.
 * #28 [Standardise category permalinks to /categories/](https://github.com/sunilabrahamindia/sunilabraham/issues/28), created on 20 August 2026
+
+## Version 2.3.1
+From Sunday 23 August 2026 to Saturday 29 August 2026, 18 pages were created.
+
+* **[Open Letter to "Not" Recognize India as Data Secure Nation till Enactment of Privacy Legislation](/elonnai/open-letter-to-not-recognize-india-as-data-secure-nation/)**, created on 23 August 2026 – A June 2013 CIS open letter by Elonnai Hickok urging European Data Protection Commissioners not to recognise India as a data secure nation until it enacts comprehensive privacy legislation, prepared under the SAFEGUARDS project.
+* **[More than a Hundred Global Groups Make a Principled Stand against Surveillance](/elonnai/more-than-hundred-global-groups-make-principled-stand-against-surveillance/)**, created on 23 August 2026 – A July 2013 CIS post by Elonnai Hickok announcing the formal launch of the International Principles on the Application of Human Rights to Communications Surveillance, co-signed by over a hundred global organisations and led by Privacy International, Access, and the Electronic Frontier Foundation.
+* **[Versions Helper Tool](/versions/helper/)**, created on 24 August 2026 – A helper tool for generating version reports for The Sunil Abraham Project from any selected date range.
+* **[Does TSAP Use a Wiki Engine?](/tsap/wiki-engine/)**, created on 24 August 2026 – An explanation of how TSAP is built without a conventional wiki engine, and how Jekyll, Markdown, YAML, Git, GitHub, and custom TSAP scripts provide many wiki-like capabilities.
+* **[An Interview with Suresh Ramasubramanian](/elonnai/interview-with-suresh-ramasubramanian/)**, created on 24 August 2026 – A September 2013 CIS interview conducted by Elonnai Hickok with Suresh Ramasubramanian, ICS Quality Representative for IBM SmartCloud, covering cybersecurity, cloud data jurisdiction, encryption, spam regulation, and state-sponsored surveillance malware, prepared under the SAFEGUARDS project.
+* **[22 August 2026 Meeting: Methodology and Vision for the Unfinished Manuscript](/amaa/unfinished-manuscript-meeting-2026-08-22/)**, created on 24 August 2026 – Documentation of the 22 August 2026 meeting in which Sunil Abraham discussed the methodology, reconstruction process and broader vision for the unfinished manuscript of A. M. A. Ayrookuzhiel.
+* **[A Privacy Meeting with the Federal Trade Commission in New Delhi](/elonnai/privacy-meeting-with-ftc-new-delhi/)**, created on 25 August 2026 – A September 2013 CIS post by Elonnai Hickok recounting a roundtable meeting between the Centre for Internet and Society and Federal Trade Commission officials Betsy Broder and Sarah Schroeder in New Delhi, comparing the US sectoral approach to privacy regulation with emerging frameworks and challenges in India.
+* **[Open Letter to Members of the European Parliament of the Civil Liberties, Justice and Home Affairs Committee](/elonnai/open-letter-members-european-parliament-civil-liberties-justice-home-affairs-committee/)**, created on 25 August 2026 – An October 2013 CIS open letter by Elonnai Hickok expressing support for the EU's proposed General Data Protection Regulation, while raising four concerns around purpose limitation, interpretation of broad terms, jurisdictional scope, and foreign intelligence access, sent as part of a joint initiative with Privacy International and other NGOs.
+* **[CIS and International Coalition Calls upon Governments to Protect Privacy](/elonnai/cis-and-international-coalition-calls-upon-governments-to-protect-privacy/)**, created on 25 August 2026 – A September 2013 CIS post by Elonnai Hickok reporting on the Centre for Internet and Society's participation in an international coalition presenting the 13 International Principles on the Application of Human Rights to Communications Surveillance at the UN Human Rights Council in Geneva.
+* **[An Interview with Jacob Kohnstamm, Dutch Data Protection Authority and Chairman of the Article 29 Working Party](/elonnai/interview-with-jacob-kohnstamm/)**, created on 26 August 2026 – An October 2013 CIS interview with Jacob Kohnstamm, then head of the Dutch Data Protection Authority and Chairman of the Article 29 Working Party, covering the DPA's supervisory powers, funding, organisational structure, and his views on possible privacy legislation and regulatory structures for India.
+* **[A. M. A. Ayrookuzhiel — Knowledge Engine](/amaa/search/)**, created on 26 August 2026 – Explore and interact with the writings, research, and archival material of A. M. A. Ayrookuzhiel.
+* **[What India Can Learn from the Snowden Revelations](/elonnai/yahoo-october-23-2013-what-india-can-learn-from-snowden-revelations/)**, created on 27 August 2026 – An October 2013 Yahoo op-ed by Elonnai Hickok examining India's legal gaps in surveillance oversight, its response to the Snowden and PRISM revelations, and the case for domestic servers and stronger privacy safeguards.
+* **[Seventh Privacy Round-table](/elonnai/report-of-seventh-privacy-round-table/)**, created on 28 August 2026 – A November 2013 CIS report by Elonnai Hickok on the seventh and final Privacy Round-table held in New Delhi, featuring presentations by Jacob Kohnstamm, Chantal Bernier, and Christopher Graham on privacy frameworks in the EU, Canada, and the UK, and discussions on India's Privacy Protection Bill, 2013.
+* **[Internet Privacy in India](/elonnai/internet-privacy-in-india/)**, created on 28 August 2026 – A January 2013 CIS knowledge repository article by Elonnai Hickok examining internet privacy in India, covering the changing nature of online personal data, jurisdictional complications, current legal provisions under the IT Act, cyber café surveillance rules, the Report of the Group of Experts on Privacy's nine national privacy principles, and the state of privacy legislation in Indiao.
+* **[CIS Supports the UN Resolution on "The Right to Privacy in the Digital Age"](/elonnai/cis-supports-the-un-resolution-on-the-right-to-privacy-in-the-digital-age/)**, created on 28 August 2026 – A November 2013 CIS post by Elonnai Hickok welcoming the UN General Assembly's non-binding resolution on the Right to Privacy in the Digital Age, drafted by Brazil and Germany, and situating it alongside the Necessary and Proportionate principles as a framework for evaluating India's surveillance regime.
+* **[UIDAI Practices and the Information Technology Act, Section 43A and Subsequent Rules](/elonnai/uidai-practices-and-the-information-technology-act-section-43a-and-subsequent-rules/)**, created on 29 August 2026 – A February 2014 CIS post by Elonnai Hickok examining UIDAI practices against Section 43A of the Information Technology Act and the Information Technology Reasonable Security Practices and Procedures and Sensitive Personal Data or Information Rules, 2011, using publicly available UIDAI documents and the Aadhaar enrolment form.
+* **[GNI Assessment Finds ICT Companies Protect User Privacy and Freedom of Expression](/elonnai/gni-assessment-finds-ict-companies-protect-user-privacy-and-freedom-of-expression/)**, created on 29 August 2026 – A January 2014 CIS post by Elonnai Hickok analysing the Global Network Initiative's Public Report on the Independent Assessment Process for Google, Microsoft, and Yahoo, which found the three companies in compliance with GNI principles on privacy and freedom of expression.
+* **[Comparison of Section 35(1) of the Draft Human DNA Profiling Bill and Section 4 of the Identification Act Revised Statute of Canada](/elonnai/comparison-of-section-35-1-of-draft-human-dna-profiling-bill-and-section-4-of-identification-act-revised-statute-of-canada/)**, created on 29 August 2026 – A March 2014 CIS post by Elonnai Hickok comparing section 35(1) of India's Draft Human DNA Profiling Bill with section 4 of Canada's Identification Act, Revised Statute of Canada, and examining best practices for communicating DNA profile information to law enforcement, DNA laboratories, courts, and tribunals.
+
+**Git activity:** 87 commits.
+
+**GitHub issues created:** 6.
+* #29 [Status Monitoring System v2](https://github.com/sunilabrahamindia/sunilabraham/issues/29), created on 26 August 2026
+* #30 [Implement "main article" links across applicable category pages](https://github.com/sunilabrahamindia/sunilabraham/issues/30), created on 26 August 2026
+* #31 [Broken links cleanup — August 2026](https://github.com/sunilabrahamindia/sunilabraham/issues/31), created on 26 August 2026
+* #32 [Automate regular Software Heritage archival](https://github.com/sunilabrahamindia/sunilabraham/issues/32), created on 29 August 2026
+* #33 [Create short URLs for important content](https://github.com/sunilabrahamindia/sunilabraham/issues/33), created on 29 August 2026
+* #34 [Add Alt + Shift + H keyboard shortcut for Home](https://github.com/sunilabrahamindia/sunilabraham/issues/34), created on 29 August 2026
+
+## Version 2.3.2
+From Sunday 30 August 2026 to Saturday 5 September 2026, 11 pages were created.
+
+* **[Leaked Privacy Bill: 2014 vs. 2011](/elonnai/leaked-privacy-bill-2014-vs-2011/)**, created on 30 August 2026 – A March 2014 CIS post by Elonnai Hickok comparing the leaked draft Privacy Bill 2014, prepared by the Department of Personnel and Training, against the previously leaked September 2011 Privacy Bill, covering changes to scope, definitions, exceptions, privacy principles, and enforcement mechanisms.
+* **[Intermediary Liability Resources](/elonnai/intermediary-liability-resources-2014/)**, created on 30 August 2026 – A CIS resource roundup by Elonnai Hickok collecting reports, papers, and interviews on internet intermediary liability from organisations including CDT, Article 19, WIPO, EFF, the European Commission, GNI, and the Association for Progressive Communications.
+* **[Report of the Group of Experts on Privacy vs. The Leaked 2014 Privacy Bill](/elonnai/report-of-group-of-experts-on-privacy-vs-leaked-2014-privacy-bill/)**, created on 31 August 2026 – An April 2014 CIS post by Elonnai Hickok comparing the recommendations of the Justice AP Shah Committee's Report of the Group of Experts on Privacy against the text of the leaked 2014 Privacy Bill, identifying where the Bill incorporates the Report's recommendations and where it departs from them.
+* **[Security, Governments, and Data: Technology and Policy](/elonnai/security-governments-and-data-technology-and-policy/)**, created on 1 September 2026 – A January 2015 CIS and Observer Research Foundation conference in New Delhi, with the event post written by Elonnai Hickok, examining the technologies, policies, and practices around cyber security and surveillance in India.
+* **[Dalit Kavithakal: Oru Padanam](/amaa/dalit-kavithakal/)**, created on 2 September 2026 – A Malayalam-language book by Paul Chirakkarodu, M. Sathyaprakasham and Athanasius Mathen Abraham Ayrookuzhiel, published by Christian Literature Society in Tiruvalla in 1992.
+* **[Authority Control: Elonnai Hickok](/elonnai/authority-control/)**, created on 3 September 2026 – Authority control identifiers, bibliographic records, scholarly profiles, archival references, and related metadata associated with Elonnai Hickok.
+* **[Dalit Sahityam](/amaa/dalit-sahityam/)**, created on 3 September 2026 – A Malayalam-language book by Paul Chirakkarod and Athanasius Mathen Abraham Ayrookuzhiel, published in Tiruvalla in 1995.
+* **[Religion, Culture and Power (Editorial)](/amaa/religion-culture-and-power-editorial-1985-03/)**, created on 4 September 2026 – An editorial by A. M. Abraham Ayrookuzhiel on religion, culture and power, published in Religion and Society, Vol. 32, No. 1, March 1985.
+* **[The Witness](/tito/witness/)**, created on 5 September 2026 – A visual meditation on the Witness — awareness that remains still while the cosmos moves.
+* **[Category:TSAP Exhibition](/categories/tsap-exhibition/)**, created on 5 September 2026 – Visual, artistic, and contemplative works presented as part of The Sunil Abraham Project's exhibition space.
+* **[Category:Tito Dutta](/categories/tito-dutta/)**, created on 5 September 2026 – Content related to Tito Dutta (Zone) on The Sunil Abraham Project, including ideas, plans, analysis, commentaries, and other related work.
+
+**Git activity:** 81 commits.
+
+**GitHub issues created:** 5.
+* #35 [Bulletin 5.1 — Preparatory Bulletin](https://github.com/sunilabrahamindia/sunilabraham/issues/35), created on 2 September 2026
+* #36 [Create Dalit Kavithakal: Oru Padanam (Dalit Poems: A Study) article](https://github.com/sunilabrahamindia/sunilabraham/issues/36), created on 2 September 2026
+* #37 [Create Dalit Sahityam (Dalit Literature) book article](https://github.com/sunilabrahamindia/sunilabraham/issues/37), created on 3 September 2026
+* #38 [Mapping and Documentation of Recently Scanned Essays of A. M. A. Ayrookuzhiel](https://github.com/sunilabrahamindia/sunilabraham/issues/38), created on 4 September 2026
+* #39 [Create Google Apps Script to monitor repository size](https://github.com/sunilabrahamindia/sunilabraham/issues/39), created on 4 September 2026
 
 
 {% include versions.html %}
