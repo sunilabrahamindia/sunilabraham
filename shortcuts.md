@@ -50,6 +50,7 @@ These are implemented using lightweight, accessible JavaScript in the site foote
 |------|--------|-------------|
 | **Alt + Shift + D** | Toggle dark mode | Switches instantly between the default light theme and experimental dark theme |
 | **Alt + Shift + G** | Open GitHub source | Opens the GitHub repository page for the exact source file of the current page |
+| **Alt + Shift + H** | Open home page | Opens the TSAP homepage `/` |
 | **Alt + Shift + W** | Open newest pages | Opens `/newest/`, showing recently created pages |
 | **Alt + Shift + X** | Load a random page | Takes you to `/random/`, which instantly redirects to a random page across the site |
 
