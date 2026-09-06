@@ -5,7 +5,9 @@
     "created": "2026-09-07",
     "date": null,
     "source": null,
-    "authors": null,
+    "authors": [
+      "Tito Dutta"
+    ],
     "categories": [
       "Project pages",
       "Tito Dutta"
