@@ -14,6 +14,8 @@ authors: [Tito Dutta]
 
 TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
 
+The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
+
 ## Contents
 
 1. [Issues](#issues)
