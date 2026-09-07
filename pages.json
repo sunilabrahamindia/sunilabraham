@@ -1,7 +1,33 @@
 [
   {
+    "title": "TSPA #0001",
+    "description": "TSPA #0001, the first comic strip in the TSPA series.",
+    "created": "2026-09-08",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "Project pages",
+      "Tito Dutta",
+      "TSPA"
+    ],
+    "permalink": "https://sunilabraham.in/tspa/0001/"
+  },
+  {
+    "title": "Category:TSPA",
+    "description": "Original comic strips published as TSPA, a rearrangement of TSAP, the short form of The Sunil Abraham Project.",
+    "created": "2026-09-08",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": null,
+    "permalink": "https://sunilabraham.in/categories/tspa/"
+  },
+  {
     "title": "TSPA",
-    "description": "An original comic strip on The Sunil Abraham Project, created by Tito Dutta.",
+    "description": "An original comic strip on The Sunil Abraham Project, started by Tito Dutta.",
     "created": "2026-09-07",
     "date": null,
     "source": null,
@@ -10,7 +36,8 @@
     ],
     "categories": [
       "Project pages",
-      "Tito Dutta"
+      "Tito Dutta",
+      "TSPA"
     ],
     "permalink": "https://sunilabraham.in/tspa/"
   },
