@@ -1,0 +1,95 @@
+<section class="content-section" id="featured-cartoon">
+  <h2 class="section-title">Featured cartoon</h2>
+
+  <div class="cartoon-card">
+    <div class="cartoon-image-wrapper">
+      <a href="/tspa/0002/">
+        <img
+          src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0002.png"
+          alt="TSPA #0002 comic strip showing Ti and Mi sitting together on a grassy hillside at night beneath a bright full moon and a star-filled sky."
+          class="cartoon-image"
+          loading="lazy"
+          decoding="async">
+      </a>
+    </div>
+
+    <div class="cartoon-content">
+      <p><strong>TSPA #0002</strong> is the second comic strip in TSPA, the original comic strip on The Sunil Abraham Project.</p>
+
+      <p>Ti and Mi sit together beneath the night sky, with Ti wondering about the boundary between "you" and "me" - and whether two can somehow count as one.</p>
+
+      <a href="/tspa/0002/" class="btn-primary">Read TSPA #0002...</a>
+      <a href="/tspa/" class="btn-primary">Explore TSPA...</a>
+    </div>
+  </div>
+</section>
+
+<style>
+/* Featured cartoon */
+.cartoon-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-left: 5px solid #005cc5;
+}
+
+.cartoon-image-wrapper {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.cartoon-image-wrapper a {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.cartoon-image {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.cartoon-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.cartoon-image-wrapper a:focus-visible {
+  outline: 3px solid #1f6feb;
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .cartoon-card {
+    padding: 1.5rem;
+  }
+
+  .cartoon-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cartoon-card {
+    padding: 1.25rem;
+  }
+}
+
+/* Dark mode */
+body.tsap-dark-mode .cartoon-card {
+  background: #1f2937 !important;
+  box-shadow: none !important;
+}
+
+body.tsap-dark-mode .cartoon-content p {
+  color: #e5e7eb !important;
+}
+</style>
