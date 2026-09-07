@@ -19,7 +19,7 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
 ## Contents
 
 1. [Issues](#issues)
-2. [Recurring Characters](#recurring-characters)
+2. [Characters](#characters)
 3. [Naming](#naming)
 4. [Influences](#influences)
 5. [Tools](#tools)
@@ -34,12 +34,12 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
     <span class="tspa-card-number">TSPA #0001</span>
   </a>
   <a class="tspa-card" href="/tspa/0002/">
-    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0002.png" alt="TSPA #0002 comic strip" loading="lazy" decoding="async">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilababrahammedia/main/comic/tspa-0002.png" alt="TSPA #0002 comic strip" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0002</span>
   </a>
 </div>
 
-## Recurring Characters
+## Characters
 
 <div class="tspa-characters">
   <div class="tspa-character-card">
@@ -58,6 +58,13 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
     <strong>Gender:</strong> Prefers not to say<br>
     <strong>Age:</strong> Unknown<br>
     <strong>First appeared:</strong> <a href="/tspa/0001/">TSPA #0001</a></p>
+  </div>
+
+  <div class="tspa-character-card">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/su-01.png" alt="Su, a middle-aged cartoon man character from TSPA" loading="lazy" decoding="async">
+    <h3>Su</h3>
+    <p><strong>Species:</strong> <em>Homo sapiens</em><br>
+    <strong>Age:</strong> Middle aged</p>
   </div>
 </div>
 
@@ -105,7 +112,7 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
 
 .tspa-characters {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
   margin: 1rem 0 2rem;
 }
@@ -136,6 +143,10 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
 @media (max-width: 900px) {
   .tspa-archive {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .tspa-characters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
