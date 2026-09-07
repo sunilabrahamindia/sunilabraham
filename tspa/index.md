@@ -69,6 +69,17 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <strong>Age:</strong> Middle aged<br>
     <strong>First appeared:</strong> Not appeared yet</p>
   </div>
+
+  <div class="tspa-character-card">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/cha-01.png" alt="Cha, a front-facing cartoon robot-like conversational character from TSPA" loading="lazy" decoding="async">
+    <h3>Cha</h3>
+    <p><strong>Species:</strong> Unknown<br>
+    <strong>Gender:</strong> Not applicable<br>
+    <strong>Age:</strong> Unknown<br>
+    <strong>Nature:</strong> Conversational entity<br>
+    <strong>Inspired by:</strong> Conversational AI, especially ChatGPT; Isaac Asimov's robot fiction; and fictional robot characters such as V.I.C.I. from <em>Small Wonder</em><br>
+    <strong>First appeared:</strong> Not appeared yet</p>
+  </div>
 </div>
 
 <style>
