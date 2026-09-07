@@ -89,7 +89,6 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
   margin-top: 0.45rem;
   color: #0645ad;
   font-weight: 600;
-  text-align: center;
 }
 
 .tspa-card:focus-visible {
@@ -107,6 +106,7 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
 
 .tspa-character-card {
   min-width: 0;
+  text-align: center;
 }
 
 .tspa-character-card img {
