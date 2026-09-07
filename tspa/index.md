@@ -34,7 +34,7 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
     <span class="tspa-card-number">TSPA #0001</span>
   </a>
   <a class="tspa-card" href="/tspa/0002/">
-    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilababrahammedia/main/comic/tspa-0002.png" alt="TSPA #0002 comic strip" loading="lazy" decoding="async">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0002.png" alt="TSPA #0002 comic strip" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0002</span>
   </a>
 </div>
