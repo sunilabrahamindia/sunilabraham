@@ -180,8 +180,8 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
   }
 
   .tspa-archive {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.9rem;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
 
   .tspa-characters {
