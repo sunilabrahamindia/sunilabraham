@@ -29,6 +29,10 @@ created: 2025-10-19
       <span class="link-icon">🎥</span>
       <span>Featured media</span>
     </a>
+    <a href="#featured-cartoon" class="content-link">
+      <span class="link-icon">🖼️</span>
+      <span>Featured cartoon</span>
+    </a>
     <a href="#newest-pages" class="content-link">
       <span class="link-icon">🆕</span>
       <span>Newest pages</span>
@@ -54,6 +58,10 @@ created: 2025-10-19
 {% include back-to-top.html %}
 
 {% include featured-media.html %}
+
+{% include back-to-top.html %}
+
+{% include featured-cartoon.html %}
 
 {% include back-to-top.html %}
 
