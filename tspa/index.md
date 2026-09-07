@@ -39,7 +39,7 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
   <div class="tspa-character-card">
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/ti-01.png" alt="Ti, a front-facing cartoon boy character from TSPA" loading="lazy" decoding="async">
     <h3>Ti</h3>
-    <p><strong>Species:</strong> Homo sapiens<br>
+    <p><strong>Species:</strong> <em>Homo sapiens</em><br>
     <strong>Gender:</strong> Male<br>
     <strong>Age:</strong> Around 8, but not exactly known<br>
     <strong>First appeared:</strong> <a href="/tspa/0001/">TSPA #0001</a></p>
@@ -89,6 +89,7 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
   margin-top: 0.45rem;
   color: #0645ad;
   font-weight: 600;
+  text-align: center;
 }
 
 .tspa-card:focus-visible {
