@@ -17,17 +17,42 @@ TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
 ## Contents
 
 1. [Issues](#issues)
-2. [Naming](#naming)
-3. [Influences](#influences)
-4. [Tools](#tools)
+2. [Recurring Characters](#recurring-characters)
+3. [Naming](#naming)
+4. [Influences](#influences)
+5. [Tools](#tools)
 
 ## Issues
+
+Each comic strip has its own page. Click a thumbnail below to open the individual strip.
 
 <div class="tspa-archive">
   <a class="tspa-card" href="/tspa/0001/">
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0001.png" alt="TSPA #0001 comic strip" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0001</span>
   </a>
+</div>
+
+## Recurring Characters
+
+<div class="tspa-characters">
+  <div class="tspa-character-card">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/ti-01.png" alt="Ti, a front-facing cartoon boy character from TSPA" loading="lazy" decoding="async">
+    <h3>Ti</h3>
+    <p><strong>Species:</strong> Homo sapiens<br>
+    <strong>Gender:</strong> Male<br>
+    <strong>Age:</strong> Around 8, but not exactly known<br>
+    <strong>First appeared:</strong> <a href="/tspa/0001/">TSPA #0001</a></p>
+  </div>
+
+  <div class="tspa-character-card">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/mi-01.png" alt="Mi, a front-facing cartoon cat character from TSPA" loading="lazy" decoding="async">
+    <h3>Mi</h3>
+    <p><strong>Species:</strong> <em>Felis domestica</em><br>
+    <strong>Gender:</strong> Prefers not to say<br>
+    <strong>Age:</strong> Unknown<br>
+    <strong>First appeared:</strong> <a href="/tspa/0001/">TSPA #0001</a></p>
+  </div>
 </div>
 
 <style>
@@ -72,6 +97,35 @@ TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
   border-radius: 4px;
 }
 
+.tspa-characters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.tspa-character-card {
+  min-width: 0;
+}
+
+.tspa-character-card img {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #c9d1d9;
+  border-radius: 6px;
+}
+
+.tspa-character-card h3 {
+  margin: 0.75rem 0 0.4rem;
+}
+
+.tspa-character-card p {
+  margin-top: 0;
+}
+
 @media (max-width: 900px) {
   .tspa-archive {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -83,6 +137,11 @@ TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.9rem;
   }
+
+  .tspa-characters {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 
 @media (max-width: 360px) {
@@ -91,7 +150,8 @@ TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
   }
 }
 
-body.tsap-dark-mode .tspa-card img {
+body.tsap-dark-mode .tspa-card img,
+body.tsap-dark-mode .tspa-character-card img {
   border-color: #4b5563;
 }
 
