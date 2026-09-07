@@ -1,8 +1,8 @@
 ---
 layout: default
 title: TSPA
-categories: [Project pages, Tito Dutta]
-description: An original comic strip on The Sunil Abraham Project, created by Tito Dutta.
+categories: [Project pages, Tito Dutta, TSPA]
+description: An original comic strip on The Sunil Abraham Project, started by Tito Dutta.
 permalink: /tspa/
 created: 2026-09-07
 authors: [Tito Dutta]
@@ -10,7 +10,7 @@ authors: [Tito Dutta]
 
 {% include author.html %}
 
-**TSPA** (pronounced "Teespa", IPA: /ˈtiːspə/) is a comic strip on [The Sunil Abraham Project](https://sunilabraham.in/), created by [Tito Dutta](/tito/) on 7 September 2026. The strips may explore technology, science, society, the internet, everyday life, ideas, absurdities, and whatever else seems worth turning into a few panels.
+**TSPA** (pronounced "Teespa", IPA: /ˈtiːspə/) is a comic strip on [The Sunil Abraham Project](https://sunilabraham.in/), started by [Tito Dutta](/tito/) on 7 September 2026. The strips may explore technology, science, society, the internet, everyday life, ideas, absurdities, and whatever else seems worth turning into a few panels.
 
 TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
 
@@ -23,7 +23,87 @@ TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
 
 ## Issues
 
-To be listed here.
+<div class="tspa-archive">
+  <a class="tspa-card" href="/tspa/0001/">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0001.png" alt="TSPA #0001 comic strip" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0001</span>
+  </a>
+</div>
+
+<style>
+.tspa-archive {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.tspa-card {
+  display: block;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tspa-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  border: 1px solid #c9d1d9;
+  border-radius: 6px;
+}
+
+.tspa-card:hover img,
+.tspa-card:focus-visible img {
+  border-color: #0645ad;
+}
+
+.tspa-card-number {
+  display: block;
+  margin-top: 0.45rem;
+  color: #0645ad;
+  font-weight: 600;
+}
+
+.tspa-card:focus-visible {
+  outline: 3px solid #1f6feb;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+  .tspa-archive {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .tspa-archive {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .tspa-archive {
+    grid-template-columns: 1fr;
+  }
+}
+
+body.tsap-dark-mode .tspa-card img {
+  border-color: #4b5563;
+}
+
+body.tsap-dark-mode .tspa-card:hover img,
+body.tsap-dark-mode .tspa-card:focus-visible img {
+  border-color: #93c5fd;
+}
+
+body.tsap-dark-mode .tspa-card-number {
+  color: #93c5fd;
+}
+</style>
 
 ## Naming
 
