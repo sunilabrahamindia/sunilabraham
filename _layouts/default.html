@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
 
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
-  <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
   <link rel="stylesheet" href="{{ '/assets/css/tippy.css' | relative_url }}">
@@ -108,6 +108,7 @@
                   {% when 'tsap' %}TSAP
                   {% when 'sunil' %}Sunil Abraham
                   {% when 'tito' %}Tito Dutta
+                  {% when 'tspa' %}TSPA
                   {% when 'media' %}Media mentions
                   {% when 'elonnai' %}Elonnai Hickok
                   {% else %}{{ part | replace:'-',' ' | capitalize }}
@@ -148,8 +149,8 @@ document.addEventListener("DOMContentLoaded", () => {
       header.id = header.textContent
         .trim()
         .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")   // replace non-alphanumerics with hyphens
-        .replace(/^-+|-+$/g, "");      // trim leading/trailing hyphens
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
     }
   });
 
@@ -171,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const fullURL =
         window.location.origin +
         window.location.pathname +
-        '#' + header.id; // Correctly wrapped inside quotes
+        '#' + header.id;
 
       navigator.clipboard.writeText(fullURL).then(() => {
         link.innerHTML = "✅";
