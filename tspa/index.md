@@ -64,7 +64,8 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/su-01.png" alt="Su, a middle-aged cartoon man character from TSPA" loading="lazy" decoding="async">
     <h3>Su</h3>
     <p><strong>Species:</strong> <em>Homo sapiens</em><br>
-    <strong>Age:</strong> Middle aged</p>
+    <strong>Age:</strong> Middle aged<br>
+    <strong>First appeared:</strong> Not appeared yet</p>
   </div>
 </div>
 
