@@ -26,7 +26,9 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
 
 ## Issues
 
-Each comic strip has its own page. Click a thumbnail below to open the individual strip.
+<p class="tspa-archive-note">
+  Each comic strip has its own page. Click a thumbnail to open the individual strip.
+</p>
 
 <div class="tspa-archive">
   <a class="tspa-card" href="/tspa/0001/">
@@ -70,6 +72,15 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
 </div>
 
 <style>
+.tspa-archive-note {
+  margin: 1rem 0 1.25rem;
+  padding: 0.75rem 1rem;
+  color: #263238;
+  background: #f5f7f9;
+  border-left: 4px solid #0645ad;
+  border-radius: 4px;
+}
+
 .tspa-archive {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -152,6 +163,11 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
 }
 
 @media (max-width: 600px) {
+  .tspa-archive-note {
+    margin: 0.9rem 0 1rem;
+    padding: 0.7rem 0.85rem;
+  }
+
   .tspa-archive {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.9rem;
@@ -167,6 +183,12 @@ Each comic strip has its own page. Click a thumbnail below to open the individua
   .tspa-archive {
     grid-template-columns: 1fr;
   }
+}
+
+body.tsap-dark-mode .tspa-archive-note {
+  color: #e5e7eb;
+  background: #1f2937;
+  border-left-color: #93c5fd;
 }
 
 body.tsap-dark-mode .tspa-card img,
