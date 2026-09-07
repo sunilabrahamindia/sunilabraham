@@ -30,8 +30,7 @@ An interactive visual meditation on the idea of the Witness — awareness that r
 
 An artificial-life experiment exploring autonomous organisms, ecology, evolution, resource competition, and emergent behaviour.
 
-{% capture simulation_1_markup %}{% include_relative s1.md %}{% endcapture %}
-{{ simulation_1_markup | remove_first: '---' | remove_first: 'layout: default' | remove_first: 'title: "Simulation #1"' | remove_first: 'categories: [TSAP Exhibition, Tito Dutta]' | remove_first: 'description: "An artificial-life experiment exploring autonomous organisms, ecology, evolution, resource competition, and emergent behaviour."' | remove_first: 'permalink: /tito/s1/' | remove_first: 'created: 2026-09-06' | remove_first: '---' }}
+[Explore Simulation #1](/tito/s1/)
 
 ### TSPA
 
