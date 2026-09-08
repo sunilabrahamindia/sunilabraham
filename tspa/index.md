@@ -74,6 +74,7 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <strong>First appeared:</strong> <a href="/tspa/0001/">TSPA #0001</a></p>
   </div>
 
+<!-- HIDDEN FOR NOW 
   <div class="tspa-character-card">
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/su-01.png" alt="Su, a middle-aged cartoon man character from TSPA" loading="lazy" decoding="async">
     <h3>Su</h3>
@@ -81,6 +82,7 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <strong>Age:</strong> Middle aged<br>
     <strong>First appeared:</strong> Not appeared yet</p>
   </div>
+-->
 
   <div class="tspa-character-card">
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/cha-01.png" alt="Cha, a front-facing cartoon robot-like conversational character from TSPA" loading="lazy" decoding="async">
