@@ -31,11 +31,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 0.8rem 1.25rem;
+  flex-wrap: nowrap;
+  gap: 0.8rem;
   font-size: 1rem;
   color: #0d1a26;
   text-align: left;
+  white-space: nowrap;
 }
 
 .author-attribution,
@@ -43,27 +44,37 @@
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .author-icon {
   color: #1f6feb;
   font-size: 1.1rem;
+  flex-shrink: 0;
 }
 
 .author-label {
   font-weight: 600;
+  flex-shrink: 0;
 }
 
 .author-names,
 .author-date {
   font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (max-width: 600px) {
   .author-box {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.45rem;
+    gap: 0.55rem;
+    font-size: 0.95rem;
+  }
+
+  .author-attribution,
+  .author-date-group {
+    gap: 0.3rem;
   }
 }
 </style>
