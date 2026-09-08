@@ -1,0 +1,69 @@
+<hr class="author-divider">
+
+<div class="author-box">
+  <span class="author-attribution">
+    <span class="author-icon" aria-hidden="true">👤</span>
+    <span class="author-label">Author:</span>
+    <span class="author-names">
+      {% if page.authors %}
+        {{ page.authors | join: ", " }}
+      {% endif %}
+    </span>
+  </span>
+
+  <span class="author-date-group">
+    <span class="author-icon" aria-hidden="true">📅</span>
+    <span class="author-label">Created:</span>
+    <span class="author-date">{{ page.created | date: "%-d %B %Y" }}</span>
+  </span>
+</div>
+
+<hr class="author-divider">
+
+<style>
+.author-divider {
+  border: none;
+  border-top: 1px solid #d0d7de;
+  margin: 0.25rem 0;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.25rem;
+  font-size: 1rem;
+  color: #0d1a26;
+  text-align: left;
+}
+
+.author-attribution,
+.author-date-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.author-icon {
+  color: #1f6feb;
+  font-size: 1.1rem;
+}
+
+.author-label {
+  font-weight: 600;
+}
+
+.author-names,
+.author-date {
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .author-box {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+}
+</style>
