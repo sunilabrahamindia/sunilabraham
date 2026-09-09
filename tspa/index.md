@@ -249,7 +249,7 @@ body.tsap-dark-mode .tspa-card-number {
 
 ## Naming
 
-TSPA is a rearrangement of the four letters in TSAP, the short form of The Sunil Abraham Project. It does not have a separate expansion or hidden meaning; it is simply a short, distinctive name for the comic strip, derived from the project it belongs to.
+TSPA is a rearrangement of the four letters in TSAP, the short form of The Sunil Abraham Project. 
 
 Several short names and arrangements of the same four letters were considered while looking for something simple, memorable and sufficiently distinctive. Some alternatives had existing meanings, associations or uses elsewhere, while others did not feel quite right as the name of a comic strip. TSPA was eventually chosen because it retains a connection with TSAP while giving the comic its own identity.
 
