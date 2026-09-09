@@ -1,5 +1,20 @@
 [
   {
+    "title": "TSPA #0010",
+    "description": "TSPA #0010, a Hindi comic strip about Ti replacing solitude with Cha.",
+    "created": "2026-09-10",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "TSPA",
+      "Indian language content"
+    ],
+    "permalink": "https://sunilabraham.in/tspa/0010/"
+  },
+  {
     "title": "Template:TSPA",
     "description": "Navigational template linking the TSPA comic strips.",
     "created": "2026-09-09",
