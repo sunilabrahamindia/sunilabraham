@@ -55,6 +55,10 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0006.png" alt="TSPA #0006 Bangla comic strip" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0006 - বাংলা</span>
   </a>
+  <a class="tspa-card" href="/tspa/0007/">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0007.png" alt="TSPA #0007 comic strip" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0007</span>
+  </a>
 </div>
 
 ## Characters
@@ -96,7 +100,7 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <strong>Age:</strong> Unknown<br>
     <strong>Nature:</strong> Conversational entity<br>
     <strong>Inspired by:</strong> Conversational AI, especially ChatGPT; Isaac Asimov's robot fiction; and fictional robot characters such as V.I.C.I. from <em>Small Wonder</em><br>
-    <strong>First appeared:</strong> Not appeared yet</p>
+    <strong>First appeared:</strong> <a href="/tspa/0007/">TSPA #0007</a></p>
   </div>
 </div>
 
