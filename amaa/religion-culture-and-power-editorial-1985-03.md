@@ -5,6 +5,7 @@ description: "An editorial by A. M. Abraham Ayrookuzhiel on religion, culture an
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/religion-culture-and-power-editorial-1985-03/
 categories: [A. M. A. Ayrookuzhiel]
+page_id: TSAP-1252
 created: 2026-09-04
 homepage_featured: true
 ---

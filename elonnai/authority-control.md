@@ -4,6 +4,7 @@ title: "Authority Control: Elonnai Hickok"
 description: "Authority control identifiers, bibliographic records, scholarly profiles, archival references, and related metadata associated with Elonnai Hickok."
 permalink: /elonnai/authority-control/
 categories: [Elonnai Hickok, Authority control]
+page_id: TSAP-1251
 created: 2026-09-03
 ---
 

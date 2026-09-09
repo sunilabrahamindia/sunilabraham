@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2014-12-24
 source: "Centre for Internet and Society"
 permalink: /elonnai/security-governments-and-data-technology-and-policy/
+page_id: TSAP-1248
 created: 2026-09-01
 ---
 

@@ -4,6 +4,7 @@ title: TSPA
 categories: [TSPA, TSAP Originals, TSAP Exhibition, Project pages, Tito Dutta]
 description: An original comic strip on The Sunil Abraham Project, started by Tito Dutta.
 permalink: /tspa/
+page_id: TSAP-1257
 created: 2026-09-07
 authors: [Tito Dutta]
 ---
@@ -292,3 +293,5 @@ TSPA may be created using a combination of different drawing, design, editing, A
 - Scripts and automation - May be used to assist with repetitive tasks, image processing, file preparation or publishing workflows.
 
 The tools are means of creation rather than part of the identity of TSPA. The final work remains independently and originally created.
+
+{% include navbox-tspa.html %}

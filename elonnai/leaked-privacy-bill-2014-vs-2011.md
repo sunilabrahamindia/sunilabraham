@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2014-03-31
 source: "Centre for Internet and Society"
 permalink: /elonnai/leaked-privacy-bill-2014-vs-2011/
+page_id: TSAP-1246
 created: 2026-08-30
 ---
 
