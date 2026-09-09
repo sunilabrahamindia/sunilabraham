@@ -1,0 +1,53 @@
+<nav class="navbox-tspa" aria-label="Navigation template for TSPA comic strips">
+  <div class="navbox-tspa__inner">
+    <div class="navbox-tspa__title">
+      <a href="/tspa/">TSPA</a>
+      <span class="navbox-tspa__viewlink">[<a href="/tspa/template/" aria-label="View TSPA template">View</a>]</span>
+    </div>
+    <div class="navbox-tspa__body">
+      <div class="navbox-tspa__row">
+        <span class="navbox-tspa__label">Issues</span>
+        <span class="navbox-tspa__items">
+          <a href="/tspa/0001/">0001</a> &middot;
+          <a href="/tspa/0002/">0002</a> &middot;
+          <a href="/tspa/0003/">0003</a> &middot;
+          <a href="/tspa/0004/">0004</a> &middot;
+          <a href="/tspa/0005/">0005</a> &middot;
+          <a href="/tspa/0006/">0006 (Bangla)</a> &middot;
+          <a href="/tspa/0007/">0007</a> &middot;
+          <a href="/tspa/0008/">0008</a> &middot;
+          <a href="/tspa/0009/">0009 (Bangla)</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<style>
+.navbox-tspa { border: 1px solid #d6dbe3; background: #f9fbff; border-radius: .5rem; margin: 2rem 0 1rem; font-size: .9rem; line-height: 1.5; transition: box-shadow .25s ease, transform .2s ease; }
+.navbox-tspa:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, .08); transform: translateY(-1px); }
+.navbox-tspa__title { background: #eef4fb; border-top: 3px solid #3a7bd5; border-bottom: 1px solid #d6dbe3; text-align: center; font-weight: 700; font-size: 1rem; padding: .5rem 2.2rem .5rem 1rem; position: relative; }
+.navbox-tspa__viewlink { position: absolute; right: .6rem; top: 50%; transform: translateY(-50%); font-size: .75rem; font-weight: 400; color: #555; }
+.navbox-tspa a { color: #0645ad; text-decoration: none; }
+.navbox-tspa a:hover { color: #3a7bd5; text-decoration: underline; }
+.navbox-tspa a:visited { color: #0b0080; }
+.navbox-tspa a:focus-visible { outline: 2px solid #3a7bd5; outline-offset: 2px; }
+.navbox-tspa__body { padding: .75rem 1rem; }
+.navbox-tspa__row { display: flex; gap: .5rem; align-items: baseline; padding: .4rem 0; border-bottom: 1px solid #e6e9ef; }
+.navbox-tspa__row:last-child { border-bottom: none; }
+.navbox-tspa__label { flex: 0 0 120px; font-weight: 600; color: #444; font-size: .875rem; }
+.navbox-tspa__items { flex: 1; }
+@media (max-width:600px) { .navbox-tspa__row { flex-direction: column; gap: .2rem; } .navbox-tspa__label { flex: none; font-size: .8rem; } }
+@media (prefers-reduced-motion: reduce) { .navbox-tspa { transition: none; } }
+body.tsap-dark-mode .navbox-tspa { background: #243244; border-color: #374151; color: #e5e7eb; }
+body.tsap-dark-mode .navbox-tspa:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, .35); }
+body.tsap-dark-mode .navbox-tspa__title { background: #1b2636; border-top-color: #60a5fa; border-bottom-color: #374151; color: #f3f4f6; }
+body.tsap-dark-mode .navbox-tspa__viewlink { color: #cbd5e1; }
+body.tsap-dark-mode .navbox-tspa a { color: #93c5fd; }
+body.tsap-dark-mode .navbox-tspa a:hover { color: #bfdbfe; }
+body.tsap-dark-mode .navbox-tspa a:visited { color: #c4b5fd; }
+body.tsap-dark-mode .navbox-tspa a:focus-visible { outline-color: #93c5fd; }
+body.tsap-dark-mode .navbox-tspa__row { border-bottom-color: #374151; }
+body.tsap-dark-mode .navbox-tspa__label { color: #cbd5e1; }
+body.tsap-dark-mode .navbox-tspa__items { color: #e5e7eb; }
+</style>
