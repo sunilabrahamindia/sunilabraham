@@ -48,8 +48,8 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <span class="tspa-card-number">TSPA #0004</span>
   </a>
   <a class="tspa-card" href="/tspa/0005/">
-    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0005.png" alt="TSPA #0005 comic strip" loading="lazy" decoding="async">
-    <span class="tspa-card-number">TSPA #0005</span>
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0005.png" alt="TSPA #0005 Bangla comic strip" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0005 — বাংলা (bn)</span>
   </a>
   <a class="tspa-card" href="/tspa/0006/">
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0006.png" alt="TSPA #0006 Bangla comic strip" loading="lazy" decoding="async">
@@ -65,7 +65,7 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
   </a>
   <a class="tspa-card" href="/tspa/0009/">
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0009.png" alt="TSPA #0009 Bangla comic strip" loading="lazy" decoding="async">
-    <span class="tspa-card-number">TSPA #0009 - বাংলা</span>
+    <span class="tspa-card-number">TSPA #0009 — বাংলা (bn)</span>
   </a>
 </div>
 
