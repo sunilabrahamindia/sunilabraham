@@ -22,7 +22,9 @@
     "date": null,
     "source": null,
     "authors": null,
-    "categories": null,
+    "categories": [
+      "TSPA"
+    ],
     "permalink": "https://sunilabraham.in/categories/tspa-hi/"
   },
   {
@@ -32,7 +34,9 @@
     "date": null,
     "source": null,
     "authors": null,
-    "categories": null,
+    "categories": [
+      "TSPA"
+    ],
     "permalink": "https://sunilabraham.in/categories/tspa-en/"
   },
   {
@@ -42,7 +46,9 @@
     "date": null,
     "source": null,
     "authors": null,
-    "categories": null,
+    "categories": [
+      "TSPA"
+    ],
     "permalink": "https://sunilabraham.in/categories/tspa-bn/"
   },
   {
