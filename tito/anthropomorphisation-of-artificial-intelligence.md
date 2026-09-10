@@ -14,7 +14,7 @@ There is a common tendency to think that anthropomorphising artificial intellige
 
 I take almost the opposite position.
 
-I believe that, for humans to work effectively with artificial intelligence, some degree of anthropomorphisation may not merely be unavoidable; it may be useful, and perhaps even essential. This does not mean that AI is human, conscious, or entitled to all the qualities we associate with human beings. It means something different: anthropomorphisation can be a way for the human mind to construct a workable model of an artificial intelligence.
+I believe that, for humans to work effectively with artificial intelligence, some degree of anthropomorphisation may not merely be unavoidable; it may be useful, and perhaps even essential. This does not mean that AI is human, conscious, or possesses all the qualities we associate with human beings. It means something different: anthropomorphisation can be a way for the human mind to construct a workable model of an artificial intelligence.
 
 This distinction is important.
 
@@ -156,7 +156,7 @@ The model itself has not necessarily changed.
 
 **I have changed.**
 
-Research on human-AI collaboration is particularly relevant here because successful collaboration depends partly on whether humans understand the AI's capabilities and limitations. A person who has developed a better mental model of an AI can potentially make better decisions about when to rely on it and when to intervene.
+Research on human-AI collaboration is particularly relevant here because successful collaboration depends partly on whether humans understand the AI's capabilities and limitations. A person who has developed a better mental model of an AI can potentially make more informed decisions about when to rely on it and when to intervene.
 
 Thus, the human is not merely operating a tool.
 
@@ -248,7 +248,7 @@ These can be functional descriptions rather than claims about biological or subj
 
 The important distinction is between **using human concepts to understand behaviour** and **claiming that the underlying system is literally human**.
 
-## The human becomes better, not necessarily the AI
+## The human becomes more capable, not necessarily the AI
 
 This, ultimately, is the central point.
 
