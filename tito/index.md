@@ -40,7 +40,7 @@ An original comic strip created as part of The Sunil Abraham Project. TSPA is a 
 
 ## Essays by Tito Dutta
 
-{% assign tito_essays = site.categories["Essays by Tito Dutta"] | sort: "created" | reverse %}
+{% assign tito_essays = site.pages | where_exp: "p", "p.categories contains 'Essays by Tito Dutta'" | sort: "created" | reverse %}
 
 <div class="tito-essays-controls" role="group" aria-label="Essay sorting">
   <span class="tito-essays-label">Sort by:</span>
