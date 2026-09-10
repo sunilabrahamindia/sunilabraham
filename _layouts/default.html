@@ -3,267 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{{ page.title }} | {{ site.title }}</title>
-
   <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
-
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
   <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
-
-  {% if page.image %}
-    <meta property="og:image" content="{{ page.image | absolute_url }}">
-  {% else %}
-    <meta property="og:image" content="{{ site.url }}/assets/images/social-share-default.png">
-  {% endif %}
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
-  <meta name="twitter:site" content="@sunil_abraham">
-
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
-
-  <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
-  <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-  <link rel="stylesheet" href="{{ '/assets/css/tippy.css' | relative_url }}">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "The Sunil Abraham Project",
-    "alternateName": ["TSAP", "Sunil Abraham Project"],
-    "url": "https://sunilabraham.in/"
-  }
-  </script>
-
-  {% if page.url == '/' %}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "The Sunil Abraham Project",
-    "url": "https://sunilabraham.in/",
-    "logo": "https://sunilabraham.in/assets/favicon.png",
-    "founder": {
-      "@type": "Person",
-      "name": "Sunil Abraham"
-    }
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Sunil Abraham",
-    "url": "https://sunilabraham.in/",
-    "description": "Researcher and technologist, founder of The Sunil Abraham Project.",
-    "sameAs": [
-      "https://x.com/sunil_abraham",
-      "https://www.facebook.com/abrahamsunil",
-      "https://www.linkedin.com/in/sunilaabraham/"
-    ]
-  }
-  </script>
-  {% endif %}
+  {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% else %}<meta property="og:image" content="{{ site.url }}/assets/images/social-share-default.png">{% endif %}
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ page.title }}"><meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}"><meta name="twitter:site" content="@sunil_abraham">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"><link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png"><link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"><link rel="stylesheet" href="{{ '/assets/css/tippy.css' | relative_url }}">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Sunil Abraham Project","alternateName":["TSAP","Sunil Abraham Project"],"url":"https://sunilabraham.in/"}</script>
+  {% if page.url == '/' %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"The Sunil Abraham Project","url":"https://sunilabraham.in/","logo":"https://sunilabraham.in/assets/favicon.png","founder":{"@type":"Person","name":"Sunil Abraham"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sunil Abraham","url":"https://sunilabraham.in/","description":"Researcher and technologist, founder of The Sunil Abraham Project.","sameAs":["https://x.com/sunil_abraham","https://www.facebook.com/abrahamsunil","https://www.linkedin.com/in/sunilaabraham/"]}</script>{% endif %}
 </head>
-
 <body>
-  <div class="site-wrapper">
-
-    <header role="banner">
-      {% include header.html %}
-    </header>
-
-    <nav role="navigation" aria-label="Main navigation">
-      {% include navbar.html %}
-    </nav>
-
-    <main id="maincontent" role="main" class="content">
-      {% if page.title %}
-        <h1>{{ page.title }}</h1>
-
-        <nav class="breadcrumb" role="navigation" aria-label="Breadcrumb">
-          <a href="{{ site.baseurl }}/">Home</a>
-          {% assign parts = page.url | split: '/' %}
-          {% assign current_path = '' %}
-
-          {% for part in parts %}
-            {% if part != '' and forloop.last == false %}
-              {% assign current_path = current_path | append: '/' | append: part %}
-              › <a href="{{ site.baseurl }}{{ current_path }}/">
-                {% case part %}
-                  {% when 'amaa' %}A. M. A. Ayrookuzhiel
-                  {% when 'cis' %}CIS
-                  {% when 'tsap' %}TSAP
-                  {% when 'sunil' %}Sunil Abraham
-                  {% when 'tito' %}Tito Dutta
-                  {% when 'tspa' %}TSPA
-                  {% when 'media' %}Media mentions
-                  {% when 'elonnai' %}Elonnai Hickok
-                  {% else %}{{ part | replace:'-',' ' | capitalize }}
-                {% endcase %}
-              </a>
-            {% endif %}
-          {% endfor %}
-          › <span>{{ page.title }}</span>
-        </nav>
-      {% endif %}
-      {{ content }}
-      {% include categories.html %}
-      {% include page-data.html %}
-    </main>
-    
-    {% include footer.html %}
-
-  </div>
-  
-<aside role="complementary" aria-label="Top utility bar">
-  {% include top-bar.html %}
-</aside>
-
-{% comment %}
-<aside role="complementary" aria-label="Utility toolbox">
-  {% include utility-toolbox.html %}
-</aside>
-{% endcomment %}
-  
-  <script>
-document.addEventListener("DOMContentLoaded", () => {
-
-  /* ---------------------------------------------------------
-     1) Automatically add IDs to any heading that lacks one
-     --------------------------------------------------------- */
-  document.querySelectorAll("h2, h3, h4, h5, h6").forEach(header => {
-    if (!header.id) {
-      header.id = header.textContent
-        .trim()
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-+|-+$/g, "");
-    }
-  });
-
-  /* ---------------------------------------------------------
-     2) Add the copy-link icon to all headings with IDs
-     --------------------------------------------------------- */
-  document.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]").forEach(header => {
-
-    const link = document.createElement("a");
-    link.className = "header-link";
-    link.href = "#" + header.id;
-    link.title = "Copy link to this section";
-    link.innerHTML = "🔗";
-
-    /* Copy full URL on click */
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-
-      const fullURL =
-        window.location.origin +
-        window.location.pathname +
-        '#' + header.id;
-
-      navigator.clipboard.writeText(fullURL).then(() => {
-        link.innerHTML = "✅";
-        setTimeout(() => (link.innerHTML = "🔗"), 1200);
-      });
-    });
-
-    header.appendChild(link);
-  });
-
-});
-</script>
-
-  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-  <script>
-    window.addEventListener("load", function() {
-      // Wrap all images automatically in a lightbox link
-      document.querySelectorAll('img').forEach(function(img) {
-        // Skip if already inside a link
-        if (img.closest('a')) return;
-
-        // Optional: skip very small images (like icons)
-        if (img.width < 100 || img.height < 100) return;
-
-        const link = document.createElement('a');
-        link.href = img.src;
-        link.classList.add('lightbox');
-        img.parentNode.insertBefore(link, img);
-        link.appendChild(img);
-      });
-
-      // Initialise GLightbox
-      GLightbox({ selector: '.lightbox' });
-      GLightbox({ selector: '[data-glightbox]' });
-    });
-  </script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-
-  const params = new URLSearchParams(window.location.search);
-
-  if (params.get('darkmode') === '1') {
-    document.body.classList.add('tsap-dark-mode');
-    localStorage.setItem('tsap-dark-mode', 'true');
-  }
-
-  if (params.get('darkmode') === '0') {
-    document.body.classList.remove('tsap-dark-mode');
-    localStorage.removeItem('tsap-dark-mode');
-  }
-
-  // Check user choices and system preference
-  const savedDarkMode = localStorage.getItem('tsap-dark-mode');
-  const prefersSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-  // Automatically activate dark mode if saved choice is true OR if there is no saved choice and the device prefers dark mode
-  if (savedDarkMode === 'true' || (savedDarkMode === null && prefersSystemDark)) {
-    document.body.classList.add('tsap-dark-mode');
-  }
-
-});
-
-// Global Keyboard Shortcuts (Alt + Shift Routing Engine)
-document.addEventListener('keydown', function (e) {
-  if (e.altKey && e.shiftKey) {
-    const key = e.key.toLowerCase();
-    
-    // Alt + Shift + D: Robust Active Class Theme Toggle Switcher
-    if (key === 'd') {
-      e.preventDefault();
-      const isDarkNow = document.body.classList.contains('tsap-dark-mode');
-      
-      const currentParams = new URLSearchParams(window.location.search);
-      currentParams.set('darkmode', isDarkNow ? '0' : '1');
-      window.location.search = currentParams.toString();
-    }
-
-    // Alt + Shift + H: Home page navigation
-    if (key === 'h') {
-      e.preventDefault();
-      window.location.href = '{{ "/" | relative_url }}';
-    }
-
-    // Alt + Shift + W: Instant Newest Pages Navigation Router
-    if (key === 'w') {
-      e.preventDefault();
-      window.location.href = '{{ "/newest/" | relative_url }}';
-    }
-  }
-});
-</script>
-</body>
-</html>
+<div class="site-wrapper">
+<header role="banner">{% include header.html %}</header>
+<nav role="navigation" aria-label="Main navigation">{% include navbar.html %}</nav>
+<main id="maincontent" role="main" class="content">
+{% if page.title %}<h1>{{ page.title }}</h1><nav class="breadcrumb" role="navigation" aria-label="Breadcrumb"><a href="{{ site.baseurl }}/">Home</a>{% assign parts = page.url | split: '/' %}{% assign current_path = '' %}{% for part in parts %}{% if part != '' and forloop.last == false %}{% assign current_path = current_path | append: '/' | append: part %} › <a href="{{ site.baseurl }}{{ current_path }}/">{% case part %}{% when 'amaa' %}A. M. A. Ayrookuzhiel{% when 'cis' %}CIS{% when 'tsap' %}TSAP{% when 'sunil' %}Sunil Abraham{% when 'tito' %}Tito Dutta{% when 'tspa' %}TSPA{% when 'media' %}Media mentions{% when 'elonnai' %}Elonnai Hickok{% else %}{{ part | replace:'-',' ' | capitalize }}{% endcase %}</a>{% endif %}{% endfor %} › <span>{{ page.title }}</span></nav>{% endif %}
+{{ content }}
+{% if page.categories contains "TSAP Documentation" %}{% include navbox-tsap.html %}{% endif %}
+{% include categories.html %}{% include page-data.html %}
+</main>
+{% include footer.html %}
+</div>
+<aside role="complementary" aria-label="Top utility bar">{% include top-bar.html %}</aside>
+<script>document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("h2,h3,h4,h5,h6").forEach(header=>{if(!header.id)header.id=header.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")});document.querySelectorAll("h2[id],h3[id],h4[id],h5[id],h6[id]").forEach(header=>{const link=document.createElement("a");link.className="header-link";link.href="#"+header.id;link.title="Copy link to this section";link.innerHTML="🔗";link.addEventListener("click",e=>{e.preventDefault();const fullURL=window.location.origin+window.location.pathname+"#"+header.id;navigator.clipboard.writeText(fullURL).then(()=>{link.innerHTML="✅";setTimeout(()=>link.innerHTML="🔗",1200)})});header.appendChild(link)})});</script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>window.addEventListener("load",function(){document.querySelectorAll('img').forEach(function(img){if(img.closest('a'))return;if(img.width<100||img.height<100)return;const link=document.createElement('a');link.href=img.src;link.classList.add('lightbox');img.parentNode.insertBefore(link,img);link.appendChild(img)});GLightbox({selector:'.lightbox'});GLightbox({selector:'[data-glightbox]'})});</script>
+<script>document.addEventListener('DOMContentLoaded',function(){const params=new URLSearchParams(window.location.search);if(params.get('darkmode')==='1'){document.body.classList.add('tsap-dark-mode');localStorage.setItem('tsap-dark-mode','true')}if(params.get('darkmode')==='0'){document.body.classList.remove('tsap-dark-mode');localStorage.removeItem('tsap-dark-mode')}const savedDarkMode=localStorage.getItem('tsap-dark-mode');const prefersSystemDark=window.matchMedia('(prefers-color-scheme: dark)').matches;if(savedDarkMode==='true'||(savedDarkMode===null&&prefersSystemDark))document.body.classList.add('tsap-dark-mode')});document.addEventListener('keydown',function(e){if(e.altKey&&e.shiftKey){const key=e.key.toLowerCase();if(key==='d'){e.preventDefault();const isDarkNow=document.body.classList.contains('tsap-dark-mode');const currentParams=new URLSearchParams(window.location.search);currentParams.set('darkmode',isDarkNow?'0':'1');window.location.search=currentParams.toString()}if(key==='h'){e.preventDefault();window.location.href='{{ "/" | relative_url }}'}if(key==='w'){e.preventDefault();window.location.href='{{ "/newest/" | relative_url }}'}}});</script>
+</body></html>

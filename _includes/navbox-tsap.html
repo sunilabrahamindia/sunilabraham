@@ -16,8 +16,7 @@
             <a href="/tsap/priorities/">Priorities</a> &middot;
             <a href="/tsap/definitions/">Definitions</a> &middot;
             <a href="/tsap/honesty/">Honesty</a> &middot;
-            <a href="/tsap/acknowledgement/">Acknowledgement</a> &middot;
-            <a href="/tsap/bus-factor/">Bus factor</a>
+            <a href="/tsap/acknowledgement/">Acknowledgement</a>
           </span>
         </div>
 
@@ -103,175 +102,33 @@
 </nav>
 
 <style>
-.navbox-tsap {
-  border: 1px solid #d6dbe3;
-  background: #f9fbff;
-  border-radius: 0.5rem;
-  margin: 2rem 0 1rem;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  transition: box-shadow 0.25s ease, transform 0.2s ease;
-}
-
-.navbox-tsap:hover {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-  transform: translateY(-1px);
-}
-
-.navbox-tsap__title {
-  background: #eef4fb;
-  text-align: center;
-  padding: 0.5rem 2.2rem 0.5rem 1rem;
-  font-weight: 700;
-  font-size: 1rem;
-  border-bottom: 1px solid #d6dbe3;
-  color: #1a1a1a;
-  position: relative;
-  border-top: 3px solid #3a7bd5;
-}
-
-.navbox-tsap__viewlink {
-  position: absolute;
-  right: 0.6rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-weight: 400;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-.navbox-tsap__viewlink a {
-  color: #0645ad;
-  text-decoration: none;
-}
-
-.navbox-tsap__viewlink a:hover {
-  text-decoration: underline;
-}
-
-.navbox-tsap a {
-  color: #0645ad;
-  text-decoration: none;
-}
-
-.navbox-tsap a:hover {
-  color: #3a7bd5;
-  text-decoration: underline;
-}
-
-.navbox-tsap a:visited {
-  color: #0b0080;
-}
-
-.navbox-tsap a:focus-visible {
-  outline: 2px solid #3a7bd5;
-  outline-offset: 2px;
-}
-
-.navbox-tsap__body {
-  display: flex;
-  gap: 1rem;
-  padding: 0.75rem 1rem;
-  align-items: flex-start;
-}
-
-.navbox-tsap__links-col {
-  flex: 1 1 auto;
-}
-
-.navbox-tsap__row {
-  display: flex;
-  gap: 0.5rem;
-  padding: 0.35rem 0;
-  border-bottom: 1px solid #e6e9ef;
-  align-items: baseline;
-}
-
-.navbox-tsap__row:last-child {
-  border-bottom: none;
-}
-
-.navbox-tsap__label {
-  flex: 0 0 170px;
-  font-weight: 600;
-  color: #444;
-  font-size: 0.875rem;
-}
-
-.navbox-tsap__items {
-  flex: 1 1 auto;
-  color: #222;
-}
-
-@media (max-width: 600px) {
-  .navbox-tsap__body {
-    flex-direction: column;
-  }
-
-  .navbox-tsap__row {
-    flex-direction: column;
-    gap: 0.2rem;
-  }
-
-  .navbox-tsap__label {
-    flex: none;
-    font-size: 0.8rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .navbox-tsap {
-    transition: none;
-  }
-}
-
-body.tsap-dark-mode .navbox-tsap {
-  background: #243244;
-  border-color: #374151;
-  color: #e5e7eb;
-}
-
-body.tsap-dark-mode .navbox-tsap:hover {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
-}
-
-body.tsap-dark-mode .navbox-tsap__title {
-  background: #1b2636;
-  border-bottom-color: #374151;
-  border-top-color: #60a5fa;
-  color: #f3f4f6;
-}
-
-body.tsap-dark-mode .navbox-tsap__viewlink {
-  color: #cbd5e1;
-}
-
-body.tsap-dark-mode .navbox-tsap a,
-body.tsap-dark-mode .navbox-tsap__viewlink a {
-  color: #93c5fd;
-}
-
-body.tsap-dark-mode .navbox-tsap a:hover {
-  color: #bfdbfe;
-}
-
-body.tsap-dark-mode .navbox-tsap a:visited {
-  color: #c4b5fd;
-}
-
-body.tsap-dark-mode .navbox-tsap a:focus-visible {
-  outline-color: #93c5fd;
-}
-
-body.tsap-dark-mode .navbox-tsap__row {
-  border-bottom-color: #374151;
-}
-
-body.tsap-dark-mode .navbox-tsap__label {
-  color: #cbd5e1;
-}
-
-body.tsap-dark-mode .navbox-tsap__items {
-  color: #e5e7eb;
-}
+.navbox-tsap { border: 1px solid #d6dbe3; background: #f9fbff; border-radius: 0.5rem; margin: 2rem 0 1rem; font-size: 0.9rem; line-height: 1.5; transition: box-shadow 0.25s ease, transform 0.2s ease; }
+.navbox-tsap:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08); transform: translateY(-1px); }
+.navbox-tsap__title { background: #eef4fb; text-align: center; padding: 0.5rem 2.2rem 0.5rem 1rem; font-weight: 700; font-size: 1rem; border-bottom: 1px solid #d6dbe3; color: #1a1a1a; position: relative; border-top: 3px solid #3a7bd5; }
+.navbox-tsap__viewlink { position: absolute; right: 0.6rem; top: 50%; transform: translateY(-50%); font-weight: 400; font-size: 0.75rem; color: #555; }
+.navbox-tsap__viewlink a { color: #0645ad; text-decoration: none; }
+.navbox-tsap__viewlink a:hover { text-decoration: underline; }
+.navbox-tsap a { color: #0645ad; text-decoration: none; }
+.navbox-tsap a:hover { color: #3a7bd5; text-decoration: underline; }
+.navbox-tsap a:visited { color: #0b0080; }
+.navbox-tsap a:focus-visible { outline: 2px solid #3a7bd5; outline-offset: 2px; }
+.navbox-tsap__body { display: flex; gap: 1rem; padding: 0.75rem 1rem; align-items: flex-start; }
+.navbox-tsap__links-col { flex: 1 1 auto; }
+.navbox-tsap__row { display: flex; gap: 0.5rem; padding: 0.35rem 0; border-bottom: 1px solid #e6e9ef; align-items: baseline; }
+.navbox-tsap__row:last-child { border-bottom: none; }
+.navbox-tsap__label { flex: 0 0 170px; font-weight: 600; color: #444; font-size: 0.875rem; }
+.navbox-tsap__items { flex: 1 1 auto; color: #222; }
+@media (max-width: 600px) { .navbox-tsap__body { flex-direction: column; } .navbox-tsap__row { flex-direction: column; gap: 0.2rem; } .navbox-tsap__label { flex: none; font-size: 0.8rem; } }
+@media (prefers-reduced-motion: reduce) { .navbox-tsap { transition: none; } }
+body.tsap-dark-mode .navbox-tsap { background: #243244; border-color: #374151; color: #e5e7eb; }
+body.tsap-dark-mode .navbox-tsap:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35); }
+body.tsap-dark-mode .navbox-tsap__title { background: #1b2636; border-bottom-color: #374151; border-top-color: #60a5fa; color: #f3f4f6; }
+body.tsap-dark-mode .navbox-tsap__viewlink { color: #cbd5e1; }
+body.tsap-dark-mode .navbox-tsap a, body.tsap-dark-mode .navbox-tsap__viewlink a { color: #93c5fd; }
+body.tsap-dark-mode .navbox-tsap a:hover { color: #bfdbfe; }
+body.tsap-dark-mode .navbox-tsap a:visited { color: #c4b5fd; }
+body.tsap-dark-mode .navbox-tsap a:focus-visible { outline-color: #93c5fd; }
+body.tsap-dark-mode .navbox-tsap__row { border-bottom-color: #374151; }
+body.tsap-dark-mode .navbox-tsap__label { color: #cbd5e1; }
+body.tsap-dark-mode .navbox-tsap__items { color: #e5e7eb; }
 </style>
