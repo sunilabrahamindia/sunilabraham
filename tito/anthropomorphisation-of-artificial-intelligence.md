@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Why We May Need to Anthropomorphise Artificial Intelligence — A Viewpoint"
-categories: [Artificial Intelligence, Tito Dutta]
+categories: [Artificial Intelligence, Tito Dutta, Essays by Tito Dutta]
 description: "A personal viewpoint on anthropomorphisation as a cognitive interface for humans working with artificial intelligence."
 authors: [Tito Dutta]
 permalink: /tito/anthropomorphisation-of-artificial-intelligence/
