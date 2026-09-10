@@ -3,10 +3,12 @@ layout: default
 title: "Why We May Need to Anthropomorphise Artificial Intelligence — A Viewpoint"
 categories: [Artificial Intelligence, Tito Dutta]
 description: "A personal viewpoint on anthropomorphisation as a cognitive interface for humans working with artificial intelligence."
-author: Tito Dutta
+authors: [Tito Dutta]
 permalink: /tito/anthropomorphisation-of-artificial-intelligence/
 created: 2026-09-11
 ---
+
+{% include author-date.html %}
 
 There is a common tendency to think that anthropomorphising artificial intelligence is a mistake. We are told that an AI system is not a human being, that it does not think or feel in the same way that we do, and that we should therefore treat it simply as a tool.
 
@@ -290,12 +292,12 @@ It may be one of the ways human reasoning learns to work with a new kind of inte
 
 ## References
 
-1. Epley, N., Waytz, A. and Cacioppo, J. T. (2007). *On Seeing Human: A Three-Factor Theory of Anthropomorphism*. Psychological Review, 114(4), 864–886. https://doi.org/10.1037/0033-295X.114.4.864
+1. Epley, N., Waytz, A. and Cacioppo, J. T. (2007). [*On Seeing Human: A Three-Factor Theory of Anthropomorphism*](https://doi.org/10.1037/0033-295X.114.4.864). *Psychological Review*, 114(4), 864–886. Published 2007. Accessed 11 September 2026.
 
-2. Waytz, A., Morewedge, C. K., Epley, N., Monteleone, G., Gao, J.-H. and Cacioppo, J. T. (2010). *Making Sense by Making Sentient: Effectance Motivation Increases Anthropomorphism*. Journal of Personality and Social Psychology, 99(3), 410–435. https://doi.org/10.1037/a0020240
+2. Waytz, A., Morewedge, C. K., Epley, N., Monteleone, G., Gao, J.-H. and Cacioppo, J. T. (2010). [*Making Sense by Making Sentient: Effectance Motivation Increases Anthropomorphism*](https://doi.org/10.1037/a0020240). *Journal of Personality and Social Psychology*, 99(3), 410–435. Published 2010. Accessed 11 September 2026.
 
-3. Nass, C., Steuer, J. and Tauber, E. R. (1994). *Computers Are Social Actors*. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/259963.260288
+3. Nass, C., Steuer, J. and Tauber, E. R. (1994). [*Computers Are Social Actors*](https://doi.org/10.1145/259963.260288). *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*. Published 1994. Accessed 11 September 2026.
 
-4. Bansal, G., Nushi, B., Kamar, E., Lasecki, W. S., Weld, D. S. and Horvitz, E. (2019). *Beyond Accuracy: The Role of Mental Models in Human-AI Team Performance*. Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society. https://ojs.aaai.org/index.php/HCOMP/article/view/5285
+4. Bansal, G., Nushi, B., Kamar, E., Lasecki, W. S., Weld, D. S. and Horvitz, E. (2019). [*Beyond Accuracy: The Role of Mental Models in Human-AI Team Performance*](https://ojs.aaai.org/index.php/HCOMP/article/view/5285). *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. Published 2019. Accessed 11 September 2026.
 
-5. Howdle, G. (2026). *Anthropomorphising AI: Two Modes, Two Errors*. Philosophy & Technology. https://doi.org/10.1007/s13347-026-01133-1
+5. Howdle, G. (2026). [*Anthropomorphising AI: Two Modes, Two Errors*](https://doi.org/10.1007/s13347-026-01133-1). *Philosophy & Technology*. Published 2026. Accessed 11 September 2026.
