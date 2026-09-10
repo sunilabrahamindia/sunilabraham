@@ -15,10 +15,10 @@ created: 2026-09-11
 
 ## Contents
 
-- [Core funding](#core-funding)
-- [Steady and disciplined growth](#steady-and-disciplined-growth)
-- [Networking](#networking)
-- [Adherence to Foundational Principles](#adherence-to-foundational-principles)
+1. [Core funding](#core-funding)
+2. [Steady and disciplined growth](#steady-and-disciplined-growth)
+3. [Networking](#networking)
+4. [Adherence to Foundational Principles](#adherence-to-foundational-principles)
 
 ## Core funding
 
