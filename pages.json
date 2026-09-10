@@ -30,7 +30,9 @@
     "created": "2026-09-11",
     "date": null,
     "source": null,
-    "authors": null,
+    "authors": [
+      "Tito Dutta"
+    ],
     "categories": [
       "Artificial Intelligence",
       "Tito Dutta"
