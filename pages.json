@@ -1,5 +1,21 @@
 [
   {
+    "title": "TSPA #0011",
+    "description": "TSPA #0011, a Bangla comic strip about singing, AI tools and learning.",
+    "created": "2026-09-11",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "TSPA",
+      "TSPA Bengali",
+      "Indian language content"
+    ],
+    "permalink": "https://sunilabraham.in/tspa/0011/"
+  },
+  {
     "title": "Template:TSAP",
     "description": "Navigational template linking the documentation, policies, systems, and other core pages of The Sunil Abraham Project.",
     "created": "2026-09-11",
