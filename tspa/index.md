@@ -121,7 +121,7 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <strong>Age:</strong> Unknown<br>
     <strong>Nature:</strong> Conversational entity<br>
     <strong>Inspired by:</strong> Conversational AI, especially ChatGPT; Isaac Asimov's robot fiction; and fictional robot characters such as V.I.C.I. from <em>Small Wonder</em><br>
-    <strong>First appeared:</strong> <a href="/tspa/0007/">TSPA #0007</a></p>
+    <strong>First appeared:</strong> <a href="/tspa/0010/">TSPA #0010</a></p>
   </div>
 </div>
 
@@ -301,4 +301,3 @@ body.tsap-dark-mode .tspa-card-number {
   color: #93c5fd;
 }
 </style>
-
