@@ -91,7 +91,18 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <p><strong>Species:</strong> <em>Homo sapiens</em><br>
     <strong>Gender:</strong> Male<br>
     <strong>Age:</strong> Around 8, but not exactly known<br>
+    <strong>Role:</strong> One of the central characters of TSPA<br>
     <strong>First appeared:</strong> <a href="/tspa/0001/">TSPA #0001</a></p>
+  </div>
+
+  <div class="tspa-character-card">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/to-01.png" alt="To, a front-facing cartoon boy character from TSPA" loading="lazy" decoding="async">
+    <h3>To</h3>
+    <p><strong>Species:</strong> <em>Homo sapiens</em><br>
+    <strong>Gender:</strong> Male<br>
+    <strong>Age:</strong> Adult<br>
+    <strong>Nature:</strong> Ti's alter ego, representing a more critical and darker side of Ti<br>
+    <strong>First appeared:</strong> Not appeared yet</p>
   </div>
 
   <div class="tspa-character-card">
@@ -100,7 +111,18 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <p><strong>Species:</strong> <em>Felis domestica</em><br>
     <strong>Gender:</strong> Prefers not to say<br>
     <strong>Age:</strong> Unknown<br>
+    <strong>Role:</strong> One of the central characters of TSPA<br>
     <strong>First appeared:</strong> <a href="/tspa/0001/">TSPA #0001</a></p>
+  </div>
+
+  <div class="tspa-character-card">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/mo-01.png" alt="Mo, a front-facing cartoon cat character from TSPA" loading="lazy" decoding="async">
+    <h3>Mo</h3>
+    <p><strong>Species:</strong> <em>Felis domestica</em><br>
+    <strong>Gender:</strong> Prefers not to say<br>
+    <strong>Age:</strong> Unknown<br>
+    <strong>Nature:</strong> Mi's alter ego<br>
+    <strong>First appeared:</strong> Not appeared yet</p>
   </div>
 
 <!-- HIDDEN FOR NOW 
@@ -124,6 +146,8 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <strong>First appeared:</strong> <a href="/tspa/0010/">TSPA #0010</a></p>
   </div>
 </div>
+
+To and Mo are alter egos of Ti and Mi respectively. They are not simply older or alternate versions of the same characters, but distinct expressions of the same underlying characters. The concept is closer to the literary idea of an alter ego, such as Dr Jekyll and Mr Hyde, than to complementary symbolic counterparts such as William Blake's Lamb and Tyger.
 
 ## Naming
 
@@ -290,14 +314,5 @@ body.tsap-dark-mode .tspa-archive-note {
 body.tsap-dark-mode .tspa-card img,
 body.tsap-dark-mode .tspa-character-card img {
   border-color: #4b5563;
-}
-
-body.tsap-dark-mode .tspa-card:hover img,
-body.tsap-dark-mode .tspa-card:focus-visible img {
-  border-color: #93c5fd;
-}
-
-body.tsap-dark-mode .tspa-card-number {
-  color: #93c5fd;
 }
 </style>
