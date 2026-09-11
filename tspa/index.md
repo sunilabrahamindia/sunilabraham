@@ -80,6 +80,10 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0012.png" alt="TSPA #0012 comic strip" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0012</span>
   </a>
+  <a class="tspa-card" href="/tspa/0013/">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0013.png" alt="TSPA #0013 comic strip" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0013</span>
+  </a>
 </div>
 
 ## Characters
@@ -102,7 +106,7 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <strong>Gender:</strong> Male<br>
     <strong>Age:</strong> Adult<br>
     <strong>Nature:</strong> Ti's alter ego, representing a more critical and darker side of Ti<br>
-    <strong>First appeared:</strong> Not appeared yet</p>
+    <strong>First appeared:</strong> <a href="/tspa/0013/">TSPA #0013</a></p>
   </div>
 
   <div class="tspa-character-card">
@@ -122,7 +126,7 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <strong>Gender:</strong> Prefers not to say<br>
     <strong>Age:</strong> Unknown<br>
     <strong>Nature:</strong> Mi's alter ego<br>
-    <strong>First appeared:</strong> Not appeared yet</p>
+    <strong>First appeared:</strong> <a href="/tspa/0013/">TSPA #0013</a></p>
   </div>
 
 <!-- HIDDEN FOR NOW 
