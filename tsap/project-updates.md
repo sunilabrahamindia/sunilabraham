@@ -23,6 +23,7 @@ In June 2026, the number and frequency of project announcements increased. For t
 Each entry should indicate whether that was featured in the website footer, on a dedicated project page, or through another communication channel.
 
 ## September 2026
+- 12 September 2026: [**TSPA #0012**](/tspa/0012/) has been published, a comic strip about preaching open source while using proprietary technology. *(✅ Featured in: Website footer)*
 - 11 September 2026: TSAP documentation reorganised into a [structured navigation template](/tsap/template/). *(✅ Featured in: Website footer)*
 - 8 September 2026: A new cartoon strip, [TSPA](/tspa/), has started. Meet Ti and Mi in [#0001](/tspa/0001/) and [#0002](/tspa/0002/). *(✅ Featured in: Website footer)*
 - 3 September 2026: The Sunil Abraham Project reached 1,250 published pages with [Authority Control: Elonnai Hickok](/elonnai/authority-control/). *(✅ Featured in: Website footer)*
