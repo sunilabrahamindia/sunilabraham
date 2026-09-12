@@ -67,7 +67,7 @@ The public OpenPGP key currently used for TSAP document signing is publicly avai
 - Signatory: Tito Dutta
 - OpenPGP Fingerprint: `D8B6 F47B 05BE C620 5884 77CF FC53 BED3 64AC 9AC7`
 - Public Key: [/tsap/verification/tito-openpgp-public.asc](/tsap/verification/tito-openpgp-public.asc)
-- OpenPGP Keyserver: https://keys.openpgp.org/vks/v1/by-fingerprint/D8B6F47B05BEC620588477CFFC53BED364AC9AC7
+- OpenPGP Keyserver: [See here](https://keys.openpgp.org/vks/v1/by-fingerprint/D8B6F47B05BEC620588477CFFC53BED364AC9AC7)
 
 The current signing key is a personal OpenPGP key used by Tito Dutta while acting on behalf of TSAP.
 
