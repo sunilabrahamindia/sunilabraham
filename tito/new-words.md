@@ -16,9 +16,8 @@ The words and phrases on this page are not necessarily intended to be definitive
 
 **Note:** This page will be gradually expanded as we add new words.
 
-## List of Words {#list}
 
-### Confriends {#confriends}
+## Confriends {#confriends}
 
 **Confriends** or **Con-friends** are people with whom one has a friendly relationship primarily within the context of conferences, events, or similar gatherings.
 
@@ -38,7 +37,7 @@ The relationship is therefore largely context-dependent and may be described as 
 
 Confriends are not necessarily "fake friends" or lesser friends. The word describes the context and pattern of the relationship, rather than its emotional value.
 
-### SnipSkip {#snipskip}
+## SnipSkip {#snipskip}
 
 **SnipSkip** or **SnippSkip** is the act of seeing a message notification or message snippet and deliberately choosing not to open the message, so that the message is not marked as seen or does not trigger a read receipt.
 
