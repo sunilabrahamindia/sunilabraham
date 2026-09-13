@@ -5,7 +5,9 @@
     "created": "2026-09-13",
     "date": null,
     "source": null,
-    "authors": null,
+    "authors": [
+      "Tito Dutta"
+    ],
     "categories": [
       "TSAP Originals",
       "Tito Dutta"
