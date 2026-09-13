@@ -38,6 +38,16 @@ The relationship is therefore largely context-dependent and may be described as 
 
 Confriends are not necessarily "fake friends" or lesser friends. The word describes the context and pattern of the relationship, rather than its emotional value.
 
+## Mah-Standard {#mah-standard}
+
+**Mah-Standard** or **My Standard** is the tendency to assess people, things, situations, or behaviour primarily against one's own personal standards and assessment rules.
+
+In Mah-Standard, a person treats their own way of doing, thinking, judging, or behaving as an ideal example and uses it as the benchmark against which others and everything around them are evaluated.
+
+This tendency may arise partly from normal human cognitive and perspective biases, where people naturally interpret the world through their own experiences, expectations, values, and frame of reference. Mah-Standard describes what happens when this personal perspective becomes the dominant benchmark for evaluating others and the world around them.
+
+Mah-Standard is not necessarily the same as hypocrisy or a double standard. A person may genuinely follow the standard themselves. The defining characteristic is the tendency to assume that one's own standard should also be the standard by which others are assessed.
+
 ## SnipSkip {#snipskip}
 
 **SnipSkip** or **SnippSkip** is the act of seeing a message notification or message snippet and deliberately choosing not to open the message, so that the message is not marked as seen or does not trigger a read receipt.
