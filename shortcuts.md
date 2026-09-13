@@ -31,13 +31,13 @@ These shortcuts use multiple letters or descriptive names and provide direct acc
 They follow the same accessibility and redirect principles as single-letter shortcuts.
 
 | Shortcut | Redirects to | Description |
-|-----------|---------------|--------------|
+|-----------|---------------|-------------|
 | [`/free/`](https://sunilabraham.in/free/) | [`/articles/free/`](https://sunilabraham.in/articles/free/) | Article: Free |
 | [`/ais/`](https://sunilabraham.in/ais/) | [`/events/india-ai-impact-summit-2026/`](https://sunilabraham.in/events/india-ai-impact-summit-2026/) | India AI Impact Summit 2026 main page |
 | [`/aisd/`](https://sunilabraham.in/aisd/) | [`/events/india-ai-impact-summit-2026/#outcome-documents`](https://sunilabraham.in/events/india-ai-impact-summit-2026/#outcome-documents) | India AI Impact Summit 2026 outcome documents section |
 | [`/edrl/`](https://sunilabraham.in/edrl/) | [`/amaa/edrl/`](https://sunilabraham.in/amaa/edrl/) | Essays on Dalits, Religion and Liberation |
-| [`/mm/`](https://sunilabraham.in/mm/) | [`/media/`](https://sunilabraham.in/media/) | Media section |
-| [`/witness/`](https://sunilabraham.in/witness/) | [`/tito/witness/`](https://sunilabraham.in/tito/witness/) | Tito witness page |
+| [`/mm/`](https://sunilabraham.in/mm/) | [`/media/`](https://sunilabraham.in/media/) | Media Mentions |
+| [`/witness/`](https://sunilabraham.in/witness/) | [`/tito/witness/`](https://sunilabraham.in/tito/witness/) | The Witness |
 | [`/priorities/`](https://sunilabraham.in/priorities/) | [`/tsap/priorities/`](https://sunilabraham.in/tsap/priorities/) | TSAP Priorities |
 | [`/swami/`](https://sunilabraham.in/swami/) | [`/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/`](https://sunilabraham.in/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/) | Swami Anand Thirth article |
 | [`/fp/`](https://sunilabraham.in/fp/) | [`/tsap/foundational-principles/`](https://sunilabraham.in/tsap/foundational-principles/) | TSAP Foundational Principles |
