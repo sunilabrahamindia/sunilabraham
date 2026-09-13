@@ -38,6 +38,7 @@ They follow the same accessibility and redirect principles as single-letter shor
 | [`/edrl/`](https://sunilabraham.in/edrl/) | [`/amaa/edrl/`](https://sunilabraham.in/amaa/edrl/) | Essays on Dalits, Religion and Liberation |
 | [`/mm/`](https://sunilabraham.in/mm/) | [`/media/`](https://sunilabraham.in/media/) | Media section |
 | [`/witness/`](https://sunilabraham.in/witness/) | [`/tito/witness/`](https://sunilabraham.in/tito/witness/) | Tito witness page |
+| [`/priorities/`](https://sunilabraham.in/priorities/) | [`/tsap/priorities/`](https://sunilabraham.in/tsap/priorities/) | TSAP Priorities |
 | [`/swami/`](https://sunilabraham.in/swami/) | [`/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/`](https://sunilabraham.in/amaa/swami-anand-thirth-untouchability-gandhian-solution-on-trial/) | Swami Anand Thirth article |
 | [`/fp/`](https://sunilabraham.in/fp/) | [`/tsap/foundational-principles/`](https://sunilabraham.in/tsap/foundational-principles/) | TSAP Foundational Principles |
 | [`/foundational-principles/`](https://sunilabraham.in/foundational-principles/) | [`/tsap/foundational-principles/`](https://sunilabraham.in/tsap/foundational-principles/) | TSAP Foundational Principles |
