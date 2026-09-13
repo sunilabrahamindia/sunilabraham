@@ -101,6 +101,11 @@ a:hover, a:focus {
   color: var(--link-hover);
 }
 
+*:focus-visible {
+  outline: 3px solid var(--link-hover);
+  outline-offset: 3px;
+}
+
 /* =========================================================
    Animations
    ========================================================= */
