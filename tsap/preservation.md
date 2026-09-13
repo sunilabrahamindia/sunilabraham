@@ -70,11 +70,14 @@ Because the project is built primarily using static files and open formats, repo
 
 ### Software Heritage
 
-On 31 May 2026 at 17:16:46 UTC, the GitHub repository of The Sunil Abraham Project (TSAP) was archived on Software Heritage.
+The TSAP GitHub repository is preserved through Software Heritage, an independent long-term archival service for software source code and development history. The first TSAP repository snapshot was archived on 31 May 2026 at 17:16:46 UTC. Following the completion of TSAP Version 2.0, an additional archival snapshot was requested in June 2026 to preserve the repository at the conclusion of that development cycle.
 
-Following the completion of TSAP Version 2.0, in June 2026, an additional Software Heritage archival snapshot was requested to preserve the repository at the conclusion of the Version 2.0 development cycle. This provides an updated independently archived copy of the repository and its Git history, complementing the earlier preservation snapshot and documenting the project's continued development.
+Software Heritage preservation is ongoing. Multiple archival snapshots of the TSAP repository have now been recorded, providing independently preserved copies of the repository and its Git history at different points in the project's development. Rather than listing individual snapshots here, the complete history of preserved visits can be viewed through Software Heritage:
 
-Software Heritage is an international initiative dedicated to collecting, preserving, and providing long-term access to software source code and development history. Its inclusion in TSAP's preservation workflow adds an additional layer of archival resilience beyond GitHub, web archiving services, local backups, and other preservation mechanisms.
+- [All preserved snapshots of the main TSAP repository](https://archive.softwareheritage.org/browse/origin/visits/?origin_url=https://github.com/sunilabrahamindia/sunilabraham&visit_type=git)
+- [All preserved snapshots of the TSAP media repository](https://archive.softwareheritage.org/browse/origin/visits/?origin_url=https://github.com/sunilabrahamindia/sunilabrahammedia&visit_type=git)
+
+Software Heritage adds an independent preservation layer beyond GitHub, web archiving services, local backups, and other preservation mechanisms, helping preserve not only the current source files but also the project's development history over time.
 
 ## Offline TSAP
 <span class="preservation-status status-experimental">Experimental</span>
