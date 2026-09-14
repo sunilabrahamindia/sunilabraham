@@ -13,9 +13,9 @@ authors: Tito Dutta
 <div class="noshout-box" aria-label="TSAP is a proposed No Shouting Zone">
   <div class="noshout-pretitle">TSAP is a</div>
   <div class="noshout-title">
-    <span class="noshout-icon" aria-hidden="true">🔇</span>
-    Proposed No Shouting Zone
-    <span class="noshout-icon" aria-hidden="true">🤫</span>
+    <span class="noshout-icon noshout-icon-left" aria-hidden="true">🔇</span>
+    <span class="noshout-title-text">Proposed No<br class="noshout-mobile-break"> Shouting Zone</span>
+    <span class="noshout-icon noshout-icon-right" aria-hidden="true">🤫</span>
   </div>
   <div class="noshout-subtitle">Talk softly, please.</div>
 </div>
@@ -97,11 +97,20 @@ The aim of the proposed No Shouting Zone is therefore about the manner in which 
 .noshout-title {
   position: relative;
   z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr minmax(0, auto) 1fr;
+  align-items: center;
+  column-gap: 0.5em;
   margin-top: 0.2em;
   font-size: clamp(1.8em, 5vw, 2.8em);
   font-weight: 800;
   line-height: 1.15;
   letter-spacing: -0.02em;
+}
+
+.noshout-title-text {
+  grid-column: 2;
+  text-align: center;
   background: linear-gradient(90deg, #2563eb, #7c3aed, #db2777);
   -webkit-background-clip: text;
   background-clip: text;
@@ -112,12 +121,23 @@ The aim of the proposed No Shouting Zone is therefore about the manner in which 
 .noshout-icon {
   display: inline-block;
   font-size: 0.75em;
-  vertical-align: middle;
+  line-height: 1;
   animation: noshout-bounce 2.5s ease-in-out infinite;
 }
 
-.noshout-icon:last-child {
+.noshout-icon-left {
+  grid-column: 1;
+  justify-self: end;
+}
+
+.noshout-icon-right {
+  grid-column: 3;
+  justify-self: start;
   animation-delay: 0.3s;
+}
+
+.noshout-mobile-break {
+  display: none;
 }
 
 .noshout-subtitle {
@@ -195,7 +215,7 @@ body.tsap-dark-mode .noshout-pretitle {
   color: #94a3b8 !important;
 }
 
-body.tsap-dark-mode .noshout-title {
+body.tsap-dark-mode .noshout-title-text {
   background: linear-gradient(90deg, #38bdf8, #60a5fa, #93c5fd) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
@@ -213,8 +233,18 @@ body.tsap-dark-mode .noshout-subtitle {
   }
 
   .noshout-title {
+    grid-template-columns: minmax(28px, 1fr) minmax(0, 3.8fr) minmax(28px, 1fr);
+    column-gap: 0.35em;
     font-size: clamp(1.65em, 8vw, 2.2em);
     letter-spacing: -0.01em;
+  }
+
+  .noshout-title-text {
+    white-space: nowrap;
+  }
+
+  .noshout-mobile-break {
+    display: block;
   }
 
   .noshout-icon {
@@ -235,7 +265,7 @@ body.tsap-dark-mode .noshout-subtitle {
   .noshout-box,
   .noshout-box::before,
   .noshout-box::after,
-  .noshout-title,
+  .noshout-title-text,
   .noshout-icon {
     animation: none !important;
   }
