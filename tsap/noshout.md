@@ -23,9 +23,17 @@ The Sunil Abraham Project (TSAP) is a proposed "No Shouting Zone". All contribut
 
 We understand that there are situations where you may feel forced to shout because, if you speak "normally", people will not listen. In such situations, we should attempt to improve the environment rather than making your blood pressure rise.
 
-If you find it difficult to avoid shouting, it may be worth considering whether you need some support for your mental wellbeing.
+If you find it difficult to avoid shouting, it may be worth considering what support or changes to the environment might help.
 
 TSAP is a proposed no shouting zone. Do not shout, please.
+
+## Speech, Offence and Participation
+
+The proposed No Shouting Zone is not intended to restrict disagreement, criticism, anger, or strongly expressed views. Lawful speech does not become impermissible merely because someone finds it offensive.
+
+At the same time, TSAP is not a user-generated content (UGC) platform. The freedom to express a lawful view does not create an entitlement to publish that view through TSAP or to participate in TSAP without regard to its proposed guidelines.
+
+The aim of the proposed No Shouting Zone is therefore about the manner in which people participate in TSAP, rather than requiring people to agree with one another or preventing strong disagreement.
 
 <style>
 .noshout-box {
