@@ -1,17 +1,17 @@
 ---
 layout: default
 title: "No Shouting"
-description: "No Shouting as a behavioural guideline of The Sunil Abraham Project (TSAP)."
+description: "A proposed No Shouting Zone for The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation]
 permalink: /tsap/noshout/
 created: 2026-09-14
 ---
 
-<div class="noshout-box" aria-label="TSAP is a No Shouting Zone">
+<div class="noshout-box" aria-label="TSAP is a proposed No Shouting Zone">
   <div class="noshout-pretitle">TSAP is a</div>
   <div class="noshout-title">
     <span class="noshout-icon" aria-hidden="true">🔇</span>
-    No Shouting Zone
+    Proposed No Shouting Zone
     <span class="noshout-icon" aria-hidden="true">🤫</span>
   </div>
   <div class="noshout-subtitle">Talk softly, please.</div>
@@ -19,13 +19,13 @@ created: 2026-09-14
 
 ## No Shouting Zone
 
-The Sunil Abraham Project (TSAP) is a "No Shouting Zone". All contributors, including the Founder, as well as participants, are expected not to raise their voice or shout for any reason while participating in or contributing to TSAP.
+The Sunil Abraham Project (TSAP) is a proposed "No Shouting Zone". All contributors, including the Founder, as well as participants, are expected not to raise their voice or shout for any reason while participating in or contributing to TSAP.
 
-We understand that there are situations where you may feel forced to shout because, if you speak "normally", people will not listen. In such situations, we should attempt to improve the environment rather than making your blood pressure rise. 
+We understand that there are situations where you may feel forced to shout because, if you speak "normally", people will not listen. In such situations, we should attempt to improve the environment rather than making your blood pressure rise.
 
 If you find it difficult to avoid shouting, it may be worth considering whether you need some support for your mental wellbeing.
 
-In brief, TSAP is a no shouting zone. Do not shout, please.
+TSAP is a proposed no shouting zone. Do not shout, please.
 
 <style>
 .noshout-box {
