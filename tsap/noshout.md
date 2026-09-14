@@ -5,7 +5,10 @@ description: "A proposed No Shouting Zone for The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation]
 permalink: /tsap/noshout/
 created: 2026-09-14
+author: Tito Dutta
 ---
+
+{% include author.html %}
 
 <div class="noshout-box" aria-label="TSAP is a proposed No Shouting Zone">
   <div class="noshout-pretitle">TSAP is a</div>
