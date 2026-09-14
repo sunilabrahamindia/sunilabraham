@@ -21,7 +21,9 @@ created: 2026-09-14
 
 The Sunil Abraham Project (TSAP) is a "No Shouting Zone". All contributors, including the Founder, as well as participants, are expected not to raise their voice or shout for any reason while participating in or contributing to TSAP.
 
-We understand that there are situations where you may feel forced to shout because, if you speak "normally", people will not listen. In such situations, we should attempt to improve the environment rather than making your blood pressure rise.
+We understand that there are situations where you may feel forced to shout because, if you speak "normally", people will not listen. In such situations, we should attempt to improve the environment rather than making your blood pressure rise. 
+
+If you find it difficult to avoid shouting, it may be worth considering whether you need some support for your mental wellbeing.
 
 In brief, TSAP is a no shouting zone. Do not shout, please.
 
