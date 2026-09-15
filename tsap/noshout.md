@@ -15,7 +15,7 @@ authors: Tito Dutta
   <div class="noshout-title">
     <span class="noshout-icon noshout-icon-left" aria-hidden="true">🔇</span>
     <span class="noshout-title-text">Proposed No<br class="noshout-mobile-break"> Shouting Zone</span>
-    <span class="noshout-icon noshout-icon-right" aria-hidden="true">🤫</span>
+    <span class="noshout-icon noshout-icon-right" aria-hidden="true">🙂</span>
   </div>
   <div class="noshout-subtitle">Talk softly, please.</div>
 </div>
