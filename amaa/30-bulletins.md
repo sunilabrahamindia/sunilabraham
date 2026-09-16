@@ -407,7 +407,7 @@ This work represents an early experiment in developing a dedicated AI research i
 
 ### ISBN application {#isbn-application}
 
-Following our ISBN registration process [described in the fifth bulletin](#isbn-registration), we have now submitted an application for an ISBN for *Essays on Dalits, Religion and Liberation II*, by A. M. Abraham Ayrookuzhiel. The application has been submitted to the Raja Rammohun Roy National Agency for ISBN Registration under the imprint "The Sunil Abraham Project". It has been assigned the application reference number 44138|ISBN|2026|A and is currently awaiting processing.
+Following our ISBN registration process [described in the fifth bulletin](#isbn-registration), we have now submitted an application for an ISBN for *Essays on Dalits, Religion and Liberation II*, by A. M. Abraham Ayrookuzhiel. The application has been submitted to the Raja Rammohun Roy National Agency for ISBN Registration under the imprint "The Sunil Abraham Project". It has been assigned the application reference number `44138|ISBN|2026|A` and is currently awaiting processing.
 
 {% include navbox-amaa.html %}
 
