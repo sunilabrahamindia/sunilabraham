@@ -18,6 +18,7 @@ The **"Bulletins" page** documents the planning, progress, and activities relate
 4. [Bulletin 4](#bulletin-4)
 5. [Bulletin 5](#bulletin-5)
 6. [Bulletin 5.1 — Preparatory Bulletin](#bulletin-51)
+7. [Bulletin 6](#bulletin-6)
 
 ## Bulletin 1 {#bulletin-1}
 
@@ -375,6 +376,38 @@ This dedicated period is intended not simply to add more material, but to improv
 The work and progress during this phase will be listed and tracked through the project's [GitHub Project](https://github.com/users/sunilabrahamindia/projects/2) and the [30th Death Anniversary label](https://github.com/sunilabrahamindia/sunilabraham/issues?q=label%3A%2230th-death-anniversary%22). This will provide a central place to document the work, track progress, and organise contributions during the phase.
 
 The preparatory bulletin therefore marks the beginning of this focused phase. The regular monthly bulletin cycle will continue alongside this work, with Bulletin 6 scheduled for 15 September 2026 and Bulletin 7 for 15 October 2026. Bulletin 6 will report on the work undertaken during the preceding month, including the first 15 days of the dedicated phase, while Bulletin 7 will report on the work of the final month and mark the conclusion of the dedicated editing, contributing and enhancement phase.
+
+## Bulletin 6 {#bulletin-6}
+
+🗓️ **Date:** Tuesday, 15 September 2026
+
+This sixth bulletin reports on the work undertaken and progress made towards the commemoration during the period from 15 August to 15 September 2026.
+
+We continued our work on the unfinished manuscript of A. M. A. Ayrookuzhiel by documenting the [22 August 2026 Meeting: Methodology and Vision for the Unfinished Manuscript](/amaa/unfinished-manuscript-meeting-2026-08-22/). The meeting, held on Google Meet as part of the preparations for the 30th death anniversary commemoration, helped clarify the distinction between the surviving 115-page source document and the unfinished manuscript itself. The proposed approach involves studying the surviving fragments alongside Ayrookuzhiel's wider body of writings and collecting contemporary material through detailed research in Kottarakkara Taluk, including documentation of places of worship, objects, forms of worship, religious functionaries, festivals, photographs, audio, video, maps, and geographical information. The meeting also discussed a possible research team of 10 researchers working for at least 10 months, followed by further development, review, and discussion of the reconstructed manuscript. The ideas recorded on the page are proposals from the meeting and not a finalised methodology.
+
+We worked on [*Dalit Kavithakal: Oru Padanam*](/amaa/dalit-kavithakal/), a Malayalam-language book by Paul Chirakkarodu, M. Sathyaprakasham and Athanasius Mathen Abraham Ayrookuzhiel, published by the Christian Literature Society in Tiruvalla in 1992. The book, whose title translates as *Dalit Poems: A Study*, is cited in scholarly literature on Dalit theology, caste, religion and identity, including a University of Glasgow doctoral thesis. It has also been included in university-level Malayalam literature syllabi, providing independent references for its bibliographic details and place within the study of Dalit literature in Kerala.
+
+We also worked on [*Dalit Sahityam*](/amaa/dalit-sahityam/), a Malayalam-language book by Paul Chirakkarod and Athanasius Mathen Abraham Ayrookuzhiel, published in Tiruvalla in 1995. The work followed their earlier *Dalit Kavithakal: Oru Padanam* and is cited in a University of Glasgow doctoral thesis under the title *Dalit Sahityam: Oru Padanam*. The available scholarly reference discusses the book in connection with Dalit experience, social oppression, literary works, and the representation of Dalit experience. Further documentation will be added as the original volume and additional reliable sources become available.
+
+We have published [*Religion, Culture and Power (Editorial)*](/amaa/religion-culture-and-power-editorial-1985-03/), an editorial by A. M. Abraham Ayrookuzhiel published in *Religion and Society*, Vol. XXXII, No. 1, in March 1985. The editorial introduces the issue's examination of the relationship between religion, culture and power in South Asia, drawing attention not only to the visible political dimensions of religion but also to less visible power relationships within religio-cultural systems, including those involving gender and caste. The issue brought together studies on caste, religion and people's movements in Kerala, community identity, village Hindu religion and the aspirations of oppressed communities, as well as a study of Kurukh Christian lyrics and questions of indigenous theological expression.
+
+### A. M. A. Ayrookuzhiel Knowledge Engine {#knowledge-engine}
+
+One of the important areas of work during this period has been our exploration of an AI-powered search and research interface for the writings and archival material of A. M. A. Ayrookuzhiel.
+
+We had been exploring different options for making the growing A. M. A. Ayrookuzhiel archive searchable through natural-language questions. We had previously experimented with Google's NotebookLM, which provided a useful way of working with a collection of source material, but it did not provide the kind of public, embeddable search interface that we wanted to integrate directly into The Sunil Abraham Project website.
+
+In August 2026, we found that Cloudflare had significantly expanded and made its [AI Search](https://developers.cloudflare.com/ai-search/) service available for building search systems over a project's own data. On 6 August, Cloudflare announced new AI Search capabilities including public endpoints, website crawling, custom domains and other features intended to make AI Search usable in applications and public-facing websites.
+
+We therefore started experimenting with Cloudflare AI Search for the A. M. A. Ayrookuzhiel archive. The system uses Cloudflare AI Search in the backend to retrieve and generate answers from the indexed archive material, while we built a dedicated search interface for the project. The interface is hosted on GitHub Pages within The Sunil Abraham Project at [A. M. A. Ayrookuzhiel — Knowledge Engine](/amaa/search/). The page is currently marked as a "Preparatory version" because the system is still being developed and evaluated.
+
+The Knowledge Engine is intended to be more than a conventional keyword search. Visitors can ask questions in natural language and receive an answer based on the indexed archive, with sources and references presented where available. The implementation also includes safeguards for rendering AI-generated Markdown and links, together with responsive design, keyboard accessibility, reduced-motion support and light and dark mode support.
+
+This work represents an early experiment in developing a dedicated AI research interface around a historical archive, while keeping the public-facing interface and the underlying archive within the infrastructure of The Sunil Abraham Project.
+
+### ISBN application {#isbn-application}
+
+Following our ISBN registration process [described in the fifth bulletin](#isbn-registration), we have now submitted an application for an ISBN for *Essays on Dalits, Religion and Liberation II*, by A. M. Abraham Ayrookuzhiel. The application has been submitted to the Raja Rammohun Roy National Agency for ISBN Registration under the imprint "The Sunil Abraham Project". It has been assigned the application reference number 44138|ISBN|2026|A and is currently awaiting processing.
 
 {% include navbox-amaa.html %}
 
