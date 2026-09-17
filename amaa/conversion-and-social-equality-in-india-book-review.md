@@ -20,7 +20,7 @@ Ayrookuzhiel places Kooiman's historical study within contemporary debates about
 
 The review highlights Kooiman's account of the differing motivations of missionaries and communities such as the Shanars, Sambhavas, Pulayas and Kuravas. According to Ayrookuzhiel, one of the book's strengths is its careful use of primary evidence to challenge simplistic theories about both missionary motives and the reasons oppressed communities embraced Christianity.
 
-Ayrookuzhiel nevertheless identifies limitations in the study. He argues that its dependence on missionary and government records leaves unanswered questions about the experiences and subsequent social position of some convert communities. He also challenges Kooiman's comparison of Christianisation and Sanskritisation, regarding them as fundamentally different social processes.
+A. M. A. Ayrookuzhiel nevertheless identifies limitations in the study. He argues that its dependence on missionary and government records leaves unanswered questions about the experiences and subsequent social position of some convert communities. He also challenges Kooiman's comparison of Christianisation and Sanskritisation, regarding them as fundamentally different social processes.
 
 ## Review {#review}
 
