@@ -12,7 +12,7 @@ created: 2026-05-19
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..400&display=swap" rel="stylesheet">
 
-This page documents authority control identifiers, bibliographic records, scholarly profiles, archival references, and related metadata associated with [A. M. A. Ayrookuzhiel](/amaa/). It is intended to support long-term discoverability, citation consistency, digital preservation, and interoperability across library catalogues, theological archives, research databases, archival systems, and web-based scholarly infrastructure.
+This page documents authority control identifiers, bibliographic data and records, scholarly profiles, archival references, and related metadata associated with [A. M. A. Ayrookuzhiel](/amaa/). It is intended to support long-term discoverability, citation consistency, digital preservation, and interoperability across library catalogues, theological archives, research databases, archival systems, and web-based scholarly infrastructure.
 
 The page consolidates identifiers and external records connected with A. M. A. Ayrookuzhiel's publications, theological writings, sociological research, Dalit studies scholarship, editorial contributions, institutional affiliations, and historical work related to caste, religion, liberation theology, social reform, and social movements in Kerala and India.
 
