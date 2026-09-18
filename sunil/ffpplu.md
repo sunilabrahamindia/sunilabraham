@@ -2,7 +2,7 @@
 layout: default
 title: "Forum For Protection and Promotion of Lawful Unsafety"
 description: "A proposed forum conceived by Sunil Abraham to explore lawful unsafety and critique the emerging human right to safety."
-categories: [Project pages]
+categories: [Project pages, Sunil Abraham]
 permalink: /ffpplu/
 created: 2026-09-18
 homepage_featured: false
