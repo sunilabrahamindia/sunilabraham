@@ -3,7 +3,7 @@ layout: default
 title: "No Shouting"
 description: "A proposed No Shouting Zone for The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation, Tito Dutta]
-permalink: /tsap/noshout/
+permalink: /tito/noshout/
 created: 2026-09-14
 authors: Tito Dutta
 ---
