@@ -15,6 +15,15 @@ Information recorded or processed with the assistance of AI does not automatical
 
 Voice communication with an AI is also different from ordinary conversation between people. People routinely rely on shared memory, context, pronunciation, previous conversations, and an assumption that the other person knows what they are referring to. An AI may not have access to the same context. This becomes particularly important when the speaker is communicating in a language that is not their first language, or when names, Indian languages, regional expressions, technical terms, and other less common words are involved.
 
+## Tools used or considered
+
+The following tools are used or being considered in this experimental workflow. They are selected because they can combine voice input with AI-based transcription, processing, or interaction. Ordinary voice recorders are not included because they would require a separate transcription and processing stage.
+
+- **Google Meet with Gemini AI notes** — Used for meetings, where Gemini takes notes and transcribes the discussion.
+- **Google Gemini for in-person meetings** — Used for in-person conversations, with Gemini providing transcription and AI-assisted notes.
+- **ChatGPT Voice** — Used to provide information directly through voice and have ChatGPT process it conversationally.
+- **ChatGPT Live / Gemini Live** — Real-time AI conversations. These are known options but have not been used extensively in TSAP so far.
+
 The following principles are intended to make voice-based communication with an AI clearer and more reliable.
 
 ## Use common sense
