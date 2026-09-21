@@ -57,6 +57,19 @@ In the 1970s and 1980s CISRS was active in discussions on political theology, no
 
 These names represent only a portion of those associated with the Institute's work.
 
+## Directors
+
+The directors of CISRS, as listed by the Institute, have included:
+
+1. P. D. Devanandan (1953–1962)
+2. M. M. Thomas (1962–1976)
+3. Prof. Saral K. Chatterji (1976–2002)
+4. Godwin Shiri (2002–2008)
+5. Vincent Rajkumar (2008–2021)
+6. [Y. T. Vinayaraj](/vinayaraj/) (2021–present)
+
+The dates above are based on the list of directors published by CISRS on its official website.
+
 ## Publications
 
 CISRS produces books, study papers and reports in the fields of religion and society. Its journal, *Religion and Society*, dates to the early 1950s and continues to publish articles on religious, social and political developments in India.
