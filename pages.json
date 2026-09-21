@@ -1,5 +1,20 @@
 [
   {
+    "title": "Big Data and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules 2011",
+    "description": "An August 2015 CIS blog post by Elonnai Hickok examining how Big Data practices strain the provisions of India's 2011 IT Rules on reasonable security practices and sensitive personal data, covering scope, consent, notice, access, purpose limitation, security, and remedy.",
+    "created": "2026-09-21",
+    "date": "2015-08-11",
+    "source": "Centre for Internet and Society",
+    "authors": [
+      "Elonnai Hickok"
+    ],
+    "categories": [
+      "Centre for Internet and Society",
+      "Elonnai Hickok"
+    ],
+    "permalink": "https://sunilabraham.in/elonnai/big-data-and-information-technology-rules-2011/"
+  },
+  {
     "title": "A Review of the Policy Debate around Big Data and Internet of Things",
     "description": "An August 2015 CIS blog post by Elonnai Hickok reviewing how regulators and experts across jurisdictions, including the US FTC, the Article 29 Working Party, the European Commission, and the European Data Protection Supervisor, are responding to Big Data and the Internet of Things from a policy perspective.",
     "created": "2026-09-20",
