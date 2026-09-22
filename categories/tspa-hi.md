@@ -6,5 +6,6 @@ main_article_title: "TSPA"
 description: "Hindi-language comic strips published as TSPA."
 categories: [TSPA]
 permalink: /categories/tspa-hi/
+page_id: TSAP-1273
 created: 2026-09-10
 ---

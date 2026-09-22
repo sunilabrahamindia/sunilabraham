@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2015-08-11
 source: "Centre for Internet and Society"
 permalink: /elonnai/big-data-and-information-technology-rules-2011/
+page_id: TSAP-1292
 created: 2026-09-21
 homepage_featured: true
 ---

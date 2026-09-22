@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2015-08-10
 source: "Centre for Internet and Society"
 permalink: /elonnai/comparison-of-human-dna-profiling-bill-2012-vs-recommendations-and-2015-bill/
+page_id: TSAP-1287
 created: 2026-09-17
 homepage_featured: true
 ---

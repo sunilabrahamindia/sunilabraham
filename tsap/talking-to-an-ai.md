@@ -4,6 +4,7 @@ title: "Talking to an AI: Guide to Voice-Based Information Processing"
 description: "Guidance on communicating with AI and large language models through voice for information recording and processing, including clarity, structure, context, and human verification."
 categories: [TSAP Documentation]
 permalink: /tsap/talking-to-an-ai/
+page_id: TSAP-1290
 created: 2026-09-19
 ---
 

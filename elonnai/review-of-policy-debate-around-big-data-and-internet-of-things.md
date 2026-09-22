@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2015-08-17
 source: "Centre for Internet and Society"
 permalink: /elonnai/review-of-policy-debate-around-big-data-and-internet-of-things/
+page_id: TSAP-1291
 created: 2026-09-20
 homepage_featured: true
 ---

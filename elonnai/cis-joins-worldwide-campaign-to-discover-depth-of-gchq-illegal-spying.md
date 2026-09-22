@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2015-02-28
 source: "Centre for Internet and Society"
 permalink: /elonnai/cis-joins-worldwide-campaign-to-discover-depth-of-gchq-illegal-spying/
+page_id: TSAP-1284
 created: 2026-09-15
 homepage_featured: true
 ---

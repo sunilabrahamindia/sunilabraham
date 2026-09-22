@@ -4,6 +4,7 @@ title: "No Shouting"
 description: "A proposed No Shouting Zone for The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation, Tito Dutta]
 permalink: /tito/noshout/
+page_id: TSAP-1283
 created: 2026-09-14
 authors: Tito Dutta
 ---

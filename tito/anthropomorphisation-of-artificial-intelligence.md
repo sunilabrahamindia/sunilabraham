@@ -5,6 +5,7 @@ categories: [Artificial Intelligence, Tito Dutta, Essays by Tito Dutta]
 description: "A personal viewpoint on anthropomorphisation as a cognitive interface for humans working with artificial intelligence."
 authors: [Tito Dutta]
 permalink: /tito/anthropomorphisation-of-artificial-intelligence/
+page_id: TSAP-1275
 created: 2026-09-11
 ---
 

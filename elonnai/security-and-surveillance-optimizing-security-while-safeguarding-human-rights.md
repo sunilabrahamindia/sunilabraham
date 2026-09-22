@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2015-01-19
 source: "Centre for Internet and Society"
 permalink: /elonnai/security-and-surveillance-optimizing-security-while-safeguarding-human-rights/
+page_id: TSAP-1282
 created: 2026-09-14
 homepage_featured: true
 ---

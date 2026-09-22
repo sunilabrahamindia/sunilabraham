@@ -4,6 +4,7 @@ title: "Template:TSAP"
 permalink: /tsap/template/
 categories: [Navigational templates, TSAP]
 description: Navigational template linking the documentation, policies, systems, and other core pages of The Sunil Abraham Project.
+page_id: TSAP-1277
 created: 2026-09-11
 ---
 

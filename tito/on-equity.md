@@ -5,6 +5,7 @@ categories: [Tito Dutta, Essays by Tito Dutta]
 description: "A personal reflection on Social equity, its practice, and the gap between preaching equity and actually practising it."
 authors: [Tito Dutta]
 permalink: /tito/on-equity/
+page_id: TSAP-1289
 created: 2026-09-19
 ---
 

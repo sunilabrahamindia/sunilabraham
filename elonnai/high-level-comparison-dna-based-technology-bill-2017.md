@@ -7,6 +7,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2017-08-04
 source: "Centre for Internet and Society"
 permalink: /elonnai/high-level-comparison-dna-based-technology-bill-2017/
+page_id: TSAP-1293
 created: 2026-09-22
 homepage_featured: true
 ---

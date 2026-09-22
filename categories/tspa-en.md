@@ -6,5 +6,6 @@ main_article_title: "TSPA"
 description: "English-language comic strips published as TSPA."
 categories: [TSPA]
 permalink: /categories/tspa-en/
+page_id: TSAP-1272
 created: 2026-09-10
 ---

@@ -4,6 +4,7 @@ title: "New Words"
 categories: [TSAP Originals, Tito Dutta]
 description: "New words and phrases coined by Tito Dutta to describe ideas, behaviours, relationships, and experiences that may benefit from having a name."
 permalink: /tito/new-words/
+page_id: TSAP-1281
 created: 2026-09-13
 authors: [Tito Dutta]
 homepage_featured: true
