@@ -33,7 +33,7 @@ CISRS aims to provide research and analysis on religion and society in India. It
 
 Over time, commentators have described the Institute's work as moving towards what has been called a "secular theology of religions", an approach that treats religion as a social and political force rather than focusing solely on doctrinal or devotional concerns. This shift allowed CISRS research to engage with caste discrimination, patriarchy, communal tensions and development policy.
 
-The Institute has also described its work in terms of Christian participation in nation-building and responsible theological thinking in response to socio-political issues. Its historical account connects this work with the development of Indian Christian social thought. citeturn0search0turn0search1
+The Institute has also described its work in terms of Christian participation in nation-building and responsible theological thinking in response to socio-political issues. Its historical account connects this work with the development of Indian Christian social thought.
 
 ## Inter-Faith Dialogue
 
@@ -45,7 +45,7 @@ CISRS's interreligious work also contributed to the development of Indian Christ
 
 CISRS contributed to early research on caste within Christian and non-Christian contexts. Studies by researchers such as A. M. A. Ayrookuzhiel examined folk practices, oral traditions and forms of cultural resistance found among Dalit communities. Independent theological literature identifies CISRS as one of several institutions involved in discussions that eventually shaped Dalit Theology.
 
-The Institute's own account also identifies P. D. Devanandan and M. M. Thomas with early studies of subaltern and counter-religious movements, and notes Abraham Ayrookuzhiel's work on popular religions. It further identifies Nirmal Minz's documentation of tribal awakening and CISRS initiatives connected with Womanist and Dalit movements. citeturn0search2
+The Institute's own account also identifies P. D. Devanandan and M. M. Thomas with early studies of subaltern and counter-religious movements, and notes Abraham Ayrookuzhiel's work on popular religions. It further identifies Nirmal Minz's documentation of tribal awakening and CISRS initiatives connected with Womanist and Dalit movements.
 
 ## Gender and Women's Rights
 
@@ -55,9 +55,9 @@ Through programmes such as the Joint Women's Programme (JWP), CISRS engaged with
 
 In the 1970s and 1980s CISRS was active in discussions on political theology, notably under the influence of M. M. Thomas. Its research during this period examined themes such as human rights, democratic participation and the ethical responsibilities of the State. Later surveys of Indian Christian thought identify this phase as one that shaped broader debates on the social role of religion.
 
-During the Emergency, CISRS became involved with progressive social movements and developed what its own historical account describes as a shift "from evangelization to social action". The Institute connected this work with a theology of the responsible state and with solidarity with marginalised communities. citeturn0search1
+During the Emergency, CISRS became involved with progressive social movements and developed what its own historical account describes as a shift "from evangelization to social action". The Institute connected this work with a theology of the responsible state and with solidarity with marginalised communities.
 
-From the 1990s onwards, CISRS continued discussions concerning development policy and the position of marginalised communities. Its recent institutional history describes this work as an effort to question monolithic approaches to development and to support the articulation of marginalised people's concerns. citeturn0search1
+From the 1990s onwards, CISRS continued discussions concerning development policy and the position of marginalised communities. Its recent institutional history describes this work as an effort to question monolithic approaches to development and to support the articulation of marginalised people's concerns.
 
 ## Notable Personalities
 
@@ -92,7 +92,7 @@ CISRS has also preserved and republished older material. In 2022, it republished
 
 ## Organisation and Centres
 
-The Institute is registered under the Karnataka Societies Registration Act. Its principal office is located at Miller's Road, Bengaluru. The South Asian Study and Research Centre in New Delhi serves as an additional office and programme centre. citeturn0search1
+The Institute is registered under the Karnataka Societies Registration Act. Its principal office is located at Miller's Road, Bengaluru. The South Asian Study and Research Centre in New Delhi serves as an additional office and programme centre.
 
 ## Strategic Reorientation in 2026
 
@@ -104,14 +104,16 @@ Vinayaraj also called for renewed engagement with religious traditions as ethica
 
 Academic surveys over several decades have noted CISRS as one of the institutions engaged in studying religion in relation to Indian society. Its work is referenced in discussions on caste, inter-faith relations, political theology and contextual theology in India.
 
-CISRS's own history describes the Institute as a research arm of Indian churches and a think tank of Asian churches, while emphasising its continuing role in study, research and theological reflection on social issues. citeturn0search1
+CISRS's own history describes the Institute as a research arm of Indian churches and a think tank of Asian churches, while emphasising its continuing role in study, research and theological reflection on social issues.
 
 ## References
 
-- {{cite web |url=https://cisrs.in/history |title=History |website=Christian Institute for the Study of Religion and Society (CISRS) |access-date=22 September 2026}}
-- {{cite web |url=https://cisrs.in/subaltern-studies |title=Subaltern Concerns and Studies |website=Christian Institute for the Study of Religion and Society (CISRS) |access-date=22 September 2026}}
-- {{cite web |url=https://parallaxcisrs.org/blog/70th-anniversary-of-cisrs-a-strategic-reorientation-on-the-horizon/83 |title=70th Anniversary of CISRS: A Strategic Reorientation on the Horizon |last=Vinayaraj |first=Y. T. |date=17 May 2026 |website=Parallax CISRS |access-date=22 September 2026}}
-- {{cite web |url=https://cisrs.in/ |title=Christian Institute for the Study of Religion and Society (CISRS) |website=CISRS |access-date=22 September 2026}}
+1. [History](https://cisrs.in/history), *Christian Institute for the Study of Religion and Society (CISRS)*, accessed 22 September 2026.
+2. [Subaltern Concerns and Studies](https://cisrs.in/subaltern-studies), *Christian Institute for the Study of Religion and Society (CISRS)*, accessed 22 September 2026.
+3. [70th Anniversary of CISRS: A Strategic Reorientation on the Horizon](https://parallaxcisrs.org/blog/70th-anniversary-of-cisrs-a-strategic-reorientation-on-the-horizon/83), *Parallax CISRS*, 17 May 2026, accessed 22 September 2026.
+4. [Christian Institute for the Study of Religion and Society (CISRS)](https://cisrs.in/), *Christian Institute for the Study of Religion and Society (CISRS)*, accessed 22 September 2026.
+5. H. Coward, "The Christian Institute for the Study of Religion and Society," *Journal of Hindu-Christian Studies*, 1993.
+6. G. Oommen, "The Emerging Dalit Theology: A Historical Appraisal," Religion Online.
 - H. Coward, "The Christian Institute for the Study of Religion and Society," *Journal of Hindu-Christian Studies*, 1993.
 - G. Oommen, "The Emerging Dalit Theology: A Historical Appraisal," Religion Online.
 
