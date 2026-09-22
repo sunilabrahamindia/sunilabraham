@@ -114,8 +114,6 @@ CISRS's own history describes the Institute as a research arm of Indian churches
 4. [Christian Institute for the Study of Religion and Society (CISRS)](https://cisrs.in/), *Christian Institute for the Study of Religion and Society (CISRS)*, accessed 22 September 2026.
 5. H. Coward, "The Christian Institute for the Study of Religion and Society," *Journal of Hindu-Christian Studies*, 1993.
 6. G. Oommen, "The Emerging Dalit Theology: A Historical Appraisal," Religion Online.
-- H. Coward, "The Christian Institute for the Study of Religion and Society," *Journal of Hindu-Christian Studies*, 1993.
-- G. Oommen, "The Emerging Dalit Theology: A Historical Appraisal," Religion Online.
 
 ## External Links
 
