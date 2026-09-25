@@ -9,7 +9,7 @@ page_id: TSAP-1022
 created: 2026-05-28
 ---
 
-The **full text of the [Dalits' Challenges to Religious Systems — A People Ignored by Church History](/amaa/dalits-challenges-religious-systems/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Religion and Society*, Volume 36, No. 4, December 1989.
+The **full text of the [Dalits' Challenges to Religious Systems — A People Ignored by Church History](/amaa/dalits-challenges-religious-systems/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in [*Religion and Society*](/articles/religion-and-society/), Volume 36, No. 4, December 1989.
 
 This version preserves the original wording, structure, and formatting as presented in the source document.
 
