@@ -10,7 +10,7 @@ created: 2026-06-25
 homepage_featured: true
 ---
 
-**Tamil Nadu: Deities and Devotees (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Tamil Nadu: Deities and Devotees*, by Gift Siromoney and K. R. Rajagopalan, published as Scientific Report No. 25 by the Department of Statistics, Madras Christian College, in 1976. The review appeared in *Religion and Society*, Vol. XXIII, No. 4 (December 1976), pp. 75-77.
+**Tamil Nadu: Deities and Devotees (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Tamil Nadu: Deities and Devotees*, by Gift Siromoney and K. R. Rajagopalan, published as Scientific Report No. 25 by the Department of Statistics, Madras Christian College, in 1976. The review appeared in [*Religion and Society*](/articles/religion-and-society/), Vol. XXIII, No. 4 (December 1976), pp. 75-77.
 
 The reviewed work presents the findings of a statewide public opinion survey conducted in Tamil Nadu in 1972 and 1976, examining the relative popularity of Hindu deities and patterns of worship. Ayrookuzhiel commends the study for making empirical data on popular Hinduism available while critically examining its methodology, interpretation of village deities, and conclusions regarding patterns of worship.
 
@@ -54,7 +54,7 @@ I should also mention that Table B referred to in the second article is found mi
 
 ## Publication {#publication}
 
-This review was published in *Religion and Society*, Vol. XXIII, No. 4 (December 1976), pp. 75-77.
+This review was published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXIII, No. 4 (December 1976), pp. 75-77.
 
 It reviews *Tamil Nadu: Deities and Devotees*, by Gift Siromoney and K. R. Rajagopalan (Department of Statistics, Madras Christian College, Scientific Report No. 25, 1976. 28 pp.).
 
