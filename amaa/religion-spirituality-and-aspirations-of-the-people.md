@@ -9,7 +9,7 @@ page_id: TSAP-1048
 created: 2026-06-08
 ---
 
-**Religion, Spirituality and Aspirations of the People** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), first published in *Religion and Society*, Vol. XXV, No. 1, March 1978. Drawing on conversations with ordinary people in Kerala, the essay explores how people understand their aspirations in life and how they perceive the role of religion in relation to those aspirations. Ayrookuzhiel argues that aspirations for freedom, equality, fraternity, and social justice are widely shared, but that many people do not see religion as an effective force in achieving them. The essay further examines the implications of these perceptions for religious life, the study of Hinduism, and Hindu-Christian dialogue in contemporary India.
+**Religion, Spirituality and Aspirations of the People** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), first published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXV, No. 1, March 1978. Drawing on conversations with ordinary people in Kerala, the essay explores how people understand their aspirations in life and how they perceive the role of religion in relation to those aspirations. Ayrookuzhiel argues that aspirations for freedom, equality, fraternity, and social justice are widely shared, but that many people do not see religion as an effective force in achieving them. The essay further examines the implications of these perceptions for religious life, the study of Hinduism, and Hindu-Christian dialogue in contemporary India.
 
 ## Contents
 
@@ -79,6 +79,6 @@ The essay argues that religion cannot remain isolated from the realities of soci
 
 ## Publication
 
-This essay first appeared in *Religion and Society*, Vol. XXV, No. 1, March 1978.
+This essay first appeared in [*Religion and Society*](/articles/religion-and-society/), Vol. XXV, No. 1, March 1978.
 
 {% include navbox-amaa.html %}
