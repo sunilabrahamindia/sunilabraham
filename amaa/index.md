@@ -91,7 +91,7 @@ Over the course of his career, Rev. Ayrookuzhiel wrote and edited several books 
 | 1990 | *The Dalit Desiyata: The Kerala Experience in Development and Class Struggle* | Editor | ISPCK (for CISRS) | Examines the intersections of caste, identity, development, and class politics within Kerala’s social movements. |
 | 1992 | *Dalit Kavithakal: Oru Padanam* (Dalit Poems: A Study) | Co-editor | Asian Trading Corporation | Co-edited with M. Sathyaprakasham and Paul Chirakarodu; documents the rise of Dalit poetry as a form of cultural resistance. |
 | 1995 | *Dalit Sahityam* (Dalit Literature: A Study) | Co-author | Asian Trading Corporation | Co-authored with Paul Chirakarodu; analyses Dalit literature as an emerging tradition of liberation writing. |
-| 2006 | *Essays on Dalits, Religion, and Liberation* | Author | Asian Trading Corporation | A posthumous collection of Ayrookuzhiel’s essays on religion, social justice, and liberation theology. |
+| 2006 | *Essays on Dalits, Religion, and Liberation* | Author | [Asian Trading Corporation](/articles/asian-trading-corporation/) | A posthumous collection of Ayrookuzhiel’s essays on religion, social justice, and liberation theology. |
 
 ### Key Articles and Unpublished Works
 
