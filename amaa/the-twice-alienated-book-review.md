@@ -10,7 +10,7 @@ created: 2026-06-25
 homepage_featured: true
 ---
 
-**The Twice Alienated (Culture of Dalit Christians) (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *The Twice Alienated (Culture of Dalit Christians)* by K. K. Wilson, published by Booklinks Corporation, Hyderabad, in 1983. The review appeared in *Religion and Society*, Vol. XXX, No. 2 (June 1983), pp. 72-73.
+**The Twice Alienated (Culture of Dalit Christians) (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *The Twice Alienated (Culture of Dalit Christians)* by K. K. Wilson, published by Booklinks Corporation, Hyderabad, in 1983. The review appeared in [*Religion and Society*](/articles/religion-and-society/), Vol. XXX, No. 2 (June 1983), pp. 72-73.
 
 The book examines the social, cultural and religious condition of Dalit Christians, arguing that Christianity contributed to a second form of alienation after the oppression experienced within Hindu society. While recognising the importance of the questions raised, Ayrookuzhiel considers Wilson's arguments to be historically and theologically oversimplified and challenges several of the book's central conclusions.
 
