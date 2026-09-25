@@ -10,7 +10,7 @@ created: 2026-07-21
 homepage_featured: true
 ---
 
-**Conversion, Competition and Conflict (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Conversion, Competition and Conflict: Essays on the Role of Religion in Asia*, edited by Dick Kooiman, Otto van der Muijzenberg and Peter van der Veer, and published by Free University Press, Amsterdam, in 1984. The review appeared in *Religion and Society*, Vol. 32, No. 1 (1985), p. 85.
+**Conversion, Competition and Conflict (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Conversion, Competition and Conflict: Essays on the Role of Religion in Asia*, edited by Dick Kooiman, Otto van der Muijzenberg and Peter van der Veer, and published by Free University Press, Amsterdam, in 1984. The review appeared in [*Religion and Society*](/articles/religion-and-society/), Vol. 32, No. 1 (1985), p. 85.
 
 The book brings together case studies from India, Indonesia and Formosa examining the relationships between religion and social change. Ayrookuzhiel highlights the volume's historical approach to the interaction of religious, economic and political forces and considers it a valuable contribution to understanding South Asian societies and the changing role of religion within them.
 
@@ -45,7 +45,7 @@ In short as far as theory goes, both Marx and Max Weber come alive in the book. 
 
 ## Publication {#publication}
 
-This review was published in *Religion and Society*, Vol. 32, No. 1 (1985), p. 85. It reviews *Conversion, Competition and Conflict: Essays on the Role of Religion in Asia*, edited by Dick Kooiman, Otto van der Muijzenberg and Peter van der Veer, and published by Free University Press, Amsterdam, in 1984.
+This review was published in [*Religion and Society*](/articles/religion-and-society/), Vol. 32, No. 1 (1985), p. 85. It reviews *Conversion, Competition and Conflict: Essays on the Role of Religion in Asia*, edited by Dick Kooiman, Otto van der Muijzenberg and Peter van der Veer, and published by Free University Press, Amsterdam, in 1984.
 
 {% include navbox-amaa.html %}
 
