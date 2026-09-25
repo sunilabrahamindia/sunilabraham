@@ -27,7 +27,7 @@ The CISRS feels very happy and honoured to publish this volume on the eve of the
 
 However CISRS is happy to publish these writings again because of the seminal insights they still carry for the unfinished task of liberation of the oppressed in this country.
 
-We are grateful to Dr. K.C. Abraham for writing an appropriate 'Introduction' to this volume. We are also indebted to our Editorial Consultant Rev. Arun Kumar Wesley for his meticulous editorial work and for all his efforts in bringing out this volume. We thank Mrs. Ponnamma Abraham and children for their support and co-operation in bringing out this book. Asian Trading Corporation, Bangalore have brought out this book for CISRS and we are thankful to them.
+We are grateful to Dr. K.C. Abraham for writing an appropriate 'Introduction' to this volume. We are also indebted to our Editorial Consultant Rev. Arun Kumar Wesley for his meticulous editorial work and for all his efforts in bringing out this volume. We thank Mrs. Ponnamma Abraham and children for their support and co-operation in bringing out this book. [Asian Trading Corporation](/articles/asian-trading-corporation/), Bangalore have brought out this book for CISRS and we are thankful to them.
 
 <div style="display:flex; justify-content:space-between; margin-top:2rem; flex-wrap:wrap; gap:1rem;">
   <div>
