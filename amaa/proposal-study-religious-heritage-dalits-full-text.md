@@ -10,7 +10,7 @@ page_id: TSAP-0950
 created: 2026-05-07
 ---
 
-The **full text of the [A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations](/amaa/proposal-study-religious-heritage-dalits/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Religion and Society*, Vol. 42, No. 1, March 1995.
+The **full text of the [A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations](/amaa/proposal-study-religious-heritage-dalits/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in [*Religion and Society*](/articles/religion-and-society/), Vol. 42, No. 1, March 1995.
 
 This version preserves the original wording, structure, and formatting as presented in the source document.
 
