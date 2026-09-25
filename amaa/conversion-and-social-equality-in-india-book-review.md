@@ -10,7 +10,7 @@ created: 2026-07-21
 homepage_featured: true
 ---
 
-**Conversion and Social Equality in India (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Conversion and Social Equality in India: The London Missionary Society in South Travancore in the 19th Century* by Dick Kooiman, published by Manohar Publications, New Delhi, in 1989. The review appeared in *Religion and Society*, Vol. XXXVII, No. 3 (September 1990), pp. 72–73.
+**Conversion and Social Equality in India (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Conversion and Social Equality in India: The London Missionary Society in South Travancore in the 19th Century* by Dick Kooiman, published by Manohar Publications, New Delhi, in 1989. The review appeared in [*Religion and Society*](/articles/religion-and-society/), Vol. XXXVII, No. 3 (September 1990), pp. 72–73.
 
 The book examines the work of the London Missionary Society in nineteenth-century South Travancore and the relationship between religious conversion and the pursuit of social equality among oppressed caste communities. Ayrookuzhiel considers the study particularly valuable for challenging reductionist explanations of missionary activity and conversion, while raising questions about its reliance on missionary and government records and its comparison of Christianisation with Sanskritisation.
 
@@ -46,7 +46,7 @@ I however fail to understand the confusion created by the author by comparing Ch
 
 ## Publication {#publication}
 
-This review was published in *Religion and Society*, Vol. XXXVII, No. 3 (September 1990), pp. 72–73.
+This review was published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXXVII, No. 3 (September 1990), pp. 72–73.
 
 It reviews *Conversion and Social Equality in India: The London Missionary Society in South Travancore in the 19th Century* by Dick Kooiman (Manohar Publications, New Delhi, 1989), 236 pp., price Rs. 200.
 
