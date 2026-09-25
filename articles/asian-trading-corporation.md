@@ -4,6 +4,7 @@ title: "Asian Trading Corporation"
 categories: [Institutions, CISRS, A. M. A. Ayrookuzhiel]
 description: "An overview of Asian Trading Corporation, an Indian publishing organisation established in Bombay in 1946 and later based in Bengaluru."
 permalink: /articles/asian-trading-corporation/
+page_id: TSAP-1296
 created: 2026-09-25
 ---
 

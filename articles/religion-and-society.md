@@ -4,6 +4,7 @@ title: Religion and Society
 categories: [Christian Institute for the Study of Religion and Society, A. M. A. Ayrookuzhiel]
 description: An encyclopaedic overview of Religion and Society, the journal associated with the Christian Institute for the Study of Religion and Society (CISRS), its history, themes, contributors and significance in Indian religious and social studies.
 permalink: /articles/religion-and-society/
+page_id: TSAP-1294
 created: 2026-09-23
 ---
 
