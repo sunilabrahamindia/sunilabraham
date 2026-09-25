@@ -10,7 +10,7 @@ created: 2026-06-26
 homepage_featured: true
 ---
 
-**The Church and the Study of Religion** is an article by [A. M. A. Ayrookuzhiel](/amaa/) published in *Religion and Society*, Vol. XXVIII, No. 3 (September 1981), pp. 36-41.
+**The Church and the Study of Religion** is an article by [A. M. A. Ayrookuzhiel](/amaa/) published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXVIII, No. 3 (September 1981), pp. 36-41.
 
 The article argues that the study of religion should be approached from the perspective of the poor, the oppressed and the marginalised. Drawing primarily on the Hindu religious tradition, Ayrookuzhiel examines how religious beliefs, practices and institutions are shaped by social, economic and political structures. He calls for empirical and critical approaches to the study of religion that illuminate the relationship between religion, justice and human liberation, while encouraging churches to engage more meaningfully with the lived religious experience of ordinary people.
 
@@ -68,7 +68,7 @@ Justice and liberation motifs also appear in poems, short stories, novels and in
 
 ## Publication {#publication}
 
-This article was published in *Religion and Society*, Vol. XXVIII, No. 3 (September 1981), pp. 36-41, under the title "The Church and the Study of Religion".
+This article was published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXVIII, No. 3 (September 1981), pp. 36-41, under the title "The Church and the Study of Religion".
 
 ## Notes {#notes}
 
