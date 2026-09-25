@@ -10,7 +10,7 @@ created: 2026-07-30
 homepage_featured: true
 ---
 
-**Religions and the Aspirations of the People** is an article by [A. M. A. Ayrookuzhiel](/amaa/) published in *Religion and Society*, Vol. XXX, Nos. 3 & 4 (September–December 1983), pp. 102–108.
+**Religions and the Aspirations of the People** is an article by [A. M. A. Ayrookuzhiel](/amaa/) published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXX, Nos. 3 & 4 (September–December 1983), pp. 102–108.
 
 The article examines the relationship between religion, social power and the aspirations of poor, marginalised and oppressed people. Drawing on Dalit struggles and religious movements in Kerala and elsewhere in India, Ayrookuzhiel argues that religion can become aligned with the interests of dominant groups while also providing symbols, traditions and forms of mobilisation through which oppressed communities challenge established power. He calls for critical study of religious institutions and their social interests, while identifying a religious tradition of commitment to the poor that remains independent of the pursuit of power.
 
@@ -75,7 +75,7 @@ In conclusion, I would say that a religious person has to be continuously critic
 
 ## Publication {#publication}
 
-This article was published in *Religion and Society*, Vol. XXX, Nos. 3 & 4 (September–December 1983), pp. 102–108, under the title "Religions and the Aspirations of the People".
+This article was published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXX, Nos. 3 & 4 (September–December 1983), pp. 102–108, under the title "Religions and the Aspirations of the People".
 
 ## Notes {#notes}
 
