@@ -7,6 +7,8 @@ permalink: /articles/asian-trading-corporation/
 created: 2026-09-25
 ---
 
+{% include under-construction.html %}
+
 ***Asian Trading Corporation*** (ATC) is an Indian publishing organisation established in Bombay in 1946 and later based in Bengaluru. The organisation developed from its early work as a bookshop into publishing, importing, exporting and distributing books and other literature.
 
 ## History
@@ -64,3 +66,6 @@ The Archdiocese of Bangalore also lists Asian Trading Corporation among its prin
 5. [Theological Education in India Today](https://books.google.com/books/about/Theological_Education_in_India_Today.html?id=ctgWAAAAIAAJ), Google Books, Asian Trading Corporation, 1985, accessed 25 September 2026.
 6. [Essays on Dalits, Religion, and Liberation](https://books.google.com/books/about/Essays_on_Dalits_religion_and_liberation.html?hl=en&id=slAKAQAAMAAJ), Google Books, Asian Trading Corporation, 2006, accessed 25 September 2026.
 7. [Essays on Dalits, Religion and Liberation](/amaa/edrl/), The Sunil Abraham Project, accessed 25 September 2026.
+
+## External links
+- [Official website](https://www.atcpublishers.com/)
