@@ -10,7 +10,7 @@ created: 2026-07-20
 homepage_featured: true
 ---
 
-**Sadhus of India (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Sadhus of India* by B. D. Tripathi, published by Popular Prakashan, Bombay, in 1978. The review appeared in *Religion and Society*, Vol. XXV, No. 4 (1978), pp. 88–89.
+**Sadhus of India (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Sadhus of India* by B. D. Tripathi, published by Popular Prakashan, Bombay, in 1978. The review appeared in [*Religion and Society*](/articles/religion-and-society/), Vol. XXV, No. 4 (1978), pp. 88–89.
 
 The book presents a sociological study of sadhus in India, examining their backgrounds, motivations for entering religious life, beliefs, attitudes and social practices. Ayrookuzhiel considers the study a valuable contribution to the literature on contemporary Hinduism, while raising reservations about some of the author's interpretations of religious belief.
 
