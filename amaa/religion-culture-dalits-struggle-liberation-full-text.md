@@ -10,7 +10,7 @@ page_id: TSAP-1015
 created: 2026-05-26
 ---
 
-The **full text of the [Religion and Culture in Dalits' Struggle for Liberation](/amaa/religion-culture-dalits-struggle-liberation/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Religion and Society*, Volume 33, No. 2, June 1986.
+The **full text of the [Religion and Culture in Dalits' Struggle for Liberation](/amaa/religion-culture-dalits-struggle-liberation/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in [*Religion and Society*](/articles/religion-and-society/), Volume 33, No. 2, June 1986.
 
 This version preserves the original wording, structure, and formatting as presented in the source document.
 
