@@ -10,7 +10,7 @@ page_id: TSAP-1047
 created: 2026-06-07
 ---
 
-The **full text of [Religion, Spirituality and Aspirations of the People](/amaa/religion-spirituality-and-aspirations-of-the-people/)** is reproduced here from the original publication by [A. M. Abraham Ayrookuzhiel](/amaa/). The essay was published in *Religion and Society*, Vol. XXV, No. 1 (March 1978).
+The **full text of [Religion, Spirituality and Aspirations of the People](/amaa/religion-spirituality-and-aspirations-of-the-people/)** is reproduced here from the original publication by [A. M. Abraham Ayrookuzhiel](/amaa/). The essay was published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXV, No. 1 (March 1978).
 
 This version preserves the original wording, structure, and formatting as presented in the source document.
 
