@@ -132,7 +132,7 @@ The essays in this collection span theology, sociology, and history. Selected ch
 
 ## Publication History
 
-The book was posthumously published in 2006 by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS). Its release marked the tenth anniversary of Ayrookuzhiel's death on 29 November 1996 and coincided with the Golden Jubilee of CISRS, serving as both a memorial tribute and a reaffirmation of the institute's long-standing commitment to liberation-oriented theology.  
+The book was posthumously published in 2006 by the [Asian Trading Corporation](/articles/asian-trading-corporation/), Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS). Its release marked the tenth anniversary of Ayrookuzhiel's death on 29 November 1996 and coincided with the Golden Jubilee of CISRS, serving as both a memorial tribute and a reaffirmation of the institute's long-standing commitment to liberation-oriented theology.  
 
 Many of the essays in this collection were first published in *Religion and Society*, the in-house journal of CISRS, while others originated as research papers or lectures presented at seminars on religion and social change. Bringing them together in a single volume allowed scholars and students to trace the evolution of Ayrookuzhiel's thought — from his early reflections on Indian religiosity to his mature formulations of Dalit theology and cultural resistance.  
 
