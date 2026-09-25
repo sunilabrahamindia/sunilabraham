@@ -10,7 +10,7 @@ created: 2026-09-04
 homepage_featured: true
 ---
 
-**Religion, Culture and Power (Editorial)** is an editorial by [A. M. Abraham Ayrookuzhiel](/amaa/) published in *Religion and Society*, Vol. XXXII, No. 1 (March 1985). It introduces the issue's central concern with the relationship between religion, culture and power, particularly the ways in which religious and cultural systems can shape, preserve or challenge relations of power within society.
+**Religion, Culture and Power (Editorial)** is an editorial by [A. M. Abraham Ayrookuzhiel](/amaa/) published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXXII, No. 1 (March 1985). It introduces the issue's central concern with the relationship between religion, culture and power, particularly the ways in which religious and cultural systems can shape, preserve or challenge relations of power within society.
 
 Writing from the context of South Asia, Ayrookuzhiel argues that culture cannot be considered independently of religion, just as the power dimensions of religious and cultural systems cannot be ignored. He points to the often overlooked relationships involving gender, caste and other social divisions, and presents the articles in the issue as part of a new enquiry into the positive and negative roles of religion in the aspirations of oppressed sections of society.
 
@@ -52,7 +52,7 @@ All the same, the negative sentiments expressed in the lyrics on the way of life
 
 ## Publication {#publication}
 
-This editorial was published in *Religion and Society*, Vol. XXXII, No. 1, March 1985, pp. 1–2.
+This editorial was published in [*Religion and Society*](/articles/religion-and-society/), Vol. XXXII, No. 1, March 1985, pp. 1–2.
 
 The issue is centred on the theme *Religion, Culture and Power* and also contains articles by J. W. Gladstone, K. J. Baby and Nirmal Minz, along with a book review and a document containing the final statement and recommendations of the International Conference on Emerging Consciousness for a New Humankind.
 
