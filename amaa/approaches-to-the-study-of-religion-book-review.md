@@ -10,7 +10,7 @@ created: 2026-06-25
 homepage_featured: true
 ---
 
-**Approaches to the Study of Religion (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Approaches to the Study of Religion*, edited by Harbans Singh and published by the Guru Gobind Singh Department of Religious Studies, Punjabi University, Patiala. The review appeared in *Religion and Society*, Vol. 20, No. 4 (1973), pp. 115-116.
+**Approaches to the Study of Religion (Book Review)** is a review by [A. M. A. Ayrookuzhiel](/amaa/) of *Approaches to the Study of Religion*, edited by Harbans Singh and published by the Guru Gobind Singh Department of Religious Studies, Punjabi University, Patiala. The review appeared in [*Religion and Society*](/articles/religion-and-society/), Vol. 20, No. 4 (1973), pp. 115-116.
 
 The reviewed volume brings together papers presented at a seminar organised by the Guru Gobind Singh Department of Religious Studies, Punjabi University, to explore methodological and curricular questions in the academic study of religion. Ayrookuzhiel welcomes the diversity of approaches represented in the collection, while observing that the volume does not establish a universally accepted methodology for the discipline. He particularly appreciates its contribution to inter-religious understanding and its emphasis on empirical approaches to the study of religion.
 
@@ -39,7 +39,7 @@ There are two essays on what students of religion could profitably undertake to 
 
 ## Publication {#publication}
 
-This review was published in *Religion and Society*, Vol. 20, No. 4 (1973), pp. 115-116.
+This review was published in [*Religion and Society*](/articles/religion-and-society/), Vol. 20, No. 4 (1973), pp. 115-116.
 
 It reviews *Approaches to the Study of Religion*, edited by Harbans Singh and published by the Guru Gobind Singh Department of Religious Studies, Punjabi University, Patiala.
 
