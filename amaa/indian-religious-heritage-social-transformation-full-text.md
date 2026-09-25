@@ -10,7 +10,7 @@ page_id: TSAP-0967
 created: 2026-05-12
 ---
 
-The **full text of the [Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS](/amaa/indian-religious-heritage-social-transformation/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in *Religion and Society*, Volume XL, Nos. 1 & 2, March–June 1993 (Christian Institute for the Study of Religion and Society Publication Trust).
+The **full text of the [Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS](/amaa/indian-religious-heritage-social-transformation/)** is reproduced here verbatim from the original paper by [A. M. A. Ayrookuzhiel](/amaa/). This article first appeared in [*Religion and Society*](/articles/religion-and-society/), Volume XL, Nos. 1 & 2, March–June 1993 (Christian Institute for the Study of Religion and Society Publication Trust).
 
 This version preserves the original wording, structure, and formatting as presented in the source document.
 
