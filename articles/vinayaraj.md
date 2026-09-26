@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Y. T. Vinayaraj"
-categories: ["Biographies"]
+categories: ["Biographies", "Christian Institute for the Study of Religion and Society"]
 description: Biography of Rev. Dr. Y. T. Vinayaraj, Indian theologian, scholar of religion, author, editor, and educator.
 permalink: /vinayaraj/
 page_id: TSAP-1116
@@ -44,11 +44,15 @@ Y. T. Vinayaraj studied science before pursuing theological education. He obtain
 
 Vinayaraj later continued his higher studies at the Lutheran School of Theology at Chicago in the United States, where he completed both the Master of Theology (Th.M.) and Doctor of Philosophy (Ph.D.) degrees.
 
+{% include back-to-top.html %}
+
 ## Academic career
 
 Y. T. Vinayaraj has held teaching and academic leadership positions at several theological institutions in India. From 2014 to 2017, he served as Faculty and Registrar at Dharma Jyoti Vidya Peeth, Faridabad. During 2016 and 2017, he also served as Faculty and Registrar at Nav Jyoti Post Graduate and Research Centre, Faridabad.
 
 Between 2018 and 2021, he was a member of the faculty at Mar Thoma Theological Seminary and the Federated Faculty for Research in Religion and Culture (FFRRC), both in Kottayam. Since 2021, he has served as a visiting faculty member at United Theological College, Bengaluru, Henry Martyn Institute, Hyderabad, and the Federated Faculty for Research in Religion and Culture, Kottayam.
+
+{% include back-to-top.html %}
 
 ## Ministry and ecclesiastical service
 
@@ -56,11 +60,15 @@ An ordained minister of the Mar Thoma Church since 1997, Vinayaraj has held a nu
 
 In 2018, Vinayaraj convened the Mar Thoma Annual Clergy Conference. Earlier, in 1997, he served as a member of the Mar Thoma Church Directory Committee.
 
+{% include back-to-top.html %}
+
 ## Ecumenical engagement
 
 Dr. Vinayaraj has been actively involved in ecumenical organisations and initiatives in India and internationally. Since 2021, he has served as Director of the Christian Institute for the Study of Religion and Society (CISRS), Bengaluru.
 
 Earlier in his career, he was Senior Secretary of the Student Christian Movement of India (SCMI), Kerala Region, from 2001 to 2003. Between 2002 and 2004, he served as a member of the Dalit Desk of the National Council of Churches in India (NCCI) and as Vice-President of the Kerala Council of Churches (KCC). In 1994, he served as a Steward on the Executive Committee of the World Council of Churches (WCC) in South Africa.
+
+{% include back-to-top.html %}
 
 ## Publications
 
