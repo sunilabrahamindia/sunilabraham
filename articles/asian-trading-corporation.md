@@ -10,7 +10,7 @@ created: 2026-09-25
 
 {% include under-construction.html %}
 
-***Asian Trading Corporation*** (ATC) is an Indian publishing organisation established in Bombay in 1946 and later based in Bengaluru. The organisation developed from its early work as a bookshop into publishing, importing, exporting and distributing books and other literature.
+**Asian Trading Corporation** (ATC) is an Indian publishing organisation established in Bombay in 1946 and later based in Bengaluru. The organisation developed from its early work as a bookshop into publishing, importing, exporting and distributing books and other literature.
 
 ## History
 
