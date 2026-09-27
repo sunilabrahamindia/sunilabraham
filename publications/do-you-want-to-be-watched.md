@@ -35,7 +35,7 @@ created: 2025-11-16
   <dd>Opinion Article</dd>
 
   <dt>🔗 External Link:</dt>
-  <dd>No official link available due to certificate issues.</dd>
+  <dd>No official link available</dd>
 </dl>
 
 ## Full Text
