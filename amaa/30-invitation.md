@@ -48,6 +48,7 @@ created: 2026-09-27
 }
 
 .amaa-name {
+  color: #fff8eb !important;
   font-size: clamp(1.55rem, 5.2vw, 2.25rem);
   line-height: 1.18;
   margin: 0;
@@ -59,7 +60,7 @@ created: 2026-09-27
   margin: 0.55rem 0 0;
   font-size: clamp(0.95rem, 3vw, 1.1rem);
   font-style: italic;
-  color: #ecdfc6;
+  color: #f0e4d0;
 }
 
 .amaa-portrait-wrap {
