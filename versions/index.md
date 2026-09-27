@@ -24,6 +24,9 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 9. [Version 2.3](#version-23)
 10. [Version 2.3.1](#version-231)
 11. [Version 2.3.2](#version-232)
+12. [Version 2.4](#version-24)
+13. [Version 2.4.1](#version-241)
+14. [Version 2.4.2](#version-242)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -273,6 +276,88 @@ From Sunday 30 August 2026 to Saturday 5 September 2026, 11 pages were created.
 * #37 [Create Dalit Sahityam (Dalit Literature) book article](https://github.com/sunilabrahamindia/sunilabraham/issues/37), created on 3 September 2026
 * #38 [Mapping and Documentation of Recently Scanned Essays of A. M. A. Ayrookuzhiel](https://github.com/sunilabrahamindia/sunilabraham/issues/38), created on 4 September 2026
 * #39 [Create Google Apps Script to monitor repository size](https://github.com/sunilabrahamindia/sunilabraham/issues/39), created on 4 September 2026
+
+## Version 2.4
+
+From Sunday 6 September 2026 to Saturday 12 September 2026, 25 pages were created.
+
+* **[Simulation #1](/tito/s1/)**, created on 6 September 2026 – An artificial-life experiment exploring autonomous organisms, ecology, evolution, resource competition, and emergent behaviour.
+* **[TSPA](/tspa/)**, created on 7 September 2026 – An original comic strip on The Sunil Abraham Project, started by Tito Dutta.
+* **[TSPA #0003](/tspa/0003/)**, created on 8 September 2026 – TSPA #0003, the third comic strip in the TSPA series.
+* **[TSPA #0002](/tspa/0002/)**, created on 8 September 2026 – TSPA #0002, the second comic strip in the TSPA series.
+* **[TSPA #0001](/tspa/0001/)**, created on 8 September 2026 – TSPA #0001, the first comic strip in the TSPA series.
+* **[Featured Cartoon (Documentation)](/tsap/featured-cartoon-documentation/)**, created on 8 September 2026 – A permanent record of cartoons featured in the 'Featured cartoon' section on the TSAP home page, with the dates they were displayed.
+* **[Category:TSPA](/categories/tspa/)**, created on 8 September 2026 – Original comic strips published as TSPA, a rearrangement of TSAP, the short form of The Sunil Abraham Project.
+* **[Template:TSPA](/tspa/template/)**, created on 9 September 2026 – Navigational template linking the TSPA comic strips.
+* **[TSPA #0009](/tspa/0009/)**, created on 9 September 2026 – TSPA #0009, a Bangla comic strip about food, gifts and choosing what to accept.
+* **[TSPA #0008](/tspa/0008/)**, created on 9 September 2026 – TSPA #0008, a comic strip about the limitations of sound-based communication.
+* **[TSPA #0007](/tspa/0007/)**, created on 9 September 2026 – TSPA #0007, a comic strip about staying up late after taking a phone to set an alarm.
+* **[TSPA #0006](/tspa/0006/)**, created on 9 September 2026 – TSPA #0006, a Bangla comic strip about overthinking.
+* **[TSPA #0005](/tspa/0005/)**, created on 9 September 2026 – TSPA #0005, the fifth comic strip in the TSPA series.
+* **[TSPA #0004](/tspa/0004/)**, created on 9 September 2026 – TSPA #0004, the fourth comic strip in the TSPA series.
+* **[TSPA #0010](/tspa/0010/)**, created on 10 September 2026 – TSPA #0010, a Hindi comic strip about Ti replacing solitude with Cha.
+* **[Category:TSPA Hindi](/categories/tspa-hi/)**, created on 10 September 2026 – Hindi-language comic strips published as TSPA.
+* **[Category:TSPA English](/categories/tspa-en/)**, created on 10 September 2026 – English-language comic strips published as TSPA.
+* **[Category:TSPA Bengali](/categories/tspa-bn/)**, created on 10 September 2026 – Bengali-language comic strips published as TSPA.
+* **[TSPA #0011](/tspa/0011/)**, created on 11 September 2026 – TSPA #0011, a Bangla comic strip about singing, AI tools and learning.
+* **[Template:TSAP](/tsap/template/)**, created on 11 September 2026 – Navigational template linking the documentation, policies, systems, and other core pages of The Sunil Abraham Project.
+* **[TSAP Priorities](/tsap/priorities/)**, created on 11 September 2026 – The current priorities of The Sunil Abraham Project and the areas that guide its development and work.
+* **[Why We May Need to Anthropomorphise Artificial Intelligence — A Viewpoint](/tito/anthropomorphisation-of-artificial-intelligence/)**, created on 11 September 2026 – A personal viewpoint on anthropomorphisation as a cognitive interface for humans working with artificial intelligence.
+* **[Category:Essays by Tito Dutta](/categories/essays-by-tito-dutta/)**, created on 11 September 2026 – Essays written by Tito Dutta, documented under The Sunil Abraham Project.
+* **[TSPA #0013](/tspa/0013/)**, created on 12 September 2026 – TSPA #0013, a comic strip introducing To and Mo as alter egos of Ti and Mi.
+* **[TSPA #0012](/tspa/0012/)**, created on 12 September 2026 – TSPA #0012, a comic strip about preaching open source while using proprietary technology.
+
+**Git activity:** 218 commits.
+
+**GitHub issues created:** 2.
+* #40 [TSPA (Comic) — media storage management and future migration](https://github.com/sunilabrahamindia/sunilabraham/issues/40), created on 8 September 2026
+* #41 [Check discrepancy between Jekyll page count and pages.json](https://github.com/sunilabrahamindia/sunilabraham/issues/41), created on 9 September 2026
+
+## Version 2.4.1
+
+From Sunday 13 September 2026 to Saturday 19 September 2026, 10 pages were created.
+
+* **[New Words](/tito/new-words/)**, created on 13 September 2026 – New words and phrases coined by Tito Dutta to describe ideas, behaviours, relationships, and experiences that may benefit from having a name.
+* **[No Shouting](/tito/noshout/)**, created on 14 September 2026 – A proposed No Shouting Zone for The Sunil Abraham Project (TSAP).
+* **[Security and Surveillance – Optimizing Security while Safeguarding Human Rights](/elonnai/security-and-surveillance-optimizing-security-while-safeguarding-human-rights/)**, created on 14 September 2026 – A January 2015 CIS blog post by Elonnai Hickok recapping a talk held by the Centre for Internet and Society on 19 December 2014, discussing surveillance, interception, security, oversight, and regulation in India as part of a joint CIS and Privacy International research project.
+* **[The Centre for Internet and Society joins Worldwide Campaign to Discover Depth of GCHQ's Illegal Spying](/elonnai/cis-joins-worldwide-campaign-to-discover-depth-of-gchq-illegal-spying/)**, created on 15 September 2026 – A February 2015 CIS blog post by Elonnai Hickok announcing CIS's participation in an international Privacy International campaign allowing people around the world to ask whether their communications were unlawfully shared from the NSA with GCHQ before December 2014.
+* **[TSPA #0014](/tspa/0014/)**, created on 16 September 2026 – TSPA #0014, a comic strip about UPI payments and Merchant Discount Rates.
+* **[Aadhaar Number vs the Social Security Number](/elonnai/aadhaar-number-vs-social-security-number/)**, created on 16 September 2026 – A July 2015 CIS blog post by Elonnai Hickok comparing India's Aadhaar number with the United States Social Security Number across governance, purpose, applicability, storage, verification, and enrolment, prompted by reports of a pilot to enrol children for Aadhaar numbers at birth.
+* **[Comparison of the Human DNA Profiling Bill 2012 with: CIS Recommendations, Sub-Committee Recommendations, Expert Committee Recommendations, and the Human DNA Profiling Bill 2015](/elonnai/comparison-of-human-dna-profiling-bill-2012-vs-recommendations-and-2015-bill/)**, created on 17 September 2026 – An August 2015 CIS blog post by Elonnai Hickok comparing the Human DNA Profiling Bill 2012 against the 2015 Bill, CIS's own recommendations, the Sub-Committee's recommendations, and the Expert Committee's recommendations, chapter by chapter.
+* **[Forum For Protection and Promotion of Lawful Unsafety](/ffpplu/)**, created on 18 September 2026 – A proposed forum conceived by Sunil Abraham to explore lawful unsafety and critique the emerging human right to safety.
+* **[Talking to an AI: Guide to Voice-Based Information Processing](/tsap/talking-to-an-ai/)**, created on 19 September 2026 – Guidance on communicating with AI and large language models through voice for information recording and processing, including clarity, structure, context, and human verification.
+* **[On Equity (Social)](/tito/on-equity/)**, created on 19 September 2026 – A personal reflection on Social equity, its practice, and the gap between preaching equity and actually practising it.
+
+**Git activity:** 64 commits.
+
+**GitHub issues created:** 1.
+* #43 [Separate subcategories from pages in category listings](https://github.com/sunilabrahamindia/sunilabraham/issues/43), created on 14 September 2026
+
+
+## Version 2.4.2
+
+From Saturday 19 September 2026 to Saturday 26 September 2026, 9 pages were created.
+
+* **[Talking to an AI: Guide to Voice-Based Information Processing](/tsap/talking-to-an-ai/)**, created on 19 September 2026 – Guidance on communicating with AI and large language models through voice for information recording and processing, including clarity, structure, context, and human verification.
+* **[On Equity (Social)](/tito/on-equity/)**, created on 19 September 2026 – A personal reflection on Social equity, its practice, and the gap between preaching equity and actually practising it.
+* **[A Review of the Policy Debate around Big Data and Internet of Things](/elonnai/review-of-policy-debate-around-big-data-and-internet-of-things/)**, created on 20 September 2026 – An August 2015 CIS blog post by Elonnai Hickok reviewing how regulators and experts across jurisdictions, including the US FTC, the Article 29 Working Party, the European Commission, and the European Data Protection Supervisor, are responding to Big Data and the Internet of Things from a policy perspective.
+* **[Big Data and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules 2011](/elonnai/big-data-and-information-technology-rules-2011/)**, created on 21 September 2026 – An August 2015 CIS blog post by Elonnai Hickok examining how Big Data practices strain the provisions of India's 2011 IT Rules on reasonable security practices and sensitive personal data, covering scope, consent, notice, access, purpose limitation, security, and remedy.
+* **[High Level Comparison and Analysis of the Use and Regulation of DNA Based Technology Bill 2017](/elonnai/high-level-comparison-dna-based-technology-bill-2017/)**, created on 22 September 2026 – An August 2017 CIS blog post by Elonnai Hickok comparing the Law Commission's Use and Regulation of DNA Based Technology Bill 2017 against the 2015 DNA Profiling Bill, calling out positive changes, remaining issues, and missing safeguards, and tracking incorporation of CIS's Expert Committee recommendations.
+* **[Religion and Society](/articles/religion-and-society/)**, created on 23 September 2026 – An encyclopaedic overview of Religion and Society, the journal associated with the Christian Institute for the Study of Religion and Society (CISRS), its history, themes, contributors and significance in Indian religious and social studies.
+* **[Category:Christian Institute for the Study of Religion and Society](/categories/cisrs/)**, created on 24 September 2026 – Articles related to the Christian Institute for the Study of Religion and Society (CISRS), including its history, research, publications, intellectual contributions, and associated people and institutions.
+* **[Asian Trading Corporation](/articles/asian-trading-corporation/)**, created on 25 September 2026 – An overview of Asian Trading Corporation, an Indian publishing organisation established in Bombay in 1946 and later based in Bengaluru.
+* **[Indian Society for Promoting Christian Knowledge](/articles/ispck/)**, created on 26 September 2026 – An overview of the Indian Society for Promoting Christian Knowledge (ISPCK), an Indian publishing and communications organisation whose history dates to 1710.
+
+**Git activity:** 80 commits.
+
+**GitHub issues created:** 6.
+* #44 [ISBN Registration for Essays on Dalits, Religion and Liberation II](https://github.com/sunilabrahamindia/sunilabraham/issues/44), created on 21 September 2026
+* #45 [Expand and improve the CISRS article](https://github.com/sunilabrahamindia/sunilabraham/issues/45), created on 21 September 2026
+* #46 [Create Religion and Society journal article](https://github.com/sunilabrahamindia/sunilabraham/issues/46), created on 22 September 2026
+* #47 [Create Authority Control page for Dr. Y. T. Vinayaraj](https://github.com/sunilabrahamindia/sunilabraham/issues/47), created on 22 September 2026
+* #48 [Create invitation poster for A. M. A. Ayrookuzhiel 30th Death Anniversary Commemoration](https://github.com/sunilabrahamindia/sunilabraham/issues/48), created on 25 September 2026
+* #49 [Create "Religion and Society: The First Twenty-Five Years, 1953–1978" article](https://github.com/sunilabrahamindia/sunilabraham/issues/49), created on 25 September 2026
+
 
 
 {% include versions.html %}
