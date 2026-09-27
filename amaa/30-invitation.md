@@ -3,7 +3,7 @@ layout: default
 title: "A. M. A. Ayrookuzhiel: 30th Death Anniversary Commemoration"
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration, Events]
 permalink: /amaa/30-invitation/
-description: Invitation page for the 30th Death Anniversary Commemoration of Rev. Dr. A. M. A. Ayrookuzhiel (1933–1996), to be held on 29 November 2026 in Bengaluru.
+description: Invitation page for the 30th Death Anniversary Commemoration of Rev. A. M. A. Ayrookuzhiel (1933–1996), to be held on 29 November 2026 in Bengaluru.
 created: 2026-09-27
 ---
 
@@ -252,7 +252,7 @@ created: 2026-09-27
 
   <div class="amaa-portrait-wrap">
     <div class="amaa-portrait-frame">
-      <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png" alt="Photograph of Rev. Dr. A. M. A. Ayrookuzhiel" loading="lazy">
+      <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png" alt="Photograph of Rev. A. M. A. Ayrookuzhiel" loading="lazy">
     </div>
   </div>
   <p class="amaa-portrait-caption">Rev. Dr. A. M. A. Ayrookuzhiel (1933–1996)</p>
