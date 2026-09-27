@@ -202,9 +202,9 @@ created: 2026-09-27
 
 .amaa-footer {
   text-align: center;
-  padding: 1.5rem 1.25rem 1.8rem;
-  background: linear-gradient(135deg, var(--maroon-deep) 0%, var(--maroon) 100%);
-  color: #f4ead9;
+  padding: 2rem 1.25rem 2.2rem;
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .amaa-footer-label {
@@ -212,23 +212,22 @@ created: 2026-09-27
   text-transform: uppercase;
   font-size: 0.72rem;
   font-weight: 600;
-  color: var(--gold-light);
+  color: var(--maroon);
   margin: 0 0 0.5rem;
 }
 
 .amaa-footer a {
-  color: #fdf6e6;
-  font-weight: 700;
-  font-size: 1.02rem;
-  text-decoration: none;
-  border-bottom: 2px solid var(--gold-light);
-  padding-bottom: 2px;
+  color: var(--maroon-deep);
+  font-weight: 600;
+  font-size: 0.98rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .amaa-footer a:hover,
 .amaa-footer a:focus {
-  color: var(--gold-light);
-  border-bottom-color: #fdf6e6;
+  color: var(--maroon);
 }
 
 @media (max-width: 480px) {
@@ -264,8 +263,7 @@ created: 2026-09-27
   </div>
 
   <div class="amaa-desc">
-    A commemoration of the life and work of<br>
-    <strong>Rev. A. M. A. Ayrookuzhiel (1933–1996)</strong>
+    A commemoration of his life and work.
   </div>
 
   <div class="amaa-programme-heading">
