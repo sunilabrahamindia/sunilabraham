@@ -276,7 +276,7 @@ created: 2026-09-27
       <div class="amaa-time">12:00 noon</div>
       <div>
         <p class="amaa-event-title">Memorial Service</p>
-        <p class="amaa-event-venue">Wesley English Church, Fraser Town, Bengaluru</p>
+        <p class="amaa-event-venue">Wesley English Church, Fraser Town</p>
       </div>
     </div>
 
@@ -284,7 +284,7 @@ created: 2026-09-27
       <div class="amaa-time">1:30 pm</div>
       <div>
         <p class="amaa-event-title">Lunch</p>
-        <p class="amaa-event-venue">Wesley English Church, Fraser Town, Bengaluru</p>
+        <p class="amaa-event-venue">Wesley English Church, Fraser Town</p>
       </div>
     </div>
 
@@ -292,7 +292,7 @@ created: 2026-09-27
       <div class="amaa-time">6:00 pm–7:30 pm</div>
       <div>
         <p class="amaa-event-title">Evening Commemoration Programme</p>
-        <p class="amaa-event-venue">United Theological College<br>63, Millers Road, Benson Town, Bengaluru 560046</p>
+        <p class="amaa-event-venue">United Theological College<br>63, Millers Road, Benson Town 560046</p>
       </div>
     </div>
 
