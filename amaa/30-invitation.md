@@ -292,7 +292,7 @@ created: 2026-09-27
       <div class="amaa-time">6:00 pm–7:30 pm</div>
       <div>
         <p class="amaa-event-title">Evening Commemoration Programme</p>
-        <p class="amaa-event-venue">United Theological College<br>63, Millers Road, Benson Town, Bengaluru, Karnataka 560046</p>
+        <p class="amaa-event-venue">United Theological College<br>63, Millers Road, Benson Town, Bengaluru 560046</p>
       </div>
     </div>
 
