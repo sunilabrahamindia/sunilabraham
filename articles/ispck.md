@@ -4,6 +4,7 @@ title: "Indian Society for Promoting Christian Knowledge"
 categories: [Institutions, A. M. A. Ayrookuzhiel]
 description: "An overview of the Indian Society for Promoting Christian Knowledge (ISPCK), an Indian publishing and communications organisation whose history dates to 1710."
 permalink: /articles/ispck/
+page_id: TSAP-1297
 created: 2026-09-26
 ---
 
