@@ -255,7 +255,7 @@ created: 2026-09-27
       <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png" alt="Photograph of Rev. A. M. A. Ayrookuzhiel" loading="lazy">
     </div>
   </div>
-  <p class="amaa-portrait-caption">Rev. Dr. A. M. A. Ayrookuzhiel (1933–1996)</p>
+  <p class="amaa-portrait-caption">Rev. A. M. A. Ayrookuzhiel (1933–1996)</p>
 
   <div class="amaa-savedate">
     <p class="amaa-savedate-label">Save the Date</p>
@@ -265,7 +265,7 @@ created: 2026-09-27
 
   <div class="amaa-desc">
     A commemoration of the life and work of<br>
-    <strong>Rev. Dr. A. M. A. Ayrookuzhiel (1933–1996)</strong>
+    <strong>Rev. A. M. A. Ayrookuzhiel (1933–1996)</strong>
   </div>
 
   <div class="amaa-programme-heading">
