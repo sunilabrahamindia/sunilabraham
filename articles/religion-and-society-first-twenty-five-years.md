@@ -7,7 +7,7 @@ permalink: /articles/religion-and-society-first-twenty-five-years/
 created: 2026-09-29
 ---
 
-**Religion and Society: The First Twenty-Five Years, 1953–1978** is a retrospective volume edited by Richard W. Taylor and published in 1982 for the Christian Institute for the Study of Religion and Society (CISRS), Bangalore, by the Christian Literature Society, Madras. The volume presents a selection from the first twenty-five volumes of *Religion and Society*.
+**Religion and Society: The First Twenty-Five Years, 1953–1978** is a retrospective volume edited by Richard W. Taylor and published in 1982 for the [Christian Institute for the Study of Religion and Society](/articles/cisrs/) (CISRS), Bangalore, by the Christian Literature Society, Madras. The volume presents a selection from the first twenty-five volumes of *Religion and Society*.
 
 ## The volume
 
