@@ -8,7 +8,7 @@ page_id: TSAP-1214
 created: 2026-08-14
 ---
 
-***Dalit Shrines (Kurava, Pulaya & Paraya)*** is the transcription of pages 31–35 in the August 2026 mapping, or pages 45–49 in the July 2026 mapping, of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/). These pages examine Dalit shrines among the Kurava, Pulaya and Paraya communities in Kottarakara Taluk, Kollam District, including their origins, myths, ownership, objects of worship, offerings, and priesthood.
+***Dalit Shrines (Kurava, Pulaya & Paraya)*** is the transcription of pages 31–35 in the August 2026 mapping, or pages 45–49 in the July 2026 mapping, of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. A. M. A. Ayrookuzhiel](/amaa/). These pages examine Dalit shrines among the Kurava, Pulaya and Paraya communities in Kottarakara Taluk, Kollam District, including their origins, myths, ownership, objects of worship, offerings, and priesthood.
 
 ## Full Text
 <div class="source-text" markdown="1">
