@@ -12,10 +12,10 @@ homepage_featured: true
 
 <div class="manuscript-cover float-right">
   <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/unfinished-manuscript-title-cover.jpg"
-       alt="Title page of the unfinished manuscript 'Dalits and Hindu Religious Identity' by Rev. Dr. A. M. A. Ayrookuzhiel">
+       alt="Title page of the unfinished manuscript 'Dalits and Hindu Religious Identity' by Rev. A. M. A. Ayrookuzhiel">
 </div>
 
-***Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)*** documents the preparatory work towards reconstructing an unfinished manuscript by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/), tentatively titled *Dalit and Hindu Religious Identity*. The manuscript was left incomplete at the time of his death in 1996 and was intended to examine the relationship between caste identity and faith traditions in India.
+***Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)*** documents the preparatory work towards reconstructing an unfinished manuscript by [Rev. A. M. A. Ayrookuzhiel](/amaa/), tentatively titled *Dalit and Hindu Religious Identity*. The manuscript was left incomplete at the time of his death in 1996 and was intended to examine the relationship between caste identity and faith traditions in India.
 
 This working document brings together available manuscript material, related writings, research notes, editorial observations, and a mapping of the surviving documents associated with the manuscript. It serves as a transparent record of the preparatory process, including the identification, organisation and analysis of existing material, and does not represent the final manuscript. The reconstruction project was initiated as part of the preparations for the [30th death anniversary of A. M. A. Ayrookuzhiel](/amaa/) on 29 November 2026.
 
