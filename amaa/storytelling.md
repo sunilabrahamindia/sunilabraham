@@ -2,14 +2,14 @@
 layout: default
 title: "A. M. A. Ayrookuzhiel Storytelling Project"
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
-description: Documentation of the storytelling initiative undertaken as part of the preparations for the 30th death anniversary of Rev. Dr. A. M. A. Ayrookuzhiel, including its objectives, editorial principles, workflow and future plans.
+description: Documentation of the storytelling initiative undertaken as part of the preparations for the 30th death anniversary of Rev. A. M. A. Ayrookuzhiel, including its objectives, editorial principles, workflow and future plans.
 permalink: /amaa/storytelling/
 page_id: TSAP-1129
 created: 2026-07-13
 homepage_featured: true
 ---
 
-**A. M. A. Ayrookuzhiel Storytelling Project** documents the planning, development and implementation of accessible storytelling resources based on the writings and ideas of [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/). The initiative forms one of the three principal objectives of the preparations for the [30th Death Anniversary Commemoration](/amaa/30/) on Sunday, 29 November 2026.
+**A. M. A. Ayrookuzhiel Storytelling Project** documents the planning, development and implementation of accessible storytelling resources based on the writings and ideas of [Rev. A. M. A. Ayrookuzhiel](/amaa/). The initiative forms one of the three principal objectives of the preparations for the [30th Death Anniversary Commemoration](/amaa/30/) on Sunday, 29 November 2026.
 
 The purpose of the initiative is to communicate A. M. A. Ayrookuzhiel's academic, literary and social thought through a variety of educational and visual formats without replacing the original works. Rather, the storytelling resources are intended to serve as an entry point, encouraging readers to explore the complete texts published on The Sunil Abraham Project.
 
