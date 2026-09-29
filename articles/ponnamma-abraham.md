@@ -8,7 +8,7 @@ page_id: TSAP-0131
 created: 2025-11-29
 ---
 
-**Ponnamma Abraham** (born 17 June 1944) is an Indian nurse and a teacher. She undertook nursing training at the Universitätskliniken in Bonn Venusberg. She worked in hospitals in Reading before returning to India in 1973 to join the United Theological College Nursery School, where she eventually retired as Principal. She married Rev. A. M. A. Ayrookuzhiel in 1971, and they have three sons.
+**Ponnamma Abraham** (born 17 June 1944) is an Indian nurse and a teacher. She undertook nursing training at the Universitätskliniken in Bonn Venusberg. She worked in hospitals in Reading before returning to India in 1973 to join the United Theological College Nursery School, where she eventually retired as Principal. She married [Rev. A. M. A. Ayrookuzhiel](/amaa/) in 1971, and they have three sons.
 
 ## Early life and Education
 
