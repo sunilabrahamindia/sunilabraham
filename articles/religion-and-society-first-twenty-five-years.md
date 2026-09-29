@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Religion and Society: The First Twenty-Five Years, 1953–1978"
-categories: [Christian Institute for the Study of Religion and Society, Religion and Society, A. M. A. Ayrookuzhiel]
+categories: [Christian Institute for the Study of Religion and Society, A. M. A. Ayrookuzhiel]
 description: "An overview of Religion and Society: The First Twenty-Five Years, 1953–1978, a 1982 retrospective volume edited by Richard W. Taylor."
 permalink: /articles/religion-and-society-first-twenty-five-years/
 created: 2026-09-29
