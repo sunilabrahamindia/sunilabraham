@@ -10,7 +10,7 @@ created: 2026-08-14
 
 {% include notice.html message="The scans available for this chapter are not sufficiently clear in some places for confident proofreading. A clearer, higher-quality scan is needed for more thorough verification of the transcription." %}
 
-***Chapter 2, Devaswom Board Temples*** is the transcription of pages 1–2 in the August 2026 mapping, or pages 15–16 in the July 2026 mapping, of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/). These pages discuss Devaswom Board temples, their history and administration, the opening of temples to Dalits and other backward castes, Panchayat and Trust Temples, and the ritual jurisdiction of temple priests.
+***Chapter 2, Devaswom Board Temples*** is the transcription of pages 1–2 in the August 2026 mapping, or pages 15–16 in the July 2026 mapping, of the [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), which documents the reconstruction of the unfinished manuscript tentatively titled *Dalits and Hindu Religious Identity* by [Rev. A. M. A. Ayrookuzhiel](/amaa/). These pages discuss Devaswom Board temples, their history and administration, the opening of temples to Dalits and other backward castes, Panchayat and Trust Temples, and the ritual jurisdiction of temple priests.
 
 ## Full Text
 <div class="source-text" markdown="1">
