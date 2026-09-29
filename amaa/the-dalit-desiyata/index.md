@@ -14,7 +14,7 @@ homepage_featured: true
   <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/the-dalit-desiyata-book-cover.jpg" alt="Cover of The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle">
 </figure>
 
-***The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle*** (1990) is an edited volume by [Rev. Dr. A. M. A. Ayrookuzhiel](/amaa/) that examines the social, economic and political experiences of Dalit communities in Kerala. Published for the Christian Institute for the Study of Religion and Society (CISRS) by the Indian Society for Promoting Christian Knowledge (ISPCK), the volume brings together contributions from scholars and activists to explore the relationship between development, class struggle, public policy and Dalit liberation.
+***The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle*** (1990) is an edited volume by [Rev. A. M. A. Ayrookuzhiel](/amaa/) that examines the social, economic and political experiences of Dalit communities in Kerala. Published for the Christian Institute for the Study of Religion and Society (CISRS) by the Indian Society for Promoting Christian Knowledge (ISPCK), the volume brings together contributions from scholars and activists to explore the relationship between development, class struggle, public policy and Dalit liberation.
 
 The volume comprises seven chapters, including an introduction and conclusion by Ayrookuzhiel, and contributions by P. Sivanandan, N. K. Jose, Paul Chirakkarode, C. Kuttikrishnan and M. Kunhaman. Together, the essays examine various aspects of Dalit experiences in Kerala, including institutional reform, labour struggles, Left politics and legislation affecting Dalit communities.
 
