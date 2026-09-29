@@ -43,7 +43,7 @@ CISRS's interreligious work also contributed to the development of Indian Christ
 
 ## Dalit Theology and Caste Studies
 
-CISRS contributed to early research on caste within Christian and non-Christian contexts. Studies by researchers such as A. M. A. Ayrookuzhiel examined folk practices, oral traditions and forms of cultural resistance found among Dalit communities. Independent theological literature identifies CISRS as one of several institutions involved in discussions that eventually shaped Dalit Theology.
+CISRS contributed to early research on caste within Christian and non-Christian contexts. Studies by researchers such as [A. M. A. Ayrookuzhiel](/amaa/) examined folk practices, oral traditions and forms of cultural resistance found among Dalit communities. Independent theological literature identifies CISRS as one of several institutions involved in discussions that eventually shaped Dalit Theology.
 
 The Institute's own account also identifies P. D. Devanandan and M. M. Thomas with early studies of subaltern and counter-religious movements, and notes Abraham Ayrookuzhiel's work on popular religions. It further identifies Nirmal Minz's documentation of tribal awakening and CISRS initiatives connected with Womanist and Dalit movements.
 
