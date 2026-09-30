@@ -33,7 +33,7 @@ The book is organised into two parts and opens with an extensive introduction th
 
 *Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics* was edited by Y. T. Vinayaraj and published in 2023 as a joint publication of the Christian Institute for the Study of Religion and Society (CISRS), Bengaluru, and the Indian Society for Promoting Christian Knowledge (ISPCK), New Delhi. The volume brings together contributions from scholars working in the fields of Dalit studies, theology, religious studies, and the social sciences to examine questions surrounding Dalit religion(s), epistemology, theology, and political engagement.
 
-The book is dedicated *In Memoriam* to Rev. Dr. Abraham Ayrookuzhiel (1933–1996), acknowledging his enduring contribution to the study of religion in the context of Dalit struggles. It opens with an introduction by Y. T. Vinayaraj, followed by a chapter by Godwin Shiri that examines Ayrookuzhiel's search for a new approach to the study of religion in the context of Dalit liberation.
+The book is dedicated *In Memoriam* to Rev. Abraham Ayrookuzhiel (1933–1996), acknowledging his enduring contribution to the study of religion in the context of Dalit struggles. It opens with an introduction by Y. T. Vinayaraj, followed by a chapter by Godwin Shiri that examines Ayrookuzhiel's search for a new approach to the study of religion in the context of Dalit liberation.
 
 ## Themes
 
@@ -63,7 +63,7 @@ The volume also engages with questions of caste, democracy, Ambedkarite thought,
 
 ## Publication details
 
-*Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics* was jointly published in 2023 by the Christian Institute for the Study of Religion and Society (CISRS), Bengaluru, and the Indian Society for Promoting Christian Knowledge (ISPCK), New Delhi. Edited by Y. T. Vinayaraj, the volume was issued in paperback format and comprises 250 pages. The book bears the ISBN 978-81-19434-06-0 and was dedicated *In Memoriam* to Rev. Dr. Abraham Ayrookuzhiel (1933–1996). The cover was designed by Crayons Media, Thiruvalla, and the volume was printed by Saurabh Printers, Noida.
+*Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics* was jointly published in 2023 by the Christian Institute for the Study of Religion and Society (CISRS), Bengaluru, and the Indian Society for Promoting Christian Knowledge (ISPCK), New Delhi. Edited by Y. T. Vinayaraj, the volume was issued in paperback format and comprises 250 pages. The book bears the ISBN 978-81-19434-06-0 and was dedicated *In Memoriam* to Rev. Abraham Ayrookuzhiel (1933–1996). The cover was designed by Crayons Media, Thiruvalla, and the volume was printed by Saurabh Printers, Noida.
 
 ## External links
 - [Book details](https://www.ispck.org.in/book/sacrafanations-dalit-religion-s-epistemology-theology-and-politics) at Indian Society for Promoting Christian Knowledge (ISPCK) website
