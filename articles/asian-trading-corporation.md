@@ -14,7 +14,7 @@ created: 2026-09-25
 
 ## History
 
-Asian Trading Corporation was established in Bombay in 1946. According to an account published by Agenzia Fides in 2007, it began as a bookshop specialising in prayer books, missals and Christian literature for seminaries and institutes of formation. The organisation moved to Bengaluru in 1967.
+Asian Trading Corporation was established in Bombay (now known as Mumbai) in 1946. According to an account published by Agenzia Fides in 2007, it began as a bookshop specialising in prayer books, missals and Christian literature for seminaries and institutes of formation. The organisation moved to Bengaluru in 1967.
 
 By 2007, ATC was described as a publishing house promoting Christian literature in India. Agenzia Fides reported that its catalogue included books on theology, liturgy, Scripture, catechesis, religious life, spirituality, philosophy, communication, prayer, sociology, counselling and Indology. The same report stated that ATC had published more than 700 volumes, many of which had been reprinted.
 
