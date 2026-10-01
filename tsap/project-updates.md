@@ -23,6 +23,7 @@ In June 2026, the number and frequency of project announcements increased. For t
 Each entry should indicate whether that was featured in the website footer, on a dedicated project page, or through another communication channel.
 
 ## September 2026
+- 29 September 2026: The Sunil Abraham Project completed 1,300 published pages with [**Religion and Society: The First Twenty-Five Years, 1953–1978**](/articles/religion-and-society-first-twenty-five-years/). *(✅ Featured in: Website footer)*
 - 15 September 2026: The [**sixth bulletin**](/amaa/30-bulletins/#bulletin-6) on preparations for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel has been published. *(✅ Featured in: Website footer)*
 - 12 September 2026: [**TSPA #0012**](/tspa/0012/) has been published, a comic strip about preaching open source while using proprietary technology. *(✅ Featured in: Website footer)*
 - 11 September 2026: TSAP documentation reorganised into a [structured navigation template](/tsap/template/). *(✅ Featured in: Website footer)*
