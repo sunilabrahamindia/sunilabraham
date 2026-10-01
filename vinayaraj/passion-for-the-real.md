@@ -6,6 +6,7 @@ description: A 2025 book by Y. T. Vinayaraj on political theology and the postse
 permalink: /vinayaraj/passion-for-the-real/
 publication_year: 2025
 created: 2026-09-30
+category: "A. M. A. Ayrookuzhiel"
 ---
 
 ***Passion for the Real: Political Theology and the Postsecular*** is a 2025 book by [Rev. Dr. Y. T. Vinayaraj](/vinayaraj/), published jointly by the Christian Institute for the Study of Religion and Society (CISRS) and the Indian Society for Promoting Christian Knowledge (ISPCK). The book examines questions in political theology and the postsecular, bringing theological and political questions into conversation with contemporary discussions of religion and public life.
