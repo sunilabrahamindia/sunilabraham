@@ -74,6 +74,11 @@
     text-decoration-color: #111827;
   }
 
+
+  .site-header .anniversary-mark { display:inline-flex; align-items:center; justify-content:center; gap:.55rem; margin:1rem auto 0; padding:.42rem .9rem; border:1px solid #b8893c; border-radius:999px; background:linear-gradient(135deg,#fff8e7,#f8edcf); color:#674313; font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:.82rem; font-weight:600; letter-spacing:.015em; line-height:1.35; box-shadow:0 2px 8px rgba(120,82,20,.10); }
+  .site-header .anniversary-mark::before,.site-header .anniversary-mark::after { content:'✦'; color:#94651e; font-size:.78em; flex:0 0 auto; }
+  body.tsap-dark-mode .site-header .anniversary-mark { background:linear-gradient(135deg,#3b3020,#302719)!important; border-color:#a88443!important; color:#f6dfaa!important; }
+  body.tsap-dark-mode .site-header .anniversary-mark::before,body.tsap-dark-mode .site-header .anniversary-mark::after { color:#e4c17a!important; }
   /* =========================================================
      Responsive
      ========================================================= */
@@ -96,6 +101,7 @@
     .site-header .site-stats {
       font-size: 0.82rem;
     }
+    .site-header .anniversary-mark { max-width:calc(100% - 1rem); box-sizing:border-box; padding:.4rem .72rem; font-size:.76rem; white-space:normal; text-align:center; }
   }
 </style>
 
@@ -107,6 +113,7 @@
 <p class="site-subtitle" id="site-subtitle">
   Research · Innovation · Documentation
 </p>
+<p class="anniversary-mark" aria-label="Celebrating the first anniversary on 2 October 2026">Celebrating one year · 2 October 2026</p>
 
 <script>
 if (window.location.hostname.includes('pages.dev')) {
