@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics"
-categories: ["A. M. A. Ayrookuzhiel", "Books"]
+categories: ["A. M. A. Ayrookuzhiel", "Books", "Y. T. Vinayaraj"]
 description: A 2023 edited volume by Y. T. Vinayaraj, published jointly by the Christian Institute for the Study of Religion and Society (CISRS) and the Indian Society for Promoting Christian Knowledge (ISPCK), exploring Dalit religion(s), theology, epistemology, and politics while reflecting on the intellectual legacy of Rev. A. M. A. Ayrookuzhiel.
 permalink: /amaa/sacrafanations/
 publication_year: 2023
