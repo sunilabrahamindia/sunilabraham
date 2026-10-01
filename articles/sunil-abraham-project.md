@@ -89,6 +89,7 @@ The full text of these principles is recorded in [TSAP Foundational Principles](
 - 3 September 2026 (Thursday) — The Sunil Abraham Project reached 1,250 published pages with [Authority Control: Elonnai Hickok](/elonnai/authority-control/).
 - 26 August 2026 (Wednesday) — The [A. M. A. Ayrookuzhiel — Knowledge Engine](/amaa/search/) preparatory version was released, introducing a dedicated search and exploration interface for the writings, research, and archival material of A. M. A. Ayrookuzhiel.
 
+- 29 September 2026 (Tuesday) — The Sunil Abraham Project completed 1,300 published pages with [*Religion and Society: The First Twenty-Five Years, 1953–1978*](/articles/religion-and-society-first-twenty-five-years/).
 ## On Social Media {#social}
 
 On 12 June 2026, we started a Telegram channel with the permalink `t.me/sunilabrahamproject`. At the time, the permalink `t.me/sunilabraham` was assigned to a separate group. On 16 July 2026, we moved the username `sunilabraham` to the channel. The channel's permanent URL is now [https://t.me/sunilabraham](https://t.me/sunilabraham/).
