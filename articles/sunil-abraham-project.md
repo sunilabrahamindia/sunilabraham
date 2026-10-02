@@ -88,7 +88,6 @@ The full text of these principles is recorded in [TSAP Foundational Principles](
 - 9 August 2026 (Sunday), 1200th page ["Bloggers' Rights Subordinated to Rights of Expression"](/elonnai/bloggers-rights-subordinated-to-rights-of-expression/) was published on the project.
 - 3 September 2026 (Thursday) — The Sunil Abraham Project reached 1,250 published pages with [Authority Control: Elonnai Hickok](/elonnai/authority-control/).
 - 26 August 2026 (Wednesday) — The [A. M. A. Ayrookuzhiel — Knowledge Engine](/amaa/search/) preparatory version was released, introducing a dedicated search and exploration interface for the writings, research, and archival material of A. M. A. Ayrookuzhiel.
-
 - 29 September 2026 (Tuesday) — The Sunil Abraham Project completed 1,300 published pages with [*Religion and Society: The First Twenty-Five Years, 1953–1978*](/articles/religion-and-society-first-twenty-five-years/).
 
 
