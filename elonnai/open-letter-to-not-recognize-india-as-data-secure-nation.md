@@ -3,7 +3,7 @@ layout: default
 title: "Open Letter to \"Not\" Recognize India as Data Secure Nation till Enactment of Privacy Legislation"
 description: "A June 2013 CIS open letter by Elonnai Hickok urging European Data Protection Commissioners not to recognise India as a data secure nation until it enacts comprehensive privacy legislation, prepared under the SAFEGUARDS project."
 authors: ["Elonnai Hickok"]
-categories: [Centre for Internet and Society, Elonnai Hickok]
+categories: [Centre for Internet and Society, Elonnai Hickok, Open Letters]
 date: 2013-06-19
 source: "Centre for Internet and Society"
 permalink: /elonnai/open-letter-to-not-recognize-india-as-data-secure-nation/
