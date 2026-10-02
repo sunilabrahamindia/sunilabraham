@@ -3,7 +3,7 @@ layout: default
 title: "Open Letter to Members of the European Parliament of the Civil Liberties, Justice and Home Affairs Committee"
 description: "An October 2013 CIS open letter by Elonnai Hickok expressing support for the EU's proposed General Data Protection Regulation, while raising four concerns around purpose limitation, interpretation of broad terms, jurisdictional scope, and foreign intelligence access, sent as part of a joint initiative with Privacy International and other NGOs."
 authors: ["Elonnai Hickok"]
-categories: [Centre for Internet and Society, Elonnai Hickok]
+categories: [Centre for Internet and Society, Elonnai Hickok, Open Letters]
 date: 2013-10-23
 source: "Centre for Internet and Society"
 permalink: /elonnai/open-letter-members-european-parliament-civil-liberties-justice-home-affairs-committee/
