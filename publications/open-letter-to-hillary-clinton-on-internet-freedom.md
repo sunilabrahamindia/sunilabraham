@@ -2,7 +2,7 @@
 layout: default
 title: "Open Letter to Hillary Clinton on Internet Freedom"
 description: "A Thinking Aloud article by Sunil Abraham addressing US internet freedom policy, global governance, privacy, security, intellectual property, and developing-country concerns."
-categories: [Media articles, Publications]
+categories: [Media articles, Publications, Open Letters]
 date: 2012-07-17
 authors: ["Sunil Abraham"]
 source: "Thinking Aloud"
