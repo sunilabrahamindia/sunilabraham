@@ -99,9 +99,13 @@ Sunil has written and edited a number of works on open technologies, digital pol
 
 In addition to research papers and reports, Abraham has contributed opinion pieces and essays to several newspapers and journals, including *The Hindu*, *Livemint*, *DNA India*, *Outlook*, and the *Wall Street Journal (India)*. His articles have discussed privacy, surveillance, digital monopolies, and the public interest in technology regulation.
 
-## Views
+## Ideas and frameworks
 
-Sunil's approach combines advocacy for openness with a pragmatic understanding of governance and economics. He argues that open-source software, open data, and open standards are essential for democratic participation and transparency, particularly in developing countries. At the same time, he has written critically about the limits of openness when it is detached from local realities or when market concentration undermines public interest. His work reflects a balance between technological optimism and institutional critique.
+Alongside his institutional and policy work, Sunil Abraham has developed and explored a number of conceptual frameworks concerning technology, knowledge, labour, intellectual property, safety, and social participation. His 2013 presentation [Freedom Continuum: From Access to Knowledge to Privacy](/sunil/freedom-continuum-transcript/) examined different approaches to knowledge sharing, licensing, attribution, anonymity, and access to information. He has subsequently used Leo Lionni's [Frederick](/frederick/) as a thought experiment for examining the relationship between tangible and intangible labour, attribution, intellectual property, and, more recently, artificial intelligence.
+
+More recently, Abraham has developed the [Triple Under Utilisation](/3uu/) (3UU) framework, which examines the underuse of digital devices and infrastructure, human capability and labour, and freely available artificial intelligence systems. The framework considers how existing technological and human capacity might be combined through collaborative and community-based forms of knowledge production.
+
+He has also proposed the [Forum For Protection and Promotion of Lawful Unsafety](/ffpplu/) (FFPPLU), a framework exploring the distinction between activities that are unsafe and those that are unlawful. The idea considers the implications of expanding concepts of safety, particularly psychological safety, for freedom of expression, research, education, art, and other lawful activities.
 
 ## Recognition
 
