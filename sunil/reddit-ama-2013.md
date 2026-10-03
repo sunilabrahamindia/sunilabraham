@@ -3,14 +3,14 @@ layout: default
 title: "Sunil Abraham's Reddit AMA (2013)"
 description: "A topic-wise account of a Reddit AMA held on 2 January 2013 covering Aadhaar, privacy, Internet governance, censorship, free and open-source software, accessibility, and the work of the Centre for Internet and Society."
 categories: [Sunil Abraham]
+permalink: /sunil/reddit-ama-2013/
 date: 2013-01-02
 created: 2026-10-04
-permalink: /sunil/reddit-ama-2013/
 ---
 
-The Reddit AMA titled "I work at the Centre for Internet and Society, India. AMA" took place on Wednesday, 2 January 2013, on r/india. The opening post introduced Sunil Abraham as a policy researcher at the Centre for Internet and Society (CIS) and invited questions about his work. The discussion covered Aadhaar and biometrics, privacy and surveillance, Internet governance, censorship, Internet access, free and open-source software, accessibility, open data, Indic languages, and the work and future direction of CIS.
+A **Reddit "Ask Me Anything" (AMA)** titled "I work at the Centre for Internet and Society, India. AMA" took place on Wednesday, 2 January 2013, on r/india. The opening post introduced [Sunil Abraham](/sunil/) as a policy researcher at the [Centre for Internet and Society](/cis/) (CIS) and invited questions about his work. The discussion covered Aadhaar and biometrics, privacy and surveillance, Internet governance, censorship, Internet access, free and open-source software, accessibility, open data, Indic languages, and the work and future direction of CIS.
 
-The answers provide a snapshot of technology policy debates in India at the beginning of 2013. They also show a mixture of firm positions, provisional views, references to ongoing work, and explicit acknowledgements of questions for which research or information was not yet available.
+The answers provide a snapshot of technology policy debates in India at the beginning of 2013. They also show a mixture of firm positions, provisional views, references to ongoing work, and clear acknowledgements of questions for which research or information was not yet available.
 
 ## Background {#background}
 
