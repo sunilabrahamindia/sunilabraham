@@ -183,7 +183,6 @@ The AMA is therefore valuable not only for the positions expressed but also as a
 ## References {#references}
 
 - Reddit, "I work at the Centre for Internet and Society, India. AMA", r/india, 2 January 2013.
-- [Centre for Internet and Society](/cis/)
 - [Open Government Data in India](/articles/open-government-data-in-india/)
 
 ## External links {#external-links}
