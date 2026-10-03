@@ -7,7 +7,9 @@ page_id: TSAP-0011
 created: 2025-10-27
 ---
 
-**Sunil Abraham** (IAST: Sunīl Ābrahām; IPA: suːˈniːl ˈɑːbrəˌhɑːm, born 17 June 1973) is an Indian technologist, internet researcher, open source advocate and public policy researcher. Sunil is a co-founder and former executive director of the [Centre for Internet and Society](/cis/) (CIS), a Bangalore-based non-profit research organisation established in 2008 to explore the relationship between the internet and social change. His research and advocacy have focused on openness, privacy, accessibility, and the social impact of digital technologies across the Global South.
+**Sunil Abraham** (IAST: Sunīl Ābrāhām; IPA: suːˈniːl ˈɑːbrəˌhɑːm; born 17 June 1973) is an Indian technologist, Internet researcher, open-source advocate, and public policy researcher. He co-founded Mahiti, an information technology organisation working with civil society, and the Centre for Internet and Society (CIS), where he served as Executive Director from 2008 to 2019. He previously worked with the International Open Source Network, a regional initiative of the United Nations Development Programme, and has held academic and public-policy positions, including at ArtEZ University of the Arts.
+
+Abraham is currently a Public Policy Director at Meta India, where his work focuses on technology policy, data, and emerging technologies. His wider work has addressed free and open-source software, Internet governance, digital rights, privacy, accessibility, open data, and the social and policy implications of digital technologies. He has contributed to books, research reports, policy discussions, and public commentary on technology and society, and has received fellowships including an Ashoka Fellowship and the Sarai FLOSS Fellowship.
 
 ## Early life and education
 
