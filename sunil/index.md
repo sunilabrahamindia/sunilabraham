@@ -109,7 +109,7 @@ He has also proposed the [Forum For Protection and Promotion of Lawful Unsafety]
 
 ## Recognition
 
-In 1999, Sunil was awarded the [Ashoka Fellowship](https://www.ashoka.org/en-in/fellow/sunil-abraham) for his efforts to promote open and participatory uses of the Internet in India. In 2003, he received the Sarai FLOSS Fellowship for his contributions to the free and open-source software movement within the voluntary sector. His work has been cited in policy reports and international forums concerned with Internet rights, information access, and innovation in public systems.
+In 1999, Sunil was selected as an [Ashoka Fellow](/sunil/ashoka-fellowship/) for his work exploring the democratic potential of the Internet using free software. He later served as a Second Opinion Reviewer in Ashoka's global fellowship selection process. In 2003, he received the Sarai FLOSS Fellowship for his contributions to the free and open-source software movement within the voluntary sector. His work has been cited in policy reports and international forums concerned with Internet rights, information access, and innovation in public systems.
 
 ## Events and outreach
 
