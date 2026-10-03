@@ -42,6 +42,12 @@ This early experience in civic engagement and collective action influenced Abrah
 
 ## Career
 
+### Samuha (1996–1998)
+
+After graduating in 1995, Sunil joined [Samuha](https://samuha.org/), an integrated development organisation in Karnataka. He worked with its computer department, using low-cost digital tools to support rural development programmes and learning about the emerging possibilities of the Internet.
+
+His experience at Samuha helped shape the idea that technology could be made more affordable and accessible to voluntary organisations. This experience became an important foundation for the establishment of Mahiti in 1998.
+
 ### Mahiti (1998)
 
 In 1998, Sunil co-founded [Mahiti](https://mahiti.org/), an information technology company that provides affordable digital solutions for non-governmental organisations and civil society groups in areas such as health, education, disability, and rural development. Mahiti’s projects emphasised the use of open-source tools, multilingual interfaces, and participatory design. 
@@ -103,7 +109,7 @@ In addition to research papers and reports, Abraham has contributed opinion piec
 
 ## Ideas and frameworks
 
-Alongside his institutional and policy work, Sunil Abraham has developed and explored a number of conceptual frameworks concerning technology, knowledge, labour, intellectual property, safety, and social participation. His 2013 presentation [Freedom Continuum: From Access to Knowledge to Privacy](/sunil/freedom-continuum-transcript/) examined different approaches to knowledge sharing, licensing, attribution, anonymity, and access to information. He has subsequently used Leo Lionni's [Frederick](/frederick/) as a thought experiment for examining the relationship between tangible and intangible labour, attribution, intellectual property, and, more recently, artificial intelligence.
+Alongside his institutional and policy work, Sunil Abraham has developed and explored a number of conceptual frameworks concerning technology, knowledge, labour, intellectual property, safety, and social participation. His 2013 presentation [Freedom Continuum: From Access to Knowledge to Privacy](/sunil/freedom-continuum-transcript/) examined different approaches to knowledge sharing, licensing, attribution, anonymity, and access to information. He has subsequently used Leo Lionni’s [Frederick](/frederick/) as a thought experiment for examining the relationship between tangible and intangible labour, attribution, intellectual property, and, more recently, artificial intelligence.
 
 More recently, Abraham has developed the [Triple Under Utilisation](/3uu/) (3UU) framework, which examines the underuse of digital devices and infrastructure, human capability and labour, and freely available artificial intelligence systems. The framework considers how existing technological and human capacity might be combined through collaborative and community-based forms of knowledge production.
 
@@ -111,7 +117,7 @@ He has also proposed the [Forum For Protection and Promotion of Lawful Unsafety]
 
 ## Recognition
 
-In 1999, Sunil was selected as an [Ashoka Fellow](/sunil/ashoka-fellowship/) for his work exploring the democratic potential of the Internet using free software. He later served as a Second Opinion Reviewer in Ashoka's global fellowship selection process. In 2003, he received the Sarai FLOSS Fellowship for his contributions to the free and open-source software movement within the voluntary sector. His work has been cited in policy reports and international forums concerned with Internet rights, information access, and innovation in public systems.
+In 1999, Sunil was selected as an [Ashoka Fellow](/sunil/ashoka-fellowship/) for his work exploring the democratic potential of the Internet using free software. He later served as a Second Opinion Reviewer in Ashoka’s global fellowship selection process. In 2003, he received the Sarai FLOSS Fellowship for his contributions to the free and open-source software movement within the voluntary sector. His work has been cited in policy reports and international forums concerned with Internet rights, information access, and innovation in public systems.
 
 ## Events and outreach
 
