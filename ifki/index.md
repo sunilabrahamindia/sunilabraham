@@ -9,7 +9,9 @@ created: 2026-10-03
 
 {% include under-construction.html %}
 
-The **Internet and Free Knowledge in India** (IFKI) is a TSAP project beginning with books and other publications on the history of the Internet and free knowledge in India. The reading will help identify people, organisations, projects, movements, and events that may be worth documenting separately.
+The **Internet and Free Knowledge in India** (IFKI) is a TSAP initiative to document selected parts of the history and development of the Internet and free knowledge movement in India. The subject is large and spans many people, organisations, projects, technologies, movements, events, and publications, and this project will not attempt to cover all of them. It will instead focus on subjects that can be meaningfully documented from available sources and material encountered during the project.
+
+The project currently begins with a reading list of books and other publications, which will help identify subjects that may be worth documenting separately.
 
 ## Books
 
