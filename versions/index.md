@@ -27,6 +27,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 12. [Version 2.4](#version-24)
 13. [Version 2.4.1](#version-241)
 14. [Version 2.4.2](#version-242)
+15. [Version 2.5](#version-25)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -358,6 +359,44 @@ From Saturday 19 September 2026 to Saturday 26 September 2026, 9 pages were crea
 * #48 [Create invitation poster for A. M. A. Ayrookuzhiel 30th Death Anniversary Commemoration](https://github.com/sunilabrahamindia/sunilabraham/issues/48), created on 25 September 2026
 * #49 [Create "Religion and Society: The First Twenty-Five Years, 1953–1978" article](https://github.com/sunilabrahamindia/sunilabraham/issues/49), created on 25 September 2026
 
+
+
+## Version 2.5
+
+From Sunday 27 September 2026 to Saturday 3 October 2026, 7 pages were created.
+
+**TSAP Year One**
+- On 2 October 2026, The Sunil Abraham Project completed its first year. The project began on 2 October 2025, marking the completion of its first full year of development, documentation, preservation, and publication.
+- Published the [TSAP Year One GitHub Release](https://github.com/sunilabrahamindia/sunilabraham/releases/tag/year-one), marking the completion of the first year of the project.
+- The Year One release records the project as having grown from an initial documentation effort into a substantial, continuously maintained digital archive covering publications, media, people, organisations, projects, events, and related material.
+- During its first year, TSAP published more than 1,300 pages, established structured categories, clusters, portals, templates, and navigation systems, reached Version 1.0 and Version 2.0, introduced permanent Page IDs and the generated `pages.json` index, developed retrieval and maintenance tools, strengthened digital preservation, improved accessibility and mobile presentation, and expanded its original creative work through TSPA comics.
+
+**A. M. A. Ayrookuzhiel**
+- Created the [Invitation: A. M. A. Ayrookuzhiel: 30th Death Anniversary Commemoration](/amaa/30-invitation/) page on 27 September 2026, documenting the invitation for the 30th Death Anniversary Commemoration to be held on 29 November 2026 in Bengaluru.
+
+**TSPA**
+- Created [TSPA #0015](/tspa/0015/) on 28 September 2026, a Bangla comic strip about unwanted phone calls and social expectations.
+
+**Religion and Society**
+- Created [Religion and Society: The First Twenty-Five Years, 1953–1978](/articles/religion-and-society-first-twenty-five-years/) on 29 September 2026, an overview of the 1982 retrospective volume edited by Richard W. Taylor.
+
+**Y. T. Vinayaraj**
+- Created [Passion for the Real: Political Theology and the Postsecular](/vinayaraj/passion-for-the-real/) on 30 September 2026, documenting the 2025 book by Y. T. Vinayaraj.
+- Created [Category:Y. T. Vinayaraj](/categories/vinayaraj/) on 1 October 2026 for articles and books related to Rev. Dr. Y. T. Vinayaraj, including his biography, writings, and editorial work.
+
+**Open Letters**
+- Created [Category:Open Letters](/categories/open-letters/) on 2 October 2026 for open letters and public letters preserved in The Sunil Abraham Project.
+
+**Internet and Free Knowledge in India**
+- Created [Internet and Free Knowledge in India](/ifki/) on 3 October 2026 as a new TSAP project documenting books, publications, people, organisations, projects, and developments relating to the history of the Internet and free knowledge in India.
+
+**Git activity:** 83 commits.
+
+**GitHub issues created:** 1.
+* #50 [Create IFKI project page](https://github.com/sunilabrahamindia/sunilabraham/issues/50), created on 3 October 2026
+
+**Status** ✅ Done  
+Completion date: 3 October 2026
 
 
 {% include versions.html %}
