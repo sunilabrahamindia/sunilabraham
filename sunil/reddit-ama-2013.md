@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sunil Abraham's Reddit AMA (2013)"
-description: "A topic-wise account of a Reddit AMA held on 2 January 2013 covering Aadhaar, privacy, Internet governance, censorship, free and open-source software, accessibility, and the work of the Centre for Internet and Society."
+description: "A topic-wise account of a Reddit AMA held on 2 January 2013 covering Aadhaar, privacy, Internet governance, censorship, free and open-source software, accessibility, open data, and the work of the Centre for Internet and Society."
 categories: [Sunil Abraham]
 permalink: /sunil/reddit-ama-2013/
 date: 2013-01-02
@@ -189,3 +189,5 @@ The AMA is therefore valuable not only for the positions expressed but also as a
 
 - [Original Reddit AMA](https://www.reddit.com/r/india/comments/15t6f0/i_work_at_the_centre_for_internet_and_society/) ([PDF](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/sunil-reddit-ama-2013.pdf))
 - [Centre for Internet and Society](https://cis-india.org/) (Official website)
+
+{% include sunilspeaks.html %}
