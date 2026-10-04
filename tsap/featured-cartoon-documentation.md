@@ -12,6 +12,21 @@ created: 2026-09-08
 
 The **Featured cartoon** section on the [home page](/) highlights a selected cartoon from the project. This page records which cartoon was featured and when, as a permanent editorial log. The newest entry appears first.
 
+## 4 October 2026
+
+On Sunday, 4 October 2026, the following cartoon was featured on the home page.
+
+### [TSPA #0017](/tspa/0017/)
+
+<div class="fc-archive-image-wrapper">
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0017.png"
+    alt="TSPA #0017 wordless comic showing Ti facing forward beneath a large full moon, with his focused gaze and smile developing while the night sky changes dramatically."
+    loading="lazy">
+</div>
+
+**TSPA #0017** is the seventeenth comic strip in TSPA, the original comic strip on The Sunil Abraham Project, started by Tito Dutta. In this silent comic, Ti faces forward beneath a large full moon as his gaze becomes increasingly focused, his eyes develop a reddish tint, and his expression gradually becomes a clear smile while the night sky changes dramatically.
+
 ## 8 September 2026
 
 On Tuesday, 8 September 2026, the following cartoon was featured on the home page. This was the first ever featured cartoon on TSAP.
@@ -25,7 +40,7 @@ On Tuesday, 8 September 2026, the following cartoon was featured on the home pag
     loading="lazy">
 </div>
 
-**TSPA #0002** is the second comic strip in TSPA, the original comic strip on The Sunil Abraham Project, started by Tito Dutta. Ti and Mi sit together beneath the night sky, with Ti wondering about the boundary between "you" and "me" — and whether two can somehow count as one, while Mi responds with a quiet "Me-ow."
+**TSPA #0002** is the second comic strip in TSPA, the original comic strip on The Sunil Abraham Project, started by Tito Dutta. Ti and Mi sit together beneath the night sky, with Ti wondering about the boundary between "you" and "me" - and whether two can somehow count as one, while Mi responds with a quiet "Me-ow."
 
 <style>
 .fc-archive-image-wrapper {
