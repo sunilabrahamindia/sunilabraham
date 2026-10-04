@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Internet and Free Knowledge in India"
-description: "A TSAP project documenting books, publications, people, organisations, projects, and developments relating to the history of the Internet and free knowledge in India."
+description: "A TSAP initiative documenting selected aspects of the history and development of the Internet and free knowledge movement in India."
 categories: [Project pages]
 permalink: /ifki/
 created: 2026-10-03
@@ -13,16 +13,23 @@ The **Internet and Free Knowledge in India** (IFKI) is a TSAP initiative to docu
 
 The project currently begins with a reading list of books and other publications, which will help identify subjects that may be worth documenting separately.
 
-## Books
+The project's literature survey will focus on books and publications explicitly concerned with India. Broader international works may be consulted for context, but will be kept separate from the India-focused reading list.
+
+## India-focused reading
 
 - *The Digital Decades: Thirty Years of the Internet in India* — Subimal Bhattacharjee
 - *The Maverick Effect: The Inside Story of India's IT Revolution* — Harish Mehta. ISBN: 978-9352829966
 - *FOSS is Necessary but not Sufficient: Lessons from the History and Politics of Free and Open-Source Software Movements in India* — Jasmine Folz
+
+## Contextual reading
+
+The following books address broader international developments in free knowledge, networks, and open-source software. They provide useful background for the project but are not part of its India-focused literature survey.
+
 - *Free Culture: How Big Media Uses Technology and the Law to Lock Down Culture and Control Creativity* — Lawrence Lessig. ISBN: 978-1583225820
 - *The Wealth of Networks: How Social Production Transforms Markets and Freedom* — Yochai Benkler. ISBN: 978-0300110562
 - *The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary* — Eric S. Raymond. ISBN: 978-0596001087
 
-Other books and publications may be added, particularly material concerning the Kerala free software movement, Indian-language computing, digital libraries, open access, Creative Commons, and Wikimedia in India.
+Other India-focused books and publications may be added, particularly material concerning the Kerala free software movement, Indian-language computing, digital libraries, open access, Creative Commons, and Wikimedia in India.
 
 ## Scope
 
