@@ -187,5 +187,5 @@ The AMA is therefore valuable not only for the positions expressed but also as a
 
 ## External links {#external-links}
 
-- [Original Reddit AMA](https://www.reddit.com/r/india/comments/15t6f0/i_work_at_the_centre_for_internet_and_society/)
-- [Centre for Internet and Society](https://cis-india.org/)
+- [Original Reddit AMA](https://www.reddit.com/r/india/comments/15t6f0/i_work_at_the_centre_for_internet_and_society/) ([PDF](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/sunil/sunil-reddit-ama-2013.pdf))
+- [Centre for Internet and Society](https://cis-india.org/) (Official website)
