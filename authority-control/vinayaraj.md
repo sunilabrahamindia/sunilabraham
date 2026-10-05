@@ -15,7 +15,7 @@ This page documents **authority control** identifiers, bibliographic data and re
 
 The page consolidates external profiles and bibliographic records connected with Y. T. Vinayaraj's theological writings, philosophical work, Dalit theology scholarship, publications, institutional affiliations, and academic activities.
 
-As metadata systems frequently fragment identities across variant initials, names, institutional records, publisher catalogues, bookselling platforms, and scholarly databases, this page also serves as a reconciliation layer for authority control and bibliographic standardisation within The Sunil Abraham Project.
+As metadata systems frequently fragment identities across variant initials, names, institutional records, publisher catalogues, bookselling platforms, and scholarly databases, this authority control page also serves as a reconciliation layer for authority control and bibliographic standardisation within The Sunil Abraham Project.
 
 <div class="ac-root" id="ac-root">
 
