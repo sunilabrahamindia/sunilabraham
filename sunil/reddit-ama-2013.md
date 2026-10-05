@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sunil Abraham's Reddit AMA (2013)"
+title: "Sunil Abraham's Reddit Ask Me Anything (2013)"
 description: "A topic-wise account of a Reddit AMA held on 2 January 2013 covering Aadhaar, privacy, Internet governance, censorship, free and open-source software, accessibility, open data, and the work of the Centre for Internet and Society."
 categories: [Sunil Abraham]
 permalink: /sunil/reddit-ama-2013/
