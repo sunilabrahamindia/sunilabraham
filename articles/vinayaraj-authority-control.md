@@ -110,7 +110,7 @@ As metadata systems frequently fragment identities across variant initials, name
         </svg>
       </span>
       <h3 class="ac-group-label">Bibliographic and bookseller profiles</h3>
-      <span class="ac-group-badge">9</span>
+      <span class="ac-group-badge">8</span>
     </header>
     <ul class="ac-items">
 
