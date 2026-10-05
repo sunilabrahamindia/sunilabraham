@@ -11,7 +11,7 @@ created: 2026-10-06
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,300..400&display=swap" rel="stylesheet">
 
-This page documents authority control identifiers, bibliographic data and records, scholarly profiles, institutional references, and related metadata associated with [Rev. Dr. Y. T. Vinayaraj](/vinayaraj/). It is intended to support long-term discoverability, citation consistency, digital preservation, and interoperability across library catalogues, theological archives, research databases, bibliographic services, institutional records, and web-based scholarly infrastructure.
+This page documents **authority control** identifiers, bibliographic data and records, scholarly profiles, institutional references, and related metadata associated with **[Rev. Dr. Y. T. Vinayaraj](/vinayaraj/)**. It is intended to support long-term discoverability, citation consistency, digital preservation, and interoperability across library catalogues, theological archives, research databases, bibliographic services, institutional records, and web-based scholarly infrastructure.
 
 The page consolidates external profiles and bibliographic records connected with Y. T. Vinayaraj's theological writings, philosophical work, Dalit theology scholarship, publications, institutional affiliations, and academic activities.
 
