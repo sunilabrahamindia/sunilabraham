@@ -104,6 +104,10 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0018.png" alt="TSPA #0018 wordless comic contrasting Ti creating in daylight with To destroying in night scenes, ending with both sides joined in one large panel" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0018 — Silent</span>
   </a>
+  <a class="tspa-card" href="/tspa/0019/">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0019.png" alt="TSPA #0019 wordless comic showing Ti beside a lake releasing colourful paper-like fragments and thought bubbles representing mental chatter as the scene gradually becomes calm" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0019 — Silent</span>
+  </a>
 </div>
 
 ## Characters
