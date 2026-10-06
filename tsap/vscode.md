@@ -345,6 +345,9 @@ Accessibility remains a core TSAP priority.
 - [Visual Studio Code Documentation](https://code.visualstudio.com/docs)
 - [GitHub CLI](https://cli.github.com/)
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .table-wrapper {
   overflow-x: auto;

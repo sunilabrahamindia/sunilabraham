@@ -588,6 +588,9 @@ The event will continue throughout the monsoon season of 2026.
   </p>
 </div>
 
+
+{% include navbox-tsap.html %}
+
 <style>
   /* ============================================================
      MEGHADUTAM 2026 — TSAP Hero Banner

@@ -172,6 +172,9 @@ The *Firstpost* archive was documented through the cluster page [Sunil Abraham a
 - **Categories index page rebuilt** — the `/categories/` page was redesigned with live search, sorting options (A–Z, Z–A, by count), a result counter, and category descriptions pulled from category page YAML front matter.
 - **Codespaces workflow introduced for batch edits** — a GitHub Codespace workspace was configured for the repository to allow grouped multi-file edits such as internal linking and metadata updates. -->
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .chaitali-banner {
   position: relative;

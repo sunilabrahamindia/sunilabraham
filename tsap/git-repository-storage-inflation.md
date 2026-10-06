@@ -148,3 +148,5 @@ The repository had therefore returned to its expected operational footprint,conf
 2. **Treat Local Repositories as Disposable:** Distributed version control allows any verified clone of the repository to serve as a recovery source, reducing dependence on a single working copy or hosting provider.
 3. **Separate Content from Repository Metadata:** Static-site content remains independent of Git's internal object database. Even major repository maintenance operations, including history rewriting, do not affect the underlying Markdown content when performed correctly.
 4. **Keep Temporary Git Repositories Outside the Working Tree:** Backup repositories, experimental clones, and temporary Git directories should always be created outside the active project directory to prevent accidental staging or commits.
+
+{% include navbox-tsap.html %}

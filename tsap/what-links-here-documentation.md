@@ -105,3 +105,5 @@ As of the initial deployment, several limitations remain.
 Some pages may occasionally appear as unresolved even when valid content exists. Duplicate target representations may also appear in certain situations where multiple URL forms refer to the same page. Historical content may contain malformed or outdated internal links that surface through the backlink index. The user interface also remains under active development and may continue to change as additional testing and refinement take place.
 
 These limitations are expected to be addressed gradually as the tool matures and the site's internal link structure continues to improve.
+
+{% include navbox-tsap.html %}

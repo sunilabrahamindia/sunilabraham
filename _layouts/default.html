@@ -26,7 +26,6 @@
 <main id="maincontent" role="main" class="content">
 {% if page.title %}<h1>{{ page.title }}</h1><nav class="breadcrumb" role="navigation" aria-label="Breadcrumb"><a href="{{ site.baseurl }}/">Home</a>{% assign parts = page.url | split: '/' %}{% assign current_path = '' %}{% for part in parts %}{% if part != '' and forloop.last == false %}{% assign current_path = current_path | append: '/' | append: part %} › <a href="{{ site.baseurl }}{{ current_path }}/">{% case part %}{% when 'amaa' %}A. M. A. Ayrookuzhiel{% when 'cis' %}CIS{% when 'tsap' %}TSAP{% when 'sunil' %}Sunil Abraham{% when 'tito' %}Tito Dutta{% when 'tspa' %}TSPA{% when 'media' %}Media mentions{% when 'elonnai' %}Elonnai Hickok{% else %}{{ part | replace:'-',' ' | capitalize }}{% endcase %}</a>{% endif %}{% endfor %} › <span>{{ page.title }}</span></nav>{% endif %}
 {{ content }}
-{% if page.categories contains "TSAP Documentation" %}{% include navbox-tsap.html %}{% endif %}
 {% include categories.html %}{% include page-data.html %}
 </main>
 {% include footer.html %}

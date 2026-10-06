@@ -283,6 +283,9 @@ Inline references use backticks, such as `permalink` or `layout: default`.
 - Follow the [TSAP Manual of Style](/tsap/manual-of-style/) for heading hierarchy, date format, and spelling conventions.
 - All dates in TSAP pages use the DMY format (e.g., 18 March 2026), except in direct quotations.
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .markdown-cheatsheet {
   width: 100%;

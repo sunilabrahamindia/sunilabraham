@@ -23,3 +23,5 @@ Archival edition documenting the Students for Peace initiative organised in Bang
 - [View Zenodo Record](https://zenodo.org/records/20272980)
 - [Download PDF](https://zenodo.org/records/20272980/files/students-for-peace-bangalore-1993-archival-edition.pdf?download=1)
 - [Live TSAP Page](/articles/students-for-peace/)
+
+{% include navbox-tsap.html %}

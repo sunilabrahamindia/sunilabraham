@@ -33,6 +33,9 @@ The following content may be added gradually to this page or developed as suppor
 - *Our policies are not a one-way commitment* — an exploration of the principle that organisational values and commitments involve reciprocity. A commitment to honesty does not mean that one person can repeatedly act dishonestly while expecting others to continue extending the same trust and good faith without consequence.
 - *Dishonesty is NOT welcome* — a straightforward statement on why deliberate and repeated dishonesty is incompatible with the values of The Sunil Abraham Project.
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .honesty-highlight {
   background-color: #fff3a3;

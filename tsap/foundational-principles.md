@@ -94,6 +94,9 @@ TSAP shall remain the parent project for all associated initiatives and future d
 
 </div>
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .tsap-charter-label {
   text-align: center;

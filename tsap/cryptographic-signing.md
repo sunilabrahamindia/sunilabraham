@@ -88,3 +88,5 @@ Verification confirms:
 ### Revisions to Signed Documents
 
 Cryptographic signatures apply to specific versions of documents. Minor editorial corrections, formatting changes, and routine maintenance updates do not normally require a new signature. However, substantial revisions to a signed document may result in a new signature being issued for the revised version.
+
+{% include navbox-tsap.html %}

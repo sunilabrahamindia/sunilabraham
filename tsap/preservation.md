@@ -146,6 +146,9 @@ Future preservation work may place additional emphasis on the long-term preserva
 
 TSAP aims to minimise link rot and maintain stable long-term URLs wherever possible. Future work may include improved redirect systems, permalink audits, archival link expansion, canonical URL maintenance, and additional preservation-oriented approaches intended to support durable citation and long-term discoverability.
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .preservation-meta {
   margin: 1rem 0 1.2rem;

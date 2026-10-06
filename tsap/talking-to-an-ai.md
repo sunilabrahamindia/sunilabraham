@@ -116,3 +116,5 @@ These functions do not, by themselves, establish that the underlying information
 A fluent AI output can still contain a transcription error, misunderstanding, omission, or unsupported assumption. Important information should therefore pass through appropriate human checking and verification before being treated as final.
 
 The objective is to use the AI as an additional layer of assistance between human communication and the subsequent human-reviewed record, rather than treating the AI as the author or verifier of the information.
+
+{% include navbox-tsap.html %}

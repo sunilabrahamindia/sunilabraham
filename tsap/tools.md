@@ -85,3 +85,5 @@ Particular use is made of Gemini's research-oriented capabilities, including dee
 Raspberry Pi is being considered as a low-cost, energy-efficient computing platform for future experimentation and project infrastructure. Potential uses may include local development environments, self-hosted services, digital preservation projects, offline knowledge repositories, backup systems, automation tasks, and educational experimentation.
 
 If adopted, Raspberry Pi devices could support TSAP's interest in open-source technologies, low-cost computing, digital preservation, and long-term sustainability while providing practical experience with small-scale self-hosted infrastructure.
+
+{% include navbox-tsap.html %}

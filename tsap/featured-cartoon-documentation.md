@@ -42,6 +42,9 @@ On Tuesday, 8 September 2026, the following cartoon was featured on the home pag
 
 **TSPA #0002** is the second comic strip in TSPA, the original comic strip on The Sunil Abraham Project, started by Tito Dutta. Ti and Mi sit together beneath the night sky, with Ti wondering about the boundary between "you" and "me" - and whether two can somehow count as one, while Mi responds with a quiet "Me-ow."
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .fc-archive-image-wrapper {
   margin: 1rem 0 1.5rem 0;

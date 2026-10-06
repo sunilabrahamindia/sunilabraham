@@ -116,6 +116,9 @@ created: 2025-10-27
 - Do not add extra parameters not listed here without checking the TSAP Manual of Style first.
 - Follow the [TSAP Manual of Style](/tsap/manual-of-style/) for naming conventions, date formats, and category standards.
 
+
+{% include navbox-tsap.html %}
+
 <style>
 article pre, .content pre, main pre {
   overflow-x: auto;

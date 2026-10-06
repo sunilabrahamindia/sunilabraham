@@ -15,3 +15,5 @@ created: 2026-06-06
 This documentation and experimental tool present a series of scenarios and questions designed to encourage reflection on institutional memory, succession planning, documentation practices, and operational resilience. It can be used to explore how well a project might continue and remain useful over time if key contributors, systems, or resources become unavailable.
 
 This page is currently in an experimental stage and may change as the concept and interface are further developed.
+
+{% include navbox-tsap.html %}

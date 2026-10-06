@@ -40,3 +40,5 @@ The following entries were present in the Did You Know section during this perio
 - ... that **[intermediary liability law](/publications/intermediary-liability-law-needs-updating/)** has been described as a form of 'private censorship', since platforms can decide what stays online without clear legal transparency requirements?
 
 - ... that the policy brief **[Artificial Intelligence: A Full-Spectrum Regulatory Challenge](/publications/artificial-intelligence-full-spectrum/)** (2019) rejects one-size-fits-all AI ethics and instead proposes context-specific regulation based on who uses the technology and the harm it can cause?
+
+{% include navbox-tsap.html %}

@@ -60,6 +60,9 @@ The redesigned system uses page metadata to generate the section automatically. 
 
 The change was made primarily to reduce routine maintenance and eliminate unnecessary duplication. Adding a page to the section no longer requires editing the homepage; instead, editors simply add `homepage_featured: true` to the page's front matter. As new featured pages are created, older entries automatically fall out of the displayed list without manual intervention. The entries above are preserved as a historical record of the manually maintained era of the feature and document the final configuration of the section before automation was introduced.
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .newest-archive-list {
   list-style: none;

@@ -124,6 +124,9 @@ These files sit at the root of the repository and serve specific functions.
 - Changes to `_config.yml` affect the entire site build and should be made with care.
 - Follow the [TSAP Manual of Style](/tsap/manual-of-style/) for all content pages.
 
+
+{% include navbox-tsap.html %}
+
 <style>
 article pre, .content pre, main pre {
   overflow-x: auto;

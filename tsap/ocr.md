@@ -127,3 +127,5 @@ The project therefore prioritises publication accuracy over automation.
 ## Future Development
 
 The workflow described here reflects current practice and may evolve as new tools become available. Future evaluations may include additional OCR systems, document-analysis tools, and AI-assisted transcription methods. Any future changes should be assessed against real TSAP source material and judged on the quality of the resulting publication text rather than OCR speed alone.
+
+{% include navbox-tsap.html %}

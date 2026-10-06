@@ -46,3 +46,5 @@ Conference hopping and participation in activities without a clear connection to
 All TSAP priorities, activities, and development should remain fully aligned with the [TSAP Foundational Principles](/tsap/foundational-principles/).
 
 The Foundational Principles are intended to remain central to the identity and direction of the project, including when priorities change or new opportunities and activities are considered.
+
+{% include navbox-tsap.html %}

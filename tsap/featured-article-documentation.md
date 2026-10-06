@@ -33,6 +33,9 @@ On Friday, 31 October 2025, the following article was featured on the home page.
   <p>Among his major works are <em>The Sacred in Popular Hinduism</em>, <em>Swami Anand Thirth: Untouchability, Gandhian Solution on Trial</em>, and the posthumous <em>Essays on Dalits, Religion, and Liberation</em>. Until his death in 1996, Ayrookuzhiel remained dedicated to a theology rooted in the struggles of the marginalised — a vision that continues to shape Indian Christian and social thought.</p>
 </div>
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .fa-archive-entry {
   overflow: hidden;

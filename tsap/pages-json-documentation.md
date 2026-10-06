@@ -286,4 +286,4 @@ This established the first structured content index for the project.
 
 Following the Version 2.1 development cycle in July 2026, the Pages Index generation process was automated using GitHub Actions, eliminating the need for routine manual regeneration and publication in the official TSAP repository.
 
-
+{% include navbox-tsap.html %}

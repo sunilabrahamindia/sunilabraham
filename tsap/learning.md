@@ -55,3 +55,5 @@ Entries are arranged chronologically and are intended to document learning activ
 Where appropriate, entries may later be expanded to record whether a technology, workflow, methodology, or skill was subsequently adopted, rejected, superseded, or otherwise influenced the project. The objective is not to maintain a catalogue of software, but to preserve a long-term record of learning and experimentation associated with the development of TSAP.
 
 **Abandoned learnings are to be recorded.**
+
+{% include navbox-tsap.html %}

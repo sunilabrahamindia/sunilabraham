@@ -87,3 +87,5 @@ Some of the resulting features may be familiar from wikis, including interconnec
 - [YAML Front Matter](/tsap/yaml/), how we structure our YAML and use YAML front matter
 - [Site structure](/tsap/structure/), an overview of our site structure and repositories
 - [Templates](/tsap/templates/), the various templates we use across TSAP
+
+{% include navbox-tsap.html %}

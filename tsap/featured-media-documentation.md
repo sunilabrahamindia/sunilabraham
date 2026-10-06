@@ -63,6 +63,9 @@ On Friday, 8 May 2026, the following image was featured on the home page.
 
 Front cover of the [Centre for Internet and Society Annual Report 2009–10](/cis/annual-report-2009-10/). Cover photograph by Michael Greenwood.
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .fmd-archive-video-wrapper {
   max-height: 600px;

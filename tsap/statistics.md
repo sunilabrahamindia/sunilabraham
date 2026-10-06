@@ -117,6 +117,9 @@ These are coverage counts, not a full validation audit. Duplicate IDs, duplicate
 - The current year and month use the build's site.time.
 - This page does not measure traffic, readership, search visibility or social-media reach.
 
+
+{% include navbox-tsap.html %}
+
 <style>
 .stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.85rem;margin:1.25rem 0 1.75rem}
 .stats-card{min-width:0;padding:1rem;border:1px solid var(--border-sub,#d8dee4);border-radius:10px;background:var(--bg-surface,#fff);text-align:center}

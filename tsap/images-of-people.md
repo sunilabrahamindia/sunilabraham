@@ -70,3 +70,5 @@ The principle is narrower: when documenting people in biographical work, authent
 Accordingly, from the beginning of the project's second year, TSAP prefers not to use AI-generated images for biographies of living people where suitable authentic images are available. The same preference may be applied, as far as reasonably possible, to biographical representations of people generally.
 
 This is an editorial direction being considered from the second year of The Sunil Abraham Project, rather than a rule that was in place during its first year.
+
+{% include navbox-tsap.html %}

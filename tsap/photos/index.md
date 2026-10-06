@@ -72,3 +72,5 @@ The system is guided by a few key principles:
 - Gradual enrichment rather than forced completeness  
 
 The focus is on long-term usability rather than immediate perfection.
+
+{% include navbox-tsap.html %}

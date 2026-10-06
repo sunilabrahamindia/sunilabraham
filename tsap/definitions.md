@@ -71,3 +71,5 @@ A version is a defined development cycle within TSAP used for planning, organisi
 Versions are used to group related objectives, activities, improvements, and milestones undertaken during a particular period. They provide a structured framework for tracking the ongoing development of TSAP.
 
 The TSAP Versions record documents structural changes, content milestones, technical improvements, and other significant developments across successive versions, thereby providing a chronological record of the project's evolution.
+
+{% include navbox-tsap.html %}

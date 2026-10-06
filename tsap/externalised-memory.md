@@ -149,3 +149,5 @@ For this reason, workflow records should be treated as living documents that may
 The Sunil Abraham Project places a strong emphasis on preservation, documentation, transparency, and long-term accessibility. The externalised memory methodology extends those principles beyond content and into project workflows, implementation history, and institutional knowledge.
 
 The objective is simple: important knowledge should survive changes in conversations, software, devices, AI systems, and time itself.
+
+{% include navbox-tsap.html %}

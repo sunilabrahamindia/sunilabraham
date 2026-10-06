@@ -119,3 +119,5 @@ HEAD is now at 0fa6ab2e
 1. **Decoupling Workspace Content from Tracking Layers:** This incident highlighted the robust resilience of simple static-site structures. Even when the database engine tracking a project completely collapses, the underlying raw content files remain perfectly isolated and safe.
 2. **Leveraging Distributed Remotes as Absolute Truth:** The absolute validation of a distributed version control architecture means the local machine is always transient. The remote repository should remain the final, unpolluted source of truth, enabling quick local purges and rebuilds at any time.
 3. **Centralised Variables Prevent Layout Fractures:** Because the ongoing workspace changes were transitioning toward centralised CSS custom properties rather than scattered inline styles, resetting the environment to its upstream state caused zero styling regressions or layout loss.
+
+{% include navbox-tsap.html %}

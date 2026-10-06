@@ -104,3 +104,5 @@ This allows wide code blocks to scroll horizontally within their container rathe
 The use of GitHub Issues within TSAP is expected to evolve over time. Future work may include additional labels, issue templates, workflow refinements, documentation standards, and closer integration with project maintenance activities.
 
 The objective is not to record every idea within the project, but to maintain a clear and manageable record of work that can be investigated, implemented, verified, and completed.
+
+{% include navbox-tsap.html %}

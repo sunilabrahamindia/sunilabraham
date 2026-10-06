@@ -42,3 +42,4 @@ The site influenced aspects of TSAP's information architecture, particularly the
 
 The site also demonstrated how a personal website could serve as a long-term record of professional and intellectual work. While TSAP has since developed its own design, workflows, technical implementation, and editorial approach, the site formed part of the broader set of references considered during the project's formative period.
 
+{% include navbox-tsap.html %}
