@@ -5,6 +5,7 @@ description: "Authority control identifiers, bibliographic records, scholarly pr
 permalink: /authority-control/vinayaraj/
 categories: [Y. T. Vinayaraj, Authority control, A. M. A. Ayrookuzhiel]
 created: 2026-10-06
+hompage_featured: true
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
