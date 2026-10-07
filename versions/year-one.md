@@ -5,6 +5,7 @@ description: "A look back at the first year of The Sunil Abraham Project, from 2
 categories: [Project pages, Versions]
 permalink: /versions/year-one/
 created: 2026-10-07
+homepage_featured: true
 ---
 
 <style>
