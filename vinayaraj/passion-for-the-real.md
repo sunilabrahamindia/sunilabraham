@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books", "Christian Theology"]
 description: A 2025 book by Y. T. Vinayaraj on political theology and the postsecular.
 permalink: /vinayaraj/passion-for-the-real/
 publication_year: 2025
+page_id: TSAP-1301
 created: 2026-09-30
 category: "A. M. A. Ayrookuzhiel"
 ---

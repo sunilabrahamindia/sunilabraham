@@ -4,6 +4,7 @@ title: "Images of People"
 description: "An editorial approach to the use of AI-generated and AI-altered images of people in The Sunil Abraham Project (TSAP)."
 categories: [TSAP Documentation]
 permalink: /tsap/images-of-people/
+page_id: TSAP-1311
 created: 2026-10-06
 ---
 

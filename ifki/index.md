@@ -4,6 +4,7 @@ title: "Internet and Free Knowledge in India"
 description: "A TSAP initiative documenting selected aspects of the history and development of the Internet and free knowledge movement in India."
 categories: [Project pages]
 permalink: /ifki/
+page_id: TSAP-1304
 created: 2026-10-03
 ---
 

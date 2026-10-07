@@ -4,6 +4,7 @@ title: "Authority Control: Y. T. Vinayaraj"
 description: "Authority control identifiers, bibliographic records, scholarly profiles, institutional references, and related metadata associated with Rev. Dr. Y. T. Vinayaraj."
 permalink: /authority-control/vinayaraj/
 categories: [Y. T. Vinayaraj, Authority control, A. M. A. Ayrookuzhiel]
+page_id: TSAP-1310
 created: 2026-10-06
 hompage_featured: true
 ---
