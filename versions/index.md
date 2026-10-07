@@ -93,8 +93,8 @@ Between 5 July and 11 July 2026, 12 new pages were published.
 - Started work on [*Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics*](/amaa/sacrafanations/), edited by Y. T. Vinayaraj.
 
 **A. M. A. Ayrookuzhiel**
-- Started [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), a preparatory project to document and explore the possible reconstruction of an unfinished manuscript by Rev. Dr. A. M. A. Ayrookuzhiel, tentatively titled *Dalit and Hindu Religious Identity*. The manuscript remained incomplete at the time of his death in 1996 and was intended to explore questions surrounding caste identity and religious identity in India.
-- Started work on [*The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle*](/amaa/the-dalit-desiyata/), a 1990 volume edited by Rev. Dr. A. M. A. Ayrookuzhiel that brings together perspectives on the experiences of Dalit communities in Kerala in relation to development, class struggle, and wider social, economic, and political conditions.
+- Started [Unfinished Manuscript of A. M. A. Ayrookuzhiel (Working Document)](/amaa/unfinished-manuscript/), a preparatory project to document and explore the possible reconstruction of an unfinished manuscript by Rev. A. M. A. Ayrookuzhiel, tentatively titled *Dalit and Hindu Religious Identity*. The manuscript remained incomplete at the time of his death in 1996 and was intended to explore questions surrounding caste identity and religious identity in India.
+- Started work on [*The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle*](/amaa/the-dalit-desiyata/), a 1990 volume edited by Rev. A. M. A. Ayrookuzhiel that brings together perspectives on the experiences of Dalit communities in Kerala in relation to development, class struggle, and wider social, economic, and political conditions.
 
 **Status** ✅ Done  
 Completion date: 11 July 2026
@@ -112,7 +112,7 @@ Between 12 and 18 July 2026, 16 new pages were published.
 - Started work on the [TSAP Domain Expiry Monitor](/tsap/domain-expiry-monitor/), an automated system that monitors the registration expiry date of TSAP's primary domain. The system periodically retrieves authoritative registration data from the official NIXI RDAP service, detects domain renewals, and sends email reminders as the expiry date approaches.
 
 **A. M. A. Ayrookuzhiel**
-- Started the [A. M. A. Ayrookuzhiel Storytelling Project](/amaa/storytelling/), which documents the planning, development, and implementation of accessible storytelling resources based on the writings and ideas of Rev. Dr. A. M. A. Ayrookuzhiel.
+- Started the [A. M. A. Ayrookuzhiel Storytelling Project](/amaa/storytelling/), which documents the planning, development, and implementation of accessible storytelling resources based on the writings and ideas of Rev. A. M. A. Ayrookuzhiel.
 
 **TSAP Documentation**
 - Created [Linux and Git Commands for TSAP Repository Maintenance](/tsap/linux-git-commands/), documenting commands frequently used in the maintenance and management of the TSAP repository.
