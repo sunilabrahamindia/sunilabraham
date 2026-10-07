@@ -381,7 +381,7 @@ From Sunday 27 September 2026 to Saturday 3 October 2026, 7 pages were created.
 - Created [Religion and Society: The First Twenty-Five Years, 1953–1978](/articles/religion-and-society-first-twenty-five-years/) on 29 September 2026, an overview of the 1982 retrospective volume edited by Richard W. Taylor.
 
 **Y. T. Vinayaraj**
-- Created [Passion for the Real: Political Theology and the Postsecular](/vinayaraj/passion-for-the-real/) on 30 September 2026, documenting the 2025 book by Y. T. Vinayaraj.
+- Created [Passion for the Real: Political Theology and the Postsecular](/articles/passion-for-the-real/) on 30 September 2026, documenting the 2025 book by Y. T. Vinayaraj.
 - Created [Category:Y. T. Vinayaraj](/categories/vinayaraj/) on 1 October 2026 for articles and books related to Rev. Dr. Y. T. Vinayaraj, including his biography, writings, and editorial work.
 
 **Open Letters**
