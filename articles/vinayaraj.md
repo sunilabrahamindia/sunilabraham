@@ -126,7 +126,7 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 22. *Lokathe Anuranjanathilekkum Aikyathilekum Nayikkunna Kristhusneham* (Malayalam). Thiruvalla: CSS, 2022.
 23. *Religion and Justice*. Bengaluru: CISRS, 2022.
 24. [*Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics*](../amaa/sacrafanations/) (editor). Bengaluru/New Delhi: CISRS/ISPCK, 2023.
-25. [*Passion for the Real: Political Theology and the Postsecular*](../vinayaraj/passion-for-the-real/). Bengaluru/New Delhi: CISRS/ISPCK, 2025.
+25. [*Passion for the Real: Political Theology and the Postsecular*](/articles/passion-for-the-real/). Bengaluru/New Delhi: CISRS/ISPCK, 2025.
 
 ## External links
 
