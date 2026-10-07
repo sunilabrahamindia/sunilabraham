@@ -801,4 +801,7 @@ body.tsap-dark-mode .year-one-end {
 <p>The work now is not simply to make the archive larger. It is to make it more useful, more explainable, more resilient and more capable of supporting new research and creative work.</p>
 </div>
 
+
+{% include versions.html %}
+
 </div>
