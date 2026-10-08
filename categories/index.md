@@ -68,7 +68,10 @@ created: 2025-10-31
   {% assign ref_h3 = all_pages | where_exp: "p", "p.content contains '>References</h3>' %}
   {% assign ref_h2_single = all_pages | where_exp: "p", "p.content contains '>Reference</h2>' %}
   {% assign ref_h3_single = all_pages | where_exp: "p", "p.content contains '>Reference</h3>' %}
-  {% assign cat_count = ref_h2 | concat: ref_h3 | concat: ref_h2_single | concat: ref_h3_single | uniq | size %}
+  {% assign ref_pages = ref_h2 | concat: ref_h3 %}
+  {% assign ref_pages = ref_pages | concat: ref_h2_single %}
+  {% assign ref_pages = ref_pages | concat: ref_h3_single %}
+  {% assign cat_count = ref_pages | uniq | size %}
 
 {% else %}
   {% assign visible = all_pages | where_exp: "p", "p.categories contains cat_name" %}
