@@ -53,4 +53,4 @@ The volume also contains an Introduction, Conclusion, Bibliography and Index.
 
 ## External links
 
-- [ISPCK book catalogue](https://www.ispck.org.in/books/?catUrl=christian-theology)
+- [ISPCK book catalogue](https://www.ispck.org.in/book/passion-for-the-real-political-theology-and-the-postsecular)
