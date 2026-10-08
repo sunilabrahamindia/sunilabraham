@@ -41,7 +41,6 @@ The book is situated within wider discussions of religion, society, politics and
 ## References
 
 1. Christian Institute for the Study of Religion and Society (CISRS), [*Religion and Justice*](https://cisrs.in/assets/users/documents/Vol%2068_No%20%282%29%20June%202023.pdf), edited by Rev. Dr. Y. T. Vinayaraj, 2022, 202 pages.
-
 2. Y. T. Vinayaraj, [*Curriculum Vitae*](https://independent.academia.edu/YTVINAYARAJ/CurriculumVitae), Academia.edu, listing *Religion and Justice* as "Bangalore: CISRS, 2022".
 
 ## External links
