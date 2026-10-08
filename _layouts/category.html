@@ -29,7 +29,11 @@ layout: default
   {% assign category_pages = site.pages | where_exp: "p", "p.content contains 'facebook.com/plugins'" | sort: "title" %}
 
 {% elsif category_name == "Pages with references" %}
-  {% assign category_pages = site.pages | where_exp: "p", "p.content contains '>References</h2>' or p.content contains '>References</h3>' or p.content contains '>Reference</h2>' or p.content contains '>Reference</h3>'" | sort: "title" %}
+  {% assign ref_h2 = site.pages | where_exp: "p", "p.content contains '>References</h2>'" %}
+  {% assign ref_h3 = site.pages | where_exp: "p", "p.content contains '>References</h3>' %}
+  {% assign ref_h2_single = site.pages | where_exp: "p", "p.content contains '>Reference</h2>' %}
+  {% assign ref_h3_single = site.pages | where_exp: "p", "p.content contains '>Reference</h3>' %}
+  {% assign category_pages = ref_h2 | concat: ref_h3 | concat: ref_h2_single | concat: ref_h3_single | uniq | sort: "title" %}
 
 {% else %}
   {% assign visible_pages = site.pages | where_exp: "p", "p.categories contains category_name" %}
