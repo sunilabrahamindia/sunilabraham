@@ -6,7 +6,7 @@ permalink: /authority-control/vinayaraj/
 categories: [Y. T. Vinayaraj, Authority control, A. M. A. Ayrookuzhiel]
 page_id: TSAP-1310
 created: 2026-10-06
-hompage_featured: true
+homepage_featured: true
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
