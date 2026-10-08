@@ -6,6 +6,7 @@ description: A 2022 edited volume by Y. T. Vinayaraj, published by the Christian
 permalink: /articles/religion-and-justice/
 publication_year: 2022
 created: 2026-10-08
+homepage_featured: true
 ---
 
 ***Religion and Justice*** (2022) is an edited volume by [Rev. Dr. Y. T. Vinayaraj](/vinayaraj/), published by the [Christian Institute for the Study of Religion and Society (CISRS)](/articles/cisrs/) in Bengaluru. The volume brings together theological and interdisciplinary reflections on the relationship between religion and justice, including questions concerning religion in public life, ethical practice and social transformation.
