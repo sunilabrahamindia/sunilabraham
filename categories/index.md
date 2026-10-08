@@ -64,7 +64,11 @@ created: 2025-10-31
   {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'facebook.com/plugins'" | size %}
 
 {% elsif cat_name == "Pages with references" %}
-  {% assign cat_count = all_pages | where_exp: "p", "p.content contains '>References</h2>' or p.content contains '>References</h3>' or p.content contains '>Reference</h2>' or p.content contains '>Reference</h3>'" | size %}
+  {% assign ref_h2 = all_pages | where_exp: "p", "p.content contains '>References</h2>'" %}
+  {% assign ref_h3 = all_pages | where_exp: "p", "p.content contains '>References</h3>' %}
+  {% assign ref_h2_single = all_pages | where_exp: "p", "p.content contains '>Reference</h2>' %}
+  {% assign ref_h3_single = all_pages | where_exp: "p", "p.content contains '>Reference</h3>' %}
+  {% assign cat_count = ref_h2 | concat: ref_h3 | concat: ref_h2_single | concat: ref_h3_single | uniq | size %}
 
 {% else %}
   {% assign visible = all_pages | where_exp: "p", "p.categories contains cat_name" %}
