@@ -63,6 +63,9 @@ created: 2025-10-31
 {% elsif cat_name == "Pages using embedded Facebook posts" %}
   {% assign cat_count = all_pages | where_exp: "p", "p.content contains 'facebook.com/plugins'" | size %}
 
+{% elsif cat_name == "Pages with references" %}
+  {% assign cat_count = all_pages | where_exp: "p", "p.content contains '<h2 id=\"references\">References</h2>' or p.content contains '<h3 id=\"references\">References</h3>' or p.content contains '<h2 id=\"reference\">Reference</h2>' or p.content contains '<h3 id=\"reference\">Reference</h3>' | size %}
+
 {% else %}
   {% assign visible = all_pages | where_exp: "p", "p.categories contains cat_name" %}
   {% assign hidden = all_pages | where_exp: "p", "p.hidden_categories contains cat_name" %}
