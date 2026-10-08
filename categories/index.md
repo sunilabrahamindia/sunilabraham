@@ -65,9 +65,9 @@ created: 2025-10-31
 
 {% elsif cat_name == "Pages with references" %}
   {% assign ref_h2 = all_pages | where_exp: "p", "p.content contains '>References</h2>'" %}
-  {% assign ref_h3 = all_pages | where_exp: "p", "p.content contains '>References</h3>' %}
-  {% assign ref_h2_single = all_pages | where_exp: "p", "p.content contains '>Reference</h2>' %}
-  {% assign ref_h3_single = all_pages | where_exp: "p", "p.content contains '>Reference</h3>' %}
+  {% assign ref_h3 = all_pages | where_exp: "p", "p.content contains '>References</h3>'" %}
+  {% assign ref_h2_single = all_pages | where_exp: "p", "p.content contains '>Reference</h2>'" %}
+  {% assign ref_h3_single = all_pages | where_exp: "p", "p.content contains '>Reference</h3>'" %}
   {% assign ref_pages = ref_h2 | concat: ref_h3 %}
   {% assign ref_pages = ref_pages | concat: ref_h2_single %}
   {% assign ref_pages = ref_pages | concat: ref_h3_single %}
