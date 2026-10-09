@@ -112,6 +112,10 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0020.png" alt="TSPA #0020 comic strip showing Ti and Mi in a library as Ti chooses books he plans to read and the pile of books grows" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0020</span>
   </a>
+  <a class="tspa-card" href="/tspa/0021/">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0021.png" alt="TSPA #0021 comic about Ti and a suited boardroom team sharing a deliberate silence before the meeting begins" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0021</span>
+  </a>
 </div>
 
 ## Characters
