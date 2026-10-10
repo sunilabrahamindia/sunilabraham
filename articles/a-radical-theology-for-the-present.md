@@ -8,13 +8,13 @@ publication_year: 2026
 created: 2026-10-10
 ---
 
-***A Radical Theology for the Present: The New Materialist Turn*** is a 2026 book by [Y. T. Vinayaraj](/vinayaraj/), published by Omega Book World. The publisher's product description places the book at the intersection of theology, Continental philosophy, postcolonial theory and New Materialism.
+***A Radical Theology for the Present: The New Materialist Turn*** is a 2026 book by [Y. T. Vinayaraj](/vinayaraj/), published by Omega Book World. The product page's description text places the book at the intersection of theology, Continental philosophy, postcolonial theory and New Materialism.
 
 ## Overview
 
-The publisher describes New Materialism as a central concern of the book. Its description discusses the agency of the material world and presents planetary humanism as a relational approach that considers connections among humans, nonhuman life and the wider material world. It also links these relationships with questions of power, justice and responsibility.
+The product page's description text identifies New Materialism as central to the book and discusses the agency of the material world and presents planetary humanism as a relational approach that considers connections among humans, nonhuman life and the wider material world. It also links these relationships with questions of power, justice and responsibility.
 
-The product description says that the book challenges colonial and imperial practices of "othering" and discusses planetary humanism in relation to relationality and multiplicity. These points are summarised here from the publisher's description; a full text or table of contents was not available in the material consulted for this article.
+The product description says that the book challenges colonial and imperial practices of "othering" and discusses planetary humanism in relation to relationality and multiplicity. These points are summarised here from the product page's description text; a full text or table of contents was not available in the material consulted for this article.
 
 ## Publication details
 
