@@ -7,7 +7,7 @@ SITE_URL = "https://sunilabraham.in"
 pages = []
 
 for root, dirs, files in os.walk("."):
-    # Ensure deterministic directory traversal and exclude .git
+    # Ensure deterministic directory traversal and exclude .git.
     dirs[:] = sorted(d for d in dirs if d != ".git")
     files.sort()
 
@@ -16,6 +16,7 @@ for root, dirs, files in os.walk("."):
             continue
 
         path = os.path.join(root, file)
+        source_path = os.path.relpath(path, ".").replace(os.sep, "/")
 
         try:
             with open(path, "r", encoding="utf-8") as f:
@@ -25,18 +26,16 @@ for root, dirs, files in os.walk("."):
                 continue
 
             parts = content.split("---", 2)
-
             if len(parts) < 3:
                 continue
 
             front_matter = yaml.safe_load(parts[1])
-
             if not isinstance(front_matter, dict):
                 continue
 
             created = front_matter.get("created")
 
-            # Only include pages that have a created: field
+            # Only include pages that have a created: field.
             if not created:
                 continue
 
@@ -49,7 +48,7 @@ for root, dirs, files in os.walk("."):
             permalink = front_matter.get("permalink")
 
             if permalink:
-                permalink = SITE_URL.rstrip("/") + permalink
+                permalink = SITE_URL.rstrip("/") + "/" + str(permalink).lstrip("/")
             else:
                 permalink = None
 
@@ -61,31 +60,25 @@ for root, dirs, files in os.walk("."):
                 "source": source,
                 "authors": authors,
                 "categories": categories,
-                "permalink": permalink
+                "permalink": permalink,
+                "source_path": source_path
             }
-
             pages.append(page)
 
         except Exception as e:
             print(f"Skipping {path}: {e}")
 
 # Sort deterministically by creation date and permalink.
-# This prevents pages with the same created date from changing order
-# between generator runs.
 pages.sort(
     key=lambda x: (
         x.get("created") or "",
-        x.get("permalink") or ""
+        x.get("permalink") or "",
+        x.get("source_path") or ""
     ),
     reverse=True
 )
 
 with open("pages.json", "w", encoding="utf-8") as f:
-    json.dump(
-        pages,
-        f,
-        ensure_ascii=False,
-        indent=2
-    )
+    json.dump(pages, f, ensure_ascii=False, indent=2)
 
 print(f"Created pages.json with {len(pages)} pages.")
