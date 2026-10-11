@@ -1,5 +1,35 @@
 [
   {
+    "title": "TSPA #0022",
+    "description": "TSPA #0022, a wordless comic about the mental weight of thoughts and the lightness that comes with letting them go.",
+    "created": "2026-10-11",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "TSPA",
+      "TSPA Silent"
+    ],
+    "permalink": "https://sunilabraham.in/tspa/0022/"
+  },
+  {
+    "title": "Currently Reading",
+    "description": "A personal reading log documenting books being read and books completed.",
+    "created": "2026-10-11",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "Project pages",
+      "Tito Dutta"
+    ],
+    "permalink": "https://sunilabraham.in/tito/reading/"
+  },
+  {
     "title": "A Radical Theology for the Present: The New Materialist Turn",
     "description": "A 2026 book by Y. T. Vinayaraj on theology and the new materialist turn.",
     "created": "2026-10-10",
