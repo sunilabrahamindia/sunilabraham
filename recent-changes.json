@@ -1,12 +1,149 @@
 {
-  "generated_at": "2026-10-11T09:07:07.291908Z",
+  "generated_at": "2026-10-11T19:58:17.701302Z",
   "repository": "sunilabrahamindia/sunilabraham",
   "included_commits": 300,
-  "total_commits_in_repo": 6025,
+  "total_commits_in_repo": 6030,
   "history_truncated": true,
-  "oldest_included_date": "2026-09-21T14:51:08Z",
+  "oldest_included_date": "2026-09-22T16:44:57+05:30",
   "files_per_commit_limit": 25,
   "commits": [
+    {
+      "sha": "3d2b1bbd905cd595caa1b4dcc7a81647a6efebf7",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/3d2b1bbd905cd595caa1b4dcc7a81647a6efebf7",
+      "date": "2026-10-12T01:28:04+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Add TSPA #0024 to English navigation",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "_includes/navbox-tspa.html",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 2,
+          "deletions": 1
+        }
+      ],
+      "stats": {
+        "additions": 2,
+        "deletions": 1
+      }
+    },
+    {
+      "sha": "ce3d561030013ae565edd4cee78ce14719f936dc",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/ce3d561030013ae565edd4cee78ce14719f936dc",
+      "date": "2026-10-12T01:28:01+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Add TSPA #0024 to comic index",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/index.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 4,
+          "deletions": 0
+        }
+      ],
+      "stats": {
+        "additions": 4,
+        "deletions": 0
+      }
+    },
+    {
+      "sha": "1260db51f62e21690fd9cbb27faf818a99d8ceee",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/1260db51f62e21690fd9cbb27faf818a99d8ceee",
+      "date": "2026-10-12T01:27:58+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Link TSPA #0023 to next issue",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/0023.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 2,
+          "deletions": 0
+        }
+      ],
+      "stats": {
+        "additions": 2,
+        "deletions": 0
+      }
+    },
+    {
+      "sha": "95e211eab045a59143e1e090ade6e5378b6cbd0b",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/95e211eab045a59143e1e090ade6e5378b6cbd0b",
+      "date": "2026-10-12T01:27:50+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Add TSPA #0024 English comic page",
+      "body": "",
+      "type": "created",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/0024.md",
+          "status": "added",
+          "previous_filename": null,
+          "additions": 63,
+          "deletions": 0
+        }
+      ],
+      "stats": {
+        "additions": 63,
+        "deletions": 0
+      }
+    },
+    {
+      "sha": "9f87d0942b9751411e12557085e6e738f7711224",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/9f87d0942b9751411e12557085e6e738f7711224",
+      "date": "2026-10-11T09:07:07Z",
+      "author_login": "github-actions[bot]",
+      "author_name": "GitHub Actions (automated)",
+      "message": "Update generated indexes and recent changes feed",
+      "body": "",
+      "type": "automated",
+      "automated": true,
+      "file_count": 2,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "pages.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 16,
+          "deletions": 0
+        },
+        {
+          "path": "recent-changes.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 133,
+          "deletions": 133
+        }
+      ],
+      "stats": {
+        "additions": 149,
+        "deletions": 133
+      }
+    },
     {
       "sha": "850d14f3f920cf5c2c67c01e69f9732e0067360a",
       "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/850d14f3f920cf5c2c67c01e69f9732e0067360a",
@@ -8147,128 +8284,6 @@
       ],
       "stats": {
         "additions": 198,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "b998973824788e72aef0d202cc8b947ba35708b1",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/b998973824788e72aef0d202cc8b947ba35708b1",
-      "date": "2026-09-22T00:11:55+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Fix year-range punctuation in CISRS article",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 0,
-      "files_truncated": false,
-      "files": [],
-      "stats": {
-        "additions": 0,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "02617761fcc19e4ad7054f66cf0cb521e44f09bc",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/02617761fcc19e4ad7054f66cf0cb521e44f09bc",
-      "date": "2026-09-22T00:09:56+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Expand CISRS history and references",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "articles/cisrs.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 33,
-          "deletions": 7
-        }
-      ],
-      "stats": {
-        "additions": 33,
-        "deletions": 7
-      }
-    },
-    {
-      "sha": "7d548ce5169c6253644a8a534dafdeb78cea7f27",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/7d548ce5169c6253644a8a534dafdeb78cea7f27",
-      "date": "2026-09-21T21:09:45+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Add CISRS directors section",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "articles/cisrs.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 13,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 13,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "4a1a46dd36698c71754820897a98b24b9f5ac821",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/4a1a46dd36698c71754820897a98b24b9f5ac821",
-      "date": "2026-09-21T20:22:25+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "11 August 2015 entry",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "_includes/navbox-elonnai.html",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 5,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 5,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "63ba7b3a2bdb23d013a102ae1d30b8e84b4c2168",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/63ba7b3a2bdb23d013a102ae1d30b8e84b4c2168",
-      "date": "2026-09-21T14:51:08Z",
-      "author_login": "github-actions[bot]",
-      "author_name": "GitHub Actions (automated)",
-      "message": "Update pages index",
-      "body": "",
-      "type": "automated",
-      "automated": true,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "pages.json",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 15,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 15,
         "deletions": 0
       }
     }
