@@ -120,6 +120,10 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0022.png" alt="TSPA #0022 wordless comic showing Ti beside a brain-shaped weighing machine as a pile of symbolic burdens diminishes and his mood brightens" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0022 — Silent</span>
   </a>
+  <a class="tspa-card" href="/tspa/0023/">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0023.png" alt="TSPA #0023 comic showing Ti and Mi discussing silence, the burden of thoughts, and a day spent thinking" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0023</span>
+  </a>
 </div>
 
 ## Characters
