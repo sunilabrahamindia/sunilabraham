@@ -16,7 +16,7 @@ This page is a personal reading log. Each book has its own entry, and new entrie
 
   <article class="reading-entry" aria-labelledby="book-papers-title">
     <p class="reading-status reading-status-current">Currently reading</p>
-    <h2 id="book-papers-title" lang="bn">পাপের সন্ধানে</h2>
+    <h2 id="book-papers-title"><span lang="bn">পাপের সন্ধানে</span> <span class="reading-transliteration" lang="en">(Pāper Sandhāne)</span></h2>
     <p class="reading-author">By <span lang="en">Pracheta Gupta</span> (<span lang="bn">প্রচেত গুপ্ত</span>)</p>
 
     <dl class="reading-details">
@@ -63,6 +63,11 @@ This page is a personal reading log. Each book has its own entry, and new entrie
   margin: 0.6rem 0 0.35rem;
   color: var(--text-heading, #0a2e57);
   line-height: 1.45;
+}
+
+.reading-transliteration {
+  font-size: 0.78em;
+  font-weight: 400;
 }
 
 .reading-status {
