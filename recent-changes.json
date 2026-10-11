@@ -1,12 +1,71 @@
 {
-  "generated_at": "2026-10-11T20:28:28.874382Z",
+  "generated_at": "2026-10-11T20:41:17.137007Z",
   "repository": "sunilabrahamindia/sunilabraham",
   "included_commits": 300,
-  "total_commits_in_repo": 6035,
+  "total_commits_in_repo": 6037,
   "history_truncated": true,
-  "oldest_included_date": "2026-09-22T17:06:55+05:30",
+  "oldest_included_date": "2026-09-23T19:44:43+05:30",
   "files_per_commit_limit": 25,
   "commits": [
+    {
+      "sha": "fb686db4b5f2e0a921387796c98659d9bc515954",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/fb686db4b5f2e0a921387796c98659d9bc515954",
+      "date": "2026-10-12T02:10:56+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Match TSPA silent issue title convention",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/0025.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 2,
+          "deletions": 2
+        }
+      ],
+      "stats": {
+        "additions": 2,
+        "deletions": 2
+      }
+    },
+    {
+      "sha": "516370195c79803417c31d19b5662f498c578c8e",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/516370195c79803417c31d19b5662f498c578c8e",
+      "date": "2026-10-11T20:28:29Z",
+      "author_login": "github-actions[bot]",
+      "author_name": "GitHub Actions (automated)",
+      "message": "Update generated indexes and recent changes feed",
+      "body": "",
+      "type": "automated",
+      "automated": true,
+      "file_count": 2,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "pages.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 16,
+          "deletions": 0
+        },
+        {
+          "path": "recent-changes.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 140,
+          "deletions": 287
+        }
+      ],
+      "stats": {
+        "additions": 156,
+        "deletions": 287
+      }
+    },
     {
       "sha": "5e1020fbc432b6a5a353c72c2a818882acfa9145",
       "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/5e1020fbc432b6a5a353c72c2a818882acfa9145",
@@ -8086,58 +8145,6 @@
       "stats": {
         "additions": 1,
         "deletions": 1
-      }
-    },
-    {
-      "sha": "84271c2ed4e5431a89de5a07c254f53a70cd2866",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/84271c2ed4e5431a89de5a07c254f53a70cd2866",
-      "date": "2026-09-23T19:43:41+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Create religion-and-society.md",
-      "body": "",
-      "type": "created",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "articles/religion-and-society.md",
-          "status": "added",
-          "previous_filename": null,
-          "additions": 1,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 1,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "82d9995dc957c7d892685644133b05cfa704a6cd",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/82d9995dc957c7d892685644133b05cfa704a6cd",
-      "date": "2026-09-22T17:06:55+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "remove dup",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "articles/cisrs.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 0,
-          "deletions": 2
-        }
-      ],
-      "stats": {
-        "additions": 0,
-        "deletions": 2
       }
     }
   ]
