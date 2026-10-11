@@ -1,12 +1,64 @@
 {
-  "generated_at": "2026-10-11T05:33:16.264279Z",
+  "generated_at": "2026-10-11T05:41:04.547017Z",
   "repository": "sunilabrahamindia/sunilabraham",
   "included_commits": 300,
-  "total_commits_in_repo": 6013,
+  "total_commits_in_repo": 6015,
   "history_truncated": true,
-  "oldest_included_date": "2026-09-19T10:55:23+05:30",
+  "oldest_included_date": "2026-09-19T12:26:28+05:30",
   "files_per_commit_limit": 25,
   "commits": [
+    {
+      "sha": "8dc3862c005f1f0054789457989a0037c0351855",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/8dc3862c005f1f0054789457989a0037c0351855",
+      "date": "2026-10-11T11:10:47+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Restore working Recent Changes page after JavaScript regression",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tools/recent-changes.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 282,
+          "deletions": 818
+        }
+      ],
+      "stats": {
+        "additions": 282,
+        "deletions": 818
+      }
+    },
+    {
+      "sha": "9cb8cb2b390af25ea36acdeb526af7c2bc994fec",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/9cb8cb2b390af25ea36acdeb526af7c2bc994fec",
+      "date": "2026-10-11T05:33:16Z",
+      "author_login": "github-actions[bot]",
+      "author_name": "GitHub Actions (automated)",
+      "message": "Update generated indexes and recent changes feed",
+      "body": "",
+      "type": "automated",
+      "automated": true,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "recent-changes.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 55,
+          "deletions": 55
+        }
+      ],
+      "stats": {
+        "additions": 55,
+        "deletions": 55
+      }
+    },
     {
       "sha": "190335a750f3efd8387bd82d869e1cc8ecb7bf8b",
       "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/190335a750f3efd8387bd82d869e1cc8ecb7bf8b",
@@ -8204,58 +8256,6 @@
       "stats": {
         "additions": 1,
         "deletions": 1
-      }
-    },
-    {
-      "sha": "641b9fc3fba9573d7ae541b6643b0b876743c743",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/641b9fc3fba9573d7ae541b6643b0b876743c743",
-      "date": "2026-09-19T05:25:39Z",
-      "author_login": "github-actions[bot]",
-      "author_name": "GitHub Actions (automated)",
-      "message": "Update pages index",
-      "body": "",
-      "type": "automated",
-      "automated": true,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "pages.json",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 15,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 15,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "c4d2be1bde06152e603e168c4f099a40c5f467a5",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/c4d2be1bde06152e603e168c4f099a40c5f467a5",
-      "date": "2026-09-19T10:55:23+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Add essay: On Equity (Social)",
-      "body": "",
-      "type": "created",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "tito/on-equity.md",
-          "status": "added",
-          "previous_filename": null,
-          "additions": 77,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 77,
-        "deletions": 0
       }
     }
   ]
