@@ -557,7 +557,7 @@ created: 2026-03-25
   }
   function csvCell(value) {
     var text = String(value == null ? '' : value);
-    if (/^[\\s\\u0000-\\u001f]*[=+\\-@]/.test(text) || /^[\\t\\r]/.test(text)) text = "'" + text;
+    if (/^[\s\u0000-\u001f]*[=+\-@]/.test(text) || /^[\t\r]/.test(text)) text = "'" + text;
     return '"' + text.replace(/"/g, '""') + '"';
   }
   function exportCsv() {
@@ -567,13 +567,13 @@ created: 2026-03-25
       filteredCommits().forEach(function (c) {
         rows.push([c.date, c.type, c.name, c.first, c.files.map(function (f) { return f.path; }).join('; '), c.sha, c.url]);
       });
-      download('tsap-recent-edits-' + stamp + '.csv', rows.map(function (row) { return row.map(csvCell).join(','); }).join('\\r\\n'), 'text/csv;charset=utf-8');
+      download('tsap-recent-edits-' + stamp + '.csv', rows.map(function (row) { return row.map(csvCell).join(','); }).join('\\r\n'), 'text/csv;charset=utf-8');
     } else {
       rows = [['created', 'title', 'categories', 'authors', 'source', 'published', 'source_path', 'url']];
       filteredPages().forEach(function (p) {
         rows.push([p.created || '', p.title, p.categories.join('; '), p.authors.join('; '), p.source, p.date || '', p.source_path, p.permalink || '']);
       });
-      download('tsap-new-pages-' + stamp + '.csv', rows.map(function (row) { return row.map(csvCell).join(','); }).join('\\r\\n'), 'text/csv;charset=utf-8');
+      download('tsap-new-pages-' + stamp + '.csv', rows.map(function (row) { return row.map(csvCell).join(','); }).join('\\r\n'), 'text/csv;charset=utf-8');
     }
     setStatus('CSV export prepared.');
   }
