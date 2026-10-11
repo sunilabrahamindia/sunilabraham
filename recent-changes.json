@@ -1,12 +1,142 @@
 {
-  "generated_at": "2026-10-11T08:59:24.798980Z",
+  "generated_at": "2026-10-11T09:07:07.291908Z",
   "repository": "sunilabrahamindia/sunilabraham",
   "included_commits": 300,
-  "total_commits_in_repo": 6020,
+  "total_commits_in_repo": 6025,
   "history_truncated": true,
-  "oldest_included_date": "2026-09-20T07:02:31Z",
+  "oldest_included_date": "2026-09-21T14:51:08Z",
   "files_per_commit_limit": 25,
   "commits": [
+    {
+      "sha": "850d14f3f920cf5c2c67c01e69f9732e0067360a",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/850d14f3f920cf5c2c67c01e69f9732e0067360a",
+      "date": "2026-10-11T14:36:51+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Add TSPA #0023 to English navigation",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "_includes/navbox-tspa.html",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 2,
+          "deletions": 1
+        }
+      ],
+      "stats": {
+        "additions": 2,
+        "deletions": 1
+      }
+    },
+    {
+      "sha": "7e63e2348421aefd9f856bf6f291697dd93170f5",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/7e63e2348421aefd9f856bf6f291697dd93170f5",
+      "date": "2026-10-11T14:36:49+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Add TSPA #0023 to comic archive",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/index.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 4,
+          "deletions": 0
+        }
+      ],
+      "stats": {
+        "additions": 4,
+        "deletions": 0
+      }
+    },
+    {
+      "sha": "09df3c9c1f93e35c7ad206d0fef1a971b24d93d3",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/09df3c9c1f93e35c7ad206d0fef1a971b24d93d3",
+      "date": "2026-10-11T14:36:46+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Link TSPA #0022 to next issue",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/0022.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 2,
+          "deletions": 0
+        }
+      ],
+      "stats": {
+        "additions": 2,
+        "deletions": 0
+      }
+    },
+    {
+      "sha": "f784eab76ad5112c3ea5b5ec95b79c7371788c8e",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/f784eab76ad5112c3ea5b5ec95b79c7371788c8e",
+      "date": "2026-10-11T14:36:32+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Add TSPA #0023 English comic page",
+      "body": "",
+      "type": "created",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/0023.md",
+          "status": "added",
+          "previous_filename": null,
+          "additions": 53,
+          "deletions": 0
+        }
+      ],
+      "stats": {
+        "additions": 53,
+        "deletions": 0
+      }
+    },
+    {
+      "sha": "8ecb84d2f6c0a958da06562367ff207240d6eb46",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/8ecb84d2f6c0a958da06562367ff207240d6eb46",
+      "date": "2026-10-11T08:59:24Z",
+      "author_login": "github-actions[bot]",
+      "author_name": "GitHub Actions (automated)",
+      "message": "Update generated indexes and recent changes feed",
+      "body": "",
+      "type": "automated",
+      "automated": true,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "recent-changes.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 88,
+          "deletions": 81
+        }
+      ],
+      "stats": {
+        "additions": 88,
+        "deletions": 81
+      }
+    },
     {
       "sha": "7928fb9ff095aecaa96fe36bdca0728fe0c7e5ac",
       "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/7928fb9ff095aecaa96fe36bdca0728fe0c7e5ac",
@@ -8139,136 +8269,6 @@
       ],
       "stats": {
         "additions": 15,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "5d8ec8db3ca05943db248f3c697794a6b052f606",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/5d8ec8db3ca05943db248f3c697794a6b052f606",
-      "date": "2026-09-21T20:20:51+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Create big-data-and-information-technology-rules-2011.md",
-      "body": "",
-      "type": "created",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "elonnai/big-data-and-information-technology-rules-2011.md",
-          "status": "added",
-          "previous_filename": null,
-          "additions": 253,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 253,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "ef9de218c4efa3d49ae6fd157f828f12096dd987",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/ef9de218c4efa3d49ae6fd157f828f12096dd987",
-      "date": "2026-09-20T07:14:43Z",
-      "author_login": "github-actions[bot]",
-      "author_name": "GitHub Actions (automated)",
-      "message": "Update pages index",
-      "body": "",
-      "type": "automated",
-      "automated": true,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "pages.json",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 14,
-          "deletions": 14
-        }
-      ],
-      "stats": {
-        "additions": 14,
-        "deletions": 14
-      }
-    },
-    {
-      "sha": "c12fccc959eccec386638d519500e3cf6b433fdf",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/c12fccc959eccec386638d519500e3cf6b433fdf",
-      "date": "2026-09-20T12:44:30+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Update review-of-policy-debate-around-big-data-and-internet-of-things.md",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "elonnai/review-of-policy-debate-around-big-data-and-internet-of-things.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 1,
-          "deletions": 1
-        }
-      ],
-      "stats": {
-        "additions": 1,
-        "deletions": 1
-      }
-    },
-    {
-      "sha": "e8e2a4b199629befe1ac03e9a8d1c35b9642fc52",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/e8e2a4b199629befe1ac03e9a8d1c35b9642fc52",
-      "date": "2026-09-20T12:32:46+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Update navbox-elonnai.html",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "_includes/navbox-elonnai.html",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 5,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 5,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "666b275d81dfebf1127794468867bd6c76f744c6",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/666b275d81dfebf1127794468867bd6c76f744c6",
-      "date": "2026-09-20T07:02:31Z",
-      "author_login": "github-actions[bot]",
-      "author_name": "GitHub Actions (automated)",
-      "message": "Update pages index",
-      "body": "",
-      "type": "automated",
-      "automated": true,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "pages.json",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 14,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 14,
         "deletions": 0
       }
     }
