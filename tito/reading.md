@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Currently Reading"
-categories: [Project pages, Tito Dutta]
+categories: [Tito Dutta]
 description: "A personal reading log documenting books being read and books completed."
 permalink: /tito/reading/
 created: 2026-10-11
@@ -15,7 +15,7 @@ This page is a personal reading log. Each book has its own entry, and new entrie
 <div class="reading-log">
 
   <article class="reading-entry" aria-labelledby="book-papers-title">
-    <p class="reading-status reading-status-current">Currently reading</p>
+    <p class="reading-status reading-status-current">Currently reading (Tito Dutta)</p>
     <h2 id="book-papers-title"><span lang="bn">পাপের সন্ধানে</span> <span class="reading-transliteration" lang="en">(Pāper Sandhāne)</span></h2>
     <p class="reading-author">By <span lang="en">Pracheta Gupta</span> (<span lang="bn">প্রচেত গুপ্ত</span>)</p>
 
