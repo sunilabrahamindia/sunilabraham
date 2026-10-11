@@ -1,12 +1,97 @@
 {
-  "generated_at": "2026-10-11T05:47:56.931306Z",
+  "generated_at": "2026-10-11T08:59:24.798980Z",
   "repository": "sunilabrahamindia/sunilabraham",
   "included_commits": 300,
-  "total_commits_in_repo": 6017,
+  "total_commits_in_repo": 6020,
   "history_truncated": true,
-  "oldest_included_date": "2026-09-19T12:27:25+05:30",
+  "oldest_included_date": "2026-09-20T07:02:31Z",
   "files_per_commit_limit": 25,
   "commits": [
+    {
+      "sha": "7928fb9ff095aecaa96fe36bdca0728fe0c7e5ac",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/7928fb9ff095aecaa96fe36bdca0728fe0c7e5ac",
+      "date": "2026-10-11T14:29:08+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Fix TSPA #0022 archive image filename",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/index.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 1,
+          "deletions": 1
+        }
+      ],
+      "stats": {
+        "additions": 1,
+        "deletions": 1
+      }
+    },
+    {
+      "sha": "a4252568a62d6a67a10f24e839c8f2b3951e6d15",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/a4252568a62d6a67a10f24e839c8f2b3951e6d15",
+      "date": "2026-10-11T14:29:04+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Fix TSPA #0022 media filename",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tspa/0022.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 2,
+          "deletions": 2
+        }
+      ],
+      "stats": {
+        "additions": 2,
+        "deletions": 2
+      }
+    },
+    {
+      "sha": "a02cacee6d7763d270e9fe2d17bf6e7a39a31c5b",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/a02cacee6d7763d270e9fe2d17bf6e7a39a31c5b",
+      "date": "2026-10-11T05:47:57Z",
+      "author_login": "github-actions[bot]",
+      "author_name": "GitHub Actions (automated)",
+      "message": "Update generated indexes and recent changes feed",
+      "body": "",
+      "type": "automated",
+      "automated": true,
+      "file_count": 2,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "pages.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "path": "recent-changes.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 62,
+          "deletions": 55
+        }
+      ],
+      "stats": {
+        "additions": 63,
+        "deletions": 56
+      }
+    },
     {
       "sha": "5e97f0209321a015cbaac102339ce229b6b3a32b",
       "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/5e97f0209321a015cbaac102339ce229b6b3a32b",
@@ -8185,84 +8270,6 @@
       "stats": {
         "additions": 14,
         "deletions": 0
-      }
-    },
-    {
-      "sha": "763e0eabc3485730d2dd17405bbf44429f70959a",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/763e0eabc3485730d2dd17405bbf44429f70959a",
-      "date": "2026-09-20T12:32:19+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Create review-of-policy-debate-around-big-data-and-internet-of-things.md",
-      "body": "",
-      "type": "created",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "elonnai/review-of-policy-debate-around-big-data-and-internet-of-things.md",
-          "status": "added",
-          "previous_filename": null,
-          "additions": 263,
-          "deletions": 0
-        }
-      ],
-      "stats": {
-        "additions": 263,
-        "deletions": 0
-      }
-    },
-    {
-      "sha": "621e8f26e320ea134a52c4e6e206bece3993651c",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/621e8f26e320ea134a52c4e6e206bece3993651c",
-      "date": "2026-09-20T03:28:43+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Update _config.yml",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "_config.yml",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 1,
-          "deletions": 1
-        }
-      ],
-      "stats": {
-        "additions": 1,
-        "deletions": 1
-      }
-    },
-    {
-      "sha": "9302883e461347c7ad710856ee03e62faf8826a9",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/9302883e461347c7ad710856ee03e62faf8826a9",
-      "date": "2026-09-19T12:27:25+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Update navbox-tsap.html",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "_includes/navbox-tsap.html",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 0,
-          "deletions": 1
-        }
-      ],
-      "stats": {
-        "additions": 0,
-        "deletions": 1
       }
     }
   ]
