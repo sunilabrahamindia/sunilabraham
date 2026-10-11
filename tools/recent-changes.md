@@ -830,6 +830,7 @@ created: 2026-03-25
 .rc-note, .rc-status { font-size: .82rem; color: var(--rc-muted); margin-top: 10px; line-height: 1.5; }
 .rc-note { text-align: center; }
 .rc-status:empty { display: none; }
+.rc-wrap [hidden] { display: none !important; }
 .rc-compact .rc-item { padding: 8px 12px; margin-bottom: 8px; }
 .rc-compact .rc-body, .rc-compact .rc-msg, .rc-compact .rc-rel, .rc-compact .rc-chips { display: none; }
 .rc-compact .rc-title { font-size: .95rem; margin-bottom: 2px; }
