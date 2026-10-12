@@ -3,6 +3,8 @@ layout: default
 title: "TSAP Days"
 permalink: /tsapdays/
 categories: [Project pages, TSAP Events and Rituals]
+hidden_categories:
+  - Pages needing regular archiving
 page_id: TSAP-0487
 created: 2026-01-21
 ---
