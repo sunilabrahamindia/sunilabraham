@@ -28,6 +28,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 13. [Version 2.4.1](#version-241)
 14. [Version 2.4.2](#version-242)
 15. [Version 2.5](#version-25)
+16. [Version 2.5.1](#version-251)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -397,6 +398,37 @@ From Sunday 27 September 2026 to Saturday 3 October 2026, 7 pages were created.
 
 **Status** ✅ Done  
 Completion date: 3 October 2026
+
+
+
+## Version 2.5.1
+
+From Sunday 4 October 2026 to Saturday 10 October 2026, 16 pages were created.
+
+* **[TSPA #0017](/tspa/0017/)**, created on 4 October 2026 – TSPA #0017, a wordless TSPA comic showing Ti's increasingly focused gaze as the moonlit night changes dramatically.
+* **[TSPA #0016](/tspa/0016/)**, created on 4 October 2026 – TSPA #0016, a wordless TSPA comic built around Ti's changing expressions and a central moonlit scene.
+* **[Sunil Abraham's Reddit Ask Me Anything (2013)](/sunil/reddit-ama-2013/)**, created on 4 October 2026 – A topic-wise account of a Reddit AMA held on 2 January 2013 covering Aadhaar, privacy, Internet governance, censorship, free and open-source software, accessibility, open data, and the work of the Centre for Internet and Society.
+* **[Category:TSPA Silent](/categories/tspa-silent/)**, created on 4 October 2026 – Wordless comic strips published as TSPA.
+* **[TSPA #0018](/tspa/0018/)**, created on 5 October 2026 – TSPA #0018, a wordless TSPA comic contrasting construction and destruction through Ti and To.
+* **[TSPA #0019](/tspa/0019/)**, created on 6 October 2026 – TSPA #0019, a wordless TSPA comic about releasing the chatter of the mind into the stillness of a lakeside.
+* **[Images of People](/tsap/images-of-people/)**, created on 6 October 2026 – An editorial approach to the use of AI-generated and AI-altered images of people in The Sunil Abraham Project (TSAP).
+* **[Authority Control: Y. T. Vinayaraj](/authority-control/vinayaraj/)**, created on 6 October 2026 – Authority control identifiers, bibliographic records, scholarly profiles, institutional references, and related metadata associated with Rev. Dr. Y. T. Vinayaraj.
+* **[Year One Lookback](/versions/year-one/)**, created on 7 October 2026 – A look back at the first year of The Sunil Abraham Project, from 2 October 2025 to 2 October 2026.
+* **[Category:Pages with references](/categories/pages-with-references/)**, created on 8 October 2026 – Maintenance category for pages containing a References or Reference section.
+* **[Religion and Justice](/articles/religion-and-justice/)**, created on 8 October 2026 – A 2022 edited volume by Y. T. Vinayaraj, published by the Christian Institute for the Study of Religion and Society (CISRS), examining religion and justice in relation to theology, ethics and public life.
+* **[TSPA #0021](/tspa/0021/)**, created on 9 October 2026 – TSPA #0021, a comic about a team discovering the value of deliberate silence before a meeting begins.
+* **[TSPA #0020](/tspa/0020/)**, created on 9 October 2026 – TSPA #0020, a comic strip about planning to read many books but never quite getting around to reading them.
+* **[Template:Y. T. Vinayaraj](/articles/vinayaraj-template/)**, created on 9 October 2026 – Navigational template linking books and other works by Y. T. Vinayaraj.
+* **[Dalit Theology after Continental Philosophy](/articles/dalit-theology-after-continental-philosophy/)**, created on 9 October 2026 – A 2016 book by Y. T. Vinayaraj examining Dalit theology through postcolonial theory and Continental philosophy.
+* **[A Radical Theology for the Present: The New Materialist Turn](/articles/a-radical-theology-for-the-present/)**, created on 10 October 2026 – A 2026 book by Y. T. Vinayaraj on theology and the new materialist turn.
+
+**Git activity:** 123 commits.
+
+**GitHub issues created:** 1.
+* #51 [Audit and refine 'Pages with references' maintenance category](https://github.com/sunilabrahamindia/sunilabraham/issues/51), created on 8 October 2026
+
+**Status** ✅ Done  
+Completion date: 10 October 2026
 
 
 {% include versions.html %}
