@@ -4,6 +4,7 @@ title: "Template:Y. T. Vinayaraj"
 permalink: /articles/vinayaraj-template/
 categories: [Navigational templates, Y. T. Vinayaraj]
 description: Navigational template linking books and other works by Y. T. Vinayaraj.
+page_id: TSAP-1317
 created: 2026-10-09
 ---
 

@@ -4,6 +4,7 @@ title: "The Mind"
 categories: [TSAP Exhibition, Tito Dutta]
 description: "A visual exploration of the human mind through anatomical imagery and artistic representations of thoughts."
 permalink: /tito/mind/
+page_id: TSAP-1324
 created: 2026-10-12
 ---
 

@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel"]
 description: A 2026 book by Y. T. Vinayaraj on theology and the new materialist turn.
 permalink: /articles/a-radical-theology-for-the-present/
 publication_year: 2026
+page_id: TSAP-1320
 created: 2026-10-10
 ---
 
