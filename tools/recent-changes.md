@@ -200,19 +200,38 @@ created: 2026-03-25
     el.note.textContent = '';
     setStatus('');
     try {
-      var stamp = Date.now();
       var results = await Promise.all([
-        fetch(FEED_URL + '?v=' + stamp, { cache: 'no-store' }),
-        fetch(PAGES_URL + '?v=' + stamp, { cache: 'no-store' })
+        fetch('https://api.github.com/repos/' + REPO + '/commits?per_page=100&page=1', { headers: { Accept: 'application/vnd.github+json' }, cache: 'no-store' }),
+        fetch(PAGES_URL + '?v=' + Date.now(), { cache: 'no-store' })
       ]);
-      if (!results[0].ok) throw new Error('The recent changes feed returned HTTP ' + results[0].status + '.');
+      if (!results[0].ok) throw new Error('GitHub commits API returned HTTP ' + results[0].status + '. Please try again later.');
       if (!results[1].ok) throw new Error('The page index returned HTTP ' + results[1].status + '.');
-      var feed = await results[0].json();
+      var apiCommits = await results[0].json();
       var pages = await results[1].json();
-      if (!feed || !Array.isArray(feed.commits)) throw new Error('The recent changes feed has an unexpected format.');
+      if (!Array.isArray(apiCommits)) throw new Error('GitHub returned an unexpected commits response.');
       if (!Array.isArray(pages)) throw new Error('The page index has an unexpected format.');
-      state.feed = feed;
-      state.commits = feed.commits.map(normaliseCommit);
+      state.commits = apiCommits.map(function (c) {
+        var message = String((c.commit && c.commit.message) || '(No commit message)');
+        var first = message.split(/\r?\n/)[0];
+        var login = c.author && c.author.login ? c.author.login : '';
+        var name = (login && AUTHORS[login]) || (c.commit && c.commit.author && c.commit.author.name) || login || 'Unknown';
+        var automated = login === 'github-actions[bot]' || /\[bot\]$/i.test(login);
+        return {
+          sha: String(c.sha || ''), url: String(c.html_url || (REPO_URL + '/commit/' + c.sha)),
+          date: String((c.commit && c.commit.author && c.commit.author.date) || ''),
+          first: first, body: message.split(/\r?\n/).slice(1).join('\n').trim(),
+          file: '', type: automated ? 'automated' : (/\b(create|created|creating|add|added|adding)\b/i.test(first) ? 'created' : 'updated'),
+          bot: automated, login: login, name: name,
+          authorKey: login || ('name:' + name), files: [], fileCount: 0, filesTruncated: false,
+          stats: { additions: 0, deletions: 0 }
+        };
+      });
+      state.feed = {
+        included_commits: state.commits.length,
+        total_commits_in_repo: state.commits.length,
+        history_truncated: apiCommits.length === 100,
+        oldest_included_date: state.commits.length ? state.commits[state.commits.length - 1].date : null
+      };
       state.pages = pages.map(function (p) {
         var sourcePath = String(p.source_path || '').replace(/^\.\//, '');
         return {
@@ -235,7 +254,6 @@ created: 2026-03-25
     }
     render();
   }
-
   function cutoff() {
     var value = el.days.value;
     if (value === 'all') return null;
@@ -391,8 +409,8 @@ created: 2026-03-25
     if (state.tab === 'edits') {
       var people = {};
       items.forEach(function (c) { people[c.authorKey] = true; });
-      parts.push('<span class="rc-stat"><b>' + items.length + '</b> matching commits in feed</span>');
-      parts.push('<span class="rc-stat"><b>' + Object.keys(people).length + '</b> contributors in feed</span>');
+      parts.push('<span class="rc-stat"><b>' + items.length + '</b> matching commits</span>');
+      parts.push('<span class="rc-stat"><b>' + Object.keys(people).length + '</b> contributors</span>');
       parts.push('<span class="rc-stat"><b>' + items.filter(function (c) { return c.type === 'created'; }).length + '</b> created</span>');
       parts.push('<span class="rc-stat"><b>' + items.filter(function (c) { return c.type === 'automated'; }).length + '</b> automated</span>');
     } else {
@@ -414,10 +432,8 @@ created: 2026-03-25
     }
     var included = Number(state.feed.included_commits) || state.commits.length;
     var total = Number(state.feed.total_commits_in_repo) || included;
-    var generated = state.feed.generated_at ? fmtDate(state.feed.generated_at) : 'unknown';
-    var note = 'Feed generated ' + generated + '. Showing the latest ' + included + ' of ' + total + ' repository commits.';
+    var note = 'Showing the latest ' + included + ' commits returned by the GitHub API.';
     if (state.feed.history_truncated) note += ' Older commits are outside this feed; a time range or search may extend beyond the available history.';
-    if (state.feed.files_per_commit_limit) note += ' Up to ' + state.feed.files_per_commit_limit + ' changed files are listed per commit; commit links show the complete file list.';
     el.note.textContent = note;
   }
 
