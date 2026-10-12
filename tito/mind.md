@@ -45,10 +45,10 @@ The Mind explores the human mind through visual representations of the thoughts,
 
 #tito-mind-gallery img {
   display: block;
-  flex: 0 1 auto;
-  width: auto;
-  max-width: calc(50% - 8px);
-  height: 520px;
+  flex: 0 0 calc((100% - 32px) / 3);
+  width: calc((100% - 32px) / 3);
+  max-width: calc((100% - 32px) / 3);
+  height: auto;
   object-fit: contain;
   border-radius: 0;
 }
