@@ -118,7 +118,8 @@ created: 2026-03-25
 
   var state = {
     tab: 'edits', commits: [], pages: null, pageBySource: {}, feed: null,
-    visible: 50, dataError: null, pendingDays: null, pendingAuthor: '', pendingCat: ''
+    visible: 50, apiPage: 1, apiHasMore: false, apiLoading: false,
+    dataError: null, pendingDays: null, pendingAuthor: '', pendingCat: ''
   };
 
   function esc(value) {
@@ -210,6 +211,8 @@ created: 2026-03-25
       var pages = await results[1].json();
       if (!Array.isArray(apiCommits)) throw new Error('GitHub returned an unexpected commits response.');
       if (!Array.isArray(pages)) throw new Error('The page index has an unexpected format.');
+      state.apiPage = 1;
+      state.apiHasMore = apiCommits.length === 100;
       state.commits = apiCommits.map(function (c) {
         var message = String((c.commit && c.commit.message) || '(No commit message)');
         var first = message.split(/\r?\n/)[0];
@@ -254,6 +257,53 @@ created: 2026-03-25
     }
     render();
   }
+
+  async function loadMoreCommits() {
+    if (state.apiLoading || !state.apiHasMore) return;
+    state.apiLoading = true;
+    setStatus('Loading older commits...');
+    try {
+      var response = await fetch('https://api.github.com/repos/' + REPO + '/commits?per_page=100&page=' + (state.apiPage + 1), {
+        headers: { Accept: 'application/vnd.github+json' }, cache: 'no-store'
+      });
+      if (!response.ok) throw new Error('GitHub commits API returned HTTP ' + response.status + '.');
+      var batch = await response.json();
+      if (!Array.isArray(batch)) throw new Error('GitHub returned an unexpected commits response.');
+      state.apiPage += 1;
+      state.apiHasMore = batch.length === 100;
+      var known = {};
+      state.commits.forEach(function (c) { known[c.sha] = true; });
+      batch.forEach(function (c) {
+        if (known[c.sha]) return;
+        var message = String((c.commit && c.commit.message) || '(No commit message)');
+        var first = message.split(/\\r?\\n/)[0];
+        var login = c.author && c.author.login ? c.author.login : '';
+        var name = (login && AUTHORS[login]) || (c.commit && c.commit.author && c.commit.author.name) || login || 'Unknown';
+        var automated = login === 'github-actions[bot]' || /\\[bot\\]$/i.test(login);
+        state.commits.push({
+          sha: String(c.sha || ''), url: String(c.html_url || (REPO_URL + '/commit/' + c.sha)),
+          date: String((c.commit && c.commit.author && c.commit.author.date) || ''),
+          first: first, body: message.split(/\\r?\\n/).slice(1).join('\\n').trim(),
+          file: '', type: automated ? 'automated' : (/\\b(create|created|creating|add|added|adding)\\b/i.test(first) ? 'created' : 'updated'),
+          bot: automated, login: login, name: name,
+          authorKey: login || ('name:' + name), files: [], fileCount: 0, filesTruncated: false,
+          stats: { additions: 0, deletions: 0 }
+        });
+      });
+      state.feed.included_commits = state.commits.length;
+      state.feed.total_commits_in_repo = state.commits.length;
+      state.feed.history_truncated = state.apiHasMore;
+      state.feed.oldest_included_date = state.commits.length ? state.commits[state.commits.length - 1].date : null;
+      refreshAuthorOptions();
+      render();
+      setStatus(batch.length ? 'Loaded more commits.' : 'No older commits are available.');
+    } catch (error) {
+      setStatus((error.message || 'Unable to load older commits.') + ' Try again later.');
+    } finally {
+      state.apiLoading = false;
+    }
+  }
+
   function cutoff() {
     var value = el.days.value;
     if (value === 'all') return null;
@@ -469,7 +519,7 @@ created: 2026-03-25
         shown = renderList(items, function (c) { return c.date; }, commitCard);
       }
       updateStats(items, shown);
-      el.more.hidden = items.length <= state.visible;
+      el.more.hidden = items.length <= state.visible && !state.apiHasMore;
     } else {
       items = filteredPages();
       if (!items.length) {
@@ -669,6 +719,10 @@ created: 2026-03-25
     try { localStorage.setItem('rc:compact', el.compact.checked ? '1' : '0'); } catch (error) {}
   });
   el.more.addEventListener('click', function () {
+    if (state.tab === 'edits' && state.visible >= state.commits.length && state.apiHasMore) {
+      loadMoreCommits();
+      return;
+    }
     state.visible += parseInt(el.limit.value, 10) || 50;
     render();
   });
