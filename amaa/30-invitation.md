@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Invitation: A. M. A. Ayrookuzhiel: 30th Death Anniversary Commemoration"
-categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration, Events]
+title: "Invitation: A.M. Abraham Ayrookuzhiel: 30th Death Anniversary Commemoration"
+categories: [A.M. Abraham Ayrookuzhiel, 30th Death Anniversary Commemoration, Events]
 permalink: /amaa/30-invitation/
-description: Invitation page for the 30th Death Anniversary Commemoration of Rev. A. M. A. Ayrookuzhiel (1933–1996), to be held on 29 November 2026 in Bengaluru.
+description: Invitation page for the 30th Death Anniversary Commemoration of Rev. A.M. Abraham Ayrookuzhiel (1933–1996), to be held on 29 November 2026 in Bengaluru.
 page_id: TSAP-1298
 created: 2026-09-27
 ---
@@ -243,19 +243,19 @@ created: 2026-09-27
 }
 </style>
 
-<div class="amaa-poster" role="region" aria-label="A. M. A. Ayrookuzhiel 30th Death Anniversary Commemoration poster">
+<div class="amaa-poster" role="region" aria-label="A.M. Abraham Ayrookuzhiel 30th Death Anniversary Commemoration poster">
 
   <div class="amaa-band-top">
-    <h1 class="amaa-name">A. M. A. Ayrookuzhiel</h1>
+    <h1 class="amaa-name">A.M. Abraham Ayrookuzhiel</h1>
     <p class="amaa-sub">30th Death Anniversary Commemoration</p>
   </div>
 
   <div class="amaa-portrait-wrap">
     <div class="amaa-portrait-frame">
-      <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png" alt="Photograph of Rev. A. M. A. Ayrookuzhiel" loading="lazy">
+      <img src="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png" alt="Photograph of Rev. A.M. Abraham Ayrookuzhiel" loading="lazy">
     </div>
   </div>
-  <p class="amaa-portrait-caption">Rev. A. M. A. Ayrookuzhiel (1933–1996)</p>
+  <p class="amaa-portrait-caption">Rev. A.M. Abraham Ayrookuzhiel (1933–1996)</p>
 
   <div class="amaa-savedate">
     <p class="amaa-savedate-label">Save the Date</p>
@@ -277,7 +277,7 @@ created: 2026-09-27
       <div class="amaa-time">12:00 noon</div>
       <div>
         <p class="amaa-event-title">Memorial Service</p>
-        <p class="amaa-event-venue">Wesley English Church, Fraser Town</p>
+        <p class="amaa-event-venue">Location: To be decided</p>
       </div>
     </div>
 
@@ -285,7 +285,7 @@ created: 2026-09-27
       <div class="amaa-time">1:30 pm</div>
       <div>
         <p class="amaa-event-title">Lunch</p>
-        <p class="amaa-event-venue">Wesley English Church, Fraser Town</p>
+        <p class="amaa-event-venue">Location: To be decided</p>
       </div>
     </div>
 
@@ -308,7 +308,7 @@ created: 2026-09-27
   </div>
 
   <div class="amaa-note">
-    The programme will include a commemoration of A. M. A. Ayrookuzhiel's life and work, presentations on his academic, literary and social contributions, and an exhibition of selected works, documents and archival material.
+    The programme will include a commemoration of A.M. Abraham Ayrookuzhiel's life and work, presentations on his academic, literary and social contributions, and an exhibition of selected works, documents and archival material.
   </div>
 
   <div class="amaa-footer">
