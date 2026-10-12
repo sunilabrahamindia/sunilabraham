@@ -1,12 +1,64 @@
 {
-  "generated_at": "2026-10-12T06:19:53.602671Z",
+  "generated_at": "2026-10-12T06:26:53.727842Z",
   "repository": "sunilabrahamindia/sunilabraham",
   "included_commits": 300,
-  "total_commits_in_repo": 6047,
+  "total_commits_in_repo": 6049,
   "history_truncated": true,
-  "oldest_included_date": "2026-09-25T15:31:54+05:30",
+  "oldest_included_date": "2026-09-25T15:32:01+05:30",
   "files_per_commit_limit": 25,
   "commits": [
+    {
+      "sha": "e672e7b130d6c1e7e34ce58e4661cfa8e962626f",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/e672e7b130d6c1e7e34ce58e4661cfa8e962626f",
+      "date": "2026-10-12T11:56:38+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Remove gaps and align Mind gallery images",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tito/mind.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 6,
+          "deletions": 6
+        }
+      ],
+      "stats": {
+        "additions": 6,
+        "deletions": 6
+      }
+    },
+    {
+      "sha": "b7e001ca542225ca568aa1dd612c32ebd4e0385d",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/b7e001ca542225ca568aa1dd612c32ebd4e0385d",
+      "date": "2026-10-12T06:19:53Z",
+      "author_login": "github-actions[bot]",
+      "author_name": "GitHub Actions (automated)",
+      "message": "Update generated indexes and recent changes feed",
+      "body": "",
+      "type": "automated",
+      "automated": true,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "recent-changes.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 62,
+          "deletions": 55
+        }
+      ],
+      "stats": {
+        "additions": 62,
+        "deletions": 55
+      }
+    },
     {
       "sha": "55b2960508f9cb46924c7247f8048c7233245a76",
       "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/55b2960508f9cb46924c7247f8048c7233245a76",
@@ -8105,58 +8157,6 @@
       "files": [
         {
           "path": "amaa/religions-and-the-aspirations-of-the-people.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 2,
-          "deletions": 2
-        }
-      ],
-      "stats": {
-        "additions": 2,
-        "deletions": 2
-      }
-    },
-    {
-      "sha": "03cc78708898834c0f05d2da32fcfacb5b75b442",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/03cc78708898834c0f05d2da32fcfacb5b75b442",
-      "date": "2026-09-25T15:31:58+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Link Religion and Society article",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "amaa/men-and-gods-in-a-changing-world-book-review.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 2,
-          "deletions": 2
-        }
-      ],
-      "stats": {
-        "additions": 2,
-        "deletions": 2
-      }
-    },
-    {
-      "sha": "faf83c34ffffb3836b2f6235aea50a3be65fe7b5",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/faf83c34ffffb3836b2f6235aea50a3be65fe7b5",
-      "date": "2026-09-25T15:31:54+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Link Religion and Society article",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "amaa/religion-spirituality-and-aspirations-of-the-people.md",
           "status": "modified",
           "previous_filename": null,
           "additions": 2,
