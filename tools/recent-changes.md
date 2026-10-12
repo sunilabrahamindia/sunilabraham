@@ -100,7 +100,6 @@ created: 2026-03-25
 
   var REPO = 'sunilabrahamindia/sunilabraham';
   var REPO_URL = 'https://github.com/' + REPO;
-  var FEED_URL = '/recent-changes.json';
   var PAGES_URL = '/pages.json';
   var AUTHORS = {
     'sunilabrahamindia': 'Tito (TSAP moderator)',
