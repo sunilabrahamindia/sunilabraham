@@ -32,6 +32,18 @@ The Mind explores the human mind through visual representations of the thoughts,
     loading="lazy"
     decoding="async"
   >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-04.png"
+    alt="Textured, vintage-style illustration of a front-facing human figure with closed eyes, rendered in earthy ochre and brown. A large DNA double helix rises from the head and branches into winding strands that connect many small portraits and silhouettes, suggesting genetic inheritance, ancestry and shared lineage. The background is aged cream paper with muted teal, rust and copper accents."
+    loading="lazy"
+    decoding="async"
+  >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-05.png"
+    alt="Front-facing, stylised human upper body with closed eyes, illuminated in amber and gold against a dark, textured background of deep green, teal and burnt orange. A luminous DNA double helix rises from the head and branches outward through glowing strands that connect numerous smaller human silhouettes, representing genetic memory, ancestry and human connection."
+    loading="lazy"
+    decoding="async"
+  >
 </div>
 
 <style>
