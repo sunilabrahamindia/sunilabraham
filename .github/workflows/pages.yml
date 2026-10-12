@@ -30,17 +30,14 @@ jobs:
       - name: Generate pages.json
         run: python scripts/generate_pages_json.py
 
-      - name: Generate recent-changes.json
-        run: python scripts/generate_recent_changes_json.py
-
-      - name: Commit updated generated indexes
+      - name: Commit updated page index
         run: |
-          if git diff --quiet -- pages.json recent-changes.json; then
-            echo "No generated index changes."
+          if git diff --quiet -- pages.json; then
+            echo "No page index changes."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add pages.json recent-changes.json
-            git commit -m "Update generated indexes and recent changes feed"
+            git add pages.json
+            git commit -m "Update pages index"
             git push
           fi
