@@ -2,6 +2,8 @@
 layout: default
 title: "Media Mentions"
 categories: [Media mentions]
+hidden_categories:
+  - Pages needing regular archiving
 description: "Index of media coverage featuring Sunil Abraham, including interviews, quotations, profiles, and reporting across newspapers, magazines, and digital platforms."
 permalink: /media/
 page_id: TSAP-0156
