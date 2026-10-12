@@ -37,7 +37,9 @@
     "created": "2026-10-12",
     "date": null,
     "source": null,
-    "authors": null,
+    "authors": [
+      "Tito Dutta"
+    ],
     "categories": [
       "TSAP Exhibition",
       "Tito Dutta"
