@@ -8,7 +8,9 @@ page_id: TSAP-1324
 created: 2026-10-12
 ---
 
-The Mind explores the human mind through visual representations of the thoughts, ideas and impressions that pass through it.
+The Mind explores the human mind through visual representations of the thoughts, ideas and impressions that pass through it. This page will grow over time, with more images and related content added gradually.
+
+{% include author-date.html %}
 
 <div id="tito-mind-gallery" aria-label="Visual representations of the human mind">
   <img
@@ -20,6 +22,12 @@ The Mind explores the human mind through visual representations of the thoughts,
   <img
     src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-02.png"
     alt="Renaissance-inspired anatomical study of a human head and upper torso in right-facing profile on aged, warm sepia parchment. Fine ink-like lines reveal the brain, facial structure, neck, vessels and shoulder. The brain contains many translucent thought-like spheres of varied sizes in muted gold, amber, blue, turquoise, green and violet, connected by delicate luminous filaments. Small anatomical sketches, geometric diagrams and handwritten marks surround the figure, combining scientific notebook imagery with a contemporary visualisation of thought."
+    loading="lazy"
+    decoding="async"
+  >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-03.png"
+    alt="Front-facing portrait of a human figure formed from translucent blue water droplets and flowing liquid strands, against an abstract dark blue and amber background. The head reveals irregular orange, gold and reddish sparks linked by delicate glowing filaments, suggesting thoughts and neural activity. Small suspended droplets surround the head and shoulders."
     loading="lazy"
     decoding="async"
   >
