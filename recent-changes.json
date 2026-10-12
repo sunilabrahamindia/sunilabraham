@@ -1,12 +1,64 @@
 {
-  "generated_at": "2026-10-12T06:32:47.543184Z",
+  "generated_at": "2026-10-12T06:46:35.869011Z",
   "repository": "sunilabrahamindia/sunilabraham",
   "included_commits": 300,
-  "total_commits_in_repo": 6051,
+  "total_commits_in_repo": 6053,
   "history_truncated": true,
-  "oldest_included_date": "2026-09-25T15:32:08+05:30",
+  "oldest_included_date": "2026-09-25T15:32:15+05:30",
   "files_per_commit_limit": 25,
   "commits": [
+    {
+      "sha": "9f189f9ff154c4ade7466ca055f0a98cba459b3e",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/9f189f9ff154c4ade7466ca055f0a98cba459b3e",
+      "date": "2026-10-12T12:16:21+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Refine desktop and mobile gallery spacing on The Mind",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tito/mind.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 11,
+          "deletions": 9
+        }
+      ],
+      "stats": {
+        "additions": 11,
+        "deletions": 9
+      }
+    },
+    {
+      "sha": "3d3ff6a49abc823ca8b7299293d8e9451d162717",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/3d3ff6a49abc823ca8b7299293d8e9451d162717",
+      "date": "2026-10-12T06:32:47Z",
+      "author_login": "github-actions[bot]",
+      "author_name": "GitHub Actions (automated)",
+      "message": "Update generated indexes and recent changes feed",
+      "body": "",
+      "type": "automated",
+      "automated": true,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "recent-changes.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 55,
+          "deletions": 55
+        }
+      ],
+      "stats": {
+        "additions": 55,
+        "deletions": 55
+      }
+    },
     {
       "sha": "60c51cfca6a37d7261fd48d387e2c70021f43ced",
       "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/60c51cfca6a37d7261fd48d387e2c70021f43ced",
@@ -8105,58 +8157,6 @@
       "files": [
         {
           "path": "amaa/conversion-competition-and-conflict-book-review.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 2,
-          "deletions": 2
-        }
-      ],
-      "stats": {
-        "additions": 2,
-        "deletions": 2
-      }
-    },
-    {
-      "sha": "7ec2647e7ef5ec2c46c49320763edd0d51b7f985",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/7ec2647e7ef5ec2c46c49320763edd0d51b7f985",
-      "date": "2026-09-25T15:32:11+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Link Religion and Society article",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "amaa/approaches-to-the-study-of-religion-book-review.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 2,
-          "deletions": 2
-        }
-      ],
-      "stats": {
-        "additions": 2,
-        "deletions": 2
-      }
-    },
-    {
-      "sha": "887777ee9622840c0a8763fe3353a3962b5f62f1",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/887777ee9622840c0a8763fe3353a3962b5f62f1",
-      "date": "2026-09-25T15:32:08+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Link Religion and Society article",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "amaa/religion-culture-dalits-struggle-liberation.md",
           "status": "modified",
           "previous_filename": null,
           "additions": 2,
