@@ -11,16 +11,18 @@ The Mind explores the human mind through visual representations of the thoughts,
 
 <style>
 #tito-mind-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 0.5rem;
-  row-gap: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
   margin: 0.5rem 0 1.5rem;
 }
 
 #tito-mind-gallery img {
   display: block;
-  width: 100%;
+  flex: 0 1 auto;
+  width: auto;
+  max-width: calc(50% - 0.5rem);
   height: 520px;
   object-fit: contain;
   border-radius: 0;
@@ -28,16 +30,16 @@ The Mind explores the human mind through visual representations of the thoughts,
 
 @media (max-width: 768px) {
   #tito-mind-gallery {
-    grid-template-columns: minmax(0, 1fr);
-    column-gap: 0;
-    row-gap: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
     margin-top: 0.5rem;
   }
 
   #tito-mind-gallery img {
     width: 100%;
+    max-width: 100%;
     height: auto;
-    aspect-ratio: auto;
     object-fit: contain;
   }
 }
