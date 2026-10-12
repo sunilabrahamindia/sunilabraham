@@ -13,7 +13,7 @@ The Mind explores the human mind through visual representations of the thoughts,
 #tito-mind-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 0;
   margin: 1.5rem 0;
 }
 
@@ -21,21 +21,21 @@ The Mind explores the human mind through visual representations of the thoughts,
   display: block;
   width: 100%;
   height: 520px;
-  object-fit: contain;
-  border-radius: 4px;
+  object-fit: cover;
+  border-radius: 0;
 }
 
 @media (max-width: 768px) {
   #tito-mind-gallery {
     grid-template-columns: minmax(0, 1fr);
-    gap: 1rem;
+    gap: 0;
   }
 
   #tito-mind-gallery img {
+    width: 100%;
     height: auto;
-    max-height: none;
     aspect-ratio: 3 / 4;
-    object-fit: contain;
+    object-fit: cover;
   }
 }
 </style>
