@@ -1,12 +1,71 @@
 {
-  "generated_at": "2026-10-12T06:02:40.223137Z",
+  "generated_at": "2026-10-12T06:19:53.602671Z",
   "repository": "sunilabrahamindia/sunilabraham",
   "included_commits": 300,
-  "total_commits_in_repo": 6045,
+  "total_commits_in_repo": 6047,
   "history_truncated": true,
-  "oldest_included_date": "2026-09-25T15:31:48+05:30",
+  "oldest_included_date": "2026-09-25T15:31:54+05:30",
   "files_per_commit_limit": 25,
   "commits": [
+    {
+      "sha": "55b2960508f9cb46924c7247f8048c7233245a76",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/55b2960508f9cb46924c7247f8048c7233245a76",
+      "date": "2026-10-12T11:49:37+05:30",
+      "author_login": "sunilabrahamindia",
+      "author_name": "Tito (TSAP moderator)",
+      "message": "Make Mind gallery images consistent in size",
+      "body": "",
+      "type": "updated",
+      "automated": false,
+      "file_count": 1,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "tito/mind.md",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 9,
+          "deletions": 1
+        }
+      ],
+      "stats": {
+        "additions": 9,
+        "deletions": 1
+      }
+    },
+    {
+      "sha": "00ffc1e3a40440ce9f2ccf68f2ff97b0d916b7b4",
+      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/00ffc1e3a40440ce9f2ccf68f2ff97b0d916b7b4",
+      "date": "2026-10-12T06:02:40Z",
+      "author_login": "github-actions[bot]",
+      "author_name": "GitHub Actions (automated)",
+      "message": "Update generated indexes and recent changes feed",
+      "body": "",
+      "type": "automated",
+      "automated": true,
+      "file_count": 2,
+      "files_truncated": false,
+      "files": [
+        {
+          "path": "pages.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 14,
+          "deletions": 0
+        },
+        {
+          "path": "recent-changes.json",
+          "status": "modified",
+          "previous_filename": null,
+          "additions": 55,
+          "deletions": 55
+        }
+      ],
+      "stats": {
+        "additions": 69,
+        "deletions": 55
+      }
+    },
     {
       "sha": "61b9b100fa20e6225abf4517b46756a75e7511ab",
       "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/61b9b100fa20e6225abf4517b46756a75e7511ab",
@@ -8098,58 +8157,6 @@
       "files": [
         {
           "path": "amaa/religion-spirituality-and-aspirations-of-the-people.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 2,
-          "deletions": 2
-        }
-      ],
-      "stats": {
-        "additions": 2,
-        "deletions": 2
-      }
-    },
-    {
-      "sha": "1257038ed991eb8405ad35f1ed1a0ccc2fb2c715",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/1257038ed991eb8405ad35f1ed1a0ccc2fb2c715",
-      "date": "2026-09-25T15:31:51+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Link Religion and Society article",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "amaa/conversion-and-social-equality-in-india-book-review.md",
-          "status": "modified",
-          "previous_filename": null,
-          "additions": 2,
-          "deletions": 2
-        }
-      ],
-      "stats": {
-        "additions": 2,
-        "deletions": 2
-      }
-    },
-    {
-      "sha": "1354156e1c1f1eb1e06c6f9f46ec0b45d29aab52",
-      "url": "https://github.com/sunilabrahamindia/sunilabraham/commit/1354156e1c1f1eb1e06c6f9f46ec0b45d29aab52",
-      "date": "2026-09-25T15:31:48+05:30",
-      "author_login": "sunilabrahamindia",
-      "author_name": "Tito (TSAP moderator)",
-      "message": "Link Religion and Society article",
-      "body": "",
-      "type": "updated",
-      "automated": false,
-      "file_count": 1,
-      "files_truncated": false,
-      "files": [
-        {
-          "path": "amaa/religion-culture-and-power-editorial-1985-03.md",
           "status": "modified",
           "previous_filename": null,
           "additions": 2,
