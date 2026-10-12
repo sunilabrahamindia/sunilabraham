@@ -29,7 +29,7 @@ The Mind explores the human mind through visual representations of the thoughts,
 #tito-mind-gallery {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 16px;
   margin: 8px 0 1.5rem;
 }
