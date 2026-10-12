@@ -20,7 +20,8 @@ The Mind explores the human mind through visual representations of the thoughts,
 #tito-mind-gallery img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 520px;
+  object-fit: contain;
   border-radius: 4px;
 }
 
@@ -28,6 +29,13 @@ The Mind explores the human mind through visual representations of the thoughts,
   #tito-mind-gallery {
     grid-template-columns: minmax(0, 1fr);
     gap: 1rem;
+  }
+
+  #tito-mind-gallery img {
+    height: auto;
+    max-height: none;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
   }
 }
 </style>
