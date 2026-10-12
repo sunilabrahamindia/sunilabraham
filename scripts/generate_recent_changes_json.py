@@ -1,24 +1,21 @@
 #!/usr/bin/env python3
 """Generate a static recent-changes feed from the local Git history.
 
-The feed keeps the newest 300 commits and lists at most 25 changed files per
-commit. Commit classification is based on Git file statuses, not message
-keywords. The workflow runs this script with the complete Git history.
+The feed keeps the newest 300 meaningful commits and lists at most 25 changed
+files per commit. Feed-refresh commits are excluded to prevent scheduled feed
+updates from appearing as activity or triggering an endless update cycle.
 """
 
 import json
 import subprocess
-from datetime import datetime, timezone
 from pathlib import PurePosixPath
 
 REPOSITORY = "sunilabrahamindia/sunilabraham"
 MAX_COMMITS = 300
 MAX_FILES_PER_COMMIT = 25
 BOT_EMAIL = "41898282+github-actions[bot]@users.noreply.github.com"
+FEED_REFRESH_MESSAGE = "refresh recent changes feed"
 
-# Replace the placeholder email below if Sunil's commits use a known email.
-# The email is used only for mapping in this generator; it is not written to
-# recent-changes.json.
 AUTHOR_MAP = {
     "sunilabrahamindia@gmail.com": {
         "login": "sunilabrahamindia",
@@ -52,7 +49,6 @@ def parse_commits():
     output = git(
         "log",
         "-z",
-        f"--max-count={MAX_COMMITS + 1}",
         "--format=%H%x1f%aI%x1f%an%x1f%ae%x1f%s%x1f%b",
     )
     commits = []
@@ -64,14 +60,19 @@ def parse_commits():
             continue
         sha, date, author_name, author_email, subject = fields[:5]
         body = fields[5].strip() if len(fields) > 5 else ""
+        message = subject.strip()
+        if message.lower().startswith(FEED_REFRESH_MESSAGE):
+            continue
         commits.append({
             "sha": sha.strip(),
             "date": date.strip(),
             "raw_author_name": author_name.strip(),
             "raw_author_email": author_email.strip().lower(),
-            "message": subject.strip(),
+            "message": message,
             "body": body,
         })
+        if len(commits) >= MAX_COMMITS:
+            break
     return commits
 
 
@@ -138,12 +139,13 @@ def classify(author_login, author_name, author_email, message, files):
         or "github actions" in author_name.lower()
         or message.lower().startswith("update pages index")
         or message.lower().startswith("update generated indexes")
+        or message.lower().startswith(FEED_REFRESH_MESSAGE)
     ):
         return "automated"
     statuses = [item["status"] for item in files]
-    if statuses and all(status == "added" for status in statuses):
+    if statuses and all(item == "added" for item in statuses):
         return "created"
-    if statuses and all(status == "removed" for status in statuses):
+    if statuses and all(item == "removed" for item in statuses):
         return "removed"
     return "updated"
 
@@ -191,11 +193,10 @@ def build_commit(commit):
 
 def main():
     history = parse_commits()
-    included = history[:MAX_COMMITS]
     total = int(git("rev-list", "--count", "HEAD").strip() or "0")
-    commits = [build_commit(item) for item in included]
+    commits = [build_commit(item) for item in history]
     feed = {
-        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "generated_at": commits[0]["date"] if commits else None,
         "repository": REPOSITORY,
         "included_commits": len(commits),
         "total_commits_in_repo": total,
