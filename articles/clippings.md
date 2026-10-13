@@ -3,6 +3,8 @@ layout: default
 title: "Press Clippings"
 description: "A visual archive of newspaper and magazine clippings featuring Sunil Abraham and the Centre for Internet and Society, including print media references that may not be available online."
 categories: [Sunil Abraham]
+hidden_categories:
+  - Pages needing regular archiving
 permalink: /clippings/
 page_id: TSAP-0740
 created: 2026-03-21
