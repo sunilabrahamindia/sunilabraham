@@ -63,6 +63,11 @@ This list is generated from category pages assigned to [Maintenance categories](
   margin: 1em 0;
   color: #222;
 }
+.maintenance-category-controls[hidden],
+#maintenance-category-empty[hidden],
+#maintenance-category-list li[hidden] {
+  display: none !important;
+}
 .maintenance-category-controls {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
