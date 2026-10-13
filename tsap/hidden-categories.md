@@ -22,20 +22,200 @@ Hidden categories are not private or access-restricted. Their category pages rem
 
 ## Current Maintenance Categories {#current-maintenance-categories}
 
-The following maintenance categories currently exist:
+This list is generated from category pages assigned to [Maintenance categories](/categories/maintenance-categories/), so new categories appear here automatically when they are added to that group. Use the controls to search or change the order.
 
-1. [Pages using embedded YouTube videos](/categories/pages-using-embedded-youtube-videos/)
-2. [Pages using embedded PDF documents](/categories/pages-using-embedded-pdf-documents/)
-3. [Pages using embedded X posts](/categories/pages-using-embedded-x-posts/)
-4. [Pages using embedded Facebook posts](/categories/pages-using-embedded-facebook-posts/)
-5. [Pages using media repository files](/categories/pages-using-media-repository-files/)
-6. [Pages citing CIS website](/categories/pages-citing-cis-website/)
-7. [Pages displaying custom notices](/categories/pages-displaying-custom-notices/)
-8. [Pages using under construction template](/categories/pages-using-under-construction-template/)
-9. [Pages with references](/categories/pages-with-references/)
-10. [Pages needing regular archiving](/categories/pages-needing-regular-archiving/)
+{% assign maintenance_categories = site.pages | where_exp: "p", "p.path contains 'categories/'" | where_exp: "p", "p.categories contains 'Maintenance categories'" | sort: "title" %}
 
-These categories are collected under [Maintenance categories](/categories/maintenance-categories/).
+<div class="maintenance-category-browser">
+  <div class="maintenance-category-controls" hidden>
+    <div>
+      <label for="maintenance-category-search">Search categories</label>
+      <input id="maintenance-category-search" type="search" autocomplete="off" placeholder="Type a category name">
+    </div>
+    <div>
+      <label for="maintenance-category-sort">Sort by</label>
+      <select id="maintenance-category-sort">
+        <option value="az">Title: A to Z</option>
+        <option value="za">Title: Z to A</option>
+        <option value="oldest">Created: oldest first</option>
+        <option value="newest">Created: newest first</option>
+      </select>
+    </div>
+    <button type="button" id="maintenance-category-clear">Clear search and sorting</button>
+  </div>
+
+  <p id="maintenance-category-count" aria-live="polite">{{ maintenance_categories.size }} maintenance categories</p>
+  <p id="maintenance-category-empty" hidden>No maintenance categories match your search.</p>
+
+  <ul id="maintenance-category-list">
+    {% for cat in maintenance_categories %}
+      {% assign cat_name = cat.title | remove_first: "Category:" | strip %}
+      <li data-name="{{ cat_name | downcase | escape }}" data-created="{% if cat.created %}{{ cat.created | date: '%Y-%m-%d' }}{% endif %}">
+        <a href="{{ cat.url | relative_url }}">{{ cat_name | escape }}</a>
+        {% if cat.created %}<span class="maintenance-category-date">Created: <time datetime="{{ cat.created | date: '%Y-%m-%d' }}">{{ cat.created | date: "%d %b %Y" }}</time></span>{% else %}<span class="maintenance-category-date">Creation date not recorded</span>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<style>
+.maintenance-category-browser {
+  margin: 1em 0;
+  color: #222;
+}
+.maintenance-category-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 0.85em;
+  margin-bottom: 1em;
+  padding: 1em;
+  border: 1px solid #b8c2ce;
+  background: #f3f6f9;
+}
+.maintenance-category-controls label {
+  display: block;
+  margin-bottom: 0.35em;
+  font-weight: 600;
+}
+.maintenance-category-controls input,
+.maintenance-category-controls select,
+.maintenance-category-controls button {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 2.75em;
+  padding: 0.55em 0.7em;
+  border: 1px solid #667788;
+  border-radius: 4px;
+  background: #fff;
+  color: #222;
+  font: inherit;
+}
+.maintenance-category-controls button {
+  align-self: end;
+  cursor: pointer;
+  background: #184c99;
+  border-color: #184c99;
+  color: #fff;
+  font-weight: 600;
+}
+.maintenance-category-controls button:hover {
+  background: #123b78;
+}
+.maintenance-category-browser a {
+  color: #0645ad;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.maintenance-category-date {
+  display: inline-block;
+  margin-left: 0.35em;
+  color: #444;
+  font-size: 0.9em;
+}
+#maintenance-category-count {
+  color: #444;
+  margin: 0.5em 0;
+}
+#maintenance-category-list {
+  line-height: 1.8;
+  padding-left: 1.5em;
+}
+#maintenance-category-list li {
+  margin: 0.25em 0;
+}
+body.tsap-dark-mode .maintenance-category-browser {
+  color: #e5e7eb;
+}
+body.tsap-dark-mode .maintenance-category-controls {
+  background: #1f2937;
+  border-color: #4b5563;
+}
+body.tsap-dark-mode .maintenance-category-controls input,
+body.tsap-dark-mode .maintenance-category-controls select {
+  background: #111827;
+  color: #f3f4f6;
+  border-color: #6b7280;
+}
+body.tsap-dark-mode .maintenance-category-controls button {
+  background: #1f5fbf;
+  color: #fff;
+  border-color: #1f5fbf;
+}
+body.tsap-dark-mode .maintenance-category-controls button:hover {
+  background: #184c99;
+}
+body.tsap-dark-mode .maintenance-category-browser a {
+  color: #93c5fd;
+}
+body.tsap-dark-mode .maintenance-category-browser a:hover {
+  color: #bfdbfe;
+}
+body.tsap-dark-mode .maintenance-category-date,
+body.tsap-dark-mode #maintenance-category-count {
+  color: #cbd5e1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .maintenance-category-browser * {
+    scroll-behavior: auto;
+    transition: none !important;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const browser = document.querySelector('.maintenance-category-browser');
+  if (!browser) return;
+
+  const controls = browser.querySelector('.maintenance-category-controls');
+  const list = browser.querySelector('#maintenance-category-list');
+  const search = browser.querySelector('#maintenance-category-search');
+  const sort = browser.querySelector('#maintenance-category-sort');
+  const clear = browser.querySelector('#maintenance-category-clear');
+  const count = browser.querySelector('#maintenance-category-count');
+  const empty = browser.querySelector('#maintenance-category-empty');
+  const items = Array.from(list.querySelectorAll('li'));
+
+  controls.hidden = false;
+
+  function updateList() {
+    const query = search.value.trim().toLocaleLowerCase();
+    const order = sort.value;
+    const sorted = items.slice().sort(function (a, b) {
+      if (order === 'oldest' || order === 'newest') {
+        const dateA = a.dataset.created || (order === 'oldest' ? '9999-12-31' : '0000-01-01');
+        const dateB = b.dataset.created || (order === 'oldest' ? '9999-12-31' : '0000-01-01');
+        const dateOrder = dateA.localeCompare(dateB);
+        if (dateOrder !== 0) return order === 'oldest' ? dateOrder : -dateOrder;
+      }
+      const nameOrder = a.dataset.name.localeCompare(b.dataset.name);
+      return order === 'za' ? -nameOrder : nameOrder;
+    });
+
+    let visible = 0;
+    sorted.forEach(function (item) {
+      const matches = item.dataset.name.includes(query);
+      item.hidden = !matches;
+      list.appendChild(item);
+      if (matches) visible += 1;
+    });
+
+    count.textContent = 'Showing ' + visible + ' of ' + items.length + ' maintenance categories';
+    empty.hidden = visible !== 0;
+  }
+
+  search.addEventListener('input', updateList);
+  sort.addEventListener('change', updateList);
+  clear.addEventListener('click', function () {
+    search.value = '';
+    sort.value = 'az';
+    updateList();
+    search.focus();
+  });
+
+  updateList();
+});
+</script>
 
 ## YAML syntax {#yaml-syntax}
 
