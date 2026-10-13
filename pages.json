@@ -1,5 +1,18 @@
 [
   {
+    "title": "Hidden Categories and Maintenance Categories",
+    "description": "Documentation of hidden category assignments and automatically populated maintenance categories in The Sunil Abraham Project.",
+    "created": "2026-10-13",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/hidden-categories/",
+    "source_path": "tsap/hidden-categories.md"
+  },
+  {
     "title": "TSPA #0025",
     "description": "TSPA #0025 is a wordless comic of Ti counting on his fingers while holding a mala, evoking rhythmic repetition and focused attention.",
     "created": "2026-10-12",
