@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Hidden Categories and Maintenance Categories"
 description: "Documentation of hidden category assignments and automatically populated maintenance categories in The Sunil Abraham Project."
 permalink: /tsap/hidden-categories/
@@ -7,7 +7,10 @@ categories: [TSAP Documentation]
 created: 2026-10-13
 ---
 
-Hidden categories allow The Sunil Abraham Project to classify pages for maintenance, preservation and technical tracking without displaying those categories in the category list at the bottom of individual pages. This page documents the current maintenance categories, their implementation and how to assign hidden categories through YAML front matter.
+{% include documentation-notice.html %}
+
+
+**Hidden and maintenance categories** allow The Sunil Abraham Project to classify pages for maintenance, preservation and technical tracking without displaying those categories in the category list at the bottom of individual pages. This page documents the current maintenance categories, their implementation and how to assign hidden categories through YAML front matter.
 
 ## Purpose {#purpose}
 
@@ -126,14 +129,12 @@ Before creating a new category, check whether an existing category already cover
 - Keep automatic listing and counting logic consistent.
 - Review maintenance categories periodically and remove obsolete assignments when they are no longer needed.
 
-## Related documentation {#related-documentation}
+## See also {#see-also}
 
 - [TSAP documentation](/tsap/)
 - [YAML front matter](/tsap/yaml/)
 - [Site structure](/tsap/structure/)
 - [Maintenance categories](/categories/maintenance-categories/)
 - [All categories](/categories/)
-
-{% include documentation-notice.html %}
 
 {% include navbox-tsap.html %}
