@@ -64,21 +64,21 @@ A hidden category is not private or access-restricted. Its category page remains
 
 ## Automatically populated maintenance categories {#automatic-maintenance-categories}
 
-Several maintenance categories are populated by rules in the site's category layout rather than by manually adding category names to individual pages.
-
-The layout checks page content for particular embeds, templates, links or reference headings. Matching pages are then listed under the relevant maintenance category.
+Not every maintenance category is assigned through the `hidden_categories` YAML field. Several are populated automatically by rules in the site's category layout, which checks page content for particular embeds, templates, links or reference headings.
 
 The current automatic detection rules cover embedded YouTube videos, PDF documents, X posts and Facebook posts; media repository files; CIS website citations; custom notices; under construction templates; and pages with references.
 
-These rules are distinct from manually assigned hidden categories.
+For these automatically detected categories, a page can appear in the category listing because its content matches the relevant rule, without having that category name in either `categories` or `hidden_categories`. These rules are distinct from manually assigned hidden categories.
 
-## Category layout {#category-layout}
+## How the layouts work {#how-the-layouts-work}
 
-The category layout in [`_layouts/category.html`](https://github.com/sunilabrahamindia/sunilabraham/blob/main/_layouts/category.html) generates category pages, including special detection rules for automatically populated maintenance categories and the combination of regular and hidden category assignments for other categories.
+The site's [`_layouts/default.html`](https://github.com/sunilabrahamindia/sunilabraham/blob/main/_layouts/default.html) includes [`_includes/categories.html`](https://github.com/sunilabrahamindia/sunilabraham/blob/main/_includes/categories.html), which displays the page's regular `categories` assignments at the bottom of the page. It does not perform the special content detection used by maintenance category pages.
 
-The category index in [`categories/index.md`](https://github.com/sunilabrahamindia/sunilabraham/blob/main/categories/index.md) also contains custom counting rules for automatically populated maintenance categories.
+The [`_layouts/category.html`](https://github.com/sunilabrahamindia/sunilabraham/blob/main/_layouts/category.html) layout contains the automatic detection rules for the special maintenance categories. For other categories, it combines pages assigned through the regular `categories` field with pages assigned through `hidden_categories`.
 
-When adding or modifying an automatically populated category, check both files so that its listing and displayed count remain consistent.
+The category index in [`categories/index.md`](https://github.com/sunilabrahamindia/sunilabraham/blob/main/categories/index.md) contains corresponding counting rules for automatically detected categories and counts regular and hidden assignments for other categories.
+
+When adding or modifying an automatically populated category, keep the listing logic in `_layouts/category.html` and the counting logic in `categories/index.md` consistent.
 
 ## Creating a hidden maintenance category {#creating-a-hidden-maintenance-category}
 
