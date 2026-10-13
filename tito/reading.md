@@ -4,7 +4,6 @@ title: "Currently Reading (Tito Dutta)"
 categories: [Tito Dutta]
 description: "A personal reading log documenting books being read and books completed."
 permalink: /tito/reading/
-page_id: TSAP-1321
 created: 2026-10-11
 authors: [Tito Dutta]
 ---
@@ -16,7 +15,7 @@ This page is a personal reading log. Each book has its own entry, and new entrie
 <div class="reading-log">
 
   <article class="reading-entry" aria-labelledby="book-papers-title">
-    <p class="reading-status reading-status-current">Currently reading</p>
+    <p class="reading-status reading-status-finished">Finished reading</p>
     <h2 id="book-papers-title"><span lang="bn">পাপের সন্ধানে</span> <span class="reading-transliteration" lang="en">(Pāper Sandhāne)</span></h2>
     <p class="reading-author">By <span lang="en">Pracheta Gupta</span> (<span lang="bn">প্রচেত গুপ্ত</span>)</p>
 
@@ -36,6 +35,18 @@ This page is a personal reading log. Each book has its own entry, and new entrie
       <div>
         <dt>Started reading</dt>
         <dd>Sunday, 11 October 2026</dd>
+      </div>
+      <div>
+        <dt>Finished reading</dt>
+        <dd>Wednesday, 14 October 2026</dd>
+      </div>
+      <div>
+        <dt>Rating</dt>
+        <dd><span class="reading-stars" role="img" aria-label="1 out of 5 stars">★<span class="reading-empty-stars">★★★★</span></span> (1/5)</dd>
+      </div>
+      <div>
+        <dt>Recommended</dt>
+        <dd>No</dd>
       </div>
     </dl>
   </article>
@@ -124,6 +135,36 @@ body.tsap-dark-mode .reading-entry h2 {
 body.tsap-dark-mode .reading-author,
 body.tsap-dark-mode .reading-details dt {
   color: var(--text-muted, #cbd5e1);
+}
+
+.reading-status-finished {
+  background: #e8f0ff;
+  color: #173b70;
+  border-color: #2859a8;
+}
+
+.reading-stars {
+  color: #8a5a00;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.reading-empty-stars {
+  color: #767676;
+}
+
+body.tsap-dark-mode .reading-stars {
+  color: #ffd166;
+}
+
+body.tsap-dark-mode .reading-empty-stars {
+  color: #9ca3af;
+}
+
+body.tsap-dark-mode .reading-status-finished {
+  background: #1e3a5f;
+  color: #dbeafe;
+  border-color: #60a5fa;
 }
 
 body.tsap-dark-mode .reading-status {
