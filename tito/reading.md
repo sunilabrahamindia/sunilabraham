@@ -14,6 +14,31 @@ This page is a personal reading log. Each book has its own entry, and new entrie
 
 <div class="reading-log">
 
+  <article class="reading-entry" aria-labelledby="book-seven-pirates-title">
+    <p class="reading-status reading-status-current">Currently reading</p>
+    <h2 id="book-seven-pirates-title"><span lang="bn">সেভেন পাইরেটস</span> <span class="reading-transliteration" lang="en">(Seven Pirates)</span></h2>
+    <p class="reading-author">By <span lang="en">Smaranjit Chakraborty</span> (<span lang="bn">স্মরণজিৎ চক্রবর্তী</span>)</p>
+
+    <dl class="reading-details">
+      <div>
+        <dt>Genre</dt>
+        <dd>Fiction (Novel)</dd>
+      </div>
+      <div>
+        <dt>Language</dt>
+        <dd>Bengali (বাংলা)</dd>
+      </div>
+      <div>
+        <dt>Publication</dt>
+        <dd><span lang="bn">আনন্দমেলা পূজাবার্ষিকী ২০২৬</span> (Anandamela Puja Annual 2026)</dd>
+      </div>
+      <div>
+        <dt>Started reading</dt>
+        <dd>Wednesday, 14 October 2026</dd>
+      </div>
+    </dl>
+  </article>
+
   <article class="reading-entry" aria-labelledby="book-papers-title">
     <p class="reading-status reading-status-finished">Finished reading</p>
     <h2 id="book-papers-title"><span lang="bn">পাপের সন্ধানে</span> <span class="reading-transliteration" lang="en">(Pāper Sandhāne)</span></h2>
@@ -22,7 +47,7 @@ This page is a personal reading log. Each book has its own entry, and new entrie
     <dl class="reading-details">
       <div>
         <dt>Genre</dt>
-        <dd>Fiction</dd>
+        <dd>Fiction (Novel)</dd>
       </div>
       <div>
         <dt>Language</dt>
