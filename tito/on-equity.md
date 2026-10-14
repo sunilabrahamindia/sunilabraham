@@ -76,3 +76,5 @@ These experiences have made me somewhat sceptical whenever the word "equity" is 
 My first reaction is not necessarily to reject what is being said. Instead, I find myself wondering: is this actually being practised, or is equity once again being preached to others?
 
 I may or may not be fond of the idea of Social equity itself. But I am definitely not fond of the way I have seen it applied so far.
+
+{% include navbox-tito.html %}
