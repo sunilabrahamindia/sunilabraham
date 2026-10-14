@@ -6,12 +6,90 @@ categories: [Tito Dutta]
 authors: [Tito Dutta]
 permalink: /tito/attendance/
 created: 2026-10-15
-attendance_dates: []
+attendance_log:
+  "2026-10-15": ""
+  "2026-10-16": ""
+  "2026-10-17": ""
+  "2026-10-18": ""
+  "2026-10-19": ""
+  "2026-10-20": ""
+  "2026-10-21": ""
+  "2026-10-22": ""
+  "2026-10-23": ""
+  "2026-10-24": ""
+  "2026-10-25": ""
+  "2026-10-26": ""
+  "2026-10-27": ""
+  "2026-10-28": ""
+  "2026-10-29": ""
+  "2026-10-30": ""
+  "2026-10-31": ""
+  "2026-11-01": ""
+  "2026-11-02": ""
+  "2026-11-03": ""
+  "2026-11-04": ""
+  "2026-11-05": ""
+  "2026-11-06": ""
+  "2026-11-07": ""
+  "2026-11-08": ""
+  "2026-11-09": ""
+  "2026-11-10": ""
+  "2026-11-11": ""
+  "2026-11-12": ""
+  "2026-11-13": ""
+  "2026-11-14": ""
+  "2026-11-15": ""
+  "2026-11-16": ""
+  "2026-11-17": ""
+  "2026-11-18": ""
+  "2026-11-19": ""
+  "2026-11-20": ""
+  "2026-11-21": ""
+  "2026-11-22": ""
+  "2026-11-23": ""
+  "2026-11-24": ""
+  "2026-11-25": ""
+  "2026-11-26": ""
+  "2026-11-27": ""
+  "2026-11-28": ""
+  "2026-11-29": ""
+  "2026-11-30": ""
+  "2026-12-01": ""
+  "2026-12-02": ""
+  "2026-12-03": ""
+  "2026-12-04": ""
+  "2026-12-05": ""
+  "2026-12-06": ""
+  "2026-12-07": ""
+  "2026-12-08": ""
+  "2026-12-09": ""
+  "2026-12-10": ""
+  "2026-12-11": ""
+  "2026-12-12": ""
+  "2026-12-13": ""
+  "2026-12-14": ""
+  "2026-12-15": ""
+  "2026-12-16": ""
+  "2026-12-17": ""
+  "2026-12-18": ""
+  "2026-12-19": ""
+  "2026-12-20": ""
+  "2026-12-21": ""
+  "2026-12-22": ""
+  "2026-12-23": ""
+  "2026-12-24": ""
+  "2026-12-25": ""
+  "2026-12-26": ""
+  "2026-12-27": ""
+  "2026-12-28": ""
+  "2026-12-29": ""
+  "2026-12-30": ""
+  "2026-12-31": ""
 ---
 
 {% include author.html %}
 
-This is a personal attendance log. Each date marked with a raised hand indicates that attendance was recorded for that day.
+This is a personal attendance log. Each date marked with a raised hand indicates that attendance was recorded for that day. The calendar only displays a mark when a date has a non-empty value in the attendance log. Enter "yes" for attendance or "no" for an absence; leave unrecorded dates blank.
 
 ## Attendance calendar
 
@@ -23,16 +101,13 @@ This is a personal attendance log. Each date marked with a raised hand indicates
 
 <ul id="attendance-recorded-dates" class="attendance-recorded-dates"></ul>
 
-<p class="attendance-edit-note">To record attendance, edit this page in the GitHub repository and add the date to the <code>attendance_dates</code> list in the YAML at the top. Add only one entry per day, using the format <code>YYYY-MM-DD</code>. The calendar and total will update after the website rebuilds.</p>
+<p class="attendance-edit-note">To record attendance, edit this page in GitHub and find today's date under <code>attendance_log</code> in the YAML at the top. Replace the empty quotes with <code>"yes"</code> if present or <code>"no"</code> if absent. Leave other dates blank. The calendar and totals update after the website rebuilds.</p>
 
 <!--
 Recording attendance:
-1. Find attendance_dates in the YAML at the top of this file.
-2. Replace attendance_dates: [] with a list on the first entry, for example:
-   attendance_dates:
-     - "2026-10-15"
-3. On each later day, add one new line under the list, using that day's date.
-4. Do not add the same date more than once.
+Find today's date under attendance_log in the YAML above and replace its empty value:
+  "2026-10-15": "yes"
+Use "no" for an absence. Leave unrecorded dates as empty quotes. Date entries are prepared through 31 December 2026.
 -->
 
 <style>
@@ -185,8 +260,10 @@ body.tsap-dark-mode .attendance-edit-note {
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const attendanceDates = {{ page.attendance_dates | jsonify }};
-  const dateSet = new Set(Array.isArray(attendanceDates) ? attendanceDates : []);
+  const attendanceLog = {{ page.attendance_log | jsonify }};
+  const log = attendanceLog && typeof attendanceLog === "object" ? attendanceLog : {};
+  const recordedLog = Object.entries(log).filter(([date, value]) => /^\d{4}-\d{2}-\d{2}$/.test(date) && String(value).trim().length > 0).sort(([a], [b]) => b.localeCompare(a));
+  const dateSet = new Set(recordedLog.filter(([date, value]) => String(value).trim().toLowerCase() === "yes").map(([date]) => date));
   const calendar = document.getElementById('attendance-calendar');
   const summary = document.getElementById('attendance-summary');
   const recordedDates = document.getElementById('attendance-recorded-dates');
@@ -201,8 +278,9 @@ document.addEventListener('DOMContentLoaded', function () {
     String(today.getDate()).padStart(2, '0')
   ].join('-');
 
-  const sortedDates = Array.from(dateSet).filter(date => /^\d{4}-\d{2}-\d{2}$/.test(date)).sort().reverse();
-  summary.textContent = sortedDates.length + (sortedDates.length === 1 ? ' day marked present.' : ' days marked present.') + ' in total.';
+  const sortedDates = Array.from(dateSet).sort().reverse();
+  const absentCount = recordedLog.filter(([, value]) => String(value).trim().toLowerCase() === "no").length;
+  summary.textContent = sortedDates.length + (sortedDates.length === 1 ? ' day marked present' : ' days marked present') + ' and ' + absentCount + (absentCount === 1 ? ' day marked absent.' : ' days marked absent.');
 
   const weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
@@ -283,15 +361,12 @@ document.addEventListener('DOMContentLoaded', function () {
     item.textContent = 'No attendance dates have been recorded yet.';
     recordedDates.appendChild(item);
   } else {
-    sortedDates.forEach(date => {
+    recordedLog.forEach(([date, value]) => {
       const item = document.createElement('li');
       const parsed = new Date(date + 'T12:00:00');
-      item.textContent = parsed.toLocaleDateString('en-GB', {
-        weekday: 'long',
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric'
-      });
+      const status = String(value).trim().toLowerCase();
+      const label = parsed.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+      item.textContent = label + (status === 'yes' ? ' — Present (raised hand)' : status === 'no' ? ' — Absent' : ' — ' + String(value).trim());
       recordedDates.appendChild(item);
     });
   }
