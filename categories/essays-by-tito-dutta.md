@@ -9,3 +9,5 @@ permalink: /categories/essays-by-tito-dutta/
 page_id: TSAP-1274
 created: 2026-09-11
 ---
+
+{% include navbox-tito.html %}
