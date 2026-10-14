@@ -302,3 +302,5 @@ It may be one of the ways human reasoning learns to work with a new kind of inte
 4. Bansal, G., Nushi, B., Kamar, E., Lasecki, W. S., Weld, D. S. and Horvitz, E. (2019). [*Beyond Accuracy: The Role of Mental Models in Human-AI Team Performance*](https://ojs.aaai.org/index.php/HCOMP/article/view/5285). *Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society*. Published 2019. Accessed 11 September 2026.
 
 5. Howdle, G. (2026). [*Anthropomorphising AI: Two Modes, Two Errors*](https://doi.org/10.1007/s13347-026-01133-1). *Philosophy & Technology*. Published 2026. Accessed 11 September 2026.
+
+{% include navbox-tito.html %}
