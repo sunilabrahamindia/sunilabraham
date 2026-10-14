@@ -1,0 +1,187 @@
+<nav class="navbox-tito" aria-label="Tito Dutta navigation">
+  <div class="navbox-tito__title">
+    <a href="/tito/">Tito Dutta</a>
+    <span class="navbox-tito__viewlink">[<a href="/categories/tito-dutta/">Category</a> · <a href="/tito/template/">Template</a>]</span>
+  </div>
+
+  <div class="navbox-tito__body">
+    <div class="navbox-tito__row">
+      <span class="navbox-tito__label">Visual explorations</span>
+      <span class="navbox-tito__items">
+        <a href="/tito/mind/">The Mind</a> ·
+        <a href="/tito/witness/">The Witness</a> ·
+        <a href="/tito/s1/">Simulation #1</a>
+      </span>
+    </div>
+
+    <div class="navbox-tito__row">
+      <span class="navbox-tito__label">Essays and ideas</span>
+      <span class="navbox-tito__items">
+        <a href="/tito/anthropomorphisation-of-artificial-intelligence/">Why We May Need to Anthropomorphise Artificial Intelligence — A Viewpoint</a> ·
+        <a href="/tito/on-equity/">On Equity (Social)</a> ·
+        <a href="/tito/new-words/">New Words</a> ·
+        <a href="/categories/essays-by-tito-dutta/">Essays by Tito Dutta</a>
+      </span>
+    </div>
+
+    <div class="navbox-tito__row">
+      <span class="navbox-tito__label">Comics</span>
+      <span class="navbox-tito__items">
+        <a href="/tspa/">TSPA</a>
+      </span>
+    </div>
+
+    <div class="navbox-tito__row">
+      <span class="navbox-tito__label">Project initiatives</span>
+      <span class="navbox-tito__items">
+        <a href="/tito/noshout/">No Shouting</a>
+      </span>
+    </div>
+
+    <div class="navbox-tito__row">
+      <span class="navbox-tito__label">Logs</span>
+      <span class="navbox-tito__items">
+        <a href="/tito/reading/">Currently Reading</a> ·
+        <a href="/tito/attendance/">Attendance</a>
+      </span>
+    </div>
+  </div>
+</nav>
+
+<style>
+.navbox-tito {
+  margin: 2rem 0 1rem;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: #1f2937;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.navbox-tito__title {
+  position: relative;
+  padding: 0.65rem 1rem;
+  border-top: 3px solid #1f5fbf;
+  border-bottom: 1px solid #cbd5e1;
+  background: #eaf1fb;
+  color: #172033;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.navbox-tito__viewlink {
+  position: absolute;
+  top: 50%;
+  right: 0.75rem;
+  transform: translateY(-50%);
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+
+.navbox-tito a {
+  color: #184c99;
+  text-decoration: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.15em;
+}
+
+.navbox-tito a:hover {
+  color: #12386f;
+  text-decoration-thickness: 0.12em;
+}
+
+.navbox-tito a:focus-visible {
+  outline: 3px solid #1f5fbf;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.navbox-tito__body {
+  padding: 0.65rem 1rem;
+}
+
+.navbox-tito__row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #dbe2ea;
+}
+
+.navbox-tito__row:last-child {
+  border-bottom: 0;
+}
+
+.navbox-tito__label {
+  flex: 0 0 145px;
+  font-weight: 700;
+  color: #374151;
+}
+
+.navbox-tito__items {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .navbox-tito__title {
+    padding: 0.65rem 0.5rem;
+  }
+
+  .navbox-tito__viewlink {
+    position: static;
+    display: block;
+    transform: none;
+    margin-top: 0.25rem;
+  }
+
+  .navbox-tito__row {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .navbox-tito__label {
+    flex-basis: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbox-tito * {
+    scroll-behavior: auto;
+  }
+}
+
+body.tsap-dark-mode .navbox-tito {
+  border-color: #475569;
+  background: #243244;
+  color: #e5e7eb;
+}
+
+body.tsap-dark-mode .navbox-tito__title {
+  border-top-color: #60a5fa;
+  border-bottom-color: #475569;
+  background: #1b2636;
+  color: #f3f4f6;
+}
+
+body.tsap-dark-mode .navbox-tito a {
+  color: #bfdbfe;
+}
+
+body.tsap-dark-mode .navbox-tito a:hover {
+  color: #ffffff;
+}
+
+body.tsap-dark-mode .navbox-tito a:focus-visible {
+  outline-color: #93c5fd;
+}
+
+body.tsap-dark-mode .navbox-tito__label {
+  color: #cbd5e1;
+}
+
+body.tsap-dark-mode .navbox-tito__row {
+  border-bottom-color: #475569;
+}
+</style>
