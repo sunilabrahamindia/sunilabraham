@@ -58,6 +58,8 @@ The Mind explores the human mind through visual representations of the thoughts,
   >
 </div>
 
+{% include navbox-tito.html %}
+
 <style>
 #tito-mind-gallery {
   display: grid;
