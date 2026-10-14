@@ -7,7 +7,7 @@ authors: [Tito Dutta]
 permalink: /tito/attendance/
 created: 2026-10-15
 attendance_log:
-  "2026-10-15": ""
+  "2026-10-15": "yes"
   "2026-10-16": ""
   "2026-10-17": ""
   "2026-10-18": ""
@@ -89,7 +89,7 @@ attendance_log:
 
 {% include author.html %}
 
-This is a personal attendance log. Each date marked with a raised hand indicates that attendance was recorded for that day. The calendar only displays a mark when a date has a non-empty value in the attendance log. Enter "yes" for attendance or "no" for an absence; leave unrecorded dates blank.
+This is not merely an attendance record for TSAP; it is also a practice of showing up for contemplation. Each date marked with a raised hand indicates that attendance was recorded for that day. The calendar only displays a mark when a date has a non-empty value in the attendance log. Enter "yes" for attendance or "no" for an absence; leave unrecorded dates blank.
 
 ## Attendance calendar
 
