@@ -78,6 +78,8 @@ This page is a personal reading log. Each book has its own entry, and new entrie
 
 </div>
 
+{% include navbox-tito.html %}
+
 <style>
 .reading-log {
   display: grid;
