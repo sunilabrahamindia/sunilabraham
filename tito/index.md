@@ -238,7 +238,7 @@ A proposed No Shouting Zone for The Sunil Abraham Project, encouraging thoughtfu
 
 [Explore No Shouting](/tito/noshout/)
 
-## Personal Logs
+## Logs
 
 ### Currently Reading
 
