@@ -245,6 +245,8 @@ The tools are means of creation rather than part of the identity of TSPA. The fi
 
 {% include navbox-tspa.html %}
 
+{% include navbox-tito.html %}
+
 <style>
 .tspa-archive-note {
   margin: 1rem 0 1.25rem;
