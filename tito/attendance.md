@@ -271,9 +271,10 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!calendar || !summary || !recordedDates) return;
 
   const today = new Date();
-  const year = today.getFullYear();
+  const todayYear = today.getFullYear();
+  const calendarYear = 2026;
   const todayString = [
-    year,
+    todayYear,
     String(today.getMonth() + 1).padStart(2, '0'),
     String(today.getDate()).padStart(2, '0')
   ].join('-');
@@ -284,12 +285,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
-  for (let month = 0; month < 12; month++) {
+  // Show the months covered by this attendance record, starting in October 2026.
+  for (let month = 9; month < 12; month++) {
     const monthSection = document.createElement('section');
     monthSection.className = 'attendance-month';
 
     const heading = document.createElement('h3');
-    heading.textContent = new Date(year, month, 1).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
+    heading.textContent = new Date(calendarYear, month, 1).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
     monthSection.appendChild(heading);
 
     const grid = document.createElement('div');
@@ -303,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function () {
       grid.appendChild(weekday);
     });
 
-    const firstDay = new Date(year, month, 1);
+    const firstDay = new Date(calendarYear, month, 1);
     const offset = (firstDay.getDay() + 6) % 7;
     for (let blank = 0; blank < offset; blank++) {
       const empty = document.createElement('span');
@@ -312,10 +314,10 @@ document.addEventListener('DOMContentLoaded', function () {
       grid.appendChild(empty);
     }
 
-    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const daysInMonth = new Date(calendarYear, month + 1, 0).getDate();
     for (let day = 1; day <= daysInMonth; day++) {
       const dateString = [
-        year,
+        calendarYear,
         String(month + 1).padStart(2, '0'),
         String(day).padStart(2, '0')
       ].join('-');
