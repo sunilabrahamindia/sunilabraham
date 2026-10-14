@@ -1,5 +1,20 @@
 [
   {
+    "title": "Attendance",
+    "description": "A personal daily attendance record for Tito Dutta, with a calendar showing the days marked present.",
+    "created": "2026-10-15",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "Tito Dutta"
+    ],
+    "permalink": "https://sunilabraham.in/tito/attendance/",
+    "source_path": "tito/attendance.md"
+  },
+  {
     "title": "E-book Export: A. M. A. Ayrookuzhiel",
     "description": "Documentation of the process for creating EPUB and PDF e-books from selected pages of The Sunil Abraham Project using Pandoc.",
     "created": "2026-10-14",
