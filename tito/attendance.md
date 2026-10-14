@@ -378,3 +378,5 @@ document.addEventListener('DOMContentLoaded', function () {
 ## See also
 
 - [The Mind](/tito/mind/) — A visual exploration of the human mind.
+
+{% include navbox-tito.html %}
