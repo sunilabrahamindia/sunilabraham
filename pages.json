@@ -1,5 +1,19 @@
 [
   {
+    "title": "E-book Export: A. M. A. Ayrookuzhiel",
+    "description": "Documentation of the process for creating EPUB and PDF e-books from selected pages of The Sunil Abraham Project using Pandoc.",
+    "created": "2026-10-14",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "30th Death Anniversary Commemoration"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/30-ebook-export/",
+    "source_path": "amaa/30-ebook-export.md"
+  },
+  {
     "title": "Hidden Categories and Maintenance Categories",
     "description": "Documentation of hidden category assignments and automatically populated maintenance categories in The Sunil Abraham Project.",
     "created": "2026-10-13",
