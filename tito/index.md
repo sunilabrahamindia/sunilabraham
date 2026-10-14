@@ -213,7 +213,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
-## See also
-
-- [The Mind](/tito/mind/) — A visual exploration of the human mind.
-- [Attendance](/tito/attendance/) — Tito Dutta's personal daily attendance record.
