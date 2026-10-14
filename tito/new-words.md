@@ -54,3 +54,5 @@ Mah-Standard is not necessarily the same as hypocrisy or a double standard. A pe
 **SnipSkip** or **SnippSkip** is the act of seeing a message notification or message snippet and deliberately choosing not to open the message, so that the message is not marked as seen or does not trigger a read receipt.
 
 The word refers to the practice of seeing only the small snippet of a message that appears in a notification and then skipping the message itself.
+
+{% include navbox-tito.html %}
