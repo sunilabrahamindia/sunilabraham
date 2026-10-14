@@ -36,6 +36,22 @@ An original comic strip created as part of The Sunil Abraham Project. TSPA is a 
 
 [Explore TSPA](/tspa/)
 
+## Visual Explorations
+
+### The Mind
+
+A visual exploration of the human mind through anatomical imagery and artistic representations of thoughts.
+
+[Explore The Mind](/tito/mind/)
+
+## Language and Ideas
+
+### New Words
+
+A collection of words and phrases coined by Tito Dutta to describe ideas, behaviours, relationships, and experiences that may benefit from having a name.
+
+[Explore New Words](/tito/new-words/)
+
 ## Essays by Tito Dutta
 
 {% assign tito_essays = site.pages | where_exp: "p", "p.categories contains 'Essays by Tito Dutta'" | sort: "created" | reverse %}
@@ -212,4 +228,27 @@ document.addEventListener('DOMContentLoaded', () => {
   sortEssays('newest');
 });
 </script>
+
+
+## Project Initiatives
+
+### No Shouting
+
+A proposed No Shouting Zone for The Sunil Abraham Project, encouraging thoughtful participation and attention to the relationship between speech, offence, and inclusion.
+
+[Explore No Shouting](/tito/noshout/)
+
+## Personal Logs
+
+### Currently Reading
+
+A personal reading log documenting books currently being read and books completed.
+
+[View Currently Reading](/tito/reading/)
+
+### Attendance
+
+A personal daily attendance record.
+
+[View Attendance](/tito/attendance/)
 
