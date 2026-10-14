@@ -82,6 +82,21 @@ Recording attendance:
 
 .attendance-day {
   border-radius: 4px;
+  gap: 0.1rem;
+}
+
+.attendance-day.is-present {
+  flex-direction: column;
+  line-height: 1.05;
+}
+
+.attendance-day-number {
+  font-size: 0.78rem;
+}
+
+.attendance-hand {
+  font-size: 0.78rem;
+  line-height: 1;
 }
 
 .attendance-day.is-present {
@@ -234,7 +249,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (dateSet.has(dateString)) {
         cell.classList.add('is-present');
-        cell.textContent = '✋';
+
+        const dayNumber = document.createElement('span');
+        dayNumber.className = 'attendance-day-number';
+        dayNumber.textContent = String(day);
+
+        const hand = document.createElement('span');
+        hand.className = 'attendance-hand';
+        hand.textContent = '✋';
+        hand.setAttribute('aria-hidden', 'true');
+
+        cell.replaceChildren(dayNumber, hand);
         cell.setAttribute('aria-label', dateString + ': attendance marked');
         cell.setAttribute('title', dateString + ': attendance marked');
       }
