@@ -39,6 +39,8 @@ At the same time, TSAP is not a user-generated content (UGC) platform. The freed
 
 The aim of the proposed No Shouting Zone is therefore about the manner in which people participate in TSAP, rather than requiring people to agree with one another or preventing strong disagreement.
 
+{% include navbox-tito.html %}
+
 <style>
 .noshout-box {
   position: relative;
