@@ -50,6 +50,12 @@ The Mind explores the human mind through visual representations of the thoughts,
     loading="lazy"
     decoding="async"
   >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-07.png"
+    alt="A human head and upper torso in side profile, with the skull opened to reveal a brain transformed into a miniature workplace. Diverse tiny workers build, repair, clean, inspect, discuss, rest and sit among scaffolds, ladders, tools and small work platforms across different brain regions. The background is a subdued, multicoloured abstract texture, while the face, throat and shoulders retain recognisable human anatomy."
+    loading="lazy"
+    decoding="async"
+  >
 </div>
 
 <style>
