@@ -44,6 +44,12 @@ The Mind explores the human mind through visual representations of the thoughts,
     loading="lazy"
     decoding="async"
   >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-06.png"
+    alt="An anatomical human profile with a detailed, translucent brain, neck and upper torso, facing towards an open landscape of green trees, distant hills and blue sky. Luminous, expanding translucent wave bands stream outward from the brain into the landscape, symbolising thoughts spreading beyond the mind."
+    loading="lazy"
+    decoding="async"
+  >
 </div>
 
 <style>
