@@ -372,3 +372,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 </script>
+
+## See also
+
+- [The Mind](/tito/mind/) — A visual exploration of the human mind.
