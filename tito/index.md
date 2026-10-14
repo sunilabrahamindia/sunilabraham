@@ -252,3 +252,4 @@ A personal daily attendance record.
 
 [View Attendance](/tito/attendance/)
 
+{% include navbox-tito.html %}
