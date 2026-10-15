@@ -91,7 +91,7 @@ attendance_log:
 
 This is an attendance log. Each date marked with a raised hand indicates that attendance was recorded for that day. Each date marked with a raised hand indicates that attendance was recorded for that day. The calendar only displays a mark when a date has a non-empty value in the attendance log. Enter "yes" for attendance or "no" for an absence; leave unrecorded dates blank. This is not merely an attendance record for TSAP; it is mainly a practice of contemplation.
 
-## Attendance calendar
+## Calendar
 
 <p id="attendance-summary" aria-live="polite">Loading attendance record...</p>
 
