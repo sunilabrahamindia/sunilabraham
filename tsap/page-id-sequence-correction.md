@@ -9,7 +9,7 @@ created: 2026-10-15
 
 {% include documentation-notice.html %}
 
-On **15 October 2026**, a gap was identified in the sequential Page ID system used by The Sunil Abraham Project (TSAP). The identifier `TSAP-1321` was missing, even though later identifiers had already been assigned. The gap was discovered during a review of the repository's Page IDs and page inventory.
+On **15 October 2026**, a gap was identified in the sequential [Page ID system](/tsap/page-id-system-documentation/) used by The Sunil Abraham Project (TSAP). The identifier `TSAP-1321` was missing, even though later identifiers had already been assigned. The gap was discovered during a review of the repository's Page IDs and page inventory.
 
 This document records the investigation, the corrective changes, the verification performed, and the maintenance lessons arising from the incident. The precise event that originally caused `TSAP-1321` to be skipped was not established.
 
