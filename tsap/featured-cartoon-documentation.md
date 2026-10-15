@@ -12,6 +12,21 @@ created: 2026-09-08
 
 The **Featured cartoon** section on the [home page](/) highlights a selected cartoon from the project. This page records which cartoon was featured and when, as a permanent editorial log. The newest entry appears first.
 
+## 15 October 2026
+
+On Thursday, 15 October 2026, the following cartoon was featured on the home page.
+
+### [TSPA #0028](/tspa/0028/)
+
+<div class="fc-archive-image-wrapper">
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0028.png"
+    alt="TSPA #0028 comic showing an Indian farmer praying for rain while Cha prays for water to cool its data centre."
+    loading="lazy">
+</div>
+
+**TSPA #0028** is the twenty-eighth comic strip in TSPA. A farmer in a drought-stricken field prays for rain to save the crops. Cha also prays, asking for plenty of water to cool its data centre. The farmer's startled, disbelieving reaction provides the punchline.
+
 ## 4 October 2026
 
 On Sunday, 4 October 2026, the following cartoon was featured on the home page.
