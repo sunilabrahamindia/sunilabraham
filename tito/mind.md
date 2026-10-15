@@ -2,13 +2,14 @@
 layout: default
 title: "The Mind"
 categories: [TSAP Exhibition, Tito Dutta]
+
+hidden_categories:
+  - Pages needing regular archiving
 authors: [Tito Dutta]
 description: "A visual exploration of the human mind through anatomical imagery and artistic representations of thoughts."
 permalink: /tito/mind/
 page_id: TSAP-1323
 created: 2026-10-12
-hidden_categories:
-  - Pages needing regular archiving
 ---
 
 {% include author-date.html %}
