@@ -111,7 +111,7 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 7. [*Intercessions: Theology, Liturgy, and Politics*](/articles/intercessions-theology-liturgy-and-politics/). New Delhi: ISPCK, 2015.
 8. *Reclaiming Manyness: Re-reading M.M. Thomas in the Light of Indian Christian Theologies* (co-edited with P. G. George). Kolkata: SATHRI, 2015.
 9. *Dalit Theology after Continental Philosophy*. New York: Palgrave Macmillan, 2016.
-10. *Theology after Spivak*. New Delhi: ISPCK, 2016.
+10. [*Theology after Spivak*](/articles/theology-after-spivak/). New Delhi: ISPCK, 2016.
 11. *Empire, Multitude and the Church: Theology after Hardt and Negri*. New Delhi: ISPCK, 2017.
 12. *Church and Empire* (Malayalam, editor). Thiruvalla: TLC, 2018.
 13. *Reimagining Reformation: Essays in Honor of P. G. George* (co-edited with Dexter Maben and Woba James). New Delhi: ISPCK, 2018.
