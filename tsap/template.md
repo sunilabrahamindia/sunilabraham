@@ -3,11 +3,12 @@ layout: default
 title: "Template:TSAP"
 permalink: /tsap/template/
 categories: [Navigational templates, TSAP]
+
+hidden_categories:
+  - Pages needing regular archiving
 description: Navigational template linking the documentation, policies, systems, and other core pages of The Sunil Abraham Project.
 page_id: TSAP-1277
 created: 2026-09-11
-hidden_categories:
-  - Pages needing regular archiving
 ---
 
 **Template:TSAP** is a navigational template for [The Sunil Abraham Project](/tsap/), linking its documentation, policies, systems, development work, and other core project pages. The template groups related pages by their primary functional area and is generally placed at the bottom of relevant TSAP pages.
