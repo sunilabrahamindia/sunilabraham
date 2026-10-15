@@ -44,7 +44,6 @@ window.addEventListener('load', function () {
   // Only process article content, not site navigation, logos or interface icons.
   // Build all links before initialising GLightbox, including links for lazy-loaded images.
   document.querySelectorAll('.content img').forEach(function (img) {
-    if (img.closest('a')) return;
     if (img.classList.contains('no-lightbox') || img.classList.contains('lightbox-ignore')) return;
 
     // Skip images known to be small from their intrinsic or explicit HTML dimensions.
@@ -53,8 +52,26 @@ window.addEventListener('load', function () {
     const height = img.naturalHeight || Number(img.getAttribute('height')) || 0;
     if ((width > 0 && width < 100) || (height > 0 && height < 100)) return;
 
+    const existingLink = img.closest('a');
+    if (existingLink) {
+      // If an image already links directly to its own file, enhance that link with GLightbox.
+      // Leave links to other destinations unchanged.
+      const linkURL = new URL(existingLink.href, document.baseURI).href;
+      const imageURLs = [img.src, img.currentSrc]
+        .filter(Boolean)
+        .map(function (url) { return new URL(url, document.baseURI).href; });
+
+      if (imageURLs.includes(linkURL)) {
+        existingLink.classList.add('lightbox');
+        if (!existingLink.hasAttribute('aria-label')) {
+          existingLink.setAttribute('aria-label', 'Enlarge image');
+        }
+      }
+      return;
+    }
+
     const link = document.createElement('a');
-    link.href = img.src;
+    link.href = img.currentSrc || img.src;
     link.className = 'lightbox';
     link.setAttribute('aria-label', 'Enlarge image');
     img.parentNode.insertBefore(link, img);
