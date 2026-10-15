@@ -48,6 +48,20 @@
     "source_path": "tspa/0026.md"
   },
   {
+    "title": "Page ID Sequence Gap and Correction (15 October 2026)",
+    "description": "Documentation of the missing TSAP-1321 identifier, the investigation into the Page ID sequence, the correction of five existing pages, and the assignment of IDs to ten new pages.",
+    "created": "2026-10-15",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation",
+      "TSAP Incidents"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/page-id-sequence-correction/",
+    "source_path": "tsap/page-id-sequence-correction.md"
+  },
+  {
     "title": "Template:Tito Dutta",
     "description": "Navigational template linking Tito Dutta's visual explorations, essays, project initiatives, comics, and logs.",
     "created": "2026-10-15",
