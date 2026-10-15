@@ -17,7 +17,7 @@ A bookseller's description says the book seeks to bring Spivak's thought into In
 ## Publication details
 
 - **Author:** Y. T. Vinayaraj
-- **Publisher:** ISPCK, as listed in the author's bibliography; a bookseller record identifies Christian World Imprints/B.R. Publishing Corporation
+- **Publisher:** ISPCK, as listed in the author's bibliography. A bookseller record instead identifies Christian World Imprints/B.R. Publishing Corporation; this discrepancy could not be resolved from the sources located.
 - **Place of publication:** New Delhi, India
 - **Publication year:** 2016
 - **Length:** 76 pages, according to the bookseller record
@@ -30,4 +30,4 @@ A bookseller's description says the book seeks to bring Spivak's thought into In
 
 ## External links
 
-- No matching title-specific record was located in Google Books, Goodreads or WorldCat during research for this article.
+- [Indian Society for Promoting Christian Knowledge (ISPCK)](https://www.ispck.org.in/)
