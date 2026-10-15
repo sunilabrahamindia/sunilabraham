@@ -35,39 +35,37 @@
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script>
 window.addEventListener('load', function () {
-  // If the external library did not load, leave the page usable without a lightbox.
+  // Keep the page usable if the external GLightbox library fails to load.
   if (typeof GLightbox !== 'function') {
     console.warn('GLightbox did not load; images remain available at their original URLs.');
     return;
   }
 
-  // Only auto-link substantial images in the main content, not navigation or interface icons.
+  // Only process article content, not site navigation, logos or interface icons.
+  // Build all links before initialising GLightbox, including links for lazy-loaded images.
   document.querySelectorAll('.content img').forEach(function (img) {
     if (img.closest('a')) return;
+    if (img.classList.contains('no-lightbox') || img.classList.contains('lightbox-ignore')) return;
 
-    // Wait for the actual image dimensions rather than relying on its displayed size.
-    function makeLightboxLink() {
-      if (img.naturalWidth < 100 || img.naturalHeight < 100) return;
-      if (img.closest('a')) return;
+    // Skip images known to be small from their intrinsic or explicit HTML dimensions.
+    // If dimensions are not yet known (for example, a lazy-loaded image), keep it eligible.
+    const width = img.naturalWidth || Number(img.getAttribute('width')) || 0;
+    const height = img.naturalHeight || Number(img.getAttribute('height')) || 0;
+    if ((width > 0 && width < 100) || (height > 0 && height < 100)) return;
 
-      const link = document.createElement('a');
-      link.href = img.currentSrc || img.src;
-      link.className = 'lightbox';
-      link.setAttribute('aria-label', 'Enlarge image');
-      img.parentNode.insertBefore(link, img);
-      link.appendChild(img);
-    }
-
-    if (img.complete && img.naturalWidth > 0) {
-      makeLightboxLink();
-    } else {
-      img.addEventListener('load', makeLightboxLink, { once: true });
-    }
+    const link = document.createElement('a');
+    link.href = img.src;
+    link.className = 'lightbox';
+    link.setAttribute('aria-label', 'Enlarge image');
+    img.parentNode.insertBefore(link, img);
+    link.appendChild(img);
   });
 
+  // One initialisation covers automatically linked images and explicitly marked links.
   GLightbox({
     selector: '.lightbox, [data-glightbox]',
     touchNavigation: true,
+    keyboardNavigation: true,
     loop: false,
     zoomable: true,
     draggable: true
