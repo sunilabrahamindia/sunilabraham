@@ -3,7 +3,6 @@ layout: default
 title: "Template:A. M. A. Ayrookuzhiel"
 permalink: /amaa/template/
 categories: [Navigational templates, A. M. A. Ayrookuzhiel]
-
 hidden_categories:
   - Pages needing regular archiving
 description: Navigational template linking family, books, essays, and related articles of A. M. A. Ayrookuzhiel (1933–1996).
