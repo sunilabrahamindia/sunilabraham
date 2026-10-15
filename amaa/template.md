@@ -6,6 +6,8 @@ categories: [Navigational templates, A. M. A. Ayrookuzhiel]
 description: Navigational template linking family, books, essays, and related articles of A. M. A. Ayrookuzhiel (1933–1996).
 page_id: TSAP-0859
 created: 2026-04-12
+hidden_categories:
+  - Pages needing regular archiving
 ---
 
 **Template:A. M. A. Ayrookuzhiel** is a navigational template for [A. M. A. Ayrookuzhiel](/amaa/) (1933–1996), covering his family, books, essays and papers, and related articles. This template is generally placed at the bottom of related articles.
