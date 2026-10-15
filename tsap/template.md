@@ -3,7 +3,6 @@ layout: default
 title: "Template:TSAP"
 permalink: /tsap/template/
 categories: [Navigational templates, TSAP]
-
 hidden_categories:
   - Pages needing regular archiving
 description: Navigational template linking the documentation, policies, systems, and other core pages of The Sunil Abraham Project.
