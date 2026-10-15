@@ -33,4 +33,3 @@ References to the book in Vinayaraj's other writing identify discussions of ecum
 ## External links
 
 - [Indian Society for Promoting Christian Knowledge (ISPCK)](https://www.ispck.org.in/)
-- [IBP Books](https://www.ibpbooks.com/)
