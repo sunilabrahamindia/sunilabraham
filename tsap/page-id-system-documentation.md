@@ -210,4 +210,7 @@ Future enhancements may include:
 
 Any future developments should continue to prioritise simplicity, transparency, maintainability, and long-term compatibility with TSAP's static-site architecture.
 
+## See also
+- [Page ID sequence correction](/tsap/page-id-sequence-correction/) (15 October 2026 incident)
+
 {% include navbox-tsap.html %}
