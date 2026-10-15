@@ -5,6 +5,7 @@ description: "A personal daily attendance record for Tito Dutta, with a calendar
 categories: [Tito Dutta]
 authors: [Tito Dutta]
 permalink: /tito/attendance/
+page_id: TSAP-1331
 created: 2026-10-15
 attendance_log:
   "2026-10-15": "yes"

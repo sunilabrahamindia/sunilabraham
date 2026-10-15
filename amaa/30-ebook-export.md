@@ -4,6 +4,7 @@ title: "E-book Export: A. M. A. Ayrookuzhiel"
 permalink: /amaa/30-ebook-export/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Documentation of the process for creating EPUB and PDF e-books from selected pages of The Sunil Abraham Project using Pandoc."
+page_id: TSAP-1329
 created: 2026-10-14
 ---
 

@@ -4,6 +4,7 @@ title: "Template:Tito Dutta"
 permalink: /tito/template/
 categories: [Navigational templates, Tito Dutta]
 description: "Navigational template linking Tito Dutta's visual explorations, essays, project initiatives, comics, and logs."
+page_id: TSAP-1332
 created: 2026-10-15
 ---
 

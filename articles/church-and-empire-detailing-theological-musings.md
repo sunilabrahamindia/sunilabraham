@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel"]
 description: A 2019 book by Y. T. Vinayaraj on church, theology and empire.
 permalink: /articles/church-and-empire-detailing-theological-musings/
 publication_year: 2019
+page_id: TSAP-1330
 created: 2026-10-15
 ---
 

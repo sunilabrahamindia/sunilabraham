@@ -4,6 +4,7 @@ title: "Hidden Categories and Maintenance Categories"
 description: "Documentation of hidden category assignments and automatically populated maintenance categories in The Sunil Abraham Project."
 permalink: /tsap/hidden-categories/
 categories: [TSAP Documentation]
+page_id: TSAP-1328
 created: 2026-10-13
 ---
 
