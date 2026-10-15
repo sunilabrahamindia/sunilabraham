@@ -31,4 +31,4 @@ A bookseller's description says the book seeks to bring Spivak's thought into In
 ## External links
 
 - [*Theology After Spivak*](https://books.google.co.in/books/about/Theology_After_Spivak.html?id=Rh9sAQAACAAJ&redir_esc=y) on Google Books
-- [Indian Society for Promoting Christian Knowledge (ISPCK)](https://www.ispck.org.in/)
+- [*Theology After Spivak*](https://www.ispck.org.in/book/theology-after-spivak) on ISPCK
