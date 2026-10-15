@@ -56,8 +56,8 @@ The publisher lists a foreword, acknowledgements and 13 chapters:
 
 ## References
 
-1. Christian World Imprints. [*Church and Empire: Detailing Theological Musings*](https://christianworldimprints.com/index.php?Uc=9927264139567398000&p=sr). Publisher's bibliographic record and description, 2019.
-2. Vedams Books. [*Church and Empire: Detailing Theological Musings*](https://www.vedamsbooks.com/books/church_and_empire_detailing_theological_musings). Bibliographic details, description and contents.
+1. Christian World Imprints. [*Church and Empire: Detailing Theological Musings*](https://christianworldimprints.com/index.php?Uc=9927264139567398000&p=sr). Publisher's bibliographic record and description, 2019. Accessed 15 October 2026.
+2. Vedams Books. [*Church and Empire: Detailing Theological Musings*](https://www.vedamsbooks.com/books/church_and_empire_detailing_theological_musings). Bibliographic details, description and contents. Accessed 15 October 2026.
 
 ## External links
 
