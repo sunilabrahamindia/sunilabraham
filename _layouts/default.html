@@ -33,6 +33,46 @@
 <aside role="complementary" aria-label="Top utility bar">{% include top-bar.html %}</aside>
 <script>document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("h2,h3,h4,h5,h6").forEach(header=>{if(!header.id)header.id=header.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")});document.querySelectorAll("h2[id],h3[id],h4[id],h5[id],h6[id]").forEach(header=>{const link=document.createElement("a");link.className="header-link";link.href="#"+header.id;link.title="Copy link to this section";link.innerHTML="🔗";link.addEventListener("click",e=>{e.preventDefault();const fullURL=window.location.origin+window.location.pathname+"#"+header.id;navigator.clipboard.writeText(fullURL).then(()=>{link.innerHTML="✅";setTimeout(()=>link.innerHTML="🔗",1200)})});header.appendChild(link)})});</script>
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-<script>window.addEventListener("load",function(){document.querySelectorAll('img').forEach(function(img){if(img.closest('a'))return;if(img.width<100||img.height<100)return;const link=document.createElement('a');link.href=img.src;link.classList.add('lightbox');img.parentNode.insertBefore(link,img);link.appendChild(img)});GLightbox({selector:'.lightbox'});GLightbox({selector:'[data-glightbox]'})});</script>
+<script>
+window.addEventListener('load', function () {
+  // If the external library did not load, leave the page usable without a lightbox.
+  if (typeof GLightbox !== 'function') {
+    console.warn('GLightbox did not load; images remain available at their original URLs.');
+    return;
+  }
+
+  // Only auto-link substantial images in the main content, not navigation or interface icons.
+  document.querySelectorAll('.content img').forEach(function (img) {
+    if (img.closest('a')) return;
+
+    // Wait for the actual image dimensions rather than relying on its displayed size.
+    function makeLightboxLink() {
+      if (img.naturalWidth < 100 || img.naturalHeight < 100) return;
+      if (img.closest('a')) return;
+
+      const link = document.createElement('a');
+      link.href = img.currentSrc || img.src;
+      link.className = 'lightbox';
+      link.setAttribute('aria-label', 'Enlarge image');
+      img.parentNode.insertBefore(link, img);
+      link.appendChild(img);
+    }
+
+    if (img.complete && img.naturalWidth > 0) {
+      makeLightboxLink();
+    } else {
+      img.addEventListener('load', makeLightboxLink, { once: true });
+    }
+  });
+
+  GLightbox({
+    selector: '.lightbox, [data-glightbox]',
+    touchNavigation: true,
+    loop: false,
+    zoomable: true,
+    draggable: true
+  });
+});
+</script>
 <script>document.addEventListener('DOMContentLoaded',function(){const params=new URLSearchParams(window.location.search);if(params.get('darkmode')==='1'){document.body.classList.add('tsap-dark-mode');localStorage.setItem('tsap-dark-mode','true')}if(params.get('darkmode')==='0'){document.body.classList.remove('tsap-dark-mode');localStorage.removeItem('tsap-dark-mode')}const savedDarkMode=localStorage.getItem('tsap-dark-mode');const prefersSystemDark=window.matchMedia('(prefers-color-scheme: dark)').matches;if(savedDarkMode==='true'||(savedDarkMode===null&&prefersSystemDark))document.body.classList.add('tsap-dark-mode')});document.addEventListener('keydown',function(e){if(e.altKey&&e.shiftKey){const key=e.key.toLowerCase();if(key==='d'){e.preventDefault();const isDarkNow=document.body.classList.contains('tsap-dark-mode');const currentParams=new URLSearchParams(window.location.search);currentParams.set('darkmode',isDarkNow?'0':'1');window.location.search=currentParams.toString()}if(key==='h'){e.preventDefault();window.location.href='{{ "/" | relative_url }}'}if(key==='w'){e.preventDefault();window.location.href='{{ "/newest/" | relative_url }}'}}});</script>
 </body></html>
