@@ -63,4 +63,3 @@ The publisher lists a foreword, acknowledgements and 13 chapters:
 ## External links
 
 - [Christian World Imprints](https://christianworldimprints.com/)
-- [Vedams Books](https://www.vedamsbooks.com/)
