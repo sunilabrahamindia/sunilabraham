@@ -56,7 +56,6 @@ The Mind explores the human mind through visual representations of the thoughts,
     loading="lazy"
     decoding="async"
   >
-
   <img
     src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-08.png"
     alt="Three-dimensional anatomical cutaway of a human head in right-facing profile, with a detailed brain, cerebellum, brainstem, nerves and upper spinal structures visible. Numerous small black and reddish-brown ants crawl mainly over the brain's folded surface, with a few on the cheek near small reddish bite marks. The brain's left side is rendered in cool grey and deep blue tones, while the right side and face retain natural pink and flesh colours. The figure is set against a textured blue velvet-like background."
