@@ -126,6 +126,10 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0023.png" alt="TSPA #0023 comic showing Ti and Mi discussing silence, the burden of thoughts, and a day spent thinking" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0023</span>
   </a>
+  <a class="tspa-card" href="/tspa/0028/">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0028.png" alt="TSPA #0028 comic showing an Indian farmer praying for rain while Cha prays for water to cool its data centre" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0028</span>
+  </a>
   <a class="tspa-card" href="/tspa/0027/">
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0027.png" alt="TSPA #0027 silent comic showing Ti in a leafy forest gradually transforming into a tree as sunlight and cosmic light increase" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0027 — Silent</span>
