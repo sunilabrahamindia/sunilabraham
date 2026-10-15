@@ -7,6 +7,8 @@ description: "A visual exploration of the human mind through anatomical imagery 
 permalink: /tito/mind/
 page_id: TSAP-1323
 created: 2026-10-12
+hidden_categories:
+  - Pages needing regular archiving
 ---
 
 {% include author-date.html %}
