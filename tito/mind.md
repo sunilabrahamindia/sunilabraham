@@ -2,7 +2,6 @@
 layout: default
 title: "The Mind"
 categories: [TSAP Exhibition, Tito Dutta]
-
 hidden_categories:
   - Pages needing regular archiving
 authors: [Tito Dutta]
