@@ -117,7 +117,7 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 13. *Reimagining Reformation: Essays in Honor of P. G. George* (co-edited with Dexter Maben and Woba James). New Delhi: ISPCK, 2018.
 14. *Re-claiming Humanity through New Humanity in Jesus Christ* (Malayalam, co-edited with Alex Abraham). Thiruvalla: Mar Thoma Clergy Conference, 2018.
 15. *Politics and Theology* (Malayalam). Thiruvalla: CSS, 2019.
-16. *Church and Empire: Detailing Theological Musings*. New Delhi: Christian World Imprints, 2019.
+16. [*Church and Empire: Detailing Theological Musings*](/articles/church-and-empire-detailing-theological-musings/). New Delhi: Christian World Imprints, 2019.
 17. *Faith in the Age of Empire*. New Delhi: ISPCK, 2020.
 18. *Religion and Politics in the Age of New Materialism* (Malayalam). Thiruvananthapuram: Sayahna Foundation, 2020.
 19. *Political Theology in Transition*. New Delhi: Christian World Imprints, 2020.
