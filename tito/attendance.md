@@ -7,85 +7,6 @@ authors: [Tito Dutta]
 permalink: /tito/attendance/
 page_id: TSAP-1331
 created: 2026-10-15
-attendance_log:
-  "2026-10-15": "yes"
-  "2026-10-16": "yes"
-  "2026-10-17": ""
-  "2026-10-18": ""
-  "2026-10-19": ""
-  "2026-10-20": ""
-  "2026-10-21": ""
-  "2026-10-22": ""
-  "2026-10-23": ""
-  "2026-10-24": ""
-  "2026-10-25": ""
-  "2026-10-26": ""
-  "2026-10-27": ""
-  "2026-10-28": ""
-  "2026-10-29": ""
-  "2026-10-30": ""
-  "2026-10-31": ""
-  "2026-11-01": ""
-  "2026-11-02": ""
-  "2026-11-03": ""
-  "2026-11-04": ""
-  "2026-11-05": ""
-  "2026-11-06": ""
-  "2026-11-07": ""
-  "2026-11-08": ""
-  "2026-11-09": ""
-  "2026-11-10": ""
-  "2026-11-11": ""
-  "2026-11-12": ""
-  "2026-11-13": ""
-  "2026-11-14": ""
-  "2026-11-15": ""
-  "2026-11-16": ""
-  "2026-11-17": ""
-  "2026-11-18": ""
-  "2026-11-19": ""
-  "2026-11-20": ""
-  "2026-11-21": ""
-  "2026-11-22": ""
-  "2026-11-23": ""
-  "2026-11-24": ""
-  "2026-11-25": ""
-  "2026-11-26": ""
-  "2026-11-27": ""
-  "2026-11-28": ""
-  "2026-11-29": ""
-  "2026-11-30": ""
-  "2026-12-01": ""
-  "2026-12-02": ""
-  "2026-12-03": ""
-  "2026-12-04": ""
-  "2026-12-05": ""
-  "2026-12-06": ""
-  "2026-12-07": ""
-  "2026-12-08": ""
-  "2026-12-09": ""
-  "2026-12-10": ""
-  "2026-12-11": ""
-  "2026-12-12": ""
-  "2026-12-13": ""
-  "2026-12-14": ""
-  "2026-12-15": ""
-  "2026-12-16": ""
-  "2026-12-17": ""
-  "2026-12-18": ""
-  "2026-12-19": ""
-  "2026-12-20": ""
-  "2026-12-21": ""
-  "2026-12-22": ""
-  "2026-12-23": ""
-  "2026-12-24": ""
-  "2026-12-25": ""
-  "2026-12-26": ""
-  "2026-12-27": ""
-  "2026-12-28": ""
-  "2026-12-29": ""
-  "2026-12-30": ""
-  "2026-12-31": ""
 ---
 
 {% include author.html %}
@@ -102,14 +23,7 @@ This is an attendance log. Each date marked with a raised hand indicates that at
 
 <ul id="attendance-recorded-dates" class="attendance-recorded-dates"></ul>
 
-<p class="attendance-edit-note">To record attendance, edit this page in GitHub and find today's date under <code>attendance_log</code> in the YAML at the top. Replace the empty quotes with <code>"yes"</code> if present or <code>"no"</code> if absent. Leave other dates blank. The calendar and totals update after the website rebuilds.</p>
-
-<!--
-Recording attendance:
-Find today's date under attendance_log in the YAML above and replace its empty value:
-  "2026-10-15": "yes"
-Use "no" for an absence. Leave unrecorded dates as empty quotes. Date entries are prepared through 31 December 2026.
--->
+<p class="attendance-edit-note">To record attendance, edit <code>_data/attendance.yml</code> in GitHub. Add today's date under <code>attendance_log</code> with <code>"yes"</code> if present or <code>"no"</code> if absent. Do not add entries for dates that have not been recorded. The calendar and totals update after the website rebuilds.</p>
 
 <style>
 .attendance-calendar {
@@ -261,7 +175,7 @@ body.tsap-dark-mode .attendance-edit-note {
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const attendanceLog = {{ page.attendance_log | jsonify }};
+  const attendanceLog = {{ site.data.attendance.attendance_log | jsonify }};
   const log = attendanceLog && typeof attendanceLog === "object" ? attendanceLog : {};
   const recordedLog = Object.entries(log).filter(([date, value]) => /^\d{4}-\d{2}-\d{2}$/.test(date) && String(value).trim().length > 0).sort(([a], [b]) => b.localeCompare(a));
   const dateSet = new Set(recordedLog.filter(([date, value]) => String(value).trim().toLowerCase() === "yes").map(([date]) => date));
