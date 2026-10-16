@@ -9,7 +9,7 @@ page_id: TSAP-1331
 created: 2026-10-15
 attendance_log:
   "2026-10-15": "yes"
-  "2026-10-16": ""
+  "2026-10-16": "yes"
   "2026-10-17": ""
   "2026-10-18": ""
   "2026-10-19": ""
@@ -90,7 +90,7 @@ attendance_log:
 
 {% include author.html %}
 
-This is an attendance log. Each date marked with a raised hand indicates that attendance was recorded for that day. Each date marked with a raised hand indicates that attendance was recorded for that day. The calendar only displays a mark when a date has a non-empty value in the attendance log. Enter "yes" for attendance or "no" for an absence; leave unrecorded dates blank. This is not merely an attendance record for TSAP; it is mainly a practice of contemplation.
+This is an attendance log. Each date marked with a raised hand indicates that attendance was recorded for that day. The calendar only displays a mark when a date has a non-empty value in the attendance log. Enter "yes" for attendance or "no" for an absence; leave unrecorded dates blank. This is not merely an attendance record for TSAP; it is mainly a practice of contemplation.
 
 ## Calendar
 
