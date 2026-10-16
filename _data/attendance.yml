@@ -1,0 +1,6 @@
+# Attendance records for /tito/attendance/
+# Add only dates for which a status has been recorded.
+# Use "yes" for present and "no" for absent.
+attendance_log:
+  "2026-10-15": "yes"
+  "2026-10-16": "yes"
