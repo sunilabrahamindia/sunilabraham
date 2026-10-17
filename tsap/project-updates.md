@@ -24,6 +24,7 @@ Each entry should indicate whether that was featured in the website footer, on a
 
 ## October 2026
 
+- 15 October 2026: The [**seventh bulletin**](/amaa/30-bulletins/#bulletin-7) on preparations for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel has been published. *(✅ Featured in: Website footer)*
 - 7 October 2026: The [**Year One Lookback**](/versions/year-one/) has been published. *(✅ Featured in: Website footer)*
 - 3 October 2026: The [**Internet and Free Knowledge in India**](/ifki/) (IFKI) project has begun. *(✅ Featured in: Website footer)*
 
