@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Invitation: A.M. Abraham Ayrookuzhiel: 30th Death Anniversary Commemoration"
-categories: [A.M. Abraham Ayrookuzhiel, 30th Death Anniversary Commemoration, Events]
+title: "Invitation: A. M. Abraham Ayrookuzhiel: 30th Death Anniversary Commemoration"
+categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration, Events]
 permalink: /amaa/30-invitation/
 description: Invitation page for the 30th Death Anniversary Commemoration of Rev. A.M. Abraham Ayrookuzhiel (1933–1996), to be held on 29 November 2026 in Bengaluru.
 page_id: TSAP-1298
