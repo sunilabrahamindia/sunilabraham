@@ -43,10 +43,8 @@ Each entry should indicate whether that was featured in the website footer, on a
 
 ## July 2026
 - 16 July 2026: The [**fourth bulletin**](/amaa/30-bulletins/#bulletin-4) on preparations for the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel has been published. *(✅ Featured in: Website footer)*
-- 4 July 2026: <span class="update-item">
-  On the occasion of the 18th anniversary of the Centre for Internet and Society, a <a href="/cis/18/"><strong>personal memoir</strong></a> has been published.
-</span>
-- 2 July 2026: Dark mode (experimental) has been implemented. You may discuss or report issues <a href="https://github.com/sunilabrahamindia/sunilabraham/issues/8"><strong>here</strong></a>. *(✅ Featured in: Website footer)*
+- 4 July 2026: On the occasion of the 18th anniversary of the Centre for Internet and Society, a [**personal memoir**](/cis/18/) has been published.
+- 2 July 2026: Dark mode (experimental) has been implemented. You may discuss or report issues [**here**](https://github.com/sunilabrahamindia/sunilabraham/issues/8). *(✅ Featured in: Website footer)*
 
 ## June 2026
 
