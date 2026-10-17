@@ -414,47 +414,47 @@ Following our ISBN registration process [described in the fifth bulletin](#isbn-
 
 🗓️ **Date:** Thursday, 15 October 2026
 
-This seventh bulletin reports on the work undertaken and progress made towards the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel during the period from 15 September to 15 October 2026. It also reviews the dedicated editing, contributing, and enhancement phase announced in the preparatory bulletin of 1 September, which is now being extended until 15 November 2026.
+This seventh bulletin reports on work towards the 30th death anniversary commemoration of A. M. A. Ayrookuzhiel from 15 September to 15 October 2026. It also records the extension of the dedicated editing, contributing and enhancement phase, announced in the preparatory bulletin of 1 September, until 15 November 2026.
 
 ### Publications and Institutional Resources {#publications-institutional-resources}
 
-During this period, we continued to expand the documentation of publications associated with the Christian Institute for the Study of Religion and Society (CISRS), its publishing network, and the wider intellectual context surrounding A. M. A. Ayrookuzhiel.
+During this period, we continued documenting publications associated with the Christian Institute for the Study of Religion and Society (CISRS), its publishing network and the intellectual context of A. M. A. Ayrookuzhiel's work.
 
-We created a page for [*Religion and Society*](/articles/religion-and-society/), the scholarly journal associated with CISRS. The page documents the journal's origins, changes in its title, editorial history, and contribution to the study of religion and society in India.
+We created a page for [*Religion and Society*](/articles/religion-and-society/), the scholarly journal associated with CISRS. The page documents the journal's origins, title changes, editorial history and contribution to the study of religion and society in India.
 
 We also documented [*Religion and Society: The First Twenty-Five Years, 1953–1978*](/articles/religion-and-society-first-twenty-five-years/), a retrospective volume associated with the journal's early history. The page records the volume's bibliographic details and its place in the development of the journal.
 
 Two institutional pages were added to the archive. [*Asian Trading Corporation*](/articles/asian-trading-corporation/) documents the publishing organisation's history and role in the distribution of Christian literature. [*Indian Society for Promoting Christian Knowledge*](/articles/ispck/) records the historical background and publishing activities of ISPCK, another institution connected with the publication of theological and scholarly works.
 
-A dedicated [CISRS category page](/categories/cisrs/) was also created to bring together articles relating to the Christian Institute for the Study of Religion and Society, including its history, publications, intellectual contributions, and associated people and institutions. This provides another way to navigate the institutional context in which much of Ayrookuzhiel's work developed.
+A dedicated [CISRS category page](/categories/cisrs/) was also created to bring together articles relating to the Christian Institute for the Study of Religion and Society, including its history, publications, intellectual contributions and associated people and institutions. The category page provides a way to navigate the institutional context in which much of Ayrookuzhiel's work developed.
 
 ### Invitation to the Commemoration {#invitation}
 
 An [invitation page for the 30th Death Anniversary Commemoration](/amaa/30-invitation/) was published on 27 September. It announces the planned gathering on Sunday, 29 November 2026, in Bengaluru, and presents the date and programme information in a dedicated invitation format.
 
-The page makes the forthcoming commemoration more visible and provides a shareable resource as preparations continue. Further details about the venue and schedule will be communicated when they are confirmed.
+The page provides a shareable invitation to the commemoration. Details of the venue and schedule will be added when confirmed.
 
 ### E-book Export {#ebook-export}
 
 On 14 October, we documented the [E-book Export project](/amaa/30-ebook-export/), an initiative to produce EPUB and PDF editions from selected pages of The Sunil Abraham Project.
 
-The initial plan is to assemble approximately eight to ten pages relating to A. M. A. Ayrookuzhiel into a publication suitable for offline reading, distribution, and preservation. The proposed workflow uses Pandoc to process selected source material while retaining the original Markdown pages as the source of truth.
+The initial plan is to assemble approximately eight to ten pages relating to A. M. A. Ayrookuzhiel into an edition for offline reading, distribution and preservation. The proposed workflow uses Pandoc to process selected source material while retaining the original Markdown pages as the source of truth.
 
 The export process is intended to preserve substantive article content, including headings, quotations, references, tables, links, and relevant images, while excluding website navigation and other interface elements. A new table of contents will be generated for the assembled publication. The initial milestone is to produce and review both EPUB and PDF editions, with attention to formatting and accessibility.
 
-This work represents a further step towards making the project's materials available beyond the website itself.
+The project aims to make selected materials available beyond the website.
 
 ### ISBN Allocation for *Essays on Dalits, Religion and Liberation II* {#isbn-allocation}
 
 Following the submission of the ISBN application reported in [Bulletin 6](#bulletin-6), we received an ISBN from the Raja Rammohun Roy National Agency for ISBN Registration on 17 September 2026. The ISBN has been allotted to the digital edition of *Essays on Dalits, Religion and Liberation II* by A. M. A. Ayrookuzhiel, with The Sunil Abraham Project recorded as the publisher.
 
-The allocated ISBN is **978-93-345-1180-2**. The publication is registered for digital download and online access, with 2026 recorded as the year of publication. A separate ISBN will be required when a paperback edition is ready.
+The allocated ISBN is **978-93-345-1180-2**. The ISBN record specifies digital download and online access, with 2026 as the year of publication. A separate ISBN will be required when a paperback edition is ready.
 
 The registration and allocation process is documented in [GitHub Issue #44](https://github.com/sunilabrahamindia/sunilabraham/issues/44).
 
 ### Books by Y. T. Vinayaraj {#books-by-vinayaraj}
 
-The archive was further expanded with documentation of several books by Y. T. Vinayaraj. These pages record bibliographic information and introduce works addressing theology, philosophy, religion, politics, and social questions.
+The archive was expanded with bibliographic records for several books by Y. T. Vinayaraj, covering theology, philosophy, religion, politics and social questions.
 
 We added [*Passion for the Real: Political Theology and the Postsecular*](/articles/passion-for-the-real/), a book examining political theology and the postsecular. The page outlines its principal themes and publication details.
 
@@ -464,29 +464,29 @@ Another addition was [*Dalit Theology after Continental Philosophy*](/articles/d
 
 We subsequently added [*A Radical Theology for the Present: The New Materialist Turn*](/articles/a-radical-theology-for-the-present/), a book examining the relationship between theology and New Materialism.
 
-Two further books were documented on 15 October: [*Intercessions: Theology, Liturgy, and Politics*](/articles/intercessions-theology-liturgy-and-politics/) and [*Church and Empire: Detailing Theological Musings*](/articles/church-and-empire-detailing-theological-musings/). These pages extend the project's bibliographic record of Vinayaraj's work on theology, social and political thought, and the place of faith communities in contemporary society.
+Two further books were documented on 15 October: [*Intercessions: Theology, Liturgy, and Politics*](/articles/intercessions-theology-liturgy-and-politics/) and [*Church and Empire: Detailing Theological Musings*](/articles/church-and-empire-detailing-theological-musings/). These pages extend the project's bibliographic record of Vinayaraj's work on theology, social and political thought, and faith communities.
 
-Together, these entries broaden the project's documentation of publications connected with the institutions and intellectual traditions associated with Ayrookuzhiel.
+These entries extend the project's documentation of publications connected with the institutions and intellectual traditions associated with Ayrookuzhiel.
 
 ### Authority Control {#authority-control}
 
-We created [*Authority Control: Y. T. Vinayaraj*](/authority-control/vinayaraj/) to bring together bibliographic identifiers, scholarly profiles, library records, institutional references, and other metadata associated with Vinayaraj. The page supports more reliable identification of publications and helps connect the project's records with external scholarly and library resources.
+We created [*Authority Control: Y. T. Vinayaraj*](/authority-control/vinayaraj/) to bring together bibliographic identifiers, scholarly profiles, library records, institutional references, and other metadata associated with Vinayaraj. The page helps identify publications consistently and connect the project's records with external scholarly and library resources.
 
 ### Extension of the Dedicated Preparation Phase {#preparation-phase-extension}
 
-The dedicated editing, contributing and enhancement phase announced in [Bulletin 5.1](#bulletin-51) was originally scheduled to run from 1 September to 15 October 2026. We have decided to extend this period until **15 November 2026** so that the ongoing work can continue to be tracked, reviewed and developed over the coming month.
+The dedicated editing, contributing and enhancement phase announced in [Bulletin 5.1](#bulletin-51) was originally scheduled to run from 1 September to 15 October 2026. We have extended this period until **15 November 2026** to allow the ongoing work to be tracked, reviewed and developed.
 
 The focus remains on documenting writings not included in *Essays on Dalits, Religion and Liberation*, studying the unfinished manuscript *Dalit and Hindu Religious Identity*, developing accessible storytelling, and improving the wider project through better navigation, metadata, accessibility, institutional connections and archival documentation.
 
-Progress and outstanding work will continue to be recorded through the project's [GitHub Project board](https://github.com/users/sunilabrahamindia/projects/2) and the [30th-death-anniversary issue label](https://github.com/sunilabrahamindia/sunilabraham/issues?q=label%3A%2230th-death-anniversary%22). This extension provides additional time to follow up on existing tasks and document further progress before the next bulletin on 15 November 2026.
+Progress and outstanding work will continue to be recorded through the project's [GitHub Project board](https://github.com/users/sunilabrahamindia/projects/2) and the [30th-death-anniversary issue label](https://github.com/sunilabrahamindia/sunilabraham/issues?q=label%3A%2230th-death-anniversary%22). The extension allows existing tasks to be followed up and progress to be documented before the next bulletin, scheduled for 15 November 2026.
 
 ### Conclusion {#conclusion}
 
-The work undertaken during this reporting period has expanded the project's bibliographic and institutional documentation, added resources for navigating the archive, advanced preparations for the November commemoration, and secured an ISBN for the proposed digital collection *Essays on Dalits, Religion and Liberation II*.
+During this reporting period, we added bibliographic and institutional records, created resources for navigating the archive, advanced preparations for the November commemoration and received an ISBN for the digital edition of *Essays on Dalits, Religion and Liberation II*.
 
-The extension of the dedicated preparation phase allows the work to continue while preparations for the commemoration advance. Attention will remain on strengthening the existing archive, documenting further writings, improving access to the materials, and developing resources that make Ayrookuzhiel's life and work accessible to a wider readership.
+The extended preparation phase will focus on documenting additional writings, studying the unfinished manuscript, developing accessible storytelling and improving the archive's navigation, metadata and accessibility.
 
-The next bulletin is scheduled for Sunday, 15 November 2026, and will report on the work undertaken during the extended preparation period and the final preparations leading up to the 30th death anniversary.
+The next bulletin is scheduled for Sunday, 15 November 2026, and will report on work during the extended preparation period and preparations for the 30th death anniversary.
 
 {% include navbox-amaa.html %}
 
