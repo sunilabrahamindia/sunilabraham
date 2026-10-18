@@ -36,6 +36,12 @@ An agent-based experiment exploring ant trail-following, pheromone feedback, foo
 
 [Explore Simulation #2: Ant Mill](/tito/s2/)
 
+#### Simulation #3: The Internet Governance Policy Laboratory
+
+A rule-based policy experiment exploring stakeholder participation, institutional power, decision-making rules and trade-offs in internet governance.
+
+[Explore Simulation #3: The Internet Governance Policy Laboratory](/tito/s3/)
+
 ### TSPA
 
 An original comic strip created as part of The Sunil Abraham Project. TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
