@@ -120,7 +120,7 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 16. [*Church and Empire: Detailing Theological Musings*](/articles/church-and-empire-detailing-theological-musings/). New Delhi: Christian World Imprints, 2019.
 17. *Faith in the Age of Empire*. New Delhi: ISPCK, 2020.
 18. *Religion and Politics in the Age of New Materialism* (Malayalam). Thiruvananthapuram: Sayahna Foundation, 2020.
-19. *Political Theology in Transition*. New Delhi: Christian World Imprints, 2020.
+19. [*Political Theology in Transition*](/articles/political-theology-in-transition/). New Delhi: Christian World Imprints, 2020.
 20. *Vasanthathinu Kathorthavar* (Malayalam). Thiruvalla: CSS, 2021.
 21. *Navabhauthikavaadathinte Varthamaanakaalam* (Malayalam). Kottayam: Concord, 2021.
 22. *Lokathe Anuranjanathilekkum Aikyathilekum Nayikkunna Kristhusneham* (Malayalam). Thiruvalla: CSS, 2022.
