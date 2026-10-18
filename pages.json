@@ -1,5 +1,19 @@
 [
   {
+    "title": "Simulation #3: The Internet Governance Policy Laboratory",
+    "description": "A transparent, rule-based policy laboratory for exploring stakeholder power, participation, consensus, voting and institutional design in internet governance.",
+    "created": "2026-10-19",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Exhibition",
+      "Tito Dutta"
+    ],
+    "permalink": "https://sunilabraham.in/tito/s3/",
+    "source_path": "tito/s3.md"
+  },
+  {
     "title": "Simulation #2: Ant Mill",
     "description": "An interactive agent-based experiment exploring ant trail-following, pheromone feedback, food sources and the emergence of circular movement.",
     "created": "2026-10-18",
