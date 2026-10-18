@@ -30,6 +30,12 @@ An artificial-life experiment exploring autonomous organisms, ecology, evolution
 
 [Explore Simulation #1](/tito/s1/)
 
+#### Simulation #2: Ant Mill
+
+An agent-based experiment exploring ant trail-following, pheromone feedback, food sources, and the emergence of circular movement.
+
+[Explore Simulation #2: Ant Mill](/tito/s2/)
+
 ### TSPA
 
 An original comic strip created as part of The Sunil Abraham Project. TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
