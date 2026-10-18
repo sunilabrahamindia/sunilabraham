@@ -1,5 +1,19 @@
 [
   {
+    "title": "Simulation #2: Ant Mill",
+    "description": "An interactive agent-based experiment exploring ant trail-following, pheromone feedback, food sources and the emergence of circular movement.",
+    "created": "2026-10-18",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Exhibition",
+      "Tito Dutta"
+    ],
+    "permalink": "https://sunilabraham.in/tito/s2/",
+    "source_path": "tito/s2.md"
+  },
+  {
     "title": "Political Theology in Transition",
     "description": "A 2020 book by Y. T. Vinayaraj on political theology, sovereignty, liberation theology and new materialism.",
     "created": "2026-10-18",
