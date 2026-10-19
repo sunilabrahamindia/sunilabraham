@@ -35,7 +35,7 @@ Information gathered through external websites, search engines, social networks,
 13. [Corrections, contributions and future development](#future-development)
 14. [Disclaimer](#disclaimer)
 
-## 1. What kinds of opportunities are in scope? {#opportunity-types}
+## What kinds of opportunities are in scope? {#opportunity-types}
 
 Relevant roles may use very different titles. Search across disciplines, seniority levels and employment types rather than relying on one phrase such as "FOSS jobs".
 
@@ -48,7 +48,7 @@ Relevant roles may use very different titles. Search across disciplines, seniori
 
 Opportunities may be offered by non-governmental organisations, universities, research centres, foundations, public-interest technology groups, standards bodies, international organisations, open-source projects, companies and public institutions.
 
-## 2. General-purpose job search platforms {#job-platforms}
+## General-purpose job search platforms {#job-platforms}
 
 These platforms can help discover opportunities across sectors. Their coverage, search features and access requirements can change.
 
@@ -65,7 +65,7 @@ These platforms can help discover opportunities across sectors. Their coverage, 
 
 A platform search is a discovery method, not confirmation that a role is current or that an employer is legitimate.
 
-## 3. FOSS, open-source and open-technology sources {#foss-sources}
+## FOSS, open-source and open-technology sources {#foss-sources}
 
 - [FOSS Jobs](https://www.fossjobs.net/) — a specialist source to check for free and open-source software opportunities.
 - [OpenSSF Job Board](https://openssf.org/job-board/) — open-source security-related opportunities; check the current board and its scope.
@@ -95,7 +95,7 @@ Not every valuable opportunity is a conventional job. Internet governance and op
 
 Always read the provider's own description. A fellowship may be a learning programme, a temporary placement, a funded research role or a fixed-term job; these are not interchangeable categories.
 
-## 4. Internet policy, digital rights and Internet governance sources {#policy-sources}
+## Internet policy, digital rights and Internet governance sources {#policy-sources}
 
 The organisations below work in or around relevant fields. Their recruitment pages and announcements should be checked individually; not all will have vacancies at any given time.
 
@@ -141,7 +141,7 @@ Not every opportunity is published on a conventional jobs website. Relevant call
 
 For each source, distinguish employment from a grant, prize, stipend, volunteer role, unpaid internship or short-term contract. The word "opportunity" alone does not tell you whether the work is paid.
 
-## 5. Search on social networks and community platforms {#social-search}
+## Search on social networks and community platforms {#social-search}
 
 Social networks can reveal vacancies that do not appear on large job boards. Posts may be hard to find later, deleted, copied or shared without the full context, so use them to discover leads and then verify the original announcement.
 
@@ -203,7 +203,7 @@ Relevant communities may share jobs, fellowships and project opportunities. Sear
 
 Do not assume that every group permits job advertisements. Follow each community's rules and avoid unsolicited mass posting.
 
-## 6. Search-engine queries worth saving {#search-queries}
+## Search-engine queries worth saving {#search-queries}
 
 Use these queries as starting points. Change the location, date range, role and subject to fit the search. Search engines support different operators, and their behaviour can change.
 
@@ -247,7 +247,7 @@ These examples are search suggestions, not confirmation that the listed sites cu
 
 Include synonyms such as vacancy, position, opening, recruitment, apply, call for applications, expression of interest and terms of reference. Some organisations advertise consultancies through procurement notices rather than careers pages.
 
-## 7. Geography, remote work and eligibility {#location-eligibility}
+## Geography, remote work and eligibility {#location-eligibility}
 
 Do not treat "remote" as synonymous with "open worldwide". A remote position may be limited to a particular country, time zone, legal entity, tax jurisdiction or right-to-work status.
 
@@ -264,7 +264,7 @@ When reviewing a listing, check:
 
 For an India-focused search, include India and South Asia explicitly. For international opportunities, search globally but check eligibility before investing time in an application.
 
-## 8. A practical routine for finding opportunities {#search-routine}
+## A practical routine for finding opportunities {#search-routine}
 
 A repeatable routine is more useful than relying on a single social-media hashtag.
 
@@ -278,7 +278,7 @@ A repeatable routine is more useful than relying on a single social-media hashta
 
 For alerts, prefer a few precise queries over one enormous query. Too many overlapping alerts create noise; overly narrow searches can miss roles with unexpected titles. Review and refine them periodically.
 
-## 9. What a reliable listing should contain {#listing-fields}
+## What a reliable listing should contain {#listing-fields}
 
 If a vacancy is recorded in a personal tracker or a future version of this information resource, useful fields include:
 
@@ -294,7 +294,7 @@ If a vacancy is recorded in a personal tracker or a future version of this infor
 
 Do not infer a posting date or deadline when the source does not provide one. Mark missing information as "not stated" rather than guessing. A date on a search-engine result, repost or page footer may not be the original publication date.
 
-## 10. Scams, privacy and safe applications {#safety}
+## Scams, privacy and safe applications {#safety}
 
 Job seekers should be cautious with unsolicited offers, especially those promising unusually high pay for little work or demanding payment to secure a position.
 
@@ -308,7 +308,7 @@ Job seekers should be cautious with unsolicited offers, especially those promisi
 
 This page does not investigate, certify or guarantee the legitimacy of every external source or opportunity. Readers remain responsible for their own verification and decisions.
 
-## 11. Corrections, contributions and future development {#future-development}
+## Corrections, contributions and future development {#future-development}
 
 Useful sources and search methods change over time. Readers may suggest additional specialist job boards, official career pages, newsletters, community resources or corrections. Any future inclusion should be treated as a discovery aid, not an endorsement.
 
