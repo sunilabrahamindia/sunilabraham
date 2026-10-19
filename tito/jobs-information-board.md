@@ -10,7 +10,7 @@ created: 2026-10-19
 
 {% include author-date.html %}
 
-> **Important notice: This is an information resource, not a TSAP jobs board.** The Sunil Abraham Project (TSAP) does not offer, administer, manage, control, endorse or influence the jobs, fellowships, internships, consultancies or other opportunities mentioned or linked from this page. TSAP is not the recruiter, employer, intermediary or placement agency for these opportunities. This page is intended only to help readers discover information published by other organisations and platforms.
+{% include notice.html message="This is an information resource, not a TSAP jobs board. The Sunil Abraham Project (TSAP) does not offer, administer, manage, control, endorse or influence the jobs, fellowships, internships, consultancies or other opportunities mentioned or linked from this page. TSAP is not the recruiter, employer, intermediary or placement agency for these opportunities. This page is intended only to help readers discover information published by other organisations and platforms." %}
 
 The information gathered through external websites, search engines, social networks, newsletters and other sources may be incomplete, delayed, outdated, duplicated or inaccurate. A vacancy may already have closed, its deadline may have changed, or the employer may have amended or withdrawn the announcement. Links may stop working. The presence of a link here does not imply verification, endorsement, partnership or affiliation. Always consult the original source and confirm the details directly with the relevant organisation before acting.
 
