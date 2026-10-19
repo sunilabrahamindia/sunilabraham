@@ -18,6 +18,23 @@ The page is a directory of discovery sources, not a live vacancy database. Oppor
 
 Information gathered through external websites, search engines, social networks, newsletters and other sources may be incomplete, delayed, outdated, duplicated or inaccurate. A vacancy may already have closed, its deadline may have changed, or the employer may have amended or withdrawn the announcement. Links may stop working. The presence of a link here does not imply verification, endorsement, partnership or affiliation. Always consult the original source and confirm the details directly with the relevant organisation before acting.
 
+## Content
+
+1. [What kinds of opportunities are in scope?](#opportunity-types)
+2. [General-purpose job search platforms](#job-platforms)
+3. [FOSS, open-source and open-technology sources](#foss-sources)
+4. [Fellowships, internships and contributor programmes](#fellowships)
+5. [Internet policy, digital rights and Internet governance sources](#policy-sources)
+6. [Other places where opportunities appear](#other-sources)
+7. [Search on social networks and community platforms](#social-search)
+8. [Search-engine queries worth saving](#search-queries)
+9. [Geography, remote work and eligibility](#location-eligibility)
+10. [A practical routine for finding opportunities](#search-routine)
+11. [What a reliable listing should contain](#listing-fields)
+12. [Scams, privacy and safe applications](#safety)
+13. [Corrections, contributions and future development](#future-development)
+14. [Disclaimer](#disclaimer)
+
 ## 1. What kinds of opportunities are in scope? {#opportunity-types}
 
 Relevant roles may use very different titles. Search across disciplines, seniority levels and employment types rather than relying on one phrase such as "FOSS jobs".
