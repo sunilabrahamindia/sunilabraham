@@ -10,11 +10,11 @@ created: 2026-10-19
 
 {% include author-date.html %}
 
+{% include notice.html message="This is an independent information resource, not a TSAP jobs board or recruitment service. The Sunil Abraham Project (TSAP) does not offer, administer, manage, control, endorse or influence the jobs, fellowships, internships, consultancies or other opportunities mentioned or linked from this page. TSAP is not the recruiter, employer, intermediary or placement agency for these opportunities." %}
+
 The **FOSS, Internet Policy and Governance Jobs: Information Board** is a guide to finding employment and other professional opportunities in free and open-source software (FOSS), Internet policy, digital rights, Internet governance and related fields. It brings together job-search platforms, career pages of relevant organisations, fellowship and internship programmes, consultancy opportunities, and practical search methods to help readers identify openings that match their interests and experience.
 
 The page is a directory of discovery sources, not a live vacancy database. Opportunities are advertised by many different organisations and may appear under varied job titles, employment types and eligibility requirements. Readers should check each listing at its original source and confirm its status, terms, deadlines and eligibility before applying.
-
-{% include notice.html message="This is an independent information resource, not a TSAP jobs board or recruitment service. The Sunil Abraham Project (TSAP) does not offer, administer, manage, control, endorse or influence the jobs, fellowships, internships, consultancies or other opportunities mentioned or linked from this page. TSAP is not the recruiter, employer, intermediary or placement agency for these opportunities." %}
 
 Information gathered through external websites, search engines, social networks, newsletters and other sources may be incomplete, delayed, outdated, duplicated or inaccurate. A vacancy may already have closed, its deadline may have changed, or the employer may have amended or withdrawn the announcement. Links may stop working. The presence of a link here does not imply verification, endorsement, partnership or affiliation. Always consult the original source and confirm the details directly with the relevant organisation before acting.
 
