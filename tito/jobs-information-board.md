@@ -111,7 +111,6 @@ The organisations below work in or around relevant fields. Their recruitment pag
 
 This is a starting list, not an exhaustive directory or a ranking. An organisation may change its recruitment process, close a programme, relocate its careers page or have no openings. Follow official links to confirm current details. These are examples of organisations worth checking, not endorsements or claims that a suitable vacancy is open.
 
-
 ## Other places where opportunities appear {#other-sources}
 
 Not every opportunity is published on a conventional jobs website. Relevant calls can appear in places that are easy to overlook:
