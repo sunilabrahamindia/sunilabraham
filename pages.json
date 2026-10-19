@@ -40,6 +40,22 @@
     "source_path": "tito/s3.md"
   },
   {
+    "title": "FOSS, Internet Policy and Governance Jobs: Information Board",
+    "description": "A guide to discovering jobs, fellowships, consultancies and other opportunities in free and open-source software, Internet policy, digital rights and Internet governance. An independent information resource, not a TSAP recruitment service.",
+    "created": "2026-10-19",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "Project pages",
+      "Tito Dutta"
+    ],
+    "permalink": "https://sunilabraham.in/tito/jobs-information-board/",
+    "source_path": "tito/jobs-information-board.md"
+  },
+  {
     "title": "Simulation #2: Ant Mill",
     "description": "An interactive agent-based experiment exploring ant trail-following, pheromone feedback, food sources and the emergence of circular movement.",
     "created": "2026-10-18",
