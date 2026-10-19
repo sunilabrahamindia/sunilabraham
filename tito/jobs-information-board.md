@@ -10,7 +10,7 @@ created: 2026-10-19
 
 {% include author-date.html %}
 
-# FOSS, Internet Policy and Governance: Jobs Information Board
+# FOSS, Internet Policy and Governance: Jobs Information Board {#jobs-information-board}
 
 > **Important notice: This is an information resource, not a TSAP jobs board.** The Sunil Abraham Project (TSAP) does not offer, administer, manage, control, endorse or influence the jobs, fellowships, internships, consultancies or other opportunities mentioned or linked from this page. TSAP is not the recruiter, employer, intermediary or placement agency for these opportunities. This page is intended only to help readers discover information published by other organisations and platforms.
 
@@ -18,7 +18,7 @@ The information gathered through external websites, search engines, social netwo
 
 This page is a guide to finding opportunities in free and open-source software (FOSS), Internet policy, digital rights, Internet governance and related fields. It is not, at present, a live database of verified vacancies. It does not guarantee that any jobs are available, that a search will return results, or that any reader will be eligible for or selected for an opportunity. It is not intended to represent employment at TSAP.
 
-## 1. What kinds of opportunities are in scope?
+## 1. What kinds of opportunities are in scope? {#opportunity-types}
 
 Relevant roles may use very different titles. Search across disciplines, seniority levels and employment types rather than relying on one phrase such as "FOSS jobs".
 
@@ -31,7 +31,7 @@ Relevant roles may use very different titles. Search across disciplines, seniori
 
 Opportunities may be offered by non-governmental organisations, universities, research centres, foundations, public-interest technology groups, standards bodies, international organisations, open-source projects, companies and public institutions.
 
-## 2. General-purpose job search platforms
+## 2. General-purpose job search platforms {#job-platforms}
 
 These platforms can help discover opportunities across sectors. Their coverage, search features and access requirements can change.
 
@@ -48,7 +48,7 @@ These platforms can help discover opportunities across sectors. Their coverage, 
 
 A platform search is a discovery method, not confirmation that a role is current or that an employer is legitimate.
 
-## 3. FOSS, open-source and open-technology sources
+## 3. FOSS, open-source and open-technology sources {#foss-sources}
 
 - [FOSS Jobs](https://www.fossjobs.net/) — a specialist source to check for free and open-source software opportunities.
 - [OpenSSF Job Board](https://openssf.org/job-board/) — open-source security-related opportunities; check the current board and its scope.
@@ -58,14 +58,31 @@ A platform search is a discovery method, not confirmation that a role is current
 - [Wikimedia Foundation Careers](https://wikimediafoundation.org/about/jobs/) — roles supporting Wikimedia projects and the free-knowledge ecosystem.
 - [Open Knowledge Foundation](https://okfn.org/) — explore its official website for organisational updates and any current opportunities.
 - [Open Technology Fund](https://www.opentech.fund/) — explore its official website for opportunities and programmes supporting Internet freedom and open technologies.
+- [Digital Public Goods Alliance: Opportunities](https://www.digitalpublicgoods.net/jobs) — opportunities associated with the Alliance's secretariat and digital public goods work. Check the page for its current status.
+- [Outreachy](https://www.outreachy.org/) — paid, mentored internships contributing to open-source and open projects. An internship is not a guarantee of subsequent employment.
+- [Google Summer of Code](https://summerofcode.withgoogle.com/) — a mentored open-source contribution programme with a stipend, not a job or Google employment.
+- [LFX Mentorship](https://mentorship.lfx.linuxfoundation.org/) — mentorship programmes connected with open-source projects. Check the terms and stipend details for each programme.
 
 These links point to organisations or specialist sources, not to a promise that a vacancy is currently open. If a career page moves, use the organisation's official website to locate its current recruitment information.
 
-## 4. Internet policy, digital rights and Internet governance sources
+## Fellowships, internships and contributor programmes {#fellowships}
+
+Not every valuable opportunity is a conventional job. Internet governance and open-source communities also offer fellowships, structured learning programmes, mentorships and paid project placements. Keep these in a separate category and do not describe them as employment unless the provider explicitly does so.
+
+- [ICANN Fellowship Program](https://www.icann.org/fellowshipprogram/) — supports participation in the ICANN community. Eligibility, meeting-specific rounds and deadlines apply.
+- [Internet Governance Forum Fellowship Programme](https://intgovforum.org/en/content/igf-2026-fellowship-programme) — check the official IGF site for current programme information and application cycles.
+- [Internet Society Fellowship Program](https://www.internetsociety.org/fellowship/) — training and fellowship opportunities across Internet policy, connectivity, community mobilisation, safety and security. Tracks and application windows may change.
+- [Outreachy](https://www.outreachy.org/) — paid internships on open-source and other open projects, subject to its eligibility and application process.
+- [Google Summer of Code](https://summerofcode.withgoogle.com/) — a stipend-supported open-source contribution programme. It is not an internship or employment with Google, and does not guarantee a job.
+- [LFX Mentorship](https://mentorship.lfx.linuxfoundation.org/) — project-based open-source mentorship. Check each programme's eligibility, schedule and compensation terms.
+
+Always read the provider's own description. A fellowship may be a learning programme, a temporary placement, a funded research role or a fixed-term job; these are not interchangeable categories.
+
+## 4. Internet policy, digital rights and Internet governance sources {#policy-sources}
 
 The organisations below work in or around relevant fields. Their recruitment pages and announcements should be checked individually; not all will have vacancies at any given time.
 
-### Internet governance, infrastructure and standards
+### Internet governance, infrastructure and standards {#internet-governance-infrastructure-and-standards}
 
 - [Internet Society](https://www.internetsociety.org/careers/) — Internet access, an open and trustworthy Internet, policy and community work.
 - [ICANN Careers](https://www.icann.org/en/careers) — Internet domain names, identifiers and technical coordination.
@@ -76,7 +93,7 @@ The organisations below work in or around relevant fields. Their recruitment pag
 - [LACNIC](https://www.lacnic.net/) — explore the official site for organisational and career announcements.
 - [AFRINIC](https://afrinic.net/) — explore the official site for current organisational notices and opportunities; verify the status of any announcement carefully.
 
-### Digital rights, policy research and advocacy
+### Digital rights, policy research and advocacy {#digital-rights-policy-research-and-advocacy}
 
 - [Access Now](https://www.accessnow.org/) — digital rights and human rights in the digital age.
 - [Electronic Frontier Foundation (EFF)](https://www.eff.org/about/jobs) — civil liberties, privacy, security and freedom of expression online.
@@ -87,14 +104,32 @@ The organisations below work in or around relevant fields. Their recruitment pag
 - [CIPESA](https://cipesa.org/) — digital rights and policy in Africa.
 - [Digital Rights Foundation](https://digitalrightsfoundation.pk/) — digital rights and online safety in Pakistan.
 - [Mozilla Foundation](https://foundation.mozilla.org/) — trustworthy Internet, technology accountability and public-interest work.
+- [Centre for Internet and Society (CIS): Vacancies](https://cis-india.org/jobs/vacancies) — research and work on Internet policy, digital rights, accessibility, openness and related areas.
+- [Digital Futures Lab: Careers](https://www.digitalfutureslab.in/careers) — research and work on technology and society, including AI governance and digital public infrastructure.
+- [The Dialogue: Careers](https://thedialogue.org.in/careers/) — technology policy, public policy research and related programme roles in India.
+- [Observer Research Foundation (ORF): Work with us](https://www.orfonline.org/work-with-us/) — policy research and programme opportunities, including work on technology and international affairs.
 
-This is a starting list, not an exhaustive directory or a ranking. An organisation may change its recruitment process, close a programme, relocate its careers page or have no openings. Follow official links to confirm current details.
+This is a starting list, not an exhaustive directory or a ranking. An organisation may change its recruitment process, close a programme, relocate its careers page or have no openings. Follow official links to confirm current details. These are examples of organisations worth checking, not endorsements or claims that a suitable vacancy is open.
 
-## 5. Search on social networks and community platforms
+
+## Other places where opportunities appear {#other-sources}
+
+Not every opportunity is published on a conventional jobs website. Relevant calls can appear in places that are easy to overlook:
+
+- **Mailing lists and newsletters:** subscribe to official announcements from research organisations, Internet governance communities, open-source foundations, professional associations and regional Internet Governance Forum initiatives.
+- **University centres and research projects:** monitor research labs, university departments, funded projects and academic centres working on technology policy, law, development, media, information science and digital society.
+- **Grants and calls for proposals:** foundations and research organisations sometimes invite proposals from individuals or teams. These are not jobs; check whether the call funds an individual, a project, an institution or a research partnership, and whether it permits salary costs.
+- **Procurement and consultancy notices:** international organisations and public bodies may publish requests for proposals, expressions of interest or terms of reference separately from their recruitment pages.
+- **Open-source project communities:** project websites, issue trackers, contributor forums and maintainer announcements may identify paid maintenance, documentation, security, translation or community roles. Verify the funding and contracting arrangements before relying on a post.
+- **Events and professional networks:** Internet governance meetings, regional IGFs, FOSS conferences and policy workshops can circulate calls for fellows, rapporteurs, researchers, speakers and programme staff. Check the organiser's original announcement.
+
+For each source, distinguish employment from a grant, prize, stipend, volunteer role, unpaid internship or short-term contract. The word "opportunity" alone does not tell you whether the work is paid.
+
+## 5. Search on social networks and community platforms {#social-search}
 
 Social networks can reveal vacancies that do not appear on large job boards. Posts may be hard to find later, deleted, copied or shared without the full context, so use them to discover leads and then verify the original announcement.
 
-### LinkedIn
+### LinkedIn {#linkedin}
 
 Try searches such as:
 
@@ -108,7 +143,7 @@ Use the Jobs section for vacancies and ordinary post search for announcements. F
 
 [Open LinkedIn Jobs](https://www.linkedin.com/jobs/)
 
-### X (formerly Twitter)
+### X (formerly Twitter) {#x-formerly-twitter}
 
 Search the phrase or role as well as possible hashtags. For example:
 
@@ -124,25 +159,25 @@ Hashtag usage is inconsistent. Many useful posts have no hashtag, while a hashta
 
 [Search X](https://x.com/search)
 
-### Mastodon and the wider fediverse
+### Mastodon and the wider fediverse {#mastodon-and-the-wider-fediverse}
 
 Some open-source, digital-rights and Internet-policy communities share opportunities on Mastodon and other fediverse services. Search the public posts available on your chosen instance, follow relevant organisations and community accounts, and check whether posts link to an official vacancy page. Search and discovery vary by instance.
 
 [About Mastodon](https://joinmastodon.org/)
 
-### Bluesky
+### Bluesky {#bluesky}
 
 Search posts for exact phrases, organisation names and role titles. Follow relevant policy, FOSS and digital-rights organisations. Search features and public-post availability may change.
 
 [Search Bluesky](https://bsky.app/search)
 
-### Reddit and community forums
+### Reddit and community forums {#reddit-and-community-forums}
 
 Relevant communities may share jobs, fellowships and project opportunities. Search within relevant communities, read their rules, and check whether a post is an official announcement. A community post alone is not proof that a role is genuine or still open.
 
 [Reddit](https://www.reddit.com/)
 
-### Other communities
+### Other communities {#other-communities}
 
 - Open-source project forums, mailing lists and community chat rooms.
 - Professional associations and Internet governance community mailing lists.
@@ -152,11 +187,11 @@ Relevant communities may share jobs, fellowships and project opportunities. Sear
 
 Do not assume that every group permits job advertisements. Follow each community's rules and avoid unsolicited mass posting.
 
-## 6. Search-engine queries worth saving
+## 6. Search-engine queries worth saving {#search-queries}
 
 Use these queries as starting points. Change the location, date range, role and subject to fit the search. Search engines support different operators, and their behaviour can change.
 
-### General searches
+### General searches {#general-searches}
 
 - "Internet policy" jobs
 - "Internet governance" vacancies
@@ -171,7 +206,7 @@ Use these queries as starting points. Change the location, date range, role and 
 - "Internet freedom" programme officer
 - "digital rights" consultant
 
-### Search within official websites
+### Search within official websites {#search-within-official-websites}
 
 The site: operator can narrow a search to a particular domain. For example:
 
@@ -184,7 +219,7 @@ The site: operator can narrow a search to a particular domain. For example:
 
 These examples are search suggestions, not confirmation that the listed sites currently have matching jobs. If a URL structure changes, search the organisation's domain and navigate from its official homepage.
 
-### Search for fellowships and short-term work
+### Search for fellowships and short-term work {#search-for-fellowships-and-short-term-work}
 
 - "Internet governance" fellowship
 - "digital rights" research fellowship
@@ -196,7 +231,7 @@ These examples are search suggestions, not confirmation that the listed sites cu
 
 Include synonyms such as vacancy, position, opening, recruitment, apply, call for applications, expression of interest and terms of reference. Some organisations advertise consultancies through procurement notices rather than careers pages.
 
-## 7. Geography, remote work and eligibility
+## 7. Geography, remote work and eligibility {#location-eligibility}
 
 Do not treat "remote" as synonymous with "open worldwide". A remote position may be limited to a particular country, time zone, legal entity, tax jurisdiction or right-to-work status.
 
@@ -213,7 +248,7 @@ When reviewing a listing, check:
 
 For an India-focused search, include India and South Asia explicitly. For international opportunities, search globally but check eligibility before investing time in an application.
 
-## 8. A practical routine for finding opportunities
+## 8. A practical routine for finding opportunities {#search-routine}
 
 A repeatable routine is more useful than relying on a single social-media hashtag.
 
@@ -227,7 +262,7 @@ A repeatable routine is more useful than relying on a single social-media hashta
 
 For alerts, prefer a few precise queries over one enormous query. Too many overlapping alerts create noise; overly narrow searches can miss roles with unexpected titles. Review and refine them periodically.
 
-## 9. What a reliable listing should contain
+## 9. What a reliable listing should contain {#listing-fields}
 
 If a vacancy is recorded in a personal tracker or a future version of this information resource, useful fields include:
 
@@ -243,7 +278,7 @@ If a vacancy is recorded in a personal tracker or a future version of this infor
 
 Do not infer a posting date or deadline when the source does not provide one. Mark missing information as "not stated" rather than guessing. A date on a search-engine result, repost or page footer may not be the original publication date.
 
-## 10. Scams, privacy and safe applications
+## 10. Scams, privacy and safe applications {#safety}
 
 Job seekers should be cautious with unsolicited offers, especially those promising unusually high pay for little work or demanding payment to secure a position.
 
@@ -257,7 +292,7 @@ Job seekers should be cautious with unsolicited offers, especially those promisi
 
 This page does not investigate, certify or guarantee the legitimacy of every external source or opportunity. Readers remain responsible for their own verification and decisions.
 
-## 11. Corrections, contributions and future development
+## 11. Corrections, contributions and future development {#future-development}
 
 Useful sources and search methods change over time. Readers may suggest additional specialist job boards, official career pages, newsletters, community resources or corrections. Any future inclusion should be treated as a discovery aid, not an endorsement.
 
@@ -265,7 +300,7 @@ A future version of this project could add a searchable collection of links, dat
 
 Until a maintained listings system is established, this page should be understood as a **guide and directory of discovery methods**, not as a live or comprehensive vacancy feed.
 
-## Disclaimer
+## Disclaimer {#disclaimer}
 
 This page is provided for general informational and discovery purposes only. It is not a recruitment service, employment agency, jobs board, placement service, guarantee of employment or offer of work by TSAP or its contributors. TSAP does not manage, control, administer, sponsor or influence the opportunities linked here and has no authority over the organisations that publish them.
 
