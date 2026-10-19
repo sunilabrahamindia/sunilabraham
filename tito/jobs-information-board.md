@@ -121,7 +121,6 @@ The organisations below work in or around relevant fields. Their recruitment pag
 - [CIPESA](https://cipesa.org/) — digital rights and policy in Africa.
 - [Digital Rights Foundation](https://digitalrightsfoundation.pk/) — digital rights and online safety in Pakistan.
 - [Mozilla Foundation](https://foundation.mozilla.org/) — trustworthy Internet, technology accountability and public-interest work.
-- [Centre for Internet and Society (CIS): Vacancies](https://cis-india.org/jobs/vacancies) — research and work on Internet policy, digital rights, accessibility, openness and related areas.
 - [Digital Futures Lab: Careers](https://www.digitalfutureslab.in/careers) — research and work on technology and society, including AI governance and digital public infrastructure.
 - [The Dialogue: Careers](https://thedialogue.org.in/careers/) — technology policy, public policy research and related programme roles in India.
 - [Observer Research Foundation (ORF): Work with us](https://www.orfonline.org/work-with-us/) — policy research and programme opportunities, including work on technology and international affairs.
