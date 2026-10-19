@@ -242,6 +242,16 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 
+
+## Information Resources
+
+### FOSS, Internet Policy and Governance: Jobs Information Board
+
+A guide to discovering external jobs, fellowships, consultancies and other opportunities across FOSS, Internet policy, digital rights and Internet governance. This is an independent information resource, not a TSAP recruitment or jobs service; listings and external information may be outdated and must be verified at source.
+
+[Explore the Jobs Information Board](/tito/jobs-information-board/)
+
+
 ## Project Initiatives
 
 ### No Shouting
