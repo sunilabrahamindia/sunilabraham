@@ -13,19 +13,6 @@
     "source_path": "tsap/simulation-documentation.md"
   },
   {
-    "title": "FOSS, Internet Policy and Governance Jobs",
-    "description": "A practical guide to discovering jobs, fellowships, internships and paid opportunities in free and open-source software, Internet policy, digital rights and Internet governance.",
-    "created": "2026-10-19",
-    "date": null,
-    "source": null,
-    "authors": null,
-    "categories": [
-      "TSAP Documentation"
-    ],
-    "permalink": "https://sunilabraham.in/tsap/jobs/",
-    "source_path": "tsap/jobs.md"
-  },
-  {
     "title": "Simulation #3: Internet Governance in a Crisis",
     "description": "An interactive, fictional internet governance negotiation about a government content restriction request, platform response, rights, technical risks and accountability.",
     "created": "2026-10-19",
