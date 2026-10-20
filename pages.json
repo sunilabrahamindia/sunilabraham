@@ -1,7 +1,7 @@
 [
   {
-    "title": "Research, Grants and Funding Opportunities: Information Board",
-    "description": "A guide to discovering research grants, project funding, fellowships, travel support and other opportunities in open-source software, digital rights, Internet governance and public-interest technology. An independent information resource, not a TSAP funding programme.",
+    "title": "Research Funding and Grants: Open Technology and Public-Interest Work",
+    "description": "A selective guide to research grants, open-source funding, digital-rights support, Wikimedia funding and relevant fellowships for open technology and public-interest work.",
     "created": "2026-10-20",
     "date": null,
     "source": null,
@@ -10,10 +10,10 @@
     ],
     "categories": [
       "Project pages",
-      "Tito Dutta"
+      "TSAP Documentation"
     ],
-    "permalink": "https://sunilabraham.in/tito/research-funding-opportunities/",
-    "source_path": "tito/research-funding-opportunities.md"
+    "permalink": "https://sunilabraham.in/tsap/research-funding-guide/",
+    "source_path": "tsap/research-funding-guide.md"
   },
   {
     "title": "Simulation (Documentation)",
