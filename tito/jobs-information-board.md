@@ -50,33 +50,33 @@ Opportunities may be offered by non-governmental organisations, universities, re
 
 ## General-purpose job search platforms {#job-platforms}
 
-These platforms can help discover opportunities across sectors. Their coverage, search features and access requirements can change.
+These platforms can help discover opportunities across sectors. Their coverage, search features and access requirements can change. Some allow public browsing but require an account to save jobs, create alerts or apply. Unsigned-in visitors may be redirected away from a specific page, and access can vary by country.
 
-- [LinkedIn Jobs](https://www.linkedin.com/jobs/) — search job titles and keywords, follow organisations, and create job alerts where available.
+- [LinkedIn Jobs](https://www.linkedin.com/jobs/) — search job titles and keywords, follow organisations, and create job alerts where available. Sign-in may be required for some features; unsigned-in visitors may be redirected to LinkedIn's homepage.
 - [Indeed](https://www.indeed.com/) — broad employment searches; select the relevant country or region.
 - [Google Search](https://www.google.com/) — search exact phrases, employer career pages and vacancy announcements. Google may surface expired or copied listings, so check the original source.
 - [Google Alerts](https://www.google.com/alerts) — receive email notifications when Google finds new indexed pages matching a search query.
-- [Wellfound](https://wellfound.com/jobs) — startup roles, including some open-source and technology positions.
-- [Idealist](https://www.idealist.org/en/jobs) — nonprofit and social-impact opportunities.
-- [Devex](https://www.devex.com/jobs) — international development and related policy, programme and consultancy roles.
-- [ReliefWeb Jobs](https://reliefweb.int/jobs) — humanitarian, international development and related opportunities.
+- [Wellfound](https://wellfound.com/jobs) (`wellfound.com/jobs`) — startup roles, including some open-source and technology positions.
+- [Idealist](https://www.idealist.org/en/jobs) (`idealist.org/jobs`) — nonprofit and social-impact opportunities.
+- [Devex](https://www.devex.com/jobs) (`devex.com/jobs`) — international development and related policy, programme and consultancy roles.
+- [ReliefWeb Jobs](https://reliefweb.int/jobs) (`reliefweb.int/jobs`) — humanitarian, international development and related opportunities.
 - [UN Careers](https://careers.un.org/) — United Nations Secretariat vacancies.
-- [UN Volunteers](https://www.unv.org/) — volunteer assignments and related opportunities. Read each listing to understand whether it is paid employment, a volunteer assignment or another arrangement.
+- [UN Volunteers](https://www.unv.org/) (`unv.org`) — volunteer assignments and related opportunities. Read each listing to understand whether it is paid employment, a volunteer assignment or another arrangement.
 
 A platform search is a discovery method, not confirmation that a role is current or that an employer is legitimate.
 
 ## FOSS, open-source and open-technology sources {#foss-sources}
 
-- [FOSS Jobs](https://www.fossjobs.net/) — a specialist source to check for free and open-source software opportunities.
-- [OpenSSF Job Board](https://openssf.org/job-board/) — open-source security-related opportunities; check the current board and its scope.
-- [Linux Foundation Careers](https://www.linuxfoundation.org/about/careers) — roles associated with the Linux Foundation.
+- [FOSS Jobs](https://www.fossjobs.net/) (`fossjobs.net`) — a specialist source to check for free and open-source software opportunities.
+- [OpenSSF Job Board](https://openssf.org/job-board/) (`openssf.org`) — open-source security-related opportunities; check the current board and its scope.
+- [Linux Foundation Careers](https://www.linuxfoundation.org/about/careers) (`linuxfoundation.org`) — roles associated with the Linux Foundation.
 - [Mozilla Careers](https://www.mozilla.org/en-US/careers/listings/) — opportunities at Mozilla.
 - [GitHub Careers](https://www.github.careers/careers-home) — roles at GitHub, including some related to developer communities and open-source ecosystems.
-- [Wikimedia Foundation Careers](https://wikimediafoundation.org/about/jobs/) — roles supporting Wikimedia projects and the free-knowledge ecosystem.
-- [Open Knowledge Foundation](https://okfn.org/) — explore its official website for organisational updates and any current opportunities.
-- [Open Technology Fund](https://www.opentech.fund/) — explore its official website for opportunities and programmes supporting Internet freedom and open technologies.
-- [Digital Public Goods Alliance: Opportunities](https://www.digitalpublicgoods.net/jobs) — opportunities associated with the Alliance's secretariat and digital public goods work. Check the page for its current status.
-- [Outreachy](https://www.outreachy.org/) — paid, mentored internships contributing to open-source and open projects. An internship is not a guarantee of subsequent employment.
+- [Wikimedia Foundation Careers](https://wikimediafoundation.org/about/jobs/) (`wikimediafoundation.org`) — roles supporting Wikimedia projects and the free-knowledge ecosystem.
+- [Open Knowledge Foundation](https://okfn.org/) (`okfn.org`) — explore its official website for organisational updates and any current opportunities.
+- [Open Technology Fund](https://www.opentech.fund/) (`opentech.fund`) — explore its official website for opportunities and programmes supporting Internet freedom and open technologies.
+- [Digital Public Goods Alliance: Opportunities](https://www.digitalpublicgoods.net/jobs) (`digitalpublicgoods.net`) — opportunities associated with the Alliance's secretariat and digital public goods work. Check the page for its current status.
+- [Outreachy](https://www.outreachy.org/) (`outreachy.org`) — paid, mentored internships contributing to open-source and open projects. An internship is not a guarantee of subsequent employment.
 - [Google Summer of Code](https://summerofcode.withgoogle.com/) — a mentored open-source contribution programme with a stipend, not a job or Google employment.
 - [LFX Mentorship](https://mentorship.lfx.linuxfoundation.org/) — mentorship programmes connected with open-source projects. Check the terms and stipend details for each programme.
 
@@ -86,9 +86,9 @@ These links point to organisations or specialist sources, not to a promise that 
 
 Not every valuable opportunity is a conventional job. Internet governance and open-source communities also offer fellowships, structured learning programmes, mentorships and paid project placements. Keep these in a separate category and do not describe them as employment unless the provider explicitly does so.
 
-- [ICANN Fellowship Program](https://www.icann.org/fellowshipprogram/) — supports participation in the ICANN community. Eligibility, meeting-specific rounds and deadlines apply.
-- [Internet Governance Forum Fellowship Programme](https://intgovforum.org/en/content/igf-2026-fellowship-programme) — check the official IGF site for current programme information and application cycles.
-- [Internet Society Fellowship Program](https://www.internetsociety.org/fellowship/) — training and fellowship opportunities across Internet policy, connectivity, community mobilisation, safety and security. Tracks and application windows may change.
+- [ICANN Fellowship Program](https://www.icann.org/fellowshipprogram/) (`icann.org`) — supports participation in the ICANN community. Eligibility, meeting-specific rounds and deadlines apply.
+- [Internet Governance Forum Fellowship Programme](https://intgovforum.org/en/content/igf-2026-fellowship-programme) (`intgovforum.org`) — check the official IGF site for current programme information and application cycles.
+- [Internet Society Fellowship Program](https://www.internetsociety.org/fellowship/) (`internetsociety.org`) — training and fellowship opportunities across Internet policy, connectivity, community mobilisation, safety and security. Tracks and application windows may change.
 - [Outreachy](https://www.outreachy.org/) — paid internships on open-source and other open projects, subject to its eligibility and application process.
 - [Google Summer of Code](https://summerofcode.withgoogle.com/) — a stipend-supported open-source contribution programme. It is not an internship or employment with Google, and does not guarantee a job.
 - [LFX Mentorship](https://mentorship.lfx.linuxfoundation.org/) — project-based open-source mentorship. Check each programme's eligibility, schedule and compensation terms.
@@ -102,28 +102,28 @@ The organisations below work in or around relevant fields. Their recruitment pag
 ### Internet governance, infrastructure and standards {#internet-governance-infrastructure-and-standards}
 
 - [Internet Society](https://www.internetsociety.org/careers/) — Internet access, an open and trustworthy Internet, policy and community work.
-- [ICANN Careers](https://www.icann.org/en/careers) — Internet domain names, identifiers and technical coordination.
+- [ICANN Careers](https://www.icann.org/en/careers) (`icann.org/careers`) — Internet domain names, identifiers and technical coordination.
 - [Internet Governance Forum (IGF)](https://www.intgovforum.org/en/vacancies) — check the official vacancies page and related programme announcements.
-- [APNIC](https://www.apnic.net/about-apnic/careers/) — Internet number resource management and regional Internet development in the Asia Pacific.
-- [RIPE NCC](https://www.ripe.net/about-us/careers/) — Internet coordination and community services in its service region.
-- [ARIN](https://www.arin.net/about/careers/) — Internet number resource administration in its service region.
-- [LACNIC](https://www.lacnic.net/) — explore the official site for organisational and career announcements.
-- [AFRINIC](https://afrinic.net/) — explore the official site for current organisational notices and opportunities; verify the status of any announcement carefully.
+- [APNIC](https://www.apnic.net/about-apnic/careers/) (`apnic.net`) — Internet number resource management and regional Internet development in the Asia Pacific.
+- [RIPE NCC](https://www.ripe.net/about-us/careers/) (`ripe.net`) — Internet coordination and community services in its service region.
+- [ARIN](https://www.arin.net/about/careers/) (`arin.net`) — Internet number resource administration in its service region.
+- [LACNIC](https://www.lacnic.net/) (`lacnic.net`) — explore the official site for organisational and career announcements.
+- [AFRINIC](https://afrinic.net/) (`afrinic.net`) — explore the official site for current organisational notices and opportunities; verify the status of any announcement carefully.
 
 ### Digital rights, policy research and advocacy {#digital-rights-policy-research-and-advocacy}
 
-- [Access Now](https://www.accessnow.org/) — digital rights and human rights in the digital age.
+- [Access Now](https://www.accessnow.org/) (`accessnow.org`) — digital rights and human rights in the digital age.
 - [Electronic Frontier Foundation (EFF)](https://www.eff.org/about/jobs) — civil liberties, privacy, security and freedom of expression online.
-- [ARTICLE 19](https://www.article19.org/) — freedom of expression and information.
-- [Internet Freedom Foundation (IFF)](https://internetfreedom.in/) — digital rights and Internet freedom work in India; check the official site for announcements.
-- [SFLC.in](https://sflc.in/) — technology law, digital rights and policy in India.
-- [IT for Change](https://itforchange.net/) — research and advocacy on digital technologies, development and social justice.
-- [CIPESA](https://cipesa.org/) — digital rights and policy in Africa.
+- [ARTICLE 19](https://www.article19.org/) (`article19.org`) — freedom of expression and information.
+- [Internet Freedom Foundation (IFF)](https://internetfreedom.in/) (`internetfreedom.in`) — digital rights and Internet freedom work in India; check the official site for announcements.
+- [SFLC.in](https://sflc.in/) (`sflc.in`) — technology law, digital rights and policy in India.
+- [IT for Change](https://itforchange.net/) (`itforchange.net`) — research and advocacy on digital technologies, development and social justice.
+- [CIPESA](https://cipesa.org/) (`cipesa.org`) — digital rights and policy in Africa.
 - [Digital Rights Foundation](https://digitalrightsfoundation.pk/) — digital rights and online safety in Pakistan.
 - [Mozilla Foundation](https://foundation.mozilla.org/) — trustworthy Internet, technology accountability and public-interest work.
-- [Digital Futures Lab: Careers](https://www.digitalfutureslab.in/careers) — research and work on technology and society, including AI governance and digital public infrastructure.
-- [The Dialogue: Careers](https://thedialogue.org.in/careers/) — technology policy, public policy research and related programme roles in India.
-- [Observer Research Foundation (ORF): Work with us](https://www.orfonline.org/work-with-us/) — policy research and programme opportunities, including work on technology and international affairs.
+- [Digital Futures Lab: Careers](https://www.digitalfutureslab.in/careers) (`digitalfutureslab.in`) — research and work on technology and society, including AI governance and digital public infrastructure.
+- [The Dialogue: Careers](https://thedialogue.org.in/careers/) (`thedialogue.org.in`) — technology policy, public policy research and related programme roles in India.
+- [Observer Research Foundation (ORF): Work with us](https://www.orfonline.org/work-with-us/) (`orfonline.org`) — policy research and programme opportunities, including work on technology and international affairs.
 
 This is a starting list, not an exhaustive directory or a ranking. An organisation may change its recruitment process, close a programme, relocate its careers page or have no openings. Follow official links to confirm current details. These are examples of organisations worth checking, not endorsements or claims that a suitable vacancy is open.
 
@@ -172,25 +172,25 @@ Search the phrase or role as well as possible hashtags. For example:
 
 Hashtag usage is inconsistent. Many useful posts have no hashtag, while a hashtag can return unrelated or old posts. Search exact phrases and organisation names as well.
 
-[Search X](https://x.com/search)
+[Search X](https://x.com/search) (`x.com/search`)
 
 ### Mastodon and the wider fediverse {#mastodon-and-the-wider-fediverse}
 
 Some open-source, digital-rights and Internet-policy communities share opportunities on Mastodon and other fediverse services. Search the public posts available on your chosen instance, follow relevant organisations and community accounts, and check whether posts link to an official vacancy page. Search and discovery vary by instance.
 
-[About Mastodon](https://joinmastodon.org/)
+[About Mastodon](https://joinmastodon.org/) (`joinmastodon.org`)
 
 ### Bluesky {#bluesky}
 
 Search posts for exact phrases, organisation names and role titles. Follow relevant policy, FOSS and digital-rights organisations. Search features and public-post availability may change.
 
-[Search Bluesky](https://bsky.app/search)
+[Search Bluesky](https://bsky.app/search) (`bsky.app`)
 
 ### Reddit and community forums {#reddit-and-community-forums}
 
 Relevant communities may share jobs, fellowships and project opportunities. Search within relevant communities, read their rules, and check whether a post is an official announcement. A community post alone is not proof that a role is genuine or still open.
 
-[Reddit](https://www.reddit.com/)
+[Reddit](https://www.reddit.com/) (`reddit.com`)
 
 ### Other communities {#other-communities}
 
