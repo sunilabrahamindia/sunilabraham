@@ -29,6 +29,22 @@
     "source_path": "tsap/simulation-documentation.md"
   },
   {
+    "title": "FOSS and Internet Openness: Jobs and Opportunities",
+    "description": "A focused guide to selected job, fellowship, mentorship and paid contribution sources in free and open-source software, open knowledge, Internet freedom and public-interest technology.",
+    "created": "2026-10-19",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "Project pages",
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/foss-opportunities-guide/",
+    "source_path": "tsap/foss-opportunities-guide.md"
+  },
+  {
     "title": "Simulation #3: Internet Governance in a Crisis",
     "description": "An interactive, fictional internet governance negotiation about a government content restriction request, platform response, rights, technical risks and accountability.",
     "created": "2026-10-19",
@@ -41,22 +57,6 @@
     ],
     "permalink": "https://sunilabraham.in/tito/s3/",
     "source_path": "tito/s3.md"
-  },
-  {
-    "title": "FOSS, Internet Policy and Governance Jobs: Information Board",
-    "description": "A guide to discovering jobs, fellowships, consultancies and other opportunities in free and open-source software, Internet policy, digital rights and Internet governance. An independent information resource, not a TSAP recruitment service.",
-    "created": "2026-10-19",
-    "date": null,
-    "source": null,
-    "authors": [
-      "Tito Dutta"
-    ],
-    "categories": [
-      "Project pages",
-      "Tito Dutta"
-    ],
-    "permalink": "https://sunilabraham.in/tito/jobs-information-board/",
-    "source_path": "tito/jobs-information-board.md"
   },
   {
     "title": "Simulation #2: Ant Mill",
