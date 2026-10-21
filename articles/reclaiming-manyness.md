@@ -34,6 +34,6 @@ A chapter listed in Gladson Jathanna's curriculum vitae is titled "Kuvempu and M
 
 ## External links
 
-- [Google Books search for the title](https://books.google.com/books?q=Reclaiming+Manyness+Re-reading+M.M.+Thomas+Indian+Christian+Theologies)
+- [Reclaiming Manyness: Re-reading M.M. Thomas in the Light of Indian Christian Theologies](https://www.google.co.in/books/edition/Reclaiming_Manyness/JnkPkAEACAAJ?hl=en) on Google Books
 
 {% include navbox-vinayaraj.html %}
