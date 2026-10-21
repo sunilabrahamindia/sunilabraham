@@ -1,5 +1,18 @@
 [
   {
+    "title": "Known Issues",
+    "description": "A record of known issues, limitations, improvements and modifications requiring attention on The Sunil Abraham Project (TSAP).",
+    "created": "2026-10-22",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/known-issues/",
+    "source_path": "tsap/known-issues.md"
+  },
+  {
     "title": "Category:Books by Y. T. Vinayaraj",
     "description": "Books authored, co-authored, and edited by Rev. Dr. Y. T. Vinayaraj, documented under The Sunil Abraham Project.",
     "created": "2026-10-21",
