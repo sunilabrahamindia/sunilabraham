@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Political Theology in Transition"
-categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel"]
+categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel", "Books by Y. T. Vinayaraj"]
 description: A 2020 book by Y. T. Vinayaraj on political theology, sovereignty, liberation theology and new materialism.
 permalink: /articles/political-theology-in-transition/
 publication_year: 2020
