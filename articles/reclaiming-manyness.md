@@ -8,7 +8,9 @@ publication_year: 2015
 created: 2026-10-21
 ---
 
-***Reclaiming Manyness: Re-reading M.M. Thomas in the Light of Indian Christian Theologies*** is an edited volume published in 2015 by the Department of Research, South Asia Theological Research Institute (SATHRI). The editors are P. G. George and Y. T. Vinayaraj. A library catalogue record lists the book as 208 pages and gives November 2015 as its publication date.
+***Reclaiming Manyness: Re-reading M.M. Thomas in the Light of Indian Christian Theologies*** is a collection of essays examining the work of M. M. Thomas in relation to Indian Christian theologies. According to the Oriental Theological Seminary library catalogue, the essays were originally presented at a national colloquium organised by the Department of Research at the Senate of Serampore College (University), held at Union Biblical Seminary, Pune, from 11 to 13 August 2015. The volume brings together contributions that approach Thomas's thought through different subjects and perspectives. One documented example is Gladson Jathanna's chapter, "Kuvempu and M.M. Thomas: Sahrdaya Voices Propagating the Message of Sarvodaya", which connects Thomas with the thought of Kuvempu and the idea of Sarvodaya. This example indicates the range of the collection, but should not be taken as a summary of every chapter or of the book's overall argument.
+
+Edited by P. G. George and Y. T. Vinayaraj, the volume was published in November 2015 by the Department of Research, South Asia Theological Research Institute (SATHRI). The library catalogue lists it as 208 pages and classifies it under doctrinal theology in India.
 
 ## Publication details
 
@@ -22,8 +24,9 @@ created: 2026-10-21
 
 ## References
 
-1. Oriental Theological Seminary, Nagaland. [Library catalogue record for *Reclaiming Manyness: Re-reading M.M. Thomas in the Light of Indian Christian Theologies*](https://catalog.otsnagaland.edu.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=12850). Bibliographic record listing the editors, publisher, publication date and length.
-2. Y. T. Vinayaraj. [Curriculum Vitae](https://independent.academia.edu/YTVINAYARAJ/CurriculumVitae). Bibliographic listing of the volume as co-edited with P. G. George and published by SATHRI in 2015.
+1. Oriental Theological Seminary, Nagaland. [Library catalogue record for *Reclaiming Manyness: Re-reading M.M. Thomas in the Light of Indian Christian Theologies*](https://catalog.otsnagaland.edu.in/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=12850). Includes the editors, publication details, subject classification and the note about the 2015 national colloquium.
+2. Jathanna, Gladson. [Curriculum Vitae](https://drew.edu/wp-content/uploads/2024/09/CV_GJathanna_2024.pdf). Lists the chapter "Kuvempu and M.M. Thomas: Sahrdaya Voices Propagating the Message of Sarvodaya" on pages 153-166 of the volume.
+3. Y. T. Vinayaraj. [Curriculum Vitae](https://independent.academia.edu/YTVINAYARAJ/CurriculumVitae). Bibliographic listing of the volume as co-edited with P. G. George and published by SATHRI in 2015.
 
 ## External links
 
