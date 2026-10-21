@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Dalit Theology after Continental Philosophy"
-categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel", "Books by Y. T. Vinayaraj"]
+categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel"]
 description: A 2016 book by Y. T. Vinayaraj examining Dalit theology through postcolonial theory and Continental philosophy.
 permalink: /articles/dalit-theology-after-continental-philosophy/
 publication_year: 2016
