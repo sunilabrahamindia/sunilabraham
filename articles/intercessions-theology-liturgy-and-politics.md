@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Intercessions: Theology, Liturgy, and Politics"
-categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel", "Books by Y. T. Vinayaraj"]
+categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel"]
 description: A 2015 book by Y. T. Vinayaraj on theology, liturgy and politics.
 permalink: /articles/intercessions-theology-liturgy-and-politics/
 publication_year: 2015
