@@ -2,7 +2,7 @@
 layout: default
 title: "Dalit Sahityam"
 permalink: /amaa/dalit-sahityam/
-categories: ["A. M. A. Ayrookuzhiel", "Books by A. M. A. Ayrookuzhiel"]
+categories: ["A. M. A. Ayrookuzhiel", "Books by A. M. A. Ayrookuzhiel", "Books"]
 description: "A Malayalam-language book by Paul Chirakkarod and Athanasius Mathen Abraham Ayrookuzhiel, published in Tiruvalla in 1995."
 page_id: TSAP-1250
 created: 2026-09-03
