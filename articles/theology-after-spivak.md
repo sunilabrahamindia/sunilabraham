@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Theology after Spivak"
-categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel", "Books by Y. T. Vinayaraj"]
+categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel"]
 description: A 2016 book by Y. T. Vinayaraj on Spivak and Indian theological discourse.
 permalink: /articles/theology-after-spivak/
 publication_year: 2016
