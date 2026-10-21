@@ -9,7 +9,8 @@ created: 2025-10-31
 ---
 
 {% assign all_pages = site.pages | where_exp: "p", "p.created" %}
-{% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" | sort: "title" %}
+{% assign cat_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" %}
+{% assign cat_pages = cat_pages | where_exp: "p", "p.path != 'categories/index.md'" | sort: "title" %}
 
 <p>This section is a directory of all content categories on <strong>sunilabraham.in</strong>. Browse {{ cat_pages.size }} categories covering research, documentation, biographies, media, and more.</p>
 
