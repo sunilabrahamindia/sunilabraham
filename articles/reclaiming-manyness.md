@@ -28,3 +28,5 @@ created: 2026-10-21
 ## External links
 
 - [Google Books search for the title](https://books.google.com/books?q=Reclaiming+Manyness+Re-reading+M.M.+Thomas+Indian+Christian+Theologies)
+
+{% include navbox-vinayaraj.html %}
