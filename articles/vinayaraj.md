@@ -118,7 +118,7 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 14. *Re-claiming Humanity through New Humanity in Jesus Christ* (Malayalam, co-edited with Alex Abraham). Thiruvalla: Mar Thoma Clergy Conference, 2018.
 15. *Politics and Theology* (Malayalam). Thiruvalla: CSS, 2019.
 16. [*Church and Empire: Detailing Theological Musings*](/articles/church-and-empire-detailing-theological-musings/). New Delhi: Christian World Imprints, 2019.
-17. *Faith in the Age of Empire*. New Delhi: ISPCK, 2020.
+17. [*Faith in the Age of Empire: Christian Doctrines in a Postcolonial Sensibility*](/articles/faith-in-the-age-of-empire/). New Delhi: ISPCK, 2020.
 18. *Religion and Politics in the Age of New Materialism* (Malayalam). Thiruvananthapuram: Sayahna Foundation, 2020.
 19. [*Political Theology in Transition*](/articles/political-theology-in-transition/). New Delhi: Christian World Imprints, 2020.
 20. *Vasanthathinu Kathorthavar* (Malayalam). Thiruvalla: CSS, 2021.
