@@ -124,7 +124,7 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 20. *Vasanthathinu Kathorthavar* (Malayalam). Thiruvalla: CSS, 2021.
 21. *Navabhauthikavaadathinte Varthamaanakaalam* (Malayalam). Kottayam: Concord, 2021.
 22. *Lokathe Anuranjanathilekkum Aikyathilekum Nayikkunna Kristhusneham* (Malayalam). Thiruvalla: CSS, 2022.
-23. *Religion and Justice*. Bengaluru: CISRS, 2022.
+23. [*Religion and Justice*](/articles/religion-and-justice/). Bengaluru: CISRS, 2022.
 24. [*Sacrafanations: Dalit Religion(s): Epistemology, Theology, and Politics*](../amaa/sacrafanations/) (editor). Bengaluru/New Delhi: CISRS/ISPCK, 2023.
 25. [*Passion for the Real: Political Theology and the Postsecular*](/articles/passion-for-the-real/). Bengaluru/New Delhi: CISRS/ISPCK, 2025.
 26. [*A Radical Theology for the Present: The New Materialist Turn*](/articles/a-radical-theology-for-the-present/). Omega Book World, 2026.
