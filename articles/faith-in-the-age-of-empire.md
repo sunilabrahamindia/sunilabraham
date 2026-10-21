@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Faith in the Age of Empire: Christian Doctrines in a Postcolonial Sensibility"
-categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel"]
+categories: ["Y. T. Vinayaraj", "Books", "A. M. A. Ayrookuzhiel", "Books by Y. T. Vinayaraj"]
 description: A 2020 book by Y. T. Vinayaraj reconsidering Christian doctrines through postcolonial sensibility.
 permalink: /articles/faith-in-the-age-of-empire/
 publication_year: 2020
