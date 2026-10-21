@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Religion and Justice"
-categories: ["Books", "Y. T. Vinayaraj", "A. M. A. Ayrookuzhiel"]
+categories: ["Books", "Y. T. Vinayaraj", "A. M. A. Ayrookuzhiel", "Books by Y. T. Vinayaraj"]
 description: A 2022 edited volume by Y. T. Vinayaraj, published by the Christian Institute for the Study of Religion and Society (CISRS), examining religion and justice in relation to theology, ethics and public life.
 permalink: /articles/religion-and-justice/
 publication_year: 2022
