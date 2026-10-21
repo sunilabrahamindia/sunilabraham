@@ -98,15 +98,12 @@ To explore the newest pages on the site, please visit the [Newest Pages](/newest
 # Categories
 
 <ol class="sitemap-list">
-{% assign category_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" | sort: "title" %}
+{% assign category_pages = site.pages | where_exp: "p", "p.path contains 'categories/'" | where_exp: "p", "p.path != 'categories/index.md'" | sort: "title" %}
 {% for cat in category_pages %}
   {% if cat.title %}
     {% assign cat_name = cat.title | remove: 'Category:' | strip %}
     {% assign cat_count = site.pages | where_exp: "p", "p.categories contains cat_name" | size %}
 
-    {% if cat_count == 0 and cat.url == '/categories/' %}
-      {% assign cat_count = category_pages.size %}
-    {% endif %}
 
     <li>
       <a href="{{ cat.url | relative_url }}">{{ cat_name }}</a>
