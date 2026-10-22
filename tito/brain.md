@@ -140,6 +140,7 @@ The interactive model below is designed for exploration on desktop and mobile. D
 }
 #tito-brain-explorer #brain-canvas-wrap { min-height: 440px; position: relative; overflow: hidden; }
 #tito-brain-explorer #brain-canvas { display: block; width: 100%; height: 100%; min-height: 440px; touch-action: pan-y; outline: none; }
+#tito-brain-explorer #brain-loading[hidden] { display: none !important; }
 #tito-brain-explorer #brain-loading {
   position: absolute; inset: 0; display: grid; place-items: center;
   padding: 2rem; text-align: center; color: var(--brain-muted); pointer-events: none;
