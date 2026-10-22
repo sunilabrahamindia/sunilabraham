@@ -76,6 +76,12 @@ The Mind explores the human mind through visual representations of the thoughts,
     loading="lazy"
     decoding="async"
   >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-11.png"
+    alt="Wide, densely layered mixed-media illustration exploring the relationship between the human brain, sexuality, appetite, instinct and psychological conflict. A large human head in right-facing profile occupies the centre and lower-right area; the skull is opened to reveal a detailed pink cerebral surface, central brain structures, cerebellum, brainstem and descending anatomical tissues. At the upper left, a partially shadowed couple embrace closely, their faces turned towards one another and their bodies overlapping in an intimate pose. In the lower-left corner, a rustic still life of bread, a cut or bitten-looking loaf, an apple, grapes and other dark fruit evokes nourishment and bodily appetite. Across the upper centre and right, overlapping dark human silhouettes, a tangled pale line drawing resembling a confused thought or mental knot, and small primitive-looking figures and animals appear within separate weathered panels. Deep black, charcoal, blood-red, rust, ochre, brown and midnight blue dominate the palette; cracked, scratched and mottled textures make the surface feel worn and psychologically unsettled rather than clean or decorative. Thin pale neural branches and glowing points spread across the blue area near the lower right, contrasting with the dense shadows and red-black forms. The image contains no direct portrait of Sigmund Freud and no visible explanatory text. The juxtaposition invites reflection on desire, intimacy, food, instinct, conscious thought and unconscious conflict; these are interpretive associations rather than a clinical diagnosis or a literal diagram of Freud's theory."
+    loading="lazy"
+    decoding="async"
+  >
 </div>
 
 {% include navbox-tito.html %}
