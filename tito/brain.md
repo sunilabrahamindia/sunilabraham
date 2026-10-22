@@ -188,6 +188,13 @@ body.tsap-dark-mode .brain-guide-grid section { border-color: #475569; }
 }
 </style>
 
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js"
+  }
+}
+</script>
 <script type="module">
 (() => {
   const root = document.getElementById('tito-brain-explorer');
@@ -236,7 +243,7 @@ body.tsap-dark-mode .brain-guide-grid section { border-color: #475569; }
 
   async function start() {
     try {
-      const THREE = await import('https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js');
+      const THREE = await import('three');
       const { OrbitControls } = await import('https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/controls/OrbitControls.js');
       scene = new THREE.Scene();
       scene.background = new THREE.Color(0xf4f7fb);
