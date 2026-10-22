@@ -70,6 +70,12 @@ The Mind explores the human mind through visual representations of the thoughts,
     loading="lazy"
     decoding="async"
   >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-10.png"
+    alt="Landscape-format mixed-media illustration juxtaposing a human head in profile with prehistoric cave-art imagery. The head is shown as an anatomical cutaway, with the brain exposed and rendered in detailed, folded forms; the face and skull are drawn in an earthy, weathered style. Nearby, bison-like animals and other primitive-looking marks evoke paintings and drawings on a cave wall. Ochre, rust, reddish brown, charcoal and muted blue tones are layered over a rough, stone-like surface, with irregular lines and distressed textures rather than polished digital effects. The human anatomy and the animal figures remain visually distinct, bringing together two subjects: the physical structure of the brain and the long history of human image-making. The composition suggests a reflection on the relationship between the mind, symbolic expression and prehistoric art, though it does not establish a specific historical meaning for the cave imagery."
+    loading="lazy"
+    decoding="async"
+  >
 </div>
 
 {% include navbox-tito.html %}
