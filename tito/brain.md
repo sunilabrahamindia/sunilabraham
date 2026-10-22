@@ -20,17 +20,12 @@ Explore the human brain through an interactive anatomical atlas. Rotate the mode
     <p class="brain-atlas-instructions">Drag to rotate. Scroll or pinch to zoom. Select a structure to inspect it, or use the atlas search and layer controls to explore the anatomy.</p>
   </div>
 
-  <div class="brain-atlas-frame">
-    <iframe
-      src="https://itayinbarr.github.io/brainproject/"
-      title="Interactive 3D human brain atlas with individually selectable anatomical structures"
-      loading="lazy"
-      allow="fullscreen"
-      referrerpolicy="strict-origin-when-cross-origin"
-    ></iframe>
+  <div class="brain-atlas-launch">
+    <h3>Explore the full 3D brain atlas</h3>
+    <p>The external atlas currently displays its own Google Analytics consent panel inside embedded views, and on some mobile browsers the model area may remain blank. Rather than show that warning on this site or imply that TSAP uses Google Analytics, use the direct link below to open the atlas on its own website.</p>
+    <p><a class="brain-atlas-launch-link" href="https://itayinbarr.github.io/brainproject/">Open the interactive 3D brain atlas</a></p>
+    <p class="brain-atlas-note">The atlas is maintained by the Brain Project, not by this website. Its own privacy and analytics choices apply on the external site. This TSAP page does not embed or load its analytics script.</p>
   </div>
-
-  <p class="brain-atlas-fallback">If the interactive atlas does not appear in this browser, <a href="https://itayinbarr.github.io/brainproject/">open the 3D brain atlas directly</a>.</p>
 
   <details class="brain-atlas-about">
     <summary>About this model, its sources and licence</summary>
@@ -128,6 +123,32 @@ The atlas provides detailed anatomical structures. The short guide below introdu
   font-size: .92rem;
   line-height: 1.6;
 }
+#tito-brain-atlas .brain-atlas-launch {
+  border: 1px solid var(--brain-atlas-border);
+  border-top: 4px solid #245ca6;
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+  background: #f3f6fa;
+  color: #172033;
+}
+#tito-brain-atlas .brain-atlas-launch h3 { margin-top: 0; }
+#tito-brain-atlas .brain-atlas-launch p { line-height: 1.65; }
+#tito-brain-atlas .brain-atlas-launch-link {
+  display: inline-block;
+  padding: .8rem 1rem;
+  border-radius: 3px;
+  background: #184c99;
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+#tito-brain-atlas .brain-atlas-launch-link:hover { background: #123b78; }
+#tito-brain-atlas .brain-atlas-note { font-size: .9rem; color: #46536a; }
+body.tsap-dark-mode #tito-brain-atlas .brain-atlas-launch {
+  background: #1b2432;
+  color: #e5eaf2;
+}
+body.tsap-dark-mode #tito-brain-atlas .brain-atlas-note { color: #c4cedd; }
 #tito-brain-atlas .brain-atlas-about {
   border-top: 1px solid var(--brain-atlas-border);
   border-bottom: 1px solid var(--brain-atlas-border);
