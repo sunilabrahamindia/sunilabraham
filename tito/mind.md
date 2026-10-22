@@ -11,7 +11,7 @@ page_id: TSAP-1323
 created: 2026-10-12
 ---
 
-{% include author-date.html %}
+{% include author.html %}
 
 The Mind explores the human mind through visual representations of the thoughts, ideas and impressions that pass through it. This page will grow over time, with more images and related content added gradually.
 
