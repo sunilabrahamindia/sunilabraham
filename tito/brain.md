@@ -12,7 +12,6 @@ created: 2026-10-22
 
 {% include author-date.html %}
 
-# The Human Brain
 
 Explore the brain as a living system of connected structures. Rotate the model, select a region, and discover some of the functions it contributes to - from interpreting sensory information to coordinating movement, memory and language. These functions are distributed across connected areas; the descriptions here are an introduction, not a map of isolated mental abilities.
 
