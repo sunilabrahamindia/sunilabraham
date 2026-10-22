@@ -64,6 +64,12 @@ The Mind explores the human mind through visual representations of the thoughts,
     loading="lazy"
     decoding="async"
   >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-09.png"
+    alt="Landscape-format, hand-drawn anatomical portrait of a front-facing human head, neck and shoulders, with the upper skull opened to reveal the two cerebral hemispheres and their folded surface, alongside the cerebellum and central brain structures. The figure is sketched in expressive blue fountain-pen lines with black cross-hatching and irregular rust-red washes around parts of the brain and neck. Uneven strokes, loose construction marks and scattered ink blots on cream paper give the work the impression of a spontaneous, imperfect ink study. A handwritten 'Tito' signature appears at the lower right."
+    loading="lazy"
+    decoding="async"
+  >
 </div>
 
 {% include navbox-tito.html %}
