@@ -82,6 +82,12 @@ The Mind explores the human mind through visual representations of the thoughts,
     loading="lazy"
     decoding="async"
   >
+  <img
+    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-12.png"
+    alt="Wide, dark, painterly mixed-media scene about inner conflict and the difference between a person's outward presentation and hidden emotional life. A barefoot adult man sits alone in profile on a simple wooden chair near a tall, pale window at the left. He leans forward with his back curved, shoulders drawn in, elbows near his knees and hands clasped together, looking towards the window rather than at the viewer. He wears a dark, rumpled long-sleeved shirt and dark trousers. Strong light from the window falls across part of his face, forearms and the worn floor, while much of his body remains in shadow. On the wall behind him, his shadow expands into a much larger, distorted human-like form. Unlike the seated man's restrained posture, the shadow appears agitated and threatening, with a raised head, twisted torso and long, claw-like hands held tensely in the air. The shadow's silhouette is surrounded by a broad, deep red and rust-coloured area, while the room itself is rendered in charcoal, black, grey, dirty cream and muted brown. The neglected interior includes cracked and mottled plaster, a cluttered desk or table beneath the window, stacked books and loose papers, a dark cup, shelves, a few plants and indistinct furniture at the edges. The floor is uneven and heavily textured, with scattered papers and a worn rug. Rough brushwork, scratched surfaces and distressed, almost printed textures give the scene a raw, enclosed and uneasy atmosphere. There is no exposed brain, no separate floating face and no literal diagram of mental processes. The visual contrast between the quiet, physically contained person and the distorted, emotionally charged shadow suggests anger, fear, frustration or other feelings that remain unexpressed outwardly. The shadow is a metaphorical image, not evidence that the person has a particular mental-health condition. Possible descriptive tags for later sorting: inner conflict, divided self, hidden emotion, shadow self, repression, anger, unease, solitude, dark mood, introspection, psychological symbolism."
+    loading="lazy"
+    decoding="async"
+  >
 </div>
 
 {% include navbox-tito.html %}
