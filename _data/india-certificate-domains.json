@@ -1,0 +1,79 @@
+{
+  "websites": [
+    {
+      "name": "Reserve Bank of India",
+      "domain": "rbi.org.in",
+      "category": "Finance"
+    },
+    {
+      "name": "National Payments Corporation of India",
+      "domain": "npci.org.in",
+      "category": "Payments"
+    },
+    {
+      "name": "Unique Identification Authority of India",
+      "domain": "uidai.gov.in",
+      "category": "Digital public infrastructure"
+    },
+    {
+      "name": "India.gov.in",
+      "domain": "india.gov.in",
+      "category": "Government"
+    },
+    {
+      "name": "Ministry of Electronics and Information Technology",
+      "domain": "meity.gov.in",
+      "category": "Government"
+    },
+    {
+      "name": "Income Tax Department",
+      "domain": "incometax.gov.in",
+      "category": "Government"
+    },
+    {
+      "name": "Employees' Provident Fund Organisation",
+      "domain": "epfindia.gov.in",
+      "category": "Public services"
+    },
+    {
+      "name": "State Bank of India",
+      "domain": "sbi.co.in",
+      "category": "Banking"
+    },
+    {
+      "name": "SBI Online Banking",
+      "domain": "onlinesbi.sbi",
+      "category": "Banking"
+    },
+    {
+      "name": "Press Information Bureau",
+      "domain": "pib.gov.in",
+      "category": "Government"
+    },
+    {
+      "name": "National Informatics Centre",
+      "domain": "nic.in",
+      "category": "Government"
+    },
+    {
+      "name": "Ministry of Home Affairs",
+      "domain": "mha.gov.in",
+      "category": "Government"
+    },
+    {
+      "name": "Ministry of Finance",
+      "domain": "finmin.gov.in",
+      "category": "Government"
+    },
+    {
+      "name": "IRCTC",
+      "domain": "irctc.co.in",
+      "category": "Public services"
+    },
+    {
+      "name": "Goods and Services Tax Portal",
+      "domain": "gst.gov.in",
+      "category": "Government"
+    }
+  ]
+}
