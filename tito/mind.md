@@ -17,20 +17,8 @@ The Mind explores the human mind through visual representations of the thoughts,
 
 <div id="tito-mind-gallery" aria-label="Visual representations of the human mind">
   <img
-    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-01.png"
-    alt="Front-facing anatomical illustration of a human upper body, from the head to the chest, against a dark charcoal background. The transparent outer layer reveals the brain, facial muscles, neck structures, ribs and chest muscles. Numerous small and large amber-gold and cool blue-white luminous spheres appear within the brain, suggesting thoughts and mental activity. The figure looks directly ahead with a neutral expression."
-    loading="lazy"
-    decoding="async"
-  >
-  <img
     src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-02.png"
     alt="Renaissance-inspired anatomical study of a human head and upper torso in right-facing profile on aged, warm sepia parchment. Fine ink-like lines reveal the brain, facial structure, neck, vessels and shoulder. The brain contains many translucent thought-like spheres of varied sizes in muted gold, amber, blue, turquoise, green and violet, connected by delicate luminous filaments. Small anatomical sketches, geometric diagrams and handwritten marks surround the figure, combining scientific notebook imagery with a contemporary visualisation of thought."
-    loading="lazy"
-    decoding="async"
-  >
-  <img
-    src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-03.png"
-    alt="Front-facing portrait of a human figure formed from translucent blue water droplets and flowing liquid strands, against an abstract dark blue and amber background. The head reveals irregular orange, gold and reddish sparks linked by delicate glowing filaments, suggesting thoughts and neural activity. Small suspended droplets surround the head and shoulders."
     loading="lazy"
     decoding="async"
   >
@@ -95,6 +83,13 @@ The Mind explores the human mind through visual representations of the thoughts,
     decoding="async"
   >
 </div>
+
+## Other depictions
+
+Some images are presented separately from the gallery above, either because they have been removed from it or for other reasons.
+
+- [mind-01.png](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-01.png)
+- [mind-03.png](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-03.png)
 
 {% include navbox-tito.html %}
 
