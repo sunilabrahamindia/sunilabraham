@@ -570,3 +570,10 @@ body.tsap-dark-mode .breadcrumb a:hover {
 body.tsap-dark-mode .breadcrumb span {
   color: #f3f4f6 !important; /* Clean white for active page */
 }
+
+
+/* Indian website certificate expiry dashboard */
+body.tsap-dark-mode .certificate-status-valid { color: #86efac; }
+body.tsap-dark-mode .certificate-status-expiring { color: #fcd34d; }
+body.tsap-dark-mode .certificate-status-expired,
+body.tsap-dark-mode .certificate-status-error { color: #fca5a5; }
