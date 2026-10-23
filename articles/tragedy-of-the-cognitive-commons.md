@@ -235,8 +235,8 @@ The paper does not establish that expertise is already declining across professi
 
 ## References {#references}
 
-- Lovett, Nolan. "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise." *Human Resource Development Review*. [https://doi.org/10.1177/15344843261470602](https://doi.org/10.1177/15344843261470602).
-- Lovett, Nolan. "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise." Author-accepted manuscript. [https://arxiv.org/abs/2607.29380](https://arxiv.org/abs/2607.29380).
+1. Lovett, Nolan. "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise." *Human Resource Development Review*. [https://doi.org/10.1177/15344843261470602](https://doi.org/10.1177/15344843261470602).
+2. Lovett, Nolan. "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise." Author-accepted manuscript. [https://arxiv.org/abs/2607.29380](https://arxiv.org/abs/2607.29380).
 
 ## External Links {#external-links}
 
