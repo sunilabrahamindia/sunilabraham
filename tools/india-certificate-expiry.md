@@ -182,7 +182,7 @@ The domain list is curated from publicly identifiable official websites and may 
     .then(data => {
       results = Array.isArray(data.results) ? data.results : [];
       updated.textContent = data.last_checked_utc
-        ? 'Last checked: ' + data.last_checked_utc.replace('T', ' ').replace(/Z$/, ' UTC')
+        ? 'Last checked: ' + data.last_checked_utc.replace('T', ' ').replace(/\.\d+Z$/, ' UTC').replace(/Z$/, ' UTC')
         : 'The first scheduled monitoring run has not completed yet.';
       if (!results.length) updated.textContent = 'No monitoring results are available yet. Check back after the first scheduled run.';
       render();
