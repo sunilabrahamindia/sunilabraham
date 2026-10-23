@@ -1,4 +1,215 @@
 {
-  "last_checked_utc": null,
-  "results": []
+  "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+  "results": [
+    {
+      "name": "Press Information Bureau",
+      "domain": "pib.gov.in",
+      "category": "Government",
+      "status": "ok",
+      "expiry_utc": "2026-11-08T06:36:02Z",
+      "days_remaining": 16,
+      "issuer": {
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa",
+        "commonName": "GlobalSign RSA OV SSL CA 2018"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "Ministry of Electronics and Information Technology",
+      "domain": "meity.gov.in",
+      "category": "Government",
+      "status": "ok",
+      "expiry_utc": "2026-11-19T08:23:07Z",
+      "days_remaining": 27,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Let's Encrypt",
+        "commonName": "YE1"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "SBI Online Banking",
+      "domain": "onlinesbi.sbi",
+      "category": "Banking",
+      "status": "ok",
+      "expiry_utc": "2026-11-29T23:59:59Z",
+      "days_remaining": 37,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "commonName": "DigiCert EV RSA CA G2"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "IRCTC",
+      "domain": "irctc.co.in",
+      "category": "Public services",
+      "status": "ok",
+      "expiry_utc": "2026-12-05T11:46:21Z",
+      "days_remaining": 43,
+      "issuer": {
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa",
+        "commonName": "GlobalSign GCC R3 EV TLS CA 2025"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "Goods and Services Tax Portal",
+      "domain": "gst.gov.in",
+      "category": "Government",
+      "status": "ok",
+      "expiry_utc": "2026-12-12T09:01:23Z",
+      "days_remaining": 50,
+      "issuer": {
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa",
+        "commonName": "GlobalSign RSA OV SSL CA 2018"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "National Payments Corporation of India",
+      "domain": "npci.org.in",
+      "category": "Payments",
+      "status": "ok",
+      "expiry_utc": "2026-12-18T23:59:59Z",
+      "days_remaining": 56,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "commonName": "DigiCert Global G3 TLS ECC SHA384 2020 CA1"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "State Bank of India",
+      "domain": "sbi.co.in",
+      "category": "Banking",
+      "status": "ok",
+      "expiry_utc": "2026-12-31T23:59:59Z",
+      "days_remaining": 69,
+      "issuer": {
+        "countryName": "CA",
+        "organizationName": "Entrust Limited",
+        "commonName": "Entrust DV TLS Issuing RSA CA 2"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "Ministry of Home Affairs",
+      "domain": "mha.gov.in",
+      "category": "Government",
+      "status": "ok",
+      "expiry_utc": "2027-01-10T08:18:33Z",
+      "days_remaining": 79,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Let's Encrypt",
+        "commonName": "YE2"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "India.gov.in",
+      "domain": "india.gov.in",
+      "category": "Government",
+      "status": "ok",
+      "expiry_utc": "2027-01-14T05:34:53Z",
+      "days_remaining": 83,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Let's Encrypt",
+        "commonName": "YE1"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "Reserve Bank of India",
+      "domain": "rbi.org.in",
+      "category": "Finance",
+      "status": "ok",
+      "expiry_utc": "2027-04-23T23:59:59Z",
+      "days_remaining": 182,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com",
+        "commonName": "GeoTrust TLS RSA CA G1"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "Unique Identification Authority of India",
+      "domain": "uidai.gov.in",
+      "category": "Digital public infrastructure",
+      "status": "ok",
+      "expiry_utc": "2027-05-07T23:59:59Z",
+      "days_remaining": 196,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA OV R36"
+      },
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": null
+    },
+    {
+      "name": "Employees' Provident Fund Organisation",
+      "domain": "epfindia.gov.in",
+      "category": "Public services",
+      "status": "error",
+      "expiry_utc": null,
+      "days_remaining": null,
+      "issuer": null,
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": "TimeoutError: timed out"
+    },
+    {
+      "name": "Ministry of Finance",
+      "domain": "finmin.gov.in",
+      "category": "Government",
+      "status": "error",
+      "expiry_utc": null,
+      "days_remaining": null,
+      "issuer": null,
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": "TimeoutError: timed out"
+    },
+    {
+      "name": "Income Tax Department",
+      "domain": "incometax.gov.in",
+      "category": "Government",
+      "status": "error",
+      "expiry_utc": null,
+      "days_remaining": null,
+      "issuer": null,
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": "gaierror: [Errno -5] No address associated with hostname"
+    },
+    {
+      "name": "National Informatics Centre",
+      "domain": "nic.in",
+      "category": "Government",
+      "status": "error",
+      "expiry_utc": null,
+      "days_remaining": null,
+      "issuer": null,
+      "last_checked_utc": "2026-10-23T19:45:49.726134Z",
+      "error": "gaierror: [Errno -5] No address associated with hostname"
+    }
+  ]
 }
