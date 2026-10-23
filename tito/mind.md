@@ -13,7 +13,7 @@ created: 2026-10-12
 
 {% include author.html %}
 
-The Mind explores the human mind through visual representations of the thoughts, ideas and impressions that pass through it. This page will grow over time, with more images and related content added gradually.
+**The Mind** explores the human mind through visual representations of the thoughts, ideas and impressions that pass through it. This page will grow over time, with more images and related content added gradually.
 
 <div id="tito-mind-gallery" aria-label="Visual representations of the human mind">
   <img
