@@ -88,8 +88,8 @@ The Mind explores the human mind through visual representations of the thoughts,
 
 Some images are presented separately from the gallery above, either because they have been removed from it or for other reasons.
 
-- [mind-01.png](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-01.png)
-- [mind-03.png](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-03.png)
+- [mind-01.png](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-01.png) — Anatomical illustration of the human upper body, with luminous spheres inside the brain suggesting thoughts and mental activity.
+- [mind-03.png](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/gallery/mind-03.png) — Human figure formed from translucent water droplets and flowing liquid strands, with glowing sparks and filaments in the head suggesting thoughts and neural activity.
 
 {% include navbox-tito.html %}
 
