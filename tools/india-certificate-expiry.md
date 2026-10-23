@@ -2,13 +2,14 @@
 layout: default
 title: "Indian Website Certificate Expiry Monitor"
 description: "An independent public dashboard tracking TLS certificate expiry for selected important Indian websites."
-lead: "**Indian Website Certificate Expiry Monitor** is an independent public-interest project that tracks the expiry dates of TLS certificates presented by selected important Indian websites. The immediate inspiration for this tool is a [tweet by Pranesh Prakash](https://x.com/pranesh/status/2113592458349338640). This tool is at an early stage of development and will be improved gradually."
 permalink: /tools/india-certificate-expiry/
 categories: [Tools, Security]
 created: 2026-10-24
 ---
 
 {% include under-construction.html %}
+
+<p class="lead">**Indian Website Certificate Expiry Monitor** is an independent public-interest project that tracks the expiry dates of TLS certificates presented by selected important Indian websites. The immediate inspiration for this tool is a [tweet by Pranesh Prakash](https://x.com/pranesh/status/2113592458349338640). This tool is at an early stage of development and will be improved gradually.</p>
 
 
 <style>
