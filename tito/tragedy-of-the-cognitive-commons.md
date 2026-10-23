@@ -3,7 +3,7 @@ layout: default
 title: "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise"
 description: "An overview of Nolan Lovett's conceptual paper on artificial intelligence, professional expertise and the renewal of professional knowledge."
 categories: [Articles]
-permalink: /articles/tragedy-of-the-cognitive-commons/
+permalink: /tito/tragedy-of-the-cognitive-commons/
 created: 2026-10-23
 ---
 
