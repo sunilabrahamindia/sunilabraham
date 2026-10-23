@@ -1,5 +1,19 @@
 [
   {
+    "title": "Indian Website Certificate Expiry Monitor",
+    "description": "An independent public dashboard tracking TLS certificate expiry for selected important Indian websites.",
+    "created": "2026-10-24",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Tools",
+      "Security"
+    ],
+    "permalink": "https://sunilabraham.in/tools/india-certificate-expiry/",
+    "source_path": "tools/india-certificate-expiry.md"
+  },
+  {
     "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise",
     "description": "An overview of Nolan Lovett's conceptual paper on artificial intelligence, professional expertise and the renewal of professional knowledge.",
     "created": "2026-10-23",
