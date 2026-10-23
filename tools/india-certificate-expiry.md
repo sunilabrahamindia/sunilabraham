@@ -9,7 +9,7 @@ created: 2026-10-24
 
 {% include under-construction.html %}
 
-<p class="lead"><strong>Indian Website Certificate Expiry Monitor</strong> is an independent public-interest project that tracks the expiry dates of TLS certificates presented by selected important Indian websites.</p>
+**Indian Website Certificate Expiry Monitor** is an independent public-interest project that tracks the expiry dates of TLS certificates presented by selected important Indian websites.
 
 
 
