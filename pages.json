@@ -1,5 +1,18 @@
 [
   {
+    "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise",
+    "description": "An overview of Nolan Lovett's conceptual paper on artificial intelligence, professional expertise and the renewal of professional knowledge.",
+    "created": "2026-10-23",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Articles"
+    ],
+    "permalink": "https://sunilabraham.in/articles/tragedy-of-the-cognitive-commons/",
+    "source_path": "articles/tragedy-of-the-cognitive-commons.md"
+  },
+  {
     "title": "Known Issues",
     "description": "A record of known issues, limitations, improvements and modifications requiring attention on The Sunil Abraham Project (TSAP).",
     "created": "2026-10-22",
