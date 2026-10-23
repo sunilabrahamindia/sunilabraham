@@ -299,7 +299,7 @@ robots: noindex
       scene.background = new THREE.Color(0xf5f2eb);
       scene.fog = new THREE.Fog(0xf5f2eb, 15, 30);
       camera = new THREE.PerspectiveCamera(42, stage.clientWidth / stage.clientHeight, 0.1, 100);
-      camera.position.set(0, 0, 9.5);
+      camera.position.set(0, 0, 5.5);
 
       renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
       renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
@@ -315,6 +315,10 @@ robots: noindex
       scene.add(keyLight);
 
       world = new THREE.Group();
+      // Keep the exhibit in front of the viewer in both normal and immersive views.
+      // WebXR places the viewer at the origin, unlike the desktop camera.
+      world.scale.setScalar(0.65);
+      world.position.set(0, 0, -4);
       scene.add(world);
       bookGroup = new THREE.Group();
       bookGroup.position.set(-2.6, 0.05, 0);
@@ -405,8 +409,8 @@ robots: noindex
   resetButton.addEventListener('click', () => {
     if (world) {
       world.rotation.set(0, 0, 0);
-      camera.position.set(0, 0, 9.5);
-      camera.lookAt(0, 0, 0);
+      camera.position.set(0, 0, 5.5);
+      camera.lookAt(0, 0, -4);
       bookGroup.rotation.set(0, -0.12, 0);
     }
     setSelected(-1);
@@ -417,8 +421,9 @@ robots: noindex
     setSelected(index);
     if (world) {
       world.rotation.set(0, 0, 0);
-      camera.position.set(index === 0 ? -0.25 : index === 1 ? 0.25 : 0.65, 0, 8.3);
-      camera.lookAt(themeMeshes[index]?.position.x ?? 0, 0, 0);
+      camera.position.set(index === 0 ? -0.25 : index === 1 ? 0.25 : 0.65, 0, 4.3);
+      const targetX = (themeMeshes[index]?.position.x ?? 0) * 0.65;
+      camera.lookAt(targetX, 0, -4);
     }
   }));
 
