@@ -7,6 +7,8 @@ permalink: /articles/tragedy-of-the-cognitive-commons/
 created: 2026-10-23
 ---
 
+{% include under-construction.html %}
+
 **The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise** is a conceptual research paper by Nolan Lovett, published online in *Human Resource Development Review* on 26 July 2026. It examines how artificial intelligence (AI) adoption could affect the development and renewal of professional expertise. The paper proposes that organisations may individually benefit from AI-assisted productivity while collectively weakening the processes through which professions develop experienced practitioners.
 
 Lovett introduces the concept of the "Cognitive Commons", the collective pool of deep professional expertise within a profession. The paper distinguishes between "Internalized Mastery", deep domain knowledge developed through sustained practice, and "Distributed Mastery", proficiency in orchestrating AI systems and human-AI workflows. Its concept of the "Validation Tether" describes the dependence of effective AI oversight on the expertise needed to recognise substantive errors in AI-generated outputs.
