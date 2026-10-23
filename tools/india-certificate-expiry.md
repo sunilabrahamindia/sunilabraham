@@ -11,6 +11,14 @@ created: 2026-10-24
 
 <p class="lead"><strong>Indian Website Certificate Expiry Monitor</strong> is an independent public-interest project that tracks the expiry dates of TLS certificates presented by selected important Indian websites.</p>
 
+
+
+This independent public-interest project tracks the expiry dates of TLS certificates presented by selected important Indian websites. It is an experimental monitoring resource, not an official government or financial-sector service. Results describe the specific public hostname checked and do not establish the security of an institution's entire network, mobile applications, or payment infrastructure.
+
+The monitor checks the selected websites automatically and records the latest result. A certificate's expiry date is not, by itself, proof of a security incident: a failed check can also result from a network problem, hostname issue, or a service being unavailable. Please verify important findings with the relevant organisation before drawing conclusions. 
+
+The immediate inspiration for this tool is a <a href="https://x.com/pranesh/status/2113592458349338640">tweet by Pranesh Prakash</a>. This tool is at an early stage of development and will be improved gradually.
+
 <!-- hidden note
 Dependency files for this page:
 - tools/india-certificate-expiry.md — page content, dashboard HTML, JavaScript and page-specific CSS
@@ -20,12 +28,6 @@ Dependency files for this page:
 - .github/workflows/india-certificate-monitor.yml — scheduled monitoring workflow
 - _includes/under-construction.html — under-construction notice included on this page
 -->
-
-This independent public-interest project tracks the expiry dates of TLS certificates presented by selected important Indian websites. It is an experimental monitoring resource, not an official government or financial-sector service. Results describe the specific public hostname checked and do not establish the security of an institution's entire network, mobile applications, or payment infrastructure.
-
-The monitor checks the selected websites automatically and records the latest result. A certificate's expiry date is not, by itself, proof of a security incident: a failed check can also result from a network problem, hostname issue, or a service being unavailable. Please verify important findings with the relevant organisation before drawing conclusions. 
-
-The immediate inspiration for this tool is a <a href="https://x.com/pranesh/status/2113592458349338640">tweet by Pranesh Prakash</a>. This tool is at an early stage of development and will be improved gradually.
 
 ## Current results
 
