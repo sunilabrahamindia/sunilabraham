@@ -74,6 +74,21 @@
       "name": "Goods and Services Tax Portal",
       "domain": "gst.gov.in",
       "category": "Government"
+    },
+    {
+      "name": "eMudhra",
+      "domain": "emudhra.com",
+      "category": "Certificate authority"
+    },
+    {
+      "name": "Passport Seva",
+      "domain": "passportindia.gov.in",
+      "category": "Public services"
+    },
+    {
+      "name": "DigiLocker",
+      "domain": "digilocker.gov.in",
+      "category": "Digital public infrastructure"
     }
   ]
 }
