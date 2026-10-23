@@ -11,38 +11,6 @@ created: 2026-10-24
 
 <p class="lead"><strong>Indian Website Certificate Expiry Monitor</strong> is an independent public-interest project that tracks the expiry dates of TLS certificates presented by selected important Indian websites. The immediate inspiration for this tool is a <a href="https://x.com/pranesh/status/2113592458349338640">tweet by Pranesh Prakash</a>. This tool is at an early stage of development and will be improved gradually.</p>
 
-
-<style>
-/* Indian website certificate expiry dashboard */
-.certificate-dashboard { margin: 1.25rem 0 2rem; }
-.certificate-controls { display: grid; grid-template-columns: 1fr; gap: .4rem; margin: 1rem 0; max-width: 36rem; }
-.certificate-controls input, .certificate-controls select { width: 100%; min-height: 2.75rem; padding: .55rem .7rem; border: 1px solid var(--border-sub, #767676); border-radius: .25rem; background: var(--bg-surface, #fff); color: var(--text-main, #1a1a1a); }
-.certificate-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: .75rem; margin: 1rem 0; }
-.certificate-summary > div { border: 1px solid var(--border-main, #d8dee4); border-radius: .25rem; padding: .85rem; background: var(--bg-surface, #fff); }
-.certificate-summary span, .certificate-summary small { display: block; }
-.certificate-summary span { font-size: 1.5rem; font-weight: 700; }
-.certificate-summary small, .certificate-domain { color: var(--text-muted, #444); }
-.certificate-table-wrap { overflow-x: auto; }
-.certificate-table { width: 100%; border-collapse: collapse; }
-.certificate-table th, .certificate-table td { padding: .7rem; border: 1px solid var(--table-border, #767676); text-align: left; vertical-align: top; }
-.certificate-table th { background: var(--table-th-bg, #f2f2f2); color: var(--table-th-text, #222); }
-.certificate-table th button { color: inherit; background: transparent; border: 0; font: inherit; font-weight: 700; text-decoration: underline; cursor: pointer; padding: .15rem; }
-.certificate-domain { display: block; font-size: .85rem; overflow-wrap: anywhere; }
-.certificate-status { display: inline-block; padding: .2rem .45rem; border: 1px solid currentColor; border-radius: .2rem; font-size: .9rem; font-weight: 600; }
-.certificate-status-valid { color: #176534; }
-.certificate-status-expiring { color: #8a4b00; }
-.certificate-status-expired, .certificate-status-error { color: #a61b1b; }
-.certificate-note { font-size: .95rem; }
-@media (max-width: 40rem) { .certificate-table { min-width: 42rem; } }
-
-/* Certificate status colours for the site's dark mode */
-body.tsap-dark-mode .certificate-status-valid { color: #86efac; }
-body.tsap-dark-mode .certificate-status-expiring { color: #fcd34d; }
-body.tsap-dark-mode .certificate-status-expired,
-body.tsap-dark-mode .certificate-status-error { color: #fca5a5; }
-</style>
-
-
 This independent public-interest project tracks the expiry dates of TLS certificates presented by selected important Indian websites. It is an experimental monitoring resource, not an official government or financial-sector service. Results describe the specific public hostname checked and do not establish the security of an institution's entire network, mobile applications, or payment infrastructure.
 
 The monitor checks the selected websites automatically and records the latest result. A certificate's expiry date is not, by itself, proof of a security incident: a failed check can also result from a network problem, hostname issue, or a service being unavailable. Please verify important findings with the relevant organisation before drawing conclusions.
@@ -220,3 +188,32 @@ The domain list is curated from publicly identifiable official websites and may 
 })();
 </script>
 
+<style>
+/* Indian website certificate expiry dashboard */
+.certificate-dashboard { margin: 1.25rem 0 2rem; }
+.certificate-controls { display: grid; grid-template-columns: 1fr; gap: .4rem; margin: 1rem 0; max-width: 36rem; }
+.certificate-controls input, .certificate-controls select { width: 100%; min-height: 2.75rem; padding: .55rem .7rem; border: 1px solid var(--border-sub, #767676); border-radius: .25rem; background: var(--bg-surface, #fff); color: var(--text-main, #1a1a1a); }
+.certificate-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: .75rem; margin: 1rem 0; }
+.certificate-summary > div { border: 1px solid var(--border-main, #d8dee4); border-radius: .25rem; padding: .85rem; background: var(--bg-surface, #fff); }
+.certificate-summary span, .certificate-summary small { display: block; }
+.certificate-summary span { font-size: 1.5rem; font-weight: 700; }
+.certificate-summary small, .certificate-domain { color: var(--text-muted, #444); }
+.certificate-table-wrap { overflow-x: auto; }
+.certificate-table { width: 100%; border-collapse: collapse; }
+.certificate-table th, .certificate-table td { padding: .7rem; border: 1px solid var(--table-border, #767676); text-align: left; vertical-align: top; }
+.certificate-table th { background: var(--table-th-bg, #f2f2f2); color: var(--table-th-text, #222); }
+.certificate-table th button { color: inherit; background: transparent; border: 0; font: inherit; font-weight: 700; text-decoration: underline; cursor: pointer; padding: .15rem; }
+.certificate-domain { display: block; font-size: .85rem; overflow-wrap: anywhere; }
+.certificate-status { display: inline-block; padding: .2rem .45rem; border: 1px solid currentColor; border-radius: .2rem; font-size: .9rem; font-weight: 600; }
+.certificate-status-valid { color: #176534; }
+.certificate-status-expiring { color: #8a4b00; }
+.certificate-status-expired, .certificate-status-error { color: #a61b1b; }
+.certificate-note { font-size: .95rem; }
+@media (max-width: 40rem) { .certificate-table { min-width: 42rem; } }
+
+/* Certificate status colours for the site's dark mode */
+body.tsap-dark-mode .certificate-status-valid { color: #86efac; }
+body.tsap-dark-mode .certificate-status-expiring { color: #fcd34d; }
+body.tsap-dark-mode .certificate-status-expired,
+body.tsap-dark-mode .certificate-status-error { color: #fca5a5; }
+</style>
