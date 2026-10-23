@@ -2,7 +2,7 @@
 layout: default
 title: "Indian Website Certificate Expiry Monitor"
 description: "An independent public dashboard tracking TLS certificate expiry for selected important Indian websites."
-lead: "A public-interest monitor for certificate expiry on selected Indian government, financial and public-service websites."
+lead: "**Indian Website Certificate Expiry Monitor** is an independent public-interest project that tracks the expiry dates of TLS certificates presented by selected important Indian websites."
 permalink: /tools/india-certificate-expiry/
 categories: [Tools, Security]
 created: 2026-10-24
@@ -39,7 +39,6 @@ body.tsap-dark-mode .certificate-status-expired,
 body.tsap-dark-mode .certificate-status-error { color: #fca5a5; }
 </style>
 
-# Indian Website Certificate Expiry Monitor
 
 This independent public-interest project tracks the expiry dates of TLS certificates presented by selected important Indian websites. It is an experimental monitoring resource, not an official government or financial-sector service. Results describe the specific public hostname checked and do not establish the security of an institution's entire network, mobile applications, or payment infrastructure.
 
