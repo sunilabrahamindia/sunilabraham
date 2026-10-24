@@ -1,0 +1,70 @@
+---
+layout: default
+title: "Vibodh Parthasarathi"
+description: "Biography of Vibodh Parthasarathi, Indian academic and researcher in media policy, media governance, communication studies and the digital media economy."
+categories: [Biographies]
+permalink: /vibodh/
+created: 2026-10-24
+---
+
+**Vibodh Parthasarathi** is an Indian academic and media policy researcher whose work examines media regulation, media governance, communication studies, creative industries, media history and the digital media economy. He is associated with the Centre for Culture, Media and Governance at Jamia Millia Islamia in New Delhi. His research has addressed the regulation and ownership of media, the economics of India's media industries, digital transitions in newspapers and television, and the history of recorded music in India. He co-edited *The Indian Media Economy* (2018) and *Platform Capitalism in India* (2020).<sup>[1][2][3][4]</sup>
+
+## Education
+
+Parthasarathi studied history at St Stephen's College, University of Delhi, graduating with a Bachelor of Arts (Honours) degree in 1990. He received a master's degree in Mass Communication from the Mass Communication Research Centre at Jamia Millia Islamia in 1992, followed by a master's degree in Development Studies from the Institute of Social Studies in The Hague in 1994. These qualifications are listed in his curriculum vitae and in Jamia Millia Islamia's faculty profile.<sup>[1][2]</sup>
+
+In 2024, the University of Helsinki published his doctoral dissertation, *A Considered Silence: The Regulatory History of Press Ownership in India*, in its dissertation series. The thesis examines the regulatory history of press ownership in India and is catalogued by the university as a doctoral dissertation in media and communication studies.<sup>[4]</sup>
+
+## Career
+
+Parthasarathi's early professional work included television production. His curriculum vitae lists him as an independent television producer in New Delhi during 1995–1997 and 1999–2002. The same record lists a period as an independent researcher and policy analyst from 2002 to 2006, and a visiting professorship at Jamia Millia Islamia's Centre for Jawaharlal Nehru Studies in 2006–2007. Jamia's faculty profile also records earlier work at the Manipal Institute of Communication and the Centre for Co-operative Research in Social Sciences.<sup>[1][2]</sup>
+
+He subsequently joined the Centre for Culture, Media and Governance (CCMG) at Jamia Millia Islamia, where institutional and professional profiles identify him as an associate professor. His teaching and curriculum work has included the MA programme in Media Governance, courses on media policy and regulation, transnational communication, and media advocacy, as well as curriculum development for media and communication programmes.<sup>[1][2][3]</sup>
+
+Parthasarathi has also participated in international research collaborations and academic exchanges. His profiles record visiting-scholar or visiting-fellow engagements with institutions including the University of Queensland, KU Leuven, the University of Helsinki, Lund University and the Indian Institute of Technology Bombay. He has presented research at conferences and universities in India and abroad, including events organised by the International Communication Association and the International Association for Media and Communication Research.<sup>[1][3][5]</sup>
+
+## Research
+
+Parthasarathi's research spans media policy and regulation, media governance, media diversity, the political economy of communication, creative industries and media history. His work has examined the relationship between media ownership, regulation and pluralism, as well as the economic and institutional structures of television distribution and the newspaper industry in India.<sup>[1][3][6]</sup>
+
+### Media policy and governance
+
+From the late 2000s onwards, Parthasarathi coordinated and co-directed research projects on media governance, media advocacy, media pluralism and media policy. His curriculum vitae records projects supported by organisations including the Ford Foundation, the International Development Research Centre, HIVOS, the Social Science Research Council, the Indian Council of Social Science Research, the University Grants Commission and the Open Society Foundations. These projects included work on measuring media diversity, tracking access and diversity in television distribution, and developing teaching resources on media policy and law.<sup>[1]</sup>
+
+His publications on media regulation include "Deciphering Chindia: Two Accents of Media Governance" (2010), "On the Constituted Contexts of Public Communication: Early Policy Debates on the Press in India" (2014), "Rein and Laissez Faire: The Dual Personality of Media Regulation in India" (2020, co-authored with S. Agarwal), and "Dismembering Media Diversity: A Tryst with Two Press Commissions" (2021). His doctoral dissertation, *A Considered Silence*, extended this research into the regulatory history of press ownership in India.<sup>[4][7]</sup>
+
+### Media economy and digital platforms
+
+Parthasarathi has studied the changing business and market structures of Indian media, including television distribution, newspaper digitisation, online video and digital platforms. His work on newspaper transitions includes a 2016 Reuters Institute for the Study of Journalism report, *Digital Transition of Newspapers in India: Dainik Jagran, Hindustan Times, and Malayala Manorama*, co-authored with Zainab Aneez, S. Chattapadhyay and Rasmus Kleis Nielsen. His research on television distribution has addressed ownership patterns and the regulatory and commercial dynamics of cable networks.<sup>[1][7]</sup>
+
+In 2018, he co-edited the two-volume *The Indian Media Economy* with Adrian Athique and S. V. Srinivas. Published by Oxford University Press, the work examines the industrial dynamics and cultural adaptation of India's media economy, alongside market dynamics and social transactions across media industries.<sup>[6]</sup>
+
+In 2020, Parthasarathi and Adrian Athique co-edited *Platform Capitalism in India*, published by Palgrave Macmillan. The collection examines the development of platform economies in India and their relationships with business, labour, politics and culture. Later work listed in his academic profile addresses video-on-demand markets, digital media infrastructures, creative industries and the regulation of digital markets.<sup>[3][7]</sup>
+
+### Media history and recorded music
+
+Another strand of Parthasarathi's research concerns the history of media industries and recorded sound in India. His publications include "Construing a 'New Media' Market: Merchandising the Talking Machine, c. 1900–1913" (2005), "Not Just Mad Englishmen and a Dog: The Colonial Tuning of 'Music on Record', 1900–1908" (2007), and "The Evolution of an Early Media Enterprise: The Gramophone Company in India, 1898–1912" (2013). This work considers the commercial, cultural and historical conditions through which recorded music developed as a media industry.<sup>[1][7]</sup>
+
+## Publications and editorial work
+
+Parthasarathi has published journal articles, research reports and book chapters, and has co-edited academic collections. His early editorial work included the three-volume *Communication Processes* series, published by Sage between 2005 and 2010, and the French-language collection *L'idiot du Village Mondial*, co-edited with Michel Sauquet in 2004. He also co-edited a themed issue on public spheres and the media in India for *Media International Australia* in 2014.<sup>[1][7]</sup>
+
+His later edited books include *The Indian Media Economy* (2018), with Adrian Athique and S. V. Srinivas; *Platform Capitalism in India* (2020), with Adrian Athique; and *Pedagogy in Practice: Project-Based Learning in Media Policy and Governance* (2022), with Biswajit Das and Santosh Panda. The last of these documents approaches to teaching media policy and governance through project-based learning.<sup>[3][6][8]</sup>
+
+His curriculum vitae also records editorial and advisory roles associated with *Global Media and Communication*, *Media Asia* and the India Media Centre at the University of Westminster. More recent professional profiles describe his involvement with the Media and Journalism Research Center, The Media Foundation, MIT Press, Oxford University Press and journals in digital media and communication studies. These roles have varied over time and should be read in the context of the dates of the respective profiles.<sup>[1][3][5]</sup>
+
+## References
+
+1. [Vibodh Parthasarathi: Curriculum vitae](https://jmi.ac.in/upload/employeeresume/vparthasarathi.pdf), Jamia Millia Islamia. The CV records education, professional appointments, research projects, teaching, publications and affiliations.
+2. [Vibodh Parthasarathi](https://www.jmi.ac.in/Centre-For-Culture-Media-%26-Governance/Faculty-Members/1620/mailto%27vparthasarathi%40jmi.ac.in%2C%20ccmgjmi%40gmail.com%27), Centre for Culture, Media and Governance, Jamia Millia Islamia.
+3. [Vibodh Parthasarathi (Dr)](https://www.iicom.org/profile/vibodh-parthasarath/), International Institute of Communications.
+4. [A Considered Silence: The Regulatory History of Press Ownership in India](https://researchportal.helsinki.fi/en/publications/a-considered-silence-the-regulatory-history-of-press-ownership-in/), University of Helsinki Research Portal, 2024.
+5. [Vibodh Parthasarathi](https://www.sasnet.lu.se/staff/sasnet-affiliated-researchers/vibodh-parthasarathi), Swedish South Asian Studies Network, Lund University.
+6. [The Indian Media Economy](https://india.oup.com/product/the-indian-media-economy-2-volume-setvol-i-industrial-dynamics-and-cultural-adaptationvol-ii-market-dynamics-and-social-transactions-9780199482658/), Oxford University Press.
+7. [Vibodh Parthasarathi](https://jmi.academia.edu/VibodhParthasarathi), academic profile and publication list on Academia.edu.
+8. [Platform Capitalism in India](https://link.springer.com/book/10.1007/978-3-030-44563-8), Palgrave Macmillan / Springer Nature.
+
+## External links
+
+- [Vibodh Parthasarathi](https://scholar.google.com/citations?user=qFuEE2AAAAAJ&hl=en) on Google Scholar
+- [Vibodh Parthasarathi](https://jmi.academia.edu/VibodhParthasarathi) on Academia.edu
