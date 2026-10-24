@@ -9,6 +9,18 @@ created: 2026-10-24
 
 **Vibodh Parthasarathi** is an Indian academic and media policy researcher whose work examines media regulation, media governance, communication studies, creative industries, media history and the digital media economy. He is associated with the Centre for Culture, Media and Governance at Jamia Millia Islamia in New Delhi. His research has addressed the regulation and ownership of media, the economics of India's media industries, digital transitions in newspapers and television, and the history of recorded music in India. He co-edited *The Indian Media Economy* (2018) and *Platform Capitalism in India* (2020).<sup>[1][2][3][4]</sup>
 
+## Contents
+
+1. [Education](#education)
+2. [Career](#career)
+3. [Research](#research)
+   1. [Media policy and governance](#media-policy-and-governance)
+   2. [Media economy and digital platforms](#media-economy-and-digital-platforms)
+   3. [Media history and recorded music](#media-history-and-recorded-music)
+4. [Publications and editorial work](#publications-and-editorial-work)
+5. [References](#references)
+6. [External links](#external-links)
+
 ## Education
 
 Parthasarathi studied history at St Stephen's College, University of Delhi, graduating with a Bachelor of Arts (Honours) degree in 1990. He received a master's degree in Mass Communication from the Mass Communication Research Centre at Jamia Millia Islamia in 1992, followed by a master's degree in Development Studies from the Institute of Social Studies in The Hague in 1994. These qualifications are listed in his curriculum vitae and in Jamia Millia Islamia's faculty profile.<sup>[1][2]</sup>
@@ -55,14 +67,14 @@ His curriculum vitae also records editorial and advisory roles associated with *
 
 ## References
 
-1. [Vibodh Parthasarathi: Curriculum vitae](https://jmi.ac.in/upload/employeeresume/vparthasarathi.pdf), Jamia Millia Islamia. The CV records education, professional appointments, research projects, teaching, publications and affiliations.
-2. [Vibodh Parthasarathi](https://www.jmi.ac.in/Centre-For-Culture-Media-%26-Governance/Faculty-Members/1620), Centre for Culture, Media and Governance, Jamia Millia Islamia.
-3. [Vibodh Parthasarathi (Dr)](https://www.iicom.org/profile/vibodh-parthasarath/), International Institute of Communications.
-4. [A Considered Silence: The Regulatory History of Press Ownership in India](https://researchportal.helsinki.fi/en/publications/a-considered-silence-the-regulatory-history-of-press-ownership-in/), University of Helsinki Research Portal, 2024.
-5. [Vibodh Parthasarathi](https://www.sasnet.lu.se/staff/sasnet-affiliated-researchers/vibodh-parthasarathi), Swedish South Asian Studies Network, Lund University.
-6. [The Indian Media Economy](https://india.oup.com/product/the-indian-media-economy-2-volume-setvol-i-industrial-dynamics-and-cultural-adaptationvol-ii-market-dynamics-and-social-transactions-9780199482658/), Oxford University Press.
-7. [Vibodh Parthasarathi](https://jmi.academia.edu/VibodhParthasarathi), academic profile and publication list on Academia.edu.
-8. [Platform Capitalism in India](https://link.springer.com/book/10.1007/978-3-030-44563-8), Palgrave Macmillan / Springer Nature.
+1. [Vibodh Parthasarathi: Curriculum vitae](https://jmi.ac.in/upload/employeeresume/vparthasarathi.pdf), Jamia Millia Islamia, publication date not stated; accessed: 24 October 2026.
+2. [Vibodh Parthasarathi](https://www.jmi.ac.in/Centre-For-Culture-Media-%26-Governance/Faculty-Members/1620), Centre for Culture, Media and Governance, Jamia Millia Islamia, publication date not stated; accessed: 24 October 2026.
+3. [Vibodh Parthasarathi (Dr)](https://www.iicom.org/profile/vibodh-parthasarath/), International Institute of Communications, publication date not stated; accessed: 24 October 2026.
+4. [A Considered Silence: The Regulatory History of Press Ownership in India](https://researchportal.helsinki.fi/en/publications/a-considered-silence-the-regulatory-history-of-press-ownership-in/), University of Helsinki Research Portal, 2024; accessed: 24 October 2026.
+5. [Vibodh Parthasarathi](https://www.sasnet.lu.se/staff/sasnet-affiliated-researchers/vibodh-parthasarathi), Swedish South Asian Studies Network, Lund University, publication date not stated; accessed: 24 October 2026.
+6. [The Indian Media Economy](https://india.oup.com/product/the-indian-media-economy-2-volume-setvol-i-industrial-dynamics-and-cultural-adaptationvol-ii-market-dynamics-and-social-transactions-9780199482658/), Oxford University Press, 2018; accessed: 24 October 2026.
+7. [Vibodh Parthasarathi](https://jmi.academia.edu/VibodhParthasarathi), Academia.edu, publication date not stated; accessed: 24 October 2026.
+8. [Platform Capitalism in India](https://link.springer.com/book/10.1007/978-3-030-44563-8), Palgrave Macmillan, 2020; accessed: 24 October 2026.
 
 ## External links
 
