@@ -68,12 +68,71 @@ Another strand of Parthasarathi's research concerns the history of media industr
 
 ## Publications and editorial work
 
-Parthasarathi has published journal articles, research reports and book chapters, and has co-edited academic collections. His early editorial work included the three-volume *Communication Processes* series, published by Sage between 2005 and 2010, and the French-language collection *L'idiot du Village Mondial*, co-edited with Michel Sauquet in 2004. He also co-edited a themed issue on public spheres and the media in India for *Media International Australia* in 2014.
+Parthasarathi's publications include books and research reports, journal articles, and chapters on media policy, media industries, digital platforms and media history. The following list brings together key works recorded in his CV and Google Scholar profile. Duplicate records and entries with incomplete or inconsistent bibliographic details have been consolidated or left out rather than guessed.
 
-His later edited books include *The Indian Media Economy* (2018), with Adrian Athique and S. V. Srinivas; *Platform Capitalism in India* (2020), with Adrian Athique; and *Pedagogy in Practice: Project-Based Learning in Media Policy and Governance* (2022), with Biswajit Das and Santosh Panda. The volume presents project-based approaches to teaching media policy and governance.
+### Books, edited collections and research reports
+
+- *Platform Capitalism in India*, co-edited with Adrian Athique (2020).
+- *The Indian Media Economy*, two volumes, co-edited with Adrian Athique and S. V. Srinivas (2018).
+- *Mapping Digital Media: India* (2012), Open Society Foundations.
+- *Digital Transition of Newspapers in India: Dainik Jagran, Hindustan Times, and Malayala Manorama*, with Zainab Aneez, S. Chattapadhyay and Rasmus Kleis Nielsen (2016), Reuters Institute for the Study of Journalism.
+- *Indian News Media and the Production of News in the Age of Social Discovery*, with Zainab Aneez, S. Chattapadhyay and Rasmus Kleis Nielsen (2017), Reuters Institute for the Study of Journalism.
+- *In Credible India: Multitude and Diversity in the Indian News Landscape* (2013), Centre for Culture, Media and Governance, Jamia Millia Islamia.
+- *Pedagogy in Practice: Project-Based Learning in Media Policy and Governance*, with Biswajit Das and Santosh Panda (2022).
+- *Media and Mediation*, with Bernard Bel, Biswajit Das, Jan Brouwer and Guy Poitevin (2005).
+- *L'idiot du village mondial*, co-edited with Michel Sauquet (2004).
+
+### Journal articles
+
+- "Curating Video-on-Demand: Silences and Interruptions by a Neo-Liberal State" (2023).
+- "Labyrinths Behind the Screen: Ownership and Control in TV Cable Distribution", with A. Srinivas (2022).
+- "Institutional Constraints and Accordant Interests: The Speckled Life of an 'Ownership Bill' in India" (2022).
+- "Dismembering Media Diversity: A Tryst with Two Press Commissions" (2021).
+- "Rein and Laissez Faire: The Dual Personality of Media Regulation in India", with Simran Agarwal (2020).
+- "Market Matters: Interdependencies in the Indian Media Economy", with Adrian Athique (2019).
+- "Problematic Ownership Patterns: The Evolution of the Television Distribution Networks in India", with A. Srinivas (2019).
+- "The Conundrum of 'Relevant Market': Market Definition in India's Complex TV Distribution Business" (2019).
+- "Digitalization as Formalization: A View from Below", with A. Amanullah and S. Koshy (2016).
+- "Digitalisation of TV Distribution: Affordability and Availability", with A. Amanullah and S. Koshy (2016).
+- "The Digital Switchover of Doordarshan: Intriguing Dynamics of Policy Options", with S. Chotani (2015).
+- "On the Constituted Contexts of Public Communication: Early Policy Debates on the Press in India" (2014).
+- "The Evolution of an Early Media Enterprise: The Gramophone Company in India, 1898–1912" (2013).
+- "Murdoch's India: A Hedge Against Uncertainty" (2012).
+- "Deciphering Chindia: Two Accents of Media Governance" (2010).
+- "The Scramble for Sound" (2010).
+- "Articulating His Master's Voice: Reflections on the Ecology of Early Recorded Sound" (2009).
+- "Not Just Mad Englishmen and a Dog: The Colonial Tuning of 'Music on Record', 1900–1908" (2007).
+- "Construing a 'New Media' Market: Merchandising the Talking Machine, c. 1900–1913" (2005).
+
+### Book chapters and other contributions
+
+- "Darbari Redux: The Dystopian Roots of Public Communication", in *Raag Darbari: Polity as Fiction, Fiction as Reality* (2026).
+- "Reading Power Without Responsibility from the 'Periphery'", in *Media Pasts and Futures: Critical Reflections on Power Without Responsibility* (2025).
+- "Burdens of Legacy: Enumerative Accountability in Digital Markets", in *The Economic Lives of Platforms* (2024).
+- "Desires and Fears of Heterodoxies: Notes on Disciplining Media Studies", in *Practising Interdisciplinarity: Convergences and Contestations* (2024).
+- "The Media as We Knew It: Dislocations in the Digital Media Economy" (2024).
+- "Platform Challenges to Creative Industries in India", with C. Ithurbide, P. Bouquillion and P. P. Sneha (2023).
+- "Cross-sectoral Relations in VoD Markets: Frontend, Backend, and Deepend in India", with Philippe Bouquillion and C. Ithurbide (2023).
+- "Platformisation of Matchmaking: Reconfiguring Social Economies in India", with Simran Agarwal (2023).
+- "Expanding Horizons of Media Bazaars: Topography of the Digital Media Economy in India", with P. Raghunath (2022).
+- "Document Analysis for Media Policy Research", with R. Sinha (2022).
+- "Enumerating Media Diversity", with A. Kaisii and N. Inayati (2022).
+- "The Market Idea in a Multilingual TV Milieu: A Postscript" (2021).
+- "The Public Sphere of Marketed Sound: The Business of Early Recorded Music in India" (2020).
+- "Between Strategic Intent and Considered Silence: Regulatory Imprints in the TV Business" (2017).
+- "Market Dynamics of the Indian Media Economy" (2017).
+- "Media Research and Public Policy: Tiding Over the Rupture", with Biswajit Das (2011).
+- "Interventionist Tendencies in Popular Culture" (2010).
+- "A Tale of Two Radios: Tracing Advocacy in a Deregulatory Milieu", with S. Chotani (2010).
+- "A Pop-up Newsroom to Fight Fake News: A View from Swedish Elections", with A. Mattsson (2018).
+- "Using Narbs for Political Prediction", with A. Mitra and S. Mamani (2015).
+- "Networks of Influence", with A. Srinivas (2016).
+- "Indian TV Anchors on Twitter: Technological Practice and Textual Form", with A. Mitra (2017).
+- "Silencing SMS: The Anatomy of 'mCurfews' in India", with A. Amanullah (2012).
+- "The Problem" (1997).
+- "For a Sustainable Development of NGOs" (1993).
 
 His editorial and advisory work has included roles associated with *Global Media and Communication*, *Media Asia* and the India Media Centre at the University of Westminster. Other professional affiliations and roles have involved the Media and Journalism Research Center, The Media Foundation, MIT Press, Oxford University Press, *Platforms & Society* and the *Journal of Digital Media & Policy*.
-
 ## References
 
 1. [Vibodh Parthasarathi: Curriculum vitae](https://jmi.ac.in/upload/employeeresume/vparthasarathi.pdf), Jamia Millia Islamia, publication date not stated; accessed: 24 October 2026.
