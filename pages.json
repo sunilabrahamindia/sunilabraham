@@ -1,5 +1,18 @@
 [
   {
+    "title": "Vibodh Parthasarathi",
+    "description": "Biography of Vibodh Parthasarathi, Indian academic and researcher in media policy, media governance, communication studies and the digital media economy.",
+    "created": "2026-10-24",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "Biographies"
+    ],
+    "permalink": "https://sunilabraham.in/vibodh/",
+    "source_path": "vibodh/index.md"
+  },
+  {
     "title": "Indian Website Certificate Expiry Monitor",
     "description": "An independent public dashboard tracking TLS certificate expiry for selected important Indian websites.",
     "created": "2026-10-24",
