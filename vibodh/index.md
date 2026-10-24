@@ -26,7 +26,7 @@ Parthasarathi has worked in television production, research and media policy, an
 
 ## Education
 
-Parthasarathi studied history at St Stephen's College, University of Delhi, graduating with a Bachelor of Arts (Honours) degree in 1990. He received a master's degree in Mass Communication from the Mass Communication Research Centre at Jamia Millia Islamia in 1992, followed by a master's degree in Development Studies from the Institute of Social Studies in The Hague in 1994. 
+Vibodh Parthasarathi studied history at St. Stephen's College, University of Delhi, graduating with a Bachelor of Arts (Honours) degree in 1990. He received a master's degree in Mass Communication from the Mass Communication Research Centre at Jamia Millia Islamia in 1992, followed by a master's degree in Development Studies from the Institute of Social Studies in The Hague in 1994. 
 
 His doctoral dissertation, *A Considered Silence: The Regulatory History of Press Ownership in India*, was published by the University of Helsinki in 2024. It examines the regulatory history of press ownership in India.
 
@@ -40,7 +40,7 @@ He has held visiting positions at the University of Queensland, KU Leuven, the U
 
 ## Centre for Internet and Society
 
-Parthasarathi was one of the seven founding members who signed the [Memorandum of Association](/cis/moa/) of the [Centre for Internet and Society](/cis/) (CIS), registered in Bengaluru on 4 July 2008. He was later a member of its board, including during 2013–14.
+Vibodh Parthasarathi was one of the seven founding members who signed the [Memorandum of Association](/cis/moa/) of the [Centre for Internet and Society](/cis/) (CIS), registered in Bengaluru on 4 July 2008. He was later a member of its board, including during 2013–14.
 
 In May 2013, during CIS's [fifth-anniversary programme](/cis/fifth-anniversary/), Parthasarathi gave a talk titled "Why did I buy a set-top box?: What we know, don't know and need to know about Digitalisation". The session considered the reasons for the move to digital cable, its implications for viewers and the proposed digital switchover of the public broadcaster. The talk drew on his country report on India's media for the Open Society Foundations' *Mapping Digital Media* project. His association with CIS's Society or Board lasted 14 years, according to a later [anniversary account](/cis/18/).
 
