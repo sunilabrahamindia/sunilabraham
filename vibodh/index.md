@@ -13,13 +13,14 @@ created: 2026-10-24
 
 1. [Education](#education)
 2. [Career](#career)
-3. [Research](#research)
+3. [Centre for Internet and Society](#centre-for-internet-and-society)
+4. [Research](#research)
    1. [Media policy and governance](#media-policy-and-governance)
    2. [Media economy and digital platforms](#media-economy-and-digital-platforms)
    3. [Media history and recorded music](#media-history-and-recorded-music)
-4. [Publications and editorial work](#publications-and-editorial-work)
-5. [References](#references)
-6. [External links](#external-links)
+5. [Publications and editorial work](#publications-and-editorial-work)
+6. [References](#references)
+7. [External links](#external-links)
 
 ## Education
 
@@ -34,6 +35,12 @@ Parthasarathi's early professional work included television production. His curr
 He subsequently joined the Centre for Culture, Media and Governance (CCMG) at Jamia Millia Islamia, where institutional and professional profiles identify him as an associate professor. His teaching and curriculum work has included the MA programme in Media Governance, courses on media policy and regulation, transnational communication, and media advocacy, as well as curriculum development for media and communication programmes.
 
 Parthasarathi has also participated in international research collaborations and academic exchanges. His profiles record visiting-scholar or visiting-fellow engagements with institutions including the University of Queensland, KU Leuven, the University of Helsinki, Lund University and the Indian Institute of Technology Bombay. He has presented research at conferences and universities in India and abroad, including events organised by the International Communication Association and the International Association for Media and Communication Research.
+
+## Centre for Internet and Society
+
+Parthasarathi was one of the seven founding members who signed the Memorandum of Association of the Centre for Internet and Society (CIS), registered in Bengaluru on 4 July 2008. The founding document lists him among the members of the association. CIS's annual reports subsequently list him as a member of its board, including in the organisation's early years through at least 2013–14.
+
+In May 2013, during CIS's fifth-anniversary programme, Parthasarathi gave a talk titled "Why did I buy a set-top box?: What we know, don't know and need to know about Digitalisation". The session considered the reasons for the move to digital cable, its implications for viewers and the proposed digital switchover of the public broadcaster. The event account notes that the talk drew on his country report on India's media, produced for the Open Society Foundations' *Mapping Digital Media* project. A later anniversary account on TSAP records his association with CIS's Society or Board as lasting 14 years.
 
 ## Research
 
@@ -75,6 +82,12 @@ His curriculum vitae also records editorial and advisory roles associated with *
 6. [The Indian Media Economy](https://india.oup.com/product/the-indian-media-economy-2-volume-setvol-i-industrial-dynamics-and-cultural-adaptationvol-ii-market-dynamics-and-social-transactions-9780199482658/), Oxford University Press, 2018; accessed: 24 October 2026.
 7. [Vibodh Parthasarathi](https://jmi.academia.edu/VibodhParthasarathi), Academia.edu, publication date not stated; accessed: 24 October 2026.
 8. [Platform Capitalism in India](https://link.springer.com/book/10.1007/978-3-030-44563-8), Palgrave Macmillan, 2020; accessed: 24 October 2026.
+9. [Centre for Internet and Society](https://sunilabraham.in/cis/), The Sunil Abraham Project, publication date not stated; accessed: 24 October 2026.
+10. [Memorandum of Association and Rules and Regulations of the Centre for Internet and Society](https://sunilabraham.in/cis/moa/), The Sunil Abraham Project, document dated 4 July 2008; accessed: 24 October 2026.
+11. [Centre for Internet and Society: Annual Report 2008–09](https://sunilabraham.in/cis/annual-report-2008-09/), The Sunil Abraham Project, 2008–09; accessed: 24 October 2026.
+12. [Centre for Internet and Society: Annual Report 2013–14](https://sunilabraham.in/cis/annual-report-2013-14/), The Sunil Abraham Project, 2013–14; accessed: 24 October 2026.
+13. [Fifth Anniversary of the Centre for Internet and Society](https://sunilabraham.in/cis/fifth-anniversary/), The Sunil Abraham Project, event held 20–23 May 2013; accessed: 24 October 2026.
+14. [Centre for Internet and Society: 18th Anniversary](https://sunilabraham.in/cis/18/), The Sunil Abraham Project, 4 July 2026; accessed: 24 October 2026.
 
 ## External links
 
