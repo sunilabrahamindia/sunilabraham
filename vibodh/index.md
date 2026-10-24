@@ -56,7 +56,7 @@ His curriculum vitae also records editorial and advisory roles associated with *
 ## References
 
 1. [Vibodh Parthasarathi: Curriculum vitae](https://jmi.ac.in/upload/employeeresume/vparthasarathi.pdf), Jamia Millia Islamia. The CV records education, professional appointments, research projects, teaching, publications and affiliations.
-2. [Vibodh Parthasarathi](https://www.jmi.ac.in/Centre-For-Culture-Media-%26-Governance/Faculty-Members/1620/mailto%27vparthasarathi%40jmi.ac.in%2C%20ccmgjmi%40gmail.com%27), Centre for Culture, Media and Governance, Jamia Millia Islamia.
+2. [Vibodh Parthasarathi](https://www.jmi.ac.in/Centre-For-Culture-Media-%26-Governance/Faculty-Members/1620), Centre for Culture, Media and Governance, Jamia Millia Islamia.
 3. [Vibodh Parthasarathi (Dr)](https://www.iicom.org/profile/vibodh-parthasarath/), International Institute of Communications.
 4. [A Considered Silence: The Regulatory History of Press Ownership in India](https://researchportal.helsinki.fi/en/publications/a-considered-silence-the-regulatory-history-of-press-ownership-in/), University of Helsinki Research Portal, 2024.
 5. [Vibodh Parthasarathi](https://www.sasnet.lu.se/staff/sasnet-affiliated-researchers/vibodh-parthasarathi), Swedish South Asian Studies Network, Lund University.
