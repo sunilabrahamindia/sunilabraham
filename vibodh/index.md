@@ -38,9 +38,9 @@ Parthasarathi has also participated in international research collaborations and
 
 ## Centre for Internet and Society
 
-Parthasarathi was one of the seven founding members who signed the Memorandum of Association of the Centre for Internet and Society (CIS), registered in Bengaluru on 4 July 2008. The founding document lists him among the members of the association. CIS's annual reports subsequently list him as a member of its board, including in the organisation's early years through at least 2013–14.
+Parthasarathi was one of the seven founding members who signed the [Memorandum of Association](/cis/moa/) of the [Centre for Internet and Society](/cis/) (CIS), registered in Bengaluru on 4 July 2008. The founding document lists him among the members of the association. CIS's [annual report for 2013–14](/cis/annual-report-2013-14/) lists him as a member of its board.
 
-In May 2013, during CIS's fifth-anniversary programme, Parthasarathi gave a talk titled "Why did I buy a set-top box?: What we know, don't know and need to know about Digitalisation". The session considered the reasons for the move to digital cable, its implications for viewers and the proposed digital switchover of the public broadcaster. The event account notes that the talk drew on his country report on India's media, produced for the Open Society Foundations' *Mapping Digital Media* project. A later anniversary account on TSAP records his association with CIS's Society or Board as lasting 14 years.
+In May 2013, during CIS's [fifth-anniversary programme](/cis/fifth-anniversary/), Parthasarathi gave a talk titled "Why did I buy a set-top box?: What we know, don't know and need to know about Digitalisation". The session considered the reasons for the move to digital cable, its implications for viewers and the proposed digital switchover of the public broadcaster. The event account notes that the talk drew on his country report on India's media, produced for the Open Society Foundations' *Mapping Digital Media* project. A later [anniversary account](/cis/18/) on TSAP records his association with CIS's Society or Board as lasting 14 years.
 
 ## Research
 
