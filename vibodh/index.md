@@ -7,7 +7,7 @@ permalink: /vibodh/
 created: 2026-10-24
 ---
 
-**Vibodh Parthasarathi** (IPA: /ʋɪboːd̪ʱ paːɾt̪ʰaːsəɾət̪ʰi/) is an Indian academic and media policy researcher whose work examines media regulation, media governance, communication studies, creative industries, media history and the digital media economy. He is associated with the Centre for Culture, Media and Governance at Jamia Millia Islamia in New Delhi. His research has addressed the regulation and ownership of media, the economics of India's media industries, digital transitions in newspapers and television, and the history of recorded music in India. He co-edited *The Indian Media Economy* (2018) and *Platform Capitalism in India* (2020).
+**Vibodh Parthasarathi** is an Indian academic and media policy researcher. He is an associate professor at the Centre for Culture, Media and Governance at Jamia Millia Islamia in New Delhi. His research covers media regulation and ownership, media governance, the economics of India's media industries, digital transitions in newspapers and television, creative industries, and the history of recorded music. He co-edited *The Indian Media Economy* (2018) and *Platform Capitalism in India* (2020).
 
 ## Contents
 
@@ -32,9 +32,9 @@ In 2024, the University of Helsinki published his doctoral dissertation, *A Cons
 
 Parthasarathi's early professional work included television production. His curriculum vitae lists him as an independent television producer in New Delhi during 1995–1997 and 1999–2002. The same record lists a period as an independent researcher and policy analyst from 2002 to 2006, and a visiting professorship at Jamia Millia Islamia's Centre for Jawaharlal Nehru Studies in 2006–2007. Jamia's faculty profile also records earlier work at the Manipal Institute of Communication and the Centre for Co-operative Research in Social Sciences.
 
-He subsequently joined the Centre for Culture, Media and Governance (CCMG) at Jamia Millia Islamia, where institutional and professional profiles identify him as an associate professor. His teaching and curriculum work has included the MA programme in Media Governance, courses on media policy and regulation, transnational communication, and media advocacy, as well as curriculum development for media and communication programmes.
+His CV records his appointment at the Centre for Culture, Media and Governance (CCMG) at Jamia Millia Islamia from 2007. His teaching and curriculum work has included the MA programme in Media Governance and courses on media policy and regulation, transnational communication, and media advocacy. He has also worked on curriculum development for media and communication programmes.
 
-Parthasarathi has also participated in international research collaborations and academic exchanges. His profiles record visiting-scholar or visiting-fellow engagements with institutions including the University of Queensland, KU Leuven, the University of Helsinki, Lund University and the Indian Institute of Technology Bombay. He has presented research at conferences and universities in India and abroad, including events organised by the International Communication Association and the International Association for Media and Communication Research.
+His professional profiles list visiting positions at the University of Queensland, KU Leuven, the University of Helsinki and the Indian Institute of Technology Bombay, as well as an affiliation with Lund University's Swedish South Asian Studies Network. He has presented research at conferences and universities in India and abroad, including events organised by the International Communication Association and the International Association for Media and Communication Research.
 
 ## Centre for Internet and Society
 
@@ -50,7 +50,7 @@ Parthasarathi's research spans media policy and regulation, media governance, me
 
 From the late 2000s onwards, Parthasarathi coordinated and co-directed research projects on media governance, media advocacy, media pluralism and media policy. His curriculum vitae records projects supported by organisations including the Ford Foundation, the International Development Research Centre, HIVOS, the Social Science Research Council, the Indian Council of Social Science Research, the University Grants Commission and the Open Society Foundations. These projects included work on measuring media diversity, tracking access and diversity in television distribution, and developing teaching resources on media policy and law.
 
-His publications on media regulation include "Deciphering Chindia: Two Accents of Media Governance" (2010), "On the Constituted Contexts of Public Communication: Early Policy Debates on the Press in India" (2014), "Rein and Laissez Faire: The Dual Personality of Media Regulation in India" (2020, co-authored with S. Agarwal), and "Dismembering Media Diversity: A Tryst with Two Press Commissions" (2021). His doctoral dissertation, *A Considered Silence*, extended this research into the regulatory history of press ownership in India.
+His publications on media regulation include "Deciphering Chindia: Two Accents of Media Governance" (2010), "On the Constituted Contexts of Public Communication" (2014), "Rein and Laissez Faire: The Dual Personality of Media Regulation in India" (2020, co-authored with Simran Agarwal), and "Dismembering Media Diversity: A Tryst with Two Press Commissions" (2021). His doctoral dissertation, *A Considered Silence*, extended this research into the regulatory history of press ownership in India.
 
 ### Media economy and digital platforms
 
@@ -68,9 +68,9 @@ Another strand of Parthasarathi's research concerns the history of media industr
 
 Parthasarathi has published journal articles, research reports and book chapters, and has co-edited academic collections. His early editorial work included the three-volume *Communication Processes* series, published by Sage between 2005 and 2010, and the French-language collection *L'idiot du Village Mondial*, co-edited with Michel Sauquet in 2004. He also co-edited a themed issue on public spheres and the media in India for *Media International Australia* in 2014.
 
-His later edited books include *The Indian Media Economy* (2018), with Adrian Athique and S. V. Srinivas; *Platform Capitalism in India* (2020), with Adrian Athique; and *Pedagogy in Practice: Project-Based Learning in Media Policy and Governance* (2022), with Biswajit Das and Santosh Panda. The last of these documents approaches to teaching media policy and governance through project-based learning.
+His later edited books include *The Indian Media Economy* (2018), with Adrian Athique and S. V. Srinivas; *Platform Capitalism in India* (2020), with Adrian Athique; and *Pedagogy in Practice: Project-Based Learning in Media Policy and Governance* (2022), with Biswajit Das and Santosh Panda. The volume presents project-based approaches to teaching media policy and governance.
 
-His curriculum vitae also records editorial and advisory roles associated with *Global Media and Communication*, *Media Asia* and the India Media Centre at the University of Westminster. More recent professional profiles describe his involvement with the Media and Journalism Research Center, The Media Foundation, MIT Press, Oxford University Press and journals in digital media and communication studies. These roles have varied over time and should be read in the context of the dates of the respective profiles.
+His CV records editorial or advisory roles associated with *Global Media and Communication*, *Media Asia* and the India Media Centre at the University of Westminster. The International Institute of Communications profile also lists work involving the Media and Journalism Research Center, The Media Foundation, MIT Press, Oxford University Press, *Platforms & Society* and the *Journal of Digital Media & Policy*. These descriptions reflect the profiles in which they appear and should not be taken as confirmation that every role is current.
 
 ## References
 
@@ -88,6 +88,7 @@ His curriculum vitae also records editorial and advisory roles associated with *
 12. [Centre for Internet and Society: Annual Report 2013–14](https://sunilabraham.in/cis/annual-report-2013-14/), The Sunil Abraham Project, 2013–14; accessed: 24 October 2026.
 13. [Fifth Anniversary of the Centre for Internet and Society](https://sunilabraham.in/cis/fifth-anniversary/), The Sunil Abraham Project, event held 20–23 May 2013; accessed: 24 October 2026.
 14. [Centre for Internet and Society: 18th Anniversary](https://sunilabraham.in/cis/18/), The Sunil Abraham Project, 4 July 2026; accessed: 24 October 2026.
+15. [Vibodh Parthasarathi](https://www.bloomsbury.com/in/author/vibodh-parthasarathi/), Bloomsbury Publishing, publication date not stated; accessed: 24 October 2026.
 
 ## External links
 
