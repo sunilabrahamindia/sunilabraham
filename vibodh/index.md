@@ -7,7 +7,9 @@ permalink: /vibodh/
 created: 2026-10-24
 ---
 
-**Vibodh Parthasarathi** is an Indian academic and media policy researcher. He is an associate professor at the Centre for Culture, Media and Governance at Jamia Millia Islamia in New Delhi. His research covers media regulation and ownership, media governance, the economics of India's media industries, digital transitions in newspapers and television, creative industries, and the history of recorded music. He co-edited *The Indian Media Economy* (2018) and *Platform Capitalism in India* (2020).
+**Vibodh Parthasarathi** is an Indian academic and media policy researcher, and an associate professor at the Centre for Culture, Media and Governance at Jamia Millia Islamia in New Delhi. His work examines media regulation and ownership, media governance, the political economy of India's media industries, digital transitions in newspapers and television, creative industries, and the history of recorded music. He completed a doctoral dissertation on the regulatory history of press ownership in India at the University of Helsinki. His books include the co-edited volumes *The Indian Media Economy* (2018) and *Platform Capitalism in India* (2020).
+
+Parthasarathi has worked in television production, research and media policy, and has contributed to teaching and curriculum development in media governance. He was one of the seven founding members who signed the Memorandum of Association of the Centre for Internet and Society (CIS) in 2008, and was later listed as a member of its board. In 2013, he spoke at CIS's fifth-anniversary programme about the transition to digital cable television, drawing on research prepared for the Open Society Foundations' *Mapping Digital Media* project.
 
 ## Contents
 
