@@ -114,7 +114,7 @@ Vinayaraj has delivered invited lectures, keynote addresses and conference paper
 10. [*Theology after Spivak*](/articles/theology-after-spivak/). New Delhi: ISPCK, 2016.
 11. [*Empire, Multitude and the Church: Theology after Hardt and Negri*](/articles/empire-multitude-and-the-church/). New Delhi: ISPCK, 2017.
 12. *Church and Empire* (Malayalam, editor). Thiruvalla: TLC, 2018.
-13. *Reimagining Reformation: Essays in Honor of P. G. George* (co-edited with Dexter Maben and Woba James). New Delhi: ISPCK, 2018.
+13. [*Re-imagining Reformation: Essays in Honor of P. G. George*](/articles/re-imagining-reformation/) (co-edited with Dexter Maben and Woba James). ISPCK/CCA; the publisher catalogue lists 2017, while Vinayaraj's CV lists 2018.
 14. *Re-claiming Humanity through New Humanity in Jesus Christ* (Malayalam, co-edited with Alex Abraham). Thiruvalla: Mar Thoma Clergy Conference, 2018.
 15. *Politics and Theology* (Malayalam). Thiruvalla: CSS, 2019.
 16. [*Church and Empire: Detailing Theological Musings*](/articles/church-and-empire-detailing-theological-musings/). New Delhi: Christian World Imprints, 2019.
