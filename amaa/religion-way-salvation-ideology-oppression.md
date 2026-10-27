@@ -2,7 +2,7 @@
 layout: default
 title: "Religion: A Way of Salvation or an Ideology of Oppression?"
 permalink: /amaa/religion-way-salvation-ideology-oppression/
-categories: ["A. M. A. Ayrookuzhiel", "Essays on Religion, Caste and Society"]
+categories: ["A. M. A. Ayrookuzhiel", "Writings not in Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's empirical study of Hindu village religion in Sarjapura Hobli, examining how land, caste, worship, festivals and rites of passage reproduce social power and exclusion."
 created: 2026-10-27
 ---
