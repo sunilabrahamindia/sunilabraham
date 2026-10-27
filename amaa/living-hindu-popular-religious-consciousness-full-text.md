@@ -225,6 +225,81 @@ From all these examples it is clear that the traditional institutions like *pula
 
 
 
+
+**[Editorial note: Pages 18-19 are missing from the available scan. The transcription resumes with page 20.]**
+
+Kali, Lakshmi etc. but also through a number of other symbols. For instance, it is believed that there are among living men incarnations or realizations of the Divine such as Sai Baba, Sai Sankar, Santosh Mai, Mayamma and countless others. Popular Hinduism also has god-dancers who act as god's vehicles of communication to man. Then again there is the cow, the *nagām*, special trees, rivers and planets which are known for their sacred powers. All these form part of the sacred symbols of the Hindu faith as it is lived today.
+
+Empirical evidence from Chirakkal suggests that these traditional sacred symbols do not mediate one religious meaning for all people. For instance, while some people believe that Sai Baba is an *avatar* of Bhagavan, others consider him a clever magician or a confidence trickster. While some Hindus hold that Aswatha vriksham (*Arayal*) is the symbol (*Samkalpam*) of all gods, that Tulasi is Lakshmi, that Ganges is Vishnu, others say that they have learnt in school that such expressions in our language are "remnants of old nature worship". How can we worship the moon they ask, when the Americans have landed on it? Fire walking by Teechamundi *teyyam* (god) is considered "big fun" (*tamasa*) by them. His *urachil attam* (possession dance) does not impress them except for its aesthetic value. Anyone, they say, can do it with some courage.
+
+### G. The Pattern of Changes in the Understanding of Concepts like *karmam, samaya dosam*, rebirth, of evil spirit
+
+These are key concepts in the Hindu religious tradition with which ordinary people interpret their experience of joy and suffering and give structure and shape to their time and space.
+
+Here again empirical study of these concepts—in Chirakkal, reveal that these Faith categories are used by people only in areas and situations in their lives which cannot be interpreted in terms of logic and reason. But the pattern is so varied that we cannot speak of any uniform and static meaning for these concepts.<sup id="ref-7"><a href="#note-7">7</a></sup>
+
+## II. Personal Reflections on Popular Religious Consciousness in the Context of Hindu-Christian Dialogue
+
+### 1. Does the popular Hindu religious experience allow itself to be described in terms of classical Hindu philosophical systems such as Advaita Vedanta, Visishta Advaita, Dvaita, etc.?
+
+I have given in Part I A a general outline of the way in which the majority of Hindus in Chirakkal tend to describe their religious faith.
+
+The style of speech described there speaks of the people's belief in a *Para Sakti* whose presence pervades both man and the universe. It suggests that man is in some kind of an evolutionary process. It also speaks of the benefit man derives from the *upasana* (worship) of this Power.
+
+The question may now be asked: Is this type of consciousness an Advaita frame of mind? It may appear to be very much so until we are made to doubt it when we hear them talk about their experience of "divine grace", "divine guidance", "divine favour", "divine anger". These ideas do suggest that the *Sakti* in which they believe is capable of blessing them and destroying them, capable of responding or not responding to their prayer, capable of being pleased or displeased with them. Hence it appears that an ordinary Hindu would say that he and his God are not two but he worships his God as if they are two, i.e. he is monistic in speech and theistic in worship.
+
+Here I should mention the exceptions to the majority position described above.
+
+**(a)** People, though a few, who describe their religious faith in the explicit idiom of Advaita Vedanta and identify themselves as *advaitins*.
+
+**(b)** People who in their conversation use such terms as Jivatman, Paramatman, Prakriti, Purusha, Antaryamin etc., which reminds one of particular systems of philosophy but they cannot be identified with any one particular system as they are not following any system as such.
+
+**(c)** People who give a vivid impression of conducting themselves in the "living presence" of a Reality other than themselves whom one likes to describe as theistic.
+
+**(d)** People who describe the religious reality as a world of many powers each independent of one another.
+
+All these groups of people more or less share a common set of beliefs such as doctrine of *karma*, purity and pollution, astrology, *mantravadam* etc., and have common symbols of worship whether they be gods, ancestors, sacred animals, trees, rivers etc. and common festivals and practices.
+
+In the light of all these facts it seems to me that it does not make much sense to think of Hindu-Christian dialogue in terms of classical Hindu philosophical systems as far as the general popular religious experience is concerned.
+
+### 2. Basic similarities in the perception of human condition and common religious experiences
+
+I have described above the reasons which make an ordinary Hindu adopt a religious outlook in life. They are: the experience of the wonder of the universe, the sense of helplessness of man to shape his own destiny, the fact of prayers being answered, the feeling that the righteous will be rewarded and the wicked punished, the knowledge that religious faith gives man the power to change his life-style, personal experience of the guidance of a Power, the fact of the ancestors' belief, personal faith experiences, the need to hope for a life after death, the belief that gods have shown signs and the fear of punishment.
+
+I am inclined to believe that these basic experiences that compel a Hindu to accept a religious dimension to his life, equally apply to Christians. Perhaps some Christians may express reservations about new signs coming from God asking for festivals and offerings. But the tradition of new signs coming from Heaven like Lourdes and Fatima is not entirely strange in Church history. Even in Protestant circles one finds people opening the Bible expecting a sign. But only an empirical study among Christians can reveal how they stand *vis-à-vis* their Hindu brethren on this point.
+
+### 3. Hindu-Christian Dialogue to evolve a common value system: Problem and Possibility
+
+Our study of the moral consciousness of Hindus in Chirakkal shows that in popular experience the moral values have a religious basis and legitimation. This basis and legitimation is sometimes expressed through the medium of the symbol of God<sup id="ref-8"><a href="#note-8">8</a></sup> and sometimes through the medium of the concept of *karma*.
+
+We have also seen from the analysis of the practices of purity and pollution among the people that the traditional understanding of these conceptions is with reference to their gods. Some of these practices of purity, we have seen, involve social discrimination against people, namely women, widows, Harijans and other castes connected with the ritual removal of pollution.
+
+A general description of the content of the moral sense of the people is given in the first part. But when we study their moral attitude in relation to these socially discriminating practices, we find that some Hindus reject the traditional religious undergirding of these practices of purity while integrating social values like freedom and equality into their conception of God. For instance, while some Hindus do not want Harijans to enter their temples, there are others who organize Harijan visits to temples of the high castes. While the gods of some communities refuse to enter the houses of individuals married outside that community, there are gods who approve and bless inter-caste marriages. While some Hindus deny the Harijans the right to choose the profession of temple priests, aspiration to make them priests is growing among other Hindus. While there are young Hindu men and women who ignore the stars and follow their personal will in marriage, there are others who are guided by the stars in wedlock and in every other important detail of their lives. While some support a fast unto death to protect the cow, others defend its slaughter in the name of secularism. It means there are two types of Hindus in India. One type understands itself and its identity solely in terms of religious traditions of the past. The other understands itself not only in terms of traditional values but also in terms of the values of freedom, justice and equality which India has set for itself to build its future.
+
+It means that the core symbols of God and *karma* which provide the moral basis to Hindus do not mean the same thing for all Hindus in terms of moral and social values. It means that as far as the social and cultural values are concerned there is no uniformity in the God-conception and God-experience of Hindus.
+
+On the other hand, we know there are Christians in this country who practise social discrimination based on caste though the Christian experience of God as recorded in the New Testament does not support it. It means that the Christian experience of God in this country is conditioned by its traditional social organization.
+
+These empirical facts go to show that whatever people like to believe about the eternal truth of the symbol of God in their respective traditions, the actual experience around this and other religious concepts are socially and culturally conditioned in terms of values and meanings. It also means that in a country like India where different religious traditions and ideologies interact, where people share common language habits and social customs, the division of people as Hindus and Christians with a distinct conception and experience of God may not be very legitimate. It also means that there can be people who belong to different religious traditions having the same conception and experience of God in terms of social values and meanings.
+
+In our approach to dialogue we have not taken note of these problems and possibilities as our approach to dialogue with Hinduism is too historical and static. We rely too heavily on the written historical traditions of one another forgetting that dialogue has to take place between people based on their living experience in these traditions. We have said above that analysis of the living religious experience of Hindus suggests that the key religious concepts are reinterpreted by some of them according to the changing experience of life today, in India, caused by a multitude of reasons. In Hinduism, where *anubhava* (experience) is a central *pramana* (authority) in religious life, where the meanings of key religious concepts are not historically defined by an external institutional authority, this situation is very natural.
+
+But here we should remember that this dialogue is to be meaningfully conducted at the point of growth in the living present which is centred around some people and movements within Hinduism and where there is no dialogue with Hinduism as such in general. But the real problem here is that people who are at the point of growth in their God conception and experience in different traditions, fail to find a common historical religious symbol to rally round it as a religious group, and have to appear as humanists or secularists before society.
+
+This predicament of religious *versus* secular, divine *versus* human is largely the result of a type of thinking by which we organize and categorize our every day life experience into a sacred and non-sacred mould. We will now analyse how Hinduism and Christianity stand in relation to this sacred-non-sacred division in the conception of reality.
+
+It is seriously claimed that in Hinduism there is no sacred-profane dichotomy. This may be true if we look at it only from the point of view of some of the Hindu philosophical systems. But it is not true if we look at it from the point of view of worship and ritual. Hinduism does divide time, space, people and objects into sacred and profane in its effort to symbolize the religious reality. For example, there are auspicious and inauspicious hours, days and months for rituals and performance of other important functions. As for space, it is not only that temples, shrines and pilgrim centres are considered to be sacred in character but also that the degree of the sanctity differs within sacred space itself; for instance, the *garbha grha* is more sacred than the inner courtyard of the temple. Among the people there is not only the division of castes according to their relative purity understood in relation to the gods, but also the priestly class itself is hierarchically divided according to the nature of their sacred function. Lastly, in Hinduism there is the conception that some objects like mountains, rivers, trees and animals share the sacred quality and they are made objects of worship.
+
+In the Christian tradition there have been two tendencies. Generally speaking one is represented by the Catholic and Orthodox Churches and the other by the Protestant Churches.
+
+In the Catholic tradition the transcendent is symbolised by a sacred-profane conception of God and world in its worship and ritual. The liturgical festivals, division and gradation of church space, pilgrim centres, the priestly class with its permanent sacred character, sacramental symbols effecting the real presence of God and objects like holy water, medals etc., mean a division of human existence into a sacred-non-sacred pattern.
+
+The Protestant tradition, emphasizing the Christ-event in history, conceived human history as evolving into a God-centred reality, wanted to get rid of the sacred-profane division of time, space, people and objects by conceiving all of the time, space, people and objects sacred with the result that no portion of these could be set apart as specially sacred. The Protestant tradition has tried to abolish the sacred hierarchy of time, space, people and objects.
+
+It follows from this that at least from the point of view of ritualistic division of time, space, people and objects as sacred and profane, the traditional Hinduism and the Catholic Church agree, and Protestantism is opposed to this view. But our empirical study shows that there are Hindus who are influenced by this Protestant spirit appearing to them as the modern outlook. There are, for instance, the Hindus who do not believe in the real presence of gods in temples, who use rituals as mere symbols of worship and who understand the worship of gods primarily in terms of personal moral and social values.
+
+It may therefore appear that the spirit of Protestant Christianity and modern Hindu outlook in Hinduism can, theoretically speaking, meet to abolish the kind of mythical and hierarchical division of time, space, people and objects; in other words, the dichotomy of sacred-profane conception of human experience. But they cannot solve the problem of the absence of common religious symbols. They can however perceive the so called secular symbols as religious.
+
 ## Notes {#notes}
 
 <ol>
@@ -252,5 +327,5 @@ From all these examples it is clear that the traditional institutions like *pula
   People tell stories which speak of the necessity of observing the rules of purity and pollution. One such story is about "Uppan". This bird is believed to be a woman under a curse. Her mistake was that she in her periods came into contact with some of her relations going to the temple.
   <a href="#ref-6">↩</a>
 </li>
-</ol>
+<li id="note-7">\n  A detailed account of these points will be found in my forthcoming book on popular religion in Chirakkal.\n  <a href="#ref-7">↩</a>\n</li>\n<li id="note-8">\n  "God" here should be understood to stand for all the common and proper names with which they point to some power other than themselves.\n  <a href="#ref-8">↩</a>\n</li>\n</ol>
 
