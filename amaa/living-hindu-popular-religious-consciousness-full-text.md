@@ -24,4 +24,18 @@ This paper is divided into two parts. The first part is a description of some of
 
 The Hindus in Chirakkal who have a religious view of life almost invariably use the word *Sakti* to express their belief. The affirmation of their religious faith is somewhat in the following style.
 
-> I believe (*visvas*) that in the universe (*lokam/prapancham*) there is some kind of a *Sakti*. This *Sakti* is present in nature (*prakriti*) in many forms and modes (*palarupam-bhavam*). It is the mother (*matavu*) of manifest universe (*sristi*). According to the Bhagavad Gita, the universe (*prapancham*) came into existence from this 
+> I believe (*visvas*) that in the universe (*lokam/prapancham*) there is some kind of a *Sakti*. This *Sakti* is present in nature (*prakriti*) in many forms and modes (*palarupam-bhavam*). It is the mother (*matavu*) of manifest universe (*sristi*). According to the Bhagavad Gita, the universe (*prapancham*) came into existence from this
+one Brahman. All modes of being (*avasta-bhedangal*) are emanations (*avantaravi-bhagangal*) of this one Sakti (*eka-Sakti*). It is this life-giving force (*chitanya Sakti*) that pervades (*nirannu-nilkkunnu*) in me, in you and in all beings (*sakala jiva-jalangal*). This is a power that transcends nature (*para Sakti/Prakritiyatita Sakti*). It controls (*niyantrikkuka*) the universe (*prapancham*) and all the beings (*jivajalang al*) in it. We do not experience (*anubhav*) it as we are thinking of our own individual happiness. But if we conceive (*samkalpikkuka*) this Sakti as the mother of the universe and worship (*upasikkuka*) it, it is beneficial (*gunam*) to us.
+
+### B. The Reasons of their religious outlook in life
+
+In the context of the above affirmation of faith in a power that transcends nature (*para Sakti/Prakritiyatita sakti*), if we ask them what are the reasons for holding on to a belief like this, the following are the kind of answers we get from a number of people. I have grouped them under eleven headings, with one or two examples for each type of reason. In the answers of people one or more of these reasons appear in different combinations.
+
+**(1) A sense of wonder about the Universe and its rhythm leads many people to affirm faith in a Universal power.**
+
+> When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great Sakti is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) Sakti. They will not happen (*nadakukayilla*) without a sakti . . .
+
+> The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of Daivam. If man thinks that there is no Sakti above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
+
+**(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.** From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
+
