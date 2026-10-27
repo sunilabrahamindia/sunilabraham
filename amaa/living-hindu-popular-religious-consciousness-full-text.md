@@ -213,7 +213,16 @@ Some explained *punyam* is the merit-reward *Iswaran* gives for our *salkarma* i
 
 ### God-conception and the traditional practices of purity and pollution (*Suddhi and Asuddhi*)
 
-People understand the *kopam* of gods not only in terms of moral values but also in terms of certain ritual practices of purity (*suddhi*) and pollution (*asuddhi*). For instance a story was told of a man who suffered burns while walking with other *Komarams* in the fire. In the *prasnam*, Bhagavati asked, "do my children have to eat his leavings?" It is said that the man had consumed a piece of coconut while he was preparing the dish for the festival. Similarly, certain categories of people such as a woman in her periods, a woman after child birth, members of a bereaved family, consider themselves ritually impure. They do not perform a religious exercise, say for instance, lighting the evening lamp (*sandhya
+People understand the *kopam* of gods not only in terms of moral values but also in terms of certain ritual practices of purity (*suddhi*) and pollution (*asuddhi*). For instance a story was told of a man who suffered burns while walking with other *Komarams* in the fire. In the *prasnam*, Bhagavati asked, "do my children have to eat his leavings?" It is said that the man had consumed a piece of coconut while he was preparing the dish for the festival. Similarly, certain categories of people such as a woman in her periods, a woman after child birth, members of a bereaved family, consider themselves ritually impure. They do not perform a religious exercise, say for instance, lighting the evening lamp (*deepam). They are not to take part in sacred functions at home or to visit the temples or shrines of gods.<sup id="ref-6"><a href="#note-6">6</a></sup>
+
+There are also people among the high castes who believe that the entry of lower castes into their temple would render it impure (*asuddham*). A story was told by some of how a Manyani Nair family in Chirakkal had to give away their shrine to a Tiyya as he was found in it, lighting the lamp before the deity. In another story some Tiyya men were struck dead by cholera because they entered the Kottiyur temple. Some of the interviewees also complained that the *sakti* of their gods is diminishing because of the fact that offerings (*nerchas*) are accepted from Pulaya women, and that the items for the offerings to the gods are bought from Muslim shops. One of the interviewees also said that the oracle (*velichapad*) of Mucchilott Bhagavati did not enter his sister's house as she was married to a Tiyya. There also prevails the practice of not allowing widows to take part in important sacred functions.
+
+Another traditional practice observed in the name of *suddhi* of gods is vegetarianism. For instance, people like Komaram, Ayattan, Velichapad who act as the medium of gods, and people who go on pilgrimages should observe a strict vegetarian diet and abstain from sexual pleasure.
+
+It is also believed by some that the ritual bathing (*abhisheka*) of the idol with water, milk, curd and ghee is done for reasons of ritual *suddhi*. The idol is believed to become polluted (*asuddham*) because of the *darsan* of many impure people.
+
+From all these examples it is clear that the traditional institutions like *pula*, namely pollution, connected with birth, death and menstruation, discrimination against lower castes—particularly Harijans, prohibition of inter-caste marriage, prohibition of widow marriage, and vegetarianism are based on an underlying notion of purity and pollution which is defined with preference to the gods. For instance, the *pula* at the time of birth, death, menstruation is marked by the ritual inability of those affected by it to perform any religious acts to their gods; the Pulayas are considered to be the most impure and they are also the most unworthy to act as *santikaran* to the gods of other castes; the different castes (*jatis*) keep their identity by means of their gods and these gods do not enter the houses of people of mixed marriages; the vegetarian meal is a pure meal and that is the meal acceptable to the gods of the higher castes; widows are inauspicious and they are not to participate in the auspicious rites
+
 
 
 ## Notes {#notes}
@@ -238,6 +247,10 @@ People understand the *kopam* of gods not only in terms of moral values but also
 <li id="note-5">
   Proper names of some god will be used.
   <a href="#ref-5">↩</a>
+</li>
+<li id="note-6">
+  People tell stories which speak of the necessity of observing the rules of purity and pollution. One such story is about "Uppan". This bird is believed to be a woman under a curse. Her mistake was that she in her periods came into contact with some of her relations going to the temple.
+  <a href="#ref-6">↩</a>
 </li>
 </ol>
 
