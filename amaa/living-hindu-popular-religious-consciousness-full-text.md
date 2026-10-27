@@ -148,6 +148,74 @@ People who take this view talk of rituals in the following style:
 
 **(a)** Suppose I or my family is suffering from a particular harm (*dosam*) say, for example, *Sarpadosam*, in that case *Sarpa-bali* (offering to the serpent) is necessary. Skin diseases, appearance of snakes in one's compound are believed to be *sarpadosam*. A piece of red cloth (*chop-oppikkal*) is to be offered to Bhagavati if the affliction is from Vasuri-mala (goddess of smallpox). When the trouble is from the spirits of the dead, cock sacrifice is necessary. Any harm from an evil spirit can be countered only with a *vazhipad* (offering) to Karimchamundi.
 
+
+Again, if we want our wishes to be fulfilled *pujas* to particular gods or goddess have to be offered. For instance, for the birth of a child, for wealth, Bhagavati is to be worshipped in special ways. This means the *saktis* are placated by these rituals.
+
+**(b)** We fail sometimes to obtain what we want because there is an obstacle (*vignam/mudak*) for it. We consult the astrologer (*kanisan*). He tells us the nature of the *vignam* by means of *prasnam*. He then prescribes *Ganapati homam*, or *choppu oppikkal*. The obstacle may be due to the position of some planets like Rahu or Ketu. But they can be removed by special rituals.
+
+**(c)** Sometimes *saktis* like Potten *teyyam*, Vishnu murti, Kuttichattan ask through their *komaram* (dancer) etc. for certain ceremonies to be done for them.
+
+**(d)** Gods show sometimes certain signs asking for *nerccha, utsavam*, etc. "I understood," said a Pulaya, "through my child's peculiar gesture (*chesta*) that I was to celebrate *tira* (festival) to Potten *teyyam*. I felt so since I was a believer".
+
+People who talk like this believe that *saktis* are pleased by the rituals. They use phrases like "*puja vidhikal kondu sakti priti undakum*"; "*Homam/namajapam tapas adiyaya anusthanangal kondu daivangale santoshipikkam*"; "*vrata tantra vidhikal kondu sakti prasadam undakam*" i.e. *puja, Homam, namajapam tapas, vratam* and such other prescribed religious rituals cause the gods to give their favour. If the desired wish is fulfilled, they believe that the gods are made happy. "*Agrahicha karyam sadhichengil, santosichu ennatinnu adayalamanu*"; "*Daivangal santosichengil karyangalkku oru mudakavum undakuvella*." If the gods are pleased, there won't be any obstacle to our affairs. Stories of different favours received were related by people who had obtained the *saktiprasadam*. Failure to obtain the favour, however, would be interpreted differently. Either they would say that the "Bhagavati"<sup id="ref-5"><a href="#note-5">5</a></sup> is not pleased, or one's time is not good, or one has no *vidhi* for it.
+
+These two distinct styles of speech about rituals should not perhaps be attributed to two distinct groups. Perhaps the wise thing may be to say that these two strands are present in the consciousness of ordinary people in different degrees and that the same people may act differently in response to different rituals at different occasions. However, it looks as if there are some people who refuse to attribute to rituals meaning *ex opere operato* and interpret rituals solely in terms of personal experience of values and meanings.
+
+### D. Moral values and traditional practices of purity and pollution (*Suddhi* and *Assuddhi*) go into the making of their God-conception.
+
+People in Chirakkal, just like any other common folk in India, talk of their gods getting angry and punishing them. Stories of the gods' anger and punishment either from the Puranas or of local origin, form part of their religious consciousness. But if we try to understand what is meant by their talk of gods' anger, we will discover a basic belief in them that *Daivam* is to uphold the moral law. *Daivam* destroys the wicked (*dustanigraham*) and protects the good (*sistaparipalanam*). In other words, the tales of gods' anger in popular Hinduism are understood primarily in terms of moral demands on man.
+
+The following answers were given by people when they were asked to explain what they understood by stories of gods getting angry.
+
+**(i)** "Daivam is without beginning or end. He is without emotions. But according to the Puranas, Bhagavan has come as Rama or Krishna to uphold *dharma* and end all forms of injustice (*aniti*). *Avatars* are *bhavams* of the *Sakti* of Bhagavan. Their duty is destruction of the wicked (*dustanigraham*) and protection of the good (*sistaparipalanam*)."
+
+**(ii)** "Iswaran is *saccidananda swarupam*. It has no anger. It is ever in love with the world. As *avatar* it shows the feelings of man since the purpose of *avatar* is to destroy *adharma* and protect *dharma*. The Puranas help us to understand the meaning of life."
+
+**(iii)** "According to the Bhagavad Gita, Bhagavan takes *avatar* to protect *Dharma*. Kamsan was killed by Sri Krishnan and Hiranyakasipu by Narasimha *avatar* for their wickedness towards the people. The anger is against *adharma*. Bhagavan shows mercy to his devotees."
+
+**(iv)** "Just as man, *Daivam* becomes angry at man's wicked acts and happy over his acts of worship and virtuous deeds such as alms-giving (*puja karmangal* and *danadharmangal*). *Avatar Daivam* comes to kill the wicked and protect the good. Anger is against *adharmam*."
+
+**(v)** "Bhagavan takes *avatar* when *adharmam* increases. The opposition to *adharmam* is manifested in anger. The real form of Bhagavan is *saccidananda swarupam* and *nirguna-bhavam*. But as *avatar* he shows feelings proper to that particular birth (*janmam*). The Puranas are treasure houses of knowledge. Many stories go to show that only *niti* and *dharmam* are permanent, not *adharmam*."
+
+**(vi)** "One day man must suffer the fruits of his pride and wickedness. Man is punished for his evil deeds. It must be coming from *Daivasakti* as described in the Puranas."
+
+**(vii)** "*Daivam* gets angry if wrong acts are done. It means that people will have to suffer for theft, lies, deceit, etc. This is interpreted as *Daivam*'s anger."
+
+**(viii)** "The Puranas tell the story of the struggle between the good and the evil (*nanma and tinma*). They are written in a poetic style in the language of *devas* and *asuras*."
+
+**(ix)** "Man has to pay for untruth and evil deeds. If *satyam* and *maryada* are violated, the result is affliction. It is interpreted as *Daivam*'s anger."
+
+From the answers of people quoted above it is abundantly clear that in the religious consciousness of ordinary Hindus, *Daivam* is a symbol that undergirds their moral values.
+
+However, a careful reading of the answers show two styles of speech. One is to interpret punishment of the wicked as an act of *Daivam*, the other is to speak of it as an automatic law of *karma*.
+
+#### What is papam or adharmam?
+
+Whether it is the symbol of God, or the symbol of the law of *karma* that supports the moral values of individual Hindus, the question of what is morally right or wrong has a certain relativity according to the times. For example, the moral sensitivity of Hindus who lived some two hundred years ago believing in *sati*, human sacrifice, child marriage, etc. is not the same as that of the Hindus of today. Their conception of justice and ideas about property rights, etc. were not the same as those of today.
+
+Therefore, people were asked to describe what they understood by *papam/adharmam* and *punyam* so that we may have a general idea of people's thinking about what is morally right and wrong. Their answers are given below.
+
+#### Papam
+
+What is *papam*? People were asked. Everyone without exception gave general descriptions like, "Deliberately and unnecessarily hurting (*upadravam, vedana*) harmless creatures both men and animals (*jivi, prani*) and acting against the interests of other people. But we can fight against the *adharmam* of others and retaliate against the wrongs done to us. Some gave the example of the killing of the Kauravas which, according to Sri Krishna, was no *papam*. In general they said that a thought or word or deed that gives pain to others is *papam* (sin).
+
+Some of the specific instances of *papam* that people mentioned are: "not paying due wage", "not returning loans", "not helping others when one can", "not looking after one's parents and children and wasting money on alcohol", "taking undue profit in business", "misappropriation of others' property", "stealing", "deceiving others", "breaking a promise to marry a girl or similar betrayal", "envy", and "calumny".
+
+About ten people wondered, since life involves exploitation of others, whether it would be possible to live without committing sin in one form or another.
+
+Some considered all killing and causing pain, whether it be to animal or to man, as *papam*, while for the majority killing animals for food was not sin. It is at the most, a necessary sin. Harmful creatures like snakes, and insects like mosquitoes could be killed.
+
+#### Punyam
+
+In their description of *Punyam* three types of acts were referred to. A *pravritti* (an act) done for the benefit (*upakaram*) of others is *punyam*. *Iswaravicaram*, observance of *vratam, tozhal, vazhipad, tirthayatras* are *punyapravrittikal*. But the mind must be *suddham* and these acts should be accompanied by acts of *danadharmam*. We have to do good to others without desiring any favour in return. Helping the poor (*sadhukkal*) was repeatedly mentioned as *punyapravritti*. Other specific instances were *danadharmam* (alms giving), feeding the hungry, caring for the sick, controlling *kamam* and *moham*.
+
+Some explained *punyam* is the merit-reward *Iswaran* gives for our *salkarma* i.e. good acts done to others (*upakaram*). In this sense also the word is used in Malayalam.
+
+### God-conception and the traditional practices of purity and pollution (*Suddhi and Asuddhi*)
+
+People understand the *kopam* of gods not only in terms of moral values but also in terms of certain ritual practices of purity (*suddhi*) and pollution (*asuddhi*). For instance a story was told of a man who suffered burns while walking with other *Komarams* in the fire. In the *prasnam*, Bhagavati asked, "do my children have to eat his leavings?" It is said that the man had consumed a piece of coconut while he was preparing the dish for the festival. Similarly, certain categories of people such as a woman in her periods, a woman after child birth, members of a bereaved family, consider themselves ritually impure. They do not perform a religious exercise, say for instance, lighting the evening lamp (*sandhya
+
+
 ## Notes {#notes}
 
 <ol>
@@ -166,6 +234,10 @@ People who take this view talk of rituals in the following style:
 <li id="note-4">
   Other concrete *namas* will be used e.g. Muttappan.
   <a href="#ref-4">↩</a>
+</li>
+<li id="note-5">
+  Proper names of some god will be used.
+  <a href="#ref-5">↩</a>
 </li>
 </ol>
 
