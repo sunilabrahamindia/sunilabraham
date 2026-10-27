@@ -54,6 +54,6 @@ Both formats should be reviewed for accessibility, including logical heading lev
 
 ## Initial Milestone
 
-The first milestone is to produce and review an EPUB and a PDF from a confirmed selection of 8-10 pages. The extraction rules must be verified against the original articles before the process is extended to additional publications.
+The first milestone is to produce and review an EPUB and a PDF from a confirmed selection of 8–10 pages. The extraction rules must be verified against the original articles before the process is extended to additional publications.
 
 {% include navbox-amaa.html %}
