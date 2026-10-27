@@ -77,6 +77,5 @@ Chatterji died on 8 December 2002 at his residence in New Delhi. A report publis
 
 - [Saral Kumar Chatterji: author record and bibliography](https://openlibrary.org/authors/OL1290607A/Chatterji_Saral_Kumar) at Open Library.
 - [CISRS directors](https://cisrs.in/directores) at the Christian Institute for the Study of Religion and Society.
-- [Saral Chatterji's photograph](https://cisrs.in/assets/users/images/saral-chatergi.jpg) on the CISRS website.
 
 {% include back-to-top.html %}
