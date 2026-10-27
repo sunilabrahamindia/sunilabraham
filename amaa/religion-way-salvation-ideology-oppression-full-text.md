@@ -178,4 +178,48 @@ The gods worshipped in these Devasthanams are all male gods, except one. They ar
 In contrast to the Devasthanams, the Holeyas and Madigas have as places of worship the gudis. These gudis are either an anthill or a crude image with or without a small roof over it. Some gudis are in a portion of the priest's dwelling. We have counted 29 such gudis in these 20 villages, belonging either to the Holeyas or Madigas. Generally a mother goddess under various names such as Yellamma, Kaveramma, Gangamma, Maduramma, Dugalamma, Maheswaramma, Pajamma, Dalamma, etc. is worshipped there. The only male god among them is the god Muneswara. Holeyas and Madigas have priests of their own community.
 
 
+
+The caste Hindus also have their own *gudis* where they worship generally mother goddesses or Muneswara. But priests in these caste Hindu *gudis* are from professional castes such as Kumbara, Tigala, Achari, Togata (Devanga) and Kuruba and not Brahmin or Lingayat. Besides the *gudis*, every village has at least one snake shrine called *rache* which has to be installed by a Brahmin priest. In the two villages Holeyas and Madigas have made their own *rache* installed by their own priests.
+
+### III. The Ambivalent Nature of Village Festivals
+
+The religious exclusion of the Holeyas and Madigas from the routine religious life of the caste Hindus is broken only when caste Hindus come closer to the Holeyas and Madigas during the celebration of village festivals. In fact the roles played by the Holeyas and Madigas in some of the village festivals is quite prominent, and the worship is autochthonous and not brahminical. This is clear from the blood sacrifice and the priestly role played by a landlord or a low-casteman. It may be that these agricultural festivals of a matriarchal form of worship were the tradition of a non-caste people before the brahminical religious culture came to be associated with them in a semi feudal agricultural society. We can therefore divide the village festivals into two broad categories: ancient autochthonous festivals of the little tradition and brahminical festivals of the great tradition. Ancient autochthonous festivals of the people were made to reflect the feudal character and caste value of the Brahmins.
+
+#### A. Prostitution of Autochthonous Festivals by the Caste Society
+
+##### (a) Makara Sankranti
+
+This festival occurs on 14th January every year. The Thoti, the representative head of the Holeyas<sup id="ref-1"><a href="#note-1">1</a></sup>, decorates the entrance of the village with a festoon of mango and neem tree leaves. It is also his duty to get ready a temporary place of worship a quarter of a kilometre away from the village under a mango or banyan tree. The place is cleaned with cowdung water.
+
+The villagers gather there with decorated cattle. In some villages he-goats and rams are also taken. Bulls and cows which are wild and kicking are decorated with flowers, kumkum and turmeric powder, and packets of eatables are tied to them. The people erect a small shed with mango and neem leaves. A god called 'Katam Raju' (forest god) is installed inside the shed by arranging two rows of five small stones facing each other. One of the landlords or a potter by profession also plays the role of a priest. Nuts, fruits, vegetables, cooked rice, milk and milk products are placed in front of Katam Raju along with kumkum, turmeric, betel leaves and udubathi (agarbathi). Rice and milk are cooked and fowls are sacrificed before Katam Raju as part of the worship. Milk is boiled in a small earthen pot in front of the god. As the milk reaches the boiling point and is about to spill over, the Thoti breaks the pot, which is indeed a priestly role. In some villages the pot is not broken and people eagerly watch in which direction the milk spills over first. It is believed the direction in which the milk flows first will be safe for cattle in that year. The rice cooked before Katam Raju is distributed by the Thoti to every house for sprinkling over the cattle. The fowls are sacrificed after the milk-boiling rituals.<sup id="ref-2"><a href="#note-2">2</a></sup>
+
+When the worship is over the cattle are lined up around the temporary shrine and the priest sprinkles holy water over them. The procession back to the village starts in the evening, led by the land-owning castes such as Reddys and Vokkaligas with their cattle. They are followed by professional castes such as Kumbara (potters), Ganiga (oil-presser), Achari (carpenter) and Agasa (washermen). Holeyas and Madigas go at the end of the procession. When the procession arrives at the entrance of the village, the cattle are made to walk over the ashes of burnt straw of paddy and ragi. It is the job of the Thoti to collect straw from farmers, spread it over the road leading to the village and have it burnt. The valour of the village youth is to be proved at this time. As soon as the cattle cross the festoons anyone who has the courage to do so can try to take away the eatables tied to the cows and bulls.
+
+After all the cattle have passed through the festoons, the Thoti cuts the festoons. The cattle are thereafter taken to the main temple in the village for worship. From the temple the procession goes through
+
+
+<ol>
+<li id="note-1">
+  Thoti is the head of the Holeyas community and is found in all the villages. His duty is to serve the village in the following ways:
+  <ol type="a">
+    <li>To remove dead animals from the village.</li>
+    <li>To call the people to the village assembly which decides the dates of religious festivals, pilgrimages and arbitrates disputes.</li>
+    <li>To report births and deaths to the village patel in earlier days and nowadays to the village accountant.</li>
+    <li>To collect contributions from each household for any religious ceremony.</li>
+    <li>To remind the individuals and households, who have taken upon themselves some responsibility or activity connected with the village festivals of their duty the night before the festival.</li>
+    <li>To beat the drum in funeral rites' festivals.</li>
+    <li>To help revenue authorities in collecting dues.</li>
+    <li>To do any announcing or auctioning of any property by the Government.</li>
+    <li>To dig burial pits for the caste Hindus.</li>
+    <li>In some villages he has to get firewood ready for shraddha in the families of the landlords.</li>
+  </ol>
+  Traditionally the thoti is given some land for the above work. In recent years he is paid a small allowance by the government.
+  <a href="#ref-1">↩</a>
+</li>
+<li id="note-2">
+  In some villages this practice is not observed in these days.
+  <a href="#ref-2">↩</a>
+</li>
+</ol>
+
 {% include navbox-amaa.html %}
