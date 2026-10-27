@@ -226,9 +226,37 @@ From all these examples it is clear that the traditional institutions like *pula
 
 
 
-**[Editorial note: Pages 18-19 are missing from the available scan. The transcription resumes with page 20.]**
+In short, purity practised by people is understood in terms of what is pure to their gods. Violation of this invites their anger. In other words, their ideas of purity are built into their conception of God. The talk of His purity is the talk of their purity. He is the basic symbol that supports all their purities.
 
-Kali, Lakshmi etc. but also through a number of other symbols. For instance, it is believed that there are among living men incarnations or realizations of the Divine such as Sai Baba, Sai Sankar, Santosh Mai, Mayamma and countless others. Popular Hinduism also has god-dancers who act as god's vehicles of communication to man. Then again there is the cow, the *nagām*, special trees, rivers and planets which are known for their sacred powers. All these form part of the sacred symbols of the Hindu faith as it is lived today.
+If an attempt is made to understand the pattern of the reaction of people in relation to some of the traditional practices of *suddhi* in our culture, namely, how people these days view the traditional practices in our culture such as *pula*, i.e. practices of purity and pollution at the time of birth, death and menstruation, prohibition of inter-caste marriage, non-vegetarianism, prohibition of Pulayas to act as priests, etc., we will find that the concept of *suddhi* in relation to these traditional practices is differently understood and practised by Hindus. This fact once again proves that the *content of their God-conception is not uniform and it undergoes certain changes accordingly as the value system changes in our culture.*
+
+### E. The reasons for which people worship their gods
+
+One of the most common misconceptions among Christians is that popular Hindu worship is a kind of bargain. Ordinary Hindus offer something to their gods in order to get something in return. This is actually a caricature of their religious consciousness. We conveniently ignore some of the basic religious attitudes of the ordinary believers and judge them by part of what we see them doing.
+
+From the answers of people to questions such as: What is the aim of your prayer and worship? Why do you visit the temple? etc., it is clear that some of the basic reasons for worshipping the gods are the same as those which make them believe in a *Para Sakti*. For instance, people will say that God's help or blessings (*Daiva Sahayam/Daiva anugraham*) is necessary for life. It is with God's help that our life goes on. Everything would happen according to *Daivam*'s plan. Prayer to God helps us to walk in the right path (*nervazhi*) without pride (*ahamkaram*). It is a *dosam* not to remember *Daivam*. Neglect of practices like *tozhal* (prayer) might lead us to live without fear of God (*Daiva-bhayam*) and lead us to acts against God (*Daiva-dhikaram*). On the contrary, practices like *tozhal* help us to get closer (*adukkan*) to *Daivam*.
+
+Another important and the most frequently mentioned reason for prayer and worship is to get peace of mind (*mana samadhanam, asvasam*). We have seen above that the fact that prayer is answered makes people believe in God. It is in this context some of their felt needs like 'cure from disease', 'marriage of a daughter', 'job', etc., do appear in their prayer. It arises from their religious belief that God answers prayers. For visiting temples there are other legitimate considerations, such as 'to see the festival (*utsavam*)', 'attend a marriage', 'meet friends', 'accompany the women folk' (wife, mother, sister), 'for spending time (*santosam, nerambok*)'. But these are to be understood in relation to their total religious consciousness.
+
+Some of the answers of people are given below which give us an idea of the basic attitudes in the worship of gods, as well as to other reasons which prompt people to pray and worship:
+
+1. 'I believe that a sense of God (*Daivavicaram*) is good. The blessing of God (*Iswaranugraham*) is necessary to our lives. It is also a pleasure (*rasam*) to see places like Guruvayoor, Sabarimala.'
+2. 'Tozhunnat (prayer) is good. It helps in life. I pray so that my life may proceed without difficulty.'
+3. 'I go to temple to pray (*tozhan*) and meet friends.'
+4. 'To fulfil an offering (*vazhipad*) that had been promised. Show children the festival (*utsavam*).'
+5. 'To give first rice to children, meet friends, to see the cultural programmes (*kala paripadis*).'
+6. 'I pray so that my life may proceed without much difficulty. I believe that Mukamiamma will help me in this; to give first rice to children.'
+7. 'I go to temples to do the rituals (*chadang*) that are to be done. *Daivam*'s *Sakti* is in the world. It is necessary to think of it.'
+8. 'Visiting temples is *punyam* (virtuous act). I pray for protection from illness and bad times.'
+9. 'Visiting the temple is a good habit (*nalla silam*). It is a tradition (*mura*) we follow.'
+10. 'I pray asking for *Daivasahayam*.'
+11. 'I pray for deliverance from poverty and ill-health.'
+12. 'I go to temples to see *utsavam* (festival) and to fulfil the *nercha* (promised offering).'
+13. 'I visit temples for *santosam* (to feel happy) and give offering (*nercha*). When I have rupees ten or five I feel like going to Parassini.'
+
+### F. Attitudinal changes towards the symbols of Faith
+
+In popular Hindu religious consciousness the experience of the sacred is mediated not only through the many gods such as Siva, Vishnu,  For instance, it is believed that there are among living men incarnations or realizations of the Divine such as Sai Baba, Sai Sankar, Santosh Mai, Mayamma and countless others. Popular Hinduism also has god-dancers who act as god's vehicles of communication to man. Then again there is the cow, the *nagām*, special trees, rivers and planets which are known for their sacred powers. All these form part of the sacred symbols of the Hindu faith as it is lived today.
 
 Empirical evidence from Chirakkal suggests that these traditional sacred symbols do not mediate one religious meaning for all people. For instance, while some people believe that Sai Baba is an *avatar* of Bhagavan, others consider him a clever magician or a confidence trickster. While some Hindus hold that Aswatha vriksham (*Arayal*) is the symbol (*Samkalpam*) of all gods, that Tulasi is Lakshmi, that Ganges is Vishnu, others say that they have learnt in school that such expressions in our language are "remnants of old nature worship". How can we worship the moon they ask, when the Americans have landed on it? Fire walking by Teechamundi *teyyam* (god) is considered "big fun" (*tamasa*) by them. His *urachil attam* (possession dance) does not impress them except for its aesthetic value. Anyone, they say, can do it with some courage.
 
