@@ -230,6 +230,7 @@ In some villages Holeyas and Madigas are not allowed to carry the goddess and th
 
 When the goddess leaves the village after the celebration, offerings of sari, blouse-piece and other things are made to her after the fashion of a daughter leaving her father's house.
 
+## Notes
 
 <ol>
 <li id="note-1">
