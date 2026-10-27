@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Kuruvilla Cherukara Abraham"
+title: "K. C. Abraham"
 categories: ["Biographies", "Christian Institute for the Study of Religion and Society", "A. M. A. Ayrookuzhiel"]
 description: "Biography of Rev. Dr. Kuruvilla Cherukara Abraham, Indian theologian, educator and ecumenical leader known for his work on liberation theology, mission and social justice."
 permalink: /kcabraham/
