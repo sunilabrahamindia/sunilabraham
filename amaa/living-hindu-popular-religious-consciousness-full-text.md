@@ -39,3 +39,48 @@ In the context of the above affirmation of faith in a power that transcends natu
 
 **(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.** From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
 
+> When I survey my life and what I see around me, I am convinced that it is not man who rules this world but the *Sakti* of *Daivam*. For things do not turn out as man desires. When we see the rise and fall of individuals we think of that *Sakti*. It reminds us of the lines of Punthanam who said:
+
+> *Randu nalu dinamkondu oruttane tandilletti nadattunnatum Bhavan, Malika mukaliker iya mannante tolil marapu kettunatum Bhavan.*
+
+It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *Sakti* helps man to live.
+
+**(3) A third factor that leads people to affirm belief in a Sakti is the experience of the fact that prayers are answered.** This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
+
+> According to my mother, I was born because of an offering (*nercha*) to Subramanyam. This makes me believe in the miracles of *Daivam* . . .
+
+> Swami grants what we ask. We therefore, worship him. *Daivam* helps those who worship him. In this world, there are good as well as dangerous *Saktis*. By means of prayer (*japam/mantram*) or omission of it we can please them or make them show their terrible anger.
+
+> There is no doubt that there is a *Sakti* above man and all other beings. Each one realizes this through certain individual experiences of his own. There are two kinds of *puja* namely *satvic* and *tamasic*. *Tamasic puja* may yield the result immediately though it may not last long. *Satvic puja*'s results are long lasting, though we may not get an immediate answer.
+
+Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* which are answered. It makes them believe in the validity of those forms of prayer as well as the gods who answer those prayers. (cf. any book on the Mahatmyam of a particular God. It will narrate stories of favour as evidence of the power and the reality of that god).
+
+**(4) The moral feeling that there is a Sakti that rewards the righteous and punishes the wicked is another factor that leads to religious faith.** People also say that such a moral fear is necessary for man to walk the right path.
+
+> Those who walk in truth and in humility, *Daivam* prospers,  
+> Those who forget *Daivam* He punishes,
+
+> I believe that if we walk the right path without desiring harm to others and bear with patience all difficulties, doing our job dutifully, *Daivam* will help us reach a good stage in life—if not today, tomorrow.
+
+> The belief that all our deeds are known and seen by a *Sakti* is good. Someone up above (*mela oral*) sees and listens. We cannot live as we please. If we act forgetting *Iswar*, there will be ruin (*nasam*). We will get its proper wage (*kuli*). We will suffer the bad result (*cheeta phalam*). There must be some fear (*oru bhayam*) for man. Otherwise we will be so proud. Thoughts about a *Sakti* prevent many people from doing wrong.
+
+> It is *Daivam* who rewards everyone according to His *karmam*.
+
+**(5) Many people are inspired to affirm faith in a Sakti on seeing the great changes that take place in the lives of some people when they begin to believe in God.** They also say a belief in God is necessary for a virtuous life.
+
+> When we see the sudden change in some people's lives, we believe. Belief in a *Sakti* had changed their life. It gave them the ability to walk in the right path (*nervazhi*).
+
+> We can control ourselves if we believe and worship a *Sakti*. We need a Power to guide and lead us in the right path. We need a *Sakti* to lead us to good life.
+
+**(6) Experience of the presence and guidance of a Sakti in their lives makes people believe in it.** Individuals claim the guidance and protection of a Power which, they say, confirmed them in their belief.
+
+> I believe that every action in my life is done under *Daivam*'s guidance. I feel that *Daivam* is watching me all the time.
+
+> In my troubles *Daivam* shows me a way out. I lead a contented life because of *Daivam*'s help. I prospered economically only after I began to believe in *Daivam*.
+
+> *Amman* guides me as a mother. Man needs such a power because he is fickle minded.
+
+> I have problems. But still my life goes smoothly because of my belief. I believe *Daivam* helps and supports me. For me everything is possible, because of *Daivam*'s help.
+
+> We obtain peace of mind if we think of *Daivam*. I pray and obtain peace of mind (*mana santi*). I have experienced Murugan's presence.
+
