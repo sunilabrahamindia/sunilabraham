@@ -230,6 +230,66 @@ In some villages Holeyas and Madigas are not allowed to carry the goddess and th
 
 When the goddess leaves the village after the celebration, offerings of sari, blouse-piece and other things are made to her after the fashion of a daughter leaving her father's house.
 
+
+#### (e) An egalitarian spiritual practice during the Karaga
+
+The Karaga, a mother goddess festival, popular among the villagers is an occasion for the people to go on a pilgrimage (Jatra) to Chikka Tirupathi in Malur taluk about 15 to 20 kms away. The pilgrims to Chikka Tirupathi are fed by the villagers either on their way or in Chikka Tirupathi itself. This feeding is called *Anna Chatra*. Well-to-do individual farmers among the Reddys and Vokkaligas or the whole village, including the Holeyas and Madigas, join together and conduct these feeding exercises. Some of these villages and individuals have their own permanent sheds in Chikka Tirupathi for *Anna Chatra*. The feeding may continue from one to three days or as long as one's provisions last. According to tradition, no caste discrimination is allowed in the feeding or partaking of the food.
+
+#### B. Greater Exclusion of Holeyas and Madigas from Brahminical Festivals
+
+##### (a) Sri Ramanavami
+
+The festival of Ramanavami is observed in these villages among the Reddys, Gowdas, Lingayats and other professional castes. The worship takes place at the serpent shrine of the village called Rache where the photos of Sri Rama and others will be installed. While all the caste Hindus join in the worship, the Holeyas and Madigas watch it from a distance. A special preparation called *Panaka*, a beverage made of jaggery and pepper, is distributed at the end of the worship. The Holeyas and Madigas are given the prasadam in vessels brought by them and care is taken not to touch them during the distribution.
+
+##### (b) Naga Panchami
+
+The women and children of the caste Hindus worship at the Rache by pouring milk and ghee over the snake idol. The Holeyas and Madigas are not allowed to worship at the Rache. They go to some anthill outside the village and worship there.
+
+##### (c) Dasara
+
+During the Dasara festival all the villagers led by Reddys, Vokkaligas, Lingayats and other professional castes go to a spot outside the village where the cut branch of a Banni (a thorny tree with small eatable nuts) is planted. A caste Hindu priest shoots an arrow into the branch and if it gets well embedded into the branch it augurs well for the villagers. The caste Hindus follow the priest in shooting their own arrows into the branch. But the Holeyas and Madigas are excluded. But later, during the programmes of entertainment in front of the caste Hindu temple, all the villagers are allowed to join in playing kolata together. The Thoti beats the drum and the Hajamas play the pipe.
+
+##### (d) Deepavali
+
+This festival is observed for three days. The idol of goddess Gowramma is installed in public places, temples and rich landlords' houses. The temple priest of the caste Hindus will officiate at these places. The villagers place *mora*, a new winnowing fan, in the centre of their house filled with different foodgrains, coconuts, bananas, sweetmeats, betel nuts and leaves and other common articles of worship. After the home worship the winnowing baskets are taken to the temple or other places of worship where the Gowramma idol is installed. The priest receives *moras* of all the people and after offering them to the goddess returns them to the people. The Holeyas and Madigas do not enter the places of worship; their *moras* are received from outside and the priest takes them inside after sprinkling them with water to indicate an act of purification.
+
+#### C. Caste swallows the festival of Basava Jayanti
+
+Basava Jayanti, the birthday celebration of the reformer saint Basava, is observed in some of the villages. The festival occurs in April or May. We give here a brief description of its celebration as we observed it on the 3rd of May 1984 in the village of Heggon danahalli.
+
+The idol of Basavanna and Bayalu Basavanna (bull) were brought from the temple to the centre of the village in the evening. Bhajans and Harikathas were conducted in the night. Early in the morning the idols were taken back to the temple. A fire pit was prepared in front of the temple with glowing embers. The Lingayat priests walked over them, followed by the caste Hindus. The Holeyas follow them. In some villages in the area they are not allowed to walk over them.
+
+Free food was served to the entire village and to passers by. The Thoti of the village stood by the road near the temple inviting people to partake of the meal. The Holeyas of the village were served food under a tree near the temple, while others were fed in a special shed erected for the festival. The Thoti beat the drum during the festival. Ragi, rice and other requirements of the festival are collected from the villagers.
+
+## IV. Between the Brahminical and Autochthonous Systems of Rituals
+
+In the observance of rites of passage the villagers move between the Brahminical and Autochthonous practices in varying degrees according to the caste. The implication of this situation to the Holeyas and Madigas from the point of view of their aspiration to social equality will be discussed in the conclusion. But first let us have the facts regarding the observance of these rites.
+
+### (a) Birth and naming of the Child
+
+On the occasion of a child's birth, the general convention, though not commonly observed among the landed castes like the Reddys and Vokkaligas, is to consult a Brahmin astrologer, called Purohit, regarding the naming of the child. The astrologer according to the star of the child, gives a letter to the parents which should be the first letter of the name chosen.
+
+The professional castes like potters, washermen, carpenters, blacksmiths and barbers, follow the same practice, though they do not have a strict convention of their own. The Lingayats have their own *Siddha* for consultation.
+
+The traditional practice among the Holeyas and Madigas is that they themselves name their child. But in case the baby gets sick often or the mother has a restless child, they take him to the weekly shandy in Malur and consult one of the Korama women who by tradition are makers of bamboo baskets. The Korama woman prays over the child and gives him a new name. But in recent years several Holeyas and Madiga families, from among the moderately well-to-do and politically active members of the community as well as from the agricultural labourers, consult the Brahmin pandit.
+
+### (b) Mudi (Hair-cutting)
+
+The hair of a child is cut for the first time after worshipping the family god. The most common family god among all castes except the Lingayats and Brahmins for the purpose of Mudi ceremony is Muneshwara. The ceremony can be conducted without the help of a priest. A few hairs of the child are cut by the maternal uncle and later the head is clean shaved by the barber serving the community. Those who perform the ceremony at the Muneshwara temple sacrifice a fowl to the god and prepare a meal with it either at the temple or at home. The priest himself cooks the food for the Holeyas and, after taking his share, returns the rest to them. Wealthy families from among the Reddys, Vokkaligas, Bovis, etc. also go to distant places like Chikka Tirupathi, Mulbagal, Tirupathi in A.P. and conduct the ceremony according to the Brahminical tradition of the place. The Brahmin families of this area go to temples connected with their families in Kadani, Nanjungud or to the famous Tirupathi temple. The Lingayats go to their own centres in Mastanahalli or Balemahalli near Anekal. The Madigas also have a centre of their own in Bannerghatta where most members of the community go for the Mudi ceremony.
+
+### (c) Marriage
+
+The general practice among all castes, including Holeyas and Madigas is to consult a Brahmin or Lingayat astrologer on the occasion of the marriage. If the name and the star of the bride agree with those of the bridegroom, the time and date of the marriage is fixed in consultation with the astrologer.
+
+Among the Reddys, Vokkaligas and other professional castes, a Brahmin pundit conducts the main ceremony of the marriage called *Dhare*.
+
+In the marriages of these castes the participation in the marriage meal depends on who cooks and serves the food. If the food is cooked and served by the Brahmin, all castes partake of the food. If the cook is a Lingayat, all castes except Brahmins share the food. If the food is prepared by any other caste, then the Brahmins and Lingayats do not take part in the meal. They are given some of the raw articles before they leave. The Holeyas and Madigas invited to these weddings are fed in a separate place and are not allowed to throw turmeric rice over the couple during the ceremony or *Dhare*. The professional castes of Acharya and Lingayats have their own priests for conducting their marriages. The few Brahmin families in these villages generally conduct their marriages in a Kalyana Mantap or temple in some town or city.
+
+The marriages of Holeyas and Madigas are conducted by their own elders in the villages. Other caste people, if they are present, are given betel leaves, nuts and fruits before they leave. Some of the rich Holeyas and Madigas get the food prepared and served in a Reddy or Vokkaliga landlord's house so that all can take part in the marriage dinner.
+
+In recent years several educated and well-employed Holeyas and Madigas have celebrated their weddings in towns and cities, with Brahmin priests officiating and no discrimination in serving the meal.
+
+
 ## Notes
 
 <ol>
