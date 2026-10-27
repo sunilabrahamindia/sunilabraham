@@ -4,14 +4,14 @@ title: "Saral Kumar Chatterji"
 categories: ["Biographies", "Christian Institute for the Study of Religion and Society"]
 description: "Biography of Saral Kumar Chatterji, theologian, social thinker and director of the Christian Institute for the Study of Religion and Society from 1976 to 2002."
 permalink: /saral/
-created: 2026-10-27
+created: 2026–10-27
 ---
 
 {% include notice.html message="This biographical article is under development. Further details will be added when reliable sources become available." %}
 
-**Saral Kumar Chatterji**, also published as **Saral K. Chatterji** (1932-2002), was an Indian Christian social thinker, editor and academic. He served as director of the Christian Institute for the Study of Religion and Society (CISRS) from 1976 until his death in 2002. His work connected Christian theological reflection with questions of social justice, caste, the rights of marginalised communities and India's political and economic life.
+**Saral Kumar Chatterji**, also published as **Saral K. Chatterji** (1932–2002), was an Indian Christian social thinker, editor and academic. He served as director of the Christian Institute for the Study of Religion and Society (CISRS) from 1976 until his death in 2002. His work connected Christian theological reflection with questions of social justice, caste, the rights of marginalised communities and India's political and economic life.
 
-Chatterji should not be confused with the Bengali novelist **Sarat Chandra Chattopadhyay** (1876-1938), whose name is also rendered as Sarat Chandra Chatterji.
+Chatterji should not be confused with the Bengali novelist **Sarat Chandra Chattopadhyay** (1876–1938), whose name is also rendered as Sarat Chandra Chatterji.
 
 ## Contents
 
