@@ -198,6 +198,41 @@ When the worship is over the cattle are lined up around the temporary shrine and
 After all the cattle have passed through the festoons, the Thoti cuts the festoons. The cattle are thereafter taken to the main temple in the village for worship. From the temple the procession goes through
 
 
+> **Transcription note:** The scans of printed pages 10 and 11 have not yet been provided. The transcription resumes with page 12 below; the text between page 9 and page 12 is therefore incomplete.
+
+all the lanes of the village, excluding the Holeya and Madiga areas. The Thoti beats the drum all through the procession. Pipe singers belonging to the Hajama (barber) caste play the music.
+
+In some villages Hajamas have land given to them by the villages and they give their services free. In other villages they are paid for their services. When people have returned to their homes, the Thoti visits the houses of the landlords such as Reddys, Vokkaligas and Lingayats and collects eatables of the festival. People give him cooked food, or a little grain or money.
+
+#### (b) Agate Male Ungalu (Hasta Malai)
+
+The festival of Agate Male Ungalu or Pongalu is observed during the time of Agate rain. A meeting of the villagers takes place one week prior to the festival and the date of the festival is decided during the meeting.<sup id="ref-3"><a href="#note-3">3</a></sup> The Thoti goes around the village collecting money from every household for the celebration. On the festival day the Thoti spreads ashes all around the boundary of the village land. Traditionally it is the duty of the Thoti to spread the ash over each and every family's fields. But these days some of the farmers do it themselves. People also draw figures of domestic animals and agricultural tools on the road with ashes. The Thoti digs a small pit at the entrance of the village. The pit is then filled with tender plants of ragi, paddy, jawar and other crops grown in the village. The village headman, along with others, comes to the pit with a ram; it is cut and the blood is poured over the plants in the pit. Some of the blood-soaked plants are taken by the farmers and thrown over the agricultural fields in the village. The head of the sheep is given to the Thoti.
+
+If there are Brahmins and Lingayats in the village they do not take part in the ritual, but only contribute money towards the expenses. The ceremony is done without the usual drum or pipe music.
+
+#### (c) Gangamma festival
+
+The Gangamma festival is celebrated in a village when the water tank gets full in any year. Money is collected from all the villagers and a buffalo is bought for the occasion and taken in a procession to the village tank. The procession is led by Reddys, Vokkaligas, Kumbaras, Agasas, Hajamas, Acharis and others in front with lamps, and the Holeyas and Madigas follow at a little distance. A boat (tappa) made out of plantain trunk by the Thoti of the village is floated in the tank with lamps in it. The buffalo is sacrificed near the tank and the meat is distributed among the Holeyas.
+
+The priest, if he happens to be a Brahmin or Lingayat, performs the puja and leaves the place prior to the animal sacrifice. The drum is beaten by the village Thoti and the pipe is played by the caste Hindu or Holeya barber.
+
+#### (d) Sapplamma festival
+
+This festival which has the status of *Ur habba* or village festival in this area, is that of the goddess Sapplamma, believed to be one of seven sisters. The belief in seven mother goddesses who are sisters is very common in the villages of South India.<sup id="ref-4"><a href="#note-4">4</a></sup>
+
+The villages in this area bring the festival idol (*utsava moorti*) of Sapplamma from a village called Tornahally, which is outside the region, near Malur town. Tornahally is the venue of the weekly market and annual Jathra when thousands of people go there with their cattle for sale. The priests of the Sapplamma temple belong to a family of the Tigala community who are engaged in growing vegetables in and around Bangalore. This temple at present comes under the control of the Muzrai Department.
+
+According to the present head priest, Venkataramanappa, the Sapplamma of Tornahally had been brought from the Sapplamma temple built by the Ganga dynasty near Chikkaballapura. The story goes that about one hundred and fifty years ago the villagers in the Tornahally region used to visit Sapplamma in Chikkaballapura as they visit her these days in Tornahally for safety from rinderpest and other cattle diseases. A certain Lingyat man from Tornahally visited the Sapplamma temple in Chikkaballapura, and returned to the village with kumkum and turmeric powder. On his return, he found the kumkum and turmeric powder had turned into a beautiful wedding necklace. This was reported to one of the forefathers of the present priest. On his advice, the villagers agreed to return the necklace immediately to the goddess. The following day when the villagers got ready to travel to Chikkaballapura, no one was able to move including the bullocks ploughing the field. When the villagers gathered to discuss the strange happening, a boy became possessed by the goddess Sapplamma and declared that the goddess had come to the village on her own in the form of the necklace. An anthill was pointed out where they should build a temple for her. The possessed boy also pointed out a small boy who was to be her priest. When the people protested that the chosen priest was a left-handed boy, the goddess indicated that she was happy with a left-handed priest. This is how the Tigala family got the priesthood and the present priest believes that he is the 7th in line. Sapplamma, according to the belief of the people, lives inside the anthill—inside the *garbagudi* (sanctorum) of the temple.
+
+The following procedure is observed for bringing the goddess Sapplamma to the villages under study. A small delegation from the village, usually of the landlord castes, goes to Tornahally to take the permission of the goddess for their festival. A flower is put on the goddess' head. If the flower falls from the head to its right side permission is given. The request can be repeated thrice. If the answer is in the negative, the delegation excuses itself and returns home, hoping to come back the next year. The consent can also be given by the goddess through the possessed priest. The village which gets permission can collect the *utsava* (procession) idol which will be in one of the nearby villages on its rounds from one village to the other. If the festival date of a village coincides with that of another village, they have to make do with the holy water brought from Tornahally.
+
+The goddess is brought from another village in a procession. Every head of the family in the village goes for this purpose. The Thoti of the village beats the drum. The goddess is brought and kept on the eastern side of the village, about fifty or hundred yards away. Wherever the Brahmin and Lingayat community members are present, they worship the goddess first by breaking a big *kumbalakayee* (pumpkin) before the animal sacrifice begins. They are followed by the caste Hindus offering a sheep. The head of the sheep is given to the priest. The Holeyas and Madigas offer a buffalo and its head is given to the priest who in turn gives it to the thoti for his services.
+
+In some villages Holeyas and Madigas are not allowed to carry the goddess and the procession does not go through their streets. However, according to the priest, the goddess is for all castes, though he cannot do anything against people practising caste discrimination.
+
+When the goddess leaves the village after the celebration, offerings of sari, blouse-piece and other things are made to her after the fashion of a daughter leaving her father's house.
+
+
 <ol>
 <li id="note-1">
   Thoti is the head of the Holeyas community and is found in all the villages. His duty is to serve the village in the following ways:
@@ -219,6 +254,15 @@ After all the cattle have passed through the festoons, the Thoti cuts the festoo
 <li id="note-2">
   In some villages this practice is not observed in these days.
   <a href="#ref-2">↩</a>
+</li>
+
+<li id="note-3">
+  The festival of Agate rain falls during September-October. It was from 27th September to 9th October during 1984 and will be from 19th September to 9th October in 1985.
+  <a href="#ref-3">↩</a>
+</li>
+<li id="note-4">
+  The names of the seven vary in the villages listed. According to one version the seven are Sapplamma, Annaiyamma, Madduramma, Yellamma, Duggalamma, Pujamma and Kalamma. The chief among them also varies from place to place.
+  <a href="#ref-4">↩</a>
 </li>
 </ol>
 
