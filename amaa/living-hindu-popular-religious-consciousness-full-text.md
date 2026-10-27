@@ -335,11 +335,11 @@ It may therefore appear that the spirit of Protestant Christianity and modern Hi
   <a href="#ref-2">↩</a>
 </li>
 <li id="note-3">
-  *Sthalamahatyama* of Sri Mukambika, Guruvayoorappan, Sri Venkateswara etc. claim this type of special manifestation.
+  <em>Sthalamahatyama</em> of Sri Mukambika, Guruvayoorappan, Sri Venkateswara etc. claim this type of special manifestation.
   <a href="#ref-3">↩</a>
 </li>
 <li id="note-4">
-  Other concrete *namas* will be used e.g. Muttappan.
+  Other concrete <em>namas</em> will be used e.g. Muttappan.
   <a href="#ref-4">↩</a>
 </li>
 <li id="note-5">
@@ -350,5 +350,14 @@ It may therefore appear that the spirit of Protestant Christianity and modern Hi
   People tell stories which speak of the necessity of observing the rules of purity and pollution. One such story is about "Uppan". This bird is believed to be a woman under a curse. Her mistake was that she in her periods came into contact with some of her relations going to the temple.
   <a href="#ref-6">↩</a>
 </li>
-<li id="note-7">\n  A detailed account of these points will be found in my forthcoming book on popular religion in Chirakkal.\n  <a href="#ref-7">↩</a>\n</li>\n<li id="note-8">\n  "God" here should be understood to stand for all the common and proper names with which they point to some power other than themselves.\n  <a href="#ref-8">↩</a>\n</li>\n</ol>
+<li id="note-7">
+  A detailed account of these points will be found in my forthcoming book on popular religion in Chirakkal.
+  <a href="#ref-7">↩</a>
+</li>
+<li id="note-8">
+  "God" here should be understood to stand for all the common and proper names with which they point to some power other than themselves.
+  <a href="#ref-8">↩</a>
+</li>
+</ol>
 
+{% include navbox-amaa.html %}
