@@ -47,7 +47,7 @@ A recurring concern in Abraham's writing was what he described as "liberative so
 
 His scholarship covered Christian ethics, theological education, pluralism, ecology, church and society, and the relationship between Christianity and social change. He also contributed to discussions of Third World theology and edited collections that brought together perspectives from theologians working in different contexts.
 
-## Selected public## Publications
+## Publications
 
 The following bibliography is reproduced from the Religion Online page, [Writings of K. C. Abraham](https://www.religion-online.org/book-chapter/writings-of-k-c-abraham/). The entries are grouped as they appear in that bibliography. Some bibliographic details and spellings may reflect the source's original transcription.
 
@@ -142,6 +142,9 @@ The following bibliography is reproduced from the Religion Online page, [Writing
 - "Marx's View of Man", *Religion and Society*, vol. XIX, no. 4, 1972.
 
 The Religion Online bibliography is the source for this list. Some entries have been lightly normalised for punctuation and formatting; bibliographic details should be checked against the original publications where possible.
+
+## Personal life
+
 In 1996, Abraham and his wife, Dr Molly Abraham, established Liza's Home in Bengaluru, a residential facility for girls and young women with disabilities. The centre was intended to support residents' dignity and participation in community life. Abraham continued to support this work alongside his theological and pastoral commitments.
 
 ## Death
