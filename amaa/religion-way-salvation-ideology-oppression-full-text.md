@@ -198,8 +198,6 @@ When the worship is over the cattle are lined up around the temporary shrine and
 After all the cattle have passed through the festoons, the Thoti cuts the festoons. The cattle are thereafter taken to the main temple in the village for worship. From the temple the procession goes through
 
 
-> **Transcription note:** The scans of printed pages 10 and 11 have not yet been provided. The transcription resumes with page 12 below; the text between page 9 and page 12 is therefore incomplete.
-
 all the lanes of the village, excluding the Holeya and Madiga areas. The Thoti beats the drum all through the procession. Pipe singers belonging to the Hajama (barber) caste play the music.
 
 In some villages Hajamas have land given to them by the villages and they give their services free. In other villages they are paid for their services. When people have returned to their homes, the Thoti visits the houses of the landlords such as Reddys, Vokkaligas and Lingayats and collects eatables of the festival. People give him cooked food, or a little grain or money.
