@@ -4,7 +4,7 @@ title: "K. C. Abraham"
 categories: ["Biographies", "Christian Institute for the Study of Religion and Society", "A. M. A. Ayrookuzhiel"]
 description: "Biography of Rev. Dr. Kuruvilla Cherukara Abraham, Indian theologian, educator and ecumenical leader known for his work on liberation theology, mission and social justice."
 permalink: /kcabraham/
-created: 2026-10-27
+created: 2026–10-27
 ---
 
 {% include notice.html message="This biographical article is under development. Additional information, references, primary sources, original content including interviews, and bibliographic details will be incorporated gradually as reliable material becomes available." %}
@@ -90,7 +90,7 @@ The following bibliography is reproduced from the Religion Online page, [Writing
 - "Caste", "Liberation" and "Asian Theology", articles in *The Dictionary of the Ecumenical Movement*. WCC Publications, 1991.
 - "A Response from Asia", in *A Theology of Black Liberation*, edited by James Cone. Orbis, New York, 1990.
 - "Spirituality of the Poor", in *Stop and Proceed*. PSA, Thiruvalla, Kerala, India, 1990.
-- "Christ -- Our Peace -- Building a Just Society", in *Preparatory Volume for Christian Conference of Asia (CCA)*, 1990.
+- "Christ — Our Peace — Building a Just Society", in *Preparatory Volume for Christian Conference of Asia (CCA)*, 1990.
 - "Dialogue in the Context of Indian Life", in *Christian Concern for Dialogue in India*, edited by Jathanna. Bangalore, 1989.
 - "The Bible and the Poor", in *Poverty in India*, edited by J. Murickan. Trivandrum, 1988.
 - "Emerging Pattern of Christian Ministry", in *The Church on the Move: Essays in Honour of the Most Rt. Rev. Victor Premasagar*, edited by H. S. Wilson. Christian Literature Society, Madras, 1988.
