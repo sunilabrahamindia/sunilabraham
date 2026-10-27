@@ -49,7 +49,7 @@ His scholarship covered Christian ethics, theological education, pluralism, ecol
 
 ## Publications
 
-The following bibliography is reproduced from the Religion Online page, [Writings of K. C. Abraham](https://www.religion-online.org/book-chapter/writings-of-k-c-abraham/). The entries are grouped as they appear in that bibliography. Some bibliographic details and spellings may reflect the source's original transcription.
+The selected bibliography below is organised into books, contributions to books, and articles in journals and periodicals. Some entries may have incomplete publication details, and spellings or other bibliographic information may require verification against the original publications.
 
 ### Books
 
