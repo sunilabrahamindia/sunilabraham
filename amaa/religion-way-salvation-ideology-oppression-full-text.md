@@ -26,4 +26,102 @@ The study was done in Sarjapura Hobli of Anekal Taluk, a backward area in Bangal
 
 In the second part we describe the religio-cultural factors based on observations gathered from 20 villages in the area. The purpose of the study, as we mentioned above, is to understand the social role of these factors in terms of power relations among the castes.
 
+
+## Part I. The Economic Profile of Five Villages
+
+### Table 1. Pattern of Land-Holding Among the Castes
+
+<div class="table-scroll" role="region" aria-label="Pattern of land-holding among the castes; scroll horizontally to read all columns" tabindex="0">
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Name of caste</th>
+      <th scope="col">Number of families</th>
+      <th scope="col">Number of families with land</th>
+      <th scope="col">Land-holding in acres</th>
+      <th scope="col">Percentage of total land</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Reddy, Vokkaliga, Nagaratha Shetty</th><td>133</td><td>126</td><td>1,501.36</td><td>75.9</td></tr>
+    <tr><th scope="row">Brahmin</th><td>4</td><td>2</td><td>13</td><td>0.7</td></tr>
+    <tr><th scope="row">Tigala</th><td>91</td><td>69</td><td>251.05</td><td>12.6</td></tr>
+    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>45</td><td>22</td><td>19.34</td><td>0.9</td></tr>
+    <tr><th scope="row">Holeya, Madiga</th><td>152</td><td>130</td><td>190.06</td><td>9.9</td></tr>
+    <tr><th scope="row">Total</th><td>425</td><td>349</td><td>1,974.81</td><td>100.0</td></tr>
+  </tbody>
+</table>
+</div>
+
+### Table 2. Animal and Other Agricultural Wealth
+
+<div class="table-scroll" role="region" aria-label="Animal and other agricultural wealth; scroll horizontally to read all columns" tabindex="0">
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Castes</th>
+      <th scope="col">No. of borewells and pumpsets</th>
+      <th scope="col">No. of bullock carts</th>
+      <th scope="col">No. of draught animals</th>
+      <th scope="col">No. of milk animals</th>
+      <th scope="col">No. of sheep and goats</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Reddy, Vokkaliga, Nagaratha Shetty</th><td>36</td><td>59</td><td>192</td><td>205</td><td>341</td></tr>
+    <tr><th scope="row">Brahmin</th><td>1</td><td>—</td><td>—</td><td>2</td><td>—</td></tr>
+    <tr><th scope="row">Tigala</th><td>9</td><td>10</td><td>44</td><td>57</td><td>27</td></tr>
+    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>4</td><td>5</td><td>27</td><td>14</td><td>50</td></tr>
+    <tr><th scope="row">Holeya, Madiga</th><td>3</td><td>8</td><td>64</td><td>26</td><td>109</td></tr>
+    <tr><th scope="row">Total</th><td>53</td><td>82</td><td>327</td><td>304</td><td>527</td></tr>
+  </tbody>
+</table>
+</div>
+
+### Table 3. Loans from Farmers' Co-operative Societies and Banks for Agricultural Development
+
+<div class="table-scroll" role="region" aria-label="Loans for agricultural development; scroll horizontally to read all columns" tabindex="0">
+
+<table>
+  <thead>
+    <tr><th scope="col">Castes</th><th scope="col">No. of families</th><th scope="col">Amount in Rs.</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Reddy, Vokkaliga, Nagaratha Shetty</th><td>24</td><td>2,50,800</td></tr>
+    <tr><th scope="row">Brahmin</th><td>—</td><td>—</td></tr>
+    <tr><th scope="row">Tigala</th><td>18</td><td>89,029</td></tr>
+    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>4</td><td>29,500</td></tr>
+    <tr><th scope="row">Holeya, Madiga</th><td>22</td><td>83,100</td></tr>
+    <tr><th scope="row">Total</th><td>68</td><td>4,52,429</td></tr>
+  </tbody>
+</table>
+</div>
+
+### Table 4. Number of People Employed in Agriculture and Wage Labour
+
+<div class="table-scroll" role="region" aria-label="Employment in agriculture and wage labour; scroll horizontally to read all columns" tabindex="0">
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Caste</th>
+      <th scope="col">Fully employed in one's own farm and other occupations</th>
+      <th scope="col">Partly agriculture and wage labourer</th>
+      <th scope="col">Landless wage labourer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Reddy, Vokkaliga, Nagaratha Shetty</th><td>152</td><td>4</td><td>5</td></tr>
+    <tr><th scope="row">Brahmin</th><td>—</td><td>—</td><td>—</td></tr>
+    <tr><th scope="row">Tigala</th><td>52</td><td>24</td><td>20</td></tr>
+    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>12</td><td>3</td><td>8</td></tr>
+    <tr><th scope="row">Holeya, Madiga</th><td>26</td><td>93</td><td>38</td></tr>
+    <tr><th scope="row">Total</th><td>242</td><td>124</td><td>71</td></tr>
+  </tbody>
+</table>
+</div>
+
+
 {% include navbox-amaa.html %}
