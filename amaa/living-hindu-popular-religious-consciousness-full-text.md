@@ -226,7 +226,7 @@ From all these examples it is clear that the traditional institutions like *pula
 
 
 
-In short, purity practised by people is understood in terms of what is pure to their gods. Violation of this invites their anger. In other words, their ideas of purity are built into their conception of God. The talk of His purity is the talk of their purity. He is the basic symbol that supports all their purities.
+done before gods. In short, purity practised by people is understood in terms of what is pure to their gods. Violation of this invites their anger. In other words, their ideas of purity are built into their conception of God. The talk of His purity is the talk of their purity. He is the basic symbol that supports all their purities.
 
 If an attempt is made to understand the pattern of the reaction of people in relation to some of the traditional practices of *suddhi* in our culture, namely, how people these days view the traditional practices in our culture such as *pula*, i.e. practices of purity and pollution at the time of birth, death and menstruation, prohibition of inter-caste marriage, non-vegetarianism, prohibition of Pulayas to act as priests, etc., we will find that the concept of *suddhi* in relation to these traditional practices is differently understood and practised by Hindus. This fact once again proves that the *content of their God-conception is not uniform and it undergoes certain changes accordingly as the value system changes in our culture.*
 
