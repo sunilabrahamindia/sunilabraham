@@ -4,6 +4,8 @@ title: "TSAP: Development Plans, 2027 Onwards"
 description: "The evolving development plans and priorities of The Sunil Abraham Project from 2027 onwards."
 categories: [Project pages, TSAP Documentation]
 permalink: /tsap/development-plans-2027-onwards/
+redirect_from:
+  - /tsap/next-phase/
 created: 2026-10-28
 ---
 
