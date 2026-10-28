@@ -13,6 +13,22 @@ created: 2026-10-28
 
 Artificial intelligence (AI) can function as an aid or appliance by reducing barriers, compensating for limitations and making activities more accessible. However, removing effort is not always beneficial: some forms of effort contribute to learning, judgement and the development of independent capabilities. Drawing on disability studies, Nassim Nicholas Taleb's concept of antifragility, research on productive difficulty, Donna Haraway's cyborg theory and an exploratory epistemological analogy with transgender experience, this article proposes the concepts of *anti-aid* and *anti-appliance* for uses of AI that deliberately preserve or introduce productive friction. It argues that AI should neither be understood as inherently beneficial assistance nor rejected as an obstacle to human capability. Its role should depend on the person, the task, the circumstances and the capabilities that need to be supported or developed.
 
+
+## Contents {#contents}
+
+1. [Aid and appliance](#aid-appliance)
+2. [Antifragility and friction](#antifragility-friction)
+3. [The friction paradox in AI](#friction-paradox)
+4. [Anti-aid and anti-appliance](#anti-aid-anti-appliance)
+5. [Desirable difficulties and learning](#desirable-difficulties)
+6. [The cyborg and ordinary disability](#cyborg-disability)
+7. [Transgender epistemology](#transgender-epistemology)
+8. [Changing needs, changing roles](#changing-needs)
+9. [Rehabilitation and the challenge point](#rehabilitation-challenge-point)
+10. [An optimal strategy for AI](#optimal-ai-strategy)
+11. [Conclusion](#conclusion)
+12. [References](#references)
+
 ## Aid and appliance {#aid-appliance}
 
 Assistive technology is commonly understood as a broad category of products, systems and services that help people maintain or improve functioning, independence and participation. The World Health Organization's work on assistive technology includes products associated with mobility, vision, hearing, communication, cognition and self-care.[^who]
