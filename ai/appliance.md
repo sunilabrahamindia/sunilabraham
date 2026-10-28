@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Artificial Intelligence as Appliance"
+title: "Artificial Intelligence as Aid or Appliance"
 description: "An examination of artificial intelligence as assistive technology and as a means of preserving productive friction."
 categories: [Artificial Intelligence, Tito Dutta, Essays by Tito Dutta]
 authors: [Tito Dutta]
@@ -11,7 +11,7 @@ created: 2026-10-28
 {% include under-construction.html %}
 {% include author-date.html %}
 
-**Artificial intelligence** (AI) can function as an aid or **appliance** by reducing barriers, compensating for limitations and making activities more accessible. However, removing effort is not always beneficial: some forms of effort contribute to learning, judgement and the development of independent capabilities. Drawing on disability studies, Nassim Nicholas Taleb's concept of antifragility, research on productive difficulty, Donna Haraway's cyborg theory and an exploratory epistemological analogy with transgender experience, this article proposes the concepts of *anti-aid* and *anti-appliance* for uses of AI that deliberately preserve or introduce productive friction. It argues that AI should neither be understood as inherently beneficial assistance nor rejected as an obstacle to human capability. Its role should depend on the person, the task, the circumstances and the capabilities that need to be supported or developed.
+**Artificial intelligence** (AI) can function as an **aid** or **appliance** by reducing barriers, compensating for limitations and making activities more accessible. However, removing effort is not always beneficial: some forms of effort contribute to learning, judgement and the development of independent capabilities. Drawing on disability studies, Nassim Nicholas Taleb's concept of antifragility, research on productive difficulty, Donna Haraway's cyborg theory and an exploratory epistemological analogy with transgender experience, this article proposes the concepts of *anti-aid* and *anti-appliance* for uses of AI that deliberately preserve or introduce productive friction. It argues that AI should neither be understood as inherently beneficial assistance nor rejected as an obstacle to human capability. Its role should depend on the person, the task, the circumstances and the capabilities that need to be supported or developed.
 
 
 ## Contents {#contents}
