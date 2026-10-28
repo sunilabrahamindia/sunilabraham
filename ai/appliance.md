@@ -31,7 +31,7 @@ created: 2026-10-28
 
 ## Aid and appliance {#aid-appliance}
 
-Assistive technology is commonly understood as a broad category of products, systems and services that help people maintain or improve functioning, independence and participation. The World Health Organization's work on assistive technology includes products associated with mobility, vision, hearing, communication, cognition and self-care.[^who]
+Assistive technology is commonly understood as a broad category of products, systems and services that help people maintain or improve functioning, independence and participation. The World Health Organization's work on assistive technology includes products associated with mobility, vision, hearing, communication, cognition and self-care.[1, 2]
 
 An aid or appliance may compensate for an impairment, reduce the consequences of an inaccessible environment or enable an activity that would otherwise be difficult or impossible. A wheelchair, hearing aid, prosthesis, screen reader, communication device and pair of spectacles can all alter the relationship between a person and the world.
 
@@ -45,7 +45,7 @@ The usefulness of the category depends on what the technology does in practice, 
 
 ## Antifragility and friction {#antifragility-friction}
 
-Nassim Nicholas Taleb's concept of antifragility describes systems that can benefit from volatility, disorder or stressors, rather than merely resist them or return to their previous condition.[^taleb] The concept invites a question about technologies designed to remove difficulty: can the elimination of an immediate burden also remove conditions that help a person develop?
+Nassim Nicholas Taleb's concept of antifragility describes systems that can benefit from volatility, disorder or stressors, rather than merely resist them or return to their previous condition.[3] The concept invites a question about technologies designed to remove difficulty: can the elimination of an immediate burden also remove conditions that help a person develop?
 
 Friction has more than one meaning. In physical systems, it describes resistance between surfaces. In ordinary life, it can refer to the effort, delay, uncertainty or resistance encountered while carrying out a task. Some friction is wasteful. Bureaucratic obstacles, inaccessible interfaces, repetitive paperwork and unnecessary administrative delays can consume time without developing any useful capability. Removing them is often desirable.
 
@@ -57,7 +57,7 @@ The relationship between effort and capability is not simple. Excessive difficul
 
 ## The friction paradox in AI {#friction-paradox}
 
-Ravi Venkatesan's article "Artificial intelligence and the friction paradox", published in *Hindustan Times* on 28 October 2026, makes a closely related argument. It draws attention to the possibility that AI can improve immediate performance while reducing opportunities to develop the underlying capabilities that would allow a person to perform independently.[^venkatesan]
+Ravi Venkatesan's article "Artificial intelligence and the friction paradox", published in *Hindustan Times* on 28 October 2026, makes a closely related argument. It draws attention to the possibility that AI can improve immediate performance while reducing opportunities to develop the underlying capabilities that would allow a person to perform independently.[9]
 
 The article discusses examples involving navigation, education, customer service, medicine and early-career work. Its central concern is that the immediate benefits of automation are easy to observe, while the possible loss of skills may emerge slowly. It distinguishes work that creates needless frustration from challenges through which people become more capable. It also argues for AI systems that coach users and provide hints rather than simply supplying finished answers.
 
@@ -85,7 +85,7 @@ An anti-appliance is not necessarily an additional product. It may be a delibera
 
 ## Desirable difficulties and learning {#desirable-difficulties}
 
-Research on learning provides a basis for distinguishing productive challenge from unnecessary hardship. Robert and Elizabeth Bjork's work on desirable difficulties examines how conditions that make practice more demanding can sometimes improve long-term retention and transfer, even when they make performance during practice less fluent.[^bjork] Manu Kapur's work on productive failure explores how attempting to solve problems before receiving instruction can support subsequent learning under suitable conditions.[^kapur]
+Research on learning provides a basis for distinguishing productive challenge from unnecessary hardship. Robert and Elizabeth Bjork's work on desirable difficulties examines how conditions that make practice more demanding can sometimes improve long-term retention and transfer, even when they make performance during practice less fluent.[5] Manu Kapur's work on productive failure explores how attempting to solve problems before receiving instruction can support subsequent learning under suitable conditions.[6]
 
 Neither line of research establishes that difficulty is always beneficial. A task can be so demanding that a learner lacks the knowledge or support needed to make progress. Nor does a difficult experience necessarily produce learning merely because the person has struggled.
 
@@ -97,7 +97,7 @@ An anti-aid approach does not require AI to be less intelligent or less helpful.
 
 ## The cyborg and ordinary disability {#cyborg-disability}
 
-Donna Haraway's "A Cyborg Manifesto" challenges rigid distinctions between human and machine, organism and technology, and other categories that are often treated as natural or self-evident.[^haraway] Her cyborg figure offers a way to think about human identity and capability as already entangled with technological systems.
+Donna Haraway's "A Cyborg Manifesto" challenges rigid distinctions between human and machine, organism and technology, and other categories that are often treated as natural or self-evident.[4] Her cyborg figure offers a way to think about human identity and capability as already entangled with technological systems.
 
 Spectacles provide a familiar example. They can compensate for a visual impairment, but their everyday use also complicates the distinction between disabled and non-disabled people. A person who relies on spectacles may move between social categories depending on the context, the task and the availability of the device. The technology can become so ordinary that its assistive role is no longer noticed.
 
@@ -113,7 +113,7 @@ The cyborg perspective makes it harder to maintain a simple opposition between i
 
 The idea of *transgender epistemology* is proposed here as an exploratory analogy, not as an established term in epistemology or transgender studies. Its intended purpose is to question the assumption that a technology must have one fixed role: either an aid or an obstacle, either beneficial or harmful, either enabling or disabling.
 
-Transgender experience can challenge assumptions that gender must be understood through an immutable binary or that the relationship between identity, embodiment and social recognition is always simple. However, an analogy between gender and knowledge must be handled carefully. Transgender lives are not merely metaphors for intellectual flexibility, and the diversity of transgender experience cannot be reduced to an epistemological model.
+Transgender experience can challenge assumptions that gender must be understood through an immutable binary or that the relationship between identity, embodiment and social recognition is always simple [8]. However, an analogy between gender and knowledge must be handled carefully. Transgender lives are not merely metaphors for intellectual flexibility, and the diversity of transgender experience cannot be reduced to an epistemological model.
 
 The proposed analogy concerns the limits of fixed categories. A person's relationship with a technology may change over time, and different descriptions may be appropriate at different moments. This does not mean that every claim is equally true or that evidence becomes irrelevant. A finite world can contain many true statements about the same person or system because the statements concern different circumstances, times, needs or relationships.
 
@@ -133,7 +133,7 @@ A single person can therefore need assistance and challenge at the same time. Th
 
 ## Rehabilitation and the challenge point {#rehabilitation-challenge-point}
 
-Research on motor learning offers a useful, though limited, comparison. Mark Guadagnoli and Timothy Lee's challenge point framework proposes that the benefits of practice depend on the relationship between task difficulty and the learner's skill level. The same practice conditions may be too easy for one learner and too difficult for another.[^challenge]
+Research on motor learning offers a useful, though limited, comparison. Mark Guadagnoli and Timothy Lee's challenge point framework proposes that the benefits of practice depend on the relationship between task difficulty and the learner's skill level. The same practice conditions may be too easy for one learner and too difficult for another.[7]
 
 This framework is relevant to rehabilitation because recovery often involves changes in what a person can safely and effectively attempt. However, it should not be treated as proof that there is one universal optimum between assistance and effort. Rehabilitation outcomes depend on the condition, the person, the task, the stage of recovery and the clinical approach.
 
@@ -176,12 +176,5 @@ The practical question is not whether AI should make human life easier or harder
 7. Guadagnoli, Mark A., and Timothy D. Lee. (2004). "Challenge Point: A Framework for Conceptualizing the Effects of Various Practice Conditions in Motor Learning." *Journal of Motor Behavior*, 36(2), 212–224. [https://doi.org/10.3200/JMBR.36.2.212-224](https://doi.org/10.3200/JMBR.36.2.212-224). Published June 2004. Accessed 28 October 2026.
 8. Stanford Encyclopedia of Philosophy. "Trans Philosophy." [https://plato.stanford.edu/entries/trans/](https://plato.stanford.edu/entries/trans/). Accessed 28 October 2026.
 9. Venkatesan, Ravi. (2026). ["Artificial intelligence and the friction paradox"](https://www.hindustantimes.com/opinion/artificial-intelligence-and-the-friction-paradox-101793125695550.html). *Hindustan Times*, 28 October 2026. Accessed 28 October 2026.
-
-[^who]: The WHO publications provide an institutional foundation for discussing assistive products and technology. The specific AI applications discussed in this article are extensions of that framework, not a claim that the WHO has classified all such applications as assistive technology.
-[^taleb]: Taleb's concept of antifragility is used here as an interpretive framework. The proposed terms "positive friction" and "negative friction" are not presented as terminology developed by Taleb.
-[^venkatesan]: Venkatesan's article is a contemporary opinion piece, not a substitute for the original empirical studies it discusses. Claims about student performance, customer-service productivity, medical detection, aviation and early-career employment should be checked against the original studies before they are used as independent evidence. The article is cited here as a contribution to the public debate and as a starting point for a separate literature review.
-[^bjork]: The concept of desirable difficulties does not imply that every difficult task improves learning. The benefit depends on the learner, the task and the conditions of practice.
-[^kapur]: Productive failure describes a research-based approach in which an initial problem-solving phase can prepare learners for subsequent instruction under appropriate conditions. It is not a general endorsement of withholding assistance.
-[^challenge]: The challenge point framework concerns motor learning. Its relevance to AI use is an analogy requiring further investigation, not direct clinical evidence for an optimal level of AI assistance.
 
 {% include navbox-tito.html %}
