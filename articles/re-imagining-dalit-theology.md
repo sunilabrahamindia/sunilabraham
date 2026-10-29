@@ -39,7 +39,7 @@ An ISBN, page count and complete table of contents have not been included becaus
 
 ## External links
 
-- [*Re-imagining Dalit Theology* on Goodreads](https://www.goodreads.com/book/show/34857565-re-imagining-dalit-theology).
+- [*Re-imagining Dalit Theology*](https://www.goodreads.com/book/show/34857565-re-imagining-dalit-theology) on Goodreads.
 - [*Towards a Subaltern Public Theology for India*](https://research.manchester.ac.uk/files/156331169/FULL_TEXT.PDF), a doctoral thesis that cites and discusses the book.
 
 {% include navbox-vinayaraj.html %}
