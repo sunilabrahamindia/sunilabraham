@@ -55,7 +55,7 @@ I may also be lazy about maintaining this list and might not add every film or s
         <dd>Friday, 30 October 2026</dd>
       </div>
       <div>
-        <dt>Rating</dt>
+        <dt>My rating</dt>
         <dd><span class="watching-stars" role="img" aria-label="4 out of 5 stars">★★★★<span class="watching-empty-stars">★</span></span> (4/5)</dd>
       </div>
       <div>
