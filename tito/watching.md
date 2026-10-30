@@ -14,7 +14,7 @@ This page is a personal viewing log for films and series. Each title has its own
 
 <div class="watching-log">
 
-  <article class="watching-entry" aria-labelledby="project-hail-mary">
+  <article class="watching-entry" aria-labelledby="project-hail-mary" markdown="1">
     <p class="watching-status watching-status-watched">Watched</p>
 
     ### Project Hail Mary {#project-hail-mary}
