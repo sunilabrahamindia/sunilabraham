@@ -12,6 +12,10 @@ authors: [Tito Dutta]
 
 This page is a personal viewing log for films and series. Each title has its own entry, and new entries are added at the top. The log can include release details, cast, viewing date, status and an IMDb reference.
 
+This list includes films and series watched from 29 October 2026 onwards. Titles watched before that date have not been added, so this is not a complete record of everything I have watched.
+
+I may also be lazy about maintaining this list and might not add every film or series I watch.
+
 <div class="watching-log">
 
   <article class="watching-entry" aria-labelledby="project-hail-mary" markdown="1">
