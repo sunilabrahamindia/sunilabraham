@@ -46,10 +46,10 @@ The book has two parts. Part I, "Consultation Papers", develops theological, his
 | "Dalit Women — Society's Firewood" | Theresamma | 166 |
 | "Identity" | V. Sujatha Kumari | 169 |
 | "Living with People: A Reflection" | Sr. Alphonsa | 171 |
-| "Dalits' Quest for Liberation" | A. Antony Doss | 173 |
-| "Caste Oppression in the Catholic Church" | S. Japhet | 176 |
+| "Dalits' Quest for Liberation" | A. Antony Doss | — |
+| "Caste Oppression in the Catholic Church" | S. Japhet | — |
 | "Untouchability in Kanyakumari District" | A. Ebenezer | 181 |
-| "Dalit Theology: A Synopsis" | P. B. Ravi Prasad | 184 |
+| "Dalit Theology: A Synopsis" | P. B. Ravi Prasad | — |
 
 Page numbers follow the printed contents page and should be understood as references to this edition. The chapter list shows the range of the collection: it includes conceptual arguments about Dalit theology, dialogue with Dalit literature, questions about caste in missionary and Church history, theological education, women's experiences, and local accounts of caste oppression.
 
