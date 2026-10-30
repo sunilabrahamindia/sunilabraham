@@ -8,13 +8,13 @@ publication_year: 1988
 created: 2026-10-30
 ---
 
-***Towards a Dalit Theology*** is an edited volume published in Delhi in 1988 under the editorship of M. E. Prabhakar. It was published by the Indian Society for Promoting Christian Knowledge (ISPCK) on behalf of the Christian Institute for the Study of Religion and Society (CISRS) and the Christian Dalit Liberation Movement (CDLM). The book brings together papers presented at an all-India consultation on Dalit theology held in Madras in December 1986, alongside reflections and testimonies from people involved in Dalit struggles. The publication details are recorded in the book itself and corroborated by library catalogues.[^1][^2]
+***Towards a Dalit Theology*** is an edited volume published in Delhi in 1988 under the editorship of M. E. Prabhakar. It was published by the Indian Society for Promoting Christian Knowledge (ISPCK) on behalf of the Christian Institute for the Study of Religion and Society (CISRS) and the Christian Dalit Liberation Movement (CDLM). The book brings together papers presented at an all-India consultation on Dalit theology held in Madras in December 1986, alongside reflections and testimonies from people involved in Dalit struggles. The publication details are recorded in the book itself and corroborated by library catalogues.
 
 The volume is a useful primary source for studying how Christian theologians, church workers, scholars and activists were articulating Dalit theology during the 1980s. It addresses caste oppression not only as a social problem outside the Church but also as a challenge to Christian institutions, theological education, missionary history and Indian Christian theology.
 
 ## Background
 
-The book grew out of a consultation convened by the Christian Dalit Liberation Movement, with staff assistance from CISRS, in Madras at the beginning of December 1986. According to Prabhakar's introduction, 125 participants attended, including social activists, scholars, pastors and teachers from theological and other colleges. The first part of the book contains the main papers from the consultation. The second part gathers reflections and testimonies that connect theological discussion with the lived experiences and struggles of Dalits.[^1]
+The book grew out of a consultation convened by the Christian Dalit Liberation Movement, with staff assistance from CISRS, in Madras at the beginning of December 1986. According to Prabhakar's introduction, 125 participants attended, including social activists, scholars, pastors and teachers from theological and other colleges. The first part of the book contains the main papers from the consultation. The second part gathers reflections and testimonies that connect theological discussion with the lived experiences and struggles of Dalits.
 
 Prabhakar presents Dalit theology as a response to caste-based exclusion and to the failure of dominant theological approaches to take Dalit experiences, histories and aspirations seriously. The introduction links the project to struggles for social justice, identity, equality and community. It also argues that theological reflection must confront caste oppression within both Church and society, rather than treating poverty as an undifferentiated experience.
 
@@ -57,7 +57,7 @@ Page numbers follow the printed contents page and should be understood as refere
 
 The volume includes A. M. Abraham Ayrookuzhiel's chapter "Dalit Theology: A Movement of Counter-Culture", beginning on page 83. Its inclusion makes the book relevant to research on Ayrookuzhiel's work as well as to the broader history of Dalit theology.
 
-In the introduction, Prabhakar discusses Ayrookuzhiel's argument that much Indian Christian theology remained shaped by dominant cultural traditions and had neglected Dalit traditions and values. The introduction summarises his call for Indian Christian theology to move beyond what he describes as its "Latin and Sanskritic captivity", and to take Dalit cultural identity and material and spiritual struggles seriously.[^1] This is Prabhakar's account of the chapter's argument; it should not be mistaken for a substitute for a full analysis of Ayrookuzhiel's chapter itself.
+In the introduction, Prabhakar discusses Ayrookuzhiel's argument that much Indian Christian theology remained shaped by dominant cultural traditions and had neglected Dalit traditions and values. The introduction summarises his call for Indian Christian theology to move beyond what he describes as its "Latin and Sanskritic captivity", and to take Dalit cultural identity and material and spiritual struggles seriously. This is Prabhakar's account of the chapter's argument; it should not be mistaken for a substitute for a full analysis of Ayrookuzhiel's chapter itself.
 
 For a TSAP article about Ayrookuzhiel, this chapter provides a specific, verifiable connection to an early collective discussion of Dalit theology. It also places his contribution alongside those of other theologians, church leaders, scholars and activists rather than presenting the development of Dalit theology as the work of one individual.
 
@@ -65,7 +65,7 @@ For a TSAP article about Ayrookuzhiel, this chapter provides a specific, verifia
 
 ### Theology grounded in Dalit experience
 
-The introduction argues that Dalit theology should begin with Dalit histories, experiences, suffering and aspirations, instead of treating "the poor" as one undifferentiated category. It connects caste and class while stressing that social and economic deprivation cannot be understood apart from caste-based exclusion and cultural hierarchy.[^1]
+The introduction argues that Dalit theology should begin with Dalit histories, experiences, suffering and aspirations, instead of treating "the poor" as one undifferentiated category. It connects caste and class while stressing that social and economic deprivation cannot be understood apart from caste-based exclusion and cultural hierarchy.
 
 ### Critique of the Church and Christian theology
 
@@ -81,7 +81,7 @@ The book devotes several contributions to Dalit women's experiences, including c
 
 ### An early collective milestone
 
-The volume documents a national consultation in 1986 and the publication of its papers in 1988. George Oommen's historical overview of the emergence of Dalit theology describes the field as taking shape in the early 1980s, while later scholarship traces its development through the work of theologians such as Arvind P. Nirmal and the collective conversations that followed.[^3][^4] Read alongside that scholarship, *Towards a Dalit Theology* is evidence of the movement's early institutional and intellectual development.
+The volume documents a national consultation in 1986 and the publication of its papers in 1988. George Oommen's historical overview of the emergence of Dalit theology describes the field as taking shape in the early 1980s, while later scholarship traces its development through the work of theologians such as Arvind P. Nirmal and the collective conversations that followed. Read alongside that scholarship, *Towards a Dalit Theology* is evidence of the movement's early institutional and intellectual development.
 
 It would be too strong to claim from this volume alone that it was the single origin of Dalit theology. Its importance is more securely described as a record of an organised, multi-voice effort to define and advance Dalit theological reflection in the Indian context.
 
@@ -96,7 +96,7 @@ It would be too strong to claim from this volume alone that it was the single or
 - **ISBN:** No ISBN is recorded in the consulted catalogue entries.
 - **Copyright notice:** The book states "Copyright © CISRS 1988".
 
-The title page and copyright page identify the publication as a 1988 edition. Some library records describe a 1989 printing, so references should specify the edition or copy being consulted where that distinction matters.[^2][^5]
+The title page and copyright page identify the publication as a 1988 edition. Some library records describe a 1989 printing, so references should specify the edition or copy being consulted where that distinction matters.
 
 ## References
 
@@ -111,7 +111,4 @@ The title page and copyright page identify the publication as a 1988 edition. So
 - Peniel Rajkumar, "[Dalit Theology](https://academic.oup.com/edited-volume/63063/chapter-abstract/566819011)," in *The Oxford Handbook of Asian Christian Theologies* (Oxford University Press, 2026).
 - "[Beyond Dalit Theology: Searching for New Frontiers](https://www.jstor.org/stable/j.ctv1x67d3s)." A scholarly collection with chapters on the contours, methodologies and themes of Dalit theology.
 
-## Copyright and use
-
-This article is an original overview and discussion of the book. It does not reproduce the book itself. The volume's contents and arguments are described in summary, with attribution to the editor and contributors. The scanned reference copy is not hosted or distributed by TSAP.
 
