@@ -20,10 +20,10 @@ I may also be lazy about maintaining this list and might not add every film or s
 
 <div class="watching-log">
 
-  <article class="watching-entry" aria-labelledby="project-hail-mary" markdown="1">
+  <article class="watching-entry" aria-labelledby="project-hail-mary">
     <p class="watching-status watching-status-watched">Watched</p>
 
-    ### Project Hail Mary {#project-hail-mary}
+    <h2 id="project-hail-mary">Project Hail Mary</h2>
 
     <dl class="watching-details">
       <div>
@@ -87,7 +87,7 @@ I may also be lazy about maintaining this list and might not add every film or s
   overflow-wrap: anywhere;
 }
 
-.watching-entry h3 {
+.watching-entry h2 {
   margin: 0.6rem 0 1rem;
   color: var(--text-heading, #0a2e57);
   line-height: 1.45;
@@ -163,7 +163,7 @@ body.tsap-dark-mode .watching-entry {
   color: var(--text-main, #e5e7eb);
 }
 
-body.tsap-dark-mode .watching-entry h3 {
+body.tsap-dark-mode .watching-entry h2 {
   color: var(--text-heading, #f3f4f6);
 }
 
