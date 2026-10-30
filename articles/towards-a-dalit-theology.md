@@ -26,6 +26,8 @@ The book has two parts. Part I, "Consultation Papers", develops theological, his
 
 ### Selected contributions
 
+<div style="max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch;" markdown="1">
+
 | Contribution | Author | Printed page |
 |---|---|---:|
 | "Why Dalit Theology?" | Saral K. Chatterji | 9 |
@@ -34,7 +36,7 @@ The book has two parts. Part I, "Consultation Papers", develops theological, his
 | "An Approach to Christian Dalit Theology" | K. Wilson | 48 |
 | "Ingredients for a Dalit Theology" | James Massey | 57 |
 | "A Dialogue with Dalit Literature" | Arvind P. Nirmal | 64 |
-| "Dalit Theology: A Movement of Counter-Culture" | A. M. Abraham Ayrookuzhiel | 83 |
+| ["Dalit Theology: A Movement of Counter-Culture"](/amaa/dalit-theology-movement-counter-culture/) | A. M. Abraham Ayrookuzhiel | 83 |
 | "Christian Missionaries and Caste in Kerala" | J. W. Gladstone | 104 |
 | "The Church's Healing Ministry to Dalits" | M. Azariah | 113 |
 | "The Church in the Service of Dalits" | M. John S.A. | 122 |
@@ -50,6 +52,8 @@ The book has two parts. Part I, "Consultation Papers", develops theological, his
 | "Caste Oppression in the Catholic Church" | S. Japhet | — |
 | "Untouchability in Kanyakumari District" | A. Ebenezer | 181 |
 | "Dalit Theology: A Synopsis" | P. B. Ravi Prasad | — |
+
+</div>
 
 Page numbers follow the printed contents page and should be understood as references to this edition. The chapter list shows the range of the collection: it includes conceptual arguments about Dalit theology, dialogue with Dalit literature, questions about caste in missionary and Church history, theological education, women's experiences, and local accounts of caste oppression.
 
