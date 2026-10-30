@@ -14,6 +14,8 @@ This page is a personal viewing log for films and series. Each title has its own
 
 This list includes films and series watched from 29 October 2026 onwards. Titles watched before that date have not been added, so this is not a complete record of everything I have watched.
 
+Unlike the reading log, I will not update this page when I start watching something. I will add a film or series only after I finish watching it, since most films are around two hours long and there is little need to track viewing progress. For longer web series or other lengthy titles, I may include progress updates when useful.
+
 I may also be lazy about maintaining this list and might not add every film or series I watch.
 
 <div class="watching-log">
