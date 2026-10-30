@@ -49,6 +49,10 @@ This page is a personal viewing log for films and series. Each title has its own
         <dd>Friday, 30 October 2026</dd>
       </div>
       <div>
+        <dt>Rating</dt>
+        <dd><span class="watching-stars" role="img" aria-label="4 out of 5 stars">★★★★<span class="watching-empty-stars">★</span></span> (4/5)</dd>
+      </div>
+      <div>
         <dt>IMDb</dt>
         <dd><a href="https://www.imdb.com/title/tt12042730/">Project Hail Mary on IMDb</a></dd>
       </div>
@@ -116,6 +120,24 @@ This page is a personal viewing log for films and series. Each title has its own
 .watching-details dd {
   margin: 0;
   line-height: 1.55;
+}
+
+.watching-stars {
+  color: #8a5a00;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.watching-empty-stars {
+  color: #767676;
+}
+
+body.tsap-dark-mode .watching-stars {
+  color: #ffd166;
+}
+
+body.tsap-dark-mode .watching-empty-stars {
+  color: #9ca3af;
 }
 
 .watching-entry a {
