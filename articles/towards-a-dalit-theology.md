@@ -115,4 +115,4 @@ The title page and copyright page identify the publication as a 1988 edition. So
 - Peniel Rajkumar, "[Dalit Theology](https://academic.oup.com/edited-volume/63063/chapter-abstract/566819011)," in *The Oxford Handbook of Asian Christian Theologies* (Oxford University Press, 2026).
 - "[Beyond Dalit Theology: Searching for New Frontiers](https://www.jstor.org/stable/j.ctv1x67d3s)." A scholarly collection with chapters on the contours, methodologies and themes of Dalit theology.
 
-
+{% include navbox-amaa.html %}
