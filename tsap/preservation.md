@@ -63,17 +63,17 @@ The maintainer also checks the resulting capture history rather than treating su
 
 Archive.today submissions are currently performed manually. The maintainer commonly starts from TSAP's newest-pages listing, right-clicks a page link and uses the Archive Page browser extension or the service's submission interface. Pages that have not yet been captured are prioritised; when Archive.today reports an existing capture, the maintainer decides whether to request another snapshot, generally favouring a recapture when the previous one is at least a week or two old.
 
-Archive.today sometimes becomes unavailable or fails to complete captures. The maintainer has observed such interruptions across different IP addresses and has received third-party reports of availability problems. When the service is unavailable, submissions are deferred until it works again.
+Archive.today can sometimes be unavailable or fail to complete captures. When this happens, submissions are deferred until the service is available again.
 
-The service sometimes presents a CAPTCHA for the first submission in a session. After it is solved, further submissions may be possible for a short period without another challenge, allowing several pages to be submitted in one session. The length of this period is variable and has not been measured consistently. The workflow remains manual: the maintainer completes the challenges and decides whether to recapture pages. No CAPTCHA-solving script or bot is used.
+The service may present CAPTCHA challenges during submission. These are handled manually by the maintainer. If a challenge cannot be completed, the submission is deferred rather than bypassing the challenge. No CAPTCHA-solving script or bot is used.
 
 ### Ghost Archive
 
 Ghost Archive provides another independent preservation layer. Submissions are currently made manually by copying a page URL from TSAP's newest-pages listing and pasting it into the Ghost Archive website. The maintainer prioritises newer pages that do not yet have a Ghost Archive capture.
 
-Ghost Archive can sometimes be unavailable or fail to complete a submission. It also frequently presents hCaptcha challenges, sometimes involving multiple steps that require careful human interpretation. When the challenge is too difficult to interpret, the maintainer may skip that submission and return to it later. At other times, Ghost Archive accepts a submission without presenting a CAPTCHA, allowing more pages to be submitted during that session. CAPTCHA frequency and service-side causes have not been independently established.
+Ghost Archive can sometimes be unavailable or fail to complete a submission. It may also present hCaptcha challenges. These are handled manually by the maintainer; if a challenge cannot be completed, the submission is deferred and may be retried later.
 
-The maintainer handles these challenges manually and does not use scripts or bots to solve or bypass CAPTCHAs. No automated submission method is currently in use for Archive.today or Ghost Archive.
+No scripts or bots are used to solve or bypass CAPTCHA challenges. No automated submission method is currently in use for Archive.today or Ghost Archive.
 
 ### Incremental Coverage and Reader Access
 
