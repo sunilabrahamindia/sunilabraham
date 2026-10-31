@@ -83,6 +83,18 @@ Cloudflare AI Search has been explored as a search and retrieval backend for sel
 
 The search interface and its indexing configuration are separate parts of the system: the interface provides the visitor-facing experience, while the search backend indexes selected content for retrieval. The implementation and scope of indexing may change as the feature develops. This page records the use of Cloudflare AI Search as a project component; it does not imply that every TSAP page is indexed by it.
 
+## Cross-platform compatibility and testing
+
+Cloudflare Pages is maintained as a secondary deployment of the TSAP website, while GitHub Pages remains the primary deployment. The two deployments use the same repository, but that alone does not establish that every feature behaves identically in both hosting environments.
+
+Some elements, including the site's dark-mode presentation and header behaviour, have been tested on Cloudflare Pages. However, a complete feature-by-feature compatibility audit has not been carried out. Other features may therefore remain unverified on the Cloudflare deployment. The observed behaviour of Jekyll's `redirect_from` feature, which appeared to send some Cloudflare Pages URLs to the home page rather than the intended destination, is one example that needs further investigation; its cause has not yet been established.
+
+A comprehensive audit would require a significant amount of work. It would involve identifying the features and generated outputs used by the site, testing expected behaviour on both deployments, and recording any differences. Until that work is completed, features should not be assumed to work on Cloudflare Pages solely because they work on GitHub Pages.
+
+A future compatibility review can be carried out incrementally, beginning with high-impact behaviour such as redirects, navigation, page URLs, generated metadata, assets, headers and interactive tools. Each item should be marked as verified on both deployments, verified only on GitHub Pages, unverified on Cloudflare Pages, or a reproduced failure under investigation. These labels should reflect actual testing rather than assumptions.
+
+This is a recognised maintenance limitation, not a claim that all untested features are faulty. No comprehensive audit has been completed, and no general compatibility guarantee is made.
+
 ## Cloudflare Observability pricing notice
 
 On 29 October 2026, an email notice about upcoming Cloudflare Observability pricing changes was received at the project's administrative mailbox. A similar notice had been received at a personal mailbox on 27 October 2026. This entry records the substance of the notice without reproducing mailbox addresses, account identifiers, or other private information.
