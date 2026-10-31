@@ -44,6 +44,20 @@ The mirror also provides domain and hosting resilience. It offers another route 
 
 The mirror is not a complete solution to every failure scenario. Both deployments use the same source repository, so a damaging commit or repository-level problem could affect both copies. Cloudflare Pages is an additional access route, not a substitute for independent repository backups and archival copies.
 
+## Cloudflare DNS and CDN
+
+### DNS management
+
+DNS management for `sunilabraham.in` was moved from BigRock DNS to Cloudflare DNS. BigRock remains the domain registrar, responsible for domain registration and renewal; Cloudflare is responsible for authoritative DNS management. The migration involved auditing the existing records, verifying the imported configuration, restoring records that had been omitted during import, deploying the Cloudflare nameservers, and testing the active configuration.
+
+Centralising DNS management in Cloudflare also provides a more convenient interface for maintaining and verifying records, including CNAME records and other changes needed for services connected to the domain. This is a practical operational benefit: DNS changes are easier to review and manage from the Cloudflare dashboard than they were through the previous interface.
+
+### CDN and performance
+
+The domain also uses Cloudflare's network in front of the website. Depending on the DNS record's proxy status and the resource being requested, Cloudflare can provide edge delivery, caching, and other network-level optimisations. The aim is to improve delivery and reduce dependence on a direct connection to the origin service, although the actual effect varies by request, cache status, location, and the service being accessed.
+
+Some observed response-time measurements appeared modestly better after the migration, but small differences in individual measurements are not enough to establish a reliable site-wide speed improvement. DNS lookup time, time to first byte, and total page-load time measure different parts of the request and should not be treated as interchangeable. Performance claims should be based on repeated, comparable measurements rather than a single reading.
+
 ## Cloudflare Workers
 
 ### TSAP Status Monitoring System
