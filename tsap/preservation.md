@@ -14,7 +14,7 @@ homepage_featured: true
 **Preservation** on **The Sunil Abraham Project** (TSAP) refers to the long-term protection, continuity, accessibility, and survivability of the project's content, metadata, and research materials. As a static, Git-based digital archive, TSAP follows a preservation-oriented architecture built around open formats, distributed storage, version control, redundancy, and public accessibility. The project incorporates principles from digital archiving, scholarly preservation, and library science, including concepts such as the 3-2-1 backup rule, LOCKSS ("Lots Of Copies Keep Stuff Safe"), versioned preservation through Git, and the use of external archival services such as GitHub, Zenodo, the Internet Archive, and Archive.today. The goal is not only to prevent data loss, but also to ensure that the material remains readable, portable, verifiable, and accessible over long periods of time across changing technologies and platforms.
 
 <div class="preservation-meta" role="note" aria-label="Preservation review information">
-  <strong>Last reviewed:</strong> June 2026
+  <strong>Last reviewed:</strong> October 2026
 </div>
 
 <div class="preservation-legend" role="note" aria-label="Preservation status guide">
@@ -97,14 +97,16 @@ Because the project is built primarily using static files and open formats, repo
 
 ### Software Heritage
 
-The TSAP GitHub repository is preserved through Software Heritage, an independent long-term archival service for software source code and development history. The first TSAP repository snapshot was archived on 31 May 2026 at 17:16:46 UTC. Following the completion of TSAP Version 2.0, an additional archival snapshot was requested in June 2026 to preserve the repository at the conclusion of that development cycle.
+Both TSAP GitHub repositories — the main website repository and the separate media repository — are submitted to Software Heritage, an independent long-term archival service for software source code and development history. Although TSAP is primarily a content-focused website rather than a conventional software product, its Git repositories contain the site's source files, structured content, configuration and development history, making repository preservation a useful additional safeguard.
 
-Software Heritage preservation is ongoing. Multiple archival snapshots of the TSAP repository have now been recorded, providing independently preserved copies of the repository and its Git history at different points in the project's development. Rather than listing individual snapshots here, the complete history of preserved visits can be viewed through Software Heritage:
+The first recorded visit for the main TSAP repository was on 31 May 2026 at 17:16:46 UTC. The media repository has also been preserved, with recorded visits beginning later in 2026. Submissions are currently made manually through Software Heritage's Save Code Now interface, generally every few days and sooner when substantial changes have been made. This approach keeps the process under the maintainer's direct control while providing a separate preservation copy beyond GitHub.
 
-- [All preserved snapshots of the main TSAP repository](https://archive.softwareheritage.org/browse/origin/visits/?origin_url=https://github.com/sunilabrahamindia/sunilabraham&visit_type=git)
-- [All preserved snapshots of the TSAP media repository](https://archive.softwareheritage.org/browse/origin/visits/?origin_url=https://github.com/sunilabrahamindia/sunilabrahammedia&visit_type=git)
+The visit history records successful and failed visits. A submission attempt should not be treated as proof that a new, distinct snapshot was created, and visit counts are not the same as counts of unique repository versions. The full visit histories for both repositories are available here:
 
-Software Heritage adds an independent preservation layer beyond GitHub, web archiving services, local backups, and other preservation mechanisms, helping preserve not only the current source files but also the project's development history over time.
+- [Visit history for the main TSAP repository](https://archive.softwareheritage.org/browse/origin/visits/?origin_url=https://github.com/sunilabrahamindia/sunilabraham&visit_type=git)
+- [Visit history for the TSAP media repository](https://archive.softwareheritage.org/browse/origin/visits/?origin_url=https://github.com/sunilabrahamindia/sunilabrahammedia&visit_type=git)
+
+Software Heritage adds an independent preservation layer beyond GitHub, web archiving services, local backups, and other preservation mechanisms. It can help recover a preserved repository state if the GitHub copy becomes unavailable, although changes made after the latest successful preservation may not be included. It preserves the repository state and Git history captured by the service; it does not, by itself, guarantee a complete copy of every external service or dependency needed to reproduce the live website.
 
 ## Offline TSAP
 <span class="preservation-status status-experimental">Experimental</span>
