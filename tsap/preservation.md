@@ -44,15 +44,42 @@ homepage_featured: true
 ## Web Archiving
 <span class="preservation-status status-active">Active</span>
 
-TSAP maintains ongoing public web archival workflows using external archival services including the [Internet Archive Wayback Machine](https://web.archive.org/web/*/https://sunilabraham.in/) and [Archive.today](https://archive.ph/https://sunilabraham.in/). Archival snapshots are created both manually and through browser-based tools. Rather than relying solely on infrequent bulk exports, TSAP follows a continuous preservation approach in which pages are archived incrementally over time. A small number of pages may be archived daily, while larger archival sessions are periodically conducted to preserve batches of pages together.
+TSAP maintains ongoing public web archival workflows across three external services: the [Internet Archive Wayback Machine](https://web.archive.org/web/*/https://sunilabraham.in/), [Archive.today](https://archive.ph/https://sunilabraham.in/), and [Ghost Archive](https://ghostarchive.org/search?term=https://sunilabraham.in/). The Wayback Machine is the primary service and receives the most archival activity. Archive.today and Ghost Archive provide additional, independent copies, although their coverage is lower because submissions are currently made manually and both services can present operational obstacles.
 
-Current tools and services used include the Wayback Machine browser extension ([Chrome](https://chromewebstore.google.com/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/)) and the Archive Page browser extension ([Chrome](https://chromewebstore.google.com/detail/archive-page/gcaimhkfmliahedmeklebabdgagipbia), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/archive-page/)). Similar archival and preservation-oriented browser extensions and tools are also available for other browsers and platforms.
+### Internet Archive Wayback Machine
 
-In June 2026, TSAP began creating manual preservation snapshots using Ghost Archive. Ghost Archive provides an additional independent web archiving service that complements existing preservation workflows based on the Internet Archive Wayback Machine and Archive.today. TSAP uses two primary methods for creating Ghost Archive snapshots: Using the [Web Archives browser extension](https://chromewebstore.google.com/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao) and manual submission and archiving through the Ghost Archive website.
+Wayback preservation combines manual submissions with several established workflows:
 
-These workflows help reduce link rot risk, preserve historical page states, improve public survivability, maintain independent external copies, and provide resilience against accidental deletion or hosting failure. Because TSAP is a continuously evolving project, archival snapshots taken at different points in time also function as historical records documenting the evolution of the archive itself.
+- **Browser-based submissions:** Pages can be submitted through the Wayback Machine website and its browser extension. The extension also allows a page to be archived from a link using the browser's context menu.
+- **Google Apps Script:** An automated script submits pages selected from TSAP's published `pages.json` index on an hourly schedule. Some scheduled runs make multiple submission runs. The workflow has been used for several months, although some recent submissions have failed with a Wayback-side message such as "Wayback address not found". The cause of these intermittent failures has not been established.
+- **Python random archiver:** The repository includes `scripts/wayback_random_archiver.py`, which selects eligible TSAP URLs, submits them to Wayback, and records successful captures, failures, and session reports. Its dedicated [documentation](/tsap/wayback-machine-random-archiver-documentation/) describes its operation and logs. The maintainer runs it manually, sometimes during other maintenance work.
+- **Official Telegram bot:** The official Wayback Machine Telegram bot is another currently working route for submitting pages for archiving.
 
-TSAP also includes direct archival links in the footer of every page, allowing readers to immediately access preserved versions of the current page through both the Internet Archive Wayback Machine and Archive.today. These links are generated dynamically using the page URL and form part of the project's broader commitment to transparency, public preservation, and long-term accessibility.
+The published `pages.json` index supports these workflows by providing a structured list of TSAP pages. See the [Pages Index documentation](/tsap/pages-json-documentation/) for details.
+
+The maintainer also checks the resulting capture history rather than treating submission attempts as successful archives. Based on these checks, the homepage has more than 400 successful Wayback captures. Important pages often have around 25-30 captures, and across the collection of more than 1,300 pages, existing pages generally have at least 15 captures and often 20 or more. Pages published very recently naturally have had less time to accumulate captures. These are observed capture-history figures, not counts of submission attempts.
+
+### Archive.today
+
+Archive.today submissions are currently performed manually. The maintainer commonly starts from TSAP's newest-pages listing, right-clicks a page link and uses the Archive Page browser extension or the service's submission interface. Pages that have not yet been captured are prioritised; when Archive.today reports an existing capture, the maintainer decides whether to request another snapshot, generally favouring a recapture when the previous one is at least a week or two old.
+
+Archive.today sometimes becomes unavailable or fails to complete captures. The maintainer has observed such interruptions across different IP addresses and has received third-party reports of availability problems. When the service is unavailable, submissions are deferred until it works again.
+
+The service sometimes presents a CAPTCHA for the first submission in a session. After it is solved, further submissions may be possible for a short period without another challenge, allowing several pages to be submitted in one session. The length of this period is variable and has not been measured consistently. The workflow remains manual: the maintainer completes the challenges and decides whether to recapture pages. No CAPTCHA-solving script or bot is used.
+
+### Ghost Archive
+
+Ghost Archive provides another independent preservation layer. Submissions are currently made manually by copying a page URL from TSAP's newest-pages listing and pasting it into the Ghost Archive website. The maintainer prioritises newer pages that do not yet have a Ghost Archive capture.
+
+Ghost Archive can sometimes be unavailable or fail to complete a submission. It also frequently presents hCaptcha challenges, sometimes involving multiple steps that require careful human interpretation. When the challenge is too difficult to interpret, the maintainer may skip that submission and return to it later. At other times, Ghost Archive accepts a submission without presenting a CAPTCHA, allowing more pages to be submitted during that session. CAPTCHA frequency and service-side causes have not been independently established.
+
+The maintainer handles these challenges manually and does not use scripts or bots to solve or bypass CAPTCHAs. No automated submission method is currently in use for Archive.today or Ghost Archive.
+
+### Incremental Coverage and Reader Access
+
+These workflows combine automated and manual preservation rather than relying on a single bulk export. Wayback receives the most sustained activity through the browser interface, Google Apps Script, the Python utility and the official Telegram bot. Archive.today and Ghost Archive are maintained through manual submissions, with the number of pages captured depending on service availability and CAPTCHA requirements.
+
+TSAP also includes direct archival links in the footer of every page, allowing readers to look for preserved versions of the current page through the Internet Archive Wayback Machine, Archive.today and Ghost Archive. These links are generated dynamically using the page URL and form part of the project's broader commitment to transparency, public preservation, and long-term accessibility.
 
 ## Zenodo Preservation
 <span class="preservation-status status-experimental">Experimental</span>
