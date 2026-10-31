@@ -83,6 +83,28 @@ Cloudflare AI Search has been explored as a search and retrieval backend for sel
 
 The search interface and its indexing configuration are separate parts of the system: the interface provides the visitor-facing experience, while the search backend indexes selected content for retrieval. The implementation and scope of indexing may change as the feature develops. This page records the use of Cloudflare AI Search as a project component; it does not imply that every TSAP page is indexed by it.
 
+## Cloudflare Observability pricing notice
+
+On 29 October 2026, an email notice about upcoming Cloudflare Observability pricing changes was received at the project's administrative mailbox. A similar notice had been received at a personal mailbox on 27 October 2026. This entry records the substance of the notice without reproducing mailbox addresses, account identifiers, or other private information.
+
+The notice states that the new pricing is due to take effect on 1 December 2026. Observability usage will be measured by the volume of log and trace data ingested and stored, rather than by the number of events. The notice describes these possible outcomes:
+
+- **Workers Paid:** the account will automatically receive a paid Observability subscription. Usage will be billed at the existing pricing until 1 December 2026; after that date, usage beyond included allowances will be billed under the new Observability pricing.
+- **No Workers Paid plan or Enterprise contract:** the account will remain on the Free Observability plan, with no Observability charge under the notice. Ingestion will pause when the daily limit is reached and resume when the limit resets.
+- **Enterprise:** existing contract terms apply until renewal, after which the new pricing applies.
+
+The notice says that no action is required merely to transition to the new pricing. It recommends reviewing usage and the pricing details before 1 December 2026. It also says that sampling can be adjusted to manage the volume of data ingested. The account's plan and actual Observability usage must be checked in the Cloudflare dashboard; the email alone does not establish which outcome applies to TSAP.
+
+### Action points before 1 December 2026
+
+1. Check the account's Workers plan and whether a paid Observability subscription will apply.
+2. Review Observability usage, including log and trace ingestion and stored data, in the Cloudflare dashboard.
+3. Read the pricing details linked in the notice and compare them with the account's actual usage and included allowances.
+4. If usage could exceed the relevant allowance, decide whether to adjust logging, tracing, or sampling before the new pricing takes effect.
+5. Recheck the account before the effective date. The absence of a saved payment card, by itself, does not establish which plan or billing outcome applies.
+
+No account settings have been changed as part of documenting this notice. The pricing change and its effect on the project's account remain to be verified.
+
 ## Design considerations
 
 Cloudflare services have been used for specific operational purposes rather than as a replacement for TSAP's static-site architecture. The main website remains a Git-based static site, while Cloudflare services provide additional hosting, a serverless presentation layer, and experimental search infrastructure where useful.
