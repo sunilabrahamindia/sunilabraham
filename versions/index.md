@@ -29,6 +29,8 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 14. [Version 2.4.2](#version-242)
 15. [Version 2.5](#version-25)
 16. [Version 2.5.1](#version-251)
+17. [Version 2.6](#version-26)
+18. [Version 2.7](#version-27)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -429,6 +431,64 @@ From Sunday 4 October 2026 to Saturday 10 October 2026, 16 pages were created.
 
 **Status** ✅ Done  
 Completion date: 10 October 2026
+
+
+
+## Version 2.6
+
+From Sunday 11 October 2026 to Saturday 17 October 2026, 19 pages were created.
+
+* **[TSPA #0023](/tspa/0023/)**, created on 11 October 2026 – TSPA #0023, a conversation between Ti and Mi about silence, the weight of thoughts, and a day spent thinking.
+* **[TSPA #0022](/tspa/0022/)**, created on 11 October 2026 – TSPA #0022, a wordless comic about the mental weight of thoughts and the lightness that comes with letting them go.
+* **[Currently Reading (Tito Dutta)](/tito/reading/)**, created on 11 October 2026 – A personal reading log documenting books being read and books completed.
+* **[TSPA #0025](/tspa/0025/)**, created on 12 October 2026 – TSPA #0025 is a wordless comic of Ti counting on his fingers while holding a mala, evoking rhythmic repetition and focused attention.
+* **[TSPA #0024](/tspa/0024/)**, created on 12 October 2026 – TSPA #0024, a comic about receiving gratitude for helping others and discovering that thanks cannot pay for life's necessities.
+* **[The Mind](/tito/mind/)**, created on 12 October 2026 – A visual exploration of the human mind through anatomical imagery and artistic representations of thoughts.
+* **[Category:Pages needing regular archiving](/categories/pages-needing-regular-archiving/)**, created on 12 October 2026 – Pages that should be archived periodically to preserve changing content or material that may become unavailable.
+* **[Hidden Categories and Maintenance Categories](/tsap/hidden-categories/)**, created on 13 October 2026 – Documentation of hidden category assignments and automatically populated maintenance categories in The Sunil Abraham Project.
+* **[E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/)**, created on 14 October 2026 – Documentation of the process for creating EPUB and PDF e-books from selected pages of The Sunil Abraham Project using Pandoc.
+* **[TSPA #0028](/tspa/0028/)**, created on 15 October 2026 – TSPA #0028, a comic about a farmer praying for rain while Cha asks for water to cool its data centre.
+* **[TSPA #0027](/tspa/0027/)**, created on 15 October 2026 – A wordless TSPA comic showing Ti standing in a lush forest and gradually transforming into a tree, as his expression brightens and sunlight and cosmic light fill the scene.
+* **[TSPA #0026](/tspa/0026/)**, created on 15 October 2026 – A wordless TSPA comic following Ti and Cha through an abstract, colourful journey of companionship, discovery and shared progress.
+* **[Page ID Sequence Gap and Correction (15 October 2026)](/tsap/page-id-sequence-correction/)**, created on 15 October 2026 – Documentation of the missing TSAP-1321 identifier, the investigation into the Page ID sequence, the correction of five existing pages, and the assignment of IDs to ten new pages.
+* **[Template:Tito Dutta](/tito/template/)**, created on 15 October 2026 – Navigational template linking Tito Dutta's visual explorations, essays, project initiatives, comics, and logs.
+* **[Attendance](/tito/attendance/)**, created on 15 October 2026 – A personal daily attendance record for Tito Dutta, with a calendar showing the days marked present.
+* **[Intercessions: Theology, Liturgy, and Politics](/articles/intercessions-theology-liturgy-and-politics/)**, created on 15 October 2026 – A 2015 book by Y. T. Vinayaraj on theology, liturgy and politics.
+* **[Church and Empire: Detailing Theological Musings](/articles/church-and-empire-detailing-theological-musings/)**, created on 15 October 2026 – A 2019 book by Y. T. Vinayaraj on church, theology and empire.
+* **[Theology after Spivak](/articles/theology-after-spivak/)**, created on 16 October 2026 – A 2016 book by Y. T. Vinayaraj on Spivak and Indian theological discourse.
+* **[TSPA #0029](/tspa/0029/)**, created on 17 October 2026 – TSPA #0029, a Bengali comic strip about Ti and Mi arguing before choosing to sit quietly together.
+
+**Git activity:** 220 commits.
+
+**GitHub issues created:** 4.
+* #52 [Recent Changes page improvement](https://github.com/sunilabrahamindia/sunilabraham/issues/52), created on 11 October 2026
+* #53 [Create maintenance categories for archiving, generated content, and similar page types](https://github.com/sunilabrahamindia/sunilabraham/issues/53), created on 12 October 2026
+* #54 [Fix inconsistent image enlargement and GLightbox behaviour across the site](https://github.com/sunilabrahamindia/sunilabraham/issues/54), created on 15 October 2026
+* #55 [Add Alt + Shift + R keyboard shortcut for Recent Changes](https://github.com/sunilabrahamindia/sunilabraham/issues/55), created on 15 October 2026
+
+## Version 2.7
+
+From Sunday 18 October 2026 to Saturday 24 October 2026, 14 pages were created.
+
+* **[Simulation #2: Ant Mill](/tito/s2/)**, created on 18 October 2026 – An interactive agent-based experiment exploring ant trail-following, pheromone feedback, food sources and the emergence of circular movement.
+* **[Political Theology in Transition](/articles/political-theology-in-transition/)**, created on 18 October 2026 – A 2020 book by Y. T. Vinayaraj on political theology, sovereignty, liberation theology and new materialism.
+* **[Simulation (Documentation)](/tsap/simulation-documentation/)**, created on 19 October 2026 – Documentation of the background, design, development history, revisions, and future possibilities of the three simulations in The Sunil Abraham Project.
+* **[FOSS and Internet Openness: Jobs and Opportunities](/tsap/foss-opportunities-guide/)**, created on 19 October 2026 – A focused guide to selected job, fellowship, mentorship and paid contribution sources in free and open-source software, open knowledge, Internet freedom and public-interest technology.
+* **[Simulation #3: Internet Governance in a Crisis](/tito/s3/)**, created on 19 October 2026 – An interactive, fictional internet governance negotiation about a government content restriction request, platform response, rights, technical risks and accountability.
+* **[Research Funding and Grants: Open Technology and Public-Interest Work](/tsap/research-funding-guide/)**, created on 20 October 2026 – A selective guide to research grants, open-source funding, digital-rights support, Wikimedia funding and relevant fellowships for open technology and public-interest work.
+* **[Category:Books by Y. T. Vinayaraj](/categories/books-by-y-t-vinayaraj/)**, created on 21 October 2026 – Books authored, co-authored, and edited by Rev. Dr. Y. T. Vinayaraj, documented under The Sunil Abraham Project.
+* **[Reclaiming Manyness: Re-reading M.M. Thomas in the Light of Indian Christian Theologies](/articles/reclaiming-manyness/)**, created on 21 October 2026 – A 2015 edited volume on M. M. Thomas and Indian Christian theologies, edited by P. G. George and Y. T. Vinayaraj.
+* **[Faith in the Age of Empire: Christian Doctrines in a Postcolonial Sensibility](/articles/faith-in-the-age-of-empire/)**, created on 21 October 2026 – A 2020 book by Y. T. Vinayaraj reconsidering Christian doctrines through postcolonial sensibility.
+* **[Known Issues](/tsap/known-issues/)**, created on 22 October 2026 – A record of known issues, limitations, improvements and modifications requiring attention on The Sunil Abraham Project (TSAP).
+* **[The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise](/tito/tragedy-of-the-cognitive-commons/)**, created on 23 October 2026 – An overview of Nolan Lovett's conceptual paper on artificial intelligence, professional expertise and the renewal of professional knowledge.
+* **[Vibodh Parthasarathi](/vibodh/)**, created on 24 October 2026 – Biography of Vibodh Parthasarathi, Indian academic and researcher in media policy, media governance, communication studies and the digital media economy.
+* **[Indian Website Certificate Expiry Monitor](/tools/india-certificate-expiry/)**, created on 24 October 2026 – An independent public dashboard tracking TLS certificate expiry for selected important Indian websites.
+* **[Empire, Multitude and the Church: Theology after Hardt and Negri](/articles/empire-multitude-and-the-church/)**, created on 24 October 2026 – A 2017 book by Y. T. Vinayaraj on political theology, empire, the church and the idea of the multitude.
+
+**Git activity:** 188 commits.
+
+**GitHub issues created:** 1.
+* #56 [Exclude the Categories index from its own category list](https://github.com/sunilabrahamindia/sunilabraham/issues/56), created on 21 October 2026
 
 
 {% include versions.html %}
