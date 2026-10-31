@@ -570,3 +570,48 @@ body.tsap-dark-mode .breadcrumb a:hover {
 body.tsap-dark-mode .breadcrumb span {
   color: #f3f4f6 !important; /* Clean white for active page */
 }
+
+/* =========================================================
+   TSAP Preservation Page
+   ========================================================= */
+
+body.tsap-dark-mode .preservation-meta {
+  background: #1f2937 !important;
+  border-color: #4b5563 !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .preservation-legend {
+  background: #1f2937 !important;
+  border-color: #4b5563 !important;
+  color: #e5e7eb !important;
+}
+
+body.tsap-dark-mode .preservation-legend strong {
+  color: #f9fafb !important;
+}
+
+body.tsap-dark-mode .preservation-status.status-active {
+  background: #123a2a !important;
+  color: #bbf7d0 !important;
+  border-color: #34845a !important;
+}
+
+body.tsap-dark-mode .preservation-status.status-experimental {
+  background: #453516 !important;
+  color: #fde68a !important;
+  border-color: #9a7526 !important;
+}
+
+body.tsap-dark-mode .preservation-status.status-planned {
+  background: #172f52 !important;
+  color: #bfdbfe !important;
+  border-color: #416ca8 !important;
+}
+
+body.tsap-dark-mode .preservation-status.status-not-started {
+  background: #4a2024 !important;
+  color: #fecaca !important;
+  border-color: #a34c54 !important;
+}
+
