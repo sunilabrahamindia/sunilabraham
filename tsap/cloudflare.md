@@ -58,6 +58,12 @@ The domain also uses Cloudflare's network in front of the website. Depending on 
 
 Some observed response-time measurements appeared modestly better after the migration, but small differences in individual measurements are not enough to establish a reliable site-wide speed improvement. DNS lookup time, time to first byte, and total page-load time measure different parts of the request and should not be treated as interchangeable. Performance claims should be based on repeated, comparable measurements rather than a single reading.
 
+## Cloudflare Email Routing
+
+Cloudflare Email Routing is configured for the `sunilabraham.in` domain to forward incoming messages sent to configured domain addresses to a destination mailbox. This makes it possible to use addresses at the project's custom domain without treating Cloudflare Email Routing as a standalone mailbox or outbound email service.
+
+The configuration was tested with incoming messages, including a message containing Bengali text, to check that forwarding worked. Email Routing depends on the relevant DNS records and verified destination address remaining correctly configured. Any future changes to the domain's DNS should preserve the records required for email delivery.
+
 ## Cloudflare Workers
 
 ### TSAP Status Monitoring System
