@@ -88,6 +88,8 @@ TSAP has begun publishing selected curated materials and archival collections th
 
 Zenodo deposits may include curated datasets, archival compilations, preserved research publications, structured metadata collections, and static exports of historically significant materials. The use of DOI-backed archival infrastructure complements the project's broader preservation strategy based on redundancy, distributed storage, and open formats.
 
+**Proposed editorial approach (under consideration):** Zenodo is intended for selected TSAP works prepared as standalone archival publications, rather than bulk uploads of website content or repository snapshots. A deposit may involve substantial editorial preparation, including rewriting or restructuring the source article, removing website-specific elements, refining the presentation, and preparing a separate publication with appropriate metadata and references. This approach has been demonstrated by the *Students for Peace (Bangalore, 1993)* deposit. A repeatable process for selecting, preparing, and publishing further works has not yet been established.
+
 ## Repository Preservation
 <span class="preservation-status status-active">Active</span>
 
