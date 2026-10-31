@@ -9,8 +9,6 @@ created: 2026-11-01
 
 {% include under-construction.html %}
 
-{% include documentation-notice.html %}
-
 The **Useful Websites** page is a growing list of websites and online tools that we explore for their potential usefulness in the work of The Sunil Abraham Project (TSAP). These resources may support research, website development, coding, digital preservation, cybersecurity, automation, data analysis, and other project activities.
 
 The list focuses primarily on specialised tools and lesser-known websites that offer practical benefits for TSAP. We have deliberately excluded many popular and commonly known websites, as the aim is to discover and document resources that may otherwise go unnoticed.
