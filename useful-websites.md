@@ -20,7 +20,8 @@ Both the sections and the entries within each section are arranged alphabeticall
 ## GitHub and Repository Tools {#github}
 1. [GitDiagram](https://gitdiagram.com/), generates an interactive architecture diagram of a GitHub repository.
 2. [GitIngest](https://gitingest.com/), converts a GitHub repository into a text digest that can be used for AI-assisted code analysis.
-3. [Octotree](https://www.octotree.io/), adds a file-tree interface to GitHub repositories to make browsing source code easier.
+3. [GitMCP](https://gitmcp.io/), provides an MCP endpoint that lets compatible AI assistants retrieve documentation and code from GitHub repositories to help answer project-specific questions.
+4. [Octotree](https://www.octotree.io/), adds a file-tree interface to GitHub repositories to make browsing source code easier.
 
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
