@@ -1,0 +1,74 @@
+---
+layout: default
+title: "Cloudflare Services (Documentation)"
+description: "Documentation of Cloudflare services used by The Sunil Abraham Project (TSAP), including their purpose, implementation, and the reasons for selecting them."
+categories: [TSAP Documentation]
+permalink: /tsap/cloudflare/
+created: 2026-10-31
+---
+
+{% include documentation-notice.html %}
+
+The Sunil Abraham Project (TSAP) uses Cloudflare and a range of its services as part of the project's website infrastructure, service delivery, monitoring, and experimental search systems. This page documents Cloudflare services that are currently in use, as well as services or configurations used in the past, explaining how they have been used and, where the available record establishes it, why they were selected. Like the project's other documentation pages, this is an evolving record of implementation and design decisions rather than a general guide to Cloudflare.
+
+## Cloudflare Pages
+
+### Purpose
+
+Cloudflare Pages hosts a secondary deployment of the TSAP website. The primary public website remains hosted through GitHub Pages at [sunilabraham.in](https://sunilabraham.in/). The Cloudflare Pages deployment is intended as an independently hosted mirror and a fallback access route if the primary hosting arrangement or custom domain becomes unavailable.
+
+### Deployment and access
+
+The mirror is deployed from the same Git repository as the primary website. Its Cloudflare Pages address is:
+
+- `https://sunilabraham.pages.dev/`
+
+The mirror is intentionally not promoted through the primary website's navigation or ordinary public links. This keeps it as a secondary infrastructure route rather than a competing public entry point. Anyone who knows the address may still be able to access it.
+
+### Search engine exclusion
+
+A root-level `_headers` file configures the following response header for the Pages mirror:
+
+```text
+https://sunilabraham.pages.dev/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+```
+
+This instructs compliant search engines not to index, follow links from, or retain an archive of the mirror's pages. The purpose is to reduce duplicate indexing while retaining the independently hosted copy. The `_headers` file is intended for Cloudflare Pages; GitHub Pages does not process it as a hosting configuration file.
+
+### Rationale and limitations
+
+The principal reason for maintaining the mirror is domain and hosting resilience. The project should have another route to its content if the custom domain cannot be renewed, is suspended, experiences a DNS problem, or becomes inaccessible through the primary hosting service. A separate hosting platform also reduces dependence on a single deployment provider.
+
+The mirror is not a complete solution to every failure scenario. Both deployments use the same source repository, so a damaging commit or repository-level problem could affect both copies. Cloudflare Pages is an additional access route, not a substitute for independent repository backups and archival copies.
+
+## Cloudflare Workers
+
+### TSAP Status Monitoring System
+
+Cloudflare Workers is used to serve the public TSAP Status Monitoring System dashboard. The Worker retrieves monitoring information from a JSON endpoint provided by Google Apps Script and renders the dashboard for visitors. Google Apps Script performs the monitoring and Google Sheets stores the results; the Worker handles the presentation layer.
+
+The dashboard is available at:
+
+- [status.sunilabraham.in](https://status.sunilabraham.in/)
+- [Cloudflare Workers fallback address](https://status.sunilabrahamindia.workers.dev/)
+
+Separating the dashboard from the monitoring and storage components allows the presentation layer to be changed independently. The fallback Workers address also provides another route if the custom status domain experiences a DNS-related problem. Further details are documented in the [TSAP Status Monitoring System documentation](/tsap/status-monitoring-system/).
+
+## Cloudflare AI Search
+
+Cloudflare AI Search has been explored as a search and retrieval backend for selected TSAP content. One documented use is the knowledge-search interface for A. M. A. Ayrookuzhiel, available at [A. M. A. Ayrookuzhiel — Knowledge Engine](/amaa/search/).
+
+The search interface and its indexing configuration are separate parts of the system: the interface provides the visitor-facing experience, while the search backend indexes selected content for retrieval. The implementation and scope of indexing may change as the feature develops. This page records the use of Cloudflare AI Search as a project component; it does not imply that every TSAP page is indexed by it.
+
+## Design considerations
+
+Cloudflare services have been used for specific operational purposes rather than as a replacement for TSAP's static-site architecture. The main website remains a Git-based static site, while Cloudflare services provide additional hosting, a serverless presentation layer, and experimental search infrastructure where useful.
+
+The project's reasons for choosing a service should be documented only where they can be supported by the implementation or a recorded decision. Where the historical reason for a choice is not established, it should remain undocumented rather than be inferred retrospectively.
+
+## Maintenance record
+
+This page should be updated when a Cloudflare service is introduced, substantially reconfigured, retired, or replaced. Entries should distinguish current use from experiments and past use, and should record the service's role, relevant public endpoints, dependencies, limitations, and documented reasons for selection where known.
+
+{% include navbox-tsap.html %}
