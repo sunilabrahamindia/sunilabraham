@@ -20,9 +20,11 @@ Both the sections and the entries within each section are arranged alphabeticall
 ## GitHub and Repository Tools {#github}
 1. [ExplainGitHub](https://explaingithub.com/), provides an AI-powered workspace for understanding a repository through code-aware questions, onboarding reports, and architecture exploration. [Open the TSAP repository in ExplainGitHub](https://explaingithub.com/sunilabrahamindia/sunilabraham).
 2. [GitDiagram](https://gitdiagram.com/), generates an interactive architecture diagram of a GitHub repository. [View the TSAP repository diagram](https://gitdiagram.com/sunilabrahamindia/sunilabraham).
-3. [GitIngest](https://gitingest.com/), converts a GitHub repository into a text digest that can be used for AI-assisted code analysis. [Generate a digest of the TSAP repository](https://gitingest.com/sunilabrahamindia/sunilabraham).
-4. [GitMCP](https://gitmcp.io/), provides an MCP endpoint that lets compatible AI assistants retrieve documentation and code from GitHub repositories to help answer project-specific questions. [Open the TSAP repository's GitMCP endpoint](https://gitmcp.io/sunilabrahamindia/sunilabraham).
-5. [Octotree](https://www.octotree.io/), adds a file-tree interface to GitHub repositories to make browsing source code easier. [Browse the TSAP repository on GitHub](https://github.com/sunilabrahamindia/sunilabraham) with the Octotree browser extension.
+3. [GitHub1s](https://github1s.com/), opens a GitHub repository in a browser-based, VS Code-like interface for navigating and searching source files. [Open the TSAP repository in GitHub1s](https://github1s.com/sunilabrahamindia/sunilabraham).
+4. [GitIngest](https://gitingest.com/), converts a GitHub repository into a text digest that can be used for AI-assisted code analysis. [Generate a digest of the TSAP repository](https://gitingest.com/sunilabrahamindia/sunilabraham).
+5. [GitMCP](https://gitmcp.io/), provides an MCP endpoint that lets compatible AI assistants retrieve documentation and code from GitHub repositories to help answer project-specific questions. [Open the TSAP repository's GitMCP endpoint](https://gitmcp.io/sunilabrahamindia/sunilabraham).
+6. [GitReverse](https://gitreverse.com/), analyses repository information to generate an AI prompt that can help recreate a similar project. [Try GitReverse with the TSAP repository](https://gitreverse.com/sunilabrahamindia/sunilabraham).
+7. [Octotree](https://www.octotree.io/), adds a file-tree interface to GitHub repositories to make browsing source code easier. [Browse the TSAP repository on GitHub](https://github.com/sunilabrahamindia/sunilabraham) with the Octotree browser extension.
 
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
