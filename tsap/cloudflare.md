@@ -15,7 +15,7 @@ The Sunil Abraham Project (TSAP) uses Cloudflare and a range of its services as 
 
 ### Purpose
 
-Cloudflare Pages hosts a secondary deployment of the TSAP website. The primary public website remains hosted through GitHub Pages at [sunilabraham.in](https://sunilabraham.in/). The Cloudflare Pages deployment is intended as an independently hosted mirror and a fallback access route if the primary hosting arrangement or custom domain becomes unavailable.
+Cloudflare Pages hosts a secondary deployment of the TSAP website. The primary public website remains hosted through GitHub Pages at [sunilabraham.in](https://sunilabraham.in/). The mirror serves two related purposes: it provides an independent deployment against which the GitHub Pages deployment can be compared, and it offers a fallback access route if the primary hosting arrangement or custom domain becomes unavailable.
 
 ### Deployment and access
 
@@ -38,7 +38,9 @@ This instructs compliant search engines not to index, follow links from, or reta
 
 ### Rationale and limitations
 
-The principal reason for maintaining the mirror is domain and hosting resilience. The project should have another route to its content if the custom domain cannot be renewed, is suspended, experiences a DNS problem, or becomes inaccessible through the primary hosting service. A separate hosting platform also reduces dependence on a single deployment provider.
+An important operational use of the mirror is deployment diagnosis. When a recent change appears on Cloudflare Pages but not on GitHub Pages, the comparison provides evidence that the source change can build and deploy successfully in at least one environment. This can help narrow the investigation towards a GitHub Pages-specific build, deployment, caching, or serving issue instead of immediately assuming that the source change itself is at fault. It is a diagnostic indicator, not conclusive proof: the two hosting platforms may use different build environments or configurations, and a successful deployment does not guarantee that every part of the site is correct.
+
+The mirror also provides domain and hosting resilience. It offers another route to the content if the custom domain cannot be renewed, is suspended, experiences a DNS problem, or becomes inaccessible through the primary hosting service. A separate hosting platform reduces dependence on a single deployment provider.
 
 The mirror is not a complete solution to every failure scenario. Both deployments use the same source repository, so a damaging commit or repository-level problem could affect both copies. Cloudflare Pages is an additional access route, not a substitute for independent repository backups and archival copies.
 
