@@ -113,11 +113,13 @@ Software Heritage adds an independent preservation layer beyond GitHub, web arch
 
 As part of its broader preservation and accessibility strategy, TSAP has begun implementing an offline preservation workflow based on repository snapshots. Following the completion of TSAP Version 2.0, the first offline preservation copy of the project's Git repository was created and retained as an independent backup.
 
-At present, one offline repository backup is stored on the project maintainer's local hard disk. As this is an active personal laptop rather than dedicated archival storage, this copy should be regarded as a working preservation backup rather than a permanent archival copy.
+As documented on 31 October 2026, one offline repository backup is stored on the project maintainer's local hard disk. As this is an active personal laptop rather than dedicated archival storage, this copy should be regarded as a working preservation backup rather than a permanent archival copy.
 
-To provide an additional independent preservation copy, the same repository snapshot has also been uploaded to Google Drive. It may be downloaded by anyone wishing to maintain an offline copy of TSAP on external storage such as a USB flash drive, external hard disk, or other archival media.
+To provide an additional independent preservation copy, a repository snapshot was uploaded to Google Drive on 26 June 2026. It may be downloaded by anyone wishing to maintain an offline copy of TSAP on external storage such as a USB flash drive, external hard disk, or other archival media.
 
 Google Drive archive: [26 June 2026](https://drive.google.com/drive/folders/1HM0vSnyA5uZWuHZFYt3zudDawZczGat3)
+
+**Status recorded on 31 October 2026:** Arrangements for maintaining regular offline backups of both TSAP repositories are under discussion. The aim is to establish a reliable, periodic backup process, with copies maintained independently of the primary repositories. Until responsibility and practical arrangements are confirmed, offline preservation remains experimental.
 
 Future work may include periodic repository snapshots taken at major project milestones, offline website exports, portable archival packages, and copies stored on dedicated external storage media and institutional repositories.
 
