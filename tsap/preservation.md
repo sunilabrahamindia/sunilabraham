@@ -110,6 +110,8 @@ The visit history records successful and failed visits. A submission attempt sho
 
 Software Heritage adds an independent preservation layer beyond GitHub, web archiving services, local backups, and other preservation mechanisms. It can help recover a preserved repository state if the GitHub copy becomes unavailable, although changes made after the latest successful preservation may not be included. It preserves the repository state and Git history captured by the service; it does not, by itself, guarantee a complete copy of every external service or dependency needed to reproduce the live website.
 
+**Restoration testing:** Software Heritage snapshots provide a potential recovery route if the GitHub repository becomes unavailable or its history is lost. However, restoration has not yet been tested as a recovery procedure for TSAP. The ability to retrieve a snapshot and reconstruct a usable Git repository remains to be verified.
+
 ## Offline TSAP
 <span class="preservation-status status-experimental">Experimental</span>
 
