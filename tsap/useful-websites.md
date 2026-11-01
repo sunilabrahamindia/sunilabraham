@@ -30,6 +30,10 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
+## Images and Mapping {#images-and-mapping}
+1. [EXIF.im](https://exif.im/), an online image metadata viewer that helps inspect EXIF information such as camera details, capture time and, when present, GPS coordinates. Review metadata before publishing photographs, since location data may reveal sensitive information.
+2. [uMap](https://umap.openstreetmap.fr/), lets you create and share interactive maps using OpenStreetMap data. Maps can include markers, descriptions and layers, and can be embedded in webpages to document places and local points of interest.
+
 ## Python Development Resources {#python}
 1. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
 
