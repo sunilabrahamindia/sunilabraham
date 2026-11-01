@@ -37,9 +37,11 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 1. [Awesome Selfhosted](https://awesome-selfhosted.net/), a curated directory of free software and web applications that can be hosted on your own servers. Useful for discovering self-hosted alternatives for collaboration, documentation, automation, privacy and digital preservation.
 
 ## System Administration, Networking and Security {#system-administration}
-1. [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), a curated collection of command-line tools, networking resources, system administration utilities, security references, tutorials and technical guides.
+1. [crt.sh](https://crt.sh/), searches public TLS certificate transparency records. It can help researchers inspect certificate history and discover subdomains associated with a domain.
+2. [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), a curated collection of command-line tools, networking resources, system administration utilities, security references, tutorials and technical guides.
 
 ## Web Research and Development {#web-research}
 1. [PublicWWW](https://publicwww.com/), a source-code search engine for discovering websites that contain particular HTML snippets, scripts, widgets or tracking codes. Useful for web research, investigating website implementations and discovering how specific technologies are used across the web.
+2. [urlscan.io](https://urlscan.io/), analyses a submitted URL in an automated browser and reports details such as a screenshot, network requests, loaded resources and connected domains. Useful for investigating website behaviour and external connections. Public scans can expose the submitted URL and results, so avoid submitting private or sensitive links.
 
 {% include navbox-tsap.html %}
