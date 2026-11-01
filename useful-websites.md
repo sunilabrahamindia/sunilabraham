@@ -30,6 +30,9 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
+## Python Development Resources {#python}
+1. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
+
 ## Self-Hosting and Open-Source Software {#self-hosting}
 1. [Awesome Selfhosted](https://awesome-selfhosted.net/), a curated directory of free software and web applications that can be hosted on your own servers. Useful for discovering self-hosted alternatives for collaboration, documentation, automation, privacy and digital preservation.
 
