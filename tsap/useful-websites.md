@@ -47,7 +47,8 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 
 ## Internet Governance and Policy {#internet-governance}
 1. [Digital Watch Observatory](https://dig.watch/), organises information about digital policy issues, stakeholders, international governance processes, events and policy instruments. Its policy resources can help researchers trace how institutions and processes shape global digital governance.
-2. [UNIDIR Cyber Policy Portal Database](https://database.cyberpolicyportal.org/), provides searchable national cyber policy documents and related resources. Useful for comparing cybersecurity strategies, international frameworks and approaches to cyber diplomacy across countries.
+2. [World Map of Encryption Laws and Policies](https://www.gp-digital.org/world-map-of-encryption/), by Global Partners Digital, compares laws, policies and practices affecting encryption across 100 countries. It assesses both restrictions on strong encryption and safeguards against abuse of government powers. Country entries identify the assessment framework and date, which is important when using the map for comparative research.
+3. [UNIDIR Cyber Policy Portal Database](https://database.cyberpolicyportal.org/), provides searchable national cyber policy documents and related resources. Useful for comparing cybersecurity strategies, international frameworks and approaches to cyber diplomacy across countries.
 
 ## Internet Measurement and Infrastructure {#internet-measurement}
 1. [Internet Society Pulse](https://pulse.internetsociety.org/), brings together indicators on internet resilience, infrastructure, outages, market concentration and other aspects of internet health. Country comparisons and data can support policy briefs and comparative studies.
