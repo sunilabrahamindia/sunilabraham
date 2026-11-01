@@ -56,6 +56,11 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
+## Research Papers and Policy Publications {#research-publications}
+1. [Global Data Justice](https://www.globaldatajustice.org/gdj/category/resources/publications/), publishes research on data governance, digital rights and social justice, including work on how data systems affect communities and public life. Useful for exploring critical perspectives on data-driven policy and digital governance.
+2. [Internet Governance Project - Research](https://www.internetgovernance.org/research/), shares research and publications on internet governance, digital institutions, infrastructure and the political economy of digital networks. Useful for examining the institutions and processes shaping the global internet.
+3. [Internet Policy Review](https://policyreview.info/publications), an open-access academic journal publishing research on internet regulation, digital policy and the social implications of digital technologies. Its publication archive is useful for finding scholarly articles and policy-relevant analysis.
+
 ## Python Development Resources {#python}
 1. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
 
