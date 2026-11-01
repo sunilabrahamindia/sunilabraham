@@ -5,6 +5,7 @@ description: "An independent public dashboard tracking TLS certificate expiry fo
 permalink: /tools/india-certificate-expiry/
 categories: [Tools, Security]
 created: 2026-10-24
+homepage_featured: true
 ---
 
 {% include under-construction.html %}
