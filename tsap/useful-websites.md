@@ -84,6 +84,9 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Text Analysis and Research {#text-analysis}
 1. [Voyant Tools](https://voyant-tools.org/), a browser-based text analysis environment for exploring a collection of articles, speeches or other documents. It helps reveal word frequencies, recurring phrases, changes in vocabulary and relationships between terms through interactive visualisations. Useful for analysing written material as part of research and documentation.
 
+## Web Design and UI Components {#web-design-ui-components}
+1. [Uiverse](https://uiverse.io/), a community-built library of reusable interface elements such as buttons, cards, loaders, forms and toggles. Components can be copied in formats including HTML/CSS, Tailwind and React, with Figma support. The site states that its UI elements are released under the MIT License.
+
 ## Web Research and Development {#web-research}
 1. [PublicWWW](https://publicwww.com/), a source-code search engine for discovering websites that contain particular HTML snippets, scripts, widgets or tracking codes. Useful for web research, investigating website implementations and discovering how specific technologies are used across the web.
 2. [urlscan.io](https://urlscan.io/), analyses a submitted URL in an automated browser and reports details such as a screenshot, network requests, loaded resources and connected domains. Useful for investigating website behaviour and external connections. Public scans can expose the submitted URL and results, so avoid submitting private or sensitive links.
