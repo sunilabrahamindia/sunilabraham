@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. A
 description: A 2020 book by Y. T. Vinayaraj reconsidering Christian doctrines through postcolonial sensibility.
 permalink: /articles/faith-in-the-age-of-empire/
 publication_year: 2020
+page_id: TSAP-1346
 created: 2026-10-21
 ---
 

@@ -5,6 +5,7 @@ description: "An examination of artificial intelligence as assistive technology 
 categories: [Artificial Intelligence, Tito Dutta, Essays by Tito Dutta]
 authors: [Tito Dutta]
 permalink: /ai/appliance/
+page_id: TSAP-1362
 created: 2026-10-28
 ---
 

@@ -4,6 +4,7 @@ title: "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regenerat
 description: "An overview of Nolan Lovett's conceptual paper on artificial intelligence, professional expertise and the renewal of professional knowledge."
 categories: [Articles]
 permalink: /tito/tragedy-of-the-cognitive-commons/
+page_id: TSAP-1350
 created: 2026-10-23
 ---
 

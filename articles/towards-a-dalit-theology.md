@@ -5,6 +5,7 @@ categories: ["Books", "Dalit theology", "A. M. A. Ayrookuzhiel"]
 description: An overview of the 1988 edited volume Towards a Dalit Theology, its origins in a 1986 all-India consultation, its contributors, and its place in the emergence of Dalit theology.
 permalink: /articles/towards-a-dalit-theology/
 publication_year: 1988
+page_id: TSAP-1365
 created: 2026-10-30
 ---
 

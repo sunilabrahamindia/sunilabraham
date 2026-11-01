@@ -5,6 +5,7 @@ description: "Full-text transcription of A. M. Abraham Ayrookuzhiel's essay on l
 permalink: /amaa/living-hindu-popular-religious-consciousness-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1979
+page_id: TSAP-1356
 created: 2026-10-27
 ---
 

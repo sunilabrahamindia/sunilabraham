@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. A
 description: A 2020 book by Y. T. Vinayaraj on political theology, sovereignty, liberation theology and new materialism.
 permalink: /articles/political-theology-in-transition/
 publication_year: 2020
+page_id: TSAP-1340
 created: 2026-10-18
 ---
 

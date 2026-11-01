@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. A
 description: Y. T. Vinayaraj's 2008 book on Dalit theology and postmodern thought, examined through academic citations and related scholarship.
 permalink: /articles/re-imagining-dalit-theology/
 publication_year: 2008
+page_id: TSAP-1364
 created: 2026-10-29
 ---
 

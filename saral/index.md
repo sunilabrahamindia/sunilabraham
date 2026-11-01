@@ -4,6 +4,7 @@ title: "Saral Kumar Chatterji"
 categories: ["Biographies", "Christian Institute for the Study of Religion and Society"]
 description: "Biography of Saral Kumar Chatterji, theologian, social thinker and director of the Christian Institute for the Study of Religion and Society from 1976 to 2002."
 permalink: /saral/
+page_id: TSAP-1361
 created: 2026-10-27
 homepage_featured: true
 ---

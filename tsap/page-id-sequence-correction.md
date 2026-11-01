@@ -4,6 +4,7 @@ title: "Page ID Sequence Gap and Correction (15 October 2026)"
 description: "Documentation of the missing TSAP-1321 identifier, the investigation into the Page ID sequence, the correction of five existing pages, and the assignment of IDs to ten new pages."
 categories: [TSAP Documentation, TSAP Incidents]
 permalink: /tsap/page-id-sequence-correction/
+page_id: TSAP-1337
 created: 2026-10-15
 ---
 

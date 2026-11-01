@@ -4,6 +4,7 @@ title: "Indian Website Certificate Expiry Monitor"
 description: "An independent public dashboard tracking TLS certificate expiry for selected important Indian websites."
 permalink: /tools/india-certificate-expiry/
 categories: [Tools, Security]
+page_id: TSAP-1352
 created: 2026-10-24
 homepage_featured: true
 ---

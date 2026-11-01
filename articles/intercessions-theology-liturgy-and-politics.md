@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. A
 description: A 2015 book by Y. T. Vinayaraj on theology, liturgy and politics.
 permalink: /articles/intercessions-theology-liturgy-and-politics/
 publication_year: 2015
+page_id: TSAP-1336
 created: 2026-10-15
 ---
 

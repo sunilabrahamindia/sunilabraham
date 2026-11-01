@@ -4,6 +4,7 @@ title: "The Living Hindu Popular Religious Consciousness and Some Reflections on
 permalink: /amaa/living-hindu-popular-religious-consciousness/
 categories: [A. M. A. Ayrookuzhiel, Publications, "Writings not in Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's study of popular Hindu religious consciousness in Chirakkal, Kerala, and reflections on Hindu-Christian dialogue, religious experience, moral values, ritual, and changing understandings of the sacred."
+page_id: TSAP-1357
 created: 2026-10-27
 homepage_featured: true
 ---

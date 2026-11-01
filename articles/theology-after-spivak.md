@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. A
 description: A 2016 book by Y. T. Vinayaraj on Spivak and Indian theological discourse.
 permalink: /articles/theology-after-spivak/
 publication_year: 2016
+page_id: TSAP-1338
 created: 2026-10-16
 ---
 

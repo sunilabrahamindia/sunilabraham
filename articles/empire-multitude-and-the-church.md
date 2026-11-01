@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. A
 description: A 2017 book by Y. T. Vinayaraj on political theology, empire, the church and the idea of the multitude.
 permalink: /articles/empire-multitude-and-the-church/
 publication_year: 2017
+page_id: TSAP-1351
 created: 2026-10-24
 ---
 

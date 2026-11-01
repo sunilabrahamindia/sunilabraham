@@ -4,6 +4,7 @@ title: "Vibodh Parthasarathi"
 description: "Biography of Vibodh Parthasarathi, Indian academic and researcher in media policy, media governance, communication studies and the digital media economy."
 categories: [Biographies]
 permalink: /vibodh/
+page_id: TSAP-1353
 created: 2026-10-24
 ---
 

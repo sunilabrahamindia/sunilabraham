@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. A
 description: A book by Y. T. Vinayaraj on postmodern theology, the Other and Christian mission.
 permalink: /articles/re-visiting-the-other/
 publication_year: 2010
+page_id: TSAP-1355
 created: 2026-10-26
 ---
 

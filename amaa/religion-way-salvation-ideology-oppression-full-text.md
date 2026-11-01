@@ -5,6 +5,7 @@ description: "Full-text transcription of A. M. Abraham Ayrookuzhiel's 'Religion:
 permalink: /amaa/religion-way-salvation-ideology-oppression-full-text/
 categories: [A. M. A. Ayrookuzhiel, Full text]
 date: 1985
+page_id: TSAP-1358
 created: 2026-10-27
 ---
 

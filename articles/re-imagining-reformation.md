@@ -5,6 +5,7 @@ categories: ["Y. T. Vinayaraj", "Books by Y. T. Vinayaraj", "Books", "A. M. A. A
 description: A collected volume honouring P. G. George, co-edited by Y. T. Vinayaraj, Dexter Maben and Woba James.
 permalink: /articles/re-imagining-reformation/
 publication_year: 2017
+page_id: TSAP-1354
 created: 2026-10-25
 ---
 
