@@ -19,7 +19,8 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 
 ## Digital Rights and Internet Law {#digital-rights-law}
 1. [CYRILLA](https://cyrilla.org/), provides a searchable collection of laws, court decisions and other legal resources concerning human rights in digital environments. Useful for comparing how countries regulate digital rights, online expression and access to information.
-2. [World Intermediary Liability Map (WILMap)](https://wilmap.stanford.edu/), documents laws, court decisions and policy developments relating to online intermediaries around the world. Useful for comparative research into platform liability, content moderation and freedom of expression.
+2. [Global Network Initiative - Country Legal Frameworks Resource](https://clfr.globalnetworkinitiative.org/), provides country-level information on legal frameworks governing communications surveillance, access to communications data and online content restrictions. Useful for research into privacy, freedom of expression and government powers over digital communications.
+3. [World Intermediary Liability Map (WILMap)](https://wilmap.stanford.edu/), documents laws, court decisions and policy developments relating to online intermediaries around the world. Useful for comparative research into platform liability, content moderation and freedom of expression.
 
 ## GitHub and Repository Tools {#github}
 1. [ExplainGitHub](https://explaingithub.com/), provides an AI-powered workspace for understanding a repository through code-aware questions, onboarding reports, and architecture exploration. [Open the TSAP repository in ExplainGitHub](https://explaingithub.com/sunilabrahamindia/sunilabraham).
@@ -43,6 +44,10 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 1. [IODA - Internet Outage Detection and Analysis](https://ioda.inetintel.cc.gatech.edu/), combines network signals to help detect and investigate large-scale internet connectivity disruptions. Historical views can support research into outages and possible shutdown events; the measurements need to be interpreted alongside other evidence.
 2. [Internet Society Pulse](https://pulse.internetsociety.org/), brings together indicators on internet resilience, infrastructure, outages, market concentration and other aspects of internet health. Country comparisons and data can support policy briefs and comparative studies.
 3. [RIPEstat](https://stat.ripe.net/), provides data about IP addresses, autonomous systems, routing and internet number resources. Useful for investigating network relationships, routing history and aspects of internet infrastructure.
+
+## Platform Accountability and Content Removal {#platform-accountability}
+1. [Lumen Database](https://lumendatabase.org/), collects and analyses notices and requests to remove online content, including copyright complaints and requests involving defamation, privacy and other legal claims. Its records can help researchers examine how legal demands affect the availability of online material. Coverage depends on notices shared with the database, so it should not be treated as a complete record of all removals.
+2. [Ranking Digital Rights](https://rankingdigitalrights.org/), publishes research assessing technology and telecommunications companies on policies affecting privacy, freedom of expression and governance. Its company comparisons and methodology can support research into platform transparency and corporate accountability.
 
 ## Internet Shutdowns and Censorship {#shutdowns-censorship}
 1. [Internet Shutdowns Tracker](https://internetshutdowns.in/india-shutdowns/), documents internet shutdowns in India, with event information that can be examined by location and time. Useful for research into connectivity restrictions and their policy implications; check the linked sources and methodology when citing individual events.
