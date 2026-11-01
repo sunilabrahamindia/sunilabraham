@@ -22,6 +22,7 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Artificial Intelligence {#artificial-intelligence}
 1. [AI News Hub](https://aienews.org/), aggregates AI-related updates from multiple sources, including research labs, open-source projects and AI companies. Useful for scanning developments across the AI ecosystem in one place; check the linked sources for context and verify how frequently the feed is updated.
 2. [Artificial Analysis](https://artificialanalysis.ai/), tracks and compares AI models using evaluations and measurements such as model performance, speed and pricing. Useful for comparing models and checking how new releases perform beyond their providers' own claims.
+3. [ArtificialWatch](https://artificialwatch.com/), tracks AI model releases and provides structured information about availability, release announcements and API pricing. Its release log can help distinguish API availability from an official announcement, while its data feeds support ongoing monitoring.
 
 ## Data Protection and Privacy Law {#data-protection}
 1. [Centre for Applied Data Protection](https://cadp.in/), an India-focused research centre working on data protection law and policy, privacy jurisprudence and implementation of the Digital Personal Data Protection Act. Explore its publications and research outputs for legal and policy analysis.
