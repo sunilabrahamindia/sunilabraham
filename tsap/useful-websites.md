@@ -19,6 +19,10 @@ Sections and entries within each section are arranged alphabetically.
 
 Inclusion in this list does not imply endorsement or regular use. Websites may be added as we discover, explore, and evaluate them. The list will evolve over time, and resources may be removed if they are no longer useful or relevant.
 
+## Artificial Intelligence {#artificial-intelligence}
+1. [AI News Hub](https://aienews.org/), aggregates AI-related updates from multiple sources, including research labs, open-source projects and AI companies. Useful for scanning developments across the AI ecosystem in one place; check the linked sources for context and verify how frequently the feed is updated.
+2. [Artificial Analysis](https://artificialanalysis.ai/), tracks and compares AI models using evaluations and measurements such as model performance, speed and pricing. Useful for comparing models and checking how new releases perform beyond their providers' own claims.
+
 ## Data Protection and Privacy Law {#data-protection}
 1. [Centre for Applied Data Protection](https://cadp.in/), an India-focused research centre working on data protection law and policy, privacy jurisprudence and implementation of the Digital Personal Data Protection Act. Explore its publications and research outputs for legal and policy analysis.
 2. [DSCI Data Protection Framework](https://www.dsci.in/content/data-protection-framework-india), provides resources on India's data protection framework, including analysis of the Digital Personal Data Protection Rules, 2025, thematic FAQs and legal developments. Useful for tracking implementation and examining the legal and policy implications of India's data protection regime.
