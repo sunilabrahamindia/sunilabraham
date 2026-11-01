@@ -53,19 +53,15 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 
 ## Internet Governance and Policy {#internet-governance}
 1. [Digital Watch Observatory](https://dig.watch/), organises information about digital policy issues, stakeholders, international governance processes, events and policy instruments. Its policy resources can help researchers trace how institutions and processes shape global digital governance.
-2. [World Map of Encryption Laws and Policies](https://www.gp-digital.org/world-map-of-encryption/), by Global Partners Digital, compares laws, policies and practices affecting encryption across 100 countries. It assesses both restrictions on strong encryption and safeguards against abuse of government powers. Country entries identify the assessment framework and date, which is important when using the map for comparative research.
-3. [UNIDIR Cyber Policy Portal Database](https://database.cyberpolicyportal.org/), provides searchable national cyber policy documents and related resources. Useful for comparing cybersecurity strategies, international frameworks and approaches to cyber diplomacy across countries.
+2. [UNIDIR Cyber Policy Portal Database](https://database.cyberpolicyportal.org/), provides searchable national cyber policy documents and related resources. Useful for comparing cybersecurity strategies, international frameworks and approaches to cyber diplomacy across countries.
+3. [World Map of Encryption Laws and Policies](https://www.gp-digital.org/world-map-of-encryption/), by Global Partners Digital, compares laws, policies and practices affecting encryption across 100 countries. It assesses both restrictions on strong encryption and safeguards against abuse of government powers. Country entries identify the assessment framework and date, which is important when using the map for comparative research.
 
 ## Internet Measurement and Infrastructure {#internet-measurement}
 1. [Cloudflare Radar - Outage Center](https://radar.cloudflare.com/outage-center), provides a global view of reported internet outages and unusual traffic patterns, with information about affected locations and time periods. Useful for investigating connectivity disruptions and comparing regional patterns over time. The data should be interpreted in the context of the source's methodology and coverage.
-1. [Internet Society Pulse](https://pulse.internetsociety.org/), brings together indicators on internet resilience, infrastructure, outages, market concentration and other aspects of internet health. Country comparisons and data can support policy briefs and comparative studies.
-2. [IODA - Internet Outage Detection and Analysis](https://ioda.inetintel.cc.gatech.edu/), combines network signals to help detect and investigate large-scale internet connectivity disruptions. Historical views can support research into outages and possible shutdown events; the measurements need to be interpreted alongside other evidence.
-3. [ip-as.net Research](https://ip-as.net/research/), provides research datasets on internet infrastructure and security, including hosting, DNS, email security, IPv6, route security and phishing listings. Its datasets may be useful for technical and policy research; check the publication date and licence for the specific dataset before reuse.
-4. [RIPEstat](https://stat.ripe.net/), provides data about IP addresses, autonomous systems, routing and internet number resources. Useful for investigating network relationships, routing history and aspects of internet infrastructure.
-
-## Platform Accountability and Content Removal {#platform-accountability}
-1. [Lumen Database](https://lumendatabase.org/), collects and analyses notices and requests to remove online content, including copyright complaints and requests involving defamation, privacy and other legal claims. Its records can help researchers examine how legal demands affect the availability of online material. Coverage depends on notices shared with the database, so it should not be treated as a complete record of all removals.
-2. [Ranking Digital Rights](https://rankingdigitalrights.org/), publishes research assessing technology and telecommunications companies on policies affecting privacy, freedom of expression and governance. Its company comparisons and methodology can support research into platform transparency and corporate accountability.
+2. [Internet Society Pulse](https://pulse.internetsociety.org/), brings together indicators on internet resilience, infrastructure, outages, market concentration and other aspects of internet health. Country comparisons and data can support policy briefs and comparative studies.
+3. [IODA - Internet Outage Detection and Analysis](https://ioda.inetintel.cc.gatech.edu/), combines network signals to help detect and investigate large-scale internet connectivity disruptions. Historical views can support research into outages and possible shutdown events; the measurements need to be interpreted alongside other evidence.
+4. [ip-as.net Research](https://ip-as.net/research/), provides research datasets on internet infrastructure and security, including hosting, DNS, email security, IPv6, route security and phishing listings. Its datasets may be useful for technical and policy research; check the publication date and licence for the specific dataset before reuse.
+5. [RIPEstat](https://stat.ripe.net/), provides data about IP addresses, autonomous systems, routing and internet number resources. Useful for investigating network relationships, routing history and aspects of internet infrastructure.
 
 ## Internet Shutdowns and Censorship {#shutdowns-censorship}
 1. [Internet Shutdowns Tracker](https://internetshutdowns.in/india-shutdowns/), documents internet shutdowns in India, with event information that can be examined by location and time. Useful for research into connectivity restrictions and their policy implications; check the linked sources and methodology when citing individual events.
@@ -74,13 +70,17 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
+## Platform Accountability and Content Removal {#platform-accountability}
+1. [Lumen Database](https://lumendatabase.org/), collects and analyses notices and requests to remove online content, including copyright complaints and requests involving defamation, privacy and other legal claims. Its records can help researchers examine how legal demands affect the availability of online material. Coverage depends on notices shared with the database, so it should not be treated as a complete record of all removals.
+2. [Ranking Digital Rights](https://rankingdigitalrights.org/), publishes research assessing technology and telecommunications companies on policies affecting privacy, freedom of expression and governance. Its company comparisons and methodology can support research into platform transparency and corporate accountability.
+
+## Python Development Resources {#python}
+1. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
+
 ## Research Papers and Policy Publications {#research-publications}
 1. [Global Data Justice](https://www.globaldatajustice.org/gdj/category/resources/publications/), publishes research on data governance, digital rights and social justice, including work on how data systems affect communities and public life. Useful for exploring critical perspectives on data-driven policy and digital governance.
 2. [Internet Governance Project - Research](https://www.internetgovernance.org/research/), shares research and publications on internet governance, digital institutions, infrastructure and the political economy of digital networks. Useful for examining the institutions and processes shaping the global internet.
 3. [Internet Policy Review](https://policyreview.info/publications), an open-access academic journal publishing research on internet regulation, digital policy and the social implications of digital technologies. Its publication archive is useful for finding scholarly articles and policy-relevant analysis.
-
-## Python Development Resources {#python}
-1. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
 
 ## Self-Hosting and Open-Source Software {#self-hosting}
 1. [Awesome Selfhosted](https://awesome-selfhosted.net/), a curated directory of free software and web applications that can be hosted on your own servers. Useful for discovering self-hosted alternatives for collaboration, documentation, automation, privacy and digital preservation.
