@@ -18,7 +18,10 @@ Sections and entries within each section are arranged alphabetically.
 Inclusion in this list does not imply endorsement or regular use. Websites may be added as we discover, explore, and evaluate them. The list will evolve over time, and resources may be removed if they are no longer useful or relevant.
 
 ## Data Protection and Privacy Law {#data-protection}
-1. [DSCI Data Protection Framework](https://www.dsci.in/content/data-protection-framework-india), provides resources on India's data protection framework, including analysis of the Digital Personal Data Protection Rules, 2025, thematic FAQs and legal developments. Useful for tracking implementation and examining the legal and policy implications of India's data protection regime.
+1. [Centre for Applied Data Protection](https://cadp.in/), an India-focused research centre working on data protection law and policy, privacy jurisprudence and implementation of the Digital Personal Data Protection Act. Explore its publications and research outputs for legal and policy analysis.
+2. [DSCI Data Protection Framework](https://www.dsci.in/content/data-protection-framework-india), provides resources on India's data protection framework, including analysis of the Digital Personal Data Protection Rules, 2025, thematic FAQs and legal developments. Useful for tracking implementation and examining the legal and policy implications of India's data protection regime.
+3. [GDPRhub](https://gdprhub.eu/), maintains a searchable collection of summaries of decisions by European data protection authorities and courts, together with legal analysis. Useful for comparative research into regulatory enforcement and the interpretation of privacy law.
+4. [PrivacyLawHub](https://privacylawhub.com/), provides legal research resources on India's DPDP Act and Rules, the GDPR and other privacy laws, including regulator guidance and policy materials. Useful for researching data protection legislation and comparing legal frameworks.
 
 ## Digital Rights and Internet Law {#digital-rights-law}
 1. [CYRILLA](https://cyrilla.org/), provides a searchable collection of laws, court decisions and other legal resources concerning human rights in digital environments. Useful for comparing how countries regulate digital rights, online expression and access to information.
