@@ -39,4 +39,7 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## System Administration, Networking and Security {#system-administration}
 1. [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), a curated collection of command-line tools, networking resources, system administration utilities, security references, tutorials and technical guides.
 
+## Web Research and Development {#web-research}
+1. [PublicWWW](https://publicwww.com/), a source-code search engine for discovering websites that contain particular HTML snippets, scripts, widgets or tracking codes. Useful for web research, investigating website implementations and discovering how specific technologies are used across the web.
+
 {% include navbox-tsap.html %}
