@@ -17,6 +17,9 @@ Sections and entries within each section are arranged alphabetically.
 
 Inclusion in this list does not imply endorsement or regular use. Websites may be added as we discover, explore, and evaluate them. The list will evolve over time, and resources may be removed if they are no longer useful or relevant.
 
+## Data Protection and Privacy Law {#data-protection}
+1. [DSCI Data Protection Framework](https://www.dsci.in/content/data-protection-framework-india), provides resources on India's data protection framework, including analysis of the Digital Personal Data Protection Rules, 2025, thematic FAQs and legal developments. Useful for tracking implementation and examining the legal and policy implications of India's data protection regime.
+
 ## Digital Rights and Internet Law {#digital-rights-law}
 1. [CYRILLA](https://cyrilla.org/), provides a searchable collection of laws, court decisions and other legal resources concerning human rights in digital environments. Useful for comparing how countries regulate digital rights, online expression and access to information.
 2. [Global Network Initiative - Country Legal Frameworks Resource](https://clfr.globalnetworkinitiative.org/), provides country-level information on legal frameworks governing communications surveillance, access to communications data and online content restrictions. Useful for research into privacy, freedom of expression and government powers over digital communications.
