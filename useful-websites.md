@@ -36,4 +36,7 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Self-Hosting and Open-Source Software {#self-hosting}
 1. [Awesome Selfhosted](https://awesome-selfhosted.net/), a curated directory of free software and web applications that can be hosted on your own servers. Useful for discovering self-hosted alternatives for collaboration, documentation, automation, privacy and digital preservation.
 
+## System Administration, Networking and Security {#system-administration}
+1. [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), a curated collection of command-line tools, networking resources, system administration utilities, security references, tutorials and technical guides.
+
 {% include navbox-tsap.html %}
