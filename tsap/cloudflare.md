@@ -5,6 +5,7 @@ description: "Documentation of Cloudflare services used by The Sunil Abraham Pro
 categories: [TSAP Documentation]
 permalink: /tsap/cloudflare/
 created: 2026-10-31
+homepage_featured: true
 ---
 
 {% include documentation-notice.html %}
