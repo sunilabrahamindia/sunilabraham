@@ -67,6 +67,10 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 1. [Internet Shutdowns Tracker](https://internetshutdowns.in/india-shutdowns/), documents internet shutdowns in India, with event information that can be examined by location and time. Useful for research into connectivity restrictions and their policy implications; check the linked sources and methodology when citing individual events.
 2. [OONI Explorer](https://explorer.ooni.org/), lets researchers explore published network measurements that may indicate website or app blocking. Measurements can be filtered by country, network, date and test type; individual results require careful interpretation and corroboration.
 
+## JavaScript Libraries and Tools {#javascript-libraries}
+
+1. [UnsuckJS](https://unsuckjs.com/), curates lightweight JavaScript and CSS libraries (generally around 10 KB or less) that can enhance ordinary HTML without build tools or compilers. Its comparison table includes compressed file size, licence, latest commit, version and other project details, helping developers assess small libraries before using them.
+
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
