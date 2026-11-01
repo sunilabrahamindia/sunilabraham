@@ -25,6 +25,9 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 3. [GDPRhub](https://gdprhub.eu/), maintains a searchable collection of summaries of decisions by European data protection authorities and courts, together with legal analysis. Useful for comparative research into regulatory enforcement and the interpretation of privacy law.
 4. [PrivacyLawHub](https://privacylawhub.com/), provides legal research resources on India's DPDP Act and Rules, the GDPR and other privacy laws, including regulator guidance and policy materials. Useful for researching data protection legislation and comparing legal frameworks.
 
+## Data Repositories and Dataset Discovery {#data-repositories}
+1. [Google Dataset Search](https://datasetsearch.research.google.com/), helps researchers discover datasets published across universities, research institutions, government portals and other repositories. Search results link to the original sources, where you can inspect available formats, metadata, access conditions and licences before using a dataset. It is a discovery tool rather than a dataset host, so availability and reuse terms depend on the source.
+
 ## Digital Accessibility Research and Tools {#digital-accessibility}
 1. [Certvo Accessibility Research](https://certvo.com/research), publishes web accessibility research and downloadable JSON and CSV datasets documenting automated accessibility checks against WCAG criteria, including colour contrast, missing alternative text and inaccessible links. Its 2026 report covers 1,569 websites and 4,562 pages. The accompanying methodology explains the sampling approach and its limitations: the sample is weighted towards commercial websites, and automated checks cannot assess every aspect of accessibility. Treat the findings as a research dataset, not a representative measure of the entire web.
 
