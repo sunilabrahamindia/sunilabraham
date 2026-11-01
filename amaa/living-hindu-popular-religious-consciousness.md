@@ -5,6 +5,7 @@ permalink: /amaa/living-hindu-popular-religious-consciousness/
 categories: [A. M. A. Ayrookuzhiel, Publications, "Writings not in Essays on Dalits, Religion and Liberation"]
 description: "A. M. A. Ayrookuzhiel's study of popular Hindu religious consciousness in Chirakkal, Kerala, and reflections on Hindu-Christian dialogue, religious experience, moral values, ritual, and changing understandings of the sacred."
 created: 2026-10-27
+homepage_featured: true
 ---
 
 ***The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue*** is an essay by [A. M. A. Ayrookuzhiel](/amaa/), published in *Religion and Society*, Vol. XXVI, No. 1, March 1979, pp. 5–25. The essay is based on a study of popular religious life in Chirakkal near Cannanore (now Kannur), Kerala, and reflects on the implications of its findings for Hindu-Christian dialogue. Rather than describing Hinduism primarily through classical philosophical systems, Ayrookuzhiel examines how ordinary people express religious belief, experience divine power, understand moral values, and interpret rituals and sacred symbols in everyday life.
