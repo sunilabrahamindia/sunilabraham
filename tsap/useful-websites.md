@@ -27,12 +27,12 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 7. [Octotree](https://www.octotree.io/), adds a file-tree interface to GitHub repositories to make browsing source code easier. [Browse the TSAP repository on GitHub](https://github.com/sunilabrahamindia/sunilabraham) with the Octotree browser extension.
 8. [Uithub](https://uithub.com/), turns a GitHub repository into structured, AI-friendly context, with options to filter files and control the output format or token budget. [Open the TSAP repository in Uithub](https://uithub.com/sunilabrahamindia/sunilabraham). Check its current sign-in requirements and permissions before sharing private repository content.
 
-## Online Code Editors and Compilers {#online-code-editors}
-1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
-
 ## Images and Mapping {#images-and-mapping}
 1. [EXIF.im](https://exif.im/), an online image metadata viewer that helps inspect EXIF information such as camera details, capture time and, when present, GPS coordinates. Review metadata before publishing photographs, since location data may reveal sensitive information.
 2. [uMap](https://umap.openstreetmap.fr/), lets you create and share interactive maps using OpenStreetMap data. Maps can include markers, descriptions and layers, and can be embedded in webpages to document places and local points of interest.
+
+## Online Code Editors and Compilers {#online-code-editors}
+1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
 ## Python Development Resources {#python}
 1. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
@@ -43,6 +43,9 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## System Administration, Networking and Security {#system-administration}
 1. [crt.sh](https://crt.sh/), searches public TLS certificate transparency records. It can help researchers inspect certificate history and discover subdomains associated with a domain.
 2. [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), a curated collection of command-line tools, networking resources, system administration utilities, security references, tutorials and technical guides.
+
+## Text Analysis and Research {#text-analysis}
+1. [Voyant Tools](https://voyant-tools.org/), a browser-based text analysis environment for exploring a collection of articles, speeches or other documents. It helps reveal word frequencies, recurring phrases, changes in vocabulary and relationships between terms through interactive visualisations. Useful for analysing written material as part of research and documentation.
 
 ## Web Research and Development {#web-research}
 1. [PublicWWW](https://publicwww.com/), a source-code search engine for discovering websites that contain particular HTML snippets, scripts, widgets or tracking codes. Useful for web research, investigating website implementations and discovering how specific technologies are used across the web.
