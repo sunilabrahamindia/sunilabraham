@@ -17,6 +17,10 @@ Sections and entries within each section are arranged alphabetically.
 
 Inclusion in this list does not imply endorsement or regular use. Websites may be added as we discover, explore, and evaluate them. The list will evolve over time, and resources may be removed if they are no longer useful or relevant.
 
+## Digital Rights and Internet Law {#digital-rights-law}
+1. [CYRILLA](https://cyrilla.org/), provides a searchable collection of laws, court decisions and other legal resources concerning human rights in digital environments. Useful for comparing how countries regulate digital rights, online expression and access to information.
+2. [World Intermediary Liability Map (WILMap)](https://wilmap.stanford.edu/), documents laws, court decisions and policy developments relating to online intermediaries around the world. Useful for comparative research into platform liability, content moderation and freedom of expression.
+
 ## GitHub and Repository Tools {#github}
 1. [ExplainGitHub](https://explaingithub.com/), provides an AI-powered workspace for understanding a repository through code-aware questions, onboarding reports, and architecture exploration. [Open the TSAP repository in ExplainGitHub](https://explaingithub.com/sunilabrahamindia/sunilabraham).
 2. [GitDiagram](https://gitdiagram.com/), generates an interactive architecture diagram of a GitHub repository. [View the TSAP repository diagram](https://gitdiagram.com/sunilabrahamindia/sunilabraham).
@@ -30,6 +34,19 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Images and Mapping {#images-and-mapping}
 1. [EXIF.im](https://exif.im/), an online image metadata viewer that helps inspect EXIF information such as camera details, capture time and, when present, GPS coordinates. Review metadata before publishing photographs, since location data may reveal sensitive information.
 2. [uMap](https://umap.openstreetmap.fr/), lets you create and share interactive maps using OpenStreetMap data. Maps can include markers, descriptions and layers, and can be embedded in webpages to document places and local points of interest.
+
+## Internet Governance and Policy {#internet-governance}
+1. [Digital Watch Observatory](https://dig.watch/), organises information about digital policy issues, stakeholders, international governance processes, events and policy instruments. Its policy resources can help researchers trace how institutions and processes shape global digital governance.
+2. [UNIDIR Cyber Policy Portal Database](https://database.cyberpolicyportal.org/), provides searchable national cyber policy documents and related resources. Useful for comparing cybersecurity strategies, international frameworks and approaches to cyber diplomacy across countries.
+
+## Internet Measurement and Infrastructure {#internet-measurement}
+1. [IODA - Internet Outage Detection and Analysis](https://ioda.inetintel.cc.gatech.edu/), combines network signals to help detect and investigate large-scale internet connectivity disruptions. Historical views can support research into outages and possible shutdown events; the measurements need to be interpreted alongside other evidence.
+2. [Internet Society Pulse](https://pulse.internetsociety.org/), brings together indicators on internet resilience, infrastructure, outages, market concentration and other aspects of internet health. Country comparisons and data can support policy briefs and comparative studies.
+3. [RIPEstat](https://stat.ripe.net/), provides data about IP addresses, autonomous systems, routing and internet number resources. Useful for investigating network relationships, routing history and aspects of internet infrastructure.
+
+## Internet Shutdowns and Censorship {#shutdowns-censorship}
+1. [Internet Shutdowns Tracker](https://internetshutdowns.in/india-shutdowns/), documents internet shutdowns in India, with event information that can be examined by location and time. Useful for research into connectivity restrictions and their policy implications; check the linked sources and methodology when citing individual events.
+2. [OONI Explorer](https://explorer.ooni.org/), lets researchers explore published network measurements that may indicate website or app blocking. Measurements can be filtered by country, network, date and test type; individual results require careful interpretation and corroboration.
 
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
