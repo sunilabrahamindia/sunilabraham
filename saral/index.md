@@ -5,11 +5,12 @@ categories: ["Biographies", "Christian Institute for the Study of Religion and S
 description: "Biography of Saral Kumar Chatterji, theologian, social thinker and director of the Christian Institute for the Study of Religion and Society from 1976 to 2002."
 permalink: /saral/
 created: 2026-10-27
+homepage_featured: true
 ---
 
 {% include notice.html message="This biographical article is under development. Further details will be added when reliable sources become available." %}
 
-**Saral Kumar Chatterji** (also published as **Saral K. Chatterji**, 1932–2002) was an Indian Christian social thinker, editor and academic. He served as director of the Christian Institute for the Study of Religion and Society (CISRS) from 1976 until his death. Earlier, he was principal of Serampore College, where he established the William Carey Study and Research Center. Through CISRS, he connected Christian theological reflection with public affairs and social action, addressing caste, social justice, the rights of Dalit and Adivasi communities, and women's rights. His publications covered Indian politics, constitutional rights, modernisation, and society and culture in North-East India.
+**Saral Kumar Chatterji** (also published as **Saral K. Chatterji**, Bengali: সরলকুমার চট্টোপাধ্যায়, 1932–2002) was an Indian Christian social thinker, editor and academic. He served as director of the Christian Institute for the Study of Religion and Society (CISRS) from 1976 until his death. Earlier, he was principal of Serampore College, where he established the William Carey Study and Research Center. Through CISRS, he connected Christian theological reflection with public affairs and social action, addressing caste, social justice, the rights of Dalit and Adivasi communities, and women's rights. His publications covered Indian politics, constitutional rights, modernisation, and society and culture in North-East India.
 
 ## Contents
 
