@@ -36,4 +36,3 @@ A bookseller's description says the book seeks to bring Spivak's thought into In
 
 {% include navbox-vinayaraj.html %}
 
-{% include navbox-tsap.html %}
