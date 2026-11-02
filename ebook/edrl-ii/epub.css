@@ -1,35 +1,46 @@
-/* Reflowable EPUB styling: readers retain control over font and size. */
+/* Accessible, reflowable EPUB styles. Readers retain control of font size and family. */
 body {
   font-family: serif;
-  line-height: 1.45;
+  line-height: 1.5;
   widows: 2;
   orphans: 2;
 }
 p {
-  margin: 0;
-  text-indent: 1.15em;
+  margin: 0 0 0.55em;
+  text-indent: 1.1em;
 }
 h1, h2, h3, h4, h5, h6,
 blockquote p, li p, p:first-child {
   text-indent: 0;
 }
 h1 {
-  margin-top: 1.8em;
-  margin-bottom: 1em;
+  margin: 1.8em 0 1em;
   page-break-before: always;
   break-before: page;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+h1:first-child {
+  page-break-before: auto;
+  break-before: auto;
 }
 h2, h3, h4, h5, h6 {
-  margin-top: 1.4em;
-  margin-bottom: 0.55em;
+  margin: 1.5em 0 0.6em;
   page-break-after: avoid;
   break-after: avoid;
 }
 blockquote {
-  margin: 1em 1.5em;
+  margin: 1em 1.4em;
 }
 blockquote p {
   margin-bottom: 0.5em;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+sup a {
+  text-decoration: none;
 }
 img {
   max-width: 100%;
@@ -40,9 +51,6 @@ table {
   max-width: 100%;
 }
 th, td {
-  padding: 0.25em 0.4em;
+  padding: 0.3em 0.45em;
   vertical-align: top;
-}
-a {
-  text-decoration: underline;
 }
