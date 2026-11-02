@@ -185,4 +185,17 @@ These are editorial production criteria, not fixed templates. The appropriate ch
 
 These standards are a maintenance framework and quality target. Each item should be checked against the actual output; describing a step here does not mean it has already been completed. The workflow may be refined as testing identifies improvements.
 
+
+## Work Log
+
+- **14 October 2026** - Created the e-book export documentation page and recorded the initial aim of producing EPUB and PDF editions from selected TSAP articles while preserving the original website pages.
+- **2 November 2026** - Expanded the production documentation with standards for manuscript consolidation, book structure and navigation, pagination, page breaks, editorial consistency, typography, font selection, cover and interior design, paragraph treatment, notes, references, illustrations, metadata, technical validation and ongoing maintenance.
+- **2 November 2026** - Reviewed the nine full-text essay source files and identified their current source paths in the TSAP repository.
+- **2 November 2026** - Prepared a separate production branch, `ebook/edrl-ii-production`, for the essay-only e-book workflow. The work is isolated from the live website content.
+- **2 November 2026** - Added a source manifest listing the nine full-text essays and their proposed chronological order based on the publication information currently documented. Some within-year ordering remains provisional because exact publication dates have not yet been established.
+- **2 November 2026** - Added a build script intended to assemble the essays into a separate manuscript and, where Pandoc and Typst are available, generate EPUB 3 and PDF files.
+- **2 November 2026** - Added initial EPUB typography rules and provisional technical metadata. The cover, half-title, full title page, foreword and other preliminary matter remain outside the current build scope.
+- **2 November 2026** - Opened draft pull request [#58](https://github.com/sunilabrahamindia/sunilabraham/pull/58) for review. The branch has not been merged into `main`.
+- **2 November 2026** - Recorded the next checks: run the build, compare the assembled manuscript against all nine source essays, inspect notes and references, validate EPUB navigation, review the PDF layout and confirm format-specific ISBN treatment. These checks are pending; no claim is made here that the final EPUB or PDF has already been generated or approved.
+
 {% include navbox-amaa.html %}
