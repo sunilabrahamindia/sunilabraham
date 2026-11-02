@@ -1,0 +1,71 @@
+# Chronological source manifest. Paths are relative to the repository root.
+# Original publication date, not TSAP page creation date, determines the order.
+# "date_precision" records the precision supported by current bibliographic notes.
+
+essays:
+  - order: 1
+    title: "Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS"
+    source: "amaa/indian-religious-heritage-social-transformation-full-text.md"
+    publication_date: "1993-03/1993-06"
+    date_precision: "month-range"
+    publication_note: "Religion and Society, Volume XL, Nos. 1 & 2, March–June 1993."
+
+  - order: 2
+    title: "Christian Dalits in Revolt"
+    source: "amaa/christian-dalits-in-revolt-full-text.md"
+    publication_date: "1993-07"
+    date_precision: "month"
+    publication_note: "Jeevadhara, Vol. XXIII, No. 136, July 1993."
+
+  - order: 3
+    title: "Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective"
+    source: "amaa/religious-legitimation-delegitimations-social-relations-power-full-text.md"
+    publication_date: "1993-12"
+    date_precision: "month"
+    publication_note: "Religion and Society, Volume XL, No. 4, December 1993."
+
+  - order: 4
+    title: "The Dalits, Religions and Inter-faith Dialogue"
+    source: "amaa/dalits-religions-inter-faith-dialogue-full-text.md"
+    publication_date: "1994"
+    date_precision: "year"
+    publication_note: "Hindu-Christian Studies Bulletin, 1994."
+    order_within_year: "Provisional: month not stated in the current source record."
+
+  - order: 5
+    title: "The Role of Religion in Dalit Liberation: Some Reflections"
+    source: "amaa/role-of-religion-dalit-liberation-full-text.md"
+    publication_date: "1994"
+    date_precision: "year"
+    publication_note: "The Role of the Philosopher Today, edited by Anand Amaladass, S.J., 1994."
+    order_within_year: "Provisional: month not stated in the current source record."
+
+  - order: 6
+    title: "A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations"
+    source: "amaa/proposal-study-religious-heritage-dalits-full-text.md"
+    publication_date: "1995-03"
+    date_precision: "month"
+    publication_note: "Religion and Society, Vol. 42, No. 1, March 1995."
+
+  - order: 7
+    title: "Chinna Pulayan: The Dalit Teacher of Sankaracharya"
+    source: "amaa/chinnapulayan-full-text.md"
+    publication_date: "1996"
+    date_precision: "year"
+    publication_note: "Listed as published in 1996 in two collections; exact dates not established in the current record."
+    order_within_year: "Provisional: exact date not established."
+
+  - order: 8
+    title: "The Religious Factor in Dalit Liberation: Some Reflections"
+    source: "amaa/religious-factor-dalit-liberation-full-text.md"
+    publication_date: "1996"
+    date_precision: "year"
+    publication_note: "Culture Religion and Society: Essays in Honour of Richard W. Taylor, 1996."
+    order_within_year: "Provisional: exact date not established."
+
+  - order: 9
+    title: "The Dalit Church's Mission — A Dalit Response"
+    source: "amaa/dalit-church-mission-dalit-response-full-text.md"
+    publication_date: "1996-09"
+    date_precision: "month"
+    publication_note: "Indian Missiological Review, Vol. 18, No. 3, September 1996."
