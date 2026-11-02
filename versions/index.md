@@ -31,6 +31,7 @@ The **Versions** page documents the release history of the Sunil Abraham Project
 16. [Version 2.5.1](#version-251)
 17. [Version 2.6](#version-26)
 18. [Version 2.7](#version-27)
+19. [Version 2.8](#version-28)
 
 <div align="center" style="width:75%; margin:auto;">
   <img    src="https://github.com/sunilabrahamindia/sunilabraham/blob/main/assets/images/Every%20Sun%20New%20Version%20banner.png?raw=true" 
@@ -489,6 +490,32 @@ From Sunday 18 October 2026 to Saturday 24 October 2026, 14 pages were created.
 
 **GitHub issues created:** 1.
 * #56 [Exclude the Categories index from its own category list](https://github.com/sunilabrahamindia/sunilabraham/issues/56), created on 21 October 2026
+
+
+
+## Version 2.8
+
+From Sunday 25 October 2026 to Saturday 31 October 2026, 14 pages were created.
+
+* **[Re-imagining Reformation: Essays in Honor of P. G. George](/articles/re-imagining-reformation/)**, created on 25 October 2026 – A collected volume honouring P. G. George, co-edited by Y. T. Vinayaraj, Dexter Maben and Woba James.
+* **[Re-visiting the Other: Discourses on Postmodern Theology](/articles/re-visiting-the-other/)**, created on 26 October 2026 – A book by Y. T. Vinayaraj exploring postmodern theology, the Other and Christian mission.
+* **[Saral Kumar Chatterji](/saral/)**, created on 27 October 2026 – A biography of Saral Kumar Chatterji, theologian and social thinker who directed the Christian Institute for the Study of Religion and Society from 1976 to 2002.
+* **[K. C. Abraham](/kcabraham/)**, created on 27 October 2026 – A biography of Rev. Dr. Kuruvilla Cherukara Abraham, an Indian theologian, educator and ecumenical leader known for his contributions to liberation theology, mission and social justice.
+* **[Religion: A Way of Salvation or an Ideology of Oppression?](/amaa/religion-way-salvation-ideology-oppression/)**, created on 27 October 2026 – An empirical study by A. M. A. Ayrookuzhiel of Hindu village religion in Sarjapura Hobli, examining how land, caste, worship, festivals and rites of passage reproduce social power and exclusion.
+* **[Full Text: Religion: A Way of Salvation or an Ideology of Oppression?](/amaa/religion-way-salvation-ideology-oppression-full-text/)**, created on 27 October 2026 – A full-text transcription of A. M. Abraham Ayrookuzhiel's 'Religion: A Way of Salvation or an Ideology of Oppression? The Power Dimensions of Hindu Village Religion - An Empirical Study', published in *Religion and Society*, Vol. XXXII, No. 1, March 1985.
+* **[The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue](/amaa/living-hindu-popular-religious-consciousness/)**, created on 27 October 2026 – A. M. A. Ayrookuzhiel's study of popular Hindu religious consciousness in Chirakkal, Kerala, reflecting on Hindu-Christian dialogue, religious experience, moral values, ritual and changing understandings of the sacred.
+* **[Full Text: The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue](/amaa/living-hindu-popular-religious-consciousness-full-text/)**, created on 27 October 2026 – A full-text transcription of A. M. Abraham Ayrookuzhiel's essay on popular Hindu religious consciousness and Hindu-Christian dialogue, published in *Religion and Society*, Vol. XXVI, No. 1, March 1979.
+* **[TSAP Plan 2027](/tsap/2027/)**, created on 28 October 2026 – The Sunil Abraham Project's development priorities and planned work for 2027.
+* **[Artificial Intelligence as Aid or Appliance](/ai/appliance/)**, created on 28 October 2026 – An examination of artificial intelligence as assistive technology and its role in preserving productive friction.
+* **[Re-imagining Dalit Theology: Postmodern Readings](/articles/re-imagining-dalit-theology/)**, created on 29 October 2026 – Y. T. Vinayaraj's 2008 book on Dalit theology and postmodern thought, considered through academic citations and related scholarship.
+* **[Currently Watching (Tito Dutta)](/tito/watching/)**, created on 30 October 2026 – A personal viewing log recording films and series watched or currently being watched.
+* **[Towards a Dalit Theology](/articles/towards-a-dalit-theology/)**, created on 30 October 2026 – An overview of the 1988 edited volume *Towards a Dalit Theology*, its origins in a 1986 all-India consultation, its contributors and its place in the emergence of Dalit theology.
+* **[Cloudflare Services (Documentation)](/tsap/cloudflare/)**, created on 31 October 2026 – Documentation of the Cloudflare services used by The Sunil Abraham Project (TSAP), including their purposes, implementation and reasons for selection.
+
+**Git activity:** 143 commits.
+
+**GitHub issues created:** 1.
+* #57 [Investigate jekyll-redirect-from behaviour on Cloudflare Pages](https://github.com/sunilabrahamindia/sunilabraham/issues/57), created on 31 October 2026
 
 
 {% include versions.html %}
