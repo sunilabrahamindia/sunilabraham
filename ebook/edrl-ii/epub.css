@@ -1,24 +1,28 @@
-/* Accessible, reflowable EPUB styles. Readers retain control of font size and family. */
+/* EDRL II: restrained, accessible, reflowable book typography.
+   Readers remain in control of font family, size, colours and reading settings. */
 body {
   font-family: serif;
-  line-height: 1.5;
+  line-height: 1.55;
   widows: 2;
   orphans: 2;
 }
 p {
-  margin: 0 0 0.55em;
-  text-indent: 1.1em;
+  margin: 0 0 0.65em;
+  text-indent: 1.15em;
 }
 h1, h2, h3, h4, h5, h6,
-blockquote p, li p, p:first-child {
+blockquote p, li p, p:first-child,
+.half-title p, .title-page p, .publication-page p, .credits-page p,
+.frontmatter-section p {
   text-indent: 0;
 }
 h1 {
-  margin: 1.8em 0 1em;
+  margin: 1.8em 0 0.9em;
   page-break-before: always;
   break-before: page;
   page-break-after: avoid;
   break-after: avoid;
+  line-height: 1.2;
 }
 h1:first-child {
   page-break-before: auto;
@@ -28,12 +32,7 @@ h2, h3, h4, h5, h6 {
   margin: 1.5em 0 0.6em;
   page-break-after: avoid;
   break-after: avoid;
-}
-blockquote {
-  margin: 1em 1.4em;
-}
-blockquote p {
-  margin-bottom: 0.5em;
+  line-height: 1.25;
 }
 a {
   color: inherit;
@@ -41,6 +40,12 @@ a {
 }
 sup a {
   text-decoration: none;
+}
+blockquote {
+  margin: 1em 1.4em;
+}
+blockquote p {
+  margin-bottom: 0.55em;
 }
 img {
   max-width: 100%;
@@ -53,4 +58,88 @@ table {
 th, td {
   padding: 0.3em 0.45em;
   vertical-align: top;
+}
+
+/* Front matter: deliberate hierarchy without fixed screen-dependent sizing. */
+.half-title {
+  page-break-before: always;
+  break-before: page;
+  page-break-after: always;
+  break-after: page;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.half-title h1 {
+  page-break-before: auto;
+  break-before: auto;
+  margin: 0 0.5em;
+  font-size: 1.7em;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+}
+.title-page {
+  page-break-before: always;
+  break-before: page;
+  page-break-after: always;
+  break-after: page;
+  min-height: 78vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10vh 0 5vh;
+  box-sizing: border-box;
+}
+.title-page h1 {
+  page-break-before: auto;
+  break-before: auto;
+  margin: 10vh 0 0.6em;
+  max-width: 22em;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.18;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.title-rule {
+  width: 3.2em;
+  border-top: 1px solid currentColor;
+  margin: 1.2em auto 1.8em;
+}
+.title-page .author-name {
+  margin: 0 auto;
+  font-size: 1.15em;
+  line-height: 1.4;
+  text-align: center;
+}
+.title-page-imprint {
+  margin-top: auto;
+  padding-top: 4em;
+  font-size: 0.82em;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-align: center;
+}
+.publication-page, .credits-page, .frontmatter-section {
+  page-break-before: always;
+  break-before: page;
+}
+.publication-page h1, .credits-page h1, .frontmatter-section h1 {
+  page-break-before: auto;
+  break-before: auto;
+  margin-top: 0;
+  font-size: 1.45em;
+  line-height: 1.25;
+}
+.publication-page p, .credits-page p {
+  margin: 0 0 0.45em;
+}
+.publication-page strong, .credits-page strong {
+  display: inline-block;
+  margin-top: 0.35em;
 }
