@@ -1,7 +1,16 @@
-# Provisional technical metadata for the first essay-only build.
-# Cover, title pages, foreword, rights statement and format-specific ISBN assignment
-# are intentionally deferred until the publication details are confirmed.
+# Publication metadata for the EDRL II editorial preview.
+# The EPUB ISBN below is the assigned e-book ISBN; do not substitute the paperback ISBN.
 title: "Essays on Dalits, Religion and Liberation II"
-author: "A. M. Abraham Ayrookuzhiel"
+author:
+  - "A. M. Abraham Ayrookuzhiel"
 publisher: "The Sunil Abraham Project"
 lang: "en-IN"
+date: "2026-11-29"
+identifier:
+  - scheme: ISBN
+    text: "978-93-345-1180-2"
+rights: "Preview edition. Final rights statement pending confirmation."
+subject:
+  - "Dalit theology"
+  - "Religion and society"
+  - "Liberation"
