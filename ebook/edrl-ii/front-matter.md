@@ -1,33 +1,71 @@
+::: {.half-title}
+# Essays on Dalits, Religion and Liberation II
+:::
+
+::: {.title-page}
 # Essays on Dalits, Religion and Liberation II
 
-# Essays on Dalits, Religion and Liberation II
+<div class="title-rule" aria-hidden="true"></div>
 
+<p class="author-name">A. M. Abraham Ayrookuzhiel</p>
+
+<div class="title-page-imprint">THE SUNIL ABRAHAM PROJECT</div>
+:::
+
+::: {.publication-page}
+# Copyright and Publication Details
+
+**Author**  
 A. M. Abraham Ayrookuzhiel
 
+**Publisher / imprint**  
 The Sunil Abraham Project
 
-# Publication Details
+**Language**  
+English
 
-**Author:** A. M. Abraham Ayrookuzhiel
+**Planned publication date**  
+29 November 2026
 
-**Imprint:** The Sunil Abraham Project
+**E-book ISBN**  
+978-93-345-1180-2
 
-**Language:** English (India)
+**Edition status**  
+Editorial preview for review; not for distribution as a final edition.
 
-**Preview edition:** Prepared for editorial review ahead of the planned publication date of 29 November 2026.
+The final copyright notice, rights statement, edition information and any additional publication credits must be confirmed before release. The paperback ISBN is not the identifier for this EPUB.
+:::
 
-**E-book ISBN:** 978-93-345-1180-2
+::: {.credits-page}
+# Credits
 
-This is a working preview. Final publication credits, copyright and rights statements, edition wording and any additional bibliographic details must be confirmed before release. The paperback ISBN is not used as the identifier for this EPUB.
+**Author**  
+A. M. Abraham Ayrookuzhiel
 
+**Publisher / imprint**  
+The Sunil Abraham Project
+
+**Editorial and production credits**  
+To be completed when the responsible contributors and their roles are confirmed.
+
+**Cover design**  
+Pending.
+
+This preview credits only information confirmed at this stage. It does not imply that unconfirmed editorial, design or production work has been completed.
+:::
+
+::: {.frontmatter-section}
 # Foreword
 
-**Editorial placeholder - foreword pending.**
+**Placeholder - foreword pending.**
 
-The foreword has not yet been supplied. This page is retained in the preview to show the intended book structure and will be replaced with the approved foreword before publication.
+The foreword has not yet been supplied. This page establishes its place in the book and will be replaced by the approved text before publication.
+:::
 
+::: {.frontmatter-section}
 # Editor's Note
 
-**Editorial placeholder - note pending.**
+**Placeholder - editor's note pending.**
 
-The editor's note (which may be titled "From the Editor's Desk" if preferred) has not yet been written. This page is retained in the preview to show the intended book structure and will be replaced with approved editorial text before publication.
+The editor's note has not yet been supplied. Its final heading may be "Editor's Note" or "From the Editor's Desk", according to the editor's preference. This page will be replaced by approved text before publication.
+:::
