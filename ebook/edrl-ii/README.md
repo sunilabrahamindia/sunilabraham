@@ -6,7 +6,8 @@ This directory contains a direct-to-main production workflow for the EDRL II edi
 
 - Nine full-text essays selected exclusively from the TSAP category "Writings not in Essays on Dalits, Religion and Liberation".
 - Essays arranged by original publication date, oldest first. The relative order of the two 1988 works remains provisional because one publication date is known only to the year.
-- A half-title, title page, publication details, foreword placeholder and editor's-note placeholder are included to let reviewers experience the structure of a book before all editorial material is ready.
+- A traditional half-title (title only), full title page, publication details, credits, foreword placeholder and editor's-note placeholder are included. The fixed-layout PDF includes a blank verso after the half-title; the reflowable EPUB does not force an artificial blank page.
+- Editor: Tito Dutta. Project website: https://sunilabraham.in. Planned publication date: 29 November 2026.
 - The e-book ISBN is 978-93-345-1180-2. The paperback ISBN must not be used for the EPUB.
 - The front matter is a preview, not a final rights/copyright page. Do not publish the preview as a final edition.
 - Source Markdown pages remain the content source of truth.

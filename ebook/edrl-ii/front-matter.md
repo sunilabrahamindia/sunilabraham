@@ -2,10 +2,15 @@
 # Essays on Dalits, Religion and Liberation II
 :::
 
+```{=latex}
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+```
+
 ::: {.title-page}
 # Essays on Dalits, Religion and Liberation II
-
-<div class="title-rule" aria-hidden="true"></div>
 
 <p class="author-name">A. M. Abraham Ayrookuzhiel</p>
 
@@ -18,8 +23,14 @@
 **Author**  
 A. M. Abraham Ayrookuzhiel
 
+**Editor**  
+Tito Dutta
+
 **Publisher / imprint**  
 The Sunil Abraham Project
+
+**Website**  
+https://sunilabraham.in
 
 **Language**  
 English
@@ -42,11 +53,14 @@ The final copyright notice, rights statement, edition information and any additi
 **Author**  
 A. M. Abraham Ayrookuzhiel
 
+**Editor**  
+Tito Dutta
+
 **Publisher / imprint**  
 The Sunil Abraham Project
 
 **Editorial and production credits**  
-To be completed when the responsible contributors and their roles are confirmed.
+Additional contributors and their roles will be credited when confirmed.
 
 **Cover design**  
 Pending.

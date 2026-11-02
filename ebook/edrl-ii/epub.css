@@ -38,78 +38,51 @@ a {
   color: inherit;
   text-decoration: underline;
 }
-sup a {
-  text-decoration: none;
-}
-blockquote {
-  margin: 1em 1.4em;
-}
-blockquote p {
-  margin-bottom: 0.55em;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-table {
-  border-collapse: collapse;
-  max-width: 100%;
-}
-th, td {
-  padding: 0.3em 0.45em;
-  vertical-align: top;
-}
+sup a { text-decoration: none; }
+blockquote { margin: 1em 1.4em; }
+blockquote p { margin-bottom: 0.55em; }
+img { max-width: 100%; height: auto; }
+table { border-collapse: collapse; max-width: 100%; }
+th, td { padding: 0.3em 0.45em; vertical-align: top; }
 
-/* Front matter: deliberate hierarchy without fixed screen-dependent sizing. */
+/* Half-title: title alone, with generous white space and no decoration. */
 .half-title {
   page-break-before: always;
   break-before: page;
   page-break-after: always;
   break-after: page;
-  min-height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
+  padding-top: 28vh;
 }
 .half-title h1 {
   page-break-before: auto;
   break-before: auto;
   margin: 0 0.5em;
-  font-size: 1.7em;
-  font-weight: 600;
-  line-height: 1.25;
+  font-size: 1.65em;
+  font-weight: 500;
+  line-height: 1.3;
   text-align: center;
 }
+
+/* Full title page: restrained hierarchy; no viewport-height flex layout. */
 .title-page {
   page-break-before: always;
   break-before: page;
   page-break-after: always;
   break-after: page;
-  min-height: 78vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   text-align: center;
-  padding: 10vh 0 5vh;
-  box-sizing: border-box;
+  padding-top: 16vh;
 }
 .title-page h1 {
   page-break-before: auto;
   break-before: auto;
-  margin: 10vh 0 0.6em;
+  margin: 0 auto 2em;
   max-width: 22em;
   font-size: 2em;
   font-weight: 600;
   line-height: 1.18;
   letter-spacing: 0.01em;
   text-align: center;
-}
-.title-rule {
-  width: 3.2em;
-  border-top: 1px solid currentColor;
-  margin: 1.2em auto 1.8em;
 }
 .title-page .author-name {
   margin: 0 auto;
@@ -118,8 +91,7 @@ th, td {
   text-align: center;
 }
 .title-page-imprint {
-  margin-top: auto;
-  padding-top: 4em;
+  margin-top: 10em;
   font-size: 0.82em;
   letter-spacing: 0.12em;
   line-height: 1.5;
@@ -136,9 +108,7 @@ th, td {
   font-size: 1.45em;
   line-height: 1.25;
 }
-.publication-page p, .credits-page p {
-  margin: 0 0 0.45em;
-}
+.publication-page p, .credits-page p { margin: 0 0 0.45em; }
 .publication-page strong, .credits-page strong {
   display: inline-block;
   margin-top: 0.35em;
