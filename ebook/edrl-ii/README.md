@@ -1,10 +1,10 @@
 # E-book production: Essays on Dalits, Religion and Liberation II
 
-This directory contains a separate production workflow for the nine full-text essays. It does not alter the original TSAP article pages.
+This directory contains a separate production workflow for the proposed full-text essays. It does not alter the original TSAP article pages.
 
 ## Scope
 
-- Include the nine full-text sources listed in `manifest.yml`.
+- Include the full-text sources listed in `manifest.yml`.
 - Arrange them by original publication date, oldest first.
 - Exclude each website page's YAML front matter, introductory page description, website-generated contents list, navigation and Jekyll interface elements.
 - Preserve the essay text, substantive headings, quotations, lists, notes, references, meaningful links and source images where technically possible.
@@ -22,11 +22,10 @@ The proposed chronological order is:
 4. The Dalits, Religions and Inter-faith Dialogue (1994; month not stated)
 5. The Role of Religion in Dalit Liberation: Some Reflections (1994; month not stated)
 6. A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations (March 1995)
-7. Chinna Pulayan: The Dalit Teacher of Sankaracharya (1996; exact publication date not stated)
-8. The Religious Factor in Dalit Liberation: Some Reflections (1996; exact publication date not stated)
-9. The Dalit Church's Mission — A Dalit Response (September 1996)
+7. The Religious Factor in Dalit Liberation: Some Reflections (1996; exact publication date not stated)
+8. The Dalit Church's Mission — A Dalit Response (September 1996)
 
-The ordering of the two 1994 essays and the first two 1996 essays should be revisited if reliable evidence establishes their exact publication dates. The September 1996 date for the final essay is explicit; the exact order of the two other 1996 essays is not yet established.
+The ordering of the two 1994 essays should be revisited if reliable evidence establishes their exact publication dates. The September 1996 date for the final essay is explicit; the exact publication date of the other 1996 essay is not yet established. Chinna Pulayan has been removed from the proposed selection because it was included in the 2006 edition.
 
 ## Requirements
 
@@ -53,7 +52,7 @@ The build writes files to `ebook/edrl-ii/output/`. The generated manuscript is s
 ## Review before publication
 
 A successful build is not proof that the book is publication-ready. Check the generated files for:
-- all nine essays, in the intended order, with no missing or duplicated text;
+- all essays listed in the manifest, in the intended order, with no missing or duplicated text;
 - removal of website introductions and duplicate contents lists;
 - preserved notes and references, and working note links;
 - correct handling of headings, tables, quotations, images and special characters;
