@@ -37,9 +37,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: edrl-ii-editorial-preview
-          path: |
-            ebook/edrl-ii/output/manuscript.md
-            ebook/edrl-ii/output/edrl-ii-preview.epub
-            ebook/edrl-ii/output/edrl-ii-preview.pdf
+          path: ebook/edrl-ii/output/edrl-ii-preview.epub
           if-no-files-found: error
-          retention-days: 30
+          retention-days: 1
