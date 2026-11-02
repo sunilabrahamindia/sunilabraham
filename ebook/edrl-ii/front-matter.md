@@ -35,7 +35,7 @@ https://sunilabraham.in
 **Language**  
 English
 
-**Planned publication date**  
+**Publication date**  
 29 November 2026
 
 **E-book ISBN**  
