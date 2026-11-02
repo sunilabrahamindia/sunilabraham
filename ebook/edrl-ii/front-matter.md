@@ -1,3 +1,12 @@
+```{=latex}
+\newgeometry{margin=0mm}
+\begin{titlepage}
+\thispagestyle{empty}
+\noindent\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{ebook/edrl-ii/output/edrl-ii-cover.jpg}
+\end{titlepage}
+\restoregeometry
+```
+
 ::: {.half-title}
 # Essays on Dalits, Religion and Liberation II
 :::
