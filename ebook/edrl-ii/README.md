@@ -1,43 +1,29 @@
 # E-book production: Essays on Dalits, Religion and Liberation II
 
-This directory contains a separate production workflow for the proposed full-text essays. It does not alter the original TSAP article pages.
+This directory contains a direct-to-main production workflow for the EDRL II editorial preview. It does not change the original essay pages.
 
-## Scope
+## Current preview scope
 
-- Include the full-text sources listed in `manifest.yml`.
-- Arrange them by original publication date, oldest first.
-- Exclude each website page's YAML front matter, introductory page description, website-generated contents list, navigation and Jekyll interface elements.
-- Preserve the essay text, substantive headings, quotations, lists, notes, references, meaningful links and source images where technically possible.
-- Generate one consolidated Markdown manuscript, then EPUB 3 and PDF from that manuscript.
-- Do not add the cover, half-title, full title page, foreword or other preliminary matter in this first pass.
+- Nine full-text essays selected exclusively from the TSAP category "Writings not in Essays on Dalits, Religion and Liberation".
+- Essays arranged by original publication date, oldest first. The relative order of the two 1988 works remains provisional because one publication date is known only to the year.
+- A half-title, title page, publication details, foreword placeholder and editor's-note placeholder are included to let reviewers experience the structure of a book before all editorial material is ready.
+- The e-book ISBN is 978-93-345-1180-2. The paperback ISBN must not be used for the EPUB.
+- The front matter is a preview, not a final rights/copyright page. Do not publish the preview as a final edition.
+- Source Markdown pages remain the content source of truth.
 
-## Selection and chronological order
+## Files
 
-The selection is drawn exclusively from the TSAP category [Writings not in Essays on Dalits, Religion and Liberation](https://sunilabraham.in/categories/writings-not-in-essays-on-dalits-religion-and-liberation/). Do not add an essay unless its source page belongs to that category. The category excludes book reviews and other material.
+- `manifest.yml`: ordered essay selection, source paths and original publication details.
+- `front-matter.md`: editable preview front matter and explicit placeholders.
+- `metadata.yml`: EPUB/PDF bibliographic metadata.
+- `epub.css`: reflowable EPUB styling.
+- `build.py`: extraction, manuscript assembly, note-integrity checks and export validation.
+- `build.sh`: local launcher.
+- `output/`: generated manuscript and preview files; build products are not committed by default.
 
-The manifest currently contains these nine category members, ordered by original publication date, oldest first:
+## Build locally
 
-1. The State of Hinduism in 2000 A.D.—Some Emerging Trends (April–June 1977)
-2. Religion, Spirituality and Aspirations of the People (March 1978)
-3. The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue (March 1979)
-4. The Church and the Study of Religion (September 1981)
-5. Religions and the Aspirations of the People (September–December 1983)
-6. Religion: A Way of Salvation or an Ideology of Oppression? (March 1985)
-7. Dalit Theology: A Movement of Counter-Culture (1988; exact date not stated)
-8. Dalit Liberation — Some Reflections on Their Ideological Predicament (June 1988)
-9. The Ideological Nature of the Emerging Dalit Consciousness (September 1990)
-
-The relative order of the two 1988 works is provisional because one source records only the year. Do not use a website page's `created` date as the essay's original publication date.
-
-## Requirements
-
-Use Python 3, Pandoc and a PDF engine supported by the installed Pandoc version. The first PDF build uses Typst if available. If Typst is not installed, the script will still produce the manuscript and EPUB, then report that PDF generation was skipped.
-
-Install Pandoc and (for PDF) Typst on Ubuntu using the official package instructions for the versions available on your system. Do not install or run software as root unless you understand the command and trust the source.
-
-## Build
-
-From the root of the cloned TSAP repository:
+From the repository root:
 
 ```bash
 python3 ebook/edrl-ii/build.py
@@ -49,17 +35,14 @@ Or:
 bash ebook/edrl-ii/build.sh
 ```
 
-The build writes files to `ebook/edrl-ii/output/`. The generated manuscript is saved as `ebook/edrl-ii/manuscript.md`.
+Requires Python 3, Pandoc and (for PDF) a working LaTeX engine such as XeLaTeX.
 
-## Review before publication
+## Automated build
 
-A successful build is not proof that the book is publication-ready. Check the generated files for:
-- all essays listed in the manifest, in the intended order, with no missing or duplicated text;
-- removal of website introductions and duplicate contents lists;
-- preserved notes and references, and working note links;
-- correct handling of headings, tables, quotations, images and special characters;
-- EPUB navigation and reflow at multiple font sizes;
-- PDF page breaks, margins, running text, headings, page numbers and any widows/orphans;
-- bibliographic details against original publication records.
+The GitHub Actions workflow at `.github/workflows/build-edrl-ii.yml` runs on relevant pushes and can also be started manually from the Actions tab. The downloadable artifact contains the manuscript and generated preview files. Artifacts expire after 30 days, so download and retain a reviewed copy.
 
-The output directory is a build product, not a substitute for review. Keep the original article pages unchanged.
+## Quality assurance
+
+The script checks that all nine manifest sources exist, each extraction is substantial, footnote reference/note counts are not reduced, the EPUB ZIP/package is readable, its title metadata is present, and it contains enough XHTML chapters. These are automated safeguards, not a substitute for editorial proofing or a full EPUBCheck validation.
+
+Before publication, inspect all essays against the source, check note links and all references, test EPUB navigation and reflow in actual reading applications, validate with EPUBCheck, and proof the PDF page-by-page. Confirm cover, foreword, editor's note, final rights/copyright statement and bibliographic details. Never claim the book is ready for publication based only on a successful build.
