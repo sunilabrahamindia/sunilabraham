@@ -115,6 +115,27 @@ The aim is to produce e-books that meet high standards of editorial consistency,
 - Use readable type sizes, sufficient contrast and layouts that remain usable on different screen sizes. Avoid relying on colour alone to convey meaning.
 - Ensure that images have appropriate resolution and that meaningful images have useful alternative text where the format supports it.
 
+
+### Typography and font selection
+
+Typography must be selected deliberately for sustained reading, rather than left to default export settings. The aim is a calm, professional and accessible reading experience across devices, with a consistent visual hierarchy and no unnecessary decoration.
+
+- **Body typeface:** Choose a highly readable text face with well-differentiated characters and good support for punctuation, italics, bold text, symbols and the languages used in the publication. A restrained serif face is a suitable starting point for long-form essays; a clean sans-serif face is also acceptable where testing shows it reads well. Evaluate options such as Source Serif, Literata or Noto Serif for body text, and a compatible sans-serif face for headings only if a second family is genuinely useful. These are candidates to test, not mandatory choices.
+- **Limit the number of typefaces:** Prefer one family with suitable weights and styles, or at most two complementary families. Avoid decorative display fonts for body text and avoid changing fonts without a clear purpose.
+- **EPUB font behaviour:** Let readers adjust font size, line spacing, margins and, where the reading system permits, the typeface. Do not force fixed body font sizes or a rigid page layout in a reflowable EPUB. Embedded fonts should be used only when necessary, with appropriate licence permissions and a reliable fallback stack.
+- **PDF body size:** Begin testing around 11–12 pt for body text, then judge the complete pages at normal reading size and in a test print. The correct size depends on the chosen typeface, page dimensions, line length and intended audience; do not treat one number as a universal rule.
+- **Line spacing and paragraph rhythm:** For the fixed-layout PDF, begin around 1.3–1.5 times the body type size and adjust after page review. Use consistent paragraph spacing or a deliberate first-line indent system; do not combine both heavily. Avoid dense blocks of text and excessive blank space.
+- **Line length and margins:** Keep PDF text lines comfortable to follow. Adjust the page size, margins and type size together rather than shrinking type to force content onto fewer pages. Check the result at typical screen magnification and in print.
+- **Heading hierarchy:** Establish distinct, consistent styles for the book title, article titles, section headings and lower-level headings. Use semantic heading levels in the EPUB, not just visual formatting. Avoid skipping levels or using heading styles merely to make text larger.
+- **Emphasis and special material:** Use bold and italics consistently. Give block quotations, footnotes, captions, tables, lists and references a clear but restrained treatment. Preserve the meaning of emphasis from the source material and do not use underlining as ordinary emphasis, since readers may mistake it for a link.
+- **Hyphenation and justification:** Check word spacing and rivers of white space in justified PDF text. Test hyphenation carefully, especially for names and technical terms. Left-aligned text is a valid choice when it produces a more comfortable reading experience. EPUB text should remain adaptable to reader preferences.
+- **Character and language support:** Verify curly-free or source-prescribed punctuation as appropriate, quotation marks, dashes, accented characters, symbols and any non-Latin scripts present. Prevent missing glyphs, substituted characters and incorrect line breaks.
+- **Contrast and accessibility:** Use strong text/background contrast. Do not communicate structure through font appearance or colour alone. Keep links identifiable, provide meaningful alternative text for informative images and ensure the EPUB structure supports navigation and assistive technology.
+- **Consistency across formats:** The EPUB and PDF may use different layout rules, but titles, hierarchy, emphasis, references, captions and publication details should remain consistent. Do not force the EPUB to mimic the PDF's fixed pages.
+- **Proofing:** Review representative pages and sections, including long paragraphs, headings, quotations, lists, footnotes, tables, images and references. Inspect the EPUB at several font sizes and screen widths, and inspect the PDF both at normal screen size and in a test print where practicable.
+
+Final font and size choices should be recorded in the export stylesheet or build configuration so that future editions can reproduce them. They must be confirmed by reviewing the actual exported files; this plan does not claim that any particular typeface or setting has already passed testing.
+
 ### Metadata and publication details
 
 - Verify the title, subtitle, author/editor/compiler credits, publisher or imprint, language, publication date, edition and other bibliographic fields before release.
