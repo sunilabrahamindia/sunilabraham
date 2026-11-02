@@ -39,7 +39,7 @@ def load_manifest() -> list[tuple[str, str]]:
             raise ValueError("Manifest entry is missing a quoted title or source path.")
         essays.append((title_match.group(1), source_match.group(1)))
     if len(essays) != 9:
-        raise ValueError(f"Expected exactly 8 manifest entries; found {len(essays)}.")
+        raise ValueError(f"Expected exactly 9 manifest entries; found {len(essays)}.")
     return essays
 
 def remove_intro_and_contents(text: str, source: str) -> str:
