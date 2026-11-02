@@ -79,4 +79,66 @@ Both formats should be reviewed for accessibility, including logical heading lev
 
 The first milestone is to produce and review an EPUB and a PDF from a confirmed selection of 8–10 pages. The extraction rules must be verified against the original articles before the process is extended to additional publications.
 
+
+## Production Standards and Maintenance
+
+The aim is to produce e-books that meet high standards of editorial consistency, usability, accessibility and technical reliability. Each publication will be prepared through a documented workflow and reviewed as a complete book, rather than treated as a simple export of website pages. The process will preserve the original source material while making the finished publication coherent and comfortable to read across devices.
+
+### Manuscript consolidation
+
+- Confirm the final list of source articles, their titles and their order before generating the book.
+- Consolidate the selected material into one continuous manuscript, checking for missing sections, accidental duplication, inconsistent headings and broken transitions.
+- Preserve the wording and meaning of the source texts. Editorial corrections must be deliberate and checked against the original pages.
+- Remove website-only elements, including navigation, breadcrumbs, category labels, duplicate article contents lists and other interface material.
+- Check references, quotations, footnotes, tables, captions and image placement after consolidation.
+
+### Book structure and navigation
+
+- Maintain a clear front matter, main text and end matter structure appropriate to the publication.
+- Provide a consistent half-title page, title page, copyright and publication details, foreword where supplied, and other confirmed preliminary matter.
+- Generate one book-level table of contents from the final manuscript. Check that its entries and links point to the correct sections.
+- Create or maintain a dedicated publication hub page on the TSAP website. It should identify the publication, provide accurate bibliographic information, describe the available formats and link to the current authorised files. The hub page should also provide a clear route back to the relevant project material.
+- Keep the hub page and the files in sync whenever a publication is revised or replaced.
+
+### Pagination, page breaks and blank pages
+
+- Treat pagination according to the format. The PDF has fixed pages and should have orderly page breaks, consistent margins, readable page numbers and a logical relationship between headings and the text that follows them.
+- The EPUB is reflowable. Do not rely on fixed page numbers or insert artificial blank pages into it; readers' devices determine pagination.
+- Do not insert blank pages merely to imitate a printed book. In a PDF intended for duplex printing, use a blank page only where a genuine production requirement calls for one, and ensure that it does not disrupt reading.
+- Check chapter and article openings, heading placement, widows and orphans, tables, footnotes, images and captions in the PDF. Avoid headings stranded at the bottom of a page or content clipped at page boundaries.
+
+### Editorial and visual consistency
+
+- Use a consistent hierarchy of title, section and subsection headings, with predictable spacing and typography.
+- Apply consistent treatment to quotations, notes, references, hyperlinks, lists, tables and captions.
+- Check spelling, punctuation, names, dates, titles and bibliographic details throughout the complete manuscript.
+- Use readable type sizes, sufficient contrast and layouts that remain usable on different screen sizes. Avoid relying on colour alone to convey meaning.
+- Ensure that images have appropriate resolution and that meaningful images have useful alternative text where the format supports it.
+
+### Metadata and publication details
+
+- Verify the title, subtitle, author/editor/compiler credits, publisher or imprint, language, publication date, edition and other bibliographic fields before release.
+- Include only confirmed identifiers and claims. ISBNs must match the correct format and edition; do not reuse an identifier across different formats.
+- Set and verify EPUB metadata, including the language and publication identifier, and check the PDF's document properties where applicable.
+- Keep the publication details in the file consistent with the hub page and the publication record.
+
+### Technical validation and quality assurance
+
+- Validate the generated EPUB with an appropriate EPUB validation tool and correct errors before release.
+- Open and inspect the EPUB in more than one compatible reading application or device where practicable. Check navigation, links, images, text flow and display at different font sizes.
+- Inspect the complete PDF on screen and, where practical, review a test print. Check page order, page numbering, margins, links, image quality and the absence of clipped or missing content.
+- Compare both outputs against the source articles to confirm that no text, references, images or other substantive material has been lost or duplicated.
+- Check internal and external links, table-of-contents navigation, accessibility features and document metadata.
+- Retain a final quality-assurance checklist and record any known limitations that cannot be resolved before publication.
+
+### Versioning and ongoing maintenance
+
+- Keep the original TSAP Markdown pages as the source of truth. Do not make publication-specific changes by silently altering the source articles.
+- Record the source pages and their order, the publication metadata, the build settings and the date of each release.
+- Retain the exact files released and identify revisions clearly. When a correction is necessary, document the change and update the hub page and downloadable files together.
+- Rebuild and recheck the EPUB and PDF after any change to the manuscript, metadata, styling or export process that could affect the output.
+- Before announcing a release, perform a final review of the actual downloadable files, not only the source manuscript or build log.
+
+These standards are a maintenance framework and quality target. Each item should be checked against the actual output; describing a step here does not mean it has already been completed. The workflow may be refined as testing identifies improvements.
+
 {% include navbox-amaa.html %}
