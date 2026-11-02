@@ -14,9 +14,9 @@ This directory contains a direct-to-main production workflow for the EDRL II edi
 ## Files
 
 - `manifest.yml`: ordered essay selection, source paths and original publication details.
-- `front-matter.md`: editable preview front matter and explicit placeholders.
+- `front-matter.md`: typeset half-title and title page, publication details, credits, and explicit foreword/editor's-note placeholders.
 - `metadata.yml`: EPUB/PDF bibliographic metadata.
-- `epub.css`: reflowable EPUB styling.
+- `epub.css`: reflowable EPUB styling and front-matter composition rules.
 - `build.py`: extraction, manuscript assembly, note-integrity checks and export validation.
 - `build.sh`: local launcher.
 - `output/`: generated manuscript and preview files; build products are not committed by default.
