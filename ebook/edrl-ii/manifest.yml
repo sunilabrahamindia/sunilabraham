@@ -48,14 +48,6 @@ essays:
     publication_note: "Religion and Society, Vol. 42, No. 1, March 1995."
 
   - order: 7
-    title: "Chinna Pulayan: The Dalit Teacher of Sankaracharya"
-    source: "amaa/chinnapulayan-full-text.md"
-    publication_date: "1996"
-    date_precision: "year"
-    publication_note: "Listed as published in 1996 in two collections; exact dates not established in the current record."
-    order_within_year: "Provisional: exact date not established."
-
-  - order: 8
     title: "The Religious Factor in Dalit Liberation: Some Reflections"
     source: "amaa/religious-factor-dalit-liberation-full-text.md"
     publication_date: "1996"
@@ -63,7 +55,7 @@ essays:
     publication_note: "Culture Religion and Society: Essays in Honour of Richard W. Taylor, 1996."
     order_within_year: "Provisional: exact date not established."
 
-  - order: 9
+  - order: 8
     title: "The Dalit Church's Mission — A Dalit Response"
     source: "amaa/dalit-church-mission-dalit-response-full-text.md"
     publication_date: "1996-09"
