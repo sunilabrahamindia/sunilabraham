@@ -275,6 +275,14 @@ body.tsap-dark-mode .rs-history th {
 }
 
 @media (max-width: 700px) {
+  /* Keep the mobile layout inside the viewport without changing desktop tables. */
+  .rs-table-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
   .rs-summary {
     grid-template-columns: 1fr;
   }
@@ -292,8 +300,11 @@ body.tsap-dark-mode .rs-history th {
   .rs-history tbody,
   .rs-history tr,
   .rs-history td {
+    box-sizing: border-box;
     display: block;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .rs-history {
@@ -320,6 +331,8 @@ body.tsap-dark-mode .rs-history th {
   }
 
   .rs-history tr {
+    box-sizing: border-box;
+    margin: 0;
     padding: 0.55rem 0.85rem;
     border: 1px solid var(--border-sub, #d8dee4);
     border-radius: 8px;
