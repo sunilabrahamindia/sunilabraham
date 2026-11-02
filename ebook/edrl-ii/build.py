@@ -140,7 +140,7 @@ css = BASE / "epub.css"
 epub = OUT / "edrl-ii-preview.epub"
 pdf = OUT / "edrl-ii-preview.pdf"
 subprocess.run([
-    pandoc, str(manuscript_path), "--from=markdown+raw_html+smart",
+    pandoc, str(manuscript_path), "--from=markdown+fenced_divs+raw_html+smart",
     "--to=epub3", "--output", str(epub), "--metadata-file", str(meta),
     "--css", str(css), "--toc", "--toc-depth=2", "--split-level=1",
     "--epub-chapter-level=1"
