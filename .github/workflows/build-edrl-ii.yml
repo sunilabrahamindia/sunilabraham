@@ -1,11 +1,14 @@
-name: Build EDRL II essay-only e-book
+name: Build EDRL II editorial preview
 
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - "ebook/edrl-ii/**"
       - "amaa/**"
+      - ".github/workflows/build-edrl-ii.yml"
 
 permissions:
   contents: read
@@ -27,16 +30,16 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic
 
-      - name: Build manuscript, EPUB and PDF
+      - name: Build and validate manuscript, EPUB and PDF
         run: python3 ebook/edrl-ii/build.py
 
-      - name: Upload e-book files
+      - name: Upload e-book preview files
         uses: actions/upload-artifact@v4
         with:
-          name: edrl-ii-essay-only-epub-pdf
+          name: edrl-ii-editorial-preview
           path: |
             ebook/edrl-ii/output/manuscript.md
-            ebook/edrl-ii/output/edrl-ii.epub
-            ebook/edrl-ii/output/edrl-ii.pdf
+            ebook/edrl-ii/output/edrl-ii-preview.epub
+            ebook/edrl-ii/output/edrl-ii-preview.pdf
           if-no-files-found: error
           retention-days: 30
