@@ -11,21 +11,23 @@ This directory contains a separate production workflow for the proposed full-tex
 - Generate one consolidated Markdown manuscript, then EPUB 3 and PDF from that manuscript.
 - Do not add the cover, half-title, full title page, foreword or other preliminary matter in this first pass.
 
-## Current ordering decisions
+## Selection and chronological order
 
-The manifest records the bibliographic dates currently documented on TSAP. Some sources give only a year rather than a month or day. Where the original publication date cannot be established more precisely from the available records, the order within that year is provisional and is marked in the manifest. Do not interpret a website page's `created` date as the essay's original publication date.
+The selection is drawn exclusively from the TSAP category [Writings not in Essays on Dalits, Religion and Liberation](https://sunilabraham.in/categories/writings-not-in-essays-on-dalits-religion-and-liberation/). Do not add an essay unless its source page belongs to that category. The category excludes book reviews and other material.
 
-The proposed chronological order is:
-1. Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS (March–June 1993)
-2. Christian Dalits in Revolt (July 1993)
-3. Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective (December 1993)
-4. The Dalits, Religions and Inter-faith Dialogue (1994; month not stated)
-5. The Role of Religion in Dalit Liberation: Some Reflections (1994; month not stated)
-6. A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations (March 1995)
-7. The Religious Factor in Dalit Liberation: Some Reflections (1996; exact publication date not stated)
-8. The Dalit Church's Mission — A Dalit Response (September 1996)
+The manifest currently contains these nine category members, ordered by original publication date, oldest first:
 
-The ordering of the two 1994 essays should be revisited if reliable evidence establishes their exact publication dates. The September 1996 date for the final essay is explicit; the exact publication date of the other 1996 essay is not yet established. Chinna Pulayan has been removed from the proposed selection because it was included in the 2006 edition.
+1. The State of Hinduism in 2000 A.D.—Some Emerging Trends (April–June 1977)
+2. Religion, Spirituality and Aspirations of the People (March 1978)
+3. The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue (March 1979)
+4. The Church and the Study of Religion (September 1981)
+5. Religions and the Aspirations of the People (September–December 1983)
+6. Religion: A Way of Salvation or an Ideology of Oppression? (March 1985)
+7. Dalit Theology: A Movement of Counter-Culture (1988; exact date not stated)
+8. Dalit Liberation — Some Reflections on Their Ideological Predicament (June 1988)
+9. The Ideological Nature of the Emerging Dalit Consciousness (September 1990)
+
+The relative order of the two 1988 works is provisional because one source records only the year. Do not use a website page's `created` date as the essay's original publication date.
 
 ## Requirements
 
