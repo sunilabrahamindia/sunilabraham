@@ -35,3 +35,5 @@ A bookseller's description says the book seeks to bring Spivak's thought into In
 - [*Theology After Spivak*](https://www.ispck.org.in/book/theology-after-spivak) on ISPCK
 
 {% include navbox-vinayaraj.html %}
+
+{% include navbox-tsap.html %}
