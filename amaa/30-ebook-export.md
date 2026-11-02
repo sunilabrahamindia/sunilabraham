@@ -186,6 +186,21 @@ These are editorial production criteria, not fixed templates. The appropriate ch
 These standards are a maintenance framework and quality target. Each item should be checked against the actual output; describing a step here does not mean it has already been completed. The workflow may be refined as testing identifies improvements.
 
 
+## Workflow storage and artifact retention (internal production note)
+
+The EDRL II workflow may be run repeatedly for testing. A workflow run does not add its generated EPUB, PDF or manuscript to the Git repository unless those files are explicitly committed. Generated files on the temporary GitHub-hosted runner are temporary and are removed when the runner is discarded. Uploaded workflow artifacts are different: they occupy GitHub Actions artifact storage until they expire or are deleted.
+
+**Storage policy for this project:**
+
+- Keep uploaded preview artifacts for **one day only** by setting `retention-days: 1` in the upload-artifact step.
+- Upload **only the EPUB preview**. Do not retain the generated PDF or intermediate manuscript as workflow artifacts unless there is a specific, temporary need to inspect them.
+- Repeated test runs are acceptable; do not keep a growing archive of preview artifacts.
+- Delete older retained artifacts manually when needed. Changing the retention period does not retroactively shorten the expiry of artifacts that were already uploaded, so check and remove earlier 30-day artifacts separately.
+- Keep source files and workflow logs distinct from generated artifacts. This policy concerns generated-file storage; it does not remove workflow run records or logs.
+- The aim is to minimise retained storage, not to use the available allowance. Even a small artifact should not be retained longer than needed.
+
+GitHub may retain billing records for storage already used during a billing period even after an artifact is deleted. Repository Git storage and Actions artifact storage are separate. This policy reduces ongoing artifact storage; it does not promise that every historical billing measurement is immediately reset.
+
 ## Work Log
 
 ### Where to make production changes
@@ -247,3 +262,5 @@ After changing a file, rebuild the EPUB and inspect the actual file in a reading
 - **3 November 2026 - Entry 24: Combined publication-details and half-title update.** Committed the latest front-matter and stylesheet changes together on `main` in commit [`a6b18c1c`](https://github.com/sunilabrahamindia/sunilabraham/commit/a6b18c1c5008a8e5ece4819fb95ef93d87fa8b9e), updating the publication details with editor Tito Dutta and the TSAP website, and revising the half-title to show the title alone. The production layout now distinguishes the print PDF's blank verso from the reflowable EPUB, which should not contain an artificial blank page. The associated editorial-preview workflow was queued at the time of this entry; the revised output still needs visual verification in Readera and Foliate and PDF page-sequence proofing. These changes are documented as completed source edits, not as completed visual QA.
 
 {% include navbox-amaa.html %}
+
+- **3 November 2026 - Entry 25: Workflow storage minimisation.** Documented the internal storage policy: keep preview artifacts for one day, upload only the EPUB, avoid accumulating test outputs, and delete older artifacts manually because the new retention setting does not retroactively change their expiry. Clarified that temporary runner files, repository Git storage, workflow logs and uploaded artifacts are distinct.
