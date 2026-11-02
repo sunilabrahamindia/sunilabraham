@@ -74,6 +74,20 @@ def clean_source(raw: str, source: str) -> str:
     text = LIQUID_LINE.sub("", text)
     text = WEBSITE_UI.sub("", text)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
+
+    # Normalise the essay's first substantive section to H2 if the source used
+    # H3 because of its website template. Keep H2 end-matter headings (e.g. Notes).
+    first_heading = re.search(r"(?m)^(#{1,6})\s+", text)
+    if first_heading:
+        first_level = len(first_heading.group(1))
+        if first_level > 2:
+            shift = first_level - 2
+            def adjust_heading(match: re.Match[str]) -> str:
+                hashes = match.group(1)
+                if len(hashes) >= first_level:
+                    return "#" * max(2, len(hashes) - shift) + match.group(2)
+                return match.group(0)
+            text = re.sub(r"(?m)^(#{1,6})(\s+)", adjust_heading, text)
     return text
 
 def main() -> int:
