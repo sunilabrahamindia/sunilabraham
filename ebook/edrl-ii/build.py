@@ -184,9 +184,15 @@ print(f"EPUB created and package checks passed: {epub} ({epub.stat().st_size:,} 
 
 engine = next((name for name in ("xelatex", "lualatex", "pdflatex") if shutil.which(name)), None)
 if engine:
+    # The cover page uses \\includegraphics in a raw LaTeX block. Load
+    # graphicx explicitly because Pandoc's default PDF template does not
+    # guarantee that package is present.
+    pdf_header = OUT / "pdf-header.tex"
+    pdf_header.write_text("\\usepackage{graphicx}\n", encoding="utf-8")
     subprocess.run([
         pandoc, str(manuscript_path), "--output", str(pdf),
         "--from=markdown+raw_html+smart", "--pdf-engine=" + engine,
+        "--include-in-header", str(pdf_header),
         "--metadata-file", str(meta), "-V", "geometry:margin=25mm",
         "-V", "fontsize=11pt", "-V", "linestretch=1.3",
         "-V", "indent: true", "-V", "parskip=0pt"
