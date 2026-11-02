@@ -123,7 +123,7 @@ for item in items:
         raise SystemExit(f"Footnote references missing from {item['title']}: source {ref_count}, manuscript {out_ref_count}.")
     if note_count and out_note_count < note_count:
         raise SystemExit(f"Footnote notes missing from {item['title']}: source {note_count}, manuscript {out_note_count}.")
-    parts.extend(["# " + item["title"] + " {#essay-" + str(item["order"]) + "}", "", f"*Original publication: {item['publication_note']}*", "", body, "", '<p class="back-to-contents"><a href="#contents">Back to Contents</a></p>', ""])
+    parts.extend(["# " + item["title"] + " {#essay-" + str(item["order"]) + "}", "", f"*Original publication: {item['publication_note']}*", "", body, "", "[Back to Contents](#contents)", ""])
     checks.append((item["title"], len(body), ref_count, note_count, out_ref_count, out_note_count))
 
 manuscript = "\n".join(parts).rstrip() + "\n"
@@ -157,7 +157,7 @@ except Exception as exc:
 subprocess.run([
     pandoc, str(manuscript_path), "--from=markdown+fenced_divs+raw_html+smart",
     "--to=epub3", "--output", str(epub), "--metadata-file", str(meta),
-    "--epub-title-page=false", "--epub-cover-image", str(COVER_PATH), "--css", str(css), "--toc-depth=1", "--split-level=1",
+    "--epub-title-page=false", "--epub-cover-image", str(COVER_PATH), "--css", str(css), "--split-level=1",
     "--epub-chapter-level=1"
 ], check=True)
 
