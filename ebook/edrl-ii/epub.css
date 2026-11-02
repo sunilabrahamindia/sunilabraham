@@ -1,19 +1,25 @@
-/* EDRL II: restrained, accessible, reflowable book typography.
-   Readers remain in control of font family, size, colours and reading settings. */
+/* EDRL II: editorial typography for a reflowable, accessible EPUB.
+   Do not force reader font choices, colours, or fixed page dimensions. */
+html {
+  hanging-punctuation: first last;
+}
 body {
   font-family: serif;
   line-height: 1.55;
   widows: 2;
   orphans: 2;
+  text-align: left;
+  hyphens: manual;
+  -webkit-hyphens: manual;
 }
 p {
-  margin: 0 0 0.65em;
+  margin: 0;
   text-indent: 1.15em;
 }
 h1, h2, h3, h4, h5, h6,
 blockquote p, li p, p:first-child,
 .half-title p, .title-page p, .publication-page p, .credits-page p,
-.frontmatter-section p {
+.frontmatter-section p, .essay-opening p {
   text-indent: 0;
 }
 h1 {
@@ -23,77 +29,100 @@ h1 {
   page-break-after: avoid;
   break-after: avoid;
   line-height: 1.2;
+  text-align: left;
 }
 h1:first-child {
   page-break-before: auto;
   break-before: auto;
 }
 h2, h3, h4, h5, h6 {
-  margin: 1.5em 0 0.6em;
+  margin: 1.45em 0 0.55em;
   page-break-after: avoid;
   break-after: avoid;
   line-height: 1.25;
 }
+p + p {
+  margin-top: 0;
+}
 a {
   color: inherit;
   text-decoration: underline;
+  text-underline-offset: 0.12em;
 }
 sup a { text-decoration: none; }
-blockquote { margin: 1em 1.4em; }
-blockquote p { margin-bottom: 0.55em; }
+blockquote {
+  margin: 1em 1.4em;
+}
+blockquote p {
+  margin: 0 0 0.55em;
+}
+blockquote p:last-child { margin-bottom: 0; }
 img { max-width: 100%; height: auto; }
-table { border-collapse: collapse; max-width: 100%; }
-th, td { padding: 0.3em 0.45em; vertical-align: top; }
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+  font-size: 0.95em;
+}
+th, td {
+  padding: 0.3em 0.45em;
+  vertical-align: top;
+}
+hr {
+  border: 0;
+  border-top: 1px solid currentColor;
+  margin: 1.8em 0;
+}
 
-/* Half-title: title alone, with generous white space and no decoration. */
+/* Half-title: title only. White space is intentional, not a fixed-height layout. */
 .half-title {
   page-break-before: always;
   break-before: page;
   page-break-after: always;
   break-after: page;
   text-align: center;
-  padding-top: 28vh;
+  padding-top: 26vh;
 }
 .half-title h1 {
   page-break-before: auto;
   break-before: auto;
-  margin: 0 0.5em;
-  font-size: 1.65em;
-  font-weight: 500;
-  line-height: 1.3;
+  margin: 0 auto;
+  max-width: 19em;
+  font-size: 1.7em;
+  font-weight: 600;
+  line-height: 1.25;
   text-align: center;
 }
 
-/* Full title page: restrained hierarchy; no viewport-height flex layout. */
+/* Full title page: centred hierarchy with a restrained imprint near the foot. */
 .title-page {
   page-break-before: always;
   break-before: page;
   page-break-after: always;
   break-after: page;
   text-align: center;
-  padding-top: 16vh;
+  padding-top: 17vh;
 }
 .title-page h1 {
   page-break-before: auto;
   break-before: auto;
-  margin: 0 auto 2em;
-  max-width: 22em;
+  margin: 0 auto 1.8em;
+  max-width: 20em;
   font-size: 2em;
   font-weight: 600;
   line-height: 1.18;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
   text-align: center;
 }
 .title-page .author-name {
   margin: 0 auto;
-  font-size: 1.15em;
-  line-height: 1.4;
+  font-size: 1.2em;
+  line-height: 1.45;
   text-align: center;
 }
 .title-page-imprint {
-  margin-top: 10em;
+  margin-top: 9em;
   font-size: 0.82em;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   line-height: 1.5;
   text-align: center;
 }
@@ -104,12 +133,23 @@ th, td { padding: 0.3em 0.45em; vertical-align: top; }
 .publication-page h1, .credits-page h1, .frontmatter-section h1 {
   page-break-before: auto;
   break-before: auto;
-  margin-top: 0;
-  font-size: 1.45em;
+  margin: 0 0 1.4em;
+  font-size: 1.5em;
   line-height: 1.25;
+  text-align: center;
 }
-.publication-page p, .credits-page p { margin: 0 0 0.45em; }
+.publication-page p, .credits-page p {
+  margin: 0 0 0.7em;
+  text-indent: 0;
+  line-height: 1.45;
+}
 .publication-page strong, .credits-page strong {
-  display: inline-block;
-  margin-top: 0.35em;
+  font-weight: 700;
+}
+.frontmatter-section p {
+  margin: 0 0 0.8em;
+  text-indent: 0;
+}
+.frontmatter-section > p:first-of-type {
+  margin-top: 0;
 }
