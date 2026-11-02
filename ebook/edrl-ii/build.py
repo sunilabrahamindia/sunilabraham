@@ -6,6 +6,7 @@ import shutil
 import subprocess
 import sys
 import zipfile
+import urllib.request
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -14,6 +15,8 @@ OUT = BASE / "output"
 MANIFEST = BASE / "manifest.yml"
 FRONT_MATTER = BASE / "front-matter.md"
 OUT.mkdir(parents=True, exist_ok=True)
+COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg"
+COVER_PATH = OUT / "edrl-ii-cover.jpg"
 
 def parse_manifest(path):
     items = []
@@ -120,7 +123,7 @@ for item in items:
         raise SystemExit(f"Footnote references missing from {item['title']}: source {ref_count}, manuscript {out_ref_count}.")
     if note_count and out_note_count < note_count:
         raise SystemExit(f"Footnote notes missing from {item['title']}: source {note_count}, manuscript {out_note_count}.")
-    parts.extend(["# " + item["title"], "", f"*Original publication: {item['publication_note']}*", "", body, ""])
+    parts.extend(["# " + item["title"] + " {#essay-" + str(item["order"]) + "}", "", f"*Original publication: {item['publication_note']}*", "", body, "", '<p class="back-to-contents"><a href="#contents">Back to Contents</a></p>', ""])
     checks.append((item["title"], len(body), ref_count, note_count, out_ref_count, out_note_count))
 
 manuscript = "\n".join(parts).rstrip() + "\n"
@@ -139,10 +142,22 @@ meta = BASE / "metadata.yml"
 css = BASE / "epub.css"
 epub = OUT / "edrl-ii-preview.epub"
 pdf = OUT / "edrl-ii-preview.pdf"
+
+# Fetch the cover from the dedicated media repository so the main repository does not
+# need a second committed copy of the image.
+try:
+    request = urllib.request.Request(COVER_URL, headers={"User-Agent": "EDRL-II-ebook-build"})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        cover_bytes = response.read()
+    if len(cover_bytes) < 10000 or not cover_bytes.startswith(b"\xff\xd8\xff"):
+        raise SystemExit("Cover download failed validation; expected a JPEG image.")
+    COVER_PATH.write_bytes(cover_bytes)
+except Exception as exc:
+    raise SystemExit(f"Could not retrieve the EDRL II cover from the media repository: {exc}")
 subprocess.run([
     pandoc, str(manuscript_path), "--from=markdown+fenced_divs+raw_html+smart",
     "--to=epub3", "--output", str(epub), "--metadata-file", str(meta),
-    "--epub-title-page=false", "--css", str(css), "--toc", "--toc-depth=2", "--split-level=1",
+    "--epub-title-page=false", "--epub-cover-image", str(COVER_PATH), "--css", str(css), "--toc-depth=1", "--split-level=1",
     "--epub-chapter-level=1"
 ], check=True)
 
