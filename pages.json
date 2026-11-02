@@ -1,5 +1,18 @@
 [
   {
+    "title": "Repository Size History",
+    "description": "Daily measurements of the GitHub repository size for The Sunil Abraham Project, with change history and the latest recorded value.",
+    "created": "2026-11-02",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/repository-size/",
+    "source_path": "tsap/repository-size.md"
+  },
+  {
     "title": "Useful Websites",
     "description": "A growing, alphabetically organised list of useful websites and online tools explored for The Sunil Abraham Project (TSAP).",
     "created": "2026-11-01",
