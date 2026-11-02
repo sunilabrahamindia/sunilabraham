@@ -186,6 +186,111 @@ These are editorial production criteria, not fixed templates. The appropriate ch
 These standards are a maintenance framework and quality target. Each item should be checked against the actual output; describing a step here does not mean it has already been completed. The workflow may be refined as testing identifies improvements.
 
 
+
+## Best Practices for International E-book Publishing
+
+This section is a production checklist for the EDRL II EPUB. It records features to consider during the next formatting and quality-assurance pass. Listing a feature here does not mean it has already been implemented or tested. After the layout is stable, decide which items are required, useful, optional or not applicable, and record the result during final QA.
+
+The aim is to follow established, reader-centred publishing and accessibility practices, not to imitate the visual identity of any particular publisher. The EPUB and paperback should share a consistent editorial identity while respecting the different requirements of reflowable electronic text and fixed-layout print.
+
+### 1. Recommended reading order
+
+Use this as the proposed order for the book's front matter and main text:
+
+1. **Front cover image:** included as the EPUB cover and displayed by reading apps. It is not necessarily an ordinary page in the reading order.
+2. **Half-title page:** the book title only.
+3. **Full title page:** full title, author and imprint.
+4. **Copyright and publication details:** confirmed copyright/rights statement, edition, publication details, relevant credits and the ISBN for the specific format.
+5. **Table of contents:** the visible contents page.
+6. **Foreword:** include only if approved and ready for publication by the agreed deadline.
+7. **Editor's note.**
+8. **Main text:** chapters in the confirmed order.
+9. **End matter, if applicable:** references, notes, glossary, index, author/editor biography or other material only when it is needed and verified.
+
+Do not leave placeholders in the published edition. If the foreword is not ready in time, omit it and check that the contents, navigation and page sequence are updated. Avoid duplicate half-title or title pages. The EPUB navigation menu is separate from the visible contents page and must also be checked.
+
+### 2. Navigation and reader convenience
+
+- **Book-level contents:** provide a clickable contents page with clear chapter titles and useful subsection links where appropriate.
+- **EPUB navigation document:** ensure the reading app's navigation menu contains meaningful entries and points to the correct locations.
+- **Start-of-content landmark:** identify where the main text begins so compatible reading systems and assistive technologies can skip the front matter.
+- **Back to Contents:** consider a discreet link at the end of each chapter, rather than adding it after every screen or paragraph.
+- **Previous/Next chapter links:** optional; add them only if they improve sequential reading without cluttering the book.
+- **Internal cross-references:** make references to other chapters, sections, figures, tables or notes clickable where the destination is identifiable.
+- **External references:** make useful URLs clickable and use link text that describes the destination or purpose.
+- **Page list for print correspondence:** consider this only if the EPUB can be mapped reliably to the final paperback or PDF page numbering. Do not invent fixed page numbers for a reflowable EPUB.
+- **Reader controls:** do not recreate functions such as bookmarks, highlights, search or reading progress when these are already provided by reading applications.
+
+### 3. Notes, references and scholarly features
+
+- Preserve every footnote/endnote and its connection to the correct passage.
+- Where the format and build tools permit, provide a working link from each note marker to the note and a return link from the note to the cited passage.
+- Test note numbering, note text, superscript markers and all internal links in the actual EPUB.
+- Preserve the author's citation intent and bibliographic details. Do not silently rewrite or standardise source citations without editorial approval.
+- Keep references and bibliographies consistently formatted, with clickable web addresses where useful.
+- Make internal references to sections, figures and tables functional where practical.
+- Add a glossary, index, list of figures or list of tables only if the content warrants it and the material can be checked. Do not create an automatic index or glossary without verifying its entries and destinations.
+
+### 4. Accessibility and inclusive reading
+
+Use the W3C's EPUB Accessibility guidance as a reference for accessible structure and evaluation. Check the following in the exported file:
+
+- Use semantic, logically nested headings; do not choose heading levels only for their visual appearance or skip levels without a structural reason.
+- Preserve a logical reading order in the EPUB's content and navigation.
+- Keep the EPUB reflowable so readers can adjust text size and use different screen sizes and orientations.
+- Use meaningful alternative text for informative images. Mark purely decorative images so they do not add noise for screen-reader users.
+- Use meaningful link labels that remain understandable when read out of context.
+- Identify the publication's main language in the metadata and mark significant language changes in the text where supported.
+- Keep text and links readable with sufficient contrast; do not use colour alone to convey meaning.
+- Use accessible markup for tables and lists. Check wide tables on small screens and consider a simpler presentation if necessary.
+- Include accurate accessibility metadata only for features the book actually supports. Do not claim formal accessibility conformance unless the relevant evaluation has been completed.
+
+### 5. Typography and reflowable design
+
+- Keep the visual design restrained, consistent and appropriate to a scholarly essay collection.
+- Use a clear hierarchy for book title, chapter titles, section headings, quotations, notes, captions and references.
+- Avoid excessive blank space, unnecessary forced page breaks, accidental blank screens and headings separated awkwardly from the text that follows.
+- Prefer robust block-based CSS for front matter. Test page-break rules across reading systems rather than assuming that two adjacent break declarations always cause a blank page.
+- Avoid relying on viewport-height units or large fixed spacing to position title-page content. Reader window size and font settings vary.
+- Let readers control body text size and, where supported, font family, margins and line spacing. Do not impose a rigid fixed-page layout on a reflowable EPUB.
+- Ensure links are visibly identifiable and styles work with light and dark reading themes.
+- Check paragraphs, block quotations, lists, tables, images, captions, notes and long headings at enlarged text sizes.
+- Use images at appropriate resolution and ensure that they scale within the reading area without overflowing the screen.
+
+### 6. Cover and publication metadata
+
+- Embed a correctly identified front-cover image in the EPUB and verify that it appears in reading-app libraries and when the book opens.
+- Keep the title, author and imprint consistent across the cover, title page and metadata.
+- Check spelling and line breaks at both full size and thumbnail size. Do not rely on generated artwork for exact text; verify all lettering separately.
+- Use the confirmed EPUB ISBN for the EPUB. Do not substitute the paperback ISBN.
+- Keep publication date, language, author, imprint, rights statement and other metadata accurate. Mark unresolved details as pending during production, but resolve or omit them before release.
+- The paperback needs a separate print-ready wraparound cover containing the back cover, spine and front cover. Determine its dimensions and spine width only after the final page count, paper stock, binding method and printer specifications are known. The EPUB does not need a separate back-cover or spine image.
+
+### 7. Technical validation and visual quality assurance
+
+A successful build is necessary but does not by itself prove that an EPUB is publication-ready.
+
+- Validate the finished EPUB with EPUBCheck or an equivalent current validator and resolve relevant errors.
+- Check the EPUB package, metadata, cover declaration, navigation document, content order and internal links.
+- Check for missing or duplicated chapters, malformed XHTML, broken links, missing images and incorrect note targets.
+- Compare the complete extracted manuscript against the selected source essays, including references, quotations, notes and captions.
+- Open the actual EPUB in Readera and Foliate. Check the cover, opening pages, contents, chapter openings, notes and end matter.
+- Test different font sizes and window widths, and check light and dark themes where available.
+- Inspect the PDF separately for page sequence, margins, pagination, headings, tables, notes, image quality and print clipping. EPUB visual checks do not substitute for PDF proofing.
+- Recheck the final files after the last change to content, metadata, CSS or build configuration. Record what was actually tested and any remaining limitations.
+
+### 8. Decision checklist for the final production pass
+
+After the front matter and CSS have been corrected, review each item and decide whether to include it:
+
+- **Required:** correct reading order; one half-title and one title page; accurate publication details and format-specific ISBN; working visible contents and EPUB navigation; all chapters in the correct order; working notes and internal links where present; reflowable text; accessibility-aware structure; validated EPUB; visual checks in Readera and Foliate.
+- **Recommended:** a discreet Back to Contents link at chapter endings; a main-text landmark; meaningful alternative text for informative images; clickable external references; a page list if reliable print-page correspondence is possible.
+- **Optional, depending on the book:** Previous/Next chapter links; glossary; index; list of figures or tables; biographical note; additional end matter.
+- **Print-specific:** final PDF proofing and a print-ready back-cover/spine/front-cover spread prepared to the printer's specifications.
+
+Use this checklist to make explicit decisions during final review. Do not assume that an item is complete simply because it appears in this documentation.
+
+
 ## Workflow storage and artifact retention (internal production note)
 
 The EDRL II workflow may be run repeatedly for testing. A workflow run does not add its generated EPUB, PDF or manuscript to the Git repository unless those files are explicitly committed. Generated files on the temporary GitHub-hosted runner are temporary and are removed when the runner is discarded. Uploaded workflow artifacts are different: they occupy GitHub Actions artifact storage until they expire or are deleted.
