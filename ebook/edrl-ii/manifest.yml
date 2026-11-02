@@ -1,63 +1,68 @@
-# Chronological source manifest. Paths are relative to the repository root.
-# Original publication date, not TSAP page creation date, determines the order.
-# "date_precision" records the precision supported by current bibliographic notes.
+# Sources are selected exclusively from the TSAP category:
+# "Writings not in Essays on Dalits, Religion and Liberation".
+# Original publication dates determine order; year-only dates are marked provisional.
 
 essays:
   - order: 1
-    title: "Indian Religious Heritage and Social Transformation: Change of Perspective within the CISRS"
-    source: "amaa/indian-religious-heritage-social-transformation-full-text.md"
-    publication_date: "1993-03/1993-06"
-    date_precision: "month-range"
-    publication_note: "Religion and Society, Volume XL, Nos. 1 & 2, March–June 1993."
+    title: "The State of Hinduism in 2000 A.D.—Some Emerging Trends"
+    source: "amaa/state-of-hinduism-in-2000-ad.md"
+    publication_date: "1977-04/1977-06"
+    date_precision: "quarter"
+    publication_note: "Indian Journal of Theology, Vol. 26, No. 2, April–June 1977."
 
   - order: 2
-    title: "Christian Dalits in Revolt"
-    source: "amaa/christian-dalits-in-revolt-full-text.md"
-    publication_date: "1993-07"
+    title: "Religion, Spirituality and Aspirations of the People"
+    source: "amaa/religion-spirituality-and-aspirations-of-the-people.md"
+    publication_date: "1978-03"
     date_precision: "month"
-    publication_note: "Jeevadhara, Vol. XXIII, No. 136, July 1993."
+    publication_note: "Religion and Society, Vol. XXV, No. 1, March 1978."
 
   - order: 3
-    title: "Religious Legitimation and Delegitimations of Social Relations of Power (of Caste): The Case of the Dalits in Historical Perspective"
-    source: "amaa/religious-legitimation-delegitimations-social-relations-power-full-text.md"
-    publication_date: "1993-12"
+    title: "The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue"
+    source: "amaa/living-hindu-popular-religious-consciousness.md"
+    publication_date: "1979-03"
     date_precision: "month"
-    publication_note: "Religion and Society, Volume XL, No. 4, December 1993."
+    publication_note: "Religion and Society, Vol. XXVI, No. 1, March 1979, pp. 5–25."
 
   - order: 4
-    title: "The Dalits, Religions and Inter-faith Dialogue"
-    source: "amaa/dalits-religions-inter-faith-dialogue-full-text.md"
-    publication_date: "1994"
-    date_precision: "year"
-    publication_note: "Hindu-Christian Studies Bulletin, 1994."
-    order_within_year: "Provisional: month not stated in the current source record."
+    title: "The Church and the Study of Religion"
+    source: "amaa/the-church-and-the-study-of-religion.md"
+    publication_date: "1981-09"
+    date_precision: "month"
+    publication_note: "Religion and Society, Vol. XXVIII, No. 3, September 1981, pp. 36–41."
 
   - order: 5
-    title: "The Role of Religion in Dalit Liberation: Some Reflections"
-    source: "amaa/role-of-religion-dalit-liberation-full-text.md"
-    publication_date: "1994"
-    date_precision: "year"
-    publication_note: "The Role of the Philosopher Today, edited by Anand Amaladass, S.J., 1994."
-    order_within_year: "Provisional: month not stated in the current source record."
+    title: "Religions and the Aspirations of the People"
+    source: "amaa/religions-and-the-aspirations-of-the-people.md"
+    publication_date: "1983-09/1983-12"
+    date_precision: "quarter"
+    publication_note: "Religion and Society, Vol. XXX, Nos. 3 & 4, September–December 1983, pp. 102–108."
 
   - order: 6
-    title: "A Proposal for the Study of the Religious Heritage of the Dalits: Some Methodological Considerations"
-    source: "amaa/proposal-study-religious-heritage-dalits-full-text.md"
-    publication_date: "1995-03"
+    title: "Religion: A Way of Salvation or an Ideology of Oppression?"
+    source: "amaa/religion-way-salvation-ideology-oppression.md"
+    publication_date: "1985-03"
     date_precision: "month"
-    publication_note: "Religion and Society, Vol. 42, No. 1, March 1995."
+    publication_note: "Religion and Society, Vol. XXXII, No. 1, March 1985."
 
   - order: 7
-    title: "The Religious Factor in Dalit Liberation: Some Reflections"
-    source: "amaa/religious-factor-dalit-liberation-full-text.md"
-    publication_date: "1996"
+    title: "Dalit Theology: A Movement of Counter-Culture"
+    source: "amaa/dalit-theology-movement-counter-culture.md"
+    publication_date: "1988"
     date_precision: "year"
-    publication_note: "Culture Religion and Society: Essays in Honour of Richard W. Taylor, 1996."
-    order_within_year: "Provisional: exact date not established."
+    publication_note: "Paper No. 7, pp. 83–103, in Towards a Dalit Theology (1988)."
+    order_within_year: "Provisional: exact publication date not stated."
 
   - order: 8
-    title: "The Dalit Church's Mission — A Dalit Response"
-    source: "amaa/dalit-church-mission-dalit-response-full-text.md"
-    publication_date: "1996-09"
+    title: "Dalit Liberation — Some Reflections on Their Ideological Predicament"
+    source: "amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md"
+    publication_date: "1988-06"
     date_precision: "month"
-    publication_note: "Indian Missiological Review, Vol. 18, No. 3, September 1996."
+    publication_note: "Religion and Society, Vol. XXXV, No. 2, June 1988, pp. 47–52."
+
+  - order: 9
+    title: "The Ideological Nature of the Emerging Dalit Consciousness"
+    source: "amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md"
+    publication_date: "1990-09"
+    date_precision: "month"
+    publication_note: "Religion and Society, Vol. XXXVII, No. 3, September 1990, pp. 14–23."
