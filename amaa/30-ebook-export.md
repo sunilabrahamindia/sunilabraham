@@ -188,6 +188,22 @@ These standards are a maintenance framework and quality target. Each item should
 
 ## Work Log
 
+### Where to make production changes
+
+Use the file that controls the part of the book being changed:
+
+- **Front-matter wording and order** (half-title, title page, publication details, foreword and editor's note): edit `ebook/edrl-ii/front-matter.md`.
+- **Front-matter styling and interior typography** (alignment, type hierarchy, spacing, paragraph formatting, headings, quotations, notes and links): edit `ebook/edrl-ii/epub.css`. EPUB and PDF may need separate format-specific rules.
+- **Cover artwork**: prepare the approved cover image, then update the cover configuration and build process in `ebook/edrl-ii/metadata.yml` and `ebook/edrl-ii/build.py` as required. Do not treat the cover as complete until the image is supplied and its embedding is verified.
+- **Which essays appear and their order**: edit `ebook/edrl-ii/manifest.yml`.
+- **Essay text or chapter content**: correct the relevant original source page in the repository, or document an approved publication-only change in the build process. Do not silently rewrite an author's source text.
+- **Chapter-opening and chapter-content formatting**: edit `ebook/edrl-ii/epub.css`; if the build script is assembling headings or content incorrectly, edit `ebook/edrl-ii/build.py` as well.
+- **Book title, author, language, publication date and ISBN metadata**: edit `ebook/edrl-ii/metadata.yml`. Front-matter wording displayed to readers may also need a matching edit in `front-matter.md`.
+- **Extraction, conversion, validation or output-file problems**: edit `ebook/edrl-ii/build.py` or `.github/workflows/build-edrl-ii.yml`, depending on whether the issue is in the builder or the automated workflow.
+
+After changing a file, rebuild the EPUB and inspect the actual file in a reading app. A successful build alone does not confirm that the formatting looks right.
+
+
 - **14 October 2026** - Created the e-book export documentation page and recorded the initial aim of producing EPUB and PDF editions from selected TSAP articles while preserving the original website pages.
 - **2 November 2026** - Expanded the production documentation with standards for manuscript consolidation, book structure and navigation, pagination, page breaks, editorial consistency, typography, font selection, cover and interior design, paragraph treatment, notes, references, illustrations, metadata, technical validation and ongoing maintenance.
 - **2 November 2026** - Reviewed the nine full-text essay source files and identified their current source paths in the TSAP repository.
