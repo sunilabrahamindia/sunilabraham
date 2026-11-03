@@ -125,7 +125,7 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 
 ## Web Research and Development {#web-research}
 1. [PublicWWW](https://publicwww.com/), a source-code search engine for discovering websites that contain particular HTML snippets, scripts, widgets or tracking codes. Useful for web research, investigating website implementations and discovering how specific technologies are used across the web.
-2. [Transform](https://transform.tools/), is a free, open-source collection of developer-focused converters for transforming data and code between formats. It can convert JSON into TypeScript types, Go structs, Rust types and Zod schemas, SVG into JSX, CSS into JavaScript objects or Tailwind CSS, and HTML into JSX. Useful for reducing repetitive coding and converting data structures without installing separate tools. Review generated output before using it in production.
+2. [Transform](https://transform.tools/) is a free, open-source collection of developer-focused converters for transforming data and code between formats. It can convert JSON into TypeScript types, Go structs, Rust types and Zod schemas, SVG into JSX, CSS into JavaScript objects or Tailwind CSS, and HTML into JSX. Useful for reducing repetitive coding and converting data structures without installing separate tools. Review generated output before using it in production.
 3. [urlscan.io](https://urlscan.io/), analyses a submitted URL in an automated browser and reports details such as a screenshot, network requests, loaded resources and connected domains. Useful for investigating website behaviour and external connections. Public scans can expose the submitted URL and results, so avoid submitting private or sensitive links.
 
 {% include navbox-tsap.html %}
