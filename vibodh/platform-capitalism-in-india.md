@@ -98,6 +98,5 @@ Rather than treating platforms solely as consumer technologies, the collection c
 
 ## External links
 
-- [Publisher's book page](https://link.springer.com/book/10.1007/978-3-030-44563-8)
+- [Publisher's book page](https://link.springer.com/book/10.1007/978-3-030-44563-8) at Springer
 - [Book DOI](https://doi.org/10.1007/978-3-030-44563-8)
-- [Vibodh Parthasarathi](/vibodh/)
