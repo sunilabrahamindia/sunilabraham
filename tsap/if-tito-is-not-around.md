@@ -9,7 +9,7 @@ created: 2026-11-03
 
 {% include documentation-notice.html %}
 
-Tito Dutta has been a primary reader, working on the project and its planning since its beginning in October 2025.
+Tito Dutta has been the primary editor, working on the project and its planning since its beginning in October 2025.
 
 He created the pages and introduced and implemented various workflows.
 
