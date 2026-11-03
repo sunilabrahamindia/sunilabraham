@@ -5,7 +5,6 @@ categories: ["Vibodh Parthasarathi", "Books"]
 description: A 2020 edited volume examining platform capitalism in India through digital businesses, media industries, labour, politics and culture.
 permalink: /vibodh/platform-capitalism-in-india/
 publication_year: 2020
-page_id: TSAP-1365
 created: 2026-11-04
 ---
 
