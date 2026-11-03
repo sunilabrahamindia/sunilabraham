@@ -33,6 +33,12 @@ The repository and the published website serve different purposes. The repositor
 
 Start with the [TSAP documentation template](/tsap/template/) to explore the project's documentation.
 
+## TSAP Preservation
+
+The [TSAP Preservation](/tsap/preservation/) page documents how the project's content, source files, metadata, and research materials are protected against loss and kept accessible over time. It describes web archiving, repository backups, Software Heritage, offline copies, and mirror infrastructure.
+
+If you need to recover the project or continue maintaining it after an interruption, consult this page to understand which preservation mechanisms exist and what limitations remain. A documented or planned recovery method should not automatically be assumed to have been tested successfully.
+
 ## GitHub Issues and Projects
 
 [GitHub Issues](https://github.com/sunilabrahamindia/sunilabraham/issues) records problems, investigations, maintenance work, documentation tasks, and proposed features. Issues can preserve the problem identified, evidence gathered, possible solutions, tests, decisions, and conclusions.
