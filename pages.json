@@ -1,5 +1,18 @@
 [
   {
+    "title": "If Tito Is Not Around",
+    "description": "A guide to understanding and continuing The Sunil Abraham Project through its repository, website, documentation, and recorded workflows.",
+    "created": "2026-11-03",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/if-tito-is-not-around/",
+    "source_path": "tsap/if-tito-is-not-around.md"
+  },
+  {
     "title": "Repository Size History",
     "description": "Daily measurements of the GitHub repository size for The Sunil Abraham Project, with change history and the latest recorded value.",
     "created": "2026-11-02",
