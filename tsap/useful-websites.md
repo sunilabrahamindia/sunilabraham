@@ -80,6 +80,9 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 
 1. [UnsuckJS](https://unsuckjs.com/), curates lightweight JavaScript and CSS libraries (generally around 10 KB or less) that can enhance ordinary HTML without build tools or compilers. Its comparison table includes compressed file size, licence, latest commit, version and other project details, helping developers assess small libraries before using them.
 
+## Knowledge Management and Learning {#knowledge-management-learning}
+1. [Learn Anything](https://learn-anything.xyz/), helps users explore connections between topics through knowledge maps and curated learning paths. Useful for discovering learning resources, understanding how concepts relate to one another, and navigating unfamiliar subjects. The project is open source.
+
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
