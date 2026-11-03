@@ -39,4 +39,3 @@ jobs:
           name: edrl-ii-editorial-preview
           path: ebook/edrl-ii/output/edrl-ii-preview.epub
           if-no-files-found: error
-          retention-days: 1
