@@ -125,7 +125,8 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 1. [Voyant Tools](https://voyant-tools.org/), a browser-based text analysis environment for exploring a collection of articles, speeches or other documents. It helps reveal word frequencies, recurring phrases, changes in vocabulary and relationships between terms through interactive visualisations. Useful for analysing written material as part of research and documentation.
 
 ## Web Design and UI Components {#web-design-ui-components}
-1. [Uiverse](https://uiverse.io/), a community-built library of reusable interface elements such as buttons, cards, loaders, forms and toggles. Components can be copied in formats including HTML/CSS, Tailwind and React, with Figma support. The site states that its UI elements are released under the MIT License.
+1. [React Bits](https://www.reactbits.dev/), is a library of customisable animated React components, including text effects, interactive elements, backgrounds and micro-interactions. Live previews and reusable code make it useful for exploring interface ideas; components are intended for React projects and may need adaptation for non-React websites.
+2. [Uiverse](https://uiverse.io/), a community-built library of reusable interface elements such as buttons, cards, loaders, forms and toggles. Components can be copied in formats including HTML/CSS, Tailwind and React, with Figma support. The site states that its UI elements are released under the MIT License.
 
 ## Web Research and Development {#web-research}
 1. [Can I Use](https://caniuse.com/), a browser-compatibility reference for checking support for HTML, CSS and JavaScript features across desktop and mobile browsers. Useful for checking whether a feature used in an interactive page is supported by visitors' browsers and whether a fallback may be needed before publishing.
