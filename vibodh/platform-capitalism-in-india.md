@@ -93,8 +93,8 @@ Rather than treating platforms solely as consumer technologies, the collection c
 
 ## References
 
-1. Springer Nature. [*Platform Capitalism in India*](https://link.springer.com/book/10.1007/978-3-030-44563-8). Publisher's book record, including bibliographic details and chapter listings.
-2. International Association for Media and Communication Research. [*Platform Capitalism in India*](https://iamcr.org/publications/iamcr-book-series/athique-parthasarathi-2020). Book listing.
+1. Springer Nature. [*Platform Capitalism in India*](https://link.springer.com/book/10.1007/978-3-030-44563-8). Publisher's book record, including bibliographic details and chapter listings. Accessed 5 November 2026.
+2. International Association for Media and Communication Research. [*Platform Capitalism in India*](https://iamcr.org/publications/iamcr-book-series/athique-parthasarathi-2020). Book listing. Accessed 5 November 2026.
 
 ## External links
 
