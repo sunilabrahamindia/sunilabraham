@@ -5,6 +5,7 @@ description: "A guide to understanding and continuing The Sunil Abraham Project 
 permalink: /tsap/if-tito-is-not-around/
 categories: [TSAP Documentation]
 created: 2026-11-03
+homepage_featured: true
 ---
 
 {% include documentation-notice.html %}
