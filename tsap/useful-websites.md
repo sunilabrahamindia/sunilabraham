@@ -115,8 +115,10 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 5. [Semantic Scholar](https://www.semanticscholar.org/), a free, AI-powered academic search engine for discovering scholarly papers across many research fields. It provides citation links, related-paper recommendations, and available full-text links; paper summaries, alerts and library features are available for supported papers and accounts. Useful for finding and tracing research relevant to internet governance, digital rights and technology policy.
 
 ## Self-Hosting and Open-Source Software {#self-hosting}
-1. [Awesome Selfhosted](https://awesome-selfhosted.net/), a curated directory of free software and web applications that can be hosted on your own servers. Useful for discovering self-hosted alternatives for collaboration, documentation, automation, privacy and digital preservation.
 
+1. [Awesome Selfhosted](https://awesome-selfhosted.net/), a curated directory of free software and web applications that can be hosted on your own servers. Useful for discovering self-hosted alternatives for collaboration, documentation, automation, privacy and digital preservation.
+2. [SelfHostHub](https://selfhosthub.dev/), is a directory for discovering self-hostable software across categories such as communication, development, automation, analytics and file management. Useful for finding tools to run on your own server; check each project's documentation, maintenance status and licence before deploying.
+3. [There's an OS for That](https://theresanosforthat.com/), is a directory for discovering open-source software and alternatives to proprietary services, including self-hosting platforms and server tools. Useful for exploring options before choosing software; verify project activity, licensing and deployment requirements.
 ## System Administration, Networking and Security {#system-administration}
 1. [crt.sh](https://crt.sh/), searches public TLS certificate transparency records. It can help researchers inspect certificate history and discover subdomains associated with a domain.
 2. [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), a curated collection of command-line tools, networking resources, system administration utilities, security references, tutorials and technical guides.
