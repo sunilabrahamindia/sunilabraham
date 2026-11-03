@@ -159,12 +159,58 @@ The finished publication should feel considered, coherent and appropriate to its
 
 These are editorial production criteria, not fixed templates. The appropriate choices depend on the book's subject, source material and format. Any final design should be judged by the actual pages and files, with readability, accuracy and consistency taking precedence over novelty.
 
-### Metadata and publication details
+## Metadata
 
-- Verify the title, subtitle, author/editor/compiler credits, publisher or imprint, language, publication date, edition and other bibliographic fields before release.
-- Include only confirmed identifiers and claims. ISBNs must match the correct format and edition; do not reuse an identifier across different formats.
-- Set and verify EPUB metadata, including the language and publication identifier, and check the PDF's document properties where applicable.
-- Keep the publication details in the file consistent with the hub page and the publication record.
+Maintain separate metadata records for the eBook and print edition. Keep confirmed information accurate, use the correct ISBN for each format, and mark unresolved details as pending. The description below is a working draft and should be reviewed before publication.
+
+### eBook
+
+- **Title:** Essays on Dalits, Religion and Liberation II
+- **Subtitle:** Not applicable
+- **Author:** A. M. Abraham Ayrookuzhiel
+- **Publisher / imprint:** The Sunil Abraham Project
+- **Editor:** Tito Dutta
+- **Language:** English (India), en-IN
+- **Format:** EPUB 3 (reflowable)
+- **Edition:** Editorial preview; final edition statement to be confirmed
+- **Publication date:** 29 November 2026
+- **ISBN:** 978-93-345-1180-2
+- **Copyright holder:** Pending confirmation
+- **Rights statement:** Pending confirmation
+- **Cover image / artwork credit:** Pending confirmation; current cover concept is edrl-ii-v0.2.jpg
+- **Description / abstract:** This collection brings together nine essays by A. M. Abraham Ayrookuzhiel on religion, spirituality, Hindu religious consciousness, interreligious dialogue and the study of religion. It also examines Dalit theology, liberation, counter-culture and the ideological dimensions of emerging Dalit consciousness. Across these themes, the essays consider the relationship between religious belief, social power, oppression and the aspirations of people seeking justice and liberation.
+- **Keywords / subjects:** Dalit theology; religion and society; liberation
+- **Series title and number:** Not assigned. Use this only if the book is formally part of a named series and has a number within it.
+- **Foreword:** Not included in the current preview
+- **Acknowledgements:** Pending confirmation
+- **Website:** https://sunilabraham.in/
+- **Metadata review status:** Pending final verification
+
+### Print book
+
+- **Title:** Essays on Dalits, Religion and Liberation II
+- **Subtitle:** Not applicable
+- **Author:** A. M. Abraham Ayrookuzhiel
+- **Publisher / imprint:** The Sunil Abraham Project
+- **Editor:** Tito Dutta
+- **Language:** English
+- **Format:** Paperback
+- **Edition:** Editorial preview; final edition statement to be confirmed
+- **Publication date:** 29 November 2026
+- **ISBN:** 978-93-345-8524-7
+- **Copyright holder:** Pending confirmation
+- **Rights statement:** Pending confirmation
+- **Trim size (finished book dimensions):** Pending confirmation
+- **Page count:** Pending final typesetting
+- **Cover designer / illustrator credit:** Pending confirmation
+- **Printer / printing location:** Pending
+- **Price:** Pending confirmation
+- **Description / blurb:** Use the eBook description as a starting point; final print-cover wording pending review.
+- **Series title and number:** Not assigned. Use this only if the book is formally part of a named series and has a number within it.
+- **Foreword:** Pending confirmation
+- **Acknowledgements:** Pending confirmation
+- **Website:** https://sunilabraham.in/
+- **Metadata review status:** Pending final verification
 
 ### Technical validation and quality assurance
 
@@ -371,3 +417,4 @@ After changing a file, rebuild the EPUB and inspect the actual file in a reading
 - **3 November 2026 - Entry 25: Workflow storage minimisation.** Documented and applied the internal storage policy: the workflow now uploads only `edrl-ii-preview.epub` as an artifact and retains it for one day (`retention-days: 1`). The PDF and assembled manuscript may still be generated during a run for build checks, but they are not uploaded as retained artifacts. Repeated testing is permitted without accumulating a long-term archive of outputs. Older artifacts created under the previous 30-day policy are not changed retroactively and must be deleted manually if they are no longer needed. Temporary runner files, repository Git storage, workflow logs and uploaded artifacts are distinct.
 
 - **3 November 2026 - Entry 26: Cover integration and front-matter/navigation revision.** The user uploaded the current cover concept to the media repository at `sunilabrahammedia/amaa/edrl-ii-v0.2.jpg`. The EPUB build now retrieves that image from the media repository at build time and passes it to Pandoc as the EPUB cover, avoiding a duplicate committed image in the main repository. The visible book sequence has been revised to: cover, title-only half-title, full title page (title, author and centred `The Sunil Abraham Project` imprint; no subtitle has been supplied), publication information, a book-level contents page, and the nine essays. The unfinished foreword and editor's-note placeholders have been removed from the preview rather than published as empty sections. Essay headings have stable identifiers and each essay includes a `Back to Contents` link. The automatically inserted in-body Pandoc TOC was removed so it does not precede the half-title; EPUB navigation remains to be checked in the generated file. These are source/build changes, not a claim that the EPUB has passed visual QA. Rebuild the preview, verify the cover and sequence in Readera and Foliate, test all contents/return links and run EPUBCheck before approving the next proof.
+- **3 November 2026 - Entry 27: Format-specific publication metadata.** Replaced the previous metadata subsection with a dedicated `## Metadata` section and separate `### eBook` and `### Print book` subsections. Recorded the confirmed title, author, imprint-before-editor credit order, language/format, publication date and format-specific ISBNs; drafted a factual description from the collection's stated subject matter; and marked unresolved rights, credits and print-production details as pending. Added a short explanation of series metadata and trim size so those fields are not mistaken for required invented details.
