@@ -15,7 +15,7 @@ He created the pages and introduced and implemented various workflows.
 
 *What happens if Tito is not available tomorrow?*
 
-How can someone else understand what has been done? "What exactly" has been done? What exactly works, what has failed, how were problems resolved, and what remains to be done?
+How can someone else understand "what exactly" has been done? What exactly works, what has failed, how were problems resolved, and what remains to be done?
 
 This page explains how to reconstruct that knowledge from the project's repository, published website, documentation, GitHub issues, and project boards.
 
