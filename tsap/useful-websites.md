@@ -100,6 +100,9 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
+## Online Tools and Utilities {#online-tools-utilities}
+1. [delphitools](https://delphi.tools/), is a free, open-source collection of browser-based utilities for image editing and conversion, colour and accessibility checks, audio and video processing, PDF preparation, typography, text, QR codes, and developer tasks. The site states that it has no logins, paywalls, tracking, or data collection, and that tools process data locally in the browser. Its source code is released under the permissive 0BSD licence. As with any browser tool, check whether a particular feature needs an internet connection before relying on it offline.
+
 ## Platform Accountability and Content Removal {#platform-accountability}
 1. [Lumen Database](https://lumendatabase.org/), collects and analyses notices and requests to remove online content, including copyright complaints and requests involving defamation, privacy and other legal claims. Its records can help researchers examine how legal demands affect the availability of online material. Coverage depends on notices shared with the database, so it should not be treated as a complete record of all removals.
 2. [Ranking Digital Rights](https://rankingdigitalrights.org/), publishes research assessing technology and telecommunications companies on policies affecting privacy, freedom of expression and governance. Its company comparisons and methodology can support research into platform transparency and corporate accountability.
