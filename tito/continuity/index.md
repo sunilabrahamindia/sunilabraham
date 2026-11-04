@@ -8,9 +8,9 @@ created: 2026-11-03
 homepage_featured: true
 ---
 
-Tito Dutta has been the primary editor, working on the project and its planning since its beginning in October 2025. He created pages and introduced and implemented various workflows.
+This page considers a hypothetical scenario: how could the project be understood and continued if Tito Dutta were unavailable? It is a planning exercise, not a prediction or an indication that such a situation is expected.
 
-This page explains how to maintain continuity of the project by reconstructing what has been done, what works, what has failed, how problems were resolved, and what remains to be done. It brings together the main sources of knowledge: the project repository, published website, documentation, GitHub issues, and project boards.
+Tito has been the project's primary editor and has worked on its planning since it began in October 2025. He has created pages and introduced and implemented various workflows. This guide brings together the main sources of knowledge needed to understand what has been done, what works, what has failed, how problems were resolved, and what remains unfinished: the project repository, published website, documentation, GitHub issues, and project boards.
 
 ## Explore the repository and website
 
