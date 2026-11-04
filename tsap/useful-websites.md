@@ -117,6 +117,9 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 4. [PolicyArchive](https://www.policyarchive.org/), a searchable archive of public policy research and reports from policy organisations and research institutions. Useful for discovering policy-focused publications beyond academic journals, including reports that can inform research on digital rights, internet governance and public policy.
 5. [Semantic Scholar](https://www.semanticscholar.org/), a free, AI-powered academic search engine for discovering scholarly papers across many research fields. It provides citation links, related-paper recommendations, and available full-text links; paper summaries, alerts and library features are available for supported papers and accounts. Useful for finding and tracing research relevant to internet governance, digital rights and technology policy.
 
+## Science Education and Simulations {#science-education-simulations}
+1. [JavaLab](https://javalab.org/en/), offers free, interactive, browser-based science simulations covering physics, chemistry, astronomy, Earth science, biology and mathematics. The simulations run on desktop and mobile devices without requiring membership, making the site useful for visualising scientific concepts and exploring virtual experiments. Check individual simulations for their assumptions and limitations before using them for formal teaching or research.
+
 ## Self-Hosting and Open-Source Software {#self-hosting}
 
 1. [Awesome Selfhosted](https://awesome-selfhosted.net/), a curated directory of free software and web applications that can be hosted on your own servers. Useful for discovering self-hosted alternatives for collaboration, documentation, automation, privacy and digital preservation.
