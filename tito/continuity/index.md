@@ -1,22 +1,16 @@
 ---
 layout: default
-title: "If Tito Is Not Around"
-description: "A guide to understanding and continuing The Sunil Abraham Project through its repository, website, documentation, and recorded workflows."
-permalink: /tito/if-tito-is-not-around/
+title: "Continuity"
+description: "A practical guide to maintaining continuity of The Sunil Abraham Project by finding its records, understanding its workflows, and identifying unfinished work."
+permalink: /tito/continuity/
 categories: [Tito Dutta]
 created: 2026-11-03
 homepage_featured: true
 ---
 
-Tito Dutta has been the primary editor, working on the project and its planning since its beginning in October 2025.
+Tito Dutta has been the primary editor, working on the project and its planning since its beginning in October 2025. He created pages and introduced and implemented various workflows.
 
-He created the pages and introduced and implemented various workflows.
-
-*What happens if Tito is not available tomorrow?*
-
-How can someone else understand "what exactly" has been done? What exactly works, what has failed, how were problems resolved, and what remains to be done?
-
-This page explains how to reconstruct that knowledge from the project's repository, published website, documentation, GitHub issues, and project boards.
+This page explains how to maintain continuity of the project by reconstructing what has been done, what works, what has failed, how problems were resolved, and what remains to be done. It brings together the main sources of knowledge: the project repository, published website, documentation, GitHub issues, and project boards.
 
 ## Explore the repository and website
 
