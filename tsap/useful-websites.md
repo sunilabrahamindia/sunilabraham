@@ -13,9 +13,41 @@ homepage_featured: true
 
 The **Useful Websites** page is a growing list of websites and online tools that we explore for their potential usefulness in the work of The Sunil Abraham Project (TSAP). These resources may support research, website development, coding, digital preservation, cybersecurity, automation, data analysis, and other project activities.
 
-The list focuses primarily on specialised tools and lesser-known websites that offer practical benefits for TSAP. We have deliberately excluded many popular and commonly known websites, as the aim is to discover and document resources that may otherwise go unnoticed.
+The list focuses primarily on specialised tools, useful directories and websites that may be less familiar to our readers, with practical benefits for TSAP. We have deliberately excluded many widely known general-purpose websites, as the aim is to discover and document resources that may otherwise go unnoticed.
 
 Sections and entries within each section are arranged alphabetically.
+
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>24 categories</strong><span aria-hidden="true"> · </span><strong>82 resources</strong></div>
+
+<nav class="useful-websites-index" aria-label="Useful websites section index">
+  <p class="useful-websites-index-title">Browse by topic</p>
+  <ul>
+    <li><a href="#artificial-intelligence">Artificial Intelligence</a></li>
+    <li><a href="#data-protection">Data Protection and Privacy Law</a></li>
+    <li><a href="#data-repositories">Data Repositories and Dataset Discovery</a></li>
+    <li><a href="#digital-accessibility">Digital Accessibility Research and Tools</a></li>
+    <li><a href="#digital-rights-law">Digital Rights and Internet Law</a></li>
+    <li><a href="#github">GitHub and Repository Tools</a></li>
+    <li><a href="#images-and-mapping">Images and Mapping</a></li>
+    <li><a href="#internet-governance">Internet Governance and Policy</a></li>
+    <li><a href="#internet-measurement">Internet Measurement and Infrastructure</a></li>
+    <li><a href="#shutdowns-censorship">Internet Shutdowns and Censorship</a></li>
+    <li><a href="#javascript-libraries">JavaScript Libraries and Tools</a></li>
+    <li><a href="#knowledge-management-learning">Knowledge Management and Learning</a></li>
+    <li><a href="#online-code-editors">Online Code Editors and Compilers</a></li>
+    <li><a href="#online-tools-utilities">Online Tools and Utilities</a></li>
+    <li><a href="#open-educational-resources">Open Educational Resources</a></li>
+    <li><a href="#platform-accountability">Platform Accountability and Content Removal</a></li>
+    <li><a href="#python">Python Development Resources</a></li>
+    <li><a href="#research-publications">Research Papers and Policy Publications</a></li>
+    <li><a href="#science-education-simulations">Science Education and Simulations</a></li>
+    <li><a href="#self-hosting">Self-Hosting and Open-Source Software</a></li>
+    <li><a href="#system-administration">System Administration, Networking and Security</a></li>
+    <li><a href="#text-analysis">Text Analysis and Research</a></li>
+    <li><a href="#web-design-ui-components">Web Design and UI Components</a></li>
+    <li><a href="#web-research">Web Research and Development</a></li>
+  </ul>
+</nav>
 
 Inclusion in this list does not imply endorsement or regular use. Websites may be added as we discover, explore, and evaluate them. The list will evolve over time, and resources may be removed if they are no longer useful or relevant.
 
@@ -25,7 +57,6 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 3. [ArtificialWatch](https://artificialwatch.com/), tracks AI model releases and provides structured information about availability, release announcements and API pricing. Its release log can help distinguish API availability from an official announcement, while its data feeds support ongoing monitoring.
 4. [Onei AI](https://onei.ai/), provides a searchable directory of AI apps, agent skills and Model Context Protocol (MCP) servers. Its categories and filters help discover AI tools and integrations, including resources for coding agents and assistants.
 5. [Toolify.ai](https://www.toolify.ai/), is a searchable directory of AI tools and services, organised by categories such as writing, image generation, video, coding, productivity and research. Useful for discovering specialised tools that may otherwise be difficult to find. Its listings and popularity rankings are not independent quality assessments, and some placements are paid; verify each tool's pricing, privacy practices and capabilities on its official website.
-6. [TutorAI](https://tutorai.me/), generates personalised courses on topics chosen by the learner, with structured lessons, quizzes, study materials and AI-assisted homework help. It can be useful for exploring unfamiliar subjects through a guided learning path. TutorAI is not completely free: it offers a limited free tier alongside paid subscription plans. Verify AI-generated explanations against reliable sources, as lessons and answers may contain errors.
 
 ## Data Protection and Privacy Law {#data-protection}
 1. [Centre for Applied Data Protection](https://cadp.in/), an India-focused research centre working on data protection law and policy, privacy jurisprudence and implementation of the Digital Personal Data Protection Act. Explore its publications and research outputs for legal and policy analysis.
@@ -84,6 +115,8 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 1. [UnsuckJS](https://unsuckjs.com/), curates lightweight JavaScript and CSS libraries (generally around 10 KB or less) that can enhance ordinary HTML without build tools or compilers. Its comparison table includes compressed file size, licence, latest commit, version and other project details, helping developers assess small libraries before using them.
 
 ## Knowledge Management and Learning {#knowledge-management-learning}
+
+Platforms, directories and tools that support structured learning, independent study, knowledge discovery, skill development and the organisation of learning resources.
 1. [AIStudyTools](https://www.aistudytools.com/), offers self-paced courses with lessons, explanatory notes, worked examples, interactive learning tools and final assessments. Its topics include statistics, prompt engineering, product management, HR analytics, building AI agents and coding for non-coders. The platform advertises its listed courses as free and offers certificates after passing the final test; check the course page for current terms.
 2. [AITeky Learn](https://learn.aiteky.com/), brings together a large catalogue of learning resources from universities, companies and other providers, alongside structured skill packs, job-role learning paths and a directory of courses advertised with free certificates. It covers AI, machine learning, programming, data, cloud, cybersecurity and other technical subjects. Many resources and listed certificates are free, but some lessons require an account or programme access, and the site also offers paid training; check the original provider's conditions before enrolling or relying on a certificate.
 3. [Belinkee](https://www.belinkee.com/), offers career-based learning roadmaps and a catalogue of courses covering topics such as programming, AI, cybersecurity, databases and infrastructure. Its roadmaps connect stages of learning with lessons and courses; check which materials are free and which require payment.
@@ -96,7 +129,8 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 10. [OpenSemester](https://opensemester.github.io/), is an open-source initiative focused on undergraduate engineering and computer science learning, bringing together structured study modules, academic resources and capstone projects. It is more specialised than general-purpose learning directories.
 11. [roadmap.sh](https://roadmap.sh/), provides community-curated, interactive roadmaps, study plans and learning resources for technology skills and careers. Topics include programming, web development, Python, AI, cybersecurity, DevOps, data science and system design. Each roadmap helps learners identify relevant skills, understand their learning sequence and explore linked resources. Useful for planning structured learning paths and identifying skills to develop.
 12. [SkillVeris](https://www.skillveris.com/), offers structured technology courses and career learning paths across AI and machine learning, programming, web development, cloud, DevOps, security and databases. Its 24/7 AI tutor (called AI Mentor) answers learners' questions, while assessments, coding practice and study notes support self-paced learning. The platform states that its courses, AI tutor and certificates are free, with no subscription or paywall; verify certificate recognition independently before relying on it for formal credentials.
-13. [YUVA AI for ALL](https://www.futureskillsprime.in/course/yuva-ai-for-all/), is a free, self-paced introductory AI course launched by India's Ministry of Electronics and Information Technology under the IndiaAI Mission. The 4.5-hour course introduces AI concepts, real-world applications and responsible AI use through six modules. Learners who complete it receive an official Government of India certificate. Check the course page for enrolment and completion details.
+13. [TutorAI](https://tutorai.me/), generates personalised courses on topics chosen by the learner, with structured lessons, quizzes, study materials and AI-assisted homework help. It can be useful for exploring unfamiliar subjects through a guided learning path. TutorAI is not completely free: it offers a limited free tier alongside paid subscription plans. Verify AI-generated explanations against reliable sources, as lessons and answers may contain errors.
+14. [YUVA AI for ALL](https://www.futureskillsprime.in/course/yuva-ai-for-all/), is a free, self-paced introductory AI course launched by India's Ministry of Electronics and Information Technology under the IndiaAI Mission. The 4.5-hour course introduces AI concepts, real-world applications and responsible AI use through six modules. Learners who complete it receive an official Government of India certificate. Check the course page for enrolment and completion details.
 
 ## Online Code Editors and Compilers {#online-code-editors}
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
@@ -151,5 +185,97 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 5. [Transform](https://transform.tools/) is a free, open-source collection of developer-focused converters for transforming data and code between formats. It can convert JSON into TypeScript types, Go structs, Rust types and Zod schemas, SVG into JSX, CSS into JavaScript objects or Tailwind CSS, and HTML into JSX. Useful for reducing repetitive coding and converting data structures without installing separate tools. Review generated output before using it in production.
 6. [urlscan.io](https://urlscan.io/), analyses a submitted URL in an automated browser and reports details such as a screenshot, network requests, loaded resources and connected domains. Useful for investigating website behaviour and external connections. Public scans can expose the submitted URL and results, so avoid submitting private or sensitive links.
 
-
 {% include navbox-tsap.html %}
+
+
+<style>
+/* Useful Websites: responsive section index and directory spacing */
+.useful-websites-summary {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0.35rem 0 1.1rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--border-sub, #d8dee4);
+  border-radius: 4px;
+  color: var(--text-main, #1a1a1a);
+  background: var(--bg-surface, #fff);
+  font-size: 0.95rem;
+}
+.useful-websites-index {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 1.8rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border-sub, #d8dee4);
+  border-left: 4px solid var(--link-color, #005cc5);
+  border-radius: 4px;
+  background: var(--bg-surface, #fff);
+  color: var(--text-main, #1a1a1a);
+}
+.useful-websites-index-title {
+  margin: 0 0 0.55rem;
+  color: var(--text-heading, #0a2e57);
+  font-weight: 600;
+}
+.useful-websites-index ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  gap: 0.25rem 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.useful-websites-index li {
+  min-width: 0;
+  margin: 0;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+.useful-websites-index a {
+  color: var(--link-color, #005cc5);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+.useful-websites-index a:hover,
+.useful-websites-index a:focus-visible {
+  color: var(--link-hover, #0366d6);
+}
+.useful-websites-index a:focus-visible {
+  outline: 3px solid var(--link-hover, #0366d6);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+#knowledge-management-learning + p {
+  margin-top: -0.35rem;
+  color: var(--text-muted, #555);
+}
+.useful-websites-index a,
+.useful-websites-index li {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+  .useful-websites-index { padding: 0.8rem; }
+  .useful-websites-index ul {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.35rem;
+  }
+  .useful-websites-summary {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .useful-websites-index a { transition: none; }
+}
+@media print {
+  .useful-websites-index {
+    border: 1px solid #999;
+    background: #fff;
+    color: #000;
+  }
+  .useful-websites-index a { color: #000; }
+}
+</style>
