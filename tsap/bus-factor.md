@@ -17,5 +17,13 @@ This documentation and experimental tool present a series of scenarios and quest
 This page is currently in an experimental stage and may change as the concept and interface are further developed.
 
 
+## If Tito Is Not Around
+
+{% include main-article.html
+   title="If Tito Is Not Around"
+   link="/tito/continuity/"
+%}
+
+This guide explains how to reconstruct the project's work, workflows, decisions, fixes, and outstanding tasks by examining the GitHub repository, published website, documentation, issues, and project boards. It also explains how an LLM can help navigate these records when direct access is available.
 
 {% include navbox-tsap.html %}
