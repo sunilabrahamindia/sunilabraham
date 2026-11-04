@@ -17,10 +17,10 @@ This documentation and experimental tool present a series of scenarios and quest
 This page is currently in an experimental stage and may change as the concept and interface are further developed.
 
 
-## If Tito Is Not Around
+## Continuity
 
 {% include main-article.html
-   title="If Tito Is Not Around"
+   title="Continuity"
    link="/tito/continuity/"
 %}
 
