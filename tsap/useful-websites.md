@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>24 categories</strong><span aria-hidden="true"> · </span><strong>82 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>24 categories</strong><span aria-hidden="true"> · </span><strong>83 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -174,7 +174,8 @@ Platforms, directories and tools that support structured learning, independent s
 
 ## Web Design and UI Components {#web-design-ui-components}
 1. [React Bits](https://www.reactbits.dev/), is a library of customisable animated React components, including text effects, interactive elements, backgrounds and micro-interactions. Live previews and reusable code make it useful for exploring interface ideas; components are intended for React projects and may need adaptation for non-React websites.
-2. [Uiverse](https://uiverse.io/), a community-built library of reusable interface elements such as buttons, cards, loaders, forms and toggles. Components can be copied in formats including HTML/CSS, Tailwind and React, with Figma support. The site states that its UI elements are released under the MIT License.
+2. [Space Type Generator](https://spacetypegenerator.com/), is a browser-based kinetic typography tool that transforms user-provided text into animated, three-dimensional typographic compositions. It offers multiple experimental styles, including Cylinder, Field, Stripes, Coil, Flag, Ribbon and Cascade, with controls for adjusting the appearance and movement of text. Useful for exploring creative typography, developing visual concepts and producing animated text for digital projects. Export options vary by version, so check the available features before using it in a production workflow.
+3. [Uiverse](https://uiverse.io/), a community-built library of reusable interface elements such as buttons, cards, loaders, forms and toggles. Components can be copied in formats including HTML/CSS, Tailwind and React, with Figma support. The site states that its UI elements are released under the MIT License.
 
 ## Web Research and Development {#web-research}
 
