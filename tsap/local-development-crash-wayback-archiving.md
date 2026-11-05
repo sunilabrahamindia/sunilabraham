@@ -36,7 +36,7 @@ The browser action was initiated through the website's JavaScript quick link for
 
 ## How the Archiver Was Designed to Operate
 
-The script source and its accompanying TSAP documentation were reviewed while preparing this incident record. This matters because the script's intended behaviour helps distinguish its normal read-only access to the repository from the separate runtime files it maintains.
+The script source and its accompanying TSAP documentation were reviewed while preparing this incident record. This matters because the script's intended behaviour helps distinguish its normal read-only access to the repository from the separate runtime files it maintains. For the utility's general design and normal operating procedure, see the [Wayback Machine Random Archiver documentation](/tsap/wayback-machine-random-archiver-documentation/).
 
 The script is configured to use the local repository at:
 
