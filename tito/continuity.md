@@ -5,7 +5,6 @@ description: "A practical guide to maintaining continuity of The Sunil Abraham P
 permalink: /tito/continuity/
 categories: [Tito Dutta]
 created: 2026-11-03
-homepage_featured: true
 ---
 
 Tito has been the project's primary editor and has worked on its planning since it began in October 2025. He has created pages and introduced and implemented various workflows. This guide brings together the main sources of knowledge needed to understand what has been done, what works, what has failed, how problems were resolved, and what remains unfinished: the project repository, published website, documentation, GitHub issues, and project boards.
