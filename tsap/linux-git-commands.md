@@ -186,6 +186,54 @@ git diff | wc -c
 
 This command reports the size, in bytes, of the textual Git diff for the current working tree. It measures the size of the patch rather than the actual amount of repository storage that will be consumed after Git compression, but it provides a useful indication of the relative size of uncommitted changes.
 
+## Synchronise the Local Repository with GitHub
+
+Use Git to bring the latest commits from GitHub into the local repository. Before synchronising, it is good practice to check the working tree:
+
+```bash
+git status
+```
+
+### Use Fast-Forward-Only Pulling
+
+For routine updates, the following command allows Git to update the local branch only when it can do so by moving it forward to the remote commit:
+
+```bash
+git pull --ff-only
+```
+
+A fast-forward update does not create a merge commit. If the local and remote branches have diverged, Git stops instead of creating a merge automatically. This gives an opportunity to inspect the situation and decide how to reconcile the changes.
+
+The shorter command `git pull` can also perform a merge when branches have diverged, depending on the Git configuration. The `--ff-only` option prevents that automatic merge for that pull.
+
+### Make Fast-Forward-Only the Default
+
+To avoid typing `--ff-only` every time, configure Git to use this behaviour by default:
+
+```bash
+git config --global pull.ff only
+```
+
+After setting this preference, the usual command is sufficient:
+
+```bash
+git pull
+```
+
+Git will apply fast-forward-only behaviour to pulls across repositories for the current Linux user. The setting can be checked with:
+
+```bash
+git config --global --get pull.ff
+```
+
+The expected output is:
+
+```text
+only
+```
+
+If a pull stops because the branches have diverged, do not force the update or reset the local branch. Inspect the local and remote commits first, then choose an appropriate way to reconcile them.
+
 ## Inspect What a Specific Commit Changed
 
 These commands show what changed in a particular Git commit. They are useful for investigating unexpectedly large commits, identifying affected files, and determining how many lines were added or removed.
