@@ -4,6 +4,7 @@ title: "Local Development Environment Crash During Wayback Archiving (5 November
 description: "Record of the local development environment crash during a TSAP Wayback Machine archiving session, the repository checks performed afterwards, and the findings that remain unconfirmed."
 categories: [TSAP Documentation, TSAP Incidents]
 permalink: /tsap/local-development-crash-wayback-archiving/
+page_id: TSAP-1372
 created: 2026-11-05
 ---
 
