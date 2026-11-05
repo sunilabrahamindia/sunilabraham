@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>24 categories</strong><span aria-hidden="true"> · </span><strong>83 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>24 categories</strong><span aria-hidden="true"> · </span><strong>91 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -76,6 +76,17 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 2. [Digital Constitutionalism Network](https://digitalconstitutionalism.org/), maintains a research database of declarations, bills of rights, charters and laws addressing internet-related rights and principles of digital governance. Useful for tracing how digital rights are articulated in legal and policy frameworks.
 3. [Global Network Initiative - Country Legal Frameworks Resource](https://clfr.globalnetworkinitiative.org/), provides country-level information on legal frameworks governing communications surveillance, access to communications data and online content restrictions. Useful for research into privacy, freedom of expression and government powers over digital communications.
 4. [World Intermediary Liability Map (WILMap)](https://wilmap.stanford.edu/), documents laws, court decisions and policy developments relating to online intermediaries around the world. Useful for comparative research into platform liability, content moderation and freedom of expression.
+
+## Electronics, Gadget Design and Product Prototyping {#electronics-gadget-design}
+
+1. [Adafruit Learning System](https://learn.adafruit.com/), offers practical tutorials for building electronic devices using components such as sensors, displays and microcontrollers. Its projects cover connected devices, wearables, robotics and computer-related accessories, with circuit diagrams, instructions and code.
+2. [Hackaday](https://hackaday.com/), publishes inventive hardware projects, experiments and engineering ideas. Its coverage includes custom keyboards, portable computers, electronic instruments, controllers and other unusual gadgets. Useful for discovering approaches to hardware design and learning from makers' experiments.
+3. [Hackster.io](https://www.hackster.io/), is a community platform where hardware developers share projects with instructions, circuit diagrams, source code and component lists. Its projects cover the Internet of Things, robotics, wearables, embedded systems and connected devices.
+4. [iFixit](https://www.ifixit.com/), publishes repair guides and device teardowns for phones, laptops, computers, tablets and other electronics. It helps readers understand how existing gadgets are assembled, what components they contain and how their internal structures fit together.
+5. [Instructables - Circuits](https://www.instructables.com/circuits/), features step-by-step electronics projects shared by makers. Its examples include small gadgets, sensors, controllers, computer accessories and practical household devices, showing how an idea can be turned into a physical prototype.
+6. [KiCad](https://www.kicad.org/), is an open-source electronic design automation suite for creating circuit diagrams and printed circuit board (PCB) layouts. It can support the development of custom circuit boards for prototypes such as USB accessories, controllers and other small electronic devices.
+7. [SparkFun Learn](https://learn.sparkfun.com/), provides tutorials explaining electronic components, circuits, soldering, sensors, GPS, accelerometers, gyroscopes and microcontrollers. Useful for understanding how individual components work and how to connect them into a functioning device.
+8. [Wokwi](https://wokwi.com/), is an online electronics simulator for experimenting with microcontroller boards such as Arduino and ESP32, connecting virtual components and testing code. It is useful for exploring and testing electronic concepts before purchasing physical components.
 
 ## GitHub and Repository Tools {#github}
 1. [ExplainGitHub](https://explaingithub.com/), provides an AI-powered workspace for understanding a repository through code-aware questions, onboarding reports, and architecture exploration. [Open the TSAP repository in ExplainGitHub](https://explaingithub.com/sunilabrahamindia/sunilabraham).
