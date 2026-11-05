@@ -140,7 +140,8 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 
 ## JavaScript Libraries and Tools {#javascript-libraries}
 
-1. [UnsuckJS](https://unsuckjs.com/), curates lightweight JavaScript and CSS libraries (generally around 10 KB or less) that can enhance ordinary HTML without build tools or compilers. Its comparison table includes compressed file size, licence, latest commit, version and other project details, helping developers assess small libraries before using them.
+1. [Anime.js](https://animejs.com/), is a lightweight, open-source JavaScript animation library for creating animations on webpages. It supports CSS properties, HTML elements, SVG graphics and JavaScript objects, with features including animation timelines, scroll-triggered effects, draggable interactions, motion paths and SVG shape morphing. Useful for developing interactive interfaces, animated diagrams, visual effects and engaging web experiences. Released under the MIT License.
+2. [UnsuckJS](https://unsuckjs.com/), curates lightweight JavaScript and CSS libraries (generally around 10 KB or less) that can enhance ordinary HTML without build tools or compilers. Its comparison table includes compressed file size, licence, latest commit, version and other project details, helping developers assess small libraries before using them.
 
 ## Knowledge Management and Learning {#knowledge-management-learning}
 
