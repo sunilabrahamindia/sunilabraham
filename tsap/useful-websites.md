@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>24 categories</strong><span aria-hidden="true"> · </span><strong>91 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>102 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -27,10 +27,13 @@ Sections and entries within each section are arranged alphabetically.
     <li><a href="#data-repositories">Data Repositories and Dataset Discovery</a></li>
     <li><a href="#digital-accessibility">Digital Accessibility Research and Tools</a></li>
     <li><a href="#digital-rights-law">Digital Rights and Internet Law</a></li>
+    <li><a href="#electronics-gadget-design">Electronics, Gadget Design and Product Prototyping</a></li>
+    <li><a href="#entrepreneurship-startups">Entrepreneurship, Startups and Product Development</a></li>
     <li><a href="#github">GitHub and Repository Tools</a></li>
     <li><a href="#images-and-mapping">Images and Mapping</a></li>
     <li><a href="#internet-governance">Internet Governance and Policy</a></li>
     <li><a href="#internet-measurement">Internet Measurement and Infrastructure</a></li>
+    <li><a href="#iot-connected-devices">Internet of Things (IoT) and Connected Devices</a></li>
     <li><a href="#shutdowns-censorship">Internet Shutdowns and Censorship</a></li>
     <li><a href="#javascript-libraries">JavaScript Libraries and Tools</a></li>
     <li><a href="#knowledge-management-learning">Knowledge Management and Learning</a></li>
@@ -38,6 +41,7 @@ Sections and entries within each section are arranged alphabetically.
     <li><a href="#online-tools-utilities">Online Tools and Utilities</a></li>
     <li><a href="#open-educational-resources">Open Educational Resources</a></li>
     <li><a href="#platform-accountability">Platform Accountability and Content Removal</a></li>
+    <li><a href="#product-design-cad-manufacturing">Product Design, CAD and Manufacturing</a></li>
     <li><a href="#python">Python Development Resources</a></li>
     <li><a href="#research-publications">Research Papers and Policy Publications</a></li>
     <li><a href="#science-education-simulations">Science Education and Simulations</a></li>
@@ -88,6 +92,12 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 7. [SparkFun Learn](https://learn.sparkfun.com/), provides tutorials explaining electronic components, circuits, soldering, sensors, GPS, accelerometers, gyroscopes and microcontrollers. Useful for understanding how individual components work and how to connect them into a functioning device.
 8. [Wokwi](https://wokwi.com/), is an online electronics simulator for experimenting with microcontroller boards such as Arduino and ESP32, connecting virtual components and testing code. It is useful for exploring and testing electronic concepts before purchasing physical components.
 
+## Entrepreneurship, Startups and Product Development {#entrepreneurship-startups}
+
+1. [Startup India](https://www.startupindia.gov.in/), is the Government of India's initiative supporting the startup ecosystem. Its portal brings together information on startup recognition, government schemes, incubators, mentorship, funding opportunities and programmes for entrepreneurs. Particularly relevant for understanding the support available to India-based founders; check the current eligibility criteria and scheme conditions.
+2. [Strategyzer](https://www.strategyzer.com/), provides tools and learning resources for business model design, customer understanding and value proposition development. Its Business Model Canvas and Value Proposition Canvas can help founders examine who a product serves, what problem it addresses, how it creates value and how the business might generate revenue. Some courses and services are paid.
+3. [Y Combinator Startup School](https://www.startupschool.org/), offers free online startup education covering idea validation, talking to users, building an initial product, finding co-founders and developing a startup. Useful for learning the fundamentals of turning an idea into an early-stage business; its advice is general and should be adapted to the local market and regulatory context.
+
 ## GitHub and Repository Tools {#github}
 1. [ExplainGitHub](https://explaingithub.com/), provides an AI-powered workspace for understanding a repository through code-aware questions, onboarding reports, and architecture exploration. [Open the TSAP repository in ExplainGitHub](https://explaingithub.com/sunilabrahamindia/sunilabraham).
 2. [GitDiagram](https://gitdiagram.com/), generates an interactive architecture diagram of a GitHub repository. [View the TSAP repository diagram](https://gitdiagram.com/sunilabrahamindia/sunilabraham).
@@ -116,6 +126,13 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 3. [IODA - Internet Outage Detection and Analysis](https://ioda.inetintel.cc.gatech.edu/), combines network signals to help detect and investigate large-scale internet connectivity disruptions. Historical views can support research into outages and possible shutdown events; the measurements need to be interpreted alongside other evidence.
 4. [ip-as.net Research](https://ip-as.net/research/), provides research datasets on internet infrastructure and security, including hosting, DNS, email security, IPv6, route security and phishing listings. Its datasets may be useful for technical and policy research; check the publication date and licence for the specific dataset before reuse.
 5. [RIPEstat](https://stat.ripe.net/), provides data about IP addresses, autonomous systems, routing and internet number resources. Useful for investigating network relationships, routing history and aspects of internet infrastructure.
+
+## Internet of Things (IoT) and Connected Devices {#iot-connected-devices}
+
+1. [Arduino Project Hub](https://projecthub.arduino.cc/), is a community collection of projects built with Arduino boards and related components. Projects demonstrate how to combine sensors, displays, motors and wireless connections to create interactive and connected devices. Useful for studying working examples and adapting them for prototypes.
+2. [AWS IoT Tutorials](https://docs.aws.amazon.com/iot/latest/developerguide/iot-tutorials.html), provides technical tutorials for connecting devices to cloud services, exchanging data and building connected-device applications using AWS IoT. Useful for understanding the cloud side of an IoT product, although some services may incur charges when used beyond free allowances.
+3. [Node-RED](https://nodered.org/), is a flow-based, visual programming tool for wiring together hardware devices, APIs and online services. It can be used to prototype IoT workflows, dashboards and automations, and is particularly useful for connecting device data with other systems.
+4. [PlatformIO](https://platformio.org/), provides a development platform and ecosystem for programming embedded devices and microcontrollers, including boards used with Arduino and ESP32 projects. It supports a more structured development workflow as a prototype grows beyond simple experiments.
 
 ## Internet Shutdowns and Censorship {#shutdowns-censorship}
 1. [Internet Shutdowns Tracker](https://internetshutdowns.in/india-shutdowns/), documents internet shutdowns in India, with event information that can be examined by location and time. Useful for research into connectivity restrictions and their policy implications; check the linked sources and methodology when citing individual events.
@@ -155,6 +172,13 @@ Platforms, directories and tools that support structured learning, independent s
 ## Platform Accountability and Content Removal {#platform-accountability}
 1. [Lumen Database](https://lumendatabase.org/), collects and analyses notices and requests to remove online content, including copyright complaints and requests involving defamation, privacy and other legal claims. Its records can help researchers examine how legal demands affect the availability of online material. Coverage depends on notices shared with the database, so it should not be treated as a complete record of all removals.
 2. [Ranking Digital Rights](https://rankingdigitalrights.org/), publishes research assessing technology and telecommunications companies on policies affecting privacy, freedom of expression and governance. Its company comparisons and methodology can support research into platform transparency and corporate accountability.
+
+## Product Design, CAD and Manufacturing {#product-design-cad-manufacturing}
+
+1. [Fictiv](https://www.fictiv.com/), provides digital manufacturing services and engineering resources covering processes such as CNC machining, injection moulding, 3D printing and sheet-metal fabrication. Its design and manufacturing guides can help product developers understand production methods, design considerations and the transition from prototype to manufactured parts. Manufacturing services are commercial.
+2. [FreeCAD](https://www.freecad.org/), is a free, open-source parametric 3D computer-aided design (CAD) application. It can be used to create and modify mechanical parts, enclosures, brackets and other physical components for prototypes and products.
+3. [GrabCAD](https://grabcad.com/), is a community platform for mechanical engineers and product designers, with a library of downloadable 3D CAD models and engineering discussions. Models can help with learning and early design exploration, but check each file's licence, accuracy and suitability before reusing it in a product.
+4. [Onshape Learning Center](https://learn.onshape.com/), provides courses and tutorials for Onshape, a cloud-based 3D CAD and product development platform. Its learning materials cover part design, assemblies, drawings and collaborative workflows. Onshape offers different plans and access conditions, so check the current terms before choosing it for a project.
 
 ## Python Development Resources {#python}
 1. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
