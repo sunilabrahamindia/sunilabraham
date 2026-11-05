@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>102 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>104 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -99,14 +99,15 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 3. [Y Combinator Startup School](https://www.startupschool.org/), offers free online startup education covering idea validation, talking to users, building an initial product, finding co-founders and developing a startup. Useful for learning the fundamentals of turning an idea into an early-stage business; its advice is general and should be adapted to the local market and regulatory context.
 
 ## GitHub and Repository Tools {#github}
-1. [ExplainGitHub](https://explaingithub.com/), provides an AI-powered workspace for understanding a repository through code-aware questions, onboarding reports, and architecture exploration. [Open the TSAP repository in ExplainGitHub](https://explaingithub.com/sunilabrahamindia/sunilabraham).
-2. [GitDiagram](https://gitdiagram.com/), generates an interactive architecture diagram of a GitHub repository. [View the TSAP repository diagram](https://gitdiagram.com/sunilabrahamindia/sunilabraham).
-3. [GitHub1s](https://github1s.com/), opens a GitHub repository in a browser-based, VS Code-like interface for navigating and searching source files. [Open the TSAP repository in GitHub1s](https://github1s.com/sunilabrahamindia/sunilabraham).
-4. [GitIngest](https://gitingest.com/), converts a GitHub repository into a text digest that can be used for AI-assisted code analysis. [Generate a digest of the TSAP repository](https://gitingest.com/sunilabrahamindia/sunilabraham).
-5. [GitMCP](https://gitmcp.io/), provides an MCP endpoint that lets compatible AI assistants retrieve documentation and code from GitHub repositories to help answer project-specific questions. [Open the TSAP repository's GitMCP endpoint](https://gitmcp.io/sunilabrahamindia/sunilabraham).
-6. [GitReverse](https://gitreverse.com/), analyses repository information to generate an AI prompt that can help recreate a similar project. [Try GitReverse with the TSAP repository](https://gitreverse.com/sunilabrahamindia/sunilabraham).
-7. [Octotree](https://www.octotree.io/), adds a file-tree interface to GitHub repositories to make browsing source code easier. [Browse the TSAP repository on GitHub](https://github.com/sunilabrahamindia/sunilabraham) with the Octotree browser extension.
-8. [Uithub](https://uithub.com/), turns a GitHub repository into structured, AI-friendly context, with options to filter files and control the output format or token budget. [Open the TSAP repository in Uithub](https://uithub.com/sunilabrahamindia/sunilabraham). Check its current sign-in requirements and permissions before sharing private repository content.
+1. [Awesome](https://github.com/sindresorhus/awesome), is a community-maintained collection of curated lists covering a wide range of subjects, including programming languages, software development, hardware, science, education, security and other fields. Each list points readers towards selected tools, projects, learning materials and reference resources. Useful for discovering specialised collections that are difficult to find through general searches; inclusion in an Awesome list is not a guarantee of quality or continued maintenance.
+2. [ExplainGitHub](https://explaingithub.com/), provides an AI-powered workspace for understanding a repository through code-aware questions, onboarding reports, and architecture exploration. [Open the TSAP repository in ExplainGitHub](https://explaingithub.com/sunilabrahamindia/sunilabraham).
+3. [GitDiagram](https://gitdiagram.com/), generates an interactive architecture diagram of a GitHub repository. [View the TSAP repository diagram](https://gitdiagram.com/sunilabrahamindia/sunilabraham).
+4. [GitHub1s](https://github1s.com/), opens a GitHub repository in a browser-based, VS Code-like interface for navigating and searching source files. [Open the TSAP repository in GitHub1s](https://github1s.com/sunilabrahamindia/sunilabraham).
+5. [GitIngest](https://gitingest.com/), converts a GitHub repository into a text digest that can be used for AI-assisted code analysis. [Generate a digest of the TSAP repository](https://gitingest.com/sunilabrahamindia/sunilabraham).
+6. [GitMCP](https://gitmcp.io/), provides an MCP endpoint that lets compatible AI assistants retrieve documentation and code from GitHub repositories to help answer project-specific questions. [Open the TSAP repository's GitMCP endpoint](https://gitmcp.io/sunilabrahamindia/sunilabraham).
+7. [GitReverse](https://gitreverse.com/), analyses repository information to generate an AI prompt that can help recreate a similar project. [Try GitReverse with the TSAP repository](https://gitreverse.com/sunilabrahamindia/sunilabraham).
+8. [Octotree](https://www.octotree.io/), adds a file-tree interface to GitHub repositories to make browsing source code easier. [Browse the TSAP repository on GitHub](https://github.com/sunilabrahamindia/sunilabraham) with the Octotree browser extension.
+9. [Uithub](https://uithub.com/), turns a GitHub repository into structured, AI-friendly context, with options to filter files and control the output format or token budget. [Open the TSAP repository in Uithub](https://uithub.com/sunilabrahamindia/sunilabraham). Check its current sign-in requirements and permissions before sharing private repository content.
 
 ## Images and Mapping {#images-and-mapping}
 1. [EXIF.im](https://exif.im/), an online image metadata viewer that helps inspect EXIF information such as camera details, capture time and, when present, GPS coordinates. Review metadata before publishing photographs, since location data may reveal sensitive information.
