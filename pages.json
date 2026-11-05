@@ -1,5 +1,19 @@
 [
   {
+    "title": "Local Development Environment Crash During Wayback Archiving (5 November 2026)",
+    "description": "Record of the local development environment crash during a TSAP Wayback Machine archiving session, the repository checks performed afterwards, and the findings that remain unconfirmed.",
+    "created": "2026-11-05",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation",
+      "TSAP Incidents"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/local-development-crash-wayback-archiving/",
+    "source_path": "tsap/local-development-crash-wayback-archiving.md"
+  },
+  {
     "title": "Platform Capitalism in India",
     "description": "A 2020 edited volume examining platform capitalism in India through digital businesses, media industries, labour, politics and culture.",
     "created": "2026-11-04",
