@@ -32,6 +32,38 @@ During the archiving session:
 
 The exact order and internal cause of the application failures could not be established from the surviving evidence. In particular, the read-only indication was observed in the terminal, but it was not independently confirmed as a persistent filesystem state.
 
+The browser action was initiated through the website's JavaScript quick link for editing a repository file. The intended destination was GitHub's file-editing interface. The surviving record does not establish that an edit was completed or saved during the failed browser session. The GitHub history inspected for that date did not identify a repository change attributable to that attempt.
+
+## How the Archiver Was Designed to Operate
+
+The script source and its accompanying TSAP documentation were reviewed while preparing this incident record. This matters because the script's intended behaviour helps distinguish its normal read-only access to the repository from the separate runtime files it maintains.
+
+The script is configured to use the local repository at:
+
+```text
+~/Projects/sunilabraham
+```
+
+It reads the repository to obtain eligible page URLs, preferring `pages.json` when available and otherwise scanning Markdown front matter. It submits those URLs individually to the Internet Archive's Save Page Now endpoint. The configured delay between requests is 20 seconds.
+
+The script is explicitly designed not to write runtime data into the repository. Its logs, reports and persistent archive record are stored separately under:
+
+```text
+~/Documents/Reports/WaybackMachine/
+```
+
+The persistent archive record is:
+
+```text
+~/Documents/Reports/WaybackMachine/archive_log.json
+```
+
+An important recovery detail is that the script saves the archive log immediately after each successful submission. It also writes a session log as it runs. A Markdown session report is generated at the end of the run. The script handles `Ctrl+C` and `SIGTERM` as graceful stop requests, completing the current request before writing its final report and saving the archive log.
+
+The laptop was powered off rather than the script being stopped through its graceful-interruption mechanism. Therefore, the script may not have reached its normal report-generation and final-shutdown steps. However, according to the code's design, successful archive entries should have been persisted individually as each success occurred. **The actual archive log and session report from this particular run were not inspected as part of the checks recorded here**, so their contents and final state are not confirmed.
+
+This design review describes what the checked-in script is intended to do. It does not establish whether the script itself caused, contributed to, or was affected by the system crash.
+
 ## Repository Integrity Checks
 
 The local repository was checked after the restart before any further archiving work was attempted.
@@ -117,6 +149,19 @@ Before resuming the random archiving session, the following precautions are appr
 5. **Avoid assuming that a successful Git check proves hardware health.** Git status and a successful pull verify repository-level conditions; they are not comprehensive tests of the filesystem, storage device, memory, or operating system.
 
 These are precautionary steps rather than a diagnosis or a claim that the archiver caused the crash.
+
+## Evidence Not Available
+
+Several details that would make a future reconstruction more precise were not preserved or verified:
+
+- The exact command used to launch the script, including any command-line arguments. The checked-in script has no documented requirement for special arguments, but the actual launch command was not captured.
+- The exact terminal error text. The terminal crashed before the message could be copied, so the description of a core dump and read-only state is approximate.
+- The precise time at which Firefox and the terminal began crashing. The previous-boot journal provides boot and system-message timestamps, but it does not establish the exact time or cause of the user-visible failures.
+- The actual session log, generated Markdown report and `archive_log.json` for this run. These files are configured to live under `~/Documents/Reports/WaybackMachine/`, but they were not examined in this investigation.
+- A verified list of the 20–30 pages successfully archived during this particular session. The count is the user's contemporaneous estimate, not a count independently reconstructed from the run report.
+- A direct filesystem health assessment. The reviewed journal output did not show the searched-for EXT4 or NVMe I/O errors, but no offline filesystem check or storage-device diagnostic is recorded here.
+
+If the original runtime files are still present, the session log, report and archive log are the best sources for recovering the exact run details. They should be examined before the next run, without modifying or deleting them.
 
 ## Maintenance Lessons
 
