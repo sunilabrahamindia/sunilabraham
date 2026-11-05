@@ -96,7 +96,7 @@ Long-running archiving sessions can be interrupted safely using `Ctrl+C`.
 
 Rather than terminating immediately, the script completes the page currently being archived, writes the archive log, generates the session report, and exits cleanly. This ensures that completed work is not lost and that subsequent sessions can resume from the correct state.
 
-The distinction between a graceful interruption and an unexpected system shutdown is important. A system crash interrupted one archiving session on **5 November 2026** before the normal shutdown sequence could be confirmed. The event, post-restart checks, and remaining uncertainties are documented in the [Local Development Environment Crash During Wayback Archiving](/tsap/local-development-crash-wayback-archiving/) incident record.
+The distinction between a graceful interruption and an unexpected system shutdown is important. A system crash interrupted one archiving session on 5 November 2026 before the normal shutdown sequence could be confirmed. The event, post-restart checks, and remaining uncertainties are documented in the [Local Development Environment Crash During Wayback Archiving](/tsap/local-development-crash-wayback-archiving/) incident record.
 
 ## Script Location
 
