@@ -424,6 +424,6 @@ After changing a file, rebuild the EPUB and inspect the actual file in a reading
 
 ## See also
 
-- [Print Book Production: EDRL II](/amaa/31-print-production/) - the separate documentation for the paperback's Typst layout, print-ready PDF and printer requirements.
+- [Print Book Production: Essays on Dalits, Religion and Liberation II](/amaa/30-print-book-production/) - the separate documentation for the paperback's Typst layout, print-ready interior PDF, full-wrap cover and printer requirements.
 
 {% include navbox-amaa.html %}
