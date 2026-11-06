@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Build the EDRL II print interior and cover review PDFs with Typst."""
 from pathlib import Path
-from html import unescape
 import re
 import shutil
 import subprocess
@@ -82,7 +81,6 @@ def extract_footnotes_and_clean(markdown):
         tag.unwrap()
 
     cleaned = soup.decode_contents()
-    cleaned = unescape(cleaned)
     cleaned = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", cleaned)
     cleaned = re.sub(r"<!--.*?-->", "", cleaned, flags=re.S)
     cleaned = re.sub(r"(?m)^\s*<[^>]+>\s*$", "", cleaned)
