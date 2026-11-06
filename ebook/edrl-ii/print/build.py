@@ -4,7 +4,6 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
-import sys
 import yaml
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -13,15 +12,16 @@ PRINT = BASE / "print"
 OUT = PRINT / "output"
 OUT.mkdir(parents=True, exist_ok=True)
 
+
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
+
 
 def clean_source(path):
     text = path.read_text(encoding="utf-8")
     text = re.sub(r"\A---\s*\n.*?\n---\s*\n", "", text, flags=re.S)
     text = re.sub(r"^\s*\{%.*?%\}\s*$", "", text, flags=re.M)
     text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
-    # Prefer the full-text section when a page is a descriptive wrapper.
     lines = text.splitlines()
     full = next((i for i, line in enumerate(lines)
                  if re.match(r"^##\s+Full\s+[Tt]ext\b", line.strip())), None)
@@ -34,16 +34,19 @@ def clean_source(path):
             end = next((i for i in range(contents + 1, len(lines))
                         if re.match(r"^#{1,6}\s+", lines[i].strip())), len(lines))
             lines = lines[end:]
-    # Exclude website-only publication metadata, navboxes and CSS.
     end = next((i for i, line in enumerate(lines)
                 if re.match(r"^\{%\s*include\s+navbox-amaa", line.strip())
                 or re.match(r"^<style\b", line.strip())
                 or re.match(r"^##\s+Publication\b", line.strip())), len(lines))
     lines = lines[:end]
+    # Typst's Pandoc writer emits an unsupported #blockquote helper for
+    # Markdown blockquotes. Preserve the quoted wording as ordinary paragraphs.
+    lines = [re.sub(r"^\s*>\s?", "", line) for line in lines]
     text = "\n".join(lines)
     text = re.sub(r"^\s*\{%.*?%\}\s*$", "", text, flags=re.M)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
+
 
 def md_to_typst(markdown, stem):
     md = OUT / f"{stem}.md"
@@ -53,6 +56,7 @@ def md_to_typst(markdown, stem):
     run(["pandoc", str(md), "--from=markdown+raw_html+smart", "--to=html5", "--output", str(html)])
     run(["pandoc", str(html), "--from=html", "--to=typst", "--output", str(typ)])
     return typ.read_text(encoding="utf-8")
+
 
 manifest = yaml.safe_load((BASE / "manifest.yml").read_text(encoding="utf-8"))
 essays = sorted(manifest["essays"], key=lambda item: item["order"])
@@ -69,11 +73,11 @@ parts.append(r"""
     #counter(page).display("1")
   ],
 )
-#set text(font: "Libertinus Serif", size: 11pt, lang: "en")
+#set text(font: "Linux Libertine O", size: 11pt, lang: "en")
 #set par(justify: true, leading: 0.68em, first-line-indent: 1em)
 #set heading(numbering: none)
 #show heading.where(level: 1): it => block(above: 0pt, below: 18pt)[
-  #set text(font: "Libertinus Serif", size: 19pt, weight: "bold")
+  #set text(font: "Linux Libertine O", size: 19pt, weight: "bold")
   #align(center)[#it]
 ]
 #show heading.where(level: 2): it => block(above: 15pt, below: 7pt)[
@@ -141,16 +145,27 @@ for essay in essays:
     if not source.is_file():
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
-    # This source is explicitly under construction; do not turn its editorial
-    # description into an apparent complete essay.
     if "under-construction.html" in raw or re.search(r"full text.*being transcribed|transcription.*being prepared", raw, re.I):
-        parts.append(f"#pagebreak()\n= {title}\n#text(size: 9pt, style: \"italic\")[Original publication: {essay['publication_note']}]\n#v(12pt)\n#block(inset: 12pt, stroke: 0.6pt + luma(180), radius: 2pt)[\n  #text(weight: \"bold\")[Transcription pending]\n  The source page is currently under construction. The complete essay text has not yet been supplied to this print workflow. This placeholder is retained to preserve the planned book sequence; it is not a substitute for the essay.\n]\n")
+        parts.append(f"""#pagebreak()
+= {title}
+#text(size: 9pt, style: "italic")[Original publication: {essay['publication_note']}]
+#v(12pt)
+#block(inset: 12pt, stroke: 0.6pt + luma(180), radius: 2pt)[
+  #text(weight: "bold")[Transcription pending]
+  The source page is currently under construction. The complete essay text has not yet been supplied to this print workflow. This placeholder is retained to preserve the planned book sequence; it is not a substitute for the essay.
+]
+""")
         continue
     body = clean_source(source)
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
-    parts.append(f"#pagebreak()\n= {title}\n#text(size: 9pt, style: \"italic\")[Original publication: {essay['publication_note']}]\n#v(8pt)\n{converted}\n")
+    parts.append(f"""#pagebreak()
+= {title}
+#text(size: 9pt, style: "italic")[Original publication: {essay['publication_note']}]
+#v(8pt)
+{converted}
+""")
 
 typst_source = OUT / "edrl-ii-print-preview.typ"
 typst_source.write_text("\n".join(parts), encoding="utf-8")
@@ -158,7 +173,7 @@ typst = shutil.which("typst")
 if not typst:
     raise SystemExit("Typst CLI is not installed.")
 pdf = OUT / "edrl-ii-print-preview.pdf"
-run([typst, "compile", "--font-path", "/usr/share/fonts/truetype/linux-libertine", str(typst_source), str(pdf)])
+run([typst, "compile", str(typst_source), str(pdf)])
 if not pdf.is_file() or pdf.stat().st_size < 15000:
     raise SystemExit("PDF output missing or unexpectedly small.")
 print(f"Created {pdf} ({pdf.stat().st_size:,} bytes).")
