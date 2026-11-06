@@ -232,7 +232,7 @@ run([typst, "compile", "--font-path", "/usr/share/fonts/truetype", str(interior_
 # The front-cover proof is separate from the interior, as required for book printing.
 cover_source = OUT / "edrl-ii-front-cover.typ"
 cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, fill: rgb("f5ead8"))
-#image("edrl-ii-cover.jpg", width: 148mm, height: 210mm, fit: "cover")
+#image("edrl-ii-cover.jpg", width: 148mm, height: 210mm, fit: "contain")
 ''', encoding="utf-8")
 cover_pdf = OUT / "edrl-ii-front-cover-proof.pdf"
 run([typst, "compile", str(cover_source), str(cover_pdf)])
