@@ -122,13 +122,11 @@ if len(essays) != 9:
     raise SystemExit(f"Expected 9 manifest entries, found {len(essays)}")
 
 fetch_cover()
-font = "Libertinus Serif"
 common = r"""
-#set text(font: "Libertinus Serif", size: 10.5pt, lang: "en")
+#set text(font: "Linux Libertine O", size: 10.5pt, lang: "en")
 #set par(justify: true, leading: 0.72em, first-line-indent: 1.1em, spacing: 0.45em)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
-#set footnote.entry(gap: 5pt, indent: 0pt)
 #set page(
   paper: "a5",
   binding: left,
@@ -157,11 +155,17 @@ common = r"""
 """
 parts = [common]
 parts.append(r"""
+#set heading(outlined: false)
+#align(center)[
+  #v(45mm)
+  #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
+]
+#pagebreak()
 #pagebreak()
 #align(center)[
-  #v(28mm)
-  #text(size: 10pt, weight: "bold", tracking: 1.4pt)[THE SUNIL ABRAHAM PROJECT]
-  #v(18mm)
+  #v(30mm)
+  #text(size: 9pt, weight: "bold", tracking: 1.4pt)[THE SUNIL ABRAHAM PROJECT]
+  #v(22mm)
   #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
   #v(12mm)
   #text(size: 14pt)[A. M. Abraham Ayrookuzhiel]
@@ -192,6 +196,7 @@ This is a provisional editorial print proof. It is not approved for printing or 
 = Contents
 #outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
+#set heading(outlined: true)
 """)
 for essay in essays:
     title = essay["title"]
@@ -227,7 +232,7 @@ run([typst, "compile", "--font-path", "/usr/share/fonts/truetype", str(interior_
 # The front-cover proof is separate from the interior, as required for book printing.
 cover_source = OUT / "edrl-ii-front-cover.typ"
 cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, fill: rgb("f5ead8"))
-#image("edrl-ii-cover.jpg", width: 148mm, height: 210mm, fit: "contain")
+#image("edrl-ii-cover.jpg", width: 148mm, height: 210mm, fit: "cover")
 ''', encoding="utf-8")
 cover_pdf = OUT / "edrl-ii-front-cover-proof.pdf"
 run([typst, "compile", str(cover_source), str(cover_pdf)])
