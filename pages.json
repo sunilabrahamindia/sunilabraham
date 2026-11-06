@@ -14,6 +14,20 @@
     "source_path": "amaa/31-print-production.md"
   },
   {
+    "title": "Print Book Production: Essays on Dalits, Religion and Liberation II",
+    "description": "Documentation for producing the A5 paperback edition of Essays on Dalits, Religion and Liberation II, including Typst typesetting, the print-ready interior PDF and full-wrap cover.",
+    "created": "2026-11-06",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "A. M. A. Ayrookuzhiel",
+      "30th Death Anniversary Commemoration"
+    ],
+    "permalink": "https://sunilabraham.in/amaa/30-print-book-production/",
+    "source_path": "amaa/30-print-book-production.md"
+  },
+  {
     "title": "Local Development Environment Crash During Wayback Archiving (5 November 2026)",
     "description": "Record of the local development environment crash during a TSAP Wayback Machine archiving session, the repository checks performed afterwards, and the findings that remain unconfirmed.",
     "created": "2026-11-05",
