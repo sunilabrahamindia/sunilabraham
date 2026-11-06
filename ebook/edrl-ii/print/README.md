@@ -1,20 +1,35 @@
-# EDRL II print preview
+# EDRL II print production proofs
 
-This directory contains the first Typst-based A5 paperback interior proof for *Essays on Dalits, Religion and Liberation II*.
+This directory contains the Typst source and automated workflow for producing the paperback interior and cover review PDFs for *Essays on Dalits, Religion and Liberation II*.
 
-## Build
+## Build outputs
 
-The GitHub Actions workflow `.github/workflows/build-edrl-ii-print.yml` installs Typst and Pandoc, extracts the nine manifest entries from the repository's current source pages, converts the content and compiles an A5 PDF.
+The GitHub Actions workflow `.github/workflows/build-edrl-ii-print.yml` creates three files:
 
-The PDF is an editorial layout proof, not a printer-approved file. The 1979 essay is currently represented by an explicit transcription placeholder because its source page is still under construction. Foreword and Editor's Note placeholders are retained from the current front matter.
+- `edrl-ii-interior.pdf`: the A5 interior only. This is the file to proofread as a book interior; it does not contain the cover.
+- `edrl-ii-front-cover-proof.pdf`: the supplied front-cover artwork placed on an A5 page. It is a front-cover proof only, not a full-wrap cover.
+- `edrl-ii-combined-review.pdf`: the front-cover proof followed by the interior, for convenient reading and review. Do not send this combined file to the printer as an interior PDF.
 
-## Current provisional design
+The front-cover artwork is fetched from the dedicated TSAP media repository at build time. The build validates that it is a JPEG before typesetting.
+
+## Interior design system
 
 - A5, 148 × 210 mm.
-- 10 mm left and right margins, 17 mm top and 10 mm bottom.
-- 11 pt Libertinus Serif body text, justified.
-- Automatic page numbering.
-- Separate essay openings and a book-level contents page.
-- No full-wrap cover yet: spine, bleed and crop marks require printer specifications and final pagination.
+- Mirrored inside/outside margins: 18 mm inside, 14 mm outside, 18 mm top and 17 mm bottom. These are provisional until the printer confirms the binding allowance.
+- Linux Libertine O, 10.5 pt body text, justified, with first-line paragraph indentation.
+- Restrained running head and centred folios.
+- Separate half-title, blank verso, title page, publication information, front-matter placeholders and contents.
+- Essays begin on new pages.
+- Native Typst footnotes generated from the source pages' HTML footnote references and note lists.
+- Website navigation and active web links are not part of the print edition; the visible wording is retained.
+- The 1979 essay remains an explicit transcription-pending placeholder. The 1985 essay also remains a placeholder until its complete text is available.
 
-The first proof is intended for visual review. Typography, margins, pagination, essay-opening pages, notes, images and the placeholder treatment will be revised after inspection.
+## Build requirements
+
+GitHub Actions installs Python, PyYAML, Beautiful Soup, Pandoc, Typst, Linux Libertine fonts and Poppler utilities. Run the workflow manually from the Actions tab or let a relevant source change trigger it.
+
+## Important limitations
+
+These are editorial review proofs, not printer-approved files. The front-cover proof is not a full-wrap paperback cover. The printer must provide the final cover template or confirm the spine width, binding method, paper stock, bleed, crop marks, colour requirements and PDF standard. Do not calculate or invent the spine width before final pagination and printer confirmation.
+
+The interior still requires page-by-page visual proofreading, comparison against the source essays, editorial approval of front matter, completion of missing essays, and a physical test print. A successful GitHub Actions build does not establish that the book is ready for printing.
