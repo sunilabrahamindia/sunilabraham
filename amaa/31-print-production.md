@@ -24,6 +24,9 @@ This documentation covers the paperback interior and its production workflow, in
 - Page size, margins and binding allowance.
 - Typography, paragraph treatment and heading hierarchy.
 - Front matter, essay openings, pagination and running heads.
+- Automatic interior page numbering (folios), including preliminary-page numbering conventions.
+- Print-specific treatment of hyperlinks and references.
+- A separate full-wrap paperback cover PDF containing the back cover, spine and front cover.
 - Footnotes, references, tables, illustrations and captions.
 - Typst source files and automated PDF generation.
 - Printer requirements, technical validation and proofing.
@@ -48,11 +51,14 @@ The printer is not being asked to make the book's design decisions. The project 
 2. **Prepare the manuscript:** Use the approved essay sequence and front matter from the e-book project, checking the complete text and publication details before print composition.
 3. **Set up the Typst project:** Create a separate print-production directory containing the Typst source, reusable layout rules, required fonts and images.
 4. **Establish the page design:** Configure A5 pages, margins, typography, paragraph rhythm, heading styles, page numbering and other book conventions.
-5. **Typeset the complete book:** Compose the front matter and all nine essays, preserving notes, references, tables, illustrations and captions.
-6. **Generate the PDF:** Run Typst in GitHub Actions so that the PDF can be built from the repository without requiring Typst to be installed on the Ubuntu laptop.
-7. **Proof the output:** Inspect the complete PDF for missing text, incorrect page breaks, widows and orphans, heading placement, footnotes, references, image quality and other layout defects.
-8. **Validate for the printer:** Check the final PDF against the printer's supplied specifications. A successful Typst build alone does not establish that the file is printer-approved.
-9. **Supply the approved PDF:** Send the final print-ready file to Pranesh for coordination with the printer and plate preparation.
+5. **Define pagination:** Configure automatic page numbering (folios), decide how preliminary pages are numbered or left unnumbered, establish the main-text numbering sequence, and set consistent folio placement and running-head rules.
+6. **Prepare print-specific links:** Remove active hyperlink behaviour and styling from the print interior. Retain references and URLs as readable printed text wherever they form part of the approved content.
+7. **Typeset the complete book:** Compose the front matter and all nine essays, preserving notes, references, tables, illustrations and captions.
+8. **Generate the interior PDF:** Run Typst in GitHub Actions so that the PDF can be built from the repository without requiring Typst to be installed on the Ubuntu laptop.
+9. **Prepare the cover separately:** Create a full-wrap cover layout containing the back cover, spine and front cover in the printer's required dimensions and order. Calculate the spine width only after the final interior page count and printer's paper specification are known. Add bleed, crop marks and other production marks only as required by the printer.
+10. **Proof both outputs:** Inspect the interior for missing text, pagination errors, widows and orphans, footnotes, references and image quality. Inspect the cover separately for dimensions, alignment, spine placement and bleed.
+11. **Validate for the printer:** Check both PDFs against the printer's supplied specifications. A successful build alone does not establish printer approval.
+12. **Supply the approved PDFs:** Send the print-ready interior PDF and separate full-wrap cover PDF to Pranesh for coordination with the printer and plate preparation.
 
 ## Page size and initial layout specifications
 
@@ -102,6 +108,22 @@ The print project should remain separate from the EPUB build. A likely location 
 
 The source manuscript should remain traceable to the approved essays and front matter. Any publication-only corrections must be deliberate and recorded. The original website articles should not be silently rewritten as part of print composition.
 
+## Pagination and print treatment
+
+Page numbers will be generated automatically by Typst as part of the interior layout; they will not be typed manually into the manuscript. The design will establish their position, type style and whether running heads are used.
+
+The pagination plan will distinguish preliminary matter from the main text. Preliminary pages may use a separate numbering convention or remain unnumbered where appropriate; the main text will begin with the agreed numbering sequence. The exact convention and first displayed page number will be settled during layout. Pagination must be checked again after the complete book has been composed, because changes to text, images or page breaks can alter the final sequence.
+
+The print edition is not an interactive digital document. Active hyperlinks, link colours and underlining used only to signal clickable links will be removed. References, citations and URLs that belong to the content will remain as readable printed text. No reference should depend on being clicked to make sense on paper.
+
+## Paperback cover: back, spine and front
+
+The cover is a separate production item from the interior PDF. It will be designed as one full-wrap spread, arranged in the printer's required order and dimensions: back cover panel, spine panel and front cover panel.
+
+The cover PDF will be supplied separately from the A5 interior PDF. Spine width cannot be finalised from page size alone: it depends on the final interior page count, paper stock and binding method. The printer must confirm the cover template or exact spine calculation, overall spread dimensions, bleed, crop marks and any other required production marks before final export.
+
+Cover artwork and text can be prepared while the interior is being typeset, but the final spine width and complete wrap dimensions must wait until the interior pagination and printer specifications are confirmed.
+
 ## Printer requirements: questions to confirm
 
 Before final PDF export, the following details need confirmation from Herbert or the printer:
@@ -124,7 +146,9 @@ The generated PDF must be inspected as a complete book, not judged solely by whe
 - No widows, orphans, awkward page breaks or excessive blank space.
 - Footnotes and their references correctly connected and readable.
 - References, tables, lists, images and captions complete and legible.
-- Page numbers and running heads consistently positioned.
+- Page numbers (folios) automatically generated, correctly sequenced and consistently positioned; running heads checked for correctness.
+- No active hyperlink styling or behaviour in the print interior; printed references and URLs remain readable.
+- Separate full-wrap cover PDF checked for back-cover, spine and front-cover order, final spine width, dimensions and printer-required marks.
 - No clipped text, overflow, missing glyphs or low-resolution images.
 - Any required bleed, crop marks, embedded fonts or PDF standard verified against the printer's instructions.
 
@@ -148,7 +172,9 @@ The PDF should be checked on screen and, where practicable, through a physical t
 - Final inner binding margin.
 - Whether bleed, crop marks or other printing marks are required.
 - Final font family, body size, line spacing and heading sizes after page proofing.
-- Final running-head, folio and essay-opening conventions.
+- Final running-head, folio, preliminary-page numbering and essay-opening conventions.
+- Full-wrap cover design and printer-confirmed spine width, bleed and crop-mark requirements.
+- Removal of active hyperlinks while retaining readable reference text in the print interior.
 - Typst source structure and GitHub Actions workflow.
 - Complete PDF proofing and printer acceptance.
 
@@ -164,6 +190,7 @@ The PDF should be checked on screen and, where practicable, through a physical t
 - **6 November 2026** - Recorded Herbert's proposed A5 page dimensions, margins and type-size ranges. A5 is the specified page size; the margin and typography details remain subject to printer requirements and visual proofing.
 - **6 November 2026** - Recorded the plan to run Typst through GitHub Actions. Local Typst installation on Ubuntu is optional, not required for the automated build.
 - **6 November 2026** - Identified three outstanding printer questions: PDF requirements or template, inner binding margin, and bleed/crop-mark requirements. Paper GSM is not a prerequisite for beginning the page layout.
+- **6 November 2026** - Expanded the print specification to record automatic Typst pagination, preliminary-page and main-text folio conventions, removal of active hyperlink behaviour from the print interior, and a separate full-wrap cover PDF for the back cover, spine and front cover. Final spine width remains dependent on final page count and printer specifications.
 
 ## See also
 
