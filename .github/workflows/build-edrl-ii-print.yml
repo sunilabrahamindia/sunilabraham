@@ -1,4 +1,5 @@
 name: Build EDRL II print preview
+run-name: EDRL II print proof #${{ github.run_number }}
 
 on:
   workflow_dispatch:
@@ -9,7 +10,15 @@ on:
       - "ebook/edrl-ii/manifest.yml"
       - "ebook/edrl-ii/front-matter.md"
       - "ebook/edrl-ii/print/**"
-      - "amaa/**"
+      - "amaa/state-of-hinduism-in-2000-ad-full-text.md"
+      - "amaa/religion-spirituality-and-aspirations-of-the-people-full-text.md"
+      - "amaa/living-hindu-popular-religious-consciousness-full-text.md"
+      - "amaa/the-church-and-the-study-of-religion.md"
+      - "amaa/religions-and-the-aspirations-of-the-people.md"
+      - "amaa/religion-way-salvation-ideology-oppression-full-text.md"
+      - "amaa/dalit-theology-movement-counter-culture-full-text.md"
+      - "amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md"
+      - "amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md"
       - ".github/workflows/build-edrl-ii-print.yml"
 
 permissions:
@@ -45,7 +54,7 @@ jobs:
       - name: Upload print preview
         uses: actions/upload-artifact@v4
         with:
-          name: edrl-ii-print-preview
+          name: edrl-ii-print-preview-${{ github.run_number }}
           path: |
             ebook/edrl-ii/print/output/edrl-ii-interior.pdf
             ebook/edrl-ii/print/output/edrl-ii-front-cover-proof.pdf
