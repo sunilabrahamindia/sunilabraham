@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>107 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>108 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -166,8 +166,8 @@ Platforms, directories and tools that support structured learning, independent s
 1. [OneCompiler](https://onecompiler.com/), an online code editor and compiler that lets you write, run, and test code in multiple programming languages without installing them locally.
 
 ## Online Tools and Utilities {#online-tools-utilities}
-1. [delphitools](https://delphi.tools/), is a free, open-source collection of browser-based utilities for image editing and conversion, colour and accessibility checks, audio and video processing, PDF preparation, typography, text, QR codes, and developer tasks. The site states that it has no logins, paywalls, tracking, or data collection, and that tools process data locally in the browser. Its source code is released under the permissive 0BSD licence. As with any browser tool, check whether a particular feature needs an internet connection before relying on it offline.
-
+1. [AutoDraw](https://www.autodraw.com/), is a free, browser-based drawing tool from Google Creative Lab that uses machine learning to recognise rough sketches and suggest cleaner, artist-created illustrations. Users can add text, shapes and colours, then download their creations as PNG images. It requires no account, installation or payment and works on desktop, tablet and mobile browsers. Useful for creating simple illustrations, educational materials, visual notes and presentation graphics without drawing expertise. Its illustration library is limited, editing features are basic, and commercial-use licensing should be checked before using its artwork in products or commercial publications.
+2. [delphitools](https://delphi.tools/), is a free, open-source collection of browser-based utilities for image editing and conversion, colour and accessibility checks, audio and video processing, PDF preparation, typography, text, QR codes, and developer tasks. The site states that it has no logins, paywalls, tracking, or data collection, and that tools process data locally in the browser. Its source code is released under the permissive 0BSD licence. As with any browser tool, check whether a particular feature needs an internet connection before relying on it offline.
 ## Open Educational Resources {#open-educational-resources}
 1. [Open Textbook Library](https://open.umn.edu/opentextbooks/), provides free, peer-reviewed, openly licensed textbooks across a range of academic subjects. Many titles can be downloaded, shared and adapted, making the library useful for teaching, independent study and finding reusable educational material. Check the licence on each book before adapting or redistributing it.
 
