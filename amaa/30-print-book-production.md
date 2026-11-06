@@ -178,6 +178,75 @@ The PDF should be checked on screen and, where practicable, through a physical t
 - Typst source structure and GitHub Actions workflow.
 - Complete PDF proofing and printer acceptance.
 
+## Print-build configuration and variables
+
+The print builder is maintained separately from the EPUB builder. The current implementation is in `ebook/edrl-ii/print/build.py`, with automation in `.github/workflows/build-edrl-ii-print.yml`. The values below record the current implementation; they are configuration facts, not all final design approvals.
+
+### Paths and source configuration
+
+| Variable or setting | Current value or purpose |
+|---|---|
+| `ROOT` | Repository root, derived from the location of `build.py` |
+| `BASE` | `ebook/edrl-ii/` |
+| `PRINT` | `ebook/edrl-ii/print/` |
+| `OUT` | `ebook/edrl-ii/print/output/` |
+| `COVER_URL` | `https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg` |
+| `COVER` | Downloaded cover image at `output/edrl-ii-cover.jpg` |
+| Manifest | `ebook/edrl-ii/manifest.yml`; the builder expects nine essay entries and sorts them by `order` |
+| Source text | Original TSAP Markdown pages named in the manifest; these remain the source of truth |
+
+The cover download is checked for a minimum file size and JPEG signature before the build continues. The supplied artwork is currently treated as a front-cover image only; it is not a printer's full-wrap cover.
+
+### Current interior typesetting values
+
+| Setting | Current implementation |
+|---|---|
+| Page size | A5, 148 × 210 mm |
+| Binding model | Mirrored pages, binding on the left |
+| Inside margin | 18 mm |
+| Outside margin | 14 mm |
+| Top margin | 18 mm |
+| Bottom margin | 17 mm |
+| Body typeface | Linux Libertine O |
+| Body size | 10.5 pt |
+| Paragraph alignment | Justified |
+| Line leading | 0.72 em |
+| First-line indent | 1.1 em |
+| Paragraph spacing | 0.45 em |
+| Level-one headings | 18 pt, bold, centred |
+| Level-two headings | 13 pt, bold |
+| Level-three headings | 11.5 pt, bold |
+| Running head | Centred, 7.5 pt, light grey |
+| Folio | Centred, 8 pt, light grey |
+
+These are the current proof settings, not final approved specifications. They must be compared with the EDRL I printed-book references when supplied. The final gutter and page design remain subject to printer requirements and physical proofing.
+
+### Build tools and workflow settings
+
+The GitHub Actions workflow currently:
+
+- Runs on pushes to `main` when the manifest, front matter, print directory, AMAA source pages or workflow file changes; it can also be started manually with `workflow_dispatch`.
+- Uses `ubuntu-latest` and Python `3.x`.
+- Installs Python packages `PyYAML` and `beautifulsoup4`.
+- Installs Pandoc, `fonts-linuxlibertine` and `poppler-utils` from Ubuntu packages.
+- Downloads the latest Linux x86_64 musl Typst release and installs the `typst` executable.
+- Runs `python ebook/edrl-ii/print/build.py`.
+- Uploads the three PDFs as the `edrl-ii-print-preview` artifact, retained for 30 days.
+
+### Extraction and conversion safeguards
+
+The builder removes YAML front matter, website introductions and generated contents lists where identified, strips website navigation and Liquid include lines, and converts source HTML footnote references and note-list entries into Pandoc Markdown footnotes before Typst conversion. It checks that each detected footnote reference has a corresponding note target, checks that essay extraction is not suspiciously short, and checks the converted Typst text for common raw HTML elements. These checks are useful safeguards, not proof that every source feature has been preserved correctly. In particular, every essay, footnote and reference still requires visual comparison with the original source.
+
+### Output files
+
+The current successful workflow produces:
+
+- `output/edrl-ii-interior.pdf` - the A5 interior proof, without a cover.
+- `output/edrl-ii-front-cover-proof.pdf` - the supplied front-cover image placed on an A5 page.
+- `output/edrl-ii-combined-review.pdf` - the cover proof followed by the interior for convenient reading.
+
+The combined review is not the printer's interior file. The front-cover proof is not a full-wrap cover. The full-wrap cover still requires the printer's dimensions, bleed and crop-mark instructions, binding method, final page count and confirmed spine width.
+
 ## Work log
 
 - **27 October 2026** - The late-October planning established that the paperback edition would require its own ISBN, separate from the EPUB ISBN, while retaining 29 November 2026 as the publication date.
@@ -191,6 +260,12 @@ The PDF should be checked on screen and, where practicable, through a physical t
 - **6 November 2026** - Identified three outstanding printer questions: PDF requirements or template, inner binding margin, and bleed/crop-mark requirements. Paper GSM is not a prerequisite for beginning the page layout.
 - **6 November 2026** - Expanded the print specification to record automatic Typst pagination, preliminary-page and main-text folio conventions, removal of active hyperlink behaviour from the print interior, and a separate full-wrap cover PDF for the back cover, spine and front cover. Final spine width remains dependent on final page count and printer specifications.
 - **6 November 2026** - Reworked the first Typst proof after inspecting the 73-page PDF. The revised workflow removes website navigation and raw HTML from the print text, converts the source pages' HTML footnote anchors and note lists into native Pandoc/Typst footnotes, uses mirrored inside/outside margins, adds a half-title and blank verso, and builds a separate A5 front-cover proof from the existing artwork. GitHub Actions now produces an interior PDF, a front-cover proof and a combined review PDF. These are editorial proofs, not printer-ready files; the 1979 and 1985 essays remain incomplete placeholders.
+- **6 November 2026** - Added a configuration record for the print builder, including repository paths, cover-image source, current Typst variables, page and margin settings, typography, paragraph rhythm, heading sizes, running head, folios, workflow dependencies, triggers, extraction safeguards and output filenames. This section is intended to make future changes traceable and to distinguish current implementation values from final design decisions.
+- **6 November 2026** - First print-workflow attempts failed before producing an artifact. The initial run encountered missing Typst footnote labels after the earlier Markdown-to-HTML-to-Typst conversion path had produced dangling note links. The conversion was changed to Markdown-to-Typst directly so Pandoc could handle footnotes natively.
+- **6 November 2026** - The next run failed at the raw-HTML safeguard in `md_to_typst()`. The check was too broad: Typst's own generated syntax could be mistaken for an HTML tag. The source validation was narrowed to look for common HTML element names rather than every angle-bracketed expression. This was a validation-rule correction, not a change to the source essays.
+- **6 November 2026** - GitHub Actions run [#42191742269](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42191742269) failed during the print build because raw HTML was still detected in essay 1. Run [#42192742064](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42192742064) failed at the same safeguard after the first attempted correction. In both runs, dependency installation completed; PDF generation and artifact upload did not.
+- **6 November 2026** - Corrected the raw-HTML detection rule and aligned the heading typeface with the installed Linux Libertine O font. The change was committed as `27be101143f10d94aca451bc172cb76c95c8205c`.
+- **6 November 2026** - First successful Typst print-preview workflow: GitHub Actions run [#42193427267](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42193427267) completed successfully on `main` at commit `27be101143f10d94aca451bc172cb76c95c8205c`. All build steps, including PDF generation and artifact upload, passed. GitHub created artifact `edrl-ii-print-preview` (artifact ID `13491585063`), approximately 1.60 MB, with expiry on 6 December 2026. The artifact contains the interior proof, front-cover proof and combined review PDF. This confirms that the workflow generated and uploaded the files; it does not mean that the PDFs have passed visual, editorial or printer QA.
 
 ## See also
 
