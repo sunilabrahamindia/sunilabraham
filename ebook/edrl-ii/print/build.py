@@ -140,7 +140,7 @@ if len(essays) != 9:
 fetch_cover()
 common = r"""
 #set text(font: "Linux Libertine O", size: 10.5pt, lang: "en")
-#set par(justify: true, leading: 0.72em, first-line-indent: 1.1em, spacing: 0.45em)
+#set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 0.7em)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
 #set page(
@@ -160,11 +160,11 @@ common = r"""
   #set text(font: "Linux Libertine O", size: 18pt, weight: "bold")
   #align(center)[#it]
 ]
-#show heading.where(level: 2): it => block(above: 13pt, below: 5pt, breakable: false)[
+#show heading.where(level: 2): it => block(above: 16pt, below: 8pt, breakable: false)[
   #set text(size: 13pt, weight: "bold")
   #it
 ]
-#show heading.where(level: 3): it => block(above: 9pt, below: 4pt, breakable: false)[
+#show heading.where(level: 3): it => block(above: 11pt, below: 6pt, breakable: false)[
   #set text(size: 11.5pt, weight: "bold")
   #it
 ]
