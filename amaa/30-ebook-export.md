@@ -138,7 +138,6 @@ Final font and size choices should be recorded in the export stylesheet or build
 
 
 ### Editorial design and book-production conventions
-
 The finished publication should feel considered, coherent and appropriate to its subject. Design decisions should serve the author's text and the reader, not compete with them. The following checks apply to the cover, interior layout and treatment of scholarly material.
 
 - **Cover design:** Use a clear visual idea related to the book's subject and context. Establish an obvious order of importance between title, subtitle and author name. Check the title at thumbnail size as well as full size. Use a limited, deliberate colour palette, legible type and imagery that is relevant and properly sourced. Avoid unnecessary effects, ornamental elements and visual details that do not contribute to the book's identity.
@@ -278,7 +277,6 @@ Do not leave placeholders in the published edition. If the foreword is not ready
 - Add a glossary, index, list of figures or list of tables only if the content warrants it and the material can be checked. Do not create an automatic index or glossary without verifying its entries and destinations.
 
 ### 4. Accessibility and inclusive reading
-
 Use the W3C's EPUB Accessibility guidance as a reference for accessible structure and evaluation. Check the following in the exported file:
 
 - Use semantic, logically nested headings; do not choose heading levels only for their visual appearance or skip levels without a structural reason.
@@ -418,5 +416,10 @@ After changing a file, rebuild the EPUB and inspect the actual file in a reading
 - **3 November 2026 - Entry 27: Format-specific publication metadata.** Replaced the previous metadata subsection with a dedicated `## Metadata` section and separate `### eBook` and `### Print book` subsections. Recorded the confirmed title, author, imprint-before-editor credit order, language/format, publication date and format-specific ISBNs; drafted a factual description from the collection's stated subject matter; and marked unresolved rights, credits and print-production details as pending. Added a short explanation of series metadata and trim size so those fields are not mistaken for required invented details.
 
 
-{% include navbox-amaa.html %}
 
+
+## See also
+
+- [Print Book Production: EDRL II](/amaa/31-print-production/) - the separate documentation for the paperback's Typst layout, print-ready PDF and printer requirements.
+
+{% include navbox-amaa.html %}
