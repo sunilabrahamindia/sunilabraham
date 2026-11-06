@@ -1,0 +1,48 @@
+name: Build EDRL II print preview
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "ebook/edrl-ii/manifest.yml"
+      - "ebook/edrl-ii/front-matter.md"
+      - "ebook/edrl-ii/print/**"
+      - "amaa/**"
+      - ".github/workflows/build-edrl-ii-print.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Pandoc, Typst and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc python3-yaml fonts-linuxlibertine
+          curl -fsSL https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz -o /tmp/typst.tar.xz
+          tar -xJf /tmp/typst.tar.xz -C /tmp
+          sudo install /tmp/typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
+          typst --version
+
+      - name: Build A5 print preview
+        run: python3 ebook/edrl-ii/print/build.py
+
+      - name: Upload print preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: edrl-ii-print-preview
+          path: ebook/edrl-ii/print/output/edrl-ii-print-preview.pdf
+          if-no-files-found: error
+          retention-days: 30
