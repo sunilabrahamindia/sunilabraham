@@ -1,28 +1,89 @@
 #!/usr/bin/env python3
-"""Build a provisional A5 Typst interior proof for EDRL II."""
+"""Build the EDRL II print interior and cover review PDFs with Typst."""
 from pathlib import Path
+from html import unescape
 import re
 import shutil
 import subprocess
+import urllib.request
 import yaml
+from bs4 import BeautifulSoup, NavigableString
 
 ROOT = Path(__file__).resolve().parents[3]
 BASE = ROOT / "ebook" / "edrl-ii"
 PRINT = BASE / "print"
 OUT = PRINT / "output"
 OUT.mkdir(parents=True, exist_ok=True)
-
+COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg"
+COVER = OUT / "edrl-ii-cover.jpg"
 
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
 
+def fetch_cover():
+    request = urllib.request.Request(COVER_URL, headers={"User-Agent": "EDRL-II-print-build"})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        data = response.read()
+    if len(data) < 10000 or not data.startswith(b"\xff\xd8\xff"):
+        raise SystemExit("Cover download failed validation; expected a JPEG image.")
+    COVER.write_bytes(data)
+
+def extract_footnotes_and_clean(markdown):
+    """Convert website HTML footnote anchors to native Pandoc Markdown footnotes."""
+    soup = BeautifulSoup(markdown, "html.parser")
+    notes = []
+    for item in soup.select('li[id^="note-"]'):
+        match = re.search(r"note-(\d+)", item.get("id", ""))
+        if not match:
+            continue
+        number = match.group(1)
+        for backlink in item.select('a[href^="#ref-"]'):
+            backlink.decompose()
+        note_text = item.get_text(" ", strip=True)
+        if note_text:
+            notes.append((int(number), note_text))
+        item.decompose()
+    for listing in soup.find_all("ol"):
+        if not listing.get_text(" ", strip=True):
+            listing.decompose()
+
+    for marker in soup.select('sup[id^="ref-"]'):
+        match = re.search(r"ref-(\d+)", marker.get("id", ""))
+        if match:
+            marker.replace_with(NavigableString(f"[^{match.group(1)}]"))
+
+    for anchor in soup.find_all("a"):
+        anchor.unwrap()
+    for tag in soup.find_all(["strong", "b"]):
+        tag.insert_before(NavigableString("**"))
+        tag.insert_after(NavigableString("**"))
+        tag.unwrap()
+    for tag in soup.find_all(["em", "i"]):
+        tag.insert_before(NavigableString("*"))
+        tag.insert_after(NavigableString("*"))
+        tag.unwrap()
+    for tag in soup.find_all("br"):
+        tag.replace_with(NavigableString("\n"))
+    for tag in soup.find_all(True):
+        tag.unwrap()
+
+    cleaned = soup.decode_contents()
+    cleaned = unescape(cleaned)
+    cleaned = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", cleaned)
+    cleaned = re.sub(r"<!--.*?-->", "", cleaned, flags=re.S)
+    cleaned = re.sub(r"(?m)^\s*<[^>]+>\s*$", "", cleaned)
+    cleaned = re.sub(r"\n[ \t]*\n(?:[ \t]*\n)+", "\n\n", cleaned)
+    cleaned = cleaned.strip()
+    if notes:
+        cleaned += "\n\n" + "\n".join(f"[^{n}]: {text}" for n, text in sorted(notes))
+    return cleaned
 
 def clean_source(path):
-    text = path.read_text(encoding="utf-8")
-    text = re.sub(r"\A---\s*\n.*?\n---\s*\n", "", text, flags=re.S)
-    text = re.sub(r"^\s*\{%.*?%\}\s*$", "", text, flags=re.M)
-    text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
-    lines = text.splitlines()
+    raw = path.read_text(encoding="utf-8")
+    raw = re.sub(r"\A---\s*\n.*?\n---\s*\n", "", raw, flags=re.S)
+    raw = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", raw)
+    raw = re.sub(r"<!--.*?-->", "", raw, flags=re.S)
+    lines = raw.splitlines()
     full = next((i for i, line in enumerate(lines)
                  if re.match(r"^##\s+Full\s+[Tt]ext\b", line.strip())), None)
     if full is not None:
@@ -35,124 +96,117 @@ def clean_source(path):
                         if re.match(r"^#{1,6}\s+", lines[i].strip())), len(lines))
             lines = lines[end:]
     end = next((i for i, line in enumerate(lines)
-                if re.match(r"^\{%\s*include\s+navbox-amaa", line.strip())
-                or re.match(r"^<style\b", line.strip())
-                or re.match(r"^##\s+Publication\b", line.strip())), len(lines))
+                if re.match(r"^##\s+Publication\b", line.strip())
+                or re.match(r"^##\s+Notes\b", line.strip())
+                or re.match(r"^\{%\s*include\s+navbox-amaa", line.strip())
+                or re.match(r"^<style\b", line.strip())), len(lines))
     lines = lines[:end]
-    # Typst's Pandoc writer emits an unsupported #blockquote helper for
-    # Markdown blockquotes. Preserve the quoted wording as ordinary paragraphs.
-    lines = [re.sub(r"^\s*>\s?", "", line) for line in lines]
-    text = "\n".join(lines)
-    text = re.sub(r"^\s*\{%.*?%\}\s*$", "", text, flags=re.M)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-
+    body = "\n".join(lines).strip()
+    body = re.sub(r"(?m)^\s*>\s?", "", body)
+    body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
+    return extract_footnotes_and_clean(body)
 
 def md_to_typst(markdown, stem):
     md = OUT / f"{stem}.md"
     typ = OUT / f"{stem}.typ"
     md.write_text(markdown, encoding="utf-8")
-    # Convert Markdown directly. The intermediate HTML conversion turns
-    # Pandoc footnotes into dangling Typst links and drops their note targets.
-    run(["pandoc", str(md), "--from=markdown+raw_html+smart", "--to=typst", "--output", str(typ)])
-    return typ.read_text(encoding="utf-8")
-
+    run(["pandoc", str(md), "--from=markdown+smart", "--to=typst", "--output", str(typ)])
+    content = typ.read_text(encoding="utf-8")
+    if re.search(r"</?[A-Za-z][^>]*>", content):
+        raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
+    return content
 
 manifest = yaml.safe_load((BASE / "manifest.yml").read_text(encoding="utf-8"))
 essays = sorted(manifest["essays"], key=lambda item: item["order"])
 if len(essays) != 9:
     raise SystemExit(f"Expected 9 manifest entries, found {len(essays)}")
 
-parts = []
-parts.append(r"""
+fetch_cover()
+font = "Libertinus Serif"
+common = r"""
+#set text(font: "Libertinus Serif", size: 10.5pt, lang: "en")
+#set par(justify: true, leading: 0.72em, first-line-indent: 1.1em, spacing: 0.45em)
+#set heading(numbering: none)
+#set block(spacing: 0.55em)
+#set footnote.entry(gap: 5pt, indent: 0pt)
 #set page(
   paper: "a5",
-  margin: (left: 10mm, right: 10mm, top: 17mm, bottom: 10mm),
+  binding: left,
+  margin: (inside: 18mm, outside: 14mm, top: 18mm, bottom: 17mm),
+  header: context [
+    #set text(size: 7.5pt, fill: luma(85))
+    #align(center)[THE SUNIL ABRAHAM PROJECT · ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+  ],
   footer: context [
-    #set text(size: 8pt, fill: luma(90))
-    #counter(page).display("1")
+    #set text(size: 8pt, fill: luma(65))
+    #align(center)[#counter(page).display("1")]
   ],
 )
-#set text(font: "Linux Libertine O", size: 11pt, lang: "en")
-#set par(justify: true, leading: 0.68em, first-line-indent: 1em)
-#set heading(numbering: none)
-#show heading.where(level: 1): it => block(above: 0pt, below: 18pt)[
-  #set text(font: "Linux Libertine O", size: 19pt, weight: "bold")
+#show heading.where(level: 1): it => block(above: 0pt, below: 15pt, breakable: false)[
+  #set text(font: "Libertinus Serif", size: 18pt, weight: "bold")
   #align(center)[#it]
 ]
-#show heading.where(level: 2): it => block(above: 15pt, below: 7pt)[
-  #set text(size: 14pt, weight: "bold")
+#show heading.where(level: 2): it => block(above: 13pt, below: 5pt, breakable: false)[
+  #set text(size: 13pt, weight: "bold")
   #it
 ]
-#show heading.where(level: 3): it => block(above: 11pt, below: 5pt)[
-  #set text(size: 12pt, weight: "bold")
+#show heading.where(level: 3): it => block(above: 9pt, below: 4pt, breakable: false)[
+  #set text(size: 11.5pt, weight: "bold")
   #it
 ]
-#set block(spacing: 0.55em)
-""")
-
+"""
+parts = [common]
 parts.append(r"""
-#v(28mm)
+#pagebreak()
 #align(center)[
-  #text(size: 10pt, tracking: 1.5pt, weight: "bold")[THE SUNIL ABRAHAM PROJECT]
+  #v(28mm)
+  #text(size: 10pt, weight: "bold", tracking: 1.4pt)[THE SUNIL ABRAHAM PROJECT]
   #v(18mm)
-  #text(size: 23pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
+  #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
   #v(12mm)
   #text(size: 14pt)[A. M. Abraham Ayrookuzhiel]
-  #v(20mm)
-  #text(size: 11pt)[Edited by Tito Dutta]
+  #v(18mm)
+  #text(size: 10.5pt)[Edited by Tito Dutta]
   #v(3mm)
-  #text(size: 11pt)[The Sunil Abraham Project]
-  #v(30mm)
-  #text(size: 9pt)[Editorial print proof · 6 November 2026]
+  #text(size: 10.5pt)[The Sunil Abraham Project]
 ]
 #pagebreak()
-#align(center)[#text(size: 16pt, weight: "bold")[Publication information]]
-#v(12pt)
-*Author:* A. M. Abraham Ayrookuzhiel
-
-*Editor:* Tito Dutta
-
-*Publisher:* The Sunil Abraham Project
-
-*Website:* https://sunilabraham.in
-
-*Language:* English
-
-*Publication date:* 29 November 2026
-
-*Paperback ISBN:* 978-93-345-8524-7
-
+= Publication information
+*Author:* A. M. Abraham Ayrookuzhiel \
+*Editor:* Tito Dutta \
+*Publisher:* The Sunil Abraham Project \
+*Website:* https://sunilabraham.in \
+*Language:* English \
+*Publication date:* 29 November 2026 \
+*Paperback ISBN:* 978-93-345-8524-7 \
 *E-book ISBN:* 978-93-345-1180-2
 
-#v(8pt)
 This is a provisional editorial print proof. It is not approved for printing or distribution. Final rights, copyright wording and publication credits remain subject to approval.
 #pagebreak()
 = Foreword
-#text(fill: luma(90), style: "italic")[Placeholder: Foreword text to be added after it is received and approved.]
+#text(style: "italic", fill: luma(90))[Placeholder: Foreword text to be added after it is received and approved.]
 #pagebreak()
 = Editor's Note
-#text(fill: luma(90), style: "italic")[Placeholder: Editor's Note text to be prepared and approved.]
+#text(style: "italic", fill: luma(90))[Placeholder: Editor's Note text to be prepared and approved.]
 #pagebreak()
 = Contents
-#outline(title: none, depth: 1)
+#outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
 """)
-
 for essay in essays:
     title = essay["title"]
     source = ROOT / essay["source"]
     if not source.is_file():
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
+    parts.append("#pagebreak()\n")
+    parts.append(f"= {title}\n")
+    parts.append(f"#text(size: 8.5pt, style: \"italic\", fill: luma(80))[Original publication: {essay['publication_note']}]\n#v(7pt)\n")
     if "under-construction.html" in raw or re.search(r"full text.*being transcribed|transcription.*being prepared", raw, re.I):
-        parts.append(f"""#pagebreak()
-= {title}
-#text(size: 9pt, style: "italic")[Original publication: {essay['publication_note']}]
-#v(12pt)
-#block(inset: 12pt, stroke: 0.6pt + luma(180), radius: 2pt)[
-  #text(weight: "bold")[Transcription pending]
-  The source page is currently under construction. The complete essay text has not yet been supplied to this print workflow. This placeholder is retained to preserve the planned book sequence; it is not a substitute for the essay.
+        parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
+  *Transcription pending*
+
+  The source page is currently under construction. The complete essay text has not yet been supplied to this print workflow. This placeholder preserves the planned sequence and must be replaced before publication.
 ]
 """)
         continue
@@ -160,21 +214,29 @@ for essay in essays:
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
-    parts.append(f"""#pagebreak()
-= {title}
-#text(size: 9pt, style: "italic")[Original publication: {essay['publication_note']}]
-#v(8pt)
-{converted}
-""")
+    parts.append(converted + "\n")
 
-typst_source = OUT / "edrl-ii-print-preview.typ"
-typst_source.write_text("\n".join(parts), encoding="utf-8")
+interior_source = OUT / "edrl-ii-interior.typ"
+interior_source.write_text("\n".join(parts), encoding="utf-8")
 typst = shutil.which("typst")
 if not typst:
     raise SystemExit("Typst CLI is not installed.")
-pdf = OUT / "edrl-ii-print-preview.pdf"
-run([typst, "compile", str(typst_source), str(pdf)])
-if not pdf.is_file() or pdf.stat().st_size < 15000:
-    raise SystemExit("PDF output missing or unexpectedly small.")
-print(f"Created {pdf} ({pdf.stat().st_size:,} bytes).")
-print("This is a layout proof only. It has not passed full visual proofing or printer validation.")
+interior = OUT / "edrl-ii-interior.pdf"
+run([typst, "compile", "--font-path", "/usr/share/fonts/truetype", str(interior_source), str(interior)])
+
+# The front-cover proof is separate from the interior, as required for book printing.
+cover_source = OUT / "edrl-ii-front-cover.typ"
+cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, fill: rgb("f5ead8"))
+#image("edrl-ii-cover.jpg", width: 148mm, height: 210mm, fit: "contain")
+''', encoding="utf-8")
+cover_pdf = OUT / "edrl-ii-front-cover-proof.pdf"
+run([typst, "compile", str(cover_source), str(cover_pdf)])
+
+# Convenience reading copy: cover proof followed by the interior. This is NOT the printer's interior file.
+run(["pdfunite", str(cover_pdf), str(interior), str(OUT / "edrl-ii-combined-review.pdf")])
+for path in (interior, cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
+    if not path.is_file() or path.stat().st_size < 10000:
+        raise SystemExit(f"Expected PDF missing or unexpectedly small: {path}")
+print(f"Interior: {interior} ({interior.stat().st_size:,} bytes)")
+print(f"Front cover proof: {cover_pdf} ({cover_pdf.stat().st_size:,} bytes)")
+print("Combined review PDF created. Cover and interior remain separate production files.")
