@@ -128,7 +128,7 @@ def md_to_typst(markdown, stem):
     md.write_text(markdown, encoding="utf-8")
     run(["pandoc", str(md), "--from=markdown+smart", "--to=typst", "--output", str(typ)])
     content = typ.read_text(encoding="utf-8")
-    if re.search(r"</?[A-Za-z][^>]*>", content):
+    if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\\s|/?>)", content, re.I):
         raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
     return content
 
@@ -157,7 +157,7 @@ common = r"""
   ],
 )
 #show heading.where(level: 1): it => block(above: 0pt, below: 15pt, breakable: false)[
-  #set text(font: "Libertinus Serif", size: 18pt, weight: "bold")
+  #set text(font: "Linux Libertine O", size: 18pt, weight: "bold")
   #align(center)[#it]
 ]
 #show heading.where(level: 2): it => block(above: 13pt, below: 5pt, breakable: false)[
