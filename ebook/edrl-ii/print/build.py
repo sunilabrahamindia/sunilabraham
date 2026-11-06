@@ -28,6 +28,20 @@ def fetch_cover():
         raise SystemExit("Cover download failed validation; expected a JPEG image.")
     COVER.write_bytes(data)
 
+def inline_markdown(node):
+    """Preserve emphasis in HTML-authored footnote text."""
+    if isinstance(node, NavigableString):
+        return str(node)
+    name = getattr(node, "name", None)
+    content = "".join(inline_markdown(child) for child in getattr(node, "children", []))
+    if name in ("em", "i"):
+        return f"*{content}*"
+    if name in ("strong", "b"):
+        return f"**{content}**"
+    if name == "br":
+        return "\\n"
+    return content
+
 def extract_footnotes_and_clean(markdown):
     """Convert website HTML footnote anchors to native Pandoc Markdown footnotes."""
     soup = BeautifulSoup(markdown, "html.parser")
@@ -39,7 +53,7 @@ def extract_footnotes_and_clean(markdown):
         number = match.group(1)
         for backlink in item.select('a[href^="#ref-"]'):
             backlink.decompose()
-        note_text = item.get_text(" ", strip=True)
+        note_text = inline_markdown(item).strip()
         if note_text:
             notes.append((int(number), note_text))
         item.decompose()
