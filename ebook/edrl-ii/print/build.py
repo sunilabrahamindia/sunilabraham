@@ -50,11 +50,11 @@ def clean_source(path):
 
 def md_to_typst(markdown, stem):
     md = OUT / f"{stem}.md"
-    html = OUT / f"{stem}.html"
     typ = OUT / f"{stem}.typ"
     md.write_text(markdown, encoding="utf-8")
-    run(["pandoc", str(md), "--from=markdown+raw_html+smart", "--to=html5", "--output", str(html)])
-    run(["pandoc", str(html), "--from=html", "--to=typst", "--output", str(typ)])
+    # Convert Markdown directly. The intermediate HTML conversion turns
+    # Pandoc footnotes into dangling Typst links and drops their note targets.
+    run(["pandoc", str(md), "--from=markdown+raw_html+smart", "--to=typst", "--output", str(typ)])
     return typ.read_text(encoding="utf-8")
 
 
