@@ -149,7 +149,7 @@ common = r"""
   margin: (inside: 18mm, outside: 14mm, top: 18mm, bottom: 17mm),
   header: context [
     #set text(size: 7.5pt, fill: luma(85))
-    #align(center)[THE SUNIL ABRAHAM PROJECT · ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
   ],
   footer: context [
     #set text(size: 8pt, fill: luma(65))
@@ -177,7 +177,18 @@ parts.append(r"""
   #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
 ]
 #pagebreak()
+#set page(header: none, footer: none)
 #pagebreak()
+#set page(
+  header: context [
+    #set text(size: 7.5pt, fill: luma(85))
+    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+  ],
+  footer: context [
+    #set text(size: 8pt, fill: luma(65))
+    #align(center)[#counter(page).display("1")]
+  ],
+)
 #align(center)[
   #v(30mm)
   #text(size: 9pt, weight: "bold", tracking: 1.4pt)[THE SUNIL ABRAHAM PROJECT]
