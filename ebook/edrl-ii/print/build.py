@@ -117,6 +117,11 @@ def clean_source(path):
     body = "\n".join(lines).strip()
     body = re.sub(r"(?m)^\s*>\s?", "", body)
     body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
+    references = set(re.findall(r'<sup\\s+id=["\\']ref-(\\d+)["\\']', raw, re.I))
+    note_ids = set(re.findall(r'<li\\s+id=["\\']note-(\\d+)["\\']', raw, re.I))
+    missing = sorted(references - note_ids, key=int)
+    if missing:
+        raise SystemExit(f"Footnote targets missing in {path.name}: {', '.join(missing)}")
     return extract_footnotes_and_clean(body)
 
 def md_to_typst(markdown, stem):
