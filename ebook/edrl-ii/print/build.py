@@ -111,7 +111,6 @@ def clean_source(path):
             lines = lines[end:]
     end = next((i for i, line in enumerate(lines)
                 if re.match(r"^##\s+Publication\b", line.strip())
-                or re.match(r"^##\s+Notes\b", line.strip())
                 or re.match(r"^\{%\s*include\s+navbox-amaa", line.strip())
                 or re.match(r"^<style\b", line.strip())), len(lines))
     lines = lines[:end]
