@@ -160,6 +160,28 @@ def html_table_to_typst(table):
         0,
     )
     header = rows[header_index][1]
+    # Use concise, reader-facing labels in the print edition. The full wording
+    # remains unchanged in the source article; these labels preserve its meaning
+    # while preventing dense multi-line headings at A5 size.
+    header_labels = {
+        "Number of families": "Families",
+        "Number of families with land": "Families with land",
+        "Land-holding in acres": "Land held (acres)",
+        "Percentage of total land": "Share of total land (%)",
+        "No. of borewells and pumpsets": "Borewells and pumpsets",
+        "No. of bullock carts": "Bullock carts",
+        "No. of draught animals": "Draught animals",
+        "No. of milk animals": "Milk animals",
+        "No. of sheep and goats": "Sheep and goats",
+        "Amount in Rs.": "Amount (Rs.)",
+        "Fully employed in one's own farm and other occupations": "Fully employed: own farm / other work",
+        "Partly agriculture and wage labourer": "Agriculture + wage labour",
+        "Landless wage labourer": "Landless wage labour",
+    }
+    header = [
+        (header_labels.get(value, value), is_header)
+        for value, is_header in header
+    ]
     data_rows = [
         cells for index, (_, cells) in enumerate(rows)
         if index != header_index
@@ -191,7 +213,7 @@ def html_table_to_typst(table):
     def cell_content(value, header_cell=False, row_label=False):
         value = typst_escape(value)
         if header_cell or row_label:
-            return f"table.cell(breakable: false)[*{value}*]"
+            return f"table.cell(align: left, breakable: false)[*{value}*]"
         return f"table.cell(breakable: false)[{value}]"
 
     header_cells = ",\n    ".join(
@@ -207,7 +229,7 @@ def html_table_to_typst(table):
     fence = chr(96) * 3
     return (
         fence + "{=typst}\n"
-        f"#{{\n  set text(size: {font_size}, hyphenate: false)\n"
+        f"#{{\n  set text(size: {font_size}, hyphenate: false)\n  set par(justify: false, first-line-indent: 0pt, spacing: 0pt)\n"
         "  table(\n"
         f"  columns: ({', '.join(f'{ratio}fr' for ratio in ratios)}),\n"
         "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
