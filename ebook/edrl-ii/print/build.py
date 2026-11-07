@@ -659,22 +659,7 @@ for essay in essays:
     #line(length: 100%, stroke: 0.5pt + luma(170))
   ],
 )
-#set page(
-  header: none,
-)
-    #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
-    #if calc.even(counter(page).get().first()) [
-      #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
-    ] else [
-      #context [
-        #align(center)[#running_chapter.get()]
-      ]
-    ]
-    #v(3pt)
-    #line(length: 100%, stroke: 0.5pt + luma(170))
-  ],
-)
-""")
+
     if "under-construction.html" in raw:
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
   *Transcription pending*
