@@ -41,8 +41,40 @@ def inline_markdown(node):
         return "\\n"
     return content
 
+def html_table_to_markdown(table):
+    """Preserve an HTML table as a Pandoc pipe table before generic HTML cleanup."""
+    rows = []
+    for row in table.find_all("tr"):
+        cells = row.find_all(["th", "td"], recursive=False)
+        if not cells:
+            continue
+        values = []
+        for cell in cells:
+            value = re.sub(r"\s+", " ", inline_markdown(cell).strip())
+            values.append(value.replace("|", r"\|"))
+        rows.append(values)
+    if not rows:
+        return ""
+    thead = table.find("thead")
+    header_rows = thead.find_all("tr") if thead else []
+    if header_rows:
+        header_cells = header_rows[0].find_all(["th", "td"], recursive=False)
+        header = [re.sub(r"\s+", " ", inline_markdown(cell).strip()).replace("|", r"\|") for cell in header_cells]
+        all_rows = table.find_all("tr")
+        header_index = next(i for i, row in enumerate(all_rows) if row is header_rows[0])
+        data_rows = rows[:header_index] + rows[header_index + 1:]
+    else:
+        header, data_rows = rows[0], rows[1:]
+    width = max([len(header)] + [len(row) for row in data_rows])
+    header += [""] * (width - len(header))
+    data_rows = [row + [""] * (width - len(row)) for row in data_rows]
+    lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(["---"] * width) + " |"]
+    lines.extend("| " + " | ".join(row) + " |" for row in data_rows)
+    return "\n".join(lines)
+
+
 def extract_footnotes_and_clean(markdown):
-    """Convert website HTML footnote anchors to native Pandoc Markdown footnotes."""
+    """Convert HTML tables and website footnotes before generic HTML cleanup."""
     soup = BeautifulSoup(markdown, "html.parser")
     notes = []
     for item in soup.select('li[id^="note-"]'):
@@ -59,6 +91,10 @@ def extract_footnotes_and_clean(markdown):
     for listing in soup.find_all("ol"):
         if not listing.get_text(" ", strip=True):
             listing.decompose()
+
+    for table in soup.find_all("table"):
+        converted = html_table_to_markdown(table)
+        table.replace_with(NavigableString("\n\n" + converted + "\n\n"))
 
     for marker in soup.select('sup[id^="ref-"]'):
         match = re.search(r"ref-(\d+)", marker.get("id", ""))
