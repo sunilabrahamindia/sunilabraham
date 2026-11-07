@@ -245,7 +245,7 @@ Language: English
 #outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
 #set heading(outlined: true)
-""";
+""")
 
 for essay in essays:
     title = essay["title"]
