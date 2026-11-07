@@ -155,19 +155,18 @@ def html_table_to_markdown(table):
 
 
 def extract_footnotes_and_clean(markdown):
-    """Convert HTML tables and website footnotes before generic HTML cleanup."""
+    """Convert HTML tables and source-linked notes into Pandoc footnotes."""
     soup = BeautifulSoup(markdown, "html.parser")
-    notes = []
+    notes = {}
     for item in soup.select('li[id^="note-"]'):
-        match = re.search(r"note-(\d+)", item.get("id", ""))
-        if not match:
+        note_id = item.get("id", "")[len("note-"):]
+        if not note_id:
             continue
-        number = match.group(1)
         for backlink in item.select('a[href^="#ref-"]'):
             backlink.decompose()
         note_text = footnote_markdown(item).strip()
         if note_text:
-            notes.append((int(number), note_text))
+            notes[note_id] = note_text
         item.decompose()
     for listing in soup.find_all("ol"):
         if not listing.get_text(" ", strip=True):
@@ -178,9 +177,14 @@ def extract_footnotes_and_clean(markdown):
         table.replace_with(NavigableString("\n\n" + converted + "\n\n"))
 
     for marker in soup.select('sup[id^="ref-"]'):
-        match = re.search(r"ref-(\d+)", marker.get("id", ""))
-        if match:
-            marker.replace_with(NavigableString(f"[^{match.group(1)}]"))
+        target = marker.find("a", href=re.compile(r"^#note-"))
+        if target:
+            note_id = target.get("href", "")[len("#note-"):]
+            if note_id not in notes:
+                raise SystemExit(
+                    f"Footnote reference {marker.get('id')} points to missing note-{note_id}."
+                )
+            marker.replace_with(NavigableString(f"[^{note_id}]"))
 
     for anchor in soup.find_all("a"):
         anchor.unwrap()
@@ -213,8 +217,12 @@ def extract_footnotes_and_clean(markdown):
             cleaned,
         )
         cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+        ordered_notes = sorted(
+            notes.items(),
+            key=lambda item: (int(re.match(r"\d+", item[0]).group()), item[0])
+        )
         cleaned += "\n\n" + "\n\n".join(
-            f"[^{n}]: {text}" for n, text in sorted(notes)
+            f"[^{note_id}]: {text}" for note_id, text in ordered_notes
         )
     return cleaned
 
@@ -267,15 +275,18 @@ def clean_source(path):
         body_soup.append(item)
     body = body_soup.decode_contents()
 
-    references = set(re.findall(
-        r"""<sup\b[^>]*\bid=["']ref-(\d+)[^"']*["'][^>]*>""", body, re.I
-    ))
-    note_ids = set(re.findall(
-        r"""<li\b[^>]*\bid=["']note-(\d+)["'][^>]*>""",
-        "".join(str(item) for item in source_note_items), re.I
-    ))
-    missing = sorted(references - note_ids, key=int)
-    unreferenced = sorted(note_ids - references, key=int)
+    note_ids = {
+        item.get("id", "")[len("note-"):]
+        for item in source_note_items
+        if item.get("id", "").startswith("note-")
+    }
+    references = set()
+    for marker in body_soup.select('sup[id^="ref-"]'):
+        target = marker.find("a", href=re.compile(r"^#note-"))
+        if target:
+            references.add(target.get("href", "")[len("#note-"):])
+    missing = sorted(references - note_ids)
+    unreferenced = sorted(note_ids - references)
     if missing or unreferenced:
         problems = []
         if missing:
@@ -286,7 +297,23 @@ def clean_source(path):
     return extract_footnotes_and_clean(body)
 
 def md_to_typst(markdown, stem):
+    # Footnote definitions normally sit at the end of the complete essay.
+    # Poems are converted in separate Typst blocks, so each conversion segment
+    # must receive the definitions as well; otherwise references in earlier
+    # segments are emitted as literal [^N] text by Pandoc.
+    definition_pattern = re.compile(
+        r"(?ms)^\[\^([^\]]+)\]:[ \t]*(.*?)(?=^\[\^[^\]]+\]:|\Z)"
+    )
+    definitions = []
+    markdown_without_definitions = definition_pattern.sub(
+        lambda match: definitions.append(match.group(0).strip()) or "",
+        markdown,
+    ).strip()
+
     def convert(segment, suffix):
+        segment = segment.strip()
+        if definitions:
+            segment += "\n\n" + "\n\n".join(definitions)
         md = OUT / f"{stem}-{suffix}.md"
         typ = OUT / f"{stem}-{suffix}.typ"
         md.write_text(segment, encoding="utf-8")
@@ -307,8 +334,8 @@ def md_to_typst(markdown, stem):
     parts = []
     cursor = 0
     pattern = re.compile(r"@@POEM_START@@(.*?)@@POEM_END@@", re.S)
-    for index, match in enumerate(pattern.finditer(markdown), start=1):
-        prose = markdown[cursor:match.start()].strip()
+    for index, match in enumerate(pattern.finditer(markdown_without_definitions), start=1):
+        prose = markdown_without_definitions[cursor:match.start()].strip()
         if prose:
             parts.append(convert(prose, f"prose-{index}"))
         poem = convert(match.group(1).strip(), f"poem-{index}")
@@ -318,11 +345,11 @@ def md_to_typst(markdown, stem):
             "  #align(center)[\n" + poem + "\n  ]\n]"
         )
         cursor = match.end()
-    remainder = markdown[cursor:].strip()
+    remainder = markdown_without_definitions[cursor:].strip()
     if remainder:
         parts.append(convert(remainder, "prose-final"))
     if not parts:
-        return convert(markdown, "main")
+        return convert(markdown_without_definitions, "main")
     return "\n\n".join(parts)
 
 manifest = yaml.safe_load((BASE / "manifest.yml").read_text(encoding="utf-8"))
