@@ -122,36 +122,107 @@ def footnote_markdown(item):
     """Extract a source note without flattening paragraphs or nested lists."""
     return note_blocks(item)
 
-def html_table_to_markdown(table):
-    """Preserve an HTML table as a Pandoc pipe table before generic HTML cleanup."""
+def typst_escape(value):
+    """Escape plain source text for safe insertion into Typst content blocks."""
+    return (
+        str(value)
+        .replace("\\", "\\\\")
+        .replace("#", "\\#")
+        .replace("[", "\\[")
+        .replace("]", "\\]")
+        .replace("$", "\\$")
+    )
+
+
+def html_table_to_typst(table):
+    """Create readable, accessible Typst tables with repeatable headers."""
     rows = []
+    header_rows = table.find("thead")
+    header_row = header_rows.find("tr") if header_rows else None
     for row in table.find_all("tr"):
         cells = row.find_all(["th", "td"], recursive=False)
         if not cells:
             continue
-        values = []
-        for cell in cells:
-            value = re.sub(r"\s+", " ", inline_markdown(cell).strip())
-            values.append(value.replace("|", r"\|"))
-        rows.append(values)
+        values = [
+            re.sub(r"\s+", " ", inline_markdown(cell).strip())
+            for cell in cells
+        ]
+        rows.append((row is header_row, [
+            (value, cell.name == "th")
+            for value, cell in zip(values, cells)
+        ]))
+
     if not rows:
         return ""
-    thead = table.find("thead")
-    header_rows = thead.find_all("tr") if thead else []
-    if header_rows:
-        header_cells = header_rows[0].find_all(["th", "td"], recursive=False)
-        header = [re.sub(r"\s+", " ", inline_markdown(cell).strip()).replace("|", r"\|") for cell in header_cells]
-        all_rows = table.find_all("tr")
-        header_index = next(i for i, row in enumerate(all_rows) if row is header_rows[0])
-        data_rows = rows[:header_index] + rows[header_index + 1:]
-    else:
-        header, data_rows = rows[0], rows[1:]
+
+    header_index = next(
+        (index for index, (is_header, _) in enumerate(rows) if is_header),
+        0,
+    )
+    header = rows[header_index][1]
+    data_rows = [
+        cells for index, (_, cells) in enumerate(rows)
+        if index != header_index
+    ]
     width = max([len(header)] + [len(row) for row in data_rows])
-    header += [""] * (width - len(header))
-    data_rows = [row + [""] * (width - len(row)) for row in data_rows]
-    lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(["---"] * width) + " |"]
-    lines.extend("| " + " | ".join(row) + " |" for row in data_rows)
-    return "\n".join(lines)
+    header += [("", False)] * (width - len(header))
+    data_rows = [
+        row + [("", False)] * (width - len(row))
+        for row in data_rows
+    ]
+
+    # Give descriptive row labels more room and keep numerical columns compact.
+    if width == 6:
+        ratios = [2.1] + [0.85] * 5
+        font_size = "7.1pt"
+    elif width == 5:
+        ratios = [2.2] + [0.85] * 4
+        font_size = "7.5pt"
+    elif width == 4:
+        ratios = [1.8, 1.1, 1.1, 1.1]
+        font_size = "7.8pt"
+    elif width == 3:
+        ratios = [2.0, 0.9, 1.1]
+        font_size = "8.2pt"
+    else:
+        ratios = [2.0] + [1.0] * (width - 1)
+        font_size = "8pt"
+
+    def cell_content(value, header_cell=False, row_label=False):
+        value = typst_escape(value)
+        if header_cell or row_label:
+            return f"table.cell(breakable: false)[*{value}*]"
+        return f"table.cell(breakable: false)[{value}]"
+
+    header_cells = ",\n    ".join(
+        cell_content(value, header_cell=True)
+        for value, _ in header
+    )
+    body_cells = []
+    for row in data_rows:
+        for value, is_row_label in row:
+            body_cells.append(cell_content(value, row_label=is_row_label))
+
+    cells = ",\n    ".join(body_cells)
+    fence = chr(96) * 3
+    return (
+        fence + "{=typst}\n"
+        f"#set text(size: {font_size}, hyphenate: false)\n"
+        "#table(\n"
+        f"  columns: ({', '.join(f'{ratio}fr' for ratio in ratios)}),\n"
+        "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
+        "  inset: (x: 3pt, y: 3.5pt),\n"
+        "  stroke: (x, y) => (\n"
+        "    bottom: if y == 0 { 0.8pt + luma(90) } else { 0.35pt + luma(175) },\n"
+        "  ),\n"
+        "  fill: (_, y) => if y == 0 { luma(94) },\n"
+        "  table.header(\n"
+        f"    {header_cells},\n"
+        "  ),\n"
+        f"  {cells},\n"
+        ")\n"
+        + fence + "\n"
+    )
 
 
 def extract_footnotes_and_clean(markdown):
@@ -173,7 +244,7 @@ def extract_footnotes_and_clean(markdown):
             listing.decompose()
 
     for table in soup.find_all("table"):
-        converted = html_table_to_markdown(table)
+        converted = html_table_to_typst(table)
         table.replace_with(NavigableString("\n\n" + converted + "\n\n"))
 
     for marker in soup.select('sup[id^="ref-"]'):
@@ -384,15 +455,15 @@ common = r"""
   ],
 )
 #show heading.where(level: 1): it => block(above: 14pt, below: 17pt, breakable: false)[
-  #set text(font: "Linux Libertine O", size: 18pt, weight: "bold")
+  #set text(font: "Linux Libertine O", size: 18pt, weight: "bold", hyphenate: false)
   #align(center)[#it]
 ]
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
-  #set text(size: 16pt, weight: "bold")
+  #set text(size: 16pt, weight: "bold", hyphenate: false)
   #it
 ]
 #show heading.where(level: 3): it => block(above: 11pt, below: 10pt, breakable: false)[
-  #set text(size: 14pt, weight: "bold")
+  #set text(size: 14pt, weight: "bold", hyphenate: false)
   #it
 ]
 """
