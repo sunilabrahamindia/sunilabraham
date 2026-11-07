@@ -140,7 +140,7 @@ if len(essays) != 9:
 fetch_cover()
 common = r"""
 #set text(font: "Linux Libertine O", size: 10.5pt, lang: "en")
-#set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 0.52em)
+#set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 0.48em)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
 #set page(
@@ -172,12 +172,25 @@ common = r"""
 parts = [common]
 parts.append(r"""
 #set heading(outlined: false)
+#set page(header: none, footer: none)
 #align(center)[
   #v(45mm)
   #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
 ]
 #pagebreak()
-#set page(header: none, footer: none)
+#pagebreak()
+#align(center)[
+  #v(25mm)
+  #text(size: 12pt, weight: "bold", tracking: 1.8pt)[THE SUNIL ABRAHAM PROJECT]
+  #v(24mm)
+  #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
+  #v(14mm)
+  #text(size: 17pt, weight: "bold")[A. M. Abraham Ayrookuzhiel]
+  #v(18mm)
+  #text(size: 10.5pt, style: "italic")[Edited by]
+  #v(2mm)
+  #text(size: 12pt)[Tito Dutta]
+]
 #pagebreak()
 #set page(
   header: context [
@@ -190,29 +203,37 @@ parts.append(r"""
   ],
 )
 #align(center)[
-  #v(30mm)
-  #text(size: 9pt, weight: "bold", tracking: 1.4pt)[THE SUNIL ABRAHAM PROJECT]
-  #v(22mm)
-  #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
   #v(12mm)
-  #text(size: 14pt)[A. M. Abraham Ayrookuzhiel]
-  #v(18mm)
-  #text(size: 10.5pt)[Edited by Tito Dutta]
-  #v(3mm)
-  #text(size: 10.5pt)[The Sunil Abraham Project]
+  #text(size: 13pt, weight: "bold")[Publication and copyright]
 ]
-#pagebreak()
-= Publication information
-*Author:* A. M. Abraham Ayrookuzhiel \
-*Editor:* Tito Dutta \
-*Publisher:* The Sunil Abraham Project \
-*Website:* https://sunilabraham.in \
-*Language:* English \
-*Publication date:* 29 November 2026 \
-*Paperback ISBN:* 978-93-345-8524-7 \
-*E-book ISBN:* 978-93-345-1180-2
+#v(8mm)
+*Essays on Dalits, Religion and Liberation II*
 
-This is a provisional editorial print proof. It is not approved for printing or distribution. Final rights, copyright wording and publication credits remain subject to approval.
+A. M. Abraham Ayrookuzhiel
+
+Edited by Tito Dutta
+
+Published by The Sunil Abraham Project
+
+https://sunilabraham.in
+
+#v(8mm)
+Copyright © 2026
+
+All rights reserved. No part of this book may be reproduced, stored in a retrieval system or transmitted in any form or by any means without prior written permission, except for brief quotations in reviews and scholarly references.
+
+#v(5mm)
+First paperback edition, 29 November 2026
+
+ISBN 978-93-345-8524-7
+
+Printed price: ₹250
+
+#v(5mm)
+Language: English
+
+#v(8mm)
+#text(size: 8.5pt, style: "italic", fill: luma(80))[Typesetting and printing credits will be added when the production details are confirmed.]
 #pagebreak()
 = Foreword
 #text(style: "italic", fill: luma(90))[Placeholder: Foreword text to be added after it is received and approved.]
@@ -224,7 +245,8 @@ This is a provisional editorial print proof. It is not approved for printing or 
 #outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
 #set heading(outlined: true)
-""")
+""";
+
 for essay in essays:
     title = essay["title"]
     source = ROOT / essay["source"]
