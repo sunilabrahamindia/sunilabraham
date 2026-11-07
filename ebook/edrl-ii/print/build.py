@@ -632,7 +632,7 @@ for essay in essays:
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
     if essay["order"] == 1:
-        parts.append('#set page(numbering: "1", header: none)\n')
+        parts.append('#set page(numbering: "1", header: none, footer: context [\n  #set text(size: 8pt, fill: luma(65))\n  #align(center)[#counter(page).display("1")]\n])\n')
         parts.append("#counter(page).update(1)\n")
     parts.append("#pagebreak()\n")
     parts.append("#set page(header: none)\n")
