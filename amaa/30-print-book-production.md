@@ -117,26 +117,32 @@ The TSAP [Markdown cheatsheet](/tsap/markdown/) documents the Markdown conventio
 ### Inline formatting
 
 <div class="typst-markdown-table-wrap" role="region" aria-label="Comparison of Markdown and Typst inline formatting" tabindex="0">
-
-| Formatting | Markdown (TSAP source) | Typst (print source) | Important difference |
-|---|---|---|---|
-| Bold | `**bold text**` | `*bold text*` or `#strong[bold text]` | In Typst, asterisks indicate bold. |
-| Italic | `*italic text*` or `_italic text_` | `_italic text_` or `#emph[italic text]` | In Typst, underscores indicate italic. |
-| Underline | Not part of standard Markdown. HTML `<u>underlined text</u>` may work where raw HTML is permitted. | `#underline[underlined text]` | Typst has a native underline function; Markdown does not have a standard underline marker. |
-
+<table class="typst-markdown-table">
+<thead>
+<tr><th scope="col">Formatting</th><th scope="col">Markdown (TSAP source)</th><th scope="col">Typst (print source)</th><th scope="col">Important difference</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Bold</th><td><code>**bold text**</code></td><td><code>*bold text*</code> or <code>#strong[bold text]</code></td><td>In Typst, asterisks indicate bold.</td></tr>
+<tr><th scope="row">Italic</th><td><code>*italic text*</code> or <code>_italic text_</code></td><td><code>_italic text_</code> or <code>#emph[italic text]</code></td><td>In Typst, underscores indicate italic.</td></tr>
+<tr><th scope="row">Underline</th><td>Not part of standard Markdown. HTML <code>&lt;u&gt;underlined text&lt;/u&gt;</code> may work where raw HTML is permitted.</td><td><code>#underline[underlined text]</code></td><td>Typst has a native underline function; Markdown does not have a standard underline marker.</td></tr>
+</tbody>
+</table>
 </div>
 
 ### Headings and tables
 
 <div class="typst-markdown-table-wrap" role="region" aria-label="Comparison of Markdown and Typst headings and tables" tabindex="0">
-
-| Element | Markdown (TSAP source) | Typst (print source) | Important difference |
-|---|---|---|---|
-| Level 1 heading | `# Heading` | `= Heading` | Markdown uses hash signs; Typst uses equals signs. |
-| Level 2 heading | `## Heading` | `== Heading` | Each additional marker indicates a lower heading level. |
-| Level 3 heading | `### Heading` | `=== Heading` | The marker sequence is different even though the heading hierarchy is comparable. |
-| Table | Pipe table, with a header separator row: `\| Name \| Year \|` followed by `\|---\|---\|` | `#table(columns: 2, [Name], [Year], [Example], [2026])` | Markdown uses pipe-delimited rows; Typst uses the `#table()` function and explicit column definitions. |
-
+<table class="typst-markdown-table">
+<thead>
+<tr><th scope="col">Element</th><th scope="col">Markdown (TSAP source)</th><th scope="col">Typst (print source)</th><th scope="col">Important difference</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Level 1 heading</th><td><code># Heading</code></td><td><code>= Heading</code></td><td>Markdown uses hash signs; Typst uses equals signs.</td></tr>
+<tr><th scope="row">Level 2 heading</th><td><code>## Heading</code></td><td><code>== Heading</code></td><td>Each additional marker indicates a lower heading level.</td></tr>
+<tr><th scope="row">Level 3 heading</th><td><code>### Heading</code></td><td><code>=== Heading</code></td><td>The marker sequence is different even though the heading hierarchy is comparable.</td></tr>
+<tr><th scope="row">Table</th><td>Pipe table, with a header separator row: <code>| Name | Year |</code> followed by <code>|---|---|</code></td><td><code>#table(columns: 2, [Name], [Year], [Example], [2026])</code></td><td>Markdown uses pipe-delimited rows; Typst uses the <code>#table()</code> function and explicit column definitions.</td></tr>
+</tbody>
+</table>
 </div>
 
 The distinction between bold and italic is especially important in this project. The Markdown cheatsheet uses `*italics*` and `**bold**`. In Typst, the meanings are different: `*bold*` and `_italics_`. Copying Markdown emphasis markers directly into a Typst source can therefore change the intended appearance. The Editor's Note uses Typst's underscore syntax for book and journal titles; all other text in that note is plain, without bold styling.
@@ -345,6 +351,7 @@ The following list identifies each essay in the print edition, links to its full
   width: 100%;
   max-width: 100%;
   overflow-x: auto;
+  overscroll-behaviour-x: contain;
   margin: 1rem 0 1.5rem;
   -webkit-overflow-scrolling: touch;
   border: 1px solid #767676;
@@ -355,44 +362,66 @@ The following list identifies each essay in the print edition, links to its full
   outline-offset: 3px;
 }
 
-.typst-markdown-table-wrap table {
-  width: 100%;
-  min-width: 680px;
+.typst-markdown-table-wrap table.typst-markdown-table {
+  display: table !important;
+  width: max-content !important;
+  min-width: 760px;
+  max-width: none;
+  margin: 0 !important;
   border-collapse: collapse;
-  margin: 0;
+  border-spacing: 0;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: #fff;
+  font-size: 0.92rem;
 }
 
-.typst-markdown-table-wrap th,
-.typst-markdown-table-wrap td {
+.typst-markdown-table-wrap .typst-markdown-table th,
+.typst-markdown-table-wrap .typst-markdown-table td {
+  min-width: 9rem;
   border: 1px solid #767676;
   padding: 0.65rem 0.75rem;
   text-align: left;
   vertical-align: top;
-  overflow-wrap: anywhere;
-}
-
-.typst-markdown-table-wrap th {
-  background: #e8edf3;
-  color: #20252b;
-}
-
-.typst-markdown-table-wrap code {
   white-space: normal;
   overflow-wrap: anywhere;
 }
 
-body.tsap-dark-mode .typst-markdown-table-wrap th,
-body.tsap-dark-mode .typst-markdown-table-wrap td {
-  border-color: #64748b;
+.typst-markdown-table-wrap .typst-markdown-table thead th {
+  background: #e8edf3;
+  color: #20252b;
+  font-weight: 700;
 }
 
-body.tsap-dark-mode .typst-markdown-table-wrap th {
-  background: #1b2636;
-  color: #f3f4f6;
+.typst-markdown-table-wrap .typst-markdown-table tbody th {
+  background: #f3f5f7;
+  color: #20252b;
+  font-weight: 600;
+}
+
+.typst-markdown-table-wrap .typst-markdown-table code {
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 body.tsap-dark-mode .typst-markdown-table-wrap {
   border-color: #64748b;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table {
+  background: #111827;
+  color: #f3f4f6;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table th,
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table td {
+  border-color: #64748b;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table thead th,
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table tbody th {
+  background: #1b2636;
+  color: #f3f4f6;
 }
 </style>
 
