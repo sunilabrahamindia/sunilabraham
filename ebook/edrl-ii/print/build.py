@@ -459,6 +459,11 @@ if len(essays) != 9:
 
 fetch_cover()
 common = r"""
+#set document(
+  title: "Essays on Dalits, Religion and Liberation II",
+  author: "A. M. Abraham Ayrookuzhiel",
+  keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
+)
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en")
 #set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 12pt)
 #set heading(numbering: none)
