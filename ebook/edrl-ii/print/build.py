@@ -87,7 +87,18 @@ def extract_footnotes_and_clean(markdown):
     cleaned = re.sub(r"\n[ \t]*\n(?:[ \t]*\n)+", "\n\n", cleaned)
     cleaned = cleaned.strip()
     if notes:
-        cleaned += "\n\n" + "\n".join(f"[^{n}]: {text}" for n, text in sorted(notes))
+        # These source headings introduce endnote lists that are converted above
+        # into page-bottom footnotes. Remove the now-redundant heading only
+        # when note entries were successfully extracted.
+        cleaned = re.sub(
+            r"(?mi)^[ \\t]*#{1,6}[ \\t]+Notes(?:[ \\t]+\\{#notes\\})?[ \\t]*\\n?",
+            "",
+            cleaned,
+        )
+        cleaned = re.sub(r"\\n{3,}", "\\n\\n", cleaned).strip()
+        cleaned += "\\n\\n" + "\\n".join(
+            f"[^{n}]: {text}" for n, text in sorted(notes)
+        )
     return cleaned
 
 def clean_source(path):
