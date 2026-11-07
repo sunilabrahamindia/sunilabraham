@@ -327,19 +327,20 @@ The combined review is not the printer's interior file. The front-cover proof is
 
 ## Essay sources and original publication details
 
-The following list identifies each essay in the print edition, links to its full text on the TSAP website, and records its original publication details.
+The following list identifies each essay in the print edition, links to its full text on the TSAP website, records its original publication details and gives the total number of footnote citation markers in the source text. Repeated citations are counted each time they appear, rather than counting only distinct note entries. These figures provide a checklist for checking the footnotes in the generated PDF.
 
-| Essay | Full text | Original publication |
-|---|---|---|
-| The State of Hinduism in 2000 A.D.—Some Emerging Trends | [Full text](/amaa/state-of-hinduism-in-2000-ad-full-text/) | *Indian Journal of Theology*, Vol. 26, No. 2, April–June 1977. |
-| Religion, Spirituality and Aspirations of the People | [Full text](/amaa/religion-spirituality-and-aspirations-of-the-people-full-text/) | *Religion and Society*, Vol. XXV, No. 1, March 1978. |
-| The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue | [Full text](/amaa/living-hindu-popular-religious-consciousness-full-text/) | *Religion and Society*, Vol. XXVI, No. 1, March 1979, pp. 5–25. |
-| The Church and the Study of Religion | [Full text](/amaa/the-church-and-the-study-of-religion/) | *Religion and Society*, Vol. XXVIII, No. 3, September 1981, pp. 36–41. |
-| Religions and the Aspirations of the People | [Full text](/amaa/religions-and-the-aspirations-of-the-people/) | *Religion and Society*, Vol. XXX, Nos. 3 & 4, September–December 1983, pp. 102–108. |
-| Religion: A Way of Salvation or an Ideology of Oppression? | [Full text](/amaa/religion-way-salvation-ideology-oppression-full-text/) | *Religion and Society*, Vol. XXXII, No. 1, March 1985. |
-| Dalit Theology: A Movement of Counter-Culture | [Full text](/amaa/dalit-theology-movement-counter-culture-full-text/) | Paper No. 7, pp. 83–103, in *Towards a Dalit Theology* (1988). |
-| Dalit Liberation — Some Reflections on Their Ideological Predicament | [Full text](/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/) | *Religion and Society*, Vol. XXXV, No. 2, June 1988, pp. 47–52. |
-| The Ideological Nature of the Emerging Dalit Consciousness | [Full text](/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/) | *Religion and Society*, Vol. XXXVII, No. 3, September 1990, pp. 14–23. |
+| Essay | Full text | Citations (footnote markers) | Original publication |
+|---|---|---:|---|
+| The State of Hinduism in 2000 A.D.—Some Emerging Trends | [Full text](/amaa/state-of-hinduism-in-2000-ad-full-text/) | 0 | *Indian Journal of Theology*, Vol. 26, No. 2, April–June 1977. |
+| Religion, Spirituality and Aspirations of the People | [Full text](/amaa/religion-spirituality-and-aspirations-of-the-people-full-text/) | 6 | *Religion and Society*, Vol. XXV, No. 1, March 1978. |
+| The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue | [Full text](/amaa/living-hindu-popular-religious-consciousness-full-text/) | 8 | *Religion and Society*, Vol. XXVI, No. 1, March 1979, pp. 5–25. |
+| The Church and the Study of Religion | [Full text](/amaa/the-church-and-the-study-of-religion/) | 6 | *Religion and Society*, Vol. XXVIII, No. 3, September 1981, pp. 36–41. |
+| Religions and the Aspirations of the People | [Full text](/amaa/religions-and-the-aspirations-of-the-people/) | 3 | *Religion and Society*, Vol. XXX, Nos. 3 & 4, September–December 1983, pp. 102–108. |
+| Religion: A Way of Salvation or an Ideology of Oppression? | [Full text](/amaa/religion-way-salvation-ideology-oppression-full-text/) | 4 | *Religion and Society*, Vol. XXXII, No. 1, March 1985. |
+| Dalit Theology: A Movement of Counter-Culture | [Full text](/amaa/dalit-theology-movement-counter-culture-full-text/) | 42 | Paper No. 7, pp. 83–103, in *Towards a Dalit Theology* (1988). |
+| Dalit Liberation — Some Reflections on Their Ideological Predicament | [Full text](/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/) | 0 | *Religion and Society*, Vol. XXXV, No. 2, June 1988, pp. 47–52. |
+| The Ideological Nature of the Emerging Dalit Consciousness | [Full text](/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/) | 22 | *Religion and Society*, Vol. XXXVII, No. 3, September 1990, pp. 14–23. |
+| **Total** | | **91** | |
 
 ## See also
 
