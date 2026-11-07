@@ -591,6 +591,13 @@ As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings co
 #outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
 #set heading(outlined: true)
+#set page(
+  numbering: "1",
+  footer: context [
+    #set text(size: 8pt, fill: luma(65))
+    #align(center)[#counter(page).display("1")]
+  ],
+)
 """)
 
 for essay in essays:
