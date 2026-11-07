@@ -2,7 +2,7 @@
 layout: default
 title: "Vibodh Parthasarathi"
 description: "Biography of Vibodh Parthasarathi, Indian academic and researcher in media policy, media governance, communication studies and the digital media economy."
-categories: [Biographies]
+categories: [Biographies, "Vibodh Parthasarathi"]
 permalink: /vibodh/
 page_id: TSAP-1353
 created: 2026-10-24
@@ -27,7 +27,7 @@ Parthasarathi has worked in television production, research and media policy, an
 
 ## Education
 
-Vibodh Parthasarathi studied history at St. Stephen's College, University of Delhi, graduating with a Bachelor of Arts (Honours) degree in 1990. He received a master's degree in Mass Communication from the Mass Communication Research Centre at Jamia Millia Islamia in 1992, followed by a master's degree in Development Studies from the Institute of Social Studies in The Hague in 1994. 
+Vibodh Parthasarathi studied history at St. Stephen's College, University of Delhi, graduating with a Bachelor of Arts (Honours) degree in 1990. He received a master's degree in Mass Communication from the Mass Communication Research Centre at Jamia Millia Islamia in 1992, followed by a master's degree in Development Studies from the Institute of Social Studies in The Hague in 1994.
 
 His doctoral dissertation, *A Considered Silence: The Regulatory History of Press Ownership in India*, was published by the University of Helsinki in 2024. It examines the regulatory history of press ownership in India.
 
@@ -134,6 +134,7 @@ Parthasarathi's publications include books and research reports, journal article
 - "For a Sustainable Development of NGOs" (1993).
 
 His editorial and advisory work has included roles associated with *Global Media and Communication*, *Media Asia* and the India Media Centre at the University of Westminster. Other professional affiliations and roles have involved the Media and Journalism Research Center, The Media Foundation, MIT Press, Oxford University Press, *Platforms & Society* and the *Journal of Digital Media & Policy*.
+
 ## References
 
 1. [Vibodh Parthasarathi: Curriculum vitae](https://jmi.ac.in/upload/employeeresume/vparthasarathi.pdf), Jamia Millia Islamia, publication date not stated; accessed: 24 October 2026.
