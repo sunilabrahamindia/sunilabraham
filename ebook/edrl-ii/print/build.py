@@ -464,7 +464,7 @@ common = r"""
   author: "A. M. Abraham Ayrookuzhiel",
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
-#set text(font: "Linux Libertine O", size: 11pt, lang: "en")
+#set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
 #set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 12pt)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
@@ -478,8 +478,15 @@ common = r"""
   binding: left,
   margin: (inside: 18mm, outside: 14mm, top: 18mm, bottom: 17mm),
   header: context [
-    #set text(size: 7.5pt, fill: luma(85))
-    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
+    #if calc.even(counter(page).get().first()) [
+      #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    ] else [
+      #let chapter_headings = query(heading.where(level: 1), here())
+      #if chapter_headings.len() > 0 [
+        #align(center)[#chapter_headings.last().body]
+      ]
+    ]
     #v(3pt)
     #line(length: 100%, stroke: 0.5pt + luma(170))
   ],
@@ -600,8 +607,15 @@ As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings co
 #set page(
   numbering: "1",
   header: context [
-    #set text(size: 7.5pt, fill: luma(85))
-    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
+    #if calc.even(counter(page).get().first()) [
+      #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    ] else [
+      #let chapter_headings = query(heading.where(level: 1), here())
+      #if chapter_headings.len() > 0 [
+        #align(center)[#chapter_headings.last().body]
+      ]
+    ]
     #v(3pt)
     #line(length: 100%, stroke: 0.5pt + luma(170))
   ],
@@ -619,6 +633,9 @@ for essay in essays:
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
     parts.append("#pagebreak()\n")
+    parts.append("#set page(header: none)\n")
+    if essay["order"] == 1:
+        parts.append("#counter(page).update(1)\n")
     parts.append("#counter(footnote).update(0)\n")
     parts.append("#v(24mm)\n")
     parts.append(f"= {title}\n")
@@ -629,6 +646,21 @@ for essay in essays:
   #text(size: 9pt, style: "italic", fill: luma(75))[{essay['publication_note']}]
 ]
 #v(22pt)
+#set page(
+  header: context [
+    #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
+    #if calc.even(counter(page).get().first()) [
+      #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    ] else [
+      #let chapter_headings = query(heading.where(level: 1), here())
+      #if chapter_headings.len() > 0 [
+        #align(center)[#chapter_headings.last().body]
+      ]
+    ]
+    #v(3pt)
+    #line(length: 100%, stroke: 0.5pt + luma(170))
+  ],
+)
 """)
     if "under-construction.html" in raw:
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
