@@ -94,8 +94,8 @@ def clean_source(path):
     raw = path.read_text(encoding="utf-8")
     # Preserve explicitly marked poem blocks through HTML cleanup.
     raw = re.sub(
-        r'<div class=["']poem["'][^>]*>(.*?)</div>',
-        lambda match: "\\n\\n@@POEM_START@@\\n" + match.group(1).strip("\\n") + "\\n@@POEM_END@@\\n\\n",
+        r"<div class=['\\"]poem['\\"][^>]*>(.*?)</div>",
+        lambda match: "\n\n@@POEM_START@@\n" + match.group(1).strip("\n") + "\n@@POEM_END@@\n\n",
         raw,
         flags=re.S | re.I,
     )
@@ -150,9 +150,9 @@ def md_to_typst(markdown, stem):
             parts.append(convert(prose, f"prose-{index}"))
         poem = convert(match.group(1).strip(), f"poem-{index}")
         parts.append(
-            "#block(width: 100%, above: 1em, below: 1em)[\\n"
-            "  #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)\\n"
-            "  #align(center)[\\n" + poem + "\\n  ]\\n]"
+            "#block(width: 100%, above: 1em, below: 1em)[\n"
+            "  #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)\n"
+            "  #align(center)[\n" + poem + "\n  ]\n]"
         )
         cursor = match.end()
     remainder = markdown[cursor:].strip()
@@ -160,7 +160,7 @@ def md_to_typst(markdown, stem):
         parts.append(convert(remainder, "prose-final"))
     if not parts:
         return convert(markdown, "main")
-    return "\\n\\n".join(parts)
+    return "\n\n".join(parts)
 
 manifest = yaml.safe_load((BASE / "manifest.yml").read_text(encoding="utf-8"))
 essays = sorted(manifest["essays"], key=lambda item: item["order"])
