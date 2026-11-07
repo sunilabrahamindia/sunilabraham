@@ -377,6 +377,104 @@ The PDF also contains **two additional manually numbered footnotes** that are no
 **Audit result:** 27 of the 91 linked citation markers were correctly rendered as page-bottom footnotes. The remaining 64 appeared literally as Markdown markers (`[^1]`, `[^2]`, and so on) in the body text, without their corresponding page-bottom notes. The raw markers also caused a serious collision with the poetry layout on PDF page 142. This is the baseline against which the next corrected artifact must be checked.
 
 
+
+## Full PDF audit snapshot — 7 November 2026, 12:20 p.m.
+
+This section preserves the other findings from the same inspection of **combined review PDF artifact version 46**. It is a historical audit record, not a claim that every item remains unresolved in a later artifact. The Foreword, Editor's Note and production-credit wording were known working material at the time and are recorded here for completeness, not classified as errors requiring immediate correction.
+
+### Tables and boxed material
+
+The tables are the most substantial non-footnote layout problem identified in the version 46 PDF.
+
+| PDF page | Printed page | Finding recorded |
+|---|---:|---|
+| 79 | 78 | Table 1 is cramped; words break awkwardly across narrow columns. |
+| 80 | 79 | Table 2 column headings collide with borders or overlap; narrow columns cause excessive word breaks. |
+| 80–81 | 79–80 | Tables cross page boundaries without sufficiently clear continuation treatment. Table 3 continues without repeating its headings, making the context of continued rows difficult to follow. |
+| 81 | 80 | Table 4 has narrow columns and awkward line breaks. |
+
+**Required review when the tables are addressed:**
+- Redesign column widths around the content rather than forcing all columns to equal widths.
+- Keep headings legible and clearly separated from rules and cell content.
+- Avoid splitting individual rows across pages.
+- Where a table must continue, repeat its column headings and make the continuation unmistakable.
+- Consider landscape treatment or a redesigned multi-part table where the information cannot fit legibly at A5 size.
+- Do not solve the problem simply by shrinking the type until it becomes difficult to read.
+- Keep tables compact but independently understandable. Use clear headings, align numeric material consistently, and use rules sparingly.
+
+### Headings and hierarchy
+
+- The general heading hierarchy is restrained and consistent, but display essay titles need a specific check for undesirable line-end hyphenation.
+- Example: on PDF page 77, the word "Ideology" is broken as "Ideol-ogy" in the essay display title. Display titles should not be hyphenated; adjust the title measure, line breaks or local typography instead.
+- Keep the heading hierarchy consistent and descriptive. Avoid introducing unnecessary levels or decorative treatments.
+- Review heading placement at page bottoms so that a heading is not stranded without enough following text.
+
+### Footnotes, poetry and source notes
+
+The detailed marker count and version 46 footnote findings are recorded in the preceding **Footnote tally snapshot**. The additional observations from the visual audit were:
+
+- Where footnotes did render correctly, the thin separator and spacing at the foot of the page looked appropriate. Retain this restrained treatment.
+- The two additional manually numbered legacy notes were visible separately from the 91 linked source-marker tally. They require reconciliation with the source articles before the definitive total is stated.
+- On PDF page 142 (printed page 141), raw citation markers in the poetry area disrupted the lines and caused visible collisions/overlap. The poetry layout must be checked again after citation conversion.
+- Preserve the distinction between prose and poetry: poetry should not inherit justified prose spacing or first-line indentation.
+
+### General typography and page composition
+
+- The A5 trim size is consistent throughout the proof.
+- Linux Libertine O is an appropriate scholarly serif for this collection. The 11 pt body size is readable; the audit did not recommend replacing the typeface or undertaking a wholesale redesign.
+- Running headers and centred page numbers are restrained and consistent. Retain them unless a later page-specific issue is found.
+- Justified body text contains frequent hyphenation in places. This was not judged uniformly defective, but it should be reviewed after the footnote and table corrections, with particular attention to awkward breaks and uneven page texture.
+- Review widows and orphans, short final lines, isolated headings and page turns during final pagination.
+- The blank pages observed in the proof appear to support intentional recto/verso or section-opening layout. Do not remove them automatically; confirm their purpose against the print pagination plan.
+- The contents page (PDF page 9) appeared to show the correct starting page numbers for all nine essays in version 46. Recheck it after pagination changes.
+
+### Front matter and production material — status at the time of audit
+
+These items were visible in version 46 but were identified as work in progress, not as defects to fix in the citation-only pass:
+
+- PDF page 6 (printed page 5): the Foreword contained the placeholder text indicating that the approved Foreword was still awaited.
+- PDF pages 7–8 (printed pages 6–7): the Editor's Note carried the notice "DRAFT VERSION — NOT YET FINALISED".
+- PDF page 5 (printed page 4): the publication details said that typesetting and printing credits would be added when production details were confirmed.
+
+The Foreword and Editor's Note are being worked on separately. These passages must remain untouched during a citation-only correction.
+
+### Cover proof
+
+- PDF page 1 is a front-cover proof only. It is not a complete printer's wrap.
+- The cover concept itself was judged coherent and professionally restrained: cream ground, dark serif title, muted red accent, and the ochre sun/tree and silhouettes.
+- Final print production still requires the full-wrap cover, including back cover and spine. The spine width must be calculated from the printer's final paper, binding and page-count specifications, using the printer's template.
+
+### PDF accessibility and archival preparation
+
+The version 46 file was selectable/searchable as text, but the PDF inspection reported:
+
+- no tagged PDF structure;
+- no custom document metadata;
+- no confirmed bookmarks/outlines;
+- no declared document language.
+
+For the final digital/archival PDF, investigate adding accurate title, author, subject, keywords and language metadata; useful bookmarks/outlines for the front matter and nine essays; and tagged structure where the production toolchain permits it. These are quality and accessibility improvements, not part of the citation-only correction.
+
+### Stray notes and web material
+
+- No separate, stray "Notes" section heading was found in the extracted version 46 PDF.
+- No unrelated or accidentally scraped web content was identified.
+- The site addresses visible in the book were in relevant publication/editorial contexts: the project website and the AMAA portal.
+- The legitimate page-bottom notes in essays 2–6 and the two manually numbered legacy notes were not classified as stray material.
+
+### Scope and order of subsequent work
+
+This audit record is intended to prevent findings from being lost between successive proof versions. The order agreed for the next checks is:
+
+1. Correct and verify citations/footnotes against the source articles and the version 46 baseline.
+2. Inspect the next artifact specifically for citation correctness before changing anything else.
+3. Address the four table-layout cases and their page continuations as a separate task.
+4. Review display-title hyphenation and page composition.
+5. Complete front matter and production credits when the relevant text/details are ready.
+6. Prepare the final full-wrap cover and improve PDF metadata/accessibility as part of final production.
+
+No table, heading, front-matter, cover, metadata or general typography changes were made as part of the citation-only correction recorded after this audit.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
