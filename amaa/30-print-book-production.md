@@ -208,15 +208,15 @@ The cover download is checked for a minimum file size and JPEG signature before 
 | Top margin | 18 mm |
 | Bottom margin | 17 mm |
 | Body typeface | Linux Libertine O |
-| Body size | 10.5 pt |
+| Body size | 11 pt |
 | Paragraph alignment | Justified |
-| Line leading | 0.72 em |
+| Line leading | 0.85 em |
 | First-line indent | 1.1 em |
-| Paragraph spacing | 0.45 em |
+| Paragraph spacing | 12 pt |
 | Level-one headings | 18 pt, bold, centred |
-| Level-two headings | 13 pt, bold |
-| Level-three headings | 11.5 pt, bold |
-| Running head | Book title only: ESSAYS ON DALITS, RELIGION AND LIBERATION II; centred, 7.5 pt, light grey |
+| Level-two headings | 16 pt, bold |
+| Level-three headings | 14 pt, bold |
+| Running head | Book title only: ESSAYS ON DALITS, RELIGION AND LIBERATION II; centred, 7.5 pt, light grey, with a thin rule below |
 | Folio | Centred, 8 pt, light grey |
 
 These are the current proof settings, not final approved specifications. They must be compared with the EDRL I printed-book references when supplied. The final gutter and page design remain subject to printer requirements and physical proofing.
@@ -272,6 +272,12 @@ The combined review is not the printer's interior file. The front-cover proof is
 - **6 November 2026** - Updated the running head to remove the project name entirely; the only running-head text is now the book title, `ESSAYS ON DALITS, RELIGION AND LIBERATION II`. The intentionally blank verso after the half-title now has both header and footer disabled, so it carries no running head or folio. The normal book-title running head and folio are restored for following pages.
 - **6 November 2026** - Changed the GitHub Actions run title to include its run number (`EDRL II print proof #N`) and made each uploaded artifact unique using `edrl-ii-print-preview-N`. This prevents successive mobile downloads from sharing the same artifact name. The workflow path filters now list the nine manifest essay source files explicitly rather than triggering on every file under `amaa/**`; documentation-only changes to this production page therefore do not start another PDF build.
 - **6 November 2026** - The book-title running head, completely blank verso and numbered artifact changes were built successfully in GitHub Actions run [#42197772258](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42197772258), workflow run number 21, commit `a003041fe4f56ab4d071712ae07900b7ef5ae9b0`. All seven build steps completed successfully, including PDF generation and artifact upload. Artifact `edrl-ii-print-preview-21` (ID `13493515685`, approximately 1.60 MB) contains the three PDFs and expires on 6 December 2026. This confirms successful generation and upload; visual inspection of the blank page and running head remains necessary.
+
+- **6 November 2026** - Continued the interior typography review. The body text was set to 11 pt Linux Libertine O, with 0.85 em leading, 1.1 em first-line indentation and 12 pt paragraph spacing. Heading sizes were set to 18 pt for level one, 16 pt for level two and 14 pt for level three. The A5 margins remained 18 mm inside, 14 mm outside, 18 mm top and 17 mm bottom. These are the current proof settings, not final printer-approved specifications.
+- **6 November 2026** - Added a thin rule below the centred book-title running head. The publication-details heading replaced the earlier "Publication and copyright" heading, and the copyright notice and all-rights-reserved reproduction restriction were removed from the print front matter as instructed. This records a change to the print composition; it does not alter the source essays.
+- **6 November 2026** - Corrected the source treatment of *Religion: A Way of Salvation or an Ideology of Oppression?* so the print build takes the complete essay text rather than the website's transcription-introduction material. The placeholder detection was also narrowed to the explicit under-construction marker, avoiding a false transcription-pending result caused by ordinary wording in an essay. These were print-extraction changes; the original article source remains the source of the essay text.
+- **7 November 2026** - Added print-specific handling for explicitly marked poem blocks in *Dalit Theology: A Movement of Counter-Culture* and *The Ideological Nature of the Emerging Dalit Consciousness*. The build preserves these blocks through HTML cleanup and converts them as centred text with no first-line indentation, no justification and no paragraph spacing. The source poem wording and stanza structure were not edited in this change. GitHub Actions print-preview run [#42335828680](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42335828680) completed successfully; its artifact is `edrl-ii-print-preview-35` (ID `13558688901`). The successful build confirms generation, not visual approval of the poem pages.
+- **7 November 2026** - Removed redundant standalone "Notes" headings from the print conversion when the corresponding HTML note entries have been extracted and converted to page-bottom footnotes. This is conditional: note text is retained, and the heading is removed only when note entries were successfully extracted. The source essay pages are unchanged. GitHub Actions print-preview run [#42336320507](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42336320507) completed successfully at commit `cbf5bcde75224e7a4c32770e07c0aadad572ff1c`. Artifact `edrl-ii-print-preview-36` (ID `13559537201`, approximately 1.97 MB) contains the three PDFs and is retained until 7 December 2026. The PDF still needs visual checking to confirm that the redundant headings have disappeared and that all note text appears correctly at the foot of the relevant pages.
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
