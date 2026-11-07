@@ -488,8 +488,9 @@ common = r"""
     #align(center)[#counter(page).display("1")]
   ],
 )
-#show heading.where(level: 1): it => block(above: 14pt, below: 17pt, breakable: false)[
-  #set text(font: "Linux Libertine O", size: 18pt, weight: "bold", hyphenate: false)
+#show heading.where(level: 1): it => block(above: 0pt, below: 0pt, breakable: false)[
+  #set text(font: "Linux Libertine O", size: 19pt, weight: "bold", hyphenate: false)
+  #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
   #align(center)[#it]
 ]
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
@@ -598,6 +599,12 @@ As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings co
 #set heading(outlined: true)
 #set page(
   numbering: "1",
+  header: context [
+    #set text(size: 7.5pt, fill: luma(85))
+    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    #v(3pt)
+    #line(length: 100%, stroke: 0.5pt + luma(170))
+  ],
   footer: context [
     #set text(size: 8pt, fill: luma(65))
     #align(center)[#counter(page).display("1")]
@@ -613,15 +620,15 @@ for essay in essays:
     raw = source.read_text(encoding="utf-8")
     parts.append("#pagebreak()\n")
     parts.append("#counter(footnote).update(0)\n")
+    parts.append("#v(24mm)\n")
     parts.append(f"= {title}\n")
-    parts.append(f"""#block(width: 100%, inset: (top: 7pt, bottom: 8pt), stroke: (top: 0.55pt + luma(150), bottom: 0.55pt + luma(150)))[
-  #align(center)[
-    #text(size: 7pt, weight: "bold", tracking: 1pt, fill: luma(90))[ORIGINAL PUBLICATION]
-    #v(3pt)
-    #text(size: 8.5pt, style: "italic", fill: luma(75))[{essay['publication_note']}]
-  ]
+    parts.append(f"""#v(9pt)
+#align(center)[
+  #text(size: 7pt, weight: "bold", tracking: 1.2pt, fill: luma(90))[ORIGINAL PUBLICATION]
+  #v(4pt)
+  #text(size: 9pt, style: "italic", fill: luma(75))[{essay['publication_note']}]
 ]
-#v(7pt)
+#v(22pt)
 """)
     if "under-construction.html" in raw:
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
