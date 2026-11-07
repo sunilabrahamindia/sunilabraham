@@ -7,6 +7,7 @@ import subprocess
 import urllib.request
 import yaml
 from bs4 import BeautifulSoup, NavigableString
+from copy import deepcopy
 
 ROOT = Path(__file__).resolve().parents[3]
 BASE = ROOT / "ebook" / "edrl-ii"
@@ -142,35 +143,57 @@ def clean_source(path):
     # Preserve explicitly marked poem blocks through HTML cleanup.
     raw = re.sub(
         r'<div class="poem"[^>]*>(.*?)</div>',
-        lambda match: "\n\n@@POEM_START@@\n" + match.group(1).strip("\n") + "\n@@POEM_END@@\n\n",
+        lambda match: "\\n\\n@@POEM_START@@\\n" + match.group(1).strip("\\n") + "\\n@@POEM_END@@\\n\\n",
         raw,
         flags=re.S | re.I,
     )
-    raw = re.sub(r"\A---\s*\n.*?\n---\s*\n", "", raw, flags=re.S)
-    raw = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", raw)
+    raw = re.sub(r"\\A---\\s*\\n.*?\\n---\\s*\\n", "", raw, flags=re.S)
+    raw = re.sub(r"(?m)^\\s*\\{%.*?%\\}\\s*$", "", raw)
     raw = re.sub(r"<!--.*?-->", "", raw, flags=re.S)
+
+    # Capture source footnotes before trimming publication metadata. In several
+    # essays the Notes list appears after the Publication section.
+    source_soup = BeautifulSoup(raw, "html.parser")
+    source_note_items = [
+        deepcopy(item) for item in source_soup.select('li[id^="note-"]')
+    ]
+
     lines = raw.splitlines()
     full = next((i for i, line in enumerate(lines)
-                 if re.match(r"^##\s+Full\s+[Tt]ext\b", line.strip())), None)
+                 if re.match(r"^##\\s+Full\\s+[Tt]ext\\b", line.strip())), None)
     if full is not None:
         lines = lines[full + 1:]
     else:
         contents = next((i for i, line in enumerate(lines)
-                         if re.match(r"^##\s+Contents\b", line.strip())), None)
+                         if re.match(r"^##\\s+Contents\\b", line.strip())), None)
         if contents is not None:
             end = next((i for i in range(contents + 1, len(lines))
-                        if re.match(r"^#{1,6}\s+", lines[i].strip())), len(lines))
+                        if re.match(r"^#{1,6}\\s+", lines[i].strip())), len(lines))
             lines = lines[end:]
     end = next((i for i, line in enumerate(lines)
-                if re.match(r"^##\s+Publication\b", line.strip())
-                or re.match(r"^\{%\s*include\s+navbox-amaa", line.strip())
-                or re.match(r"^<style\b", line.strip())), len(lines))
+                if re.match(r"^##\\s+Publication\\b", line.strip())
+                or re.match(r"^\\{%\\s*include\\s+navbox-amaa", line.strip())
+                or re.match(r"^<style\\b", line.strip())), len(lines))
     lines = lines[:end]
-    body = "\n".join(lines).strip()
-    body = re.sub(r"(?m)^\s*>\s?", "", body)
-    body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
-    references = set(re.findall(r"""<sup\b[^>]*\bid=["']ref-(\d+)[^"']*["'][^>]*>""", body, re.I))
-    note_ids = set(re.findall(r"""<li\b[^>]*\bid=["']note-(\d+)["'][^>]*>""", body, re.I))
+    body = "\\n".join(lines).strip()
+    body = re.sub(r"(?m)^\\s*>\\s?", "", body)
+    body = re.sub(r"(?m)^\\s*\\{%.*?%\\}\\s*$", "", body)
+
+    # Replace any partial in-body note list with the complete list captured above.
+    body_soup = BeautifulSoup(body, "html.parser")
+    for item in body_soup.select('li[id^="note-"]'):
+        item.decompose()
+    for item in source_note_items:
+        body_soup.append(item)
+    body = body_soup.decode_contents()
+
+    references = set(re.findall(
+        r"""<sup\\b[^>]*\\bid=["']ref-(\\d+)[^"']*["'][^>]*>""", body, re.I
+    ))
+    note_ids = set(re.findall(
+        r"""<li\\b[^>]*\\bid=["']note-(\\d+)["'][^>]*>""",
+        "".join(str(item) for item in source_note_items), re.I
+    ))
     missing = sorted(references - note_ids, key=int)
     unreferenced = sorted(note_ids - references, key=int)
     if missing or unreferenced:
