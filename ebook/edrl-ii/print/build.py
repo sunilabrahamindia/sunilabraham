@@ -140,7 +140,7 @@ if len(essays) != 9:
 fetch_cover()
 common = r"""
 #set text(font: "Linux Libertine O", size: 10.5pt, lang: "en")
-#set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 0.7em)
+#set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 0.52em)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
 #set page(
@@ -156,7 +156,7 @@ common = r"""
     #align(center)[#counter(page).display("1")]
   ],
 )
-#show heading.where(level: 1): it => block(above: 0pt, below: 15pt, breakable: false)[
+#show heading.where(level: 1): it => block(above: 9pt, below: 17pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 18pt, weight: "bold")
   #align(center)[#it]
 ]
@@ -233,7 +233,15 @@ for essay in essays:
     raw = source.read_text(encoding="utf-8")
     parts.append("#pagebreak()\n")
     parts.append(f"= {title}\n")
-    parts.append(f"#text(size: 8.5pt, style: \"italic\", fill: luma(80))[Original publication: {essay['publication_note']}]\n#v(7pt)\n")
+    parts.append(f"""#block(width: 100%, inset: (top: 7pt, bottom: 8pt), stroke: (top: 0.55pt + luma(150), bottom: 0.55pt + luma(150)))[
+  #align(center)[
+    #text(size: 7pt, weight: "bold", tracking: 1pt, fill: luma(90))[ORIGINAL PUBLICATION]
+    #v(3pt)
+    #text(size: 8.5pt, style: "italic", fill: luma(75))[{essay['publication_note']}]
+  ]
+]
+#v(7pt)
+""")
     if "under-construction.html" in raw or re.search(r"full text.*being transcribed|transcription.*being prepared", raw, re.I):
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
   *Transcription pending*
