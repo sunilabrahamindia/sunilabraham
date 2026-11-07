@@ -140,7 +140,7 @@ if len(essays) != 9:
 fetch_cover()
 common = r"""
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en")
-#set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 6pt)
+#set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 12pt)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
 #set page(
