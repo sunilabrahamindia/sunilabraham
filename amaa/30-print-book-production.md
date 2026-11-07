@@ -98,6 +98,68 @@ The design work will establish:
 
 The e-book and print editions should share the same editorial identity, including consistent titles, heading hierarchy, emphasis, references and publication details. However, the EPUB stylesheet is not a print stylesheet: EPUB CSS controls the reflowable digital edition, while Typst controls the fixed-page PDF.
 
+## International publishing standards and typographic principles
+
+The print design will be reviewed against established international book-production guidance and recognised principles of book typography. These references are intended to inform decisions during design and proofing; they are not a claim that every publisher follows one universal layout or that every recommendation must be applied mechanically. Some or all of the points below may be adopted where they suit this book, its content, its A5 format and the printer's requirements.
+
+The purpose of recording these principles is to preserve them as a reference for the remaining design, typesetting and proofreading work. They should be considered alongside the existing production specifications and the findings in the PDF audit.
+
+### Page architecture and pagination
+
+- Important opening sections, including the contents and the beginning of the main text, should be considered for right-hand (recto, odd-numbered) page openings, where appropriate to the book's structure.
+- Blank pages required to maintain recto openings should remain intentional and should not carry running heads or folios.
+- Preliminary matter and the main text may follow different numbering conventions. The chosen sequence must be deliberate, consistent and reflected correctly in the contents.
+- Page numbers (folios) should be placed consistently and unobtrusively, normally towards the outside edge or in another established position that works with the running heads.
+- Running heads should help readers navigate the book. Their wording and placement must remain consistent, and they should not collide with folios or other page elements.
+- Facing pages should be assessed as spreads as well as individually. Inner margins must allow for binding, and the text block should look balanced across the spread.
+- Essay or chapter openings should follow a consistent pattern, with appropriate space above the title and enough room for the opening paragraph.
+
+### Body typography and measure
+
+- Typeface, type size, line spacing and text-block width should be judged together. A nominal point size alone does not establish readability.
+- Line length should support sustained reading. Bringhurst's commonly cited guidance is approximately 45–75 characters per line, with around 66 as a useful working target; this is a guide to evaluate against the actual typeface and page, not an inflexible rule.
+- Line spacing should be sufficient to distinguish lines clearly without making the page look loose. Values such as 11/13 pt or 10/12 pt can serve as starting points for evaluation, not predetermined specifications.
+- Paragraph treatment should be consistent. The first paragraph after a heading or section break is commonly set without a first-line indent; subsequent paragraphs may use a consistent indent or another clearly defined system.
+- Avoid excessive consecutive hyphenated lines, awkward breaks, and hyphenation of proper names or display titles.
+- Check for widows, orphans, short isolated lines and uneven page texture. Correct these through considered composition rather than arbitrary spacing changes.
+- Heading levels should be distinct and consistent without unnecessary decoration or oversized display treatment.
+
+### Tables, illustrations and captions
+
+- Tables should be placed close to their first discussion where practical and should remain legible at the final trim size.
+- Column widths should reflect the content. Text headings and labels should be easy to scan; numerical columns should be aligned consistently.
+- Avoid splitting a table across pages where practical. If a table continues, repeat its number or title as appropriate and repeat the column headings so that the continued material remains understandable.
+- Tables should be positioned without awkwardly interrupting the reading flow. If a table cannot fit legibly, consider a redesigned or divided presentation, or another treatment appropriate to the content, rather than merely reducing the type size.
+- Illustrations and captions should remain together where possible. Images must reproduce clearly at the intended print size.
+
+### Footnotes, references and other matter
+
+- Footnotes should be readable, consistently numbered and clearly associated with their references. Their spacing and separation from the main text should be restrained and consistent.
+- References, URLs, quotations, lists and other supporting matter should remain understandable in print and should not depend on active hyperlinks.
+- Proper names, titles, punctuation, symbols and special characters require careful proofing. Fonts must contain the required glyphs and be embedded in the final PDF.
+- The final PDF should be checked for clipping, collisions, missing glyphs, unexpected blank pages and other composition faults.
+
+### Printer and PDF production checks
+
+- The printer's own specifications take precedence for technical matters such as trim, binding allowance, bleed, crop marks, colour requirements and PDF standards.
+- Confirm the required inner margin and binding allowance with the printer; do not infer them from a generic book-design recommendation.
+- Confirm whether crop marks, bleed or other production marks are required before adding them.
+- Check embedded fonts, page dimensions, image resolution and the final PDF against the printer's requirements.
+- Inspect the PDF on screen and, where practicable, as a physical test print. A successful automated build is not proof of a satisfactory printed book.
+
+### Reference sources
+
+The following sources inform this review. Publisher instructions are production guidance for their own workflows; typographic principles are reference points to evaluate, not universal rules.
+
+1. [Oxford University Press - Preparing print-ready files](https://academic.oup.com/pages/for-authors/books/the-book-publishing-process/writing-and-content-preparation/preparing-print-ready-files)
+2. [Oxford University Press - Tables and boxes](https://academic.oup.com/pages/for-authors/books/the-book-publishing-process/writing-and-content-preparation/tables-and-boxes)
+3. [Wiley - Preparing print-ready PDFs](https://authorservices-ppd.wiley.com/author-resources/book-authors/prepare-your-manuscript/preparing-print-ready-pdfs.html)
+4. [The Chicago Manual of Style - Production technologies](https://www.chicagomanualofstyle.org/help-tools/production-technologies.html)
+5. Robert Bringhurst, [The Elements of Typographic Style](https://s3.amazonaws.com/arena-attachments/2584673/e36028a1643a616ec4be1e8d0e859fbb.pdf).
+6. [University of Alabama Press - Illustration guidelines](https://www.uapress.ua.edu/illustration-guidelines/).
+
+These references should be revisited when the page design, tables and final PDF are reviewed. Any adopted change should be recorded in the production log, and should not silently alter the source essays or previously approved page elements.
+
 ## Typst and technical implementation
 
 Typst will be the typesetting system for the paperback interior. It will generate the PDF from source files maintained in the TSAP GitHub repository.
