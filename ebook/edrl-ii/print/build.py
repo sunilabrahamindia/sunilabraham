@@ -94,7 +94,7 @@ def clean_source(path):
     raw = path.read_text(encoding="utf-8")
     # Preserve explicitly marked poem blocks through HTML cleanup.
     raw = re.sub(
-        r"<div class=['\\"]poem['\\"][^>]*>(.*?)</div>",
+        r'<div class="poem"[^>]*>(.*?)</div>',
         lambda match: "\n\n@@POEM_START@@\n" + match.group(1).strip("\n") + "\n@@POEM_END@@\n\n",
         raw,
         flags=re.S | re.I,
