@@ -207,8 +207,8 @@ def html_table_to_typst(table):
     fence = chr(96) * 3
     return (
         fence + "{=typst}\n"
-        f"#set text(size: {font_size}, hyphenate: false)\n"
-        "#table(\n"
+        f"#{{\n  set text(size: {font_size}, hyphenate: false)\n"
+        "  table(\n"
         f"  columns: ({', '.join(f'{ratio}fr' for ratio in ratios)}),\n"
         "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
         "  inset: (x: 3pt, y: 3.5pt),\n"
@@ -220,7 +220,8 @@ def html_table_to_typst(table):
         f"    {header_cells},\n"
         "  ),\n"
         f"  {cells},\n"
-        ")\n"
+        "  )\n"
+        "}\n"
         + fence + "\n"
     )
 
