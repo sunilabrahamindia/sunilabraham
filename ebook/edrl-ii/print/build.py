@@ -38,7 +38,7 @@ def inline_markdown(node):
     if name in ("strong", "b"):
         return f"**{content}**"
     if name == "br":
-        return "\\n"
+        return "\n"
     return content
 
 def html_table_to_markdown(table):
@@ -127,12 +127,12 @@ def extract_footnotes_and_clean(markdown):
         # into page-bottom footnotes. Remove the now-redundant heading only
         # when note entries were successfully extracted.
         cleaned = re.sub(
-            r"(?mi)^[ \\t]*#{1,6}[ \\t]+Notes(?:[ \\t]+\\{#notes\\})?[ \\t]*\\n?",
+            r"(?mi)^[ \t]*#{1,6}[ \t]+Notes(?:[ \t]+\{#notes\})?[ \t]*\n?",
             "",
             cleaned,
         )
-        cleaned = re.sub(r"\\n{3,}", "\\n\\n", cleaned).strip()
-        cleaned += "\\n\\n" + "\\n".join(
+        cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+        cleaned += "\n\n" + "\n".join(
             f"[^{n}]: {text}" for n, text in sorted(notes)
         )
     return cleaned
@@ -169,11 +169,17 @@ def clean_source(path):
     body = "\n".join(lines).strip()
     body = re.sub(r"(?m)^\s*>\s?", "", body)
     body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
-    references = set(re.findall(r"""<sup\s+id=["']ref-(\d+)["']""", raw, re.I))
-    note_ids = set(re.findall(r"""<li\s+id=["']note-(\d+)["']""", raw, re.I))
+    references = set(re.findall(r"""<sup\b[^>]*\bid=["']ref-(\d+)[^"']*["'][^>]*>""", body, re.I))
+    note_ids = set(re.findall(r"""<li\b[^>]*\bid=["']note-(\d+)["'][^>]*>""", body, re.I))
     missing = sorted(references - note_ids, key=int)
-    if missing:
-        raise SystemExit(f"Footnote targets missing in {path.name}: {', '.join(missing)}")
+    unreferenced = sorted(note_ids - references, key=int)
+    if missing or unreferenced:
+        problems = []
+        if missing:
+            problems.append("missing note entries: " + ", ".join(missing))
+        if unreferenced:
+            problems.append("unreferenced note entries: " + ", ".join(unreferenced))
+        raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
     return extract_footnotes_and_clean(body)
 
 def md_to_typst(markdown, stem):
@@ -220,6 +226,11 @@ common = r"""
 #set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 12pt)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
+#set footnote.entry(
+  separator: line(length: 30%, stroke: 0.5pt + luma(90)),
+  clearance: 0.6em,
+  gap: 0.35em,
+)
 #set page(
   paper: "a5",
   binding: left,
@@ -349,6 +360,7 @@ for essay in essays:
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
     parts.append("#pagebreak()\n")
+    parts.append("#counter(footnote).update(0)\n")
     parts.append(f"= {title}\n")
     parts.append(f"""#block(width: 100%, inset: (top: 7pt, bottom: 8pt), stroke: (top: 0.55pt + luma(150), bottom: 0.55pt + luma(150)))[
   #align(center)[
