@@ -17,15 +17,15 @@ created: 2026-11-07
   <style>
     .amaa-invitation-svg { display:block; width:100%; max-width:900px; height:auto; margin:1.5rem auto; font-family:Georgia, "Palatino Linotype", "Book Antiqua", serif; }
     .paper { fill:#f7f2e9; }
-    .header-band { fill:#6b1f2b; }
+    .header-band { fill:#234f78; }
     .ink { fill:#172d4a; }
     .cream-text { fill:#fffaf1; }
-    .maroon { fill:#6b1f2b; }
+    .maroon { fill:#234f78; }
     .muted { fill:#514a43; }
     .rule { stroke:#d8cfc1; stroke-width:1.4; }
     .panel { fill:#fffaf2; stroke:#d8cfc1; stroke-width:1.5; }
     .table-head { fill:#173b5e; }
-    .number, .bullet { fill:#6b1f2b; }
+    .number, .bullet { fill:#234f78; }
     .portrait-frame { fill:#fffdf8; stroke:#b18a55; stroke-width:5; }
     .name { font-size:57px; font-weight:700; }
     .subtitle { font-size:28px; font-style:italic; }
@@ -44,26 +44,26 @@ created: 2026-11-07
       .amaa-invitation-svg { margin:0.5rem auto; }
     }
     body.tsap-dark-mode .amaa-invitation-svg .paper { fill:#111827; }
-    body.tsap-dark-mode .amaa-invitation-svg .header-band { fill:#351923; }
+    body.tsap-dark-mode .amaa-invitation-svg .header-band { fill:#172f49; }
     body.tsap-dark-mode .amaa-invitation-svg .ink,
     body.tsap-dark-mode .amaa-invitation-svg .muted { fill:#e5e7eb; }
     body.tsap-dark-mode .amaa-invitation-svg .cream-text { fill:#fff8f0; }
-    body.tsap-dark-mode .amaa-invitation-svg .maroon { fill:#e6a2ad; }
+    body.tsap-dark-mode .amaa-invitation-svg .maroon { fill:#a9c9e5; }
     body.tsap-dark-mode .amaa-invitation-svg .panel { fill:#1f2937; stroke:#475569; }
     body.tsap-dark-mode .amaa-invitation-svg .table-head { fill:#263f59; }
     body.tsap-dark-mode .amaa-invitation-svg .number,
-    body.tsap-dark-mode .amaa-invitation-svg .bullet { fill:#d58a9a; }
+    body.tsap-dark-mode .amaa-invitation-svg .bullet { fill:#8fb8dc; }
     body.tsap-dark-mode .amaa-invitation-svg .rule { stroke:#475569; }
     body.tsap-dark-mode .amaa-invitation-svg .portrait-frame { fill:#1f2937; stroke:#9b835d; }
     @media (prefers-color-scheme:dark) {
       .paper { fill:#111827; }
-      .header-band { fill:#351923; }
+      .header-band { fill:#172f49; }
       .ink, .muted { fill:#e5e7eb; }
       .cream-text { fill:#fff8f0; }
-      .maroon { fill:#e6a2ad; }
+      .maroon { fill:#a9c9e5; }
       .panel { fill:#1f2937; stroke:#475569; }
       .table-head { fill:#263f59; }
-      .number, .bullet { fill:#d58a9a; }
+      .number, .bullet { fill:#8fb8dc; }
       .rule { stroke:#475569; }
       .portrait-frame { fill:#1f2937; stroke:#9b835d; }
     }
