@@ -244,9 +244,13 @@ def extract_footnotes_and_clean(markdown):
         if not listing.get_text(" ", strip=True):
             listing.decompose()
 
-    for table in soup.find_all("table"):
+    raw_tables = {}
+    for index, table in enumerate(soup.find_all("table")):
         converted = html_table_to_typst(table)
-        table.replace_with(NavigableString("\n\n" + converted + "\n\n"))
+        token = f"TSAP_RAW_TYPST_TABLE_{index}_PLACEHOLDER"
+        raw_tables[token] = converted
+        table.replace_with(NavigableString(token))
+
 
     for marker in soup.select('sup[id^="ref-"]'):
         target = marker.find("a", href=re.compile(r"^#note-"))
@@ -274,6 +278,8 @@ def extract_footnotes_and_clean(markdown):
         tag.unwrap()
 
     cleaned = soup.decode_contents()
+    for token, raw_table in raw_tables.items():
+        cleaned = cleaned.replace(token, "\\n\\n" + raw_table + "\\n\\n")
     cleaned = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", cleaned)
     cleaned = re.sub(r"<!--.*?-->", "", cleaned, flags=re.S)
     cleaned = re.sub(r"(?m)^\s*<[^>]+>\s*$", "", cleaned)
