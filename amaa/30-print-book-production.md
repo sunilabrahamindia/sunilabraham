@@ -108,6 +108,41 @@ The print project should remain separate from the EPUB build. A likely location 
 
 The source manuscript should remain traceable to the approved essays and front matter. Any publication-only corrections must be deliberate and recorded. The original website articles should not be silently rewritten as part of print composition.
 
+## Typst versus Markdown
+
+Markdown and Typst are both text-based markup systems, but their formatting symbols are not interchangeable. Markdown is used for the TSAP source pages and the reflowable e-book content. Typst is used to compose the fixed-page print PDF. When text is transferred from a Markdown source into a Typst document, its emphasis markers must be converted to Typst syntax rather than copied unchanged.
+
+The TSAP [Markdown cheatsheet](/tsap/markdown/) documents the Markdown conventions used across the project. The comparisons below focus on the formatting features that matter directly to this print workflow.
+
+### Inline formatting
+
+<div class="typst-markdown-table-wrap" role="region" aria-label="Comparison of Markdown and Typst inline formatting" tabindex="0">
+
+| Formatting | Markdown (TSAP source) | Typst (print source) | Important difference |
+|---|---|---|---|
+| Bold | `**bold text**` | `*bold text*` or `#strong[bold text]` | In Typst, asterisks indicate bold. |
+| Italic | `*italic text*` or `_italic text_` | `_italic text_` or `#emph[italic text]` | In Typst, underscores indicate italic. |
+| Underline | Not part of standard Markdown. HTML `<u>underlined text</u>` may work where raw HTML is permitted. | `#underline[underlined text]` | Typst has a native underline function; Markdown does not have a standard underline marker. |
+
+</div>
+
+### Headings and tables
+
+<div class="typst-markdown-table-wrap" role="region" aria-label="Comparison of Markdown and Typst headings and tables" tabindex="0">
+
+| Element | Markdown (TSAP source) | Typst (print source) | Important difference |
+|---|---|---|---|
+| Level 1 heading | `# Heading` | `= Heading` | Markdown uses hash signs; Typst uses equals signs. |
+| Level 2 heading | `## Heading` | `== Heading` | Each additional marker indicates a lower heading level. |
+| Level 3 heading | `### Heading` | `=== Heading` | The marker sequence is different even though the heading hierarchy is comparable. |
+| Table | Pipe table, with a header separator row: `\| Name \| Year \|` followed by `\|---\|---\|` | `#table(columns: 2, [Name], [Year], [Example], [2026])` | Markdown uses pipe-delimited rows; Typst uses the `#table()` function and explicit column definitions. |
+
+</div>
+
+The distinction between bold and italic is especially important in this project. The Markdown cheatsheet uses `*italics*` and `**bold**`. In Typst, the meanings are different: `*bold*` and `_italics_`. Copying Markdown emphasis markers directly into a Typst source can therefore change the intended appearance. The Editor's Note uses Typst's underscore syntax for book and journal titles; all other text in that note is plain, without bold styling.
+
+The two comparison tables are placed in horizontally scrollable containers on narrow screens. This keeps the table columns readable on mobile rather than forcing the page layout to compress the contents.
+
 ## Pagination and print treatment
 
 Page numbers will be generated automatically by Typst as part of the interior layout; they will not be typed manually into the manuscript. The design will establish their position, type style and whether running heads are used.
@@ -280,6 +315,10 @@ The combined review is not the printer's interior file. The front-cover proof is
 - **7 November 2026** - Removed redundant standalone "Notes" headings from the print conversion when the corresponding HTML note entries have been extracted and converted to page-bottom footnotes. This is conditional: note text is retained, and the heading is removed only when note entries were successfully extracted. The source essay pages are unchanged. GitHub Actions print-preview run [#42336320507](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42336320507) completed successfully at commit `cbf5bcde75224e7a4c32770e07c0aadad572ff1c`. Artifact `edrl-ii-print-preview-36` (ID `13559537201`, approximately 1.97 MB) contains the three PDFs and is retained until 7 December 2026. The PDF still needs visual checking to confirm that the redundant headings have disappeared and that all note text appears correctly at the foot of the relevant pages.
 - **7 November 2026** - Added a source reference section listing all nine essays in the print edition, each linked to its full-text page and accompanied by its original publication details.
 - **7 November 2026** - Updated the print conversion to preserve the five HTML tables in *Religion: A Way of Salvation or an Ideology of Oppression?* as structured tables in the generated manuscript, rather than flattening their contents during HTML cleanup. GitHub Actions print-preview run #37 was triggered to test the change.
+- **7 November 2026** - Added a draft Editor's Note to the print front matter. The note records the occasion for the volume, the publication history of the first volume, the Sunil Abraham Project's preservation work, the nine essays and their original publication history, and the possibility of a future revised edition. A draft notice and the editor's place, date and name were included. The styling instruction is that only book titles and journal titles are italic; institutional names, the draft notice and all other text remain plain, with no bold styling.
+- **7 November 2026** - Corrected the Editor's Note emphasis syntax after identifying a difference between Markdown and Typst. Markdown-style asterisks had been used for titles in the Typst source; in Typst, asterisks produce bold text, while underscores produce italics. Replaced the five book and journal title markers with Typst underscore emphasis. The rest of the note was left plain. Print workflow run [#40](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42341967515) completed successfully at commit `54aa0a2f9afb09563f6cd03286f720210fc22c60`.
+- **7 November 2026** - Added this **Typst versus Markdown** reference section, based on the TSAP [Markdown cheatsheet](/tsap/markdown/). It compares bold, italic, underline, heading and table syntax, and records the specific asterisk/underscore distinction that affected the Editor's Note. Both comparison tables use horizontally scrollable wrappers on mobile screens.
+
 ## Essay sources and original publication details
 
 The following list identifies each essay in the print edition, links to its full text on the TSAP website, and records its original publication details.
@@ -299,5 +338,62 @@ The following list identifies each essay in the print edition, links to its full
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
+
+
+<style>
+.typst-markdown-table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0 1.5rem;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #767676;
+}
+
+.typst-markdown-table-wrap:focus-visible {
+  outline: 3px solid #1f5fbf;
+  outline-offset: 3px;
+}
+
+.typst-markdown-table-wrap table {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.typst-markdown-table-wrap th,
+.typst-markdown-table-wrap td {
+  border: 1px solid #767676;
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.typst-markdown-table-wrap th {
+  background: #e8edf3;
+  color: #20252b;
+}
+
+.typst-markdown-table-wrap code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap th,
+body.tsap-dark-mode .typst-markdown-table-wrap td {
+  border-color: #64748b;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap th {
+  background: #1b2636;
+  color: #f3f4f6;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap {
+  border-color: #64748b;
+}
+</style>
 
 {% include navbox-amaa.html %}
