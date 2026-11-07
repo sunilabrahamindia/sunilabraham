@@ -292,8 +292,15 @@ def md_to_typst(markdown, stem):
         md.write_text(segment, encoding="utf-8")
         run(["pandoc", str(md), "--from=markdown+smart", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
-        if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\\s|/?>)", content, re.I):
+        if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
             raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
+        raw_markers = re.findall(r"\[\^(\d+)\](?!:)", content)
+        raw_definitions = re.findall(r"(?m)^\[\^(\d+)\]:", content)
+        if raw_markers or raw_definitions:
+            raise SystemExit(
+                f"Unconverted footnote syntax in {stem}: "
+                f"markers={','.join(raw_markers)}; definitions={','.join(raw_definitions)}"
+            )
         return content
 
     # Convert prose normally, but centre explicitly marked poems without prose indentation.
