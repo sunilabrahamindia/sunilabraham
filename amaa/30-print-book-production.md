@@ -342,6 +342,41 @@ The following list identifies each essay in the print edition, links to its full
 | The Ideological Nature of the Emerging Dalit Consciousness | [Full text](/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/) | 22 | *Religion and Society*, Vol. XXXVII, No. 3, September 1990, pp. 14–23. |
 | **Total** | | **91** | |
 
+
+## Footnote tally snapshot — 7 November 2026, 12:20 p.m.
+
+This is the baseline PDF audit recorded before the next round of corrections. The tally was checked against the **combined review PDF, artifact version 46** (`edrl-ii-combined-review-46.pdf`, 142 pages). It records what was actually visible in that PDF at the time of the audit; it is not a statement about the current or final build.
+
+<div class="footnote-tally-wrap" role="region" aria-label="Footnote tally for combined review PDF artifact version 46, audited on 7 November 2026 at 12:20 pm" tabindex="0">
+<table class="footnote-tally">
+<thead>
+<tr>
+<th scope="col">Essay</th>
+<th scope="col">Source citation markers</th>
+<th scope="col">Rendered as page-bottom footnotes</th>
+<th scope="col">Visible as raw markers</th>
+</tr>
+</thead>
+<tbody>
+<tr><th scope="row">1. The State of Hinduism in 2000 A.D.</th><td>0</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">2. Religion, Spirituality and Aspirations of the People</th><td>6</td><td>6</td><td>0</td></tr>
+<tr><th scope="row">3. The Living Hindu Popular Religious Consciousness</th><td>8</td><td>8</td><td>0</td></tr>
+<tr><th scope="row">4. The Church and the Study of Religion</th><td>6</td><td>6</td><td>0</td></tr>
+<tr><th scope="row">5. Religions and the Aspirations of the People</th><td>3</td><td>3</td><td>0</td></tr>
+<tr><th scope="row">6. Religion: A Way of Salvation or an Ideology of Oppression?</th><td>4</td><td>4</td><td>0</td></tr>
+<tr><th scope="row">7. Dalit Theology: A Movement of Counter-Culture</th><td>42</td><td>0</td><td>42</td></tr>
+<tr><th scope="row">8. Dalit Liberation — Some Reflections on Their Ideological Predicament</th><td>0</td><td>0</td><td>0</td></tr>
+<tr><th scope="row">9. The Ideological Nature of the Emerging Dalit Consciousness</th><td>22</td><td>0</td><td>22</td></tr>
+<tr class="tally-total"><th scope="row">Total linked citation markers</th><td>91</td><td>27</td><td>64</td></tr>
+</tbody>
+</table>
+</div>
+
+The PDF also contains **two additional manually numbered footnotes** that are not included in the 91 linked source-marker tally: one in essay 7 (PDF page 120; printed page 119) and one in essay 9 (PDF page 142; printed page 141). These must be reconciled separately with the source articles before a final footnote total is declared.
+
+**Audit result:** 27 of the 91 linked citation markers were correctly rendered as page-bottom footnotes. The remaining 64 appeared literally as Markdown markers (`[^1]`, `[^2]`, and so on) in the body text, without their corresponding page-bottom notes. The raw markers also caused a serious collision with the poetry layout on PDF page 142. This is the baseline against which the next corrected artifact must be checked.
+
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
@@ -424,6 +459,77 @@ body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table tbody th {
   background: #1b2636;
   color: #f3f4f6;
 }
+
+/* Footnote tally: keep the wide audit table within the page on small screens. */
+.footnote-tally-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behaviour-x: contain;
+  -webkit-overflow-scrolling: touch;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid #767676;
+}
+.footnote-tally-wrap:focus-visible {
+  outline: 3px solid #1f5fbf;
+  outline-offset: 3px;
+}
+.footnote-tally {
+  display: table !important;
+  width: max-content !important;
+  min-width: 760px;
+  max-width: none;
+  margin: 0 !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: #fff;
+  font-size: 0.92rem;
+}
+.footnote-tally th,
+.footnote-tally td {
+  min-width: 8rem;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid #767676;
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.footnote-tally thead th {
+  background: #e8edf3;
+  color: #20252b;
+}
+.footnote-tally tbody th {
+  background: #f3f5f7;
+  color: #20252b;
+}
+.footnote-tally td {
+  text-align: center;
+}
+.footnote-tally .tally-total th,
+.footnote-tally .tally-total td {
+  font-weight: 700;
+  border-top: 2px solid #444;
+}
+body.tsap-dark-mode .footnote-tally-wrap {
+  border-color: #64748b;
+}
+body.tsap-dark-mode .footnote-tally {
+  background: #111827;
+  color: #f3f4f6;
+}
+body.tsap-dark-mode .footnote-tally th,
+body.tsap-dark-mode .footnote-tally td {
+  border-color: #64748b;
+}
+body.tsap-dark-mode .footnote-tally thead th,
+body.tsap-dark-mode .footnote-tally tbody th {
+  background: #1b2636;
+  color: #f3f4f6;
+}
+
 </style>
 
 {% include navbox-amaa.html %}
