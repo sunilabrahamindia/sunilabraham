@@ -395,7 +395,7 @@ def md_to_typst(markdown, stem):
         md = OUT / f"{stem}-{suffix}.md"
         typ = OUT / f"{stem}-{suffix}.typ"
         md.write_text(segment, encoding="utf-8")
-        run(["pandoc", str(md), "--from=markdown+smart", "--to=typst", "--output", str(typ)])
+        run(["pandoc", str(md), "--from=markdown+smart+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
             raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
