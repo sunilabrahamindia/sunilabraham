@@ -316,7 +316,7 @@ Language: English
 #pagebreak()
 = Editor's Note
 #align(center)[
-  #text(size: 9pt, weight: "bold")[DRAFT VERSION — NOT YET FINALISED]
+  #text(size: 9pt)[DRAFT VERSION — NOT YET FINALISED]
 ]
 #v(8pt)
 *Essays on Dalits, Religion and Liberation II* by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author.
