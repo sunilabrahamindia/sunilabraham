@@ -213,7 +213,7 @@ def extract_footnotes_and_clean(markdown):
             cleaned,
         )
         cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
-        cleaned += "\n\n" + "\n".join(
+        cleaned += "\n\n" + "\n\n".join(
             f"[^{n}]: {text}" for n, text in sorted(notes)
         )
     return cleaned
