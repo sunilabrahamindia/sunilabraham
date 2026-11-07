@@ -465,6 +465,7 @@ common = r"""
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
+#let running_chapter = state("running-chapter", "")
 #set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 12pt)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
@@ -482,9 +483,8 @@ common = r"""
     #if calc.even(counter(page).get().first()) [
       #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     ] else [
-      #let chapter_headings = query(heading.where(level: 1), here())
-      #if chapter_headings.len() > 0 [
-        #align(center)[#chapter_headings.last().body]
+      #context [
+        #align(center)[#running_chapter.get()]
       ]
     ]
     #v(3pt)
@@ -605,15 +605,14 @@ As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings co
 #pagebreak()
 #set heading(outlined: true)
 #set page(
-  numbering: "1",
+  numbering: none,
   header: context [
     #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
     #if calc.even(counter(page).get().first()) [
       #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     ] else [
-      #let chapter_headings = query(heading.where(level: 1), here())
-      #if chapter_headings.len() > 0 [
-        #align(center)[#chapter_headings.last().body]
+      #context [
+        #align(center)[#running_chapter.get()]
       ]
     ]
     #v(3pt)
@@ -632,10 +631,12 @@ for essay in essays:
     if not source.is_file():
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
+    if essay["order"] == 1:
+        parts.append('#set page(numbering: "1", header: none)\n')
+        parts.append("#counter(page).update(1)\n")
     parts.append("#pagebreak()\n")
     parts.append("#set page(header: none)\n")
-    if essay["order"] == 1:
-        parts.append("#counter(page).update(1)\n")
+    parts.append(f'#running_chapter.update("{title}")\n')
     parts.append("#counter(footnote).update(0)\n")
     parts.append("#v(24mm)\n")
     parts.append(f"= {title}\n")
@@ -652,9 +653,21 @@ for essay in essays:
     #if calc.even(counter(page).get().first()) [
       #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     ] else [
-      #let chapter_headings = query(heading.where(level: 1), here())
-      #if chapter_headings.len() > 0 [
-        #align(center)[#chapter_headings.last().body]
+      #context [#align(center)[#running_chapter.get()]]
+    ]
+    #v(3pt)
+    #line(length: 100%, stroke: 0.5pt + luma(170))
+  ],
+)
+#set page(
+  header: none,
+)
+    #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
+    #if calc.even(counter(page).get().first()) [
+      #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    ] else [
+      #context [
+        #align(center)[#running_chapter.get()]
       ]
     ]
     #v(3pt)
