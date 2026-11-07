@@ -150,6 +150,8 @@ common = r"""
   header: context [
     #set text(size: 7.5pt, fill: luma(85))
     #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    #v(3pt)
+    #line(length: 100%, stroke: 0.5pt + luma(170))
   ],
   footer: context [
     #set text(size: 8pt, fill: luma(65))
@@ -196,6 +198,8 @@ parts.append(r"""
   header: context [
     #set text(size: 7.5pt, fill: luma(85))
     #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    #v(3pt)
+    #line(length: 100%, stroke: 0.5pt + luma(170))
   ],
   footer: context [
     #set text(size: 8pt, fill: luma(65))
@@ -204,7 +208,7 @@ parts.append(r"""
 )
 #align(center)[
   #v(12mm)
-  #text(size: 13pt, weight: "bold")[Publication and copyright]
+  #text(size: 13pt, weight: "bold")[Publication details]
 ]
 #v(8mm)
 *Essays on Dalits, Religion and Liberation II*
@@ -216,11 +220,6 @@ Edited by Tito Dutta
 Published by The Sunil Abraham Project
 
 https://sunilabraham.in
-
-#v(8mm)
-Copyright © 2026
-
-All rights reserved. No part of this book may be reproduced, stored in a retrieval system or transmitted in any form or by any means without prior written permission, except for brief quotations in reviews and scholarly references.
 
 #v(5mm)
 First paperback edition, 29 November 2026
