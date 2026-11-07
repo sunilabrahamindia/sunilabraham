@@ -279,7 +279,7 @@ def extract_footnotes_and_clean(markdown):
 
     cleaned = soup.decode_contents()
     for token, raw_table in raw_tables.items():
-        cleaned = cleaned.replace(token, "\\n\\n" + raw_table + "\\n\\n")
+        cleaned = cleaned.replace(token, "\n\n" + raw_table + "\n\n")
     cleaned = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", cleaned)
     cleaned = re.sub(r"<!--.*?-->", "", cleaned, flags=re.S)
     cleaned = re.sub(r"(?m)^\s*<[^>]+>\s*$", "", cleaned)
