@@ -92,6 +92,13 @@ def extract_footnotes_and_clean(markdown):
 
 def clean_source(path):
     raw = path.read_text(encoding="utf-8")
+    # Preserve explicitly marked poem blocks through HTML cleanup.
+    raw = re.sub(
+        r'<div class=["']poem["'][^>]*>(.*?)</div>',
+        lambda match: "\\n\\n@@POEM_START@@\\n" + match.group(1).strip("\\n") + "\\n@@POEM_END@@\\n\\n",
+        raw,
+        flags=re.S | re.I,
+    )
     raw = re.sub(r"\A---\s*\n.*?\n---\s*\n", "", raw, flags=re.S)
     raw = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", raw)
     raw = re.sub(r"<!--.*?-->", "", raw, flags=re.S)
@@ -123,14 +130,37 @@ def clean_source(path):
     return extract_footnotes_and_clean(body)
 
 def md_to_typst(markdown, stem):
-    md = OUT / f"{stem}.md"
-    typ = OUT / f"{stem}.typ"
-    md.write_text(markdown, encoding="utf-8")
-    run(["pandoc", str(md), "--from=markdown+smart", "--to=typst", "--output", str(typ)])
-    content = typ.read_text(encoding="utf-8")
-    if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\\s|/?>)", content, re.I):
-        raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
-    return content
+    def convert(segment, suffix):
+        md = OUT / f"{stem}-{suffix}.md"
+        typ = OUT / f"{stem}-{suffix}.typ"
+        md.write_text(segment, encoding="utf-8")
+        run(["pandoc", str(md), "--from=markdown+smart", "--to=typst", "--output", str(typ)])
+        content = typ.read_text(encoding="utf-8")
+        if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\\s|/?>)", content, re.I):
+            raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
+        return content
+
+    # Convert prose normally, but centre explicitly marked poems without prose indentation.
+    parts = []
+    cursor = 0
+    pattern = re.compile(r"@@POEM_START@@(.*?)@@POEM_END@@", re.S)
+    for index, match in enumerate(pattern.finditer(markdown), start=1):
+        prose = markdown[cursor:match.start()].strip()
+        if prose:
+            parts.append(convert(prose, f"prose-{index}"))
+        poem = convert(match.group(1).strip(), f"poem-{index}")
+        parts.append(
+            "#block(width: 100%, above: 1em, below: 1em)[\\n"
+            "  #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)\\n"
+            "  #align(center)[\\n" + poem + "\\n  ]\\n]"
+        )
+        cursor = match.end()
+    remainder = markdown[cursor:].strip()
+    if remainder:
+        parts.append(convert(remainder, "prose-final"))
+    if not parts:
+        return convert(markdown, "main")
+    return "\\n\\n".join(parts)
 
 manifest = yaml.safe_load((BASE / "manifest.yml").read_text(encoding="utf-8"))
 essays = sorted(manifest["essays"], key=lambda item: item["order"])
