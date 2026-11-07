@@ -42,6 +42,86 @@ def inline_markdown(node):
         return "\n"
     return content
 
+
+def note_inline(node):
+    """Render inline content inside a source footnote."""
+    if isinstance(node, NavigableString):
+        return str(node)
+    name = getattr(node, "name", None)
+    if name == "a" and node.get("href", "").startswith("#ref-"):
+        return ""
+    content = "".join(note_inline(child) for child in getattr(node, "children", []))
+    if name in ("em", "i"):
+        return f"*{content}*"
+    if name in ("strong", "b"):
+        return f"**{content}**"
+    if name == "br":
+        return " "
+    return content
+
+
+def note_blocks(node, list_indent=0):
+    """Preserve paragraphs and nested lists within longer footnotes."""
+    parts = []
+    inline_buffer = []
+
+    def flush_inline():
+        value = re.sub(r"\s+", " ", "".join(inline_buffer)).strip()
+        if value:
+            parts.append(value)
+        inline_buffer.clear()
+
+    for child in node.children:
+        if isinstance(child, NavigableString):
+            inline_buffer.append(str(child))
+            continue
+        name = getattr(child, "name", None)
+        if name == "a" and child.get("href", "").startswith("#ref-"):
+            continue
+        if name in ("p", "div"):
+            flush_inline()
+            value = note_inline(child).strip()
+            if value:
+                parts.append(value)
+        elif name in ("ol", "ul"):
+            flush_inline()
+            parts.append(note_list(child, list_indent))
+        else:
+            inline_buffer.append(note_inline(child))
+    flush_inline()
+    return "\n\n".join(part for part in parts if part).strip()
+
+
+def note_list(listing, indent=0):
+    """Retain list boundaries and alphabetic labels inside source notes."""
+    entries = []
+    list_type = listing.get("type", "1")
+    for index, item in enumerate(listing.find_all("li", recursive=False), start=1):
+        if list_type == "a":
+            marker = f"{chr(96 + index)}."
+        elif list_type == "A":
+            marker = f"{chr(64 + index)}."
+        else:
+            marker = f"{index}."
+        body = note_blocks(item, indent + 4)
+        if not body:
+            continue
+        lines = body.splitlines()
+        prefix = " " * indent
+        continuation = " " * (indent + len(marker) + 1)
+        entry = prefix + marker + " " + lines[0]
+        if len(lines) > 1:
+            entry += "\n" + "\n".join(
+                continuation + line if line else "" for line in lines[1:]
+            )
+        entries.append(entry)
+    return "\n".join(entries)
+
+
+def footnote_markdown(item):
+    """Extract a source note without flattening paragraphs or nested lists."""
+    return note_blocks(item)
+
 def html_table_to_markdown(table):
     """Preserve an HTML table as a Pandoc pipe table before generic HTML cleanup."""
     rows = []
@@ -85,7 +165,7 @@ def extract_footnotes_and_clean(markdown):
         number = match.group(1)
         for backlink in item.select('a[href^="#ref-"]'):
             backlink.decompose()
-        note_text = inline_markdown(item).strip()
+        note_text = footnote_markdown(item).strip()
         if note_text:
             notes.append((int(number), note_text))
         item.decompose()
