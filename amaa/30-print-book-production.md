@@ -537,11 +537,41 @@ This audit record is intended to prevent findings from being lost between succes
 
 No table, heading, front-matter, cover, metadata or general typography changes were made as part of the citation-only correction recorded after this audit.
 
+
+## Production log — publication page and final layout review — 7 November 2026
+
+The following changes were made in the print builder after the version 46 audit and the subsequent table and heading-layout work.
+
+1. **Publication details page composition:** Replaced the previous centred "Publication details" heading and loosely stacked text with a restrained colophon-style layout. The existing publication information and wording were retained. The page now uses a compact imprint line, a clear title-and-author hierarchy, a ruled separation and a two-column label/value arrangement for the publisher, website, edition, ISBN, printed price and language.
+2. **Page furniture:** Suppressed the running header, footer and folio on the publication details page so that it reads as a deliberate preliminary page rather than an ordinary essay page.
+3. **Typography and spacing:** Used the book's existing Linux Libertine O family, restrained sizes and greyscale rules. The composition is left-aligned within a narrower measure and avoids boxes or decorative graphics.
+4. **Scope:** No essay source text, publication facts, ISBN, price, date, author/editor attribution or existing production-credit wording was changed. The change is confined to the Typst builder.
+5. **Existing layout work retained for verification:** The builder also contains the earlier HTML-table-to-Typst conversion, content-weighted column proportions, repeating table-header treatment, non-breakable table cells, local table typography and non-hyphenated heading styles. These are to be checked in the generated PDF rather than assumed correct from source code alone.
+6. **Build and proof checks:** The GitHub Actions build is the validation step. The resulting combined review PDF must be inspected for table readability and continuation, caption placement, heading breaks and page-bottom placement, footnote rendering (including poetry), publication-page composition and contents pagination. A successful automated build is not by itself proof of visual correctness.
+
+Builder change: `0eb937ed5fd93f39266038fddd7a1d3a11aa4ab1` (`Redesign EDRL II publication details page`). The workflow run number, artifact identifier, PDF page count and visual inspection findings should be appended here after the build completes and the generated files have been examined.
+
+## Table readability correction — 7 November 2026
+
+The combined review PDF from workflow run 54 (artifact `edrl-ii-print-preview-54`, 143 pages) showed that the table headings remained difficult to read at A5 size. In particular, Table 4's long column labels were broken into narrow fragments and justified spacing stretched the words across the header cells.
+
+The print builder has now been adjusted, without changing the essay source or its data:
+
+1. **Concise print-only column labels:** Long headings are replaced in the printed tables with shorter labels that retain their meaning. Examples include "Families with land", "Land held (acres)", "Borewells and pumpsets", "Amount (Rs.)", "Fully employed: own farm / other work", and "Agriculture + wage labour". The original full wording remains in the source article.
+2. **Natural header spacing:** Table content now uses non-justified paragraph layout with no first-line indent or extra paragraph spacing. This prevents the large, uneven gaps between words visible in the previous proof.
+3. **Clear header alignment:** Header cells are explicitly left-aligned, while the numeric data columns retain their centred alignment.
+4. **Scope:** The change is confined to the print builder. No essay text, figures, row labels, credits-page content or other front matter has been changed.
+
+The next proof must be visually checked at A5 size, especially Tables 1–5, including header wrapping, row integrity, page continuation and repeated headings. This correction is not considered complete until the generated PDF has been inspected.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
 
+{% include navbox-amaa.html %}
 
+
+<!-- NOTE DO NOT ADD ANYTHING EXCEPT STYLE AND SCRIPT BELOW, DO NOT READ TITO'S EDIT -->
 <style>
 .typst-markdown-table-wrap {
   width: 100%;
@@ -691,31 +721,3 @@ body.tsap-dark-mode .footnote-tally tbody th {
 }
 
 </style>
-
-{% include navbox-amaa.html %}
-
-## Production log — publication page and final layout review — 7 November 2026
-
-The following changes were made in the print builder after the version 46 audit and the subsequent table and heading-layout work.
-
-1. **Publication details page composition:** Replaced the previous centred "Publication details" heading and loosely stacked text with a restrained colophon-style layout. The existing publication information and wording were retained. The page now uses a compact imprint line, a clear title-and-author hierarchy, a ruled separation and a two-column label/value arrangement for the publisher, website, edition, ISBN, printed price and language.
-2. **Page furniture:** Suppressed the running header, footer and folio on the publication details page so that it reads as a deliberate preliminary page rather than an ordinary essay page.
-3. **Typography and spacing:** Used the book's existing Linux Libertine O family, restrained sizes and greyscale rules. The composition is left-aligned within a narrower measure and avoids boxes or decorative graphics.
-4. **Scope:** No essay source text, publication facts, ISBN, price, date, author/editor attribution or existing production-credit wording was changed. The change is confined to the Typst builder.
-5. **Existing layout work retained for verification:** The builder also contains the earlier HTML-table-to-Typst conversion, content-weighted column proportions, repeating table-header treatment, non-breakable table cells, local table typography and non-hyphenated heading styles. These are to be checked in the generated PDF rather than assumed correct from source code alone.
-6. **Build and proof checks:** The GitHub Actions build is the validation step. The resulting combined review PDF must be inspected for table readability and continuation, caption placement, heading breaks and page-bottom placement, footnote rendering (including poetry), publication-page composition and contents pagination. A successful automated build is not by itself proof of visual correctness.
-
-Builder change: `0eb937ed5fd93f39266038fddd7a1d3a11aa4ab1` (`Redesign EDRL II publication details page`). The workflow run number, artifact identifier, PDF page count and visual inspection findings should be appended here after the build completes and the generated files have been examined.
-
-## Table readability correction — 7 November 2026
-
-The combined review PDF from workflow run 54 (artifact `edrl-ii-print-preview-54`, 143 pages) showed that the table headings remained difficult to read at A5 size. In particular, Table 4's long column labels were broken into narrow fragments and justified spacing stretched the words across the header cells.
-
-The print builder has now been adjusted, without changing the essay source or its data:
-
-1. **Concise print-only column labels:** Long headings are replaced in the printed tables with shorter labels that retain their meaning. Examples include "Families with land", "Land held (acres)", "Borewells and pumpsets", "Amount (Rs.)", "Fully employed: own farm / other work", and "Agriculture + wage labour". The original full wording remains in the source article.
-2. **Natural header spacing:** Table content now uses non-justified paragraph layout with no first-line indent or extra paragraph spacing. This prevents the large, uneven gaps between words visible in the previous proof.
-3. **Clear header alignment:** Header cells are explicitly left-aligned, while the numeric data columns retain their centred alignment.
-4. **Scope:** The change is confined to the print builder. No essay text, figures, row labels, credits-page content or other front matter has been changed.
-
-The next proof must be visually checked at A5 size, especially Tables 1–5, including header wrapping, row integrity, page continuation and repeated headings. This correction is not considered complete until the generated PDF has been inspected.
