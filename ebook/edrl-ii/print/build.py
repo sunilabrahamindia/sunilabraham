@@ -264,7 +264,7 @@ for essay in essays:
 ]
 #v(7pt)
 """)
-    if "under-construction.html" in raw or re.search(r"full text.*being transcribed|transcription.*being prepared", raw, re.I):
+    if "under-construction.html" in raw:
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
   *Transcription pending*
 
