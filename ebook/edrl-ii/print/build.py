@@ -464,8 +464,7 @@ common = r"""
   author: "A. M. Abraham Ayrookuzhiel",
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
-#set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
-#let running_chapter = state("running-chapter", "")
+#set text(font: "Linux Libertine O", size: 11pt, lang: "en")
 #set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 12pt)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
@@ -479,14 +478,8 @@ common = r"""
   binding: left,
   margin: (inside: 18mm, outside: 14mm, top: 18mm, bottom: 17mm),
   header: context [
-    #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
-    #if calc.even(counter(page).get().first()) [
-      #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
-    ] else [
-      #context [
-        #align(center)[#running_chapter.get()]
-      ]
-    ]
+    #set text(size: 7.5pt, fill: luma(85))
+    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     #v(3pt)
     #line(length: 100%, stroke: 0.5pt + luma(170))
   ],
@@ -604,7 +597,19 @@ As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings co
 #outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
 #set heading(outlined: true)
-#set page(numbering: none, header: none, footer: none)
+#set page(
+  numbering: "1",
+  header: context [
+    #set text(size: 7.5pt, fill: luma(85))
+    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    #v(3pt)
+    #line(length: 100%, stroke: 0.5pt + luma(170))
+  ],
+  footer: context [
+    #set text(size: 8pt, fill: luma(65))
+    #align(center)[#counter(page).display("1")]
+  ],
+)
 """)
 
 for essay in essays:
@@ -613,13 +618,7 @@ for essay in essays:
     if not source.is_file():
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
-    if essay["order"] == 1:
-        parts.append("#pagebreak()\n")
-        parts.append('#set page(numbering: "1", header: none, footer: context [\n  #set text(size: 8pt, fill: luma(65))\n  #align(center)[#counter(page).display("1")]\n])\n')
-    else:
-        parts.append("#pagebreak()\n")
-    parts.append("#set page(header: none)\n")
-    parts.append(f'#running_chapter.update("{title}")\n')
+    parts.append("#pagebreak()\n")
     parts.append("#counter(footnote).update(0)\n")
     parts.append("#v(24mm)\n")
     parts.append(f"= {title}\n")
@@ -630,20 +629,7 @@ for essay in essays:
   #text(size: 9pt, style: "italic", fill: luma(75))[{essay['publication_note']}]
 ]
 #v(22pt)
-#set page(
-  header: context [
-    #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
-    #if calc.even(counter(page).get().first()) [
-      #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
-    ] else [
-      #context [#align(center)[#running_chapter.get()]]
-    ]
-    #v(3pt)
-    #line(length: 100%, stroke: 0.5pt + luma(170))
-  ],
-)
 """)
-
     if "under-construction.html" in raw:
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
   *Transcription pending*
