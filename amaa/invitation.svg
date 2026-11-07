@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      class="amaa-invitation-svg"
-     width="100%" height="auto" viewBox="0 0 900 1600"
+     width="100%" height="auto" viewBox="0 0 900 1800"
      role="img" aria-labelledby="poster-title poster-desc"
      preserveAspectRatio="xMidYMin meet">
   <title id="poster-title">A. M. Abraham Ayrookuzhiel — 30th Death Anniversary Commemoration</title>
@@ -15,30 +14,27 @@
     .cream-text { fill:#fffaf1; }
     .maroon { fill:#6b1f2b; }
     .muted { fill:#514a43; }
-    .rule { stroke:#d8cfc1; stroke-width:1.5; }
+    .rule { stroke:#d8cfc1; stroke-width:1.4; }
     .panel { fill:#fffaf2; stroke:#d8cfc1; stroke-width:1.5; }
     .table-head { fill:#173b5e; }
-    .number { fill:#6b1f2b; }
+    .number, .bullet { fill:#6b1f2b; }
     .portrait-frame { fill:#fffdf8; stroke:#b18a55; stroke-width:5; }
-    .smallcaps { font-size:20px; letter-spacing:3px; font-weight:700; }
     .name { font-size:57px; font-weight:700; }
-    .subtitle { font-size:29px; font-style:italic; }
-    .anniversary { font-size:62px; font-weight:700; }
-    .anniversary-label { font-size:29px; font-weight:700; }
-    .event-line { font-size:27px; font-weight:600; }
-    .venue-line { font-size:24px; }
-    .section-title { font-size:31px; font-style:italic; font-weight:700; }
-    .column-head { font-size:24px; font-weight:700; }
-    .row-number { font-size:25px; font-weight:700; text-anchor:middle; }
-    .segment { font-size:27px; font-weight:700; }
-    .speaker { font-size:25px; }
-    .speaker-small { font-size:21px; font-style:italic; }
-    .detail { font-size:21px; font-style:italic; }
-    .bullet { fill:#6b1f2b; }
-    @media (max-width: 600px) {
-      .amaa-invitation-svg { margin:0.75rem auto; }
+    .subtitle { font-size:28px; font-style:italic; }
+    .anniversary { font-size:58px; font-weight:700; }
+    .anniversary-label { font-size:27px; font-weight:700; }
+    .event-line { font-size:25px; font-weight:600; }
+    .venue-line { font-size:22px; }
+    .section-title { font-size:29px; font-style:italic; font-weight:700; }
+    .column-head { font-size:23px; font-weight:700; }
+    .row-number { font-size:24px; font-weight:700; text-anchor:middle; }
+    .segment { font-size:25px; font-weight:700; }
+    .speaker { font-size:23px; }
+    .speaker-small { font-size:19px; font-style:italic; }
+    .detail { font-size:17px; font-style:italic; }
+    @media (max-width:600px) {
+      .amaa-invitation-svg { margin:0.5rem auto; }
     }
-    /* The page's manual dark-mode switch is inherited when this SVG is included inline. */
     body.tsap-dark-mode .amaa-invitation-svg .paper { fill:#111827; }
     body.tsap-dark-mode .amaa-invitation-svg .header-band { fill:#351923; }
     body.tsap-dark-mode .amaa-invitation-svg .ink,
@@ -51,8 +47,7 @@
     body.tsap-dark-mode .amaa-invitation-svg .bullet { fill:#d58a9a; }
     body.tsap-dark-mode .amaa-invitation-svg .rule { stroke:#475569; }
     body.tsap-dark-mode .amaa-invitation-svg .portrait-frame { fill:#1f2937; stroke:#9b835d; }
-    /* Standalone SVG: follow the operating-system colour preference as well. */
-    @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme:dark) {
       .paper { fill:#111827; }
       .header-band { fill:#351923; }
       .ink, .muted { fill:#e5e7eb; }
@@ -64,105 +59,105 @@
       .rule { stroke:#475569; }
       .portrait-frame { fill:#1f2937; stroke:#9b835d; }
     }
-    @media print {
-      .amaa-invitation-svg { max-width:none; margin:0; }
-    }
+    @media print { .amaa-invitation-svg { max-width:none; margin:0; } }
   </style>
 
-  <rect class="paper" x="0" y="0" width="900" height="1600"/>
-  <rect class="header-band" x="0" y="0" width="900" height="218"/>
-  <text class="cream-text name" x="54" y="83">A. M. Abraham</text>
-  <text class="cream-text name" x="54" y="148">Ayrookuzhiel</text>
-  <text class="cream-text subtitle" x="57" y="190">30th Death Anniversary Commemoration</text>
+  <rect class="paper" width="900" height="1800"/>
+  <rect class="header-band" width="900" height="210"/>
+  <text class="cream-text name" x="52" y="82">A. M. Abraham</text>
+  <text class="cream-text name" x="52" y="145">Ayrookuzhiel</text>
+  <text class="cream-text subtitle" x="56" y="188">30th Death Anniversary Commemoration</text>
 
-  <!-- The portrait is the same photograph used on the existing AMAA invitation page. -->
-  <rect class="portrait-frame" x="54" y="258" width="245" height="286"/>
-  <image x="65" y="269" width="223" height="264"
+  <rect class="portrait-frame" x="52" y="250" width="245" height="286"/>
+  <image x="63" y="261" width="223" height="264"
          href="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png"
          xlink:href="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png"
          preserveAspectRatio="xMidYMid slice"/>
-  <text class="ink anniversary" x="345" y="342">30<tspan class="maroon" font-size="30" baseline-shift="super">th</tspan></text>
-  <text class="ink anniversary-label" x="345" y="392">Death Anniversary</text>
-  <text class="ink anniversary-label" x="345" y="430">Commemoration</text>
+  <text class="ink anniversary" x="342" y="330">30<tspan class="maroon" font-size="29" baseline-shift="super">th</tspan></text>
+  <text class="ink anniversary-label" x="342" y="382">Death Anniversary</text>
+  <text class="ink anniversary-label" x="342" y="420">Commemoration</text>
 
-  <rect class="panel" x="330" y="462" width="516" height="188" rx="12"/>
-  <text class="maroon smallcaps" x="358" y="500">DATE &amp; TIME</text>
-  <text class="ink event-line" x="358" y="540">Sunday, 29 November 2026</text>
-  <text class="ink event-line" x="358" y="578">6:00 pm – 7:30 pm IST</text>
-  <text class="maroon smallcaps" x="358" y="614">VENUE</text>
-  <text class="ink event-line" x="358" y="642">ERC, 2nd Floor, Conference Hall</text>
-  <text class="ink venue-line" x="358" y="675">United Theological College</text>
-  <text class="muted venue-line" x="358" y="705">63, Millers Road, Benson Town, Bengaluru</text>
+  <rect class="panel" x="326" y="450" width="520" height="230" rx="12"/>
+  <text class="maroon" font-size="18" font-weight="700" letter-spacing="2" x="352" y="485">DATE &amp; TIME</text>
+  <text class="ink event-line" x="352" y="523">Sunday, 29 November 2026</text>
+  <text class="ink event-line" x="352" y="560">6:00 pm – 7:30 pm IST</text>
+  <text class="maroon" font-size="18" font-weight="700" letter-spacing="2" x="352" y="600">VENUE</text>
+  <text class="ink event-line" x="352" y="634">ERC, 2nd Floor, Conference Hall</text>
+  <text class="ink venue-line" x="352" y="660">United Theological College</text>
+  <text class="muted venue-line" x="352" y="686">63, Millers Road, Benson Town, Bengaluru</text>
 
-  <text class="ink section-title" x="450" y="766" text-anchor="middle">Evening Commemoration Programme</text>
+  <text class="ink section-title" x="450" y="744" text-anchor="middle">Evening Commemoration Programme</text>
 
-  <!-- Three-column programme table: number, programme segment, presenter/speaker. -->
-  <rect class="table-head" x="45" y="798" width="810" height="58" rx="7"/>
-  <text class="cream-text column-head" x="75" y="835" text-anchor="middle">#</text>
-  <text class="cream-text column-head" x="280" y="835" text-anchor="middle">Programme Segment</text>
-  <text class="cream-text column-head" x="650" y="835" text-anchor="middle">Presenter / Speaker</text>
+  <rect class="table-head" x="42" y="772" width="816" height="56" rx="6"/>
+  <text class="cream-text column-head" x="75" y="808" text-anchor="middle">#</text>
+  <text class="cream-text column-head" x="285" y="808" text-anchor="middle">Programme Segment</text>
+  <text class="cream-text column-head" x="665" y="808" text-anchor="middle">Presenter / Speaker</text>
+  <line class="rule" x1="108" y1="772" x2="108" y2="1755"/>
+  <line class="rule" x1="475" y1="772" x2="475" y2="1755"/>
 
-  <line class="rule" x1="108" y1="798" x2="108" y2="1517"/>
-  <line class="rule" x1="470" y1="798" x2="470" y2="1517"/>
+  <!-- 1. Welcome -->
+  <circle class="number" cx="75" cy="876" r="21"/>
+  <text class="cream-text row-number" x="75" y="884">1</text>
+  <text class="ink segment" x="132" y="885">Welcome</text>
+  <text class="ink speaker" x="500" y="885">Jacob Abraham</text>
+  <line class="rule" x1="42" y1="920" x2="858" y2="920"/>
 
-  <!-- Row 1 -->
-  <circle class="number" cx="76" cy="895" r="22"/>
-  <text class="cream-text row-number" x="76" y="904">1</text>
-  <text class="ink segment" x="132" y="904">Welcome</text>
-  <text class="ink speaker" x="495" y="904">Jacob Abraham</text>
-  <line class="rule" x1="45" y1="936" x2="855" y2="936"/>
+  <!-- 2. Four Tributes -->
+  <circle class="number" cx="75" cy="970" r="21"/>
+  <text class="cream-text row-number" x="75" y="978">2</text>
+  <text class="ink segment" x="132" y="978">Four Tributes</text>
+  <circle class="bullet" cx="501" cy="944" r="4.5"/>
+  <text class="ink speaker" x="517" y="951">M. Kunhikri­shnan,</text>
+  <text class="muted speaker-small" x="517" y="976">Vice President, Swami Anand Thirth Trust</text>
+  <circle class="bullet" cx="501" cy="998" r="4.5"/>
+  <text class="ink speaker" x="517" y="1005">Jyoti Sahi, Artist, Vishram</text>
+  <circle class="bullet" cx="501" cy="1032" r="4.5"/>
+  <text class="ink speaker" x="517" y="1039">Mercy Kappen, Co-Founder and</text>
+  <text class="muted speaker-small" x="517" y="1064">Strategic Advisor, Visthar (TBC)</text>
+  <circle class="bullet" cx="501" cy="1086" r="4.5"/>
+  <text class="ink speaker" x="517" y="1093">Aruna Gnanadason,</text>
+  <text class="muted speaker-small" x="517" y="1118">Theologian and author</text>
+  <line class="rule" x1="42" y1="1140" x2="858" y2="1140"/>
 
-  <!-- Row 2 -->
-  <circle class="number" cx="76" cy="982" r="22"/>
-  <text class="cream-text row-number" x="76" y="991">2</text>
-  <text class="ink segment" x="132" y="987">Four Tributes</text>
-  <circle class="bullet" cx="498" cy="964" r="5"/>
-  <text class="ink speaker" x="514" y="972">M. Kunhikri­shnan</text>
-  <text class="muted speaker-small" x="514" y="998">Vice President, Swami Anand Thirth Trust</text>
-  <circle class="bullet" cx="498" cy="1020" r="5"/>
-  <text class="ink speaker" x="514" y="1028">Jyoti Sahi, Artist, Vishram</text>
-  <circle class="bullet" cx="498" cy="1052" r="5"/>
-  <text class="ink speaker" x="514" y="1060">Mercy Kappen, Co-Founder and</text>
-  <text class="muted speaker-small" x="514" y="1086">Strategic Advisor, Visthar (TBC)</text>
-  <circle class="bullet" cx="498" cy="1110" r="5"/>
-  <text class="ink speaker" x="514" y="1118">Aruna Gnanadason</text>
-  <text class="muted speaker-small" x="514" y="1144">Theologian and author</text>
-  <line class="rule" x1="45" y1="1170" x2="855" y2="1170"/>
+  <!-- 3. Special Address -->
+  <circle class="number" cx="75" cy="1200" r="21"/>
+  <text class="cream-text row-number" x="75" y="1208">3</text>
+  <text class="ink segment" x="132" y="1208">Special Address</text>
+  <text class="ink speaker" x="500" y="1178">Rev. Y. T. Vinayaraj – Director,</text>
+  <text class="ink speaker" x="500" y="1208">Christian Institute for the Study of</text>
+  <text class="ink speaker" x="500" y="1238">Religion and Society (CISRS)</text>
+  <line class="rule" x1="42" y1="1260" x2="858" y2="1260"/>
 
-  <!-- Row 3 -->
-  <circle class="number" cx="76" cy="1222" r="22"/>
-  <text class="cream-text row-number" x="76" y="1231">3</text>
-  <text class="ink segment" x="132" y="1229">Special Address</text>
-  <text class="ink speaker" x="495" y="1208">Rev. Y. T. Vinayaraj – Director,</text>
-  <text class="ink speaker" x="495" y="1238">Christian Institute for the Study</text>
-  <text class="ink speaker" x="495" y="1268">of Religion and Society (CISRS)</text>
-  <line class="rule" x1="45" y1="1290" x2="855" y2="1290"/>
+  <!-- 4. Unfinished Manuscript Project -->
+  <circle class="number" cx="75" cy="1340" r="21"/>
+  <text class="cream-text row-number" x="75" y="1348">4</text>
+  <text class="ink segment" x="132" y="1310">Presentation of</text>
+  <text class="ink segment" x="132" y="1340">Unfinished Manuscript</text>
+  <text class="ink segment" x="132" y="1370">Project</text>
+  <text class="muted detail" x="132" y="1400">The manuscript was left incomplete at</text>
+  <text class="muted detail" x="132" y="1423">the time of A. M. A. Ayrookuzhiel's</text>
+  <text class="muted detail" x="132" y="1446">death in 1996. It was intended to examine</text>
+  <text class="muted detail" x="132" y="1469">caste identity and faith traditions in India.</text>
+  <text class="muted detail" x="132" y="1492">Work has begun on the manuscript and</text>
+  <text class="muted detail" x="132" y="1515">its methodology.</text>
+  <text class="ink speaker" x="500" y="1380">Sunil Abraham</text>
+  <line class="rule" x1="42" y1="1540" x2="858" y2="1540"/>
 
-  <!-- Row 4 -->
-  <circle class="number" cx="76" cy="1340" r="22"/>
-  <text class="cream-text row-number" x="76" y="1349">4</text>
-  <text class="ink segment" x="132" y="1327">Presentation of</text>
-  <text class="ink segment" x="132" y="1358">Unfinished Manuscript</text>
-  <text class="ink segment" x="132" y="1389">Project</text>
-  <text class="muted detail" x="132" y="1418">The manuscript was left incomplete at</text>
-  <text class="muted detail" x="132" y="1444">the time of his death in 1996. Work</text>
-  <text class="muted detail" x="132" y="1470">has begun on the manuscript and its</text>
-  <text class="muted detail" x="132" y="1496">methodology.</text>
-  <text class="ink speaker" x="495" y="1370">Sunil Abraham</text>
-  <line class="rule" x1="45" y1="1517" x2="855" y2="1517"/>
+  <!-- 5. Launch of Essays -->
+  <circle class="number" cx="75" cy="1620" r="21"/>
+  <text class="cream-text row-number" x="75" y="1628">5</text>
+  <text class="ink segment" x="132" y="1580">Launch of Essays on Dalits,</text>
+  <text class="ink segment" x="132" y="1610">Religion and Liberation II</text>
+  <text class="muted detail" x="132" y="1640">Following the publication of the first volume in 1996,</text>
+  <text class="muted detail" x="132" y="1663">this event marks the official publication of the second volume.</text>
+  <text class="ink speaker" x="500" y="1605">Ponnamma Abraham</text>
+  <text class="ink speaker" x="500" y="1640">Sunil Abraham</text>
+  <line class="rule" x1="42" y1="1685" x2="858" y2="1685"/>
 
-  <!-- Row 5 and row 6 continue below the visible table area in the mobile-friendly full SVG. -->
-  <circle class="number" cx="76" cy="1560" r="22"/>
-  <text class="cream-text row-number" x="76" y="1569">5</text>
-  <text class="ink segment" x="132" y="1554">Launch of Essays on Dalits,</text>
-  <text class="ink segment" x="132" y="1585">Religion and Liberation II</text>
-  <text class="muted detail" x="132" y="1612">Following the first volume published in 1996,</text>
-  <text class="muted detail" x="132" y="1638">this event marks the publication of volume II.</text>
-  <text class="ink speaker" x="495" y="1560">Ponnamma Abraham</text>
-  <text class="ink speaker" x="495" y="1595">Sunil Abraham</text>
-
-  <circle class="number" cx="76" cy="1685" r="22"/>
-  <text class="cream-text row-number" x="76" y="1694">6</text>
-  <text class="ink segment" x="132" y="1694">Vote of Thanks</text>
-  <text class="ink speaker" x="495" y="1694">Matthew Abraham</text>
+  <!-- 6. Vote of Thanks -->
+  <circle class="number" cx="75" cy="1720" r="21"/>
+  <text class="cream-text row-number" x="75" y="1728">6</text>
+  <text class="ink segment" x="132" y="1728">Vote of Thanks</text>
+  <text class="ink speaker" x="500" y="1728">Matthew Abraham</text>
+  <line class="rule" x1="42" y1="1755" x2="858" y2="1755"/>
 </svg>
