@@ -8,11 +8,6 @@ date: 1985
 page_id: TSAP-1358
 created: 2026-10-27
 ---
-
-The full text of A. M. Abraham Ayrookuzhiel's essay "Religion: A Way of Salvation or an Ideology of Oppression? The Power Dimensions of Hindu Village Religion - An Empirical Study" is being transcribed from the original article published in *Religion and Society*, Vol. XXXII, No. 1, March 1985.
-
-This transcription preserves the original wording, structure, and references as they appear in the source. It is being added progressively from the scanned pages.
-
 ## Introduction
 
 Religions, as we experience them, play a twofold role in society. Primarily they are symbol-systems of meaning. Religious concepts, myths, beliefs and practices supply us with 'conceptions of a general order of existence' with regard to self, society and the universe. The values and meanings provided by religion enable people to celebrate the joys of their lives, to interpret and shape the events of their time and space, and to cope with the problems of life's sufferings and of death.
