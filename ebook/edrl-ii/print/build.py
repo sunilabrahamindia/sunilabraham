@@ -315,7 +315,26 @@ Language: English
 #text(style: "italic", fill: luma(90))[Placeholder: Foreword text to be added after it is received and approved.]
 #pagebreak()
 = Editor's Note
-#text(style: "italic", fill: luma(90))[Placeholder: Editor's Note text to be prepared and approved.]
+#align(center)[
+  #text(size: 9pt, weight: "bold")[DRAFT VERSION — NOT YET FINALISED]
+]
+#v(8pt)
+*Essays on Dalits, Religion and Liberation II* by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author.
+
+The first volume, *Essays on Dalits, Religion and Liberation*, was published in 2006 on the occasion of the tenth death anniversary of A. M. Abraham Ayrookuzhiel. Published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), the volume included a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
+
+In October 2025, we started working on the Sunil Abraham Project. One of the main objectives of the project from its inception was to document, preserve and make the works of A. M. Abraham Ayrookuzhiel more widely accessible. This work gradually expanded to include the collection of his writings, biographical documentation, publication records and related archival materials, bringing them together through the A. M. A. Ayrookuzhiel portal.
+
+A substantial body of A. M. Abraham Ayrookuzhiel's work has been published on the web portal at https://sunilabraham.in/amaa/portal, including his essays, books and book reviews. The present volume brings together nine essays that were not included in the previously published collected works, continuing the publication of his important writings on Dalits, religion and liberation.
+
+These nine essays were originally published in different journals and publications over several decades, from the 1970s to the 1990s. Most appeared in *Religion and Society*, published by the Christian Institute for the Study of Religion and Society (CISRS). One essay appeared in the *Indian Journal of Theology*, while "Dalit Theology: A Movement of Counter-Culture" was published in *Towards a Dalit Theology* in 1988. Bringing these writings together makes available work that had remained dispersed across different publications and decades.
+
+As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings continues, further essays may be identified for inclusion in a revised and expanded edition of this volume in the future. As this is an initial version, any errors or inaccuracies brought to our attention will be corrected in a subsequent edition.
+
+#v(18pt)
+#grid(columns: (1fr, 1fr), [Kolkata
+
+29 November 2026], [#align(right)[Tito Dutta]])
 #pagebreak()
 = Contents
 #outline(title: none, depth: 1, target: heading.where(level: 1))
