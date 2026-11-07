@@ -604,25 +604,7 @@ As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings co
 #outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
 #set heading(outlined: true)
-#set page(
-  numbering: none,
-  header: context [
-    #set text(size: 7.5pt, fill: luma(85), hyphenate: false)
-    #if calc.even(counter(page).get().first()) [
-      #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
-    ] else [
-      #context [
-        #align(center)[#running_chapter.get()]
-      ]
-    ]
-    #v(3pt)
-    #line(length: 100%, stroke: 0.5pt + luma(170))
-  ],
-  footer: context [
-    #set text(size: 8pt, fill: luma(65))
-    #align(center)[#counter(page).display("1")]
-  ],
-)
+#set page(numbering: none, header: none, footer: none)
 """)
 
 for essay in essays:
@@ -632,9 +614,10 @@ for essay in essays:
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
     if essay["order"] == 1:
+        parts.append("#pagebreak()\n")
         parts.append('#set page(numbering: "1", header: none, footer: context [\n  #set text(size: 8pt, fill: luma(65))\n  #align(center)[#counter(page).display("1")]\n])\n')
-        parts.append("#counter(page).update(1)\n")
-    parts.append("#pagebreak()\n")
+    else:
+        parts.append("#pagebreak()\n")
     parts.append("#set page(header: none)\n")
     parts.append(f'#running_chapter.update("{title}")\n')
     parts.append("#counter(footnote).update(0)\n")
@@ -659,6 +642,7 @@ for essay in essays:
     #line(length: 100%, stroke: 0.5pt + luma(170))
   ],
 )
+""")
 
     if "under-construction.html" in raw:
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
