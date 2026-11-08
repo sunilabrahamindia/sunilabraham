@@ -42,6 +42,12 @@ A rule-based policy experiment exploring stakeholder participation, institutiona
 
 [Explore Simulation #3: The Internet Governance Policy Laboratory](/tito/s3/)
 
+### Economic thought experiment: OmEconomy
+
+A mind-mapping exercise exploring an imagined economy in which contemplative japa is the sole source of income.
+
+[Explore OmEconomy](/omeconomy/)
+
 ### TSPA
 
 An original comic strip created as part of The Sunil Abraham Project. TSPA is a rearrangement of TSAP, the short form of The Sunil Abraham Project.
