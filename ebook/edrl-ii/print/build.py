@@ -619,6 +619,8 @@ for essay in essays:
         raise SystemExit(f"Missing essay source: {essay['source']}")
     raw = source.read_text(encoding="utf-8")
     parts.append("#pagebreak()\n")
+    if essay["order"] == 1:
+        parts.append("#counter(page).update(1)\n")
     parts.append("#counter(footnote).update(0)\n")
     parts.append("#v(24mm)\n")
     parts.append(f"= {title}\n")
