@@ -102,7 +102,7 @@ Having established the mathematical relationship between qualifying japa, time a
 
 **Rate:** 1 qualifying japa = ₹1  
 **Illustrative pace:** 60 qualifying japa per minute  
-**Basis:** 30-day month; weekly figures are calculated as 7/30 of the monthly target.
+**Calculation basis:** A 30-day month is assumed. The weekly average is calculated as the monthly target × (7 ÷ 30), and the daily average as the monthly target ÷ 30.
 
 ### Monthly target: ₹50,000
 
@@ -136,7 +136,7 @@ Having established the mathematical relationship between qualifying japa, time a
 
 - Monthly japa = monthly income target ÷ ₹1
 - Daily average = monthly japa ÷ 30
-- Weekly average = monthly japa × 7 ÷ 30
+- Weekly average = monthly japa × (7 ÷ 30)
 - Time in minutes = japa ÷ 60
 
 The daily and weekly figures are averages and are rounded to the nearest whole repetition or second. The monthly totals remain exact. The pace of 60 japa per minute is an illustration for calculation; only repetitions accompanied by contemplation and focus of mind qualify.
