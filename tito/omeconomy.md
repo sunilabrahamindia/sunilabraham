@@ -4,7 +4,9 @@ title: "OmEconomy"
 description: "An ongoing mind-mapping exercise exploring an imagined economy in which contemplative japa is the sole source of income."
 categories: [TSAP Exhibition, Tito Dutta]
 authors: [Tito Dutta]
-permalink: /omeconomy/
+permalink: /tito/omeconomy/
+redirect_from:
+  - /omeconomy/
 created: 2026-11-09
 ---
 
