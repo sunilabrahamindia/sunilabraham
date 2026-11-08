@@ -14,11 +14,13 @@ created: 2026-11-09
 
 ## The central idea
 
-The starting point is simple: a person earns money by repeating a chosen word or phrase mentally. The repetition counts only when it is accompanied by contemplation and sustained attention. Merely repeating the word mechanically, while distracted or without focus, does not count.
+The exercise begins with an interest in contemplation and the cultivation of focus of mind. It explores what an economy might look like if this contemplative practice became the sole basis for earning money.
+
+A person earns money by repeating a chosen word or phrase mentally. The repetition counts only when it is accompanied by contemplation and sustained attention. Merely repeating the word mechanically, while distracted or without focus, does not count.
 
 *Om* is used for convenience in thinking through the idea. The underlying activity could involve any word or phrase; it does not have to be Om. For the purpose of this initial exploration, however, one qualifying repetition of Om generates ₹1.
 
-## One route to earning
+## The sole source of income
 
 The defining feature being explored is that there is only one route to earning money. There are no separate income-generating routes through employment, business, trade, investment or other economic activity. Those activities may continue to exist in the world, but they do not independently generate income. Money enters people's hands only through qualifying japa.
 
