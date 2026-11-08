@@ -39,6 +39,14 @@ There is generally no need to speak unnaturally slowly, but speaking clearly and
 
 Natural speech is appropriate. The important consideration is that words, sentences, and changes of thought should be sufficiently clear for the AI to identify them correctly.
 
+### Remember that tone and emphasis may be lost
+
+Human speech communicates more than the words themselves. We use pitch, stress, volume, rhythm, pauses, and the lengthening of particular sounds to express emphasis, enthusiasm, hesitation, uncertainty, sarcasm, or other shades of meaning. For example, a prolonged "yeeees" may communicate enthusiastic agreement, whereas a short, flat "yes" may indicate only ordinary agreement.
+
+Voice dictation systems may convert both into the same written word, losing the vocal information that made the distinction clear. The same can happen when a speaker raises or lowers their voice, stresses a particular word, or pauses deliberately. Some AI systems can process audio directly and may recognise aspects of prosody, but this should not be assumed: when speech is first converted into text, these features may be reduced or lost.
+
+When the distinction matters, make the intended emphasis explicit in words. You can say, for example, "I mean an enthusiastic yes", "I am uncertain", or "I am stressing the word only". Check the transcript or the AI's interpretation if the tone changes the meaning. Do not assume that the system has understood the emotion or emphasis simply because it has recognised the spoken words correctly.
+
 ## Use precise words, and slow down for uncommon words
 
 There is usually no need to replace a technical or unfamiliar word with a long explanation simply because it might be difficult for a human listener. An AI may already understand the word.
