@@ -14,6 +14,19 @@
   {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% else %}<meta property="og:image" content="{{ site.url }}/assets/images/social-share-default.png">{% endif %}
   <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ page.title }}"><meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}"><meta name="twitter:site" content="@sunil_abraham">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"><link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
+  <!-- MathJax: loads the TeX/LaTeX input and CommonHTML output components so pages can display properly typeset mathematics. The delimiters are configured explicitly; single-dollar delimiters are intentionally not enabled because dollar signs are used for currency throughout the site. -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]'], ['$', '$']]
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png"><link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}" type="image/png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"><link rel="stylesheet" href="{{ '/assets/css/tippy.css' | relative_url }}">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Sunil Abraham Project","alternateName":["TSAP","Sunil Abraham Project"],"url":"https://sunilabraham.in/"}</script>

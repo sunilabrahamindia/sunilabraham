@@ -26,9 +26,9 @@ Employment, business, trade, investment and other economic activities may contin
 
 ### Monthly target: ₹50,000
 
-[
-₹50,000 div ₹1 = 50,000\text{ japa per month}
-]
+$$
+\frac{\text{₹50,000}}{\text{₹1}} = 50{,}000\;\text{japa per month}
+$$
 
 | Period | Required japa (average) | Time at 60 japa/minute |
 |:--|--:|--:|
@@ -38,9 +38,9 @@ Employment, business, trade, investment and other economic activities may contin
 
 ### Monthly target: ₹2,00,000
 
-[
-₹2,00,000 div ₹1 = 2,00,000\text{ japa per month}
-]
+$$
+\frac{\text{₹2,00,000}}{\text{₹1}} = 2{,}00{,}000\;\text{japa per month}
+$$
 
 | Period | Required japa (average) | Time at 60 japa/minute |
 |:--|--:|--:|
