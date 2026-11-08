@@ -45,6 +45,8 @@ Human speech communicates more than the words themselves. We use pitch, stress, 
 
 Voice dictation systems may convert both into the same written word, losing the vocal information that made the distinction clear. The same can happen when a speaker raises or lowers their voice, stresses a particular word, or pauses deliberately. Some AI systems can process audio directly and may recognise aspects of prosody, but this should not be assumed: when speech is first converted into text, these features may be reduced or lost.
 
+Non-verbal vocal sounds can be lost as well. For example, an actual laugh or chuckle may not appear in the transcript at all, even though spoken words such as "ha ha" are recognised and written down. These are not the same thing: saying "ha ha" is speech, whereas laughing is a vocal expression that may be omitted or poorly represented by a transcription system. If the laugh itself matters to the record or the meaning, it may need to be described explicitly, for example as "[laughs]" or "the speaker laughs".
+
 When the distinction matters, make the intended emphasis explicit in words. You can say, for example, "I mean an enthusiastic yes", "I am uncertain", or "I am stressing the word only". Check the transcript or the AI's interpretation if the tone changes the meaning. Do not assume that the system has understood the emotion or emphasis simply because it has recognised the spoken words correctly.
 
 ## Use precise words, and slow down for uncommon words
