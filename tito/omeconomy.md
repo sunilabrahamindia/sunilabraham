@@ -10,7 +10,11 @@ created: 2026-11-09
 
 {% include author-date.html %}
 
-**OmEconomy** is an ongoing mind-mapping exercise exploring an imagined economy in which contemplative japa is the sole source of income. Individuals may choose any word or phrase for their japa. For this particular exercise, *Om* (ॐ) is the root word, and each genuinely contemplative repetition generates ₹1.
+**OmEconomy** is an ongoing mind-mapping project that begins with an exploration of contemplation and the cultivation of focus of mind. Sustained attention and genuine mental engagement are central to contemplative practice. The exercise develops this starting point into an imagined economic model in which contemplative *japa* becomes the sole source of income, with each genuinely contemplative repetition generating ₹1. Individuals may choose any word or phrase for their japa; *Om* (ॐ) is the root word used in this particular exploration.
+
+The mind mapping examines the mathematical, economic, social and institutional implications of this premise. It explores the relationship between focused practice, time and income, while developing questions about money creation, the recognition of qualifying repetitions, purchasing power and the organisation of economic activity.
+
+This page documents the idea as it develops. Its equations and numerical illustrations help examine the initial assumptions and open up further lines of inquiry. It is an evolving exploration, not a completed economic theory or a practical monetary proposal.
 
 **Mathematical preview**
 
