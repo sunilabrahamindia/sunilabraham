@@ -1,3 +1,16 @@
+/*
+DARK-MODE POLICY FOR PAGE-SPECIFIC CSS
+
+For one-time page-specific components, keep the dark-mode CSS
+inside the <style> block at the bottom of the relevant page,
+alongside its normal CSS.
+
+Add dark-mode rules to this global stylesheet only when the
+component or design is reused across multiple pages.
+
+Keep page-specific styling together with its page.
+*/
+
 /* =========================================================
    Dark Mode Foundation & Variable Mappings
    ========================================================= */
