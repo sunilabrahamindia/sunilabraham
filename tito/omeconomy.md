@@ -10,7 +10,7 @@ created: 2026-11-09
 
 {% include author-date.html %}
 
-**OmEconomy** is an idea being explored through an ongoing mind-mapping exercise about an economy in which contemplative repetition, or *japa*, is the only way to earn money. In the simplest illustration, each qualifying repetition of a chosen word or phrase generates one unit of currency. The word *Om* (ॐ) is used here as the example: one contemplative repetition earns one rupee. The exercise imagines this single source of income operating within the present world, where the existing goods and services remain available and the money earned can be spent on anything.
+**OmEconomy** is an idea being explored through an ongoing mind-mapping exercise about an economy in which contemplative repetition, or *japa*, is the only way to earn money. Individuals may choose any word or phrase for their japa; however, this particular exercise uses *Om* (ॐ) as its root word, with each genuinely contemplative repetition generating ₹1. The exercise imagines this single source of income operating within the present world, where existing goods and services remain available and the money earned can be spent on anything.
 
 ## The central idea
 
