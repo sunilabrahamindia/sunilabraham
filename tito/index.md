@@ -46,7 +46,7 @@ A rule-based policy experiment exploring stakeholder participation, institutiona
 
 A mind-mapping exercise exploring an imagined economy in which contemplative japa is the sole source of income.
 
-[Explore OmEconomy](/omeconomy/)
+[Explore OmEconomy](/tito/omeconomy/)
 
 ### TSPA
 
