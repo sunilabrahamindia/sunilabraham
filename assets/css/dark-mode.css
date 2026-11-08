@@ -615,34 +615,4 @@ body.tsap-dark-mode .preservation-status.status-not-started {
   border-color: #a34c54 !important;
 }
 
-/* =========================================================
-   OmEconomy: production process diagram
-   ========================================================= */
-body.tsap-dark-mode .omeconomy-process {
-  background: var(--bg-surface) !important;
-  color: var(--text-main) !important;
-  border-color: var(--border-sub) !important;
-}
-
-body.tsap-dark-mode .omeconomy-process__name {
-  color: var(--text-heading) !important;
-}
-
-body.tsap-dark-mode .omeconomy-process__description,
-body.tsap-dark-mode .omeconomy-process__arrow {
-  color: var(--text-muted) !important;
-}
-
-body.tsap-dark-mode .omeconomy-process__symbol {
-  color: var(--text-heading) !important;
-}
-
-body.tsap-dark-mode .omeconomy-process__output {
-  background: #182230 !important;
-  border-color: var(--border-sub) !important;
-}
-
-body.tsap-dark-mode .omeconomy-process__currency {
-  color: #86efac !important;
-}
 
