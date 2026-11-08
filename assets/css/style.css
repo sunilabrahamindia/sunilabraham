@@ -1,3 +1,18 @@
+/*
+STYLING POLICY FOR PAGE-SPECIFIC CSS
+
+Before adding new CSS rules to this global stylesheet, check whether
+the styling is required on multiple pages.
+
+- Single-page or one-time styling: Keep the CSS within a <style>
+  block at the bottom of the relevant Markdown/HTML page.
+- Reusable styling: Add it to this global stylesheet only when
+  the same component or design is used across multiple pages.
+
+Do not add page-specific CSS here merely for convenience.
+This avoids loading unnecessary CSS on every page.
+*/
+
 /* =========================================================
    Sunil Abraham Project
    ========================================================= */
