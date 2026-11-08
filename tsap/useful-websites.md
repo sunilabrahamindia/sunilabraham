@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>108 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>109 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -84,13 +84,14 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Electronics, Gadget Design and Product Prototyping {#electronics-gadget-design}
 
 1. [Adafruit Learning System](https://learn.adafruit.com/), offers practical tutorials for building electronic devices using components such as sensors, displays and microcontrollers. Its projects cover connected devices, wearables, robotics and computer-related accessories, with circuit diagrams, instructions and code.
-2. [Hackaday](https://hackaday.com/), publishes inventive hardware projects, experiments and engineering ideas. Its coverage includes custom keyboards, portable computers, electronic instruments, controllers and other unusual gadgets. Useful for discovering approaches to hardware design and learning from makers' experiments.
-3. [Hackster.io](https://www.hackster.io/), is a community platform where hardware developers share projects with instructions, circuit diagrams, source code and component lists. Its projects cover the Internet of Things, robotics, wearables, embedded systems and connected devices.
-4. [iFixit](https://www.ifixit.com/), publishes repair guides and device teardowns for phones, laptops, computers, tablets and other electronics. It helps readers understand how existing gadgets are assembled, what components they contain and how their internal structures fit together.
-5. [Instructables - Circuits](https://www.instructables.com/circuits/), features step-by-step electronics projects shared by makers. Its examples include small gadgets, sensors, controllers, computer accessories and practical household devices, showing how an idea can be turned into a physical prototype.
-6. [KiCad](https://www.kicad.org/), is an open-source electronic design automation suite for creating circuit diagrams and printed circuit board (PCB) layouts. It can support the development of custom circuit boards for prototypes such as USB accessories, controllers and other small electronic devices.
-7. [SparkFun Learn](https://learn.sparkfun.com/), provides tutorials explaining electronic components, circuits, soldering, sensors, GPS, accelerometers, gyroscopes and microcontrollers. Useful for understanding how individual components work and how to connect them into a functioning device.
-8. [Wokwi](https://wokwi.com/), is an online electronics simulator for experimenting with microcontroller boards such as Arduino and ESP32, connecting virtual components and testing code. It is useful for exploring and testing electronic concepts before purchasing physical components.
+2. [BuildCores](https://www.buildcores.com/), is an interactive PC-building and desk-setup platform that lets users assemble and visualise computer configurations in 3D. It provides component browsing, compatibility guidance, price information and estimated gaming performance, helping users plan a PC before buying parts. Its basic builder is available without an account, while some advanced features require a paid plan. The service is in beta, and component details, prices, compatibility information and performance estimates should be independently checked before making purchasing decisions.
+3. [Hackaday](https://hackaday.com/), publishes inventive hardware projects, experiments and engineering ideas. Its coverage includes custom keyboards, portable computers, electronic instruments, controllers and other unusual gadgets. Useful for discovering approaches to hardware design and learning from makers' experiments.
+4. [Hackster.io](https://www.hackster.io/), is a community platform where hardware developers share projects with instructions, circuit diagrams, source code and component lists. Its projects cover the Internet of Things, robotics, wearables, embedded systems and connected devices.
+5. [iFixit](https://www.ifixit.com/), publishes repair guides and device teardowns for phones, laptops, computers, tablets and other electronics. It helps readers understand how existing gadgets are assembled, what components they contain and how their internal structures fit together.
+6. [Instructables - Circuits](https://www.instructables.com/circuits/), features step-by-step electronics projects shared by makers. Its examples include small gadgets, sensors, controllers, computer accessories and practical household devices, showing how an idea can be turned into a physical prototype.
+7. [KiCad](https://www.kicad.org/), is an open-source electronic design automation suite for creating circuit diagrams and printed circuit board (PCB) layouts. It can support the development of custom circuit boards for prototypes such as USB accessories, controllers and other small electronic devices.
+8. [SparkFun Learn](https://learn.sparkfun.com/), provides tutorials explaining electronic components, circuits, soldering, sensors, GPS, accelerometers, gyroscopes and microcontrollers. Useful for understanding how individual components work and how to connect them into a functioning device.
+9. [Wokwi](https://wokwi.com/), is an online electronics simulator for experimenting with microcontroller boards such as Arduino and ESP32, connecting virtual components and testing code. It is useful for exploring and testing electronic concepts before purchasing physical components.
 
 ## Entrepreneurship, Startups and Product Development {#entrepreneurship-startups}
 
