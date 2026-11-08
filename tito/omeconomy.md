@@ -38,9 +38,37 @@ The central distinction is that income depends on qualifying contemplative repet
 
 ## Central idea
 
-Money can be earned only through japa. A repetition counts when it is accompanied by contemplation and focus of mind; mechanical or distracted repetition does not count.
+OmEconomy is a simulation built around a philosophical question: what if the mind could be understood as a productive force, and material value could emerge from its activity? Philosophical traditions and different fields of inquiry have long explored the relationship between mind and matter. This project takes that relationship as a starting point for an imagined economic process; it does not claim to settle the question.
 
-Employment, business, trade, investment and other economic activities may continue to exist, but they do not independently generate income. Money enters people's hands only through qualifying japa.
+The central metaphor is a grinding machine. The mind is the machine; japa is the fuel or grinding instrument through which it is operated; contemplation and focus are the condition of its productive activity; and currency is the imagined material output. In this simulation, a qualifying repetition of japa produces ₹1.
+
+<div class="omeconomy-process" role="group" aria-label="OmEconomy imagined production process">
+  <div class="omeconomy-process__stage">
+    <div class="omeconomy-process__name">THE MIND</div>
+    <div class="omeconomy-process__description">The grinding machine</div>
+    <div class="omeconomy-process__symbol" aria-hidden="true">⚙</div>
+  </div>
+  <div class="omeconomy-process__arrow" aria-hidden="true">↓</div>
+  <div class="omeconomy-process__stage">
+    <div class="omeconomy-process__name">JAPA</div>
+    <div class="omeconomy-process__description">The fuel or grinding instrument</div>
+  </div>
+  <div class="omeconomy-process__arrow" aria-hidden="true">↓</div>
+  <div class="omeconomy-process__stage">
+    <div class="omeconomy-process__name">CONTEMPLATION AND FOCUS</div>
+    <div class="omeconomy-process__description">The condition for productive operation</div>
+  </div>
+  <div class="omeconomy-process__arrow" aria-hidden="true">↓</div>
+  <div class="omeconomy-process__output">
+    <div class="omeconomy-process__currency" aria-hidden="true">₹</div>
+    <div class="omeconomy-process__name">CURRENCY</div>
+    <div class="omeconomy-process__description">The material output of the imagined process</div>
+  </div>
+</div>
+
+The diagram expresses the proposed relationship, rather than a literal or scientifically established mechanism. A repetition counts only when it is accompanied by contemplation and focus; mechanical or distracted repetition does not qualify. The simulation assigns ₹1 to each qualifying repetition.
+
+Employment, business, trade, investment and other economic activities may continue to exist, but they do not independently generate income within this imagined system. The change concerns the source through which people earn money.
 
 ## The mathematical model
 
