@@ -98,6 +98,8 @@ The model currently defines qualification conceptually: a repetition counts when
 
 ## Mathematical illustrations
 
+Having established the mathematical relationship between qualifying japa, time and income, the following illustrations apply the model to two hypothetical monthly income targets: ₹50,000 and ₹2,00,000. They show the number of qualifying repetitions required and the approximate time commitment at the illustrative pace of 60 repetitions per minute. The calculations are intended to make the model easier to understand and examine, rather than prescribe a particular level or duration of practice.
+
 **Rate:** 1 qualifying japa = ₹1  
 **Illustrative pace:** 60 qualifying japa per minute  
 **Basis:** 30-day month; weekly figures are calculated as 7/30 of the monthly target.
