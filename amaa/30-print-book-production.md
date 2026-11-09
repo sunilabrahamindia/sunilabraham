@@ -564,6 +564,19 @@ The print builder has now been adjusted, without changing the essay source or it
 
 The next proof must be visually checked at A5 size, especially Tables 1–5, including header wrapping, row integrity, page continuation and repeated headings. This correction is not considered complete until the generated PDF has been inspected.
 
+
+## Foreword preparation
+
+The foreword by Y. T. Vinayaraj has been received as a Word document attached to an email.
+
+- [x] Receive the foreword from the author.
+- [ ] Obtain and inspect the original Word document.
+- [ ] Identify any apparent typographical issues for confirmation.
+- [ ] Incorporate the approved foreword into `ebook/edrl-ii/print/build.py`, replacing the existing placeholder.
+- [ ] Retain the author's original wording and paragraph structure.
+- [ ] Include the foreword before the Editor's Note and Contents in the paperback interior.
+- [ ] Run the print production workflow and inspect the resulting PDF for pagination, layout and formatting.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
