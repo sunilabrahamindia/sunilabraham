@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>118 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>120 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -115,7 +115,8 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 
 ## Images and Mapping {#images-and-mapping}
 1. [EXIF.im](https://exif.im/), an online image metadata viewer that helps inspect EXIF information such as camera details, capture time and, when present, GPS coordinates. Review metadata before publishing photographs, since location data may reveal sensitive information.
-2. [uMap](https://umap.openstreetmap.fr/), lets you create and share interactive maps using OpenStreetMap data. Maps can include markers, descriptions and layers, and can be embedded in webpages to document places and local points of interest.
+2. [Overpass Turbo](https://overpass-turbo.eu/), is a browser-based tool for querying and exploring OpenStreetMap data on an interactive map. It lets users find specific geographic features, such as roads, schools, hospitals and public infrastructure, using a visual query wizard or the Overpass query language. Results can be inspected on the map and exported in formats such as GeoJSON. The tool is free and open source; query availability and performance depend on the public Overpass API servers.
+3. [uMap](https://umap.openstreetmap.fr/), lets you create and share interactive maps using OpenStreetMap data. Maps can include markers, descriptions and layers, and can be embedded in webpages to document places and local points of interest.
 
 ## Internet Governance and Policy {#internet-governance}
 1. [Civis](https://www.civis.vote/consultations/list), tracks public consultations on draft laws, rules, policies and government proposals in India. It lists consultations and helps people understand proposals and submit feedback while consultations are open. Useful for finding policies at the public consultation stage.
@@ -128,9 +129,10 @@ Inclusion in this list does not imply endorsement or regular use. Websites may b
 ## Internet Measurement and Infrastructure {#internet-measurement}
 1. [Cloudflare Radar - Outage Center](https://radar.cloudflare.com/outage-center), provides a global view of reported internet outages and unusual traffic patterns, with information about affected locations and time periods. Useful for investigating connectivity disruptions and comparing regional patterns over time. The data should be interpreted in the context of the source's methodology and coverage.
 2. [Internet Society Pulse](https://pulse.internetsociety.org/), brings together indicators on internet resilience, infrastructure, outages, market concentration and other aspects of internet health. Country comparisons and data can support policy briefs and comparative studies.
-3. [IODA - Internet Outage Detection and Analysis](https://ioda.inetintel.cc.gatech.edu/), combines network signals to help detect and investigate large-scale internet connectivity disruptions. Historical views can support research into outages and possible shutdown events; the measurements need to be interpreted alongside other evidence.
-4. [ip-as.net Research](https://ip-as.net/research/), provides research datasets on internet infrastructure and security, including hosting, DNS, email security, IPv6, route security and phishing listings. Its datasets may be useful for technical and policy research; check the publication date and licence for the specific dataset before reuse.
-5. [RIPEstat](https://stat.ripe.net/), provides data about IP addresses, autonomous systems, routing and internet number resources. Useful for investigating network relationships, routing history and aspects of internet infrastructure.
+3. [RIPE Atlas](https://atlas.ripe.net/), is a global internet measurement network operated by the RIPE NCC, using thousands of distributed probes to measure connectivity and network performance from different locations. Users can explore public measurements and run tests such as ping, traceroute, DNS and TLS measurements to investigate reachability and routing. Public data is freely accessible; creating custom measurements requires a free account and measurement credits. The results provide observations from participating probe locations, not a complete picture of every network or user experience.
+4. [IODA - Internet Outage Detection and Analysis](https://ioda.inetintel.cc.gatech.edu/), combines network signals to help detect and investigate large-scale internet connectivity disruptions. Historical views can support research into outages and possible shutdown events; the measurements need to be interpreted alongside other evidence.
+5. [ip-as.net Research](https://ip-as.net/research/), provides research datasets on internet infrastructure and security, including hosting, DNS, email security, IPv6, route security and phishing listings. Its datasets may be useful for technical and policy research; check the publication date and licence for the specific dataset before reuse.
+6. [RIPEstat](https://stat.ripe.net/), provides data about IP addresses, autonomous systems, routing and internet number resources. Useful for investigating network relationships, routing history and aspects of internet infrastructure.
 
 ## Internet of Things (IoT) and Connected Devices {#iot-connected-devices}
 
