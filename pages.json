@@ -1,5 +1,22 @@
 [
   {
+    "title": "TSPA #0030",
+    "description": "TSPA #0030, a Bengali comic strip in which Mi searches a cluttered study room for Ti.",
+    "created": "2026-11-10",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "TSPA",
+      "TSPA Bengali",
+      "Indian language content"
+    ],
+    "permalink": "https://sunilabraham.in/tspa/0030/",
+    "source_path": "tspa/0030.md"
+  },
+  {
     "title": "OmEconomy",
     "description": "An ongoing mind-mapping exercise exploring an imagined economy in which contemplative japa is the sole source of income.",
     "created": "2026-11-09",
