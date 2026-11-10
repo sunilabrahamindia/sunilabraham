@@ -1,5 +1,19 @@
 [
   {
+    "title": "File Extension Coverage Gap in Page Indexing and Page ID Assignment (11 November 2026)",
+    "description": "Documentation of the file-extension coverage gap affecting the TSAP Pages Index and Page ID assignment scripts, the inclusion of SVG pages, and the introduction of a repository-wide Page ID audit.",
+    "created": "2026-11-11",
+    "date": null,
+    "source": null,
+    "authors": null,
+    "categories": [
+      "TSAP Documentation",
+      "TSAP Incidents"
+    ],
+    "permalink": "https://sunilabraham.in/tsap/file-extension-coverage-page-index-page-ids/",
+    "source_path": "tsap/file-extension-coverage-page-index-page-ids.md"
+  },
+  {
     "title": "TSPA #0030",
     "description": "TSPA #0030, a Bengali comic strip in which Mi searches a cluttered study room for Ti.",
     "created": "2026-11-10",
