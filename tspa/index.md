@@ -150,6 +150,10 @@ The TSPA comic strip is a part of [Tito Dutta (Zone)](/tito/).
     <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0029.png" alt="TSPA #0029 Bengali comic showing Ti and Mi arguing before sitting quietly together" loading="lazy" decoding="async">
     <span class="tspa-card-number">TSPA #0029 — বাংলা (bn)</span>
   </a>
+  <a class="tspa-card" href="/tspa/0030/">
+    <img src="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/comic/tspa-0030.png" alt="TSPA #0030 Bengali comic showing Mi searching a cluttered study room for Ti" loading="lazy" decoding="async">
+    <span class="tspa-card-number">TSPA #0030 — বাংলা (bn)</span>
+  </a>
 </div>
 
 ## Characters
