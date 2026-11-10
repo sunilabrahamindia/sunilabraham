@@ -12,7 +12,7 @@ for root, dirs, files in os.walk("."):
     files.sort()
 
     for file in files:
-        if not file.endswith((".md", ".markdown")):
+        if not file.lower().endswith((".md", ".markdown", ".svg")):
             continue
 
         path = os.path.join(root, file)
