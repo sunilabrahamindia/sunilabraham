@@ -9,9 +9,11 @@ PAGE_ID_PATTERN = re.compile(r"^page_id:\s*(TSAP-(\d{4}))\s*$", re.MULTILINE)
 pages = []
 highest_id = 0
 
-for md_file in Path(".").rglob("*.md"):
+for page_file in sorted(Path(".").rglob("*")):
+    if not page_file.is_file() or page_file.suffix.lower() not in {".md", ".markdown", ".svg"}:
+        continue
     try:
-        text = md_file.read_text(encoding="utf-8")
+        text = page_file.read_text(encoding="utf-8")
 
         if not text.startswith("---"):
             continue
@@ -44,12 +46,12 @@ for md_file in Path(".").rglob("*.md"):
         ).date()
 
         pages.append({
-            "path": md_file,
+            "path": page_file,
             "created": created
         })
 
     except Exception as e:
-        print(f"Skipping {md_file}: {e}")
+        print(f"Skipping {page_file}: {e}")
 
 pages.sort(key=lambda x: (x["created"], str(x["path"])))
 
