@@ -4,6 +4,7 @@ title: "Print Book Production: Essays on Dalits, Religion and Liberation II"
 permalink: /amaa/30-print-book-production/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Documentation for producing the A5 paperback edition of Essays on Dalits, Religion and Liberation II, including Typst typesetting, the print-ready interior PDF and full-wrap cover."
+page_id: TSAP-1373
 created: 2026-11-06
 ---
 

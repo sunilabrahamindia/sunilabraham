@@ -4,6 +4,7 @@ title: "Template:Vibodh Parthasarathi"
 permalink: /vibodh/template/
 categories: [Navigational templates, Vibodh Parthasarathi]
 description: Navigational template linking the biography and publications of Vibodh Parthasarathi.
+page_id: TSAP-1376
 created: 2026-11-08
 ---
 
