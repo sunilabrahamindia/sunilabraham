@@ -590,12 +590,10 @@ common = r"""
   #align(center)[#it]
 ]
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
-  #set text(size: 16pt, weight: "bold", hyphenate: false)
-  #it
+  #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 3): it => block(above: 11pt, below: 10pt, breakable: false)[
-  #set text(size: 14pt, weight: "bold", hyphenate: false)
-  #it
+  #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 """
 if not FOREWORD_SOURCE.is_file():
