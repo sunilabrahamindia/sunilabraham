@@ -116,6 +116,12 @@ The aim is to produce e-books that meet high standards of editorial consistency,
 - Ensure that images have appropriate resolution and that meaningful images have useful alternative text where the format supports it.
 
 
+### Format-specific signatures and hyperlinks
+
+The paperback and e-book use separate presentation rules for front-matter credits. In the print edition, the foreword writer's name and institutional designation, and the editor's name and role, are set as right-aligned, line-by-line attribution blocks. The print signature does not use active hyperlinks or a clickable institutional website label. These are print-only decisions recorded in the [Print Book Production documentation](/amaa/30-print-book-production/).
+
+The e-book is not required to reproduce the print treatment mechanically. Its front matter may retain useful, accessible hyperlinks and may use a layout suited to reflowable reading. Any e-book signature or link changes must be made and verified in the e-book source and stylesheet separately. The print builder's formatting must not be treated as evidence that the e-book has already been updated.
+
 ### Typography and font selection
 
 Typography must be selected deliberately for sustained reading, rather than left to default export settings. The aim is a calm, professional and accessible reading experience across devices, with a consistent visual hierarchy and no unnecessary decoration.
