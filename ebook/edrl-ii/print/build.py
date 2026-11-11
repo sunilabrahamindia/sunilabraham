@@ -477,7 +477,7 @@ common = r"""
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en")
-#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 8pt)
+#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 16pt)
 #set block(spacing: 0.55em)
 #set heading(numbering: none)
 #set footnote.entry(
