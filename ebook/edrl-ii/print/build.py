@@ -637,7 +637,9 @@ parts.append(r"""
 #set page(header: none, footer: none)
 #align(center)[
   #v(45mm)
-  #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
+  #text(size: 22pt, weight: "bold")[Essays on]
+  #linebreak()
+  #text(size: 22pt, weight: "bold")[Dalits, Religion and Liberation II]
 ]
 #pagebreak()
 #pagebreak()
@@ -645,7 +647,9 @@ parts.append(r"""
   #v(25mm)
   #text(size: 12pt, weight: "bold", tracking: 1.8pt)[THE SUNIL ABRAHAM PROJECT]
   #v(24mm)
-  #text(size: 22pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
+  #text(size: 22pt, weight: "bold")[Essays on]
+  #linebreak()
+  #text(size: 22pt, weight: "bold")[Dalits, Religion and Liberation II]
   #v(14mm)
   #text(size: 17pt, weight: "bold")[A. M. Abraham Ayrookuzhiel]
   #v(18mm)
