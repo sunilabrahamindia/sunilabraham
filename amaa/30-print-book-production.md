@@ -934,3 +934,14 @@ The epigraph has been revised to reproduce the full selection shown in the memor
 The source essay presents this refrain in the preceding Pambatti Cittar verse sequence (footnote 19) and cites the final four lines separately to *Cittar Gnanakkovai*, verse 123 (footnote 20). The print epigraph follows the memorial document's combined presentation. Retain this distinction when checking the final source note and do not imply that the entire five-line selection is independently verified as a single verse without checking the underlying edition.
 
 Implementation: commit `d8266cd5a597df7d10913b3880c4592ee23ecbc7` in `ebook/edrl-ii/print/build.py`. The dedicated print workflow is triggered by the source change. Visual verification remains pending.
+
+
+## Author portrait plate — 11 November 2026
+
+A full-page portrait of A. M. Abraham Ayrookuzhiel has been added to the paperback interior. The image is maintained in the companion media repository at `amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png` and is fetched by the print builder at build time; it is not duplicated in the TSAP repository.
+
+The portrait is placed immediately after the publication-details page and before the Pambatti Cittar epigraph. It is a standalone photographic plate, centred and scaled proportionally to fit the A5 text area. It has no caption at this stage because the year and occasion have not yet been confirmed by the family.
+
+The photographic plate is intentionally unnumbered: it has no running head, footer or Roman-numeral folio. Roman preliminary pagination begins with the Foreword after the epigraph, and the main text retains its existing Arabic page 1 restart.
+
+Implementation: print builder commit ec86da5cd7062906b31ffe15da59a05b38238bf8. The dedicated paperback print workflow must be checked for image retrieval, successful compilation, page sequence and visual fit. The original source photograph remains in the media repository; no separate compressed copy is stored in the print repository.
