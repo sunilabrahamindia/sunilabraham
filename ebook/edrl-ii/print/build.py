@@ -550,11 +550,14 @@ common = r"""
       and item.body != [Contents]
   )
   let first-chapter = if chapters.len() > 0 { chapters.first() } else { none }
+  let intentional-blank = first-chapter != none and first-chapter.location().page() == current-page + 1
   let before-first-chapter = first-chapter != none and first-chapter.location().page() > current-page
   let chapter-starts-here = chapters.any(item => item.location().page() == current-page)
   let previous-chapters = chapters.filter(item => item.location().page() < current-page)
   let current-chapter = if previous-chapters.len() > 0 { previous-chapters.last() } else { none }
-  if before-first-chapter {
+  if intentional-blank {
+    []
+  } else if before-first-chapter {
     line(length: 100%, stroke: 0.5pt + luma(170))
   } else if chapter-starts-here {
     []
@@ -722,8 +725,19 @@ parts.append(r"""
   numbering: "i",
   header: running-header,
   footer: context [
-    #set text(size: 8pt, fill: luma(65))
-    #align(center)[#counter(page).display("i")]
+    let current-page = here().page()
+    let chapters = query(heading.where(level: 1)).filter(
+      item => item.body != [Foreword]
+        and item.body != [Editor's Note]
+        and item.body != [About the Author]
+        and item.body != [Contents]
+    )
+    let first-chapter = if chapters.len() > 0 { chapters.first() } else { none }
+    let intentional-blank = first-chapter != none and first-chapter.location().page() == current-page + 1
+    if not intentional-blank {
+      set text(size: 8pt, fill: luma(65))
+      align(center)[#counter(page).display("i")]
+    }
   ],
 )
 #counter(page).update(1)
