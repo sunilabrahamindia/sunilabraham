@@ -584,6 +584,19 @@ The foreword by Y. T. Vinayaraj was received as a Word document and inspected on
 - [x] Run the e-book workflow. GitHub Actions run 146 completed successfully; the manuscript, EPUB package and PDF were generated and the automated package checks passed.
 - [ ] Visually inspect the print and e-book proofs for text fidelity, poem layout, reference rendering, Roman-numeral folios and pagination. Automated build success is not a substitute for visual proofreading.
 
+## Front-matter spacing and preliminary folios — 11 November 2026
+
+The paperback proof showed two front-matter spacing defects: the Foreword heading sat too close to its opening paragraph, and the Editor's Note heading overlapped or crowded the draft-status notice. The preliminary page numbers were also set in uppercase Roman numerals, whereas the required style is lowercase Roman numerals.
+
+The print builder is being adjusted as follows:
+
+1. Add deliberate vertical space between the Foreword heading and its first paragraph.
+2. Separate the Editor's Note heading, its "DRAFT VERSION — NOT YET FINALISED" notice and the opening paragraph with consistent vertical spacing.
+3. Change preliminary folios to lowercase Roman numerals (i, ii, iii, iv, v, vi, and so on), retaining the restart at Arabic page 1 for the first essay.
+4. Keep the foreword wording, poem, references, essay text, table treatment, cover and other page furniture unchanged.
+
+The documentation update is committed separately from the print-builder change so that only the builder commit triggers a new paperback workflow run. The visual result must still be checked in the resulting PDF; the source change alone does not establish that the spacing is correct.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
