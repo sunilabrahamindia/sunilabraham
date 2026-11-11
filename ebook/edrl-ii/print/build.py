@@ -629,6 +629,7 @@ parts.append(r"""
     #set text(size: 11.5pt)
     #set par(justify: false, first-line-indent: 0pt, leading: 1.35em, spacing: 0pt)
     #align(center)[
+      So dance snake, dance!\
       We'll set fire to divisions of caste,\
       We'll debate philosophical questions in the market place;\
       We'll have dealings with despised households,\
