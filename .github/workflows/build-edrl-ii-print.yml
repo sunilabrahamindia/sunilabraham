@@ -9,6 +9,7 @@ on:
     paths:
       - "ebook/edrl-ii/manifest.yml"
       - "ebook/edrl-ii/front-matter.md"
+      - "ebook/edrl-ii/foreword.md"
       - "ebook/edrl-ii/print/**"
       - "ebook/edrl-ii/print/build.py"
       - "amaa/state-of-hinduism-in-2000-ad-full-text.md"
