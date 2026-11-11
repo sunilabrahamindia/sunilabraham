@@ -40,7 +40,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install Python dependencies
-        run: python -m pip install --upgrade PyYAML beautifulsoup4 PyMuPDF
+        run: python -m pip install --upgrade PyYAML beautifulsoup4
 
       - name: Install Pandoc, Typst and fonts
         run: |
@@ -54,9 +54,6 @@ jobs:
       - name: Build A5 print preview
         run: python ebook/edrl-ii/print/build.py
 
-      - name: Extract page-separated text for subject indexing
-        run: python ebook/edrl-ii/print/extract_subject_index_text.py
-
       - name: Upload print preview
         uses: actions/upload-artifact@v4
         with:
@@ -65,6 +62,5 @@ jobs:
             ebook/edrl-ii/print/output/edrl-ii-interior.pdf
             ebook/edrl-ii/print/output/edrl-ii-front-cover-proof.pdf
             ebook/edrl-ii/print/output/edrl-ii-combined-review.pdf
-            ebook/edrl-ii/print/output/edrl-ii-page-text.txt
           if-no-files-found: error
           retention-days: 30
