@@ -14,6 +14,7 @@ BASE = ROOT / "ebook" / "edrl-ii"
 OUT = BASE / "output"
 MANIFEST = BASE / "manifest.yml"
 FRONT_MATTER = BASE / "front-matter.md"
+FOREWORD_SOURCE = BASE / "foreword.md"
 OUT.mkdir(parents=True, exist_ok=True)
 COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg"
 COVER_PATH = OUT / "edrl-ii-cover.jpg"
@@ -105,6 +106,17 @@ if not FRONT_MATTER.is_file():
     raise SystemExit(f"Missing front-matter source: {FRONT_MATTER}")
 
 front_matter = FRONT_MATTER.read_text(encoding="utf-8").strip()
+if not FOREWORD_SOURCE.is_file():
+    raise SystemExit(f"Missing foreword source: {FOREWORD_SOURCE}")
+foreword_text = FOREWORD_SOURCE.read_text(encoding="utf-8").strip()
+foreword_marker = "<!-- FOREWORD_SOURCE_INSERTION_POINT -->"
+if foreword_marker not in front_matter:
+    raise SystemExit("Foreword insertion marker is missing from front-matter.md.")
+foreword_refs = len(re.findall(r"\[\^\d+\](?!:)", foreword_text))
+foreword_notes = len(re.findall(r"(?m)^\[\^\d+\]:", foreword_text))
+if foreword_refs != 2 or foreword_notes != 2:
+    raise SystemExit(f"Foreword reference check failed: {foreword_refs} markers, {foreword_notes} reference entries.")
+front_matter = front_matter.replace(foreword_marker, foreword_text)
 parts = [front_matter, ""]
 checks = []
 for item in items:
