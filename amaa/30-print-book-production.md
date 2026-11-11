@@ -877,164 +877,6 @@ The following suggestions were communicated by Sunil on 11 November 2026. They a
 - [ ] **Copyright notice.** Include a copyright notice consistent with the original publication.
 
 
-## See also
-
-- [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
-
-{% include navbox-amaa.html %}
-
-
-<!-- NOTE DO NOT ADD ANYTHING EXCEPT STYLE AND SCRIPT BELOW, DO NOT READ TITO'S EDIT -->
-<style>
-.typst-markdown-table-wrap {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  overscroll-behaviour-x: contain;
-  margin: 1rem 0 1.5rem;
-  -webkit-overflow-scrolling: touch;
-  border: 1px solid #767676;
-}
-
-.typst-markdown-table-wrap:focus-visible {
-  outline: 3px solid #1f5fbf;
-  outline-offset: 3px;
-}
-
-.typst-markdown-table-wrap table.typst-markdown-table {
-  display: table !important;
-  width: max-content !important;
-  min-width: 760px;
-  max-width: none;
-  margin: 0 !important;
-  border-collapse: collapse;
-  border-spacing: 0;
-  box-shadow: none !important;
-  border-radius: 0 !important;
-  background: #fff;
-  font-size: 0.92rem;
-}
-
-.typst-markdown-table-wrap .typst-markdown-table th,
-.typst-markdown-table-wrap .typst-markdown-table td {
-  min-width: 9rem;
-  border: 1px solid #767676;
-  padding: 0.65rem 0.75rem;
-  text-align: left;
-  vertical-align: top;
-  white-space: normal;
-  overflow-wrap: anywhere;
-}
-
-.typst-markdown-table-wrap .typst-markdown-table thead th {
-  background: #e8edf3;
-  color: #20252b;
-  font-weight: 700;
-}
-
-.typst-markdown-table-wrap .typst-markdown-table tbody th {
-  background: #f3f5f7;
-  color: #20252b;
-  font-weight: 600;
-}
-
-.typst-markdown-table-wrap .typst-markdown-table code {
-  white-space: normal;
-  overflow-wrap: anywhere;
-}
-
-body.tsap-dark-mode .typst-markdown-table-wrap {
-  border-color: #64748b;
-}
-
-body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table {
-  background: #111827;
-  color: #f3f4f6;
-}
-
-body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table th,
-body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table td {
-  border-color: #64748b;
-}
-
-body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table thead th,
-body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table tbody th {
-  background: #1b2636;
-  color: #f3f4f6;
-}
-
-/* Footnote tally: keep the wide audit table within the page on small screens. */
-.footnote-tally-wrap {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  overscroll-behaviour-x: contain;
-  -webkit-overflow-scrolling: touch;
-  margin: 1rem 0 1.5rem;
-  border: 1px solid #767676;
-}
-.footnote-tally-wrap:focus-visible {
-  outline: 3px solid #1f5fbf;
-  outline-offset: 3px;
-}
-.footnote-tally {
-  display: table !important;
-  width: max-content !important;
-  min-width: 760px;
-  max-width: none;
-  margin: 0 !important;
-  border-collapse: collapse;
-  border-spacing: 0;
-  box-shadow: none !important;
-  border-radius: 0 !important;
-  background: #fff;
-  font-size: 0.92rem;
-}
-.footnote-tally th,
-.footnote-tally td {
-  min-width: 8rem;
-  padding: 0.6rem 0.7rem;
-  border: 1px solid #767676;
-  text-align: left;
-  vertical-align: top;  white-space: normal;
-  overflow-wrap: anywhere;
-}
-.footnote-tally thead th {
-  background: #e8edf3;
-  color: #20252b;
-}
-.footnote-tally tbody th {
-  background: #f3f5f7;
-  color: #20252b;
-}
-.footnote-tally td {
-  text-align: center;
-}
-.footnote-tally .tally-total th,
-.footnote-tally .tally-total td {
-  font-weight: 700;
-  border-top: 2px solid #444;
-}
-body.tsap-dark-mode .footnote-tally-wrap {
-  border-color: #64748b;
-}
-body.tsap-dark-mode .footnote-tally {
-  background: #111827;
-  color: #f3f4f6;
-}
-body.tsap-dark-mode .footnote-tally th,
-body.tsap-dark-mode .footnote-tally td {
-  border-color: #64748b;
-}
-body.tsap-dark-mode .footnote-tally thead th,
-body.tsap-dark-mode .footnote-tally tbody th {
-  background: #1b2636;
-  color: #f3f4f6;
-}
-
-</style>
-
-
 ## Signature spacing and editor date placement — 11 November 2026
 
 The next paperback proof showed that both front-matter signature blocks had excessive vertical separation between their lines, making the attributions look disconnected.
@@ -1603,3 +1445,161 @@ The current successful commit and downloaded artifact should be retained as a re
 - Keep formatting changes small and local, and avoid unnecessary dependency or workflow changes during the final book-proofing stage.
 
 **Current status: RECOVERED WORKING BUILD.** Run #117, attempt 2, successfully generated and uploaded the three PDF outputs. The user downloaded the artifact and confirmed that the expected earlier book file was present. The environment and dependency setup are to be left unchanged while the remaining formatting is considered.
+
+
+## See also
+
+- [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
+
+{% include navbox-amaa.html %}
+
+
+<!-- NOTE DO NOT ADD ANYTHING EXCEPT STYLE AND SCRIPT BELOW, DO NOT READ TITO'S EDIT -->
+<style>
+.typst-markdown-table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behaviour-x: contain;
+  margin: 1rem 0 1.5rem;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #767676;
+}
+
+.typst-markdown-table-wrap:focus-visible {
+  outline: 3px solid #1f5fbf;
+  outline-offset: 3px;
+}
+
+.typst-markdown-table-wrap table.typst-markdown-table {
+  display: table !important;
+  width: max-content !important;
+  min-width: 760px;
+  max-width: none;
+  margin: 0 !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: #fff;
+  font-size: 0.92rem;
+}
+
+.typst-markdown-table-wrap .typst-markdown-table th,
+.typst-markdown-table-wrap .typst-markdown-table td {
+  min-width: 9rem;
+  border: 1px solid #767676;
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.typst-markdown-table-wrap .typst-markdown-table thead th {
+  background: #e8edf3;
+  color: #20252b;
+  font-weight: 700;
+}
+
+.typst-markdown-table-wrap .typst-markdown-table tbody th {
+  background: #f3f5f7;
+  color: #20252b;
+  font-weight: 600;
+}
+
+.typst-markdown-table-wrap .typst-markdown-table code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap {
+  border-color: #64748b;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table {
+  background: #111827;
+  color: #f3f4f6;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table th,
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table td {
+  border-color: #64748b;
+}
+
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table thead th,
+body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table tbody th {
+  background: #1b2636;
+  color: #f3f4f6;
+}
+
+/* Footnote tally: keep the wide audit table within the page on small screens. */
+.footnote-tally-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behaviour-x: contain;
+  -webkit-overflow-scrolling: touch;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid #767676;
+}
+.footnote-tally-wrap:focus-visible {
+  outline: 3px solid #1f5fbf;
+  outline-offset: 3px;
+}
+.footnote-tally {
+  display: table !important;
+  width: max-content !important;
+  min-width: 760px;
+  max-width: none;
+  margin: 0 !important;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: #fff;
+  font-size: 0.92rem;
+}
+.footnote-tally th,
+.footnote-tally td {
+  min-width: 8rem;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid #767676;
+  text-align: left;
+  vertical-align: top;  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.footnote-tally thead th {
+  background: #e8edf3;
+  color: #20252b;
+}
+.footnote-tally tbody th {
+  background: #f3f5f7;
+  color: #20252b;
+}
+.footnote-tally td {
+  text-align: center;
+}
+.footnote-tally .tally-total th,
+.footnote-tally .tally-total td {
+  font-weight: 700;
+  border-top: 2px solid #444;
+}
+body.tsap-dark-mode .footnote-tally-wrap {
+  border-color: #64748b;
+}
+body.tsap-dark-mode .footnote-tally {
+  background: #111827;
+  color: #f3f4f6;
+}
+body.tsap-dark-mode .footnote-tally th,
+body.tsap-dark-mode .footnote-tally td {
+  border-color: #64748b;
+}
+body.tsap-dark-mode .footnote-tally thead th,
+body.tsap-dark-mode .footnote-tally tbody th {
+  background: #1b2636;
+  color: #f3f4f6;
+}
+
+</style>
