@@ -430,6 +430,9 @@ def md_to_typst(markdown, stem):
         md.write_text(segment, encoding="utf-8")
         run(["pandoc", str(md), "--from=markdown+smart+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
+        # Pandoc's Typst writer emits paragraph breaks that were collapsing in
+        # the print layout. Add explicit vertical separation after each break.
+        content = content.replace("#parbreak()", "#parbreak()\\n#v(10pt)")
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
             raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
         raw_markers = re.findall(r"\[\^(\d+)\](?!:)", content)
