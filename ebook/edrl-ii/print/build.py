@@ -541,15 +541,16 @@ if signature_source not in foreword_markdown:
     raise SystemExit("Original foreword signature not found")
 foreword_markdown = foreword_markdown.replace(signature_source, "TSAPFOREWORDSIGNATURETOKEN")
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
-signature_typst = r"""#align(right)[
-  #stack(
-    dir: ttb,
-    spacing: 2pt,
-    [#text(size: 11pt, weight: "bold")[Dr. Y. T. Vinayaraj]],
-    [#text(size: 9.5pt)[Director,]],
-    [#text(size: 9pt)[Christian Institute for the Study of]],
-    [#text(size: 9pt)[Religion and Society]],
-  )
+signature_typst = r"""#v(6pt)
+#align(right)[
+  #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
+  #text(size: 11pt, weight: "bold")[Dr. Y. T. Vinayaraj]
+  #linebreak()
+  #text(size: 9.5pt)[Director,]
+  #linebreak()
+  #text(size: 9pt)[Christian Institute for the Study of]
+  #linebreak()
+  #text(size: 9pt)[Religion and Society]
 ]"""
 if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
     raise SystemExit("Foreword signature marker did not survive conversion")
@@ -645,16 +646,16 @@ The essays reflect A. M. Abraham Ayrookuzhiel's sustained engagement with Dalit 
 
 The work of collecting and documenting his writings remains ongoing. Further essays and related materials may be identified as the archival work proceeds. Any errors or inaccuracies brought to the editors' attention will be examined and, where necessary, addressed in a subsequent edition.
 
-#v(18pt)
+#v(10pt)
 #align(right)[
-  #stack(
-    dir: ttb,
-    spacing: 2pt,
-    [#text(size: 11pt, weight: "bold")[Tito Dutta]],
-    [#text(size: 9.5pt)[Co-founder and Administrator]],
-    [#text(size: 9pt)[The Sunil Abraham Project]],
-    [#v(3pt) #text(size: 8.5pt)[29 November 2026]],
-  )
+  #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
+  #text(size: 11pt, weight: "bold")[Tito Dutta]
+  #linebreak()
+  #text(size: 9.5pt)[Co-founder and Administrator]
+  #linebreak()
+  #text(size: 9pt)[The Sunil Abraham Project]
+  #linebreak()
+  #text(size: 8.5pt)[29 November 2026]
 ]
 #pagebreak()
 = About the Author
