@@ -956,3 +956,21 @@ The paperback builder has been corrected after review of the generated proof:
 - The three book titles in **About the Author** are now marked with Typst italic syntax (underscores), not asterisks, which Typst interprets as bold. The titles should therefore appear in italics rather than bold.
 
 Implementation: commit `67cc1623f7b3ff1d067246a2937e7c870f2df1e5` in `ebook/edrl-ii/print/build.py`. The dedicated paperback workflow must be checked to verify the rendered line breaks, attribution and italic book titles. No source essay wording has been changed.
+
+## Initial paperback back-cover design — 11 November 2026
+
+An initial visual design for the back cover of *Essays on Dalits, Religion and Liberation II* has been prepared. It follows the front cover's visual identity: a warm parchment-coloured background, dark serif typography, restrained maroon rules and a solid maroon footer.
+
+The current concept contains these elements:
+
+- The book title at the top, arranged over two lines in a consistent serif style.
+- A short description of the volume's essays and their engagement with Dalit life, religion, caste, popular traditions and liberation.
+- An **About the Author** section, combining a short biographical note with the supplied archival portrait of A. M. Abraham Ayrookuzhiel. The portrait is used without facial retouching or reconstruction.
+- A white retail barcode label in the lower-right area. The hyphenated paperback ISBN, **978-93-345-8524-7**, is centred above the EAN-13 bars; the unhyphenated digits are printed below the bars.
+- The printed price, **₹250**, immediately below the barcode label.
+- A maroon footer band with **The Sunil Abraham Project** on the left and https://sunilabraham.in on the right.
+
+The EAN-13 symbol in the current proof was decoded programmatically as **9789334585247**, matching the allotted paperback ISBN. This confirms that the encoded number is correct; it does not replace a physical scan test of the final, printer-sized barcode.
+
+This is an initial back-cover design, not the final full-wrap cover PDF. The title scale, barcode-label margins and overall spacing remain subject to final proofing. The spine width, bleed, trim and full-wrap dimensions must be set only after the printer supplies the cover template and the final interior page count and paper specification are confirmed. The barcode must be scan-tested at final print size before the cover is approved.
+
