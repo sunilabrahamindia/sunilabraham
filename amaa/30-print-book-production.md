@@ -673,6 +673,45 @@ The Sunil Abraham Project
 
 Each item is forced onto its own line in the print builder. This correction supersedes the earlier attribution description in this log. The generated paperback proof must still be visually checked to confirm the final rendered line breaks and spacing.
 
+## Author biography for the paperback — plan and editorial scope — 11 November 2026
+
+Sunil Abraham suggested including two biographies of A. M. A. Ayrookuzhiel in the book: a short biographical note on the back cover and a fuller biography within the preliminary pages. This entry records the plan for the longer, inside biography. The back-cover note is a separate piece of copy and will be prepared independently.
+
+### Purpose and placement
+
+The inside biography will introduce the author to readers before they begin the collected essays. It will appear after the Editor's Note and before the Contents. This creates a deliberate sequence: the Foreword introduces the intellectual significance of the work; the Editor's Note explains the history and purpose of the collection; the biography introduces the author; and the Contents lead into the essays.
+
+### Length and format
+
+- Target length: approximately 400–500 words.
+- Heading: **About the Author**.
+- Form: continuous, readable prose in a small number of paragraphs.
+- No tables, publication grids, bullet-point chronology, references list or external links within the biography.
+- The biography is an editorial narrative, not a compressed copy of the website's archival page and not an obituary.
+
+### Content to retain
+
+The narrative will draw on the existing author biography at `/amaa/index.md` and prioritise information relevant to understanding the author and his work:
+
+1. His identity, dates and origins in Kerala.
+2. His early formation and theological education in India and abroad.
+3. His ministry in the United Kingdom and return to India.
+4. His work at the Christian Institute for the Study of Religion and Society (CISRS), including his research and role as Associate Director.
+5. His intellectual engagement with Dalit experience, caste, religious identity, popular religion, contextual theology and liberation.
+6. Selected publications and the unfinished work on Dalit and Hindu religious identity, followed by his death in 1996.
+
+### Material to omit or handle cautiously
+
+The inside biography will not reproduce the website's family genealogy, detailed family chronology, tabular bibliography, article-by-article inventory, references or external links. It will avoid claims about influence, institutional history or intellectual priority that are not established by the source biography. Where the source gives only broad information, the book will retain that level of generality rather than supply guessed dates, institutions, qualifications or explanations.
+
+### Relationship to the back-cover note
+
+The back-cover biography will be approximately 70–100 words and will serve a different purpose: a concise introduction for prospective readers. It should not simply be a truncated version of the inside biography. The two texts should be consistent in facts and emphasis, but independently edited for their respective locations.
+
+### Production status and verification
+
+The longer biography is to be added to the print interior after the Editor's Note and before the Contents. Its final word count, paragraph flow, heading treatment and pagination must be checked in the generated A5 proof. The biography should be checked against `/amaa/index.md` for factual fidelity. The back-cover note remains a separate pending task.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
