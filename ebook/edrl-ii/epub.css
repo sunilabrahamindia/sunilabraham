@@ -57,6 +57,20 @@ blockquote p {
   margin: 0 0 0.55em;
 }
 blockquote p:last-child { margin-bottom: 0; }
+
+/* The foreword poem retains its lineation and is visually distinct from prose. */
+.poem {
+  margin: 1.35em 0;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.poem p {
+  margin: 0;
+  text-indent: 0;
+  line-height: 1.45;
+}
+
 img { max-width: 100%; height: auto; }
 table {
   border-collapse: collapse;
