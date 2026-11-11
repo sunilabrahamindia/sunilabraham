@@ -1079,3 +1079,19 @@ The EAN-13 symbol in the current proof was decoded programmatically as **9789334
 
 This is an initial back-cover design, not the final full-wrap cover PDF. The title scale, barcode-label margins and overall spacing remain subject to final proofing. The spine width, bleed, trim and full-wrap dimensions must be set only after the printer supplies the cover template and the final interior page count and paper specification are confirmed. The barcode must be scan-tested at final print size before the cover is approved.
 
+
+
+## Preliminary running heads and Roman-numeral blank page — 11 November 2026
+
+The running-head treatment has been revised in response to the latest proof review.
+
+- From the Foreword through the Editor's Note, every page of **About the Author**, the Contents and the intervening blank page, the book title and chapter title are removed from the top running head.
+- The horizontal rule is retained on these preliminary pages.
+- The existing running-head treatment for the essays is retained. Chapter-opening pages continue to follow their existing design; subsequent essay pages retain the established alternating book-title and chapter-title headers.
+- **About the Author** is explicitly excluded from the list of essay chapters used to determine running heads. This prevents its heading from being mistaken for a chapter title.
+
+The blank page immediately before the first essay remains intentional. The transition to Arabic main-text pagination has been moved until after that blank page, so it remains part of the Roman-numbered preliminary matter. Its folio should therefore display as a Roman numeral (for example, XIII), not Arabic "13". The first essay's Arabic pagination is still reset to 1.
+
+**Implementation:** commit `fcda4ea5362af6c45b35f47f448e44181ea41d33` in `ebook/edrl-ii/print/build.py`.
+
+**Verification pending:** the dedicated EDRL II print proof workflow has been queued for this commit. Inspect the Foreword, Editor's Note, both pages of About the Author, Contents, the blank page and the first essay opening. Confirm that the preliminary pages show the horizontal rule without a running title, that the blank page carries the correct Roman folio XIII, and that the essay running heads and Arabic page 1 restart remain unchanged. Do not treat the source change as visually verified until the generated PDF has been inspected.
