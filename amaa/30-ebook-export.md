@@ -425,6 +425,35 @@ After changing a file, rebuild the EPUB and inspect the actual file in a reading
 - **3 November 2026 - Entry 26: Cover integration and front-matter/navigation revision.** We uploaded the current cover concept to the media repository at `sunilabrahammedia/amaa/edrl-ii-v0.2.jpg`. The EPUB build now retrieves that image from the media repository at build time and passes it to Pandoc as the EPUB cover, avoiding a duplicate committed image in the main repository. The visible book sequence has been revised to: cover, title-only half-title, full title page (title, author and centred `The Sunil Abraham Project` imprint; no subtitle has been supplied), publication information, a book-level contents page, and the nine essays. The unfinished foreword and editor's-note placeholders have been removed from the preview rather than published as empty sections. Essay headings have stable identifiers and each essay includes a `Back to Contents` link. The automatically inserted in-body Pandoc TOC was removed so it does not precede the half-title; EPUB navigation remains to be checked in the generated file. These are source/build changes, not a claim that the EPUB has passed visual QA. Rebuild the preview, verify the cover and sequence in Readera and Foliate, test all contents/return links and run EPUBCheck before approving the next proof.
 - **3 November 2026 - Entry 27: Format-specific publication metadata.** Replaced the previous metadata subsection with a dedicated `## Metadata` section and separate `### eBook` and `### Print book` subsections. Recorded the confirmed title, author, imprint-before-editor credit order, language/format, publication date and format-specific ISBNs; drafted a factual description from the collection's stated subject matter; and marked unresolved rights, credits and print-production details as pending. Added a short explanation of series metadata and trim size so those fields are not mistaken for required invented details.
 
+- **11 November 2026 - Entry 28: Print-production recovery and implications for the e-book.** The paperback and e-book production work share some source material, but their builders and layout rules remain separate. This entry records the e-book implications of the print-production recovery so that the two workflows are not confused and the work can be resumed without reconstructing the history.
+
+  **Shared material and transfer of front matter**
+
+  - **Foreword:** The complete foreword by Y. T. Vinayaraj is already stored in the shared source file `ebook/edrl-ii/foreword.md`. The print builder reads this file, and the e-book builder also reads it and inserts its contents at the foreword marker in `ebook/edrl-ii/front-matter.md`. The e-book therefore does not need a second copy of the foreword to be created. Changes to the shared foreword source will be available to both formats on their next respective builds.
+  - **Editor's Note:** The print builder currently contains the full draft of the Editor's Note within `ebook/edrl-ii/print/build.py`. The e-book front matter, `ebook/edrl-ii/front-matter.md`, has an Editor's Note section with placeholder text. To bring the note into the e-book, transfer the approved wording from the print source into the e-book front matter and format it for EPUB/PDF reading. The Typst markup and print-specific alignment should not be copied; only the text should be transferred, with the e-book presentation handled separately. The note remains subject to editorial approval.
+  - **About the Author:** The print builder also contains an About the Author section. The current e-book front matter does not contain that section. It can be considered separately for inclusion; its presence in the print edition does not mean it has already been added to the e-book.
+  - The e-book's reflowable EPUB styling and the print edition's fixed-page Typst styling are intentionally distinct. Front-matter wording can be shared where appropriate, but layout, page breaks, signatures and links must be checked in each format independently.
+
+  **E-book source integrity after the print recovery**
+
+  The print-recovery commit `a4cfcba453eddb548226a8a854498adaa64b7955` changed only these two paths:
+
+  - `.github/workflows/build-edrl-ii-print.yml`
+  - `ebook/edrl-ii/print/build.py`
+
+  It did not modify the e-book builder `ebook/edrl-ii/build.py`, the e-book manifest `ebook/edrl-ii/manifest.yml`, the e-book metadata `ebook/edrl-ii/metadata.yml`, the front matter, the foreword source, the EPUB stylesheet or the e-book workflow. The e-book production files were therefore not altered by that recovery commit. The current e-book source remains in place; no e-book code or YAML restoration was needed.
+
+  **Build status and remaining verification**
+
+  - The last successful e-book editorial-preview run recorded above is Run #9 on 2 November 2026. That successful run confirms that the workflow built and uploaded an editorial-preview artifact at that point; it does not validate later source changes or establish publication readiness.
+  - The print recovery did not include a new e-book workflow run. The e-book pipeline has therefore not been re-verified after the recovery work. Its next build will independently install Pandoc and the PDF tooling and run `ebook/edrl-ii/build.py`.
+  - The e-book workflow watches changes under `ebook/edrl-ii/**`. That path also includes the print subdirectory, so a future change to a print file can trigger the e-book workflow even when the e-book source itself has not changed. This is a workflow-trigger overlap, not evidence that the e-book files have been modified.
+  - A previous hosted-runner APT failure occurred during print dependency installation because the Ubuntu package mirror could not be resolved. That incident does not establish a fault in the e-book builder. However, because the e-book workflow also installs system packages on a hosted runner, its dependency step could encounter a separate transient package-network failure when it next runs. This has not been tested in a post-recovery e-book run.
+  - The e-book remains an editorial preview. A successful automated build must still be followed by inspection of the actual EPUB in reading applications, checking the front matter and contents navigation, verifying all nine essays and their notes/references against the sources, checking reflow and accessibility, and reviewing the generated PDF. Full EPUBCheck validation and final editorial decisions, including the rights statement and any provisional essay ordering, remain separate quality-control tasks.
+
+  **Resumption point:** The e-book source files were not damaged by the print recovery. When e-book work resumes, first decide and approve the Editor's Note wording, transfer it from the print builder into the e-book front matter, decide whether to include the About the Author section, then build and inspect a fresh e-book preview. Do not treat the existence of the print version as proof that these sections have already been incorporated into the e-book.
+
+
 
 
 
