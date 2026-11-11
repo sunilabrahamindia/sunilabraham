@@ -657,6 +657,20 @@ The work of collecting and documenting his writings remains ongoing. Further ess
   #text(size: 9pt)[The Sunil Abraham Project]
 ]
 #pagebreak()
+= About the Author
+#v(10pt)
+Athanasius Mathen Abraham Ayrookuzhiel (18 September 1933–29 November 1996), known as Rev. A. M. A. Ayrookuzhiel, was an Indian priest, theologian and scholar whose work brought theological reflection into sustained conversation with the social and cultural realities of marginalised communities. Born in Chengannur, Kerala, he grew up in a region with a deep Christian heritage. His early education and religious formation were followed by studies in philosophy and theology in Pune, and further academic work in Rome and the United Kingdom. He was ordained a priest in 1963.
+
+Ayrookuzhiel's ministry and scholarship developed across different church and cultural settings. After his studies abroad, he joined the Anglican Church and served as a curate at St. Paul High Anglican Church in Wokingham, Berkshire, from 1970 to 1973. This period brought him into contact with wider ecumenical conversations and debates about the church's role in a changing society. He returned to India in 1973.
+
+In 1974, Ayrookuzhiel joined the Christian Institute for the Study of Religion and Society (CISRS) in Bangalore. He later served as its Associate Director, contributing to the institute's research, seminars and wider theological engagement. At CISRS, he turned sustained attention to the religious and cultural lives of Dalit communities and to the ways caste and social hierarchy shape religious identity. His work connected field-based study with theological and social analysis, treating the experiences, memories and cultural expressions of marginalised people as important sources for understanding religion.
+
+A central concern in his writing was the relationship between faith and social emancipation. He questioned accounts of religion that obscured caste oppression or treated inherited social arrangements as natural. His studies explored Dalit identity, popular religious traditions, oral culture and forms of resistance expressed through stories, songs, myths and festivals. He argued for a theology attentive to the lives and struggles of the oppressed, and for serious engagement with the cultural resources through which communities understand themselves. His work therefore crossed the boundaries of theology, sociology and cultural study.
+
+Among his books are *The Sacred in Popular Hinduism: An Empirical Study in Chirakkal, North Malabar* (1983), *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial* (1987), and *The Dalit Desiyata: The Kerala Experience in Development and Class Struggle* (1990), which he edited. He also co-edited and co-authored works on Dalit poetry and literature. His essays addressed Dalit theology, religious identity and interfaith dialogue, among other themes.
+
+At the time of his death in 1996, Ayrookuzhiel was working on a study of Dalit and Hindu religious identity that remained incomplete. His published work, research and engagement with questions of caste, religion and liberation form the intellectual record that this volume seeks to make available to readers.
+#pagebreak()
 = Contents
 #outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
