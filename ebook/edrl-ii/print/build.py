@@ -742,9 +742,11 @@ parts.append(r"""
 )
 #counter(page).update(1)
 """ + BODY_PAR + r"""
+#set heading(outlined: true)
 = Foreword
 @@FOREWORD_BODY@@
 #pagebreak()
+#set heading(outlined: true)
 = Editor's Note
 #v(14pt)
 _Essays on Dalits, Religion and Liberation II_ by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author. This volume continues the work begun with the publication of _Essays on Dalits, Religion and Liberation_ in 2006, marking the tenth anniversary of his death. The first volume was published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), with a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
@@ -769,6 +771,7 @@ The work of collecting and documenting his writings remains ongoing. Further ess
   #text(size: 8.5pt)[29 November 2026]
 ]
 #pagebreak()
+#set heading(outlined: true)
 = About the Author
 #v(10pt)
 A. M. Abraham Ayrookuzhiel (18 September 1933 – 29 November 1996) was an Indian theologian, scholar and researcher whose work brought questions of religion into close conversation with the social and cultural realities of marginalised communities. Born in Chengannur, Kerala, he grew up in a region with a deep Christian heritage. His early schooling was in the villages around Puthenkavu. He later entered seminary formation in Thiruvananthapuram and pursued higher studies in philosophy and theology in Pune. He continued his academic formation in Rome and the United Kingdom, and was ordained in 1963.
@@ -784,7 +787,13 @@ His publications include _The Sacred in Popular Hinduism: An Empirical Study in 
 At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was working on a study of Dalit and Hindu religious identity that remained incomplete. His writings brought together academic research, theological reflection and close attention to the social realities of his time. This volume makes a further part of his work available to readers.
 #pagebreak()
 = Contents
-#outline(title: none, depth: 1, target: heading.where(level: 1))
+#outline(
+  title: none,
+  depth: 1,
+  target: heading.where(level: 1).or(
+    heading.where(level: 1, text: "Foreword")
+  ),
+)
 #pagebreak()
 """)
 
