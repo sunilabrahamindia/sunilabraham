@@ -197,13 +197,13 @@ def html_table_to_typst(table):
     # Give descriptive row labels more room and keep numerical columns compact.
     if width == 6:
         ratios = [2.1] + [0.85] * 5
-        font_size = "7.1pt"
+        font_size = "8pt"
     elif width == 5:
         ratios = [2.2] + [0.85] * 4
-        font_size = "7.5pt"
+        font_size = "8pt"
     elif width == 4:
         ratios = [1.8, 1.1, 1.1, 1.1]
-        font_size = "7.8pt"
+        font_size = "8pt"
     elif width == 3:
         ratios = [2.0, 0.9, 1.1]
         font_size = "8.2pt"
@@ -474,16 +474,33 @@ common = r"""
   clearance: 0.6em,
   gap: 0.35em,
 )
+#let running-header = context {
+  let current-page = here().page()
+  let chapters = query(heading.where(level: 1)).filter(
+    item => item.body != [Foreword] and item.body != [Editor's Note] and item.body != [Contents]
+  )
+  let chapter-starts-here = chapters.any(item => item.location().page() == current-page)
+  let current-chapter = chapters.filter(item => item.location().page() < current-page).last()
+  if chapter-starts-here {
+    []
+  } else {
+    set text(size: 8pt, fill: luma(85))
+    if calc.even(current-page) {
+      align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    } else if current-chapter != none {
+      align(center)[#current-chapter.body]
+    } else {
+      align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    }
+    v(3pt)
+    line(length: 100%, stroke: 0.5pt + luma(170))
+  }
+}
 #set page(
   paper: "a5",
   binding: left,
   margin: (inside: 18mm, outside: 14mm, top: 18mm, bottom: 17mm),
-  header: context [
-    #set text(size: 7.5pt, fill: luma(85))
-    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
-    #v(3pt)
-    #line(length: 100%, stroke: 0.5pt + luma(170))
-  ],
+  header: running-header,
   footer: context [
     #set text(size: 8pt, fill: luma(65))
     #align(center)[#counter(page).display("1")]
@@ -517,7 +534,22 @@ foreword_ref_count = len(re.findall(r"\[\^\d+\](?!:)", foreword_markdown))
 foreword_note_count = len(re.findall(r"(?m)^\[\^\d+\]:", foreword_markdown))
 if foreword_ref_count != 2 or foreword_note_count != 2:
     raise SystemExit(f"Foreword reference check failed: {foreword_ref_count} markers, {foreword_note_count} reference entries.")
+signature_source = """**Y.T. Vinayaraj**  
+Director, CISRS"""
+if signature_source not in foreword_markdown:
+    raise SystemExit("Original foreword signature not found")
+foreword_markdown = foreword_markdown.replace(signature_source, "@@FOREWORD_SIGNATURE@@")
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
+signature_typst = r"""#align(right)[
+  #set par(justify: false, first-line-indent: 0pt, spacing: 2pt)
+  #text(weight: "bold")[Dr. Y. T. Vinayaraj]
+  #text(size: 9.5pt)[Director]
+  #text(size: 9pt)[Christian Institute for the Study of Religion and Society (CISRS)]
+  #text(size: 9pt)[#link("https://www.cisrs.in/")[cisrs.in]]
+]"""
+if "@@FOREWORD_SIGNATURE@@" not in foreword_typst:
+    raise SystemExit("Foreword signature marker did not survive conversion")
+foreword_typst = foreword_typst.replace("@@FOREWORD_SIGNATURE@@", signature_typst)
 
 parts = [common]
 parts.append(r"""
@@ -548,7 +580,7 @@ parts.append(r"""
   #block(width: 78%)[
     #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)
     #align(left)[
-      #text(size: 7.5pt, weight: "bold", tracking: 1.4pt, fill: luma(75))[THE SUNIL ABRAHAM PROJECT]
+      #text(size: 8pt, weight: "bold", tracking: 1.4pt, fill: luma(75))[THE SUNIL ABRAHAM PROJECT]
       #v(8mm)
       #text(size: 8pt, weight: "bold", tracking: 0.8pt, fill: luma(90))[PUBLICATION DETAILS]
       #v(3mm)
@@ -587,12 +619,7 @@ parts.append(r"""
 #pagebreak()
 #set page(
   numbering: "i",
-  header: context [
-    #set text(size: 7.5pt, fill: luma(85))
-    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
-    #v(3pt)
-    #line(length: 100%, stroke: 0.5pt + luma(170))
-  ],
+  header: running-header,
   footer: context [
     #set text(size: 8pt, fill: luma(65))
     #align(center)[#counter(page).display("i")]
@@ -621,9 +648,11 @@ These nine essays were originally published in different journals and publicatio
 As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings continues, further essays may be identified for inclusion in a revised and expanded edition of this volume in the future. As this is an initial version, any errors or inaccuracies brought to our attention will be corrected in a subsequent edition.
 
 #v(18pt)
-#grid(columns: (1fr, 1fr), [Kolkata
-
-29 November 2026], [#align(right)[Tito Dutta]])
+#align(right)[
+  #set par(justify: false, first-line-indent: 0pt, spacing: 2pt)
+  #text(weight: "bold")[Tito Dutta]
+  #text(size: 9.5pt)[29 November 2026]
+]
 #pagebreak()
 = Contents
 #outline(title: none, depth: 1, target: heading.where(level: 1))
@@ -631,12 +660,7 @@ As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings co
 #set heading(outlined: true)
 #set page(
   numbering: "1",
-  header: context [
-    #set text(size: 7.5pt, fill: luma(85))
-    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
-    #v(3pt)
-    #line(length: 100%, stroke: 0.5pt + luma(170))
-  ],
+  header: running-header,
   footer: context [
     #set text(size: 8pt, fill: luma(65))
     #align(center)[#counter(page).display("1")]
@@ -658,7 +682,7 @@ for essay in essays:
     parts.append(f"= {title}\n")
     parts.append(f"""#v(9pt)
 #align(center)[
-  #text(size: 7pt, weight: "bold", tracking: 1.2pt, fill: luma(90))[ORIGINAL PUBLICATION]
+  #text(size: 8pt, weight: "bold", tracking: 1.2pt, fill: luma(90))[ORIGINAL PUBLICATION]
   #v(4pt)
   #text(size: 9pt, style: "italic", fill: luma(75))[{essay['publication_note']}]
 ]
