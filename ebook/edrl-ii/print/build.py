@@ -542,14 +542,14 @@ if signature_source not in foreword_markdown:
 foreword_markdown = foreword_markdown.replace(signature_source, "TSAPFOREWORDSIGNATURETOKEN")
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
 signature_typst = r"""#align(right)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0pt)
-  #text(weight: "bold")[Dr. Y. T. Vinayaraj]
-  #linebreak()
-  #text(size: 9.5pt)[Director,]
-  #linebreak()
-  #text(size: 9pt)[Christian Institute for the Study of]
-  #linebreak()
-  #text(size: 9pt)[Religion and Society]
+  #stack(
+    dir: ttb,
+    spacing: 2pt,
+    [#text(size: 11pt, weight: "bold")[Dr. Y. T. Vinayaraj]],
+    [#text(size: 9.5pt)[Director,]],
+    [#text(size: 9pt)[Christian Institute for the Study of]],
+    [#text(size: 9pt)[Religion and Society]],
+  )
 ]"""
 if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
     raise SystemExit("Foreword signature marker did not survive conversion")
@@ -647,14 +647,14 @@ The work of collecting and documenting his writings remains ongoing. Further ess
 
 #v(18pt)
 #align(right)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0pt)
-  #text(size: 9pt)[29 November 2026]
-  #v(4pt)
-  #text(weight: "bold")[Tito Dutta]
-  #linebreak()
-  #text(size: 9.5pt)[Co-founder and Administrator]
-  #linebreak()
-  #text(size: 9pt)[The Sunil Abraham Project]
+  #stack(
+    dir: ttb,
+    spacing: 2pt,
+    [#text(size: 11pt, weight: "bold")[Tito Dutta]],
+    [#text(size: 9.5pt)[Co-founder and Administrator]],
+    [#text(size: 9pt)[The Sunil Abraham Project]],
+    [#v(3pt) #text(size: 8.5pt)[29 November 2026]],
+  )
 ]
 #pagebreak()
 = About the Author
