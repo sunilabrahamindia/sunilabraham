@@ -542,11 +542,11 @@ if signature_source not in foreword_markdown:
 foreword_markdown = foreword_markdown.replace(signature_source, "TSAPFOREWORDSIGNATURETOKEN")
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
 signature_typst = r"""#align(right)[
-  #set par(justify: false, first-line-indent: 0pt, spacing: 2pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0pt)
   #text(weight: "bold")[Dr. Y. T. Vinayaraj]
-  #text(size: 9.5pt)[Director]
-  #text(size: 9pt)[Christian Institute for the Study of Religion and Society (CISRS)]
-  #text(size: 9pt)[#link("https://www.cisrs.in/")[cisrs.in]]
+  #text(size: 9.5pt)[Director,]
+  #text(size: 9pt)[Christian Institute for the Study of Religion and]
+  #text(size: 9pt)[Society (CISRS)]
 ]"""
 if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
     raise SystemExit("Foreword signature marker did not survive conversion")
@@ -631,28 +631,25 @@ parts.append(r"""
 @@FOREWORD_BODY@@
 #pagebreak()
 = Editor's Note
-#v(2pt)
-#align(center)[
-  #text(size: 9pt)[DRAFT VERSION — NOT YET FINALISED]
-]
-#v(12pt)
-_Essays on Dalits, Religion and Liberation II_ by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author.
+#v(14pt)
+_Essays on Dalits, Religion and Liberation II_ by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author. This volume continues the work begun with the publication of _Essays on Dalits, Religion and Liberation_ in 2006, marking the tenth anniversary of his death. The first volume was published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), with a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
 
-The first volume, _Essays on Dalits, Religion and Liberation_, was published in 2006 on the occasion of the tenth death anniversary of A. M. Abraham Ayrookuzhiel. Published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), the volume included a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
+In October 2025, work began on The Sunil Abraham Project. One of the project's objectives from its inception was to document, preserve and make the writings of A. M. Abraham Ayrookuzhiel more widely accessible. The work has since grown to include the collection of his writings, biographical documentation, publication records and related archival materials, brought together through the A. M. A. Ayrookuzhiel portal.
 
-In October 2025, we started working on the Sunil Abraham Project. One of the main objectives of the project from its inception was to document, preserve and make the works of A. M. Abraham Ayrookuzhiel more widely accessible. This work gradually expanded to include the collection of his writings, biographical documentation, publication records and related archival materials, bringing them together through the A. M. A. Ayrookuzhiel portal.
+The present volume brings together nine essays that were not included in the earlier collected volume. These essays first appeared in different journals and publications over several decades, from the 1970s to the 1990s. Most were published in _Religion and Society_, the journal of the Christian Institute for the Study of Religion and Society. One appeared in the _Indian Journal of Theology_, while "Dalit Theology: A Movement of Counter-Culture" was published in _Towards a Dalit Theology_ in 1988. Their republication in one volume makes writings that were previously dispersed across publications and decades available together.
 
-A substantial body of A. M. Abraham Ayrookuzhiel's work has been published on the web portal at https://sunilabraham.in/amaa/portal, including his essays, books and book reviews. The present volume brings together nine essays that were not included in the previously published collected works, continuing the publication of his important writings on Dalits, religion and liberation.
+The essays reflect A. M. Abraham Ayrookuzhiel's sustained engagement with Dalit experience, religion, theology and liberation. Bringing them together is part of the continuing effort to preserve his intellectual contribution and make it accessible to readers, researchers and future generations.
 
-These nine essays were originally published in different journals and publications over several decades, from the 1970s to the 1990s. Most appeared in _Religion and Society_, published by the Christian Institute for the Study of Religion and Society (CISRS). One essay appeared in the _Indian Journal of Theology_, while "Dalit Theology: A Movement of Counter-Culture" was published in _Towards a Dalit Theology_ in 1988. Bringing these writings together makes available work that had remained dispersed across different publications and decades.
-
-As the work of collecting and preparing A. M. Abraham Ayrookuzhiel's writings continues, further essays may be identified for inclusion in a revised and expanded edition of this volume in the future. As this is an initial version, any errors or inaccuracies brought to our attention will be corrected in a subsequent edition.
+The work of collecting and documenting his writings remains ongoing. Further essays and related materials may be identified as the archival work proceeds. Any errors or inaccuracies brought to the editors' attention will be examined and, where necessary, addressed in a subsequent edition.
 
 #v(18pt)
 #align(right)[
-  #set par(justify: false, first-line-indent: 0pt, spacing: 2pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0pt)
+  #text(size: 9pt)[29 November 2026]
+  #v(4pt)
   #text(weight: "bold")[Tito Dutta]
-  #text(size: 9.5pt)[29 November 2026]
+  #text(size: 9.5pt)[Co-founder and Administrator]
+  #text(size: 9pt)[The Sunil Abraham Project]
 ]
 #pagebreak()
 = Contents
