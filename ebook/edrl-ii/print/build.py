@@ -627,17 +627,20 @@ parts.append(r"""
 #align(center)[
   #block(width: 82%)[
     #set text(size: 11.5pt)
-    #set par(justify: false, first-line-indent: 0pt, leading: 1.35em, spacing: 0pt)
+    #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
     #align(center)[
-      So dance snake, dance!\
-      We'll set fire to divisions of caste,\
-      We'll debate philosophical questions in the market place;\
-      We'll have dealings with despised households,\
+      So dance snake, dance!\\
+      We'll set fire to divisions of caste,\\
+      We'll debate philosophical questions in the market place;\\
+      We'll have dealings with despised households,\\
       We'll go around in different paths.
     ]
-    #v(12pt)
+    #v(6pt)
     #align(right)[
-      #text(size: 9.5pt)[— #text(style: "italic")[Cittar Gnanakkovai], Pambatti Cittar, verse 123.]
+      #set par(justify: false, first-line-indent: 0pt, leading: 0.9em, spacing: 0pt)
+      #text(size: 9.5pt, style: "italic")[Cittar Gnanakkovai]
+      #linebreak()
+      #text(size: 9.5pt)[Pambatti Cittar, verse 123.]
     ]
   ]
 ]
