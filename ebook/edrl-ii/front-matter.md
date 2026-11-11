@@ -48,12 +48,12 @@
 This is an editorial preview, not the final edition for distribution. The final copyright notice, rights statement and publication credits must be approved before release.
 :::
 
-::: {.frontmatter-section}
+:::: {.frontmatter-section}
 # Foreword {#foreword}
 
 <!-- FOREWORD_SOURCE_INSERTION_POINT -->
 
-:::
+::::
 
 ::: {.frontmatter-section}
 # Editor's Note {#editors-note}
