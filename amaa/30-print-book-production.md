@@ -650,6 +650,29 @@ The Foreword and Editor's Note are composed for a physical book. No active hyper
 
 The changes are confined to `ebook/edrl-ii/print/build.py`. The shared foreword source and original essay source pages have not been rewritten. The next paperback proof must be inspected to verify the line breaks, right alignment, paragraph spacing, front-matter pagination and the complete Editor's Note. A successful Typst build alone does not establish that the printed pages are correct.
 
+### Correction: explicit signature line breaks — 11 November 2026
+
+The first print proof showed that separate Typst text elements remained in the same paragraph and therefore flowed together on one long line. The signature blocks have now been corrected with explicit Typst line breaks; separate text elements alone are not sufficient.
+
+The final intended print layout is:
+
+**Foreword attribution (right-aligned):**
+
+Dr. Y. T. Vinayaraj  
+Director,  
+Christian Institute for the Study of  
+Religion and Society
+
+The abbreviation "(CISRS)" and the institute's website address are omitted.
+
+**Editor's attribution (right-aligned):**
+
+Tito Dutta  
+Co-founder and Administrator  
+The Sunil Abraham Project
+
+Each item is forced onto its own line in the print builder. This correction supersedes the earlier attribution description in this log. The generated paperback proof must still be visually checked to confirm the final rendered line breaks and spacing.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
