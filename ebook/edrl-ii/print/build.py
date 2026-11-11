@@ -622,6 +622,25 @@ parts.append(r"""
   ]
 ]
 #pagebreak()
+#set page(header: none, footer: none, numbering: none)
+#v(62mm)
+#align(center)[
+  #block(width: 82%)[
+    #set text(size: 11.5pt)
+    #set par(justify: false, first-line-indent: 0pt, leading: 1.35em, spacing: 0pt)
+    #align(center)[
+      We'll set fire to divisions of caste,\
+      We'll debate philosophical questions in the market place;\
+      We'll have dealings with despised households,\
+      We'll go around in different paths.
+    ]
+    #v(12pt)
+    #align(right)[
+      #text(size: 9.5pt)[— #text(style: "italic")[Cittar Gnanakkovai], Pambatti Cittar, verse 123.]
+    ]
+  ]
+]
+#pagebreak()
 #set page(
   numbering: "i",
   header: running-header,
