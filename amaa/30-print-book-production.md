@@ -572,15 +572,15 @@ The next proof must be visually checked at A5 size, especially Tables 1–5, inc
 
 ## Foreword preparation
 
-The foreword by Y. T. Vinayaraj has been received as a Word document attached to an email.
+The foreword by Y. T. Vinayaraj was received as a Word document and inspected on 11 November 2026. The original wording has been transcribed into the shared source file `ebook/edrl-ii/foreword.md`. No copy-editing or rewriting has been undertaken.
 
 - [x] Receive the foreword from the author.
-- [ ] Obtain and inspect the original Word document.
-- [ ] Identify any apparent typographical issues for confirmation.
-- [ ] Incorporate the approved foreword into `ebook/edrl-ii/print/build.py`, replacing the existing placeholder.
-- [ ] Retain the author's original wording and paragraph structure.
-- [ ] Include the foreword before the Editor's Note and Contents in the paperback interior.
-- [ ] Run the print production workflow and inspect the resulting PDF for pagination, layout and formatting.
+- [x] Obtain and inspect the original Word document.
+- [x] Transcribe the foreword, retaining its paragraph sequence, poem, signature and two references.
+- [x] Use the shared foreword source in the e-book and paperback print workflows.
+- [x] Include the foreword before the Editor's Note and Contents.
+- [x] Set the preliminary folios from the foreword onwards in Roman numerals; restart the essays at Arabic page 1.
+- [ ] Run both production workflows and inspect the generated outputs for text fidelity, poem layout, reference rendering and pagination.
 
 ## See also
 
