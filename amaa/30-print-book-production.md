@@ -891,3 +891,19 @@ body.tsap-dark-mode .footnote-tally tbody th {
 }
 
 </style>
+
+
+## Signature spacing and editor date placement — 11 November 2026
+
+The next paperback proof showed that both front-matter signature blocks had excessive vertical separation between their lines, making the attributions look disconnected.
+
+The print builder has been corrected:
+
+- The date has been removed from above Tito Dutta's name. It now appears as the final, smaller line after "The Sunil Abraham Project".
+- The editor's name, designation, project name and date are arranged as one compact, right-aligned stack with controlled 2 pt spacing.
+- Dr. Y. T. Vinayaraj's name, designation and two-line institutional name are also arranged as one compact, right-aligned stack with controlled 2 pt spacing. His name is set slightly larger and bold.
+- The wording and institutional attribution have not otherwise been changed.
+
+Implementation: commit `b173ac3a88a57b03b50adc96fb01bb573643e9e0` in `ebook/edrl-ii/print/build.py`.
+
+The next generated A5 proof must be checked to confirm that the stack spacing renders as intended and that neither signature is split across pages. The source change is committed; visual verification remains pending.
