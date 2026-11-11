@@ -11,6 +11,7 @@ from copy import deepcopy
 
 ROOT = Path(__file__).resolve().parents[3]
 BASE = ROOT / "ebook" / "edrl-ii"
+FOREWORD_SOURCE = BASE / "foreword.md"
 PRINT = BASE / "print"
 OUT = PRINT / "output"
 OUT.mkdir(parents=True, exist_ok=True)
@@ -502,6 +503,22 @@ common = r"""
   #it
 ]
 """
+if not FOREWORD_SOURCE.is_file():
+    raise SystemExit(f"Missing foreword source: {FOREWORD_SOURCE}")
+foreword_markdown = FOREWORD_SOURCE.read_text(encoding="utf-8").strip()
+poem_pattern = re.compile(r"(?ms)^:::\s*\{\.poem\}\s*\n(.*?)\n:::\s*$")
+foreword_markdown, poem_count = poem_pattern.subn(
+    lambda match: "\n\n@@POEM_START@@\n" + match.group(1).strip() + "\n@@POEM_END@@\n\n",
+    foreword_markdown,
+)
+if poem_count != 1:
+    raise SystemExit(f"Expected one foreword poem block, found {poem_count}.")
+foreword_ref_count = len(re.findall(r"\[\^\d+\](?!:)", foreword_markdown))
+foreword_note_count = len(re.findall(r"(?m)^\[\^\d+\]:", foreword_markdown))
+if foreword_ref_count != 2 or foreword_note_count != 2:
+    raise SystemExit(f"Foreword reference check failed: {foreword_ref_count} markers, {foreword_note_count} reference entries.")
+foreword_typst = md_to_typst(foreword_markdown, "foreword")
+
 parts = [common]
 parts.append(r"""
 #set heading(outlined: false)
@@ -568,8 +585,22 @@ parts.append(r"""
   ]
 ]
 #pagebreak()
+#set page(
+  numbering: "I",
+  header: context [
+    #set text(size: 7.5pt, fill: luma(85))
+    #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    #v(3pt)
+    #line(length: 100%, stroke: 0.5pt + luma(170))
+  ],
+  footer: context [
+    #set text(size: 8pt, fill: luma(65))
+    #align(center)[#counter(page).display("I")]
+  ],
+)
+#counter(page).update(1)
 = Foreword
-#text(style: "italic", fill: luma(90))[Placeholder: Foreword text to be added after it is received and approved.]
+@@FOREWORD_BODY@@
 #pagebreak()
 = Editor's Note
 #align(center)[
@@ -645,6 +676,10 @@ for essay in essays:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
     parts.append(converted + "\n")
+
+if "@@FOREWORD_BODY@@" not in parts[-1]:
+    raise SystemExit("Foreword insertion point missing from print template.")
+parts[-1] = parts[-1].replace("@@FOREWORD_BODY@@", foreword_typst)
 
 interior_source = OUT / "edrl-ii-interior.typ"
 interior_source.write_text("\n".join(parts), encoding="utf-8")
