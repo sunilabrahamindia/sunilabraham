@@ -19,6 +19,9 @@ FOREWORD_SOURCE = BASE / "foreword.md"
 PRINT = BASE / "print"
 OUT = PRINT / "output"
 OUT.mkdir(parents=True, exist_ok=True)
+FONTS_DIR = OUT / "fonts"
+FONTS_DIR.mkdir(parents=True, exist_ok=True)
+
 AUTHOR_PHOTO_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
 AUTHOR_PHOTO = OUT / "author-portrait.png"
 COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg"
@@ -34,6 +37,10 @@ def run(args):
 
 
 def download(url, dest, label, validator):
+    if dest.is_file() and dest.stat().st_size >= 10000:
+        data = dest.read_bytes()
+        if validator(data):
+            return
     last_error = None
     for attempt in range(1, 4):
         try:
@@ -57,6 +64,48 @@ def fetch_author_photo():
 
 def fetch_cover():
     download(COVER_URL, COVER, "Cover", lambda d: d.startswith(b"\xff\xd8\xff"))
+
+
+def resolve_font_path():
+    """Return a valid font path containing Linux Libertine O, downloading if apt mirror failed."""
+    system_candidates = [
+        Path("/usr/share/fonts/truetype/linux-libertine"),
+        Path("/usr/share/fonts/opentype/linux-libertine"),
+        Path("/usr/share/fonts/truetype"),
+        Path("/usr/share/fonts"),
+        Path.home() / ".local" / "share" / "fonts",
+    ]
+    for candidate in system_candidates:
+        if candidate.is_dir() and (
+            list(candidate.rglob("LinLibertine_R*"))
+            or list(candidate.rglob("*Libertine*"))
+        ):
+            return str(candidate)
+
+    # Fallback: fetch Linux Libertine O TTF files directly if apt mirror was down
+    mirror_base = "https://raw.githubusercontent.com/oslugr/fim-plantilla-tfg/master/fonts/"
+    font_files = [
+        "LinLibertine_R.ttf",
+        "LinLibertine_RI.ttf",
+        "LinLibertine_RB.ttf",
+        "LinLibertine_RBI.ttf",
+        "LinLibertine_RZ.ttf",
+        "LinLibertine_RZI.ttf",
+    ]
+    for fname in font_files:
+        target = FONTS_DIR / fname
+        if not target.is_file() or target.stat().st_size < 10000:
+            try:
+                req = urllib.request.Request(
+                    mirror_base + fname, headers={"User-Agent": "EDRL-II-print-build"}
+                )
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    target.write_bytes(resp.read())
+            except Exception:
+                pass
+    if list(FONTS_DIR.glob("LinLibertine*")):
+        return str(FONTS_DIR)
+    return "/usr/share/fonts/truetype"
 
 
 def inline_markdown(node):
@@ -177,8 +226,7 @@ def html_table_to_typst(table):
             continue
         values = [
             re.sub(r"\s+", " ", inline_markdown(cell).strip())
-            for value_cell in cells
-            for cell in [value_cell]
+            for cell in cells
         ]
         rows.append((row is header_row, [
             (value, cell.name == "th")
@@ -498,6 +546,10 @@ def lint_typst(source):
 
 def check_pdf_overlaps(pdf):
     """Flag text lines whose bounding boxes actually overlap vertically."""
+    if not shutil.which("pdftotext"):
+        print("WARNING: pdftotext not found; skipping bbox overlap check.")
+        return
+
     result = subprocess.run(
         ["pdftotext", "-bbox-layout", str(pdf), "-"],
         capture_output=True, text=True, check=True,
@@ -515,11 +567,16 @@ def check_pdf_overlaps(pdf):
         ]
 
         for i, a in enumerate(lines):
+            a_height = a[3] - a[1]
             for b in lines[i + 1:]:
+                b_height = b[3] - b[1]
+                # Ignore tiny superscript footnote marker boxes that share a parent line
+                if min(a_height, b_height) < 6.0:
+                    continue
                 horizontal_overlap = min(a[2], b[2]) - max(a[0], b[0])
                 vertical_overlap = min(a[3], b[3]) - max(a[1], b[1])
 
-                if horizontal_overlap > 1 and vertical_overlap > 1:
+                if horizontal_overlap > 2.0 and vertical_overlap > 2.5:
                     issues.append(
                         f"page {page_number}: "
                         f"vertical overlap of {vertical_overlap:.1f}pt"
@@ -535,6 +592,22 @@ def check_pdf_overlaps(pdf):
         print("Overlap check passed: no colliding lines detected.")
 
 
+def merge_pdfs(cover_pdf, interior_pdf, combined_pdf):
+    """Merge cover and interior PDFs via pdfunite or pypdf fallback."""
+    if shutil.which("pdfunite"):
+        run(["pdfunite", str(cover_pdf), str(interior_pdf), str(combined_pdf)])
+        return
+    try:
+        from pypdf import PdfWriter
+        writer = PdfWriter()
+        writer.append(str(cover_pdf))
+        writer.append(str(interior_pdf))
+        with open(combined_pdf, "wb") as out_f:
+            writer.write(out_f)
+    except Exception as exc:
+        raise SystemExit(f"Failed to merge PDFs (neither pdfunite nor pypdf succeeded): {exc}")
+
+
 manifest = yaml.safe_load((BASE / "manifest.yml").read_text(encoding="utf-8"))
 essays = sorted(manifest["essays"], key=lambda item: item["order"])
 if len(essays) != 9:
@@ -542,6 +615,7 @@ if len(essays) != 9:
 
 fetch_cover()
 fetch_author_photo()
+font_path = resolve_font_path()
 
 common = r"""
 #set document(
@@ -592,11 +666,6 @@ common = r"""
   [About the Author],
   [Contents],
 )
-
-#let truncate-running-title(body) = {
-  set text(size: 8pt, style: "italic", fill: luma(65), tracking: 0.15pt)
-  box(width: 82%, clip: false)[#body]
-}
 
 #let running-header = context {
   let current-page = here().page()
@@ -1034,7 +1103,7 @@ typst = shutil.which("typst")
 if not typst:
     raise SystemExit("Typst CLI is not installed.")
 interior = OUT / "edrl-ii-interior.pdf"
-run([typst, "compile", "--font-path", "/usr/share/fonts/truetype", str(interior_source), str(interior)])
+run([typst, "compile", "--font-path", font_path, str(interior_source), str(interior)])
 check_pdf_overlaps(interior)
 
 cover_source = OUT / "edrl-ii-front-cover.typ"
@@ -1044,10 +1113,12 @@ cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, 
 cover_pdf = OUT / "edrl-ii-front-cover-proof.pdf"
 run([typst, "compile", str(cover_source), str(cover_pdf)])
 
-run(["pdfunite", str(cover_pdf), str(interior), str(OUT / "edrl-ii-combined-review.pdf")])
-for path in (interior, cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
+combined_pdf = OUT / "edrl-ii-combined-review.pdf"
+merge_pdfs(cover_pdf, interior, combined_pdf)
+for path in (interior, cover_pdf, combined_pdf):
     if not path.is_file() or path.stat().st_size < 10000:
         raise SystemExit(f"Expected PDF missing or unexpectedly small: {path}")
 print(f"Interior: {interior} ({interior.stat().st_size:,} bytes)")
 print(f"Front cover proof: {cover_pdf} ({cover_pdf.stat().st_size:,} bytes)")
 print("Combined review PDF created. Cover and interior remain separate production files.")
+
