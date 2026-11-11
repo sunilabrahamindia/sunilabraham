@@ -945,3 +945,14 @@ The portrait is placed immediately after the publication-details page and before
 The photographic plate is intentionally unnumbered: it has no running head, footer or Roman-numeral folio. Roman preliminary pagination begins with the Foreword after the epigraph, and the main text retains its existing Arabic page 1 restart.
 
 Implementation: print builder commit ec86da5cd7062906b31ffe15da59a05b38238bf8. The dedicated paperback print workflow must be checked for image retrieval, successful compilation, page sequence and visual fit. The original source photograph remains in the media repository; no separate compressed copy is stored in the print repository.
+
+
+## Epigraph and biography typography corrections — 11 November 2026
+
+The paperback builder has been corrected after review of the generated proof:
+
+- The five epigraph lines now use explicit Typst `#linebreak()` commands rather than backslash-based line-break notation. This prevents backslashes from appearing in the printed poem and preserves each intended line as a separate line.
+- The epigraph attribution now begins with an em dash. The collection title is italicised, followed on the next line by "Pambatti Cittar, verse 123."
+- The three book titles in **About the Author** are now marked with Typst italic syntax (underscores), not asterisks, which Typst interprets as bold. The titles should therefore appear in italics rather than bold.
+
+Implementation: commit `67cc1623f7b3ff1d067246a2937e7c870f2df1e5` in `ebook/edrl-ii/print/build.py`. The dedicated paperback workflow must be checked to verify the rendered line breaks, attribution and italic book titles. No source essay wording has been changed.
