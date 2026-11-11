@@ -1384,3 +1384,101 @@ A successful Typst build alone is not proof of a satisfactory printed book.
 - No subject index has been committed to the current paperback. The recorded direction is to consider it for a future edition without creating manual work for this production.
 - No software listed in this section should be described as installed, tested or approved until that work has actually been completed.
 
+## Incident report: disruption of the EDRL II automated print build — 11 November 2026
+
+### Summary
+
+On 11 November 2026, the previously working automated PDF production process for *Essays on Dalits, Religion and Liberation II* was disrupted during a series of substantial changes to the print builder and its GitHub Actions workflow.
+
+The Python builder (`ebook/edrl-ii/print/build.py`) underwent extensive revisions, affecting significant parts of the document-generation and PDF-production process. The workflow was also revised to accommodate the changed builder and its installation and dependency requirements. Subsequent attempts moved between different versions of the builder and workflow, including attempts to return to an earlier working implementation.
+
+This sequence did not restore a consistently working production process. Several builds failed, and the project temporarily lost its dependable ability to generate fresh, downloadable PDF proofs after manuscript or layout changes.
+
+The last confirmed successful build in this sequence was **GitHub Actions run #109**, which generated the interior PDF, front-cover proof and combined review PDF. Later attempts did not consistently reproduce that result.
+
+### What happened
+
+1. **Previously working production process.** The EDRL II print workflow had completed more than 100 runs during development. Run #109, on 11 November 2026, completed successfully. It installed the required tools and dependencies, executed the Python builder, generated all three PDF outputs and uploaded them as a downloadable GitHub Actions artifact.
+
+2. **Extensive builder revisions.** Significant portions of `build.py` were subsequently rewritten. These revisions changed parts of the build process and introduced or altered the technical requirements of the builder. The workflow consequently needed corresponding changes to its setup, installation and dependency-management steps.
+
+3. **Workflow and dependency changes.** Different approaches were tried for installing Typst, setting up Python, managing Python packages and installing system-level packages. The workflow was no longer simply executing the same established sequence used by the last successful build. It had become dependent on a revised set of setup and installation steps.
+
+4. **Movement between builder versions.** After the revised implementation failed to produce a dependable result, attempts were made to return to an earlier builder and workflow. Further changes were then made to the workflow during recovery. As a result, the source files on the working branch did not consistently match the last known successful production configuration.
+
+5. **The significance of a GitHub-hosted runner.** GitHub Actions uses temporary, newly provisioned Ubuntu runners. Software installed during one workflow run is not permanently retained for the next run. Therefore, even when the source code is restored to an earlier version, the packages installed during a previous successful run are not automatically available. The workflow must install its required tools and dependencies again, unless an explicitly configured cache or another persistent distribution mechanism supplies them.
+
+6. **Ubuntu package-server DNS failure.** In run #115, the workflow reached the system-dependency installation step but could not download the required Ubuntu packages. The runner repeatedly reported:
+
+   `Temporary failure resolving 'azure.archive.ubuntu.com'`
+
+   The affected packages included Pandoc, Pandoc data, Linux Libertine fonts and Poppler utilities. The installation ended with exit code 100. The Python builder was never executed, and no PDF artifact was generated in that run.
+
+   This was a package-server DNS/network resolution failure on the GitHub-hosted Ubuntu runner. It was not evidence of a defect in the manuscript or in the Linux Libertine font.
+
+7. **A separate workflow-configuration failure.** Run #116 failed at the Python setup stage for a different reason. The workflow attempted to enable pip dependency caching, but GitHub Actions could not find a `requirements.txt` or `pyproject.toml` file in the repository. The setup step therefore failed before the system-package installation and PDF build steps could run. The later steps, including PDF generation and artifact upload, were skipped.
+
+### Why restoring the older builder did not automatically restore the working process
+
+Restoring an earlier Python file does not, by itself, restore the entire production environment.
+
+The successful build depended on a combination of:
+
+- The correct version of `build.py`.
+- The matching GitHub Actions workflow.
+- A compatible Python environment and its required packages.
+- Pandoc and its supporting data.
+- Typst.
+- Linux Libertine fonts.
+- Poppler utilities used by the PDF-production process.
+- Successful access to the external package repositories and download sources.
+
+These components must work together. A builder restored from an earlier commit can still fail if the workflow surrounding it has changed, if the dependency setup is different, or if the newly provisioned runner cannot reach the package repositories.
+
+The previous successful installation was not stored permanently on GitHub's runners. Every new run had to provision its environment again. Consequently, the fact that run #109 installed the required packages successfully did not guarantee that a later run would be able to download the same packages.
+
+### Build history and confirmed outcomes
+
+| Run | Date, 11 November 2026 | Outcome | Significance |
+|---|---|---|---|
+| #109 | 13:18 UTC | Successful | Last confirmed successful build in this sequence. All three PDFs were generated and uploaded. |
+| #110 | 15:01 UTC | Failed | Build attempt after the builder and workflow revisions. |
+| #111 | 15:23 UTC | Failed | Build attempt using the revised workflow. |
+| #112 | 15:26 UTC | Cancelled | Build attempt cancelled during the recovery sequence. |
+| #113 | 15:38 UTC | Failed | Subsequent recovery attempt. |
+| #114 | 15:38 UTC | Failed | Subsequent recovery attempt. |
+| #115 | 15:52 UTC | Failed | Ubuntu package installation failed because the runner could not resolve `azure.archive.ubuntu.com`. |
+| #116 | 15:54 UTC | Failed | Python pip caching setup failed because no dependency manifest (`requirements.txt` or `pyproject.toml`) was found. The PDF build and upload steps were skipped. |
+
+The successful artifact from run #109 was retained and downloaded as a fallback. It contains the three PDFs generated by that successful build, but it does not include any editorial or layout changes committed after that run.
+
+### Current impact
+
+The principal impact is a disruption to the editorial production cycle. The book requires further corrections and layout revisions, and each revision must be followed by a fresh PDF build so that the resulting pages can be inspected.
+
+At present, a source-file edit can be committed to the repository, but the project cannot treat the automated build as dependable until the complete builder and workflow combination has been verified again. A failed workflow means that no fresh downloadable artifact is available for that revision.
+
+The last successful PDF remains useful as a reference and fallback, but it cannot substitute for a newly generated proof containing subsequent changes.
+
+### Recovery requirements
+
+The recovery should prioritise restoring a reproducible build rather than introducing another redesign of the print system.
+
+1. Establish the exact builder and workflow versions associated with the last confirmed successful build.
+2. Compare the current files with those versions and identify all differences before making further changes.
+3. Restore a matching builder-workflow combination, preserving the established book layout and production logic.
+4. Ensure that the workflow can install its required dependencies on a newly provisioned Ubuntu runner.
+5. Avoid dependency-caching configuration that assumes a `requirements.txt` or `pyproject.toml` file unless the corresponding manifest is deliberately added and maintained.
+6. Address temporary package-server failures without changing the manuscript or typesetting logic.
+7. Execute a complete build and confirm that the interior, front-cover proof and combined review PDF are all generated.
+8. Confirm that the artifact-upload step succeeds and that the files can actually be downloaded.
+9. Only after this end-to-end test should further editorial and layout revisions resume through the automated production workflow.
+
+### Status
+
+**Production disruption: OPEN.**
+
+Run #109 remains the last confirmed successful build and its PDFs have been preserved as a fallback. Runs #115 and #116 demonstrate two separate infrastructure and workflow-configuration failures. The project must re-establish a verified, repeatable build-and-download process before relying on GitHub Actions for the remaining paperback corrections.
+
+The recovery is not complete merely because the source files have been reverted or a workflow reports that it has started. Completion requires a successful build of the current manuscript, successful upload of the resulting PDFs, and confirmation that the new artifacts are downloadable.
+
