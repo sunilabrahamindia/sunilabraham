@@ -607,7 +607,7 @@ parts.append(r"""
     #v(2mm)
     #text(size: 10pt)[Website: https://sunilabraham.in]
     #v(1mm)
-    #text(size: 10pt)[Email: sunilabrahamindia@gmail.com]
+    #text(size: 10pt)[Email: sunilabrahamindia\@gmail.com]
     #v(1mm)
     #text(size: 10pt)[Mobile: +91 96111 00817]
     #v(7mm)
