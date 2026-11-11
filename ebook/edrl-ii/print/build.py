@@ -477,7 +477,7 @@ common = r"""
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en")
-#set par(justify: true, leading: 0.85em, first-line-indent: 1.1em, spacing: 12pt)
+#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 8pt)
 #set heading(numbering: none)
 #set block(spacing: 0.55em)
 #set footnote.entry(
@@ -595,9 +595,6 @@ parts.append(r"""
 #v(22mm)
 #align(left)[
   #block(width: 100%)[
-    #text(size: 9pt, weight: "bold", tracking: 1.2pt, fill: luma(75))[THE SUNIL ABRAHAM PROJECT]
-    #v(5mm)
-    #line(length: 100%, stroke: 0.6pt + luma(135))
     #v(8mm)
     #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
     #v(2mm)
@@ -615,14 +612,11 @@ parts.append(r"""
     #v(2mm)
     #text(size: 10pt, style: "italic", fill: luma(75))[Design and Print Production Advisor: Herbert Paul]
     #v(7mm)
-    #line(length: 100%, stroke: 0.6pt + luma(135))
     #v(4mm)
     #text(size: 10pt)[ISBN: 978-93-345-8524-7]
     #v(2mm)
     #text(size: 10pt)[Printed price: ₹250]
     #v(8mm)
-    #line(length: 100%, stroke: 0.6pt + luma(135))
-    #v(4mm)
     #text(size: 9pt, style: "italic", fill: luma(75))[Published in India]
   ]
 ]
