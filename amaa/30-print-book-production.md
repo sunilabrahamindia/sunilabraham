@@ -1134,3 +1134,253 @@ The blank page immediately before the first essay remains intentional. The trans
 **Implementation:** commit `fcda4ea5362af6c45b35f47f448e44181ea41d33` in `ebook/edrl-ii/print/build.py`.
 
 **Verification pending:** the dedicated EDRL II print proof workflow has been queued for this commit. Inspect the Foreword, Editor's Note, both pages of About the Author, Contents, the blank page and the first essay opening. Confirm that the preliminary pages show the horizontal rule without a running title, that the blank page carries the correct Roman folio XIII, and that the essay running heads and Arabic page 1 restart remain unchanged. Do not treat the source change as visually verified until the generated PDF has been inspected.
+
+## Indexing and PDF production-auditing software — 11 November 2026
+
+This section records the software investigation arising from Sunil's editorial and production suggestions. It distinguishes two separate requirements: software for preparing a subject index, and software for auditing the finished paperback PDF. These tools have different purposes and should not be treated as interchangeable.
+
+The preferred working environment is **Ubuntu/Linux**. Native Linux applications and command-line tools should be preferred. A Windows-only application should not be selected merely because it is established or widely used. **OpenCindex/Cindex is not being considered for this project.**
+
+### 1. Subject-indexing software
+
+Sunil's suggestion is to consider an alphabetical subject index of names, subjects and important terms, with references to the pages on which they appear. He also suggested that AI could assist in developing dedicated software, but that the index should not be compiled manually by an LLM. The index may be considered for a future edition; it should not create manual indexing work for the current production.
+
+Indexing software generally helps an indexer compose, arrange, alphabetise, format and edit index entries. It does not necessarily identify the important subjects in a book automatically. The editorial decision about what deserves an entry, which terms should be grouped, and which cross-references are meaningful remains a separate task.
+
+#### Picardy — first Ubuntu candidate
+
+**Cost:** Free of charge (freeware).  
+**Platform:** Windows, macOS and Linux, according to the American Society for Indexing's software directory.  
+**Purpose:** Editing and formatting back-of-the-book indexes.
+
+Picardy allows an indexer to record indexable terms, names and concepts together with page references and cross-references. It then alphabetises, collates and formats those entries for incorporation into a published book.
+
+It does **not** ingest the text of a book and independently produce a subject index. Its role is to manage and format entries that have been selected during the indexing process.
+
+**Why it is relevant:** It is the first candidate to test on Ubuntu because it is free, is listed as supporting Linux, and is specifically intended for back-of-the-book indexes.
+
+**Proposed action:** Obtain the software from its publisher, test it on Ubuntu, and check whether its output can be incorporated into the Typst print workflow.
+
+References:
+- [American Society for Indexing — Software directory](https://asindexing.org/reference-shelf/software/)
+- [Picardy — Help and description](https://picardy-indexing.ca/online-help/)
+
+#### Index Manager — commercial alternative
+
+**Cost:** Commercial product; a 14-day trial is advertised.  
+**Platform:** Windows and macOS; Linux support is listed as available on request.  
+**Purpose:** Professional index management, including embedded-index workflows.
+
+Index Manager supports the management of index entries and provides add-ons for transferring entries between document versions and importing an existing index into a document. These facilities may be useful where an index must be embedded in a publishing file or transferred after layout changes.
+
+**Why it may be relevant:** It is a possible advanced alternative if Picardy does not provide the required workflow.
+
+**Important limitation:** "Linux on request" does not establish that a standard Ubuntu installer is publicly available. Before considering purchase, contact the vendor to confirm the Linux package, compatibility with the Ubuntu version in use, supported features, licence terms and total cost.
+
+References:
+- [Index Manager — Download and system requirements](https://index-manager.net/en/download-en/)
+- [Index Manager — Pricing and requirements](https://index-manager.net/en/prices/)
+
+#### xindy — free index processor
+
+**Cost:** Free software.  
+**Platform:** Linux and other systems supported by the TeX ecosystem.  
+**Purpose:** Sorting, merging and formatting index entries supplied to it.
+
+xindy processes index entries that have already been marked or supplied. It can apply sorting and language rules and produce formatted index output.
+
+It does not read a book and decide which names, subjects or concepts should be indexed. It is a technical index processor rather than a full graphical indexing environment.
+
+**Why it may be relevant:** It could be useful if indexing is integrated into a source-marked or TeX-oriented typesetting workflow. It is not the first choice for a standalone index-editing interface.
+
+References:
+- [Ubuntu man page — xindy](https://manpages.ubuntu.com/manpages/focal/man1/texindy.1.html)
+- [CTAN — xindy package](https://ctan.org/pkg/xindy)
+
+#### MakeIndex — free index processor
+
+**Cost:** Free software.  
+**Platform:** Linux and other systems supported by TeX distributions.  
+**Purpose:** Sorting and formatting supplied index entries.
+
+MakeIndex processes entries supplied in an index file. It can arrange entries and subentries according to a style definition and produce index output.
+
+It does not automatically discover subjects in a manuscript and does not replace editorial selection of index terms.
+
+**Why it may be relevant:** It is an established option for a LaTeX-style source and typesetting workflow. It is a technical processor, not the preferred standalone interface for this project.
+
+Reference:
+- [MakeIndex manual](https://man.archlinux.org/man/makeindex.1.en)
+
+#### Subject-indexing recommendation
+
+1. Test Picardy on Ubuntu first.
+2. Assess whether its output can be incorporated cleanly into the Typst book.
+3. If Picardy is insufficient, contact Index Manager about an actual Ubuntu/Linux version and its price.
+4. Consider xindy or MakeIndex only if the project adopts a source-integrated indexing workflow.
+5. Do not use OpenCindex/Cindex.
+
+No decision has yet been made to produce a subject index for the current paperback. The existing direction from Sunil is that it may be considered for a future edition and should not create manual work for the current production.
+
+### 2. PDF production-auditing and inspection software
+
+The paperback is a fixed-page A5 PDF. A successful Typst build confirms that the source compiled; it does not establish that the PDF is visually correct or technically acceptable to the printer. The following tools inspect different aspects of the generated PDF.
+
+#### callas pdfToolbox CLI — professional print preflight
+
+**Cost:** Commercial; a 14-day trial is advertised.  
+**Platform:** Linux, Windows and macOS for the CLI/server product. The desktop graphical application has different platform availability.  
+**Purpose:** Automated PDF analysis, correction and print-production preflight.
+
+The CLI can analyse PDF objects, apply preflight profiles, and identify technical issues involving such matters as fonts, colour, images, transparency and page geometry. Depending on the operation and profile, it can also correct or enhance PDF files and can be integrated into automated workflows.
+
+**Why it is relevant:** It is the professional-grade candidate for checking whether the final PDF meets defined print-production requirements before it is sent to the printer.
+
+**Important qualification:** The printer's own specifications must determine the preflight checks. Do not assume that a generic profile is sufficient. The relevant Linux product is the CLI/server, not the Windows/macOS desktop interface.
+
+**Proposed action:** Evaluate the Linux CLI during the trial after the printer's specifications are available. Purchase only if it provides useful checks beyond the free tools and the cost is justified.
+
+References:
+- [callas — pdfToolbox CLI installation and activation](https://hilfe.callassoftware.com/m/59504/l/665202-installation-and-activation-of-pdftoolbox-server-cli)
+- [callas — pdfToolbox system requirements](https://callassoftware.com/products/pdftoolbox/system-requirements/)
+- [callas — pdfToolbox product information](https://callassoftware.com/products/pdftoolbox/)
+
+#### veraPDF — PDF standards validation
+
+**Cost:** Free and open source.  
+**Platform:** Java application; usable on Linux/Unix, Windows and macOS with a suitable Java installation.  
+**Purpose:** Validation against PDF/A archival and PDF/UA accessibility standards.
+
+veraPDF checks whether a PDF conforms to defined requirements in the supported PDF/A and PDF/UA specifications. It produces validation reports identifying rules that pass or fail. For PDF/UA, the software can perform machine-verifiable checks; it cannot replace human accessibility evaluation.
+
+**Why it is relevant:** It can provide a separate standards-based validation report and reveal certain structural, metadata and accessibility-conformance problems.
+
+**Important limitation:** PDF/A and PDF/UA validation is not the same as commercial print preflight. Passing veraPDF does not establish that the book is ready for the printer. Use it when the relevant archival or accessibility conformance target is intended; do not treat every profile as a mandatory print requirement.
+
+References:
+- [veraPDF — Validation](https://docs.verapdf.org/validation/)
+- [veraPDF — Installation](https://docs.verapdf.org/install/)
+- [Open Preservation Foundation — veraPDF overview](https://openpreservation.org/tools/verapdf/)
+
+#### qpdf — PDF structural integrity
+
+**Cost:** Free and open source.  
+**Platform:** Linux/Ubuntu and other major operating systems.  
+**Purpose:** Checking the internal structure and syntax of a PDF.
+
+qpdf can check PDF structure and report problems involving syntax, encryption, linearisation and encoded streams. Its command-line exit status can be used in automated scripts.
+
+**Why it is relevant:** It is a basic first-stage check to establish that the generated PDF is structurally readable and syntactically sound.
+
+**Important limitation:** qpdf explicitly does not validate the actual visual page content or its semantic correctness. A PDF can pass qpdf and still contain overlapping paragraphs, clipped text, misplaced headings or other visual defects.
+
+Reference:
+- [qpdf — Command-line manual](https://github.com/qpdf/qpdf/blob/main/manual/cli.rst)
+
+#### Poppler — PDF inspection and rendering utilities
+
+**Cost:** Free and open source.  
+**Platform:** Linux/Ubuntu and other major operating systems.  
+**Purpose:** Inspecting PDF properties, extracting text and fonts, and rendering pages.
+
+The Poppler utilities are useful for different checks:
+
+- `pdfinfo` reports page count, page dimensions, metadata and other document properties.
+- `pdffonts` lists fonts used in the PDF and indicates whether they are embedded.
+- `pdftotext` extracts text for content and page-by-page checks.
+- `pdftoppm` and `pdftocairo` render PDF pages into images for visual inspection.
+- `pdfimages` extracts images embedded in the PDF.
+
+**Why it is relevant:** These utilities allow us to inspect the actual output: page dimensions, font embedding, extracted text and rendered pages. Rendered pages can be examined individually or assembled into contact sheets for a visual review.
+
+**Important limitation:** Poppler is an inspection and rendering toolkit, not a complete automated print-production auditor. It does not decide whether the book's typography and page design are professionally satisfactory.
+
+References:
+- [Poppler project](https://poppler.freedesktop.org/)
+- [Poppler utilities — package overview](https://packages.debian.org/stable/poppler-utils)
+
+#### Python and PyMuPDF — foundation for our own book-production auditor
+
+**Cost:** PyMuPDF is available under open-source and commercial licensing terms; the applicable licence must be checked for the intended use.  
+**Platform:** Python on Linux/Ubuntu and other supported platforms.  
+**Purpose:** Programmatic inspection of PDF text, coordinates, fonts, images and page geometry.
+
+PyMuPDF exposes text blocks, words, their bounding boxes and font information. It can also inspect page dimensions, embedded images and image locations, vector drawings and other page elements.
+
+We could develop a project-specific auditing programme around it. Proposed checks include:
+
+- Text extending outside the intended page area.
+- Potential overlaps between text blocks or line bounding boxes.
+- Text or paragraphs that appear clipped.
+- Unexpectedly empty pages.
+- Inconsistent page dimensions.
+- Expected page sequence and pagination.
+- Running-head and footer regions.
+- Expected text appearing on expected pages.
+- Missing, unexpected or poorly placed images.
+- A report identifying the page number and coordinates of each suspected issue.
+- Rendered page images or contact sheets for visual review.
+
+**Why it is relevant:** The production has already encountered paragraph-overlap and layout problems. A generic PDF validator cannot understand every book-specific rule. We can build checks around the actual A5 page design, folios, running heads, footers, page sequence and Typst output.
+
+**Important limitations:** This is a development project, not an already completed auditing application. Geometric checks can produce false positives and must be reviewed. PyMuPDF cannot replace human proofreading or visual design judgement.
+
+**Proposed action:** Begin with a small, read-only audit programme. It should inspect and report problems without modifying the production PDF. Add checks incrementally and test each one against known-good and known-defective pages.
+
+References:
+- [PyMuPDF documentation](https://pymupdf.readthedocs.io/en/latest/)
+- [PyMuPDF text extraction and bounding-box FAQ](https://pymupdf.readthedocs.io/en/latest/faq/index.html)
+- [PyMuPDF page and image inspection](https://pymupdf.readthedocs.io/en/latest/page.html)
+
+### 3. What the PDF tools do — and do not do
+
+| Tool | Main purpose | What it does not establish |
+|---|---|---|
+| callas pdfToolbox CLI | Professional print preflight against configured requirements | Does not replace visual/editorial approval |
+| veraPDF | PDF/A and PDF/UA standards validation | Is not a complete commercial print preflight |
+| qpdf | PDF structural and syntax integrity | Does not inspect visual layout |
+| Poppler | Page information, fonts, text extraction and rendering | Is not a complete automated quality auditor |
+| Python + PyMuPDF | Custom book-specific text, geometry and layout checks | Does not replace human visual judgement |
+
+These tools are complementary. We do not need to purchase or deploy all of them.
+
+### 4. Why these checks are needed at this production stage
+
+The project is preparing a fixed-page A5 paperback PDF that will eventually be supplied to the printer. A defect discovered after printing may be expensive to correct. The checks should therefore be organised in layers:
+
+1. **Structural integrity:** Is the PDF internally sound? Use qpdf.
+2. **Document properties:** Are page count, dimensions, metadata and fonts correct? Use Poppler.
+3. **Standards validation:** Does the PDF meet a relevant archival or accessibility standard, if one is required? Use veraPDF.
+4. **Print preflight:** Does the PDF meet the printer's technical specifications? Evaluate callas pdfToolbox CLI.
+5. **Book-specific layout audit:** Are there overlaps, clipped text, unexpected blank pages, pagination errors or other defects? Develop the PyMuPDF-based auditor.
+6. **Visual design review:** Does the book look professionally typeset when pages and spreads are inspected? Human review remains essential. A vision-capable LLM may assist by flagging suspicious pages, but it must not replace human approval.
+
+A successful Typst build alone is not proof of a satisfactory printed book.
+
+### 5. Recommended Ubuntu-first evaluation sequence
+
+1. Obtain the printer's PDF, trim, bleed, binding, colour and other production specifications.
+2. Test Picardy on Ubuntu for the possible subject-index workflow.
+3. Use the free PDF inspection tools: qpdf, Poppler and veraPDF where its standards checks are relevant.
+4. Begin a read-only, book-specific PDF audit programme using Python and PyMuPDF.
+5. Evaluate callas pdfToolbox CLI on its trial only after the printer's requirements are available.
+6. Generate a fresh paperback proof.
+7. Run the automated checks and retain their reports with the proof.
+8. Render and inspect the pages and facing-page spreads.
+9. Correct defects in the Typst source and rebuild.
+10. Obtain human approval before supplying the PDFs for printing.
+
+### 6. Current decisions and status
+
+- Ubuntu/Linux is the preferred environment for this work.
+- OpenCindex/Cindex is excluded from consideration.
+- Picardy is the first subject-indexing candidate to test on Ubuntu; it has not yet been installed or tested in this project.
+- Index Manager is a possible commercial alternative, but its Linux availability must be confirmed with the vendor.
+- xindy and MakeIndex are free technical index processors, not automatic subject-discovery tools.
+- qpdf, Poppler and veraPDF are candidates for complementary PDF checks; installation and testing in this production workflow remain pending.
+- callas pdfToolbox CLI is a commercial Linux preflight candidate; no purchase decision has been made.
+- Python + PyMuPDF is the proposed foundation for a custom book-specific auditor; development has not yet begun.
+- Human visual proofing remains mandatory.
+- No subject index has been committed to the current paperback. The recorded direction is to consider it for a future edition without creating manual work for this production.
+- No software listed in this section should be described as installed, tested or approved until that work has actually been completed.
+
