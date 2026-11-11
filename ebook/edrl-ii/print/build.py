@@ -544,12 +544,19 @@ common = r"""
 #let running-header = context {
   let current-page = here().page()
   let chapters = query(heading.where(level: 1)).filter(
-    item => item.body != [Foreword] and item.body != [Editor's Note] and item.body != [Contents]
+    item => item.body != [Foreword]
+      and item.body != [Editor's Note]
+      and item.body != [About the Author]
+      and item.body != [Contents]
   )
+  let first-chapter = if chapters.len() > 0 { chapters.first() } else { none }
+  let before-first-chapter = first-chapter != none and first-chapter.location().page() > current-page
   let chapter-starts-here = chapters.any(item => item.location().page() == current-page)
   let previous-chapters = chapters.filter(item => item.location().page() < current-page)
   let current-chapter = if previous-chapters.len() > 0 { previous-chapters.last() } else { none }
-  if chapter-starts-here {
+  if before-first-chapter {
+    line(length: 100%, stroke: 0.5pt + luma(170))
+  } else if chapter-starts-here {
     []
   } else {
     set text(size: 8pt, fill: luma(85))
@@ -765,15 +772,6 @@ At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was wor
 = Contents
 #outline(title: none, depth: 1, target: heading.where(level: 1))
 #pagebreak()
-#set heading(outlined: true)
-#set page(
-  numbering: "1",
-  header: running-header,
-  footer: context [
-    #set text(size: 8pt, fill: luma(65))
-    #align(center)[#counter(page).display("1")]
-  ],
-)
 """)
 
 for essay in essays:
@@ -784,6 +782,16 @@ for essay in essays:
     raw = source.read_text(encoding="utf-8")
     parts.append("#pagebreak()\n")
     if essay["order"] == 1:
+        parts.append(r"""#set heading(outlined: true)
+#set page(
+  numbering: "1",
+  header: running-header,
+  footer: context [
+    #set text(size: 8pt, fill: luma(65))
+    #align(center)[#counter(page).display("1")]
+  ],
+)
+""")
         parts.append("#counter(page).update(1)\n")
     parts.append("#counter(footnote).update(0)\n")
     parts.append("#v(24mm)\n")
