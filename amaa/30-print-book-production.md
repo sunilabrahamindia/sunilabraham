@@ -823,6 +823,22 @@ Until this incident is resolved:
 
 **Current status: OPEN — critical, unresolved.** The paperback interior must not be approved or sent for printing until the paragraph-overlap defect has been conclusively corrected and the complete PDF has passed visual inspection.
 
+### PDF overlap-check false positives corrected — 11 November 2026
+
+The dedicated EDRL II print workflow was failing after PDF generation because the automated `check_pdf_overlaps()` function reported six possible line collisions on pages 176 and 178. The build log showed that the failure came from the validation check, which compared the vertical starting positions (`yMin`) of text lines and flagged pairs whose starts were closer than 0.8 times the line height.
+
+That test was too broad: two normally spaced consecutive lines can have nearby starting positions without their text bounding boxes actually intersecting. The six detections were therefore possible false positives, not proof that the PDF contained six actual text collisions. The workflow stopped with exit code 1 at this check.
+
+**Correction made:** `check_pdf_overlaps()` in `ebook/edrl-ii/print/build.py` now compares the horizontal and vertical intersection of the two line bounding boxes. It reports a collision only when the boxes overlap horizontally by more than 1 point and vertically by more than 1 point. The previous proximity-based comparison of `yMin` values has been removed.
+
+The change is limited to the automated PDF validation logic. No manuscript text, footnotes, typography, paragraph spacing, page dimensions, margins or layout settings were changed as part of this correction.
+
+**Implementation:** commit `728eb658e872364f78c7e77031cf1a0f851638c4` in `ebook/edrl-ii/print/build.py`.
+
+**Build result:** the dedicated **EDRL II print proof** workflow completed successfully on this commit: [GitHub Actions run 42970201063](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42970201063).
+
+**Status and distinction:** the false-positive failure in the automated overlap checker is corrected, and the workflow is green. This does not by itself establish that every visual text or paragraph overlap in the generated book has been resolved. The earlier critical incident concerning visible paragraph collisions remains a separate visual-proofing issue and must not be marked resolved solely because this automated check now passes. The generated PDF still requires visual inspection before print approval.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
