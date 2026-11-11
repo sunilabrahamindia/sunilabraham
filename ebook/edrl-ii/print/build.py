@@ -483,21 +483,34 @@ def lint_typst(source):
 
 
 def check_pdf_overlaps(pdf):
-    """Flag lines that share horizontal space but sit closer than 0.8 of a line height."""
+    """Flag text lines whose bounding boxes actually overlap vertically."""
     result = subprocess.run(
         ["pdftotext", "-bbox-layout", str(pdf), "-"],
         capture_output=True, text=True, check=True,
     )
     issues = []
-    line_re = re.compile(r'<line xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="([\d.]+)"')
+    line_re = re.compile(
+        r'<line xMin="([\\d.]+)" yMin="([\\d.]+)" '
+        r'xMax="([\\d.]+)" yMax="([\\d.]+)"'
+    )
+
     for page_number, page in enumerate(result.stdout.split("<page ")[1:], start=1):
-        lines = [tuple(float(v) for v in m.groups()) for m in line_re.finditer(page)]
+        lines = [
+            tuple(float(v) for v in match.groups())
+            for match in line_re.finditer(page)
+        ]
+
         for i, a in enumerate(lines):
             for b in lines[i + 1:]:
-                horizontal = min(a[2], b[2]) - max(a[0], b[0])
-                height = min(a[3] - a[1], b[3] - b[1])
-                if horizontal > 1 and height > 0 and abs(a[1] - b[1]) < 0.8 * height:
-                    issues.append(f"page {page_number}: y={a[1]:.1f} and y={b[1]:.1f}")
+                horizontal_overlap = min(a[2], b[2]) - max(a[0], b[0])
+                vertical_overlap = min(a[3], b[3]) - max(a[1], b[1])
+
+                if horizontal_overlap > 1 and vertical_overlap > 1:
+                    issues.append(
+                        f"page {page_number}: "
+                        f"vertical overlap of {vertical_overlap:.1f}pt"
+                    )
+
     if issues:
         message = f"{len(issues)} possible line collisions: " + "; ".join(issues[:20])
         if os.environ.get("EDRL_OVERLAP_CHECK", "fail") == "warn":
@@ -506,7 +519,6 @@ def check_pdf_overlaps(pdf):
             raise SystemExit(message)
     else:
         print("Overlap check passed: no colliding lines detected.")
-
 
 manifest = yaml.safe_load((BASE / "manifest.yml").read_text(encoding="utf-8"))
 essays = sorted(manifest["essays"], key=lambda item: item["order"])
