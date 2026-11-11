@@ -581,7 +581,8 @@ The foreword by Y. T. Vinayaraj was received as a Word document and inspected on
 - [x] Include the foreword before the Editor's Note and Contents.
 - [x] Set the preliminary folios from the foreword onwards in Roman numerals; restart the essays at Arabic page 1.
 - [x] Run the paperback print workflow. GitHub Actions run 70 completed successfully and uploaded the `edrl-ii-print-preview-70` proof artifact.
-- [ ] Complete the e-book workflow and visually inspect the generated proofs for text fidelity, poem layout, reference rendering, Roman-numeral folios and pagination.
+- [x] Run the e-book workflow. GitHub Actions run 146 completed successfully; the manuscript, EPUB package and PDF were generated and the automated package checks passed.
+- [ ] Visually inspect the print and e-book proofs for text fidelity, poem layout, reference rendering, Roman-numeral folios and pagination. Automated build success is not a substitute for visual proofreading.
 
 ## See also
 
