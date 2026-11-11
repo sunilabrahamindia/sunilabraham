@@ -480,7 +480,8 @@ common = r"""
     item => item.body != [Foreword] and item.body != [Editor's Note] and item.body != [Contents]
   )
   let chapter-starts-here = chapters.any(item => item.location().page() == current-page)
-  let current-chapter = chapters.filter(item => item.location().page() < current-page).last()
+  let previous-chapters = chapters.filter(item => item.location().page() < current-page)
+  let current-chapter = if previous-chapters.len() > 0 { previous-chapters.last() } else { none }
   if chapter-starts-here {
     []
   } else {
