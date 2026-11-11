@@ -724,7 +724,7 @@ parts.append(r"""
 #set page(
   numbering: "i",
   header: running-header,
-  footer: context [
+  footer: context {
     let current-page = here().page()
     let chapters = query(heading.where(level: 1)).filter(
       item => item.body != [Foreword]
@@ -738,7 +738,7 @@ parts.append(r"""
       set text(size: 8pt, fill: luma(65))
       align(center)[#counter(page).display("i")]
     }
-  ],
+  }
 )
 #counter(page).update(1)
 """ + BODY_PAR + r"""
