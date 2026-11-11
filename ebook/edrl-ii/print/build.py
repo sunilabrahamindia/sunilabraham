@@ -677,9 +677,9 @@ for essay in essays:
     converted = md_to_typst(body, f"essay-{essay['order']}")
     parts.append(converted + "\n")
 
-if "@@FOREWORD_BODY@@" not in parts[-1]:
+if len(parts) < 2 or "@@FOREWORD_BODY@@" not in parts[1]:
     raise SystemExit("Foreword insertion point missing from print template.")
-parts[-1] = parts[-1].replace("@@FOREWORD_BODY@@", foreword_typst)
+parts[1] = parts[1].replace("@@FOREWORD_BODY@@", foreword_typst)
 
 interior_source = OUT / "edrl-ii-interior.typ"
 interior_source.write_text("\n".join(parts), encoding="utf-8")
