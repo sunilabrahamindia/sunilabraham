@@ -873,7 +873,7 @@ The following suggestions were communicated by Sunil on 11 November 2026. They a
 - [ ] **Title line break.** Consider arranging the title as:  
   `Essays on`  
   `Dalits, Religion and Liberation - II`
-- [ ] **Author's name.** Remove "Dr." because the author did not hold a PhD.
+- [x] **Author's name.** Removed "Dr." from references to A. M. Abraham Ayrookuzhiel in the Foreword, as requested. The honorific for Dr. M. M. Thomas is retained.
 - [ ] **Cover credit.** Add "Cover Design: Tito Dutta".
 - [ ] **Copyright notice.** Include a copyright notice consistent with the original publication.
 
