@@ -863,8 +863,8 @@ The checkpoint is intentionally distinct from final publication approval:
 
 The following suggestions were communicated by Sunil on 11 November 2026. They are recorded here as a checklist for consideration and follow-up.
 
-- [ ] **No images inside the book.** Images would make print production more complicated.
-- [ ] **No glossary.** Definitions are not available.
+- [x] **No images inside the book.** Images would make print production more complicated.
+- [x] **No glossary.** Definitions are not available.
 - [ ] **Subject index.** Consider an alphabetical index of names, subjects and important terms, with references to the pages on which they appear.
 - [ ] **Automated subject indexing.** Ideally, AI should help build dedicated software to generate the index. The index should not be compiled manually by an LLM.
 - [ ] **Future editions.** The subject index may be considered for a future edition; it should not require manual effort for the current production.
