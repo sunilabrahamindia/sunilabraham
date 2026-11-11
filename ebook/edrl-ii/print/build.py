@@ -1051,3 +1051,5 @@ for path in (interior, cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
 print(f"Interior: {interior} ({interior.stat().st_size:,} bytes)")
 print(f"Front cover proof: {cover_pdf} ({cover_pdf.stat().st_size:,} bytes)")
 print("Combined review PDF created. Cover and interior remain separate production files.")
+
+# Manual proof build trigger: 11 November 2026.
