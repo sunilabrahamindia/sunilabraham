@@ -925,3 +925,12 @@ Attribution: *Cittar Gnanakkovai*, Pambatti Cittar, verse 123. Only the collecti
 Implementation: commit `66b69ed0366c64191c854e5974b1f25c197c2c99` in `ebook/edrl-ii/print/build.py`.
 
 Visual verification is pending the next dedicated print build. Confirm that the four lines retain their line breaks, the attribution is correctly aligned, the page has balanced white space, and Roman preliminary numbering begins as intended.
+
+
+## Epigraph refrain restored — 11 November 2026
+
+The epigraph has been revised to reproduce the full selection shown in the memorial document. The opening refrain, "So dance snake, dance!", was inadvertently omitted in the first implementation. It has now been restored as the opening line, followed by the four lines on caste divisions, philosophical debate, dealings with despised households and different paths.
+
+The source essay presents this refrain in the preceding Pambatti Cittar verse sequence (footnote 19) and cites the final four lines separately to *Cittar Gnanakkovai*, verse 123 (footnote 20). The print epigraph follows the memorial document's combined presentation. Retain this distinction when checking the final source note and do not imply that the entire five-line selection is independently verified as a single verse without checking the underlying edition.
+
+Implementation: commit `d8266cd5a597df7d10913b3880c4592ee23ecbc7` in `ebook/edrl-ii/print/build.py`. The dedicated print workflow is triggered by the source change. Visual verification remains pending.
