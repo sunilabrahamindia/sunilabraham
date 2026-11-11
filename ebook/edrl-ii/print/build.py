@@ -430,11 +430,10 @@ def md_to_typst(markdown, stem):
         md.write_text(segment, encoding="utf-8")
         run(["pandoc", str(md), "--from=markdown+smart+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
-        # Pandoc's Typst writer emits paragraph breaks that were collapsing in
-        # the print layout. Add explicit vertical separation after each break.
-        content = content.replace("#parbreak()", "#parbreak()\n#v(10pt)")
-        if stem == "foreword":
-            print("FOREWORD TYPST DEBUG:", repr(content[:5000]))
+        # Pandoc's Typst writer separates paragraphs with blank lines.
+        # Add explicit vertical space at those boundaries; par.spacing alone
+        # was not preventing adjacent paragraphs from colliding in the PDF.
+        content = re.sub(r"\n[ \\t]*\n+", "\\n\\n#v(10pt)\\n\\n", content)
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
             raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
         raw_markers = re.findall(r"\[\^(\d+)\](?!:)", content)
