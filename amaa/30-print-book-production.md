@@ -615,6 +615,41 @@ The global hyphenation proposal is not included in this update. It remains a sep
 
 The builder update is intended to trigger one paperback proof build. The generated PDF must be checked for running-head parity, blank chapter-opening headers, signature alignment, table fit after type enlargement, footnote legibility and preservation of the earlier front-matter corrections.
  
+## Front-matter editorial copy and attribution — 11 November 2026
+
+The print builder has been updated to prepare the Foreword and Editor's Note as finished front matter rather than provisional copy.
+
+### Foreword attribution
+
+The foreword signature is right-aligned and set as a separate line for each part of the author's name and institutional designation:
+
+- Dr. Y. T. Vinayaraj
+- Director,
+- Christian Institute for the Study of Religion and
+- Society (CISRS)
+
+The institute's website address has been omitted from the print signature. The shared source file `ebook/edrl-ii/foreword.md` remains unchanged so that the e-book can apply its own digital treatment. The print builder replaces the source signature during print composition.
+
+### Editor's Note and attribution
+
+The draft-status notice, "DRAFT VERSION — NOT YET FINALISED", has been removed. The Editor's Note has been recast as finished editorial prose, retaining the documented publication history of the 2006 volume, the origins and archival purpose of The Sunil Abraham Project, the composition and publication history of the nine essays, and the continuing nature of the collection and preservation work.
+
+The Editor's attribution is right-aligned and line-broken as follows:
+
+- Tito Dutta
+- Co-founder and Administrator
+- The Sunil Abraham Project
+
+The planned publication date, 29 November 2026, is retained above the attribution. The place name Kolkata is not included.
+
+### Print-specific hyperlink treatment
+
+The Foreword and Editor's Note are composed for a physical book. No active hyperlinks or clickable website labels are used in these signature blocks, and the CISRS website address has been removed from the foreword attribution. The e-book is a separate digital edition and may retain useful hyperlinks where appropriate; these print decisions must not be copied automatically into its output.
+
+### Implementation and verification
+
+The changes are confined to `ebook/edrl-ii/print/build.py`. The shared foreword source and original essay source pages have not been rewritten. The next paperback proof must be inspected to verify the line breaks, right alignment, paragraph spacing, front-matter pagination and the complete Editor's Note. A successful Typst build alone does not establish that the printed pages are correct.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
