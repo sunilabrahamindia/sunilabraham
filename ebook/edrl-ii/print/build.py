@@ -15,11 +15,21 @@ FOREWORD_SOURCE = BASE / "foreword.md"
 PRINT = BASE / "print"
 OUT = PRINT / "output"
 OUT.mkdir(parents=True, exist_ok=True)
+AUTHOR_PHOTO_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
+AUTHOR_PHOTO = OUT / "author-portrait.png"
 COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg"
 COVER = OUT / "edrl-ii-cover.jpg"
 
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
+
+def fetch_author_photo():
+    request = urllib.request.Request(AUTHOR_PHOTO_URL, headers={"User-Agent": "EDRL-II-print-build"})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        data = response.read()
+    if len(data) < 10000 or not data.startswith(bytes.fromhex("89504e470d0a1a0a")):
+        raise SystemExit("Author photograph download failed validation; expected a PNG image.")
+    AUTHOR_PHOTO.write_bytes(data)
 
 def fetch_cover():
     request = urllib.request.Request(COVER_URL, headers={"User-Agent": "EDRL-II-print-build"})
@@ -459,6 +469,7 @@ if len(essays) != 9:
     raise SystemExit(f"Expected 9 manifest entries, found {len(essays)}")
 
 fetch_cover()
+fetch_author_photo()
 common = r"""
 #set document(
   title: "Essays on Dalits, Religion and Liberation II",
@@ -620,6 +631,12 @@ parts.append(r"""
       #text(size: 8pt, style: "italic", fill: luma(80))[Typesetting and printing credits will be added when the production details are confirmed.]
     ]
   ]
+]
+#pagebreak()
+#set page(header: none, footer: none, numbering: none)
+#v(1fr)
+#align(center)[
+  #image("author-portrait.png", height: 178mm, fit: "contain")
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
