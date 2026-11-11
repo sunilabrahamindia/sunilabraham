@@ -24,13 +24,6 @@ for page_number, page in enumerate(document, start=1):
         f"\n{'=' * 24} PDF PAGE {page_number} {'=' * 24}\n\n{text}\n"
     )
 
-if empty_pages:
-    raise SystemExit(
-        "Text extraction found pages with no selectable text: "
-        + ", ".join(map(str, empty_pages))
-        + ". Check whether these pages contain scanned images or artwork."
-    )
-
 OUTPUT.write_text(
     "EDRL II - page-separated text extraction for subject indexing\n"
     f"Source: {PDF.name}\n"
