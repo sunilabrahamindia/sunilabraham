@@ -580,7 +580,8 @@ The foreword by Y. T. Vinayaraj was received as a Word document and inspected on
 - [x] Use the shared foreword source in the e-book and paperback print workflows.
 - [x] Include the foreword before the Editor's Note and Contents.
 - [x] Set the preliminary folios from the foreword onwards in Roman numerals; restart the essays at Arabic page 1.
-- [ ] Run both production workflows and inspect the generated outputs for text fidelity, poem layout, reference rendering and pagination.
+- [x] Run the paperback print workflow. GitHub Actions run 70 completed successfully and uploaded the `edrl-ii-print-preview-70` proof artifact.
+- [ ] Complete the e-book workflow and visually inspect the generated proofs for text fidelity, poem layout, reference rendering, Roman-numeral folios and pagination.
 
 ## See also
 
