@@ -597,6 +597,24 @@ The print builder is being adjusted as follows:
 
 The documentation update is committed separately from the print-builder change so that only the builder commit triggers a new paperback workflow run. The visual result must still be checked in the resulting PDF; the source change alone does not establish that the spacing is correct.
 
+## Running heads, signatures and minimum type size — 11 November 2026
+
+Paperback proof #71 was inspected visually. The revised Foreword heading-to-body spacing is satisfactory, the Editor's Note draft notice no longer overlaps its heading, and the preliminary folios appear in lowercase Roman numerals. These corrections are retained.
+
+The next consolidated paperback update implements the agreed production direction from Herbert Paul's review and the subsequent clarification:
+
+- First essay remains printed as page 1; this pagination change was already implemented on 8 November and is not being repeated.
+- Even-numbered (left-hand) pages carry the book title in the running head.
+- Odd-numbered (right-hand) pages carry the current essay title in the running head, except on a page where a chapter begins.
+- Chapter-opening pages have no running head.
+- Foreword attribution is right-aligned and expanded to Dr. Y. T. Vinayaraj, Director, Christian Institute for the Study of Religion and Society (CISRS), with the institute website.
+- Editor's Note attribution is right-aligned as Tito Dutta, followed by 29 November 2026; the place name Kolkata is removed.
+- Small text is not set below 8 pt. Existing larger sizes are retained where appropriate; undersized running heads, table text and small labels are raised rather than forcing every element to exactly 8 pt.
+
+The global hyphenation proposal is not included in this update. It remains a separate decision because disabling hyphenation throughout may materially change justification and page texture. The existing Foreword and Editor's Note spacing corrections, lowercase Roman folios and first-essay Arabic pagination must remain intact.
+
+The builder update is intended to trigger one paperback proof build. The generated PDF must be checked for running-head parity, blank chapter-opening headers, signature alignment, table fit after type enlargement, footnote legibility and preservation of the earlier front-matter corrections.
+ 
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
