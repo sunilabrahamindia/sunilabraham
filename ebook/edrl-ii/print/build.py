@@ -646,16 +646,20 @@ parts.append(r"""
     #set text(size: 11.5pt)
     #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
     #align(center)[
-      So dance snake, dance!\\
-      We'll set fire to divisions of caste,\\
-      We'll debate philosophical questions in the market place;\\
-      We'll have dealings with despised households,\\
+      So dance snake, dance!
+      #linebreak()
+      We'll set fire to divisions of caste,
+      #linebreak()
+      We'll debate philosophical questions in the market place;
+      #linebreak()
+      We'll have dealings with despised households,
+      #linebreak()
       We'll go around in different paths.
     ]
     #v(6pt)
     #align(right)[
       #set par(justify: false, first-line-indent: 0pt, leading: 0.9em, spacing: 0pt)
-      #text(size: 9.5pt, style: "italic")[Cittar Gnanakkovai]
+      #text(size: 9.5pt)[— #emph[Cittar Gnanakkovai]]
       #linebreak()
       #text(size: 9.5pt)[Pambatti Cittar, verse 123.]
     ]
@@ -708,7 +712,7 @@ In 1974, Abraham Ayrookuzhiel joined the Christian Institute for the Study of Re
 
 A central concern in Abraham Ayrookuzhiel's writing was the relationship between faith and social emancipation. He questioned accounts of religion that obscured caste oppression or treated inherited social arrangements as natural. His studies explored Dalit identity, popular religious traditions, oral culture and forms of resistance expressed through stories, songs, myths and festivals. He argued that theology must engage with the lives and struggles of the oppressed, rather than remain confined to doctrine and institutional practice. His work therefore crossed the boundaries of theology, sociology and cultural study.
 
-His publications include *The Sacred in Popular Hinduism: An Empirical Study in Chirakkal, North Malabar* (1983) and *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial* (1987). He edited *The Dalit Desiyata: The Kerala Experience in Development and Class Struggle* (1990), and later co-edited and co-authored works on Dalit poetry and literature. His essays addressed Dalit theology, religious identity and interfaith dialogue.
+His publications include _The Sacred in Popular Hinduism: An Empirical Study in Chirakkal, North Malabar_ (1983) and _Swami Anand Thirth: Untouchability, Gandhian Solution on Trial_ (1987). He edited _The Dalit Desiyata: The Kerala Experience in Development and Class Struggle_ (1990), and later co-edited and co-authored works on Dalit poetry and literature. His essays addressed Dalit theology, religious identity and interfaith dialogue.
 
 At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was working on a study of Dalit and Hindu religious identity that remained incomplete. His writings brought together academic research, theological reflection and close attention to the social realities of his time. This volume makes a further part of his work available to readers.
 #pagebreak()
