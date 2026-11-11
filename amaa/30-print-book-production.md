@@ -839,6 +839,25 @@ The change is limited to the automated PDF validation logic. No manuscript text,
 
 **Status and distinction:** the false-positive failure in the automated overlap checker is corrected, and the workflow is green. This does not by itself establish that every visual text or paragraph overlap in the generated book has been resolved. The earlier critical incident concerning visible paragraph collisions remains a separate visual-proofing issue and must not be marked resolved solely because this automated check now passes. The generated PDF still requires visual inspection before print approval.
 
+
+## Stable recovery checkpoint — 11 November 2026
+
+The current print-production source is being recorded as a **stable recovery checkpoint**. This is a deliberate preservation point, not a declaration that the paperback is finished, fully proofread or ready for printing.
+
+**Checkpoint commit:** `11b45f870dab5c5ef25e826b00fcd270e851b4f7`  
+**Print builder:** `ebook/edrl-ii/print/build.py`
+
+This checkpoint preserves the current implementation as a known point to which the project can return if subsequent editing reintroduces paragraph collisions, overlapping text, pagination faults or other layout regressions. Further editorial corrections and formatting improvements may continue on the working branch. They must not overwrite or replace this recovery point.
+
+The checkpoint is intentionally distinct from final publication approval:
+
+- It is a source-code recovery point, not a claim that every editorial or formatting issue has been resolved.
+- The known paragraph-overlap investigation remains open. The automated overlap check and a visual inspection are separate checks; passing one does not establish that the other has passed.
+- The latest footer correction changes the preliminary-page footer from Typst content-block syntax to executable context code. Its generated PDF still requires a fresh build and visual inspection.
+- Future changes should be compared with this checkpoint when a regression is suspected. If necessary, the relevant source files can be restored from this exact commit without discarding later editorial work wholesale.
+
+**Status: STABLE RECOVERY CHECKPOINT — further editing permitted; final proof and print approval pending.**
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
