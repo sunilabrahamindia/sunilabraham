@@ -1,66 +1,116 @@
-# Manual build trigger: rerun requested on 11 November 2026.
-name: Build EDRL II print preview
-run-name: EDRL II print proof #${{ github.run_number }}
+name: Build EDRL II Print PDFs
 
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [ main ]
     paths:
-      - "ebook/edrl-ii/manifest.yml"
-      - "ebook/edrl-ii/front-matter.md"
-      - "ebook/edrl-ii/foreword.md"
-      - "ebook/edrl-ii/print/**"
-      - "ebook/edrl-ii/print/build.py"
-      - "amaa/state-of-hinduism-in-2000-ad-full-text.md"
-      - "amaa/religion-spirituality-and-aspirations-of-the-people-full-text.md"
-      - "amaa/living-hindu-popular-religious-consciousness-full-text.md"
-      - "amaa/the-church-and-the-study-of-religion.md"
-      - "amaa/religions-and-the-aspirations-of-the-people.md"
-      - "amaa/religion-way-salvation-ideology-oppression-full-text.md"
-      - "amaa/dalit-theology-movement-counter-culture-full-text.md"
-      - "amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md"
-      - "amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md"
-      - ".github/workflows/build-edrl-ii-print.yml"
+      - "ebook/edrl-ii/**"
+      - "_works/essays-on-dalits-religion-and-liberation-ii/**"
+      - ".github/workflows/**"
+  workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  build:
+  build-print:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v3
+        with:
+          typst-version: latest
+
+      - name: Set up Python and cache pip dependencies
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
+          cache: "pip"
 
-      - name: Install Python dependencies
-        run: python -m pip install --upgrade PyYAML beautifulsoup4
+      - name: Cache system packages (.deb) and fonts
+        id: cache-debs
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/edrl-debs
+            ~/.local/share/fonts/libertine
+          key: ubuntu-${{ runner.os }}-edrl-print-deps-v2
 
-      - name: Install Pandoc, Typst and fonts
+      - name: Install system dependencies (fast cached & mirror-resilient)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc fonts-linuxlibertine poppler-utils
-          curl -fsSL https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz -o /tmp/typst.tar.xz
-          tar -xJf /tmp/typst.tar.xz -C /tmp
-          sudo install /tmp/typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
-          typst --version
+          set -euo pipefail
+          mkdir -p ~/.cache/edrl-debs ~/.local/share/fonts/libertine
 
-      - name: Build A5 print preview
-        run: python ebook/edrl-ii/print/build.py
+          # 1. Check if cached .deb packages exist from a previous run (~2 seconds)
+          if compgen -G "$HOME/.cache/edrl-debs/*.deb" > /dev/null; then
+            echo "Installing dependencies from local GitHub Actions cache..."
+            sudo dpkg -i ~/.cache/edrl-debs/*.deb || true
+          fi
 
-      - name: Upload print preview
+          # 2. Check which tools are actually missing on the runner
+          MISSING_PKGS=()
+          fc-list | grep -qi "Linux Libertine O" || MISSING_PKGS+=("fonts-linuxlibertine")
+          command -v pdftotext >/dev/null 2>&1 || command -v pdfunite >/dev/null 2>&1 || MISSING_PKGS+=("poppler-utils")
+          command -v pandoc >/dev/null 2>&1 || MISSING_PKGS+=("pandoc")
+
+          # 3. Only run apt if packages are still missing
+          if [ ${#MISSING_PKGS[@]} -gt 0 ]; then
+            echo "Missing packages: ${MISSING_PKGS[*]}. Configuring resilient APT mirrors..."
+
+            # Remove broken azure.archive.ubuntu.com from mirrorlist and sources
+            if [ -f /etc/apt/apt-mirrors.txt ]; then
+              sudo sed -i '/azure\.archive\.ubuntu\.com/d' /etc/apt/apt-mirrors.txt
+              if ! grep -q 'archive.ubuntu.com' /etc/apt/apt-mirrors.txt; then
+                echo "http://archive.ubuntu.com/ubuntu/" | sudo tee -a /etc/apt/apt-mirrors.txt
+              fi
+            fi
+            sudo find /etc/apt/sources.list /etc/apt/sources.list.d/ -type f \( -name "*.list" -o -name "*.sources" \) \
+              -exec sudo sed -i 's|http://azure.archive.ubuntu.com/ubuntu/|http://archive.ubuntu.com/ubuntu/|g; s|https://azure.archive.ubuntu.com/ubuntu/|http://archive.ubuntu.com/ubuntu/|g' {} + 2>/dev/null || true
+
+            # Fast timeouts & retries so a dead mirror never hangs for 8 minutes
+            APT_FLAGS=(
+              -o Acquire::Retries=2
+              -o Acquire::http::Timeout=10
+              -o Acquire::https::Timeout=10
+              -o APT::Install-Suggests=0
+              -o APT::Install-Recommends=0
+              -o Dpkg::Use-Pty=0
+            )
+
+            sudo apt-get "${APT_FLAGS[@]}" update || true
+            sudo apt-get "${APT_FLAGS[@]}" install -y --no-install-recommends -d \
+              -o Dir::Cache::Archives="$HOME/.cache/edrl-debs" \
+              "${MISSING_PKGS[@]}" || true
+
+            if compgen -G "$HOME/.cache/edrl-debs/*.deb" > /dev/null; then
+              sudo dpkg -i ~/.cache/edrl-debs/*.deb || sudo apt-get "${APT_FLAGS[@]}" install -f -y
+            else
+              sudo apt-get "${APT_FLAGS[@]}" install -y --no-install-recommends "${MISSING_PKGS[@]}"
+            fi
+          else
+            echo "All system tools and fonts are already installed!"
+          fi
+
+      - name: Install Python packages
+        run: |
+          pip install --quiet --upgrade pyyaml beautifulsoup4 pypdf
+
+      - name: Build EDRL II Print Interior & Cover PDFs
+        run: |
+          python3 ebook/edrl-ii/print/build.py
+
+      - name: Upload Print Proof Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: edrl-ii-print-preview-${{ github.run_number }}
+          name: edrl-ii-print-pdfs
           path: |
             ebook/edrl-ii/print/output/edrl-ii-interior.pdf
             ebook/edrl-ii/print/output/edrl-ii-front-cover-proof.pdf
             ebook/edrl-ii/print/output/edrl-ii-combined-review.pdf
+            ebook/edrl-ii/print/output/edrl-ii-interior.typ
           if-no-files-found: error
-          retention-days: 30
