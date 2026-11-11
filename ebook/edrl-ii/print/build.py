@@ -653,7 +653,7 @@ parts.append(r"""
   #v(14mm)
   #text(size: 17pt, weight: "bold")[A. M. Abraham Ayrookuzhiel]
   #v(18mm)
-  #text(size: 10.5pt, style: "italic")[Edited by]
+  #text(size: 10.5pt)[Edited by]
   #v(2mm)
   #text(size: 12pt)[Tito Dutta]
 ]
