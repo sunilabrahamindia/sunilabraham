@@ -858,6 +858,26 @@ The checkpoint is intentionally distinct from final publication approval:
 
 **Status: STABLE RECOVERY CHECKPOINT — further editing permitted; final proof and print approval pending.**
 
+
+## Editorial and production suggestions from Sunil — 11 November 2026
+
+The following suggestions were communicated by Sunil on 11 November 2026. They are recorded here as a checklist for consideration and follow-up.
+
+- [ ] **No images inside the book.** Images would make print production more complicated.
+- [ ] **No glossary.** Definitions are not available.
+- [ ] **Subject index.** Consider an alphabetical index of names, subjects and important terms, with references to the pages on which they appear.
+- [ ] **Automated subject indexing.** Ideally, AI should help build dedicated software to generate the index. The index should not be compiled manually by an LLM.
+- [ ] **Future editions.** The subject index may be considered for a future edition; it should not require manual effort for the current production.
+- [ ] **Book-production auditing software.** Develop software to audit the book and identify production problems.
+- [ ] **Graphic design review.** Review pages from a graphic designer's perspective. Vision-capable LLMs may assist with this review.
+- [ ] **Title line break.** Consider arranging the title as:  
+  `Essays on`  
+  `Dalits, Religion and Liberation - II`
+- [ ] **Author's name.** Remove "Dr." because the author did not hold a PhD.
+- [ ] **Cover credit.** Add "Cover Design: Tito Dutta".
+- [ ] **Copyright notice.** Include a copyright notice consistent with the original publication.
+
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
