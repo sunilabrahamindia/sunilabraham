@@ -489,7 +489,7 @@ common = r"""
     #align(center)[#counter(page).display("1")]
   ],
 )
-#show heading.where(level: 1): it => block(above: 0pt, below: 0pt, breakable: false)[
+#show heading.where(level: 1): it => block(above: 0pt, below: 10pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 19pt, weight: "bold", hyphenate: false)
   #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
   #align(center)[#it]
@@ -586,7 +586,7 @@ parts.append(r"""
 ]
 #pagebreak()
 #set page(
-  numbering: "I",
+  numbering: "i",
   header: context [
     #set text(size: 7.5pt, fill: luma(85))
     #align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
@@ -595,7 +595,7 @@ parts.append(r"""
   ],
   footer: context [
     #set text(size: 8pt, fill: luma(65))
-    #align(center)[#counter(page).display("I")]
+    #align(center)[#counter(page).display("i")]
   ],
 )
 #counter(page).update(1)
@@ -603,10 +603,11 @@ parts.append(r"""
 @@FOREWORD_BODY@@
 #pagebreak()
 = Editor's Note
+#v(2pt)
 #align(center)[
   #text(size: 9pt)[DRAFT VERSION — NOT YET FINALISED]
 ]
-#v(8pt)
+#v(12pt)
 _Essays on Dalits, Religion and Liberation II_ by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author.
 
 The first volume, _Essays on Dalits, Religion and Liberation_, was published in 2006 on the occasion of the tenth death anniversary of A. M. Abraham Ayrookuzhiel. Published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), the volume included a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
