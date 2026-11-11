@@ -46,6 +46,125 @@ The following direction was given by Sunil:
 
 The printer is not being asked to make the book's design decisions. The project must supply a finished interior PDF that meets the printer's technical requirements.
 
+## Subject index
+
+A subject index will be prepared for the paperback edition. It will help readers locate people, places, concepts, movements, institutions and other significant subjects discussed across the essays. The index is an editorial component of the book, not simply a list of frequently occurring words. Entries must be selected for their significance and usefulness to readers, and page references must be checked against the final printed pagination.
+
+### Tools and division of work
+
+The subject-index workflow will use the Ubuntu laptop for PDF text extraction and the Windows 7 second-hand desktop for Cindex 4.4:
+
+- **Ubuntu - PDF extraction:** Use Python with PyMuPDF to extract text page by page from the paginated book PDF. Retain the PDF page position and the printed folio/page number as separate pieces of information wherever they differ.
+- **Ubuntu - candidate discovery:** Search and review the extracted text to identify possible names, places, concepts, organisations, events and recurring themes. Automated word counts and searches may help discover candidates, but they must not determine the final index automatically.
+- **Editorial review:** Decide which subjects merit entries, choose consistent preferred terms, group related concepts, and identify useful subentries and cross-references. Check the context of each occurrence so that a word is not indexed merely because it appears.
+- **Windows - Cindex 4.4:** Use Cindex to create and manage the index records, organise main entries and subentries, consolidate duplicate terms, add cross-references such as "See" and "See also", sort entries and prepare the index for export.
+- **Final integration:** Transfer the reviewed index output back into the print-production project and compose it as the book's index section using the established Typst workflow.
+
+PyMuPDF is a text-extraction tool, not an automatic subject-indexing system. It can extract searchable text and identify PDF pages, but editorial judgement is required to select and structure index entries. If the source PDF consists of scanned page images rather than selectable text, OCR will be required before text extraction. OCR output must be checked against the page images, particularly for names and specialised terminology.
+
+### Page references and pagination control
+
+The index must refer to the page numbers printed in the book, not blindly to the PDF viewer's page count. Preliminary pages, unnumbered pages, Roman-numbered pages, blank pages and the main-text sequence can make these values different. The extraction process must therefore record the relationship between each PDF page and its printed folio.
+
+The body text and its pagination should be treated as stable before the index is finalised. The preferred sequence is to generate and proof the complete paginated interior without the index, extract and verify page references from that version, prepare the index in Cindex, and then append the index to the book. Because the index is placed at the end, adding it should not change the page references in the preceding text. Any later change that affects the main text's pagination must trigger a fresh page-reference check.
+
+### Indexing principles
+
+- Index meaningful subjects rather than every repeated word.
+- Include significant people, places, communities, institutions, organisations, texts, events, movements and concepts where they are substantively discussed.
+- Use consistent names and preferred terms; account for variant spellings and alternative names through cross-references where useful.
+- Create subentries when they make a broad subject easier to navigate. Avoid long, undifferentiated strings of page numbers where more specific subentries would help.
+- Distinguish substantive discussion from passing mentions. A page reference should take readers to a useful treatment of the subject.
+- Use "See" references to direct readers from an unused or alternative term to the preferred entry, and "See also" references to connect related entries.
+- Avoid duplicate entries, inconsistent singular/plural forms and unnecessary synonym entries.
+- Verify every final page reference against the paginated PDF. Sampling alone is not sufficient for the final index.
+- Keep the index concise enough to be useful while representing the full range of the book's arguments and subjects.
+
+### Subject-index deliverables
+
+The indexing stage should produce:
+
+1. A page-by-page extracted text file or structured dataset from the paginated PDF.
+2. A working list of candidate subjects with their occurrence locations.
+3. A reviewed Cindex database containing the selected entries, subentries and cross-references.
+4. An exported index suitable for integration into the Typst print source.
+5. A final proofed index checked against the completed interior PDF.
+
+The Cindex database and the extracted text should be retained as production files so that corrections can be made and the index can be regenerated if the manuscript or pagination changes.
+
+## Draft book production plan
+
+The following is a working plan for completing the paperback edition of *Essays on Dalits, Religion and Liberation II*. It is a proposed sequence, not a statement that every stage has already been completed. The existing source essays and front matter remain the authoritative manuscript; production work must not silently rewrite them.
+
+### Stage 1 - Confirm and freeze the publication manuscript
+
+- Confirm the title, author attribution, publication details and final contents.
+- Confirm the front matter and the order of all nine essays.
+- Check that each essay is complete and that no text, notes, references, tables or illustrations are missing.
+- Record any editorial corrections separately and obtain approval before applying them to the publication text.
+- Establish a dated, version-controlled manuscript baseline for print production.
+
+### Stage 2 - Complete the interior design and typesetting
+
+- Confirm the printer's trim size, binding method, inner margin, bleed and PDF requirements.
+- Finalise the A5 page design, typefaces, type sizes, line spacing, paragraph treatment, heading hierarchy and folio conventions.
+- Complete the Typst source and maintain the existing separation between the EPUB and print workflows.
+- Typeset the front matter and all nine essays, including notes, references, tables, illustrations and captions.
+- Review page openings, running heads, folios, blank pages, widows, orphans and overall page balance.
+
+### Stage 3 - Generate and proof the paginated book
+
+- Generate a complete interior PDF without the subject index.
+- Check the PDF for missing text, missing glyphs, font embedding, image resolution, clipping, overlapping elements, footnote placement and unexpected blank pages.
+- Confirm the relationship between PDF page positions and the printed page numbers.
+- Treat the main text's pagination as provisionally locked before preparing index references.
+- Preserve this paginated PDF as the reference copy for indexing.
+
+### Stage 4 - Prepare the subject index
+
+- On Ubuntu, install and use PyMuPDF to extract the text page by page from the reference PDF.
+- Use OCR where pages are image-only, and verify OCR text against the original pages.
+- Generate candidate names, places, concepts and themes with their occurrence locations.
+- Review candidates in context and decide which subjects deserve entries.
+- Transfer the selected terms and page references into Cindex 4.4 on the Windows desktop.
+- Edit the index structure, consolidate entries, create subentries and add "See" and "See also" references.
+- Export the reviewed index and integrate it at the end of the Typst book source.
+
+### Stage 5 - Produce and proof the complete interior
+
+- Generate a fresh PDF containing the complete book and the subject index.
+- Verify every index entry and page reference against the final PDF.
+- Check alphabetical order, indents, entry hierarchy, cross-references, line breaks and index-page typography.
+- Recheck the main text's pagination to ensure that index integration has not altered it.
+- Make corrections in the appropriate source and regenerate the PDF.
+
+### Stage 6 - Prepare the cover
+
+- Confirm the final interior page count and the printer's paper specification before calculating spine width.
+- Prepare the full-wrap cover with back cover, spine and front cover.
+- Apply the printer's required dimensions, bleed, colour settings and production marks.
+- Proof the cover separately for text, alignment, spine placement, safe areas and image quality.
+
+### Stage 7 - Technical validation and final proof
+
+- Validate the interior and cover PDFs against the printer's current specifications.
+- Check page dimensions, embedded fonts, image resolution, colour handling and PDF integrity.
+- Inspect the complete interior both on screen and, where practicable, as a physical test print.
+- Complete a final editorial and production checklist; record unresolved issues rather than treating them as approved.
+- Retain the final source files, build logs and proof PDFs with the project.
+
+### Stage 8 - Printer handover and publication archive
+
+- Supply the approved print-ready interior PDF and full-wrap cover PDF to Pranesh.
+- Obtain confirmation that the printer can use the supplied files and that no further technical changes are required.
+- Review the printer's proof before authorising the print run.
+- Archive the approved PDFs, Typst source, Cindex database, extracted indexing data and final production notes in the repository.
+- Record the final edition details and publication status on the relevant TSAP publication page.
+
+### Working completion criteria
+
+The paperback should be considered ready for printer handover only when the complete interior and cover have passed their respective checks, the subject index has been verified against the final printed pagination, and the printer's technical requirements have been confirmed. A successful automated build or an uploaded PDF artifact is necessary evidence of production, but it is not by itself proof of editorial or print readiness.
+
 ## Proposed production workflow
 
 1. **Confirm the printer's requirements:** Obtain any printer-specific PDF instructions, templates, bleed and crop-mark requirements, and the required binding allowance.
