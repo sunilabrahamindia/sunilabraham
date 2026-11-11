@@ -591,47 +591,42 @@ parts.append(r"""
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
-#v(1fr)
-#align(center)[
-  #block(width: 78%)[
-    #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)
-    #align(left)[
-      #text(size: 8pt, weight: "bold", tracking: 1.4pt, fill: luma(75))[THE SUNIL ABRAHAM PROJECT]
-      #v(8mm)
-      #text(size: 8pt, weight: "bold", tracking: 0.8pt, fill: luma(90))[PUBLICATION DETAILS]
-      #v(3mm)
-      #text(size: 16pt, weight: "bold", hyphenate: false)[Essays on Dalits, Religion and Liberation II]
-      #v(2mm)
-      #text(size: 10.5pt)[A. M. Abraham Ayrookuzhiel]
-      #v(1mm)
-      #text(size: 9pt, style: "italic", fill: luma(75))[Edited by Tito Dutta]
-      #v(8mm)
-      #line(length: 100%, stroke: 0.6pt + luma(135))
-      #v(4mm)
-      #grid(
-        columns: (1fr, 2fr),
-        column-gutter: 8mm,
-        row-gutter: 3mm,
-        [#text(size: 8pt, fill: luma(75))[PUBLISHER]],
-        [#text(size: 9pt)[The Sunil Abraham Project]],
-        [#text(size: 8pt, fill: luma(75))[WEBSITE]],
-        [#text(size: 9pt)[https://sunilabraham.in]],
-        [#text(size: 8pt, fill: luma(75))[EDITION]],
-        [#text(size: 9pt)[First paperback edition, 29 November 2026]],
-        [#text(size: 8pt, fill: luma(75))[ISBN]],
-        [#text(size: 9pt)[978-93-345-8524-7]],
-        [#text(size: 8pt, fill: luma(75))[PRINTED PRICE]],
-        [#text(size: 9pt)[₹250]],
-        [#text(size: 8pt, fill: luma(75))[LANGUAGE]],
-        [#text(size: 9pt)[English]],
-      )
-      #v(4mm)
-      #line(length: 100%, stroke: 0.6pt + luma(135))
-      #v(4mm)
-      #text(size: 8pt, style: "italic", fill: luma(80))[Typesetting and printing credits will be added when the production details are confirmed.]
-    ]
+#set par(justify: false, first-line-indent: 0pt, spacing: 0pt, leading: 0.9em)
+#v(22mm)
+#align(left)[
+  #block(width: 100%)[
+    #text(size: 9pt, weight: "bold", tracking: 1.2pt, fill: luma(75))[THE SUNIL ABRAHAM PROJECT]
+    #v(5mm)
+    #line(length: 100%, stroke: 0.6pt + luma(135))
+    #v(8mm)
+    #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
+    #v(2mm)
+    #text(size: 12pt)[A. M. Abraham Ayrookuzhiel]
+    #v(9mm)
+    #text(size: 10pt)[First paperback edition published on 29 November 2026 by The Sunil Abraham Project.]
+    #v(2mm)
+    #text(size: 10pt)[Website: https://sunilabraham.in]
+    #v(1mm)
+    #text(size: 10pt)[Email: sunilabrahamindia@gmail.com]
+    #v(1mm)
+    #text(size: 10pt)[Mobile: +91 96111 00817]
+    #v(7mm)
+    #text(size: 10pt, style: "italic", fill: luma(75))[Edited by Tito Dutta]
+    #v(2mm)
+    #text(size: 10pt, style: "italic", fill: luma(75))[Design and Print Production Advisor: Herbert Paul]
+    #v(7mm)
+    #line(length: 100%, stroke: 0.6pt + luma(135))
+    #v(4mm)
+    #text(size: 10pt)[ISBN: 978-93-345-8524-7]
+    #v(2mm)
+    #text(size: 10pt)[Printed price: ₹250]
+    #v(8mm)
+    #line(length: 100%, stroke: 0.6pt + luma(135))
+    #v(4mm)
+    #text(size: 9pt, style: "italic", fill: luma(75))[Published in India]
   ]
 ]
+
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
 #v(1fr)
