@@ -52,6 +52,7 @@ exclude:
   - node_modules/
   - vendor/
   - .github/
+  - ebook/
   - .gitignore
 
 # =====================================================
