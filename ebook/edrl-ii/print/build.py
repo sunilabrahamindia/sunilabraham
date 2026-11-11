@@ -430,10 +430,6 @@ def md_to_typst(markdown, stem):
         md.write_text(segment, encoding="utf-8")
         run(["pandoc", str(md), "--from=markdown+smart+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
-        # Pandoc's Typst writer separates paragraphs with blank lines.
-        # Add explicit vertical space at those boundaries; par.spacing alone
-        # was not preventing adjacent paragraphs from colliding in the PDF.
-        content = re.sub(r"\n[ \\t]*\n+", "\n\n#v(10pt)\n\n", content)
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
             raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
         raw_markers = re.findall(r"\[\^(\d+)\](?!:)", content)
@@ -481,7 +477,8 @@ common = r"""
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en")
-#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 16pt)
+#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 8pt)
+#set block(spacing: 0.55em)
 #set heading(numbering: none)
 #set footnote.entry(
   separator: line(length: 30%, stroke: 0.5pt + luma(90)),
