@@ -1499,3 +1499,107 @@ The available run logs do not establish one single cause. They show at least two
 These are different failure points and should not be conflated. Run #115 failed while reaching the Ubuntu package repository; run #116 failed before attempting that installation. Neither run reached PDF generation, so neither provides evidence that the Python builder itself failed. The reason the process is not currently dependable is that the workflow setup has changed and the recent attempts have encountered separate setup failures. The exact current builder/workflow combination still needs an end-to-end successful run before it can be treated as restored.
 
 The 6 November run is a historical proof of a successful installation and build, not a guarantee that a later GitHub-hosted runner will have identical network conditions. GitHub-hosted runners are newly provisioned for each run, so required packages must be installed again; successful installation in one run does not make those packages persist for subsequent runs.
+
+## Recovery record: successful restoration of the EDRL II print artifact — 11 November 2026
+
+### Outcome
+
+The production build was recovered on 11 November 2026. GitHub Actions **run #117** completed successfully on its second attempt and uploaded a new artifact containing the three expected PDF files:
+
+- `edrl-ii-interior.pdf`
+- `edrl-ii-front-cover-proof.pdf`
+- `edrl-ii-combined-review.pdf`
+
+**Successful run:** [EDRL II print proof — run #117](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43061265800)  
+**Run ID:** `43061265800`  
+**Successful job ID:** `130672873198`  
+**Commit:** `a4cfcba453eddb548226a8a854498adaa64b7955`  
+**Commit message:** `Tito VSCode fix attempt #109 based`  
+**Artifact:** `edrl-ii-print-preview-117`  
+**Artifact size:** 7,405,501 bytes (approximately 7.4 MB)  
+**Artifact retention:** 30 days; GitHub reported an expiry date of 11 December 2026.
+
+The artifact was downloaded and opened. The user confirmed that the expected earlier version of the book was present. This confirms that the workflow generated and uploaded usable PDFs; it does not, by itself, certify every page or establish printer approval.
+
+### Important correction to the earlier incident status
+
+The earlier incident report above described the production disruption as open because no later successful build had yet been confirmed. That status is now superseded: run #117 succeeded, and a downloadable artifact was obtained. The production workflow is therefore **recovered to a working state**, although the output still requires the normal editorial and visual proofing before it can be approved for printing.
+
+Run #109 remains the last successful reference build before the disruption. Its exact commit was:
+
+`b20ffc15b3f238465b0e3ccbe7897525f497f0c5`
+
+It completed at 13:18:38 UTC on 11 November 2026. The recovery commit used for run #117 was different:
+
+`a4cfcba453eddb548226a8a854498adaa64b7955`
+
+The recovery commit message described the work as based on Run #109. This record does **not** claim that every file in the recovery commit is byte-for-byte identical to Run #109. The important operational result is that the current committed combination successfully produced the artifact that was downloaded and inspected.
+
+### Chronology of the disruption and recovery
+
+The following chronology records the known events and distinguishes confirmed log evidence from conclusions that cannot be established.
+
+1. **Run #109 — last known successful reference.** The workflow installed its dependencies, ran the print builder, generated the interior, front-cover proof and combined review PDFs, and uploaded the artifact. This became the reference point for recovery.
+
+2. **Builder and workflow experimentation.** The print builder, `ebook/edrl-ii/print/build.py`, and the workflow, `.github/workflows/build-edrl-ii-print.yml`, were changed during attempts to revise the production process. The changes affected both the document-generation code and the environment setup. The experimental changes were not kept isolated from the production path as originally intended. This made it harder to identify which exact pair of files was responsible for a given result.
+
+3. **Gemini-related production changes and attempted rollback.** Changes associated with the experimental builder were committed to the production branch. The subsequent rollback attempts did not initially restore the exact Run #109 versions. An earlier version was mistakenly described as the Run #109 baseline. That assurance was incorrect. The distinction matters: restoring a file from an earlier point in the repository is not the same as restoring the file from the exact commit used by a known successful run.
+
+4. **Repeated failed workflow attempts.** Runs #110–#116 included failed and cancelled attempts while the builder and workflow were being changed and recovery was being attempted. The run records and logs show more than one failure point; they should not all be described as the same error.
+
+5. **Run #115 — Ubuntu package repository resolution failure.** The runner could not resolve `azure.archive.ubuntu.com` while APT was installing system packages. The log included `Temporary failure resolving 'azure.archive.ubuntu.com'` and APT ended with exit code 100. The affected packages included Pandoc, Pandoc data, Linux Libertine fonts and Poppler utilities. The builder did not run in this attempt. This is direct evidence of a runner-side DNS/network failure during dependency installation, not evidence of a manuscript or PDF-layout defect.
+
+6. **Run #116 — Python setup configuration failure.** The workflow attempted to use pip caching without a repository dependency manifest recognised by `actions/setup-python`. The action could not find `requirements.txt` or `pyproject.toml` and failed before the PDF build. This was a separate workflow configuration problem, not an Azure DNS failure and not a builder error.
+
+7. **Local VS Code recovery.** The repository was pulled into the local working copy. During the file replacement, the wrong path, `ebook/edrl-ii/build.py`, was briefly modified instead of the print builder at `ebook/edrl-ii/print/build.py`. That unrelated edit was restored. The final local status showed the intended workflow and print-builder files as the modified files. The user then committed the work with the message `Tito VSCode fix attempt`; the resulting commit on the successful run was `a4cfcba453eddb548226a8a854498adaa64b7955`.
+
+8. **Run #117 — successful second attempt.** The first attempt of run #117 did not provide the required successful artifact. The existing failed job was rerun. The second attempt completed successfully: dependency installation, PDF generation and artifact upload all completed. GitHub recorded run attempt 2 as successful. The artifact was then downloaded and opened by the user.
+
+### What the logs establish — and what they do not
+
+The failed attempts do not support one single explanation for every failure:
+
+- The Azure Ubuntu mirror/DNS error is confirmed for run #115. That attempt stopped during APT installation, before the builder ran.
+- The missing dependency-manifest error is confirmed for run #116. That attempt stopped during Python setup, before APT installation and before the builder ran.
+- The successful second attempt of run #117 establishes that the workflow could again install its environment, execute the builder and upload the PDFs.
+- The available evidence does not establish why the rerun succeeded when the preceding attempt did not. It is not appropriate to claim that a particular code change fixed the DNS issue, or that the Azure mirror was permanently repaired. A transient runner or network condition is possible, but the logs available here do not prove that explanation.
+- A successful artifact build confirms execution and upload. It does not establish that all typography, pagination, tables, footnotes, references, images or printer specifications are correct. Those require inspection of the downloaded PDFs.
+
+### Why a small formatting edit can still encounter the installation stage
+
+The current workflow runs on `ubuntu-latest` and has explicit setup steps before it invokes the Python builder. The workflow currently:
+
+1. Checks out the repository.
+2. Sets up Python.
+3. Installs `PyYAML` and `beautifulsoup4` with pip.
+4. Runs `apt-get update`.
+5. Installs `pandoc`, `fonts-linuxlibertine` and `poppler-utils`.
+6. Downloads the Typst Linux release archive and installs the `typst` executable.
+7. Runs `python ebook/edrl-ii/print/build.py`.
+8. Uploads the three PDF outputs as an artifact.
+
+The workflow does not currently use a dependency cache. GitHub-hosted runners are temporary environments, so software installed during one run should not be assumed to remain installed for the next run. A formatting-only edit inside `build.py` does not inherently introduce a new package requirement, but if that edit triggers this workflow, the existing installation steps will still run. This is a property of the current workflow configuration, not a requirement created by the formatting edit itself.
+
+The workflow is triggered by a push to `main` when a listed manuscript, print-production or workflow path changes, and it can also be started manually. The exact trigger paths are recorded in `.github/workflows/build-edrl-ii-print.yml`.
+
+### Production freeze and next editing approach
+
+The immediate priority is to preserve the working production state. No dependency is to be added or removed, and no further redesign of the build environment is planned as part of routine formatting work.
+
+Future visual refinements will be made manually in the existing Python builder, `ebook/edrl-ii/print/build.py`, by changing its existing Typst layout and styling instructions in small, deliberate steps. These are formatting adjustments, not a reason to introduce another typesetting system or a new package. The manuscript content must remain unchanged unless a separately approved editorial correction is requested.
+
+The current successful commit and downloaded artifact should be retained as a recovery reference. Before any future production change, preserve the current working files and identify the exact lines or formatting rule being changed. Do not describe a future build as tested until a new artifact has actually been generated and checked.
+
+### Lessons recorded for future maintenance
+
+- Keep experimental builders separate from production files. Do not replace the working production builder merely to test a new approach.
+- Treat a successful workflow run as a reproducible configuration consisting of the builder, workflow and dependency setup together, not as a Python file alone.
+- Record the exact commit SHA for every known-good artifact.
+- When restoring a known-good build, retrieve files from the exact successful commit and compare them before claiming that the restoration is exact.
+- Read the failing step before diagnosing a failed workflow. A DNS error during APT installation, a Python action configuration error and a builder exception are different failures.
+- Do not infer that a builder is defective when the workflow never reached the builder.
+- A successful retry proves that the retry worked; it does not automatically explain why an earlier attempt failed.
+- Preserve downloaded artifacts. They provide a usable fallback and a concrete reference for visual comparison.
+- Keep formatting changes small and local, and avoid unnecessary dependency or workflow changes during the final book-proofing stage.
+
+**Current status: RECOVERED WORKING BUILD.** Run #117, attempt 2, successfully generated and uploaded the three PDF outputs. The user downloaded the artifact and confirmed that the expected earlier book file was present. The environment and dependency setup are to be left unchanged while the remaining formatting is considered.
