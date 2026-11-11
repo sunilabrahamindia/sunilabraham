@@ -712,6 +712,16 @@ The back-cover biography will be approximately 70–100 words and will serve a d
 
 The longer biography is to be added to the print interior after the Editor's Note and before the Contents. Its final word count, paragraph flow, heading treatment and pagination must be checked in the generated A5 proof. The biography should be checked against `/amaa/index.md` for factual fidelity. The back-cover note remains a separate pending task.
 
+### Inside biography added to print builder — 11 November 2026
+
+The first draft of the longer biography has now been added to `ebook/edrl-ii/print/build.py` under the heading **About the Author**. It follows the Editor's Note and precedes the Contents, as specified in the plan above. A page break separates the Editor's Note from the biography and another separates the biography from the Contents; the biography itself may flow naturally across pages if required.
+
+The draft is written as continuous prose in six paragraphs, without tables, bullet lists, references or hyperlinks. It follows the existing `/amaa/index.md` biography and covers Ayrookuzhiel's origins and education, ministry in the United Kingdom, work at CISRS, intellectual concerns, selected publications and unfinished manuscript. Family genealogy and detailed personal chronology have been left out. The text keeps broad source descriptions broad and does not add unsupported dates or qualifications.
+
+The back-cover biography remains a separate, pending item. It is not included in this change.
+
+**Verification still required:** inspect the generated A5 paperback proof for the biography's word flow, page count, heading and paragraph spacing, page breaks, and its transition to the Contents. Check every biographical statement against `/amaa/index.md`. This draft should not be treated as final until that proofread is complete.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
