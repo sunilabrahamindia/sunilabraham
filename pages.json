@@ -1,5 +1,20 @@
 [
   {
+    "title": "Life at TSAP (11 November 2026)",
+    "description": "A first-person account of a day spent working on paperback production, troubleshooting, inspections, failed builds and recovery at The Sunil Abraham Project.",
+    "created": "2026-11-12",
+    "date": null,
+    "source": null,
+    "authors": [
+      "Tito Dutta"
+    ],
+    "categories": [
+      "Tito Dutta"
+    ],
+    "permalink": "https://sunilabraham.in/tito/life-at-tsap-01/",
+    "source_path": "tito/life-at-tsap-01.md"
+  },
+  {
     "title": "File Extension Coverage Gap in Page Indexing and Page ID Assignment (11 November 2026)",
     "description": "Documentation of the file-extension coverage gap affecting the TSAP Pages Index and Page ID assignment scripts, the inclusion of SVG pages, and the introduction of a repository-wide Page ID audit.",
     "created": "2026-11-11",
