@@ -10,6 +10,8 @@ created: 2026-11-12
 
 {% include author-date.html %}
 
+{% include under-construction.html %}
+
 I spent a substantial part of Wednesday, 11 November 2026, working on the paperback production of A. M. Abraham Ayrookuzhiel's *Essays on Dalits, Religion and Liberation II*. The work involved troubleshooting the interior layout, investigating paragraph overlaps, correcting the automated PDF inspection process, recovering the print-production workflow after several failed GitHub Actions runs, and examining the generated proofs. The technical chronology is documented in [Print Book Production: Essays on Dalits, Religion and Liberation II](/amaa/30-print-book-production/).
 
 ## The paperback production problem
