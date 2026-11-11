@@ -51,7 +51,7 @@ This is an editorial preview, not the final edition for distribution. The final 
 ::: {.frontmatter-section}
 # Foreword {#foreword}
 
-[Placeholder: Foreword text to be added after it is received and approved.]
+<!-- FOREWORD_SOURCE_INSERTION_POINT -->
 
 :::
 
