@@ -479,7 +479,6 @@ common = r"""
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en")
 #set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 8pt)
 #set heading(numbering: none)
-#set block(spacing: 0.55em)
 #set footnote.entry(
   separator: line(length: 30%, stroke: 0.5pt + luma(90)),
   clearance: 0.6em,
