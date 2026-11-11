@@ -734,6 +734,95 @@ The biography has been inserted into the existing preliminary matter; no folio n
 
 The new A5 proof must also be visually inspected for the biography heading, paragraph spacing, page flow, blank-page behaviour and transition to the Contents. This implementation is not considered print-approved until the PDF itself has been reviewed.
 
+
+## Critical incident: paragraph and text overlap in the paperback interior — 11 November 2026
+
+### Summary
+
+A serious composition defect appeared in the generated paperback PDF on 11 November 2026. Text from consecutive paragraphs overlaps vertically: the final line of one paragraph and the opening line of the next are printed at nearly the same vertical position. The defect is visible in the Foreword and is reported to affect the interior more broadly, including many pages across the book. It makes affected pages difficult or impossible to read and is a release-blocking production defect.
+
+The problem was not present in the earlier series of paperback builds. More than 70 earlier workflow runs had been used during production without this particular paragraph-collision defect being reported. It appeared after changes were made to the print builder during the publication-details-page revision. The user's laptop restart occurred after the defect had appeared; there is no evidence that the laptop or a local machine restart caused it. The relevant changes were made in the repository's GitHub Actions build source.
+
+**The current cause has not yet been conclusively isolated.** The incident must remain open until the exact source-level cause is demonstrated and a complete regenerated PDF has been inspected. A successful build status is not evidence that the layout is fixed.
+
+### What the defect looks like
+
+The supplied screenshots show the following symptoms:
+
+- The end of a paragraph and the start of the next paragraph occupy overlapping vertical space.
+- The problem occurs repeatedly at paragraph boundaries, rather than being limited to one isolated page or one particular paragraph.
+- In the Foreword, the first paragraph ends with the sentence about studying religion in Rome and Oxford; the next paragraph begins with "His dedication to the study of religion..." at almost the same vertical position.
+- A similar collision occurs later where a paragraph ending in "interfaith dialogue in India" is followed immediately by "The essays gathered in this volume...".
+- The user reports that the problem affects the wider interior, with many pages showing the same behaviour.
+
+The visible symptom is paragraph-to-paragraph collision. It must not be described merely as tight line spacing: lines within individual paragraphs may remain legible while separate paragraphs are placed on top of one another.
+
+### Timeline of changes and investigation
+
+1. **Earlier working state.** The paperback had gone through more than 70 earlier GitHub Actions builds. The user had not reported this repeated paragraph-overlap defect in those proofs.
+
+2. **Publication-details revision.** During the revision of the publication and credits page, the print builder's global paragraph settings were changed from the previous body-text configuration to `leading: 1.2em` and `spacing: 8pt`. The publication page was also changed to remove the project-name heading and horizontal rules after the user objected to them. These changes were committed as part of the work leading to print build 88.
+
+3. **Build 88.** The dedicated paperback workflow completed, but the PDF still showed the same paragraph collisions. This demonstrated that increasing the global line leading had not corrected the defect.
+
+4. **Global block-spacing hypothesis.** The builder contained a global `#set block(spacing: 0.55em)` rule. It was removed as a possible contributor to block separation. The resulting proof still showed collisions. Removing this setting was therefore not a demonstrated fix.
+
+5. **Paragraph show-rule experiment.** A global `#show par` rule wrapping paragraphs in blocks with a `below` spacing value was added as another attempted correction. The following proof still showed the defect. This experiment was subsequently removed. It must not be reintroduced without a clear, isolated test.
+
+6. **Paragraph-spacing adjustment.** The global paragraph spacing was increased again, to 16 pt. This also did not establish a fix.
+
+7. **Inspection of generated Typst content.** A temporary diagnostic print was added to the GitHub Actions build so that the Pandoc-generated Typst content for the Foreword could be inspected in the job log. The diagnostic output showed that ordinary paragraphs were separated by blank lines in the generated Typst text. The output did not show `#parbreak()` markers between those ordinary paragraphs. This matters because the earlier attempted replacement of `#parbreak()` did not target the paragraph separators actually present in the generated Foreword content.
+
+8. **Explicit paragraph-gap experiment.** A post-processing step was then added to the Pandoc-generated Typst text. It uses a regular expression to find blank-line paragraph boundaries and insert an explicit `#v(10pt)` between paragraphs. This is an experimental intervention, not yet a verified solution. Its effect must be checked in the PDF, and its behaviour around headings, lists, quotations, footnotes, poems and other structured content must be examined before it is accepted.
+
+9. **Latest diagnostic/build state.** The temporary diagnostic output and subsequent paragraph-boundary changes were committed during the investigation. The latest dedicated paperback workflow at the time of this entry is run **42966996529**. Its final PDF and visual result must be checked before the status of the experiment can be determined.
+
+### What is known, and what is not yet known
+
+**Established from the source and build logs:**
+
+- The defect is in the generated print composition, not in the wording of the Foreword source.
+- The Markdown source file `ebook/edrl-ii/foreword.md` contains normal paragraph breaks between the relevant paragraphs.
+- The Pandoc-generated Typst content inspected in the workflow log represents those paragraphs as separate text paragraphs divided by blank lines.
+- The earlier search-and-replace for `#parbreak()` did not match the ordinary paragraph separators shown in the diagnostic output.
+- Increasing line leading, removing the global block-spacing setting and adding the tested global paragraph show rule did not, by themselves, resolve the visible collision.
+
+**Not yet established:**
+
+- The exact Typst layout mechanism responsible for the collision.
+- Whether the fault is caused by the interaction of paragraph settings, a custom show rule, block layout, the Pandoc-generated Typst, or another surrounding layout construct.
+- Whether the latest explicit `#v(10pt)` insertion fully fixes ordinary paragraphs.
+- Whether that insertion has unwanted effects on non-paragraph structures or changes pagination elsewhere in the book.
+
+Do not record any one of the attempted explanations as the confirmed root cause until a controlled test demonstrates it.
+
+### Required recovery and verification procedure
+
+The priority is to restore reliable paragraph flow without changing the approved wording or introducing new design changes.
+
+1. Preserve the current source and diagnostic evidence so that the investigation can be reconstructed.
+2. Compare the current print builder with the last known working version from before the publication-details revision. Use Git history to identify the exact changes introduced after that working state; do not guess at a rollback point.
+3. Reproduce the defect with a minimal test containing two ordinary paragraphs, then compare the generated Typst source and PDF output with the last known working implementation.
+4. Identify the specific rule or transformation that causes the second paragraph to begin at the wrong vertical position. Change one variable at a time.
+5. Do not apply blanket regular-expression spacing changes to all generated Typst content unless tests demonstrate that headings, lists, block quotations, poems, footnotes, tables and other structures remain correct.
+6. Once a correction is identified, generate the complete A5 interior through the dedicated paperback workflow. Do not use the editorial preview workflow as a substitute.
+7. Inspect multiple pages from the Foreword and every essay, especially pages with consecutive paragraphs, headings, quotations, footnotes, lists, tables and page breaks. Check both the beginning and end of the book.
+8. Compare the regenerated PDF with the supplied defective proof. Confirm that no paragraph collisions remain and that the correction has not introduced excessive gaps, missing text, new overlaps, blank pages or pagination errors.
+9. Only after this inspection should the production log mark the incident resolved. A green GitHub Actions status alone is insufficient.
+
+### Scope control and safeguards
+
+Until this incident is resolved:
+
+- Do not make further cosmetic changes to the publication-details page, running heads, title typography or other front-matter design unless required to diagnose the defect.
+- Do not alter the original essay or Foreword wording to compensate for a layout problem.
+- Do not change the EPUB source or e-book styling as part of this print-only investigation.
+- Keep diagnostic logging temporary and remove it after the cause has been identified.
+- Record each experimental source change, commit and workflow run in this section, including whether the generated PDF passed or failed visual inspection.
+- Do not ask the user to re-upload the same PDF or screenshots when the existing files and repository build artefacts are available.
+
+**Current status: OPEN — critical, unresolved.** The paperback interior must not be approved or sent for printing until the paragraph-overlap defect has been conclusively corrected and the complete PDF has passed visual inspection.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
