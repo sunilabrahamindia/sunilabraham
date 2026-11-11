@@ -538,7 +538,7 @@ signature_source = """**Y.T. Vinayaraj**
 Director, CISRS"""
 if signature_source not in foreword_markdown:
     raise SystemExit("Original foreword signature not found")
-foreword_markdown = foreword_markdown.replace(signature_source, "@@FOREWORD_SIGNATURE@@")
+foreword_markdown = foreword_markdown.replace(signature_source, "TSAPFOREWORDSIGNATURETOKEN")
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
 signature_typst = r"""#align(right)[
   #set par(justify: false, first-line-indent: 0pt, spacing: 2pt)
@@ -547,9 +547,9 @@ signature_typst = r"""#align(right)[
   #text(size: 9pt)[Christian Institute for the Study of Religion and Society (CISRS)]
   #text(size: 9pt)[#link("https://www.cisrs.in/")[cisrs.in]]
 ]"""
-if "@@FOREWORD_SIGNATURE@@" not in foreword_typst:
+if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
     raise SystemExit("Foreword signature marker did not survive conversion")
-foreword_typst = foreword_typst.replace("@@FOREWORD_SIGNATURE@@", signature_typst)
+foreword_typst = foreword_typst.replace("TSAPFOREWORDSIGNATURETOKEN", signature_typst)
 
 parts = [common]
 parts.append(r"""
