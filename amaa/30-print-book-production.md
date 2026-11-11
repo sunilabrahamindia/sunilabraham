@@ -907,3 +907,21 @@ The print builder has been corrected:
 Implementation: commit `b173ac3a88a57b03b50adc96fb01bb573643e9e0` in `ebook/edrl-ii/print/build.py`.
 
 The next generated A5 proof must be checked to confirm that the stack spacing renders as intended and that neither signature is split across pages. The source change is committed; visual verification remains pending.
+
+
+## Pambatti Cittar epigraph page — 11 November 2026
+
+A dedicated, unnumbered epigraph page has been added to the paperback interior, after the publication-details page and before the Foreword. It contains only the four-line passage reproduced in A. M. Abraham Ayrookuzhiel's deposited essay `amaa/dalits-challenges-religious-systems-full-text.md`, with its source attribution.
+
+The wording is retained exactly:
+
+> We'll set fire to divisions of caste,  
+> We'll debate philosophical questions in the market place;  
+> We'll have dealings with despised households,  
+> We'll go around in different paths.
+
+Attribution: *Cittar Gnanakkovai*, Pambatti Cittar, verse 123. Only the collection title is italicised. The page has no heading, running header, footer or printed folio. It precedes the Roman-numbered preliminary matter; the Foreword's Roman folio sequence must be checked in the next proof.
+
+Implementation: commit `66b69ed0366c64191c854e5974b1f25c197c2c99` in `ebook/edrl-ii/print/build.py`.
+
+Visual verification is pending the next dedicated print build. Confirm that the four lines retain their line breaks, the attribution is correctly aligned, the page has balanced white space, and Roman preliminary numbering begins as intended.
