@@ -498,7 +498,6 @@ The detailed marker count and version 46 footnote findings are recorded in the p
 ### Front matter and production material — status at the time of audit
 
 These items were visible in version 46 but were identified as work in progress, not as defects to fix in the citation-only pass:
-
 - PDF page 6 (printed page 5): the Foreword contained the placeholder text indicating that the approved Foreword was still awaited.
 - PDF pages 7–8 (printed pages 6–7): the Editor's Note carried the notice "DRAFT VERSION — NOT YET FINALISED".
 - PDF page 5 (printed page 4): the publication details said that typesetting and printing credits would be added when production details were confirmed.
@@ -997,8 +996,7 @@ body.tsap-dark-mode .typst-markdown-table-wrap .typst-markdown-table tbody th {
   padding: 0.6rem 0.7rem;
   border: 1px solid #767676;
   text-align: left;
-  vertical-align: top;
-  white-space: normal;
+  vertical-align: top;  white-space: normal;
   overflow-wrap: anywhere;
 }
 .footnote-tally thead th {
@@ -1482,3 +1480,22 @@ Run #109 remains the last confirmed successful build and its PDFs have been pres
 
 The recovery is not complete merely because the source files have been reverted or a workflow reports that it has started. Completion requires a successful build of the current manuscript, successful upload of the resulting PDFs, and confirmation that the new artifacts are downloadable.
 
+
+### Historical baseline: first complete successful build on 6 November 2026
+
+The first complete successful run of this Typst-based EDRL II print workflow was **GitHub Actions run #4 on 6 November 2026**. It completed all stages, including Python dependency installation, installation of Pandoc, Typst and fonts, PDF generation and artifact upload.
+
+**Successful run:** [EDRL II print workflow — run #4, 6 November 2026](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/42189828557)
+
+The run is an important reference because it demonstrates that the repository's print-production approach and its required tools were capable of producing and uploading the PDF successfully. The later successful run #109 on 11 November was another confirmed success, and remains the last successful build immediately before the failures recorded in this incident.
+
+### Why subsequent builds have not consistently succeeded
+
+The available run logs do not establish one single cause. They show at least two distinct failures in the recovery attempts:
+
+- **Runner network/DNS failure (run #115):** the Ubuntu runner could not resolve `azure.archive.ubuntu.com` while installing system packages. The installation stopped before the Python builder ran. This points to a runner-side package-server connectivity problem during that attempt; it does not show that the builder or manuscript is defective.
+- **Python setup configuration error (run #116):** `actions/setup-python@v5` was configured with pip caching enabled. The action searched the checked-out repository for `requirements.txt` or `pyproject.toml`, found neither, and stopped. The builder and system-package installation steps were skipped. This is a workflow configuration error; pip caching should not be enabled unless a suitable dependency manifest is present.
+
+These are different failure points and should not be conflated. Run #115 failed while reaching the Ubuntu package repository; run #116 failed before attempting that installation. Neither run reached PDF generation, so neither provides evidence that the Python builder itself failed. The reason the process is not currently dependable is that the workflow setup has changed and the recent attempts have encountered separate setup failures. The exact current builder/workflow combination still needs an end-to-end successful run before it can be treated as restored.
+
+The 6 November run is a historical proof of a successful installation and build, not a guarantee that a later GitHub-hosted runner will have identical network conditions. GitHub-hosted runners are newly provisioned for each run, so required packages must be installed again; successful installation in one run does not make those packages persist for subsequent runs.
