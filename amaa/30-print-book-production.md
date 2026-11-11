@@ -722,6 +722,18 @@ The back-cover biography remains a separate, pending item. It is not included in
 
 **Verification still required:** inspect the generated A5 paperback proof for the biography's word flow, page count, heading and paragraph spacing, page breaks, and its transition to the Contents. Check every biographical statement against `/amaa/index.md`. This draft should not be treated as final until that proofread is complete.
 
+### Approved author biography inserted — 11 November 2026
+
+The editor-approved version of **About the Author**, supplied in the conversation on 11 November 2026, has replaced the earlier working draft in `ebook/edrl-ii/print/build.py`. The text is reproduced as approved, including the full-name usage, the description "theologian, scholar and researcher", the date range with spaces around the en dash, and the six-paragraph structure. No further stylistic rewriting was made during implementation.
+
+The biography remains positioned after the Editor's Note and before the Contents. It is composed as continuous prose, with no table, list, references or hyperlinks. The separate short back-cover biography remains pending.
+
+#### Pagination and proof requirements
+
+The biography has been inserted into the existing preliminary matter; no folio numbers have been manually assigned or hard-coded for it. The existing preliminary-page numbering system is expected to continue in lowercase Roman numerals (i, ii, iii, iv, and so on), with Arabic numbering restarting at page 1 for the first essay. The added biography may increase the number of preliminary pages, so the next generated proof must be checked to confirm that Roman folios advance automatically, that the first essay still begins at Arabic page 1, and that the Contents page references and all subsequent pagination are correct.
+
+The new A5 proof must also be visually inspected for the biography heading, paragraph spacing, page flow, blank-page behaviour and transition to the Contents. This implementation is not considered print-approved until the PDF itself has been reviewed.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
