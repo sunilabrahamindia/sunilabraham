@@ -6,7 +6,7 @@ This directory contains a direct-to-main production workflow for the EDRL II edi
 
 - Nine full-text essays selected exclusively from the TSAP category "Writings not in Essays on Dalits, Religion and Liberation".
 - Essays arranged by original publication date, oldest first. The relative order of the two 1988 works remains provisional because one publication date is known only to the year.
-- The cover is sourced from `sunilabrahammedia/amaa/edrl-ii-v0.2.jpg` at build time. The book sequence is cover, title-only half-title, full title page (title, author and centred imprint; no subtitle), publication details, contents and nine essays. The fixed-layout PDF includes a blank verso after the half-title; the reflowable EPUB does not force an artificial blank page. Foreword and editor's note are omitted from this preview until approved text is supplied.
+- The cover is sourced from `sunilabrahammedia/amaa/edrl-ii-v0.2.jpg` at build time. The book sequence is cover, title-only half-title, full title page (title, author and centred imprint; no subtitle), publication details, contents and nine essays. The fixed-layout PDF includes a blank verso after the half-title; the reflowable EPUB does not force an artificial blank page. The foreword by Y. T. Vinayaraj is included from the shared source file `foreword.md`, preserving the received wording, poem and two references. The Editor's Note remains draft material.
 - Editor: Tito Dutta. Project website: https://sunilabraham.in. Planned publication date: 29 November 2026.
 - The e-book ISBN is 978-93-345-1180-2. The paperback ISBN must not be used for the EPUB.
 - The front matter is a preview, not a final rights/copyright page. Do not publish the preview as a final edition.
@@ -15,7 +15,8 @@ This directory contains a direct-to-main production workflow for the EDRL II edi
 ## Files
 
 - `manifest.yml`: ordered essay selection, source paths and original publication details.
-- `front-matter.md`: cover insertion for PDF, half-title, full title page, publication details and linked contents.
+- `front-matter.md`: cover insertion, half-title, full title page, publication details, foreword, Editor's Note and linked contents.
+- `foreword.md`: the received foreword text, shared by the e-book and paperback print builders.
 - `metadata.yml`: EPUB/PDF bibliographic metadata.
 - `epub.css`: reflowable EPUB styling and front-matter composition rules.
 - `build.py`: extraction, manuscript assembly, note-integrity checks and export validation.
