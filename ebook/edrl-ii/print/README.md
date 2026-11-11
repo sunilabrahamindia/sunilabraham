@@ -18,9 +18,9 @@ The front-cover artwork is fetched from the dedicated TSAP media repository at b
 - Mirrored inside/outside margins: 18 mm inside, 14 mm outside, 18 mm top and 17 mm bottom. These are provisional until the printer confirms the binding allowance.
 - Linux Libertine O, 10.5 pt body text, justified, with first-line paragraph indentation.
 - Restrained running head and centred folios.
-- Separate half-title, blank verso, title page, publication information, front-matter placeholders and contents.
+- Separate half-title, blank verso, title page, publication information, foreword, Editor's Note and contents. Preliminary pages beginning with the foreword use Roman-numeral folios; the essays restart at Arabic page 1.
 - Essays begin on new pages.
-- Native Typst footnotes generated from the source pages' HTML footnote references and note lists.
+- Native Typst footnotes generated from the essay sources and the two references in the foreword. The foreword poem is centred and retains its line breaks.
 - Website navigation and active web links are not part of the print edition; the visible wording is retained.
 - The 1979 essay remains an explicit transcription-pending placeholder. The 1985 essay also remains a placeholder until its complete text is available.
 
