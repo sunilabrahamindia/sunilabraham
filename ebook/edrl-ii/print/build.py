@@ -433,7 +433,7 @@ def md_to_typst(markdown, stem):
         # Pandoc's Typst writer separates paragraphs with blank lines.
         # Add explicit vertical space at those boundaries; par.spacing alone
         # was not preventing adjacent paragraphs from colliding in the PDF.
-        content = re.sub(r"\n[ \\t]*\n+", "\\n\\n#v(10pt)\\n\\n", content)
+        content = re.sub(r"\n[ \\t]*\n+", "\n\n#v(10pt)\n\n", content)
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
             raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
         raw_markers = re.findall(r"\[\^(\d+)\](?!:)", content)
