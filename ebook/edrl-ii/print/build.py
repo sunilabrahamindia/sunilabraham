@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Build the EDRL II print interior and cover review PDFs with Typst."""
 from pathlib import Path
+import os
 import re
 import shutil
 import subprocess
+import time
 import urllib.request
 import yaml
 from bs4 import BeautifulSoup, NavigableString
@@ -20,24 +22,38 @@ AUTHOR_PHOTO = OUT / "author-portrait.png"
 COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg"
 COVER = OUT / "edrl-ii-cover.jpg"
 
+BODY_PAR = "#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 16pt)"
+
+
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
 
+
+def download(url, dest, label, validator):
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            request = urllib.request.Request(url, headers={"User-Agent": "EDRL-II-print-build"})
+            with urllib.request.urlopen(request, timeout=30) as response:
+                data = response.read()
+            if len(data) < 10000 or not validator(data):
+                raise ValueError(f"{label} failed validation")
+            dest.write_bytes(data)
+            return
+        except Exception as error:
+            last_error = error
+            time.sleep(2 * attempt)
+    raise SystemExit(f"{label} download failed after 3 attempts: {last_error}")
+
+
 def fetch_author_photo():
-    request = urllib.request.Request(AUTHOR_PHOTO_URL, headers={"User-Agent": "EDRL-II-print-build"})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        data = response.read()
-    if len(data) < 10000 or not data.startswith(bytes.fromhex("89504e470d0a1a0a")):
-        raise SystemExit("Author photograph download failed validation; expected a PNG image.")
-    AUTHOR_PHOTO.write_bytes(data)
+    download(AUTHOR_PHOTO_URL, AUTHOR_PHOTO, "Author photograph",
+             lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
+
 
 def fetch_cover():
-    request = urllib.request.Request(COVER_URL, headers={"User-Agent": "EDRL-II-print-build"})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        data = response.read()
-    if len(data) < 10000 or not data.startswith(b"\xff\xd8\xff"):
-        raise SystemExit("Cover download failed validation; expected a JPEG image.")
-    COVER.write_bytes(data)
+    download(COVER_URL, COVER, "Cover", lambda d: d.startswith(b"\xff\xd8\xff"))
+
 
 def inline_markdown(node):
     """Preserve emphasis in HTML-authored footnote text."""
@@ -133,6 +149,7 @@ def footnote_markdown(item):
     """Extract a source note without flattening paragraphs or nested lists."""
     return note_blocks(item)
 
+
 def typst_escape(value):
     """Escape plain source text for safe insertion into Typst content blocks."""
     return (
@@ -171,9 +188,6 @@ def html_table_to_typst(table):
         0,
     )
     header = rows[header_index][1]
-    # Use concise, reader-facing labels in the print edition. The full wording
-    # remains unchanged in the source article; these labels preserve its meaning
-    # while preventing dense multi-line headings at A5 size.
     header_labels = {
         "Number of families": "Families",
         "Number of families with land": "Families with land",
@@ -204,7 +218,6 @@ def html_table_to_typst(table):
         for row in data_rows
     ]
 
-    # Give descriptive row labels more room and keep numerical columns compact.
     if width == 6:
         ratios = [2.1] + [0.85] * 5
         font_size = "8pt"
@@ -284,7 +297,6 @@ def extract_footnotes_and_clean(markdown):
         raw_tables[token] = converted
         table.replace_with(NavigableString(token))
 
-
     for marker in soup.select('sup[id^="ref-"]'):
         target = marker.find("a", href=re.compile(r"^#note-"))
         if target:
@@ -319,9 +331,6 @@ def extract_footnotes_and_clean(markdown):
     cleaned = re.sub(r"\n[ \t]*\n(?:[ \t]*\n)+", "\n\n", cleaned)
     cleaned = cleaned.strip()
     if notes:
-        # These source headings introduce endnote lists that are converted above
-        # into page-bottom footnotes. Remove the now-redundant heading only
-        # when note entries were successfully extracted.
         cleaned = re.sub(
             r"(?mi)^[ \t]*#{1,6}[ \t]+Notes(?:[ \t]+\{#notes\})?[ \t]*\n?",
             "",
@@ -337,9 +346,9 @@ def extract_footnotes_and_clean(markdown):
         )
     return cleaned
 
+
 def clean_source(path):
     raw = path.read_text(encoding="utf-8")
-    # Preserve explicitly marked poem blocks through HTML cleanup.
     raw = re.sub(
         r'<div class="poem"[^>]*>(.*?)</div>',
         lambda match: "\n\n@@POEM_START@@\n" + match.group(1).strip("\n") + "\n@@POEM_END@@\n\n",
@@ -350,8 +359,6 @@ def clean_source(path):
     raw = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", raw)
     raw = re.sub(r"<!--.*?-->", "", raw, flags=re.S)
 
-    # Capture source footnotes before trimming publication metadata. In several
-    # essays the Notes list appears after the Publication section.
     source_soup = BeautifulSoup(raw, "html.parser")
     source_note_items = [
         deepcopy(item) for item in source_soup.select('li[id^="note-"]')
@@ -378,7 +385,6 @@ def clean_source(path):
     body = re.sub(r"(?m)^\s*>\s?", "", body)
     body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
 
-    # Replace any partial in-body note list with the complete list captured above.
     body_soup = BeautifulSoup(body, "html.parser")
     for item in body_soup.select('li[id^="note-"]'):
         item.decompose()
@@ -407,11 +413,8 @@ def clean_source(path):
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
     return extract_footnotes_and_clean(body)
 
+
 def md_to_typst(markdown, stem):
-    # Footnote definitions normally sit at the end of the complete essay.
-    # Poems are converted in separate Typst blocks, so each conversion segment
-    # must receive the definitions as well; otherwise references in earlier
-    # segments are emitted as literal [^N] text by Pandoc.
     definition_pattern = re.compile(
         r"(?ms)^\[\^([^\]]+)\]:[ \t]*(.*?)(?=^\[\^[^\]]+\]:|\Z)"
     )
@@ -430,6 +433,8 @@ def md_to_typst(markdown, stem):
         md.write_text(segment, encoding="utf-8")
         run(["pandoc", str(md), "--from=markdown+smart+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
+        # Paragraph separation is controlled only by the Typst par rules in
+        # the template. Never inject spacing into the converted content.
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
             raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
         raw_markers = re.findall(r"\[\^(\d+)\](?!:)", content)
@@ -441,7 +446,6 @@ def md_to_typst(markdown, stem):
             )
         return content
 
-    # Convert prose normally, but centre explicitly marked poems without prose indentation.
     parts = []
     cursor = 0
     pattern = re.compile(r"@@POEM_START@@(.*?)@@POEM_END@@", re.S)
@@ -463,6 +467,47 @@ def md_to_typst(markdown, stem):
         return convert(markdown_without_definitions, "main")
     return "\n\n".join(parts)
 
+
+def lint_typst(source):
+    """Fail if a document-level par rule other than the two approved ones exists."""
+    top_level = [
+        (number, line) for number, line in enumerate(source.splitlines(), start=1)
+        if line.startswith("#set par(")
+    ]
+    if len(top_level) != 2:
+        details = "; ".join(f"line {n}: {l}" for n, l in top_level)
+        raise SystemExit(
+            "Unscoped #set par rules found (expected exactly 2: template and body restore). "
+            + details
+        )
+
+
+def check_pdf_overlaps(pdf):
+    """Flag lines that share horizontal space but sit closer than 0.8 of a line height."""
+    result = subprocess.run(
+        ["pdftotext", "-bbox-layout", str(pdf), "-"],
+        capture_output=True, text=True, check=True,
+    )
+    issues = []
+    line_re = re.compile(r'<line xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="([\d.]+)"')
+    for page_number, page in enumerate(result.stdout.split("<page ")[1:], start=1):
+        lines = [tuple(float(v) for v in m.groups()) for m in line_re.finditer(page)]
+        for i, a in enumerate(lines):
+            for b in lines[i + 1:]:
+                horizontal = min(a[2], b[2]) - max(a[0], b[0])
+                height = min(a[3] - a[1], b[3] - b[1])
+                if horizontal > 1 and height > 0 and abs(a[1] - b[1]) < 0.8 * height:
+                    issues.append(f"page {page_number}: y={a[1]:.1f} and y={b[1]:.1f}")
+    if issues:
+        message = f"{len(issues)} possible line collisions: " + "; ".join(issues[:20])
+        if os.environ.get("EDRL_OVERLAP_CHECK", "fail") == "warn":
+            print("WARNING: " + message)
+        else:
+            raise SystemExit(message)
+    else:
+        print("Overlap check passed: no colliding lines detected.")
+
+
 manifest = yaml.safe_load((BASE / "manifest.yml").read_text(encoding="utf-8"))
 essays = sorted(manifest["essays"], key=lambda item: item["order"])
 if len(essays) != 9:
@@ -477,8 +522,7 @@ common = r"""
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en")
-#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 16pt)
-#set block(spacing: 0.55em)
+""" + BODY_PAR + r"""
 #set heading(numbering: none)
 #set footnote.entry(
   separator: line(length: 30%, stroke: 0.5pt + luma(90)),
@@ -591,10 +635,10 @@ parts.append(r"""
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
-#set par(justify: false, first-line-indent: 0pt, spacing: 0pt, leading: 0.9em)
 #v(22mm)
 #align(left)[
   #block(width: 100%)[
+    #set par(justify: false, first-line-indent: 0pt, spacing: 0pt, leading: 0.9em)
     #v(8mm)
     #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
     #v(2mm)
@@ -664,6 +708,7 @@ parts.append(r"""
   ],
 )
 #counter(page).update(1)
+""" + BODY_PAR + r"""
 = Foreword
 @@FOREWORD_BODY@@
 #pagebreak()
@@ -757,15 +802,17 @@ if len(parts) < 2 or "@@FOREWORD_BODY@@" not in parts[1]:
     raise SystemExit("Foreword insertion point missing from print template.")
 parts[1] = parts[1].replace("@@FOREWORD_BODY@@", foreword_typst)
 
+interior_text = "\n".join(parts)
+lint_typst(interior_text)
 interior_source = OUT / "edrl-ii-interior.typ"
-interior_source.write_text("\n".join(parts), encoding="utf-8")
+interior_source.write_text(interior_text, encoding="utf-8")
 typst = shutil.which("typst")
 if not typst:
     raise SystemExit("Typst CLI is not installed.")
 interior = OUT / "edrl-ii-interior.pdf"
 run([typst, "compile", "--font-path", "/usr/share/fonts/truetype", str(interior_source), str(interior)])
+check_pdf_overlaps(interior)
 
-# The front-cover proof is separate from the interior, as required for book printing.
 cover_source = OUT / "edrl-ii-front-cover.typ"
 cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, fill: rgb("f5ead8"))
 #image("edrl-ii-cover.jpg", width: 148mm, height: 210mm, fit: "contain")
@@ -773,7 +820,6 @@ cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, 
 cover_pdf = OUT / "edrl-ii-front-cover-proof.pdf"
 run([typst, "compile", str(cover_source), str(cover_pdf)])
 
-# Convenience reading copy: cover proof followed by the interior. This is NOT the printer's interior file.
 run(["pdfunite", str(cover_pdf), str(interior), str(OUT / "edrl-ii-combined-review.pdf")])
 for path in (interior, cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
     if not path.is_file() or path.stat().st_size < 10000:
