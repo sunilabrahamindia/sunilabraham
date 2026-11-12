@@ -897,21 +897,21 @@ The present volume brings together nine essays that were not included in the ear
 
 The essays reflect A. M. Abraham Ayrookuzhiel's sustained engagement with Dalit experience, religion, theology and liberation. Bringing them together is part of the continuing effort to preserve his intellectual contribution and make it accessible to readers, researchers and future generations.
 
-The work of collecting and documenting his writings remains ongoing. Further essays and related materials may be identified as the archival work proceeds. Any errors or inaccuracies brought to the editors' attention will be examined and, where necessary, addressed in a subsequent edition.
+The work of collecting and documenting his writings remains ongoing. Further essays and related materials may be identified as the archival work proceeds. Any errors or inaccuracies brought to my attention will be examined and, where necessary, addressed in a subsequent edition.
 
 === Acknowledgement
 
 We would like to express our sincere gratitude to everyone who generously shared their valuable inputs and extended their kind cooperation during the production of this book. The names mentioned below represent only a few among the many people whose contributions and support we gratefully acknowledge.
 
-Our special thanks go to Dr. Y. T. Vinayaraj, Director of the Christian Institute for the Study of Religion and Society (CISRS), and the staff of the Institute for their cooperation, valuable inputs and advice. We are particularly thankful to Dr. Vinayaraj for graciously contributing the Foreword to this volume.
+We are grateful to Dr. Y. T. Vinayaraj, Director of the Christian Institute for the Study of Religion and Society (CISRS), and the staff of the Institute for their cooperation, advice and valuable contributions. Dr. Vinayaraj also deserves particular thanks for graciously contributing the Foreword to this volume.
 
 We also thank the Principal, faculty members and Mr. Prabu P., Librarian, of the United Theological College, Bengaluru, for their cooperation and support.
 
-We are grateful to Pranesh Prakash, a distinguished researcher and our former colleague, for his valuable suggestions and practical guidance throughout the production of this book.
+We are grateful to Pranesh Prakash, a distinguished researcher and former colleague, for his valuable suggestions and practical guidance throughout the production of this book.
 
 Our heartfelt thanks go to M. Kunhikrishnan, Vice President of the Swami Anandatirtha Trust, for his enthusiasm, valuable inputs and active participation in the production of this book.
 
-We wish to acknowledge Sangram Kesari Senapati for his initial guidance during our efforts to register for an ISBN with the Raja Rammohun Roy National Agency for ISBN (RRRNA).
+We wish to acknowledge Sangram Kesari Senapati for his initial guidance during the ISBN registration process with the Raja Rammohun Roy National Agency for ISBN (RRRNA).
 
 I take this opportunity to express my personal gratitude to the family of A. M. Abraham Ayrookuzhiel for giving me the opportunity to be a part of this initiative. I am deeply grateful for their trust, cooperation and support throughout the preparation of this book. My sincere thanks to Mrs Ponnamma Abraham, Sunil Abraham, Matthew Abraham, Jacob Abraham and their family.
 
