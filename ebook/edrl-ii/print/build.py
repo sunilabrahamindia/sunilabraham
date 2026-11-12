@@ -550,6 +550,7 @@ common = r"""
     align: top,
     [#text(size: 9.5pt)[#number.]],
     [
+      #set text(size: 8.5pt, number-type: "lining")
       #set par(
         justify: false,
         first-line-indent: 0pt,
