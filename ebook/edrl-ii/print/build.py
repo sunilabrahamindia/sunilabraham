@@ -427,7 +427,7 @@ def clean_source(path):
     heading_tokens = {}
     def protect_heading(match):
         # Notes are rendered as page footnotes, so suppress the source section heading.
-        if re.match(r"^#{1,6}[ \\t]+Notes(?:[ \\t]+\\{#notes\\})?[ \\t]*$", match.group(0), re.I):
+        if re.match(r"^#{1,6}\s+Notes(?:\s+\{#notes\})?\s*$", match.group(0), re.I):
             return ""
         token = f"TSAP_MARKDOWN_HEADING_{len(heading_tokens)}_PRESERVE"
         heading_tokens[token] = match.group(0)
