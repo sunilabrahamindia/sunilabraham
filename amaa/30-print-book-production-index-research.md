@@ -310,6 +310,195 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 **Duplicate handling:** The following subjects recur from earlier essays and should not be added again as new headings: *Sakti*, concept of God, karma, rebirth, evil spirits, superstition, secularism, religious reinterpretation, Hindu-Christian dialogue and social equality. The more specific entries above should be retained only where they identify a distinct discussion rather than merely restating an existing heading.
 
+### Essay 4 — The Church and the Study of Religion
+
+**Source scope:** The essay text under "Full text" only. The website's introductory description and publication metadata are excluded.
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 4 human-name candidates" tabindex="0">
+
+| Suggested index heading | Context in the essay | Include? |
+|---|---|---|
+| Chatterji, Saral K. | Cited for a theology of the people and for the role of folk religion as an expression of oppressed people's aspirations | ☐ |
+| Girardi, Giulio | Cited on religion as a human historical reality shaped by psychological and sociological forces | ☐ |
+| Uniyal, Lalit | Cited as the source quoting Giulio Girardi | ☐ |
+
+</div>
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 4 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| Theology of the people | Indian theology as service to people's struggle for human wholeness | ☐ |
+| Study of religion from the perspective of the poor | The paper's central methodological proposal | ☐ |
+| Structural analysis of religion | Social, economic and political structures mediating religious experience | ☐ |
+| Teyyam worship | North Malabar ritual tradition associated with untouchable and out-caste communities | ☐ |
+| Pottan Teyyam | Teyyam form whose chants openly condemn caste oppression | ☐ |
+| Teyyam priesthood and feudal authority | Permission, recognition and ritual purification practices that subordinate Teyyam performers | ☐ |
+| Caste-class power structures | The social structures through which religious institutions and practices acquire power | ☐ |
+| Religious institutions and social power | Temples, churches, festivals, mutts and ashrams as instruments of social control | ☐ |
+| Caste-based places of worship | Separate shrines and gods as markers of caste identity and exclusion | ☐ |
+| Religious consciousness of the people | Empirical study of how people understand religious concepts and practices | ☐ |
+| Hindu concepts in contemporary life | Present-day understandings of dharma, karma, varnashrama, God, papam and punyam | ☐ |
+| Scriptural and textual approaches to Hinduism | Limits of relying on texts to understand the place of the poor in Hindu tradition | ☐ |
+| Folk religion, legends and myths | Popular traditions as expressions of deprivation, protest and aspiration | ☐ |
+| Religious traditions of oppressed communities | Traditions of untouchable and tribal communities as sources for understanding resistance | ☐ |
+| Hindu canon and new symbols | The argument that new literary and artistic symbols can enter the Hindu spiritual tradition | ☐ |
+| Sacred-profane distinction | Rejection of a division between sacred and profane in the study of religion | ☐ |
+| Religion and human liberation | Religious resources and traditions in struggles for dignity and equality | ☐ |
+| Empirical study of religious consciousness | The need to study lived practices rather than relying only on theological or textual accounts | ☐ |
+
+</div>
+
+**Duplicate handling:** General entries already proposed in Essays 1–3, including caste hierarchy, religious meaning, Hindu religious practices, social equality and religion's relation to social power, are not repeated. The specific Teyyam, folk-religion and methodological entries above are distinct candidates.
+
+### Essay 5 — Religions and the Aspirations of the People
+
+**Source scope:** The essay text under "Full text" only. The website's introductory description and publication metadata are excluded.
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 5 human-name candidates" tabindex="0">
+
+| Suggested index heading | Context in the essay | Include? |
+|---|---|---|
+| Anandathirtha, Swami | Initiated and blessed the Dalit protest pilgrimage to Guruvayur | ☐ |
+| Appachan, Poykayil | Dalit leader associated with the religious movement for freedom and economic justice in Kerala | ☐ |
+| Ayyankali | Dalit leader associated with the movement for freedom and economic justice | ☐ |
+| Ayyaswami | Dalit leader associated with the religious movement in Kerala | ☐ |
+| Christ, Jesus | Presented as the supreme example of commitment to the poor without seeking power | ☐ |
+| Damodaran, K. | Cited in relation to the history of Indian religious thought and social movements | ☐ |
+| Karunakaran, K. | Kerala Chief Minister whose statement defended the Guruvayur temple's ritual traditions | ☐ |
+| Karuppan, K. P. | Dalit leader associated with the religious movement for freedom and economic justice | ☐ |
+| Khomeini, Ayatollah | Example of a religious revolution attached to the pursuit of power | ☐ |
+| Namboodiripad, E. M. S. | Chief Minister whose government was opposed by a coalition including religious leadership in 1959 | ☐ |
+| Narayana Guru | Religious reformer whose movement challenged upper-caste authority; associated with the idea of Izhava Siva | ☐ |
+| Ramdas | Cited in connection with the liberation movement in Maharashtra under Shivaji | ☐ |
+| Sankara, Adi | Traditionally associated with the Guruvayur Brahmin-feeding custom | ☐ |
+| Shivaji | Associated with the liberation movement in Maharashtra | ☐ |
+| Subhananda Swamy | Dalit leader associated with the religious movement in Kerala | ☐ |
+| Tukaram | Cited in connection with the liberation movement in Maharashtra | ☐ |
+| Vandana, Sister | Author of *Social Justice and Ashrams*, cited on contemplation and commitment to the poor |
+
+</div>
+
+**Name notes:** Gandhi is not repeated as a new candidate because he was proposed in Essay 1; this essay's use of "Gandhiji" should be recorded as a variant under Gandhi, Mohandas Karamchand. The text names Kabirpanthis as a movement, not Kabir directly, so no separate personal entry is proposed on that basis. "Channer Lahala" is an event/movement, not a person's name.
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 5 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| Religion and people's aspirations | The central question of whose aspirations religious institutions and movements serve | ☐ |
+| Bi-polar nature of religion | Religious forces aligning with conflicting social interests | ☐ |
+| Ideologisation of religion | Religion serving the power interests of a particular social section | ☐ |
+| Religion and the status quo | Established religious institutions supporting dominant social arrangements | ☐ |
+| Religious power and social power | The relationship between religious authority and power among social groups | ☐ |
+| Brahmin feeding at Guruvayur | Temple custom challenged by Dalits seeking equal ritual and social status | ☐ |
+| Guruvayur pilgrimage protest, 1983 | Dalit march against caste discrimination in temple feeding | ☐ |
+| Izhava Siva and Brahmin Siva | Narayana Guru's distinction expressing the competing social meanings of religious authority | ☐ |
+| Dalit religious movements in Kerala | Religious movements seeking freedom and economic justice | ☐ |
+| Channar Lahala | Nadar struggle in nineteenth-century South Travancore | ☐ |
+| Religious movements and anti-feudal struggle | Religious movements aligned with the aspirations of oppressed people | ☐ |
+| Bhakti movement in Punjab | Cited as an example of religious movements associated with popular struggle | ☐ |
+| Sikhism and anti-feudal struggle | Sikhism's origin discussed as an ideology of anti-feudal struggle | ☐ |
+| Kabirpanthis | Cited among religious movements associated with resistance | ☐ |
+| Wahabi movement | Cited among movements aligned with popular aspirations | ☐ |
+| Farazi movement | Cited among movements aligned with popular aspirations | ☐ |
+| Religious institutions and dominant interests | How established institutions reproduce the power of dominant groups | ☐ |
+| Religious consciousness and social conservatism | The tendency of established religious consciousness to support the status quo | ☐ |
+| Religious myths and symbols in social commitment | Cultural sources of commitment among people working for social change | ☐ |
+| Religious pluralism and social power | The problem of power relations among religions in a plural society | ☐ |
+| Liberation theology and vested interests | The risk of genuine liberation initiatives being appropriated by religious power interests | ☐ |
+| Contemplation and social action | Contemplation as a source of self-criticism and sustained commitment to the poor | ☐ |
+| Commitment to the poor without power | The distinction between a struggle for the poor and the pursuit of power for oneself or one's group | ☐ |
+| Religious leadership and political power | Religious leaders' alignment with political and economic interests | ☐ |
+| Religious vision and human dignity | Religion as a source of courage to struggle for others and uphold human dignity | ☐ |
+
+</div>
+
+**Duplicate handling:** The broad subjects of caste discrimination, social equality, Dalit liberation, Hindu religious practices and Hindu-Christian dialogue have appeared earlier and are not repeated. The entries here identify this essay's distinct argument about religion's bi-polar character, ideologisation and the separation of commitment to the poor from the pursuit of power.
+
+### Essay 6 — Religion: A Way of Salvation or an Ideology of Oppression? The Power Dimensions of Hindu Village Religion — An Empirical Study
+
+**Source scope:** The full-text transcription in the file ending `religion-way-salvation-ideology-oppression-full-text.md`. The site's separate introductory description is excluded. The essay's own opening section, "Introduction", is part of the original text and has been considered.
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 6 human-name candidates" tabindex="0">
+
+| Suggested index heading | Context in the essay | Include? |
+|---|---|---|
+| Ambedkar, B. R. | Referenced through the Ambedkar Yuva Rytha Kulikara Sangha | ☐ |
+| Damodaran, K. | Cited on Hinduism's historical relationship with feudal social structures | ☐ |
+| Ellappa, Chikka | Holeya who acted as priest during a village Ganesha festival | ☐ |
+| Gopal, M. | Holeya student who urged his community to use the public borewell | ☐ |
+| Muninanjappa Reddy, S. A. | Congress leader who reported the attack on Holeyas to district authorities | ☐ |
+| Omvedt, Gail | Cited on the social and geographical biases of Sanskritic and non-Sanskritic traditions | ☐ |
+| Rathi | Holeya girl assaulted for drawing water from a public borewell | ☐ |
+| Srinivas, M. N. | Cited for the concept of Sanskritization | ☐ |
+| Venkatappa Reddy, G. | Reddy who assaulted Rathi and opposed Holeyas using the public borewell | ☐ |
+| Venkataramanappa | Head priest of the Sapplamma temple at Tornahally, whose account of the goddess's origin is reported | ☐ |
+| Anniah Reddy, M. | Janata Party village leader and Panchayat Chairman involved in the dispute over the borewell | ☐ |
+| Chikkamuniyappa | Rathi's father, who confronted Venkatappa Reddy after the assault | ☐ |
+| Narayana Reddy | Janata Party youth leader who supported the Holeyas' Ganesha festival | ☐ |
+
+</div>
+
+**Name notes:** These entries follow the forms used in the essay. Initials and abbreviated names are not expanded without evidence from the text. The reference to Ambedkar occurs through the name of an organisation; retain the personal entry only if your indexing policy includes people named indirectly through organisations.
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 6 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| Empirical study of Hindu village religion | The essay's field-based investigation of village religious life and caste power | ☐ |
+| Power dimensions of religion | The relationship between religious institutions, ritual practices and material power | ☐ |
+| Economic profile of villages | Land, agricultural wealth, loans, employment and education across caste groups | ☐ |
+| Landholding and caste power | Concentration of land and agricultural resources among dominant caste groups | ☐ |
+| Spatial segregation by caste | Separate residential areas for Holeyas, Madigas and caste Hindu groups | ☐ |
+| Devasthanams | Caste Hindu temples as institutions reflecting social power and exclusion | ☐ |
+| Gudis | Shrines associated particularly with Holeya and Madiga communities | ☐ |
+| Rache (snake shrines) | Village snake shrines and their ritual control | ☐ |
+| Temple property and priesthood | The relationship between temple wealth, priestly status and caste | ☐ |
+| Autochthonous religion | Local and indigenous religious forms and practices | ☐ |
+| Brahminical religion | Ritual systems and institutions associated with Brahminical authority | ☐ |
+| Great Tradition and Little Tradition | The relationship between Sanskritic and autochthonous village religious traditions | ☐ |
+| Village festivals and caste hierarchy | The reproduction of caste order through festival roles, processions and offerings | ☐ |
+| Makara Sankranti | Village festival involving cattle, Katam Raju and the Thoti's ritual role | ☐ |
+| Agate Male Ungalu (Hasta Malai) | Agricultural festival involving village boundaries, crops and sacrifice | ☐ |
+| Gangamma festival | Tank-related village festival involving buffalo sacrifice and caste-defined roles | ☐ |
+| Sapplamma festival | Mother-goddess festival, priesthood and caste-based participation | ☐ |
+| Karaga | Pilgrimage and *Anna Chatra* feeding described as an egalitarian practice | ☐ |
+| Ramanavami | Festival participation and exclusion of Holeyas and Madigas | ☐ |
+| Naga Panchami | Snake worship and exclusion from the village *Rache* | ☐ |
+| Dasara | Festival practices that exclude Holeyas and Madigas from ritual participation | ☐ |
+| Deepavali | Household offerings and purification practices that exclude Holeyas and Madigas | ☐ |
+| Basava Jayanti | Festival of Basava and the unequal participation of Holeyas | ☐ |
+| Rites of passage | Birth, naming, hair-cutting, marriage and death rituals across caste groups | ☐ |
+| Birth and naming rituals | Caste differences in naming children and consulting astrologers | ☐ |
+| Mudi (first hair-cutting) | Family-god worship and first hair-cutting practices | ☐ |
+| Marriage rituals and caste | Priestly authority, marriage meals and caste-based exclusion | ☐ |
+| Death and funeral rites | Burial, funeral service and post-death rituals across communities | ☐ |
+| Thoti | The village role and ritual responsibilities assigned to the Holeya representative | ☐ |
+| Dasaiah | An autochthonous ritual specialist who performs post-death rites across caste boundaries | ☐ |
+| Caste and access to water | Conflict over Holeya use of a public borewell | ☐ |
+| Religious festivals and party politics | Ganesha and Sri Ram Navami festivals organised along political lines | ☐ |
+| Sanskritization | Social and religious change discussed through the concept associated with M. N. Srinivas | ☐ |
+| Ritual hierarchy and pollution | Purification, food restrictions, offerings and differential ritual participation | ☐ |
+| Animal sacrifice | Sacrificial practices in village festivals and local worship | ☐ |
+| Village religion and landlord power | Religious practices as cultural expressions of dominant landholding groups' power | ☐ |
+| Religious traditions and Dalit resistance | Holeya and Madiga participation, protest and independent festival practices | ☐ |
+
+</div>
+
+**Duplicate handling:** General headings such as caste hierarchy, untouchability, temple exclusion, pilgrimage, religious practices and religion as an instrument of social power have already appeared in earlier essays. The candidates above are more specific to this empirical study: named village institutions, local festivals, ritual specialists, rites of passage, landholding patterns and the relationship between village religion and landlord power. Keep these only if they offer useful access beyond the broader headings already proposed.
+
 ## 9. Completion criteria
 
 The exercise will be considered complete when the frequency results have been generated, the candidate terms have been manually reviewed, and the selected entries have been checked against the essays.
