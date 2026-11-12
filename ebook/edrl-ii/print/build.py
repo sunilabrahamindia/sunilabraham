@@ -541,6 +541,26 @@ common = r"""
   clearance: 0.6em,
   gap: 0.35em,
 )
+#show footnote.entry: it => context {
+  let values = counter(footnote).at(it.note.location())
+  let number = numbering(it.note.numbering, ..values)
+  grid(
+    columns: (1.25em, 1fr),
+    gutter: 0.25em,
+    align: top,
+    [#number],
+    [
+      #set par(
+        justify: false,
+        first-line-indent: 0pt,
+        hanging-indent: 0pt,
+        leading: 1em,
+        spacing: 0pt,
+      )
+      #it.note.body
+    ],
+  )
+}
 #let running-header = context {
   let current-page = here().page()
   let chapters = query(heading.where(level: 1)).filter(
