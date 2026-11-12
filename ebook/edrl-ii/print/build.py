@@ -605,10 +605,10 @@ common = r"""
     #align(center)[#counter(page).display("1")]
   ],
 )
-#show heading.where(level: 1): it => block(above: 0pt, below: 10pt, breakable: false)[
+#show heading.where(level: 1): it => block(above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 19pt, weight: "bold", hyphenate: false)
   #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
-  #align(center)[#it]
+  #align(left)[#it]
 ]
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
@@ -865,15 +865,12 @@ for essay in essays:
 """)
         parts.append("#counter(page).update(1)\n")
     parts.append("#counter(footnote).update(0)\n")
-    parts.append("#v(24mm)\n")
     parts.append(f"= {title}\n")
-    parts.append(f"""#v(9pt)
-#align(center)[
-  #text(size: 8pt, weight: "bold", tracking: 1.2pt, fill: luma(90))[ORIGINAL PUBLICATION]
-  #v(4pt)
-  #text(size: 9pt, style: "italic", fill: luma(75))[{essay['publication_note']}]
-]
-#v(22pt)
+    parts.append(f"""#v(2pt)
+#text(size: 9.5pt, style: "italic", fill: luma(65))[{essay['publication_note']}]
+#v(9pt)
+#line(length: 100%, stroke: 0.55pt + luma(175))
+#v(15pt)
 """)
     if "under-construction.html" in raw:
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
