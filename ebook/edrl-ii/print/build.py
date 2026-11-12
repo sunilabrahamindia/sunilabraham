@@ -868,11 +868,10 @@ for essay in essays:
     parts.append(f"= {title}\n")
     parts.append(f"""#block[
   #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)
-  #v(4pt)
+  #v(9pt)
   #line(length: 100%, stroke: 0.55pt + luma(175))
   #v(4pt)
-  #text(size: 7.5pt, weight: "bold", tracking: 1.1pt, fill: luma(85))[ORIGINAL PUBLICATION]
-  #v(2pt)
+  #text(size: 7.5pt, weight: "bold", tracking: 0.65pt, fill: luma(85))[ORIGINAL PUBLICATION: ]
   #text(size: 9.5pt, style: "italic", fill: luma(65))[{essay['publication_note']}]
   #v(5pt)
   #line(length: 100%, stroke: 0.55pt + luma(175))
