@@ -19,6 +19,8 @@ OUT = PRINT / "output"
 OUT.mkdir(parents=True, exist_ok=True)
 AUTHOR_PHOTO_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
 AUTHOR_PHOTO = OUT / "author-portrait.png"
+SIGNATURE_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/tito-dutta-signature-edrl-ii.png"
+SIGNATURE = OUT / "editor-signature.png"
 COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg"
 COVER = OUT / "edrl-ii-cover.jpg"
 
@@ -45,6 +47,10 @@ def download(url, dest, label, validator):
 
 def fetch_author_photo():
     download(AUTHOR_PHOTO_URL, AUTHOR_PHOTO, "Author photograph",
+             lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
+
+def fetch_signature():
+    download(SIGNATURE_URL, SIGNATURE, "Editor signature",
              lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
 
 def fetch_cover():
@@ -594,6 +600,7 @@ if len(essays) != 9:
 
 fetch_cover()
 fetch_author_photo()
+fetch_signature()
 common = r"""
 #set document(
   title: "Essays on Dalits, Religion and Liberation II",
@@ -920,6 +927,8 @@ I personally take this opportunity to express my gratitude to the family of A. M
 #v(10pt)
 #align(right)[
   #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
+  #image("editor-signature.png", width: 34mm, fit: "contain")
+  #linebreak()
   #text(size: 11pt, weight: "bold")[Tito Dutta]
   #linebreak()
   #text(size: 9.5pt)[Editor]
