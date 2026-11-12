@@ -261,7 +261,7 @@ def html_table_to_typst(table):
         "  stroke: (x, y) => (\n"
         "    bottom: if y == 0 { 0.8pt + luma(90) } else { 0.35pt + luma(175) },\n"
         "  ),\n"
-        "  fill: (_, y) => if y == 0 { luma(94) },\n"
+        "  fill: (_, y) => if y == 0 { luma(235) },\n"
         "  table.header(\n"
         f"    {header_cells},\n"
         "  ),\n"
