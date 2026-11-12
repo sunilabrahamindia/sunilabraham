@@ -450,10 +450,27 @@ def clean_source(path):
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
     cleaned = extract_footnotes_and_clean(body)
     for token, heading in heading_tokens.items():
-        # BeautifulSoup wraps standalone Markdown headings in paragraph tags.
-        # Remove the wrapper before restoring the Markdown heading.
-        cleaned = cleaned.replace("<p>" + token + "</p>", "\n\n" + heading + "\n\n")
-        cleaned = cleaned.replace(token, "\n\n" + heading + "\n\n")
+        # Render Markdown headings through the same raw Typst heading path as
+        # HTML headings. This prevents Pandoc from splitting a long heading's
+        # final line into ordinary paragraph text.
+        match = re.match(
+            r"^(#{1,6})[ \\t]+(.*?)(?:[ \\t]+\\{#([A-Za-z0-9:_-]+)\\})?$",
+            heading,
+        )
+        if not match:
+            raise SystemExit(f"Could not parse preserved heading in {path.name}: {heading}")
+        level, title, label = match.groups()
+        title = typst_escape(title)
+        title = re.sub(r"\\*\\*(.+?)\\*\\*", r"*\\1*", title)
+        title = re.sub(r"(?<!\\*)\\*([^*]+)\\*(?!\\*)", r"_\\1_", title)
+        label_suffix = f" <{label}>" if label else ""
+        typst_heading = (
+            "\\n\\n```{=typst}\\n"
+            f"#heading(level: {len(level)})[{title}]{label_suffix}\\n"
+            "```\\n\\n"
+        )
+        cleaned = cleaned.replace("<p>" + token + "</p>", typst_heading)
+        cleaned = cleaned.replace(token, typst_heading)
     return cleaned
 
 def md_to_typst(markdown, stem):
