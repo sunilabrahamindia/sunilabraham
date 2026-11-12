@@ -1,68 +1,54 @@
 ---
 layout: default
 title: "Here's Why We Need a Lot More Discussion on India's New DNA Profiling Bill"
-description: "An August 2017 article by Elonnai Hickok arguing that India's proposed DNA Profiling Bill 2017, despite improvements over earlier drafts, still lacked essential safeguards for privacy, individual rights, and the responsible use of DNA databases."
+description: "An August 2017 Hindustan Times article by Elonnai Hickok examining the proposed DNA Profiling Bill 2017, its improvements over earlier drafts, and the safeguards still needed to protect individual rights and privacy."
 authors: ["Elonnai Hickok"]
-categories: [Centre for Internet and Society, Elonnai Hickok]
+categories: [Elonnai Hickok]
 date: 2017-08-07
 source: "Hindustan Times"
 permalink: /elonnai/heres-why-we-need-a-lot-more-discussion-on-indias-new-dna-profiling-bill/
 created: 2026-11-12
 ---
 
-**"Here's Why We Need a Lot More Discussion on India's New DNA Profiling Bill"** is an opinion article by [Elonnai Hickok](/elonnai/), originally published in the *Hindustan Times* on 7 August 2017. It examines the proposed Use and Regulation of DNA Based Technology Bill 2017, recognising some improvements over earlier drafts while arguing that the legislation still did not provide sufficient safeguards for individual rights, privacy, and the handling of sensitive genetic information.
-
-The article's central concern is not whether DNA technology can assist criminal investigations. It can. The question is whether the creation of regional and national DNA databases, and the powers that accompany them, are being developed alongside adequate legal protections. Hickok argues that the implications of such databases need to be understood and debated publicly before the framework is put in place.
+**"Here's Why We Need a Lot More Discussion on India's New DNA Profiling Bill"** is an article by [Elonnai Hickok](/elonnai/), published in the *Hindustan Times* on 7 August 2017. The article examines the proposed Use and Regulation of DNA Based Technology Bill 2017, recognising improvements over earlier versions while identifying the safeguards that were still missing. It argues that the implications of creating regional and national DNA databanks need to be fully understood and publicly debated.
 
 ## Contents
 
 1. [Article Details](#article-details)
-2. [The Legislative Background](#the-legislative-background)
-3. [Improvements in the 2017 Bill](#improvements-in-the-2017-bill)
-4. [Safeguards That Were Still Missing](#safeguards-that-were-still-missing)
-5. [DNA Evidence, Accuracy and Institutional Responsibility](#dna-evidence-accuracy-and-institutional-responsibility)
-6. [Privacy as a Right, Not Just a Procedure](#privacy-as-a-right-not-just-a-procedure)
-7. [Context and Background](#context-and-background)
-8. [External Links](#external-links)
+2. [Full Text](#full-text)
+3. [Context and Background](#context-and-background)
+4. [External Link](#external-link)
 
 ## Article Details
 
 <dl class="media-details">
-  <dt>Published in:</dt>
+  <dt>📰 Published by:</dt>
   <dd><em>Hindustan Times</em></dd>
 
-  <dt>Publication date:</dt>
+  <dt>📅 Date:</dt>
   <dd>7 August 2017</dd>
 
-  <dt>Author:</dt>
+  <dt>✍️ Author:</dt>
   <dd>Elonnai Hickok</dd>
 
-  <dt>Type:</dt>
-  <dd>Opinion / analysis</dd>
+  <dt>📄 Type:</dt>
+  <dd>Opinion / Analysis</dd>
 
-  <dt>Reproduced by:</dt>
-  <dd>Centre for Internet and Society (CIS)</dd>
-
-  <dt>CIS page date:</dt>
-  <dd>21 August 2017</dd>
-
-  <dt>Original article:</dt>
-  <dd><a href="https://www.hindustantimes.com/analysis/here-s-why-we-need-a-lot-more-discussion-on-india-s-new-dna-profiling-bill/story-CojTDv2vfMMMBsW0CaLxIP.html">Read the article in Hindustan Times</a></dd>
-
-  <dt>CIS copy:</dt>
-  <dd><a href="https://cis-india.org/internet-governance/blog/hindustan-times-elonnai-hickok-august-7-2017-here-is-why-we-need-a-lot-more-discussion-on-indias-new-dna-profiling-bill">Read the archived version on CIS</a></dd>
+  <dt>🔗 Original Link:</dt>
+  <dd>
+    <a href="https://www.hindustantimes.com/analysis/here-s-why-we-need-a-lot-more-discussion-on-india-s-new-dna-profiling-bill/story-CojTDv2vfMMMBsW0CaLxIP.html">Read the original article</a>
+  </dd>
 </dl>
-
 
 ## Full Text
 
 <div class="highlighted-text" id="fulltext">
 
-<p><em>The DNA Profiling Bill 2017 is still missing a number of safeguards that would enable individual rights. The implications of creating regional and national level DNA databanks need to be fully understood and publicly debated.</em></p>
+<p>The DNA Profiling Bill 2017 is still missing a number of safeguards that would enable individual rights. The implications of creating regional and national level DNA databanks need to be fully understood and publicly debated.</p>
 
 <hr class="article-separator">
 
-<p>The first step towards a DNA Profiling Bill was taken in 2007 with the "Draft DNA Profiling Bill" by the Centre for DNA Fingerprinting and Diagnostics. Since then, there has been a 2012, 2015, and a 2016 version of the Bill - the last not available to the public. In 2013, the Department of Biotechnology formulated an Expert Committee to deliberate on concerns raised about the Bill and finalise the text. The "Use and Regulation of DNA Based Technology Bill 2017" and the report by the Law Commission is a further evolution of the legislation and dialogue. The 2017 Bill contains a number of improvements from previous versions - yet there are still outstanding concerns that remain.</p>
+<p>The first step towards a DNA Profiling Bill was taken in 2007 with the 'Draft DNA Profiling Bill' by the Centre for DNA Fingerprinting and Diagnostics. Since then, there has been a 2012, 2015, and a 2016 version of the Bill - the last not available to the public. In 2013, the Department of Biotechnology formulated an Expert Committee to deliberate on concerns raised about the Bill and finalise the text. The 'Use and Regulation of DNA Based Technology Bill 2017' and the report by the Law Commission is a further evolution of the legislation and dialogue. The 2017 Bill contains a number of improvements from previous versions - yet there are still outstanding concerns that remain.</p>
 
 <p>Positive changes in the Bill include provisions for consent, defined instances for deletion of profiles, limitation on purpose of the use of data in the DNA Data Bank, defined instances for destruction of biological samples, and the ability for an individual to request a re-test of bodily substances if they believe contamination has occurred.</p>
 
@@ -72,7 +58,7 @@ The article's central concern is not whether DNA technology can assist criminal 
 
 <p>The implications of creating regional and national level DNA databanks need to be fully understood and publicly debated. DNA is not foolproof - false matches can take place for multiple reasons. Importantly, the usefulness of DNA based technology to a legal system and the impact on individual rights is dependent and reflective of the social, legal, and political environment the technology is used in. DNA based technology can be a powerful tool for law enforcement, and it is important that a robust process and structure is given to the collection of DNA samples from a crime scene to the laboratory for analysis, to the DNA Bank for storage and comparison, but this structure needs to also be fully cognizant of the rights of individuals and the potential for misuse of the technology.</p>
 
-<p>As society continues to rapidly become more and more data centric, and that data increasingly is a direct extension of the person, it is critical that legislation that is developed has clear protections of rights. In addition to amendments to the text of the draft 2017 Bill, this includes enacting a comprehensive privacy legislation in India. It is worrying that in the conclusion of its report, the Law Commission has referred to whether privacy is an integral part of Article 21 of the Constitution as merely "a matter of academic debate." Privacy is recognised as a fundamental right in many democratic contexts - including many of those reviewed by the Law Commission as examples of contexts with DNA Profiling laws.</p>
+<p>As society continues to rapidly become more and more data centric, and that data increasingly is a direct extension of the person, it is critical that legislation that is developed has clear protections of rights. In addition to amendments to the text of the draft 2017 Bill, this includes enacting a comprehensive privacy legislation in India. It is worrying that in the conclusion of its report, the Law Commission has referred to whether privacy is an integral part of Article 21 of the Constitution as merely 'a matter of academic debate.' Privacy is recognised as a fundamental right in many democratic contexts - including many of those reviewed by the Law Commission as examples of contexts with DNA Profiling laws.</p>
 
 <p>Policy needs to evolve past protections that are limited to process oriented legal privacy provisions, but instead to protections that are comprehensive - accounting for process and enabling the individual to control and know how her/his data is being used and by whom. Other countries have recognised this and are taking important steps to empower the individual. India needs to do the same for its citizens.</p>
 
@@ -80,76 +66,23 @@ The article's central concern is not whether DNA technology can assist criminal 
 
 {% include back-to-top.html %}
 
-
-## The Legislative Background
-
-The proposal to regulate DNA profiling in India had been under discussion for a decade by the time this article appeared. The first step was taken in 2007, when the Centre for DNA Fingerprinting and Diagnostics prepared a draft DNA Profiling Bill. Further versions followed in 2012 and 2015. A 2016 version was also produced, although it was not made publicly available.
-
-In 2013, the Department of Biotechnology constituted an Expert Committee to consider concerns about the proposed legislation and work towards a revised text. The Law Commission's report and the 2017 draft, titled the "Use and Regulation of DNA Based Technology Bill 2017", represented another stage in that process.
-
-Hickok acknowledges that the 2017 draft had moved forward in several respects. But a decade of drafting and consultation had not resolved the central question: what protections would individuals have when their biological samples and DNA profiles were collected, stored, compared, and shared?
-
-## Improvements in the 2017 Bill
-
-The article does not dismiss the 2017 draft outright. It identifies several changes that offered a better starting point than earlier versions.
-
-These included provisions dealing with consent, circumstances in which DNA profiles could be deleted, limits on the purposes for which information in the DNA Data Bank could be used, and circumstances in which biological samples had to be destroyed. The draft also allowed an individual to request a fresh examination of bodily substances where contamination was suspected.
-
-These changes mattered because DNA material is not simply another category of personal information. A biological sample can contain information well beyond the identifying profile that a database is intended to use. Rules governing the destruction of samples, the deletion of profiles, and the purposes for which stored information may be used therefore have consequences for an individual's privacy long after the original investigation.
-
-For Hickok, however, the presence of these provisions did not make the Bill adequate. Improvements in selected areas could not compensate for the absence of enforceable rights and clearly defined safeguards across the entire system.
-
-## Safeguards That Were Still Missing
-
-One of the article's principal criticisms is that the Bill did not give individuals a sufficiently clear set of rights in relation to the DNA Data Bank.
-
-A person whose DNA information was held in the system needed to know that it had been collected and stored. The article points to the absence of a clear right to notification, as well as the lack of a reliable way for an individual to find out what information was held and how it had been accessed.
-
-It also identifies the absence of a meaningful right to challenge the storage of a DNA sample. An individual should not have to accept the database's decision as final, without a route to question whether the information should have been collected or retained. The ability to access and review personal information held in the DNA Data Bank was another missing protection.
-
-These are not merely administrative details. Without notification, access, and a right to challenge, a person may not even know that their information is being retained, let alone have a practical opportunity to correct an error or seek its removal.
-
-The article also questions the decision to leave important privacy and security safeguards to future regulations. Matters such as the appropriate use and dissemination of DNA information, accuracy, confidentiality, security, and the timely removal of obsolete or inaccurate records were not adequately settled in the text of the Bill itself.
-
-Hickok further notes that the Law Commission referred to the 13 CODIS (Combined DNA Index System) profiling standard as a means of protecting privacy, but that standard had not been incorporated into the Bill. A reference in an accompanying report, she argues, is not a substitute for a clear requirement in the legislation.
-
-## DNA Evidence, Accuracy and Institutional Responsibility
-
-The article asks readers to look beyond the promise of scientific identification and consider the limitations of the technology and the institutions using it. DNA profiling can be a powerful investigative tool, but a DNA match is not infallible. False matches can occur for several reasons, and the consequences of an error can be serious when the result is used in a criminal justice process.
-
-The creation of regional and national DNA databases therefore required more than technical capacity. The entire chain had to be reliable: the collection of material at a crime scene, its handling and transfer to a laboratory, the laboratory's analysis, the entry of profiles into a database, and the eventual comparison and communication of results.
-
-A weakness at any stage could affect the reliability of the outcome. The article's concern is that the legal framework must be attentive to the way DNA evidence is actually collected and used, rather than treating the existence of a database as a guarantee of accuracy.
-
-It also emphasises that the usefulness and impact of DNA technology depend on the social, legal, and political environment in which it operates. A system designed for identification can have wider consequences when its data, institutional powers, and permitted uses are not carefully limited.
-
-## Privacy as a Right, Not Just a Procedure
-
-The article places the proposed legislation within the wider debate about privacy and data protection in India. It expresses concern that the Law Commission's report treated the question of whether privacy is an integral part of Article 21 of the Constitution as merely a matter of academic debate.
-
-Hickok argues that privacy protections should not be reduced to procedural rules governing how an institution collects or handles information. Individuals should also be able to know how their data is being used, who is using it, and exercise meaningful control over it.
-
-This distinction is particularly important when the information is derived from a person's body. DNA data is closely connected to individual identity, and the creation of large databases makes it possible for information to be retained and used in ways that may extend beyond the circumstances that led to its collection.
-
-The article therefore calls not only for amendments to the 2017 Bill but also for comprehensive privacy legislation in India. It argues that a modern legal framework must protect individual rights in substance, rather than relying only on procedures that institutions are expected to follow.
-
-The closing argument is straightforward: India should learn from jurisdictions that have begun to strengthen individual control over personal data and should provide comparable protections to its own citizens. The expansion of data-driven systems makes that task more urgent, not less.
-
 ## Context and Background
 
-This article appeared during the long-running debate over the proposed DNA Profiling Bill in India. Elonnai Hickok had followed the issue through the Centre for Internet and Society's work on privacy, DNA profiling, and the successive drafts of the legislation. The 2017 article is best read alongside her other contributions to that debate, particularly the earlier analysis of the 2017 draft Bill and the longer-running discussion of privacy safeguards in DNA profiling.
+The article was published in the *Hindustan Times* on 7 August 2017, during a decade-long process of drafting legislation on DNA profiling in India. The first draft had been prepared in 2007 by the Centre for DNA Fingerprinting and Diagnostics. Further versions followed in 2012, 2015 and 2016, although the 2016 version was not made publicly available. In 2013, the Department of Biotechnology had constituted an Expert Committee to consider the concerns raised about the proposed law and work towards finalising its text. The 2017 draft and the Law Commission's report represented the next stage in that process.
 
-The article's approach is measured. It recognises that the 2017 draft included improvements, rather than treating every version of the proposal as identical. Its criticism is directed at the distance between those improvements and a framework that would genuinely protect people whose DNA information entered the system. Consent, deletion, purpose limitation, and sample destruction were welcome developments, but they did not answer questions about notification, access, correction, review, challenge, accuracy, and independent safeguards.
+Hickok acknowledges that the 2017 Bill contained improvements over earlier versions. These included provisions for consent, defined circumstances for deletion of DNA profiles and destruction of biological samples, limits on the purposes for which information in the DNA Data Bank could be used, and the ability to request a fresh examination where contamination was suspected. The article nevertheless argues that these changes did not resolve important concerns about the breadth of the Bill's schedule or establish adequate rights for individuals whose information could be collected and retained.
 
-The article also makes a distinction between a law that authorises a technology and a law that places meaningful limits on its use. A national or regional DNA database may be presented as an instrument for law enforcement, but its operation affects people who may never be convicted of an offence and whose biological information may remain within institutional systems. The legal framework must account for those people as well as the needs of investigators.
+A central issue was the decision to leave key privacy and security protections to regulations rather than setting them out clearly in the legislation. The article identifies safeguards relating to accuracy, confidentiality, security, appropriate use and dissemination of DNA information, and the removal of obsolete or inaccurate records. It also points to the absence of a clear right to notification, access to information, review, and challenge the storage of DNA samples. The Law Commission's reference to the 13 CODIS profiling standard had not, at that point, been translated into a requirement in the text of the Bill.
 
-The CIS version records 21 August 2017 as its page date, while the article itself states that it was published in the *Hindustan Times* on 7 August 2017. The two dates refer to the newspaper publication and the subsequent CIS page record respectively.
+The article also draws attention to the limits of DNA profiling as an evidentiary tool. DNA is not foolproof, and false matches can occur. A reliable system therefore requires safeguards throughout the process, from the collection of material at a crime scene to laboratory analysis, storage in a DNA Data Bank, and the comparison and communication of results. The legal framework must account both for the potential value of the technology in law enforcement and for the possibility of error or misuse.
 
-For related material, see [The DNA Profiling Bill 2007 and Privacy](/elonnai/dna-profiling-bill/), [Draft Human DNA Profiling Bill (April 2012): High Level Concerns](/elonnai/draft-human-dna-profiling-bill-april-2012/), and [High Level Comparison and Analysis of the Use and Regulation of DNA Based Technology Bill 2017](/elonnai/high-level-comparison-dna-based-technology-bill-2017/).
+The broader concern is the relationship between data-driven governance and individual rights. Hickok argues that procedural rules alone are insufficient: people must be able to know how their information is being used and by whom, and must have meaningful protections over that information. The article calls for amendments to the 2017 draft as well as comprehensive privacy legislation in India. It also records concern that the Law Commission's report described the constitutional status of privacy under Article 21 as a matter of academic debate, despite privacy being recognised as a fundamental right in many democratic jurisdictions.
 
-## External Links
+The CIS page reproducing the article records 21 August 2017 as its publication date. The newspaper article itself identifies 7 August 2017 as the original publication date.
 
-- [Here's Why We Need a Lot More Discussion on India's New DNA Profiling Bill](https://www.hindustantimes.com/analysis/here-s-why-we-need-a-lot-more-discussion-on-india-s-new-dna-profiling-bill/story-CojTDv2vfMMMBsW0CaLxIP.html) on *Hindustan Times* (7 August 2017)
+## External Link
+
+- [Here's Why We Need a Lot More Discussion on India's New DNA Profiling Bill](https://www.hindustantimes.com/analysis/here-s-why-we-need-a-lot-more-discussion-on-india-s-new-dna-profiling-bill/story-CojTDv2vfMMMBsW0CaLxIP.html) on *Hindustan Times*
 - [Here's Why We Need a Lot More Discussion on India's New DNA Profiling Bill](https://cis-india.org/internet-governance/blog/hindustan-times-elonnai-hickok-august-7-2017-here-is-why-we-need-a-lot-more-discussion-on-indias-new-dna-profiling-bill) on the Centre for Internet and Society website
 
 {% include navbox-elonnai.html %}
@@ -174,6 +107,46 @@ For related material, see [The DNA Profiling Bill 2007 and Privacy](/elonnai/dna
 }
 .media-details dd {
   margin: 0 0 0.3rem 0.3rem;
-  color: #444;
+  color: #555;
+}
+.highlighted-text {
+  background-color: #fffbea;
+  border-left: 4px solid #f2ce61;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  line-height: 1.65;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
+}
+.highlighted-text p {
+  margin-bottom: 1rem;
+}
+.highlighted-text ul,
+.highlighted-text ol {
+  margin: 0 0 1rem 1.5rem;
+}
+.article-separator {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  margin: 0.75rem 0 1rem 0;
+}
+
+.references-list {
+  margin: 0 0 1rem 1.5rem;
+  word-break: break-word;
+}
+
+.references-list li {
+  margin-bottom: .8rem;
+}
+
+.references-list li:last-child {
+  margin-bottom: 0;
+}
+
+.references-list a[href^="#ref-"] {
+  margin-left: .35rem;
+  text-decoration: none;
 }
 </style>
