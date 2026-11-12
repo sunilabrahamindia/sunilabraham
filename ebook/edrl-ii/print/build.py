@@ -897,10 +897,10 @@ for essay in essays:
             "secular world. {#reinterpret-god}"
         )
         heading_pattern = re.compile(
-            r"(?m)^## 2\\. The religious man will reinterpret and "
-            r"reconstruct his concept of[^\\n]*(?:\\n\\n"
+            r"(?m)^## 2\. The religious man will reinterpret and "
+            r"reconstruct his concept of[^\n]*(?:\n\n"
             r"God to undergird his world of meaning in the modern "
-            r"secular world\\.)?$"
+            r"secular world\.)?$"
         )
         body, heading_matches = heading_pattern.subn(
             expected_heading, body, count=1
