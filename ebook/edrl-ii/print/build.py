@@ -603,6 +603,7 @@ common = r"""
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
 """ + BODY_PAR + r"""
 #set heading(numbering: none)
+#show footnote: it => super(text(size: 7pt)[#it])
 #set footnote.entry(
   separator: line(length: 30%, stroke: 0.5pt + luma(90)),
   clearance: 0.6em,
