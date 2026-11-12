@@ -13,7 +13,7 @@ The **full text of the [The State of Hinduism in 2000 A.D.—Some Emerging Trend
 
 This version preserves the original wording, structure, and formatting as presented in the source document.
 
-## Contents
+<h2>Contents</h2>
 
 1. [The Triple Loss](#triple-loss)
 2. [The Great Majority Would Continue to Opt for a Religious View of Life](#religious-view)
@@ -26,7 +26,7 @@ This version preserves the original wording, structure, and formatting as presen
 9. [Will the sacred cow return?](#sacred-cow)
 10. [Conclusion](#conclusion)
 
-## The Triple Loss {#triple-loss}
+<h2 id="triple-loss">The Triple Loss</h2>
 
 Smallpox is known as *Amman* among our villagers in South India. Their counterparts in the north call it *Mata*. You talk to them about *Amman* or *Mata*. Some would tell you that *Amman/Mata* (smallpox) is Devi. It is Devi's *kop* or alternatively her *prasad* that comes over them as this disease. Others say *Amman* is *rogi/Bheemar* caused by heat or unhygienic conditions. The latter do not look up to the goddess for cure but rather to the health authority. They hope that *Amman* would be controlled, and finally eradicated from the face of India.
 
@@ -38,11 +38,11 @@ These few examples suggest that a section of the people in our country are looki
 
 In the following pages I try to identify what seems to me to be some of the main trends among believers, basing myself on the results of a study of current patterns of thinking among the ordinary people in our villages and cities.
 
-## The Great Majority Would Continue to Opt for a Religious View of Life {#religious-view}
+<h2 id="religious-view">The Great Majority Would Continue to Opt for a Religious View of Life</h2>
 
 At present, the most common assumption among Hindus in this country is that there is a *sakti*. The term *sakti* is the most basic element in the believer's consciousness and in his thinking. For instance, he would say 'Bhagavan is saktibaba' or 'Amman is parasakti'. The different names of gods are thus either identified with *sakti* or said to be different forms and modes of *sakti*. The conception of *sakti* is not purely the result of logical thinking, though some form of reasoning is very much present in the believer's consciousness. But primarily the term expresses a feeling of mystery, of awe. For instance he would say, 'When I see the universe, its rhythm, the change of seasons and the succession of day and night, I feel there is some sakti in the world.' The term sakti is also associated with a sense of dependence. For example he will say, 'It is not as we think', 'not according to our plans', 'things do not depend on us'; so he concludes there is some sakti on which he is dependent. These are not logical arguments, but all the same they are reasons for his feeling and belief in a sakti. Once he opts to believe, he starts constructing a meaningful world around him. His conception of sakti is used to undergird all his meanings in life. It is invoked to guide him, help his plans. His achievements are understood as its gifts. Even his suffering and death are interpreted against this background of his belief in sakti. For instance, when the unbeliever declares that 'the god of smallpox has been jailed by the health department', the believer retorts, 'Has the chickenpox god also been jailed?' Is it not a fact that people still suffer from numerous diseases, perhaps even newer ones? The point is, the believer tries to find meaning even in his diseases and death. Faced by the challenge of science he readjusts his language. 'From one point of view,' he says, 'smallpox is rog and from another point of view it is Amman's prasad'. Note the word prasad. He believes man cannot overcome disease and death. So it is conceived as God's prasad. His death has a meaning for him like that of the soldier who dies for his country. In short, the believer tries to live in the Presence of the Sakti which he not only contemplates but also uses for his own ends. By far the great majority of our people are likely to continue thinking along these lines.
 
-## The Secular Option {#secular-option}
+<h2 id="secular-option">The Secular Option</h2>
 
 This is true of a small group. They too feel that 'there is a sakti' in the universe 'perhaps like electricity'. But it has been secularised at this primary level and so they say 'it needs no worship'. They are not overawed by it because they believe it can be conquered and mastered by man. Man stands supreme. But he has his limits. But it is not necessary to make a religion out of it. Accept it as natural. Disease is natural, death is natural. Feeling dependent is a primitive mental state. It speaks of weakness and lack of courage and effort. The gods have not controlled disease, reduced infant mortality, increased food production, taken man to space. It is man's nerve, and it alone will stand him in good stead. Our response to nature must be dominated by reason, not emotion. The man who thinks along these lines certainly has values. Values measured by utility, mutual regard and adjustment among men. In short, values of reasonableness.
 
@@ -50,17 +50,17 @@ When one moves away from a culture where everything was worshipped, where everyt
 
 But as we are here concerned only with the religious option. Let us now turn our attention to the likely changes in the religious option of the future in the face of the onslaught of secularisation.
 
-## 1. The saktis of the gaps will disappear {#saktis-gaps}
+<h2 id="saktis-gaps">1. The saktis of the gaps will disappear</h2>
 
 In the past a gap in our empirical knowledge was explained by a god-hypothesis. Smallpox strikes. It is Mariamma. There is an attack of epilepsy. It is potten teyyam. Skin disease appears. It is nagadosam. These gods, as so many independent saktis, are bound to disappear. However, since in the religious man's worldview nothing can happen as merely natural without significance, these names will be symbolically interpreted to explain the apparently meaningless or anomic experiences of man, such as disease, suffering and death. Here we must remember one of the definitions of religion, that it is 'man's protest against meaninglessness in life'.
 
-## 2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world. {#reinterpret-god}
+<h2 id="reinterpret-god">2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.</h2>
 
 This I illustrate with two examples as detailed analysis is not possible within the space given to me. In the past, a harijan was not allowed to enter the temple of higher castes. If he did, the temple was polluted, i.e. the god was polluted or he got angry. They had to do suddikarma, or in some cases the temple or shrine was given away to the harijans. This means that in a hierarchical society they had hierarchical gods. Before the brahmin pandit and his god, man was not equal. Now we hear about the brahmins taking harijans to the temples of high castes. The common explanation is that before God all men are equal. If one wants to appear as a pucca advaitin, he might say all jivatmans are forms of Paramatman. Whether the word be 'God' or Paramatman, his nature has been reinterpreted to religiously undergird the modern democratic value of one man one vote. My second example is this. There are in India many Hindus who religiously believe that the fruits and vegetables offered in homage to Ganapathy should not be given to widows and orphans but only to the happily married rich women. I asked some other Hindus about this who reacted saying, 'I do not want a God who is not the God of widows and orphans as well.' I suppose both these groups are very religious, but each understands its God to conform to the values it holds.
 
 The point I am making is that the concept of God or, if you like, 'Supreme Self' is a historical human construct that corresponds to the self-understanding of man in each century, and the religious man in the twenty-first century will interpret his God's nature to validate all his values. Gandhiji and many other national leaders have done this in our own century. And one may hope that this reinterpretation of the concept of God would continue also in the next century. In other words, it is an illusion to think that there is a sanatandharma that continues without change.
 
-## 3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history. {#god-play-history}
+<h2 id="god-play-history">3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.</h2>
 
 There is an ancient strain present in all of us. This is the strain we inherited from the past sages. Appalled by the suffering and the tragic character of all existence, they conceived their God as standing outside the realm of empirical existence and tried to go to him in transcendental heights. To them all existence appeared as play, play of their God, Bhagavan's lila. Detachment was the word of revelation. They, however, engaged in the struggles of life and death, of good and evil, for the sake of dharma. But as their God was beyond feelings of pleasure or displeasure in the struggle, one is left to doubt whether the struggle for dharma has any value in absolute terms, i.e. in terms of eternity. This I call the God of play. The corollary of this concept is 'man's life is unreal'.
 
@@ -68,23 +68,23 @@ These days we find people believing much more earnestly that 'helping the afflic
 
 I am inclined to think that with increasing emphasis in our times on the individual and his life as an unfolding of his individuality, people may opt for a life of historical fulfilment, i.e. for a God of history. However, the God of lila has the charm of detachment. He makes life tolerable giving that manasanti which everyone seems to seek in religion.
 
-## 4. Evil spirits are on their way out {#evil-spirits}
+<h2 id="evil-spirits">4. Evil spirits are on their way out</h2>
 
 Our villages had, until the recent past, been infested with bhutas and pretas of all sorts. Scenes of spirit possession, particularly among women, were a common sight. But recent surveys in some areas in the country suggest about eighty per cent of the people have no belief in evil spirits. While some dismiss it as andhavisvasam, others explain the old belief which many of them had in their childhood in many different ways. For example, 'bhutas and pretas were created by bhayam (fear)'; 'techniques used by mantravadis and pujaris to frighten people and to rob their money'; 'people might have been murdered for money and other reasons, and this was explained as their having been eaten by yakshis'; 'a young woman going out to meet her lover may have been seen in the dark and thought of as yakshi'. In one thing all seem to agree. 'The coming of electricity to our villages and the increase in population have driven away the evil spirits.' 'The trees,' people say, 'on which the bhutas and pretas lived are still with us; but we do not find them there. Some of them are cut down. But they do not seem to show any signs of anger.' We may, therefore, rightly assume that the 21st century will give them much less room to roam.
 
-## 5. Decline in the observance of domestic rituals and prayer {#domestic-rituals}
+<h2 id="domestic-rituals">5. Decline in the observance of domestic rituals and prayer</h2>
 
 The number of people who visit centres of pilgrimage and famous temples is apparently on the increase. This does not automatically mean people are becoming more religious. The fact is that their motives are mixed. Whether it is to Tirupathi or to Rome, the tourist instinct is dominant. And we in India too have of late improved the facilities for communication and transport.
 
 On the other hand, there is massive evidence of the decline in the conduct of pujas in the families. Today, homes where any kind of sandyavandana is done are an exception rather than the rule. One hears about people sending their family deity to their mutt for the necessary prayers to be said, as they have little time to pray to it or no place to keep it. Here again, one cannot conclude that people are growing irreligious. But one thing can safely be said. Religious rituals are becoming more and more misunderstood as people are asking more and more rational questions. They do not realize rituals are the enactment of religious myths and myths do not lend themselves to rational investigation. But the rational approach is likely to continue for some time to come before it gets reversed.
 
-## 6. Will the sacred cow return? {#sacred-cow}
+<h2 id="sacred-cow">6. Will the sacred cow return?</h2>
 
 I am not here referring to the banning of cow slaughter in more and more states. The government order in this connection speaks of the adverse effect of cow slaughter on milk production etc. This means that they are justifying the ban on secular grounds, namely reasons of greater utility. In the study of the religious attitudes of villagers in India, we have come across people who referred to Narayana Guru's famous reply to a question about the cow. Some one asked him, 'Swamiji, if we can drink the milk of cows why can't we eat their flesh?' Swamiji asked him, 'Is your mother alive or dead?' The questioner replied, 'Dead.' Swamiji then said, 'You had drunk her milk. Have you then eaten her flesh too, or buried her?'
 
 Earlier on, I talked about the attitude of people to nature becoming more and more utilitarian, nature being seen as an 'it'. That there are limits to the exploitation of nature is becoming clearer to western industrial nations. Nature is also to be cultivated. In this process whether the cow in India will return as the sacred symbol of mother earth, to be protected and cherished, is a question for the future.
 
-## Conclusion {#conclusion}
+<h2 id="conclusion">Conclusion</h2>
 
 In short, I would say then that religion in the 21st century will continue as a conscious option among people along with the secular option. It will have fewer gods, fewer superstitions and perhaps no evil spirits. Questions of criteria of authentic religion will be much more sharply raised by future Narasimhaias and Kovoors and it will become increasingly difficult to ignore them.
 
