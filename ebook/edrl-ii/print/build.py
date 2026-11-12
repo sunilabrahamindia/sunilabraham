@@ -520,9 +520,9 @@ def md_to_typst(markdown, stem):
                 "  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0pt)\n"
                 "  #align(center)[\n" + stanza_typst + "\n  ]\n]"
             )
-        poem = ("\n#v(0.7em)\n").join(stanza_blocks)
+        poem = ("\n#v(0.5em)\n").join(stanza_blocks)
         parts.append(
-            "#block(width: 100%, above: 1em, below: 1em)[\n"
+            "#block(width: 100%, above: 0.5em, below: 0.5em)[\n"
             + poem + "\n]"
         )
         cursor = match.end()
