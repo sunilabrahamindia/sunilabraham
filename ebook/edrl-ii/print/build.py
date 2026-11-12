@@ -311,6 +311,8 @@ def extract_footnotes_and_clean(markdown):
         raw_tables[token] = converted
         table.replace_with(NavigableString(token))
 
+    seen_note_ids = set()
+    note_numbers = {}
     for marker in soup.select('sup[id^="ref-"]'):
         target = marker.find("a", href=re.compile(r"^#note-"))
         if target:
@@ -319,7 +321,13 @@ def extract_footnotes_and_clean(markdown):
                 raise SystemExit(
                     f"Footnote reference {marker.get('id')} points to missing note-{note_id}."
                 )
-            marker.replace_with(NavigableString(f"[^{note_id}]"))
+            if note_id not in note_numbers:
+                note_numbers[note_id] = len(note_numbers) + 1
+            if note_id in seen_note_ids:
+                marker.replace_with(NavigableString(f"^{note_numbers[note_id]}^"))
+            else:
+                seen_note_ids.add(note_id)
+                marker.replace_with(NavigableString(f"[^{note_id}]"))
 
     for anchor in soup.find_all("a"):
         anchor.unwrap()
