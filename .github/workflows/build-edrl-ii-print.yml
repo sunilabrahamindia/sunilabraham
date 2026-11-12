@@ -35,20 +35,54 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
+        id: setup-python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Install Python dependencies
-        run: python -m pip install --upgrade PyYAML beautifulsoup4
+      - name: Cache print-build dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/edrl-print/typst
+          key: \${{ runner.os }}-edrl-print-deps-v1
 
-      - name: Install Pandoc, Typst and fonts
+      - name: Install Python dependencies when needed
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc fonts-linuxlibertine poppler-utils
-          curl -fsSL https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz -o /tmp/typst.tar.xz
-          tar -xJf /tmp/typst.tar.xz -C /tmp
-          sudo install /tmp/typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
+          if ! python -c "import yaml, bs4" >/dev/null 2>&1; then
+            python -m pip install --upgrade PyYAML beautifulsoup4
+          else
+            echo "Python print dependencies are already available."
+          fi
+
+      - name: Install system tools only when needed
+        run: |
+          missing=0
+          command -v pandoc >/dev/null 2>&1 || missing=1
+          command -v pdftotext >/dev/null 2>&1 || missing=1
+          command -v pdfunite >/dev/null 2>&1 || missing=1
+          if ! fc-match "Linux Libertine O" | grep -qi "Linux Libertine"; then
+            missing=1
+          fi
+          if [ "$missing" -eq 1 ]; then
+            sudo apt-get update
+            sudo apt-get install -y pandoc fonts-linuxlibertine poppler-utils
+          else
+            echo "Pandoc, Poppler and Linux Libertine are already available."
+          fi
+
+      - name: Install or reuse cached Typst
+        run: |
+          mkdir -p "$HOME/.cache/edrl-print/typst"
+          if [ ! -x "$HOME/.cache/edrl-print/typst/typst" ]; then
+            curl -fsSL https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz -o /tmp/typst.tar.xz
+            tar -xJf /tmp/typst.tar.xz -C /tmp
+            install /tmp/typst-x86_64-unknown-linux-musl/typst "$HOME/.cache/edrl-print/typst/typst"
+          else
+            echo "Using cached Typst binary."
+          fi
+          echo "$HOME/.cache/edrl-print/typst" >> "$GITHUB_PATH"
           typst --version
 
       - name: Build A5 print preview
