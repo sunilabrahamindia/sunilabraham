@@ -30,9 +30,7 @@ When I was asked to write a paper on "The Aspirations of the People and the Role
 
 I have managed to collect, with the help of Mr. Venugopal Kokken, accounts of personal conversations with a selected group of 16 people in the Cannanore District of Kerala, on their aspirations and the role of religion as they see it. These include a slum dweller, a watchman in a factory, a tailor, a weaver, a merchant, a housewife, a nurse, a male teacher and two women teachers, a member of the R.S.S., a freedom fighter, the District Secretary of the Revolutionist Socialist Party, District Secretary of the Rationalist Forum, a drama artiste and a writer.
 
-The paper is based on the information gathered from these personal accounts as well as on some of the impressions I gathered from a study of the meaning of religious symbols like *Iswar*, *Karma* and *Dharma*.
-
-<sup id="ref-1"><a href="#note-1">1</a></sup>
+The paper is based on the information gathered from these personal accounts as well as on some of the impressions I gathered from a study of the meaning of religious symbols like *Iswar*, *Karma* and *Dharma*.<sup id="ref-1"><a href="#note-1">1</a></sup>
 
 ## I. Aspirations of the People and People's Understanding of the Role of Religion as a Social Force in This Context {#aspirations}
 
