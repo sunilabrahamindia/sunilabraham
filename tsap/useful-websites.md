@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>120 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>121 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -196,7 +196,9 @@ Platforms, directories and tools that support structured learning, independent s
 4. [Onshape Learning Center](https://learn.onshape.com/), provides courses and tutorials for Onshape, a cloud-based 3D CAD and product development platform. Its learning materials cover part design, assemblies, drawings and collaborative workflows. Onshape offers different plans and access conditions, so check the current terms before choosing it for a project.
 
 ## Python Development Resources {#python}
-1. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
+
+1. [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/), is a practical online book by Al Sweigart that teaches Python through everyday automation projects. It starts with programming fundamentals and progresses to file management, web scraping, spreadsheets, PDFs, Word documents, databases, email automation, image processing and desktop control. Designed for readers without prior programming experience, it focuses on using Python to solve real-world problems. The third edition is available to read online for free under a Creative Commons licence.
+2. [Awesome Python](https://awesome-python.com/), a searchable, categorised guide to Python frameworks, libraries and tools, covering areas such as AI, web development, data analysis, automation, testing and security.
 
 ## Research Papers and Policy Publications {#research-publications}
 1. [Global Data Justice](https://www.globaldatajustice.org/gdj/category/resources/publications/), publishes research on data governance, digital rights and social justice, including work on how data systems affect communities and public life. Useful for exploring critical perspectives on data-driven policy and digital governance.
