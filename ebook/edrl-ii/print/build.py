@@ -847,9 +847,7 @@ The work of collecting and documenting his writings remains ongoing. Further ess
   #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
   #text(size: 11pt, weight: "bold")[Tito Dutta]
   #linebreak()
-  #text(size: 9.5pt)[Co-founder and Administrator]
-  #linebreak()
-  #text(size: 9pt)[The Sunil Abraham Project]
+  #text(size: 9.5pt)[Editor]
   #linebreak()
   #text(size: 8.5pt)[29 November 2026]
 ]
