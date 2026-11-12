@@ -913,47 +913,6 @@ for essay in essays:
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
-    if essay["order"] == 1:
-        # Rejoin the long section heading if Pandoc separates its final phrase.
-        typst_heading = (
-            "== 2. The religious man will reinterpret and reconstruct his "
-            "concept of God to undergird his world of meaning in the modern "
-            "secular world."
-        )
-        split_heading = re.compile(
-            r"(?ms)^== 2\. The religious man will reinterpret and "
-            r"reconstruct his concept of\s*\n+"
-            r"(?:<reinterpret-god>\s*)?"
-            r"God to undergird his world of meaning in the modern "
-            r"secular world\."
-        )
-        converted, typst_heading_matches = split_heading.subn(
-            typst_heading, converted, count=1
-        )
-        if typst_heading_matches != 1 and typst_heading not in converted:
-            raise SystemExit(
-                "The complete section 2 heading was not found in converted "
-                "Typst; refusing to generate an incorrect print proof."
-            )
-        typst_heading_3 = (
-            "== 3. In the process of reinterpretation and reconstruction of "
-            "the concept of God or Supreme Self, there will be greater "
-            "interaction between the God of play and the God of history."
-        )
-        split_heading_3 = re.compile(
-            r"(?ms)^== 3\.\s*In the process of reinterpretation and "
-            r"reconstruction of the\s*concept of God or Supreme Self, "
-            r"there will be greater interaction between the God of play "
-            r"and the God of history\.(?:\s*<[^>]+>)?"
-        )
-        converted, heading_3_matches = split_heading_3.subn(
-            typst_heading_3, converted, count=1
-        )
-        if heading_3_matches != 1 and typst_heading_3 not in converted:
-            raise SystemExit(
-                "The complete section 3 heading was not found in converted "
-                "Typst; refusing to generate an incorrect print proof."
-            )
     parts.append(converted + "\n")
 
 if len(parts) < 2 or "@@FOREWORD_BODY@@" not in parts[1]:
