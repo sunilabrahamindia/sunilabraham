@@ -808,6 +808,32 @@ His publications include _The Sacred in Popular Hinduism: An Empirical Study in 
 At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was working on a study of Dalit and Hindu religious identity that remained incomplete. His writings brought together academic research, theological reflection and close attention to the social realities of his time. This volume makes a further part of his work available to readers.
 #pagebreak()
 = Contents
+#show outline.entry: it => {
+  let title = it.element.body
+  let prefix = if title == [The State of Hinduism in 2000 A.D.—Some Emerging Trends] {
+    [1.]
+  } else if title == [Religion, Spirituality and Aspirations of the People] {
+    [2.]
+  } else if title == [The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue] {
+    [3.]
+  } else if title == [The Church and the Study of Religion] {
+    [4.]
+  } else if title == [Religions and the Aspirations of the People] {
+    [5.]
+  } else if title == [Religion: A Way of Salvation or an Ideology of Oppression?] {
+    [6.]
+  } else if title == [Dalit Theology: A Movement of Counter-Culture] {
+    [7.]
+  } else if title == [Dalit Liberation — Some Reflections on Their Ideological Predicament] {
+    [8.]
+  } else if title == [The Ideological Nature of the Emerging Dalit Consciousness] {
+    [9.]
+  } else {
+    it.prefix()
+  }
+  link(it.element.location(), it.indented(prefix, it.inner()))
+}
+
 #outline(
   title: none,
   depth: 1,
