@@ -83,6 +83,7 @@ jobs:
             echo "Using cached Typst binary."
           fi
           echo "$HOME/.cache/edrl-print/typst" >> "$GITHUB_PATH"
+          export PATH="$HOME/.cache/edrl-print/typst:$PATH"
           typst --version
 
       - name: Build A5 print preview
