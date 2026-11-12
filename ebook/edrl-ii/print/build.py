@@ -24,10 +24,8 @@ COVER = OUT / "edrl-ii-cover.jpg"
 
 BODY_PAR = "#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 16pt)"
 
-
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
-
 
 def download(url, dest, label, validator):
     last_error = None
@@ -45,15 +43,12 @@ def download(url, dest, label, validator):
             time.sleep(2 * attempt)
     raise SystemExit(f"{label} download failed after 3 attempts: {last_error}")
 
-
 def fetch_author_photo():
     download(AUTHOR_PHOTO_URL, AUTHOR_PHOTO, "Author photograph",
              lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
 
-
 def fetch_cover():
     download(COVER_URL, COVER, "Cover", lambda d: d.startswith(b"\xff\xd8\xff"))
-
 
 def inline_markdown(node):
     """Preserve emphasis in HTML-authored footnote text."""
@@ -68,7 +63,6 @@ def inline_markdown(node):
     if name == "br":
         return "\n"
     return content
-
 
 def note_inline(node):
     """Render inline content inside a source footnote."""
@@ -85,7 +79,6 @@ def note_inline(node):
     if name == "br":
         return " "
     return content
-
 
 def note_blocks(node, list_indent=0):
     """Preserve paragraphs and nested lists within longer footnotes."""
@@ -118,7 +111,6 @@ def note_blocks(node, list_indent=0):
     flush_inline()
     return "\n\n".join(part for part in parts if part).strip()
 
-
 def note_list(listing, indent=0):
     """Retain list boundaries and alphabetic labels inside source notes."""
     entries = []
@@ -144,11 +136,9 @@ def note_list(listing, indent=0):
         entries.append(entry)
     return "\n".join(entries)
 
-
 def footnote_markdown(item):
     """Extract a source note without flattening paragraphs or nested lists."""
     return note_blocks(item)
-
 
 def typst_escape(value):
     """Escape plain source text for safe insertion into Typst content blocks."""
@@ -160,7 +150,6 @@ def typst_escape(value):
         .replace("]", "\\]")
         .replace("$", "\\$")
     )
-
 
 def html_table_to_typst(table):
     """Create readable, accessible Typst tables with repeatable headers."""
@@ -271,7 +260,6 @@ def html_table_to_typst(table):
         + fence + "\n"
     )
 
-
 def extract_footnotes_and_clean(markdown):
     """Convert HTML headings, tables and source-linked notes for Pandoc."""
     soup = BeautifulSoup(markdown, "html.parser")
@@ -373,7 +361,6 @@ def extract_footnotes_and_clean(markdown):
         )
     return cleaned
 
-
 def clean_source(path):
     raw = path.read_text(encoding="utf-8")
     raw = re.sub(
@@ -469,7 +456,6 @@ def clean_source(path):
         cleaned = cleaned.replace(token, "\n\n" + heading + "\n\n")
     return cleaned
 
-
 def md_to_typst(markdown, stem):
     definition_pattern = re.compile(
         r"(?ms)^\[\^([^\]]+)\]:[ \t]*(.*?)(?=^\[\^[^\]]+\]:|\Z)"
@@ -533,7 +519,6 @@ def md_to_typst(markdown, stem):
         return convert(markdown_without_definitions, "main")
     return "\n\n".join(parts)
 
-
 def lint_typst(source):
     """Fail if a document-level par rule other than the two approved ones exists."""
     top_level = [
@@ -546,7 +531,6 @@ def lint_typst(source):
             "Unscoped #set par rules found (expected exactly 2: template and body restore). "
             + details
         )
-
 
 def check_pdf_overlaps(pdf):
     """Flag text lines whose bounding boxes actually overlap vertically."""
@@ -851,8 +835,6 @@ parts.append(r"""
 = Editor's Note
 #v(14pt)
 _Essays on Dalits, Religion and Liberation II_ by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author. This volume continues the work begun with the publication of _Essays on Dalits, Religion and Liberation_ in 2006, marking the tenth anniversary of his death. The first volume was published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), with a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
-
-In October 2025, work began on The Sunil Abraham Project. One of the project's objectives from its inception was to document, preserve and make the writings of A. M. Abraham Ayrookuzhiel more widely accessible. The work has since grown to include the collection of his writings, biographical documentation, publication records and related archival materials, brought together through the A. M. A. Ayrookuzhiel portal.
 
 The present volume brings together nine essays that were not included in the earlier collected volume. These essays first appeared in different journals and publications over several decades, from the 1970s to the 1990s. Most were published in _Religion and Society_, the journal of the Christian Institute for the Study of Religion and Society. One appeared in the _Indian Journal of Theology_, while "Dalit Theology: A Movement of Counter-Culture" was published in _Towards a Dalit Theology_ in 1988. Their republication in one volume makes writings that were previously dispersed across publications and decades available together.
 
