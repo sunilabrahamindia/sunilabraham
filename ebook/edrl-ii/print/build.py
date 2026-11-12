@@ -647,7 +647,7 @@ common = r"""
 )
 #show heading.where(level: 1): it => block(above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 19pt, weight: "bold", hyphenate: false)
-  #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 1em, spacing: 0pt)
   #align(left)[#it]
 ]
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
