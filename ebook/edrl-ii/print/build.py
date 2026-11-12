@@ -685,11 +685,15 @@ parts.append(r"""
   #block(width: 100%)[
     #set par(justify: false, first-line-indent: 0pt, spacing: 0pt, leading: 0.9em)
     #v(8mm)
-    #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
+    #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion]
+    #linebreak()
+    #text(size: 17pt, weight: "bold")[and Liberation II]
     #v(2mm)
     #text(size: 12pt)[A. M. Abraham Ayrookuzhiel]
     #v(9mm)
-    #text(size: 10pt)[First paperback edition published on 29 November 2026 by The Sunil Abraham Project.]
+    #text(size: 10pt)[First paperback edition published on 29 November 2026]
+    #linebreak()
+    #text(size: 10pt)[by The Sunil Abraham Project.]
     #v(2mm)
     #text(size: 10pt)[Website: https://sunilabraham.in]
     #v(1mm)
