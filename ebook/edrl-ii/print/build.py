@@ -545,10 +545,10 @@ common = r"""
   let values = counter(footnote).at(it.note.location())
   let number = numbering(it.note.numbering, ..values)
   grid(
-    columns: (1.25em, 1fr),
-    gutter: 0.35em,
+    columns: (1.4em, 1fr),
+    gutter: 0.3em,
     align: top,
-    [#super[#text(size: 8pt)[#number]]],
+    [#text(size: 9.5pt)[#number.]],
     [
       #set par(
         justify: false,
