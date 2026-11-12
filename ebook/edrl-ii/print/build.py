@@ -636,16 +636,18 @@ if signature_source not in foreword_markdown:
     raise SystemExit("Original foreword signature not found")
 foreword_markdown = foreword_markdown.replace(signature_source, "TSAPFOREWORDSIGNATURETOKEN")
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
-signature_typst = r"""#v(6pt)
-#align(right)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
-  #text(size: 11pt, weight: "bold")[Dr. Y. T. Vinayaraj]
-  #linebreak()
-  #text(size: 9.5pt)[Director,]
-  #linebreak()
-  #text(size: 9pt)[Christian Institute for the Study of]
-  #linebreak()
-  #text(size: 9pt)[Religion and Society]
+signature_typst = r"""#block(breakable: false)[
+  #v(3pt)
+  #align(right)[
+    #set par(justify: false, first-line-indent: 0pt, leading: 0.82em, spacing: 0pt)
+    #text(size: 11pt, weight: "bold")[Dr. Y. T. Vinayaraj]
+    #linebreak()
+    #text(size: 9.5pt)[Director,]
+    #linebreak()
+    #text(size: 9pt)[Christian Institute for the Study of]
+    #linebreak()
+    #text(size: 9pt)[Religion and Society]
+  ]
 ]"""
 if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
     raise SystemExit("Foreword signature marker did not survive conversion")
