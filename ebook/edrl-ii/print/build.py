@@ -665,7 +665,6 @@ parts.append(r"""
 #pagebreak()
 #align(center)[
   #v(25mm)
-  #text(size: 12pt, weight: "bold", tracking: 1.8pt)[THE SUNIL ABRAHAM PROJECT]
   #v(24mm)
   #text(size: 22pt, weight: "bold")[Essays on]
   #linebreak()
