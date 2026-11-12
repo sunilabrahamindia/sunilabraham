@@ -394,7 +394,7 @@ def clean_source(path):
         heading_tokens[token] = match.group(0)
         return token
 
-    body = re.sub(r"(?m)^#{1,6}[ \\t]+[^\\n]+$", protect_heading, body)
+    body = re.sub(r"(?m)^#{1,6}[ \t]+[^\n]+$", protect_heading, body)
 
     body_soup = BeautifulSoup(body, "html.parser")
     for item in body_soup.select('li[id^="note-"]'):
