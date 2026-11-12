@@ -398,7 +398,7 @@ def clean_source(path):
     # Exclude the web-only Contents list and introduction from the print body.
     # The print book generates its own contents page; fragment links are not needed.
     body = re.sub(
-        r"(?is)^.*?<h2\\b[^>]*>\\s*Contents\\s*</h2>.*?(?=<h2\\b)",
+        r"(?is)^.*?<h2\b[^>]*>\s*Contents\s*</h2>.*?(?=<h2\b)",
         "",
         body,
         count=1,
