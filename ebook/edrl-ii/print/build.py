@@ -424,7 +424,10 @@ def clean_source(path):
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
     cleaned = extract_footnotes_and_clean(body)
     for token, heading in heading_tokens.items():
-        cleaned = cleaned.replace(token, heading)
+        # BeautifulSoup may wrap a protected heading token in a paragraph.
+        # Restore it with Markdown block boundaries so Pandoc recognises the
+        # entire line as one heading, not as paragraph text.
+        cleaned = cleaned.replace(token, "\\n\\n" + heading + "\\n\\n")
     return cleaned
 
 
