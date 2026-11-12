@@ -829,6 +829,7 @@ parts.append(r"""
 """ + '#set par(justify: true, leading: 1.15em, first-line-indent: 1.1em, spacing: 16pt)' + r"""
 #set heading(outlined: true)
 = Foreword
+#v(14pt)
 @@FOREWORD_BODY@@
 #pagebreak()
 #set heading(outlined: true)
