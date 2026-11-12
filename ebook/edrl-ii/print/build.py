@@ -941,10 +941,10 @@ for essay in essays:
             "interaction between the God of play and the God of history."
         )
         split_heading_3 = re.compile(
-            r"(?ms)^== 3\\. In the process of reinterpretation and "
-            r"reconstruction of the\\s*\\n+"
+            r"(?ms)^== 3\. In the process of reinterpretation and "
+            r"reconstruction of the\s*\n+"
             r"concept of God or Supreme Self, there will be greater "
-            r"interaction between the God of play and the God of history\\."
+            r"interaction between the God of play and the God of history\."
         )
         converted, heading_3_matches = split_heading_3.subn(
             typst_heading_3, converted, count=1
