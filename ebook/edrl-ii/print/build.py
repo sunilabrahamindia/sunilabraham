@@ -637,16 +637,15 @@ if signature_source not in foreword_markdown:
 foreword_markdown = foreword_markdown.replace(signature_source, "TSAPFOREWORDSIGNATURETOKEN")
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
 signature_typst = r"""#block(width: 100%, breakable: false)[
-  #v(3pt)
   #align(right)[
-    #set par(justify: false, first-line-indent: 0pt, leading: 0.82em, spacing: 0pt)
-    #text(size: 11pt, weight: "bold")[Dr. Y. T. Vinayaraj]
+    #set par(justify: false, first-line-indent: 0pt, leading: 0.75em, spacing: 0pt)
+    #text(size: 10.5pt, weight: "bold")[Dr. Y. T. Vinayaraj]
     #linebreak()
-    #text(size: 9.5pt)[Director,]
+    #text(size: 9pt)[Director,]
     #linebreak()
-    #text(size: 9pt)[Christian Institute for the Study of]
+    #text(size: 8.5pt)[Christian Institute for the Study of]
     #linebreak()
-    #text(size: 9pt)[Religion and Society]
+    #text(size: 8.5pt)[Religion and Society]
   ]
 ]"""
 if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
