@@ -454,20 +454,20 @@ def clean_source(path):
         # HTML headings. This prevents Pandoc from splitting a long heading's
         # final line into ordinary paragraph text.
         match = re.match(
-            r"^(#{1,6})[ \\t]+(.*?)(?:[ \\t]+\\{#([A-Za-z0-9:_-]+)\\})?$",
+            r"^(#{1,6})[ \t]+(.*?)(?:[ \t]+\{#([A-Za-z0-9:_-]+)\})?$",
             heading,
         )
         if not match:
             raise SystemExit(f"Could not parse preserved heading in {path.name}: {heading}")
         level, title, label = match.groups()
         title = typst_escape(title)
-        title = re.sub(r"\\*\\*(.+?)\\*\\*", r"*\\1*", title)
-        title = re.sub(r"(?<!\\*)\\*([^*]+)\\*(?!\\*)", r"_\\1_", title)
+        title = re.sub(r"\*\*(.+?)\*\*", r"*\1*", title)
+        title = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"_\1_", title)
         label_suffix = f" <{label}>" if label else ""
         typst_heading = (
-            "\\n\\n```{=typst}\\n"
-            f"#heading(level: {len(level)})[{title}]{label_suffix}\\n"
-            "```\\n\\n"
+            "\n\n```{=typst}\n"
+            f"#heading(level: {len(level)})[{title}]{label_suffix}\n"
+            "```\n\n"
         )
         cleaned = cleaned.replace("<p>" + token + "</p>", typst_heading)
         cleaned = cleaned.replace(token, typst_heading)
