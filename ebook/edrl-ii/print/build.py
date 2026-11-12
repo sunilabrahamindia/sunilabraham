@@ -888,7 +888,7 @@ for essay in essays:
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
-    parts.append("#set par(first-line-indent: 0pt)\\n")
+    parts.append("#set par(first-line-indent: 0pt)\n")
     parts.append(converted + "\n")
 
 if len(parts) < 2 or "@@FOREWORD_BODY@@" not in parts[1]:
