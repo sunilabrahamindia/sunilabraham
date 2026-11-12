@@ -276,14 +276,18 @@ def extract_footnotes_and_clean(markdown):
     """Convert HTML headings, tables and source-linked notes for Pandoc."""
     soup = BeautifulSoup(markdown, "html.parser")
 
-    # Preserve semantic HTML headings as Markdown headings for Pandoc.
-    # Print output does not need website anchor IDs or in-document links.
+    # Convert HTML headings directly to raw Typst heading elements.
+    # This keeps long headings intact: Pandoc must not split a heading line
+    # and turn its remainder into ordinary paragraph text.
     for heading in soup.find_all(re.compile(r"^h[1-6]$")):
         level = int(heading.name[1])
-        title = inline_markdown(heading).strip()
-        heading.replace_with(NavigableString(
-            "\n\n" + "#" * level + " " + title + "\n\n"
-        ))
+        title = typst_escape(heading.get_text(" ", strip=True))
+        typst_heading = (
+            "\n\n```{=typst}\n"
+            f"#heading(level: {level})[{title}]\n"
+            "```\n\n"
+        )
+        heading.replace_with(NavigableString(typst_heading))
 
     notes = {}
     for item in soup.select('li[id^="note-"]'):
