@@ -274,6 +274,16 @@ def html_table_to_typst(table):
 
 def extract_footnotes_and_clean(markdown):
     """Convert HTML tables and source-linked notes into Pandoc footnotes."""
+    # Preserve complete Markdown headings across this second HTML parse too.
+    # clean_source() restores headings before calling this function, so they
+    # must be protected again before BeautifulSoup can reinterpret the text.
+    heading_tokens = {}
+    def protect_heading(match):
+        token = f"TSAP_FINAL_MARKDOWN_HEADING_{len(heading_tokens)}_PRESERVE"
+        heading_tokens[token] = match.group(0)
+        return token
+
+    markdown = re.sub(r"(?m)^#{1,6}[ \t]+[^\n]+$", protect_heading, markdown)
     soup = BeautifulSoup(markdown, "html.parser")
     notes = {}
     for item in soup.select('li[id^="note-"]'):
@@ -323,6 +333,8 @@ def extract_footnotes_and_clean(markdown):
         tag.unwrap()
 
     cleaned = soup.decode_contents()
+    for token, heading in heading_tokens.items():
+        cleaned = cleaned.replace(token, heading)
     for token, raw_table in raw_tables.items():
         cleaned = cleaned.replace(token, "\n\n" + raw_table + "\n\n")
     cleaned = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", cleaned)
