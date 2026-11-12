@@ -772,11 +772,11 @@ parts.append(r"""
       #text(size: 11pt)[A. M. Abraham Ayrookuzhiel]
     ]
     #v(1.1em)
-    #line(length: 100%, stroke: 0.6pt + luma(150))
+    #line(length: 100%, stroke: 0.5pt + luma(155))
     #v(1.2em)
 
     #grid(
-      columns: (27mm, 1fr),
+      columns: (32mm, 1fr),
       column-gutter: 4mm,
       row-gutter: 0.75em,
       align: (left, left),
@@ -789,12 +789,12 @@ parts.append(r"""
 
       [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
       [#text(size: 9.5pt)[Tito Dutta]],
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRODUCTION ADVISOR]],
-      [#text(size: 9.5pt)[Herbert Paul — Design and Print Production Advisor]],
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT PRODUCTION]],
+      [#text(size: 9.5pt)[Herbert Paul]],
     )
 
     #v(1.2em)
-    #line(length: 100%, stroke: 0.45pt + luma(185))
+    #line(length: 100%, stroke: 0.5pt + luma(155))
     #v(1em)
 
     #align(center)[
@@ -808,6 +808,7 @@ parts.append(r"""
         #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
         #text(size: 8pt, weight: "bold", fill: luma(85))[SOURCE ATTRIBUTION]
         #v(0.25em)
+        #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
         #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
       ]
     ]
