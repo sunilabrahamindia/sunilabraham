@@ -280,6 +280,11 @@ def extract_footnotes_and_clean(markdown):
     # This keeps long headings intact: Pandoc must not split a heading line
     # and turn its remainder into ordinary paragraph text.
     for heading in soup.find_all(re.compile(r"^h[1-6]$")):
+        # Source notes are rendered as page footnotes, not as a separate
+        # end-of-essay section. Remove the heading before converting it to Typst.
+        if heading.get_text(" ", strip=True).casefold() == "notes":
+            heading.decompose()
+            continue
         level = int(heading.name[1])
         title = typst_escape(heading.get_text(" ", strip=True))
         typst_heading = (
