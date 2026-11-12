@@ -274,16 +274,6 @@ def html_table_to_typst(table):
 
 def extract_footnotes_and_clean(markdown):
     """Convert HTML tables and source-linked notes into Pandoc footnotes."""
-    # Preserve complete Markdown headings across this second HTML parse too.
-    # clean_source() restores headings before calling this function, so they
-    # must be protected again before BeautifulSoup can reinterpret the text.
-    heading_tokens = {}
-    def protect_heading(match):
-        token = f"TSAP_FINAL_MARKDOWN_HEADING_{len(heading_tokens)}_PRESERVE"
-        heading_tokens[token] = match.group(0)
-        return token
-
-    markdown = re.sub(r"(?m)^#{1,6}[ \t]+[^\n]+$", protect_heading, markdown)
     soup = BeautifulSoup(markdown, "html.parser")
     notes = {}
     for item in soup.select('li[id^="note-"]'):
@@ -333,8 +323,6 @@ def extract_footnotes_and_clean(markdown):
         tag.unwrap()
 
     cleaned = soup.decode_contents()
-    for token, heading in heading_tokens.items():
-        cleaned = cleaned.replace(token, heading)
     for token, raw_table in raw_tables.items():
         cleaned = cleaned.replace(token, "\n\n" + raw_table + "\n\n")
     cleaned = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", cleaned)
@@ -414,8 +402,6 @@ def clean_source(path):
     for item in source_note_items:
         body_soup.append(item)
     body = body_soup.decode_contents()
-    for token, heading in heading_tokens.items():
-        body = body.replace(token, heading)
 
     note_ids = {
         item.get("id", "")[len("note-"):]
@@ -436,7 +422,10 @@ def clean_source(path):
         if unreferenced:
             problems.append("unreferenced note entries: " + ", ".join(unreferenced))
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
-    return extract_footnotes_and_clean(body)
+    cleaned = extract_footnotes_and_clean(body)
+    for token, heading in heading_tokens.items():
+        cleaned = cleaned.replace(token, heading)
+    return cleaned
 
 
 def md_to_typst(markdown, stem):
@@ -912,35 +901,6 @@ for essay in essays:
 """)
         continue
     body = clean_source(source)
-    if essay["order"] == 1:
-        # Repair the two long numbered headings after HTML extraction. The
-        # parser can move the tail of a Markdown heading into the next paragraph.
-        heading_repairs = [
-            (
-                r"(?ms)^## 2\\. The religious man will reinterpret and "
-                r"reconstruct his concept of.*?secular world\\.",
-                "## 2. The religious man will reinterpret and reconstruct his "
-                "concept of God to undergird his world of meaning in the modern "
-                "secular world. {#reinterpret-god}",
-            ),
-            (
-                r"(?ms)^## 3\\. In the process of reinterpretation and "
-                r"reconstruction of the concept of God or Supreme Self, "
-                r"there will be greater interaction between the God of play "
-                r"and the God of history\\.",
-                "## 3. In the process of reinterpretation and reconstruction "
-                "of the concept of God or Supreme Self, there will be greater "
-                "interaction between the God of play and the God of history. "
-                "{#god-play-history}",
-            ),
-        ]
-        for pattern, complete_heading in heading_repairs:
-            body, repaired = re.subn(pattern, complete_heading, body, count=1)
-            if repaired != 1:
-                raise SystemExit(
-                    "Could not verify or repair a complete numbered section "
-                    "heading in The State of Hinduism in 2000 A.D."
-                )
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
