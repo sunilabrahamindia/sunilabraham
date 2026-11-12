@@ -935,6 +935,25 @@ for essay in essays:
                 "The complete section 2 heading was not found in converted "
                 "Typst; refusing to generate an incorrect print proof."
             )
+        typst_heading_3 = (
+            "== 3. In the process of reinterpretation and reconstruction of "
+            "the concept of God or Supreme Self, there will be greater "
+            "interaction between the God of play and the God of history."
+        )
+        split_heading_3 = re.compile(
+            r"(?ms)^== 3\\. In the process of reinterpretation and "
+            r"reconstruction of the\\s*\\n+"
+            r"concept of God or Supreme Self, there will be greater "
+            r"interaction between the God of play and the God of history\\."
+        )
+        converted, heading_3_matches = split_heading_3.subn(
+            typst_heading_3, converted, count=1
+        )
+        if heading_3_matches != 1 and typst_heading_3 not in converted:
+            raise SystemExit(
+                "The complete section 3 heading was not found in converted "
+                "Typst; refusing to generate an incorrect print proof."
+            )
     parts.append(converted + "\n")
 
 if len(parts) < 2 or "@@FOREWORD_BODY@@" not in parts[1]:
