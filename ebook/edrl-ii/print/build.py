@@ -809,7 +809,7 @@ parts.append(r"""
       #linebreak()
       #text(size: 9.5pt)[Published on 29 November 2026 by The Sunil Abraham Project]
       #linebreak()
-      #text(size: 9.5pt)[On the occasion of the thirtieth death anniversary of A. M. Abraham Ayrookuzhiel]
+      #text(size: 8pt)[On the occasion of the thirtieth death anniversary of A. M. Abraham Ayrookuzhiel]
     ]
     #v(1.1em)
     #align(left)[
@@ -821,7 +821,7 @@ parts.append(r"""
         #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
       ]
     ]
-    #v(0.8em)
+    #v(1.5em)
     #grid(
       columns: (27mm, 1fr),
       column-gutter: 4mm,
