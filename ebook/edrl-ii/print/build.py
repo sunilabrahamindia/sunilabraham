@@ -866,15 +866,15 @@ for essay in essays:
         parts.append("#counter(page).update(1)\n")
     parts.append("#counter(footnote).update(0)\n")
     parts.append(f"= {title}\n")
-    parts.append(f"""#v(5pt)
-#align(center)[#text(size: 8pt, fill: luma(135))[⁂]]
-#v(5pt)
-#text(size: 7.5pt, weight: "bold", tracking: 1.35pt, fill: luma(85))[ORIGINAL PUBLICATION]
+    parts.append(f"""#v(4pt)
+#line(length: 100%, stroke: 0.55pt + luma(175))
+#v(4pt)
+#text(size: 7.5pt, weight: "bold", tracking: 1.1pt, fill: luma(85))[ORIGINAL PUBLICATION]
 #v(2pt)
 #text(size: 9.5pt, style: "italic", fill: luma(65))[{essay['publication_note']}]
 #v(5pt)
-#align(center)[#text(size: 7pt, fill: luma(145))[◆]]
-#v(10pt)
+#line(length: 100%, stroke: 0.55pt + luma(175))
+#v(9pt)
 """)
     if "under-construction.html" in raw:
         parts.append(r"""#block(inset: 12pt, stroke: 0.6pt + luma(175))[
@@ -888,6 +888,7 @@ for essay in essays:
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
+    parts.append("#set par(first-line-indent: 0pt)\\n")
     parts.append(converted + "\n")
 
 if len(parts) < 2 or "@@FOREWORD_BODY@@" not in parts[1]:
