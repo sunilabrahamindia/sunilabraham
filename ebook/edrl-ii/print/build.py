@@ -579,7 +579,7 @@ common = r"""
   if intentional-blank {
     []
   } else if before-first-chapter {
-    line(length: 100%, stroke: 0.5pt + luma(170))
+    []
   } else if chapter-starts-here {
     []
   } else {
