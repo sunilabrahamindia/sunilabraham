@@ -1604,6 +1604,58 @@ This inspection distinguishes the half-title page from the full title page. Alth
 The page sequence is an inspection record, not a final approval of the complete book's front matter or a printer sign-off. Any decision to alter or remove a page must be made separately and must be followed by a fresh proof.
 
 
+
+## Print layout refinements and verified production builds — 12 November 2026
+
+The essay-opening layout and preliminary-page running-head treatment were refined in the existing Typst print builder, `ebook/edrl-ii/print/build.py`. These are print-only layout changes; the original essay wording, publication details, manifest, page dimensions, margins, footnotes, tables and cover content were not changed.
+
+### Essay chapter openings
+
+The essay-opening block now follows this sequence:
+
+1. The essay title remains left-aligned in the existing serif heading style.
+2. A 9 pt vertical gap follows the title.
+3. A thin horizontal rule spans the text measure.
+4. The label `ORIGINAL PUBLICATION:` and the original publication citation are set inline on the same line where space permits. The citation can wrap naturally if it is too long; the label is not split onto a separate line.
+5. A second thin horizontal rule follows the publication citation.
+6. A 9 pt gap follows the second rule before the essay's first section heading.
+
+The publication label and citation are set without first-line indentation. The ordinary essay body paragraph style and its established first-line indentation remain unchanged. The first section heading and essay text retain their existing styles.
+
+### Preliminary-page running heads
+
+The preliminary pages before the first essay, numbered with Roman numerals (i–xii in the proof under review), no longer display the top horizontal running-head rule. The running-head function returns an empty header for this preliminary-page range. This change does not remove the running heads or their rules from the essay section. Existing chapter-opening pages continue to suppress running heads according to the established behaviour.
+
+### Dependency and workflow safeguards
+
+The existing GitHub Actions print workflow was adjusted to reduce unnecessary repeated setup without introducing new dependencies:
+
+- The pip download cache is retained between compatible workflow runs.
+- The Typst executable is cached and reused when present; the download is used only when the cached executable is absent.
+- Python dependencies are checked before pip installation.
+- Pandoc, Poppler utilities and Linux Libertine fonts are checked before APT installation; APT runs only when a required tool or font is missing.
+- The cached Typst directory is explicitly added to the PATH for the build step.
+
+No new Python package, system package or typesetting engine was introduced. GitHub-hosted runners remain temporary; caching reduces repeated downloads but does not guarantee that every dependency will always be available without a fallback installation.
+
+### Build failures and correction
+
+Two intermediate builds failed because paragraph-formatting directives were inserted repeatedly into the generated Typst document. The builder's existing lint check correctly rejected those unscoped paragraph rules. Those injected directives were removed; the paragraph indentation of the essay body was left intact. The corrected build then completed successfully.
+
+- Failed intermediate run after the first paragraph override: [run 43171678736](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43171678736).
+- Failed intermediate run after the escaped newline was corrected but the repeated overrides remained: [run 43171708143](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43171708143).
+- Successful build after restoring the two-rule essay opening and removing the injected paragraph overrides: [run 43171910391](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43171910391).
+- Successful build after adding the 9 pt gap above the first rule and putting the publication label and citation on one line: [run 43172368394](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43172368394).
+- Successful build after removing the top rule from the Roman-numbered preliminary pages only: [run 43173001495](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43173001495).
+
+The successful runs generated the A5 interior, front-cover proof and combined review PDF. Their logs report that the PDF overlap check passed with no colliding lines. The latest verified run is [EDRL II print proof — run 43173001495](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43173001495), associated with commit `158fa055c9a3a8ed236c4ecb180c7987c608382e`.
+
+### Current status and limits of verification
+
+**Build status: successful.** The latest recorded production build completed and uploaded its preview artifact. Automated overlap validation also passed. These results confirm that the current source and workflow generated the PDFs; they do not constitute final visual approval or printer approval. The latest PDF should still be checked page by page, including the Roman-numbered preliminary pages, essay openings, running heads, paragraph indents and page transitions.
+
+The production workflow and its dependency setup should now be treated as established. Further design changes should be limited to the specific requested formatting, made in the existing builder, and checked with a fresh build. Do not change the manuscript or add dependencies as part of routine layout refinements.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
