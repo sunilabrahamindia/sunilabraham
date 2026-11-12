@@ -509,11 +509,21 @@ def md_to_typst(markdown, stem):
         prose = markdown_without_definitions[cursor:match.start()].strip()
         if prose:
             parts.append(convert(prose, f"prose-{index}"))
-        poem = convert(match.group(1).strip(), f"poem-{index}")
+        stanzas = re.split(r"\n[ \\t]*\n(?:[ \\t]*\n)*", match.group(1).strip())
+        stanza_blocks = []
+        for stanza_index, stanza in enumerate(stanzas, start=1):
+            if not stanza.strip():
+                continue
+            stanza_typst = convert(stanza.strip(), f"poem-{index}-stanza-{stanza_index}")
+            stanza_blocks.append(
+                "#block(width: 100%, breakable: false)[\\n"
+                "  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0pt)\\n"
+                "  #align(center)[\\n" + stanza_typst + "\\n  ]\\n]"
+            )
+        poem = ("\\n#v(0.7em)\\n").join(stanza_blocks)
         parts.append(
-            "#block(width: 100%, above: 1em, below: 1em)[\n"
-            "  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0.6em)\n"
-            "  #align(center)[\n" + poem + "\n  ]\n]"
+            "#block(width: 100%, above: 1em, below: 1em)[\\n"
+            + poem + "\\n]"
         )
         cursor = match.end()
     remainder = markdown_without_definitions[cursor:].strip()
