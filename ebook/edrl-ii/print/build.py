@@ -913,28 +913,34 @@ for essay in essays:
         continue
     body = clean_source(source)
     if essay["order"] == 1:
-        # Keep the complete second numbered section heading intact in the print
-        # conversion, even if an intermediate Markdown/HTML parse splits its
-        # final phrase into the following paragraph.
-        expected_heading = (
-            "## 2. The religious man will reinterpret and reconstruct his "
-            "concept of God to undergird his world of meaning in the modern "
-            "secular world. {#reinterpret-god}"
-        )
-        heading_pattern = re.compile(
-            r"(?m)^## 2\. The religious man will reinterpret and "
-            r"reconstruct his concept of[^\n]*(?:\n\n"
-            r"God to undergird his world of meaning in the modern "
-            r"secular world\.)?$"
-        )
-        body, heading_matches = heading_pattern.subn(
-            expected_heading, body, count=1
-        )
-        if heading_matches != 1:
-            raise SystemExit(
-                "Could not verify or repair the complete section 2 heading "
-                "in The State of Hinduism in 2000 A.D."
-            )
+        # Repair the two long numbered headings after HTML extraction. The
+        # parser can move the tail of a Markdown heading into the next paragraph.
+        heading_repairs = [
+            (
+                r"(?ms)^## 2\\. The religious man will reinterpret and "
+                r"reconstruct his concept of.*?secular world\\.",
+                "## 2. The religious man will reinterpret and reconstruct his "
+                "concept of God to undergird his world of meaning in the modern "
+                "secular world. {#reinterpret-god}",
+            ),
+            (
+                r"(?ms)^## 3\\. In the process of reinterpretation and "
+                r"reconstruction of the concept of God or Supreme Self, "
+                r"there will be greater interaction between the God of play "
+                r"and the God of history\\.",
+                "## 3. In the process of reinterpretation and reconstruction "
+                "of the concept of God or Supreme Self, there will be greater "
+                "interaction between the God of play and the God of history. "
+                "{#god-play-history}",
+            ),
+        ]
+        for pattern, complete_heading in heading_repairs:
+            body, repaired = re.subn(pattern, complete_heading, body, count=1)
+            if repaired != 1:
+                raise SystemExit(
+                    "Could not verify or repair a complete numbered section "
+                    "heading in The State of Hinduism in 2000 A.D."
+                )
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
