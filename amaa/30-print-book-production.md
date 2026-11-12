@@ -1900,6 +1900,18 @@ These observations are retained so they are not lost. They are not part of the c
 
 No book source, print-builder file, generated PDF or workflow was changed by adding this review record. This documentation entry itself does not trigger a print build.
 
+## Editor's Note and acknowledgement drafting — 13 November 2026
+
+Work began on the front matter for the print edition, including the drafting of the Editor's Note and an Acknowledgement subsection. The acknowledgement material is being assembled from contributions and support received during the preparation of the volume, including a personal acknowledgement of the author's family. The text is a working draft and has not yet been finalised. The individual acknowledgement wording is not reproduced in this production log.
+
+The draft material was added to the print composition in `ebook/edrl-ii/print/build.py`. The wording was also adjusted during this work, including the removal of a term the editor did not wish to use. No essay text was changed.
+
+- **Print source updated:** `ebook/edrl-ii/print/build.py`.
+- **Print workflow:** EDRL II print proof #215.
+- **Build result:** Successful; the proof artefacts were generated.
+- **Remaining work:** Some spacing issues remain in the front matter. These will be reviewed and corrected shortly.
+- **Editorial status:** The Editor's Note and acknowledgement material remain in draft. The successful build confirms that the source can be typeset; it does not mean the text or layout is final or approved.
+
 <!-- NOTE DO NOT ADD ANYTHING EXCEPT STYLE AND SCRIPT BELOW, DO NOT READ TITO'S EDIT -->
 <style>
 .typst-markdown-table-wrap {
