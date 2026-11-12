@@ -1656,6 +1656,60 @@ The successful runs generated the A5 interior, front-cover proof and combined re
 
 The production workflow and its dependency setup should now be treated as established. Further design changes should be limited to the specific requested formatting, made in the existing builder, and checked with a fresh build. Do not change the manuscript or add dependencies as part of routine layout refinements.
 
+
+## Further corrections, failed attempts and production notes — 12 November 2026
+
+This log records the additional work carried out after the earlier 12 November entries. It includes both successful corrections and failed approaches because the build history is useful when continuing the work in another session. The failures below were not all caused by the same problem: some were incorrect source-matching assumptions, some were conversion-order problems, and some were visual layout defects.
+
+### Title page and preliminary matter
+
+The text `THE SUNIL ABRAHAM PROJECT` was removed from the full title page (PDF page 4). This was a targeted change to the title-page content. The separate page-5 line-break issue was identified but deliberately left for a later pass; it was not silently changed as part of the page-4 correction.
+
+The four-line Vinayaraj signature also required attention. It was splitting across pages, so the intended treatment was to keep the signature block together rather than allow individual lines to be separated by pagination. An earlier negative vertical offset (`above: -24pt`) had caused the signature to overlap the final paragraph. That offset was removed, restoring the original positioning; the signature must be judged in the generated PDF, not assumed correct from the source change alone.
+
+### Footnotes: hanging indents and repeated markers
+
+The paperback footnote treatment was changed to use hanging indents so that wrapped lines align with the footnote text rather than with the note number. This was a print-layout change in the existing builder, not an alteration to the wording of the notes.
+
+A later inspection exposed a separate repeated-footnote problem. The correction was committed as `5f391dc` and triggered print build #180. The purpose of this change was to prevent a repeated footnote reference from being treated as a fresh numbered note. The hanging-indent change and the repeated-reference correction address different aspects of footnote rendering and should not be conflated.
+
+### Orphaned "Notes" heading: conversion-order and matching failures
+
+An unwanted standalone "Notes" heading remained in the output after the notes themselves had been converted into footnotes. The source essay contained two genuine notes; the problem was not that the notes were absent or that the source contained an extra set of notes.
+
+The cause was the order of transformations in the builder. The HTML heading was converted into raw Typst before the later Markdown-heading cleanup ran. The cleanup therefore no longer saw a Markdown heading to remove, leaving the heading in the generated document even though the notes had already become footnotes.
+
+Two attempted corrections then failed for separate reasons:
+
+- The first removal attempt (`a432011`) did not take effect because the heading was protected as a token before the cleanup could remove it. Protecting the token preserved the very heading that needed to be removed; build #182 still showed the problem.
+- The next attempt used an incorrectly escaped regular expression (`e94364e`). The expression did not match the actual Markdown heading, so the intended removal did not occur.
+- The matching expression was corrected in commit `42c23f1`. Build #183 was queued after that change. At the time this entry was written, its resulting PDF had not yet been visually verified; the source correction must not be treated as a confirmed PDF fix until that proof is inspected.
+
+The durable lesson is to account for the builder's actual conversion order and inspect the generated intermediate representation before writing a cleanup rule. A regular expression that looks plausible in Python source may still fail to match if its escaping does not represent the intended newline or heading syntax.
+
+### Heading conversion: failed assumptions and successful correction
+
+A separate heading-formatting experiment failed because the code searched for a heading pattern that was not present in the Pandoc-generated content. Runs #158 and #159 failed during that speculative heading-3 matching attempt; run #160 failed for the same underlying reason, reporting: `The complete section 3 heading was not found...` and exiting with status 1. The failure was in the assumed source pattern, not in Typst's ability to typeset the heading. The builder was returned to the last successful version before a later, narrower correction was made.
+
+A subsequent build (#173) completed technically and generated 175-page PDFs, but inspection showed that the heading was still split. A successful build alone had therefore not proved that the visual defect was fixed. The cause was identified and corrected in the next iteration: build #174 (run ID `43179950408`, commit `75ba5efa`) produced the complete four-line heading together. That result was visually checked. This is an important distinction for future work: build success and visual correctness are separate checks.
+
+### Table-header contrast
+
+The PDF review identified table headings on pages 102–105 with dark grey backgrounds and black text. The text was difficult to read because the header fill was too dark for the default black lettering. The fix was limited to the table-header fill in `ebook/edrl-ii/print/build.py`: the Typst fill changed from `luma(94)` to `luma(235)`. The existing bold black header text, table contents, column widths and other table layout rules were retained.
+
+- **Commit:** `44efdd885638bc9d578878d6011cef3691faea22`
+- **Commit message:** `Improve print table header contrast`
+- **Verification status:** The source change is committed. The separate print-PDF workflow and visual inspection of the regenerated pages are still required before calling the correction verified. The site-index workflow is not evidence that the print PDF was rebuilt.
+
+### Production safeguards for the next session
+
+- Work only in the existing print builder, `ebook/edrl-ii/print/build.py`, unless a specific, demonstrated need requires otherwise.
+- Inspect the current source and the relevant generated PDF page before changing a layout rule. Make one change at a time.
+- Do not repeat dependency or runner-environment troubleshooting. The recovered production environment is to be preserved; no speculative dependency changes, reinstallations or workflow redesigns are part of these formatting fixes.
+- When a build fails, identify the failing step first. A pattern-not-found exception is a builder/source-matching failure; an installation or DNS failure occurs before typesetting and is not evidence of a layout defect.
+- After a successful build, inspect the affected PDF pages. Record a fix as visually verified only after the generated PDF demonstrates the intended result.
+- Keep the page-5 line-break issue separate from the completed page-4 title-page edit. Do not bundle unrelated front-matter changes.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
