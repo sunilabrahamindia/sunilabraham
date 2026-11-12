@@ -546,9 +546,9 @@ common = r"""
   let number = numbering(it.note.numbering, ..values)
   grid(
     columns: (1.25em, 1fr),
-    gutter: 0.25em,
+    gutter: 0.35em,
     align: top,
-    [#number],
+    [#super[#text(size: 8pt)[#number]]],
     [
       #set par(
         justify: false,
@@ -636,7 +636,7 @@ if signature_source not in foreword_markdown:
     raise SystemExit("Original foreword signature not found")
 foreword_markdown = foreword_markdown.replace(signature_source, "TSAPFOREWORDSIGNATURETOKEN")
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
-signature_typst = r"""#block(breakable: false)[
+signature_typst = r"""#block(width: 100%, breakable: false)[
   #v(3pt)
   #align(right)[
     #set par(justify: false, first-line-indent: 0pt, leading: 0.82em, spacing: 0pt)
