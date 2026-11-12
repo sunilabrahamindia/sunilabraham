@@ -1804,6 +1804,102 @@ Only the footnote-marker correction is the active change in this final entry. No
 {% include navbox-amaa.html %}
 
 
+
+## Design and typographic review of combined proof 204 — 13 November 2026
+
+This section records the design, layout and typographic recommendations arising from the complete visual review of the 176-page combined review PDF (proof 204). It is a record of recommendations, not an instruction to make all changes together. Each item must be considered separately, and only the specifically authorised item may be changed. The present working scope is the visual redesign of the **page-5 credit page only**. No other book page is authorised for alteration by this entry.
+
+### Page 5 — credit-page design (first and only current design task)
+
+The page should be treated as a designed book credit/colophon page, not as a legal-status exercise or an administrative form. The review is concerned with visual hierarchy, typography, alignment, spacing and page composition. Do not invent missing printer, typesetter, designer or production details. If a detail has not yet been supplied, leave its wording and presence for the editor to decide; do not fill the gap with guessed information.
+
+Design points to assess on page 5:
+
+- Establish a clear typographic hierarchy between the book title, author, edition/publisher information and the smaller production or contact details.
+- Arrange related information into visually distinct groups, with deliberate vertical spacing between groups.
+- Use a consistent alignment system. Labels and their corresponding details should align cleanly; avoid irregular spacing created by manually positioning individual words.
+- Set a comfortable text measure suitable for the A5 page. Avoid long lines stretching across the full page where a narrower colophon measure would improve balance.
+- Use restrained type-size differences and weight. Secondary information may be smaller, but must remain comfortably legible in print.
+- Use the existing book typeface and typographic identity unless a specific defect justifies a change. Do not introduce decorative fonts.
+- Use rules, if any, sparingly and consistently. Do not add boxes, ornamental borders, icons, colour panels or decorative graphics merely to fill space.
+- Balance the page vertically. Avoid both a crowded block at the top and an excessively scattered arrangement with unexplained empty gaps.
+- Check the page as a single page and as part of the opening spread. Confirm that the page furniture (running head and folio) follows the deliberate preliminary-page treatment.
+- Check that the page remains clear in a monochrome print and that small text has adequate contrast and weight.
+- Preserve the exact approved wording and factual details. This is a layout and style pass, not permission to rewrite the credits or add unconfirmed production information.
+
+The page-5 redesign must be made and reviewed as one isolated change. Do not combine it with changes to the title page, portrait, Foreword, Editor's Note, Contents or essay pages. Do not start a print build until the user explicitly authorises it.
+
+### Other design and composition findings from proof 204 — recorded for later, not authorised now
+
+These observations are retained so they are not lost. They are not part of the current page-5 task.
+
+**Front matter and page architecture**
+
+- The overall front-matter sequence is coherent. Retain the established sequence unless a specific editorial decision requires otherwise.
+- The Foreword currently begins on a left-hand (verso) page. Consider whether it should begin on a right-hand (recto) page, using an intentional blank page if the book's structure and printer's imposition permit it.
+- The Contents begins on a right-hand (recto) page; retain that favourable placement.
+- The Editor's Note and About the Author pages are also positioned on right-hand pages in proof 204. Avoid disturbing their pagination while addressing page 5.
+- The author's portrait would benefit from a discreet caption identifying the person. Any source or image credit must be based on confirmed information, not guessed.
+- Keep intentional blank pages free of running heads and folios.
+
+**Essay openings and running heads**
+
+- Six of the nine essays begin on left-hand (verso) pages in proof 204: essays 2, 3, 4, 5, 6 and 8. Consider a consistent right-hand opening convention for all essays, subject to the final pagination and printer's signature requirements.
+- If recto openings are adopted, use deliberate blank versos rather than ad hoc spacing. Recheck the contents page and all subsequent folios after any pagination change.
+- Preserve the restrained running-head system. Check each essay's running title for fit, clipping, collisions and consistent placement.
+- Chapter-opening pages should retain the agreed absence of running heads.
+
+**Essay-opening label and display typography**
+
+- The label "ORIGINAL P UBLICATION" appears with an unwanted internal gap in the word "PUBLICATION" on all nine essay-opening pages. Inspect the source and correct the spacing/word treatment consistently.
+- Consider a clearer and more natural label such as "Originally published in:" but do not change the wording without approval.
+- Check essay display titles for balanced line breaks and adequate space above and below. Avoid hyphenating words in display titles.
+- Maintain a consistent visual template for all nine essay openings: title, original-publication information and opening text should have predictable hierarchy and spacing.
+
+**Text flow and punctuation**
+
+- Proof 204 contains a one-line carryover at the top of PDF page 144. Review the preceding and following paragraphs and adjust composition to avoid an isolated line where practicable.
+- Review paragraph endings, widows, orphans, short isolated lines and awkward page turns across the whole book. Do not correct them through arbitrary global spacing changes.
+- Remove unintended spaces before question marks, exclamation marks and colons in the affected essay text, after checking against the approved source. This is a copy-proofing item, not a licence to rewrite the author's prose.
+- The standalone heading "Sony !" on PDF page 154 appears to be an accidental editorial remnant. Verify it against the source manuscript before deciding whether it should be removed.
+- Keep paragraph spacing, first-line indentation, line leading and justification consistent. Any global change must be assessed across prose, poetry, tables, footnotes and headings rather than judged from one page.
+
+**Tables**
+
+- Tables on PDF pages 101–105 are generally readable but their composition can be improved.
+- Reassess column widths in relation to the content. Avoid narrow columns that force headings into awkward multi-line fragments.
+- Keep table headings concise, clear and aligned consistently. Do not stretch word spacing through justification in table cells.
+- Align numerical columns consistently and keep descriptive text left-aligned where that improves scanning.
+- Retain the repeated column header when a table continues onto another page.
+- Avoid splitting individual rows across pages where possible.
+- If a table cannot fit legibly at A5 size, consider a redesigned multi-part presentation rather than simply shrinking the type.
+- Review the vertical spacing before and after each table so that it does not interrupt the reading flow.
+
+**Scholarly apparatus and navigation**
+
+- Prepare a subject/name index and verify every page reference against the final printed pagination. The index is a strong scholarly usability improvement; it must be prepared after the main text pagination is stable.
+- Consider a list of tables because the volume contains several substantive tables. This is optional and should be judged against the book's overall front-matter design.
+- Consider an editorial-method note explaining the preparation of this collected edition, including the treatment of original publication texts and any approved corrections. This is an editorial-content decision, not a layout correction.
+- Check the consistency and legibility of footnotes, references, quotations, lists and cross-references. Retain the restrained footnote separator and hanging-indent treatment where it is working.
+
+**Cover and final PDF presentation**
+
+- Proof 204 contains a front-cover image only. The complete cover still needs a separately designed back-cover and spine layout using the printer's confirmed template and dimensions.
+- Assess the back-cover text hierarchy, barcode area, publisher identification and spine typography when the full-wrap cover is prepared. Do not estimate the spine width before final page count, paper stock and binding method are confirmed.
+- For the final digital/archival PDF, add accurate document title and author metadata, subject/keyword metadata and document language.
+- Add useful PDF bookmarks for the Foreword, Editor's Note, About the Author, Contents and each essay.
+- Investigate tagged PDF structure and logical reading order where the production toolchain permits. These are digital accessibility improvements and should not be confused with print-layout requirements.
+- Continue to inspect the complete PDF visually and, where practicable, as a physical A5 proof. A successful automated build is not evidence of visual approval.
+
+### Order of work and scope control
+
+1. Page 5 credit-page visual redesign only.
+2. Review that page in isolation and approve its composition before moving to another item.
+3. Take the next design issue only after the page-5 task is complete and the user selects or authorises it.
+4. Keep every later correction isolated, record the exact page or component affected, and inspect the resulting proof before calling it complete.
+
+No book source, print-builder file, generated PDF or workflow was changed by adding this review record. This documentation entry itself does not trigger a print build.
+
 <!-- NOTE DO NOT ADD ANYTHING EXCEPT STYLE AND SCRIPT BELOW, DO NOT READ TITO'S EDIT -->
 <style>
 .typst-markdown-table-wrap {
