@@ -808,6 +808,8 @@ parts.append(r"""
       #text(size: 9.5pt)[First paperback edition]
       #linebreak()
       #text(size: 9.5pt)[Published on 29 November 2026 by The Sunil Abraham Project]
+      #linebreak()
+      #text(size: 9.5pt)[On the occasion of the thirtieth death anniversary of A. M. Abraham Ayrookuzhiel]
     ]
     #v(1.1em)
     #align(left)[
