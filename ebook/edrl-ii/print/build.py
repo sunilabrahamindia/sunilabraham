@@ -677,37 +677,40 @@ parts.append(r"""
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
 #v(18mm)
-#align(left)[
-  #block(width: 100%)[
-    #set par(justify: false, first-line-indent: 0pt, spacing: 0pt, leading: 1.2em)
-    #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion]
-    #linebreak()
-    #text(size: 17pt, weight: "bold")[and Liberation II]
-    #v(1.2em)
-    #text(size: 12pt)[A. M. Abraham Ayrookuzhiel]
-    #v(1.2em)
-    #text(size: 10pt)[First paperback edition published on 29 November 2026]
-    #linebreak()
-    #text(size: 10pt)[by The Sunil Abraham Project.]
-    #linebreak()
-    #text(size: 10pt)[Website: https://sunilabraham.in]
-    #linebreak()
-    #text(size: 10pt)[Email: sunilabrahamindia\@gmail.com]
-    #linebreak()
-    #text(size: 10pt)[Mobile: +91 96111 00817]
-    #v(1.2em)
-    #text(size: 10pt, style: "italic", fill: luma(75))[Edited by Tito Dutta]
-    #linebreak()
-    #text(size: 10pt, style: "italic", fill: luma(75))[Design and Print Production Advisor: Herbert Paul]
-    #v(1.2em)
-    #text(size: 10pt)[ISBN: 978-93-345-8524-7]
-    #linebreak()
-    #text(size: 10pt)[Printed price: ₹250]
-    #v(1.2em)
-    #text(size: 9pt, style: "italic", fill: luma(75))[Published in India]
-  ]
-]
+#block(width: 100%, height: 170mm)[
+  #set par(justify: false, first-line-indent: 0pt, spacing: 0pt, leading: 1.25em)
+  #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion]
+  #linebreak()
+  #text(size: 17pt, weight: "bold")[and Liberation II]
+  #v(1.1em)
+  #text(size: 12pt)[A. M. Abraham Ayrookuzhiel]
 
+  #v(1fr)
+
+  #set text(size: 10pt)
+  Website: https://sunilabraham.in
+  #linebreak()
+  Email: sunilabrahamindia\@gmail.com
+  #linebreak()
+  Mobile: +91 96111 00817
+  #v(1.2em)
+  #text(style: "italic", fill: luma(75))[Edited by Tito Dutta]
+  #linebreak()
+  #text(style: "italic", fill: luma(75))[Design and Print Production Advisor: Herbert Paul]
+
+  #v(1fr)
+
+  #set text(size: 10pt)
+  First paperback edition published on 29 November 2026
+  #linebreak()
+  by The Sunil Abraham Project.
+  #v(1.2em)
+  ISBN: 978-93-345-8524-7
+  #linebreak()
+  Printed price: ₹250
+  #v(1.2em)
+  #text(size: 9pt, style: "italic", fill: luma(75))[Published in India]
+]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
 #v(1fr)
