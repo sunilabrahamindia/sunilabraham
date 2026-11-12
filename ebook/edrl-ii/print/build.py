@@ -533,7 +533,7 @@ common = r"""
   author: "A. M. Abraham Ayrookuzhiel",
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
-#set text(font: "Linux Libertine O", size: 11pt, lang: "en")
+#set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
 """ + BODY_PAR + r"""
 #set heading(numbering: none)
 #set footnote.entry(
@@ -673,10 +673,6 @@ parts.append(r"""
   #text(size: 22pt, weight: "bold")[Dalits, Religion and Liberation II]
   #v(14mm)
   #text(size: 17pt, weight: "bold")[A. M. Abraham Ayrookuzhiel]
-  #v(18mm)
-  #text(size: 10.5pt)[Edited by]
-  #v(2mm)
-  #text(size: 12pt)[Tito Dutta]
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
