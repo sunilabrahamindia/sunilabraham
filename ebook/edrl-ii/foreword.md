@@ -38,7 +38,7 @@ In a striking verse, the imagery comes alive:
 *With the leaves and flowers thereof*  
 *You make offerings to God.*  
 *If so, what distinctions are there*  
-*Between us?* [^2]
+*Between us?*`#h(0.25em)`{=typst}[^2]
 :::
 
 This evocative imagery prompts us to reflect on the equality inherent in creation, regardless of societal status, pure or impure. In this spirit, the CISRS takes great pride in introducing the profound insights shared by our visionary pioneer. He laid the groundwork for an egalitarian ideology and theological framework that serves as the foundation for our institute. As we gather to read and share these teachings among friends and well-wishers, we commemorate the life and insights of A.M.A. Ayrookuzhiel. May his enduring legacy and critical reflections continue to inspire our readings and engagements.
