@@ -651,15 +651,15 @@ common = r"""
   #align(left)[#it]
 ]
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.2em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 3): it => block(above: 11pt, below: 10pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.2em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
   #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 4): it => block(above: 8pt, below: 7pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.2em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
   #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 """
