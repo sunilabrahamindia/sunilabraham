@@ -921,11 +921,11 @@ for essay in essays:
             "secular world."
         )
         split_heading = re.compile(
-            r"(?ms)^== 2\\. The religious man will reinterpret and "
-            r"reconstruct his concept of\\s*\\n+"
-            r"(?:<reinterpret-god>\\s*)?"
+            r"(?ms)^== 2\. The religious man will reinterpret and "
+            r"reconstruct his concept of\s*\n+"
+            r"(?:<reinterpret-god>\s*)?"
             r"God to undergird his world of meaning in the modern "
-            r"secular world\\."
+            r"secular world\."
         )
         converted, typst_heading_matches = split_heading.subn(
             typst_heading, converted, count=1
