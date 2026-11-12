@@ -905,7 +905,7 @@ We would like to express our sincere gratitude to everyone who generously shared
 
 Our special thanks go to Dr. Y. T. Vinayaraj, Director of the Christian Institute for the Study of Religion and Society (CISRS), and the staff of the Institute for their cooperation, valuable inputs and advice. We are particularly thankful to Dr. Vinayaraj for graciously contributing the Foreword to this volume.
 
-We extend our appreciation to the Principal, faculty members and Mr. Prabu P., Librarian, of the United Theological College, Bengaluru, for their cooperation and support.
+We also thank the Principal, faculty members and Mr. Prabu P., Librarian, of the United Theological College, Bengaluru, for their cooperation and support.
 
 We are grateful to Pranesh Prakash, a distinguished researcher and our former colleague, for his valuable suggestions and practical guidance throughout the production of this book.
 
