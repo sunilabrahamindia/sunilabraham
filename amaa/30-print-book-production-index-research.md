@@ -201,7 +201,6 @@ The candidates below are additional to the Essay 1 board. Subjects already repre
 | Baskaran, P. | Weaver who discusses work, financial security and the limited role of religion in practical life | ☐ |
 | Damayanti, Elisa | Teacher whose account describes restrictions on women's freedom and her Christian faith | ☐ |
 | Gopalan, O. | Freedom fighter who discusses communalism, caste dominance and social justice | ☐ |
-| Gopalan, O. | Freedom fighter; the essay identifies him as O. Gopalan. Retain only one record if this name is already represented above. | ☐ |
 | Janaki | School teacher who speaks about women's freedom, employment and marriage | ☐ |
 | Kokken, Venugopal | Helped the author collect the personal accounts on which the essay is based | ☐ |
 | Krishnan, Arakkan | Weaver who connects workers' rights with collective struggle rather than religious offerings or fate | ☐ |
