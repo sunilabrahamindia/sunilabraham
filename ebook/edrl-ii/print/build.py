@@ -525,7 +525,7 @@ def md_to_typst(markdown, stem):
             )
         poem = ("\n#v(0.5em)\n").join(stanza_blocks)
         parts.append(
-            "#block(width: 100%, above: 0.5em, below: 0.5em)[\n"
+            "#block(width: 100%, above: 0.5em, below: 0.75em)[\n"
             + poem + "\n]"
         )
         cursor = match.end()
@@ -692,7 +692,7 @@ common = r"""
   #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
 ]
-#show heading.where(level: 3): it => block(above: 11pt, below: 10pt, breakable: false)[
+#show heading.where(level: 3): it => block(above: 13pt, below: 10pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
   #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
