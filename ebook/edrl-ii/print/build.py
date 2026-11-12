@@ -273,8 +273,18 @@ def html_table_to_typst(table):
 
 
 def extract_footnotes_and_clean(markdown):
-    """Convert HTML tables and source-linked notes into Pandoc footnotes."""
+    """Convert HTML headings, tables and source-linked notes for Pandoc."""
     soup = BeautifulSoup(markdown, "html.parser")
+
+    # Preserve semantic HTML headings as Markdown headings for Pandoc.
+    # Print output does not need website anchor IDs or in-document links.
+    for heading in soup.find_all(re.compile(r"^h[1-6]$")):
+        level = int(heading.name[1])
+        title = inline_markdown(heading).strip()
+        heading.replace_with(NavigableString(
+            "\n\n" + "#" * level + " " + title + "\n\n"
+        ))
+
     notes = {}
     for item in soup.select('li[id^="note-"]'):
         note_id = item.get("id", "")[len("note-"):]
@@ -384,6 +394,15 @@ def clean_source(path):
     body = "\n".join(lines).strip()
     body = re.sub(r"(?m)^\s*>\s?", "", body)
     body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
+
+    # Exclude the web-only Contents list and introduction from the print body.
+    # The print book generates its own contents page; fragment links are not needed.
+    body = re.sub(
+        r"(?is)^.*?<h2\\b[^>]*>\\s*Contents\\s*</h2>.*?(?=<h2\\b)",
+        "",
+        body,
+        count=1,
+    )
 
     # Protect Markdown ATX headings while BeautifulSoup handles embedded HTML.
     # Parsing Markdown as HTML can otherwise alter heading boundaries and turn
