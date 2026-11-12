@@ -802,7 +802,14 @@ parts.append(r"""
       #linebreak()
       #text(size: 9.5pt)[Published on 29 November 2026 by The Sunil Abraham Project]
     ]
-    #v(0.9em)
+    #v(0.8em)
+    #block(width: 100%)[
+      #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
+      #text(size: 8pt, weight: "bold", fill: luma(85))[SOURCE ATTRIBUTION]
+      #v(0.25em)
+      #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
+    ]
+    #v(0.8em)
     #grid(
       columns: (27mm, 1fr),
       column-gutter: 4mm,
