@@ -760,41 +760,64 @@ parts.append(r"""
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
-#v(18mm)
-#block(width: 100%, height: 170mm)[
-  #set par(justify: false, first-line-indent: 0pt, spacing: 0pt, leading: 1.25em)
-  #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion]
-  #linebreak()
-  #text(size: 17pt, weight: "bold")[and Liberation II]
-  #v(1.1em)
-  #text(size: 12pt)[A. M. Abraham Ayrookuzhiel]
+#v(1fr)
+#align(center)[
+  #block(width: 112mm)[
+    #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
+    #align(center)[
+      #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion]
+      #linebreak()
+      #text(size: 17pt, weight: "bold")[and Liberation II]
+      #v(0.8em)
+      #text(size: 11pt)[A. M. Abraham Ayrookuzhiel]
+    ]
+    #v(1.1em)
+    #line(length: 100%, stroke: 0.6pt + luma(150))
+    #v(1.2em)
 
-  #v(1fr)
+    #grid(
+      columns: (27mm, 1fr),
+      column-gutter: 4mm,
+      row-gutter: 0.75em,
+      align: (left, left),
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
+      [#text(size: 9.5pt)[sunilabraham.in]],
+      [],
+      [#text(size: 9.5pt)[sunilabrahamindia\@gmail.com]],
+      [],
+      [#text(size: 9.5pt)[+91 96111 00817]],
 
-  #set text(size: 10pt)
-  Website: https://sunilabraham.in
-  #linebreak()
-  Email: sunilabrahamindia\@gmail.com
-  #linebreak()
-  Mobile: +91 96111 00817
-  #v(1.2em)
-  #text(style: "italic", fill: luma(75))[Edited by Tito Dutta]
-  #linebreak()
-  #text(style: "italic", fill: luma(75))[Design and Print Production Advisor: Herbert Paul]
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
+      [#text(size: 9.5pt)[Tito Dutta]],
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRODUCTION ADVISOR]],
+      [#text(size: 9.5pt)[Herbert Paul — Design and Print Production Advisor]],
+    )
 
-  #v(1fr)
+    #v(1.2em)
+    #line(length: 100%, stroke: 0.45pt + luma(185))
+    #v(1em)
 
-  #set text(size: 10pt)
-  First paperback edition published on 29 November 2026
-  #linebreak()
-  by The Sunil Abraham Project.
-  #v(1.2em)
-  ISBN: 978-93-345-8524-7
-  #linebreak()
-  Printed price: ₹250
-  #v(1.2em)
-  #text(size: 9pt, style: "italic", fill: luma(75))[Published in India]
+    #align(center)[
+      #text(size: 9.5pt)[First paperback edition]
+      #linebreak()
+      #text(size: 9.5pt)[Published on 29 November 2026 by The Sunil Abraham Project]
+    ]
+    #v(0.9em)
+    #grid(
+      columns: (27mm, 1fr),
+      column-gutter: 4mm,
+      row-gutter: 0.55em,
+      align: (left, left),
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[ISBN]],
+      [#text(size: 9.5pt)[978-93-345-8524-7]],
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED PRICE]],
+      [#text(size: 9.5pt)[₹250]],
+      [],
+      [#text(size: 9pt, style: "italic", fill: luma(75))[Published in India]],
+    )
+  ]
 ]
+#v(1fr)
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
 #v(1fr)
