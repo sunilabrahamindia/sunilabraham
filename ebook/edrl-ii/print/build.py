@@ -812,6 +812,7 @@ At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was wor
   title: none,
   depth: 1,
   target: heading.where(level: 1),
+  number: "1.",
 )
 #pagebreak()
 """)
