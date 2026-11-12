@@ -512,7 +512,7 @@ def md_to_typst(markdown, stem):
         poem = convert(match.group(1).strip(), f"poem-{index}")
         parts.append(
             "#block(width: 100%, above: 1em, below: 1em)[\n"
-            "  #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)\n"
+            "  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0.35em)\n"
             "  #align(center)[\n" + poem + "\n  ]\n]"
         )
         cursor = match.end()
