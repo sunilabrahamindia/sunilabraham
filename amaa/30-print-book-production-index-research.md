@@ -184,6 +184,133 @@ The following subjects appear particularly important to the essay's central argu
 
 Ambedkar does not appear in this essay and is therefore not included as a candidate. Individual deities, traditional terms and examples have not automatically been made separate subject entries.
 
+### Essay 2 — Religion, Spirituality and Aspirations of the People
+
+The candidates below are additional to the Essay 1 board. Subjects already represented there, such as secularism, caste hierarchy, karma, Dharma, superstition and the concept of God, have not been repeated as separate candidates. Their occurrence in this essay can be consolidated later if you select the corresponding heading.
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 2 human-name candidates" tabindex="0">
+
+| Suggested index heading | How the person appears in the essay | Include? |
+|---|---|---|
+| Aravindan, K. | Godown keeper whose views emphasise living together, rejecting superstition and opposing discrimination | ☐ |
+| Ayrookuzhiel, Abraham | Author; identified in the note as the presenter of the paper to the CISRS Biennial Council | ☐ |
+| Balan, A. V. | Slum dweller whose account expresses aspirations for equality of status and opportunity | ☐ |
+| Balan, I. V. | Revolutionary Socialist Party district secretary; discusses working-class struggle and religion | ☐ |
+| Baskaran, P. | Weaver who discusses work, financial security and the limited role of religion in practical life | ☐ |
+| Damayanti, Elisa | Teacher whose account describes restrictions on women's freedom and her Christian faith | ☐ |
+| Gopalan, O. | Freedom fighter who discusses communalism, caste dominance and social justice | ☐ |
+| Gopalan, O. | Freedom fighter; the essay identifies him as O. Gopalan. Retain only one record if this name is already represented above. | ☐ |
+| Janaki | School teacher who speaks about women's freedom, employment and marriage | ☐ |
+| Kokken, Venugopal | Helped the author collect the personal accounts on which the essay is based | ☐ |
+| Krishnan, Arakkan | Weaver who connects workers' rights with collective struggle rather than religious offerings or fate | ☐ |
+| Madhavi | Housewife from Rematheru who discusses caste-based ritual work and the aspiration for equality | ☐ |
+| Mani | Teacher who had to resign her teaching job after marriage | ☐ |
+| Mukundan, M. | School teacher who argues for scientific knowledge and free thinking rather than religion as the basis of social progress | ☐ |
+| Nambiar, Kunhikrishnan | Advocates humanism, equality and free thinking, and criticises religious discrimination | ☐ |
+| Padmini, P. U. | Staff nurse who speaks about women's freedom, employment and independence within marriage | ☐ |
+| Sankaran, P. | Watchman whose inter-religious marriage and wife's treatment by the Church illustrate religious discrimination | ☐ |
+| Shanta Kumari | Chit Fund canvasser who stopped working because she feared calumny | ☐ |
+| Vijayan, Choran | Advocates collective struggle, rational thinking and education over blind faith | ☐ |
+
+</div>
+
+**Name notes:** The text gives some individuals only a single name, initials or a surname. Do not invent missing first names. The two references to O. Gopalan in the essay appear to concern the same freedom fighter and must be one candidate, not two. M. B. K. is identified by initials and office as District Secretary of the Rationalist Forum; the essay does not supply a full name, so it is not expanded here. The text also refers to Morarji by that name only; whether to index this passing reference can be decided during review.
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 2 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| People's aspirations | The accounts of ordinary people and their expectations of life | ☐ |
+| Spirituality of combat | Religious commitment understood as supporting people's struggles and aspirations | ☐ |
+| Individual freedom | Freedom in personal life, marriage, employment and public participation | ☐ |
+| Fraternity | Human solidarity across religious and social divisions | ☐ |
+| Women's freedom and emancipation | Women's employment, mobility, marriage and independence | ☐ |
+| Communalism | Religious division and its effects on freedom, equality and social justice | ☐ |
+| Religious discrimination | Exclusion and unequal treatment within religious communities and institutions | ☐ |
+| Economic upliftment | Material improvement and economic conditions of disadvantaged communities | ☐ |
+| Financial security | Work and economic independence as conditions of a better life | ☐ |
+| Working-class movement | Collective organisation and struggle by workers and peasants | ☐ |
+| Labour unions | Trade union organisation as a means of securing workers' rights | ☐ |
+| Class struggle | Collective struggle against economic and social exploitation | ☐ |
+| Marxism | Marxism as an alternative framework for social change and collective action | ☐ |
+| Rationalism and free thinking | Reason, education and criticism of blind belief | ☐ |
+| Humanism | Human dignity and concern for people beyond religious divisions | ☐ |
+| Exploitation | Political, economic and cultural forms of exploitation | ☐ |
+| Social structures and social change | Institutions and organisations that sustain or obstruct people's aspirations | ☐ |
+| Religion as a social force | The role of religion in relation to people's social aspirations | ☐ |
+| Spirituality of detachment | Detachment contrasted with a spirituality committed to social struggle | ☐ |
+| Study of Hinduism | The need to study Hinduism through people's lived meanings and aspirations | ☐ |
+| Hinduism as a symbol system | Religious symbols through which people understand themselves and the world | ☐ |
+| Religious symbols and changing meanings | Traditional symbols reinterpreted alongside modern symbols and values | ☐ |
+| Hindu-Christian dialogue | Dialogue grounded in contemporary lived experience rather than static historical systems | ☐ |
+| Religion and contemporary society | Hinduism's interaction with modern social and cultural developments | ☐ |
+| Religion and social justice | The capacity of religious traditions to support or obstruct struggles for justice | ☐ |
+| Dialogue and mission | The relationship between Christian participation and Hinduism's own growth | ☐ |
+
+</div>
+
+**Duplicate handling:** Subjects already proposed in Essay 1 are not repeated in this table. In particular, the essay's discussions of *Iswar*, *Karma*, *Dharma*, caste discrimination, superstition, secular values and the changing meanings of religious symbols should be linked to the existing candidates if selected, rather than entered again under slightly different wording.
+
+### Essay 3 — The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue
+
+This essay returns to several subjects already identified in Essays 1 and 2, especially *Sakti*, the concept of God, karma, rebirth, evil spirits, Hindu-Christian dialogue and changing religious meanings. Those are not repeated below as new candidates. The list focuses on additional subjects and distinctions developed in this essay.
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 3 human-name candidates" tabindex="0">
+
+| Suggested index heading | How the person appears in the essay | Include? |
+|---|---|---|
+| Punthanam | Poet whose lines are quoted in connection with human dependence on divine power | ☐ |
+
+</div>
+
+The essay also names religious figures, deities and sacred beings, including Sai Baba, Sai Sankar, Santosh Mai, Mayamma, Muttappan, Someswari Amma, Murugan, Subramanyam, Mukambika, Guruvayoorappan and Venkateswara. These are not placed in the human-name table because the text presents them as divine or sacred figures. If you want named deities and sacred figures indexed, they should be considered as a distinct class of subject entries rather than mixed with human names.
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 3 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| Popular Hindu religious consciousness | The lived beliefs and practices of ordinary Hindus in Chirakkal | ☐ |
+| Religious belief and its affirmation | Ways in which ordinary people express and sustain belief | ☐ |
+| Reasons for religious belief | Wonder, human helplessness, answered prayers, moral fear, guidance, tradition and hope | ☐ |
+| Divine presence in places of worship | Beliefs about the presence of divine power in temples and shrines | ☐ |
+| Temples, kavus and shrines | Places understood as abodes or settings for experiencing divine power | ☐ |
+| Consecration and presence of the deity | Ritual means by which divine presence is believed to be established in objects of worship | ☐ |
+| Idols and symbols of worship | The idol as divine presence or as a symbolic focus for worship | ☐ |
+| Religious rituals and worship | Ritual action as a means of experiencing and relating to divine power | ☐ |
+| Two approaches to religious rituals | The essay's distinction between different understandings and approaches to ritual | ☐ |
+| Purity and pollution | Rules governing sacred places, people, ritual access and social relations | ☐ |
+| Sacred and profane | Division of time, space, people and objects into sacred and non-sacred categories | ☐ |
+| Astrology and divination | Astrological interpretation of divine signs and important life events | ☐ |
+| Religious signs and omens | Signs understood as indications of divine favour, displeasure or warning | ☐ |
+| Ancestor-based religious authority | Belief sustained by the example and teaching of ancestors and earlier religious authorities | ☐ |
+| Religious experience and philosophical systems | The limits of describing popular Hindu belief through classical philosophical categories | ☐ |
+| Advaita Vedanta | Explicit identification with Advaita and the interpretation of popular belief | ☐ |
+| Visishta Advaita | Named as a classical philosophical system in the discussion of popular Hindu experience | ☐ |
+| Dvaita | Named as a classical philosophical system in the discussion of popular Hindu experience | ☐ |
+| Monism and theism | The contrast between monistic language and theistic forms of worship | ☐ |
+| Hindu-Christian dialogue and common values | Possibilities for shared moral and social values across religious traditions | ☐ |
+| Moral consciousness and religion | Religious grounds and legitimation of moral values | ☐ |
+| Inter-caste marriage | Different religious attitudes towards marriages across caste boundaries | ☐ |
+| Women and ritual exclusion | Social discrimination against women through practices of purity and pollution | ☐ |
+| Widows and ritual exclusion | Discriminatory purity practices affecting widows | ☐ |
+| Priesthood and caste | Restrictions and changing aspirations concerning access to temple priesthood | ☐ |
+| Sacred space and hierarchy | Gradations of sanctity within temples and other religious spaces | ☐ |
+| Catholic and Orthodox traditions | Sacred-profane distinctions in worship, ritual, church space and priesthood | ☐ |
+| Protestant tradition | The attempt to abolish sacred hierarchies of time, space, people and objects | ☐ |
+| Hinduism and Protestant influence | Modern Hindu outlooks that reinterpret ritual and sacred-profane distinctions | ☐ |
+
+</div>
+
+**Duplicate handling:** The following subjects recur from earlier essays and should not be added again as new headings: *Sakti*, concept of God, karma, rebirth, evil spirits, superstition, secularism, religious reinterpretation, Hindu-Christian dialogue and social equality. The more specific entries above should be retained only where they identify a distinct discussion rather than merely restating an existing heading.
+
 ## 9. Completion criteria
 
 The exercise will be considered complete when the frequency results have been generated, the candidate terms have been manually reviewed, and the selected entries have been checked against the essays.
