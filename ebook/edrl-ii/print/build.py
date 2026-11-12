@@ -805,7 +805,7 @@ parts.append(r"""
     #v(0.8em)
     #align(left)[
       #block(width: 100%)[
-        #set par(justify: false, first-line-indent: 0pt, leading: 0.2em, spacing: 0pt)
+        #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0pt)
         #text(size: 8pt, weight: "bold", fill: luma(85))[SOURCE ATTRIBUTION]
         #v(0.25em)
         #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
