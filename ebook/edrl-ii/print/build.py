@@ -634,20 +634,25 @@ common = r"""
     []
   } else {
     set text(size: 8pt, fill: luma(85))
-    if calc.even(current-page) {
-      align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+    let header-title = if calc.even(current-page) {
+      [ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     } else if current-chapter != none {
-      let running-title = if current-chapter.body == [The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue] {
+      if current-chapter.body == [The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue] {
         [The Living Hindu Popular Religious Consciousness]
       } else {
         current-chapter.body
       }
-      align(center)[#running-title]
     } else {
-      align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
+      [ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     }
-    v(3pt)
-    line(length: 100%, stroke: 0.5pt + luma(170))
+    // Use a compact stack so the title sits close to the rule while the
+    // rule remains at its existing position in the top margin.
+    stack(
+      dir: ttb,
+      spacing: 3pt,
+      align(center)[#header-title],
+      line(length: 100%, stroke: 0.5pt + luma(170)),
+    )
   }
 }
 #set page(
