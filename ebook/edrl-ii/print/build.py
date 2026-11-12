@@ -385,12 +385,25 @@ def clean_source(path):
     body = re.sub(r"(?m)^\s*>\s?", "", body)
     body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
 
+    # Protect Markdown ATX headings while BeautifulSoup handles embedded HTML.
+    # Parsing Markdown as HTML can otherwise alter heading boundaries and turn
+    # the tail of a long heading into an ordinary paragraph.
+    heading_tokens = {}
+    def protect_heading(match):
+        token = f"TSAP_MARKDOWN_HEADING_{len(heading_tokens)}_PRESERVE"
+        heading_tokens[token] = match.group(0)
+        return token
+
+    body = re.sub(r"(?m)^#{1,6}[ \\t]+[^\\n]+$", protect_heading, body)
+
     body_soup = BeautifulSoup(body, "html.parser")
     for item in body_soup.select('li[id^="note-"]'):
         item.decompose()
     for item in source_note_items:
         body_soup.append(item)
     body = body_soup.decode_contents()
+    for token, heading in heading_tokens.items():
+        body = body.replace(token, heading)
 
     note_ids = {
         item.get("id", "")[len("note-"):]
