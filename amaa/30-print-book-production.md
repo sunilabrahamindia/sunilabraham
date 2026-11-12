@@ -1762,6 +1762,41 @@ The stanza-rendering correction is a general print-builder change for poem block
 
 Continue the source-to-PDF poem audit in reverse order, in batches of two or three poems. For each passage, compare the source's exact line breaks, stanza boundaries, dotted separators and page transitions with the generated PDF. Record any exceptions before making further layout changes. Do not alter poem wording or lineation without separate editorial approval.
 
+
+## Print proof corrections — 13 November 2026
+
+This entry records the three narrowly scoped print-layout corrections made or initiated on 13 November. Each change was limited to the existing print builder, `ebook/edrl-ii/print/build.py`. The manuscript wording was not edited.
+
+### Running-header position
+
+The running-header text was moved further down from the top trim edge to improve its safety distance from the page edge and bring it closer to the horizontal rule. The existing running-head content and the rule were retained.
+
+- **Commit:** `ccecd01e28091c4c7e1d837da59457bbbce2bf06`
+- **Print build:** #201
+- **Result:** The print workflow completed successfully. This change was carried forward into subsequent proofs.
+
+### Heading and following-paragraph separation
+
+A formatting defect was identified in which the final line of a long Markdown heading was being rendered as ordinary body text and continued on the same line as the following paragraph. The affected PDF pages identified in the audit were 34, 45 and 72.
+
+The heading conversion in the print builder was changed so that preserved Markdown headings are emitted as separate Typst heading blocks. An initial commit contained incorrect regular-expression escaping; that attempt was superseded by the corrected conversion.
+
+- **Initial attempt:** `731c203e30f44e0b804ee8ad3f940738ab1befca`
+- **Corrected commit:** `9be75e5b94b12c12079975fdfff99d4b92755a6d`
+- **Print build:** #203
+- **Result:** The build completed successfully. PDF pages 34, 45 and 72 were inspected in the generated proof, and the affected headings were visibly separated from their following paragraphs. The proof remained 176 pages.
+
+### Footnote markers: superscript correction
+
+The audit found that footnote reference markers in the body text were being displayed at the normal body-text size and baseline rather than as superscripts. The print builder was changed to render the markers at 7 pt in superscript. The footnote text and the existing footnote-entry layout were not intentionally changed.
+
+- **Commit:** `fa876a1eb6525641917ba7c8dbe5a6fce5de38fa`
+- **Commit message:** `Superscript EDRL II footnote markers`
+- **Print workflow:** [Run #43289732456 — EDRL II print proof](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43289732456)
+- **Status at the time of this entry:** The workflow had been triggered and was queued. The generated PDF and the visual result had not yet been verified.
+
+Only the footnote-marker correction is the active change in this final entry. No other audit item was included in that commit. The next step is to wait for this print build to complete and inspect the footnote markers in the resulting PDF before treating the correction as verified.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
