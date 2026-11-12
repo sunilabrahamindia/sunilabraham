@@ -905,7 +905,7 @@ We would like to express our sincere gratitude to everyone who generously shared
 
 We are grateful to Dr. Y. T. Vinayaraj, Director of the Christian Institute for the Study of Religion and Society (CISRS), and the staff of the Institute for their cooperation, advice and valuable contributions. We thank Dr. Vinayaraj for graciously contributing the Foreword to this volume.
 
-We also thank the Principal, faculty members and Mr. Prabu P., Librarian, of the United Theological College, Bengaluru, for their cooperation and support.
+We are thankful to the Principal, faculty members and Mr. Prabu P., Librarian, of the United Theological College, Bengaluru, for their cooperation and support.
 
 We are grateful to Pranesh Prakash, a distinguished researcher and former colleague, for his valuable suggestions and practical guidance throughout the production of this book.
 
@@ -913,7 +913,9 @@ Our heartfelt thanks go to M. Kunhikrishnan, Vice President of the Swami Anandat
 
 We wish to acknowledge Sangram Kesari Senapati for his initial guidance during the ISBN registration process with the Raja Rammohun Roy National Agency for ISBN (RRRNA).
 
-I take this opportunity to express my personal gratitude to the family of A. M. Abraham Ayrookuzhiel for giving me the opportunity to be a part of this initiative. I am deeply grateful for their trust, cooperation and support throughout the preparation of this book. My sincere thanks to Mrs Ponnamma Abraham, Sunil Abraham, Matthew Abraham, Jacob Abraham and their family.
+And,
+
+I personally take this opportunity to express my gratitude to the family of A. M. Abraham Ayrookuzhiel for giving me the opportunity to be a part of this initiative. I am deeply grateful for their trust, cooperation and support throughout the preparation of this book. My sincere thanks to Mrs Ponnamma Abraham, Sunil Abraham, Matthew Abraham, Jacob Abraham and their family.
 
 #v(10pt)
 #align(right)[
