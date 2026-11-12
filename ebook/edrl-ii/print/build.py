@@ -427,7 +427,7 @@ def clean_source(path):
         # BeautifulSoup may wrap a protected heading token in a paragraph.
         # Restore it with Markdown block boundaries so Pandoc recognises the
         # entire line as one heading, not as paragraph text.
-        cleaned = cleaned.replace(token, "\\n\\n" + heading + "\\n\\n")
+        cleaned = cleaned.replace(token, "\n\n" + heading + "\n\n")
     return cleaned
 
 
