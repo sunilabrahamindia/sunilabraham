@@ -763,7 +763,7 @@ parts.append(r"""
   #linebreak()
   #text(size: 22pt, weight: "bold")[Dalits, Religion and Liberation II]
   #v(14mm)
-  #text(size: 17pt, weight: "bold")[A. M. Abraham Ayrookuzhiel]
+  #text(size: 17pt)[A. M. Abraham Ayrookuzhiel]
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
@@ -827,12 +827,12 @@ parts.append(r"""
       column-gutter: 4mm,
       row-gutter: 0.55em,
       align: (left, left),
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[ISBN]],
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[ISBN-13 (Paperback)]],
       [#text(size: 9.5pt)[978-93-345-8524-7]],
       [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED PRICE]],
       [#text(size: 9.5pt)[₹250 (Rupees Two Hundred and Fifty Only)]],
       [],
-      [#text(size: 9pt, style: "italic", fill: luma(75))[Published in India]],
+      [#text(size: 9pt, style: "italic", fill: luma(75))[Printed in India]],
     )
   ]
 ]
