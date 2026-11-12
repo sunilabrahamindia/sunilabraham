@@ -76,6 +76,22 @@ The candidate list will be reviewed manually and classified as:
 
 Personal names will be standardised in surname-first order wherever applicable. Names of institutions and organisations will be retained in their recognised forms.
 
+
+### Process followed in the essay-wise review
+
+The candidate review is being conducted essay by essay, using the source text rather than the website's introductory summaries.
+
+1. **Read the essay text.** Where a page contains a separate "Full text" section, only that section is used. A dedicated full-text transcription is read from the author's own opening section through the end of the essay. The author's internal Introduction and Conclusion are included when they are part of the essay.
+2. **Exclude editorial web material.** Website descriptions, page metadata, publication details, navigation, contents lists and styling are not treated as essay content. Notes may be consulted to identify a person or source cited in the essay, but a name found only in unrelated page material is not automatically included.
+3. **Prepare two candidate groups.** Each essay receives a Human names table and a Subjects table. Subjects include concepts, communities, traditions, movements, organisations and institutions.
+4. **Keep candidates selective and contextual.** A candidate is suggested because the essay discusses it substantively or because it is a meaningful named reference. Incidental mentions are not automatically promoted to index headings.
+5. **Do not assign page references yet.** Printed folio references will be established only after the final pagination is fixed.
+6. **Let the editor decide.** Each candidate has an Include? checkbox. The tables are proposals, not approved index entries.
+7. **Consolidate across essays.** Repeated people and subjects are not meant to become duplicate final headings. Variant names and spellings will be recorded under standardised headings; related but distinct concepts will remain separate where the text warrants it.
+8. **Keep the audit trail.** Each essay board records the source scope and notes where a name, variant or possible duplicate needs editorial verification.
+
+The current boards for Essays 1–9 are candidate-selection work, not the final index. Frequency analysis and final page-reference verification remain separate stages and have not been represented as completed.
+
 ## 6. Final subject index
 
 The selected subjects will be organised into a concise scholarly index.
@@ -498,6 +514,230 @@ The essay also names religious figures, deities and sacred beings, including Sai
 </div>
 
 **Duplicate handling:** General headings such as caste hierarchy, untouchability, temple exclusion, pilgrimage, religious practices and religion as an instrument of social power have already appeared in earlier essays. The candidates above are more specific to this empirical study: named village institutions, local festivals, ritual specialists, rites of passage, landholding patterns and the relationship between village religion and landlord power. Keep these only if they offer useful access beyond the broader headings already proposed.
+
+
+### Essay 7 — Dalit Theology: A Movement of Counter-Culture
+
+**Source scope:** The reproduced essay in the dedicated full-text file, from the author's "Introduction" through "Conclusion". The introductory website copy, contents list and publication information are not treated as essay content. The author's own Introduction and Conclusion are included. Notes are consulted only where they identify sources or people cited in the essay.
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 7 human-name candidates" tabindex="0">
+
+| Suggested index heading | Context in the essay | Include? |
+|---|---|---|
+| Ambedkar, B. R. | Dalit political thought, Buddhism, caste annihilation and the historical counter-cultural movement | ☐ |
+| Basham, A. L. | Cited on the history and social position of indigenous communities | ☐ |
+| Buddha, Gautama | Foundational counter-cultural challenge to caste hierarchy and status by birth | ☐ |
+| Chinnayya | Figure in the Madiga origin narrative concerning the degradation of Mala and Madiga communities | ☐ |
+| Durkheim, Émile | Cited in relation to the social and cultural dimensions of religious life | ☐ |
+| Iyer, V. R. Krishna | Cited on the contradiction between legal equality and social injustice | ☐ |
+| Jambavant | Ancestor figure in Madiga origin traditions discussed in the essay | ☐ |
+| Joshi, Barbara R. | Cited for research and documentation concerning Dalit movements and social conditions | ☐ |
+| Khare, R. S. | Cited for studies of Chamar identity, ideology and protesting ascetics | ☐ |
+| Kumar, Krishna | Cited on the representation of Dalits in educational curricula | ☐ |
+| Manikka Vasagar | Tamil saint and poet associated with the Tiruvasagam and the counter-cultural tradition | ☐ |
+| Nagarjuna | Named among the historical sages associated with the counter-cultural stream | ☐ |
+| Oddie, G. A. | Cited for work on social protest and nineteenth-century movements | ☐ |
+| Pākkanar | Figure in Kerala folk tradition associated with the ancestry and history of Pulayas and Parayas | ☐ |
+| Ravidas | Named among medieval low-caste or untouchable reformers and thinkers | ☐ |
+| Romila Thapar | Cited on interpretations of Ravana, Mahabali and pre-Aryan social formations | ☐ |
+| Sarapada | Named among the historical Siddhar and counter-cultural figures | ☐ |
+| Sahi, Jyoti | Christian artist whose interpretation of the Mahabali myth is discussed and criticised | ☐ |
+| Siddhalingiah | Dalit poet from Karnataka whose poetry expresses cultural rejection and political assertion | ☐ |
+| Sivavakkiyar | Siddhar who challenged caste distinctions and Brahmanical textual authority | ☐ |
+| Thiruvalluvar | Poet associated with the Tirukkural and the anti-hierarchical cultural stream | ☐ |
+| Tirumular | Siddhar whose statement on one community and one God is cited | ☐ |
+| Wilson | Author cited through *Twice Alienated* in the discussion of Christian Dalits and the Church | ☐ |
+| Phule, Jyotirao | Historical reformer associated with the counter-cultural movement in Maharashtra | ☐ |
+| Periyar, E. V. Ramaswamy | Reform leader associated with anti-Brahminical and social equality movements in Tamil Nadu | ☐ |
+
+</div>
+
+**Name notes:** Some names appear in the essay as historical or religious figures rather than contemporary individuals. "Siddhars" is a collective tradition, not a single person. Jambavant and Pākkanar are retained as named figures in the essay's discussion of community origin traditions; their eventual treatment may be as subject entries rather than human-name entries. The essay uses variant spellings for some names, including Siddhalingiah/Siddalingaiah and Tiruvalluvar/Thiruvalluvar; these should be standardised only after checking the book's preferred authority forms.
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 7 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| Dalit theology | Theology understood as the meanings, expectations and self-understanding emerging from Dalit experience | ☐ |
+| Dalit counter-culture | Cultural response challenging the dominant Brahmanical order | ☐ |
+| Dalit experience of dependency | Material, political, educational, legal and religio-cultural powerlessness | ☐ |
+| Material dependency | Landlessness, indebtedness, bonded labour and restricted economic mobility | ☐ |
+| Dalit education and curriculum | Educational exclusion and the absence or distortion of Dalit histories in textbooks | ☐ |
+| Religio-cultural dependency | Exclusion from temples, churches, burial grounds and cultural institutions | ☐ |
+| Christian Dalits | Caste discrimination within Christian communities and churches | ☐ |
+| Dalit self-image | Internalised inferiority, loss of self-respect and powerlessness | ☐ |
+| Dalit historical consciousness | Reconstruction of history through material evidence and Dalit traditions | ☐ |
+| Autochthonous traditions | Dalit myths, songs, proverbs and cult forms as sources of cultural identity | ☐ |
+| Brahmanical culture and religion | Dominant cultural and religious order based on hierarchy and purity-pollution | ☐ |
+| Purity and pollution | Ritual ideology sustaining social hierarchy and exclusion | ☐ |
+| Sacred-profane dichotomy | Religious and social division challenged by Dalit theology | ☐ |
+| Dalit myths, songs and proverbs | Folk sources preserving memories of conflict, identity and resistance | ☐ |
+| Dalit cultural identity | Recovery and affirmation of a distinct historical and cultural identity | ☐ |
+| Dalit movements and reform | Nineteenth- and twentieth-century movements challenging caste dominance | ☐ |
+| Buddhist counter-culture | Buddhism as a historical challenge to Brahmanical hierarchy | ☐ |
+| Siddhar and Lingayat traditions | Anti-hierarchical religious traditions within South Indian history | ☐ |
+| Bhakti traditions and caste | Reformist religious movements challenging caste distinctions | ☐ |
+| Islam and Sikhism as counter-cultural streams | Religious traditions presented as strengthening resistance to Brahmanical dominance | ☐ |
+| Christian missions and social equality | Missionary participation in movements for Dalit emancipation | ☐ |
+| Dalit liberation and social structure | The relationship between cultural transformation and material/political liberation | ☐ |
+| Landlessness and bonded labour | Economic conditions sustaining Dalit dependency | ☐ |
+| Caste discrimination in law and administration | Unequal access to justice and enforcement of legal protections | ☐ |
+| Dalit theology as transforming praxis | Theology as action to transform social reality rather than doctrinal reflection alone | ☐ |
+| Folk traditions and historical reconstruction | Reading myths and rituals as evidence of suppressed histories | ☐ |
+| Mahabali and Onam in Dalit folk tradition | Competing interpretations of Mahabali and Pākkanar in Kerala memory | ☐ |
+| Madiga origin traditions | Narratives of Jambavant, Chinnayya and the origins of caste status | ☐ |
+| Dalit theology and Indian Christian theology | Critique of theology's engagement with dominant cultural traditions | ☐ |
+| Dalit identity and material independence | The relation between self-determination and control over material resources | ☐ |
+
+</div>
+
+**Duplicate handling:** General entries such as caste hierarchy, untouchability, religion and social power, Hindu religious practices, and religious traditions of oppressed communities have appeared in earlier essays. The entries above are more specific to this essay's framework of Dalit theology, dependency, counter-culture, historical reconstruction and the interpretation of folk traditions.
+
+### Essay 8 — Dalit Liberation — Some Reflections on Their Ideological Predicament
+
+**Source scope:** Only the author's essay text inside the source file's "Full text" section is used. The website's introductory description, contents, publication details and page styling are excluded. The essay's own internal headings are part of the source text.
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 8 human-name candidates" tabindex="0">
+
+| Suggested index heading | Context in the essay | Include? |
+|---|---|---|
+| Agnivesh, Swami | Organised a march supporting Dalit temple entry at Nathdwara | ☐ |
+| Ambedkar, B. R. | Advocated independent Dalit struggle, political representation and rejection of caste authority | ☐ |
+| Basavalingappa, B. | Former Karnataka minister and Ambedkarite who welcomed the Sankaracharya's position | ☐ |
+| Gandhi, Mohandas Karamchand | Advocate of Dalit integration within the Hindu community | ☐ |
+| Jagjivan Ram | Dalit leader whose experience is cited in relation to limits of integration within Hindu structures | ☐ |
+| Kosambi, D. D. | Historian cited on Hindu religious symbols and cultural conflict | ☐ |
+| Malcolm X | Cited for the idea of an oppressed nationality | ☐ |
+| Roy, M. N. | Cited on the relationship between ideology, economic conditions and social existence | ☐ |
+| Sivanandan, P. | Researcher whose studies document caste-class economic dualism in Kerala | ☐ |
+| Thapar, Romila | Cited in the discussion of Hinduism as a common value system | ☐ |
+| Thirtha, Swami Anand | Gandhian campaigner against untouchability who later questioned the Gandhian approach | ☐ |
+| Vakil, A. K. | Researcher whose survey found village temples inaccessible to Dalits | ☐ |
+| Niranjan Dev, Swami | Sankaracharya of Puri whose opposition to Dalit temple entry at Nathdwara frames the essay | ☐ |
+
+</div>
+
+**Name notes:** The essay refers to Gandhi and Ambedkar repeatedly; these are existing consolidated candidates, not new people in the overall register. "Swami Anand Thirth" and "Swami Anand Tirth" occur in related source material; verify the preferred form before final standardisation. The source prints "Vakil A. K."; retain that form pending authority verification.
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 8 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| Gandhian integration and Ambedkarite struggle | Contrasting approaches to Dalit liberation | ☐ |
+| Dalit liberation and ideological choice | The essay's central question concerning the route to emancipation | ☐ |
+| Dalit temple-entry movement at Nathdwara | Conflict over Dalit entry into the Nathdwara temple | ☐ |
+| Economic dualism between Dalits and caste Hindus | Persistent differences in land, employment, income and education | ☐ |
+| Caste-class identity | Interlocking caste and class relations in Kerala's socio-economic structure | ☐ |
+| Dalit landholding and employment | Unequal access to land and work opportunities | ☐ |
+| Dalit economic integration | Limits of economic programmes intended to integrate Dalits into wider society | ☐ |
+| Caste discrimination in public institutions | Untouchability within the judiciary, police and civil administration | ☐ |
+| Dalit atrocities and social conflict | Violence and exclusion as evidence against claims of social integration | ☐ |
+| Brahminical authority | Religious authority and value systems sustaining caste hierarchy | ☐ |
+| Hindu priesthood and ritual authority | Control over priesthood, rites and rituals as a barrier to equality | ☐ |
+| Destruction of the caste system | Ambedkar's argument that caste must be dismantled for emancipation | ☐ |
+| Dalit counter-culture | Independent cultural, religious and political institutions as a route to liberation | ☐ |
+| Dalit political representation | Community representation and participation in structures of power | ☐ |
+| Dalit identity and independent organisation | Separate political, educational, religious and labour organisations | ☐ |
+| Dalit movement as a secular movement | The argument that Dalit struggle challenges religious control and institutional power | ☐ |
+| Secularism and religious property | Divesting religious institutions of wealth and power over citizens | ☐ |
+| Religion and class-status differences | Different value systems within the same religious tradition | ☐ |
+| Hinduism as a Brahminical value system | Critique of treating Hinduism as a single shared system of meanings | ☐ |
+| Religious affiliation and dominant interests | Use of religious identity to subordinate oppressed groups to dominant interests | ☐ |
+| Caste structure as religious structure | The essay's argument that Hindu religious structures are mediated through caste | ☐ |
+| Hindu consolidation | Political construction of a common Hindu identity in response to other religious traditions | ☐ |
+| Heterodox religious traditions | Buddhism, Sikhism and Bhakti movements as alternatives to orthodox priestly authority | ☐ |
+| Dalit rights and political power | The relationship between self-organisation, struggle and access to power | ☐ |
+| Temple access and substantive equality | Difference between nominal entry and participation in ritual authority, wealth and administration | ☐ |
+| Nathdwara temple controversy | Government response, protest and conflict surrounding the temple-entry campaign | ☐ |
+
+</div>
+
+**Duplicate handling:** Broad headings such as Dalit liberation, caste discrimination, Brahminical authority, Dalit counter-culture and religion as an instrument of social power have appeared in earlier essays. The more specific candidates here concern the Nathdwara controversy, economic dualism, secularism, religious property and the ideological contrast between integration and independent struggle.
+
+### Essay 9 — The Ideological Nature of the Emerging Dalit Consciousness
+
+**Source scope:** Only the author's essay text inside the "Full text" section is used. The website's introductory description, contents, publication details and page styling are excluded. The essay's own Introduction, internal headings and Conclusion are included. Notes are consulted only to identify cited works and people.
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 9 human-name candidates" tabindex="0">
+
+| Suggested index heading | Context in the essay | Include? |
+|---|---|---|
+| Ambedkar, B. R. | Central influence on Dalit ideology, political identity and the analysis of caste contradiction | ☐ |
+| Durkheim, Émile | Cited on society as an idea people have of themselves | ☐ |
+| Gandhi, Mohandas Karamchand | Criticised for advocating Dalit integration within Hinduism | ☐ |
+| Irschick, Eugene F. | Cited on Tamil revivalism and anti-Brahminical traditions | ☐ |
+| Khare, R. S. | Cited on Chamar identity, ideology and radical ascetic traditions | ☐ |
+| Kosambi, D. D. | Cited on the historical interpretation of Hindu religious symbols | ☐ |
+| Malcolm X | Cited on the political concept of an oppressed nationality | ☐ |
+| Naipaul, V. S. | Cited on the separation between India's modern institutions and its social organisation | ☐ |
+| Phule, Jyotirao | Identified as a reformer who recognised caste contradiction | ☐ |
+| Pope, G. U. | Cited on Saiva Siddhanta and Tamil religious literature | ☐ |
+| Ramaswamy, E. V. Periyar | Identified as a reformer who challenged caste and Brahminical authority | ☐ |
+| Sahi, Jyoti | Christian artist whose interpretation of the Mahabali myth is discussed | ☐ |
+| Siddhalingiah | Dalit poet whose poetry expresses cultural and political revolt | ☐ |
+| Sivanandan, P. | Cited in the essay's discussion of economic and caste-class conditions in Kerala | ☐ |
+| Thapar, Romila | Cited on interpretations of Ravana and Mahabali in relation to pre-Aryan societies | ☐ |
+| Tirumular | Siddhar whose teaching on one community and one God is quoted | ☐ |
+| Vakil, A. K. | Cited in a note concerning temple access and Dalit exclusion | ☐ |
+| Vijayanath, Babu | Cited through a report on the socio-economic conditions of Scheduled Castes and Scheduled Tribes | ☐ |
+| Krishna Kumar | Cited on the educational experience of Scheduled Castes and Tribes | ☐ |
+
+</div>
+
+**Name notes:** Ambedkar, Gandhi and Phule have already appeared in earlier boards and should be consolidated, not counted as new people in the overall register. "Periar" in the source is standardised here provisionally as Periyar; "Mahatma Phuley" is treated as Jyotirao Phule. Siddhalingiah/Siddalingaiah and the forms of Tiruvalluvar/Tiruvelluvar should be checked against the preferred authority forms before finalisation.
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 9 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| Emerging Dalit consciousness | The growth of a shared ideological awareness among Dalit communities | ☐ |
+| Dalit ideology | Ideas, values and perceptions shaping the emerging movement | ☐ |
+| Dalits as an oppressed nationality | The argument that shared oppression and historical experience constitute a political nationality | ☐ |
+| Dalit historical consciousness | Recovery of suppressed history through folk traditions and material evidence | ☐ |
+| Dalit identity and self-determination | The right and responsibility to shape collective destiny | ☐ |
+| Indigenous inhabitants and historical dispossession | The account of displacement, subordination and loss of cultural individuality | ☐ |
+| Folk songs, stories and myths as historical sources | Traditions preserving memories of conflict, defeat and cultural survival | ☐ |
+| Brahminical civilisation and caste contradiction | Caste as the principal cultural contradiction shaping economic and political relations | ☐ |
+| Caste contradiction and class contradiction | The argument that class relations cannot be understood apart from caste | ☐ |
+| Failure of development ideology | The limits of government development programmes in changing Dalit conditions | ☐ |
+| Gandhian integration | Critique of the policy of integrating Dalits within the Hindu community | ☐ |
+| Failure of the Left movement | The failure to address caste within class-based political organisation | ☐ |
+| Dalits and trade unions | Caste divisions in union membership, leadership and political participation | ☐ |
+| Anti-Brahminism | Cultural expression of the emerging Dalit movement | ☐ |
+| Dalit poetry and cultural resistance | Poetry as a vehicle for rejecting dominant cultural values | ☐ |
+| Dalit cultural institutions | Schools, colleges, associations, clubs, journals and newspapers organised by Dalits | ☐ |
+| Dalit political organisation | New parties and leadership emerging alongside older organisations | ☐ |
+| Dalitism and collective identity | Dalit identity as a basis for unity across language, religion and ideological differences | ☐ |
+| Adi-Hindu and Mool Bharati identity | Recovery of indigenous identity and historical heritage | ☐ |
+| Dalit and tribal traditions | Folk and religious traditions as resources for reconstructing history | ☐ |
+| Religious symbols and cultural conflict | Competing interpretations of symbols and myths in dominant and Dalit traditions | ☐ |
+| Mahabali and Pākkanar traditions | Kerala folk memory as a source of Dalit historical identity | ☐ |
+| Onam and Dalit identity | The interpretation of Onam and Mahabali as a memory of an egalitarian past | ☐ |
+| Madiga origin myths | Narratives concerning Jambavant, Chinnayya and the origins of caste | ☐ |
+| Buddhism and anti-Brahminical tradition | Buddhism as a historical counter-cultural movement | ☐ |
+| Siddhar and Saiva traditions | South Indian religious traditions challenging caste and Brahminical authority | ☐ |
+| Lingayat movement | A medieval religious movement associated with equality and opposition to caste | ☐ |
+| Bhakti movements and caste reform | Reformist traditions associated with Basava, Kabir, Ramanand, Ravidas and Maratha saints | ☐ |
+| Christian theology and Dalit traditions | Critique of Christian theology's neglect of Dalit folk traditions and historical experience | ☐ |
+| Dalit theology and cultural transformation | Theology as a process of building identity and transforming social reality | ☐ |
+| Homo hierarchicus and homo democraticus | The contrast between hierarchical social order and democratic transformation | ☐ |
+
+</div>
+
+**Duplicate handling:** Broad entries such as Dalit theology, Dalit counter-culture, caste hierarchy, Brahminical religion, Dalit liberation, folk traditions and Buddhism as a counter-cultural stream have appeared earlier. The entries above focus on the specific formulation of Dalit consciousness as an oppressed nationality, the failure of development and Left ideologies, Dalit cultural institutions, and the use of folk memory to reconstruct identity.
+
 
 ## 9. Completion criteria
 
