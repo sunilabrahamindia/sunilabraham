@@ -805,7 +805,7 @@ parts.append(r"""
     #v(0.8em)
     #align(left)[
       #block(width: 100%)[
-        #set par(justify: false, first-line-indent: 0pt, leading: 0.2em, spacing: 0pt)
+        #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
         #text(size: 8pt, weight: "bold", fill: luma(85))[SOURCE ATTRIBUTION]
         #v(0.25em)
         #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
@@ -820,7 +820,7 @@ parts.append(r"""
       [#text(size: 8pt, weight: "bold", fill: luma(85))[ISBN]],
       [#text(size: 9.5pt)[978-93-345-8524-7]],
       [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED PRICE]],
-      [#text(size: 9.5pt)[₹250 (250 rupees only)]],
+      [#text(size: 9.5pt)[₹250 (Rupees Two Hundred and Fifty Only)]],
       [],
       [#text(size: 9pt, style: "italic", fill: luma(75))[Published in India]],
     )
