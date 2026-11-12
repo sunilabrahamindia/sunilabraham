@@ -903,7 +903,7 @@ The work of collecting and documenting his writings remains ongoing. Further ess
 
 We would like to express our sincere gratitude to everyone who generously shared their valuable inputs and extended their kind cooperation during the production of this book. The names mentioned below represent only a few among the many people whose contributions and support we gratefully acknowledge.
 
-We are grateful to Dr. Y. T. Vinayaraj, Director of the Christian Institute for the Study of Religion and Society (CISRS), and the staff of the Institute for their cooperation, advice and valuable contributions. Dr. Vinayaraj also deserves particular thanks for graciously contributing the Foreword to this volume.
+We are grateful to Dr. Y. T. Vinayaraj, Director of the Christian Institute for the Study of Religion and Society (CISRS), and the staff of the Institute for their cooperation, advice and valuable contributions. We thank Dr. Vinayaraj for graciously contributing the Foreword to this volume.
 
 We also thank the Principal, faculty members and Mr. Prabu P., Librarian, of the United Theological College, Bengaluru, for their cooperation and support.
 
