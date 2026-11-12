@@ -643,7 +643,12 @@ common = r"""
     if calc.even(current-page) {
       align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     } else if current-chapter != none {
-      align(center)[#current-chapter.body]
+      let running-title = if current-chapter.body == [The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue] {
+        [The Living Hindu Popular Religious Consciousness]
+      } else {
+        current-chapter.body
+      }
+      align(center)[#running-title]
     } else {
       align(center)[ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     }
