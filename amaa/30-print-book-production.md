@@ -1710,6 +1710,58 @@ The PDF review identified table headings on pages 102–105 with dark grey backg
 - After a successful build, inspect the affected PDF pages. Record a fix as visually verified only after the generated PDF demonstrates the intended result.
 - Keep the page-5 line-break issue separate from the completed page-4 title-page edit. Do not bundle unrelated front-matter changes.
 
+
+## Running-title correction and poem stanza audit — 12 November 2026
+
+### Essay 3 running title
+
+The running title for the third essay, *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue*, was too long for the available running-head space. In the generated PDF it wrapped onto a second line and the first line was clipped at the top of the page. The first two essays checked at the same time did not show this problem, so a global running-head change was not justified.
+
+The print builder now uses the shorter running title **The Living Hindu Popular Religious Consciousness** for this essay only. The full essay title remains unchanged in the essay opening, contents and source manuscript. No other essay's running title was changed.
+
+- **Commit:** `d64e0f4ce3f564ccf16e6dc159d80c66dcc5dda4`
+- **Commit message:** `Shorten EDRL II essay 3 running title only`
+- **Print workflow:** [Run #191 — EDRL II print proof](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43194151925)
+- **Verification:** The workflow completed successfully and generated the print-preview artifact. The source change was confirmed; visual verification of the revised running title remains part of the full proof review.
+
+### Poem line and stanza audit: final essay
+
+A reverse-order comparison was begun using the source essay, *The Ideological Nature of the Emerging Dalit Consciousness*, and the generated print PDF. The purpose was to check whether the print conversion preserved explicit line breaks and blank-line stanza divisions.
+
+The first three poems/verse passages checked were:
+
+1. **Pambatti Cittar's final poem:** The source contains three stanzas. The individual line breaks were preserved, but the first and second stanzas did not have a sufficiently clear visual separation in the print PDF. The third stanza begins on the following page.
+2. **Siddhalingiah's *Dalitaru Barvaru*:** The source has several distinct verse sections, separated by blank lines and dotted separators. The print presentation made some of these sections appear too continuous; the stanza gaps were not sufficiently distinct.
+3. **Buddha's four-line verse:** The four lines appeared as one stanza, consistent with the source. No correction was identified for this verse.
+
+The audit identified a poem-layout issue rather than a need to rewrite the poems. The source wording, punctuation, line order and explicit line breaks were not changed.
+
+### Poem stanza rendering: builder correction and iterations
+
+The issue was traced to the poem conversion in `ebook/edrl-ii/print/build.py`. The earlier conversion passed an entire poem to Pandoc as one segment and relied on paragraph spacing to make stanza boundaries visible. That did not provide sufficiently reliable control over the distinction between lines within a stanza and the separation between stanzas.
+
+The builder was changed to split each poem at its source blank lines, convert each stanza separately, and place the stanza blocks in sequence with explicit vertical space between them. The line spacing within each stanza remains separately controlled. Stanza boundaries are therefore an explicit part of the print layout rather than relying only on generic paragraph spacing.
+
+Several proof iterations were needed:
+
+- An initial increase in paragraph spacing improved the gap but was not a satisfactory final solution on its own.
+- Treating each stanza as a non-breakable block caused an undesirable pagination result, including an almost empty page. That approach was not retained.
+- The stanza blocks were then allowed to paginate naturally while keeping explicit space between them. The stanza gap and outer poem-block spacing were reduced to balance visual separation with page flow.
+
+The final implementation keeps stanza divisions visible without forcing every stanza to remain on a single page. A stanza may continue across a page boundary where the available space requires it; the source stanza division remains represented in the layout.
+
+- **Final builder commit:** `41070d71342933f07ab33a435b8811b7c2cb6e05`
+- **Commit message:** `Keep poem stanzas distinct without forcing page breaks`
+- **Final print workflow:** [Run #197 — EDRL II print proof](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/43196640862)
+- **Result:** Successful build; preview artifact `edrl-ii-print-preview-197` was generated.
+- **Visual check:** The final essay's Pambatti Cittar poem was inspected in the generated proof (PDF pages 174–175). The three stanza divisions are visibly distinct. The poem wording and line order remain unchanged. The proof remained 176 pages; the nearly empty page caused by the earlier non-breakable-block experiment was not present in the final version.
+
+### Scope and remaining audit
+
+The stanza-rendering correction is a general print-builder change for poem blocks, not an editorial change to one poem. It should benefit other poems in the book wherever blank lines in the source mark stanza boundaries. The final proof confirms the visual result for the inspected poem, but it does not establish that every poem in all nine essays has been checked.
+
+Continue the source-to-PDF poem audit in reverse order, in batches of two or three poems. For each passage, compare the source's exact line breaks, stanza boundaries, dotted separators and page transitions with the generated PDF. Record any exceptions before making further layout changes. Do not alter poem wording or lineation without separate editorial approval.
+
 ## See also
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
