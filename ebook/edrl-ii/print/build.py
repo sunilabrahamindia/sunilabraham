@@ -425,13 +425,8 @@ def clean_source(path):
     cleaned = extract_footnotes_and_clean(body)
     for token, heading in heading_tokens.items():
         # BeautifulSoup wraps standalone Markdown headings in paragraph tags.
-        # Remove that wrapper before restoring the heading as a Markdown block.
-        cleaned = re.sub(
-            r"<p>\\s*" + re.escape(token) + r"\\s*</p>",
-            "\n\n" + heading + "\n\n",
-            cleaned,
-            flags=re.I,
-        )
+        # Remove the wrapper before restoring the Markdown heading.
+        cleaned = cleaned.replace("<p>" + token + "</p>", "\n\n" + heading + "\n\n")
         cleaned = cleaned.replace(token, "\n\n" + heading + "\n\n")
     return cleaned
 
