@@ -108,7 +108,83 @@ Pending.
 
 Pending.
 
-## 8. Completion criteria
+## 8. Working selection board
+
+The following tables are the candidate-selection workspace. Entries are suggestions drawn from the essay text. They are not approved index entries. Review and mark each candidate before consolidating the selections across essays.
+
+### Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends
+
+#### A. Human names
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 1 human-name candidates" tabindex="0">
+
+| Suggested index heading | How the person appears in the essay | Include? |
+|---|---|---|
+| Gandhi, Mohandas Karamchand | Gandhiji; national leader who reinterpreted religious values | ☐ |
+| Guru, Narayana | His argument concerning the sacred status of the cow | ☐ |
+| Kovoor | Mentioned in connection with questioning the criteria of authentic religion | ☐ |
+| Narasimhaiah | Mentioned in connection with questioning the criteria of authentic religion | ☐ |
+
+</div>
+
+**Name variants to recognise:**
+
+- Gandhi: Gandhiji, Mahatma Gandhi, M. K. Gandhi.
+- Narayana Guru: Swamiji, Narayana Guru.
+- Kovoor and Narasimhaiah: The essay gives surnames only. Their full names should be verified before standardisation.
+
+#### B. Subjects
+
+<div class="subject-index-table-wrap" role="region" aria-label="Essay 1 subject candidates" tabindex="0">
+
+| Suggested subject heading | Context in the essay | Include? |
+|---|---|---|
+| Secularisation | Movement from traditional religious interpretations towards scientific and secular explanations | ☐ |
+| Secularism | Secular understanding of life and nature | ☐ |
+| Religious worldview | Religious interpretation of everyday experiences and existence | ☐ |
+| Scientific temper | Science, rationality and the changing interpretation of nature | ☐ |
+| Sakti | Central element of religious consciousness and belief | ☐ |
+| Concept of God | Reinterpretation and reconstruction of the concept of God | ☐ |
+| Supreme Self (Paramatman) | Religious understanding of the Supreme Self | ☐ |
+| Religion and meaning in life | Religion as a response to suffering, death and meaninglessness | ☐ |
+| Mystery and sacredness | The loss of mystery, dependence and sacred vocabulary | ☐ |
+| Karma and rebirth | Changing interpretations and rejection of traditional beliefs | ☐ |
+| Caste hierarchy | Hierarchical society and hierarchical conceptions of gods | ☐ |
+| Untouchability | Exclusion of Harijans from temples | ☐ |
+| Temple entry and religious equality | Changing attitudes towards temple access and equality before God | ☐ |
+| Religious reinterpretation and social values | God understood in relation to contemporary democratic and human values | ☐ |
+| God of play (Lila) | Transcendence, detachment and the apparent unreality of human existence | ☐ |
+| God of history | Human struggle, love, righteousness and historical fulfilment | ☐ |
+| Dharma | Struggle for righteousness and good against evil | ☐ |
+| Evil spirits and spirit possession | Changing beliefs concerning bhutas, pretas and yakshis | ☐ |
+| Superstition | Rational reinterpretation of traditional beliefs and practices | ☐ |
+| Domestic rituals and prayer | Declining observance of family rituals and prayers | ☐ |
+| Pilgrimage and religious tourism | Increasing visits to pilgrimage centres and famous temples | ☐ |
+| Hindu religious practices | Changing worship, rituals and domestic religious observance | ☐ |
+| Sacred cow | Cow as a symbol of mother earth and religious reverence | ☐ |
+| Utilitarian view of nature | Nature understood as an object of use and exploitation | ☐ |
+| Religion and modernity | Changing religious consciousness in the modern secular world | ☐ |
+
+</div>
+
+**Editorial observations**
+
+The following subjects appear particularly important to the essay's central arguments:
+
+1. Secularisation
+2. Sakti
+3. Concept of God
+4. Religion and meaning in life
+5. God of play and God of history
+6. Religious reinterpretation and social values
+7. Scientific temper
+8. Sacred cow and the utilitarian view of nature
+
+"Secularisation" and "Secularism" are related but not interchangeable. The essay discusses both the process of secularisation and the secular option as a worldview. Their treatment as separate index entries remains a decision for review.
+
+Ambedkar does not appear in this essay and is therefore not included as a candidate. Individual deities, traditional terms and examples have not automatically been made separate subject entries.
+
+## 9. Completion criteria
 
 The exercise will be considered complete when the frequency results have been generated, the candidate terms have been manually reviewed, and the selected entries have been checked against the essays.
 
