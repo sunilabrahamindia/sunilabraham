@@ -132,7 +132,7 @@ The following tables are the candidate-selection workspace. Entries are suggesti
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 1 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 1 human-name candidates" tabindex="0">
 
 | Suggested index heading | How the person appears in the essay | Include? |
 |---|---|---|
@@ -151,7 +151,7 @@ The following tables are the candidate-selection workspace. Entries are suggesti
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 1 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 1 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
@@ -206,7 +206,7 @@ The candidates below are additional to the Essay 1 board. Subjects already repre
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 2 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 2 human-name candidates" tabindex="0">
 
 | Suggested index heading | How the person appears in the essay | Include? |
 |---|---|---|
@@ -235,7 +235,7 @@ The candidates below are additional to the Essay 1 board. Subjects already repre
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 2 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 2 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
@@ -276,7 +276,7 @@ This essay returns to several subjects already identified in Essays 1 and 2, esp
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 3 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 3 human-name candidates" tabindex="0">
 
 | Suggested index heading | How the person appears in the essay | Include? |
 |---|---|---|
@@ -288,7 +288,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 3 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 3 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
@@ -332,7 +332,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 4 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 4 human-name candidates" tabindex="0">
 
 | Suggested index heading | Context in the essay | Include? |
 |---|---|---|
@@ -344,7 +344,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 4 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 4 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
@@ -377,7 +377,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 5 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 5 human-name candidates" tabindex="0">
 
 | Suggested index heading | Context in the essay | Include? |
 |---|---|---|
@@ -405,7 +405,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 5 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 5 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
@@ -445,7 +445,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 6 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 6 human-name candidates" tabindex="0">
 
 | Suggested index heading | Context in the essay | Include? |
 |---|---|---|
@@ -469,7 +469,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 6 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 6 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
@@ -522,7 +522,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 7 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 7 human-name candidates" tabindex="0">
 
 | Suggested index heading | Context in the essay | Include? |
 |---|---|---|
@@ -558,7 +558,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 7 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 7 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
@@ -603,7 +603,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 8 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 8 human-name candidates" tabindex="0">
 
 | Suggested index heading | Context in the essay | Include? |
 |---|---|---|
@@ -627,7 +627,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 8 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 8 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
@@ -668,7 +668,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### A. Human names
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 9 human-name candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 9 human-name candidates" tabindex="0">
 
 | Suggested index heading | Context in the essay | Include? |
 |---|---|---|
@@ -698,7 +698,7 @@ The essay also names religious figures, deities and sacred beings, including Sai
 
 #### B. Subjects
 
-<div class="subject-index-table-wrap" role="region" aria-label="Essay 9 subject candidates" tabindex="0">
+<div class="subject-index-table-wrap" markdown="1" role="region" aria-label="Essay 9 subject candidates" tabindex="0">
 
 | Suggested subject heading | Context in the essay | Include? |
 |---|---|---|
