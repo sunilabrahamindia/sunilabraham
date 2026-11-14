@@ -751,7 +751,7 @@ signature_typst = r"""#block(width: 100%, breakable: false)[
     #linebreak()
     #text(size: 8.5pt)[Christian Institute for the Study of]
     #linebreak()
-    #text(size: 8.5pt)[Religion and Society]
+    #text(size: 8.5pt)[Religion and Society,]
     #linebreak()
     #text(size: 8.5pt)[Bengaluru, India]
   ]
