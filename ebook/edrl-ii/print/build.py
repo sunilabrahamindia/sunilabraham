@@ -804,7 +804,7 @@ parts.append(r"""
       [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
       [#text(size: 9.5pt)[sunilabraham.in]],
       [],
-      [#text(size: 9.5pt)[sunilabrahamindia\@gmail.com]],
+      [#text(size: 9.5pt)[publications\@sunilabraham.in]],
       [],
       [#text(size: 9.5pt)[+91 96111 00817]],
 
