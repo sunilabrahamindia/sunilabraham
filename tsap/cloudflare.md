@@ -66,6 +66,21 @@ Cloudflare Email Routing is configured for the `sunilabraham.in` domain to forwa
 
 The configuration was tested with incoming messages, including a message containing Bengali text, to check that forwarding worked. Email Routing depends on the relevant DNS records and verified destination address remaining correctly configured. Any future changes to the domain's DNS should preserve the records required for email delivery.
 
+### Configured addresses and forwarding destination
+
+As checked on 15 November 2026, the following custom addresses are active in Cloudflare Email Routing for `sunilabraham.in`:
+
+| Custom address | Action | Status |
+|---|---|---|
+| `admin@sunilabraham.in` | Forward to `sunilabrahamindia@gmail.com` | Active |
+| `publications@sunilabraham.in` | Forward to `sunilabrahamindia@gmail.com` | Active |
+
+Both addresses forward to the same verified destination mailbox. This allows general administrative correspondence and publication-related correspondence to use distinct public addresses while being received in one inbox. No separate Gmail mailbox is required for the publications address.
+
+The new `publications@sunilabraham.in` address was tested on 15 November 2026 by sending a message from an external personal Gmail account. The message reached the configured destination mailbox, confirming that the new forwarding rule was working at the time of the test.
+
+Cloudflare Email Routing handles incoming forwarding; it is not a standalone mailbox or an outbound email service. Sending a message from the destination Gmail account does not, by itself, make that message originate from the custom domain address. The MX and other Email Routing DNS records, along with the verified destination, must be preserved.
+
 ## Cloudflare Workers
 
 ### TSAP Status Monitoring System
