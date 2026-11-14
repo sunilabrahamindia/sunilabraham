@@ -543,7 +543,7 @@ def md_to_typst(markdown, stem):
             )
         poem = ("\n#v(0.5em)\n").join(stanza_blocks)
         parts.append(
-            "#block(width: 100%, above: 0.5em, below: 0.75em)[\n"
+            "#block(width: 100%, above: 1em, below: 0.75em)[\n"
             + poem + "\n]"
         )
         cursor = match.end()
