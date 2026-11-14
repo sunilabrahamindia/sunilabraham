@@ -1111,9 +1111,12 @@ review_back_cover_pdf = OUT / "edrl-ii-review-back-cover.pdf"
 run([typst, "compile", str(review_back_cover_source), str(review_back_cover_pdf)])
 
 run(["pdfunite", str(review_cover_pdf), str(blank_page_pdf), str(interior), str(review_back_cover_pdf), str(OUT / "edrl-ii-combined-review.pdf")])
-for path in (interior, cover_pdf, back_cover_pdf, full_wrap_cover_pdf, blank_page_pdf, review_cover_pdf, review_back_cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
+for path in (interior, cover_pdf, back_cover_pdf, full_wrap_cover_pdf, review_cover_pdf, review_back_cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
     if not path.is_file() or path.stat().st_size < 10000:
         raise SystemExit(f"Expected PDF missing or unexpectedly small: {path}")
+# A valid one-page blank PDF is naturally much smaller than the 10 KB threshold.
+if not blank_page_pdf.is_file() or blank_page_pdf.stat().st_size < 500:
+    raise SystemExit(f"Blank-page PDF missing or invalid: {blank_page_pdf}")
 print(f"Interior: {interior} ({interior.stat().st_size:,} bytes)")
 print(f"Front cover proof: {cover_pdf} ({cover_pdf.stat().st_size:,} bytes)")
 print(f"Back cover proof: {back_cover_pdf} ({back_cover_pdf.stat().st_size:,} bytes)")
