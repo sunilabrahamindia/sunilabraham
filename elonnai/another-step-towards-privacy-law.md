@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Another Step towards Privacy Law"
+title: "Another Step Towards Privacy Law"
 description: "A Governance Now column by Elonnai Hickok comparing the 2012 Group of Experts' report and the 2017 White Paper on a data protection framework for India."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
@@ -10,7 +10,7 @@ permalink: /elonnai/another-step-towards-privacy-law/
 created: 2026-11-14
 ---
 
-**"Another Step towards Privacy Law"** is a column by [Elonnai Hickok](/elonnai/), published in the 15 January 2018 issue of *Governance Now*. The article compares the 2012 Group of Experts' report on privacy with the 2017 White Paper of the Committee of Experts on a Data Protection Framework for India.
+**"Another Step Towards Privacy Law"** is a column by [Elonnai Hickok](/elonnai/), published in the 15 January 2018 issue of *Governance Now*. The article compares the 2012 Group of Experts' report on privacy with the 2017 White Paper of the Committee of Experts on a Data Protection Framework for India.
 
 ## Contents
 
