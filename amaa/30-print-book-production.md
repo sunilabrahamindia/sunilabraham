@@ -2159,3 +2159,56 @@ body.tsap-dark-mode .footnote-tally tbody th {
 }
 
 </style>
+
+
+## Full-wrap cover integration and automated proof — 15 November 2026
+
+The full-wrap cover artwork was uploaded to the media repository and connected to the automated print-build workflow. This is a separate production milestone from the earlier front-cover and back-cover proof integration.
+
+### Full-wrap artwork
+
+The selected full-wrap PNG, containing the back cover, spine and front cover in one image, is stored in the media repository:
+
+- **File:** `edrl-ii-cover-full-03.png`
+- **Repository path:** `amaa/edrl-ii-cover-full-03.png`
+- **Raw image:** [edrl-ii-cover-full-03.png](https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-cover-full-03.png)
+
+The existing front- and back-cover artwork remains available as separate files and continues to be used for the individual cover proofs. The full-wrap image is an additional, separately generated proof input; it does not replace those individual assets.
+
+### Build integration
+
+The print builder, `ebook/edrl-ii/print/build.py`, now:
+
+- Downloads the full-wrap PNG from the media repository using the existing retry and file-validation helper.
+- Checks that the downloaded file has a PNG signature.
+- Compiles a separate Typst proof named `edrl-ii-full-wrap-cover-proof.pdf`.
+- Includes the full-wrap proof in the build's output-file validation.
+- Reports the full-wrap PDF and its file size in the build output.
+
+The full-wrap proof is currently composed on a **332 × 222 mm** Typst page, with the image placed using `fit: "contain"`. This is the present proof-generation setting, not confirmation that 332 × 222 mm is the printer-approved final cover size.
+
+The GitHub Actions workflow, `.github/workflows/build-edrl-ii-print.yml`, was also updated so that the full-wrap PDF is included in the uploaded print-preview artifact.
+
+- **Builder commit:** `c585e0b9a20e6e68a726c685d33d26dc96dbea79` — Add full-wrap EDRL II cover proof to print build.
+- **Workflow commit:** `484bfcef8ee1fb27126bf94e071ca2529c0bf950` — Include full-wrap cover PDF in print preview artifact.
+
+### Successful build and available proofs
+
+The subsequent GitHub Actions build completed successfully. The uploaded artifact, `edrl-ii-print-preview-233`, contained these five PDFs:
+
+1. `edrl-ii-interior.pdf`
+2. `edrl-ii-front-cover-proof.pdf`
+3. `edrl-ii-back-cover-proof.pdf`
+4. `edrl-ii-full-wrap-cover-proof.pdf`
+5. `edrl-ii-combined-review.pdf`
+
+The full-wrap proof is now available as a standalone PDF in the same artifact as the interior and individual cover proofs. The combined review PDF continues to contain the front cover, interior and back cover as separate A5-sized review pages; the full-wrap proof is a separate output and has not been inserted into that combined review PDF.
+
+### Printer requirements and outstanding checks
+
+The printer's requirements remain the controlling specification for final cover preparation. The production discussion recorded a 176-page interior at this stage, with any further additions to the book made in multiples of four pages. The printer is to determine the final spine width from the actual paper and binding specifications; the spine is to carry the book title and author.
+
+The separate front- and back-cover proofs use 160 × 222 mm pages, reflecting the current 6 mm allowance on each edge around the 148 × 210 mm A5 trim size. The full-wrap PDF's present 332 × 222 mm page setting must not be treated as final printer dimensions without confirmation. The actual full-wrap image dimensions, final spine width, bleed, safe areas, colour requirements and any production marks still need to be checked against the printer's instructions.
+
+The successful build confirms that the full-wrap image can be downloaded, placed in a Typst document and exported as a PDF, and that the resulting file is included in the GitHub Actions artifact. It does **not** establish that the cover has passed visual inspection or is ready for printing. The individual front and back covers, the spine title and author, the barcode and publication details, and the full-wrap alignment must all be checked in the actual proof. Final handover must also follow the printer's requested file arrangement, including the separate cover files if required.
+
