@@ -21,6 +21,8 @@ AUTHOR_PHOTO_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabr
 AUTHOR_PHOTO = OUT / "author-portrait.png"
 SIGNATURE_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/tito-dutta-signature-edrl-ii.png"
 SIGNATURE = OUT / "editor-signature.png"
+HALF_TITLE_IMAGE_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-half-title-page-image-tribal.png"
+HALF_TITLE_IMAGE = OUT / "half-title-tribal.png"
 COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-front-cover-v-0.4.png"
 COVER = OUT / "edrl-ii-cover.png"
 BACK_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-print-book-back-cover-04.png"
@@ -55,6 +57,10 @@ def fetch_author_photo():
 
 def fetch_signature():
     download(SIGNATURE_URL, SIGNATURE, "Editor signature",
+             lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
+
+def fetch_half_title_image():
+    download(HALF_TITLE_IMAGE_URL, HALF_TITLE_IMAGE, "Half-title illustration",
              lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
 
 def fetch_cover():
@@ -613,6 +619,7 @@ if len(essays) != 9:
 fetch_cover()
 fetch_author_photo()
 fetch_signature()
+fetch_half_title_image()
 fetch_back_cover()
 fetch_full_wrap_cover()
 common = r"""
@@ -783,6 +790,10 @@ parts.append(r"""
   #line(length: 22mm, stroke: 0.65pt + luma(95))
   #v(10mm)
   #text(size: 13pt, tracking: 0.7pt)[A. M. Abraham Ayrookuzhiel]
+]
+#v(1fr)
+#align(center)[
+  #image("half-title-tribal.png", width: 48mm, fit: "contain")
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
