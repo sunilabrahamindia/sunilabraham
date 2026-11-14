@@ -1952,6 +1952,64 @@ A fresh scan of the editor's handwritten blue-ink signature was prepared from th
 
 The corrections recorded above are limited to the front matter. The successful print builds confirm that the source typesets; they do not by themselves constitute final editorial approval of the book.
 
+
+
+## Cover design and print integration — 14–15 November 2026
+
+The front and back covers were developed and integrated into the print-production workflow during 14 and 15 November. This work establishes the two individual cover pages for the paperback. The spine and final full-wrap cover remain to be prepared after the printer's spine requirements and final production dimensions are confirmed.
+
+### Front cover — 14–15 November
+
+The front-cover artwork was refined while retaining its original composition, title wording and deliberate three-line title arrangement. The author name was adjusted to an intermediate size after review, retaining a clear distinction between the title and the author's name. The tree foliage and maroon foreground were refined with restrained colour and texture so that the illustration remained the visual focus.
+
+The selected front-cover image was uploaded to the media repository:
+
+- **Image:** `edrl-ii-front-cover-v-0.4.png`
+- **Raw image URL:** `https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-front-cover-v-0.4.png`
+
+A subtle raised/embossed visual treatment was considered for the title as part of the cover's tactile design. This records the visual design direction; the final physical finishing process (such as embossing or gloss) must be confirmed separately with the printer before it is treated as a production specification.
+
+### Back cover — 15 November
+
+The back-cover design was refined to establish a closer visual relationship with the front. The book title was made more prominent and arranged in two lines, following Sunil's requested format:
+
+- "Essays on"
+- "Dalits, Religion and Liberation II"
+
+The portrait border was changed to dark red, and a restrained paper texture and tonal textile-inspired pattern were introduced in the maroon footer. The descriptive paragraph, author biography, ISBN barcode and printed price were retained. The barcode and all publication details must remain legible and should be checked against the approved source artwork in the final proof.
+
+The selected back-cover image was uploaded to the media repository:
+
+- **Image:** `edrl-ii-print-book-back-cover-04.png`
+- **Raw image URL:** `https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-print-book-back-cover-04.png`
+
+### Bleed, page dimensions and PDF assembly
+
+The front and back covers are now handled as separate cover pages in the print builder. Both standalone cover proofs use **160 × 222 mm**, representing an A5 trim size of 148 × 210 mm with 6 mm added on each edge. The artwork is placed to fill the page without stretching. The final trim and bleed arrangement remains subject to the printer's confirmed specification.
+
+For ordinary PDF viewing, the combined review PDF uses A5-sized cover pages so that the front cover, interior and back cover appear at the same page dimensions. The combined review PDF is assembled in this order:
+
+1. Front cover.
+2. Complete interior.
+3. Back cover.
+
+The standalone front- and back-cover proofs retain the larger bleed dimensions; the A5-sized pages in the combined review PDF are for consistent on-screen review and are not substitutes for the separate bleed proofs.
+
+### Source and workflow changes
+
+- **Front-cover source:** `ebook/edrl-ii/print/build.py`.
+- **Back-cover source:** `ebook/edrl-ii/print/build.py`, using the uploaded PNG from the media repository.
+- **Front-cover bleed and review-page work:** commit `6b7a58e7`.
+- **Matching A5 cover and interior dimensions in the combined review PDF:** commit `a6d69ef`.
+- **Back-cover integration:** commit `a002393f`.
+- **Back-cover proof added to the GitHub Actions artefacts:** commit `0e486850`.
+
+The workflow now generates a separate back-cover proof and includes the back cover at the end of the combined review PDF. A successful automated build confirms that the files were generated; the resulting PDFs still require visual inspection before print approval.
+
+### Remaining cover work
+
+The spine has not yet been designed or integrated. Its width must be based on the final interior page count, the printer's paper specification and the binding method. Once those details are confirmed, the front cover, spine and back cover can be assembled as the final full-wrap cover to the printer's dimensions. Any physical embossing, gloss or other finishing treatment must also be confirmed with the printer at that stage.
+
 <!-- NOTE DO NOT ADD ANYTHING EXCEPT STYLE AND SCRIPT BELOW, DO NOT READ TITO'S EDIT -->
 <style>
 .typst-markdown-table-wrap {
