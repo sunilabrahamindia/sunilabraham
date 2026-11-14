@@ -2263,3 +2263,19 @@ The print builder, `ebook/edrl-ii/print/build.py`, supplies the credits-page con
 
 This source change must be included in a successful print-proof build, and the generated credits page must be visually checked in the resulting PDF before the updated proof is treated as verified.
 
+## Poem opening spacing — 15 November 2026
+
+The space between the prose paragraph introducing a poem and the poem itself was increased in the print builder.
+
+- **Previous space above each poem:** 0.5em.
+- **New space above each poem:** 1em.
+- **Space below each poem:** unchanged at 0.75em.
+- **Spacing between stanzas:** unchanged at 0.5em.
+- **Line leading within poems:** unchanged at 0.9em.
+- **Prose paragraph spacing:** unchanged.
+
+The change applies to all poems handled by the shared poem formatter, rather than requiring individual page edits.
+
+- **Builder commit:** `190a08da843784c0d7a7be893e8efc5440372a30` — Increase space before EDRL II poems.
+
+The source change is committed. The resulting PDF still needs visual verification before the revised spacing can be approved.
