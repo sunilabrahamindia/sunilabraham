@@ -771,13 +771,16 @@ parts.append(r"""
 #pagebreak()
 #pagebreak()
 #align(center)[
-  #v(25mm)
-  #v(24mm)
-  #text(size: 22pt, weight: "bold")[Essays on]
+  #v(42mm)
+  #text(size: 10pt, weight: "bold", tracking: 2pt)[ESSAYS ON]
+  #v(7mm)
+  #text(size: 25pt, weight: "regular")[Dalits, Religion]
   #linebreak()
-  #text(size: 22pt, weight: "bold")[Dalits, Religion and Liberation II]
-  #v(14mm)
-  #text(size: 17pt)[A. M. Abraham Ayrookuzhiel]
+  #text(size: 25pt, weight: "regular")[and Liberation II]
+  #v(12mm)
+  #line(length: 22mm, stroke: 0.65pt + luma(95))
+  #v(10mm)
+  #text(size: 13pt, tracking: 0.7pt)[A. M. Abraham Ayrookuzhiel]
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
