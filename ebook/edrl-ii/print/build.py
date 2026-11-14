@@ -1087,6 +1087,14 @@ full_wrap_cover_source.write_text(r'''#set page(width: 332mm, height: 222mm, mar
 full_wrap_cover_pdf = OUT / "edrl-ii-full-wrap-cover-proof.pdf"
 run([typst, "compile", str(full_wrap_cover_source), str(full_wrap_cover_pdf)])
 
+# A5-sized blank page immediately after the front cover in the combined review PDF.
+# The interior itself remains unchanged.
+blank_page_source = OUT / "edrl-ii-blank-page.typ"
+blank_page_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm)
+''', encoding="utf-8")
+blank_page_pdf = OUT / "edrl-ii-blank-page.pdf"
+run([typst, "compile", str(blank_page_source), str(blank_page_pdf)])
+
 # A5-sized cover pages in the combined review PDF match the interior page dimensions.
 review_cover_source = OUT / "edrl-ii-review-cover.typ"
 review_cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, fill: rgb("f5ead8"))
@@ -1102,8 +1110,8 @@ review_back_cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, m
 review_back_cover_pdf = OUT / "edrl-ii-review-back-cover.pdf"
 run([typst, "compile", str(review_back_cover_source), str(review_back_cover_pdf)])
 
-run(["pdfunite", str(review_cover_pdf), str(interior), str(review_back_cover_pdf), str(OUT / "edrl-ii-combined-review.pdf")])
-for path in (interior, cover_pdf, back_cover_pdf, full_wrap_cover_pdf, review_cover_pdf, review_back_cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
+run(["pdfunite", str(review_cover_pdf), str(blank_page_pdf), str(interior), str(review_back_cover_pdf), str(OUT / "edrl-ii-combined-review.pdf")])
+for path in (interior, cover_pdf, back_cover_pdf, full_wrap_cover_pdf, blank_page_pdf, review_cover_pdf, review_back_cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
     if not path.is_file() or path.stat().st_size < 10000:
         raise SystemExit(f"Expected PDF missing or unexpectedly small: {path}")
 print(f"Interior: {interior} ({interior.stat().st_size:,} bytes)")
