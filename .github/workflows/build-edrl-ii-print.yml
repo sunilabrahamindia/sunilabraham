@@ -96,6 +96,7 @@ jobs:
           path: |
             ebook/edrl-ii/print/output/edrl-ii-interior.pdf
             ebook/edrl-ii/print/output/edrl-ii-front-cover-proof.pdf
+            ebook/edrl-ii/print/output/edrl-ii-back-cover-proof.pdf
             ebook/edrl-ii/print/output/edrl-ii-combined-review.pdf
           if-no-files-found: error
           retention-days: 30
