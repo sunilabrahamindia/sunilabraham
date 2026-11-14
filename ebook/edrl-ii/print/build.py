@@ -1110,7 +1110,7 @@ review_back_cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, m
 review_back_cover_pdf = OUT / "edrl-ii-review-back-cover.pdf"
 run([typst, "compile", str(review_back_cover_source), str(review_back_cover_pdf)])
 
-run(["pdfunite", str(review_cover_pdf), str(blank_page_pdf), str(interior), str(review_back_cover_pdf), str(OUT / "edrl-ii-combined-review.pdf")])
+run(["pdfunite", str(review_cover_pdf), str(blank_page_pdf), str(interior), str(blank_page_pdf), str(blank_page_pdf), str(review_back_cover_pdf), str(OUT / "edrl-ii-combined-review.pdf")])
 for path in (interior, cover_pdf, back_cover_pdf, full_wrap_cover_pdf, review_cover_pdf, review_back_cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
     if not path.is_file() or path.stat().st_size < 10000:
         raise SystemExit(f"Expected PDF missing or unexpectedly small: {path}")
@@ -1121,5 +1121,5 @@ print(f"Interior: {interior} ({interior.stat().st_size:,} bytes)")
 print(f"Front cover proof: {cover_pdf} ({cover_pdf.stat().st_size:,} bytes)")
 print(f"Back cover proof: {back_cover_pdf} ({back_cover_pdf.stat().st_size:,} bytes)")
 print(f"Full-wrap cover proof: {full_wrap_cover_pdf} ({full_wrap_cover_pdf.stat().st_size:,} bytes)")
-print("Combined review PDF created with front cover, interior and back cover.")
+print("Combined review PDF created with front cover, one blank page after the cover, unchanged interior, two blank pages before the back cover, and back cover.")
 
