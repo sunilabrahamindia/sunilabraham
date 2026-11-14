@@ -25,6 +25,8 @@ COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammed
 COVER = OUT / "edrl-ii-cover.png"
 BACK_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-print-book-back-cover-04.png"
 BACK_COVER = OUT / "edrl-ii-back-cover.png"
+FULL_WRAP_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-cover-full-03.png"
+FULL_WRAP_COVER = OUT / "edrl-ii-full-wrap-cover.png"
 
 BODY_PAR = "#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 16pt)"
 
@@ -60,6 +62,10 @@ def fetch_cover():
 
 def fetch_back_cover():
     download(BACK_COVER_URL, BACK_COVER, "Back cover",
+             lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
+
+def fetch_full_wrap_cover():
+    download(FULL_WRAP_COVER_URL, FULL_WRAP_COVER, "Full-wrap cover",
              lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
 
 def inline_markdown(node):
@@ -608,6 +614,7 @@ fetch_cover()
 fetch_author_photo()
 fetch_signature()
 fetch_back_cover()
+fetch_full_wrap_cover()
 common = r"""
 #set document(
   title: "Essays on Dalits, Religion and Liberation II",
@@ -1073,6 +1080,13 @@ back_cover_source.write_text(r'''#set page(width: 160mm, height: 222mm, margin: 
 back_cover_pdf = OUT / "edrl-ii-back-cover-proof.pdf"
 run([typst, "compile", str(back_cover_source), str(back_cover_pdf)])
 
+full_wrap_cover_source = OUT / "edrl-ii-full-wrap-cover.typ"
+full_wrap_cover_source.write_text(r'''#set page(width: 332mm, height: 222mm, margin: 0mm, fill: rgb("f5ead8"))
+#image("edrl-ii-full-wrap-cover.png", width: 332mm, height: 222mm, fit: "contain")
+''', encoding="utf-8")
+full_wrap_cover_pdf = OUT / "edrl-ii-full-wrap-cover-proof.pdf"
+run([typst, "compile", str(full_wrap_cover_source), str(full_wrap_cover_pdf)])
+
 # A5-sized cover pages in the combined review PDF match the interior page dimensions.
 review_cover_source = OUT / "edrl-ii-review-cover.typ"
 review_cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, fill: rgb("f5ead8"))
@@ -1089,11 +1103,12 @@ review_back_cover_pdf = OUT / "edrl-ii-review-back-cover.pdf"
 run([typst, "compile", str(review_back_cover_source), str(review_back_cover_pdf)])
 
 run(["pdfunite", str(review_cover_pdf), str(interior), str(review_back_cover_pdf), str(OUT / "edrl-ii-combined-review.pdf")])
-for path in (interior, cover_pdf, back_cover_pdf, review_cover_pdf, review_back_cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
+for path in (interior, cover_pdf, back_cover_pdf, full_wrap_cover_pdf, review_cover_pdf, review_back_cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
     if not path.is_file() or path.stat().st_size < 10000:
         raise SystemExit(f"Expected PDF missing or unexpectedly small: {path}")
 print(f"Interior: {interior} ({interior.stat().st_size:,} bytes)")
 print(f"Front cover proof: {cover_pdf} ({cover_pdf.stat().st_size:,} bytes)")
 print(f"Back cover proof: {back_cover_pdf} ({back_cover_pdf.stat().st_size:,} bytes)")
+print(f"Full-wrap cover proof: {full_wrap_cover_pdf} ({full_wrap_cover_pdf.stat().st_size:,} bytes)")
 print("Combined review PDF created with front cover, interior and back cover.")
 
