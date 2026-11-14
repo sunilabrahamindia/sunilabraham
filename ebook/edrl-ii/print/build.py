@@ -758,28 +758,6 @@ if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
     raise SystemExit("Foreword signature marker did not survive conversion")
 foreword_typst = foreword_typst.replace("TSAPFOREWORDSIGNATURETOKEN", signature_typst)
 
-# Create a restrained engraved emblem for the half-title page only.
-half_title_engraving = OUT / "half-title-engraving.svg"
-half_title_engraving.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300">
-<g fill="none" stroke="#242424" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M240 224 C198 190 143 182 92 197 L92 91 C149 75 202 88 240 121 C278 88 331 75 388 91 L388 197 C337 182 282 190 240 224 Z"/>
-  <path d="M240 121 L240 224 M106 104 C157 94 199 107 228 132 M106 123 C155 115 194 127 228 148 M106 143 C155 137 194 147 228 166 M106 163 C153 159 192 168 228 184"/>
-  <path d="M374 104 C323 94 281 107 252 132 M374 123 C325 115 286 127 252 148 M374 143 C325 137 286 147 252 166 M374 163 C327 159 288 168 252 184"/>
-  <path d="M240 80 C225 62 223 43 240 25 C257 43 255 62 240 80 Z"/>
-  <path d="M240 25 L240 8 M220 42 L205 30 M260 42 L275 30"/>
-  <path d="M78 216 C52 194 43 167 52 139 C69 157 83 178 88 201 M402 216 C428 194 437 167 428 139 C411 157 397 178 392 201"/>
-  <path d="M82 213 C58 220 42 238 38 261 M398 213 C422 220 438 238 442 261"/>
-  <path d="M38 261 C64 252 82 253 99 265 M442 261 C416 252 398 253 381 265"/>
-  <path d="M112 207 l-17 -12 M121 194 l-15 -16 M368 207 l17 -12 M359 194 l15 -16"/>
-  <path d="M156 227 l-12 13 M174 231 l-8 16 M324 227 l12 13 M306 231 l8 16"/>
-</g>
-<g fill="none" stroke="#777" stroke-width="1">
-  <path d="M117 105 l0 78 M128 102 l0 80 M139 101 l0 79 M150 102 l0 78 M161 105 l0 77 M172 109 l0 74 M183 114 l0 69 M194 120 l0 61 M205 126 l0 52"/>
-  <path d="M363 105 l0 78 M352 102 l0 80 M341 101 l0 79 M330 102 l0 78 M319 105 l0 77 M308 109 l0 74 M297 114 l0 69 M286 120 l0 61 M275 126 l0 52"/>
-  <path d="M240 232 l-13 15 M240 232 l13 15 M228 247 l-12 14 M252 247 l12 14"/>
-</g>
-</svg>""", encoding="utf-8")
-
 parts = [common]
 parts.append(r"""
 #set heading(outlined: false)
@@ -794,8 +772,7 @@ parts.append(r"""
 #pagebreak()
 #align(center)[
   #v(25mm)
-  #image("half-title-engraving.svg", width: 24mm)
-  #v(9mm)
+  #v(24mm)
   #text(size: 22pt, weight: "bold")[Essays on]
   #linebreak()
   #text(size: 22pt, weight: "bold")[Dalits, Religion and Liberation II]
