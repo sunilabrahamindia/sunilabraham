@@ -21,8 +21,8 @@ AUTHOR_PHOTO_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabr
 AUTHOR_PHOTO = OUT / "author-portrait.png"
 SIGNATURE_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/tito-dutta-signature-edrl-ii.png"
 SIGNATURE = OUT / "editor-signature.png"
-COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-v0.2.jpg"
-COVER = OUT / "edrl-ii-cover.jpg"
+COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-front-cover-v-0.4.png"
+COVER = OUT / "edrl-ii-cover.png"
 
 BODY_PAR = "#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 16pt)"
 
@@ -54,7 +54,7 @@ def fetch_signature():
              lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
 
 def fetch_cover():
-    download(COVER_URL, COVER, "Cover", lambda d: d.startswith(b"\xff\xd8\xff"))
+    download(COVER_URL, COVER, "Cover", lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
 
 def inline_markdown(node):
     """Preserve emphasis in HTML-authored footnote text."""
@@ -1054,7 +1054,7 @@ check_pdf_overlaps(interior)
 
 cover_source = OUT / "edrl-ii-front-cover.typ"
 cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, fill: rgb("f5ead8"))
-#image("edrl-ii-cover.jpg", width: 148mm, height: 210mm, fit: "contain")
+#image("edrl-ii-cover.png", width: 148mm, height: 210mm, fit: "contain")
 ''', encoding="utf-8")
 cover_pdf = OUT / "edrl-ii-front-cover-proof.pdf"
 run([typst, "compile", str(cover_source), str(cover_pdf)])
