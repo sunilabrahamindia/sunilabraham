@@ -767,8 +767,6 @@ parts.append(r"""
   #text(size: 22pt, weight: "bold")[Essays on]
   #linebreak()
   #text(size: 22pt, weight: "bold")[Dalits, Religion and Liberation II]
-  #v(8mm)
-  #text(size: 11pt, fill: luma(95))[⁂]
 ]
 #pagebreak()
 #pagebreak()
@@ -791,9 +789,9 @@ parts.append(r"""
   #block(width: 112mm)[
     #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
     #align(center)[
-      #text(size: 17pt, weight: "bold")[Essays on Dalits, Religion]
+      #text(size: 17pt, weight: "bold")[Essays on]
       #linebreak()
-      #text(size: 17pt, weight: "bold")[and Liberation II]
+      #text(size: 17pt, weight: "bold")[Dalits, Religion, Liberation II]
       #v(0.8em)
       #text(size: 11pt)[A. M. Abraham Ayrookuzhiel]
     ]
