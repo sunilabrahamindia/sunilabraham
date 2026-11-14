@@ -50,6 +50,8 @@ The printer is not being asked to make the book's design decisions. The project 
 
 A subject index will be prepared for the paperback edition. It will help readers locate people, places, concepts, movements, institutions and other significant subjects discussed across the essays. The index is an editorial component of the book, not simply a list of frequently occurring words. Entries must be selected for their significance and usefulness to readers, and page references must be checked against the final printed pagination.
 
+The research supporting this work is documented separately in [Word Frequency Analysis and Subject Index Research](/amaa/30-print-book-production-index-research/). That working page records the computational analysis of the nine essays, the essay-wise candidate boards for human names and subjects, and the manual review process used to identify potential index entries. Frequency counts are used to discover candidates; editorial judgement determines what belongs in the final index. The research page is a working selection record, not the finished subject index.
+
 ### Tools and division of work
 
 The subject-index workflow will use the Ubuntu laptop for PDF text extraction and the Windows 7 second-hand desktop for Cindex 4.4:
