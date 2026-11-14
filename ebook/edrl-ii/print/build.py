@@ -773,7 +773,7 @@ parts.append(r"""
 #align(center)[
   #v(42mm)
   #text(size: 10pt, weight: "bold", tracking: 2pt)[ESSAYS ON]
-  #v(7mm)
+  #v(2.5mm)
   #text(size: 25pt, weight: "regular")[Dalits, Religion]
   #linebreak()
   #text(size: 25pt, weight: "regular")[and Liberation II]
