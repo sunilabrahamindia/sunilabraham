@@ -538,7 +538,7 @@ def md_to_typst(markdown, stem):
             stanza_typst = convert(stanza.strip(), f"poem-{index}-stanza-{stanza_index}")
             stanza_blocks.append(
                 "#block(width: 100%)[\n"
-                "  #set par(justify: false, first-line-indent: 0pt, leading: 1.2em, spacing: 0pt)\n"
+                "  #set par(justify: false, first-line-indent: 0pt, leading: 0.9em, spacing: 0pt)\n"
                 "  #align(center)[\n" + stanza_typst + "\n  ]\n]"
             )
         poem = ("\n#v(0.5em)\n").join(stanza_blocks)
