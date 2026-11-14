@@ -2212,6 +2212,42 @@ The separate front- and back-cover proofs use 160 × 222 mm pages, reflecting th
 
 The successful build confirms that the full-wrap image can be downloaded, placed in a Typst document and exported as a PDF, and that the resulting file is included in the GitHub Actions artifact. It does **not** establish that the cover has passed visual inspection or is ready for printing. The individual front and back covers, the spine title and author, the barcode and publication details, and the full-wrap alignment must all be checked in the actual proof. Final handover must also follow the printer's requested file arrangement, including the separate cover files if required.
 
+## Interior title-page and credits-page typography — 15 November 2026
+
+The interior title-page and credits-page typography were reviewed and adjusted during the print-proof process.
+
+### Half-title page (interior page 5)
+
+- The typographic treatment was retained.
+- The excessive gap between the small, letter-spaced "ESSAYS ON" line and the main title was reduced from 7 mm to 2.5 mm.
+- The type sizes, alignment, title wording and author line were otherwise left unchanged.
+- Change committed as `8b0eecf0` — Tighten EDRL II half-title spacing.
+
+### First interior title page (interior page 3)
+
+A small typographic ornament was briefly added below the existing title during experimentation. It was not part of the approved design and was subsequently removed. The page was restored to its plain, original arrangement; its title wording, two-line layout and typography were not changed.
+
+### Credits page
+
+The title at the top of the credits page was rearranged to follow the line break specified by Sunil:
+
+```text
+Essays on
+Dalits, Religion, Liberation II
+```
+
+The existing bold 17 pt styling was retained. No other credits-page content or layout was intentionally changed as part of this title adjustment.
+
+The ornament removal and credits-page title adjustment were committed together as `2d4959d8` — Remove page 3 ornament and revise credit-page title line break.
+
+### Proofing and production observations
+
+Repeated full-book PDF builds for small typographic edits create unnecessary waiting and downloads. During this work, the computer became slow, and there was concern about forced restarts because the machine has intermittently displayed a "Hard disk not found" warning afterwards.
+
+A more efficient proofing workflow was proposed: generate and inspect only the affected page (for example, page 3, page 5 or the credits page) while making localised changes, and generate the complete combined review PDF only after a group of changes has been approved. A separate lightweight individual-page proof workflow has been suggested but has **not yet been implemented**.
+
+The intermittent disk-detection warning is a separate hardware/data-safety concern. Important files should be backed up before further troubleshooting or repeated forced restarts. The computer's storage health and intermittent detection issue remain to be investigated.
+
 ## Publication contact address update — 15 November 2026
 
 The contact email shown on the EDRL-II paperback credits page has been changed from the project's receiving Gmail address to the dedicated publication address:
