@@ -796,8 +796,10 @@ parts.append(r"""
 
       [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
       [#text(size: 9.5pt)[Tito Dutta]],
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT PRODUCTION]],
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT COORDINATION]],
       [#text(size: 9.5pt)[Herbert Paul]],
+      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED BY]],
+      [#text(size: 9.5pt)[National Print Press, Koramangala, Bengaluru]],
     )
 
     #v(1.2em)
