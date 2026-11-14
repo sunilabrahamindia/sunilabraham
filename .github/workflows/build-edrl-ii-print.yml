@@ -99,5 +99,6 @@ jobs:
             ebook/edrl-ii/print/output/edrl-ii-back-cover-proof.pdf
             ebook/edrl-ii/print/output/edrl-ii-full-wrap-cover-proof.pdf
             ebook/edrl-ii/print/output/edrl-ii-combined-review.pdf
+            ebook/edrl-ii/print/output/edrl-ii-page-5.pdf
           if-no-files-found: error
           retention-days: 30
