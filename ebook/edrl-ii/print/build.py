@@ -818,7 +818,7 @@ parts.append(r"""
 
     #v(1.2em)
     #line(length: 100%, stroke: 0.5pt + luma(155))
-    #v(1em)
+    #v(2em)
 
     #align(center)[
       #text(size: 9.5pt)[First paperback edition]
@@ -827,7 +827,7 @@ parts.append(r"""
       #linebreak()
       #text(size: 8pt)[On the occasion of the thirtieth death anniversary of A. M. Abraham Ayrookuzhiel]
     ]
-    #v(1.1em)
+    #v(2.1em)
     #align(left)[
       #block(width: 100%)[
         #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
@@ -837,7 +837,7 @@ parts.append(r"""
         #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
       ]
     ]
-    #v(1.5em)
+    #v(2.5em)
     #grid(
       columns: (27mm, 1fr),
       column-gutter: 4mm,
