@@ -767,6 +767,8 @@ parts.append(r"""
   #text(size: 22pt, weight: "bold")[Essays on]
   #linebreak()
   #text(size: 22pt, weight: "bold")[Dalits, Religion and Liberation II]
+  #v(8mm)
+  #text(size: 11pt, fill: luma(95))[⁂]
 ]
 #pagebreak()
 #pagebreak()
