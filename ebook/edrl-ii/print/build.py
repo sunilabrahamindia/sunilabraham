@@ -920,7 +920,7 @@ We are grateful to Pranesh Prakash, a distinguished researcher and former collea
 
 Our heartfelt thanks go to M. Kunhikrishnan, Vice President of the Swami Anandatirtha Trust, for his enthusiasm, valuable inputs and active participation in the production of this book.
 
-We wish to acknowledge Sangram Kesari Senapati for his initial guidance during the ISBN registration process with the Raja Rammohun Roy National Agency for ISBN (RRRNA).
+We wish to acknowledge Sangram Keshari Senapati for his initial guidance during the ISBN registration process with the Raja Rammohun Roy National Agency for ISBN (RRRNA).
 
 And,
 
