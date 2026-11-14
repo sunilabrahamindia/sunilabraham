@@ -2212,3 +2212,18 @@ The separate front- and back-cover proofs use 160 × 222 mm pages, reflecting th
 
 The successful build confirms that the full-wrap image can be downloaded, placed in a Typst document and exported as a PDF, and that the resulting file is included in the GitHub Actions artifact. It does **not** establish that the cover has passed visual inspection or is ready for printing. The individual front and back covers, the spine title and author, the barcode and publication details, and the full-wrap alignment must all be checked in the actual proof. Final handover must also follow the printer's requested file arrangement, including the separate cover files if required.
 
+## Publication contact address update — 15 November 2026
+
+The contact email shown on the EDRL-II paperback credits page has been changed from the project's receiving Gmail address to the dedicated publication address:
+
+- **Printed contact address:** `publications@sunilabraham.in`
+- **Forwarding destination:** `sunilabrahamindia@gmail.com`
+- **Email service:** Cloudflare Email Routing for `sunilabraham.in`
+- **Status:** The forwarding rule is active and was tested successfully on 15 November 2026.
+
+The address is a custom-domain forwarding alias, not a separate mailbox. It is intended for book, publication and editorial enquiries. The general administrative address, `admin@sunilabraham.in`, remains active and continues to forward to the same destination inbox.
+
+The print builder, `ebook/edrl-ii/print/build.py`, supplies the credits-page content. Its contact line has been updated to print `publications@sunilabraham.in` instead of the Gmail destination address. The project website and telephone contact lines remain unchanged.
+
+This source change must be included in a successful print-proof build, and the generated credits page must be visually checked in the resulting PDF before the updated proof is treated as verified.
+
