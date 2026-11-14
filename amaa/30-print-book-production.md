@@ -1912,6 +1912,44 @@ The draft material was added to the print composition in `ebook/edrl-ii/print/bu
 - **Remaining work:** Some spacing issues remain in the front matter. These will be reviewed and corrected shortly.
 - **Editorial status:** The Editor's Note and acknowledgement material remain in draft. The successful build confirms that the source can be typeset; it does not mean the text or layout is final or approved.
 
+## Front-matter editorial corrections — 14 November 2026
+
+A further review of the Foreword, Editor's Note and Acknowledgement led to a set of small, specifically scoped corrections. These changes were made in the print source; the essays were not edited.
+
+### Foreword
+
+- Replaced the clerical title `Fr.` with `Rev.` in all occurrences referring to A. M. Abraham Ayrookuzhiel, following the instruction received from Sunil. This included the occurrence written as `Fr Abraham` without a full stop.
+- Standardised the spacing between initials in human names throughout the Foreword, including its footnotes: for example, `P.D.` to `P. D.`, `M.M.` to `M. M.`, `B.R.` to `B. R.` and `A.M.A.` to `A. M. A.`.
+- Retained the Foreword's existing American English spelling. No spelling conversion to British/Indian English was made.
+
+- **Source:** `ebook/edrl-ii/foreword.md`.
+- **Commit:** `5261afc5fea599fe1401f78329bda05a3b6e8ee3`.
+- **Print proof:** #224 — successful.
+
+### Editor's Note and Acknowledgement
+
+The following wording and presentation corrections were made in the print composition:
+
+- Changed the reference to errors or inaccuracies being brought to the "editors' attention" to "my attention", matching the individual editor's signature.
+- Simplified the sentence thanking Dr. Y. T. Vinayaraj for contributing the Foreword. The final wording is: "We thank Dr. Vinayaraj for graciously contributing the Foreword to this volume." The word "also" and evaluative wording were avoided.
+- Changed the United Theological College acknowledgement to begin "We are thankful to the Principal..." rather than "We also thank the Principal...".
+- Introduced a separate transition, "And,", before the personal acknowledgement of the Ayrookuzhiel family. The following sentence now begins "I personally take this opportunity to express my gratitude..." This marks the deliberate shift from the collective "we" to the editor's personal "I". Normal paragraph line spacing is retained.
+- Removed the possessive "our" from the description of Pranesh Prakash as a former colleague, leaving "a distinguished researcher and former colleague".
+- Simplified the ISBN acknowledgement to refer to the "ISBN registration process", without the phrase "our efforts".
+- Corrected the name of the contributor who provided initial ISBN guidance from "Sangram Kesari Senapati" to **Sangram Keshari Senapati**, as confirmed by him.
+
+The collective voice in the acknowledgement is retained where it represents the production effort; the personal family acknowledgement remains in the first person. No other acknowledgement contributions or names were changed.
+
+- **Print source:** `ebook/edrl-ii/print/build.py`.
+- **Relevant commits:** `c5fdc2f6`, `5cd237ae`, `3924ed12` and `e9adcf21`.
+- **Print proofs:** #217, #218, #219 and #225 — successful.
+
+### Signature preparation
+
+A fresh scan of the editor's handwritten blue-ink signature was prepared from the supplied A4 scan. The paper background was removed and the signature retained as a transparent PNG for possible placement above the editor's typed name. This is a prepared image asset; its placement in the book remains a separate design decision.
+
+The corrections recorded above are limited to the front matter. The successful print builds confirm that the source typesets; they do not by themselves constitute final editorial approval of the book.
+
 <!-- NOTE DO NOT ADD ANYTHING EXCEPT STYLE AND SCRIPT BELOW, DO NOT READ TITO'S EDIT -->
 <style>
 .typst-markdown-table-wrap {
