@@ -1029,7 +1029,7 @@ for essay in essays:
     parts.append("#counter(footnote).update(0)\n")
     parts.append(f"= {title}\n")
     parts.append(f"""#block[
-  #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 1em, spacing: 0pt)
   #v(9pt)
   #line(length: 100%, stroke: 0.55pt + luma(175))
   #v(4pt)
