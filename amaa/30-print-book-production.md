@@ -2297,3 +2297,15 @@ Bengaluru, India
 - **Builder commits:** `85df1517` — Add Bengaluru to foreword signature; `846c2763` — Add comma after institute name in foreword signature.
 
 The source changes are committed. The updated signature block has not yet been visually checked in a newly generated PDF.
+
+## Half-title Santali illustration — 15 November 2026
+
+A Santali illustration depicting tribal people was added to the half-title page (interior page 5).
+
+- **Image asset:** `edrl-ii-half-title-page-image-tribal.png`, hosted in the `sunilabrahammedia` repository.
+- **Builder commit adding the illustration:** `26aa076781877c2c1754919e2375f4d75a6f93b2` — Add Santali illustration to EDRL II half-title page.
+- The illustration is centred at the bottom of the half-title page.
+- Its displayed width has now been reduced from 48 mm to **36 mm**. Height remains automatic, preserving the image's aspect ratio.
+- **Size adjustment commit:** `b17f4756c2365cbe6145da6271bd180c802fe442` — Reduce half-title tribal illustration to 36 mm.
+
+The size adjustment has been committed and triggers a fresh print build. The new page 5 proof must be visually inspected to confirm the illustration's scale, position and balance with the title typography. The full interior and combined review PDFs must also be checked as part of the current proof review.
