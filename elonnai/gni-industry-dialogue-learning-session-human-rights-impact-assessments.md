@@ -2,14 +2,14 @@
 layout: default
 title: "GNI-Industry Dialogue Learning Session: Human Rights Impact Assessments and Due Diligence in the ICT Sector"
 description: "A record of Elonnai Hickok's attendance at the Global Network Initiative learning session on human rights impact assessments and due diligence in the ICT sector, held in Washington, D.C., in March 2016."
-categories: [Elonnai Hickok, Internet Governance, Privacy]
+categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2016-03-11
 source: "Centre for Internet and Society"
 permalink: /elonnai/gni-industry-dialogue-learning-session-human-rights-impact-assessments/
 created: 2026-11-15
 ---
 
-This CIS News & Media item records [Elonnai Hickok](/elonnai/) attending a learning session organised by the [Global Network Initiative](https://globalnetworkinitiative.org/) (GNI) in Washington, D.C., in March 2016. The session brought together the GNI and its new observers from the Telecommunications Industry Dialogue to discuss human rights impact assessments, corporate human rights due diligence and good practices in the information and communications technology (ICT) sector. This is an event participation record, not an article authored by Hickok.
+This record published by the [Centre for Internet and Society](/cis/) documents [Elonnai Hickok](/elonnai/) attending a learning session organised by the [Global Network Initiative](https://globalnetworkinitiative.org/) (GNI) in Washington, D.C., in March 2016. The session brought together the GNI and its new observers from the Telecommunications Industry Dialogue to discuss human rights impact assessments, corporate human rights due diligence and good practices in the information and communications technology (ICT) sector. This is an event participation record, not an article authored by Hickok.
 
 ## Contents
 
@@ -27,7 +27,7 @@ This CIS News & Media item records [Elonnai Hickok](/elonnai/) attending a learn
   <dt>📍 Location:</dt>
   <dd>Washington, D.C., United States</dd>
 
-  <dt>👤 CIS participant:</dt>
+  <dt>👤 Centre for Internet and Society participant:</dt>
   <dd>Elonnai Hickok (attendee)</dd>
 
   <dt>🏛️ Organiser:</dt>
@@ -36,7 +36,7 @@ This CIS News & Media item records [Elonnai Hickok](/elonnai/) attending a learn
   <dt>📄 Record type:</dt>
   <dd>Event participation record</dd>
 
-  <dt>🔗 Original CIS record:</dt>
+  <dt>🔗 Original publication:</dt>
   <dd>
     <a href="https://cis-india.org/internet-governance/news/gni-industry-dialogue-learning-session-human-rights-impact-assessments-and-due-diligence-in-the-ict-sector">View the original CIS record</a>
   </dd>
