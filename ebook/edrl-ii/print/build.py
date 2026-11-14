@@ -802,7 +802,7 @@ parts.append(r"""
       row-gutter: 0.75em,
       align: (left, left),
       [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
-      [#text(size: 9.5pt)[sunilabraham.in]],
+      [#text(size: 9.5pt)[https://sunilabraham.in]],
       [],
       [#text(size: 9.5pt)[publications\@sunilabraham.in]],
       [],
