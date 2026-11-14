@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Another Step towards Privacy Law"
-description: "Elonnai Hickok's Governance Now analysis comparing the 2012 Group of Experts' report on privacy with the 2017 White Paper on a Data Protection Framework for India."
+description: "A Governance Now column by Elonnai Hickok comparing the 2012 Group of Experts' report and the 2017 White Paper on a data protection framework for India."
 authors: ["Elonnai Hickok"]
 categories: [Elonnai Hickok]
 date: 2018-01-15
@@ -10,91 +10,140 @@ permalink: /elonnai/another-step-towards-privacy-law/
 created: 2026-11-14
 ---
 
-**"Another Step towards Privacy Law"** is an article by [Elonnai Hickok](/elonnai/), published in *Governance Now* in its 15 January 2018 issue. With the subtitle "A comparison between the 2012 experts' report and the 2017 white paper on data protection", it examines how the proposed understanding of a privacy framework in India had developed between the two documents.
+**"Another Step towards Privacy Law"** is a column by [Elonnai Hickok](/elonnai/), published in the 15 January 2018 issue of *Governance Now*. The article compares the 2012 Group of Experts' report on privacy with the 2017 White Paper of the Committee of Experts on a Data Protection Framework for India.
 
 ## Contents
 
 1. [Article Details](#article-details)
-2. [Article Overview](#article-overview)
+2. [Full Text](#full-text)
 3. [Context and Background](#context-and-background)
 4. [External Link](#external-link)
 
 ## Article Details
 
 <dl class="media-details">
-  <dt>Published by:</dt>
+  <dt>📰 Published by:</dt>
   <dd><em>Governance Now</em></dd>
 
-  <dt>Issue date:</dt>
+  <dt>📅 Date:</dt>
   <dd>15 January 2018</dd>
 
-  <dt>CIS publication date:</dt>
-  <dd>18 January 2018</dd>
+  <dt>✍️ Author:</dt>
+  <dd>Elonnai Hickok</dd>
 
-  <dt>Author:</dt>
-  <dd><a href="/elonnai/">Elonnai Hickok</a></dd>
+  <dt>📄 Type:</dt>
+  <dd>Column</dd>
 
-  <dt>Type:</dt>
-  <dd>Column / policy analysis</dd>
+  <dt>🔗 Original Link:</dt>
+  <dd>
+    <a href="http://www.governancenow.com/views/columns/another-step-towards-privacy-law-data-protection">Read the original column</a>
+  </dd>
 
-  <dt>Subtitle:</dt>
-  <dd>A comparison between the 2012 experts' report and the 2017 white paper on data protection</dd>
-
-  <dt>Original publication:</dt>
-  <dd><a href="http://www.governancenow.com/views/columns/another-step-towards-privacy-law-data-protection">Governance Now</a></dd>
+  <dt>📚 CIS Archive:</dt>
+  <dd>
+    <a href="https://cis-india.org/internet-governance/blog/governance-now-elonnai-hickok-another-step-towards-privacy-law-data-protection">Read the archived article on CIS</a> (18 January 2018)
+  </dd>
 </dl>
 
-## Article Overview
+## Full Text
 
-The article places the 2017 White Paper of the Committee of Experts on a Data Protection Framework for India in the longer history of attempts to formulate a national privacy law. It traces that process from the 2010 approach paper and the 2011 draft Right to Privacy Bill to the 2012 report prepared by a group of experts headed by Justice (Retd.) A.P. Shah. It then considers the 2017 White Paper, released by the committee headed by Justice (Retd.) B.N. Srikrishna, as a consultation document seeking public views on the shape of a data protection law.
+<div class="highlighted-text" id="fulltext">
 
-The central comparison is between the 2012 report's proposed framework and the provisional positions explored in the 2017 White Paper. The 2012 report set out nine national privacy principles and recommended a co-regulatory arrangement involving privacy commissioners, courts, self-regulatory organisations, data controllers and privacy officers. The White Paper took a broader consultation-oriented approach, raising questions about emerging technologies, data localisation, children's consent, individual participation rights, the right to be forgotten, cross-border data flows and breach notification.
+<p><em>A comparison between the 2012 experts' report and the 2017 white paper on data protection.</em></p>
 
-The article compares the two documents across a series of policy areas:
+<hr class="article-separator">
 
-### Applicability
+<p>On July 31 the ministry of electronics and information technology (MeitY) constituted a committee of experts, headed by justice (retired) BN Srikrishna, to deliberate on a data protection framework for India. The committee is another step in India's journey in formulating a national-level privacy legislation.</p>
 
-The 2012 report proposed that privacy legislation should protect all persons in India and cover data processed by companies or equipment located in India, as well as data originating in India. The White Paper broadly reflected this approach while considering additional connecting factors, including an entity's business or services in India and the processing of personal data belonging to Indian citizens. It also discussed retrospective application and specific exemptions for defined public- and private-sector entities.
+<p>The formulation of a privacy law started as early as 2010 with an approach paper for a legislation on privacy towards envisioning a privacy framework for India. In 2011, a bill on right to privacy was drafted. In 2012 the planning commission constituted a group of experts, with justice (retired) AP Shah as its chief, which prepared a report recommending a privacy framework.</p>
 
-### Exceptions
+<p>A month after the formation of the committee, in August, the sectoral regulator, Telecom Regulatory Authority of India (TRAI), released the consultation paper, 'Privacy, Security and Ownership of the Data in the Telecom Sector'. In the same month, the supreme court in a landmark decision recognised privacy as a fundamental right.</p>
 
-The 2012 report identified exceptions for purposes such as journalism and art, household activities, historical and scientific research, and the Right to Information. It proposed that exceptions involving national security, public order, public interest and criminal investigations should be assessed against legality, necessity and proportionality. The White Paper broadly carried forward the categories of exceptions but did not apply those tests to national security and public-interest exceptions in the same way; instead, it explored the possibility of review mechanisms.
+<p>In November 2017, the expert group released a 'White Paper of the Committee of Experts on a Data Protection Framework for India' to solicit public comments on the contours of a data protection law for India.</p>
 
-### Consent and notice
+<p>To understand the evolution of the thinking around a privacy framework for India, this article outlines and analyses common themes and differences between (a) the 2012 group of experts' report, and the 2017 expert committee's white paper.</p>
 
-The White Paper described consent as something that should be freely given, informed and specific, while recognising the need to develop standards for implied consent. The 2012 report had already included choice and consent as a privacy principle, although it did not elaborate the elements of valid consent in the same detail and included an opt-out mechanism.
+<p>The white paper seeks to gather inputs from the public on key issues towards the development of a data protection law for India. The paper places itself in the context of the NDA government's Digital India initiative, the justice Shah committee report, and the judicial developments on the right to privacy in India. It is divided into three substantive parts: (1) scope and exemptions, (2) grounds of processing, obligation and entities, individual rights, and (3) regulation and enforcement. Each part is comprised of deep dives into key issues, international practices, preliminary views of the committee, and questions for public consultation.</p>
 
-On notice, the White Paper considered practical ways to make information meaningful to individuals. These included codes of practice, layered notices, the use of privacy impact assessments to assess notices, data trust scores and consent dashboards. The article relates these proposals to the 2012 report's notice principle, which addressed privacy policies, data-breach notification and legal access to personal information.
+<p>Broadly, the 2012 report defined nine national-level privacy principles and recommended a co-regulatory framework that consisted of privacy commissioners, courts, self-regulating organisations, data controllers, and privacy officers at the organisational level. At the outset, the 2017 white paper is different from that report simply by the fact that it is a consultation paper soliciting views as compared to a report that recommends a broad privacy framework for India. In doing so, the white paper explores a broader set of issues than those discussed in the justice Shah report – ranging from the implications of emerging technologies on the relevance of traditional privacy principles, data localisation, child's consent, individual participation rights, the right to be forgotten, cross-border flow of data, breach notification etc. Given that the white paper is a consultation paper, this article examines the provisional views shared in it with the recommendations of the 2012 report.</p>
 
-### Purpose limitation, data retention and quality
+<p>Key areas that the both the documents touch upon (though not necessarily agree on) include:</p>
 
-The White Paper recognised that changing technologies create difficulties for applying purpose limitation. It considered layered privacy policies and a standard of reasonableness as ways of relating the principle to actual data uses. The 2012 report had included purpose limitation as a principle but did not explore comparable implementation methods.
+<h3>Applicability</h3>
 
-The White Paper also proposed using the terms "reasonably and necessary" to guide data retention and data quality, partly to avoid placing excessive burdens on industry. The 2012 report had addressed retention more briefly, through its purpose-limitation principle.
+<p>The 2012 report of experts recommended a privacy legislation that extends the right to privacy to all persons in India, all data that is processed by a company or equipment located in India, and to data that originate in India.</p>
 
-### Individual access and correction
+<p>Provisional views in the white paper reflect this position, but also offer that applicability could be in part determined by the legitimate interest of the state, carrying on a business or offering services or goods in India, and if, despite location, the entity is processing the personal data of Indian citizens. The provisional views also touch upon retrospective application of a data protection law and agree with the 2012 report by recommending that a law apply to privacy and public bodies. They also go a step further by recommending specific exemptions in application for well defined categories of public or private entities.</p>
 
-Both documents recognised an individual's ability to seek confirmation of, access to and correction of personal information. The White Paper noted the growing difficulty of applying these rights to observed behavioural data and information inferred from habits. It raised the possibility of charging a fee to discourage frivolous requests. The 2012 report had recognised access and correction rights but did not propose such a fee, while noting that access could be restricted where it would affect another person's privacy.
+<h3>Exceptions</h3>
 
-### Enforcement and accountability
+<p>The experts' report defined the following exceptions to the right to privacy: artistic and journalistic purposes, household purposes, historic and scientific research, and the Right to Information. Exceptions that must be weighed against the principles of proportionality, legality, and necessary in a democratic state included: national security, public order, disclosure in public interest, prevention, detection, investigation, and prosecution of criminal offences, and protection of the individual or of the rights and freedoms of others.</p>
 
-The article identifies broad agreement between the documents on co-regulation and codes of practice. Under the 2012 proposal, industry self-regulatory organisations could develop sector-specific standards consistent with national privacy principles, subject to approval by a privacy commissioner.
+<p>Provisional views in the 2017 white paper broadly mirror the exemptions defined in the experts' report, but do not weigh exceptions related to national security and public interest etc. against the principles of proportionality, legality, and necessary in a democratic state and instead explored a review mechanism for these exceptions.</p>
 
-The White Paper developed the idea of accountability further. It considered holding data controllers responsible not only for meeting data-protection standards but, in specified circumstances, also for harm caused to individuals. It discussed registration, data-protection impact assessments, audits and data-protection officers as possible mechanisms for strengthening accountability. The 2012 report had also envisaged impact assessments, investigations and data controllers, but did not examine registration in the same way.
+<h3>Consent</h3>
 
-### Authorities, adjudication, penalties and remedies
+<p>Provisional views in the white paper on consent note that aspects of consent should include that it is freely given, informed and specific and that standards for implied consent need to be evolved.</p>
 
-Both documents envisaged an independent privacy commissioner or data-protection authority with functions that could include impact assessments, audits, investigations and penalties. They differed on adjudication. The White Paper considered whether existing bodies, including appellate tribunals under the Information Technology Act and consumer dispute-redressal bodies, might resolve disputes. The 2012 report, by contrast, cautioned against relying on existing tribunals or creating a distinct tribunal, and proposed routes involving commissioners, alternative dispute resolution and the courts.
+<p>Though the 2012 experts' report defined a principle for choice and consent, this principle did not define aspects of what would constitute valid consent, yet it did incorporate an opt-out mechanism.</p>
 
-The White Paper also developed the question of penalties and compensation in greater detail. It considered factors for calculating civil penalties, including the nature and extent of a violation, the type of personal information involved, the number of people affected, whether the conduct was intentional or negligent, steps taken to mitigate harm and the data controller's previous record.
+<h3>Notice</h3>
 
-The article concludes by viewing the 2017 White Paper as a positive step in the development of a data-protection law for India. It leaves open the questions of how the public would respond to the consultation and how the committee's final recommendations would build on, differ from or incorporate earlier policy work.
+<p>Provisional views in the white paper hold that notice is important in enabling consent and explore a number of mechanisms that can be implemented to effect meaningful notice such as codes of practice for designing notice, multilayered notices, assessing notices in privacy impact assessments, assigning 'data trust scores' based on their data use policy, and having a 'consent dashboard' to help individuals manage their consent across entities.</p>
+
+<p>These views build upon and complement the principle of notice defined in the 2012 report which defined components of a privacy policy as well as other forms of notice including data breach (also addressed in the white paper) and legal access to personal information.</p>
+
+<h3>Purpose limitation/minimisation</h3>
+
+<p>Provisional views in the white paper recognise the challenges that evolving technology is posing to the principle of purpose limitation and recommend that layered privacy policies and the standard of reasonableness can be used to contextualise this principle to actual purposes and uses.</p>
+
+<p>Though the 2012 report defined a purpose limitation principle, the principle does not incorporate a standard of reasonableness or explore methods of implementation.</p>
+
+<h3>Data Retention and Quality</h3>
+
+<p>Provisional views in the white paper suggest that the principles of data retention and data quality can be guided by the terms "reasonably and necessary" to ensure that they are not overly burdensome on industry.</p>
+
+<p>The 2012 report of experts briefly touched on data retention in the principle of purpose limitation – holding that practices should be in compliance with the national privacy principles.</p>
+
+<h3>Right to Access</h3>
+
+<p>Provisional views in the white paper recognise the importance of the right confirmation, access, and rectify personal information of the individual, but note that this is increasingly becoming harder to enforce with respect to data that is observed behavioral data and derived from habits. A suggested solution is to impose a fee on individuals for using these rights to deter frivolous requests.</p>
+
+<p>Though the 2012 report defined a principle of access and correction it did not propose a fee for using this right and it included the caveat that if the access would affect the privacy rights of others, access may not be given by the data controller.</p>
+
+<h3>Enforcement Mechanisms</h3>
+
+<p>Provisional views in the 2017 white paper broadly agree with the appropriateness of the model of co-regulation and development of codes of practice as suggested in the 2012 report. Within the system envisioned in the 2012 report of experts, self-regulating organisations at the industry level will have the ability to develop industry specific norms and standards in compliance with the national privacy principles to be approved by the privacy commissioner.</p>
+
+<h3>Accountability</h3>
+
+<p>The provisional views of the white paper go beyond the principle of accountability defined in the 2012 report by suggesting that data controllers should not only be held accountable for implementation of defined data protection standards, but in defined circumstances, also for harm that is caused to an individual.</p>
+
+<h3>Additional Obligations and Data Controllers</h3>
+
+<p>Provisional views of the white paper suggest the following mechanisms as methods towards ensuring accountability of specific categories of data controllers: registration, data protection impact assessment, data audits, and data protection officers that are centres of accountability.</p>
+
+<p>The 2012 experts' report also envisioned impact assessments and investigations carried out by the privacy commissioner and the role of a data controller, but did not explore registration of these entities.</p>
+
+<h3>Authorities and Adjudication</h3>
+
+<p>The both documents are in agreement on the need for a privacy commissioner/data protection authority and envision similar functions such as conducting privacy impact assessments, audits, investigation, and levying of fines. The white paper differs from the 2012 experts' report in its view that the appellate tribunals under the IT Act and bodies like the National Commission Disputes Redressal Commission could potentially be appropriate venues for adjudicating and resolving disputes.</p>
+
+<p>Though the 2012 experts' report recommended that complaints can be issued through an alternative dispute resolution mechanism, to central and regional level commissioners, or to the courts – for remedies– enforcement of penalties should involve district and high-level courts and the supreme court. The 2012 report specified that a distinct tribunal should not be created nor should existing tribunals be relied upon as there is the possibility that the institution will not have the capacity to rule on a broad right of privacy. Individuals that can be held liable by individuals include data controllers, organisation directors, agency directors, and heads of governmental departments.</p>
+
+<h3>Penalty and Remedy</h3>
+
+<p>The white paper goes much further in its thinking on penalties, remedies and compensation than the 2012 report of experts – discussing potential models for calculation of civil penalties including nature and extent of violation of the data protection obligation, nature of personal information involved, number of individuals affected, whether infringement was intentional or negligent, measures taken by the data controller to mitigate the damage, and previous track record of the data controller.</p>
+
+<p>The white paper is a progressive and positive step towards formulating a data protection law for India that is effective and relevant nationally and internationally. It will be interesting to see the public response to it and the response of the committee to the inputs received from the consultation as well as how the final recommendations differ, build upon, and incorporate previous policy steps towards a comprehensive privacy framework for India.</p>
+
+</div>
+
+{% include back-to-top.html %}
 
 ## Context and Background
 
-The 2017 White Paper emerged at a significant moment in India's privacy-law debate. The Ministry of Electronics and Information Technology had constituted the Srikrishna Committee on 31 July 2017. In August, the Telecom Regulatory Authority of India released its consultation paper on privacy, security and ownership of data in the telecom sector. That same month, the Supreme Court recognised privacy as a fundamental right in its landmark decision. The expert committee released its White Paper in November 2017 to invite public comments on the possible contours of a data-protection framework.
-
-Elonnai Hickok's comparison is useful because it does not treat the 2017 consultation as a fresh beginning. Instead, it sets the White Paper alongside the 2012 report and tracks both continuity and change: the principles that remained recognisable, the areas in which the White Paper expanded the discussion, and the questions on which the two documents proposed different approaches. The article is a record of the policy debate at the consultation stage in 2017–2018; it should not be read as an account of the data-protection law that was subsequently enacted.
+The column was published in the 15 January 2018 issue of *Governance Now*. The Centre for Internet and Society archived the article on 18 January 2018 under Internet Governance and Privacy. The CIS archive identifies Elonnai Hickok as the author.
 
 ## External Link
 
@@ -114,6 +163,7 @@ Elonnai Hickok's comparison is useful because it does not treat the 2017 consult
   font-size: 0.96rem;
   line-height: 1.5;
   color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
 .media-details dt {
   font-weight: 600;
@@ -122,29 +172,28 @@ Elonnai Hickok's comparison is useful because it does not treat the 2017 consult
 }
 .media-details dd {
   margin: 0 0 0.3rem 0.3rem;
-  color: #444;
+  color: #555;
 }
-.media-details a {
-  color: #0645ad;
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
+.highlighted-text {
+  background-color: #fffbea;
+  border-left: 4px solid #f2ce61;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  line-height: 1.65;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 0.8rem;
 }
-.media-details a:focus-visible {
-  outline: 2px solid #1f5fbf;
-  outline-offset: 3px;
+.highlighted-text p {
+  margin-bottom: 1rem;
 }
-body.tsap-dark-mode .media-details {
-  background: #1f2937;
-  border-color: #475569;
-  color: #e5e7eb;
+.highlighted-text ul,
+.highlighted-text ol {
+  margin: 0 0 1rem 1.5rem;
 }
-body.tsap-dark-mode .media-details dt {
-  color: #bfdbfe;
-}
-body.tsap-dark-mode .media-details dd {
-  color: #d1d5db;
-}
-body.tsap-dark-mode .media-details a {
-  color: #93c5fd;
+.article-separator {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  margin: 0.75rem 0 1rem 0;
 }
 </style>
