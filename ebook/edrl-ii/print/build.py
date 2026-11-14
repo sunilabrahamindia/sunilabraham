@@ -752,6 +752,8 @@ signature_typst = r"""#block(width: 100%, breakable: false)[
     #text(size: 8.5pt)[Christian Institute for the Study of]
     #linebreak()
     #text(size: 8.5pt)[Religion and Society]
+    #linebreak()
+    #text(size: 8.5pt)[Bengaluru, India]
   ]
 ]"""
 if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
@@ -1127,4 +1129,3 @@ print(f"Front cover proof: {cover_pdf} ({cover_pdf.stat().st_size:,} bytes)")
 print(f"Back cover proof: {back_cover_pdf} ({back_cover_pdf.stat().st_size:,} bytes)")
 print(f"Full-wrap cover proof: {full_wrap_cover_pdf} ({full_wrap_cover_pdf.stat().st_size:,} bytes)")
 print("Combined review PDF created with front cover, one blank page after the cover, unchanged interior, two blank pages before the back cover, and back cover.")
-
