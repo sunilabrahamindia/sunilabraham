@@ -1059,8 +1059,18 @@ cover_source.write_text(r'''#set page(width: 160mm, height: 222mm, margin: 0mm, 
 cover_pdf = OUT / "edrl-ii-front-cover-proof.pdf"
 run([typst, "compile", str(cover_source), str(cover_pdf)])
 
-run(["pdfunite", str(cover_pdf), str(interior), str(OUT / "edrl-ii-combined-review.pdf")])
-for path in (interior, cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
+# The standalone cover proof retains 6 mm bleed. For the combined reading/review
+# PDF, make a separate A5-sized cover page so ordinary PDF viewers display it
+# at the same page size as the A5 interior.
+review_cover_source = OUT / "edrl-ii-review-cover.typ"
+review_cover_source.write_text(r'''#set page(width: 148mm, height: 210mm, margin: 0mm, fill: rgb("f5ead8"))
+#image("edrl-ii-cover.png", width: 148mm, height: 210mm, fit: "cover")
+''', encoding="utf-8")
+review_cover_pdf = OUT / "edrl-ii-review-cover.pdf"
+run([typst, "compile", str(review_cover_source), str(review_cover_pdf)])
+
+run(["pdfunite", str(review_cover_pdf), str(interior), str(OUT / "edrl-ii-combined-review.pdf")])
+for path in (interior, cover_pdf, review_cover_pdf, OUT / "edrl-ii-combined-review.pdf"):
     if not path.is_file() or path.stat().st_size < 10000:
         raise SystemExit(f"Expected PDF missing or unexpectedly small: {path}")
 print(f"Interior: {interior} ({interior.stat().st_size:,} bytes)")
