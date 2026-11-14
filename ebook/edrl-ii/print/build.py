@@ -792,7 +792,7 @@ parts.append(r"""
       #text(size: 17pt, weight: "bold")[Essays on]
       #linebreak()
       #text(size: 17pt, weight: "bold")[Dalits, Religion, Liberation II]
-      #v(0.8em)
+      #v(0.75em)
       #text(size: 11pt)[A. M. Abraham Ayrookuzhiel]
     ]
     #v(1.1em)
