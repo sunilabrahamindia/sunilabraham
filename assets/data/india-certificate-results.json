@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+  "last_checked_utc": "2026-11-15T09:36:41.499551Z",
   "results": [
     {
       "name": "SBI Online Banking",
@@ -7,13 +7,13 @@
       "category": "Banking",
       "status": "ok",
       "expiry_utc": "2026-11-29T23:59:59Z",
-      "days_remaining": 15,
+      "days_remaining": 14,
       "issuer": {
         "countryName": "US",
         "organizationName": "DigiCert Inc",
         "commonName": "DigiCert EV RSA CA G2"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -22,13 +22,13 @@
       "category": "Public services",
       "status": "ok",
       "expiry_utc": "2026-12-05T11:46:21Z",
-      "days_remaining": 21,
+      "days_remaining": 20,
       "issuer": {
         "countryName": "BE",
         "organizationName": "GlobalSign nv-sa",
         "commonName": "GlobalSign GCC R3 EV TLS CA 2025"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -37,13 +37,13 @@
       "category": "Government",
       "status": "ok",
       "expiry_utc": "2026-12-12T09:01:23Z",
-      "days_remaining": 28,
+      "days_remaining": 27,
       "issuer": {
         "countryName": "BE",
         "organizationName": "GlobalSign nv-sa",
         "commonName": "GlobalSign RSA OV SSL CA 2018"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -52,13 +52,13 @@
       "category": "Payments",
       "status": "ok",
       "expiry_utc": "2026-12-18T23:59:59Z",
-      "days_remaining": 34,
+      "days_remaining": 33,
       "issuer": {
         "countryName": "US",
         "organizationName": "DigiCert Inc",
         "commonName": "DigiCert Global G3 TLS ECC SHA384 2020 CA1"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -67,13 +67,13 @@
       "category": "Banking",
       "status": "ok",
       "expiry_utc": "2026-12-31T23:59:59Z",
-      "days_remaining": 47,
+      "days_remaining": 46,
       "issuer": {
         "countryName": "CA",
         "organizationName": "Entrust Limited",
         "commonName": "Entrust DV TLS Issuing RSA CA 2"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -82,13 +82,13 @@
       "category": "Government",
       "status": "ok",
       "expiry_utc": "2027-01-14T05:34:53Z",
-      "days_remaining": 61,
+      "days_remaining": 60,
       "issuer": {
         "countryName": "US",
         "organizationName": "Let's Encrypt",
         "commonName": "YE1"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -97,13 +97,13 @@
       "category": "Government",
       "status": "ok",
       "expiry_utc": "2027-02-10T09:02:38Z",
-      "days_remaining": 88,
+      "days_remaining": 87,
       "issuer": {
         "countryName": "US",
         "organizationName": "Let's Encrypt",
         "commonName": "YE1"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -112,13 +112,13 @@
       "category": "Government",
       "status": "ok",
       "expiry_utc": "2027-02-12T04:14:25Z",
-      "days_remaining": 90,
+      "days_remaining": 89,
       "issuer": {
         "countryName": "US",
         "organizationName": "Let's Encrypt",
         "commonName": "YE2"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -127,14 +127,14 @@
       "category": "Digital public infrastructure",
       "status": "ok",
       "expiry_utc": "2027-02-19T23:59:59Z",
-      "days_remaining": 97,
+      "days_remaining": 96,
       "issuer": {
         "countryName": "US",
         "organizationName": "DigiCert Inc",
         "organizationalUnitName": "www.digicert.com",
         "commonName": "RapidSSL TLS RSA CA G1"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -143,13 +143,13 @@
       "category": "Certificate authority",
       "status": "ok",
       "expiry_utc": "2027-03-05T23:59:59Z",
-      "days_remaining": 111,
+      "days_remaining": 110,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
         "commonName": "Sectigo Public Server Authentication CA DV R36"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -158,14 +158,14 @@
       "category": "Finance",
       "status": "ok",
       "expiry_utc": "2027-04-23T23:59:59Z",
-      "days_remaining": 160,
+      "days_remaining": 159,
       "issuer": {
         "countryName": "US",
         "organizationName": "DigiCert Inc",
         "organizationalUnitName": "www.digicert.com",
         "commonName": "GeoTrust TLS RSA CA G1"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -174,13 +174,13 @@
       "category": "Digital public infrastructure",
       "status": "ok",
       "expiry_utc": "2027-05-07T23:59:59Z",
-      "days_remaining": 174,
+      "days_remaining": 173,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
         "commonName": "Sectigo Public Server Authentication CA OV R36"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -189,14 +189,14 @@
       "category": "Public services",
       "status": "ok",
       "expiry_utc": "2027-05-09T23:59:59Z",
-      "days_remaining": 176,
+      "days_remaining": 175,
       "issuer": {
         "countryName": "US",
         "organizationName": "DigiCert Inc",
         "organizationalUnitName": "www.digicert.com",
         "commonName": "GeoTrust TLS RSA CA G1"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -205,13 +205,13 @@
       "category": "Government",
       "status": "ok",
       "expiry_utc": "2027-05-22T09:47:08Z",
-      "days_remaining": 189,
+      "days_remaining": 188,
       "issuer": {
         "countryName": "BE",
         "organizationName": "GlobalSign nv-sa",
         "commonName": "GlobalSign GCC R46 OV TLS CA 2025"
       },
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": null
     },
     {
@@ -222,7 +222,7 @@
       "expiry_utc": null,
       "days_remaining": null,
       "issuer": null,
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": "TimeoutError: timed out"
     },
     {
@@ -233,7 +233,7 @@
       "expiry_utc": null,
       "days_remaining": null,
       "issuer": null,
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": "TimeoutError: timed out"
     },
     {
@@ -244,7 +244,7 @@
       "expiry_utc": null,
       "days_remaining": null,
       "issuer": null,
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": "gaierror: [Errno -5] No address associated with hostname"
     },
     {
@@ -255,7 +255,7 @@
       "expiry_utc": null,
       "days_remaining": null,
       "issuer": null,
-      "last_checked_utc": "2026-11-14T09:06:08.987711Z",
+      "last_checked_utc": "2026-11-15T09:36:41.499551Z",
       "error": "gaierror: [Errno -5] No address associated with hostname"
     }
   ]
