@@ -299,7 +299,7 @@ Existing italicisation was retained for terms and expressions including *rache*,
 
 **Capitalisation audit — changes made**
 
-- **Dalit / dalit; Dalits / dalits:** Standardised the author's own narrative references to *Dalit* and *Dalits*, including the derived term *Dalitism*, with uppercase initial letters. Existing uppercase forms were retained. Lowercase forms inside quoted material were preserved, including the quoted word "dalit" discussed as a term. The permalink slug was not changed.
+- **Dalit / dalit; Dalits / dalits:** Standardised the author's own narrative references to *Dalit* and *Dalits*, including the derived term *Dalitism*, with uppercase initial letters. Existing uppercase forms were retained. Lowercase forms inside quoted material were preserved, including the quoted word "Dalit" discussed as a term, now capitalised under the collection-wide standardisation decision. The permalink slug was not changed.
 - **Karma / karma:** Changed the generic philosophical concept from "Karma" to lowercase "karma", consistent with the treatment of generic Indic concepts in the earlier essays.
 - **Brahmin / Brahmins; Brahmanical / Brahmanic:** Existing capitalisation was retained. These forms refer to caste identity, cultural/religious traditions or related designations in the contexts in which they occur.
 - **God / god:** Existing forms were retained according to context, including the quoted phrase "the people of God".
@@ -367,7 +367,7 @@ The following source-level capitalisation corrections have been applied in the a
 **Capitalisation decisions retained without change**
 
 - The lowercase "dalit" in the permalink slug remains unchanged.
-- The wording "the dalit Nationality" is retained inside the quoted passage. Capitalisation within quoted material has not been silently normalised.
+- The wording "the Dalit Nationality" is now capitalised inside the quoted passage under the collection-wide standardisation decision. Capitalisation within quoted material has not been silently normalised.
 - Names, titles, institutional names, and the existing capitalisation of Dalit/Dalits in the rest of the article were retained.
 - No wording or spelling correction was made, including in passages whose grammar or phrasing may warrant separate editorial attention.
 
