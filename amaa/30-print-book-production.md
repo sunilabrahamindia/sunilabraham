@@ -2460,3 +2460,12 @@ The new block follows the same visual treatment as Source Attribution: matching 
 
 - **Builder commit:** `d5ad299ba36ffad5a05c2ab46a37b315322fd584` — Add production and typesetting credit to EDRL II.
 - **Proof status:** Source committed. Check page 6 in the next print PDF for fit, spacing and legibility.
+
+## Credits-page production wording and spacing — 15 November 2026
+
+The credits-page "PRODUCTION AND TYPESETTING" paragraph now describes the work as preparation of the book's print-production files, rather than "PDF production". This wording refers to the print interior and cover files without presenting the PDF format itself as the publication.
+
+A very small increase was made to the space between each of the "SOURCE ATTRIBUTION" and "PRODUCTION AND TYPESETTING" labels and its paragraph, from 0.4em to 0.5em. No other credits-page spacing was changed.
+
+- **Builder commit:** `0f6671e77c24a86b7055aa15b46e762cf6241896` — Refine EDRL II credits-page production wording and spacing.
+- **Proof status:** Source committed. Check the next print proof, interior page 6, for the wording and the two small spacing adjustments.
