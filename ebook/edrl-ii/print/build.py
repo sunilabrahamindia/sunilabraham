@@ -48,13 +48,19 @@ def write_heading_dividers():
 </g>
 <circle cx="110" cy="16" r="1.5" fill="#6f6b64"/>
 </svg>""", encoding="utf-8")
-    ESSAY_DIVIDER.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
-<g fill="none" stroke="#aaa69f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M2 12 H1140"/>
-  <path d="M1140 12 C1150 12 1150 4 1160 4 C1170 4 1170 20 1180 20 C1190 20 1190 12 1198 12"/>
-  <path d="M1152 12 C1157 7 1163 7 1168 12 C1163 17 1157 17 1152 12 Z"/>
-  <path d="M1172 12 C1177 7 1183 7 1188 12 C1183 17 1177 17 1172 12 Z"/>
+    ESSAY_DIVIDER.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36">
+<g fill="none" stroke="#918b80" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 18 H520 M680 18 H1198"/>
+  <path d="M520 18 C540 18 548 8 566 8 C581 8 588 14 600 18 C612 14 619 8 634 8 C652 8 660 18 680 18"/>
+  <path d="M520 18 C540 18 548 28 566 28 C581 28 588 22 600 18 C612 22 619 28 634 28 C652 28 660 18 680 18"/>
+  <path d="M566 8 C558 1 545 2 538 9 C550 7 559 11 566 8 Z"/>
+  <path d="M634 8 C642 1 655 2 662 9 C650 7 641 11 634 8 Z"/>
+  <path d="M566 28 C558 35 545 34 538 27 C550 29 559 25 566 28 Z"/>
+  <path d="M634 28 C642 35 655 34 662 27 C650 29 641 25 634 28 Z"/>
+  <path d="M580 18 C586 11 594 11 600 18 C606 11 614 11 620 18 C614 25 606 25 600 18 C594 25 586 25 580 18 Z"/>
+  <path d="M600 8 V13 M600 23 V28"/>
 </g>
+<circle cx="600" cy="18" r="2.2" fill="#918b80"/>
 </svg>""", encoding="utf-8")
 AUTHOR_PHOTO_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
 AUTHOR_PHOTO = OUT / "author-portrait.png"
@@ -1160,8 +1166,10 @@ for essay in essays:
   #v(7pt)
   #image("essay-divider.svg", width: 100%)
   #v(5pt)
-  #text(size: 7.5pt, weight: "bold", tracking: 0.65pt, fill: luma(85))[ORIGINAL PUBLICATION: ]
-  #text(size: 9.5pt, style: "italic", fill: luma(65))[{essay['publication_note']}]
+  #align(center)[
+    #text(size: 7.5pt, weight: "bold", tracking: 0.65pt, fill: luma(85))[ORIGINAL PUBLICATION: ]
+    #text(size: 9.5pt, style: "italic", fill: luma(65))[{essay['publication_note']}]
+  ]
   #v(5pt)
   #image("essay-divider.svg", width: 100%)
   #v(7pt)
