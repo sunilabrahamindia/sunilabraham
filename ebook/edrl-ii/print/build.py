@@ -823,9 +823,11 @@ parts.append(r"""
   #v(30mm)
   #text(size: 10pt, weight: "bold", tracking: 2pt)[ESSAYS ON]
   #v(2.5mm)
+  #v(-3pt)
   #text(size: 25pt, weight: "bold")[Dalits, Religion]
   #linebreak()
   #text(size: 25pt, weight: "bold")[and Liberation II]
+  #v(3pt)
   #v(12mm)
   #image("half-title-ornament.svg", width: 22mm)
   #v(10mm)
