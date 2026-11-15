@@ -821,9 +821,9 @@ parts.append(r"""
 #pagebreak()
 #align(center)[
   #v(30mm)
+  #v(-3pt)
   #text(size: 10pt, weight: "bold", tracking: 2pt)[ESSAYS ON]
   #v(2.5mm)
-  #v(-3pt)
   #text(size: 25pt, weight: "bold")[Dalits, Religion]
   #linebreak()
   #text(size: 25pt, weight: "bold")[and Liberation II]
