@@ -200,7 +200,7 @@ About ten people wondered, since life involves exploitation of others, whether i
 
 Some considered all killing and causing pain, whether it be to animal or to man, as *papam*, while for the majority killing animals for food was not sin. It is at the most, a necessary sin. Harmful creatures like snakes, and insects like mosquitoes could be killed.
 
-#### punyam
+#### Punyam
 
 In their description of *punyam* three types of acts were referred to. A *pravritti* (an act) done for the benefit (*upakaram*) of others is *punyam*. *Iswaravicaram*, observance of *vratam, tozhal, vazhipad, tirthayatras* are *punyapravrittikal*. But the mind must be *suddham* and these acts should be accompanied by acts of *danadharmam*. We have to do good to others without desiring any favour in return. Helping the poor (*sadhukkal*) was repeatedly mentioned as *punyapravritti*. Other specific instances were *danadharmam* (alms giving), feeding the hungry, caring for the sick, controlling *kamam* and *moham*.
 
