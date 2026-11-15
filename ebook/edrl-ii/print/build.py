@@ -940,7 +940,7 @@ parts.append(r"""
           #set par(justify: false, first-line-indent: 0pt, leading: 6.6pt, spacing: 0pt)
           #text(size: 8pt, weight: "bold", fill: luma(85))[SOURCE ATTRIBUTION]
           #v(5.5pt)
-          #set par(justify: false, first-line-indent: 0pt, leading: 15.2pt, spacing: 0pt)
+          #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)
           #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
         ]
       ]
@@ -950,7 +950,7 @@ parts.append(r"""
           #set par(justify: false, first-line-indent: 0pt, leading: 6.6pt, spacing: 0pt)
           #text(size: 8pt, weight: "bold", fill: luma(85))[PRODUCTION AND TYPESETTING]
           #v(5.5pt)
-          #set par(justify: false, first-line-indent: 0pt, leading: 15.2pt, spacing: 0pt)
+          #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)
           #text(size: 8.5pt)[Typesetting and preparation of the book's print-production files were carried out using Python, Pandoc and Typst. Source files and production code are managed on GitHub, with automated builds run through GitHub Actions.]
         ]
       ]
