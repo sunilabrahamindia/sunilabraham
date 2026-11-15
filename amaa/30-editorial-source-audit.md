@@ -242,6 +242,28 @@ These decisions are specific to the contexts inspected in Essay 2 and remain sub
 
 **Status:** Capitalisation and italicisation audits completed for Essay 3. Source corrections are limited to the recorded case and italic-formatting changes.
 
+
+
+**Heading audit (H2-H4) and follow-up italicisation corrections**
+
+- The H3 heading in section C now italicises *parasakti*. The H4 headings "What is *papam* or *adharmam*?", "*Papam*" and "*Punyam*" now italicise the Indic terms consistently with their use in the essay.
+- The H3 headings containing *suddhi*, *assuddhi*, *karmam* and *samaya dosam* already had italic markup and were retained.
+- The numbered statements (1)–(6) in section I.B are bold paragraph statements, not Markdown H2-H4 headings. The generic term *sakti* is now italicised in these statements wherever it appeared in roman type.
+- A full-text follow-up found additional unitalicised occurrences of *sakti* and *saktis* in the opening quoted account, numbered statements, surrounding prose and quotations. All generic occurrences in Essay 3 have now been italicised; existing italics were retained. The spaced expression *para sakti* is italicised as a complete expression where it occurs.
+
+**Essays 4 and 5 — heading audit**
+
+- Essay 4, "The Church and the Study of Religion": all H2-H4 headings were inspected. None contains an Indic term from the essay's italicisation list; no heading correction was required. The terms recorded in the body-text audit, including *avarna jati*, *dharma*, *karma*, *varnashrama*, *papam* and *punyam*, are already italicised in the body text.
+- Essay 5, "Religions and the Aspirations of the People": all H2-H4 headings were inspected. None contains an Indic term from the essay's italicisation list; no heading correction was required. The existing body-text italicisation decisions for *puja*, *Nivedyam*, *mantra*, *mantras* and *pujas* remain unchanged.
+
+**Verification and status**
+
+- Essay 3 source formatting was updated without changing wording, spelling, punctuation, paragraph order or metadata.
+- Essays 4 and 5 required no heading changes in this pass.
+- The next EDRL II print build will render the updated Essay 3 source. The generated PDF still requires visual inspection to confirm the printed italic treatment.
+
+**Status:** Essay 3 body-text and H2-H4 italicisation corrections applied. Essay 4 and Essay 5 heading audits completed; no corrections required.
+
 ### 4. The Church and the Study of Religion
 
 **Full source inspected:** [The Church and the Study of Religion](/amaa/the-church-and-the-study-of-religion/). The complete essay is embedded in the article's "Full text" section; no separate full-text page exists.
