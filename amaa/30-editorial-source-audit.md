@@ -13,7 +13,7 @@ The purpose is to establish a consistent and defensible editorial approach while
 
 ## Scope
 
-The audit covers the nine main essays listed below. It does not cover the Foreword, Editor's Note, acknowledgements or other preliminary matter. Capitalisation and italicisation are separate workstreams; a decision in one does not automatically determine the other.
+The audit initially covered the nine main essays. It has now been extended to three additional book sections: About the Author, the Foreword by Y. T. Vinayaraj, and the Editor's Note (including its acknowledgement section). The audit therefore covers twelve sections in total. Capitalisation and italicisation are separate workstreams; a decision in one does not automatically determine the other.
 
 ## Audit criteria
 
@@ -52,7 +52,7 @@ For each essay, identify the relevant terms and variations, inspect every occurr
 
 ## Audit reports
 
-The following nine sections are the working report area. Each essay will have its own findings and decisions. The report will distinguish between observed evidence, editorial judgement, corrections made and items requiring further review.
+The following twelve sections form the working report area. Each section has its own findings and decisions. The report distinguishes between observed evidence, editorial judgement, corrections made and items requiring further review.
 
 ### 1. The State of Hinduism in 2000 A.D.—Some Emerging Trends
 
@@ -376,6 +376,97 @@ The following source-level capitalisation corrections have been applied in the a
 - The quoted phrase "the dalit Nationality" and the lowercase permalink slug were explicitly retained.
 
 **Status:** Capitalisation and italicisation audits completed for Essay 9. Only the recorded capitalisation changes were applied to the Markdown source.
+
+
+### 10. About the Author
+
+**Source inspected:** The About the Author text in the paperback print source, `ebook/edrl-ii/print/build.py`. The same biographical text is reproduced in the print build; the e-book front matter currently does not contain this section.
+
+**Capitalisation audit — findings and decisions**
+
+- **A. M. Abraham Ayrookuzhiel:** Personal name retained in its existing form throughout.
+- **Dalit / Dalits:** Retained with initial capitals when referring to the communities and their identity.
+- **Christian Institute for the Study of Religion and Society (CISRS):** Institutional name and acronym retained.
+- **Anglican Church, St. Paul High Anglican Church, United Kingdom, Rome, Kerala, Chengannur, Puthenkavu, Thiruvananthapuram, Pune, Bangalore, Wokingham and Berkshire:** Proper names and institutional designations retained.
+- No capitalisation correction was made.
+
+**Italicisation audit — findings and decisions**
+
+- The titles *The Sacred in Popular Hinduism: An Empirical Study in Chirakkal, North Malabar*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial* and *The Dalit Desiyata: The Kerala Experience in Development and Class Struggle* are already italicised.
+- No other Indic word or expression requiring italics was identified in the biographical text.
+- No italicisation correction was made.
+
+**Verification**
+
+- The complete biographical text was inspected in its print source.
+- No source changes were made. The wording, dates, names, punctuation and paragraph structure remain untouched.
+
+**Status:** Capitalisation and italicisation review completed for About the Author. No source correction was required.
+
+### 11. Foreword
+
+**Source inspected:** `ebook/edrl-ii/foreword.md`, the shared source used by the e-book and paperback print build. The Foreword is by Y. T. Vinayaraj.
+
+**Capitalisation audit — findings and decisions**
+
+- **Dalit / Dalits:** Retained with initial capitals when referring to the communities and their identity.
+- **CISRS:** The full institutional name, Christian Institute for the Study of Religion and Society, and its acronym are retained.
+- **Navayana / Navayana Christianity:** Retained as capitalised in the author's discussion of the Buddhist tradition and the proposed Christian path.
+- **B. R. Ambedkar, P. D. Devanandan, M. M. Thomas, Giorgio Agamben, Kerala, Bengaluru, India and Rome:** Personal and place names retained.
+- **Potten Theyyam / Theyyam:** Retained as capitalised in the named Dalit counter-religious tradition and the discussion of the song and performance tradition.
+- **Daivam:** Retained with an initial capital in the sentence explaining the term's etymology and meaning.
+- No capitalisation correction was made.
+
+**Italicisation audit — findings and decisions**
+
+- *Essays on Dalits, Religion and Liberation*, *Religion & Society*, *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, *The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle*, *Dalit Kavithakal: Oru Padanam*, *Dalit Sahityam* and *Sacrafanations* are italicised as publication or book titles.
+- *shakti* is italicised in its Indic sense in the phrase describing immanent energy.
+- The terms **Navayana**, **Potten**, **Theyyam**, **Daivam** and **Tulasi** occur in roman type. They are retained in roman type in this pass; no automatic italicisation is applied merely because a word has an Indic origin or is explained in the English text.
+- The two numbered references and their bibliographic entries were inspected as part of the source. Book titles in the notes are italicised.
+- No italicisation correction was made.
+
+**Other editorial observations**
+
+- The poem is marked with italics line by line in the source. This is preserved as supplied and is not treated as an Indic-term italicisation decision.
+- The quoted expressions and the source's existing transliteration have been retained. Spelling, transliteration, factual and stylistic questions are outside this audit.
+
+**Verification**
+
+- The complete 10,972-character shared Foreword source was inspected, including the poem, signature and both notes.
+- No source changes were made. Wording, spelling, punctuation, quotation marks, poem formatting, references and paragraph structure remain untouched.
+
+**Status:** Capitalisation and italicisation review completed for the Foreword. No source correction was required.
+
+### 12. Editor's Note
+
+**Source inspected:** The Editor's Note and its Acknowledgement section in `ebook/edrl-ii/print/build.py`. The e-book front matter currently contains only a placeholder for this section; the print source contains the full draft.
+
+**Capitalisation audit — findings and decisions**
+
+- **A. M. Abraham Ayrookuzhiel:** Personal name retained in its existing form.
+- **Dalit:** Retained with an initial capital when referring to Dalit experience and identity.
+- **Asian Trading Corporation, Christian Institute for the Study of Religion and Society (CISRS), Indian Journal of Theology, Towards a Dalit Theology, Religion and Society, Raja Rammohun Roy National Agency for ISBN (RRRNA), United Theological College and Swami Anandatirtha Trust:** Institutional and publication names retained.
+- **Bangalore / Bengaluru:** Both forms occur in distinct source contexts. They have not been standardised in this capitalisation-and-italicisation pass.
+- Personal names and honorifics in the acknowledgement, including Dr. Y. T. Vinayaraj, Dr. K. C. Abraham, Prabu P., Pranesh Prakash, M. Kunhikrishnan, Sangram Keshari Senapati, Mrs Ponnamma Abraham, Sunil Abraham, Matthew Abraham and Jacob Abraham, are retained.
+- No capitalisation correction was made.
+
+**Italicisation audit — findings and decisions**
+
+- *Essays on Dalits, Religion and Liberation*, *Religion and Society*, *Indian Journal of Theology* and *Towards a Dalit Theology* are italicised as book, journal or publication titles.
+- No Indic word or expression requiring italicisation was identified in the Editor's Note or Acknowledgement text.
+- No italicisation correction was made.
+
+**Other editorial observations**
+
+- The heading **Acknowledgement** is retained as it appears in the source. This audit does not make spelling or house-style changes.
+- The wording, grammar, punctuation, acknowledgement sequence and signature block are outside the scope of this capitalisation-and-italicisation pass.
+
+**Verification**
+
+- The complete Editor's Note and Acknowledgement text in the print source were inspected, including the editor's signature attribution and date.
+- No source changes were made. Wording, spelling, punctuation, names, paragraph structure and signature content remain untouched.
+
+**Status:** Capitalisation and italicisation review completed for the Editor's Note. No source correction was required.
 
 ## Editorial decision record and style-sheet
 
