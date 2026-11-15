@@ -11,63 +11,63 @@ created: 2026-10-27
 
 ## Introduction
 
-This paper is divided into two parts. The first part is a description of some of the aspects of the living Hindu Faith as discovered in a place called Chirakkal near Cannanore in Kerala. In this section, the manner in which Hindus affirm a religious belief, the reasons of their religious outlook in life, the mode in which their belief in a *Parasakti* is experienced in their rituals, two types of values that go into the making of their conception of a *Parasakti*, the reasons of their worship, attitudinal changes towards symbols of their Faith, the pattern of changes in the understanding of concepts like *Karma, Samaya dosam*, rebirth and evil spirits are dealt with. But on some of these points only summary statements are made without citing the factual evidence for them, for reasons of space. This part I call the description of the living popular Hindu religious consciousness. The second part contains some of my reflections on these data in the context of Hindu-Christian dialogue.
+This paper is divided into two parts. The first part is a description of some of the aspects of the living Hindu faith as discovered in a place called Chirakkal near Cannanore in Kerala. In this section, the manner in which Hindus affirm a religious belief, the reasons of their religious outlook in life, the mode in which their belief in a *parasakti* is experienced in their rituals, two types of values that go into the making of their conception of a *parasakti*, the reasons of their worship, attitudinal changes towards symbols of their faith, the pattern of changes in the understanding of concepts like *karma, Samaya dosam*, rebirth and evil spirits are dealt with. But on some of these points only summary statements are made without citing the factual evidence for them, for reasons of space. This part I call the description of the living popular Hindu religious consciousness. The second part contains some of my reflections on these data in the context of Hindu-Christian dialogue.
 
 ## I. Description of the Living Hindu Popular Religious Consciousness
 
 ### A. The manner in which ordinary Hindus affirm a religious belief
 
-The Hindus in Chirakkal who have a religious view of life almost invariably use the word *Sakti* to express their belief. The affirmation of their religious faith is somewhat in the following style.
+The Hindus in Chirakkal who have a religious view of life almost invariably use the word *sakti* to express their belief. The affirmation of their religious faith is somewhat in the following style.
 
-> I believe (*visvas*) that in the universe (*lokam/prapancham*) there is some kind of a *Sakti*. This *Sakti* is present in nature (*prakriti*) in many forms and modes (*palarupam-bhavam*). It is the mother (*matavu*) of manifest universe (*sristi*). According to the Bhagavad Gita, the universe (*prapancham*) came into existence from this
-one Brahman. All modes of being (*avasta-bhedangal*) are emanations (*avantaravi-bhagangal*) of this one Sakti (*eka-Sakti*). It is this life-giving force (*chitanya Sakti*) that pervades (*nirannu-nilkkunnu*) in me, in you and in all beings (*sakala jiva-jalangal*). This is a power that transcends nature (*para Sakti/Prakritiyatita Sakti*). It controls (*niyantrikkuka*) the universe (*prapancham*) and all the beings (*jivajalang al*) in it. We do not experience (*anubhav*) it as we are thinking of our own individual happiness. But if we conceive (*samkalpikkuka*) this Sakti as the mother of the universe and worship (*upasikkuka*) it, it is beneficial (*gunam*) to us.
+> I believe (*visvas*) that in the universe (*lokam/prapancham*) there is some kind of a *sakti*. This *sakti* is present in nature (*prakriti*) in many forms and modes (*palarupam-bhavam*). It is the mother (*matavu*) of manifest universe (*sristi*). According to the Bhagavad Gita, the universe (*prapancham*) came into existence from this
+one Brahman. All modes of being (*avasta-bhedangal*) are emanations (*avantaravi-bhagangal*) of this one sakti (*eka-sakti*). It is this life-giving force (*chitanya sakti*) that pervades (*nirannu-nilkkunnu*) in me, in you and in all beings (*sakala jiva-jalangal*). This is a power that transcends nature (*para sakti/Prakritiyatita sakti*). It controls (*niyantrikkuka*) the universe (*prapancham*) and all the beings (*jivajalang al*) in it. We do not experience (*anubhav*) it as we are thinking of our own individual happiness. But if we conceive (*samkalpikkuka*) this sakti as the mother of the universe and worship (*upasikkuka*) it, it is beneficial (*gunam*) to us.
 
 ### B. The Reasons of their religious outlook in life
 
-In the context of the above affirmation of faith in a power that transcends nature (*para Sakti/Prakritiyatita sakti*), if we ask them what are the reasons for holding on to a belief like this, the following are the kind of answers we get from a number of people. I have grouped them under eleven headings, with one or two examples for each type of reason. In the answers of people one or more of these reasons appear in different combinations.
+In the context of the above affirmation of faith in a power that transcends nature (*para sakti/Prakritiyatita sakti*), if we ask them what are the reasons for holding on to a belief like this, the following are the kind of answers we get from a number of people. I have grouped them under eleven headings, with one or two examples for each type of reason. In the answers of people one or more of these reasons appear in different combinations.
 
 **(1) A sense of wonder about the Universe and its rhythm leads many people to affirm faith in a Universal power.**
 
-> When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great Sakti is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) Sakti. They will not happen (*nadakukayilla*) without a sakti . . .
+> When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great sakti is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) sakti. They will not happen (*nadakukayilla*) without a sakti . . .
 
-> The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of Daivam. If man thinks that there is no Sakti above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
+> The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of Daivam. If man thinks that there is no sakti above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
 
 **(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.** From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
 
-> When I survey my life and what I see around me, I am convinced that it is not man who rules this world but the *Sakti* of *Daivam*. For things do not turn out as man desires. When we see the rise and fall of individuals we think of that *Sakti*. It reminds us of the lines of Punthanam who said:
+> When I survey my life and what I see around me, I am convinced that it is not man who rules this world but the *sakti* of *Daivam*. For things do not turn out as man desires. When we see the rise and fall of individuals we think of that *sakti*. It reminds us of the lines of Punthanam who said:
 
 > *Randu nalu dinamkondu oruttane tandilletti nadattunnatum Bhavan, Malika mukaliker iya mannante tolil marapu kettunatum Bhavan.*
 
-It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *Sakti* helps man to live.
+It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *sakti* helps man to live.
 
-**(3) A third factor that leads people to affirm belief in a Sakti is the experience of the fact that prayers are answered.** This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
+**(3) A third factor that leads people to affirm belief in a sakti is the experience of the fact that prayers are answered.** This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
 
 > According to my mother, I was born because of an offering (*nercha*) to Subramanyam. This makes me believe in the miracles of *Daivam* . . .
 
-> Swami grants what we ask. We therefore, worship him. *Daivam* helps those who worship him. In this world, there are good as well as dangerous *Saktis*. By means of prayer (*japam/mantram*) or omission of it we can please them or make them show their terrible anger.
+> Swami grants what we ask. We therefore, worship him. *Daivam* helps those who worship him. In this world, there are good as well as dangerous *saktis*. By means of prayer (*japam/mantram*) or omission of it we can please them or make them show their terrible anger.
 
-> There is no doubt that there is a *Sakti* above man and all other beings. Each one realizes this through certain individual experiences of his own. There are two kinds of *puja* namely *satvic* and *tamasic*. *Tamasic puja* may yield the result immediately though it may not last long. *Satvic puja*'s results are long lasting, though we may not get an immediate answer.
+> There is no doubt that there is a *sakti* above man and all other beings. Each one realizes this through certain individual experiences of his own. There are two kinds of *puja* namely *satvic* and *tamasic*. *Tamasic puja* may yield the result immediately though it may not last long. *Satvic puja*'s results are long lasting, though we may not get an immediate answer.
 
 Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* which are answered. It makes them believe in the validity of those forms of prayer as well as the gods who answer those prayers. (cf. any book on the Mahatmyam of a particular God. It will narrate stories of favour as evidence of the power and the reality of that god).
 
-**(4) The moral feeling that there is a Sakti that rewards the righteous and punishes the wicked is another factor that leads to religious faith.** People also say that such a moral fear is necessary for man to walk the right path.
+**(4) The moral feeling that there is a sakti that rewards the righteous and punishes the wicked is another factor that leads to religious faith.** People also say that such a moral fear is necessary for man to walk the right path.
 
 > Those who walk in truth and in humility, *Daivam* prospers,  
 > Those who forget *Daivam* He punishes,
 
 > I believe that if we walk the right path without desiring harm to others and bear with patience all difficulties, doing our job dutifully, *Daivam* will help us reach a good stage in life—if not today, tomorrow.
 
-> The belief that all our deeds are known and seen by a *Sakti* is good. Someone up above (*mela oral*) sees and listens. We cannot live as we please. If we act forgetting *Iswar*, there will be ruin (*nasam*). We will get its proper wage (*kuli*). We will suffer the bad result (*cheeta phalam*). There must be some fear (*oru bhayam*) for man. Otherwise we will be so proud. Thoughts about a *Sakti* prevent many people from doing wrong.
+> The belief that all our deeds are known and seen by a *sakti* is good. Someone up above (*mela oral*) sees and listens. We cannot live as we please. If we act forgetting *Iswar*, there will be ruin (*nasam*). We will get its proper wage (*kuli*). We will suffer the bad result (*cheeta phalam*). There must be some fear (*oru bhayam*) for man. Otherwise we will be so proud. Thoughts about a *sakti* prevent many people from doing wrong.
 
 > It is *Daivam* who rewards everyone according to His *karmam*.
 
-**(5) Many people are inspired to affirm faith in a Sakti on seeing the great changes that take place in the lives of some people when they begin to believe in God.** They also say a belief in God is necessary for a virtuous life.
+**(5) Many people are inspired to affirm faith in a sakti on seeing the great changes that take place in the lives of some people when they begin to believe in God.** They also say a belief in God is necessary for a virtuous life.
 
-> When we see the sudden change in some people's lives, we believe. Belief in a *Sakti* had changed their life. It gave them the ability to walk in the right path (*nervazhi*).
+> When we see the sudden change in some people's lives, we believe. Belief in a *sakti* had changed their life. It gave them the ability to walk in the right path (*nervazhi*).
 
-> We can control ourselves if we believe and worship a *Sakti*. We need a Power to guide and lead us in the right path. We need a *Sakti* to lead us to good life.
+> We can control ourselves if we believe and worship a *sakti*. We need a Power to guide and lead us in the right path. We need a *sakti* to lead us to good life.
 
-**(6) Experience of the presence and guidance of a Sakti in their lives makes people believe in it.** Individuals claim the guidance and protection of a Power which, they say, confirmed them in their belief.
+**(6) Experience of the presence and guidance of a sakti in their lives makes people believe in it.** Individuals claim the guidance and protection of a Power which, they say, confirmed them in their belief.
 
 > I believe that every action in my life is done under *Daivam*'s guidance. I feel that *Daivam* is watching me all the time.
 
@@ -85,13 +85,13 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 > *Swamijis* and *Rishis* have experienced *Daivam*.
 
-> Since all people around here, the whole society here, believe, it has become a habit with me. Since many people have belief (*visvasam*), there must be some *Sakti*. Otherwise how can you explain all these people going to places like Sabarimala, Guruvayoor, Parassini etc.
+> Since all people around here, the whole society here, believe, it has become a habit with me. Since many people have belief (*visvasam*), there must be some *sakti*. Otherwise how can you explain all these people going to places like Sabarimala, Guruvayoor, Parassini etc.
 
-**(8) That Faith is Faith's own proof is the argument of many people.**
+**(8) That faith is faith's own proof is the argument of many people.**
 
 > God is there for the one who believes and not for the one who does not believe. It depends on one's own state of mind.
 
-> Power of God (*Daiva Sakti*) is the power of belief (*visvasa sakti*). If we believe in *Daivam*, there will be blessings (*anugraham*) of that *Sakti*. There is no doubt about it. The *Sakti* exists for the believer (*visvasikkunnavan*). A stone has *Sakti* if we believe in it. Everything depends on our belief (*visvasam*). A rationalist (*yukti vadi*) has no experience of this because he has no belief (*visvasam*).
+> Power of God (*Daiva sakti*) is the power of belief (*visvasa sakti*). If we believe in *Daivam*, there will be blessings (*anugraham*) of that *sakti*. There is no doubt about it. The *sakti* exists for the believer (*visvasikkunnavan*). A stone has *sakti* if we believe in it. Everything depends on our belief (*visvasam*). A rationalist (*yukti vadi*) has no experience of this because he has no belief (*visvasam*).
 
 **(9) Hope of life after death is another reason.**
 
@@ -111,11 +111,11 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 Stories of supposed mistakes and the punishment meted out by the gods as a result of them were narrated by people.
 
-### C. The mode in which they experience their belief in Parasakti
+### C. The mode in which they experience their belief in parasakti
 
-The *Parasakti/saktis* in which the Hindu affirms his faith do not remain for him merely at the level of ideas. The Hindu is in contact with his *Parasakti*. The nature of this contact we are able to know when Hindus are made to talk about their places of worship such as temples, *mandapams, kavus, taras*, etc.
+The *parasakti/saktis* in which the Hindu affirms his faith do not remain for him merely at the level of ideas. The Hindu is in contact with his *parasakti*. The nature of this contact we are able to know when Hindus are made to talk about their places of worship such as temples, *mandapams, kavus, taras*, etc.
 
-In Chirakkal, where I did this study, two thirds of the people believe that temples, *kavus, mandapams, taras* of worship are places where the *Sakti* is made present. They believe that the divine spirit (*Parasakti*) can be brought to be present (*avah*) and stationed (*kutiyiruttuka*) on objects like an idol (*bibam*), a trident (*sulam*) or other objects of worship by prayer (*mantram*) and ritual action (*anga-vik-shepa*). Some illustrated this type of presence of *Daivam* by saying that "just as through a magnifying glass we can concentrate much sunlight on one spot, temples, *mandapams*, etc. are made to concentrate the spirit of *Iswara* (*Iswara caitanyam*) in one place." They say different *saktis* like Sri Krishna, Muttappan, Someswari amma etc. are made present (*kudiyiruttuka*) in places like Katalayi, Parassini, Puzhati etc. These places are called their abodes (*astanagal*). In these places the *Saktis* of these *daivangal* are present in a special way.
+In Chirakkal, where I did this study, two thirds of the people believe that temples, *kavus, mandapams, taras* of worship are places where the *sakti* is made present. They believe that the divine spirit (*parasakti*) can be brought to be present (*avah*) and stationed (*kutiyiruttuka*) on objects like an idol (*bibam*), a trident (*sulam*) or other objects of worship by prayer (*mantram*) and ritual action (*anga-vik-shepa*). Some illustrated this type of presence of *Daivam* by saying that "just as through a magnifying glass we can concentrate much sunlight on one spot, temples, *mandapams*, etc. are made to concentrate the spirit of *Iswara* (*Iswara caitanyam*) in one place." They say different *saktis* like Sri Krishna, Muttappan, Someswari amma etc. are made present (*kudiyiruttuka*) in places like Katalayi, Parassini, Puzhati etc. These places are called their abodes (*astanagal*). In these places the *saktis* of these *daivangal* are present in a special way.
 
 There are also temples and shrines, they believe, which are built in places where the *saktis* of some gods were shown in some special form. The gods themselves of their own, will come to be present in these places.<sup id="ref-3"><a href="#note-3">3</a></sup>
 
@@ -123,7 +123,7 @@ The god who is present in a particular place (*kutikolluka*) can be experienced 
 
 *Daivangal* can remain only in places of devotion (*bhakti*) and purity (*suddhi*). Therefore, the power (*prabhavam*) of a god is found in a place as long as *puja* and other rituals are done and the place is kept pure (*suddham*).
 
-One third of the believers, however, say that temples, *mandapams, kavus*, etc. are nothing more than symbols of God (*Daivasamkalpam*). The idol (*pratista*) they say is the symbol (*samkalpam*) for a formless *Sakti* to help focus the worship (*aradhana*) of believers. It makes them conscious of a superior Power. Those whose faith is firm are able to experience the *Sakti* there, as *Iswaran* manifests himself to those who seek him. To them the idol (*pratista*) is real as it is their guide and refuge.
+One third of the believers, however, say that temples, *mandapams, kavus*, etc. are nothing more than symbols of God (*Daivasamkalpam*). The idol (*pratista*) they say is the symbol (*samkalpam*) for a formless *sakti* to help focus the worship (*aradhana*) of believers. It makes them conscious of a superior Power. Those whose faith is firm are able to experience the *sakti* there, as *Iswaran* manifests himself to those who seek him. To them the idol (*pratista*) is real as it is their guide and refuge.
 
 People of this group have the same ideas as others who believe in the real presence of gods in temples, about the necessity of keeping the sacred places pure (*suddham*). *Daivam*, it will be said, cannot be experienced in impurity (*asuddhi*) and amidst a crowd. Some of them illustrated it in the following way: Water is present everywhere under the ground. But we have to dig a well to get it. In the same way, though *Iswar* is present everywhere we need an atmosphere such as obtains in temples to realize *Iswar*. For instance, at the time of *sandhya puja*, when all the lamps are lit, the conch is blown and sandal *battis* spread their fragrance, it creates for us an atmosphere of devotion (*bhakti*) and we feel a divine presence.
 
@@ -156,17 +156,17 @@ People who talk like this believe that *saktis* are pleased by the rituals. They
 
 These two distinct styles of speech about rituals should not perhaps be attributed to two distinct groups. Perhaps the wise thing may be to say that these two strands are present in the consciousness of ordinary people in different degrees and that the same people may act differently in response to different rituals at different occasions. However, it looks as if there are some people who refuse to attribute to rituals meaning *ex opere operato* and interpret rituals solely in terms of personal experience of values and meanings.
 
-### D. Moral values and traditional practices of purity and pollution (*Suddhi* and *Assuddhi*) go into the making of their God-conception.
+### D. Moral values and traditional practices of purity and pollution (*suddhi* and *assuddhi*) go into the making of their God-conception.
 
 People in Chirakkal, just like any other common folk in India, talk of their gods getting angry and punishing them. Stories of the gods' anger and punishment either from the Puranas or of local origin, form part of their religious consciousness. But if we try to understand what is meant by their talk of gods' anger, we will discover a basic belief in them that *Daivam* is to uphold the moral law. *Daivam* destroys the wicked (*dustanigraham*) and protects the good (*sistaparipalanam*). In other words, the tales of gods' anger in popular Hinduism are understood primarily in terms of moral demands on man.
 
 The following answers were given by people when they were asked to explain what they understood by stories of gods getting angry.
 
-**(i)** "Daivam is without beginning or end. He is without emotions. But according to the Puranas, Bhagavan has come as Rama or Krishna to uphold *dharma* and end all forms of injustice (*aniti*). *Avatars* are *bhavams* of the *Sakti* of Bhagavan. Their duty is destruction of the wicked (*dustanigraham*) and protection of the good (*sistaparipalanam*)."
+**(i)** "Daivam is without beginning or end. He is without emotions. But according to the Puranas, Bhagavan has come as Rama or Krishna to uphold *dharma* and end all forms of injustice (*aniti*). *avatars* are *bhavams* of the *sakti* of Bhagavan. Their duty is destruction of the wicked (*dustanigraham*) and protection of the good (*sistaparipalanam*)."
 
 **(ii)** "Iswaran is *saccidananda swarupam*. It has no anger. It is ever in love with the world. As *avatar* it shows the feelings of man since the purpose of *avatar* is to destroy *adharma* and protect *dharma*. The Puranas help us to understand the meaning of life."
 
-**(iii)** "According to the Bhagavad Gita, Bhagavan takes *avatar* to protect *Dharma*. Kamsan was killed by Sri Krishnan and Hiranyakasipu by Narasimha *avatar* for their wickedness towards the people. The anger is against *adharma*. Bhagavan shows mercy to his devotees."
+**(iii)** "According to the Bhagavad Gita, Bhagavan takes *avatar* to protect *dharma*. Kamsan was killed by Sri Krishnan and Hiranyakasipu by Narasimha *avatar* for their wickedness towards the people. The anger is against *adharma*. Bhagavan shows mercy to his devotees."
 
 **(iv)** "Just as man, *Daivam* becomes angry at man's wicked acts and happy over his acts of worship and virtuous deeds such as alms-giving (*puja karmangal* and *danadharmangal*). *Avatar Daivam* comes to kill the wicked and protect the good. Anger is against *adharmam*."
 
@@ -200,13 +200,13 @@ About ten people wondered, since life involves exploitation of others, whether i
 
 Some considered all killing and causing pain, whether it be to animal or to man, as *papam*, while for the majority killing animals for food was not sin. It is at the most, a necessary sin. Harmful creatures like snakes, and insects like mosquitoes could be killed.
 
-#### Punyam
+#### punyam
 
-In their description of *Punyam* three types of acts were referred to. A *pravritti* (an act) done for the benefit (*upakaram*) of others is *punyam*. *Iswaravicaram*, observance of *vratam, tozhal, vazhipad, tirthayatras* are *punyapravrittikal*. But the mind must be *suddham* and these acts should be accompanied by acts of *danadharmam*. We have to do good to others without desiring any favour in return. Helping the poor (*sadhukkal*) was repeatedly mentioned as *punyapravritti*. Other specific instances were *danadharmam* (alms giving), feeding the hungry, caring for the sick, controlling *kamam* and *moham*.
+In their description of *punyam* three types of acts were referred to. A *pravritti* (an act) done for the benefit (*upakaram*) of others is *punyam*. *Iswaravicaram*, observance of *vratam, tozhal, vazhipad, tirthayatras* are *punyapravrittikal*. But the mind must be *suddham* and these acts should be accompanied by acts of *danadharmam*. We have to do good to others without desiring any favour in return. Helping the poor (*sadhukkal*) was repeatedly mentioned as *punyapravritti*. Other specific instances were *danadharmam* (alms giving), feeding the hungry, caring for the sick, controlling *kamam* and *moham*.
 
 Some explained *punyam* is the merit-reward *Iswaran* gives for our *salkarma* i.e. good acts done to others (*upakaram*). In this sense also the word is used in Malayalam.
 
-### God-conception and the traditional practices of purity and pollution (*Suddhi and Asuddhi*)
+### God-conception and the traditional practices of purity and pollution (*suddhi and asuddhi*)
 
 People understand the *kopam* of gods not only in terms of moral values but also in terms of certain ritual practices of purity (*suddhi*) and pollution (*asuddhi*). For instance a story was told of a man who suffered burns while walking with other *Komarams* in the fire. In the *prasnam*, Bhagavati asked, "do my children have to eat his leavings?" It is said that the man had consumed a piece of coconut while he was preparing the dish for the festival. Similarly, certain categories of people such as a woman in her periods, a woman after child birth, members of a bereaved family, consider themselves ritually impure. They do not perform a religious exercise, say for instance, lighting the evening lamp (*deepam*). They are not to take part in sacred functions at home or to visit the temples or shrines of gods.<sup id="ref-6"><a href="#note-6">6</a></sup>
 
@@ -224,7 +224,7 @@ If an attempt is made to understand the pattern of the reaction of people in rel
 
 One of the most common misconceptions among Christians is that popular Hindu worship is a kind of bargain. Ordinary Hindus offer something to their gods in order to get something in return. This is actually a caricature of their religious consciousness. We conveniently ignore some of the basic religious attitudes of the ordinary believers and judge them by part of what we see them doing.
 
-From the answers of people to questions such as: What is the aim of your prayer and worship? Why do you visit the temple? etc., it is clear that some of the basic reasons for worshipping the gods are the same as those which make them believe in a *Para Sakti*. For instance, people will say that God's help or blessings (*Daiva Sahayam/Daiva anugraham*) is necessary for life. It is with God's help that our life goes on. Everything would happen according to *Daivam*'s plan. Prayer to God helps us to walk in the right path (*nervazhi*) without pride (*ahamkaram*). It is a *dosam* not to remember *Daivam*. Neglect of practices like *tozhal* (prayer) might lead us to live without fear of God (*Daiva-bhayam*) and lead us to acts against God (*Daiva-dhikaram*). On the contrary, practices like *tozhal* help us to get closer (*adukkan*) to *Daivam*.
+From the answers of people to questions such as: What is the aim of your prayer and worship? Why do you visit the temple? etc., it is clear that some of the basic reasons for worshipping the gods are the same as those which make them believe in a *para sakti*. For instance, people will say that God's help or blessings (*Daiva Sahayam/Daiva anugraham*) is necessary for life. It is with God's help that our life goes on. Everything would happen according to *Daivam*'s plan. Prayer to God helps us to walk in the right path (*nervazhi*) without pride (*ahamkaram*). It is a *dosam* not to remember *Daivam*. Neglect of practices like *tozhal* (prayer) might lead us to live without fear of God (*Daiva-bhayam*) and lead us to acts against God (*Daiva-dhikaram*). On the contrary, practices like *tozhal* help us to get closer (*adukkan*) to *Daivam*.
 
 Another important and the most frequently mentioned reason for prayer and worship is to get peace of mind (*mana samadhanam, asvasam*). We have seen above that the fact that prayer is answered makes people believe in God. It is in this context some of their felt needs like 'cure from disease', 'marriage of a daughter', 'job', etc., do appear in their prayer. It arises from their religious belief that God answers prayers. For visiting temples there are other legitimate considerations, such as 'to see the festival (*utsavam*)', 'attend a marriage', 'meet friends', 'accompany the women folk' (wife, mother, sister), 'for spending time (*santosam, nerambok*)'. But these are to be understood in relation to their total religious consciousness.
 
@@ -236,7 +236,7 @@ Some of the answers of people are given below which give us an idea of the basic
 4. 'To fulfil an offering (*vazhipad*) that had been promised. Show children the festival (*utsavam*).'
 5. 'To give first rice to children, meet friends, to see the cultural programmes (*kala paripadis*).'
 6. 'I pray so that my life may proceed without much difficulty. I believe that Mukamiamma will help me in this; to give first rice to children.'
-7. 'I go to temples to do the rituals (*chadang*) that are to be done. *Daivam*'s *Sakti* is in the world. It is necessary to think of it.'
+7. 'I go to temples to do the rituals (*chadang*) that are to be done. *Daivam*'s *sakti* is in the world. It is necessary to think of it.'
 8. 'Visiting temples is *punyam* (virtuous act). I pray for protection from illness and bad times.'
 9. 'Visiting the temple is a good habit (*nalla silam*). It is a tradition (*mura*) we follow.'
 10. 'I pray asking for *Daivasahayam*.'
@@ -244,17 +244,17 @@ Some of the answers of people are given below which give us an idea of the basic
 12. 'I go to temples to see *utsavam* (festival) and to fulfil the *nercha* (promised offering).'
 13. 'I visit temples for *santosam* (to feel happy) and give offering (*nercha*). When I have rupees ten or five I feel like going to Parassini.'
 
-### F. Attitudinal changes towards the symbols of Faith
+### F. Attitudinal changes towards the symbols of faith
 
 In popular Hindu religious consciousness the experience of the sacred is mediated not only through the many gods such as Siva, Vishnu,  For instance, it is believed that there are among living men incarnations or realizations of the Divine such as Sai Baba, Sai Sankar, Santosh Mai, Mayamma and countless others. Popular Hinduism also has god-dancers who act as god's vehicles of communication to man. Then again there is the cow, the *nagām*, special trees, rivers and planets which are known for their sacred powers. All these form part of the sacred symbols of the Hindu faith as it is lived today.
 
-Empirical evidence from Chirakkal suggests that these traditional sacred symbols do not mediate one religious meaning for all people. For instance, while some people believe that Sai Baba is an *avatar* of Bhagavan, others consider him a clever magician or a confidence trickster. While some Hindus hold that Aswatha vriksham (*Arayal*) is the symbol (*Samkalpam*) of all gods, that Tulasi is Lakshmi, that Ganges is Vishnu, others say that they have learnt in school that such expressions in our language are "remnants of old nature worship". How can we worship the moon they ask, when the Americans have landed on it? Fire walking by Teechamundi *teyyam* (god) is considered "big fun" (*tamasa*) by them. His *urachil attam* (possession dance) does not impress them except for its aesthetic value. Anyone, they say, can do it with some courage.
+Empirical evidence from Chirakkal suggests that these traditional sacred symbols do not mediate one religious meaning for all people. For instance, while some people believe that Sai Baba is an *avatar* of Bhagavan, others consider him a clever magician or a confidence trickster. While some Hindus hold that Aswatha vriksham (*Arayal*) is the symbol (*samkalpam*) of all gods, that Tulasi is Lakshmi, that Ganges is Vishnu, others say that they have learnt in school that such expressions in our language are "remnants of old nature worship". How can we worship the moon they ask, when the Americans have landed on it? Fire walking by Teechamundi *teyyam* (god) is considered "big fun" (*tamasa*) by them. His *urachil attam* (possession dance) does not impress them except for its aesthetic value. Anyone, they say, can do it with some courage.
 
 ### G. The Pattern of Changes in the Understanding of Concepts like *karmam, samaya dosam*, rebirth, of evil spirit
 
 These are key concepts in the Hindu religious tradition with which ordinary people interpret their experience of joy and suffering and give structure and shape to their time and space.
 
-Here again empirical study of these concepts—in Chirakkal, reveal that these Faith categories are used by people only in areas and situations in their lives which cannot be interpreted in terms of logic and reason. But the pattern is so varied that we cannot speak of any uniform and static meaning for these concepts.<sup id="ref-7"><a href="#note-7">7</a></sup>
+Here again empirical study of these concepts—in Chirakkal, reveal that these faith categories are used by people only in areas and situations in their lives which cannot be interpreted in terms of logic and reason. But the pattern is so varied that we cannot speak of any uniform and static meaning for these concepts.<sup id="ref-7"><a href="#note-7">7</a></sup>
 
 ## II. Personal Reflections on Popular Religious Consciousness in the Context of Hindu-Christian Dialogue
 
@@ -262,15 +262,15 @@ Here again empirical study of these concepts—in Chirakkal, reveal that these F
 
 I have given in Part I A a general outline of the way in which the majority of Hindus in Chirakkal tend to describe their religious faith.
 
-The style of speech described there speaks of the people's belief in a *Para Sakti* whose presence pervades both man and the universe. It suggests that man is in some kind of an evolutionary process. It also speaks of the benefit man derives from the *upasana* (worship) of this Power.
+The style of speech described there speaks of the people's belief in a *para sakti* whose presence pervades both man and the universe. It suggests that man is in some kind of an evolutionary process. It also speaks of the benefit man derives from the *upasana* (worship) of this Power.
 
-The question may now be asked: Is this type of consciousness an Advaita frame of mind? It may appear to be very much so until we are made to doubt it when we hear them talk about their experience of "divine grace", "divine guidance", "divine favour", "divine anger". These ideas do suggest that the *Sakti* in which they believe is capable of blessing them and destroying them, capable of responding or not responding to their prayer, capable of being pleased or displeased with them. Hence it appears that an ordinary Hindu would say that he and his God are not two but he worships his God as if they are two, i.e. he is monistic in speech and theistic in worship.
+The question may now be asked: Is this type of consciousness an Advaita frame of mind? It may appear to be very much so until we are made to doubt it when we hear them talk about their experience of "divine grace", "divine guidance", "divine favour", "divine anger". These ideas do suggest that the *sakti* in which they believe is capable of blessing them and destroying them, capable of responding or not responding to their prayer, capable of being pleased or displeased with them. Hence it appears that an ordinary Hindu would say that he and his God are not two but he worships his God as if they are two, i.e. he is monistic in speech and theistic in worship.
 
 Here I should mention the exceptions to the majority position described above.
 
 **(a)** People, though a few, who describe their religious faith in the explicit idiom of Advaita Vedanta and identify themselves as *advaitins*.
 
-**(b)** People who in their conversation use such terms as Jivatman, Paramatman, Prakriti, Purusha, Antaryamin etc., which reminds one of particular systems of philosophy but they cannot be identified with any one particular system as they are not following any system as such.
+**(b)** People who in their conversation use such terms as *jivatman*, *paramatman*, *prakriti*, *purusha*, *antaryamin* etc., which reminds one of particular systems of philosophy but they cannot be identified with any one particular system as they are not following any system as such.
 
 **(c)** People who give a vivid impression of conducting themselves in the "living presence" of a Reality other than themselves whom one likes to describe as theistic.
 
