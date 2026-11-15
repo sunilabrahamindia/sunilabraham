@@ -24,10 +24,9 @@ A separate heading rule applies to every H2, H3 and H4 section heading: the firs
 **Nine-essay heading audit:** All H2-H4 headings in the nine essay source files were checked. Three headings required correction:
 
 - Essay 3: `#### punyam` changed to `#### Punyam`.
-- Essay 9: `### *a. Failure of the Ideology of Development and Gandhian Integration with the Caste Hindus*` changed to begin `*A.`.
-- Essay 9: `### *b. Failure of the Left Movement in India*` changed to begin `*B.`.
+- Essay 9: The subsection labels `a.` and `b.` were retained exactly as authored. They are structural labels, not heading words, and are exempt from the first-word capitalisation rule.
 
-No other H2-H4 heading in the nine inspected essay files began with a lowercase word. Essay 1's full-text source contains no Markdown H2-H4 headings. No body-text occurrences were changed as part of this heading pass.
+No other H2-H4 heading in the nine inspected essay files required correction. Essay 1's full-text source contains no Markdown H2-H4 headings. No body-text occurrences were changed as part of this heading pass.
 
 Each occurrence will be examined in its actual sentence and context. The review will apply the following criteria:
 
