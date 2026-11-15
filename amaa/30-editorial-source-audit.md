@@ -80,11 +80,11 @@ The italicisation pass has now been completed for the Indic and regional-languag
 
 The terms standardised include:
 
-- *Amman*, *Mata*, *Amman/Mata*, *kop*, *prasad*, *rogi*, *Bheemar*.
+- *Amman*, *Mata*, *Amman/Mata*, *kop*, *prasad*, *rogi*, *Bheemar*, *rogi/Bheemar*.
 - *nagadosam*, *Ezachi*, *Brahmarakshas*, *Gulikan*, *punya nadi*, *Gomata*, *nagam*.
 - *andhavisvasam*, *Suryan*, *Chandran*, *Grahangal*, *prakriti saktikal*, *vanangal*.
 - *bhagavans*, *Teechamundi teyyam*, *Teechamundi*, *Urachil attam*, *tamasa*.
-- *karmaphalam*, *saktibaba*, *parasakti*, *sakti*, *rog*, *potten teyyam*, *suddikarma*.
+- *karmaphalam*, *saktibaba*, *parasakti*, *sakti*, *saktis*, *rog*, *potten teyyam*, *suddikarma*.
 - *pucca*, *advaitin*, *jivatmans*, *Paramatman*, *sanatandharma*, *lila*, *dharma*.
 - *Iswarapuja*, *Deivaseva*, *manasanti*, *bhutas*, *pretas*, *bhayam*, *mantravadis*, *pujaris*, *yakshis*, *pujas*, *sandyavandana*, *mutt*.
 
