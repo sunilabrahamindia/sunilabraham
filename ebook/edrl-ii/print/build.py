@@ -292,21 +292,38 @@ def html_table_to_typst(table):
         for row in data_rows
     ]
 
-    if width == 6:
+    # Use table-specific proportions for the five data tables in Essay 6.
+    # These widths account for both the heading lengths and the row labels.
+    table_layouts = {
+        ("Name of caste", "Families", "Families with land",
+         "Land held (acres)", "Share of total land (%)"):
+            [1.65, 0.85, 1.25, 1.0, 1.1],
+        ("Castes", "Borewells and pumpsets", "Bullock carts",
+         "Draught animals", "Milk animals", "Sheep and goats"):
+            [1.45, 1.25, 0.9, 1.0, 0.95, 1.0],
+        ("Castes", "Families", "Amount (Rs.)"):
+            [1.8, 1.0, 1.2],
+        ("Caste", "Fully employed: own farm / other work",
+         "Agriculture + wage labour", "Landless wage labour"):
+            [1.4, 1.65, 1.5, 1.25],
+        ("Caste", "Up to SSLC", "SSLC and PUC", "Degree",
+         "Non-agricultural professions and government jobs"):
+            [1.55, 0.85, 1.0, 0.7, 1.9],
+    }
+    header_key = tuple(value for value, _ in header)
+    if header_key in table_layouts:
+        ratios = table_layouts[header_key]
+    elif width == 6:
         ratios = [2.1] + [0.85] * 5
-        font_size = "8pt"
     elif width == 5:
         ratios = [2.2] + [0.85] * 4
-        font_size = "8pt"
     elif width == 4:
         ratios = [1.8, 1.1, 1.1, 1.1]
-        font_size = "8pt"
     elif width == 3:
         ratios = [2.0, 0.9, 1.1]
-        font_size = "8.2pt"
     else:
         ratios = [2.0] + [1.0] * (width - 1)
-        font_size = "8pt"
+    font_size = "8.2pt" if width == 3 else "8pt"
 
     def cell_content(value, header_cell=False, row_label=False):
         value = typst_escape(value)
