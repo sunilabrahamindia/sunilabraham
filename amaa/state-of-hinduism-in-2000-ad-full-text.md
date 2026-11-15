@@ -50,7 +50,7 @@ When one moves away from a culture where everything was worshipped, where everyt
 
 But as we are here concerned only with the religious option. Let us now turn our attention to the likely changes in the religious option of the future in the face of the onslaught of secularisation.
 
-<h2 id="*saktis*-gaps">1. The *saktis* of the gaps will disappear</h2>
+<h2 id="*saktis*-gaps">1. The <em>saktis</em> of the gaps will disappear</h2>
 
 In the past a gap in our empirical knowledge was explained by a god-hypothesis. Smallpox strikes. It is Mariamma. There is an attack of epilepsy. It is *potten teyyam*. Skin disease appears. It is *nagadosam*. These gods, as so many independent *saktis*, are bound to disappear. However, since in the religious man's worldview nothing can happen as merely natural without significance, these names will be symbolically interpreted to explain the apparently meaningless or anomic experiences of man, such as disease, suffering and death. Here we must remember one of the definitions of religion, that it is 'man's protest against meaninglessness in life'.
 
