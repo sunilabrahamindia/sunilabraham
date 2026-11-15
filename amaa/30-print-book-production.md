@@ -2519,3 +2519,13 @@ Following the review of the footnotes on pages 112–113, the footnote number co
 
 - **Builder commit:** `3d8bfec0edcfebbc8129864896a776ac86efc8db` — Right-align EDRL II footnote numbers and match text size.
 - **Proof status:** Source committed. Inspect pages with both single-digit and double-digit footnote numbers, including pages 112–113, to verify the common text start and baseline appearance. No fresh PDF has yet been generated.
+
+
+## Inline footnote marker font setting — 15 November 2026
+
+After checking Typst's superscript behaviour and the Linux Libertine font's OpenType support, the inline footnote marker source size has been restored from 10 pt to **11 pt**, matching the 11 pt body text.
+
+Linux Libertine provides dedicated superior figures through its OpenType `sups` feature. Typst's `super()` uses those typographic glyphs when available; its `size` parameter controls only the synthesised fallback, not the size of dedicated superior glyphs. The source size is therefore kept at 11 pt so the font can supply its designed superscript forms without an unnecessary manual size reduction.
+
+- **Builder commit:** `e648ca65be9749fdbb71b4112ff06e12436fd792` — Restore inline footnote marker source size to 11 pt.
+- **Proof status:** Source committed. Inspect inline markers in the next fresh PDF to confirm the intended superior figures render correctly in the compiled output.
