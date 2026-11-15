@@ -477,4 +477,22 @@ The print and e-book indexes will therefore share the same editorial selection, 
 
 - [Print Book Production: Essays on Dalits, Religion and Liberation II](/amaa/30-print-book-production/) - the separate documentation for the paperback's Typst layout, print-ready interior PDF, full-wrap cover and printer requirements.
 
+
+
+## GitHub Actions workflow triggers and build efficiency
+
+The EDRL II editorial preview is built by `.github/workflows/build-edrl-ii.yml`. On 15 November 2026, its push path filters were narrowed to prevent unrelated AMAA website edits from triggering a full editorial-preview build.
+
+Previously, the workflow included the broad path rule `amaa/**`. This meant that any change anywhere in the AMAA directory - including an invitation SVG or an unrelated commemoration page - could trigger the build. The workflow installs Pandoc and a LaTeX PDF engine before running the manuscript builder, so these unnecessary runs took approximately two minutes.
+
+The broad `amaa/**` rule was removed and replaced with explicit paths for the nine Markdown essay source files listed in `ebook/edrl-ii/manifest.yml`. The workflow still runs on pushes to `main` that change:
+
+- Files under `ebook/edrl-ii/**`.
+- Any of the nine essay Markdown source files in the manifest.
+- The workflow file `.github/workflows/build-edrl-ii.yml` itself.
+
+Manual execution through `workflow_dispatch` remains available.
+
+The separate paperback print-preview workflow, `.github/workflows/build-edrl-ii-print.yml`, was not changed as part of this adjustment. Its own path filters and manual trigger remain in force. This change therefore reduces unnecessary **e-book editorial-preview** builds; it does not alter the paperback print-build process.
+
 {% include navbox-amaa.html %}
