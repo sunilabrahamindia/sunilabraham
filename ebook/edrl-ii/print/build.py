@@ -37,6 +37,17 @@ def write_heading_dividers():
 </g>
 <circle cx="600" cy="18" r="2.2" fill="#77736d"/>
 </svg>""", encoding="utf-8")
+    HALF_TITLE_ORNAMENT.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="220" height="32" viewBox="0 0 220 32">
+<g fill="none" stroke="#6f6b64" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 16 H78 M142 16 H217"/>
+  <path d="M78 16 C88 16 91 7 100 7 C108 7 111 16 110 16 C109 16 112 25 120 25 C129 25 132 16 142 16"/>
+  <path d="M100 7 C96 2 89 2 85 6 C91 6 96 8 100 7 Z"/>
+  <path d="M120 25 C124 30 131 30 135 26 C129 26 124 24 120 25 Z"/>
+  <path d="M110 16 C104 11 99 12 96 16 C100 20 105 21 110 16 Z"/>
+  <path d="M110 16 C116 11 121 12 124 16 C120 20 115 21 110 16 Z"/>
+</g>
+<circle cx="110" cy="16" r="1.5" fill="#6f6b64"/>
+</svg>""", encoding="utf-8")
     ESSAY_DIVIDER.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
 <g fill="none" stroke="#aaa69f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
   <path d="M2 12 H1140"/>
@@ -51,6 +62,7 @@ SIGNATURE_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabraha
 SIGNATURE = OUT / "editor-signature.png"
 HALF_TITLE_IMAGE_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-half-title-page-image-tribal.png"
 HALF_TITLE_IMAGE = OUT / "half-title-tribal.png"
+HALF_TITLE_ORNAMENT = OUT / "half-title-ornament.svg"
 COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-front-cover-v-0.4.png"
 COVER = OUT / "edrl-ii-cover.png"
 BACK_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-print-book-back-cover-04.png"
@@ -815,7 +827,7 @@ parts.append(r"""
   #linebreak()
   #text(size: 25pt, weight: "regular")[and Liberation II]
   #v(12mm)
-  #line(length: 22mm, stroke: 0.65pt + luma(95))
+  #image("half-title-ornament.svg", width: 22mm)
   #v(10mm)
   #text(size: 13pt, tracking: 0.7pt)[A. M. Abraham Ayrookuzhiel]
 ]
