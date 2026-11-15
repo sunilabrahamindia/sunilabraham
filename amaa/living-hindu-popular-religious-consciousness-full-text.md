@@ -111,7 +111,7 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 Stories of supposed mistakes and the punishment meted out by the gods as a result of them were narrated by people.
 
-### C. The mode in which they experience their belief in parasakti
+### C. The mode in which they experience their belief in *parasakti*
 
 The *parasakti/saktis* in which the Hindu affirms his faith do not remain for him merely at the level of ideas. The Hindu is in contact with his *parasakti*. The nature of this contact we are able to know when Hindus are made to talk about their places of worship such as temples, *mandapams, kavus, taras*, etc.
 
@@ -184,13 +184,13 @@ From the answers of people quoted above it is abundantly clear that in the relig
 
 However, a careful reading of the answers show two styles of speech. One is to interpret punishment of the wicked as an act of *Daivam*, the other is to speak of it as an automatic law of *karma*.
 
-#### What is papam or adharmam?
+#### What is *papam* or *adharmam*?
 
 Whether it is the symbol of God, or the symbol of the law of *karma* that supports the moral values of individual Hindus, the question of what is morally right or wrong has a certain relativity according to the times. For example, the moral sensitivity of Hindus who lived some two hundred years ago believing in *sati*, human sacrifice, child marriage, etc. is not the same as that of the Hindus of today. Their conception of justice and ideas about property rights, etc. were not the same as those of today.
 
 Therefore, people were asked to describe what they understood by *papam/adharmam* and *punyam* so that we may have a general idea of people's thinking about what is morally right and wrong. Their answers are given below.
 
-#### Papam
+#### *Papam*
 
 What is *papam*? People were asked. Everyone without exception gave general descriptions like, "Deliberately and unnecessarily hurting (*upadravam, vedana*) harmless creatures both men and animals (*jivi, prani*) and acting against the interests of other people. But we can fight against the *adharmam* of others and retaliate against the wrongs done to us. Some gave the example of the killing of the Kauravas which, according to Sri Krishna, was no *papam*. In general they said that a thought or word or deed that gives pain to others is *papam* (sin).
 
@@ -200,13 +200,13 @@ About ten people wondered, since life involves exploitation of others, whether i
 
 Some considered all killing and causing pain, whether it be to animal or to man, as *papam*, while for the majority killing animals for food was not sin. It is at the most, a necessary sin. Harmful creatures like snakes, and insects like mosquitoes could be killed.
 
-#### Punyam
+#### *Punyam*
 
 In their description of *punyam* three types of acts were referred to. A *pravritti* (an act) done for the benefit (*upakaram*) of others is *punyam*. *Iswaravicaram*, observance of *vratam, tozhal, vazhipad, tirthayatras* are *punyapravrittikal*. But the mind must be *suddham* and these acts should be accompanied by acts of *danadharmam*. We have to do good to others without desiring any favour in return. Helping the poor (*sadhukkal*) was repeatedly mentioned as *punyapravritti*. Other specific instances were *danadharmam* (alms giving), feeding the hungry, caring for the sick, controlling *kamam* and *moham*.
 
 Some explained *punyam* is the merit-reward *Iswaran* gives for our *salkarma* i.e. good acts done to others (*upakaram*). In this sense also the word is used in Malayalam.
 
-### God-conception and the traditional practices of purity and pollution (*suddhi and asuddhi*)
+### God-conception and the traditional practices of purity and pollution (*suddhi* and *asuddhi*)
 
 People understand the *kopam* of gods not only in terms of moral values but also in terms of certain ritual practices of purity (*suddhi*) and pollution (*asuddhi*). For instance a story was told of a man who suffered burns while walking with other *Komarams* in the fire. In the *prasnam*, Bhagavati asked, "do my children have to eat his leavings?" It is said that the man had consumed a piece of coconut while he was preparing the dish for the festival. Similarly, certain categories of people such as a woman in her periods, a woman after child birth, members of a bereaved family, consider themselves ritually impure. They do not perform a religious exercise, say for instance, lighting the evening lamp (*deepam*). They are not to take part in sacred functions at home or to visit the temples or shrines of gods.<sup id="ref-6"><a href="#note-6">6</a></sup>
 
@@ -250,7 +250,7 @@ In popular Hindu religious consciousness the experience of the sacred is mediate
 
 Empirical evidence from Chirakkal suggests that these traditional sacred symbols do not mediate one religious meaning for all people. For instance, while some people believe that Sai Baba is an *avatar* of Bhagavan, others consider him a clever magician or a confidence trickster. While some Hindus hold that Aswatha vriksham (*Arayal*) is the symbol (*samkalpam*) of all gods, that Tulasi is Lakshmi, that Ganges is Vishnu, others say that they have learnt in school that such expressions in our language are "remnants of old nature worship". How can we worship the moon they ask, when the Americans have landed on it? Fire walking by Teechamundi *teyyam* (god) is considered "big fun" (*tamasa*) by them. His *urachil attam* (possession dance) does not impress them except for its aesthetic value. Anyone, they say, can do it with some courage.
 
-### G. The Pattern of Changes in the Understanding of Concepts like *karmam, samaya dosam*, rebirth, of evil spirit
+### G. The Pattern of Changes in the Understanding of Concepts like *karmam*, *samaya dosam*, rebirth, of evil spirit
 
 These are key concepts in the Hindu religious tradition with which ordinary people interpret their experience of joy and suffering and give structure and shape to their time and space.
 
