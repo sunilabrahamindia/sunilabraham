@@ -2426,3 +2426,10 @@ Only the missing word `and` was added to the credits-page title. The font, size,
 
 - **Builder commit:** `19c28b69fb9e3ce8ea1a9ef59d1255e7d4f8cd8c` — Correct EDRL II credits-page book title.
 - **Proof status:** Source correction committed. The next automatic print build must produce a fresh PDF; inspect page 6 to verify the corrected title.
+
+## Footnote line-spacing adjustment — 15 November 2026
+
+Reduced the line spacing within each multi-line footnote from 1em to 0.9em. This affects the distance between lines belonging to the same footnote only; the gap between separate footnotes and the number-to-text alignment have not been changed.
+
+- **Builder commit:** `61ec0929f723c0fcf90c2ab29e38d258c071f8d3` — Tighten line spacing within EDRL II footnotes.
+- **Proof status:** Source change committed. Inspect a page with multi-line footnotes in the next print proof to confirm the revised spacing visually.
