@@ -2529,3 +2529,11 @@ Linux Libertine provides dedicated superior figures through its OpenType `sups` 
 
 - **Builder commit:** `e648ca65be9749fdbb71b4112ff06e12436fd792` — Restore inline footnote marker source size to 11 pt.
 - **Proof status:** Source committed. Inspect inline markers in the next fresh PDF to confirm the intended superior figures render correctly in the compiled output.
+
+
+## Internal footnote line spacing refined to 0.45em — 15 November 2026
+
+The line spacing within an individual multi-line footnote has been increased from **0.35em to 0.45em**. The gap between separate footnotes remains **0.65em**. Footnote text size, number alignment, hanging indentation and all other footnote settings are unchanged.
+
+- **Builder commit:** `cc3a9e24b6b29df4fde24a3b4027916f8295c589` — Set EDRL II footnote line leading to 0.45em.
+- **Proof status:** Source committed. Inspect multi-line footnotes in the next fresh PDF to confirm readability and ensure the increased leading does not cause page-fit issues.
