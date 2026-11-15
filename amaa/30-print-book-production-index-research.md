@@ -747,6 +747,39 @@ The resulting subject index will be integrated into the paperback edition of *Es
 
 **Working principle: Computational analysis discovers; manual editorial review selects; page-by-page verification confirms.**
 
+
+## 10. Planned indexing workflow after pagination is locked
+
+The detailed indexing work will begin only after the paperback's main-text pagination has been finalised and approved. The work will proceed essay by essay, using the final interior PDF as the source.
+
+### One-time PDF extraction and printed-folio mapping
+
+- Use Python with PyMuPDF to extract the text of the nine essays from the final PDF.
+- The PDF's internal page position is only a technical locator. It is not an index reference and must not appear in the subject-index data.
+- Establish the printed folio associated with each page. Inspect the PDF's text and page layout to determine whether the printed number can be extracted reliably. Where it cannot, verify the folio from the page image; use OCR only where necessary and check its result.
+- Save the extracted text page by page, associated with its verified printed folio. Retain the extracted text and folio mapping as reusable working files so that later essay-wise analysis does not require repeatedly uploading or re-extracting the same PDF.
+- Treat unnumbered pages and any preliminary matter separately. The subject index covers the nine main essays, and its references must use the printed folios shown in those essays.
+
+### Essay-wise contextual indexing
+
+After the one-time extraction, analyse the saved text one essay at a time. For each essay:
+
+1. Identify occurrences of the selected candidate names and subjects, while also allowing the analysis to discover significant subjects not already on the candidate boards.
+2. Examine the surrounding passage to distinguish substantive discussion from passing mention.
+3. Consolidate relevant occurrences under the appropriate preferred heading and, where useful, subentries.
+4. Record only verified printed folio references.
+5. Prepare the essay's proposed entries for editorial review.
+
+The work is not a simple word search. Automated extraction and matching locate possible occurrences; contextual analysis and editorial judgement determine which references belong in the index.
+
+### Consolidation and verification
+
+After all nine essays have been reviewed, combine repeated entries, standardise names and terms, resolve variants, and add useful cross-references. Check every final printed-page reference against the locked PDF. The resulting approved entries and their printed folios will form the paperback subject index.
+
+The PDF extraction, saved page text and folio map are intended to be reusable working data. If the pagination or essay text changes after the map is established, the affected references must be checked again.
+
+**Working sequence: Lock pagination → extract once → establish and verify printed folios → save reusable page text → analyse essay by essay → consolidate → verify every index reference.**
+
 ## See also
 
 - [Print Book Production: Essays on Dalits, Religion and Liberation II](/amaa/30-print-book-production/)
