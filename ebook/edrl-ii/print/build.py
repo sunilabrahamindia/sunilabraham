@@ -1058,7 +1058,12 @@ At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was wor
   } else {
     it.prefix()
   }
-  link(it.element.location(), it.indented(prefix, it.inner()))
+  let entry = link(it.element.location(), it.indented(prefix, it.inner()))
+  if title == [The State of Hinduism in 2000 A.D.—Some Emerging Trends] {
+    v(4pt) + entry
+  } else {
+    entry
+  }
 }
 
 #outline(
