@@ -163,6 +163,7 @@ These decisions are specific to the contexts inspected in Essay 2 and remain sub
 - **Karma / karma; Dharma / dharma:** Generic philosophical and religious concepts have been lowercased.
 - **Punyam / punyam:** The generic term and its section heading have been lowercased.
 - **Suddhi / suddhi; Asuddhi / asuddhi:** The terms for purity and impurity have been lowercased in the section headings and text.
+- **Suddhi / suddhi; Asuddhi / asuddhi:** Both are generic terms and are set in lowercase italics: *suddhi* and *asuddhi*. The essay's existing transliteration is retained for this capitalisation-and-italicisation audit. The variant spelling "assuddhi" in the section heading in section II.1 is recorded for a separate spelling/transliteration review, not silently changed here.
 - **Samkalpam / samkalpam:** The generic term has been lowercased.
 - **Jivatman, Paramatman, Prakriti, Purusha and Antaryamin:** These philosophical terms have been lowercased where listed as concepts.
 - **Avatars / avatars:** The generic plural has been lowercased.
