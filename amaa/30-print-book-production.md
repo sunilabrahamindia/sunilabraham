@@ -2497,3 +2497,10 @@ Following Sunil's instruction, the two footnote spacing values have been swapped
 
 - **Builder commit:** `aa87a322a364b4721d69f37e073a334eff97494a` — Swap EDRL II footnote spacing values.
 - **Proof status:** Source committed. The next print proof must be checked carefully for line collisions or cramped multi-line footnotes, as the reduced 0.35em leading is substantially tighter.
+
+## Inter-footnote gap refined to 0.65em — 15 November 2026
+
+The gap between separate footnotes was reduced from 0.9em to **0.65em**, following the review discussion. Line spacing within an individual multi-line footnote remains **0.35em**. No other footnote settings were changed.
+
+- **Builder commit:** `e79f472d830f1e9d2ed200997490a41717f4d1e0` — Set EDRL II inter-footnote gap to 0.65em.
+- **Proof status:** Source committed. A fresh print build is required to assess the revised footnote spacing.
