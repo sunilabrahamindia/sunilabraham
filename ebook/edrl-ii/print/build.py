@@ -1058,9 +1058,9 @@ His publications include _The Sacred in Popular Hinduism: An Empirical Study in 
 At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was working on a study of Dalit and Hindu religious identity that remained incomplete. His writings brought together academic research, theological reflection and close attention to the social realities of his time. This volume makes a further part of his work available to readers.
 #pagebreak()
 #set heading(outlined: false)
-= Contents
+#[
 #set par(leading: 1em)
-#set heading(outlined: true)
+= Contents
 #show outline.entry: it => {
   let title = it.element.body
   let prefix = if title == [The State of Hinduism in 2000 A.D.—Some Emerging Trends] {
@@ -1097,6 +1097,8 @@ At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was wor
   depth: 1,
   target: heading.where(level: 1),
 )
+]
+#set heading(outlined: true)
 #pagebreak()
 """)
 
