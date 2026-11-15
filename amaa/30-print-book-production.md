@@ -2377,3 +2377,13 @@ The change is confined to the existing line element on the half-title page. It d
 
 - **Builder commit:** `6a1a71ef88dd3c3a3108f51f5d9dc5a77c861417` — Add a small original ornament to the half-title rule.
 - **Proof status:** Source committed. Inspect the next page 5 proof to judge the small ornament at actual print size before approving it.
+
+## Page-number and editor-signature refinements — 15 November 2026
+
+Two small typographic refinements have been made to the print builder:
+
+- Page numbers are increased from **8 pt to 8.5 pt** in both the preliminary Roman-numbered pages and the Arabic-numbered essay pages. Their centred alignment and dark-grey colour are unchanged.
+- The vertical gap between the embedded editor signature and the name "Tito Dutta" is reduced slightly by **2 pt**. The signature image size, name styling, role and date remain unchanged.
+
+- **Builder commit:** `6d43819699be02c627a5c10d79994a8356a6093d` — Refine page number and editor signature spacing.
+- **Proof status:** Source committed. Inspect the next PDF build to confirm the folios remain visually balanced and the signature-to-name gap is improved without appearing cramped.
