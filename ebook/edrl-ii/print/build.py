@@ -845,8 +845,6 @@ signature_typst = r"""#block(width: 100%, breakable: false)[
     #linebreak()
     #text(size: 8.5pt)[Christian Institute for the Study of Religion and Society]
     #linebreak()
-    #text(size: 8.5pt)[Bengaluru, India]
-    #linebreak()
     #text(size: 8.5pt)[9 November 2026]
   ]
 ]"""
@@ -1072,7 +1070,7 @@ We wish to acknowledge Sangram Keshari Senapati for his initial guidance during 
 
 And,
 
-I personally take this opportunity to express my gratitude to the family of A. M. Abraham Ayrookuzhiel for giving me the opportunity to be a part of this initiative. I am deeply grateful for their trust, cooperation and support throughout the preparation of this book. My sincere thanks to Mrs Ponnamma Abraham, Sunil Abraham, Matthew Abraham, Jacob Abraham and their family.
+I personally take this opportunity to express my gratitude to the family of A. M. Abraham Ayrookuzhiel for giving me the opportunity to be a part of this initiative. I am deeply grateful for their trust, cooperation and support throughout the preparation of this book. My sincere thanks to Ponnamma Abraham, Sunil Abraham, Matthew Abraham, Jacob Abraham and their family.
 
 #v(10pt)
 #align(right)[
