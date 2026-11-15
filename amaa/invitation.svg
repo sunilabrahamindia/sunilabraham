@@ -164,8 +164,9 @@ created: 2026-11-07
   <text class="cream-text row-number" x="75" y="1608">5</text>
   <text class="ink segment" x="132" y="1570">Launch of Essays on Dalits,</text>
   <text class="ink segment" x="132" y="1597">Religion and Liberation II</text>
-  <text class="muted detail" x="132" y="1625">Following the publication of the first volume in 1996,</text>
-  <text class="muted detail" x="132" y="1646">this event marks the official publication of the second volume.</text>
+  <text class="muted detail" x="132" y="1625">Following the publication of the first volume</text>
+  <text class="muted detail" x="132" y="1646">in 1996, this event marks the official</text>
+  <text class="muted detail" x="132" y="1667">publication of the second volume.</text>
   <text class="ink speaker" x="500" y="1585">Ponnamma Abraham</text>
   <text class="ink speaker" x="500" y="1620">Sunil Abraham</text>
   <line class="rule" x1="42" y1="1680" x2="858" y2="1680"/>
