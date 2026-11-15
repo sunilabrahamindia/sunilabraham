@@ -2486,3 +2486,14 @@ No title wording, type size, ornament size, illustration size or horizontal alig
 
 - **Builder commit:** `f3b2bb0cadbee60e409f8ef090d66f5faf762129` — Raise EDRL II half-title composition slightly.
 - **Proof status:** Source committed. Inspect the complete next combined-review PDF on both desktop and mobile to assess the vertical balance on page 5.
+
+## Footnote spacing values swapped — 15 November 2026
+
+Following Sunil's instruction, the two footnote spacing values have been swapped:
+
+- Gap between separate footnotes: changed from 0.35em to **0.9em**.
+- Line spacing within a multi-line footnote: changed from 0.9em to **0.35em**.
+- Footnote text size remains 8.5 pt; paragraph spacing within a footnote remains 0 pt.
+
+- **Builder commit:** `aa87a322a364b4721d69f37e073a334eff97494a` — Swap EDRL II footnote spacing values.
+- **Proof status:** Source committed. The next print proof must be checked carefully for line collisions or cramped multi-line footnotes, as the reduced 0.35em leading is substantially tighter.
