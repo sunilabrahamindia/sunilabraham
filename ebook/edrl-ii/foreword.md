@@ -44,8 +44,7 @@ In a striking verse, the imagery comes alive:
 This evocative imagery prompts us to reflect on the equality inherent in creation, regardless of societal status, pure or impure. In this spirit, the CISRS takes great pride in introducing the profound insights shared by our visionary pioneer. He laid the groundwork for an egalitarian ideology and theological framework that serves as the foundation for our institute. As we gather to read and share these teachings among friends and well-wishers, we commemorate the life and insights of A. M. A. Ayrookuzhiel. May his enduring legacy and critical reflections continue to inspire our readings and engagements.
 
 **Y.T. Vinayaraj**  
-Director, CISRS  
-9 November 2026
+Director, CISRS
 
 [^1]: Giorgio Agamben, *The Coming Community* (Minneapolis: University of Minnesota, 1993), 90.
 [^2]: Song cited by A.M.A Ayrookuzhiel in his book titled *The Sacred in Popular Hinduism* (Bangalore: CISRS, 1983).
