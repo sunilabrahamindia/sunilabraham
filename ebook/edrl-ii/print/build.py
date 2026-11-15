@@ -1017,7 +1017,7 @@ parts.append(r"""
   }
 )
 #counter(page).update(1)
-""" + '#set par(justify: true, leading: 1.15em, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 16pt)' + r"""
+""" + '#set par(justify: true, leading: 12.65pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 16pt)' + r"""
 #set heading(outlined: true)
 #align(center)[= Foreword]
 #v(5pt)
