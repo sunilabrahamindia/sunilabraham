@@ -28,6 +28,33 @@ A separate heading rule applies to every H2, H3 and H4 section heading: the firs
 
 No other H2-H4 heading in the nine inspected essay files required correction. Essay 1's full-text source contains no Markdown H2-H4 headings. No body-text occurrences were changed as part of this heading pass.
 
+## Heading audit (H2-H4)
+
+A separate heading-italicisation audit is being conducted to ensure that Indic and regional-language terms already identified for italicisation in the essay text receive the same treatment when they appear in H2, H3 or H4 headings. This pass is limited to Essay 1; the remaining essays will be audited separately.
+
+### Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends
+
+**Findings**
+
+- The H2 heading `1. The saktis of the gaps will disappear` contains the Indic term *saktis*, which is included in the Essay 1 italicisation list above.
+- The source heading previously used Markdown asterisks inside an HTML heading. That did not provide reliable inline emphasis in the HTML source and the print builder's HTML-heading conversion stripped inline formatting.
+- The source heading has now been changed to use `<em>saktis</em>`, so the term is explicitly italicised in the rendered source page.
+
+**Print-build handling**
+
+- The print builder now preserves `<em>` and `<i>` as Typst italics, and `<strong>` and `<b>` as Typst bold, when converting HTML headings.
+- This ensures that the italicised *saktis* is retained in the print heading rather than being flattened to roman type.
+- Markdown heading emphasis conversion remains unchanged.
+
+**Verification**
+
+- The Essay 1 Markdown source contains explicit HTML emphasis around *saktis* in the H2 heading.
+- The print builder's HTML-heading path now translates that emphasis into Typst italic markup.
+- The change is confined to the Essay 1 heading and the builder's inline-format preservation for HTML headings. No heading wording, essay body text or other essay source has been changed.
+- The generated PDF must be checked after the next build to confirm the final visual output.
+
+**Status:** Source markup and print-builder handling updated for Essay 1. Final PDF visual verification is pending the next successful print build.
+
 ## Manual PDF proof checks
 
 The downloaded PDF is also being checked manually in Okular using case-sensitive searches. This is a separate visual proofing step; it does not replace the source-level audit above.
