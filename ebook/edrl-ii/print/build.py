@@ -217,7 +217,7 @@ def typst_escape(value):
 
 def typst_heading_body(title):
     """Keep numeric prefixes as inline text, not Typst ordered-list markers."""
-    match = re.match(r"^(\\d+\\.)\\s+(.*)$", title, re.S)
+    match = re.match(r"^(\d+\.)\s+(.*)$", title, re.S)
     if match:
         number, remainder = match.groups()
         return f'#text("{number}") + [#h(0.25em){remainder}]'
