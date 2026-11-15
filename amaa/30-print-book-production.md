@@ -2344,3 +2344,22 @@ Both designs are generated as original SVG vector artwork by the print builder i
 - **Builder commit:** `f90e07f97588ef70dbe08333c9b58d467e625914` — Introduce original ornamental dividers for EDRL II openings.
 - **Proof status:** Source committed. A fresh build and visual inspection of all three introductory sections and all nine essay openings are required. Check especially the final page of About the Author and confirm that no opening has acquired an unintended extra page.
 - **Reversibility:** The change is isolated to the divider generation and the opening-page divider placements in `ebook/edrl-ii/print/build.py`. It can be reverted without changing the essay text or other book content.
+
+
+## Centred front-matter headings and full-width ornamental rule — 15 November 2026
+
+The opening treatment for the three introductory sections has been revised following the design review:
+
+- Foreword
+- Editor's Note
+- About the Author
+
+The section headings are now centred, and the ornamental design beneath each heading is centred and extended across the full available text width. The previous short 42 mm ornament has been redesigned as a long, fine horizontal rule with an original, restrained ornamental detail at its centre. The line remains within the text block and does not extend into the bleed area.
+
+The vertical spacing has been adjusted to keep the heading, rule and opening text visually connected. About the Author retains a slightly tighter gap below the rule to protect the existing page fit.
+
+**The nine essay openings are deliberately unchanged.** Their current title and original-publication metadata treatment remains exactly as it was; this revision applies only to the three front-matter sections. No section wording, essay text, page sequence or running-header logic has been changed.
+
+- **Builder commit:** `3bf5fe7771a4d5a4a48b43c350995968cc96e2f5` — Centre front-matter headings and extend ornamental rules.
+- **Proof status:** Source committed. The next GitHub Actions build should be followed for the updated PDF. Inspect all three sections for centring, line length, visual weight and spacing, and check that About the Author has not gained an unintended extra page.
+- **Reversibility:** The change is confined to the front-matter divider artwork and the heading/divider placement for these three sections in `ebook/edrl-ii/print/build.py`. It can be reverted without affecting the nine essays or their current opening design.
