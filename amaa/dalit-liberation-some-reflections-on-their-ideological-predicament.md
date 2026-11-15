@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dalit Liberation — Some Reflections on Their Ideological Predicament"
+title: "Dalit Liberation—Some Reflections on Their Ideological Predicament"
 description: "An article by A. M. A. Ayrookuzhiel examining the ideological divide between Gandhian integration and Ambedkarite independent struggle regarding Dalit liberation."
 authors: ["A. M. A. Ayrookuzhiel"]
 permalink: /amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/
@@ -10,7 +10,7 @@ created: 2026-08-12
 homepage_featured: true
 ---
 
-**Dalit Liberation — Some Reflections on Their Ideological Predicament** is an article by [A. M. A. Ayrookuzhiel](/amaa/) published in *Religion and Society*, Vol. XXXV, No. 2 (June 1988), pp. 47–52.
+**Dalit Liberation—Some Reflections on Their Ideological Predicament** is an article by [A. M. A. Ayrookuzhiel](/amaa/) published in *Religion and Society*, Vol. XXXV, No. 2 (June 1988), pp. 47–52.
 
 The article explores the ideological tensions between Gandhian integration of Dalits within Hinduism and Dr. B. R. Ambedkar's call for independent struggle and challenge to Brahmanical authority. Drawing on empirical data from economic studies, social realities, and historical struggles, Ayrookuzhiel argues that true Dalit liberation requires challenging the Brahmanical value system and building an independent counter-culture rather than seeking assimilation into existing caste-class power structures.
 
@@ -84,7 +84,7 @@ Such being the reality, it should surprise no one when the Dalits said, 'Beware 
 
 ## Publication {#publication}
 
-This article was published in *Religion and Society*, Vol. XXXV, No. 2 (June 1988), pp. 47–52, under the title "Dalit Liberation — Some Reflections on Their Ideological Predicament".
+This article was published in *Religion and Society*, Vol. XXXV, No. 2 (June 1988), pp. 47–52, under the title "Dalit Liberation—Some Reflections on Their Ideological Predicament".
 
 {% include navbox-amaa.html %}
 
