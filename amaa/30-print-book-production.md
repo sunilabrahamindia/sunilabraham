@@ -1801,6 +1801,18 @@ Only the footnote-marker correction is the active change in this final entry. No
 
 - [E-book Export: A. M. A. Ayrookuzhiel](/amaa/30-ebook-export/) - documentation for the EPUB edition, its metadata, build process and digital quality checks.
 
+
+
+## GitHub Actions workflow triggers and build separation
+
+The EDRL II paperback and e-book use separate GitHub Actions workflows. The editorial-preview workflow is defined in `.github/workflows/build-edrl-ii.yml`; the paperback print-preview workflow is defined in `.github/workflows/build-edrl-ii-print.yml`.
+
+On 15 November 2026, the editorial-preview workflow's push filters were narrowed to avoid running a full e-book build after unrelated AMAA changes. The previous broad path rule, `amaa/**`, was removed. It has been replaced by explicit paths for the nine Markdown essay sources listed in the e-book manifest. The workflow continues to run when files under `ebook/edrl-ii/**` or the editorial workflow file itself change, and it remains available for manual dispatch.
+
+This adjustment was made to the editorial-preview workflow only. **The paperback print-preview workflow was not changed.** Its existing path filters continue to govern when a print build runs. In particular, an invitation SVG or another unrelated AMAA page is not, by itself, a reason to rebuild the paperback.
+
+The two workflows remain separate: a successful editorial EPUB preview does not mean that a new print PDF has been generated, and a print-preview run does not mean that the EPUB has been rebuilt. Each output must be reviewed through its own workflow and proofing process.
+
 {% include navbox-amaa.html %}
 
 
