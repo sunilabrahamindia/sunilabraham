@@ -578,12 +578,38 @@ To check the punctuation at the end of quoted sentences throughout the nine essa
 - All three were corrected so that the full stop appears before the closing quotation mark.
 - A separate sentence containing a quoted phrase followed by a comma was inspected and retained: the comma belongs to the surrounding sentence, not to the quoted words.
 
+**Essay 3 — The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue**
+
+**Source inspected:** [The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue](/amaa/living-hindu-popular-religious-consciousness-full-text/).
+
+- One complete statement attributed to a Pulaya ended with the full stop outside the closing double quotation mark.
+- The full stop was moved inside the closing quotation mark.
+- Other quoted expressions and lists were inspected. Punctuation outside quotation marks was retained where the quotation was only a phrase or list item within the author's sentence.
+
+**Essay 4 — The Church and the Study of Religion**
+
+**Source inspected:** [The Church and the Study of Religion](/amaa/the-church-and-the-study-of-religion/).
+
+- Four complete quoted passages or sentences had their full stops outside the closing single quotation mark: the statement on the theological task in India; the quoted recommendation to study religion from the perspective of the poor; the quotation ending "let noble thoughts come to me from every side"; and Prof. Saral Chatterji's quoted passage on religion as a medium of expression.
+- All four full stops were moved inside their respective closing quotation marks.
+- A quoted phrase embedded within the author's sentence ("in their total task of witness and service") was inspected and retained with the full stop outside, because the punctuation belongs to the surrounding sentence.
+
+**Essay 5 — Religions and the Aspirations of the People**
+
+**Source inspected:** [Religions and the Aspirations of the People](/amaa/religions-and-the-aspirations-of-the-people/).
+
+- The full source was checked for sentence-ending punctuation around quotations, including the Chief Minister's reported statement.
+- No correction was required. The full stop at the end of the Chief Minister's statement is already inside the closing quotation mark.
+- The comma after the quoted words "Hare Rama, Hare Krishna" was retained because the quotation is integrated into the author's sentence.
+
 **Verification and status**
 
-- Both source files were fetched again after the corrections.
-- The two Essay 1 corrections and three Essay 2 corrections were confirmed in the current source files.
-- The source text was otherwise left unchanged.
-- **Status:** Quotation and sentence-ending punctuation audit completed for Essays 1 and 2. Essays 3-9 remain to be checked.
+- The three source files were fetched again after the audit.
+- The one correction in Essay 3 and four corrections in Essay 4 were confirmed in the current source files.
+- Essay 5 was checked and required no change.
+- The remaining punctuation patterns identified by the search were reviewed in context and retained where the quotation was only a phrase or list item, or where the punctuation belonged to the surrounding sentence.
+- No wording was changed.
+- **Status:** Quotation and sentence-ending punctuation audit completed for Essays 1-5. Essays 6-9 remain to be checked.
 
 
 ### 1. Collection-wide H2-H4 italicisation check
