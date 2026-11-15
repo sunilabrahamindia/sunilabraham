@@ -215,6 +215,14 @@ def typst_escape(value):
         .replace("$", "\\$")
     )
 
+def typst_heading_body(title):
+    """Keep numeric prefixes as inline text, not Typst ordered-list markers."""
+    match = re.match(r"^(\\d+\\.)\\s+(.*)$", title, re.S)
+    if match:
+        number, remainder = match.groups()
+        return f'#text("{number}") + [#h(0.25em){remainder}]'
+    return f"[{title}]"
+
 def html_table_to_typst(table):
     """Create readable, accessible Typst tables with repeatable headers."""
     rows = []
@@ -341,7 +349,7 @@ def extract_footnotes_and_clean(markdown):
         title = typst_escape(heading.get_text(" ", strip=True))
         typst_heading = (
             "\n\n```{=typst}\n"
-            f"#heading(level: {level})[{title}]\n"
+            f"#heading(level: {level}){typst_heading_body(title)}\n"
             "```\n\n"
         )
         heading.replace_with(NavigableString(typst_heading))
@@ -530,7 +538,7 @@ def clean_source(path):
         label_suffix = f" <{label}>" if label else ""
         typst_heading = (
             "\n\n```{=typst}\n"
-            f"#heading(level: {len(level)})[{title}]{label_suffix}\n"
+            f"#heading(level: {len(level)}){typst_heading_body(title)}{label_suffix}\n"
             "```\n\n"
         )
         cleaned = cleaned.replace("<p>" + token + "</p>", typst_heading)
