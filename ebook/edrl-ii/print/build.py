@@ -70,7 +70,7 @@ BACK_COVER = OUT / "edrl-ii-back-cover.png"
 FULL_WRAP_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-cover-full-03.png"
 FULL_WRAP_COVER = OUT / "edrl-ii-full-wrap-cover.png"
 
-BODY_PAR = "#set par(justify: true, leading: 13.2pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 16pt)"
+BODY_PAR = "#set par(justify: true, leading: 13.2pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 11pt)"
 
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
@@ -604,10 +604,10 @@ def md_to_typst(markdown, stem):
             stanza_typst = convert(stanza.strip(), f"poem-{index}-stanza-{stanza_index}")
             stanza_blocks.append(
                 "#block(width: 100%)[\n"
-                "  #set par(justify: false, first-line-indent: 0pt, leading: 9.9pt, spacing: 0pt)\n"
+                "  #set par(justify: false, first-line-indent: 0pt, leading: 12pt, spacing: 0pt)\n"
                 "  #align(center)[\n" + stanza_typst + "\n  ]\n]"
             )
-        poem = ("\n#v(5.5pt)\n").join(stanza_blocks)
+        poem = ("\n#v(8pt)\n").join(stanza_blocks)
         parts.append(
             "#block(width: 100%, above: 11pt, below: 8.25pt)[\n"
             + poem + "\n]"
