@@ -87,8 +87,8 @@ created: 2026-11-07
   <rect class="header-band" width="1273" height="210"/>
   <text class="cream-text name" x="73.55" y="82">A. M. Abraham</text>
   <text class="cream-text name" x="73.55" y="145">Ayrookuzhiel</text>
-  <text class="cream-text subtitle" x="79.21" y="188">30th Death Anniversary Commemoration</text>
-
+  <text class="cream-text subtitle" x="79.21" y="188">30th Death Anniversary</text>
+  <text class="ink section-title" x="636.5" y="330" text-anchor="middle">30th Death Anniversary Commemoration</text>
 
   <rect class="panel" x="113.16" y="450" width="1046.68" height="258" rx="12"/>
   <text class="maroon" font-size="18" font-weight="700" letter-spacing="2" x="636.5" y="485" text-anchor="middle">DATE &amp; TIME</text>
