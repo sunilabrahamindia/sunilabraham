@@ -28,6 +28,14 @@ A separate heading rule applies to every H2, H3 and H4 section heading: the firs
 
 No other H2-H4 heading in the nine inspected essay files required correction. Essay 1's full-text source contains no Markdown H2-H4 headings. No body-text occurrences were changed as part of this heading pass.
 
+## Manual PDF proof checks
+
+The downloaded PDF is also being checked manually in Okular using case-sensitive searches. This is a separate visual proofing step; it does not replace the source-level audit above.
+
+- **Dalit / Dalits:** The case-sensitive searches have been checked across the nine essays. The collection-wide capitalisation decision is uppercase *Dalit* and *Dalits* in the essay text. No lowercase occurrences remain in the essay text. Lowercase forms in URL/permalink slugs are not part of the prose and are intentionally unchanged.
+- **Other terminology:** Additional case-sensitive searches are being checked in the PDF. Only terms actually inspected and confirmed will be marked complete here; a suggested search list is not evidence that a term has been checked.
+
+
 Each occurrence will be examined in its actual sentence and context. The review will apply the following criteria:
 
 ### Capitalisation criteria
@@ -172,7 +180,7 @@ These decisions are specific to the contexts inspected in Essay 2 and remain sub
 - **Sakti / sakti; Saktis / saktis:** Generic references to the theological concept and its plural have been standardised to lowercase *sakti* and *saktis*. The term is used descriptively throughout the essay, including in the reported speech of interviewees.
 - **Parasakti / para sakti:** Lowercase forms have been applied to the generic concept, including the spaced form *para sakti*.
 - **Karma / karma; Dharma / dharma:** Generic philosophical and religious concepts have been lowercased.
-- **Punyam / punyam:** The generic term and its section heading have been lowercased.
+- **Punyam / punyam:** The generic term is lowercase in running text. The H4 heading `#### Punyam` begins with a capital, in accordance with the heading-first-word rule.
 - **Suddhi / suddhi; Asuddhi / asuddhi:** The terms for purity and impurity have been lowercased in the section headings and text.
 - **Suddhi / suddhi; Asuddhi / asuddhi:** Both are generic terms and are set in lowercase italics: *suddhi* and *asuddhi*. The essay's existing transliteration is retained for this capitalisation-and-italicisation audit. The variant spelling "assuddhi" in the section heading in section II.1 is recorded for a separate spelling/transliteration review, not silently changed here.
 - **Samkalpam / samkalpam:** The generic term has been lowercased.
@@ -299,7 +307,7 @@ Existing italicisation was retained for terms and expressions including *rache*,
 
 **Capitalisation audit — changes made**
 
-- **Dalit / dalit; Dalits / dalits:** Standardised the author's own narrative references to *Dalit* and *Dalits*, including the derived term *Dalitism*, with uppercase initial letters. Existing uppercase forms were retained. Lowercase forms inside quoted material were preserved, including the quoted word "Dalit" discussed as a term, now capitalised under the collection-wide standardisation decision. The permalink slug was not changed.
+- **Dalit / Dalit; Dalits / Dalits:** Standardised the author's narrative references to *Dalit* and *Dalits*, including the derived term *Dalitism*, with uppercase initial letters. The quoted occurrence discussed as a term was also changed to "Dalit" in accordance with the collection-wide decision. No lowercase `dalit` or `dalits` remains in the essay text; the lowercase permalink slug is intentionally unchanged.
 - **Karma / karma:** Changed the generic philosophical concept from "Karma" to lowercase "karma", consistent with the treatment of generic Indic concepts in the earlier essays.
 - **Brahmin / Brahmins; Brahmanical / Brahmanic:** Existing capitalisation was retained. These forms refer to caste identity, cultural/religious traditions or related designations in the contexts in which they occur.
 - **God / god:** Existing forms were retained according to context, including the quoted phrase "the people of God".
@@ -367,7 +375,7 @@ The following source-level capitalisation corrections have been applied in the a
 **Capitalisation decisions retained without change**
 
 - The lowercase "dalit" in the permalink slug remains unchanged.
-- The wording "the Dalit Nationality" is now capitalised inside the quoted passage under the collection-wide standardisation decision. Capitalisation within quoted material has not been silently normalised.
+- The wording "the Dalit Nationality" is capitalised inside the quoted passage under the collection-wide standardisation decision. This was an explicit editorial decision, not an automatic normalisation.
 - Names, titles, institutional names, and the existing capitalisation of Dalit/Dalits in the rest of the article were retained.
 - No wording or spelling correction was made, including in passages whose grammar or phrasing may warrant separate editorial attention.
 
@@ -384,7 +392,7 @@ The following source-level capitalisation corrections have been applied in the a
 - The source update was limited to the recorded capitalisation changes.
 - The source remains 334 lines. A case-insensitive comparison confirmed that the text is lexically identical before and after the update. The GitHub commit diff was inspected and showed only the recorded capitalisation changes.
 - No words were added or removed. Spelling, punctuation, paragraph structure, links, front matter, quotations, notes and styling were not otherwise changed.
-- The quoted phrase "the dalit Nationality" and the lowercase permalink slug were explicitly retained.
+- The quoted phrase "the Dalit Nationality" was checked and capitalised. The lowercase permalink slug remains unchanged by design.
 
 **Status:** Capitalisation and italicisation audits completed for Essay 9. Only the recorded capitalisation changes were applied to the Markdown source.
 
