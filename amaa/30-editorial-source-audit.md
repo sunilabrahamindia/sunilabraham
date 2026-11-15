@@ -17,6 +17,18 @@ The audit initially covered the nine main essays. It has now been extended to th
 
 ## Audit criteria
 
+## Heading-first-word rule (H2-H4)
+
+A separate heading rule applies to every H2, H3 and H4 section heading: the first word must begin with a capital letter, even when that word is normally lowercase in running text. This heading rule takes precedence over the lowercase treatment of generic Indic terms in body text. The rule applies only to the first word of the heading; it does not convert the rest of the heading to title case.
+
+**Nine-essay heading audit:** All H2-H4 headings in the nine essay source files were checked. Three headings required correction:
+
+- Essay 3: `#### punyam` changed to `#### Punyam`.
+- Essay 9: `### *a. Failure of the Ideology of Development and Gandhian Integration with the Caste Hindus*` changed to begin `*A.`.
+- Essay 9: `### *b. Failure of the Left Movement in India*` changed to begin `*B.`.
+
+No other H2-H4 heading in the nine inspected essay files began with a lowercase word. Essay 1's full-text source contains no Markdown H2-H4 headings. No body-text occurrences were changed as part of this heading pass.
+
 Each occurrence will be examined in its actual sentence and context. The review will apply the following criteria:
 
 ### Capitalisation criteria
