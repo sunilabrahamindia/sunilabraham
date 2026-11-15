@@ -76,7 +76,7 @@ BACK_COVER = OUT / "edrl-ii-back-cover.png"
 FULL_WRAP_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-cover-full-03.png"
 FULL_WRAP_COVER = OUT / "edrl-ii-full-wrap-cover.png"
 
-BODY_PAR = "#set par(justify: true, leading: 13.2pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 11pt)"
+BODY_PAR = "#set par(justify: true, leading: 10pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 11pt)"
 
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
