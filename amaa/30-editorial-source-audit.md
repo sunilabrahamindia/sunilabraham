@@ -74,9 +74,21 @@ The following approved capitalisation changes have been applied to the essay sou
 
 These decisions are recorded for Essay 1. Their consistency across the remaining essays will be examined during the collection-wide audit.
 
-**Italicisation audit**
+**Italicisation audit — changes made**
 
-- Not yet completed. Italicisation will be examined separately, including occurrences of Indic words that are italicised in some places and unitalicised in others.
+The italicisation pass has now been completed for the Indic and regional-language vocabulary identified in this essay. Existing italicisation was made consistent by italicising unmarked occurrences of the same terms and expressions.
+
+The terms standardised include:
+
+- *Amman*, *Mata*, *Amman/Mata*, *kop*, *prasad*, *rogi*, *Bheemar*.
+- *nagadosam*, *Ezachi*, *Brahmarakshas*, *Gulikan*, *punya nadi*, *Gomata*, *nagam*.
+- *andhavisvasam*, *Suryan*, *Chandran*, *Grahangal*, *prakriti saktikal*, *vanangal*.
+- *bhagavans*, *Teechamundi teyyam*, *Teechamundi*, *Urachil attam*, *tamasa*.
+- *karmaphalam*, *saktibaba*, *parasakti*, *sakti*, *rog*, *potten teyyam*, *suddikarma*.
+- *pucca*, *advaitin*, *jivatmans*, *Paramatman*, *sanatandharma*, *lila*, *dharma*.
+- *Iswarapuja*, *Deivaseva*, *manasanti*, *bhutas*, *pretas*, *bhayam*, *mantravadis*, *pujaris*, *yakshis*, *pujas*, *sandyavandana*, *mutt*.
+
+This is a consistency pass within Essay 1. The treatment of these terms will be compared with the other essays before the final collection-wide style-sheet is closed.
 
 **Other editorial observations**
 
@@ -84,11 +96,11 @@ These decisions are recorded for Essay 1. Their consistency across the remaining
 
 **Verification**
 
-- The approved capitalisation changes have been applied to the Markdown source.
-- No other wording has intentionally been changed as part of this capitalisation pass.
-- The full source should be checked in the rendered page or next proof to confirm the changes display as intended.
+- The capitalisation and italicisation changes have been applied to the Markdown source.
+- No wording or spelling has intentionally been changed as part of the italicisation pass.
+- The full source should be checked in the rendered page or next proof to confirm the formatting displays as intended.
 
-**Status:** Capitalisation decisions for the six listed patterns have been applied to Essay 1. Italicisation remains pending.
+**Status:** The capitalisation decisions and the Indic-term italicisation pass have both been applied to Essay 1. The source has not been checked against the original printed article as part of this pass.
 ### 2. Religion, Spirituality and Aspirations of the People
 
 **Capitalisation audit**
