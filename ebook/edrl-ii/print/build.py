@@ -1059,6 +1059,7 @@ At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was wor
 #pagebreak()
 #set heading(outlined: false)
 = Contents
+#set par(leading: 1em)
 #set heading(outlined: true)
 #show outline.entry: it => {
   let title = it.element.body
