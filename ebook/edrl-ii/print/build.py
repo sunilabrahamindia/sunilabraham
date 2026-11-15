@@ -585,7 +585,17 @@ def md_to_typst(markdown, stem):
     for index, match in enumerate(pattern.finditer(markdown_without_definitions), start=1):
         prose = markdown_without_definitions[cursor:match.start()].strip()
         if prose:
-            parts.append(convert(prose, f"prose-{index}"))
+            prose_typst = convert(prose, f"prose-{index}")
+            # Restore the standard first-line indent when prose begins a new
+            # Typst flow immediately after a poem block.
+            first_line = prose.splitlines()[0].strip()
+            is_block_start = (
+                first_line.startswith(("#", "-", "*", "+", "```", "~~~", "<"))
+                or re.match(r"^\d+[.)]\s", first_line)
+            )
+            if cursor > 0 and not is_block_start:
+                prose_typst = "#h(1.1em)\n" + prose_typst
+            parts.append(prose_typst)
         stanzas = re.split(r"\n[ \t]*\n(?:[ \t]*\n)*", match.group(1).strip())
         stanza_blocks = []
         for stanza_index, stanza in enumerate(stanzas, start=1):
@@ -605,7 +615,15 @@ def md_to_typst(markdown, stem):
         cursor = match.end()
     remainder = markdown_without_definitions[cursor:].strip()
     if remainder:
-        parts.append(convert(remainder, "prose-final"))
+        remainder_typst = convert(remainder, "prose-final")
+        first_line = remainder.splitlines()[0].strip()
+        is_block_start = (
+            first_line.startswith(("#", "-", "*", "+", "```", "~~~", "<"))
+            or re.match(r"^\d+[.)]\s", first_line)
+        )
+        if cursor > 0 and not is_block_start:
+            remainder_typst = "#h(1.1em)\n" + remainder_typst
+        parts.append(remainder_typst)
     if not parts:
         return convert(markdown_without_definitions, "main")
     return "\n\n".join(parts)
