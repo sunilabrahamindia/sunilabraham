@@ -747,7 +747,7 @@ common = r"""
   margin: (inside: 18mm, outside: 14mm, top: 18mm, bottom: 17mm),
   header: running-header,
   footer: context [
-    #set text(size: 8pt, fill: luma(65))
+    #set text(size: 8.5pt, fill: luma(65))
     #align(center)[#counter(page).display("1")]
   ],
 )
@@ -957,7 +957,7 @@ parts.append(r"""
     let first-chapter = if chapters.len() > 0 { chapters.first() } else { none }
     let intentional-blank = first-chapter != none and first-chapter.location().page() == current-page + 1
     if not intentional-blank {
-      set text(size: 8pt, fill: luma(65))
+      set text(size: 8.5pt, fill: luma(65))
       align(center)[#counter(page).display("i")]
     }
   }
@@ -1007,6 +1007,7 @@ I personally take this opportunity to express my gratitude to the family of A. M
   #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
   #image("editor-signature.png", width: 34mm, fit: "contain")
   #linebreak()
+  #v(-2pt)
   #text(size: 11pt, weight: "bold")[Tito Dutta]
   #linebreak()
   #text(size: 9.5pt)[Editor]
@@ -1079,7 +1080,7 @@ for essay in essays:
   numbering: "1",
   header: running-header,
   footer: context [
-    #set text(size: 8pt, fill: luma(65))
+    #set text(size: 8.5pt, fill: luma(65))
     #align(center)[#counter(page).display("1")]
   ],
 )
