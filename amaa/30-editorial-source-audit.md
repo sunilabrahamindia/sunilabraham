@@ -30,7 +30,7 @@ No other H2-H4 heading in the nine inspected essay files required correction. Es
 
 ## Heading audit (H2-H4)
 
-A separate heading-italicisation audit is being conducted to ensure that Indic and regional-language terms already identified for italicisation in the essay text receive the same treatment when they appear in H2, H3 or H4 headings. This pass is limited to Essay 1; the remaining essays will be audited separately.
+A separate heading-italicisation audit was completed for H2, H3 and H4 headings in all nine essay source files. The rule is consistent: an Indic or regional-language term already identified for italicisation in an essay body receives the same treatment when it appears in a heading. The detailed findings and the one print-builder correction are recorded below. This heading pass is separate from the heading-first-word capitalisation rule.
 
 ### Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends
 
@@ -489,7 +489,7 @@ The following source-level capitalisation corrections have been applied in the a
 
 - *Essays on Dalits, Religion and Liberation*, *Religion & Society*, *The Sacred in Popular Hinduism*, *Swami Anand Thirth: Untouchability, Gandhian Solution on Trial*, *The Dalit Deśiyata: The Kerala Experience in Development and Class Struggle*, *Dalit Kavithakal: Oru Padanam*, *Dalit Sahityam* and *Sacrafanations* are italicised as publication or book titles.
 - *shakti* is italicised in its Indic sense in the phrase describing immanent energy.
-- The terms **Navayana**, **Potten**, **Theyyam**, **Daivam** and **Tulasi** occur in roman type. They are retained in roman type in this pass; no automatic italicisation is applied merely because a word has an Indic origin or is explained in the English text.
+- The source was subsequently corrected to italicise *Potten Theyyam* in both identified occurrences, and *Potten* and *Theyyam* in the explanatory phrase where the terms are individually quoted. *Daivam* is italicised in its explanatory sentence. The verse line is formatted as *Yes, we planted a Tulasi*, so *Tulasi* receives italics within the complete italicised line. *Navayana* was also italicised in both occurrences. These are formatting corrections only; no wording was changed.
 - The two numbered references and their bibliographic entries were inspected as part of the source. Book titles in the notes are italicised.
 - No italicisation correction was made.
 
@@ -501,9 +501,9 @@ The following source-level capitalisation corrections have been applied in the a
 **Verification**
 
 - The complete 10,972-character shared Foreword source was inspected, including the poem, signature and both notes.
-- No source changes were made. Wording, spelling, punctuation, quotation marks, poem formatting, references and paragraph structure remain untouched.
+- The Foreword source was corrected in two commits: `decd2aad685ea581218d4d40ca00f7c3e9d78be6` (initial term italicisation) and `d1b5386fbdd4ef315c20b704acfa437061f31779` (correction of term and verse markup). The follow-up source inspection confirmed the intended emphasis and found no malformed nested emphasis in the corrected verse. The changes are limited to Markdown emphasis markup; wording and punctuation were not intentionally changed.
 
-**Status:** Capitalisation and italicisation review completed for the Foreword. No source correction was required.
+**Status:** Capitalisation review completed with no case changes. The identified Foreword italicisation corrections have been applied and the source re-fetched for verification.
 
 ### 12. Editor's Note
 
@@ -535,6 +535,47 @@ The following source-level capitalisation corrections have been applied in the a
 - No source changes were made. Wording, spelling, punctuation, names, paragraph structure and signature content remain untouched.
 
 **Status:** Capitalisation and italicisation review completed for the Editor's Note. No source correction was required.
+
+## Follow-up tests and corrections (November 2026)
+
+The two editorial audits prompted additional checks beyond the original essay-by-essay review. These checks address consistency between body text, headings, front matter and the paperback print conversion. They do not expand the editorial scope to spelling, transliteration, grammar or factual correction.
+
+### 1. Collection-wide H2-H4 italicisation check
+
+- H2, H3 and H4 headings were checked in all nine essay source files against the Indic-term italicisation decisions already recorded for each essay.
+- Essay 1: the H2 term *saktis* was explicitly marked with HTML `<em>` in the source. The print-builder handling for inline emphasis in HTML headings was also corrected.
+- Essay 2: no H2-H4 heading contained an identified Indic term requiring an additional italicisation correction.
+- Essay 3: *parasakti* in an H3 heading and *papam*, *adharmam*, *Papam* and *Punyam* in H4 headings were checked and formatted consistently. The H3/H4 headings containing *suddhi*, *assuddhi*, *karmam* and *samaya dosam* already carried italics and were retained.
+- Essays 4 and 5: no H2-H4 heading required an additional correction.
+- Essay 6: *Devasthanams* and *Mudi* were already italicised in headings; no further correction was needed.
+- Essays 7 and 8: no H2-H4 heading required an additional correction.
+- Essay 9: the lettered subsection labels were retained as authored; the relevant heading terms were already italicised.
+
+**Result:** The heading-italicisation check was completed for all nine essays. This is distinct from the heading-first-word capitalisation check above.
+
+### 2. Essay 3 full-text emphasis and markup checks
+
+- A follow-up full-text search found generic occurrences of *sakti* and *saktis* that had not been included in the initial heading-only pass. These were checked in their sentences, numbered statements and quotations, and the remaining generic occurrences were italicised.
+- The numbered statements (1)-(6) in section I.B were confirmed to be bold paragraphs, not H2-H4 headings. Their formatting was therefore handled as body text, not reported as heading corrections.
+- A subsequent markup review found two quotations with nested Markdown emphasis around *sakti*. The nested markers were removed while keeping each complete quotation italicised. This avoids malformed or ambiguous emphasis markup.
+- The final correction was committed as `f5f99ccec2abc8b3ffbaeee2bb6683d223cad99e` ("Fix nested italics in Essay 3 quoted phrases"). The earlier full-text italicisation pass was committed as `dff1cd59325999c0afeb0d60fa1ecd5ccc71139a`.
+
+### 3. Print-conversion checks
+
+- The Essay 1 heading uses HTML `<em>` because the previous Markdown emphasis form inside the HTML heading did not survive the print-builder conversion reliably.
+- The print builder's HTML-heading conversion was updated to translate `<em>` and `<i>` to Typst emphasis, and `<strong>` and `<b>` to Typst bold. The relevant builder change is recorded in commit `4e0bfad7c03ec4504c63125132db7d48dfb3daa9` ("Render HTML heading italics explicitly in Typst").
+- The Foreword is read from `ebook/edrl-ii/foreword.md`; its Markdown emphasis is converted through Pandoc to Typst. The Editor's Note and About the Author are hardcoded in `ebook/edrl-ii/print/build.py`, rather than read from `front-matter.md`.
+- The current Editor's Note and About the Author text in `build.py` was inspected. Publication titles were already italicised; no additional Indic-language term requiring italics was identified. No changes were made to these two sections or to `build.py` during this follow-up.
+
+### 4. Source-integrity and proof limitations
+
+- Where source corrections were made, comparisons were used to distinguish formatting changes from wording changes. For Essay 3, a comparison after removing emphasis markers and reversing the recorded capitalisation substitutions confirmed that the text remained lexically unchanged apart from the approved formatting and case changes.
+- The corrected Foreword was fetched again and inspected for the specific terms and verse markup.
+- The print builder's conversion logic was inspected, but this is not equivalent to a successful print build or visual PDF proof.
+- A new successful print build and visual inspection of the resulting PDF are still required before the print typography can be marked as visually verified. The earlier downloadable preview predates the latest Essay 3 nested-emphasis correction.
+- These source audits do not establish fidelity against the original printed articles. Original-print comparison remains a separate verification task.
+
+**Follow-up status:** The additional heading checks, source-markup checks and identified source corrections are recorded. Final PDF visual verification and comparison with the original printed sources remain outstanding.
 
 ## Change-volume overview
 
