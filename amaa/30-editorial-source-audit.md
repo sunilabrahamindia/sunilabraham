@@ -238,7 +238,7 @@ These decisions are specific to the contexts inspected in Essay 2 and remain sub
 **Italicisation audit — changes made**
 
 - The generic Indic term *puja* was italicised in its previously unmarked occurrence(s).
-- Existing italicisation of *Nivedyam*, *Namaskara*, *Namaskara puja*, *mantra*, *mantras* and *pujas* was retained.
+- Existing italicisation of *Nivedyam*, *mantra*, *mantras* and *pujas* was retained. The unmarked generic *puja* was italicised, and the expression *Namaskara puja* was kept together as one italicised phrase wherever it occurs.
 - *Channer lahala* and the title *Social Justice and Ashrams* were already italicised and were retained.
 - Personal names, deity names, institutional names and English expressions were not italicised merely because they occur in an Indian context.
 
