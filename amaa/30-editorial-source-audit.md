@@ -249,7 +249,7 @@ These decisions are specific to the contexts inspected in Essay 2 and remain sub
 **Complete heading re-audit — 15 November 2026**
 
 - All 20 H2-H4 headings in the live Essay 3 source were enumerated and inspected, not just the headings previously flagged.
-- Five heading lines were corrected in the source: section C (*parasakti*); the H4 question heading (*papam*, *adharmam*); the H4 headings *Papam* and *Punyam*; the section on God-conception (*suddhi*, *asuddhi*); and section G (*karmam*, *samaya dosam*). The two H4 headings for *Papam* and *Punyam* are counted separately, making six heading lines corrected in total.
+- Six heading lines were corrected in the source: section C (*parasakti*); the H4 question heading (*papam*, *adharmam*); the H4 headings *Papam* and *Punyam*; the section on God-conception (*suddhi*, *asuddhi*); and section G (*karmam*, *samaya dosam*). The two H4 headings for *Papam* and *Punyam* are counted separately, making six heading lines corrected in total.
 - The section D heading already had both *suddhi* and *assuddhi* italicised and was retained. All remaining headings were checked and retained.
 - The updated source was fetched again from GitHub. The six corrected heading lines were confirmed to contain the intended Markdown emphasis markers.
 - Source commit: `8b3fc61f1b3975c8f0340533339b83866a141720` ("Italicise Indic terms in all Essay 3 headings").
