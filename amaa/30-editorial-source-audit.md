@@ -556,6 +556,36 @@ The following source-level capitalisation corrections have been applied in the a
 
 The two editorial audits prompted additional checks beyond the original essay-by-essay review. These checks address consistency between body text, headings, front matter and the paperback print conversion. They do not expand the editorial scope to spelling, transliteration, grammar or factual correction.
 
+### 5. Quotation and sentence-ending punctuation audit
+
+**Objective**
+
+To check the punctuation at the end of quoted sentences throughout the nine essay sources, particularly quotations attributed to interviewees and other people whose words are reproduced in the essays. The audit follows the editorial instruction that sentence-ending punctuation should appear before the closing quotation mark in these quotations. Each occurrence must be read in context: punctuation belonging to the surrounding sentence, rather than to the quoted words, should not be moved inside the quotation marks. The review is carried out in the individual Markdown source files identified through `ebook/edrl-ii/manifest.yml`; it is not a typesetting-only correction.
+
+**Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends**
+
+**Source inspected:** [The State of Hinduism in 2000 A.D.—Some Emerging Trends](/amaa/state-of-hinduism-in-2000-ad-full-text/).
+
+- Two quoted sentences ended with a full stop outside the closing single quotation mark.
+- Both were corrected so that the full stop appears before the closing quotation mark.
+- No wording was changed.
+
+**Essay 2 — Religion, Spirituality and Aspirations of the People**
+
+**Source inspected:** [Religion, Spirituality and Aspirations of the People](/amaa/religion-spirituality-and-aspirations-of-the-people-full-text/).
+
+- Three quoted statements ended with punctuation outside the closing single quotation mark: the statement ending "I am in a veritable prison", the statement ending "I do not know much about Christians", and the statement ending "all men are children of God".
+- All three were corrected so that the full stop appears before the closing quotation mark.
+- A separate sentence containing a quoted phrase followed by a comma was inspected and retained: the comma belongs to the surrounding sentence, not to the quoted words.
+
+**Verification and status**
+
+- Both source files were fetched again after the corrections.
+- The two Essay 1 corrections and three Essay 2 corrections were confirmed in the current source files.
+- The source text was otherwise left unchanged.
+- **Status:** Quotation and sentence-ending punctuation audit completed for Essays 1 and 2. Essays 3-9 remain to be checked.
+
+
 ### 1. Collection-wide H2-H4 italicisation check
 
 - H2, H3 and H4 headings were checked in all nine essay source files against the Indic-term italicisation decisions already recorded for each essay.
