@@ -1064,6 +1064,8 @@ We are thankful to the Principal, faculty members and Prabu P., Librarian, of th
 
 We are grateful to Pranesh Prakash, a distinguished researcher and former colleague, for his valuable suggestions and practical guidance throughout the production of this book.
 
+We also thank Rajiv Gautam for his thoughtful suggestions on the book's design and layout, several of which helped us improve the presentation of this volume.
+
 Our heartfelt thanks go to M. Kunhikrishnan, Vice President of the Swami Anandatirtha Trust, for his enthusiasm, valuable inputs and active participation in the production of this book.
 
 We wish to acknowledge Sangram Keshari Senapati for his initial guidance during the ISBN registration process with the Raja Rammohun Roy National Agency for ISBN (RRRNA).
