@@ -2387,3 +2387,18 @@ Two small typographic refinements have been made to the print builder:
 
 - **Builder commit:** `6d43819699be02c627a5c10d79994a8356a6093d` — Refine page number and editor signature spacing.
 - **Proof status:** Source committed. Inspect the next PDF build to confirm the folios remain visually balanced and the signature-to-name gap is improved without appearing cramped.
+
+
+## Contents page refinement — 15 November 2026
+
+The generated Contents page has been refined without changing its typography, alignment, dotted leaders or entry numbering:
+
+- Removed the self-reference to the Contents page from its own list.
+- Retained the Foreword, Editor's Note and About the Author entries with their Roman-numeral page references.
+- Added a modest 8 pt vertical separation before the first numbered essay entry, visually distinguishing the front matter from the main essays.
+- Retained all nine essay entries and their automatically generated page references.
+
+The page numbers continue to be generated from the actual heading locations in the compiled document. They will therefore update when pagination changes.
+
+- **Builder commit:** `5ff53ba0c3ed9e8d6d1e70c1ffda1525720095b4` — Refine EDRL II contents page.
+- **Proof status:** Source committed. No build was started at this stage, as requested. Inspect the Contents page in the next scheduled build, particularly the new separation before essay 1 and the automatically updated page references.
