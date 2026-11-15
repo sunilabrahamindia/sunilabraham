@@ -17,6 +17,33 @@ FOREWORD_SOURCE = BASE / "foreword.md"
 PRINT = BASE / "print"
 OUT = PRINT / "output"
 OUT.mkdir(parents=True, exist_ok=True)
+FRONTMATTER_DIVIDER = OUT / "frontmatter-divider.svg"
+ESSAY_DIVIDER = OUT / "essay-divider.svg"
+
+def write_heading_dividers():
+    # Original, restrained engraved-style ornaments drawn as vector SVG.
+    FRONTMATTER_DIVIDER.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="420" height="34" viewBox="0 0 420 34">
+<g fill="none" stroke="#77736d" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 17 H112 M308 17 H418"/>
+  <path d="M112 17 C139 17 142 5 161 7 C176 9 178 25 194 27 C209 29 214 17 228 17 C242 17 247 5 262 7 C281 9 282 17 308 17"/>
+  <path d="M151 9 C143 2 133 2 128 5 C136 6 142 10 151 9 Z"/>
+  <path d="M171 23 C163 31 151 31 146 27 C155 27 163 24 171 23 Z"/>
+  <path d="M260 9 C268 2 280 2 285 5 C276 6 269 10 260 9 Z"/>
+  <path d="M241 23 C249 31 261 31 266 27 C257 27 249 24 241 23 Z"/>
+  <path d="M194 27 C197 21 198 13 195 7 M228 17 C224 11 224 7 228 3 M228 17 C233 23 233 27 229 31"/>
+  <path d="M194 7 C188 2 181 3 178 7 C185 7 190 9 194 7 Z"/>
+  <path d="M229 31 C235 34 242 31 244 27 C237 28 233 28 229 31 Z"/>
+</g>
+<circle cx="210" cy="17" r="2.1" fill="#77736d"/>
+</svg>""", encoding="utf-8")
+    ESSAY_DIVIDER.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
+<g fill="none" stroke="#aaa69f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 12 H1140"/>
+  <path d="M1140 12 C1150 12 1150 4 1160 4 C1170 4 1170 20 1180 20 C1190 20 1190 12 1198 12"/>
+  <path d="M1152 12 C1157 7 1163 7 1168 12 C1163 17 1157 17 1152 12 Z"/>
+  <path d="M1172 12 C1177 7 1183 7 1188 12 C1183 17 1177 17 1172 12 Z"/>
+</g>
+</svg>""", encoding="utf-8")
 AUTHOR_PHOTO_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
 AUTHOR_PHOTO = OUT / "author-portrait.png"
 SIGNATURE_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/tito-dutta-signature-edrl-ii.png"
@@ -926,16 +953,16 @@ parts.append(r"""
 """ + '#set par(justify: true, leading: 1.15em, first-line-indent: 1.1em, spacing: 16pt)' + r"""
 #set heading(outlined: true)
 = Foreword
-#v(5pt)
-#line(length: 100%, stroke: 0.65pt + luma(145))
-#v(8pt)
+#v(4pt)
+#image("frontmatter-divider.svg", width: 42mm)
+#v(7pt)
 @@FOREWORD_BODY@@
 #pagebreak()
 #set heading(outlined: true)
 = Editor's Note
-#v(5pt)
-#line(length: 100%, stroke: 0.65pt + luma(145))
-#v(8pt)
+#v(4pt)
+#image("frontmatter-divider.svg", width: 42mm)
+#v(7pt)
 _Essays on Dalits, Religion and Liberation II_ by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author. This volume continues the work begun with the publication of _Essays on Dalits, Religion and Liberation_ in 2006, marking the tenth anniversary of his death. The first volume was published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), with a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
 
 The present volume brings together nine essays that were not included in the earlier collected volume. These essays first appeared in different journals and publications over several decades, from the 1970s to the 1990s. Most were published in _Religion and Society_, the journal of the Christian Institute for the Study of Religion and Society. One appeared in the _Indian Journal of Theology_, while "Dalit Theology: A Movement of Counter-Culture" was published in _Towards a Dalit Theology_ in 1988. Their republication in one volume makes writings that were previously dispersed across publications and decades available together.
@@ -976,9 +1003,9 @@ I personally take this opportunity to express my gratitude to the family of A. M
 #pagebreak()
 #set heading(outlined: true)
 = About the Author
+#v(3pt)
+#image("frontmatter-divider.svg", width: 42mm)
 #v(4pt)
-#line(length: 100%, stroke: 0.65pt + luma(145))
-#v(5pt)
 A. M. Abraham Ayrookuzhiel (18 September 1933 – 29 November 1996) was an Indian theologian, scholar and researcher whose work brought questions of religion into close conversation with the social and cultural realities of marginalised communities. Born in Chengannur, Kerala, he grew up in a region with a deep Christian heritage. His early schooling was in the villages around Puthenkavu. He later entered seminary formation in Thiruvananthapuram and pursued higher studies in philosophy and theology in Pune. He continued his academic formation in Rome and the United Kingdom, and was ordained in 1963.
 
 A. M. Abraham Ayrookuzhiel's academic and professional journey took him across different church traditions and cultural settings. After his studies abroad, he joined the Anglican Church and served as a curate at St. Paul High Anglican Church in Wokingham, Berkshire, from 1970 to 1973. His time in the United Kingdom brought him into contact with wider ecumenical conversations and debates about the place of religion and the church in a changing society. He married Ponnamma Thekedath during this period. They returned to India in 1973.
@@ -1049,14 +1076,14 @@ for essay in essays:
     parts.append(f"= {title}\n")
     parts.append(f"""#block[
   #set par(justify: false, first-line-indent: 0pt, leading: 1em, spacing: 0pt)
-  #v(9pt)
-  #line(length: 100%, stroke: 0.55pt + luma(175))
-  #v(4pt)
+  #v(7pt)
+  #image("essay-divider.svg", width: 100%)
+  #v(5pt)
   #text(size: 7.5pt, weight: "bold", tracking: 0.65pt, fill: luma(85))[ORIGINAL PUBLICATION: ]
   #text(size: 9.5pt, style: "italic", fill: luma(65))[{essay['publication_note']}]
   #v(5pt)
-  #line(length: 100%, stroke: 0.55pt + luma(175))
-  #v(9pt)
+  #image("essay-divider.svg", width: 100%)
+  #v(7pt)
 ]
 """)
     if "under-construction.html" in raw:
@@ -1077,6 +1104,7 @@ if len(parts) < 2 or "@@FOREWORD_BODY@@" not in parts[1]:
     raise SystemExit("Foreword insertion point missing from print template.")
 parts[1] = parts[1].replace("@@FOREWORD_BODY@@", foreword_typst)
 
+write_heading_dividers()
 interior_text = "\n".join(parts)
 lint_typst(interior_text)
 interior_source = OUT / "edrl-ii-interior.typ"
