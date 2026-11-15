@@ -227,7 +227,7 @@ def html_inline_to_typst(node):
         return typst_escape(str(node))
     content = "".join(html_inline_to_typst(child) for child in node.children)
     if isinstance(node, Tag) and node.name in ("em", "i"):
-        return f"_{content}_"
+        return f"#emph[{content}]"
     if isinstance(node, Tag) and node.name in ("strong", "b"):
         return f"*{content}*"
     return content
