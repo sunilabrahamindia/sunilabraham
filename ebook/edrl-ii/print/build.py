@@ -782,7 +782,7 @@ common = r"""
 // TESTING EXPERIMENT — heading typography and wrapped-line spacing.
 // Temporary values for visual review; revert this experiment if the result is unsuitable.
 #show heading.where(level: 1): it => block(above: 0pt, below: 7pt, breakable: false)[
-  #set text(font: "Bodoni Moda", size: 18pt, weight: "bold", hyphenate: false)
+  #set text(font: "Linux Libertine O", size: 18pt, weight: "bold", hyphenate: false)
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 6pt, spacing: 0pt)
   #align(left)[#it]
 ]
