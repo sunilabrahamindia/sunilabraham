@@ -1035,7 +1035,7 @@ I personally take this opportunity to express my gratitude to the family of A. M
   #linebreak()
   #text(size: 9.5pt)[Editor]
   #linebreak()
-  #text(size: 8.5pt)[29 November 2026]
+  #text(size: 8.5pt)[13 November 2026]
 ]
 #pagebreak()
 #set heading(outlined: true)
