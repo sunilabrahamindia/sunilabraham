@@ -85,19 +85,27 @@ created: 2026-11-07
 
   <rect class="paper" width="1273" height="1800"/>
   <rect class="header-band" width="1273" height="210"/>
-  <text class="cream-text name" x="73.55" y="82">A. M. Abraham</text>
-  <text class="cream-text name" x="73.55" y="145">Ayrookuzhiel</text>
-  <text class="cream-text subtitle" x="79.21" y="188">30th Death Anniversary</text>
-  <text class="ink section-title" x="636.5" y="330" text-anchor="middle">30th Death Anniversary Commemoration</text>
+  <text class="cream-text name" x="636.5" y="82" text-anchor="middle">A. M. Abraham Ayrookuzhiel</text>
+  
+  <text class="cream-text subtitle" x="636.5" y="155" text-anchor="middle">30th Death Anniversary</text>
 
-  <rect class="panel" x="113.16" y="450" width="1046.68" height="258" rx="12"/>
-  <text class="maroon" font-size="18" font-weight="700" letter-spacing="2" x="636.5" y="485" text-anchor="middle">DATE &amp; TIME</text>
-  <text class="ink event-line" x="636.5" y="523" text-anchor="middle">Sunday, 29 November 2026</text>
-  <text class="ink event-line" x="636.5" y="560" text-anchor="middle">6:00 pm – 7:30 pm IST</text>
-  <text class="maroon" font-size="18" font-weight="700" letter-spacing="2" x="636.5" y="600" text-anchor="middle">VENUE</text>
-  <text class="ink event-line" x="636.5" y="634" text-anchor="middle">ERC, 2nd Floor, Conference Hall</text>
-  <text class="ink venue-line" x="636.5" y="660" text-anchor="middle">United Theological College</text>
-  <text class="muted venue-line" x="636.5" y="686" text-anchor="middle">63, Millers Road, Benson Town, Bengaluru</text>
+  <rect class="portrait-frame" x="73.55" y="250" width="346.54" height="286"/>
+  <image x="89.11" y="261" width="315.42" height="264"
+         href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
+         xlink:href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
+         preserveAspectRatio="xMidYMid slice"/>
+  <text class="ink anniversary" x="483.74" y="330">30<tspan class="maroon" font-size="29" baseline-shift="super">th</tspan></text>
+  <text class="ink anniversary-label" x="483.74" y="382">Death Anniversary</text>
+  <text class="ink anniversary-label" x="483.74" y="420">Commemoration</text>
+
+  <rect class="panel" x="461.11" y="450" width="735.51" height="258" rx="16.97"/>
+  <text class="maroon" font-size="18" font-weight="700" letter-spacing="2" x="497.88" y="485">DATE &amp; TIME</text>
+  <text class="ink event-line" x="497.88" y="523">Sunday, 29 November 2026</text>
+  <text class="ink event-line" x="497.88" y="560">6:00 pm – 7:30 pm IST</text>
+  <text class="maroon" font-size="18" font-weight="700" letter-spacing="2" x="497.88" y="600">VENUE</text>
+  <text class="ink event-line" x="497.88" y="634">ERC, 2nd Floor, Conference Hall</text>
+  <text class="ink venue-line" x="497.88" y="660">United Theological College</text>
+  <text class="muted venue-line" x="497.88" y="686">63, Millers Road, Benson Town, Bengaluru</text>
 
   <text class="ink section-title" x="636.5" y="744" text-anchor="middle">Evening Commemoration Programme</text>
 
