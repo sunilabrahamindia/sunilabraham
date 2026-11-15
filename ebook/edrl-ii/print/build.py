@@ -70,7 +70,7 @@ BACK_COVER = OUT / "edrl-ii-back-cover.png"
 FULL_WRAP_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-cover-full-03.png"
 FULL_WRAP_COVER = OUT / "edrl-ii-full-wrap-cover.png"
 
-BODY_PAR = "#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, hanging-indent: 0pt, spacing: 16pt)"
+BODY_PAR = "#set par(justify: true, leading: 13.2pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 16pt)"
 
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
@@ -594,7 +594,7 @@ def md_to_typst(markdown, stem):
                 or re.match(r"^\d+[.)]\s", first_line)
             )
             if cursor > 0 and not is_block_start:
-                prose_typst = "#h(1.1em)\n" + prose_typst
+                prose_typst = "#h(12.1pt)\n" + prose_typst
             parts.append(prose_typst)
         stanzas = re.split(r"\n[ \t]*\n(?:[ \t]*\n)*", match.group(1).strip())
         stanza_blocks = []
@@ -604,12 +604,12 @@ def md_to_typst(markdown, stem):
             stanza_typst = convert(stanza.strip(), f"poem-{index}-stanza-{stanza_index}")
             stanza_blocks.append(
                 "#block(width: 100%)[\n"
-                "  #set par(justify: false, first-line-indent: 0pt, leading: 0.9em, spacing: 0pt)\n"
+                "  #set par(justify: false, first-line-indent: 0pt, leading: 9.9pt, spacing: 0pt)\n"
                 "  #align(center)[\n" + stanza_typst + "\n  ]\n]"
             )
-        poem = ("\n#v(0.5em)\n").join(stanza_blocks)
+        poem = ("\n#v(5.5pt)\n").join(stanza_blocks)
         parts.append(
-            "#block(width: 100%, above: 1em, below: 0.75em)[\n"
+            "#block(width: 100%, above: 11pt, below: 8.25pt)[\n"
             + poem + "\n]"
         )
         cursor = match.end()
@@ -622,7 +622,7 @@ def md_to_typst(markdown, stem):
             or re.match(r"^\d+[.)]\s", first_line)
         )
         if cursor > 0 and not is_block_start:
-            remainder_typst = "#h(1.1em)\n" + remainder_typst
+            remainder_typst = "#h(12.1pt)\n" + remainder_typst
         parts.append(remainder_typst)
     if not parts:
         return convert(markdown_without_definitions, "main")
@@ -702,15 +702,15 @@ common = r"""
 #show footnote: it => super(text(size: 14pt)[#it])
 #set footnote.entry(
   separator: line(length: 30%, stroke: 0.5pt + luma(90)),
-  clearance: 0.6em,
-  gap: 0.65em,
+  clearance: 5.1pt,
+  gap: 5.525pt,
 )
 #show footnote.entry: it => context {
   let values = counter(footnote).at(it.note.location())
   let number = numbering(it.note.numbering, ..values)
   grid(
-    columns: (1.4em, 1fr),
-    gutter: 0.3em,
+    columns: (11.9pt, 1fr),
+    gutter: 2.55pt,
     align: (right, top),
     [#text(size: 8.5pt)[#number.]],
     [
@@ -719,7 +719,7 @@ common = r"""
         justify: false,
         first-line-indent: 0pt,
         hanging-indent: 0pt,
-        leading: 0.45em,
+        leading: 3.825pt,
         spacing: 0pt,
       )
       #it.note.body
@@ -781,20 +781,20 @@ common = r"""
 )
 #show heading.where(level: 1): it => block(above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 19pt, weight: "bold", hyphenate: false)
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 0.8em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 15.2pt, spacing: 0pt)
   #align(left)[#it]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 0.7em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 11.2pt, spacing: 0pt)
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 3): it => block(above: 13pt, below: 10pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 0.5em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 7pt, spacing: 0pt)
   #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 4): it => block(above: 10pt, below: 8pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 0.6em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 6.6pt, spacing: 0pt)
   #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 """
@@ -820,7 +820,7 @@ foreword_markdown = foreword_markdown.replace(signature_source, "TSAPFOREWORDSIG
 foreword_typst = md_to_typst(foreword_markdown, "foreword")
 signature_typst = r"""#block(width: 100%, breakable: false)[
   #align(right)[
-    #set par(justify: false, first-line-indent: 0pt, leading: 0.75em, spacing: 0pt)
+    #set par(justify: false, first-line-indent: 0pt, leading: 8.25pt, spacing: 0pt)
     #text(size: 10.5pt, weight: "bold")[Dr. Y. T. Vinayaraj]
     #linebreak()
     #text(size: 9pt)[Director]
@@ -873,22 +873,22 @@ parts.append(r"""
   #move(dy: -6mm)[
   #align(center)[
   #block(width: 112mm)[
-      #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
+      #set par(justify: false, first-line-indent: 0pt, leading: 12.65pt, spacing: 0pt)
       #align(center)[
         #text(size: 17pt, weight: "bold")[Essays on]
         #linebreak()
         #text(size: 17pt, weight: "bold")[Dalits, Religion and Liberation II]
-        #v(1.0em)
+        #v(11pt)
         #text(size: 11pt)[A. M. Abraham Ayrookuzhiel]
       ]
-      #v(1.1em)
+      #v(12.1pt)
       #line(length: 100%, stroke: 0.5pt + luma(155))
-      #v(1.2em)
+      #v(13.2pt)
   
       #grid(
         columns: (32mm, 1fr),
         column-gutter: 4mm,
-        row-gutter: 0.75em,
+        row-gutter: 8.25pt,
         align: (left, left),
         [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
         [#text(size: 9.5pt)[https://sunilabraham.in]],
@@ -905,9 +905,9 @@ parts.append(r"""
         [#text(size: 9.5pt)[National Print Press, Koramangala, Bengaluru]],
       )
   
-      #v(1.2em)
+      #v(13.2pt)
       #line(length: 100%, stroke: 0.5pt + luma(155))
-      #v(2em)
+      #v(22pt)
   
       #align(center)[
         #text(size: 9.5pt)[First paperback edition]
@@ -916,31 +916,31 @@ parts.append(r"""
         #linebreak()
         #text(size: 8pt)[On the occasion of the thirtieth death anniversary of A. M. Abraham Ayrookuzhiel]
       ]
-      #v(2.1em)
+      #v(23.1pt)
       #align(left)[
         #block(width: 100%)[
-          #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
+          #set par(justify: false, first-line-indent: 0pt, leading: 6.6pt, spacing: 0pt)
           #text(size: 8pt, weight: "bold", fill: luma(85))[SOURCE ATTRIBUTION]
-          #v(0.5em)
-          #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
+          #v(5.5pt)
+          #set par(justify: false, first-line-indent: 0pt, leading: 15.2pt, spacing: 0pt)
           #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
         ]
       ]
-      #v(2.1em)
+      #v(23.1pt)
       #align(left)[
         #block(width: 100%)[
-          #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
+          #set par(justify: false, first-line-indent: 0pt, leading: 6.6pt, spacing: 0pt)
           #text(size: 8pt, weight: "bold", fill: luma(85))[PRODUCTION AND TYPESETTING]
-          #v(0.5em)
-          #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
+          #v(5.5pt)
+          #set par(justify: false, first-line-indent: 0pt, leading: 15.2pt, spacing: 0pt)
           #text(size: 8.5pt)[Typesetting and preparation of the book's print-production files were carried out using Python, Pandoc and Typst. Source files and production code are managed on GitHub, with automated builds run through GitHub Actions.]
         ]
       ]
-      #v(2.1em)
+      #v(23.1pt)
       #grid(
         columns: (27mm, 1fr),
         column-gutter: 4mm,
-        row-gutter: 0.55em,
+        row-gutter: 6.05pt,
         align: (left, left),
         [#text(size: 8pt, weight: "bold", fill: luma(85))[ISBN-13 (Paperback)]],
         [#text(size: 9.5pt)[978-93-345-8524-7]],
@@ -949,12 +949,12 @@ parts.append(r"""
         [],
         [#text(size: 9pt, style: "italic", fill: luma(75))[Printed in India]],
       )
-      #v(2.1em)
+      #v(23.1pt)
       #align(left)[
         #block(width: 100%)[
-          #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
+          #set par(justify: false, first-line-indent: 0pt, leading: 15.2pt, spacing: 0pt)
           #text(size: 8pt, weight: "bold", fill: luma(85))[E-BOOK]
-          #v(0.5em)
+          #v(5.5pt)
           #text(size: 8.5pt)[For e-book download options, visit: https://sunilabraham.in/edrl-ii]
         ]
       ]
@@ -975,7 +975,7 @@ parts.append(r"""
 #align(center)[
   #block(width: 82%)[
     #set text(size: 11.5pt)
-    #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
+    #set par(justify: false, first-line-indent: 0pt, leading: 9.35pt, spacing: 0pt)
     #align(center)[
       So dance snake, dance!
       #linebreak()
@@ -989,7 +989,7 @@ parts.append(r"""
     ]
     #v(6pt)
     #align(right)[
-      #set par(justify: false, first-line-indent: 0pt, leading: 0.9em, spacing: 0pt)
+      #set par(justify: false, first-line-indent: 0pt, leading: 9.9pt, spacing: 0pt)
       #text(size: 9.5pt)[— #emph[Cittar Gnanakkovai]]
       #linebreak()
       #text(size: 9.5pt)[Pambatti Cittar, verse 123.]
@@ -1017,7 +1017,7 @@ parts.append(r"""
   }
 )
 #counter(page).update(1)
-""" + '#set par(justify: true, leading: 1.15em, first-line-indent: 1.1em, hanging-indent: 0pt, spacing: 16pt)' + r"""
+""" + '#set par(justify: true, leading: 1.15em, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 16pt)' + r"""
 #set heading(outlined: true)
 #align(center)[= Foreword]
 #v(5pt)
@@ -1030,7 +1030,7 @@ parts.append(r"""
 #v(5pt)
 #image("frontmatter-divider.svg", width: 100%)
 #v(8pt)
-_Essays on Dalits, Religion and Liberation II_#h(0.35em)by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author. This volume continues the work begun with the publication of _Essays on Dalits, Religion and Liberation_ in 2006, marking the tenth anniversary of his death. The first volume was published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), with a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
+_Essays on Dalits, Religion and Liberation II_#h(3.85pt)by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author. This volume continues the work begun with the publication of _Essays on Dalits, Religion and Liberation_ in 2006, marking the tenth anniversary of his death. The first volume was published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), with a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
 
 The present volume brings together nine essays that were not included in the earlier collected volume. These essays first appeared in different journals and publications over several decades, from the 1970s to the 1990s. Most were published in _Religion and Society_, the journal of the Christian Institute for the Study of Religion and Society. One appeared in the _Indian Journal of Theology_, while "Dalit Theology: A Movement of Counter-Culture" was published in _Towards a Dalit Theology_ in 1988. Their republication in one volume makes writings that were previously dispersed across publications and decades available together.
 
@@ -1058,7 +1058,7 @@ I personally take this opportunity to express my gratitude to the family of A. M
 
 #v(10pt)
 #align(right)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.85em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 9.35pt, spacing: 0pt)
   #image("editor-signature.png", width: 34mm, fit: "contain")
   #linebreak()
   #v(-2pt)
@@ -1089,7 +1089,7 @@ At the time of his death on 29 November 1996, A. M. Abraham Ayrookuzhiel was wor
 #set heading(outlined: false)
 = Contents
 #show outline.entry: it => {
-  set par(leading: 1em)
+  set par(leading: 11pt)
   let title = it.element.body
   let prefix = if title == [The State of Hinduism in 2000 A.D.—Some Emerging Trends] {
     [1.]
@@ -1151,7 +1151,7 @@ for essay in essays:
     parts.append("#counter(footnote).update(0)\n")
     parts.append(f"= {title}\n")
     parts.append(f"""#block[
-  #set par(justify: false, first-line-indent: 0pt, leading: 1em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 11pt, spacing: 0pt)
   #v(7pt)
   #image("essay-divider.svg", width: 100%)
   #v(5pt)
