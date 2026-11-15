@@ -2447,3 +2447,16 @@ The revised 10 pt above / 8 pt below treatment gives H4 headings clearer separat
 
 - **Builder commit:** `2a491faad1928ebd1a7168176ab983488db182a1` — Refine EDRL II H4 heading spacing.
 - **Proof status:** Source committed. Check representative H4 headings in the next print PDF for visual balance and page-fit changes.
+
+## Credits-page production and typesetting block — 15 November 2026
+
+Added a new block immediately after **Source Attribution** on the credits page:
+
+**Production and Typesetting**
+
+"Typesetting and PDF production were carried out using Python, Pandoc and Typst. Source files and production code are managed on GitHub, with automated builds run through GitHub Actions."
+
+The new block follows the same visual treatment as Source Attribution: matching heading and paragraph styling, 2.1em space before the block, and 2.1em space after it before the ISBN and printed-price details. The existing Source Attribution text and the ISBN/price block were not rewritten.
+
+- **Builder commit:** `d5ad299ba36ffad5a05c2ab46a37b315322fd584` — Add production and typesetting credit to EDRL II.
+- **Proof status:** Source committed. Check page 6 in the next print PDF for fit, spacing and legibility.
