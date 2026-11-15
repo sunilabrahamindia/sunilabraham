@@ -799,6 +799,8 @@ signature_typst = r"""#block(width: 100%, breakable: false)[
     #text(size: 8.5pt)[Christian Institute for the Study of Religion and Society]
     #linebreak()
     #text(size: 8.5pt)[Bengaluru India]
+    #linebreak()
+    #text(size: 8.5pt)[9 November 2026]
   ]
 ]"""
 if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
