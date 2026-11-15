@@ -2433,3 +2433,17 @@ Reduced the line spacing within each multi-line footnote from 1em to 0.9em. This
 
 - **Builder commit:** `61ec0929f723c0fcf90c2ab29e38d258c071f8d3` — Tighten line spacing within EDRL II footnotes.
 - **Proof status:** Source change committed. Inspect a page with multi-line footnotes in the next print proof to confirm the revised spacing visually.
+
+## H4 section-heading spacing adjustment — 15 November 2026
+
+The spacing for level-four section headings (H4) was revised:
+
+- Space above: increased from 8 pt to **10 pt**.
+- Space below: increased from 7 pt to **8 pt**.
+- Font size and bold styling remain unchanged.
+- H3 spacing and body paragraph settings remain unchanged.
+
+The revised 10 pt above / 8 pt below treatment gives H4 headings clearer separation while preserving their subordinate hierarchy beneath H3 headings.
+
+- **Builder commit:** `2a491faad1928ebd1a7168176ab983488db182a1` — Refine EDRL II H4 heading spacing.
+- **Proof status:** Source committed. Check representative H4 headings in the next print PDF for visual balance and page-fit changes.
