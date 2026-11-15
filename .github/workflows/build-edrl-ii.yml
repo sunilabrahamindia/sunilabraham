@@ -7,7 +7,15 @@ on:
       - main
     paths:
       - "ebook/edrl-ii/**"
-      - "amaa/**"
+      - "amaa/state-of-hinduism-in-2000-ad-full-text.md"
+      - "amaa/religion-spirituality-and-aspirations-of-the-people-full-text.md"
+      - "amaa/living-hindu-popular-religious-consciousness-full-text.md"
+      - "amaa/the-church-and-the-study-of-religion.md"
+      - "amaa/religions-and-the-aspirations-of-the-people.md"
+      - "amaa/religion-way-salvation-ideology-oppression-full-text.md"
+      - "amaa/dalit-theology-movement-counter-culture-full-text.md"
+      - "amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md"
+      - "amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md"
       - ".github/workflows/build-edrl-ii.yml"
 
 permissions:
