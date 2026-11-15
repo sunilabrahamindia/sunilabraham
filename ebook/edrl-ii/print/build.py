@@ -865,10 +865,7 @@ parts.append(r"""
         [#text(size: 9.5pt)[https://sunilabraham.in]],
         [],
         [#text(size: 9.5pt)[publications\@sunilabraham.in]],
-        [],
-        [#text(size: 9.5pt)[Sunil Abraham]],
-        [],
-        [#text(size: 9.5pt)[+91 96111 00817]],
+        [#text(size: 9.5pt)[Sunil Abraham  +91 96111 00817]],
   
         [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
         [#text(size: 9.5pt)[Tito Dutta]],
