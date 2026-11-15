@@ -794,13 +794,11 @@ signature_typst = r"""#block(width: 100%, breakable: false)[
     #set par(justify: false, first-line-indent: 0pt, leading: 0.75em, spacing: 0pt)
     #text(size: 10.5pt, weight: "bold")[Dr. Y. T. Vinayaraj]
     #linebreak()
-    #text(size: 9pt)[Director,]
+    #text(size: 9pt)[Director]
     #linebreak()
-    #text(size: 8.5pt)[Christian Institute for the Study of]
+    #text(size: 8.5pt)[Christian Institute for the Study of Religion and Society]
     #linebreak()
-    #text(size: 8.5pt)[Religion and Society,]
-    #linebreak()
-    #text(size: 8.5pt)[Bengaluru, India]
+    #text(size: 8.5pt)[Bengaluru India]
   ]
 ]"""
 if "TSAPFOREWORDSIGNATURETOKEN" not in foreword_typst:
