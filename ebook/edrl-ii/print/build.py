@@ -756,6 +756,7 @@ common = r"""
   #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
   #align(left)[#it]
 ]
+#show heading.where(level: 2): set heading(hanging-indent: 0pt)
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, leading: 0.7em, spacing: 0pt)
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
