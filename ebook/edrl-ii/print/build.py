@@ -683,8 +683,8 @@ common = r"""
   grid(
     columns: (1.4em, 1fr),
     gutter: 0.3em,
-    align: top,
-    [#text(size: 9.5pt)[#number.]],
+    align: (right, top),
+    [#text(size: 8.5pt)[#number.]],
     [
       #set text(size: 8.5pt, number-type: "lining")
       #set par(
