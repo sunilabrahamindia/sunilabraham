@@ -633,7 +633,27 @@ To check the punctuation at the end of quoted sentences throughout the nine essa
 - The eight corrections in Essay 7 and four corrections in Essay 8 were confirmed in the current source files.
 - Remaining quotation marks followed by punctuation were reviewed in context and retained where the quotation was a phrase within the author's sentence, or where the punctuation belonged to the surrounding sentence.
 - No wording was changed.
-- **Status:** Quotation and sentence-ending punctuation audit completed for Essays 1-8. Essay 9 remains to be checked.
+- **Essay 9 — The Ideological Nature of the Emerging Dalit Consciousness**
+
+**Source inspected:** [The Ideological Nature of the Emerging Dalit Consciousness](/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/).
+
+- Seven sentence-ending full stops were found outside closing quotation marks and moved inside: two in the discussion of Dalit nationality and the quotations attributed to Ambedkar and Thucydides; two in the passage discussing Ambedkar's argument on social and religious revolutions; and three in the notes, including the quotations attributed to Ambedkar and P. Sivanandan.
+- The question mark in the quoted phrase "one nationality"? was retained because it is part of the question.
+- The source was fetched again after editing. The seven corrections were confirmed. The remaining sentence-ending quotation pattern was reviewed and retained because its question mark is correctly placed inside the quotation.
+
+**Foreword — Y. T. Vinayaraj**
+
+**Source inspected:** `ebook/edrl-ii/foreword.md`.
+
+- The foreword was checked for sentence-ending punctuation outside closing quotation marks.
+- No corrections were required.
+
+**Final verification and status**
+
+- Essay 9 was re-fetched after editing and checked again.
+- The foreword was checked in full and required no changes.
+- **Status:** Quotation and sentence-ending punctuation audit completed for all nine essays and the foreword.
+
 
 
 ### 1. Collection-wide H2-H4 italicisation check
