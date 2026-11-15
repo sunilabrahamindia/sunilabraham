@@ -920,6 +920,13 @@ parts.append(r"""
         [],
         [#text(size: 9pt, style: "italic", fill: luma(75))[Printed in India]],
       )
+      #v(2.1em)
+      #align(left)[
+        #block(width: 100%)[
+          #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
+          #text(size: 8.5pt)[E-book: For e-book download options and more details about the book, visit https://sunilabraham.in/edrl-ii]
+        ]
+      ]
     ]
   ]
   ]
