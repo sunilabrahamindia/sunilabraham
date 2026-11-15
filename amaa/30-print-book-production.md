@@ -2469,3 +2469,11 @@ A very small increase was made to the space between each of the "SOURCE ATTRIBUT
 
 - **Builder commit:** `0f6671e77c24a86b7055aa15b46e762cf6241896` — Refine EDRL II credits-page production wording and spacing.
 - **Proof status:** Source committed. Check the next print proof, interior page 6, for the wording and the two small spacing adjustments.
+
+## Half-title illustration enlargement — 15 November 2026
+
+The Santali illustration on the half-title page (interior page 5) has been enlarged from 36 mm to **50 mm** wide. It remains horizontally centred, retains its original aspect ratio and keeps the same bottom margin. The title, ornament and author line have not been changed.
+
+- **Builder commit:** `a6610b57b86f45904b40fe2b856a7b1d607e994e` — Enlarge EDRL II half-title illustration to 50 mm.
+- **Single-page review proof:** `edrl-ii-half-title-page-proof.pdf`, prepared from the previously supplied combined review PDF with only the illustration enlarged. This is a visual review proof, not a fresh full Typst build.
+- **Proof status:** Review the enlarged illustration on the single-page proof before treating the 50 mm size as approved.
