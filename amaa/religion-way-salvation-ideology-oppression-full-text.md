@@ -191,10 +191,7 @@ The villagers gather there with decorated cattle. In some villages he-goats and 
 
 When the worship is over the cattle are lined up around the temporary shrine and the priest sprinkles holy water over them. The procession back to the village starts in the evening, led by the land-owning castes such as Reddys and Vokkaligas with their cattle. They are followed by professional castes such as Kumbara (potters), Ganiga (oil-presser), Achari (carpenter) and Agasa (washermen). Holeyas and Madigas go at the end of the procession. When the procession arrives at the entrance of the village, the cattle are made to walk over the ashes of burnt straw of paddy and ragi. It is the job of the Thoti to collect straw from farmers, spread it over the road leading to the village and have it burnt. The valour of the village youth is to be proved at this time. As soon as the cattle cross the festoons anyone who has the courage to do so can try to take away the eatables tied to the cows and bulls.
 
-After all the cattle have passed through the festoons, the Thoti cuts the festoons. The cattle are thereafter taken to the main temple in the village for worship. From the temple the procession goes through
-
-
-all the lanes of the village, excluding the Holeya and Madiga areas. The Thoti beats the drum all through the procession. Pipe singers belonging to the Hajama (barber) caste play the music.
+After all the cattle have passed through the festoons, the Thoti cuts the festoons. The cattle are thereafter taken to the main temple in the village for worship. From the temple the procession goes through all the lanes of the village, excluding the Holeya and Madiga areas. The Thoti beats the drum all through the procession. Pipe singers belonging to the Hajama (barber) caste play the music.
 
 In some villages Hajamas have land given to them by the villages and they give their services free. In other villages they are paid for their services. When people have returned to their homes, the Thoti visits the houses of the landlords such as Reddys, Vokkaligas and Lingayats and collects eatables of the festival. People give him cooked food, or a little grain or money.
 
