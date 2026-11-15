@@ -2546,3 +2546,31 @@ A small horizontal spacing adjustment was added in the print-book builder to imp
 - **Adjustment:** Added `#h(0.35em)` between the italicised title and "by". The wording, italics and all other Editor's Note text remain unchanged.
 - **Builder commit:** `f2dec1867d1e1c33ab6783fca709344ab0b7187e` — Increase spacing before 'by' in Editor's Note.
 - **Proof status:** Source committed. Rebuild the print interior and inspect the Editor's Note page to confirm the visual result.
+
+
+## Latest print-production updates — 15 November 2026
+
+The following builder and manuscript refinements were completed during the latest EDRL II print-production session.
+
+### Typesetting and layout
+
+- **Editor's Note:** Increased the horizontal space between the italicised book title ending in "II" and the following word "by" to **0.35em**. The title wording and italics were not changed. Builder commit: `c48c1fe`.
+- **Heading hierarchy:** Refined the line leading for H1–H4 headings while retaining their established font sizes and hierarchy. Builder commit: `88e544a`.
+- **Contents:** Set wrapped-line leading to **1em**, scoped to the outline entries rather than applying a new global paragraph rule. The first attempt caused print build #323 to fail because it introduced an additional unscoped paragraph rule. The rule was moved into the outline-entry scope. **EDRL II print proof build #324 passed** after this correction. Commits: `b80cd31` (initial attempt), `a68d3df` (scope correction) and `fe2e01f` (final scoped implementation).
+  
+### Foreword signature
+
+The location in Dr. Y. T. Vinayaraj's Foreword signature block now reads **"Bengaluru, India"**. Only the comma was added; the rest of the signature block was left unchanged. Builder commit: `a7990ed`.
+
+### Manuscript text consistency
+
+Two exact capitalisation corrections were made in the essay sources:
+
+- In the first essay, `sanatandharma` was changed to `Sanatandharma`, retaining the italics. Commit: `7096484`.
+- In *The Living Hindu Popular Religious Consciousness*, both instances of `para sakti/Prakritiyatita sakti` were changed to `para sakti/prakritiyatita sakti`, so the alternative term uses consistent lowercase. Commit: `486838e`.
+
+These were limited text corrections; no surrounding essay wording was rewritten.
+
+### Proof status
+
+Build #324 confirms that the corrected Contents implementation compiles successfully. The later Foreword signature and manuscript-text changes are committed, but their appearance/content in a newly generated print proof has not yet been confirmed here. The next proof review should check the Editor's Note spacing, H1–H4 headings, Contents wrapped lines, Foreword signature and the two essay text corrections.
