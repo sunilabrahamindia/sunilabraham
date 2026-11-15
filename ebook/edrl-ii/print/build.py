@@ -820,12 +820,12 @@ parts.append(r"""
 #pagebreak()
 #pagebreak()
 #align(center)[
-  #v(35mm)
+  #v(30mm)
   #text(size: 10pt, weight: "bold", tracking: 2pt)[ESSAYS ON]
   #v(2.5mm)
-  #text(size: 25pt, weight: "regular")[Dalits, Religion]
+  #text(size: 25pt, weight: "bold")[Dalits, Religion]
   #linebreak()
-  #text(size: 25pt, weight: "regular")[and Liberation II]
+  #text(size: 25pt, weight: "bold")[and Liberation II]
   #v(12mm)
   #image("half-title-ornament.svg", width: 22mm)
   #v(10mm)
