@@ -2309,3 +2309,19 @@ A Santali illustration depicting tribal people was added to the half-title page 
 - **Size adjustment commit:** `b17f4756c2365cbe6145da6271bd180c802fe442` — Reduce half-title tribal illustration to 36 mm.
 
 The size adjustment has been committed and triggers a fresh print build. The new page 5 proof must be visually inspected to confirm the illustration's scale, position and balance with the title typography. The full interior and combined review PDFs must also be checked as part of the current proof review.
+
+
+## Front-matter heading rules — 15 November 2026
+
+A restrained horizontal rule has been added immediately below each of these three front-matter headings only:
+
+- Foreword
+- Editor's Note
+- About the Author
+
+The rule is a thin vector line, spanning the available text width, in a subdued grey. The heading-to-rule and rule-to-text spacing has been adjusted separately for the three sections to preserve a clean opening to each section. No rule has been added to Acknowledgement, Contents or any essay heading.
+
+The rules are vector elements in the PDF rather than raster artwork. They do not extend into the bleed area and are not expected to create a printing problem. Their final appearance, contrast and spacing must nevertheless be checked in the newly generated PDF, and the printer's own specifications remain controlling.
+
+- **Builder commit:** `9bc53c4951bc173f49756b22e558422eaafdaa50` — Add restrained rules below three front-matter headings.
+- **Proof status:** Source committed; fresh build and visual inspection still required.
