@@ -18,7 +18,7 @@ This version preserves the original wording, structure, and formatting as presen
 1. [The Triple Loss](#triple-loss)
 2. [The Great Majority Would Continue to Opt for a Religious View of Life](#religious-view)
 3. [The Secular Option](#secular-option)
-4. [The saktis of the gaps will disappear](#saktis-gaps)
+4. [The *saktis* of the gaps will disappear](#*saktis*-gaps)
 5. [The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.](#reinterpret-god)
 6. [In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.](#god-play-history)
 7. [Evil spirits are on their way out](#evil-spirits)
@@ -28,7 +28,7 @@ This version preserves the original wording, structure, and formatting as presen
 
 <h2 id="triple-loss">The Triple Loss</h2>
 
-Smallpox is known as *Amman* among our villagers in South India. Their counterparts in the north call it *Mata*. You talk to them about *Amman* or *Mata*. Some would tell you that *Amman/Mata* (smallpox) is Devi. It is Devi's *kop* or alternatively her *prasad* that comes over them as this disease. Others say *Amman* is *rogi/Bheemar* caused by heat or unhygienic conditions. The latter do not look up to the goddess for cure but rather to the health authority. They hope that *Amman* would be controlled, and finally eradicated from the face of India.
+Smallpox is known as *Amman* among our villagers in South India. Their counterparts in the north call it *Mata*. You talk to them about *Amman* or *Mata*. Some would tell you that **Amman/Mata** (smallpox) is Devi. It is Devi's *kop* or alternatively her *prasad* that comes over them as this disease. Others say *Amman* is **rogi/Bheemar** caused by heat or unhygienic conditions. The latter do not look up to the goddess for cure but rather to the health authority. They hope that *Amman* would be controlled, and finally eradicated from the face of India.
 
 Here is a case of change, a change of language and interpretation of the same phenomenon, namely a disease. A natural interpretation popularised by science takes the place of an earlier traditional religious interpretation. This change of vocabulary from the religious to the secular is happening in varying degrees in a number of areas connected with the lives of people. Here are a few more examples. Skin disease is not *nagadosam* but an infection. Traffic accidents are not caused by *Ezachi* but by human failure. Somebody suddenly dies not because he was struck down by *Brahmarakshas* or was caught in the path of *Gulikan* but because after birth, death is the most natural thing for man. Some vital organ of his suddenly failed him. The Ganges is not spoken of as *punya nadi* but as a polluted river. Cow is not considered *Gomata* but a useful animal. Worship of *nagam* is dismissed as *andhavisvasam* (superstition). *Suryan* and *Chandran* are looked upon as *Grahangal* or *prakriti saktikal*. No *vanangal* (worship) to them is necessary. 'Our old people', they say, 'speak of them as *bhagavans*. We learnt in school that such expressions in our language are "remnants of old nature worship". How can we worship the moon when the Americans have landed on it?' Fire walking by *Teechamundi teyyam* (god) is considered *tamasa* (big fun). His *Urachil attam* (possession dance) does not impress them except perhaps for its aesthetic value. Anyone can do it with some courage. Who knows they do not all get burnt.
 
@@ -50,9 +50,9 @@ When one moves away from a culture where everything was worshipped, where everyt
 
 But as we are here concerned only with the religious option. Let us now turn our attention to the likely changes in the religious option of the future in the face of the onslaught of secularisation.
 
-<h2 id="saktis-gaps">1. The saktis of the gaps will disappear</h2>
+<h2 id="*saktis*-gaps">1. The *saktis* of the gaps will disappear</h2>
 
-In the past a gap in our empirical knowledge was explained by a god-hypothesis. Smallpox strikes. It is Mariamma. There is an attack of epilepsy. It is *potten teyyam*. Skin disease appears. It is *nagadosam*. These gods, as so many independent saktis, are bound to disappear. However, since in the religious man's worldview nothing can happen as merely natural without significance, these names will be symbolically interpreted to explain the apparently meaningless or anomic experiences of man, such as disease, suffering and death. Here we must remember one of the definitions of religion, that it is 'man's protest against meaninglessness in life'.
+In the past a gap in our empirical knowledge was explained by a god-hypothesis. Smallpox strikes. It is Mariamma. There is an attack of epilepsy. It is *potten teyyam*. Skin disease appears. It is *nagadosam*. These gods, as so many independent *saktis*, are bound to disappear. However, since in the religious man's worldview nothing can happen as merely natural without significance, these names will be symbolically interpreted to explain the apparently meaningless or anomic experiences of man, such as disease, suffering and death. Here we must remember one of the definitions of religion, that it is 'man's protest against meaninglessness in life'.
 
 <h2 id="reinterpret-god">2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.</h2>
 
