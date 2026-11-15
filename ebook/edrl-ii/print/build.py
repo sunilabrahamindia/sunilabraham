@@ -803,15 +803,15 @@ common = r"""
   #align(center)[#it]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
-#show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
+#show heading.where(level: 2): it => block(above: 16pt, below: 14pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 7pt, spacing: 0pt)
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
 ]
-#show heading.where(level: 3): it => block(above: 13pt, below: 10pt, breakable: false)[
+#show heading.where(level: 3): it => block(above: 13pt, below: 12pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 6pt, spacing: 0pt)
   #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
-#show heading.where(level: 4): it => block(above: 10pt, below: 8pt, breakable: false)[
+#show heading.where(level: 4): it => block(above: 10pt, below: 10pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 5pt, spacing: 0pt)
   #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
 ]
