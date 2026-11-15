@@ -764,7 +764,7 @@ common = r"""
   #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
   #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
-#show heading.where(level: 4): it => block(above: 8pt, below: 7pt, breakable: false)[
+#show heading.where(level: 4): it => block(above: 10pt, below: 8pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
   #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
 ]
