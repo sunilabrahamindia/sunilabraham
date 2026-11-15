@@ -926,12 +926,16 @@ parts.append(r"""
 """ + '#set par(justify: true, leading: 1.15em, first-line-indent: 1.1em, spacing: 16pt)' + r"""
 #set heading(outlined: true)
 = Foreword
-#v(14pt)
+#v(5pt)
+#line(length: 100%, stroke: 0.65pt + luma(145))
+#v(8pt)
 @@FOREWORD_BODY@@
 #pagebreak()
 #set heading(outlined: true)
 = Editor's Note
-#v(14pt)
+#v(5pt)
+#line(length: 100%, stroke: 0.65pt + luma(145))
+#v(8pt)
 _Essays on Dalits, Religion and Liberation II_ by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author. This volume continues the work begun with the publication of _Essays on Dalits, Religion and Liberation_ in 2006, marking the tenth anniversary of his death. The first volume was published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), with a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
 
 The present volume brings together nine essays that were not included in the earlier collected volume. These essays first appeared in different journals and publications over several decades, from the 1970s to the 1990s. Most were published in _Religion and Society_, the journal of the Christian Institute for the Study of Religion and Society. One appeared in the _Indian Journal of Theology_, while "Dalit Theology: A Movement of Counter-Culture" was published in _Towards a Dalit Theology_ in 1988. Their republication in one volume makes writings that were previously dispersed across publications and decades available together.
@@ -972,7 +976,9 @@ I personally take this opportunity to express my gratitude to the family of A. M
 #pagebreak()
 #set heading(outlined: true)
 = About the Author
-#v(10pt)
+#v(4pt)
+#line(length: 100%, stroke: 0.65pt + luma(145))
+#v(5pt)
 A. M. Abraham Ayrookuzhiel (18 September 1933 – 29 November 1996) was an Indian theologian, scholar and researcher whose work brought questions of religion into close conversation with the social and cultural realities of marginalised communities. Born in Chengannur, Kerala, he grew up in a region with a deep Christian heritage. His early schooling was in the villages around Puthenkavu. He later entered seminary formation in Thiruvananthapuram and pursued higher studies in philosophy and theology in Pune. He continued his academic formation in Rome and the United Kingdom, and was ordained in 1963.
 
 A. M. Abraham Ayrookuzhiel's academic and professional journey took him across different church traditions and cultural settings. After his studies abroad, he joined the Anglican Church and served as a curate at St. Paul High Anglican Church in Wokingham, Berkshire, from 1970 to 1973. His time in the United Kingdom brought him into contact with wider ecumenical conversations and debates about the place of religion and the church in a changing society. He married Ponnamma Thekedath during this period. They returned to India in 1973.
