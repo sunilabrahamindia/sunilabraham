@@ -81,7 +81,7 @@ created: 2026-11-07
   <image x="63" y="261" width="223" height="264"
          href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
          xlink:href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
-         preserveAspectRatio="xMidYMin slice"/>
+         preserveAspectRatio="xMidYMid meet"/>
   <text class="ink anniversary" x="342" y="330">30<tspan class="maroon" font-size="29" baseline-shift="super">th</tspan></text>
   <text class="ink anniversary-label" x="342" y="382">Death Anniversary</text>
   <text class="ink anniversary-label" x="342" y="420">Commemoration</text>
