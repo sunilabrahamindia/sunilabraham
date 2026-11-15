@@ -796,9 +796,8 @@ common = r"""
     #align(center)[#counter(page).display("1")]
   ],
 )
-// TESTING EXPERIMENT — heading typography and wrapped-line spacing.
-// Temporary values for visual review; revert this experiment if the result is unsuitable.
-#show heading.where(level: 1): it => block(above: 0pt, below: 7pt, breakable: false)[
+// Centre every essay chapter title (H1), including wrapped lines, across the full text width.
+#show heading.where(level: 1): it => block(width: 100%, above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 18pt, weight: "bold", hyphenate: false)
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 6pt, spacing: 0pt)
   #align(center)[#it]
