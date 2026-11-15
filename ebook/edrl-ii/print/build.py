@@ -833,7 +833,7 @@ parts.append(r"""
 ]
 #v(1fr)
 #align(center)[
-  #image("half-title-tribal.png", width: 36mm, fit: "contain")
+  #image("half-title-tribal.png", width: 50mm, fit: "contain")
 ]
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
