@@ -841,83 +841,87 @@ parts.append(r"""
 #set page(header: none, footer: none, numbering: none)
 #v(1fr)
 #align(center)[
+  #move(dy: -6mm)[
+  #align(center)[
   #block(width: 112mm)[
-    #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
-    #align(center)[
-      #text(size: 17pt, weight: "bold")[Essays on]
-      #linebreak()
-      #text(size: 17pt, weight: "bold")[Dalits, Religion and Liberation II]
-      #v(1.0em)
-      #text(size: 11pt)[A. M. Abraham Ayrookuzhiel]
-    ]
-    #v(1.1em)
-    #line(length: 100%, stroke: 0.5pt + luma(155))
-    #v(1.2em)
-
-    #grid(
-      columns: (32mm, 1fr),
-      column-gutter: 4mm,
-      row-gutter: 0.75em,
-      align: (left, left),
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
-      [#text(size: 9.5pt)[https://sunilabraham.in]],
-      [],
-      [#text(size: 9.5pt)[publications\@sunilabraham.in]],
-      [],
-      [#text(size: 9.5pt)[+91 96111 00817]],
-
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
-      [#text(size: 9.5pt)[Tito Dutta]],
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT COORDINATION]],
-      [#text(size: 9.5pt)[Herbert Paul]],
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED BY]],
-      [#text(size: 9.5pt)[National Print Press, Koramangala, Bengaluru]],
-    )
-
-    #v(1.2em)
-    #line(length: 100%, stroke: 0.5pt + luma(155))
-    #v(2em)
-
-    #align(center)[
-      #text(size: 9.5pt)[First paperback edition]
-      #linebreak()
-      #text(size: 9.5pt)[Published on 29 November 2026 by The Sunil Abraham Project]
-      #linebreak()
-      #text(size: 8pt)[On the occasion of the thirtieth death anniversary of A. M. Abraham Ayrookuzhiel]
-    ]
-    #v(2.1em)
-    #align(left)[
-      #block(width: 100%)[
-        #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
-        #text(size: 8pt, weight: "bold", fill: luma(85))[SOURCE ATTRIBUTION]
-        #v(0.5em)
-        #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
-        #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
+      #set par(justify: false, first-line-indent: 0pt, leading: 1.15em, spacing: 0pt)
+      #align(center)[
+        #text(size: 17pt, weight: "bold")[Essays on]
+        #linebreak()
+        #text(size: 17pt, weight: "bold")[Dalits, Religion and Liberation II]
+        #v(1.0em)
+        #text(size: 11pt)[A. M. Abraham Ayrookuzhiel]
       ]
-    ]
-    #v(2.1em)
-    #align(left)[
-      #block(width: 100%)[
-        #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
-        #text(size: 8pt, weight: "bold", fill: luma(85))[PRODUCTION AND TYPESETTING]
-        #v(0.5em)
-        #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
-        #text(size: 8.5pt)[Typesetting and preparation of the book's print-production files were carried out using Python, Pandoc and Typst. Source files and production code are managed on GitHub, with automated builds run through GitHub Actions.]
+      #v(1.1em)
+      #line(length: 100%, stroke: 0.5pt + luma(155))
+      #v(1.2em)
+  
+      #grid(
+        columns: (32mm, 1fr),
+        column-gutter: 4mm,
+        row-gutter: 0.75em,
+        align: (left, left),
+        [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
+        [#text(size: 9.5pt)[https://sunilabraham.in]],
+        [],
+        [#text(size: 9.5pt)[publications\@sunilabraham.in]],
+        [],
+        [#text(size: 9.5pt)[+91 96111 00817]],
+  
+        [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
+        [#text(size: 9.5pt)[Tito Dutta]],
+        [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT COORDINATION]],
+        [#text(size: 9.5pt)[Herbert Paul]],
+        [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED BY]],
+        [#text(size: 9.5pt)[National Print Press, Koramangala, Bengaluru]],
+      )
+  
+      #v(1.2em)
+      #line(length: 100%, stroke: 0.5pt + luma(155))
+      #v(2em)
+  
+      #align(center)[
+        #text(size: 9.5pt)[First paperback edition]
+        #linebreak()
+        #text(size: 9.5pt)[Published on 29 November 2026 by The Sunil Abraham Project]
+        #linebreak()
+        #text(size: 8pt)[On the occasion of the thirtieth death anniversary of A. M. Abraham Ayrookuzhiel]
       ]
+      #v(2.1em)
+      #align(left)[
+        #block(width: 100%)[
+          #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
+          #text(size: 8pt, weight: "bold", fill: luma(85))[SOURCE ATTRIBUTION]
+          #v(0.5em)
+          #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
+          #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
+        ]
+      ]
+      #v(2.1em)
+      #align(left)[
+        #block(width: 100%)[
+          #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
+          #text(size: 8pt, weight: "bold", fill: luma(85))[PRODUCTION AND TYPESETTING]
+          #v(0.5em)
+          #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
+          #text(size: 8.5pt)[Typesetting and preparation of the book's print-production files were carried out using Python, Pandoc and Typst. Source files and production code are managed on GitHub, with automated builds run through GitHub Actions.]
+        ]
+      ]
+      #v(2.1em)
+      #grid(
+        columns: (27mm, 1fr),
+        column-gutter: 4mm,
+        row-gutter: 0.55em,
+        align: (left, left),
+        [#text(size: 8pt, weight: "bold", fill: luma(85))[ISBN-13 (Paperback)]],
+        [#text(size: 9.5pt)[978-93-345-8524-7]],
+        [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED PRICE]],
+        [#text(size: 9.5pt)[₹250 (Rupees Two Hundred and Fifty Only)]],
+        [],
+        [#text(size: 9pt, style: "italic", fill: luma(75))[Printed in India]],
+      )
     ]
-    #v(2.1em)
-    #grid(
-      columns: (27mm, 1fr),
-      column-gutter: 4mm,
-      row-gutter: 0.55em,
-      align: (left, left),
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[ISBN-13 (Paperback)]],
-      [#text(size: 9.5pt)[978-93-345-8524-7]],
-      [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED PRICE]],
-      [#text(size: 9.5pt)[₹250 (Rupees Two Hundred and Fifty Only)]],
-      [],
-      [#text(size: 9pt, style: "italic", fill: luma(75))[Printed in India]],
-    )
+  ]
   ]
 ]
 #v(1fr)
