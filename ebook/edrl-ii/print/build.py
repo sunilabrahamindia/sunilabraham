@@ -784,7 +784,7 @@ common = r"""
 #show heading.where(level: 1): it => block(above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 18pt, weight: "bold", hyphenate: false)
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 6pt, spacing: 0pt)
-  #align(left)[#it]
+  #align(center)[#it]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
@@ -1151,6 +1151,9 @@ for essay in essays:
 """)
         parts.append("#counter(page).update(1)\n")
     parts.append("#counter(footnote).update(0)\n")
+    parts.append(
+        f'#block(above: 0pt, below: 2pt)[#align(center)[#text(font: "Linux Libertine O", size: 18pt, weight: "bold")[{essay["order"]}]]]\n'
+    )
     parts.append(f"= {title}\n")
     parts.append(f"""#block[
   #set par(justify: false, first-line-indent: 0pt, leading: 11pt, spacing: 0pt)
