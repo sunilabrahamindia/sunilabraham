@@ -2540,9 +2540,9 @@ The line spacing within an individual multi-line footnote has been increased fro
 
 ## Editor's Note title-to-author spacing refinement — 15 November 2026
 
-A small horizontal spacing adjustment was added in the print-book builder to improve the visual separation between the italicised book title and the following roman text in the opening sentence of the Editor's Note. The title ends with "II", followed by the word "by". An explicit **0.18em** horizontal space is now inserted at that transition.
+A small horizontal spacing adjustment was added in the print-book builder to improve the visual separation between the italicised book title and the following roman text in the opening sentence of the Editor's Note. The title ends with "II", followed by the word "by". An explicit **0.35em** horizontal space is now inserted at that transition.
 
 - **Builder file:** `ebook/edrl-ii/print/build.py`.
-- **Adjustment:** Added `#h(0.18em)` between the italicised title and "by". The wording, italics and all other Editor's Note text remain unchanged.
+- **Adjustment:** Added `#h(0.35em)` between the italicised title and "by". The wording, italics and all other Editor's Note text remain unchanged.
 - **Builder commit:** `f2dec1867d1e1c33ab6783fca709344ab0b7187e` — Increase spacing before 'by' in Editor's Note.
 - **Proof status:** Source committed. Rebuild the print interior and inspect the Editor's Note page to confirm the visual result.
