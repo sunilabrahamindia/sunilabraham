@@ -926,7 +926,7 @@ parts.append(r"""
           #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
           #text(size: 8pt, weight: "bold", fill: luma(85))[E-BOOK]
           #v(0.5em)
-          #text(size: 8.5pt)[For e-book downloads and more details about this book, visit:]
+          #text(size: 8.5pt)[For e-book download options, visit:]
           #linebreak()
           #text(size: 8.5pt)[https://sunilabraham.in/edrl-ii]
         ]
