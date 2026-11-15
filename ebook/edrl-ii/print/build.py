@@ -865,10 +865,7 @@ parts.append(r"""
         [#text(size: 9.5pt)[https://sunilabraham.in]],
         [],
         [#text(size: 9.5pt)[publications\@sunilabraham.in]],
-        [],
-        [#text(size: 9.5pt)[Sunil Abraham]],
-        [],
-        [#text(size: 9.5pt)[+91 96111 00817]],
+        [#text(size: 9.5pt)[Sunil Abraham +91 96111 00817]],
   
         [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
         [#text(size: 9.5pt)[Tito Dutta]],
@@ -928,9 +925,7 @@ parts.append(r"""
           #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
           #text(size: 8pt, weight: "bold", fill: luma(85))[E-BOOK]
           #v(0.5em)
-          #text(size: 8.5pt)[For e-book download options, visit:]
-          #linebreak()
-          #text(size: 8.5pt)[https://sunilabraham.in/edrl-ii]
+          #text(size: 8.5pt)[For e-book download options, visit: https://sunilabraham.in/edrl-ii]
         ]
       ]
     ]
