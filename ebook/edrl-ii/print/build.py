@@ -8,7 +8,7 @@ import subprocess
 import time
 import urllib.request
 import yaml
-from bs4 import BeautifulSoup, NavigableString
+from bs4 import BeautifulSoup, NavigableString, Tag
 from copy import deepcopy
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -221,6 +221,17 @@ def typst_escape(value):
         .replace("$", "\\$")
     )
 
+def html_inline_to_typst(node):
+    """Preserve inline emphasis when converting HTML headings to Typst."""
+    if isinstance(node, NavigableString):
+        return typst_escape(str(node))
+    content = "".join(html_inline_to_typst(child) for child in node.children)
+    if isinstance(node, Tag) and node.name in ("em", "i"):
+        return f"_{content}_"
+    if isinstance(node, Tag) and node.name in ("strong", "b"):
+        return f"*{content}*"
+    return content
+
 def typst_heading_body(title):
     """Prevent Arabic-number prefixes from being parsed as Typst list markers."""
     match = re.match(r"^(\d+\.)(\s+)(.*)$", title, re.S)
@@ -354,7 +365,7 @@ def extract_footnotes_and_clean(markdown):
             heading.decompose()
             continue
         level = int(heading.name[1])
-        title = typst_escape(heading.get_text(" ", strip=True))
+        title = html_inline_to_typst(heading).strip()
         typst_heading = (
             "\n\n```{=typst}\n"
             f"#heading(level: {level}){typst_heading_body(title)}\n"
