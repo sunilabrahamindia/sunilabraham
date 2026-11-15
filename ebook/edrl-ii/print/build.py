@@ -220,7 +220,7 @@ def typst_heading_body(title):
     match = re.match(r"^(\d+\.)\s+(.*)$", title, re.S)
     if match:
         number, remainder = match.groups()
-        return f'#text("{number}") + [#h(0.25em){remainder}]'
+        return f'[#text("{number}") + [#h(0.25em){remainder}]]'
     return f"[{title}]"
 
 def html_table_to_typst(table):
