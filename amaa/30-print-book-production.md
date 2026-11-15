@@ -2325,3 +2325,22 @@ The rules are vector elements in the PDF rather than raster artwork. They do not
 
 - **Builder commit:** `9bc53c4951bc173f49756b22e558422eaafdaa50` — Add restrained rules below three front-matter headings.
 - **Proof status:** Source committed; fresh build and visual inspection still required.
+
+
+## Opening-page divider redesign — 15 November 2026
+
+The opening-page dividers have been redesigned as original vector ornaments. The treatment is deliberately differentiated between the three introductory sections and the nine essays.
+
+### Three introductory sections
+
+The Foreword, Editor's Note and About the Author headings now share a short, left-aligned engraved-style ornament. It uses fine curved strokes and a small organic central detail rather than a plain full-width rule or a simple geometric symbol. The ornament sits on the same left alignment as the section heading and body text.
+
+### Nine essays
+
+Each of the nine essay openings uses a different, more restrained treatment: a fine, nearly full-width horizontal rule with a small, delicate terminal flourish. The essay treatment is intended to establish a consistent chapter-opening identity without repeating the more decorative front-matter ornament.
+
+Both designs are generated as original SVG vector artwork by the print builder itself. They are not raster images and do not extend into the bleed area. The divider artwork is placed within the text block. Existing essay titles, publication details, essay text and chapter sequence are unchanged. The three introductory sections retain compact vertical spacing, with particular care taken not to push the final line of About the Author onto an additional page.
+
+- **Builder commit:** `f90e07f97588ef70dbe08333c9b58d467e625914` — Introduce original ornamental dividers for EDRL II openings.
+- **Proof status:** Source committed. A fresh build and visual inspection of all three introductory sections and all nine essay openings are required. Check especially the final page of About the Author and confirm that no opening has acquired an unintended extra page.
+- **Reversibility:** The change is isolated to the divider generation and the opening-page divider placements in `ebook/edrl-ii/print/build.py`. It can be reverted without changing the essay text or other book content.
