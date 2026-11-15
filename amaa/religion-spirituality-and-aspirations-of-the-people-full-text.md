@@ -18,7 +18,7 @@ This version preserves the original wording, structure, and formatting as presen
 
 1. [Introduction](#introduction)
 2. [I. Aspirations of the People and People's Understanding of the Role of Religion as a Social Force in This Context](#aspirations)
-3. [II. A. The Need for a '*Spirituality of Combat*' to Promote People's Aspirations: A Cultural Point of View](#spirituality-of-combat)
+3. [II. A. The Need for a 'Spirituality of Combat' to Promote People's Aspirations: A Cultural Point of View](#spirituality-of-combat)
 4. [B. Approach to the Study of Hinduism in the Context of People's Aspirations](#study-of-hinduism)
 5. [C. Hinduism in Dialogue with the Contemporary World](#dialogue)
 6. [Postscript](#postscript)
@@ -34,7 +34,7 @@ The paper is based on the information gathered from these personal accounts as w
 
 ## I. Aspirations of the People and People's Understanding of the Role of Religion as a Social Force in This Context {#aspirations}
 
-In this section I will present some of the aspirations of the people and the role of religion as told by the people themselves. In the second part I will reflect, in the context of these personal stories, on the three points, namely: "*Spirituality of Combat*" to promote aspirations of people, the approach to the Study of Hinduism and Dialogue within it in the context of these aspirations.
+In this section I will present some of the aspirations of the people and the role of religion as told by the people themselves. In the second part I will reflect, in the context of these personal stories, on the three points, namely: "Spirituality of Combat" to promote aspirations of people, the approach to the Study of Hinduism and Dialogue within it in the context of these aspirations.
 
 Some people are not very articulate about their aspirations in life. All the same, aspirations are implicit in their language. Listen to A. V. Balan, a slum dweller, "I want a happy and peaceful life like any other man. I want to improve my lot and come up in life. What else does any man want in life?" The society looks down on us. But I am also a man. Once I also had a house and a little property. Aspiration for equality of status in his words, "the society looks down on us," and aspiration for equality of opportunity in his words, "I want to come up in life like any other man", is very concretely expressed. But his language does not suffer from the vagueness of an abstract concept like "equality".
 
@@ -84,7 +84,7 @@ Kunhikrishnan Nambiar, however, is not a Marxist. But he too feels religions hav
 
 Do you not then feel that religions are unnecessary? Nambiar was asked. 'Sometimes I feel that. Though there are many religions, evil and wrong doing continues. In fact it was government laws that stopped evil practices like prevention of low caste entry into temples, animal sacrifice and, recently, the dowry system. What is needed is not *bhakti*. Man should understand the sufferings of other people. Superstitions and other evil practices are to be removed. Education should be so oriented as to encourage free thinking.'
 
-## II. A. The Need for a '*Spirituality of Combat*' to Promote People's Aspirations: A Cultural Point of View {#spirituality-of-combat}
+## II. A. The Need for a 'Spirituality of Combat' to Promote People's Aspirations: A Cultural Point of View {#spirituality-of-combat}
 
 From the account of people's answers described in the first part, it is seen that when people were asked to speak about their expectations, aims and ideals in life, they expressed their meaning in life in terms of aspiration to individual freedom, social equality and social justice. We have also seen that some of them saw no role for religion in relation to these meanings they have, while others saw religion as a positive obstacle to their aspirations and meanings. However, it does not follow from this that the great majority of the people have no religion. From other studies we know that 90 per cent of the people believe in the complex of religious concepts and symbolic techniques as objectively valid and powerful enough to produce in them certain meaningful cognitive and emotional experiences. What probably they have in mind when they spoke about the 'no role' or 'negative role' of religion in relation to their aspirations is that they do not see in their religion mechanisms and social structures what can bring about or promote their aspirations for values like freedom, equality, fraternity and social justice.
 
