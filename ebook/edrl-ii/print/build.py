@@ -675,7 +675,7 @@ common = r"""
 #set footnote.entry(
   separator: line(length: 30%, stroke: 0.5pt + luma(90)),
   clearance: 0.6em,
-  gap: 0.9em,
+  gap: 0.65em,
 )
 #show footnote.entry: it => context {
   let values = counter(footnote).at(it.note.location())
