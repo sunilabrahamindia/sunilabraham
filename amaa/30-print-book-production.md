@@ -2363,3 +2363,17 @@ The vertical spacing has been adjusted to keep the heading, rule and opening tex
 - **Builder commit:** `3bf5fe7771a4d5a4a48b43c350995968cc96e2f5` — Centre front-matter headings and extend ornamental rules.
 - **Proof status:** Source committed. The next GitHub Actions build should be followed for the updated PDF. Inspect all three sections for centring, line length, visual weight and spacing, and check that About the Author has not gained an unintended extra page.
 - **Reversibility:** The change is confined to the front-matter divider artwork and the heading/divider placement for these three sections in `ebook/edrl-ii/print/build.py`. It can be reverted without affecting the nine essays or their current opening design.
+
+## Half-title page ornament — 15 November 2026
+
+The existing short horizontal line on interior page 5 has been replaced by a small original vector ornament.
+
+- The ornament occupies the **same 22 mm width** as the existing line.
+- Its position between the title and the author's name is unchanged.
+- The title, author's name, vertical spacing, page layout and Santali illustration are unchanged.
+- The new motif is deliberately distinct from the longer ornamental rule used on the three front-matter section openings.
+
+The change is confined to the existing line element on the half-title page. It does not add another line or enlarge the decorative area.
+
+- **Builder commit:** `6a1a71ef88dd3c3a3108f51f5d9dc5a77c861417` — Add a small original ornament to the half-title rule.
+- **Proof status:** Source committed. Inspect the next page 5 proof to judge the small ornament at actual print size before approving it.
