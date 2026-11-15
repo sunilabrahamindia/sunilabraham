@@ -284,17 +284,33 @@ Existing italicisation was retained for terms and expressions including *rache*,
 
 ### 7. Dalit Theology: A Movement of Counter-Culture
 
-**Capitalisation audit**
+**Full source inspected:** [Dalit Theology: A Movement of Counter-Culture](/amaa/dalit-theology-movement-counter-culture-full-text/).
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation audit — changes made**
 
-**Italicisation audit**
+- **Dalit / dalit; Dalits / dalits:** Standardised the author's own narrative references to *Dalit* and *Dalits*, including the derived term *Dalitism*, with uppercase initial letters. Existing uppercase forms were retained. Lowercase forms inside quoted material were preserved, including the quoted word "dalit" discussed as a term. The permalink slug was not changed.
+- **Karma / karma:** Changed the generic philosophical concept from "Karma" to lowercase "karma", consistent with the treatment of generic Indic concepts in the earlier essays.
+- **Brahmin / Brahmins; Brahmanical / Brahmanic:** Existing capitalisation was retained. These forms refer to caste identity, cultural/religious traditions or related designations in the contexts in which they occur.
+- **God / god:** Existing forms were retained according to context, including the quoted phrase "the people of God".
+- **Named texts, traditions, communities and people:** Existing capitalisation was retained. No spelling or transliteration was changed.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Italicisation audit — changes made**
+
+- Added italics to the generic Indic terms *trivikrama*, *rakshasas* and *amrita*.
+- Set the generic philosophical term *karma* in lowercase italics.
+- Existing italicisation of *colony*, *cheri*, *palli* and *onavil* was retained.
+- Indic terms appearing inside direct quotations, including "shamkara" and "atman", were left as they appeared in the quotation. Names and titles were not italicised merely because they are Indian.
+- The compound *Dharmasastras* was retained intact and was not split or partially italicised.
+
+**Verification**
+
+- The complete 405-line Markdown source, including the essay and notes, was inspected.
+- The source was updated only for the listed capitalisation and italic-formatting changes. A comparison with the pre-edit source confirmed that, after removing Markdown emphasis markers and reversing the recorded capitalisation substitutions, the text matched exactly.
+- No words were added or removed; no spelling, punctuation, paragraph structure, links, front matter, notes or other content was rewritten or corrected.
+- The source was fetched again after the update. Its 405-line structure remains unchanged.
+- The source has not been compared against the original printed article, and the rendered page has not yet been visually checked.
+
+**Status:** Capitalisation and italicisation audits completed for Essay 7. Source changes are limited to the recorded case and italic-formatting corrections.
 
 ### 8. Dalit Liberation — Some Reflections on Their Ideological Predicament
 
