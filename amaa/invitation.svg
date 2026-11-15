@@ -68,7 +68,19 @@ created: 2026-11-07
       .rule { stroke:#475569; }
       .portrait-frame { fill:#1f2937; stroke:#9b835d; }
     }
-    @media print { .amaa-invitation-svg { max-width:none; margin:0; } }
+    @media print {
+      @page { size: A3 portrait; margin: 0; }
+      html, body { margin: 0 !important; padding: 0 !important; }
+      .amaa-invitation-svg {
+        display: block;
+        width: 210mm !important;
+        height: 420mm !important;
+        max-width: none !important;
+        margin: 0 auto !important;
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+    }
   </style>
 
   <rect class="paper" width="900" height="1800"/>
@@ -81,7 +93,7 @@ created: 2026-11-07
   <image x="63" y="261" width="223" height="264"
          href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
          xlink:href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
-         preserveAspectRatio="xMidYMid meet"/>
+         preserveAspectRatio="xMidYMid slice"/>
   <text class="ink anniversary" x="342" y="330">30<tspan class="maroon" font-size="29" baseline-shift="super">th</tspan></text>
   <text class="ink anniversary-label" x="342" y="382">Death Anniversary</text>
   <text class="ink anniversary-label" x="342" y="420">Commemoration</text>
