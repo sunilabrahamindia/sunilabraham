@@ -2402,3 +2402,14 @@ The page numbers continue to be generated from the actual heading locations in t
 
 - **Builder commit:** `5ff53ba0c3ed9e8d6d1e70c1ffda1525720095b4` — Refine EDRL II contents page.
 - **Proof status:** Source committed. No build was started at this stage, as requested. Inspect the Contents page in the next scheduled build, particularly the new separation before essay 1 and the automatically updated page references.
+
+
+## Build #263 failure and Typst outline correction — 15 November 2026
+
+The EDRL II print proof workflow run #263 failed during Typst compilation. The failure was caused by an invalid `.filter()` call applied to a Typst heading selector in the Contents outline target. The build log identified the exact error: `type selector has no method filter`. This was introduced by the Contents self-reference exclusion change; it was not a source-text or footnote-content failure. The unused footnote-definition warnings were non-fatal and unrelated.
+
+The selector filter has been removed. Instead, the Contents heading is explicitly marked `outlined: false`, then heading outlining is re-enabled for the subsequent essay headings. The outline target is restored to the supported `heading.where(level: 1)` selector. The Contents self-reference should therefore remain excluded while the nine essay headings remain in the generated Contents list.
+
+- **Failed run:** #263, commit `5ff53ba0c3ed9e8d6d1e70c1ffda1525720095b4`.
+- **Correction commit:** `0afa71a927b3ff29aa01a465b9994c47700f5866` — Fix Contents outline selector for Typst.
+- **Proof status:** Correction committed; the new workflow run must confirm compilation and produce fresh proof PDFs. Do not treat the correction as verified until the run completes and the Contents page is visually inspected.
