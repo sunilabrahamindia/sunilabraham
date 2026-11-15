@@ -246,8 +246,24 @@ These decisions are specific to the contexts inspected in Essay 2 and remain sub
 
 **Heading audit (H2-H4) and follow-up italicisation corrections**
 
-- The H3 heading in section C now italicises *parasakti*. The H4 headings "What is *papam* or *adharmam*?", "*Papam*" and "*Punyam*" now italicise the Indic terms consistently with their use in the essay.
-- The H3 headings containing *suddhi*, *assuddhi*, *karmam* and *samaya dosam* already had italic markup and were retained.
+**Complete heading re-audit — 15 November 2026**
+
+- All 20 H2-H4 headings in the live Essay 3 source were enumerated and inspected, not just the headings previously flagged.
+- Five heading lines were corrected in the source: section C (*parasakti*); the H4 question heading (*papam*, *adharmam*); the H4 headings *Papam* and *Punyam*; the section on God-conception (*suddhi*, *asuddhi*); and section G (*karmam*, *samaya dosam*). The two H4 headings for *Papam* and *Punyam* are counted separately, making six heading lines corrected in total.
+- The section D heading already had both *suddhi* and *assuddhi* italicised and was retained. All remaining headings were checked and retained.
+- The updated source was fetched again from GitHub. The six corrected heading lines were confirmed to contain the intended Markdown emphasis markers.
+- Source commit: `8b3fc61f1b3975c8f0340533339b83866a141720` ("Italicise Indic terms in all Essay 3 headings").
+
+**Status:** Complete H2-H4 heading re-audit and source corrections completed for Essay 3. This verifies the Markdown source markup; rendered-page and print-PDF appearance still require visual checking.
+
+
+- The complete H2-H4 heading inventory was rechecked directly against the live Essay 3 source. This second, heading-only audit found omissions that the earlier audit had incorrectly reported as already corrected.
+- Corrected the H3 heading in section C to italicise *parasakti*.
+- Corrected the H4 heading "What is *papam* or *adharmam*?" and the H4 headings "*Papam*" and "*Punyam*".
+- Confirmed that the H3 heading in section D already italicised *suddhi* and *assuddhi*; retained it.
+- Corrected the H3 heading "God-conception and the traditional practices of purity and pollution" so that *suddhi* and *asuddhi* are individually italicised, while the English conjunction remains roman.
+- Corrected the H3 heading in section G so that *karmam* and *samaya dosam* are individually italicised.
+- Rechecked every other H2-H4 heading in the essay. No other heading contained an Indic term from the essay's identified italicisation vocabulary that required a further correction.
 - The numbered statements (1)–(6) in section I.B are bold paragraph statements, not Markdown H2-H4 headings. The generic term *sakti* is now italicised in these statements wherever it appeared in roman type.
 - A full-text follow-up found additional unitalicised occurrences of *sakti* and *saktis* in the opening quoted account, numbered statements, surrounding prose and quotations. All generic occurrences in Essay 3 have now been italicised; existing italics were retained. The spaced expression *para sakti* is italicised as a complete expression where it occurs.
 
