@@ -2413,3 +2413,16 @@ The selector filter has been removed. Instead, the Contents heading is explicitl
 - **Failed run:** #263, commit `5ff53ba0c3ed9e8d6d1e70c1ffda1525720095b4`.
 - **Correction commit:** `0afa71a927b3ff29aa01a465b9994c47700f5866` — Fix Contents outline selector for Typst.
 - **Proof status:** Correction committed; the new workflow run must confirm compilation and produce fresh proof PDFs. Do not treat the correction as verified until the run completes and the Contents page is visually inspected.
+
+
+## Credits-page book title correction — 15 November 2026
+
+The book title on the publication details page (interior PDF page 6) was corrected to match the established title used throughout the book:
+
+- **Incorrect:** `Essays on Dalits, Religion, Liberation II`
+- **Correct:** `Essays on Dalits, Religion and Liberation II`
+
+Only the missing word `and` was added to the credits-page title. The font, size, alignment, line breaks and surrounding layout were not changed.
+
+- **Builder commit:** `19c28b69fb9e3ce8ea1a9ef59d1255e7d4f8cd8c` — Correct EDRL II credits-page book title.
+- **Proof status:** Source correction committed. The next automatic print build must produce a fresh PDF; inspect page 6 to verify the corrected title.
