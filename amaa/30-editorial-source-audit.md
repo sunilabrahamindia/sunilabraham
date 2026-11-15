@@ -602,14 +602,38 @@ To check the punctuation at the end of quoted sentences throughout the nine essa
 - No correction was required. The full stop at the end of the Chief Minister's statement is already inside the closing quotation mark.
 - The comma after the quoted words "Hare Rama, Hare Krishna" was retained because the quotation is integrated into the author's sentence.
 
+**Essay 6 — Religion: A Way of Salvation or an Ideology of Oppression?**
+
+**Source inspected:** [Religion: A Way of Salvation or an Ideology of Oppression?](/amaa/religion-way-salvation-ideology-oppression-full-text/).
+
+- The full source was checked for sentence-ending punctuation placed outside closing quotation marks.
+- No corrections were required.
+
+**Essay 7 — Dalit Theology: A Movement of Counter-Culture**
+
+**Source inspected:** [Dalit Theology: A Movement of Counter-Culture](/amaa/dalit-theology-movement-counter-culture-full-text/).
+
+- Eight complete quoted statements had their full stops outside the closing quotation mark.
+- All eight full stops were moved inside the closing quotation mark. These included quotations from the Commission for Scheduled Castes and Tribes, Sri Jayendra Saraswathi, the Backward Classes Commission, R.S. Khare, J.T. Appavoo, Jyoti Sahi and Tirumular.
+- Nested quotation marks in the passage attributed to R.S. Khare were preserved; the sentence-ending full stop was placed inside the outer quotation mark.
+- Quoted expressions such as "no people" and "the people of God" were retained as phrases within the author's sentences; their punctuation belongs to the surrounding sentences.
+
+**Essay 8 — Dalit Liberation—Some Reflections on Their Ideological Predicament**
+
+**Source inspected:** [Dalit Liberation—Some Reflections on Their Ideological Predicament](/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/).
+
+- Four corrections were made: the full stops were moved inside the closing quotation marks in the quoted passage ending "caste-class associations", the quotation ending "the religion of the smritis", the quoted answer "No", and Ambedkar's statement "Beware of Gandhi and the Congress".
+- The long quotation from Dr. P. Sivanandan was already punctuated correctly and was left unchanged.
+- The first part of the paired statement "Beware of socialist Brahmins" was retained with its comma outside the quotation marks because it is integrated into the surrounding sentence.
+
 **Verification and status**
 
-- The three source files were fetched again after the audit.
-- The one correction in Essay 3 and four corrections in Essay 4 were confirmed in the current source files.
-- Essay 5 was checked and required no change.
-- The remaining punctuation patterns identified by the search were reviewed in context and retained where the quotation was only a phrase or list item, or where the punctuation belonged to the surrounding sentence.
+- All three source files were fetched again after the corrections.
+- Essay 6 was checked and required no change.
+- The eight corrections in Essay 7 and four corrections in Essay 8 were confirmed in the current source files.
+- Remaining quotation marks followed by punctuation were reviewed in context and retained where the quotation was a phrase within the author's sentence, or where the punctuation belonged to the surrounding sentence.
 - No wording was changed.
-- **Status:** Quotation and sentence-ending punctuation audit completed for Essays 1-5. Essays 6-9 remain to be checked.
+- **Status:** Quotation and sentence-ending punctuation audit completed for Essays 1-8. Essay 9 remains to be checked.
 
 
 ### 1. Collection-wide H2-H4 italicisation check
