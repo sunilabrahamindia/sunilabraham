@@ -70,7 +70,7 @@ BACK_COVER = OUT / "edrl-ii-back-cover.png"
 FULL_WRAP_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-cover-full-03.png"
 FULL_WRAP_COVER = OUT / "edrl-ii-full-wrap-cover.png"
 
-BODY_PAR = "#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, spacing: 16pt)"
+BODY_PAR = "#set par(justify: true, leading: 1.2em, first-line-indent: 1.1em, hanging-indent: 0pt, spacing: 16pt)"
 
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
@@ -191,7 +191,7 @@ def note_list(listing, indent=0):
             continue
         lines = body.splitlines()
         prefix = " " * indent
-        continuation = " " * (indent + len(marker) + 1)
+        continuation = prefix
         entry = prefix + marker + " " + lines[0]
         if len(lines) > 1:
             entry += "\n" + "\n".join(
@@ -670,7 +670,7 @@ common = r"""
 )
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
 """ + BODY_PAR + r"""
-#set heading(numbering: none)
+#set heading(numbering: none, hanging-indent: 0pt)
 #show footnote: it => super(text(size: 14pt)[#it])
 #set footnote.entry(
   separator: line(length: 30%, stroke: 0.5pt + luma(90)),
@@ -753,20 +753,20 @@ common = r"""
 )
 #show heading.where(level: 1): it => block(above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 19pt, weight: "bold", hyphenate: false)
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.8em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 0.8em, spacing: 0pt)
   #align(left)[#it]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
 #show heading.where(level: 2): it => block(above: 16pt, below: 12pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.7em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 0.7em, spacing: 0pt)
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 3): it => block(above: 13pt, below: 10pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.5em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 0.5em, spacing: 0pt)
   #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 4): it => block(above: 10pt, below: 8pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 0.6em, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 0.6em, spacing: 0pt)
   #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 """
@@ -989,7 +989,7 @@ parts.append(r"""
   }
 )
 #counter(page).update(1)
-""" + '#set par(justify: true, leading: 1.15em, first-line-indent: 1.1em, spacing: 16pt)' + r"""
+""" + '#set par(justify: true, leading: 1.15em, first-line-indent: 1.1em, hanging-indent: 0pt, spacing: 16pt)' + r"""
 #set heading(outlined: true)
 #align(center)[= Foreword]
 #v(5pt)
