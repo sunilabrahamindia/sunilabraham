@@ -691,7 +691,7 @@ common = r"""
         justify: false,
         first-line-indent: 0pt,
         hanging-indent: 0pt,
-        leading: 1em,
+        leading: 0.9em,
         spacing: 0pt,
       )
       #it.note.body
