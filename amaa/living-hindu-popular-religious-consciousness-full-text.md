@@ -20,17 +20,17 @@ This paper is divided into two parts. The first part is a description of some of
 The Hindus in Chirakkal who have a religious view of life almost invariably use the word *sakti* to express their belief. The affirmation of their religious faith is somewhat in the following style.
 
 > I believe (*visvas*) that in the universe (*lokam/prapancham*) there is some kind of a *sakti*. This *sakti* is present in nature (*prakriti*) in many forms and modes (*palarupam-bhavam*). It is the mother (*matavu*) of manifest universe (*sristi*). According to the Bhagavad Gita, the universe (*prapancham*) came into existence from this
-one Brahman. All modes of being (*avasta-bhedangal*) are emanations (*avantaravi-bhagangal*) of this one sakti (*eka-sakti*). It is this life-giving force (*chitanya sakti*) that pervades (*nirannu-nilkkunnu*) in me, in you and in all beings (*sakala jiva-jalangal*). This is a power that transcends nature (*para sakti/prakritiyatita sakti*). It controls (*niyantrikkuka*) the universe (*prapancham*) and all the beings (*jivajalang al*) in it. We do not experience (*anubhav*) it as we are thinking of our own individual happiness. But if we conceive (*samkalpikkuka*) this sakti as the mother of the universe and worship (*upasikkuka*) it, it is beneficial (*gunam*) to us.
+one Brahman. All modes of being (*avasta-bhedangal*) are emanations (*avantaravi-bhagangal*) of this one *sakti* (*eka-sakti*). It is this life-giving force (*chitanya sakti*) that pervades (*nirannu-nilkkunnu*) in me, in you and in all beings (*sakala jiva-jalangal*). This is a power that transcends nature (*para *sakti*/prakritiyatita sakti*). It controls (*niyantrikkuka*) the universe (*prapancham*) and all the beings (*jivajalang al*) in it. We do not experience (*anubhav*) it as we are thinking of our own individual happiness. But if we conceive (*samkalpikkuka*) this *sakti* as the mother of the universe and worship (*upasikkuka*) it, it is beneficial (*gunam*) to us.
 
 ### B. The Reasons of their religious outlook in life
 
-In the context of the above affirmation of faith in a power that transcends nature (*para sakti/prakritiyatita sakti*), if we ask them what are the reasons for holding on to a belief like this, the following are the kind of answers we get from a number of people. I have grouped them under eleven headings, with one or two examples for each type of reason. In the answers of people one or more of these reasons appear in different combinations.
+In the context of the above affirmation of faith in a power that transcends nature (*para *sakti*/prakritiyatita sakti*), if we ask them what are the reasons for holding on to a belief like this, the following are the kind of answers we get from a number of people. I have grouped them under eleven headings, with one or two examples for each type of reason. In the answers of people one or more of these reasons appear in different combinations.
 
 **(1) A sense of wonder about the Universe and its rhythm leads many people to affirm faith in a Universal power.**
 
-> When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great sakti is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) sakti. They will not happen (*nadakukayilla*) without a sakti . . .
+> When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great *sakti* is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) *sakti*. They will not happen (*nadakukayilla*) without a *sakti* . . .
 
-> The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of Daivam. If man thinks that there is no sakti above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
+> The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of Daivam. If man thinks that there is no *sakti* above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
 
 **(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.** From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
 
@@ -40,7 +40,7 @@ In the context of the above affirmation of faith in a power that transcends natu
 
 It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *sakti* helps man to live.
 
-**(3) A third factor that leads people to affirm belief in a sakti is the experience of the fact that prayers are answered.** This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
+**(3) A third factor that leads people to affirm belief in a *sakti* is the experience of the fact that prayers are answered.** This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
 
 > According to my mother, I was born because of an offering (*nercha*) to Subramanyam. This makes me believe in the miracles of *Daivam* . . .
 
@@ -50,7 +50,7 @@ It is at such a time as this that we, almost without our knowledge, think of the
 
 Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* which are answered. It makes them believe in the validity of those forms of prayer as well as the gods who answer those prayers. (cf. any book on the Mahatmyam of a particular God. It will narrate stories of favour as evidence of the power and the reality of that god).
 
-**(4) The moral feeling that there is a sakti that rewards the righteous and punishes the wicked is another factor that leads to religious faith.** People also say that such a moral fear is necessary for man to walk the right path.
+**(4) The moral feeling that there is a *sakti* that rewards the righteous and punishes the wicked is another factor that leads to religious faith.** People also say that such a moral fear is necessary for man to walk the right path.
 
 > Those who walk in truth and in humility, *Daivam* prospers,  
 > Those who forget *Daivam* He punishes,
@@ -61,13 +61,13 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 > It is *Daivam* who rewards everyone according to His *karmam*.
 
-**(5) Many people are inspired to affirm faith in a sakti on seeing the great changes that take place in the lives of some people when they begin to believe in God.** They also say a belief in God is necessary for a virtuous life.
+**(5) Many people are inspired to affirm faith in a *sakti* on seeing the great changes that take place in the lives of some people when they begin to believe in God.** They also say a belief in God is necessary for a virtuous life.
 
 > When we see the sudden change in some people's lives, we believe. Belief in a *sakti* had changed their life. It gave them the ability to walk in the right path (*nervazhi*).
 
 > We can control ourselves if we believe and worship a *sakti*. We need a Power to guide and lead us in the right path. We need a *sakti* to lead us to good life.
 
-**(6) Experience of the presence and guidance of a sakti in their lives makes people believe in it.** Individuals claim the guidance and protection of a Power which, they say, confirmed them in their belief.
+**(6) Experience of the presence and guidance of a *sakti* in their lives makes people believe in it.** Individuals claim the guidance and protection of a Power which, they say, confirmed them in their belief.
 
 > I believe that every action in my life is done under *Daivam*'s guidance. I feel that *Daivam* is watching me all the time.
 
@@ -152,7 +152,7 @@ Again, if we want our wishes to be fulfilled *pujas* to particular gods or godde
 
 **(d)** Gods show sometimes certain signs asking for *nerccha, utsavam*, etc. "I understood," said a Pulaya, "through my child's peculiar gesture (*chesta*) that I was to celebrate *tira* (festival) to Potten *teyyam*. I felt so since I was a believer".
 
-People who talk like this believe that *saktis* are pleased by the rituals. They use phrases like "*puja vidhikal kondu sakti priti undakum*"; "*Homam/namajapam tapas adiyaya anusthanangal kondu daivangale santoshipikkam*"; "*vrata tantra vidhikal kondu sakti prasadam undakam*" i.e. *puja, Homam, namajapam tapas, vratam* and such other prescribed religious rituals cause the gods to give their favour. If the desired wish is fulfilled, they believe that the gods are made happy. "*Agrahicha karyam sadhichengil, santosichu ennatinnu adayalamanu*"; "*Daivangal santosichengil karyangalkku oru mudakavum undakuvella*." If the gods are pleased, there won't be any obstacle to our affairs. Stories of different favours received were related by people who had obtained the *saktiprasadam*. Failure to obtain the favour, however, would be interpreted differently. Either they would say that the "Bhagavati"<sup id="ref-5"><a href="#note-5">5</a></sup> is not pleased, or one's time is not good, or one has no *vidhi* for it.
+People who talk like this believe that *saktis* are pleased by the rituals. They use phrases like "*puja vidhikal kondu *sakti* priti undakum*"; "*Homam/namajapam tapas adiyaya anusthanangal kondu daivangale santoshipikkam*"; "*vrata tantra vidhikal kondu *sakti* prasadam undakam*" i.e. *puja, Homam, namajapam tapas, vratam* and such other prescribed religious rituals cause the gods to give their favour. If the desired wish is fulfilled, they believe that the gods are made happy. "*Agrahicha karyam sadhichengil, santosichu ennatinnu adayalamanu*"; "*Daivangal santosichengil karyangalkku oru mudakavum undakuvella*." If the gods are pleased, there won't be any obstacle to our affairs. Stories of different favours received were related by people who had obtained the *saktiprasadam*. Failure to obtain the favour, however, would be interpreted differently. Either they would say that the "Bhagavati"<sup id="ref-5"><a href="#note-5">5</a></sup> is not pleased, or one's time is not good, or one has no *vidhi* for it.
 
 These two distinct styles of speech about rituals should not perhaps be attributed to two distinct groups. Perhaps the wise thing may be to say that these two strands are present in the consciousness of ordinary people in different degrees and that the same people may act differently in response to different rituals at different occasions. However, it looks as if there are some people who refuse to attribute to rituals meaning *ex opere operato* and interpret rituals solely in terms of personal experience of values and meanings.
 
