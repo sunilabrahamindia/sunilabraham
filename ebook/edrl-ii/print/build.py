@@ -22,19 +22,20 @@ ESSAY_DIVIDER = OUT / "essay-divider.svg"
 
 def write_heading_dividers():
     # Original, restrained engraved-style ornaments drawn as vector SVG.
-    FRONTMATTER_DIVIDER.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="420" height="34" viewBox="0 0 420 34">
-<g fill="none" stroke="#77736d" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M2 17 H112 M308 17 H418"/>
-  <path d="M112 17 C139 17 142 5 161 7 C176 9 178 25 194 27 C209 29 214 17 228 17 C242 17 247 5 262 7 C281 9 282 17 308 17"/>
-  <path d="M151 9 C143 2 133 2 128 5 C136 6 142 10 151 9 Z"/>
-  <path d="M171 23 C163 31 151 31 146 27 C155 27 163 24 171 23 Z"/>
-  <path d="M260 9 C268 2 280 2 285 5 C276 6 269 10 260 9 Z"/>
-  <path d="M241 23 C249 31 261 31 266 27 C257 27 249 24 241 23 Z"/>
-  <path d="M194 27 C197 21 198 13 195 7 M228 17 C224 11 224 7 228 3 M228 17 C233 23 233 27 229 31"/>
-  <path d="M194 7 C188 2 181 3 178 7 C185 7 190 9 194 7 Z"/>
-  <path d="M229 31 C235 34 242 31 244 27 C237 28 233 28 229 31 Z"/>
+    FRONTMATTER_DIVIDER.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36">
+<g fill="none" stroke="#77736d" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2 18 H472 M728 18 H1198"/>
+  <path d="M472 18 C492 18 498 8 516 8 C534 8 540 28 558 28 C576 28 584 18 600 18 C616 18 624 28 642 28 C660 28 666 8 684 8 C702 8 708 18 728 18"/>
+  <path d="M520 9 C508 2 494 3 486 9 C499 8 510 12 520 9 Z"/>
+  <path d="M548 27 C535 35 520 33 512 27 C526 29 538 28 548 27 Z"/>
+  <path d="M680 9 C692 2 706 3 714 9 C701 8 690 12 680 9 Z"/>
+  <path d="M652 27 C665 35 680 33 688 27 C674 29 662 28 652 27 Z"/>
+  <path d="M558 28 C565 21 568 13 564 6 M642 28 C635 21 632 13 636 6"/>
+  <path d="M564 6 C554 1 544 3 540 9 C550 8 558 10 564 6 Z"/>
+  <path d="M636 6 C646 1 656 3 660 9 C650 8 642 10 636 6 Z"/>
+  <path d="M584 18 C590 12 594 12 600 18 C606 12 610 12 616 18 C610 24 606 24 600 18 C594 24 590 24 584 18 Z"/>
 </g>
-<circle cx="210" cy="17" r="2.1" fill="#77736d"/>
+<circle cx="600" cy="18" r="2.2" fill="#77736d"/>
 </svg>""", encoding="utf-8")
     ESSAY_DIVIDER.write_text("""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
 <g fill="none" stroke="#aaa69f" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
@@ -952,17 +953,17 @@ parts.append(r"""
 #counter(page).update(1)
 """ + '#set par(justify: true, leading: 1.15em, first-line-indent: 1.1em, spacing: 16pt)' + r"""
 #set heading(outlined: true)
-= Foreword
-#v(4pt)
-#image("frontmatter-divider.svg", width: 42mm)
-#v(7pt)
+#align(center)[= Foreword]
+#v(5pt)
+#image("frontmatter-divider.svg", width: 100%)
+#v(8pt)
 @@FOREWORD_BODY@@
 #pagebreak()
 #set heading(outlined: true)
-= Editor's Note
-#v(4pt)
-#image("frontmatter-divider.svg", width: 42mm)
-#v(7pt)
+#align(center)[= Editor's Note]
+#v(5pt)
+#image("frontmatter-divider.svg", width: 100%)
+#v(8pt)
 _Essays on Dalits, Religion and Liberation II_ by A. M. Abraham Ayrookuzhiel is being published on the occasion of the thirtieth death anniversary of the author. This volume continues the work begun with the publication of _Essays on Dalits, Religion and Liberation_ in 2006, marking the tenth anniversary of his death. The first volume was published by the Asian Trading Corporation, Bangalore, for the Christian Institute for the Study of Religion and Society (CISRS), with a foreword by Dr. Godwin Shiri and an introduction by Dr. K. C. Abraham.
 
 The present volume brings together nine essays that were not included in the earlier collected volume. These essays first appeared in different journals and publications over several decades, from the 1970s to the 1990s. Most were published in _Religion and Society_, the journal of the Christian Institute for the Study of Religion and Society. One appeared in the _Indian Journal of Theology_, while "Dalit Theology: A Movement of Counter-Culture" was published in _Towards a Dalit Theology_ in 1988. Their republication in one volume makes writings that were previously dispersed across publications and decades available together.
@@ -1002,10 +1003,10 @@ I personally take this opportunity to express my gratitude to the family of A. M
 ]
 #pagebreak()
 #set heading(outlined: true)
-= About the Author
-#v(3pt)
-#image("frontmatter-divider.svg", width: 42mm)
-#v(4pt)
+#align(center)[= About the Author]
+#v(5pt)
+#image("frontmatter-divider.svg", width: 100%)
+#v(6pt)
 A. M. Abraham Ayrookuzhiel (18 September 1933 – 29 November 1996) was an Indian theologian, scholar and researcher whose work brought questions of religion into close conversation with the social and cultural realities of marginalised communities. Born in Chengannur, Kerala, he grew up in a region with a deep Christian heritage. His early schooling was in the villages around Puthenkavu. He later entered seminary formation in Thiruvananthapuram and pursued higher studies in philosophy and theology in Pune. He continued his academic formation in Rome and the United Kingdom, and was ordained in 1963.
 
 A. M. Abraham Ayrookuzhiel's academic and professional journey took him across different church traditions and cultural settings. After his studies abroad, he joined the Anglican Church and served as a curate at St. Paul High Anglican Church in Wokingham, Berkshire, from 1970 to 1973. His time in the United Kingdom brought him into contact with wider ecumenical conversations and debates about the place of religion and the church in a changing society. He married Ponnamma Thekedath during this period. They returned to India in 1973.
