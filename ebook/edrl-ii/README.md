@@ -41,19 +41,7 @@ Requires Python 3, Pandoc and (for PDF) a working LaTeX engine such as XeLaTeX.
 
 ## Automated build
 
-The GitHub Actions workflow at `.github/workflows/build-edrl-ii.yml` runs on relevant pushes to `main` and can also be started manually from the Actions tab. It builds and validates the editorial EPUB preview, then uploads `edrl-ii-preview.epub` as the `edrl-ii-editorial-preview` artifact. The artifact expires after 30 days, so download and retain a reviewed copy.
-
-### Workflow trigger scope (15 November 2026)
-
-The push trigger is deliberately restricted to files that can affect this editorial preview:
-
-- All files under `ebook/edrl-ii/**`.
-- The nine essay Markdown source files listed in `manifest.yml`.
-- The workflow file itself, `.github/workflows/build-edrl-ii.yml`.
-
-The previous broad path rule, `amaa/**`, has been removed. It caused unrelated AMAA changes - including the commemoration invitation SVG and other pages - to launch a full EDRL II build, which installs Pandoc and a LaTeX PDF engine and takes around two minutes. Replacing that wildcard with the nine explicit essay paths prevents unrelated AMAA work from triggering the editorial preview.
-
-This change affects only the editorial-preview workflow. The separate `.github/workflows/build-edrl-ii-print.yml` print-preview workflow was not changed by this adjustment and retains its own, narrower path filters. Both workflows can still be started manually using `workflow_dispatch`.
+The GitHub Actions workflow at `.github/workflows/build-edrl-ii.yml` runs on relevant pushes and can also be started manually from the Actions tab. The downloadable artifact contains the manuscript and generated preview files. Artifacts expire after 30 days, so download and retain a reviewed copy.
 
 ## Quality assurance
 
