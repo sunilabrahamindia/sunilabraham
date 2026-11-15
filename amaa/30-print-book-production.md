@@ -2504,3 +2504,18 @@ The gap between separate footnotes was reduced from 0.9em to **0.65em**, followi
 
 - **Builder commit:** `e79f472d830f1e9d2ed200997490a41717f4d1e0` — Set EDRL II inter-footnote gap to 0.65em.
 - **Proof status:** Source committed. A fresh print build is required to assess the revised footnote spacing.
+
+
+## Footnote number alignment and baseline refinement — 15 November 2026
+
+Following the review of the footnotes on pages 112–113, the footnote number column has been refined:
+
+- Footnote numbers are now **right-aligned** within the fixed 1.4em number column. This makes the period after single-digit and double-digit numbers end at the same horizontal position, so the footnote text begins at a consistent point.
+- The number is now set at **8.5 pt**, matching the footnote text size. The previous 9.5 pt number was larger than the 8.5 pt text and contributed to the perceived baseline mismatch. Matching the sizes is the first baseline correction; the result must be visually checked in the fresh PDF.
+- The 0.3em number-to-text gutter is unchanged.
+- The gap between separate footnotes remains **0.65em**.
+- Line spacing within each footnote remains **0.35em**.
+- Hanging indentation and the existing text-column structure are unchanged.
+
+- **Builder commit:** `3d8bfec0edcfebbc8129864896a776ac86efc8db` — Right-align EDRL II footnote numbers and match text size.
+- **Proof status:** Source committed. Inspect pages with both single-digit and double-digit footnote numbers, including pages 112–113, to verify the common text start and baseline appearance. No fresh PDF has yet been generated.
