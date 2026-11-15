@@ -224,31 +224,63 @@ These decisions are specific to the contexts inspected in Essay 2 and remain sub
 
 ### 5. Religions and the Aspirations of the People
 
-**Capitalisation audit**
+**Full source inspected:** [Religions and the Aspirations of the People](/amaa/religions-and-the-aspirations-of-the-people/). The full essay is embedded in the article's "Full text" section.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation audit — findings and decisions**
 
-**Italicisation audit**
+- **Brahmin / Brahmins:** The caste name is consistently capitalised in the inspected essay and notes; no correction was required.
+- **Dalit / Dalits:** The terms are capitalised consistently in the author's usage; retained.
+- **Harijan:** Retained in the historical quotation and discussion. It has not been replaced.
+- **God / god:** Specific references to God and generic references to a god were retained according to context.
+- **Bhakti:** Retained in "Bhakti movement" as the name of a historical religious movement.
+- No source-level capitalisation correction was made. Capitalised words in quotations, titles and named institutions were retained.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Italicisation audit — changes made**
+
+- The generic Indic term *puja* was italicised in its previously unmarked occurrence(s).
+- Existing italicisation of *Nivedyam*, *Namaskara*, *Namaskara puja*, *mantra*, *mantras* and *pujas* was retained.
+- *Channer lahala* and the title *Social Justice and Ashrams* were already italicised and were retained.
+- Personal names, deity names, institutional names and English expressions were not italicised merely because they occur in an Indian context.
+
+**Verification**
+
+- The full embedded essay, publication details and notes were inspected.
+- The source update was checked against the previous version. After removing Markdown emphasis markers, the text matched exactly; no words, spelling, punctuation, paragraph structure, links, metadata or other content were changed.
+- The source has not been compared against the original printed article, and the rendered page has not yet been visually checked.
+
+**Status:** Both audits completed for Essay 5. The only source correction was the recorded italicisation of *puja*.
 
 ### 6. Religion: A Way of Salvation or an Ideology of Oppression?
 
-**Capitalisation audit**
+**Full source inspected:** [Religion: A Way of Salvation or an Ideology of Oppression?](/amaa/religion-way-salvation-ideology-oppression-full-text/).
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation audit — findings and decisions**
 
-**Italicisation audit**
+- **Brahmin / Brahmins:** Retained uppercase for the caste name throughout the prose and tables.
+- **Brahminical / brahminical:** Both forms occur. Lowercase is used in running prose, while uppercase appears in heading-style contexts. No blanket replacement was made; the distinction will be checked against the printed source before any standardisation.
+- **Autochthonous:** The term appears in heading-style and running-text contexts. Existing forms were retained pending comparison with the original print source.
+- **Devasthanam / Devasthanams:** Retained as used in the essay. Whether these are being treated as a generic institutional term or a named category requires confirmation from the printed source.
+- **God / god:** Specific and generic references were retained according to context.
+- **Names and named festivals:** Personal names, deity names, caste/community names and festival names were retained.
+- No capitalisation corrections were made in this pass. Ambiguous forms have been recorded rather than standardised by assumption.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Italicisation audit — changes made**
+
+The following Indic terms were italicised where they appeared in roman type:
+
+- *Devasthanam*, *Devasthanams*, *gudi*, *gudis*, *Purohit*, *Mudi*.
+- *puja*, *kumkum*, *udubathi*, *agarbathi*, *Jathra*, *prasadam*.
+
+Existing italicisation was retained for terms and expressions including *rache*, *Ur habba*, *utsava moorti*, *garbagudi*, *kumbalakayee*, *Anna Chatra*, *Panaka*, *mora*, *moras*, *Siddha* and *Dhare*. Proper names and named festivals were not italicised merely because they are Indian.
+
+**Verification**
+
+- The complete 371-line Markdown source, including tables, the full essay and notes, was inspected.
+- The source update was checked against the previous version. After removing Markdown emphasis markers, the text matched exactly; no words, spelling, punctuation, paragraph structure, links, metadata, tables or other content were changed.
+- The source has not been compared against the original printed article, and the rendered page has not yet been visually checked.
+- Capitalisation questions listed above remain deliberately unresolved; no spelling or transliteration corrections were made.
+
+**Status:** Both audits completed for Essay 6. Source changes are limited to the recorded Indic-term italicisation corrections.
 
 ### 7. Dalit Theology: A Movement of Counter-Culture
 
