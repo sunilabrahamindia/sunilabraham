@@ -103,17 +103,54 @@ This is a consistency pass within Essay 1. The treatment of these terms will be 
 **Status:** The capitalisation decisions and the Indic-term italicisation pass have both been applied to Essay 1. The source has not been checked against the original printed article as part of this pass.
 ### 2. Religion, Spirituality and Aspirations of the People
 
-**Capitalisation audit**
+**Full source inspected:** [Religion, Spirituality and Aspirations of the People](/amaa/religion-spirituality-and-aspirations-of-the-people-full-text/).
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation audit — changes made**
 
-**Italicisation audit**
+The following source-level capitalisation corrections have been applied:
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+- **Sakti / sakti:** Changed generic references to "a non-existent sakti" and "a sakti" to lowercase. This follows the Essay 1 distinction: lowercase *sakti* for the general concept; uppercase only when used as a proper divine name.
+- **Brahmin:** Changed "brahmin-high caste dominance" to "Brahmin-high caste dominance", consistent with the treatment of the caste name in Essay 1.
+- **Humanism:** Changed "Humanism" to "humanism" where it is used as a generic concept in the phrase "scientific truths, humanism, Marxism".
+- **Faiths:** Changed "religious Faiths" to "religious faiths"; the word is a common noun in this context.
+- **Struggle:** Changed "our Struggle" to "our struggle"; it is a common noun in the sentence.
+
+No other capitalisation variants were changed. Names, titles, institutional references and contextually distinct forms were retained.
+
+**Italicisation audit — changes made**
+
+The following Indic terms and expressions were italicised where they appeared in roman type:
+
+- *andhamaya visvasam*, *daivasankalpam*, *Suddhi Karmam*, *karma phalam*, *karmavidhi*.
+- *yajamananmar*, *vazhipad*, *kaphirangal*, *sandyavandana*.
+- *Iswar*, *Karma*, *Dharma*, *Bhutas*, *Samskaras*.
+- *matam*, *suddhi*, *pula*, *jati*, *vargiyata*, *Kartav*.
+- *bhakti*, *papi*, *samaram*, *vidhi*, *karmam*, *sakti*, *saktis*, *pujas*.
+
+Existing italicisation was retained. The English phrase "Spirituality of Combat" remains in roman type. Proper names, including personal names, were not italicised merely because they are Indian.
+
+**Capitalisation decisions retained without change**
+
+- **Harijan:** Retained the author's historical term and its existing capitalisation.
+- **Brahmin:** Existing correctly capitalised uses were retained; only the lowercase compound form noted above was corrected.
+- **God / god:** Existing forms were retained according to their specific or generic references.
+- **Communism / Marxism:** Retained as names of political ideologies.
+- **Church / church:** Retained according to whether the reference is to the specific institution or to churches generally.
+
+These decisions are specific to the contexts inspected in Essay 2 and remain subject to collection-wide comparison.
+
+**Other editorial observations**
+
+- Deferred. The present audit is limited to capitalisation and italicisation. Wording, spelling, transcription, punctuation, references and other source questions have not been edited.
+
+**Verification**
+
+- The source edit was checked by comparing the text before and after the changes. After disregarding Markdown emphasis markers and reversing the listed capitalisation substitutions, the text matched the original exactly.
+- This verifies that no wording, spelling, punctuation, paragraph structure, links or other non-formatting content was changed.
+- A follow-up correction kept the English phrase "Spirituality of Combat" in roman type.
+- The source has not been compared against the original printed article, and the rendered page has not yet been visually checked.
+
+**Status:** Capitalisation and italicisation audits completed for Essay 2. The Markdown source changes are limited to the recorded capitalisation and italicisation corrections.
 
 ### 3. The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue
 
