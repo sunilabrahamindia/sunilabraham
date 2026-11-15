@@ -216,11 +216,13 @@ def typst_escape(value):
     )
 
 def typst_heading_body(title):
-    """Keep numeric prefixes as inline text, not Typst ordered-list markers."""
-    match = re.match(r"^(\d+\.)\s+(.*)$", title, re.S)
+    """Prevent Arabic-number prefixes from being parsed as Typst list markers."""
+    match = re.match(r"^(\d+\.)(\s+)(.*)$", title, re.S)
     if match:
-        number, remainder = match.groups()
-        return f'[#text("{number}") + [#h(0.25em){remainder}]]'
+        number, spacing, remainder = match.groups()
+        # A zero-width space after the full stop breaks the list-marker
+        # pattern without changing the visible heading or its spacing.
+        return f"[{number}\u200b{spacing}{remainder}]"
     return f"[{title}]"
 
 def html_table_to_typst(table):
