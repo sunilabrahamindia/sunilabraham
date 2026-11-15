@@ -21,10 +21,10 @@ The audit initially covered the nine main essays. It has now been extended to th
 
 A separate heading rule applies to every H2, H3 and H4 section heading: the first word must begin with a capital letter, even when that word is normally lowercase in running text. This heading rule takes precedence over the lowercase treatment of generic Indic terms in body text. The rule applies only to the first word of the heading; it does not convert the rest of the heading to title case.
 
-**Nine-essay heading audit:** All H2-H4 headings in the nine essay source files were checked. Three headings required correction:
+**Nine-essay heading audit:** All H2-H4 headings in the nine essay source files were checked. One heading required correction:
 
 - Essay 3: `#### punyam` changed to `#### Punyam`.
-- Essay 9: The subsection labels `a.` and `b.` were retained exactly as authored. They are structural labels, not heading words, and are exempt from the first-word capitalisation rule.
+- Essay 9: The subsection labels `a.` and `b.` were inspected and retained exactly as authored. They are structural labels, not heading words, and are exempt from the first-word capitalisation rule.
 
 No other H2-H4 heading in the nine inspected essay files required correction. Essay 1's full-text source contains no Markdown H2-H4 headings. No body-text occurrences were changed as part of this heading pass.
 
@@ -478,6 +478,16 @@ The following source-level capitalisation corrections have been applied in the a
 - No source changes were made. Wording, spelling, punctuation, names, paragraph structure and signature content remain untouched.
 
 **Status:** Capitalisation and italicisation review completed for the Editor's Note. No source correction was required.
+
+## Change-volume overview
+
+Based on the recorded source corrections and the breadth of the capitalisation and italicisation passes, the three essays with the largest volume of changes are:
+
+1. **Essay 7 — Dalit Theology: A Movement of Counter-Culture**: extensive Dalit/Dalitism capitalisation standardisation, a generic Karma correction, and several Indic-term italicisation changes.
+2. **Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends**: capitalisation standardisation of Sakti, Harijan and Brahmin, alongside the broadest recorded Indic and regional-language italicisation pass.
+3. **Essay 9 — The Ideological Nature of the Emerging Dalit Consciousness**: numerous Dalit/Dalits, non-Dalit, Brahminical/Brahminic and Vedic/Puranic capitalisation corrections.
+
+This is a qualitative ranking of the documented change volume, not a verified count of individual character-level edits.
 
 ## Editorial decision record and style-sheet
 
