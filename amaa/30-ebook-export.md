@@ -457,6 +457,22 @@ After changing a file, rebuild the EPUB and inspect the actual file in a reading
 
 
 
+
+### Subject index for the e-book
+
+The e-book will have a subject index adapted from the approved subject index prepared for the paperback edition. The editorial work of identifying subjects, reviewing their context, selecting preferred headings and consolidating entries will therefore not need to be repeated from the beginning.
+
+The e-book is reflowable and does not have stable printed page numbers. Its subject index must not use the paperback's page references. Instead:
+
+- Reuse the approved subject headings, subentries and cross-references from the paperback index.
+- Locate the corresponding passages in the e-book manuscript.
+- Add internal hyperlinks from each index entry to the relevant passage or passages in the EPUB.
+- Use stable internal anchors or identifiers so that the links continue to work when the reader changes font size, text size, device or screen dimensions.
+- Where a subject occurs in several places, provide links to the relevant locations rather than attempting to represent them as page numbers.
+- Check every link in the generated EPUB and confirm that it opens the intended passage.
+
+The print and e-book indexes will therefore share the same editorial selection, but use format-specific references: printed folios in the paperback and clickable internal links in the EPUB. The e-book index will be prepared after the paperback entries have been reviewed and approved.
+
 ## See also
 
 - [Print Book Production: Essays on Dalits, Religion and Liberation II](/amaa/30-print-book-production/) - the separate documentation for the paperback's Typst layout, print-ready interior PDF, full-wrap cover and printer requirements.
