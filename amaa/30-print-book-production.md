@@ -2477,3 +2477,12 @@ The Santali illustration on the half-title page (interior page 5) has been enlar
 - **Builder commit:** `a6610b57b86f45904b40fe2b856a7b1d607e994e` — Enlarge EDRL II half-title illustration to 50 mm.
 - **Single-page review proof:** `edrl-ii-half-title-page-proof.pdf`, prepared from the previously supplied combined review PDF with only the illustration enlarged. This is a visual review proof, not a fresh full Typst build.
 - **Proof status:** Review the enlarged illustration on the single-page proof before treating the 50 mm size as approved.
+
+## Half-title vertical balance adjustment — 15 November 2026
+
+The half-title page's title-and-author composition has been moved slightly upwards by reducing the top offset from 42 mm to 35 mm. The illustration remains centred horizontally at the bottom of the page at its revised 50 mm width. Moving the title-and-author group upwards increases the open space between the author's name and the illustration by 7 mm.
+
+No title wording, type size, ornament size, illustration size or horizontal alignment has been changed in this adjustment.
+
+- **Builder commit:** `f3b2bb0cadbee60e409f8ef090d66f5faf762129` — Raise EDRL II half-title composition slightly.
+- **Proof status:** Source committed. Inspect the complete next combined-review PDF on both desktop and mobile to assess the vertical balance on page 5.
