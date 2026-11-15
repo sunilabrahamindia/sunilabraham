@@ -154,31 +154,72 @@ These decisions are specific to the contexts inspected in Essay 2 and remain sub
 
 ### 3. The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue
 
-**Capitalisation audit**
+**Full source inspected:** [The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue](/amaa/living-hindu-popular-religious-consciousness-full-text/).
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation audit — changes made**
 
-**Italicisation audit**
+- **Sakti / sakti; Saktis / saktis:** Generic references to the theological concept and its plural have been standardised to lowercase *sakti* and *saktis*. The term is used descriptively throughout the essay, including in the reported speech of interviewees.
+- **Parasakti / para sakti:** Lowercase forms have been applied to the generic concept, including the spaced form *para sakti*.
+- **Karma / karma; Dharma / dharma:** Generic philosophical and religious concepts have been lowercased.
+- **Punyam / punyam:** The generic term and its section heading have been lowercased.
+- **Suddhi / suddhi; Asuddhi / asuddhi:** The terms for purity and impurity have been lowercased in the section headings and text.
+- **Samkalpam / samkalpam:** The generic term has been lowercased.
+- **Jivatman, Paramatman, Prakriti, Purusha and Antaryamin:** These philosophical terms have been lowercased where listed as concepts.
+- **Avatars / avatars:** The generic plural has been lowercased.
+- **Faith / faith:** Generic uses in the introduction, section heading and phrase "faith categories" have been lowercased. The rhetorical heading "That faith is faith's own proof" is retained in its original wording apart from this capitalisation standardisation.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation decisions retained without change**
+
+- **Bhagavan, Iswar, Iswara, Iswaran and Daivam:** Retained as divine names or designations in the contexts in which they occur.
+- **Brahman:** Retained as the philosophical name in the quoted account.
+- **God:** Retained according to the essay's English theological usage.
+- **Harijans:** Retained with the capitalisation established in the earlier essay audit.
+- **Names and named traditions:** Personal names, place names, deity names and named philosophical systems were not lowercased.
+
+**Italicisation audit — changes made**
+
+- Added italics to *jivatman*, *paramatman*, *prakriti*, *purusha* and *antaryamin* in the paragraph listing philosophical terms (section II.1).
+- Existing italicisation of *sakti*, *saktis*, *parasakti*, *karma*, *dharma*, *punyam*, *suddhi* and other Indic expressions was retained while their capitalisation was standardised where required.
+- Existing italics in quoted and explanatory passages were retained. Proper names were not italicised merely because they are Indian.
+
+**Other editorial observations**
+
+- The present audit does not correct spelling, transliteration, grammar, punctuation or factual content. These remain outside scope.
+
+**Verification**
+
+- The source was updated in one commit after both audits.
+- The source retained the same 359-line structure.
+- A comparison after removing Markdown emphasis markers confirmed that the only textual differences were the explicitly listed capitalisation changes. The only added emphasis markers surround the five philosophical terms listed above.
+- No words were added or removed, and no spelling, punctuation, whitespace, paragraph structure, links or front matter were changed.
+
+**Status:** Capitalisation and italicisation audits completed for Essay 3. Source corrections are limited to the recorded case and italic-formatting changes.
 
 ### 4. The Church and the Study of Religion
 
-**Capitalisation audit**
+**Full source inspected:** [The Church and the Study of Religion](/amaa/the-church-and-the-study-of-religion/). The complete essay is embedded in the article's "Full text" section; no separate full-text page exists.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation audit — findings and decisions**
 
-**Italicisation audit**
+- **Indic terms:** The generic terms *avarna jati*, *dharma*, *karma*, *varnashrama*, *papam* and *punyam* are already lowercase.
+- **Teyyam / Teyyams:** Retained capitalisation as the name of the North Malabar religious tradition and its associated ritual figures in this article.
+- **Proper names and designations:** Personal names, caste/community names, place names and institutional names were retained.
+- No capitalisation correction was required in the inspected essay text.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Italicisation audit — findings and decisions**
+
+- The Indic expressions *avarna jati*, *homas*, *yagnas*, *mutts*, *ashrams*, *dharma*, *karma*, *varnashrama*, *papam* and *punyam* are already italicised in the article's full-text section.
+- Existing italicisation in the notes, including *Sthalamahatyama*, *namas*, *ex jure* and *op. cit.*, was retained.
+- **Teyyam / Teyyams:** Retained in roman type as the name of a named religious tradition and its ritual figures, rather than treated as ordinary untranslated vocabulary.
+- No italicisation correction was required in the inspected essay text.
+
+**Verification**
+
+- The complete article source, including the embedded full text and notes, was inspected.
+- No source changes were made: the existing capitalisation and italicisation were consistent with the decisions recorded above.
+- Front matter, article summary, contents, publication details, notes, links, styling and all other content remain untouched.
+
+**Status:** Both audits completed for Essay 4. No source correction was necessary.
 
 ### 5. Religions and the Aspirations of the People
 
