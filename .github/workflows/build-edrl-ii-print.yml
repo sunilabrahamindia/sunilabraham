@@ -72,13 +72,6 @@ jobs:
             echo "Pandoc, Poppler and Linux Libertine are already available."
           fi
 
-      - name: Install Bodoni Moda for H1 chapter titles
-        run: |
-          sudo mkdir -p /usr/share/fonts/truetype/bodoni-moda
-          sudo curl -fsSL "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/BodoniModa%5Bopsz%2Cwght%5D.ttf" -o "/usr/share/fonts/truetype/bodoni-moda/BodoniModa.ttf"
-          sudo fc-cache -f
-          fc-match "Bodoni Moda"
-
       - name: Install or reuse cached Typst
         run: |
           mkdir -p "$HOME/.cache/edrl-print/typst"
