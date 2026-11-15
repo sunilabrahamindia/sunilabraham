@@ -79,14 +79,14 @@ created: 2026-11-07
 
   <rect class="portrait-frame" x="52" y="250" width="245" height="286"/>
   <image x="63" y="261" width="223" height="264"
-         href="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png"
-         xlink:href="/amaa/images/A.%20M.%20A.%20Ayrookuzhiel%20photo%20low%20resolution.png"
-         preserveAspectRatio="xMidYMid slice"/>
+         href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
+         xlink:href="https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
+         preserveAspectRatio="xMidYMin slice"/>
   <text class="ink anniversary" x="342" y="330">30<tspan class="maroon" font-size="29" baseline-shift="super">th</tspan></text>
   <text class="ink anniversary-label" x="342" y="382">Death Anniversary</text>
   <text class="ink anniversary-label" x="342" y="420">Commemoration</text>
 
-  <rect class="panel" x="326" y="450" width="520" height="230" rx="12"/>
+  <rect class="panel" x="326" y="450" width="520" height="258" rx="12"/>
   <text class="maroon" font-size="18" font-weight="700" letter-spacing="2" x="352" y="485">DATE &amp; TIME</text>
   <text class="ink event-line" x="352" y="523">Sunday, 29 November 2026</text>
   <text class="ink event-line" x="352" y="560">6:00 pm – 7:30 pm IST</text>
@@ -164,9 +164,9 @@ created: 2026-11-07
   <text class="cream-text row-number" x="75" y="1608">5</text>
   <text class="ink segment" x="132" y="1570">Launch of Essays on Dalits,</text>
   <text class="ink segment" x="132" y="1597">Religion and Liberation II</text>
-  <text class="muted detail" x="132" y="1625">Following the publication of the first volume</text>
-  <text class="muted detail" x="132" y="1646">in 1996, this event marks the official</text>
-  <text class="muted detail" x="132" y="1667">publication of the second volume.</text>
+  <text class="muted detail" x="132" y="1625">Following publication of the first</text>
+  <text class="muted detail" x="132" y="1646">volume in 1996, this event marks</text>
+  <text class="muted detail" x="132" y="1667">the official launch of volume two.</text>
   <text class="ink speaker" x="500" y="1585">Ponnamma Abraham</text>
   <text class="ink speaker" x="500" y="1620">Sunil Abraham</text>
   <line class="rule" x1="42" y1="1680" x2="858" y2="1680"/>
