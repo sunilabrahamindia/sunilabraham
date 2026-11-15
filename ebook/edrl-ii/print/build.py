@@ -820,7 +820,7 @@ parts.append(r"""
 #pagebreak()
 #pagebreak()
 #align(center)[
-  #v(42mm)
+  #v(35mm)
   #text(size: 10pt, weight: "bold", tracking: 2pt)[ESSAYS ON]
   #v(2.5mm)
   #text(size: 25pt, weight: "regular")[Dalits, Religion]
