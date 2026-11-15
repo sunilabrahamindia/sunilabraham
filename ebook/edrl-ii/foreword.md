@@ -24,7 +24,7 @@ A particularly noteworthy aspect of Ayrookuzhiel’s writings is his vision of a
 
 When Ayrookuzhiel refers to God as *Potten Theyyam*, drawing on a Dalit counter-religious tradition in northern Kerala, he envisions the sacred as an embodiment of immanent *shakti*—energy—a reflection of the collective vulnerability that persists. He reminds us of the critical insights offered by contemporary radical materialist traditions in religion, particularly the thoughts of Giorgio Agamben, a contemporary Italian philosopher and theologian, who famously asserted that “profane is my God” (1993:90).[^1] Through this lens, Ayrookuzhiel encourages a re-evaluation of the relationship between the divine and the struggles of the marginalized, emphasizing the transformative potential of this connection.
 
-Ayrookuzhiel draws attention to the poignant song of Potten Theyyam, a revered symbol within the Dalit community. The term "*Potten*," which translates to "fool," when combined with "*Theyyam*," conveys the notion of the "divine fool." This intriguing concept embodies an apparent foolishness that hides profound theological insights. Theyyam itself represents a vibrant performance art that finds its roots in the term "Daivam," meaning *God*. This etymology highlights a significant theological perspective: the sacred is intricately linked to the inherent energy of resistance among the marginalized, rather than being seen as a transcendent reality who comes to the world to offer salvation.
+Ayrookuzhiel draws attention to the poignant song of *Potten Theyyam*, a revered symbol within the Dalit community. The term "*Potten*," which translates to "fool," when combined with "*Theyyam*," conveys the notion of the "divine fool." This intriguing concept embodies an apparent foolishness that hides profound theological insights. Theyyam itself represents a vibrant performance art that finds its roots in the term "*Daivam*," meaning God. This etymology highlights a significant theological perspective: the sacred is intricately linked to the inherent energy of resistance among the marginalized, rather than being seen as a transcendent reality who comes to the world to offer salvation.
 
 In a striking verse, the imagery comes alive:
 
@@ -33,7 +33,7 @@ In a striking verse, the imagery comes alive:
 *In a heap of refuse.*  
 *With the fruit thereof*  
 *You make offerings to God.*  
-*Yes, we planted a *Tulasi**  
+*Yes, we planted a Tulasi*  
 *In the heap of refuse.*  
 *With the leaves and flowers thereof*  
 *You make offerings to God.*  
