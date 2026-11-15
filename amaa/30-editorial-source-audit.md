@@ -314,31 +314,68 @@ Existing italicisation was retained for terms and expressions including *rache*,
 
 ### 8. Dalit Liberation — Some Reflections on Their Ideological Predicament
 
-**Capitalisation audit**
+**Full source inspected:** [Dalit Liberation — Some Reflections on Their Ideological Predicament](/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/). The complete essay is embedded in the article's "Full text" section.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation audit — findings and decisions**
 
-**Italicisation audit**
+- **Dalit / Dalits:** The terms are consistently capitalised in the author's narrative. No correction was required.
+- **Harijan / Harijans:** Retained with initial capitals in the historical discussion and in the cited account of the Kerala study. The author's historical terminology has not been replaced.
+- **Brahmin / Brahminical:** Retained with initial capitals for the caste name and the adjective describing its religious authority and value system.
+- **Aryas:** Retained as capitalised in the reported statement quoted in the opening section.
+- No source-level capitalisation correction was necessary. Capitalisation within direct quotations was retained.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Italicisation audit — findings and decisions**
+
+- The essay contains no unitalicised Indic expression for which a source correction was judged necessary in this pass.
+- *Religion and Society* and the other publication titles are already italicised where required.
+- Terms such as "Vedas", "Sastras" and "smritis" occur within a direct quotation attributed to Ambedkar. Their treatment within the quotation has been retained rather than editorially reformatted.
+- "Hartal" and "laddus" occur as words used in the English narrative and are retained in roman type.
+- No source-level italicisation correction was made.
+
+**Verification**
+
+- The complete 105-line article source, including the embedded full text and publication details, was inspected.
+- No source changes were necessary. The existing capitalisation and italicisation were retained.
+- The front matter, article summary, text, quotations, publication details, links, notes and styling remain untouched.
+
+**Status:** Both audits completed for Essay 8. No source correction was required.
 
 ### 9. The Ideological Nature of the Emerging Dalit Consciousness
 
-**Capitalisation audit**
+**Full source inspected:** [The Ideological Nature of the Emerging Dalit Consciousness](/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/). The complete essay is embedded in the article's "Full text" section.
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+**Capitalisation audit — changes made**
 
-**Italicisation audit**
+The following source-level capitalisation corrections have been applied in the author's narrative:
 
-- Findings: Pending.
-- Editorial decisions: Pending.
-- Source corrections and verification: Pending.
+- **Dalit / Dalits:** Lowercase generic occurrences of "dalit" were standardised to "Dalit" in "Dalit movement", "Dalit ideology", "Dalit identity", "Dalit nationality", "Dalit organisations", "Dalit politics", "Dalit religion", "Dalit demands", "Dalit party workers", "Dalit classes" and "Dalit liberation".
+- **Non-Dalit:** Changed "non-dalit castes" to "non-Dalit castes", retaining the original compound and its meaning.
+- **Brahminical / Brahminic:** Standardised lowercase "brahminical" and "brahminic" to "Brahminical" and "Brahminic" in the author's narrative. Existing "Brahminism" and other correctly capitalised forms were retained.
+- **Vedic / Puranic:** Changed generic adjectives "vedic" and "puranic" to "Vedic" and "Puranic" in references to Vedic and Puranic myths and civilisation.
+
+**Capitalisation decisions retained without change**
+
+- The lowercase "dalit" in the permalink slug remains unchanged.
+- The wording "the dalit Nationality" is retained inside the quoted passage. Capitalisation within quoted material has not been silently normalised.
+- Names, titles, institutional names, and the existing capitalisation of Dalit/Dalits in the rest of the article were retained.
+- No wording or spelling correction was made, including in passages whose grammar or phrasing may warrant separate editorial attention.
+
+**Italicisation audit — findings and decisions**
+
+- The Indic expression *Mardhita Desiyata* is already italicised and was retained.
+- The Kannada slogan *jati bidi, mota bidi, manavatage jiva kodi* is already italicised and was retained as one expression.
+- Existing italicisation of *Dalitaru Barvaru*, *Mahasammate the Great Elect*, *Homo hierarchicus* and *homo democraticus* was retained.
+- Titles of books, journals, poems and publications in the notes were already italicised where required.
+- Indic terms appearing in quoted poetry and other direct quotations were not reformatted. No additional italicisation correction was judged necessary.
+
+**Verification**
+
+- The source update was limited to the recorded capitalisation changes.
+- The source remains 334 lines. A case-insensitive comparison confirmed that the text is lexically identical before and after the update. The GitHub commit diff was inspected and showed only the recorded capitalisation changes.
+- No words were added or removed. Spelling, punctuation, paragraph structure, links, front matter, quotations, notes and styling were not otherwise changed.
+- The quoted phrase "the dalit Nationality" and the lowercase permalink slug were explicitly retained.
+
+**Status:** Capitalisation and italicisation audits completed for Essay 9. Only the recorded capitalisation changes were applied to the Markdown source.
 
 ## Editorial decision record and style-sheet
 
