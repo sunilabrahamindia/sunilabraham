@@ -8,6 +8,27 @@ date: 1985
 page_id: TSAP-1358
 created: 2026-10-27
 ---
+The **full text of [Religion: A Way of Salvation or an Ideology of Oppression?](/amaa/religion-way-salvation-ideology-oppression/)** is reproduced here verbatim from the original article by [A. M. Abraham Ayrookuzhiel](/amaa/). The essay, titled *Religion: A Way of Salvation or an Ideology of Oppression? The Power Dimensions of Hindu Village Religion - An Empirical Study*, appeared in *Religion and Society*, Vol. XXXII, No. 1 (March 1985).
+
+This version preserves the original wording, structure and formatting as presented in the source text.
+
+<h2>Contents</h2>
+
+1. [Introduction](#introduction)
+2. [Part I. The Economic Profile of Five Villages](#part-i-the-economic-profile-of-five-villages)
+3. [Part II. Religio-Cultural Profile of the Villages](#part-ii-religio-cultural-profile-of-the-villages)
+   1. [Physical Exclusion of the Holeyas and Madigas from the Village Community](#i-physical-exclusion-of-the-holeyas-and-madigas-from-the-village-community)
+   2. [*Devasthanams*—Symbols of Caste Power](#ii-devasthanams-symbols-of-caste-power)
+   3. [The Ambivalent Nature of Village Festivals](#iii-the-ambivalent-nature-of-village-festivals)
+   4. [Between the Brahminical and Autochthonous Systems of Rituals](#iv-between-the-brahminical-and-autochthonous-systems-of-rituals)
+      - [Birth and naming of the Child](#a-birth-and-naming-of-the-child)
+      - [Mudi (Hair-cutting)](#b-mudi-hair-cutting)
+      - [Marriage](#c-marriage)
+      - [Death](#d-death)
+   5. [Socio-Political Conflicts and the Changing Character of Festivals](#v-socio-political-conflicts-and-the-changing-character-of-festivals)
+4. [Conclusion](#conclusion)
+5. [Notes](#notes)
+
 ## Introduction
 
 Religions, as we experience them, play a twofold role in society. Primarily they are symbol-systems of meaning. Religious concepts, myths, beliefs and practices supply us with 'conceptions of a general order of existence' with regard to self, society and the universe. The values and meanings provided by religion enable people to celebrate the joys of their lives, to interpret and shape the events of their time and space, and to cope with the problems of life's sufferings and of death.
