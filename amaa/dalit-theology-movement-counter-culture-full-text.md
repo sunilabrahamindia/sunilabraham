@@ -275,7 +275,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-18">
-<em>Building up the Church in Andhra Pradesh, An Interdisciplinary Study</em>, report submitted to the general body of Andhra Pradesh Jyotirmai Society, Secunderabad, 1983.
+    <em>Building up the Church in Andhra Pradesh, An Interdisciplinary Study</em> by Jyotirmai, Hyderabad, p. 66.
     <a href="#ref-18">↩</a>
   </li>
 
