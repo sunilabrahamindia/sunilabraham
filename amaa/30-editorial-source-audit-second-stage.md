@@ -172,6 +172,23 @@ This section will be updated as individual source checks are undertaken. Each en
 
 **Status:** Pages 102–108 reviewed. One approved italicisation correction applied on page 105. No other edits made to Essay 5.
 
+
+### Essay 6 — Religion: A Way of Salvation or an Ideology of Oppression? (interim update)
+
+**Source compared so far:** The original *Religion and Society*, Vol. XXXII, No. 1 (March 1985), against `amaa/religion-way-salvation-ideology-oppression-full-text.md`. The supplied pages reviewed so far are printed pages 1 and 4–10. Pages 2–3 have not yet been supplied in this review sequence; the comparison is therefore still in progress.
+
+**Source corrections made so far**
+
+- **Page 9:** Corrected the caste name in the essay from `Kuruba` to `Kumbara` in the passage listing the professional castes from which priests of the caste-Hindu `gudis` are drawn. The user had independently checked the other occurrence in the essay.
+- **Page 10, footnote 1, item (h):** Corrected “To do any announcing or auctioning of any property by the Government” to “To do any announcing of auctioning of any property by the Government”, following the printed source.
+
+**Footnote check so far**
+
+- **Page 10, footnote 1:** The complete note, including its lettered duties (a)–(j), was compared with the supplied image. Item (h) was the one wording correction recorded above. The note remains in the Notes section and has not been converted into body text.
+- This is an interim check only. Footnotes on the remaining pages must still be compared against their source images, including their markers, wording, numbering and placement.
+
+**Status:** Two source corrections have been made so far in Essay 6. The page-by-page audit remains open and will be extended as further pages are supplied.
+
 ### Current status — 16 November 2026
 
 - The second-stage audit page has been created as a separate record linked to the first-stage audit.
