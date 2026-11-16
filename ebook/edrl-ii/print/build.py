@@ -688,10 +688,28 @@ def md_to_typst(markdown, stem):
         md.write_text(segment, encoding="utf-8")
         run(["pandoc", str(md), "--from=markdown+smart+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
-        # Pandoc can occasionally emit an opening single quotation mark where
-        # a closing mark follows sentence punctuation. Correct that direction
-        # in the generated Typst text; word-internal apostrophes are unaffected.
-        content = re.sub(r"([.,;:!?])‘(?=\s|$)", r"\1’", content)
+        # Pandoc's Typst writer serialises both single-quote delimiters as
+        # ASCII apostrophes. Typst then renders both as opening-style marks.
+        # Convert those delimiters to explicit Unicode opening/closing quotes.
+        # Word-internal apostrophes are already Unicode and are left untouched.
+        def typst_single_quotes(paragraph):
+            positions = [i for i, char in enumerate(paragraph) if char == "'"]
+            if not positions:
+                return paragraph
+            pieces = []
+            last = 0
+            for index, position in enumerate(positions):
+                pieces.append(paragraph[last:position])
+                unpaired_final = len(positions) % 2 == 1 and index == len(positions) - 1
+                pieces.append("’" if unpaired_final or index % 2 else "‘")
+                last = position + 1
+            pieces.append(paragraph[last:])
+            return "".join(pieces)
+
+        content = "".join(
+            part if part.startswith("\n") else typst_single_quotes(part)
+            for part in re.split(r"(\n[ \t]*\n)", content)
+        )
         # Paragraph separation is controlled only by the Typst par rules in
         # the template. Never inject spacing into the converted content.
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
