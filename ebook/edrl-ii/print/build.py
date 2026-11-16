@@ -730,12 +730,12 @@ def md_to_typst(markdown, stem):
             stanza_typst = convert(stanza.strip(), f"poem-{index}-stanza-{stanza_index}")
             stanza_blocks.append(
                 "#block(width: 100%)[\n"
-                "  #set par(justify: false, first-line-indent: 0pt, leading: 12pt, spacing: 0pt)\n"
+                "  #set par(justify: false, first-line-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
                 "  #align(center)[\n" + stanza_typst + "\n  ]\n]"
             )
         poem = ("\n#v(8pt)\n").join(stanza_blocks)
         parts.append(
-            "#block(width: 100%, above: 11pt, below: 8.25pt)[\n"
+            "#block(width: 100%, above: 16pt, below: 16pt)[\n"
             + poem + "\n]"
         )
         cursor = match.end()
@@ -1099,7 +1099,7 @@ parts.append(r"""
 #align(center)[
   #block(width: 82%)[
     #set text(size: 11.5pt)
-    #set par(justify: false, first-line-indent: 0pt, leading: 9.35pt, spacing: 0pt)
+    #set par(justify: false, first-line-indent: 0pt, leading: 12.65pt, spacing: 0pt)
     #align(center)[
       So dance snake, dance!
       #linebreak()
@@ -1111,9 +1111,9 @@ parts.append(r"""
       #linebreak()
       We'll go around in different paths.
     ]
-    #v(6pt)
+    #v(16pt)
     #align(right)[
-      #set par(justify: false, first-line-indent: 0pt, leading: 9.9pt, spacing: 0pt)
+      #set par(justify: false, first-line-indent: 0pt, leading: 12.65pt, spacing: 0pt)
       #text(size: 9.5pt)[— #emph[Cittar Gnanakkovai]]
       #linebreak()
       #text(size: 9.5pt)[Pambatti Cittar, verse 123.]
