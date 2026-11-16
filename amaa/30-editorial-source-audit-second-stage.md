@@ -244,7 +244,8 @@ Pages 2–3 of the printed essay were not supplied during this review sequence. 
 - **Page 23:** The continuation from page 22, the paragraphs on differing Hindu moral and social values, Christian social discrimination, and the socially conditioned experience of religious concepts, and the beginning of the paragraph on dialogue all correspond to the digital text.
 - **Page 24:** The continuation of the dialogue paragraph and the discussion of *anubhava*, *pramana*, the point of growth in the living present, and the sacred-profane division correspond to the digital text. The Indic and Latin terms checked for italics, including *anubhava*, *pramana*, *garbha grha* and *versus*, are represented in italics in the digital text.
 - **Page 25:** The paragraphs on the Catholic and Protestant traditions, their different treatment of sacred and profane divisions, and the concluding comparison correspond to the digital text.
-- The supplied page sequence is continuous: 23, 24 and 25. No footnote marker or footnote text appears on these three pages requiring a separate note check.
+- Pages 18 and 19 were not verified against the printed source during this second-stage audit.
+- The page numbering runs continuously from 23 to 25. No footnote marker or footnote text appears on these three pages requiring a separate note check.
 
 **Corrections and status**
 
