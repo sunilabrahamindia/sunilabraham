@@ -183,7 +183,7 @@ The religious exclusion of the Holeyas and Madigas from the routine religious li
 
 #### A. Prostitution of Autochthonous Festivals by the Caste Society
 
-##### (a) Makara Sankranti
+##### *(a) Makara Sankranti*
 
 This festival occurs on 14th January every year. The Thoti, the representative head of the Holeyas,<sup id="ref-1"><a href="#note-1">1</a></sup> decorates the entrance of the village with a festoon of mango and neem tree leaves. It is also his duty to get ready a temporary place of worship a quarter of a kilometre away from the village under a mango or banyan tree. The place is cleaned with cowdung water.
 
