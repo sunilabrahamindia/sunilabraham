@@ -268,6 +268,19 @@ The printed source uses lowercase *vedic* and *puranic* in the phrase "vedic and
 
 **Status:** Open — retain the current capitalisation pending a manual decision.
 
+### Essay 3 — pages 13–14: capitalisation variations for review
+
+The comparison of printed pages 13–14 of *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue* identified the following capitalisation differences between the printed source and the current digital text:
+
+- **Page 13:** The printed source uses *Potten teyyam*; the digital text uses *Potten Teyyam*.
+- **Page 14:** The printed section heading uses *Suddhi* and *Assuddhi*; the digital heading uses lowercase *suddhi* and *assuddhi*.
+- **Page 14:** The printed source uses *Avatars* in item (i); the digital text uses *avatars*.
+- **Page 14:** The printed source uses *Sakti* in the phrase "the Sakti of Bhagavan"; the digital text uses *sakti*.
+
+These are recorded as capitalisation variations for later editorial review only. The user has confirmed that none of these forms should be changed at this stage. No changes to the Essay 3 source were made for these points.
+
+**Status:** Recorded for manual capitalisation review. No source changes authorised or applied.
+
 ## See also
 
 - [Editorial Source Audit — First Stage](/amaa/30-editorial-source-audit/)
