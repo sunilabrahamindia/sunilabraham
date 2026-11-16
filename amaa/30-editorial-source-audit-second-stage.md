@@ -173,22 +173,42 @@ This section will be updated as individual source checks are undertaken. Each en
 **Status:** Pages 102–108 reviewed. One approved italicisation correction applied on page 105. No other edits made to Essay 5.
 
 
-### Essay 6 — Religion: A Way of Salvation or an Ideology of Oppression? (interim update)
+### Essay 6 — Religion: A Way of Salvation or an Ideology of Oppression?
 
-**Source compared so far:** The original *Religion and Society*, Vol. XXXII, No. 1 (March 1985), against `amaa/religion-way-salvation-ideology-oppression-full-text.md`. The supplied pages reviewed so far are printed pages 1 and 4–10. Pages 2–3 have not yet been supplied in this review sequence; the comparison is therefore still in progress.
+**Source compared:** The original *Religion and Society*, Vol. XXXII, No. 1 (March 1985), against `amaa/religion-way-salvation-ideology-oppression-full-text.md`. The supplied source pages reviewed in this sequence were printed pages 1 and 4–23. Pages 2–3 were not supplied in this review sequence and remain unchecked. Page 23, the final page, was checked against the closing paragraphs in the essay file.
 
-**Source corrections made so far**
+**Source corrections and editorial changes made**
 
-- **Page 9:** Corrected the caste name in the essay from `Kuruba` to `Kumbara` in the passage listing the professional castes from which priests of the caste-Hindu `gudis` are drawn. The user had independently checked the other occurrence in the essay.
+- **Page 9:** Corrected `Kumbara` to `Kuruba` in the passage identifying the priests of certain *Devasthanams*, following the printed source.
 - **Page 10, footnote 1, item (h):** Corrected “To do any announcing or auctioning of any property by the Government” to “To do any announcing of auctioning of any property by the Government”, following the printed source.
+- **Pages 11–12:** Italicised the Kannada festival names *Agate Male Ungalu*, *Hasta Malai* and *Pongalu*, and the term *tappa*. The relevant festival subsection heading was also italicised.
+- **Pages 13–14:** Italicised the non-English terms identified during the page comparison, including *Ur habba*, *utsava moorti* and *garbagudi*. The relevant festival and subsection headings were brought into line with the essay's heading-italics treatment.
+- **Pages 15–16:** Italicised *Makara Sankranti* in its subsection heading and regularised italics across the festival headings, including the headings for Sri Ramanavami, Naga Panchami, Dasara, Deepavali and Basava Jayanti. The spelling and wording of the body text were otherwise retained except for the specific correction recorded below.
+- **Page 15:** Corrected the description of *Panaka* from “jaggery and pepper” to “jaggery and green gram”, matching the printed source.
+- **Page 17:** Italicised the subsection heading “Birth and naming of the Child” and regularised the italics in the headings for *Mudi* and Marriage. Corrected the transcription of the Lingayat religious consultant from `Siddha` to `Sastri`.
+- **Page 19:** Italicised the subsection heading “Death”. Corrected `Kumbara` to `Kurubas` in the list of communities from which the Dasaiahs come, matching the printed source.
+- **Page 21, conclusion:** Corrected the opening sentence to read that the Reddy-Vokkaliga-Shetty landlord communities “are the real power in the villages”, matching the printed source. Restored the omitted clause: “nor their power any threat to the status of Brahmins.”
+- **Pages 21–22, conclusion references:** Added the missing superscript markers 5, 6 and 7 at the corresponding quotations and passages, and added the matching notes: K. Damodaran, *Indian Thought* (notes 5 and 6), and Gail Omvedt's article in *Economic and Political Weekly* (note 7). Return links were added for all three notes.
 
-**Footnote check so far**
+**Footnote check**
 
-- **Page 10, footnote 1:** The complete note, including its lettered duties (a)–(j), was compared with the supplied image. Item (h) was the one wording correction recorded above. The note remains in the Notes section and has not been converted into body text.
-- This is an interim check only. Footnotes on the remaining pages must still be compared against their source images, including their markers, wording, numbering and placement.
+- **Page 10:** Footnote 1, including its lettered duties (a)–(j), was compared with the source. Item (h) was corrected as recorded above.
+- **Page 11:** Footnote 2 was checked against the source.
+- **Page 12:** Footnote 3 was checked against the source.
+- **Page 13:** Footnote 4 was checked against the source.
+- **Page 21:** The two printed references to K. Damodaran were restored as notes 5 and 6, including the *Ibid.* reference.
+- **Page 22:** The printed Gail Omvedt reference was restored as note 7.
+- The note markers, sequence and corresponding Notes entries for notes 1–7 were checked. The added references have working return links.
 
-**Status:** Two source corrections have been made so far in Essay 6. The page-by-page audit remains open and will be extended as further pages are supplied.
+**Final page check — page 23**
 
+The final page's two closing paragraphs were compared with the essay file. The continuation of the paragraph beginning on page 22 and the final paragraph beginning “We have come across some empirical evidence...” are present in the correct order. No text correction was required on page 23.
+
+**Pages not yet checked**
+
+Pages 2–3 of the printed essay were not supplied during this review sequence. They must be checked before the page-by-page source comparison can be described as complete.
+
+**Status:** Supplied pages 1 and 4–23 reviewed; approved corrections and formatting changes applied; footnotes 1–7 checked and the missing conclusion references restored. Pages 2–3 remain outstanding.
 ### Current status — 16 November 2026
 
 - The second-stage audit page has been created as a separate record linked to the first-stage audit.
