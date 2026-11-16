@@ -217,6 +217,24 @@ Pages 2–3 of the printed essay were not supplied during this review sequence. 
 - Manual print builds and the other specified production-file triggers remain available.
 - The suspension is temporary and must be reviewed and reversed when the source-checking period is complete.
 
+### Essay 9 — pages 22–23
+
+**Source compared:** Printed pages 22 and 23 of *The Ideological Nature of the Emerging Dalit Consciousness* against the current essay source, `amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md`.
+
+**Capitalisation differences examined on page 22**
+
+- The printed source uses lowercase *vedic*; the digital text uses *Vedic*. The digital form is retained in accordance with the established capitalisation convention.
+- The printed source uses lowercase *brahminic*; the digital text uses *Brahminic*. The digital form is retained in accordance with the established convention recorded in the first-stage audit.
+- The printed source uses lowercase *anti-brahminical*; the digital text uses *anti-Brahminical*. The digital form remains unchanged for now. The capitalisation of *Brahminical* is still an open question recorded under "Manual check / future consideration"; this comparison does not close that question or authorise a change.
+
+**Other findings**
+
+- Pages 22 and 23 follow pages 20 and 21 in the supplied sequence; no page number is missing.
+- No further wording, omission, or footnote discrepancy requiring correction was identified in this comparison.
+- No changes were made to the Essay 9 source for pages 22–23. The existing digital capitalisation was retained; the *Brahminical* decision remains open.
+
+**Status:** Pages 22–23 compared. Audit recorded; no source correction required or applied.
+
 ## Footnote verification alert — pending collection-wide check
 
 **Important: this is a temporary working alert, not a confirmed finding.**
