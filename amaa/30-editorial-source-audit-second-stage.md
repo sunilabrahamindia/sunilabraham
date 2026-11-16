@@ -235,6 +235,23 @@ Pages 2–3 of the printed essay were not supplied during this review sequence. 
 
 **Status:** Pages 22–23 compared. Audit recorded; no source correction required or applied.
 
+### Essay 3 — pages 23–25
+
+**Source compared:** Printed pages 23–25 of *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue* against `amaa/living-hindu-popular-religious-consciousness-full-text.md`.
+
+**Findings**
+
+- **Page 23:** The continuation from page 22, the paragraphs on differing Hindu moral and social values, Christian social discrimination, and the socially conditioned experience of religious concepts, and the beginning of the paragraph on dialogue all correspond to the digital text.
+- **Page 24:** The continuation of the dialogue paragraph and the discussion of *anubhava*, *pramana*, the point of growth in the living present, and the sacred-profane division correspond to the digital text. The Indic and Latin terms checked for italics, including *anubhava*, *pramana*, *garbha grha* and *versus*, are represented in italics in the digital text.
+- **Page 25:** The paragraphs on the Catholic and Protestant traditions, their different treatment of sacred and profane divisions, and the concluding comparison correspond to the digital text.
+- The supplied page sequence is continuous: 23, 24 and 25. No footnote marker or footnote text appears on these three pages requiring a separate note check.
+
+**Corrections and status**
+
+No definite omission, wording discrepancy, or footnote discrepancy was identified on pages 23–25. No change was made to the Essay 3 source.
+
+**Status:** Pages 23–25 compared. No source correction required or applied.
+
 ## Footnote verification alert — pending collection-wide check
 
 **Important: this is a temporary working alert, not a confirmed finding.**
