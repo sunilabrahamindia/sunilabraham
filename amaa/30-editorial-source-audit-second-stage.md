@@ -234,6 +234,16 @@ There is a concern that, in at least one essay, material that should have remain
 
 Keep this alert open until the collection-wide check is completed. Record each essay checked and any correction made here, then remove this temporary alert only when the concern has been resolved.
 
+## Manual check / future consideration
+
+### Brahminical — capitalisation to be reviewed
+
+The capitalisation of *Brahminical* in Essay 9, *The Ideological Nature of the Emerging Dalit Consciousness*, requires a further manual decision.
+
+The first-stage Editorial Source Audit records the form **Brahminical** as the standardised form in the author's narrative. However, the question of whether *Brahminical* should ultimately be uppercase or lowercase is being left open for reconsideration. No change to the essay source is authorised on this point at this stage.
+
+**Status:** Open — manual review and editorial decision pending.
+
 ## See also
 
 - [Editorial Source Audit — First Stage](/amaa/30-editorial-source-audit/)
