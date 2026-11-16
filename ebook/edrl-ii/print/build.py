@@ -660,7 +660,7 @@ def md_to_typst(markdown, stem):
     # indent in the Markdown stream before Pandoc converts it to Typst.
     # This affects only the specified section, not global paragraph rules.
     if stem == "essay-3":
-        # Sections (2), (6), (7) and (10) begin immediately after
+        # Sections (2), (6), (7), (10) and (11) begin immediately after
         # blockquotes. Add a local first-line indent to each heading
         # paragraph, without changing the global paragraph rule or other sections.
         for number, heading in (
@@ -668,6 +668,7 @@ def md_to_typst(markdown, stem):
             ("6", "Experience of the presence and guidance of a"),
             ("7", '"Our ancestors'),
             ("10", "The gods show signs."),
+            ("11", "Fear of Punishment."),
         ):
             target = re.compile(
                 rf"(?m)^\*\*\({number}\) {re.escape(heading)}"
