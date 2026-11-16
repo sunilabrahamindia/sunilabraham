@@ -48,7 +48,7 @@ It is at such a time as this that we, almost without our knowledge, think of the
 
 > There is no doubt that there is a *sakti* above man and all other beings. Each one realizes this through certain individual experiences of his own. There are two kinds of *puja* namely *satvic* and *tamasic*. *Tamasic puja* may yield the result immediately though it may not last long. *Satvic puja*'s results are long lasting, though we may not get an immediate answer.
 
-Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* which are answered. It makes them believe in the validity of those forms of prayer as well as the gods who answer those prayers. (cf. any book on the Mahatmyam of a particular God. It will narrate stories of favour as evidence of the power and the reality of that god).
+Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* which are answered. It makes them believe in the validity of those forms of prayer as well as the gods who answer those prayers. (cf. any book on the *Mahatmyam* of a particular God. It will narrate stories of favour as evidence of the power and the reality of that god).
 
 **(4) The moral feeling that there is a *sakti* that rewards the righteous and punishes the wicked is another factor that leads to religious faith.** People also say that such a moral fear is necessary for man to walk the right path.
 
