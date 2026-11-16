@@ -662,7 +662,7 @@ def md_to_typst(markdown, stem):
         # Word-internal apostrophes (man's, don't, author's) are apostrophes,
         # not quotation delimiters. Convert them first, then pair the remaining
         # ASCII single quotes explicitly so Pandoc cannot reverse a closing quote.
-        segment = re.sub(r"(?<=\\w)'(?=\\w)", "’", segment)
+        segment = re.sub(r"(?<=\w)'(?=\w)", "’", segment)
         single_quote_positions = [i for i, char in enumerate(segment) if char == "'"]
         if single_quote_positions:
             pieces = []
