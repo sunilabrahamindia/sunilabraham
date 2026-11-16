@@ -4,6 +4,10 @@ run-name: EDRL II print proof #${{ github.run_number }}
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "ebook/edrl-ii/print/build.py"
+      - ".github/workflows/build-edrl-ii-print.yml"
 permissions:
   contents: read
 
