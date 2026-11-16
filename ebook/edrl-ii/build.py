@@ -51,7 +51,7 @@ def remove_section(lines, heading_pattern):
 def promote_headings(lines):
     """Promote headings inside a Full text wrapper by one level for the book."""
     return [
-        re.sub(r"^(#{3,6})(?=\\s)", lambda match: match.group(1)[1:], line)
+        re.sub(r"^(#{3,6})(?=\s)", lambda match: match.group(1)[1:], line)
         for line in lines
     ]
 
