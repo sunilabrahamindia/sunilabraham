@@ -458,9 +458,19 @@ def extract_footnotes_and_clean(markdown):
             notes.items(),
             key=lambda item: (int(re.match(r"\d+", item[0]).group()), item[0])
         )
-        cleaned += "\n\n" + "\n\n".join(
-            f"[^{note_id}]: {text}" for note_id, text in ordered_notes
-        )
+        # Pandoc requires every continuation block in a multi-paragraph
+        # footnote definition to be indented. Without this, later paragraphs
+        # escape the footnote and are rendered as ordinary essay body text.
+        definitions = []
+        for note_id, text in ordered_notes:
+            lines = text.splitlines()
+            definition = f"[^{note_id}]: {lines[0]}"
+            if len(lines) > 1:
+                definition += "\n" + "\n".join(
+                    ("    " + line) if line else "" for line in lines[1:]
+                )
+            definitions.append(definition)
+        cleaned += "\n\n" + "\n\n".join(definitions)
     return cleaned
 
 def clean_source(path):
