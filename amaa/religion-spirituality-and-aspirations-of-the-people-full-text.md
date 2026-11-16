@@ -24,7 +24,7 @@ This version preserves the original wording, structure, and formatting as presen
 6. [Postscript](#postscript)
 7. [Notes](#notes)
 
-## Introduction {#introduction}
+## A. Introduction {#introduction}
 
 When I was asked to write a paper on "The Aspirations of the People and the Role of Religion" for our discussion here on the Study of Religion, I promised my colleagues that I would try not to fabricate the aspirations of the people and the role of religion out of my own preconceptions and the predilections of the CISRS but would make a small attempt to discover some of these aspirations as ordinary men and women experience them in their life and how in that context they see religion. This was thought to be important because of the feeling among us that the context of our discussion on the Study of Religion should be set by the people and should not be set by the academic framework of a particular discipline. In this sense the first part of this paper is an attempt to understand the people's thoughts on the role of religion in the context of people's aspirations.
 
