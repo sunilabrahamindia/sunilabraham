@@ -364,6 +364,20 @@ def html_table_to_typst(table):
 
 def extract_footnotes_and_clean(markdown):
     """Convert HTML headings, tables and source-linked notes for Pandoc."""
+    # Protect Markdown blockquotes before the second BeautifulSoup pass.
+    # This pass handles embedded HTML and would otherwise treat leading ">"
+    # markers as literal text, destroying the Markdown block structure.
+    blockquote_tokens = {}
+    def protect_blockquote(match):
+        token = f"TSAP_FINAL_BLOCKQUOTE_{len(blockquote_tokens)}_PRESERVE"
+        blockquote_tokens[token] = match.group(0).rstrip()
+        return "\n\n" + token + "\n\n"
+
+    markdown = re.sub(
+        r"(?m)(?:^>[^\n]*(?:\n|$))+(?:\n(?=>[^\n]*(?:\n|$)))*",
+        protect_blockquote,
+        markdown,
+    )
     soup = BeautifulSoup(markdown, "html.parser")
 
     # Convert HTML headings directly to raw Typst heading elements.
@@ -471,6 +485,9 @@ def extract_footnotes_and_clean(markdown):
                 )
             definitions.append(definition)
         cleaned += "\n\n" + "\n\n".join(definitions)
+    for token, blockquote in blockquote_tokens.items():
+        cleaned = cleaned.replace("<p>" + token + "</p>", blockquote)
+        cleaned = cleaned.replace(token, blockquote)
     return cleaned
 
 def clean_source(path):
