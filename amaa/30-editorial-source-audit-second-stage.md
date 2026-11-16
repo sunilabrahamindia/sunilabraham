@@ -320,14 +320,13 @@ This is a record of the already-established editorial decision, not a new incons
 
 ### Opening page
 
-The printed opening page was compared with the full-text source. Two source corrections were made:
+The printed opening page was compared with the full-text source. The section label was restored in the heading as **A. Introduction**.
 
-- Restored the section label in the heading: **A. Introduction**.
-- Restored the author's byline, including **Bangalore**, and moved the asterisk footnote marker from the end of the final introductory paragraph to immediately after the author's name, matching the printed page. The marker links to Note 1.
+The printed author's byline and its asterisk refer to a journal/presentation note, not to a note belonging to the essay. The byline and that journal note have therefore been excluded from the digital essay. The separate authorial note previously numbered 2 has been retained and renumbered as Note 1; all its in-text markers and backlinks have been updated accordingly.
 
-The introductory body text and the wording of Note 1 were checked and found to match the printed page. The difference between single quotation marks in the printed source and double quotation marks in the digital text was noted but left unchanged as a quotation-style matter, not treated as a transcription correction.
+The introductory body text and the wording of the retained note were checked against the printed page. The difference between single quotation marks in the printed source and double quotation marks in the digital text was noted but left unchanged as a quotation-style matter, not treated as a transcription correction.
 
-**Status:** Corrections applied to the full-text source and verified.
+**Status:** Changes applied and verified.
 
 
 ## See also
