@@ -228,7 +228,7 @@ When the goddess leaves the village after the celebration, offerings of sari, bl
 
 The Karaga, a mother goddess festival, popular among the villagers is an occasion for the people to go on a pilgrimage (Jatra) to Chikka Tirupathi in Malur taluk about 15 to 20 kms away. The pilgrims to Chikka Tirupathi are fed by the villagers either on their way or in Chikka Tirupathi itself. This feeding is called *Anna Chatra*. Well-to-do individual farmers among the Reddys and Vokkaligas or the whole village, including the Holeyas and Madigas, join together and conduct these feeding exercises. Some of these villages and individuals have their own permanent sheds in Chikka Tirupathi for *Anna Chatra*. The feeding may continue from one to three days or as long as one's provisions last. According to tradition, no caste discrimination is allowed in the feeding or partaking of the food.
 
-#### *B. Greater Exclusion of Holeyas and Madigas from Brahminical Festivals*
+#### B. Greater Exclusion of Holeyas and Madigas from Brahminical Festivals
 
 ##### *(a) Sri Ramanavami*
 
