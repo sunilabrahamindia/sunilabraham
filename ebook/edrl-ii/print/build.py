@@ -72,7 +72,7 @@ BACK_COVER = OUT / "edrl-ii-back-cover.png"
 FULL_WRAP_COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-cover-full-03.png"
 FULL_WRAP_COVER = OUT / "edrl-ii-full-wrap-cover.png"
 
-BODY_PAR = "#set par(justify: true, leading: 10pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 11pt)"
+BODY_PAR = "#set par(justify: true, leading: 10pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 14pt)"
 
 def run(args):
     subprocess.run(args, cwd=ROOT, check=True)
@@ -911,7 +911,7 @@ common = r"""
   #align(center)[#it]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
-#show heading.where(level: 2): it => block(above: 16pt, below: 14pt, breakable: false)[
+#show heading.where(level: 2): it => block(above: 18pt, below: 16pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 19.2pt, spacing: 0pt)
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
 ]
@@ -1141,7 +1141,7 @@ parts.append(r"""
   }
 )
 #counter(page).update(1)
-""" + '#set par(justify: true, leading: 12.65pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 16pt)' + r"""
+""" + '#set par(justify: true, leading: 12.65pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 14pt)' + r"""
 #set heading(outlined: true)
 #align(center)[= Foreword]
 #v(5pt)
