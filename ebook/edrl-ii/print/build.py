@@ -663,7 +663,7 @@ def md_to_typst(markdown, stem):
         md = OUT / f"{stem}-{suffix}.md"
         typ = OUT / f"{stem}-{suffix}.typ"
         md.write_text(segment, encoding="utf-8")
-        run(["pandoc", str(md), "--from=markdown+smart+raw_attribute", "--to=typst", "--output", str(typ)])
+        run(["pandoc", str(md), "--from=markdown+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
         # Paragraph separation is controlled only by the Typst par rules in
         # the template. Never inject spacing into the converted content.
@@ -1280,6 +1280,8 @@ parts[1] = parts[1].replace("@@FOREWORD_BODY@@", foreword_typst)
 
 write_heading_dividers()
 interior_text = "\n".join(parts)
+# Enforce straight quotation marks and apostrophes throughout the printed book.
+interior_text = interior_text.translate(str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"'}))
 lint_typst(interior_text)
 interior_source = OUT / "edrl-ii-interior.typ"
 interior_source.write_text(interior_text, encoding="utf-8")
