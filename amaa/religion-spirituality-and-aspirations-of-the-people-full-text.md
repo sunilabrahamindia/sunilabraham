@@ -24,13 +24,13 @@ This version preserves the original wording, structure, and formatting as presen
 6. [Postscript](#postscript)
 7. [Notes](#notes)
 
-## A. Introduction {#introduction}
+## Introduction {#introduction}
 
 When I was asked to write a paper on "The Aspirations of the People and the Role of Religion" for our discussion here on the Study of Religion, I promised my colleagues that I would try not to fabricate the aspirations of the people and the role of religion out of my own preconceptions and the predilections of the CISRS but would make a small attempt to discover some of these aspirations as ordinary men and women experience them in their life and how in that context they see religion. This was thought to be important because of the feeling among us that the context of our discussion on the Study of Religion should be set by the people and should not be set by the academic framework of a particular discipline. In this sense the first part of this paper is an attempt to understand the people's thoughts on the role of religion in the context of people's aspirations.
 
 I have managed to collect, with the help of Mr. Venugopal Kokken, accounts of personal conversations with a selected group of 16 people in the Cannanore District of Kerala, on their aspirations and the role of religion as they see it. These include a slum dweller, a watchman in a factory, a tailor, a weaver, a merchant, a housewife, a nurse, a male teacher and two women teachers, a member of the R.S.S., a freedom fighter, the District Secretary of the Revolutionist Socialist Party, District Secretary of the Rationalist Forum, a drama artiste and a writer.
 
-The paper is based on the information gathered from these personal accounts as well as on some of the impressions I gathered from a study of the meaning of religious symbols like *Iswar*, *Karma* and *Dharma*.<sup id="ref-1"><a href="#note-1">1</a></sup>
+The paper is based on the information gathered from these personal accounts as well as on some of the impressions I gathered from a study of the meaning of religious symbols like *Iswar*, *Karma* and *Dharma*.<sup id="ref-1"><a href="#note-1">1</a></sup><sup id="ref-2"><a href="#note-2">2</a></sup>
 
 ## I. Aspirations of the People and People's Understanding of the Role of Religion as a Social Force in This Context {#aspirations}
 
@@ -112,8 +112,13 @@ The Christian participation in this type of Hindu-Christian dialogue would lie i
 
 <ol>
   <li id="note-1">
-    Note these phrases — they will be used in the argument presented in Part II B.
+    This is the paper on "CISRS and the Study of Religions in the context of People's Aspirations" presented at the CISRS Biennial Council by Rev. Abraham Ayrookuzhiel, who is a member of the CISRS Staff.
     <a href="#ref-1">↩</a>
+  </li>
+
+  <li id="note-2">
+    Note these phrases — they will be used in the argument presented in Part II B.
+    <a href="#ref-2">↩</a>
   </li>
 </ol>
 
