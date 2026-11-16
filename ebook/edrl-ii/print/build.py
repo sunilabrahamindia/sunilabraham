@@ -661,7 +661,7 @@ def md_to_typst(markdown, stem):
     # This affects only the specified section, not global paragraph rules.
     if stem == "essay-3":
         target = re.compile(
-            r"(?m)^\\*\\*\\(2\\) Another factor that leads many people "
+            r"(?m)^\*\*\(2\) Another factor that leads many people "
             r"to affirm a religious faith is the awareness"
         )
         markdown_without_definitions, count = target.subn(
