@@ -658,11 +658,21 @@ def md_to_typst(markdown, stem):
 
     def convert(segment, suffix):
         segment = segment.strip()
-        # Convert apostrophes inside words before Pandoc's smart-quote pass.
-        # Otherwise an ASCII apostrophe such as the one in "man's" can be
-        # mistaken for a quotation delimiter, leaving the real closing quote
-        # facing the wrong direction.
+        # Resolve ASCII single quotes before Pandoc's smart-quote pass.
+        # Word-internal apostrophes (man's, don't, author's) are apostrophes,
+        # not quotation delimiters. Convert them first, then pair the remaining
+        # ASCII single quotes explicitly so Pandoc cannot reverse a closing quote.
         segment = re.sub(r"(?<=\\w)'(?=\\w)", "’", segment)
+        single_quote_positions = [i for i, char in enumerate(segment) if char == "'"]
+        if single_quote_positions:
+            pieces = []
+            last = 0
+            for index, position in enumerate(single_quote_positions):
+                pieces.append(segment[last:position])
+                pieces.append("‘" if index % 2 == 0 else "’")
+                last = position + 1
+            pieces.append(segment[last:])
+            segment = "".join(pieces)
         if definitions:
             segment += "\n\n" + "\n\n".join(definitions)
         md = OUT / f"{stem}-{suffix}.md"
