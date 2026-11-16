@@ -140,6 +140,40 @@ This section will be updated as individual source checks are undertaken. Each en
 **Status:** Pages 86–91 compared. Approved corrections applied to the Essay 1 source; no changes were made to the print builder or to other essay files.
 
 
+### Essay 2 — Religion, Spirituality and Aspirations of the People
+
+**Source compared:** The original *Religion and Society*, Vol. XXV, No. 1 (March 1978), printed pages 1 and 364–368, against `amaa/religion-spirituality-and-aspirations-of-the-people-full-text.md`. The opening page and the supplied consecutive page images 364–368 were compared with the current digital essay text.
+
+**Source corrections and formatting changes made**
+
+- **Opening page:** Changed the section heading from `Introduction` to `A. Introduction`, matching the printed heading. The table-of-contents entry was not changed as part of this edit.
+- **Pages 364–365:** Corrected `Chitrakal` to `Chirakkal`, matching the printed source.
+- **Page 365:** Restored italics to *as other people consider us inferior because of this work* and *as if we were inferior people*.
+- **Page 366:** Restored italics to *Man should respect the feelings of one's fellow beings* and *action, and open thinking*.
+- **Page 367:** Restored italics to *Bhavan's Journal* and *They discuss the realities of life quite independently of their religion*.
+- **Page 368:** Restored italics to *natural human sentiments*, *scientific knowledge*, *free thinking*, *good of the society*, *future* and *progress of human society*.
+
+**Differences examined but not changed**
+
+- On the opening page, the printed publication line, essay title as a body heading, author byline and location are not reproduced in the digital essay body. No changes were made to add these elements.
+- The printed asterisk after the author's name and the journal's explanatory footnote were discussed. No changes were made to the existing footnote numbering, markers or note text. The existing digital note 1 and note 2 were retained.
+- The opening-page quotation-mark difference was not changed.
+- On page 368, the printed form *Sakti* (capital S) differs from the digital *sakti*. This was identified for review but not changed in this set of edits.
+
+**Pages reviewed and continuity**
+
+- The opening page was reviewed.
+- Printed pages 364 and 365 were supplied together and are consecutive.
+- Printed pages 366 and 367 were supplied together and are consecutive.
+- Printed page 368 was reviewed separately.
+- No missing page was identified in the supplied sequences. The supplied pages 364–368 were checked against the corresponding digital passage.
+
+**Verification and status**
+
+The essay file was fetched again after each approved set of changes. The heading, spelling correction and italicisation changes listed above were verified in the repository. No other essay text was intentionally changed during these updates.
+
+**Status:** Opening page and printed pages 364–368 compared. Approved heading, spelling and italicisation corrections applied. Footnote numbering and the *Sakti/sakti* capitalisation question remain unchanged.
+
 ### Essay 4 — The Church and the Study of Religion
 
 **Source compared:** The original *Religion and Society*, Vol. XXVIII, No. 3 (September 1981), pp. 36–41, against `amaa/the-church-and-the-study-of-religion.md`. The supplied page images were reviewed in sequence: 36, 37, 38–39 and 40–41. No page in the supplied sequence was missing.
