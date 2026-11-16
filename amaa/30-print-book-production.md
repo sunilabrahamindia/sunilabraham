@@ -2586,3 +2586,45 @@ These were limited text corrections; no surrounding essay wording was rewritten.
 ### Proof status
 
 Build #324 confirms that the corrected Contents implementation compiles successfully. The later Foreword signature and manuscript-text changes are committed, but their appearance/content in a newly generated print proof has not yet been confirmed here. The next proof review should check the Editor's Note spacing, H1–H4 headings, Contents wrapped lines, Foreword signature and the two essay text corrections.
+
+
+## Further print-production updates — 15 November 2026
+
+### Heading spacing
+
+The spacing below the three lower heading levels was increased in the print builder:
+
+- **H2:** space below increased from 12 pt to 14 pt.
+- **H3:** space below increased from 10 pt to 12 pt.
+- **H4:** space below increased from 8 pt to 10 pt.
+- H1 spacing was not changed.
+
+These adjustments apply to the space after the headings. They do not change heading wording, font sizes or hierarchy.
+
+### Essay 6: source-text corrections
+
+Two local corrections were made to *Religion: A Way of Salvation or an Ideology of Oppression?*:
+
+- Removed an accidental paragraph break in the sentence beginning "From the temple the procession goes through", so that the sentence continues with "all the lanes of the village..." in the same paragraph.
+- Corrected the closing quotation mark in the passage ending "small change." The quotation now closes with the appropriate double quotation mark.
+
+No other wording in the essay was changed as part of these corrections.
+
+### Essay 6: column widths across all five tables
+
+Following Sunil's review of Table 5, all five tables in the essay were checked rather than treating Table 5 as an isolated case. The previous builder assigned generic column-width ratios according only to the number of columns. This caused long headings and some row labels to wrap excessively.
+
+The `html_table_to_typst()` function in `ebook/edrl-ii/print/build.py` now assigns table-specific column-width ratios for:
+
+1. Pattern of Land-Holding Among the Castes.
+2. Animal and Other Agricultural Wealth.
+3. Loans from Farmers' Co-operative Societies and Banks for Agricultural Development.
+4. Number of People Employed in Agriculture and Wage Labour.
+5. Education and Jobs.
+
+The revised proportions take account of the headings and row labels in each table. Font sizes, line leading, cell padding, table styling, source wording and all table data remain unchanged. The existing generic width rules remain as fallbacks for other tables.
+
+- **Builder file:** `ebook/edrl-ii/print/build.py`.
+- **Builder update:** Table-specific width allocation for all five Essay 6 tables; committed on 15 November.
+- **Proof status:** Source change committed and verified in GitHub. A fresh print build and visual inspection of all five rendered tables are still required. In particular, check heading wrapping, row-label wrapping, table width and page fit. The source change alone does not establish that the final layouts are approved.
+
