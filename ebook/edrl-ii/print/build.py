@@ -660,19 +660,25 @@ def md_to_typst(markdown, stem):
     # indent in the Markdown stream before Pandoc converts it to Typst.
     # This affects only the specified section, not global paragraph rules.
     if stem == "essay-3":
-        target = re.compile(
-            r"(?m)^\*\*\(2\) Another factor that leads many people "
-            r"to affirm a religious faith is the awareness"
-        )
-        markdown_without_definitions, count = target.subn(
-            lambda match: "```{=typst}\n#h(12.1pt)\n```\n\n" + match.group(0),
-            markdown_without_definitions,
-            count=1,
-        )
-        if count != 1:
-            raise SystemExit(
-                "Could not locate the exact section (2) heading in Essay 3 Markdown."
+        # Sections (2) and (6) begin immediately after blockquotes. Add a
+        # local first-line indent to each heading paragraph, without changing
+        # the global paragraph rule or other sections.
+        for number, heading in (
+            ("2", "Another factor that leads many people"),
+            ("6", "Experience of the presence and guidance of a"),
+        ):
+            target = re.compile(
+                rf"(?m)^\\*\\*\\({number}\\) {re.escape(heading)}"
             )
+            markdown_without_definitions, count = target.subn(
+                lambda match: "\x60\x60\x60{=typst}\n#h(12.1pt)\n\x60\x60\x60\n\n" + match.group(0),
+                markdown_without_definitions,
+                count=1,
+            )
+            if count != 1:
+                raise SystemExit(
+                    f"Could not locate the exact section ({number}) heading in Essay 3 Markdown."
+                )
 
     def convert(segment, suffix):
         segment = segment.strip()
