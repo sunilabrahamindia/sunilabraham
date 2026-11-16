@@ -665,6 +665,18 @@ def md_to_typst(markdown, stem):
         md.write_text(segment, encoding="utf-8")
         run(["pandoc", str(md), "--from=markdown+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
+        # Section (2) in Essay 3 follows a blockquote, so Typst does not apply
+        # the normal first-line indent to it. Indent this heading locally only.
+        if stem == "essay-3":
+            target = re.compile(
+                r"(?m)^(?=[^\\n]*\\(2\\) Another factor that leads many people "
+                r"to affirm a religious faith is the awareness)"
+            )
+            content, count = target.subn("#h(12.1pt)\\n", content, count=1)
+            if count != 1:
+                raise SystemExit(
+                    "Could not locate the exact section (2) heading in Essay 3 Typst output."
+                )
         # Paragraph separation is controlled only by the Typst par rules in
         # the template. Never inject spacing into the converted content.
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
