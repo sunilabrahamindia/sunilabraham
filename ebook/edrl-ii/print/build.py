@@ -658,22 +658,29 @@ def md_to_typst(markdown, stem):
 
     def convert(segment, suffix):
         segment = segment.strip()
-        # Resolve ASCII single quotes before Pandoc's smart-quote pass.
-        # Word-internal apostrophes (man's, don't, author's) are apostrophes,
-        # not quotation delimiters. Convert them first, then pair the remaining
-        # ASCII single quotes explicitly so Pandoc cannot reverse a closing quote.
-        segment = re.sub(r"(?<=\w)'(?=\w)", "’", segment)
-        single_quote_positions = [i for i, char in enumerate(segment) if char == "'"]
-        if single_quote_positions:
+        # Resolve ASCII single quotes paragraph by paragraph before Pandoc's
+        # smart-quote pass. Word-internal apostrophes are not quote delimiters.
+        # Pairing per paragraph prevents an unmatched apostrophe elsewhere in
+        # an essay from reversing the direction of a later closing quotation.
+        def normalise_single_quotes(paragraph):
+            paragraph = re.sub(r"(?<=\w)'(?=\w)", "’", paragraph)
+            positions = [i for i, char in enumerate(paragraph) if char == "'"]
+            if not positions:
+                return paragraph
             pieces = []
             last = 0
-            for index, position in enumerate(single_quote_positions):
-                pieces.append(segment[last:position])
-                is_unpaired_final = len(single_quote_positions) % 2 == 1 and index == len(single_quote_positions) - 1
-                pieces.append("’" if is_unpaired_final or index % 2 == 1 else "‘")
+            for index, position in enumerate(positions):
+                pieces.append(paragraph[last:position])
+                unpaired_final = len(positions) % 2 == 1 and index == len(positions) - 1
+                pieces.append("’" if unpaired_final or index % 2 else "‘")
                 last = position + 1
-            pieces.append(segment[last:])
-            segment = "".join(pieces)
+            pieces.append(paragraph[last:])
+            return "".join(pieces)
+
+        segment = "".join(
+            part if part.startswith("\n") else normalise_single_quotes(part)
+            for part in re.split(r"(\n[ \t]*\n)", segment)
+        )
         if definitions:
             segment += "\n\n" + "\n\n".join(definitions)
         md = OUT / f"{stem}-{suffix}.md"
