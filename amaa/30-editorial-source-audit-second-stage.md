@@ -298,6 +298,26 @@ No definite omission, wording discrepancy, or footnote discrepancy was identifie
 
 **Status:** Pages 23–25 compared. No source correction required or applied.
 
+### Essay 7 — pages 88–89
+
+**Source compared:** Printed pages 88–89 of *Dalit Theology: A Movement of Counter-Culture* against `amaa/dalit-theology-movement-counter-culture-full-text.md`.
+
+**Corrections made**
+
+- **Page 88 — section heading:** Changed `Dependency in the Religio-Cultural Sphere` to `Dependency Experienced in the Religio-cultural Sphere`, restoring the word "Experienced" present in the printed heading.
+- **Page 89 — italicisation:** Italicised *ambiguous* in the phrase "played a rather ambiguous role", matching the printed source.
+
+**Other differences examined**
+
+- The printed pages use lowercase forms of *Dalit*, *Dalits* and *Dalit theology* in several places. The digital forms retain the collection-wide capitalisation established in the first-stage audit; these are intentional editorial differences and were not changed.
+- Footnote markers 10–15 are present in the corresponding text, and Notes 10–15 are present in the digital Notes section. No wording or numbering correction was made to these notes in this pass.
+
+**Verification and status**
+
+The Essay 7 source was updated with the two corrections above and fetched again to verify the revised heading and italicisation.
+
+**Status:** Printed pages 88–89 compared. Two corrections applied and verified.
+
 ## Footnote verification alert — pending collection-wide check
 
 **Important: this is a temporary working alert, not a confirmed finding.**
