@@ -544,6 +544,13 @@ def clean_source(path):
                 or re.match(r"^\{%\s*include\s+navbox-amaa", line.strip())
                 or re.match(r"^<style\b", line.strip())), len(lines))
     lines = lines[:end]
+    # The source page's H2 "Full text" wrapper is omitted from the print book.
+    # Promote its internal Markdown headings by one level beneath the essay H1.
+    if full is not None:
+        lines = [
+            re.sub(r"^(#{3,6})(?=[ \\t])", lambda match: match.group(1)[1:], line)
+            for line in lines
+        ]
     body = "\n".join(lines).strip()
     body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
 
