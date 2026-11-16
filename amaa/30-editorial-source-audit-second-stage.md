@@ -406,6 +406,27 @@ The Essay 7 source was updated and fetched again. The italicised form *Tiruvasag
 
 **Status:** Pages 100–101 compared. One italicisation correction applied and verified.
 
+### Essay 7 — pages 102–103
+
+**Source compared:** Printed pages 102–103 of *Dalit Theology: A Movement of Counter-Culture* against the current Essay 7 source.
+
+**Correction made**
+
+- **Page 103 — footnote 42:** Corrected the note to match the printed source: added "cfr." before Hans Staffner's name, removed the comma after "S.J.", changed the semicolon after "Anand" to a full stop, and removed the initial "The" from the title *Acknowledged Christ of Hinduism*.
+
+**Other checks**
+
+- The conclusion heading and paragraph structure, including the continuation across pages 102–103, were compared with the printed pages.
+- Footnote marker 42 is present at the corresponding point in the main text.
+- The two titles in footnote 42 remain italicised.
+- Lowercase forms of "dalit" and "dalits" in the printed text are retained in the digital source as capitalised forms in accordance with the first-stage editorial convention.
+
+**Verification and status**
+
+The corrected footnote 42 was fetched again from GitHub. Its wording and punctuation were verified against the approved correction.
+
+**Status:** Pages 102–103 compared. One footnote correction applied and verified. Essay 7 source comparison is complete through the final printed page, page 103.
+
 ## Footnote verification alert — pending collection-wide check
 
 **Important: this is a temporary working alert, not a confirmed finding.**
