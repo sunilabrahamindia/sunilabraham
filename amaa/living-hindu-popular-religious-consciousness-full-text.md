@@ -286,7 +286,7 @@ I have described above the reasons which make an ordinary Hindu adopt a religiou
 
 I am inclined to believe that these basic experiences that compel a Hindu to accept a religious dimension to his life, equally apply to Christians. Perhaps some Christians may express reservations about new signs coming from God asking for festivals and offerings. But the tradition of new signs coming from Heaven like Lourdes and Fatima is not entirely strange in Church history. Even in Protestant circles one finds people opening the Bible expecting a sign. But only an empirical study among Christians can reveal how they stand *vis-à-vis* their Hindu brethren on this point.
 
-### 3. Hindu-Christian Dialogue to evolve a common value system: Problem and Possibility
+### 3. Hindu-Christian dialogue to evolve a common value system: Problem and Possibility
 
 Our study of the moral consciousness of Hindus in Chirakkal shows that in popular experience the moral values have a religious basis and legitimation. This basis and legitimation is sometimes expressed through the medium of the symbol of God<sup id="ref-8"><a href="#note-8">8</a></sup> and sometimes through the medium of the concept of *karma*.
 
