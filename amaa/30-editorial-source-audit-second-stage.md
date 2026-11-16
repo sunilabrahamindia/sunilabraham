@@ -98,6 +98,40 @@ This is a temporary change to the path filters, not a disabling of GitHub Action
 
 This section will be updated as individual source checks are undertaken. Each entry should distinguish what was examined, what was found, what decision was made and what remains unresolved. No finding is considered complete merely because a possible difference has been noticed.
 
+### Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends
+
+**Source compared:** The original *Indian Journal of Theology*, Vol. 26, No. 2 (April–June 1977), pp. 86–91, against the current full-text source, `amaa/state-of-hinduism-in-2000-ad-full-text.md`. The comparison was carried out page by page using supplied PDF screenshots. The first-stage Editorial Source Audit was consulted before deciding whether a visible difference required correction.
+
+**Source corrections made**
+
+- **Page 86:** Changed `rogi` to `rog` in the expression *rog/Bheemar*. The word *Bheemar* was retained. The line-break form "small-pox" in the PDF was not adopted; it is a line-break hyphenation of "smallpox".
+- **Page 87:** Added italics to *a corresponding decrease in his sense of dependence* and *deprived of a certain sense of mystery*.
+- **Page 89:** Added italics to *natural* in "as merely natural without significance", and to *Ganapathy* in "offered in homage to Ganapathy".
+- **Page 90:** Italicised *Bhagavan's lila* in full, *puja* in "the true puja", and the complete four-part series of explanatory quotations beginning "bhutas and pretas were created by bhayam (fear)" and ending "thought of as yakshi".
+- **Page 91:** No source correction was required.
+
+**Other source adjustments recorded during this review**
+
+- Changed the six existing numbered subsection headings following "The Secular Option" from H2 to H3. The headings' wording and identifiers were retained.
+- Italicised all three standalone occurrences of *karma* in the essay.
+- The heading and body structure, wording and identifiers were otherwise preserved during these edits.
+
+**Differences examined but not changed**
+
+- The PDF's line-break hyphenation "small-pox" on page 86 was retained as the single word "smallpox" in the essay.
+- The heading-level italics visible on page 89 were not applied to entire headings. The first-stage audit requires only identified Indic terms in headings to receive italics; it does not require whole headings to be italicised.
+- Capitalisation differences involving *Harijan/Harijans*, *Brahmin/Brahmins* and generic *sakti* were not changed during this second-stage comparison, because the first-stage audit already records the collection's editorial decisions for these forms.
+- The title-case treatment of the page 87 subsection heading and the capitalisation of *Sakti* noted on page 88 were not changed during this comparison.
+- The page 90 headings and the page 91 heading were not changed.
+
+**Verification and status**
+
+- The essay source was fetched again before each approved update. Each edit was limited to the approved formatting or word correction.
+- The changes above were committed in separate source updates and the current file was re-fetched after editing.
+- The page-by-page comparison of the supplied original pages 86–91 is recorded here. This entry records the changes made and the principal differences deliberately left unchanged; it does not claim that spelling, transcription or all other aspects of the essay have been comprehensively proofread.
+
+**Status:** Pages 86–91 compared. Approved corrections applied to the Essay 1 source; no changes were made to the print builder or to other essay files.
+
 ### Current status — 16 November 2026
 
 - The second-stage audit page has been created as a separate record linked to the first-stage audit.
