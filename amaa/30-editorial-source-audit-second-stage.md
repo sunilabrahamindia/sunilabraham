@@ -133,6 +133,29 @@ This section will be updated as individual source checks are undertaken. Each en
 **Status:** Pages 86–91 compared. Approved corrections applied to the Essay 1 source; no changes were made to the print builder or to other essay files.
 
 
+### Essay 4 — The Church and the Study of Religion
+
+**Source compared:** The original *Religion and Society*, Vol. XXVIII, No. 3 (September 1981), pp. 36–41, against `amaa/the-church-and-the-study-of-religion.md`. The supplied page images were reviewed in sequence: 36, 37, 38–39 and 40–41. No page in the supplied sequence was missing.
+
+**Source corrections made**
+
+- **Page 39:** Italicised *liberation and oppression* in the sentence describing the role of structural factors in religion.
+- **Page 40:** Removed italics from *God* in the list “dharma, karma, varnashrama, God, papam, punyam”. The word *God* appears in roman type in the original; the surrounding Indic terms remain italicised.
+
+**Differences examined but not changed**
+
+- The italicised appearance of the heading “The Structural factor in Religion” on page 37 and “The realm of meanings and symbols” on page 39 was not reproduced as whole-heading italics. The first-stage editorial rules do not require entire headings to be italicised.
+- The apparent underline beneath the phrase “a human historical reality subjected to the psychological and sociological laws...” on page 38 was identified as a reader's handwritten mark on the scanned copy, not original print formatting. No change was made.
+- The author-identification footnote on the opening page was not added to the essay text.
+
+**Footnote check**
+
+- Footnotes 1 and 2 (page 36), 3 (page 37), 4 (page 38), 5 (page 39) and 6 (page 40) were checked against the corresponding entries in the essay's Notes section. Their markers and note texts correspond to the supplied source pages.
+- The page 37 footnote 3 includes *ex jure*, which is italicised in the essay.
+- The author's biographical footnote on page 36 remains excluded, consistent with the treatment of author footnotes in this project.
+
+**Status:** Pages 36–41 reviewed. Two approved italicisation corrections applied, on pages 39 and 40. No other essay-text changes made.
+
 ### Essay 5 — Religions and the Aspirations of the People
 
 **Source compared:** The original *Religion and Society*, Vol. XXX, Nos. 3 & 4 (September–December 1983), pp. 102–108, against `amaa/religions-and-the-aspirations-of-the-people.md`. The supplied page images were reviewed in sequence: 102, 103–104, 105, 106–107 and 108. No page in the supplied sequence was missing.
