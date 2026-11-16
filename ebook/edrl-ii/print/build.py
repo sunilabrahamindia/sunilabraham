@@ -426,8 +426,8 @@ def extract_footnotes_and_clean(markdown):
     seen_note_ids = set()
     note_numbers = {}
     quote_marker_pattern = re.compile(
-        r"""<sup\\b[^>]*id=["']ref-[^"']+["'][^>]*>\\s*"""
-        r"""<a\\b[^>]*href=["']#note-(\\d+)["'][^>]*>.*?</a>\\s*</sup>""",
+        r"""<sup\b[^>]*id=["']ref-[^"']+["'][^>]*>\s*"""
+        r"""<a\b[^>]*href=["']#note-(\d+)["'][^>]*>.*?</a>\s*</sup>""",
         re.I | re.S,
     )
     for token, blockquote in blockquote_tokens.items():
