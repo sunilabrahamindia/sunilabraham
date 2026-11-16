@@ -2628,3 +2628,44 @@ The revised proportions take account of the headings and row labels in each tabl
 - **Builder update:** Table-specific width allocation for all five Essay 6 tables; committed on 15 November.
 - **Proof status:** Source change committed and verified in GitHub. A fresh print build and visual inspection of all five rendered tables are still required. In particular, check heading wrapping, row-label wrapping, table width and page fit. The source change alone does not establish that the final layouts are approved.
 
+## Print-production updates — 16 November 2026
+
+### Essay 3: paragraph indentation after blockquotes
+
+The print conversion for Essay 3, *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue*, was refined to restore the normal first-line paragraph indent after blockquotes at five identified points:
+
+- (2) Another factor that leads many people
+- (6) Experience of the presence and guidance of a
+- (7) "Our ancestors
+- (10) The gods show signs.
+- (11) Fear of Punishment.
+
+The adjustment is local to these paragraphs. It does not change the global paragraph indentation or the wording of the essay.
+
+- **Builder commits:** `cafbeaa6c228ca5b6405f38978aa7bef74b480c6` (initial paragraph locations) and `17e35eb723624fc8ce0a6ca49b25e426bf7067dd` (section 11).
+- **Proof status:** Source corrections committed. The resulting paragraph starts should be checked in a fresh print PDF.
+
+### Essay 3: restoration of the original Roman-numeral labels
+
+In section **E. The reasons for which people worship their gods**, the thirteen items were changed from an automatically numbered Arabic list to the original parenthesised Roman-numeral labels, **(i) to (xiii)**. The item wording and sequence were retained. These are ordinary paragraphs and therefore use the book's normal paragraph treatment rather than Markdown list formatting.
+
+- **Source commit:** `2be8e2646b1e968d768763513fea80379446d96d` — Restore Roman-numeral labels in Essay 3.
+- **Proof status:** Source updated. Check the labels, paragraph indentation and wrapping in the next fresh PDF.
+
+### Heading hierarchy: H4 and H5 spacing
+
+The heading spacing was refined after reviewing the rendered hierarchy in Essay 6:
+
+| Level | Space above | Space below | Font size |
+|---|---:|---:|---:|
+| H2 | 16 pt | 14 pt | 16 pt |
+| H3 | 13 pt | 12 pt | 14 pt |
+| H4 | 12 pt | 10 pt | 12 pt |
+| H5 | 10 pt | 6 pt | 11 pt |
+
+For H4, only the space above was increased, from 10 pt to 12 pt; the existing 10 pt below was retained. An explicit H5 rule was added so that fifth-level headings no longer depend on Typst's default heading treatment. H5 uses 11 pt bold text, with 10 pt above and 6 pt below. Inline italics in the source heading text, such as * (a) Makara Sankranti*, are retained by the heading conversion.
+
+- **H4 spacing commit:** `36451730700cf7b00b6242e6d74dc2b2f803653f` — Increase EDRL II H4 spacing above to 12 pt.
+- **H5 styling commit:** `ef85661c6bc0b2148472c8ba3810e891bd9061ab` — Add explicit EDRL II H5 heading style.
+- **Proof status:** Both builder changes are committed to `main`. A fresh print build and visual review are required to confirm the H4/H5 hierarchy, spacing and page fit. The latest commit's combined GitHub status had not yet reported a completed check when this log was updated.
+
