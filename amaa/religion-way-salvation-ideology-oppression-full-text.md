@@ -201,7 +201,7 @@ The festival of *Agate Male Ungalu* or *Pongalu* is observed during the time of 
 
 If there are Brahmins and Lingayats in the village they do not take part in the ritual, but only contribute money towards the expenses. The ceremony is done without the usual drum or pipe music.
 
-#### (c) Gangamma festival
+#### (c) *Gangamma festival*
 
 The Gangamma festival is celebrated in a village when the water tank gets full in any year. Money is collected from all the villagers and a buffalo is bought for the occasion and taken in a procession to the village tank. The procession is led by Reddys, Vokkaligas, Kumbaras, Agasas, Hajamas, Acharis and others in front with lamps, and the Holeyas and Madigas follow at a little distance. A boat (*tappa*) made out of plantain trunk by the Thoti of the village is floated in the tank with lamps in it. The buffalo is sacrificed near the tank and the carcass is distributed among the Holeyas.
 
