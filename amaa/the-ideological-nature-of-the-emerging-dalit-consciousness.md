@@ -91,7 +91,7 @@ I reject your Parmeshwar centred traditions
 I reject your religion-based literature.<sup id="ref-13"><a href="#note-13">13</a></sup>
 </div>
 
-Siddhalingiah, the leading Dalit poet of Karnataka, sings :
+Siddalingaiah, the leading Dalit poet of Karnataka, sings :
 
 <div class="poem" markdown="1">
 They rushed and flowed like water  
