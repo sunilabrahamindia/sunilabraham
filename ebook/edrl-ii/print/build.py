@@ -420,8 +420,34 @@ def extract_footnotes_and_clean(markdown):
         raw_tables[token] = converted
         table.replace_with(NavigableString(token))
 
+    # Convert footnote markers inside protected blockquotes before restoring
+    # them. The main BeautifulSoup pass cannot see those markers because the
+    # quotation is deliberately held as Markdown text.
     seen_note_ids = set()
     note_numbers = {}
+    quote_marker_pattern = re.compile(
+        r'<sup\\b[^>]*id=["\\']ref-[^"\\']+["\\'][^>]*>\\s*'
+        r'<a\\b[^>]*href=["\\']#note-(\\d+)["\\'][^>]*>.*?</a>\\s*</sup>',
+        re.I | re.S,
+    )
+    for token, blockquote in blockquote_tokens.items():
+        def convert_quote_marker(match):
+            note_id = match.group(1)
+            if note_id not in notes:
+                raise SystemExit(
+                    f"Blockquote footnote reference points to missing note-{note_id}."
+                )
+            if note_id not in note_numbers:
+                note_numbers[note_id] = len(note_numbers) + 1
+            if note_id in seen_note_ids:
+                return f"^{note_numbers[note_id]}^"
+            seen_note_ids.add(note_id)
+            return f"[^{note_id}]"
+
+        blockquote_tokens[token] = quote_marker_pattern.sub(
+            convert_quote_marker, blockquote
+        )
+
     for marker in soup.select('sup[id^="ref-"]'):
         target = marker.find("a", href=re.compile(r"^#note-"))
         if target:
