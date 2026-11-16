@@ -356,7 +356,7 @@ def html_table_to_typst(table):
         + fence + "\n"
     )
 
-def extract_footnotes_and_clean(markdown):
+def extract_footnotes_and_clean(markdown, promote_wrapped_headings=False):
     """Convert HTML headings, tables and source-linked notes for Pandoc."""
     # Protect Markdown blockquotes before the second BeautifulSoup pass.
     # This pass handles embedded HTML and would otherwise treat leading ">"
@@ -384,6 +384,12 @@ def extract_footnotes_and_clean(markdown):
             heading.decompose()
             continue
         level = int(heading.name[1])
+        # The four wrapper-based essays place their internal headings one
+        # level below the omitted H2 "Full text" container. Apply the same
+        # one-level promotion used for Markdown headings, but never promote
+        # an H2 to H1. Standalone full-text sources pass False.
+        if promote_wrapped_headings and level >= 3:
+            level -= 1
         title = html_inline_to_typst(heading).strip()
         typst_heading = (
             "\n\n```{=typst}\n"
@@ -628,7 +634,7 @@ def clean_source(path):
         if unreferenced:
             problems.append("unreferenced note entries: " + ", ".join(unreferenced))
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
-    cleaned = extract_footnotes_and_clean(body)
+    cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
     for token, heading in heading_tokens.items():
         # Render Markdown headings through the same raw Typst heading path as
         # HTML headings. This prevents Pandoc from splitting a long heading's
