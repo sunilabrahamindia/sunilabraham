@@ -281,6 +281,15 @@ These are recorded as capitalisation variations for later editorial review only.
 
 **Status:** Recorded for manual capitalisation review. No source changes authorised or applied.
 
+### Essay 3 — page 16: *suddhi* and *asuddhi* in the section heading
+
+The printed heading uses initial capitals in *Suddhi* and *Asuddhi*, while the digital heading uses lowercase *suddhi* and *asuddhi*. The digital form is intentional and follows the first-stage editorial decision that these are generic terms and remain lowercase, including in headings. The heading's first-word capitalisation rule does not require these terms to be capitalised because they occur within the parenthetical phrase, not as the first word of the heading.
+
+This is a record of the already-established editorial decision, not a new inconsistency or a request for further review. No change to the Essay 3 source is required.
+
+**Status:** Decision reaffirmed and recorded. No source change required.
+
+
 ## See also
 
 - [Editorial Source Audit — First Stage](/amaa/30-editorial-source-audit/)
