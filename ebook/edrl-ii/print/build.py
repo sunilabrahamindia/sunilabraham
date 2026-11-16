@@ -567,7 +567,7 @@ def clean_source(path):
     # Include references inside protected Markdown blockquotes in the audit.
     # They are temporarily absent from body_soup until restored for Pandoc.
     reference_soup = BeautifulSoup(
-        body + "\\n" + "\\n".join(blockquote_tokens.values()),
+        body + "\n" + "\n".join(blockquote_tokens.values()),
         "html.parser",
     )
     references = set()
