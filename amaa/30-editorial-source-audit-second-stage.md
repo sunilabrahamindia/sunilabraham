@@ -315,6 +315,21 @@ This is a record of the already-established editorial decision, not a new incons
 **Status:** Decision reaffirmed and recorded. No source change required.
 
 
+
+## Essay 2 — Religion, Spirituality and Aspirations of the People
+
+### Opening page
+
+The printed opening page was compared with the full-text source. Two source corrections were made:
+
+- Restored the section label in the heading: **A. Introduction**.
+- Restored the author's byline, including **Bangalore**, and moved the asterisk footnote marker from the end of the final introductory paragraph to immediately after the author's name, matching the printed page. The marker links to Note 1.
+
+The introductory body text and the wording of Note 1 were checked and found to match the printed page. The difference between single quotation marks in the printed source and double quotation marks in the digital text was noted but left unchanged as a quotation-style matter, not treated as a transcription correction.
+
+**Status:** Corrections applied to the full-text source and verified.
+
+
 ## See also
 
 - [Editorial Source Audit — First Stage](/amaa/30-editorial-source-audit/)
