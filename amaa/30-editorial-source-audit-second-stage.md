@@ -322,7 +322,7 @@ This is a record of the already-established editorial decision, not a new incons
 
 The printed opening page was compared with the full-text source. The section label was restored in the heading as **A. Introduction**.
 
-The printed author's byline and its asterisk refer to a journal/presentation note, not to a note belonging to the essay. The byline and that journal note have therefore been excluded from the digital essay. The separate authorial note previously numbered 2 has been retained and renumbered as Note 1; all its in-text markers and backlinks have been updated accordingly.
+The printed author's byline and its asterisk refer to a journal/presentation note, not to a note belonging to the essay. The byline and that journal note have been excluded from the digital essay. The essay's own note, originally numbered 2, has been retained and renumbered as Note 1. Its in-text reference remains at the end of the introductory paragraph, in its original position in the digital text, and is displayed as the numeral **1** without an additional asterisk. All note links and backlinks have been updated accordingly.
 
 The introductory body text and the wording of the retained note were checked against the printed page. The difference between single quotation marks in the printed source and double quotation marks in the digital text was noted but left unchanged as a quotation-style matter, not treated as a transcription correction.
 
