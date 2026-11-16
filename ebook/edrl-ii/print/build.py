@@ -531,7 +531,23 @@ def clean_source(path):
         heading_tokens[token] = match.group(0)
         return token
 
-    body = re.sub(r"(?m)^#{1,6}[ \t]+[^\n]+$", protect_heading, body)
+    body = re.sub(r"(?m)^#{1,6}[ \\t]+[^\\n]+$", protect_heading, body)
+
+    # Preserve Markdown blockquotes while BeautifulSoup processes embedded HTML.
+    # BeautifulSoup treats Markdown's leading ">" as plain text, and its HTML
+    # serialisation can collapse the quoted lines into surrounding paragraphs.
+    # Protect complete quote blocks, then restore them before Pandoc parses Markdown.
+    blockquote_tokens = {}
+    def protect_blockquote(match):
+        token = f"TSAP_MARKDOWN_BLOCKQUOTE_{len(blockquote_tokens)}_PRESERVE"
+        blockquote_tokens[token] = match.group(0).rstrip()
+        return "\\n\\n" + token + "\\n\\n"
+
+    body = re.sub(
+        r"(?m)(?:^>[^\\n]*(?:\\n|$))+(?:\\n(?=>[^\\n]*(?:\\n|$)))*",
+        protect_blockquote,
+        body,
+    )
 
     body_soup = BeautifulSoup(body, "html.parser")
     for item in body_soup.select('li[id^="note-"]'):
@@ -539,6 +555,9 @@ def clean_source(path):
     for item in source_note_items:
         body_soup.append(item)
     body = body_soup.decode_contents()
+    for token, blockquote in blockquote_tokens.items():
+        body = body.replace("<p>" + token + "</p>", blockquote)
+        body = body.replace(token, blockquote)
 
     note_ids = {
         item.get("id", "")[len("note-"):]
