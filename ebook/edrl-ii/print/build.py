@@ -669,7 +669,8 @@ def md_to_typst(markdown, stem):
             last = 0
             for index, position in enumerate(single_quote_positions):
                 pieces.append(segment[last:position])
-                pieces.append("‘" if index % 2 == 0 else "’")
+                is_unpaired_final = len(single_quote_positions) % 2 == 1 and index == len(single_quote_positions) - 1
+                pieces.append("’" if is_unpaired_final or index % 2 == 1 else "‘")
                 last = position + 1
             pieces.append(segment[last:])
             segment = "".join(pieces)
