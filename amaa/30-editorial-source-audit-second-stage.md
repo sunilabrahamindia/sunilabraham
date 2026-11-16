@@ -94,6 +94,13 @@ This is a temporary change to the path filters, not a disabling of GitHub Action
 
 **Reinstatement:** The automatic essay-edit triggers are to be restored when the source-checking work has reached a suitable stopping point. Until then, a manual build should be requested when a sufficiently coherent set of source changes is ready for print proofing.
 
+## Pages requiring later source verification
+
+These pages were not verified against the printed source during this second-stage audit. Check them after the current audit work is complete.
+
+- [ ] **Essay 3 — *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue*:** pages 18–19.
+- [ ] **Essay 6 — *Religion: A Way of Salvation or an Ideology of Oppression?*:** pages 2–3.
+
 ## Audit log
 
 This section will be updated as individual source checks are undertaken. Each entry should distinguish what was examined, what was found, what decision was made and what remains unresolved. No finding is considered complete merely because a possible difference has been noticed.
@@ -175,7 +182,7 @@ This section will be updated as individual source checks are undertaken. Each en
 
 ### Essay 6 — Religion: A Way of Salvation or an Ideology of Oppression?
 
-**Source compared:** The original *Religion and Society*, Vol. XXXII, No. 1 (March 1985), against `amaa/religion-way-salvation-ideology-oppression-full-text.md`. The supplied source pages reviewed in this sequence were printed pages 1 and 4–23. Pages 2–3 were not supplied in this review sequence and remain unchecked. Page 23, the final page, was checked against the closing paragraphs in the essay file.
+**Source compared:** The original *Religion and Society*, Vol. XXXII, No. 1 (March 1985), against `amaa/religion-way-salvation-ideology-oppression-full-text.md`. The printed pages reviewed in this sequence were pages 1 and 4–23. Pages 2–3 were not verified against the printed source during this second-stage audit. Page 23, the final page, was checked against the closing paragraphs in the essay file.
 
 **Source corrections and editorial changes made**
 
@@ -206,7 +213,7 @@ The final page's two closing paragraphs were compared with the essay file. The c
 
 **Pages not yet checked**
 
-Pages 2–3 of the printed essay were not supplied during this review sequence. They must be checked before the page-by-page source comparison can be described as complete.
+Pages 2–3 were not verified against the printed source during this second-stage audit. They remain to be checked.
 
 **Status:** Supplied pages 1 and 4–23 reviewed; approved corrections and formatting changes applied; footnotes 1–7 checked and the missing conclusion references restored. Pages 2–3 remain outstanding.
 ### Current status — 16 November 2026
