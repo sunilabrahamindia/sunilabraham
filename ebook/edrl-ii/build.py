@@ -48,6 +48,13 @@ def remove_section(lines, heading_pattern):
     end = next((i for i in range(start + 1, len(lines)) if re.match(r"^#{1,6}\s+", lines[i].strip())), len(lines))
     return lines[:start] + lines[end:], lines[start:end]
 
+def promote_headings(lines):
+    """Promote headings inside a Full text wrapper by one level for the book."""
+    return [
+        re.sub(r"^(#{3,6})(?=\\s)", lambda match: match.group(1)[1:], line)
+        for line in lines
+    ]
+
 def tidy_markdown(text):
     text = re.sub(r"^\s*\{%.*?%\}\s*$", "", text, flags=re.M)
     text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
@@ -81,6 +88,10 @@ def clean_source(path):
         main, embedded_notes = remove_section(main, r"^#{1,6}\s+Notes\b")
         if not notes_section:
             notes_section = embedded_notes
+        # The source page's H2 "Full text" wrapper is omitted from the book.
+        # Promote its internal headings so the essay starts at H2 beneath the book's H1.
+        main = promote_headings(main)
+        notes_section = promote_headings(notes_section)
     else:
         # Drop the introductory web description and generated contents list.
         contents_index = next((i for i, line in enumerate(lines)
