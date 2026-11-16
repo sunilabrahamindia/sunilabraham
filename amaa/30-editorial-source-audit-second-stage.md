@@ -338,6 +338,74 @@ Footnote 18 was updated in the Essay 7 source and the revised note was fetched a
 
 **Status:** Printed pages 90–91 compared. One correction to footnote 18 applied and verified.
 
+
+### Essay 7 — page 92
+
+**Source compared:** Printed page 92 of *Dalit Theology: A Movement of Counter-Culture* against the current Essay 7 source.
+
+**Correction made**
+
+- **Page 92 — footnote 20:** Italicised *ibid.* to match the printed source.
+
+**Verification and status**
+
+The revised note was fetched again from the repository and the italicisation was verified.
+
+**Status:** Page 92 compared. One italicisation correction applied and verified.
+
+### Essay 7 — pages 96–97
+
+**Source compared:** Printed pages 96–97 of *Dalit Theology: A Movement of Counter-Culture* against the current Essay 7 source.
+
+**Corrections made**
+
+- **Page 96:** Italicised *Dalit theology* in the sentence beginning "Dalit theology has its seminal roots...", matching the printed emphasis.
+- **Page 97:** Italicised *shamkara* and *atman* in Jyoti Sahi's quoted interpretation of the Mahabali myth, matching the printed source.
+
+**Other formatting retained**
+
+The two paragraphs beginning "In Kerala another version of this myth..." remain formatted as Markdown blockquotes. No change was made to that passage as part of this comparison.
+
+**Verification and status**
+
+Both approved italicisation changes were committed to the Essay 7 source and the updated source was fetched again.
+
+**Status:** Pages 96–97 compared. Two italicisation corrections applied and verified.
+
+### Essay 7 — pages 98–99
+
+**Source compared:** Printed pages 98–99 of *Dalit Theology: A Movement of Counter-Culture* against the current Essay 7 source.
+
+**Findings**
+
+- The text concerning Pākkanar, Onam and Mahabali, followed by the Madiga and Jambavant origin story, corresponds to the printed pages.
+- The continuation on page 99 and the paragraph leading into the discussion of Gautama Buddha are present in the correct sequence.
+- The italicisation of *onavil* and *amrita* matches the printed source.
+- Footnotes 33 and 34, including their bibliographic titles and placement, were checked against the printed page.
+
+No wording, omission, footnote or formatting correction was identified in this comparison.
+
+**Status:** Pages 98–99 compared. No source correction required or applied.
+
+### Essay 7 — pages 100–101
+
+**Source compared:** Printed pages 100–101 of *Dalit Theology: A Movement of Counter-Culture* against the current Essay 7 source.
+
+**Correction made**
+
+- **Page 100:** Italicised *Tiruvasagam* in the sentence referring to G.U. Pope's translation of the work, matching the printed source.
+
+**Other checks**
+
+- The continuation of the Gautama Buddha passage, the two quoted poems and the subsequent discussion of the Siddhars, Lingayats and other egalitarian religious reformers were compared with the printed pages.
+- Footnotes 35–41 were checked, including the italicised bibliographic titles and *op. cit.* references. No other correction was identified.
+
+**Verification and status**
+
+The Essay 7 source was updated and fetched again. The italicised form *Tiruvasagam* is present in the repository.
+
+**Status:** Pages 100–101 compared. One italicisation correction applied and verified.
+
 ## Footnote verification alert — pending collection-wide check
 
 **Important: this is a temporary working alert, not a confirmed finding.**
