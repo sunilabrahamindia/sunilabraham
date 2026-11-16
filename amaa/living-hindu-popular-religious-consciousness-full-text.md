@@ -330,7 +330,7 @@ It may therefore appear that the spirit of Protestant Christianity and modern Hi
   <a href="#ref-2">↩</a>
 </li>
 <li id="note-3">
-  <em>Sthalamahatyama</em> of Sri Mukambika, Guruvayoorappan, Sri Venkateswara etc. claim this type of special manifestation.
+  <em>Sthalamahatmyama</em> of Sri Mukambika, Guruvayoorappan, Sri Venkateswara etc. claim this type of special manifestation.
   <a href="#ref-3">↩</a>
 </li>
 <li id="note-4">
