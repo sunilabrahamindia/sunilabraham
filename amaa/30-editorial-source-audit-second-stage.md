@@ -140,6 +140,23 @@ This section will be updated as individual source checks are undertaken. Each en
 - Manual print builds and the other specified production-file triggers remain available.
 - The suspension is temporary and must be reviewed and reversed when the source-checking period is complete.
 
+## Footnote verification alert — pending collection-wide check
+
+**Important: this is a temporary working alert, not a confirmed finding.**
+
+There is a concern that, in at least one essay, material that should have remained a footnote may have been incorporated into the main text as an ordinary paragraph. This may have happened during transcription or formatting. The affected essay and passage have not yet been identified conclusively.
+
+**Action required:** Check the footnotes in all nine essays against their original published sources. For every footnote, verify that:
+
+- The footnote marker appears at the correct place in the main text.
+- The footnote wording is preserved accurately and remains a footnote, rather than appearing as an ordinary body paragraph.
+- The note is placed in the correct notes/footnotes area and is not missing, duplicated, or merged into the conclusion or another paragraph.
+- The sequence and numbering of footnotes match the source.
+
+**Essay 5 — Religions and the Aspirations of the People:** Pages 103–104 contain footnotes 1 and 2, and page 107 contains footnote 3. These notes are present in the current essay's Notes section. Their presence has been checked, but this does not replace a complete footnote-placement audit across all nine essays.
+
+Keep this alert open until the collection-wide check is completed. Record each essay checked and any correction made here, then remove this temporary alert only when the concern has been resolved.
+
 ## See also
 
 - [Editorial Source Audit — First Stage](/amaa/30-editorial-source-audit/)
