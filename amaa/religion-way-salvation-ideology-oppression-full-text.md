@@ -224,29 +224,29 @@ In some villages Holeyas and Madigas are not allowed to carry the goddess and th
 When the goddess leaves the village after the celebration, offerings of sari, blouse-piece and other things are made to her after the fashion of a daughter leaving her father's house.
 
 
-#### (e) An egalitarian spiritual practice during the Karaga
+#### *(e) An egalitarian spiritual practice during the Karaga*
 
 The Karaga, a mother goddess festival, popular among the villagers is an occasion for the people to go on a pilgrimage (Jatra) to Chikka Tirupathi in Malur taluk about 15 to 20 kms away. The pilgrims to Chikka Tirupathi are fed by the villagers either on their way or in Chikka Tirupathi itself. This feeding is called *Anna Chatra*. Well-to-do individual farmers among the Reddys and Vokkaligas or the whole village, including the Holeyas and Madigas, join together and conduct these feeding exercises. Some of these villages and individuals have their own permanent sheds in Chikka Tirupathi for *Anna Chatra*. The feeding may continue from one to three days or as long as one's provisions last. According to tradition, no caste discrimination is allowed in the feeding or partaking of the food.
 
-#### B. Greater Exclusion of Holeyas and Madigas from Brahminical Festivals
+#### *B. Greater Exclusion of Holeyas and Madigas from Brahminical Festivals*
 
-##### (a) Sri Ramanavami
+##### *(a) Sri Ramanavami*
 
-The festival of Ramanavami is observed in these villages among the Reddys, Gowdas, Lingayats and other professional castes. The worship takes place at the serpent shrine of the village called Rache where the photos of Sri Rama and others will be installed. While all the caste Hindus join in the worship, the Holeyas and Madigas watch it from a distance. A special preparation called *Panaka*, a beverage made of jaggery and pepper, is distributed at the end of the worship. The Holeyas and Madigas are given the *prasadam* in vessels brought by them and care is taken not to touch them during the distribution.
+The festival of Ramanavami is observed in these villages among the Reddys, Gowdas, Lingayats and other professional castes. The worship takes place at the serpent shrine of the village called Rache where the photos of Sri Rama and others will be installed. While all the caste Hindus join in the worship, the Holeyas and Madigas watch it from a distance. A special preparation called *Panaka*, a beverage made of jaggery and green gram, is distributed at the end of the worship. The Holeyas and Madigas are given the *prasadam* in vessels brought by them and care is taken not to touch them during the distribution.
 
-##### (b) Naga Panchami
+##### *(b) Naga Panchami*
 
 The women and children of the caste Hindus worship at the Rache by pouring milk and ghee over the snake idol. The Holeyas and Madigas are not allowed to worship at the Rache. They go to some anthill outside the village and worship there.
 
-##### (c) Dasara
+##### *(c) Dasara*
 
 During the Dasara festival all the villagers led by Reddys, Vokkaligas, Lingayats and other professional castes go to a spot outside the village where the cut branch of a Banni (a thorny tree with small eatable nuts) is planted. A caste Hindu priest shoots an arrow into the branch and if it gets well embedded into the branch it augurs well for the villagers. The caste Hindus follow the priest in shooting their own arrows into the branch. But the Holeyas and Madigas are excluded. But later, during the programmes of entertainment in front of the caste Hindu temple, all the villagers are allowed to join in playing kolata together. The Thoti beats the drum and the Hajamas play the pipe.
 
-##### (d) Deepavali
+##### *(d) Deepavali*
 
 This festival is observed for three days. The idol of goddess Gowramma is installed in public places, temples and rich landlords' houses. The temple priest of the caste Hindus will officiate at these places. The villagers place *mora*, a new winnowing fan, in the centre of their house filled with different foodgrains, coconuts, bananas, sweetmeats, betel nuts and leaves and other common articles of worship. After the home worship the winnowing baskets are taken to the temple or other places of worship where the Gowramma idol is installed. The priest receives *moras* of all the people and after offering them to the goddess returns them to the people. The Holeyas and Madigas do not enter the places of worship; their *moras* are received from outside and the priest takes them inside after sprinkling them with water to indicate an act of purification.
 
-#### C. Caste swallows the festival of Basava Jayanti
+#### *C. Caste swallows the festival of Basava Jayanti*
 
 Basava Jayanti, the birthday celebration of the reformer saint Basava, is observed in some of the villages. The festival occurs in April or May. We give here a brief description of its celebration as we observed it on the 3rd of May 1984 in the village of Heggon danahalli.
 
