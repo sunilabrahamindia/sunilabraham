@@ -548,7 +548,7 @@ def clean_source(path):
     # Promote its internal Markdown headings by one level beneath the essay H1.
     if full is not None:
         lines = [
-            re.sub(r"^(#{3,6})(?=[ \\t])", lambda match: match.group(1)[1:], line)
+            re.sub(r"^(#{3,6})(?=[ \t])", lambda match: match.group(1)[1:], line)
             for line in lines
         ]
     body = "\n".join(lines).strip()
