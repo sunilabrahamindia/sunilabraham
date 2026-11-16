@@ -24,8 +24,6 @@ This version preserves the original wording, structure, and formatting as presen
 6. [Postscript](#postscript)
 7. [Notes](#notes)
 
-A. M. Abraham Ayrookuzhiel,<sup id="ref-1"><a href="#note-1">*</a></sup> Bangalore
-
 ## A. Introduction {#introduction}
 
 When I was asked to write a paper on "The Aspirations of the People and the Role of Religion" for our discussion here on the Study of Religion, I promised my colleagues that I would try not to fabricate the aspirations of the people and the role of religion out of my own preconceptions and the predilections of the CISRS but would make a small attempt to discover some of these aspirations as ordinary men and women experience them in their life and how in that context they see religion. This was thought to be important because of the feeling among us that the context of our discussion on the Study of Religion should be set by the people and should not be set by the academic framework of a particular discipline. In this sense the first part of this paper is an attempt to understand the people's thoughts on the role of religion in the context of people's aspirations.
@@ -60,13 +58,13 @@ These aspirations of the veteran fighter are expressed differently in the philos
 
 Though each of these persons speaks in a particular context of *jati*, marriage, poverty, government servants, or religion, the basic categories of their aspirations are clear. These are freedom, equality and social justice. They, however, do not think that religion has any role to play in respect of these. They talk of employment, education, government, rational thinking etc. as the factors which are really important in the context of their aspirations. Not that they are against religion, but in the context of seeking success in life they would rather ignore it. Listen to P. Baskaran, a weaver: 'These days the key to success in life is in financial security. This does not depend on any particular religious faith. One has to work hard for it without using any foul means. ............ As far as I am concerned, I never tried to learn what religion teaches about how to live. I do not give any thought to it. I do not think that religion has any influence on people today. People of different religions work together. They discuss the realities of life quite independently of their religion. Perhaps I am saying this because I am a Hindu. Muslims may think differently. I do not know much about Christians.'
 
-M. Mukundan, a school teacher, would go even further. 'I do not think', he says, 'that in this struggle for a better life religion has any place. But it is a means of livelihood for some. Teachings like one should not harm others without reason', 'One should show compassion to the downtrodden', are they not natural human sentiments?<sup id="ref-2"><a href="#note-2">2</a></sup> You don't need religion for it. In fact, whatever progress man has made is due to the advance in scientific knowledge<sup id="ref-2"><a href="#note-2">2</a></sup> and free thinking.<sup id="ref-2"><a href="#note-2">2</a></sup> ............... I do not think religion has any place in the future scheme of things.'
+M. Mukundan, a school teacher, would go even further. 'I do not think', he says, 'that in this struggle for a better life religion has any place. But it is a means of livelihood for some. Teachings like one should not harm others without reason', 'One should show compassion to the downtrodden', are they not natural human sentiments?<sup id="ref-1"><a href="#note-1">2</a></sup> You don't need religion for it. In fact, whatever progress man has made is due to the advance in scientific knowledge<sup id="ref-1"><a href="#note-1">2</a></sup> and free thinking.<sup id="ref-1"><a href="#note-1">2</a></sup> ............... I do not think religion has any place in the future scheme of things.'
 
 But this is a rather tolerant view of religion compared with that of Mr. M. B. K., District Secretary, Rationalist Forum, Cannanore who is very clear about rationalists' aspirations and the positively harmful role of religion in the context of people's aspirations.
 
-'Our aim', he says, 'is human freedom. The highest goal is the good of the society.<sup id="ref-2"><a href="#note-2">2</a></sup> We are against all forms of exploitation whether it is political, economical or cultural'. What does the Secretary think about religion? 'Religion', M.B.K. says, 'brings about mental slavery. It makes people believe in a non-existent *sakti* and creates in them fear. People are made to expect help and well-being from it. They are told everything will go according to *vidhi* and *karmam*. This is what I call mental slavery. Instead of encouraging people to face their problems with intelligence and a free mind, they are made to sacrifice their initiative before the Will and pleasure of a *sakti*. ............................
+'Our aim', he says, 'is human freedom. The highest goal is the good of the society.<sup id="ref-1"><a href="#note-1">2</a></sup> We are against all forms of exploitation whether it is political, economical or cultural'. What does the Secretary think about religion? 'Religion', M.B.K. says, 'brings about mental slavery. It makes people believe in a non-existent *sakti* and creates in them fear. People are made to expect help and well-being from it. They are told everything will go according to *vidhi* and *karmam*. This is what I call mental slavery. Instead of encouraging people to face their problems with intelligence and a free mind, they are made to sacrifice their initiative before the Will and pleasure of a *sakti*. ............................
 
-'Religions are not interested in the future<sup id="ref-2"><a href="#note-2">2</a></sup> or the progress of human society. Look at the amount of money and wealth the temples, mosques and churches possess. Why don't they make use of it for removing the poverty and disease of common people, for education and industrialization of the country? ....................
+'Religions are not interested in the future<sup id="ref-1"><a href="#note-1">2</a></sup> or the progress of human society. Look at the amount of money and wealth the temples, mosques and churches possess. Why don't they make use of it for removing the poverty and disease of common people, for education and industrialization of the country? ....................
 
 'Our government is in fact promoting religion through school education and other media like radio. How can you build a classless and casteless society in India with all these religions around.'
 
@@ -114,13 +112,8 @@ The Christian participation in this type of Hindu-Christian dialogue would lie i
 
 <ol>
   <li id="note-1">
-    This is the paper on "CISRS and the Study of Religions in the context of People's Aspirations" presented at the CISRS Biennial Council by Rev. Abraham Ayrookuzhiel, who is a member of the CISRS Staff.
-    <a href="#ref-1">↩</a>
-  </li>
-
-  <li id="note-2">
     Note these phrases — they will be used in the argument presented in Part II B.
-    <a href="#ref-2">↩</a>
+    <a href="#ref-1">↩</a>
   </li>
 </ol>
 
