@@ -508,7 +508,6 @@ def clean_source(path):
                 or re.match(r"^<style\b", line.strip())), len(lines))
     lines = lines[:end]
     body = "\n".join(lines).strip()
-    body = re.sub(r"(?m)^\s*>\s?", "", body)
     body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
 
     # Exclude the web-only Contents list and introduction from the print body.
