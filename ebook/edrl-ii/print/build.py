@@ -794,6 +794,7 @@ common = r"""
   keywords: ("Dalits", "religion", "liberation", "A. M. Abraham Ayrookuzhiel"),
 )
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
+#set smartquote(enabled: false)
 """ + BODY_PAR + r"""
 #set heading(numbering: none, hanging-indent: 0pt)
 #show footnote: it => super(text(size: 14pt)[#it])
