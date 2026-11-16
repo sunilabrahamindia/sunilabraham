@@ -658,29 +658,6 @@ def md_to_typst(markdown, stem):
 
     def convert(segment, suffix):
         segment = segment.strip()
-        # Resolve ASCII single quotes paragraph by paragraph before Pandoc's
-        # smart-quote pass. Word-internal apostrophes are not quote delimiters.
-        # Pairing per paragraph prevents an unmatched apostrophe elsewhere in
-        # an essay from reversing the direction of a later closing quotation.
-        def normalise_single_quotes(paragraph):
-            paragraph = re.sub(r"(?<=\w)'(?=\w)", "’", paragraph)
-            positions = [i for i, char in enumerate(paragraph) if char == "'"]
-            if not positions:
-                return paragraph
-            pieces = []
-            last = 0
-            for index, position in enumerate(positions):
-                pieces.append(paragraph[last:position])
-                unpaired_final = len(positions) % 2 == 1 and index == len(positions) - 1
-                pieces.append("’" if unpaired_final or index % 2 else "‘")
-                last = position + 1
-            pieces.append(paragraph[last:])
-            return "".join(pieces)
-
-        segment = "".join(
-            part if part.startswith("\n") else normalise_single_quotes(part)
-            for part in re.split(r"(\n[ \t]*\n)", segment)
-        )
         if definitions:
             segment += "\n\n" + "\n\n".join(definitions)
         md = OUT / f"{stem}-{suffix}.md"
@@ -688,28 +665,6 @@ def md_to_typst(markdown, stem):
         md.write_text(segment, encoding="utf-8")
         run(["pandoc", str(md), "--from=markdown+smart+raw_attribute", "--to=typst", "--output", str(typ)])
         content = typ.read_text(encoding="utf-8")
-        # Pandoc's Typst writer serialises both single-quote delimiters as
-        # ASCII apostrophes. Typst then renders both as opening-style marks.
-        # Convert those delimiters to explicit Unicode opening/closing quotes.
-        # Word-internal apostrophes are already Unicode and are left untouched.
-        def typst_single_quotes(paragraph):
-            positions = [i for i, char in enumerate(paragraph) if char == "'"]
-            if not positions:
-                return paragraph
-            pieces = []
-            last = 0
-            for index, position in enumerate(positions):
-                pieces.append(paragraph[last:position])
-                unpaired_final = len(positions) % 2 == 1 and index == len(positions) - 1
-                pieces.append("’" if unpaired_final or index % 2 else "‘")
-                last = position + 1
-            pieces.append(paragraph[last:])
-            return "".join(pieces)
-
-        content = "".join(
-            part if part.startswith("\n") else typst_single_quotes(part)
-            for part in re.split(r"(\n[ \t]*\n)", content)
-        )
         # Paragraph separation is controlled only by the Typst par rules in
         # the template. Never inject spacing into the converted content.
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
@@ -1325,9 +1280,6 @@ parts[1] = parts[1].replace("@@FOREWORD_BODY@@", foreword_typst)
 
 write_heading_dividers()
 interior_text = "\n".join(parts)
-# Final safeguard: a single quotation mark after sentence punctuation is a
-# closing mark, never another opening mark. Apply after all Pandoc conversions.
-interior_text = re.sub(r"([.,;:!?])‘(?=\s|$)", r"\1’", interior_text)
 lint_typst(interior_text)
 interior_source = OUT / "edrl-ii-interior.typ"
 interior_source.write_text(interior_text, encoding="utf-8")
