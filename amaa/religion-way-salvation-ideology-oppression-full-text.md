@@ -294,7 +294,7 @@ There is also the autochthonous custom of Dasaiah who plays a similar role as th
 
 ## V. Socio-Political Conflicts and the Changing Character of Festivals
 
-Kugoor is one of the 20 villages we studied. It has 34 Holeya and 40 Reddy families. Among the Holeyas, all except four families own some land ranging from a few cents to six acres; but the majority has between one and two acres. The educated among the Holeyas are: 6 boys who have passed or have appeared for S.S.L.C. this year; two P.U.C. students and one B.A. There is also an engineer.
+Kathirguppe is one of the 20 villages we studied. It has 34 Holeya and 40 Reddy families. Among the Holeyas, all except four families own some land ranging from a few cents to six acres; but the majority has between one and two acres. The educated among the Holeyas are: 6 boys who have passed or have appeared for S.S.L.C. this year; two P.U.C. students and one B.A. There is also an engineer.
 
 About four years ago the government had sunk a borewell in the village. On one of his visits when the BDO of Anekal came to know that the Holeyas were not using the borewell, he encouraged them to take water from it as it was a public borewell. When the Holeyas started drawing water from it one man named G. Venkatappa Reddy saw them. He slapped one of the Holeya girls named Rathi, and told them not to use the borewell. In the evening Rathi's father Chikkamuniyappa started abusing Venkatappa Reddy in vulgar language. The Reddys felt offended and decided to call a Panchayat meeting and put a fine of Rs. 100 on Chikkamuniyappa. Finally with the intervention of the Panchayat Chairman, M. Anniah Reddy, a Janata party member, Chikkamuniyappa was forced to offer betel leaves and apologise to the Reddys.
 
