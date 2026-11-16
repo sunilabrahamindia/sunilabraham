@@ -25,13 +25,13 @@ The Hindus in Chirakkal who have a religious view of life almost invariably use 
 
 In the context of the above affirmation of faith in a power that transcends nature (*para *sakti*/prakritiyatita sakti*), if we ask them what are the reasons for holding on to a belief like this, the following are the kind of answers we get from a number of people. I have grouped them under eleven headings, with one or two examples for each type of reason. In the answers of people one or more of these reasons appear in different combinations.
 
-**(1) A sense of wonder about the Universe and its rhythm leads many people to affirm faith in a Universal power.**
+(1) A sense of wonder about the Universe and its rhythm leads many people to affirm faith in a Universal power.
 
 > When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great *sakti* is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) *sakti*. They will not happen (*nadakukayilla*) without a *sakti* . . .
 
 > The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of Daivam. If man thinks that there is no *sakti* above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
 
-**(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.**
+(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.
 
 From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
 
@@ -41,7 +41,7 @@ From their answers it appears that the genesis of this awareness is the experien
 
 It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *sakti* helps man to live.
 
-**(3) A third factor that leads people to affirm belief in a *sakti* is the experience of the fact that prayers are answered.** This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
+(3) A third factor that leads people to affirm belief in a *sakti* is the experience of the fact that prayers are answered. This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
 
 > According to my mother, I was born because of an offering (*nercha*) to Subramanyam. This makes me believe in the miracles of *Daivam* . . .
 
@@ -51,7 +51,7 @@ It is at such a time as this that we, almost without our knowledge, think of the
 
 Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* which are answered. It makes them believe in the validity of those forms of prayer as well as the gods who answer those prayers. (cf. any book on the *Mahatmyam* of a particular God. It will narrate stories of favour as evidence of the power and the reality of that god).
 
-**(4) The moral feeling that there is a *sakti* that rewards the righteous and punishes the wicked is another factor that leads to religious faith.** People also say that such a moral fear is necessary for man to walk the right path.
+(4) The moral feeling that there is a *sakti* that rewards the righteous and punishes the wicked is another factor that leads to religious faith. People also say that such a moral fear is necessary for man to walk the right path.
 
 > Those who walk in truth and in humility, *Daivam* prospers,  
 > Those who forget *Daivam* He punishes,
@@ -62,13 +62,13 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 > It is *Daivam* who rewards everyone according to His *karmam*.
 
-**(5) Many people are inspired to affirm faith in a *sakti* on seeing the great changes that take place in the lives of some people when they begin to believe in God.** They also say a belief in God is necessary for a virtuous life.
+(5) Many people are inspired to affirm faith in a *sakti* on seeing the great changes that take place in the lives of some people when they begin to believe in God. They also say a belief in God is necessary for a virtuous life.
 
 > When we see the sudden change in some people's lives, we believe. Belief in a *sakti* had changed their life. It gave them the ability to walk in the right path (*nervazhi*).
 
 > We can control ourselves if we believe and worship a *sakti*. We need a Power to guide and lead us in the right path. We need a *sakti* to lead us to good life.
 
-**(6) Experience of the presence and guidance of a *sakti* in their lives makes people believe in it.** Individuals claim the guidance and protection of a Power which, they say, confirmed them in their belief.
+(6) Experience of the presence and guidance of a *sakti* in their lives makes people believe in it. Individuals claim the guidance and protection of a Power which, they say, confirmed them in their belief.
 
 > I believe that every action in my life is done under *Daivam*'s guidance. I feel that *Daivam* is watching me all the time.
 
@@ -80,7 +80,7 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 > We obtain peace of mind if we think of *Daivam*. I pray and obtain peace of mind (*mana santi*). I have experienced Murugan's presence.
 
-**(7) "Our ancestors<sup id="ref-1"><a href="#note-1">1</a></sup> believed, therefore we believe" is the attitude of some others.** They believe that their ancestors cannot be wrong. They taught them to believe. They also say that so many people believe and all of them cannot be wrong.
+(7) "Our ancestors<sup id="ref-1"><a href="#note-1">1</a></sup> believed, therefore we believe" is the attitude of some others. They believe that their ancestors cannot be wrong. They taught them to believe. They also say that so many people believe and all of them cannot be wrong.
 
 > Our ancestors taught us to believe. I think that they knew better than we do.
 
@@ -88,25 +88,25 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 > Since all people around here, the whole society here, believe, it has become a habit with me. Since many people have belief (*visvasam*), there must be some *sakti*. Otherwise how can you explain all these people going to places like Sabarimala, Guruvayoor, Parassini etc.
 
-**(8) That faith is faith's own proof is the argument of many people.**
+(8) That faith is faith's own proof is the argument of many people.
 
 > God is there for the one who believes and not for the one who does not believe. It depends on one's own state of mind.
 
 > Power of God (*Daiva sakti*) is the power of belief (*visvasa sakti*). If we believe in *Daivam*, there will be blessings (*anugraham*) of that *sakti*. There is no doubt about it. The *sakti* exists for the believer (*visvasikkunnavan*). A stone has *sakti* if we believe in it. Everything depends on our belief (*visvasam*). A rationalist (*yukti vadi*) has no experience of this because he has no belief (*visvasam*).
 
-**(9) Hope of life after death is another reason.**
+(9) Hope of life after death is another reason.
 
 > In the rainy season a lot of grass comes up; in the summer it dries up. We do not pay much attention to it. It is difficult to think that man is subject to the same conditions, that he is born, lives for a little while, dies and there is nothing more to it. All religions (*matam*) teach that it is not the life here and its pleasures that matter but the life hereafter and the eternal happiness (*nitya santi*) that comes with it. Hinduism (*Hindu matam*) believes that it is after many births one is born as man. It is the amount of good and bad deeds (*papa punya pravarti*) that one does in one's life that determines what kind of next life he will merit. It is *Daivam* who decides all these. *Daivam* has given man the ability to discern what is good and what is bad. If one forgets all this and lives as he likes he will suffer for it.
 
 > When man's abilities fail, *Daivam*'s mercy comes to aid him. My father's health is failing. I am almost led to pray lest it happen as I fear. It was unusual that I prayed the other day when father wanted me to take him to temple. I went and returned after praying with him.
 
-**(10) The gods show signs.** Signs believed to be from gods led some people to affirm faith in gods.
+(10) The gods show signs. Signs believed to be from gods led some people to affirm faith in gods.
 
 > If we do not offer hair, something will go wrong. It may be that a member of the family will suddenly take ill, or some money has got to be spent unexpectedly on something or the other.
 
 > There are many *saktis* in this world. Man is under the influence of these *saktis*. It is not possible for man to live as he pleases. If we do not give to these *saktis* what is their due, they will show certain signs (*Lakshanam/adayalam*). For instance Pottan *Daivam* is the *Daivam* of our community (*samudayam*). We are bound to offer whatever has been offered to him for generations. If this is not done, some sign will be shown. Sometimes we may not understand these signs. But we can get them interpreted with the help of *kanisan* (astrologer).<sup id="ref-2"><a href="#note-2">2</a></sup>
 
-**(11) Fear of Punishment.** The *saktis* have shown their pleasure and anger in the form of favour and punishment.
+(11) Fear of Punishment. The *saktis* have shown their pleasure and anger in the form of favour and punishment.
 
 > Kuttichattan will finish me if I make any change in his traditional dance dress.
 
