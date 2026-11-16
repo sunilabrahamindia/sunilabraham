@@ -564,8 +564,14 @@ def clean_source(path):
         for item in source_note_items
         if item.get("id", "").startswith("note-")
     }
+    # Include references inside protected Markdown blockquotes in the audit.
+    # They are temporarily absent from body_soup until restored for Pandoc.
+    reference_soup = BeautifulSoup(
+        body + "\\n" + "\\n".join(blockquote_tokens.values()),
+        "html.parser",
+    )
     references = set()
-    for marker in body_soup.select('sup[id^="ref-"]'):
+    for marker in reference_soup.select('sup[id^="ref-"]'):
         target = marker.find("a", href=re.compile(r"^#note-"))
         if target:
             references.add(target.get("href", "")[len("#note-"):])
