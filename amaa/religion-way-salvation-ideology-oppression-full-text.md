@@ -258,19 +258,19 @@ Free food was served to the entire village and to passers by. The Thoti of the v
 
 In the observance of rites of passage the villagers move between the Brahminical and Autochthonous practices in varying degrees according to the caste. The implication of this situation to the Holeyas and Madigas from the point of view of their aspiration to social equality will be discussed in the conclusion. But first let us have the facts regarding the observance of these rites.
 
-### (a) Birth and naming of the Child
+### *(a) Birth and naming of the Child*
 
 On the occasion of a child's birth, the general convention, though not commonly observed among the landed castes like the Reddys and Vokkaligas, is to consult a Brahmin astrologer, called *Purohit*, regarding the naming of the child. The astrologer according to the star of the child, gives a letter to the parents which should be the first letter of the name chosen.
 
-The professional castes like potters, washermen, carpenters, blacksmiths and barbers, follow the same practice, though they do not have a strict convention of their own. The Lingayats have their own *Siddha* for consultation.
+The professional castes like potters, washermen, carpenters, blacksmiths and barbers, follow the same practice, though they do not have a strict convention of their own. The Lingayats have their own *Sastri* for consultation.
 
 The traditional practice among the Holeyas and Madigas is that they themselves name their child. But in case the baby gets sick often or the mother has a restless child, they take him to the weekly shandy in Malur and consult one of the Korama women who by tradition are makers of bamboo baskets. The Korama woman prays over the child and gives him a new name. But in recent years several Holeyas and Madiga families, from among the moderately well-to-do and politically active members of the community as well as from the agricultural labourers, consult the Brahmin pandit.
 
-### (b) *Mudi* (Hair-cutting)
+### *(b) Mudi (Hair-cutting)*
 
 The hair of a child is cut for the first time after worshipping the family god. The most common family god among all castes except the Lingayats and Brahmins for the purpose of *Mudi* ceremony is Muneshwara. The ceremony can be conducted without the help of a priest. A few hairs of the child are cut by the maternal uncle and later the head is clean shaved by the barber serving the community. Those who perform the ceremony at the Muneshwara temple sacrifice a fowl to the god and prepare a meal with it either at the temple or at home. The priest himself cooks the food for the Holeyas and, after taking his share, returns the rest to them. Wealthy families from among the Reddys, Vokkaligas, Bovis, etc. also go to distant places like Chikka Tirupathi, Mulbagal, Tirupathi in A.P. and conduct the ceremony according to the Brahminical tradition of the place. The Brahmin families of this area go to temples connected with their families in Kadani, Nanjungud or to the famous Tirupathi temple. The Lingayats go to their own centres in Mastanahalli or Balemahalli near Anekal. The Madigas also have a centre of their own in Bannerghatta where most members of the community go for the *Mudi* ceremony.
 
-### (c) Marriage
+### *(c) Marriage*
 
 The general practice among all castes, including Holeyas and Madigas is to consult a Brahmin or Lingayat astrologer on the occasion of the marriage. If the name and the star of the bride agree with those of the bridegroom, the time and date of the marriage is fixed in consultation with the astrologer.
 
