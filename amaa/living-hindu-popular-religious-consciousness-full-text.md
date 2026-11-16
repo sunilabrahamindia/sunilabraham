@@ -9,6 +9,30 @@ page_id: TSAP-1356
 created: 2026-10-27
 ---
 
+This essay examines the living popular Hindu religious consciousness through a study conducted in Chirakkal near Cannanore, Kerala. It explores how ordinary Hindus understand and experience religious faith, the reasons for their worship, the relationship between religious symbols and social values, and changing interpretations of traditional concepts. In its second part, the essay reflects on these findings in the context of Hindu-Christian dialogue.
+
+## Contents
+
+1. [Introduction](#introduction)
+2. [I. Description of the Living Hindu Popular Religious Consciousness](#i-description-of-the-living-hindu-popular-religious-consciousness)
+   - [A. The manner in which ordinary Hindus affirm a religious belief](#a-the-manner-in-which-ordinary-hindus-affirm-a-religious-belief)
+   - [B. The Reasons of their religious outlook in life](#b-the-reasons-of-their-religious-outlook-in-life)
+   - [C. The mode in which they experience their belief in *parasakti*](#c-the-mode-in-which-they-experience-their-belief-in-parasakti)
+   - [Two Approaches to Religious Rituals](#two-approaches-to-religious-rituals)
+   - [D. Moral values and traditional practices of purity and pollution (*suddhi* and *assuddhi*) go into the making of their God-conception.](#d-moral-values-and-traditional-practices-of-purity-and-pollution-suddhi-and-assuddhi-go-into-the-making-of-their-god-conception)
+     - [What is *papam* or *adharmam*?](#what-is-papam-or-adharmam)
+     - [*Papam*](#papam)
+     - [*Punyam*](#punyam)
+     - [God-conception and the traditional practices of purity and pollution (*suddhi* and *asuddhi*)](#god-conception-and-the-traditional-practices-of-purity-and-pollution-suddhi-and-asuddhi)
+   - [E. The reasons for which people worship their gods](#e-the-reasons-for-which-people-worship-their-gods)
+   - [F. Attitudinal changes towards the symbols of faith](#f-attitudinal-changes-towards-the-symbols-of-faith)
+   - [G. The Pattern of Changes in the Understanding of concepts like *karmam*, *samaya dosam*, rebirth, of evil spirit](#g-the-pattern-of-changes-in-the-understanding-of-concepts-like-karmam-samaya-dosam-rebirth-of-evil-spirit)
+3. [II. Personal Reflections on Popular Religious Consciousness in the Context of Hindu-Christian dialogue](#ii-personal-reflections-on-popular-religious-consciousness-in-the-context-of-hindu-christian-dialogue)
+   - [1. Does the popular Hindu religious experience allow itself to be described in terms of classical Hindu philosophical systems such as Advaita Vedanta, Visishta Advaita, Dvaita, etc.?](#1-does-the-popular-hindu-religious-experience-allow-itself-to-be-described-in-terms-of-classical-hindu-philosophical-systems-such-as-advaita-vedanta-visishta-advaita-dvaita-etc)
+   - [2. Basic similarities in the perception of human condition and common religious experiences](#2-basic-similarities-in-the-perception-of-human-condition-and-common-religious-experiences)
+   - [3. Hindu-Christian dialogue to evolve a common value system: Problem and Possibility](#3-hindu-christian-dialogue-to-evolve-a-common-value-system-problem-and-possibility)
+4. [Notes](#notes)
+
 ## Introduction
 
 This paper is divided into two parts. The first part is a description of some of the aspects of the living Hindu faith as discovered in a place called Chirakkal near Cannanore in Kerala. In this section, the manner in which Hindus affirm a religious belief, the reasons of their religious outlook in life, the mode in which their belief in a *parasakti* is experienced in their rituals, two types of values that go into the making of their conception of a *parasakti*, the reasons of their worship, attitudinal changes towards symbols of their faith, the pattern of changes in the understanding of concepts like *karma, Samaya dosam*, rebirth and evil spirits are dealt with. But on some of these points only summary statements are made without citing the factual evidence for them, for reasons of space. This part I call the description of the living popular Hindu religious consciousness. The second part contains some of my reflections on these data in the context of Hindu-Christian dialogue.
