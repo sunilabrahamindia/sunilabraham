@@ -691,7 +691,7 @@ def md_to_typst(markdown, stem):
         # Pandoc can occasionally emit an opening single quotation mark where
         # a closing mark follows sentence punctuation. Correct that direction
         # in the generated Typst text; word-internal apostrophes are unaffected.
-        content = re.sub(r"([.,;:!?])‘(?=\\s|$)", r"\\1’", content)
+        content = re.sub(r"([.,;:!?])‘(?=\s|$)", r"\1’", content)
         # Paragraph separation is controlled only by the Typst par rules in
         # the template. Never inject spacing into the converted content.
         if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
