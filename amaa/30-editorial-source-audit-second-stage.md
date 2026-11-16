@@ -142,7 +142,7 @@ This section will be updated as individual source checks are undertaken. Each en
 
 ### Essay 2 — Religion, Spirituality and Aspirations of the People
 
-**Source compared:** The original *Religion and Society*, Vol. XXV, No. 1 (March 1978), printed pages 1 and 364–368, against `amaa/religion-spirituality-and-aspirations-of-the-people-full-text.md`. The opening page and the supplied consecutive page images 364–368 were compared with the current digital essay text.
+**Source compared:** The original *Religion and Society*, Vol. XXV, No. 1 (March 1978), printed pages 1 and 364–374, against `amaa/religion-spirituality-and-aspirations-of-the-people-full-text.md`. The opening page and the supplied consecutive page images 364–368 were compared with the current digital essay text.
 
 **Source corrections and formatting changes made**
 
@@ -152,6 +152,9 @@ This section will be updated as individual source checks are undertaken. Each en
 - **Page 366:** Restored italics to *Man should respect the feelings of one's fellow beings* and *action, and open thinking*.
 - **Page 367:** Restored italics to *Bhavan's Journal* and *They discuss the realities of life quite independently of their religion*.
 - **Page 368:** Restored italics to *natural human sentiments*, *scientific knowledge*, *free thinking*, *good of the society*, *future* and *progress of human society*.
+- **Pages 369–370:** Restored italics to *united struggle as the working class*; *such a struggle possible within the framework of religions*; *substituted with words like, "labour union" and "strike"*; *rational thinking*; *free thinking and education*; *failed to bring about equality of men though they have been preaching for ages that all men are children of God*; *out of consciousness that people are human beings*; *in a religion which looks at every man as man*; *government laws*; *Man should understand the sufferings of other people*; and the final *free thinking*.
+- **Pages 371–372:** Restored italics to the opening continuation, *in their religion mechanisms and social structures what can bring about or promote their aspirations for values like freedom, equality, fraternity and social justice*.
+- **Pages 373–374:** Restored italics to *an organic growth of conception and meaning among people*, preserving the italicisation across the page break.
 
 **Differences examined but not changed**
 
@@ -166,13 +169,14 @@ This section will be updated as individual source checks are undertaken. Each en
 - Printed pages 364 and 365 were supplied together and are consecutive.
 - Printed pages 366 and 367 were supplied together and are consecutive.
 - Printed page 368 was reviewed separately.
-- No missing page was identified in the supplied sequences. The supplied pages 364–368 were checked against the corresponding digital passage.
+- Printed pages 369 and 370, 371 and 372, and 373 and 374 were supplied in consecutive pairs and compared with the corresponding digital passages.
+- No missing page was identified in the supplied sequences. The supplied pages 364–374 were checked against the corresponding digital passage.
 
 **Verification and status**
 
 The essay file was fetched again after each approved set of changes. The heading, spelling correction and italicisation changes listed above were verified in the repository. No other essay text was intentionally changed during these updates.
 
-**Status:** Opening page and printed pages 364–368 compared. Approved heading, spelling and italicisation corrections applied. Footnote numbering and the *Sakti/sakti* capitalisation question remain unchanged.
+**Status:** Opening page and printed pages 364–374 compared. Approved heading, spelling and italicisation corrections through page 374 applied. Footnote numbering and the *Sakti/sakti* capitalisation question remain unchanged.
 
 ### Essay 4 — The Church and the Study of Religion
 
