@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>123 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>124 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -56,11 +56,13 @@ Sections and entries within each section are arranged alphabetically.
 Inclusion in this list does not imply endorsement or regular use. Websites may be added as we discover, explore, and evaluate them. The list will evolve over time, and resources may be removed if they are no longer useful or relevant.
 
 ## Artificial Intelligence {#artificial-intelligence}
-1. [AI News Hub](https://aienews.org/), aggregates AI-related updates from multiple sources, including research labs, open-source projects and AI companies. Useful for scanning developments across the AI ecosystem in one place; check the linked sources for context and verify how frequently the feed is updated.
-2. [Artificial Analysis](https://artificialanalysis.ai/), tracks and compares AI models using evaluations and measurements such as model performance, speed and pricing. Useful for comparing models and checking how new releases perform beyond their providers' own claims.
-3. [ArtificialWatch](https://artificialwatch.com/), tracks AI model releases and provides structured information about availability, release announcements and API pricing. Its release log can help distinguish API availability from an official announcement, while its data feeds support ongoing monitoring.
-4. [Onei AI](https://onei.ai/), provides a searchable directory of AI apps, agent skills and Model Context Protocol (MCP) servers. Its categories and filters help discover AI tools and integrations, including resources for coding agents and assistants.
-5. [Toolify.ai](https://www.toolify.ai/), is a searchable directory of AI tools and services, organised by categories such as writing, image generation, video, coding, productivity and research. Useful for discovering specialised tools that may otherwise be difficult to find. Its listings and popularity rankings are not independent quality assessments, and some placements are paid; verify each tool's pricing, privacy practices and capabilities on its official website.
+
+1. [Claude Code Templates](https://www.aitmpl.com/), is an open-source catalogue and command-line installer for reusable Claude Code components, including specialised agents, skills, slash commands, hooks, MCP server configurations, settings, loops and extensions. Components can be browsed, inspected and installed using its CLI. The project also provides an API for accessing its catalogue programmatically. Its MIT-licensed tools are free to use, although individual components should be inspected before installation, particularly those that execute code or access external services.
+2. [AI News Hub](https://aienews.org/), aggregates AI-related updates from multiple sources, including research labs, open-source projects and AI companies. Useful for scanning developments across the AI ecosystem in one place; check the linked sources for context and verify how frequently the feed is updated.
+3. [Artificial Analysis](https://artificialanalysis.ai/), tracks and compares AI models using evaluations and measurements such as model performance, speed and pricing. Useful for comparing models and checking how new releases perform beyond their providers' own claims.
+4. [ArtificialWatch](https://artificialwatch.com/), tracks AI model releases and provides structured information about availability, release announcements and API pricing. Its release log can help distinguish API availability from an official announcement, while its data feeds support ongoing monitoring.
+5. [Onei AI](https://onei.ai/), provides a searchable directory of AI apps, agent skills and Model Context Protocol (MCP) servers. Its categories and filters help discover AI tools and integrations, including resources for coding agents and assistants.
+6. [Toolify.ai](https://www.toolify.ai/), is a searchable directory of AI tools and services, organised by categories such as writing, image generation, video, coding, productivity and research. Useful for discovering specialised tools that may otherwise be difficult to find. Its listings and popularity rankings are not independent quality assessments, and some placements are paid; verify each tool's pricing, privacy practices and capabilities on its official website.
 
 ## Data Protection and Privacy Law {#data-protection}
 1. [Centre for Applied Data Protection](https://cadp.in/), an India-focused research centre working on data protection law and policy, privacy jurisprudence and implementation of the Digital Personal Data Protection Act. Explore its publications and research outputs for legal and policy analysis.
