@@ -17,6 +17,8 @@ The article argues that the study of religion should be approached from the pers
 ## Contents
 
 1. [Full text](#full-text)
+   - [The Structural factor in Religion](#the-structural-factor-in-religion)
+   - [The realm of meanings and symbols](#the-realm-of-meanings-and-symbols)
 2. [Publication](#publication)
 3. [Notes](#notes)
 
