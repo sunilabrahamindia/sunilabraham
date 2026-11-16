@@ -395,7 +395,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
 <li id="note-42">
-  Hans Staffner, S.J., <em>The Significance of Jesus Christ in Asia</em>, Gujarat Sahitya Prakash, Anand; M.M. Thomas, <em>The Acknowledged Christ of Hinduism</em>, CLS, Madras.
+  cfr. Hans Staffner, S.J. <em>The Significance of Jesus Christ in Asia</em>, Gujarat Sahitya Prakash, Anand. M.M. Thomas, <em>Acknowledged Christ of Hinduism</em>, CLS, Madras.
   <a href="#ref-42">↩</a>
 </li>
   
