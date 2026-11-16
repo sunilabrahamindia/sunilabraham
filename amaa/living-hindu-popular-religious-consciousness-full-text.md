@@ -231,19 +231,19 @@ Another important and the most frequently mentioned reason for prayer and worshi
 
 Some of the answers of people are given below which give us an idea of the basic attitudes in the worship of gods, as well as to other reasons which prompt people to pray and worship:
 
-1. 'I believe that a sense of God (*Daivavicaram*) is good. The blessing of God (*Iswaranugraham*) is necessary to our lives. It is also a pleasure (*rasam*) to see places like Guruvayoor, Sabarimala.'
-2. 'Tozhunnat (prayer) is good. It helps in life. I pray so that my life may proceed without difficulty.'
-3. 'I go to temple to pray (*tozhan*) and meet friends.'
-4. 'To fulfil an offering (*vazhipad*) that had been promised. Show children the festival (*utsavam*).'
-5. 'To give first rice to children, meet friends, to see the cultural programmes (*kala paripadis*).'
-6. 'I pray so that my life may proceed without much difficulty. I believe that Mukamiamma will help me in this; to give first rice to children.'
-7. 'I go to temples to do the rituals (*chadang*) that are to be done. *Daivam*'s *sakti* is in the world. It is necessary to think of it.'
-8. 'Visiting temples is *punyam* (virtuous act). I pray for protection from illness and bad times.'
-9. 'Visiting the temple is a good habit (*nalla silam*). It is a tradition (*mura*) we follow.'
-10. 'I pray asking for *Daivasahayam*.'
-11. 'I pray for deliverance from poverty and ill-health.'
-12. 'I go to temples to see *utsavam* (festival) and to fulfil the *nercha* (promised offering).'
-13. 'I visit temples for *santosam* (to feel happy) and give offering (*nercha*). When I have rupees ten or five I feel like going to Parassini.'
+(i) 'I believe that a sense of God (*Daivavicaram*) is good. The blessing of God (*Iswaranugraham*) is necessary to our lives. It is also a pleasure (*rasam*) to see places like Guruvayoor, Sabarimala.'
+(ii) 'Tozhunnat (prayer) is good. It helps in life. I pray so that my life may proceed without difficulty.'
+(iii) 'I go to temple to pray (*tozhan*) and meet friends.'
+(iv) 'To fulfil an offering (*vazhipad*) that had been promised. Show children the festival (*utsavam*).'
+(v) 'To give first rice to children, meet friends, to see the cultural programmes (*kala paripadis*).'
+(vi) 'I pray so that my life may proceed without much difficulty. I believe that Mukamiamma will help me in this; to give first rice to children.'
+(vii) 'I go to temples to do the rituals (*chadang*) that are to be done. *Daivam*'s *sakti* is in the world. It is necessary to think of it.'
+(viii) 'Visiting temples is *punyam* (virtuous act). I pray for protection from illness and bad times.'
+(ix) 'Visiting the temple is a good habit (*nalla silam*). It is a tradition (*mura*) we follow.'
+(x) 'I pray asking for *Daivasahayam*.'
+(xi) 'I pray for deliverance from poverty and ill-health.'
+(xii) 'I go to temples to see *utsavam* (festival) and to fulfil the *nercha* (promised offering).'
+(xiii) 'I visit temples for *santosam* (to feel happy) and give offering (*nercha*). When I have rupees ten or five I feel like going to Parassini.'
 
 ### F. Attitudinal changes towards the symbols of faith
 
