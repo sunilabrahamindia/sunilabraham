@@ -285,7 +285,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
 </li>
 
   <li id="note-20">
-    A.M.A. Ayrookuzhiel, ibid.
+    A.M.A. Ayrookuzhiel, <em>ibid.</em>
     <a href="#ref-20">↩</a>
   </li>
 
