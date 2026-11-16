@@ -21,7 +21,7 @@ The first-stage audit dealt primarily with consistency and presentation within t
 6. [Religion: A Way of Salvation or an Ideology of Oppression?](https://sunilabraham.in/amaa/religion-way-salvation-ideology-oppression-full-text/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/religion-way-salvation-ideology-oppression-full-text.md)) ✅
 7. [Dalit Theology: A Movement of Counter-Culture](https://sunilabraham.in/amaa/dalit-theology-movement-counter-culture-full-text/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/dalit-theology-movement-counter-culture-full-text.md))
 8. [Dalit Liberation—Some Reflections on Their Ideological Predicament](https://sunilabraham.in/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md))
-9. [The Ideological Nature of the Emerging Dalit Consciousness](https://sunilabraham.in/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md))
+9. [The Ideological Nature of the Emerging Dalit Consciousness](https://sunilabraham.in/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md)) ✅
 
 ## Purpose
 
