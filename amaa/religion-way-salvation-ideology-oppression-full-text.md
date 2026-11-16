@@ -203,11 +203,11 @@ If there are Brahmins and Lingayats in the village they do not take part in the 
 
 #### (c) Gangamma festival
 
-The Gangamma festival is celebrated in a village when the water tank gets full in any year. Money is collected from all the villagers and a buffalo is bought for the occasion and taken in a procession to the village tank. The procession is led by Reddys, Vokkaligas, Kumbaras, Agasas, Hajamas, Acharis and others in front with lamps, and the Holeyas and Madigas follow at a little distance. A boat (*tappa*) made out of plantain trunk by the Thoti of the village is floated in the tank with lamps in it. The buffalo is sacrificed near the tank and the meat is distributed among the Holeyas.
+The Gangamma festival is celebrated in a village when the water tank gets full in any year. Money is collected from all the villagers and a buffalo is bought for the occasion and taken in a procession to the village tank. The procession is led by Reddys, Vokkaligas, Kumbaras, Agasas, Hajamas, Acharis and others in front with lamps, and the Holeyas and Madigas follow at a little distance. A boat (*tappa*) made out of plantain trunk by the Thoti of the village is floated in the tank with lamps in it. The buffalo is sacrificed near the tank and the carcass is distributed among the Holeyas.
 
 The priest, if he happens to be a Brahmin or Lingayat, performs the *puja* and leaves the place prior to the animal sacrifice. The drum is beaten by the village Thoti and the pipe is played by the caste Hindu or Holeya barber.
 
-#### (d) Sapplamma festival
+#### (d) *Sapplamma festival*
 
 This festival which has the status of *Ur habba* or village festival in this area, is that of the goddess Sapplamma, believed to be one of seven sisters. The belief in seven mother goddesses who are sisters is very common in the villages of South India.<sup id="ref-4"><a href="#note-4">4</a></sup>
 
