@@ -244,6 +244,12 @@ The first-stage Editorial Source Audit records the form **Brahminical** as the s
 
 **Status:** Open — manual review and editorial decision pending.
 
+### Essay 9 — page 21: capitalisation of "Vedic" and "Puranic"
+
+The printed source uses lowercase *vedic* and *puranic* in the phrase "vedic and puranic myths" (page 21). The current digital text uses *Vedic* and *Puranic*. This difference is recorded for manual editorial consideration. It is not being treated as an automatic transcription correction, and no change to the essay source is authorised at this stage.
+
+**Status:** Open — retain the current capitalisation pending a manual decision.
+
 ## See also
 
 - [Editorial Source Audit — First Stage](/amaa/30-editorial-source-audit/)
