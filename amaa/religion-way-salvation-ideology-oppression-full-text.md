@@ -342,7 +342,7 @@ We have come across some empirical evidence which suggests that the political an
     <li>To remind the individuals and households, who have taken upon themselves some responsibility or activity connected with the village festivals of their duty the night before the festival.</li>
     <li>To beat the drum in funeral rites' festivals.</li>
     <li>To help revenue authorities in collecting dues.</li>
-    <li>To do any announcing or auctioning of any property by the Government.</li>
+    <li>To do any announcing of auctioning of any property by the Government.</li>
     <li>To dig burial pits for the caste Hindus.</li>
     <li>In some villages he has to get firewood ready for shraddha in the families of the landlords.</li>
   </ol>
