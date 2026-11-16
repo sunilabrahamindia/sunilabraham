@@ -64,8 +64,6 @@ def write_heading_dividers():
 </svg>""", encoding="utf-8")
 AUTHOR_PHOTO_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/a-m-a-ayrookuzhiel-print-book-photo-01.png"
 AUTHOR_PHOTO = OUT / "author-portrait.png"
-SIGNATURE_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/tito-dutta-signature-edrl-ii.png"
-SIGNATURE = OUT / "editor-signature.png"
 HALF_TITLE_ORNAMENT = OUT / "half-title-ornament.svg"
 COVER_URL = "https://raw.githubusercontent.com/sunilabrahamindia/sunilabrahammedia/main/amaa/edrl-ii-front-cover-v-0.4.png"
 COVER = OUT / "edrl-ii-cover.png"
@@ -97,10 +95,6 @@ def download(url, dest, label, validator):
 
 def fetch_author_photo():
     download(AUTHOR_PHOTO_URL, AUTHOR_PHOTO, "Author photograph",
-             lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
-
-def fetch_signature():
-    download(SIGNATURE_URL, SIGNATURE, "Editor signature",
              lambda d: d.startswith(bytes.fromhex("89504e470d0a1a0a")))
 
 def fetch_cover():
@@ -791,7 +785,6 @@ if len(essays) != 9:
 
 fetch_cover()
 fetch_author_photo()
-fetch_signature()
 fetch_back_cover()
 fetch_full_wrap_cover()
 common = r"""
@@ -1160,7 +1153,6 @@ I personally take this opportunity to express my gratitude to the family of A. M
 #v(10pt)
 #align(right)[
   #set par(justify: false, first-line-indent: 0pt, leading: 9.35pt, spacing: 0pt)
-  #image("editor-signature.png", width: 34mm, fit: "contain")
   #linebreak()
   #v(-2pt)
   #text(size: 11pt, weight: "bold")[Tito Dutta]
