@@ -246,7 +246,7 @@ During the Dasara festival all the villagers led by Reddys, Vokkaligas, Lingayat
 
 This festival is observed for three days. The idol of goddess Gowramma is installed in public places, temples and rich landlords' houses. The temple priest of the caste Hindus will officiate at these places. The villagers place *mora*, a new winnowing fan, in the centre of their house filled with different foodgrains, coconuts, bananas, sweetmeats, betel nuts and leaves and other common articles of worship. After the home worship the winnowing baskets are taken to the temple or other places of worship where the Gowramma idol is installed. The priest receives *moras* of all the people and after offering them to the goddess returns them to the people. The Holeyas and Madigas do not enter the places of worship; their *moras* are received from outside and the priest takes them inside after sprinkling them with water to indicate an act of purification.
 
-#### *C. Caste swallows the festival of Basava Jayanti*
+#### C. Caste swallows the festival of *Basava Jayanti*
 
 Basava Jayanti, the birthday celebration of the reformer saint Basava, is observed in some of the villages. The festival occurs in April or May. We give here a brief description of its celebration as we observed it on the 3rd of May 1984 in the village of Heggon danahalli.
 
