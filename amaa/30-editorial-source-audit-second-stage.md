@@ -20,7 +20,7 @@ The first-stage audit dealt primarily with consistency and presentation within t
 5. [Religions and the Aspirations of the People](https://sunilabraham.in/amaa/religions-and-the-aspirations-of-the-people/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/religions-and-the-aspirations-of-the-people.md)) ✅
 6. [Religion: A Way of Salvation or an Ideology of Oppression?](https://sunilabraham.in/amaa/religion-way-salvation-ideology-oppression-full-text/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/religion-way-salvation-ideology-oppression-full-text.md)) ✅
 7. [Dalit Theology: A Movement of Counter-Culture](https://sunilabraham.in/amaa/dalit-theology-movement-counter-culture-full-text/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/dalit-theology-movement-counter-culture-full-text.md)) ✅
-8. [Dalit Liberation—Some Reflections on Their Ideological Predicament](https://sunilabraham.in/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md))
+8. [Dalit Liberation—Some Reflections on Their Ideological Predicament](https://sunilabraham.in/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md)) ✅
 9. [The Ideological Nature of the Emerging Dalit Consciousness](https://sunilabraham.in/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/) ([repository source](https://github.com/sunilabrahamindia/sunilabraham/blob/main/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md)) ✅
 
 ## Purpose
@@ -261,6 +261,30 @@ Pages 2–3 were not verified against the printed source during this second-stag
 - Automatic print builds triggered by edits to the nine essay source files have been temporarily suspended.
 - Manual print builds and the other specified production-file triggers remain available.
 - The suspension is temporary and must be reviewed and reversed when the source-checking period is complete.
+
+### Essay 8 — pages 47–52
+
+**Source compared:** Printed pages 47–52 of *Dalit Liberation—Some Reflections on Their Ideological Predicament* against `amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md`.
+
+**Corrections made**
+
+- **Page 49 — “Ambedkar's Insights”, first paragraph:** Italicised *must* in the phrase “community representation for his people would be a must”.
+- **Page 52 — paragraph beginning “I do not think that Dalits have any other option...”:** Italicised *hartal* in “Several towns in the area observed hartal for days together” and *laddus* in “public processions and distribution of laddus!”
+
+**Other checks and decisions**
+
+- **Page 47:** The opening text was checked. No wording correction was required. The difference between lowercase “their” in the printed title and “Their” in the digital title was retained. The author-identification footnote was not added, consistent with the established treatment of such notes in this collection.
+- **Page 48:** The readable text was checked. The lower portion of the scan is obscured; the continuation in the digital text was assessed for sense and continuity, but that obscured portion could not be verified word for word.
+- **Page 49:** The suggested italics for “religious authority” were checked manually and deliberately not changed.
+- **Page 50:** No change was made to “religious authority”, in keeping with the decision on page 49.
+- **Pages 51–52:** The text, paragraph sequence, section headings “A False Assumption” and “The Only Option”, and the conclusion were checked against the supplied scans. No wording correction was required.
+- The printed author-identification note remains omitted. No numbered scholarly footnote correction was identified in the supplied pages.
+
+**Verification and status**
+
+Both approved italicisation changes were committed to the Essay 8 source and the revised file was fetched again from GitHub to verify them. No other source changes were made during this comparison.
+
+**Status:** Printed pages 47–52 reviewed. Two italicisation corrections applied and verified. Essay 8 source comparison is complete through its final printed page, page 52. The obscured portion at the foot of page 48 remains a scan limitation, not a verified transcription correction.
 
 ### Essay 9 — pages 22–23
 
