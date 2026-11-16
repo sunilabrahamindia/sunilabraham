@@ -531,7 +531,7 @@ def clean_source(path):
         heading_tokens[token] = match.group(0)
         return token
 
-    body = re.sub(r"(?m)^#{1,6}[ \\t]+[^\\n]+$", protect_heading, body)
+    body = re.sub(r"(?m)^#{1,6}[ \t]+[^\n]+$", protect_heading, body)
 
     # Preserve Markdown blockquotes while BeautifulSoup processes embedded HTML.
     # BeautifulSoup treats Markdown's leading ">" as plain text, and its HTML
@@ -541,10 +541,10 @@ def clean_source(path):
     def protect_blockquote(match):
         token = f"TSAP_MARKDOWN_BLOCKQUOTE_{len(blockquote_tokens)}_PRESERVE"
         blockquote_tokens[token] = match.group(0).rstrip()
-        return "\\n\\n" + token + "\\n\\n"
+        return "\n\n" + token + "\n\n"
 
     body = re.sub(
-        r"(?m)(?:^>[^\\n]*(?:\\n|$))+(?:\\n(?=>[^\\n]*(?:\\n|$)))*",
+        r"(?m)(?:^>[^\n]*(?:\n|$))+(?:\n(?=>[^\n]*(?:\n|$)))*",
         protect_blockquote,
         body,
     )
