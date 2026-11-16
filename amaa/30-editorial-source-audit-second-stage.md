@@ -318,6 +318,26 @@ The Essay 7 source was updated with the two corrections above and fetched again 
 
 **Status:** Printed pages 88–89 compared. Two corrections applied and verified.
 
+### Essay 7 — pages 90–91
+
+**Source compared:** Printed pages 90–91 of *Dalit Theology: A Movement of Counter-Culture* against `amaa/dalit-theology-movement-counter-culture-full-text.md`.
+
+**Correction made**
+
+- **Page 91 — footnote 18:** Corrected the bibliographic details to match the printed source. The note now reads: *Building up the Church in Andhra Pradesh, An Interdisciplinary Study* by Jyotirmai, Hyderabad, p. 66. The report title remains italicised.
+
+**Other checks**
+
+- The main text on pages 90–91 was compared; no wording or completeness correction was identified.
+- Italicisation in the checked text and titles was consistent.
+- Footnote markers 16–19 and their corresponding notes were checked. No other correction was identified on these pages.
+
+**Verification and status**
+
+Footnote 18 was updated in the Essay 7 source and the revised note was fetched again to verify the change.
+
+**Status:** Printed pages 90–91 compared. One correction to footnote 18 applied and verified.
+
 ## Footnote verification alert — pending collection-wide check
 
 **Important: this is a temporary working alert, not a confirmed finding.**
