@@ -284,13 +284,13 @@ In recent years several educated and well-employed Holeyas and Madigas have cele
 
 
 
-### (d) Death
+### *(d) Death*
 
 The general custom among all the castes, except Brahmins, is burial. The pit for the burial is dug by the Holeyas and it is purified with cowdung water before the burial. The Holeyas or Madigas beat the drum and blow the pipe during the funeral procession. Everyone, including the Holeyas and Madigas, who accompany the procession put a handful of mud on the corpse before it is buried.
 
 On the 11th or 12th day the Brahmin priest comes for the ritual of Vaikunda Samaradhana, helping the dead person's passage from earth to heaven. Lingayats have their own priest for this ritual.
 
-There is also the autochthonous custom of Dasaiah who plays a similar role as that of the Brahmin. He comes to the house on the 11th or 12th day after the funeral. He beats a gong and announces that such-and-such a person expired on such-and-such a day and what time, and had gone to heaven. He wishes him/her well. The Dasaiahs observe no caste rules and they serve all people, including the Holeyas. There are also Dasaiahs from the Holeya community. Generally the Dasaiahs come from communities like Togata (weaver), Yele (betel leaf), Balajiga and Kumbara.
+There is also the autochthonous custom of Dasaiah who plays a similar role as that of the Brahmin. He comes to the house on the 11th or 12th day after the funeral. He beats a gong and announces that such-and-such a person expired on such-and-such a day and what time, and had gone to heaven. He wishes him/her well. The Dasaiahs observe no caste rules and they serve all people, including the Holeyas. There are also Dasaiahs from the Holeya community. Generally the Dasaiahs come from communities like Togata (weaver), Yele (betel leaf), Balajiga and Kurubas.
 
 ## V. Socio-Political Conflicts and the Changing Character of Festivals
 
