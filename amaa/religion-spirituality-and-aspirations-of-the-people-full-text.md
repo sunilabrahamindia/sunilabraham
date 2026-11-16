@@ -16,7 +16,7 @@ This version preserves the original wording, structure, and formatting as presen
 
 ## Contents
 
-1. [Introduction](#introduction)
+1. [A. Introduction](#introduction)
 2. [I. Aspirations of the People and People's Understanding of the Role of Religion as a Social Force in This Context](#aspirations)
 3. [II. A. The Need for a 'Spirituality of Combat' to Promote People's Aspirations: A Cultural Point of View](#spirituality-of-combat)
 4. [B. Approach to the Study of Hinduism in the Context of People's Aspirations](#study-of-hinduism)
@@ -112,7 +112,7 @@ The Christian participation in this type of Hindu-Christian dialogue would lie i
 
 <ol>
   <li id="note-1">
-    This is the paper on "CISRS and the Study of Religions in the context of People's Aspirations" presented at the CISRS Biennial Council by Rev. Abraham Ayrookuzhiel, who is a member of the CISRS Staff.
+    This is the paper on "CISRS and the Study of Religions in the context of People's Aspirations" presented at the CISRS Biennial Council by Rev. Abraham Ayrookuzhiel.
     <a href="#ref-1">↩</a>
   </li>
 
