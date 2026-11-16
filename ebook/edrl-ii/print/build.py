@@ -669,10 +669,10 @@ def md_to_typst(markdown, stem):
         # the normal first-line indent to it. Indent this heading locally only.
         if stem == "essay-3":
             target = re.compile(
-                r"(?m)^(?=[^\\n]*\\(2\\) Another factor that leads many people "
+                r"(?m)^(?=[^\n]*\(2\) Another factor that leads many people "
                 r"to affirm a religious faith is the awareness)"
             )
-            content, count = target.subn("#h(12.1pt)\\n", content, count=1)
+            content, count = target.subn("#h(12.1pt)\n", content, count=1)
             if count != 1:
                 raise SystemExit(
                     "Could not locate the exact section (2) heading in Essay 3 Typst output."
