@@ -923,6 +923,10 @@ common = r"""
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 9pt, spacing: 0pt)
   #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
 ]
+#show heading.where(level: 5): it => block(above: 10pt, below: 6pt, breakable: false)[
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 8pt, spacing: 0pt)
+  #text(size: 11pt, weight: "bold", hyphenate: false)[#it.body]
+]
 """
 if not FOREWORD_SOURCE.is_file():
     raise SystemExit(f"Missing foreword source: {FOREWORD_SOURCE}")
