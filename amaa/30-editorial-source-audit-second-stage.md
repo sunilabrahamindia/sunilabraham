@@ -304,6 +304,26 @@ Both approved italicisation changes were committed to the Essay 8 source and the
 
 **Status:** Pages 22–23 compared. Audit recorded; no source correction required or applied.
 
+### Essay 3 — pages 17–20
+
+**Source compared:** Printed pages 17–20 of *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue* against `amaa/living-hindu-popular-religious-consciousness-full-text.md`.
+
+**Correction made**
+
+- **Page 20 — Section F, first paragraph:** Restored the omitted words after “Siva, Vishnu,”. The sentence now reads: “In popular Hindu religious consciousness the experience of the sacred is mediated not only through the many gods such as Siva, Vishnu, Kali, Lakshmi etc. but also through a number of other symbols.”
+
+**Other checks**
+
+- **Page 17:** The text, continuation, italicised Indic terms and footnote 6 were checked. No correction was required.
+- **Pages 18–19:** The continuation, Section E, all thirteen examples and the transition to Section F were checked. No correction was required. The digital Arabic numbering (1–13), in place of the printed Roman numbering (i–xiii), was retained.
+- **Page 20:** Section G, the beginning of Part II, the first numbered question and footnote 7 were checked. No further correction was required.
+
+**Verification and status**
+
+The restored sentence was committed to the Essay 3 source and fetched again from GitHub to verify the exact wording. Pages 17–20 have now been checked in sequence, filling the previously outstanding gap at pages 18–19.
+
+**Status:** Pages 17–20 compared. One omission on page 20 corrected and verified. No other source changes made in this page sequence.
+
 ### Essay 3 — pages 23–25
 
 **Source compared:** Printed pages 23–25 of *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue* against `amaa/living-hindu-popular-religious-consciousness-full-text.md`.
