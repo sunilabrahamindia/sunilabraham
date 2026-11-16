@@ -31,7 +31,9 @@ In the context of the above affirmation of faith in a power that transcends natu
 
 > The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of Daivam. If man thinks that there is no *sakti* above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
 
-**(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.** From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
+**(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.**
+
+From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
 
 > When I survey my life and what I see around me, I am convinced that it is not man who rules this world but the *sakti* of *Daivam*. For things do not turn out as man desires. When we see the rise and fall of individuals we think of that *sakti*. It reminds us of the lines of Punthanam who said:
 
