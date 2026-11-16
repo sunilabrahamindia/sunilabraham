@@ -916,15 +916,15 @@ common = r"""
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 3): it => block(above: 16pt, below: 14pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 16.8pt, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 11.2pt, spacing: 0pt)
   #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 4): it => block(above: 14pt, below: 14pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 14.4pt, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 9.6pt, spacing: 0pt)
   #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 #show heading.where(level: 5): it => block(above: 14pt, below: 14pt, breakable: false)[
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 13.2pt, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 8.8pt, spacing: 0pt)
   #text(size: 11pt, weight: "bold", hyphenate: false)[#it.body]
 ]
 """
