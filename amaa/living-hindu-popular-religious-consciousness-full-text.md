@@ -250,13 +250,13 @@ In popular Hindu religious consciousness the experience of the sacred is mediate
 
 Empirical evidence from Chirakkal suggests that these traditional sacred symbols do not mediate one religious meaning for all people. For instance, while some people believe that Sai Baba is an *avatar* of Bhagavan, others consider him a clever magician or a confidence trickster. While some Hindus hold that Aswatha vriksham (*Arayal*) is the symbol (*samkalpam*) of all gods, that Tulasi is Lakshmi, that Ganges is Vishnu, others say that they have learnt in school that such expressions in our language are "remnants of old nature worship". How can we worship the moon they ask, when the Americans have landed on it? Fire walking by Teechamundi *teyyam* (god) is considered "big fun" (*tamasa*) by them. His *urachil attam* (possession dance) does not impress them except for its aesthetic value. Anyone, they say, can do it with some courage.
 
-### G. The Pattern of Changes in the Understanding of Concepts like *karmam*, *samaya dosam*, rebirth, of evil spirit
+### G. The Pattern of Changes in the Understanding of concepts like *karmam*, *samaya dosam*, rebirth, of evil spirit
 
 These are key concepts in the Hindu religious tradition with which ordinary people interpret their experience of joy and suffering and give structure and shape to their time and space.
 
 Here again empirical study of these concepts—in Chirakkal, reveal that these faith categories are used by people only in areas and situations in their lives which cannot be interpreted in terms of logic and reason. But the pattern is so varied that we cannot speak of any uniform and static meaning for these concepts.<sup id="ref-7"><a href="#note-7">7</a></sup>
 
-## II. Personal Reflections on Popular Religious Consciousness in the Context of Hindu-Christian Dialogue
+## II. Personal Reflections on Popular Religious Consciousness in the Context of Hindu-Christian dialogue
 
 ### 1. Does the popular Hindu religious experience allow itself to be described in terms of classical Hindu philosophical systems such as Advaita Vedanta, Visishta Advaita, Dvaita, etc.?
 
