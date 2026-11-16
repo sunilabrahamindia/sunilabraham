@@ -211,7 +211,7 @@ The challenging task is to translate these political ideas to blend with the cul
   </li>
 
   <li id="note-5">
-    Report of the Commissioner for SC &amp; ST, 1978-1979, p.119.
+    Report of the Commissioner for SC &amp; ST, 1978–1979, p.119.
     <a href="#ref-5">↩</a>
   </li>
 
