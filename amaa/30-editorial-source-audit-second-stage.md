@@ -132,6 +132,23 @@ This section will be updated as individual source checks are undertaken. Each en
 
 **Status:** Pages 86–91 compared. Approved corrections applied to the Essay 1 source; no changes were made to the print builder or to other essay files.
 
+
+### Essay 5 — Religions and the Aspirations of the People
+
+**Source compared:** The original *Religion and Society*, Vol. XXX, Nos. 3 & 4 (September–December 1983), pp. 102–108, against `amaa/religions-and-the-aspirations-of-the-people.md`. The supplied page images were reviewed in sequence: 102, 103–104, 105, 106–107 and 108. No page in the supplied sequence was missing.
+
+**Source correction made**
+
+- **Page 105:** Extended the italics to the complete sentence beginning “When a religion attaches itself to concrete power interests in a society...” and ending “...the power interests of a particular section.” This sentence continues the italicised passage across the page break from page 104.
+
+**Other findings**
+
+- No other source-text correction was made during this comparison.
+- The author footnote on the opening page is not part of the essay text and was not added.
+- Footnotes 1 and 2 (pages 103–104) and footnote 3 (page 107) have corresponding entries in the essay's Notes section. Their presence and placement were checked. The exact wording of footnote 3 has not yet been certified by a complete word-for-word transcription comparison; do not treat this entry as closing the collection-wide footnote verification alert above.
+
+**Status:** Pages 102–108 reviewed. One approved italicisation correction applied on page 105. No other edits made to Essay 5.
+
 ### Current status — 16 November 2026
 
 - The second-stage audit page has been created as a separate record linked to the first-stage audit.
