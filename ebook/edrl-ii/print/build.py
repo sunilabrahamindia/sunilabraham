@@ -1307,6 +1307,9 @@ parts[1] = parts[1].replace("@@FOREWORD_BODY@@", foreword_typst)
 
 write_heading_dividers()
 interior_text = "\n".join(parts)
+# Final safeguard: a single quotation mark after sentence punctuation is a
+# closing mark, never another opening mark. Apply after all Pandoc conversions.
+interior_text = re.sub(r"([.,;:!?])‘(?=\\s|$)", r"\\1’", interior_text)
 lint_typst(interior_text)
 interior_source = OUT / "edrl-ii-interior.typ"
 interior_source.write_text(interior_text, encoding="utf-8")
