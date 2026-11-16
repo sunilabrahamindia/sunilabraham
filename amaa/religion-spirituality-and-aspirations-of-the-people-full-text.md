@@ -102,7 +102,7 @@ In the first part of this paper we have seen some of the basic aspirations of th
 
 ## C. Hinduism in Dialogue with the Contemporary World {#dialogue}
 
-From what I have said in the previous paragraphs it is clear that Hinduism is in dialogue with the rest of the world, and that it is to be understood as an organic cultural process. Dialogue in this sense is not merely exchanging notes between two or more groups having expert views on different symbol systems of people's self-conception, but an organic growth of conception and meaning among people through their interaction in a complex of social structures like schools, trade unions, political parties, religious institutions, voluntary organizations, etc.
+From what I have said in the previous paragraphs it is clear that Hinduism is in dialogue with the rest of the world, and that it is to be understood as an organic cultural process. Dialogue in this sense is not merely exchanging notes between two or more groups having expert views on different symbol systems of people's self-conception, but *an organic growth of conception and meaning among people* through their interaction in a complex of social structures like schools, trade unions, political parties, religious institutions, voluntary organizations, etc.
 
 ## Postscript {#postscript}
 
