@@ -638,6 +638,25 @@ def clean_source(path):
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
     cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
 
+    # Essay 6: the first label under subsection B follows a heading whose
+    # local paragraph settings suppress the normal first-line indent. Restore
+    # the same 12.1pt indent used by the later B labels.
+    if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
+        section_b_first_label = re.compile(
+            r"^<p><strong>\\(a\\) <em>Sri Ramanavami</em></strong></p>$", re.M
+        )
+        replacement = (
+            "```{=typst}\n"
+            "#block(width: 100%, above: 14pt, below: 14pt)[\n"
+            "  #set par(justify: false, first-line-indent: 12.1pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
+            '  #text(weight: "bold")[(a) #emph[Sri Ramanavami]]\n'
+            "]\n"
+            "```"
+        )
+        cleaned, count = section_b_first_label.subn(replacement, cleaned, count=1)
+        if count != 1:
+            raise SystemExit("Essay 6 Section B first festival label formatting check failed")
+
     # Essay 6: render the five parallel festival labels as explicit, flush-left
     # bold paragraph blocks, independent of the surrounding body indentation.
     if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
