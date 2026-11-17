@@ -97,6 +97,29 @@ Keep the heading review focused. Do not make unrelated content or formatting cha
 
 This section will be updated as individual checks are undertaken. Each entry should distinguish what was examined, what was found, what decision was made, what source change was authorised and what remains unresolved.
 
+### Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends
+
+**Source examined:** `amaa/state-of-hinduism-in-2000-ad-full-text.md`, with the original *Indian Journal of Theology*, Vol. 26, No. 2 (April–June 1977), and the current EDRL II print proof. The heading and its presentation were checked against the journal page supplied for this audit. The earlier source-verification findings for pages 86–91 remain recorded in the [second-stage audit](/amaa/30-editorial-source-audit-second-stage/).
+
+**Heading corrections made**
+
+- **Page 87:** Changed the subsection heading "The Great Majority Would Continue to Opt for a Religious View of Life" to sentence case: "The great majority would continue to opt for a religious view of life", matching the original journal.
+- Updated the corresponding entry in the website Contents list to the same sentence-case wording.
+- **Numbered statements 1–6 after "The Secular Option":** Replaced the H3 heading markup with separate paragraph elements. Each numbered statement remains on its own line/paragraph, with the explanatory text beginning in the following paragraph. The headings are bold, not wholly italicised; existing italics for Indic terms, including *saktis* in item 1, are retained.
+- The wording and sequence of the six numbered statements were retained. No explanatory body text was rewritten.
+
+**Print-proof observation**
+
+The rebuilt proof was reviewed after these changes. The heading for item 5 appears at the foot of page 9, while its explanatory paragraph begins on the following page. This is recorded as a page-layout observation for consideration in the print-layout review; no pagination adjustment has been made as part of this source correction.
+
+**Verification and status**
+
+- The source was fetched again after the changes. The sentence-case heading, matching Contents entry and six separate bold paragraph headings were confirmed in the repository.
+- The rebuilt PDF was visually checked by the user. The six items now appear as numbered bold paragraph headings rather than H3 section headings.
+- No changes were made to the print builder or to the wording of the explanatory paragraphs during this heading pass.
+
+**Status:** Essay 1 heading review and approved source corrections completed. The page-9 placement of item 5 is noted separately for print-layout consideration.
+
 ## Progress
 
 The audit is in progress. No essay or style rule will be marked complete until the relevant review, decision and verification have been recorded.
