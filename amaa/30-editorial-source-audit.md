@@ -4,6 +4,7 @@ title: "Editorial Source Audit: Capitalisation and Italicisation of Indic Words 
 permalink: /amaa/30-editorial-source-audit/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Essay-wise source audit of capitalisation and italicisation of Indic words and terms across the nine essays in Essays on Dalits, Religion and Liberation II."
+page_id: TSAP-1383
 created: 2026-11-15
 ---
 

@@ -4,6 +4,7 @@ title: "File Extension Coverage Gap in Page Indexing and Page ID Assignment (11 
 description: "Documentation of the file-extension coverage gap affecting the TSAP Pages Index and Page ID assignment scripts, the inclusion of SVG pages, and the introduction of a repository-wide Page ID audit."
 categories: [TSAP Documentation, TSAP Incidents]
 permalink: /tsap/file-extension-coverage-page-index-page-ids/
+page_id: TSAP-1379
 created: 2026-11-11
 ---
 

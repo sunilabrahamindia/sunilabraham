@@ -4,6 +4,7 @@ title: "Editorial Source Audit: Second Stage — Source Verification for Essays 
 permalink: /amaa/30-editorial-source-audit-second-stage/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Second-stage editorial source audit for Essays on Dalits, Religion and Liberation II, recording further source checks, verification findings, corrections and the temporary suspension of automatic print builds on essay edits."
+page_id: TSAP-1385
 created: 2026-11-16
 ---
 

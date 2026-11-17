@@ -6,6 +6,7 @@ categories: [Centre for Internet and Society, Elonnai Hickok]
 date: 2016-03-11
 source: "Centre for Internet and Society"
 permalink: /elonnai/gni-industry-dialogue-learning-session-human-rights-impact-assessments/
+page_id: TSAP-1384
 created: 2026-11-15
 ---
 

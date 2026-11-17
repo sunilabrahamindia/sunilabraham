@@ -4,6 +4,7 @@ title: "Word Frequency Analysis and Subject Index Research: Essays on Dalits, Re
 permalink: /amaa/30-print-book-production-index-research/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Word-frequency analysis and manual identification of candidate subjects for the scholarly index of Essays on Dalits, Religion and Liberation II by A. M. Abraham Ayrookuzhiel."
+page_id: TSAP-1381
 created: 2026-11-13
 ---
 

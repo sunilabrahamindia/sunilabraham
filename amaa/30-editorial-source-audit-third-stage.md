@@ -4,6 +4,7 @@ title: "Editorial Source Audit: Third Stage — Heading Consistency and Manual o
 permalink: /amaa/30-editorial-source-audit-third-stage/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Third-stage editorial source audit for Essays on Dalits, Religion and Liberation II, focusing on heading consistency, the preparation and application of a manual of style, and related source-verification work."
+page_id: TSAP-1386
 created: 2026-11-17
 ---
 

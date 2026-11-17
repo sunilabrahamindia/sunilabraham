@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2018-01-15
 source: "Governance Now"
 permalink: /elonnai/another-step-towards-privacy-law/
+page_id: TSAP-1382
 created: 2026-11-14
 ---
 

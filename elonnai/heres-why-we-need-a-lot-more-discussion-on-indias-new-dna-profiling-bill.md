@@ -7,6 +7,7 @@ categories: [Elonnai Hickok]
 date: 2017-08-07
 source: "Hindustan Times"
 permalink: /elonnai/heres-why-we-need-a-lot-more-discussion-on-indias-new-dna-profiling-bill/
+page_id: TSAP-1380
 created: 2026-11-12
 ---
 
