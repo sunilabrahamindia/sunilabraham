@@ -1309,7 +1309,7 @@ At the time of his death on 29 November 1996, Abraham Ayrookuzhiel was working o
     [6.]
   } else if title == [Dalit Theology: A Movement of Counter-Culture] {
     [7.]
-  } else if title == [Dalit Liberation — Some Reflections on Their Ideological Predicament] {
+  } else if title == [Dalit Liberation—Some Reflections on Their Ideological Predicament] {
     [8.]
   } else if title == [The Ideological Nature of the Emerging Dalit Consciousness] {
     [9.]
