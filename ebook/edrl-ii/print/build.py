@@ -643,7 +643,7 @@ def clean_source(path):
     # the same 12.1pt indent used by the later B labels.
     if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
         section_b_first_label = re.compile(
-            r"^\\*\\*\\(a\\) \\*Sri Ramanavami\\*\\*\\*$", re.M
+            r"^\*\*\(a\) \*Sri Ramanavami\*\*\*$", re.M
         )
         replacement = (
             "```{=typst}\n"
