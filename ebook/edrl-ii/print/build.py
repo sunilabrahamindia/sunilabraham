@@ -204,8 +204,7 @@ def typst_escape(value):
         str(value)
         .replace("\\", "\\\\")
         .replace("#", "\\#")
-        .replace("[", "\\[")
-        .replace("]", "\\]")
+        .replace("[", "\\[") .replace("]", "\\]")
         .replace("$", "\\$")
     )
 
@@ -375,7 +374,7 @@ def extract_footnotes_and_clean(markdown, promote_wrapped_headings=False):
         return "\n\n" + token + "\n\n"
 
     markdown = re.sub(
-        r"(?m)(?:^>[^\n]*(?:\n|$))+(?:\n(?=>[^\n]*(?:\n|$)))*",
+        r"(?m)(?:^>[^\n]*(?:\n|$))+(?:\n(?=>[^\n]*(?:\n\vert{}$)))*",
         protect_blockquote,
         markdown,
     )
@@ -519,8 +518,9 @@ def extract_footnotes_and_clean(markdown, promote_wrapped_headings=False):
             definitions.append(definition)
         cleaned += "\n\n" + "\n\n".join(definitions)
     for token, blockquote in blockquote_tokens.items():
-        cleaned = cleaned.replace("<p>" + token + "</p>", blockquote)
-        cleaned = cleaned.replace(token, blockquote)
+        cleaned = cleaned.replace("<p>" + token + "</p>", "\n\n" + blockquote + "\n\n")
+        cleaned = cleaned.replace(token, "\n\n" + blockquote + "\n\n")
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
     return cleaned
 
 def clean_source(path):
@@ -615,8 +615,9 @@ def clean_source(path):
         body_soup.append(item)
     body = body_soup.decode_contents()
     for token, blockquote in blockquote_tokens.items():
-        body = body.replace("<p>" + token + "</p>", blockquote)
-        body = body.replace(token, blockquote)
+        body = body.replace("<p>" + token + "</p>", "\n\n" + blockquote + "\n\n")
+        body = body.replace(token, "\n\n" + blockquote + "\n\n")
+    body = re.sub(r"\n{3,}", "\n\n", body)
 
     note_ids = {
         item.get("id", "")[len("note-"):]
@@ -900,13 +901,12 @@ common = r"""
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
 #set smartquote(enabled: false)
 """ + BODY_PAR + r"""
+#show quote.where(block: true): set block(above: 14pt, below: 14pt)
 #show quote.where(block: true): it => block(
   inset: (left: 1em, right: 1em),
-  above: 6pt,
-  below: 6pt,
 )[
   #set text(size: 11pt)
-  #set par(justify: true, leading: 9pt, first-line-indent: 0pt, hanging-indent: 0pt, spacing: 0pt)
+  #set par(justify: true, leading: 9pt, first-line-indent: 0pt, hanging-indent: 0pt, spacing: 8pt)
   #it.body
 ]
 #set heading(numbering: none, hanging-indent: 0pt)
@@ -1103,7 +1103,7 @@ parts.append(r"""
         row-gutter: 8.25pt,
         align: (left, left),
         [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
-        [#text(size: 9.5pt)[https://sunilabraham.in]],
+        [#text(size: 9.5pt)[[https://sunilabraham.in](https://sunilabraham.in)]],
         [],
         [#text(size: 9.5pt)[publications\@sunilabraham.in]],
         [],
@@ -1167,7 +1167,7 @@ parts.append(r"""
           #set par(justify: false, first-line-indent: 0pt, leading: 15.2pt, spacing: 0pt)
           #text(size: 8pt, weight: "bold", fill: luma(85))[E-BOOK]
           #v(5.5pt)
-          #text(size: 8.5pt)[For e-book download options, visit: https://sunilabraham.in/edrl-ii]
+          #text(size: 8.5pt)[For e-book download options, visit: [https://sunilabraham.in/edrl-ii](https://sunilabraham.in/edrl-ii)]
         ]
       ]
     ]
