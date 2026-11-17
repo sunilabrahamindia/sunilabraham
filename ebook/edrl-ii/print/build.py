@@ -299,7 +299,7 @@ def html_table_to_typst(table):
             [1.8, 1.0, 1.2],
         ("Caste", "Fully employed: own farm / other work",
          "Agriculture + wage labour", "Landless wage labour"):
-            [1.4, 1.65, 1.5, 1.25],
+            [1.6, 1.7, 1.45, 1.05],
         ("Caste", "Up to SSLC", "SSLC and PUC", "Degree",
          "Non-agricultural professions and government jobs"):
             [1.55, 0.85, 1.0, 0.7, 1.9],
@@ -318,9 +318,17 @@ def html_table_to_typst(table):
     else:
         ratios = [2.0] + [1.0] * (width - 1)
     font_size = "8.2pt" if width == 3 else "8pt"
+    essay6_table4 = header_key == (
+        "Caste",
+        "Fully employed: own farm / other work",
+        "Agriculture + wage labour",
+        "Landless wage labour",
+    )
 
     def cell_content(value, header_cell=False, row_label=False):
         value = typst_escape(value)
+        if header_cell and essay6_table4:
+            return f"table.cell(align: left, breakable: false)[#text(size: 7.5pt)[*{value}*]]"
         if header_cell or row_label:
             return f"table.cell(align: left, breakable: false)[*{value}*]"
         return f"table.cell(breakable: false)[{value}]"
@@ -342,7 +350,8 @@ def html_table_to_typst(table):
         "  table(\n"
         f"  columns: ({', '.join(f'{ratio}fr' for ratio in ratios)}),\n"
         "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
-        "  inset: (x: 3pt, y: 3.5pt),\n"
+        ("  inset: (x: 2.5pt, y: 3.5pt),\n" if essay6_table4
+         else "  inset: (x: 3pt, y: 3.5pt),\n")
         "  stroke: (x, y) => (\n"
         "    bottom: if y == 0 { 0.8pt + luma(90) } else { 0.35pt + luma(175) },\n"
         "  ),\n"
