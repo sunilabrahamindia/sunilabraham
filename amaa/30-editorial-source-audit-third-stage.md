@@ -73,6 +73,12 @@ A Manual of Style will be developed from the editorial decisions and evidence ga
 
 The manual may address headings, capitalisation, italicisation, Indic and regional-language terms, quotations, punctuation, references, notes and other relevant editorial conventions. Each rule will be recorded with its scope, rationale and any necessary exceptions.
 
+### Important checklist
+
+**Italicisation in headings:** Italicise only the Indian-language words and expressions in a heading. Keep English words in roman type, even when they appear beside an italicised Indian word. For example, write *Gangamma* festival, not *Gangamma festival*. If a heading consists entirely of an Indian-language word, italicise the whole word (for example, *Papam* or *Punyam*).
+
+Apply this rule consistently across all nine essays. Do not italicise an entire mixed-language heading merely because it contains an Indian-language term.
+
 ### 3. Other editorial and source-verification matters
 
 Other issues may be recorded where they arise during the review. They will be assessed in context and kept distinct from the principal heading and Manual of Style work. Any correction will be documented with its evidence and verification.
@@ -137,6 +143,21 @@ The rebuilt proof was reviewed after these changes. The heading for item 5 appea
 - No changes were made to the print builder or to the wording of the explanatory paragraphs during this heading pass.
 
 **Status:** Essay 1 heading review and approved source corrections completed. The page-9 placement of item 5 is noted separately for print-layout consideration.
+
+### Essay 3 — The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue
+
+**Source examined:** `amaa/living-hindu-popular-religious-consciousness-full-text.md`, with the original printed-page screenshots supplied during this review.
+
+**Findings and decision**
+
+- Reviewed the existing heading hierarchy from H2 to H4, including the A-G subsections and the lower-level headings "What is papam or adharmam?", "Papam", "Punyam" and "God-conception and the traditional practices of purity and pollution...".
+- The original printed presentation supports retaining these distinctions. Keep all existing H2, H3 and H4 levels unchanged. No heading-level changes are required.
+- Checked the italicisation in the current headings against the rule recorded in the Important checklist. The source already italicises Indian-language words and expressions while keeping English words in roman type. Examples include *parasakti*, *papam*, *adharmam*, *Punyam*, *suddhi* and *asuddhi*.
+- A heading consisting entirely of an Indian-language word, such as *Punyam*, is italicised in full. In a mixed heading such as *Gangamma* festival, only the Indian-language word is to be italicised.
+
+**Source changes:** None. The current heading hierarchy and italicisation are retained.
+
+**Status:** Essay 3 heading hierarchy and heading italicisation reviewed. No source changes required.
 
 ## Progress
 
