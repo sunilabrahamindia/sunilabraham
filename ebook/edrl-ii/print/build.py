@@ -900,6 +900,7 @@ common = r"""
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
 #set smartquote(enabled: false)
 """ + BODY_PAR + r"""
+#show quote.where(block: true): set block(above: 0pt, below: 4pt)
 #set heading(numbering: none, hanging-indent: 0pt)
 #show footnote: it => super(text(size: 14pt)[#it])
 #set footnote.entry(
