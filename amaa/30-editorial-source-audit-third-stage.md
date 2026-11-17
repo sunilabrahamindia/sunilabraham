@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Source Verification for Heading Consistency and Manual of Style"
+title: "Editorial Source Audit: Third Stage — Heading Consistency and Manual of Style"
 permalink: /amaa/30-editorial-source-audit-third-stage/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Third-stage editorial source audit for Essays on Dalits, Religion and Liberation II, focusing on heading consistency, the preparation and application of a manual of style, and related source-verification work."
@@ -309,9 +309,30 @@ A short ornamental line beneath H2 headings was briefly tested in the print buil
 
 **Status:** Essay 8 heading review completed. Print promotion verified; no source corrections or italicisation changes required.
 
+### Essay 9 — The Ideological Nature of the Emerging Dalit Consciousness
+
+**Source examined:** `amaa/the-ideological-nature-of-the-emerging-dalit-consciousness.md`.
+
+**Heading hierarchy and print promotion**
+
+- The six internal section headings are H3 in the web source and are promoted to H2 in the print book under the heading-normalisation rule documented for GitHub issue #63.
+- The Notes heading is H2 in the web source and remains H2 in print.
+- The essay title remains H1. The website Contents and Full text wrapper are not internal essay headings.
+- No H4 or deeper headings occur. No hierarchy or nesting corrections are required.
+
+**Heading italicisation**
+
+- No Indian-language words or expressions occur in the six internal headings.
+- Two English headings were originally italicised in full: "a. Failure of the Ideology of Development and Gandhian Integration with the Caste Hindus" and "b. Failure of the Left Movement in India".
+- The italics were removed from both headings. They now appear entirely in roman type, in accordance with the Indian-language-word-only italicisation rule.
+
+**Source changes:** The two English headings were corrected to remove italics. No other heading wording or levels were changed.
+
+**Status:** Essay 9 heading hierarchy, print promotion and italicisation review completed. The two approved source corrections have been applied and verified. No further heading changes are required.
+
 ## Progress
 
-The audit is in progress. No essay or style rule will be marked complete until the relevant review, decision and verification have been recorded.
+The third-stage heading audit of all nine essays is complete. The heading hierarchies, print-level promotions and heading italicisation decisions have been reviewed and recorded. Approved source corrections have been applied and verified; items requiring no change have been explicitly recorded. The Manual of Style principles established during the work are documented above. No further heading corrections are pending in this audit.
 
 **Working principle: Inspect the source → identify the consistency question → establish the editorial rule → record the decision → make an approved correction → verify the result.**
 
