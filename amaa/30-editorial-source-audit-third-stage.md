@@ -11,7 +11,7 @@ created: 2026-11-17
 
 The first stage concentrated on capitalisation, italicisation, heading treatment and quotation punctuation across the collection. The second stage continued with page-by-page comparison of the essay texts against their original printed sources, recording differences, corrections, decisions and unresolved questions.
 
-This third stage will focus primarily on **heading consistency** across the nine essays and the development and application of a **Manual of Style** for the collection. Other editorial and source-verification matters may also be examined where they arise during the work. Findings, decisions, corrections and verification will be recorded here as the audit proceeds.
+This third stage will focus primarily on heading consistency across the nine essays and the development and application of a Manual of Style for the collection. Other editorial and source-verification matters may also be examined where they arise during the work. Findings, decisions, corrections and verification will be recorded here as the audit proceeds.
 
 ## The nine essays under review
 
