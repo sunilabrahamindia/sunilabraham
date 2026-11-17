@@ -900,9 +900,15 @@ common = r"""
 #set text(font: "Linux Libertine O", size: 11pt, lang: "en", hyphenate: false)
 #set smartquote(enabled: false)
 """ + BODY_PAR + r"""
-#show quote: set block(above: 6pt, below: 6pt)
-#show quote.where(block: true): set text(size: 11pt)
-#show quote.where(block: true): set par(leading: 9pt, first-line-indent: 0pt)
+#show quote.where(block: true): it => block(
+  inset: (left: 1em, right: 1em),
+  above: 6pt,
+  below: 6pt,
+)[
+  #set text(size: 11pt)
+  #set par(justify: true, leading: 9pt, first-line-indent: 0pt, hanging-indent: 0pt, spacing: 0pt)
+  #it.body
+]
 #set heading(numbering: none, hanging-indent: 0pt)
 #show footnote: it => super(text(size: 14pt)[#it])
 #set footnote.entry(
