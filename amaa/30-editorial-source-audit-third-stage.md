@@ -271,6 +271,22 @@ A short ornamental line beneath H2 headings was briefly tested in the print buil
 
 **Status:** Essay 6's heading review and approved source corrections are complete. The nine festival labels are consistently treated as bold paragraph labels in Sections A and B, with a shared print-rendering rule. The four H3 rites-of-passage headings follow the Indian-word-only italicisation rule. The H2 ornamental-line experiment has been reverted, leaving the original print styling in place.
 
+
+### Essay 7 — Dalit Theology: A Movement of Counter-Culture
+
+**Source examined:** `amaa/dalit-theology-movement-counter-culture-full-text.md`.
+
+**Findings and decision**
+
+- Reviewed the heading hierarchy. The source uses only H2 and H3 headings; no other heading levels are present.
+- The hierarchy was checked and found satisfactory. No heading-level changes are required.
+- The essay title contains no Indian-language term requiring italics under the collection's heading italicisation rule.
+- No other heading correction was identified.
+
+**Source changes:** None. The existing headings and title are retained.
+
+**Status:** Essay 7 heading review completed. No changes required.
+
 ## Progress
 
 The audit is in progress. No essay or style rule will be marked complete until the relevant review, decision and verification have been recorded.
