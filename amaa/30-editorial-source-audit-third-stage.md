@@ -208,6 +208,58 @@ The rebuilt proof was reviewed after these changes. The heading for item 5 appea
 
 **Status:** Essay 5 heading promotion checked in the print proof. No source-level heading or italicisation changes required.
 
+
+### Essay 6 — Religion: A Way of Salvation or an Ideology of Oppression?
+
+**Source examined:** `amaa/religion-way-salvation-ideology-oppression-full-text.md`.
+
+**Heading hierarchy review**
+
+- Reviewed the Markdown heading hierarchy from H2 to H5, working from the deepest level upwards.
+- The five festival labels originally marked as H5 headings — "(a) Makara Sankranti", "(a) Sri Ramanavami", "(b) Naga Panchami", "(c) Dasara" and "(d) Deepavali" — were judged to function as parallel festival labels rather than structural section headings.
+- These five labels were converted in the article source to paragraph labels. The four labels under subsection B were subsequently brought into the same source treatment as the five labels under subsection A.
+- The H4 subsection headings A, B and C remain headings. The festival labels are not promoted or retained as heading levels.
+- The source labels retain bold treatment. Indian-language names and expressions are italicised, while English words remain roman, in accordance with the checklist above. For example, only *Gangamma* is italicised in "Gangamma festival".
+
+**Section A and Section B label treatment**
+
+Section A, "Prostitution of Autochthonous Festivals by the Caste Society", contains five parallel labels:
+
+1. (a) *Makara Sankranti*
+2. (b) *Agate Male Ungalu* (*Hasta Malai*)
+3. (c) *Gangamma* festival
+4. (d) *Sapplamma* festival
+5. (e) An egalitarian spiritual practice during the *Karaga*
+
+Section B, "Greater Exclusion of Holeyas and Madigas from Brahminical Festivals", contains four parallel labels:
+
+1. (a) *Sri Ramanavami*
+2. (b) *Naga Panchami*
+3. (c) *Dasara*
+4. (d) *Deepavali*
+
+All nine labels are bold paragraph labels in the article source. The body paragraphs following them were not rewritten as part of this formatting work.
+
+**Print-rendering issue and correction**
+
+The first print proof showed inconsistent indentation between the two sets of labels. The cause was in the print conversion: Section A's five labels were explicitly converted into Typst paragraph blocks with a zero first-line indent, whereas Section B initially had a separate special rule for only its first label. The remaining three Section B labels were left to ordinary Markdown paragraph rendering and inherited different indentation.
+
+Several unsuccessful print runs followed while this difference was being addressed. Runs #452 and #453 failed because the special Section B matching rule did not match the source text. Runs #454 to #457 completed, but the indentation inconsistency remained. These attempts exposed the underlying problem: Section B needed the same rendering rule as Section A, not a separately guessed indentation adjustment for its first label.
+
+The final correction was confined to `ebook/edrl-ii/print/build.py`:
+
+- Removed the separate special-case rule for Section B label (a).
+- Added all four Section B labels to the existing list of festival labels handled by the Section A rule.
+- Both sets of labels now pass through the same explicit Typst paragraph-block treatment, including `first-line-indent: 0pt`.
+- No global paragraph settings, unrelated print rules or article wording were changed in this correction.
+
+**Build and verification**
+
+- Print workflow #458 completed successfully and generated the artifact `edrl-ii-print-preview-458`.
+- The successful build confirms that the revised print script completed and produced the proof. Final visual acceptance of the indentation is to be recorded after the proof has been reviewed.
+
+**Status:** Essay 6's festival labels have been converted to paragraph labels in the source and brought under one shared print-rendering rule for Sections A and B. Build #458 succeeded. Final visual confirmation remains pending.
+
 ## Progress
 
 The audit is in progress. No essay or style rule will be marked complete until the relevant review, decision and verification have been recorded.
