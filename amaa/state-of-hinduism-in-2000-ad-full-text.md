@@ -16,7 +16,7 @@ This version preserves the original wording, structure, and formatting as presen
 <h2>Contents</h2>
 
 1. [The Triple Loss](#triple-loss)
-2. [The Great Majority Would Continue to Opt for a Religious View of Life](#religious-view)
+2. [The great majority would continue to opt for a religious view of life](#religious-view)
 3. [The Secular Option](#secular-option)
 4. [The *saktis* of the gaps will disappear](#*saktis*-gaps)
 5. [The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.](#reinterpret-god)
