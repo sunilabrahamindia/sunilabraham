@@ -2669,3 +2669,48 @@ For H4, only the space above was increased, from 10 pt to 12 pt; the existing 10
 - **H5 styling commit:** `ef85661c6bc0b2148472c8ba3810e891bd9061ab` — Add explicit EDRL II H5 heading style.
 - **Proof status:** Both builder changes are committed to `main`. A fresh print build and visual review are required to confirm the H4/H5 hierarchy, spacing and page fit. The latest commit's combined GitHub status had not yet reported a completed check when this log was updated.
 
+## Blockquote formatting work — 17 November 2026
+
+Work on 17 November focused on correcting and documenting the treatment of blockquotes in the EDRL II print interior, particularly the consecutive quotations in Essay 3. The aim was to establish clear separation around each quotation while avoiding unnecessarily large gaps when several quoted paragraphs occur together. The adjustments were confined to the print-production workflow; the source essay text and website presentation were not rewritten.
+
+### Issues identified
+
+- The vertical spacing around blockquotes was not consistently balanced. Some quotations appeared too far from the surrounding body text, while attempts to reduce the gap risked making the quotation run into adjacent paragraphs.
+- Consecutive blockquotes in Essay 3 were being treated as separate block-level elements. This produced repeated outer spacing between passages that were intended to read as one continuous extract.
+- The formatting needed to distinguish three different measurements: the space above and below the blockquote, the spacing between paragraphs inside it, and the line leading within each paragraph.
+- Early spacing-rule changes needed to be scoped carefully so that normal body paragraphs and other parts of the book were not affected.
+
+### Attempts and corrections
+
+1. The initial adjustment reduced the vertical spacing around blockquotes. A subsequent rule proved unsuitable and was reverted before a more carefully scoped rule was applied.
+2. Explicit blockquote typography and layout rules were introduced in the Typst template. These established the quotation's inset and paragraph treatment separately from the normal body-paragraph settings.
+3. The spacing rules were refined to preserve clear separation around blockquotes without changing the global paragraph layout. The PDF overlap-checking logic was also corrected during this work so that its coordinate detection would not produce an unreliable result.
+4. A further attempt addressed the remaining spacing problem in Essay 3. Consecutive Markdown blockquotes were grouped in the print-only conversion stream, so that passages intended to form one continuous extract receive the outer blockquote spacing only once. A quoted blank line preserves the paragraph boundary inside the grouped quotation. This change is limited to Essay 3's print conversion; the original Markdown source remains unchanged.
+5. The paragraph spacing inside blockquotes was then increased from **10 pt to 12 pt** for the next proof. The line leading remains **9 pt**, and the outer blockquote spacing remains **14 pt above and 14 pt below**. These are separate settings and should not be confused with one another.
+
+### Builder changes and proof builds
+
+The work was recorded through the following builder commits:
+
+- `a11f442` — Reduce vertical spacing around EDRL II blockquotes.
+- `909ae7a` — Revert the unsuitable blockquote spacing rule.
+- `1b27d00` and `0334aa9` — Apply scoped blockquote spacing and correct the Typst spacing rule.
+- `25a3abf` — Restore clear separation around EDRL II blockquotes.
+- `109f05c` and `3659e69` — Set explicit blockquote typography, layout and spacing.
+- `c56ae02` and `d859913` — Further attempts to correct the blockquote treatment.
+- `ab5da3d` — Group consecutive Essay 3 quotations in the print output.
+- `7b5f549` — Increase blockquote paragraph spacing from 10 pt to 12 pt.
+
+The automated EDRL II print proof builds associated with this sequence completed successfully, including builds **#489–#495**. A successful build confirms that the source compiles and the PDFs are generated; visual review is still required to decide whether the spacing is typographically satisfactory.
+
+### Current settings and review status
+
+| Blockquote property | Current setting |
+|---|---:|
+| Space above the blockquote | 14 pt |
+| Space below the blockquote | 14 pt |
+| Paragraph spacing inside the blockquote | 12 pt |
+| Line leading inside each quoted paragraph | 9 pt |
+
+The 12 pt paragraph-spacing change is included in build **#495**. The next review should compare the consecutive quotations in Essay 3 with isolated blockquotes elsewhere in the book, checking the gap between quoted paragraphs, the separation from surrounding body text, and page balance. No change has been made to footnote extraction, numbering or rendering.
+
