@@ -565,7 +565,7 @@ def clean_source(path):
     # website lead and fragment links must not appear in the printed essay.
     # Resume at the first actual essay heading, whether Markdown or HTML.
     body = re.sub(
-        r"(?ims)\\A.*?^<h2\\b[^>]*>\\s*Contents\\s*</h2>.*?(?=^(?:#{1,6}[ \\t]+|<h[1-6]\\b)|\\Z)",
+        r"(?ims)\A.*?^<h2\b[^>]*>\s*Contents\s*</h2>.*?(?=^(?:#{1,6}[ \t]+|<h[1-6]\b)|\Z)",
         "",
         body,
         count=1,
