@@ -785,7 +785,7 @@ def md_to_typst(markdown, stem):
 
         first_typst = convert(first_block, f"{suffix}-first")
         indented_first = (
-            "#par(first-line-indent: 12.1pt)[\n"
+            "#par(first-line-indent: (amount: 12.1pt, all: true))[\n"
             + first_typst + "\n]"
         )
         if not remaining:
