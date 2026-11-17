@@ -77,6 +77,22 @@ The manual may address headings, capitalisation, italicisation, Indic and region
 
 Other issues may be recorded where they arise during the review. They will be assessed in context and kept distinct from the principal heading and Manual of Style work. Any correction will be documented with its evidence and verification.
 
+## Internal alert: heading work and print-build safeguards
+
+**The next phase will involve reviewing and, where approved, changing headings.** Heading changes may affect the print book's pagination and page count. The latest successful preview is 185 pages, compared with the earlier 183-page version. The reason for this difference has not yet been established; it must not be attributed to heading promotion without checking the generated PDF and the relevant source and template changes.
+
+During this work, take particular care not to reintroduce website-only material into the print edition. The print build must continue to exclude the introductory lead paragraphs and the website-generated Contents list from each applicable essay, and the printed essay must begin with its actual first heading. These exclusions are part of the print pipeline; the website source text must not be rewritten merely to solve a print-layout problem.
+
+Before accepting each revised print build, check that:
+
+- The heading hierarchy and presentation reflect only the changes agreed for the audit.
+- No website introduction, web Contents list or fragment links have appeared in the printed essay.
+- No essay text has been lost, duplicated or unintentionally altered.
+- All nine essays are present and the build completes successfully.
+- Any change in pagination or total page count is noted and investigated rather than assumed to be an error or an expected consequence.
+
+Keep the heading review focused. Do not make unrelated content or formatting changes while correcting heading structure. Record the change and its verification in this audit log.
+
 ## Audit log
 
 This section will be updated as individual checks are undertaken. Each entry should distinguish what was examined, what was found, what decision was made, what source change was authorised and what remains unresolved.
