@@ -560,10 +560,12 @@ def clean_source(path):
     body = "\n".join(lines).strip()
     body = re.sub(r"(?m)^\s*\{%.*?%\}\s*$", "", body)
 
-    # Exclude the web-only Contents list and introduction from the print body.
-    # The print book generates its own contents page; fragment links are not needed.
+    # Exclude the web-only Contents list from the print body.
+    # The print book generates its own contents page; source fragment links
+    # must not become live links or duplicate heading labels in the PDF.
+    # Stop at the next Markdown or HTML heading, preserving the essay text.
     body = re.sub(
-        r"(?is)^.*?<h2\b[^>]*>\s*Contents\s*</h2>.*?(?=<h2\b)",
+        r"(?ims)^<h2\b[^>]*>\s*Contents\s*</h2>.*?(?=^(?:#{1,6}[ \t]+|<h[1-6]\b)|\Z)",
         "",
         body,
         count=1,
