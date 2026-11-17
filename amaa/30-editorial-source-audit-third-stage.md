@@ -178,6 +178,21 @@ The rebuilt proof was reviewed after these changes. The heading for item 5 appea
 
 **Status:** Essay 3 heading hierarchy and heading italicisation reviewed. No source changes required.
 
+### Essay 4 — The Church and the Study of Religion
+
+**Source examined:** `amaa/the-church-and-the-study-of-religion.md`, with the original publication and the side-by-side print-proof comparison (review 432 and review 443).
+
+**Findings and decision**
+
+- The essay has two internal section headings: "The Structural factor in Religion" and "The realm of meanings and symbols".
+- In the current print proof, both headings appear at the same level (H2). The comparison confirms that the second heading, previously rendered at the lower level, has been promoted from H3 to H2.
+- "The Structural factor in Religion" retains its existing capitalisation. "The realm of meanings and symbols" is in sentence case, consistent with the original publication. No capitalisation changes are required.
+- Neither heading contains an Indian-language word or expression requiring italicisation.
+
+**Source changes:** None. The correction is confined to the print heading extraction already documented under [GitHub issue #63](https://github.com/sunilabrahamindia/sunilabraham/issues/63).
+
+**Status:** Essay 4 heading review completed. Both internal headings are H2 in the print edition. No further heading, capitalisation or italicisation changes are required.
+
 ## Progress
 
 The audit is in progress. No essay or style rule will be marked complete until the relevant review, decision and verification have been recorded.
