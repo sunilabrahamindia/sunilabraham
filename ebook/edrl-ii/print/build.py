@@ -710,6 +710,22 @@ def md_to_typst(markdown, stem):
         markdown,
     ).strip()
 
+    # In Essay 3, adjacent source quotations are separate Markdown
+    # blockquotes, but form one continuous indented extract in the journal.
+    # Join only consecutive blockquotes separated by blank lines in the
+    # print-only stream. A quoted blank line preserves paragraph boundaries
+    # inside one Pandoc blockquote, so outer spacing is applied only once.
+    if stem == "essay-3":
+        adjacent_quote_pattern = re.compile(
+            r"(^>[^\n]*(?:\n>[^\n]*)*)(?:\n[ \t]*\n)(?=>)",
+            re.M,
+        )
+        while adjacent_quote_pattern.search(markdown_without_definitions):
+            markdown_without_definitions = adjacent_quote_pattern.sub(
+                lambda match: match.group(1) + "\n>\n",
+                markdown_without_definitions,
+            )
+
     # Essay 3, section (2) follows a blockquote. Add the local first-line
     # indent in the Markdown stream before Pandoc converts it to Typst.
     # This affects only the specified section, not global paragraph rules.
