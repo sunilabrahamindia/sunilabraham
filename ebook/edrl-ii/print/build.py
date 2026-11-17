@@ -643,12 +643,12 @@ def clean_source(path):
     # the same 12.1pt indent used by the later B labels.
     if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
         section_b_first_label = re.compile(
-            r"^<p><strong>\\(a\\) <em>Sri Ramanavami</em></strong></p>$", re.M
+            r"^\\*\\*\\(a\\) \\*Sri Ramanavami\\*\\*\\*$", re.M
         )
         replacement = (
             "```{=typst}\n"
             "#block(width: 100%, above: 14pt, below: 14pt)[\n"
-            "  #set par(justify: false, first-line-indent: 12.1pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
+            "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
             '  #text(weight: "bold")[(a) #emph[Sri Ramanavami]]\n'
             "]\n"
             "```"
