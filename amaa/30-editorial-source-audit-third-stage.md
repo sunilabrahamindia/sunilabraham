@@ -97,6 +97,24 @@ Keep the heading review focused. Do not make unrelated content or formatting cha
 
 This section will be updated as individual checks are undertaken. Each entry should distinguish what was examined, what was found, what decision was made, what source change was authorised and what remains unresolved.
 
+### Essay 2 — Religion, Spirituality and Aspirations of the People
+
+**Source examined:** `amaa/religion-spirituality-and-aspirations-of-the-people-full-text.md`.
+
+**Findings**
+
+- The essay uses H2 for its seven principal sections: "A. Introduction", "I. Aspirations of the People...", "II. A. The Need for a 'Spirituality of Combat'...", "B. Approach to the Study of Hinduism...", "C. Hinduism in Dialogue...", "Postscript" and "Notes".
+- No H3 or H4 headings are used in the source.
+- The sequence reflects the essay's organisation: an introductory section, Part I, and Part II with subsections A, B and C, followed by the Postscript and Notes.
+- The headings' visual treatment in the original publication does not, by itself, require a different HTML heading level. Heading levels represent document structure; they need not reproduce differences in printed type size.
+- Italics are not to be applied to headings as a blanket rule. Existing italics should be retained only where supported by the source and the collection's established editorial conventions.
+
+**Decision**
+
+**No action needed.** Retain the existing H2 structure. Do not introduce H3 or H4 levels, and do not add italics to the headings merely to impose uniformity.
+
+**Status:** Essay 2 heading hierarchy reviewed. No source changes required.
+
 ### Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends
 
 **Source examined:** `amaa/state-of-hinduism-in-2000-ad-full-text.md`, with the original *Indian Journal of Theology*, Vol. 26, No. 2 (April–June 1977), and the current EDRL II print proof. The heading and its presentation were checked against the journal page supplied for this audit. The earlier source-verification findings for pages 86–91 remain recorded in the [second-stage audit](/amaa/30-editorial-source-audit-second-stage/).
