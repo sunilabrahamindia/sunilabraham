@@ -637,6 +637,30 @@ def clean_source(path):
             problems.append("unreferenced note entries: " + ", ".join(unreferenced))
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
     cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
+
+    # Essay 6: render the five parallel festival labels as explicit, flush-left
+    # bold paragraph blocks, independent of the surrounding body indentation.
+    if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
+        festival_labels = [
+            (r"\*\*\(a\) \*Makara Sankranti\*\*\*", "(a) #emph[Makara Sankranti]"),
+            (r"\*\*\(b\) \*Agate Male Ungalu\* \(\*Hasta Malai\*\)\*\*\*", "(b) #emph[Agate Male Ungalu] (#emph[Hasta Malai])"),
+            (r"\*\*\(c\) \*Gangamma\* festival\*\*\*", "(c) #emph[Gangamma] festival"),
+            (r"\*\*\(d\) \*Sapplamma\* festival\*\*\*", "(d) #emph[Sapplamma] festival"),
+            (r"\*\*\(e\) An egalitarian spiritual practice during the \*Karaga\*\*\*", "(e) An egalitarian spiritual practice during the #emph[Karaga]"),
+        ]
+        for pattern, label in festival_labels:
+            replacement = (
+                "```{=typst}\n"
+                "#block(width: 100%, above: 0pt, below: 14pt)[\n"
+                "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
+                f'  #text(weight: "bold")[{label}]\n'
+                "]\n"
+                "```"
+            )
+            cleaned, count = re.subn(re.compile("^" + pattern + "$", re.M), replacement, cleaned, count=1)
+            if count != 1:
+                raise SystemExit("Essay 6 festival label formatting check failed: " + label)
+
     for token, heading in heading_tokens.items():
         # Render Markdown headings through the same raw Typst heading path as
         # HTML headings. This prevents Pandoc from splitting a long heading's
@@ -936,7 +960,9 @@ common = r"""
 ]
 #show heading.where(level: 4): it => block(above: 14pt, below: 14pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 9.6pt, spacing: 0pt)
-  #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
+  #align(left)[
+    #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
+  ]
 ]
 #show heading.where(level: 5): it => block(above: 14pt, below: 14pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 8.8pt, spacing: 0pt)
