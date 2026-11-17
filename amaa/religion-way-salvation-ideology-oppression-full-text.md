@@ -204,7 +204,7 @@ The religious exclusion of the Holeyas and Madigas from the routine religious li
 
 #### A. Prostitution of Autochthonous Festivals by the Caste Society
 
-##### *(a) Makara Sankranti*
+<p>(a) <em>Makara Sankranti</em></p>
 
 This festival occurs on 14th January every year. The Thoti, the representative head of the Holeyas,<sup id="ref-1"><a href="#note-1">1</a></sup> decorates the entrance of the village with a festoon of mango and neem tree leaves. It is also his duty to get ready a temporary place of worship a quarter of a kilometre away from the village under a mango or banyan tree. The place is cleaned with cowdung water.
 
@@ -251,19 +251,19 @@ The Karaga, a mother goddess festival, popular among the villagers is an occasio
 
 #### B. Greater Exclusion of Holeyas and Madigas from Brahminical Festivals
 
-##### *(a) Sri Ramanavami*
+<p>(a) <em>Sri Ramanavami</em></p>
 
 The festival of Ramanavami is observed in these villages among the Reddys, Gowdas, Lingayats and other professional castes. The worship takes place at the serpent shrine of the village called Rache where the photos of Sri Rama and others will be installed. While all the caste Hindus join in the worship, the Holeyas and Madigas watch it from a distance. A special preparation called *Panaka*, a beverage made of jaggery and green gram, is distributed at the end of the worship. The Holeyas and Madigas are given the *prasadam* in vessels brought by them and care is taken not to touch them during the distribution.
 
-##### *(b) Naga Panchami*
+<p>(b) <em>Naga Panchami</em></p>
 
 The women and children of the caste Hindus worship at the Rache by pouring milk and ghee over the snake idol. The Holeyas and Madigas are not allowed to worship at the Rache. They go to some anthill outside the village and worship there.
 
-##### *(c) Dasara*
+<p>(c) <em>Dasara</em></p>
 
 During the Dasara festival all the villagers led by Reddys, Vokkaligas, Lingayats and other professional castes go to a spot outside the village where the cut branch of a Banni (a thorny tree with small eatable nuts) is planted. A caste Hindu priest shoots an arrow into the branch and if it gets well embedded into the branch it augurs well for the villagers. The caste Hindus follow the priest in shooting their own arrows into the branch. But the Holeyas and Madigas are excluded. But later, during the programmes of entertainment in front of the caste Hindu temple, all the villagers are allowed to join in playing kolata together. The Thoti beats the drum and the Hajamas play the pipe.
 
-##### *(d) Deepavali*
+<p>(d) <em>Deepavali</em></p>
 
 This festival is observed for three days. The idol of goddess Gowramma is installed in public places, temples and rich landlords' houses. The temple priest of the caste Hindus will officiate at these places. The villagers place *mora*, a new winnowing fan, in the centre of their house filled with different foodgrains, coconuts, bananas, sweetmeats, betel nuts and leaves and other common articles of worship. After the home worship the winnowing baskets are taken to the temple or other places of worship where the Gowramma idol is installed. The priest receives *moras* of all the people and after offering them to the goddess returns them to the people. The Holeyas and Madigas do not enter the places of worship; their *moras* are received from outside and the priest takes them inside after sprinkling them with water to indicate an act of purification.
 
