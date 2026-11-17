@@ -83,6 +83,25 @@ Apply this rule consistently across all nine essays. Do not italicise an entire 
 
 Other issues may be recorded where they arise during the review. They will be assessed in context and kept distinct from the principal heading and Manual of Style work. Any correction will be documented with its evidence and verification.
 
+## Print heading normalisation — GitHub issue #63
+
+A separate print-production issue concerning heading hierarchy was investigated and corrected under [GitHub issue #63](https://github.com/sunilabrahamindia/sunilabraham/issues/63). The problem arose because Markdown headings inside a `## Full text` wrapper were promoted when the wrapper was removed for print, but HTML headings were processed separately and retained their original levels.
+
+The correction was made only in `ebook/edrl-ii/print/build.py`. It applies to the following four wrapper-based essays:
+
+1. [The Church and the Study of Religion](/amaa/the-church-and-the-study-of-religion/)
+2. [Religions and the Aspirations of the People](/amaa/religions-and-the-aspirations-of-the-people/)
+3. [Dalit Liberation—Some Reflections on Their Ideological Predicament](/amaa/dalit-liberation-some-reflections-on-their-ideological-predicament/)
+4. [The Ideological Nature of the Emerging Dalit Consciousness](/amaa/the-ideological-nature-of-the-emerging-dalit-consciousness/)
+
+For these four essays, the print extraction promotes headings by one level when the wrapper is removed: H2 remains H2, H3 becomes H2, H4 becomes H3, H5 becomes H4 and H6 becomes H5. The essay title remains H1. The rule applies to both Markdown ATX headings and HTML heading tags.
+
+The other five essays, which have separate full-text source pages, are unaffected. No original essay source files and no editorial/e-book build files were changed.
+
+**Print-proof check:** Workflow run #436 completed successfully. The comparison recorded in issue #63 showed "The Secular Option" and "The Structural factor in Religion" at the same heading level and with matching visual hierarchy. The issue documents the implementation and proof observation.
+
+This is a print-pipeline correction, not an instruction to change the source heading levels in these four essays during the present editorial heading audit. The source-level review and decisions for each essay remain separately recorded below.
+
 ## Internal alert: heading work and print-build safeguards
 
 **The next phase will involve reviewing and, where approved, changing headings.** Heading changes may affect the print book's pagination and page count. The latest successful preview is 185 pages, compared with the earlier 183-page version. The reason for this difference has not yet been established; it must not be attributed to heading promotion without checking the generated PDF and the relevant source and template changes.
