@@ -71,6 +71,8 @@ jobs:
           typst --version
 
       - name: Build A5 print preview
+        env:
+          EDRL_OVERLAP_CHECK: warn
         run: python ebook/edrl-ii/print/build.py
 
       - name: Upload print preview
