@@ -651,7 +651,7 @@ def clean_source(path):
         for pattern, label in festival_labels:
             replacement = (
                 "```{=typst}\n"
-                "#block(width: 100%, above: 0pt, below: 14pt)[\n"
+                "#block(width: 100%, above: 14pt, below: 14pt)[\n"
                 "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
                 f'  #text(weight: "bold")[{label}]\n'
                 "]\n"
