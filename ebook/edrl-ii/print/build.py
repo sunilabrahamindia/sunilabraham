@@ -638,25 +638,8 @@ def clean_source(path):
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
     cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
 
-    # Essay 6: the first label under subsection B follows a heading whose
-    # local paragraph settings suppress the normal first-line indent. Restore
-    # the same 12.1pt indent used by the later B labels.
-    if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
-        section_b_first_label = re.compile(
-            r"^\*\*\(a\) \*Sri Ramanavami\*\*\*$", re.M
-        )
-        replacement = (
-            "```{=typst}\n"
-            "#block(width: 100%, above: 14pt, below: 14pt)[\n"
-            "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
-            '  #text(weight: "bold")[(a) #emph[Sri Ramanavami]]\n'
-            "]\n"
-            "```"
-        )
-        cleaned, count = section_b_first_label.subn(replacement, cleaned, count=1)
-        if count != 1:
-            raise SystemExit("Essay 6 Section B first festival label formatting check failed")
-
+    # Essay 6: render all parallel festival labels in Sections A and B
+    # through the same explicit, flush-left Typst paragraph treatment.
     # Essay 6: render the five parallel festival labels as explicit, flush-left
     # bold paragraph blocks, independent of the surrounding body indentation.
     if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
@@ -666,6 +649,10 @@ def clean_source(path):
             (r"\*\*\(c\) \*Gangamma\* festival\*\*", "(c) #emph[Gangamma] festival"),
             (r"\*\*\(d\) \*Sapplamma\* festival\*\*", "(d) #emph[Sapplamma] festival"),
             (r"\*\*\(e\) An egalitarian spiritual practice during the \*Karaga\*\*\*", "(e) An egalitarian spiritual practice during the #emph[Karaga]"),
+            (r"\*\*\(a\) \*Sri Ramanavami\*\*\*", "(a) #emph[Sri Ramanavami]"),
+            (r"\*\*\(b\) \*Naga Panchami\*\*\*", "(b) #emph[Naga Panchami]"),
+            (r"\*\*\(c\) \*Dasara\*\*\*", "(c) #emph[Dasara]"),
+            (r"\*\*\(d\) \*Deepavali\*\*\*", "(d) #emph[Deepavali]"),
         ]
         for pattern, label in festival_labels:
             replacement = (
