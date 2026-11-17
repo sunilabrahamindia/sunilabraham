@@ -287,6 +287,28 @@ A short ornamental line beneath H2 headings was briefly tested in the print buil
 
 **Status:** Essay 7 heading review completed. No changes required.
 
+
+### Essay 8 — Dalit Liberation—Some Reflections on Their Ideological Predicament
+
+**Source examined:** `amaa/dalit-liberation-some-reflections-on-their-ideological-predicament.md`.
+
+**Heading hierarchy and print promotion**
+
+- Reviewed the seven internal headings in the essay. All seven are H3 in the web source.
+- Under the print heading-normalisation rule documented for GitHub issue #63, all seven are promoted to H2 in the print book.
+- No H4 headings occur in the essay; consequently, there are no H4-to-H3 promotions.
+- The essay title remains H1. The website Contents and Full text wrapper are not internal essay headings.
+
+**H2 and italicisation review**
+
+- The resulting H2 hierarchy in the print book was checked and found correct. No heading-level changes are required.
+- No Indian-language words or expressions occur in the seven internal headings. No heading italicisation changes are required.
+- The user also manually checked the headings and confirmed that no changes were needed.
+
+**Source changes:** None. The existing essay headings are retained.
+
+**Status:** Essay 8 heading review completed. Print promotion verified; no source corrections or italicisation changes required.
+
 ## Progress
 
 The audit is in progress. No essay or style rule will be marked complete until the relevant review, decision and verification have been recorded.
