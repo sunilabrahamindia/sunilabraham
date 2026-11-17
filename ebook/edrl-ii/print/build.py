@@ -949,7 +949,7 @@ common = r"""
   } else if chapter-starts-here {
     []
   } else {
-    set text(size: 8pt, fill: luma(85))
+    set text(size: 8pt, fill: luma(45))
     let header-title = if calc.even(current-page) {
       [ESSAYS ON DALITS, RELIGION AND LIBERATION II]
     } else if current-chapter != none {
@@ -984,7 +984,7 @@ common = r"""
 // Centre every essay chapter title (H1), including wrapped lines, across the full text width.
 #show heading.where(level: 1): it => block(width: 100%, above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 18pt, weight: "bold", hyphenate: false)
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 19.8pt, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 11.7pt, spacing: 0pt)
   #align(center)[#it]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
@@ -1220,7 +1220,7 @@ parts.append(r"""
   }
 )
 #counter(page).update(1)
-""" + '#set par(justify: true, leading: 12.65pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 14pt)' + r"""
+""" + '#set par(justify: true, leading: 9pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 14pt)' + r"""
 #set heading(outlined: true)
 #align(center)[= Foreword]
 #v(5pt)
