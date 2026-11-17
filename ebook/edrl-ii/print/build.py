@@ -953,7 +953,7 @@ common = r"""
 // Centre every essay chapter title (H1), including wrapped lines, across the full text width.
 #show heading.where(level: 1): it => block(width: 100%, above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 18pt, weight: "bold", hyphenate: false)
-  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 21.6pt, spacing: 0pt)
+  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 19.8pt, spacing: 0pt)
   #align(center)[#it]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
