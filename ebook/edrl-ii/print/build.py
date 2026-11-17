@@ -317,18 +317,16 @@ def html_table_to_typst(table):
         ratios = [2.0, 0.9, 1.1]
     else:
         ratios = [2.0] + [1.0] * (width - 1)
-    font_size = "8.2pt" if width == 3 else "8pt"
     essay6_table4 = header_key == (
         "Caste",
         "Fully employed: own farm / other work",
         "Agriculture + wage labour",
         "Landless wage labour",
     )
+    font_size = "7.5pt" if essay6_table4 else ("8.2pt" if width == 3 else "8pt")
 
     def cell_content(value, header_cell=False, row_label=False):
         value = typst_escape(value)
-        if header_cell and essay6_table4:
-            return f"table.cell(align: left, breakable: false)[#text(size: 7.5pt)[*{value}*]]"
         if header_cell or row_label:
             return f"table.cell(align: left, breakable: false)[*{value}*]"
         return f"table.cell(breakable: false)[{value}]"
