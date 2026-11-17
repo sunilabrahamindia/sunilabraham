@@ -769,7 +769,8 @@ def md_to_typst(markdown, stem):
         remaining = blocks[1].strip() if len(blocks) > 1 else ""
 
         lines = first_block.splitlines()
-        first_line = lines[0].strip() if lines else ""
+        first_line_raw = lines[0] if lines else ""
+        first_line = first_line_raw.strip()
         is_non_paragraph = (
             not first_line
             or first_line.startswith(("#", ">", "```", "~~~", "<", "|"))
