@@ -122,6 +122,8 @@ Keep the heading review focused. Do not make unrelated content or formatting cha
 
 This section will be updated as individual checks are undertaken. Each entry should distinguish what was examined, what was found, what decision was made, what source change was authorised and what remains unresolved.
 
+
+
 ### Essay 2 — Religion, Spirituality and Aspirations of the People
 
 **Source examined:** `amaa/religion-spirituality-and-aspirations-of-the-people-full-text.md`.
@@ -192,6 +194,21 @@ The rebuilt proof was reviewed after these changes. The heading for item 5 appea
 **Source changes:** None. The correction is confined to the print heading extraction already documented under [GitHub issue #63](https://github.com/sunilabrahamindia/sunilabraham/issues/63).
 
 **Status:** Essay 4 heading review completed. Both internal headings are H2 in the print edition. No further heading, capitalisation or italicisation changes are required.
+
+### Essay 5 — Religions and the Aspirations of the People
+
+**Source examined:** `amaa/religions-and-the-aspirations-of-the-people.md`.
+
+**Findings and decision**
+
+- The essay has three internal section headings: "Religion Aligned with Conflicting Social Interests", "Hope From a Noble Tradition" and "Problem of Social Power Among Religions".
+- All three are H3 in the source. Under the print heading-normalisation rule for wrapper-based essays, all three are promoted to H2 in the print edition. The final print hierarchy is therefore three H2 headings and no H3 headings.
+- The side-by-side print-proof comparison (review 432 and review 443) confirms the intended visual distinction: these headings appear at the promoted H2 level in the revised proof.
+- None of the three headings contains an Indian-language word or expression. The Indian-word-only italicisation rule therefore does not require italics in these headings.
+
+**Source changes:** None. The heading hierarchy and wording in the source are retained.
+
+**Status:** Essay 5 heading promotion checked in the print proof. No source-level heading or italicisation changes required.
 
 ## Progress
 
