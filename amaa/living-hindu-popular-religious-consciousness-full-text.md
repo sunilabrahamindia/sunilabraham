@@ -61,7 +61,10 @@ From their answers it appears that the genesis of this awareness is the experien
 
 > When I survey my life and what I see around me, I am convinced that it is not man who rules this world but the *sakti* of *Daivam*. For things do not turn out as man desires. When we see the rise and fall of individuals we think of that *sakti*. It reminds us of the lines of Punthanam who said:
 
-> *Randu nalu dinamkondu oruttane tandilletti nadattunnatum Bhavan, Malika mukaliker iya mannante tolil marapu kettunatum Bhavan.*
+<div class="poem" markdown="1">
+Randu nalu dinamkondu oruttane tandilletti nadattunnatum Bhavan,  
+Malika mukaliker iya mannante tolil marapu kettunatum Bhavan.
+</div>
 
 It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *sakti* helps man to live.
 
