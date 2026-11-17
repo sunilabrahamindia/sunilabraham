@@ -661,6 +661,27 @@ def clean_source(path):
             if count != 1:
                 raise SystemExit("Essay 6 festival label formatting check failed: " + label)
 
+        # Section B: apply the identical bold paragraph treatment to its four
+        # festival labels. No other Section B text is transformed.
+        section_b_labels = [
+            (r"\(a\) \*Sri Ramanavami\*", "(a) #emph[Sri Ramanavami]"),
+            (r"\(b\) \*Naga Panchami\*", "(b) #emph[Naga Panchami]"),
+            (r"\(c\) \*Dasara\*", "(c) #emph[Dasara]"),
+            (r"\(d\) \*Deepavali\*", "(d) #emph[Deepavali]"),
+        ]
+        for pattern, label in section_b_labels:
+            replacement = (
+                "```{=typst}\n"
+                "#block(width: 100%, above: 14pt, below: 14pt)[\n"
+                "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
+                f'  #text(weight: "bold")[{label}]\n'
+                "]\n"
+                "```"
+            )
+            cleaned, count = re.subn(re.compile("^" + pattern + "$", re.M), replacement, cleaned, count=1)
+            if count != 1:
+                raise SystemExit("Essay 6 Section B label formatting check failed: " + label)
+
     for token, heading in heading_tokens.items():
         # Render Markdown headings through the same raw Typst heading path as
         # HTML headings. This prevents Pandoc from splitting a long heading's
