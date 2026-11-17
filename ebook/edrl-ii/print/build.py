@@ -352,7 +352,7 @@ def html_table_to_typst(table):
         "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
         ("  inset: (x: 2.5pt, y: 3.5pt),\n" if essay6_table4
          else "  inset: (x: 3pt, y: 3.5pt),\n")
-        "  stroke: (x, y) => (\n"
+        + "  stroke: (x, y) => (\n"
         "    bottom: if y == 0 { 0.8pt + luma(90) } else { 0.35pt + luma(175) },\n"
         "  ),\n"
         "  fill: (_, y) => if y == 0 { luma(235) },\n"
