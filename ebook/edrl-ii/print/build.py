@@ -852,8 +852,8 @@ def check_pdf_overlaps(pdf):
     )
     issues = []
     line_re = re.compile(
-        r'<line xMin="([\\d.]+)" yMin="([\\d.]+)" '
-        r'xMax="([\\d.]+)" yMax="([\\d.]+)"'
+        r'<line xMin="([\d.]+)" yMin="([\d.]+)" '
+        r'xMax="([\d.]+)" yMax="([\d.]+)"'
     )
 
     for page_number, page in enumerate(result.stdout.split("<page ")[1:], start=1):
