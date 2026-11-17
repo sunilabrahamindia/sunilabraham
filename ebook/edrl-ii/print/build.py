@@ -773,7 +773,7 @@ def md_to_typst(markdown, stem):
                 or re.match(r"^\d+[.)]\s", first_line)
             )
             if cursor > 0 and not is_block_start:
-                prose_typst = "#h(12.1pt)\n" + prose_typst
+                prose_typst = "#set par(first-line-indent: 12.1pt)\n" + prose_typst
             parts.append(prose_typst)
         stanzas = re.split(r"\n[ \t]*\n(?:[ \t]*\n)*", match.group(1).strip())
         stanza_blocks = []
@@ -801,7 +801,7 @@ def md_to_typst(markdown, stem):
             or re.match(r"^\d+[.)]\s", first_line)
         )
         if cursor > 0 and not is_block_start:
-            remainder_typst = "#h(12.1pt)\n" + remainder_typst
+            remainder_typst = "#set par(first-line-indent: 12.1pt)\n" + remainder_typst
         parts.append(remainder_typst)
     if not parts:
         return convert(markdown_without_definitions, "main")
