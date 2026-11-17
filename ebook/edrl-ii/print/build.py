@@ -957,11 +957,9 @@ common = r"""
   #align(center)[#it]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
-#show heading.where(level: 2): it => block(above: 18pt, below: 12pt, breakable: false)[
+#show heading.where(level: 2): it => block(above: 18pt, below: 16pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 19.2pt, spacing: 0pt)
   #text(size: 16pt, weight: "bold", hyphenate: false)[#it.body]
-  #v(3.5pt)
-  #line(length: 18mm, stroke: 0.55pt + luma(150))
 ]
 #show heading.where(level: 3): it => block(above: 16pt, below: 14pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 11.2pt, spacing: 0pt)
