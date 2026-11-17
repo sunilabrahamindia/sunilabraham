@@ -204,7 +204,7 @@ The religious exclusion of the Holeyas and Madigas from the routine religious li
 
 #### A. Prostitution of Autochthonous Festivals by the Caste Society
 
-<p>(a) <em>Makara Sankranti</em></p>
+<p><strong>(a) <em>Makara Sankranti</em></strong></p>
 
 This festival occurs on 14th January every year. The Thoti, the representative head of the Holeyas,<sup id="ref-1"><a href="#note-1">1</a></sup> decorates the entrance of the village with a festoon of mango and neem tree leaves. It is also his duty to get ready a temporary place of worship a quarter of a kilometre away from the village under a mango or banyan tree. The place is cleaned with cowdung water.
 
@@ -216,19 +216,19 @@ After all the cattle have passed through the festoons, the Thoti cuts the festoo
 
 In some villages Hajamas have land given to them by the villages and they give their services free. In other villages they are paid for their services. When people have returned to their homes, the Thoti visits the houses of the landlords such as Reddys, Vokkaligas and Lingayats and collects eatables of the festival. People give him cooked food, or a little grain or money.
 
-#### (b) *Agate Male Ungalu* (*Hasta Malai*)
+<p><strong>(b) <em>Agate Male Ungalu</em> (<em>Hasta Malai</em>)</strong></p>
 
 The festival of *Agate Male Ungalu* or *Pongalu* is observed during the time of Agate rain. A meeting of the villagers takes place one week prior to the festival and the date of the festival is decided during the meeting.<sup id="ref-3"><a href="#note-3">3</a></sup> The Thoti goes around the village collecting money from every household for the celebration. On the festival day the Thoti spreads ashes all around the boundary of the village land. Traditionally it is the duty of the Thoti to spread the ash over each and every family's fields. But these days some of the farmers do it themselves. People also draw figures of domestic animals and agricultural tools on the road with ashes. The Thoti digs a small pit at the entrance of the village. The pit is then filled with tender plants of ragi, paddy, jawar and other crops grown in the village. The village headman, along with others, comes to the pit with a ram; it is cut and the blood is poured over the plants in the pit. Some of the blood-soaked plants are taken by the farmers and thrown over the agricultural fields in the village. The head of the sheep is given to the Thoti.
 
 If there are Brahmins and Lingayats in the village they do not take part in the ritual, but only contribute money towards the expenses. The ceremony is done without the usual drum or pipe music.
 
-#### (c) *Gangamma festival*
+<p><strong>(c) <em>Gangamma</em> festival</strong></p>
 
 The Gangamma festival is celebrated in a village when the water tank gets full in any year. Money is collected from all the villagers and a buffalo is bought for the occasion and taken in a procession to the village tank. The procession is led by Reddys, Vokkaligas, Kumbaras, Agasas, Hajamas, Acharis and others in front with lamps, and the Holeyas and Madigas follow at a little distance. A boat (*tappa*) made out of plantain trunk by the Thoti of the village is floated in the tank with lamps in it. The buffalo is sacrificed near the tank and the carcass is distributed among the Holeyas.
 
 The priest, if he happens to be a Brahmin or Lingayat, performs the *puja* and leaves the place prior to the animal sacrifice. The drum is beaten by the village Thoti and the pipe is played by the caste Hindu or Holeya barber.
 
-#### (d) *Sapplamma festival*
+<p><strong>(d) <em>Sapplamma</em> festival</strong></p>
 
 This festival which has the status of *Ur habba* or village festival in this area, is that of the goddess Sapplamma, believed to be one of seven sisters. The belief in seven mother goddesses who are sisters is very common in the villages of South India.<sup id="ref-4"><a href="#note-4">4</a></sup>
 
@@ -245,7 +245,7 @@ In some villages Holeyas and Madigas are not allowed to carry the goddess and th
 When the goddess leaves the village after the celebration, offerings of sari, blouse-piece and other things are made to her after the fashion of a daughter leaving her father's house.
 
 
-#### *(e) An egalitarian spiritual practice during the Karaga*
+<p><strong>(e) An egalitarian spiritual practice during the <em>Karaga</em></strong></p>
 
 The Karaga, a mother goddess festival, popular among the villagers is an occasion for the people to go on a pilgrimage (Jatra) to Chikka Tirupathi in Malur taluk about 15 to 20 kms away. The pilgrims to Chikka Tirupathi are fed by the villagers either on their way or in Chikka Tirupathi itself. This feeding is called *Anna Chatra*. Well-to-do individual farmers among the Reddys and Vokkaligas or the whole village, including the Holeyas and Madigas, join together and conduct these feeding exercises. Some of these villages and individuals have their own permanent sheds in Chikka Tirupathi for *Anna Chatra*. The feeding may continue from one to three days or as long as one's provisions last. According to tradition, no caste discrimination is allowed in the feeding or partaking of the food.
 
