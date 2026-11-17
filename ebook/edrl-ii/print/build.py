@@ -644,8 +644,8 @@ def clean_source(path):
         festival_labels = [
             (r"\*\*\(a\) \*Makara Sankranti\*\*\*", "(a) #emph[Makara Sankranti]"),
             (r"\*\*\(b\) \*Agate Male Ungalu\* \(\*Hasta Malai\*\)\*\*", "(b) #emph[Agate Male Ungalu] (#emph[Hasta Malai])"),
-            (r"\*\*\(c\) \*Gangamma\* festival\*\*\*", "(c) #emph[Gangamma] festival"),
-            (r"\*\*\(d\) \*Sapplamma\* festival\*\*\*", "(d) #emph[Sapplamma] festival"),
+            (r"\*\*\(c\) \*Gangamma\* festival\*\*", "(c) #emph[Gangamma] festival"),
+            (r"\*\*\(d\) \*Sapplamma\* festival\*\*", "(d) #emph[Sapplamma] festival"),
             (r"\*\*\(e\) An egalitarian spiritual practice during the \*Karaga\*\*\*", "(e) An egalitarian spiritual practice during the #emph[Karaga]"),
         ]
         for pattern, label in festival_labels:
