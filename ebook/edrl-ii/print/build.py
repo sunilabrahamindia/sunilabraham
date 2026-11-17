@@ -324,6 +324,7 @@ def html_table_to_typst(table):
         "Landless wage labour",
     )
     font_size = "7.5pt" if essay6_table4 else ("8.2pt" if width == 3 else "8pt")
+    horizontal_inset = "2.5pt" if essay6_table4 else "3pt"
 
     def cell_content(value, header_cell=False, row_label=False):
         value = typst_escape(value)
@@ -348,9 +349,8 @@ def html_table_to_typst(table):
         "  table(\n"
         f"  columns: ({', '.join(f'{ratio}fr' for ratio in ratios)}),\n"
         "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
-        ("  inset: (x: 2.5pt, y: 3.5pt),\n" if essay6_table4
-         else "  inset: (x: 3pt, y: 3.5pt),\n")
-        + "  stroke: (x, y) => (\n"
+        f"  inset: (x: {horizontal_inset}, y: 3.5pt),\n"
+        "  stroke: (x, y) => (\n"
         "    bottom: if y == 0 { 0.8pt + luma(90) } else { 0.35pt + luma(175) },\n"
         "  ),\n"
         "  fill: (_, y) => if y == 0 { luma(235) },\n"
