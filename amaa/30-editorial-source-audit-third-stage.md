@@ -217,9 +217,14 @@ The rebuilt proof was reviewed after these changes. The heading for item 5 appea
 
 - Reviewed the Markdown heading hierarchy from H2 to H5, working from the deepest level upwards.
 - The five festival labels originally marked as H5 headings — "(a) Makara Sankranti", "(a) Sri Ramanavami", "(b) Naga Panchami", "(c) Dasara" and "(d) Deepavali" — were judged to function as parallel festival labels rather than structural section headings.
-- These five labels were converted in the article source to paragraph labels. The four labels under subsection B were subsequently brought into the same source treatment as the five labels under subsection A.
+- These labels were converted in the article source to paragraph labels. The four labels under subsection B were subsequently brought into the same source treatment as the five labels under subsection A.
 - The H4 subsection headings A, B and C remain headings. The festival labels are not promoted or retained as heading levels.
-- The source labels retain bold treatment. Indian-language names and expressions are italicised, while English words remain roman, in accordance with the checklist above. For example, only *Gangamma* is italicised in "Gangamma festival".
+- The four H3 rites-of-passage headings were also corrected to follow the Indian-word-only italicisation rule:
+  - "(a) Birth and naming of the Child" — removed italics from the entirely English heading.
+  - "(b) *Mudi* (Hair-cutting)" — retained italics only for the Indian-language word *Mudi*.
+  - "(c) Marriage" — removed italics from the entirely English heading.
+  - "(d) Death" — removed italics from the entirely English heading.
+- These were four targeted source corrections. The heading wording and hierarchy were otherwise retained.
 
 **Section A and Section B label treatment**
 
@@ -238,7 +243,7 @@ Section B, "Greater Exclusion of Holeyas and Madigas from Brahminical Festivals"
 3. (c) *Dasara*
 4. (d) *Deepavali*
 
-All nine labels are bold paragraph labels in the article source. The body paragraphs following them were not rewritten as part of this formatting work.
+All nine labels are bold paragraph labels in the article source. Indian-language names and expressions are italicised; English words remain roman. The body paragraphs following the labels were not rewritten as part of this formatting work.
 
 **Print-rendering issue and correction**
 
@@ -253,12 +258,18 @@ The final correction was confined to `ebook/edrl-ii/print/build.py`:
 - Both sets of labels now pass through the same explicit Typst paragraph-block treatment, including `first-line-indent: 0pt`.
 - No global paragraph settings, unrelated print rules or article wording were changed in this correction.
 
+**H2 print treatment**
+
+A short ornamental line beneath H2 headings was briefly tested in the print builder. After review, it was rejected and reverted. The original H2 typography and spacing were restored; the final print builder contains no ornamental line beneath H2 headings. The experiment and its reversal did not alter the essay source. No build was triggered for this experiment or its revert.
+
 **Build and verification**
 
 - Print workflow #458 completed successfully and generated the artifact `edrl-ii-print-preview-458`.
-- The successful build confirms that the revised print script completed and produced the proof. Final visual acceptance of the indentation is to be recorded after the proof has been reviewed.
+- The shared festival-label rendering correction was included in that successful build.
+- The subsequent H3 italicisation corrections were source-only changes and did not require a print-builder change or trigger a build.
+- The user has now confirmed that Essay 6 is complete.
 
-**Status:** Essay 6's festival labels have been converted to paragraph labels in the source and brought under one shared print-rendering rule for Sections A and B. Build #458 succeeded. Final visual confirmation remains pending.
+**Status:** Essay 6's heading review and approved source corrections are complete. The nine festival labels are consistently treated as bold paragraph labels in Sections A and B, with a shared print-rendering rule. The four H3 rites-of-passage headings follow the Indian-word-only italicisation rule. The H2 ornamental-line experiment has been reverted, leaving the original print styling in place.
 
 ## Progress
 
