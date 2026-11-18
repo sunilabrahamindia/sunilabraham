@@ -117,6 +117,24 @@ Two poems in the article sources were reviewed for whether line beginnings shoul
 
 **Decision:** No capitalisation changes were made to either poem. The existing capitalisation was retained in keeping with the source text and the poems' own usage. No other source content was changed as part of this review.
 
+### 18 November 2026 — Editorial footnote and signature-spacing adjustments
+
+**Essay 8 — editorial note for the heading "Sony!"**
+
+The heading "Sony!" in *Dalit Liberation—Some Reflections on Their Ideological Predicament* was reviewed in the context of the essay. Its meaning could not be established from the surrounding discussion. The editorial decision was to retain the heading as it appears in the original source, rather than alter or remove it.
+
+A numbered footnote marker was added immediately after the heading, with a corresponding entry in a new Notes section at the end of the essay. The final note reads: "The heading \"Sony!\" appears in the original source. We have retained it as printed, in fidelity to the source text." The note follows the numbered HTML footnote and return-link convention used in the other essays. The source was re-fetched and the marker and note were verified.
+
+**Status:** Source change completed and verified. Commit: `bec1dc5a850f3f3c7352a4838e55585e61523679`.
+
+**Print production — consistency of the Foreword and Editor's Note signatures**
+
+The signature blocks for Dr. Y. T. Vinayaraj in the Foreword and Tito Dutta in the Editor's Note were compared in `ebook/edrl-ii/print/build.py`. The Editor's Note block had a larger leading value (9.35pt rather than 8.25pt) and an initial line break with a negative vertical adjustment, which had become unnecessary after the scanned signature was removed.
+
+The Editor's Note signature block was adjusted to use the same 8.25pt leading and zero paragraph spacing as the Foreword signature block. The redundant initial line break and the `#v(-2pt)` adjustment were removed. The name, role and date font sizes were retained.
+
+**Status:** Production-source adjustment completed and re-fetched for verification. Commit: `d3aaa99d944a76c03b0b30628145abb9225cbeba`. A new print build and visual PDF inspection have not yet been carried out.
+
 ## Outstanding work
 
 This section will be populated as the remaining checks are identified and prioritised. An item should be removed or marked complete only after its outcome has been verified. Matters carried forward from earlier stages should retain their original context and should not be treated as new findings without a fresh check.
