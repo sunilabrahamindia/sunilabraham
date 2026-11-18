@@ -107,6 +107,16 @@ A separate four-line passage beginning "Not by birth does one become an outcaste
 
 **Status:** The two punctuation-spacing corrections and the Essay 7 lineation change were committed. The relevant source sections were checked after the punctuation corrections; no print build or PDF layout verification was undertaken for the poem change.
 
+
+**Essay 7 and Essay 9 — review of poem capitalisation**
+
+Two poems in the article sources were reviewed for whether line beginnings should be capitalised uniformly:
+
+- **Essay 7 — Dalit Theology: A Movement of Counter-Culture:** The four-line passage beginning "Not by birth does one become an outcaste" was reviewed. The existing mixed capitalisation was retained; the second and third lines begin in lowercase, preserving the continuity of the sentence structure.
+- **Essay 9 — The Ideological Nature of the Emerging Dalit Consciousness:** The passage beginning "holding torch in the hands" in the poem *Dalitaru Barvaru* was reviewed in the context of the complete "Cultural Expression" section, its surrounding poems and its associated note. The lowercase "h" was retained. The poem has mixed line-initial capitalisation, including lowercase beginnings within the same composition, so capitalising this line alone would impose an inconsistent editorial convention.
+
+**Decision:** No capitalisation changes were made to either poem. The existing capitalisation was retained in keeping with the source text and the poems' own usage. No other source content was changed as part of this review.
+
 ## Outstanding work
 
 This section will be populated as the remaining checks are identified and prioritised. An item should be removed or marked complete only after its outcome has been verified. Matters carried forward from earlier stages should retain their original context and should not be treated as new findings without a fresh check.
