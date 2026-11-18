@@ -17,7 +17,7 @@ The list focuses primarily on specialised tools, useful directories and websites
 
 Sections and entries within each section are arranged alphabetically.
 
-<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>124 resources</strong></div>
+<div class="useful-websites-summary" aria-label="Directory summary"><strong>28 categories</strong><span aria-hidden="true"> · </span><strong>125 resources</strong></div>
 
 <nav class="useful-websites-index" aria-label="Useful websites section index">
   <p class="useful-websites-index-title">Browse by topic</p>
@@ -227,8 +227,10 @@ Platforms, directories and tools that support structured learning, independent s
 5. [There's an OS for That](https://theresanosforthat.com/), is a directory for discovering open-source software and alternatives to proprietary services, including self-hosting platforms and server tools. Useful for exploring options before choosing software; verify project activity, licensing and deployment requirements.
 
 ## System Administration, Networking and Security {#system-administration}
-1. [crt.sh](https://crt.sh/), searches public TLS certificate transparency records. It can help researchers inspect certificate history and discover subdomains associated with a domain.
-2. [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), a curated collection of command-line tools, networking resources, system administration utilities, security references, tutorials and technical guides.
+
+1. [LabEx](https://labex.io/), is an interactive technical learning platform offering hands-on courses, exercises, projects and browser-based playgrounds across Linux, DevOps, cybersecurity, networking, programming, databases and cloud technologies. Learners can practise in virtual environments without installing software locally. Its exercises include automatic verification and structured learning paths. A selection of labs is free, while paid subscriptions provide expanded access. The platform also hosts Linux Journey, a free and open-source Linux learning resource.
+2. [crt.sh](https://crt.sh/), searches public TLS certificate transparency records. It can help researchers inspect certificate history and discover subdomains associated with a domain.
+3. [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge), a curated collection of command-line tools, networking resources, system administration utilities, security references, tutorials and technical guides.
 
 ## Text Analysis and Research {#text-analysis}
 1. [Voyant Tools](https://voyant-tools.org/), a browser-based text analysis environment for exploring a collection of articles, speeches or other documents. It helps reveal word frequencies, recurring phrases, changes in vocabulary and relationships between terms through interactive visualisations. Useful for analysing written material as part of research and documentation.
