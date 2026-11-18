@@ -34,7 +34,7 @@ What is the experience of the Dalits of the past half century of the Gandhian ap
 
 Any ideology, to be realistic, has to take into account the economic exigencies and social existence of the concerned group. Otherwise, as M. N. Roy predicted, it would turn out to be dogmatic and deceptive. Now, what is the economic reality of the physical social existence of its Dalits? Is there any economic base for their social and cultural integration with the caste Hindus or do the economic interests of the two conflict?
 
-### Sony!
+### Sony!<sup id="ref-1"><a href="#note-1">1</a></sup>
 
 Let us take the case of a region about which we have a lot of scientifically prepared data.
 
@@ -85,6 +85,15 @@ Such being the reality, it should surprise no one when the Dalits said, 'Beware 
 ## Publication {#publication}
 
 This article was published in *Religion and Society*, Vol. XXXV, No. 2 (June 1988), pp. 47–52, under the title "Dalit Liberation—Some Reflections on Their Ideological Predicament".
+
+## Notes {#notes}
+
+<ol>
+  <li id="note-1">
+    The heading "Sony!" appears in the source text. Its meaning and relevance to the discussion are unclear.
+    <a href="#ref-1">↩</a>
+  </li>
+</ol>
 
 {% include navbox-amaa.html %}
 
