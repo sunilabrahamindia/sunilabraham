@@ -776,6 +776,108 @@ def md_to_typst(markdown, stem):
         markdown,
     ).strip()
 
+    # In Essay 3, adjacent source quotations are separate Markdown
+    # blockquotes, but form one continuous indented extract in the journal.
+    # Join only consecutive blockquotes separated by blank lines in the
+    # print-only stream. A quoted blank line preserves paragraph boundaries
+    # inside one Pandoc blockquote, so outer spacing is applied only once.
+    if stem == "essay-3":
+        adjacent_quote_pattern = re.compile(
+            r"(^>[^\n]*(?:\n>[^\n]*)*)(?:\n[ \t]*\n)(?=>)",
+            re.M,
+        )
+        while adjacent_quote_pattern.search(markdown_without_definitions):
+            markdown_without_definitions = adjacent_quote_pattern.sub(
+                lambda match: match.group(1) + "\n>\n",
+                markdown_without_definitions,
+            )
+
+    # Essay 3, section (2) follows a blockquote. Add the local first-line
+    # indent in the Markdown stream before Pandoc converts it to Typst.
+    # This affects only the specified section, not global paragraph rules.
+    if stem == "essay-3":
+        # Sections (2), (6), (7), (10) and (11) begin immediately after
+        # blockquotes. Add a local first-line indent to each heading
+        # paragraph, without changing the global paragraph rule or other sections.
+        for number, heading in (
+            ("2", "Another factor that leads many people"),
+            ("6", "Experience of the presence and guidance of a"),
+            ("7", '"Our ancestors'),
+            ("10", "The gods show signs."),
+            ("11", "Fear of Punishment"),
+        ):
+            # Numbered paragraphs now use selective italics rather than
+            # bold Markdown. Match the paragraph prefix whether or not the
+            # first words are italicised; keep the local indent unchanged.
+            target = re.compile(
+                rf"(?m)^\({number}\) \*?{re.escape(heading)}"
+            )
+            markdown_without_definitions, count = target.subn(
+                lambda match: "\x60\x60\x60{=typst}\n#h(12.1pt)\n\x60\x60\x60\n\n" + match.group(0),
+                markdown_without_definitions,
+                count=1,
+            )
+            if count != 1:
+                raise SystemExit(
+                    f"Could not locate the exact section ({number}) heading in Essay 3 Markdown."
+                )
+
+    def convert(segment, suffix):
+        segment = segment.strip()
+        if definitions:
+            segment += "\n\n" + "\n\n".join(definitions)
+        md = OUT / f"{stem}-{suffix}.md"
+        typ = OUT / f"{stem}-{suffix}.typ"
+        md.write_text(segment, encoding="utf-8")
+        run(["pandoc", str(md), "--from=markdown+raw_attribute", "--to=typst", "--output", str(typ)])
+        content = typ.read_text(encoding="utf-8")
+        # Paragraph separation is controlled only by the Typst par rules in
+        # the template. Never inject spacing into the converted content.
+        if re.search(r"</?(?:p|div|span|li|ol|ul|a|sup|br|strong|em|h[1-6])(?:\s|/?>)", content, re.I):
+            raise SystemExit(f"Raw HTML survived conversion in {stem}; refusing to publish a malformed proof.")
+        raw_markers = re.findall(r"\[\^(\d+)\](?!:)", content)
+        raw_definitions = re.findall(r"(?m)^\[\^(\d+)\]:", content)
+        if raw_markers or raw_definitions:
+            raise SystemExit(
+                f"Unconverted footnote syntax in {stem}: "
+                f"markers={','.join(raw_markers)}; definitions={','.join(raw_definitions)}"
+            )
+        return content
+
+    def convert_post_poem_prose(segment, suffix):
+        """Indent only the first ordinary paragraph immediately after a poem."""
+        segment = segment.strip()
+        if not segment:
+            return ""
+
+        blocks = re.split(r"\n[ \t]*\n", segment, maxsplit=1)
+        first_block = blocks[0].strip()
+        remaining = blocks[1].strip() if len(blocks) > 1 else ""
+
+        lines = first_block.splitlines()
+        first_line_raw = lines[0] if lines else ""
+        first_line = first_line_raw.strip()
+        is_non_paragraph = (
+            not first_line
+            or first_line.startswith(("#", ">", "```", "~~~", "<", "|"))
+            or re.match(r"^(?:[-+*]\s|\d+[.)]\s|:{3,}|\[\^[^]]+\]:)", first_line)
+            or re.match(r"^(?:---+|\*\*\*+|___+)\s*$", first_line)
+            or (len(lines) > 1 and re.match(r"^\s*(?:=+|-+)\s*$", lines[1]))
+            or first_line.startswith(("    ", "\t"))
+        )
+
+        if is_non_paragraph:
+            return convert(segment, suffix)
+
+        first_typst = convert(first_block, f"{suffix}-first")
+        indented_first = (
+            "#par(first-line-indent: (amount: 12.1pt, all: true))[\n"
+            + first_typst + "\n]"
+        )
+        if not remaining:
+            return indented_first
+        return indented_first + "\n\n" + convert(remaining, f"{suffix}-rest")
+
     parts = []
     cursor = 0
     pattern = re.compile(r"@@POEM_START@@(.*?)@@POEM_END@@", re.S)
