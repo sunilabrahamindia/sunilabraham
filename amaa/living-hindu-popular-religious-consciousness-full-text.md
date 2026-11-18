@@ -28,7 +28,7 @@ This essay examines the living popular Hindu religious consciousness through a s
    - [F. Attitudinal changes towards the symbols of faith](#f-attitudinal-changes-towards-the-symbols-of-faith)
    - [G. The Pattern of Changes in the Understanding of concepts like *karmam*, *samaya dosam*, rebirth, of evil spirit](#g-the-pattern-of-changes-in-the-understanding-of-concepts-like-karmam-samaya-dosam-rebirth-of-evil-spirit)
 3. [II. Personal Reflections on Popular Religious Consciousness in the Context of Hindu-Christian dialogue](#ii-personal-reflections-on-popular-religious-consciousness-in-the-context-of-hindu-christian-dialogue)
-   - [1. Does the popular Hindu religious experience allow itself to be described in terms of classical Hindu philosophical systems such as Advaita Vedanta, Visishta Advaita, Dvaita, etc.?](#1-does-the-popular-hindu-religious-experience-allow-itself-to-be-described-in-terms-of-classical-hindu-philosophical-systems-such-as-advaita-vedanta-visishta-advaita-dvaita-etc)
+   - [1. Does the popular Hindu religious experience allow itself to be described in terms of classical Hindu philosophical systems such as *Advaita Vedanta*, *Visishta Advaita*, *Dvaita*, etc.?](#1-does-the-popular-hindu-religious-experience-allow-itself-to-be-described-in-terms-of-classical-hindu-philosophical-systems-such-as-advaita-vedanta-visishta-advaita-dvaita-etc)
    - [2. Basic similarities in the perception of human condition and common religious experiences](#2-basic-similarities-in-the-perception-of-human-condition-and-common-religious-experiences)
    - [3. Hindu-Christian dialogue to evolve a common value system: Problem and Possibility](#3-hindu-christian-dialogue-to-evolve-a-common-value-system-problem-and-possibility)
 4. [Notes](#notes)
@@ -43,7 +43,7 @@ This paper is divided into two parts. The first part is a description of some of
 
 The Hindus in Chirakkal who have a religious view of life almost invariably use the word *sakti* to express their belief. The affirmation of their religious faith is somewhat in the following style.
 
-> I believe (*visvas*) that in the universe (*lokam/prapancham*) there is some kind of a *sakti*. This *sakti* is present in nature (*prakriti*) in many forms and modes (*palarupam-bhavam*). It is the mother (*matavu*) of manifest universe (*sristi*). According to the Bhagavad Gita, the universe (*prapancham*) came into existence from this one Brahman. All modes of being (*avasta-bhedangal*) are emanations (*avantaravi-bhagangal*) of this one *sakti* (*eka-sakti*). It is this life-giving force (*chitanya sakti*) that pervades (*nirannu-nilkkunnu*) in me, in you and in all beings (*sakala jiva-jalangal*). This is a power that transcends nature (*para *sakti*/prakritiyatita sakti*). It controls (*niyantrikkuka*) the universe (*prapancham*) and all the beings (*jivajalang al*) in it. We do not experience (*anubhav*) it as we are thinking of our own individual happiness. But if we conceive (*samkalpikkuka*) this *sakti* as the mother of the universe and worship (*upasikkuka*) it, it is beneficial (*gunam*) to us.
+> I believe (*visvas*) that in the universe (*lokam/prapancham*) there is some kind of a *sakti*. This *sakti* is present in nature (*prakriti*) in many forms and modes (*palarupam-bhavam*). It is the mother (*matavu*) of manifest universe (*sristi*). According to the *Bhagavad Gita*, the universe (*prapancham*) came into existence from this one *Brahman*. All modes of being (*avasta-bhedangal*) are emanations (*avantaravi-bhagangal*) of this one *sakti* (*eka-sakti*). It is this life-giving force (*chitanya sakti*) that pervades (*nirannu-nilkkunnu*) in me, in you and in all beings (*sakala jiva-jalangal*). This is a power that transcends nature (*para *sakti*/prakritiyatita sakti*). It controls (*niyantrikkuka*) the universe (*prapancham*) and all the beings (*jivajalang al*) in it. We do not experience (*anubhav*) it as we are thinking of our own individual happiness. But if we conceive (*samkalpikkuka*) this *sakti* as the mother of the universe and worship (*upasikkuka*) it, it is beneficial (*gunam*) to us.
 
 ### B. The Reasons of their religious outlook in life
 
@@ -286,17 +286,17 @@ Here again empirical study of these concepts—in Chirakkal, reveal that these f
 
 ## II. Personal Reflections on Popular Religious Consciousness in the Context of Hindu-Christian dialogue
 
-### 1. Does the popular Hindu religious experience allow itself to be described in terms of classical Hindu philosophical systems such as Advaita Vedanta, Visishta Advaita, Dvaita, etc.?
+### 1. Does the popular Hindu religious experience allow itself to be described in terms of classical Hindu philosophical systems such as *Advaita Vedanta*, *Visishta Advaita*, *Dvaita*, etc.?
 
 I have given in Part I A a general outline of the way in which the majority of Hindus in Chirakkal tend to describe their religious faith.
 
 The style of speech described there speaks of the people's belief in a *para sakti* whose presence pervades both man and the universe. It suggests that man is in some kind of an evolutionary process. It also speaks of the benefit man derives from the *upasana* (worship) of this Power.
 
-The question may now be asked: Is this type of consciousness an Advaita frame of mind? It may appear to be very much so until we are made to doubt it when we hear them talk about their experience of "divine grace", "divine guidance", "divine favour", "divine anger". These ideas do suggest that the *sakti* in which they believe is capable of blessing them and destroying them, capable of responding or not responding to their prayer, capable of being pleased or displeased with them. Hence it appears that an ordinary Hindu would say that he and his God are not two but he worships his God as if they are two, i.e. he is monistic in speech and theistic in worship.
+The question may now be asked: Is this type of consciousness an *Advaita* frame of mind? It may appear to be very much so until we are made to doubt it when we hear them talk about their experience of "divine grace", "divine guidance", "divine favour", "divine anger". These ideas do suggest that the *sakti* in which they believe is capable of blessing them and destroying them, capable of responding or not responding to their prayer, capable of being pleased or displeased with them. Hence it appears that an ordinary Hindu would say that he and his God are not two but he worships his God as if they are two, i.e. he is monistic in speech and theistic in worship.
 
 Here I should mention the exceptions to the majority position described above.
 
-(a) People, though a few, who describe their religious faith in the explicit idiom of Advaita Vedanta and identify themselves as *advaitins*.
+(a) People, though a few, who describe their religious faith in the explicit idiom of *Advaita Vedanta* and identify themselves as *advaitins*.
 
 (b) People who in their conversation use such terms as *jivatman*, *paramatman*, *prakriti*, *purusha*, *antaryamin* etc., which reminds one of particular systems of philosophy but they cannot be identified with any one particular system as they are not following any system as such.
 
