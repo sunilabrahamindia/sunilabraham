@@ -1097,9 +1097,9 @@ parts.append(r"""
 #pagebreak()
 #set page(header: none, footer: none, numbering: none)
 #v(1fr)
-#align(center)[
+#align(left)[
   #move(dy: -6mm)[
-  #align(center)[
+  #align(left)[
   #block(width: 112mm)[
       #set par(justify: false, first-line-indent: 0pt, leading: 12.65pt, spacing: 0pt)
       #align(left)[
