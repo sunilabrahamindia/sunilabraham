@@ -374,7 +374,7 @@ It may therefore appear that the spirit of Protestant Christianity and modern Hi
   <a href="#ref-6">↩</a>
 </li>
 <li id="note-7">
-  A detailed account of these points will be found in my forthcoming book on popular religion in Chirakkal.
+  A detailed account of these points will be found in my forthcoming book on popular religion in Chirakkal. (Note: This reference is preserved as it appeared in the original source.)
   <a href="#ref-7">↩</a>
 </li>
 <li id="note-8">
