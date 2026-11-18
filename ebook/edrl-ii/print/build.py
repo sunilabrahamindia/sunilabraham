@@ -1102,49 +1102,40 @@ parts.append(r"""
   #align(center)[
   #block(width: 112mm)[
       #set par(justify: false, first-line-indent: 0pt, leading: 12.65pt, spacing: 0pt)
-      #align(center)[
-        #text(size: 17pt, weight: "bold")[Essays on]
+      #align(left)[
+        #text(size: 14pt, weight: "bold")[Essays on]
         #linebreak()
-        #text(size: 17pt, weight: "bold")[Dalits, Religion and Liberation II]
-        #v(11pt)
-        #text(size: 11pt)[A. M. Abraham Ayrookuzhiel]
+        #text(size: 14pt, weight: "bold")[Dalits, Religion and Liberation II]
+        #v(9pt)
+        #text(size: 10.5pt)[A. M. Abraham Ayrookuzhiel]
       ]
-      #v(12.1pt)
-      #line(length: 100%, stroke: 0.5pt + luma(155))
-      #v(13.2pt)
-  
+      #v(16pt)
+
       #grid(
         columns: (32mm, 1fr),
         column-gutter: 4mm,
         row-gutter: 8.25pt,
         align: (left, left),
         [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
-        [#text(size: 9.5pt)[[https://sunilabraham.in](https://sunilabraham.in)]],
-        [],
-        [#text(size: 9.5pt)[publications\@sunilabraham.in]],
-        [],
-        [#text(size: 9.5pt)[Sunil Abraham +91 96111 00817]],
-  
+        [#text(size: 9.5pt)[publications\\@sunilabraham.in]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
         [#text(size: 9.5pt)[Tito Dutta]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT COORDINATION]],
         [#text(size: 9.5pt)[Herbert Paul]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED BY]],
-        [#text(size: 9.5pt)[National Print Press, Koramangala, Bengaluru]],
+        [#text(size: 9.5pt)[National Print Press, India]],
       )
-  
-      #v(13.2pt)
-      #line(length: 100%, stroke: 0.5pt + luma(155))
-      #v(22pt)
-  
-      #align(center)[
+
+      #v(18pt)
+      #align(left)[
         #text(size: 9.5pt)[First paperback edition]
         #linebreak()
         #text(size: 9.5pt)[Published on 29 November 2026 by The Sunil Abraham Project]
         #linebreak()
         #text(size: 8pt)[On the occasion of the thirtieth death anniversary of A. M. Abraham Ayrookuzhiel]
       ]
-      #v(23.1pt)
+
+      #v(18pt)
       #align(left)[
         #block(width: 100%)[
           #set par(justify: false, first-line-indent: 0pt, leading: 6.6pt, spacing: 0pt)
@@ -1154,17 +1145,18 @@ parts.append(r"""
           #text(size: 8.5pt)[The essays in this volume were originally published in various journals and other publications. Details of the original publication of each essay are provided on its opening page.]
         ]
       ]
-      #v(23.1pt)
+
+      #v(18pt)
       #align(left)[
         #block(width: 100%)[
           #set par(justify: false, first-line-indent: 0pt, leading: 6.6pt, spacing: 0pt)
-          #text(size: 8pt, weight: "bold", fill: luma(85))[PRODUCTION AND TYPESETTING]
+          #text(size: 8pt, weight: "bold", fill: luma(85))[TYPESETTING AND PRINT PRODUCTION]
           #v(5.5pt)
-          #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)
-          #text(size: 8.5pt)[Typesetting and preparation of the book's print-production files were carried out using Python, Pandoc and Typst. Source files and production code are managed on GitHub, with automated builds run through GitHub Actions.]
+          #text(size: 9.5pt)[Tito Dutta]
         ]
       ]
-      #v(23.1pt)
+
+      #v(18pt)
       #grid(
         columns: (27mm, 1fr),
         column-gutter: 4mm,
@@ -1174,19 +1166,15 @@ parts.append(r"""
         [#text(size: 9.5pt)[978-93-345-8524-7]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED PRICE]],
         [#text(size: 9.5pt)[₹250 (Rupees Two Hundred and Fifty Only)]],
-        [],
-        [#text(size: 9pt, style: "italic", fill: luma(75))[Printed in India]],
       )
-      #v(23.1pt)
+
+      #v(18pt)
       #align(left)[
         #block(width: 100%)[
-          #set par(justify: false, first-line-indent: 0pt, leading: 15.2pt, spacing: 0pt)
-          #text(size: 8pt, weight: "bold", fill: luma(85))[E-BOOK]
-          #v(5.5pt)
-          #text(size: 8.5pt)[For e-book download options, visit: [https://sunilabraham.in/edrl-ii](https://sunilabraham.in/edrl-ii)]
+          #set par(justify: false, first-line-indent: 0pt, leading: 12pt, spacing: 0pt)
+          #text(size: 8.5pt)[For e-book download options, visit: #link("https://sunilabraham.in/edrl-ii")[sunilabraham.in/edrl-ii]]
         ]
-      ]
-    ]
+      ]    ]
   ]
   ]
 ]
