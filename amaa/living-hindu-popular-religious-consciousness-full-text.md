@@ -49,13 +49,13 @@ The Hindus in Chirakkal who have a religious view of life almost invariably use 
 
 In the context of the above affirmation of faith in a power that transcends nature (*para *sakti*/prakritiyatita sakti*), if we ask them what are the reasons for holding on to a belief like this, the following are the kind of answers we get from a number of people. I have grouped them under eleven headings, with one or two examples for each type of reason. In the answers of people one or more of these reasons appear in different combinations.
 
-**(1) A sense of wonder about the Universe and its rhythm leads many people to affirm faith in a Universal power.**
+(1) *A sense of wonder about the Universe* and its rhythm leads many people to affirm faith in a Universal power.
 
 > When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great *sakti* is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) *sakti*. They will not happen (*nadakukayilla*) without a *sakti* . . .
 
 > The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of Daivam. If man thinks that there is no *sakti* above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
 
-**(2) Another factor that leads many people to affirm a religious faith is the awareness that man is not the master of himself or of the universe.**
+(2) Another factor that leads many people to affirm a religious faith is *the awareness that man is not the master of himself or of the universe.*
 
 From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
 
