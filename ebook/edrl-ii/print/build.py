@@ -804,7 +804,7 @@ def md_to_typst(markdown, stem):
             ("6", "Experience of the presence and guidance of a"),
             ("7", '"Our ancestors'),
             ("10", "The gods show signs."),
-            ("11", "Fear of Punishment."),
+            ("11", "Fear of Punishment"),
         ):
             # Numbered paragraphs now use selective italics rather than
             # bold Markdown. Match the paragraph prefix whether or not the
