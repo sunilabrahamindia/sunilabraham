@@ -1177,7 +1177,6 @@ parts.append(r"""
           #text(size: 8.5pt)[For e-book download options, visit: #link("https://sunilabraham.in/edrl-ii")[sunilabraham.in/edrl-ii]]
         ]
       ]
-      ]
     ]
   ]
   ]
