@@ -169,16 +169,16 @@ The other current present in the thinking of some people on religious rituals is
 
 People who take this view talk of rituals in the following style:
 
-**(a)** Suppose I or my family is suffering from a particular harm (*dosam*) say, for example, *Sarpadosam*, in that case *Sarpa-bali* (offering to the serpent) is necessary. Skin diseases, appearance of snakes in one's compound are believed to be *sarpadosam*. A piece of red cloth (*chop-oppikkal*) is to be offered to Bhagavati if the affliction is from Vasuri-mala (goddess of smallpox). When the trouble is from the spirits of the dead, cock sacrifice is necessary. Any harm from an evil spirit can be countered only with a *vazhipad* (offering) to Karimchamundi.
+(a) Suppose I or my family is suffering from a particular harm (*dosam*) say, for example, *Sarpadosam*, in that case *Sarpa-bali* (offering to the serpent) is necessary. Skin diseases, appearance of snakes in one's compound are believed to be *sarpadosam*. A piece of red cloth (*chop-oppikkal*) is to be offered to Bhagavati if the affliction is from Vasuri-mala (goddess of smallpox). When the trouble is from the spirits of the dead, cock sacrifice is necessary. Any harm from an evil spirit can be countered only with a *vazhipad* (offering) to Karimchamundi.
 
 
 Again, if we want our wishes to be fulfilled *pujas* to particular gods or goddess have to be offered. For instance, for the birth of a child, for wealth, Bhagavati is to be worshipped in special ways. This means the *saktis* are placated by these rituals.
 
-**(b)** We fail sometimes to obtain what we want because there is an obstacle (*vignam/mudak*) for it. We consult the astrologer (*kanisan*). He tells us the nature of the *vignam* by means of *prasnam*. He then prescribes *Ganapati homam*, or *choppu oppikkal*. The obstacle may be due to the position of some planets like Rahu or Ketu. But they can be removed by special rituals.
+(b) We fail sometimes to obtain what we want because there is an obstacle (*vignam/mudak*) for it. We consult the astrologer (*kanisan*). He tells us the nature of the *vignam* by means of *prasnam*. He then prescribes *Ganapati homam*, or *choppu oppikkal*. The obstacle may be due to the position of some planets like Rahu or Ketu. But they can be removed by special rituals.
 
-**(c)** Sometimes *saktis* like *Potten Teyyam*, Vishnu murti, Kuttichattan ask through their *komaram* (dancer) etc. for certain ceremonies to be done for them.
+(c) Sometimes *saktis* like *Potten Teyyam*, Vishnu murti, Kuttichattan ask through their *komaram* (dancer) etc. for certain ceremonies to be done for them.
 
-**(d)** Gods show sometimes certain signs asking for *nerccha, utsavam*, etc. "I understood," said a Pulaya, "through my child's peculiar gesture (*chesta*) that I was to celebrate *tira* (festival) to *Potten Teyyam*. I felt so since I was a believer."
+(d) Gods show sometimes certain signs asking for *nerccha, utsavam*, etc. "I understood," said a Pulaya, "through my child's peculiar gesture (*chesta*) that I was to celebrate *tira* (festival) to *Potten Teyyam*. I felt so since I was a believer."
 
 People who talk like this believe that *saktis* are pleased by the rituals. They use phrases like "*puja vidhikal kondu sakti priti undakum*"; "*Homam/namajapam tapas adiyaya anusthanangal kondu daivangale santoshipikkam*"; "*vrata tantra vidhikal kondu sakti prasadam undakam*" i.e. *puja, Homam, namajapam tapas, vratam* and such other prescribed religious rituals cause the gods to give their favour. If the desired wish is fulfilled, they believe that the gods are made happy. "*Agrahicha karyam sadhichengil, santosichu ennatinnu adayalamanu*"; "*Daivangal santosichengil karyangalkku oru mudakavum undakuvella*." If the gods are pleased, there won't be any obstacle to our affairs. Stories of different favours received were related by people who had obtained the *saktiprasadam*. Failure to obtain the favour, however, would be interpreted differently. Either they would say that the "Bhagavati"<sup id="ref-5"><a href="#note-5">5</a></sup> is not pleased, or one's time is not good, or one has no *vidhi* for it.
 
