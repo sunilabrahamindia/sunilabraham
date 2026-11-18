@@ -645,6 +645,39 @@ def clean_source(path):
         if unreferenced:
             problems.append("unreferenced note entries: " + ", ".join(unreferenced))
         raise SystemExit(f"Footnote audit failed for {path.name}: {'; '.join(problems)}")
+    # Render the Sony! heading and its source note as one explicit Typst
+    # heading. This heading's inline HTML footnote marker must not pass
+    # through the generic Markdown-heading token path.
+    for token, heading in list(heading_tokens.items()):
+        if re.match(r"^#{1,6}[ \\t]+Sony!<sup\\b", heading):
+            note_match = re.search(
+                r"""href=[\"']#note-([^\"']+)[\"']""", heading, re.I
+            )
+            if not note_match:
+                raise SystemExit("Sony! heading is missing its footnote reference.")
+            note_id = note_match.group(1)
+            note_item = next(
+                (item for item in source_note_items
+                 if item.get("id") == f"note-{note_id}"),
+                None,
+            )
+            if note_item is None:
+                raise SystemExit(f"Sony! heading points to missing note-{note_id}.")
+            note_text = footnote_markdown(note_item).strip()
+            if not note_text:
+                raise SystemExit(f"Sony! heading note-{note_id} is empty.")
+            level = len(re.match(r"^(#{1,6})", heading).group(1))
+            if full is not None and level >= 3:
+                level -= 1
+            typst_heading = (
+                "\n\n```{=typst}\n"
+                f"#heading(level: {level})[Sony!#footnote[{note_text}]]\n"
+                "```\n\n"
+            )
+            body = body.replace(token, typst_heading, 1)
+            del heading_tokens[token]
+            break
+
     cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
 
     # Essay 6: render all parallel festival labels in Sections A and B
