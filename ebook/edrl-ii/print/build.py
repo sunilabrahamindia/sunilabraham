@@ -1117,7 +1117,7 @@ parts.append(r"""
         row-gutter: 8.25pt,
         align: (left, left),
         [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
-        [#text(size: 9.5pt)[publications\\@sunilabraham.in]],
+        [#text(size: 9.5pt)[publications\@sunilabraham.in]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
         [#text(size: 9.5pt)[Tito Dutta]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT COORDINATION]],
@@ -1174,7 +1174,8 @@ parts.append(r"""
           #set par(justify: false, first-line-indent: 0pt, leading: 12pt, spacing: 0pt)
           #text(size: 8.5pt)[For e-book download options, visit: #link("https://sunilabraham.in/edrl-ii")[sunilabraham.in/edrl-ii]]
         ]
-      ]    ]
+      ]
+    ]
   ]
   ]
 ]
