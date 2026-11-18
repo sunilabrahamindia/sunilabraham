@@ -627,7 +627,8 @@ def clean_source(path):
     # Include references inside protected Markdown blockquotes in the audit.
     # They are temporarily absent from body_soup until restored for Pandoc.
     reference_soup = BeautifulSoup(
-        body + "\n" + "\n".join(blockquote_tokens.values()),
+        body + "\n" + "\n".join(blockquote_tokens.values())
+        + "\n" + "\n".join(heading_tokens.values()),
         "html.parser",
     )
     references = set()
@@ -687,6 +688,32 @@ def clean_source(path):
         if not match:
             raise SystemExit(f"Could not parse preserved heading in {path.name}: {heading}")
         level, title, label = match.groups()
+
+        # Markdown headings are protected before HTML footnote processing.
+        # Render any source footnote marker in the heading directly as a
+        # Typst footnote, using the corresponding source note text.
+        heading_note_pattern = re.compile(
+            r"""<sup\b[^>]*id=["']ref-[^"']+["'][^>]*>\s*"""
+            r"""<a\b[^>]*href=["']#note-([^"']+)["'][^>]*>.*?</a>\s*</sup>""",
+            re.I | re.S,
+        )
+        def render_heading_note(note_match):
+            note_id = note_match.group(1)
+            note_item = next(
+                (item for item in source_note_items
+                 if item.get("id") == f"note-{note_id}"),
+                None,
+            )
+            if note_item is None:
+                raise SystemExit(
+                    f"Heading footnote reference points to missing note-{note_id}."
+                )
+            note_text = footnote_markdown(note_item).strip()
+            if not note_text:
+                raise SystemExit(f"Heading footnote note-{note_id} is empty.")
+            return f"#footnote[{typst_escape(note_text)}]"
+
+        title = heading_note_pattern.sub(render_heading_note, title)
         title = typst_escape(title)
         title = re.sub(r"\*\*(.+?)\*\*", r"*\1*", title)
         title = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"_\1_", title)
