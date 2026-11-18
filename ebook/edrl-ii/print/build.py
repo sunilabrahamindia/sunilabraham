@@ -1103,11 +1103,10 @@ parts.append(r"""
   #block(width: 112mm)[
       #set par(justify: false, first-line-indent: 0pt, leading: 12.65pt, spacing: 0pt)
       #align(left)[
-        #text(size: 14pt, weight: "bold")[Essays on]
+        #set par(justify: false, first-line-indent: 0pt, leading: 13pt, spacing: 0pt)
+        #text(size: 11.5pt, weight: "bold")[Essays on Dalits, Religion and Liberation II]
         #linebreak()
-        #text(size: 14pt, weight: "bold")[Dalits, Religion and Liberation II]
-        #v(9pt)
-        #text(size: 10.5pt)[A. M. Abraham Ayrookuzhiel]
+        #text(size: 10pt)[A. M. Abraham Ayrookuzhiel]
       ]
       #v(16pt)
 
@@ -1117,8 +1116,10 @@ parts.append(r"""
         row-gutter: 8.25pt,
         align: (left, left),
         [#text(size: 8pt, weight: "bold", fill: luma(85))[CONTACT]],
-        [#text(size: 9.5pt)[publications\@sunilabraham.in]],
+        [#text(size: 9.5pt)[publications\\@sunilabraham.in]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
+        [#text(size: 9.5pt)[Tito Dutta]],
+        [#text(size: 8pt, weight: "bold", fill: luma(85))[TYPESETTING]],
         [#text(size: 9.5pt)[Tito Dutta]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT COORDINATION]],
         [#text(size: 9.5pt)[Herbert Paul]],
@@ -1150,9 +1151,10 @@ parts.append(r"""
       #align(left)[
         #block(width: 100%)[
           #set par(justify: false, first-line-indent: 0pt, leading: 6.6pt, spacing: 0pt)
-          #text(size: 8pt, weight: "bold", fill: luma(85))[TYPESETTING AND PRINT PRODUCTION]
+          #text(size: 8pt, weight: "bold", fill: luma(85))[PRODUCTION AND TYPESETTING]
           #v(5.5pt)
-          #text(size: 9.5pt)[Tito Dutta]
+          #set par(justify: false, first-line-indent: 0pt, spacing: 0pt)
+          #text(size: 8.5pt)[Typesetting and preparation of the book's print-production files were carried out using Python, Pandoc and Typst. Source files and production code are managed on GitHub, with automated builds run through GitHub Actions.]
         ]
       ]
 
@@ -1174,6 +1176,7 @@ parts.append(r"""
           #set par(justify: false, first-line-indent: 0pt, leading: 12pt, spacing: 0pt)
           #text(size: 8.5pt)[For e-book download options, visit: #link("https://sunilabraham.in/edrl-ii")[sunilabraham.in/edrl-ii]]
         ]
+      ]
       ]
     ]
   ]
