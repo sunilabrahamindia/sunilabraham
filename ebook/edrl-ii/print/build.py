@@ -778,7 +778,7 @@ def md_to_typst(markdown, stem):
 
     # Essay 1: keep the bold-text subsection "6. Will the sacred cow return?"
     # on a fresh page in the print edition. This is a print-only intervention.
-    if stem == "essay-1":
+        target = re.compile(r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$")
         target = re.compile(r"(?m)^\\*\\*6\. Will the sacred cow return\?\\*\\*$")
         pagebreak = "```{=typst}\n#pagebreak(weak: true)\n```\n\n"
         markdown_without_definitions, count = target.subn(
