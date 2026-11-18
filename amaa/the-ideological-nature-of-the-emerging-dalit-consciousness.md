@@ -136,7 +136,7 @@ did not leave landlords
 No lenience to any one......<sup id="ref-15"><a href="#note-15">15</a></sup>
 </div>
 
-Dalit Sangharsh Samiti's slogan in Karnataka is <em>jati bidi, mota bidi, manavatage jiva kodi</em> - reject caste, reject religion, give life to your humanity.
+Dalit Sangharsh Samiti's slogan in Karnataka is <em>jati bidi, mota bidi, manavatage jiva kodi</em> — reject caste, reject religion, give life to your humanity.
 
 The <em>Voice of the Weak—A Tabloid of Toiling People</em>, published from Delhi, reports: 'The All India Federation of Scheduled Castes, Scheduled Tribes, Backward Castes and Minorities Employees Welfare Association (SCEWASTAMB) decided to call upon the SCs/STs and BCs to discard Hinduism and boycott Hindu temples. This was decided in the massive gathering of thousands of delegates attending the 15th special conference of the Federation held here (Jaipur) on October 8 and 9, 1988. The All-India Conference resolved that SCs and STs are not Hindus .... that they are having their own religion ... The matter was closely examined from historical, sociological and anthropological perspectives.'<sup id="ref-16"><a href="#note-16">16</a></sup>
 
