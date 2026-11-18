@@ -90,7 +90,7 @@ This article was published in *Religion and Society*, Vol. XXXV, No. 2 (June 198
 
 <ol>
   <li id="note-1">
-    The heading "Sony!" appears in the source text. Its meaning and relevance to the discussion are unclear.
+    The heading "Sony!" appears in the original source. We have retained it as printed, in fidelity to the source text.
     <a href="#ref-1">↩</a>
   </li>
 </ol>
