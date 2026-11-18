@@ -697,6 +697,8 @@ def clean_source(path):
             r"""<a\b[^>]*href=["']#note-([^"']+)["'][^>]*>.*?</a>\s*</sup>""",
             re.I | re.S,
         )
+        heading_note_tokens = {}
+
         def render_heading_note(note_match):
             note_id = note_match.group(1)
             note_item = next(
@@ -711,10 +713,14 @@ def clean_source(path):
             note_text = footnote_markdown(note_item).strip()
             if not note_text:
                 raise SystemExit(f"Heading footnote note-{note_id} is empty.")
-            return f"#footnote[{typst_escape(note_text)}]"
+            token = f"TSAP_HEADING_FOOTNOTE_{len(heading_note_tokens)}_PRESERVE"
+            heading_note_tokens[token] = f"#footnote[{typst_escape(note_text)}]"
+            return token
 
         title = heading_note_pattern.sub(render_heading_note, title)
         title = typst_escape(title)
+        for token, footnote in heading_note_tokens.items():
+            title = title.replace(token, footnote)
         title = re.sub(r"\*\*(.+?)\*\*", r"*\1*", title)
         title = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"_\1_", title)
         label_suffix = f" <{label}>" if label else ""
