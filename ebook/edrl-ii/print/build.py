@@ -776,18 +776,6 @@ def md_to_typst(markdown, stem):
         markdown,
     ).strip()
 
-    # Essay 1: keep the bold-text subsection "6. Will the sacred cow return?"
-    # on a fresh page in the print edition. This is a print-only intervention.
-        target = re.compile(r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$")
-        target = re.compile(r"(?m)^\\*\\*6\. Will the sacred cow return\?\\*\\*$")
-        pagebreak = "```{=typst}\n#pagebreak(weak: true)\n```\n\n"
-        markdown_without_definitions, count = target.subn(
-            lambda match: pagebreak + match.group(0),
-            markdown_without_definitions,
-            count=1,
-        )
-        if count != 1:
-            raise SystemExit("Could not locate the exact Essay 1 subsection 6 bold paragraph.")
     parts = []
     cursor = 0
     pattern = re.compile(r"@@POEM_START@@(.*?)@@POEM_END@@", re.S)
@@ -1375,6 +1363,12 @@ for essay in essays:
     body = clean_source(source)
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
+    if essay["order"] == 1:
+        target = re.compile(r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$")
+        pagebreak = "```{=typst}\n#pagebreak(weak: true)\n```\n\n"
+        body, count = target.subn(lambda match: pagebreak + match.group(0), body, count=1)
+        if count != 1:
+            raise SystemExit("Could not locate the exact Essay 1 subsection 6 bold paragraph.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
     parts.append(converted + "\n")
 
