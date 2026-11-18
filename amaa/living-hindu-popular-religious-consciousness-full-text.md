@@ -190,23 +190,23 @@ People in Chirakkal, just like any other common folk in India, talk of their god
 
 The following answers were given by people when they were asked to explain what they understood by stories of gods getting angry.
 
-**(i)** "Daivam is without beginning or end. He is without emotions. But according to the Puranas, Bhagavan has come as Rama or Krishna to uphold *dharma* and end all forms of injustice (*aniti*). *avatars* are *bhavams* of the *sakti* of Bhagavan. Their duty is destruction of the wicked (*dustanigraham*) and protection of the good (*sistaparipalanam*)."
+(i) "Daivam is without beginning or end. He is without emotions. But according to the Puranas, Bhagavan has come as Rama or Krishna to uphold *dharma* and end all forms of injustice (*aniti*). *avatars* are *bhavams* of the *sakti* of Bhagavan. Their duty is destruction of the wicked (*dustanigraham*) and protection of the good (*sistaparipalanam*)."
 
-**(ii)** "Iswaran is *saccidananda swarupam*. It has no anger. It is ever in love with the world. As *avatar* it shows the feelings of man since the purpose of *avatar* is to destroy *adharma* and protect *dharma*. The Puranas help us to understand the meaning of life."
+(ii) "Iswaran is *saccidananda swarupam*. It has no anger. It is ever in love with the world. As *avatar* it shows the feelings of man since the purpose of *avatar* is to destroy *adharma* and protect *dharma*. The Puranas help us to understand the meaning of life."
 
-**(iii)** "According to the Bhagavad Gita, Bhagavan takes *avatar* to protect *dharma*. Kamsan was killed by Sri Krishnan and Hiranyakasipu by Narasimha *avatar* for their wickedness towards the people. The anger is against *adharma*. Bhagavan shows mercy to his devotees."
+(iii) "According to the Bhagavad Gita, Bhagavan takes *avatar* to protect *dharma*. Kamsan was killed by Sri Krishnan and Hiranyakasipu by Narasimha *avatar* for their wickedness towards the people. The anger is against *adharma*. Bhagavan shows mercy to his devotees."
 
-**(iv)** "Just as man, *Daivam* becomes angry at man's wicked acts and happy over his acts of worship and virtuous deeds such as alms-giving (*puja karmangal* and *danadharmangal*). *Avatar Daivam* comes to kill the wicked and protect the good. Anger is against *adharmam*."
+(iv) "Just as man, *Daivam* becomes angry at man's wicked acts and happy over his acts of worship and virtuous deeds such as alms-giving (*puja karmangal* and *danadharmangal*). *Avatar Daivam* comes to kill the wicked and protect the good. Anger is against *adharmam*."
 
-**(v)** "Bhagavan takes *avatar* when *adharmam* increases. The opposition to *adharmam* is manifested in anger. The real form of Bhagavan is *saccidananda swarupam* and *nirguna-bhavam*. But as *avatar* he shows feelings proper to that particular birth (*janmam*). The Puranas are treasure houses of knowledge. Many stories go to show that only *niti* and *dharmam* are permanent, not *adharmam*."
+(v) "Bhagavan takes *avatar* when *adharmam* increases. The opposition to *adharmam* is manifested in anger. The real form of Bhagavan is *saccidananda swarupam* and *nirguna-bhavam*. But as *avatar* he shows feelings proper to that particular birth (*janmam*). The Puranas are treasure houses of knowledge. Many stories go to show that only *niti* and *dharmam* are permanent, not *adharmam*."
 
-**(vi)** "One day man must suffer the fruits of his pride and wickedness. Man is punished for his evil deeds. It must be coming from *Daivasakti* as described in the Puranas."
+(vi) "One day man must suffer the fruits of his pride and wickedness. Man is punished for his evil deeds. It must be coming from *Daivasakti* as described in the Puranas."
 
-**(vii)** "*Daivam* gets angry if wrong acts are done. It means that people will have to suffer for theft, lies, deceit, etc. This is interpreted as *Daivam*'s anger."
+(vii) "*Daivam* gets angry if wrong acts are done. It means that people will have to suffer for theft, lies, deceit, etc. This is interpreted as *Daivam*'s anger."
 
-**(viii)** "The Puranas tell the story of the struggle between the good and the evil (*nanma and tinma*). They are written in a poetic style in the language of *devas* and *asuras*."
+(viii) "The Puranas tell the story of the struggle between the good and the evil (*nanma and tinma*). They are written in a poetic style in the language of *devas* and *asuras*."
 
-**(ix)** "Man has to pay for untruth and evil deeds. If *satyam* and *maryada* are violated, the result is affliction. It is interpreted as *Daivam*'s anger."
+(ix) "Man has to pay for untruth and evil deeds. If *satyam* and *maryada* are violated, the result is affliction. It is interpreted as *Daivam*'s anger."
 
 From the answers of people quoted above it is abundantly clear that in the religious consciousness of ordinary Hindus, *Daivam* is a symbol that undergirds their moral values.
 
