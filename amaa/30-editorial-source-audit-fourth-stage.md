@@ -64,6 +64,16 @@ Source corrections should be made only after the relevant passage has been exami
 
 ## Audit and activity log
 
+### 18 November 2026 — Editorial clarification to Essay 3, Note 7
+
+**Essay 3 — preservation of the original forthcoming-book reference**
+
+Note 7 in *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue* was reviewed. The note refers to the author's forthcoming book on popular religion in Chirakkal. As the book was subsequently published but it remains uncertain whether it contains the specific account referred to in the note, the original reference was retained rather than silently updated.
+
+An editorial clarification was added to Note 7: "(Note: This reference is preserved as it appeared in the original source.)" No other part of the essay source was changed.
+
+**Status:** Source edit completed. Commit: `f92fbde4f1a4eb9d3407f3a9e5a720f2104f8c5e`.
+
 This log records work undertaken during the fourth stage. New entries will be added as the work progresses.
 
 ### 18 November 2026 — Opening of the fourth-stage audit
