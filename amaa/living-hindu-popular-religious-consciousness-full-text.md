@@ -296,13 +296,13 @@ The question may now be asked: Is this type of consciousness an Advaita frame of
 
 Here I should mention the exceptions to the majority position described above.
 
-**(a)** People, though a few, who describe their religious faith in the explicit idiom of Advaita Vedanta and identify themselves as *advaitins*.
+(a) People, though a few, who describe their religious faith in the explicit idiom of Advaita Vedanta and identify themselves as *advaitins*.
 
-**(b)** People who in their conversation use such terms as *jivatman*, *paramatman*, *prakriti*, *purusha*, *antaryamin* etc., which reminds one of particular systems of philosophy but they cannot be identified with any one particular system as they are not following any system as such.
+(b) People who in their conversation use such terms as *jivatman*, *paramatman*, *prakriti*, *purusha*, *antaryamin* etc., which reminds one of particular systems of philosophy but they cannot be identified with any one particular system as they are not following any system as such.
 
-**(c)** People who give a vivid impression of conducting themselves in the "living presence" of a Reality other than themselves whom one likes to describe as theistic.
+(c) People who give a vivid impression of conducting themselves in the "living presence" of a Reality other than themselves whom one likes to describe as theistic.
 
-**(d)** People who describe the religious reality as a world of many powers each independent of one another.
+(d) People who describe the religious reality as a world of many powers each independent of one another.
 
 All these groups of people more or less share a common set of beliefs such as doctrine of *karma*, purity and pollution, astrology, *mantravadam* etc., and have common symbols of worship whether they be gods, ancestors, sacred animals, trees, rivers etc. and common festivals and practices.
 
