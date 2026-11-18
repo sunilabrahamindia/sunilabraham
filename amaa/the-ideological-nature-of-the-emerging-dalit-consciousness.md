@@ -273,7 +273,7 @@ The challenging task is to translate these political ideas to blend with the cul
 </li>
 
 <li id="note-16">
-  <em>Voice of the Weak - A Tabloid of Toiling People</em>, Vol.6 No. 6, Oct. 1988, Beput Bhavan, Sat Nagar, Karol Bagh, New Delhi.
+  <em>Voice of the Weak—A Tabloid of Toiling People</em>, Vol.6 No. 6, Oct. 1988, Beput Bhavan, Sat Nagar, Karol Bagh, New Delhi.
   <a href="#ref-16">↩</a>
 </li>
 
