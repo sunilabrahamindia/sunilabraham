@@ -163,9 +163,9 @@ The pre-Aryan religion of equality is revived through another cultural ferment i
 Tirumular, a Siddhar who lived in the seventh century A.D., wrote, "There is but one community and one god."<sup id="ref-37"><a href="#note-37">37</a></sup> Another Siddhar saint, Sivavakkiyar, ridiculed the recitation of Sanskrit couplets from the *sastras* and advocated the necessity to abandon belief in the primacy of the Vedas and Brahmanas as articulated by Sanskrit books. He spoke disparagingly of those who emphasised caste divisions:
 
 <div class="poem" markdown="1">
-Who is an untouchable woman and who is a Brahman woman?
-Is there any mark put on their flesh, skin or bone?
-Is the sexual desire of the untouchable different from that of a Brahman woman?
+Who is an untouchable woman and who is a Brahman woman?  
+Is there any mark put on their flesh, skin or bone?  
+Is the sexual desire of the untouchable different from that of a Brahman woman?  
 The difference between an untouchable woman and a Brahman woman is only in your mind.<sup id="ref-38-a"><a href="#note-38">38</a></sup>
 </div>
 
