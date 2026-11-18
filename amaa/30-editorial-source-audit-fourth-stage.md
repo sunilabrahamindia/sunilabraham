@@ -183,6 +183,23 @@ At each location, check that consecutive quoted passages which belong together d
 
 The credit-page signature spacing is deferred for a later review, as requested. No further change has been made to it in this review.
 
+
+### 18 November 2026 — Essay 1, subsection 6: pagination of "Will the sacred cow return?"
+
+**Print layout intervention — moving subsection 6 to a new page**
+
+During review of the Essay 1 print proof, the bold paragraph "6. Will the sacred cow return?" was found at the bottom of a page, with the subsection beginning in an undesirable position. This text is formatted in the manuscript as a bold paragraph, not as a semantic heading. The manuscript source was therefore left unchanged.
+
+A targeted intervention was made in `ebook/edrl-ii/print/build.py`, in the Essay 1 processing stage, to insert a Typst weak page break immediately before the exact paragraph. The intervention is restricted to Essay 1 and to this exact text. A weak page break (`#pagebreak(weak: true)`) was chosen so that it can move the subsection to a new page when necessary without forcing an unnecessary blank page if the content is already at a page boundary.
+
+The work required several corrective commits after the initial insertion caused failures in successive print-build runs (Builds #517–#520). The affected `md_to_typst()` function was subsequently restored from the last confirmed successful baseline, Build #516 (commit `149760f35dea1d2c8e2be181af0095427218958e`), and the page-break intervention was kept outside that function in the Essay 1 processing stage. The recovery was committed as `3d8aa8878ff5329bbac8678aa5648904b369f78b` ("Restore md_to_typst from successful build 516").
+
+**Verification:** Build #521 (GitHub Actions run `44270980091`) completed successfully and the print-preview artifact was uploaded. The user subsequently inspected the resulting proof and confirmed that subsection 6, "Will the sacred cow return?", now appears to have moved to a new page as intended.
+
+**Scope:** No wording or formatting was changed in the Essay 1 manuscript source. The intervention is confined to the print builder. Build #521 confirms successful generation; the pagination outcome was visually checked by the user in the generated proof.
+
+**Status:** Print-builder intervention completed; successful build and user visual confirmation recorded.
+
 ## Outstanding work
 
 1. Check the unchanged page number 159 and establish whether it indicates a pagination defect or is the expected folio.
