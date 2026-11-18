@@ -776,6 +776,19 @@ def md_to_typst(markdown, stem):
         markdown,
     ).strip()
 
+    # Essay 1: keep the bold-text subsection "6. Will the sacred cow return?"
+    # on a fresh page in the print edition. This is a print-only intervention.
+    if stem == "essay-1":
+        target = re.compile(r"(?m)^\\*\\*6\\. Will the sacred cow return\\?\\*\\*$")
+        pagebreak = "```{=typst}\\n#pagebreak(weak: true)\\n```\\n\\n"
+        markdown_without_definitions, count = target.subn(
+            lambda match: pagebreak + match.group(0),
+            markdown_without_definitions,
+            count=1,
+        )
+        if count != 1:
+            raise SystemExit("Could not locate the exact Essay 1 subsection 6 bold paragraph.")
+
     # In Essay 3, adjacent source quotations are separate Markdown
     # blockquotes, but form one continuous indented extract in the journal.
     # Join only consecutive blockquotes separated by blank lines in the
