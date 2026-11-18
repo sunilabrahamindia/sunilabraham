@@ -1279,9 +1279,7 @@ I personally take this opportunity to express my gratitude to the family of A. M
 
 #v(10pt)
 #align(right)[
-  #set par(justify: false, first-line-indent: 0pt, leading: 9.35pt, spacing: 0pt)
-  #linebreak()
-  #v(-2pt)
+  #set par(justify: false, first-line-indent: 0pt, leading: 8.25pt, spacing: 0pt)
   #text(size: 11pt, weight: "bold")[Tito Dutta]
   #linebreak()
   #text(size: 9.5pt)[Editor]
