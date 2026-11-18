@@ -806,16 +806,12 @@ def md_to_typst(markdown, stem):
             ("10", "The gods show signs."),
             ("11", "Fear of Punishment."),
         ):
-            if number == "2":
-                # Section (2) now uses selective italics and is no longer
-                # wrapped in bold Markdown. Accept its revised plain-text prefix.
-                target = re.compile(
-                    rf"(?m)^\({number}\) {re.escape(heading)}"
-                )
-            else:
-                target = re.compile(
-                    rf"(?m)^\*\*\({number}\) {re.escape(heading)}"
-                )
+            # Numbered paragraphs now use selective italics rather than
+            # bold Markdown. Match the paragraph prefix whether or not the
+            # first words are italicised; keep the local indent unchanged.
+            target = re.compile(
+                rf"(?m)^\\({number}\\) \\*?{re.escape(heading)}"
+            )
             markdown_without_definitions, count = target.subn(
                 lambda match: "\x60\x60\x60{=typst}\n#h(12.1pt)\n\x60\x60\x60\n\n" + match.group(0),
                 markdown_without_definitions,
