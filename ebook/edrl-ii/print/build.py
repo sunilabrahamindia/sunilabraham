@@ -810,7 +810,7 @@ def md_to_typst(markdown, stem):
             # bold Markdown. Match the paragraph prefix whether or not the
             # first words are italicised; keep the local indent unchanged.
             target = re.compile(
-                rf"(?m)^\\({number}\\) \\*?{re.escape(heading)}"
+                rf"(?m)^\({number}\) \*?{re.escape(heading)}"
             )
             markdown_without_definitions, count = target.subn(
                 lambda match: "\x60\x60\x60{=typst}\n#h(12.1pt)\n\x60\x60\x60\n\n" + match.group(0),
