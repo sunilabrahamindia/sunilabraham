@@ -649,7 +649,7 @@ def clean_source(path):
     # heading. This heading's inline HTML footnote marker must not pass
     # through the generic Markdown-heading token path.
     for token, heading in list(heading_tokens.items()):
-        if re.match(r"^#{1,6}[ \\t]+Sony!<sup\\b", heading):
+        if re.match(r"^#{1,6}[ \t]+Sony!<sup\b", heading):
             note_match = re.search(
                 r"""href=[\"']#note-([^\"']+)[\"']""", heading, re.I
             )
