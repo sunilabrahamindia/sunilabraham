@@ -82,6 +82,31 @@ The source edits and subsequent syntax corrections were committed. The latest em
 
 **Status:** Credit-page source revision recorded. Final print-build and visual verification remain to be confirmed.
 
+
+### 18 November 2026 — Article typography and poem lineation
+
+**Spacing before punctuation: Essays 5–9**
+
+A focused check was carried out for unwanted spaces immediately before full stops, commas, semicolons, colons, question marks and exclamation marks in the article/full-text sections.
+
+- **Essay 8 — Dalit Liberation—Some Reflections on Their Ideological Predicament:** 13 spacing instances were corrected within the full-text section, including the heading "Sony !". The source was re-fetched and checked; no instances remained in the checked section.
+- **Essay 9 — The Ideological Nature of the Emerging Dalit Consciousness:** 4 spacing instances were corrected within the full-text section. The source was re-fetched and checked; no instances remained in the checked section.
+- **Essay 7 — Dalit Theology: A Movement of Counter-Culture:** No instances were found in the article body. No punctuation-spacing changes were made.
+- **Essay 6 — Religion: A Way of Salvation or an Ideology of Oppression?:** No instances were found in the article body. No punctuation-spacing changes were made.
+- **Essay 5 — Religions and the Aspirations of the People:** No instances were found in the Full text section. No punctuation-spacing changes were made.
+
+These were limited typographic-normalisation checks. They do not constitute a complete proofread of the essays or a verification of other sections such as publication details and notes.
+
+**Essay 7 — lineation of the Sivavakkiyar passage**
+
+The poem passage beginning "Who is an untouchable woman and who is a Brahman woman?" was reformatted from seven short lines into four lines. The first three lines now end at the question marks, and the concluding sentence remains on the fourth line. The existing `<div class="poem">` wrapper, wording, punctuation and footnote markup were retained. No other content in the essay was changed.
+
+The source change was committed as `80796f66a2455e756f133956f5e5baf27cdd0a71`.
+
+A separate four-line passage beginning "Not by birth does one become an outcaste" was reviewed for capitalisation. The decision was to retain the existing mixed capitalisation rather than capitalise every line: the lowercase beginnings of the second and third lines preserve the sentence's continuity. No change was made to that passage.
+
+**Status:** The two punctuation-spacing corrections and the Essay 7 lineation change were committed. The relevant source sections were checked after the punctuation corrections; no print build or PDF layout verification was undertaken for the poem change.
+
 ## Outstanding work
 
 This section will be populated as the remaining checks are identified and prioritised. An item should be removed or marked complete only after its outcome has been verified. Matters carried forward from earlier stages should retain their original context and should not be treated as new findings without a fresh check.
