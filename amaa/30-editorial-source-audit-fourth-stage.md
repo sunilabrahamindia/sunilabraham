@@ -135,13 +135,56 @@ The Editor's Note signature block was adjusted to use the same 8.25pt leading an
 
 **Status:** Production-source adjustment completed and re-fetched for verification. Commit: `d3aaa99d944a76c03b0b30628145abb9225cbeba`. A new print build and visual PDF inspection have not yet been carried out.
 
+### 18 November 2026 — Print-proof review and follow-up checks
+
+**Essay 7 — Sivavakkiyar poem lineation**
+
+The four-line arrangement of the passage beginning "Who is an untouchable woman and who is a Brahman woman?" was visually checked in the newly generated print proof. The four source lines are now preserved in the PDF; the final line wraps naturally across the available measure. The result was accepted. No further change to the poem is required.
+
+**Essay 8 — restoration of the "Sony!" heading and editorial footnote**
+
+The first proof after adding the source footnote did not render the heading. It displayed the internal token `TSAP_MARKDOWN_HEADING_1_PRESERVE` instead. The print-builder handling was corrected so that the original heading "Sony!" is restored as a heading and its explanatory footnote is rendered with it. The correction was limited to `ebook/edrl-ii/print/build.py`; the essay source was not changed during this print-rendering correction.
+
+- **Builder commit:** `cddb3d244916f522ce432edeacc6a4dbec71e9eb`.
+- **Print proof:** GitHub Actions run [#507](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/44232291675) completed successfully and uploaded the print-preview artifact.
+- **Visual verification:** The subsequent PDF was reviewed and the "Sony!" heading and its footnote were confirmed present. The correction is accepted.
+
+**Essay punctuation — PDF search check**
+
+A search in the current PDF for a space immediately before question marks, exclamation marks and colons ( ` ?`, ` !` and ` :` ) returned no matches. A full-stop search was deliberately not treated as a reliable check because it would also find the spaces used with ellipses. This is a user-performed PDF search check, not a replacement for the source-level punctuation audit or a full proofread.
+
+**Pagination**
+
+The page count/page-number concern remains open. The user reports that the relevant page number is still 159. No pagination change has been made, and the cause or significance of the unchanged number has not yet been established.
+
+**Essay 3 — blockquote layout check**
+
+The next visual check should focus on the continuous and consecutive quoted extracts in *The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue*. In the PDF, use Ctrl+F to locate these exact opening phrases:
+
+- `I believe (visvas) that in the universe` — the long opening quotation in section A.
+- `When I think of the world and life in it` — the first quotation under section B, heading (1).
+- `The affairs of a country are run according to a certain set of laws` — the second consecutive quotation under heading (1).
+- `According to my mother, I was born because of an offering` — the consecutive quotations under heading (3).
+- `Those who walk in truth and in humility` — the short verse and following quotations under heading (4).
+
+At each location, check that consecutive quoted passages which belong together do not have an oversized vertical gap between them, while the quotation as a whole remains visibly separated from the surrounding prose. Also compare an isolated quotation with the surrounding paragraph spacing. This check is still pending; no change should be made unless the PDF shows a specific defect.
+
+**Deferred item**
+
+The credit-page signature spacing is deferred for a later review, as requested. No further change has been made to it in this review.
+
 ## Outstanding work
 
-This section will be populated as the remaining checks are identified and prioritised. An item should be removed or marked complete only after its outcome has been verified. Matters carried forward from earlier stages should retain their original context and should not be treated as new findings without a fresh check.
+1. Check the unchanged page number 159 and establish whether it indicates a pagination defect or is the expected folio.
+2. Visually inspect the Essay 3 blockquote locations listed above.
+3. Review the remaining essay text and footnotes for layout and transcription issues.
+4. Revisit the credit-page signature spacing later.
+
+An item should be removed or marked complete only after its outcome has been verified. Matters carried forward from earlier stages should retain their original context and should not be treated as new findings without a fresh check.
 
 ## Progress
 
-The fourth-stage audit has been opened. The earlier audit records have been reviewed, and the credit-page redesign and production-credit work have been entered in the activity log. Further source editing, checks and balances, style review and outstanding editorial work will be recorded here as they are undertaken.
+The fourth-stage audit records the source typography and poem review, the Essay 7 poem lineation, the Essay 8 "Sony!" editorial footnote and its successful print rendering, and the latest PDF checks. The four-line poem and restored "Sony!" heading and footnote have been visually accepted. Pagination and the Essay 3 blockquote layout remain under review. Credit-page signature spacing is deferred.
 
 **Working principle: Identify what remains → inspect the source → establish the decision → make the authorised change → verify it → record the result.**
 
