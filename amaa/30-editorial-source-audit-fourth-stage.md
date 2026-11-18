@@ -155,7 +155,7 @@ A search in the current PDF for a space immediately before question marks, excla
 
 **Pagination**
 
-The page count/page-number concern remains open. The user reports that the relevant page number is still 159. No pagination change has been made, and the cause or significance of the unchanged number has not yet been established.
+The page-count concern remains open. The user reports that the current PDF still has 159 pages. No pagination change has been made, and the reason the count remains at 159 has not yet been established.
 
 **Essay 3 — blockquote layout check**
 
