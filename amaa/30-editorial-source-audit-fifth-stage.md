@@ -79,6 +79,24 @@ The first build attempt (#523) exposed a Typst syntax error in the heading-emiss
 
 **Status:** Print-builder correction committed and print build successful. Final visual confirmation of the indentation remains pending.
 
+
+### 19 November 2026 — Essay 3: English translation added to Poonthanam quotation and footnotes renumbered
+
+**Essay 3 — The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue**
+
+The quotation attributed to Punthanam in Part I, Section B, point (2), was present in the source as two Romanised Malayalam lines, without an English translation. An English translation has now been added immediately below the original lines, retaining the existing Romanised text unchanged and presenting the translation across two corresponding lines:
+
+> Within just two or four days, You have a man carried on a bier;  
+> You place a burden on the shoulders of a king who has risen to the heights of his palace.
+
+A footnote has been added to clarify the editorial provenance of the translation: it was not included in the original journal publication and has been added for the present publication.
+
+Because this new note occurs before the essay's existing notes, the footnotes were renumbered sequentially throughout the source. The new translation note is now note 1; the eight pre-existing notes have moved to notes 2–9. All in-text reference anchors, note IDs, citation targets and return backlinks were updated to match. This preserves the order in which the notes occur in the essay and avoids a numbering sequence that would be incorrect in the printed book.
+
+**Verification:** The main source, `amaa/living-hindu-popular-religious-consciousness-full-text.md`, was updated in commit `affb508901565f9c942f997a6982a3c9ddf4706f`. The nine note IDs and nine reference anchors were checked for sequential numbering, and the corresponding citation targets and backlinks were checked for consistency. No duplicate IDs were found.
+
+**Status:** Source updated and footnote sequence and links validated. Print-proof review of the translated quotation and its footnote remains part of the production checks.
+
 ## Outstanding work
 
 Remaining checks will be added here as they are identified and undertaken. Each item should retain its context and should be marked complete only after the relevant source check, build or visual verification has been carried out.
