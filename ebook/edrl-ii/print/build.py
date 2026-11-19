@@ -322,8 +322,10 @@ def html_table_to_typst(table):
 
     def cell_content(value, header_cell=False, row_label=False):
         value = typst_escape(value)
-        if header_cell or row_label:
+        if header_cell:
             return f"table.cell(align: left, breakable: false)[*{value}*]"
+        if row_label:
+            return f"table.cell(align: left, breakable: false)[{value}]"
         if essay6_table:
             return f"table.cell(align: right, breakable: false)[{value}]"
         return f"table.cell(breakable: false)[{value}]"
