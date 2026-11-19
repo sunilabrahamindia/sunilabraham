@@ -304,7 +304,8 @@ def html_table_to_typst(table):
             [1.55, 0.85, 1.0, 0.7, 1.9],
     }
     header_key = tuple(value for value, _ in header)
-    if header_key in table_layouts:
+    essay6_table = header_key in table_layouts
+    if essay6_table:
         ratios = table_layouts[header_key]
     elif width == 6:
         ratios = [2.1] + [0.85] * 5
@@ -323,6 +324,8 @@ def html_table_to_typst(table):
         value = typst_escape(value)
         if header_cell or row_label:
             return f"table.cell(align: left, breakable: false)[*{value}*]"
+        if essay6_table:
+            return f"table.cell(align: right, breakable: false)[{value}]"
         return f"table.cell(breakable: false)[{value}]"
 
     header_cells = ",\n    ".join(
