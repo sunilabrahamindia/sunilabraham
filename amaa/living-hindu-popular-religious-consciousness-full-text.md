@@ -112,33 +112,33 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 (7) *"Our ancestors<sup id="ref-2"><a href="#note-2">1</a></sup> believed*, therefore we believe" is the attitude of some others. They believe that their ancestors cannot be wrong. They taught them to believe. They also say that so many people believe and all of them cannot be wrong.
 
-> Our ancestors taught us to believe. I think that they knew better than we do.
+> 'Our ancestors taught us to believe. I think that they knew better than we do.'
 
-> *Swamijis* and *Rishis* have experienced *Daivam*.
+> '*Swamijis* and *Rishis* have experienced *Daivam*.'
 
-> Since all people around here, the whole society here, believe, it has become a habit with me. Since many people have belief (*visvasam*), there must be some *sakti*. Otherwise how can you explain all these people going to places like Sabarimala, Guruvayoor, Parassini etc.
+> 'Since all people around here, the whole society here, believe, it has become a habit with me. Since many people have belief (*visvasam*), there must be some *sakti*. Otherwise how can you explain all these people going to places like Sabarimala, Guruvayoor, Parassini etc.'
 
 (8) *That faith is faith's own proof is the argument of many people.*
 
-> God is there for the one who believes and not for the one who does not believe. It depends on one's own state of mind.
+> 'God is there for the one who believes and not for the one who does not believe. It depends on one's own state of mind.'
 
-> Power of God (*Daiva sakti*) is the power of belief (*visvasa sakti*). If we believe in *Daivam*, there will be blessings (*anugraham*) of that *sakti*. There is no doubt about it. The *sakti* exists for the believer (*visvasikkunnavan*). A stone has *sakti* if we believe in it. Everything depends on our belief (*visvasam*). A rationalist (*yukti vadi*) has no experience of this because he has no belief (*visvasam*).
+> 'Power of God (*Daiva sakti*) is the power of belief (*visvasa sakti*). If we believe in *Daivam*, there will be blessings (*anugraham*) of that *sakti*. There is no doubt about it. The *sakti* exists for the believer (*visvasikkunnavan*). A stone has *sakti* if we believe in it. Everything depends on our belief (*visvasam*). A rationalist (*yukti vadi*) has no experience of this because he has no belief (*visvasam*).'
 
 (9) *Hope of life after death is another reason.*
 
-> In the rainy season a lot of grass comes up; in the summer it dries up. We do not pay much attention to it. It is difficult to think that man is subject to the same conditions, that he is born, lives for a little while, dies and there is nothing more to it. All religions (*matam*) teach that it is not the life here and its pleasures that matter but the life hereafter and the eternal happiness (*nitya santi*) that comes with it. Hinduism (*Hindu matam*) believes that it is after many births one is born as man. It is the amount of good and bad deeds (*papa punya pravarti*) that one does in one's life that determines what kind of next life he will merit. It is *Daivam* who decides all these. *Daivam* has given man the ability to discern what is good and what is bad. If one forgets all this and lives as he likes he will suffer for it.
+> 'In the rainy season a lot of grass comes up; in the summer it dries up. We do not pay much attention to it. It is difficult to think that man is subject to the same conditions, that he is born, lives for a little while, dies and there is nothing more to it. All religions (*matam*) teach that it is not the life here and its pleasures that matter but the life hereafter and the eternal happiness (*nitya santi*) that comes with it. Hinduism (*Hindu matam*) believes that it is after many births one is born as man. It is the amount of good and bad deeds (*papa punya pravarti*) that one does in one's life that determines what kind of next life he will merit. It is *Daivam* who decides all these. *Daivam* has given man the ability to discern what is good and what is bad. If one forgets all this and lives as he likes he will suffer for it.'
 
-> When man's abilities fail, *Daivam*'s mercy comes to aid him. My father's health is failing. I am almost led to pray lest it happen as I fear. It was unusual that I prayed the other day when father wanted me to take him to temple. I went and returned after praying with him.
+> 'When man's abilities fail, *Daivam*'s mercy comes to aid him. My father's health is failing. I am almost led to pray lest it happen as I fear. It was unusual that I prayed the other day when father wanted me to take him to temple. I went and returned after praying with him.'
 
 (10) *The gods show signs.* Signs believed to be from gods led some people to affirm faith in gods.
 
-> If we do not offer hair, something will go wrong. It may be that a member of the family will suddenly take ill, or some money has got to be spent unexpectedly on something or the other.
+> 'If we do not offer hair, something will go wrong. It may be that a member of the family will suddenly take ill, or some money has got to be spent unexpectedly on something or the other.'
 
-> There are many *saktis* in this world. Man is under the influence of these *saktis*. It is not possible for man to live as he pleases. If we do not give to these *saktis* what is their due, they will show certain signs (*Lakshanam/adayalam*). For instance Pottan *Daivam* is the *Daivam* of our community (*samudayam*). We are bound to offer whatever has been offered to him for generations. If this is not done, some sign will be shown. Sometimes we may not understand these signs. But we can get them interpreted with the help of *kanisan* (astrologer).<sup id="ref-3"><a href="#note-3">2</a></sup>
+> 'There are many *saktis* in this world. Man is under the influence of these *saktis*. It is not possible for man to live as he pleases. If we do not give to these *saktis* what is their due, they will show certain signs (*Lakshanam/adayalam*). For instance Pottan *Daivam* is the *Daivam* of our community (*samudayam*). We are bound to offer whatever has been offered to him for generations. If this is not done, some sign will be shown. Sometimes we may not understand these signs. But we can get them interpreted with the help of *kanisan* (astrologer).<sup id="ref-3"><a href="#note-3">2</a></sup>'
 
 (11) *Fear of Punishment*. The *saktis* have shown their pleasure and anger in the form of favour and punishment.
 
-> Kuttichattan will finish me if I make any change in his traditional dance dress.
+> 'Kuttichattan will finish me if I make any change in his traditional dance dress.'
 
 Stories of supposed mistakes and the punishment meted out by the gods as a result of them were narrated by people.
 
