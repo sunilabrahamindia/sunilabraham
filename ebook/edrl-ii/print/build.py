@@ -344,7 +344,7 @@ def html_table_to_typst(table):
     fence = chr(96) * 3
     return (
         fence + "{=typst}\n"
-        f"#{{\n  set text(size: {font_size}, hyphenate: false)\n  set par(justify: false, first-line-indent: 0pt, spacing: 0pt)\n"
+        f"#{{\n  set text(size: {font_size}, hyphenate: false)\n  set par(justify: false, leading: 6pt, first-line-indent: 0pt, spacing: 0pt)\n"
         "  table(\n"
         f"  columns: ({', '.join(f'{ratio}fr' for ratio in ratios)}),\n"
         "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
