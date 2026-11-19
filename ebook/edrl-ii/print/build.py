@@ -792,40 +792,6 @@ def md_to_typst(markdown, stem):
                 markdown_without_definitions,
             )
 
-    # Put typographic quotation marks in Markdown text, not as separate
-    # Typst layout elements. Open each quoted paragraph and close the final
-    # paragraph only; existing paragraph metrics remain unchanged.
-    def decorate_blockquote(match):
-        lines = match.group(0).splitlines()
-        starts = []
-        nonempty = []
-        for i, line in enumerate(lines):
-            content = line[1:].lstrip() if line.startswith(">") else line
-            if content.strip():
-                nonempty.append(i)
-                previous_empty = (
-                    i == 0
-                    or not (lines[i - 1][1:].strip() if lines[i - 1].startswith(">") else lines[i - 1].strip())
-                )
-                if previous_empty:
-                    starts.append(i)
-        if not nonempty:
-            return match.group(0)
-        for i in reversed(starts):
-            line = lines[i]
-            prefix = len(line) - len(line.lstrip(">"))
-            if prefix < len(line) and line[prefix] == " ":
-                prefix += 1
-            lines[i] = line[:prefix] + "“" + line[prefix:]
-        lines[nonempty[-1]] += "”"
-        return "\\n".join(lines)
-
-    markdown_without_definitions = re.sub(
-        r"(?m)(?:^>[^\\n]*(?:\\n|$))+",
-        decorate_blockquote,
-        markdown_without_definitions,
-    )
-
     # Essay 3, section (2) follows a blockquote. Add the local first-line
     # indent in the Markdown stream before Pandoc converts it to Typst.
     # This affects only the specified section, not global paragraph rules.
@@ -1024,7 +990,6 @@ common = r"""
   above: 12pt,
   below: 12pt,
   inset: (left: 22pt, right: 22pt),
-  stroke: (left: 0.4pt + luma(175)),
 )[
   #set text(size: 10.5pt, fill: black)
   #set par(justify: true, leading: 9pt, first-line-indent: 0pt, hanging-indent: 0pt, spacing: 10pt)
