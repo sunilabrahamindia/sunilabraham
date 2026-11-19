@@ -1467,8 +1467,15 @@ for essay in essays:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     if essay["order"] == 1:
         target = re.compile(r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$")
-        pagebreak = "```{=typst}\n#pagebreak(weak: true)\n```\n\n"
-        body, count = target.subn(lambda match: pagebreak + match.group(0), body, count=1)
+        pagebreak_and_indented_heading = (
+            "```{=typst}\n"
+            "#pagebreak(weak: true)\n"
+            "#h(12.1pt)[*6. Will the sacred cow return?*]\n"
+            "```\n\n"
+        )
+        body, count = target.subn(
+            lambda match: pagebreak_and_indented_heading, body, count=1
+        )
         if count != 1:
             raise SystemExit("Could not locate the exact Essay 1 subsection 6 bold paragraph.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
