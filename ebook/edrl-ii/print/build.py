@@ -804,7 +804,7 @@ def md_to_typst(markdown, stem):
             ("11", "Fear of Punishment"),
         ):
             target = re.compile(
-                rf"(?m)^\\({number}\\) \\*?{re.escape(heading)}"
+                rf"(?m)^\({number}\) \*?{re.escape(heading)}"
             )
             markdown_without_definitions, count = target.subn(
                 lambda match: "`#h(12.1pt)#text[(" + number + ")]`{=typst} " + match.group(0)[len(f"({number}) "):],
