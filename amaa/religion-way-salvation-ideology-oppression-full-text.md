@@ -61,11 +61,11 @@ In the second part we describe the religio-cultural factors based on observation
     </tr>
   </thead>
   <tbody>
-    <tr><th scope="row">Reddy, Vokkaliga, Nagaratha Shetty</th><td>133</td><td>126</td><td>1,501.36</td><td>75.9</td></tr>
-    <tr><th scope="row">Brahmin</th><td>4</td><td>2</td><td>13</td><td>0.7</td></tr>
-    <tr><th scope="row">Tigala</th><td>91</td><td>69</td><td>251.05</td><td>12.6</td></tr>
-    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>45</td><td>22</td><td>19.34</td><td>0.9</td></tr>
-    <tr><th scope="row">Holeya, Madiga</th><td>152</td><td>130</td><td>190.06</td><td>9.9</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Reddy, Vokkaliga, Nagaratha Shetty</th><td>133</td><td>126</td><td>1,501.36</td><td>75.9</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Brahmin</th><td>4</td><td>2</td><td>13</td><td>0.7</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Tigala</th><td>91</td><td>69</td><td>251.05</td><td>12.6</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>45</td><td>22</td><td>19.34</td><td>0.9</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Holeya, Madiga</th><td>152</td><td>130</td><td>190.06</td><td>9.9</td></tr>
     <tr><th scope="row">Total</th><td>425</td><td>349</td><td>1,974.81</td><td>100.0</td></tr>
   </tbody>
 </table>
@@ -87,11 +87,11 @@ In the second part we describe the religio-cultural factors based on observation
     </tr>
   </thead>
   <tbody>
-    <tr><th scope="row">Reddy, Vokkaliga, Nagaratha Shetty</th><td>36</td><td>59</td><td>192</td><td>205</td><td>341</td></tr>
-    <tr><th scope="row">Brahmin</th><td>1</td><td>—</td><td>—</td><td>2</td><td>—</td></tr>
-    <tr><th scope="row">Tigala</th><td>9</td><td>10</td><td>44</td><td>57</td><td>27</td></tr>
-    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>4</td><td>5</td><td>27</td><td>14</td><td>50</td></tr>
-    <tr><th scope="row">Holeya, Madiga</th><td>3</td><td>8</td><td>64</td><td>26</td><td>109</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Reddy, Vokkaliga, Nagaratha Shetty</th><td>36</td><td>59</td><td>192</td><td>205</td><td>341</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Brahmin</th><td>1</td><td>—</td><td>—</td><td>2</td><td>—</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Tigala</th><td>9</td><td>10</td><td>44</td><td>57</td><td>27</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>4</td><td>5</td><td>27</td><td>14</td><td>50</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Holeya, Madiga</th><td>3</td><td>8</td><td>64</td><td>26</td><td>109</td></tr>
     <tr><th scope="row">Total</th><td>53</td><td>82</td><td>327</td><td>304</td><td>527</td></tr>
   </tbody>
 </table>
@@ -106,11 +106,11 @@ In the second part we describe the religio-cultural factors based on observation
     <tr><th scope="col">Castes</th><th scope="col">No. of families</th><th scope="col">Amount in Rs.</th></tr>
   </thead>
   <tbody>
-    <tr><th scope="row">Reddy, Vokkaliga, Nagaratha Shetty</th><td>24</td><td>2,50,800</td></tr>
-    <tr><th scope="row">Brahmin</th><td>—</td><td>—</td></tr>
-    <tr><th scope="row">Tigala</th><td>18</td><td>89,029</td></tr>
-    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>4</td><td>29,500</td></tr>
-    <tr><th scope="row">Holeya, Madiga</th><td>22</td><td>83,100</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Reddy, Vokkaliga, Nagaratha Shetty</th><td>24</td><td>2,50,800</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Brahmin</th><td>—</td><td>—</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Tigala</th><td>18</td><td>89,029</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>4</td><td>29,500</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Holeya, Madiga</th><td>22</td><td>83,100</td></tr>
     <tr><th scope="row">Total</th><td>68</td><td>4,52,429</td></tr>
   </tbody>
 </table>
@@ -130,11 +130,11 @@ In the second part we describe the religio-cultural factors based on observation
     </tr>
   </thead>
   <tbody>
-    <tr><th scope="row">Reddy, Vokkaliga, Nagaratha Shetty</th><td>152</td><td>4</td><td>5</td></tr>
-    <tr><th scope="row">Brahmin</th><td>—</td><td>—</td><td>—</td></tr>
-    <tr><th scope="row">Tigala</th><td>52</td><td>24</td><td>20</td></tr>
-    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>12</td><td>3</td><td>8</td></tr>
-    <tr><th scope="row">Holeya, Madiga</th><td>26</td><td>93</td><td>38</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Reddy, Vokkaliga, Nagaratha Shetty</th><td>152</td><td>4</td><td>5</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Brahmin</th><td>—</td><td>—</td><td>—</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Tigala</th><td>52</td><td>24</td><td>20</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</th><td>12</td><td>3</td><td>8</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Holeya, Madiga</th><td>26</td><td>93</td><td>38</td></tr>
     <tr><th scope="row">Total</th><td>242</td><td>124</td><td>71</td></tr>
   </tbody>
 </table>
@@ -164,11 +164,11 @@ The educational and job patterns generally reflect the economic base of the resp
     <tr><th scope="col">Caste</th><th scope="col">Up to SSLC</th><th scope="col">SSLC and PUC</th><th scope="col">Degree</th><th scope="col">Non-agricultural professions and government jobs</th></tr>
   </thead>
   <tbody>
-    <tr><th scope="row">Reddys, Vokkaligas and Nagaratha Shettys</th><td>43</td><td>108</td><td>14</td><td>48</td></tr>
-    <tr><th scope="row">Brahmins</th><td>2</td><td>8</td><td>3</td><td>3</td></tr>
-    <tr><th scope="row">Tigalas</th><td>7</td><td>26</td><td>1</td><td>12</td></tr>
-    <tr><th scope="row">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata etc.</th><td>6</td><td>6</td><td>2</td><td>26</td></tr>
-    <tr><th scope="row">Holeyas and Madigas</th><td>12</td><td>26</td><td>4</td><td>21</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Reddys, Vokkaligas and Nagaratha Shettys</th><td>43</td><td>108</td><td>14</td><td>48</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Brahmins</th><td>2</td><td>8</td><td>3</td><td>3</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Tigalas</th><td>7</td><td>26</td><td>1</td><td>12</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata etc.</th><td>6</td><td>6</td><td>2</td><td>26</td></tr>
+    <tr><th scope="row" style="font-weight: normal;">Holeyas and Madigas</th><td>12</td><td>26</td><td>4</td><td>21</td></tr>
     <tr><th scope="row">Total</th><td>70</td><td>174</td><td>24</td><td>110</td></tr>
   </tbody>
 </table>
