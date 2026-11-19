@@ -813,7 +813,7 @@ def md_to_typst(markdown, stem):
                 rf"(?m)^\({number}\) \*?{re.escape(heading)}"
             )
             markdown_without_definitions, count = target.subn(
-                lambda match: "\x60\x60\x60{=typst}\n#h(12.1pt)\n\x60\x60\x60\n\n" + match.group(0),
+                lambda match: "[#h(12.1pt)]{=typst}" + match.group(0),
                 markdown_without_definitions,
                 count=1,
             )
