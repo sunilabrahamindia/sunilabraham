@@ -1193,7 +1193,7 @@ parts.append(r"""
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT COORDINATION]],
         [#text(size: 9.5pt)[Herbert Paul]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED BY]],
-        [#text(size: 9.5pt)[National Print Press, India]],
+        [#text(size: 9.5pt)[National Printing Press, Bengaluru, India]],
       )
 
       #v(18pt)
@@ -1236,7 +1236,7 @@ parts.append(r"""
         [#text(size: 8pt, weight: "bold", fill: luma(85))[ISBN-13 (Paperback)]],
         [#text(size: 9.5pt)[978-93-345-8524-7]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED PRICE]],
-        [#text(size: 9.5pt)[₹250 (Rupees Two Hundred and Fifty Only)]],
+        [#text(size: 9.5pt)[₹120 (Rupees One Hundred and Twenty Only)]],
       )
 
       #v(18pt)
