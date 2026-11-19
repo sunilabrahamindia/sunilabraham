@@ -330,6 +330,7 @@ def html_table_to_typst(table):
         fence + "{=typst}\n"
         f"#{{\n  set text(size: {font_size}, hyphenate: false)\n  set par(justify: false, leading: 5pt, first-line-indent: 0pt, spacing: 0pt)\n"
         "  table(\n"
+        "  columns: (" + ", ".join(["auto"] * width) + "),\n"
         "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
         f"  inset: (x: {horizontal_inset}, y: 3.5pt),\n"
         "  stroke: (x, y) => (\n"
