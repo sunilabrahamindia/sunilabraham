@@ -807,13 +807,13 @@ def md_to_typst(markdown, stem):
             ("11", "Fear of Punishment"),
         ):
             # Numbered paragraphs now use selective italics rather than
-            # bold Markdown. Match the paragraph prefix whether or not the
-            # first words are italicised; keep the local indent unchanged.
+            # bold Markdown. Insert Typst horizontal space as a raw inline
+            # element so it stays on the same paragraph line and adds no vertical gap.
             target = re.compile(
                 rf"(?m)^\({number}\) \*?{re.escape(heading)}"
             )
             markdown_without_definitions, count = target.subn(
-                lambda match: "[#h(12.1pt)]{=typst}" + match.group(0),
+                lambda match: "`#h(12.1pt)`{=typst}" + match.group(0),
                 markdown_without_definitions,
                 count=1,
             )
