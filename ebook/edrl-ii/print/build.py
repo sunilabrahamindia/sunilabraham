@@ -792,30 +792,6 @@ def md_to_typst(markdown, stem):
                 markdown_without_definitions,
             )
 
-    # Essay 3: headings (2), (6), (7), (10) and (11) follow blockquotes.
-    # Apply the numbered label and its spacing as a single inline unit.
-    # Keep the adjustment local to these five headings.
-    if stem == "essay-3":
-        for number, heading in (
-            ("2", "Another factor that leads many people"),
-            ("6", "Experience of the presence and guidance of a"),
-            ("7", '"Our ancestors'),
-            ("10", "The gods show signs."),
-            ("11", "Fear of Punishment"),
-        ):
-            target = re.compile(
-                rf"(?m)^\({number}\) \*?{re.escape(heading)}"
-            )
-            markdown_without_definitions, count = target.subn(
-                lambda match: "`#h(12.1pt)#text[(" + number + ")]`{=typst} " + match.group(0)[len(f"({number}) "):],
-                markdown_without_definitions,
-                count=1,
-            )
-            if count != 1:
-                raise SystemExit(
-                    f"Could not locate the exact section ({number}) heading in Essay 3 Markdown."
-                )
-
     def convert(segment, suffix):
         segment = segment.strip()
         if definitions:
