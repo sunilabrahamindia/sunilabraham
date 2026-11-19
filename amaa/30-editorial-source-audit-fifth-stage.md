@@ -140,6 +140,102 @@ The Essay 3-only special-case transformation was removed from `ebook/edrl-ii/pri
 
 **Status:** Fixed and confirmed by the user in print build #550.
 
+
+### 19 November 2026 — EDRL II print tables: typography, alignment, sizing and pagination
+
+**Production file:** `ebook/edrl-ii/print/build.py`
+
+A review of the EDRL II print proofs led to a series of table-formatting corrections. These were made in the print-production script; the essay manuscript sources and table data were not changed.
+
+#### 1. Table font size aligned with the essay text, then revised
+
+The table font size was first increased from 8pt to 11pt to match the essay paragraph font size. After reviewing the resulting table presentation, the decision was revised and the table font size was set to 10pt.
+
+**Commits:** `d39cd2e` (11pt); `4234955` (10pt).
+
+**Final setting:** 10pt.
+
+#### 2. Row labels changed to regular weight
+
+The print proof showed caste names used as row labels, including "Reddy, Vokkaliga, Nagaratha Shetty", appearing in bold even though the source HTML specified normal font weight. The converter had treated row labels like header cells and wrapped both in bold Typst markup.
+
+The cell-rendering logic was corrected so that column-header cells remain bold, while row-label cells are left-aligned and regular weight.
+
+**Commit:** `c2c1b4c`.
+
+#### 3. Table paragraph leading reduced
+
+Table paragraph leading was reduced from 6pt to 5pt. Paragraph spacing and first-line indentation remained at 0pt.
+
+**Commit:** `3b80988`.
+
+#### 4. Fixed column-width ratios removed
+
+The previous table-specific width ratios were removed so that Typst could size columns automatically. The table font size was set to 10pt as part of this revision. Essay 6 numeric-cell formatting was retained.
+
+**Commit:** `4234955` (font-size revision); `acaed80` (automatic sizing and alignment implementation).
+
+#### 5. Header and body alignment specified
+
+The table formatting was revised so that column headers are bold and centred, row labels are left-aligned and regular, and Essay 6 numeric cells are right-aligned. For other body cells, the first column is left-aligned and the remaining columns retain their centred default alignment.
+
+This was the intermediate alignment arrangement. It was subsequently revised following editorial feedback, as recorded below.
+
+**Commit:** `acaed80`.
+
+#### 6. Automatic sizing corrected to retain the table's column count
+
+The first automatic-sizing revision removed the explicit column ratios but also omitted the `columns` declaration. Typst consequently treated the table as a single-column table, causing headings and values to appear vertically in separate rows.
+
+The table declaration was corrected to retain the detected number of columns while assigning `auto` sizing to each column. This removed fixed ratios without collapsing the table structure.
+
+**Commit:** `0013a64`.
+
+**Verification:** EDRL II print-proof build #564 completed successfully. The subsequent proof was used for further alignment review.
+
+#### 7. Column headers changed from centred to left-aligned
+
+Following editorial feedback from Sunil Abraham — "Text should always be left-aligned. Numbers are looking good!" — only the table-header alignment was changed from centred to left. Header weight remained bold. Existing body-text and numeric alignment settings were not changed.
+
+**Commit:** `6aa143f`.
+
+**Verification:** EDRL II print-proof build #565 completed successfully.
+
+#### 8. Tables made non-breakable across pages
+
+To prevent a table from splitting between pages, each generated table was wrapped in a Typst block with `breakable: false`. The intention is for a table that does not fit in the remaining page space to move as a whole to the next page. The existing `table.header` declaration was retained.
+
+**Commit:** `ae8aeae`.
+
+**Verification and issue found:** Build #566 completed successfully, but inspection of its PDF revealed that the `set text(...)` and `set par(...)` commands were printed as visible text above a table. The commands had lost their leading Typst command markers when the block wrapper was introduced. The build's successful status did not mean that the visual output was correct; the proof was rejected for this defect.
+
+#### 9. Typst command markers restored inside the non-breakable block
+
+The missing `#` markers were restored before both the `set text` and `set par` commands. No table typography, alignment, sizing, cell padding, stroke, fill or pagination settings were otherwise changed in this correction.
+
+**Commit:** `a7de536`.
+
+**Verification:** EDRL II print-proof build #567 completed successfully. The successful workflow run confirms that the corrected production script compiled and generated the print-proof outputs. The resulting PDF still requires visual inspection to confirm the final table appearance and that tables remain together without unwanted repeated headers.
+
+#### Consolidated table settings after these revisions
+
+- Font size: 10pt.
+- Paragraph leading: 5pt.
+- Paragraph spacing: 0pt.
+- First-line indent: 0pt.
+- Horizontal cell inset: 3pt.
+- Vertical cell inset: 3.5pt.
+- Hyphenation: disabled.
+- Column sizing: automatic, with the detected column count retained; no fixed width ratios.
+- Column headers: left-aligned and bold.
+- Row labels: left-aligned and regular weight.
+- General body alignment: first column left; remaining columns centred by default.
+- Essay 6 numeric cells: right-aligned.
+- Pagination: each table is enclosed in a non-breakable block.
+
+**Outstanding visual verification:** Inspect the PDF from build #567 to confirm that (a) no table is split across pages, (b) the header is not duplicated when a table moves to a new page, (c) all columns and values remain correctly aligned, and (d) no Typst commands appear as visible text. A table taller than the printable area of a page cannot be kept intact without changing its size or layout; any such case must be assessed separately.
+
+
 ## Outstanding work
 
 Remaining checks will be added here as they are identified and undertaken. Each item should retain its context and should be marked complete only after the relevant source check, build or visual verification has been carried out.
