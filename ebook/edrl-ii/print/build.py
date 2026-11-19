@@ -954,7 +954,7 @@ common = r"""
   #it.body
 ]
 #set heading(numbering: none, hanging-indent: 0pt)
-#show footnote: it => super(text(size: 14pt)[#it])
+#show footnote: it => super(text(size: 9pt)[#it])
 #set footnote.entry(
   separator: line(length: 30%, stroke: 0.5pt + luma(90)),
   clearance: 5.1pt,
