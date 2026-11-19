@@ -987,10 +987,9 @@ common = r"""
 #set smartquote(enabled: false)
 """ + BODY_PAR + r"""
 #show quote.where(block: true): it => block(
-  above: 10pt,
-  below: 10pt,
-  inset: (left: 12pt, right: 6pt),
-  stroke: (left: 0.75pt + luma(45)),
+  above: 12pt,
+  below: 12pt,
+  inset: (left: 22pt, right: 22pt),
 )[
   #set text(size: 10.5pt, fill: black)
   #set par(justify: true, leading: 9pt, first-line-indent: 0pt, hanging-indent: 0pt, spacing: 10pt)
