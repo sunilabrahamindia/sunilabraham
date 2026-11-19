@@ -64,13 +64,13 @@ Dalit gods, rituals and occupations are considered "low", "inferior" and "unclea
 
 The Dalit shrines are at the base of trees, rocks, or are lowly huts. The Dalits are either excluded or they do not observe festivals of the Sanskritic tradition. Where festivals are observed in common by the villagers, they express hierarchy and feudal relationships in their symbols and rituals with regard to Dalits.<sup id="ref-15"><a href="#note-15">15</a></sup> The Dalits continue to play subordinate roles by performing special tasks like digging burial pits, removing dead animals and beating drums in many villages. Institutions of arts, crafts and sports are controlled by caste Hindus very often with no access to Dalits.
 
-As for Christian Dalits, we find in the 19th and early part of this century, missionaries as individuals and in groups, siding with the Dalits in several parts of India, initiating a mass movement from among them. Dr. G.A. Oddie, in his book *Social Protest in India*, deals with some of these movements in the second half of the 19th century. However, we find as the Church became an established social institution it adapted itself to the emerging capitalist and traditional semi-feudal structure of our society neutralising all its forces as a counter-cultural stream. Some are even inclined to think that in such a social situation the Church teaching of sin and salvation played a rather *ambiguous* role as Dr. Wilson argues in his book *Twice Alienated*. Moreover, there was very little change in certain areas in subordinate roles and other social discrimination against the Christian Dalits.
+As for Christian Dalits, we find in the 19th and early part of this century, missionaries as individuals and in groups, siding with the Dalits in several parts of India, initiating a mass movement from among them. Dr. G. A. Oddie, in his book *Social Protest in India*, deals with some of these movements in the second half of the 19th century. However, we find as the Church became an established social institution it adapted itself to the emerging capitalist and traditional semi-feudal structure of our society neutralising all its forces as a counter-cultural stream. Some are even inclined to think that in such a social situation the Church teaching of sin and salvation played a rather *ambiguous* role as Dr. Wilson argues in his book *Twice Alienated*. Moreover, there was very little change in certain areas in subordinate roles and other social discrimination against the Christian Dalits.
 
 Even the churches which were hundred per cent Dalit adapted themselves to the capitalistic, semi-feudal social structure of the society and used their churches for individual power and gain, forgetting the aspiration of the mass of the Dalits.
 
 ### Legal Situation {#legal}
 
-"Justice in words and injustice in deeds for the depressed people" is the experience of the Dalits as stated by V.R. Krishna Iyer, one of the most influential judges in recent times in the Supreme Court of India. This living contradiction is the result of real contradiction in life where the Dalits are equal before law but unequal in everything else, like economic power, bureaucratic position, educational, social and religious status. The result is that atrocities against the Dalits like murder, rape, arson, assault resulting in grievous physical injury is on the increase. The report of the Commission for Scheduled Castes and Scheduled Tribes (April 1979--March 1980) says: "It would be seen from this statement that the number of cases of atrocities against Scheduled Castes in the country increased by 38.52 per cent in 1978 against the year 1977, from 10,879 cases in 1977 to 15,070 cases in 1978." In 1979 the total number of cases is 13,861 less than the previous year but more than 1977. The trend continues. The latest official document on crimes against SCs and STs tabled in the Rajya Sabha by the government gives a figure of 3200 people murdered, 4400 women raped in the past four and a half years by non-SCs and STs.<sup id="ref-16"><a href="#note-16">16</a></sup> According to the report, Uttar Pradesh heads the list with 1652 murders and 1813 rapes, followed by Madhya Pradesh with 972 murders and 1661 rape cases.
+"Justice in words and injustice in deeds for the depressed people" is the experience of the Dalits as stated by V. R. Krishna Iyer, one of the most influential judges in recent times in the Supreme Court of India. This living contradiction is the result of real contradiction in life where the Dalits are equal before law but unequal in everything else, like economic power, bureaucratic position, educational, social and religious status. The result is that atrocities against the Dalits like murder, rape, arson, assault resulting in grievous physical injury is on the increase. The report of the Commission for Scheduled Castes and Scheduled Tribes (April 1979--March 1980) says: "It would be seen from this statement that the number of cases of atrocities against Scheduled Castes in the country increased by 38.52 per cent in 1978 against the year 1977, from 10,879 cases in 1977 to 15,070 cases in 1978." In 1979 the total number of cases is 13,861 less than the previous year but more than 1977. The trend continues. The latest official document on crimes against SCs and STs tabled in the Rajya Sabha by the government gives a figure of 3200 people murdered, 4400 women raped in the past four and a half years by non-SCs and STs.<sup id="ref-16"><a href="#note-16">16</a></sup> According to the report, Uttar Pradesh heads the list with 1652 murders and 1813 rapes, followed by Madhya Pradesh with 972 murders and 1661 rape cases.
 
 These crimes as well as violations of various laws in land reform, bonded labour and others go unpunished because of the class-caste bias of the judges.<sup id="ref-17"><a href="#note-17">17</a></sup> There are several studies which suggest justice is a myth when the conflict is between contending parties of unequal power. This is much more true in the case of the Dalits who are powerless and ignorant.
 
@@ -84,7 +84,7 @@ There are groups among the Dalits, like the Musahar in Rajasthan, who believe th
 
 ## II. Nature of the Dalit Counter-Culture {#counter-culture}
 
-The situation of complete dependence of the Dalits described in the first part is the product of economic and social forces in history. However, the history of our country, of our cultural heritage, does not tell this story because it is written by the dominant caste.<sup id="ref-21"><a href="#note-21">21</a></sup> For example, we know for certain that the Dalits of today by and large belong to different tribes of the proto-australoid and negrito races. At a stage in their development, when these people did not look at land as private property but considered it as territory, like air, sunlight and rain, a large section of them were enslaved by people who were superior in their knowledge of seasons, agricultural operations and of the use of tools.<sup id="ref-22"><a href="#note-22">22</a></sup> According to Prof. A.L. Basham, the non-violent sentiment of some of these tribes is the reason why they became outcastes. Those of the Dalits who migrated to the less fertile areas in fear of the powerful people were later thrown out of their territory by brute force, by power of law, deceit or by paying a little money, a sari or drink, a process which continued until very recent times. Even now the process continues in subtle ways.
+The situation of complete dependence of the Dalits described in the first part is the product of economic and social forces in history. However, the history of our country, of our cultural heritage, does not tell this story because it is written by the dominant caste.<sup id="ref-21"><a href="#note-21">21</a></sup> For example, we know for certain that the Dalits of today by and large belong to different tribes of the proto-australoid and negrito races. At a stage in their development, when these people did not look at land as private property but considered it as territory, like air, sunlight and rain, a large section of them were enslaved by people who were superior in their knowledge of seasons, agricultural operations and of the use of tools.<sup id="ref-22"><a href="#note-22">22</a></sup> According to Prof. A. L. Basham, the non-violent sentiment of some of these tribes is the reason why they became outcastes. Those of the Dalits who migrated to the less fertile areas in fear of the powerful people were later thrown out of their territory by brute force, by power of law, deceit or by paying a little money, a sari or drink, a process which continued until very recent times. Even now the process continues in subtle ways.
 
 In the place of this historic knowledge, which has to be built up on anthropological, archaeological and other material evidence, we have explanations in the form of myths, stories and formulas, invented by the priestly class. The myth of the divine origin of caste in Rig Veda 10.90, the reference to Dalits as Dasyas, Chandalas, Panchamas, stories like Shambuka in Valmiki's Ramayana, Ekalavya in Mahabharata, hide political facts and contexts of history under religious cover. The various provisions of the Dharmasastras, Kautilya's Arthasastra, the teaching of Bhagavad Gita on the four-fold order of caste, philosophical concepts like *karma* and rebirth show that they were written by dominant castes to perpetuate their hold on society.
 
@@ -109,13 +109,13 @@ Our countless bodies have been burning
 Set afire by your feeble thoughts.<sup id="ref-24-a"><a href="#note-24">24</a></sup>
 </div>
 
-In his study of ideology and self-identity of the Chamars of Lucknow, R.S. Khare writes that "The Chamar ascetic (who inspires and guides the community) distrusts the Hindu notions of hierarchy, ritual purity and sin and interprets them as instruments of social dominance. A Chamar ideologist distinguishes them as products of 'the scheming Brahmanic mind' meant mostly for the 'easily deluded caste Hindu followers'."<sup id="ref-25"><a href="#note-25">25</a></sup> Khare speaks about four radical and protesting ascetics who had replaced the Brahmin priests and eschewed Brahmanic ritualism from within Hindu philosophy and spiritualism, and replaced it with Buddhist ideas.<sup id="ref-26"><a href="#note-26">26</a></sup>
+In his study of ideology and self-identity of the Chamars of Lucknow, R. S. Khare writes that "The Chamar ascetic (who inspires and guides the community) distrusts the Hindu notions of hierarchy, ritual purity and sin and interprets them as instruments of social dominance. A Chamar ideologist distinguishes them as products of 'the scheming Brahmanic mind' meant mostly for the 'easily deluded caste Hindu followers'."<sup id="ref-25"><a href="#note-25">25</a></sup> Khare speaks about four radical and protesting ascetics who had replaced the Brahmin priests and eschewed Brahmanic ritualism from within Hindu philosophy and spiritualism, and replaced it with Buddhist ideas.<sup id="ref-26"><a href="#note-26">26</a></sup>
 
 Songs and plays creating awareness in the Dalits on their exploitation and teaching them ways to fight oppression are composed by Dalit writers. There is a cultural ferment among them which perceives "Dalit" as a symbol of change and evaluation. It rejects the Brahmanical value system. On the other hand they insist on rediscovering the true heritage of the untouchables as the Adi-Hindus (Mool Bharatis,<sup id="ref-27"><a href="#note-27">27</a></sup> Adi-Dravida, etc). In the emerging culture one could see the beginning of a coming together of old rivals like Malas and Madigas among the Dalits. For the first time in history Dalits are setting up their own cultural institutions in the form of schools, colleges, universities, art associations, clubs all over the country. They have small newspapers and journals to sustain their movements.<sup id="ref-28"><a href="#note-28">28</a></sup> They have now discovered that ideologies like Marxism and religions like Christianity, Islam, Sikhism, renascent Hinduism, though helpful up to a point, ultimately prove sterile for three reasons. First, caste people have dominated movements and blunted their cutting edges as alternative value systems. Secondly, even when Dalits were the sole members of such organisations as in the case of some Christian denominations, Dalit authorities who had become educated and rich adapted their institutions to the needs of the capitalist and semi-feudal larger society rather than that of the poor Dalits. Thirdly, these ideologies and religions divided the Dalits into many groups, often with conflicting interests and objectives. Dalits have now discovered that unless Dalitism becomes the dominant note of their identity no movement or ideology can liberate them. The emphasis on Dalitism helps the Dalits belonging to different language groups, ideologies, religions to come together forgetting their differences. The process has already started in history and there are attempts though feeble at the all-India level.
 
 Dalits are now celebrating their cultural identity with their folk arts, rejecting the Sanskritic cultural captivity. They are now aware that education does not mean joining school and colleges nor ability to read and write but knowledge of the forces which keep them in their material and spiritual slavery. With the rediscovery of their true identity they are also aware that it has to be integrated with worldly gains made under contemporary circumstances.
 
-Dalits are also organising themselves politically. If the Republican party, therefore, which had its origin in Dr. B.R. Ambedkar is losing its vigour and dynamism, new leaders and parties like Bahujan Samaj Party, Labour Party, are coming up on the scene. Dalit leadership is being increasingly accepted by Dalit masses in many states. There are a number of local and village level organisations all over the country concentrating on building up awareness among the Dalits through non-formal education and other cultural activities. Dalits have decided in many villages not to perform their traditional roles like beating drums, removing carcasses, scavenging. There are also places where Dalits abstain completely from intoxicating drinks.
+Dalits are also organising themselves politically. If the Republican party, therefore, which had its origin in Dr. B. R. Ambedkar is losing its vigour and dynamism, new leaders and parties like Bahujan Samaj Party, Labour Party, are coming up on the scene. Dalit leadership is being increasingly accepted by Dalit masses in many states. There are a number of local and village level organisations all over the country concentrating on building up awareness among the Dalits through non-formal education and other cultural activities. Dalits have decided in many villages not to perform their traditional roles like beating drums, removing carcasses, scavenging. There are also places where Dalits abstain completely from intoxicating drinks.
 
 These are some aspects of the cultural ferment which is taking place among the Dalits. The culturally silent people, or in biblical phrase the "no people" are on the way to become "the people of God".
 
@@ -123,7 +123,7 @@ These are some aspects of the cultural ferment which is taking place among the D
 
 We have seen in the first part that it is impossible for the Dalits to strengthen their identity within the dominant cultural framework. In the second part we outlined how awakened Dalits attempt to create an alternative cultural space to realise their aspirations. In this third part we sketch an historical perspective in terms of past resources for a Dalit theological movement.
 
-Dalit theology has its seminal roots in the autochthonous traditions of the Dalits. The first thing we should remember about this autochthonous tradition of the Dalits is that it is a living tradition surviving from ancient times though dependent and powerless. It appears in the form of myths, proverbs, songs, festivals and rituals. They tell the story of Dalit origin and their enslavement under religious symbolism. Protests and the search for justice and equality are often explicitly expressed in songs, rituals and festivals. J.T. Appavoo, who made a special study of folklore in Tamilnadu, brings out a number of stories and rituals which protest against the Manu Dharma (Brahmanical) traditions, against land alienation, against oppression of women, against degradation of widows, against slavery, against the caste system, against humiliation of their heroes; some of these stories and rituals proclaim equality.<sup id="ref-29"><a href="#note-29">29</a></sup> He concludes that "folklore of the past was used to protest against injustice."<sup id="ref-30"><a href="#note-30">30</a></sup>
+Dalit theology has its seminal roots in the autochthonous traditions of the Dalits. The first thing we should remember about this autochthonous tradition of the Dalits is that it is a living tradition surviving from ancient times though dependent and powerless. It appears in the form of myths, proverbs, songs, festivals and rituals. They tell the story of Dalit origin and their enslavement under religious symbolism. Protests and the search for justice and equality are often explicitly expressed in songs, rituals and festivals. J. T. Appavoo, who made a special study of folklore in Tamilnadu, brings out a number of stories and rituals which protest against the Manu Dharma (Brahmanical) traditions, against land alienation, against oppression of women, against degradation of widows, against slavery, against the caste system, against humiliation of their heroes; some of these stories and rituals proclaim equality.<sup id="ref-29"><a href="#note-29">29</a></sup> He concludes that "folklore of the past was used to protest against injustice."<sup id="ref-30"><a href="#note-30">30</a></sup>
 
 We should also remember that some of these myths, songs and rituals are interpreted and celebrated by the dominant tradition to serve its own interests and Dalits are often unaware of the true character of the myth or ritual.
 
@@ -131,7 +131,7 @@ Indian Christian theological reflections generally accept the dominant versions 
 
 > In Kerala another version of this myth is believed in. There it is felt that King Mahabali was an ancient tribal ruler, under whose sway there was a primitive and egalitarian society. Vamana, it is suggested, was symbolic of the new Brahmanical order which "tricked" the good tribal king into surrendering his whole kingdom to a new Sanskrit dominant culture.
 >
-> In the same way there is a South Indian reduction of the great Ramayana myth, which extols Ravana (the demon of the northern version) who is king of Sri Lanka. Romila Thapar, in her essay "Exile and Kingdom" (Mythic Society, Bangalore, 1978, p. 19), argues that Ravana and other *rakshasas* probably represent pre-Aryan oligarchic societies, linked to ancient chalcolithic cultures of the second and early first millenium B.C. These societies were probably prior to plough agriculture and primitive city culture. The same conclusions probably could also be applied to the social structures implied by the figure of Mahabali.<sup id="ref-32"><a href="#note-32">32</a></sup>
+> In the same way there is a South Indian reduction of the great Ramayana myth, which extols Ravana (the demon of the northern version) who is king of Sri Lanka. Romila Thapar, in her essay "Exile and Kingdom" (Mythic Society, Bangalore, 1978, p. 19), argues that Ravana and other *rakshasas* probably represent pre-Aryan oligarchic societies, linked to ancient chalcolithic cultures of the second and early first millenium B. C. These societies were probably prior to plough agriculture and primitive city culture. The same conclusions probably could also be applied to the social structures implied by the figure of Mahabali.<sup id="ref-32"><a href="#note-32">32</a></sup>
 
 I would like to bring a few more facts from the folk tradition. Firstly, there is a folk song commemorating a golden era which every child in Kerala even today knows by heart. It says: when Maveli was ruling the land all the people were equals. There was no falsehood. There was no false measure.
 
@@ -156,11 +156,11 @@ by deeds one becomes an outcaste
 by deeds one becomes a Brahmana.<sup id="ref-35-a"><a href="#note-35">35</a></sup>
 </div>
 
-While Brahmanical religion denied the natives access to their temples and rites, Buddhist monks preached to them and the more enlightened wandering ascetics would give them instruction.<sup id="ref-36"><a href="#note-36">36</a></sup> There is indisputable historic evidence of the all-India spread of Buddhism and Dalits presence in it, even in many parts of South India. Dr. B.R. Ambedkar's embrace of Buddhism was an attempt to revive this counter-cultural stream.
+While Brahmanical religion denied the natives access to their temples and rites, Buddhist monks preached to them and the more enlightened wandering ascetics would give them instruction.<sup id="ref-36"><a href="#note-36">36</a></sup> There is indisputable historic evidence of the all-India spread of Buddhism and Dalits presence in it, even in many parts of South India. Dr. B. R. Ambedkar's embrace of Buddhism was an attempt to revive this counter-cultural stream.
 
-The pre-Aryan religion of equality is revived through another cultural ferment in the form of supreme devotion to Siva by the Siddhars and Lingayats in medieval India. G.U. Pope wrote in his introduction to his translation of the *Tiruvasagam* of Manickavasagar that the Saiva Siddhanta philosophical system was undoubtedly the most intrinsically valuable of all the religions of India, essentially existing from pre-Aryan times. The movement was essentially non-Brahmin though there were individual Brahmin poets and sages in it.
+The pre-Aryan religion of equality is revived through another cultural ferment in the form of supreme devotion to Siva by the Siddhars and Lingayats in medieval India. G. U. Pope wrote in his introduction to his translation of the *Tiruvasagam* of Manickavasagar that the Saiva Siddhanta philosophical system was undoubtedly the most intrinsically valuable of all the religions of India, essentially existing from pre-Aryan times. The movement was essentially non-Brahmin though there were individual Brahmin poets and sages in it.
 
-Tirumular, a Siddhar who lived in the seventh century A.D., wrote, "There is but one community and one god."<sup id="ref-37"><a href="#note-37">37</a></sup> Another Siddhar saint, Sivavakkiyar, ridiculed the recitation of Sanskrit couplets from the *sastras* and advocated the necessity to abandon belief in the primacy of the Vedas and Brahmanas as articulated by Sanskrit books. He spoke disparagingly of those who emphasised caste divisions:
+Tirumular, a Siddhar who lived in the seventh century A. D., wrote, "There is but one community and one god."<sup id="ref-37"><a href="#note-37">37</a></sup> Another Siddhar saint, Sivavakkiyar, ridiculed the recitation of Sanskrit couplets from the *sastras* and advocated the necessity to abandon belief in the primacy of the Vedas and Brahmanas as articulated by Sanskrit books. He spoke disparagingly of those who emphasised caste divisions:
 
 <div class="poem" markdown="1">
 Who is an untouchable woman and who is a Brahman woman?  
@@ -173,7 +173,7 @@ Basava and Kabir, Ramanand and Ravidas, and the Maratha saints were other equali
 
 The egalitarian Muslim faith and the outspoken sentiments of Sikh Gurus against caste and their ritual meal in common belong to this counter-cultural stream in our civilization.
 
-Christian missionaries joined this counter-cultural stream by advocating equality, status by achievement, monotheism, anti-Brahmanism and puritanism.<sup id="ref-40"><a href="#note-40">40</a></sup> We have already referred to the comments of G.U. Pope who popularised the ideas of Tirukural, of Tiruvalluvar and Tiruvasagam of Mānikka Vasagar. The western education and the political perceptions of the British Government helped this cultural transformation.<sup id="ref-41"><a href="#note-41">41</a></sup> The modern phase of this cultural ferment was made up of a number of movements across the country led largely by leaders, poets and saints of the backward castes and Dalits. Sri Narayan Guru, Poyykayil Appachen, Subbanandha Swami, Ayyankali, P.K. Karuppan in Kerala; Subramania Bharati, Ramalinga Swami, Ramaswami Naickar, C.A. Ayyamuthu, Bharati Dasan, Muthu Kutti Ayya in Tamilnad, Yogi Pothuluri Vira Brahman, Joshua in Andhra Pradesh, Shyam Sunder and Bhimsena movement in Hyderabad-Karnataka, the movement under Jyotirao Phule and B.R. Ambedkar in Maharashtra; Adi-Dharm movement in the Punjab, the Namashudra movement in Bengal; the Messianic Movement among the Pankas of Raipur District, the Satnami uprising of the Chamars in Chattisgarh District, Achchutananda and Jigvasu in Lucknow-Kanpur region are some of the most important cultural forces which paved the way for Dalit entry into the religio-cultural life of the country.
+Christian missionaries joined this counter-cultural stream by advocating equality, status by achievement, monotheism, anti-Brahmanism and puritanism.<sup id="ref-40"><a href="#note-40">40</a></sup> We have already referred to the comments of G. U. Pope who popularised the ideas of Tirukural, of Tiruvalluvar and Tiruvasagam of Mānikka Vasagar. The western education and the political perceptions of the British Government helped this cultural transformation.<sup id="ref-41"><a href="#note-41">41</a></sup> The modern phase of this cultural ferment was made up of a number of movements across the country led largely by leaders, poets and saints of the backward castes and Dalits. Sri Narayan Guru, Poyykayil Appachen, Subbanandha Swami, Ayyankali, P. K. Karuppan in Kerala; Subramania Bharati, Ramalinga Swami, Ramaswami Naickar, C. A. Ayyamuthu, Bharati Dasan, Muthu Kutti Ayya in Tamilnad, Yogi Pothuluri Vira Brahman, Joshua in Andhra Pradesh, Shyam Sunder and Bhimsena movement in Hyderabad-Karnataka, the movement under Jyotirao Phule and B. R. Ambedkar in Maharashtra; Adi-Dharm movement in the Punjab, the Namashudra movement in Bengal; the Messianic Movement among the Pankas of Raipur District, the Satnami uprising of the Chamars in Chattisgarh District, Achchutananda and Jigvasu in Lucknow-Kanpur region are some of the most important cultural forces which paved the way for Dalit entry into the religio-cultural life of the country.
 
 ## Conclusion {#conclusion}
 
@@ -187,7 +187,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
 
 <ol>
   <li id="note-1">
-    The conflict between value systems of Brahmins and the Dalits is brought out clearly by R.S. Khare, <em>The Untouchable as Himself: Ideology, Identity and Pragmatism among the Lucknow Chamars</em>, Cambridge University Press, Cambridge, 1984.
+    The conflict between value systems of Brahmins and the Dalits is brought out clearly by R. S. Khare, <em>The Untouchable as Himself: Ideology, Identity and Pragmatism among the Lucknow Chamars</em>, Cambridge University Press, Cambridge, 1984.
     <a href="#ref-1">↩</a>
   </li>
 
@@ -197,12 +197,12 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-3">
-    R.S. Khare, <em>op. cit.</em>, p. 27.
+    R. S. Khare, <em>op. cit.</em>, p. 27.
     <a href="#ref-3">↩</a>
   </li>
 
   <li id="note-4">
-    'On Moral Individuation in relation to the Untouchable', see R.S. Khare, <em>op. cit.</em>, pp. 51–69.
+    'On Moral Individuation in relation to the Untouchable', see R. S. Khare, <em>op. cit.</em>, pp. 51–69.
     <a href="#ref-4">↩</a>
   </li>
 
@@ -232,7 +232,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-10">
-    V.R. Krishna Iyer, <em>Justice in Words and Injustice in Deeds for the Depressed Classes</em>, Pamphlet, 4014, Indian Social Institute, Delhi, 1984.
+    V. R. Krishna Iyer, <em>Justice in Words and Injustice in Deeds for the Depressed Classes</em>, Pamphlet, 4014, Indian Social Institute, Delhi, 1984.
     <a href="#ref-10">↩</a>
   </li>
 
@@ -247,7 +247,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-13">
-    A.M.A. Ayrookuzhiel, "Religion a way of Salvation or An Ideology of Oppression", <em>Religion and Society</em>, March 1985.
+    A. M. A. Ayrookuzhiel, "Religion a way of Salvation or An Ideology of Oppression", <em>Religion and Society</em>, March 1985.
     <a href="#ref-13">↩</a>
   </li>
 
@@ -257,7 +257,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-15">
-    A.M.A. Ayrookuzhiel, see note 13.
+    A. M. A. Ayrookuzhiel, see note 13.
     <a href="#ref-15">↩</a>
   </li>
 
@@ -267,7 +267,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-17">
-    V.R. Krishna Iyer, <em>Justice in Words and Injustice in Deeds for the Depressed Classes</em>, Pamphlet No. 14, Pub. I.S.I. Delhi; A.M.A. Ayrookuzhiel, <em>Swami Anand Thirth, Untouchability: Gandhian Solution on Trial</em>.
+    V. R. Krishna Iyer, <em>Justice in Words and Injustice in Deeds for the Depressed Classes</em>, Pamphlet No. 14, Pub. I. S. I. Delhi; A. M. A. Ayrookuzhiel, <em>Swami Anand Thirth, Untouchability: Gandhian Solution on Trial</em>.
     <a href="#ref-17">↩</a>
   </li>
 
@@ -282,22 +282,22 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
 </li>
 
   <li id="note-20">
-    A.M.A. Ayrookuzhiel, <em>ibid.</em>
+    A. M. A. Ayrookuzhiel, <em>ibid.</em>
     <a href="#ref-20">↩</a>
   </li>
 
   <li id="note-21">
-    A.L. Basham, <em>The Wonder that was India</em>, 3rd revised edition, Sidwig & Jackson, London, p. 146.
+    A. L. Basham, <em>The Wonder that was India</em>, 3rd revised edition, Sidwig & Jackson, London, p. 146.
     <a href="#ref-21">↩</a>
   </li>
 
   <li id="note-22">
-    A.L. Basham, <em>op. cit.</em>, p. 146.
+    A. L. Basham, <em>op. cit.</em>, p. 146.
     <a href="#ref-22">↩</a>
   </li>
 
   <li id="note-23">
-    V.L. Kalekar, quoted in Barbara Joshi, <em>op. cit.</em>, p. 83.
+    V. L. Kalekar, quoted in Barbara Joshi, <em>op. cit.</em>, p. 83.
     <a href="#ref-23-a">↩</a>
   </li>
 
@@ -307,12 +307,12 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-25">
-    R.S. Khare, <em>op. cit.</em>, p. 74.
+    R. S. Khare, <em>op. cit.</em>, p. 74.
     <a href="#ref-25">↩</a>
   </li>
 
   <li id="note-26">
-    R.S. Khare, <em>op. cit.</em>, p. 80.
+    R. S. Khare, <em>op. cit.</em>, p. 80.
     <a href="#ref-26">↩</a>
   </li>
 
@@ -327,7 +327,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-29">
-    J.T. Appavoo, <em>Folklore for Change</em>, T.T.S. Publication, Arasaradi, Madurai-10, Ch. 3.
+    J. T. Appavoo, <em>Folklore for Change</em>, T. T. S. Publication, Arasaradi, Madurai-10, Ch. 3.
     <a href="#ref-29">↩</a>
   </li>
 
@@ -347,7 +347,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-33">
-    Syed Siraj-ul-Hassan, <em>The Caste and Tribes of H.E.H. Nizam's Dominion</em>, Vol. I, Bombay (1920) pp. 409–420 as extracted in <em>Census of India 1961</em>, Vol. II, "Andhra Pradesh", Part V.B. (12) Appendix VII on Madiga.
+    Syed Siraj-ul-Hassan, <em>The Caste and Tribes of H. E. H. Nizam's Dominion</em>, Vol. I, Bombay (1920) pp. 409–420 as extracted in <em>Census of India 1961</em>, Vol. II, "Andhra Pradesh", Part V. B. (12) Appendix VII on Madiga.
     <a href="#ref-33">↩</a>
   </li>
 
@@ -362,7 +362,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-36">
-    A.L. Basham, <em>op. cit.</em>, p. 146.
+    A. L. Basham, <em>op. cit.</em>, p. 146.
     <a href="#ref-36">↩</a>
   </li>
 
@@ -377,7 +377,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
   <li id="note-39">
-    A.L. Basham, <em>op. cit.</em>, p. 152.
+    A. L. Basham, <em>op. cit.</em>, p. 152.
     <a href="#ref-39">↩</a>
   </li>
 
@@ -392,7 +392,7 @@ Much of the existing Indian Christian theology tries to relate to the dominant s
   </li>
 
 <li id="note-42">
-  cfr. Hans Staffner, S.J. <em>The Significance of Jesus Christ in Asia</em>, Gujarat Sahitya Prakash, Anand. M.M. Thomas, <em>Acknowledged Christ of Hinduism</em>, CLS, Madras.
+  cfr. Hans Staffner, S. J. <em>The Significance of Jesus Christ in Asia</em>, Gujarat Sahitya Prakash, Anand. M. M. Thomas, <em>Acknowledged Christ of Hinduism</em>, CLS, Madras.
   <a href="#ref-42">↩</a>
 </li>
   
