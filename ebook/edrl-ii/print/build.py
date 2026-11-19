@@ -993,7 +993,7 @@ common = r"""
 )[
   #set text(size: 10.5pt, fill: black)
   #set par(justify: true, leading: 9pt, first-line-indent: 0pt, hanging-indent: 0pt, spacing: 10pt)
-  #text(size: 22pt, fill: luma(80))["\\u{201C}"]#h(2pt)#it.body
+  #text(size: 22pt, fill: luma(80))[“]#h(2pt)#it.body
 ]
 #set heading(numbering: none, hanging-indent: 0pt)
 #show footnote: it => super(text(size: 14pt)[#it])
