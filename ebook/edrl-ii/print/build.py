@@ -285,45 +285,27 @@ def html_table_to_typst(table):
         for row in data_rows
     ]
 
-    # Use table-specific proportions for the five data tables in Essay 6.
-    # These widths account for both the heading lengths and the row labels.
-    table_layouts = {
+    # Identify Essay 6 tables for their special numeric formatting.
+    essay6_tables = {
         ("Name of caste", "Families", "Families with land",
-         "Land held (acres)", "Share of total land (%)"):
-            [1.65, 0.85, 1.25, 1.0, 1.1],
+         "Land held (acres)", "Share of total land (%)"),
         ("Castes", "Borewells and pumpsets", "Bullock carts",
-         "Draught animals", "Milk animals", "Sheep and goats"):
-            [1.45, 1.25, 0.9, 1.0, 0.95, 1.0],
-        ("Castes", "Families", "Amount (Rs.)"):
-            [1.8, 1.0, 1.2],
+         "Draught animals", "Milk animals", "Sheep and goats"),
+        ("Castes", "Families", "Amount (Rs.)"),
         ("Caste", "Fully employed: own farm / other work",
-         "Agriculture + wage labour", "Landless wage labour"):
-            [1.6, 1.7, 1.45, 1.05],
+         "Agriculture + wage labour", "Landless wage labour"),
         ("Caste", "Up to SSLC", "SSLC and PUC", "Degree",
-         "Non-agricultural professions and government jobs"):
-            [1.55, 0.85, 1.0, 0.7, 1.9],
+         "Non-agricultural professions and government jobs"),
     }
     header_key = tuple(value for value, _ in header)
-    essay6_table = header_key in table_layouts
-    if essay6_table:
-        ratios = table_layouts[header_key]
-    elif width == 6:
-        ratios = [2.1] + [0.85] * 5
-    elif width == 5:
-        ratios = [2.2] + [0.85] * 4
-    elif width == 4:
-        ratios = [1.8, 1.1, 1.1, 1.1]
-    elif width == 3:
-        ratios = [2.0, 0.9, 1.1]
-    else:
-        ratios = [2.0] + [1.0] * (width - 1)
+    essay6_table = header_key in essay6_tables
     font_size = "10pt"
     horizontal_inset = "3pt"
 
     def cell_content(value, header_cell=False, row_label=False):
         value = typst_escape(value)
         if header_cell:
-            return f"table.cell(align: left, breakable: false)[*{value}*]"
+            return f"table.cell(align: center, breakable: false)[*{value}*]"
         if row_label:
             return f"table.cell(align: left, breakable: false)[{value}]"
         if essay6_table:
@@ -348,7 +330,6 @@ def html_table_to_typst(table):
         fence + "{=typst}\n"
         f"#{{\n  set text(size: {font_size}, hyphenate: false)\n  set par(justify: false, leading: 5pt, first-line-indent: 0pt, spacing: 0pt)\n"
         "  table(\n"
-        f"  columns: ({', '.join(f'{ratio}fr' for ratio in ratios)}),\n"
         "  align: (left, " + ", ".join(["center"] * (width - 1)) + "),\n"
         f"  inset: (x: {horizontal_inset}, y: 3.5pt),\n"
         "  stroke: (x, y) => (\n"
