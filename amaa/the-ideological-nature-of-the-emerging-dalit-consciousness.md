@@ -29,7 +29,7 @@ The article examines the emerging Dalit consciousness as an ideological and poli
   
 ### Introduction
 
-Though there are numerous small and large organisations of the Dalits all over the country such as Dalit Sangharsh Samiti in Karnataka, Indian Dalit Federation in Kerala, Dalit Maha Sabha in Andhra Pradesh, Bahujan Samaj in U.P. and Bihar etc., the Dalit movement is far from an organised and well coordinated political movement with an all-India organisation and all-India leadership that can challenge the established socio-political order. But the same cannot be said if one looks into the ideological nature of these various groups. There is a growing awareness among the Dalits that they are members of an ancient primeval society who have been disinherited and uprooted by the alien Brahminical civilization from their ancestral place in the society. This consciousness inspires in them resentment against the existing social system which is expressed through various forms of agitations and struggles by them and this is bound to acquire the momentum of a national movement in the years to come.
+Though there are numerous small and large organisations of the Dalits all over the country such as Dalit Sangharsh Samiti in Karnataka, Indian Dalit Federation in Kerala, Dalit Maha Sabha in Andhra Pradesh, Bahujan Samaj in U. P. and Bihar etc., the Dalit movement is far from an organised and well coordinated political movement with an all-India organisation and all-India leadership that can challenge the established socio-political order. But the same cannot be said if one looks into the ideological nature of these various groups. There is a growing awareness among the Dalits that they are members of an ancient primeval society who have been disinherited and uprooted by the alien Brahminical civilization from their ancestral place in the society. This consciousness inspires in them resentment against the existing social system which is expressed through various forms of agitations and struggles by them and this is bound to acquire the momentum of a national movement in the years to come.
 
 Let me first of all deal with some of the basic ideas, values and perceptions of this emerging consciousness which we call Dalit ideology.
 
@@ -51,7 +51,7 @@ Now the question arises: How the indigenous people became untouchables. They hav
 
 There is an enormous amount of historical evidence establishing the intrinsic connection of caste contradiction with the economic and political life of the country. The situation continues even today, as the kind of Hindu renaissance brought about by great men like Raja Ram Mohan Roy, Vivekananda, Gandhi, etc. left untouched both the social and religious roles that the lower ranks perform and their ritual hierarchy. In this short paper it is not possible to go into the details of these empirical facts which can be gathered from a number of contemporary cultural-anthropological studies. In fact the kind of Hindu renaissance we have had over the last 150 years has strengthened and politicised the caste Hindu nationality and their identity vis-a-vis the Dalits.
 
-The recent insistence of the Dalit organisations on caste as the principle of organisation and before of Dr. B.R. Ambedkar who rightly emphasised it both in his writings and in the way he envisaged the Dalit politics and Dalit religion<sup id="ref-3"><a href="#note-3">3</a></sup> is based on two types of historical experiences the Dalits have had over the last forty-five years. First comes their experience of the failure of the ideology of Development and of the Gandhian ideas of their integration within the Hindu community which was promoted by successive governments. The second is their experience of the failure of the Communist movement in India which emphasises class war as the principal contradiction in the place of caste war.
+The recent insistence of the Dalit organisations on caste as the principle of organisation and before of Dr. B. R. Ambedkar who rightly emphasised it both in his writings and in the way he envisaged the Dalit politics and Dalit religion<sup id="ref-3"><a href="#note-3">3</a></sup> is based on two types of historical experiences the Dalits have had over the last forty-five years. First comes their experience of the failure of the ideology of Development and of the Gandhian ideas of their integration within the Hindu community which was promoted by successive governments. The second is their experience of the failure of the Communist movement in India which emphasises class war as the principal contradiction in the place of caste war.
 
 ### a. Failure of the Ideology of Development and Gandhian Integration with the Caste Hindus {#failure-of-ideology}
 
@@ -67,15 +67,15 @@ How does the Protection of Civil Rights Act, 1979, which made the practice of di
 
 The evaluation reports of the PCR cases of the Special Component Plan and other benefits for Scheduled Castes traces their ineffectiveness to the indifferent, often hostile caste prejudices of the police, the magistrates and the bureaucrats in the Government departments, coupled with vested economic muscle power of the dominant caste class groups.<sup id="ref-8"><a href="#note-8">8</a></sup>
 
-These reports, along with an assessment of the functioning of Scheduled Caste MLAs and MPs; the way political parties handle a political leader, the government officer or a police official committed to the cause of the Dalits, the hardening attitudes of the caste people when Dalits assert their rights, the prevention of awareness building among them under communal politics, the caste wars in Gujarat, Maharashtra and Bihar, more or less complete the picture of the development of the Dalits. In short, the development and integration of the Dalits with the rest of the community does not take place in spite of all the government's efforts and its huge investment because of the caste contradiction in the society. This internal contradiction was pointed out by writers like V.S.Naipaul who said, 'The freedom that came to Independent India with the institutions it gave itself were alien freedom better suited to another civilization: in India they remained separate from the internal organization of the country, its belief and antique restrictions.'<sup id="ref-9"><a href="#note-9">9</a></sup> But instead of taking these scholars seriously, the government reaction to such scholars was to ban their books.
+These reports, along with an assessment of the functioning of Scheduled Caste MLAs and MPs; the way political parties handle a political leader, the government officer or a police official committed to the cause of the Dalits, the hardening attitudes of the caste people when Dalits assert their rights, the prevention of awareness building among them under communal politics, the caste wars in Gujarat, Maharashtra and Bihar, more or less complete the picture of the development of the Dalits. In short, the development and integration of the Dalits with the rest of the community does not take place in spite of all the government's efforts and its huge investment because of the caste contradiction in the society. This internal contradiction was pointed out by writers like V. S. Naipaul who said, 'The freedom that came to Independent India with the institutions it gave itself were alien freedom better suited to another civilization: in India they remained separate from the internal organization of the country, its belief and antique restrictions.'<sup id="ref-9"><a href="#note-9">9</a></sup> But instead of taking these scholars seriously, the government reaction to such scholars was to ban their books.
 
 ### b. Failure of the Left Movement in India {#failure-of-the-left-movement}
 
 Here I give the data from Kerala, a state which voted the communists to power as early as 1957. It is a historic fact that the popular force that brought the Communists to power in Kerala in 1957 was made up of the Dalits and the Backward Castes. Why then did not the class contradiction or class struggle on which the Left ideology is based become an instrument of propelling the Dalit demands for social equality and their due share in the means of production? Dalits have come to realise, through their experience of the last forty-five years that in the organisational structure and as well as in taking into account the caste factor. For example, Dalits are organized in agriculture labour unions and they are not admitted into other unions, e.g., the Union of the Backward Caste, Toddy Tappers though both are Marxist trade unions. In other words, trade unions are organized on traditional caste lines and even the leadership of this union come from the same caste groups. Prominent Dalit party workers never get any role in unions other than that of agricultural labour. The compensation received and the treatment given to the family of those killed in active party struggles vary according to the caste factor. If a Dalit stands as party candidate for election, the Marxists who belong to non-Dalit castes do not vote for him.<sup id="ref-10"><a href="#note-10">10</a></sup>
 
-In other words, though the Dalit classes were the popular base of the Left movement, the caste leadership of the Party made it go against the interests and claims of the Dalits. This historical experiences of the Dalits in the last forty-five years proves the prediction of Dr. B.R. Ambedkar who asked, 'Let us now examine the argument of the socialists. Is it possible for the socialists to ignore the questions raised by the nature of our society?' he believed that a social revolution against the feudal, Brahminic, priestly culture of caste has to precede any kind of democratisation of Indian polity and the resolution of Indian economic contradictions, 'History clears out the proposition that political (revolutions) have always been preceded by social and religious revolutions.'<sup id="ref-10a"><a href="#note-10a">10a</a></sup> What do all these facts point to? All the contradictions in our society whether it be economic or political are to be logically traced to the cultural contradiction, namely, caste.
+In other words, though the Dalit classes were the popular base of the Left movement, the caste leadership of the Party made it go against the interests and claims of the Dalits. This historical experiences of the Dalits in the last forty-five years proves the prediction of Dr. B. R. Ambedkar who asked, 'Let us now examine the argument of the socialists. Is it possible for the socialists to ignore the questions raised by the nature of our society?' he believed that a social revolution against the feudal, Brahminic, priestly culture of caste has to precede any kind of democratisation of Indian polity and the resolution of Indian economic contradictions, 'History clears out the proposition that political (revolutions) have always been preceded by social and religious revolutions.'<sup id="ref-10a"><a href="#note-10a">10a</a></sup> What do all these facts point to? All the contradictions in our society whether it be economic or political are to be logically traced to the cultural contradiction, namely, caste.
 
-Dr. B.R. Ambedkar,<sup id="ref-11"><a href="#note-11">11</a></sup> Mahatma Phuley and Periar Ramaswamy understood this cultural contradiction in our society and all three had tremendously contributed to the progress and development of the Scheduled Castes and other backward sections of our people, and the struggles of these sections still move on these early ideas. On the other hand, Gandhi did not admit this cultural contradiction, he romanticised Indian cultural heritage and advocated the integration of Dalits within Hinduism. This has totally failed.<sup id="ref-12"><a href="#note-12">12</a></sup>
+Dr. B. R. Ambedkar,<sup id="ref-11"><a href="#note-11">11</a></sup> Mahatma Phuley and Periar Ramaswamy understood this cultural contradiction in our society and all three had tremendously contributed to the progress and development of the Scheduled Castes and other backward sections of our people, and the struggles of these sections still move on these early ideas. On the other hand, Gandhi did not admit this cultural contradiction, he romanticised Indian cultural heritage and advocated the integration of Dalits within Hinduism. This has totally failed.<sup id="ref-12"><a href="#note-12">12</a></sup>
 
 The Communists did not admit this cultural contradiction as they reduced everything to class contradiction. This also failed.
 
@@ -142,7 +142,7 @@ The <em>Voice of the Weak—A Tabloid of Toiling People</em>, published from Del
 
 Dalit intellectuals and leaders now realise that the consciousness of their masses shaped by Vedic and Puranic myths is a false consciousness serving the interests of the dominant castes and classes. A consciousness based on true history has to be formed to strengthen their identity and bring about their liberation and a new civilisation for the whole country.
 
-This counter cultural awakening among the Dalits against Hindu culture is inspired by the writings of Dr. B.R. Ambedkar, Mahatma Phuley and Periar Ramaswamy. But it has a long historical tradition, though weak and folk, going back to the great Buddha who taught:
+This counter cultural awakening among the Dalits against Hindu culture is inspired by the writings of Dr. B. R. Ambedkar, Mahatma Phuley and Periar Ramaswamy. But it has a long historical tradition, though weak and folk, going back to the great Buddha who taught:
 
 <div class="poem" markdown="1">
 not by birth does one become an outcaste  
@@ -199,7 +199,7 @@ The challenging task is to translate these political ideas to blend with the cul
   </li>
 
     <li id="note-3">
-    'History bears out the proposition that political revolutions have always been preceded by social and religious revolutions.' Ambedkar gives a number of examples from world history. B.R. Ambedkar, <em>Annihilation of Caste</em>, pp.68-69.
+    'History bears out the proposition that political revolutions have always been preceded by social and religious revolutions.' Ambedkar gives a number of examples from world history. B. R. Ambedkar, <em>Annihilation of Caste</em>, pp.68-69.
     <a href="#ref-3">↩</a>
   </li>
 
@@ -221,12 +221,12 @@ The challenging task is to translate these political ideas to blend with the cul
   </li>
 
   <li id="note-7">
-    Commissioner's Report, 1977–78, p.3. For a recent report on the "Nature, Extent and Limitations of Protection of Civil Rights and the kind of problems district authorities face in Southern States, I draw your attention to the report presented by Shri Syed Abid Ali, I.P.S., the present head of Civil Rights Enforcement Cell in Karnataka, at a seminar held in 1988 in Bangalore. <em>Religion and Society</em>, CISRS Publication Trust, June 1988.
+    Commissioner's Report, 1977–78, p.3. For a recent report on the "Nature, Extent and Limitations of Protection of Civil Rights and the kind of problems district authorities face in Southern States, I draw your attention to the report presented by Shri Syed Abid Ali, I. P. S., the present head of Civil Rights Enforcement Cell in Karnataka, at a seminar held in 1988 in Bangalore. <em>Religion and Society</em>, CISRS Publication Trust, June 1988.
     <a href="#ref-7">↩</a>
   </li>
 
   <li id="note-8">
-    Cf. V.R. Krishna Iyer, <em>Justice in Words and Injustice in Deeds for the Depressed Classes</em>, Indian Social Institute, New Delhi.
+    Cf. V. R. Krishna Iyer, <em>Justice in Words and Injustice in Deeds for the Depressed Classes</em>, Indian Social Institute, New Delhi.
     <a href="#ref-8">↩</a>
   </li>
 
@@ -241,13 +241,13 @@ The challenging task is to translate these political ideas to blend with the cul
 </li>
 
 <li id="note-10a">
-  B.R. Ambedkar, <em>Annihilation of Caste</em>, p.68.
+  B. R. Ambedkar, <em>Annihilation of Caste</em>, p.68.
   <a href="#ref-10a">↩</a>
 </li>
 
 <li id="note-11">
   'Political Democracy cannot last unless there lies at the base of it a social democracy. On the social plane, we have in India a society based on the principle of graded inequality, which means elevation for some and degradation for others. On the economic plane, we have a society in which there are some who have immense wealth, as against many who live in abject poverty.'<br>
-  On 26th Jan 1950, we are going to enter into a life of contradictions. In politics we will have equality and in social and economic life we will have inequality' B.R. Ambedkar's summary statement to the Constituent Assembly on 25 Nov. 1949.
+  On 26th Jan 1950, we are going to enter into a life of contradictions. In politics we will have equality and in social and economic life we will have inequality' B. R. Ambedkar's summary statement to the Constituent Assembly on 25 Nov. 1949.
   <a href="#ref-11">↩</a>
 </li>
 
@@ -283,7 +283,7 @@ The challenging task is to translate these political ideas to blend with the cul
 </li>
 
 <li id="note-18">
-  Romila Thapar, <em>Ethics, Religion and Social Protest in the First Millennium B.C. in North India</em>, in <em>Ancient Indian Social History</em>, Orient Longman, 1978, p.46.
+  Romila Thapar, <em>Ethics, Religion and Social Protest in the First Millennium B. C. in North India</em>, in <em>Ancient Indian Social History</em>, Orient Longman, 1978, p.46.
   <a href="#ref-18">↩</a>
 </li>
 
