@@ -1025,7 +1025,7 @@ common = r"""
   below: 12pt,
   inset: (left: 22pt, right: 22pt),
 )[
-  #place(left, dx: -17pt, top)[
+  #place(top + left, dx: -17pt)[
     #rect(width: 0.4pt, height: 100%, fill: luma(175))
   ]
   #set text(size: 10.5pt, fill: black)
