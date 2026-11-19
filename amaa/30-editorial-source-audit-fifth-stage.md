@@ -236,6 +236,22 @@ The missing `#` markers were restored before both the `set text` and `set par` c
 **Outstanding visual verification:** Inspect the PDF from build #567 to confirm that (a) no table is split across pages, (b) the header is not duplicated when a table moves to a new page, (c) all columns and values remain correctly aligned, and (d) no Typst commands appear as visible text. A table taller than the printable area of a page cannot be kept intact without changing its size or layout; any such case must be assessed separately.
 
 
+### 19 November 2026 — EDRL II print proof: excessive word spacing in justified body text
+
+**Production file:** `ebook/edrl-ii/print/build.py`
+
+The current EDRL II print proof, which is 160 pages, was reviewed for paragraph justification. One line in Essay 6 showed noticeably wider spaces between words than the surrounding lines. The issue was consistent with the way fully justified text expands word spaces to fill the available line width.
+
+The global body-paragraph setting in the print builder was adjusted to constrain justification spacing. The minimum word-spacing limit was set to 85% and the maximum to 120%; the tracking limit was set from 0pt to 0.01em. Existing paragraph justification, 9pt leading, 12.1pt first-line indent and 10pt paragraph spacing were retained.
+
+This is a print-production change only. No essay manuscript text, table formatting, footnotes, page dimensions or other layout settings were changed.
+
+**Commit:** `ee4d75cc193d00c9bb4ba0fb0a88bbca55aad872`.
+
+**Verification:** The change has been committed. The automatic print-proof workflow is expected to run following the commit; the resulting PDF has not yet been visually checked.
+
+**Status:** Justification-spacing limits updated. Review the new proof to assess the affected line and confirm that word spacing remains comfortable throughout the 160-page book.
+
 ## Outstanding work
 
 Remaining checks will be added here as they are identified and undertaken. Each item should retain its context and should be marked complete only after the relevant source check, build or visual verification has been carried out.
