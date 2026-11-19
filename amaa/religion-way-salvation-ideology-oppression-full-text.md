@@ -53,7 +53,7 @@ In the second part we describe the religio-cultural factors based on observation
 <table>
   <thead>
     <tr>
-      <th scope="col" style="text-align: center;">Name of caste</th>
+      <th scope="col" style="text-align: left;">Name of caste</th>
       <th scope="col" style="text-align: center;">Number of families</th>
       <th scope="col" style="text-align: center;">Number of families with land</th>
       <th scope="col" style="text-align: center;">Land-holding in acres</th>
@@ -66,7 +66,7 @@ In the second part we describe the religio-cultural factors based on observation
     <tr><td style="text-align: left;">Tigala</td><td style="text-align: center;">91</td><td style="text-align: center;">69</td><td style="text-align: center;">251.05</td><td style="text-align: center;">12.6</td></tr>
     <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td style="text-align: center;">45</td><td style="text-align: center;">22</td><td style="text-align: center;">19.34</td><td style="text-align: center;">0.9</td></tr>
     <tr><td style="text-align: left;">Holeya, Madiga</td><td style="text-align: center;">152</td><td style="text-align: center;">130</td><td style="text-align: center;">190.06</td><td style="text-align: center;">9.9</td></tr>
-    <tr><th scope="row">Total</th><td style="text-align: center;">425</td><td style="text-align: center;">349</td><td style="text-align: center;">1,974.81</td><td style="text-align: center;">100.0</td></tr>
+    <tr><th scope="row" style="text-align: left;">Total</th><td style="text-align: center;">425</td><td style="text-align: center;">349</td><td style="text-align: center;">1,974.81</td><td style="text-align: center;">100.0</td></tr>
   </tbody>
 </table>
 </div>
@@ -78,7 +78,7 @@ In the second part we describe the religio-cultural factors based on observation
 <table>
   <thead>
     <tr>
-      <th scope="col" style="text-align: center;">Castes</th>
+      <th scope="col" style="text-align: left;">Castes</th>
       <th scope="col" style="text-align: center;">No. of borewells and pumpsets</th>
       <th scope="col" style="text-align: center;">No. of bullock carts</th>
       <th scope="col" style="text-align: center;">No. of draught animals</th>
@@ -92,7 +92,7 @@ In the second part we describe the religio-cultural factors based on observation
     <tr><td style="text-align: left;">Tigala</td><td style="text-align: center;">9</td><td style="text-align: center;">10</td><td style="text-align: center;">44</td><td style="text-align: center;">57</td><td style="text-align: center;">27</td></tr>
     <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td style="text-align: center;">4</td><td style="text-align: center;">5</td><td style="text-align: center;">27</td><td style="text-align: center;">14</td><td style="text-align: center;">50</td></tr>
     <tr><td style="text-align: left;">Holeya, Madiga</td><td style="text-align: center;">3</td><td style="text-align: center;">8</td><td style="text-align: center;">64</td><td style="text-align: center;">26</td><td style="text-align: center;">109</td></tr>
-    <tr><th scope="row">Total</th><td style="text-align: center;">53</td><td style="text-align: center;">82</td><td style="text-align: center;">327</td><td style="text-align: center;">304</td><td style="text-align: center;">527</td></tr>
+    <tr><th scope="row" style="text-align: left;">Total</th><td style="text-align: center;">53</td><td style="text-align: center;">82</td><td style="text-align: center;">327</td><td style="text-align: center;">304</td><td style="text-align: center;">527</td></tr>
   </tbody>
 </table>
 </div>
@@ -111,7 +111,7 @@ In the second part we describe the religio-cultural factors based on observation
     <tr><td style="text-align: left;">Tigala</td><td style="text-align: center;">18</td><td style="text-align: center;">89,029</td></tr>
     <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td style="text-align: center;">4</td><td style="text-align: center;">29,500</td></tr>
     <tr><td style="text-align: left;">Holeya, Madiga</td><td style="text-align: center;">22</td><td style="text-align: center;">83,100</td></tr>
-    <tr><th scope="row">Total</th><td style="text-align: center;">68</td><td style="text-align: center;">4,52,429</td></tr>
+    <tr><th scope="row" style="text-align: left;">Total</th><td style="text-align: center;">68</td><td style="text-align: center;">4,52,429</td></tr>
   </tbody>
 </table>
 </div>
@@ -123,7 +123,7 @@ In the second part we describe the religio-cultural factors based on observation
 <table>
   <thead>
     <tr>
-      <th scope="col" style="text-align: center;">Caste</th>
+      <th scope="col" style="text-align: left;">Caste</th>
       <th scope="col" style="text-align: center;">Fully employed in one's own farm and other occupations</th>
       <th scope="col" style="text-align: center;">Partly agriculture and wage labourer</th>
       <th scope="col" style="text-align: center;">Landless wage labourer</th>
@@ -135,7 +135,7 @@ In the second part we describe the religio-cultural factors based on observation
     <tr><td style="text-align: left;">Tigala</td><td style="text-align: center;">52</td><td style="text-align: center;">24</td><td style="text-align: center;">20</td></tr>
     <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td style="text-align: center;">12</td><td style="text-align: center;">3</td><td style="text-align: center;">8</td></tr>
     <tr><td style="text-align: left;">Holeya, Madiga</td><td style="text-align: center;">26</td><td style="text-align: center;">93</td><td style="text-align: center;">38</td></tr>
-    <tr><th scope="row">Total</th><td style="text-align: center;">242</td><td style="text-align: center;">124</td><td style="text-align: center;">71</td></tr>
+    <tr><th scope="row" style="text-align: left;">Total</th><td style="text-align: center;">242</td><td style="text-align: center;">124</td><td style="text-align: center;">71</td></tr>
   </tbody>
 </table>
 </div>
@@ -169,7 +169,7 @@ The educational and job patterns generally reflect the economic base of the resp
     <tr><td style="text-align: left;">Tigalas</td><td style="text-align: center;">7</td><td style="text-align: center;">26</td><td style="text-align: center;">1</td><td style="text-align: center;">12</td></tr>
     <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata etc.</td><td style="text-align: center;">6</td><td style="text-align: center;">6</td><td style="text-align: center;">2</td><td style="text-align: center;">26</td></tr>
     <tr><td style="text-align: left;">Holeyas and Madigas</td><td style="text-align: center;">12</td><td style="text-align: center;">26</td><td style="text-align: center;">4</td><td style="text-align: center;">21</td></tr>
-    <tr><th scope="row">Total</th><td style="text-align: center;">70</td><td style="text-align: center;">174</td><td style="text-align: center;">24</td><td style="text-align: center;">110</td></tr>
+    <tr><th scope="row" style="text-align: left;">Total</th><td style="text-align: center;">70</td><td style="text-align: center;">174</td><td style="text-align: center;">24</td><td style="text-align: center;">110</td></tr>
   </tbody>
 </table>
 </div>
