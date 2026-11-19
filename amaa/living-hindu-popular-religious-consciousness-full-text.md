@@ -73,42 +73,42 @@ It is at such a time as this that we, almost without our knowledge, think of the
 
 (3) *A third factor that leads people to affirm belief in a sakti is the experience of the fact that prayers are answered.* This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
 
-> According to my mother, I was born because of an offering (*nercha*) to Subramanyam. This makes me believe in the miracles of *Daivam* . . .
+> 'According to my mother, I was born because of an offering (*nercha*) to Subramanyam. This makes me believe in the miracles of *Daivam* . . .'
 
-> Swami grants what we ask. We therefore, worship him. *Daivam* helps those who worship him. In this world, there are good as well as dangerous *saktis*. By means of prayer (*japam/mantram*) or omission of it we can please them or make them show their terrible anger.
+> 'Swami grants what we ask. We therefore, worship him. *Daivam* helps those who worship him. In this world, there are good as well as dangerous *saktis*. By means of prayer (*japam/mantram*) or omission of it we can please them or make them show their terrible anger.'
 
-> There is no doubt that there is a *sakti* above man and all other beings. Each one realizes this through certain individual experiences of his own. There are two kinds of *puja* namely *satvic* and *tamasic*. *Tamasic puja* may yield the result immediately though it may not last long. *Satvic puja*'s results are long lasting, though we may not get an immediate answer.
+> 'There is no doubt that there is a *sakti* above man and all other beings. Each one realizes this through certain individual experiences of his own. There are two kinds of *puja* namely *satvic* and *tamasic*. *Tamasic puja* may yield the result immediately though it may not last long. *Satvic puja*'s results are long lasting, though we may not get an immediate answer.'
 
 Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* which are answered. It makes them believe in the validity of those forms of prayer as well as the gods who answer those prayers. (cf. any book on the *Mahatmyam* of a particular God. It will narrate stories of favour as evidence of the power and the reality of that god).
 
 (4) *The moral feeling that there is a sakti that rewards the righteous and punishes the wicked* is another factor that leads to religious faith. People also say that such a moral fear is necessary for man to walk the right path.
 
-> Those who walk in truth and in humility, *Daivam* prospers,  
-> Those who forget *Daivam* He punishes,
+> 'Those who walk in truth and in humility, *Daivam* prospers,  
+> Those who forget *Daivam* He punishes,'
 
-> I believe that if we walk the right path without desiring harm to others and bear with patience all difficulties, doing our job dutifully, *Daivam* will help us reach a good stage in life—if not today, tomorrow.
+> 'I believe that if we walk the right path without desiring harm to others and bear with patience all difficulties, doing our job dutifully, *Daivam* will help us reach a good stage in life—if not today, tomorrow.'
 
-> The belief that all our deeds are known and seen by a *sakti* is good. Someone up above (*mela oral*) sees and listens. We cannot live as we please. If we act forgetting *Iswar*, there will be ruin (*nasam*). We will get its proper wage (*kuli*). We will suffer the bad result (*cheeta phalam*). There must be some fear (*oru bhayam*) for man. Otherwise we will be so proud. Thoughts about a *sakti* prevent many people from doing wrong.
+> 'The belief that all our deeds are known and seen by a *sakti* is good. Someone up above (*mela oral*) sees and listens. We cannot live as we please. If we act forgetting *Iswar*, there will be ruin (*nasam*). We will get its proper wage (*kuli*). We will suffer the bad result (*cheeta phalam*). There must be some fear (*oru bhayam*) for man. Otherwise we will be so proud. Thoughts about a *sakti* prevent many people from doing wrong.'
 
-> It is *Daivam* who rewards everyone according to His *karmam*.
+> 'It is *Daivam* who rewards everyone according to His *karmam*.'
 
 (5) *Many people are inspired to affirm faith in a sakti on seeing the great changes that take place in the lives of some people when they begin to believe in God.* They also say a belief in God is necessary for a virtuous life.
 
-> When we see the sudden change in some people's lives, we believe. Belief in a *sakti* had changed their life. It gave them the ability to walk in the right path (*nervazhi*).
+> 'When we see the sudden change in some people's lives, we believe. Belief in a *sakti* had changed their life. It gave them the ability to walk in the right path (*nervazhi*).'
 
-> We can control ourselves if we believe and worship a *sakti*. We need a Power to guide and lead us in the right path. We need a *sakti* to lead us to good life.
+> 'We can control ourselves if we believe and worship a *sakti*. We need a Power to guide and lead us in the right path. We need a *sakti* to lead us to good life.'
 
 (6) *Experience of the presence and guidance of a sakti in their lives makes people believe in it.* Individuals claim the guidance and protection of a Power which, they say, confirmed them in their belief.
 
-> I believe that every action in my life is done under *Daivam*'s guidance. I feel that *Daivam* is watching me all the time.
+> 'I believe that every action in my life is done under *Daivam*'s guidance. I feel that *Daivam* is watching me all the time.'
 
-> In my troubles *Daivam* shows me a way out. I lead a contented life because of *Daivam*'s help. I prospered economically only after I began to believe in *Daivam*.
+> 'In my troubles *Daivam* shows me a way out. I lead a contented life because of *Daivam*'s help. I prospered economically only after I began to believe in *Daivam*.'
 
-> *Amman* guides me as a mother. Man needs such a power because he is fickle minded.
+> '*Amman* guides me as a mother. Man needs such a power because he is fickle minded.'
 
-> I have problems. But still my life goes smoothly because of my belief. I believe *Daivam* helps and supports me. For me everything is possible, because of *Daivam*'s help.
+> 'I have problems. But still my life goes smoothly because of my belief. I believe *Daivam* helps and supports me. For me everything is possible, because of *Daivam*'s help.'
 
-> We obtain peace of mind if we think of *Daivam*. I pray and obtain peace of mind (*mana santi*). I have experienced Murugan's presence.
+> 'We obtain peace of mind if we think of *Daivam*. I pray and obtain peace of mind (*mana santi*). I have experienced Murugan's presence.'
 
 (7) *"Our ancestors<sup id="ref-2"><a href="#note-2">1</a></sup> believed*, therefore we believe" is the attitude of some others. They believe that their ancestors cannot be wrong. They taught them to believe. They also say that so many people believe and all of them cannot be wrong.
 
