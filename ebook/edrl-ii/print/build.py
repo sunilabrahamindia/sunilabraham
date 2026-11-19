@@ -300,20 +300,20 @@ def html_table_to_typst(table):
     }
     header_key = tuple(value for value, _ in header)
     essay6_table = header_key in essay6_tables
-    essay6_loans_table = header_key == ("Castes", "No. of families", "Amount (Rs.)")
     font_size = "10pt"
     horizontal_inset = "3pt"
 
     def cell_content(value, header_cell=False, row_label=False):
+        is_numeric = bool(re.fullmatch(r"[0-9][0-9,]*(?:\\.[0-9]+)?|[—–-]", value.strip()))
         value = typst_escape(value)
         if header_cell:
             return f"table.cell(align: left, breakable: false)[*{value}*]"
         if row_label:
             return f"table.cell(align: left, breakable: false)[{value}]"
-        if essay6_loans_table:
-            return f"table.cell(align: right, inset: (left: 3pt, right: 6pt, top: 3.5pt, bottom: 3.5pt), breakable: false)[{value}]"
         if essay6_table:
-            return f"table.cell(align: right, breakable: false)[{value}]"
+            return f"table.cell(align: right, inset: (left: 3pt, right: 6pt, top: 3.5pt, bottom: 3.5pt), breakable: false)[{value}]"
+        if is_numeric:
+            return f"table.cell(inset: (left: 3pt, right: 6pt, top: 3.5pt, bottom: 3.5pt), breakable: false)[{value}]"
         return f"table.cell(breakable: false)[{value}]"
 
     header_cells = ",\n    ".join(
