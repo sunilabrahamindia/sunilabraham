@@ -53,20 +53,20 @@ In the second part we describe the religio-cultural factors based on observation
 <table>
   <thead>
     <tr>
-      <th scope="col">Name of caste</th>
-      <th scope="col">Number of families</th>
-      <th scope="col">Number of families with land</th>
-      <th scope="col">Land-holding in acres</th>
-      <th scope="col">Percentage of total land</th>
+      <th scope="col" style="text-align: center;">Name of caste</th>
+      <th scope="col" style="text-align: center;">Number of families</th>
+      <th scope="col" style="text-align: center;">Number of families with land</th>
+      <th scope="col" style="text-align: center;">Land-holding in acres</th>
+      <th scope="col" style="text-align: center;">Percentage of total land</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Reddy, Vokkaliga, Nagaratha Shetty</td><td>133</td><td>126</td><td>1,501.36</td><td>75.9</td></tr>
-    <tr><td>Brahmin</td><td>4</td><td>2</td><td>13</td><td>0.7</td></tr>
-    <tr><td>Tigala</td><td>91</td><td>69</td><td>251.05</td><td>12.6</td></tr>
-    <tr><td>Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td>45</td><td>22</td><td>19.34</td><td>0.9</td></tr>
-    <tr><td>Holeya, Madiga</td><td>152</td><td>130</td><td>190.06</td><td>9.9</td></tr>
-    <tr><th scope="row">Total</th><td>425</td><td>349</td><td>1,974.81</td><td>100.0</td></tr>
+    <tr><td style="text-align: left;">Reddy, Vokkaliga, Nagaratha Shetty</td><td style="text-align: center;">133</td><td style="text-align: center;">126</td><td style="text-align: center;">1,501.36</td><td style="text-align: center;">75.9</td></tr>
+    <tr><td style="text-align: left;">Brahmin</td><td style="text-align: center;">4</td><td style="text-align: center;">2</td><td style="text-align: center;">13</td><td style="text-align: center;">0.7</td></tr>
+    <tr><td style="text-align: left;">Tigala</td><td style="text-align: center;">91</td><td style="text-align: center;">69</td><td style="text-align: center;">251.05</td><td style="text-align: center;">12.6</td></tr>
+    <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td style="text-align: center;">45</td><td style="text-align: center;">22</td><td style="text-align: center;">19.34</td><td style="text-align: center;">0.9</td></tr>
+    <tr><td style="text-align: left;">Holeya, Madiga</td><td style="text-align: center;">152</td><td style="text-align: center;">130</td><td style="text-align: center;">190.06</td><td style="text-align: center;">9.9</td></tr>
+    <tr><th scope="row">Total</th><td style="text-align: center;">425</td><td style="text-align: center;">349</td><td style="text-align: center;">1,974.81</td><td style="text-align: center;">100.0</td></tr>
   </tbody>
 </table>
 </div>
@@ -78,21 +78,21 @@ In the second part we describe the religio-cultural factors based on observation
 <table>
   <thead>
     <tr>
-      <th scope="col">Castes</th>
-      <th scope="col">No. of borewells and pumpsets</th>
-      <th scope="col">No. of bullock carts</th>
-      <th scope="col">No. of draught animals</th>
-      <th scope="col">No. of milk animals</th>
-      <th scope="col">No. of sheep and goats</th>
+      <th scope="col" style="text-align: center;">Castes</th>
+      <th scope="col" style="text-align: center;">No. of borewells and pumpsets</th>
+      <th scope="col" style="text-align: center;">No. of bullock carts</th>
+      <th scope="col" style="text-align: center;">No. of draught animals</th>
+      <th scope="col" style="text-align: center;">No. of milk animals</th>
+      <th scope="col" style="text-align: center;">No. of sheep and goats</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Reddy, Vokkaliga, Nagaratha Shetty</td><td>36</td><td>59</td><td>192</td><td>205</td><td>341</td></tr>
-    <tr><td>Brahmin</td><td>1</td><td>—</td><td>—</td><td>2</td><td>—</td></tr>
-    <tr><td>Tigala</td><td>9</td><td>10</td><td>44</td><td>57</td><td>27</td></tr>
-    <tr><td>Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td>4</td><td>5</td><td>27</td><td>14</td><td>50</td></tr>
-    <tr><td>Holeya, Madiga</td><td>3</td><td>8</td><td>64</td><td>26</td><td>109</td></tr>
-    <tr><th scope="row">Total</th><td>53</td><td>82</td><td>327</td><td>304</td><td>527</td></tr>
+    <tr><td style="text-align: left;">Reddy, Vokkaliga, Nagaratha Shetty</td><td style="text-align: center;">36</td><td style="text-align: center;">59</td><td style="text-align: center;">192</td><td style="text-align: center;">205</td><td style="text-align: center;">341</td></tr>
+    <tr><td style="text-align: left;">Brahmin</td><td style="text-align: center;">1</td><td style="text-align: center;">—</td><td style="text-align: center;">—</td><td style="text-align: center;">2</td><td style="text-align: center;">—</td></tr>
+    <tr><td style="text-align: left;">Tigala</td><td style="text-align: center;">9</td><td style="text-align: center;">10</td><td style="text-align: center;">44</td><td style="text-align: center;">57</td><td style="text-align: center;">27</td></tr>
+    <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td style="text-align: center;">4</td><td style="text-align: center;">5</td><td style="text-align: center;">27</td><td style="text-align: center;">14</td><td style="text-align: center;">50</td></tr>
+    <tr><td style="text-align: left;">Holeya, Madiga</td><td style="text-align: center;">3</td><td style="text-align: center;">8</td><td style="text-align: center;">64</td><td style="text-align: center;">26</td><td style="text-align: center;">109</td></tr>
+    <tr><th scope="row">Total</th><td style="text-align: center;">53</td><td style="text-align: center;">82</td><td style="text-align: center;">327</td><td style="text-align: center;">304</td><td style="text-align: center;">527</td></tr>
   </tbody>
 </table>
 </div>
@@ -103,15 +103,15 @@ In the second part we describe the religio-cultural factors based on observation
 
 <table>
   <thead>
-    <tr><th scope="col">Castes</th><th scope="col">No. of families</th><th scope="col">Amount in Rs.</th></tr>
+    <tr><th scope="col" style="text-align: left;">Castes</th><th scope="col" style="text-align: center;">No. of families</th><th scope="col" style="text-align: center;">Amount in Rs.</th></tr>
   </thead>
   <tbody>
-    <tr><td>Reddy, Vokkaliga, Nagaratha Shetty</td><td>24</td><td>2,50,800</td></tr>
-    <tr><td>Brahmin</td><td>—</td><td>—</td></tr>
-    <tr><td>Tigala</td><td>18</td><td>89,029</td></tr>
-    <tr><td>Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td>4</td><td>29,500</td></tr>
-    <tr><td>Holeya, Madiga</td><td>22</td><td>83,100</td></tr>
-    <tr><th scope="row">Total</th><td>68</td><td>4,52,429</td></tr>
+    <tr><td style="text-align: left;">Reddy, Vokkaliga, Nagaratha Shetty</td><td style="text-align: center;">24</td><td style="text-align: center;">2,50,800</td></tr>
+    <tr><td style="text-align: left;">Brahmin</td><td style="text-align: center;">—</td><td style="text-align: center;">—</td></tr>
+    <tr><td style="text-align: left;">Tigala</td><td style="text-align: center;">18</td><td style="text-align: center;">89,029</td></tr>
+    <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td style="text-align: center;">4</td><td style="text-align: center;">29,500</td></tr>
+    <tr><td style="text-align: left;">Holeya, Madiga</td><td style="text-align: center;">22</td><td style="text-align: center;">83,100</td></tr>
+    <tr><th scope="row">Total</th><td style="text-align: center;">68</td><td style="text-align: center;">4,52,429</td></tr>
   </tbody>
 </table>
 </div>
@@ -123,19 +123,19 @@ In the second part we describe the religio-cultural factors based on observation
 <table>
   <thead>
     <tr>
-      <th scope="col">Caste</th>
-      <th scope="col">Fully employed in one's own farm and other occupations</th>
-      <th scope="col">Partly agriculture and wage labourer</th>
-      <th scope="col">Landless wage labourer</th>
+      <th scope="col" style="text-align: center;">Caste</th>
+      <th scope="col" style="text-align: center;">Fully employed in one's own farm and other occupations</th>
+      <th scope="col" style="text-align: center;">Partly agriculture and wage labourer</th>
+      <th scope="col" style="text-align: center;">Landless wage labourer</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Reddy, Vokkaliga, Nagaratha Shetty</td><td>152</td><td>4</td><td>5</td></tr>
-    <tr><td>Brahmin</td><td>—</td><td>—</td><td>—</td></tr>
-    <tr><td>Tigala</td><td>52</td><td>24</td><td>20</td></tr>
-    <tr><td>Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td>12</td><td>3</td><td>8</td></tr>
-    <tr><td>Holeya, Madiga</td><td>26</td><td>93</td><td>38</td></tr>
-    <tr><th scope="row">Total</th><td>242</td><td>124</td><td>71</td></tr>
+    <tr><td style="text-align: left;">Reddy, Vokkaliga, Nagaratha Shetty</td><td style="text-align: center;">152</td><td style="text-align: center;">4</td><td style="text-align: center;">5</td></tr>
+    <tr><td style="text-align: left;">Brahmin</td><td style="text-align: center;">—</td><td style="text-align: center;">—</td><td style="text-align: center;">—</td></tr>
+    <tr><td style="text-align: left;">Tigala</td><td style="text-align: center;">52</td><td style="text-align: center;">24</td><td style="text-align: center;">20</td></tr>
+    <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata</td><td style="text-align: center;">12</td><td style="text-align: center;">3</td><td style="text-align: center;">8</td></tr>
+    <tr><td style="text-align: left;">Holeya, Madiga</td><td style="text-align: center;">26</td><td style="text-align: center;">93</td><td style="text-align: center;">38</td></tr>
+    <tr><th scope="row">Total</th><td style="text-align: center;">242</td><td style="text-align: center;">124</td><td style="text-align: center;">71</td></tr>
   </tbody>
 </table>
 </div>
@@ -161,15 +161,15 @@ The educational and job patterns generally reflect the economic base of the resp
 <div class="table-scroll" role="region" aria-label="Education and jobs by caste; scroll horizontally to read all columns" tabindex="0">
 <table>
   <thead>
-    <tr><th scope="col">Caste</th><th scope="col">Up to SSLC</th><th scope="col">SSLC and PUC</th><th scope="col">Degree</th><th scope="col">Non-agricultural professions and government jobs</th></tr>
+    <tr><th scope="col" style="text-align: left;">Caste</th><th scope="col" style="text-align: center;">Up to SSLC</th><th scope="col" style="text-align: center;">SSLC and PUC</th><th scope="col" style="text-align: center;">Degree</th><th scope="col" style="text-align: center;">Non-agricultural professions and government jobs</th></tr>
   </thead>
   <tbody>
-    <tr><td>Reddys, Vokkaligas and Nagaratha Shettys</td><td>43</td><td>108</td><td>14</td><td>48</td></tr>
-    <tr><td>Brahmins</td><td>2</td><td>8</td><td>3</td><td>3</td></tr>
-    <tr><td>Tigalas</td><td>7</td><td>26</td><td>1</td><td>12</td></tr>
-    <tr><td>Ganiga, Kumbara, Achari, Hajama, Agasa, Togata etc.</td><td>6</td><td>6</td><td>2</td><td>26</td></tr>
-    <tr><td>Holeyas and Madigas</td><td>12</td><td>26</td><td>4</td><td>21</td></tr>
-    <tr><th scope="row">Total</th><td>70</td><td>174</td><td>24</td><td>110</td></tr>
+    <tr><td style="text-align: left;">Reddys, Vokkaligas and Nagaratha Shettys</td><td style="text-align: center;">43</td><td style="text-align: center;">108</td><td style="text-align: center;">14</td><td style="text-align: center;">48</td></tr>
+    <tr><td style="text-align: left;">Brahmins</td><td style="text-align: center;">2</td><td style="text-align: center;">8</td><td style="text-align: center;">3</td><td style="text-align: center;">3</td></tr>
+    <tr><td style="text-align: left;">Tigalas</td><td style="text-align: center;">7</td><td style="text-align: center;">26</td><td style="text-align: center;">1</td><td style="text-align: center;">12</td></tr>
+    <tr><td style="text-align: left;">Ganiga, Kumbara, Achari, Hajama, Agasa, Togata etc.</td><td style="text-align: center;">6</td><td style="text-align: center;">6</td><td style="text-align: center;">2</td><td style="text-align: center;">26</td></tr>
+    <tr><td style="text-align: left;">Holeyas and Madigas</td><td style="text-align: center;">12</td><td style="text-align: center;">26</td><td style="text-align: center;">4</td><td style="text-align: center;">21</td></tr>
+    <tr><th scope="row">Total</th><td style="text-align: center;">70</td><td style="text-align: center;">174</td><td style="text-align: center;">24</td><td style="text-align: center;">110</td></tr>
   </tbody>
 </table>
 </div>
