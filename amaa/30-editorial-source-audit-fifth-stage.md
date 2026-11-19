@@ -97,6 +97,34 @@ Because this new note occurs before the essay's existing notes, the footnotes we
 
 **Status:** Source updated and footnote sequence and links validated. Print-proof review of the translated quotation and its footnote remains part of the production checks.
 
+### 19 November 2026 — Essay 3, Section B: numbered-point spacing and blockquote presentation
+
+**Essay 3 — The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue**
+
+#### Numbered-point spacing
+
+The print proof showed inconsistent spacing after the numbered labels in Section B. Some points appeared correctly as `(1) A sense...`, while others ran directly into the following text, for example `(2)Another...` and `(6)Experience...`.
+
+The original Markdown source was checked. It contains the expected space after each numbered label, so the problem was in the Essay 3-specific transformation in `ebook/edrl-ii/print/build.py`. For points (2), (6), (7), (10) and (11), the script replaces the source label with an inline Typst spacing command and number. The replacement had omitted the space after the closing parenthesis.
+
+The replacement was corrected to retain that space. No change was made to the Essay 3 manuscript, global paragraph settings, line leading or other indentation rules. The correction is limited to the five numbered points handled by this print-only transformation.
+
+**Verification:** The change was committed on the test branch `test/blockquote-curly-quote-20261119` in commit `d790a2042445ef317d010c558368fd15c6b7b5a4`. GitHub Actions print build #538 completed successfully and uploaded the print-preview artifact. Visual confirmation of the corrected gaps in the resulting PDF remains pending. The `main` branch was not changed.
+
+**Status:** Print-builder correction committed on the test branch; build successful. Final visual confirmation remains pending.
+
+#### Blockquote presentation
+
+The Essay 3 print proof was also reviewed for the visual distinction of blockquotes. The existing Typst blockquote treatment was retained, including its 12pt spacing above and below, 22pt left and right insets, 10.5pt text size, 9pt leading and 10pt paragraph spacing. No vertical rule or background was introduced.
+
+An initial attempt to add the opening and closing curly quotation marks as separate Typst layout elements produced an incorrectly positioned closing mark and was withdrawn. A subsequent attempt inserted the marks into the Markdown text before conversion. Build #537 completed successfully, but inspection of the generated PDF's extracted text showed that the curly quotation marks had not appeared. The intended visual treatment is therefore not yet achieved.
+
+The blockquote investigation and its changes remain confined to the same test branch. The main branch and the Essay 3 manuscript source were not changed for this experiment.
+
+**Verification:** Build #537 completed successfully and uploaded the print-preview artifact. The extracted PDF text did not contain the intended curly quotation marks. The result is not accepted as a completed correction.
+
+**Status:** Unresolved. Further investigation is required at the Markdown-to-Typst conversion stage. No further blockquote change has been made as part of the numbered-point spacing correction.
+
 ## Outstanding work
 
 Remaining checks will be added here as they are identified and undertaken. Each item should retain its context and should be marked complete only after the relevant source check, build or visual verification has been carried out.
