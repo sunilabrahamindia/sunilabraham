@@ -308,7 +308,7 @@ def html_table_to_typst(table):
             return f"table.cell(align: left, breakable: false)[*{value}*]"
         if row_label:
             return f"table.cell(align: left, breakable: false)[{value}]"
-        if essay6_table:
+        if essay6_table or re.fullmatch(r"[\\d,]+(?:\\.\\d+)?|[—–-]", value.strip()):
             return f"table.cell(align: right, breakable: false)[{value}]"
         return f"table.cell(breakable: false)[{value}]"
 
