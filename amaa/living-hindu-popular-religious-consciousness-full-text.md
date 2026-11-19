@@ -51,15 +51,15 @@ In the context of the above affirmation of faith in a power that transcends natu
 
 (1) *A sense of wonder about the Universe* and its rhythm leads many people to affirm faith in a Universal power.
 
-> When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great *sakti* is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) *sakti*. They will not happen (*nadakukayilla*) without a *sakti* . . .
+> 'When I think of the world and life in it, birth and death, day and night, change of seasons, the presence of some great *sakti* is felt. The phenomena of nature and the human condition make me think that there is a controlling (*niyantrikkunna*) *sakti*. They will not happen (*nadakukayilla*) without a *sakti* . . .'
 
-> The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of *Daivam*. If man thinks that there is no *sakti* above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?
+> 'The affairs of a country are run according to a certain set of laws which its people are bound to obey. If this is true of a country, it is also true that every man and every little blade of grass in the world is bound by the laws of *Daivam*. If man thinks that there is no *sakti* above him, it only shows his ignorance. If there is no God (*Daivam*) how is a child formed, how do plants grow . . .?'
 
 (2) Another factor that leads many people to affirm a religious faith is *the awareness that man is not the master of himself or of the universe.*
 
 From their answers it appears that the genesis of this awareness is the experience of tragic events and problems such as death, disease, poverty, betrayal by man, anxiety about the future, etc. Faced with these problems, they feel that belief in a Power gives them the necessary strength and hope to live.
 
-> When I survey my life and what I see around me, I am convinced that it is not man who rules this world but the *sakti* of *Daivam*. For things do not turn out as man desires. When we see the rise and fall of individuals we think of that *sakti*. It reminds us of the lines of Punthanam who said:
+> 'When I survey my life and what I see around me, I am convinced that it is not man who rules this world but the *sakti* of *Daivam*. For things do not turn out as man desires. When we see the rise and fall of individuals we think of that *sakti*. It reminds us of the lines of Punthanam who said:
 
 <div class="poem" markdown="1">
 Randu nalu dinamkondu oruttane tandilletti nadattunnatum Bhavan,  
@@ -69,7 +69,7 @@ Malika mukaliker iya mannante tolil marapu kettunatum Bhavan.
 You place a burden on the shoulders of a king who has risen to the heights of his palace.)<sup id="ref-1"><a href="#note-1">1</a></sup>
 </div>
 
-It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *sakti* helps man to live.
+It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *sakti* helps man to live.'
 
 (3) *A third factor that leads people to affirm belief in a sakti is the experience of the fact that prayers are answered.* This usually appears in the form of stories of favour from a particular god. Because their prayer was answered they believe that their god is real.
 
