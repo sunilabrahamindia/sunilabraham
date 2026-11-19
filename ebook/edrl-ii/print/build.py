@@ -792,13 +792,10 @@ def md_to_typst(markdown, stem):
                 markdown_without_definitions,
             )
 
-    # Essay 3, section (2) follows a blockquote. Add the local first-line
-    # indent in the Markdown stream before Pandoc converts it to Typst.
-    # This affects only the specified section, not global paragraph rules.
+    # Essay 3: headings (2), (6), (7), (10) and (11) follow blockquotes.
+    # Apply the numbered label and its spacing as a single inline unit.
+    # Keep the adjustment local to these five headings.
     if stem == "essay-3":
-        # Sections (2), (6), (7), (10) and (11) begin immediately after
-        # blockquotes. Add a local first-line indent to each heading
-        # paragraph, without changing the global paragraph rule or other sections.
         for number, heading in (
             ("2", "Another factor that leads many people"),
             ("6", "Experience of the presence and guidance of a"),
@@ -806,14 +803,11 @@ def md_to_typst(markdown, stem):
             ("10", "The gods show signs."),
             ("11", "Fear of Punishment"),
         ):
-            # Numbered paragraphs now use selective italics rather than
-            # bold Markdown. Insert Typst horizontal space as a raw inline
-            # element so it stays on the same paragraph line and adds no vertical gap.
             target = re.compile(
-                rf"(?m)^\({number}\) \*?{re.escape(heading)}"
+                rf"(?m)^\\({number}\\) \\*?{re.escape(heading)}"
             )
             markdown_without_definitions, count = target.subn(
-                lambda match: "`#h(12.1pt)#text[(" + number + ")]`{=typst}" + match.group(0)[len(f"({number}) "):],
+                lambda match: "`#h(12.1pt)#text[(" + number + ")]`{=typst} " + match.group(0)[len(f"({number}) "):],
                 markdown_without_definitions,
                 count=1,
             )
