@@ -1024,6 +1024,7 @@ common = r"""
   above: 12pt,
   below: 12pt,
   inset: (left: 22pt, right: 22pt),
+  stroke: (left: 0.4pt + luma(175)),
 )[
   #set text(size: 10.5pt, fill: black)
   #set par(justify: true, leading: 9pt, first-line-indent: 0pt, hanging-indent: 0pt, spacing: 10pt)
