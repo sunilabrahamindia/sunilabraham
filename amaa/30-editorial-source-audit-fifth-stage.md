@@ -258,4 +258,72 @@ Remaining checks will be added here as they are identified and undertaken. Each 
 
 An item should be removed or marked complete only after its outcome has been verified. Matters carried forward from earlier stages should retain their original context and should not be treated as new findings without a fresh check.
 
+
+### 19 November 2026 — Essays 7–9: spacing of initials and abbreviated forms
+
+The spacing of initials and initial-based abbreviations was checked in Essays 7, 8 and 9, following the house style applied in the earlier essay audits. The convention is to place a space between each initial and its full stop, and between successive initials. Acronyms written without full stops, such as CISRS, were left unchanged.
+
+**Essay 7 — Dalit Theology: A Movement of Counter-Culture**
+
+The following forms were corrected in the essay source:
+
+- `G.A. Oddie` → `G. A. Oddie`
+- `V.R. Krishna Iyer` → `V. R. Krishna Iyer`
+- `A.L. Basham` → `A. L. Basham`
+- `R.S. Khare` → `R. S. Khare`
+- `B.R. Ambedkar` → `B. R. Ambedkar`
+- `J.T. Appavoo` → `J. T. Appavoo`
+- `G.U. Pope` → `G. U. Pope`
+- `P.K. Karuppan` → `P. K. Karuppan`
+- `C.A. Ayyamuthu` → `C. A. Ayyamuthu`
+- `A.M.A. Ayrookuzhiel` → `A. M. A. Ayrookuzhiel`
+- `V.L. Kalekar` → `V. L. Kalekar`
+- `I.S.I.` → `I. S. I.`
+- `T.T.S. Publication` → `T. T. S. Publication`
+- `H.E.H.` → `H. E. H.`
+- `V.B.` → `V. B.`
+- `S.J.` → `S. J.`
+- `M.M. Thomas` → `M. M. Thomas`
+- `B.C.` → `B. C.`
+- `A.D.` → `A. D.`
+
+**Essay 8 — Dalit Liberation—Some Reflections on Their Ideological Predicament**
+
+The essay was checked and no corrections were required. The initials and abbreviations examined were already consistent with the agreed spacing convention. The source was left unchanged.
+
+**Essay 9 — The Ideological Nature of the Emerging Dalit Consciousness**
+
+The following forms were corrected:
+
+- `U.P.` → `U. P.`
+- `B.R. Ambedkar` → `B. R. Ambedkar`
+- `V.S.Naipaul` → `V. S. Naipaul`
+- `I.P.S.` → `I. P. S.`
+- `V.R. Krishna Iyer` → `V. R. Krishna Iyer`
+- `B.C.` → `B. C.`
+
+**Verification:** The updated Essay 7 and Essay 9 files were fetched again from GitHub, and the targeted old forms were confirmed absent. Essay 8 was confirmed unchanged.
+
+**Status:** Corrections committed and verified for Essays 7 and 9. Essay 8 checked; no change required.
+
+### 19 November 2026 — Foreword: spelling correction of Potten Teyyam
+
+The Foreword source, `ebook/edrl-ii/foreword.md`, was checked for the expression "Potten Theyyam". It occurred twice, in the discussion of Ayrookuzhiel's reference to God as Potten Theyyam and in the subsequent discussion of the song of Potten Theyyam.
+
+Both occurrences were changed to **"Potten Teyyam"**, at the user's instruction. The change was limited to spelling. The existing italics around both occurrences were preserved; no other wording or formatting was altered.
+
+**Verification:** The updated Foreword was fetched again from GitHub. It contains two occurrences of "Potten Teyyam", zero occurrences of the former spelling, and both occurrences remain italicised.
+
+**Status:** Corrected, committed and verified.
+
+### 19 November 2026 — Print footnote marker size: review and unresolved discrepancy
+
+The print builder, `ebook/edrl-ii/print/build.py`, was checked to establish the relative sizes of the body text and footnote elements. The source currently retrieved from the `main` branch specifies 11pt body text, a 14pt superscript footnote marker, and 8.5pt footnote text and footnote-entry number.
+
+A reduction of the superscript marker to 9pt was requested and a commit was made. However, subsequent direct fetches of the file from `main` continued to return the 14pt setting at line 957. The requested 9pt setting therefore cannot be treated as a verified current setting. No further change is recorded as complete.
+
+**Current verified source setting at the time of this entry:** superscript marker 14pt; footnote text 8.5pt; body text 11pt.
+
+**Status:** Unresolved. The intended marker size requires a fresh decision and a verified update to the current `main` source.
+
 {% include navbox-amaa.html %}
