@@ -65,7 +65,7 @@ From their answers it appears that the genesis of this awareness is the experien
 Randu nalu dinamkondu oruttane tandilletti nadattunnatum Bhavan,  
 Malika mukaliker iya mannante tolil marapu kettunatum Bhavan.
 
-(Translation: Within just two or four days, You have a man carried on a bier;  
+(Within just two or four days, You have a man carried on a bier;  
 You place a burden on the shoulders of a king who has risen to the heights of his palace.)<sup id="ref-1"><a href="#note-1">1</a></sup>
 </div>
 
