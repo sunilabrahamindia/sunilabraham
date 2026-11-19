@@ -334,7 +334,10 @@ def html_table_to_typst(table):
     )
     body_cells = []
     for row in data_rows:
-        for value, is_row_label in row:
+        for column_index, (value, is_row_label) in enumerate(row):
+            if essay6_table and header_key[0] == "Name of caste" and column_index == 3:
+                if re.fullmatch(r"\d+", value):
+                    value = f"{value}.00"
             body_cells.append(cell_content(value, row_label=is_row_label))
 
     cells = ",\n    ".join(body_cells)
