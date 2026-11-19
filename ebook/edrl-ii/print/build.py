@@ -317,7 +317,7 @@ def html_table_to_typst(table):
         ratios = [2.0, 0.9, 1.1]
     else:
         ratios = [2.0] + [1.0] * (width - 1)
-    font_size = "11pt"
+    font_size = "10pt"
     horizontal_inset = "3pt"
 
     def cell_content(value, header_cell=False, row_label=False):
