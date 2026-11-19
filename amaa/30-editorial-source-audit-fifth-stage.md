@@ -125,6 +125,21 @@ The blockquote investigation and its changes remain confined to the same test br
 
 **Status:** Unresolved. Further investigation is required at the Markdown-to-Typst conversion stage. No further blockquote change has been made as part of the numbered-point spacing correction.
 
+
+### 19 November 2026 — Essay 3, Section B: final correction of numbered-point indentation
+
+**Essay 3 — The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue**
+
+The print proof showed that selected numbered headings in Section B had an additional first-line horizontal offset. The print builder had inserted `#h(12.1pt)` before the labels for points (2), (6), (7), (10) and (11). This caused those headings to sit further to the right than the other numbered points.
+
+The Essay 3-only special-case transformation was removed from `ebook/edrl-ii/print/build.py`. The source labels and their existing spaces were left unchanged. No global paragraph settings, manuscript text, or other essays were modified.
+
+**Verification:** The correction was committed directly to `main` in commit `3d1fdbf7942b0f5d44aa7ae8fc006098728a2f06`. GitHub Actions print build #550 completed, and the user confirmed that the numbering/indentation issue was fixed in that proof.
+
+**Scope:** Essay 3 print-builder handling only. No branch was created for this correction, and no other essay was changed.
+
+**Status:** Fixed and confirmed by the user in print build #550.
+
 ## Outstanding work
 
 Remaining checks will be added here as they are identified and undertaken. Each item should retain its context and should be marked complete only after the relevant source check, build or visual verification has been carried out.
