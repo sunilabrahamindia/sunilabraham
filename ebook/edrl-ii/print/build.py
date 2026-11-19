@@ -1470,7 +1470,7 @@ for essay in essays:
         pagebreak_and_indented_heading = (
             "```{=typst}\n"
             "#pagebreak(weak: true)\n"
-            "#h(12.1pt)[*6. Will the sacred cow return?*]\n"
+            "#h(12.1pt) *6. Will the sacred cow return?*\n"
             "```\n\n"
         )
         body, count = target.subn(
