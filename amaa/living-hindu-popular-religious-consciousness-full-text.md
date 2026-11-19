@@ -64,6 +64,9 @@ From their answers it appears that the genesis of this awareness is the experien
 <div class="poem" markdown="1">
 Randu nalu dinamkondu oruttane tandilletti nadattunnatum Bhavan,  
 Malika mukaliker iya mannante tolil marapu kettunatum Bhavan.
+
+(Translation: Within just two or four days, You have a man carried on a bier;  
+You place a burden on the shoulders of a king who has risen to the heights of his palace.)<sup id="ref-1"><a href="#note-1">1</a></sup>
 </div>
 
 It is at such a time as this that we, almost without our knowledge, think of the greatness of *Daivam* and call, "Daivame". What awaits man tomorrow, he does not know. Trust in some *sakti* helps man to live.
@@ -107,7 +110,7 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 > We obtain peace of mind if we think of *Daivam*. I pray and obtain peace of mind (*mana santi*). I have experienced Murugan's presence.
 
-(7) *"Our ancestors<sup id="ref-1"><a href="#note-1">1</a></sup> believed*, therefore we believe" is the attitude of some others. They believe that their ancestors cannot be wrong. They taught them to believe. They also say that so many people believe and all of them cannot be wrong.
+(7) *"Our ancestors<sup id="ref-2"><a href="#note-2">1</a></sup> believed*, therefore we believe" is the attitude of some others. They believe that their ancestors cannot be wrong. They taught them to believe. They also say that so many people believe and all of them cannot be wrong.
 
 > Our ancestors taught us to believe. I think that they knew better than we do.
 
@@ -131,7 +134,7 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 > If we do not offer hair, something will go wrong. It may be that a member of the family will suddenly take ill, or some money has got to be spent unexpectedly on something or the other.
 
-> There are many *saktis* in this world. Man is under the influence of these *saktis*. It is not possible for man to live as he pleases. If we do not give to these *saktis* what is their due, they will show certain signs (*Lakshanam/adayalam*). For instance Pottan *Daivam* is the *Daivam* of our community (*samudayam*). We are bound to offer whatever has been offered to him for generations. If this is not done, some sign will be shown. Sometimes we may not understand these signs. But we can get them interpreted with the help of *kanisan* (astrologer).<sup id="ref-2"><a href="#note-2">2</a></sup>
+> There are many *saktis* in this world. Man is under the influence of these *saktis*. It is not possible for man to live as he pleases. If we do not give to these *saktis* what is their due, they will show certain signs (*Lakshanam/adayalam*). For instance Pottan *Daivam* is the *Daivam* of our community (*samudayam*). We are bound to offer whatever has been offered to him for generations. If this is not done, some sign will be shown. Sometimes we may not understand these signs. But we can get them interpreted with the help of *kanisan* (astrologer).<sup id="ref-3"><a href="#note-3">2</a></sup>
 
 (11) *Fear of Punishment*. The *saktis* have shown their pleasure and anger in the form of favour and punishment.
 
@@ -145,7 +148,7 @@ The *parasakti/saktis* in which the Hindu affirms his faith do not remain for hi
 
 In Chirakkal, where I did this study, two thirds of the people believe that temples, *kavus, mandapams, taras* of worship are places where the *sakti* is made present. They believe that the divine spirit (*parasakti*) can be brought to be present (*avah*) and stationed (*kutiyiruttuka*) on objects like an idol (*bibam*), a trident (*sulam*) or other objects of worship by prayer (*mantram*) and ritual action (*anga-vik-shepa*). Some illustrated this type of presence of *Daivam* by saying that "just as through a magnifying glass we can concentrate much sunlight on one spot, temples, *mandapams*, etc. are made to concentrate the spirit of *Iswara* (*Iswara caitanyam*) in one place." They say different *saktis* like Sri Krishna, Muttappan, Someswari amma etc. are made present (*kudiyiruttuka*) in places like Katalayi, Parassini, Puzhati etc. These places are called their abodes (*astanagal*). In these places the *saktis* of these *daivangal* are present in a special way.
 
-There are also temples and shrines, they believe, which are built in places where the *saktis* of some gods were shown in some special form. The gods themselves of their own, will come to be present in these places.<sup id="ref-3"><a href="#note-3">3</a></sup>
+There are also temples and shrines, they believe, which are built in places where the *saktis* of some gods were shown in some special form. The gods themselves of their own, will come to be present in these places.<sup id="ref-4"><a href="#note-4">3</a></sup>
 
 The god who is present in a particular place (*kutikolluka*) can be experienced by sincere believers through *puja* and other means of devotion.
 
@@ -161,7 +164,7 @@ We have seen above that there are two kinds of people among Hindus, one believin
 
 Two tendencies can be noticed among people when they talk about religious exercises. One is to talk of religious ritual in terms of subjective meaning. That is, they talk of them in terms of their own personal will.
 
-They say that they offer *nerccha* or *vazhipad* to the gods or do any religious exercise (*chandang*) "for our own satisfaction" (*tripti, santosam*), "for our own mental peace" (*mana-samadanam*). They say, "we feel happy when we take part in *nerccha* (offering) and receive the *prasadam* after having given it first to the gods. We get strength and courage (*sakti and balam*). It is not possible to give pleasure (*santosam*) to *Daivam*. It is man who gets contentment (*tripti*) by means of rituals." Religious exercises "help us to be good", "help us to avoid doing harm" (*droham*) to others "help us to get closer (*adukkam*) to *Daivam*".<sup id="ref-4"><a href="#note-4">4</a></sup> Faithful observance of religious duties "confirm our belief (*visvasam*) and devotion (*bhakti*). They 'help us to experience devotion (*bhakti*) more intensely,' 'help us to create a sense of God (*Daiva vicaram*)'."
+They say that they offer *nerccha* or *vazhipad* to the gods or do any religious exercise (*chandang*) "for our own satisfaction" (*tripti, santosam*), "for our own mental peace" (*mana-samadanam*). They say, "we feel happy when we take part in *nerccha* (offering) and receive the *prasadam* after having given it first to the gods. We get strength and courage (*sakti and balam*). It is not possible to give pleasure (*santosam*) to *Daivam*. It is man who gets contentment (*tripti*) by means of rituals." Religious exercises "help us to be good", "help us to avoid doing harm" (*droham*) to others "help us to get closer (*adukkam*) to *Daivam*".<sup id="ref-5"><a href="#note-5">4</a></sup> Faithful observance of religious duties "confirm our belief (*visvasam*) and devotion (*bhakti*). They 'help us to experience devotion (*bhakti*) more intensely,' 'help us to create a sense of God (*Daiva vicaram*)'."
 
 This does not mean that they attach no objective significance to the rituals. But the significance is usually expressed in such phrases as *Daivankulyam/Nanma/Gunam undakum* i.e. God will bless us; there will be blessings if we do these things. The following answer typifies the spirit of such answers: "Muttappan does not ask for our *nerccha* (offering) but he says what you prayed for will soon be done for you."
 
@@ -180,7 +183,7 @@ Again, if we want our wishes to be fulfilled *pujas* to particular gods or godde
 
 (d) Gods show sometimes certain signs asking for *nerccha, utsavam*, etc. "I understood," said a Pulaya, "through my child's peculiar gesture (*chesta*) that I was to celebrate *tira* (festival) to *Potten Teyyam*. I felt so since I was a believer."
 
-People who talk like this believe that *saktis* are pleased by the rituals. They use phrases like "*puja vidhikal kondu sakti priti undakum*"; "*Homam/namajapam tapas adiyaya anusthanangal kondu daivangale santoshipikkam*"; "*vrata tantra vidhikal kondu sakti prasadam undakam*" i.e. *puja, Homam, namajapam tapas, vratam* and such other prescribed religious rituals cause the gods to give their favour. If the desired wish is fulfilled, they believe that the gods are made happy. "*Agrahicha karyam sadhichengil, santosichu ennatinnu adayalamanu*"; "*Daivangal santosichengil karyangalkku oru mudakavum undakuvella*." If the gods are pleased, there won't be any obstacle to our affairs. Stories of different favours received were related by people who had obtained the *saktiprasadam*. Failure to obtain the favour, however, would be interpreted differently. Either they would say that the "Bhagavati"<sup id="ref-5"><a href="#note-5">5</a></sup> is not pleased, or one's time is not good, or one has no *vidhi* for it.
+People who talk like this believe that *saktis* are pleased by the rituals. They use phrases like "*puja vidhikal kondu sakti priti undakum*"; "*Homam/namajapam tapas adiyaya anusthanangal kondu daivangale santoshipikkam*"; "*vrata tantra vidhikal kondu sakti prasadam undakam*" i.e. *puja, Homam, namajapam tapas, vratam* and such other prescribed religious rituals cause the gods to give their favour. If the desired wish is fulfilled, they believe that the gods are made happy. "*Agrahicha karyam sadhichengil, santosichu ennatinnu adayalamanu*"; "*Daivangal santosichengil karyangalkku oru mudakavum undakuvella*." If the gods are pleased, there won't be any obstacle to our affairs. Stories of different favours received were related by people who had obtained the *saktiprasadam*. Failure to obtain the favour, however, would be interpreted differently. Either they would say that the "Bhagavati"<sup id="ref-6"><a href="#note-6">5</a></sup> is not pleased, or one's time is not good, or one has no *vidhi* for it.
 
 These two distinct styles of speech about rituals should not perhaps be attributed to two distinct groups. Perhaps the wise thing may be to say that these two strands are present in the consciousness of ordinary people in different degrees and that the same people may act differently in response to different rituals at different occasions. However, it looks as if there are some people who refuse to attribute to rituals meaning *ex opere operato* and interpret rituals solely in terms of personal experience of values and meanings.
 
@@ -236,7 +239,7 @@ Some explained *punyam* is the merit-reward *Iswaran* gives for our *salkarma* i
 
 ### God-conception and the traditional practices of purity and pollution (*suddhi* and *asuddhi*)
 
-People understand the *kopam* of gods not only in terms of moral values but also in terms of certain ritual practices of purity (*suddhi*) and pollution (*asuddhi*). For instance a story was told of a man who suffered burns while walking with other *Komarams* in the fire. In the *prasnam*, Bhagavati asked, "do my children have to eat his leavings?" It is said that the man had consumed a piece of coconut while he was preparing the dish for the festival. Similarly, certain categories of people such as a woman in her periods, a woman after child birth, members of a bereaved family, consider themselves ritually impure. They do not perform a religious exercise, say for instance, lighting the evening lamp (*deepam*). They are not to take part in sacred functions at home or to visit the temples or shrines of gods.<sup id="ref-6"><a href="#note-6">6</a></sup>
+People understand the *kopam* of gods not only in terms of moral values but also in terms of certain ritual practices of purity (*suddhi*) and pollution (*asuddhi*). For instance a story was told of a man who suffered burns while walking with other *Komarams* in the fire. In the *prasnam*, Bhagavati asked, "do my children have to eat his leavings?" It is said that the man had consumed a piece of coconut while he was preparing the dish for the festival. Similarly, certain categories of people such as a woman in her periods, a woman after child birth, members of a bereaved family, consider themselves ritually impure. They do not perform a religious exercise, say for instance, lighting the evening lamp (*deepam*). They are not to take part in sacred functions at home or to visit the temples or shrines of gods.<sup id="ref-7"><a href="#note-7">6</a></sup>
 
 There are also people among the high castes who believe that the entry of lower castes into their temple would render it impure (*asuddham*). A story was told by some of how a Manyani Nair family in Chirakkal had to give away their shrine to a Tiyya as he was found in it, lighting the lamp before the deity. In another story some Tiyya men were struck dead by cholera because they entered the Kottiyur temple. Some of the interviewees also complained that the *sakti* of their gods is diminishing because of the fact that offerings (*nerchas*) are accepted from Pulaya women, and that the items for the offerings to the gods are bought from Muslim shops. One of the interviewees also said that the oracle (*velichapad*) of Mucchilott Bhagavati did not enter his sister's house as she was married to a Tiyya. There also prevails the practice of not allowing widows to take part in important sacred functions.
 
@@ -282,7 +285,7 @@ Empirical evidence from Chirakkal suggests that these traditional sacred symbols
 
 These are key concepts in the Hindu religious tradition with which ordinary people interpret their experience of joy and suffering and give structure and shape to their time and space.
 
-Here again empirical study of these concepts—in Chirakkal, reveal that these faith categories are used by people only in areas and situations in their lives which cannot be interpreted in terms of logic and reason. But the pattern is so varied that we cannot speak of any uniform and static meaning for these concepts.<sup id="ref-7"><a href="#note-7">7</a></sup>
+Here again empirical study of these concepts—in Chirakkal, reveal that these faith categories are used by people only in areas and situations in their lives which cannot be interpreted in terms of logic and reason. But the pattern is so varied that we cannot speak of any uniform and static meaning for these concepts.<sup id="ref-8"><a href="#note-8">7</a></sup>
 
 ## II. Personal Reflections on Popular Religious Consciousness in the Context of Hindu-Christian dialogue
 
@@ -316,7 +319,7 @@ I am inclined to believe that these basic experiences that compel a Hindu to acc
 
 ### 3. Hindu-Christian dialogue to evolve a common value system: Problem and Possibility
 
-Our study of the moral consciousness of Hindus in Chirakkal shows that in popular experience the moral values have a religious basis and legitimation. This basis and legitimation is sometimes expressed through the medium of the symbol of God<sup id="ref-8"><a href="#note-8">8</a></sup> and sometimes through the medium of the concept of *karma*.
+Our study of the moral consciousness of Hindus in Chirakkal shows that in popular experience the moral values have a religious basis and legitimation. This basis and legitimation is sometimes expressed through the medium of the symbol of God<sup id="ref-9"><a href="#note-9">8</a></sup> and sometimes through the medium of the concept of *karma*.
 
 We have also seen from the analysis of the practices of purity and pollution among the people that the traditional understanding of these conceptions is with reference to their gods. Some of these practices of purity, we have seen, involve social discrimination against people, namely women, widows, Harijans and other castes connected with the ritual removal of pollution.
 
@@ -350,36 +353,40 @@ It may therefore appear that the spirit of Protestant Christianity and modern Hi
 
 <ol>
 <li id="note-1">
-  Here it should be understood to mean their progenitors, Swamijis, Scriptures and their heritage in general as they refer to these particular sources in their answers.
+  This English translation was not included in the original journal publication. It has been added for the present publication.
   <a href="#ref-1">↩</a>
 </li>
 <li id="note-2">
-  Beliefs in signs from gods is present not only among simple folk who worship less known deities but also among the high caste people.
+  Here it should be understood to mean their progenitors, Swamijis, Scriptures and their heritage in general as they refer to these particular sources in their answers.
   <a href="#ref-2">↩</a>
 </li>
 <li id="note-3">
-  <em>Sthalamahatmyama</em> of Sri Mukambika, Guruvayoorappan, Sri Venkateswara etc. claim this type of special manifestation.
+  Beliefs in signs from gods is present not only among simple folk who worship less known deities but also among the high caste people.
   <a href="#ref-3">↩</a>
 </li>
 <li id="note-4">
-  Other concrete <em>namas</em> will be used e.g. Muttappan.
+  <em>Sthalamahatmyama</em> of Sri Mukambika, Guruvayoorappan, Sri Venkateswara etc. claim this type of special manifestation.
   <a href="#ref-4">↩</a>
 </li>
 <li id="note-5">
-  Proper names of some god will be used.
+  Other concrete <em>namas</em> will be used e.g. Muttappan.
   <a href="#ref-5">↩</a>
 </li>
 <li id="note-6">
-  People tell stories which speak of the necessity of observing the rules of purity and pollution. One such story is about "Uppan". This bird is believed to be a woman under a curse. Her mistake was that she in her periods came into contact with some of her relations going to the temple.
+  Proper names of some god will be used.
   <a href="#ref-6">↩</a>
 </li>
 <li id="note-7">
-  A detailed account of these points will be found in my forthcoming book on popular religion in Chirakkal. (Note: This reference is preserved as it appeared in the original source.)
+  People tell stories which speak of the necessity of observing the rules of purity and pollution. One such story is about "Uppan". This bird is believed to be a woman under a curse. Her mistake was that she in her periods came into contact with some of her relations going to the temple.
   <a href="#ref-7">↩</a>
 </li>
 <li id="note-8">
-  "God" here should be understood to stand for all the common and proper names with which they point to some power other than themselves.
+  A detailed account of these points will be found in my forthcoming book on popular religion in Chirakkal. (Note: This reference is preserved as it appeared in the original source.)
   <a href="#ref-8">↩</a>
+</li>
+<li id="note-9">
+  "God" here should be understood to stand for all the common and proper names with which they point to some power other than themselves.
+  <a href="#ref-9">↩</a>
 </li>
 </ol>
 
