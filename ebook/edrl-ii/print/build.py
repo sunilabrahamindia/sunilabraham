@@ -684,10 +684,20 @@ def clean_source(path):
             (r"\*\*\(c\) \*Dasara\*\*\*", "(c) #emph[Dasara]"),
             (r"\*\*\(d\) \*Deepavali\*\*\*", "(d) #emph[Deepavali]"),
         ]
+        # Apply the Essay 1 weak-page-break treatment only to the two
+        # Section B labels identified in the print proof. A weak break moves
+        # the label with its following paragraph when the remaining page space
+        # is insufficient, without forcing an unnecessary blank page.
+        pagebreak_labels = {
+            "(e) An egalitarian spiritual practice during the #emph[Karaga]",
+            "(c) #emph[Dasara]",
+        }
         for pattern, label in festival_labels:
+            pagebreak = "#pagebreak(weak: true)\\n" if label in pagebreak_labels else ""
             replacement = (
                 "```{=typst}\n"
-                "#block(width: 100%, above: 14pt, below: 14pt)[\n"
+                + pagebreak
+                + "#block(width: 100%, above: 14pt, below: 14pt)[\n"
                 "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
                 f'  #text(weight: "bold")[{label}]\n'
                 "]\n"
