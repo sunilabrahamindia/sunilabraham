@@ -4,6 +4,7 @@ title: "Editorial Source Audit: Fourth Stage — Source Editing, Final Checks an
 permalink: /amaa/30-editorial-source-audit-fourth-stage/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Fourth-stage editorial source audit for Essays on Dalits, Religion and Liberation II, recording outstanding source editing, checks and balances, style review and related production work."
+page_id: TSAP-1387
 created: 2026-11-18
 ---
 

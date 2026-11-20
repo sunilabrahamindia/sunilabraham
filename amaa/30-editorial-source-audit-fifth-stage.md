@@ -4,6 +4,7 @@ title: "Editorial Source Audit: Fifth Stage — Remaining Checks and Work Log"
 permalink: /amaa/30-editorial-source-audit-fifth-stage/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Fifth-stage editorial source audit for Essays on Dalits, Religion and Liberation II, recording remaining checks, corrections, print-proof reviews and production verification."
+page_id: TSAP-1388
 created: 2026-11-19
 ---
 

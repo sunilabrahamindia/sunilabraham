@@ -4,6 +4,7 @@ title: "Editorial Source Audit: Sixth Stage — Print Proof and Pagination Revie
 permalink: /amaa/30-editorial-source-audit-sixth-stage/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Sixth-stage editorial source audit for Essays on Dalits, Religion and Liberation II, documenting print-proof pagination, paragraph and poem leading, and targeted production corrections."
+page_id: TSAP-1389
 created: 2026-11-20
 ---
 
