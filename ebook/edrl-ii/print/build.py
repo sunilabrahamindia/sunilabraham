@@ -1035,13 +1035,13 @@ common = r"""
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 9.1pt, spacing: 0pt)
   #text(size: 14pt, weight: "bold", hyphenate: false)[#it.body]
 ]
-#show heading.where(level: 4): it => block(above: 14pt, below: 14pt, breakable: false)[
+#show heading.where(level: 4): it => block(above: 14pt, below: 12pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 7.8pt, spacing: 0pt)
   #align(left)[
     #text(size: 12pt, weight: "bold", hyphenate: false)[#it.body]
   ]
 ]
-#show heading.where(level: 5): it => block(above: 14pt, below: 14pt, breakable: false)[
+#show heading.where(level: 5): it => block(above: 14pt, below: 12pt, breakable: false)[
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 8.8pt, spacing: 0pt)
   #text(size: 11pt, weight: "bold", hyphenate: false)[#it.body]
 ]
