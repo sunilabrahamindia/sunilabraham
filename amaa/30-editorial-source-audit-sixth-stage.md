@@ -92,6 +92,24 @@ No poem wording or essay manuscript source was changed. In particular, this was 
 
 **Status:** Exact print-builder change committed; automated build successful; visual PDF review pending.
 
+### 20 November 2026 — Print footnote marker size reduced to 12pt
+
+**Production file:** `ebook/edrl-ii/print/build.py`
+
+The superscript footnote reference marker in the print edition was set to **12pt**, reduced from 14pt. The change is limited to the Typst rule that controls the size of the superscript marker:
+
+```typst
+#show footnote: it => super(text(size: 12pt)[#it])
+```
+
+No other footnote settings were changed. In particular, the footnote text size remains 8.5pt, and the main body text remains 11pt. No essay manuscript text, footnote content, footnote-entry typography, spacing or other print settings were altered.
+
+**Commit:** `c0888069b1a9d62bb76210b342861cb6558d3d0` — "Set print footnote markers to 12pt".
+
+**Verification:** The commit diff confirms a single-line change from 14pt to 12pt in `ebook/edrl-ii/print/build.py`. The resulting print-proof build and PDF still need to be checked.
+
+**Status:** Source change committed and diff verified; print build and visual inspection pending.
+
 ## Outstanding proof checks
 
 1. Inspect Essay 6 around both festival labels and confirm that each label stays with the material it introduces.
