@@ -702,9 +702,9 @@ def clean_source(path):
             label_soup = BeautifulSoup(match.group(0), "html.parser")
             label_typst = html_inline_to_typst(label_soup.p.strong)
             return (
-                "\n\n\`\`\`{=typst}\n"
+                "\n\n```{=typst}\n"
                 "#par(first-line-indent: 0pt)[" + label_typst + "]\n"
-                "\`\`\`\n\n"
+                "```\n\n"
             )
 
         cleaned = label_pattern.sub(render_essay6_label, cleaned)
