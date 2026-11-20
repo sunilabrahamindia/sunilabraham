@@ -1428,7 +1428,6 @@ for essay in essays:
         target = re.compile(r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$")
         pagebreak_and_indented_heading = (
             "```{=typst}\n"
-            "#pagebreak(weak: true)\n"
             "#h(12.1pt) *6. Will the sacred cow return?*\n"
             "```\n\n"
         )
