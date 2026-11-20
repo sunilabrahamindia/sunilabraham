@@ -853,7 +853,7 @@ def md_to_typst(markdown, stem):
         marker = f"TSAPESSAY6FESTIVALLABEL{index}TOKEN"
         placeholder = f"TSAPESSAY6KEEPBLOCK{index}TOKEN"
         match = re.search(
-            rf"(?m)^{marker}[ \\t]*\\n\\n(.*?)(?=\\n[ \\t]*\\n|\\Z)",
+            rf"(?m)^{marker}[ \t]*\n\n(.*?)(?=\n[ \t]*\n|\Z)",
             markdown_without_definitions,
             re.S,
         )
@@ -864,12 +864,12 @@ def md_to_typst(markdown, stem):
             raise SystemExit(f"Essay 6 festival label {index} has no following paragraph.")
         paragraph_typst = convert(paragraph, f"festival-{index}-paragraph")
         festival_blocks[placeholder] = (
-            "#block(width: 100%, above: 14pt, below: 14pt, breakable: false)[\\n"
-            "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\\n"
-            f'  #text(weight: "bold")[{label}]\\n'
-            "  #v(14pt)\\n"
-            "  #set par(justify: true, first-line-indent: 12.1pt, hanging-indent: 0pt, leading: 9pt, spacing: 10pt)\\n"
-            f"  {paragraph_typst}\\n"
+            "#block(width: 100%, above: 14pt, below: 14pt, breakable: false)[\n"
+            "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
+            f'  #text(weight: "bold")[{label}]\n'
+            "  #v(14pt)\n"
+            "  #set par(justify: true, first-line-indent: 12.1pt, hanging-indent: 0pt, leading: 9pt, spacing: 10pt)\n"
+            f"  {paragraph_typst}\n"
             "]"
         )
         markdown_without_definitions = (
@@ -897,7 +897,7 @@ def md_to_typst(markdown, stem):
             stanza_typst = convert(stanza.strip(), f"poem-{index}-stanza-{stanza_index}")
             stanza_blocks.append(
                 "#block(width: 100%)[\n"
-                "  #set par(justify: false, first-line-indent: 0pt, leading: 10pt, spacing: 0pt)\n"
+            "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
                 "  #align(center)[\n" + stanza_typst + "\n  ]\n]"
             )
         poem = ("\n#v(12pt)\n").join(stanza_blocks)
