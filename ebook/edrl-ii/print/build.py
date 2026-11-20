@@ -1451,12 +1451,13 @@ for essay in essays:
             (r"(?m)^\*\*5\. Decline in the observance of domestic rituals and prayer\*\*$", 5),
             (r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$", 6),
         ]
+        fence = chr(96) * 3
         for pattern, number in heading_specs:
             target = re.compile(pattern)
-            prefix = "\`\`\`{=typst}" + chr(10) + "#set par(first-line-indent: 0pt)" + chr(10) + "\`\`\`" + chr(10) * 2
+            prefix = fence + "{=typst}" + chr(10) + "#set par(first-line-indent: 0pt)" + chr(10) + fence + chr(10) * 2
             if number == 3:
-                prefix = "\`\`\`{=typst}" + chr(10) + "#pagebreak(weak: true)" + chr(10) + "#set par(first-line-indent: 0pt)" + chr(10) + "\`\`\`" + chr(10) * 2
-            suffix = chr(10) * 2 + "\`\`\`{=typst}" + chr(10) + "#set par(first-line-indent: 12.1pt)" + chr(10) + "\`\`\`"
+                prefix = fence + "{=typst}" + chr(10) + "#pagebreak(weak: true)" + chr(10) + "#set par(first-line-indent: 0pt)" + chr(10) + fence + chr(10) * 2
+            suffix = chr(10) * 2 + fence + "{=typst}" + chr(10) + "#set par(first-line-indent: 12.1pt)" + chr(10) + fence
             body, count = target.subn(lambda match, before=prefix, after=suffix: before + match.group(0) + after, body, count=1)
             if count != 1:
                 raise SystemExit(f"Could not locate Essay 1 subsection {number} heading.")
