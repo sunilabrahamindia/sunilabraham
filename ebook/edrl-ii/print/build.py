@@ -1312,6 +1312,7 @@ Our heartfelt thanks go to M. Kunhikrishnan, Vice President of the Swami Anandat
 
 We wish to acknowledge Sangram Keshari Senapati for his initial guidance during the ISBN registration process with the Raja Rammohun Roy National Agency for ISBN (RRRNA).
 
+#pagebreak(weak: true)
 And,
 
 I personally take this opportunity to express my gratitude to the family of A. M. Abraham Ayrookuzhiel for giving me the opportunity to be a part of this initiative. I am deeply grateful for their trust, cooperation and support throughout the preparation of this book. My sincere thanks to Ponnamma Abraham, Sunil Abraham, Matthew Abraham, Jacob Abraham and their family.
