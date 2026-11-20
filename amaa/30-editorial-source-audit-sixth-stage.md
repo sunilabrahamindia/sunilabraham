@@ -132,6 +132,54 @@ During proofing, an earlier paragraph-wide Typst setting unintentionally affecte
 
 **Status:** Targeted formatting correction committed; build #601 successful; initial visual check positive; full-book review pending.
 
+### 20 November 2026 — Essay 1: audit of subsection soft page-break rules and paragraph spacing
+
+**Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends**
+
+The six bold subsection paragraphs (1–6) were reviewed in `ebook/edrl-ii/print/build.py` to establish which ones have an explicit weak page break before them. The current rule is:
+
+| Subsection | Explicit weak page break before it |
+|---|---|
+| 1 | No |
+| 2 | No |
+| 3 | Yes |
+| 4 | No |
+| 5 | No |
+| 6 | No |
+
+The existing weak page break before subsection 3 was preserved. No additional soft page breaks were added to the other subsection paragraphs.
+
+The paragraph-spacing adjustment went through two incorrect implementations before being corrected:
+
+1. An explicit `#block(above: 12pt)` was tried. It did not give the intended visible spacing because the block spacing interacted with the surrounding paragraph spacing.
+2. That was replaced with an explicit `#v(12pt, weak: false)`, and then reduced to `#v(10pt, weak: false)`. This added extra vertical space on top of the normal paragraph spacing and made the gap too large.
+3. The extra vertical-space command was then removed. The current Essay 1 heading conversion is paragraph-local:
+
+   ```typst
+   #par(first-line-indent: 0pt)[...]
+   ```
+
+   This keeps the bold subsection paragraph flush-left without adding a separate vertical-space command. It inherits the existing body paragraph settings: **9pt leading and 10pt paragraph spacing**. The following prose retains its normal **12.1pt first-line indent**.
+
+The relevant global setting in `build.py` remains:
+
+```python
+BODY_PAR = "#set par(justify: true, justification-limits: (spacing: (min: 85%, max: 120%), tracking: (min: 0pt, max: 0.01em)), leading: 9pt, first-line-indent: 12.1pt, hanging-indent: 0pt, spacing: 10pt)"
+```
+
+No change was made to the essay manuscript wording. The H1, H2, H3 and H4 heading rules were not changed. The weak page break before subsection 3 was not changed. No separate spacing was added after the bold subsection paragraphs.
+
+**Commits and builds:**
+
+- `bc2aab0` — first attempt to add 12pt above the bold paragraphs; the implementation did not produce the intended result.
+- `5251332` — replaced the block spacing with explicit 12pt vertical space; print-proof workflow [#44693794342](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/44693794342) completed successfully.
+- `6a33392` — changed the explicit vertical space to 10pt; print-proof workflow [#44695242882](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/44695242882) completed successfully.
+- `e15fe97` — removed the additional vertical-space command, leaving the heading-local first-line-indent setting; print-proof workflow [#44695962008](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/44695962008) completed successfully.
+
+A successful build confirms compilation only. The final visual appearance of the bold paragraph spacing remains subject to the user's proof review.
+
+**Status:** The current script has no additional explicit vertical gap before or after the bold subsection paragraphs. It uses the normal body paragraph spacing. The only explicit weak page break among subsections 1–6 remains the one before subsection 3.
+
 ## Outstanding proof checks
 
 1. Inspect Essay 6 around both festival labels and confirm that each label stays with the material it introduces.
