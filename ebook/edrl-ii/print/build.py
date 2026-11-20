@@ -684,6 +684,31 @@ def clean_source(path):
             if count != 1:
                 raise SystemExit("Essay 6 weak page-break insertion check failed: " + pattern)
 
+        # Render only Essay 6's lowercase festival labels (a)-(e) flush-left.
+        # Keep their bold/italic styling and leave every following body
+        # paragraph, including its indentation and spacing, unchanged.
+        label_pattern = re.compile(
+            r"<p>\\s*<strong>\\s*\\([a-e]\\).*?</strong>\\s*</p>",
+            re.I | re.S,
+        )
+        label_matches = list(label_pattern.finditer(cleaned))
+        if len(label_matches) != 9:
+            raise SystemExit(
+                "Essay 6 festival-label check failed: expected 9 lowercase labels, "
+                f"found {len(label_matches)}."
+            )
+
+        def render_essay6_label(match):
+            label_soup = BeautifulSoup(match.group(0), "html.parser")
+            label_typst = html_inline_to_typst(label_soup.p.strong)
+            return (
+                "\\n\\n```{=typst}\\n"
+                "#par(first-line-indent: 0pt)[" + label_typst + "]\\n"
+                "```\\n\\n"
+            )
+
+        cleaned = label_pattern.sub(render_essay6_label, cleaned)
+
     for token, heading in heading_tokens.items():
         # Render Markdown headings through the same raw Typst heading path as
         # HTML headings. This prevents Pandoc from splitting a long heading's
