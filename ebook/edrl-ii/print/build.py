@@ -1439,20 +1439,18 @@ for essay in essays:
         # headings as flush-left bold paragraphs. The following prose retains
         # the normal body paragraph first-line indent.
         heading_specs = [
-            (r"(?m)^\\*\\*1\\. The \\*saktis\\* of the gaps will disappear\\*\\*$", '#text(weight: "bold")[1. The #emph[saktis] of the gaps will disappear]'),
-            (r"(?m)^\\*\\*2\\. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world\\.\\*\\*$", '#text(weight: "bold")[2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.]'),
-            (r"(?m)^\\*\\*3\\. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history\\.\\*\\*$", '#text(weight: "bold")[3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.]'),
-            (r"(?m)^\\*\\*4\\. Evil spirits are on their way out\\*\\*$", '#text(weight: "bold")[4. Evil spirits are on their way out]'),
-            (r"(?m)^\\*\\*5\\. Decline in the observance of domestic rituals and prayer\\*\\*$", '#text(weight: "bold")[5. Decline in the observance of domestic rituals and prayer]'),
-            (r"(?m)^\\*\\*6\\. Will the sacred cow return\\?\\*\\*$", '#text(weight: "bold")[6. Will the sacred cow return?]'),
+            ("**1. The *saktis* of the gaps will disappear**", '#text(weight: "bold")[1. The #emph[saktis] of the gaps will disappear]'),
+            ("**2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.**", '#text(weight: "bold")[2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.]'),
+            ("**3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.**", '#text(weight: "bold")[3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.]'),
+            ("**4. Evil spirits are on their way out**", '#text(weight: "bold")[4. Evil spirits are on their way out]'),
+            ("**5. Decline in the observance of domestic rituals and prayer**", '#text(weight: "bold")[5. Decline in the observance of domestic rituals and prayer]'),
+            ("**6. Will the sacred cow return?**", '#text(weight: "bold")[6. Will the sacred cow return?]'),
         ]
-        for index, (pattern, typst_heading) in enumerate(heading_specs, start=1):
-            target = re.compile(pattern)
+        for index, (source_heading, typst_heading) in enumerate(heading_specs, start=1):
+            target = re.compile(r"(?m)^" + re.escape(source_heading) + r"$")
             replacement = "\n\n```{=typst}\n#par(first-line-indent: 0pt)[" + typst_heading + "]\n```\n\n"
             if index == 3:
-                replacement = "\n\n```{=typst}\n#pagebreak(weak: true)\n```\n\n" + replacement.lstrip("\\n")
-            if index == 6:
-                replacement = replacement.rstrip("\\n") + "\n```{=typst}\n#linebreak()\n```\n\n"
+                replacement = "\n\n```{=typst}\n#pagebreak(weak: true)\n```\n\n" + replacement.lstrip("\n")
             body, count = target.subn(lambda match, value=replacement: value, body, count=1)
             if count != 1:
                 raise SystemExit(f"Could not locate Essay 1 subsection {index} heading.")
