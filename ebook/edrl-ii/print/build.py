@@ -688,7 +688,7 @@ def clean_source(path):
         # Keep their bold/italic styling and leave every following body
         # paragraph, including its indentation and spacing, unchanged.
         label_pattern = re.compile(
-            r"<p>\\s*<strong>\\s*\\([a-e]\\).*?</strong>\\s*</p>",
+            r"<p>\s*<strong>\s*\([a-e]\).*?</strong>\s*</p>",
             re.I | re.S,
         )
         label_matches = list(label_pattern.finditer(cleaned))
@@ -702,9 +702,9 @@ def clean_source(path):
             label_soup = BeautifulSoup(match.group(0), "html.parser")
             label_typst = html_inline_to_typst(label_soup.p.strong)
             return (
-                "\\n\\n```{=typst}\\n"
-                "#par(first-line-indent: 0pt)[" + label_typst + "]\\n"
-                "```\\n\\n"
+                "\n\n\`\`\`{=typst}\n"
+                "#par(first-line-indent: 0pt)[" + label_typst + "]\n"
+                "\`\`\`\n\n"
             )
 
         cleaned = label_pattern.sub(render_essay6_label, cleaned)
