@@ -134,7 +134,7 @@ Here we should note that it is their forms of prayer, *Nercha* and *Vazhipad* wh
 
 > 'If we do not offer hair, something will go wrong. It may be that a member of the family will suddenly take ill, or some money has got to be spent unexpectedly on something or the other.'
 
-> 'There are many *saktis* in this world. Man is under the influence of these *saktis*. It is not possible for man to live as he pleases. If we do not give to these *saktis* what is their due, they will show certain signs (*Lakshanam/adayalam*). For instance Pottan *Daivam* is the *Daivam* of our community (*samudayam*). We are bound to offer whatever has been offered to him for generations. If this is not done, some sign will be shown. Sometimes we may not understand these signs. But we can get them interpreted with the help of *kanisan* (astrologer).<sup id="ref-3"><a href="#note-3">2</a></sup>'
+> 'There are many *saktis* in this world. Man is under the influence of these *saktis*. It is not possible for man to live as he pleases. If we do not give to these *saktis* what is their due, they will show certain signs (*Lakshanam/adayalam*). For instance Pottan *Daivam* is the *Daivam* of our community (*samudayam*). We are bound to offer whatever has been offered to him for generations. If this is not done, some sign will be shown. Sometimes we may not understand these signs. But we can get them interpreted with the help of *kanisan* (astrologer).'<sup id="ref-3"><a href="#note-3">2</a></sup>
 
 (11) *Fear of Punishment*. The *saktis* have shown their pleasure and anger in the form of favour and punishment.
 
