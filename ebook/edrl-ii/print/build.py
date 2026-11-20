@@ -1406,7 +1406,7 @@ for essay in essays:
         parts.append("#counter(page).update(1)\n")
     parts.append("#counter(footnote).update(0)\n")
     parts.append(
-        f'#align(center)[#text(font: "Linux Libertine O", size: 18pt, weight: "bold", fill: luma(50))[{essay["order"]}]]\n#v(8.25pt)\n'
+        f'#align(center)[#text(font: "Linux Libertine O", size: 18pt, weight: "bold", fill: luma(50))[{essay["order"]}]]\n#v(10pt)\n'
     )
     parts.append(f"= {title}\n")
     parts.append(f"""#block[
