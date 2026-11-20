@@ -1449,7 +1449,7 @@ for essay in essays:
         if count != 1:
             raise SystemExit("Could not locate the exact Essay 1 subsection 3 bold paragraph.")
 
-        target = re.compile(r"(?m)^\\*\\*6\\. Will the sacred cow return\\?\\*\\*$")
+        target = re.compile(r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$")
         pagebreak_and_indented_heading = (
             "```{=typst}\n"
             "#h(12.1pt) *6. Will the sacred cow return?*\n"
