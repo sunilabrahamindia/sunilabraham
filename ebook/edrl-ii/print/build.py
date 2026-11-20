@@ -1441,20 +1441,22 @@ for essay in essays:
         # Keep the weak page break before subsection 3. Temporarily switch off
         # first-line indentation for each bold subsection heading, then restore
         # the standard body indent immediately after it.
+        # Preserve the original Markdown headings. Only switch off first-line
+        # indentation for each heading, then restore the normal body indent.
         heading_specs = [
-            (r"(?m)^\\*\\*1\\. The \\*saktis\\* of the gaps will disappear\\*\\*$", 1),
-            (r"(?m)^\\*\\*2\\. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world\\.\\*\\*$", 2),
-            (r"(?m)^\\*\\*3\\. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history\\.\\*\\*$", 3),
-            (r"(?m)^\\*\\*4\\. Evil spirits are on their way out\\*\\*$", 4),
-            (r"(?m)^\\*\\*5\\. Decline in the observance of domestic rituals and prayer\\*\\*$", 5),
-            (r"(?m)^\\*\\*6\\. Will the sacred cow return\\?\\*\\*$", 6),
+            (r"(?m)^\*\*1\. The \*saktis\* of the gaps will disappear\*\*$", 1),
+            (r"(?m)^\*\*2\. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world\.\*\*$", 2),
+            (r"(?m)^\*\*3\. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history\.\*\*$", 3),
+            (r"(?m)^\*\*4\. Evil spirits are on their way out\*\*$", 4),
+            (r"(?m)^\*\*5\. Decline in the observance of domestic rituals and prayer\*\*$", 5),
+            (r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$", 6),
         ]
         for pattern, number in heading_specs:
             target = re.compile(pattern)
-            prefix = "```{=typst}\\n#set par(first-line-indent: 0pt)\\n```\\n\\n"
+            prefix = "\`\`\`{=typst}" + chr(10) + "#set par(first-line-indent: 0pt)" + chr(10) + "\`\`\`" + chr(10) * 2
             if number == 3:
-                prefix = "```{=typst}\\n#pagebreak(weak: true)\\n#set par(first-line-indent: 0pt)\\n```\\n\\n"
-            suffix = "\\n\\n```{=typst}\\n#set par(first-line-indent: 12.1pt)\\n```"
+                prefix = "\`\`\`{=typst}" + chr(10) + "#pagebreak(weak: true)" + chr(10) + "#set par(first-line-indent: 0pt)" + chr(10) + "\`\`\`" + chr(10) * 2
+            suffix = chr(10) * 2 + "\`\`\`{=typst}" + chr(10) + "#set par(first-line-indent: 12.1pt)" + chr(10) + "\`\`\`"
             body, count = target.subn(lambda match, before=prefix, after=suffix: before + match.group(0) + after, body, count=1)
             if count != 1:
                 raise SystemExit(f"Could not locate Essay 1 subsection {number} heading.")
