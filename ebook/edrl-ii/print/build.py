@@ -1440,11 +1440,11 @@ for essay in essays:
         # cannot accommodate the paragraph; it does not keep the next paragraph
         # or subsequent numbered statement together with it.
         target = re.compile(
-            r"(?m)^\\*\\*3\\. In the process of reinterpretation and reconstruction "
+            r"(?m)^\*\*3\. In the process of reinterpretation and reconstruction "
             r"of the concept of God or Supreme Self, there will be greater interaction "
-            r"between the God of play and the God of history\\.\\*\\*$"
+            r"between the God of play and the God of history\.\*\*$"
         )
-        weak_break = "\\`\\`\\`{=typst}\\n#pagebreak(weak: true)\\n\\`\\`\\`\\n\\n"
+        weak_break = "```{=typst}\n#pagebreak(weak: true)\n```\n\n"
         body, count = target.subn(lambda match: weak_break + match.group(0), body, count=1)
         if count != 1:
             raise SystemExit("Could not locate the exact Essay 1 subsection 3 bold paragraph.")
