@@ -110,6 +110,28 @@ No other footnote settings were changed. In particular, the footnote text size r
 
 **Status:** Source change committed and diff verified; print build and visual inspection pending.
 
+### 20 November 2026 — Essay 1: standardise subsection heading alignment and restore paragraph indents
+
+**Essay 1 — The State of Hinduism in 2000 A.D.—Some Emerging Trends**
+
+The print proof showed inconsistent indentation across subsection headings 1–6. The agreed formatting correction was:
+
+- Subsection headings 1–6: flush-left, following the existing position of heading 3.
+- First line of the paragraph following each heading: retain the normal 12.1pt first-line indent.
+- Subsequent paragraph lines: retain the normal body margin.
+- Subsection 6: keep its heading on a separate line from the paragraph beginning "I am not here referring..."; indent only that paragraph's first line.
+- Preserve the existing weak page break before subsection 3.
+
+The essay manuscript wording was not changed. The correction is confined to the Essay 1 processing in `ebook/edrl-ii/print/build.py`.
+
+During proofing, an earlier paragraph-wide Typst setting unintentionally affected the first line of the following prose. A later attempt also exposed a build-script error because it called an undefined converter. Those attempts were not accepted as final. The final correction uses a paragraph-local `#par(first-line-indent: 0pt)` for each heading, rather than a paragraph-wide `#set par` rule. This keeps the flush-left heading treatment local and leaves the normal 12.1pt body paragraph indent in force.
+
+**Final source commit:** `26fa7af5e11fe05c24eaeca9bc9326ec27b51000` — "Scope flush-left formatting to Essay 1 headings only".
+
+**Verification:** EDRL II print-proof workflow [#601](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/44677085731) completed successfully. The user has made an initial inspection and reported that the affected formatting looks correct. A full-book scan is still in progress; this is therefore a provisional proof approval, not final sign-off.
+
+**Status:** Targeted formatting correction committed; build #601 successful; initial visual check positive; full-book review pending.
+
 ## Outstanding proof checks
 
 1. Inspect Essay 6 around both festival labels and confirm that each label stays with the material it introduces.
