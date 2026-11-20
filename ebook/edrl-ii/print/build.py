@@ -1435,32 +1435,30 @@ for essay in essays:
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     if essay["order"] == 1:
-        # Keep the bold subsection 3 statement with its following discussion.
-        # This is a weak break: it moves only when the remaining page space
-        # cannot accommodate the paragraph; it does not keep the next paragraph
-        # or subsequent numbered statement together with it.
-        target = re.compile(
-            r"(?m)^\*\*3\. In the process of reinterpretation and reconstruction "
-            r"of the concept of God or Supreme Self, there will be greater interaction "
-            r"between the God of play and the God of history\.\*\*$"
-        )
-        weak_break = "```{=typst}\n#pagebreak(weak: true)\n```\n\n"
-        body, count = target.subn(lambda match: weak_break + match.group(0), body, count=1)
-        if count != 1:
-            raise SystemExit("Could not locate the exact Essay 1 subsection 3 bold paragraph.")
+        # Retain subsection 3's weak page break. Set all six subsection headings
+        # flush-left, independently of the body paragraph first-line indent.
+        heading_specs = [
+            ("**1. The *saktis* of the gaps will disappear**", '#text(weight: "bold")[1. The #emph[saktis] of the gaps will disappear]'),
+            ("**2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.**", '#text(weight: "bold")[2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.]'),
+            ("**3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.**", '#text(weight: "bold")[3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.]'),
+            ("**4. Evil spirits are on their way out**", '#text(weight: "bold")[4. Evil spirits are on their way out]'),
+            ("**5. Decline in the observance of domestic rituals and prayer**", '#text(weight: "bold")[5. Decline in the observance of domestic rituals and prayer]'),
+            ("**6. Will the sacred cow return?**", '#text(weight: "bold")[6. Will the sacred cow return?]'),
+        ]
+        for source_heading, typst_heading in heading_specs:
+            target = re.compile(r"(?m)^" + re.escape(source_heading) + r"$")
+            replacement = "```{=typst}\\n#par(first-line-indent: 0pt)[" + typst_heading + "]"
+            if source_heading.startswith("**3."):
+                replacement = "```{=typst}\\n#pagebreak(weak: true)\\n```\\n\\n" + replacement
+            if source_heading.startswith("**6."):
+                replacement += "#linebreak()"
+            replacement += "\\n```"
+            body, count = target.subn(lambda match, value=replacement: value, body, count=1)
+            if count != 1:
+                raise SystemExit(f"Could not locate Essay 1 subsection heading: {source_heading}")
 
-        target = re.compile(r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$")
-        pagebreak_and_indented_heading = (
-            "```{=typst}\n"
-            "#h(12.1pt) *6. Will the sacred cow return?*"
-            "#linebreak()#h(12.1pt)\n"
-            "```\n\n"
-        )
-        body, count = target.subn(
-            lambda match: pagebreak_and_indented_heading, body, count=1
-        )
-        if count != 1:
-            raise SystemExit("Could not locate the exact Essay 1 subsection 6 bold paragraph.")
+        # The first paragraph after subsection 6 uses the normal body first-line
+        # indent (12.1pt); do not insert a separate horizontal space before it.
     converted = md_to_typst(body, f"essay-{essay['order']}")
     parts.append(converted + "\n")
 
