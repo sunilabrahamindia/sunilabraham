@@ -1447,12 +1447,12 @@ for essay in essays:
         ]
         for source_heading, typst_heading in heading_specs:
             target = re.compile(r"(?m)^" + re.escape(source_heading) + r"$")
-            replacement = "```{=typst}\\n#par(first-line-indent: 0pt)[" + typst_heading + "]"
+            replacement = "```{=typst}\n#par(first-line-indent: 0pt)[" + typst_heading + "]"
             if source_heading.startswith("**3."):
-                replacement = "```{=typst}\\n#pagebreak(weak: true)\\n```\\n\\n" + replacement
+                replacement = "```{=typst}\n#pagebreak(weak: true)\n```\n\n" + replacement
             if source_heading.startswith("**6."):
-                replacement += "#linebreak()"
-            replacement += "\\n```"
+                replacement += "\n#linebreak()"
+            replacement += "\n```"
             body, count = target.subn(lambda match, value=replacement: value, body, count=1)
             if count != 1:
                 raise SystemExit(f"Could not locate Essay 1 subsection heading: {source_heading}")
