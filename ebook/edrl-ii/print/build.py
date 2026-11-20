@@ -677,7 +677,7 @@ def clean_source(path):
         ):
             cleaned, count = re.subn(
                 re.compile("^" + pattern + "$", re.M),
-                lambda match: "\\`\\`\\`{=typst}\n#pagebreak(weak: true)\n\\`\\`\\`\n\n" + match.group(0),
+                lambda match: "```{=typst}\n#pagebreak(weak: true)\n```\n\n" + match.group(0),
                 cleaned,
                 count=1,
             )
