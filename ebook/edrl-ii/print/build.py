@@ -666,6 +666,18 @@ def clean_source(path):
             del heading_tokens[token]
             break
 
+    essay6_pagebreak_tokens = {}
+    if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
+        for index, pattern in enumerate((
+            r"<p>\s*<strong>\s*\(e\).*?Karaga.*?</strong>\s*</p>",
+            r"<p>\s*<strong>\s*\(c\).*?Dasara.*?</strong>\s*</p>",
+        )):
+            token = "TSAP_ESSAY6_PAGEBREAK_" + str(index) + "_PRESERVE"
+            body, count = re.subn(pattern, lambda match: "<p>" + token + "</p>\n" + match.group(0), body, count=1, flags=re.I | re.S)
+            if count != 1:
+                raise SystemExit("Essay 6 weak page-break source check failed: " + pattern)
+            essay6_pagebreak_tokens[token] = "\n\n```{=typst}\n#pagebreak(weak: true)\n```\n\n"
+
     essay6_label_tokens = {}
     if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
         label_pattern = re.compile(
@@ -695,22 +707,9 @@ def clean_source(path):
     cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
     for token, typst_label in essay6_label_tokens.items():
         cleaned = cleaned.replace(token, typst_label)
+    for token, typst_break in essay6_pagebreak_tokens.items():
+        cleaned = cleaned.replace(token, typst_break)
 
-    # Preserve the two approved weak page breaks in Essay 6 without
-    # applying any special paragraph formatting to the festival labels.
-    if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
-        for pattern in (
-            r"\*\*\(e\) An egalitarian spiritual practice during the \*Karaga\*\*\*",
-            r"\*\*\(c\) \*Dasara\*\*\*",
-        ):
-            cleaned, count = re.subn(
-                re.compile("^" + pattern + "$", re.M),
-                lambda match: "```{=typst}\n#pagebreak(weak: true)\n```\n\n" + match.group(0),
-                cleaned,
-                count=1,
-            )
-            if count != 1:
-                raise SystemExit("Essay 6 weak page-break insertion check failed: " + pattern)
 
 
     for token, heading in heading_tokens.items():
