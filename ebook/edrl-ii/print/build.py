@@ -1435,30 +1435,27 @@ for essay in essays:
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     if essay["order"] == 1:
-        # Retain subsection 3's weak page break. Set all six subsection headings
-        # flush-left, independently of the body paragraph first-line indent.
+        # Keep subsection 3's weak page break and render all six subsection
+        # headings as flush-left bold paragraphs. The following prose retains
+        # the normal body paragraph first-line indent.
         heading_specs = [
-            ("**1. The *saktis* of the gaps will disappear**", '#text(weight: "bold")[1. The #emph[saktis] of the gaps will disappear]'),
-            ("**2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.**", '#text(weight: "bold")[2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.]'),
-            ("**3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.**", '#text(weight: "bold")[3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.]'),
-            ("**4. Evil spirits are on their way out**", '#text(weight: "bold")[4. Evil spirits are on their way out]'),
-            ("**5. Decline in the observance of domestic rituals and prayer**", '#text(weight: "bold")[5. Decline in the observance of domestic rituals and prayer]'),
-            ("**6. Will the sacred cow return?**", '#text(weight: "bold")[6. Will the sacred cow return?]'),
+            (r"(?m)^\\*\\*1\\. The \\*saktis\\* of the gaps will disappear\\*\\*$", '#text(weight: "bold")[1. The #emph[saktis] of the gaps will disappear]'),
+            (r"(?m)^\\*\\*2\\. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world\\.\\*\\*$", '#text(weight: "bold")[2. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world.]'),
+            (r"(?m)^\\*\\*3\\. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history\\.\\*\\*$", '#text(weight: "bold")[3. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history.]'),
+            (r"(?m)^\\*\\*4\\. Evil spirits are on their way out\\*\\*$", '#text(weight: "bold")[4. Evil spirits are on their way out]'),
+            (r"(?m)^\\*\\*5\\. Decline in the observance of domestic rituals and prayer\\*\\*$", '#text(weight: "bold")[5. Decline in the observance of domestic rituals and prayer]'),
+            (r"(?m)^\\*\\*6\\. Will the sacred cow return\\?\\*\\*$", '#text(weight: "bold")[6. Will the sacred cow return?]'),
         ]
-        for source_heading, typst_heading in heading_specs:
-            target = re.compile(r"(?m)^" + re.escape(source_heading) + r"$")
-            replacement = "```{=typst}\n#par(first-line-indent: 0pt)[" + typst_heading + "]"
-            if source_heading.startswith("**3."):
-                replacement = "```{=typst}\n#pagebreak(weak: true)\n```\n\n" + replacement
-            if source_heading.startswith("**6."):
-                replacement += "\n#linebreak()"
-            replacement += "\n```"
+        for index, (pattern, typst_heading) in enumerate(heading_specs, start=1):
+            target = re.compile(pattern)
+            replacement = "\n\n```{=typst}\n#par(first-line-indent: 0pt)[" + typst_heading + "]\n```\n\n"
+            if index == 3:
+                replacement = "\n\n```{=typst}\n#pagebreak(weak: true)\n```\n\n" + replacement.lstrip("\\n")
+            if index == 6:
+                replacement = replacement.rstrip("\\n") + "\n```{=typst}\n#linebreak()\n```\n\n"
             body, count = target.subn(lambda match, value=replacement: value, body, count=1)
             if count != 1:
-                raise SystemExit(f"Could not locate Essay 1 subsection heading: {source_heading}")
-
-        # The first paragraph after subsection 6 uses the normal body first-line
-        # indent (12.1pt); do not insert a separate horizontal space before it.
+                raise SystemExit(f"Could not locate Essay 1 subsection {index} heading.")
     converted = md_to_typst(body, f"essay-{essay['order']}")
     parts.append(converted + "\n")
 
