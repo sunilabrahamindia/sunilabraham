@@ -684,14 +684,16 @@ def clean_source(path):
             (r"\*\*\(c\) \*Dasara\*\*\*", "(c) #emph[Dasara]"),
             (r"\*\*\(d\) \*Deepavali\*\*\*", "(d) #emph[Deepavali]"),
         ]
-        for index, (pattern, label) in enumerate(festival_labels, start=1):
-            marker = f"TSAPESSAY6FESTIVALLABEL{index}TOKEN"
-            cleaned, count = re.subn(
-                re.compile("^" + pattern + "$", re.M),
-                marker,
-                cleaned,
-                count=1,
+        for pattern, label in festival_labels:
+            replacement = (
+                "```{=typst}\n"
+                "#block(width: 100%, above: 14pt, below: 14pt)[\n"
+                "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
+                f'  #text(weight: "bold")[{label}]\n'
+                "]\n"
+                "```"
             )
+            cleaned, count = re.subn(re.compile("^" + pattern + "$", re.M), replacement, cleaned, count=1)
             if count != 1:
                 raise SystemExit("Essay 6 festival label formatting check failed: " + label)
 
@@ -834,50 +836,6 @@ def md_to_typst(markdown, stem):
             return indented_first
         return indented_first + "\n\n" + convert(remaining, f"{suffix}-rest")
 
-    # Keep each Essay 6 festival label with its following paragraph.
-    # Convert the paragraph separately, then group both in one non-breakable
-    # Typst block so a label cannot be stranded at the foot of a page.
-    festival_label_text = {
-        1: "(a) #emph[Makara Sankranti]",
-        2: "(b) #emph[Agate Male Ungalu] (#emph[Hasta Malai])",
-        3: "(c) #emph[Gangamma] festival",
-        4: "(d) #emph[Sapplamma] festival",
-        5: "(e) An egalitarian spiritual practice during the #emph[Karaga]",
-        6: "(a) #emph[Sri Ramanavami]",
-        7: "(b) #emph[Naga Panchami]",
-        8: "(c) #emph[Dasara]",
-        9: "(d) #emph[Deepavali]",
-    }
-    festival_blocks = {}
-    for index, label in festival_label_text.items():
-        marker = f"TSAPESSAY6FESTIVALLABEL{index}TOKEN"
-        placeholder = f"TSAPESSAY6KEEPBLOCK{index}TOKEN"
-        match = re.search(
-            rf"(?m)^{marker}[ \t]*\n\n(.*?)(?=\n[ \t]*\n|\Z)",
-            markdown_without_definitions,
-            re.S,
-        )
-        if not match:
-            continue
-        paragraph = match.group(1).strip()
-        if not paragraph:
-            raise SystemExit(f"Essay 6 festival label {index} has no following paragraph.")
-        paragraph_typst = convert(paragraph, f"festival-{index}-paragraph")
-        festival_blocks[placeholder] = (
-            "#block(width: 100%, above: 14pt, below: 14pt, breakable: false)[\n"
-            "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
-            f'  #text(weight: "bold")[{label}]\n'
-            "  #v(14pt)\n"
-            "  #set par(justify: true, first-line-indent: 12.1pt, hanging-indent: 0pt, leading: 9pt, spacing: 10pt)\n"
-            f"  {paragraph_typst}\n"
-            "]"
-        )
-        markdown_without_definitions = (
-            markdown_without_definitions[:match.start()]
-            + placeholder
-            + markdown_without_definitions[match.end():]
-        )
-
     parts = []
     cursor = 0
     pattern = re.compile(r"@@POEM_START@@(.*?)@@POEM_END@@", re.S)
@@ -914,12 +872,8 @@ def md_to_typst(markdown, stem):
             remainder_typst = convert(remainder, "prose-final")
         parts.append(remainder_typst)
     if not parts:
-        result = convert(markdown_without_definitions, "main")
-    else:
-        result = "\n\n".join(parts)
-    for placeholder, typst_block in festival_blocks.items():
-        result = result.replace(placeholder, typst_block)
-    return result
+        return convert(markdown_without_definitions, "main")
+    return "\n\n".join(parts)
 
 def lint_typst(source):
     """Fail if a document-level par rule other than the two approved ones exists."""
