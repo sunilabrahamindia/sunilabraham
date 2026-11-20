@@ -668,6 +668,22 @@ def clean_source(path):
 
     cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
 
+    # Preserve the two approved weak page breaks in Essay 6 without
+    # applying any special paragraph formatting to the festival labels.
+    if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
+        for pattern in (
+            r"\*\*\(e\) An egalitarian spiritual practice during the \*Karaga\*\*\*",
+            r"\*\*\(c\) \*Dasara\*\*\*",
+        ):
+            cleaned, count = re.subn(
+                re.compile("^" + pattern + "$", re.M),
+                lambda match: "\\`\\`\\`{=typst}\n#pagebreak(weak: true)\n\\`\\`\\`\n\n" + match.group(0),
+                cleaned,
+                count=1,
+            )
+            if count != 1:
+                raise SystemExit("Essay 6 weak page-break insertion check failed: " + pattern)
+
     for token, heading in heading_tokens.items():
         # Render Markdown headings through the same raw Typst heading path as
         # HTML headings. This prevents Pandoc from splitting a long heading's
