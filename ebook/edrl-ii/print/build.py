@@ -669,8 +669,8 @@ def clean_source(path):
     essay6_pagebreak_tokens = {}
     if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
         for index, pattern in enumerate((
-            r"<p>\s*<strong>\s*\(e\).*?Karaga.*?</strong>\s*</p>",
-            r"<p>\s*<strong>\s*\(c\).*?Dasara.*?</strong>\s*</p>",
+            r"<p>\s*<strong>\s*\(e\)\s*An egalitarian spiritual practice during the\s*<em>Karaga</em>\s*</strong>\s*</p>",
+            r"<p>\s*<strong>\s*\(c\)\s*<em>Dasara</em>\s*</strong>\s*</p>",
         )):
             token = "TSAP_ESSAY6_PAGEBREAK_" + str(index) + "_PRESERVE"
             body, count = re.subn(pattern, lambda match: "<p>" + token + "</p>\n" + match.group(0), body, count=1, flags=re.I | re.S)
