@@ -666,7 +666,35 @@ def clean_source(path):
             del heading_tokens[token]
             break
 
+    essay6_label_tokens = {}
+    if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
+        label_pattern = re.compile(
+            r"<p>\s*<strong>\s*\([a-e]\).*?</strong>\s*</p>",
+            re.I | re.S,
+        )
+        matches = list(label_pattern.finditer(body))
+        if len(matches) != 9:
+            raise SystemExit(
+                "Essay 6 source-label check failed: expected 9 lowercase labels, "
+                f"found {len(matches)}."
+            )
+
+        def protect_essay6_label(match):
+            token = f"TSAP_ESSAY6_LABEL_{len(essay6_label_tokens)}_PRESERVE"
+            label_soup = BeautifulSoup(match.group(0), "html.parser")
+            label_typst = html_inline_to_typst(label_soup.p.strong)
+            essay6_label_tokens[token] = (
+                "\n\n```{=typst}\n"
+                "#par(first-line-indent: 0pt)[" + label_typst + "]\n"
+                "```\n\n"
+            )
+            return "<p>" + token + "</p>"
+
+        body = label_pattern.sub(protect_essay6_label, body)
+
     cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
+    for token, typst_label in essay6_label_tokens.items():
+        cleaned = cleaned.replace(token, typst_label)
 
     # Preserve the two approved weak page breaks in Essay 6 without
     # applying any special paragraph formatting to the festival labels.
@@ -684,30 +712,6 @@ def clean_source(path):
             if count != 1:
                 raise SystemExit("Essay 6 weak page-break insertion check failed: " + pattern)
 
-        # Render only Essay 6's lowercase festival labels (a)-(e) flush-left.
-        # Keep their bold/italic styling and leave every following body
-        # paragraph, including its indentation and spacing, unchanged.
-        label_pattern = re.compile(
-            r"<p>\s*<strong>\s*\([a-e]\).*?</strong>\s*</p>",
-            re.I | re.S,
-        )
-        label_matches = list(label_pattern.finditer(cleaned))
-        if len(label_matches) != 9:
-            raise SystemExit(
-                "Essay 6 festival-label check failed: expected 9 lowercase labels, "
-                f"found {len(label_matches)}."
-            )
-
-        def render_essay6_label(match):
-            label_soup = BeautifulSoup(match.group(0), "html.parser")
-            label_typst = html_inline_to_typst(label_soup.p.strong)
-            return (
-                "\n\n```{=typst}\n"
-                "#par(first-line-indent: 0pt)[" + label_typst + "]\n"
-                "```\n\n"
-            )
-
-        cleaned = label_pattern.sub(render_essay6_label, cleaned)
 
     for token, heading in heading_tokens.items():
         # Render Markdown headings through the same raw Typst heading path as
