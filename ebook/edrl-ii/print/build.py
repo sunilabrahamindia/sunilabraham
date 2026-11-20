@@ -668,46 +668,6 @@ def clean_source(path):
 
     cleaned = extract_footnotes_and_clean(body, promote_wrapped_headings=(full is not None))
 
-    # Essay 6: render all parallel festival labels in Sections A and B
-    # through the same explicit, flush-left Typst paragraph treatment.
-    # Essay 6: render the five parallel festival labels as explicit, flush-left
-    # bold paragraph blocks, independent of the surrounding body indentation.
-    if path.name == "religion-way-salvation-ideology-oppression-full-text.md":
-        festival_labels = [
-            (r"\*\*\(a\) \*Makara Sankranti\*\*\*", "(a) #emph[Makara Sankranti]"),
-            (r"\*\*\(b\) \*Agate Male Ungalu\* \(\*Hasta Malai\*\)\*\*", "(b) #emph[Agate Male Ungalu] (#emph[Hasta Malai])"),
-            (r"\*\*\(c\) \*Gangamma\* festival\*\*", "(c) #emph[Gangamma] festival"),
-            (r"\*\*\(d\) \*Sapplamma\* festival\*\*", "(d) #emph[Sapplamma] festival"),
-            (r"\*\*\(e\) An egalitarian spiritual practice during the \*Karaga\*\*\*", "(e) An egalitarian spiritual practice during the #emph[Karaga]"),
-            (r"\*\*\(a\) \*Sri Ramanavami\*\*\*", "(a) #emph[Sri Ramanavami]"),
-            (r"\*\*\(b\) \*Naga Panchami\*\*\*", "(b) #emph[Naga Panchami]"),
-            (r"\*\*\(c\) \*Dasara\*\*\*", "(c) #emph[Dasara]"),
-            (r"\*\*\(d\) \*Deepavali\*\*\*", "(d) #emph[Deepavali]"),
-        ]
-        # Apply the Essay 1 weak-page-break treatment only to the two
-        # Section B labels identified in the print proof. A weak break moves
-        # the label with its following paragraph when the remaining page space
-        # is insufficient, without forcing an unnecessary blank page.
-        pagebreak_labels = {
-            "(e) An egalitarian spiritual practice during the #emph[Karaga]",
-            "(c) #emph[Dasara]",
-        }
-        for pattern, label in festival_labels:
-            pagebreak = "#pagebreak(weak: true)\\n" if label in pagebreak_labels else ""
-            replacement = (
-                "```{=typst}\n"
-                + pagebreak
-                + "#block(width: 100%, above: 14pt, below: 14pt)[\n"
-                "  #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 12.65pt, spacing: 0pt)\n"
-                f'  #text(weight: "bold")[{label}]\n'
-                "]\n"
-                "```"
-            )
-            cleaned, count = re.subn(re.compile("^" + pattern + "$", re.M), replacement, cleaned, count=1)
-            if count != 1:
-                raise SystemExit("Essay 6 festival label formatting check failed: " + label)
-
-
     for token, heading in heading_tokens.items():
         # Render Markdown headings through the same raw Typst heading path as
         # HTML headings. This prevents Pandoc from splitting a long heading's
