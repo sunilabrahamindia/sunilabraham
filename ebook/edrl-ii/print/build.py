@@ -1457,7 +1457,7 @@ for essay in essays:
             target = re.compile(pattern)
             def render_heading(match, heading_number=number):
                 heading_typst = md_to_typst(match.group(0), f"essay-1-heading-{heading_number}")
-                content_block = "#v(12pt, weak: false)\n#par(first-line-indent: 0pt)[" + heading_typst + "]"
+                content_block = "#v(10pt, weak: false)\n#par(first-line-indent: 0pt)[" + heading_typst + "]"
                 if heading_number == 3:
                     content_block = "#pagebreak(weak: true)\n" + content_block
                 return "\n\n" + fence + "{=typst}\n" + content_block + "\n" + fence + "\n\n"
