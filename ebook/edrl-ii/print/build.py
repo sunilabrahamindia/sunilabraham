@@ -1444,22 +1444,22 @@ for essay in essays:
         # Preserve the original Markdown headings. Only switch off first-line
         # indentation for each heading, then restore the normal body indent.
         heading_specs = [
-            (r"(?m)^\\*\\*1\\. The \\*saktis\\* of the gaps will disappear\\*\\*$", 1),
-            (r"(?m)^\\*\\*2\\. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world\\.\\*\\*$", 2),
-            (r"(?m)^\\*\\*3\\. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history\\.\\*\\*$", 3),
-            (r"(?m)^\\*\\*4\\. Evil spirits are on their way out\\*\\*$", 4),
-            (r"(?m)^\\*\\*5\\. Decline in the observance of domestic rituals and prayer\\*\\*$", 5),
-            (r"(?m)^\\*\\*6\\. Will the sacred cow return\\?\\*\\*$", 6),
+            (r"(?m)^\*\*1\. The \*saktis\* of the gaps will disappear\*\*$", 1),
+            (r"(?m)^\*\*2\. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world\.\*\*$", 2),
+            (r"(?m)^\*\*3\. In the process of reinterpretation and reconstruction of the concept of God or Supreme Self, there will be greater interaction between the God of play and the God of history\.\*\*$", 3),
+            (r"(?m)^\*\*4\. Evil spirits are on their way out\*\*$", 4),
+            (r"(?m)^\*\*5\. Decline in the observance of domestic rituals and prayer\*\*$", 5),
+            (r"(?m)^\*\*6\. Will the sacred cow return\?\*\*$", 6),
         ]
         fence = chr(96) * 3
         for pattern, number in heading_specs:
             target = re.compile(pattern)
             def render_heading(match, heading_number=number):
                 heading_typst = convert(match.group(0), f"essay-1-heading-{heading_number}")
-                content_block = "#block[\\n  #set par(first-line-indent: 0pt)\\n" + heading_typst + "\\n]"
+                content_block = "#block[\n  #set par(first-line-indent: 0pt)\n" + heading_typst + "\n]"
                 if heading_number == 3:
-                    content_block = "#pagebreak(weak: true)\\n" + content_block
-                return "\\n\\n" + fence + "{=typst}\\n" + content_block + "\\n" + fence + "\\n\\n"
+                    content_block = "#pagebreak(weak: true)\n" + content_block
+                return "\n\n" + fence + "{=typst}\n" + content_block + "\n" + fence + "\n\n"
             body, count = target.subn(render_heading, body, count=1)
             if count != 1:
                 raise SystemExit(f"Could not locate Essay 1 subsection {number} heading.")
