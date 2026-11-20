@@ -1448,9 +1448,8 @@ for essay in essays:
         ]
         for index, (source_heading, typst_heading) in enumerate(heading_specs, start=1):
             target = re.compile(r"(?m)^" + re.escape(source_heading) + r"$")
-            replacement = "\n\n```{=typst}\n#par(first-line-indent: 0pt)[" + typst_heading + "]\n```\n\n"
-            if index == 3:
-                replacement = "\n\n```{=typst}\n#pagebreak(weak: true)\n```\n\n" + replacement.lstrip("\n")
+            typst_content = ("#pagebreak(weak: true)\n" if index == 3 else "") + "#par(first-line-indent: 0pt)[" + typst_heading + "]"
+            replacement = "\n\n```{=typst}\n" + typst_content + "\n```\n\n"
             body, count = target.subn(lambda match, value=replacement: value, body, count=1)
             if count != 1:
                 raise SystemExit(f"Could not locate Essay 1 subsection {index} heading.")
