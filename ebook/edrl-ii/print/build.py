@@ -1416,8 +1416,9 @@ for essay in essays:
   #v(7pt)
   #image("essay-divider.svg", width: 100%)
   #v(5pt)
-  #align(center)[
-    #text(size: 7.5pt, weight: "bold", tracking: 0.65pt, fill: luma(85))[ORIGINAL PUBLICATION: ]
+  #align(left)[
+    #text(size: 7.5pt, weight: "bold", tracking: 0.65pt, fill: luma(85))[ORIGINAL PUBLICATION:]
+    #linebreak()
     #text(size: 9.5pt, style: "italic", fill: luma(65))[{essay['publication_note']}]
   ]
   #v(5pt)
