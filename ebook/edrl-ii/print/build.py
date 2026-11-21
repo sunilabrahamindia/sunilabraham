@@ -1176,7 +1176,7 @@ parts.append(r"""
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINT COORDINATION]],
         [#text(size: 9.5pt)[Herbert Paul]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[PRINTED BY]],
-        [#text(size: 9.5pt)[National Printing Press, Bengaluru, India]],
+        [#text(size: 9.5pt)[National Printing Press Bengaluru]],
       )
 
       #v(18pt)
