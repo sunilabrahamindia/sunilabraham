@@ -1465,9 +1465,9 @@ for essay in essays:
         ).stdout.strip()
         fence = chr(96) * 3
         point10_block = (
-            "\\n\\n" + fence + "{=typst}\\n"
-            + "#block(breakable: false)[\\n" + point10_typst + "\\n]"
-            + "\\n" + fence + "\\n\\n"
+            "\n\n" + fence + "{=typst}\n"
+            + "#block(breakable: false)[\n" + point10_typst + "\n]"
+            + "\n" + fence + "\n\n"
         )
         body = body[:point10_match.start()] + point10_block + body[point10_match.end():]
 
@@ -1484,7 +1484,7 @@ for essay in essays:
             )
         body = body.replace(
             source_label,
-            "\\n\\n" + fence + "{=typst}\\n" + typst_label + "\\n" + fence + "\\n\\n",
+            "\n\n" + fence + "{=typst}\n" + typst_label + "\n" + fence + "\n\n",
             1,
         )
     if essay["order"] == 1:
