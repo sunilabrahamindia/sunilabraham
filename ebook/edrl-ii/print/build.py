@@ -1049,7 +1049,16 @@ common = r"""
 #show heading.where(level: 1): it => block(width: 100%, above: 0pt, below: 7pt, breakable: false)[
   #set text(font: "Linux Libertine O", size: 18pt, weight: "bold", hyphenate: false)
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 11.7pt, spacing: 0pt)
-  #align(center)[#it]
+  // Keep the original heading content intact for the outline and running headers.
+  // Apply deliberate line breaks only to these two chapter-title displays.
+  let display-title = if it.body == [Religion, Spirituality and Aspirations of the People] {
+    [Religion, Spirituality and#linebreak()Aspirations of the People]
+  } else if it.body == [Religions and the Aspirations of the People] {
+    [Religions and the#linebreak()Aspirations of the People]
+  } else {
+    it
+  }
+  #align(center)[#display-title]
 ]
 #show heading.where(level: 2): set heading(hanging-indent: 0pt)
 #show heading.where(level: 2): it => block(above: 18pt, below: 16pt, breakable: false)[
