@@ -1447,26 +1447,46 @@ for essay in essays:
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     if essay["order"] == 3:
-        # Keep only the two subsection labels identified during PDF review
-        # with the text that follows. Leave the other nine labels untouched.
-        sticky_labels = {
-            "(8) *That faith is faith's own proof is the argument of many people.*":
-                "#block(sticky: true)[#par(first-line-indent: 0pt)[(8) #emph[That faith is faith's own proof is the argument of many people.]]]",
-            "(10) *The gods show signs.*":
-                "#block(sticky: true)[#par(first-line-indent: 0pt)[(10) #emph[The gods show signs.]]]",
-        }
+        # Keep point 10's heading, introductory sentence and first quotation
+        # together as one unbreakable unit. This is local to point 10; the
+        # other numbered items and their indentation remain untouched.
+        point10_pattern = re.compile(
+            r"(?ms)^\\(10\\) \\*The gods show signs\\.\\* "
+            r"Signs believed to be from gods led some people to affirm faith in gods\\.\\n\\n"
+            r"> 'If we do not offer hair,.*?(?=\\n\\n>)"
+        )
+        point10_match = point10_pattern.search(body)
+        if not point10_match:
+            raise SystemExit("Could not locate Essay 3 point 10 and its first quotation.")
+        point10_markdown = point10_match.group(0)
+        point10_typst = subprocess.run(
+            ["pandoc", "--from=markdown+raw_attribute", "--to=typst"],
+            input=point10_markdown, capture_output=True, text=True, check=True,
+        ).stdout.strip()
         fence = chr(96) * 3
-        for source_label, typst_label in sticky_labels.items():
-            if body.count(source_label) != 1:
-                raise SystemExit(
-                    f"Essay 3 sticky-label check failed for {source_label!r}: "
-                    f"expected one occurrence, found {body.count(source_label)}."
-                )
-            replacement = (
-                "\n\n" + fence + "{=typst}\n"
-                + typst_label + "\n" + fence + "\n\n"
+        point10_block = (
+            "\\n\\n" + fence + "{=typst}\\n"
+            + "#block(breakable: false)[\\n" + point10_typst + "\\n]"
+            + "\\n" + fence + "\\n\\n"
+        )
+        body = body[:point10_match.start()] + point10_block + body[point10_match.end():]
+
+        # Point 8 alone retains its existing sticky heading treatment.
+        source_label = "(8) *That faith is faith's own proof is the argument of many people.*"
+        typst_label = (
+            "#block(sticky: true)[#par(first-line-indent: 0pt)"
+            "[(8) #emph[That faith is faith's own proof is the argument of many people.]]]"
+        )
+        if body.count(source_label) != 1:
+            raise SystemExit(
+                f"Essay 3 sticky-label check failed for {source_label!r}: "
+                f"expected one occurrence, found {body.count(source_label)}."
             )
-            body = body.replace(source_label, replacement, 1)
+        body = body.replace(
+            source_label,
+            "\\n\\n" + fence + "{=typst}\\n" + typst_label + "\\n" + fence + "\\n\\n",
+            1,
+        )
     if essay["order"] == 1:
         # Keep all six subsection headings with the paragraph that follows.
         # Render each heading as a sticky block so pagination does not leave
