@@ -1447,14 +1447,10 @@ for essay in essays:
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
     if essay["order"] == 1:
-        # Keep subsection 3's weak page break and render all six subsection
-        # headings as flush-left bold paragraphs. The following prose retains
-        # the normal body paragraph first-line indent.
-        # Keep the weak page break before subsection 3. Temporarily switch off
-        # first-line indentation for each bold subsection heading, then restore
-        # the standard body indent immediately after it.
-        # Preserve the original Markdown headings. Only switch off first-line
-        # indentation for each heading, then restore the normal body indent.
+        # Keep all six subsection headings with the paragraph that follows.
+        # Render each heading as a sticky block so pagination does not leave
+        # the heading stranded at the foot of a page. Original Markdown
+        # headings and following body paragraphs remain unchanged.
         heading_specs = [
             (r"(?m)^\*\*1\. The \*saktis\* of the gaps will disappear\*\*$", 1),
             (r"(?m)^\*\*2\. The religious man will reinterpret and reconstruct his concept of God to undergird his world of meaning in the modern secular world\.\*\*$", 2),
@@ -1468,9 +1464,7 @@ for essay in essays:
             target = re.compile(pattern)
             def render_heading(match, heading_number=number):
                 heading_typst = md_to_typst(match.group(0), f"essay-1-heading-{heading_number}")
-                content_block = "#par(first-line-indent: 0pt)[" + heading_typst + "]"
-                if heading_number == 3:
-                    content_block = "#pagebreak(weak: true)\n" + content_block
+                content_block = "#block(sticky: true)[#par(first-line-indent: 0pt)[" + heading_typst + "]]"
                 return "\n\n" + fence + "{=typst}\n" + content_block + "\n" + fence + "\n\n"
             body, count = target.subn(render_heading, body, count=1)
             if count != 1:
