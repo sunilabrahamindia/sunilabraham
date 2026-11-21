@@ -1397,7 +1397,6 @@ At the time of his death on 29 November 1996, Abraham Ayrookuzhiel was working o
   target: heading.where(level: 1),
 )
 #set heading(outlined: true)
-#pagebreak()
 """)
 
 for essay in essays:
