@@ -1051,7 +1051,7 @@ common = r"""
   #set par(justify: false, first-line-indent: 0pt, hanging-indent: 0pt, leading: 11.7pt, spacing: 0pt)
   // Keep the original heading content intact for the outline and running headers.
   // Apply deliberate line breaks only to these two chapter-title displays.
-  let display-title = if it.body == [Religion, Spirituality and Aspirations of the People] {
+  #let display-title = if it.body == [Religion, Spirituality and Aspirations of the People] {
     [Religion, Spirituality and#linebreak()Aspirations of the People]
   } else if it.body == [Religions and the Aspirations of the People] {
     [Religions and the#linebreak()Aspirations of the People]
