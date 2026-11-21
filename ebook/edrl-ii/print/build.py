@@ -1446,6 +1446,28 @@ for essay in essays:
     body = clean_source(source)
     if len(body) < 500:
         raise SystemExit(f"Extraction looks incomplete for {title}: only {len(body)} characters.")
+    if essay["order"] == 3:
+        # Keep only the two subsection labels identified during PDF review
+        # with the text that follows. Leave the other nine labels untouched.
+        sticky_labels = {
+            "(8) *That faith is faith's own proof is the argument of many people.*":
+                "#block(sticky: true)[#par(first-line-indent: 0pt)[(8) #emph[That faith is faith's own proof is the argument of many people.]]]",
+            "(10) *The gods show signs.*":
+                "#block(sticky: true)[#par(first-line-indent: 0pt)[(10) #emph[The gods show signs.]]]",
+        }
+        fence = chr(96) * 3
+        for source_label, typst_label in sticky_labels.items():
+            token = f"TSAP_ESSAY3_STICKY_LABEL_{source_label.split(')')[0][1:]}_PRESERVE"
+            if body.count(source_label) != 1:
+                raise SystemExit(
+                    f"Essay 3 sticky-label check failed for {source_label!r}: "
+                    f"expected one occurrence, found {body.count(source_label)}."
+                )
+            replacement = (
+                "\\n\\n" + fence + "{=typst}\\n"
+                + typst_label + "\\n" + fence + "\\n\\n"
+            )
+            body = body.replace(source_label, replacement.strip("\\n"), 1)
     if essay["order"] == 1:
         # Keep all six subsection headings with the paragraph that follows.
         # Render each heading as a sticky block so pagination does not leave
