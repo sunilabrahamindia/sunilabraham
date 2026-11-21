@@ -1451,9 +1451,9 @@ for essay in essays:
         # together as one unbreakable unit. This is local to point 10; the
         # other numbered items and their indentation remain untouched.
         point10_pattern = re.compile(
-            r"(?ms)^\\(10\\) \\*The gods show signs\\.\\* "
-            r"Signs believed to be from gods led some people to affirm faith in gods\\.\\n\\n"
-            r"> 'If we do not offer hair,.*?(?=\\n\\n>)"
+            r"(?ms)^\(10\) \*The gods show signs\.\* "
+            r"Signs believed to be from gods led some people to affirm faith in gods\.\n\n"
+            r"> 'If we do not offer hair,.*?(?=\n\n>)"
         )
         point10_match = point10_pattern.search(body)
         if not point10_match:
