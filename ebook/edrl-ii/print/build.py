@@ -1167,7 +1167,7 @@ parts.append(r"""
         [#text(size: 9.5pt)[publications\@sunilabraham.in]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[EDITOR]],
         [#text(size: 9.5pt)[Tito Dutta]],
-        [#text(size: 8pt, weight: "bold", fill: luma(85))[COVER ILLUSTRATION CONCEPT]],
+        [#text(size: 8pt, weight: "bold", tracking: 0pt, fill: luma(85))[COVER ILLUSTRATION CONCEPT]],
         [#text(size: 9.5pt)[Ezme Davis]],
         [#text(size: 8pt, weight: "bold", fill: luma(85))[COVER DESIGN]],
         [#text(size: 9.5pt)[Herbert Paul]],
