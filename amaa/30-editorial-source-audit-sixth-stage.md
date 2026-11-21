@@ -4,7 +4,6 @@ title: "Editorial Source Audit: Sixth Stage — Print Proof and Pagination Revie
 permalink: /amaa/30-editorial-source-audit-sixth-stage/
 categories: [A. M. A. Ayrookuzhiel, 30th Death Anniversary Commemoration]
 description: "Sixth-stage editorial source audit for Essays on Dalits, Religion and Liberation II, documenting print-proof pagination, paragraph and poem leading, and targeted production corrections."
-page_id: TSAP-1389
 created: 2026-11-20
 ---
 
@@ -180,6 +179,43 @@ No change was made to the essay manuscript wording. The H1, H2, H3 and H4 headin
 A successful build confirms compilation only. The final visual appearance of the bold paragraph spacing remains subject to the user's proof review.
 
 **Status:** The current script has no additional explicit vertical gap before or after the bold subsection paragraphs. It uses the normal body paragraph spacing. The only explicit weak page break among subsections 1–6 remains the one before subsection 3.
+
+### 21 November 2026 — Essay 2 and Essay 5 title line-break corrections
+
+The print proof showed title line-break issues in Essays 2 and 5. The corrections were made in the print-production workflow. An initial attempt did not complete successfully; the matching logic was corrected and the subsequent EDRL II print-proof workflow **#622** completed successfully.
+
+**Verification:** Build #622 confirms that the corrected production script compiled and generated the print proof. The build result alone does not establish that every title is visually correct; the relevant title pages remain subject to visual review.
+
+**Status:** Corrected title handling committed; build #622 successful.
+
+### 21 November 2026 — Essay 1: keep subsection headings together
+
+The Essay 1 subsection headings were given sticky block treatment so that a heading is kept with the text that follows it, rather than being stranded at the bottom of a page. The treatment was applied to the six subsection headings only.
+
+**Verification:** EDRL II print-proof workflow **#623** completed successfully. The user inspected all six headings and confirmed that they were correct. Chapter 2 was also inspected and reported as satisfactory.
+
+**Status:** Build #623 successful; all six Essay 1 subsection headings visually approved by the user; Chapter 2 check satisfactory.
+
+### 21 November 2026 — Essay 3: correct the page composition of points 8 and 10
+
+**Essay 3 — The Living Hindu Popular Religious Consciousness and Some Reflections on It in the Context of Hindu-Christian Dialogue**
+
+The proofing issue concerned two numbered items in Section I.B, "The Reasons of their religious outlook in life":
+
+- **Point 8:** "That faith is faith's own proof is the argument of many people."
+- **Point 10:** "The gods show signs."
+
+The point 8 heading and the point 10 heading with its introductory sentence and opening quotation required special page-composition treatment to prevent the headings from being stranded. The correction was confined to the Essay 3 processing in `ebook/edrl-ii/print/build.py`; the essay manuscript wording was not changed.
+
+An earlier implementation emitted literal backslash-n sequences around the raw Typst blocks. This meant that the Typst markup could be printed as text instead of being interpreted. The final correction replaced those literal sequences with actual newline characters in the two targeted replacements.
+
+**Commit:** `4477b3dfc57f1ed2b962efdd0dafda98a3b42880` — "Fix raw Typst fences for Essay 3 points 8 and 10".
+
+**Verification:** EDRL II print-proof workflow [#628](https://github.com/sunilabrahamindia/sunilabraham/actions/runs/44882167556) completed successfully and produced the artifact `edrl-ii-print-preview-628`. In that PDF, point 8 is on PDF page 50 (printed page 31), and point 10, "The gods show signs", begins on PDF page 51 (printed page 32).
+
+The user visually inspected the relevant section and confirmed that all eleven numbered items were correct. The user then continued through PDF pages 6–9 and reported no page-break issue or other problem on those pages. The user considered Build #628 satisfactory and continued a review of the interior. The cover design is being handled separately and is outside this interior proof review.
+
+**Status:** Targeted Essay 3 correction committed; build #628 successful; points 8 and 10 and all eleven items in the section visually approved; the user reported no issue on the subsequent review of PDF pages 6–9. Interior review continued beyond those pages.
 
 ## Outstanding proof checks
 
