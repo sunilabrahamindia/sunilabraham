@@ -1159,7 +1159,7 @@ parts.append(r"""
       #v(16pt)
 
       #grid(
-        columns: (44mm, 1fr),
+        columns: (58mm, 1fr),
         column-gutter: 4mm,
         row-gutter: 8.25pt,
         align: (left, left),
